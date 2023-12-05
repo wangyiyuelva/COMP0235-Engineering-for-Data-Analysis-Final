@@ -23,7 +23,7 @@ def run_hhsearch(a3m_file):
     """
     cmd = ['/home/ec2-user/hhsuite/bin/hhsearch',
            '-i', a3m_file, '-cpu', '1', '-d', 
-           '/home/ec2-user/data/pdb70/pdb70_database']
+           '/home/ec2-user/data/pdb70/pdb70']
     print(f'STEP 3: RUNNING HHSEARCH: {" ".join(cmd)}')
     p = Popen(cmd, stdin=PIPE,stdout=PIPE, stderr=PIPE)
     out, err = p.communicate()
