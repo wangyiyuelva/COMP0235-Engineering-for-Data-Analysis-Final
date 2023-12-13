@@ -20,12 +20,13 @@ def read_input(file):
 if __name__ == "__main__":
     target = {}
     with open("experiment_ids.txt", "r") as f:
-        for i, line in enumerate(f): 
+        for i, line in enumerate(f):
             target[line[:-1]] = i
     records = read_input(sys.argv[1])
     for record in records:
         if record.id in target:
-            output_file = "./input_data/input_" + "{:04d}".format(target[record.id]) + ".fa"
+						
+            output_file = "./input_data/batch_" + str(target[record.id] // 1000) + "/input_" + "{:04d}".format(target[record.id]) + ".fa"
             with open(output_file, "w") as fh_out:
                 fh_out.write(f">{record.description}\n")
                 fh_out.write(f"{record.seq}\n")
