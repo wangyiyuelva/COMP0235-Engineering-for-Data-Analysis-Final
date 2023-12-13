@@ -1,4 +1,5 @@
 import sys
+import logging
 from subprocess import Popen, PIPE
 from Bio import SeqIO
 
@@ -76,11 +77,14 @@ def read_input(file):
 
 if __name__ == "__main__":
     
+    FORMAT = '%(asctime)s:%(message)s'
+    logging.basicConfig(level=logging.DEBUG, filename='Log.log', filemode='a', format=FORMAT)
+    logging.info(' %s start running...', sys.argv[1])
     sequences = read_input(sys.argv[1])
-    tmp_file = "tmp.fas"
-    horiz_file = "tmp.horiz"
-    a3m_file = "tmp.a3m"
-    hhr_file = "tmp.hhr"
+    tmp_file = "tmp/" + str(sys.argv[1])[11:15] + ".fas"
+    horiz_file = "tmp/" + str(sys.argv[1])[11:15] + ".horiz"
+    a3m_file = "tmp/" + str(sys.argv[1])[11:15] + ".a3m"
+    hhr_file = "tmp/" + str(sys.argv[1])[11:15] + ".hhr"
     for k, v in sequences.items():
         with open(tmp_file, "w") as fh_out:
             fh_out.write(f">{k}\n")
@@ -89,3 +93,4 @@ if __name__ == "__main__":
         read_horiz(tmp_file, horiz_file, a3m_file)
         run_hhsearch(a3m_file)
         run_parser(hhr_file)
+    logging.info(' %s is Done.', sys.argv[1])

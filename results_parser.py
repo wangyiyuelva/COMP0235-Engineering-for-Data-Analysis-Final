@@ -1,3 +1,4 @@
+import sys
 from Bio import SearchIO
 import numpy as np
 from scipy.stats import gmean
@@ -6,7 +7,8 @@ best_hit = []
 best_score = 0
 good_hit_scores  = []
 id = ''
-for result in SearchIO.parse('tmp.hhr', 'hhsuite3-text'):
+infile = sys.argv[1]
+for result in SearchIO.parse(infile, 'hhsuite3-text'):
     id=result.id
     for hit in result.hits:
         if hit.score >= best_score:
@@ -14,8 +16,8 @@ for result in SearchIO.parse('tmp.hhr', 'hhsuite3-text'):
             best_hit = [hit.id, hit.evalue, hit.score]
         if hit.evalue < 1.e-5:
             good_hit_scores.append(hit.score)
-
-fhOut = open("hhr_parse.out", "w")
+outfile = "output/" + str(sys.argv[1])[4:8] + ".out"
+fhOut = open(outfile, "w")
 fhOut.write("query_id,best_hit,best_evalue,best_score,score_mean,score_std,score_gmean\n")
 mean=format(np.mean(good_hit_scores), ".2f")
 std=format(np.std(good_hit_scores), ".2f")
