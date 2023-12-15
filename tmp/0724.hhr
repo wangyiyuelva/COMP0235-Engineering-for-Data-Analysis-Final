@@ -1,0 +1,239 @@
+Query         tr|K7EMG7|K7EMG7_HUMAN
+Match_columns 127
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 12:34:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0724.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6B9H_A Hook3, Cytoplasmic dyne  99.7 9.3E-16   1E-20  104.7   7.4   81    2-82     80-160 (161)
+  2 1WIX_A HOOK1, structural genom  99.6 6.7E-15 7.3E-20  100.4   7.1   87    2-88     77-163 (164)
+  3 6QJA_A Nuclear mitotic apparat  99.1   1E-09 1.1E-14   76.2   6.2   88    2-93     64-151 (157)
+  4 6QJA_B Nuclear mitotic apparat  99.1   1E-09 1.1E-14   76.2   6.2   88    2-93     64-151 (157)
+  5 4JHD_C Actin-5C, Protein cordo  19.7      62 0.00068   26.7  -0.3   11   70-80     20-30  (171)
+  6 3JRT_A Integron cassette prote  19.3 4.1E+02  0.0044   21.9   4.0   67    4-83    118-191 (192)
+  7 5LGF_A Telomerase reverse tran  19.0      70 0.00076   23.4  -0.2   76    5-90      2-77  (159)
+  8 5NPT_A Telomerase reverse tran  19.0      70 0.00076   23.4  -0.2   76    5-90      2-77  (159)
+  9 2BNW_B ORF OMEGA; DNA-BINDING-  18.1   2E+02  0.0022   16.1   1.6   22   68-89     32-53  (53)
+ 10 2CAX_C ORF OMEGA; TRANSCRIPTIO  18.1   2E+02  0.0022   16.1   1.6   22   68-89     32-53  (53)
+
+No 1
+>6B9H_A Hook3, Cytoplasmic dynein 1 light; Dynein, Dynactin, Effector, Hook, Light; 1.5A {Homo sapiens}
+Probab=99.65  E-value=9.3e-16  Score=104.71  Aligned_cols=81  Identities=58%  Similarity=1.012  Sum_probs=74.9  Template_Neff=8.900
+
+Q ss_pred             CchhHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHH
+Q tr|K7EMG7|K7EM    2 VLRSLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELM   81 (127)
+Q Consensus         2 vlrslveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelm   81 (127)
+                      +++.|..||++.++......+.||+..|+++++..++.+++.+++++|++|+++++||+.|+.|++++|..||.+|+.++
+T Consensus        80 l~~~l~~yy~~~l~~~~~~~~~~d~~~ia~~~~~~ei~kll~lvl~~av~~~~k~~~I~~I~~L~~~~Q~~l~~~Iq~v~  159 (161)
+T 6B9H_A           80 ILKGILDYNHEILGQQINDFTLPDVNLIGEHSDAAELGRMLQLILGCAVNCEQKQEYIQAIMMMEESVQHVVMTAIQELM  159 (161)
+T ss_dssp             HHHHHHHHHHHTSTTCSCCSSCCCHHHHHHHCCHHHHHHHHHHHHHHHTTSTTHHHHHHHHTTSCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhCCCCCCCCCCCHHHHhcCCCHHHHHHHHHHHHHHHHcCCCHHHHHHHHhcCCHHHHHHHHHHHHHHH
+Confidence            56889999999999876567789999999887789999999999999999999999999999999999999999999998
+
+
+Q ss_pred             c
+Q tr|K7EMG7|K7EM   82 T   82 (127)
+Q Consensus        82 t   82 (127)
+                      +
+T Consensus       160 ~  160 (161)
+T 6B9H_A          160 S  160 (161)
+T ss_dssp             C
+T ss_pred             c
+Confidence            6
+
+
+No 2
+>1WIX_A HOOK1, structural genomics, mouse cDNA; NMR {Mus musculus} SCOP: a.40.3.1
+Probab=99.60  E-value=6.7e-15  Score=100.43  Aligned_cols=87  Identities=61%  Similarity=0.985  Sum_probs=79.6  Template_Neff=9.000
+
+Q ss_pred             CchhHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHH
+Q tr|K7EMG7|K7EM    2 VLRSLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELM   81 (127)
+Q Consensus         2 vlrslveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelm   81 (127)
+                      +++.|.+||++.+++.....+.+|+..|+++++..++.+|+.++++++++|+++++||+.|+.|++++|..||.+|++++
+T Consensus        77 l~~~l~~yy~~~l~~~~~~~~~~d~~~ia~~~~~~el~~Ll~lvl~~av~~~~k~~~I~~I~~L~~~~Q~~l~~~I~~v~  156 (164)
+T 1WIX_A           77 VLHGITSYYHEFLGQQISEELIPDLNQITECADPVELGRLLQLILGCAVNCEKKQEHIKNIMTLEESVQHVVMTAIQELM  156 (164)
+T ss_dssp             HHHHHHHCCCCCCCCCCCTTTCCCHHHHHTTCCHHHHHHHHHHHHHHTTSSSTHHHHHHHHHHSCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhCCCcccccCCCHHHHHhCCCHHHHHHHHHHHHHHHHhCcchHHHHHHHhcCCHHHHHHHHHHHHHHH
+Confidence            56788999999998776557789999999888899999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cCCCCCC
+Q tr|K7EMG7|K7EM   82 TKDTPDS   88 (127)
+Q Consensus        82 tkdtpds   88 (127)
+                      +..++++
+T Consensus       157 ~~~~~~~  163 (164)
+T 1WIX_A          157 SKSGPSS  163 (164)
+T ss_dssp             HHCCCCC
+T ss_pred             HhhCCCC
+Confidence            9887765
+
+
+No 3
+>6QJA_A Nuclear mitotic apparatus protein 1; hook domain, motor protein-associated, STRUCTURAL; 1.54A {Homo sapiens}
+Probab=99.05  E-value=1e-09  Score=76.16  Aligned_cols=88  Identities=20%  Similarity=0.182  Sum_probs=77.7  Template_Neff=8.500
+
+Q ss_pred             CchhHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHH
+Q tr|K7EMG7|K7EM    2 VLRSLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELM   81 (127)
+Q Consensus         2 vlrslveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelm   81 (127)
+                      .++.+.+|++++++........+|+..|++++ ..|++|++.+++++|+.|++++   ..|+.|+.++|..||.+|+.++
+T Consensus        64 ~~~~i~~~l~~~~~~~~~~~~~~~~~~i~~~~-~~El~kll~lll~~av~~~~~~---~~i~~Ld~~~Q~~i~~~i~~v~  139 (157)
+T 6QJA_A           64 RLDFVCSFLQKNRKHPSSPECLVSAQKVLEGS-ELELAKMTMLLLYHSTMSSKSP---RDWEQFEYKIQAELAVILKFVL  139 (157)
+T ss_dssp             HHHHHHHHHHHTSSCTTCSSCSCCHHHHHTTC-HHHHHHHHHHHHHHHHTSSSCC---CCGGGSCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCCCCchhcCCHHHHhcCC-HHHHHHHHHHHHHHHHhCCCCc---chhhhCCHHHHHHHHHHHHHHH
+Confidence            35789999999998765556788999999766 6699999999999999999988   6799999999999999999999
+
+
+Q ss_pred             cCCCCCCCChhh
+Q tr|K7EMG7|K7EM   82 TKDTPDSLSPET   93 (127)
+Q Consensus        82 tkdtpdslspet   93 (127)
+                      ++.++++|++.-
+T Consensus       140 ~~~~~~~l~~~l  151 (157)
+T 6QJA_A          140 DHEDGLNLNEDL  151 (157)
+T ss_dssp             HHTTSSSHHHHH
+T ss_pred             hCCCCCCcCcCH
+Confidence            999999987764
+
+
+No 4
+>6QJA_B Nuclear mitotic apparatus protein 1; hook domain, motor protein-associated, STRUCTURAL; 1.54A {Homo sapiens}
+Probab=99.05  E-value=1e-09  Score=76.16  Aligned_cols=88  Identities=20%  Similarity=0.182  Sum_probs=73.1  Template_Neff=8.500
+
+Q ss_pred             CchhHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHH
+Q tr|K7EMG7|K7EM    2 VLRSLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELM   81 (127)
+Q Consensus         2 vlrslveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelm   81 (127)
+                      .++.+.+|++++++........+|+..|++++ ..|++|++.+++++|+.|++++   ..|+.|+.++|..||.+|+.++
+T Consensus        64 ~~~~i~~~l~~~~~~~~~~~~~~~~~~i~~~~-~~El~kll~lll~~av~~~~~~---~~i~~Ld~~~Q~~i~~~i~~v~  139 (157)
+T 6QJA_B           64 RLDFVCSFLQKNRKHPSSPECLVSAQKVLEGS-ELELAKMTMLLLYHSTMSSKSP---RDWEQFEYKIQAELAVILKFVL  139 (157)
+T ss_dssp             HHHHHHHHHHHTSSSTTCSSCSSCHHHHHTTC-HHHHHHHHHHHHHHHHC--------CCCTTSCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCCCCchhcCCHHHHhcCC-HHHHHHHHHHHHHHHHhCCCCc---chhhhCCHHHHHHHHHHHHHHH
+Confidence            35789999999998765556788999999766 6699999999999999999988   6799999999999999999999
+
+
+Q ss_pred             cCCCCCCCChhh
+Q tr|K7EMG7|K7EM   82 TKDTPDSLSPET   93 (127)
+Q Consensus        82 tkdtpdslspet   93 (127)
+                      ++.++++|++.-
+T Consensus       140 ~~~~~~~l~~~l  151 (157)
+T 6QJA_B          140 DHEDGLNLNEDL  151 (157)
+T ss_dssp             HHTTSTTHHHHH
+T ss_pred             hCCCCCCcCcCH
+Confidence            999999987764
+
+
+No 5
+>4JHD_C Actin-5C, Protein cordon-bleu; actin cytoskeleton, actin filament nucleator; HET: ANP; 2.91A {Drosophila melanogaster}
+Probab=19.67  E-value=62  Score=26.68  Aligned_cols=11  Identities=36%  Similarity=0.501  Sum_probs=6.2  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|K7EMG7|K7EM   70 QHVVMEAIQEL   80 (127)
+Q Consensus        70 qhvvmeaiqel   80 (127)
+                      =..||..||.-
+T Consensus        20 HSsLMEAIqsg   30 (171)
+T 4JHD_C           20 HSALMEAIHSS   30 (171)
+T ss_dssp             HHHHHHHHHTT
+T ss_pred             HHHHHHHHHcc
+Confidence            35566666543
+
+
+No 6
+>3JRT_A Integron cassette protein Vpc_cass2; Integron cassette protein, Vibrio paracholerae; HET: MSE; 2.3A {Vibrio paracholerae}
+Probab=19.26  E-value=4.1e+02  Score=21.86  Aligned_cols=67  Identities=15%  Similarity=0.180  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             hhHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhH-------HHHHHHHHHHH
+Q tr|K7EMG7|K7EM    4 RSLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTL-------EESVQHVVMEA   76 (127)
+Q Consensus         4 rslveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtl-------eesvqhvvmea   76 (127)
+                      |.+.+|-.+..|||.+.+.-         .++.|+.++|.-++|-    +...+...-|-..       +.+|-.++.+.
+T Consensus       118 r~I~~fRN~yvAH~~dk~~~---------ls~~E~~~~l~kI~G~----~~~~~Fl~WI~p~~~~~t~~~~svV~~I~~l  184 (192)
+T 3JRT_A          118 TAIKKLRNHCVAHVSDKSKY---------LKPAEVQEEIIKMFDG----NFADEFLDWICPDNISTTDKSESLVGVIELL  184 (192)
+T ss_dssp             HHHHHHHHHHHSCTTCTTSC---------CCHHHHHHHHHHHHTS----SCCHHHHHHHCCTTTTSSCGGGSHHHHHHHH
+T ss_pred             cchHHhcccceecccccCCC---------CCHHHHHHHHHHHhcC----CcHHHHHHHhCCcccCCCCCCCCHHHHHHHH
+
+
+Q ss_pred             HHHHHcC
+Q tr|K7EMG7|K7EM   77 IQELMTK   83 (127)
+Q Consensus        77 iqelmtk   83 (127)
+                      ...+..|
+T Consensus       185 rd~l~~k  191 (192)
+T 3JRT_A          185 RDAVSAK  191 (192)
+T ss_dssp             HHHHCC-
+T ss_pred             HHHHHhh
+
+
+No 7
+>5LGF_A Telomerase reverse transcriptase; Telomerase, TERT, TEN domain, transcription; NMR {Ogataea polymorpha}
+Probab=18.97  E-value=70  Score=23.36  Aligned_cols=76  Identities=8%  Similarity=-0.093  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             hHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHHcCC
+Q tr|K7EMG7|K7EM    5 SLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELMTKD   84 (127)
+Q Consensus         5 slveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelmtkd   84 (127)
+                      +|-+|-...+.-+.       ...+-+..|++++..+|. .+-|.-.+...-..+...-..  +.+.+|..+|+.++.+.
+T Consensus         2 tL~~yl~~~l~~~~-------~~~ll~~~d~~~~~~lL~-t~V~~~~~~~~~~~~~~~~~~--s~~eiI~~~i~~l~~~~   71 (159)
+T 5LGF_A            2 RFDQYVDENKSSDD-------FEPLIHDLFETRWHGTGR-EIWIERVKDRKIPSTLVKPNY--SHEELIDMLIGYLADNR   71 (159)
+T ss_dssp             BHHHHHHHSCSCGG-------GHHHHHHHHGGGTSSSST-TEEEEECSCCCCCTTTTSSCC--CHHHHHHHHHHHTCSCC
+T ss_pred             CHHHHHHhcCCccc-------chhHhccccHHHHHHhcc-EEEEeccCCCCCCCCCCCCCC--CHHHHHHHHHHHHHhcC
+
+
+Q ss_pred             CCCCCC
+Q tr|K7EMG7|K7EM   85 TPDSLS   90 (127)
+Q Consensus        85 tpdsls   90 (127)
+                      ...-|.
+T Consensus        72 ~~NvL~   77 (159)
+T 5LGF_A           72 YENALI   77 (159)
+T ss_dssp             CSSCCS
+T ss_pred             cccEEe
+
+
+No 8
+>5NPT_A Telomerase reverse transcriptase; telomerase, transcription; 2.4A {Ogataea polymorpha}
+Probab=18.97  E-value=70  Score=23.36  Aligned_cols=76  Identities=8%  Similarity=-0.093  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             hHhHHhHHhhcCCCCcccCCCccccccCCCHHHHHHHHHHHHHHHHhchcchHHHHHHhhHHHHHHHHHHHHHHHHHcCC
+Q tr|K7EMG7|K7EM    5 SLVEYSQDVLAHPVSEEHLPDVSLIGEFSDPAELGKLLQLVLGCAISCEKKQDHIQRIMTLEESVQHVVMEAIQELMTKD   84 (127)
+Q Consensus         5 slveysqdvlahpvseehlpdvsligefsdpaelgkllqlvlgcaiscekkqdhiqrimtleesvqhvvmeaiqelmtkd   84 (127)
+                      +|-+|-...+.-+.       ...+-+..|++++..+|. .+-|.-.+...-..+...-..  +.+.+|..+|+.++.+.
+T Consensus         2 tL~~yl~~~l~~~~-------~~~ll~~~d~~~~~~lL~-t~V~~~~~~~~~~~~~~~~~~--s~~eiI~~~i~~l~~~~   71 (159)
+T 5NPT_A            2 RFDQYVDENKSSDD-------FEPLIHDLFETRWHGTGR-EIWIERVKDRKIPSTLVKPNY--SHEELIDMLIGYLADNR   71 (159)
+T ss_dssp             BHHHHHHHHCSCGG-------GHHHHHCCCCCCC----C-CCEEEECCCCCCCHHHHSSCC--CHHHHHHHHHHHHHHTT
+T ss_pred             CHHHHHHhcCCccc-------chhHhccccHHHHHHhcc-EEEEeccCCCCCCCCCCCCCC--CHHHHHHHHHHHHHhcC
+
+
+Q ss_pred             CCCCCC
+Q tr|K7EMG7|K7EM   85 TPDSLS   90 (127)
+Q Consensus        85 tpdsls   90 (127)
+                      ...-|.
+T Consensus        72 ~~NvL~   77 (159)
+T 5NPT_A           72 YENALI   77 (159)
+T ss_dssp             CCBHHH
+T ss_pred             cccEEe
+
+
+No 9
+>2BNW_B ORF OMEGA; DNA-BINDING-REGULATORY PROTEIN COMPLEX, RIBBON-HELIX-HELIX, RHH; 2.45A {STREPTOCOCCUS PYOGENES} SCOP: a.43.1.4
+Probab=18.12  E-value=2e+02  Score=16.10  Aligned_cols=22  Identities=36%  Similarity=0.579  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHHHHcCCCCCCC
+Q tr|K7EMG7|K7EM   68 SVQHVVMEAIQELMTKDTPDSL   89 (127)
+Q Consensus        68 svqhvvmeaiqelmtkdtpdsl   89 (127)
+                      +++.++.+||.+...+..++.|
+T Consensus        32 s~~~~i~~ai~~~~~~~~~~~~   53 (53)
+T 2BNW_B           32 NVKEVMDQALEEYIRKYLPDKL   53 (53)
+T ss_dssp             CHHHHHHHHHHHHHHHHCGGGC
+T ss_pred             CHHHHHHHHHHHHHHHHCCCcC
+
+
+No 10
+>2CAX_C ORF OMEGA; TRANSCRIPTIONAL REPRESSOR, INC18 FAMILY OF; 2.9A {STREPTOCOCCUS PYOGENES} SCOP: a.43.1.4
+Probab=18.12  E-value=2e+02  Score=16.10  Aligned_cols=22  Identities=36%  Similarity=0.579  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHHHHcCCCCCCC
+Q tr|K7EMG7|K7EM   68 SVQHVVMEAIQELMTKDTPDSL   89 (127)
+Q Consensus        68 svqhvvmeaiqelmtkdtpdsl   89 (127)
+                      +++.++.+||.+...+..++.|
+T Consensus        32 s~~~~i~~ai~~~~~~~~~~~~   53 (53)
+T 2CAX_C           32 NVKEVMDQALEEYIRKYLPDKL   53 (53)
+T ss_dssp             CHHHHHHHHHHHHHHHHSGGGC
+T ss_pred             CHHHHHHHHHHHHHHHHCCCcC
+
+

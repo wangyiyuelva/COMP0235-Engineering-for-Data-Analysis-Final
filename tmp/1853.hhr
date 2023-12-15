@@ -1,0 +1,1683 @@
+Query         tr|A0A8V8TPA6|A0A8V8TPA6_HUMAN
+Match_columns 465
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:50:55 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1853.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3E0J_C DNA polymerase subunit  100.0 7.4E-73 8.1E-78  506.1  34.3  465    1-465     8-476 (476)
+  2 6S1N_B DNA polymerase delta ca 100.0 7.2E-69 7.9E-74  475.1  34.0  465    1-465     1-469 (469)
+  3 7KC0_B Proliferating cell nucl 100.0 1.7E-56 1.9E-61  404.6  30.3  410   23-449    22-486 (487)
+  4 6HMS_A DNA polymerase II small 100.0 1.9E-43   2E-48  299.3  22.6  370   47-451     6-399 (400)
+  5 5IHE_A DNA polymerase II small 100.0 2.5E-30 2.7E-35  227.0  23.0  370   46-450    80-473 (475)
+  6 6HMF_B DNA polymerase II small 100.0 1.3E-29 1.5E-34  223.9  23.0  371   45-450    79-473 (475)
+  7 6KNB_A DNA polymerase II small 100.0 9.2E-28   1E-32  215.5  22.1  385   31-452   116-534 (537)
+  8 5VBN_A DNA polymerase epsilon  100.0 8.1E-28 8.8E-33  215.4  21.4  369   24-449    92-525 (527)
+  9 7PFO_A DNA replication, helica 100.0 8.1E-28 8.8E-33  215.4  21.4  368   24-448    92-524 (527)
+ 10 6T8H_A DNA polymerase sliding  100.0 5.8E-27 6.3E-32  226.9  23.0  369   47-450   225-617 (619)
+ 11 7PMN_R Genome stability, DNA r  99.9 2.1E-23 2.3E-28  206.0  22.5  377   22-447   174-686 (689)
+ 12 7OPL_B DNA polymerase, Primase  99.9 3.7E-23   4E-28  185.9  20.7  348   47-440    60-432 (452)
+ 13 3FLO_G DNA polymerase subunit   99.9 1.8E-22 1.9E-27  189.3  20.9  357   48-444    10-431 (460)
+ 14 4Y97_A Human DNA polymerase al  99.8 6.1E-18 6.7E-23  160.1  23.6  315   79-439   240-577 (598)
+ 15 5EXR_D DNA primase small subun  99.8 4.2E-17 4.5E-22  154.9  23.4  308   87-439   246-576 (597)
+ 16 7DOG_B Nuclease SbcCD subunit   76.1      26 0.00028   29.2   6.6  126  188-347     2-136 (323)
+ 17 3THO_B Probable DNA double-str  66.2      43 0.00047   29.8   6.2  119  190-343     1-134 (379)
+ 18 2NXF_A Putative dimetal phosph  63.7 1.2E+02  0.0013   24.9   7.7   52  394-450   257-313 (322)
+ 19 3QG5_D Probable DNA double-str  61.0      75 0.00082   28.2   6.7   81  190-298     1-91  (379)
+ 20 4O24_A Exonuclease, putative;   45.8 1.1E+02  0.0012   26.8   5.3   84  187-298    15-108 (335)
+ 21 4O5G_B Exonuclease, putative;   44.3 1.3E+02  0.0015   26.3   5.6   84  187-298    16-109 (336)
+ 22 6X1Z_B Nuclease SbcCD subunit   44.3 1.3E+02  0.0015   26.3   5.6   84  187-298    16-109 (336)
+ 23 3AV0_A DNA double-strand break  44.0   1E+02  0.0011   29.3   5.1   84  187-299    18-109 (386)
+ 24 5F3W_C DNA double-strand break  44.0   1E+02  0.0011   29.3   5.1   84  187-299    18-109 (386)
+ 25 4TUG_B nuclease1/DNA Complex;   43.1 3.8E+02  0.0042   24.3   8.2  206  188-445     3-243 (337)
+ 26 2YVT_A Hypothetical protein aq  35.3 1.6E+02  0.0017   23.5   4.3  230  188-448     4-259 (260)
+ 27 5W8M_A Vacuolar protein sortin  34.8 3.4E+02  0.0037   22.4   6.2  155  188-445     3-171 (203)
+ 28 5W8M_F Vacuolar protein sortin  34.8 3.4E+02  0.0037   22.4   6.2  155  188-445     3-171 (203)
+ 29 3AUZ_A DNA double-strand break  34.1 2.4E+02  0.0026   25.5   5.7  208  187-446    18-260 (333)
+ 30 5EBB_B Acid sphingomyelinase-l  32.7   6E+02  0.0065   23.1   8.3   92  188-299     3-123 (410)
+ 31 2XMO_B LMO2642 PROTEIN; PHOSPH  29.6 6.1E+02  0.0066   23.1   7.3   82  187-299    37-139 (443)
+ 32 2HY1_A Rv0805 (E.C.3.1.4.17);   21.7 6.5E+02   0.007   19.9   5.5  218  187-451    13-269 (280)
+
+No 1
+>3E0J_C DNA polymerase subunit delta-2 (E.C.2.7.7.7); DNA Polymerase Delta, p66 subunit; 3.0A {Homo sapiens}
+Probab=100.00  E-value=7.4e-73  Score=506.10  Aligned_cols=465  Identities=100%  Similarity=1.513  Sum_probs=357.0  Template_Neff=9.500
+
+Q ss_pred             CCCcCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCcccCCcccccccceeeeeeeeechhhhhcchhcccCCCccch
+Q tr|A0A8V8TPA6|    1 MFSEQAAQRAHTLLSPPSANNATFARVPVATYTNSSQPFRLGERSFSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVK   80 (465)
+Q Consensus         1 mfseqaaqrahtllsppsannatfarvpvatytnssqpfrlgersfsrqyahiyatrliqmrpflenraqqhwgsgvgvk   80 (465)
+                      |+|++++++.+++++.++++...++|..+..|++.+++|.++++.|.+||+++|++||+.|+++|.++++.+|++..++.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~f~~~~~~~~~qy~~~y~~Rl~~l~~~l~~~~~~~~~~~~~i~   87 (476)
+T 3E0J_C            8 MFSEQAAQRAHTLLSPPSANNATFARVPVATYTNSSQPFRLGERSFSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVK   87 (476)
+T ss_dssp             CHHHHHHTSCCCSSSSCCSCCCCEECCCTTCEEECCGGGCC-----------CCHHHHHHHHHHHHHHHHHHSCSCCCBC
+T ss_pred             ccchhhcchhHhccCCCCCCCCCccccccccccCCCCCeeeCCCchHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCcee
+Confidence            88999999999988887555556788884499999999999989999999999999999999999999999998777889
+
+
+Q ss_pred             chhcCCCccceeeeeceeecCCCChhhhhh----CCCCCCCCCCcCCCCCCceeecccceeeecccccchhhCCCccEEE
+Q tr|A0A8V8TPA6|   81 KLCELQPEEKCCVVGTLFKAMPLQPSILRE----HNLLPQPPRSKYIHPDDELVLEDELQRIKLKGTIDVSKLVTGTVLA  156 (465)
+Q Consensus        81 klcelqpeekccvvgtlfkamplqpsilre----hnllpqpprskyihpddelvledelqriklkgtidvsklvtgtvla  156 (465)
+                      +|.+++.+++|+++|+|+++|++||++|+|    ..+.+.+...+|+++++.++|||++|||+|++++..+.|++|+||+
+T Consensus        88 ~i~~~~~~~~~~iiG~i~~~~~~kpsil~e~~~~~~~~~~~~~~~~~~~~d~l~LED~~grv~L~~~~~~~~l~~G~vV~  167 (476)
+T 3E0J_C           88 KLCELQPEEKCCVVGTLFKAMPLQPSILREVSEEHNLLPQPPRSKYIHPDDELVLEDELQRIKLKGTIDVSKLVTGTVLA  167 (476)
+T ss_dssp             CSSSCCTTCCEEEEEEEEEEC----------------------CCCCCSSCEEEEECSSCEEEEEESCCTTTCCTTCEEE
+T ss_pred             ehhcCCCCCeEEEEEEEEecCCCCcchhHHHHHhcCCCCCCCCccccCCCCeEEEECCCcEEEEEceeCHHHcccCcEEE
+Confidence            999988788999999999999999999999    3455667788999999999999999999999987788999999999
+
+
+Q ss_pred             EEEEEcCCCeEEEEEEEeccCCCCCCCCCCCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChcccee
+Q tr|A0A8V8TPA6|  157 VFGSVRDDGKFLVEDYCFADLAPQKPAPPLDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSR  236 (465)
+Q Consensus       157 vfgsvrddgkflvedycfadlapqkpappldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsr  236 (465)
+                      |+|.+..+|.|.|+++++|+.++..+.+....+.+|+++||+|++....+....++.|++++.+..+....+....+++.
+T Consensus       168 v~G~~~~~g~f~V~~i~~p~~~~~~~~~~~~~~~~I~~iSdlhl~~~~~~~~~~l~~l~~~l~~~~~~~~~~~~~~~~d~  247 (476)
+T 3E0J_C          168 VFGSVRDDGKFLVEDYCFADLAPQKPAPPLDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSR  247 (476)
+T ss_dssp             EEEEECTTSSEEEEEEECCBCCCCCCCCCCSSCCEEEEECCCCBTSSCHHHHHHHHHHHHHHHTCSSCHHHHHHHTTEEE
+T ss_pred             EEEEECCCCcEEEEEEEECCCCCCCCCCCCCCCCEEEEEccCCcCCCCcchhHHHHHHHHHHhcCcCChhhhhhhhCCcE
+Confidence            99999778999999999998887766555567899999999999976643357899999999986443222233448999
+
+
+Q ss_pred             EEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCcccccc
+Q tr|A0A8V8TPA6|  237 VILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLAT  316 (465)
+Q Consensus       237 vilagnllshstqsrdsinkakyltkktqaasveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplat  316 (465)
+                      ||++||+++............+++.........+.++.++++|++++.++++++||||||++...+||+|++..+++...
+T Consensus       248 lIi~Gd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~l~~~~~v~~vPGn~D~~~~~~Pq~pl~~~~~~~~~  327 (476)
+T 3E0J_C          248 VILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLAT  327 (476)
+T ss_dssp             EEEESCSBCC-------------CHHHHHHHHHHHHHHHHHHHHHHHTTSCEEEECCTTSSSCSSSSCCCCCTTSCHHHH
+T ss_pred             EEEECCccCCCcCChhHHhHHhhcccccchhHHHHHHHHHHHHHHHhcCCCEEEeCCCCCccCCCCCCCCCChHhcchhh
+Confidence            99999999876532211100111222233445778889999999998899999999999999999999999999888776
+
+
+Q ss_pred             ccchhccccCCcceeecceeeecCCCCChhhhhccCChHHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCc
+Q tr|A0A8V8TPA6|  317 AYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPH  396 (465)
+Q Consensus       317 aystlqlvtnpyqatidgvrflgtsgqnvsdifryssmedhleilewtlrvrhisptapdtlgcypfyktdpfifpecph  396 (465)
+                      ...++++++||+.+.++|+++++++|+.+.++.++.......+++++++.|+|++|++|++.+++|+...+.|.+...||
+T Consensus       328 ~~~~i~~~~NP~~~~i~g~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~l~~~~l~P~~p~~~~~~p~~~~d~l~l~~~Pd  407 (476)
+T 3E0J_C          328 AYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPH  407 (476)
+T ss_dssp             TSTTEEECCSSEEEEETTEEEEECSSHHHHHHHHHSCCCCHHHHHHHHHHBTCSCTTSCCC-------CCCTTSCSSCCS
+T ss_pred             hCCCEEEecCcEEEEECCEEEEEeCCCCHHHHHHhCCCcCHHHHHHHHHHhCccCCCCCCCCCCCCCCCCCCcccCCCCC
+Confidence            67789999999999999999999999999999988755567799999999999999999999999988889999999999
+
+
+Q ss_pred             EEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcccceeeeehhcccCccceccCCCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  397 VYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPISFSGFGAEDDDLGGLGLGP  465 (465)
+Q Consensus       397 vyfcgntpsfgskiirgpedqtvllvtvpdfsatqtaclvnlrslacqpisfsgfgaedddlgglglgp  465 (465)
+                      ++|+||.|.++...+.+.++.++++||+|+|+.+++++++++++++++.+.|.....+++++++++.+|
+T Consensus       408 v~i~Gh~h~~~~~~~~~~~~~~~~~vn~gsf~~~~~~~li~l~~~~~~~i~f~~~~~~~~~~~~~~~~~  476 (476)
+T 3E0J_C          408 VYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPISFSGFGAEDDDLGGLGLGP  476 (476)
+T ss_dssp             EEEEEEESSCEEEEEECSSCCEEEEEEEECHHHHCEEEEEETTTTEEEEEEEEECCCC-----------
+T ss_pred             EEEeCCCCCceeEEeeCCCCCcEEEEEcCCCCCCCEEEEEECCCCCEEEEEEecCCCCccccccCCCCC
+Confidence            999999999998888876677899999999999999999999999999999999888775667888765
+
+
+No 2
+>6S1N_B DNA polymerase delta catalytic subunit; Protein, REPLICATION; HET: TTP, DOC; 4.86A {Homo sapiens}
+Probab=100.00  E-value=7.2e-69  Score=475.10  Aligned_cols=465  Identities=100%  Similarity=1.513  Sum_probs=388.9  Template_Neff=9.800
+
+Q ss_pred             CCCcCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCcccCCcccccccceeeeeeeeechhhhhcchhcccCCCccch
+Q tr|A0A8V8TPA6|    1 MFSEQAAQRAHTLLSPPSANNATFARVPVATYTNSSQPFRLGERSFSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVK   80 (465)
+Q Consensus         1 mfseqaaqrahtllsppsannatfarvpvatytnssqpfrlgersfsrqyahiyatrliqmrpflenraqqhwgsgvgvk   80 (465)
+                      |+||+|+++++++++.++++.+.++|.++..|++.+++|.+++++|.+||+++|++||+.|+++|.++++.+|++..++.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~qy~~~y~~Rl~~l~~~l~~~~~~~~~~~~~i~   80 (469)
+T 6S1N_B            1 MFSEQAAQRAHTLLSPPSANNATFARVPVATYTNSSQPFRLGERSFSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVK   80 (469)
+T ss_dssp             CCTTGGGSSCCCSSSCCCSCCCCBCCCCCCCCCCCCGGGCCSSCCCCCCTHHHHHHHHHHHHHHHHHHHHHHHCSSCCBC
+T ss_pred             CcchhhhhhhhhhcCCCccCCCceeccccccccCCCCCeeecCCChHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCccc
+Confidence            99999999999999998666677899884489999999999999999999999999999999999999999997677889
+
+
+Q ss_pred             chhcCCCccceeeeeceeecCCCChhhhhh----CCCCCCCCCCcCCCCCCceeecccceeeecccccchhhCCCccEEE
+Q tr|A0A8V8TPA6|   81 KLCELQPEEKCCVVGTLFKAMPLQPSILRE----HNLLPQPPRSKYIHPDDELVLEDELQRIKLKGTIDVSKLVTGTVLA  156 (465)
+Q Consensus        81 klcelqpeekccvvgtlfkamplqpsilre----hnllpqpprskyihpddelvledelqriklkgtidvsklvtgtvla  156 (465)
+                      +|.++..+++|+++|+|+++|++||+||+|    ..+.+.|...+|.++++.++|||++|||+|+++...+.|++|+||+
+T Consensus        81 ~i~~~~~~~~~~iiG~i~~~~~~kp~il~e~~~~~~~~~~~~~~~~~~~~~~~~LED~~~rv~L~~~~~~~~l~~G~vV~  160 (469)
+T 6S1N_B           81 KLCELQPEEKCCVVGTLFKAMPLQPSILREVSEEHNLLPQPPRSKYIHPDDELVLEDELQRIKLKGTIDVSKLVTGTVLA  160 (469)
+T ss_dssp             CSSSCCBSCCEEEEEEEEEECSSSCCCC---------------CCCCCSCCEEEEECSSCEEECEESSCSSSCCTTCEEE
+T ss_pred             cHhhCCCCCeEEEEEEEEecCCCCccHHHHHHHhcCCCCCCCcccccCCCCeEEEECCCCEEEEEcccCHHHcceeeEEE
+Confidence            999988888999999999999999999999    4456677788999999999999999999999977788999999999
+
+
+Q ss_pred             EEEEEcCCCeEEEEEEEeccCCCCCCCCCCCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChcccee
+Q tr|A0A8V8TPA6|  157 VFGSVRDDGKFLVEDYCFADLAPQKPAPPLDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSR  236 (465)
+Q Consensus       157 vfgsvrddgkflvedycfadlapqkpappldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsr  236 (465)
+                      |+|.+..++.|.|+++++|+.++..+.+....+.+|+++||+|++..+......++.|++++++..+...+.+...+|++
+T Consensus       161 v~G~~~~~~~f~v~~i~~p~~~~~~~~~~~~~~~~i~~iSd~h~~~~~~~~~~~l~~l~~~l~~~~~~~~~~~~~~~~~~  240 (469)
+T 6S1N_B          161 VFGSVRDDGKFLVEDYCFADLAPQKPAPPLDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSR  240 (469)
+T ss_dssp             EEEEECTTSCEEEEEEECCCCCCCCCCCCCSSCCEEEEECCCCTTSSCSHHHHHHHHHHHHHHTCSSCHHHHHHHTSEEE
+T ss_pred             EEEEECCCCeEEEEEEEECCCCCCCCCCCCCCCCEEEEEeccCcCCCCccchHHHHHHHHHHhcccCChhhhchhcCccE
+Confidence            99998788999999999998887766555667899999999999965432468899999999987543333334558999
+
+
+Q ss_pred             EEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCcccccc
+Q tr|A0A8V8TPA6|  237 VILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLAT  316 (465)
+Q Consensus       237 vilagnllshstqsrdsinkakyltkktqaasveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplat  316 (465)
+                      +|++||+++..........+.+++.+++.....+.++.++++|++++.++++++||||||+....+||+|++..+++...
+T Consensus       241 lIi~Gd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~l~~~~~v~~vPG~~D~~~~~~Pq~p~~~~~~~~~~  320 (469)
+T 6S1N_B          241 VILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLAT  320 (469)
+T ss_dssp             EEEESCCSCCSCCC----------------CCHHHHHHHHHHHHHHHTTSCEEEECCSSSSSCSSSSCCCCCGGGCSSGG
+T ss_pred             EEEeCcccCCCccCcchhhHHhhccccccccHHHHHHHHHHHHHHHhcCCcEEEeCCCCCCCCCCCCCCCCChhhCCccc
+Confidence            99999999877643322111233333444455788899999999998899999999999999989999999999998877
+
+
+Q ss_pred             ccchhccccCCcceeecceeeecCCCCChhhhhccCChHHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCc
+Q tr|A0A8V8TPA6|  317 AYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPH  396 (465)
+Q Consensus       317 aystlqlvtnpyqatidgvrflgtsgqnvsdifryssmedhleilewtlrvrhisptapdtlgcypfyktdpfifpecph  396 (465)
+                      ...++++++||+.+.++|+++++++++.+.++.++.......+++++++.|+|++|++|++.+++|+...+.+.+...||
+T Consensus       321 ~~~~~~~~~NP~~~~i~g~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~l~~~~l~P~~p~~~~~~p~~~~~~~~l~~~Pd  400 (469)
+T 6S1N_B          321 AYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPH  400 (469)
+T ss_dssp             GBTTEEECCSSEEEEETTEEEEECSSSHHHHHHHTSSCCCHHHHHHHHHHTTBSCSSTTTTSCCCCCCSCCTTBCSSCCS
+T ss_pred             cCCcEEEecCCeEEEECCEEEEEECCCCHHHHHHhCCcccHHHHHHHHHhhCCccCCCCCccccCCCCCCCCcccCCCCc
+Confidence            77899999999999999999999999999999998765667899999999999999999999999988889999999999
+
+
+Q ss_pred             EEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcccceeeeehhcccCccceccCCCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  397 VYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPISFSGFGAEDDDLGGLGLGP  465 (465)
+Q Consensus       397 vyfcgntpsfgskiirgpedqtvllvtvpdfsatqtaclvnlrslacqpisfsgfgaedddlgglglgp  465 (465)
+                      ++|+||.|.++...+.+.+|+++++||+|+|..+++++++|+++++++.+.|..+..++++.++||++|
+T Consensus       401 v~i~G~~h~~~~~~~~~~~~~~~~~vn~gsf~~~~~~~~~~l~~~~~~~~~f~~~~~~~~~~~~~~~~~  469 (469)
+T 6S1N_B          401 VYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPISFSGFGAEDDDLGGLGLGP  469 (469)
+T ss_dssp             EEECSSCSSCEEEEEECSSSCEEEEEECCCTTTTCEEEEEESSSCCEEEEEEEECCSCCTTC-------
+T ss_pred             EEEeCCCCcceeeEeeCCCCCcEEEEEcCCccCCCEEEEEECCCCCEEEEEEeCCCCCcccccccCCCC
+Confidence            999999999999888876677799999999999999999999999999999999999887756999987
+
+
+No 3
+>7KC0_B Proliferating cell nuclear antigen, DNA; Polymerase delta, PCNA, primed DNA; HET: D3T;{Saccharomyces cerevisiae}
+Probab=100.00  E-value=1.7e-56  Score=404.57  Aligned_cols=410  Identities=32%  Similarity=0.640  Sum_probs=346.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCc---ccCCCCCCccc--CCcccccccceeeeeeeeechhhhhcchhcccCCC--------ccchchhcCCCcc
+Q tr|A0A8V8TPA6|   23 TFARVPVA---TYTNSSQPFRL--GERSFSRQYAHIYATRLIQMRPFLENRAQQHWGSG--------VGVKKLCELQPEE   89 (465)
+Q Consensus        23 tfarvpva---tytnssqpfrl--gersfsrqyahiyatrliqmrpflenraqqhwgsg--------vgvkklcelqpee   89 (465)
+                      .++|..+.   .|++. ++|.+  ++++|.+||+++|+.||+.|+++|.++++.+|++.        .++.+|.++..++
+T Consensus        22 ~~~r~~~~~~~~y~~~-~~f~~~~~~~~~~~q~~~~y~~Rl~~l~~~l~~~~~~~~~~~~~~~~~~~~~i~~l~~~~~~~  100 (487)
+T 7KC0_B           22 PRTRVRIVDDNLYNKS-NPFQLCYKKRDYGSQYYHIYQYRLKTFRERVLKECDKRWDAGFTLNGQLVLKKDKVLDIQGNQ  100 (487)
+T ss_dssp             SSCCCCCCCCCCCSSC-CTTCCCSTTCCCSSCTHHHHHHHHHHHHHHHHHHHHHHTCTTCBCSSSBCBCCCSTTCCCSSS
+T ss_pred             CceeeeccCccccCCC-CCeecccCCCCcchhHHHHHHHHHHHHHHHHHHHHHHHccccccCCCceeeeehhHhccCCCc
+Confidence            45777742   89888 89999  55799999999999999999999999999888653        3578888887788
+
+
+Q ss_pred             ceeeeeceeecCCCChhhhhh----CCCCCCCCCCcCCCCC---Cceeecccceeeecccc-cchhhCCCccEEEEEEEE
+Q tr|A0A8V8TPA6|   90 KCCVVGTLFKAMPLQPSILRE----HNLLPQPPRSKYIHPD---DELVLEDELQRIKLKGT-IDVSKLVTGTVLAVFGSV  161 (465)
+Q Consensus        90 kccvvgtlfkamplqpsilre----hnllpqpprskyihpd---delvledelqriklkgt-idvsklvtgtvlavfgsv  161 (465)
+                      +|+|+|+|++.|++|||||+|    ....+.+. .+|.+++   +.++|||++|||+|+++ ...+.|++|+||+|+|.+
+T Consensus       101 ~~~iiG~i~~~~~~kp~il~~~~~~~~~~~~~~-~~~~~~~~~~~~l~LED~~grv~L~~~~~~~~~l~~G~vV~v~G~~  179 (487)
+T 7KC0_B          101 PCWCVGSIYCEMKYKPNVLDEVINDTYGAPDLT-KSYTDKEGGSDEIMLEDESGRVLLVGDFIRSTPFITGVVVGILGME  179 (487)
+T ss_dssp             CEEEEEEEEEECSSSCCHHHHHHTTCTTSCCCC-CCCCCSSSCCCEEEEEBTTBCCBCBSSGGGTSCCCTTCEEEEEEEC
+T ss_pred             eEEEEEEEeeCCCCCCChHHHHHHcccCCCCCC-cceecCCCCCCeEEEEcCCceEEEeccccCccccccCcEEEEEeEe
+Confidence            999999999999999999999    33334444 7888776   89999999999999998 788999999999999998
+
+
+Q ss_pred             cCCCeEEEEEEEeccCCCCCCC--CC--CCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeE
+Q tr|A0A8V8TPA6|  162 RDDGKFLVEDYCFADLAPQKPA--PP--LDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRV  237 (465)
+Q Consensus       162 rddgkflvedycfadlapqkpa--pp--ldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrv  237 (465)
+                      ..++.|.|+++++|+.++....  +.  ...+.+|+++||+|++....+....++.|++++.+..+..  .....+++++
+T Consensus       180 ~~~~~f~V~~i~~p~~~~~~~~~~~~~~~~~~~~i~~iSDlhl~~~~~~~~~~l~~l~~~l~~~~~~~--~~~~~~~~~l  257 (487)
+T 7KC0_B          180 AEAGTFQVLDICYPTPLPQNPFPAPIATCPTRGKIALVSGLNLNNTSPDRLLRLEILREFLMGRINNK--IDDISLIGRL  257 (487)
+T ss_dssp             SSSSCCEEEEEECCCCCCCCCCCCTTCSSSCCCEEEEEBCCCBCTTCSSHHHHHHHHHHHHTTSSSCC--SSSSTTCCEE
+T ss_pred             CCCCcEEEEEEEecCCCCCCCCCCCCCCCCCCCEEEEEecccCCCCChhHHHHHHHHHHHHhcCCCCC--CCchhhcCEE
+Confidence            7789999999999988776554  21  1367899999999998654313678999999998764322  2334589999
+
+
+Q ss_pred             EEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccc
+Q tr|A0A8V8TPA6|  238 ILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATA  317 (465)
+Q Consensus       238 ilagnllshstqsrdsinkakyltkktqaasveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplata  317 (465)
+                      |++||+++.......            ...+.+.++.+.++|+++...+++++||||||+....+||+|++..+++....
+T Consensus       258 Ii~Gd~~~~~~~~~~------------~~~~~~~~~~l~~~l~~l~~~~~v~~vPGnhD~~~~~~Pq~p~~~~~~~~~~~  325 (487)
+T 7KC0_B          258 LICGNSVDFDIKSVN------------KDELMISLTEFSKFLHNILPSISVDIMPGTNDPSDKSLPQQPFHKSLFDKSLE  325 (487)
+T ss_dssp             EEESCCBCCCC--CC------------SSHHHHHHHHHHHHHHHHTTTSEEEEECCSSSSSCSSSSCCCCCGGGSCHHHH
+T ss_pred             EEeccccCCCccCCC------------hHHHHHHHHHHHHHHHHHhcCCEEEEeCCCCCCCCCCCCCCcccHHHcchhhH
+Confidence            999999987652000            01225677889999999988899999999999998899999999988876554
+
+
+Q ss_pred             cc---h----hccccCCcceeecceeeecCCCCChhhhhcc-CCh----------------------HHHHHHHhhhhhe
+Q tr|A0A8V8TPA6|  318 YS---T----LQLVTNPYQATIDGVRFLGTSGQNVSDIFRY-SSM----------------------EDHLEILEWTLRV  367 (465)
+Q Consensus       318 ys---t----lqlvtnpyqatidgvrflgtsgqnvsdifry-ssm----------------------edhleilewtlrv  367 (465)
+                      ..   +    +++++||+.+.++|.++++++++.+.++.++ ...                      +...+++++++.|
+T Consensus       326 ~~~~~~~~~~v~~~~nP~~~~i~g~~i~~~~gd~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lL~q  405 (487)
+T 7KC0_B          326 SYFNGSNKEILNLVTNPYEFSYNGVDVLAVSGKNINDICKYVIPSNDNGESENKVEEGESNDFKDDIEHRLDLMECTMKW  405 (487)
+T ss_dssp             HHTCTTCTTTBCCCCSSEEEEETTEEEEEECSHHHHHHHHTTSCCC----------------CCCSSSHHHHHHHHHHHT
+T ss_pred             hccCCCCCceeEeeCCcEEEEECCEEEEEECCCCHHHHHhhcCCcCCCCCcccccccCCCCccccchHHHHHHHHHHhhh
+Confidence            44   5    9999999999999999999999999998888 432                      2478999999999
+
+
+Q ss_pred             cccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcccceeeeehhcccCccce
+Q tr|A0A8V8TPA6|  368 RHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPIS  447 (465)
+Q Consensus       368 rhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsatqtaclvnlrslacqpis  447 (465)
+                      +|++|++|++.+++|+...+.|.+...||++|+||.|.++...+.| ++..++++++|+|+.+++++++|+++++++.+.
+T Consensus       406 ~hl~P~~p~~~~~~~~~~~~~l~l~~~Pdv~i~G~~h~~~~~~~~g-~~~~~~~v~~p~f~~~~~~vl~dl~~~~~~~~~  484 (487)
+T 7KC0_B          406 QNIAPTAPDTLWCYPYTDKDPFVLDKWPHVYIVANQPYFGTRVVEI-GGKNIKIISVPEFSSTGMIILLDLETLEAETVK  484 (487)
+T ss_dssp             TBSCTTTTTTSCCCCCCSCCSSBCSSCCSEEEEEEESSCEEEEEEE-TTEEEEEEEEEBTTTSCCEEEEETTTCCEEEEC
+T ss_pred             CCcCCCCCCCcCCCCCCCCCCcccCCCCeEEEECCCCccceEEEEe-CCeEEEEEECCCcccCCEEEEEECCCCcEEEEE
+Confidence            9999999999999998888999999999999999999999988876 456789999999999999999999999999988
+
+
+Q ss_pred             cc
+Q tr|A0A8V8TPA6|  448 FS  449 (465)
+Q Consensus       448 fs  449 (465)
+                      |.
+T Consensus       485 f~  486 (487)
+T 7KC0_B          485 ID  486 (487)
+T ss_dssp             BC
+T ss_pred             ec
+Confidence            75
+
+
+No 4
+>6HMS_A DNA polymerase II small subunit; DNA, polymerase D, Pyrococcus, REPLICATION; 7.1A {Pyrococcus abyssi}
+Probab=100.00  E-value=1.9e-43  Score=299.32  Aligned_cols=370  Identities=18%  Similarity=0.306  Sum_probs=302.0  Template_Neff=10.600
+
+Q ss_pred             ccccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCC
+Q tr|A0A8V8TPA6|   47 SRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPD  126 (465)
+Q Consensus        47 srqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyihpd  126 (465)
+                      .+||+++|++||+.|+++|.+++  +|....++.++.+...+++++++|+|++++..                    +++
+T Consensus         6 ~~~~~~~y~~R~~~l~~~~~~~~--~~~~~~~i~~l~~~~~~~~~~viG~i~~~~~~--------------------~~~   63 (400)
+T 6HMS_A            6 VEAYASLFKSRLSKLKRILRENP--EISNVVDIGKLNYVSGDEEVTIIGLVNSKRET--------------------NRG   63 (400)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCC--CccCceeHHHHcccCCCceEEEEEEEEeeEEc--------------------CCC
+Confidence            58999999999999999999887  55444556666554446789999999997531                    234
+
+
+Q ss_pred             Cceeecccceeeecccc----c--chhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CCCCCCcEEEEEEcCC
+Q tr|A0A8V8TPA6|  127 DELVLEDELQRIKLKGT----I--DVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PPLDTDRFVLLVSGLG  199 (465)
+Q Consensus       127 delvledelqriklkgt----i--dvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-ppldtdrfvllvsglg  199 (465)
+                      +.++|||++|||+|+++    +  ....|++|+||+|+|.+..++.|.|+++.+|+.++.... +....+.+|+++||+|
+T Consensus        64 ~~~~lED~~g~v~l~~~~~~~~~~~~~~l~~g~vv~v~G~~~~~~~f~v~~i~~p~~~~~~~~~~~~~~~~~i~~iSD~h  143 (400)
+T 6HMS_A           64 LIFEVEDKTGIVKVFLPKDSEDYREAFKVLPDAVVAFKGFYSKKGIFFANKFYLPDVPLYRKQKPPLEEKVYAILISDIH  143 (400)
+T ss_pred             CEEEEECCCceEEEEeeCChHHHHHHHhcCCCCEEEEEEEECCCCcEEEEEEEeCCCCCCCCCCCCccCCeEEEEEccCC
+Confidence            59999999999999996    2  568999999999999987789999999999988775544 4445678999999999
+
+
+Q ss_pred             CCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHH
+Q tr|A0A8V8TPA6|  200 LGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEIL  279 (465)
+Q Consensus       200 lgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldeil  279 (465)
+                      ++.... ....++.+++++++..+...+.+...+++.+|++||+++.........   ..+   ......+.++.+.+++
+T Consensus       144 l~~~~~-~~~~l~~l~~~l~~~~~~~~~~~~~~~~~~vil~Gd~~~~~~~~~~~~---~~~---~~~~~~~~~~~l~~~l  216 (400)
+T 6HMS_A          144 VGSREF-CEKAFLKFLEWLNGHVESKEEEEIVSRVKYLIIAGDVVDGIGIYPGQY---SDL---VIPDIFDQYEALANLL  216 (400)
+T ss_pred             CCChhh-cHHHHHHHHHHHhcCCCCHHHHHHHhcccEEEEeCCcccCCccCCCCC---ccc---CcccHHHHHHHHHHHH
+Confidence            996554 467889999998877554444445568999999999998654210000   000   0111245677888888
+
+
+Q ss_pred             HHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccCC---hHH
+Q tr|A0A8V8TPA6|  280 LQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS---MED  356 (465)
+Q Consensus       280 lqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifryss---med  356 (465)
+                      +.+...+++++||||||+....+||++++..+++......++++++||+.+.++|.++++++++.+.++.++..   ...
+T Consensus       217 ~~~~~~~~v~~ipGnhD~~~~~~pq~~~~~~~~~~~~~~~~~~~~~np~~~~~~g~~i~~~~~~~~~~~~~~~~~~~~~~  296 (400)
+T 6HMS_A          217 ANVPEHITMFIGPGNADAARPAIPQPEFYKEYAKPIYKLKNAIIISNPAVIRLHGRDFLIAHGRGIEDVVSFVPGLTHHK  296 (400)
+T ss_pred             hccccCCEEEEeCCCCCCCCCCCCCCccCHHHchHHhhCCCEEEeCCCEEEEECCEEEEEeCCCCHHHHHHhCCCCCCCC
+Confidence            88877899999999999998899999999988877656778999999999999999999999999988887753   245
+
+
+Q ss_pred             HHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCC--------
+Q tr|A0A8V8TPA6|  357 HLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFS--------  428 (465)
+Q Consensus       357 hleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfs--------  428 (465)
+                      ..++++.++.++|++|.+|++.+++| ...+.+.+...||++++||.|.++...+.+     +.++|+|+|+        
+T Consensus       297 ~~~~~~~~l~~~~l~p~~p~~~~~~p-~~~~~l~~~~~pd~~i~Gh~h~~~~~~~~~-----~~~vn~gs~~~~~~~~~~  370 (400)
+T 6HMS_A          297 PGLPMVELLKMRHLAPTFGGKVPIAP-DPEDLLVIEEVPDLVQMGHVHVYDAVVYRG-----VQLVNSATWQAQTEFQKM  370 (400)
+T ss_pred             chHHHHHHHHhCccCCCCCCCCCCCC-CCCCCeecCCCCCEEEeCCCCccceEEEeC-----eEEEEcCccccCCHHHHh
+Confidence            67899999999999999999888888 667888889999999999999999988888     9999999998        
+
+
+Q ss_pred             -----cccceeeeehhcccC-ccceccCC
+Q tr|A0A8V8TPA6|  429 -----ATQTACLVNLRSLAC-QPISFSGF  451 (465)
+Q Consensus       429 -----atqtaclvnlrslac-qpisfsgf  451 (465)
+                           .+++++++|++++++ +.+.|...
+T Consensus       371 ~~~~p~~~~~~~~~~~~~~~~~~~~~~~~  399 (400)
+T 6HMS_A          371 VNIVPTPAKVPVVDVESARVVKVLDFSGW  399 (400)
+T ss_pred             cCCCCCCeEEEEEECCCCceEEEEEcccC
+Confidence                 478999999999999 99888753
+
+
+No 5
+>5IHE_A DNA polymerase II small subunit; DNA polymerase D-family exonuclease, transferase; HET: D5M; 2.5A {Pyrococcus abyssi (strain GE5 / Orsay)}
+Probab=99.98  E-value=2.5e-30  Score=226.99  Aligned_cols=370  Identities=18%  Similarity=0.308  Sum_probs=294.9  Template_Neff=10.300
+
+Q ss_pred             cccccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCC
+Q tr|A0A8V8TPA6|   46 FSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHP  125 (465)
+Q Consensus        46 fsrqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyihp  125 (465)
+                      ..+||+++|++||+.|+++|.++.  .|....++..+.+...+++++++|+|++++..+                    .
+T Consensus        80 ~~~~~~~~~~~R~~~l~~~l~~~~--~~~~~~~i~~l~~~~~~~~~~iiG~i~~~~~~~--------------------~  137 (475)
+T 5IHE_A           80 IVEAYASLFKSRLSKLKRILRENP--EISNVVDIGKLNYVSGDEEVTIIGLVNSKRETN--------------------R  137 (475)
+T ss_dssp             -CCTTHHHHHHHHHHHHHHHTTST--TCCCBCCGGGTTSSCTTCCEEEEEEEEEEEEET--------------------T
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHhCC--CccCcccHHHHcccCCCceEEEEEEEEEeeEeC--------------------C
+Confidence            458999999999999999999887  343444555555443468999999999985422                    3
+
+
+Q ss_pred             CCceeecccceeeeccccc------chhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CCCCCCcEEEEEEcC
+Q tr|A0A8V8TPA6|  126 DDELVLEDELQRIKLKGTI------DVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PPLDTDRFVLLVSGL  198 (465)
+Q Consensus       126 ddelvledelqriklkgti------dvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-ppldtdrfvllvsgl  198 (465)
+                      ++.++|||++|+|+|+++.      ..+.|++|+||+++|.+..++.|.|+++..|+.++.... +....+.+|+++||+
+T Consensus       138 ~~~~~lED~~g~v~l~~~~~~~~~~~~~~l~~g~vv~~~G~~~~~~~f~v~~i~~p~~~~~~~~~~~~~~~~~i~~iSD~  217 (475)
+T 5IHE_A          138 GLIFEVEDKTGIVKVFLPKDSEDYREAFKVLPDAVVAFKGFYSKKGIFFANKFYLPDVPLYRKQKPPLEEKVYAILISDI  217 (475)
+T ss_dssp             EEEEEEECSSCEEEEEEETTCTTHHHHHHCCTTCEEEEEEEECSSSEEEEEEEECCCCCSCCCCCCCCSSCCEEEEECCC
+T ss_pred             CCeEEEECCCCcEEEEecCChHHHHHHHhcCCCCEEEEEEEECCCCeEEEEEEEeCCCCCCCCCCCCccCCeEEEEEecC
+Confidence            3599999999999999862      568999999999999998789999999999988775554 455678999999999
+
+
+Q ss_pred             CCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHH
+Q tr|A0A8V8TPA6|  199 GLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEI  278 (465)
+Q Consensus       199 glgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldei  278 (465)
+                      |++.... ....++.+++++++..+.........+|+++|++||+++.........   ...   ........++.+.++
+T Consensus       218 h~~~~~~-~~~~l~~l~~~l~~~~~~~~~~~~~~~pd~vIi~GD~~~~~~~~~~~~---~~~---~~~~~~~~~~~~~~~  290 (475)
+T 5IHE_A          218 HVGSREF-CEKAFLKFLEWLNGHVESKEEEEIVSRVKYLIIAGDVVDGIGIYPGQY---SDL---VIPDIFDQYEALANL  290 (475)
+T ss_dssp             CBTBTTB-CHHHHHHHHHHHTTCCSSHHHHHHHTTEEEEEEESCCBCCSSSSTTGG---GGB---SSCBHHHHHHHHHHH
+T ss_pred             cCCChhH-hHHHHHHHHHHHhcCCCCHHHHHHHhcceEEEEeCccccCCccCCCCc---ccc---ccccHHHHHHHHHHH
+Confidence            9996554 367889999999876332111122348999999999998764311100   000   011224667778888
+
+
+Q ss_pred             HHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccCC---hH
+Q tr|A0A8V8TPA6|  279 LLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS---ME  355 (465)
+Q Consensus       279 llqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifryss---me  355 (465)
+                      |+.+...+++++||||||+....+||+++...++..+....++++++||+.+.++|.++++++++.+.++.++..   ..
+T Consensus       291 l~~l~~~~~v~~vpGNHD~~~~~~p~~~~~~~~~~~~~~~~~~~~~~np~~i~i~g~~~~~~~~~~~~~~~~~~~~~~~~  370 (475)
+T 5IHE_A          291 LANVPEHITMFIGPGNHDAARPAIPQPEFYKEYAKPIYKLKNAIIISNPAVIRLHGRDFLIAHGRGIEDVVSFVPGLTHH  370 (475)
+T ss_dssp             HTTSCTTSEEEEECCSSSSBCSSBSBCSBCHHHHHHHHTCTTEEECCBSEEEEETTEEEEECCCHHHHHHHHHSTTCCSS
+T ss_pred             HhcccCcCEEEEeCCCCCCCCCCCCCCcccHHHhhHHhcCCCEEEeCCCEEEEECCEEEEEEcCCCHHHHHHhCCCCCCC
+Confidence            888876789999999999998889999998777665555678999999999999999999999999888776643   24
+
+
+Q ss_pred             HHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCc------
+Q tr|A0A8V8TPA6|  356 DHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSA------  429 (465)
+Q Consensus       356 dhleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsa------  429 (465)
+                      ...++++.++.++|++|..|...+++| ...+.+.+...||++++||.|.++...+.+     +.++++|+|..      
+T Consensus       371 ~~~~~~~~~l~~~~~~p~~~~~~~~~~-~~~~~l~~~~~pd~vi~GH~H~~~~~~~~~-----~~~vn~gs~~~~~~~~~  444 (475)
+T 5IHE_A          371 KPGLPMVELLKMRHLAPTFGGKVPIAP-DPEDLLVIEEVPDLVQMGHVHVYDAVVYRG-----VQLVNSATWQAQTEFQK  444 (475)
+T ss_dssp             CTHHHHHHHHHHTBSCCCCSSSCCBCC-CSSCTTBCCSCCSEEEECSSCCEEEEEETT-----EEEEEECBSBCCCHHHH
+T ss_pred             ChhHHHHHHHHHcccCCCCCCCCCCCC-CCCCCEeecCCCCEEEeCCCCccceEEEcC-----eEEEeCCcccCCCcchh
+Confidence            567889999999999999999888888 566777888899999999999999888888     99999999983      
+
+
+Q ss_pred             -------ccceeeeehhcccC-ccceccC
+Q tr|A0A8V8TPA6|  430 -------TQTACLVNLRSLAC-QPISFSG  450 (465)
+Q Consensus       430 -------tqtaclvnlrslac-qpisfsg  450 (465)
+                             ++.+++++++++++ +.+.|..
+T Consensus       445 ~~~~~~~~~~~~lv~~~~~~~~~~i~f~~  473 (475)
+T 5IHE_A          445 MVNIVPTPAKVPVVDVESARVVKVLDFSG  473 (475)
+T ss_dssp             HTTCCCCBTEEEEEETTTTEEEEEEECGG
+T ss_pred             hccCCCCCcEEEEEECCCCceEEEEEccc
+Confidence                   68999999999999 8888864
+
+
+No 6
+>6HMF_B DNA polymerase II small subunit; DNA Polymerase D PolD, REPLICATION; HET: CAC; 2.6A {Pyrococcus abyssi (strain GE5 / Orsay)}
+Probab=99.97  E-value=1.3e-29  Score=223.92  Aligned_cols=371  Identities=18%  Similarity=0.304  Sum_probs=296.3  Template_Neff=10.100
+
+Q ss_pred             ccccccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCC
+Q tr|A0A8V8TPA6|   45 SFSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIH  124 (465)
+Q Consensus        45 sfsrqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyih  124 (465)
+                      ...+||+++|++||+.|+++|.+++  .|....++..+.+...+++++++|||++++..+                    
+T Consensus        79 ~~~~~~~~~~~~R~~~l~~~l~~~~--~~~~~~~i~~l~~~~~~~~~~iiG~i~~~~~~~--------------------  136 (475)
+T 6HMF_B           79 IIVEAYASLFKSRLSKLKRILRENP--EISNVVDIGKLNYVSGDEEVTIIGLVNSKRETN--------------------  136 (475)
+T ss_dssp             ---CTTHHHHHHHHHHHHHHHTTST--TCCCBCCGGGGGGSCTTSCEEEEEEEEEEEECS--------------------
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHhCC--CccCceeHHHhcccCCCceEEEEEEEEeeeEcC--------------------
+Confidence            3468999999999999999999887  343445566666554578999999999985422                    
+
+
+Q ss_pred             CCCceeecccceeeeccccc------chhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CCCCCCcEEEEEEc
+Q tr|A0A8V8TPA6|  125 PDDELVLEDELQRIKLKGTI------DVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PPLDTDRFVLLVSG  197 (465)
+Q Consensus       125 pddelvledelqriklkgti------dvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-ppldtdrfvllvsg  197 (465)
+                      .++.++|||++|+|+|+++.      ....|++|+||+++|.+..++.|.|+++..|+.++.... +......+|+++||
+T Consensus       137 ~~~~~~lED~~~~v~l~~~~~~~~~~~~~~l~~g~vv~~~G~~~~~~~f~v~~i~~p~~~~~~~~~~~~~~~~~i~~iSD  216 (475)
+T 6HMF_B          137 RGLIFEVEDKTGIVKVFLPKDSEDYREAFKVLPDAVVAFKGFYSKKGIFFANKFYLPDVPLYRKQKPPLEEKVYAILISD  216 (475)
+T ss_dssp             SEEEEEEECSSCEEEEEEETTCTTHHHHHHCCTTCEEEEEEEECTTSEEEEEEEECCCCCSCCCCCCCCSSCCEEEEECC
+T ss_pred             CCCeEEEEcCCCeEEEEecCCcHHHHHHHhcCCCCEEEEEEEECCCCeEEEEEEEeCCCCCCCCCCCCcccCeEEEEEec
+Confidence            33599999999999999962      568999999999999998789999999999988775554 45567899999999
+
+
+Q ss_pred             CCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHH
+Q tr|A0A8V8TPA6|  198 LGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDE  277 (465)
+Q Consensus       198 lglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmlde  277 (465)
+                      +|++.... ....++.+++++++..+.........+|+++|++||+++.........   ..+   ........++.+.+
+T Consensus       217 ~h~~~~~~-~~~~l~~l~~~l~~~~~~~~~~~~~~~pd~vIl~GD~~d~~~~~~~~~---~~~---~~~~~~~~~~~l~~  289 (475)
+T 6HMF_B          217 IHVGSREF-CEKAFLKFLEWLNGHVESKEEEEIVSRVKYLIIAGDVVDGIGIYPGQY---SDL---VIPDIFDQYEALAN  289 (475)
+T ss_dssp             CCBTBTTB-CHHHHHHHHHHHTTCCSSHHHHHHHHTEEEEEEESCCBCCSSSSTTGG---GGB---SSCBHHHHHHHHHH
+T ss_pred             cccCChhH-hHHHHHHHHHHHhcCCCCHHHHHHHhcceEEEEeCccccCCCCCCCCc---ccc---CcccHHHHHHHHHH
+Confidence            99997654 467889999999876322111112237999999999998765211000   000   01123466778888
+
+
+Q ss_pred             HHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccCC---h
+Q tr|A0A8V8TPA6|  278 ILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS---M  354 (465)
+Q Consensus       278 illqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifryss---m  354 (465)
+                      +|+++...+++++||||||.....+||+++...++.......++++++||+.+.++|.++++++++.+.++.+...   .
+T Consensus       290 ~l~~l~~~~~v~~vpGNhD~~~~~~P~~~~~~~~~~~~~~~~~v~~~~np~~~~~~g~~i~~~~~~~~~~~~~~~~~~~~  369 (475)
+T 6HMF_B          290 LLANVPEHITMFIGPGNADAARPAIPQPEFYKEYAKPIYKLKNAIIISNPAVIRLHGRDFLIAHGRGIEDVVSFVPGLTH  369 (475)
+T ss_dssp             HHTTSCTTSEEEEECCSSSSBCSSBSBCSBCHHHHHHHHTCTTEEECCBSEEEEETTEEEEECCCHHHHHHHHHSCC---
+T ss_pred             HHhccCCCCEEEEeCCCCCCCCCCCCCCccCHHHchHHhcCCCEEEeCCcEEEEECCEEEEEECCCCHHHHHHhCCCCCC
+Confidence            8888877789999999999998889999998877776656678999999999999999999999999888777643   2
+
+
+Q ss_pred             HHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCc-----
+Q tr|A0A8V8TPA6|  355 EDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSA-----  429 (465)
+Q Consensus       355 edhleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsa-----  429 (465)
+                      .....+++.++.++|++|.+|...++++ ...+.+.+...||++++||.|.++...+.+     +.++++|+|..     
+T Consensus       370 ~~~~~~~~~~l~~~~l~p~~~~~~~~~~-~~~~~l~~~~~pd~vi~GH~H~~~~~~~~g-----~~~vn~Gs~~~~~~~~  443 (475)
+T 6HMF_B          370 HKPGLPMVELLKMRHLAPTFGGKVPIAP-DPEDLLVIEEVPDLVQMGHVHVYDAVVYRG-----VQLVNSATWQAQTEFQ  443 (475)
+T ss_dssp             -CTHHHHHHHHHHTBSCCCCSSSSCBCC-CSSCTTBCCSCCSEEEECSSCCEEEEEETT-----EEEEEECBSBCCCHHH
+T ss_pred             CCccHHHHHHHHHCccCCCCCCCCCCCC-CCCCCeecCCCCCEEEeCCCCccceEEEcC-----eEEEeCccccCCChhh
+Confidence            4567889999999999999999888888 556788888999999999999998888888     99999999983     
+
+
+Q ss_pred             --------ccceeeeehhcccC-ccceccC
+Q tr|A0A8V8TPA6|  430 --------TQTACLVNLRSLAC-QPISFSG  450 (465)
+Q Consensus       430 --------tqtaclvnlrslac-qpisfsg  450 (465)
+                              ++++++++++++++ +.+.|..
+T Consensus       444 ~~~~~~~~~~~~~lid~~~~~~~~~i~~~~  473 (475)
+T 6HMF_B          444 KMVNIVPTPAKVPVVDVESARVVKVLDFSG  473 (475)
+T ss_dssp             HHTTCCCCBTEEEEEETTTTEEEEEEECGG
+T ss_pred             HhcCCCCCCcEEEEEECCCCceEEEEEccc
+Confidence                    68999999999999 8888864
+
+
+No 7
+>6KNB_A DNA polymerase II small subunit; Family D Polymerase, PCNA, Switch;{Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=99.96  E-value=9.2e-28  Score=215.50  Aligned_cols=385  Identities=18%  Similarity=0.319  Sum_probs=300.6  Template_Neff=10.100
+
+Q ss_pred             ccCCCCCCcccCC-------cc--cccccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecC
+Q tr|A0A8V8TPA6|   31 TYTNSSQPFRLGE-------RS--FSRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAM  101 (465)
+Q Consensus        31 tytnssqpfrlge-------rs--fsrqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkam  101 (465)
+                      .|+...++|....       ..  ..+||.++|++||+.|+++|.++.  .|....++..+.+. .+++++++|+|++.+
+T Consensus       116 ~~~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~~~~R~~~l~~~l~~~~--~~~~~~~i~~l~~~-~~~~~~v~G~v~~~~  192 (537)
+T 6KNB_A          116 AFDVKNVKFEVPKVKNAQSKEGEVIIQAYSSYFKSRLKKMRRIFRENP--EIGTIVDIAKLSYV-REDDVTIIGLVNEKR  192 (537)
+T ss_dssp             CHHHHTSSSSSSCSCCCCCSSCCSHHHHHHHHHHHHHHHHHHHHHHST--TCCCBCCSGGGGTC-CSSCEEEEECCEEEE
+T ss_pred             EEcCCCCccCCcccCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHhCC--CccCcccHHHhhcc-CCCeEEEEEEEEeeE
+Confidence            5655667777531       22  347899999999999999998776  34344456565543 467899999999975
+
+
+Q ss_pred             CCChhhhhhCCCCCCCCCCcCCCCCCceeecccceeeecccc-c-----chhh-CCCccEEEEEEEEcCCCeEEEEEEEe
+Q tr|A0A8V8TPA6|  102 PLQPSILREHNLLPQPPRSKYIHPDDELVLEDELQRIKLKGT-I-----DVSK-LVTGTVLAVFGSVRDDGKFLVEDYCF  174 (465)
+Q Consensus       102 plqpsilrehnllpqpprskyihpddelvledelqriklkgt-i-----dvsk-lvtgtvlavfgsvrddgkflvedycf  174 (465)
+                      ..+                    +++.++|||++|+|+|+++ .     .... +++|+||+++|. ..++.|.|+++..
+T Consensus       193 ~~~--------------------~~~~~~lED~~g~i~l~~~~~~~~~~~~~~~l~~g~vv~v~G~-~~~~~f~v~~i~~  251 (537)
+T 6KNB_A          193 ETR--------------------KGYLFEIEDATGRIKVFIGSDKEGANEAYSTIMPDSVVAFRGT-PGKGIFFANRVFL  251 (537)
+T ss_dssp             ECS--------------------SSEEEEEECSSCEEEEEETTSSTTHHHHHHSCSSSCCEEEEEC-CCSSSEEEEECCC
+T ss_pred             EeC--------------------CCCEEEEEcCCCeEEEEEcCChhhHHHhhcccCCCCEEEEEEE-eCCCEEEEEEEEc
+Confidence            321                    2369999999999999997 2     1245 999999999999 6788999999999
+
+
+Q ss_pred             ccCCCCCC-CCCCCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhh
+Q tr|A0A8V8TPA6|  175 ADLAPQKP-APPLDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDS  253 (465)
+Q Consensus       175 adlapqkp-appldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrds  253 (465)
+                      |+.+.... .+....+.+|+++||+|++.... ....++.+++++++..+...+.....+++.+|++||+++........
+T Consensus       252 p~~~~~~~~~~~~~~~~~i~~iSD~H~~~~~~-~~~~l~~l~~~l~~~~~~~~~~~~~~~~d~vvl~GD~v~~~~~~~~~  330 (537)
+T 6KNB_A          252 PDVPKFKRSKPPLEEKVYAILLSDIHVGSNKF-CEEAFIKFLEWLNGEVNSRTEEELVSRIKYIIIGGDVVDGVGIYPGQ  330 (537)
+T ss_dssp             CCCCCCCCCCCCCSSCCEEECCCCCCTTBTTC-CHHHHHHHHHHHTTCCCSHHHHHHHSSCCEEECCCCCCCCSCSCTTH
+T ss_pred             CCCCCCCCCCCCccCCeEEEEEeccCCCCccc-cHHHHHHHHHHHhccCCChhHHHHHhcCcEEEEcCccccCCCCCCCC
+Confidence            98776544 33446789999999999997654 45688899999987522110011223799999999999876531110
+
+
+Q ss_pred             hhhhhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeec
+Q tr|A0A8V8TPA6|  254 INKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATID  333 (465)
+Q Consensus       254 inkakyltkktqaasveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatid  333 (465)
+                      .   ..+   ......+.++.+.++++.+...+++++||||||+....+|++++...+........++++++||+.+.++
+T Consensus       331 ~---~~~---~~~~~~~~~~~l~~~l~~l~~~~~v~~vpGNHD~~~~~~p~~~~~~~~~~~~~~~~~~~~~~np~~i~i~  404 (537)
+T 6KNB_A          331 Y---NEL---AIPDIFDQYEALANLLKQVPDHITMFIGPGNHDAARTALPQPGFYEEYAKPLYKLKNAVIISNPAVIRLH  404 (537)
+T ss_dssp             H---HHB---SSSCSHHHHHHHHHHHHSSCSSSEEEECCCSSCSSCSSSCBCCCCSSTTHHHHHCSSCEECCBSEEEEET
+T ss_pred             C---ccc---ccccHHHHHHHHHHHHhccCCCCEEEEeCCCCccccCCCCCCCCCHHHhHHHhcCCCEEEeCCcEEEEEC
+Confidence            0   000   0012246778888889888777999999999999988899999998887766556789999999999999
+
+
+Q ss_pred             ceeeecCCCCChhhhhccCC---hHHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCcccee
+Q tr|A0A8V8TPA6|  334 GVRFLGTSGQNVSDIFRYSS---MEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKI  410 (465)
+Q Consensus       334 gvrflgtsgqnvsdifryss---medhleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgski  410 (465)
+                      |..+++++++.+.++.....   ......+++.++.++|++|..|...+++| ...+.+.+...||++++||.|.++...
+T Consensus       405 g~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~~~ll~~~~l~p~~~~~~~~~~-~~~~~l~~~~~pdvv~~GH~H~~~~~~  483 (537)
+T 6KNB_A          405 GRDFLVAHGRGIEDVVDFVPNRSHHRPAEAMVELLKLRHIAPTFGNKVPIAP-DPEDTLVIESVPDLFQAGHVHVMQYKT  483 (537)
+T ss_dssp             TEEEEECCCCHHHHHHHHSSSCCTTCHHHHHHHHHTTTSSCCCCSSSSCCCC-CSCCCCSCSSCCSBBCCCSCCCCCEEE
+T ss_pred             CEEEEEEcCCCHHHHHHhCCCCCCCCHHHHHHHHHHHCCCCCCCCCCCCCCC-CCCCCeecCCCCCEEEeCCCCccceEE
+Confidence            99999999998887776643   24567899999999999999999888887 556788888999999999999999888
+
+
+Q ss_pred             eeCCCCCeEEEEEcCCCCc-------------ccceeeeehhccc-CccceccCCC
+Q tr|A0A8V8TPA6|  411 IRGPEDQTVLLVTVPDFSA-------------TQTACLVNLRSLA-CQPISFSGFG  452 (465)
+Q Consensus       411 irgpedqtvllvtvpdfsa-------------tqtaclvnlrsla-cqpisfsgfg  452 (465)
+                      +.|     +.++|+|+|..             .+.++++|+++++ ++.+.|....
+T Consensus       484 ~~g-----~~~in~Gs~~~~~~~~~~~~~~p~~~~~~~vdl~~~~~~~~~~~~~~~  534 (537)
+T 6KNB_A          484 YNG-----VFVINTGTWQAQTEFQKMVNIIPTPARVPIIDVETARLRAVVRFDQFC  534 (537)
+T ss_dssp             ETT-----EEEECCCCSSCCCHHHHHHTCCCCCSEEEEEETTTTCCCEEEECGGGS
+T ss_pred             ECC-----EEEEeCCCCcCCChhhhhcCCCCCCCEEEEEECCCCCcEEEEEccccc
+Confidence            888     99999999984             6899999999999 9999887654
+
+
+No 8
+>5VBN_A DNA polymerase epsilon subunit 2; replication, DNA replication, polymerase, DNA; HET: SO4; 2.35A {Homo sapiens}
+Probab=99.96  E-value=8.1e-28  Score=215.37  Aligned_cols=369  Identities=15%  Similarity=0.150  Sum_probs=282.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCcccCCCCCCcccCC---------cccccccceeeeeeeeechhhhhcch---hcccCC----------Cccchc
+Q tr|A0A8V8TPA6|   24 FARVPVATYTNSSQPFRLGE---------RSFSRQYAHIYATRLIQMRPFLENRA---QQHWGS----------GVGVKK   81 (465)
+Q Consensus        24 farvpvatytnssqpfrlge---------rsfsrqyahiyatrliqmrpflenra---qqhwgs----------gvgvkk   81 (465)
+                      ++++.. .|+..+++|....         ..+.+||..+|++||+.|++++.+++   +..|+.          ..++.+
+T Consensus        92 ~~~~~~-~y~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~~~~Ry~~l~~~l~~~~~f~~~~~~~~~~~~~~~~~l~~i~~  170 (527)
+T 5VBN_A           92 FDIPRF-VYNSERKKFLPLLMTNHPAPNLFGTPRDKAEMFRERYTILHQRTHRHELFTPPVIGSHPDESGSKFQLKTIET  170 (527)
+T ss_dssp             GGSCCE-EEETTTTEEEEGGGSSCCCCCSSCCHHHHHHHHHHHHHHHHHHHHTTC-----------------CCBCCHHH
+T ss_pred             ccCCce-EEeCccCeEeecccCCCCCCccCCCHHHHHHHHHHHHHHHHHHHHHCHhhCCCCcCCCCCCCCCceEEEEhHH
+Confidence            344443 7888888887532         13568999999999999999998885   334431          223444
+
+
+Q ss_pred             hhcCCCc-cceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCCceeecccceeeecccc-c--chhhCCCccEEEE
+Q tr|A0A8V8TPA6|   82 LCELQPE-EKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDDELVLEDELQRIKLKGT-I--DVSKLVTGTVLAV  157 (465)
+Q Consensus        82 lcelqpe-ekccvvgtlfkamplqpsilrehnllpqpprskyihpddelvledelqriklkgt-i--dvsklvtgtvlav  157 (465)
+                      |.+...+ ++++++|||++.                        .++.++|||++|+|+|+++ .  ..+.+++|+||+|
+T Consensus       171 l~~~~~~~~~~~v~G~l~~~------------------------~~~~~~lED~~~~v~l~~~~~~~~~~~~~~g~iv~v  226 (527)
+T 5VBN_A          171 LLGSTTKIGDAIVLGMITQL------------------------KEGKFFLEDPTGTVQLDLSKAQFHSGLYTEACFVLA  226 (527)
+T ss_dssp             HHHCSSCEEEEEEEEEEEEE------------------------ETTEEEEEETTEEEEEECTTCEECSSCCBTTCEEEE
+T ss_pred             HccCCCCCCcEEEEEEEEEc------------------------cCCCEEEECCCCeEEEecccccccccEEcCCcEEEE
+Confidence            4442221 579999999996                        5678999999999999997 2  6788999999999
+
+
+Q ss_pred             EEEEcCCCeEEEEEEEeccCCCCCC------------------------C---CCCCCCcEEEEEEcCCCCCChHHHHHH
+Q tr|A0A8V8TPA6|  158 FGSVRDDGKFLVEDYCFADLAPQKP------------------------A---PPLDTDRFVLLVSGLGLGGGGGESLLG  210 (465)
+Q Consensus       158 fgsvrddgkflvedycfadlapqkp------------------------a---ppldtdrfvllvsglglgggggesllg  210 (465)
+                      +|.+. ++.|.|+++.+|+.++...                        .   .......+|+++||+|++...  ....
+T Consensus       227 ~G~~~-~~~f~v~~i~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~iSd~hl~~~~--~~~~  303 (527)
+T 5VBN_A          227 EGWFE-DQVFHVNAFGFPPTEPSSTTRAYYGNINFFGGPSNTSVKTSAKLKQLEEENKDAMFVFLSDVWLDQVE--VLEK  303 (527)
+T ss_dssp             EEEEC-SSEEEEEEEECCCCCCHHHHHHHHCSBCCSCSSCSBCGGGCHHHHHHHHHCTTCCEEEEBCCCTTCHH--HHHH
+T ss_pred             EEEec-CCEEEEEEEEcCCCCCchhhHHHhCCccCCCCCCCCCHHHHHHHHHHHHHcCCceEEEeecccCCCHH--HHHH
+Confidence            99984 8999999999987654310                        0   012357799999999998543  2455
+
+
+Q ss_pred             HHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhh---cCCC
+Q tr|A0A8V8TPA6|  211 TQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLS---ASVP  287 (465)
+Q Consensus       211 tqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldeillqls---asvp  287 (465)
+                      +..+++.+...           +|+++|++|||++.......            .....+.++.+.++++++.   .+++
+T Consensus       304 l~~~l~~~~~~-----------~p~~vIl~Gdf~~~~~~~~~------------~~~~~~~~~~l~~~l~~~~~l~~~~~  360 (527)
+T 5VBN_A          304 LRIMFAGYSPA-----------PPTCFILCGNFSSAPYGKNQ------------VQALKDSLKTLADIICEYPDIHQSSR  360 (527)
+T ss_dssp             HHHHHHHHTTS-----------CCSEEEEESCCCSCSSCSSH------------HHHHHHHHHHHHHHHHTCHHHHHHCE
+T ss_pred             HHHHHhccCCC-----------CCeEEEEecCccCCCCCcch------------HHHHHHHHHHHHHHHHHCchhhcCCE
+Confidence            55555555433           79999999999987652111            1123566677777777653   3789
+
+
+Q ss_pred             CCCCCCCCCCCc-CCCCCCCCCCCccccccc-cchhccccCCcceeecceeeecCCCCChhhhhccCC------hHHHHH
+Q tr|A0A8V8TPA6|  288 VDVMPGEFDPTN-YTLPQQPLHPCMFPLATA-YSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS------MEDHLE  359 (465)
+Q Consensus       288 vdvmpgefdptn-ytlpqqplhpcmfplata-ystlqlvtnpyqatidgvrflgtsgqnvsdifryss------medhle  359 (465)
+                      +++||||||+.. ..+||++++..+.+.+.. .+++++++|||.+.++|.++++++++.+.++.++..      .+....
+T Consensus       361 vi~vPGnhD~~~~~~~P~~~l~~~~~~~~~~~~~~~~~~~nP~~i~~~~~~i~~~~~d~~~~~~~~~~~~~~~~~~~~~~  440 (527)
+T 5VBN_A          361 FVFVPGPEDPGFGSILPRPPLAESITNEFRQRVPFSVFTTNPCRIQYCTQEITVFREDLVNKMCRNCVRFPSSNLAIPNH  440 (527)
+T ss_dssp             EEEECCTTSTTTTTSBSBCCSCHHHHHHHHHHCTTEEECCBSEEEEETTEEEEEEESCHHHHHHTTBSSCCCTTSCHHHH
+T ss_pred             EEEeCCCCCCCCCCCCCCCCcchhHHHHHHhhCCCEEEcCCCEEEEECCEEEEEEeHhHHHHHhhhccCCCCccCcHHHH
+Confidence            999999999997 899999998877665543 567999999999999999999999999998887632      234678
+
+
+Q ss_pred             HHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcc-cceeeeeh
+Q tr|A0A8V8TPA6|  360 ILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSAT-QTACLVNL  438 (465)
+Q Consensus       360 ilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsat-qtaclvnl  438 (465)
+                      ++++++.|+|++|..|...++++.. ...+.+...||++|+||.|.++...+.+     +.++|+|+|..+ .+|+++++
+T Consensus       441 ~~~~~l~~~hl~P~~~~~~~~~~~~-d~~l~l~~~Pd~~i~Gh~h~~~~~~~~~-----~~~in~Gsf~~~~~~f~~~~~  514 (527)
+T 5VBN_A          441 FVKTILSQGHLTPLPLYVCPVYWAY-DYALRVYPVPDLLVIADKYDPFTTTNTE-----CLCINPGSFPRSGFSFKVFYP  514 (527)
+T ss_dssp             HHHHHHHHTBSCCSCTTTSCBCGGG-GGGGBCCSCCSEEEEECSSCCEEEEETT-----EEEEECCBGGGTTSEEEEEET
+T ss_pred             HHHHHHhcccCCCCCCCcccccccc-chHcccCCCCCEEEEcCCCCCCeeeeCC-----CEEEeCCCCCCCCcEEEEEEc
+Confidence            8999999999999999877765422 2348889999999999999988888888     999999999976 79999999
+
+
+Q ss_pred             hcccCcccecc
+Q tr|A0A8V8TPA6|  439 RSLACQPISFS  449 (465)
+Q Consensus       439 rslacqpisfs  449 (465)
+                      .+++++...+.
+T Consensus       515 ~~~~~~~~~v~  525 (527)
+T 5VBN_A          515 SNKTVEDSKLQ  525 (527)
+T ss_dssp             TTTEEEEEECT
+T ss_pred             CCCeEEeeecC
+Confidence            99888775543
+
+
+No 9
+>7PFO_A DNA replication, helicase, CMG, TIMELESS; HET: ANP; 3.2A {Homo sapiens}
+Probab=99.96  E-value=8.1e-28  Score=215.37  Aligned_cols=368  Identities=15%  Similarity=0.159  Sum_probs=280.6  Template_Neff=10.100
+
+Q ss_pred             CCCCCCcccCCCCCCcccCC---------cccccccceeeeeeeeechhhhhcch---hcccCC-------Cccchchhc
+Q tr|A0A8V8TPA6|   24 FARVPVATYTNSSQPFRLGE---------RSFSRQYAHIYATRLIQMRPFLENRA---QQHWGS-------GVGVKKLCE   84 (465)
+Q Consensus        24 farvpvatytnssqpfrlge---------rsfsrqyahiyatrliqmrpflenra---qqhwgs-------gvgvkklce   84 (465)
+                      ++++.. .|+..+++|....         ..+.+||..+|++||+.|++++.+++   +..|+.       ...+.+|..
+T Consensus        92 ~~~~~~-~y~~~~~~f~~~~~~~~~~~~~~~~~~~~~~~~~~Ry~~l~~~l~~~~~f~~~~~~~~~~~~~~~~~l~~i~~  170 (527)
+T 7PFO_A           92 FDIPRF-VYNSERKKFLPLLMTNHPAPNLFGTPRDKAEMFRERYTILHQRTHRHELFTPPVIGSHPDESGSKFQLKTIET  170 (527)
+T ss_pred             ccCCce-EEeCccCeEeecccCCCCCCccCCCHHHHHHHHHHHHHHHHHHHHHCHhhCCCCcCCCCCCCCCceEEEEhHH
+Confidence            345443 7888888888642         13678999999999999999998885   334431       122444444
+
+
+Q ss_pred             CCC--c--cceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCCceeecccceeeecccc---cchhhCCCccEEEE
+Q tr|A0A8V8TPA6|   85 LQP--E--EKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDDELVLEDELQRIKLKGT---IDVSKLVTGTVLAV  157 (465)
+Q Consensus        85 lqp--e--ekccvvgtlfkamplqpsilrehnllpqpprskyihpddelvledelqriklkgt---idvsklvtgtvlav  157 (465)
+                      +..  +  ++++++|||++.                        .++.++|||++|+|+|+++   ...+.+++|+||+|
+T Consensus       171 l~~~~~~~~~~~v~G~l~~~------------------------~~~~~~lED~~~~v~l~~~~~~~~~~~~~~g~iv~v  226 (527)
+T 7PFO_A          171 LLGSTTKIGDAIVLGMITQL------------------------KEGKFFLEDPTGTVQLDLSKAQFHSGLYTEACFVLA  226 (527)
+T ss_pred             HccCCCCCCcEEEEEEEEEc------------------------cCCCEEEECCCCeEEEecccccccccEEcCCcEEEE
+Confidence            432  1  579999999996                        5678999999999999997   26788999999999
+
+
+Q ss_pred             EEEEcCCCeEEEEEEEeccCCCCCC------------------------C---CCCCCCcEEEEEEcCCCCCChHHHHHH
+Q tr|A0A8V8TPA6|  158 FGSVRDDGKFLVEDYCFADLAPQKP------------------------A---PPLDTDRFVLLVSGLGLGGGGGESLLG  210 (465)
+Q Consensus       158 fgsvrddgkflvedycfadlapqkp------------------------a---ppldtdrfvllvsglglgggggesllg  210 (465)
+                      +|.+ .++.|.|+++.+|+.++...                        .   .......+|+++||+|++...  ....
+T Consensus       227 ~G~~-~~~~f~v~~i~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~iSd~hl~~~~--~~~~  303 (527)
+T 7PFO_A          227 EGWF-EDQVFHVNAFGFPPTEPSSTTRAYYGNINFFGGPSNTSVKTSAKLKQLEEENKDAMFVFLSDVWLDQVE--VLEK  303 (527)
+T ss_pred             EEEe-cCCEEEEEEEEcCCCCCchhhHHHhCCccCCCCCCCCCHHHHHHHHHHHHHcCCceEEEeecccCCCHH--HHHH
+Confidence            9998 48999999999987654421                        0   112356799999999998543  2334
+
+
+Q ss_pred             HHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhh---cCCC
+Q tr|A0A8V8TPA6|  211 TQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLS---ASVP  287 (465)
+Q Consensus       211 tqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldeillqls---asvp  287 (465)
+                      +..+++.+...           +|+++|++|||++.......            .....+.++.+.++++++.   .+++
+T Consensus       304 l~~~l~~~~~~-----------~p~~vIl~Gdf~~~~~~~~~------------~~~~~~~~~~l~~~l~~~~~l~~~~~  360 (527)
+T 7PFO_A          304 LRIMFAGYSPA-----------PPTCFILCGNFSSAPYGKNQ------------VQALKDSLKTLADIICEYPDIHQSSR  360 (527)
+T ss_pred             HHHHHhccCCC-----------CCeEEEEecCccCCCCCcch------------HHHHHHHHHHHHHHHHHCchhhcCCE
+Confidence            44444433332           79999999999987542110            0112455666777777654   4789
+
+
+Q ss_pred             CCCCCCCCCCCc-CCCCCCCCCCCccccccc-cchhccccCCcceeecceeeecCCCCChhhhhccCC------hHHHHH
+Q tr|A0A8V8TPA6|  288 VDVMPGEFDPTN-YTLPQQPLHPCMFPLATA-YSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS------MEDHLE  359 (465)
+Q Consensus       288 vdvmpgefdptn-ytlpqqplhpcmfplata-ystlqlvtnpyqatidgvrflgtsgqnvsdifryss------medhle  359 (465)
+                      +++||||||+.. ..+||++++..+.+.+.. .+++++++|||.+.++|.++++++++.+.++.++..      .+....
+T Consensus       361 vi~vPGnhD~~~~~~~P~~~l~~~~~~~~~~~~~~~~~~~nP~~i~~~~~~i~~~~~d~~~~~~~~~~~~~~~~~~~~~~  440 (527)
+T 7PFO_A          361 FVFVPGPEDPGFGSILPRPPLAESITNEFRQRVPFSVFTTNPCRIQYCTQEITVFREDLVNKMCRNCVRFPSSNLAIPNH  440 (527)
+T ss_pred             EEEeCCCCCCCCCCCCCCCCcchhHHHHHHhhCCCEEEcCCCEEEEECCEEEEEEeHhHHHHHhhhccCCCCccCcHHHH
+Confidence            999999999996 899999999887776654 578999999999999999999999999988877532      134568
+
+
+Q ss_pred             HHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcc-cceeeeeh
+Q tr|A0A8V8TPA6|  360 ILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSAT-QTACLVNL  438 (465)
+Q Consensus       360 ilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsat-qtaclvnl  438 (465)
+                      ++++++.|+|++|..|...++++.. ...+.+...||++|+||.|.++...+.+     +.++|+|+|..+ .+|+++++
+T Consensus       441 ~~~~~l~~~hl~P~~~~~~~~~~~~-d~~l~l~~~Pd~~i~Gh~h~~~~~~~~~-----~~~in~Gsf~~~~~~f~~~~~  514 (527)
+T 7PFO_A          441 FVKTILSQGHLTPLPLYVCPVYWAY-DYALRVYPVPDLLVIADKYDPFTTTNTE-----CLCINPGSFPRSGFSFKVFYP  514 (527)
+T ss_pred             HHHHHHhcccCCCCCCCcccccccc-chHcccCCCCCEEEEcCCCCCCeeeeCC-----CEEEeCCCCCCCCcEEEEEEc
+Confidence            8999999999999998877765422 2347888999999999999988877877     999999999976 79999999
+
+
+Q ss_pred             hcccCcccec
+Q tr|A0A8V8TPA6|  439 RSLACQPISF  448 (465)
+Q Consensus       439 rslacqpisf  448 (465)
+                      .+++++...+
+T Consensus       515 ~~~~~~~~~v  524 (527)
+T 7PFO_A          515 SNKTVEDSKL  524 (527)
+T ss_pred             CCCeEEeeec
+Confidence            9888876544
+
+
+No 10
+>6T8H_A DNA polymerase sliding clamp, cPIP; PCNA, DP2, PolD, DP1, REPLICATION; 3.77A {Pyrococcus abyssi (strain GE5 / Orsay)}
+Probab=99.96  E-value=5.8e-27  Score=226.87  Aligned_cols=369  Identities=18%  Similarity=0.306  Sum_probs=295.6  Template_Neff=8.000
+
+Q ss_pred             ccccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCC
+Q tr|A0A8V8TPA6|   47 SRQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPD  126 (465)
+Q Consensus        47 srqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyihpd  126 (465)
+                      .+||..+|++||+.|+++|.++.  .|.....+.++.+...+++++++|+|++.+..+                    ++
+T Consensus       225 ~~~~~~~f~~R~~~l~~~l~~~~--~~~~~~~I~~l~~~~~~~~v~iiG~V~~~~~~~--------------------~~  282 (619)
+T 6T8H_A          225 VEAYASLFKSRLSKLKRILRENP--EISNVVDIGKLNYVSGDEEVTIIGLVNSKRETN--------------------RG  282 (619)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCC--CccCCeeHHHhccCCCCcEEEEEEEEEEeeecC--------------------CC
+Confidence            58999999999999999998876  343444555555544467899999999975422                    34
+
+
+Q ss_pred             Cceeecccceeeeccccc------chhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CCCCCCcEEEEEEcCC
+Q tr|A0A8V8TPA6|  127 DELVLEDELQRIKLKGTI------DVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PPLDTDRFVLLVSGLG  199 (465)
+Q Consensus       127 delvledelqriklkgti------dvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-ppldtdrfvllvsglg  199 (465)
+                      +.++|||++|+|+|.++.      ....+++|+||+++|.+..++.|.|+++..|+.+..... +....+.+|+++||+|
+T Consensus       283 ~~l~LED~tg~i~l~i~~~~~~~~~~~~l~~g~VV~v~G~~~~~~~f~v~~I~~P~~~~~~~~~~~~~~~~~Iv~iSDlH  362 (619)
+T 6T8H_A          283 LIFEVEDKTGIVKVFLPKDSEDYREAFKVLPDAVVAFKGFYSKKGIFFANKFYLPDVPLYRKQKPPLEEKVYAILISDIH  362 (619)
+T ss_pred             CeEEEECCCcEEEEEecCCchhHHhhhhcCCCCEEEEEEEECCCCeEEEEEEEcCCccccCCCCCCccCCcEEEEEeccc
+Confidence            589999999999999862      457899999999999987688999999999987765443 4445679999999999
+
+
+Q ss_pred             CCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHH
+Q tr|A0A8V8TPA6|  200 LGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEIL  279 (465)
+Q Consensus       200 lgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldeil  279 (465)
+                      +++... ....++++++++++..+.........+|+.+|++||+++.........   ..+   ........++.+.++|
+T Consensus       363 lgs~~~-~~~~l~~ll~~l~~~~~~~~~~~~~~~pd~lIi~GD~vd~~~~~p~q~---~~l---~i~d~~~~~~~l~~lL  435 (619)
+T 6T8H_A          363 VGSREF-CEKAFLKFLEWLNGHVESKEEEEIVSRVKYLIIAGDVVDGIGIYPGQY---SDL---VIPDIFDQYEALANLL  435 (619)
+T ss_pred             CCChhh-cHHHHHHHHHHHhcCCCChHHHHHHhcCcEEEEcCcccCCCCCCCCCC---ccc---chhHHHHHHHHHHHHH
+Confidence            997654 467889999998876433333345568999999999998754210000   000   0112245677888888
+
+
+Q ss_pred             HHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccCC---hHH
+Q tr|A0A8V8TPA6|  280 LQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS---MED  356 (465)
+Q Consensus       280 lqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifryss---med  356 (465)
+                      ..+..++++++||||||+....+||+++...+...+....++++++||+.+.++|.++++++++.+.++.+...   ...
+T Consensus       436 ~~l~~~i~viiVPGNHD~~~~~~Pq~~l~~~~~~~l~~~~nv~~l~NP~~i~i~g~~ili~~g~~~~~~~~~~~~~~~~~  515 (619)
+T 6T8H_A          436 ANVPEHITMFIGPGNADAARPAIPQPEFYKEYAKPIYKLKNAIIISNPAVIRLHGRDFLIAHGRGIEDVVSFVPGLTHHK  515 (619)
+T ss_pred             hCCCCCCEEEEeCCCCcCCCCCCCCCCccHHHhhHHhcCCCEEEeCCCEEEEECCEEEEEEcCCcHHHHHHhCCCCCCCC
+Confidence            88877899999999999999899999999888877666788999999999999999999999998888776643   245
+
+
+Q ss_pred             HHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCc-------
+Q tr|A0A8V8TPA6|  357 HLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSA-------  429 (465)
+Q Consensus       357 hleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsa-------  429 (465)
+                      ...+++.++.++|++|.+|...+++| ...+.+.+...||++++||.|.++...+.|     +.++|+|+|..       
+T Consensus       516 ~~~~~~~lL~~~hl~P~~~~~~~~~p-~~~d~L~i~~~Pdivi~GH~H~~~~~~~~g-----v~~Vn~Gs~~~~t~fq~~  589 (619)
+T 6T8H_A          516 PGLPMVELLKMRHLAPTFGGKVPIAP-DPEDLLVIEEVPDLVQMGHVHVYDAVVYRG-----VQLVNSATWQAQTEFQKM  589 (619)
+T ss_pred             hhHHHHHHHHhCCCCCCCCCCCCCCC-CccccccCCCCCCEEEECCCCcccEEEECC-----eEEEeCCCCcCCCccccc
+Confidence            67899999999999999998888777 556788888999999999999999888888     99999999983       
+
+
+Q ss_pred             ------ccceeeeehhcccC-ccceccC
+Q tr|A0A8V8TPA6|  430 ------TQTACLVNLRSLAC-QPISFSG  450 (465)
+Q Consensus       430 ------tqtaclvnlrslac-qpisfsg  450 (465)
+                            ++.++++|++++++ +.+.|..
+T Consensus       590 ~g~~P~~~~~~vvdl~t~~v~~~i~f~~  617 (619)
+T 6T8H_A          590 VNIVPTPAKVPVVDVESARVVKVLDFSG  617 (619)
+T ss_pred             cccCCCCCEEEEEECCCCcEEEEEEecc
+Confidence                  67899999999999 8888764
+
+
+No 11
+>7PMN_R Genome stability, DNA replication, Ubiquitination; HET: ANP; 3.2A {Saccharomyces cerevisiae}
+Probab=99.92  E-value=2.1e-23  Score=206.00  Aligned_cols=377  Identities=14%  Similarity=0.099  Sum_probs=291.1  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCcccCCCCCCcccC-C--cc----------cccccceeeeeeeeechhhhhcchhcc-c---C----------
+Q tr|A0A8V8TPA6|   22 ATFARVPVATYTNSSQPFRLG-E--RS----------FSRQYAHIYATRLIQMRPFLENRAQQH-W---G----------   74 (465)
+Q Consensus        22 atfarvpvatytnssqpfrlg-e--rs----------fsrqyahiyatrliqmrpflenraqqh-w---g----------   74 (465)
+                      ..++++.. .|++.+++|.+. .  ..          ..++|.++|++||+.|+++|.++.... |   +          
+T Consensus       174 ~af~~p~~-~y~~~~k~F~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~Ry~ll~~rl~r~~~f~~~~~~~~~~~~~~~~~  252 (689)
+T 7PMN_R          174 NASQQQRF-SYNPHKMQFIFVPNKKQNGLGGIAGFLPDIEDKVQMFLTRYYLTNDRVMRNENFQNSDMFNPLSSMVSLQN  252 (689)
+T ss_pred             ehhcCceE-EEeCCCCEEEEccCCCCCCCccccccCCCHHHHHHHHHHHHHHHHHHHHhChhcCCcccccccchhhhhhh
+Confidence            34566665 899999999943 1  12          578999999999999999998886322 2   0          
+
+
+Q ss_pred             -----------CCccchchhcCC--CccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCCceeecccceeeecc
+Q tr|A0A8V8TPA6|   75 -----------SGVGVKKLCELQ--PEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDDELVLEDELQRIKLK  141 (465)
+Q Consensus        75 -----------sgvgvkklcelq--peekccvvgtlfkamplqpsilrehnllpqpprskyihpddelvledelqriklk  141 (465)
+                                 ....+..|..+.  .++.++++|+|++.                        +++.++|||++|+|+|+
+T Consensus       253 ~~~~~~~~~~~~~~~it~I~~L~g~~~~~~~i~G~L~~~------------------------~~g~~~LED~~g~I~Ld  308 (689)
+T 7PMN_R          253 ELSNTNRQQQSSSMSITPIKNLLGRDAQNFLLLGLLNKN------------------------FKGNWSLEDPSGSVEID  308 (689)
+T ss_pred             hcccCcccccccceeeeehHHHccCCCCcEEEEEEEEEC------------------------CCCCEEEECCCceEEEE
+Confidence                       111344444443  45789999999996                        56789999999999999
+
+
+Q ss_pred             cc-c--ch-hhCCCccEEEEEEEEcC-CCeEEEEEEEeccCCCCCCC-----------------------------C---
+Q tr|A0A8V8TPA6|  142 GT-I--DV-SKLVTGTVLAVFGSVRD-DGKFLVEDYCFADLAPQKPA-----------------------------P---  184 (465)
+Q Consensus       142 gt-i--dv-sklvtgtvlavfgsvrd-dgkflvedycfadlapqkpa-----------------------------p---  184 (465)
+                      ++ .  .. +.+++|+||+|+|.+.. |+.|.|++|.+|+.++....                             .   
+T Consensus       309 ls~~~~~~~~~~~~G~iV~v~G~~~~~G~~F~V~~i~~Pp~e~~~~s~~~~~~~d~~g~~~~~~~~~~~~~~~~~~~~l~  388 (689)
+T 7PMN_R          309 ISQTIPTQGHYYVPGCMVLVEGIYYSVGNKFHVTSMTLPPGERREITLETIGNLDLLGIHGISNNNFIARLDKDLKIRLH  388 (689)
+T ss_pred             ccCCccCCceeecCCcEEEEEEEEeCCCCEEEEEEEEcCCCCCccchhHHhcCccccCCCCCCcchHHHhhcHHHHHHHH
+Confidence            97 3  22 89999999999999875 59999999999887654210                             0   
+
+
+Q ss_pred             ---CC-CCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhc
+Q tr|A0A8V8TPA6|  185 ---PL-DTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYL  260 (465)
+Q Consensus       185 ---pl-dtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyl  260 (465)
+                         .. ....+|+++||+|++...  ....|+.|++.+.+.           +|+++|++|||++.........  ... 
+T Consensus       389 ~~e~~~~~~~~iv~~Sdl~Ld~~~--~~~~L~~ll~~~~~~-----------~P~~lVl~GdF~s~~~~~~~~~--~~~-  452 (689)
+T 7PMN_R          389 LLEKELTDHKFVILGANLFLDDLK--IMTALSKILQKLNDD-----------PPTLLIWQGSFTSVPVFASMSS--RNI-  452 (689)
+T ss_pred             HHHHhhCCCcEEEEEecEecCCHH--HHHHHHHHHHHHhcC-----------CCcEEEEeCCccCCcccccCCC--CCC-
+Confidence               11 346789999999998644  356677777777654           6999999999998654321000  000 
+
+
+Q ss_pred             chhhhhhHHHHHHHHHHHHHHhh---cCCCCCCCCCCCCCCcC--------CCCCCCCCCCccccccc-cchhccccCCc
+Q tr|A0A8V8TPA6|  261 TKKTQAASVEAVKMLDEILLQLS---ASVPVDVMPGEFDPTNY--------TLPQQPLHPCMFPLATA-YSTLQLVTNPY  328 (465)
+Q Consensus       261 tkktqaasveavkmldeillqls---asvpvdvmpgefdptny--------tlpqqplhpcmfplata-ystlqlvtnpy  328 (465)
+                        .....+.+.++.+.++|+++.   .++++++|||+||++..        .+||+|++..+...+.. .+++++++|||
+T Consensus       453 --~~~~~~~~~f~~L~~lL~~~~~l~~~~~~i~VPG~~Dp~~~~~~~~~~~~lPq~pl~~~~~~~l~~~~~nv~~~sNP~  530 (689)
+T 7PMN_R          453 --SSSTQFKNNFDALATLLSRFDNLTENTTMIFIPGPNDLWGSMVSLGASGTLPQDPIPSAFTKKINKVCKNVVWSSNPT  530 (689)
+T ss_pred             --CchHHHHHHHHHHHHHHHhhhhccCCCeEEEeCCCCccCcccccCCCCCcccCCCCChHHHHHHHhhCCcEEEcCCCe
+Confidence              011223556667777777654   57899999999999964        99999999888776544 57899999999
+
+
+Q ss_pred             ceeecceeeecCCCCChhhhhccCC-----h----------------H-----------------H--HHHHHhhhhhec
+Q tr|A0A8V8TPA6|  329 QATIDGVRFLGTSGQNVSDIFRYSS-----M----------------E-----------------D--HLEILEWTLRVR  368 (465)
+Q Consensus       329 qatidgvrflgtsgqnvsdifryss-----m----------------e-----------------d--hleilewtlrvr  368 (465)
+                      ++.++|+.|++++++.+.++.++..     .                +                 .  ..+++++++.|+
+T Consensus       531 ri~i~g~~Ivi~r~D~~~~l~r~~i~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~l~~tiL~Q~  610 (689)
+T 7PMN_R          531 RIAYLSQEIVIFRDDLSGRFKRHRLEFPFNESEDVYTENDNMMSKDTDIVPIDELVKEPDQLPQKVQETRKLVKTILDQG  610 (689)
+T ss_pred             EEEECCEEEEEEccchHHHHHhccccCCCCCCccccccccccccccccCCchhhhcCCCCCCChHHHHHHHHHHHHHhcC
+Confidence            9999999999999999988877632     0                1                 2  567899999999
+
+
+Q ss_pred             ccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCC-ccceeeeCCCCCeEEEEEcCCCC--cccceeeeehhcccCcc
+Q tr|A0A8V8TPA6|  369 HISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPS-FGSKIIRGPEDQTVLLVTVPDFS--ATQTACLVNLRSLACQP  445 (465)
+Q Consensus       369 hisptapdtlgcypfyktdpfifpecphvyfcgntps-fgskiirgpedqtvllvtvpdfs--atqtaclvnlrslacqp  445 (465)
+                      |++|++|...+++|..+ +.|.+...||++|+||.|. ++...+.|     |.++|+|+|.  ..++|+.|++.+++++.
+T Consensus       611 hL~P~~p~~~pi~~~~d-~~L~L~p~PdvlIlgd~~~~~~~~~~~g-----~~viNpGsf~~~~~~sf~~y~p~~~~~e~  684 (689)
+T 7PMN_R          611 HLSPFLDSLRPISWDLD-HTLTLCPIPSTMVLCDTTSAQFDLTYNG-----CKVINPGSFIHNRRARYMEYVPSSKKTIQ  684 (689)
+T ss_pred             ceecCCCCCCCCCCCcc-ccccCCCCCCEEEECCCCCCcceEEECC-----eEEEcccccccCCCeEEEEEECCCCeEEE
+Confidence            99999999888877555 8889999999999999999 88888888     9999999999  66899999988888776
+
+
+Q ss_pred             ce
+Q tr|A0A8V8TPA6|  446 IS  447 (465)
+Q Consensus       446 is  447 (465)
+                      ..
+T Consensus       685 ~~  686 (689)
+T 7PMN_R          685 EE  686 (689)
+T ss_pred             EE
+Confidence            43
+
+
+No 12
+>7OPL_B DNA polymerase, Primase, viral protein;{Homo sapiens}
+Probab=99.92  E-value=3.7e-23  Score=185.95  Aligned_cols=348  Identities=16%  Similarity=0.105  Sum_probs=265.4  Template_Neff=9.500
+
+Q ss_pred             ccccceeeeeeeeechhhhhcchhcccC--CCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCC
+Q tr|A0A8V8TPA6|   47 SRQYAHIYATRLIQMRPFLENRAQQHWG--SGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIH  124 (465)
+Q Consensus        47 srqyahiyatrliqmrpflenraqqhwg--sgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyih  124 (465)
+                      .++|++.|.+|++.|+++|.+.+...|.  +...+.++.. .++++++++|||+++++.|.                   
+T Consensus        60 ~~~~~~~~~~r~~~l~~ri~~~~~~~~~~~~~~~~~~~~~-~~~~~~~v~G~i~~~~~~~~-------------------  119 (452)
+T 7OPL_B           60 YKSMFQKLPDIREVLTCKIEELGSELKEHYKIEAFTPLLA-PAQEPVTLLGQIGCDSNGKL-------------------  119 (452)
+T ss_dssp             CCCCCCCHHHHHHHHHHHHHHHHHHHHHHHTCCCCCCTTS-CBSSCCCCCEEEEESSSSSC-------------------
+T ss_pred             ccchhccHHHHHHHHHHHHHHHHHHHHHHhCCccccCCCC-CCCCCEEEEEEEEeCCCCCc-------------------
+Confidence            5789999999999999999999876553  1222333332 24678999999999865442                   
+
+
+Q ss_pred             CCCceeecc-----cceeeecccc-cchhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CC--CCCCcEEEEE
+Q tr|A0A8V8TPA6|  125 PDDELVLED-----ELQRIKLKGT-IDVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PP--LDTDRFVLLV  195 (465)
+Q Consensus       125 pddelvled-----elqriklkgt-idvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-pp--ldtdrfvllv  195 (465)
+                      +++.++|||     .++||+|+++ ...+.|++|+||+|+|.+..++.|.|++|+.+..++.... +.  ...+.+|+++
+T Consensus       120 ~~~~~~LEd~~~~~~~~~v~L~l~~~~~~~lf~G~vV~v~G~~~~~~~f~v~~i~~~~p~~~~~~~~~~~~~~~~~i~v~  199 (452)
+T 7OPL_B          120 NNKSVILEGDREHSSGAQIPVDLSELKEYSLFPGQVVIMEGINTTGRKLVATKLYEGVPLPFYQPTEEDADFEQSMVLVA  199 (452)
+T ss_dssp             CTTSEEEECCHHHHTTCEEECCCSSCCSCEECTTCEECBCCBBSSSSCCBCCCBCCCCCCCBCCCCHHHHTCCCEEEEEE
+T ss_pred             cCCcEEEEeccccCCCcEEEcCcccCCCeeecCCCEEEEEEEcCCCCEEEEEEEeeCCCCCCCCCCcccCCcCCceEEEE
+Confidence            567899999     7999999998 7789999999999999987789999999988533222211 11  1467899999
+
+
+Q ss_pred             EcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHH
+Q tr|A0A8V8TPA6|  196 SGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKML  275 (465)
+Q Consensus       196 sglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaasveavkml  275 (465)
+                      ||+|.+.++. .++.|..|++.+.+.           +|++||++|||++........    ..+    ...+.+.++.+
+T Consensus       200 sg~~~~~~~~-~~~~L~~ll~~~~~~-----------~p~~lIl~G~f~d~~~~~~~~----~~~----~~~~~~~f~~l  259 (452)
+T 7OPL_B          200 CGPYTTSDSI-TYDPLLDLIAVINHD-----------RPDVCILFGPFLDAKHEQVEN----CLL----TSPFEDIFKQC  259 (452)
+T ss_dssp             ESCCSCTTCS-SCHHHHHHHHHHHHH-----------CCSEEEEESCSSBSSSHHHHT----TCC----SSCHHHHHHHH
+T ss_pred             ecCCcCCCCC-cchhHHHHHHHHHhc-----------CCCEEEEECCccCCCCHHHHc----CCC----CCcHHHHHHHH
+Confidence            9999876654 467888888888766           899999999999976531100    000    01123444443
+
+
+Q ss_pred             HHHHHH-hh-cCCCCCCCCCCCCCCc-CCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccC
+Q tr|A0A8V8TPA6|  276 DEILLQ-LS-ASVPVDVMPGEFDPTN-YTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYS  352 (465)
+Q Consensus       276 deillq-ls-asvpvdvmpgefdptn-ytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifrys  352 (465)
+                      .+.+.+ +. .++++++|||+||+.. ..+||+|++...+.. ...+++++++|||.+.++|+.|++++++.+.++.++.
+T Consensus       260 ~~~i~~~~~~~~~~vilvPg~~D~~~~~~~Pq~p~~~~~~~~-~~~~~v~~~~NP~~i~i~g~~i~~~~~d~~~~l~~~~  338 (452)
+T 7OPL_B          260 LRTIIEGTRSSGSHLVFVPSLRDVHHEPVYPQPPFSYSDLSR-EDKKQVQFVSEPCSLSINGVIFGLTSTDLLFHLGAEE  338 (452)
+T ss_dssp             HHHHHHHTTTTCCEEEEECCTTBSSSCCCBSBCCCCCCCCCH-HHHHHEEECCBSEEEEETTEEEEECCSCHHHHHHHHC
+T ss_pred             HHHHHHHhhCCCCEEEEECCCccCCCCCCCCCCCCCHHhcCc-cccCCEEEecCCeeEEECCEEEEEecHHHHHHhcchh
+Confidence            333333 22 5789999999999997 899999998765543 2246899999999999999999999999999887764
+
+
+Q ss_pred             C------hHHHHHHHhhhhhecccCCCCCCccCcccccC-C-CCcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEc
+Q tr|A0A8V8TPA6|  353 S------MEDHLEILEWTLRVRHISPTAPDTLGCYPFYK-T-DPFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTV  424 (465)
+Q Consensus       353 s------medhleilewtlrvrhisptapdtlgcypfyk-t-dpfifpecphvyfcgntpsfgskiirgpedqtvllvtv  424 (465)
+                      .      .+...+++++++.|+|++|.+|+..+..+... . ..+.+...||++|+||.|.++.+.+++     +++||+
+T Consensus       339 ~~~~~~~~~~~~~~~~~ll~q~~l~P~~p~~~~~~~~~~~~~~~l~l~~~Pdvli~g~~~~~~~~~~~~-----~~~iNp  413 (452)
+T 7OPL_B          339 ISSSSGTSDRFSRILKHILTQRSYYPLYPPQEDMAIDYESFYVYAQLPVTPDVLIIPSELRYFVKDVLG-----CVCVNP  413 (452)
+T ss_dssp             EESCSSSSCHHHHHHHHHHHTSBSCCCSSCCTTCCBCHHHHHHHCBCSSBCSEEECCCSSCCEEEEETT-----EEEEEC
+T ss_pred             hcCCCCCCCHHHHHHHHHhcCCCcCCCCCCcccCCcCchHHHHHccCCCCCCEEEeCCCChhhceeeCC-----EEEEcC
+Confidence            2      13456899999999999999997665432111 1 225788999999999999999998888     999999
+
+
+Q ss_pred             CCCCcc---cceeeeehhc
+Q tr|A0A8V8TPA6|  425 PDFSAT---QTACLVNLRS  440 (465)
+Q Consensus       425 pdfsat---qtaclvnlrs  440 (465)
+                      |+|.++   ++|+.+++..
+T Consensus       414 G~~~~~~~~gt~a~~~~~~  432 (452)
+T 7OPL_B          414 GRLTKGQVGGTFARLYLRR  432 (452)
+T ss_dssp             CCSCBTTBCCEEEEEEECC
+T ss_pred             cccCCCCCCCcEEEEEEeC
+Confidence            999975   8999999865
+
+
+No 13
+>3FLO_G DNA polymerase subunit alpha B; Protein-protein complex, phosphoesterase fold, OB; HET: SO4; 2.5A {Saccharomyces cerevisiae}
+Probab=99.91  E-value=1.8e-22  Score=189.34  Aligned_cols=357  Identities=14%  Similarity=0.156  Sum_probs=268.4  Template_Neff=8.100
+
+Q ss_pred             cccceeeeeeeeechhhhhcchhcccCCCccchchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCC
+Q tr|A0A8V8TPA6|   48 RQYAHIYATRLIQMRPFLENRAQQHWGSGVGVKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDD  127 (465)
+Q Consensus        48 rqyahiyatrliqmrpflenraqqhwgsgvgvkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyihpdd  127 (465)
+                      .++.+++++|++.|++.|.++.+...   ..+..+. ...+++++++|+|++++..+              ..++  +++
+T Consensus        10 ~d~~~~l~~Ri~~l~~~l~~~~~~~~---~~~~~~~-~~~~~~~~v~G~I~~~~~~~--------------~~kl--~~~   69 (460)
+T 3FLO_G           10 QEASDVLDDQIESFTKIIQNHYKLSP---NDFADPT-IQSQSEIYAVGRIVPDSPTY--------------DKFL--NPE   69 (460)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTCCG---GGBCCTT-SCCSSCEEEEEEEEESSSSC--------------CSCC--CTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCc---ccCCCCC-cCCCCceEEEEEEeeCCCCC--------------CCCC--CCC
+Confidence            56788899999999999988765421   1122332 24578899999999986310              0111  557
+
+
+Q ss_pred             ceeeccc-----ceeeecccc-cchhhCCCccEEEEEEEEcCCCeEEEEEEEeccCCCCCCC-CC---------CCCCcE
+Q tr|A0A8V8TPA6|  128 ELVLEDE-----LQRIKLKGT-IDVSKLVTGTVLAVFGSVRDDGKFLVEDYCFADLAPQKPA-PP---------LDTDRF  191 (465)
+Q Consensus       128 elvlede-----lqriklkgt-idvsklvtgtvlavfgsvrddgkflvedycfadlapqkpa-pp---------ldtdrf  191 (465)
+                      .++|||.     +++|+|+++ +....|++|+||+|+|.+..++.|+|+++++|+..+.... +.         ...+.+
+T Consensus        70 ~l~LEd~~~~~~~~~v~L~ls~~~~~~lf~G~vV~v~G~~~~g~~F~V~~i~~pp~~~~~~~~~~~~~~~~~~~~~~~~~  149 (460)
+T 3FLO_G           70 SLSLETSRMGGVGRRVRLDLSQVNELSFFLGQIVAFKGKNANGDYFTVNSILPLPYPNSPVSTSQELQEFQANLEGSSLK  149 (460)
+T ss_dssp             SEEEECCHHHHTTCEEEEECTTCCCEEECTTCEEEEEEECSSSSCEEEEEECCCCCCCCCEEEHHHHHHHHHHHTSSCEE
+T ss_pred             cEEEEecccCCCccEEEeccccCCccccCCCcEEEEEEECCCCCEEEEEEEeeCCCCCCCCCChHHHHHHHHhcCCCCEE
+Confidence            8999998     889999998 7788999999999999987788999999999744433221 11         146889
+
+
+Q ss_pred             EEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhh-hhhhhcch-hhhhhHH
+Q tr|A0A8V8TPA6|  192 VLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSI-NKAKYLTK-KTQAASV  269 (465)
+Q Consensus       192 vllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsi-nkakyltk-ktqaasv  269 (465)
+                      |+++||+|++.++. .+..|+.|++++.+.          .+|+++|++|||++......... .. .+... .......
+T Consensus       150 i~~~Sg~f~~~d~~-~~~~l~~ll~~~~~~----------~~p~~lIl~GpFv~~~~~~~~~~~~~-~~~~~~~~~~~~~  217 (460)
+T 3FLO_G          150 VIVTCGPYFANDNF-SLELLQEFIDSINNE----------VKPHVLIMFGPFIDITHPLIASGKLP-NFPQFKTQPKTLD  217 (460)
+T ss_dssp             EEEEESCCSCTTCC-CCHHHHHHHHHCCCC----------CCCSEEEEESCSSBTTCHHHHHTCCC-CCTTCSSCCSSHH
+T ss_pred             EEEEeCCCCCCCCC-CcHHHHHHHHHHHhh----------cCCCEEEEeCCccCCCCHHHhcCCCC-CCCCcCCCCCCHH
+Confidence            99999999886554 467888888888764          27999999999998765211100 00 00000 0011234
+
+
+Q ss_pred             HHHHHH-HHHHHHhhcCCCCCCCCCCCCCCc-C-CCCCCCCCCCccccccccc-hhccccCCcceeecceeeecCCCCCh
+Q tr|A0A8V8TPA6|  270 EAVKML-DEILLQLSASVPVDVMPGEFDPTN-Y-TLPQQPLHPCMFPLATAYS-TLQLVTNPYQATIDGVRFLGTSGQNV  345 (465)
+Q Consensus       270 eavkml-deillqlsasvpvdvmpgefdptn-y-tlpqqplhpcmfplatays-tlqlvtnpyqatidgvrflgtsgqnv  345 (465)
+                      +.++.+ ..+|+++..++++++|||.+|++. . .+||+|++...+..   .+ ++++++|||.+.++|++|+++++|.+
+T Consensus       218 ~~f~~~~~~iL~~~~~~~~vilVPg~~D~~~~~~~~Pq~pl~~~~~~~---~~~~i~~~sNP~~i~i~~~~i~~~~~d~l  294 (460)
+T 3FLO_G          218 ELFLKLFTPILKTISPHIQTVLIPSTKDAISNHAAYPQASLIRKALQL---PKRNFKCMANPSSFQINEIYFGCSNVDTF  294 (460)
+T ss_dssp             HHHHHHTHHHHTTSCTTSEEEEECCTTBTTCSCCSBSBCCCCTTTTTC---CTTTEEECCBSEEEEETTEEEEECCSCHH
+T ss_pred             HHHHHHHHHHHHHhCCCCEEEEEcCccccccCCCCCCCccccHHHhCC---CCCCEEEecCceEEEECCEEEEEecchHH
+Confidence            555554 677777777899999999999996 6 79999998764432   45 89999999999999999999999999
+
+
+Q ss_pred             hhhhccCC------hHHHHHHHhhhhhecccCCCCCCccCc-------------------------------ccccCCCC
+Q tr|A0A8V8TPA6|  346 SDIFRYSS------MEDHLEILEWTLRVRHISPTAPDTLGC-------------------------------YPFYKTDP  388 (465)
+Q Consensus       346 sdifryss------medhleilewtlrvrhisptapdtlgc-------------------------------ypfyktdp  388 (465)
+                      .++.+...      .....+++++++.|+|++|.+|...+.                               +.+...+.
+T Consensus       295 ~~l~~~~~~~~~~~~~~~~~~~~~ll~qr~l~P~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~  374 (460)
+T 3FLO_G          295 KDLKEVIKGGTTSSRYRLDRVSEHILQQRRYYPIFPGSIRTRIKPKDVSTKKETNDMESKEEKVYEHISGADLDVSYLGL  374 (460)
+T ss_dssp             HHCCCEEESHHHHHSCHHHHHHHHHHHHTBSCCCSSCCEEC-------------------------CCEECCBCGGGGGG
+T ss_pred             HHHHHHHccCCCCCccHHHHHHHHHHhcCCcCCCCCCccccCCCCCCcccccccCCccchhhhhhhccCCCccchhhhcc
+Confidence            99887631      134578999999999999999976531                               12222346
+
+
+Q ss_pred             cCC--CCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcc----cceeeeehhcccCc
+Q tr|A0A8V8TPA6|  389 FIF--PECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSAT----QTACLVNLRSLACQ  444 (465)
+Q Consensus       389 fif--pecphvyfcgntpsfgskiirgpedqtvllvtvpdfsat----qtaclvnlrslacq  444 (465)
+                      +.+  ...||++|+|+.+.++.+.+.|     +++||+|+|.++    ++|+.+++...+.+
+T Consensus       375 ~~l~~~~~Pdv~i~~~~~~~~~~~~~~-----~~~inpg~~~~~~~~~g~~a~i~i~~~~~~  431 (460)
+T 3FLO_G          375 TEFVGGFSPDIMIIPSELQHFARVVQN-----VVVINPGRFIRATGNRGSYAQITVQCPDLE  431 (460)
+T ss_dssp             GBCGGGCCCSEEECCCSSCCEEEEETT-----EEEEECCCSBCTTSCBCEEEEEEECCCCSS
+T ss_pred             cccCCCCCCCEEEeCCCChhceEEECC-----EEEEcCCccccCCCCCceEEEEEEECCCcc
+Confidence            778  8999999999999999999998     999999999986    78999998776544
+
+
+No 14
+>4Y97_A Human DNA polymerase alpha B-subunit; human DNA polymerase alpha, TRANSFERASE; 2.51A {Homo sapiens}
+Probab=99.82  E-value=6.1e-18  Score=160.08  Aligned_cols=315  Identities=17%  Similarity=0.143  Sum_probs=239.8  Template_Neff=9.000
+
+Q ss_pred             chchhcCCCccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCCceeeccc-----ceeeecccc-cchhhCCCc
+Q tr|A0A8V8TPA6|   79 VKKLCELQPEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDDELVLEDE-----LQRIKLKGT-IDVSKLVTG  152 (465)
+Q Consensus        79 vkklcelqpeekccvvgtlfkamplqpsilrehnllpqpprskyihpddelvlede-----lqriklkgt-idvsklvtg  152 (465)
+                      +.++.. ..+++++++|+|+++...|.                   +++.++|||+     ++||+|+++ +..+.||+|
+T Consensus       240 ~~~~~~-~~~~~~~~~G~i~~~~~~~l-------------------~~~~~~LEd~~~~~~~~~v~L~l~~~~~~~lfpG  299 (598)
+T 4Y97_A          240 FTPLLA-PAQEPVTLLGQIGCDSNGKL-------------------NNKSVILEGDREHSSGAQIPVDLSELKEYSLFPG  299 (598)
+T ss_dssp             CCCTTC-CCSSCEEEEEEEEESSSSCC-------------------CTTTEEEEECHHHHTTCEEEEECTTCSSEEECTT
+T ss_pred             ccCCCC-CCCCCEEEEEEEEeCCCCCC-------------------CCCcEEEEeccccCCCCEEEeccccCCCceecCC
+Confidence            334433 34678999999999865442                   5678999998     899999998 778899999
+
+
+Q ss_pred             cEEEEEEEEcCCCeEEEEEEEeccCCCC-CCCCC--CCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCC
+Q tr|A0A8V8TPA6|  153 TVLAVFGSVRDDGKFLVEDYCFADLAPQ-KPAPP--LDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQC  229 (465)
+Q Consensus       153 tvlavfgsvrddgkflvedycfadlapq-kpapp--ldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqc  229 (465)
+                      |||+|+|.+..++.|.|++|+.+..++. .+...  ...+.+|+++||+|.+.++. .++.|..|++++.+.        
+T Consensus       300 qvV~v~G~~~~g~~f~v~~i~~~~~~~~~~~~~~~~~~~~~~i~vasGp~~~~~~~-~~~~L~~ll~~~~~~--------  370 (598)
+T 4Y97_A          300 QVVIMEGINTTGRKLVATKLYEGVPLPFYQPTEEDADFEQSMVLVACGPYTTSDSI-TYDPLLDLIAVINHD--------  370 (598)
+T ss_dssp             CEEEEEEECSSSSCEEEEEECCCCCCCBCCCCSGGGGCCCEEEEEEESCCSCTTCS-SCHHHHHHHHHHHHH--------
+T ss_pred             CEEEEEEEcCCCCeEEEEEEeeCCCCCCCCCCcccCCCCCcEEEEEeCCccCCCCC-CCHHHHHHHHHHHhc--------
+Confidence            9999999988899999999998543332 22111  14678999999999886655 578899999999876        
+
+
+Q ss_pred             ChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHH-HHhh-cCCCCCCCCCCCCCCc-CCCCCCC
+Q tr|A0A8V8TPA6|  230 SAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEIL-LQLS-ASVPVDVMPGEFDPTN-YTLPQQP  306 (465)
+Q Consensus       230 saahvsrvilagnllshstqsrdsinkakyltkktqaasveavkmldeil-lqls-asvpvdvmpgefdptn-ytlpqqp  306 (465)
+                         +|++|||+|||++.+.......   . +    ...+.+.++.+...+ ..+. .+++|++|||+||++. ..|||+|
+T Consensus       371 ---~p~~lIL~Gpfvd~~~~~~~~~---~-~----~~~~~~~f~~ll~~l~~~~~~~~~~vilVPg~~D~~~~~~~Pq~p  439 (598)
+T 4Y97_A          371 ---RPDVCILFGPFLDAKHEQVENC---L-L----TSPFEDIFKQCLRTIIEGTRSSGSHLVFVPSLRDVHHEPVYPQPP  439 (598)
+T ss_dssp             ---CCSEEEEESCSSBTTSHHHHTT---C-C----SSCHHHHHHHHHHHHHHHTGGGTCEEEEECCTTBTTSCCSBSBCC
+T ss_pred             ---CCCEEEEECcccCCCCHHHHcC---C-C----CCcHHHHHHHHHHHHHHHHhcCCCEEEEEcCCccCCCCCCCCCCC
+Confidence               8999999999999876311100   0 0    001133333332222 2233 4789999999999997 8999999
+
+
+Q ss_pred             CCCCccccccccchhccccCCcceeecceeeecCCCCChhhhhccCC------hHHHHHHHhhhhhecccCCCCCCccCc
+Q tr|A0A8V8TPA6|  307 LHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS------MEDHLEILEWTLRVRHISPTAPDTLGC  380 (465)
+Q Consensus       307 lhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsdifryss------medhleilewtlrvrhisptapdtlgc  380 (465)
+                      ++...+... ...++++++|||.+.++|++++++++|.+.++.+...      .+...++++++++|+|++|.+|+..+.
+T Consensus       440 ~~~~~l~~~-~~~~i~~~sNP~~i~i~g~~i~i~~~D~l~~l~~~~~~~~~~~~d~~~~l~~~ll~q~~l~P~~p~~~~~  518 (598)
+T 4Y97_A          440 FSYSDLSRE-DKKQVQFVSEPCSLSINGVIFGLTSTDLLFHLGAEEISSSSGTSDRFSRILKHILTQRSYYPLYPPQEDM  518 (598)
+T ss_dssp             CCCCCCCTT-GGGTEEECCBSEEEEETTEEEEECCSCHHHHHHTTCEEESCSCCCHHHHHHHHHHHHTBSCCCSSCCTTC
+T ss_pred             CChhHcCcc-ccCcEEEecCCeEEEeCCEEEEEecHHHHHHhccchhcCCCCCCCHHHHHHHHHhcCCccCCCCCCCccC
+Confidence            987444321 2468999999999999999999999999999888742      245568999999999999999986543
+
+
+Q ss_pred             -ccccCCC-CcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcc---cceeeeehh
+Q tr|A0A8V8TPA6|  381 -YPFYKTD-PFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSAT---QTACLVNLR  439 (465)
+Q Consensus       381 -ypfyktd-pfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsat---qtaclvnlr  439 (465)
+                       +++...+ .+.+...||++|+||.|.++.+.+.|     +++||+|+|.+.   ++|+.+++.
+T Consensus       519 ~~~~~~~~~~~~l~~~PdilI~gs~~~~f~~~~~~-----~~~iNpG~~~~~~~~gtya~i~i~  577 (598)
+T 4Y97_A          519 AIDYESFYVYAQLPVTPDVLIIPSELRYFVKDVLG-----CVCVNPGRLTKGQVGGTFARLYLR  577 (598)
+T ss_dssp             CBCHHHHHHHSBCSSBCSEEECCCSSCCEEEEETT-----EEEEECCCSEETTEECEEEEEEEC
+T ss_pred             CCCchHHHHHhcCCCCCCEEEeCCCChhhceeeCC-----EEEEcccccCCCCCCCcEEEEEEe
+Confidence             2222112 33578899999999999999999988     999999999975   889988876
+
+
+No 15
+>5EXR_D DNA primase small subunit (E.C.2.7.7.-); human primosome, complex, primase, DNA; HET: SF4; 3.6A {Homo sapiens}
+Probab=99.79  E-value=4.2e-17  Score=154.94  Aligned_cols=308  Identities=17%  Similarity=0.144  Sum_probs=236.4  Template_Neff=8.900
+
+Q ss_pred             CccceeeeeceeecCCCChhhhhhCCCCCCCCCCcCCCCCCceeeccc-----ceeeecccc-cchhhCCCccEEEEEEE
+Q tr|A0A8V8TPA6|   87 PEEKCCVVGTLFKAMPLQPSILREHNLLPQPPRSKYIHPDDELVLEDE-----LQRIKLKGT-IDVSKLVTGTVLAVFGS  160 (465)
+Q Consensus        87 peekccvvgtlfkamplqpsilrehnllpqpprskyihpddelvlede-----lqriklkgt-idvsklvtgtvlavfgs  160 (465)
+                      .+++++++|+|+++...|.                   +++.++|||+     ++||+|+++ ...+.||+||||+|+|.
+T Consensus       246 ~~~~~~v~G~I~~~~~~~l-------------------~~~~~~LEd~~~~~~~~~v~L~ls~~~~~~lfpGqvV~v~G~  306 (597)
+T 5EXR_D          246 AQEPVTLLGQIGCDSNGKL-------------------NNKSVILEGDREHSSGAQIPVDLSELKEYSLFPGQVVIMEGI  306 (597)
+T ss_dssp             CSSCEEEEEECCCSSSSCC-------------------CTTTCEEEECHHHHTTCEEEEECTTCSSCEECTTCEEEEEEE
+T ss_pred             CCCCEEEEEEEEeCCCCCC-------------------CCCcEEEEeccccCCCcEEEeccccCCCcccCCCCEEEEEEE
+Confidence            4678999999999865432                   5678999998     889999998 77889999999999999
+
+
+Q ss_pred             EcCCCeEEEEEEEeccCCCC-CCCCC--CCCCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeE
+Q tr|A0A8V8TPA6|  161 VRDDGKFLVEDYCFADLAPQ-KPAPP--LDTDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRV  237 (465)
+Q Consensus       161 vrddgkflvedycfadlapq-kpapp--ldtdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrv  237 (465)
+                      +..++.|.|++|+.+..++. .+.+.  ...+.+|+++||++...++. .++.|..|++++.+.           +|++|
+T Consensus       307 ~~~g~~f~v~~i~~~~~~~~~~~~~~~~~~~~~~i~vasGp~~~~~~~-~~~~L~~ll~~~~~~-----------~p~~l  374 (597)
+T 5EXR_D          307 NTTGRKLVATKLYEGVPLPFYQPTEEDADFEQSMVLVACGPYTTSDSI-TYDPLLDLIAVINHD-----------RPDVC  374 (597)
+T ss_dssp             CSSSSCEEEEEECCCCCCCBCCCCSGGGSCCCEEEEEEESCCSCTTCC-CCHHHHHHHHHHHHH-----------CCSEE
+T ss_pred             cCCCCeEEEEEEeeCCCCCCCCCCcccCCCCCcEEEEEECCccCCCCC-CCHHHHHHHHHHHhh-----------CCCEE
+Confidence            88899999999998543332 22221  14678999999999886655 578899999998876           89999
+
+
+Q ss_pred             EEechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHH-HHhh-cCCCCCCCCCCCCCCc-CCCCCCCCCCCcccc
+Q tr|A0A8V8TPA6|  238 ILAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEIL-LQLS-ASVPVDVMPGEFDPTN-YTLPQQPLHPCMFPL  314 (465)
+Q Consensus       238 ilagnllshstqsrdsinkakyltkktqaasveavkmldeil-lqls-asvpvdvmpgefdptn-ytlpqqplhpcmfpl  314 (465)
+                      ||+|||++.........   . +    ...+.+.++.+...+ ..+. .+++|++|||+||++. ..|||+|++...+..
+T Consensus       375 IL~Gpfvd~~~~~~~~~---~-~----~~~~~~~f~~ll~~l~~~~~~~~~~vilVPg~~D~~~~~~~Pqpp~~~~~l~~  446 (597)
+T 5EXR_D          375 ILFGPFLDAKHEQVENC---L-L----TSPFEDIFKQCLRTIIEGTRSSGSHLVFVPSLRDVHHEPVYPQPPFSYSDLSR  446 (597)
+T ss_dssp             EEESCSSBTTSHHHHTT---C-C----SSCHHHHHHHHHHHHHHTTTTTCCEEEEECCTTBTTSCCCBSBCCCCCCCCCT
+T ss_pred             EEECcccCCCChhHhcC---C-C----CCCHHHHHHHHHHHHHHHHhcCCCEEEEECCCccCCCCCCCCCCCCCHHHcCc
+Confidence            99999999876311100   0 0    001233333332222 2233 4789999999999997 899999998743332
+
+
+Q ss_pred             ccccchhccccCCcceeecceeeecCCCCChhhhhccCC------hHHHHHHHhhhhhecccCCCCCCccCc-ccccCCC
+Q tr|A0A8V8TPA6|  315 ATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSDIFRYSS------MEDHLEILEWTLRVRHISPTAPDTLGC-YPFYKTD  387 (465)
+Q Consensus       315 ataystlqlvtnpyqatidgvrflgtsgqnvsdifryss------medhleilewtlrvrhisptapdtlgc-ypfyktd  387 (465)
+                      . ...++++++|||.+.++|+.|+++++|.+.++.+...      .+...++++++++|+|++|.+|+..+. +++...+
+T Consensus       447 ~-~~~~v~~~sNP~~i~i~g~~i~i~s~D~l~~l~~~~~~~~~~~~d~~~~l~~~ll~qr~l~P~~p~~~~~~~~~~~~~  525 (597)
+T 5EXR_D          447 E-DKKQVQFVSEPCSLSINGVIFGLTSTDLLFHLGAEEISSSSGTSDRFSRILKHILTQRSYYPLYPPQEDMAIDYESFY  525 (597)
+T ss_dssp             T-HHHHEEECCBSEEEEESSCEEEECCSCHHHHHTTTCEESCCSSCCHHHHHHHHHHHHCBSCCCSSCCSSCCBCHHHHH
+T ss_pred             c-cCCCEEEecCCeEEEECCEEEEEecHHHHHHhhhhhhccCCCCCCHHHHHHHHHhcCCccCCCCCCCccCCcChhHHH
+Confidence            1 1468999999999999999999999999999888732      245668999999999999999976443 2222111
+
+
+Q ss_pred             -CcCCCCCCcEEEcCCCCCccceeeeCCCCCeEEEEEcCCCCcc---cceeeeehh
+Q tr|A0A8V8TPA6|  388 -PFIFPECPHVYFCGNTPSFGSKIIRGPEDQTVLLVTVPDFSAT---QTACLVNLR  439 (465)
+Q Consensus       388 -pfifpecphvyfcgntpsfgskiirgpedqtvllvtvpdfsat---qtaclvnlr  439 (465)
+                       .+.+...||++|+||.|.++.+.+.|     |++||+|+|.+.   ++|+.+++.
+T Consensus       526 ~~~~l~~~PdvlI~~s~~~~f~~~~~~-----~~~iNpG~~~~~~~~gtya~l~i~  576 (597)
+T 5EXR_D          526 VYAQLPVTPDVLIIPSELRYFVKDVLG-----CVCVNPGRLTKGQVGGTFARLYLR  576 (597)
+T ss_dssp             HHSBCSSBCSEEECCCSSCCEEEEETT-----EEEEECCCSEETTEECEEEEEEEC
+T ss_pred             HHhcCCCCCCEEEeCCCChhhceeeCC-----EEEEccccccCCCCCCcEEEEEEe
+Confidence             33678899999999999999999988     999999999875   889988876
+
+
+No 16
+>7DOG_B Nuclease SbcCD subunit D; DNA nuclease, endonuclease, exonuclease, DNA; 2.91A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=76.11  E-value=26  Score=29.25  Aligned_cols=126  Identities=16%  Similarity=0.262  Sum_probs=77.1  Template_Neff=11.900
+
+Q ss_pred             CCcEEEEEEcCCCCCChH------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcc
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGG------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLT  261 (465)
+Q Consensus       188 tdrfvllvsglglggggg------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakylt  261 (465)
+                      ..++|+++||+|++....      .....++.+.+.+...           +++.++++||+++.....           
+T Consensus         2 ~~~~~~~~sD~H~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------~~d~vl~~GD~~~~~~~~-----------   59 (323)
+T 7DOG_B            2 AMAKIIHTADWHLGKILNGKQLLEDQAYILDMFVEKMKEE-----------EPDIIVIAGDLYDTTYPS-----------   59 (323)
+T ss_dssp             --CEEEEECCCCBTCEETTEECHHHHHHHHHHHHHHHHHS-----------CCSEEEEESCCBSSSSCC-----------
+T ss_pred             CCcEEEEeCcccCCccccCCCCHHHHHHHHHHHHHHHHHH-----------CCCEEEEeCCCCCCCCCC-----------
+Confidence            457999999999985321      1145677777777765           899999999999865432           
+
+
+Q ss_pred             hhhhhhHHHHHHHHHHHHHHh--hcCCCCCCCCCCCCCCcC-CCCCCCCCCCccccccccchhccccCCcceeecceeee
+Q tr|A0A8V8TPA6|  262 KKTQAASVEAVKMLDEILLQL--SASVPVDVMPGEFDPTNY-TLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFL  338 (465)
+Q Consensus       262 kktqaasveavkmldeillql--sasvpvdvmpgefdptny-tlpqqplhpcmfplataystlqlvtnpyqatidgvrfl  338 (465)
+                             ....+.+..+++.+  ..+.+++++|||||.... ...     ..++.................+.+++.+++
+T Consensus        60 -------~~~~~~~~~~~~~l~~~~~~~~~~v~GNHD~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  127 (323)
+T 7DOG_B           60 -------KDAIMLLEQAIGKLNLELRIPIIMISGNHDGKERLNYG-----ASWFEHNQLFIRTDFTSINSPIEINGVNFY  127 (323)
+T ss_dssp             -------HHHHHHHHHHHHCCCCCSCCCEEEECCSSSCHHHHSTT-----HHHHGGGTEEEECCGGGGGSCEEETTEEEE
+T ss_pred             -------HHHHHHHHHHHHHHHHHcCCcEEEEcCCCCCHHHHhcc-----hHHHHHCCEEEEcCcccCCCCeEEccEEEE
+Confidence                   23445666777776  357899999999998631 000     000010000000011122345778899998
+
+
+Q ss_pred             cCCCCChhh
+Q tr|A0A8V8TPA6|  339 GTSGQNVSD  347 (465)
+Q Consensus       339 gtsgqnvsd  347 (465)
+                      +.+......
+T Consensus       128 ~l~~~~~~~  136 (323)
+T 7DOG_B          128 TLPYATVSE  136 (323)
+T ss_dssp             EECCCCHHH
+T ss_pred             EeCCCCHHH
+Confidence            888765543
+
+
+No 17
+>3THO_B Probable DNA double-strand break repair; Adenosine Triphosphate, Bacterial Proteins, DNA; HET: ADP, SO4; 2.6081A {Thermotoga maritima}
+Probab=66.21  E-value=43  Score=29.83  Aligned_cols=119  Identities=23%  Similarity=0.249  Sum_probs=71.8  Template_Neff=11.000
+
+Q ss_pred             cEEEEEEcCCCCCCh----------HHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhh
+Q tr|A0A8V8TPA6|  190 RFVLLVSGLGLGGGG----------GESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKY  259 (465)
+Q Consensus       190 rfvllvsglglgggg----------gesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkaky  259 (465)
+                      ++|+++||+|++...          ......++.+.+.+...           +++.+|++||+++......        
+T Consensus         1 ~kil~~sD~H~g~~~~~~~~~~~~~~~~~~~l~~i~~~~~~~-----------~~d~vl~~GDl~~~~~~~~--------   61 (379)
+T 3THO_B            1 MKILHTSDWHLGVTSWTSSRPVDRREELKKALDKVVEEAEKR-----------EVDLILLTGDLLHSRNNPS--------   61 (379)
+T ss_dssp             CEEEEECCCCBTCEECSSSSCEECHHHHHHHHHHHHHHHHHH-----------TCSEEEECSCCBSCSSSCC--------
+T ss_pred             CeEEEecccccCccccCCCCCCCcHHHHHHHHHHHHHHHHHc-----------CCCEEEEeCCccCCCCCCC--------
+Confidence            479999999998532          01234566666666554           8999999999998642211        
+
+
+Q ss_pred             cchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceee-----cc
+Q tr|A0A8V8TPA6|  260 LTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATI-----DG  334 (465)
+Q Consensus       260 ltkktqaasveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqati-----dg  334 (465)
+                               ......+.+.|..+...++++++|||||......    + ..+...  ...+++....+..+.+     .+
+T Consensus        62 ---------~~~~~~~~~~l~~l~~~~pv~~i~GNHD~~~~~~----~-~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~  125 (379)
+T 3THO_B           62 ---------VVALHDLLDYLKRMMRTAPVVVLPGNQDWKGLKL----F-GNFVTS--ISSDITFVMSFEPVDVEAKRGQK  125 (379)
+T ss_dssp             ---------HHHHHHHHHHHHHHHHHSCEEECCCTTSCTTHHH----H-HHHHHT--TCSSEEECCSSCCEEEECTTCCE
+T ss_pred             ---------HHHHHHHHHHHHHHHHhCCEEEEcCCCCchhhhh----h-HHHHHH--hcCCEEEecCCeeEEEEcCCCCE
+Confidence                     2334455556666544479999999999853100    0 000000  0234555556666666     66
+
+
+Q ss_pred             eeeecCCCC
+Q tr|A0A8V8TPA6|  335 VRFLGTSGQ  343 (465)
+Q Consensus       335 vrflgtsgq  343 (465)
+                      ..|+++...
+T Consensus       126 ~~~~~l~~~  134 (379)
+T 3THO_B          126 VRILPFPYP  134 (379)
+T ss_dssp             EEEEEECCC
+T ss_pred             EEEEEeCCC
+Confidence            777766543
+
+
+No 18
+>2NXF_A Putative dimetal phosphatase; dinuclear metal center phosphatase, metalloprotein; HET: MSE; 1.7A {Danio rerio} SCOP: d.159.1.12
+Probab=63.75  E-value=1.2e+02  Score=24.93  Aligned_cols=52  Identities=12%  Similarity=-0.007  Sum_probs=41.7  Template_Neff=12.400
+
+Q ss_pred             CCcEEEcCCCCCccceee-eCCCCCeEEEEEcCCCCccc----ceeeeehhcccCccceccC
+Q tr|A0A8V8TPA6|  394 CPHVYFCGNTPSFGSKII-RGPEDQTVLLVTVPDFSATQ----TACLVNLRSLACQPISFSG  450 (465)
+Q Consensus       394 cphvyfcgntpsfgskii-rgpedqtvllvtvpdfsatq----taclvnlrslacqpisfsg  450 (465)
+                      .++++++||.|.+..... .+     +.++++|++....    .+.++++..+++.+..+..
+T Consensus       257 ~~~~~~~GH~H~~~~~~~~~~-----~~~i~~g~~~~~~~~~~~~~~v~i~~~~~~~~~~~~  313 (322)
+T 2NXF_A          257 SVLCFIAGHDHDGGRCTDSSG-----AQHITLEGVIETPPHSHAFATAYLYEDRMVMKGRGR  313 (322)
+T ss_dssp             TEEEEEECSCTTCEEEECTTS-----CEEEECCCGGGCCTTSCEEEEEEECSSEEEEEEEET
+T ss_pred             cEEEEEEeecCCCCeeeccCC-----CEEEEecCccCCCCCCccEEEEEEcCCeEEeeeecc
+Confidence            489999999999887766 55     8899999988654    8999999887776665554
+
+
+No 19
+>3QG5_D Probable DNA double-strand break repair; ABC ATPase, nuclease, HYDROLASE; HET: GOL, MSE; 3.4A {Thermotoga maritima}
+Probab=61.04  E-value=75  Score=28.15  Aligned_cols=81  Identities=26%  Similarity=0.311  Sum_probs=57.0  Template_Neff=11.200
+
+Q ss_pred             cEEEEEEcCCCCCChH----------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhh
+Q tr|A0A8V8TPA6|  190 RFVLLVSGLGLGGGGG----------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKY  259 (465)
+Q Consensus       190 rfvllvsglglggggg----------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkaky  259 (465)
+                      ++|+++||+|++....          .....++.+++.+...           ++|++|++||+++......        
+T Consensus         1 ~~ilh~sD~Hlg~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~-----------~~d~vl~~GDl~~~~~~~~--------   61 (379)
+T 3QG5_D            1 MKILHTSDWHLGVTSWTSSRPVDRREELKKALDKVVEEAEKR-----------EVDLILLTGDLLHSRNNPS--------   61 (379)
+T ss_dssp             CEEEEECCCCBTCEECTTTSCEETHHHHHHHHHHHHHHHHHT-----------TCSEEEEEECSBSCSSCCC--------
+T ss_pred             CeEEEecccccCccccCCCCCccchHHHHHHHHHHHHHHHHc-----------CCCEEEEeCCccCCCCCCC--------
+Confidence            4799999999985310          1134666666666554           8999999999998643211        
+
+
+Q ss_pred             cchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  260 LTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPT  298 (465)
+Q Consensus       260 ltkktqaasveavkmldeillqlsasvpvdvmpgefdpt  298 (465)
+                               ......+.+.+..+...++++++|||||..
+T Consensus        62 ---------~~~~~~~~~~l~~l~~~~pv~~i~GNHD~~   91 (379)
+T 3QG5_D           62 ---------VVALHDLLDYLKRMMRTAPVVVLPGNHDWK   91 (379)
+T ss_dssp             ---------HHHHHHHHHHHHHHHTTSCEEEEECSCCST
+T ss_pred             ---------HHHHHHHHHHHHHHHhhCCEEEEcCCCCch
+Confidence                     234455666666666568999999999985
+
+
+No 20
+>4O24_A Exonuclease, putative; DNA repair DNA double-strand break; HET: 2Q0; 2.3A {Thermotoga maritima}
+Probab=45.85  E-value=1.1e+02  Score=26.79  Aligned_cols=84  Identities=25%  Similarity=0.293  Sum_probs=58.0  Template_Neff=11.100
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH----------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG----------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINK  256 (465)
+Q Consensus       187 dtdrfvllvsglglggggg----------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsink  256 (465)
+                      ...++|+++||+|++....          .....++.+.+.+...           +++.+|++||+++......     
+T Consensus        15 ~~~~~~~~~sD~H~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~-----------~~d~vi~~GDl~~~~~~~~-----   78 (335)
+T 4O24_A           15 LKELKILHTSDWHLGVTSWTSSRPVDRREELKKALDKVVEEAEKR-----------EVDLILLTGDLLHSRNNPS-----   78 (335)
+T ss_dssp             CCEEEEEEEECCCBTCEECTTTCCEECHHHHHHHHHHHHHHHHHH-----------TCSEEEEESCSBSCSSCCC-----
+T ss_pred             CCcEEEEEecccccCcccCCCCCCcchHHHHHHHHHHHHHHHHHc-----------CCCEEEEeCCCcCCCCCCC-----
+Confidence            4578999999999985311          1234666666666655           7999999999997643211     
+
+
+Q ss_pred             hhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  257 AKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPT  298 (465)
+Q Consensus       257 akyltkktqaasveavkmldeillqlsasvpvdvmpgefdpt  298 (465)
+                                  ......+.+.+..+....+++++|||||..
+T Consensus        79 ------------~~~~~~~~~~l~~~~~~~~~~~v~GNHD~~  108 (335)
+T 4O24_A           79 ------------VVALHDLLDYLKRMMRTAPVVVLPGNHDWK  108 (335)
+T ss_dssp             ------------HHHHHHHHHHHHHHHHHSCEEECCCCCSCS
+T ss_pred             ------------HHHHHHHHHHHHHHhhhCCEEEECCCCCcc
+Confidence                        233444555566554447999999999985
+
+
+No 21
+>4O5G_B Exonuclease, putative; DNA repair DNA double-strand break; HET: 2PV; 2.301A {Thermotoga maritima}
+Probab=44.29  E-value=1.3e+02  Score=26.29  Aligned_cols=84  Identities=25%  Similarity=0.293  Sum_probs=59.6  Template_Neff=11.100
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH----------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG----------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINK  256 (465)
+Q Consensus       187 dtdrfvllvsglglggggg----------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsink  256 (465)
+                      ...++++++||+|++....          .....++.+.+.+...           +++.+|++||+++......     
+T Consensus        16 ~~~~~~l~isD~H~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~-----------~~d~vl~~GDl~~~~~~~~-----   79 (336)
+T 4O5G_B           16 LKELKILHTSDWHLGVTSWTSSRPVDRREELKKALDKVVEEAEKR-----------EVDLILLTGDLLHSRNNPS-----   79 (336)
+T ss_dssp             CCEEEEEEEECCCBTCEECTTSSCEECHHHHHHHHHHHHHHHHHT-----------TCSEEEEESCSBSCSSCCC-----
+T ss_pred             CCcEEEEEeCCcccCcccCCCCCccchHHHHHHHHHHHHHHHHHh-----------CCCEEEEeCCccCCCCCCC-----
+Confidence            4578999999999985310          1234566666666544           8999999999998643211     
+
+
+Q ss_pred             hhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  257 AKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPT  298 (465)
+Q Consensus       257 akyltkktqaasveavkmldeillqlsasvpvdvmpgefdpt  298 (465)
+                                  ......+.+.+..+....+++++|||||..
+T Consensus        80 ------------~~~~~~~~~~l~~~~~~~~~~~v~GNHD~~  109 (336)
+T 4O5G_B           80 ------------VVALHDLLDYLKRMMRTAPVVVLPGNHDWK  109 (336)
+T ss_dssp             ------------HHHHHHHHHHHHHHHTTSCEEECCCSCCCT
+T ss_pred             ------------HHHHHHHHHHHHHHHhhCCEEEECCCCCch
+Confidence                        234455666777776568999999999985
+
+
+No 22
+>6X1Z_B Nuclease SbcCD subunit D; DNA REPAIR MRE11 THERMOPHILIC NUCLEASE; HET: MES, UL1; 1.9A {Thermotoga maritima}
+Probab=44.29  E-value=1.3e+02  Score=26.29  Aligned_cols=84  Identities=25%  Similarity=0.293  Sum_probs=57.5  Template_Neff=11.100
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH----------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG----------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINK  256 (465)
+Q Consensus       187 dtdrfvllvsglglggggg----------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsink  256 (465)
+                      ...++++++||+|++....          .....++.+.+.+...           +++.+|++||+++......     
+T Consensus        16 ~~~~~~l~isD~H~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~-----------~~d~vl~~GDl~~~~~~~~-----   79 (336)
+T 6X1Z_B           16 LKELKILHTSDWHLGVTSWTSSRPVDRREELKKALDKVVEEAEKR-----------EVDLILLTGDLLHSRNNPS-----   79 (336)
+T ss_dssp             TTEEEEEEECCCCBTCEECTTTSCEECHHHHHHHHHHHHHHHHHH-----------TCSEEEECSCCBSCSSCCC-----
+T ss_pred             CCcEEEEEeCCcccCcccCCCCCccchHHHHHHHHHHHHHHHHHh-----------CCCEEEEeCCccCCCCCCC-----
+Confidence            4578999999999985310          1234566666655544           8999999999998643211     
+
+
+Q ss_pred             hhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q tr|A0A8V8TPA6|  257 AKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPT  298 (465)
+Q Consensus       257 akyltkktqaasveavkmldeillqlsasvpvdvmpgefdpt  298 (465)
+                                  ......+.+.+..+....+++++|||||..
+T Consensus        80 ------------~~~~~~~~~~l~~~~~~~~~~~v~GNHD~~  109 (336)
+T 6X1Z_B           80 ------------VVALHDLLDYLKRMMRTAPVVVLPGNHDWK  109 (336)
+T ss_dssp             ------------HHHHHHHHHHHHHHHHHSCEEECCCSCCCT
+T ss_pred             ------------HHHHHHHHHHHHHHHhhCCEEEECCCCCch
+Confidence                        233445555666654447999999999985
+
+
+No 23
+>3AV0_A DNA double-strand break repair protein; DNA repair, Calcineurin-like phosphoesterase, ABC; HET: GOL, AGS, IPA; 3.1A {Methanocaldococcus jannaschii}
+Probab=44.00  E-value=1e+02  Score=29.25  Aligned_cols=84  Identities=13%  Similarity=0.208  Sum_probs=61.8  Template_Neff=9.600
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH-------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG-------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKY  259 (465)
+Q Consensus       187 dtdrfvllvsglglggggg-------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkaky  259 (465)
+                      ...++|+++||+|++....       +....++.+++.+...           ++|++|++||+++.....         
+T Consensus        18 ~~~~rilh~sD~Hlg~~~~~~~~r~~d~~~~~~~i~~~~~~~-----------~~d~vliaGDlfd~~~~~---------   77 (386)
+T 3AV0_A           18 GSHMMFVHIADNHLGYRQYNLDDREKDIYDSFKLCIKKILEI-----------KPDVVLHSGDLFNDLRPP---------   77 (386)
+T ss_dssp             CCCCEEEEECCCCBTCCGGGCHHHHHHHHHHHHHHHHHHHTT-----------CCSEEEECSCSBSSSSCC---------
+T ss_pred             CCceEEEEEecccCCCcccCcchHHHHHHHHHHHHHHHHHHH-----------CCCEEEEcCCCcCCCCCC---------
+Confidence            4679999999999996532       1135666777777665           899999999999987643         
+
+
+Q ss_pred             cchhhhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCc
+Q tr|A0A8V8TPA6|  260 LTKKTQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTN  299 (465)
+Q Consensus       260 ltkktqaasveavkmldeillqls-asvpvdvmpgefdptn  299 (465)
+                               ...+..+.+.+.++. .++++++||||||...
+T Consensus        78 ---------~~~~~~~~~~l~~l~~~~i~v~~i~GNHD~~~  109 (386)
+T 3AV0_A           78 ---------VKALRIAMQAFKKLHENNIKVYIVAGNHEMPR  109 (386)
+T ss_dssp             ---------HHHHHHHHHHHHHHHHTTCEEEECCCGGGSCS
+T ss_pred             ---------HHHHHHHHHHHHHHHHCCCeEEEECCCCCCCC
+Confidence                     233445556666663 5789999999999864
+
+
+No 24
+>5F3W_C DNA double-strand break repair protein; Nuclease, Complex, DNA BINDING PROTEIN-HYDROLASE-DNA; HET: AGS; 3.11A {Methanocaldococcus jannaschii DSM 2661}
+Probab=44.00  E-value=1e+02  Score=29.25  Aligned_cols=84  Identities=13%  Similarity=0.208  Sum_probs=59.5  Template_Neff=9.600
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH-------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG-------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKY  259 (465)
+Q Consensus       187 dtdrfvllvsglglggggg-------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkaky  259 (465)
+                      ...++|+++||+|++....       +....++.+++.+...           ++|++|++||+++.....         
+T Consensus        18 ~~~~rilh~sD~Hlg~~~~~~~~r~~d~~~~~~~i~~~~~~~-----------~~d~vliaGDlfd~~~~~---------   77 (386)
+T 5F3W_C           18 GSHMMFVHIADNHLGYRQYNLDDREKDIYDSFKLCIKKILEI-----------KPDVVLHSGDLFNDLRPP---------   77 (386)
+T ss_dssp             ---CEEEEECCCCBTCCGGGCHHHHHHHHHHHHHHHHHHHHH-----------CCSEEEECSCCBSSSSCC---------
+T ss_pred             CCceEEEEEecccCCCcccCcchHHHHHHHHHHHHHHHHHHH-----------CCCEEEEcCCCcCCCCCC---------
+Confidence            4578999999999996532       1134566667666655           899999999999987643         
+
+
+Q ss_pred             cchhhhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCc
+Q tr|A0A8V8TPA6|  260 LTKKTQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTN  299 (465)
+Q Consensus       260 ltkktqaasveavkmldeillqls-asvpvdvmpgefdptn  299 (465)
+                               ...+..+.+.+.++. .++++++||||||...
+T Consensus        78 ---------~~~~~~~~~~l~~l~~~~i~v~~i~GNHD~~~  109 (386)
+T 5F3W_C           78 ---------VKALRIAMQAFKKLHENNIKVYIVAGNHEMPR  109 (386)
+T ss_dssp             ---------HHHHHHHHHHHHHHHHTTCEEEECCCTTTSCC
+T ss_pred             ---------HHHHHHHHHHHHHHHHCCCeEEEECCCCCCCC
+Confidence                     233445556666663 5789999999999864
+
+
+No 25
+>4TUG_B nuclease1/DNA Complex; Nuclease, DNA binding protein-DNA complex; HET: MG; 3.55A {Methanocaldococcus jannaschii}
+Probab=43.13  E-value=3.8e+02  Score=24.25  Aligned_cols=206  Identities=13%  Similarity=0.142  Sum_probs=113.6  Template_Neff=10.500
+
+Q ss_pred             CCcEEEEEEcCCCCCChH-------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhc
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGG-------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYL  260 (465)
+Q Consensus       188 tdrfvllvsglglggggg-------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyl  260 (465)
+                      ..++|+++||+|++....       +....++.+++.+...           ++|.++++||+++.....          
+T Consensus         3 ~~~~~~~~sD~Hl~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------~~d~vl~~GDl~d~~~~~----------   61 (337)
+T 4TUG_B            3 SHMMFVHIADNHLGYRQYNLDDREKDIYDSFKLCIKKILEI-----------KPDVVLHSGDLFNDLRPP----------   61 (337)
+T ss_dssp             CSCCEEEECCCCBTCCGGGCHHHHHHHHHHHHHHHHHHHHH-----------CCSEEEECSCSBSSSSCC----------
+T ss_pred             CceEEEEEeccccCccccCchhHHHHHHHHHHHHHHHHHHH-----------CCCEEEEeCCCCCCCCCC----------
+Confidence            467999999999996532       1135566677766655           899999999999876542          
+
+
+Q ss_pred             chhhhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceee--cceee
+Q tr|A0A8V8TPA6|  261 TKKTQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATI--DGVRF  337 (465)
+Q Consensus       261 tkktqaasveavkmldeillqls-asvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqati--dgvrf  337 (465)
+                              ......+...++.+. .+++++++|||||.........+  ..++.     .++..+.....+.+  .+..+
+T Consensus        62 --------~~~~~~~~~~l~~l~~~~~~v~~i~GNHD~~~~~~~~~~--~~~~~-----~~~~~~~~~~~~~~~~~~~~~  126 (337)
+T 4TUG_B           62 --------VKALRIAMQAFKKLHENNIKVYIVAGNHEMPRRLGEESP--LALLK-----DYVKILDGKDVINVNGEEIFI  126 (337)
+T ss_dssp             --------HHHHHHHHHHHHHHHTTTCEEEECCCSTTSCCSTTCCCG--GGGGT-----TTCEECSEEEEEECSSCEEEE
+T ss_pred             --------HHHHHHHHHHHHHHHHCCCcEEEECCCCCCCCccCCCCh--HHHhc-----CcEEEccCCceEEECCceEEE
+Confidence                    233445555666653 47899999999998743211000  01111     12223322112444  45555
+
+
+Q ss_pred             ecCCCCChhhhhccCChHHHHHHHhhhhh----------ecccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCcc
+Q tr|A0A8V8TPA6|  338 LGTSGQNVSDIFRYSSMEDHLEILEWTLR----------VRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSFG  407 (465)
+Q Consensus       338 lgtsgqnvsdifryssmedhleilewtlr----------vrhisptapdtlgcypfyktdpfifpecphvyfcgntpsfg  407 (465)
+                      .+++.......      ....+++..+..          -.|..+... . + .. .....-.+.. +|++++||.|.+.
+T Consensus       127 ~~~~~~~~~~~------~~~~~~l~~~~~~~~~~~~~Il~~H~~~~~~-~-~-~~-~~~~~~~l~~-~d~~~~GH~H~~~  195 (337)
+T 4TUG_B          127 CGTYYHKKSKR------EEMLDKLKNFESEAKNYKKKILMLHQGINPY-I-P-LD-YELEHFDLPK-FSYYALGHIHKRI  195 (337)
+T ss_dssp             EECCCCCGGGH------HHHHHHHHHHHHHHTTCSEEEEEEESCBTTT-S-S-SS-CSBCGGGSCC-CSEEEEESCCSCE
+T ss_pred             EeeecCChhhH------HHHHHHHHhhHHHhhcCCcEEEEEccccccc-C-C-CC-CccCHHHcCc-CCEEEecccccce
+Confidence            55553322211      111222222221          112111110 0 0 00 0001112344 9999999999988
+
+
+Q ss_pred             ceeeeCCCCCeEEEEEcCCCCc-------c-----cceeeeehhc---ccCcc
+Q tr|A0A8V8TPA6|  408 SKIIRGPEDQTVLLVTVPDFSA-------T-----QTACLVNLRS---LACQP  445 (465)
+Q Consensus       408 skiirgpedqtvllvtvpdfsa-------t-----qtaclvnlrs---lacqp  445 (465)
+                      .....+     ..++.+|+...       .     +.+.++++..   +++.+
+T Consensus       196 ~~~~~~-----~~~~~~Gs~~~~~~~e~~~~~~~~~g~~~v~i~~~~~~~~~~  243 (337)
+T 4TUG_B          196 LERFND-----GILAYSGSTEIIYRNEYEDYKKEGKGFYLVDFSGNDLDISDI  243 (337)
+T ss_dssp             EEEETT-----EEEEECCCSSCCSTTTHHHHHHHCSEEEEECCCSSSCCGGGE
+T ss_pred             EEecCC-----eeEEeCCCceeeeHHHhhhhhhcCCEEEEEECCCCCCCccee
+Confidence            766555     77888888542       1     5799999876   55433
+
+
+No 26
+>2YVT_A Hypothetical protein aq_1956; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, NPPSFA; 1.6A {Aquifex aeolicus} SCOP: d.159.1.6
+Probab=35.28  E-value=1.6e+02  Score=23.51  Aligned_cols=230  Identities=16%  Similarity=0.169  Sum_probs=113.7  Template_Neff=12.300
+
+Q ss_pred             CCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhh---hhhhcc-hh
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSIN---KAKYLT-KK  263 (465)
+Q Consensus       188 tdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsin---kakylt-kk  263 (465)
+                      ..++|+++||+|.+.      ..++.+.+.+...           +++.+|++||+++..........   ...... ..
+T Consensus         4 ~~~~i~~isD~h~~~------~~~~~~~~~~~~~-----------~~d~vi~~GD~~~~~~~~~~~~~~~~~~~~~~~~~   66 (260)
+T 2YVT_A            4 MPRKVLAIKNFKERF------DLLPKLKGVIAEK-----------QPDILVVVGNILKNEALEKEYERAHLARREPNRKV   66 (260)
+T ss_dssp             CCCEEEEEECCTTCG------GGHHHHHHHHHHH-----------CCSEEEEESCCCCCHHHHHHHHHHHHTTCCCCTHH
+T ss_pred             CceEEEEEcccccch------hHHHHHHHHHHHh-----------CCCEEEEeCCccCchhhHHHHHHHhhcCCCCchhH
+Confidence            568999999999873      4567777777665           79999999999986411000000   000000 00
+
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceee-cceeeecCC
+Q tr|A0A8V8TPA6|  264 TQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATI-DGVRFLGTS  341 (465)
+Q Consensus       264 tqaasveavkmldeillqls-asvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqati-dgvrflgts  341 (465)
+                      ...........+..+++.+. ...+++++|||||......    .. ..+.......++... ....+.+ ++.++++++
+T Consensus        67 ~~~~~~~~~~~~~~~~~~l~~~~~p~~~v~GNHD~~~~~~----~~-~~~~~~~~~~~~~~~-~~~~~~~~~~~~~i~~~  140 (260)
+T 2YVT_A           67 IHENEHYIIETLDKFFREIGELGVKTFVVPGKNDAPLKIF----LR-AAYEAETAYPNIRVL-HEGFAGWRGEFEVIGFG  140 (260)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTTCSEEEEECCTTSCCHHHH----HH-HHHHTTTTCTTEEEC-SSEEEEETTTEEEEEEC
+T ss_pred             HHhCHHHHHHHHHHHHHHHHhcCCcEEEEcCCCChhHHHH----HH-HHHHhhhcCCCeEEc-ccceeeecCCEEEEEEe
+Confidence            00011122333444444443 2678999999999753100    00 000000001122222 3456677 888888887
+
+
+Q ss_pred             CCChhhhhcc-----CChHHHHHHHhhhhh--------ecccCCCCCCccCcccccC----CC---CcCCCCCCcEEEcC
+Q tr|A0A8V8TPA6|  342 GQNVSDIFRY-----SSMEDHLEILEWTLR--------VRHISPTAPDTLGCYPFYK----TD---PFIFPECPHVYFCG  401 (465)
+Q Consensus       342 gqnvsdifry-----ssmedhleilewtlr--------vrhisptapdtlgcypfyk----td---pfifpecphvyfcg  401 (465)
+                      +.........     ........+++.+-.        -.|..|.... ........    ..   .+.....|++++++
+T Consensus       141 ~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~i~~~H~p~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  219 (260)
+T 2YVT_A          141 GLLTEHEFEEDFVLKYPRWYVEYILKFVNELKPRRLVTIFYTPPIGEF-VDRTPEDPKHHGSAVVNTIIKSLNPEVAIVG  219 (260)
+T ss_dssp             SEEESSCCBSSSSCEEEHHHHHHHGGGGGGSCCCEEEEEESSCCSCSS-TTCBTTBSCCCSCHHHHHHHHHHCCSEEEEC
+T ss_pred             CccCcccccccccccCCHHHHHHHHHHHHhcCCCCEEEEEeCCCCCCc-cCCCCCCCCCCCCHHHHHHHHHHCCcEEEEe
+Confidence            6532111110     111222223332211        1122222101 00000000    00   00113368998885
+
+
+Q ss_pred             CCCCccceeeeCCCCCeEEEEEcCCCCcccceeeeehhcccCcccec
+Q tr|A0A8V8TPA6|  402 NTPSFGSKIIRGPEDQTVLLVTVPDFSATQTACLVNLRSLACQPISF  448 (465)
+Q Consensus       402 ntpsfgskiirgpedqtvllvtvpdfsatqtaclvnlrslacqpisf  448 (465)
+                      |.+... ....+     +.++++|++. .+.++++++..+++++..+
+T Consensus       220 H~~~~~-~~~~~-----~~~i~~G~~~-~~~~~~~~~~~~~~~~~~~  259 (260)
+T 2YVT_A          220 HVGKGH-ELVGN-----TIVVNPGEFE-EGRYAFLDLTQHKIKLEQF  259 (260)
+T ss_dssp             SSCCEE-EEETT-----EEEEECCBGG-GTEEEEEETTTTEEEEEEC
+T ss_pred             eccCCc-cccCC-----EEEEcCCccc-CCcEEEEEccCCEEEeeec
+Confidence            544332 33445     8999999984 5699999998887766543
+
+
+No 27
+>5W8M_A Vacuolar protein sorting-associated protein 29; endosome, retromer, vps29, ENDOCYTOSIS; HET: PGE, GOL; 1.52A {Chaetomium thermophilum}
+Probab=34.84  E-value=3.4e+02  Score=22.43  Aligned_cols=155  Identities=14%  Similarity=0.163  Sum_probs=100.7  Template_Neff=10.700
+
+Q ss_pred             CCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhh
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAA  267 (465)
+Q Consensus       188 tdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaa  267 (465)
+                      ..++|+++||+|.+....   .....+.+.+...           ++|.+|++||+++.                     
+T Consensus         3 ~~~~~~~isD~h~~~~~~---~~~~~~~~~~~~~-----------~~d~~v~~GD~~~~---------------------   47 (203)
+T 5W8M_A            3 MAFLILVIGNLHIPDRAL---DIPPKFKKLLSPG-----------KISQTLCLGNLTDR---------------------   47 (203)
+T ss_dssp             CCCEEEEECCCCBTTTCS---CCCHHHHGGGCTT-----------SEEEEEECSCCBSH---------------------
+T ss_pred             cceEEEEEccccCCcccc---cCCHHHHHHhcCC-----------CCCEEEECCCCCCH---------------------
+Confidence            468999999999975321   1223444444333           79999999999851                     
+
+
+Q ss_pred             HHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhh
+Q tr|A0A8V8TPA6|  268 SVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSD  347 (465)
+Q Consensus       268 sveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsd  347 (465)
+                        .    +.+++.++.  .++++||||||.....+|                      ....+.+++.+++++++.....
+T Consensus        48 --~----~~~~l~~~~--~~~~~v~GNhD~~~~~~~----------------------~~~~~~~~~~~i~~~h~~~~~~   97 (203)
+T 5W8M_A           48 --A----TYDYLRSIS--PDLKIVRGRMDVEATSLP----------------------LMQVVTHGSLRIGFLEGFTLVS   97 (203)
+T ss_dssp             --H----HHHHHHHHC--SCEEECCCTTCTTCTTSC----------------------SCEEEEETTEEEEEECCTTCCT
+T ss_pred             --H----HHHHHHHhC--CCcEEEcCCCCCCCCcCC----------------------ceEEEEeCCEEEEEEeCCCCCC
+Confidence              1    123344442  389999999998632222                      2355677888898888743211
+
+
+Q ss_pred             hhccCChHHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEc-CCCCCccceeeeCCCCCeEEEEEcCC
+Q tr|A0A8V8TPA6|  348 IFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFC-GNTPSFGSKIIRGPEDQTVLLVTVPD  426 (465)
+Q Consensus       348 ifryssmedhleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfc-gntpsfgskiirgpedqtvllvtvpd  426 (465)
+                          .   .. ..+..++                         ....++++++ ||.|.+......+     +.+|++|+
+T Consensus        98 ----~---~~-~~~~~~~-------------------------~~~~~~~~i~~GH~H~~~~~~~~~-----~~~i~~Gs  139 (203)
+T 5W8M_A           98 ----E---EP-DVLLAEA-------------------------NKLDVDVLCWAGGSHRFECFEYMD-----KFFVNPGS  139 (203)
+T ss_dssp             ----T---SH-HHHHHHH-------------------------HHHTCSEEEECCTTCCCEEEEETT-----EEEEECCC
+T ss_pred             ----C---CH-HHHHHHH-------------------------HhcCCCEEEECCCCCCcEEEEeCC-----EEEECCCc
+Confidence                0   00 1111111                         1235789999 9999998877777     89999999
+
+
+Q ss_pred             CCcc-------------cceeeeehhcccCcc
+Q tr|A0A8V8TPA6|  427 FSAT-------------QTACLVNLRSLACQP  445 (465)
+Q Consensus       427 fsat-------------qtaclvnlrslacqp  445 (465)
+                      ....             .+|+++++..+.+.+
+T Consensus       140 ~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~~~  171 (203)
+T 5W8M_A          140 ATGAFTTDWLAEGEEVVPSFCLMDVQGISLTL  171 (203)
+T ss_dssp             TTCCCCSSCCCTTCCCCCEEEEEEEETTEEEE
+T ss_pred             ccccCCccccccCCCCCCeEEEEEEeCCEEEE
+Confidence            8864             678999887765543
+
+
+No 28
+>5W8M_F Vacuolar protein sorting-associated protein 29; endosome, retromer, vps29, ENDOCYTOSIS; HET: PGE, GOL; 1.52A {Chaetomium thermophilum}
+Probab=34.84  E-value=3.4e+02  Score=22.43  Aligned_cols=155  Identities=14%  Similarity=0.130  Sum_probs=100.4  Template_Neff=10.700
+
+Q ss_pred             CCcEEEEEEcCCCCCChHHHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhcchhhhhh
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGGESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYLTKKTQAA  267 (465)
+Q Consensus       188 tdrfvllvsglglgggggesllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyltkktqaa  267 (465)
+                      ..++|+++||+|.+....   .....+.+.+...           ++|.+|++||+++.                     
+T Consensus         3 ~~~~~~~isD~h~~~~~~---~~~~~~~~~~~~~-----------~~d~~v~~GD~~~~---------------------   47 (203)
+T 5W8M_F            3 MAFLILVIGNLHIPDRAL---DIPPKFKKLLSPG-----------KISQTLCLGNLTDR---------------------   47 (203)
+T ss_dssp             -CCCEEEECCCCBTTTCS---SCCHHHHHHTCTT-----------SCSEEEECSCCBSH---------------------
+T ss_pred             cceEEEEEccccCCcccc---cCCHHHHHHhcCC-----------CCCEEEECCCCCCH---------------------
+Confidence            357899999999975421   2233444444433           79999999999851                     
+
+
+Q ss_pred             HHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceeecceeeecCCCCChhh
+Q tr|A0A8V8TPA6|  268 SVEAVKMLDEILLQLSASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRFLGTSGQNVSD  347 (465)
+Q Consensus       268 sveavkmldeillqlsasvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqatidgvrflgtsgqnvsd  347 (465)
+                        .    +.+++.++.  .++++||||||.....+|                      ....+.+++.+++++++.....
+T Consensus        48 --~----~~~~l~~~~--~~~~~v~GNhD~~~~~~~----------------------~~~~~~~~~~~i~~~h~~~~~~   97 (203)
+T 5W8M_F           48 --A----TYDYLRSIS--PDLKIVRGRMDVEATSLP----------------------LMQVVTHGSLRIGFLEGFTLVS   97 (203)
+T ss_dssp             --H----HHHHHHHHC--SCEEECCCTTCSSCTTSC----------------------SEEEEEETTEEEEEECSTTSSC
+T ss_pred             --H----HHHHHHHhC--CCcEEEcCCCCCCCCcCC----------------------ceEEEEeCCEEEEEEeCCCCCC
+Confidence              1    123344442  389999999998632221                      2345677888888888743211
+
+
+Q ss_pred             hhccCChHHHHHHHhhhhhecccCCCCCCccCcccccCCCCcCCCCCCcEEEc-CCCCCccceeeeCCCCCeEEEEEcCC
+Q tr|A0A8V8TPA6|  348 IFRYSSMEDHLEILEWTLRVRHISPTAPDTLGCYPFYKTDPFIFPECPHVYFC-GNTPSFGSKIIRGPEDQTVLLVTVPD  426 (465)
+Q Consensus       348 ifryssmedhleilewtlrvrhisptapdtlgcypfyktdpfifpecphvyfc-gntpsfgskiirgpedqtvllvtvpd  426 (465)
+                          ......    ..++                         ....++++++ ||.|.+......+     +.+|++|+
+T Consensus        98 ----~~~~~~----~~~~-------------------------~~~~~~~~i~~GH~H~~~~~~~~~-----~~~i~~Gs  139 (203)
+T 5W8M_F           98 ----EEPDVL----LAEA-------------------------NKLDVDVLCWAGGSHRFECFEYMD-----KFFVNPGS  139 (203)
+T ss_dssp             ----CCHHHH----HHHH-------------------------HHHTCSEEECCCTTCCCEEEEETT-----EEEEECCC
+T ss_pred             ----CCHHHH----HHHH-------------------------HhcCCCEEEECCCCCCcEEEEeCC-----EEEECCCc
+Confidence                000111    1111                         1235889999 9999998877777     89999999
+
+
+Q ss_pred             CCcc-------------cceeeeehhcccCcc
+Q tr|A0A8V8TPA6|  427 FSAT-------------QTACLVNLRSLACQP  445 (465)
+Q Consensus       427 fsat-------------qtaclvnlrslacqp  445 (465)
+                      ....             .+|+++++..+.+.+
+T Consensus       140 ~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~~~  171 (203)
+T 5W8M_F          140 ATGAFTTDWLAEGEEVVPSFCLMDVQGISLTL  171 (203)
+T ss_dssp             TTCCCCC--------CCCEEEEEEEETTEEEE
+T ss_pred             ccccCCccccccCCCCCCeEEEEEEeCCEEEE
+Confidence            8864             678999887765543
+
+
+No 29
+>3AUZ_A DNA double-strand break repair protein; DNA repair, Calcineurin-like phosphoesterase, DNA; 3.206A {Methanocaldococcus jannaschii}
+Probab=34.12  E-value=2.4e+02  Score=25.54  Aligned_cols=208  Identities=13%  Similarity=0.133  Sum_probs=114.7  Template_Neff=10.400
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH-------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhh
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG-------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKY  259 (465)
+Q Consensus       187 dtdrfvllvsglglggggg-------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkaky  259 (465)
+                      ...++|+++||+|++....       .....++.+++.+...           ++|.++++||+++.....         
+T Consensus        18 ~~~~~~l~~sD~Hl~~~~~~~~~r~~~~~~~~~~~~~~~~~~-----------~~d~vl~~GDl~~~~~~~---------   77 (333)
+T 3AUZ_A           18 GSHMMFVHIADNHLGYRQYNLDDREKDIYDSFKLCIKKILEI-----------KPDVVLHSGDLFNDLRPP---------   77 (333)
+T ss_dssp             CCSSCEEEECCCCBTCCGGGCHHHHHHHHHHHHHHHHHHHHH-----------CCSEEEECSCSBSSSSCC---------
+T ss_pred             CCceEEEEEeccccCCCccCchhHHHHHHHHHHHHHHHHHHH-----------CCCEEEEcCCCcCCCCCC---------
+Confidence            4678999999999986531       1135566666666655           899999999999876542         
+
+
+Q ss_pred             cchhhhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCcCCCCCCCCCCCccccccccchhccccCCcceee--ccee
+Q tr|A0A8V8TPA6|  260 LTKKTQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTNYTLPQQPLHPCMFPLATAYSTLQLVTNPYQATI--DGVR  336 (465)
+Q Consensus       260 ltkktqaasveavkmldeillqls-asvpvdvmpgefdptnytlpqqplhpcmfplataystlqlvtnpyqati--dgvr  336 (465)
+                               ....+.+.+.++.+. .+++++++|||||..........  ..++.     .++..+.....+.+  ++..
+T Consensus        78 ---------~~~~~~~~~~~~~l~~~~~pv~~i~GNHD~~~~~~~~~~--~~~~~-----~~~~~~~~~~~~~~~~~~~~  141 (333)
+T 3AUZ_A           78 ---------VKALRIAMQAFKKLHENNIKVYIVAGNHEMPRRLGEESP--LALLK-----DYVKILDGKDVINVNGEEIF  141 (333)
+T ss_dssp             ---------HHHHHHHHHHHHHHHHTTCEEEECCCGGGSCCSTTCCCS--GGGST-----TTCEECSEEEEECTTTCCEE
+T ss_pred             ---------HHHHHHHHHHHHHHHHCCCcEEEECCCCCCCCCcCCCCh--HHHcC-----CcEEEecCCceEEECCceEE
+Confidence                     223344555555553 37899999999998743210000  01111     11222222112334  4555
+
+
+Q ss_pred             eecCCCCChhhhhccCChHHHHHHHhhhhhe----------cccCCCCCCccCcccccCCCCcCCCCCCcEEEcCCCCCc
+Q tr|A0A8V8TPA6|  337 FLGTSGQNVSDIFRYSSMEDHLEILEWTLRV----------RHISPTAPDTLGCYPFYKTDPFIFPECPHVYFCGNTPSF  406 (465)
+Q Consensus       337 flgtsgqnvsdifryssmedhleilewtlrv----------rhisptapdtlgcypfyktdpfifpecphvyfcgntpsf  406 (465)
+                      +++++.......      ....++++.+...          .|..+....... .+   ...-.+.. +|++++||.|.+
+T Consensus       142 ~~~~~~~~~~~~------~~~~~~l~~~~~~~~~~~~~Il~~H~~~~~~~~~~-~~---~~~~~l~~-~d~v~~GH~H~~  210 (333)
+T 3AUZ_A          142 ICGTYYHKKSKR------EEMLDKLKNFESEAKNYKKKILMLHQGINPYIPLD-YE---LEHFDLPK-FSYYALGHIHKR  210 (333)
+T ss_dssp             EEEECCCCGGGH------HHHHHHHHHHHHHHHTCSSEEEEEESCBTTTCSSS-CS---BCGGGSCC-CSEEEEESCSSC
+T ss_pred             EEeeecCChhHH------HHHHHHHHhHHHHhhhCCcEEEEEeccccccCCCC-cc---ccHHHcCc-cCEEEecccccc
+Confidence            665553322210      1112222222211          111111110000 00   01112344 999999999999
+
+
+Q ss_pred             cceeeeCCCCCeEEEEEcCCCCc-------c-----cceeeeehhc---ccCccc
+Q tr|A0A8V8TPA6|  407 GSKIIRGPEDQTVLLVTVPDFSA-------T-----QTACLVNLRS---LACQPI  446 (465)
+Q Consensus       407 gskiirgpedqtvllvtvpdfsa-------t-----qtaclvnlrs---lacqpi  446 (465)
+                      ......+     ..++.+|+...       .     +.+++++++.   +++.+.
+T Consensus       211 ~~~~~~~-----~~~~~~Gs~~~~~~~e~~~~~~~~~g~~~v~i~~~~~~~~~~~  260 (333)
+T 3AUZ_A          211 ILERFND-----GILAYSGSTEIIYRNEYEDYKKEGKGFYLVDFSGNDLDISDIE  260 (333)
+T ss_dssp             CCEEETT-----EEEEECCCSSCCSSSCHHHHHHTCSSCEEECCCSSSCCGGGCE
+T ss_pred             eEEecCC-----ceEEECCCCceechHHhhhhhhcCCEEEEEECCCCCCCCceeE
+Confidence            8877666     77888888653       2     6789999876   554443
+
+
+No 30
+>5EBB_B Acid sphingomyelinase-like phosphodiesterase 3a (E.C.3.1.4.-); calcineurin like phosphodiesterase, binuclear metallophosphodiesterase; HET: MLI, GOL, NAG; 2.6A {Homo sapiens}
+Probab=32.74  E-value=6e+02  Score=23.14  Aligned_cols=92  Identities=14%  Similarity=0.058  Sum_probs=58.7  Template_Neff=11.200
+
+Q ss_pred             CCcEEEEEEcCCCCCChH-----------------------------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEE
+Q tr|A0A8V8TPA6|  188 TDRFVLLVSGLGLGGGGG-----------------------------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVI  238 (465)
+Q Consensus       188 tdrfvllvsglglggggg-----------------------------esllgtqllvdvvtgqlgdegeqcsaahvsrvi  238 (465)
+                      ...+|+++||+|++....                             .....++.+++.+...         ..+++.||
+T Consensus         3 ~~~~~~~isDiH~~~~~~~~~~~~~~c~~~~~~~~~~~~~~g~~~~d~~~~~~~~~~~~i~~~---------~~~~d~vi   73 (410)
+T 5EBB_B            3 AIGQFWHVTDLHLDPTYHITDDHTKVCASSKGANASNPGPFGDVLCDSPYQLILSAFDFIKNS---------GQEASFMI   73 (410)
+T ss_dssp             SCEEEEEECCCCBCTTCCCCSCTTSSCGGGTTSCCSSCBTTBCTTSCBCHHHHHHHHHHHHHT---------TCCCSEEE
+T ss_pred             CeeEEEEEEeceeCCCCCCCCCCcccccCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHHh---------CCCCCEEE
+Confidence            467999999999974320                             0125566677777653         22799999
+
+
+Q ss_pred             EechhhcCCCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCc
+Q tr|A0A8V8TPA6|  239 LAGNLLSHSTQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTN  299 (465)
+Q Consensus       239 lagnllshstqsrdsinkakyltkktqaasveavkmldeillqlsasvpvdvmpgefdptn  299 (465)
+                      ++||++.........           .....+.++.+...+.+....++++.+|||||...
+T Consensus        74 ~~GD~~~~~~~~~~~-----------~~~~~~~~~~~~~~l~~~~~~~~v~~v~GNHD~~~  123 (410)
+T 5EBB_B           74 WTGDSPPHVPVPELS-----------TDTVINVITNMTTTIQSLFPNLQVFPALGNHDYWP  123 (410)
+T ss_dssp             ECCCCSCSCCGGGCC-----------HHHHHHHHHHHHHHHHHHCTTCEEEECCCTTSSSS
+T ss_pred             EeCCCCCCCCCccCC-----------HHHHHHHHHHHHHHHHHHCCCCEEEEccCCCCCCC
+Confidence            999999865421100           01113344445555555445789999999999864
+
+
+No 31
+>2XMO_B LMO2642 PROTEIN; PHOSPHODIESTERASE, HYDROLASE; HET: PO4; 1.7A {LISTERIA MONOCYTOGENES}
+Probab=29.65  E-value=6.1e+02  Score=23.10  Aligned_cols=82  Identities=20%  Similarity=0.216  Sum_probs=55.5  Template_Neff=11.500
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH--------------------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcC
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG--------------------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSH  246 (465)
+Q Consensus       187 dtdrfvllvsglglggggg--------------------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllsh  246 (465)
+                      ....+|+++||+|+.....                    .....++.+++.+...           +++.+|++||++..
+T Consensus        37 ~~~~~i~~~sD~H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------~~d~li~~GD~~~~  105 (443)
+T 2XMO_B           37 DRNLSMVVTTDVHYFAPSLTDNGKAFEKYVAAGDGKQLAYSDEITDAFLADVESK-----------KTDVLIISGDLTNN  105 (443)
+T ss_dssp             CSCEEEEEECCCCBCCGGGBCCCHHHHHHHHTSTTCCGGGHHHHHHHHHHHHHHH-----------TCSEEEEESCCBSS
+T ss_pred             CCCeEEEEEecccccCHHHhcccHHHHHHHHcCCCCchhcHHHHHHHHHHHHHhh-----------CCCEEEEeCCCCCC
+Confidence            4679999999999975421                    0134566666666654           79999999999875
+
+
+Q ss_pred             CCCChhhhhhhhhcchhhhhhHHHHHHHHHHHHHHhh-cCCCCCCCCCCCCCCc
+Q tr|A0A8V8TPA6|  247 STQSRDSINKAKYLTKKTQAASVEAVKMLDEILLQLS-ASVPVDVMPGEFDPTN  299 (465)
+Q Consensus       247 stqsrdsinkakyltkktqaasveavkmldeillqls-asvpvdvmpgefdptn  299 (465)
+                      ...                    ...+.+...+..+. .+++++++|||||...
+T Consensus       106 ~~~--------------------~~~~~~~~~~~~l~~~~~~v~~v~GNHD~~~  139 (443)
+T 2XMO_B          106 GEK--------------------TSHEELAKKLTQVEKNGTQVFVVPGNHDINN  139 (443)
+T ss_dssp             CCH--------------------HHHHHHHHHHHHHHHTTCEEEEECCTTTSSC
+T ss_pred             Ccc--------------------ccHHHHHHHHHHHHHCCCeEEEeCCCCCCCC
+Confidence            531                    11223333344332 3689999999999874
+
+
+No 32
+>2HY1_A Rv0805 (E.C.3.1.4.17); metallophosphoesterase, cAMP, phosphodiesterase, bi-nuclear active; 1.932A {Mycobacterium tuberculosis} SCOP: d.159.1.11
+Probab=21.75  E-value=6.5e+02  Score=19.86  Aligned_cols=218  Identities=14%  Similarity=0.077  Sum_probs=116.4  Template_Neff=12.900
+
+Q ss_pred             CCCcEEEEEEcCCCCCChH------HHHHHHHHHHHHHhcCCCCCCCCCChccceeEEEechhhcCCCCChhhhhhhhhc
+Q tr|A0A8V8TPA6|  187 DTDRFVLLVSGLGLGGGGG------ESLLGTQLLVDVVTGQLGDEGEQCSAAHVSRVILAGNLLSHSTQSRDSINKAKYL  260 (465)
+Q Consensus       187 dtdrfvllvsglglggggg------esllgtqllvdvvtgqlgdegeqcsaahvsrvilagnllshstqsrdsinkakyl  260 (465)
+                      ...++|+++||+|++....      .....++.+++.+...         ..+++.+|++||+++.....          
+T Consensus        13 ~~~~~~~~~sD~h~~~~~~~~~~~~~~~~~~~~~~~~~~~~---------~~~~~~vv~~GD~~~~~~~~----------   73 (280)
+T 2HY1_A           13 RPDYVLLHISDTHLIGGDRRLYGAVDADDRLGELLEQLNQS---------GLRPDAIVFTGDLADKGEPA----------   73 (280)
+T ss_dssp             CCSEEEEEECCCCBC----------CHHHHHHHHHHHHHHH---------TCCCSEEEECSCCBSSCCHH----------
+T ss_pred             CCCeEEEEEEcccccCCccccccccChhHHHHHHHHHHHHc---------CCCCCEEEEccccccCCCHH----------
+Confidence            4678999999999986421      1234566666666542         12789999999999854311          
+
+
+Q ss_pred             chhhhhhHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCcC---CCCCCCCCCCccccccccchhccccCCcceeecceee
+Q tr|A0A8V8TPA6|  261 TKKTQAASVEAVKMLDEILLQLSASVPVDVMPGEFDPTNY---TLPQQPLHPCMFPLATAYSTLQLVTNPYQATIDGVRF  337 (465)
+Q Consensus       261 tkktqaasveavkmldeillqlsasvpvdvmpgefdptny---tlpqqplhpcmfplataystlqlvtnpyqatidgvrf  337 (465)
+                            ......+.+..++...  +.++++++||||....   .+..              ...........+.+++.++
+T Consensus        74 ------~~~~~~~~~~~~~~~~--~~~~~~~~GNHD~~~~~~~~~~~--------------~~~~~~~~~~~~~~~~~~~  131 (280)
+T 2HY1_A           74 ------AYRKLRGLVEPFAAQL--GAELVWVMGNHDDRAELRKFLLD--------------EAPSMAPLDRVCMIDGLRI  131 (280)
+T ss_dssp             ------HHHHHHHHHHHHHHHH--TCEEEECCCTTSCHHHHHHHTTC--------------CCCCCSCCCEEEEETTEEE
+T ss_pred             ------HHHHHHHHHHHHHHhh--CCEEEEecCCCCCHHHHHHHHhc--------------CCCCCCCCceEEEECCEEE
+Confidence                  0122223333333323  6789999999997521   0000              0000122235667788888
+
+
+Q ss_pred             ecCCCCChhhhhccCChHHHHHHHhhhhhec---------ccCCCCCCccC--cccccC---CCCcCCCCCCcEEEcCCC
+Q tr|A0A8V8TPA6|  338 LGTSGQNVSDIFRYSSMEDHLEILEWTLRVR---------HISPTAPDTLG--CYPFYK---TDPFIFPECPHVYFCGNT  403 (465)
+Q Consensus       338 lgtsgqnvsdifryssmedhleilewtlrvr---------hisptapdtlg--cypfyk---tdpfifpecphvyfcgnt  403 (465)
+                      ++++........... ......+++..+...         |..|.......  ......   ...+.....++++++||.
+T Consensus       132 ~~~~~~~~~~~~~~~-~~~~~~~l~~~l~~~~~~~~i~~~H~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GH~  210 (280)
+T 2HY1_A          132 IVLDTSVPGHHHGEI-RASQLGWLAEELATPAPDGTILALHHPPIPSVLDMAVTVELRDQAALGRVLRGTDVRAILAGHL  210 (280)
+T ss_dssp             EECCCBCTTCSSBCC-CHHHHHHHHHHHTSCCTTCEEEECSSCSSCCSSHHHHTTSBCCHHHHHHHHTTSSEEEEEECSS
+T ss_pred             EEEeCCCCCCCCCcc-CHHHHHHHHHHhcCCCCCCeEEEEeCCCCCCCCChhhhcccccHHHHHHHHhcCCceEEEEccc
+Confidence            888765432211111 233445555555432         11111111000  000000   001112346789999999
+
+
+Q ss_pred             CCccceeeeCCCCCeEEEEEcCCCCcc----------------cceeeeehhcccCccceccCC
+Q tr|A0A8V8TPA6|  404 PSFGSKIIRGPEDQTVLLVTVPDFSAT----------------QTACLVNLRSLACQPISFSGF  451 (465)
+Q Consensus       404 psfgskiirgpedqtvllvtvpdfsat----------------qtaclvnlrslacqpisfsgf  451 (465)
+                      |........+     +.+++.|+....                ..+.++++....+++..+...
+T Consensus       211 H~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  269 (280)
+T 2HY1_A          211 HYSTNATFVG-----IPVSVASATCYTQDLTVAAGGTRGRDGAQGCNLVHVYPDTVVHSVIPLG  269 (280)
+T ss_dssp             SSCEEEEETT-----EEEEECCCCC-------------------CEEEEEECSSCEEEEEEC--
+T ss_pred             chhhceeecC-----eeEEEcCCCcccccccccCCCccccCCCCceEEEEEECCceEEEEEEcC
+Confidence            9998777766     788887776532                467788876666555444433
+
+

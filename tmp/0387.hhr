@@ -1,0 +1,167 @@
+Query         tr|C9JF41|C9JF41_HUMAN
+Match_columns 144
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:20:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0387.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5GUH_A CRISPR-associated endon  47.2 3.4E+02  0.0037   25.4   8.6   14   50-63      7-20  (899)
+  2 4HLN_A Starch synthase I (E.C.  31.3   1E+02  0.0011   25.4   2.7   25   42-66     21-45  (633)
+  3 7MQA_NI Ribosomal assembly int  12.7 1.9E+02  0.0021   22.7   0.7   13   12-24    195-207 (280)
+  4 4M5D_B U3 small nucleolar RNA-  11.8 1.8E+02   0.002   23.5   0.4   12   13-24    205-216 (297)
+  5 6LQQ_RF 40S ribosomal protein   11.8 1.8E+02   0.002   23.5   0.4   12   13-24    205-216 (297)
+  6 5KHE_B capsid protein; rubella   8.8 1.1E+03   0.012   21.9   4.2   36   66-101    67-102 (269)
+  7 7EXD_R GPCR, serotonin, Gi, ME   8.5 3.1E+02  0.0033   21.5   0.6   10   17-26     27-36  (506)
+  8 6JJC_A Capsid protein; Giant f   8.5   7E+02  0.0076   22.7   2.7   26   60-85     25-51  (371)
+  9 1WII_A domain of unknown funct   8.4 1.1E+03   0.012   16.3   3.1   31   60-90      1-31  (85)
+ 10 6RXV_CV Periodic tryptophan pr   8.4 2.8E+02  0.0031   23.3   0.4   12   13-24    236-247 (322)
+
+No 1
+>5GUH_A CRISPR-associated endonuclease Cpf1/RNA Complex; Nuclease, RNaseH, HYDROLASE-RNA complex; HET: OMU; 2.4A {Bombyx mori}
+Probab=47.18  E-value=3.4e+02  Score=25.41  Aligned_cols=14  Identities=71%  Similarity=1.182  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|C9JF41|C9JF   50 RGRARGEWRRGGRG   63 (144)
+Q Consensus        50 rgrargewrrggrg   63 (144)
+                      |||+||.-++|+++
+T Consensus         7 ~g~~rg~~~~~~~~   20 (899)
+T 5GUH_A            7 RGRARGRAGRGGDG   20 (899)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+Confidence            56676654455433
+
+
+No 2
+>4HLN_A Starch synthase I (E.C.2.4.1.21); Double Rossmann fold, glycosyltransferase, ADPglucose; HET: GLC; 2.7A {Hordeum vulgare}
+Probab=31.33  E-value=1e+02  Score=25.44  Aligned_cols=25  Identities=40%  Similarity=0.627  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             hhhhcccccCCCCCCCCCCCCCCCC
+Q tr|C9JF41|C9JF   42 VRRVQGVLRGRARGEWRRGGRGRRP   66 (144)
+Q Consensus        42 vrrvqgvlrgrargewrrggrgrrp   66 (144)
+                      .+|+|.|+|++.-.|-.+.|..+||
+T Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~   45 (633)
+T 4HLN_A           21 MARLRRVARGRYVAELSREGPAARP   45 (633)
+T ss_dssp             -------------------------
+T ss_pred             HHHHHHHHHHHHHHhccCCCCCCCC
+Confidence            5688999999988888877776665
+
+
+No 3
+>7MQA_NI Ribosomal assembly intermediate, RIBOSOME; HET: OMC, MG, A2M, PSU, 4AC, GTP, SAH, OMU, ATP, OMG; 2.7A {Homo sapiens}
+Probab=12.70  E-value=1.9e+02  Score=22.65  Aligned_cols=13  Identities=38%  Similarity=0.746  Sum_probs=9.5  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCccCC
+Q tr|C9JF41|C9JF   12 VGREDEDGWETRG   24 (144)
+Q Consensus        12 vgrededgwetrg   24 (144)
+                      -+..|||||.|-.
+T Consensus       195 ~~~~DeDGf~~V~  207 (280)
+T 7MQA_NI         195 EGVPDEEGWVKVT  207 (280)
+T ss_pred             cCCCCCCCceEee
+Confidence            3457999998754
+
+
+No 4
+>4M5D_B U3 small nucleolar RNA-associated protein; Nucleolus, RNA BINDING PROTEIN; HET: PGE, SO4; 1.97A {Saccharomyces cerevisiae}
+Probab=11.82  E-value=1.8e+02  Score=23.51  Aligned_cols=12  Identities=33%  Similarity=0.352  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCccCC
+Q tr|C9JF41|C9JF   13 GREDEDGWETRG   24 (144)
+Q Consensus        13 grededgwetrg   24 (144)
+                      ...|||||.|-.
+T Consensus       205 ~~~DeDGfvtV~  216 (297)
+T 4M5D_B          205 SIVDEDGFTLVV  216 (297)
+T ss_dssp             ------------
+T ss_pred             ccccCCCcEEee
+Confidence            346999999654
+
+
+No 5
+>6LQQ_RF 40S ribosomal protein S1-A, 40S; ribosome assembly, 90S to pre-40S; HET: GTP; 4.1A {Saccharomyces cerevisiae S288C}
+Probab=11.82  E-value=1.8e+02  Score=23.51  Aligned_cols=12  Identities=33%  Similarity=0.352  Sum_probs=8.9  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCccCC
+Q tr|C9JF41|C9JF   13 GREDEDGWETRG   24 (144)
+Q Consensus        13 grededgwetrg   24 (144)
+                      ...|||||.|-.
+T Consensus       205 ~~~DeDGfvtV~  216 (297)
+T 6LQQ_RF         205 SIVDEDGFTLVV  216 (297)
+T ss_pred             ccccCCCcEEee
+Confidence            346999999654
+
+
+No 6
+>5KHE_B capsid protein; rubella virus capsid protein, VIRAL; 35.0A {Rubella virus}
+Probab=8.81  E-value=1.1e+03  Score=21.92  Aligned_cols=36  Identities=31%  Similarity=0.566  Sum_probs=0.0  Template_Neff=1.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCcCCCCCcccCCCCCCC
+Q tr|C9JF41|C9JF   66 PRAPVTPARRRTSLPAPLSCRRRGLPPEQGAPPRLL  101 (144)
+Q Consensus        66 prapvtparrrtslpaplscrrrglppeqgapprll  101 (144)
+                      .++|.++.+|...-+..-.-+-+--++.|-.||++-
+T Consensus        67 srapp~~e~r~~tr~~~~~p~p~r~~~~qpqpprma  102 (269)
+T 5KHE_B           67 SRAPPPPEERQETRSQTPAPKPSRAPPQQPQPPRMQ  102 (269)
+T ss_dssp             ------------------------------------
+T ss_pred             hcCCCChHHccCCCCCCCCCCCCCCCCCCCCCCccc
+Confidence            567777776543332222223344567777888774
+
+
+No 7
+>7EXD_R GPCR, serotonin, Gi, MEMBRANE PROTEIN; HET: 05X; 3.4A {Homo sapiens}
+Probab=8.52  E-value=3.1e+02  Score=21.50  Aligned_cols=10  Identities=60%  Similarity=1.072  Sum_probs=4.4  Template_Neff=11.500
+
+Q ss_pred             CCCCccCCCh
+Q tr|C9JF41|C9JF   17 EDGWETRGDR   26 (144)
+Q Consensus        17 edgwetrgdr   26 (144)
+                      ||.|||-.|+
+T Consensus        27 ~~~~~~~~~~   36 (506)
+T 7EXD_R           27 EDNWETLNDN   36 (506)
+T ss_dssp             HH----TCHH
+T ss_pred             hhcHhHHHHH
+Confidence            7899998775
+
+
+No 8
+>6JJC_A Capsid protein; Giant freshwater prawn Macrobrachium rosenbergii; 2.92A {Macrobrachium rosenbergii nodavirus}
+Probab=8.52  E-value=7e+02  Score=22.67  Aligned_cols=26  Identities=27%  Similarity=0.331  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCCCC-CCCCCCCCCCCCCCCCCCC
+Q tr|C9JF41|C9JF   60 GGRGRRP-RAPVTPARRRTSLPAPLSC   85 (144)
+Q Consensus        60 ggrgrrp-rapvtparrrtslpaplsc   85 (144)
+                      +.++||+ ++|....-+.++.+||++-
+T Consensus        25 ~~~~rrr~~~p~~~~~~~~~~~APv~~   51 (371)
+T 6JJC_A           25 NRRNRNPQTVPNFNPIVAKPTVAPLQT   51 (371)
+T ss_dssp             ---------------------------
+T ss_pred             CccCCCCCCCCCCCCCCCCCCcCcccc
+Confidence            3344444 5555555556667777764
+
+
+No 9
+>1WII_A domain of unknown function, zinc; HET: ZN; NMR {Mus musculus} SCOP: g.41.3.4
+Probab=8.43  E-value=1.1e+03  Score=16.33  Aligned_cols=31  Identities=19%  Similarity=0.355  Sum_probs=16.8  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCcCCCC
+Q tr|C9JF41|C9JF   60 GGRGRRPRAPVTPARRRTSLPAPLSCRRRGL   90 (144)
+Q Consensus        60 ggrgrrprapvtparrrtslpaplscrrrgl   90 (144)
+                      ||+..+.+.+..+.+.+..||....|-.-+.
+T Consensus         1 ggkrk~~~~~~~~~~~~~~l~~~F~CP~C~~   31 (85)
+T 1WII_A            1 GSSGSSGRKPPPKKKMTGTLETQFTCPFCNH   31 (85)
+T ss_dssp             CCCCCCCCCCCCCCCCCCCCSSCCCCTTTCC
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCcCCCCCC
+Confidence            3455554544444433456777777765544
+
+
+No 10
+>6RXV_CV Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 4.0A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=8.41  E-value=2.8e+02  Score=23.31  Aligned_cols=12  Identities=42%  Similarity=0.584  Sum_probs=8.7  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCccCC
+Q tr|C9JF41|C9JF   13 GREDEDGWETRG   24 (144)
+Q Consensus        13 grededgwetrg   24 (144)
+                      .-.|||||-|-.
+T Consensus       236 ~~~DEDGfvtVt  247 (322)
+T 6RXV_CV         236 NEPDEDGFVTVT  247 (322)
+T ss_pred             CCCCCCCcEEee
+Confidence            346999998643
+
+

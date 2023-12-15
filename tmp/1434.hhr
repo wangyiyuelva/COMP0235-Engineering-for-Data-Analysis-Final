@@ -1,0 +1,164 @@
+Query         tr|A0A1D5RMT9|A0A1D5RMT9_HUMAN
+Match_columns 10
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:47:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1434.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KHA_A PROTEIN, Glycoprotein,   35.3      51 0.00056   14.6   1.0    8    2-9     118-125 (130)
+  2 3IM6_A ryanodine receptor 2, c  19.4 1.5E+02  0.0016   13.8   1.0    9    1-9       1-9   (217)
+  3 2FV4_B alpha-beta, complex, co  17.4 1.5E+02  0.0016   13.1   0.8    8    1-8       1-8   (77)
+  4 6WAJ_A NLE1; Crystal structure  10.1 2.1E+02  0.0023   11.9   0.1    6    1-6       2-7   (98)
+  5 6WTI_C Cytochrome o ubiquinol    9.9 3.6E+02  0.0039   12.1   0.8    7    3-9      10-16  (204)
+  6 7N9Z_H Ubiquinone, Heme-copper   9.9 3.6E+02  0.0039   12.1   0.8    7    3-9      10-16  (204)
+  7 1G2C_B TWO HEPTAD REPEATS OF H   6.7 3.1E+02  0.0033   12.2  -0.1    4    7-10      8-11  (43)
+  8 1G2C_R TWO HEPTAD REPEATS OF H   6.7 3.1E+02  0.0033   12.2  -0.1    4    7-10      8-11  (43)
+  9 7NHP_3 Photosystem II protein    6.6 5.2E+02  0.0057   10.8   0.6    5    4-8      15-19  (56)
+ 10 7NHQ_3 Photosystem II protein    6.6 5.2E+02  0.0057   10.8   0.6    5    4-8      15-19  (56)
+
+No 1
+>2KHA_A PROTEIN, Glycoprotein, Immune response, Innate; NMR {Plodia interpunctella}
+Probab=35.28  E-value=51  Score=14.62  Aligned_cols=8  Identities=38%  Similarity=0.563  Sum_probs=4.4  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A1D5RMT9|    2 ATAVEPED    9 (10)
+Q Consensus         2 ataveped    9 (10)
+                      .++++|||
+T Consensus       118 ~~~~~~~~  125 (130)
+T 2KHA_A          118 DTSLEPKL  125 (130)
+T ss_dssp             CSSCCC--
+T ss_pred             CCccCCCC
+Confidence            45788886
+
+
+No 2
+>3IM6_A ryanodine receptor 2, calcium release; 1.7A {Mus musculus}
+Probab=19.38  E-value=1.5e+02  Score=13.83  Aligned_cols=9  Identities=67%  Similarity=0.597  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|A0A1D5RMT9|    1 MATAVEPED    9 (10)
+Q Consensus         1 mataveped    9 (10)
+                      ||.+.|+++
+T Consensus         1 ~~~~~~~~~    9 (217)
+T 3IM6_A            1 MADAGEGED    9 (217)
+T ss_dssp             ---------
+T ss_pred             CCCcCCCcc
+Confidence            667777665
+
+
+No 3
+>2FV4_B alpha-beta, complex, coiled-coil, STRUCTURAL PROTEIN; NMR {Saccharomyces cerevisiae} SCOP: d.300.1.2
+Probab=17.40  E-value=1.5e+02  Score=13.08  Aligned_cols=8  Identities=63%  Similarity=1.032  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A1D5RMT9|    1 MATAVEPE    8 (10)
+Q Consensus         1 matavepe    8 (10)
+                      ||..+||+
+T Consensus         1 ~~~~~~~~    8 (77)
+T 2FV4_B            1 MAKVIEPE    8 (77)
+T ss_dssp             --------
+T ss_pred             CCcccCcc
+Confidence            56666665
+
+
+No 4
+>6WAJ_A NLE1; Crystal structure of the human; 1.9A {Homo sapiens}
+Probab=10.10  E-value=2.1e+02  Score=11.87  Aligned_cols=6  Identities=67%  Similarity=0.728  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCC
+Q tr|A0A1D5RMT9|    1 MATAVE    6 (10)
+Q Consensus         1 matave    6 (10)
+                      ||.||+
+T Consensus         2 ~~~~~~    7 (98)
+T 6WAJ_A            2 MAAAVA    7 (98)
+T ss_dssp             ------
+T ss_pred             cchhhc
+Confidence            444443
+
+
+No 5
+>6WTI_C Cytochrome o ubiquinol oxidase, subunit; ubiquinol oxidase cytochrome bo3, membrane; HET: 3PE, HEM, U9V, UQ8, HEO; 2.38A {Escherichia coli}
+Probab=9.94  E-value=3.6e+02  Score=12.13  Aligned_cols=7  Identities=43%  Similarity=0.278  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCC
+Q tr|A0A1D5RMT9|    3 TAVEPED    9 (10)
+Q Consensus         3 taveped    9 (10)
+                      ++-|||+
+T Consensus        10 ~~~~~~~   16 (204)
+T 6WTI_C           10 TAHAHEH   16 (204)
+T ss_dssp             -------
+T ss_pred             CCccccc
+Confidence            3445554
+
+
+No 6
+>7N9Z_H Ubiquinone, Heme-copper Oxidoreductase, Electron transport; HET: HEM, 3PE, UQ8, LHG, CDL, HEO; 2.19A {Escherichia coli}
+Probab=9.94  E-value=3.6e+02  Score=12.13  Aligned_cols=7  Identities=43%  Similarity=0.278  Sum_probs=4.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCC
+Q tr|A0A1D5RMT9|    3 TAVEPED    9 (10)
+Q Consensus         3 taveped    9 (10)
+                      ++-|||+
+T Consensus        10 ~~~~~~~   16 (204)
+T 7N9Z_H           10 TAHAHEH   16 (204)
+T ss_dssp             TCCBSSC
+T ss_pred             CCccccc
+Confidence            4556665
+
+
+No 7
+>1G2C_B TWO HEPTAD REPEATS OF HRSV; membrane fusion, pneumovirus, HRSV, Viral; 2.3A {Human respiratory syncytial virus}
+Probab=6.70  E-value=3.1e+02  Score=12.17  Aligned_cols=4  Identities=50%  Similarity=1.182  Sum_probs=0.0  Template_Neff=2.400
+
+Q ss_pred             CCCC
+Q tr|A0A1D5RMT9|    7 PEDQ   10 (10)
+Q Consensus         7 pedq   10 (10)
+                      ||||
+T Consensus         8 PeDq   11 (43)
+T 1G2C_B            8 PSDE   11 (43)
+T ss_dssp             CHHH
+T ss_pred             Chhh
+
+
+No 8
+>1G2C_R TWO HEPTAD REPEATS OF HRSV; membrane fusion, pneumovirus, HRSV, Viral; 2.3A {Human respiratory syncytial virus}
+Probab=6.70  E-value=3.1e+02  Score=12.17  Aligned_cols=4  Identities=50%  Similarity=1.182  Sum_probs=0.0  Template_Neff=2.400
+
+Q ss_pred             CCCC
+Q tr|A0A1D5RMT9|    7 PEDQ   10 (10)
+Q Consensus         7 pedq   10 (10)
+                      ||||
+T Consensus         8 PeDq   11 (43)
+T 1G2C_R            8 PSDE   11 (43)
+T ss_dssp             CHHH
+T ss_pred             Chhh
+
+
+No 9
+>7NHP_3 Photosystem II protein D1 1; Membrane Protein Biogenesis Assembly Factors; HET: HEM, CLA, BCR, PHO, LMG, LHG, PL9; 2.72A {Thermosynechococcus elongatus BP-1}
+Probab=6.60  E-value=5.2e+02  Score=10.79  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCC
+Q tr|A0A1D5RMT9|    4 AVEPE    8 (10)
+Q Consensus         4 avepe    8 (10)
+                      |+||+
+T Consensus        15 A~EP~   19 (56)
+T 7NHP_3           15 AIEPK   19 (56)
+T ss_pred             CCCCc
+
+
+No 10
+>7NHQ_3 Photosystem II protein D1 1; Membrane Protein Biogenesis Assembly Factors; HET: HEM, CLA, BCR, PHO, LMG, LHG, PL9; 2.68A {Thermosynechococcus elongatus BP-1}
+Probab=6.60  E-value=5.2e+02  Score=10.79  Aligned_cols=5  Identities=60%  Similarity=1.192  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCC
+Q tr|A0A1D5RMT9|    4 AVEPE    8 (10)
+Q Consensus         4 avepe    8 (10)
+                      |+||+
+T Consensus        15 A~EP~   19 (56)
+T 7NHQ_3           15 AIEPK   19 (56)
+T ss_pred             CCCCc
+
+

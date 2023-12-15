@@ -1,0 +1,630 @@
+Query         tr|F8VRQ9|F8VRQ9_HUMAN
+Match_columns 159
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:59:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0213.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4NLH_A Tax1-binding protein 1;  99.9 1.3E-26 1.4E-31  161.8  12.3  137    9-146     2-138 (138)
+  2 5Z7G_A Tax1-binding protein 1,  99.9   4E-21 4.3E-26  130.0  10.9  113    7-119     9-121 (121)
+  3 5Z7G_B Tax1-binding protein 1,  99.9   4E-21 4.3E-26  130.0  10.9  113    7-119     9-121 (121)
+  4 5Z7L_A Calcium-binding and coi  99.8 4.1E-20 4.5E-25  122.3  11.3  113    5-119     4-117 (117)
+  5 5Z7L_B Calcium-binding and coi  99.8 4.1E-20 4.5E-25  122.3  11.3  113    5-119     4-117 (117)
+  6 3VVV_A Calcium-binding and coi  99.8 4.2E-20 4.5E-25  123.6  11.1  111   11-122     1-111 (123)
+  7 3VVW_A Calcium-binding and coi  99.8 4.2E-20 4.5E-25  123.6  11.1  111   11-122     1-111 (123)
+  8 3BID_E UPF0339 protein NMB1088  56.8      24 0.00026   22.3   2.4   22   96-117    11-32  (64)
+  9 3BID_H UPF0339 protein NMB1088  56.8      24 0.00026   22.3   2.4   22   96-117    11-32  (64)
+ 10 3ZK4_A DIPHOSPHONUCLEOTIDE PHO  56.8   2E+02  0.0022   24.6  12.2   85   28-120    21-124 (571)
+ 11 3ZK4_B DIPHOSPHONUCLEOTIDE PHO  56.8   2E+02  0.0022   24.6  12.2   85   28-120    21-124 (571)
+ 12 2LFE_A E3 ubiquitin-protein li  53.9 1.4E+02  0.0016   22.1   7.5   85   28-120    50-137 (138)
+ 13 2K7I_A UPF0339 protein Atu0232  48.7      47  0.0005   23.0   2.9   22   96-117    33-54  (83)
+ 14 1MDA_M METHYLAMINE DEHYDROGENA  37.3      41 0.00045   27.7   1.5   13   40-52     44-56  (121)
+ 15 6FSA_B Myosin-7, Myosin light   36.6      23 0.00025   36.0  -0.0   23   28-55    571-593 (1935)
+ 16 2I0R_D Aromatic Amine Dehydrog  36.4      45 0.00049   27.6   1.6   15   39-53     43-57  (124)
+ 17 6Q2Z_A UPF0339 family protein;  33.5 1.6E+02  0.0018   16.9   3.3   21   97-117    15-36  (60)
+ 18 1MAF_L METHYLAMINE DEHYDROGENA  32.8      52 0.00056   27.3   1.4   13   40-52     44-56  (124)
+ 19 3SJL_E Methylamine utilization  32.2      53 0.00058   27.6   1.4   14   39-52     49-62  (137)
+ 20 3SVW_E Methylamine utilization  32.2      53 0.00058   27.6   1.4   14   39-52     49-62  (137)
+ 21 2OIZ_D Aromatic amine dehydrog  30.5      63 0.00069   27.2   1.5   14   40-53     55-68  (135)
+ 22 2K8E_A UPF0339 protein yegP; Y  29.4 1.5E+02  0.0017   20.0   3.0   21   97-117    30-50  (130)
+ 23 2K49_A UPF0339 protein SO_3888  29.0 1.7E+02  0.0019   19.1   3.1   21   97-117    14-34  (118)
+ 24 6D0T_A BB1; beta-barrel, desig  26.0 1.8E+02   0.002   24.5   3.3   23   62-87     10-32  (120)
+ 25 6OHH_A EF1p2_mFAP2b; Rossetta,  25.9 1.9E+02   0.002   24.6   3.4   22   62-86     13-34  (129)
+ 26 6OHH_B EF1p2_mFAP2b; Rossetta,  25.9 1.9E+02   0.002   24.6   3.4   21   63-86     14-34  (129)
+ 27 6CZH_A mFAP0; beta barrel, Ros  25.8 1.9E+02   0.002   24.1   3.4   23   62-87     10-32  (112)
+ 28 6CZJ_A b10; beta barrel, Rosse  25.4   2E+02  0.0021   23.9   3.4   22   62-86      9-30  (109)
+ 29 6CZJ_B b10; beta barrel, Rosse  25.4   2E+02  0.0021   23.9   3.4   23   62-87      9-31  (109)
+ 30 6CZG_A b11L5F_LGL; beta barrel  25.3   2E+02  0.0021   24.1   3.4   23   62-87     13-35  (115)
+ 31 6CZI_B mFAP1; beta barrel, Ros  25.3   2E+02  0.0021   24.0   3.4   23   62-87     10-32  (112)
+ 32 3C75_L Methylamine dehydrogena  23.2      97  0.0011   27.2   1.4   15   38-52    105-119 (188)
+
+No 1
+>4NLH_A Tax1-binding protein 1; Ig like fold, PROTEIN BINDING; 1.9A {Homo sapiens}
+Probab=99.95  E-value=1.3e-26  Score=161.78  Aligned_cols=137  Identities=47%  Similarity=0.920  Sum_probs=104.2  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCcccccccccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEEEE
+Q tr|F8VRQ9|F8VR    9 APSRGGVNFLNVARTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQAS   88 (159)
+Q Consensus         9 apsrggvnflnvartyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfqas   88 (159)
+                      ++++.+|+|.+++.||.+++++.|+|++.+++.++.||||||||++|.+.++|++|+|++.......+....+++.|++.
+T Consensus         2 ~~~~~~V~f~~i~~~~~~~~~~~v~y~~~~~~~~s~~DWIGly~~~~~~~~~y~~~~~v~~~~~~~~~~~~~~~v~F~~~   81 (138)
+T 4NLH_A            2 PSSPAHVIFQNVAKSYLPNAHLECHYTLTPYIHPHPKDWVGIFKVGWSTARDYYTFLWSPMPEHYVEGSTVNCVLAFQGY   81 (138)
+T ss_dssp             CSSCCSEEEESCCSEECTTSCEEEEEEECTTCCCCTTCEEEEEETTCCSGGGEEEEEECCCCTTCCTTCCEEEEEEECGG
+T ss_pred             CCCCCceEEEeCCCccCCCCCEEEEEEeCCCCCCCcccceEEEEcCCCCHHhEeEEEEecCCcccCCCCceEEEEEEecc
+Confidence            57899999999999999977999999999999999999999999999999999999999887554444446789999999
+
+
+Q ss_pred             ecCCCCCeEEEEEEECCCCCeEeecCCcecCCCCCcccceeeecCCCCceEEEEEEcc
+Q tr|F8VRQ9|F8VR   89 YLPKPGAQLYQFRYVNRQGQVCGQSPPFQFREPRPMDELVTLEEADGGSDILLVVPKA  146 (159)
+Q Consensus        89 ylpkpgaqlyqfryvnrqgqvcgqsppfqfreprpmdelvtleeadggsdillvvpka  146 (159)
+                      .||+.+|+.|+|||++.+++++|+|.||+|+.+.+++++|++++ ++++||+||+|||
+T Consensus        82 ~lp~~~g~~Y~~~Y~s~~~~v~G~S~pF~i~~~~~~~~~v~~~~-~~~~~~~~~~~~~  138 (138)
+T 4NLH_A           82 YLPNDDGEFYQFCYVTHKGEIRGASTPFQFRASSPVEELLTMED-EGNSDMLVVTTKA  138 (138)
+T ss_dssp             GSCCSCSCCEEEEEECTTSCEEEECCCBEESCCC------------------------
+T ss_pred             ccCCCCCCcEEEEEECCCCeEEEEcCCeEEecCCchHhceeccc-CCCCCeEEEEecC
+Confidence            99998866999999999999999999999999999999999999 9999999999986
+
+
+No 2
+>5Z7G_A Tax1-binding protein 1, 5-azacytidine-induced protein; TAX1BP1, NAP1, SKICH domain, Autophagy; HET: GOL; 2.301A {Homo sapiens}
+Probab=99.87  E-value=4e-21  Score=130.03  Aligned_cols=113  Identities=46%  Similarity=0.906  Sum_probs=100.0  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCCCcccccccccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEE
+Q tr|F8VRQ9|F8VR    7 SRAPSRGGVNFLNVARTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQ   86 (159)
+Q Consensus         7 srapsrggvnflnvartyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfq   86 (159)
+                      .++++..+|+|.+++.||..++++.|+|++.++++++.||||||||++|++.++|++|+|++.......+.....++.|+
+T Consensus         9 ~~~~~~~~V~F~~i~~~~~~~~~~~v~y~~~~~~~~s~~DWIGlyk~~~~~~~dy~~~~~~~~~~~~~~~~~~~~~v~f~   88 (121)
+T 5Z7G_A            9 LQTSNFAHVIFQNVAKSYLPNAHLECHYTLTPYIHPHPKDWVGIFKVGWSTARDYYTFLWSPMPEHYVEGSTVNCVLAFQ   88 (121)
+T ss_dssp             ---CGGGSEEEESCCSEECTTCCEEEEEEECTTCCCCTTCEEEEEETTCCSTTCEEEEEECCCCTTCCTTCCEEEEEEEC
+T ss_pred             CCCCCCCCEEEEeCCcccCCCCcEEEEEEeCCCCcCCCcCcEEEEecCCCCccceEEEEEecCCcccCCCCccEEEEEee
+Confidence            45889999999999999999779999999999999999999999999999999999999999875443444457899999
+
+
+Q ss_pred             EEecCCCCCeEEEEEEECCCCCeEeecCCcecC
+Q tr|F8VRQ9|F8VR   87 ASYLPKPGAQLYQFRYVNRQGQVCGQSPPFQFR  119 (159)
+Q Consensus        87 asylpkpgaqlyqfryvnrqgqvcgqsppfqfr  119 (159)
+                      +..||..+|+.|+|||++.+++++|+|.||+|+
+T Consensus        89 ~~~lp~~~g~~Y~~~Y~s~~~~v~G~S~pF~~~  121 (121)
+T 5Z7G_A           89 GYYLPNDDGEFYQFCYVTHKGEIRGASTPFQFR  121 (121)
+T ss_dssp             GGGSCCSCSCEEEEEEECTTSCEEEECCCEEEC
+T ss_pred             ccccCCCCCCcEEEEEECCCCeEEEEcCCeecC
+Confidence            999999886699999999999999999999985
+
+
+No 3
+>5Z7G_B Tax1-binding protein 1, 5-azacytidine-induced protein; TAX1BP1, NAP1, SKICH domain, Autophagy; HET: GOL; 2.301A {Homo sapiens}
+Probab=99.87  E-value=4e-21  Score=130.03  Aligned_cols=113  Identities=46%  Similarity=0.906  Sum_probs=99.2  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCCCcccccccccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEE
+Q tr|F8VRQ9|F8VR    7 SRAPSRGGVNFLNVARTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQ   86 (159)
+Q Consensus         7 srapsrggvnflnvartyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfq   86 (159)
+                      .++++..+|+|.+++.||..++++.|+|++.++++++.||||||||++|++.++|++|+|++.......+.....++.|+
+T Consensus         9 ~~~~~~~~V~F~~i~~~~~~~~~~~v~y~~~~~~~~s~~DWIGlyk~~~~~~~dy~~~~~~~~~~~~~~~~~~~~~v~f~   88 (121)
+T 5Z7G_B            9 LQTSNFAHVIFQNVAKSYLPNAHLECHYTLTPYIHPHPKDWVGIFKVGWSTARDYYTFLWSPMPEHYVEGSTVNCVLAFQ   88 (121)
+T ss_dssp             ----CCCSEEETTCCSEECTTSCEEEEEEECTTSCCCTTCEEEEEETTCCSGGGEEEEEECCCCTTCCTTCCEEEEEEEC
+T ss_pred             CCCCCCCCEEEEeCCcccCCCCcEEEEEEeCCCCcCCCcCcEEEEecCCCCccceEEEEEecCCcccCCCCccEEEEEee
+Confidence            45899999999999999999779999999999999999999999999999999999999999875443444457899999
+
+
+Q ss_pred             EEecCCCCCeEEEEEEECCCCCeEeecCCcecC
+Q tr|F8VRQ9|F8VR   87 ASYLPKPGAQLYQFRYVNRQGQVCGQSPPFQFR  119 (159)
+Q Consensus        87 asylpkpgaqlyqfryvnrqgqvcgqsppfqfr  119 (159)
+                      +..||..+|+.|+|||++.+++++|+|.||+|+
+T Consensus        89 ~~~lp~~~g~~Y~~~Y~s~~~~v~G~S~pF~~~  121 (121)
+T 5Z7G_B           89 GYYLPNDDGEFYQFCYVTHKGEIRGASTPFQFR  121 (121)
+T ss_dssp             TTSSCCSCSCCEEEEEECTTSCEEEECCCBEEC
+T ss_pred             ccccCCCCCCcEEEEEECCCCeEEEEcCCeecC
+Confidence            999999886699999999999999999999985
+
+
+No 4
+>5Z7L_A Calcium-binding and coiled-coil domain-containing protein; NDP52, NAP1, SKICH, Autophagy, SIGNALING; HET: GOL; 2.02A {Homo sapiens}
+Probab=99.85  E-value=4.1e-20  Score=122.28  Aligned_cols=113  Identities=41%  Similarity=0.669  Sum_probs=95.1  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCCcccccc-cccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEE
+Q tr|F8VRQ9|F8VR    5 PLSRAPSRGGVNFLNVA-RTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSV   83 (159)
+Q Consensus         5 plsrapsrggvnflnva-rtyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsv   83 (159)
+                      ...++++..+|+|.+++ .|..+ +++.|+|++.+++.++.+|||||||++|.+.+++++|+|++.......+......+
+T Consensus         4 ~~~~~~~~~~v~f~~~~~~~~~~-~~~~v~~~~~~~~~~s~~DWIGlyk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (117)
+T 5Z7L_A            4 VLLDHCHFSQVIFNSVEKFYIPG-GDVTCHYTFTQHFIPRRKDWIGIFRVGWKTTREYYTFMWVTLPIDLNNKSAKQQEV   82 (117)
+T ss_dssp             -----CGGGSEEEESCCSBCCTT-SCEEEEEEECTTCCCCTTCEEEEEETTCCSGGGCSEEEECCCCSCSSCGGGCCEEE
+T ss_pred             ccccccCCcceEEEeCCCeecCC-CCeEEEEEeCCCcccCCCCeEEEEecCCCChhceeEEEEEeCCcCCCCCCCceEEE
+Confidence            44567889999999999 56655 69999999999999999999999999999999999999998765433333346899
+
+
+Q ss_pred             EEEEEecCCCCCeEEEEEEECCCCCeEeecCCcecC
+Q tr|F8VRQ9|F8VR   84 QFQASYLPKPGAQLYQFRYVNRQGQVCGQSPPFQFR  119 (159)
+Q Consensus        84 qfqasylpkpgaqlyqfryvnrqgqvcgqsppfqfr  119 (159)
+                      .|+...||.++| .|+|+|++.+++++|+|.||+|+
+T Consensus        83 ~f~~~~l~~~~g-~Y~~~Y~~~~~~v~g~S~pF~~~  117 (117)
+T 5Z7L_A           83 QFKAYYLPKDDE-YYQFCYVDEDGVVRGASIPFQFR  117 (117)
+T ss_dssp             EECGGGSCCSSC-CEEEEEECTTSCEEEECCCBBCC
+T ss_pred             EEehhhCCCCCC-cEEEEEECCCCeEEEeeCCeeeC
+Confidence            999999999884 99999999999999999999985
+
+
+No 5
+>5Z7L_B Calcium-binding and coiled-coil domain-containing protein; NDP52, NAP1, SKICH, Autophagy, SIGNALING; HET: GOL; 2.02A {Homo sapiens}
+Probab=99.85  E-value=4.1e-20  Score=122.28  Aligned_cols=113  Identities=41%  Similarity=0.669  Sum_probs=96.6  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCCcccccc-cccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEE
+Q tr|F8VRQ9|F8VR    5 PLSRAPSRGGVNFLNVA-RTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSV   83 (159)
+Q Consensus         5 plsrapsrggvnflnva-rtyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsv   83 (159)
+                      ...++++..+|+|.+++ .|..+ +++.|+|++.+++.++.+|||||||++|.+.+++++|+|++.......+......+
+T Consensus         4 ~~~~~~~~~~v~f~~~~~~~~~~-~~~~v~~~~~~~~~~s~~DWIGlyk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   82 (117)
+T 5Z7L_B            4 VLLDHCHFSQVIFNSVEKFYIPG-GDVTCHYTFTQHFIPRRKDWIGIFRVGWKTTREYYTFMWVTLPIDLNNKSAKQQEV   82 (117)
+T ss_dssp             ----CGGGCSEEEESCCSEECTT-SCEEEEEEECTTCCCCTTCEEEEEETTCSSGGGCSEEEECCCCSCTTCTTCCEEEE
+T ss_pred             ccccccCCcceEEEeCCCeecCC-CCeEEEEEeCCCcccCCCCeEEEEecCCCChhceeEEEEEeCCcCCCCCCCceEEE
+Confidence            44567889999999999 56655 69999999999999999999999999999999999999998775433334457899
+
+
+Q ss_pred             EEEEEecCCCCCeEEEEEEECCCCCeEeecCCcecC
+Q tr|F8VRQ9|F8VR   84 QFQASYLPKPGAQLYQFRYVNRQGQVCGQSPPFQFR  119 (159)
+Q Consensus        84 qfqasylpkpgaqlyqfryvnrqgqvcgqsppfqfr  119 (159)
+                      .|+...||.++| .|+|+|++.+++++|+|.||+|+
+T Consensus        83 ~f~~~~l~~~~g-~Y~~~Y~~~~~~v~g~S~pF~~~  117 (117)
+T 5Z7L_B           83 QFKAYYLPKDDE-YYQFCYVDEDGVVRGASIPFQFR  117 (117)
+T ss_dssp             EECGGGSCCSSC-CEEEEEECTTSCEEEECCCBEEC
+T ss_pred             EEehhhCCCCCC-cEEEEEECCCCeEEEeeCCeeeC
+Confidence            999999999884 99999999999999999999985
+
+
+No 6
+>3VVV_A Calcium-binding and coiled-coil domain-containing protein; autophagy adaptor protein, PROTEIN TRANSPORT; 1.35A {Homo sapiens}
+Probab=99.85  E-value=4.2e-20  Score=123.61  Aligned_cols=111  Identities=43%  Similarity=0.791  Sum_probs=93.7  Template_Neff=9.200
+
+Q ss_pred             CCCCCcccccccccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEEEEec
+Q tr|F8VRQ9|F8VR   11 SRGGVNFLNVARTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQASYL   90 (159)
+Q Consensus        11 srggvnflnvartyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfqasyl   90 (159)
+                      ++.+|+|++++..|..++++.|+|++.+++.++.+|||||||++|.+.+++++|+|+........+....+++.|....|
+T Consensus         1 ~~~~v~F~~~~~~~~~~~~~~v~~~~~~~~~~s~~DWIGlyk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~f~~~~l   80 (123)
+T 3VVV_A            1 GPSQVIFNSVEKFYIPGGDVTCHYTFTQHFIPRRKDWIGIFRVGWKTTREYYTFMWVTLPIDLNNKSAKQQEVQFKAYYL   80 (123)
+T ss_dssp             CCCSEEEESCCSEECTTSCEEEEEEECTTCCCCTTCEEEEEETTCCSGGGCSEEEECCSCCC------CCEEEEECGGGS
+T ss_pred             CCcceEEEeCCCeecCCCCeEEEEEeCCCCccCCCCcEEEEEeCCCChhceEEEEEEeCCccCCCCCCceeEEEEeHhhC
+Confidence            46899999999444444699999999999999999999999999999999999999887643222233468999999999
+
+
+Q ss_pred             CCCCCeEEEEEEECCCCCeEeecCCcecCCCC
+Q tr|F8VRQ9|F8VR   91 PKPGAQLYQFRYVNRQGQVCGQSPPFQFREPR  122 (159)
+Q Consensus        91 pkpgaqlyqfryvnrqgqvcgqsppfqfrepr  122 (159)
+                      |.++| .|+|+|++.+++++|+|.||+|..++
+T Consensus        81 p~~~g-~Y~~~Y~~~~~~v~g~S~pF~v~~~~  111 (123)
+T 3VVV_A           81 PKDDE-YYQFCYVDEDGVVRGASIPFQFRPEN  111 (123)
+T ss_dssp             CCSSC-CEEEEEECTTSCEEEECCCBEESCCC
+T ss_pred             CCCCC-cEEEEEECCCCeEEEeeCCEEecCCC
+Confidence            99885 99999999999999999999998876
+
+
+No 7
+>3VVW_A Calcium-binding and coiled-coil domain-containing protein; autophagy adaptor protein, PROTEIN TRANSPORT; 2.5A {Homo sapiens}
+Probab=99.85  E-value=4.2e-20  Score=123.61  Aligned_cols=111  Identities=43%  Similarity=0.791  Sum_probs=92.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCcccccccccCCCCEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEEEEec
+Q tr|F8VRQ9|F8VR   11 SRGGVNFLNVARTYIPNTKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQASYL   90 (159)
+Q Consensus        11 srggvnflnvartyipntkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfqasyl   90 (159)
+                      ++.+|+|++++..|..++++.|+|++.+++.++.+|||||||++|.+.+++++|+|+........+....+++.|....|
+T Consensus         1 ~~~~v~F~~~~~~~~~~~~~~v~~~~~~~~~~s~~DWIGlyk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~f~~~~l   80 (123)
+T 3VVW_A            1 GPSQVIFNSVEKFYIPGGDVTCHYTFTQHFIPRRKDWIGIFRVGWKTTREYYTFMWVTLPIDLNNKSAKQQEVQFKAYYL   80 (123)
+T ss_dssp             --CCEEEESCCSEECTTSCEEEEEEECTTCCCCTTCEEEEEETTCCSGGGCSEEEECCSCCC-------CEEEEECGGGS
+T ss_pred             CCcceEEEeCCCeecCCCCeEEEEEeCCCCccCCCCcEEEEEeCCCChhceEEEEEEeCCccCCCCCCceeEEEEeHhhC
+Confidence            46789999999444444699999999999999999999999999999999999999887643222233468999999999
+
+
+Q ss_pred             CCCCCeEEEEEEECCCCCeEeecCCcecCCCC
+Q tr|F8VRQ9|F8VR   91 PKPGAQLYQFRYVNRQGQVCGQSPPFQFREPR  122 (159)
+Q Consensus        91 pkpgaqlyqfryvnrqgqvcgqsppfqfrepr  122 (159)
+                      |.++| .|+|+|++.+++++|+|.||+|..++
+T Consensus        81 p~~~g-~Y~~~Y~~~~~~v~g~S~pF~v~~~~  111 (123)
+T 3VVW_A           81 PKDDE-YYQFCYVDEDGVVRGASIPFQFRPEN  111 (123)
+T ss_dssp             CCSSC-CEEEEEECTTSCEEEECCCBEESCSS
+T ss_pred             CCCCC-cEEEEEECCCCeEEEeeCCEEecCCC
+Confidence            99885 99999999999999999999998876
+
+
+No 8
+>3BID_E UPF0339 protein NMB1088; alpha-beta protein, Structural Genomics, PSI-2; HET: MSE; 2.7A {Neisseria meningitidis MC58} SCOP: d.348.1.1
+Probab=56.84  E-value=24  Score=22.30  Aligned_cols=22  Identities=14%  Similarity=0.317  Sum_probs=19.4  Template_Neff=8.500
+
+Q ss_pred             eEEEEEEECCCCCeEeecCCce
+Q tr|F8VRQ9|F8VR   96 QLYQFRYVNRQGQVCGQSPPFQ  117 (159)
+Q Consensus        96 qlyqfryvnrqgqvcgqsppfq  117 (159)
+                      +.|.|.+.+.++.+++.|..|.
+T Consensus        11 g~~~f~l~~~~g~~la~S~~y~   32 (64)
+T 3BID_E           11 GEYRWRLKAANHEIIAQGEGYT   32 (64)
+T ss_dssp             SCEEEEEECTTSCEEEEBCCBS
+T ss_pred             CcEEEEEEeCCCCEEEEeCCCC
+Confidence            3899999999999999998885
+
+
+No 9
+>3BID_H UPF0339 protein NMB1088; alpha-beta protein, Structural Genomics, PSI-2; HET: MSE; 2.7A {Neisseria meningitidis MC58} SCOP: d.348.1.1
+Probab=56.84  E-value=24  Score=22.30  Aligned_cols=22  Identities=14%  Similarity=0.317  Sum_probs=19.0  Template_Neff=8.500
+
+Q ss_pred             eEEEEEEECCCCCeEeecCCce
+Q tr|F8VRQ9|F8VR   96 QLYQFRYVNRQGQVCGQSPPFQ  117 (159)
+Q Consensus        96 qlyqfryvnrqgqvcgqsppfq  117 (159)
+                      +.|.|.+.+.++.+++.|..|.
+T Consensus        11 g~~~f~l~~~~g~~la~S~~y~   32 (64)
+T 3BID_H           11 GEYRWRLKAANHEIIAQGEGYT   32 (64)
+T ss_dssp             SCEEEEEECTTSCEEEEEEEES
+T ss_pred             CcEEEEEEeCCCCEEEEeCCCC
+Confidence            3889999999999999997774
+
+
+No 10
+>3ZK4_A DIPHOSPHONUCLEOTIDE PHOSPHATASE 1 (E.C.3.1.3.2); THREE-DOMAIN HEME-CU NITRITE REDUCTASE, ELECTRON; HET: FUC, NAG, PO4, GOL; 1.65A {LUPINUS LUTEUS}
+Probab=56.79  E-value=2e+02  Score=24.61  Aligned_cols=85  Identities=18%  Similarity=0.264  Sum_probs=52.7  Template_Neff=10.100
+
+Q ss_pred             CEEEEEEEcCCCCCCCccceEEEEEEEeeee----------------ccceEEEEEeCCCCCCCCCCceEEEEEEEEecC
+Q tr|F8VRQ9|F8VR   28 TKVECHYTLPPGTMPSASDWIGIFKVEAACV----------------RDYHTFVWSSVPESTTDGSPIHTSVQFQASYLP   91 (159)
+Q Consensus        28 tkvechytlppgtmpsasdwigifkveaacv----------------rdyhtfvwssvpesttdgspihtsvqfqasylp   91 (159)
+                      +.+.|+|.. .  .++..||||+|-....+.                ..++.|.++......- ......++.|.-..  
+T Consensus        21 ~~v~v~w~~-~--~p~~~d~i~~y~p~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~-~~~g~~~~~~~l~n--   94 (571)
+T 3ZK4_A           21 EWVTLQYSN-N--KPSIDDWIGVFSPANFSASTCPGENKMTNPPFLCSAPIKFQYANFSSHSY-KDTGKGSLKLQLIN--   94 (571)
+T ss_dssp             EEEEEEEEC-S--SCCTTCEEEEESSSSCCCSBCCCCSTTSCSSCBSSCCSEEEETTSSCTTH-HHHSEEEEEEEEEC--
+T ss_pred             ccEEEEEEc-C--CCCCCCEEEEEeccccCcCCCCCCCCCCCCccccCCCcceeecCCCCccc-cccCeeEEEEEEEe--
+Confidence            468899996 3  488899999995332221                3567777776432100 01135778885333  
+
+
+Q ss_pred             CCCCeEEEEEEECCC-C--CeEeecCCcecCC
+Q tr|F8VRQ9|F8VR   92 KPGAQLYQFRYVNRQ-G--QVCGQSPPFQFRE  120 (159)
+Q Consensus        92 kpgaqlyqfryvnrq-g--qvcgqsppfqfre  120 (159)
+                       .. ..|.|+|+... .  .+++.|....+..
+T Consensus        95 -~r-~~~~f~~~~~~~~~~~~~a~s~~~~~~~  124 (571)
+T 3ZK4_A           95 -QR-SDFSFALFTGGLTNPKLIAVSNKVSFVN  124 (571)
+T ss_dssp             -CS-SCBEEEEEESTTTSCEEEEECCCBEESC
+T ss_pred             -CC-CcEEEEEECCCCCCCEEEEEeCceeecC
+Confidence             33 37899999765 2  3788888766544
+
+
+No 11
+>3ZK4_B DIPHOSPHONUCLEOTIDE PHOSPHATASE 1 (E.C.3.1.3.2); THREE-DOMAIN HEME-CU NITRITE REDUCTASE, ELECTRON; HET: FUC, NAG, PO4, GOL; 1.65A {LUPINUS LUTEUS}
+Probab=56.79  E-value=2e+02  Score=24.61  Aligned_cols=85  Identities=18%  Similarity=0.264  Sum_probs=52.7  Template_Neff=10.100
+
+Q ss_pred             CEEEEEEEcCCCCCCCccceEEEEEEEeeee----------------ccceEEEEEeCCCCCCCCCCceEEEEEEEEecC
+Q tr|F8VRQ9|F8VR   28 TKVECHYTLPPGTMPSASDWIGIFKVEAACV----------------RDYHTFVWSSVPESTTDGSPIHTSVQFQASYLP   91 (159)
+Q Consensus        28 tkvechytlppgtmpsasdwigifkveaacv----------------rdyhtfvwssvpesttdgspihtsvqfqasylp   91 (159)
+                      +.+.|+|.. .  .++..||||+|-....+.                ..++.|.++......- ......++.|.-..  
+T Consensus        21 ~~v~v~w~~-~--~p~~~d~i~~y~p~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~-~~~g~~~~~~~l~n--   94 (571)
+T 3ZK4_B           21 EWVTLQYSN-N--KPSIDDWIGVFSPANFSASTCPGENKMTNPPFLCSAPIKFQYANFSSHSY-KDTGKGSLKLQLIN--   94 (571)
+T ss_dssp             EEEEEEEEC-S--SCCTTCEEEEESSSSCCCCBCCCCSTTSCSSCBSSCCSEEEETTSSCTTH-HHHCEEEEEEEEEC--
+T ss_pred             ccEEEEEEc-C--CCCCCCEEEEEeccccCcCCCCCCCCCCCCccccCCCcceeecCCCCccc-cccCeeEEEEEEEe--
+Confidence            468899996 3  488899999995332221                3567777776432100 01135778885333  
+
+
+Q ss_pred             CCCCeEEEEEEECCC-C--CeEeecCCcecCC
+Q tr|F8VRQ9|F8VR   92 KPGAQLYQFRYVNRQ-G--QVCGQSPPFQFRE  120 (159)
+Q Consensus        92 kpgaqlyqfryvnrq-g--qvcgqsppfqfre  120 (159)
+                       .. ..|.|+|+... .  .+++.|....+..
+T Consensus        95 -~r-~~~~f~~~~~~~~~~~~~a~s~~~~~~~  124 (571)
+T 3ZK4_B           95 -QR-SDFSFALFTGGLTNPKLIAVSNKVSFVN  124 (571)
+T ss_dssp             -CS-SCBEEEEEESTTTSCEEEEECCCBEESC
+T ss_pred             -CC-CcEEEEEECCCCCCCEEEEEeCceeecC
+Confidence             33 37899999765 2  3788888766544
+
+
+No 12
+>2LFE_A E3 ubiquitin-protein ligase HECW2 (E.C.6.3.2.-); Structural Genomics, Northeast Structural Genomics; NMR {Homo sapiens}
+Probab=53.88  E-value=1.4e+02  Score=22.12  Aligned_cols=85  Identities=13%  Similarity=0.292  Sum_probs=53.4  Template_Neff=8.000
+
+Q ss_pred             CEEEEEEEcCCCCCCCccceEEEEEEEeeeeccceEEEEEeCCCCCCCCCCceEEEEEEEEecC--CCCCeEEEEEEECC
+Q tr|F8VRQ9|F8VR   28 TKVECHYTLPPGTMPSASDWIGIFKVEAACVRDYHTFVWSSVPESTTDGSPIHTSVQFQASYLP--KPGAQLYQFRYVNR  105 (159)
+Q Consensus        28 tkvechytlppgtmpsasdwigifkveaacvrdyhtfvwssvpesttdgspihtsvqfqasylp--kpgaqlyqfryvnr  105 (159)
+                      +.+.+.|.+...  .+..||||||..+-.+...|+.++-....      ......+.+....-+  ........|.|+..
+T Consensus        50 ~~~~v~w~i~e~--~~~~DwIgly~~de~~~~~~ld~k~rg~~------g~~~G~i~W~l~~~~~~~e~~~~vcF~y~~G  121 (138)
+T 2LFE_A           50 QNLIIFWDIKEE--VDPSDWIGLYHIDENSPANFWDSKNRGVT------GTQKGQIVWRIEPGPYFMEPEIKICFKYYHG  121 (138)
+T ss_dssp             CCEEEEEECCSC--CCTTCEEEEEECCSSCTTCCCEECCTTCS------SCSEEEEEECCCSSTTCCSSEEEEEEEEEET
+T ss_pred             CcEEEEEeccCc--CCcccceeceecCCCCcccceeeecCCCC------CCcCCceEEeccCCCcccCccceEEEeeccC
+Confidence            478899999886  77889999999876555555433322111      113455655332111  12224788999987
+
+
+Q ss_pred             C-CCeEeecCCcecCC
+Q tr|F8VRQ9|F8VR  106 Q-GQVCGQSPPFQFRE  120 (159)
+Q Consensus       106 q-gqvcgqsppfqfre  120 (159)
+                      . +.+.+.|..+.+..
+T Consensus       122 ~sg~l~a~sp~i~v~~  137 (138)
+T 2LFE_A          122 ISGALRATTPCITVKN  137 (138)
+T ss_dssp             TTTEEEEECCCEEEEC
+T ss_pred             CCcceeeccCCEEEeC
+Confidence            7 77888887777654
+
+
+No 13
+>2K7I_A UPF0339 protein Atu0232; protein of unknown function, swapped; NMR {Agrobacterium tumefaciens str.} SCOP: d.348.1.1
+Probab=48.70  E-value=47  Score=23.01  Aligned_cols=22  Identities=23%  Similarity=0.454  Sum_probs=19.2  Template_Neff=7.500
+
+Q ss_pred             eEEEEEEECCCCCeEeecCCce
+Q tr|F8VRQ9|F8VR   96 QLYQFRYVNRQGQVCGQSPPFQ  117 (159)
+Q Consensus        96 qlyqfryvnrqgqvcgqsppfq  117 (159)
+                      +.|.|.+.+.++.+++.|..|.
+T Consensus        33 g~~~f~L~~~nG~iIa~S~~y~   54 (83)
+T 2K7I_A           33 GEYRFRFKASNGETMFSSEGYK   54 (83)
+T ss_dssp             SCEEEEECCTTSCCCEEBCCSS
+T ss_pred             CcEEEEEEeCCCCEEEEeCCcC
+Confidence            3899999998899999998885
+
+
+No 14
+>1MDA_M METHYLAMINE DEHYDROGENASE (E.C.1.4.99.3) COMPLEX WITH; ELECTRON TRANSPORT; HET: TRQ; 2.5A {Paracoccus denitrificans} SCOP: g.21.1.1
+Probab=37.33  E-value=41  Score=27.67  Aligned_cols=13  Identities=15%  Similarity=0.299  Sum_probs=9.1  Template_Neff=3.400
+
+Q ss_pred             CCCCccceEEEEE
+Q tr|F8VRQ9|F8VR   40 TMPSASDWIGIFK   52 (159)
+Q Consensus        40 tmpsasdwigifk   52 (159)
+                      -.++.--|||=.+
+T Consensus        44 T~~S~vsWvGtC~   56 (121)
+T 1MDA_M           44 TLVASGSXVGSCY   56 (121)
+T ss_dssp             CEECSCCCEEEEE
+T ss_pred             CcccCCCeeEeEE
+Confidence            3466667888877
+
+
+No 15
+>6FSA_B Myosin-7, Myosin light chain 3; Motor protein, myosin, hypertrophic cardiomyopathy; HET: ADP, FMT, MLY; 2.33A {Bos taurus}
+Probab=36.57  E-value=23  Score=35.96  Aligned_cols=23  Identities=17%  Similarity=0.104  Sum_probs=15.2  Template_Neff=9.100
+
+Q ss_pred             CEEEEEEEcCCCCCCCccceEEEEEEEe
+Q tr|F8VRQ9|F8VR   28 TKVECHYTLPPGTMPSASDWIGIFKVEA   55 (159)
+Q Consensus        28 tkvechytlppgtmpsasdwigifkvea   55 (159)
+                      ..+.|.|.+...     .+|+|.+..+|
+T Consensus       571 ~~~~~~~~l~~~-----~~~~~~~~~~~  593 (1935)
+T 6FSA_B          571 GKPEAHFSLIHY-----AGTVDYNIIGW  593 (1935)
+T ss_dssp             --CCCSEEEEET-----TEEEEECCTTH
+T ss_pred             CCccccchheec-----ccccchhhccH
+Confidence            356677776542     27899998887
+
+
+No 16
+>2I0R_D Aromatic Amine Dehydrogenase (E.C.1.4.99.4.); TTQ, carbinolamine oxidation, OXIDOREDUCTASE; HET: 1TQ; 1.4A {Alcaligenes faecalis}
+Probab=36.36  E-value=45  Score=27.62  Aligned_cols=15  Identities=33%  Similarity=0.532  Sum_probs=10.5  Template_Neff=3.200
+
+Q ss_pred             CCCCCccceEEEEEE
+Q tr|F8VRQ9|F8VR   39 GTMPSASDWIGIFKV   53 (159)
+Q Consensus        39 gtmpsasdwigifkv   53 (159)
+                      .-.++.--|||=.+-
+T Consensus        43 GT~~S~vsWvGtC~N   57 (124)
+T 2I0R_D           43 GSTPSPISXIGTCHN   57 (124)
+T ss_pred             CCccCCCceeeeEEC
+Confidence            335677779998873
+
+
+No 17
+>6Q2Z_A UPF0339 family protein; conserved hypothetical protein, UNKNOWN FUNCTION; NMR {Haloferax volcanii (strain ATCC 29605 / DSM 3757 / JCM 8879 / NBRC 14742 / NCIMB 2012 / VKM B-1768 / DS2)}
+Probab=33.47  E-value=1.6e+02  Score=16.87  Aligned_cols=21  Identities=24%  Similarity=0.569  Sum_probs=18.1  Template_Neff=10.200
+
+Q ss_pred             EEEEEEECCCCCeEeec-CCce
+Q tr|F8VRQ9|F8VR   97 LYQFRYVNRQGQVCGQS-PPFQ  117 (159)
+Q Consensus        97 lyqfryvnrqgqvcgqs-ppfq  117 (159)
+                      .|.|.+...++.+++.| ..|.
+T Consensus        15 ~~~~~l~~~~g~~i~~s~~~~~   36 (60)
+T 6Q2Z_A           15 KYRWRLVHDNGNILADSGEGYA   36 (60)
+T ss_dssp             CEEEEEEETTCCEEEECCCCBS
+T ss_pred             eEEEEEEcCCCCEEEEcCCCcC
+Confidence            89999999899999998 7664
+
+
+No 18
+>1MAF_L METHYLAMINE DEHYDROGENASE (MADH) (E.C.1.4.99.3) INHIBITED; OXIDOREDUCTASE(CHNH2(D)-DEAMINATING); HET: 0AF; 2.6A {Paracoccus versutus} SCOP: g.21.1.1
+Probab=32.77  E-value=52  Score=27.26  Aligned_cols=13  Identities=8%  Similarity=0.028  Sum_probs=9.1  Template_Neff=3.300
+
+Q ss_pred             CCCCccceEEEEE
+Q tr|F8VRQ9|F8VR   40 TMPSASDWIGIFK   52 (159)
+Q Consensus        40 tmpsasdwigifk   52 (159)
+                      -.++.--|||=.+
+T Consensus        44 T~~S~vsWvGtC~   56 (124)
+T 1MAF_L           44 TKLATASXVASCY   56 (124)
+T ss_dssp             CEECSCCEEEEEE
+T ss_pred             CccccCCeeeEEE
+Confidence            3466667888877
+
+
+No 19
+>3SJL_E Methylamine utilization protein mauG (E.C.1.-.-.-); MauG, methylamine dehydrogenase, c-heme, quinone; HET: 0AF, MES, HEC, PEG, EDO; 1.63A {Paracoccus denitrificans}
+Probab=32.17  E-value=53  Score=27.61  Aligned_cols=14  Identities=14%  Similarity=0.183  Sum_probs=9.9  Template_Neff=3.200
+
+Q ss_pred             CCCCCccceEEEEE
+Q tr|F8VRQ9|F8VR   39 GTMPSASDWIGIFK   52 (159)
+Q Consensus        39 gtmpsasdwigifk   52 (159)
+                      .-.++.--|||=.+
+T Consensus        49 GT~~S~vsWvGtC~   62 (137)
+T 3SJL_E           49 GTKLATASXVASCY   62 (137)
+T ss_dssp             TCEECSCCEEEEEE
+T ss_pred             CCccccCCeeeEEE
+Confidence            33566677898887
+
+
+No 20
+>3SVW_E Methylamine utilization protein MauG (E.C.1.-.-.-); MauG, methylamine dehydrogenase, c-heme, quinone; HET: 0AF, MES, HEC, PGE, PEG, EDO; 1.86A {Paracoccus denitrificans}
+Probab=32.17  E-value=53  Score=27.61  Aligned_cols=14  Identities=14%  Similarity=0.183  Sum_probs=9.9  Template_Neff=3.200
+
+Q ss_pred             CCCCCccceEEEEE
+Q tr|F8VRQ9|F8VR   39 GTMPSASDWIGIFK   52 (159)
+Q Consensus        39 gtmpsasdwigifk   52 (159)
+                      .-.++.--|||=.+
+T Consensus        49 GT~~S~vsWvGtC~   62 (137)
+T 3SVW_E           49 GTKLATASXVASCY   62 (137)
+T ss_dssp             TCEECSCCEEEEEE
+T ss_pred             CCccccCCeeeEEE
+Confidence            33566677898887
+
+
+No 21
+>2OIZ_D Aromatic amine dehydrogenase, small subunit; oxidoreductase, tryptophan tryptophyl quinone, H-tunneling; HET: PG4, TRQ, TSR; 1.05A {Alcaligenes faecalis}
+Probab=30.45  E-value=63  Score=27.18  Aligned_cols=14  Identities=29%  Similarity=0.413  Sum_probs=10.2  Template_Neff=3.100
+
+Q ss_pred             CCCCccceEEEEEE
+Q tr|F8VRQ9|F8VR   40 TMPSASDWIGIFKV   53 (159)
+Q Consensus        40 tmpsasdwigifkv   53 (159)
+                      -.++.--|||=.+-
+T Consensus        55 T~~S~vsWvGtC~N   68 (135)
+T 2OIZ_D           55 STPSPISXIGTCHN   68 (135)
+T ss_pred             CccCCCceeeeEEC
+Confidence            35677779998873
+
+
+No 22
+>2K8E_A UPF0339 protein yegP; YegP, Protein Structure initiative (PSI); NMR {Escherichia coli} SCOP: d.348.1.1
+Probab=29.39  E-value=1.5e+02  Score=19.96  Aligned_cols=21  Identities=14%  Similarity=0.240  Sum_probs=18.0  Template_Neff=10.000
+
+Q ss_pred             EEEEEEECCCCCeEeecCCce
+Q tr|F8VRQ9|F8VR   97 LYQFRYVNRQGQVCGQSPPFQ  117 (159)
+Q Consensus        97 lyqfryvnrqgqvcgqsppfq  117 (159)
+                      .|.|.+....+.++..|..|.
+T Consensus        30 ~~~f~l~~~~g~~l~~S~~~~   50 (130)
+T 2K8E_A           30 QFRFVLKAGNGETILTSELYT   50 (130)
+T ss_dssp             CEEEEEECTTSCEEEECCCBS
+T ss_pred             cEEEEEEeCCCCEEEEeCCcC
+Confidence            899999988889888887774
+
+
+No 23
+>2K49_A UPF0339 protein SO_3888; solution NMR structure, STRUCTURAL GENOMICS; NMR {Shewanella oneidensis} SCOP: d.348.1.1
+Probab=29.01  E-value=1.7e+02  Score=19.11  Aligned_cols=21  Identities=19%  Similarity=0.294  Sum_probs=17.8  Template_Neff=10.300
+
+Q ss_pred             EEEEEEECCCCCeEeecCCce
+Q tr|F8VRQ9|F8VR   97 LYQFRYVNRQGQVCGQSPPFQ  117 (159)
+Q Consensus        97 lyqfryvnrqgqvcgqsppfq  117 (159)
+                      .|+|...+..+.++..|..|.
+T Consensus        14 ~~~~~l~~~~~~~l~~S~~~~   34 (118)
+T 2K49_A           14 QFKFVLKAGNGEVILTSELYT   34 (118)
+T ss_dssp             CEEEEEECSSSCEEEECCCBS
+T ss_pred             cEEEEEEeCCCCEEEEcCCcC
+Confidence            899999998888888887773
+
+
+No 24
+>6D0T_A BB1; beta-barrel, design, DE NOVO PROTEIN; 1.63A {synthetic construct}
+Probab=25.95  E-value=1.8e+02  Score=24.45  Aligned_cols=23  Identities=13%  Similarity=0.161  Sum_probs=12.0  Template_Neff=1.900
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQA   87 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfqa   87 (159)
+                      .+|.....+.+.   ....+++.|..
+T Consensus        10 GTWq~~~tseDG---~~s~Gq~h~QP   32 (120)
+T 6D0T_A           10 GTWEFRFRSSDG---KEYRGTVEMQP   32 (120)
+T ss_dssp             EEEEEEEEETTS---CEEEEEEEEEE
+T ss_pred             cEEEEEEEcCCC---CEEEEEEEEcC
+Confidence            355555555332   22356777763
+
+
+No 25
+>6OHH_A EF1p2_mFAP2b; Rossetta, ligand binder, computational, beta; HET: 38E; 2.1A {synthetic construct}
+Probab=25.86  E-value=1.9e+02  Score=24.60  Aligned_cols=22  Identities=23%  Similarity=0.268  Sum_probs=10.8  Template_Neff=1.700
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQ   86 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfq   86 (159)
+                      .+|....++.+   +....+++.|.
+T Consensus        13 GTWq~~~tneD---Gq~sqGq~h~Q   34 (129)
+T 6OHH_A           13 GTWQVTMTNED---GQTSQGQWHFQ   34 (129)
+T ss_dssp             EEEEEEEEETT---SCEEEEEEEEE
+T ss_pred             ceEEEEEEcCC---CCEEEEEEEEe
+Confidence            34555555433   22235667775
+
+
+No 26
+>6OHH_B EF1p2_mFAP2b; Rossetta, ligand binder, computational, beta; HET: 38E; 2.1A {synthetic construct}
+Probab=25.86  E-value=1.9e+02  Score=24.60  Aligned_cols=21  Identities=24%  Similarity=0.303  Sum_probs=9.8  Template_Neff=1.700
+
+Q ss_pred             EEEEEeCCCCCCCCCCceEEEEEE
+Q tr|F8VRQ9|F8VR   63 TFVWSSVPESTTDGSPIHTSVQFQ   86 (159)
+Q Consensus        63 tfvwssvpesttdgspihtsvqfq   86 (159)
+                      +|....++.+   +....+++.|.
+T Consensus        14 TWq~~~tneD---Gq~sqGq~h~Q   34 (129)
+T 6OHH_B           14 TWQVTMTNED---GQTSQGQWHFQ   34 (129)
+T ss_dssp             EEEEEEEETT---SCEEEEEEEEE
+T ss_pred             eEEEEEEcCC---CCEEEEEEEEe
+Confidence            4555444432   22235566665
+
+
+No 27
+>6CZH_A mFAP0; beta barrel, Rossetta, computational, de; HET: 38E; 1.8A {synthetic construct}
+Probab=25.83  E-value=1.9e+02  Score=24.12  Aligned_cols=23  Identities=22%  Similarity=0.322  Sum_probs=11.4  Template_Neff=1.900
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQA   87 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfqa   87 (159)
+                      .+|.....+.+   +....+.+.|..
+T Consensus        10 GTWq~~~t~eD---G~~~~Gq~h~QP   32 (112)
+T 6CZH_A           10 GTWQVTMTNED---GQTSQGQMHFQP   32 (112)
+T ss_dssp             EEEEEEEEETT---SCEEEEEEEEEE
+T ss_pred             cEEEEEEEcCC---CCEEEEEEEEec
+Confidence            34555554433   222356777763
+
+
+No 28
+>6CZJ_A b10; beta barrel, Rossetta, computational, de; HET: SO4; 2.1A {synthetic construct}
+Probab=25.35  E-value=2e+02  Score=23.92  Aligned_cols=22  Identities=18%  Similarity=0.235  Sum_probs=11.3  Template_Neff=2.000
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQ   86 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfq   86 (159)
+                      .+|.....+.+   +....+.+.|.
+T Consensus         9 GTWq~~~t~eD---G~~~~Gq~h~Q   30 (109)
+T 6CZJ_A            9 GTWKMDVTSED---GVRTTGQMHIQ   30 (109)
+T ss_dssp             EEEEEEEEETT---CCEEEEEEEEE
+T ss_pred             ceEEEEEEcCC---CcEEEEEEEEe
+Confidence            35555555433   22235677776
+
+
+No 29
+>6CZJ_B b10; beta barrel, Rossetta, computational, de; HET: SO4; 2.1A {synthetic construct}
+Probab=25.35  E-value=2e+02  Score=23.92  Aligned_cols=23  Identities=13%  Similarity=0.118  Sum_probs=11.7  Template_Neff=2.000
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQA   87 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfqa   87 (159)
+                      .+|.....+.+.   ....+.+.|..
+T Consensus         9 GTWq~~~t~eDG---~~~~Gq~h~QP   31 (109)
+T 6CZJ_B            9 GTWKMDVTSEDG---VRTTGQMHIQP   31 (109)
+T ss_dssp             EEEEEEEEETTS---CEEEEEEEEEE
+T ss_pred             ceEEEEEEcCCC---cEEEEEEEEeC
+Confidence            345555554332   22356777763
+
+
+No 30
+>6CZG_A b11L5F_LGL; beta barrel, Rossetta, computational, de; 2.2A {synthetic construct}
+Probab=25.27  E-value=2e+02  Score=24.10  Aligned_cols=23  Identities=17%  Similarity=0.211  Sum_probs=11.6  Template_Neff=1.900
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQA   87 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfqa   87 (159)
+                      .+|.....+.+.   ....+.+.|..
+T Consensus        13 GTWq~~~t~eDG---~~~~Gq~h~QP   35 (115)
+T 6CZG_A           13 GTWQVTMTNEDG---QTSQGQMHFQP   35 (115)
+T ss_dssp             EEEEEEEECTTS---CEEEEEEEEEE
+T ss_pred             cEEEEEEEcCCC---CEEEEEEEEec
+Confidence            345555555332   22356777763
+
+
+No 31
+>6CZI_B mFAP1; beta barrel, Rossetta, computational, de; HET: 38E; 2.3A {synthetic construct}
+Probab=25.27  E-value=2e+02  Score=24.03  Aligned_cols=23  Identities=17%  Similarity=0.150  Sum_probs=11.3  Template_Neff=1.900
+
+Q ss_pred             eEEEEEeCCCCCCCCCCceEEEEEEE
+Q tr|F8VRQ9|F8VR   62 HTFVWSSVPESTTDGSPIHTSVQFQA   87 (159)
+Q Consensus        62 htfvwssvpesttdgspihtsvqfqa   87 (159)
+                      .+|.....+.+.   ....+.+.|..
+T Consensus        10 GTWq~~~t~eDG---~~~~Gq~h~QP   32 (112)
+T 6CZI_B           10 GTWQVTMTNEDG---QTSQGQWHFQP   32 (112)
+T ss_dssp             EEEEEEEEETTS---CEEEEEEEEEE
+T ss_pred             cEEEEEEEcCCC---CEEEEEEEEec
+Confidence            345555554332   22356777763
+
+
+No 32
+>3C75_L Methylamine dehydrogenase heavy chain (E.C.1.4.99.3); copper proteins, electron transfer complex; HET: TRQ; 2.5A {Paracoccus versutus}
+Probab=23.17  E-value=97  Score=27.15  Aligned_cols=15  Identities=20%  Similarity=0.339  Sum_probs=10.9  Template_Neff=3.700
+
+Q ss_pred             CCCCCCccceEEEEE
+Q tr|F8VRQ9|F8VR   38 PGTMPSASDWIGIFK   52 (159)
+Q Consensus        38 pgtmpsasdwigifk   52 (159)
+                      +..+++.--|||=.+
+T Consensus       105 PGt~~S~~sWvGtC~  119 (188)
+T 3C75_L          105 PGTKLATASXVASCY  119 (188)
+T ss_dssp             TTCEECSCCEEEEEE
+T ss_pred             CCCcccCCceeEEEE
+Confidence            344677778999887
+
+

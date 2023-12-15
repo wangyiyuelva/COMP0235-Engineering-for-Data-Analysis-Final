@@ -1,0 +1,278 @@
+Query         tr|E5RK29|E5RK29_HUMAN
+Match_columns 28
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:38:34 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0613.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4L4E_A Camphor 5-monooxygenase  46.4      55  0.0006   17.9   2.3   19    3-21      4-22  (415)
+  2 6HIV_Be ms48, ms51, ms56, ms59  42.6      28 0.00031   21.9   1.0   17   10-26     23-39  (113)
+  3 6HIX_Be ?; mitoribosome, trans  42.6      28 0.00031   21.9   1.0   17   10-26     23-39  (113)
+  4 1ES9_A alpha/beta hydrolase fo  38.3      68 0.00074   15.6   1.8   16    5-20      1-16  (232)
+  5 7AIH_BD mL94, mL89, Ribosomal   34.3      53 0.00057   20.4   1.2   17   10-26     23-39  (102)
+  6 7ANE_BD mL94, mL89, Ribosomal   34.3      53 0.00057   20.4   1.2   17   10-26     23-39  (102)
+  7 2EHB_A Calcineurin B-like prot  32.7      77 0.00084   15.0   1.4    8    1-8       1-8   (207)
+  8 3DT6_A PLATELET ACTIVATING FAC  32.7      75 0.00081   15.4   1.4   15    5-19      1-15  (232)
+  9 3BNI_A Putative TetR-family tr  31.4      57 0.00062   16.7   0.9    8    1-8       1-8   (229)
+ 10 3BNI_B Putative TetR-family tr  31.4      57 0.00062   16.7   0.9    8    1-8       1-8   (229)
+ 11 1FXW_F PLATELET-ACTIVATING FAC  28.7 1.2E+02  0.0013   14.7   1.7   14    7-20      4-17  (229)
+ 12 1VYH_I PLATELET-ACTIVATING FAC  28.7 1.2E+02  0.0013   14.7   1.7   14    7-20      4-17  (229)
+ 13 6J85_A Nocardicin N-oxygenase;  27.6 1.7E+02  0.0018   16.6   2.4   17    2-18     18-34  (435)
+ 14 6J86_A Nocardicin N-oxygenase;  27.6 1.7E+02  0.0018   16.6   2.4   18    2-19     18-35  (435)
+ 15 1Z1S_A Hypothetical Protein PA  27.1 1.3E+02  0.0014   14.0   1.6   14    1-14      1-14  (163)
+ 16 5I45_A Glycosyl transferases g  23.7 1.1E+02  0.0011   14.6   1.0   10   17-26      1-10  (218)
+ 17 7MHU_A Sialidase, microbiome,   20.9 3.1E+02  0.0033   15.7   2.6   18    3-20      6-23  (414)
+
+No 1
+>4L4E_A Camphor 5-monooxygenase (E.C.1.14.15.1); mono-oxygenase, cytochrome P450, OXIDOREDUCTASE; HET: CAM, HEM; 1.261A {Pseudomonas putida}
+Probab=46.40  E-value=55  Score=17.86  Aligned_cols=19  Identities=26%  Similarity=0.322  Sum_probs=6.3  Template_Neff=12.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    3 NSMKSTPAPAERPLPNPEG   21 (28)
+Q Consensus         3 nsmkstpapaerplpnpeg   21 (28)
+                      +.++|.-..+.+|.|-|.+
+T Consensus         4 ~~~~~~~~~~~~~~~~p~~   22 (415)
+T 4L4E_A            4 ETIQSNANLAPLPPHVPEH   22 (415)
+T ss_dssp             -------CCCCCCTTSCGG
+T ss_pred             ccccccccCCCCCCCCCcc
+Confidence            4445544455555555544
+
+
+No 2
+>6HIV_Be ms48, ms51, ms56, ms59, ms60; mitoribosome, translation, Trypanosoma, large ribosomal; HET: SPM, MG, NAD, ZN, GTP, SPD, UTP; 7.8A {Trypanosoma brucei brucei}
+Probab=42.61  E-value=28  Score=21.87  Aligned_cols=17  Identities=47%  Similarity=0.704  Sum_probs=13.8  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK   10 APAERPLPNPEGLDSDF   26 (28)
+Q Consensus        10 apaerplpnpegldsdf   26 (28)
+                      |..-||+|||--.|||-
+T Consensus        23 A~GYrPIpNPiLFdsd~   39 (113)
+T 6HIV_Be          23 AKGYKPIPNPILFDSDA   39 (113)
+T ss_pred             cccCCCCCCCeecCCch
+Confidence            44568999999999983
+
+
+No 3
+>6HIX_Be ?; mitoribosome, translation, Trypanosoma, large ribosomal; HET: NAD; 3.39A {Trypanosoma brucei brucei}
+Probab=42.61  E-value=28  Score=21.87  Aligned_cols=17  Identities=47%  Similarity=0.704  Sum_probs=13.8  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK   10 APAERPLPNPEGLDSDF   26 (28)
+Q Consensus        10 apaerplpnpegldsdf   26 (28)
+                      |..-||+|||--.|||-
+T Consensus        23 A~GYrPIpNPiLFdsd~   39 (113)
+T 6HIX_Be          23 AKGYKPIPNPILFDSDA   39 (113)
+T ss_pred             cccCCCCCCCeecCCch
+Confidence            44568999999999983
+
+
+No 4
+>1ES9_A alpha/beta hydrolase fold, HYDROLASE; 1.3A {Bos taurus} SCOP: c.23.10.3
+Probab=38.31  E-value=68  Score=15.64  Aligned_cols=16  Identities=31%  Similarity=0.648  Sum_probs=8.2  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    5 MKSTPAPAERPLPNPE   20 (28)
+Q Consensus         5 mkstpapaerplpnpe   20 (28)
+                      |..+++|+..|.|...
+T Consensus         1 ~~~~~~~~~~~~~~~~   16 (232)
+T 1ES9_A            1 MSGDENPASKPTPVQD   16 (232)
+T ss_dssp             ----CCGGGSCCCCCC
+T ss_pred             CCCCCCCCCCCCCccc
+Confidence            5567777777777643
+
+
+No 5
+>7AIH_BD mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=34.26  E-value=53  Score=20.43  Aligned_cols=17  Identities=35%  Similarity=0.432  Sum_probs=13.8  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK   10 APAERPLPNPEGLDSDF   26 (28)
+Q Consensus        10 apaerplpnpegldsdf   26 (28)
+                      |..-||+|||--.|||-
+T Consensus        23 A~GYrPIpNPiLFdsd~   39 (102)
+T 7AIH_BD          23 AQGYQPIANPILFKSDE   39 (102)
+T ss_pred             cccCCCCCCCeecCChH
+Confidence            45568999999999983
+
+
+No 6
+>7ANE_BD mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.9A {Leishmania major}
+Probab=34.26  E-value=53  Score=20.43  Aligned_cols=17  Identities=35%  Similarity=0.432  Sum_probs=13.8  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK   10 APAERPLPNPEGLDSDF   26 (28)
+Q Consensus        10 apaerplpnpegldsdf   26 (28)
+                      |..-||+|||--.|||-
+T Consensus        23 A~GYrPIpNPiLFdsd~   39 (102)
+T 7ANE_BD          23 AQGYQPIANPILFKSDE   39 (102)
+T ss_pred             cccCCCCCCCeecCChH
+Confidence            45568999999999983
+
+
+No 7
+>2EHB_A Calcineurin B-like protein 4, CBL-interacting; protein complex, Ca(II) ions bound; 2.1A {Arabidopsis thaliana}
+Probab=32.74  E-value=77  Score=14.99  Aligned_cols=8  Identities=38%  Similarity=0.551  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCC
+Q tr|E5RK29|E5RK    1 MGNSMKST    8 (28)
+Q Consensus         1 mgnsmkst    8 (28)
+                      ||++|+..
+T Consensus         1 mg~~~~~~    8 (207)
+T 2EHB_A            1 MGCSVSKK    8 (207)
+T ss_dssp             --------
+T ss_pred             CCCccchh
+Confidence            67776544
+
+
+No 8
+>3DT6_A PLATELET ACTIVATING FACTOR ACETYLHYDROLASE, PAF-AH; 2.1A {Bos taurus}
+Probab=32.67  E-value=75  Score=15.43  Aligned_cols=15  Identities=33%  Similarity=0.632  Sum_probs=6.2  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    5 MKSTPAPAERPLPNP   19 (28)
+Q Consensus         5 mkstpapaerplpnp   19 (28)
+                      |.++++++..|.|..
+T Consensus         1 ~~~~~~~~~~p~p~~   15 (232)
+T 3DT6_A            1 MSGDENPASKPTPVQ   15 (232)
+T ss_dssp             ----CCGGGSCCCCC
+T ss_pred             CCCCCCCccCCCChh
+Confidence            445556665555543
+
+
+No 9
+>3BNI_A Putative TetR-family transcriptional regulator; structural genomics, APC7281, TetR transcriptional; HET: PG4; 2.3A {Streptomyces coelicolor A3(2)}
+Probab=31.42  E-value=57  Score=16.71  Aligned_cols=8  Identities=38%  Similarity=0.534  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCC
+Q tr|E5RK29|E5RK    1 MGNSMKST    8 (28)
+Q Consensus         1 mgnsmkst    8 (28)
+                      |||+|.++
+T Consensus         1 ~~~~~~~~    8 (229)
+T 3BNI_A            1 MGSSHHHH    8 (229)
+T ss_dssp             --------
+T ss_pred             CCCCcccc
+Confidence            45555443
+
+
+No 10
+>3BNI_B Putative TetR-family transcriptional regulator; structural genomics, APC7281, TetR transcriptional; HET: PG4; 2.3A {Streptomyces coelicolor A3(2)}
+Probab=31.42  E-value=57  Score=16.71  Aligned_cols=8  Identities=38%  Similarity=0.534  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCC
+Q tr|E5RK29|E5RK    1 MGNSMKST    8 (28)
+Q Consensus         1 mgnsmkst    8 (28)
+                      |||+|.++
+T Consensus         1 ~~~~~~~~    8 (229)
+T 3BNI_B            1 MGSSHHHH    8 (229)
+T ss_dssp             --------
+T ss_pred             CCCCcccc
+Confidence            45554443
+
+
+No 11
+>1FXW_F PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB GAMMA; alpha beta hydrolase fold, HYDROLASE; 2.1A {Bos taurus} SCOP: c.23.10.3
+Probab=28.70  E-value=1.2e+02  Score=14.71  Aligned_cols=14  Identities=21%  Similarity=0.382  Sum_probs=7.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    7 STPAPAERPLPNPE   20 (28)
+Q Consensus         7 stpapaerplpnpe   20 (28)
+                      .+|+++..|.|.++
+T Consensus         4 ~~~~~~~~p~~~~~   17 (229)
+T 1FXW_F            4 GDSNPAAIPHAAED   17 (229)
+T ss_dssp             TCCCGGGSCCCCCC
+T ss_pred             CCCCCCCCCCcccc
+Confidence            34555555555443
+
+
+No 12
+>1VYH_I PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB BETA; LISSENCEPHALY, ACETYLHYDROLASE, PLATELET ACTIVACTING FACTOR; 3.4A {HOMO SAPIENS} SCOP: c.23.10.3
+Probab=28.70  E-value=1.2e+02  Score=14.71  Aligned_cols=14  Identities=21%  Similarity=0.382  Sum_probs=6.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    7 STPAPAERPLPNPE   20 (28)
+Q Consensus         7 stpapaerplpnpe   20 (28)
+                      .+|+++..|.|.++
+T Consensus         4 ~~~~~~~~p~~~~~   17 (229)
+T 1VYH_I            4 GDSNPAAIPHAAED   17 (229)
+T ss_dssp             --CCGGGSCCCCCC
+T ss_pred             CCCCCCCCCCcccc
+Confidence            34555555555443
+
+
+No 13
+>6J85_A Nocardicin N-oxygenase; P450, indolactam, oxidation, OXIDOREDUCTASE; HET: HEM; 2.2A {Streptoalloteichus hindustanus}
+Probab=27.63  E-value=1.7e+02  Score=16.56  Aligned_cols=17  Identities=41%  Similarity=0.780  Sum_probs=6.3  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    2 GNSMKSTPAPAERPLPN   18 (28)
+Q Consensus         2 gnsmkstpapaerplpn   18 (28)
+                      ||.|...|.|..-|+..
+T Consensus        18 ~~~~~~~p~p~~~P~~~   34 (435)
+T 6J85_A           18 GSHMTGTPAPVRYPFGE   34 (435)
+T ss_dssp             ------CCCCEESSSSC
+T ss_pred             CCCCCCCCCCCCCCCCc
+Confidence            45666666665555533
+
+
+No 14
+>6J86_A Nocardicin N-oxygenase; P450, indolactam, oxidation, NMFT, OXIDOREDUCTASE; HET: B9L, HEM; 2.6A {Streptoalloteichus hindustanus}
+Probab=27.63  E-value=1.7e+02  Score=16.56  Aligned_cols=18  Identities=39%  Similarity=0.743  Sum_probs=7.3  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    2 GNSMKSTPAPAERPLPNP   19 (28)
+Q Consensus         2 gnsmkstpapaerplpnp   19 (28)
+                      ||.|...|.|..-|+...
+T Consensus        18 ~~~~~~~p~p~~~P~~~~   35 (435)
+T 6J86_A           18 GSHMTGTPAPVRYPFGEA   35 (435)
+T ss_dssp             -----CCCCCEESSCSCC
+T ss_pred             CCCCCCCCCCCCCCCCcc
+Confidence            456666666655555333
+
+
+No 15
+>1Z1S_A Hypothetical Protein PA3332; beta barrel, conserved hypothetical protein; HET: PGE; 1.49A {Pseudomonas aeruginosa PAO1} SCOP: d.17.4.10
+Probab=27.07  E-value=1.3e+02  Score=13.99  Aligned_cols=14  Identities=29%  Similarity=0.389  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    1 MGNSMKSTPAPAER   14 (28)
+Q Consensus         1 mgnsmkstpapaer   14 (28)
+                      ||+++++.+.+...
+T Consensus         1 ~~~~~~~~~~~~~~   14 (163)
+T 1Z1S_A            1 MGSSHHHHHHSSGR   14 (163)
+T ss_dssp             --------------
+T ss_pred             CCCCcccccccccc
+Confidence            56666665554433
+
+
+No 16
+>5I45_A Glycosyl transferases group 1 family; Glycosyl Transferase Group 1 Family; HET: MSE; 1.35A {Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4)}
+Probab=23.74  E-value=1.1e+02  Score=14.59  Aligned_cols=10  Identities=30%  Similarity=0.684  Sum_probs=3.3  Template_Neff=12.800
+
+Q ss_pred             CCCCCCCCCC
+Q tr|E5RK29|E5RK   17 PNPEGLDSDF   26 (28)
+Q Consensus        17 pnpegldsdf   26 (28)
+                      |||.|.|.++
+T Consensus         1 ~~p~gid~~~   10 (218)
+T 5I45_A            1 SNAHGVDTQV   10 (218)
+T ss_dssp             ----CBCTTT
+T ss_pred             CCCCCCcccc
+Confidence            3555666554
+
+
+No 17
+>7MHU_A Sialidase, microbiome, sialic acid, inflammation; 2.0A {Bacteroides acidifaciens}
+Probab=20.88  E-value=3.1e+02  Score=15.75  Aligned_cols=18  Identities=33%  Similarity=0.536  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|E5RK29|E5RK    3 NSMKSTPAPAERPLPNPE   20 (28)
+Q Consensus         3 nsmkstpapaerplpnpe   20 (28)
+                      ++-+.+|+|.+-|.|++.
+T Consensus         6 ~~~~p~~~~~~~~~~~~~   23 (414)
+T 7MHU_A            6 NDFRPVPYPDEVVGLNPD   23 (414)
+T ss_dssp             ------------------
+T ss_pred             ccCccccCCcccCCCCCC
+Confidence            344555555555555443
+
+

@@ -1,0 +1,168 @@
+Query         tr|H0YD44|H0YD44_HUMAN
+Match_columns 20
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:53:17 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0913.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5PAN_A GLYCOPROTEIN, HYDROLASE  40.8      39 0.00043   12.3   1.0    6   13-18     58-63  (64)
+  2 5CQR_A Elongator complex prote  19.7      99  0.0011   18.9   0.6    6   15-20      1-6   (622)
+  3 3O7V_X Piwi-like protein 1; Pi  17.9      77 0.00084   14.5  -0.1    8    8-15    104-111 (124)
+  4 3WTR_A Uncharacterized protein  17.8 1.2E+02  0.0013   18.6   0.7   11    4-14     29-39  (190)
+  5 4PDN_A Uncharacterized protein  17.8 1.2E+02  0.0013   18.6   0.7   11    4-14     29-39  (190)
+  6 5DUW_A Galectin-4; galectin-4,  16.0 2.1E+02  0.0023   12.9   1.1    8   10-17      3-10  (155)
+  7 5CNL_A IcmL-like; type IV secr  15.8 3.3E+02  0.0036   14.5   1.9   14    6-19    134-147 (155)
+  8 1AUA_A PHOSPHATIDYLINOSITOL TR  13.7 3.6E+02  0.0039   13.5   1.6   11    5-15    282-292 (296)
+  9 5M0W_A Protein shisa-3 homolog  13.4 1.9E+02  0.0021   13.4   0.6   10    5-14     70-79  (82)
+ 10 3S3Y_A TANDEM CYANOVIRIN-N DIM  13.3 3.5E+02  0.0038   14.1   1.6   14    7-20      2-15  (213)
+
+No 1
+>5PAN_A GLYCOPROTEIN, HYDROLASE, SERINE PROTEASE, PLASMA; HET: SO4, GOL, 7Z4; 1.62A {Homo sapiens}
+Probab=40.80  E-value=39  Score=12.33  Aligned_cols=6  Identities=50%  Similarity=0.888  Sum_probs=0.4  Template_Neff=12.000
+
+Q ss_pred             CCCCCC
+Q tr|H0YD44|H0YD   13 PEMPQG   18 (20)
+Q Consensus        13 pempqg   18 (20)
+                      |+-|||
+T Consensus        58 ~~~~~~   63 (64)
+T 5PAN_A           58 ASKPQG   63 (64)
+T ss_dssp             C-----
+T ss_pred             CCCCCC
+Confidence            444444
+
+
+No 2
+>5CQR_A Elongator complex protein 1; Familial Dysautonomia, Elongator Complex, Elp1; 3.015A {Homo sapiens}
+Probab=19.65  E-value=99  Score=18.89  Aligned_cols=6  Identities=33%  Similarity=0.562  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCC
+Q tr|H0YD44|H0YD   15 MPQGNI   20 (20)
+Q Consensus        15 mpqgni   20 (20)
+                      ||.||+
+T Consensus         1 mpRGNl    6 (622)
+T 5CQR_A            1 GPGSNL    6 (622)
+T ss_dssp             ------
+T ss_pred             CCCccc
+Confidence            899985
+
+
+No 3
+>3O7V_X Piwi-like protein 1; Piwi, RNA silencing, pi-RNA, Hiwi1; HET: OMU, MSE; 2.1A {Homo sapiens}
+Probab=17.86  E-value=77  Score=14.47  Aligned_cols=8  Identities=50%  Similarity=0.916  Sum_probs=5.6  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCC
+Q tr|H0YD44|H0YD    8 PHYLPPEM   15 (20)
+Q Consensus         8 phylppem   15 (20)
+                      +.|+|||.
+T Consensus       104 ~~~~p~El  111 (124)
+T 3O7V_X          104 PAMLIPEL  111 (124)
+T ss_dssp             CEEECGGG
+T ss_pred             CeEeCHhH
+Confidence            56788874
+
+
+No 4
+>3WTR_A Uncharacterized protein; Hydroxylation, TRANSLATION; 1.96A {Escherichia coli}
+Probab=17.78  E-value=1.2e+02  Score=18.63  Aligned_cols=11  Identities=45%  Similarity=0.981  Sum_probs=9.0  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H0YD44|H0YD    4 SAQEPHYLPPE   14 (20)
+Q Consensus         4 saqephylppe   14 (20)
+                      .+.||-|+|+.
+T Consensus        29 Ga~EPlYlPa~   39 (190)
+T 3WTR_A           29 GDDEPIYLPAD   39 (190)
+T ss_dssp             CSSCCEEECCC
+T ss_pred             CCCCCeeecCC
+Confidence            46799999985
+
+
+No 5
+>4PDN_A Uncharacterized protein; Hydroxylase, OXIDOREDUCTASE; 1.448A {Escherichia coli KTE5}
+Probab=17.78  E-value=1.2e+02  Score=18.63  Aligned_cols=11  Identities=45%  Similarity=0.981  Sum_probs=9.0  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H0YD44|H0YD    4 SAQEPHYLPPE   14 (20)
+Q Consensus         4 saqephylppe   14 (20)
+                      .+.||-|+|+.
+T Consensus        29 Ga~EPlYlPa~   39 (190)
+T 4PDN_A           29 GDDEPIYLPAD   39 (190)
+T ss_dssp             CSSCCEEECCC
+T ss_pred             CCCCCeeecCC
+Confidence            46799999985
+
+
+No 6
+>5DUW_A Galectin-4; galectin-4, lectin, sulfate, sugar-binding protein; HET: BGC, SGA; 1.7A {Homo sapiens}
+Probab=16.05  E-value=2.1e+02  Score=12.90  Aligned_cols=8  Identities=38%  Similarity=0.546  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCC
+Q tr|H0YD44|H0YD   10 YLPPEMPQ   17 (20)
+Q Consensus        10 ylppempq   17 (20)
+                      |+|++++|
+T Consensus         3 ~~~~~~~~   10 (155)
+T 5DUW_A            3 YVPAPGYQ   10 (155)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            44444443
+
+
+No 7
+>5CNL_A IcmL-like; type IV secretion system, protein; HET: PGE, SO4, PEG, MSE; 2.65A {Legionella pneumophila subsp. pneumophila}
+Probab=15.76  E-value=3.3e+02  Score=14.48  Aligned_cols=14  Identities=29%  Similarity=0.275  Sum_probs=3.3  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YD44|H0YD    6 QEPHYLPPEMPQGN   19 (20)
+Q Consensus         6 qephylppempqgn   19 (20)
+                      ..|-.-|||.|.||
+T Consensus       134 ~~~~~~~~~~~~~~  147 (155)
+T 5CNL_A          134 SPPCQCKIEETPGN  147 (155)
+T ss_dssp             CCCCCC--------
+T ss_pred             CCCCcCcccCCCCC
+Confidence            34556678888776
+
+
+No 8
+>1AUA_A PHOSPHATIDYLINOSITOL TRANSFER PROTEIN SEC14P; PHOSPHOLIPID-BINDING PROTEIN, PERIPHERAL GOLGI MEMBRANE; HET: BOG; 2.5A {Saccharomyces cerevisiae} SCOP: c.13.1.1, a.5.3.1
+Probab=13.74  E-value=3.6e+02  Score=13.47  Aligned_cols=11  Identities=36%  Similarity=0.773  Sum_probs=7.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H0YD44|H0YD    5 AQEPHYLPPEM   15 (20)
+Q Consensus         5 aqephylppem   15 (20)
+                      .+++.|++||-
+T Consensus       282 ~~~~~~~~~~~  292 (296)
+T 1AUA_A          282 WRDPKYIGPEG  292 (296)
+T ss_dssp             GGCGGGCCTTC
+T ss_pred             CCCcccCCCCC
+Confidence            35667777764
+
+
+No 9
+>5M0W_A Protein shisa-3 homolog; Single-pass transmembrane protein, tumor suppressor; HET: MES, SO4, GOL, EDO; 1.39A {Mus musculus}
+Probab=13.37  E-value=1.9e+02  Score=13.39  Aligned_cols=10  Identities=20%  Similarity=0.597  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H0YD44|H0YD    5 AQEPHYLPPE   14 (20)
+Q Consensus         5 aqephylppe   14 (20)
+                      ..+|-|.||.
+T Consensus        70 ~~~Pvyv~~~   79 (82)
+T 5M0W_A           70 TAQPVWSHPQ   79 (82)
+T ss_dssp             ----------
+T ss_pred             CCcCeeeCcc
+
+
+No 10
+>3S3Y_A TANDEM CYANOVIRIN-N DIMER CVN2L0; cyanovirin-N, sugar-binding, gp120, engineered dimer; 2.0A {Nostoc ellipsosporum}
+Probab=13.35  E-value=3.5e+02  Score=14.10  Aligned_cols=14  Identities=21%  Similarity=0.086  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YD44|H0YD    7 EPHYLPPEMPQGNI   20 (20)
+Q Consensus         7 ephylppempqgni   20 (20)
+                      +|++..+.||.|+.
+T Consensus         2 ~~~~~~~~~~~~~~   15 (213)
+T 3S3Y_A            2 HHHHHHIEGRLGKF   15 (213)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCcCCCCCc
+
+

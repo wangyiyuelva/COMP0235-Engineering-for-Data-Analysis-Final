@@ -1,0 +1,180 @@
+Query         sp|Q96IZ7|RSRC1_HUMAN
+Match_columns 334
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:32:27 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0555.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6QW6_X Small nuclear ribonucle  70.5      13 0.00014   32.5   4.0    8  174-181    93-100 (155)
+  2 6QX9_X Splicing factor 3B subu  70.5      13 0.00014   32.5   4.0    8  174-181    93-100 (155)
+  3 7DVQ_8 Pre-mRNA-processing-spl  62.7 2.6E+02  0.0028   32.6  12.3   21   93-113   335-355 (904)
+  4 6YGI_C Capsid protein,Capsid p  57.7      55 0.00059   32.1   5.7   42   74-115   162-204 (222)
+  5 6YGH_D Capsid protein; duck he  46.7   1E+02  0.0011   31.2   5.7   13   98-110   227-239 (262)
+  6 7C06_B U2AF/RNA Complex; pre-m  42.1      89 0.00096   24.3   3.8   15  170-185    46-60  (69)
+  7 4YH8_B Splicing factor U2AF 23  27.3 2.2E+02  0.0024   22.5   3.8   15  170-185    48-62  (71)
+  8 6WXH_D Outer membrane protein   26.5 3.1E+02  0.0034   26.1   5.3   20  196-215   145-164 (198)
+  9 7OOP_S transcription, DNA repa  25.5   2E+02  0.0022   29.7   4.2    8   67-74   1096-1103(1173)
+ 10 5MPD_W 26S proteasome regulato  21.9   3E+02  0.0033   23.0   3.9    8  187-194   232-239 (268)
+ 11 6J2X_W Proteasome subunit beta  21.9   3E+02  0.0033   23.0   3.9    8  187-194   232-239 (268)
+
+No 1
+>6QW6_X Small nuclear ribonucleoprotein Sm D1; RNP complex, splicing, RNA, protein; HET: M7M, GTP, IHP; 2.92A {Homo sapiens}
+Probab=70.46  E-value=13  Score=32.48  Aligned_cols=8  Identities=38%  Similarity=0.306  Sum_probs=3.0  Template_Neff=6.300
+
+Q ss_pred             ccCCCHHH
+Q sp|Q96IZ7|RSRC  174 LEHLPPAE  181 (334)
+Q Consensus       174 lehlppae  181 (334)
+                      |+.+.+.|
+T Consensus        93 l~~~~~ee  100 (155)
+T 6QW6_X           93 LEGKTEEE  100 (155)
+T ss_pred             hCCCCHHH
+Confidence            33333333
+
+
+No 2
+>6QX9_X Splicing factor 3B subunit 4; RNP complex, splicing, RNA, protein; HET: M7M, GTP, IHP; 3.28A {Homo sapiens}
+Probab=70.46  E-value=13  Score=32.48  Aligned_cols=8  Identities=38%  Similarity=0.306  Sum_probs=3.0  Template_Neff=6.300
+
+Q ss_pred             ccCCCHHH
+Q sp|Q96IZ7|RSRC  174 LEHLPPAE  181 (334)
+Q Consensus       174 lehlppae  181 (334)
+                      |+.+.+.|
+T Consensus        93 l~~~~~ee  100 (155)
+T 6QX9_X           93 LEGKTEEE  100 (155)
+T ss_pred             hCCCCHHH
+Confidence            33333333
+
+
+No 3
+>7DVQ_8 Pre-mRNA-processing-splicing factor 8, 116 kDa; spliceosome, minor spliceosome, Bact complex; HET: TPO, GTP, G5J, IHP, SEP; 2.89A {Homo sapiens}
+Probab=62.65  E-value=2.6e+02  Score=32.56  Aligned_cols=21  Identities=43%  Similarity=0.430  Sum_probs=12.7  Template_Neff=3.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q sp|Q96IZ7|RSRC   93 SYRVQRSRSKSRTRRSRSRPR  113 (334)
+Q Consensus        93 syrvqrsrsksrtrrsrsrpr  113 (334)
+                      .-+-+++++-.+.+|+++...
+T Consensus       335 ~pr~r~s~sp~rrrRs~S~s~  355 (904)
+T 7DVQ_8          335 PPRHRRSRSPVRRRRRSSASL  355 (904)
+T ss_pred             CcccccCCCcccccccccccc
+Confidence            345566777777666666543
+
+
+No 4
+>6YGI_C Capsid protein,Capsid protein; duck hepatitis B core protein;{Hepatitis B virus duck/DHBV-16}
+Probab=57.73  E-value=55  Score=32.07  Aligned_cols=42  Identities=36%  Similarity=0.457  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCCCCC
+Q sp|Q96IZ7|RSRC   74 SSYGSRRKRSRSRSRGRGKSYRVQ-RSRSKSRTRRSRSRPRLR  115 (334)
+Q Consensus        74 ssygsrrkrsrsrsrgrgksyrvq-rsrsksrtrrsrsrprlr  115 (334)
+                      +++|.|+.+...-.+..-|.--|. |.|+||+.|+.-+-.|-+
+T Consensus       162 ~~~~~~~~~g~~~~~~~~~t~v~~~r~r~~s~~r~~~~~~r~~  204 (222)
+T 6YGI_C          162 TTTGTRKPRGLEPRRRKVKTTVVYGRRRSKSRERRAPTPQRAG  204 (222)
+T ss_dssp             -------------------------------------------
+T ss_pred             cCCCccCCCCCCccccccceeeeeccccccCcccCCCCCccCC
+Confidence            345555444333322222322222 455556555554444433
+
+
+No 5
+>6YGH_D Capsid protein; duck hepatitis B core protein;{Hepatitis B virus duck/DHBV-16}
+Probab=46.74  E-value=1e+02  Score=31.22  Aligned_cols=13  Identities=62%  Similarity=0.833  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CCCCCCCCCCCCC
+Q sp|Q96IZ7|RSRC   98 RSRSKSRTRRSRS  110 (334)
+Q Consensus        98 rsrsksrtrrsrs  110 (334)
+                      |.||||+.|+..+
+T Consensus       227 rrrskS~~Rr~~s  239 (262)
+T 6YGH_D          227 RRRSKSRERRAPT  239 (262)
+T ss_dssp             -------------
+T ss_pred             cccccCcccCCCC
+Confidence            4444555444433
+
+
+No 6
+>7C06_B U2AF/RNA Complex; pre-mRNA, splicing, intron, 3' splice; HET: ZN; 3.02A {Schizosaccharomyces pombe 972h-}
+Probab=42.05  E-value=89  Score=24.34  Aligned_cols=15  Identities=33%  Similarity=0.410  Sum_probs=10.5  Template_Neff=6.200
+
+Q ss_pred             CCccccCCCHHHHHHH
+Q sp|Q96IZ7|RSRC  170 IKAGLEHLPPAEQAKA  185 (334)
+Q Consensus       170 ikaglehlppaeqaka  185 (334)
+                      .-.|+|++++ +|||.
+T Consensus        46 ~PpGfE~vta-~~aK~   60 (69)
+T 7C06_B           46 KPPGYELVTA-DQAKM   60 (69)
+T ss_dssp             CCTTCTTCCH-HHHHH
+T ss_pred             CCCCcccCCH-HHhHh
+Confidence            4678999876 56653
+
+
+No 7
+>4YH8_B Splicing factor U2AF 23 kDa; Splicing, RRM, Zn-finger, 3' splice; 1.7A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=27.31  E-value=2.2e+02  Score=22.46  Aligned_cols=15  Identities=33%  Similarity=0.410  Sum_probs=10.1  Template_Neff=6.100
+
+Q ss_pred             CCccccCCCHHHHHHH
+Q sp|Q96IZ7|RSRC  170 IKAGLEHLPPAEQAKA  185 (334)
+Q Consensus       170 ikaglehlppaeqaka  185 (334)
+                      .-.|+|++++ +|||.
+T Consensus        48 ~PpGfE~vta-~~AK~   62 (71)
+T 4YH8_B           48 KPPGYELVTA-DQAKM   62 (71)
+T ss_dssp             CCTTCTTCCH-HHHHH
+T ss_pred             CCCCcccCCh-HHhHh
+Confidence            3578888876 56653
+
+
+No 8
+>6WXH_D Outer membrane protein TolC, Colicin-E1; antibiotic efflux, bacteriocin, TRANSPORT PROTEIN; 3.09A {Escherichia coli (strain K12)}
+Probab=26.47  E-value=3.1e+02  Score=26.12  Aligned_cols=20  Identities=30%  Similarity=0.513  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             HHHHHHHHHHhcHHHHHHhH
+Q sp|Q96IZ7|RSRC  196 KADEALKAKERNEEEAKRRK  215 (334)
+Q Consensus       196 kadealkakerneeeakrrk  215 (334)
+                      .+.++++.++|.++|+.++.
+T Consensus       145 ~a~~a~q~aer~~eE~~r~~  164 (198)
+T 6WXH_D          145 AAEKAFQEAEQRRKEIEREK  164 (198)
+T ss_dssp             --------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            34456666777777776654
+
+
+No 9
+>7OOP_S transcription, DNA repair, TCR;{Sus scrofa}
+Probab=25.50  E-value=2e+02  Score=29.69  Aligned_cols=8  Identities=25%  Similarity=0.136  Sum_probs=2.9  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCC
+Q sp|Q96IZ7|RSRC   67 RHRSSSSS   74 (334)
+Q Consensus        67 rhrsssss   74 (334)
+                      .+++++|+
+T Consensus      1096 ~~~~~~~~ 1103 (1173)
+T 7OOP_S         1096 PSGSEQSD 1103 (1173)
+T ss_pred             CCCCcccc
+Confidence            33333333
+
+
+No 10
+>5MPD_W 26S proteasome regulatory subunit RPN10; Macromolecular complex, 26S proteasome, Protease; 4.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=21.89  E-value=3e+02  Score=22.96  Aligned_cols=8  Identities=38%  Similarity=0.621  Sum_probs=3.8  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHH
+Q sp|Q96IZ7|RSRC  187 LQLVLEAA  194 (334)
+Q Consensus       187 lqlvleaa  194 (334)
+                      |++-||-.
+T Consensus       232 l~~s~~e~  239 (268)
+T 5MPD_W          232 LRLSMEEE  239 (268)
+T ss_pred             HhhCHHHH
+Confidence            45555443
+
+
+No 11
+>6J2X_W Proteasome subunit beta type-1 (E.C.3.4.25.1); Proteasome, K48-Ub4, Ub-bound, cryo-EM, HYDROLASE;{Saccharomyces cerevisiae S288c}
+Probab=21.89  E-value=3e+02  Score=22.96  Aligned_cols=8  Identities=38%  Similarity=0.621  Sum_probs=3.8  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHH
+Q sp|Q96IZ7|RSRC  187 LQLVLEAA  194 (334)
+Q Consensus       187 lqlvleaa  194 (334)
+                      |++-||-.
+T Consensus       232 l~~s~~e~  239 (268)
+T 6J2X_W          232 LRLSMEEE  239 (268)
+T ss_pred             HhhCHHHH
+Confidence            45555443
+
+

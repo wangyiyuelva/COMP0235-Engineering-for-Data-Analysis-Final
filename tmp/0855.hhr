@@ -1,0 +1,167 @@
+Query         tr|K7ENV2|K7ENV2_HUMAN
+Match_columns 128
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:52:00 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0855.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1G91_A chemokine, cytokine, MP  30.6      93   0.001   18.7   1.9   21    4-25      1-21  (77)
+  2 2MFP_A EC protein I/II; Metall  20.1 1.5E+02  0.0016   19.3   1.5   14   39-52     15-28  (31)
+  3 2WJS_A LAMININ SUBUNIT ALPHA-2  19.6 5.7E+02  0.0062   20.0   4.6   15  101-115   588-602 (608)
+  4 6NCL_l4 PBCV-1 capsid; tape-me   9.7 2.7E+02   0.003   22.1   0.7   13   32-44     71-83  (98)
+  5 7CGP_J Mitochondrial import in   9.2 2.8E+02  0.0031   19.2   0.5   17   97-113    85-101 (103)
+  6 6NCL_a7 PBCV-1 capsid; tape-me   8.8   3E+02  0.0033   23.3   0.7   13   32-44    101-113 (151)
+  7 7AOR_au mL94, mL89, Ribosomal    8.1 4.2E+02  0.0046   19.6   1.1   10   33-42    234-243 (247)
+  8 4HDJ_A Outer membrane protein    7.1   1E+03   0.011   16.1   2.4   32   74-105     4-35  (367)
+  9 2L0Z_A glycoprotein G2; zinc-b   6.5 7.3E+02  0.0079   17.3   1.5   17    2-18      7-28  (42)
+ 10 2MGS_B C-X-C motif chemokine 5   6.0 5.8E+02  0.0063   15.2   0.8   15    7-21      6-20  (78)
+
+No 1
+>1G91_A chemokine, cytokine, MPIF-1, CKb8, CCL23; NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=30.63  E-value=93  Score=18.68  Aligned_cols=21  Identities=14%  Similarity=0.472  Sum_probs=14.1  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCCCCCcccCCCcccc
+Q tr|K7ENV2|K7EN    4 LHGAPKPHASCSCMKLSSTVVR   25 (128)
+Q Consensus         4 lhgapkphascscmklsstvvr   25 (128)
+                      |||...|...| |.+.+...+.
+T Consensus         1 ~~~~~~~~~~C-C~~~~~~~i~   21 (77)
+T 1G91_A            1 MDRFHATSADC-CISYTPRSIP   21 (77)
+T ss_dssp             CCCCSSSCCCS-CCCBCCSCCC
+T ss_pred             CCccccccccC-CcCCCCCCCC
+Confidence            46666666788 9888775443
+
+
+No 2
+>2MFP_A EC protein I/II; Metallothionein, Metal-thiolate cluster, Backbone cyclized; HET: CD; NMR {Triticum aestivum}
+Probab=20.13  E-value=1.5e+02  Score=19.26  Aligned_cols=14  Identities=57%  Similarity=1.085  Sum_probs=9.4  Template_Neff=2.600
+
+Q ss_pred             CCccceecCCCCCC
+Q tr|K7ENV2|K7EN   39 AGMACRCTSRPSTG   52 (128)
+Q Consensus        39 agmacrctsrpstg   52 (128)
+                      .|.+|||++..+-|
+T Consensus        15 Gg~sCRCt~~~~gg   28 (31)
+T 2MFP_A           15 GGTGCRCTSARSGG   28 (31)
+T ss_dssp             SSTTCTTSSCSSCC
+T ss_pred             CCCcceeccccCCC
+Confidence            46788997755444
+
+
+No 3
+>2WJS_A LAMININ SUBUNIT ALPHA-2; INTEGRIN, SECRETED, COILED COIL, GLYCOPROTEIN; HET: NAG; 2.8A {MUS MUSCULUS}
+Probab=19.60  E-value=5.7e+02  Score=19.97  Aligned_cols=15  Identities=40%  Similarity=0.474  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|K7ENV2|K7EN  101 TSTTAPTPGKGPSVA  115 (128)
+Q Consensus       101 tsttaptpgkgpsva  115 (128)
+                      +.++.|+|+.+|..|
+T Consensus       588 ~~~~~p~~~~~~~~~  602 (608)
+T 2WJS_A          588 FPFPAPTMVHGPAAA  602 (608)
+T ss_dssp             ---------------
+T ss_pred             CCCCCCCCCCCcccc
+Confidence            344566777776554
+
+
+No 4
+>6NCL_l4 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=9.70  E-value=2.7e+02  Score=22.11  Aligned_cols=13  Identities=31%  Similarity=0.698  Sum_probs=11.3  Template_Neff=2.400
+
+Q ss_pred             cCCCCCCCCccce
+Q tr|K7ENV2|K7EN   32 SVGTGPRAGMACR   44 (128)
+Q Consensus        32 svgtgpragmacr   44 (128)
+                      -.|+|...||.||
+T Consensus        71 y~G~Gd~tGl~Cr   83 (98)
+T 6NCL_l4          71 YLGYGDFTGAICK   83 (98)
+T ss_pred             CCCcCCcccceec
+Confidence            3599999999997
+
+
+No 5
+>7CGP_J Mitochondrial import inner membrane translocase; human mitochondrial translocase TIM22 complex; HET: PEE;{Homo sapiens}
+Probab=9.15  E-value=2.8e+02  Score=19.23  Aligned_cols=17  Identities=35%  Similarity=0.501  Sum_probs=0.4  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|K7ENV2|K7EN   97 KPAWTSTTAPTPGKGPS  113 (128)
+Q Consensus        97 kpawtsttaptpgkgps  113 (128)
+                      +.+-...+++.||+.|+
+T Consensus        85 ~~~~~~~~~~~~~~~~~  101 (103)
+T 7CGP_J           85 ASAVPGVAAEQPGVSPS  101 (103)
+T ss_dssp             C----------------
+T ss_pred             HhcCCccccCCCCCCCC
+Confidence            34445566677777665
+
+
+No 6
+>6NCL_a7 PBCV-1 capsid; tape-measure protein, minor capsid proteins; 3.5A {Paramecium bursaria Chlorella virus 1}
+Probab=8.76  E-value=3e+02  Score=23.29  Aligned_cols=13  Identities=54%  Similarity=1.101  Sum_probs=11.4  Template_Neff=2.100
+
+Q ss_pred             cCCCCCCCCccce
+Q tr|K7ENV2|K7EN   32 SVGTGPRAGMACR   44 (128)
+Q Consensus        32 svgtgpragmacr   44 (128)
+                      -.|+|..+||.||
+T Consensus       101 y~GtG~~tGlrCr  113 (151)
+T 6NCL_a7         101 FFGTGPFTGLRCR  113 (151)
+T ss_pred             CCCCCCcccceec
+Confidence            3699999999997
+
+
+No 7
+>7AOR_au mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: GTP, UTP;{Trypanosoma cruzi (strain CL Brener)}
+Probab=8.13  E-value=4.2e+02  Score=19.63  Aligned_cols=10  Identities=40%  Similarity=0.700  Sum_probs=5.6  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCcc
+Q tr|K7ENV2|K7EN   33 VGTGPRAGMA   42 (128)
+Q Consensus        33 vgtgpragma   42 (128)
+                      -+.|||+||-
+T Consensus       234 ~~~~~~~~~~  243 (247)
+T 7AOR_au         234 PEEGPRQNMP  243 (247)
+T ss_pred             CCCCCccCCC
+Confidence            3446666663
+
+
+No 8
+>4HDJ_A Outer membrane protein assembly factor; beta-propeller, beta-barrel assembly, PROTEIN BINDING; 1.85A {Pseudomonas aeruginosa}
+Probab=7.07  E-value=1e+03  Score=16.12  Aligned_cols=32  Identities=9%  Similarity=0.237  Sum_probs=17.1  Template_Neff=13.100
+
+Q ss_pred             CccCCCccCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7ENV2|K7EN   74 CTCAHTRVRSPSSATSVARPSEPKPAWTSTTA  105 (128)
+Q Consensus        74 ctcahtrvrspssatsvarpsepkpawtstta  105 (128)
+                      |+-.+-+.+.|........+..++..|+....
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~W~~~~~   35 (367)
+T 4HDJ_A            4 ASSNSKKELPPAELTDFKEEVVLSKQWSRSVG   35 (367)
+T ss_dssp             ---------CCCCCCCCCCCCCEEEEEEEECT
+T ss_pred             ccCCCCCCCCCcccccCCccccceeEeEEecC
+Confidence            33345667777777777777788888986543
+
+
+No 9
+>2L0Z_A glycoprotein G2; zinc-binding domain, virus envelope glycoprotein; HET: ACE, ZN; NMR {N/A}
+Probab=6.49  E-value=7.3e+02  Score=17.32  Aligned_cols=17  Identities=41%  Similarity=0.905  Sum_probs=10.4  Template_Neff=2.300
+
+Q ss_pred             CCCCCCCCCC-----CCCCccc
+Q tr|K7ENV2|K7EN    2 IKLHGAPKPH-----ASCSCMK   18 (128)
+Q Consensus         2 iklhgapkph-----ascscmk   18 (128)
+                      |.-.+-||||     +-|+|-.
+T Consensus         7 I~G~~CPkPHRL~~~~~C~CG~   28 (42)
+T 2L0Z_A            7 IRGEACPLPHRLNSLGGCRCGK   28 (42)
+T ss_dssp             CSSSSCCTTSCCCTTSSBTTTT
+T ss_pred             cCCCCCCCCcccccCCcccCCC
+Confidence            3445778888     3466643
+
+
+No 10
+>2MGS_B C-X-C motif chemokine 5; chemokine, ENA78, Neutrophil activating chemokine; NMR {Homo sapiens}
+Probab=6.00  E-value=5.8e+02  Score=15.25  Aligned_cols=15  Identities=20%  Similarity=0.518  Sum_probs=9.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCcccCCC
+Q tr|K7ENV2|K7EN    7 APKPHASCSCMKLSS   21 (128)
+Q Consensus         7 apkphascscmklss   21 (128)
+                      +......|.|++.+.
+T Consensus         6 ~~~~~~~C~C~~~~~   20 (78)
+T 2MGS_B            6 AVLRELRCVCLQTTQ   20 (78)
+T ss_dssp             --CCCCCCSCSSCCC
+T ss_pred             hhcccCCeEeccccC
+Confidence            344455688888776
+
+

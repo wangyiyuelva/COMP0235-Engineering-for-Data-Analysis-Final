@@ -1,0 +1,170 @@
+Query         tr|C9K0U4|C9K0U4_HUMAN
+Match_columns 75
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 04:01:40 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0274.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1TVT_A TRANSCRIPTION REGULATIO  19.3   1E+02  0.0011   21.4   0.7   12   29-40     18-29  (75)
+  2 2QOR_A Guanylate kinase; phosp  15.7      94   0.001   17.7  -0.1   25   21-45     10-35  (204)
+  3 2GD9_A Hypothetical protein yy  14.5 4.2E+02  0.0046   16.6   2.5   32    6-39    129-160 (189)
+  4 1KVE_C SMK TOXIN; TOXIN, HALOT  14.3      69 0.00075   21.8  -1.0   23   19-41      6-28  (63)
+  5 2QDJ_A Retinoblastoma-associat  13.2 2.7E+02  0.0029   20.7   1.6   19    3-21    266-284 (304)
+  6 2PEY_A Bifunctional 3'-phospho  12.3 1.4E+02  0.0015   16.3  -0.1   23   24-46      5-29  (179)
+  7 2PEZ_B Bifunctional 3'-phospho  12.3 1.4E+02  0.0015   16.3  -0.1   22   25-46      6-29  (179)
+  8 1KAG_A Shikimate kinase I (E.C  11.1   2E+02  0.0021   15.8   0.3   25   21-45      2-27  (173)
+  9 1KAG_B Shikimate kinase I (E.C  11.1   2E+02  0.0021   15.8   0.3   25   21-45      2-27  (173)
+ 10 3HR7_A Shikimate kinase (E.C.2  11.0 1.3E+02  0.0014   16.1  -0.4   21   25-45      8-30  (168)
+
+No 1
+>1TVT_A TRANSCRIPTION REGULATION; NMR {Equine infectious anemia virus} SCOP: j.40.1.1
+Probab=19.27  E-value=1e+02  Score=21.44  Aligned_cols=12  Identities=50%  Similarity=0.678  Sum_probs=9.4  Template_Neff=2.900
+
+Q ss_pred             eccccCcccccc
+Q tr|C9K0U4|C9K0   29 MGGVSGQSTVSG   40 (75)
+Q Consensus        29 mggvsgqstvsg   40 (75)
+                      .||++||+|-..
+T Consensus        18 ~~~~~~~~~~~~   29 (75)
+T 1TVT_A           18 SGGVPGQNTGGQ   29 (75)
+T ss_dssp             CSSCCCHHHHSS
+T ss_pred             cCCCCCCccCCC
+Confidence            489999998543
+
+
+No 2
+>2QOR_A Guanylate kinase; phosphotransferase, purine metabolism, Structural Genomics; HET: 5GP, POP, MSE; 1.8A {Plasmodium vivax}
+Probab=15.70  E-value=94  Score=17.68  Aligned_cols=25  Identities=20%  Similarity=0.278  Sum_probs=15.6  Template_Neff=12.600
+
+Q ss_pred             cccceeeeeccc-cCcccccccccch
+Q tr|C9K0U4|C9K0   21 QSSRTMVVMGGV-SGQSTVSGELQDS   45 (75)
+Q Consensus        21 qssrtmvvmggv-sgqstvsgelqds   45 (75)
+                      .+..+.+++|.. +|.||++..|...
+T Consensus        10 ~~~~~~~i~G~~gsGKst~~~~l~~~   35 (204)
+T 2QOR_A           10 ARIPPLVVCGPSGVGKGTLIKKVLSE   35 (204)
+T ss_dssp             CCCCCEEEECCTTSCHHHHHHHHHHH
+T ss_pred             ccCCCEEEECCCccCHHHHHHHHHHH
+Confidence            344555555532 5778988887654
+
+
+No 3
+>2GD9_A Hypothetical protein yyaP; Structural genomics, Joint Center for; HET: PO4, EDO, MSE; 2.3A {Bacillus subtilis}
+Probab=14.54  E-value=4.2e+02  Score=16.58  Aligned_cols=32  Identities=31%  Similarity=0.435  Sum_probs=23.0  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHcCCcccccccceeeeeccccCccccc
+Q tr|C9K0U4|C9K0    6 KLEGLFLKCGGIDEMQSSRTMVVMGGVSGQSTVS   39 (75)
+Q Consensus         6 kleglflkcggidemqssrtmvvmggvsgqstvs   39 (75)
+                      .+-..|+..|-+||+.-...-++.|  +|.+.+.
+T Consensus       129 ~l~~~~l~~~l~de~~l~~~p~~~g--~g~~~~~  160 (189)
+T 2GD9_A          129 SLITTFINLGLVDEFRLSIHPVVLG--EGKPLFI  160 (189)
+T ss_dssp             HHHHHHHHTTCCCEEEEEECSEECS--SSEESSC
+T ss_pred             HHHHHHHHCCCCCEEEEEEEeeecc--CCcccCC
+Confidence            4567889999999998777777776  3444443
+
+
+No 4
+>1KVE_C SMK TOXIN; TOXIN, HALOTOLERANT YEAST; 1.8A {Pichia farinosa} SCOP: d.70.1.2
+Probab=14.27  E-value=69  Score=21.82  Aligned_cols=23  Identities=39%  Similarity=0.592  Sum_probs=20.1  Template_Neff=1.000
+
+Q ss_pred             cccccceeeeeccccCccccccc
+Q tr|C9K0U4|C9K0   19 EMQSSRTMVVMGGVSGQSTVSGE   41 (75)
+Q Consensus        19 emqssrtmvvmggvsgqstvsge   41 (75)
+                      .||.|.|.....|.||..|..|-
+T Consensus         6 rmqksttiaaiagcsgaatfggl   28 (63)
+T 1KVE_C            6 RMQKSTTIAAIAGCSGAATFGGL   28 (63)
+T ss_dssp             EEEEECCCCCBCCCSSCCCCTTC
+T ss_pred             eccccchHhhhhccchhHHHHhH
+Confidence            58999999999999999998663
+
+
+No 5
+>2QDJ_A Retinoblastoma-associated protein; cyclin fold, cyclin wedge, ANTITUMOR; HET: MSE; 2.0A {Homo sapiens}
+Probab=13.16  E-value=2.7e+02  Score=20.65  Aligned_cols=19  Identities=21%  Similarity=0.454  Sum_probs=15.1  Template_Neff=8.300
+
+Q ss_pred             HHHHHHHHHHHcCCccccc
+Q tr|C9K0U4|C9K0    3 IDDKLEGLFLKCGGIDEMQ   21 (75)
+Q Consensus         3 iddkleglflkcggidemq   21 (75)
+                      ++...|...++.|.+||..
+T Consensus       266 L~~~Ye~~~~~~gd~DER~  284 (304)
+T 2QDJ_A          266 LSKRYEEIYLKNKDLDARL  284 (304)
+T ss_dssp             HHHHHHHHHHHHTSCCGGG
+T ss_pred             HHHHHHHHHHhcCCccchh
+Confidence            4556778899999999973
+
+
+No 6
+>2PEY_A Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthetase 1; protein-nucleic acid complex, NMP-kinase fold; HET: DAT, ADX; 1.88A {Homo sapiens}
+Probab=12.26  E-value=1.4e+02  Score=16.25  Aligned_cols=23  Identities=30%  Similarity=0.471  Sum_probs=13.3  Template_Neff=13.000
+
+Q ss_pred             ceeeeeccc--cCcccccccccchh
+Q tr|C9K0U4|C9K0   24 RTMVVMGGV--SGQSTVSGELQDSV   46 (75)
+Q Consensus        24 rtmvvmggv--sgqstvsgelqdsv   46 (75)
+                      ...+++.|.  +|.||+...+....
+T Consensus         5 ~~~i~i~G~~g~GKst~~~~l~~~~   29 (179)
+T 2PEY_A            5 GCTVWLTGLSGAGKTTVSMALEEYL   29 (179)
+T ss_dssp             CEEEEEECCTTSSHHHHHHHHHHHH
+T ss_pred             ceEEEEECCCCCCHHHHHHHHHHHH
+Confidence            334444454  47788777666543
+
+
+No 7
+>2PEZ_B Bifunctional 3'-phosphoadenosine 5'-phosphosulfate synthetase 1; NMP-kinase fold, protein in complex; HET: DAT, GGZ; 1.4A {Homo sapiens}
+Probab=12.26  E-value=1.4e+02  Score=16.25  Aligned_cols=22  Identities=32%  Similarity=0.507  Sum_probs=12.9  Template_Neff=13.000
+
+Q ss_pred             eeeeeccc--cCcccccccccchh
+Q tr|C9K0U4|C9K0   25 TMVVMGGV--SGQSTVSGELQDSV   46 (75)
+Q Consensus        25 tmvvmggv--sgqstvsgelqdsv   46 (75)
+                      ..+++.|.  +|.||+...+....
+T Consensus         6 ~~i~i~G~~g~GKst~~~~l~~~~   29 (179)
+T 2PEZ_B            6 CTVWLTGLSGAGKTTVSMALEEYL   29 (179)
+T ss_dssp             EEEEEECCTTSSHHHHHHHHHHHH
+T ss_pred             eEEEEECCCCCCHHHHHHHHHHHH
+Confidence            34444454  47788777666543
+
+
+No 8
+>1KAG_A Shikimate kinase I (E.C.2.7.1.71); TRANSFERASE, Structural Genomics, PSI, Protein; 2.05A {Escherichia coli} SCOP: c.37.1.2
+Probab=11.10  E-value=2e+02  Score=15.80  Aligned_cols=25  Identities=24%  Similarity=0.481  Sum_probs=13.8  Template_Neff=12.700
+
+Q ss_pred             cccceeeeecc-ccCcccccccccch
+Q tr|C9K0U4|C9K0   21 QSSRTMVVMGG-VSGQSTVSGELQDS   45 (75)
+Q Consensus        21 qssrtmvvmgg-vsgqstvsgelqds   45 (75)
+                      ...+..+++|. -+|.||+...+...
+T Consensus         2 ~~~~~i~~~G~~gsGKst~~~~l~~~   27 (173)
+T 1KAG_A            2 AEKRNIFLVGPMGAGKSTIGRQLAQQ   27 (173)
+T ss_dssp             -CCCCEEEECCTTSCHHHHHHHHHHH
+T ss_pred             CCCCeEEEECCCCCCHHHHHHHHHHH
+Confidence            34444555553 36778877766543
+
+
+No 9
+>1KAG_B Shikimate kinase I (E.C.2.7.1.71); TRANSFERASE, Structural Genomics, PSI, Protein; 2.05A {Escherichia coli} SCOP: c.37.1.2
+Probab=11.10  E-value=2e+02  Score=15.80  Aligned_cols=25  Identities=24%  Similarity=0.481  Sum_probs=14.0  Template_Neff=12.700
+
+Q ss_pred             cccceeeeecc-ccCcccccccccch
+Q tr|C9K0U4|C9K0   21 QSSRTMVVMGG-VSGQSTVSGELQDS   45 (75)
+Q Consensus        21 qssrtmvvmgg-vsgqstvsgelqds   45 (75)
+                      ...+..+++|. -+|.||+...+...
+T Consensus         2 ~~~~~i~~~G~~gsGKst~~~~l~~~   27 (173)
+T 1KAG_B            2 AEKRNIFLVGPMGAGKSTIGRQLAQQ   27 (173)
+T ss_dssp             -CCCCEEEECCTTSCHHHHHHHHHHH
+T ss_pred             CCCCeEEEECCCCCCHHHHHHHHHHH
+Confidence            34444555553 36778877766543
+
+
+No 10
+>3HR7_A Shikimate kinase (E.C.2.7.1.71); three-layer alpha/beta fold, nucleoside monophosphate; HET: SO4; 1.8A {Helicobacter pylori}
+Probab=10.99  E-value=1.3e+02  Score=16.13  Aligned_cols=21  Identities=29%  Similarity=0.396  Sum_probs=13.0  Template_Neff=13.000
+
+Q ss_pred             eeeeecccc--Ccccccccccch
+Q tr|C9K0U4|C9K0   25 TMVVMGGVS--GQSTVSGELQDS   45 (75)
+Q Consensus        25 tmvvmggvs--gqstvsgelqds   45 (75)
+                      ..++..|.+  |.||+...|...
+T Consensus         8 ~~~~~~G~~gsGKst~~~~l~~~   30 (168)
+T 3HR7_A            8 QHLVLIGFMGSGKSSLAQELGLA   30 (168)
+T ss_dssp             CEEEEESCTTSSHHHHHHHHHHH
+T ss_pred             ceEEEECCCCCCHHHHHHHHHHH
+Confidence            344455554  778888777643
+
+

@@ -1,0 +1,440 @@
+Query         tr|M0R0U5|M0R0U5_HUMAN
+Match_columns 15
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:29:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1214.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NRO_B Chaperone protein DnaK,  68.6     6.3 6.9E-05   16.1   0.9   12    3-14     97-108 (108)
+  2 4BIF_E CUPIN 2 CONSERVED BARRE  66.6     6.4 6.9E-05   17.1   0.7    7    1-7       1-7   (156)
+  3 3Q84_H Protein kinase C and ca  50.8      18  0.0002   17.0   0.8    8    4-11      2-9   (295)
+  4 7AAL_A pyogenic arthritis, pyo  46.8      17 0.00018   17.1   0.4   11    1-11      7-17  (292)
+  5 7MBF_B aldo-keto reductase, op  40.0      20 0.00022   17.5   0.1    8    5-12    318-325 (326)
+  6 6XJ1_B Cell division control p  36.6      23 0.00025   16.6  -0.0   10    3-12      3-12  (294)
+  7 5U0K_A Glutaminase liver isofo  35.1      51 0.00055   12.0   0.8    8    3-10      2-9   (141)
+  8 5U0K_E Glutaminase liver isofo  35.1      51 0.00055   12.0   0.8    8    3-10      2-9   (141)
+  9 6CGA_B Ubiquitin carboxyl-term  33.5      14 0.00015   17.8  -1.0    8    6-13    124-131 (134)
+ 10 6CGA_D Ubiquitin carboxyl-term  33.5      14 0.00015   17.8  -1.0    8    6-13    124-131 (134)
+ 11 6U42_5Q Tubulin beta, Tubulin   32.5      67 0.00073   14.7   1.1   13    1-13      1-13  (197)
+ 12 4JG9_A Lipoprotein; Structural  30.7      38 0.00041   17.7   0.2    6    7-12     93-98  (174)
+ 13 3F8L_B GntR-family protein tra  28.3      73 0.00079   14.3   0.9    9    1-9       1-9   (201)
+ 14 3F8L_C GntR-family protein tra  28.3      73 0.00079   14.3   0.9    9    1-9       1-9   (201)
+ 15 7AAM_B pyogenic arthritis, pyo  27.4      63 0.00069   15.2   0.6   10    2-11      8-17  (292)
+ 16 3I2W_A Syndapin; EFC, FBAR, SH  26.9      83  0.0009   14.7   1.0    7    6-12      2-8   (290)
+ 17 3I2W_B Syndapin; EFC, FBAR, SH  26.9      83  0.0009   14.7   1.0    7    6-12      2-8   (290)
+ 18 7CNR_C DUF521 domain-containin  26.8      50 0.00055   19.5   0.3   11    3-13    120-131 (386)
+ 19 7CNS_A DUF521 domain-containin  26.8      50 0.00055   19.5   0.3    9    4-12    121-130 (386)
+ 20 3ABH_A Protein kinase C and ca  23.4 1.1E+02  0.0012   14.7   1.0   10    2-11     19-28  (312)
+ 21 3ABH_B Protein kinase C and ca  23.4 1.1E+02  0.0012   14.7   1.0   10    2-11     19-28  (312)
+ 22 2MPV_A Major fimbrial subunit   23.2      45 0.00049   19.0  -0.3    9    7-15     43-51  (145)
+ 23 7E34_C Telomere, Meiosis, Kina  22.0      58 0.00063   13.9  -0.0    6    5-10     21-26  (46)
+ 24 6JSH_C Fatty acid synthase sub  21.5      43 0.00046   14.8  -0.5    8    2-9      64-71  (71)
+ 25 6JSI_I Fatty acid synthase sub  21.5      43 0.00046   14.8  -0.5    8    2-9      64-71  (71)
+ 26 2V0O_A FCH DOMAIN ONLY PROTEIN  20.8   1E+02  0.0011   14.4   0.6    9    4-12      8-16  (276)
+ 27 2V0O_C FCH DOMAIN ONLY PROTEIN  20.8   1E+02  0.0011   14.4   0.6    9    4-12      8-16  (276)
+
+No 1
+>5NRO_B Chaperone protein DnaK, Chaperone protein; DnaK, DnaJ, chaperone, Hsp70, Hsp40; HET: ATP; 3.25A {Escherichia coli}
+Probab=68.56  E-value=6.3  Score=16.08  Aligned_cols=12  Identities=42%  Similarity=0.800  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|M0R0U5|M0R0    3 YFGEHFWGEKNH   14 (15)
+Q Consensus         3 yfgehfwgeknh   14 (15)
+                      .|+++|||.+.|
+T Consensus        97 ~~~~~~~~~~~~  108 (108)
+T 5NRO_B           97 VFGDIFGGGSSH  108 (108)
+T ss_dssp             ------------
+T ss_pred             HhccccCCCCCC
+Confidence            356667887655
+
+
+No 2
+>4BIF_E CUPIN 2 CONSERVED BARREL DOMAIN; LYASE, METAL-DEPENDENT, MANDELONITRILE, SITE-DIRECTED MUTAGENESIS; 2.46A {GRANULICELLA TUNDRICOLA}
+Probab=66.58  E-value=6.4  Score=17.09  Aligned_cols=7  Identities=57%  Similarity=1.160  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCCC
+Q tr|M0R0U5|M0R0    1 MSYFGEH    7 (15)
+Q Consensus         1 msyfgeh    7 (15)
+                      |||++++
+T Consensus         1 ~~~~~~~    7 (156)
+T 4BIF_E            1 MSYYHHH    7 (156)
+T ss_dssp             -------
+T ss_pred             CCccccc
+Confidence            6777664
+
+
+No 3
+>3Q84_H Protein kinase C and casein; Alpha helix, Cytoplasmic vesicle, Endocytosis; HET: MSE; 2.8A {Homo sapiens}
+Probab=50.77  E-value=18  Score=16.97  Aligned_cols=8  Identities=25%  Similarity=0.738  Sum_probs=6.8  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    4 FGEHFWGE   11 (15)
+Q Consensus         4 fgehfwge   11 (15)
+                      |.++|||.
+T Consensus         2 ~~~~fw~~    9 (295)
+T 3Q84_H            2 TTDSFWEV    9 (295)
+T ss_dssp             CTTCTTST
+T ss_pred             CCCCcccC
+Confidence            67899987
+
+
+No 4
+>7AAL_A pyogenic arthritis, pyoderma gangrenosum and; 1.97A {Homo sapiens}
+Probab=46.76  E-value=17  Score=17.06  Aligned_cols=11  Identities=27%  Similarity=0.685  Sum_probs=7.3  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|M0R0U5|M0R0    1 MSYFGEHFWGE   11 (15)
+Q Consensus         1 msyfgehfwge   11 (15)
+                      |+.|.+.||+.
+T Consensus         7 ~~~f~~~fw~~   17 (292)
+T 7AAL_A            7 QLQFKDAFWCR   17 (292)
+T ss_dssp             -CCHHHHBCCS
+T ss_pred             Ccchhhccccc
+Confidence            34577889984
+
+
+No 5
+>7MBF_B aldo-keto reductase, opium poppy, Benzylisoquinoline; 2.4A {Papaver somniferum}
+Probab=40.01  E-value=20  Score=17.52  Aligned_cols=8  Identities=63%  Similarity=1.302  Sum_probs=4.6  Template_Neff=10.800
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    5 GEHFWGEK   12 (15)
+Q Consensus         5 gehfwgek   12 (15)
+                      .++||+++
+T Consensus       318 ~~~~~~~~  325 (326)
+T 7MBF_B          318 EEEFWDEK  325 (326)
+T ss_dssp             HHHHSCC-
+T ss_pred             hhhhhcCC
+Confidence            35677775
+
+
+No 6
+>6XJ1_B Cell division control protein 15; Cell division control protein 15; 3.52A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=36.63  E-value=23  Score=16.63  Aligned_cols=10  Identities=50%  Similarity=1.298  Sum_probs=7.5  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R0U5|M0R0    3 YFGEHFWGEK   12 (15)
+Q Consensus         3 yfgehfwgek   12 (15)
+                      -|.+.||+.+
+T Consensus         3 ~f~~~fw~~~   12 (294)
+T 6XJ1_B            3 KFRDNFWGSK   12 (294)
+T ss_dssp             -CTTCCCCSS
+T ss_pred             chhHhccCCc
+Confidence            4889999874
+
+
+No 7
+>5U0K_A Glutaminase liver isoform, mitochondrial (E.C.3.5.1.2); Glutaminase, ankyrin, human, GLS2, HYDROLASE; 2.548A {Homo sapiens}
+Probab=35.11  E-value=51  Score=12.01  Aligned_cols=8  Identities=13%  Similarity=-0.010  Sum_probs=0.0  Template_Neff=13.700
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    3 YFGEHFWG   10 (15)
+Q Consensus         3 yfgehfwg   10 (15)
+                      ||-++||.
+T Consensus         2 ~~~~~~~~    9 (141)
+T 5U0K_A            2 HHHHHHSS    9 (141)
+T ss_dssp             --------
+T ss_pred             CCCccccC
+Confidence            45555553
+
+
+No 8
+>5U0K_E Glutaminase liver isoform, mitochondrial (E.C.3.5.1.2); Glutaminase, ankyrin, human, GLS2, HYDROLASE; 2.548A {Homo sapiens}
+Probab=35.11  E-value=51  Score=12.01  Aligned_cols=8  Identities=13%  Similarity=-0.010  Sum_probs=0.0  Template_Neff=13.700
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    3 YFGEHFWG   10 (15)
+Q Consensus         3 yfgehfwg   10 (15)
+                      ||-++||.
+T Consensus         2 ~~~~~~~~    9 (141)
+T 5U0K_E            2 HHHHHHSS    9 (141)
+T ss_dssp             --------
+T ss_pred             CCCccccC
+Confidence            45555553
+
+
+No 9
+>6CGA_B Ubiquitin carboxyl-terminal hydrolase calypso (E.C.3.4.19.12); DUB complex, nucleosome binding protein; 3.5A {Drosophila melanogaster}
+Probab=33.50  E-value=14  Score=17.78  Aligned_cols=8  Identities=88%  Similarity=1.701  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    6 EHFWGEKN   13 (15)
+Q Consensus         6 ehfwgekn   13 (15)
+                      |.+||+|.
+T Consensus       124 E~~WG~k~  131 (134)
+T 6CGA_B          124 EPFWGEKN  131 (134)
+T ss_dssp             --------
+T ss_pred             HHHhhccc
+Confidence            67899874
+
+
+No 10
+>6CGA_D Ubiquitin carboxyl-terminal hydrolase calypso (E.C.3.4.19.12); DUB complex, nucleosome binding protein; 3.5A {Drosophila melanogaster}
+Probab=33.50  E-value=14  Score=17.78  Aligned_cols=8  Identities=88%  Similarity=1.701  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    6 EHFWGEKN   13 (15)
+Q Consensus         6 ehfwgekn   13 (15)
+                      |.+||+|.
+T Consensus       124 E~~WG~k~  131 (134)
+T 6CGA_D          124 EPFWGEKN  131 (134)
+T ss_dssp             --------
+T ss_pred             HHHhhccc
+Confidence            67899874
+
+
+No 11
+>6U42_5Q Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=32.52  E-value=67  Score=14.71  Aligned_cols=13  Identities=38%  Similarity=0.838  Sum_probs=8.2  Template_Neff=10.600
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|M0R0U5|M0R0    1 MSYFGEHFWGEKN   13 (15)
+Q Consensus         1 msyfgehfwgekn   13 (15)
+                      |+.||--.+|.+|
+T Consensus         1 ~~~~g~t~~~~~~   13 (197)
+T 6U42_5Q           1 MSFFGLTSFGPQD   13 (197)
+T ss_pred             CCcccceecCCCC
+Confidence            6777766666544
+
+
+No 12
+>4JG9_A Lipoprotein; Structural Genomics, NIAID, National Institute; HET: MSE; 2.425A {Bacillus anthracis}
+Probab=30.75  E-value=38  Score=17.68  Aligned_cols=6  Identities=17%  Similarity=0.274  Sum_probs=4.5  Template_Neff=7.000
+
+Q ss_pred             CCCCCC
+Q tr|M0R0U5|M0R0    7 HFWGEK   12 (15)
+Q Consensus         7 hfwgek   12 (15)
+                      ||||+.
+T Consensus        93 ~fWg~~   98 (174)
+T 4JG9_A           93 YFLDPE   98 (174)
+T ss_dssp             EECCTT
+T ss_pred             EECCCC
+Confidence            688874
+
+
+No 13
+>3F8L_B GntR-family protein transcriptional regulator; PhnF, GntR, HutC, transcription, regulator; HET: SO4, GOL; 1.9A {Mycobacterium smegmatis}
+Probab=28.35  E-value=73  Score=14.30  Aligned_cols=9  Identities=44%  Similarity=0.870  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCC
+Q tr|M0R0U5|M0R0    1 MSYFGEHFW    9 (15)
+Q Consensus         1 msyfgehfw    9 (15)
+                      |||+-.|.|
+T Consensus         1 ~~~~~~~~~    9 (201)
+T 3F8L_B            1 MSYYHHHHH    9 (201)
+T ss_dssp             ---------
+T ss_pred             CCccccccc
+Confidence            566665554
+
+
+No 14
+>3F8L_C GntR-family protein transcriptional regulator; PhnF, GntR, HutC, transcription, regulator; HET: SO4, GOL; 1.9A {Mycobacterium smegmatis}
+Probab=28.35  E-value=73  Score=14.30  Aligned_cols=9  Identities=44%  Similarity=0.870  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCC
+Q tr|M0R0U5|M0R0    1 MSYFGEHFW    9 (15)
+Q Consensus         1 msyfgehfw    9 (15)
+                      |||+-.|.|
+T Consensus         1 ~~~~~~~~~    9 (201)
+T 3F8L_C            1 MSYYHHHHH    9 (201)
+T ss_dssp             ---------
+T ss_pred             CCccccccc
+Confidence            566665554
+
+
+No 15
+>7AAM_B pyogenic arthritis, pyoderma gangrenosum and; HET: GOL; 2.15A {Homo sapiens}
+Probab=27.43  E-value=63  Score=15.17  Aligned_cols=10  Identities=30%  Similarity=0.787  Sum_probs=6.6  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R0U5|M0R0    2 SYFGEHFWGE   11 (15)
+Q Consensus         2 syfgehfwge   11 (15)
+                      +-|.+.||+.
+T Consensus         8 ~~f~~~~w~~   17 (292)
+T 7AAM_B            8 LQFKDAFWCR   17 (292)
+T ss_dssp             CCHHHHBCCS
+T ss_pred             cccccccccc
+Confidence            3466778873
+
+
+No 16
+>3I2W_A Syndapin; EFC, FBAR, SH3 domain, ENDOCYTOSIS; HET: GOL, MSE; 2.67A {Drosophila melanogaster}
+Probab=26.90  E-value=83  Score=14.70  Aligned_cols=7  Identities=29%  Similarity=1.014  Sum_probs=5.2  Template_Neff=11.500
+
+Q ss_pred             CCCCCCC
+Q tr|M0R0U5|M0R0    6 EHFWGEK   12 (15)
+Q Consensus         6 ehfwgek   12 (15)
+                      +.|||+.
+T Consensus         2 ~~~w~~~    8 (290)
+T 3I2W_A            2 DSFWEPG    8 (290)
+T ss_dssp             CCTTSTT
+T ss_pred             CCccCCC
+Confidence            5799864
+
+
+No 17
+>3I2W_B Syndapin; EFC, FBAR, SH3 domain, ENDOCYTOSIS; HET: GOL, MSE; 2.67A {Drosophila melanogaster}
+Probab=26.90  E-value=83  Score=14.70  Aligned_cols=7  Identities=29%  Similarity=1.014  Sum_probs=5.2  Template_Neff=11.500
+
+Q ss_pred             CCCCCCC
+Q tr|M0R0U5|M0R0    6 EHFWGEK   12 (15)
+Q Consensus         6 ehfwgek   12 (15)
+                      +.|||+.
+T Consensus         2 ~~~w~~~    8 (290)
+T 3I2W_B            2 DSFWEPG    8 (290)
+T ss_dssp             CCTTSTT
+T ss_pred             CCccCCC
+Confidence            5799864
+
+
+No 18
+>7CNR_C DUF521 domain-containing protein, UPF0107 protein; mevalonate 5-phosphate dehydratase, LYASE; HET: F3S; 3.39A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=26.81  E-value=50  Score=19.52  Aligned_cols=11  Identities=45%  Similarity=1.223  Sum_probs=6.8  Template_Neff=6.600
+
+Q ss_pred             CCCCCC-CCCCC
+Q tr|M0R0U5|M0R0    3 YFGEHF-WGEKN   13 (15)
+Q Consensus         3 yfgehf-wgekn   13 (15)
+                      -||||+ |+|.|
+T Consensus       120 ~~Geh~aw~ESs  131 (386)
+T 7CNR_C          120 KFGDHIAWSESS  131 (386)
+T ss_dssp             CTTCBCBCCCHH
+T ss_pred             CCCCeeEEecCc
+Confidence            367775 77643
+
+
+No 19
+>7CNS_A DUF521 domain-containing protein, UPF0107 protein; mevalonate 5-phosphate dehydratase, LYASE; HET: PMV; 1.902A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=26.81  E-value=50  Score=19.52  Aligned_cols=9  Identities=56%  Similarity=1.538  Sum_probs=5.7  Template_Neff=6.600
+
+Q ss_pred             CCCCC-CCCC
+Q tr|M0R0U5|M0R0    4 FGEHF-WGEK   12 (15)
+Q Consensus         4 fgehf-wgek   12 (15)
+                      ||||+ |+|.
+T Consensus       121 ~Geh~aw~ES  130 (386)
+T 7CNS_A          121 FGDHIAWSES  130 (386)
+T ss_dssp             TTCBCEECSH
+T ss_pred             CCCeeEEecC
+Confidence            67775 6664
+
+
+No 20
+>3ABH_A Protein kinase C and casein; helix bundle, coiled-coil, Endocytosis; HET: MSE; 2.0A {Homo sapiens}
+Probab=23.35  E-value=1.1e+02  Score=14.72  Aligned_cols=10  Identities=20%  Similarity=0.591  Sum_probs=5.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R0U5|M0R0    2 SYFGEHFWGE   11 (15)
+Q Consensus         2 syfgehfwge   11 (15)
+                      ..|...||+.
+T Consensus        19 ~~~~~~~w~~   28 (312)
+T 3ABH_A           19 EVSSDSFWEV   28 (312)
+T ss_dssp             ----CCTTST
+T ss_pred             ccCCCCccCC
+Confidence            4578899984
+
+
+No 21
+>3ABH_B Protein kinase C and casein; helix bundle, coiled-coil, Endocytosis; HET: MSE; 2.0A {Homo sapiens}
+Probab=23.35  E-value=1.1e+02  Score=14.72  Aligned_cols=10  Identities=20%  Similarity=0.591  Sum_probs=5.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R0U5|M0R0    2 SYFGEHFWGE   11 (15)
+Q Consensus         2 syfgehfwge   11 (15)
+                      ..|...||+.
+T Consensus        19 ~~~~~~~w~~   28 (312)
+T 3ABH_B           19 EVSSDSFWEV   28 (312)
+T ss_dssp             ----CCTTST
+T ss_pred             ccCCCCccCC
+Confidence            4578899984
+
+
+No 22
+>2MPV_A Major fimbrial subunit of aggregative; AAF, EAEC, Biofilm, PROTEIN BINDING; NMR {Escherichia coli}
+Probab=23.24  E-value=45  Score=18.99  Aligned_cols=9  Identities=67%  Similarity=1.431  Sum_probs=6.5  Template_Neff=3.200
+
+Q ss_pred             CCCCCCCCC
+Q tr|M0R0U5|M0R0    7 HFWGEKNHG   15 (15)
+Q Consensus         7 hfwgeknhg   15 (15)
+                      ++|||-+++
+T Consensus        43 ~~WGeG~~~   51 (145)
+T 2MPV_A           43 KAWGEANHG   51 (145)
+T ss_dssp             EEECSSTTS
+T ss_pred             EEEeccccC
+Confidence            688887654
+
+
+No 23
+>7E34_C Telomere, Meiosis, Kinase, CELL CYCLE; 3.19A {Homo sapiens}
+Probab=21.98  E-value=58  Score=13.91  Aligned_cols=6  Identities=67%  Similarity=1.841  Sum_probs=4.7  Template_Neff=6.500
+
+Q ss_pred             CCCCCC
+Q tr|M0R0U5|M0R0    5 GEHFWG   10 (15)
+Q Consensus         5 gehfwg   10 (15)
+                      -.||||
+T Consensus        21 vd~~wG   26 (46)
+T 7E34_C           21 VDHFWG   26 (46)
+T ss_pred             ccceee
+Confidence            368998
+
+
+No 24
+>6JSH_C Fatty acid synthase subunit beta; co-purified, ACP domains, AT domains; 5.1A {Saccharomyces cerevisiae}
+Probab=21.50  E-value=43  Score=14.80  Aligned_cols=8  Identities=25%  Similarity=0.879  Sum_probs=5.8  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    2 SYFGEHFW    9 (15)
+Q Consensus         2 syfgehfw    9 (15)
+                      +++|..||
+T Consensus        64 ~~wgn~Fw   71 (71)
+T 6JSH_C           64 QQWGNDFY   71 (71)
+T ss_dssp             TTTTTTCC
+T ss_pred             HHhccccC
+Confidence            46777787
+
+
+No 25
+>6JSI_I Fatty acid synthase subunit beta; co-purified, ACP domains, AT domains; 4.7A {Saccharomyces cerevisiae}
+Probab=21.50  E-value=43  Score=14.80  Aligned_cols=8  Identities=25%  Similarity=0.879  Sum_probs=5.7  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R0U5|M0R0    2 SYFGEHFW    9 (15)
+Q Consensus         2 syfgehfw    9 (15)
+                      +++|..||
+T Consensus        64 ~~wgn~Fw   71 (71)
+T 6JSI_I           64 QQWGNDFY   71 (71)
+T ss_dssp             TTTTTSCC
+T ss_pred             HHhccccC
+Confidence            46777777
+
+
+No 26
+>2V0O_A FCH DOMAIN ONLY PROTEIN 2; LIPID-BINDING PROTEIN, EFC DOMAIN, VESICLE; HET: ACT; 2.3A {HOMO SAPIENS}
+Probab=20.80  E-value=1e+02  Score=14.39  Aligned_cols=9  Identities=78%  Similarity=1.593  Sum_probs=5.6  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCC
+Q tr|M0R0U5|M0R0    4 FGEHFWGEK   12 (15)
+Q Consensus         4 fgehfwgek   12 (15)
+                      |.+.||+..
+T Consensus         8 ~~~~f~~~~   16 (276)
+T 2V0O_A            8 FVENFWGEK   16 (276)
+T ss_dssp             HHHHBCCTT
+T ss_pred             cHHhcCCCC
+Confidence            445688754
+
+
+No 27
+>2V0O_C FCH DOMAIN ONLY PROTEIN 2; LIPID-BINDING PROTEIN, EFC DOMAIN, VESICLE; HET: ACT; 2.3A {HOMO SAPIENS}
+Probab=20.80  E-value=1e+02  Score=14.39  Aligned_cols=9  Identities=78%  Similarity=1.593  Sum_probs=5.6  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCC
+Q tr|M0R0U5|M0R0    4 FGEHFWGEK   12 (15)
+Q Consensus         4 fgehfwgek   12 (15)
+                      |.+.||+..
+T Consensus         8 ~~~~f~~~~   16 (276)
+T 2V0O_C            8 FVENFWGEK   16 (276)
+T ss_dssp             HHHHSCCTT
+T ss_pred             cHHhcCCCC
+Confidence            445688754
+
+

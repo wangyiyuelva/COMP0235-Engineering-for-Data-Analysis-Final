@@ -1,0 +1,315 @@
+Query         tr|A0A7P0T8N3|A0A7P0T8N3_HUMAN
+Match_columns 53
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:00:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1606.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1V8O_G PIN-domain, SeMet subst  40.3      58 0.00063   18.3   1.9   19   30-48      3-21  (158)
+  2 1EL6_A STRUCTURE OF BACTERIOPH  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  3 5IV5_AF Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  4 5IV5_AG Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  5 5IV5_AH Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  6 5IV5_CI Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  7 5IV5_CJ Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  8 5IV5_DA Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+  9 5IV5_FB Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 10 5IV5_FC Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 11 5IV5_FD Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 12 5IV5_HE Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 13 5IV5_HF Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 14 5IV5_HG Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 15 5IV5_L Baseplate wedge protein  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 16 5IV5_M Baseplate wedge protein  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 17 5IV5_N Baseplate wedge protein  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 18 5IV7_BB Baseplate wedge protei  26.1      44 0.00048   24.5  -0.0    9   28-36    187-195 (219)
+ 19 7RRO_I cilia, microtubule, dyn  23.0      13 0.00015   25.1  -2.8   33    2-34    180-212 (274)
+ 20 7RRO_N cilia, microtubule, dyn  23.0      13 0.00015   25.1  -2.8   33    2-34    180-212 (274)
+
+No 1
+>1V8O_G PIN-domain, SeMet substituted, STRUCTURAL GENOMICS; HET: MSE; 2.8A {Pyrobaculum aerophilum} SCOP: c.120.1.1
+Probab=40.26  E-value=58  Score=18.28  Aligned_cols=19  Identities=11%  Similarity=-0.209  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCccccCCCCCCccccCCC
+Q tr|A0A7P0T8N3|   30 GYGTWNSGTNRGMTLMSPA   48 (53)
+Q Consensus        30 gygtwnsgtnrgmtlmspa   48 (53)
+                      ||++|+...++++.-+...
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~   21 (158)
+T 1V8O_G            3 YYHHHHHHDYDIPTTENLY   21 (158)
+T ss_dssp             -------------------
+T ss_pred             CccccccCCCCCCCCCCcc
+Confidence            6778888877777665544
+
+
+No 2
+>1EL6_A STRUCTURE OF BACTERIOPHAGE T4 GENE; beta annulus, coiled coil, a; 2.0A {Enterobacteria phage T4} SCOP: d.182.1.1
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.2  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 1EL6_A          187 KPGYGTWNL  195 (219)
+T ss_dssp             BCCCSCEEE
+T ss_pred             CCcceeEEE
+Confidence            469999973
+
+
+No 3
+>5IV5_AF Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_AF         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 4
+>5IV5_AG Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_AG         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 5
+>5IV5_AH Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_AH         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 6
+>5IV5_CI Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_CI         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 7
+>5IV5_CJ Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_CJ         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 8
+>5IV5_DA Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_DA         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 9
+>5IV5_FB Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_FB         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 10
+>5IV5_FC Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_FC         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 11
+>5IV5_FD Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_FD         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 12
+>5IV5_HE Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_HE         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 13
+>5IV5_HF Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_HF         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 14
+>5IV5_HG Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_HG         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 15
+>5IV5_L Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.2  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_L          187 KPGYGTWNL  195 (219)
+T ss_dssp             BCCCSCEEE
+T ss_pred             CCcceeEEE
+Confidence            469999973
+
+
+No 16
+>5IV5_M Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.2  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_M          187 KPGYGTWNL  195 (219)
+T ss_dssp             BCCCSCEEE
+T ss_pred             CCcceeEEE
+Confidence            469999973
+
+
+No 17
+>5IV5_N Baseplate wedge protein gp6, Baseplate; T4, baseplate-tail tube complex, pre-attachment; 4.11A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.2  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV5_N          187 KPGYGTWNL  195 (219)
+T ss_dssp             BCCCSCEEE
+T ss_pred             CCcceeEEE
+Confidence            469999973
+
+
+No 18
+>5IV7_BB Baseplate wedge protein gp6, Baseplate; T4, baseplate, post-attachment, bacteriophage, bacterial; 6.77A {Enterobacteria phage T4}
+Probab=26.08  E-value=44  Score=24.51  Aligned_cols=9  Identities=67%  Similarity=1.361  Sum_probs=7.4  Template_Neff=5.000
+
+Q ss_pred             ccCCccccC
+Q tr|A0A7P0T8N3|   28 DYGYGTWNS   36 (53)
+Q Consensus        28 dygygtwns   36 (53)
+                      .+|||+|.-
+T Consensus       187 k~GYG~W~~  195 (219)
+T 5IV7_BB         187 KPGYGTWNL  195 (219)
+T ss_pred             CCcceeEEE
+Confidence            579999974
+
+
+No 19
+>7RRO_I cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=23.00  E-value=13  Score=25.10  Aligned_cols=33  Identities=21%  Similarity=0.326  Sum_probs=28.1  Template_Neff=8.400
+
+Q ss_pred             CCcCccCCCCcccccccCCCCCCCccccCCccc
+Q tr|A0A7P0T8N3|    2 SYTGFVQGSETTLQSTYSDTSAQPTCDYGYGTW   34 (53)
+Q Consensus         2 sytgfvqgsettlqstysdtsaqptcdygygtw   34 (53)
+                      .|||||-+.+..+-.+|...+.+.-|++.-...
+T Consensus       180 GYtG~VP~~~~~~G~ty~~~t~~al~~F~~~~~  212 (274)
+T 7RRO_I          180 GFTGYVPRARFLFGSSFPVLSNQALQEFGEMKS  212 (274)
+T ss_pred             cccccCChHHHHhcCCCchHHHHHHHHHHHhcC
+Confidence            489999999999999999999888888766554
+
+
+No 20
+>7RRO_N cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=23.00  E-value=13  Score=25.10  Aligned_cols=33  Identities=21%  Similarity=0.326  Sum_probs=28.1  Template_Neff=8.400
+
+Q ss_pred             CCcCccCCCCcccccccCCCCCCCccccCCccc
+Q tr|A0A7P0T8N3|    2 SYTGFVQGSETTLQSTYSDTSAQPTCDYGYGTW   34 (53)
+Q Consensus         2 sytgfvqgsettlqstysdtsaqptcdygygtw   34 (53)
+                      .|||||-+.+..+-.+|...+.+.-|++.-...
+T Consensus       180 GYtG~VP~~~~~~G~ty~~~t~~al~~F~~~~~  212 (274)
+T 7RRO_N          180 GFTGYVPRARFLFGSSFPVLSNQALQEFGEMKS  212 (274)
+T ss_pred             cccccCChHHHHhcCCCchHHHHHHHHHHHhcC
+Confidence            489999999999999999999888888766554
+
+

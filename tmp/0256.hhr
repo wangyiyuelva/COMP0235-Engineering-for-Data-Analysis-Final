@@ -1,0 +1,494 @@
+Query         sp|O15258|RER1_HUMAN
+Match_columns 196
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:46:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0256.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5AWW_Y Protein translocase sub  89.1      11 0.00012   33.1  10.0   26   63-90    309-334 (444)
+  2 4V6M_BA PROTEIN/RNA Complex; R  83.4      49 0.00053   29.3  10.8   21   63-83    308-328 (435)
+  3 2ZQP_Y TRANSLOCON, SEC, PROTEI  74.1      99  0.0011   27.4   9.9   27   62-90    308-334 (434)
+  4 3DIN_C Protein translocase sub  72.8      60 0.00065   28.9   8.3   21   63-83    304-324 (431)
+  5 5GAE_g 50S ribosomal protein L  68.9 1.2E+02  0.0013   27.0   9.3   25   63-89    315-339 (443)
+  6 6A70_B Polycystin-2, Polycysti  48.9 4.7E+02  0.0051   26.6  11.1    8  163-170   686-693 (1153)
+  7 4ZKJ_B CRISPR-associated prote  42.6      97  0.0011   25.6   4.3   38   78-115   190-230 (291)
+  8 2WW9_A SEC SIXTY-ONE PROTEIN H  42.4 4.5E+02  0.0049   24.5   9.5   79   62-145   363-448 (490)
+  9 2WWA_A SEC SIXTY-ONE PROTEIN H  42.4 4.5E+02  0.0049   24.5   9.5   77   62-144   363-447 (490)
+ 10 5EUL_Y SecA, SecY, SecE, AYC08  38.5 4.4E+02  0.0048   23.4  12.6   75   63-140   303-381 (424)
+ 11 6ITC_Y Protein translocase sub  38.5 4.4E+02  0.0048   23.4  12.6   73   63-140   303-381 (424)
+ 12 2WWB_A PROTEIN TRANSPORT PROTE  36.4 5.5E+02   0.006   23.8   9.8   78   62-145   357-442 (476)
+ 13 3J7Q_1 PROTEIN/RNA Complex; ma  36.4 5.5E+02   0.006   23.8   9.8   76   62-143   357-440 (476)
+ 14 6M97_A Chimera protein of High  33.8 3.4E+02  0.0037   21.1   5.7   40   44-83    174-213 (234)
+ 15 5XPD_A sugar transporter; SWEE  32.8   4E+02  0.0043   21.1  10.8   62   21-82    146-213 (293)
+ 16 2AKH_B Protein-export membrane  30.6 6.1E+02  0.0066   22.5  10.6   25   64-90    280-304 (400)
+ 17 2AKI_Y Protein-export membrane  30.6 6.1E+02  0.0066   22.5  10.6   25   64-90    280-304 (400)
+ 18 5XVP_D CRISPR-associated endon  29.4 2.1E+02  0.0023   23.3   4.2   35   80-114   189-226 (288)
+ 19 5OQT_C Amino acid transporter,  29.2 2.1E+02  0.0023   19.7   3.5   15   74-88     16-30  (31)
+ 20 3DL8_H SecA, SecG, SecY, SecE;  24.0 8.4E+02  0.0091   22.0  11.9   25   64-90    310-334 (429)
+ 21 6FTJ_x Uncharacterized protein  23.2 8.9E+02  0.0097   22.0   8.4   21   63-83    319-339 (426)
+ 22 6YKM_G Chemotaxis protein MotA  22.9 2.2E+02  0.0023   23.1   3.2   22  134-161    17-38  (291)
+ 23 5CTG_B Bidirectional sugar tra  21.2 5.7E+02  0.0062   19.0   7.7   48   21-68    147-195 (224)
+ 24 5CTG_C Bidirectional sugar tra  21.2 5.7E+02  0.0062   19.0   7.7   48   21-68    147-195 (224)
+ 25 7DCE_X XKR8, basigin, scrambla  21.0 4.5E+02  0.0049   23.9   5.0   22   67-88    325-346 (405)
+ 26 7KAM_A Protein transport chann  20.4 1.1E+03   0.012   22.0   8.7   78   62-145   357-442 (480)
+
+No 1
+>5AWW_Y Protein translocase subunit SecY, Protein; translocon, membrane protein, PROTEIN TRANSPORT-IMMUNE; HET: OLC; 2.724A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=89.10  E-value=11  Score=33.12  Aligned_cols=26  Identities=12%  Similarity=0.074  Sum_probs=19.4  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHCCCCChh
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFLSPKVDPS   90 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiaflspkvdps   90 (196)
+                      -+|++.|++-+.-++.+.+++.  .||.
+T Consensus       309 ~~~~~~~~~li~~fs~~~~~~~--~~p~  334 (444)
+T 5AWW_Y          309 PSGLFIEVLLVILFTYVYTAVQ--FDPK  334 (444)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH--SCHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhc--CCHH
+Confidence            4677888888888888777766  6664
+
+
+No 2
+>4V6M_BA PROTEIN/RNA Complex; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, NUCLEOTIDE-BINDING, PROTEIN; HET: PEV, PGV; 7.1A {Escherichia coli}
+Probab=83.43  E-value=49  Score=29.25  Aligned_cols=21  Identities=29%  Similarity=0.504  Sum_probs=13.6  Template_Neff=8.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFL   83 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiafl   83 (196)
+                      -++++.|++.+.-++.+.+++
+T Consensus       308 ~~~~~~~~~li~~~s~~~~~~  328 (435)
+T 4V6M_BA         308 PLYVLLYASAIIFFCFFYTAL  328 (435)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHh
+Confidence            456667777777777666544
+
+
+No 3
+>2ZQP_Y TRANSLOCON, SEC, PROTEIN-CONDUCTING-CHANNEL, Membrane, Protein; 6.0A {Thermus thermophilus}
+Probab=74.05  E-value=99  Score=27.44  Aligned_cols=27  Identities=11%  Similarity=0.090  Sum_probs=19.1  Template_Neff=8.700
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHHCCCCChh
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFLSPKVDPS   90 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiaflspkvdps   90 (196)
+                      .-+|++.|++-+.-++.+.+++.  .||.
+T Consensus       308 ~~~~~~~~~~li~~~s~~~~~~~--~~p~  334 (434)
+T 2ZQP_Y          308 RPSGLFIEVLLVILFTYVYTAVQ--FDPK  334 (434)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHTTTS--SHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHcc--CCHH
+Confidence            34677888888887777776655  6664
+
+
+No 4
+>3DIN_C Protein translocase subunit secA, Preprotein; protein translocation, membrane protein, ATPase; HET: ADP; 4.5A {Thermotoga maritima MSB8}
+Probab=72.82  E-value=60  Score=28.87  Aligned_cols=21  Identities=19%  Similarity=0.535  Sum_probs=12.3  Template_Neff=8.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFL   83 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiafl   83 (196)
+                      -+|++.|++-+.-++.+.+++
+T Consensus       304 ~~~~~~~~~l~~~~s~~~~~~  324 (431)
+T 3DIN_C          304 FLYLLIYGLLVFFFTYFYSVV  324 (431)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHh
+Confidence            355666666666666554444
+
+
+No 5
+>5GAE_g 50S ribosomal protein L2, 50S; ribosome, translocon; HET: MG; 3.33A {Escherichia coli}
+Probab=68.88  E-value=1.2e+02  Score=26.97  Aligned_cols=25  Identities=28%  Similarity=0.533  Sum_probs=18.1  Template_Neff=8.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHCCCCCh
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFLSPKVDP   89 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiaflspkvdp   89 (196)
+                      -++++.|++-++-++.+.+++  ..||
+T Consensus       315 ~~~~~~y~~li~~~s~~~~~~--~~~p  339 (443)
+T 5GAE_g          315 PLYVLLYASAIIFFCFFYTAL--VFNP  339 (443)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH--HCCH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHh--cCCH
+Confidence            567777888888888877766  3555
+
+
+No 6
+>6A70_B Polycystin-2, Polycystin-1; Asymmetric complex, polycystic kidney disease; 3.6A {Homo sapiens}
+Probab=48.89  E-value=4.7e+02  Score=26.56  Aligned_cols=8  Identities=25%  Similarity=0.430  Sum_probs=3.7  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHH
+Q sp|O15258|RER1  163 KRQIKHMI  170 (196)
+Q Consensus       163 krqikhmi  170 (196)
+                      .+.|+...
+T Consensus       686 ~~~i~~~~  693 (1153)
+T 6A70_B          686 QSAIKQEL  693 (1153)
+T ss_dssp             HHHHHHHS
+T ss_pred             HHHHHHhh
+Confidence            44455443
+
+
+No 7
+>4ZKJ_B CRISPR-associated protein Cas1; CRISPR, Cas, UNKNOWN FUNCTION; HET: GOL, MSE; 2.25A {Streptococcus pyogenes M1 476}
+Probab=42.58  E-value=97  Score=25.57  Aligned_cols=38  Identities=11%  Similarity=0.193  Sum_probs=25.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHCCCCChhh---CCCCCCCCCCCCCCCccChhHHhc
+Q sp|O15258|RER1   78 LFIAFLSPKVDPSL---MEDSDDGPSLPTKQNEEFRPFIRR  115 (196)
+Q Consensus        78 lfiaflspkvdpsl---medsddgpslptkqneefrpfirr  115 (196)
+                      ...+...-..||.+   ..+....+||...--|+|||++.+
+T Consensus       190 i~~~l~~~GLdP~~G~lH~~~~~~~sL~~Dl~E~fRp~vD~  230 (291)
+T 4ZKJ_B          190 FAREVVVSGCMTQFGLKHANQFNQFNFASDIMEPFRPLVDK  230 (291)
+T ss_dssp             HHHHHHHHTCCTTCCSSCCSSCCTTHHHHHHHGGGHHHHHH
+T ss_pred             HHHHHHHcCCCcccccccCCCCCCcccccccccchHHHHHH
+Confidence            33444445667765   455556678888888999996653
+
+
+No 8
+>2WW9_A SEC SIXTY-ONE PROTEIN HOMOLOG, PROTEIN; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, TRANSMEMBRANE, PHOSPHOPROTEIN; 8.6A {SACCHAROMYCES CEREVISIAE}
+Probab=42.39  E-value=4.5e+02  Score=24.54  Aligned_cols=79  Identities=11%  Similarity=0.102  Sum_probs=43.1  Template_Neff=8.000
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHH---CCCCChhh----CCCCCCCCCCCCCCCccChhHHhcChHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFL---SPKVDPSL----MEDSDDGPSLPTKQNEEFRPFIRRLPEFKFWHAATKGILVAMV  134 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiafl---spkvdpsl----medsddgpslptkqneefrpfirrlpefkfwhaatkgilvamv  134 (196)
+                      +.++++.|++-+.-+..+.++.   ....||.-    +..+.|  .+|....++-+.++++   .-...+...++.++.+
+T Consensus       363 ~~~~~~~y~~l~~~l~~~Fs~~~~~~~~~~p~~va~~l~k~g~--~I~girp~~t~~~L~~---~i~~~~~~g~~~l~ll  437 (490)
+T 2WW9_A          363 QPLTFITYSAFILVTGIWFADKWQAISGSSARDVALEFKDQGI--TLMGRREQNVAKELNK---VIPIAAVTGASVLSLI  437 (490)
+T ss_dssp             CSHHHHHHHHHHHHHHHHHHHHHHHSCSSCHHHHHHHHHHHHH--TSSSCCCCCSTTHHHH---HHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHcCC--ccCCCChHHHHHHHHH---HHHHHHHHHHHHHHHH
+Confidence            4566778888777777766665   12355532    222222  2332211233333333   2334555667788888
+
+
+Q ss_pred             HHHHHHcCCCC
+Q sp|O15258|RER1  135 CTFFDAFNVPV  145 (196)
+Q Consensus       135 ctffdafnvpv  145 (196)
+                      |..-+.++...
+T Consensus       438 ~~~p~~~~~~~  448 (490)
+T 2WW9_A          438 TVIGESLGLKG  448 (490)
+T ss_dssp             HHHHHHHSCCS
+T ss_pred             HHHHHHHhhcc
+Confidence            88888887764
+
+
+No 9
+>2WWA_A SEC SIXTY-ONE PROTEIN HOMOLOG, PROTEIN; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, TRANSMEMBRANE, PHOSPHOPROTEIN; 8.9A {SACCHAROMYCES CEREVISIAE}
+Probab=42.39  E-value=4.5e+02  Score=24.54  Aligned_cols=77  Identities=13%  Similarity=0.185  Sum_probs=38.2  Template_Neff=8.000
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHH---CCCCChhhC----CCCCCCCCCCCCCCccChhHHhc-ChHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFL---SPKVDPSLM----EDSDDGPSLPTKQNEEFRPFIRR-LPEFKFWHAATKGILVAM  133 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiafl---spkvdpslm----edsddgpslptkqneefrpfirr-lpefkfwhaatkgilvam  133 (196)
+                      +.++++.|++-+.-+..+.++.   ....||.-+    ..+.|  .+|....++-+.++++ ++.    .+...++.++.
+T Consensus       363 ~~~~~~~y~~l~~~l~~~Fs~~~~~~~~~~p~~va~~l~k~g~--~I~girp~~t~~~L~~~i~~----~~~~g~~~l~l  436 (490)
+T 2WWA_A          363 QPLTFITYSAFILVTGIWFADKWQAISGSSARDVALEFKDQGI--TLMGRREQNVAKELNKVIPI----AAVTGASVLSL  436 (490)
+T ss_dssp             CSHHHHHHHHHHHHHHHHTHHHHHHSSSSCHHHHHHHHHHHHH--SSSSCCCCCSTTTTTTTSHH----HHSGGGTSHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHcCC--ccCCCChHHHHHHHHHHHHH----HHHHHHHHHHH
+Confidence            4566777877777676666655   123555322    22211  2222111223333333 333    34445666777
+
+
+Q ss_pred             HHHHHHHcCCC
+Q sp|O15258|RER1  134 VCTFFDAFNVP  144 (196)
+Q Consensus       134 vctffdafnvp  144 (196)
+                      +|..-+.++..
+T Consensus       437 l~~~p~~~~~~  447 (490)
+T 2WWA_A          437 ITVIGESLGLK  447 (490)
+T ss_dssp             HHHHHHHHBCC
+T ss_pred             HHHHHHHHhhc
+Confidence            77666666654
+
+
+No 10
+>5EUL_Y SecA, SecY, SecE, AYC08; SecY, SecA, ATPase, channel, PROTEIN; HET: ADP, TBR; 3.7A {Bacillus subtilis (strain 168)}
+Probab=38.55  E-value=4.4e+02  Score=23.36  Aligned_cols=75  Identities=16%  Similarity=0.262  Sum_probs=34.8  Template_Neff=8.900
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHC--CCCChhhCCCCCCCCCCCCC-CCccChhHH-hcChHHHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFLS--PKVDPSLMEDSDDGPSLPTK-QNEEFRPFI-RRLPEFKFWHAATKGILVAMVCTFF  138 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiafls--pkvdpslmedsddgpslptk-qneefrpfi-rrlpefkfwhaatkgilvamvctff  138 (196)
+                      -++++.|++-++-++.+.+++.  ||---+.+..++  -.+|.. ..++-+.++ +.++...++.+..-+++ +.+..++
+T Consensus       303 ~~~~~~~~~l~~~~s~~~~~~~~~p~~ia~~l~~~g--~~i~g~~pG~~T~~~l~~~~~~~~~~g~l~l~~l-~~~~~~~  379 (424)
+T 5EUL_Y          303 PVGMTIYVVLIIAFTYFYAFVQVNPEQMADNLKKQG--GYIPGIRPGKNTQEYVTRILYRLTLVGSLFLAFI-AVLPVFF  379 (424)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHSCSTHHHHHHHHSS--CCCTTSCSSHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhcCCHHHHHHHHHHCC--CCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+Confidence            3566677777777776655543  222223333333  345533 234444455 33444444444333322 2334445
+
+
+Q ss_pred             HH
+Q sp|O15258|RER1  139 DA  140 (196)
+Q Consensus       139 da  140 (196)
+                      +.
+T Consensus       380 ~~  381 (424)
+T 5EUL_Y          380 VN  381 (424)
+T ss_dssp             TT
+T ss_pred             HH
+Confidence            44
+
+
+No 11
+>6ITC_Y Protein translocase subunit SecA, Protein; SecA, SecY, Translocation, Cryo-EM, PROTEIN; HET: ADP, PGV, GYS; 3.45A {Bacillus subtilis (strain 168)}
+Probab=38.55  E-value=4.4e+02  Score=23.36  Aligned_cols=73  Identities=19%  Similarity=0.337  Sum_probs=37.5  Template_Neff=8.900
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHCCCCChh----hCCCCCCCCCCCCC-CCccChhHH-hcChHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFLSPKVDPS----LMEDSDDGPSLPTK-QNEEFRPFI-RRLPEFKFWHAATKGILVAMVCT  136 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiaflspkvdps----lmedsddgpslptk-qneefrpfi-rrlpefkfwhaatkgilvamvct  136 (196)
+                      -++++.|++-++-++.+.+++.  .||.    .+..+  |-.+|.. ..++-+.++ +.++...++.+..-+++ +.+..
+T Consensus       303 ~~~~~~~~~l~~~~s~~~~~~~--~~p~~ia~~l~~~--g~~i~g~~pG~~T~~~l~~~~~~~~~~g~l~l~~l-~~~~~  377 (424)
+T 6ITC_Y          303 PVGMTIYVVLIIAFTYFYAFVQ--VNPEQMADNLKKQ--GGYIPGIRPGKNTQEYVTRILYRLTLVGSLFLAFI-AVLPV  377 (424)
+T ss_dssp             TTHHHHHHHHHHHHHHHHHHHH--TCHHHHHHHHHHT--SCBCTTSCTTTHHHHHHHHHHHHHHHHHHHHHHHH-HHTTH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhc--CCHHHHHHHHHHC--CCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHH-HHHHH
+Confidence            4677778777777777666654  6653    33333  2344432 234444555 33455555554443333 22334
+
+
+Q ss_pred             HHHH
+Q sp|O15258|RER1  137 FFDA  140 (196)
+Q Consensus       137 ffda  140 (196)
+                      +++.
+T Consensus       378 ~~~~  381 (424)
+T 6ITC_Y          378 FFVN  381 (424)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+Confidence            4444
+
+
+No 12
+>2WWB_A PROTEIN TRANSPORT PROTEIN SEC61 SUBUNIT; RIBOSOME, PROTEIN EXIT TUNNEL, COTRANSLATIONAL; 6.48A {CANIS LUPUS FAMILIARIS}
+Probab=36.44  E-value=5.5e+02  Score=23.83  Aligned_cols=78  Identities=9%  Similarity=0.108  Sum_probs=42.0  Template_Neff=8.100
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHHC---CCCChh----hCCCCCCCCCCCCCCCccChhHHhc-ChHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFLS---PKVDPS----LMEDSDDGPSLPTKQNEEFRPFIRR-LPEFKFWHAATKGILVAM  133 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiafls---pkvdps----lmedsddgpslptkqneefrpfirr-lpefkfwhaatkgilvam  133 (196)
+                      .-+|++.|++-+..++.+.+++-   ...||.    .+.++.|  .+|.....+-..+++| ++...++    .++.++.
+T Consensus       357 ~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia~~l~k~g~--~I~girpg~~t~~L~~~i~~~~~~----g~l~l~~  430 (476)
+T 2WWB_A          357 DPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKEQQM--VMRGHRETSMVHELNRYIPTAAAF----GGLCIGA  430 (476)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHTTTSSCCHHHHHHHHHHHCT--TTCCCCTTTTTHHHHHHHHHHHHH----HHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHCCC--ccCCcCCChhHHHHHhhHhHHHHH----HHHHHHH
+Confidence            34789999999999999888862   123443    2322222  3333222221134433 3333333    4566666
+
+
+Q ss_pred             HHHHHHHcCCCC
+Q sp|O15258|RER1  134 VCTFFDAFNVPV  145 (196)
+Q Consensus       134 vctffdafnvpv  145 (196)
+                      ++..-+.++.++
+T Consensus       431 la~lp~~~~~~~  442 (476)
+T 2WWB_A          431 LSVLADFLGAIG  442 (476)
+T ss_dssp             HHHHHHHHCCSS
+T ss_pred             HHHHHHHHHHhc
+Confidence            666666666653
+
+
+No 13
+>3J7Q_1 PROTEIN/RNA Complex; mammalian, Sec61, translocation, translation, RIBOSOME; HET: MG; 3.5A {Sus scrofa}
+Probab=36.44  E-value=5.5e+02  Score=23.83  Aligned_cols=76  Identities=12%  Similarity=0.156  Sum_probs=39.4  Template_Neff=8.100
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHH-------CCCCChhhCCCCCCCCCCCCCCCccChhHHhc-ChHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFL-------SPKVDPSLMEDSDDGPSLPTKQNEEFRPFIRR-LPEFKFWHAATKGILVAM  133 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiafl-------spkvdpslmedsddgpslptkqneefrpfirr-lpefkfwhaatkgilvam  133 (196)
+                      .-+|++.|++-+..++.+.+++       +|+--.+.+.++.|  .+|.....+-..+++| ++...++    .++.++.
+T Consensus       357 ~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia~~l~k~g~--~I~girpg~~t~~L~~~i~~~~~~----g~l~l~~  430 (476)
+T 3J7Q_1          357 DPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKEQQM--VMRGHRETSMVHELNRYIPTAAAF----GGLCIGA  430 (476)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHCCC--ccCCcCCChhHHHHHhhHhHHHHH----HHHHHHH
+Confidence            4578888888888888887775       45544444443333  3433222111123333 3333333    3455555
+
+
+Q ss_pred             HHHHHHHcCC
+Q sp|O15258|RER1  134 VCTFFDAFNV  143 (196)
+Q Consensus       134 vctffdafnv  143 (196)
+                      ++..-+.++.
+T Consensus       431 la~lp~~~~~  440 (476)
+T 3J7Q_1          431 LSVLADFLGA  440 (476)
+T ss_pred             HHHHHHHHHH
+Confidence            5555555554
+
+
+No 14
+>6M97_A Chimera protein of High affinity; Membrane proteins, Ion transporters, Ion; HET: TBR; 3.03A {Salmo salar}
+Probab=33.82  E-value=3.4e+02  Score=21.07  Aligned_cols=40  Identities=13%  Similarity=0.213  Sum_probs=30.3  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHchHHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   44 WVVTLGLSFVYMIRVYLLQGWYIVTYALGIYHLNLFIAFL   83 (196)
+Q Consensus        44 wvvtlglsfvymirvyllqgwyivtyalgiyhlnlfiafl   83 (196)
+                      ..+...+++..|+-+.-..+|+++...+|..--.++....
+T Consensus       174 ~~~~~~~~y~lML~vMt~n~~~~~av~~G~~~G~~~f~~~  213 (234)
+T 6M97_A          174 HVIQVVVSYFLMLVFMTYNAYLCMAVAAGAGLGYFLFSWK  213 (234)
+T ss_dssp             HHHHHHHHHHHHHHHHTCBHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHhcCc
+Confidence            4455677888888888999999999998876655555443
+
+
+No 15
+>5XPD_A sugar transporter; SWEETs sugar transporter complex, TRANSPORT; HET: DCM; 2.788A {Arabidopsis thaliana}
+Probab=32.82  E-value=4e+02  Score=21.13  Aligned_cols=62  Identities=15%  Similarity=0.227  Sum_probs=34.1  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHHHcCCChHHH-HHHHHHHHHHHHHHHHHHHHchHHH-----HHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   21 FFTRLGQIYQSWLDKSTPYTA-VRWVVTLGLSFVYMIRVYLLQGWYI-----VTYALGIYHLNLFIAF   82 (196)
+Q Consensus        21 fftrlgqiyqswldkstpyta-vrwvvtlglsfvymirvyllqgwyi-----vtyalgiyhlnlfiaf   82 (196)
+                      +..++-|+++.|-.|++..-. .-++..+..+....+-..+.+.|.+     +...+++..+.+.+.+
+T Consensus       146 ~~spl~qi~~~~r~k~~~~ls~~~~~~~~~~~~~w~~y~~~~~d~~~~~~~~~~~~l~~~~l~~~~~~  213 (293)
+T 5XPD_A          146 FAAPLSIMRVVVRTRSVEFMPFSLSLFLTINAVTWLFYGLAIKDFYVALPNVLGAFLGAVQMILYIIF  213 (293)
+T ss_dssp             THHHHHHHHHHHHHTCCTTSCHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HhhhHHHHHHHHHhCCcccccHHHHHHHHHHHHHHHHHHHHhccHHhHHHHHHHHHHHHHHHHHHHHH
+Confidence            356799999999999886532 2333334344444444444555543     3334444444444444
+
+
+No 16
+>2AKH_B Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=30.61  E-value=6.1e+02  Score=22.54  Aligned_cols=25  Identities=28%  Similarity=0.551  Sum_probs=13.5  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHCCCCChh
+Q sp|O15258|RER1   64 WYIVTYALGIYHLNLFIAFLSPKVDPS   90 (196)
+Q Consensus        64 wyivtyalgiyhlnlfiaflspkvdps   90 (196)
+                      ++++.|++-+.-++.+.++.  ..||.
+T Consensus       280 ~~~~~y~~li~~~~~~~~~~--~~~p~  304 (400)
+T 2AKH_B          280 LYVLLYASAIIFFCFFYTAL--VFNPR  304 (400)
+T ss_pred             HHHHHHHHHHHHHHHHHHHh--cCCHH
+Confidence            45556666666666555543  34553
+
+
+No 17
+>2AKI_Y Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=30.61  E-value=6.1e+02  Score=22.54  Aligned_cols=25  Identities=28%  Similarity=0.551  Sum_probs=13.5  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHCCCCChh
+Q sp|O15258|RER1   64 WYIVTYALGIYHLNLFIAFLSPKVDPS   90 (196)
+Q Consensus        64 wyivtyalgiyhlnlfiaflspkvdps   90 (196)
+                      ++++.|++-+.-++.+.++.  ..||.
+T Consensus       280 ~~~~~y~~li~~~~~~~~~~--~~~p~  304 (400)
+T 2AKI_Y          280 LYVLLYASAIIFFCFFYTAL--VFNPR  304 (400)
+T ss_pred             HHHHHHHHHHHHHHHHHHHh--cCCHH
+Confidence            45556666666666555543  34553
+
+
+No 18
+>5XVP_D CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; CRISPR, Cas, IMMUNE SYSTEM; 3.0A {Enterococcus faecalis TX0027}
+Probab=29.35  E-value=2.1e+02  Score=23.27  Aligned_cols=35  Identities=17%  Similarity=0.250  Sum_probs=23.6  Template_Neff=9.500
+
+Q ss_pred             HHHHCCCCChhh---CCCCCCCCCCCCCCCccChhHHh
+Q sp|O15258|RER1   80 IAFLSPKVDPSL---MEDSDDGPSLPTKQNEEFRPFIR  114 (196)
+Q Consensus        80 iaflspkvdpsl---medsddgpslptkqneefrpfir  114 (196)
+                      .+...-..||.+   ..+..+.+||...--|+|||++.
+T Consensus       189 ~~l~~~Gldp~~G~lH~~~~~~~sL~~Dl~E~fRp~vd  226 (288)
+T 5XVP_D          189 RELVQTGCFTQLGLKHANQFNDFNLASDLMEPFRPLVD  226 (288)
+T ss_dssp             HHHHHHTCCTTSCSSCCCTTCTTHHHHHHHGGGHHHHH
+T ss_pred             HHHHHccCccccCccCCCCCCCCChhhhcccchHHHHH
+Confidence            334444667766   45555667888888899998654
+
+
+No 19
+>5OQT_C Amino acid transporter, L-Alanine, Uncharacterized; SLC7, APC, LeuT fold, TRANSPORT; HET: CLR, OLC; 2.86A {Geobacillus kaustophilus (strain HTA426)}
+Probab=29.21  E-value=2.1e+02  Score=19.74  Aligned_cols=15  Identities=27%  Similarity=0.386  Sum_probs=11.2  Template_Neff=2.700
+
+Q ss_pred             HHHHHHHHHHCCCCC
+Q sp|O15258|RER1   74 YHLNLFIAFLSPKVD   88 (196)
+Q Consensus        74 yhlnlfiaflspkvd   88 (196)
+                      ..+.++.|++|+|-|
+T Consensus        16 ~~~GflAAy~S~KWd   30 (31)
+T 5OQT_C           16 LFSGFLAAYFSHKWD   30 (31)
+T ss_pred             HHHHHHHHHhccccC
+Confidence            445667789999976
+
+
+No 20
+>3DL8_H SecA, SecG, SecY, SecE; RecA-type ATPase membrane protein translocation; 7.5A {Bacillus subtilis}
+Probab=23.97  E-value=8.4e+02  Score=21.95  Aligned_cols=25  Identities=20%  Similarity=0.405  Sum_probs=14.2  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHCCCCChh
+Q sp|O15258|RER1   64 WYIVTYALGIYHLNLFIAFLSPKVDPS   90 (196)
+Q Consensus        64 wyivtyalgiyhlnlfiaflspkvdps   90 (196)
+                      +|++.|++-+.-++.+.+++.  .||.
+T Consensus       310 ~~~~~~~~li~~f~~~~~~~~--~~p~  334 (429)
+T 3DL8_H          310 FYNFLYVTFIVFFTYFYTAVL--INPV  334 (429)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhc--CCHH
+Confidence            556666666666665555443  4553
+
+
+No 21
+>6FTJ_x Uncharacterized protein, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: NAG, MG, BMA, 9UB, MAN; 4.7A {Oryctolagus cuniculus}
+Probab=23.22  E-value=8.9e+02  Score=22.00  Aligned_cols=21  Identities=14%  Similarity=0.007  Sum_probs=14.9  Template_Neff=8.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   63 GWYIVTYALGIYHLNLFIAFL   83 (196)
+Q Consensus        63 gwyivtyalgiyhlnlfiafl   83 (196)
+                      .+|++.|.+-+..++.+.+++
+T Consensus       319 ~~~~~~y~~li~~~~~~fs~~  339 (426)
+T 6FTJ_x          319 PVHAVVYIVFMLGSCAFFSKT  339 (426)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            467777777777777777654
+
+
+No 22
+>6YKM_G Chemotaxis protein MotA, putative, Chemotaxis; Bacterial flagellar motor, stator unit;{Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176)}
+Probab=22.93  E-value=2.2e+02  Score=23.10  Aligned_cols=22  Identities=32%  Similarity=0.700  Sum_probs=15.2  Template_Neff=9.700
+
+Q ss_pred             HHHHHHHcCCCCHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1  134 VCTFFDAFNVPVFWPILVMYFIMLFCIT  161 (196)
+Q Consensus       134 vctffdafnvpvfwpilvmyfimlfcit  161 (196)
+                      ++||-|      +.-+|+.+||||+.+.
+T Consensus        17 ~vtf~D------l~tLLlaFFvlL~s~s   38 (291)
+T 6YKM_G           17 AVPYAD------FLSLLLALFIALWAIS   38 (291)
+T ss_dssp             HHHHHH------HHHHHHHHHHHHHHTT
+T ss_pred             HHHHHH------HHHHHHHHHHHHHHHH
+Confidence            456666      3456777888888774
+
+
+No 23
+>5CTG_B Bidirectional sugar transporter SWEET2b (E.C.1-215); transport, membrane, TRANSPORT PROTEIN; HET: BNG, PE5, TRS; 3.103A {Oryza sativa subsp. japonica}
+Probab=21.25  E-value=5.7e+02  Score=18.99  Aligned_cols=48  Identities=17%  Similarity=0.180  Sum_probs=32.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHHHHHcCCChHHH-HHHHHHHHHHHHHHHHHHHHchHHHHH
+Q sp|O15258|RER1   21 FFTRLGQIYQSWLDKSTPYTA-VRWVVTLGLSFVYMIRVYLLQGWYIVT   68 (196)
+Q Consensus        21 fftrlgqiyqswldkstpyta-vrwvvtlglsfvymirvyllqgwyivt   68 (196)
+                      +...+.|+++.|-.|++..-. .-++..+..++...+--.+...|++..
+T Consensus       147 ~~~pl~qi~~~~~~k~~~~ls~~~~~~~~~~~~~w~~y~~~~~~~~~~~  195 (224)
+T 5CTG_B          147 FASPLAVMGVVIRSESVEFMPFYLSLSTFLMSASFALYGLLLRDFFIYF  195 (224)
+T ss_dssp             THHHHHHHHHHHHHTCCTTSCHHHHHHHHHHHHHHHHHHHHTTCHHHHH
+T ss_pred             HhhhHHHHHHHHHhCCcccCCHHHHHHHHHHHHHHHHHHHHccCHHHhc
+Confidence            345689999999888876533 335556666666666666666676543
+
+
+No 24
+>5CTG_C Bidirectional sugar transporter SWEET2b (E.C.1-215); transport, membrane, TRANSPORT PROTEIN; HET: BNG, PE5, TRS; 3.103A {Oryza sativa subsp. japonica}
+Probab=21.25  E-value=5.7e+02  Score=18.99  Aligned_cols=48  Identities=17%  Similarity=0.180  Sum_probs=32.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHHHHHcCCChHHH-HHHHHHHHHHHHHHHHHHHHchHHHHH
+Q sp|O15258|RER1   21 FFTRLGQIYQSWLDKSTPYTA-VRWVVTLGLSFVYMIRVYLLQGWYIVT   68 (196)
+Q Consensus        21 fftrlgqiyqswldkstpyta-vrwvvtlglsfvymirvyllqgwyivt   68 (196)
+                      +...+.|+++.|-.|++..-. .-++..+..++...+--.+...|++..
+T Consensus       147 ~~~pl~qi~~~~~~k~~~~ls~~~~~~~~~~~~~w~~y~~~~~~~~~~~  195 (224)
+T 5CTG_C          147 FASPLAVMGVVIRSESVEFMPFYLSLSTFLMSASFALYGLLLRDFFIYF  195 (224)
+T ss_dssp             THHHHHHHHHHHHHTCCTTSCHHHHHHHHHHHHHHHHHHHHTTCHHHHH
+T ss_pred             HhhhHHHHHHHHHhCCcccCCHHHHHHHHHHHHHHHHHHHHccCHHHhc
+Confidence            355689999999888876533 335556666666666666666676543
+
+
+No 25
+>7DCE_X XKR8, basigin, scramblase, phospholipid, TRANSPORT; HET: DLP; 3.8A {Homo sapiens}
+Probab=20.96  E-value=4.5e+02  Score=23.95  Aligned_cols=22  Identities=18%  Similarity=0.310  Sum_probs=14.9  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHCCCCC
+Q sp|O15258|RER1   67 VTYALGIYHLNLFIAFLSPKVD   88 (196)
+Q Consensus        67 vtyalgiyhlnlfiaflspkvd   88 (196)
+                      +.+.+|+.-+.+...++.|+..
+T Consensus       325 ~~~~lGll~~~~YY~~~HP~~~  346 (405)
+T 7DCE_X          325 GCFFLGLALRLVYYHWLHPSCC  346 (405)
+T ss_dssp             HHHHHHHHHHHHCCCCCSCSSC
+T ss_pred             HHHHHHHHHHHHHHHHhCCCCC
+Confidence            4466777666666677788764
+
+
+No 26
+>7KAM_A Protein transport channel Sec61 complex; Sec61, translocon, endoplasmic reticulum, protein;{Thermomyces lanuginosus}
+Probab=20.39  E-value=1.1e+03  Score=22.03  Aligned_cols=78  Identities=14%  Similarity=0.123  Sum_probs=44.1  Template_Neff=8.100
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHHHH-------CCCCChhhCCCCCCCCCCCCCCCccChhHHhcC-hHHHHHHHHHHHHHHHH
+Q sp|O15258|RER1   62 QGWYIVTYALGIYHLNLFIAFL-------SPKVDPSLMEDSDDGPSLPTKQNEEFRPFIRRL-PEFKFWHAATKGILVAM  133 (196)
+Q Consensus        62 qgwyivtyalgiyhlnlfiafl-------spkvdpslmedsddgpslptkqneefrpfirrl-pefkfwhaatkgilvam  133 (196)
+                      +-++++.|.+-++-++.+.++.       +|+--.+.+.++.|  .+|.....+-+.++++. +..    +..-++.++.
+T Consensus       357 ~~~~~i~y~~li~~~~~~fs~~~~~~~~~~p~~ia~~l~k~g~--~I~g~rpg~t~~yL~~~i~~~----~~~g~l~l~~  430 (480)
+T 7KAM_A          357 DPVHTVVYITFMLVACALFSKTWIEVSGSSPRDVAKQLKDQGL--VMAGHREQSMYKELKRVIPTA----AAFGGACIGA  430 (480)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHTE--EECCSSSCCHHHHHHHHHHHH----HHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHCCC--cCCCCCChHHHHHHHHHHHHH----HHhHHHHHHH
+Confidence            5588899988888888877753       33322233333322  34433223445555542 222    3445567777
+
+
+Q ss_pred             HHHHHHHcCCCC
+Q sp|O15258|RER1  134 VCTFFDAFNVPV  145 (196)
+Q Consensus       134 vctffdafnvpv  145 (196)
+                      ++..-+.++.++
+T Consensus       431 i~~~p~~~~~~~  442 (480)
+T 7KAM_A          431 LSVASDLLGALG  442 (480)
+T ss_dssp             HHHHHHHHTCSS
+T ss_pred             HHHHHHHHHHhc
+Confidence            777777777753
+
+

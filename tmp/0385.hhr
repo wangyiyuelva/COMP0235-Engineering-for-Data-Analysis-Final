@@ -1,0 +1,518 @@
+Query         tr|C9JE61|C9JE61_HUMAN
+Match_columns 70
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:18:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0385.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1RUT_X b-tandem zipper, LIM do  98.0 1.4E-05 1.5E-10   43.2   2.8   40    8-47      3-42  (188)
+  2 2JTN_A LIM domain-binding prot  97.2 0.00055   6E-09   37.3   2.4   19   30-48     80-98  (182)
+  3 2YPA_C T-CELL ACUTE LYMPHOCYTI  97.1 0.00082 8.9E-09   33.7   1.9   10   11-20     17-26  (145)
+  4 4KFZ_B LMO-2, Anti-LMO2 VH; ON  96.8  0.0031 3.4E-08   30.2   2.4    7   13-19     22-28  (150)
+  5 6YXY_BX bL28m, uL29m, uL30m, b  96.5  0.0014 1.5E-08   41.7   0.3   10   30-39     34-43  (190)
+  6 2JTN_A LIM domain-binding prot  96.1   0.012 1.3E-07   32.1   2.4    9   35-43    145-153 (182)
+  7 1RUT_X b-tandem zipper, LIM do  96.1   0.011 1.1E-07   32.2   2.1   15   33-47     93-107 (188)
+  8 1B8T_A LIM DOMAIN, CRP, MUSCLE  93.1    0.17 1.8E-06   26.9   1.9    9   34-42     31-39  (192)
+  9 7AM2_Ax Ribosomal protein L3-l  92.9   0.073 7.9E-07   35.9   0.4   13   30-42     60-72  (216)
+ 10 3MMK_B Fusion of LIM/homeobox   90.1    0.26 2.8E-06   26.0   0.7    6   13-18      9-14  (169)
+ 11 7AM2_Ax Ribosomal protein L3-l  88.2     0.9 9.8E-06   30.8   2.3    7   35-41    140-146 (216)
+ 12 1J2O_A LIM domain, LIM-interac  70.9     8.6 9.4E-05   17.5   1.7    9   58-66     93-101 (114)
+ 13 7AM2_Ax Ribosomal protein L3-l  69.1     3.8 4.1E-05   27.9   0.4   14   32-45    181-194 (216)
+ 14 3NA7_A HP0958; flagellar bioge  57.2      20 0.00021   22.7   1.9   13   11-23    199-211 (256)
+ 15 4ILO_B CT398; hypothetical pro  56.5      18 0.00019   22.8   1.7   12   11-22    200-211 (257)
+ 16 3MJH_B PROTEIN-ZINC FINGER COM  53.2      36 0.00039   15.0   2.2    6   14-19      9-14  (34)
+ 17 3MJH_D PROTEIN-ZINC FINGER COM  53.2      36 0.00039   15.0   2.2    6   14-19      9-14  (34)
+ 18 5Y06_A msmeg_4306; coiled coil  38.6      53 0.00057   20.9   1.8   10   12-21    223-232 (262)
+ 19 1VD4_A ZINC FINGER, Transcript  35.7      60 0.00065   17.0   1.5   14   35-48     37-50  (62)
+ 20 2LO3_A SAGA-associated factor   29.5      91 0.00099   19.0   1.7   13   11-23     18-30  (44)
+ 21 1GU2_A CYTOCHROME C''; OXIDORE  25.2      46  0.0005   20.2  -0.1    7   12-18     48-54  (124)
+ 22 1OAE_B CYTOCHROME C"; OXIDORED  25.2      46  0.0005   20.2  -0.1    7   12-18     48-54  (124)
+ 23 6YDH_A DUF1610 domain-containi  24.8 1.6E+02  0.0018   15.0   2.0   11   10-20     12-22  (62)
+ 24 6LOD_A MULTIHEME_CYTC domain-c  23.8      30 0.00033   20.8  -1.0    8   11-18    145-152 (226)
+ 25 6LOE_A MULTIHEME_CYTC domain-c  23.8      30 0.00033   20.8  -1.0    9   11-19    145-153 (226)
+ 26 1D4U_A DNA REPAIR, LOOP-RICH D  22.2      71 0.00077   19.1   0.3    9   11-19      6-14  (111)
+ 27 5IT5_A ATP binding motif-conta  21.7 1.1E+02  0.0012   21.6   1.2    6   12-17    311-316 (385)
+ 28 2L7X_A Envelope glycoprotein;   21.4 2.8E+02   0.003   17.7   2.9   17    7-23      2-18  (77)
+ 29 1DW0_B STRUCTURE OF OXIDIZED S  21.1      90 0.00097   19.7   0.7    9   11-19     41-49  (112)
+ 30 1DW1_B STRUCTURE OF THE CYANID  21.1      90 0.00097   19.7   0.7    9   11-19     41-49  (112)
+ 31 1DW2_A STRUCTURE OF THE NITRIC  21.1      90 0.00097   19.7   0.7    9   11-19     41-49  (112)
+ 32 4PHT_B Type II secretion syste  20.6 1.1E+02  0.0012   22.6   1.1    6   12-17    426-431 (500)
+
+No 1
+>1RUT_X b-tandem zipper, LIM domain, fusion; 1.3A {Mus musculus} SCOP: g.39.1.3
+Probab=97.99  E-value=1.4e-05  Score=43.21  Aligned_cols=40  Identities=55%  Similarity=1.184  Sum_probs=20.3  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCCCcccchhhHhhhhhhcccccccCCCCCCcc
+Q tr|C9JE61|C9JE    8 TKPKGCAGCNRKIKDRYLLKALDKYWHEDCLKCACCDCRL   47 (70)
+Q Consensus         8 tkpkgcagcnrkikdryllkaldkywhedclkcaccdcrl   47 (70)
+                      ++.+.|..|...+............|+..++.+..+...+
+T Consensus         3 ~~~~~c~~c~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~   42 (188)
+T 1RUT_X            3 LSWKRCAGCGGKIADRFLLYAMDSYWHSRCLKCSSCQAQL   42 (188)
+T ss_dssp             -CCCBBTTTCCBCCCSEEEEETTEEECGGGCBCTTTCCBH
+T ss_pred             CccccCCCCCCcccCceEEEcCCCeeccccCccCCCCCcc
+Confidence            3445666666665433222233445566666666555443
+
+
+No 2
+>2JTN_A LIM domain-binding protein 1, LIM/homeobox; intramolecular (fusion) protein-protein complex, PROTEIN; HET: ZN; NMR {Mus musculus}
+Probab=97.25  E-value=0.00055  Score=37.28  Aligned_cols=19  Identities=47%  Similarity=1.221  Sum_probs=10.0  Template_Neff=12.700
+
+Q ss_pred             hhhcccccccCCCCCCccc
+Q tr|C9JE61|C9JE   30 DKYWHEDCLKCACCDCRLG   48 (70)
+Q Consensus        30 dkywhedclkcaccdcrlg   48 (70)
+                      ...|+..++.+..+...+.
+T Consensus        80 ~~~~h~~c~~c~~c~~~l~   98 (182)
+T 2JTN_A           80 DRHWHSKCLKCSDCHVPLA   98 (182)
+T ss_dssp             TEEECSSTTSCTTTCCCCS
+T ss_pred             CeeEehhhcccCcCCCccC
+Confidence            3445555665555554443
+
+
+No 3
+>2YPA_C T-CELL ACUTE LYMPHOCYTIC LEUKEMIA PROTEIN; IMMUNE SYSTEM, HEMATOPOIESIS, LEUKEMIA; 2.8A {HOMO SAPIENS}
+Probab=97.09  E-value=0.00082  Score=33.67  Aligned_cols=10  Identities=40%  Similarity=1.129  Sum_probs=3.5  Template_Neff=13.600
+
+Q ss_pred             CCCCCCCCcc
+Q tr|C9JE61|C9JE   11 KGCAGCNRKI   20 (70)
+Q Consensus        11 kgcagcnrki   20 (70)
+                      ..+..|...+
+T Consensus        17 ~~~~~c~~~~   26 (145)
+T 2YPA_C           17 LTCGGCQQNI   26 (145)
+T ss_dssp             --CTTTCCCC
+T ss_pred             ccccCCCCee
+Confidence            3344444433
+
+
+No 4
+>4KFZ_B LMO-2, Anti-LMO2 VH; ONCOPROTEIN, T-CELL LEUKEMIA, PROTO-ONCOGENE, TRANSCRIPTION; 2.8A {Homo sapiens}
+Probab=96.79  E-value=0.0031  Score=30.22  Aligned_cols=7  Identities=43%  Similarity=1.573  Sum_probs=2.7  Template_Neff=14.500
+
+Q ss_pred             CCCCCCc
+Q tr|C9JE61|C9JE   13 CAGCNRK   19 (70)
+Q Consensus        13 cagcnrk   19 (70)
+                      |..|...
+T Consensus        22 c~~c~~~   28 (150)
+T 4KFZ_B           22 CGGCQQN   28 (150)
+T ss_dssp             BTTTCSB
+T ss_pred             cCCCCCe
+Confidence            3334433
+
+
+No 5
+>6YXY_BX bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, SPD, ATP; 3.1A {Trypanosoma brucei brucei}
+Probab=96.54  E-value=0.0014  Score=41.74  Aligned_cols=10  Identities=10%  Similarity=0.441  Sum_probs=4.2  Template_Neff=9.400
+
+Q ss_pred             hhhccccccc
+Q tr|C9JE61|C9JE   30 DKYWHEDCLK   39 (70)
+Q Consensus        30 dkywhedclk   39 (70)
+                      ...|+..++.
+T Consensus        34 ~~~~h~~~~~   43 (190)
+T 6YXY_BX          34 SRRWWTQSKA   43 (190)
+T ss_pred             hhCeehhccc
+Confidence            3344444433
+
+
+No 6
+>2JTN_A LIM domain-binding protein 1, LIM/homeobox; intramolecular (fusion) protein-protein complex, PROTEIN; HET: ZN; NMR {Mus musculus}
+Probab=96.12  E-value=0.012  Score=32.14  Aligned_cols=9  Identities=33%  Similarity=1.250  Sum_probs=3.4  Template_Neff=12.700
+
+Q ss_pred             cccccCCCC
+Q tr|C9JE61|C9JE   35 EDCLKCACC   43 (70)
+Q Consensus        35 edclkcacc   43 (70)
+                      ..++.+..+
+T Consensus       145 ~~c~~c~~c  153 (182)
+T 2JTN_A          145 LHCFACVVC  153 (182)
+T ss_dssp             TTTCCCTTT
+T ss_pred             ccccccCCC
+Confidence            333333333
+
+
+No 7
+>1RUT_X b-tandem zipper, LIM domain, fusion; 1.3A {Mus musculus} SCOP: g.39.1.3
+Probab=96.10  E-value=0.011  Score=32.16  Aligned_cols=15  Identities=40%  Similarity=1.145  Sum_probs=6.8  Template_Neff=12.900
+
+Q ss_pred             cccccccCCCCCCcc
+Q tr|C9JE61|C9JE   33 WHEDCLKCACCDCRL   47 (70)
+Q Consensus        33 whedclkcaccdcrl   47 (70)
+                      ++..++.+..+...+
+T Consensus        93 ~~~~~~~c~~c~~~l  107 (188)
+T 1RUT_X           93 YHLKCFTCSTCRNRL  107 (188)
+T ss_dssp             ECGGGCBCTTTCCBC
+T ss_pred             EccccCccCCCCCcc
+Confidence            444444444444443
+
+
+No 8
+>1B8T_A LIM DOMAIN, CRP, MUSCLE DIFFERENTIATION; HET: ZN; NMR {Gallus gallus} SCOP: g.39.1.3
+Probab=93.07  E-value=0.17  Score=26.87  Aligned_cols=9  Identities=33%  Similarity=1.106  Sum_probs=3.4  Template_Neff=13.400
+
+Q ss_pred             ccccccCCC
+Q tr|C9JE61|C9JE   34 HEDCLKCAC   42 (70)
+Q Consensus        34 hedclkcac   42 (70)
+                      +...+.+..
+T Consensus        31 ~~~~~~~~~   39 (192)
+T 1B8T_A           31 HKSCFLCMV   39 (192)
+T ss_dssp             CTTTCBCTT
+T ss_pred             chhhccccc
+Confidence            333333333
+
+
+No 9
+>7AM2_Ax Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=92.88  E-value=0.073  Score=35.93  Aligned_cols=13  Identities=8%  Similarity=0.199  Sum_probs=5.7  Template_Neff=8.500
+
+Q ss_pred             hhhcccccccCCC
+Q tr|C9JE61|C9JE   30 DKYWHEDCLKCAC   42 (70)
+Q Consensus        30 dkywhedclkcac   42 (70)
+                      ...|+..++.+..
+T Consensus        60 ~~~~h~~~f~c~~   72 (216)
+T 7AM2_Ax          60 SRRWWMQSKAHHL   72 (216)
+T ss_pred             cccchhhhhcccc
+Confidence            3444444444333
+
+
+No 10
+>3MMK_B Fusion of LIM/homeobox protein Lhx4; Protein-protein complex, LIM domain, Zn; 2.157A {Mus musculus}
+Probab=90.14  E-value=0.26  Score=26.02  Aligned_cols=6  Identities=83%  Similarity=2.068  Sum_probs=2.2  Template_Neff=13.100
+
+Q ss_pred             CCCCCC
+Q tr|C9JE61|C9JE   13 CAGCNR   18 (70)
+Q Consensus        13 cagcnr   18 (70)
+                      |..|..
+T Consensus         9 c~~c~~   14 (169)
+T 3MMK_B            9 CAGCNQ   14 (169)
+T ss_dssp             CTTTCS
+T ss_pred             cccCCC
+Confidence            333333
+
+
+No 11
+>7AM2_Ax Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=88.16  E-value=0.9  Score=30.81  Aligned_cols=7  Identities=43%  Similarity=1.103  Sum_probs=2.6  Template_Neff=8.500
+
+Q ss_pred             cccccCC
+Q tr|C9JE61|C9JE   35 EDCLKCA   41 (70)
+Q Consensus        35 edclkca   41 (70)
+                      ..++.+.
+T Consensus       140 ~~~~~c~  146 (216)
+T 7AM2_Ax         140 VKCFKCW  146 (216)
+T ss_pred             CCceecC
+Confidence            3333333
+
+
+No 12
+>1J2O_A LIM domain, LIM-interaction-domain (LID), METAL; HET: ZN; NMR {Mus musculus} SCOP: g.39.1.3
+Probab=70.91  E-value=8.6  Score=17.50  Aligned_cols=9  Identities=11%  Similarity=0.324  Sum_probs=3.7  Template_Neff=14.300
+
+Q ss_pred             cceeeecch
+Q tr|C9JE61|C9JE   58 ANLILCRRD   66 (70)
+Q Consensus        58 anlilcrrd   66 (70)
+                      ....++..+
+T Consensus        93 ~~~~~C~~~  101 (114)
+T 1J2O_A           93 DERLITRLE  101 (114)
+T ss_dssp             SSCCCEEEE
+T ss_pred             CCeEEEecc
+Confidence            334444443
+
+
+No 13
+>7AM2_Ax Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=69.15  E-value=3.8  Score=27.90  Aligned_cols=14  Identities=14%  Similarity=0.408  Sum_probs=6.3  Template_Neff=8.500
+
+Q ss_pred             hcccccccCCCCCC
+Q tr|C9JE61|C9JE   32 YWHEDCLKCACCDC   45 (70)
+Q Consensus        32 ywhedclkcaccdc   45 (70)
+                      .|+..++.+..++.
+T Consensus       181 ~~h~~~~~c~~c~~  194 (216)
+T 7AM2_Ax         181 RWHTSYVNTHRTGS  194 (216)
+T ss_pred             eecHhhcccCCCCC
+Confidence            34444444444443
+
+
+No 14
+>3NA7_A HP0958; flagellar biogenesis, flagellum export, C4; HET: EPE; 2.2A {Helicobacter pylori}
+Probab=57.16  E-value=20  Score=22.69  Aligned_cols=13  Identities=31%  Similarity=1.032  Sum_probs=8.7  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCcccch
+Q tr|C9JE61|C9JE   11 KGCAGCNRKIKDR   23 (70)
+Q Consensus        11 kgcagcnrkikdr   23 (70)
+                      ..|..|...+...
+T Consensus       199 ~~Cp~C~~~l~~~  211 (256)
+T 3NA7_A          199 QACGGCFIRLNDK  211 (256)
+T ss_dssp             TBCTTTCCBCCHH
+T ss_pred             CcCCCCCCCCCHH
+Confidence            5677887777543
+
+
+No 15
+>4ILO_B CT398; hypothetical protein, DNA/RNA binding, coiled-coil; 2.12A {Chlamydia trachomatis}
+Probab=56.49  E-value=18  Score=22.77  Aligned_cols=12  Identities=25%  Similarity=0.852  Sum_probs=7.5  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCcccc
+Q tr|C9JE61|C9JE   11 KGCAGCNRKIKD   22 (70)
+Q Consensus        11 kgcagcnrkikd   22 (70)
+                      ..|..|+..+..
+T Consensus       200 ~~C~~C~~~l~~  211 (257)
+T 4ILO_B          200 RVCSGCHIALTP  211 (257)
+T ss_dssp             SBBTTTCCBCCH
+T ss_pred             CccCCCCCcCCH
+Confidence            456777766644
+
+
+No 16
+>3MJH_B PROTEIN-ZINC FINGER COMPLEX, BETA BETA; HET: GTP; 2.03A {Homo sapiens}
+Probab=53.24  E-value=36  Score=15.00  Aligned_cols=6  Identities=17%  Similarity=0.634  Sum_probs=2.3  Template_Neff=10.400
+
+Q ss_pred             CCCCCc
+Q tr|C9JE61|C9JE   14 AGCNRK   19 (70)
+Q Consensus        14 agcnrk   19 (70)
+                      ..|...
+T Consensus         9 ~~C~~~   14 (34)
+T 3MJH_B            9 PQCMKS   14 (34)
+T ss_dssp             TTTCCE
+T ss_pred             CCCCCc
+Confidence            334333
+
+
+No 17
+>3MJH_D PROTEIN-ZINC FINGER COMPLEX, BETA BETA; HET: GTP; 2.03A {Homo sapiens}
+Probab=53.24  E-value=36  Score=15.00  Aligned_cols=6  Identities=17%  Similarity=0.634  Sum_probs=2.3  Template_Neff=10.400
+
+Q ss_pred             CCCCCc
+Q tr|C9JE61|C9JE   14 AGCNRK   19 (70)
+Q Consensus        14 agcnrk   19 (70)
+                      ..|...
+T Consensus         9 ~~C~~~   14 (34)
+T 3MJH_D            9 PQCMKS   14 (34)
+T ss_dssp             TTTCCE
+T ss_pred             CCCCCc
+Confidence            334333
+
+
+No 18
+>5Y06_A msmeg_4306; coiled coil helix, zinc ribbon; 2.606A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=38.62  E-value=53  Score=20.89  Aligned_cols=10  Identities=30%  Similarity=0.886  Sum_probs=5.4  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCccc
+Q tr|C9JE61|C9JE   12 GCAGCNRKIK   21 (70)
+Q Consensus        12 gcagcnrkik   21 (70)
+                      .|..|...+.
+T Consensus       223 ~Cp~C~~~l~  232 (262)
+T 5Y06_A          223 RCGACRIEID  232 (262)
+T ss_dssp             EETTTCCBCC
+T ss_pred             ccCCcccccC
+Confidence            4555655553
+
+
+No 19
+>1VD4_A ZINC FINGER, Transcription; HET: ZN; NMR {Homo sapiens} SCOP: g.41.3.1
+Probab=35.72  E-value=60  Score=17.01  Aligned_cols=14  Identities=14%  Similarity=0.674  Sum_probs=7.4  Template_Neff=9.600
+
+Q ss_pred             cccccCCCCCCccc
+Q tr|C9JE61|C9JE   35 EDCLKCACCDCRLG   48 (70)
+Q Consensus        35 edclkcaccdcrlg   48 (70)
+                      ...+.|..|+..+.
+T Consensus        37 ~~~~~Cp~Cg~~l~   50 (62)
+T 1VD4_A           37 TGTFRCTFCHTEVE   50 (62)
+T ss_dssp             TTEEBCSSSCCBCE
+T ss_pred             CCEEECCCCCCEeE
+Confidence            34456666665443
+
+
+No 20
+>2LO3_A SAGA-associated factor 73; ZINC-FINGER, DEUBIQUITINATION, TRANSCRIPTION FACTOR, SAGA; HET: ZN; NMR {Saccharomyces cerevisiae}
+Probab=29.51  E-value=91  Score=18.96  Aligned_cols=13  Identities=15%  Similarity=0.565  Sum_probs=8.1  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCcccch
+Q tr|C9JE61|C9JE   11 KGCAGCNRKIKDR   23 (70)
+Q Consensus        11 kgcagcnrkikdr   23 (70)
+                      ..|..|+.++...
+T Consensus        18 RiCn~C~rPI~~~   30 (44)
+T 2LO3_A           18 RVCEKCGKPLALT   30 (44)
+T ss_dssp             EECTTTCCEEETT
+T ss_pred             eecCCCCCcchHH
+Confidence            4466777777543
+
+
+No 21
+>1GU2_A CYTOCHROME C''; OXIDOREDUCTASE(CYTOCHROME), OXIDOREDUCTASE, ELECTRON TRANSPORT; HET: HEC; 1.19A {METHYLOPHILUS METHYLOTROPHUS} SCOP: a.3.1.1
+Probab=25.17  E-value=46  Score=20.16  Aligned_cols=7  Identities=43%  Similarity=1.298  Sum_probs=2.9  Template_Neff=9.300
+
+Q ss_pred             CCCCCCC
+Q tr|C9JE61|C9JE   12 GCAGCNR   18 (70)
+Q Consensus        12 gcagcnr   18 (70)
+                      .|..|..
+T Consensus        48 ~C~~CH~   54 (124)
+T 1GU2_A           48 ACASCHT   54 (124)
+T ss_dssp             CHHHHHC
+T ss_pred             chHHccC
+Confidence            3444433
+
+
+No 22
+>1OAE_B CYTOCHROME C"; OXIDOREDUCTASE(CYTOCHROME), CYTOCHROME C, OXIDOREDUCTASE, ELECTRON; HET: SO4, GOL, HEC; 1.95A {METHYLOPHILUS METHYLOTROPHUS} SCOP: a.3.1.1
+Probab=25.17  E-value=46  Score=20.16  Aligned_cols=7  Identities=43%  Similarity=1.298  Sum_probs=2.9  Template_Neff=9.300
+
+Q ss_pred             CCCCCCC
+Q tr|C9JE61|C9JE   12 GCAGCNR   18 (70)
+Q Consensus        12 gcagcnr   18 (70)
+                      .|..|..
+T Consensus        48 ~C~~CH~   54 (124)
+T 1OAE_B           48 ACASCHT   54 (124)
+T ss_dssp             CHHHHHC
+T ss_pred             chHHccC
+Confidence            3444433
+
+
+No 23
+>6YDH_A DUF1610 domain-containing protein; Zn-finger, HVO, METAL BINDING PROTEIN; NMR {Haloferax volcanii}
+Probab=24.83  E-value=1.6e+02  Score=15.04  Aligned_cols=11  Identities=27%  Similarity=0.794  Sum_probs=5.5  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCcc
+Q tr|C9JE61|C9JE   10 PKGCAGCNRKI   20 (70)
+Q Consensus        10 pkgcagcnrki   20 (70)
+                      ...|..|+..+
+T Consensus        12 ~~~C~~C~~~~   22 (62)
+T 6YDH_A           12 AHQCVSCGINI   22 (62)
+T ss_dssp             CCCCSSSCCCC
+T ss_pred             CccCCCCCCcc
+Confidence            34455555544
+
+
+No 24
+>6LOD_A MULTIHEME_CYTC domain-containing protein, Fe-S-cluster-containing hydrogenase; quinol:electron acceptor oxidoreductase, PHOTOSYNTHESIS; HET: EL6, HEC, SF4; 3.2A {Roseiflexus castenholzii (strain DSM 13941 / HLO8)}
+Probab=23.79  E-value=30  Score=20.81  Aligned_cols=8  Identities=38%  Similarity=1.169  Sum_probs=3.9  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCC
+Q tr|C9JE61|C9JE   11 KGCAGCNR   18 (70)
+Q Consensus        11 kgcagcnr   18 (70)
+                      ..|..|..
+T Consensus       145 ~~C~~CH~  152 (226)
+T 6LOD_A          145 VGCSTCHG  152 (226)
+T ss_dssp             CCSTTTSC
+T ss_pred             CCHHHHcc
+Confidence            34555554
+
+
+No 25
+>6LOE_A MULTIHEME_CYTC domain-containing protein, Fe-S-cluster-containing hydrogenase; quinol:electron acceptor oxidoreductase, PHOTOSYNTHESIS; HET: EL6, HEC, SF4; 3.5A {Roseiflexus castenholzii (strain DSM 13941 / HLO8)}
+Probab=23.79  E-value=30  Score=20.81  Aligned_cols=9  Identities=33%  Similarity=1.139  Sum_probs=4.4  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9JE61|C9JE   11 KGCAGCNRK   19 (70)
+Q Consensus        11 kgcagcnrk   19 (70)
+                      ..|..|...
+T Consensus       145 ~~C~~CH~~  153 (226)
+T 6LOE_A          145 VGCSTCHGR  153 (226)
+T ss_dssp             CCSTTTSCC
+T ss_pred             CCHHHHccc
+Confidence            345555543
+
+
+No 26
+>1D4U_A DNA REPAIR, LOOP-RICH DOMAIN, NMR; NMR {Homo sapiens} SCOP: a.6.1.2, g.39.1.5
+Probab=22.18  E-value=71  Score=19.15  Aligned_cols=9  Identities=22%  Similarity=0.752  Sum_probs=4.7  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9JE61|C9JE   11 KGCAGCNRK   19 (70)
+Q Consensus        11 kgcagcnrk   19 (70)
+                      ..|..|+..
+T Consensus         6 ~~C~~C~~~   14 (111)
+T 1D4U_A            6 VICEECGKE   14 (111)
+T ss_dssp             EECTTTCCE
+T ss_pred             cccccCCCc
+Confidence            345566544
+
+
+No 27
+>5IT5_A ATP binding motif-containing protein PilF; ATPase, AAA+, hexamer, Type IV; HET: ATP, AGS; 2.648A {Thermus thermophilus}
+Probab=21.71  E-value=1.1e+02  Score=21.61  Aligned_cols=6  Identities=50%  Similarity=1.608  Sum_probs=2.7  Template_Neff=10.100
+
+Q ss_pred             CCCCCC
+Q tr|C9JE61|C9JE   12 GCAGCN   17 (70)
+Q Consensus        12 gcagcn   17 (70)
+                      .|..|.
+T Consensus       311 GC~~C~  316 (385)
+T 5IT5_A          311 GCERCG  316 (385)
+T ss_dssp             CCTTTT
+T ss_pred             CCccCC
+Confidence            344443
+
+
+No 28
+>2L7X_A Envelope glycoprotein; CYTOPLASMIC TAIL, VIRAL PROTEIN; NMR {Crimean-Congo hemorrhagic fever virus}
+Probab=21.42  E-value=2.8e+02  Score=17.65  Aligned_cols=17  Identities=24%  Similarity=0.585  Sum_probs=10.6  Template_Neff=6.100
+
+Q ss_pred             CCCCCCCCCCCCcccch
+Q tr|C9JE61|C9JE    7 DTKPKGCAGCNRKIKDR   23 (70)
+Q Consensus         7 dtkpkgcagcnrkikdr   23 (70)
+                      |.+...|..|...+...
+T Consensus         2 d~~~~~C~~C~~~~~s~   18 (77)
+T 2L7X_A            2 ELKPQTCTICETTPVNA   18 (77)
+T ss_dssp             CCCCCCCTTTCCCCSSH
+T ss_pred             CCCCCccCCCCCeecCH
+Confidence            34556677777776543
+
+
+No 29
+>1DW0_B STRUCTURE OF OXIDIZED SHP, AN; cytochrome c, asparagine ligation, oxygen; HET: SO4, HEC; 1.82A {Rhodobacter sphaeroides} SCOP: a.3.1.1
+Probab=21.12  E-value=90  Score=19.74  Aligned_cols=9  Identities=22%  Similarity=0.818  Sum_probs=4.6  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9JE61|C9JE   11 KGCAGCNRK   19 (70)
+Q Consensus        11 kgcagcnrk   19 (70)
+                      ..|..|...
+T Consensus        41 ~~Ca~CH~~   49 (112)
+T 1DW0_B           41 PSCTTCHGA   49 (112)
+T ss_dssp             CSTHHHHCS
+T ss_pred             CCcccccCC
+Confidence            356555543
+
+
+No 30
+>1DW1_B STRUCTURE OF THE CYANIDE COMPLEX; cytochrome c, cyanide complex, disulfide; HET: HEC; 1.9A {Rhodobacter sphaeroides} SCOP: a.3.1.1
+Probab=21.12  E-value=90  Score=19.74  Aligned_cols=9  Identities=22%  Similarity=0.818  Sum_probs=4.6  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9JE61|C9JE   11 KGCAGCNRK   19 (70)
+Q Consensus        11 kgcagcnrk   19 (70)
+                      ..|..|...
+T Consensus        41 ~~Ca~CH~~   49 (112)
+T 1DW1_B           41 PSCTTCHGA   49 (112)
+T ss_dssp             CSTHHHHCS
+T ss_pred             CCcccccCC
+Confidence            356555543
+
+
+No 31
+>1DW2_A STRUCTURE OF THE NITRIC OXIDE; cytochrome c, nitric oxide, disulfide; HET: HEM; 2.2A {Rhodobacter sphaeroides} SCOP: a.3.1.1
+Probab=21.12  E-value=90  Score=19.74  Aligned_cols=9  Identities=22%  Similarity=0.818  Sum_probs=4.6  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9JE61|C9JE   11 KGCAGCNRK   19 (70)
+Q Consensus        11 kgcagcnrk   19 (70)
+                      ..|..|...
+T Consensus        41 ~~Ca~CH~~   49 (112)
+T 1DW2_A           41 PSCTTCHGA   49 (112)
+T ss_dssp             CSTHHHHCS
+T ss_pred             CCcccccCC
+Confidence            356555543
+
+
+No 32
+>4PHT_B Type II secretion system protein; PROTEIN TRANSPORT; HET: ANP; 2.83A {Vibrio vulnificus}
+Probab=20.58  E-value=1.1e+02  Score=22.64  Aligned_cols=6  Identities=67%  Similarity=1.791  Sum_probs=3.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCC
+Q tr|C9JE61|C9JE   12 GCAGCN   17 (70)
+Q Consensus        12 gcagcn   17 (70)
+                      .|..|.
+T Consensus       426 GC~~C~  431 (500)
+T 4PHT_B          426 GCEKCN  431 (500)
+T ss_dssp             CCTTTS
+T ss_pred             CCCccC
+Confidence            455554
+
+

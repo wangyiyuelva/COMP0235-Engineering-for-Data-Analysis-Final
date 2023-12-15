@@ -1,0 +1,166 @@
+Query         tr|H7C2P9|H7C2P9_HUMAN
+Match_columns 40
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:01:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0967.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2VZY_A RV0802C; TRANSFERASE, G  70.2     7.9 8.5E-05   21.3   1.7   25   13-37    193-217 (218)
+  2 2VZZ_B RV0802C; GCN5-RELATED N  70.2     7.9 8.5E-05   21.3   1.7   25   13-37    193-217 (218)
+  3 7DSK_A Sodium-dependent neutra  52.8      11 0.00012   26.0   0.3   17   24-40     92-108 (647)
+  4 4BJJ_A TRANSCRIPTION FACTOR TA  31.6      43 0.00047   19.9   0.6   19   15-33     17-35  (112)
+  5 7CCS_A 4F2 cell-surface antige  23.8      83  0.0009   21.8   0.9   14   25-38     79-92  (631)
+  6 5H65_B Protection of telomeres  17.3 1.6E+02  0.0017   16.9   1.0   18   21-38     10-27  (53)
+  7 1ABV_A ATP SYNTHESIS, ATP SYNT  14.4      20 0.00022   19.1  -2.8   23    1-23     91-113 (134)
+  8 5KH0_A HydF; [FEFE]-HYDROGENAS  14.3      30 0.00033   23.1  -2.6   28    2-29    259-286 (396)
+  9 6EGK_A Cucumene Synthase (E.C.  13.7 2.5E+02  0.0027   17.2   1.3   13   28-40    329-341 (351)
+ 10 6EGK_B Cucumene Synthase (E.C.  13.7 2.5E+02  0.0027   17.2   1.3   13   28-40    329-341 (351)
+
+No 1
+>2VZY_A RV0802C; TRANSFERASE, GCN5-RELATED N-ACETYLTRANSFERASE, MYCOBACTERIUM TUBERCULOSIS; HET: FLC, SO4, ACT, ETX; 2.0A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=70.15  E-value=7.9  Score=21.33  Aligned_cols=25  Identities=28%  Similarity=0.542  Sum_probs=17.6  Template_Neff=11.200
+
+Q ss_pred             CCCCCceecchhHHHHhhCCCCCCC
+Q tr|H7C2P9|H7C2   13 RGEVPCTVTSASACLELLGSSDPPA   37 (40)
+Q Consensus        13 rgevpctvtsasaclellgssdppa   37 (40)
+                      ....++.++.+..|..++|++.||.
+T Consensus       193 ~~~~~~~~~~~~~~~~~~~~~~~~~  217 (218)
+T 2VZY_A          193 HRTVEVRVDGFDRCRPLFGPLEPPR  217 (218)
+T ss_dssp             HCCCCCEEESCGGGHHHHCC-----
+T ss_pred             cCCCeeEeccccccHHHhCCCCCCC
+Confidence            3467899999999999999998875
+
+
+No 2
+>2VZZ_B RV0802C; GCN5-RELATED N-ACETYLTRANSFERASE, MYCOBACTERIUM TUBERCULOSIS, TRANSFERASE; HET: SCA; 2.3A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=70.15  E-value=7.9  Score=21.33  Aligned_cols=25  Identities=28%  Similarity=0.542  Sum_probs=16.6  Template_Neff=11.200
+
+Q ss_pred             CCCCCceecchhHHHHhhCCCCCCC
+Q tr|H7C2P9|H7C2   13 RGEVPCTVTSASACLELLGSSDPPA   37 (40)
+Q Consensus        13 rgevpctvtsasaclellgssdppa   37 (40)
+                      ....++.++.+..|..++|++.||.
+T Consensus       193 ~~~~~~~~~~~~~~~~~~~~~~~~~  217 (218)
+T 2VZZ_B          193 HRTVEVRVDGFDRCRPLFGPLEPPR  217 (218)
+T ss_dssp             HCCSCCEEESCTTTGGGGC------
+T ss_pred             cCCCeeEeccccccHHHhCCCCCCC
+Confidence            3467899999999999999998875
+
+
+No 3
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=52.83  E-value=11  Score=26.04  Aligned_cols=17  Identities=53%  Similarity=0.557  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             hHHHHhhCCCCCCCCCC
+Q tr|H7C2P9|H7C2   24 SACLELLGSSDPPALAS   40 (40)
+Q Consensus        24 saclellgssdppalas   40 (40)
+                      .+.+++++++++|++++
+T Consensus        92 q~gl~~~~s~~~~~~~~  108 (647)
+T 7DSK_A           92 QADIEFLTSIDPTASAS  108 (647)
+T ss_dssp             -----------------
+T ss_pred             ccccccccCCCCCcccc
+Confidence            34566777777766553
+
+
+No 4
+>4BJJ_A TRANSCRIPTION FACTOR TAU SUBUNIT SFC1; TRANSCRIPTION; 2.4A {SCHIZOSACCHAROMYCES POMBE}
+Probab=31.56  E-value=43  Score=19.86  Aligned_cols=19  Identities=26%  Similarity=0.363  Sum_probs=16.2  Template_Neff=7.000
+
+Q ss_pred             CCCceecchhHHHHhhCCC
+Q tr|H7C2P9|H7C2   15 EVPCTVTSASACLELLGSS   33 (40)
+Q Consensus        15 evpctvtsasaclellgss   33 (40)
+                      |.|+.|.+...+++.||..
+T Consensus        17 e~Pg~V~n~d~ai~~LGG~   35 (112)
+T 4BJJ_A           17 EHPGFANNKDAFFQTLGGV   35 (112)
+T ss_dssp             EESSCCSSHHHHHHTTTCH
+T ss_pred             EeccccCCHHHHHHHhCCH
+Confidence            6789999999999998853
+
+
+No 5
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=23.80  E-value=83  Score=21.78  Aligned_cols=14  Identities=79%  Similarity=1.077  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHhhCCCCCCCC
+Q tr|H7C2P9|H7C2   25 ACLELLGSSDPPAL   38 (40)
+Q Consensus        25 aclellgssdppal   38 (40)
+                      ++++++.++++|++
+T Consensus        79 ~gl~ll~s~~~~~~   92 (631)
+T 7CCS_A           79 AGLQLLASSDPPAL   92 (631)
+T ss_dssp             --------------
+T ss_pred             cccchhcCCCCCcc
+Confidence            34555555555443
+
+
+No 6
+>5H65_B Protection of telomeres protein 1; telomere, DNA binding protein, OB; 2.1A {Homo sapiens}
+Probab=17.28  E-value=1.6e+02  Score=16.92  Aligned_cols=18  Identities=33%  Similarity=0.645  Sum_probs=13.8  Template_Neff=4.300
+
+Q ss_pred             cchhHHHHhhCCCCCCCC
+Q tr|H7C2P9|H7C2   21 TSASACLELLGSSDPPAL   38 (40)
+Q Consensus        21 tsasaclellgssdppal   38 (40)
+                      ..|..||.|.+++..|.+
+T Consensus        10 ~~Ae~CLdL~~p~~~pp~   27 (53)
+T 5H65_B           10 CLAESCLTLEGPCTAPPV   27 (53)
+T ss_dssp             HHHHHHCCCSSCCCCCCC
+T ss_pred             HHhhhhhcCCCCCCCCCC
+Confidence            357789999998887643
+
+
+No 7
+>1ABV_A ATP SYNTHESIS, ATP SYNTHASE, F1-ATPASE; NMR {Escherichia coli} SCOP: a.70.1.1
+Probab=14.38  E-value=20  Score=19.08  Aligned_cols=23  Identities=26%  Similarity=0.339  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCccccccccCCCCCCceecch
+Q tr|H7C2P9|H7C2    1 VVSAFSTMMSVHRGEVPCTVTSA   23 (40)
+Q Consensus         1 vvsafstmmsvhrgevpctvtsa   23 (40)
+                      ++..|..+...++|.+.++|+++
+T Consensus        91 I~~~~~~~~~~~~~~~~~~v~sa  113 (134)
+T 1ABV_A           91 VLEQFIHLRAVSEATAEVDVISA  113 (134)
+T ss_dssp             HHHHHHHHHHHHHHC--------
+T ss_pred             HHHHHHHHHHHHcCceeEEEeeC
+
+
+No 8
+>5KH0_A HydF; [FEFE]-HYDROGENASE MATURASE OXIDOREDUCTASE, OXIDOREDUCTASE; HET: SF4; 2.8A {Thermosipho melanesiensis (strain DSM 12029 / CIP 104789 / BI429)}
+Probab=14.25  E-value=30  Score=23.08  Aligned_cols=28  Identities=32%  Similarity=0.407  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCccccccccCCCCCCceecchhHHHHh
+Q tr|H7C2P9|H7C2    2 VSAFSTMMSVHRGEVPCTVTSASACLEL   29 (40)
+Q Consensus         2 vsafstmmsvhrgevpctvtsasaclel   29 (40)
+                      +..||.+|+-+.|++..-+..+.+.-.|
+T Consensus       259 lt~fs~~~~~~~G~l~~~~~g~~~~~~l  286 (396)
+T 5KH0_A          259 LTTFSILESRYRGDLEYFVESVKAVENL  286 (396)
+T ss_dssp             EEEHHHHHHHHHSCHHHHHHHHGGGGGC
+T ss_pred             ccHHHHHHHHcCCCHHHHHHHHHHHHCC
+
+
+No 9
+>6EGK_A Cucumene Synthase (E.C.4.2.3.7); Triquinane Scaffold, Open Conformation, Terpene; 1.96A {Streptomyces clavuligerus (strain ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602)}
+Probab=13.66  E-value=2.5e+02  Score=17.24  Aligned_cols=13  Identities=23%  Similarity=0.343  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HhhCCCCCCCCCC
+Q tr|H7C2P9|H7C2   28 ELLGSSDPPALAS   40 (40)
+Q Consensus        28 ellgssdppalas   40 (40)
+                      |+++|++||+..+
+T Consensus       329 ~~~~~~~~~~~~~  341 (351)
+T 6EGK_A          329 DLMSSGWDPLASG  341 (351)
+T ss_dssp             -------------
+T ss_pred             HHhcCCCCCccCC
+
+
+No 10
+>6EGK_B Cucumene Synthase (E.C.4.2.3.7); Triquinane Scaffold, Open Conformation, Terpene; 1.96A {Streptomyces clavuligerus (strain ATCC 27064 / DSM 738 / JCM 4710 / NBRC 13307 / NCIMB 12785 / NRRL 3585 / VKM Ac-602)}
+Probab=13.66  E-value=2.5e+02  Score=17.24  Aligned_cols=13  Identities=23%  Similarity=0.343  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HhhCCCCCCCCCC
+Q tr|H7C2P9|H7C2   28 ELLGSSDPPALAS   40 (40)
+Q Consensus        28 ellgssdppalas   40 (40)
+                      |+++|++||+..+
+T Consensus       329 ~~~~~~~~~~~~~  341 (351)
+T 6EGK_B          329 DLMSSGWDPLASG  341 (351)
+T ss_dssp             -------------
+T ss_pred             HHhcCCCCCccCC
+
+

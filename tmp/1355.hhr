@@ -1,0 +1,191 @@
+Query         tr|F8W1Z7|F8W1Z7_HUMAN
+Match_columns 21
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:59:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1355.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6RM3_LA0 uL2, uS2, uL15, eS26,  66.2     7.2 7.8E-05   21.4   1.0   14    1-14      1-14  (237)
+  2 7QEP_L2 genome decay, microbia  44.4      19  0.0002   20.1   0.4   12    1-12      1-12  (239)
+  3 7OLC_LA thermophilic eukaryoti  42.7      27  0.0003   19.5   0.8   11    1-11      1-11  (254)
+  4 5XY3_A Ribosomal protein L8, p  42.4      25 0.00027   19.6   0.7   12    1-12      1-12  (251)
+  5 7R81_D1 Protein Synthesis Inhi  40.3      31 0.00034   19.3   0.9   10    1-10      1-10  (254)
+  6 1VQO_A 50S RIBOSOMAL SUBUNIT;   34.0      44 0.00048   18.5   0.8   10    1-10      1-10  (240)
+  7 4V9F_A PROTEIN/RNA Complex; 50  34.0      44 0.00048   18.5   0.8   10    1-10      1-10  (240)
+  8 4V8P_GA Ribosome; RIBOSOME, EU  33.4      41 0.00045   19.0   0.6   11    1-11      1-11  (264)
+  9 5UMD_D 60S ribosomal protein L  32.3      48 0.00052   18.7   0.8    9    1-9       1-9   (260)
+ 10 6ZU5_LA0 uL2, uL15, uL3, eL29,  32.0      46  0.0005   18.7   0.7   11    1-11      1-11  (247)
+ 11 7O7Y_BA Frameshift, virus, pse  31.3      42 0.00046   18.8   0.5   10    1-10      1-10  (257)
+ 12 6TH6_BC 30S ribosomal protein   29.9      49 0.00054   18.5   0.6   11    1-11      1-11  (239)
+
+No 1
+>6RM3_LA0 uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=66.23  E-value=7.2  Score=21.44  Aligned_cols=14  Identities=43%  Similarity=0.674  Sum_probs=11.1  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCcccccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKSVQR   14 (21)
+Q Consensus         1 mgkvyrqdrksvqr   14 (21)
+                      |||+.|+.|+++-|
+T Consensus         1 mg~~~~~qr~~~~~   14 (237)
+T 6RM3_LA0          1 MGKVTRKIREETKK   14 (237)
+T ss_pred             CCcccccccccccC
+Confidence            89999999985543
+
+
+No 2
+>7QEP_L2 genome decay, microbial parasite, genome; HET: SPD, AMP;{Encephalitozoon cuniculi GB-M1}
+Probab=44.43  E-value=19  Score=20.14  Aligned_cols=12  Identities=42%  Similarity=0.745  Sum_probs=9.4  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCcccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKSV   12 (21)
+Q Consensus         1 mgkvyrqdrksv   12 (21)
+                      |||+.||.|+..
+T Consensus         1 mgk~~~~qr~g~   12 (239)
+T 7QEP_L2           1 MGKITRRTREAK   12 (239)
+T ss_pred             CCcccHhhcCCC
+Confidence            888888887654
+
+
+No 3
+>7OLC_LA thermophilic eukaryotic ribosome, 80S, rRNA; HET: MG, B8N, OMG;{Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=42.69  E-value=27  Score=19.45  Aligned_cols=11  Identities=55%  Similarity=0.936  Sum_probs=7.8  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKS   11 (21)
+Q Consensus         1 mgkvyrqdrks   11 (21)
+                      |||+.||.|+-
+T Consensus         1 m~~~~~~qr~g   11 (254)
+T 7OLC_LA           1 MGRVIRNQRKG   11 (254)
+T ss_pred             CCCcccccccC
+Confidence            78887777653
+
+
+No 4
+>5XY3_A Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=42.44  E-value=25  Score=19.59  Aligned_cols=12  Identities=33%  Similarity=0.681  Sum_probs=9.3  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCcccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKSV   12 (21)
+Q Consensus         1 mgkvyrqdrksv   12 (21)
+                      |||+-|+.|+..
+T Consensus         1 mg~~i~~qr~g~   12 (251)
+T 5XY3_A            1 MGHIVRAQRRGN   12 (251)
+T ss_pred             CCcccceecCCC
+Confidence            888888887753
+
+
+No 5
+>7R81_D1 Protein Synthesis Inhibitor, Cytosolic Ribosome; HET: 3HE, SPD, MG; 2.7A {Neurospora crassa}
+Probab=40.31  E-value=31  Score=19.30  Aligned_cols=10  Identities=60%  Similarity=1.016  Sum_probs=7.2  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCcc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRK   10 (21)
+Q Consensus         1 mgkvyrqdrk   10 (21)
+                      |||+.||.|+
+T Consensus         1 mgk~i~~qr~   10 (254)
+T 7R81_D1           1 MGRVIRNQRK   10 (254)
+T ss_pred             CCcccccccc
+Confidence            7777777665
+
+
+No 6
+>1VQO_A 50S RIBOSOMAL SUBUNIT; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA; HET: CL, 1MA, MG, PPU, UR3, PSU, OMU, SR, NA, OMG; 2.2A {Haloarcula marismortui} SCOP: b.40.4.5, b.34.5.3
+Probab=33.98  E-value=44  Score=18.49  Aligned_cols=10  Identities=30%  Similarity=0.657  Sum_probs=7.6  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCcc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRK   10 (21)
+Q Consensus         1 mgkvyrqdrk   10 (21)
+                      |||+-|+.|+
+T Consensus         1 mgk~i~~qr~   10 (240)
+T 1VQO_A            1 MGRRIQGQRR   10 (240)
+T ss_pred             CCcccccccC
+Confidence            7888877766
+
+
+No 7
+>4V9F_A PROTEIN/RNA Complex; 50S ribosomal subunit, ribonucleoprotein, ribosomal; HET: CL, 1MA, MG, ACY, UR3, PSU, OMU, NA, OMG; 2.404A {Haloarcula marismortui}
+Probab=33.98  E-value=44  Score=18.49  Aligned_cols=10  Identities=30%  Similarity=0.657  Sum_probs=7.6  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCcc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRK   10 (21)
+Q Consensus         1 mgkvyrqdrk   10 (21)
+                      |||+-|+.|+
+T Consensus         1 mgk~i~~qr~   10 (240)
+T 4V9F_A            1 MGRRIQGQRR   10 (240)
+T ss_pred             CCcccccccC
+Confidence            7888877766
+
+
+No 8
+>4V8P_GA Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: ZN, MG; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=33.37  E-value=41  Score=19.02  Aligned_cols=11  Identities=55%  Similarity=0.909  Sum_probs=8.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKS   11 (21)
+Q Consensus         1 mgkvyrqdrks   11 (21)
+                      |||+.|+.|+.
+T Consensus         1 m~k~i~~qr~g   11 (264)
+T 4V8P_GA           1 MGRVIRAQRKG   11 (264)
+T ss_pred             CCcccceecCC
+Confidence            78888777654
+
+
+No 9
+>5UMD_D 60S ribosomal protein L2, 60S; Ribosome, protein synthesis, antimalarial; HET: YMZ, MG; 3.2A {Plasmodium falciparum 3D7}
+Probab=32.33  E-value=48  Score=18.73  Aligned_cols=9  Identities=56%  Similarity=0.947  Sum_probs=5.1  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDR    9 (21)
+Q Consensus         1 mgkvyrqdr    9 (21)
+                      |||+.++.|
+T Consensus         1 Mgk~i~~qr    9 (260)
+T 5UMD_D            1 MGRVIRGQR    9 (260)
+T ss_dssp             -CCCCHHHH
+T ss_pred             CCccccccc
+Confidence            677766554
+
+
+No 10
+>6ZU5_LA0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=32.02  E-value=46  Score=18.73  Aligned_cols=11  Identities=45%  Similarity=0.404  Sum_probs=7.9  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKS   11 (21)
+Q Consensus         1 mgkvyrqdrks   11 (21)
+                      |||+.+|.|+-
+T Consensus         1 mgk~i~~qr~g   11 (247)
+T 6ZU5_LA0          1 MSKVIRRLRLL   11 (247)
+T ss_pred             CCCccccccCC
+Confidence            78887777654
+
+
+No 11
+>7O7Y_BA Frameshift, virus, pseudoknot, RIBOSOME; HET: 2MG, PSU, 4AC, 7MG, 6MZ, OMU, GTP, UY1, 5MC, A2M, UR3, H2U, MLZ, V5N, 5MU, SPM, B8N, AME, UNX, OMG, SAC, HIC, OMC, 1MA, YYG, MG, M3L, MA6, SPD, NMM, M2G; 2.2A {Oryctolagus cuniculus}
+Probab=31.30  E-value=42  Score=18.82  Aligned_cols=10  Identities=60%  Similarity=0.959  Sum_probs=6.8  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCcc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRK   10 (21)
+Q Consensus         1 mgkvyrqdrk   10 (21)
+                      |||+.+|.|+
+T Consensus         1 mg~~~~~q~~   10 (257)
+T 7O7Y_BA           1 MGRVIRGQRK   10 (257)
+T ss_pred             CCcccceecC
+Confidence            6777776664
+
+
+No 12
+>6TH6_BC 30S ribosomal protein S2, 30S; T. kodakarensis, ac4C, Ribosome, cryo-EM; HET: 5MC, 5MU, OMC, LV2, A2M, MA6, 4AC, 6MZ, ZN, OMU, LHH, OMG, 4SU; 2.55A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=29.92  E-value=49  Score=18.52  Aligned_cols=11  Identities=45%  Similarity=0.670  Sum_probs=8.3  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCccc
+Q tr|F8W1Z7|F8W1    1 MGKVYRQDRKS   11 (21)
+Q Consensus         1 mgkvyrqdrks   11 (21)
+                      ||||-|+.|+.
+T Consensus         1 mg~~i~~qr~g   11 (239)
+T 6TH6_BC           1 MGKSLIQQRRG   11 (239)
+T ss_pred             CCcccceecCC
+Confidence            78888877764
+
+

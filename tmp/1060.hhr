@@ -1,0 +1,170 @@
+Query         tr|H0Y5T8|H0Y5T8_HUMAN
+Match_columns 102
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:41:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1060.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NA7_A HP0958; flagellar bioge  19.8 2.1E+02  0.0023   19.4   2.2   15   48-62    224-239 (256)
+  2 1SH1_A NEUROTOXIN I (SH I) (NM  19.5 1.1E+02  0.0012   20.6   0.8   17   51-67     18-34  (48)
+  3 2H9X_A beta sheet, Toxin; HET:  19.3 1.1E+02  0.0012   20.4   0.8   18   51-68     19-36  (47)
+  4 1C01_A GREEK KEY, BETA-BARREL,  17.2 1.3E+02  0.0015   20.3   0.8   20   32-52      3-24  (76)
+  5 1ATX_A SEA ANEMONE TOXIN; NMR   16.8 1.4E+02  0.0016   19.8   0.9   17   51-67     19-35  (46)
+  6 4IRP_B Beta-1,4-galactosyltran  15.4 1.7E+02  0.0018   19.3   1.0   23   29-51    228-250 (251)
+  7 4IRQ_C Beta-1,4-galactosyltran  15.4 1.7E+02  0.0018   19.3   1.0   23   29-51    228-250 (251)
+  8 4IRQ_D Beta-1,4-galactosyltran  15.4 1.7E+02  0.0018   19.3   1.0   23   29-51    228-250 (251)
+  9 2LUG_A Myelin basic protein; i  11.5 5.4E+02  0.0059   15.1   2.2   19   82-102    18-36  (36)
+ 10 1GH9_A BETA+ALPHA COMPLEX STRU  11.1 4.1E+02  0.0045   17.1   1.8   11   49-59      7-17  (71)
+
+No 1
+>3NA7_A HP0958; flagellar biogenesis, flagellum export, C4; HET: EPE; 2.2A {Helicobacter pylori}
+Probab=19.82  E-value=2.1e+02  Score=19.37  Aligned_cols=15  Identities=27%  Similarity=0.523  Sum_probs=9.9  Template_Neff=11.000
+
+Q ss_pred             CC-CCCcEEEEECCCC
+Q tr|H0Y5T8|H0Y5   48 DC-GCGRFWIFSCPKP   62 (102)
+Q Consensus        48 dc-gcgrfwifscpkp   62 (102)
+                      .| .|||+.++.++..
+T Consensus       224 ~C~~Cgr~l~~~~~~~  239 (256)
+T 3NA7_A          224 TCPYCGRILYAEGAYE  239 (256)
+T ss_dssp             ECTTTCCEEECSCC--
+T ss_pred             eCCCCCcEEEeccccc
+Confidence            56 7888888776543
+
+
+No 2
+>1SH1_A NEUROTOXIN I (SH I) (NMR; NEUROTOXIN; NMR {Stichodactyla helianthus} SCOP: g.9.1.1
+Probab=19.46  E-value=1.1e+02  Score=20.57  Aligned_cols=17  Identities=24%  Similarity=0.347  Sum_probs=12.5  Template_Neff=3.300
+
+Q ss_pred             CCcEEEEECCCCCCccc
+Q tr|H0Y5T8|H0Y5   51 CGRFWIFSCPKPRPICS   67 (102)
+Q Consensus        51 cgrfwifscpkprpics   67 (102)
+                      -|-+|+|.||.---.|.
+T Consensus        18 sGtvw~~gCpsGW~~C~   34 (48)
+T 1SH1_A           18 TGTVDLGSCNAGWEKCA   34 (48)
+T ss_dssp             EEEEEESSCCTTEEEEE
+T ss_pred             eEEEEeecCccchhHhh
+Confidence            36799999987655554
+
+
+No 3
+>2H9X_A beta sheet, Toxin; HET: HYP; NMR {Condylactis gigantea}
+Probab=19.31  E-value=1.1e+02  Score=20.42  Aligned_cols=18  Identities=28%  Similarity=0.719  Sum_probs=14.3  Template_Neff=3.300
+
+Q ss_pred             CCcEEEEECCCCCCcccC
+Q tr|H0Y5T8|H0Y5   51 CGRFWIFSCPKPRPICST   68 (102)
+Q Consensus        51 cgrfwifscpkprpicst   68 (102)
+                      -|-+|+|.||.---.|..
+T Consensus        19 sGtvw~~gCpsGW~~C~~   36 (47)
+T 2H9X_A           19 SGTVWVGSCASGWHKCND   36 (47)
+T ss_dssp             CSEEESSSCCTTCBCSSS
+T ss_pred             eEEEEEecCCCCHhhccc
+Confidence            478999999987776653
+
+
+No 4
+>1C01_A GREEK KEY, BETA-BARREL, ANTIMICROBIAL PROTEIN; NMR {Macadamia integrifolia} SCOP: b.11.1.5
+Probab=17.18  E-value=1.3e+02  Score=20.32  Aligned_cols=20  Identities=40%  Similarity=1.067  Sum_probs=11.6  Template_Neff=5.900
+
+Q ss_pred             cceccCCCCCCCCCCC--CCCCC
+Q tr|H0Y5T8|H0Y5   32 MTVYREGLGCQPTGSP--DCGCG   52 (102)
+Q Consensus        32 mtvyreglgcqptgsp--dcgcg   52 (102)
+                      +||| ||.||.-....  +|||-
+T Consensus         3 ltvy-~gpgC~g~~~~~~~CGC~   24 (76)
+T 1C01_A            3 FTVW-SGPGCNNRAERYSKCGCS   24 (76)
+T ss_dssp             EEEC-SSSSSSSCCEEECSSEEE
+T ss_pred             eEEe-cCCCCCCCcEEEecccce
+Confidence            4566 57788654433  56663
+
+
+No 5
+>1ATX_A SEA ANEMONE TOXIN; NMR {Anemonia sulcata} SCOP: g.9.1.1
+Probab=16.81  E-value=1.4e+02  Score=19.83  Aligned_cols=17  Identities=35%  Similarity=1.101  Sum_probs=13.1  Template_Neff=3.400
+
+Q ss_pred             CCcEEEEECCCCCCccc
+Q tr|H0Y5T8|H0Y5   51 CGRFWIFSCPKPRPICS   67 (102)
+Q Consensus        51 cgrfwifscpkprpics   67 (102)
+                      -|-+|+|.||+---.|.
+T Consensus        19 sGt~w~~gCpsGW~kC~   35 (46)
+T 1ATX_A           19 SGTIWVFGCPSGWNNCE   35 (46)
+T ss_dssp             EEEEESSCCCTTCEEEC
+T ss_pred             eeEEEeecCCCChhhcc
+Confidence            36789999998766665
+
+
+No 6
+>4IRP_B Beta-1,4-galactosyltransferase 7 (E.C.2.4.1.-, 2.4.1.133); GT-A fold, open conformation, manganese; HET: UDP, ACT; 2.1A {Homo sapiens}
+Probab=15.43  E-value=1.7e+02  Score=19.28  Aligned_cols=23  Identities=39%  Similarity=0.592  Sum_probs=18.4  Template_Neff=11.500
+
+Q ss_pred             CCCcceccCCCCCCCCCCCCCCC
+Q tr|H0Y5T8|H0Y5   29 GAAMTVYREGLGCQPTGSPDCGC   51 (102)
+Q Consensus        29 gaamtvyreglgcqptgspdcgc   51 (102)
+                      +...++...++.|+++.-|-|+-
+T Consensus       228 ~~~~~~~~~~~~~~~~~~~~~~~  250 (251)
+T 4IRP_B          228 GAPCTVLNIMLDCDKTATPWCTF  250 (251)
+T ss_dssp             TEEEEEEEEEECCCTTTCGGGSC
+T ss_pred             CcceEEEEEEEecCCCCCCCcCC
+Confidence            45567778899999999998874
+
+
+No 7
+>4IRQ_C Beta-1,4-galactosyltransferase 7 (E.C.2.4.1.-, 2.4.1.133); GT-A fold, closed conformation, manganese; HET: TRS, UDP; 2.3A {Homo sapiens}
+Probab=15.43  E-value=1.7e+02  Score=19.28  Aligned_cols=23  Identities=39%  Similarity=0.592  Sum_probs=18.0  Template_Neff=11.500
+
+Q ss_pred             CCCcceccCCCCCCCCCCCCCCC
+Q tr|H0Y5T8|H0Y5   29 GAAMTVYREGLGCQPTGSPDCGC   51 (102)
+Q Consensus        29 gaamtvyreglgcqptgspdcgc   51 (102)
+                      +...++...++.|+++.-|-|+-
+T Consensus       228 ~~~~~~~~~~~~~~~~~~~~~~~  250 (251)
+T 4IRQ_C          228 GAPCTVLNIMLDCDKTATPWCTF  250 (251)
+T ss_dssp             TEEEEEEEEEECCCTTTCGGGCC
+T ss_pred             CcceEEEEEEEecCCCCCCCcCC
+Confidence            34557777889999999998874
+
+
+No 8
+>4IRQ_D Beta-1,4-galactosyltransferase 7 (E.C.2.4.1.-, 2.4.1.133); GT-A fold, closed conformation, manganese; HET: TRS, UDP; 2.3A {Homo sapiens}
+Probab=15.43  E-value=1.7e+02  Score=19.28  Aligned_cols=23  Identities=39%  Similarity=0.592  Sum_probs=18.3  Template_Neff=11.500
+
+Q ss_pred             CCCcceccCCCCCCCCCCCCCCC
+Q tr|H0Y5T8|H0Y5   29 GAAMTVYREGLGCQPTGSPDCGC   51 (102)
+Q Consensus        29 gaamtvyreglgcqptgspdcgc   51 (102)
+                      +...++...++.|+++.-|-|+-
+T Consensus       228 ~~~~~~~~~~~~~~~~~~~~~~~  250 (251)
+T 4IRQ_D          228 GAPCTVLNIMLDCDKTATPWCTF  250 (251)
+T ss_dssp             TEEEEEEEEEECCCTTTCGGGCC
+T ss_pred             CcceEEEEEEEecCCCCCCCcCC
+Confidence            45567778899999999998874
+
+
+No 9
+>2LUG_A Myelin basic protein; intrinsically disordered proteins, dodecylphosphocholine micelles; NMR {Mus musculus}
+Probab=11.50  E-value=5.4e+02  Score=15.10  Aligned_cols=19  Identities=42%  Similarity=0.857  Sum_probs=11.6  Template_Neff=6.000
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y5T8|H0Y5   82 SLPPPRSPPPLLRSGRNIGLC  102 (102)
+Q Consensus        82 slppprspppllrsgrniglc  102 (102)
+                      .+.-||.+++....|  +|+|
+T Consensus        18 ~~~spr~~~p~~~~G--~g~~   36 (36)
+T 2LUG_A           18 NIVTPRTPPPSQGKG--RGLS   36 (36)
+T ss_dssp             HHHCSSCCCCCBCTT--TTTC
+T ss_pred             cccCCCCCCcccCCC--CCCC
+Confidence            344577777777666  4443
+
+
+No 10
+>1GH9_A BETA+ALPHA COMPLEX STRUCTURE, STRUCTURAL GENOMICS; NMR {Methanothermobacter thermautotrophicus} SCOP: g.41.6.1
+Probab=11.11  E-value=4.1e+02  Score=17.09  Aligned_cols=11  Identities=36%  Similarity=0.748  Sum_probs=7.3  Template_Neff=7.000
+
+Q ss_pred             CCCCcEEEEEC
+Q tr|H0Y5T8|H0Y5   49 CGCGRFWIFSC   59 (102)
+Q Consensus        49 cgcgrfwifsc   59 (102)
+                      |.||++|+..-
+T Consensus         7 C~Cg~~~~~~~   17 (71)
+T 1GH9_A            7 CDCGRALYSRE   17 (71)
+T ss_dssp             ETTSCCEEEET
+T ss_pred             ecCCCeEEEeC
+Confidence            56777777653
+
+

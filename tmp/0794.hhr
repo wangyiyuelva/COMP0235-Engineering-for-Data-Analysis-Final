@@ -1,0 +1,387 @@
+Query         sp|Q14802|FXYD3_HUMAN
+Match_columns 87
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:51:17 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0794.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2JP3_A Protein, TRANSCRIPTION;  99.9 1.2E-22 1.3E-27  124.0   7.7   67   21-87      1-67  (67)
+  2 2ZXE_G Na, K-ATPase alpha subu  99.8 1.1E-19 1.2E-24  114.6   7.1   63   25-87      7-73  (74)
+  3 5AVT_G Na, K-ATPase alpha subu  99.8 1.1E-19 1.2E-24  114.6   7.1   63   25-87      7-73  (74)
+  4 5AW5_G NA, K-ATPASE ALPHA SUBU  99.8 1.1E-19 1.2E-24  114.6   7.1   63   25-87      7-73  (74)
+  5 3WGU_E Sodium/potassium-transp  99.8 4.4E-18 4.8E-23  103.6   6.8   60   12-72      1-60  (65)
+  6 7DDI_E Sodium/potassium-transp  99.8 4.4E-18 4.8E-23  103.6   6.8   60   12-72      1-60  (65)
+  7 2MKV_A Sodium/potassium-transp  99.6 1.3E-14 1.4E-19   89.3   6.1   56   19-74      6-61  (64)
+  8 4XE5_G Sodium/potassium-transp  99.6 2.3E-14 2.5E-19   85.6   5.9   51   23-73      4-54  (58)
+  9 2JO1_A FXYD1, Na, K-ATPase, Mi  99.5 2.2E-13 2.3E-18   86.2   6.5   50   24-73      3-52  (72)
+ 10 3N23_E Sodium/potassium-transp  99.2 1.7E-11 1.9E-16   66.5   3.4   31   28-58      1-31  (31)
+ 11 6EJ2_A Beta-secretase 1 (E.C.3  43.3      81 0.00088   23.1   3.5   10   39-48    457-466 (501)
+ 12 7B00_B HATs, amino-acid, trans  36.3 1.4E+02  0.0015   23.1   4.0    7   34-40     77-83  (529)
+ 13 7DSK_A Sodium-dependent neutra  34.9 1.6E+02  0.0017   23.7   4.1    7   34-40    193-199 (647)
+ 14 7JMT_A BCL-2 protein; APOPTOSI  33.4 1.7E+02  0.0019   20.4   3.8   25   34-58    180-204 (210)
+ 15 7JMT_C BCL-2 protein; APOPTOSI  33.4 1.7E+02  0.0019   20.4   3.8   25   34-58    180-204 (210)
+ 16 2KV9_B Integrin beta-3, Integr  31.1      46  0.0005   20.2   0.7    7   41-47     16-22  (75)
+ 17 6JXR_n T-cell surface glycopro  30.7 1.5E+02  0.0016   18.0   2.7   10   45-54    267-276 (291)
+ 18 7CCS_A 4F2 cell-surface antige  29.5   2E+02  0.0022   22.9   4.0    7   34-40    179-185 (631)
+ 19 7P54_B Membrane protein, lipid  27.5 4.2E+02  0.0046   21.9   5.5   35    9-44     14-52  (541)
+ 20 7D60_D Calcium homeostasis mod  26.3   2E+02  0.0022   21.6   3.4   26   37-62    179-204 (288)
+ 21 7D61_D Calcium homeostasis mod  26.3   2E+02  0.0022   21.6   3.4   28   36-63    178-205 (288)
+ 22 6UIW_J Calcium homeostasis mod  24.6 2.3E+02  0.0025   22.2   3.5   23   39-61    186-208 (331)
+ 23 6YTL_U Calcium homeostasis mod  21.7 2.7E+02  0.0029   21.7   3.4   27   37-63    185-211 (314)
+ 24 6LMV_B Calcium homeostasis mod  20.3 3.2E+02  0.0034   21.8   3.5   26   37-62    190-215 (337)
+
+No 1
+>2JP3_A Protein, TRANSCRIPTION; NMR {Rattus norvegicus}
+Probab=99.89  E-value=1.2e-22  Score=124.02  Aligned_cols=67  Identities=54%  Similarity=1.033  Sum_probs=64.5  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   21 NDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHPGETPPLITPGSAQS   87 (87)
+Q Consensus        21 ndledknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhpgetpplitpgsaqs   87 (87)
+                      ||+++++++|+|||++||++||++|+++|++||+++++++|||++++++++.++++++|++++|+++
+T Consensus         1 ~~~~~~~~pF~ydy~~Lr~gGli~a~vl~~~Gi~il~s~~~~c~~~~~~~~~~~~~~~l~~~~~~~~   67 (67)
+T 2JP3_A            1 NGPVDKGSPFYYDWESLQLGGLIFGGLLCIAGIALALSGKCKCRRNHTPSSLPEKVTPLITPGSAST   67 (67)
+T ss_dssp             CCTTSTTSGGGGGGHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHTCCTTTSTTTSHHHHSCCCSCC
+T ss_pred             CCCcCCCCCcccchhhccHhHHHHHHHHHHHHHHHHhcCCcCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            7899999999999999999999999999999999999999999999999888999999999999985
+
+
+No 2
+>2ZXE_G Na, K-ATPase alpha subunit, Na+,K+-ATPase; membrane protein, ion pump, ATPase; HET: NAG, CLR, NDG; 2.4A {Squalus acanthias}
+Probab=99.82  E-value=1.1e-19  Score=114.60  Aligned_cols=63  Identities=43%  Similarity=0.857  Sum_probs=56.8  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCC----CCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   25 DKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHP----GETPPLITPGSAQS   87 (87)
+Q Consensus        25 dknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhp----getpplitpgsaqs   87 (87)
+                      +++++|+|||++||++||++++++|++||+++++++|||++++++++.+    ++.++|++++|+++
+T Consensus         7 ~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 2ZXE_G            7 DNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            5788999999999999999999999999999999999999998876443    45899999999875
+
+
+No 3
+>5AVT_G Na, K-ATPase alpha subunit,Na+,K+-ATPase beta; MEMBRANE PROTEIN, ION PUMP, ATPASE; HET: NAG, CLR; 2.9A {Squalus acanthias}
+Probab=99.82  E-value=1.1e-19  Score=114.60  Aligned_cols=63  Identities=43%  Similarity=0.857  Sum_probs=56.8  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCC----CCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   25 DKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHP----GETPPLITPGSAQS   87 (87)
+Q Consensus        25 dknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhp----getpplitpgsaqs   87 (87)
+                      +++++|+|||++||++||++++++|++||+++++++|||++++++++.+    ++.++|++++|+++
+T Consensus         7 ~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 5AVT_G            7 DNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            5788999999999999999999999999999999999999998876443    45899999999875
+
+
+No 4
+>5AW5_G NA, K-ATPASE ALPHA SUBUNIT, NA+,K+-ATPASE; MEMBRANE PROTEIN, ION PUMP, ATPASE; HET: NAG, CLR; 2.9A {Squalus acanthias}
+Probab=99.82  E-value=1.1e-19  Score=114.60  Aligned_cols=63  Identities=43%  Similarity=0.857  Sum_probs=56.8  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCC----CCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   25 DKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHP----GETPPLITPGSAQS   87 (87)
+Q Consensus        25 dknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhp----getpplitpgsaqs   87 (87)
+                      +++++|+|||++||++||++++++|++||+++++++|||++++++++.+    ++.++|++++|+++
+T Consensus         7 ~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 5AW5_G            7 DNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            5788999999999999999999999999999999999999998876443    45899999999875
+
+
+No 5
+>3WGU_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); membrane protein, ion pump, ATPase; HET: PC1, NAG, ADP, CLR, ALF; 2.8A {Sus scrofa}
+Probab=99.76  E-value=4.4e-18  Score=103.59  Aligned_cols=60  Identities=32%  Similarity=0.636  Sum_probs=55.6  Template_Neff=6.600
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCC
+Q sp|Q14802|FXYD   12 LAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHH   72 (87)
+Q Consensus        12 lagfpvldandledknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghh   72 (87)
+                      ++|+|.+++||+.+++++|+|||++||++|+++++++|++||+++++++|||++ +++|+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~-~~~r~~   60 (65)
+T 3WGU_E            1 MAGLSTDDGGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGG-KKHRPI   60 (65)
+T ss_pred             CCCCcCCCCCCCCCCCCCCcccccccchhHHHHHHHHHHHHHHHHHhccCCCCC-CCCCCC
+Confidence            478999999999999999999999999999999999999999999999999999 666544
+
+
+No 6
+>7DDI_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.7.2.2.13); Na+, K+-ATPase, membrane protein, ion; HET: NAG, PCW, PHD, F9R, CLR; 3.72A {Sus scrofa}
+Probab=99.76  E-value=4.4e-18  Score=103.59  Aligned_cols=60  Identities=32%  Similarity=0.636  Sum_probs=55.6  Template_Neff=6.600
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCC
+Q sp|Q14802|FXYD   12 LAGFPVLDANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHH   72 (87)
+Q Consensus        12 lagfpvldandledknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghh   72 (87)
+                      ++|+|.+++||+.+++++|+|||++||++|+++++++|++||+++++++|||++ +++|+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~-~~~r~~   60 (65)
+T 7DDI_E            1 MAGLSTDDGGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGG-KKHRPI   60 (65)
+T ss_pred             CCCCcCCCCCCCCCCCCCCcccccccchhHHHHHHHHHHHHHHHHHhccCCCCC-CCCCCC
+Confidence            478999999999999999999999999999999999999999999999999999 666544
+
+
+No 7
+>2MKV_A Sodium/potassium-transporting ATPase subunit gamma; FXYD2b, Na, K-ATPase, FXYD, micelle; NMR {Homo sapiens}
+Probab=99.57  E-value=1.3e-14  Score=89.26  Aligned_cols=56  Identities=27%  Similarity=0.532  Sum_probs=50.9  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   19 DANDLEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHPG   74 (87)
+Q Consensus        19 dandledknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhpg   74 (87)
+                      ..+++.+++++|+|||++||++|+++++++|++||+++++++|+|++++++++.++
+T Consensus         6 ~~~~~~~~~~pF~Ydy~~Lr~gGli~a~vl~~~Gilil~s~~~~c~~~~~~~~~~~   61 (64)
+T 2MKV_A            6 LGGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRSGGNKKRRQINE   61 (64)
+T ss_dssp             CSCCCCSSCCCTHHHHTTHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSCCSCCCCC
+T ss_pred             CCCCCCCCCCccccccccccHHHHHHHHHHHHHHHHHHHhccCCCCCCcccCCCCC
+Confidence            46788889999999999999999999999999999999999999999998775543
+
+
+No 8
+>4XE5_G Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); alpha-helical transmembrane protein, ATPase, sodium; HET: BFD, OBN, CLR; 3.901A {Bos taurus}
+Probab=99.55  E-value=2.3e-14  Score=85.59  Aligned_cols=51  Identities=29%  Similarity=0.753  Sum_probs=46.4  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   23 LEDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHP   73 (87)
+Q Consensus        23 ledknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhp   73 (87)
+                      +.+++++|+|||++||++||++|+++|++||++++++++||++++++++.+
+T Consensus         4 ~~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~~~~~r~~~   54 (58)
+T 4XE5_G            4 VQGTEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKRQHRQIP   54 (58)
+T ss_pred             CCCCCCCCccchhhccHhHHHHHHHHHHHHHHHHhcccCCCCCCcccCCCC
+Confidence            456788999999999999999999999999999999999999998877553
+
+
+No 9
+>2JO1_A FXYD1, Na, K-ATPase, Micelle, HYDROLASE; NMR {Homo sapiens}
+Probab=99.48  E-value=2.2e-13  Score=86.15  Aligned_cols=50  Identities=46%  Similarity=0.981  Sum_probs=45.2  Template_Neff=5.900
+
+Q ss_pred             CCCCCCCCCChhHhhHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCC
+Q sp|Q14802|FXYD   24 EDKNSPFYYDWHSLQVGGLICAGVLCAMGIIIVMSAKCKCKFGQKSGHHP   73 (87)
+Q Consensus        24 edknspfyydwhslqvgglicagvlcamgiiivmsakckckfgqksghhp   73 (87)
+                      .+++++|+|||++||++||++|+++|++||+++++++|+|+++++++..+
+T Consensus         3 ~~e~~pF~YDy~~LR~gGLi~a~vlfi~Gi~il~s~~~~c~~~~~~r~~~   52 (72)
+T 2JO1_A            3 PKEHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQRTGE   52 (72)
+T ss_dssp             HHHHSGGGCSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTTSSSC
+T ss_pred             CCCCCCcccchhhccHhHHHHHHHHHHHHHHHHhcccCCCCcccccCCCC
+Confidence            45778999999999999999999999999999999999999998876543
+
+
+No 10
+>3N23_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); sodium-potassium pump, P-type ATPase, ouabain; HET: PHD, OBN; 4.6A {Sus scrofa}
+Probab=99.24  E-value=1.7e-11  Score=66.53  Aligned_cols=31  Identities=45%  Similarity=0.987  Sum_probs=29.1  Template_Neff=6.400
+
+Q ss_pred             CCCCCChhHhhHHHHHHHHHHHHHHHHHHHh
+Q sp|Q14802|FXYD   28 SPFYYDWHSLQVGGLICAGVLCAMGIIIVMS   58 (87)
+Q Consensus        28 spfyydwhslqvgglicagvlcamgiiivms   58 (87)
+                      +||+|||++||++|+++|+++|++||++++|
+T Consensus         1 ~~F~ydy~~Lr~~Gli~a~~l~~~gi~~~~s   31 (31)
+T 3N23_E            1 DPFYYDYETVRNGGLIFAALAFIVGLIIILS   31 (31)
+T ss_pred             CCcccchhhchHHHHHHHHHHHHHHHHHHhC
+Confidence            5899999999999999999999999998764
+
+
+No 11
+>6EJ2_A Beta-secretase 1 (E.C.3.4.23.46); BACE1, protease, Alzheimer, PEPTIDE BINDING; HET: B7E; 1.46A {Homo sapiens}
+Probab=43.30  E-value=81  Score=23.06  Aligned_cols=10  Identities=10%  Similarity=0.092  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHHHH
+Q sp|Q14802|FXYD   39 VGGLICAGVL   48 (87)
+Q Consensus        39 vgglicagvl   48 (87)
+                      +.|.+..++.
+T Consensus       457 ~~~~~i~~~~  466 (501)
+T 6EJ2_A          457 TIAYVMAAIC  466 (501)
+T ss_dssp             ----------
+T ss_pred             HHHHHHHHHH
+Confidence            3344444333
+
+
+No 12
+>7B00_B HATs, amino-acid, transporter, membrane, protein; HET: NAG, AJP;{Homo sapiens}
+Probab=36.35  E-value=1.4e+02  Score=23.10  Aligned_cols=7  Identities=14%  Similarity=0.482  Sum_probs=4.0  Template_Neff=9.900
+
+Q ss_pred             hhHhhHH
+Q sp|Q14802|FXYD   34 WHSLQVG   40 (87)
+Q Consensus        34 whslqvg   40 (87)
+                      |..+|..
+T Consensus        77 w~~~r~~   83 (529)
+T 7B00_B           77 WVRTRWA   83 (529)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            5566654
+
+
+No 13
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=34.91  E-value=1.6e+02  Score=23.71  Aligned_cols=7  Identities=14%  Similarity=0.482  Sum_probs=4.5  Template_Neff=9.700
+
+Q ss_pred             hhHhhHH
+Q sp|Q14802|FXYD   34 WHSLQVG   40 (87)
+Q Consensus        34 whslqvg   40 (87)
+                      |..+|..
+T Consensus       193 w~~~r~~  199 (647)
+T 7DSK_A          193 WVRTRWA  199 (647)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            6667655
+
+
+No 14
+>7JMT_A BCL-2 protein; APOPTOSIS; HET: N3C; 2.75A {Schistosoma japonicum}
+Probab=33.42  E-value=1.7e+02  Score=20.43  Aligned_cols=25  Identities=24%  Similarity=0.610  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             hhHhhHHHHHHHHHHHHHHHHHHHh
+Q sp|Q14802|FXYD   34 WHSLQVGGLICAGVLCAMGIIIVMS   58 (87)
+Q Consensus        34 whslqvgglicagvlcamgiiivms   58 (87)
+                      |..++..+.+.+++...+++..++.
+T Consensus       180 ~~~l~~~~~~~a~~~~~~~~~~~l~  204 (210)
+T 7JMT_A          180 WKTLRNVGGLATGAVGALGLAALVG  204 (210)
+T ss_dssp             -------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4456666666666655555554443
+
+
+No 15
+>7JMT_C BCL-2 protein; APOPTOSIS; HET: N3C; 2.75A {Schistosoma japonicum}
+Probab=33.42  E-value=1.7e+02  Score=20.43  Aligned_cols=25  Identities=24%  Similarity=0.610  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             hhHhhHHHHHHHHHHHHHHHHHHHh
+Q sp|Q14802|FXYD   34 WHSLQVGGLICAGVLCAMGIIIVMS   58 (87)
+Q Consensus        34 whslqvgglicagvlcamgiiivms   58 (87)
+                      |..++..+.+.+++...+++..++.
+T Consensus       180 ~~~l~~~~~~~a~~~~~~~~~~~l~  204 (210)
+T 7JMT_C          180 WKTLRNVGGLATGAVGALGLAALVG  204 (210)
+T ss_dssp             -------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4456666666666655555554443
+
+
+No 16
+>2KV9_B Integrin beta-3, Integrin alpha-IIb; integrin beta3, beta3, platelet glycoprotein; NMR {Homo sapiens}
+Probab=31.09  E-value=46  Score=20.20  Aligned_cols=7  Identities=0%  Similarity=-0.638  Sum_probs=0.4  Template_Neff=8.000
+
+Q ss_pred             HHHHHHH
+Q sp|Q14802|FXYD   41 GLICAGV   47 (87)
+Q Consensus        41 glicagv   47 (87)
+                      +.++.++
+T Consensus        16 ~~~~~gl   22 (75)
+T 2KV9_B           16 PRGSHMS   22 (75)
+T ss_dssp             ------C
+T ss_pred             HHHHhHH
+Confidence            3333333
+
+
+No 17
+>6JXR_n T-cell surface glycoprotein CD3 zeta; IMMUNE SYSTEM;{Homo sapiens}
+Probab=30.73  E-value=1.5e+02  Score=18.00  Aligned_cols=10  Identities=20%  Similarity=0.152  Sum_probs=3.7  Template_Neff=13.100
+
+Q ss_pred             HHHHHHHHHH
+Q sp|Q14802|FXYD   45 AGVLCAMGII   54 (87)
+Q Consensus        45 agvlcamgii   54 (87)
+                      ..+++++.++
+T Consensus       267 ~~~~~~~~~~  276 (291)
+T 6JXR_n          267 KATLYAVLVS  276 (291)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 18
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=29.55  E-value=2e+02  Score=22.93  Aligned_cols=7  Identities=14%  Similarity=0.482  Sum_probs=4.6  Template_Neff=9.800
+
+Q ss_pred             hhHhhHH
+Q sp|Q14802|FXYD   34 WHSLQVG   40 (87)
+Q Consensus        34 whslqvg   40 (87)
+                      |..+|..
+T Consensus       179 w~~~r~~  185 (631)
+T 7CCS_A          179 WVRTRWA  185 (631)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            6667755
+
+
+No 19
+>7P54_B Membrane protein, lipid metabolism, lipid; HET: NAG;{Homo sapiens}
+Probab=27.46  E-value=4.2e+02  Score=21.88  Aligned_cols=35  Identities=29%  Similarity=0.303  Sum_probs=18.2  Template_Neff=8.400
+
+Q ss_pred             chhcCCCCCCCCCCCCCCCCCCCCC----hhHhhHHHHHH
+Q sp|Q14802|FXYD    9 LVFLAGFPVLDANDLEDKNSPFYYD----WHSLQVGGLIC   44 (87)
+Q Consensus         9 lvflagfpvldandledknspfyyd----whslqvgglic   44 (87)
+                      .-++-.+|-+|-+-.. -++.|..+    +++|-.-+.+.
+T Consensus        14 ~~~~H~~Ph~~~~f~~-v~~~F~p~~~~Y~~sL~~~~~v~   52 (541)
+T 7P54_B           14 VVWLHSVPHVGLRLQP-VNSTFSPGDESYQESLLFLGLVA   52 (541)
+T ss_dssp             HHHHHTSCCCTTTTCC-CCCCCCTTCHHHHHHHHHHHHHH
+T ss_pred             HHHHhcCCccccccee-cCCCCCCCChhHHHHHHHHHHHH
+Confidence            4456678877664332 34455553    34444444443
+
+
+No 20
+>7D60_D Calcium homeostasis modulator protein 5; large pore channel, TRANSPORT PROTEIN; HET: PA8; 2.61A {Homo sapiens}
+Probab=26.29  E-value=2e+02  Score=21.61  Aligned_cols=26  Identities=15%  Similarity=0.244  Sum_probs=11.4  Template_Neff=8.300
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHhccCC
+Q sp|Q14802|FXYD   37 LQVGGLICAGVLCAMGIIIVMSAKCK   62 (87)
+Q Consensus        37 lqvgglicagvlcamgiiivmsakck   62 (87)
+                      .+.-|++.-.++.++..++....+|.
+T Consensus       179 SQiiG~~ll~~~~~~~~i~~~~~rC~  204 (288)
+T 7D60_D          179 SQILGWCLICSASFFSLLTTCYARCR  204 (288)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HhHhHHHHHHHHHHHHHHHHHHHHcC
+Confidence            33445544444444444443344443
+
+
+No 21
+>7D61_D Calcium homeostasis modulator protein 5; large pore channel, TRANSPORT PROTEIN; HET: PA8; 2.8A {Homo sapiens}
+Probab=26.29  E-value=2e+02  Score=21.61  Aligned_cols=28  Identities=14%  Similarity=0.230  Sum_probs=13.5  Template_Neff=8.300
+
+Q ss_pred             HhhHHHHHHHHHHHHHHHHHHHhccCCC
+Q sp|Q14802|FXYD   36 SLQVGGLICAGVLCAMGIIIVMSAKCKC   63 (87)
+Q Consensus        36 slqvgglicagvlcamgiiivmsakckc   63 (87)
+                      ..+.-|++.-.++.++..++....+|.+
+T Consensus       178 ~SQiiG~~ll~~~~~~~~i~~~~~rC~~  205 (288)
+T 7D61_D          178 QSQILGWCLICSASFFSLLTTCYARCRS  205 (288)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             HHhHhHHHHHHHHHHHHHHHHHHHHcCC
+Confidence            3555555555444444444444445433
+
+
+No 22
+>6UIW_J Calcium homeostasis modulator protein 2; calcium homeostasis modulator, CALHM2, ruthenium; HET: R2R; 2.7A {Homo sapiens}
+Probab=24.55  E-value=2.3e+02  Score=22.17  Aligned_cols=23  Identities=13%  Similarity=0.179  Sum_probs=9.3  Template_Neff=7.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhccC
+Q sp|Q14802|FXYD   39 VGGLICAGVLCAMGIIIVMSAKC   61 (87)
+Q Consensus        39 vgglicagvlcamgiiivmsakc   61 (87)
+                      .-|++.-++..++..++....+|
+T Consensus       186 viGw~li~~i~i~~~i~~c~~~C  208 (331)
+T 6UIW_J          186 LFGWLLIGVVAILVFLTKCLKHY  208 (331)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHh
+Confidence            44444444443443333333344
+
+
+No 23
+>6YTL_U Calcium homeostasis modulator protein 4; calcium homeostasis modulator, ion channel;{Homo sapiens}
+Probab=21.74  E-value=2.7e+02  Score=21.65  Aligned_cols=27  Identities=22%  Similarity=0.249  Sum_probs=12.8  Template_Neff=7.800
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHhccCCC
+Q sp|Q14802|FXYD   37 LQVGGLICAGVLCAMGIIIVMSAKCKC   63 (87)
+Q Consensus        37 lqvgglicagvlcamgiiivmsakckc   63 (87)
+                      -+.-|++.-.+..+++.++....+|.+
+T Consensus       185 SQviGw~li~~~~i~~~i~~~~~rC~s  211 (314)
+T 6YTL_U          185 SQMLGWILITLATIAALVSCCVAKCCS  211 (314)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HhhHHHHHHHHHHHHHHHHHHHHhhcC
+Confidence            334455554444445544444445533
+
+
+No 24
+>6LMV_B Calcium homeostasis modulator protein; channel, MEMBRANE PROTEIN; 3.6A {Caenorhabditis elegans}
+Probab=20.32  E-value=3.2e+02  Score=21.82  Aligned_cols=26  Identities=4%  Similarity=-0.100  Sum_probs=11.2  Template_Neff=7.400
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHhccCC
+Q sp|Q14802|FXYD   37 LQVGGLICAGVLCAMGIIIVMSAKCK   62 (87)
+Q Consensus        37 lqvgglicagvlcamgiiivmsakck   62 (87)
+                      .+.-|++.-.+..++..++.-..+|.
+T Consensus       190 SQiiGw~Li~~i~i~~~l~~c~~rCc  215 (337)
+T 6LMV_B          190 SQIYAWGLLLFSGVAAFLVITCNRMC  215 (337)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HhHhHHHHHHHHHHHHHHHHHHHhcC
+Confidence            34555555444444443333334443
+
+

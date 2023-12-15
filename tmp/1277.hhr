@@ -1,0 +1,190 @@
+Query         tr|K7EQ88|K7EQ88_HUMAN
+Match_columns 119
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:42:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1277.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6B8F_A Ferritin heavy chain; O  29.7 1.8E+02   0.002   19.4   3.3   38   46-83    129-169 (182)
+  2 6ZHE_C DNA-dependent protein k  23.7 7.8E+02  0.0085   21.5   7.2   77   24-103   617-696 (732)
+  3 7SGL_C endonuclease, Kinase, c  23.7 7.8E+02  0.0085   21.5   7.2   77   24-103   617-696 (732)
+  4 4ISP_C Ferritin; ferritin, 4 h  18.9 2.1E+02  0.0023   18.9   2.0   25   48-72    119-143 (168)
+  5 4IWK_B PmFTN; ferritin, 4 heli  18.9 2.1E+02  0.0023   18.9   2.0   25   48-72    119-143 (168)
+  6 5XTD_Q NADH dehydrogenase [ubi  16.9 6.6E+02  0.0072   20.6   4.7   46   26-71    102-147 (430)
+  7 5XTI_Q NADH dehydrogenase [ubi  16.9 6.6E+02  0.0072   20.6   4.7   46   26-71    102-147 (430)
+  8 2JD6_R FERRITIN HOMOLOG; METAL  16.1 4.2E+02  0.0046   17.0   2.8   16   55-70    125-140 (174)
+  9 3ZYQ_A HEPATOCYTE GROWTH FACTO  16.1 5.7E+02  0.0062   16.8   5.1   34   25-58     11-44  (226)
+ 10 4AVX_A HEPATOCYTE GROWTH FACTO  16.1 5.7E+02  0.0062   16.8   5.1   38   24-61     10-47  (226)
+
+No 1
+>6B8F_A Ferritin heavy chain; Oxidoreductase, Hydrogel, Polymer; HET: CA; 1.06A {Homo sapiens}
+Probab=29.70  E-value=1.8e+02  Score=19.39  Aligned_cols=38  Identities=16%  Similarity=0.305  Sum_probs=26.1  Template_Neff=10.600
+
+Q ss_pred             HHHHHH-hcCCcHHHHHHHHHHHHHHHhhhh--hhhhhHHH
+Q tr|K7EQ88|K7EQ   46 CENWLE-NQQGNQERHLREMFTHMNSLSEET--DHKHDVYW   83 (119)
+Q Consensus        46 cenwle-nqqgnqerhlremfthmnslseet--dhkhdvyw   83 (119)
+                      ...+++ ..-..|++|.+.+-.+.+.+....  ...+.+||
+T Consensus       129 ~~~~l~~~~~~~e~~~~~~l~~~l~~~~~~~~~~~~~~~~~  169 (182)
+T 6B8F_A          129 LADFIETHYLNEQVKAIKELGDHVTNLRKMGAPESGLAEYL  169 (182)
+T ss_dssp             HHHHHCCCCCHHHHHHHHHHHHHHHHHHHHTTTTCHHHHHH
+T ss_pred             HHHHHHHcccHHHHHHHHHHHHHHHHHHhcCCCCCCchHHH
+Confidence            556675 666778888888878777776655  45556665
+
+
+No 2
+>6ZHE_C DNA-dependent protein kinase catalytic subunit; Kinase, DNA-PKcs, NHEJ, DNA-repair, DNA-PK; 7.24A {Homo sapiens}
+Probab=23.66  E-value=7.8e+02  Score=21.50  Aligned_cols=77  Identities=12%  Similarity=0.299  Sum_probs=42.1  Template_Neff=9.600
+
+Q ss_pred             hHHhhhhcccccccchHHHHHHHHHHHHhcC--CcHHHHHHHHHHHHHHHhhhhhhhhhHHHHHhhhhhh-hhcccCCCC
+Q tr|K7EQ88|K7EQ   24 VAIIDRLTRNSVYDSNLEAALECENWLENQQ--GNQERHLREMFTHMNSLSEETDHKHDVYWKSFNQKSV-LITEDRVPK  100 (119)
+Q Consensus        24 vaiidrltrnsvydsnleaalecenwlenqq--gnqerhlremfthmnslseetdhkhdvywksfnqksv-litedrvpk  100 (119)
+                      ..+|-+|...+ -+.+...|++|-.-|...-  -+.....-+....+...-  ...++.-+|+.+-...+ |||.+-.|.
+T Consensus       617 ~~~i~~l~~~~-~~~~~~k~~~cl~~lR~~~~~~~~~~~~N~~l~~lk~~~--~~~~~~~fw~~~~~~~~~lI~~~e~~~  693 (732)
+T 6ZHE_C          617 INHIEQFLDTN-ETPYFMKSIDCIRAFREEAIKFSEEQRFNNFLKALQEKV--EIKQLNHFWEIVVQDGITLITKEEASG  693 (732)
+T ss_dssp             HHHHHHHSSCS-SHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHH--HHSCCTTHHHHHHHHHHHHCCCCCSTT
+T ss_pred             HHHHHHHHhCC-CccchHHHHHHHHHHHHHHHHcCcHHHHHHHHHHHHHHH--hhccchhHHHHHHHcCCCCeehhhcCC
+Confidence            45566777666 5567888999987776531  111111111111111111  11223458988876665 799888876
+
+
+Q ss_pred             Cch
+Q tr|K7EQ88|K7EQ  101 GSY  103 (119)
+Q Consensus       101 gsy  103 (119)
+                      +..
+T Consensus       694 s~v  696 (732)
+T 6ZHE_C          694 SSV  696 (732)
+T ss_dssp             THH
+T ss_pred             CCC
+Confidence            544
+
+
+No 3
+>7SGL_C endonuclease, Kinase, complex, DNA BINDING; HET: TPO, ATP, IHP; 3.0A {Homo sapiens}
+Probab=23.66  E-value=7.8e+02  Score=21.50  Aligned_cols=77  Identities=13%  Similarity=0.315  Sum_probs=31.0  Template_Neff=9.600
+
+Q ss_pred             hHHhhhhcccccccchHHHHHHHHHHHHhcC--CcHHHHHHHHHHHHHHHhhhhhhhhhHHHHHhhhhhh-hhcccCCCC
+Q tr|K7EQ88|K7EQ   24 VAIIDRLTRNSVYDSNLEAALECENWLENQQ--GNQERHLREMFTHMNSLSEETDHKHDVYWKSFNQKSV-LITEDRVPK  100 (119)
+Q Consensus        24 vaiidrltrnsvydsnleaalecenwlenqq--gnqerhlremfthmnslseetdhkhdvywksfnqksv-litedrvpk  100 (119)
+                      ..+|-+|...+ -+.+...|++|-.-|...-  -+.....-+....+...-.  ..++.-+|+.+-...+ |||.+-.|.
+T Consensus       617 ~~~i~~l~~~~-~~~~~~k~~~cl~~lR~~~~~~~~~~~~N~~l~~lk~~~~--~~~~~~fw~~~~~~~~~lI~~~e~~~  693 (732)
+T 7SGL_C          617 INHIEQFLDTN-ETPYFMKSIDCIRAFREEAIKFSEEQRFNNFLKALQEKVE--IKQLNHFWEIVVQDGITLITKEEASG  693 (732)
+T ss_dssp             HHHHHHHHHCC-CHHHHHHHHHHHHHHHHGGGTSCCHHHHHHHHHHHHHHHH--HSCCTTTTTCC---------------
+T ss_pred             HHHHHHHHhCC-CccchHHHHHHHHHHHHHHHHcCcHHHHHHHHHHHHHHHh--hccchhHHHHHHHcCCCCeehhhcCC
+Confidence            34566666666 5567889999988887642  1211222222222221111  1223458888766554 788777775
+
+
+Q ss_pred             Cch
+Q tr|K7EQ88|K7EQ  101 GSY  103 (119)
+Q Consensus       101 gsy  103 (119)
+                      +..
+T Consensus       694 s~v  696 (732)
+T 7SGL_C          694 SSV  696 (732)
+T ss_dssp             ---
+T ss_pred             CCC
+Confidence            543
+
+
+No 4
+>4ISP_C Ferritin; ferritin, 4 helix bundle, iron; HET: FE, YCM; 2.2A {Pseudo-nitzschia multiseries}
+Probab=18.94  E-value=2.1e+02  Score=18.89  Aligned_cols=25  Identities=8%  Similarity=0.060  Sum_probs=11.8  Template_Neff=10.500
+
+Q ss_pred             HHHHhcCCcHHHHHHHHHHHHHHHh
+Q tr|K7EQ88|K7EQ   48 NWLENQQGNQERHLREMFTHMNSLS   72 (119)
+Q Consensus        48 nwlenqqgnqerhlremfthmnsls   72 (119)
+                      .+++..-..+++|.+++-.+++.+.
+T Consensus       119 ~~l~~~l~~e~~~~~~l~~~l~~~~  143 (168)
+T 4ISP_C          119 AFLNPFHLQQVNEEDKIGSILAKVT  143 (168)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3444444445555555555444443
+
+
+No 5
+>4IWK_B PmFTN; ferritin, 4 helix bundle, iron; HET: FE, YCM; 1.65A {Pseudo-nitzschia multiseries}
+Probab=18.94  E-value=2.1e+02  Score=18.89  Aligned_cols=25  Identities=8%  Similarity=0.060  Sum_probs=12.2  Template_Neff=10.500
+
+Q ss_pred             HHHHhcCCcHHHHHHHHHHHHHHHh
+Q tr|K7EQ88|K7EQ   48 NWLENQQGNQERHLREMFTHMNSLS   72 (119)
+Q Consensus        48 nwlenqqgnqerhlremfthmnsls   72 (119)
+                      .+++..-..+++|.+++-.+++.+.
+T Consensus       119 ~~l~~~l~~e~~~~~~l~~~l~~~~  143 (168)
+T 4IWK_B          119 AFLNPFHLQQVNEEDKIGSILAKVT  143 (168)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3444444445555555555554443
+
+
+No 6
+>5XTD_Q NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: SF4, PEE, NDP, FMN, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=16.91  E-value=6.6e+02  Score=20.63  Aligned_cols=46  Identities=22%  Similarity=0.302  Sum_probs=22.7  Template_Neff=9.100
+
+Q ss_pred             HhhhhcccccccchHHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHH
+Q tr|K7EQ88|K7EQ   26 IIDRLTRNSVYDSNLEAALECENWLENQQGNQERHLREMFTHMNSL   71 (119)
+Q Consensus        26 iidrltrnsvydsnleaalecenwlenqqgnqerhlremfthmnsl   71 (119)
+                      +++|+..-+-.-.++.+++.+|+-+.-+-..+.+.+|.++..+..+
+T Consensus       102 ~~~ri~~~c~~ah~lA~~~AvE~a~gi~~p~~a~~lR~ll~eleri  147 (430)
+T 5XTD_Q          102 YFDRLDYVSMMCNEQAYSLAVEKLLNIRPPPRAQWIRVLFGEITRL  147 (430)
+T ss_pred             HHhcCCccchhhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHH
+Confidence            4555544443334455555555555444444455566655544433
+
+
+No 7
+>5XTI_Q NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: SF4, PEE, HEM, NDP, HEA, HEC, FMN, CDL, 8Q1, FES, PLX; 17.4A {Homo sapiens}
+Probab=16.91  E-value=6.6e+02  Score=20.63  Aligned_cols=46  Identities=22%  Similarity=0.302  Sum_probs=22.7  Template_Neff=9.100
+
+Q ss_pred             HhhhhcccccccchHHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHH
+Q tr|K7EQ88|K7EQ   26 IIDRLTRNSVYDSNLEAALECENWLENQQGNQERHLREMFTHMNSL   71 (119)
+Q Consensus        26 iidrltrnsvydsnleaalecenwlenqqgnqerhlremfthmnsl   71 (119)
+                      +++|+..-+-.-.++.+++.+|+-+.-+-..+.+.+|.++..+..+
+T Consensus       102 ~~~ri~~~c~~ah~lA~~~AvE~a~gi~~p~~a~~lR~ll~eleri  147 (430)
+T 5XTI_Q          102 YFDRLDYVSMMCNEQAYSLAVEKLLNIRPPPRAQWIRVLFGEITRL  147 (430)
+T ss_pred             HHhcCCccchhhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHH
+Confidence            4555544443334455555555555444444455566655544433
+
+
+No 8
+>2JD6_R FERRITIN HOMOLOG; METAL TRANSPORT, IRON, PORES, FERRITIN; HET: SO4, FE; 2.75A {PYROCOCCUS FURIOSUS}
+Probab=16.09  E-value=4.2e+02  Score=17.03  Aligned_cols=16  Identities=6%  Similarity=0.023  Sum_probs=6.2  Template_Neff=11.200
+
+Q ss_pred             CcHHHHHHHHHHHHHH
+Q tr|K7EQ88|K7EQ   55 GNQERHLREMFTHMNS   70 (119)
+Q Consensus        55 gnqerhlremfthmns   70 (119)
+                      ..+++|++.+-...+.
+T Consensus       125 ~~e~~~~~~l~~~~~~  140 (174)
+T 2JD6_R          125 NEQVEEEASVKKILDK  140 (174)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3334444443333333
+
+
+No 9
+>3ZYQ_A HEPATOCYTE GROWTH FACTOR-REGULATED TYROSINE KINASE; SIGNALING; HET: EDO; 1.48A {HOMO SAPIENS}
+Probab=16.07  E-value=5.7e+02  Score=16.83  Aligned_cols=34  Identities=12%  Similarity=0.306  Sum_probs=20.2  Template_Neff=11.700
+
+Q ss_pred             HHhhhhcccccccchHHHHHHHHHHHHhcCCcHH
+Q tr|K7EQ88|K7EQ   25 AIIDRLTRNSVYDSNLEAALECENWLENQQGNQE   58 (119)
+Q Consensus        25 aiidrltrnsvydsnleaalecenwlenqqgnqe   58 (119)
+                      .+|++.|.....+.+....++.-+.+..+..+..
+T Consensus        11 ~~i~~at~~~~~~~~~~~~~~i~~~i~~~~~~~~   44 (226)
+T 3ZYQ_A           11 RLLDKATSQLLLETDWESILQICDLIRQGDTQAK   44 (226)
+T ss_dssp             HHHHHHTCTTCSSCCHHHHHHHHHHHHTTSSCHH
+T ss_pred             HHHHHHhccccCCCCHHHHHHHHHHHcCCCccHH
+Confidence            4566666666666666666666666655544443
+
+
+No 10
+>4AVX_A HEPATOCYTE GROWTH FACTOR-REGULATED TYROSINE KINASE; SIGNALING PROTEIN, STRUCTURAL GENOMICS CONSORTIUM; HET: ITP, EDO; 1.68A {HOMO SAPIENS}
+Probab=16.07  E-value=5.7e+02  Score=16.83  Aligned_cols=38  Identities=11%  Similarity=0.250  Sum_probs=22.6  Template_Neff=11.700
+
+Q ss_pred             hHHhhhhcccccccchHHHHHHHHHHHHhcCCcHHHHH
+Q tr|K7EQ88|K7EQ   24 VAIIDRLTRNSVYDSNLEAALECENWLENQQGNQERHL   61 (119)
+Q Consensus        24 vaiidrltrnsvydsnleaalecenwlenqqgnqerhl   61 (119)
+                      ..+|++.|.....+.+....++.-+.+..+..+....+
+T Consensus        10 ~~~i~~at~~~~~~~~~~~~~~i~~~i~~~~~~~~~~~   47 (226)
+T 4AVX_A           10 ERLLDKATSQLLLETDWESILQICDLIRQGDTQAKYAV   47 (226)
+T ss_dssp             HHHHHHHTCTTCSSCCHHHHHHHHHHHHHTSSCHHHHH
+T ss_pred             HHHHHHHhccccCCCCHHHHHHHHHHHcCCCccHHHHH
+Confidence            34567777666666666666666666665555444333
+
+

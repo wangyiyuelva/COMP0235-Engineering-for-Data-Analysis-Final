@@ -1,0 +1,169 @@
+Query         tr|H0YLY2|H0YLY2_HUMAN
+Match_columns 42
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:37:19 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1472.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5X50_L DNA-directed RNA polyme  36.9      31 0.00034   19.1   0.5   10    1-10      1-10  (73)
+  2 7E16_A GDSL-family esterase; e  36.7 1.3E+02  0.0014   16.9   2.9   23    2-24     14-37  (263)
+  3 5XOG_L DNA-directed RNA polyme  35.2      35 0.00038   19.0   0.5   11    1-11      1-11  (72)
+  4 2MEK_A Putative uncharacterize  30.6      69 0.00075   20.4   1.4   15   26-40     96-110 (110)
+  5 6HIH_A Cytochrome c; cytochrom  28.4      62 0.00068   19.5   0.9   18    1-18      1-18  (158)
+  6 6ZSK_A cytochrome c'-beta, met  28.4      62 0.00068   19.5   0.9   18    1-18      1-18  (158)
+  7 7PLO_Q Genome stability, DNA r  24.0 1.1E+02  0.0012   27.2   1.9   18   25-42   1305-1322(1371)
+  8 4LMH_B Extracelllular iron oxi  23.6      59 0.00065   24.7   0.3   23    1-23      1-23  (760)
+  9 4LMH_D Extracelllular iron oxi  23.6      59 0.00065   24.7   0.3   23    1-23      1-23  (760)
+ 10 4GYP_A Glucarate dehydratase (  23.3      69 0.00075   22.1   0.5    6   37-42    439-444 (446)
+
+No 1
+>5X50_L DNA-directed RNA polymerase subunit (E.C.2.7.7.6); transcription, RNA polymerase, TRANSFERASE; 4.293A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=36.87  E-value=31  Score=19.10  Aligned_cols=10  Identities=30%  Similarity=0.544  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCccchhh
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGA   10 (42)
+Q Consensus         1 msrtaytvga   10 (42)
+                      |||.+|.+..
+T Consensus         1 ms~~~~~~~~   10 (73)
+T 5X50_L            1 MSREGFVAPS   10 (73)
+T ss_dssp             ----------
+T ss_pred             CCCcccCCCC
+Confidence            8999998764
+
+
+No 2
+>7E16_A GDSL-family esterase; esterase, HYDROLASE; 2.62A {Geobacillus thermodenitrificans}
+Probab=36.67  E-value=1.3e+02  Score=16.94  Aligned_cols=23  Identities=17%  Similarity=-0.016  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCccchhhhHHhhCCC-CCccCC
+Q tr|H0YLY2|H0YL    2 SRTAYTVGALLLLLGTL-LPAAEG   24 (42)
+Q Consensus         2 srtaytvgalllllgtl-lpaaeg   24 (42)
+                      ++-.+.+++.+.+...+ .|++..
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~p~~~~   37 (263)
+T 7E16_A           14 LVPRGSHMASLVVQDQLFTAAKPS   37 (263)
+T ss_dssp             ------------------------
+T ss_pred             CCcchHHHHHHHHHHHhhcCCCCc
+Confidence            44556667766666666 565544
+
+
+No 3
+>5XOG_L DNA-directed RNA polymerase subunit, DNA-directed; transcription, complex; HET: APC; 3.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=35.18  E-value=35  Score=18.95  Aligned_cols=11  Identities=27%  Similarity=0.362  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCccchhhh
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGAL   11 (42)
+Q Consensus         1 msrtaytvgal   11 (42)
+                      |||.||.+...
+T Consensus         1 ms~~~~~~~~~   11 (72)
+T 5XOG_L            1 MSREGFVAPSG   11 (72)
+T ss_dssp             -----------
+T ss_pred             CCCcCcCCCCc
+Confidence            89999988754
+
+
+No 4
+>2MEK_A Putative uncharacterized protein; Bilbo1, N-terminal domain, METAL BINDING; NMR {Trypanosoma brucei brucei}
+Probab=30.59  E-value=69  Score=20.41  Aligned_cols=15  Identities=53%  Similarity=0.789  Sum_probs=11.5  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|H0YLY2|H0YL   26 KKGSQGAIPPPAKRP   40 (42)
+Q Consensus        26 kkgsqgaipppakrp   40 (42)
+                      .+.+|+.||||.+-|
+T Consensus        96 ~~~~q~~iP~p~~p~  110 (110)
+T 2MEK_A           96 HKESQKEIPPAMKPP  110 (110)
+T ss_dssp             CSCCCCCCSSCCCC-
+T ss_pred             ccchhccCCCCCCCC
+Confidence            478999999987643
+
+
+No 5
+>6HIH_A Cytochrome c; cytochrome, NO, CO, methanotroph, OXIDOREDUCTASE; HET: GOL, HEC; 1.6A {Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath)}
+Probab=28.41  E-value=62  Score=19.55  Aligned_cols=18  Identities=28%  Similarity=0.593  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCccchhhhHHhhCCC
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGALLLLLGTL   18 (42)
+Q Consensus         1 msrtaytvgalllllgtl   18 (42)
+                      |.|-.+.+.++|.++++.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~   18 (158)
+T 6HIH_A            1 MNKPSFLLVGLLVVSGVL   18 (158)
+T ss_dssp             ------------------
+T ss_pred             CCchhHHHHHHHHHHHHh
+Confidence            556666677766666655
+
+
+No 6
+>6ZSK_A cytochrome c'-beta, methanotroph, carbon monoxide; HET: GOL, HEC; 1.6A {Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath)}
+Probab=28.41  E-value=62  Score=19.55  Aligned_cols=18  Identities=28%  Similarity=0.593  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCccchhhhHHhhCCC
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGALLLLLGTL   18 (42)
+Q Consensus         1 msrtaytvgalllllgtl   18 (42)
+                      |.|-.+.+.++|.++++.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~   18 (158)
+T 6ZSK_A            1 MNKPSFLLVGLLVVSGVL   18 (158)
+T ss_dssp             ------------------
+T ss_pred             CCchhHHHHHHHHHHHHh
+Confidence            556666677766666655
+
+
+No 7
+>7PLO_Q Genome stability, DNA replication, Ubiquitination; HET: ANP; 2.8A {Homo sapiens}
+Probab=23.98  E-value=1.1e+02  Score=27.17  Aligned_cols=18  Identities=28%  Similarity=0.309  Sum_probs=13.5  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|H0YLY2|H0YL   25 KKKGSQGAIPPPAKRPCM   42 (42)
+Q Consensus        25 kkkgsqgaipppakrpcm   42 (42)
+                      ||+++..+.+|.+||||+
+T Consensus      1305 kkr~~~~~~~p~~Kr~k~ 1322 (1371)
+T 7PLO_Q         1305 KKRGPSFMTSPSPKHLKT 1322 (1371)
+T ss_pred             cCCCCCCCCCCCCccccC
+Confidence            455666677888999985
+
+
+No 8
+>4LMH_B Extracelllular iron oxide respiratory system; Greek key beta barrel, Electron; HET: DMS, HEC; 2.7A {Shewanella oneidensis}
+Probab=23.64  E-value=59  Score=24.66  Aligned_cols=23  Identities=26%  Similarity=0.055  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCCCccchhhhHHhhCCCCCccC
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGALLLLLGTLLPAAE   23 (42)
+Q Consensus         1 msrtaytvgalllllgtllpaae   23 (42)
+                      |++....+.++++++..+|..-+
+T Consensus         1 m~~~~~~~~~~~~~~~l~l~gC~   23 (760)
+T 4LMH_B            1 MKFKLNLITLALLANTGLAVAAG   23 (760)
+T ss_dssp             -----------------------
+T ss_pred             CchhHHHHHHHHHHHHHHHHHhc
+Confidence            56666655555555545554443
+
+
+No 9
+>4LMH_D Extracelllular iron oxide respiratory system; Greek key beta barrel, Electron; HET: DMS, HEC; 2.7A {Shewanella oneidensis}
+Probab=23.64  E-value=59  Score=24.66  Aligned_cols=23  Identities=26%  Similarity=0.055  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCCCccchhhhHHhhCCCCCccC
+Q tr|H0YLY2|H0YL    1 MSRTAYTVGALLLLLGTLLPAAE   23 (42)
+Q Consensus         1 msrtaytvgalllllgtllpaae   23 (42)
+                      |++....+.++++++..+|..-+
+T Consensus         1 m~~~~~~~~~~~~~~~l~l~gC~   23 (760)
+T 4LMH_D            1 MKFKLNLITLALLANTGLAVAAG   23 (760)
+T ss_dssp             -----------------------
+T ss_pred             CchhHHHHHHHHHHHHHHHHHhc
+Confidence            56666655555555545554443
+
+
+No 10
+>4GYP_A Glucarate dehydratase (E.C.4.2.1.40), Glucarate dehydratase-related; TIM-BARREL, LYASE-LYASE complex, Structural genomics; HET: GOL, PEG, SO4, CIT, P6G; 2.1A {Escherichia coli}
+Probab=23.33  E-value=69  Score=22.11  Aligned_cols=6  Identities=83%  Similarity=1.719  Sum_probs=2.9  Template_Neff=8.800
+
+Q ss_pred             CCCCCC
+Q tr|H0YLY2|H0YL   37 AKRPCM   42 (42)
+Q Consensus        37 akrpcm   42 (42)
+                      .|||||
+T Consensus       439 ~~~~~~  444 (446)
+T 4GYP_A          439 NKRPCM  444 (446)
+T ss_dssp             TTSCTT
+T ss_pred             CCCCcc
+Confidence            345554
+
+

@@ -1,0 +1,248 @@
+Query         tr|E0CX16|E0CX16_HUMAN
+Match_columns 92
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:35:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0670.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U08_F Double-stranded DNA-spe  84.2    0.94   1E-05   28.4   0.8   22   25-46    100-121 (123)
+  2 4LRX_C PTS-dependent dihydroxy  64.0      22 0.00024   21.6   2.9   23    3-25      2-25  (318)
+  3 4LRZ_E PTS-dependent dihydroxy  64.0      22 0.00024   21.6   2.9   23    3-25      2-25  (318)
+  4 4WJ0_A PH1245; CRISPR-ASSOCIAT  42.1 2.4E+02  0.0026   21.3   7.0   37   42-78    129-166 (322)
+  5 7A23_j 51kDa, Nad2m, Nad3m, Na  41.5 1.5E+02  0.0017   18.9   6.6   60    8-76      9-70  (83)
+  6 2YZS_B Putative uncharacterize  34.6 3.3E+02  0.0036   20.7   7.5   35   43-77    123-158 (315)
+  7 3B0P_A tRNA-dihydrouridine syn  27.9 4.3E+02  0.0046   19.9   6.7   36   34-70    282-317 (350)
+  8 3B0U_Y tRNA-dihydrouridine syn  27.9 4.3E+02  0.0046   19.9   6.7   24   35-59    283-306 (350)
+  9 7MIB_C CRISPR/Cas, Cas4, PAM r  27.9 4.8E+02  0.0053   20.5   7.9   35   43-77    361-396 (559)
+ 10 7MID_B CRISPR/Cas, Cas4, PAM r  27.9 4.8E+02  0.0053   20.5   7.9   35   43-77    361-396 (559)
+ 11 7CR6_A Tubulin alpha-1B chain,  25.1 5.1E+02  0.0055   19.8   6.2   34   45-78    147-181 (336)
+ 12 7CR8_C CRISPR-associated endon  25.1 5.1E+02  0.0055   19.8   6.2   39   40-78    142-181 (336)
+ 13 7CR8_k CRISPR-associated endon  25.1 5.1E+02  0.0055   19.8   6.2   37   41-77    143-180 (336)
+ 14 2L3G_A Rho guanine nucleotide   23.2 1.1E+02  0.0012   16.8   1.2   18   32-49      7-24  (126)
+ 15 5FCL_A CRISPR-associated endon  22.7 5.8E+02  0.0063   19.9   5.2   36   44-79    185-221 (338)
+
+No 1
+>6U08_F Double-stranded DNA-specific cytidine deaminase, DddI; type VI secretion system, toxin; HET: MSE; 2.491A {Burkholderia cenocepacia}
+Probab=84.16  E-value=0.94  Score=28.40  Aligned_cols=22  Identities=14%  Similarity=0.424  Sum_probs=18.1  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHcCCchHHHHHH
+Q tr|E0CX16|E0CX   25 SARHFLHHYYVHGERPACEQWQ   46 (92)
+Q Consensus        25 sarhflhhyyvhgerpaceqwq   46 (92)
+                      .++.-+++|...|+||.|-+|+
+T Consensus       100 ~a~~a~~ef~~tG~rp~~v~W~  121 (123)
+T 6U08_F          100 QMIEAAKQFFATKQRPEQLTWS  121 (123)
+T ss_dssp             HHHHHHHHHHHHSSCCSSSCEE
+T ss_pred             HHHHHHHHHHHcCCCCCcccce
+Confidence            4667778888889999998886
+
+
+No 2
+>4LRX_C PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit; coiled-coil, helix rotation, PAS, GAF; HET: GOL; 3.25A {Escherichia coli}
+Probab=64.00  E-value=22  Score=21.62  Aligned_cols=23  Identities=17%  Similarity=0.330  Sum_probs=9.2  Template_Neff=13.400
+
+Q ss_pred             CCCCCCCCCcc-HHHHHHHHHHHH
+Q tr|E0CX16|E0CX    3 DGSGWQPPRPC-EAYRAEWKLCRS   25 (92)
+Q Consensus         3 dgsgwqpprpc-eayraewklcrs   25 (92)
+                      .|.+|.||+.. ..-...|+-|+.
+T Consensus         2 ~~~~~~~~~~~~~~~~~sw~r~~~   25 (318)
+T 4LRX_C            2 SGAFNNDGRGISPLIATSWERCNK   25 (318)
+T ss_dssp             ----------CCHHHHHHHHHHHH
+T ss_pred             CCccCCCCCCCCHHHHHHHHHHHH
+Confidence            46789999986 455677988885
+
+
+No 3
+>4LRZ_E PTS-dependent dihydroxyacetone kinase, ADP-binding subunit; coiled-coil, helix rotation, GAF, PAS; HET: ADP; 2.32A {Escherichia coli}
+Probab=64.00  E-value=22  Score=21.62  Aligned_cols=23  Identities=17%  Similarity=0.330  Sum_probs=8.6  Template_Neff=13.400
+
+Q ss_pred             CCCCCCCCCcc-HHHHHHHHHHHH
+Q tr|E0CX16|E0CX    3 DGSGWQPPRPC-EAYRAEWKLCRS   25 (92)
+Q Consensus         3 dgsgwqpprpc-eayraewklcrs   25 (92)
+                      .|.+|.||+.. ..-...|+-|+.
+T Consensus         2 ~~~~~~~~~~~~~~~~~sw~r~~~   25 (318)
+T 4LRZ_E            2 SGAFNNDGRGISPLIATSWERCNK   25 (318)
+T ss_dssp             -----------CHHHHHHHHHHHH
+T ss_pred             CCccCCCCCCCCHHHHHHHHHHHH
+Confidence            36789999985 455677988885
+
+
+No 4
+>4WJ0_A PH1245; CRISPR-ASSOCIATED CAS1, METALLONUCLEASE, DNASE, PROK; 2.85A {Pyrococcus horikoshii}
+Probab=42.12  E-value=2.4e+02  Score=21.32  Aligned_cols=37  Identities=16%  Similarity=0.173  Sum_probs=28.5  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhCC
+Q tr|E0CX16|E0CX   42 CEQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTGP   78 (92)
+Q Consensus        42 ceqwqrdlascrdweerrnaeaqasr-ffqliftltgp   78 (92)
+                      -+...+.+.++.+.++-+..|+++++ +|+.+..+.++
+T Consensus       129 l~~~~~~l~~~~~~~~l~g~Eg~~a~~Y~~~~~~~l~~  166 (322)
+T 4WJ0_A          129 LSDYLDELNDARKITEIMNVEARIRQEYYAKWDENLPE  166 (322)
+T ss_dssp             GGGGHHHHHHCCSHHHHHHHHHHHHHHHHHHHGGGSCG
+T ss_pred             HHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHHHhCCC
+Confidence            34556678889999999999999986 67777766653
+
+
+No 5
+>7A23_j 51kDa, Nad2m, Nad3m, Nad6m, Nad1m; Respiration, Complex I, mitochondria, plant; HET: T7X, SF4, NDP, U10, FMN, CDL, PEV; 3.7A {Brassica oleracea}
+Probab=41.51  E-value=1.5e+02  Score=18.87  Aligned_cols=60  Identities=17%  Similarity=0.231  Sum_probs=39.5  Template_Neff=7.500
+
+Q ss_pred             CCCCccHHHHHHHHHHHHHHHHHHHHHHcCCchHHHHHHHHHHhCCCH--HHHHHHHHHHHHHHHHHHHHh
+Q tr|E0CX16|E0CX    8 QPPRPCEAYRAEWKLCRSARHFLHHYYVHGERPACEQWQRDLASCRDW--EERRNAEAQASRFFQLIFTLT   76 (92)
+Q Consensus         8 qpprpceayraewklcrsarhflhhyyvhgerpaceqwqrdlascrdw--eerrnaeaqasrffqliftlt   76 (92)
+                      +-+.+|-.+-.+|..|-.+-         .....|.....|+..|..-  +..|....+..|..|......
+T Consensus         9 ~~~~rC~~fe~~~~~C~~~~---------~~~~~C~~~~~Dy~ECl~~~Ke~~R~~~i~~er~rq~~~g~~   70 (83)
+T 7A23_j            9 GNKGRCYDFWMDFSECMSHC---------REPKDCTLLREDYLECLHHSKEFQRRNRIYKEEQRKLRAASR   70 (83)
+T ss_pred             CCCCchHHHHHHHHHHHHHc---------CCchhccchhccchHHHHCcHHHHHHHHHHHHHHHHHHHHhc
+Confidence            34667999888998888662         3456799999999998653  334444444555555554433
+
+
+No 6
+>2YZS_B Putative uncharacterized protein; Uncharacterized conserved protein, STRUCTURAL GENOMICS; HET: MSE; 2.0A {Aquifex aeolicus}
+Probab=34.59  E-value=3.3e+02  Score=20.66  Aligned_cols=35  Identities=14%  Similarity=0.265  Sum_probs=26.8  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhC
+Q tr|E0CX16|E0CX   43 EQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTG   77 (92)
+Q Consensus        43 eqwqrdlascrdweerrnaeaqasr-ffqliftltg   77 (92)
+                      +...+.+.++.+-++-+..|+++++ +|+.+..+-+
+T Consensus       123 ~~~~~~l~~~~~~~~l~g~Eg~~a~~y~~~~~~~~~  158 (315)
+T 2YZS_B          123 DTYLNKVKETNSIPELMSVEAEFRKLCYKKLEEVTG  158 (315)
+T ss_dssp             HHHHHHHHHCCSHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHhhhcCCCHHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            4445677889999999999999887 6677766543
+
+
+No 7
+>3B0P_A tRNA-dihydrouridine synthase; Tim Barrel, OXIDOREDUCTASE; HET: FMN; 1.7A {Thermus thermophilus}
+Probab=27.89  E-value=4.3e+02  Score=19.92  Aligned_cols=36  Identities=19%  Similarity=0.260  Sum_probs=22.8  Template_Neff=9.400
+
+Q ss_pred             HHcCCchHHHHHHHHHHhCCCHHHHHHHHHHHHHHHH
+Q tr|E0CX16|E0CX   34 YVHGERPACEQWQRDLASCRDWEERRNAEAQASRFFQ   70 (92)
+Q Consensus        34 yvhgerpaceqwqrdlascrdweerrnaeaqasrffq   70 (92)
+                      |.+|. |-...|.+.|.++.+.+|-.........++.
+T Consensus       282 ~~~~~-~~~~~~r~~l~~~~~~~~~~~~~~~~~~~~~  317 (350)
+T 3B0P_A          282 LFRGR-PKGRLWRRLLSEGRSLQALDRALRLMEEEVG  317 (350)
+T ss_dssp             TTTTS-TTHHHHHHHHHHHCSHHHHHHHHHHHHHHHC
+T ss_pred             HHcCC-CCHHHHHHHHHhCCCHHHHHHHHHHHHHHHH
+Confidence            34443 5568899999999998884333334444443
+
+
+No 8
+>3B0U_Y tRNA-dihydrouridine synthase/RNA Complex, FLAVIN MONONUCLEOTIDE; Tim barrel, OXIDOREDUCTASE-RNA complex; HET: H2U, FMN; 1.948A {Thermus thermophilus}
+Probab=27.89  E-value=4.3e+02  Score=19.92  Aligned_cols=24  Identities=25%  Similarity=0.489  Sum_probs=17.6  Template_Neff=9.400
+
+Q ss_pred             HcCCchHHHHHHHHHHhCCCHHHHH
+Q tr|E0CX16|E0CX   35 VHGERPACEQWQRDLASCRDWEERR   59 (92)
+Q Consensus        35 vhgerpaceqwqrdlascrdweerr   59 (92)
+                      .+|. |-...|.+.|.++.+.+|-.
+T Consensus       283 ~~~~-~~~~~~r~~l~~~~~~~~~~  306 (350)
+T 3B0U_Y          283 FRGR-PKGRLWRRLLSEGRSLQALD  306 (350)
+T ss_dssp             TTTS-TTHHHHHHHHHHHCSHHHHH
+T ss_pred             HcCC-CCHHHHHHHHHhCCCHHHHH
+Confidence            4443 55688999999999888743
+
+
+No 9
+>7MIB_C CRISPR/Cas, Cas4, PAM recognition, half; 5.8A {Geobacter sulfurreducens}
+Probab=27.87  E-value=4.8e+02  Score=20.53  Aligned_cols=35  Identities=14%  Similarity=0.118  Sum_probs=27.6  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhC
+Q tr|E0CX16|E0CX   43 EQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTG   77 (92)
+Q Consensus        43 eqwqrdlascrdweerrnaeaqasr-ffqliftltg   77 (92)
+                      ++..+.+.++.+.++-+..|+++++ +|+.++.+.+
+T Consensus       361 ~~~~~~~~~~~~~~~l~g~Eg~~a~~y~~~~~~~~~  396 (559)
+T 7MIB_C          361 QDDMRHAMRAPSLEVLLGIEGASAGRYFQHFSRMLR  396 (559)
+T ss_dssp             HHHHHHHHTCCSHHHHHHHHHHHHHGGGSSTHHHHS
+T ss_pred             HHHHHHHccCCCHHHHHhHHHHHHHHHHHHHHHHcc
+Confidence            3445577888999999999999987 6777777765
+
+
+No 10
+>7MID_B CRISPR/Cas, Cas4, PAM recognition, HYDROLASE-DNA; 3.56A {Geobacter sulfurreducens}
+Probab=27.87  E-value=4.8e+02  Score=20.53  Aligned_cols=35  Identities=14%  Similarity=0.118  Sum_probs=27.5  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhC
+Q tr|E0CX16|E0CX   43 EQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTG   77 (92)
+Q Consensus        43 eqwqrdlascrdweerrnaeaqasr-ffqliftltg   77 (92)
+                      ++..+.+.++.+.++-+..|+++++ +|+.++.+.+
+T Consensus       361 ~~~~~~~~~~~~~~~l~g~Eg~~a~~y~~~~~~~~~  396 (559)
+T 7MID_B          361 QDDMRHAMRAPSLEVLLGIEGASAGRYFQHFSRMLR  396 (559)
+T ss_dssp             HHHHHHHHTCCSHHHHHHHHHHHHHHHHHTTGGGSS
+T ss_pred             HHHHHHHccCCCHHHHHhHHHHHHHHHHHHHHHHcc
+Confidence            3445578889999999999999886 6777777765
+
+
+No 11
+>7CR6_A Tubulin alpha-1B chain, Tubulin beta-2B; CRISPR, adaptation, IMMUNE SYSTEM, IMMUNE; 3.72A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=25.13  E-value=5.1e+02  Score=19.82  Aligned_cols=34  Identities=21%  Similarity=0.257  Sum_probs=26.3  Template_Neff=8.900
+
+Q ss_pred             HHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhCC
+Q tr|E0CX16|E0CX   45 WQRDLASCRDWEERRNAEAQASR-FFQLIFTLTGP   78 (92)
+Q Consensus        45 wqrdlascrdweerrnaeaqasr-ffqliftltgp   78 (92)
+                      ....+.++.+-++-+..|+.+++ +|+.++.+.++
+T Consensus       147 ~~~~l~~~~~~~~l~g~Eg~~a~~Y~~~~~~~~~~  181 (336)
+T 7CR6_A          147 RGKLVMRQQTLEQVRGIEGLAAREYFASWQEMLGH  181 (336)
+T ss_dssp             TSHHHHTCCSSHHHHHHHHHHHHHHTTSSHHHHCT
+T ss_pred             HHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            34567788899999999999776 67777777664
+
+
+No 12
+>7CR8_C CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; CRISPR, adaptation, IMMUNE SYSTEM-DNA complex; 3.7A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=25.13  E-value=5.1e+02  Score=19.82  Aligned_cols=39  Identities=18%  Similarity=0.208  Sum_probs=30.5  Template_Neff=8.900
+
+Q ss_pred             hHHHHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhCC
+Q tr|E0CX16|E0CX   40 PACEQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTGP   78 (92)
+Q Consensus        40 paceqwqrdlascrdweerrnaeaqasr-ffqliftltgp   78 (92)
+                      ..-+.....+.++.+-++-+..|+.+++ +|+.++.+.++
+T Consensus       142 ~~l~~~~~~l~~~~~~~~l~g~Eg~~a~~Y~~~~~~~~~~  181 (336)
+T 7CR8_C          142 NPLKGRGKLVMRQQTLEQVRGIEGLAAREYFASWQEMLGH  181 (336)
+T ss_dssp             TTCHHHHHHGGGCCSSHHHHHHHHHHHHHHHTTSHHHHCS
+T ss_pred             chHHHHHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            4455666778889999999999999776 77888877764
+
+
+No 13
+>7CR8_k CRISPR-associated endonuclease Cas1, CRISPR-associated endoribonuclease; CRISPR, adaptation, IMMUNE SYSTEM-DNA complex; 3.7A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=25.13  E-value=5.1e+02  Score=19.82  Aligned_cols=37  Identities=19%  Similarity=0.237  Sum_probs=26.2  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHHH-HHHHHHHHhC
+Q tr|E0CX16|E0CX   41 ACEQWQRDLASCRDWEERRNAEAQASR-FFQLIFTLTG   77 (92)
+Q Consensus        41 aceqwqrdlascrdweerrnaeaqasr-ffqliftltg   77 (92)
+                      .-+.....+.++.+-++-+..|+.+++ +|+.++.+.+
+T Consensus       143 ~l~~~~~~l~~~~~~~~l~g~Eg~~a~~Y~~~~~~~~~  180 (336)
+T 7CR8_k          143 PLKGRGKLVMRQQTLEQVRGIEGLAAREYFASWQEMLG  180 (336)
+T ss_pred             hHHHHHHHHhcCCCHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            334445566777788888899998776 6777777655
+
+
+No 14
+>2L3G_A Rho guanine nucleotide exchange factor; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=23.16  E-value=1.1e+02  Score=16.78  Aligned_cols=18  Identities=17%  Similarity=0.181  Sum_probs=9.2  Template_Neff=12.200
+
+Q ss_pred             HHHHcCCchHHHHHHHHH
+Q tr|E0CX16|E0CX   32 HYYVHGERPACEQWQRDL   49 (92)
+Q Consensus        32 hyyvhgerpaceqwqrdl   49 (92)
+                      |||+......|..|....
+T Consensus         7 ~~~~~~~~~~~~~w~~~~   24 (126)
+T 2L3G_A            7 HHSHMNSAEQTVTWLITL   24 (126)
+T ss_dssp             SCCCCCHHHHHHHHHHHT
+T ss_pred             hhhccccHHHHHHHHHHh
+Confidence            444444445555565543
+
+
+No 15
+>5FCL_A CRISPR-associated endonuclease Cas1 (E.C.3.1.-.-); CRISPR, Cas, adaptation, integrase, structural; 2.7A {Pectobacterium atrosepticum (strain SCRI 1043 / ATCC BAA-672)}
+Probab=22.75  E-value=5.8e+02  Score=19.92  Aligned_cols=36  Identities=19%  Similarity=0.342  Sum_probs=27.8  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHhCCCHHHHHHHHHHHHHH-HHHHHHHhCCc
+Q tr|E0CX16|E0CX   44 QWQRDLASCRDWEERRNAEAQASRF-FQLIFTLTGPS   79 (92)
+Q Consensus        44 qwqrdlascrdweerrnaeaqasrf-fqliftltgps   79 (92)
+                      .....+..+.+.++-+..|+++++. |+.++.+.++.
+T Consensus       185 ~~~~~l~~~~~~~~l~g~EG~aa~~Y~~~~~~~l~~~  221 (338)
+T 5FCL_A          185 RYQKGLTDCRTSNDVLVQEAMMTKALYRLAANAVSYG  221 (338)
+T ss_dssp             HHHHHHHHCCSHHHHHHHHHHHHHHHHHHHHHHTTCC
+T ss_pred             HHHHhhhcCCCHHHHHHHHHHHHHHHHHHHHHHcCcC
+Confidence            4555678889999999999998764 77777777654
+
+

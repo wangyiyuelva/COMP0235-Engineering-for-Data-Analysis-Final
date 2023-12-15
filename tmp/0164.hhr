@@ -1,0 +1,266 @@
+Query         tr|F8WCD2|F8WCD2_HUMAN
+Match_columns 41
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:06:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0164.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1RSO_B L27 domain, scaffold pr  97.1 0.00057 6.2E-09   32.1   1.4   37    2-38     10-46  (56)
+  2 3LRA_A Disks large homolog 1,   61.0      20 0.00021   20.5   2.2   34    4-38     81-115 (254)
+  3 2FVG_A endoglucanase; tm1049,   39.4   1E+02  0.0011   19.1   3.0   26    6-31      5-30  (340)
+  4 3CPX_A Aminopeptidase, M42 fam  39.0      65  0.0007   20.1   2.1    9   22-30     40-48  (321)
+  5 3CPX_B Aminopeptidase, M42 fam  39.0      65  0.0007   20.1   2.1    9   22-30     40-48  (321)
+  6 3ISX_A Endoglucanase; TM1050,   38.0      55  0.0006   20.5   1.7   24    7-30     19-42  (343)
+  7 1Y76_C L27 domain, scaffold pr  35.5      67 0.00073   17.0   1.6   21   18-38     28-48  (62)
+  8 5DS0_C AP TA1 peptidase; singl  33.9      95   0.001   19.4   2.3   10   21-30     26-35  (359)
+  9 5DS0_J AP TA1 peptidase; singl  33.9      95   0.001   19.4   2.3   10   21-30     26-35  (359)
+ 10 6NW5_B Aminopeptidase; M42 ami  30.0 1.3E+02  0.0014   18.6   2.4   27    5-31      5-31  (331)
+ 11 3UIT_C Chimera of L27 domains   28.8      52 0.00056   20.8   0.6   36    3-38     84-121 (265)
+ 12 3UIT_D Chimera of L27 domains   28.8      52 0.00056   20.8   0.6   35    4-38     85-121 (265)
+ 13 1VHO_A endoglucanase; structur  26.6 1.3E+02  0.0015   19.2   2.1   25    6-30     12-36  (346)
+ 14 3TX8_A Succinyl-diaminopimelat  24.9 1.7E+02  0.0019   17.9   2.3   12   20-31     34-45  (369)
+ 15 1Q7L_A aminoacylase-1, catalys  22.6 2.5E+02  0.0027   15.5   2.5    8   23-30     36-43  (198)
+ 16 1Q7L_C aminoacylase-1, catalys  22.6 2.5E+02  0.0027   15.5   2.5    8   23-30     36-43  (198)
+
+No 1
+>1RSO_B L27 domain, scaffold protein, protein; NMR {Rattus norvegicus} SCOP: a.194.1.1
+Probab=97.13  E-value=0.00057  Score=32.07  Aligned_cols=37  Identities=32%  Similarity=0.517  Sum_probs=32.3  Template_Neff=9.900
+
+Q ss_pred             cchhhhhhCCCCCCCcchhhHHHHHHHHhCHHHHHHh
+Q tr|F8WCD2|F8WC    2 QQVLENLTELPSSTGAEEIDLIFLKGIMENPIVKSLA   38 (41)
+Q Consensus         2 qqvlenltelpsstgaeeidliflkgimenpivksla   38 (41)
+                      +++++++++++.++++++.+..|++.+++++.+++++
+T Consensus        10 ~~i~~sl~~~~~l~~~~~~~~~~l~~il~~~~~~~l~   46 (56)
+T 1RSO_B           10 SQVLDSLEEIHALTDSSEKDLDFLHSVFQDQHLHTLL   46 (56)
+T ss_dssp             HHHHHHHHHHHHTTCCCHHHHHHHHHHHHCHHHHHHH
+T ss_pred             HHHHHhHHHHHHhcCCCHHHHHHHHHHHcCHHHHHHH
+Confidence            5688999999988888778899999999999988865
+
+
+No 2
+>3LRA_A Disks large homolog 1, MAGUK; Tripartite Complex, L27 tetramer, Cell; 2.95A {Homo sapiens}
+Probab=61.04  E-value=20  Score=20.50  Aligned_cols=34  Identities=26%  Similarity=0.385  Sum_probs=18.7  Template_Neff=11.100
+
+Q ss_pred             hhhhhhC-CCCCCCcchhhHHHHHHHHhCHHHHHHh
+Q tr|F8WCD2|F8WC    4 VLENLTE-LPSSTGAEEIDLIFLKGIMENPIVKSLA   38 (41)
+Q Consensus         4 vlenlte-lpsstgaeeidliflkgimenpivksla   38 (41)
+                      ++++++. +..... ...+..++..++.++.+..++
+T Consensus        81 ~~~~l~~~i~~~~~-~~~~~~~l~~~l~~~~~~~~~  115 (254)
+T 3LRA_A           81 LLAALPAQLQPHVD-SQEDLTFLWDMFGEKSLHSLV  115 (254)
+T ss_dssp             HHHTHHHHHTTTCC-CTTHHHHHHHHC---CHHHHH
+T ss_pred             HHHhhHHhhccCCC-CHHHHHHHHHHHcCHHHHHHH
+Confidence            4555655 444332 235778888888888766654
+
+
+No 3
+>2FVG_A endoglucanase; tm1049, Endoglucanase, Structural Genomics, Joint; HET: EDO, MSE; 2.01A {Thermotoga maritima} SCOP: b.49.3.1, c.56.5.4
+Probab=39.42  E-value=1e+02  Score=19.05  Aligned_cols=26  Identities=27%  Similarity=0.422  Sum_probs=11.9  Template_Neff=10.500
+
+Q ss_pred             hhhhCCCCCCCcchhhHHHHHHHHhC
+Q tr|F8WCD2|F8WC    6 ENLTELPSSTGAEEIDLIFLKGIMEN   31 (41)
+Q Consensus         6 enltelpsstgaeeidliflkgimen   31 (41)
+                      ..+-.+...++....-..++...++.
+T Consensus         5 ~~l~~~ps~~~~e~~~~~~i~~~l~~   30 (340)
+T 2FVG_A            5 KELSMMPGVSGDEGKVRDFIKSKIEG   30 (340)
+T ss_dssp             HHHHHSCCBTTCCHHHHHHHHHHHGG
+T ss_pred             HHHhcCCCCCCChHHHHHHHHHHhhh
+Confidence            34444444333223344566666654
+
+
+No 4
+>3CPX_A Aminopeptidase, M42 family; YP_676701.1, Putative M42 Glutamyl Aminopeptidase; HET: EDO, MSE; 2.39A {Cytophaga hutchinsonii ATCC 33406}
+Probab=39.02  E-value=65  Score=20.12  Aligned_cols=9  Identities=11%  Similarity=0.121  Sum_probs=4.4  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHh
+Q tr|F8WCD2|F8WC   22 LIFLKGIME   30 (41)
+Q Consensus        22 liflkgime   30 (41)
+                      ..++...++
+T Consensus        40 ~~~l~~~l~   48 (321)
+T 3CPX_A           40 KDFILEYIR   48 (321)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            345555554
+
+
+No 5
+>3CPX_B Aminopeptidase, M42 family; YP_676701.1, Putative M42 Glutamyl Aminopeptidase; HET: EDO, MSE; 2.39A {Cytophaga hutchinsonii ATCC 33406}
+Probab=39.02  E-value=65  Score=20.12  Aligned_cols=9  Identities=11%  Similarity=0.121  Sum_probs=4.4  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHh
+Q tr|F8WCD2|F8WC   22 LIFLKGIME   30 (41)
+Q Consensus        22 liflkgime   30 (41)
+                      ..++...++
+T Consensus        40 ~~~l~~~l~   48 (321)
+T 3CPX_B           40 KDFILEYIR   48 (321)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            345555554
+
+
+No 6
+>3ISX_A Endoglucanase; TM1050, Endoglucanase, Structural Genomics, Joint; HET: EDO, MSE; 1.4A {Thermotoga maritima}
+Probab=37.95  E-value=55  Score=20.53  Aligned_cols=24  Identities=29%  Similarity=0.230  Sum_probs=10.7  Template_Neff=10.100
+
+Q ss_pred             hhhCCCCCCCcchhhHHHHHHHHh
+Q tr|F8WCD2|F8WC    7 NLTELPSSTGAEEIDLIFLKGIME   30 (41)
+Q Consensus         7 nltelpsstgaeeidliflkgime   30 (41)
+                      .+-++...++.......++...+.
+T Consensus        19 ~l~~~ps~sg~e~~~~~~l~~~l~   42 (343)
+T 3ISX_A           19 KLTEAFGPSGREEEVRSIILEELE   42 (343)
+T ss_dssp             HHHHSCCBTTCCHHHHHHHHHHHT
+T ss_pred             HHHHCcCCCCCHHHHHHHHHHHhh
+Confidence            344444444333334455555554
+
+
+No 7
+>1Y76_C L27 domain, scaffold protein, protein; NMR {Rattus norvegicus} SCOP: a.194.1.1
+Probab=35.48  E-value=67  Score=17.00  Aligned_cols=21  Identities=10%  Similarity=0.268  Sum_probs=17.3  Template_Neff=7.400
+
+Q ss_pred             chhhHHHHHHHHhCHHHHHHh
+Q tr|F8WCD2|F8WC   18 EEIDLIFLKGIMENPIVKSLA   38 (41)
+Q Consensus        18 eeidliflkgimenpivksla   38 (41)
+                      ...++..+..++++|.++.++
+T Consensus        28 ~~~dL~~L~~~L~sPlf~~il   48 (62)
+T 1Y76_C           28 QNEKLSAFYETLKSPLFNQIL   48 (62)
+T ss_dssp             THHHHHHHHHHHHCHHHHHHH
+T ss_pred             hhHHHHHHHHHHhCHHHHHHH
+Confidence            456788999999999988764
+
+
+No 8
+>5DS0_C AP TA1 peptidase; single cell genomics, M42 peptidase; HET: GOL, CO, MSE; 2.8A {Thaumarchaeota archaeon SCGC AB-539-E09}
+Probab=33.87  E-value=95  Score=19.41  Aligned_cols=10  Identities=30%  Similarity=0.082  Sum_probs=5.1  Template_Neff=10.400
+
+Q ss_pred             hHHHHHHHHh
+Q tr|F8WCD2|F8WC   21 DLIFLKGIME   30 (41)
+Q Consensus        21 dliflkgime   30 (41)
+                      ...++...+.
+T Consensus        26 ~~~~l~~~l~   35 (359)
+T 5DS0_C           26 VNAICKEYME   35 (359)
+T ss_dssp             HHHHHHHHHT
+T ss_pred             HHHHHHHHhh
+Confidence            3455555554
+
+
+No 9
+>5DS0_J AP TA1 peptidase; single cell genomics, M42 peptidase; HET: GOL, CO, MSE; 2.8A {Thaumarchaeota archaeon SCGC AB-539-E09}
+Probab=33.87  E-value=95  Score=19.41  Aligned_cols=10  Identities=30%  Similarity=0.082  Sum_probs=5.1  Template_Neff=10.400
+
+Q ss_pred             hHHHHHHHHh
+Q tr|F8WCD2|F8WC   21 DLIFLKGIME   30 (41)
+Q Consensus        21 dliflkgime   30 (41)
+                      ...++...+.
+T Consensus        26 ~~~~l~~~l~   35 (359)
+T 5DS0_J           26 VNAICKEYME   35 (359)
+T ss_dssp             HHHHHHHHHT
+T ss_pred             HHHHHHHHhh
+Confidence            3455555554
+
+
+No 10
+>6NW5_B Aminopeptidase; M42 aminopeptidase, metal ion binding; HET: SO4; 1.7A {Thermotoga maritima}
+Probab=30.00  E-value=1.3e+02  Score=18.62  Aligned_cols=27  Identities=26%  Similarity=0.249  Sum_probs=12.4  Template_Neff=10.400
+
+Q ss_pred             hhhhhCCCCCCCcchhhHHHHHHHHhC
+Q tr|F8WCD2|F8WC    5 LENLTELPSSTGAEEIDLIFLKGIMEN   31 (41)
+Q Consensus         5 lenltelpsstgaeeidliflkgimen   31 (41)
+                      +..+-.+....+.......++...++.
+T Consensus         5 l~~l~~~~s~s~~e~~~~~~l~~~~~~   31 (331)
+T 6NW5_B            5 IRKLTEAFGPSGREEEVRSIILEELEG   31 (331)
+T ss_dssp             HHHHHHSCCBTTCCHHHHHHHHHHHTT
+T ss_pred             HHHHHHccCCCcChHHHHHHHHHHhhh
+Confidence            444445554333333344556555553
+
+
+No 11
+>3UIT_C Chimera of L27 domains from; L27 domain, CELL POLARIZATION, CELL; HET: ACT; 2.05A {Mus musculus}
+Probab=28.85  E-value=52  Score=20.79  Aligned_cols=36  Identities=11%  Similarity=0.225  Sum_probs=23.7  Template_Neff=9.000
+
+Q ss_pred             chhhhhhCCCC-CCCc-chhhHHHHHHHHhCHHHHHHh
+Q tr|F8WCD2|F8WC    3 QVLENLTELPS-STGA-EEIDLIFLKGIMENPIVKSLA   38 (41)
+Q Consensus         3 qvlenltelps-stga-eeidliflkgimenpivksla   38 (41)
+                      .++++++++.. +.++ ...+..++..++.++.++.++
+T Consensus        84 ~ll~~L~~l~~~l~~~~~~~~~~~l~~~l~~~~~~~ll  121 (265)
+T 3UIT_C           84 DLFSSLKHIQHTLVDSQSQEDISLLLQLVQNKDFQNAF  121 (265)
+T ss_dssp             HHHHHHHHHHTTCCSHHHHHHHHHHHHHHHCHHHHHHH
+T ss_pred             HHHHHHHHHHHHcccCCCHHHHHHHHHHHcCHHHHHHH
+Confidence            35667776665 4432 345678888888888876654
+
+
+No 12
+>3UIT_D Chimera of L27 domains from; L27 domain, CELL POLARIZATION, CELL; HET: ACT; 2.05A {Mus musculus}
+Probab=28.85  E-value=52  Score=20.79  Aligned_cols=35  Identities=11%  Similarity=0.223  Sum_probs=22.4  Template_Neff=9.000
+
+Q ss_pred             hhhhhhCCCC-CCCc-chhhHHHHHHHHhCHHHHHHh
+Q tr|F8WCD2|F8WC    4 VLENLTELPS-STGA-EEIDLIFLKGIMENPIVKSLA   38 (41)
+Q Consensus         4 vlenltelps-stga-eeidliflkgimenpivksla   38 (41)
+                      ++++++++.. +.++ ...+..++..++.++.++.++
+T Consensus        85 ll~~L~~l~~~l~~~~~~~~~~~l~~~l~~~~~~~ll  121 (265)
+T 3UIT_D           85 LFSSLKHIQHTLVDSQSQEDISLLLQLVQNKDFQNAF  121 (265)
+T ss_dssp             HHHHHHHHHHHCCSHHHHHHHHHHHHHHHCHHHHHHH
+T ss_pred             HHHHHHHHHHHcccCCCHHHHHHHHHHHcCHHHHHHH
+Confidence            5666666554 4432 345678888888888776654
+
+
+No 13
+>1VHO_A endoglucanase; structural genomics, unknown function; HET: SO4, MSE; 1.86A {Thermotoga maritima} SCOP: b.49.3.1, c.56.5.4
+Probab=26.58  E-value=1.3e+02  Score=19.23  Aligned_cols=25  Identities=24%  Similarity=0.452  Sum_probs=10.9  Template_Neff=9.700
+
+Q ss_pred             hhhhCCCCCCCcchhhHHHHHHHHh
+Q tr|F8WCD2|F8WC    6 ENLTELPSSTGAEEIDLIFLKGIME   30 (41)
+Q Consensus         6 enltelpsstgaeeidliflkgime   30 (41)
+                      ..|-.+....+.......++...+.
+T Consensus        12 ~~l~~~~s~s~~e~~~~~~l~~~l~   36 (346)
+T 1VHO_A           12 MELSNLDGPSGYETNVVSYIKSVIE   36 (346)
+T ss_dssp             HHHHHSCCBTTCCHHHHHHHHHHHG
+T ss_pred             HHHHcCCCCCCchHHHHHHHHHHhH
+Confidence            3344444433333333455555554
+
+
+No 14
+>3TX8_A Succinyl-diaminopimelate desuccinylase (E.C.3.5.1.18); peptidase, Structural Genomics, Joint Center; HET: MSE; 2.972A {Corynebacterium glutamicum}
+Probab=24.89  E-value=1.7e+02  Score=17.91  Aligned_cols=12  Identities=8%  Similarity=-0.116  Sum_probs=6.6  Template_Neff=11.000
+
+Q ss_pred             hhHHHHHHHHhC
+Q tr|F8WCD2|F8WC   20 IDLIFLKGIMEN   31 (41)
+Q Consensus        20 idliflkgimen   31 (41)
+                      .-..++...+..
+T Consensus        34 ~~~~~l~~~l~~   45 (369)
+T 3TX8_A           34 QIADEIEDALRN   45 (369)
+T ss_dssp             HHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHh
+Confidence            344566666654
+
+
+No 15
+>1Q7L_A aminoacylase-1, catalysis, enzyme dimerization, site-directed; HET: GLY; 1.4A {Homo sapiens} SCOP: c.56.5.4
+Probab=22.56  E-value=2.5e+02  Score=15.51  Aligned_cols=8  Identities=13%  Similarity=0.322  Sum_probs=3.7  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHh
+Q tr|F8WCD2|F8WC   23 IFLKGIME   30 (41)
+Q Consensus        23 iflkgime   30 (41)
+                      .++...+.
+T Consensus        36 ~~i~~~l~   43 (198)
+T 1Q7L_A           36 AFFEETAR   43 (198)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            44444444
+
+
+No 16
+>1Q7L_C aminoacylase-1, catalysis, enzyme dimerization, site-directed; HET: GLY; 1.4A {Homo sapiens} SCOP: c.56.5.4
+Probab=22.56  E-value=2.5e+02  Score=15.51  Aligned_cols=8  Identities=13%  Similarity=0.322  Sum_probs=3.7  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHh
+Q tr|F8WCD2|F8WC   23 IFLKGIME   30 (41)
+Q Consensus        23 iflkgime   30 (41)
+                      .++...+.
+T Consensus        36 ~~i~~~l~   43 (198)
+T 1Q7L_C           36 AFFEETAR   43 (198)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            44444444
+
+

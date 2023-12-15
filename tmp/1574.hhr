@@ -1,0 +1,163 @@
+Query         tr|C9J140|C9J140_HUMAN
+Match_columns 57
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:28:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1574.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DJL_B Ras-related protein Rab  99.4 5.8E-14 6.3E-19   98.5   0.6   47    1-47      2-48  (266)
+  2 6DJL_E Ras-related protein Rab  99.4 5.8E-14 6.3E-19   98.5   0.6   47    1-47      2-48  (266)
+  3 6IXV_B SH3 domain-binding prot  98.6 2.1E-08 2.2E-13   70.4   1.0   40    8-47      1-40  (269)
+  4 4GYI_A Rio2 kinase; protein ki  16.6 1.4E+02  0.0015   20.9   0.8    8   41-48    369-376 (397)
+  5 6OB0_E Lipoprotein lipase (E.C  15.7 2.3E+02  0.0025   17.5   1.6   23   20-42      2-24  (131)
+  6 6OB0_G Lipoprotein lipase (E.C  15.7 2.3E+02  0.0025   17.5   1.6   23   20-42      2-24  (131)
+  7 2MV1_B Relaxin B chain, Relaxi  14.4   1E+02  0.0011   15.5  -0.2    8   45-52     19-26  (30)
+  8 2K6T_B Insulin-like 3 A chain,  14.1   1E+02  0.0011   16.0  -0.3    8   45-52     18-25  (31)
+  9 4FU6_A Structural Genomics Con  12.8 2.7E+02  0.0029   16.2   1.2   33   10-42    109-141 (153)
+ 10 4MTL_A Protein-lysine methyltr  10.8 2.7E+02  0.0029   17.2   0.8   34   12-45      6-39  (244)
+
+No 1
+>6DJL_B Ras-related protein Rab-11A, SH3 domain-binding; Rab GTPase, Guanine nucleotide exchange; 3.10001148084A {Homo sapiens}
+Probab=99.42  E-value=5.8e-14  Score=98.48  Aligned_cols=47  Identities=98%  Similarity=1.326  Sum_probs=6.4  Template_Neff=6.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCcccccccCCCCCCccCCCccccc
+Q tr|C9J140|C9J1    1 MDAALKRSRSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQH   47 (57)
+Q Consensus         1 mdaalkrsrseepaeilppardeeeeeeegmeqgleeeeevdpriqh   47 (57)
+                      |+++|+++++++|++++||++++.++++.+|++++.+++++|||||.
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~eelDprV~~   48 (266)
+T 6DJL_B            2 MDAALKRSRSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQG   48 (266)
+T ss_dssp             ----------------------------------------CCSHHHH
+T ss_pred             CcHhhhcccCCCCcccCCCCCcchHHhHHhhccCccchhhCCHHHHH
+Confidence            89999999999999999999999999999999999999999999985
+
+
+No 2
+>6DJL_E Ras-related protein Rab-11A, SH3 domain-binding; Rab GTPase, Guanine nucleotide exchange; 3.10001148084A {Homo sapiens}
+Probab=99.42  E-value=5.8e-14  Score=98.48  Aligned_cols=47  Identities=98%  Similarity=1.326  Sum_probs=8.3  Template_Neff=6.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCcccccccCCCCCCccCCCccccc
+Q tr|C9J140|C9J1    1 MDAALKRSRSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQH   47 (57)
+Q Consensus         1 mdaalkrsrseepaeilppardeeeeeeegmeqgleeeeevdpriqh   47 (57)
+                      |+++|+++++++|++++||++++.++++.+|++++.+++++|||||.
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~eelDprV~~   48 (266)
+T 6DJL_E            2 MDAALKRSRSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQG   48 (266)
+T ss_dssp             --------------------------------------CCCCTHHHH
+T ss_pred             CcHhhhcccCCCCcccCCCCCcchHHhHHhhccCccchhhCCHHHHH
+Confidence            89999999999999999999999999999999999999999999985
+
+
+No 3
+>6IXV_B SH3 domain-binding protein 5, Ras-related; Rab11, GEF, SH3BP5, SIGNALING PROTEIN; HET: PO4; 3.8A {Homo sapiens}
+Probab=98.62  E-value=2.1e-08  Score=70.36  Aligned_cols=40  Identities=95%  Similarity=1.311  Sum_probs=8.3  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCcccccccCCCCCCccCCCccccc
+Q tr|C9J140|C9J1    8 SRSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQH   47 (57)
+Q Consensus         8 srseepaeilppardeeeeeeegmeqgleeeeevdpriqh   47 (57)
+                      +.+++|++|+||+|+++++++++|+.+.++++++|||||.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ee~lDprV~~   40 (269)
+T 6IXV_B            1 SHSEEPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRIQG   40 (269)
+T ss_dssp             -------------------------------CCSCTHHHH
+T ss_pred             CCCCCcccCCCCCcCchHhhhhhhhcCcchhhccCHHHHH
+Confidence            3578999999999999999999999999999999999985
+
+
+No 4
+>4GYI_A Rio2 kinase; protein kinase, ADP complex, phosphoaspartate; HET: ADP, PHD; 2.2A {Chaetomium thermophilum}
+Probab=16.64  E-value=1.4e+02  Score=20.94  Aligned_cols=8  Identities=50%  Similarity=0.517  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCcccccc
+Q tr|C9J140|C9J1   41 VDPRIQHI   48 (57)
+Q Consensus        41 vdpriqhi   48 (57)
+                      -|-++|.|
+T Consensus       369 ~~~~~~~~  376 (397)
+T 4GYI_A          369 DDGRLQVI  376 (397)
+T ss_dssp             --------
+T ss_pred             cccceeEe
+Confidence            34455544
+
+
+No 5
+>6OB0_E Lipoprotein lipase (E.C.3.1.1.34), Glycosylphosphatidylinositol-anchored high; Lipase, HYDROLASE-PROTEIN BINDING complex; HET: EDO, NAG, M3D; 2.81A {Homo sapiens}
+Probab=15.68  E-value=2.3e+02  Score=17.48  Aligned_cols=23  Identities=39%  Similarity=0.492  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCcccccccCCCCCCccCCC
+Q tr|C9J140|C9J1   20 ARDEEEEEEEGMEQGLEEEEEVD   42 (57)
+Q Consensus        20 ardeeeeeeegmeqgleeeeevd   42 (57)
+                      +..|+|++.||-+..-.+|+.-|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~   24 (131)
+T 6OB0_E            2 TQQEEEEEDEDHGPDDYDEEDED   24 (131)
+T ss_dssp             -----------------------
+T ss_pred             CcccccccccCCCCCcccccccc
+
+
+No 6
+>6OB0_G Lipoprotein lipase (E.C.3.1.1.34), Glycosylphosphatidylinositol-anchored high; Lipase, HYDROLASE-PROTEIN BINDING complex; HET: EDO, NAG, M3D; 2.81A {Homo sapiens}
+Probab=15.68  E-value=2.3e+02  Score=17.48  Aligned_cols=23  Identities=39%  Similarity=0.492  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCcccccccCCCCCCccCCC
+Q tr|C9J140|C9J1   20 ARDEEEEEEEGMEQGLEEEEEVD   42 (57)
+Q Consensus        20 ardeeeeeeegmeqgleeeeevd   42 (57)
+                      +..|+|++.||-+..-.+|+.-|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~   24 (131)
+T 6OB0_G            2 TQQEEEEEDEDHGPDDYDEEDED   24 (131)
+T ss_dssp             -----------------------
+T ss_pred             CcccccccccCCCCCcccccccc
+
+
+No 7
+>2MV1_B Relaxin B chain, Relaxin A; insulin/relaxin family fold, signalling protein; HET: NH2, PCA; NMR {N/A}
+Probab=14.45  E-value=1e+02  Score=15.51  Aligned_cols=8  Identities=50%  Similarity=0.675  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ccccCCCC
+Q tr|C9J140|C9J1   45 IQHICGGS   52 (57)
+Q Consensus        45 iqhicggs   52 (57)
+                      +.++||+|
+T Consensus        19 ~i~~Cg~~   26 (30)
+T 2MV1_B           19 QIAICGMS   26 (30)
+T ss_pred             HHHhhcCC
+
+
+No 8
+>2K6T_B Insulin-like 3 A chain, Insulin-like; protein, Cleavage on pair of; NMR {N/A}
+Probab=14.06  E-value=1e+02  Score=16.03  Aligned_cols=8  Identities=38%  Similarity=1.252  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ccccCCCC
+Q tr|C9J140|C9J1   45 IQHICGGS   52 (57)
+Q Consensus        45 iqhicggs   52 (57)
+                      +.++||+|
+T Consensus        18 ~i~~Cg~~   25 (31)
+T 2K6T_B           18 LVRVCGGP   25 (31)
+T ss_dssp             HHHHTCCS
+T ss_pred             HHHhcCCC
+
+
+No 9
+>4FU6_A Structural Genomics Consortium, SGC, TRANSCRIPTION; HET: SO4; 2.1A {Homo sapiens}
+Probab=12.83  E-value=2.7e+02  Score=16.15  Aligned_cols=33  Identities=9%  Similarity=0.082  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCCCCCCCCcccccccCCCCCCccCCC
+Q tr|C9J140|C9J1   10 SEEPAEILPPARDEEEEEEEGMEQGLEEEEEVD   42 (57)
+Q Consensus        10 seepaeilppardeeeeeeegmeqgleeeeevd   42 (57)
+                      ........+...+.+.++++..++.-+++++.+
+T Consensus       109 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  141 (153)
+T 4FU6_A          109 KFSSQQAATKQSNASSDVEVEEKETSVSKEDTD  141 (153)
+T ss_dssp             C--------------------------------
+T ss_pred             cccchhhccccCCCccchhhhhhhccccccccc
+
+
+No 10
+>4MTL_A Protein-lysine methyltransferase METTL21C (E.C.2.1.1.-); Structural Genomics Consortium, SGC, TRANSFERASE; HET: SAH, UNX; 1.65A {Homo sapiens}
+Probab=10.80  E-value=2.7e+02  Score=17.20  Aligned_cols=34  Identities=12%  Similarity=0.037  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCCCCCCCcccccccCCCCCCccCCCccc
+Q tr|C9J140|C9J1   12 EPAEILPPARDEEEEEEEGMEQGLEEEEEVDPRI   45 (57)
+Q Consensus        12 epaeilppardeeeeeeegmeqgleeeeevdpri   45 (57)
+                      .+++..+|++|......+.++.-....+++.+..
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (244)
+T 4MTL_A            6 EAEKKGAPQKDSTGGVLEESNKIEPSLHSLQKFV   39 (244)
+T ss_dssp             --------------------------------CC
+T ss_pred             cccccCCccccccccchhhhcccccchhhHhhhC
+
+

@@ -1,0 +1,168 @@
+Query         tr|Q5T7X0|Q5T7X0_HUMAN
+Match_columns 59
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:12:39 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0379.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3WTF_B Uncharacterized protein  30.8      55 0.00059   23.0   1.1   13   24-36    181-193 (206)
+  2 6IXP_F Myosin-2, Mitochondrial  18.3 1.2E+02  0.0013   18.2   0.7   28    9-36     11-38  (39)
+  3 6GP1_A Fluorescent protein; HE  12.7 2.9E+02  0.0032   18.7   1.5   26   21-46     27-52  (94)
+  4 6QDV_F Eukaryotic initiation f  10.5 2.7E+02  0.0029   19.3   0.8   14   10-23     64-77  (122)
+  5 6DT7_A RNAP1, RNAP2/DNA Comple  10.3 2.1E+02  0.0023   20.6   0.3   17    7-23    249-265 (269)
+  6 6U7V_A ?; Telomere, Telomerase   9.6 4.8E+02  0.0052   16.8   1.6   16    9-24     14-29  (130)
+  7 2CQM_A alpha and beta (a+b), S   9.5 8.7E+02  0.0094   15.7   2.8   29    7-35     92-120 (122)
+  8 1DEC_A DECORSIN (NMR, 25 STRUC   8.6 3.3E+02  0.0036   16.7   0.6   12    7-18      6-17  (39)
+  9 2JXC_B Epidermal growth factor   8.3 3.3E+02  0.0035   16.9   0.5   18   20-37     20-39  (45)
+ 10 6GP0_A Fluorescent protein; HE   8.0   6E+02  0.0065   19.2   1.8   26   21-46     27-52  (257)
+
+No 1
+>3WTF_B Uncharacterized protein C9orf142; DNA repair, Scaffold, IMMUNE SYSTEM; 3.451A {Homo sapiens}
+Probab=30.80  E-value=55  Score=23.04  Aligned_cols=13  Identities=38%  Similarity=0.386  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CcccCcccCCCCc
+Q tr|Q5T7X0|Q5T7   24 DLKDMSLINPSSS   36 (59)
+Q Consensus        24 dlkdmslinpsss   36 (59)
+                      -+..||+|||.+.
+T Consensus       181 r~pG~SLINPg~k  193 (206)
+T 3WTF_B          181 RCPGESLINPGFK  193 (206)
+T ss_dssp             -------------
+T ss_pred             cCCCccccCCCcc
+Confidence            3567999999863
+
+
+No 2
+>6IXP_F Myosin-2, Mitochondrial MYO2 receptor-related protein; Cargo binding domain, PROTEIN BINDING; 2.733A {Saccharomyces cerevisiae}
+Probab=18.27  E-value=1.2e+02  Score=18.24  Aligned_cols=28  Identities=32%  Similarity=0.185  Sum_probs=19.1  Template_Neff=2.900
+
+Q ss_pred             CCCCcccceeehccCCcccCcccCCCCc
+Q tr|Q5T7X0|Q5T7    9 QGDDLENCILRFSDLDLKDMSLINPSSS   36 (59)
+Q Consensus         9 qgddlencilrfsdldlkdmslinpsss   36 (59)
+                      +.....--|.|.|+.||+...--+-|||
+T Consensus        11 ~~~~~k~RIsRISs~eLrkIEEq~DSSS   38 (39)
+T 6IXP_F           11 RIPCPKTRLARVSVLDLKKIEEQPDSSS   38 (39)
+T ss_pred             CCCCCccceeeecHHHHHhHHhCCCCCC
+Confidence            3344455689999999998766555443
+
+
+No 3
+>6GP1_A Fluorescent protein; HET: NFA, 7R6; 1.504A {Lobophyllia hemprichii}
+Probab=12.71  E-value=2.9e+02  Score=18.66  Aligned_cols=26  Identities=31%  Similarity=0.503  Sum_probs=16.8  Template_Neff=4.400
+
+Q ss_pred             ccCCcccCcccCCCCcceeecCCCCC
+Q tr|Q5T7X0|Q5T7   21 SDLDLKDMSLINPSSSLKAELDGSTK   46 (59)
+Q Consensus        21 sdldlkdmslinpssslkaeldgstk   46 (59)
+                      +|-|-..|+++......+.+++|+-.
+T Consensus        27 ~~~~~~~m~~~~~~mk~k~~meG~VN   52 (94)
+T 6GP1_A           27 DDDDKDPMSAIKPDMRIKLRMEGNVN   52 (94)
+T ss_dssp             --CCSCTTSSSCSSEEEEEEEEEEET
+T ss_pred             cCCCCCchhhcCCCCeEEEEEEEEEC
+Confidence            44455557778877788888777643
+
+
+No 4
+>6QDV_F Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, ATP, IHP, SEP; 3.3A {Homo sapiens}
+Probab=10.52  E-value=2.7e+02  Score=19.29  Aligned_cols=14  Identities=36%  Similarity=0.482  Sum_probs=10.9  Template_Neff=5.000
+
+Q ss_pred             CCCcccceeehccC
+Q tr|Q5T7X0|Q5T7   10 GDDLENCILRFSDL   23 (59)
+Q Consensus        10 gddlencilrfsdl   23 (59)
+                      +++.+-|||||+.-
+T Consensus        64 ~~~~~~~ii~f~ag   77 (122)
+T 6QDV_F           64 ADNKDFAILRFHAG   77 (122)
+T ss_pred             CCCCCEEEEEEecC
+Confidence            45778899999754
+
+
+No 5
+>6DT7_A RNAP1, RNAP2/DNA Complex; Bacteriophage, N4, RNA polymerase, TRANSCRIPTION; 2.5A {Enterobacteria phage N4}
+Probab=10.29  E-value=2.1e+02  Score=20.56  Aligned_cols=17  Identities=24%  Similarity=0.468  Sum_probs=14.3  Template_Neff=7.500
+
+Q ss_pred             CCCCCCcccceeehccC
+Q tr|Q5T7X0|Q5T7    7 PDQGDDLENCILRFSDL   23 (59)
+Q Consensus         7 pdqgddlencilrfsdl   23 (59)
+                      .-||+|+.-++|.|.+-
+T Consensus       249 n~QG~D~~KAlL~Fa~~  265 (269)
+T 6DT7_A          249 NYQGTSWNKAVLEFAEK  265 (269)
+T ss_dssp             CSSSCHHHHTTEEESSC
+T ss_pred             cCCCCchhHhheeecCC
+Confidence            46999999999999864
+
+
+No 6
+>6U7V_A ?; Telomere, Telomerase, RNA binding, GENE; HET: MSE; 1.42A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=9.55  E-value=4.8e+02  Score=16.78  Aligned_cols=16  Identities=25%  Similarity=0.264  Sum_probs=12.2  Template_Neff=7.500
+
+Q ss_pred             CCCCcccceeehccCC
+Q tr|Q5T7X0|Q5T7    9 QGDDLENCILRFSDLD   24 (59)
+Q Consensus         9 qgddlencilrfsdld   24 (59)
+                      ..+-..+||++|+.+.
+T Consensus        14 ~~~f~~G~iv~~~~~~   29 (130)
+T 6U7V_A           14 NLDFTKNLLTRIKNLH   29 (130)
+T ss_dssp             -CCCCTTCEEEEESCC
+T ss_pred             cCCCCCCEEEEEEcCC
+Confidence            3456789999999876
+
+
+No 7
+>2CQM_A alpha and beta (a+b), Structural; NMR {Homo sapiens} SCOP: d.188.1.1
+Probab=9.54  E-value=8.7e+02  Score=15.70  Aligned_cols=29  Identities=14%  Similarity=0.139  Sum_probs=21.2  Template_Neff=7.100
+
+Q ss_pred             CCCCCCcccceeehccCCcccCcccCCCC
+Q tr|Q5T7X0|Q5T7    7 PDQGDDLENCILRFSDLDLKDMSLINPSS   35 (59)
+Q Consensus         7 pdqgddlencilrfsdldlkdmslinpss   35 (59)
+                      +..||.-+-+++.+.+.++.....-+|.+
+T Consensus        92 ~R~gD~a~m~~lelv~~~~~~~~~~~~~~  120 (122)
+T 2CQM_A           92 NRSLDRAKMAVIEYKGNCLPPLPLPSGPS  120 (122)
+T ss_dssp             CCSSSCCCEEEEEESSCCCCCCCCCCSSC
+T ss_pred             CCCCCCceEEEEEEeCCCCCCCCCCCCCC
+Confidence            44588888889999888777766655544
+
+
+No 8
+>1DEC_A DECORSIN (NMR, 25 STRUCTURES); BLOOD COAGULATION; NMR {Macrobdella decora} SCOP: g.3.15.2
+Probab=8.57  E-value=3.3e+02  Score=16.69  Aligned_cols=12  Identities=50%  Similarity=0.858  Sum_probs=9.4  Template_Neff=1.200
+
+Q ss_pred             CCCCCCccccee
+Q tr|Q5T7X0|Q5T7    7 PDQGDDLENCIL   18 (59)
+Q Consensus         7 pdqgddlencil   18 (59)
+                      .-||||-|.|+-
+T Consensus         6 qcqgddqekclc   17 (39)
+T 1DEC_A            6 QCQGDDQEKCLC   17 (39)
+T ss_dssp             BCCSSCSSCEES
+T ss_pred             ccCCCccccccc
+Confidence            358999999864
+
+
+No 9
+>2JXC_B Epidermal growth factor receptor substrate; endocytosis, Membrane, Phosphorylation, Proto-oncogene, SH3-binding; HET: CA; NMR {Homo sapiens}
+Probab=8.34  E-value=3.3e+02  Score=16.93  Aligned_cols=18  Identities=44%  Similarity=0.628  Sum_probs=12.0  Template_Neff=2.700
+
+Q ss_pred             hccCCcccC--cccCCCCcc
+Q tr|Q5T7X0|Q5T7   20 FSDLDLKDM--SLINPSSSL   37 (59)
+Q Consensus        20 fsdldlkdm--slinpsssl   37 (59)
+                      |-|-+|+|+  |-|||-|+.
+T Consensus        20 FLdE~lsdvQPSpINPFSaf   39 (45)
+T 2JXC_B           20 FLNETLQDVQPSPINPFSAF   39 (45)
+T ss_dssp             SSSTTTSCCCCCTTCSCTTH
+T ss_pred             ccCcccccCCCCCCCccHHH
+Confidence            455666665  678887764
+
+
+No 10
+>6GP0_A Fluorescent protein; HET: RC7, NFA, 5SQ; 1.5A {Lobophyllia hemprichii}
+Probab=7.95  E-value=6e+02  Score=19.20  Aligned_cols=26  Identities=31%  Similarity=0.503  Sum_probs=17.5  Template_Neff=6.000
+
+Q ss_pred             ccCCcccCcccCCCCcceeecCCCCC
+Q tr|Q5T7X0|Q5T7   21 SDLDLKDMSLINPSSSLKAELDGSTK   46 (59)
+Q Consensus        21 sdldlkdmslinpssslkaeldgstk   46 (59)
+                      +|-+-..|++++.....|.+++|.-.
+T Consensus        27 ~~~~~~~~~~~~~~m~~k~~~eG~VN   52 (257)
+T 6GP0_A           27 DDDDKDPMSAIKPDMRIKLRMEGNVN   52 (257)
+T ss_dssp             --CCSCTTSSSCSSEEEEEEEEEEET
+T ss_pred             CCCCCCchhhcCCCCeEEEEEEEEEC
+Confidence            55555677788888888888877643
+
+

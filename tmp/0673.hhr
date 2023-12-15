@@ -1,0 +1,911 @@
+Query         sp|Q9NPF2|CHSTB_HUMAN
+Match_columns 352
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:37:58 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0673.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5T03_B maltose binding protein  99.1 3.5E-11 3.8E-16  102.2   0.7  231  105-350   381-660 (692)
+  2 5T0A_B maltose binding protein  99.1 3.5E-11 3.8E-16  102.2   0.7  231  105-350   381-660 (692)
+  3 4NDZ_A Maltose-binding peripla  99.1 9.3E-12   1E-16  106.7  -3.0  214  112-350   372-628 (658)
+  4 3F5F_A maltose binding protein  99.0 3.1E-11 3.3E-16  102.7  -1.7  214  112-350   372-628 (658)
+  5 1ZD1_A Sulfotransferase 4A1 (E  76.3      10 0.00011   28.5   4.0  198  112-346    42-281 (284)
+  6 1ZD1_B Sulfotransferase 4A1 (E  76.3      10 0.00011   28.5   4.0  198  112-346    42-281 (284)
+  7 4IFB_A Bile salt sulfotransfer  71.2      23 0.00025   26.4   4.8   90  112-201    31-136 (285)
+  8 6XKG_B sulfotransferase, enzym  70.9      62 0.00067   24.1   6.9   91  111-201    15-125 (273)
+  9 1T8T_B heparan sulfate D-gluco  60.8      74  0.0008   23.5   5.6   90  112-201    14-123 (271)
+ 10 1J99_A ALCOHOL SULFOTRANSFERAS  57.7      49 0.00054   25.4   4.5   90  112-201    39-144 (293)
+ 11 3F3Y_C Bile salt sulfotransfer  56.7      57 0.00062   24.7   4.6   90  112-201    31-136 (285)
+ 12 1ZRH_A Heparan sulfate glucosa  48.3 1.8E+02   0.002   21.6   7.2   89  112-200    18-128 (274)
+ 13 2ZPT_X Tyrosine-ester sulfotra  37.9 2.9E+02  0.0032   21.4   5.9   88  113-200    36-144 (295)
+ 14 2ZYT_X Tyrosine-ester sulfotra  37.9 2.9E+02  0.0032   21.4   5.9   88  113-200    36-144 (295)
+ 15 1Z28_A Phenol-sulfating phenol  35.4 3.2E+02  0.0035   21.0   5.7   89  112-200    35-144 (295)
+ 16 7D1X_A Bile acid, Sulfotransfe  34.7 1.9E+02  0.0021   21.8   4.5   90  112-201    33-138 (284)
+ 17 4JVL_A Estrogen sulfotransfera  34.1 2.7E+02  0.0029   21.7   5.2   89  112-200    34-143 (294)
+ 18 3BD9_A 3-O-sulfotransferase, h  30.6   2E+02  0.0021   22.0   4.0   89  112-200    21-131 (280)
+ 19 5X2B_L Sulfotransferase (E.C.2  28.6 1.1E+02  0.0012   23.4   2.3   90  112-201    29-126 (283)
+ 20 3JC9_Oa PilA, PilC, PilN, PilO  27.8      88 0.00096   23.4   1.8   26    5-30      5-30  (205)
+ 21 5X2B_G Sulfotransferase (E.C.2  27.6   1E+02  0.0011   23.5   2.0   91  111-201    27-125 (282)
+ 22 1LS6_A aryl sulfotransferase (  27.1 4.3E+02  0.0047   20.4   5.2   89  112-200    35-144 (295)
+ 23 2H8K_B SULT1C3 splice variant   26.8 4.9E+02  0.0053   20.2   6.6   28  319-346   276-303 (306)
+ 24 6ZHX_K ALC1, CHD1L, chromatin   26.5      77 0.00084   22.6   1.2   12   95-106    25-36  (37)
+ 25 2REO_A sulfotransferase, SULFA  24.8 3.1E+02  0.0033   21.4   4.2   28  319-346   275-302 (305)
+ 26 1AQU_B ESTROGEN SULFOTRANSFERA  24.6 1.7E+02  0.0018   22.6   2.7   90  112-201    37-147 (297)
+ 27 2GWH_A Sulfotransferase 1C2 (E  21.6 5.6E+02  0.0061   19.9   5.0   89  112-200    38-147 (298)
+ 28 2GWH_B Sulfotransferase 1C2 (E  21.6 5.6E+02  0.0061   19.9   5.0   89  112-200    38-147 (298)
+ 29 1Q44_A Steroid Sulfotransferas  20.8 4.4E+02  0.0048   21.4   4.5   31  112-142    62-92  (326)
+ 30 2Q3M_A Flavonol sulfotransfera  20.8 4.4E+02  0.0048   21.4   4.5   31  112-142    62-92  (326)
+ 31 7EOV_A cytosolic sulfotransfer  20.7 5.7E+02  0.0062   20.6   5.1   90  112-201    51-156 (302)
+
+No 1
+>5T03_B maltose binding protein - heparan; heparan sulfate, sulfotransferase, complex, TRANSFERASE; HET: BDP, GLC, GNS, TLA, A3P, NPO, EDO; 2.1A {Escherichia coli O157:H7}
+Probab=99.10  E-value=3.5e-11  Score=102.21  Aligned_cols=231  Identities=10%  Similarity=0.088  Sum_probs=152.2  Template_Neff=11.900
+
+Q ss_pred             hhcceeEECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC--------C-----------------CChhhhhh
+Q sp|Q9NPF2|CHST  105 NDLKHLVVDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI--------P-----------------ANEAHVSA  159 (352)
+Q Consensus       105 ndlkhlvvdedheliycyvpkvactnwkrlmmvltgrgkysdpmei--------p-----------------aneahvsa  159 (352)
+                      .++.++.++++++|++|++|++++|++.++|..+.+..........        .                 ..++.+..
+T Consensus       381 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  460 (692)
+T 5T03_B          381 TRDVDFNIKGDDVIVFLHIQKTGGTTFGRHLVRNIRLEQPCDCKAGQKKCTCHRPGKQESWLFSRFSTGWSCGLHADWTE  460 (692)
+T ss_dssp             CCCCCCCTTTTEEEEEECCTTSSHHHHHHHHHHSBCCSSCCBCCC--CCCBCBCTTSSCBSEESHHHHCSTTCTTCCHHH
+T ss_pred             ccceeEEecCCeEEEEEEEEecCCCchhhhhheeCccCCCCCCccccceeecCCCCCceeeeeEeeeCCCCcccccchhh
+Confidence            3578888999999999999999999999999887765543332211        0                 01223333
+
+
+Q ss_pred             hhHhh-hcCChHHHHHHHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHH
+Q sp|Q9NPF2|CHST  160 NLKTL-NQYSIPEINHRLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFE  238 (352)
+Q Consensus       160 nlktl-nqysipeinhrlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfe  238 (352)
+                      .+.+. ............+++++|++||||++|++|+|++.++.+. .................+..+.........+|+
+T Consensus       461 ~~~~~~~~~~~~~~~~~~~~~~~i~~lR~P~~R~~S~y~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~  539 (692)
+T 5T03_B          461 LTNCVPVIMDKRQPPKRKRNFYYITMLRDPVSRYLSEWKHVQRGAT-WKTSLHMCDGRSPTQDELPTCYNGDDWSGVTLH  539 (692)
+T ss_dssp             HHHHHHHHHC--------CEEEEEEEECCHHHHHHHHHHHHHTTCC-CTTCCCCBTTBCCCTTTSCCSSSTTCCTTCCHH
+T ss_pred             cccchhHHhhcCCCCCccCCcEEEEeecCHHHHHHHHHHHHhcCCc-cccccccCCCCCCCCCCCCCccCCCCCCCCCHH
+Confidence            33333 2222333344567899999999999999999998765433 222112222222233333344444445678999
+
+
+Q ss_pred             HHHHHHcCccCCCCCCchhhHHHHHHh---cCc--------------------chhchhcccccccchhchhhhhhhccc
+Q sp|Q9NPF2|CHST  239 EFVAYLIDPHTQREEPFNEHWQTVYSL---CHP--------------------CHIHYDLVGKYETLEEDSNYVLQLAGV  295 (352)
+Q Consensus       239 efvaylidphtqreepfnehwqtvysl---chp--------------------chihydlvgkyetleedsnyvlqlagv  295 (352)
+                      +|+.......      .+.+.+++...   ..+                    ++..+++||+.|++++++..|.+.||+
+T Consensus       540 ~~l~~~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~vg~~E~~~e~l~~l~~~lg~  613 (692)
+T 5T03_B          540 DFMDCPSNLA------NNRQVRMLADLSLVGCYNLSTMNESERNPILLASAKSNLKNMAFYGLTEFQRKTQYLFERTFHL  613 (692)
+T ss_dssp             HHHHCTTCTT------TTHHHHHHSCGGGGTTTCGGGSCHHHHHHHHHHHHHHHHHHSSEEEETTCHHHHHHHHHHHHTC
+T ss_pred             HHhcCchhhh------hcHHHHHhhccCcccccccccCCcccCcHHHHHHHHHHHhcCceEEehhhHHHHHHHHHHHhCC
+Confidence            9999866543      45555554432   000                    236699999999999999999999999
+
+
+Q ss_pred             cccccCCCcCCCCCCchhhhHHHHhhCChHHHhhHHhhhhhhhhhccCCCCcccC
+Q sp|Q9NPF2|CHST  296 GSYLKFPTYAKSTRTTDEMTTEFFQNISSEHQTQLYEVYKLDFLMFNYSVPSYLK  350 (352)
+Q Consensus       296 gsylkfptyakstrttdemtteffqnissehqtqlyevykldflmfnysvpsylk  350 (352)
+                      +........+...    ..    ...+++++++.|.++|+.|++||+|+.+.|++
+T Consensus       614 ~~~~~~~~~~~~~----~~----~~~~~~~~~~~l~~~~~~D~~ly~~~~~~f~~  660 (692)
+T 5T03_B          614 RFISAFTQINSTR----AA----NVELRDDMRSRIEQLNMLDMQLYEFAKDLFLQ  660 (692)
+T ss_dssp             CBSSCCCCCCCCH----HH----HSCCCHHHHHHHHHHTHHHHHHHHHHHHHHHH
+T ss_pred             chHHhHhhccCCC----cc----ccccCHHHHHHHHHhcHHHHHHHHHHHHHHHH
+Confidence            7654333333333    44    55789999999999999999999999988743
+
+
+No 2
+>5T0A_B maltose binding protein - heparan; heparan sulfate, sulfotransferase, complex, TRANSFERASE; HET: BDP, GLC, GNS, TLA, A3P, IDS, NPO, EDO; 1.95A {Escherichia coli O157:H7}
+Probab=99.10  E-value=3.5e-11  Score=102.21  Aligned_cols=231  Identities=10%  Similarity=0.088  Sum_probs=152.4  Template_Neff=11.900
+
+Q ss_pred             hhcceeEECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC--------C-----------------CChhhhhh
+Q sp|Q9NPF2|CHST  105 NDLKHLVVDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI--------P-----------------ANEAHVSA  159 (352)
+Q Consensus       105 ndlkhlvvdedheliycyvpkvactnwkrlmmvltgrgkysdpmei--------p-----------------aneahvsa  159 (352)
+                      .++.++.++++++|++|++|++++|++.++|..+.+..........        .                 ..++.+..
+T Consensus       381 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  460 (692)
+T 5T0A_B          381 TRDVDFNIKGDDVIVFLHIQKTGGTTFGRHLVRNIRLEQPCDCKAGQKKCTCHRPGKQESWLFSRFSTGWSCGLHADWTE  460 (692)
+T ss_dssp             CCCCCCCTTTTCEEEEECCTTSSHHHHHHHHHHSBCCSSCCBCCTTCSCCBCBCTTSSCBSEESTTTTCSTTCTTCCHHH
+T ss_pred             ccceeEEecCCeEEEEEEEEecCCCchhhhhheeCccCCCCCCccccceeecCCCCCceeeeeEeeeCCCCcccccchhh
+Confidence            3578888999999999999999999999999887665443332211        0                 01233333
+
+
+Q ss_pred             hhHhh-hcCChHHHHHHHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHH
+Q sp|Q9NPF2|CHST  160 NLKTL-NQYSIPEINHRLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFE  238 (352)
+Q Consensus       160 nlktl-nqysipeinhrlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfe  238 (352)
+                      .+.+. ............+++++|++||||++|++|+|++.++.+. .................+..+.........+|+
+T Consensus       461 ~~~~~~~~~~~~~~~~~~~~~~~i~~lR~P~~R~~S~y~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~  539 (692)
+T 5T0A_B          461 LTNCVPVIMDKRQPPKRKRNFYYITMLRDPVSRYLSEWKHVQRGAT-WKTSLHMCDGRSPTQDELPTCYNGDDWSGVTLH  539 (692)
+T ss_dssp             HHHHHHHHHC--------CCEEEEEEECCHHHHHHHHHHHHHTTCC-CTTCCCCBTTBCCCTTTSCCSSSTTCCTTCCHH
+T ss_pred             cccchhHHhhcCCCCCccCCcEEEEeecCHHHHHHHHHHHHhcCCc-cccccccCCCCCCCCCCCCCccCCCCCCCCCHH
+Confidence            34433 3323333345567899999999999999999998765433 222112222222233333344444445678999
+
+
+Q ss_pred             HHHHHHcCccCCCCCCchhhHHHHHHh---cCc--------------------chhchhcccccccchhchhhhhhhccc
+Q sp|Q9NPF2|CHST  239 EFVAYLIDPHTQREEPFNEHWQTVYSL---CHP--------------------CHIHYDLVGKYETLEEDSNYVLQLAGV  295 (352)
+Q Consensus       239 efvaylidphtqreepfnehwqtvysl---chp--------------------chihydlvgkyetleedsnyvlqlagv  295 (352)
+                      +|+.......      .+.+.+++...   ..+                    ++..+++||+.|++++++..|.+.||+
+T Consensus       540 ~~l~~~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~vg~~E~~~e~l~~l~~~lg~  613 (692)
+T 5T0A_B          540 DFMDCPSNLA------NNRQVRMLADLSLVGCYNLSTMNESERNPILLASAKSNLKNMAFYGLTEFQRKTQYLFERTFHL  613 (692)
+T ss_dssp             HHHHCTTCTT------TTHHHHHHSCGGGGTTTCGGGSCHHHHHHHHHHHHHHHHHHSSEEEETTCHHHHHHHHHHHHTC
+T ss_pred             HHhcCchhhh------hcHHHHHhhccCcccccccccCCcccCcHHHHHHHHHHHhcCceEEehhhHHHHHHHHHHHhCC
+Confidence            9999866543      45555554432   000                    236699999999999999999999999
+
+
+Q ss_pred             cccccCCCcCCCCCCchhhhHHHHhhCChHHHhhHHhhhhhhhhhccCCCCcccC
+Q sp|Q9NPF2|CHST  296 GSYLKFPTYAKSTRTTDEMTTEFFQNISSEHQTQLYEVYKLDFLMFNYSVPSYLK  350 (352)
+Q Consensus       296 gsylkfptyakstrttdemtteffqnissehqtqlyevykldflmfnysvpsylk  350 (352)
+                      +........+...    ..    ...+++++++.|.++|+.|++||+|+.+.|++
+T Consensus       614 ~~~~~~~~~~~~~----~~----~~~~~~~~~~~l~~~~~~D~~ly~~~~~~f~~  660 (692)
+T 5T0A_B          614 RFISAFTQINSTR----AA----NVELRDDMRSRIEQLNMLDMQLYEFAKDLFLQ  660 (692)
+T ss_dssp             CBSSCCCCCCCCH----HH----HSCCCHHHHHHHHHHTHHHHHHHHHHHHHHHH
+T ss_pred             chHHhHhhccCCC----cc----ccccCHHHHHHHHHhcHHHHHHHHHHHHHHHH
+Confidence            7654333333333    44    55789999999999999999999999988743
+
+
+No 3
+>4NDZ_A Maltose-binding periplasmic protein, Heparan sulfate; heparan sulfate, fusion, TRANSPORT PROTEIN-TRANSFERASE; HET: NPO, NDG, BDP, GLC, GNS, IDR, A3P; 3.45A {Escherichia coli}
+Probab=99.09  E-value=9.3e-12  Score=106.68  Aligned_cols=214  Identities=18%  Similarity=0.107  Sum_probs=135.4  Template_Neff=11.500
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC----CC--Ch----------hhhhhh-hHhh---hcCChHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI----PA--NE----------AHVSAN-LKTL---NQYSIPE  171 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei----pa--ne----------ahvsan-lktl---nqysipe  171 (352)
+                      ..+++.+++|++||+|||++.++|..+++....+.....    ..  ..          ...... +.+.   ..+....
+T Consensus       372 ~~~~~~~i~~~~~k~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~h~~~~~~~  451 (658)
+T 4NDZ_A          372 EEDDVVIIYNRVPKTASTSFTNIAYDLCAKNRYHVLHINTTKNNPVMSLQDQVRFVKNVTSWKEMKPGFYHGHVSYLDFA  451 (658)
+T ss_dssp             CCCCCEEEECCCTTSSHHHHHHHHHHHHTTTTCEEEEEEEGGGCSCCCHHHHHHHHHHHHHCGGGCSEEEECSCCCCCSG
+T ss_pred             CCCCeEEEEecCCCCCChHHHHHHHHHhhcCCcEEEEeccCCCccccCHHHHHHHHHhcchhhhcCCCeEeeeceecchH
+Confidence            467888999999999999999999887765543322111    00  00          000000 1111   1222112
+
+
+Q ss_pred             HHHHHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHHHHHHHHcCccCCC
+Q sp|Q9NPF2|CHST  172 INHRLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFEEFVAYLIDPHTQR  251 (352)
+Q Consensus       172 inhrlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfeefvaylidphtqr  251 (352)
+                      .....+++++|++||||++|++|+|++.+.... ...  .....              ......+|++|+.......  .
+T Consensus       452 ~~~~~~~~~~~~~lR~P~~R~vS~y~~~~~~~~-~~~--~~~~~--------------~~~~~~~~~~f~~~~~~~~--~  512 (658)
+T 4NDZ_A          452 KFGVKKKPIYINVIRDPIERLVSYYYFLRFGDD-YRP--GLRRR--------------KQGDKKTFDECVAAGGSDC--A  512 (658)
+T ss_dssp             GGTCSSCCEEEEEECCHHHHHHHHHHHHHHCBS-SST--TSCCT--------------TCSCCCCHHHHHHTTCSTT--S
+T ss_pred             HhCCCCCCEEEEEEecHHHHHHhhhhhhhhccC-CCc--ccccc--------------CCCCCcCHHHHHHcCCCCC--c
+Confidence            223346789999999999999999999875322 111  11111              2235678999999865332  2
+
+
+Q ss_pred             CCCchhhHHHHHHh-cCc--------------ch-hchhcccccccchhchhhhhhhcccccc-----ccCCCcCCCCCC
+Q sp|Q9NPF2|CHST  252 EEPFNEHWQTVYSL-CHP--------------CH-IHYDLVGKYETLEEDSNYVLQLAGVGSY-----LKFPTYAKSTRT  310 (352)
+Q Consensus       252 eepfnehwqtvysl-chp--------------ch-ihydlvgkyetleedsnyvlqlagvgsy-----lkfptyakstrt  310 (352)
+                      ....+.+..++.+. ..+              .| ..+++||+.|++++++..|++.+|++..     ....+.+...  
+T Consensus       513 ~~~~~~~~~~~~~~~~~~~~~~~~~~l~~a~~~l~~~~~~v~~~E~~~~s~~~l~~~l~~~~~~~~~~~~~~~~~~~~--  590 (658)
+T 4NDZ_A          513 PEKLWLQIPFFCGHSSECWNVGSRWALEQAKYNLINEYFLVGVTEELEDFIMLLEAALPRFFRGATELYRTGKKSHLR--  590 (658)
+T ss_dssp             GGGGTTHHHHHHCSSGGGGSTTCHHHHHHHHHHHHHTEEEEEEGGGHHHHHHHHHHHCHHHHTTHHHHHHTCSCSSCC--
+T ss_pred             hhhHHHHhhHHhcCChhhcccCCHHHHHHHHHHHHhcceEEEEeechHHHHHHHHHHHHHHcccHHHHHHcchHhhhh--
+Confidence            22244555555544 111              33 6899999999999999999999998432     1112222211  
+
+
+Q ss_pred             chhhhHHHHhhCChHHHhhHH--hhhhhhhhhccCCCCcccC
+Q sp|Q9NPF2|CHST  311 TDEMTTEFFQNISSEHQTQLY--EVYKLDFLMFNYSVPSYLK  350 (352)
+Q Consensus       311 tdemtteffqnissehqtqly--evykldflmfnysvpsylk  350 (352)
+                      ....    ...++++.++.+.  ++|+.|++||+|+.+.|++
+T Consensus       591 ~~~~----~~~~~~~~~~~~~~~~~~~~D~~ly~~~~~~f~~  628 (658)
+T 4NDZ_A          591 KTTE----KKLPTKETIAKLQQSEIWKMENEFYEFALEQFQF  628 (658)
+T ss_dssp             CBSS----CCCCCHHHHHHHTTSHHHHHHHHHHHHHHHHHHH
+T ss_pred             hcCC----CCCCCHHHHHHHHhhHHHHHHHHHHHHHHHHHHH
+Confidence            1133    4578999999999  8999999999999988864
+
+
+No 4
+>3F5F_A maltose binding protein, fusion, heparan; HET: A3P, GLC; 2.65A {Escherichia coli K-12}
+Probab=99.05  E-value=3.1e-11  Score=102.73  Aligned_cols=214  Identities=18%  Similarity=0.118  Sum_probs=131.4  Template_Neff=11.700
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC----CC--Chh-hhh---------h-hhHhh---hcCChHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI----PA--NEA-HVS---------A-NLKTL---NQYSIPE  171 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei----pa--nea-hvs---------a-nlktl---nqysipe  171 (352)
+                      ..+.+.++++++|||++|++..+|....+..........    ..  ... ...         . ...++   ..+....
+T Consensus       372 l~~~~~~i~~~~~k~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~h~~~~~~~  451 (658)
+T 3F5F_A          372 EEDDVVIIYNRVPKTASTSFTNIAYDLCAKNRYHVLHINTTKNNPVMSLQDQVRFVKNVTSWKEMKPGFYHGHVSYLDFA  451 (658)
+T ss_dssp             CCSCCEEEECCCSSSSHHHHHHHHHHHHHHHTCEEEEECCGGGCSCCCHHHHHHHHHHHHHCGGGCSEEEEESCCCCCGG
+T ss_pred             CCCCeEEEEccCCCcCChhHHHHHHHHhhcCCcEEEeeCCCCCCcccchhHHHHHHHhhheeecccCCeeeccceecchH
+Confidence            577888999999999999999999776543321111100    00  000 000         0 00111   1222112
+
+
+Q ss_pred             HHHHHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHHHHHHHHcCccCCC
+Q sp|Q9NPF2|CHST  172 INHRLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFEEFVAYLIDPHTQR  251 (352)
+Q Consensus       172 inhrlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfeefvaylidphtqr  251 (352)
+                      .....+++++|++||||++|++|+|++.+.... ...  .....              ......+|++|+.......  .
+T Consensus       452 ~~~~~~~~~~~~~lR~P~~R~~S~y~~~~~~~~-~~~--~~~~~--------------~~~~~~~~~~~~~~~~~~~--~  512 (658)
+T 3F5F_A          452 KFGVKKKPIYINVIRDPIERLVSYYYFLRFGDD-YRP--GLRRR--------------KQGDKKTFDECVAAGGSDC--A  512 (658)
+T ss_dssp             GGTCSSCCEEEEEECCHHHHHHHHHHHHHHCBS-SSC--SSCCT--------------TCSCCCCHHHHHHTTCSTT--C
+T ss_pred             HcccCCCCeEEEEEecHHHHHHHhhhhhhcCcc-CCc--ccccc--------------cCCCCCCHHHHHHCCCCCC--C
+Confidence            222335789999999999999999999875322 110  01111              1224678999998754322  1
+
+
+Q ss_pred             CCCchhhHHHHHHh-cCc--------------ch-hchhcccccccchhchhhhhhhcccccc-----ccCCCcCCCCCC
+Q sp|Q9NPF2|CHST  252 EEPFNEHWQTVYSL-CHP--------------CH-IHYDLVGKYETLEEDSNYVLQLAGVGSY-----LKFPTYAKSTRT  310 (352)
+Q Consensus       252 eepfnehwqtvysl-chp--------------ch-ihydlvgkyetleedsnyvlqlagvgsy-----lkfptyakstrt  310 (352)
+                      ....+.+.+++.+. ..+              .+ ..+++||+.|++++++..|.+.+|+...     ..........  
+T Consensus       513 ~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~~~~vg~~E~~~~s~~~l~~~l~~~~~~~~~~~~~~~~~~~~--  590 (658)
+T 3F5F_A          513 PEKLWLQIPFFCGHSSECWNVGSRWALEQAKYNLINEYFLVGVTEELEDFIMLLEAALPRFFRGATELYRTGKKSHLR--  590 (658)
+T ss_dssp             GGGSTTHHHHHHCSCGGGGSTTCHHHHHHHHHHHHHTEEEEEEGGGHHHHHHHHHHHCHHHHTTHHHHHHTCSTTSCS--
+T ss_pred             cccceeeechhcCCcHHhcccCCHHHHHHHHHHHHhcCceEeeeeeHHHHHHHHHHHHHHHhcChHHHHhcccHhhhc--
+Confidence            22234555555543 111              33 6899999999999999999999987432     1111222211  
+
+
+Q ss_pred             chhhhHHHHhhCChHHHhhHH--hhhhhhhhhccCCCCcccC
+Q sp|Q9NPF2|CHST  311 TDEMTTEFFQNISSEHQTQLY--EVYKLDFLMFNYSVPSYLK  350 (352)
+Q Consensus       311 tdemtteffqnissehqtqly--evykldflmfnysvpsylk  350 (352)
+                      ....    ...++++.++.+.  ++|+.|++||+|+.+.|++
+T Consensus       591 ~~~~----~~~~~~~~~~~l~~~~~~~~D~~ly~~~~~~f~~  628 (658)
+T 3F5F_A          591 KTTE----KKLPTAATIAKLQQSEIWKMENEFYEFALEQFQF  628 (658)
+T ss_dssp             CBSC----CCCCCHHHHHHHTTSHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCC----CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            1133    4578999999999  9999999999999988754
+
+
+No 5
+>1ZD1_A Sulfotransferase 4A1 (E.C.2.8.2.-); SGC, SULT4A1, Structural Genomics, Structural; 2.24A {Homo sapiens}
+Probab=76.35  E-value=10  Score=28.49  Aligned_cols=198  Identities=12%  Similarity=0.115  Sum_probs=98.8  Template_Neff=12.800
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC------C--C----Chhhhhhh--hHhh---hcCChHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI------P--A----NEAHVSAN--LKTL---NQYSIPEINH  174 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei------p--a----neahvsan--lktl---nqysipeinh  174 (352)
+                      ....+.+++++.||||||.+..+|..+.+..........      .  .    ........  ....   ..........
+T Consensus        42 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  121 (284)
+T 1ZD1_A           42 PVRPSDVWIVTYPKSGTSLLQEVVYLVSQGADPDEIGLMNIDEQLPVLEYPQPGLDIIKELTSPRLIKSHLPYRFLPSDL  121 (284)
+T ss_dssp             CCCTTCEEEEECTTCSCHHHHHHHHHHTTC------------CCSCBTTSSSSCHHHHHHCCSSCEEEECSCGGGSCHHH
+T ss_pred             CCCCcCEEEEcCCCCCHHHHHHHHHHHHcCCChhhcCCCChhhcCCcccCCCCCchhHHhcCCCCcEEeCCCHHHCCccc
+Confidence            356788999999999999999999776432211100000      0  0    00000000  0000   0000011112
+
+
+Q ss_pred             HHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHHHHHHHHcCccCCCCCC
+Q sp|Q9NPF2|CHST  175 RLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFEEFVAYLIDPHTQREEP  254 (352)
+Q Consensus       175 rlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfeefvaylidphtqreep  254 (352)
+                      ..++.+.|.++|||.+.+.|.|........ ..                         ...++.+++.......  .  .
+T Consensus       122 ~~~~~~~i~~~Rdp~~~~~S~~~~~~~~~~-~~-------------------------~~~~~~~~~~~~~~~~--~--~  171 (284)
+T 1ZD1_A          122 HNGDSKVIYMARNPKDLVVSYYQFHRSLRT-MS-------------------------YRGTFQEFCRRFMNDK--L--G  171 (284)
+T ss_dssp             HTTCSEEEEEECCHHHHHHHHHHCC-----------------------------------CCHHHHHHHHHTTC--S--T
+T ss_pred             ccCCCeEEEEECCHHHHeehhHHHHHhhcc-cC-------------------------CCCCHHHHHHHHhcCC--C--c
+Confidence            235788999999999999999866442211 00                         1234555555433211  0  0
+
+
+Q ss_pred             chhhHHHHHHh-cCcchhchhcccccccc----hhchhhhhhhcccccccc------------------CC--CcCCCCC
+Q sp|Q9NPF2|CHST  255 FNEHWQTVYSL-CHPCHIHYDLVGKYETL----EEDSNYVLQLAGVGSYLK------------------FP--TYAKSTR  309 (352)
+Q Consensus       255 fnehwqtvysl-chpchihydlvgkyetl----eedsnyvlqlagvgsylk------------------fp--tyakstr  309 (352)
+                      ...+...+..+ .. ....-..+..+|++    ++.+..|.+.+|++....                  ..  ...... 
+T Consensus       172 ~~~~~~~~~~~~~~-~~~~~~~~v~yEdl~~~p~~~~~~l~~~lgl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-  249 (284)
+T 1ZD1_A          172 YGSWFEHVQEFWEH-RMDSNVLFLKYEDMHRDLVTMVEQLARFLGVSCDKAQLEALTEHCHQLVDQCCNAEALPVGRGR-  249 (284)
+T ss_dssp             TCCHHHHHHHHHTT-TTSTTEEEEETTHHHHCHHHHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHTTBCTTSSBSSTTC-
+T ss_pred             cccHHHHHHHHHHH-hcCCCEEEEEHHHHhcCHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHhhhcccCCCCCcccCCC-
+Confidence            11111111111 00 00112234455655    345888889998854310                  00  001111 
+
+
+Q ss_pred             CchhhhHHHHhhCChHHHhhHHhhhhhhhhhccCCCC
+Q sp|Q9NPF2|CHST  310 TTDEMTTEFFQNISSEHQTQLYEVYKLDFLMFNYSVP  346 (352)
+Q Consensus       310 ttdemtteffqnissehqtqlyevykldflmfnysvp  346 (352)
+                       ....    ...++++.++.+.+.+..+++.|+|...
+T Consensus       250 -~~~~----~~~l~~~~~~~i~~~~~~~~~~~gY~~~  281 (284)
+T 1ZD1_A          250 -VGLW----KDIFTVSMNEKFDLVYKQKMGKCDLTFD  281 (284)
+T ss_dssp             -TTGG----GGTCCHHHHHHHHHHHHHHHTTCCCCCC
+T ss_pred             -ccch----hhhcCHHHHHHHHHHHHHHhccCCCCCc
+Confidence             1123    4568999999999999999999999764
+
+
+No 6
+>1ZD1_B Sulfotransferase 4A1 (E.C.2.8.2.-); SGC, SULT4A1, Structural Genomics, Structural; 2.24A {Homo sapiens}
+Probab=76.35  E-value=10  Score=28.49  Aligned_cols=198  Identities=12%  Similarity=0.117  Sum_probs=98.1  Template_Neff=12.800
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC------C--C----Chhhhhhh--hHhh---hcCChHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI------P--A----NEAHVSAN--LKTL---NQYSIPEINH  174 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei------p--a----neahvsan--lktl---nqysipeinh  174 (352)
+                      ....+.+++++.||||||.+..+|..+.+..........      .  .    ........  ....   ..........
+T Consensus        42 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  121 (284)
+T 1ZD1_B           42 PVRPSDVWIVTYPKSGTSLLQEVVYLVSQGADPDEIGLMNIDEQLPVLEYPQPGLDIIKELTSPRLIKSHLPYRFLPSDL  121 (284)
+T ss_dssp             CCCTTCEEEEECTTCCCHHHHHHHHHHHCC-------------CCCBTTSSSSCHHHHHHCCSSCEEEECCCGGGSCGGG
+T ss_pred             CCCCcCEEEEcCCCCCHHHHHHHHHHHHcCCChhhcCCCChhhcCCcccCCCCCchhHHhcCCCCcEEeCCCHHHCCccc
+Confidence            456788999999999999999999776432211110000      0  0    00000000  0000   0000000011
+
+
+Q ss_pred             HHHHHhhhhhccchHHHHHHHHHhhccchcccchhhhhcchhhhhhhhhhhHHHHhCCCcccHHHHHHHHcCccCCCCCC
+Q sp|Q9NPF2|CHST  175 RLKSYMKFLFVREPFERLVSAYRNKFTQKYNISFHKRYGTKIIKRQRKNATQEALRKGDDVKFEEFVAYLIDPHTQREEP  254 (352)
+Q Consensus       175 rlksymkflfvrepferlvsayrnkftqkynisfhkrygtkiikrqrknatqealrkgddvkfeefvaylidphtqreep  254 (352)
+                      ..++.+.|.++|||.+.+.|.|........ ..                         ...++.+++.......  . . 
+T Consensus       122 ~~~~~~~i~~~Rdp~~~~~S~~~~~~~~~~-~~-------------------------~~~~~~~~~~~~~~~~--~-~-  171 (284)
+T 1ZD1_B          122 HNGDSKVIYMARNPKDLVVSYYQFHRSLRT-MS-------------------------YRGTFQEFCRRFMNDK--L-G-  171 (284)
+T ss_dssp             TTTSSEEEEEECCHHHHHHHHHHCC-----------------------------------CCHHHHHHHHHTTC--S-T-
+T ss_pred             ccCCCeEEEEECCHHHHeehhHHHHHhhcc-cC-------------------------CCCCHHHHHHHHhcCC--C-c-
+Confidence            225788999999999999999866442211 00                         1234555555433211  0 0 
+
+
+Q ss_pred             chhhHHHHHHh-cCcchhchhcccccccc----hhchhhhhhhcccccccc------------------CC--CcCCCCC
+Q sp|Q9NPF2|CHST  255 FNEHWQTVYSL-CHPCHIHYDLVGKYETL----EEDSNYVLQLAGVGSYLK------------------FP--TYAKSTR  309 (352)
+Q Consensus       255 fnehwqtvysl-chpchihydlvgkyetl----eedsnyvlqlagvgsylk------------------fp--tyakstr  309 (352)
+                      ...+...+..+ .. ....-..+..+|++    ++.+..|.+.+|++....                  ..  ...... 
+T Consensus       172 ~~~~~~~~~~~~~~-~~~~~~~~v~yEdl~~~p~~~~~~l~~~lgl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-  249 (284)
+T 1ZD1_B          172 YGSWFEHVQEFWEH-RMDSNVLFLKYEDMHRDLVTMVEQLARFLGVSCDKAQLEALTEHCHQLVDQCCNAEALPVGRGR-  249 (284)
+T ss_dssp             TCCHHHHHHHHHHT-TTSTTEEEEETTHHHHCHHHHHHHHHHHHTCCCCHHHHHHHHHHHHHHHTTTBCTTSSBTTTTC-
+T ss_pred             cccHHHHHHHHHHH-hcCCCEEEEEHHHHhcCHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHhhhcccCCCCCcccCCC-
+Confidence            11111111111 00 00112234455655    345888888888854310                  00  000111 
+
+
+Q ss_pred             CchhhhHHHHhhCChHHHhhHHhhhhhhhhhccCCCC
+Q sp|Q9NPF2|CHST  310 TTDEMTTEFFQNISSEHQTQLYEVYKLDFLMFNYSVP  346 (352)
+Q Consensus       310 ttdemtteffqnissehqtqlyevykldflmfnysvp  346 (352)
+                       ....    ...++++.++.+.+.+..+++.|+|...
+T Consensus       250 -~~~~----~~~l~~~~~~~i~~~~~~~~~~~gY~~~  281 (284)
+T 1ZD1_B          250 -VGLW----KDIFTVSMNEKFDLVYKQKMGKCDLTFD  281 (284)
+T ss_dssp             -TTGG----GGTSCHHHHHHHHHHHHHHHTTCCCCCC
+T ss_pred             -ccch----hhhcCHHHHHHHHHHHHHHhccCCCCCc
+Confidence             1123    4568999999999999999999999764
+
+
+No 7
+>4IFB_A Bile salt sulfotransferase (E.C.2.8.2.14); sulfotransferase, TRANSFERASE; HET: PPS, PO4; 2.3A {Homo sapiens}
+Probab=71.16  E-value=23  Score=26.42  Aligned_cols=90  Identities=14%  Similarity=0.149  Sum_probs=50.3  Template_Neff=13.000
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccCC----CChhhhhhhh---------Hhh-h--cCChHHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEIP----ANEAHVSANL---------KTL-N--QYSIPEINHR  175 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmeip----aneahvsanl---------ktl-n--qysipeinhr  175 (352)
+                      ...++.+++++.||||||.+.++|....+...........    ..........         ... .  ..........
+T Consensus        31 ~~~~~~i~i~g~~rsGtt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  110 (285)
+T 4IFB_A           31 VIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFF  110 (285)
+T ss_dssp             CCCTTCEEEEECTTSSHHHHHHHHHHHHTTTCCHHHHHSCHHHHSCBTTSHHHHHHHHTCCSSCEEEECCCGGGSCGGGG
+T ss_pred             CCCCCCEEEEeCCCChHHHHHHHHHHHccCCCcchHHcccccccCCcccccccchhhccCCCCcccccCCChhhCCcccc
+Confidence            4578889999999999999999997654432111000000    0000000000         000 0  0000000112
+
+
+Q ss_pred             HHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  176 LKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       176 lksymkflfvrepferlvsayrnkft  201 (352)
+                      .++.+.|.++|||.+.++|.|.....
+T Consensus       111 ~~~~~~I~~~R~p~~~~~S~~~~~~~  136 (285)
+T 4IFB_A          111 SSKAKVIYLMRNPRDVLVSGYFFWKN  136 (285)
+T ss_dssp             GSCCEEEEEECCHHHHHHHHHHHHTT
+T ss_pred             CCCCeEEEEEcChHHhHHHHHHHHHh
+Confidence            24778999999999999999987654
+
+
+No 8
+>6XKG_B sulfotransferase, enzyme, PAPS, Heparan sulfate; HET: NGY, BDP, SGN, A3P, IDS, NPO, EDO; 1.55A {Homo sapiens}
+Probab=70.87  E-value=62  Score=24.07  Aligned_cols=91  Identities=14%  Similarity=0.047  Sum_probs=51.1  Template_Neff=13.000
+
+Q ss_pred             EECCCCCEEEEEcCchcccchhheeeeheCCC----CCCCCccC-CCChhhh--------------hhhhHhh-hcCChH
+Q sp|Q9NPF2|CHST  111 VVDEDHELIYCYVPKVACTNWKRLMMVLTGRG----KYSDPMEI-PANEAHV--------------SANLKTL-NQYSIP  170 (352)
+Q Consensus       111 vvdedheliycyvpkvactnwkrlmmvltgrg----kysdpmei-paneahv--------------sanlktl-nqysip  170 (352)
+                      .....+.+++++.||||||++.++|..+.+..    ........ .......              .....+. ......
+T Consensus        15 ~~~~~~~i~~~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   94 (273)
+T 6XKG_B           15 GSKQLPQAIIIGVKKGGTRALLEFLRVHPDVRAVGAEPHFFDRSYDKGLAWYRDLMPRTLDGQITMEKTPSYFVTREAPA   94 (273)
+T ss_dssp             CEECCCSEEEEECTTSSHHHHHHHHTTSTTEEECSSCCCTTTTSGGGCHHHHHHTSCEECTTCEEEEECTTGGGCTTHHH
+T ss_pred             ccccCCcEEEECCCcccHHHHHHHHHHCCceeecCCCccccCCcchhcHHHHHHhCCCCcCCceEeecCCceecCCcHHH
+Confidence            34678889999999999999999997643211    11111000 0000000              0000000 000011
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkft  201 (352)
+                      ......++.+.|+++|||.++++|.|.+...
+T Consensus        95 ~~~~~~~~~~~i~~~R~p~~~~~S~~~~~~~  125 (273)
+T 6XKG_B           95 RISAMSKDTKLIVVVRDPVTRAISDYTQTLS  125 (273)
+T ss_dssp             HHHHHCTTCEEEEEECCHHHHHHHHHHHHHH
+T ss_pred             HHHHhcCCcEEEEEEcChHHHHHHHHHHHhh
+Confidence            2223346789999999999999999977543
+
+
+No 9
+>1T8T_B heparan sulfate D-glucosaminyl 3-O-sulfotransferase 3A1; alpha-beta motif, substrate-binding cleft, transferase; HET: A3P, CIT; 1.85A {Homo sapiens} SCOP: c.37.1.5
+Probab=60.77  E-value=74  Score=23.53  Aligned_cols=90  Identities=14%  Similarity=0.054  Sum_probs=50.2  Template_Neff=13.100
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCC----CCCCccC-CCChhhh--------------hhhhHhh-hcCChHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGK----YSDPMEI-PANEAHV--------------SANLKTL-NQYSIPE  171 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgk----ysdpmei-paneahv--------------sanlktl-nqysipe  171 (352)
+                      ....+.+++++.||||||++..+|..+.+...    ....... .......              .....+. .......
+T Consensus        14 ~~~~~~i~~~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   93 (271)
+T 1T8T_B           14 SKQLPQAIIIGVKKGGTRALLEFLRVHPDVRAVGAEPHFFDRSYDKGLAWYRDLMPRTLDGQITMEKTPSYFVTREAPAR   93 (271)
+T ss_dssp             EECCCSEEEEECTTSSHHHHHHHHTTSTTEEECSSCCCTTTTCGGGCHHHHHHHSCEECTTCEEEEECGGGGGCTTHHHH
+T ss_pred             ccCCCcEEEECCCCchHHHHHHHHHhCCCccccCCCccccCccchHhHHHHHHhCccccCCcEEEeecCceecCCCHHHH
+Confidence            45678899999999999999999976532211    1111000 0000000              0000000 0000111
+
+
+Q ss_pred             HHHHHHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  172 INHRLKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       172 inhrlksymkflfvrepferlvsayrnkft  201 (352)
+                      .....++.+.|+++|||.++++|.|.....
+T Consensus        94 ~~~~~~~~~~i~~~Rdp~~~~~S~~~~~~~  123 (271)
+T 1T8T_B           94 ISAMSKDTKLIVVVRDPVTRAISDYTQTLS  123 (271)
+T ss_dssp             HHHHCTTCEEEEEECCHHHHHHHHHHHHHH
+T ss_pred             HHHhCCCCEEEEEeCCHHHHHHHHHHHHhh
+Confidence            223336788999999999999999977543
+
+
+No 10
+>1J99_A ALCOHOL SULFOTRANSFERASE (E.C.2.8.2.2); Dehydroepiandosterone, Sulfotransferase, DHEA, TRANSFERASE; HET: AND; 1.99A {Homo sapiens} SCOP: c.37.1.5
+Probab=57.69  E-value=49  Score=25.37  Aligned_cols=90  Identities=14%  Similarity=0.112  Sum_probs=50.0  Template_Neff=12.600
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCCh---hhhhhh-----hHhh-hcC--ChHHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PANE---AHVSAN-----LKTL-NQY--SIPEINHR  175 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pane---ahvsan-----lktl-nqy--sipeinhr  175 (352)
+                      ...++.+++++.||||||.+.++|..+.+..........     ....   ......     .... ...  ........
+T Consensus        39 ~~~~~~v~i~g~~RsGtt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  118 (293)
+T 1J99_A           39 VIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFF  118 (293)
+T ss_dssp             CCCTTCEEEECSTTSSHHHHHHHHHHHHTTTCCHHHHHSCHHHHSCBTTSHHHHHHHTTCCSSCEEEECCCGGGSCGGGG
+T ss_pred             CCCCCCEEEEcCCCChHHHHHHHHHHHhhcCCcchhhcccccccCccccccccccccccCCCCceEeecCcHHhCChhhc
+Confidence            356789999999999999999999765443211100000     0000   000000     0000 000  00000112
+
+
+Q ss_pred             HHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  176 LKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       176 lksymkflfvrepferlvsayrnkft  201 (352)
+                      .++.+.|.++|||.+.+.|.|.....
+T Consensus       119 ~~~~~~I~~~R~p~~~~~S~~~~~~~  144 (293)
+T 1J99_A          119 SSKAKVIYLMRNPRDVLVSGYFFWKN  144 (293)
+T ss_dssp             GSCCEEEEEECCHHHHHHHHHHHHTT
+T ss_pred             CCCCeEEEEeCChHHHHhcHHHHHHh
+Confidence            24778999999999999999987654
+
+
+No 11
+>3F3Y_C Bile salt sulfotransferase; SULT2A1, human cytosolic sulfotransferase, lithocholic; HET: A3P, 4OA; 2.2A {Homo sapiens}
+Probab=56.65  E-value=57  Score=24.68  Aligned_cols=90  Identities=14%  Similarity=0.113  Sum_probs=50.9  Template_Neff=12.800
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCCh---hhhhhh-----hHhh-hcCC--hHHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PANE---AHVSAN-----LKTL-NQYS--IPEINHR  175 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pane---ahvsan-----lktl-nqys--ipeinhr  175 (352)
+                      ...++.+++++.||||||.+.++|...............     ....   ......     .... ....  .......
+T Consensus        31 ~~~~~~v~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  110 (285)
+T 3F3Y_C           31 VIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFF  110 (285)
+T ss_dssp             CCCTTCEEEEECTTSSHHHHHHHHHHHHTTTCTTTTTTSCHHHHSCBTTSHHHHHHHHTCCSSCEEEECCCGGGSCGGGT
+T ss_pred             CCCCCCEEEEcCCCCcHHHHHHHHHHHhcCCCccHHHcCCcccCCcccchhccccccccCCCCceeeecCcHHhCChhhc
+Confidence            356788999999999999999999766543322211110     0000   000000     0000 0000  0000112
+
+
+Q ss_pred             HHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  176 LKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       176 lksymkflfvrepferlvsayrnkft  201 (352)
+                      .++.+.|.++|||.+.++|.|.....
+T Consensus       111 ~~~~~~I~~~R~p~~~~~S~~~~~~~  136 (285)
+T 3F3Y_C          111 SSKAKVIYLMRNPRDVLVSGYFFWKN  136 (285)
+T ss_dssp             TSCCEEEEEECCHHHHHHHHHHHTSS
+T ss_pred             CCCCeEEEEECChHHHHHHHHHHHHh
+Confidence            24778999999999999999987654
+
+
+No 12
+>1ZRH_A Heparan sulfate glucosamine 3-O-sulfotransferase 1; SGC  Sulfotransferase HS3ST1, Structural; HET: A3P; 2.1A {Homo sapiens}
+Probab=48.26  E-value=1.8e+02  Score=21.63  Aligned_cols=89  Identities=13%  Similarity=0.023  Sum_probs=49.1  Template_Neff=13.100
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCC----CCCccC---CCChhhhh--------------hhhHhhh-cCCh
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKY----SDPMEI---PANEAHVS--------------ANLKTLN-QYSI  169 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgky----sdpmei---paneahvs--------------anlktln-qysi  169 (352)
+                      ...++.+++++.||||||.+..+|..+.+....    ......   ........              ....+.. ....
+T Consensus        18 ~~~~~~i~~~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   97 (274)
+T 1ZRH_A           18 AQQLPQTIIIGVRKGGTRALLEMLSLHPDVAAAENEVHFFDWEEHYSHGLGWYLSQMPFSWPHQLTVEKTPAYFTSPKVP   97 (274)
+T ss_dssp             EECCCSEEECCCTTSSHHHHHHHHTTSTTEEECSSCCCTTTCHHHHTTHHHHHHHTSCEECTTSEEEEECGGGGGCTTHH
+T ss_pred             cccCCCEEEEcCccccHHHHHHHHhcCCCcccCCcccccccchhhhhccHHHHHHcCCCCCccceEEEeechhhcCCCHH
+Confidence            356788999999999999999999764321111    000000   00000000              0000000 0001
+
+
+Q ss_pred             HHHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  170 PEINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       170 peinhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      .......++.+.|+++|||.++++|.|....
+T Consensus        98 ~~l~~~~~~~~~i~~~R~p~~~~~S~~~~~~  128 (274)
+T 1ZRH_A           98 ERVYSMNPSIRLLLILRDPSERVLSDYTQVF  128 (274)
+T ss_dssp             HHHHHHCTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             HHHHHHCCCCEEEEEEcCHHHHHHHHHHHHH
+Confidence            1112233578899999999999999997754
+
+
+No 13
+>2ZPT_X Tyrosine-ester sulfotransferase (E.C.2.8.2.9); SULT1D1, catecholamine, sulfotransferase, sulfonation, Transferase; HET: A3P, GOL; 1.15A {Mus musculus}
+Probab=37.93  E-value=2.9e+02  Score=21.37  Aligned_cols=88  Identities=9%  Similarity=0.031  Sum_probs=50.6  Template_Neff=12.600
+
+Q ss_pred             CCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCC---h-------h-hhhh--hhHhh---hcCChHH
+Q sp|Q9NPF2|CHST  113 DEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PAN---E-------A-HVSA--NLKTL---NQYSIPE  171 (352)
+Q Consensus       113 dedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pan---e-------a-hvsa--nlktl---nqysipe  171 (352)
+                      ..++.+++++.||||||.+..+|..+.+..........     ...   .       . ....  .....   .......
+T Consensus        36 ~~~~~i~i~g~~RsGtt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  115 (295)
+T 2ZPT_X           36 ARPDDILISTYPKSGTTWVSEILDLIYNNGDAEKCKRDAIYKRVPFMELIIPGITNGVEMLNNMPSPRIVKTHLPVQLLP  115 (295)
+T ss_dssp             CCTTCEEEEESTTSSHHHHHHHHHHHHTTTCTTGGGSSCHHHHSCBTTCEETTTEEHHHHHHTCCSSCEEEECCCGGGSC
+T ss_pred             CCCCCEEEEeCCCCCHHHHHHHHHHHHhCCCchhcCcccccccccHHHhhcCCCccchHHHhcCCCCceEEeCCcHHhCC
+Confidence            46788999999999999999999877554322211110     000   0       0 0000  00000   0000000
+
+
+Q ss_pred             HHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  172 INHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       172 inhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      .....++.+.|.++|||.+.+.|.+....
+T Consensus       116 ~~~~~~~~~~I~~~Rdp~~~~~S~~~~~~  144 (295)
+T 2ZPT_X          116 SSFWKNDCKIIYVARNAKDVVVSYYYFYQ  144 (295)
+T ss_dssp             THHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             hhHhcCCCeEEEEEcCHHHHHHhhhhhhh
+Confidence            11222688999999999999999997654
+
+
+No 14
+>2ZYT_X Tyrosine-ester sulfotransferase (E.C.2.8.2.9); SULT1D1, SULT, sulfotransferase, PAPS, sulfonation; HET: GOL, PPS; 1.55A {Mus musculus}
+Probab=37.93  E-value=2.9e+02  Score=21.37  Aligned_cols=88  Identities=9%  Similarity=0.031  Sum_probs=50.6  Template_Neff=12.600
+
+Q ss_pred             CCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCC---h-------h-hhhh--hhHhh---hcCChHH
+Q sp|Q9NPF2|CHST  113 DEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PAN---E-------A-HVSA--NLKTL---NQYSIPE  171 (352)
+Q Consensus       113 dedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pan---e-------a-hvsa--nlktl---nqysipe  171 (352)
+                      ..++.+++++.||||||.+..+|..+.+..........     ...   .       . ....  .....   .......
+T Consensus        36 ~~~~~i~i~g~~RsGtt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  115 (295)
+T 2ZYT_X           36 ARPDDILISTYPKSGTTWVSEILDLIYNNGDAEKCKRDAIYKRVPFMELIIPGITNGVEMLNNMPSPRIVKTHLPVQLLP  115 (295)
+T ss_dssp             CCTTCEEEEESTTSSHHHHHHHHHHHHTTTCTTGGGSSCHHHHSCBTTCEETTTEEHHHHHHTSCSSCEEEECCCGGGSC
+T ss_pred             CCCCCEEEEeCCCCCHHHHHHHHHHHHhCCCchhcCcccccccccHHHhhcCCCccchHHHhcCCCCceEEeCCcHHhCC
+Confidence            46788999999999999999999877554322211110     000   0       0 0000  00000   0000000
+
+
+Q ss_pred             HHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  172 INHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       172 inhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      .....++.+.|.++|||.+.+.|.+....
+T Consensus       116 ~~~~~~~~~~I~~~Rdp~~~~~S~~~~~~  144 (295)
+T 2ZYT_X          116 SSFWKNDCKIIYVARNAKDVVVSYYYFYQ  144 (295)
+T ss_dssp             THHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             hhHhcCCCeEEEEEcCHHHHHHhhhhhhh
+Confidence            11222688999999999999999997754
+
+
+No 15
+>1Z28_A Phenol-sulfating phenol sulfotransferase 1 (E.C.2.8.2.1); SULT1A1*3, PAP, Plastic substrate binding; HET: A3P; 2.3A {Homo sapiens}
+Probab=35.35  E-value=3.2e+02  Score=20.96  Aligned_cols=89  Identities=12%  Similarity=0.084  Sum_probs=50.4  Template_Neff=12.800
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC------C--C-----Chhhhhh-----hhHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI------P--A-----NEAHVSA-----NLKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei------p--a-----neahvsa-----nlktl---nqysip  170 (352)
+                      ...++.+++++.||||||.+.++|..+.+..........      .  .     .......     .....   ......
+T Consensus        35 ~~~~~~v~i~g~~rsGTt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  114 (295)
+T 1Z28_A           35 QARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALL  114 (295)
+T ss_dssp             CCCTTCEEEEESTTSSHHHHHHHHHHHHTTTCHHHHTSSCHHHHTTBTTCCBTTBCCHHHHTTSCCSSCEEEECCCTTTS
+T ss_pred             CCCCCCEEEEccCCCchHHHHHHHHHHHcCCChHHhccCccccccccccccCCCCCCchhhhhcCCCCcEEEeCCCHHhC
+Confidence            456788999999999999999999876543211100000      0  0     0000000     00000   010111
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      ......++.+.|.++|||.+.+.|.|....
+T Consensus       115 ~~~~~~~~~~~I~~~Rdp~~~~~S~~~~~~  144 (295)
+T 1Z28_A          115 PQTLLDQKVKVVYVARNAKDVAVSYYHFYH  144 (295)
+T ss_dssp             CHHHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             CHHHhcCCCeEEEEEcCHHHHHHHHHHHHH
+Confidence            111234688999999999999999997654
+
+
+No 16
+>7D1X_A Bile acid, Sulfotransferase, Sult2a8, 7-hydroxyl; HET: CHD, A3P; 2.5A {Mus musculus}
+Probab=34.69  E-value=1.9e+02  Score=21.83  Aligned_cols=90  Identities=14%  Similarity=0.109  Sum_probs=49.7  Template_Neff=12.900
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CC-Chhhhhhh-------hHhh---hcCChHHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PA-NEAHVSAN-------LKTL---NQYSIPEINHR  175 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pa-neahvsan-------lktl---nqysipeinhr  175 (352)
+                      ...++.+++++.||||||.+.++|...............     .. ........       ....   ...........
+T Consensus        33 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  112 (284)
+T 7D1X_A           33 VVRDEDTIIVTYPKSGTHWLNEIVCLILTKGDPTWVQSTIANERTPWIEFENNYRILNSKEGPRLMASLLPIQLFPKSFF  112 (284)
+T ss_dssp             CCCTTEEEEEECTTSSHHHHHHHHHHHHTTTCTHHHHSSCHHHHSCBTTSTTHHHHHTSCCSSEEEEECCCGGGSCGGGG
+T ss_pred             CCCCCCEEEEcCCCChHHHHHHHHHHHHhcCCCccccccccCCCCCccchhHHHHHHhcCCCCcceeeCCCchhCCHHHc
+Confidence            467788999999999999999999765433211100000     00 00000000       0000   00000000112
+
+
+Q ss_pred             HHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  176 LKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       176 lksymkflfvrepferlvsayrnkft  201 (352)
+                      .++.+.|.++|||.+.++|.|.+...
+T Consensus       113 ~~~~~~I~~~Rdp~~~~~S~~~~~~~  138 (284)
+T 7D1X_A          113 SSKAKVIYLIRNPRDVLVSGYHYFNA  138 (284)
+T ss_dssp             GSCCCEEEEECCHHHHHHHHHHHHHT
+T ss_pred             CCCCEEEEEECCHHHHHHHHHHHHHH
+Confidence            34789999999999999999877654
+
+
+No 17
+>4JVL_A Estrogen sulfotransferase (E.C.2.8.2.4); cytosolic sulfotransferase, TRANSFERASE; HET: EDO, A3P, EST; 1.943A {Homo sapiens}
+Probab=34.13  E-value=2.7e+02  Score=21.70  Aligned_cols=89  Identities=12%  Similarity=0.062  Sum_probs=50.2  Template_Neff=12.500
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCC-------h-h---hhh--hhhHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PAN-------E-A---HVS--ANLKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pan-------e-a---hvs--anlktl---nqysip  170 (352)
+                      ...+..+++++.||+|||.+.++|..+.+..........     ...       . .   ...  ......   ......
+T Consensus        34 ~~~~~~i~i~g~~RsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  113 (294)
+T 4JVL_A           34 QARPDDLVIATYPKSGTTWVSEIVYMIYKEGDVEKCKEDVIFNRIPFLECRKENLMNGVKQLDEMNSPRIVKTHLPPELL  113 (294)
+T ss_dssp             CCCTTCEEEEECTTSSHHHHHHHHHHHHTTTCHHHHTSSCHHHHSCBTTCEETTTEEHHHHHHTSCSSCEEEECCCGGGS
+T ss_pred             CCCcCCEEEecCCCCcHHHHHHHHHHHHhcCCcHHhccccccCccccchhHHhhhhhhHHHHhhCCCCcEEeeCCChhhC
+Confidence            456788999999999999999999776543211100000     000       0 0   000  000000   000000
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      ......++.+.|.++|||.+.+.|.|....
+T Consensus       114 ~~~~~~~~~k~I~l~Rdp~~~~~S~~~~~~  143 (294)
+T 4JVL_A          114 PASFWEKDCKIIYLCRNAKDVAVSFYYFFL  143 (294)
+T ss_dssp             CHHHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             CcchhcCCCeEEEEECCHHHHHHHHHHHHH
+Confidence            111123678999999999999999997754
+
+
+No 18
+>3BD9_A 3-O-sulfotransferase, heparan sulfate, heparan sulfate; HET: A3P; 2.3A {Homo sapiens}
+Probab=30.63  E-value=2e+02  Score=21.96  Aligned_cols=89  Identities=13%  Similarity=0.024  Sum_probs=49.6  Template_Neff=12.700
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCC----CCCCCccC---CCChhhh--------------hhhhHhh-hcCCh
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRG----KYSDPMEI---PANEAHV--------------SANLKTL-NQYSI  169 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrg----kysdpmei---paneahv--------------sanlktl-nqysi  169 (352)
+                      ....+.+++++.||||||.+..+|..+.+..    ........   .......              .....+. .....
+T Consensus        21 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  100 (280)
+T 3BD9_A           21 MQQLPKAIIIGVRKGGTRALLEMLNLHPAVVKASQEIHFFDNDENYGKGIEWYRKKMPFSYPQQITIEKSPAYFITEEVP  100 (280)
+T ss_dssp             EECCCSEEEEECTTSSHHHHHHHHTTSTTEEECSSCCCCTTCHHHHHTCHHHHHTTSCEECTTCEEEEECGGGGTCTTHH
+T ss_pred             cccCCcEEEEcCCcccHHHHHHHHhhCCcccCCCccccccCCccchhHHHHHHHHhCCCCCCCeEEEeecccccCCccHH
+Confidence            4677889999999999999999997643221    11100000   0000000              0000000 00011
+
+
+Q ss_pred             HHHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  170 PEINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       170 peinhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      .......++.+.|.++|||.++++|.|....
+T Consensus       101 ~~l~~~~~~~~~i~~~R~p~~~~~S~~~~~~  131 (280)
+T 3BD9_A          101 ERIYKMNSSIKLLIIVREPTTRAISDYTQVL  131 (280)
+T ss_dssp             HHHHHHCTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             HHHHHHCCCCEEEEEECCHHHHHHHHHHHHH
+Confidence            1112233678899999999999999997754
+
+
+No 19
+>5X2B_L Sulfotransferase (E.C.2.8.2.-); TRANSFERASE; HET: A3P, GOL, CA; 2.08A {Mus musculus}
+Probab=28.60  E-value=1.1e+02  Score=23.39  Aligned_cols=90  Identities=11%  Similarity=0.127  Sum_probs=50.6  Template_Neff=12.700
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccCCCChhhhhh---h--hHhh---hcCChHHHHHHHHHHhhhh
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEIPANEAHVSA---N--LKTL---NQYSIPEINHRLKSYMKFL  183 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmeipaneahvsa---n--lktl---nqysipeinhrlksymkfl  183 (352)
+                      ...+..+++++.||+|||.+.++|..+.+...................   .  ....   ............++.+.|.
+T Consensus        29 ~~~~~~i~i~g~~rsGtt~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~  108 (283)
+T 5X2B_L           29 DAREDDIFLVSYPKSGTHWLAEVIERIPDAGITLTSPIELGDISKFEELKRIPKRRAIPTHLNYEMLPVTVKQKQCKIIY  108 (283)
+T ss_dssp             CCCTTCEEEEECTTTSSHHHHHHHHHSTTCCEEECCCTTSBCGGGHHHHHTCCSEEEEEECCCTTTSCHHHHHTTCEEEE
+T ss_pred             CCCCCCEEEEeCCCCchHHHHHHHHHcccCCCeeecccchhchhhHHHHhcCCCcceeeeecChhhCCcccccCCcEEEE
+Confidence            356778999999999999999999776442211100000000000000   0  0000   0111111112236788999
+
+
+Q ss_pred             hccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  184 FVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       184 fvrepferlvsayrnkft  201 (352)
+                      ++|||.+.+.|.|.....
+T Consensus       109 ~~R~p~~~~~S~~~~~~~  126 (283)
+T 5X2B_L          109 IVRNPKDTAVSMFHYYRD  126 (283)
+T ss_dssp             EECCHHHHHHHHHHHHHH
+T ss_pred             EEcCHHHHHHHHHHHHHh
+Confidence            999999999999977543
+
+
+No 20
+>3JC9_Oa PilA, PilC, PilN, PilO, PilM; motor, pilus, ring, membrane channel; HET: MEA, ATP, MG;{Myxococcus xanthus DK 1622}
+Probab=27.84  E-value=88  Score=23.41  Aligned_cols=26  Identities=4%  Similarity=-0.070  Sum_probs=11.9  Template_Neff=11.900
+
+Q ss_pred             hHhHhhhchhhHHHhhhcccchhHHH
+Q sp|Q9NPF2|CHST    5 LLEVMRMNRICRMVLATCLGSFILVI   30 (352)
+Q Consensus         5 llevmrmnricrmvlatclgsfilvi   30 (352)
+                      ....+++.+.-+.++..+++.+++++
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (205)
+T 3JC9_Oa           5 LDQFVKAPPAIKFGGLAFVVGALTAA   30 (205)
+T ss_pred             HHHHhhCCHHHHHHHHHHHHHHHHHH
+Confidence            33445555555555444444333333
+
+
+No 21
+>5X2B_G Sulfotransferase (E.C.2.8.2.-); TRANSFERASE; HET: A3P, GOL, CA; 2.08A {Mus musculus}
+Probab=27.56  E-value=1e+02  Score=23.50  Aligned_cols=91  Identities=11%  Similarity=0.125  Sum_probs=51.1  Template_Neff=12.700
+
+Q ss_pred             EECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccCCCChhhhhhh-----hHhh---hcCChHHHHHHHHHHhhh
+Q sp|Q9NPF2|CHST  111 VVDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEIPANEAHVSAN-----LKTL---NQYSIPEINHRLKSYMKF  182 (352)
+Q Consensus       111 vvdedheliycyvpkvactnwkrlmmvltgrgkysdpmeipaneahvsan-----lktl---nqysipeinhrlksymkf  182 (352)
+                      .......+++++.||+|||.+.++|..+.+....................     ....   ............++.+.|
+T Consensus        27 ~~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i  106 (282)
+T 5X2B_G           27 FDAREDDIFLVSYPKSGTHWLAEVIERIPDAGITLTSPIELGDISKFEELKRIPKRRAIPTHLNYEMLPVTVKQKQCKII  106 (282)
+T ss_dssp             CCCCTTCEEEEECTTSSHHHHHHHHHHSTTCCEEECCCTTSBSTHHHHHHHTCCSEEEEEECCCTTTSCHHHHHHTCEEE
+T ss_pred             CCCCcccEEEEeCCCCcHHHHHHHHHHcccCCCCccCCCccccchhHHHHhcCCCCCCCcccCChhhCCcccccCCeEEE
+Confidence            34667889999999999999999997754322111000000000000000     0000   011111111223678899
+
+
+Q ss_pred             hhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  183 LFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       183 lfvrepferlvsayrnkft  201 (352)
+                      .++|||.+.++|.|.....
+T Consensus       107 ~~~R~p~~~~~S~~~~~~~  125 (282)
+T 5X2B_G          107 YIVRNPKDTAVSMFHYYRD  125 (282)
+T ss_dssp             EEECCHHHHHHHHHHHHHH
+T ss_pred             EEEeCHHHHHHHHHHHHhh
+Confidence            9999999999999977543
+
+
+No 22
+>1LS6_A aryl sulfotransferase (E.C.2.8.2.1); sult 1A1, PAP, p-Nitrophenol, positive; HET: A3P, NPO; 1.9A {Homo sapiens} SCOP: c.37.1.5
+Probab=27.14  E-value=4.3e+02  Score=20.42  Aligned_cols=89  Identities=11%  Similarity=0.061  Sum_probs=49.9  Template_Neff=12.700
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----C---C-C------hhh-hh--hhhHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----P---A-N------EAH-VS--ANLKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----p---a-n------eah-vs--anlktl---nqysip  170 (352)
+                      ...++.+++++.||||||.+..+|..+.+..........     .   . .      ... ..  ......   ......
+T Consensus        35 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  114 (295)
+T 1LS6_A           35 QARPDDLLISTYPKSGTTWVSQILDMIYQGGDLEKCHRAPIFMRVPFLEFKAPGIPSGMETLKDTPAPRLLKTHLPLALL  114 (295)
+T ss_dssp             CCCTTCEEEEESTTSSHHHHHHHHHHHHTTTCHHHHTTSCHHHHSCBTTCCBTTBCCHHHHHHTCCSSCEEEECCCTTTS
+T ss_pred             CCCCCCEEEecCCCCchHHHHHHHHHHHhCCChhhhcCCCcccccccccccCCCCCCchhhhhcCCCCccchhcCChhhC
+Confidence            356678999999999999999999776543211100000     0   0 0      000 00  000000   010101
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      ......++.+.|.++|||.+.+.|.|....
+T Consensus       115 ~~~~~~~~~~~I~~~Rdp~~~~~S~~~~~~  144 (295)
+T 1LS6_A          115 PQTLLDQKVKVVYVARNAKDVAVSYYHFYH  144 (295)
+T ss_dssp             CHHHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             CHHHhcCCCcEEEEECCHHHHHHHHHHHHH
+Confidence            111234678999999999999999996654
+
+
+No 23
+>2H8K_B SULT1C3 splice variant d (E.C.2.8.2.-); sulfotransferase, SULFATE CONJUGATION, PAP, Structural; HET: A3P; 3.2A {Homo sapiens}
+Probab=26.82  E-value=4.9e+02  Score=20.25  Aligned_cols=28  Identities=4%  Similarity=0.020  Sum_probs=24.4  Template_Neff=12.700
+
+Q ss_pred             HhhCChHHHhhHHhhhhhhhhhccCCCC
+Q sp|Q9NPF2|CHST  319 FQNISSEHQTQLYEVYKLDFLMFNYSVP  346 (352)
+Q Consensus       319 fqnissehqtqlyevykldflmfnysvp  346 (352)
+                      ...++++.++.+.+.+..+++.++|...
+T Consensus       276 ~~~l~~~~~~~i~~~~~~~~~~~GY~~~  303 (306)
+T 2H8K_B          276 KNYFTVAQNEEFDKDYQKKMAGSTLTFR  303 (306)
+T ss_dssp             GGTCBHHHHHHHHHHHHHHTSSCCCCCC
+T ss_pred             HHcCCHHHHHHHHHHHHHHhcCCCCcee
+Confidence            4568999999999999999999999754
+
+
+No 24
+>6ZHX_K ALC1, CHD1L, chromatin remodeler, DNA; 2.5A {Xenopus laevis}
+Probab=26.52  E-value=77  Score=22.64  Aligned_cols=12  Identities=33%  Similarity=0.996  Sum_probs=9.2  Template_Neff=5.500
+
+Q ss_pred             CCCCcccCChhh
+Q sp|Q9NPF2|CHST   95 TSRKRRVLTPND  106 (352)
+Q Consensus        95 tsrkrrvltpnd  106 (352)
+                      .+|||++|++.+
+T Consensus        25 p~rkrk~Lt~eE   36 (37)
+T 6ZHX_K           25 STKRKRVLSPEE   36 (37)
+T ss_pred             CCccccCCCHhh
+Confidence            567788998865
+
+
+No 25
+>2REO_A sulfotransferase, SULFATE CONJUGATION, PAP, STRUCTURAL; HET: A3P; 2.651A {Homo sapiens}
+Probab=24.85  E-value=3.1e+02  Score=21.40  Aligned_cols=28  Identities=4%  Similarity=0.020  Sum_probs=23.5  Template_Neff=12.600
+
+Q ss_pred             HhhCChHHHhhHHhhhhhhhhhccCCCC
+Q sp|Q9NPF2|CHST  319 FQNISSEHQTQLYEVYKLDFLMFNYSVP  346 (352)
+Q Consensus       319 fqnissehqtqlyevykldflmfnysvp  346 (352)
+                      ...++++.++.+.+.+..+++.++|...
+T Consensus       275 ~~~l~~~~~~~i~~~~~~~l~~~gY~~~  302 (305)
+T 2REO_A          275 KNYFTVAQNEEFDKDYQKKMAGSTLTFR  302 (305)
+T ss_dssp             GGTCCHHHHHHHHHHHHHHCC-CCCCCC
+T ss_pred             HHccCHHHHHHHHHHHHHHhcCCCCeec
+Confidence            4568999999999999999999999754
+
+
+No 26
+>1AQU_B ESTROGEN SULFOTRANSFERASE, ADENOSINE-3'-5'-DIPHOSPHATE, ESTRADIOL; TRANSFERASE, PAP, SULFOTRANSFERASE, SULFONATION, ESTROGEN; HET: A3P, EST; 1.6A {Mus musculus} SCOP: c.37.1.5
+Probab=24.64  E-value=1.7e+02  Score=22.56  Aligned_cols=90  Identities=12%  Similarity=0.090  Sum_probs=50.0  Template_Neff=12.700
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCC----------hh-hhhhh--hHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PAN----------EA-HVSAN--LKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pan----------ea-hvsan--lktl---nqysip  170 (352)
+                      ...+..+++++.||+|||.+.++|..+.+..........     ...          .. .....  ....   ......
+T Consensus        37 ~~~~~~i~i~g~~rsGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  116 (297)
+T 1AQU_B           37 LARPDDLVIATYPKSGTTWISEVVYMIYKEGDVEKCKEDAIFNRIPYLECRNEDLINGIKQLKEKESPRIVKTHLPPKLL  116 (297)
+T ss_dssp             CCCTTCEEEEECTTSSHHHHHHHHHHHHTC-------CCCHHHHSCBTTCEETTTEEHHHHHHTCCSSCEEEECCCGGGS
+T ss_pred             hCCCCCEEEecCCCCcHHHHHHHHHHHHhcCChhhcccchhhcCCchHhhcchhhhHHHHHHHhCCCCeEEEeCCCHHHC
+Confidence            356778999999999999999999776543322111000     000          00 00000  0000   000001
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkft  201 (352)
+                      ......++.+.|.++|||.+.++|.|.....
+T Consensus       117 ~~~~~~~~~~~i~~~Rdp~~~~~S~~~~~~~  147 (297)
+T 1AQU_B          117 PASFWEKNCKMIYLCRNAKDVAVSYYYFLLM  147 (297)
+T ss_dssp             CHHHHHTTCEEEEEECCHHHHHHHHHHHHHH
+T ss_pred             CcchhcCCCEEEEEECCHHHHHHHHHHHHhh
+Confidence            1112336789999999999999999977543
+
+
+No 27
+>2GWH_A Sulfotransferase 1C2 (E.C.2.8.2.-); sulfotransferase, SULFATE CONJUGATION, pentachlorophenol, pap; HET: A3P, PCI; 1.8A {Homo sapiens}
+Probab=21.61  E-value=5.6e+02  Score=19.94  Aligned_cols=89  Identities=15%  Similarity=0.163  Sum_probs=49.9  Template_Neff=12.600
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CC---C--------hhhhhh--hhHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PA---N--------EAHVSA--NLKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pa---n--------eahvsa--nlktl---nqysip  170 (352)
+                      ...+..+++++.||+|||.+.++|..+.+..........     ..   .        ......  .....   ......
+T Consensus        38 ~~~~~~i~i~g~~RSGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  117 (298)
+T 2GWH_A           38 QAKPDDLLISTYPKAGTTWTQEIVELIQNEGDVEKSKRAPTHQRFPFLEMKIPSLGSGLEQAHAMPSPRILKTHLPFHLL  117 (298)
+T ss_dssp             CCCTTCEEEEESTTSSHHHHHHHHHHHHTTSCHHHHTSSCHHHHSCBTTCEETTTEEHHHHHHHCCSSCEEEECCCGGGS
+T ss_pred             CCCCCCEEEEeCCCCChHHHHHHHHHHHccCChhHhcCCCcccCCchhhcchhhhhchhHHHhhCCCCeEEEecCchhhC
+Confidence            356788999999999999999999776543211100000     00   0        000000  00000   000000
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      ......++.+.|.++|||.+.++|.+....
+T Consensus       118 ~~~~~~~~~k~I~~~Rdp~~~~~S~~~~~~  147 (298)
+T 2GWH_A          118 PPSLLEKNCKIIYVARNPKDNMVSYYHFQR  147 (298)
+T ss_dssp             CTHHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             CHHHhcCCCeEEEEECCHHHHHHHHHHHHH
+Confidence            111223688999999999999999997654
+
+
+No 28
+>2GWH_B Sulfotransferase 1C2 (E.C.2.8.2.-); sulfotransferase, SULFATE CONJUGATION, pentachlorophenol, pap; HET: A3P, PCI; 1.8A {Homo sapiens}
+Probab=21.61  E-value=5.6e+02  Score=19.94  Aligned_cols=89  Identities=15%  Similarity=0.152  Sum_probs=49.9  Template_Neff=12.600
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CC---C--------hhhhhhh--hHhh---hcCChH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PA---N--------EAHVSAN--LKTL---NQYSIP  170 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pa---n--------eahvsan--lktl---nqysip  170 (352)
+                      ...+..+++++.||+|||.+.++|..+.+..........     ..   .        .......  ....   ......
+T Consensus        38 ~~~~~~i~i~g~~RSGtt~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  117 (298)
+T 2GWH_B           38 QAKPDDLLISTYPKAGTTWTQEIVELIQNEGDVEKSKRAPTHQRFPFLEMKIPSLGSGLEQAHAMPSPRILKTHLPFHLL  117 (298)
+T ss_dssp             CCCTTCEEEEESTTSSHHHHHHHHHHHHTTTCHHHHTSSCHHHHSCBTTCEETTTEEHHHHHHHSCSSCEEEECCCGGGS
+T ss_pred             CCCCCCEEEEeCCCCChHHHHHHHHHHHccCChhHhcCCCcccCCchhhcchhhhhchhHHHhhCCCCeEEEecCchhhC
+Confidence            456788999999999999999999776543211100000     00   0        0000000  0000   000000
+
+
+Q ss_pred             HHHHHHHHHhhhhhccchHHHHHHHHHhhc
+Q sp|Q9NPF2|CHST  171 EINHRLKSYMKFLFVREPFERLVSAYRNKF  200 (352)
+Q Consensus       171 einhrlksymkflfvrepferlvsayrnkf  200 (352)
+                      ......++.+.|.++|||.+.++|.+....
+T Consensus       118 ~~~~~~~~~k~I~~~Rdp~~~~~S~~~~~~  147 (298)
+T 2GWH_B          118 PPSLLEKNCKIIYVARNPKDNMVSYYHFQR  147 (298)
+T ss_dssp             CTHHHHTTCEEEEEECCHHHHHHHHHHHHH
+T ss_pred             CHHHhcCCCeEEEEECCHHHHHHHHHHHHH
+Confidence            111223688999999999999999997654
+
+
+No 29
+>1Q44_A Steroid Sulfotransferase (E.C.2.8.2.-); Arabidopsis Thaliana, Steroid Sulfotransferase, Apo; 1.9A {Arabidopsis thaliana} SCOP: c.37.1.5
+Probab=20.76  E-value=4.4e+02  Score=21.45  Aligned_cols=31  Identities=29%  Similarity=0.358  Sum_probs=25.6  Template_Neff=12.000
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCC
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRG  142 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrg  142 (352)
+                      ...+.++++++.||+|||.+..+|..+.+..
+T Consensus        62 ~~~~~~i~i~g~pRSGTT~l~~~l~~~~~~~   92 (326)
+T 1Q44_A           62 EAKDSDIILVTNPKSGTTWLKALVFALLNRH   92 (326)
+T ss_dssp             CCCTTCEEEECCTTSCCHHHHHHHHHHHTTT
+T ss_pred             CCCCCCEEEECCCCCchHHHHHHHHHHHccC
+Confidence            4567889999999999999999997765443
+
+
+No 30
+>2Q3M_A Flavonol sulfotransferase-like (E.C.2.8.2.-); Ensemble Refinement, Refinement Methodology Development; HET: MLA; 1.9A {Arabidopsis thaliana} SCOP: c.37.1.5
+Probab=20.76  E-value=4.4e+02  Score=21.45  Aligned_cols=31  Identities=29%  Similarity=0.358  Sum_probs=25.4  Template_Neff=12.000
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCC
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRG  142 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrg  142 (352)
+                      ...+.++++++.||+|||.+..+|..+.+..
+T Consensus        62 ~~~~~~i~i~g~pRSGTT~l~~~l~~~~~~~   92 (326)
+T 2Q3M_A           62 EAKDSDIILVTNPKSGTTWLKALVFALLNRH   92 (326)
+T ss_dssp             CCCTTCCEEECCTTSCCHHHHHHHHHHHTTT
+T ss_pred             CCCCCCEEEECCCCCchHHHHHHHHHHHccC
+Confidence            3567889999999999999999997765443
+
+
+No 31
+>7EOV_A cytosolic sulfotransferase SULT2A8 (E.C.2.8.2.-); Sulfotransferase Sulfation Bile acid metabolism; HET: CHD, A3P; 2.6A {Mus musculus}
+Probab=20.72  E-value=5.7e+02  Score=20.64  Aligned_cols=90  Identities=13%  Similarity=0.094  Sum_probs=50.0  Template_Neff=11.900
+
+Q ss_pred             ECCCCCEEEEEcCchcccchhheeeeheCCCCCCCCccC-----CCCh-h--hhh-----hhhHhh---hcCChHHHHHH
+Q sp|Q9NPF2|CHST  112 VDEDHELIYCYVPKVACTNWKRLMMVLTGRGKYSDPMEI-----PANE-A--HVS-----ANLKTL---NQYSIPEINHR  175 (352)
+Q Consensus       112 vdedheliycyvpkvactnwkrlmmvltgrgkysdpmei-----pane-a--hvs-----anlktl---nqysipeinhr  175 (352)
+                      ...+..+++++.||+|||.+.++|...............     .... .  ...     ......   ...........
+T Consensus        51 ~~~~~~i~i~g~pRSGTT~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  130 (302)
+T 7EOV_A           51 VVRDEDTIIVTYPKSGTHWLNEIVCLILTKGDPTWVQSTIANERTPWIEFENNYRILNSKEGPRLMASLLPIQLFPKSFF  130 (302)
+T ss_dssp             CCCTTCEEEEECTTSSHHHHHHHHHHHHTTTCTHHHHHSCHHHHSCBTTSTTHHHHHHTCCSSCEEEECCCTTTSCGGGG
+T ss_pred             CCCCCCEEEEccCCCCHHHHHHHHHHHHhcCCchhhhccchhHcCCcccccchHHHHHhCCCCeeEeeCCCHHHCCHHHh
+Confidence            467888999999999999999999765433211100000     0000 0  000     000000   00000000112
+
+
+Q ss_pred             HHHHhhhhhccchHHHHHHHHHhhcc
+Q sp|Q9NPF2|CHST  176 LKSYMKFLFVREPFERLVSAYRNKFT  201 (352)
+Q Consensus       176 lksymkflfvrepferlvsayrnkft  201 (352)
+                      .++.+.|.++|||.+.++|.|.+...
+T Consensus       131 ~~~~k~I~~~RdP~d~~~S~~~~~~~  156 (302)
+T 7EOV_A          131 SSKAKVIYLIRNPRDVLVSGYHYFNA  156 (302)
+T ss_dssp             GSCCEEEEEECCHHHHHHHHHHHHHT
+T ss_pred             cCCCEEEEEcCCHHHHHHHHHHHHHh
+Confidence            35789999999999999999877653
+
+

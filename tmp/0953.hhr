@@ -1,0 +1,169 @@
+Query         tr|I3L3K2|I3L3K2_HUMAN
+Match_columns 46
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:34:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0953.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EJ7_A Xylosyltransferase 1 (E  60.5     9.6  0.0001   29.7   1.2   31    2-32    506-536 (751)
+  2 6EJA_A Xylosyltransferase 1 (E  60.5     9.6  0.0001   29.7   1.2   31    2-32    506-536 (751)
+  3 6FOA_A Xylosyltransferase 1 (E  60.5     9.6  0.0001   29.7   1.2   31    2-32    506-536 (751)
+  4 2QTV_D Protein transport prote  12.9 1.9E+02   0.002   17.6   0.6    9   29-37      9-17  (49)
+  5 4IIT_B Phenylacetate-CoA oxyge  12.9 2.1E+02  0.0023   17.1   0.8   20    2-21     49-68  (95)
+  6 3EC8_A Putative uncharacterize  10.9 1.8E+02   0.002   17.5   0.1   11   17-27    152-162 (166)
+  7 3EGR_A phenylacetate-CoA oxyge   9.0 3.5E+02  0.0038   16.2   0.8   21    2-22     50-70  (96)
+  8 3EGR_B phenylacetate-CoA oxyge   9.0 3.5E+02  0.0038   16.2   0.8   21    2-22     50-70  (96)
+  9 7A4A_C class II membrane fusio   8.1 4.8E+02  0.0052   18.9   1.3   18    7-24    415-432 (466)
+ 10 2QZT_B Sterol carrier protein    8.0 4.8E+02  0.0052   12.3   0.9   16   10-25     92-107 (111)
+
+No 1
+>6EJ7_A Xylosyltransferase 1 (E.C.2.4.2.26), Protein AMBP; Proteoglycan, Glycosyltransferase, Golgi, Xylosyltransferase, TRANSFERASE; HET: NAG, UDX, PEG, PO4, EDO; 2.0A {Homo sapiens}
+Probab=60.53  E-value=9.6  Score=29.66  Aligned_cols=31  Identities=42%  Similarity=0.679  Sum_probs=25.0  Template_Neff=7.400
+
+Q ss_pred             CceEEEcCCCceeeecccchhhhhhccccCC
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQASRLQSLEVGQ   32 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdqasrlqslevgq   32 (46)
+                      ++|.|+.|....+.........||++++||.
+T Consensus       506 ~le~~v~p~~~~~~~~~~~~~~~L~~~~vgt  536 (751)
+T 6EJ7_A          506 TLETWVMPKKVFKIASPPSDFGRLQFSEVGT  536 (751)
+T ss_dssp             EEEEEEEECCCCEECCC--CCCSEEEEEEES
+T ss_pred             EEEEEEeecccceecCCCccccceeecccCC
+Confidence            5899999998888887777788999999884
+
+
+No 2
+>6EJA_A Xylosyltransferase 1 (E.C.2.4.2.26), Protein AMBP; Proteoglycan, Glycosyltransferase, Golgi, Xylosyltransferase, TRANSFERASE; 1.94A {Homo sapiens}
+Probab=60.53  E-value=9.6  Score=29.66  Aligned_cols=31  Identities=42%  Similarity=0.679  Sum_probs=22.8  Template_Neff=7.400
+
+Q ss_pred             CceEEEcCCCceeeecccchhhhhhccccCC
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQASRLQSLEVGQ   32 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdqasrlqslevgq   32 (46)
+                      ++|.|+.|....+.........||++++||.
+T Consensus       506 ~le~~v~p~~~~~~~~~~~~~~~L~~~~vgt  536 (751)
+T 6EJA_A          506 TLETWVMPKKVFKIASPPSDFGRLQFSEVGT  536 (751)
+T ss_dssp             EEEEEEEECCCCEECC-----CCEEEEEEES
+T ss_pred             EEEEEEeecccceecCCCccccceeecccCC
+Confidence            5899999998888887777788999999884
+
+
+No 3
+>6FOA_A Xylosyltransferase 1 (E.C.2.4.2.26), Protein AMBP; Proteoglycan, Glycosyltransferase, Golgi, Xylosyltransferase, TRANSFERASE; HET: NAG; 1.869A {Homo sapiens}
+Probab=60.53  E-value=9.6  Score=29.66  Aligned_cols=31  Identities=42%  Similarity=0.679  Sum_probs=22.8  Template_Neff=7.400
+
+Q ss_pred             CceEEEcCCCceeeecccchhhhhhccccCC
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQASRLQSLEVGQ   32 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdqasrlqslevgq   32 (46)
+                      ++|.|+.|....+.........||++++||.
+T Consensus       506 ~le~~v~p~~~~~~~~~~~~~~~L~~~~vgt  536 (751)
+T 6FOA_A          506 TLETWVMPKKVFKIASPPSDFGRLQFSEVGT  536 (751)
+T ss_dssp             EEEEEEEECCCCEECC-----CCEEEEEEES
+T ss_pred             EEEEEEeecccceecCCCccccceeecccCC
+Confidence            5899999998888887777788999999884
+
+
+No 4
+>2QTV_D Protein transport protein SEC23, Small; COPII coat, vesicular transport, Cytoplasm; HET: GNP; 2.5A {Saccharomyces cerevisiae}
+Probab=12.90  E-value=1.9e+02  Score=17.57  Aligned_cols=9  Identities=56%  Similarity=0.778  Sum_probs=7.0  Template_Neff=2.400
+
+Q ss_pred             ccCCCCccC
+Q tr|I3L3K2|I3L3   29 EVGQVPHLL   37 (46)
+Q Consensus        29 evgqvphll   37 (46)
+                      .-||.|||-
+T Consensus         9 ~SGQtPhLN   17 (49)
+T 2QTV_D            9 VSGQTPHLN   17 (49)
+T ss_pred             cCCCCCccc
+Confidence            469999984
+
+
+No 5
+>4IIT_B Phenylacetate-CoA oxygenase subunit PaaA (E.C.1.14.13.-); Structural Genomics, Montreal-Kingston Bacterial Structural; HET: FAQ; 4.3A {Klebsiella pneumoniae subsp. pneumoniae}
+Probab=12.90  E-value=2.1e+02  Score=17.09  Aligned_cols=20  Identities=10%  Similarity=0.331  Sum_probs=13.7  Template_Neff=6.800
+
+Q ss_pred             CceEEEcCCCceeeecccch
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQ   21 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdq   21 (46)
+                      .+++|+.|...+.-.+.+|.
+T Consensus        49 ~~~lwvvp~~~i~~~~~~d~   68 (95)
+T 4IIT_B           49 GCSIWVVKASEIVASQPEDR   68 (95)
+T ss_dssp             TCEEEEEEGGGCCCCCC---
+T ss_pred             eeEEEEEEHHHEEEeChhHh
+Confidence            47899999988877766553
+
+
+No 6
+>3EC8_A Putative uncharacterized protein FLJ10324; beta barrel, helix, Structural Genomics; 2.6A {Homo sapiens}
+Probab=10.85  E-value=1.8e+02  Score=17.51  Aligned_cols=11  Identities=55%  Similarity=0.634  Sum_probs=7.2  Template_Neff=8.900
+
+Q ss_pred             cccchhhhhhc
+Q tr|I3L3K2|I3L3   17 GRSDQASRLQS   27 (46)
+Q Consensus        17 grsdqasrlqs   27 (46)
+                      |...||.|||+
+T Consensus       152 g~~~qa~~~~~  162 (166)
+T 3EC8_A          152 GINAQARRLQR  162 (166)
+T ss_dssp             HHHHHHHHHHC
+T ss_pred             chHHHHHHHHH
+Confidence            44567777775
+
+
+No 7
+>3EGR_A phenylacetate-CoA oxygenase subunit PaaB; PHENYLACETATE-COA OXYGENASE SUBUNIT PAAB, STRUCTURAL; HET: MSE; 2.65A {Ralstonia eutropha JMP134}
+Probab=9.04  E-value=3.5e+02  Score=16.24  Aligned_cols=21  Identities=10%  Similarity=0.520  Sum_probs=13.9  Template_Neff=6.800
+
+Q ss_pred             CceEEEcCCCceeeecccchh
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQA   22 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdqa   22 (46)
+                      .+++|..|...+.-.+.+|..
+T Consensus        50 ~~~lwVvp~~~i~~~~~~d~~   70 (96)
+T 3EGR_A           50 GVSIWVVPSTAITASAPEEKP   70 (96)
+T ss_dssp             TCEEEEEEGGGCEECCC----
+T ss_pred             eEEEEEEEHHHEEEeChhhCh
+Confidence            478999999888877766643
+
+
+No 8
+>3EGR_B phenylacetate-CoA oxygenase subunit PaaB; PHENYLACETATE-COA OXYGENASE SUBUNIT PAAB, STRUCTURAL; HET: MSE; 2.65A {Ralstonia eutropha JMP134}
+Probab=9.04  E-value=3.5e+02  Score=16.24  Aligned_cols=21  Identities=10%  Similarity=0.520  Sum_probs=14.0  Template_Neff=6.800
+
+Q ss_pred             CceEEEcCCCceeeecccchh
+Q tr|I3L3K2|I3L3    2 TLEMWLMPQGSLKLLGRSDQA   22 (46)
+Q Consensus         2 tlemwlmpqgslkllgrsdqa   22 (46)
+                      .+++|..|...+.-.+.+|..
+T Consensus        50 ~~~lwVvp~~~i~~~~~~d~~   70 (96)
+T 3EGR_B           50 GVSIWVVPSTAITASAPEEKP   70 (96)
+T ss_dssp             TCEEEEEEGGGCEECCC----
+T ss_pred             eEEEEEEEHHHEEEeChhhCh
+Confidence            478999999988877766643
+
+
+No 9
+>7A4A_C class II membrane fusion protein; HET: NAG;{Ancylostoma ceylanicum}
+Probab=8.08  E-value=4.8e+02  Score=18.86  Aligned_cols=18  Identities=11%  Similarity=0.154  Sum_probs=9.5  Template_Neff=8.500
+
+Q ss_pred             EcCCCceeeecccchhhh
+Q tr|I3L3K2|I3L3    7 LMPQGSLKLLGRSDQASR   24 (46)
+Q Consensus         7 lmpqgslkllgrsdqasr   24 (46)
+                      +.-+|.|+..+.+.-.+.
+T Consensus       415 ~~i~G~L~y~~~~~~~~~  432 (466)
+T 7A4A_C          415 FTIKGLLAFVNERIISQS  432 (466)
+T ss_dssp             CCEEEECBCCCCCCCCSC
+T ss_pred             EEEEEEEEEeChhhcccc
+Confidence            334566776665444333
+
+
+No 10
+>2QZT_B Sterol carrier protein 2-like 2; Sterol Carrier, Mosquito, Fatty Acid; HET: PLM; 1.7A {Aedes aegypti}
+Probab=8.00  E-value=4.8e+02  Score=12.34  Aligned_cols=16  Identities=44%  Similarity=0.750  Sum_probs=7.6  Template_Neff=12.100
+
+Q ss_pred             CCceeeecccchhhhh
+Q tr|I3L3K2|I3L3   10 QGSLKLLGRSDQASRL   25 (46)
+Q Consensus        10 qgslkllgrsdqasrl   25 (46)
+                      +|.+++-|....+.++
+T Consensus        92 ~g~~~~~G~~~~~~~~  107 (111)
+T 2QZT_B           92 QGKIELSGDADLAAKL  107 (111)
+T ss_dssp             TTCEEEEEBHHHHHHH
+T ss_pred             cCCeEEEeCHHHHhhh
+Confidence            3455555544444333
+
+

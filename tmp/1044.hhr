@@ -1,0 +1,164 @@
+Query         tr|A0A7I2YQA3|A0A7I2YQA3_HUMAN
+Match_columns 142
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:25:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1044.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XTB_K NADH dehydrogenase [ubi  18.4   2E+02  0.0021   17.9   1.7   12   52-63     16-28  (33)
+  2 5XTI_K NADH dehydrogenase [ubi  18.4   2E+02  0.0021   17.9   1.7   12   52-63     16-28  (33)
+  3 7V2H_K Respiratory, Complex, E  14.0   3E+02  0.0032   17.7   1.7   14   52-65     24-38  (43)
+  4 7V2K_K Respiratory, Complex, E  14.0   3E+02  0.0033   17.6   1.8   13   52-64     23-36  (42)
+  5 1PPY_A Aspartate 1-decarboxyla  11.3 1.5E+02  0.0016   23.1  -0.2   36   24-60      6-41  (126)
+  6 3WMP_F Galactose-binding lecti   9.6 6.1E+02  0.0067   16.5   2.2   20   21-40     54-73  (94)
+  7 3WMQ_A Galactose-binding lecti   9.6 6.1E+02  0.0067   16.5   2.2   18   22-39     55-72  (94)
+  8 7T1Y_C Ubiquitin ligase, WD40,   9.4 2.5E+02  0.0028   18.5   0.4   17   60-76     11-27  (30)
+  9 4L0P_B Ephrin type-A receptor    9.3 6.6E+02  0.0072   18.3   2.4   13   19-31    124-136 (143)
+ 10 4Q56_A Helix aspersa agglutini   8.7 7.2E+02  0.0078   16.8   2.3   17   22-38     61-77  (101)
+
+No 1
+>5XTB_K NADH dehydrogenase [ubiquinone] flavoprotein 1; Respiratory, OXIDOREDUCTASE-ELECTRON TRANSPORT complex; HET: NDP, FMN, 8Q1, SF4; 3.4A {Homo sapiens}
+Probab=18.41  E-value=2e+02  Score=17.94  Aligned_cols=12  Identities=50%  Similarity=1.190  Sum_probs=8.7  Template_Neff=5.300
+
+Q ss_pred             eehhccc-CCCCC
+Q tr|A0A7I2YQA3|   52 IDLATFR-PQPTA   63 (142)
+Q Consensus        52 idlatfr-pqpta   63 (142)
+                      ++++.|| |||+.
+T Consensus        16 vem~k~RlPqPs~   28 (33)
+T 5XTB_K           16 LELSKFRMPQPSS   28 (33)
+T ss_pred             eeccccCCCCCCC
+Confidence            5678888 77764
+
+
+No 2
+>5XTI_K NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: SF4, PEE, HEM, NDP, HEA, HEC, FMN, CDL, 8Q1, FES, PLX; 17.4A {Homo sapiens}
+Probab=18.41  E-value=2e+02  Score=17.94  Aligned_cols=12  Identities=50%  Similarity=1.190  Sum_probs=8.7  Template_Neff=5.300
+
+Q ss_pred             eehhccc-CCCCC
+Q tr|A0A7I2YQA3|   52 IDLATFR-PQPTA   63 (142)
+Q Consensus        52 idlatfr-pqpta   63 (142)
+                      ++++.|| |||+.
+T Consensus        16 vem~k~RlPqPs~   28 (33)
+T 5XTI_K           16 LELSKFRMPQPSS   28 (33)
+T ss_pred             eeccccCCCCCCC
+Confidence            5678888 77764
+
+
+No 3
+>7V2H_K Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=14.03  E-value=3e+02  Score=17.71  Aligned_cols=14  Identities=43%  Similarity=1.013  Sum_probs=8.8  Template_Neff=5.900
+
+Q ss_pred             eehhccc-CCCCCCC
+Q tr|A0A7I2YQA3|   52 IDLATFR-PQPTASG   65 (142)
+Q Consensus        52 idlatfr-pqptasg   65 (142)
+                      ++++.+| |||.+.-
+T Consensus        24 ~~m~k~RlPqPs~~~   38 (43)
+T 7V2H_K           24 VELSKFRMPQPSSGR   38 (43)
+T ss_pred             eccccccCCCCCCCC
+Confidence            4567777 7776543
+
+
+No 4
+>7V2K_K Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.7A {Sus scrofa}
+Probab=14.01  E-value=3e+02  Score=17.60  Aligned_cols=13  Identities=46%  Similarity=1.117  Sum_probs=8.5  Template_Neff=5.900
+
+Q ss_pred             eehhccc-CCCCCC
+Q tr|A0A7I2YQA3|   52 IDLATFR-PQPTAS   64 (142)
+Q Consensus        52 idlatfr-pqptas   64 (142)
+                      ++++.+| |||+.-
+T Consensus        23 ~~m~k~R~PqPs~~   36 (42)
+T 7V2K_K           23 VELSKFRMPQPSSG   36 (42)
+T ss_pred             ehhhcCCCCCCCCC
+Confidence            4567777 777653
+
+
+No 5
+>1PPY_A Aspartate 1-decarboxylase precursor (E.C.4.1.1.11); decarboxylase, pantothenate pathway, intramolecular protein; HET: CSX; 1.95A {Escherichia coli} SCOP: b.52.2.1
+Probab=11.26  E-value=1.5e+02  Score=23.14  Aligned_cols=36  Identities=25%  Similarity=0.524  Sum_probs=30.5  Template_Neff=5.700
+
+Q ss_pred             eEEEEEEeeccCCCcceeeccchcCCceeehhcccCC
+Q tr|A0A7I2YQA3|   24 LRLRVHLQRITSSNFLHYQPAAELGKDLIDLATFRPQ   60 (142)
+Q Consensus        24 lrlrvhlqritssnflhyqpaaelgkdlidlatfrpq   60 (142)
+                      |+-..|--++|.++ ++|.....+..+|++.|.+.|.
+T Consensus         6 lksKIh~~~VT~~~-l~y~gSi~Id~~lm~aA~i~~~   41 (126)
+T 1PPY_A            6 LQGKLHRVKVTHAD-LHYEGSCAIDQDFLDAAGILEN   41 (126)
+T ss_dssp             EEEEEEEEECCCCS-SCCTTSEEEEHHHHHHHTCCTT
+T ss_pred             eeeeecccEeccCC-CCccceeEeCHHHHHHcCccCC
+Confidence            56677888889888 8999999999999999988775
+
+
+No 6
+>3WMP_F Galactose-binding lectin; six-stranded antiparallel-beta sandwich, galactose binding; HET: CL, NAG, GLA, A2G, MPD; 2.0A {Sinularia lochmodes}
+Probab=9.65  E-value=6.1e+02  Score=16.46  Aligned_cols=20  Identities=25%  Similarity=0.356  Sum_probs=14.2  Template_Neff=9.200
+
+Q ss_pred             CCCeEEEEEEeeccCCCcce
+Q tr|A0A7I2YQA3|   21 VRNLRLRVHLQRITSSNFLH   40 (142)
+Q Consensus        21 vrnlrlrvhlqritssnflh   40 (142)
+                      -.|+|+++....|+.+.|-.
+T Consensus        54 ~~~~r~~~~~~~vt~~gF~~   73 (94)
+T 3WMP_F           54 SNNLRVNSSADDVTVGGFTL   73 (94)
+T ss_dssp             TSCEEEEEEEEEEETTEEEE
+T ss_pred             CCcEEEEEEEEeecCCeEEE
+Confidence            35778888878888777643
+
+
+No 7
+>3WMQ_A Galactose-binding lectin; six-stranded antiparallel-beta sandwich, galactose binding; HET: NAG, A2G, MPD; 1.6A {Sinularia lochmodes}
+Probab=9.65  E-value=6.1e+02  Score=16.46  Aligned_cols=18  Identities=28%  Similarity=0.449  Sum_probs=12.5  Template_Neff=9.200
+
+Q ss_pred             CCeEEEEEEeeccCCCcc
+Q tr|A0A7I2YQA3|   22 RNLRLRVHLQRITSSNFL   39 (142)
+Q Consensus        22 rnlrlrvhlqritssnfl   39 (142)
+                      .|+|+++....|+.+.|-
+T Consensus        55 ~~~r~~~~~~~vt~~gF~   72 (94)
+T 3WMQ_A           55 NNLRVNSSADDVTVGGFT   72 (94)
+T ss_dssp             SCCCEEEEEEEEETTEEE
+T ss_pred             CcEEEEEEEEeecCCeEE
+Confidence            467777777777777664
+
+
+No 8
+>7T1Y_C Ubiquitin ligase, WD40, LIGASE; HET: TPO, SO4; 2.55A {Homo sapiens}
+Probab=9.42  E-value=2.5e+02  Score=18.52  Aligned_cols=17  Identities=53%  Similarity=0.753  Sum_probs=7.9  Template_Neff=2.300
+
+Q ss_pred             CCCCCCCCCCCCCCcce
+Q tr|A0A7I2YQA3|   60 QPTASGHRPEEDEEEEI   76 (142)
+Q Consensus        60 qptasghrpeedeeeei   76 (142)
+                      .|+.|...-||.++|||
+T Consensus        11 pp~~ssdsEEEEEdEEI   27 (30)
+T 7T1Y_C           11 PPTTSSDSEEEQEDEEI   27 (30)
+T ss_pred             CCCCCCCchhHHhhhcc
+Confidence            44544444444444454
+
+
+No 9
+>4L0P_B Ephrin type-A receptor 3, Ephrin-A5; beta-sandwich, Receptor Tyrosine Kinase, ephrin; HET: SO4, NAG; 2.26A {Homo sapiens}
+Probab=9.28  E-value=6.6e+02  Score=18.26  Aligned_cols=13  Identities=23%  Similarity=0.391  Sum_probs=10.2  Template_Neff=8.400
+
+Q ss_pred             CCCCCeEEEEEEe
+Q tr|A0A7I2YQA3|   19 DPVRNLRLRVHLQ   31 (142)
+Q Consensus        19 dpvrnlrlrvhlq   31 (142)
+                      ..-.|+||+|++.
+T Consensus       124 ~~~~~Mrl~v~V~  136 (143)
+T 4L0P_B          124 GRRSCLKLKVFVR  136 (143)
+T ss_dssp             CCSCCCEEEEEEC
+T ss_pred             CCCcceEEEEEEe
+Confidence            3568999999874
+
+
+No 10
+>4Q56_A Helix aspersa agglutinin (HAA); CARBOHYDRATE-BINDING PROTEIN, SUGAR BINDING PROTEIN; HET: FUC, NAG, BMA, A2G, GAL; 1.38A {Helix aspersa}
+Probab=8.72  E-value=7.2e+02  Score=16.76  Aligned_cols=17  Identities=29%  Similarity=0.591  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CCeEEEEEEeeccCCCc
+Q tr|A0A7I2YQA3|   22 RNLRLRVHLQRITSSNF   38 (142)
+Q Consensus        22 rnlrlrvhlqritssnf   38 (142)
+                      .|+|+++....|+...|
+T Consensus        61 ~~~r~~~~~~~Vt~~gF   77 (101)
+T 4Q56_A           61 QNLRVIARLYSVSPTGF   77 (101)
+T ss_dssp             SCCCCEEEEEEECSSEE
+T ss_pred             CceEEEEEEEEeCCCcE
+
+

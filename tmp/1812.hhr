@@ -1,0 +1,167 @@
+Query         tr|H7BZA6|H7BZA6_HUMAN
+Match_columns 20
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:10:21 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1812.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2AST_C SCF-substrate complex,    8.1   2E+02  0.0022   14.2  -0.4   13    7-19      7-19  (69)
+  2 6OE6_A Uncharacterized protein   7.2 2.9E+02  0.0032   16.6  -0.0    8    3-10    144-151 (151)
+  3 1CKS_B CYCLIN-DEPENDENT KINASE   5.9 3.3E+02  0.0036   13.8  -0.2   14    7-20     11-24  (79)
+  4 6GU2_C Cyclin-dependent kinase   5.8 3.4E+02  0.0037   14.0  -0.2   11    9-19     18-28  (84)
+  5 5N1Q_F METHYL-COENZYME M REDUC   5.1 3.3E+02  0.0036   18.2  -0.6    9    2-10    130-138 (261)
+  6 5CW3_B BRCA1/BRCA2-containing    4.8 6.2E+02  0.0067   15.2   0.4    7    5-11    283-289 (289)
+  7 5CW4_D CfBRCC36, CfKIAA0157; M   4.8 6.2E+02  0.0067   15.2   0.4    7    5-11    283-289 (289)
+  8 6N7R_E Pre-mRNA-splicing facto   4.6 6.4E+02  0.0069   14.2   0.3    8    3-10    606-613 (629)
+  9 6N7X_E U1 nuclear ribonucleopr   4.6 6.4E+02  0.0069   14.2   0.3    8    3-10    606-613 (629)
+ 10 1SCE_C SUC1; CELL CYCLE REGULA   4.5 4.5E+02  0.0048   14.4  -0.3   15    6-20     29-43  (112)
+
+No 1
+>2AST_C SCF-substrate complex, LRR, CELL CYCLE; HET: TPO, BEN; 2.3A {Homo sapiens} SCOP: d.97.1.1
+Probab=8.14  E-value=2e+02  Score=14.15  Aligned_cols=13  Identities=38%  Similarity=0.434  Sum_probs=6.9  Template_Neff=6.300
+
+Q ss_pred             cccCCccccCCCC
+Q tr|H7BZA6|H7BZ    7 KASKDKEEVRHVR   19 (20)
+Q Consensus         7 kaskdkeevrhvr   19 (20)
+                      +.+.|.=|-|||.
+T Consensus         7 ~y~dd~yeyRhV~   19 (69)
+T 2AST_C            7 KYDDEEFEYRHVM   19 (69)
+T ss_dssp             CEECSSEEEEEEE
+T ss_pred             CCCCCceEEEEEE
+Confidence            3344555666664
+
+
+No 2
+>6OE6_A Uncharacterized protein; SSGCID, Leptospirosis, Structural Genomics, Seattle; 1.7A {Leptospira interrogans serogroup Icterohaemorrhagiae serovar copenhageni (strain Fiocruz L1-130)}
+Probab=7.17  E-value=2.9e+02  Score=16.61  Aligned_cols=8  Identities=75%  Similarity=0.808  Sum_probs=3.5  Template_Neff=4.100
+
+Q ss_pred             CchhcccC
+Q tr|H7BZA6|H7BZ    3 RDIEKASK   10 (20)
+Q Consensus         3 rdiekask   10 (20)
+                      -||+|+||
+T Consensus       144 ddi~ky~~  151 (151)
+T 6OE6_A          144 DDIEKAMK  151 (151)
+T ss_dssp             STTTC---
+T ss_pred             HHHHHhhC
+Confidence            36788775
+
+
+No 3
+>1CKS_B CYCLIN-DEPENDENT KINASE SUBUNIT TYPE 2; CELL DIVISION; HET: SO4; 2.1A {Homo sapiens} SCOP: d.97.1.1
+Probab=5.90  E-value=3.3e+02  Score=13.84  Aligned_cols=14  Identities=43%  Similarity=0.434  Sum_probs=7.8  Template_Neff=6.100
+
+Q ss_pred             cccCCccccCCCCC
+Q tr|H7BZA6|H7BZ    7 KASKDKEEVRHVRL   20 (20)
+Q Consensus         7 kaskdkeevrhvrl   20 (20)
+                      +...|.=|-|||.|
+T Consensus        11 ~y~Dd~yeyRhV~l   24 (79)
+T 1CKS_B           11 KYFDEHYEYRHVML   24 (79)
+T ss_dssp             CEEBSSCEECCEEC
+T ss_pred             ccCCCcceEEEEEc
+Confidence            33445556677653
+
+
+No 4
+>6GU2_C Cyclin-dependent kinase 1 (E.C.2.7.11.22,2.7.11.23), G2/mitotic-specific; CDK1, CYCLINB1, CKS2, INHIBITOR, CELL; HET: F9Z; 2.0A {Homo sapiens}
+Probab=5.75  E-value=3.4e+02  Score=14.05  Aligned_cols=11  Identities=36%  Similarity=0.401  Sum_probs=5.8  Template_Neff=5.900
+
+Q ss_pred             cCCccccCCCC
+Q tr|H7BZA6|H7BZ    9 SKDKEEVRHVR   19 (20)
+Q Consensus         9 skdkeevrhvr   19 (20)
+                      ..|.=|-|||.
+T Consensus        18 ~dd~yeYRhV~   28 (84)
+T 6GU2_C           18 FDEHYEYRHVM   28 (84)
+T ss_dssp             ECSSEEEEEEE
+T ss_pred             CCCcceEEEEE
+Confidence            34445666654
+
+
+No 5
+>5N1Q_F METHYL-COENZYME M REDUCTASE III FROM; TRANSFERASE, POST-TRANSLATIONAL MODIFICATION, BINDING SITES; HET: COM, AGM, TP7, MHS, GOL, F43, MGN; 1.9A {Methanothermococcus thermolithotrophicus DSM 2095}
+Probab=5.14  E-value=3.3e+02  Score=18.20  Aligned_cols=9  Identities=33%  Similarity=0.590  Sum_probs=7.5  Template_Neff=2.800
+
+Q ss_pred             CCchhcccC
+Q tr|H7BZA6|H7BZ    2 QRDIEKASK   10 (20)
+Q Consensus         2 qrdiekask   10 (20)
+                      .||+|+.+|
+T Consensus       130 ERDlE~~aK  138 (261)
+T 5N1Q_F          130 ESNLEEISK  138 (261)
+T ss_dssp             HHHHHHHCC
+T ss_pred             hhHHHHHHh
+Confidence            378999998
+
+
+No 6
+>5CW3_B BRCA1/BRCA2-containing complex subunit 3, Protein; metal dependent enzyme, METAL BINDING; 2.55A {Camponotus floridanus}
+Probab=4.76  E-value=6.2e+02  Score=15.18  Aligned_cols=7  Identities=86%  Similarity=0.947  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             hhcccCC
+Q tr|H7BZA6|H7BZ    5 IEKASKD   11 (20)
+Q Consensus         5 iekaskd   11 (20)
+                      |.|||||
+T Consensus       283 ~~~~~~~  289 (289)
+T 5CW3_B          283 ISKASKD  289 (289)
+T ss_dssp             -------
+T ss_pred             hhhcccC
+Confidence            5566664
+
+
+No 7
+>5CW4_D CfBRCC36, CfKIAA0157; Metal dependent enzyme, METAL BINDING; HET: GOL, MSE; 2.543A {Camponotus floridanus}
+Probab=4.76  E-value=6.2e+02  Score=15.18  Aligned_cols=7  Identities=86%  Similarity=0.947  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             hhcccCC
+Q tr|H7BZA6|H7BZ    5 IEKASKD   11 (20)
+Q Consensus         5 iekaskd   11 (20)
+                      |.|||||
+T Consensus       283 ~~~~~~~  289 (289)
+T 5CW4_D          283 ISKASKD  289 (289)
+T ss_dssp             -------
+T ss_pred             hhhcccC
+Confidence            5566664
+
+
+No 8
+>6N7R_E Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; pre-mRNA splicing, spliceosome, E complex; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.63  E-value=6.4e+02  Score=14.17  Aligned_cols=8  Identities=38%  Similarity=0.754  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CchhcccC
+Q tr|H7BZA6|H7BZ    3 RDIEKASK   10 (20)
+Q Consensus         3 rdiekask   10 (20)
+                      |++|||+.
+T Consensus       606 ~~~~~~~~  613 (629)
+T 6N7R_E          606 RNLEKINQ  613 (629)
+T ss_dssp             CCSTTSSC
+T ss_pred             cCHHHhcC
+
+
+No 9
+>6N7X_E U1 nuclear ribonucleoprotein Complex; pre-mRNA splicing, U1 snRNP, alternative; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.63  E-value=6.4e+02  Score=14.17  Aligned_cols=8  Identities=38%  Similarity=0.754  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CchhcccC
+Q tr|H7BZA6|H7BZ    3 RDIEKASK   10 (20)
+Q Consensus         3 rdiekask   10 (20)
+                      |++|||+.
+T Consensus       606 ~~~~~~~~  613 (629)
+T 6N7X_E          606 RNLEKINQ  613 (629)
+T ss_dssp             ESGGGGSC
+T ss_pred             cCHHHhcC
+
+
+No 10
+>1SCE_C SUC1; CELL CYCLE REGULATORY PROTEIN; 2.2A {Schizosaccharomyces pombe} SCOP: d.97.1.1
+Probab=4.53  E-value=4.5e+02  Score=14.40  Aligned_cols=15  Identities=40%  Similarity=0.527  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             hcccCCccccCCCCC
+Q tr|H7BZA6|H7BZ    6 EKASKDKEEVRHVRL   20 (20)
+Q Consensus         6 ekaskdkeevrhvrl   20 (20)
+                      ++-..|.=|-|||.|
+T Consensus        29 ~kY~Dd~yeYRhV~L   43 (112)
+T 1SCE_C           29 PRYADDEYEYRHVML   43 (112)
+T ss_dssp             CCEECSSEEEEEEEC
+T ss_pred             cccCCCceEEEEEec
+
+

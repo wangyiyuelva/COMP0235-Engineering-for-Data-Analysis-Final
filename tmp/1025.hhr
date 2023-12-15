@@ -1,0 +1,235 @@
+Query         tr|H7C4C2|H7C4C2_HUMAN
+Match_columns 580
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:10:36 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1025.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R80_A AF4/FMR2 family member  100.0 2.3E-55 2.5E-60  408.3  28.2  253  326-579    15-282 (284)
+  2 6KN5_A AF4/FMR2 family member  100.0 8.8E-55 9.6E-60  398.2  27.8  248  331-579     2-264 (266)
+  3 2LM0_A AF4/FMR2 family member   89.9    0.27 2.9E-06   42.2   1.0   36  115-150     4-39  (125)
+  4 6PEN_D Spastin (E.C.5.6.1.1),   24.9 4.7E+02  0.0051   26.2   6.4   41  367-415    33-76  (498)
+  5 2CFU_A SDSA1; SDS-HYDROLASE, S  22.2   1E+03   0.011   26.1   8.6   13  402-414   465-477 (658)
+  6 2CFZ_A SDS HYDROLASE SDSA1; HY  22.2   1E+03   0.011   26.1   8.6   13  402-414   465-477 (658)
+  7 5AJL_A ALKYL SULFATASE; HYDROL  22.2   1E+03   0.011   26.1   8.6   12  402-413   465-476 (658)
+  8 4NUR_A PSdsA; dimerization fol  19.7 1.1E+03   0.011   25.7   8.0   14  402-415   447-460 (633)
+  9 4NQ0_A HAT1-interacting factor  19.0 1.7E+03   0.018   23.5   9.6   10  347-356   206-215 (393)
+ 10 7EMF_D Mediator of RNA polymer  16.7 1.1E+03   0.012   24.1   7.1   15  404-418   144-158 (270)
+
+No 1
+>6R80_A AF4/FMR2 family member 4; transcription elongation factor, dimerisation domain; HET: MSE; 2.2A {Homo sapiens}
+Probab=100.00  E-value=2.3e-55  Score=408.30  Aligned_cols=253  Identities=49%  Similarity=0.820  Sum_probs=210.8  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhchhhcCCCCCCCChhhHHHHH
+Q tr|H7C4C2|H7C4  326 GSNGHRDCKRQKLVFDDMPRSADYFMQEAKRMKHKADAMVEKFGKALNYAEAALSFIECGNAMEQGPMESKSPYTMYSET  405 (580)
+Q Consensus       326 gsnghrdckrqklvfddmprsadyfmqeakrmkhkadamvekfgkalnyaeaalsfiecgnameqgpmeskspytmyset  405 (580)
+                      .|+++++|+||+|++|++++++|+|++|||+|||+||+++|++.|+++|||||||||++|.+||.++.+..++|+||+||
+T Consensus        15 ~~~~~~~~~~~~~~~~~~~~~~d~yl~eAK~LKh~AD~~~D~~~k~~~YleA~l~Fil~g~~mE~~~~~~~~~~~mY~dT   94 (284)
+T 6R80_A           15 FQSNASKPRRTKLVFDDRNYSADHYLQEAKKLKHNADALSDRFEKAVYYLDAVVSFIECGNALEKNAQESKSPFPMYSET   94 (284)
+T ss_dssp             -------CCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHC----CCHHHHHHH
+T ss_pred             CCCCCCCCCCccCCcccccccHHHHHHHHHHHhhHHHHccchHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCchhHHHHH
+Confidence            58999999999999999999999999999999999999999999999999999999999999999877778999999999
+
+
+Q ss_pred             HHHHHHHHHhhcCCCCCCCHHHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHcCCCCCCCCCCCCCCC----
+Q tr|H7C4C2|H7C4  406 VELIRYAMRLKTHSGPNATPEDKQLAALCYRCLALLYWRMFRLKRDHAVKYSKALIDYFKNSSKAAQAPSPWGASG----  481 (580)
+Q Consensus       406 veliryamrlkthsgpnatpedkqlaalcyrclallywrmfrlkrdhavkyskalidyfknsskaaqapspwgasg----  481 (580)
+                      ++||+||.+++...+++.+..++||+|||+||||||++|||+||++++.|+++.|++||++..+++++|+|+.+++    
+T Consensus        95 ~~Lik~i~~~~~~~~~~~~~~~~kl~vL~~RcqslL~~kly~lkk~~~~k~~k~L~~~~~~~~~~~~aps~~~~~~~~~t  174 (284)
+T 6R80_A           95 VDLIKYTMKLKNYLAPDATAADKRLTVLCLRCESLLYLRLFKLKKENALKYSKTLTEHLKNSYNNSQAPSPGLGSKAVGM  174 (284)
+T ss_dssp             HHHHHHHHTTC-CCSTTCCHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHSCCCTTCCC-----
+T ss_pred             HHHHHHHHhhhccCCCCCchHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCCCCCCC
+Confidence            9999999988877777788899999999999999999999999999999999999999998666666766653210    
+
+
+Q ss_pred             ----------CCCCCCCCCCCCCCCCccccCCccHHHHHHHHhhhhHHHHHHHhccHHHHHHHHHHHhHHHHHHHHHHhc
+Q tr|H7C4C2|H7C4  482 ----------NSVGSQGSLSNASALSPSTIVSIPQRIHQMAANHVSITNSILHSYDYWEMADNLAKENREFFNDLDLLMG  551 (580)
+Q Consensus       482 ----------nsvgsqgslsnasalspstivsipqrihqmaanhvsitnsilhsydywemadnlakenreffndldllmg  551 (580)
+                                +++||++|+++++ ++++++|+||+++|+++.+|++++++|++|||+|+|||.++.++++||.+||+.||
+T Consensus       175 PSp~SptpSP~s~gs~sS~~s~~-~~~~~~vtiP~~i~~~~~~~~~~~~~l~~ahelW~qAd~l~~~~~~Ff~~Ld~~~g  253 (284)
+T 6R80_A          175 PSPVSPKLSPGNSGNYSSGASSA-SASGSSVTIPQKIHQMAASYVQVTSNFLYATEIWDQAEQLSKEQKEFFAELDKVMG  253 (284)
+T ss_dssp             -----------------------------CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGHHHHHHHHHHHC
+T ss_pred             CCCCCCCCCCCccCCCCCCCCCC-ccCCCccccCHHHHHHHHHHhchhhhHHHHHHHHHHHHHHHHHcHHHHHHHHHhcc
+Confidence                      3445555555554 56789999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ccchh-hhHHHHHHHHHHHHHHHHhhhhh
+Q tr|H7C4C2|H7C4  552 PVTLH-SSMEHLVQYSQQGLHWLRNSAHL  579 (580)
+Q Consensus       552 pvtlh-ssmehlvqysqqglhwlrnsahl  579 (580)
+                      ||+|| |+|.+||+||++||+|||.||+.
+T Consensus       254 pLtl~sSsl~~Lv~Yv~~gL~~Lr~e~~~  282 (284)
+T 6R80_A          254 PLIFNASIMTDLVRYTRQGLHWLRQDAKL  282 (284)
+T ss_dssp             CCCTTTCCHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             ccccccCcHHHHHHHHHHHHHHHHHHhhc
+Confidence            99999 79999999999999999999974
+
+
+No 2
+>6KN5_A AF4/FMR2 family member 4; AFF4, histone acetylation, TRANSCRIPTION; 2.2A {Homo sapiens}
+Probab=100.00  E-value=8.8e-55  Score=398.24  Aligned_cols=248  Identities=50%  Similarity=0.842  Sum_probs=215.5  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhchhhcCCCCCCCChhhHHHHHHHHHH
+Q tr|H7C4C2|H7C4  331 RDCKRQKLVFDDMPRSADYFMQEAKRMKHKADAMVEKFGKALNYAEAALSFIECGNAMEQGPMESKSPYTMYSETVELIR  410 (580)
+Q Consensus       331 rdckrqklvfddmprsadyfmqeakrmkhkadamvekfgkalnyaeaalsfiecgnameqgpmeskspytmysetvelir  410 (580)
+                      ++|+||++++|++++++|+|++|||+|||+||+++|++.|+++|||||||||+||.+||.++.+..++|+||+||++||+
+T Consensus         2 ~~~~~~~~~~~~~~~~~d~yl~eAK~LKh~AD~~~d~~~k~~~YleA~l~Fil~g~~mE~~~~~~~~~~~mY~dT~~Lik   81 (266)
+T 6KN5_A            2 SKPRRTKLVFDDRNYSADHYLQEAKKLKHNADALSDRFEKAVYYLDAVVSFIECGNALEKNAQESKSPFPMYSETVDLIK   81 (266)
+T ss_dssp             ---CCCCCCCCCCCCCHHHHHHHHHHHHHHHHHCCSHHHHHHHHHHHHHHHHHHHHHHHHCSSCCCCCHHHHHHHHHHHH
+T ss_pred             CCCCCccCCcccCCCCHHHHHHHHHHHhhHHHHccchHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCchhHHHHHHHHHH
+Confidence            58999999999999999999999999999999999999999999999999999999999988778999999999999999
+
+
+Q ss_pred             HHHHhhcCCCCCCCHHHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHcCCCCCCCCCCCCCCC---------
+Q tr|H7C4C2|H7C4  411 YAMRLKTHSGPNATPEDKQLAALCYRCLALLYWRMFRLKRDHAVKYSKALIDYFKNSSKAAQAPSPWGASG---------  481 (580)
+Q Consensus       411 yamrlkthsgpnatpedkqlaalcyrclallywrmfrlkrdhavkyskalidyfknsskaaqapspwgasg---------  481 (580)
+                      ||.+++...+++.+..++||+|||+||||||++|||+||++++.|+++.|++||++..+++++|+|+.+++         
+T Consensus        82 ~~~~~~~~~~~~~~~~~~kl~vL~~rcqslL~~kly~lk~~~~~k~~~~l~~~~k~~~~~~~~ps~~~~~~~~~tpSp~S  161 (266)
+T 6KN5_A           82 YTMKLKNYLAPDATAADKRLTVLCLRCESLLYLRLFKLKKENALKYSKTLTEHLKNSYNNSQAPSPGLGSKAVGMPSPVS  161 (266)
+T ss_dssp             HHHTTSCTTSTTCCHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHSSCCCSSCCCCCCC------------
+T ss_pred             HHHHhhccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCcCCCCCCCCCC
+Confidence            99988877777788899999999999999999999999999999999999999998877788887763210         
+
+
+Q ss_pred             -----CCCCCCCCCCCCCCCCccccCCccHHHHHHHHhhhhHHHHHHHhccHHHHHHHHHHHhHHHHHHHHHHhcccchh
+Q tr|H7C4C2|H7C4  482 -----NSVGSQGSLSNASALSPSTIVSIPQRIHQMAANHVSITNSILHSYDYWEMADNLAKENREFFNDLDLLMGPVTLH  556 (580)
+Q Consensus       482 -----nsvgsqgslsnasalspstivsipqrihqmaanhvsitnsilhsydywemadnlakenreffndldllmgpvtlh  556 (580)
+                           +|+||++|+++++ +.++++|+||+++|+++.+|++++++|++|||+|+|||.++.++++||.+||+.||||+||
+T Consensus       162 ptpSpas~gs~sS~~~~~-~~~~~~vtvP~~i~~~~~~~~~~~~~l~~ah~lW~qAd~l~~~~~~Ff~~ld~~~gpLtl~  240 (266)
+T 6KN5_A          162 PKLSPGNSGNYSSGASSA-SASGSSVTIPQKIHQMAASYVQVTSNFLYATEIWDQAEQLSKEQKEFFAELDKVMGPLIFN  240 (266)
+T ss_dssp             -----------------------CCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGGHHHHHHHHHHHCCCCTT
+T ss_pred             CCCCCCCcCCcCCCCCCC-CcCCCccccCHHHHHHHHHHhhhHhHHHHHHHHHHHHHHHHHHcHHHHHHHHHHccccccc
+Confidence                 3345555555544 5578999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             -hhHHHHHHHHHHHHHHHHhhhhh
+Q tr|H7C4C2|H7C4  557 -SSMEHLVQYSQQGLHWLRNSAHL  579 (580)
+Q Consensus       557 -ssmehlvqysqqglhwlrnsahl  579 (580)
+                       |+|.+||+||++||+|||++|++
+T Consensus       241 ~Ssl~~Lv~yv~~gl~~Lr~e~~~  264 (266)
+T 6KN5_A          241 ASIMTDLVRYTRQGLHWLRQDAKL  264 (266)
+T ss_dssp             TCCHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             cCcHHHHHHHHHHHHHHHHHhhhc
+Confidence             89999999999999999999975
+
+
+No 3
+>2LM0_A AF4/FMR2 family member 1/Protein AF-9; Intrinsically Disordered, NUCLEAR PROTEIN; NMR {Homo sapiens}
+Probab=89.92  E-value=0.27  Score=42.24  Aligned_cols=36  Identities=53%  Similarity=0.795  Sum_probs=31.0  Template_Neff=7.600
+
+Q ss_pred             hccCCccccCCCCCChHHHHHHHHhccHHHhcCCCC
+Q tr|H7C4C2|H7C4  115 LVPFGRNELLSPLKDSDEIRSLWVKIDLTLLSRIPE  150 (580)
+Q Consensus       115 lvpfgrnellsplkdsdeirslwvkidltllsripe  150 (580)
+                      ..|.+.+++++|+.+......+|||||+.+|+++|.
+T Consensus         4 ~~~~~~~~~~sp~~~~~~p~~l~vk~~~~~ls~~~~   39 (125)
+T 2LM0_A            4 PLPLRDTKLLSPLRDTPPPQSLMVKITLDLLSRIPQ   39 (125)
+T ss_dssp             SCSCCSCCCCSSCCSSCCCCCCCEECCSTTTCCCCC
+T ss_pred             CCCcccCCCCCCCCCCCCCCccceeCchHHhccCCC
+Confidence            357788889999998877788999999999999885
+
+
+No 4
+>6PEN_D Spastin (E.C.5.6.1.1), EYEYEYEYEY; AAA+ ATPase, Microtubule Severing, MOTOR; HET: ADP, BEF;{Homo sapiens}
+Probab=24.95  E-value=4.7e+02  Score=26.19  Aligned_cols=41  Identities=20%  Similarity=0.337  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHH---hchhhcCCCCCCCChhhHHHHHHHHHHHHHHh
+Q tr|H7C4C2|H7C4  367 KFGKALNYAEAALSFIE---CGNAMEQGPMESKSPYTMYSETVELIRYAMRL  415 (580)
+Q Consensus       367 kfgkalnyaeaalsfie---cgnameqgpmeskspytmysetveliryamrl  415 (580)
+                      ...+|+.|++.+|.|=+   .|        ....|..||+.-+.+|.....+
+T Consensus        33 ~~~~a~~~~~~~l~~de~~~~~--------~~~~a~~~y~~g~~~~~~~~~~   76 (498)
+T 6PEN_D           33 FHKQAFEYISIALRIDEDEKAG--------QKEQAVEWYKKGIEELEKGIAV   76 (498)
+T ss_dssp             ----------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHhhhccccCC--------CHHHHHHHHHHHHHHHHhcccc
+Confidence            34445555555555543   22        2356888999998888876544
+
+
+No 5
+>2CFU_A SDSA1; SDS-HYDROLASE, SDSA1, LACTAMASE, HYDROLASE; HET: PEG, 1DB; 1.9A {PSEUDOMONAS AERUGINOSA} SCOP: d.106.1.3, d.157.1.13
+Probab=22.19  E-value=1e+03  Score=26.06  Aligned_cols=13  Identities=23%  Similarity=0.281  Sum_probs=8.8  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|H7C4C2|H7C4  402 YSETVELIRYAMR  414 (580)
+Q Consensus       402 ysetveliryamr  414 (580)
+                      |+-.++|+.++..
+T Consensus       465 ~~~a~~l~~~~~~  477 (658)
+T 2CFU_A          465 YRWVVEVVNRLVF  477 (658)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            5667777777653
+
+
+No 6
+>2CFZ_A SDS HYDROLASE SDSA1; HYDROLASE; HET: PEG, 1DO; 2.05A {PSEUDOMONAS AERUGINOSA} SCOP: d.106.1.3, d.157.1.13
+Probab=22.19  E-value=1e+03  Score=26.06  Aligned_cols=13  Identities=23%  Similarity=0.281  Sum_probs=8.7  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|H7C4C2|H7C4  402 YSETVELIRYAMR  414 (580)
+Q Consensus       402 ysetveliryamr  414 (580)
+                      |+-.++|+.++..
+T Consensus       465 ~~~a~~l~~~~~~  477 (658)
+T 2CFZ_A          465 YRWVVEVVNRLVF  477 (658)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            5666777777653
+
+
+No 7
+>5AJL_A ALKYL SULFATASE; HYDROLASE, POLYMORPHS, CRYSTAL CONTACTS; 3.45A {PSEUDOMONAS AERUGINOSA}
+Probab=22.19  E-value=1e+03  Score=26.06  Aligned_cols=12  Identities=25%  Similarity=0.393  Sum_probs=7.3  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHH
+Q tr|H7C4C2|H7C4  402 YSETVELIRYAM  413 (580)
+Q Consensus       402 ysetveliryam  413 (580)
+                      |+-.++|+.++.
+T Consensus       465 ~~~a~~l~~~~~  476 (658)
+T 5AJL_A          465 YRWVVEVVNRLV  476 (658)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            555666666665
+
+
+No 8
+>4NUR_A PSdsA; dimerization fold, sulfatase, thermostable, HYDROLASE; 1.761A {Pseudomonas sp. S9}
+Probab=19.66  E-value=1.1e+03  Score=25.66  Aligned_cols=14  Identities=7%  Similarity=0.112  Sum_probs=10.1  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHHHHh
+Q tr|H7C4C2|H7C4  402 YSETVELIRYAMRL  415 (580)
+Q Consensus       402 ysetveliryamrl  415 (580)
+                      |+-.++|+.++...
+T Consensus       447 ~~~a~~l~~~~~~~  460 (633)
+T 4NUR_A          447 FRWVAEVVNHVVFA  460 (633)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHh
+Confidence            67778888887643
+
+
+No 9
+>4NQ0_A HAT1-interacting factor 1; TPR, NASP homologue, SHNi-TPR, mediating; 2.1A {Saccharomyces cerevisiae}
+Probab=18.95  E-value=1.7e+03  Score=23.51  Aligned_cols=10  Identities=20%  Similarity=0.019  Sum_probs=4.7  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHH
+Q tr|H7C4C2|H7C4  347 ADYFMQEAKR  356 (580)
+Q Consensus       347 adyfmqeakr  356 (580)
+                      +-.++..|+.
+T Consensus       206 A~e~Le~Ar~  215 (393)
+T 4NQ0_A          206 ALDLLAQALM  215 (393)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3344555554
+
+
+No 10
+>7EMF_D Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=16.65  E-value=1.1e+03  Score=24.10  Aligned_cols=15  Identities=33%  Similarity=0.662  Sum_probs=9.1  Template_Neff=7.000
+
+Q ss_pred             HHHHHHHHHHHhhcC
+Q tr|H7C4C2|H7C4  404 ETVELIRYAMRLKTH  418 (580)
+Q Consensus       404 etveliryamrlkth  418 (580)
+                      +.-+||+|..++..+
+T Consensus       144 ~~eeLi~YA~rIS~~  158 (270)
+T 7EMF_D          144 SSEEIIKYAHRISAS  158 (270)
+T ss_pred             CHHHHHHHHHHHccc
+Confidence            455678887655443
+
+

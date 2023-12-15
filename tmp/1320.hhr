@@ -1,0 +1,232 @@
+Query         tr|A0A3B3ITA3|A0A3B3ITA3_HUMAN
+Match_columns 248
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:23:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1320.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XSR_A CATECHOL 1,2 DIOXYGENAS  41.3 1.6E+02  0.0017   27.5   5.8   37  149-185    26-68  (312)
+  2 7RRO_H5 cilia, microtubule, dy  39.9 2.8E+02   0.003   26.5   7.2   26   47-72      3-28  (621)
+  3 2XSU_A CATECHOL 1,2 DIOXYGENAS  36.7 2.3E+02  0.0024   26.6   6.1   36  150-185    27-68  (312)
+  4 2XSV_A CATECHOL 1,2 DIOXYGENAS  34.8 2.4E+02  0.0026   26.4   5.9   36  150-185    27-68  (312)
+  5 2JNT_A Chemosensory protein CS  29.4 1.4E+02  0.0015   22.8   3.0   24  126-149    51-74  (108)
+  6 7B5H_EG contractile tail, inje  23.1 1.9E+02   0.002   26.1   3.1   27  156-182   102-128 (154)
+  7 1DLM_B CATECHOL 1,2-DIOXYGENAS  22.0 7.6E+02  0.0082   23.2   6.7   37  148-184    23-65  (311)
+  8 1DMH_B CATECHOL 1,2-DIOXYGENAS  22.0 7.6E+02  0.0082   23.2   6.7   37  148-184    23-65  (311)
+  9 3AON_A V-type sodium ATPase su  22.0 5.6E+02  0.0061   21.5   5.4   50  138-187    29-78  (217)
+ 10 3VR4_G V-type sodium ATPase ca  22.0 5.6E+02  0.0061   21.5   5.4   50  138-187    29-78  (217)
+ 11 5KNC_G V-type sodium ATPase ca  22.0 5.6E+02  0.0061   21.5   5.4   48  140-187    31-78  (217)
+ 12 6OGD_K Toxin subunit YenA1, To  20.6 1.4E+03   0.015   26.0   9.3   59  131-189  1070-1128(1364)
+ 13 6RW8_A A component of insectic  20.3 1.2E+03   0.013   28.3   9.1   60  131-190  2243-2302(2523)
+ 14 5UMH_B Catechol 1,2-dioxygenas  20.2   1E+03   0.011   22.6   7.2   38  148-185    31-74  (319)
+
+No 1
+>2XSR_A CATECHOL 1,2 DIOXYGENASE; OXIDOREDUCTASE, LIPID; HET: PIE; 1.8A {ACINETOBACTER RADIORESISTENS}
+Probab=41.33  E-value=1.6e+02  Score=27.54  Aligned_cols=37  Identities=24%  Similarity=0.248  Sum_probs=28.5  Template_Neff=6.700
+
+Q ss_pred             CCCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  149 RTPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAAA  185 (248)
+Q Consensus       149 rtplprkrqlmhslfgdyraqm------eaewrealralraaa  185 (248)
+                      .++-||-+++|.+|.....+-+      ++||..++.-|-...
+T Consensus        26 ~~~~~R~~~i~~~lv~~lh~~~~e~~lt~~E~~~a~~fL~~~g   68 (312)
+T 2XSR_A           26 GPVDERIQQVVVRLLGDLFQAIEDLDIQPSEVWKGLEYLTDAG   68 (312)
+T ss_dssp             SCCCHHHHHHHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHhc
+Confidence            3556899999999998887765      468998887765543
+
+
+No 2
+>7RRO_H5 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=39.86  E-value=2.8e+02  Score=26.46  Aligned_cols=26  Identities=38%  Similarity=0.443  Sum_probs=21.5  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A3B3ITA3|   47 QPTCSNADSRAHPLGDEGGTASKKQK   72 (248)
+Q Consensus        47 qptcsnadsrahplgdeggtaskkqk   72 (248)
+                      .|-|..|.+.+.|.-|...|.|++.+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~   28 (621)
+T 7RRO_H5           3 SPLCWAAASNAMPSQDQISTPSKVKA   28 (621)
+T ss_pred             CccchhhccCCCCCCccCCCCchhhc
+Confidence            47788888888999999988887665
+
+
+No 3
+>2XSU_A CATECHOL 1,2 DIOXYGENASE; OXIDOREDUCTASE; HET: PIE; 1.6A {ACINETOBACTER RADIORESISTENS}
+Probab=36.67  E-value=2.3e+02  Score=26.59  Aligned_cols=36  Identities=25%  Similarity=0.264  Sum_probs=28.1  Template_Neff=6.700
+
+Q ss_pred             CCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  150 TPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAAA  185 (248)
+Q Consensus       150 tplprkrqlmhslfgdyraqm------eaewrealralraaa  185 (248)
+                      +.-||-+++|.+|.....+-+      ++||+.++.-|-...
+T Consensus        27 ~~~~R~~~i~~~lv~~lh~~~~e~~lt~~E~~~a~~~L~~~g   68 (312)
+T 2XSU_A           27 PVDERIQQVVVRLLGDLFQAIEDLDIQPSEVWKGLEYLTDAG   68 (312)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHh
+Confidence            556899999999998887776      468998888765543
+
+
+No 4
+>2XSV_A CATECHOL 1,2 DIOXYGENASE; OXIDOREDUCTASE; HET: PIE; 1.8A {ACINETOBACTER RADIORESISTENS}
+Probab=34.79  E-value=2.4e+02  Score=26.42  Aligned_cols=36  Identities=25%  Similarity=0.264  Sum_probs=28.3  Template_Neff=6.700
+
+Q ss_pred             CCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  150 TPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAAA  185 (248)
+Q Consensus       150 tplprkrqlmhslfgdyraqm------eaewrealralraaa  185 (248)
+                      ++-||-+++|.+|.....+-+      ++||+.++.-|-...
+T Consensus        27 ~~~~R~~~i~~~lv~~lh~~~~e~~lT~~E~~~a~~~L~~~g   68 (312)
+T 2XSV_A           27 PVDERIQQVVVRLLGDLFQAIEDLDIQPSEVWKGLEYLTDAG   68 (312)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHc
+Confidence            556899999999998887776      478999888775543
+
+
+No 5
+>2JNT_A Chemosensory protein CSP1; BmorCSP1, CSP1, LIGAND BINDING PROTEIN; NMR {Bombyx mori}
+Probab=29.41  E-value=1.4e+02  Score=22.80  Aligned_cols=24  Identities=25%  Similarity=0.122  Sum_probs=19.6  Template_Neff=7.900
+
+Q ss_pred             hCCCCCHHHHHHHHHHHHHHHhCC
+Q tr|A0A3B3ITA3|  126 KRQKPTPKQKEQAIGAIRTLRSKR  149 (248)
+Q Consensus       126 krqkptpkqkeqaigairtlrskr  149 (248)
+                      .-.+=|++||+.+...+..|+...
+T Consensus        51 ~C~~Ct~~qk~~~~~~~~~l~~~~   74 (108)
+T 2JNT_A           51 GCEKCTEAQEKGAETSIDYLIKNE   74 (108)
+T ss_dssp             SCTTSCHHHHHHHHHHHHHHHHTC
+T ss_pred             CCCCCCHHHHHHHHHHHHHHHHhc
+Confidence            445789999999999998888754
+
+
+No 6
+>7B5H_EG contractile tail, injection system, macromolecular; 3.2A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=23.08  E-value=1.9e+02  Score=26.05  Aligned_cols=27  Identities=26%  Similarity=0.396  Sum_probs=21.3  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  156 RQLMHSLFGDYRAQMEAEWREALRALR  182 (248)
+Q Consensus       156 rqlmhslfgdyraqmeaewrealralr  182 (248)
+                      -.-++.-|-+|..|||-.|...|+-|-
+T Consensus       102 ~~~l~~~~~~~~~~~~~~~~~~~~~~~  128 (154)
+T 7B5H_EG         102 LETLHQEFTEYQKQMEIRLQLLARFIP  128 (154)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334556799999999999999887653
+
+
+No 7
+>1DLM_B CATECHOL 1,2-DIOXYGENASE (E.C.1.13.11.1); METALLOPROTEIN, DIOXYGENASE, AROMATIC COMPOUND DEGRADATION; HET: LIO; 2.0A {Acinetobacter sp.} SCOP: b.3.6.1
+Probab=22.05  E-value=7.6e+02  Score=23.22  Aligned_cols=37  Identities=19%  Similarity=0.368  Sum_probs=27.1  Template_Neff=6.900
+
+Q ss_pred             CCCCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  148 KRTPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAA  184 (248)
+Q Consensus       148 krtplprkrqlmhslfgdyraqm------eaewrealralraa  184 (248)
+                      ..++-||-+++|.+|.....+-+      ++||+.++..|-..
+T Consensus        23 ~~~~~~R~~~i~~~lv~~lh~~~~e~~lT~~E~~~~~~~l~~~   65 (311)
+T 1DLM_B           23 QEGGNPRVKQIIHRVLSDLYKAIEDLNITSDEYWAGVAYLNQL   65 (311)
+T ss_dssp             CSSSCHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHH
+T ss_pred             ccCCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHc
+Confidence            34566888888888888777665      47898888776543
+
+
+No 8
+>1DMH_B CATECHOL 1,2-DIOXYGENASE (E.C.1.13.11.1); DIOXYGENASE, AROMATIC HYDROCARBON DEGRADATION, ALPHA/BETA; HET: MCT, LIO; 1.7A {Acinetobacter sp.} SCOP: b.3.6.1
+Probab=22.05  E-value=7.6e+02  Score=23.22  Aligned_cols=37  Identities=19%  Similarity=0.368  Sum_probs=27.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  148 KRTPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAA  184 (248)
+Q Consensus       148 krtplprkrqlmhslfgdyraqm------eaewrealralraa  184 (248)
+                      ..++-||-+++|.+|.....+-+      ++||+.++..|-..
+T Consensus        23 ~~~~~~R~~~i~~~lv~~lh~~~~e~~lT~~E~~~~~~~l~~~   65 (311)
+T 1DMH_B           23 QEGGNPRVKQIIHRVLSDLYKAIEDLNITSDEYWAGVAYLNQL   65 (311)
+T ss_dssp             CSSSCHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHH
+T ss_pred             ccCCCHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHc
+Confidence            34566888888888888777665      47898888776543
+
+
+No 9
+>3AON_A V-type sodium ATPase subunit D; V-ATPase, Enterococcus, Coiled-coil, Alpha/beta fold; HET: MSE; 2.0A {Enterococcus hirae}
+Probab=21.97  E-value=5.6e+02  Score=21.47  Aligned_cols=50  Identities=22%  Similarity=0.244  Sum_probs=28.5  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHhCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A3B3ITA3|  138 AIGAIRTLRSKRTPLPRKRQLMHSLFGDYRAQMEAEWREALRALRAAAYS  187 (248)
+Q Consensus       138 aigairtlrskrtplprkrqlmhslfgdyraqmeaewrealralraaays  187 (248)
+                      +......|..||.-|-....-...-+...+..++..++++...|..+.+.
+T Consensus        29 a~~g~~lL~~Krd~L~~e~~~~~~~~~~~r~~~~~~~~~a~~~l~~a~~~   78 (217)
+T 3AON_A           29 ATRGHKLLKDKQDELMRQFILLIRKNNELRQAIEKETQTAMKDFVLAKST   78 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33344444444433333333333445567778888888888777766654
+
+
+No 10
+>3VR4_G V-type sodium ATPase catalytic subunit; V-ATPase, Enterococcus hirae, Rotary motor; HET: B3P, GOL, MSE; 2.172A {Enterococcus hirae}
+Probab=21.97  E-value=5.6e+02  Score=21.47  Aligned_cols=50  Identities=22%  Similarity=0.244  Sum_probs=28.2  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHhCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A3B3ITA3|  138 AIGAIRTLRSKRTPLPRKRQLMHSLFGDYRAQMEAEWREALRALRAAAYS  187 (248)
+Q Consensus       138 aigairtlrskrtplprkrqlmhslfgdyraqmeaewrealralraaays  187 (248)
+                      +......|..||.-|-....-...-+...+..++..++++...|..+.+.
+T Consensus        29 a~~g~~lL~~Krd~L~~e~~~~~~~~~~~r~~~~~~~~~a~~~l~~a~~~   78 (217)
+T 3VR4_G           29 ATRGHKLLKDKQDELMRQFILLIRKNNELRQAIEKETQTAMKDFVLAKST   78 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33344444444433333333333445567778888888888877776654
+
+
+No 11
+>5KNC_G V-type sodium ATPase catalytic subunit; P-loop, Hydrolase, Na(+)-ATPase, ATP Binding; HET: ADP, GOL; 3.015A {Enterococcus hirae ATCC 9790}
+Probab=21.97  E-value=5.6e+02  Score=21.47  Aligned_cols=48  Identities=21%  Similarity=0.242  Sum_probs=27.8  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHhCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A3B3ITA3|  140 GAIRTLRSKRTPLPRKRQLMHSLFGDYRAQMEAEWREALRALRAAAYS  187 (248)
+Q Consensus       140 gairtlrskrtplprkrqlmhslfgdyraqmeaewrealralraaays  187 (248)
+                      .....|..||.-|-....-...-+...+..++..++++...|..+.+.
+T Consensus        31 ~g~~lL~~Krd~L~~e~~~~~~~~~~~r~~~~~~~~~a~~~l~~a~~~   78 (217)
+T 5KNC_G           31 RGHKLLKDKQDELMRQFILLIRKNNELRQAIEKETQTAMKDFVLAKST   78 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334444444433333333333445567778888888888777777664
+
+
+No 12
+>6OGD_K Toxin subunit YenA1, Toxin subunit; Membrane protein Pore-forming toxin Complex; 4.4A {Yersinia entomophaga}
+Probab=20.55  E-value=1.4e+03  Score=26.02  Aligned_cols=59  Identities=19%  Similarity=0.138  Sum_probs=40.2  Template_Neff=7.100
+
+Q ss_pred             CHHHHHHHHHHHHHHHhCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+Q tr|A0A3B3ITA3|  131 TPKQKEQAIGAIRTLRSKRTPLPRKRQLMHSLFGDYRAQMEAEWREALRALRAAAYSAQ  189 (248)
+Q Consensus       131 tpkqkeqaigairtlrskrtplprkrqlmhslfgdyraqmeaewrealralraaaysaq  189 (248)
+                      ...|.+|+......|++|-|...--.-+...|-+-|+.-....+.-++.|=|+-.|.-+
+T Consensus      1070 ~~~q~~~a~~~~~fl~~kfTn~~LY~Wm~~~l~~ly~q~y~~a~~~a~~Ae~a~~~E~g 1128 (1364)
+T 6OGD_K         1070 VEAQQQQAMALLDYFSERFTNESLYTWLISQLSSLYLQAYDAVLSLCLSAEASLLYELN 1128 (1364)
+T ss_dssp             HHHHHHHHHHHHHHHHTCTTSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhC
+Confidence            35677888888999999998765554455555555666666666666666666666544
+
+
+No 13
+>6RW8_A A component of insecticidal toxin; Toxin, membrane permeation, translocation, complex; 2.84A {Xenorhabdus nematophila}
+Probab=20.33  E-value=1.2e+03  Score=28.27  Aligned_cols=60  Identities=18%  Similarity=0.057  Sum_probs=43.6  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHHHHHhCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCC
+Q tr|A0A3B3ITA3|  131 TPKQKEQAIGAIRTLRSKRTPLPRKRQLMHSLFGDYRAQMEAEWREALRALRAAAYSAQV  190 (248)
+Q Consensus       131 tpkqkeqaigairtlrskrtplprkrqlmhslfgdyraqmeaewrealralraaaysaqv  190 (248)
+                      ..+|.+|+......|++|-|...--.-+...|-+-|+..+...+.-|+.|=++-.|.-..
+T Consensus      2243 ~~~~~~~a~~~~~f~~~kftn~~lY~Wm~~~l~~ly~q~y~~a~~~a~~Ae~a~~~E~g~ 2302 (2523)
+T 6RW8_A         2243 LETQQAQTQAQLAFLQSKFSNAALYNWLRGRLSAIYYQFYDLAVSLCLMAEQTYQYELNN 2302 (2523)
+T ss_dssp             HHHHHHHHHHHHHHHHHSTTSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHHHHhhCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            356778888888999999998765555555666667777777777777777777776543
+
+
+No 14
+>5UMH_B Catechol 1,2-dioxygenase (E.C.1.13.11.1); DIOXYGENASE, AROMATIC HYDROCARBON DEGRADATION, ALPHA/BETA; HET: PG4, EDO, PG6; 1.35A {Burkholderia multivorans (strain ATCC 17616 / 249)}
+Probab=20.20  E-value=1e+03  Score=22.60  Aligned_cols=38  Identities=21%  Similarity=0.229  Sum_probs=27.5  Template_Neff=6.700
+
+Q ss_pred             CCCCCchHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHHH
+Q tr|A0A3B3ITA3|  148 KRTPLPRKRQLMHSLFGDYRAQM------EAEWREALRALRAAA  185 (248)
+Q Consensus       148 krtplprkrqlmhslfgdyraqm------eaewrealralraaa  185 (248)
+                      ..++-||-+++|.+|.....+.+      ++||..++..|....
+T Consensus        31 ~~~~~~R~~~i~~~lv~~lh~~~~e~~lt~~E~~~a~~~L~~~g   74 (319)
+T 5UMH_B           31 GDAGNARFRQIVHRLLSDLFKAIDDLDITPDEVWAGVNYLNKLG   74 (319)
+T ss_dssp             SSSCCHHHHHHHHHC-CHHHHHHHHHTCCHHHHHHHHHHHHHHH
+T ss_pred             cCCCCHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHhc
+Confidence            44567888899988887766655      479999888776544
+
+

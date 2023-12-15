@@ -1,0 +1,469 @@
+Query         tr|A0A087WZ63|A0A087WZ63_HUMAN
+Match_columns 63
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:22:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1318.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BKR_A SENTRIN-SPECIFIC PROTEA  82.8     2.7   3E-05   23.3   2.2   27   16-42      4-30  (212)
+  2 6TB4_J TATA-box Binding Protei  72.9     4.7 5.1E-05   30.3   1.6   29   19-47    188-216 (217)
+  3 6TBM_J TATA-binding protein, T  72.9     4.7 5.1E-05   30.3   1.6   29   19-47    188-216 (217)
+  4 2HL8_A Ubiquitin-like-specific  63.3      11 0.00012   20.9   1.5   25   18-42     28-52  (221)
+  5 6T9I_G Transcription factor SP  63.0     9.2 9.9E-05   28.4   1.4   28   20-47    178-205 (206)
+  6 6T9K_G Transcription factor SP  63.0     9.2 9.9E-05   28.4   1.4   28   20-47    178-205 (206)
+  7 2G4D_C protease, ubiquitin-lik  62.0      13 0.00014   20.0   1.5   25   18-42      6-30  (205)
+  8 1EUV_A ULP1 PROTEASE/UBITQUTIN  57.0      13 0.00014   20.5   1.0   26   17-42     27-52  (221)
+  9 7EGG_J Transcription initiatio  49.1      22 0.00024   27.0   1.5   29   19-47    189-217 (218)
+ 10 7KTR_H coactivator, gene regul  49.1      22 0.00024   27.0   1.5   28   20-47    190-217 (218)
+ 11 4WV4_A TAF10, TAF8; Transcript  47.3      21 0.00022   22.3   1.0   15   19-33     79-93  (102)
+ 12 5AEK_S SENTRIN-SPECIFIC PROTEA  44.7      35 0.00038   18.9   1.5   25   18-42     25-49  (224)
+ 13 6NNQ_A Sentrin-specific protea  44.2      34 0.00037   18.8   1.4   25   18-42     26-50  (224)
+ 14 2IO1_C SUMO, Ubiquitin, Senp,   39.6      39 0.00042   19.0   1.2   25   18-42     33-57  (232)
+ 15 3ZO5_A SENTRIN-SPECIFIC PROTEA  35.3      41 0.00044   18.9   0.8   21   22-42     43-63  (238)
+ 16 5JP1_A Outer protein D, Small   34.7      15 0.00017   20.7  -0.9   23   20-42     25-47  (220)
+ 17 5JP3_A Outer protein D, Polyub  34.7      15 0.00017   20.7  -0.9   23   20-42     25-47  (220)
+ 18 2XPH_B SENTRIN-SPECIFIC PROTEA  31.7      70 0.00076   18.1   1.4   25   18-42     39-63  (238)
+ 19 2YMA_A PROTEIN OS-9 HOMOLOG; C  30.6      64  0.0007   23.3   1.4   27   30-56     62-88  (161)
+ 20 2IYC_B SENTRIN-SPECIFIC PROTEA  30.2      64  0.0007   17.8   1.1   25   18-42     27-51  (226)
+ 21 5CUO_A Phosphate propanoyltran  28.5      97  0.0011   23.4   2.0   30   21-50     14-44  (202)
+ 22 5CUP_B PduL (E.C.2.3.1.8); Enz  28.5      97  0.0011   23.4   2.0   30   21-50     14-44  (202)
+ 23 3MN3_A Carbon catabolite-derep  26.7 1.2E+02  0.0013   17.0   1.7   20   32-51    250-269 (271)
+ 24 1Y2Y_A Box H/ACA snoRNA, snoRN  21.6   1E+02  0.0011   17.8   0.9   15   41-55     29-43  (58)
+ 25 3U28_B H/ACA ribonucleoprotein  21.6   1E+02  0.0011   17.8   0.9   13   41-53     29-41  (58)
+ 26 3AQV_A 5'-AMP-activated protei  20.6 1.7E+02  0.0018   16.5   1.6   18   32-49    258-275 (276)
+ 27 2AUS_D Probable tRNA pseudouri  20.2 1.5E+02  0.0017   17.8   1.5   30   23-53     12-41  (60)
+ 28 6UPS_A ULP_PROTEASE domain-con  20.1      54 0.00058   21.2  -0.5   15   28-42      4-18  (260)
+ 29 6UPU_A ULP_PROTEASE domain-con  20.1      54 0.00058   21.2  -0.5   15   28-42      4-18  (260)
+
+No 1
+>2BKR_A SENTRIN-SPECIFIC PROTEASE 8 (E.C.3.4.22.-), NEDDYLIN; PROTEIN-BINDING-HYDROLASE COMPLEX, UBIQUITIN, HYDROLASE, PROTEASE; 1.9A {HOMO SAPIENS} SCOP: d.3.1.7
+Probab=82.80  E-value=2.7  Score=23.26  Aligned_cols=27  Identities=30%  Similarity=0.566  Sum_probs=23.1  Template_Neff=12.600
+
+Q ss_pred             eeeeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   16 FRVAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        16 frvaykrhvltmddlgtlygqnwlndq   42 (63)
+                      ..+.+....++.+|+.+|....||++.
+T Consensus         4 ~~~~~~~~~~~~~dl~~l~~~~~l~~~   30 (212)
+T 2BKR_A            4 VVLSYMDSLLRQSDVSLLDPPSWLNDH   30 (212)
+T ss_dssp             EEEEETTEEEEHHHHHTTSTTSCCBHH
+T ss_pred             eEEEEcCeEEeHHHHHhhCCCCcchHH
+Confidence            346678888999999999999999885
+
+
+No 2
+>6TB4_J TATA-box Binding Protein (TBP), Transcriptional; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 3.8A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=72.93  E-value=4.7  Score=30.27  Aligned_cols=29  Identities=34%  Similarity=0.533  Sum_probs=19.9  Template_Neff=4.800
+
+Q ss_pred             eeccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   19 AYKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        19 aykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      .-||.+||||||..-....-+|-.-|+.|
+T Consensus       188 ~~~R~vLTmEDLs~AL~EyGInv~rP~Yy  216 (217)
+T 6TB4_J          188 TNNKVVLTMDDLRSALGEYGINVKRPNFY  216 (217)
+T ss_pred             CCCceEecHHHHHHHHHHhCCCCCCCccc
+Confidence            45688999999987655554555555544
+
+
+No 3
+>6TBM_J TATA-binding protein, Transcriptional coactivator HFI1/ADA1; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 20.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=72.93  E-value=4.7  Score=30.27  Aligned_cols=29  Identities=34%  Similarity=0.533  Sum_probs=19.9  Template_Neff=4.800
+
+Q ss_pred             eeccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   19 AYKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        19 aykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      .-||.+||||||..-....-+|-.-|+.|
+T Consensus       188 ~~~R~vLTmEDLs~AL~EyGInv~rP~Yy  216 (217)
+T 6TBM_J          188 TNNKVVLTMDDLRSALGEYGINVKRPNFY  216 (217)
+T ss_pred             CCCceEecHHHHHHHHHHhCCCCCCCccc
+Confidence            45688999999987655554555555544
+
+
+No 4
+>2HL8_A Ubiquitin-like-specific protease 1 (E.C.3.4.22.-); hydrolase; 2.0A {Saccharomyces cerevisiae} SCOP: d.3.1.7
+Probab=63.25  E-value=11  Score=20.89  Aligned_cols=25  Identities=32%  Similarity=0.529  Sum_probs=20.3  Template_Neff=12.700
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +.+....++.+|+-+|....||++.
+T Consensus        28 ~~~~~~~~~~~dl~~l~~~~~l~~~   52 (221)
+T 2HL8_A           28 MNRDNIEITVRDFKTLAPRRWLNDT   52 (221)
+T ss_dssp             EEC-CCEECHHHHTTSSTTCCCCHH
+T ss_pred             eecCCEEEeHHHhhhccCCCccChH
+Confidence            4456788999999999999999875
+
+
+No 5
+>6T9I_G Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=62.95  E-value=9.2  Score=28.45  Aligned_cols=28  Identities=29%  Similarity=0.373  Sum_probs=19.2  Template_Neff=5.000
+
+Q ss_pred             eccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   20 YKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        20 ykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      -+|.+|||+||..-....-+|-.=|+.|
+T Consensus       178 ~~r~vLTmEDLs~AL~EyGInv~rP~yy  205 (206)
+T 6T9I_G          178 ASKVVLTVNDLSSAVAEYGLNIGRPDFY  205 (206)
+T ss_pred             CCeEEecHHHHHHHHHHhCCCCCCchhc
+Confidence            4688999999987655555555555544
+
+
+No 6
+>6T9K_G Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=62.95  E-value=9.2  Score=28.45  Aligned_cols=28  Identities=29%  Similarity=0.373  Sum_probs=19.2  Template_Neff=5.000
+
+Q ss_pred             eccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   20 YKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        20 ykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      -+|.+|||+||..-....-+|-.=|+.|
+T Consensus       178 ~~r~vLTmEDLs~AL~EyGInv~rP~yy  205 (206)
+T 6T9K_G          178 ASKVVLTVNDLSSAVAEYGLNIGRPDFY  205 (206)
+T ss_pred             CCeEEecHHHHHHHHHHhCCCCCCchhc
+Confidence            4688999999987655555555555544
+
+
+No 7
+>2G4D_C protease, ubiquitin-like protein, SUMO maturation; 2.8A {Homo sapiens} SCOP: d.3.1.7
+Probab=62.03  E-value=13  Score=20.02  Aligned_cols=25  Identities=40%  Similarity=0.550  Sum_probs=20.4  Template_Neff=13.100
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++.+|+.+|....||++.
+T Consensus         6 ~~~~~~~~~~~dl~~l~~~~~l~~~   30 (205)
+T 2G4D_C            6 SEAFRLTITRKDIQTLNHLNWLNDE   30 (205)
+T ss_dssp             EEETTEEEEHHHHGGGSTTCCEEHH
+T ss_pred             ecccceEEeHHHHHhhccCCCCCHH
+Confidence            4456678999999999999998873
+
+
+No 8
+>1EUV_A ULP1 PROTEASE/UBITQUTIN-LIKE PROTEIN SMT3; SUMO HYDROLASE, UBIQUITIN-LIKE PROTEASE 1; 1.6A {Saccharomyces cerevisiae} SCOP: d.3.1.7
+Probab=56.98  E-value=13  Score=20.55  Aligned_cols=26  Identities=31%  Similarity=0.480  Sum_probs=21.3  Template_Neff=12.800
+
+Q ss_pred             eeeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   17 RVAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        17 rvaykrhvltmddlgtlygqnwlndq   42 (63)
+                      .+......++.+|+.+|....||++.
+T Consensus        27 ~~~~~~~~i~~~dl~~l~~~~~l~~~   52 (221)
+T 1EUV_A           27 LMNRDNIEITVRDFKTLAPRRWLNDT   52 (221)
+T ss_dssp             EEEETTEEEEHHHHGGGSTTCCCBHH
+T ss_pred             eeecCCeEEeHHHhceecCCCCCCHH
+Confidence            34556778999999999999999865
+
+
+No 9
+>7EGG_J Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 2.77A {Homo sapiens}
+Probab=49.08  E-value=22  Score=27.04  Aligned_cols=29  Identities=28%  Similarity=0.376  Sum_probs=18.0  Template_Neff=4.500
+
+Q ss_pred             eeccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   19 AYKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        19 aykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      .-||.+|||+||..-....-+|-.-|+.|
+T Consensus       189 kdkR~tLTmEDLs~AL~EyGInv~kP~Yf  217 (218)
+T 7EGG_J          189 KDRKYTLTMEDLTPALSEYGINVKKPHYF  217 (218)
+T ss_pred             CCceeEecHHhHHHHHHHhCCCCCCCccc
+Confidence            35788999999986544433443444443
+
+
+No 10
+>7KTR_H coactivator, gene regulation, transcription, chromatin; HET: IHP;{Homo sapiens}
+Probab=49.08  E-value=22  Score=27.04  Aligned_cols=28  Identities=29%  Similarity=0.394  Sum_probs=19.4  Template_Neff=4.500
+
+Q ss_pred             eccceeehHHHhhhhccchhcCCCCCCC
+Q tr|A0A087WZ63|   20 YKRHVLTMDDLGTLYGQNWLNDQLPPIF   47 (63)
+Q Consensus        20 ykrhvltmddlgtlygqnwlndqlppif   47 (63)
+                      -||.+|||+||..-....-+|-.-|+.|
+T Consensus       190 dkR~tLTmEDLs~AL~EyGInv~kP~Yf  217 (218)
+T 7KTR_H          190 DRKYTLTMEDLTPALSEYGINVKKPHYF  217 (218)
+T ss_dssp             SCCCEECHHHHHHHHHTTTCCCCCCCCB
+T ss_pred             CceeEecHHhHHHHHHHhCCCCCCCccc
+Confidence            5789999999987655444455555554
+
+
+No 11
+>4WV4_A TAF10, TAF8; Transcription, TBP-associated factor, Heterodimer, Histone; HET: GOL; 1.909A {Homo sapiens}
+Probab=47.35  E-value=21  Score=22.31  Aligned_cols=15  Identities=33%  Similarity=0.445  Sum_probs=10.5  Template_Neff=7.300
+
+Q ss_pred             eeccceeehHHHhhh
+Q tr|A0A087WZ63|   19 AYKRHVLTMDDLGTL   33 (63)
+Q Consensus        19 aykrhvltmddlgtl   33 (63)
+                      .-+|-+|||+||..-
+T Consensus        79 ~~~r~~Lt~edL~~a   93 (102)
+T 4WV4_A           79 KDRKYTLTMEDLTPA   93 (102)
+T ss_dssp             ---CCEECHHHHGGG
+T ss_pred             CCceeEecHHhHHHH
+Confidence            357889999999864
+
+
+No 12
+>5AEK_S SENTRIN-SPECIFIC PROTEASE 2 (E.C.3.4.22.68), SMALL; HYDROLASE, SUMO, SENP, FOLDING EVOLUTION; 3.0A {HOMO SAPIENS}
+Probab=44.72  E-value=35  Score=18.92  Aligned_cols=25  Identities=32%  Similarity=0.485  Sum_probs=20.5  Template_Neff=12.800
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++..|+.+|....||++.
+T Consensus        25 ~~~~~~~~~~~dl~~l~~~~~l~~~   49 (224)
+T 5AEK_S           25 SSAFKLRITRGDIQTLKNYHWLNDE   49 (224)
+T ss_dssp             EEETTEEEEHHHHGGGSTTCCEEHH
+T ss_pred             eeecceeecHHHHHhhhcCCccCHH
+Confidence            4456677999999999999999874
+
+
+No 13
+>6NNQ_A Sentrin-specific protease 1 (E.C.3.4.22.-), Small; SUMOylation, SUMO2, SENP1, HYDROLASE-PROTEIN BINDING; 2.621A {Homo sapiens}
+Probab=44.20  E-value=34  Score=18.78  Aligned_cols=25  Identities=40%  Similarity=0.550  Sum_probs=20.1  Template_Neff=13.000
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++.+|+-+|....||++.
+T Consensus        26 ~~~~~~~~~~~dl~~l~~~~~l~~~   50 (224)
+T 6NNQ_A           26 SEAFRLTITRKDIQTLNHLNWLNDE   50 (224)
+T ss_dssp             EEETTEEEEHHHHGGGSTTCCEEHH
+T ss_pred             ecccCeEEeHHHHHhhccCCccCHH
+Confidence            3455667999999999999998864
+
+
+No 14
+>2IO1_C SUMO, Ubiquitin, Senp, Ulp, complex; 2.6A {Homo sapiens} SCOP: d.3.1.7
+Probab=39.58  E-value=39  Score=18.99  Aligned_cols=25  Identities=32%  Similarity=0.485  Sum_probs=20.6  Template_Neff=12.700
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++.+|+.+|....||++.
+T Consensus        33 ~~~~~~~~~~~dl~~l~~~~~l~~~   57 (232)
+T 2IO1_C           33 SSAFKLRITRGDIQTLKNYHWLNDE   57 (232)
+T ss_dssp             EEETTEEEEHHHHGGGSTTCCCBHH
+T ss_pred             eeeeeeEecHHHHhhccCCCccCHH
+Confidence            4466778999999999988998874
+
+
+No 15
+>3ZO5_A SENTRIN-SPECIFIC PROTEASE 2 (E.C.3.4.22.68), SMALL; HYDROLASE-SIGNALING PROTEIN COMPLEX; 2.15A {HOMO SAPIENS}
+Probab=35.28  E-value=41  Score=18.88  Aligned_cols=21  Identities=38%  Similarity=0.604  Sum_probs=18.2  Template_Neff=12.800
+
+Q ss_pred             cceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   22 RHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        22 rhvltmddlgtlygqnwlndq   42 (63)
+                      ...++.+|+-+|....||++.
+T Consensus        43 ~~~l~~~dl~~l~~~~~l~~~   63 (238)
+T 3ZO5_A           43 GLRITRGDIQTLKNYHWLNDE   63 (238)
+T ss_dssp             CEEEEHHHHGGGSTTCCCCHH
+T ss_pred             CccccHHHHhhccCCCccCHH
+Confidence            567899999999999999874
+
+
+No 16
+>5JP1_A Outer protein D, Small ubiquitin-related; Enzyme, CE clan, Deubiquitinase, DeSUMOylase; HET: MLI; 2.1A {Xanthomonas campestris pv. vesicatoria (strain 85-10)}
+Probab=34.68  E-value=15  Score=20.69  Aligned_cols=23  Identities=17%  Similarity=0.271  Sum_probs=17.8  Template_Neff=12.400
+
+Q ss_pred             eccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   20 YKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        20 ykrhvltmddlgtlygqnwlndq   42 (63)
+                      ...+.++.+|+-+|....||++.
+T Consensus        25 ~~~~~i~~~dl~~l~~~~wl~~~   47 (220)
+T 5JP1_A           25 PSPQDVADPELPPVRATSWLLDG   47 (220)
+T ss_dssp             CCTTSCCCCCCCCCCSSCCCBHH
+T ss_pred             CCCccCCCCCCCccCCCCCcchH
+Confidence            34456888899999988999874
+
+
+No 17
+>5JP3_A Outer protein D, Polyubiquitin-B; Enzyme, CE clan, Deubiquitinase, DeSUMOylase; HET: AYE; 2.9A {Xanthomonas campestris pv. vesicatoria (strain 85-10)}
+Probab=34.68  E-value=15  Score=20.69  Aligned_cols=23  Identities=17%  Similarity=0.271  Sum_probs=18.0  Template_Neff=12.400
+
+Q ss_pred             eccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   20 YKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        20 ykrhvltmddlgtlygqnwlndq   42 (63)
+                      ...+.++.+|+-+|....||++.
+T Consensus        25 ~~~~~i~~~dl~~l~~~~wl~~~   47 (220)
+T 5JP3_A           25 PSPQDVADPELPPVRATSWLLDG   47 (220)
+T ss_dssp             CCGGGSCCTTCCCCCSSCCCBHH
+T ss_pred             CCCccCCCCCCCccCCCCCcchH
+Confidence            34456888899999999999874
+
+
+No 18
+>2XPH_B SENTRIN-SPECIFIC PROTEASE 1 (E.C.3.4.22.-); HYDROLASE, CYSTEINE PROTEASE, THIOL PROTEASE; HET: GOL; 2.4A {HOMO SAPIENS}
+Probab=31.68  E-value=70  Score=18.06  Aligned_cols=25  Identities=40%  Similarity=0.550  Sum_probs=20.1  Template_Neff=12.700
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++..|+-+|....||++.
+T Consensus        39 ~~~~~~~l~~~dl~~l~~~~~l~~~   63 (238)
+T 2XPH_B           39 SEAFRLTITRKDIQTLNHLNWLNDE   63 (238)
+T ss_dssp             EEETTEEEEHHHHGGGSTTCCCCHH
+T ss_pred             eeccCeEEeHHHHHhcCCCCCCCHH
+Confidence            3455667899999999999998874
+
+
+No 19
+>2YMA_A PROTEIN OS-9 HOMOLOG; CARBOHYDRATE BINDING PROTEIN, QUALITY CONTROL; 2.545A {SACCHAROMYCES CEREVISIAE}
+Probab=30.59  E-value=64  Score=23.31  Aligned_cols=27  Identities=22%  Similarity=0.454  Sum_probs=20.1  Template_Neff=5.100
+
+Q ss_pred             HhhhhccchhcCCCCCCCCCCCCcccC
+Q tr|A0A087WZ63|   30 LGTLYGQNWLNDQLPPIFSPGDEHVWR   56 (63)
+Q Consensus        30 lgtlygqnwlndqlppifspgdehvwr   56 (63)
+                      +..+-.|..|..-=-..|.|||+..|.
+T Consensus        62 ~~~ml~~~LL~~Pdg~p~~~GD~F~W~   88 (161)
+T 2YMA_A           62 INKMLSLRLVSLPNGHILQPGDSCVWL   88 (161)
+T ss_dssp             HHHHHHTTCCBCTTSCBCCTTCEEEEE
+T ss_pred             HHHHHhcCCccCCCCCCCCCCCEEEEE
+Confidence            345566777766666789999999996
+
+
+No 20
+>2IYC_B SENTRIN-SPECIFIC PROTEASE 1 (E.C.3.4.22.-); PROTEASE, HYDROLASE, THIOL PROTEASE, NUCLEAR; 2.45A {HOMO SAPIENS}
+Probab=30.19  E-value=64  Score=17.84  Aligned_cols=25  Identities=40%  Similarity=0.550  Sum_probs=19.7  Template_Neff=12.900
+
+Q ss_pred             eeeccceeehHHHhhhhccchhcCC
+Q tr|A0A087WZ63|   18 VAYKRHVLTMDDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        18 vaykrhvltmddlgtlygqnwlndq   42 (63)
+                      +......++.+|+.+|....||++.
+T Consensus        27 ~~~~~~~~~~~dl~~l~~~~~l~~~   51 (226)
+T 2IYC_B           27 SEAFRLTITRKDIQTLNHLNWLNDE   51 (226)
+T ss_dssp             EEETTEEEEHHHHHTTSTTCCCCHH
+T ss_pred             ecccceEecHHHHHccccCCCCCHH
+Confidence            3455567899999999999998874
+
+
+No 21
+>5CUO_A Phosphate propanoyltransferase (E.C.2.3.1.222); Enzyme, TRANSFERASE; HET: COA; 1.544A {Rhodopseudomonas palustris (strain BisB18)}
+Probab=28.51  E-value=97  Score=23.38  Aligned_cols=30  Identities=30%  Similarity=0.541  Sum_probs=19.3  Template_Neff=4.800
+
+Q ss_pred             ccce-eehHHHhhhhccchhcCCCCCCCCCC
+Q tr|A0A087WZ63|   21 KRHV-LTMDDLGTLYGQNWLNDQLPPIFSPG   50 (63)
+Q Consensus        21 krhv-ltmddlgtlygqnwlndqlppifspg   50 (63)
+                      .||+ |+-+|+-.|||.+.--..+-++-.||
+T Consensus        14 ~RHvHLs~ed~~~LFG~g~~Lt~~k~LsQpG   44 (202)
+T 5CUO_A           14 NRHIHLSRTDMDTLFGPGAELQRKKAMKQPG   44 (202)
+T ss_dssp             CSEEECBHHHHHHHHCTTCCCCEEEECSSTT
+T ss_pred             CCeEecCHHHHHHHcCCCCCCcccccCCCCC
+Confidence            4665 89999999999764333333333444
+
+
+No 22
+>5CUP_B PduL (E.C.2.3.1.8); Enzyme, TRANSFERASE; HET: PO4; 2.1A {Rhodopseudomonas palustris (strain BisB18)}
+Probab=28.51  E-value=97  Score=23.38  Aligned_cols=30  Identities=30%  Similarity=0.541  Sum_probs=19.3  Template_Neff=4.800
+
+Q ss_pred             ccce-eehHHHhhhhccchhcCCCCCCCCCC
+Q tr|A0A087WZ63|   21 KRHV-LTMDDLGTLYGQNWLNDQLPPIFSPG   50 (63)
+Q Consensus        21 krhv-ltmddlgtlygqnwlndqlppifspg   50 (63)
+                      .||+ |+-+|+-.|||.+.--..+-++-.||
+T Consensus        14 ~RHvHLs~ed~~~LFG~g~~Lt~~k~LsQpG   44 (202)
+T 5CUP_B           14 NRHIHLSRTDMDTLFGPGAELQRKKAMKQPG   44 (202)
+T ss_dssp             CSEEECCHHHHHHHHCTTCCCCEEEECSSTT
+T ss_pred             CCeEecCHHHHHHHcCCCCCCcccccCCCCC
+Confidence            4665 89999999999764333333333444
+
+
+No 23
+>3MN3_A Carbon catabolite-derepressing protein kinase (E.C.2.7.11.1); SNF1, kinase domain, autoinhibitory region; 2.38A {Saccharomyces cerevisiae}
+Probab=26.69  E-value=1.2e+02  Score=16.99  Aligned_cols=20  Identities=25%  Similarity=0.677  Sum_probs=15.7  Template_Neff=13.300
+
+Q ss_pred             hhhccchhcCCCCCCCCCCC
+Q tr|A0A087WZ63|   32 TLYGQNWLNDQLPPIFSPGD   51 (63)
+Q Consensus        32 tlygqnwlndqlppifspgd   51 (63)
+                      .+....|+...+|.++.|-|
+T Consensus       250 ~~l~~~~~~~~~~~~~~~~~  269 (271)
+T 3MN3_A          250 EIMQDDWFKVDLPEYLLPPD  269 (271)
+T ss_dssp             HHTTCTTTTTTCCGGGSCTT
+T ss_pred             HHhcChhHccCCccccCCCC
+Confidence            34567789999999998876
+
+
+No 24
+>1Y2Y_A Box H/ACA snoRNA, snoRNP, pseudouridine; NMR {Saccharomyces cerevisiae} SCOP: g.41.16.1
+Probab=21.57  E-value=1e+02  Score=17.76  Aligned_cols=15  Identities=33%  Similarity=0.488  Sum_probs=11.5  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCccc
+Q tr|A0A087WZ63|   41 DQLPPIFSPGDEHVW   55 (63)
+Q Consensus        41 dqlppifspgdehvw   55 (63)
+                      ..-|+-|||.|....
+T Consensus        29 ~~hP~kfSp~Dk~~~   43 (58)
+T 1Y2Y_A           29 SAHPARFSPDDKYSR   43 (58)
+T ss_dssp             SSCSSSSCSCTTCSC
+T ss_pred             eCCCCccCCCcchHH
+Confidence            357999999997543
+
+
+No 25
+>3U28_B H/ACA ribonucleoprotein complex subunit 4; pseudouridine synthase, pseudouridylation, H/ACA RNA; 1.9A {Saccharomyces cerevisiae}
+Probab=21.57  E-value=1e+02  Score=17.76  Aligned_cols=13  Identities=38%  Similarity=0.629  Sum_probs=10.4  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCc
+Q tr|A0A087WZ63|   41 DQLPPIFSPGDEH   53 (63)
+Q Consensus        41 dqlppifspgdeh   53 (63)
+                      ..-|+-|||.|..
+T Consensus        29 ~~hP~kfSp~Dk~   41 (58)
+T 3U28_B           29 SAHPARFSPDDKY   41 (58)
+T ss_dssp             ESSCCCCCTTCCC
+T ss_pred             eCCCCccCCCcch
+Confidence            3479999999864
+
+
+No 26
+>3AQV_A 5'-AMP-activated protein kinase catalytic subunit; Structural Genomics, RIKEN Structural Genomics/Proteomics; HET: TAK; 2.08A {Homo sapiens}
+Probab=20.60  E-value=1.7e+02  Score=16.48  Aligned_cols=18  Identities=22%  Similarity=0.726  Sum_probs=13.5  Template_Neff=13.300
+
+Q ss_pred             hhhccchhcCCCCCCCCC
+Q tr|A0A087WZ63|   32 TLYGQNWLNDQLPPIFSP   49 (63)
+Q Consensus        32 tlygqnwlndqlppifsp   49 (63)
+                      .+.-..|+.+.+|+.|.|
+T Consensus       258 ~~~~~~~~~~~~~~~~~~  275 (276)
+T 3AQV_A          258 DIREHEWFKQDLPSYLFP  275 (276)
+T ss_dssp             HHHHCHHHHTTCCGGGSC
+T ss_pred             HHHhChhHhccCccccCC
+Confidence            344567888888888877
+
+
+No 27
+>2AUS_D Probable tRNA pseudouridine synthase B; ISOMERASE, STRUCTURAL PROTEIN, ISOMERASE-STRUCTURAL PROTEIN; HET: PO4; 2.1A {Pyrococcus abyssi}
+Probab=20.15  E-value=1.5e+02  Score=17.78  Aligned_cols=30  Identities=27%  Similarity=0.362  Sum_probs=17.0  Template_Neff=5.900
+
+Q ss_pred             ceeehHHHhhhhccchhcCCCCCCCCCCCCc
+Q tr|A0A087WZ63|   23 HVLTMDDLGTLYGQNWLNDQLPPIFSPGDEH   53 (63)
+Q Consensus        23 hvltmddlgtlygqnwlndqlppifspgdeh   53 (63)
+                      ...|+.+.-..-|.... ...|+-|||.|..
+T Consensus        12 g~YTl~~~Cp~CG~~t~-~~~P~kfSp~Dky   41 (60)
+T 2AUS_D           12 GRYTLKETCPVCGEKTK-VAHPPRFSPEDPY   41 (60)
+T ss_dssp             CCEESSSBCTTTCCBCE-ESSCCCCCSSCTT
+T ss_pred             CCEecCccCCCCCCccc-ccCCCCCCCCCcc
+Confidence            34444443333344433 4559999998864
+
+
+No 28
+>6UPS_A ULP_PROTEASE domain-containing protein (E.C.3.4.22.-); deubiquitylase, Orientia, CE clan, HYDROLASE; HET: MSE; 2.0A {Orientia tsutsugamushi (strain Ikeda)}
+Probab=20.06  E-value=54  Score=21.21  Aligned_cols=15  Identities=7%  Similarity=0.063  Sum_probs=9.9  Template_Neff=10.200
+
+Q ss_pred             HHHhhhhccchhcCC
+Q tr|A0A087WZ63|   28 DDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        28 ddlgtlygqnwlndq   42 (63)
+                      ||+.+|-...||+|.
+T Consensus         4 ~dl~~l~~~~wL~d~   18 (260)
+T 6UPS_A            4 NDQDLSNPEYLYTED   18 (260)
+T ss_dssp             ---CTTSTTCCCCHH
+T ss_pred             ccccccCCCcCCCHH
+Confidence            678888888888875
+
+
+No 29
+>6UPU_A ULP_PROTEASE domain-containing protein (E.C.3.4.22-), Ubiquitin; deubiquitylase, Orientia, CE clan, ubiquitin; 2.2A {Orientia tsutsugamushi (strain Ikeda)}
+Probab=20.06  E-value=54  Score=21.21  Aligned_cols=15  Identities=7%  Similarity=0.063  Sum_probs=12.0  Template_Neff=10.200
+
+Q ss_pred             HHHhhhhccchhcCC
+Q tr|A0A087WZ63|   28 DDLGTLYGQNWLNDQ   42 (63)
+Q Consensus        28 ddlgtlygqnwlndq   42 (63)
+                      ||+.+|-...||+|.
+T Consensus         4 ~dl~~l~~~~wL~d~   18 (260)
+T 6UPU_A            4 NDQDLSNPEYLYTED   18 (260)
+T ss_dssp             GGGCTTSTTCCEEHH
+T ss_pred             ccccccCCCcCCCHH
+Confidence            678888888888875
+
+

@@ -1,0 +1,160 @@
+Query         tr|H0Y7K4|H0Y7K4_HUMAN
+Match_columns 185
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:54:41 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0858.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OSG_h Activated protein kinas  74.8      43 0.00047   23.8   6.6   10   94-103    52-61  (235)
+  2 4AR0_A TYPE IV PILUS BIOGENESI  40.7      76 0.00083   18.5   2.6   24    8-31      2-25  (128)
+  3 7OCE_J Glutamate receptor 1, G  33.5 1.4E+02  0.0015   27.2   4.2   35   24-58    360-395 (422)
+  4 4GXL_A Galectin-8, Peptide fro  28.8      63 0.00069   22.1   1.1   39    8-46      5-43  (153)
+  5 6LXD_B Ribonuclease 3, Micropr  23.1 1.6E+02  0.0017   30.3   3.0   27   44-70     21-47  (773)
+  6 6LXE_B Ribonuclease 3 (E.C.3.1  23.1 1.6E+02  0.0017   30.3   3.0   27   44-70     21-47  (773)
+  7 6ZON_F 40S ribosomal protein S  18.0 5.8E+02  0.0063   22.2   4.9   47   51-97      4-50  (357)
+  8 6ZP4_F 40S ribosomal protein S  18.0 5.8E+02  0.0063   22.2   4.9   47   51-97      4-50  (357)
+  9 7JRJ_K Radial spoke protein 10  17.5 9.1E+02  0.0099   22.8   6.2   51   47-97    263-318 (586)
+ 10 7JTK_i Radial spoke 1; cilia,   17.5 9.1E+02  0.0099   22.8   6.2   51   47-97    263-318 (586)
+
+No 1
+>5OSG_h Activated protein kinase C receptor; Kinetoplastids, ribosome, cryo-EM, KSRP; 2.9A {Leishmania donovani}
+Probab=74.79  E-value=43  Score=23.79  Aligned_cols=10  Identities=0%  Similarity=0.112  Sum_probs=4.0  Template_Neff=11.500
+
+Q ss_pred             CCCeEEEEEc
+Q tr|H0Y7K4|H0Y7   94 SHPRVIRISH  103 (185)
+Q Consensus        94 shprvirish  103 (185)
+                      .-.+.|.|++
+T Consensus        52 ~~~~~l~v~~   61 (235)
+T 5OSG_h           52 GSSNGVYVKN   61 (235)
+T ss_dssp             ---CCEEEEC
+T ss_pred             CCCcEEEEEe
+Confidence            3345566654
+
+
+No 2
+>4AR0_A TYPE IV PILUS BIOGENESIS AND; TRANSPORT, SECRETIN TYPE II SECRETION; NMR {NEISSERIA MENINGITIDIS}
+Probab=40.72  E-value=76  Score=18.53  Aligned_cols=24  Identities=29%  Similarity=0.357  Sum_probs=15.8  Template_Neff=13.100
+
+Q ss_pred             CceeecCCCCCCCCCcccccCCCC
+Q tr|H0Y7K4|H0Y7    8 RHLHVVRPMSHYTTPMVLQQAAIP   31 (185)
+Q Consensus         8 rhlhvvrpmshyttpmvlqqaaip   31 (185)
+                      .|-|--.|||.|+++-+-..++..
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~   25 (128)
+T 4AR0_A            2 KHHHHHHPMSDYDIPTTENLYFEG   25 (128)
+T ss_dssp             CSSCSSSCSCSTTCCCCCCSCCSS
+T ss_pred             CCCCCCCCccccCCCCCCCccccc
+Confidence            356667899999887654444333
+
+
+No 3
+>7OCE_J Glutamate receptor 1, Glutamate receptor; AMPAR, ion channels, neurotransmission, MEMBRANE; HET: PC1, E2Q, CLR; 3.1A {Rattus norvegicus}
+Probab=33.46  E-value=1.4e+02  Score=27.15  Aligned_cols=35  Identities=40%  Similarity=0.611  Sum_probs=1.7  Template_Neff=7.600
+
+Q ss_pred             ccc-cCCCCeEEeCCCeEEecCCCCCCCCCCCCCCC
+Q tr|H0Y7K4|H0Y7   24 VLQ-QAAIPIQINVGTTVTMTGNGTRPPPTPNAEAP   58 (185)
+Q Consensus        24 vlq-qaaipiqinvgttvtmtgngtrppptpnaeap   58 (185)
+                      .|| ...++-..+-|-+|+|++..|.|-|.+.+.+.
+T Consensus       360 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  395 (422)
+T 7OCE_J          360 FLTLHNAFPKEAASGVTVTVTGPPAAPAPAPPAPAA  395 (422)
+T ss_dssp             HHHH-------------------------------H
+T ss_pred             ceeeeeccCccccCCceEEecCCCCCCCCCCCCCCC
+Confidence            344 45566677788899999998888877765543
+
+
+No 4
+>4GXL_A Galectin-8, Peptide from Calcium-binding and; protein-protein interaction, carbohydrate recognition, NDP52; HET: GOL; 2.023A {Homo sapiens}
+Probab=28.82  E-value=63  Score=22.08  Aligned_cols=39  Identities=18%  Similarity=0.155  Sum_probs=28.8  Template_Neff=10.800
+
+Q ss_pred             CceeecCCCCCCCCCcccccCCCCeEEeCCCeEEecCCC
+Q tr|H0Y7K4|H0Y7    8 RHLHVVRPMSHYTTPMVLQQAAIPIQINVGTTVTMTGNG   46 (185)
+Q Consensus         8 rhlhvvrpmshyttpmvlqqaaipiqinvgttvtmtgng   46 (185)
+                      .|.|-.+.+.++..+.+-....++-.+..|+.+.+.|.-
+T Consensus         5 ~~~~~~~~~~~~~~~~~p~~~~~~~~l~~g~~i~i~g~~   43 (153)
+T 4GXL_A            5 HHHHHHSSGENLYFQHMPFAARLNTPMGPGRTVVVKGEV   43 (153)
+T ss_dssp             ------CTTCCCTTCCSSEEEECSSCCCTTCEEEEEEEE
+T ss_pred             cccccCCCCccccCCCCCEEEECCCCCCCCCEEEEEEEE
+Confidence            466778888899888888888888899999999999863
+
+
+No 5
+>6LXD_B Ribonuclease 3, Microprocessor complex subunit; Ribonuclease, RNA BINDING PROTEIN, HYDROLASE-RNA; 3.9A {Homo sapiens}
+Probab=23.14  E-value=1.6e+02  Score=30.30  Aligned_cols=27  Identities=37%  Similarity=0.393  Sum_probs=22.1  Template_Neff=5.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y7K4|H0Y7   44 GNGTRPPPTPNAEAPPPGPGQASSVAP   70 (185)
+Q Consensus        44 gngtrppptpnaeapppgpgqassvap   70 (185)
+                      .++..|||-|..++|||.|-|.||-|-
+T Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   47 (773)
+T 6LXD_B           21 ESRARPFQALPREQSPPPPLQTSSGAE   47 (773)
+T ss_pred             ccCCCCCCCCCCcCCCCCCCCCCCCce
+Confidence            456678888888999999999998764
+
+
+No 6
+>6LXE_B Ribonuclease 3 (E.C.3.1.26.3), Microprocessor complex; Ribonuclease, RNA BINDING PROTEIN, HYDROLASE-RNA;{Homo sapiens}
+Probab=23.14  E-value=1.6e+02  Score=30.30  Aligned_cols=27  Identities=37%  Similarity=0.393  Sum_probs=22.1  Template_Neff=5.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y7K4|H0Y7   44 GNGTRPPPTPNAEAPPPGPGQASSVAP   70 (185)
+Q Consensus        44 gngtrppptpnaeapppgpgqassvap   70 (185)
+                      .++..|||-|..++|||.|-|.||-|-
+T Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   47 (773)
+T 6LXE_B           21 ESRARPFQALPREQSPPPPLQTSSGAE   47 (773)
+T ss_pred             ccCCCCCCCCCCcCCCCCCCCCCCCce
+Confidence            456678888888999999999998764
+
+
+No 7
+>6ZON_F 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; 3.0A {Homo sapiens}
+Probab=18.00  E-value=5.8e+02  Score=22.23  Aligned_cols=47  Identities=32%  Similarity=0.546  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCe
+Q tr|H0Y7K4|H0Y7   51 PTPNAEAPPPGPGQASSVAPSSTNVESSAEGAPPPGPAPPPATSHPR   97 (185)
+Q Consensus        51 ptpnaeapppgpgqassvapsstnvessaegapppgpapppatshpr   97 (185)
+                      +.-...+|.+.++.+....+.+--....+++..|+.+.+|++.+.|+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~p~   50 (357)
+T 6ZON_F            4 PAVPVSAPPATPTPVPAAAPASVPAPTPAPAAAPVPAAAPASSSDPA   50 (357)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHH
+
+
+No 8
+>6ZP4_F 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: GTP; 2.9A {Homo sapiens}
+Probab=18.00  E-value=5.8e+02  Score=22.23  Aligned_cols=47  Identities=32%  Similarity=0.546  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCe
+Q tr|H0Y7K4|H0Y7   51 PTPNAEAPPPGPGQASSVAPSSTNVESSAEGAPPPGPAPPPATSHPR   97 (185)
+Q Consensus        51 ptpnaeapppgpgqassvapsstnvessaegapppgpapppatshpr   97 (185)
+                      +.-...+|.+.++.+....+.+--....+++..|+.+.+|++.+.|+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~p~   50 (357)
+T 6ZP4_F            4 PAVPVSAPPATPTPVPAAAPASVPAPTPAPAAAPVPAAAPASSSDPA   50 (357)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHH
+
+
+No 9
+>7JRJ_K Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=17.51  E-value=9.1e+02  Score=22.76  Aligned_cols=51  Identities=22%  Similarity=0.376  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC-----CCCCCCCCCCCCCCCCCCCCCCCCe
+Q tr|H0Y7K4|H0Y7   47 TRPPPTPNAEAPPPGPGQASSVAPSS-----TNVESSAEGAPPPGPAPPPATSHPR   97 (185)
+Q Consensus        47 trppptpnaeapppgpgqassvapss-----tnvessaegapppgpapppatshpr   97 (185)
+                      +.|++.|...+++|.|..+....+++     +.-+....-+.++...+++...-++
+T Consensus       263 ~~~~~~~~~~~~~~~~~~~~~~p~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~  318 (586)
+T 7JRJ_K          263 VYPDSKPTTPVVPAPPAPGSKPPSASGARPQSARPTSARPPSASAAPPAPLAPVPP  318 (586)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+No 10
+>7JTK_i Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=17.51  E-value=9.1e+02  Score=22.76  Aligned_cols=51  Identities=22%  Similarity=0.376  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC-----CCCCCCCCCCCCCCCCCCCCCCCCe
+Q tr|H0Y7K4|H0Y7   47 TRPPPTPNAEAPPPGPGQASSVAPSS-----TNVESSAEGAPPPGPAPPPATSHPR   97 (185)
+Q Consensus        47 trppptpnaeapppgpgqassvapss-----tnvessaegapppgpapppatshpr   97 (185)
+                      +.|++.|...+++|.|..+....+++     +.-+....-+.++...+++...-++
+T Consensus       263 ~~~~~~~~~~~~~~~~~~~~~~p~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~~~  318 (586)
+T 7JTK_i          263 VYPDSKPTTPVVPAPPAPGSKPPSASGARPQSARPTSARPPSASAAPPAPLAPVPP  318 (586)
+T ss_pred             cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+

@@ -1,0 +1,202 @@
+Query         tr|C9JNY7|C9JNY7_HUMAN
+Match_columns 194
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:29:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0125.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XE2_A Endoribonuclease MazF4   40.5      98  0.0011   20.3   3.3   25   32-56     83-107 (107)
+  2 5XE3_A Endoribonuclease MazF4   40.5      98  0.0011   20.3   3.3   25   32-56     83-107 (107)
+  3 5O8Z_A Transcriptional regulat  26.0 2.4E+02  0.0027   17.7   3.2   21   35-55    177-197 (216)
+  4 5F4Z_D Epoxide hydrolase; epox  24.6 3.3E+02  0.0036   22.3   4.5   34   22-55    134-168 (393)
+  5 5F4Z_E Epoxide hydrolase; epox  24.6 3.3E+02  0.0036   22.3   4.5   34   22-55    134-168 (393)
+  6 3CQB_A Probable protease htpX   23.3 3.2E+02  0.0035   17.5   3.5   26   35-60     23-48  (107)
+  7 3CQB_B Probable protease htpX   23.3 3.2E+02  0.0035   17.5   3.5   26   35-60     23-48  (107)
+  8 5UCT_B Endoribonuclease MazF3   23.3 2.3E+02  0.0025   18.7   2.9   24   33-56     78-101 (103)
+  9 6EO2_A Transcriptional regulat  22.6 3.2E+02  0.0035   16.9   3.2   27   46-72    170-196 (210)
+ 10 4GOX_A Polyketide synthase; ol  22.6 2.3E+02  0.0025   19.8   2.8   24   35-58    282-305 (313)
+ 11 1S8N_A hypothetical protein Rv  21.9 1.6E+02  0.0018   17.8   1.9   24   47-70    177-200 (205)
+ 12 1SD5_A response regulator; rv1  21.9 1.6E+02  0.0018   17.8   1.9   24   47-70    177-200 (205)
+
+No 1
+>5XE2_A Endoribonuclease MazF4 (E.C.3.1.-.-); endonuclease, HYDROLASE; 2.01A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=40.45  E-value=98  Score=20.27  Aligned_cols=25  Identities=20%  Similarity=0.420  Sum_probs=21.9  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHHHCCCCC
+Q tr|C9JNY7|C9JN   32 PDRVSEADIQRLLHGVMEQLGIARP   56 (194)
+Q Consensus        32 pdrvseadiqrllhgvmeqlgiarp   56 (194)
+                      -.+++++++.++...+..-+|+..|
+T Consensus        83 ig~l~~~~~~~i~~~l~~~~~~~~~  107 (107)
+T 5XE2_A           83 LGEVTPATMNKINTALATALGLPWP  107 (107)
+T ss_dssp             EEECCHHHHHHHHHHHHHHTTCCCC
+T ss_pred             cccCCHHHHHHHHHHHHHHhCCCCC
+Confidence            4578999999999999999998765
+
+
+No 2
+>5XE3_A Endoribonuclease MazF4 (E.C.3.1.-.-), Probable antitoxin; endonuclease, HYDROLASE-ANTITOXIN complex; 2.3A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=40.45  E-value=98  Score=20.27  Aligned_cols=25  Identities=20%  Similarity=0.420  Sum_probs=21.9  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHHHCCCCC
+Q tr|C9JNY7|C9JN   32 PDRVSEADIQRLLHGVMEQLGIARP   56 (194)
+Q Consensus        32 pdrvseadiqrllhgvmeqlgiarp   56 (194)
+                      -.+++++++.++...+..-+|+..|
+T Consensus        83 ig~l~~~~~~~i~~~l~~~~~~~~~  107 (107)
+T 5XE3_A           83 LGEVTPATMNKINTALATALGLPWP  107 (107)
+T ss_dssp             EEECCHHHHHHHHHHHHHHTTCCCC
+T ss_pred             cccCCHHHHHHHHHHHHHHhCCCCC
+Confidence            4578999999999999999998765
+
+
+No 3
+>5O8Z_A Transcriptional regulatory protein RcsB; Response regulator Transcriptional factor, TRANSCRIPTION; 2.1A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=25.98  E-value=2.4e+02  Score=17.67  Aligned_cols=21  Identities=24%  Similarity=0.260  Sum_probs=12.7  Template_Neff=13.800
+
+Q ss_pred             CCHHHHHHHHHHHHHHHCCCC
+Q tr|C9JNY7|C9JN   35 VSEADIQRLLHGVMEQLGIAR   55 (194)
+Q Consensus        35 vseadiqrllhgvmeqlgiar   55 (194)
+                      +|+..+.+.++.+|..||+..
+T Consensus       177 ~s~~~v~~~~~~~~~kl~~~~  197 (216)
+T 5O8Z_A          177 RSIKTISSQKKSAMMKLGVEN  197 (216)
+T ss_dssp             CCHHHHHHHHHHHHHHHTCCS
+T ss_pred             CCHHHHHHHHHHHHHHhCCCC
+Confidence            455666666666666666543
+
+
+No 4
+>5F4Z_D Epoxide hydrolase; epoxide hydrolase, Structural Genomics, PSI-Biology; HET: PG4, GOL, 5V4, MSE; 1.82A {Streptomyces carzinostaticus subsp. neocarzinostaticus}
+Probab=24.65  E-value=3.3e+02  Score=22.35  Aligned_cols=34  Identities=26%  Similarity=0.451  Sum_probs=25.5  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCCC-CCCCHHHHHHHHHHHHHHHCCCC
+Q tr|C9JNY7|C9JN   22 TPAFAYSPRTP-DRVSEADIQRLLHGVMEQLGIAR   55 (194)
+Q Consensus        22 tpafaysprtp-drvseadiqrllhgvmeqlgiar   55 (194)
+                      .|.|..|...+ ...+-.++.+.++.+|..||+.+
+T Consensus       134 ~~G~g~s~~~~~~~~~~~~~~~~~~~l~~~l~~~~  168 (393)
+T 5F4Z_D          134 LPGFGFSGPTPEPGWNLPRVASAWAELMRRLGYSR  168 (393)
+T ss_dssp             CTTSTTTCCCSSSCCCHHHHHHHHHHHHHHHTCSS
+T ss_pred             CCCCCCCCCCCCCCCCHHHHHHHHHHHHHHhCCCe
+Confidence            35566665332 34689999999999999999854
+
+
+No 5
+>5F4Z_E Epoxide hydrolase; epoxide hydrolase, Structural Genomics, PSI-Biology; HET: PG4, GOL, 5V4, MSE; 1.82A {Streptomyces carzinostaticus subsp. neocarzinostaticus}
+Probab=24.65  E-value=3.3e+02  Score=22.35  Aligned_cols=34  Identities=26%  Similarity=0.451  Sum_probs=25.5  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCCC-CCCCHHHHHHHHHHHHHHHCCCC
+Q tr|C9JNY7|C9JN   22 TPAFAYSPRTP-DRVSEADIQRLLHGVMEQLGIAR   55 (194)
+Q Consensus        22 tpafaysprtp-drvseadiqrllhgvmeqlgiar   55 (194)
+                      .|.|..|...+ ...+-.++.+.++.+|..||+.+
+T Consensus       134 ~~G~g~s~~~~~~~~~~~~~~~~~~~l~~~l~~~~  168 (393)
+T 5F4Z_E          134 LPGFGFSGPTPEPGWNLPRVASAWAELMRRLGYSR  168 (393)
+T ss_dssp             CTTSTTTCCCSSSCCCHHHHHHHHHHHHHHHTCSS
+T ss_pred             CCCCCCCCCCCCCCCCHHHHHHHHHHHHHHhCCCe
+Confidence            35566665332 34689999999999999999854
+
+
+No 6
+>3CQB_A Probable protease htpX homolog (E.C.3.4.24.-); Heat shock protein HtpX domain; HET: EDO, MSE; 1.86A {Vibrio parahaemolyticus RIMD 2210633}
+Probab=23.30  E-value=3.2e+02  Score=17.46  Aligned_cols=26  Identities=23%  Similarity=0.225  Sum_probs=20.9  Template_Neff=11.000
+
+Q ss_pred             CCHHHHHHHHHHHHHHHCCCCCcccC
+Q tr|C9JNY7|C9JN   35 VSEADIQRLLHGVMEQLGIARPRVEY   60 (194)
+Q Consensus        35 vseadiqrllhgvmeqlgiarprvey   60 (194)
+                      ..+..+.+++..+.++.|+.+|++..
+T Consensus        23 ~~~~~l~~~~~~~~~~~~~~~~~i~~   48 (107)
+T 3CQB_A           23 ETEHWLLETVGRQAQQAGIGMPTVAI   48 (107)
+T ss_dssp             HHHHHHHHHHHHHHHHHTCCCCEEEE
+T ss_pred             hhhHHHHHHHHHHHHHhCCCCCCEEE
+Confidence            34677999999999999999885543
+
+
+No 7
+>3CQB_B Probable protease htpX homolog (E.C.3.4.24.-); Heat shock protein HtpX domain; HET: EDO, MSE; 1.86A {Vibrio parahaemolyticus RIMD 2210633}
+Probab=23.30  E-value=3.2e+02  Score=17.46  Aligned_cols=26  Identities=23%  Similarity=0.225  Sum_probs=20.9  Template_Neff=11.000
+
+Q ss_pred             CCHHHHHHHHHHHHHHHCCCCCcccC
+Q tr|C9JNY7|C9JN   35 VSEADIQRLLHGVMEQLGIARPRVEY   60 (194)
+Q Consensus        35 vseadiqrllhgvmeqlgiarprvey   60 (194)
+                      ..+..+.+++..+.++.|+.+|++..
+T Consensus        23 ~~~~~l~~~~~~~~~~~~~~~~~i~~   48 (107)
+T 3CQB_B           23 ETEHWLLETVGRQAQQAGIGMPTVAI   48 (107)
+T ss_dssp             HHHHHHHHHHHHHHHHHTCCCCEEEE
+T ss_pred             hhhHHHHHHHHHHHHHhCCCCCCEEE
+Confidence            34678999999999999999885543
+
+
+No 8
+>5UCT_B Endoribonuclease MazF3 (E.C.3.1.-.-); toxin, Rnase, tuberculosis, HYDROLASE; HET: SO4; 2.7A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=23.26  E-value=2.3e+02  Score=18.72  Aligned_cols=24  Identities=4%  Similarity=0.026  Sum_probs=20.3  Template_Neff=10.200
+
+Q ss_pred             CCCCHHHHHHHHHHHHHHHCCCCC
+Q tr|C9JNY7|C9JN   33 DRVSEADIQRLLHGVMEQLGIARP   56 (194)
+Q Consensus        33 drvseadiqrllhgvmeqlgiarp   56 (194)
+                      .+++++++.++...+.+.+|+..+
+T Consensus        78 g~l~~~~~~~i~~~~~~~l~~~~~  101 (103)
+T 5UCT_B           78 GYLLASQEPALAEAIGNAFDLDWV  101 (103)
+T ss_dssp             EEECGGGHHHHHHHHHHHHTCCC-
+T ss_pred             ccCCHHHHHHHHHHHHHHcCCchh
+Confidence            478899999999999999998764
+
+
+No 9
+>6EO2_A Transcriptional regulatory protein RcsB; Transcriptional factor, DNA BINDING PROTEIN; 2.6A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=22.61  E-value=3.2e+02  Score=16.87  Aligned_cols=27  Identities=15%  Similarity=0.206  Sum_probs=17.8  Template_Neff=14.000
+
+Q ss_pred             HHHHHHCCCCCcccCChhhhhhccCcc
+Q tr|C9JNY7|C9JN   46 GVMEQLGIARPRVEYPAHQAMNLVGPQ   72 (194)
+Q Consensus        46 gvmeqlgiarprveypahqamnlvgpq   72 (194)
+                      .+.+.+|+..-.|+.-...++...|-.
+T Consensus       170 ~ia~~l~~s~~~v~~~~~~~~~kl~~~  196 (210)
+T 6EO2_A          170 EIAKKLNRSIKTISSQKKSAMMKLGVE  196 (210)
+T ss_dssp             HHHHHHTSCHHHHHHHHHHHHHHHTCC
+T ss_pred             HHHHHhCCCHHHHHHHHHHHHHHhCCC
+Confidence            577778877766666666666655443
+
+
+No 10
+>4GOX_A Polyketide synthase; olefin synthase, polyketide synthase, hydrocarbon; HET: A3P; 2.15A {Synechococcus sp.}
+Probab=22.57  E-value=2.3e+02  Score=19.84  Aligned_cols=24  Identities=17%  Similarity=0.079  Sum_probs=16.9  Template_Neff=13.100
+
+Q ss_pred             CCHHHHHHHHHHHHHHHCCCCCcc
+Q tr|C9JNY7|C9JN   35 VSEADIQRLLHGVMEQLGIARPRV   58 (194)
+Q Consensus        35 vseadiqrllhgvmeqlgiarprv   58 (194)
+                      .++++|+++...+|+.+|...+.-
+T Consensus       282 ~~~~~~~~~~~~~~~~~GY~~~~~  305 (313)
+T 4GOX_A          282 TLPAALQLDTIQLAETFAYDLPQE  305 (313)
+T ss_dssp             CCSSCCCHHHHHHHHHTTCCCC--
+T ss_pred             cCcHHHHHHHHHHHHHhCCCCCCC
+Confidence            344557788899999999876543
+
+
+No 11
+>1S8N_A hypothetical protein Rv1626; Rv1626, STRUCTURAL GENOMICS, TRANSCRIPTIONAL ANTITERMINATOR; 1.482A {Mycobacterium tuberculosis} SCOP: c.23.1.1
+Probab=21.93  E-value=1.6e+02  Score=17.81  Aligned_cols=24  Identities=13%  Similarity=0.130  Sum_probs=13.9  Template_Neff=14.200
+
+Q ss_pred             HHHHHCCCCCcccCChhhhhhccC
+Q tr|C9JNY7|C9JN   47 VMEQLGIARPRVEYPAHQAMNLVG   70 (194)
+Q Consensus        47 vmeqlgiarprveypahqamnlvg   70 (194)
+                      +.+.+++....|+.-....|...|
+T Consensus       177 i~~~l~~s~~tv~~~~~~i~~kl~  200 (205)
+T 1S8N_A          177 IQRAAMDRRTTMKRVAEVVLETLG  200 (205)
+T ss_dssp             HHHHHHHTTSCHHHHHHHHHHHHC
+T ss_pred             HHHHHhhccChHHHHHHHHHHHhC
+Confidence            455666666666655555555444
+
+
+No 12
+>1SD5_A response regulator; rv1626, transcriptional, antiterminator, two components; HET: IOD; 1.68A {Mycobacterium tuberculosis} SCOP: c.23.1.1
+Probab=21.93  E-value=1.6e+02  Score=17.81  Aligned_cols=24  Identities=13%  Similarity=0.130  Sum_probs=12.5  Template_Neff=14.200
+
+Q ss_pred             HHHHHCCCCCcccCChhhhhhccC
+Q tr|C9JNY7|C9JN   47 VMEQLGIARPRVEYPAHQAMNLVG   70 (194)
+Q Consensus        47 vmeqlgiarprveypahqamnlvg   70 (194)
+                      +.+.+++....|+.-....|...|
+T Consensus       177 i~~~l~~s~~tv~~~~~~i~~kl~  200 (205)
+T 1SD5_A          177 IQRAAMDRRTTMKRVAEVVLETLG  200 (205)
+T ss_dssp             HHHHHHHHTSCHHHHHHHHHHHHC
+T ss_pred             HHHHHhhccChHHHHHHHHHHHhC
+Confidence            445555555555555555554443
+
+

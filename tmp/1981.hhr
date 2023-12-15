@@ -1,0 +1,166 @@
+Query         tr|A0A8I5QJG5|A0A8I5QJG5_HUMAN
+Match_columns 78
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:55:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1981.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4FJ3_P 14-3-3 protein zeta/del  99.2 7.2E-11 7.8E-16   67.1   3.5   35    4-38      2-36  (36)
+  2 4IHL_P 14-3-3 protein zeta/del  99.2 7.2E-11 7.8E-16   67.1   3.5   35    4-38      2-36  (36)
+  3 2M3A_A Protein KNL-2; MYB-like  25.0   1E+02  0.0011   21.5   1.5   21   55-75     26-46  (67)
+  4 5MUS_B L protein; Arenavirus,   24.8      59 0.00064   27.9   0.5   37   34-72    180-217 (328)
+  5 5MUY_B L protein; arenavirus,   24.8      59 0.00064   27.9   0.5   37   34-72    180-217 (328)
+  6 4LW4_C Cysteine sulfinate desu  16.2 5.9E+02  0.0064   17.1   4.1   36   34-73      6-41  (150)
+  7 1UHM_A winged helix-turn-helix  15.8 3.1E+02  0.0034   13.7   3.0   18   45-62      5-22  (78)
+  8 3VP7_A Vacuolar protein sortin  14.0 1.6E+02  0.0017   21.5   0.6   15   61-75    192-206 (220)
+  9 6Q0J_B Serine/threonine-protei  12.1 5.3E+02  0.0057   22.5   3.1   33    7-39    366-398 (805)
+ 10 1ENW_A helix-bundle, TRANSCRIP  11.9 3.9E+02  0.0042   16.1   1.7   25   51-75     52-79  (114)
+
+No 1
+>4FJ3_P 14-3-3 protein zeta/delta, RAF proto-oncogene; 14-3-3 fold, all alpha-helical, adapter; HET: SEP; 1.95A {Homo sapiens}
+Probab=99.16  E-value=7.2e-11  Score=67.08  Aligned_cols=35  Identities=100%  Similarity=1.350  Sum_probs=33.0  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCCcc
+Q tr|A0A8I5QJG5|    4 HRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVH   38 (78)
+Q Consensus         4 hrystphaftfntsspssegslsqrqrststpnvh   38 (78)
+                      +++++|++++|.|++++++|+++||+|||||||||
+T Consensus         2 ~~~s~p~~~~~~~~~~~~~g~~~qR~RstsTPNvh   36 (36)
+T 4FJ3_P            2 HRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVH   36 (36)
+T ss_pred             CCCCCCCcccccccCCCCCCCccceecccCCCCCC
+Confidence            46789999899999999999999999999999998
+
+
+No 2
+>4IHL_P 14-3-3 protein zeta/delta, RAF proto-oncogene; 14-3-3 FOLD, RAF, ALL ALPHA-HELICAL; HET: 1F5, SEP; 2.2A {Homo sapiens}
+Probab=99.16  E-value=7.2e-11  Score=67.08  Aligned_cols=35  Identities=100%  Similarity=1.350  Sum_probs=33.0  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCCcc
+Q tr|A0A8I5QJG5|    4 HRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVH   38 (78)
+Q Consensus         4 hrystphaftfntsspssegslsqrqrststpnvh   38 (78)
+                      +++++|++++|.|++++++|+++||+|||||||||
+T Consensus         2 ~~~s~p~~~~~~~~~~~~~g~~~qR~RstsTPNvh   36 (36)
+T 4IHL_P            2 HRYSTPHAFTFNTSSPSSEGSLSQRQRSTSTPNVH   36 (36)
+T ss_pred             CCCCCCCcccccccCCCCCCCccceecccCCCCCC
+Confidence            46789999899999999999999999999999998
+
+
+No 3
+>2M3A_A Protein KNL-2; MYB-like domain, DNA BINDING PROTEIN; NMR {Caenorhabditis elegans}
+Probab=24.96  E-value=1e+02  Score=21.45  Aligned_cols=21  Identities=38%  Similarity=0.700  Sum_probs=17.5  Template_Neff=1.600
+
+Q ss_pred             HHhCCCCcccHHHHHHHHhCC
+Q tr|A0A8I5QJG5|   55 IRSHSESEASWTERFKLLLGN   75 (78)
+Q Consensus        55 irshseseaswterfklllgn   75 (78)
+                      +..-+.+++.|+|-.+||..+
+T Consensus        26 LKKPt~sdaDWtEv~RLLAKe   46 (67)
+T 2M3A_A           26 LKKPSASDADWTEVLRLLAKE   46 (67)
+T ss_dssp             HHCCCSCHHHHHHHHHHHGGG
+T ss_pred             ccCCCccccCHHHHHHHHHHc
+Confidence            567788999999999988754
+
+
+No 4
+>5MUS_B L protein; Arenavirus, polymerase, putative cap-binding, viral; HET: GOL, MSE; 2.009A {CAS virus}
+Probab=24.77  E-value=59  Score=27.92  Aligned_cols=37  Identities=22%  Similarity=0.260  Sum_probs=27.7  Template_Neff=2.500
+
+Q ss_pred             CCCcccccCCCCCChhHHHHHH-HhCCCCcccHHHHHHHH
+Q tr|A0A8I5QJG5|   34 TPNVHMVSTTLPVDSRMIEDAI-RSHSESEASWTERFKLL   72 (78)
+Q Consensus        34 tpnvhmvsttlpvdsrmiedai-rshseseaswterfkll   72 (78)
+                      -|+.=+.+.-.|+|+..++.++ -.+++  ..|.|+++|+
+T Consensus       180 kPC~LfMgsiiPld~~~~~sim~~~ms~--~E~~E~WrLl  217 (328)
+T 5MUS_B          180 QPVVLYMASLFPIGLTKIAEQGIGCHNE--KNDATLKSLL  217 (328)
+T ss_dssp             CBEEEETTEEEETTCSCCEECCCCCCSH--HHHHHHHHHH
+T ss_pred             CceEEEEEeEEeccCCCccccceecCCc--cchHHHHHHH
+Confidence            4667777778899988887776 66554  4589998886
+
+
+No 5
+>5MUY_B L protein; arenavirus, polymerase, putative cap-binding, Viral; HET: MGT; 1.99A {CAS virus}
+Probab=24.77  E-value=59  Score=27.92  Aligned_cols=37  Identities=22%  Similarity=0.260  Sum_probs=26.9  Template_Neff=2.500
+
+Q ss_pred             CCCcccccCCCCCChhHHHHHH-HhCCCCcccHHHHHHHH
+Q tr|A0A8I5QJG5|   34 TPNVHMVSTTLPVDSRMIEDAI-RSHSESEASWTERFKLL   72 (78)
+Q Consensus        34 tpnvhmvsttlpvdsrmiedai-rshseseaswterfkll   72 (78)
+                      -|+.=+.+.-.|+|+..++.++ -.+++  ..|.|+++|+
+T Consensus       180 kPC~LfMgsiiPld~~~~~sim~~~ms~--~E~~E~WrLl  217 (328)
+T 5MUY_B          180 QPVVLYMASLFPIGLTKIAEQGIGCHNE--KNDATLKSLL  217 (328)
+T ss_dssp             EEEEEETTEEEETTCSCCEECCCCCCSH--HHHHHHHHHH
+T ss_pred             CceEEEEEeEEeccCCCccccceecCCc--cchHHHHHHH
+Confidence            3566666777888888877766 55554  4589998886
+
+
+No 6
+>4LW4_C Cysteine sulfinate desulfinase (E.C.4.4.1.-), Cysteine; cysteine desulfurase, CsdA, SufE, LYASE; HET: PLP; 2.01A {Escherichia coli}
+Probab=16.16  E-value=5.9e+02  Score=17.08  Aligned_cols=36  Identities=11%  Similarity=0.373  Sum_probs=21.8  Template_Neff=8.200
+
+Q ss_pred             CCCcccccCCCCCChhHHHHHHHhCCCCcccHHHHHHHHh
+Q tr|A0A8I5QJG5|   34 TPNVHMVSTTLPVDSRMIEDAIRSHSESEASWTERFKLLL   73 (78)
+Q Consensus        34 tpnvhmvsttlpvdsrmiedairshseseaswterfklll   73 (78)
+                      +++..+....++.....|.+.+..    -.+|.+|++.|+
+T Consensus         6 ~~~~~~~~~~~~~~~~~l~~~f~~----~~~~~~r~~~Li   41 (150)
+T 4LW4_C            6 NPQFAGHPFGTTVTAETLRNTFAP----LTQWEDKYRQLI   41 (150)
+T ss_dssp             CCCTTCCCBTTTBCHHHHHHHHTT----CCSHHHHHHHHH
+T ss_pred             cccccCCCCCCcccHHHHHHHHhc----CCCHHHHHHHHH
+Confidence            455555555666554444444443    346999999876
+
+
+No 7
+>1UHM_A winged helix-turn-helix, linker histone, S.; NMR {Saccharomyces cerevisiae} SCOP: a.4.5.13
+Probab=15.78  E-value=3.1e+02  Score=13.72  Aligned_cols=18  Identities=11%  Similarity=0.180  Sum_probs=11.1  Template_Neff=11.500
+
+Q ss_pred             CCChhHHHHHHHhCCCCc
+Q tr|A0A8I5QJG5|   45 PVDSRMIEDAIRSHSESE   62 (78)
+Q Consensus        45 pvdsrmiedairshsese   62 (78)
+                      |-...||.+||....+..
+T Consensus         5 ~~~~~~i~~ai~~~~~~~   22 (78)
+T 1UHM_A            5 KSYRELIIEGLTALKERK   22 (78)
+T ss_dssp             CCHHHHHHHHHHHHCCSS
+T ss_pred             CCHHHHHHHHHHHhccCC
+Confidence            444567888877655443
+
+
+No 8
+>3VP7_A Vacuolar protein sorting-associated protein 30; targeting, PI3-kinase complex I, pre-autophagosomal; 2.3A {Saccharomyces cerevisiae}
+Probab=14.02  E-value=1.6e+02  Score=21.49  Aligned_cols=15  Identities=40%  Similarity=0.751  Sum_probs=13.0  Template_Neff=7.500
+
+Q ss_pred             CcccHHHHHHHHhCC
+Q tr|A0A8I5QJG5|   61 SEASWTERFKLLLGN   75 (78)
+Q Consensus        61 seaswterfklllgn   75 (78)
+                      ++..|+...|.+|-|
+T Consensus       192 ~~~~WT~A~k~lL~n  206 (220)
+T 3VP7_A          192 PNLEWTTAMKFLLTN  206 (220)
+T ss_dssp             CCHHHHHHHHHHHHH
+T ss_pred             CchHHHHHHHHHHHh
+Confidence            788999999998854
+
+
+No 9
+>6Q0J_B Serine/threonine-protein kinase B-raf (E.C.2.7.11.1), Dual; TRANSFERASE, Transferase-PROTEIN BINDING complex; HET: LCJ, AGS, SEP; 4.9A {Spodoptera exigua}
+Probab=12.05  E-value=5.3e+02  Score=22.45  Aligned_cols=33  Identities=33%  Similarity=0.593  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCCCCccCCCCCCCCCCCCCCCCCCCCCCCccc
+Q tr|A0A8I5QJG5|    7 STPHAFTFNTSSPSSEGSLSQRQRSTSTPNVHM   39 (78)
+Q Consensus         7 stphaftfntsspssegslsqrqrststpnvhm   39 (78)
+                      +.|..-.+.....+...++.++.|+.+.|||+.
+T Consensus       366 ~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~  398 (805)
+T 6Q0J_B          366 SIPIPQPFRPADEDHRNQFGQRDRSSAAPNVHI  398 (805)
+T ss_dssp             ---------------------------------
+T ss_pred             CCCCCCCCCCCccccccccCCCCCccCCCceee
+
+
+No 10
+>1ENW_A helix-bundle, TRANSCRIPTION; NMR {Saccharomyces cerevisiae} SCOP: a.5.4.1
+Probab=11.92  E-value=3.9e+02  Score=16.12  Aligned_cols=25  Identities=20%  Similarity=0.582  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHhCCCCc---ccHHHHHHHHhCC
+Q tr|A0A8I5QJG5|   51 IEDAIRSHSESE---ASWTERFKLLLGN   75 (78)
+Q Consensus        51 iedairshsese---aswterfklllgn   75 (78)
+                      ||.+|..+....   ..+..+++.++.|
+T Consensus        52 iE~~l~~~~~~~~~~~~Y~~~~r~l~~n   79 (114)
+T 1ENW_A           52 IESEMNKVNNCDTNEAAYKARYRIIYSN   79 (114)
+T ss_dssp             HTTTTTSSCTTTTTHHHHHCCCCCHHHH
+T ss_pred             HHHHHHHhCCCCCChHHHHHHHHHHHHh
+
+

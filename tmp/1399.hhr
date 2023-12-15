@@ -1,0 +1,165 @@
+Query         tr|E9PKL1|E9PKL1_HUMAN
+Match_columns 128
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:02:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1399.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FYY_r 30S ribosomal protein S  62.8      77 0.00083   24.3   6.2   27   61-88     11-37  (274)
+  2 6ZCE_r Eukaryotic translation   62.8      77 0.00083   24.3   6.2   27   61-88     11-37  (274)
+  3 3C12_A Flagellar protein; FlgD  43.0 1.3E+02  0.0014   18.4   5.6   48   69-116    86-134 (138)
+  4 4U1E_G eukaryotic initiation f  30.1 3.6E+02  0.0039   19.7   6.3   27   61-88     14-40  (138)
+  5 1QQH_A VIRUS/VIRAL PROTEIN; AM  25.4   5E+02  0.0055   20.9   5.5   55   33-87     28-88  (144)
+  6 6YBS_o Eukaryotic translation   21.5   7E+02  0.0076   20.1   6.0   26   63-88     61-86  (320)
+  7 6ZMW_o Eukaryotic translation   21.5   7E+02  0.0076   20.1   6.0   26   63-88     61-86  (320)
+  8 3OSV_B Flagellar basal-body ro  20.7 3.6E+02  0.0039   16.5   6.4   51   67-117    82-134 (138)
+  9 3OSV_C Flagellar basal-body ro  20.7 3.6E+02  0.0039   16.5   6.4   51   67-117    82-134 (138)
+ 10 1MLI_B MUCONOLACTONE ISOMERASE  15.2 1.3E+02  0.0014   18.8   0.3   33   45-77     31-63  (96)
+
+No 1
+>6FYY_r 30S ribosomal protein S2, 30S; ribosome, translation, initiation factors, 40S; HET: 5MC, 1MA, C4J, MG, RIA, 1MG, 2MG, PSU, H2U, 7MG, MA6, T6A, M2G, GCP; 3.05A {Saccharomyces cerevisiae}
+Probab=62.78  E-value=77  Score=24.31  Aligned_cols=27  Identities=26%  Similarity=0.559  Sum_probs=21.8  Template_Neff=9.100
+
+Q ss_pred             eCCCCCEEEEEEEECCCCCEEEEEEEEE
+Q tr|E9PKL1|E9PK   61 EDPEGAMSVVSVETSDDGTTRRTETTVK   88 (128)
+Q Consensus        61 edpegamsvvsvetsddgttrrtettvk   88 (128)
+                      .|+.|.-.|+.... +||...+...++|
+T Consensus        11 ~~~~g~k~v~~~~~-~~g~~~k~t~~~~   37 (274)
+T 6FYY_r           11 ENADGSRSIITYKI-EDGVKYKITQKVK   37 (274)
+T ss_pred             ECCCCCEEEEEEEe-cCCcEEEEeEEee
+Confidence            36668889999989 9998887777776
+
+
+No 2
+>6ZCE_r Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: ADP, ATP, SF4;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=62.78  E-value=77  Score=24.31  Aligned_cols=27  Identities=26%  Similarity=0.559  Sum_probs=21.8  Template_Neff=9.100
+
+Q ss_pred             eCCCCCEEEEEEEECCCCCEEEEEEEEE
+Q tr|E9PKL1|E9PK   61 EDPEGAMSVVSVETSDDGTTRRTETTVK   88 (128)
+Q Consensus        61 edpegamsvvsvetsddgttrrtettvk   88 (128)
+                      .|+.|.-.|+.... +||...+...++|
+T Consensus        11 ~~~~g~k~v~~~~~-~~g~~~k~t~~~~   37 (274)
+T 6ZCE_r           11 ENADGSRSIITYKI-EDGVKYKITQKVK   37 (274)
+T ss_pred             ECCCCCEEEEEEEe-cCCcEEEEeEEee
+Confidence            36668889999989 9998887777776
+
+
+No 3
+>3C12_A Flagellar protein; FlgD, hook capping, Xanthomonas campestris; 2.51A {Xanthomonas campestris pv. campestris}
+Probab=43.05  E-value=1.3e+02  Score=18.45  Aligned_cols=48  Identities=15%  Similarity=0.019  Sum_probs=30.6  Template_Neff=11.500
+
+Q ss_pred             EEEEEE-CCCCCEEEEEEEEEEEEEEeeeeeEeceeeCCCCCcCCcccc
+Q tr|E9PKL1|E9PK   69 VVSVET-SDDGTTRRTETTVKKVVKTVTTRTVQPVAMGPDGLPVDASSV  116 (128)
+Q Consensus        69 vvsvet-sddgttrrtettvkkvvktvttrtvqpvamgpdglpvdassv  116 (128)
+                      .+.+.. +.+|.+....+.+...|..|+.-.-.+.-.-++|-.++.+.|
+T Consensus        86 ~~~i~~~~~~g~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~v  134 (138)
+T 3C12_A           86 GITATQTDTAGAKSKLATYVDAPVDSVTIGSDGLYLNLTGLGTSPLANV  134 (138)
+T ss_dssp             EEEEEEEETTCCEEEECEEEEEEEEEEEEETTEEEEEETTTEEEETTSC
+T ss_pred             EEEEEEEcCCCCEEEceEEEeeeeEEEEECCCceEEEecCCceEeHHHe
+Confidence            334443 467887766677777777777666666666666666666554
+
+
+No 4
+>4U1E_G eukaryotic initiation factor; translation initiation, eIF3 complex, beta-propeller; 2.0A {Saccharomyces cerevisiae}
+Probab=30.08  E-value=3.6e+02  Score=19.71  Aligned_cols=27  Identities=26%  Similarity=0.559  Sum_probs=22.1  Template_Neff=7.700
+
+Q ss_pred             eCCCCCEEEEEEEECCCCCEEEEEEEEE
+Q tr|E9PKL1|E9PK   61 EDPEGAMSVVSVETSDDGTTRRTETTVK   88 (128)
+Q Consensus        61 edpegamsvvsvetsddgttrrtettvk   88 (128)
+                      .++.|--.|++... ++|....+..+++
+T Consensus        14 ~~~dGiktv~ey~~-~~G~~vKvt~~~k   40 (138)
+T 4U1E_G           14 ENADGSRSIITYKI-EDGVKYKITQKVK   40 (138)
+T ss_dssp             ECSSSCEEEEEEEE-ETTEEEEEEEEEC
+T ss_pred             ECCCCCEEEEEEEe-eCCcEEEEeEEee
+Confidence            45668999999999 9999888777765
+
+
+No 5
+>1QQH_A VIRUS/VIRAL PROTEIN; AMPHIPATHIC HELIX, CASHEW/KIDNEY SHAPE, Viral; 2.1A {Human papillomavirus type 18} SCOP: b.91.1.1
+Probab=25.40  E-value=5e+02  Score=20.88  Aligned_cols=55  Identities=31%  Similarity=0.452  Sum_probs=41.3  Template_Neff=5.000
+
+Q ss_pred             CCCCchhhhhhccccC--CCCCcEEEEEEeeCCCCCEEEEEEE----ECCCCCEEEEEEEE
+Q tr|E9PKL1|E9PK   33 GPQDHSHLLYSTIPRM--QEPGQIVETYTEEDPEGAMSVVSVE----TSDDGTTRRTETTV   87 (128)
+Q Consensus        33 gpqdhshllystiprm--qepgqivetyteedpegamsvvsve----tsddgttrrtettv   87 (128)
+                      ..+|.|..+|.+.|.-  ..-|+.|+..-..||+.+|..+.-.    ..+||.-.++..-|
+T Consensus        28 TL~dtS~e~~~~~P~~tfKK~g~~V~V~fd~d~~N~~~Yt~W~~IY~q~~~~~W~k~~g~v   88 (144)
+T 1QQH_A           28 TLQDTCEELWNTEPTHCFKKGGQTVQVYFDGNKDNCMTYVAWDSVYYMTDAGTWDKTATCV   88 (144)
+T ss_dssp             CTTTTSHHHHTSSSTTSEEEEEEEEEEEETTCSSSEEEEEEEEEEEEECTTSCEEEECCEE
+T ss_pred             ChhhcCHHHHcCCCCCccccCcEEEEEEeCCCCcceEEEeeecEEEEEcCCCCEEEEeCeE
+Confidence            3689999999998874  5678999999999999999876533    35566666555443
+
+
+No 6
+>6YBS_o Eukaryotic translation initiation factor 3; ribosome, translation, initiation complex; HET: 5MC, MG, A2M, PSU, JMH; 3.1A {Homo sapiens}
+Probab=21.49  E-value=7e+02  Score=20.13  Aligned_cols=26  Identities=15%  Similarity=0.231  Sum_probs=18.8  Template_Neff=8.700
+
+Q ss_pred             CCCCEEEEEEEECCCCCEEEEEEEEE
+Q tr|E9PKL1|E9PK   63 PEGAMSVVSVETSDDGTTRRTETTVK   88 (128)
+Q Consensus        63 pegamsvvsvetsddgttrrtettvk   88 (128)
+                      ..|.-.|++....+||...+.-++++
+T Consensus        61 ~~~iktv~ey~~~~~g~~vkit~~~~   86 (320)
+T 6YBS_o           61 NGNIKTVTEYKIDEDGKKFKIVRTFR   86 (320)
+T ss_pred             cCCeEEEEEEEECCCCCEEEEEEEEE
+Confidence            35567788888888998776666654
+
+
+No 7
+>6ZMW_o Eukaryotic translation initiation factor 3; ribosome, translation, initiation complex; HET: 5MU, OMC, 5MC, MG, A2M, MA6, PSU, UR3, 6MZ, OMU, JMH, OMG;{Homo sapiens}
+Probab=21.49  E-value=7e+02  Score=20.13  Aligned_cols=26  Identities=15%  Similarity=0.231  Sum_probs=18.8  Template_Neff=8.700
+
+Q ss_pred             CCCCEEEEEEEECCCCCEEEEEEEEE
+Q tr|E9PKL1|E9PK   63 PEGAMSVVSVETSDDGTTRRTETTVK   88 (128)
+Q Consensus        63 pegamsvvsvetsddgttrrtettvk   88 (128)
+                      ..|.-.|++....+||...+.-++++
+T Consensus        61 ~~~iktv~ey~~~~~g~~vkit~~~~   86 (320)
+T 6ZMW_o           61 NGNIKTVTEYKIDEDGKKFKIVRTFR   86 (320)
+T ss_pred             cCCeEEEEEEEECCCCCEEEEEEEEE
+Confidence            35567788888888998776666654
+
+
+No 8
+>3OSV_B Flagellar basal-body rod modification protein; FLGD, flagellum, P. Aeruginosa, Structural; HET: GOL; 2.35A {Pseudomonas aeruginosa}
+Probab=20.73  E-value=3.6e+02  Score=16.45  Aligned_cols=51  Identities=22%  Similarity=0.054  Sum_probs=26.8  Template_Neff=11.600
+
+Q ss_pred             EEEEEEEECCCCCEEEEEEEEEEEEEEeeeee--EeceeeCCCCCcCCccccc
+Q tr|E9PKL1|E9PK   67 MSVVSVETSDDGTTRRTETTVKKVVKTVTTRT--VQPVAMGPDGLPVDASSVS  117 (128)
+Q Consensus        67 msvvsvetsddgttrrtettvkkvvktvttrt--vqpvamgpdglpvdassvs  117 (128)
+                      ...+.+...++|........+...|..|..-.  -.|...-.++..++.+++.
+T Consensus        82 ~y~~~i~~~~~~~~~~~~~~~~~~v~~v~~~~~~~~~~~~~~~~~~~~~~~~~  134 (138)
+T 3OSV_B           82 TYKFEAQTSIDGKTYGLQTYLPANVDSVTLGQNGGELMLNLAGLGSIALSKVQ  134 (138)
+T ss_dssp             EEEEEEEEEETTEEEEECEEEEEEEEEEECC----CCEEEETTTEEECGGGBC
+T ss_pred             EEEEEEEEEECCEEEEeeeEeeeeEEEEEECCCCCeEEEEEcCCceEeHHHeE
+Confidence            34445555456655444444555555555444  4455444566677776664
+
+
+No 9
+>3OSV_C Flagellar basal-body rod modification protein; FLGD, flagellum, P. Aeruginosa, Structural; HET: GOL; 2.35A {Pseudomonas aeruginosa}
+Probab=20.73  E-value=3.6e+02  Score=16.45  Aligned_cols=51  Identities=22%  Similarity=0.054  Sum_probs=26.6  Template_Neff=11.600
+
+Q ss_pred             EEEEEEEECCCCCEEEEEEEEEEEEEEeeeee--EeceeeCCCCCcCCccccc
+Q tr|E9PKL1|E9PK   67 MSVVSVETSDDGTTRRTETTVKKVVKTVTTRT--VQPVAMGPDGLPVDASSVS  117 (128)
+Q Consensus        67 msvvsvetsddgttrrtettvkkvvktvttrt--vqpvamgpdglpvdassvs  117 (128)
+                      ...+.+...++|........+...|..|..-.  -.|...-.++..++.+++.
+T Consensus        82 ~y~~~i~~~~~~~~~~~~~~~~~~v~~v~~~~~~~~~~~~~~~~~~~~~~~~~  134 (138)
+T 3OSV_C           82 TYKFEAQTSIDGKTYGLQTYLPANVDSVTLGQNGGELMLNLAGLGSIALSKVQ  134 (138)
+T ss_dssp             EEEEEEEEEETTEEEEECEEEEEEEEEEEEC---CCEEEEETTTEEECGGGBC
+T ss_pred             EEEEEEEEEECCEEEEeeeEeeeeEEEEEECCCCCeEEEEEcCCceEeHHHeE
+Confidence            34445555456655444444555555554444  4444444466677776664
+
+
+No 10
+>1MLI_B MUCONOLACTONE ISOMERASE (E.C.5.3.3.4); INTRAMOLECULAR OXIDOREDUCTASE; 3.3A {Pseudomonas putida} SCOP: d.58.4.1
+Probab=15.23  E-value=1.3e+02  Score=18.82  Aligned_cols=33  Identities=18%  Similarity=0.209  Sum_probs=24.5  Template_Neff=9.800
+
+Q ss_pred             cccCCCCCcEEEEEEeeCCCCCEEEEEEEECCC
+Q tr|E9PKL1|E9PK   45 IPRMQEPGQIVETYTEEDPEGAMSVVSVETSDD   77 (128)
+Q Consensus        45 iprmqepgqivetyteedpegamsvvsvetsdd   77 (128)
+                      +-.+.+.|.+...|.-.+..|.+.++.++..++
+T Consensus        31 ~~~l~~~G~l~~~~~~~~~~g~~~i~~a~s~~e   63 (96)
+T 1MLI_B           31 AQRLQREGTWRHLWRIAGHYANYSVFDVPSVEA   63 (96)
+T ss_pred             HHHHHhhcceeEEEEECCCcceEEEEECCCHHH
+Confidence            346677888888888778788888887765443
+
+

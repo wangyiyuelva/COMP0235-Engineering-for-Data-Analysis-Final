@@ -1,0 +1,166 @@
+Query         tr|V9GY37|V9GY37_HUMAN
+Match_columns 109
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:41:51 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0509.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3SB1_B hydrogenase expression   24.1      33 0.00036   26.3  -1.0   52   14-67     89-141 (160)
+  2 4I5L_B PP2A A alpha subunit (9  23.0 5.2E+02  0.0056   19.2   4.9   32   76-107   380-411 (413)
+  3 4I5N_E Serine/threonine-protei  23.0 5.2E+02  0.0056   19.2   4.9   32   76-107   380-411 (413)
+  4 7AOI_Af bL28m, uL29m, uL30m, b  10.0 1.3E+02  0.0014   24.3  -0.9   30   38-67     72-101 (133)
+  5 4AOR_E CATIONIC TRYPSIN (E.C.3   9.7 4.3E+02  0.0046   17.5   1.5   19   87-106     5-23  (37)
+  6 7AIH_Aa mL94, mL89, Ribosomal    8.0   2E+02  0.0021   24.6  -0.7   30   38-67    120-149 (195)
+  7 7AM2_Aa Ribosomal protein L3-l   8.0   2E+02  0.0021   24.6  -0.7   30   38-67    120-149 (195)
+  8 1TO0_C Hypothetical UPF0247 pr   7.9 2.4E+02  0.0026   20.6  -0.2   12    5-16    103-114 (167)
+  9 1TO0_D Hypothetical UPF0247 pr   7.9 2.4E+02  0.0026   20.6  -0.2   12    5-16    103-114 (167)
+ 10 6YXX_Af bL28m, mt-LAF21, uL29m   7.4   2E+02  0.0022   24.5  -0.9   30   38-67    112-141 (189)
+
+No 1
+>3SB1_B hydrogenase expression protein; Structural Genomics, PSI-Biology, Midwest Center; HET: PGE; 1.67A {Thiobacillus denitrificans}
+Probab=24.12  E-value=33  Score=26.30  Aligned_cols=52  Identities=23%  Similarity=0.309  Sum_probs=31.5  Template_Neff=5.900
+
+Q ss_pred             CccccchhccCCCCCcccccCCCCCCccccccccCCCCcc-hhhhhcchhHHHhh
+Q tr|V9GY37|V9GY   14 GWGLLGAWAQASSTSLSDLQSSRTPGVWKAEAEDTGKDPV-GRIMDSRIPALLRQ   67 (109)
+Q Consensus        14 gwgllgawaqasstslsdlqssrtpgvwkaeaedtgkdpv-grimdsripallrq   67 (109)
+                      |-|=..+....  ..-...|.+.-+|||..+..+.....+ -+|--..||++++.
+T Consensus        89 GeGEVsi~i~g--~g~~~IqET~~aGVWrV~~~~~~g~~~~d~iEVg~iP~~v~a  141 (160)
+T 3SB1_B           89 GGGEVSVTLHA--DGASTLDETAFPGVWWIIHRNAQGAVTTQFIEVAFVPELVKS  141 (160)
+T ss_dssp             CCCSEEEEEEC---CEEEEEECSSTTEEEEEEECTTSCEEEEEEEESSSCGGGSC
+T ss_pred             CCceEEEEEec--CCcEEEEEecCCCeEEEEEECCCCCEEeCEEEEEcCcHHhcC
+Confidence            44444444443  225678999999999998765533333 34444567777654
+
+
+No 2
+>4I5L_B PP2A A alpha subunit (9-589); EF Hand, Phosphatase, CDC6 (Substrate); HET: ACB, MAA, FGA, MLI, 1ZN, PEG, DAL; 2.43A {Microcystis aeruginosa}
+Probab=22.98  E-value=5.2e+02  Score=19.16  Aligned_cols=32  Identities=16%  Similarity=0.090  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCccCCCCCCCCCCCCCC
+Q tr|V9GY37|V9GY   76 LAPPVDLGVAQQPSPLACFPVTGAPTQCPSWS  107 (109)
+Q Consensus        76 lappvdlgvaqqpsplacfpvtgaptqcpsws  107 (109)
+                      ..+--.+|++-..|...--|-.+.|..||+.|
+T Consensus       380 ~~~w~~~~~~~~~sr~~~~p~~~~~~~~~~~~  411 (413)
+T 4I5L_B          380 SSDSSSSEGDGTVLPPCSPPKQGKKENGPPHS  411 (413)
+T ss_dssp             --------------------------------
+T ss_pred             CCccccccCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            33444457777777777778888888888776
+
+
+No 3
+>4I5N_E Serine/threonine-protein phosphatase 2A 65 kDa; EF Hand, Phosphatase, CDC6 (Substrate); HET: ACB, MAA, FGA, 1ZN, DAL, MSE; 2.8A {Microcystis aeruginosa}
+Probab=22.98  E-value=5.2e+02  Score=19.16  Aligned_cols=32  Identities=16%  Similarity=0.090  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCccCCCCCCCCCCCCCC
+Q tr|V9GY37|V9GY   76 LAPPVDLGVAQQPSPLACFPVTGAPTQCPSWS  107 (109)
+Q Consensus        76 lappvdlgvaqqpsplacfpvtgaptqcpsws  107 (109)
+                      ..+--.+|++-..|...--|-.+.|..||+.|
+T Consensus       380 ~~~w~~~~~~~~~sr~~~~p~~~~~~~~~~~~  411 (413)
+T 4I5N_E          380 SSDSSSSEGDGTVLPPCSPPKQGKKENGPPHS  411 (413)
+T ss_dssp             --------------------------------
+T ss_pred             CCccccccCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            33344457777777777777788888888776
+
+
+No 4
+>7AOI_Af bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=9.98  E-value=1.3e+02  Score=24.35  Aligned_cols=30  Identities=20%  Similarity=0.429  Sum_probs=24.5  Template_Neff=2.300
+
+Q ss_pred             CCccccccccCCCCcchhhhhcchhHHHhh
+Q tr|V9GY37|V9GY   38 PGVWKAEAEDTGKDPVGRIMDSRIPALLRQ   67 (109)
+Q Consensus        38 pgvwkaeaedtgkdpvgrimdsripallrq   67 (109)
+                      -++-+.|.+.||...+....+|||.+++..
+T Consensus        72 q~~l~eE~katG~T~mD~~vnsriQaiIA~  101 (133)
+T 7AOI_Af          72 QNILAEETKATGMTSMDTYVNSRIQSIIAE  101 (133)
+T ss_pred             HHHHHHHHHHhCCchHHHHHHHHHHHHHhc
+Confidence            467788999999888888888999988754
+
+
+No 5
+>4AOR_E CATIONIC TRYPSIN (E.C.3.4.21.4), TRYPSIN INHIBITOR; HYDROLASE-INHIBITOR COMPLEX, MINIPROTEIN SCAFFOLD, KNOTTINS; HET: IMD, GOL, MES; 1.702A {BOS TAURUS}
+Probab=9.71  E-value=4.3e+02  Score=17.55  Aligned_cols=19  Identities=42%  Similarity=0.614  Sum_probs=14.4  Template_Neff=2.300
+
+Q ss_pred             CCCCCccCCCCCCCCCCCCC
+Q tr|V9GY37|V9GY   87 QPSPLACFPVTGAPTQCPSW  106 (109)
+Q Consensus        87 qpsplacfpvtgaptqcpsw  106 (109)
+                      .||--.|.| -|+|.||=|-
+T Consensus         5 ~psG~iCs~-~gp~~~CCSg   23 (37)
+T 4AOR_E            5 SPSGAICSG-FGPPEQCCSG   23 (37)
+T ss_dssp             BCTTCEECT-TSCGGGBTTS
+T ss_pred             CCCCCccCC-CCCchhccCC
+Confidence            366778888 7899998664
+
+
+No 6
+>7AIH_Aa mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=7.97  E-value=2e+02  Score=24.61  Aligned_cols=30  Identities=20%  Similarity=0.335  Sum_probs=24.1  Template_Neff=2.200
+
+Q ss_pred             CCccccccccCCCCcchhhhhcchhHHHhh
+Q tr|V9GY37|V9GY   38 PGVWKAEAEDTGKDPVGRIMDSRIPALLRQ   67 (109)
+Q Consensus        38 pgvwkaeaedtgkdpvgrimdsripallrq   67 (109)
+                      -|+-+.|.+.||...+..-.+|||.+++..
+T Consensus       120 q~~l~eE~katG~T~mD~~vnsriQaiIA~  149 (195)
+T 7AIH_Aa         120 QRVHTEEGKAANSTVMDEYVNSRIQAIIAD  149 (195)
+T ss_pred             HHHHhHHhHHcCchHHHHHHHHHHHHHHhc
+Confidence            467788899999888778888999888754
+
+
+No 7
+>7AM2_Aa Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=7.97  E-value=2e+02  Score=24.61  Aligned_cols=30  Identities=20%  Similarity=0.335  Sum_probs=24.1  Template_Neff=2.200
+
+Q ss_pred             CCccccccccCCCCcchhhhhcchhHHHhh
+Q tr|V9GY37|V9GY   38 PGVWKAEAEDTGKDPVGRIMDSRIPALLRQ   67 (109)
+Q Consensus        38 pgvwkaeaedtgkdpvgrimdsripallrq   67 (109)
+                      -|+-+.|.+.||...+..-.+|||.+++..
+T Consensus       120 q~~l~eE~katG~T~mD~~vnsriQaiIA~  149 (195)
+T 7AM2_Aa         120 QRVHTEEGKAANSTVMDEYVNSRIQAIIAD  149 (195)
+T ss_pred             HHHHhHHhHHcCchHHHHHHHHHHHHHHhc
+Confidence            467788899999888778888999888754
+
+
+No 8
+>1TO0_C Hypothetical UPF0247 protein yyda; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI; HET: MSE; 2.5A {Bacillus subtilis} SCOP: c.116.1.3
+Probab=7.87  E-value=2.4e+02  Score=20.56  Aligned_cols=12  Identities=42%  Similarity=0.922  Sum_probs=10.4  Template_Neff=7.900
+
+Q ss_pred             cccCCCCCCCcc
+Q tr|V9GY37|V9GY    5 LLFSLGGPLGWG   16 (109)
+Q Consensus         5 llfslggplgwg   16 (109)
+                      +.|.+|||.|+.
+T Consensus       103 i~FiIGG~~G~~  114 (167)
+T 1TO0_C          103 VTFVIGGSLGLS  114 (167)
+T ss_dssp             EEEEECCTTCCC
+T ss_pred             EEEEEccccCCC
+Confidence            678999999985
+
+
+No 9
+>1TO0_D Hypothetical UPF0247 protein yyda; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI; HET: MSE; 2.5A {Bacillus subtilis} SCOP: c.116.1.3
+Probab=7.87  E-value=2.4e+02  Score=20.56  Aligned_cols=12  Identities=42%  Similarity=0.922  Sum_probs=10.4  Template_Neff=7.900
+
+Q ss_pred             cccCCCCCCCcc
+Q tr|V9GY37|V9GY    5 LLFSLGGPLGWG   16 (109)
+Q Consensus         5 llfslggplgwg   16 (109)
+                      +.|.+|||.|+.
+T Consensus       103 i~FiIGG~~G~~  114 (167)
+T 1TO0_D          103 VTFVIGGSLGLS  114 (167)
+T ss_dssp             EEEEECCTTCCC
+T ss_pred             EEEEEccccCCC
+Confidence            678999999985
+
+
+No 10
+>6YXX_Af bL28m, mt-LAF21, uL29m, mt-LAF22, uL30m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, ATP; 3.9A {Trypanosoma brucei brucei}
+Probab=7.38  E-value=2e+02  Score=24.48  Aligned_cols=30  Identities=20%  Similarity=0.429  Sum_probs=23.9  Template_Neff=2.300
+
+Q ss_pred             CCccccccccCCCCcchhhhhcchhHHHhh
+Q tr|V9GY37|V9GY   38 PGVWKAEAEDTGKDPVGRIMDSRIPALLRQ   67 (109)
+Q Consensus        38 pgvwkaeaedtgkdpvgrimdsripallrq   67 (109)
+                      -++-+.|.+.||...+..-.+|||.+++..
+T Consensus       112 q~~l~eE~katG~T~mD~~vnsriQaiIA~  141 (189)
+T 6YXX_Af         112 QNILAEETKATGMTSMDTYVNSRIQSIIAE  141 (189)
+T ss_pred             HHHHHHHHHHhCCchHHHHHHHHHHHHHhc
+Confidence            466788889999887777888999888754
+
+

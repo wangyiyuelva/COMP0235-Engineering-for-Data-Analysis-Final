@@ -1,0 +1,161 @@
+Query         tr|H7C2N1|H7C2N1_HUMAN
+Match_columns 148
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:46:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1651.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6IR9_W DNA-directed RNA polyme  90.4    0.42 4.5E-06   46.1   2.6    9   72-80     62-70  (911)
+  2 6J4Z_W DNA-directed RNA polyme  90.4    0.42 4.5E-06   46.1   2.6    9   72-80     62-70  (911)
+  3 3FS3_A Nucleosome assembly pro  80.1       6 6.5E-05   33.4   4.2   18  122-139   320-337 (359)
+  4 3JCT_v 60S ribosomal protein L  54.5      23 0.00026   30.0   2.6   11  132-142   332-342 (344)
+  5 7BT6_v 60S ribosomal protein L  54.5      23 0.00026   30.0   2.6   11  132-142   332-342 (344)
+  6 6QW6_64 Small nuclear ribonucl  48.6 1.2E+02  0.0013   21.3   5.0    9   44-52    128-136 (139)
+  7 7ABG_C U5 small nuclear ribonu  48.6 1.2E+02  0.0013   21.3   5.0    9   44-52    128-136 (139)
+  8 3IYO_B Capsid protein; Amino A  37.0 1.5E+02  0.0016   29.7   5.2   21    7-27     21-41  (660)
+  9 6T9K_Q Transcription factor SP  23.6 7.1E+02  0.0077   25.8   7.2   14  116-129   160-173 (657)
+ 10 6EU1_Q DNA-directed RNA polyme  19.7   3E+02  0.0032   22.6   3.4   53   86-138   182-240 (251)
+
+No 1
+>6IR9_W DNA-directed RNA polymerase subunit, DNA-directed; nucleosome, chromatin, RNA polymerase, TRANSCRIPTION; HET: ZN; 3.8A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=90.35  E-value=0.42  Score=46.14  Aligned_cols=9  Identities=11%  Similarity=0.261  Sum_probs=3.4  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C2N1|H7C2   72 PANGNANEE   80 (148)
+Q Consensus        72 pangnanee   80 (148)
+                      .+.+.+..+
+T Consensus        62 ~~~~~~~~~   70 (911)
+T 6IR9_W           62 KSSAQAHNT   70 (911)
+T ss_pred             hHhHHhhcc
+Confidence            333333333
+
+
+No 2
+>6J4Z_W DNA-directed RNA polymerase subunit, DNA-directed; nucleosome, chromatin, RNA polymerase, TRANSCRIPTION; 4.1A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=90.35  E-value=0.42  Score=46.14  Aligned_cols=9  Identities=11%  Similarity=0.261  Sum_probs=3.4  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C2N1|H7C2   72 PANGNANEE   80 (148)
+Q Consensus        72 pangnanee   80 (148)
+                      .+.+.+..+
+T Consensus        62 ~~~~~~~~~   70 (911)
+T 6J4Z_W           62 KSSAQAHNT   70 (911)
+T ss_pred             hHhHHhhcc
+Confidence            333333333
+
+
+No 3
+>3FS3_A Nucleosome assembly protein 1, putative; plasmodium falciparum, nucleosome assembly protein; 2.3A {Plasmodium falciparum}
+Probab=80.09  E-value=6  Score=33.44  Aligned_cols=18  Identities=39%  Similarity=0.523  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ccCCCCCCCCCCCCCCCC
+Q tr|H7C2N1|H7C2  122 SATGKRAAEDDEDDDVDT  139 (148)
+Q Consensus       122 satgkraaeddedddvdt  139 (148)
+                      +-.-...|+++++|++|+
+T Consensus       320 ~~~~~~~~~~~~~~~~~~  337 (359)
+T 3FS3_A          320 SYESNNSAYNDENSNVDT  337 (359)
+T ss_dssp             ------------------
+T ss_pred             cccccCcccCCCCCCCCc
+Confidence            333455667777777665
+
+
+No 4
+>3JCT_v 60S ribosomal protein L2-A, 60S; pre-60S ribosome, RIBOSOME; HET: GTP; 3.08A {Saccharomyces cerevisiae S288c}
+Probab=54.53  E-value=23  Score=29.99  Aligned_cols=11  Identities=27%  Similarity=0.338  Sum_probs=4.0  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H7C2N1|H7C2  132 DEDDDVDTKKQ  142 (148)
+Q Consensus       132 dedddvdtkkq  142 (148)
+                      +.|-....|.|
+T Consensus       332 ~~~~~~~~~~~  342 (344)
+T 3JCT_v          332 ATDIEPSAKRQ  342 (344)
+T ss_pred             cccCCChhhcc
+Confidence            33333333443
+
+
+No 5
+>7BT6_v 60S ribosomal protein L2-A, 60S; Pre-60s, rpl4, RIBOSOME; HET: GTP; 3.12A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=54.53  E-value=23  Score=29.99  Aligned_cols=11  Identities=27%  Similarity=0.338  Sum_probs=4.0  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H7C2N1|H7C2  132 DEDDDVDTKKQ  142 (148)
+Q Consensus       132 dedddvdtkkq  142 (148)
+                      +.|-....|.|
+T Consensus       332 ~~~~~~~~~~~  342 (344)
+T 7BT6_v          332 ATDIEPSAKRQ  342 (344)
+T ss_pred             cccCCChhhcc
+Confidence            33333333443
+
+
+No 6
+>6QW6_64 Small nuclear ribonucleoprotein Sm D1; RNP complex, splicing, RNA, protein; HET: M7M, GTP, IHP; 2.92A {Homo sapiens}
+Probab=48.55  E-value=1.2e+02  Score=21.27  Aligned_cols=9  Identities=33%  Similarity=0.925  Sum_probs=4.7  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C2N1|H7C2   44 GSRRPGRRT   52 (148)
+Q Consensus        44 gsrrpgrrt   52 (148)
+                      +.+++||.+
+T Consensus       128 ~~~~~~~~~  136 (139)
+T 6QW6_64         128 PEKKPGRQA  136 (139)
+T ss_pred             CCCCCCCcC
+Confidence            455556544
+
+
+No 7
+>7ABG_C U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: GTP, GTG, IHP; 7.8A {Homo sapiens}
+Probab=48.55  E-value=1.2e+02  Score=21.27  Aligned_cols=9  Identities=33%  Similarity=0.925  Sum_probs=4.7  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C2N1|H7C2   44 GSRRPGRRT   52 (148)
+Q Consensus        44 gsrrpgrrt   52 (148)
+                      +.+++||.+
+T Consensus       128 ~~~~~~~~~  136 (139)
+T 7ABG_C          128 PEKKPGRQA  136 (139)
+T ss_pred             CCCCCCCcC
+Confidence            455556544
+
+
+No 8
+>3IYO_B Capsid protein; Amino Acid Sequence, Capsid, Capsid; 10.5A {Hepatitis E virus}
+Probab=36.99  E-value=1.5e+02  Score=29.66  Aligned_cols=21  Identities=57%  Similarity=1.055  Sum_probs=14.2  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q tr|H7C2N1|H7C2    7 PPGGESGRSRGPRSGAGRAGL   27 (148)
+Q Consensus         7 ppggesgrsrgprsgagragl   27 (148)
+                      |.++.+||.||.|+|....+.
+T Consensus        21 ~~~~~~g~rrg~r~~~~~~~~   41 (660)
+T 3IYO_B           21 PPGQPSGRRRGRRSGGSGGGF   41 (660)
+T ss_pred             CCCCCCCccccccCCCCCCCC
+Confidence            457778888998885444444
+
+
+No 9
+>6T9K_Q Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=23.63  E-value=7.1e+02  Score=25.83  Aligned_cols=14  Identities=21%  Similarity=0.420  Sum_probs=8.1  Template_Neff=3.300
+
+Q ss_pred             CCccccccCCCCCC
+Q tr|H7C2N1|H7C2  116 EDEEAESATGKRAA  129 (148)
+Q Consensus       116 edeeaesatgkraa  129 (148)
+                      .|+......+||..
+T Consensus       160 ~~~~~~~~~~k~~~  173 (657)
+T 6T9K_Q          160 DDDNSNGANYKKND  173 (657)
+T ss_pred             CCccccccccccCc
+Confidence            34455566677655
+
+
+No 10
+>6EU1_Q DNA-directed RNA polymerase III subunit; RNA Pol III, promoter opening;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=19.68  E-value=3e+02  Score=22.61  Aligned_cols=53  Identities=21%  Similarity=0.445  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCCCCC------CCCCCCCCCCCCCCCCCCCCccccccCCCCCCCCCCCCCCC
+Q tr|H7C2N1|H7C2   86 ADNEVDEEEEEG------GEEEEEEEEGDGEEEDGDEDEEAESATGKRAAEDDEDDDVD  138 (148)
+Q Consensus        86 adnevdeeeeeg------geeeeeeeegdgeeedgdedeeaesatgkraaeddedddvd  138 (148)
+                      ...+.++.+.++      .++++++++.+.+-++.+++++.-.-..-.-..++++++.+
+T Consensus       182 ~~~~~~~~~~~~~~~~~~~~~~~~ee~~d~~~eeeee~ee~~DYnae~yFDdgedd~~~  240 (251)
+T 6EU1_Q          182 AEDVDDASTGDGAAKGSKTGEGEDDDLADDDFEEDEDEEDDDDYNAEKYFNNGDDDDYG  240 (251)
+T ss_dssp             -----------------------------------------------------------
+T ss_pred             HhccccccccccccccccCCCCCccccccccccccccccccCcccchhcccCCCCCCCC
+
+

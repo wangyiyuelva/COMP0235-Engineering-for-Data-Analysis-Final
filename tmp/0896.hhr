@@ -1,0 +1,223 @@
+Query         tr|A0A8V8TM11|A0A8V8TM11_HUMAN
+Match_columns 123
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:40:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0896.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3L5H_A Interleukin-6 receptor   99.3 8.5E-11 9.3E-16   85.7  10.0   97   24-120     1-97  (589)
+  2 1I1R_A Interleukin-6 receptor   97.9 0.00049 5.4E-09   42.1   9.2   79   23-108     1-86  (303)
+  3 1P9M_A Interleukin-6 receptor   97.8  0.0015 1.6E-08   40.2   9.4   79   23-108     1-86  (299)
+  4 2D9Q_B CYTOKINE, LIGAND-RECEPT  97.5  0.0021 2.3E-08   41.0   7.7   80   27-108     1-82  (313)
+  5 5MZV_C Interleukin-12 subunit   94.8    0.36   4E-06   32.5   6.3   71   29-108    34-106 (330)
+  6 6WDQ_C Interleukin-12 subunit   92.8     3.3 3.6E-05   27.8   8.9   66   35-108    16-83  (307)
+  7 3E0G_A Ig domain, Cytokine Bin  65.3      83 0.00091   23.0   9.1   27   27-53    199-225 (483)
+  8 6S8B_L CRISPR-associated prote  38.7      32 0.00034   28.8   1.0   18   13-30     45-65  (174)
+  9 2X5Q_A SSO1986; UNKNOWN FUNCTI  27.5      59 0.00064   27.9   0.9   18   12-29     59-79  (198)
+ 10 5XBC_B PEDV nsp1; Porcine epid  19.8 2.8E+02  0.0031   21.5   3.1   25   98-122    67-91  (118)
+
+No 1
+>3L5H_A Interleukin-6 receptor subunit beta; Ig-like, FNIII, Cell membrane, Disulfide; HET: BMA, FUC, NAG, SO4; 3.6A {Homo sapiens}
+Probab=99.28  E-value=8.5e-11  Score=85.67  Aligned_cols=97  Identities=100%  Similarity=1.522  Sum_probs=65.6  Template_Neff=11.600
+
+Q ss_pred             ccCCCcecCCCCCeEEecCCeEEEEEEccceeeEEEEccceEEEEecceecChhheEEEeCCCCeeEecccccceEEEEe
+Q tr|A0A8V8TM11|   24 LLDPCGYISPESPVVQLHSNFTAVCVLKEKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIASLNIQLTC  103 (123)
+Q Consensus        24 lldpcgyispespvvqlhsnftavcvlkekcmdyfhvnanyivwktnhftipkeqytiinrtassvtftdiaslniqltc  103 (123)
+                      ++++|+.+.|++.++..|+++.+.|...+.+.++++++...+.|..++..+..............+.+.+...+.+.|.|
+T Consensus         1 ~~~~~~~i~p~~~~v~~Gs~~~~~C~~~~~~~~~~~~~~~~i~w~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~y~C   80 (589)
+T 3L5H_A            1 LLDPCGYISPESPVVQLHSNFTAVCVLKEKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIASLNIQLTC   80 (589)
+T ss_dssp             CCCCSCCCSCSCCCCCSSSCCCCCC-CCTTTTTTTTCCTTTCCCBCSSSBSCGGGCBCCSSSCCBCCCCCCCSSCCCCCC
+T ss_pred             CCCCceEEecCCCcEeCCCCeEEEEEEcCCccccccCChhhEEEEECCEECCHHHceEecCeEEEEEEecccccCeEEEE
+Confidence            57899999999999999999999999886541111122347899988777665555444444556777776656789999
+
+
+Q ss_pred             eeeeccccccceeEEEE
+Q tr|A0A8V8TM11|  104 NILTFGQLEQNVYGITI  120 (123)
+Q Consensus       104 niltfgqleqnvygiti  120 (123)
+                      .+.+....+..+|++.+
+T Consensus        81 ~~~~~~~~~~~~~~~~v   97 (589)
+T 3L5H_A           81 NILTFGQLEQNVYGITI   97 (589)
+T ss_dssp             C-CCTTCC-CCCCCCCC
+T ss_pred             EEeecCCcceEEEEEEE
+Confidence            99876555555555443
+
+
+No 2
+>1I1R_A Interleukin-6 receptor beta chain/viral IL-6; cytokine-receptor complex, gp130, viral IL-6; 2.4A {Homo sapiens} SCOP: b.1.2.1
+Probab=97.95  E-value=0.00049  Score=42.09  Aligned_cols=79  Identities=96%  Similarity=1.420  Sum_probs=63.3  Template_Neff=13.700
+
+Q ss_pred             CccCCCcecCCCCCeEEecCCeEEEEEEc-------cceeeEEEEccceEEEEecceecChhheEEEeCCCCeeEecccc
+Q tr|A0A8V8TM11|   23 ELLDPCGYISPESPVVQLHSNFTAVCVLK-------EKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIA   95 (123)
+Q Consensus        23 elldpcgyispespvvqlhsnftavcvlk-------ekcmdyfhvnanyivwktnhftipkeqytiinrtassvtftdia   95 (123)
+                      ||++|++.+.|.+..+..|+++.+.|...       +.+       ...+.|..++..+..............+.+.+..
+T Consensus         1 ~~~~~~~~~~p~~~~~~~g~~~~l~C~~~~~~~~~~g~~-------~~~~~w~~~~~~~~~~~~~~~~~~~~~l~i~~~~   73 (303)
+T 1I1R_A            1 ELLDPCGYISPESPVVQLHSNFTAVCVLKEKCMDYFHVN-------ANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIA   73 (303)
+T ss_dssp             -CCCCSEEEESSSCEEETTCCEEEEEEECHHHHHHHTCC-------GGGEEEEETTEECCGGGCEEEETTEEEEEECSCC
+T ss_pred             CCcCCCccccCCCCeEecCCCEEEEEEccccccccccce-------eeEEEEEeCCccCCcceEEeecCcEEEEEEEEee
+Confidence            57899999999999999999999999998       666       7789999998877765555555545567777666
+
+
+Q ss_pred             cceEEEEeeeeec
+Q tr|A0A8V8TM11|   96 SLNIQLTCNILTF  108 (123)
+Q Consensus        96 slniqltcniltf  108 (123)
+                      ...+.|.|.+.+.
+T Consensus        74 ~~~g~y~c~~~~~   86 (303)
+T 1I1R_A           74 SLNIQLTCNILTF   86 (303)
+T ss_dssp             CSEEEEEEEEEET
+T ss_pred             cCCeEEEEEecCC
+Confidence            5568999999865
+
+
+No 3
+>1P9M_A Interleukin-6 receptor beta chain, Interleukin-6; Ig domain, four helix bundle; 3.65A {Homo sapiens} SCOP: b.1.2.1
+Probab=97.79  E-value=0.0015  Score=40.21  Aligned_cols=79  Identities=96%  Similarity=1.420  Sum_probs=54.9  Template_Neff=13.600
+
+Q ss_pred             CccCCCcecCCCCCeEEecCCeEEEEEEc-------cceeeEEEEccceEEEEecceecChhheEEEeCCCCeeEecccc
+Q tr|A0A8V8TM11|   23 ELLDPCGYISPESPVVQLHSNFTAVCVLK-------EKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIA   95 (123)
+Q Consensus        23 elldpcgyispespvvqlhsnftavcvlk-------ekcmdyfhvnanyivwktnhftipkeqytiinrtassvtftdia   95 (123)
+                      +|.+|++.+.|+...+..|+.+.+.|...       +.+       ...+.|..++..+..............+.+....
+T Consensus         1 ~~~~~~~~~~p~~~~~~~g~~~~l~C~~~~~~~~~~g~~-------~~~v~w~~~~~~~~~~~~~~~~~~~~~l~i~~~~   73 (299)
+T 1P9M_A            1 ELLDPCGYISPESPVVQLHSNFTAVCVLKEKCMDYFHVN-------ANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIA   73 (299)
+T ss_dssp             -CCCCSEEEESSSCCCBTTCCBCCEEEECHHHHHHSCCC-------TTSCEEESSSCCCCTTSCEECSTTEEECCBSSCC
+T ss_pred             CccCCCCcccCCCCeEeCCCCEEEEEEeeccccccCCCC-------ccEEEEEECCccCCcceEEEecCceEEEEEcccc
+Confidence            57788999999998899999999999988       566       7789999887766543333332222334444444
+
+
+Q ss_pred             cceEEEEeeeeec
+Q tr|A0A8V8TM11|   96 SLNIQLTCNILTF  108 (123)
+Q Consensus        96 slniqltcniltf  108 (123)
+                      ...+.|.|.+.+.
+T Consensus        74 ~~~g~y~c~~~~~   86 (299)
+T 1P9M_A           74 SLNIQLTCNILTF   86 (299)
+T ss_dssp             CSCCCCEEECCTT
+T ss_pred             cccEEEEEEecCC
+Confidence            3357788888654
+
+
+No 4
+>2D9Q_B CYTOKINE, LIGAND-RECEPTOR COMPLEX, SIGNALING PROTEIN-CYTOKINE; HET: NAG; 2.8A {Homo sapiens} SCOP: b.1.2.1, b.1.1.3
+Probab=97.53  E-value=0.0021  Score=41.00  Aligned_cols=80  Identities=23%  Similarity=0.416  Sum_probs=49.1  Template_Neff=13.000
+
+Q ss_pred             CCcecCCCCCeEEecCCeEEEEEEccceeeEEEEccceEEEEec-ceecCh-hheEEEeCCCCeeEecccccceEEEEee
+Q tr|A0A8V8TM11|   27 PCGYISPESPVVQLHSNFTAVCVLKEKCMDYFHVNANYIVWKTN-HFTIPK-EQYTIINRTASSVTFTDIASLNIQLTCN  104 (123)
+Q Consensus        27 pcgyispespvvqlhsnftavcvlkekcmdyfhvnanyivwktn-hftipk-eqytiinrtassvtftdiaslniqltcn  104 (123)
+                      +|+.+.|.+..+..|..+.+.|...+.+...+ .....+ |..+ +..... ............+.+.....+.+.|.|.
+T Consensus         1 ~~~~~~p~~~~~~~g~~~~l~C~~~~~~~~~~-~~~~~~-w~~~~~~~~~~~~~~~~~~~~~~~l~i~~~~~~~~~y~c~   78 (313)
+T 2D9Q_B            1 ECGHISVSAPIVHLGDPITASCIIKQNCSHLD-PEPQIL-WRLGAELQPGGRQQRLSDGTQESIITLPHLNHTQAFLSCS   78 (313)
+T ss_dssp             -CCCEEESCSEECTTCCEEEEECCCTTSCSSC-SCSCCE-EESSSCBCTTCEECCCSSSCCCEEEEESCCCSSEEEEEEE
+T ss_pred             CceEeecCCCEEECCCCEEEEEEEccCCCCCC-CCceEE-EEeCCCCCCCCceeEeeCCCeEEEEEeCCCCCCceEEEEE
+Confidence            57888888889999999999999884320000 004467 8877 333221 1111111223457777777557899999
+
+
+Q ss_pred             eeec
+Q tr|A0A8V8TM11|  105 ILTF  108 (123)
+Q Consensus       105 iltf  108 (123)
+                      +.+.
+T Consensus        79 ~~~~   82 (313)
+T 2D9Q_B           79 LNWG   82 (313)
+T ss_dssp             EESS
+T ss_pred             eecC
+Confidence            8765
+
+
+No 5
+>5MZV_C Interleukin-12 subunit beta, Interleukin-23 subunit; cytokine, inflammation, extracellular, fibronectin type; HET: BMA, NAG, MAN; 2.8A {Homo sapiens}
+Probab=94.75  E-value=0.36  Score=32.54  Aligned_cols=71  Identities=14%  Similarity=0.222  Sum_probs=48.8  Template_Neff=12.200
+
+Q ss_pred             cecCCCCCeEEecCCeEEEEEEc--cceeeEEEEccceEEEEecceecChhheEEEeCCCCeeEecccccceEEEEeeee
+Q tr|A0A8V8TM11|   29 GYISPESPVVQLHSNFTAVCVLK--EKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIASLNIQLTCNIL  106 (123)
+Q Consensus        29 gyispespvvqlhsnftavcvlk--ekcmdyfhvnanyivwktnhftipkeqytiinrtassvtftdiaslniqltcnil  106 (123)
+                      +.+.|. ..+..|+++++.|...  +.+       ...+.|..++..... ...........+.+.+...+.+.|.|.+.
+T Consensus        34 ~~~~~~-~~~~~g~~v~l~C~~~~~~~~-------~~~~~w~~~~~~~~~-~~~~~~~~~~~l~i~~~~~~~g~y~C~~~  104 (330)
+T 5MZV_C           34 IWVEPA-TIFKMGMNISIYCQAAIKNCQ-------PRKLHFYKNGIKERF-QITRINKTTARLWYKNFLEPHASMYCTAE  104 (330)
+T ss_dssp             EEEESC-SEEETTCCEEEEEEECCTTCC-------CSCEEEEETTEECCS-SEEEEETTEEEEEESSCCCSEEEEEEEEE
+T ss_pred             EEEcCc-cEEeCCCcEEEEEEECcccCC-------CCeEEEEECCeeccc-eeEeeccCeeEEEEecCCCCceEEEEEEe
+Confidence            444454 7889999999999998  344       667888887654322 22334444566777777545799999987
+
+
+Q ss_pred             ec
+Q tr|A0A8V8TM11|  107 TF  108 (123)
+Q Consensus       107 tf  108 (123)
+                      +.
+T Consensus       105 ~~  106 (330)
+T 5MZV_C          105 CP  106 (330)
+T ss_dssp             CT
+T ss_pred             CC
+Confidence            54
+
+
+No 6
+>6WDQ_C Interleukin-12 subunit beta, Interleukin-23 subunit; cytokine receptor, SIGNALING PROTEIN; HET: BMA, NAG; 3.4A {Homo sapiens}
+Probab=92.77  E-value=3.3  Score=27.77  Aligned_cols=66  Identities=14%  Similarity=0.191  Sum_probs=46.7  Template_Neff=12.200
+
+Q ss_pred             CCeEEecCCeEEEEEEc--cceeeEEEEccceEEEEecceecChhheEEEeCCCCeeEecccccceEEEEeeeeec
+Q tr|A0A8V8TM11|   35 SPVVQLHSNFTAVCVLK--EKCMDYFHVNANYIVWKTNHFTIPKEQYTIINRTASSVTFTDIASLNIQLTCNILTF  108 (123)
+Q Consensus        35 spvvqlhsnftavcvlk--ekcmdyfhvnanyivwktnhftipkeqytiinrtassvtftdiaslniqltcniltf  108 (123)
+                      +..+..|+.+.+.|...  +.+       ...+.|..++..... ...........+.+.+...+.+.|.|.+.+.
+T Consensus        16 ~~~~~~g~~v~l~C~~~~~~~~-------~~~~~w~~~~~~~~~-~~~~~~~~~~~l~i~~~~~~~g~y~C~~~~~   83 (307)
+T 6WDQ_C           16 ATIFKMGMNISIYCQAAIKNCQ-------PRKLHFYKNGIKERF-QITRINKTTARLWYKNFLEPHASMYCTAECP   83 (307)
+T ss_dssp             CSEEETTCCEEEEEEECCTTCC-------CSCEEEEETTEECCS-SEEEEETTEEEEEESSCCCSEEEEEEEEECT
+T ss_pred             CcEEECCCcEEEEEEeCcccCC-------CceEEEEECCccccc-eEEEecCceEEEEEccCCCCceEEEEEEECC
+Confidence            46789999999999998  445       677889888754432 2334444455677777654568999988754
+
+
+No 7
+>3E0G_A Ig domain, Cytokine Binding Homology; HET: FUC, NAG, MAN; 3.1A {Homo sapiens}
+Probab=65.27  E-value=83  Score=23.04  Aligned_cols=27  Identities=30%  Similarity=0.449  Sum_probs=20.3  Template_Neff=12.100
+
+Q ss_pred             CCcecCCCCCeEEecCCeEEEEEEccc
+Q tr|A0A8V8TM11|   27 PCGYISPESPVVQLHSNFTAVCVLKEK   53 (123)
+Q Consensus        27 pcgyispespvvqlhsnftavcvlkek   53 (123)
+                      ++..+.|.+..+..|+++.+.|...+.
+T Consensus       199 ~~~~~~p~~~~~~~g~~~~~~c~~~~~  225 (483)
+T 3E0G_A          199 SQTKVFPQDKVILVGSDITFCCVSQEK  225 (483)
+T ss_dssp             SSCCEESCSEEEETTCCEEEEECCSSC
+T ss_pred             CCCeEecCCceEeCCCCEEEEEEcCCC
+Confidence            345566777778889999999977643
+
+
+No 8
+>6S8B_L CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 2.41A {Sulfolobus islandicus (strain REY15A)}
+Probab=38.67  E-value=32  Score=28.83  Aligned_cols=18  Identities=44%  Similarity=0.890  Sum_probs=8.6  Template_Neff=3.200
+
+Q ss_pred             eeeccCCCCCCc---cCCCce
+Q tr|A0A8V8TM11|   13 FIFLTTESTGEL---LDPCGY   30 (123)
+Q Consensus        13 fiflttestgel---ldpcgy   30 (123)
+                      |-+...|..+.+   ++||..
+T Consensus        45 tGyaiden~~~Lv~TLDPCDY   65 (174)
+T 6S8B_L           45 TGYAVDEKNGRLVPTLDPCDY   65 (174)
+T ss_pred             EeEEEeCCcceEEeccCccce
+Confidence            333444555444   566643
+
+
+No 9
+>2X5Q_A SSO1986; UNKNOWN FUNCTION; 2.05A {SULFOLOBUS SOLFATARICUS}
+Probab=27.53  E-value=59  Score=27.93  Aligned_cols=18  Identities=56%  Similarity=0.907  Sum_probs=8.4  Template_Neff=2.700
+
+Q ss_pred             eeeeccCCCCCCc---cCCCc
+Q tr|A0A8V8TM11|   12 LFIFLTTESTGEL---LDPCG   29 (123)
+Q Consensus        12 lfiflttestgel---ldpcg   29 (123)
+                      ||-+...|..+.|   ++||.
+T Consensus        59 LtGyaidens~~Lv~TLDPCD   79 (198)
+T 2X5Q_A           59 LTGYAIDESTGELVPTFDPCD   79 (198)
+T ss_dssp             EETEEEETTTTEEEECSCTTC
+T ss_pred             EEeEEEeCCcceEEeecChhc
+Confidence            3334444555544   45554
+
+
+No 10
+>5XBC_B PEDV nsp1; Porcine epidemic diarrhea virus, nsp1; 1.249A {Porcine epidemic diarrhea virus}
+Probab=19.85  E-value=2.8e+02  Score=21.52  Aligned_cols=25  Identities=28%  Similarity=0.482  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             eEEEEeeeeeccccccceeEEEEEE
+Q tr|A0A8V8TM11|   98 NIQLTCNILTFGQLEQNVYGITIIS  122 (123)
+Q Consensus        98 niqltcniltfgqleqnvygitiis  122 (123)
+                      +.++.|.+++|++--.|.-|+-|.|
+T Consensus        67 ~~~ld~~i~~f~erp~~l~Gwlvfs   91 (118)
+T 5XBC_B           67 TTKLSAYVDTFGSRPRNICGWLLFS   91 (118)
+T ss_dssp             SSSEEEEEEETTCCCTTEEEEEEEE
+T ss_pred             CeEEEEEEccCCCCCCcccEEEEEe
+
+

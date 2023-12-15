@@ -1,0 +1,169 @@
+Query         sp|P60411|KR109_HUMAN
+Match_columns 292
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:32:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1896.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2HM6_A molecular evolution, cy  68.1     8.1 8.8E-05   27.7   1.8   20   64-83      9-28  (31)
+  2 2LIC_A Vitellogenin; LIPID TRA  10.2 3.7E+02   0.004   20.1   1.5   18    3-20     16-33  (35)
+  3 2HM6_A molecular evolution, cy   7.8 4.1E+02  0.0045   19.6   0.9   13  235-247    16-28  (31)
+  4 2B5B_A Antibiotic; NMR {Carett   3.1 8.2E+02  0.0089   18.5  -0.1   10  192-201    24-33  (36)
+  5 6ZFM_B Alpha-cobratoxin, pepti   3.0 2.6E+03   0.028   14.7   2.2   11   78-88     55-65  (71)
+  6 7PC0_K neurotransmission, toxi   3.0 2.6E+03   0.028   14.7   2.2   11   78-88     55-65  (71)
+  7 2EBQ_A zf-RanBP domain, Nuclea   2.9   2E+03   0.022   11.8   1.6   14    9-22      4-17  (47)
+  8 4RUD_A Three-finger toxin 3b;    2.4 2.2E+03   0.024   14.5   1.3    6  161-166    49-54  (58)
+  9 2P4L_A I-superfamily conotoxin   2.1   5E+03   0.055   15.2   3.0   27  153-180     3-29  (46)
+ 10 1R3U_A phosphoribosyltransfera   2.0 2.7E+03   0.029   17.1   1.4    6    2-7       2-7   (205)
+
+No 1
+>2HM6_A molecular evolution, cysteine rich, nematocyst; NMR {Hydra vulgaris}
+Probab=68.13  E-value=8.1  Score=27.68  Aligned_cols=20  Identities=45%  Similarity=1.227  Sum_probs=15.9  Template_Neff=2.000
+
+Q ss_pred             CCCCCCCCCCCcCCCCCCCC
+Q sp|P60411|KR10   64 PSPCQSGCTSSCTPSCCQQS   83 (292)
+Q Consensus        64 pspcqsgctssctpsccqqs   83 (292)
+                      |++|..+|..+|+|.||.+-
+T Consensus         9 PspCp~~C~P~CtpaCC~t~   28 (31)
+T 2HM6_A            9 PSVCSGDCYPECPPGCCGQV   28 (31)
+T ss_dssp             CHHHHHCCCTTSCTTTSSSC
+T ss_pred             CCCCCCCcCCCCCccccccc
+Confidence            67788888888888888763
+
+
+No 2
+>2LIC_A Vitellogenin; LIPID TRANSPORT; HET: SEP; NMR {N/A}
+Probab=10.24  E-value=3.7e+02  Score=20.11  Aligned_cols=18  Identities=44%  Similarity=0.538  Sum_probs=14.5  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q sp|P60411|KR10    3 ASTMSIRSSAYSDSWQVD   20 (292)
+Q Consensus         3 astmsirssaysdswqvd   20 (292)
+                      .+..+|.++...|-||..
+T Consensus        16 tssssissseendfwqpk   33 (35)
+T 2LIC_A           16 TSSSSISSSEENDFWQPK   33 (35)
+T ss_dssp             SCSSCCSTTCSCSSCCCC
+T ss_pred             cccccCcccccccccCCC
+Confidence            456788999999999953
+
+
+No 3
+>2HM6_A molecular evolution, cysteine rich, nematocyst; NMR {Hydra vulgaris}
+Probab=7.85  E-value=4.1e+02  Score=19.57  Aligned_cols=13  Identities=54%  Similarity=1.459  Sum_probs=7.8  Template_Neff=2.000
+
+Q ss_pred             cCcccCCCccccC
+Q sp|P60411|KR10  235 CRPVCRPACCVPV  247 (292)
+Q Consensus       235 crpvcrpaccvpv  247 (292)
+                      |.|.|.||||..+
+T Consensus        16 C~P~CtpaCC~t~   28 (31)
+T 2HM6_A           16 CYPECPPGCCGQV   28 (31)
+T ss_dssp             CCTTSCTTTSSSC
+T ss_pred             cCCCCCccccccc
+Confidence            4566666666544
+
+
+No 4
+>2B5B_A Antibiotic; NMR {Caretta caretta}
+Probab=3.11  E-value=8.2e+02  Score=18.52  Aligned_cols=10  Identities=80%  Similarity=1.697  Sum_probs=7.0  Template_Neff=1.000
+
+Q ss_pred             ecCccecccc
+Q sp|P60411|KR10  192 CCKPICCVPV  201 (292)
+Q Consensus       192 cckpiccvpv  201 (292)
+                      |=|-||||||
+T Consensus        24 cgkyiccvpv   33 (36)
+T 2B5B_A           24 CGKYICCVPV   33 (36)
+T ss_dssp             BCCSSCSSSC
+T ss_pred             CCCeEEEEEe
+Confidence            4567788876
+
+
+No 5
+>6ZFM_B Alpha-cobratoxin, peptide 12; cobratoxin, inhibitor, three-finger toxin, TOXIN; HET: QJE, 1PE; 1.9A {Naja kaouthia}
+Probab=2.97  E-value=2.6e+03  Score=14.75  Aligned_cols=11  Identities=36%  Similarity=1.280  Sum_probs=6.2  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCC
+Q sp|P60411|KR10   78 SCCQQSSCQPA   88 (292)
+Q Consensus        78 sccqqsscqpa   88 (292)
+                      .||+...|..+
+T Consensus        55 ~CC~tDlCN~~   65 (71)
+T 6ZFM_B           55 QCCSTDNCNPF   65 (71)
+T ss_dssp             EEECSTTCSCC
+T ss_pred             eecCCCCCCCC
+Confidence            56666555544
+
+
+No 6
+>7PC0_K neurotransmission, toxin, GABA, MEMBRANE PROTEIN; HET: BMA, NAG, MAN; 3.0A {Naja kaouthia}
+Probab=2.97  E-value=2.6e+03  Score=14.75  Aligned_cols=11  Identities=36%  Similarity=1.280  Sum_probs=6.1  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCC
+Q sp|P60411|KR10   78 SCCQQSSCQPA   88 (292)
+Q Consensus        78 sccqqsscqpa   88 (292)
+                      .||+...|..+
+T Consensus        55 ~CC~tDlCN~~   65 (71)
+T 7PC0_K           55 QCCSTDNCNPF   65 (71)
+T ss_pred             eecCCCCCCCC
+Confidence            56666555443
+
+
+No 7
+>2EBQ_A zf-RanBP domain, Nuclear pore complex; HET: ZN; NMR {Homo sapiens}
+Probab=2.86  E-value=2e+03  Score=11.78  Aligned_cols=14  Identities=36%  Similarity=0.807  Sum_probs=7.2  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q sp|P60411|KR10    9 RSSAYSDSWQVDDC   22 (292)
+Q Consensus         9 rssaysdswqvddc   22 (292)
+                      +.....+.|+...+
+T Consensus         4 ~~~~~~~~~~~~~~   17 (47)
+T 2EBQ_A            4 GSSGVIGTWDCDTC   17 (47)
+T ss_dssp             SCCCCSSSEECSSS
+T ss_pred             ccCCCCCcccCCCC
+Confidence            34445566655543
+
+
+No 8
+>4RUD_A Three-finger toxin 3b; Three Finger Toxin, Snake venom; 1.95A {Micrurus fulvius}
+Probab=2.39  E-value=2.2e+03  Score=14.45  Aligned_cols=6  Identities=33%  Similarity=1.259  Sum_probs=2.5  Template_Neff=8.700
+
+Q ss_pred             ccCCCC
+Q sp|P60411|KR10  161 SCCQQS  166 (292)
+Q Consensus       161 sccqqs  166 (292)
+                      .||+..
+T Consensus        49 ~CC~td   54 (58)
+T 4RUD_A           49 VCCSTD   54 (58)
+T ss_dssp             EEECST
+T ss_pred             eecCCC
+Confidence            344433
+
+
+No 9
+>2P4L_A I-superfamily conotoxin r11a; IAA, iodoacetic acid  INa; HET: HYP; NMR {Conus radiatus}
+Probab=2.15  E-value=5e+03  Score=15.19  Aligned_cols=27  Identities=30%  Similarity=0.785  Sum_probs=14.9  Template_Neff=3.000
+
+Q ss_pred             CCCCCCCcccCCCCCCCCCcCCCCCCCC
+Q sp|P60411|KR10  153 PTCSEDSYSCCQQSSCQPACCTSSPCQQ  180 (292)
+Q Consensus       153 ptcsedsysccqqsscqpacctsspcqq  180 (292)
+                      .+|+.+...|=..+.|=. ||.+.-|.-
+T Consensus         3 ~~Cs~~G~~C~~hsDCC~-CC~~g~C~~   29 (46)
+T 2P4L_A            3 SFCKADEKPCEYHADCCN-CCLSGICAP   29 (46)
+T ss_dssp             CCCBCSSSCCSSSSSBSS-EECSSCEEC
+T ss_pred             CccccCCCccCCcCCCCC-cccCCcccc
+Confidence            456666666666655554 555444433
+
+
+No 10
+>1R3U_A phosphoribosyltransferase, Thermoanaerobacter tengcongensis, purine salvage; 2.5A {Thermoanaerobacter tengcongensis} SCOP: c.61.1.1
+Probab=1.99  E-value=2.7e+03  Score=17.06  Aligned_cols=6  Identities=33%  Similarity=0.086  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCC
+Q sp|P60411|KR10    2 AASTMS    7 (292)
+Q Consensus         2 aastms    7 (292)
+                      +++||+
+T Consensus         2 ~~~~~~    7 (205)
+T 1R3U_A            2 ASMTGG    7 (205)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            333333
+
+

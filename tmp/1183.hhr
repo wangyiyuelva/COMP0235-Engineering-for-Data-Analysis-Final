@@ -1,0 +1,166 @@
+Query         tr|H0YJT8|H0YJT8_HUMAN
+Match_columns 78
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:52:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1183.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7N9S_B TOXIN, SIGNALING PROTEI  11.2 5.1E+02  0.0055   13.7   2.3   15   48-62    106-120 (121)
+  2 6B0O_D Wilms tumor protein/DNA  10.8 2.9E+02  0.0032   11.5   0.7    7   63-69      1-7   (119)
+  3 3S6L_D Hep_Hag family; Structu  10.8 2.6E+02  0.0028   17.1   0.7    9   60-68      1-9   (178)
+  4 4A94_D CARBOXYPEPTIDASE A4 (E.   9.7 3.2E+02  0.0035   18.4   0.9   11   66-76     12-24  (53)
+  5 5MRV_C Carboxypeptidase O (E.C   9.7 3.2E+02  0.0035   18.4   0.9   11   66-76     12-24  (53)
+  6 5FWW_A LOW-DENSITY LIPOPROTEIN   9.3 2.9E+02  0.0031   19.0   0.6   23   56-78    589-619 (619)
+  7 2RVK_A Stress-activated map ki   8.7 3.3E+02  0.0036   19.5   0.8    8   60-67      1-8   (160)
+  8 7RG4_B complex, transportin, i   5.8 6.7E+02  0.0072   13.5   0.9   11   68-78      4-14  (40)
+  9 7RG5_B complex, transportin, i   5.8 6.7E+02  0.0072   13.5   0.9   11   68-78      4-14  (40)
+ 10 2H1Z_A beta-hairpin, cystine k   5.7   1E+03   0.011   15.2   1.7   18   56-75      1-23  (39)
+
+No 1
+>7N9S_B TOXIN, SIGNALING PROTEIN-Hydrolase complex;{Homo sapiens}
+Probab=11.21  E-value=5.1e+02  Score=13.66  Aligned_cols=15  Identities=27%  Similarity=0.702  Sum_probs=7.0  Template_Neff=12.200
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|H0YJT8|H0YJ   48 GLPGEAAGGLCLGPG   62 (78)
+Q Consensus        48 glpgeaagglclgpg   62 (78)
+                      .+|-...+..|++++
+T Consensus       106 ~~p~~~~~~~c~~~~  120 (121)
+T 7N9S_B          106 HFPRHGAEQICVGQN  120 (121)
+T ss_pred             cCCCCCCCCCccCCC
+Confidence            344333445555554
+
+
+No 2
+>6B0O_D Wilms tumor protein/DNA Complex; protein-DNA complex Wilms tumor suppressor; 1.552A {Homo sapiens}
+Probab=10.79  E-value=2.9e+02  Score=11.46  Aligned_cols=7  Identities=57%  Similarity=1.507  Sum_probs=2.3  Template_Neff=15.700
+
+Q ss_pred             CCCCccC
+Q tr|H0YJT8|H0YJ   63 HMQPCVC   69 (78)
+Q Consensus        63 hmqpcvc   69 (78)
+                      ||+|..|
+T Consensus         1 ~~~~~~c    7 (119)
+T 6B0O_D            1 HMRPFMC    7 (119)
+T ss_dssp             --CCEEC
+T ss_pred             CCCCccc
+Confidence            4455444
+
+
+No 3
+>3S6L_D Hep_Hag family; Structural Genomics, Seattle Structural Genomics; HET: ZN, CL, IOD; 2.3A {Burkholderia pseudomallei}
+Probab=10.75  E-value=2.6e+02  Score=17.10  Aligned_cols=9  Identities=44%  Similarity=0.848  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCcc
+Q tr|H0YJT8|H0YJ   60 GPGHMQPCV   68 (78)
+Q Consensus        60 gpghmqpcv   68 (78)
+                      |||.|++-+
+T Consensus         1 ~~~~~~~~~    9 (178)
+T 3S6L_D            1 GPGSMSLST    9 (178)
+T ss_dssp             ---------
+T ss_pred             CCCcccccc
+Confidence            567776644
+
+
+No 4
+>4A94_D CARBOXYPEPTIDASE A4 (E.C.3.4.17.-), CARBOXYPEPTIDASE INHIBITOR; HYDROLASE-HYDROLASE INHIBITOR COMPLEX, CPA4, NVCI; HET: NO3; 1.7A {HOMO SAPIENS}
+Probab=9.66  E-value=3.2e+02  Score=18.40  Aligned_cols=11  Identities=73%  Similarity=1.491  Sum_probs=6.7  Template_Neff=1.400
+
+Q ss_pred             CccCCC--CCCcC
+Q tr|H0YJT8|H0YJ   66 PCVCPL--DATCS   76 (78)
+Q Consensus        66 pcvcpl--datcs   76 (78)
+                      |--|||  ||+||
+T Consensus        12 p~~CPL~P~A~Cs   24 (53)
+T 4A94_D           12 PGRCPLVPDATCT   24 (53)
+T ss_dssp             CCCCTTSTTCEEE
+T ss_pred             CCCCCCCCCCceE
+Confidence            334776  67775
+
+
+No 5
+>5MRV_C Carboxypeptidase O (E.C.3.4.17.-), Metallocarboxypeptidase inhibitor; Digestive Metallocarboxypeptidase, food digestion, carboxypeptidase; HET: NAG; 1.854A {Homo sapiens}
+Probab=9.66  E-value=3.2e+02  Score=18.40  Aligned_cols=11  Identities=73%  Similarity=1.491  Sum_probs=6.7  Template_Neff=1.400
+
+Q ss_pred             CccCCC--CCCcC
+Q tr|H0YJT8|H0YJ   66 PCVCPL--DATCS   76 (78)
+Q Consensus        66 pcvcpl--datcs   76 (78)
+                      |--|||  ||+||
+T Consensus        12 p~~CPL~P~A~Cs   24 (53)
+T 5MRV_C           12 PGRCPLVPDATCT   24 (53)
+T ss_dssp             CCCCTTSTTCEEE
+T ss_pred             CCCCCCCCCCceE
+Confidence            334776  67775
+
+
+No 6
+>5FWW_A LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED PROTEIN 6; SIGNALING PROTEIN, WNT, CELL SURFACE; 3.5A {HOMO SAPIENS}
+Probab=9.27  E-value=2.9e+02  Score=18.99  Aligned_cols=23  Identities=39%  Similarity=1.055  Sum_probs=13.1  Template_Neff=12.900
+
+Q ss_pred             CCCCCCC-CCCCccCCCC-------CCcCCC
+Q tr|H0YJT8|H0YJ   56 GLCLGPG-HMQPCVCPLD-------ATCSEP   78 (78)
+Q Consensus        56 glclgpg-hmqpcvcpld-------atcsep   78 (78)
+                      .+|+-.. .--.|.||..       .+|.||
+T Consensus       589 ~~C~~~~~~~~~C~C~~g~~l~~d~~~c~~~  619 (619)
+T 5FWW_A          589 HICLVKGDGTTRCSCPMHLVLLQDELSCGEP  619 (619)
+T ss_dssp             SBCCBCTTSCBCCBCCTTCEECTTSSCEECC
+T ss_pred             CeEEEcCCCCeEEeCCCCeEECCCCceecCC
+Confidence            4665332 2236888853       367765
+
+
+No 7
+>2RVK_A Stress-activated map kinase-interacting protein 1; Sin1, CRIM domain, TORC2, paramagnetic; NMR {Schizosaccharomyces pombe 972h-}
+Probab=8.71  E-value=3.3e+02  Score=19.46  Aligned_cols=8  Identities=63%  Similarity=1.269  Sum_probs=5.9  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCc
+Q tr|H0YJT8|H0YJ   60 GPGHMQPC   67 (78)
+Q Consensus        60 gpghmqpc   67 (78)
+                      |||||-+.
+T Consensus         1 ~~~~~~~~    8 (160)
+T 2RVK_A            1 GPGHMGSV    8 (160)
+T ss_dssp             CCSCSSSS
+T ss_pred             CCCccCCC
+Confidence            78998653
+
+
+No 8
+>7RG4_B complex, transportin, importin, TRANSPORT PROTEIN-VIRAL; 2.6A {Mus musculus}
+Probab=5.82  E-value=6.7e+02  Score=13.53  Aligned_cols=11  Identities=36%  Similarity=0.286  Sum_probs=6.5  Template_Neff=7.400
+
+Q ss_pred             cCCCCCCcCCC
+Q tr|H0YJT8|H0YJ   68 VCPLDATCSEP   78 (78)
+Q Consensus        68 vcpldatcsep   78 (78)
+                      .+|-|..||||
+T Consensus         4 ~R~sD~~~Sep   14 (40)
+T 7RG4_B            4 RRKSDLETSEP   14 (40)
+T ss_pred             EcCCCCCcCCC
+Confidence            34566666664
+
+
+No 9
+>7RG5_B complex, transportin, importin, TRANSPORT PROTEIN-VIRAL; 2.15A {Homo sapiens}
+Probab=5.82  E-value=6.7e+02  Score=13.53  Aligned_cols=11  Identities=36%  Similarity=0.286  Sum_probs=6.5  Template_Neff=7.400
+
+Q ss_pred             cCCCCCCcCCC
+Q tr|H0YJT8|H0YJ   68 VCPLDATCSEP   78 (78)
+Q Consensus        68 vcpldatcsep   78 (78)
+                      .+|-|..||||
+T Consensus         4 ~R~sD~~~Sep   14 (40)
+T 7RG5_B            4 RRKSDLETSEP   14 (40)
+T ss_pred             EcCCCCCcCCC
+Confidence            34566666664
+
+
+No 10
+>2H1Z_A beta-hairpin, cystine knot, TOXIN; NMR {Hadronyche versuta}
+Probab=5.74  E-value=1e+03  Score=15.20  Aligned_cols=18  Identities=56%  Similarity=1.125  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CCCCCCCCCCCcc-----CCCCCCc
+Q tr|H0YJT8|H0YJ   56 GLCLGPGHMQPCV-----CPLDATC   75 (78)
+Q Consensus        56 glclgpghmqpcv-----cpldatc   75 (78)
+                      |.|.+.|  |||-     |+-||+|
+T Consensus         1 ~~C~psg--QPCpyn~~cCsg~~sc   23 (39)
+T 2H1Z_A            1 GSCVPVD--QPCSLNTQPCCDDATC   23 (39)
+T ss_dssp             CCCBCTT--SBCCTTSCCBSTTCEE
+T ss_pred             CcccCCC--CcCCCCCCCCCCCCcc
+
+

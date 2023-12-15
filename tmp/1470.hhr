@@ -1,0 +1,166 @@
+Query         tr|H0YC43|H0YC43_HUMAN
+Match_columns 31
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:36:03 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1470.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XWX_B Uncharacterized protein  65.4     4.6   5E-05   23.1   0.2   16   12-27     62-77  (111)
+  2 7PMK_Y Genome stability, DNA r  30.3      37 0.00041   23.9   0.2   14   14-27     97-110 (319)
+  3 2LQX_A Trypsin inhibitor BWI-2  28.4      79 0.00085   17.5   1.2   13    3-15     27-39  (41)
+  4 7PLO_L Genome stability, DNA r  23.5      60 0.00065   22.7   0.2   17   13-29    106-122 (301)
+  5 7PFO_L DNA replication, helica  18.1      91 0.00098   22.3   0.2   17   13-29    143-159 (338)
+  6 2DYM_D Autophagy protein 5, Au  13.7 2.6E+02  0.0028   15.7   1.2   14    4-17     33-46  (46)
+  7 5O1V_A FAM83B; WNK3, Structura  13.4 1.8E+02  0.0019   14.6   0.5   19   12-30    266-284 (285)
+  8 2RT6_A Primosomal replication   10.0 2.9E+02  0.0032   14.8   0.7   13   13-25     30-42  (98)
+  9 2PU3_A Endonuclease I (E.C.3.1   9.5 2.7E+02  0.0029   17.3   0.5   11   19-29    100-110 (211)
+ 10 1OUP_A Non-specific endonuclea   7.4 3.8E+02  0.0042   16.6   0.5   13   19-31     99-111 (213)
+
+No 1
+>6XWX_B Uncharacterized protein,Uncharacterized protein, Chromosome segregation; Fork Protection Complex, Replisome, Cohesion; 3.1A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=65.43  E-value=4.6  Score=23.06  Aligned_cols=16  Identities=25%  Similarity=0.490  Sum_probs=12.5  Template_Neff=6.600
+
+Q ss_pred             hhhhhhhcccCCCCcc
+Q tr|H0YC43|H0YC   12 NSRQLFSHQLFPSISY   27 (31)
+Q Consensus        12 nsrqlfshqlfpsisy   27 (31)
+                      +.-|++.|+|||.+++
+T Consensus        62 ~~Yq~Wah~L~Pk~~F   77 (111)
+T 6XWX_B           62 SFYQEWLDDLFPKATF   77 (111)
+T ss_dssp             HHHHHHHHHHSSSCCH
+T ss_pred             HHHHHHHHHHCCCCCH
+Confidence            3457899999998764
+
+
+No 2
+>7PMK_Y Genome stability, DNA replication, Ubiquitination; HET: ANP; 3.2A {Saccharomyces cerevisiae}
+Probab=30.27  E-value=37  Score=23.94  Aligned_cols=14  Identities=43%  Similarity=0.961  Sum_probs=11.4  Template_Neff=4.700
+
+Q ss_pred             hhhhhcccCCCCcc
+Q tr|H0YC43|H0YC   14 RQLFSHQLFPSISY   27 (31)
+Q Consensus        14 rqlfshqlfpsisy   27 (31)
+                      -|++.|+|||...+
+T Consensus        97 Yq~WaH~LfPk~~F  110 (319)
+T 7PMK_Y           97 YQLWAHELFPKAKF  110 (319)
+T ss_pred             HHHHHHHHCCCCCH
+Confidence            47789999998764
+
+
+No 3
+>2LQX_A Trypsin inhibitor BWI-2c; helical hairpin, HYDROLASE INHIBITOR; NMR {Fagopyrum esculentum}
+Probab=28.37  E-value=79  Score=17.47  Aligned_cols=13  Identities=62%  Similarity=0.892  Sum_probs=9.4  Template_Neff=1.000
+
+Q ss_pred             chhhhhhhhhhhh
+Q tr|H0YC43|H0YC    3 RCERKREEANSRQ   15 (31)
+Q Consensus         3 rcerkreeansrq   15 (31)
+                      |||.|-||.-.||
+T Consensus        27 rcekkceekferq   39 (41)
+T 2LQX_A           27 RCEKKCEEKFERQ   39 (41)
+T ss_dssp             HHHHHHHHTTSSC
+T ss_pred             HHHHHHHHHHHHh
+Confidence            7888888765554
+
+
+No 4
+>7PLO_L Genome stability, DNA replication, Ubiquitination; HET: ANP; 2.8A {Homo sapiens}
+Probab=23.54  E-value=60  Score=22.66  Aligned_cols=17  Identities=24%  Similarity=0.712  Sum_probs=13.0  Template_Neff=5.000
+
+Q ss_pred             hhhhhhcccCCCCcccc
+Q tr|H0YC43|H0YC   13 SRQLFSHQLFPSISYLN   29 (31)
+Q Consensus        13 srqlfshqlfpsisyln   29 (31)
+                      .-|++.|+|||...+-.
+T Consensus       106 ~Ye~WahrLfPk~~FeD  122 (301)
+T 7PLO_L          106 HMEHWAHRLFPKLQFED  122 (301)
+T ss_pred             HHHHHHHHHCCCCCHHH
+Confidence            35778999999887643
+
+
+No 5
+>7PFO_L DNA replication, helicase, CMG, TIMELESS; HET: ANP; 3.2A {Homo sapiens}
+Probab=18.12  E-value=91  Score=22.31  Aligned_cols=17  Identities=24%  Similarity=0.712  Sum_probs=12.9  Template_Neff=4.700
+
+Q ss_pred             hhhhhhcccCCCCcccc
+Q tr|H0YC43|H0YC   13 SRQLFSHQLFPSISYLN   29 (31)
+Q Consensus        13 srqlfshqlfpsisyln   29 (31)
+                      .-|.+.|+|||.+.+-.
+T Consensus       143 ~Ye~WahrLfPK~~FeD  159 (338)
+T 7PFO_L          143 HMEHWAHRLFPKLQFED  159 (338)
+T ss_pred             HHHHHHHHHCCCCCHHH
+Confidence            34778999999887643
+
+
+No 6
+>2DYM_D Autophagy protein 5, Autophagy protein; ubiquitin-fold, herix-bundle, PROTEIN TURNOVER-PROTEIN TURNOVER; 2.2A {Saccharomyces cerevisiae}
+Probab=13.74  E-value=2.6e+02  Score=15.68  Aligned_cols=14  Identities=36%  Similarity=0.636  Sum_probs=8.8  Template_Neff=2.500
+
+Q ss_pred             hhhhhhhhhhhhhh
+Q tr|H0YC43|H0YC    4 CERKREEANSRQLF   17 (31)
+Q Consensus         4 cerkreeansrqlf   17 (31)
+                      ++|-+-|+|-.+||
+T Consensus        33 ~~RD~iE~nfseLF   46 (46)
+T 2DYM_D           33 TDRNDKEAHLNELF   46 (46)
+T ss_dssp             HHHHHHHHTTGGGC
+T ss_pred             HHHHHHHHHhHhhC
+Confidence            45666666666665
+
+
+No 7
+>5O1V_A FAM83B; WNK3, Structural Genomics, Structural Genomics; HET: EDO, SEP; 1.723A {Homo sapiens}
+Probab=13.43  E-value=1.8e+02  Score=14.60  Aligned_cols=19  Identities=32%  Similarity=0.497  Sum_probs=13.5  Template_Neff=13.100
+
+Q ss_pred             hhhhhhhcccCCCCccccC
+Q tr|H0YC43|H0YC   12 NSRQLFSHQLFPSISYLNV   30 (31)
+Q Consensus        12 nsrqlfshqlfpsisylnv   30 (31)
+                      ...+++.|.+|...+-++|
+T Consensus       266 ~~~~~~~~~~~~~~~~~~~  284 (285)
+T 5O1V_A          266 SIRDLLNHAFFAEDTGLRV  284 (285)
+T ss_dssp             CHHHHHTSGGGCCCCSCC-
+T ss_pred             CHHHHHcChhHhhhhcccC
+Confidence            3467888888887777765
+
+
+No 8
+>2RT6_A Primosomal replication protein N''; Primosome, Replication restart, PriC, DNA; NMR {Escherichia coli}
+Probab=10.00  E-value=2.9e+02  Score=14.76  Aligned_cols=13  Identities=23%  Similarity=0.373  Sum_probs=8.9  Template_Neff=7.900
+
+Q ss_pred             hhhhhhcccCCCC
+Q tr|H0YC43|H0YC   13 SRQLFSHQLFPSI   25 (31)
+Q Consensus        13 srqlfshqlfpsi   25 (31)
+                      ....|+.+||..=
+T Consensus        30 ~~~~Fd~~LF~~~   42 (98)
+T 2RT6_A           30 LSARFDRHLFQTR   42 (98)
+T ss_dssp             CCTTCCTTTSCSS
+T ss_pred             hHHhhcHHhcCCC
+Confidence            5667777787653
+
+
+No 9
+>2PU3_A Endonuclease I (E.C.3.1.21.1); cold adaptation, salt adaptation, psychrophilic; 1.5A {Vibrio salmonicida}
+Probab=9.52  E-value=2.7e+02  Score=17.25  Aligned_cols=11  Identities=45%  Similarity=0.812  Sum_probs=7.6  Template_Neff=7.400
+
+Q ss_pred             cccCCCCcccc
+Q tr|H0YC43|H0YC   19 HQLFPSISYLN   29 (31)
+Q Consensus        19 hqlfpsisyln   29 (31)
+                      |.|+|++..+|
+T Consensus       100 hnL~p~~~~~N  110 (211)
+T 2PU3_A          100 HNLVPAIGEVN  110 (211)
+T ss_dssp             GGEEEEEHHHH
+T ss_pred             hhhcccccccc
+Confidence            67788776554
+
+
+No 10
+>1OUP_A Non-specific endonuclease, beta-beta-alpha metal motif; 2.3A {Vibrio vulnificus} SCOP: d.4.1.6
+Probab=7.42  E-value=3.8e+02  Score=16.62  Aligned_cols=13  Identities=38%  Similarity=0.442  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             cccCCCCccccCC
+Q tr|H0YC43|H0YC   19 HQLFPSISYLNVL   31 (31)
+Q Consensus        19 hqlfpsisylnvl   31 (31)
+                      |.|+|++..+|..
+T Consensus        99 hnl~pa~~~~N~~  111 (213)
+T 1OUP_A           99 HNLTPAIGEVNGD  111 (213)
+T ss_dssp             GGEEEEEHHHHHH
+T ss_pred             hhhccCccccccc
+
+

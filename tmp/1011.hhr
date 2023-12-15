@@ -1,0 +1,169 @@
+Query         tr|C9JAW1|C9JAW1_HUMAN
+Match_columns 70
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 20:55:31 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1011.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3PFY_A OTU domain-containing p  15.7      80 0.00087   19.8  -0.4   14   43-56     17-30  (185)
+  2 3N7P_A Calcitonin gene-related  15.5 1.6E+02  0.0017   16.2   0.7   10   52-61      2-11  (115)
+  3 3N7S_A Calcitonin gene-related  15.5 1.6E+02  0.0017   16.2   0.7   10   52-61      2-11  (115)
+  4 1W1D_A 3-PHOSPHOINOSITIDE DEPE  11.4 2.9E+02  0.0031   15.8   1.0   22    2-23     18-39  (151)
+  5 1W1H_B 3-PHOSPHOINOSITIDE DEPE  11.4 2.9E+02  0.0031   15.8   1.0   22    2-23     18-39  (151)
+  6 7N9F_t NPC, nucleocytoplasmic    9.7 3.3E+02  0.0036   15.0   0.9   25    4-28     10-34  (92)
+  7 3HIL_B Ephrin type-A receptor    9.6 4.3E+02  0.0046   11.7   1.8   16   42-57      6-21  (82)
+  8 3KKA_A EPHRIN TYPE-A RECEPTOR    9.6 4.3E+02  0.0046   11.7   1.8   16   42-57      6-21  (82)
+  9 3KKA_B EPHRIN TYPE-A RECEPTOR    9.6 4.3E+02  0.0046   11.7   1.8   17   42-58      6-22  (82)
+ 10 5DMR_B Reverse transcriptase/r   8.9 5.2E+02  0.0057   16.8   1.7   25   35-59    138-162 (162)
+
+No 1
+>3PFY_A OTU domain-containing protein 5 (E.C.3.4.19.12); Structural Genomics, Structural Genomics Consortium; HET: PG4, PEG, MSE; 1.702A {Homo sapiens}
+Probab=15.73  E-value=80  Score=19.77  Aligned_cols=14  Identities=43%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCcCCCc
+Q tr|C9JAW1|C9JA   43 SSPGYNSCDEHMEL   56 (70)
+Q Consensus        43 sspgynscdehmel   56 (70)
+                      .+-||||.||+...
+T Consensus        17 ~~~g~~s~~e~~~~   30 (185)
+T 3PFY_A           17 QGAGYNSEDEYEAA   30 (185)
+T ss_dssp             --------------
+T ss_pred             CCCCCCcHHHHHHH
+Confidence            46799999998754
+
+
+No 2
+>3N7P_A Calcitonin gene-related peptide type 1; GPCR, class B GPCR, antagonist; HET: SO4, MSE; 2.8A {Homo sapiens}
+Probab=15.54  E-value=1.6e+02  Score=16.21  Aligned_cols=10  Identities=60%  Similarity=1.086  Sum_probs=0.5  Template_Neff=11.000
+
+Q ss_pred             cCCCcccCcc
+Q tr|C9JAW1|C9JA   52 EHMELDDLPE   61 (70)
+Q Consensus        52 ehmelddlpe   61 (70)
+                      .||||++-|+
+T Consensus         2 ~~~~~~~~~~   11 (115)
+T 3N7P_A            2 SHMELEESPE   11 (115)
+T ss_dssp             ---------C
+T ss_pred             CCccccCCcC
+Confidence            4777776554
+
+
+No 3
+>3N7S_A Calcitonin gene-related peptide type 1; GPCR, class B GPCR, antagonist; HET: 3N7, 3N6; 2.1A {Homo sapiens}
+Probab=15.54  E-value=1.6e+02  Score=16.21  Aligned_cols=10  Identities=60%  Similarity=1.086  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCCCcccCcc
+Q tr|C9JAW1|C9JA   52 EHMELDDLPE   61 (70)
+Q Consensus        52 ehmelddlpe   61 (70)
+                      .||||++-|+
+T Consensus         2 ~~~~~~~~~~   11 (115)
+T 3N7S_A            2 SHMELEESPE   11 (115)
+T ss_dssp             ----------
+T ss_pred             CCccccCCcC
+Confidence            4777776554
+
+
+No 4
+>1W1D_A 3-PHOSPHOINOSITIDE DEPENDENT PROTEIN KINASE-1 (E.C.2.7.1.37); TRANSFERASE, PDK1, PHOSPHOINOSITIDE DEPENDENT PROTEIN; HET: 4IP; 1.5A {HOMO SAPIENS} SCOP: b.55.1.1
+Probab=11.43  E-value=2.9e+02  Score=15.75  Aligned_cols=22  Identities=14%  Similarity=0.069  Sum_probs=17.0  Template_Neff=11.300
+
+Q ss_pred             CeEEecCCCCchhhhhhHhhcc
+Q tr|C9JAW1|C9JA    2 VWEVKTNQMPNAVQKLLLVMDK   23 (70)
+Q Consensus         2 vwevktnqmpnavqklllvmdk   23 (70)
+                      +|||+.+.-++++.+++-...+
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~~~   39 (151)
+T 1W1D_A           18 SFELDLQFSEDEKRLLLEKQAG   39 (151)
+T ss_dssp             EEEECSCCCHHHHHHHHHHHHH
+T ss_pred             ccccccCCCHHHHHHHHHHhcc
+Confidence            5888888888888887766554
+
+
+No 5
+>1W1H_B 3-PHOSPHOINOSITIDE DEPENDENT PROTEIN KINASE-1 (E.C.2.7.1.37); PDK1, PHOSPHOINOSITIDE DEPENDENT PROTEIN KINASE; HET: GOL, SO4; 1.45A {HOMO SAPIENS} SCOP: b.55.1.1
+Probab=11.43  E-value=2.9e+02  Score=15.75  Aligned_cols=22  Identities=14%  Similarity=0.069  Sum_probs=16.9  Template_Neff=11.300
+
+Q ss_pred             CeEEecCCCCchhhhhhHhhcc
+Q tr|C9JAW1|C9JA    2 VWEVKTNQMPNAVQKLLLVMDK   23 (70)
+Q Consensus         2 vwevktnqmpnavqklllvmdk   23 (70)
+                      +|||+.+.-++++.+++-...+
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~~~   39 (151)
+T 1W1H_B           18 SFELDLQFSEDEKRLLLEKQAG   39 (151)
+T ss_dssp             EEEECSCCCHHHHHHHHHHHHH
+T ss_pred             ccccccCCCHHHHHHHHHHhcc
+Confidence            5888888888888887766554
+
+
+No 6
+>7N9F_t NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=9.73  E-value=3.3e+02  Score=14.99  Aligned_cols=25  Identities=20%  Similarity=0.307  Sum_probs=16.7  Template_Neff=10.100
+
+Q ss_pred             EEecCCCCchhhhhhHhhccccCCC
+Q tr|C9JAW1|C9JA    4 EVKTNQMPNAVQKLLLVMDKRASGM   28 (70)
+Q Consensus         4 evktnqmpnavqklllvmdkrasgm   28 (70)
+                      +++...||...|+..+-.-+++...
+T Consensus        10 ~i~~~~m~~~~~~~~~~~~~~~~~~   34 (92)
+T 7N9F_t           10 IVKASDITDKLKEDILTISKDALDK   34 (92)
+T ss_pred             EEEeCCCCHHHHHHHHHHHHHHHHH
+Confidence            4667788888887776655554444
+
+
+No 7
+>3HIL_B Ephrin type-A receptor 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.0A {Homo sapiens}
+Probab=9.63  E-value=4.3e+02  Score=11.74  Aligned_cols=16  Identities=13%  Similarity=-0.166  Sum_probs=0.4  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCcCCCcc
+Q tr|C9JAW1|C9JA   42 PSSPGYNSCDEHMELD   57 (70)
+Q Consensus        42 psspgynscdehmeld   57 (70)
+                      |-+++|+-++......
+T Consensus         6 ~~~~~~~~~~~~~~~~   21 (82)
+T 3HIL_B            6 HHSSGRENLYFQGDGI   21 (82)
+T ss_dssp             ---------------C
+T ss_pred             CCCCCcccccCCCCCC
+Confidence            3445555555444443
+
+
+No 8
+>3KKA_A EPHRIN TYPE-A RECEPTOR 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.4A {HOMO SAPIENS}
+Probab=9.63  E-value=4.3e+02  Score=11.74  Aligned_cols=16  Identities=13%  Similarity=-0.166  Sum_probs=1.3  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCcCCCcc
+Q tr|C9JAW1|C9JA   42 PSSPGYNSCDEHMELD   57 (70)
+Q Consensus        42 psspgynscdehmeld   57 (70)
+                      |-+++|+-++......
+T Consensus         6 ~~~~~~~~~~~~~~~~   21 (82)
+T 3KKA_A            6 HHSSGRENLYFQGDGI   21 (82)
+T ss_dssp             -------------CCC
+T ss_pred             CCCCCcccccCCCCCC
+Confidence            3455555555444443
+
+
+No 9
+>3KKA_B EPHRIN TYPE-A RECEPTOR 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.4A {HOMO SAPIENS}
+Probab=9.63  E-value=4.3e+02  Score=11.74  Aligned_cols=17  Identities=12%  Similarity=-0.169  Sum_probs=1.2  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCcCCCccc
+Q tr|C9JAW1|C9JA   42 PSSPGYNSCDEHMELDD   58 (70)
+Q Consensus        42 psspgynscdehmeldd   58 (70)
+                      |-+++|+-++.......
+T Consensus         6 ~~~~~~~~~~~~~~~~~   22 (82)
+T 3KKA_B            6 HHSSGRENLYFQGDGIP   22 (82)
+T ss_dssp             --------------CCS
+T ss_pred             CCCCCcccccCCCCCCC
+Confidence            34555555555444433
+
+
+No 10
+>5DMR_B Reverse transcriptase/ribonuclease H p80 (E.C.3.1.26.4); eRF1, RT, complex, HYDROLASE-TRANSLATION complex; 2.8A {Moloney murine leukemia virus (isolate Shinnick)}
+Probab=8.94  E-value=5.2e+02  Score=16.82  Aligned_cols=25  Identities=24%  Similarity=0.317  Sum_probs=3.1  Template_Neff=8.800
+
+Q ss_pred             hccCCCCCCCCCCCCCCcCCCcccC
+Q tr|C9JAW1|C9JA   35 LQCNENLPSSPGYNSCDEHMELDDL   59 (70)
+Q Consensus        35 lqcnenlpsspgynscdehmelddl   59 (70)
+                      |.-.....+...++.++.|.+++|+
+T Consensus       138 LRy~~~~~~~~~~~~~~~~~~~~~~  162 (162)
+T 5DMR_B          138 LRYRVDFQGMEYQGGDDEFFDLDDY  162 (162)
+T ss_dssp             ESSCCCCC-----------------
+T ss_pred             hhCeeccccccccCCccccCCcccC
+Confidence            3333344444566767888888874
+
+

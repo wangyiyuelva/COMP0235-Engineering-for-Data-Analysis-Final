@@ -1,0 +1,628 @@
+Query         tr|A0A8Q3SIQ3|A0A8Q3SIQ3_HUMAN
+Match_columns 509
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:15:05 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0483.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BXO_A FANCONI ANEMIA GROUP M   99.2   5E-10 5.5E-15   92.8  11.5  109  389-497     2-110 (254)
+  2 4M6W_A Fanconi anemia group M   98.8 9.8E-08 1.1E-12   75.4  10.0   94  404-497     1-94  (221)
+  3 2BGW_A XPF ENDONUCLEASE (E.C.2  98.5 9.2E-07   1E-11   69.0   7.3   89  404-495     2-90  (219)
+  4 2BGW_B XPF ENDONUCLEASE (E.C.2  98.5 9.2E-07   1E-11   69.0   7.3   88  405-495     3-90  (219)
+  5 1J22_A structure-specific endo  98.5 1.2E-06 1.3E-11   68.2   7.7   84  408-494     2-85  (143)
+  6 1J24_A structure-specific endo  98.5 1.2E-06 1.3E-11   68.2   7.7   84  408-494     2-85  (143)
+  7 6SXA_F DNA repair endonuclease  98.1 2.3E-05 2.5E-10   78.6   9.7   86  408-496   679-764 (916)
+  8 4P0P_A Crossover junction endo  98.1 2.1E-05 2.3E-10   68.0   7.8   96  400-496    13-128 (306)
+  9 4P0Q_A resolvase/DNA Complex;   98.1 2.1E-05 2.3E-10   68.0   7.8   96  400-496    13-128 (306)
+ 10 6SXA_G DNA repair endonuclease  97.8  0.0011 1.2E-08   60.1  12.5   81  407-495    95-175 (297)
+ 11 2ZIU_A Mus81 protein, Crossove  97.8 0.00019 2.1E-09   62.7   7.2   92  403-495    12-130 (311)
+ 12 2ZIV_A Mus81 protein, Crossove  97.8 0.00019 2.1E-09   62.7   7.2   92  403-495    12-130 (311)
+ 13 4BXO_B FANCONI ANEMIA GROUP M   97.3  0.0045 4.9E-08   49.4   8.7   80  408-494    17-97  (217)
+ 14 4M6W_B Fanconi anemia group M   96.0   0.055   6E-07   43.1   6.6   77  411-494     2-79  (208)
+ 15 6BZF_D Sporulation-specific pr  89.2     2.8   3E-05   38.4   6.7   82  412-494     5-89  (206)
+ 16 6BZF_F Sporulation-specific pr  89.2     2.8   3E-05   38.4   6.7   83  412-495     5-90  (206)
+ 17 6BZG_B Protein ZIP2, Sporulati  88.6     2.8 3.1E-05   38.4   6.4   70  425-494    17-89  (206)
+ 18 3C1Y_B DNA integrity scanning   79.6    0.26 2.8E-06   47.3  -4.2   61  436-496   191-263 (377)
+ 19 3C23_B DNA integrity scanning   79.6    0.26 2.8E-06   47.3  -4.2   61  436-496   191-263 (377)
+ 20 4YVZ_B DNA-integrity scanning   79.6    0.26 2.8E-06   47.3  -4.2   61  436-496   191-263 (377)
+ 21 2ZIV_B Mus81 protein, Crossove  39.7   2E+02  0.0022   27.6   6.4   97  398-495    10-138 (351)
+ 22 5ZWA_B Pyridoxine/pyridoxal/py  30.9 2.3E+02  0.0025   25.4   5.1   11  427-438    41-51  (296)
+ 23 5ZWB_B Pyridoxine/pyridoxal/py  30.9 2.3E+02  0.0025   25.4   5.1   11  427-438    41-51  (296)
+ 24 5ZWB_A Pyridoxine/pyridoxal/py  26.9 2.1E+02  0.0022   25.7   4.1   11  426-437    40-50  (296)
+ 25 4JQS_A hypothetical protein; T  24.6 3.7E+02   0.004   21.6   4.7    9  433-441    48-56  (250)
+ 26 4PXY_A Uncharacterized protein  24.6 3.7E+02   0.004   21.6   4.7    9  433-441    48-56  (250)
+ 27 3KTS_G Glycerol uptake operon   23.1   4E+02  0.0043   24.3   5.2   15  425-440    45-59  (192)
+
+No 1
+>4BXO_A FANCONI ANEMIA GROUP M PROTEIN; HYDROLASE-DNA COMPLEX, DNA BINDING, PSEUDO-NUCLEASE; 2.15A {HOMO SAPIENS}
+Probab=99.19  E-value=5e-10  Score=92.75  Aligned_cols=109  Identities=99%  Similarity=1.430  Sum_probs=78.3  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchc
+Q tr|A0A8Q3SIQ3|  389 SKSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSV  468 (509)
+Q Consensus       389 sksrphlagthtslrlpqegkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsv  468 (509)
+                      |+|++|++|+|++++++++...++|+||+||....++|+..|....|+++++..|++|||.+.+.++||||++.||+.++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~i~vD~rE~~~~~~l~~~l~~~~~~~~~~~~L~~gDy~~~~~~~ierKt~~Dl~~s~   81 (254)
+T 4BXO_A            2 SGSRPHLAGTHTSLRLPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSV   81 (254)
+T ss_dssp             ----------------------CEEEEETTHHHHCHHHHHHHHTSTTCEEEEECCTTCCEECSSSEEEEEEEHHHHHCTT
+T ss_pred             CCCCCCCCCCCccccCCCCCCCeEEEEeCCccccchHHHHHHHHHcCCeEEEecCCCCCEEeeCCeEEEEEcHHHHhhHH
+Confidence            68999999999999999999999999999998765557888875679999999999999999989999999999999999
+
+
+Q ss_pred             cHHHHHHHHHHHHHHHhhheeeeecChhh
+Q tr|A0A8Q3SIQ3|  469 NKNKFIEQIQHLQSMFERICVIVEKDREK  497 (509)
+Q Consensus       469 nknkfieqiqhlqsmfericvivekdrek  497 (509)
+                      .++|+.+|+.++.+.+.+++++||+....
+T Consensus        82 ~~~r~~~ql~~l~~~~~~~~llveg~~~~  110 (254)
+T 4BXO_A           82 NKNKFIEQIQHLQSMFERICVIVEKDREK  110 (254)
+T ss_dssp             SHHHHHHHHHHHHTTCSEEEEEEECCC--
+T ss_pred             hhhHHHHHHHHHHHhcCcEEEEEeCCccc
+Confidence            99999999999999889999999997654
+
+
+No 2
+>4M6W_A Fanconi anemia group M protein; FANCM, FAAP24, XPF/Mus81, Fanconi anemia; HET: SO4; 2.9A {Homo sapiens}
+Probab=98.81  E-value=9.8e-08  Score=75.38  Aligned_cols=94  Identities=98%  Similarity=1.421  Sum_probs=81.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHH
+Q tr|A0A8Q3SIQ3|  404 LPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSM  483 (509)
+Q Consensus       404 lpqegkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsm  483 (509)
+                      |+++.+.++|+||+||..+..+++..|....++.+.+..|++|||.+...++||||++.||+.++.++|+.+|+.++...
+T Consensus         1 ~~~~~~~~~i~vd~re~~~~~~~~~~l~~~~~~~~~~~~l~~gD~~~~~~~~ierk~~~dl~~s~~~~r~~~q~~~~~~~   80 (221)
+T 4M6W_A            1 MGQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSM   80 (221)
+T ss_dssp             ----CCSCEEEEETTHHHHCHHHHHHHHHTSCCEEEEECCTTCSEECSSSEEEEEEEHHHHHSTTSHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCeEEEEcCccccCchhHHHHHHHHcCCeEEEecCCCCCEEeeCCeEEEEEcHHHHhchHhhHHHHHHHHHHHHh
+Confidence            57788899999999998765457788875679999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HhhheeeeecChhh
+Q tr|A0A8Q3SIQ3|  484 FERICVIVEKDREK  497 (509)
+Q Consensus       484 fericvivekdrek  497 (509)
+                      +..++++|||....
+T Consensus        81 ~~~~~llveg~~~~   94 (221)
+T 4M6W_A           81 FERICVIVEKDREK   94 (221)
+T ss_dssp             CSEEEEEEECCC--
+T ss_pred             cCCeEEEEeCCccc
+Confidence            99999999997654
+
+
+No 3
+>2BGW_A XPF ENDONUCLEASE (E.C.2.7.7.-); HYDROLASE, STRUCTURE SPECIFIC ENDONUCLEASE, NUCLEOTIDE; HET: SO4; 2.8A {Aeropyrum pernix} SCOP: c.52.1.20, a.60.2.5
+Probab=98.50  E-value=9.2e-07  Score=69.00  Aligned_cols=89  Identities=31%  Similarity=0.403  Sum_probs=80.4  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHH
+Q tr|A0A8Q3SIQ3|  404 LPQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSM  483 (509)
+Q Consensus       404 lpqegkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsm  483 (509)
+                      +++....++|+||+||..+.  ++..|+ .+++++++..|++|||.+...++||||+..||+.++.++|+.+++.++...
+T Consensus         2 ~~~~~~~~~i~vd~re~~~~--~~~~l~-~~~~~~~~~~l~~gD~~~~~~~~verk~~~dl~~s~~~~r~~~q~~~l~~~   78 (219)
+T 2BGW_A            2 LEDPGGRPRVYVDVREERSP--VPSILE-SLGVQVIPKQLPMGDYLVSDSIIVERKTSSDFAKSLFDGRLFEQASRLAEH   78 (219)
+T ss_dssp             CCBCCSSCEEEEETTTTTSS--HHHHHH-HTTCEEEEECCSSSSEEEETTEEEEEEEHHHHHHHHHHSHHHHHHHHHHHH
+T ss_pred             CCCCCCCCEEEEecCCCCCC--HHHHHH-HCCCEEEeecCCCCCEEEcCCEEEEEecHHHHHHHHhcCCHHHHHHHHHHc
+Confidence            34555678999999999875  788888 789999999999999999999999999999999999999999999999998
+
+
+Q ss_pred             HhhheeeeecCh
+Q tr|A0A8Q3SIQ3|  484 FERICVIVEKDR  495 (509)
+Q Consensus       484 fericvivekdr  495 (509)
+                      +..++++|++..
+T Consensus        79 ~~~~~llve~~~   90 (219)
+T 2BGW_A           79 YETVFIIVEGPP   90 (219)
+T ss_dssp             CSEEEEEEESCS
+T ss_pred             CCCEEEEEeCCC
+Confidence            889999999974
+
+
+No 4
+>2BGW_B XPF ENDONUCLEASE (E.C.2.7.7.-); HYDROLASE, STRUCTURE SPECIFIC ENDONUCLEASE, NUCLEOTIDE; HET: SO4; 2.8A {Aeropyrum pernix} SCOP: c.52.1.20, a.60.2.5
+Probab=98.50  E-value=9.2e-07  Score=69.00  Aligned_cols=88  Identities=31%  Similarity=0.393  Sum_probs=77.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHH
+Q tr|A0A8Q3SIQ3|  405 PQEGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMF  484 (509)
+Q Consensus       405 pqegkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmf  484 (509)
+                      ++....++|+||+||..+.  ++..|+ .+++++++..|++|||.+...++||||+..||+.++.++|+.+++.++...+
+T Consensus         3 ~~~~~~~~i~vd~re~~~~--~~~~l~-~~~~~~~~~~l~~gD~~~~~~~~verk~~~dl~~s~~~~r~~~q~~~l~~~~   79 (219)
+T 2BGW_B            3 EDPGGRPRVYVDVREERSP--VPSILE-SLGVQVIPKQLPMGDYLVSDSIIVERKTSSDFAKSLFDGRLFEQASRLAEHY   79 (219)
+T ss_dssp             -----CCEEEEEGGGTTSS--HHHHHH-TTTCEEEEECCSSSSEECSSSEEEEEEEHHHHHHHHHHTHHHHHHHHHHHHC
+T ss_pred             CCCCCCCEEEEecCCCCCC--HHHHHH-HCCCEEEeecCCCCCEEEcCCEEEEEecHHHHHHHHhcCCHHHHHHHHHHcC
+Confidence            4455678999999999875  788887 7889999999999999999999999999999999999999999999999988
+
+
+Q ss_pred             hhheeeeecCh
+Q tr|A0A8Q3SIQ3|  485 ERICVIVEKDR  495 (509)
+Q Consensus       485 ericvivekdr  495 (509)
+                      ..++++|++..
+T Consensus        80 ~~~~llve~~~   90 (219)
+T 2BGW_B           80 ETVFIIVEGPP   90 (219)
+T ss_dssp             SEEEEEEESCS
+T ss_pred             CCEEEEEeCCC
+Confidence            89999999974
+
+
+No 5
+>1J22_A structure-specific endonuclease, HYDROLASE; 1.8A {Pyrococcus furiosus} SCOP: c.52.1.20
+Probab=98.49  E-value=1.2e-06  Score=68.21  Aligned_cols=84  Identities=29%  Similarity=0.561  Sum_probs=75.0  Template_Neff=10.000
+
+Q ss_pred             CCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhhh
+Q tr|A0A8Q3SIQ3|  408 GKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERI  487 (509)
+Q Consensus       408 gkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmferi  487 (509)
+                      +..++|+||+||....  +...|. ..|+.+.+..|++|||.+...++||||+..||+.++.++|+.+|+.++.+.+.++
+T Consensus         2 ~~~~~i~vD~rE~~~~--~~~~l~-~~~~~~~~~~L~~GDy~~~~~~~iERKt~~Dl~~s~~~~R~~~q~~~l~~~~~~~   78 (143)
+T 1J22_A            2 QEGVKVVVDSRELRSE--VVKRLK-LLGVKLEVKTLDVGDYIISEDVAIERKSANDLIQSIIDGGLFDQVKRLKEAYSRP   78 (143)
+T ss_dssp             ---CEEEEEGGGTTSH--HHHHHH-HTTCEEEEECCSSCSEECSSSEEEEEEEHHHHHHHHHTTCHHHHHHHHHHHCSEE
+T ss_pred             CCCcEEEEcCccccch--HHHHHH-HcCCEEEEEeCCCCCEEEeCCEEEEEEcHHHHHHHHhcCCHHHHHHHHHHhCCCc
+Confidence            3467899999998765  777787 6799999999999999999889999999999999999999999999999988899
+
+
+Q ss_pred             eeeeecC
+Q tr|A0A8Q3SIQ3|  488 CVIVEKD  494 (509)
+Q Consensus       488 cvivekd  494 (509)
+                      +++|||.
+T Consensus        79 ~lliEg~   85 (143)
+T 1J22_A           79 IMIVEGS   85 (143)
+T ss_dssp             EEEEESC
+T ss_pred             EEEEeCC
+Confidence            9999996
+
+
+No 6
+>1J24_A structure-specific endonuclease, HYDROLASE; 1.78A {Pyrococcus furiosus} SCOP: c.52.1.20
+Probab=98.49  E-value=1.2e-06  Score=68.21  Aligned_cols=84  Identities=29%  Similarity=0.561  Sum_probs=75.6  Template_Neff=10.000
+
+Q ss_pred             CCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhhh
+Q tr|A0A8Q3SIQ3|  408 GKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERI  487 (509)
+Q Consensus       408 gkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmferi  487 (509)
+                      +..++|+||+||....  +...|. ..|+.+.+..|++|||.+...++||||+..||+.++.++|+.+|+.++.+.+.++
+T Consensus         2 ~~~~~i~vD~rE~~~~--~~~~l~-~~~~~~~~~~L~~GDy~~~~~~~iERKt~~Dl~~s~~~~R~~~q~~~l~~~~~~~   78 (143)
+T 1J24_A            2 QEGVKVVVDSRELRSE--VVKRLK-LLGVKLEVKTLDVGDYIISEDVAIERKSANDLIQSIIDGGLFDQVKRLKEAYSRP   78 (143)
+T ss_dssp             --CCEEEEEGGGTTSH--HHHHHH-HTTCEEEEECCSSCSEECSSSEEEEEEEHHHHHHHHHTTCHHHHHHHHHHHCSEE
+T ss_pred             CCCcEEEEcCccccch--HHHHHH-HcCCEEEEEeCCCCCEEEeCCEEEEEEcHHHHHHHHhcCCHHHHHHHHHHhCCCc
+Confidence            3467899999998765  777787 6799999999999999999889999999999999999999999999999988899
+
+
+Q ss_pred             eeeeecC
+Q tr|A0A8Q3SIQ3|  488 CVIVEKD  494 (509)
+Q Consensus       488 cvivekd  494 (509)
+                      +++|||.
+T Consensus        79 ~lliEg~   85 (143)
+T 1J24_A           79 IMIVEGS   85 (143)
+T ss_dssp             EEEEESC
+T ss_pred             EEEEeCC
+Confidence            9999996
+
+
+No 7
+>6SXA_F DNA repair endonuclease XPF (E.C.3.1.-.-); DNA Repair enzyme. Nucleotide excision; 3.6A {Homo sapiens}
+Probab=98.14  E-value=2.3e-05  Score=78.63  Aligned_cols=86  Identities=28%  Similarity=0.461  Sum_probs=77.3  Template_Neff=9.900
+
+Q ss_pred             CCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhhh
+Q tr|A0A8Q3SIQ3|  408 GKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERI  487 (509)
+Q Consensus       408 gkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmferi  487 (509)
+                      ...++|+||+||..+.  +...|. ..|+.+++..|++|||++...++||||+..||+.++.++|+.+|+.+|...+.++
+T Consensus       679 ~~~~~i~vD~RE~~~~--l~~~l~-~~~~~~~~~~L~~gDy~~~~~~~vERKt~~Dl~~Si~~gRl~~Q~~~l~~~~~~~  755 (916)
+T 6SXA_F          679 GTQQSIVVDMREFRSE--LPSLIH-RRGIDIEPVTLEVGDYILTPEMCVERKSISDLIGSLNNGRLYSQCISMSRYYKRP  755 (916)
+T ss_dssp             -CCCEEEEEGGGGSSS--HHHHHT-TTTCEEEEECCSSCSEECSTTCEEEEEEHHHHHHHHHTTCSHHHHHHHHHHSSSE
+T ss_pred             CCceEEEEcCcccccc--hhHHHH-HCCCeeEEeccCCCCEEecCCEEEEEeCHHHHHHHhcCchHHHHHHHHHHhCCCc
+Confidence            4568999999999765  666676 6789999999999999999899999999999999999999999999999999999
+
+
+Q ss_pred             eeeeecChh
+Q tr|A0A8Q3SIQ3|  488 CVIVEKDRE  496 (509)
+Q Consensus       488 cvivekdre  496 (509)
+                      ++||||...
+T Consensus       756 ~lliEg~~~  764 (916)
+T 6SXA_F          756 VLLIEFDPS  764 (916)
+T ss_dssp             EEEEECCSS
+T ss_pred             EEEEEcCCC
+Confidence            999999754
+
+
+No 8
+>4P0P_A Crossover junction endonuclease MUS81, Crossover; resolvase, Hydroase-DNA complex, HYDROLASE-DNA complex; 2.8A {Homo sapiens}
+Probab=98.12  E-value=2.1e-05  Score=68.04  Aligned_cols=96  Identities=22%  Similarity=0.251  Sum_probs=82.2  Template_Neff=10.200
+
+Q ss_pred             CCCCCCCCCCCeEEEECCcecCC---hHHHHHHHHHhcCCeEEEecCCCCCEEEeC----------------ceeeecCC
+Q tr|A0A8Q3SIQ3|  400 TSLRLPQEGKGTCILVGGHEITS---GLEVISSLRAIHGLQVEVCPLNGCDYIVSN----------------RMVVERRS  460 (509)
+Q Consensus       400 tslrlpqegkgtcilvggheits---glevisslraihglqvevcplngcdyivsn----------------rmvverrs  460 (509)
+                      ....+.++...++|+||.||...   ...++..|. ..++.+.+..|++|||++..                .++|+||+
+T Consensus        13 ~~~~~~~~~~~~~v~vD~rE~~~~~~~~~~~~~l~-~~~~~~~~~~l~~gD~~~~~~~~~~~~~~~~~~~~~~~~ierk~   91 (306)
+T 4P0P_A           13 QPLELRPGEYRVLLCVDIGETRGGGHRPELLRELQ-RLHVTHTVRKLHVGDFVWVAQETNPRDPANPGELVLDHIVERKR   91 (306)
+T ss_dssp             SCCEECTTSEEEEEEEETTSSCC----CCHHHHHH-HTTCCEEEECCSSCSEEEEEEESSCSSTTSCCEEEEEEEEEEEE
+T ss_pred             CCeEeCCCCcEEEEEEeCCCccCCCcHHHHHHHHH-HcCCCcEEEeeCCCcEEEEEEeCCCCCCCCCceEEeEEEEEecc
+Confidence            56677777878999999999986   112777787 68999999999999999875                68999999
+
+
+Q ss_pred             cchhcchccHHHHHHHHHHHHHH-HhhheeeeecChh
+Q tr|A0A8Q3SIQ3|  461 QSEMLNSVNKNKFIEQIQHLQSM-FERICVIVEKDRE  496 (509)
+Q Consensus       461 qsemlnsvnknkfieqiqhlqsm-fericvivekdre  496 (509)
+                      .+||+.++.++++.+|+.++... +..+++|||+...
+T Consensus        92 ~~dl~~s~~~~rl~~q~~~l~~~~~~~~~llieg~~~  128 (306)
+T 4P0P_A           92 LDDLCSSIIDGRFREQKFRLKRCGLERRVYLVEEHGS  128 (306)
+T ss_dssp             HHHHHHHHHHTHHHHHHHHHHTSSCCEEEEEEECSSS
+T ss_pred             HHHHHHHHhcCcHHHHHHHHHHcCCCCEEEEEeCCCc
+Confidence            99999999999999999999985 6788999999753
+
+
+No 9
+>4P0Q_A resolvase/DNA Complex; resolvase, Hydrolase-DNA complex; 2.851A {Homo sapiens}
+Probab=98.12  E-value=2.1e-05  Score=68.04  Aligned_cols=96  Identities=22%  Similarity=0.251  Sum_probs=82.8  Template_Neff=10.200
+
+Q ss_pred             CCCCCCCCCCCeEEEECCcecCC---hHHHHHHHHHhcCCeEEEecCCCCCEEEeC----------------ceeeecCC
+Q tr|A0A8Q3SIQ3|  400 TSLRLPQEGKGTCILVGGHEITS---GLEVISSLRAIHGLQVEVCPLNGCDYIVSN----------------RMVVERRS  460 (509)
+Q Consensus       400 tslrlpqegkgtcilvggheits---glevisslraihglqvevcplngcdyivsn----------------rmvverrs  460 (509)
+                      ....+.++...++|+||.||...   ...++..|. ..++.+.+..|++|||++..                .++|+||+
+T Consensus        13 ~~~~~~~~~~~~~v~vD~rE~~~~~~~~~~~~~l~-~~~~~~~~~~l~~gD~~~~~~~~~~~~~~~~~~~~~~~~ierk~   91 (306)
+T 4P0Q_A           13 QPLELRPGEYRVLLCVDIGETRGGGHRPELLRELQ-RLHVTHTVRKLHVGDFVWVAQETNPRDPANPGELVLDHIVERKR   91 (306)
+T ss_dssp             SCCEECTTSEEEEEEEECCSCCC--CSHHHHHHHH-HTTCCEEEECCSSCSEEEEEEESSCSSTTSCCEEEEEEEEEEEC
+T ss_pred             CCeEeCCCCcEEEEEEeCCCccCCCcHHHHHHHHH-HcCCCcEEEeeCCCcEEEEEEeCCCCCCCCCceEEeEEEEEecc
+Confidence            56677777878999999999986   223778887 68999999999999999875                68999999
+
+
+Q ss_pred             cchhcchccHHHHHHHHHHHHHH-HhhheeeeecChh
+Q tr|A0A8Q3SIQ3|  461 QSEMLNSVNKNKFIEQIQHLQSM-FERICVIVEKDRE  496 (509)
+Q Consensus       461 qsemlnsvnknkfieqiqhlqsm-fericvivekdre  496 (509)
+                      .+||+.++.++++.+|+.++... +..+++|||+...
+T Consensus        92 ~~dl~~s~~~~rl~~q~~~l~~~~~~~~~llieg~~~  128 (306)
+T 4P0Q_A           92 LDDLCSSIIDGRFREQKFRLKRCGLERRVYLVEEHGS  128 (306)
+T ss_dssp             HHHHHHHHHTTHHHHHHHHHHTSSCCEEEEEECCSSS
+T ss_pred             HHHHHHHHhcCcHHHHHHHHHHcCCCCEEEEEeCCCc
+Confidence            99999999999999999999885 6788999999753
+
+
+No 10
+>6SXA_G DNA repair endonuclease XPF (E.C.3.1.-.-); DNA Repair enzyme. Nucleotide excision; 3.6A {Homo sapiens}
+Probab=97.76  E-value=0.0011  Score=60.14  Aligned_cols=81  Identities=17%  Similarity=0.197  Sum_probs=61.4  Template_Neff=8.900
+
+Q ss_pred             CCCCeEEEECCcecCChHHHHHHHHHhcCCeEEEecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhh
+Q tr|A0A8Q3SIQ3|  407 EGKGTCILVGGHEITSGLEVISSLRAIHGLQVEVCPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFER  486 (509)
+Q Consensus       407 egkgtcilvggheitsglevisslraihglqvevcplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmfer  486 (509)
+                      +.....|+||+||..+.  ++..|+   ++.+++..| +|||+++..+++++.+.  .+..+..+++.+++.++...+..
+T Consensus        95 ~~~~~~IiVd~Re~~~~--l~~~l~---~~~~~~~~l-~~Dyv~~~~~~i~~ls~--~~~~l~~~~i~~ql~~l~~~~~~  166 (297)
+T 6SXA_G           95 GAKSNSIIVSPRQRGNP--VLKFVR---NVPWEFGDV-IPDYVLGQSTCALFLSL--RYHNLHPDYIHGRLQSLGKNFAL  166 (297)
+T ss_dssp             THH-HCEEECTTCTTCS--SGGGCC---SSCEEECCC-SSSEEESSSEEECEEEH--HHHHHCTTSHHHHHHHHTTCSSE
+T ss_pred             CCCCCeEEEchhhcCCh--HHHHHH---cCCCeeccc-CCcEEecCCEEEEEecc--chhccCcchHHHHHHHHHhhcCC
+Confidence            44467899999999775  666665   466888899 99999998888885322  23334467888999988887888
+
+
+Q ss_pred             heeeeecCh
+Q tr|A0A8Q3SIQ3|  487 ICVIVEKDR  495 (509)
+Q Consensus       487 icvivekdr  495 (509)
+                      .+++|+++.
+T Consensus       167 ~vllve~~~  175 (297)
+T 6SXA_G          167 RVLLVQVDV  175 (297)
+T ss_dssp             ECEEEECCC
+T ss_pred             eEEEEEcCC
+Confidence            899999974
+
+
+No 11
+>2ZIU_A Mus81 protein, Crossover junction endonuclease; Helix-hairpin-Helix, Alternative splicing, DNA damage; 2.7A {Danio rerio}
+Probab=97.75  E-value=0.00019  Score=62.72  Aligned_cols=92  Identities=22%  Similarity=0.315  Sum_probs=77.7  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCeEEEECCcecCCh-----HHHHHHHHHhcCCeEEEecCCCCCEEEeC---------------------ceee
+Q tr|A0A8Q3SIQ3|  403 RLPQEGKGTCILVGGHEITSG-----LEVISSLRAIHGLQVEVCPLNGCDYIVSN---------------------RMVV  456 (509)
+Q Consensus       403 rlpqegkgtcilvggheitsg-----levisslraihglqvevcplngcdyivsn---------------------rmvv  456 (509)
+                      ..+++...++|+||+||....     ..++..|. ..|+.+.+..|++|||++..                     .++|
+T Consensus        12 ~~~~~~~~~~i~iD~re~~~~~~~~~~~l~~~l~-~~~~~~~~~~L~~gD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i   90 (311)
+T 2ZIU_A           12 HLSPGSYDIVLCVDLCETTGGSSVRKQELVKELQ-RNSVTFDVRKLNVGDFLWVARERVTPVPGQLRPPVGKELVLDYII   90 (311)
+T ss_dssp             CBCTTSEEEEEEECGGGSCC-----CCHHHHHHH-TTTCCEECCCCSSCSEEEEEEECCCCCTTCSSCCCCCEEEEEEEE
+T ss_pred             eeCCCCcEEEEEEeccccCCCChhhHHHHHHHHH-HCCCeeEEEeeCCCcEEEEEEecCCCCCCCCCCCCCcEEEeEEEE
+Confidence            344566678999999998751     13777787 77999999999999999875                     5899
+
+
+Q ss_pred             ecCCcchhcchccHHHHHHHHHHHHHH-HhhheeeeecCh
+Q tr|A0A8Q3SIQ3|  457 ERRSQSEMLNSVNKNKFIEQIQHLQSM-FERICVIVEKDR  495 (509)
+Q Consensus       457 errsqsemlnsvnknkfieqiqhlqsm-fericvivekdr  495 (509)
+                      |||+.+||+.++.++++.+++.++... +..+++|||+..
+T Consensus        91 erkt~~dl~~s~~~~r~~~q~~~l~~~~~~~~~lliEg~~  130 (311)
+T 2ZIU_A           91 ERKRMDDLCGSIIDGRFREQKFRLKRCGLRKPIYLVEECG  130 (311)
+T ss_dssp             EEEEHHHHHHHHHHTCHHHHHHHHHTTSCSEEEEEEESCS
+T ss_pred             ECCcHHHHHHHHhcCCHHHHHHHHHHcCCCCCEEEEcCCc
+Confidence            999999999999999999999999885 678899999964
+
+
+No 12
+>2ZIV_A Mus81 protein, Crossover junction endonuclease; Helix-hairpin-Helix, Alternative splicing, DNA damage; 2.7A {Danio rerio}
+Probab=97.75  E-value=0.00019  Score=62.72  Aligned_cols=92  Identities=22%  Similarity=0.315  Sum_probs=77.6  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCeEEEECCcecCCh-----HHHHHHHHHhcCCeEEEecCCCCCEEEeC---------------------ceee
+Q tr|A0A8Q3SIQ3|  403 RLPQEGKGTCILVGGHEITSG-----LEVISSLRAIHGLQVEVCPLNGCDYIVSN---------------------RMVV  456 (509)
+Q Consensus       403 rlpqegkgtcilvggheitsg-----levisslraihglqvevcplngcdyivsn---------------------rmvv  456 (509)
+                      ..+++...++|+||+||....     ..++..|. ..|+.+.+..|++|||++..                     .++|
+T Consensus        12 ~~~~~~~~~~i~iD~re~~~~~~~~~~~l~~~l~-~~~~~~~~~~L~~gD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i   90 (311)
+T 2ZIV_A           12 HLSPGSYDIVLCVDLCETTGGSSVRKQELVKELQ-RNSVTFDVRKLNVGDFLWVARERVTPVPGQLRPPVGKELVLDYII   90 (311)
+T ss_dssp             EECTTSEEEEEEECGGGSCC-----CCHHHHTTT-TTTCCEECCCCSSCSEEEEEEECCCCCTTCSSCCCCCEEECSEEE
+T ss_pred             eeCCCCcEEEEEEeccccCCCChhhHHHHHHHHH-HCCCeeEEEeeCCCcEEEEEEecCCCCCCCCCCCCCcEEEeEEEE
+Confidence            344566678999999998751     13777777 67999999999999999875                     6899
+
+
+Q ss_pred             ecCCcchhcchccHHHHHHHHHHHHHH-HhhheeeeecCh
+Q tr|A0A8Q3SIQ3|  457 ERRSQSEMLNSVNKNKFIEQIQHLQSM-FERICVIVEKDR  495 (509)
+Q Consensus       457 errsqsemlnsvnknkfieqiqhlqsm-fericvivekdr  495 (509)
+                      |||+.+||+.++.++++.+++.++... +..+++|||+..
+T Consensus        91 erkt~~dl~~s~~~~r~~~q~~~l~~~~~~~~~lliEg~~  130 (311)
+T 2ZIV_A           91 ERKRMDDLCGSIIDGRFREQKFRLKRCGLRKPIYLVEECG  130 (311)
+T ss_dssp             EEEEHHHHHHHHHHTCHHHHHHHHHTSSCSEEEEEEETTS
+T ss_pred             ECCcHHHHHHHHhcCCHHHHHHHHHHcCCCCCEEEEcCCc
+Confidence            999999999999999999999999884 678899999964
+
+
+No 13
+>4BXO_B FANCONI ANEMIA GROUP M PROTEIN; HYDROLASE-DNA COMPLEX, DNA BINDING, PSEUDO-NUCLEASE; 2.15A {HOMO SAPIENS}
+Probab=97.28  E-value=0.0045  Score=49.41  Aligned_cols=80  Identities=16%  Similarity=0.135  Sum_probs=67.9  Template_Neff=11.200
+
+Q ss_pred             CCCeEEEECCcecCChHHHHHHHHHhcCCeEEE-ecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhh
+Q tr|A0A8Q3SIQ3|  408 GKGTCILVGGHEITSGLEVISSLRAIHGLQVEV-CPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFER  486 (509)
+Q Consensus       408 gkgtcilvggheitsglevisslraihglqvev-cplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmfer  486 (509)
+                      .+.+.|+||+||..+.  +...|. . ++.+.+ ..|++ ||.+...++|+||+..||+.++..+++..++.+  ..+..
+T Consensus        17 ~~~~~i~vd~re~~~~--~~~~l~-~-~~~~~~~~~l~~-D~~~~~~~~ierkt~~dl~~s~~~~r~~~q~~~--~~~~~   89 (217)
+T 4BXO_B           17 VPLGHIVANEKWRGSQ--LAEEMQ-G-KIKLIFEDGLTP-DFYLSNRCCILYVTEADLVAGNGYRKRLVRVRN--SNNLK   89 (217)
+T ss_dssp             CCTTEEEEEGGGTTCH--HHHHHH-T-TSEEEEESSCSS-SEESSSSEEEEEECHHHHHHCSTTHHHHHHHHT--CTTCE
+T ss_pred             CCCCEEEEcchhcCCH--HHHHHc-C-CCeEEEcCCCCC-CEEecCCEEEEEecHHHHhcccchHHHHHHHHh--cCCCc
+Confidence            4567899999999775  788887 4 899999 99999 999998999999999999999888887777655  34567
+
+
+Q ss_pred             heeeeecC
+Q tr|A0A8Q3SIQ3|  487 ICVIVEKD  494 (509)
+Q Consensus       487 icvivekd  494 (509)
+                      .++++++.
+T Consensus        90 ~~llveg~   97 (217)
+T 4BXO_B           90 GIVVVEKT   97 (217)
+T ss_dssp             EEEEEECC
+T ss_pred             eEEEEECC
+Confidence            79999986
+
+
+No 14
+>4M6W_B Fanconi anemia group M protein; FANCM, FAAP24, XPF/Mus81, Fanconi anemia; HET: SO4; 2.9A {Homo sapiens}
+Probab=96.00  E-value=0.055  Score=43.11  Aligned_cols=77  Identities=17%  Similarity=0.176  Sum_probs=65.1  Template_Neff=11.200
+
+Q ss_pred             eEEEECCcecCChHHHHHHHHHhcCCeEEE-ecCCCCCEEEeCceeeecCCcchhcchccHHHHHHHHHHHHHHHhhhee
+Q tr|A0A8Q3SIQ3|  411 TCILVGGHEITSGLEVISSLRAIHGLQVEV-CPLNGCDYIVSNRMVVERRSQSEMLNSVNKNKFIEQIQHLQSMFERICV  489 (509)
+Q Consensus       411 tcilvggheitsglevisslraihglqvev-cplngcdyivsnrmvverrsqsemlnsvnknkfieqiqhlqsmfericv  489 (509)
+                      ..|+||+||..+.  +...|+ . ++++.+ ..|++ ||.+...++|++|+..||..++..+++..++.+  ..+...++
+T Consensus         2 ~~i~vd~re~~~~--l~~~l~-~-~~~~~~~~~l~~-D~~~~~~~~ve~k~~~d~~~s~~~~r~~~~~~~--~~~~~~~l   74 (208)
+T 4M6W_B            2 GHIVANEKWRGSQ--LAQEMQ-G-KIKLIFEDGLTP-DFYLSNRCCILYVTEADLVAGNGYRKRLVRVRN--SNNLKGIV   74 (208)
+T ss_dssp             -CEEEEGGGTTSH--HHHHHT-T-TSCEEEESSCSS-SEEEETTEEEEEECSTTCSSCSTTHHHHHHHHH--SSSCEEEE
+T ss_pred             CeEEeeccccCCH--HHHHHh-c-CCEEEEcCCCCC-CEEecCCeEEEEEcHHHHhcccchHHHHHHHHh--cCCCeEEE
+Confidence            3689999999876  778887 4 899999 79999 999999999999999999998878877777755  44567799
+
+
+Q ss_pred             eeecC
+Q tr|A0A8Q3SIQ3|  490 IVEKD  494 (509)
+Q Consensus       490 ivekd  494 (509)
+                      +|++.
+T Consensus        75 lv~~~   79 (208)
+T 4M6W_B           75 VVEKT   79 (208)
+T ss_dssp             EEECC
+T ss_pred             EEEcC
+Confidence            99987
+
+
+No 15
+>6BZF_D Sporulation-specific protein 16, Protein ZIP2; XPF-ERCC1 Meiosis Recombination, DNA BINDING; HET: M0H, MLY; 2.286A {Saccharomyces cerevisiae}
+Probab=89.22  E-value=2.8  Score=38.41  Aligned_cols=82  Identities=22%  Similarity=0.315  Sum_probs=56.4  Template_Neff=7.700
+
+Q ss_pred             EEEECCcecCChHHHHHHHHHhcCCeEEEecCC-CCCEEEeCceeeecCCcchhcchccH--HHHHHHHHHHHHHHhhhe
+Q tr|A0A8Q3SIQ3|  412 CILVGGHEITSGLEVISSLRAIHGLQVEVCPLN-GCDYIVSNRMVVERRSQSEMLNSVNK--NKFIEQIQHLQSMFERIC  488 (509)
+Q Consensus       412 cilvggheitsglevisslraihglqvevcpln-gcdyivsnrmvverrsqsemlnsvnk--nkfieqiqhlqsmferic  488 (509)
+                      .|+..+.-... ..+++.|....++.+..+.+. ..|+++++..+|-..++..|.+....  ..+.+++..+...|.+.+
+T Consensus         5 iii~s~~l~~~-r~Lvr~L~~~~~i~liERd~~~eaDiIlsp~t~ii~~~l~~l~Q~~lpg~~~~~~ri~~l~~~y~~li   83 (206)
+T 6BZF_D            5 IAVNENKVIEN-QKVIQSLXKNSHLDLIEQSYFGECDFIINHSTCVYKIQASRFMQLRNNGSLHYDKAVNDLLTEFQRVI   83 (206)
+T ss_dssp             EEEEGGGTTTT-HHHHHHHTTSTTEEEEEECCSSCCSEEEETTEEEEEEEGGGTTCBCTTSSBTTHHHHHHHHHHCSEEE
+T ss_pred             EEEEChhHHhC-HHHHHHHHhcCCCeEEEecCCCCCCEEeeccceEEEeeHHHHhccCCCCChhHHHHHHHHHHHCCEEE
+Confidence            34444444333 358899984336776666664 46999999999988887776553322  346678888888888888
+
+
+Q ss_pred             eeeecC
+Q tr|A0A8Q3SIQ3|  489 VIVEKD  494 (509)
+Q Consensus       489 vivekd  494 (509)
+                      ++|+..
+T Consensus        84 Vlv~~~   89 (206)
+T 6BZF_D           84 IIVEFS   89 (206)
+T ss_dssp             EEEEEC
+T ss_pred             EEEeCC
+Confidence            888875
+
+
+No 16
+>6BZF_F Sporulation-specific protein 16, Protein ZIP2; XPF-ERCC1 Meiosis Recombination, DNA BINDING; HET: M0H, MLY; 2.286A {Saccharomyces cerevisiae}
+Probab=89.22  E-value=2.8  Score=38.41  Aligned_cols=83  Identities=22%  Similarity=0.313  Sum_probs=57.1  Template_Neff=7.700
+
+Q ss_pred             EEEECCcecCChHHHHHHHHHhcCCeEEEecCC-CCCEEEeCceeeecCCcchhcchccH--HHHHHHHHHHHHHHhhhe
+Q tr|A0A8Q3SIQ3|  412 CILVGGHEITSGLEVISSLRAIHGLQVEVCPLN-GCDYIVSNRMVVERRSQSEMLNSVNK--NKFIEQIQHLQSMFERIC  488 (509)
+Q Consensus       412 cilvggheitsglevisslraihglqvevcpln-gcdyivsnrmvverrsqsemlnsvnk--nkfieqiqhlqsmferic  488 (509)
+                      .|+..+.-... ..+++.|....++.+..+.+. ..|+++++..+|-..++..|.+....  ..+.+++..+...|.+.+
+T Consensus         5 iii~s~~l~~~-r~Lvr~L~~~~~i~liERd~~~eaDiIlsp~t~ii~~~l~~l~Q~~lpg~~~~~~ri~~l~~~y~~li   83 (206)
+T 6BZF_F            5 IAVNENKVIEN-QKVIQSLXKNSHLDLIEQSYFGECDFIINHSTCVYKIQASRFMQLRNNGSLHYDKAVNDLLTEFQRVI   83 (206)
+T ss_dssp             EEEEGGGTTTT-HHHHHHHTTSTTEEEEEECCSSCCSEEEETTEEEEEEEHHHHTCBCTTSSBTTHHHHHHHHHHCSEEE
+T ss_pred             EEEEChhHHhC-HHHHHHHHhcCCCeEEEecCCCCCCEEeeccceEEEeeHHHHhccCCCCChhHHHHHHHHHHHCCEEE
+Confidence            34444444333 358899984336776666664 46999999999988887777553322  346678888888889889
+
+
+Q ss_pred             eeeecCh
+Q tr|A0A8Q3SIQ3|  489 VIVEKDR  495 (509)
+Q Consensus       489 vivekdr  495 (509)
+                      ++|+...
+T Consensus        84 Vlv~~~~   90 (206)
+T 6BZF_F           84 IIVEFSE   90 (206)
+T ss_dssp             EEEECCH
+T ss_pred             EEEeCCC
+Confidence            9988753
+
+
+No 17
+>6BZG_B Protein ZIP2, Sporulation-specific protein 16; XPF-ERCC1, Meiosis, Recombination, DNA BINDING; HET: SO4, P6G; 2.13A {Saccharomyces cerevisiae}
+Probab=88.63  E-value=2.8  Score=38.36  Aligned_cols=70  Identities=24%  Similarity=0.395  Sum_probs=48.0  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHhcCCeEEEecC-CCCCEEEeCceeeecCCcchhcchccHH--HHHHHHHHHHHHHhhheeeeecC
+Q tr|A0A8Q3SIQ3|  425 EVISSLRAIHGLQVEVCPL-NGCDYIVSNRMVVERRSQSEMLNSVNKN--KFIEQIQHLQSMFERICVIVEKD  494 (509)
+Q Consensus       425 evisslraihglqvevcpl-ngcdyivsnrmvverrsqsemlnsvnkn--kfieqiqhlqsmfericvivekd  494 (509)
+                      .+++.|....++.+..+.+ ...|+++++..+|-..++..|.+....+  .+.+++..+...|.+.+++|+..
+T Consensus        17 ~Lvr~L~~~~~~~lIERd~~~~aDiIlsp~tgIi~~~l~~l~Q~~lpg~~~~~~ri~~l~~~y~~liVlv~~~   89 (206)
+T 6BZG_B           17 KVIQSLCKNSHLDLIEQSYFGECDFIINHSTCVYKIQASRFMQLRNNGSLHYDKAVNDLLTEFQRVIIIVEFS   89 (206)
+T ss_pred             HHHHHHHhcCCCcEEEecCCCCCCEEeeccceEEEecHHHHhcCCCCCCHHHHHHHHHHHHHCCEEEEEEeCC
+Confidence            3778887333565555544 3469999999888888777765533222  46677777777888888888775
+
+
+No 18
+>3C1Y_B DNA integrity scanning protein disA; DNA damage, DNA repair, DNA-binding; HET: 2BA; 2.1A {Thermotoga maritima}
+Probab=79.57  E-value=0.26  Score=47.27  Aligned_cols=61  Identities=16%  Similarity=0.213  Sum_probs=51.7  Template_Neff=8.600
+
+Q ss_pred             CeEEEecCCCCCEEEeCcee--eec-----CCcchhcchcc----HHHHHH-HHHHHHHHHhhheeeeecChh
+Q tr|A0A8Q3SIQ3|  436 LQVEVCPLNGCDYIVSNRMV--VER-----RSQSEMLNSVN----KNKFIE-QIQHLQSMFERICVIVEKDRE  496 (509)
+Q Consensus       436 lqvevcplngcdyivsnrmv--ver-----rsqsemlnsvn----knkfie-qiqhlqsmfericvivekdre  496 (509)
+                      +.+.+..|++|||++...++  |||     |+..||..++.    ++|++. |+.++...+..+++++++++.
+T Consensus       191 ~~~~l~~le~gD~v~~~~v~~~iER~~~~~k~~~d~~~si~elg~~grl~~~Q~~~l~~~~~~~~llie~d~~  263 (377)
+T 3C1Y_B          191 LLSELEVLELENRVTLADVVRTLAKGFELLRIVEEIRPYIVELGEEGRLARMQLRELTEDVDDLLVLLIMDYS  263 (377)
+T ss_dssp             HHHHHHHHHHTTCCBHHHHHHHHHHHHHHHHHHHHHHHHHHHTGGGGHHHHHHHHHHHTTHHHHHHHHHHHHS
+T ss_pred             HHhhhhhhhhcCceeHHHHHHHHHHHHHHHHHHHHHHHHHHHhCcchhHHHHHHHHHHhchhhhHHHhhhccc
+Confidence            44566678899999987766  999     99999999995    889988 999999888899999999753
+
+
+No 19
+>3C23_B DNA integrity scanning protein disA; DNA damage, DNA repair, DNA-binding; HET: 3AT; 2.5A {Thermotoga maritima}
+Probab=79.57  E-value=0.26  Score=47.27  Aligned_cols=61  Identities=16%  Similarity=0.213  Sum_probs=51.6  Template_Neff=8.600
+
+Q ss_pred             CeEEEecCCCCCEEEeCcee--eec-----CCcchhcchcc----HHHHHH-HHHHHHHHHhhheeeeecChh
+Q tr|A0A8Q3SIQ3|  436 LQVEVCPLNGCDYIVSNRMV--VER-----RSQSEMLNSVN----KNKFIE-QIQHLQSMFERICVIVEKDRE  496 (509)
+Q Consensus       436 lqvevcplngcdyivsnrmv--ver-----rsqsemlnsvn----knkfie-qiqhlqsmfericvivekdre  496 (509)
+                      +.+.+..|++|||++...++  |||     |+..||..++.    ++|++. |+.++...+..+++++++++.
+T Consensus       191 ~~~~l~~le~gD~v~~~~v~~~iER~~~~~k~~~d~~~si~elg~~grl~~~Q~~~l~~~~~~~~llie~d~~  263 (377)
+T 3C23_B          191 LLSELEVLELENRVTLADVVRTLAKGFELLRIVEEIRPYIVELGEEGRLARMQLRELTEDVDDLLVLLIMDYS  263 (377)
+T ss_dssp             HHHHHHHHHHHTCCBHHHHHHHHHHHHHHHHHHHHHHHHHHHTGGGGHHHHHHHHHHHTTHHHHHHHHHHHHS
+T ss_pred             HHhhhhhhhhcCceeHHHHHHHHHHHHHHHHHHHHHHHHHHHhCcchhHHHHHHHHHHhchhhhHHHhhhccc
+Confidence            44566678899999987766  999     99999999995    889988 999999888899999999753
+
+
+No 20
+>4YVZ_B DNA-integrity scanning protein A (DisA); c-di-AMP synthesis, DAC domain, Inhibitor; HET: 3AT; 2.495A {Thermotoga maritima}
+Probab=79.57  E-value=0.26  Score=47.27  Aligned_cols=61  Identities=16%  Similarity=0.213  Sum_probs=51.7  Template_Neff=8.600
+
+Q ss_pred             CeEEEecCCCCCEEEeCcee--eec-----CCcchhcchcc----HHHHHH-HHHHHHHHHhhheeeeecChh
+Q tr|A0A8Q3SIQ3|  436 LQVEVCPLNGCDYIVSNRMV--VER-----RSQSEMLNSVN----KNKFIE-QIQHLQSMFERICVIVEKDRE  496 (509)
+Q Consensus       436 lqvevcplngcdyivsnrmv--ver-----rsqsemlnsvn----knkfie-qiqhlqsmfericvivekdre  496 (509)
+                      +.+.+..|++|||++...++  |||     |+..||..++.    ++|++. |+.++...+..+++++++++.
+T Consensus       191 ~~~~l~~le~gD~v~~~~v~~~iER~~~~~k~~~d~~~si~elg~~grl~~~Q~~~l~~~~~~~~llie~d~~  263 (377)
+T 4YVZ_B          191 LLSELEVLELENRVTLADVVRTLAKGFELLRIVEEIRPYIVELGEEGRLARMQLRELTEDVDDLLVLLIMDYS  263 (377)
+T ss_dssp             HHHHHHHHHHTTCCBHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGGHHHHHHHHHHHTTHHHHHHHHHHHHS
+T ss_pred             HHhhhhhhhhcCceeHHHHHHHHHHHHHHHHHHHHHHHHHHHhCcchhHHHHHHHHHHhchhhhHHHhhhccc
+Confidence            44566688899999987766  999     99999999995    889988 999999888899999999753
+
+
+No 21
+>2ZIV_B Mus81 protein, Crossover junction endonuclease; Helix-hairpin-Helix, Alternative splicing, DNA damage; 2.7A {Danio rerio}
+Probab=39.65  E-value=2e+02  Score=27.58  Aligned_cols=97  Identities=5%  Similarity=0.056  Sum_probs=63.7  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCCCCeEEEECCcecCC--hHHHHHHHHHhcCCeEEEecCCC---------------CCEEEeCceeeecCC
+Q tr|A0A8Q3SIQ3|  398 THTSLRLPQEGKGTCILVGGHEITS--GLEVISSLRAIHGLQVEVCPLNG---------------CDYIVSNRMVVERRS  460 (509)
+Q Consensus       398 thtslrlpqegkgtcilvggheits--glevisslraihglqvevcplng---------------cdyivsnrmvverrs  460 (509)
+                      ++..+.+......++|++|++....  ...|...|. ..++.+.+..+++               ||+......++.+++
+T Consensus        10 ~~~~~~~~~~~k~~~v~iD~~l~~~~~~~~l~~~l~-~~~~~~~~~~~~~~~~I~W~R~~~~~~~~~~~~~e~~~l~~~~   88 (351)
+T 2ZIV_B           10 HSQDPNSEECLKHIIVVLDPVLLQMEGGGQLLGALQ-TMECRCVIEAQAVPCSVTWRRRAGPSEDREDWVEEPTVLVLLR   88 (351)
+T ss_dssp             --------CCCTTCEEEECHHHHTSTTHHHHHHHHH-HTTCEEEECCCSSSSEEEEEC---------CCCBCSCEEEEEE
+T ss_pred             cCCCCChhhccCeEEEEeCHHHHcccccHHHHHHHH-hcCCeeEeecCCCCceEEEEEecCCCCCCCcceecCcEEEEEe
+Confidence            4455666677778999999994322  234777786 6789998888877               554444456777777
+
+
+Q ss_pred             cchhcchccHH-------------HHHHHHHHHHHHHh--hheeeeecCh
+Q tr|A0A8Q3SIQ3|  461 QSEMLNSVNKN-------------KFIEQIQHLQSMFE--RICVIVEKDR  495 (509)
+Q Consensus       461 qsemlnsvnkn-------------kfieqiqhlqsmfe--ricvivekdr  495 (509)
+                      ..||+..+...             ++..++..+...+.  ..++||+|..
+T Consensus        89 ~~~f~~~i~~~~~~~~~~~~~~~~~L~~~i~~l~~~~~~~~~~llV~G~~  138 (351)
+T 2ZIV_B           89 AEAFVSMIDNGKQGSLDSTMKGKETLQGFVTDITAKTAGKALSLVIVDQE  138 (351)
+T ss_dssp             HHHHHHHSSCCC------------CCTHHHHHHHHTTTSSCEEEEEECTT
+T ss_pred             HHHHHHHHHhcccccCCCcccCcccHHHHHHHHHHHCCCCEEEEEEECHH
+Confidence            77777766655             77788888877666  6799999853
+
+
+No 22
+>5ZWA_B Pyridoxine/pyridoxal/pyridoxamine kinase (E.C.2.7.1.35); Pyridoxal kinase, bound phosphate, Salmonella; HET: JLP, ADP, GOL, CME, SO4, PLP, EDO; 2.45A {Salmonella choleraesuis}
+Probab=30.86  E-value=2.3e+02  Score=25.44  Aligned_cols=11  Identities=27%  Similarity=0.788  Sum_probs=5.1  Template_Neff=10.400
+
+Q ss_pred             HHHHHHhcCCeE
+Q tr|A0A8Q3SIQ3|  427 ISSLRAIHGLQV  438 (509)
+Q Consensus       427 isslraihglqv  438 (509)
+                      +..++ ..|+.+
+T Consensus        41 ~~~~~-~~g~~~   51 (296)
+T 5ZWA_B           41 VPAIK-AQGLRV   51 (296)
+T ss_dssp             HHHHH-HTTCCE
+T ss_pred             HHHHH-HCCCEE
+Confidence            34454 446543
+
+
+No 23
+>5ZWB_B Pyridoxine/pyridoxal/pyridoxamine kinase (E.C.2.7.1.35); Pyridoxal kinase, Schiff base linked-; HET: JLP, ADP, CME, SO4, EDO; 2.2A {Salmonella enterica}
+Probab=30.86  E-value=2.3e+02  Score=25.44  Aligned_cols=11  Identities=27%  Similarity=0.788  Sum_probs=5.1  Template_Neff=10.400
+
+Q ss_pred             HHHHHHhcCCeE
+Q tr|A0A8Q3SIQ3|  427 ISSLRAIHGLQV  438 (509)
+Q Consensus       427 isslraihglqv  438 (509)
+                      +..++ ..|+.+
+T Consensus        41 ~~~~~-~~g~~~   51 (296)
+T 5ZWB_B           41 VPAIK-AQGLRV   51 (296)
+T ss_dssp             HHHHH-HTTCCE
+T ss_pred             HHHHH-HCCCEE
+Confidence            34454 446543
+
+
+No 24
+>5ZWB_A Pyridoxine/pyridoxal/pyridoxamine kinase (E.C.2.7.1.35); Pyridoxal kinase, Schiff base linked-; HET: JLP, ADP, CME, SO4, EDO; 2.2A {Salmonella enterica}
+Probab=26.92  E-value=2.1e+02  Score=25.73  Aligned_cols=11  Identities=18%  Similarity=0.688  Sum_probs=5.3  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHhcCCe
+Q tr|A0A8Q3SIQ3|  426 VISSLRAIHGLQ  437 (509)
+Q Consensus       426 visslraihglq  437 (509)
+                      .+..|+ ..|+.
+T Consensus        40 ~~~~l~-~~g~~   50 (296)
+T 5ZWB_A           40 AVPAIK-AQGLR   50 (296)
+T ss_dssp             HHHHHH-HTTCC
+T ss_pred             HHHHHH-HCCCE
+Confidence            334455 44654
+
+
+No 25
+>4JQS_A hypothetical protein; Trehalose utilization, PF06283 family protein; HET: PG4, P6G, MSE; 2.3A {Bacteroides uniformis}
+Probab=24.58  E-value=3.7e+02  Score=21.65  Aligned_cols=9  Identities=11%  Similarity=0.375  Sum_probs=5.6  Template_Neff=12.300
+
+Q ss_pred             hcCCeEEEe
+Q tr|A0A8Q3SIQ3|  433 IHGLQVEVC  441 (509)
+Q Consensus       433 ihglqvevc  441 (509)
+                      ..++.+...
+T Consensus        48 ~~g~~~~~~   56 (250)
+T 4JQS_A           48 GDGFVLDIT   56 (250)
+T ss_dssp             TCSSEEEEE
+T ss_pred             cCCCEEEEe
+Confidence            456776665
+
+
+No 26
+>4PXY_A Uncharacterized protein; Trehalose utilization, PF06283 family protein; HET: ZN, MES, EDO, MSE; 1.5A {Bacteroides uniformis}
+Probab=24.58  E-value=3.7e+02  Score=21.65  Aligned_cols=9  Identities=11%  Similarity=0.375  Sum_probs=5.6  Template_Neff=12.300
+
+Q ss_pred             hcCCeEEEe
+Q tr|A0A8Q3SIQ3|  433 IHGLQVEVC  441 (509)
+Q Consensus       433 ihglqvevc  441 (509)
+                      ..++.+...
+T Consensus        48 ~~g~~~~~~   56 (250)
+T 4PXY_A           48 GDGFVLDIT   56 (250)
+T ss_dssp             TCSSEEEEE
+T ss_pred             cCCCEEEEe
+Confidence            456776665
+
+
+No 27
+>3KTS_G Glycerol uptake operon antiterminator regulatory; STRUCTURAL GENOMICS, PSI-2, ANTITERMINATOR, PROTEIN; HET: UNL; 2.75A {Listeria monocytogenes str. 4b}
+Probab=23.11  E-value=4e+02  Score=24.25  Aligned_cols=15  Identities=13%  Similarity=0.215  Sum_probs=7.7  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHhcCCeEEE
+Q tr|A0A8Q3SIQ3|  425 EVISSLRAIHGLQVEV  440 (509)
+Q Consensus       425 evisslraihglqvev  440 (509)
+                      ++++.++ ..+.++.+
+T Consensus        45 ~~v~~i~-~~~~~v~v   59 (192)
+T 3KTS_G           45 ALVKYAQ-AGGKKVLL   59 (192)
+T ss_dssp             HHHHHHH-HTTCEEEE
+T ss_pred             HHHHHHH-HCCCEEEE
+Confidence            4556665 34555444
+
+

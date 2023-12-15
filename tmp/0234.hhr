@@ -1,0 +1,253 @@
+Query         tr|M0QYL5|M0QYL5_HUMAN
+Match_columns 77
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:24:00 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0234.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HXV_A Coiled-coil domain-cont  99.9 2.2E-24 2.3E-29  150.4   9.6   77    1-77      4-80  (171)
+  2 6HXT_B Coiled-coil domain-cont  99.9 1.4E-22 1.5E-27  139.4  10.0   77    1-77      3-79  (145)
+  3 6HXT_C Coiled-coil domain-cont  99.9 1.4E-22 1.5E-27  139.4  10.0   77    1-77      3-79  (145)
+  4 5VGB_B CRISPR-associated endon  34.3 2.6E+02  0.0028   19.4   4.7   15   13-27     14-28  (86)
+  5 5AN6_A CRISPR-ASSOCIATED PROTE  32.2 2.1E+02  0.0023   19.0   3.9   26   50-75     91-116 (123)
+  6 3MUD_A DNA repair protein XRCC  30.0 1.5E+02  0.0016   19.4   2.9   71    1-75      1-77  (175)
+  7 5WLZ_B DNA repair protein XRCC  25.1 2.3E+02  0.0025   18.7   3.1   57   16-76     18-77  (216)
+  8 5WLZ_C DNA repair protein XRCC  25.1 2.3E+02  0.0025   18.7   3.1   64    9-76      8-77  (216)
+  9 3RWR_U DNA repair protein XRCC  24.9 3.8E+02  0.0041   18.3   4.7   62   10-75      7-74  (163)
+ 10 3RWR_Y DNA repair protein XRCC  24.9 3.8E+02  0.0041   18.3   4.7   62   10-75      7-74  (163)
+ 11 3SR2_F DNA repair protein XRCC  24.7 3.4E+02  0.0036   17.6   4.9   67    5-75      7-79  (145)
+ 12 6GML_W DNA-directed RNA polyme  22.6      87 0.00095   26.0   1.0   28   49-76    177-204 (584)
+ 13 5CJ0_B Xrcc4-MYH7-(1631-1692)   21.9 4.2E+02  0.0046   17.8   4.4   72    1-76      1-78  (207)
+ 14 6M8S_M Guanine nucleotide-bind  21.3      75 0.00082   22.3   0.4   11   39-49     63-73  (129)
+
+No 1
+>6HXV_A Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, proto-filament; 1.97A {Danio rerio}
+Probab=99.92  E-value=2.2e-24  Score=150.42  Aligned_cols=77  Identities=53%  Similarity=0.885  Sum_probs=74.8  Template_Neff=5.800
+
+Q ss_pred             CCCCCcEEEEEEEcCceEEEEEEEeCeEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHHCC
+Q tr|M0QYL5|M0QY    1 MDQPAGLQVDYVFRGVEHAVRVMVSGQVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALTQ   77 (77)
+Q Consensus         1 mdqpaglqvdyvfrgvehavrvmvsgqvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesaltq   77 (77)
+                      |+++..+++.+.|+|.+|.|++.+++++|+|+|+++.++++|+|.|+++|||+||+||||||+|++||+||.+||.+
+T Consensus         4 ~~~~~~~~~~~~f~g~~Y~v~~~~~~~~L~i~v~~~~t~~~W~g~F~~~yIEelT~KTGnfK~F~vF~~ML~sAl~~   80 (171)
+T 6HXV_A            4 MEVGTVVQEEMKFRGSEFAVKVEMAERLLIVEISDVVTADQWRGEFGPAYIEDLTRKTGNFKQFPVFCSMLESAVHK   80 (171)
+T ss_dssp             CCTTCEEEEEEEETTEEEEEEEEEETTEEEEEEEETTTCCEEEEEECHHHHHHHHHHHTSCCCHHHHHHHHHHHHHT
+T ss_pred             cCCCceEEEEEEECCEEEEEEEEEcCCEEEEEEEECCCcceeEEecCHHHHHHHHHHcCCcccHHHHHHHHHHHHhc
+Confidence            78899999999999999999999999999999999999999999999999999999999999999999999999864
+
+
+No 2
+>6HXT_B Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=99.89  E-value=1.4e-22  Score=139.43  Aligned_cols=77  Identities=100%  Similarity=1.495  Sum_probs=72.3  Template_Neff=5.500
+
+Q ss_pred             CCCCCcEEEEEEEcCceEEEEEEEeCeEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHHCC
+Q tr|M0QYL5|M0QY    1 MDQPAGLQVDYVFRGVEHAVRVMVSGQVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALTQ   77 (77)
+Q Consensus         1 mdqpaglqvdyvfrgvehavrvmvsgqvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesaltq   77 (77)
+                      |+++..+.+++.|||.+|.|++.+++++|+|+|+++.++++|+|+|+++||||||+||||||+|++|++||.+||.+
+T Consensus         3 ~~~~~~~~~~~~f~~~~Y~v~~~~~~~~L~i~v~~~~t~~~W~~~f~~~yIEelT~KTGn~K~F~vF~~ML~~Al~~   79 (145)
+T 6HXT_B            3 MDQPAGLQVDYVFRGVEHAVRVMVSGQVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALTQ   79 (145)
+T ss_dssp             ---CCCEEEEEEETTEEEEEEEEEETTEEEEEEEETTTTEEEEEEEEHHHHHHHHHHTTBCCCHHHHHHHHHHHHHT
+T ss_pred             CCCCceEEEEEEECCeEEEEEEEEeCCEEEEEEEECCCcceEEEeCCHHHHHHHHHHcCCcccHHHHHHHHHHHHhc
+Confidence            67899999999999999999999999999999999999999999999999999999999999999999999999864
+
+
+No 3
+>6HXT_C Coiled-coil domain-containing protein 61; Centrosome, cilia, scaffold protein, protfilament; HET: MSE; 2.55A {Homo sapiens}
+Probab=99.89  E-value=1.4e-22  Score=139.43  Aligned_cols=77  Identities=100%  Similarity=1.495  Sum_probs=72.3  Template_Neff=5.500
+
+Q ss_pred             CCCCCcEEEEEEEcCceEEEEEEEeCeEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHHCC
+Q tr|M0QYL5|M0QY    1 MDQPAGLQVDYVFRGVEHAVRVMVSGQVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALTQ   77 (77)
+Q Consensus         1 mdqpaglqvdyvfrgvehavrvmvsgqvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesaltq   77 (77)
+                      |+++..+.+++.|||.+|.|++.+++++|+|+|+++.++++|+|+|+++||||||+||||||+|++|++||.+||.+
+T Consensus         3 ~~~~~~~~~~~~f~~~~Y~v~~~~~~~~L~i~v~~~~t~~~W~~~f~~~yIEelT~KTGn~K~F~vF~~ML~~Al~~   79 (145)
+T 6HXT_C            3 MDQPAGLQVDYVFRGVEHAVRVMVSGQVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALTQ   79 (145)
+T ss_dssp             ---CCCEEEEEEETTEEEEEEEEEETTEEEEEEEETTTTEEEEEEEEHHHHHHHHHHTTBCCCHHHHHHHHHHHHHT
+T ss_pred             CCCCceEEEEEEECCeEEEEEEEEeCCEEEEEEEECCCcceEEEeCCHHHHHHHHHHcCCcccHHHHHHHHHHHHhc
+Confidence            67899999999999999999999999999999999999999999999999999999999999999999999999864
+
+
+No 4
+>5VGB_B CRISPR-associated endonuclease Cas9 (E.C.3.1.-.-), Anti-CRISPR; Protein, RNA, HYDROLASE-HYDROLASE inhibitor complex; HET: GOL; 1.497A {Neisseria meningitidis}
+Probab=34.29  E-value=2.6e+02  Score=19.39  Aligned_cols=15  Identities=7%  Similarity=0.319  Sum_probs=8.0  Template_Neff=4.500
+
+Q ss_pred             EcCceEEEEEEEeCe
+Q tr|M0QYL5|M0QY   13 FRGVEHAVRVMVSGQ   27 (77)
+Q Consensus        13 frgvehavrvmvsgq   27 (77)
+                      .+|..|-+-+-.++.
+T Consensus        14 Y~G~G~Alaai~~G~   28 (86)
+T 5VGB_B           14 YDGCGLCLAAISENE   28 (86)
+T ss_dssp             CCSSEEEEEEEETTE
+T ss_pred             cCCCcEEEEEEECCE
+Confidence            345566555555544
+
+
+No 5
+>5AN6_A CRISPR-ASSOCIATED PROTEIN, CSM2 FAMILY; DNA BINDING PROTEIN, CRISPR-CAS, CD-SAD; 2.403A {THERMOTOGA MARITIMA}
+Probab=32.22  E-value=2.1e+02  Score=19.01  Aligned_cols=26  Identities=19%  Similarity=0.362  Sum_probs=19.5  Template_Neff=7.500
+
+Q ss_pred             hHHHHhhhcCChHHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY   50 FIEDLTHKTGNFKQFNIFCHMLESAL   75 (77)
+Q Consensus        50 fiedlthktgnfkqfnifchmlesal   75 (77)
+                      .|+.+..+.++.+.|..|++.+.+-+
+T Consensus        91 ~i~~~i~~i~~~~~f~~F~~ffEAIv  116 (123)
+T 5AN6_A           91 ILEPLIDEIKTPDEFEKFKKFYDAIL  116 (123)
+T ss_dssp             HHHHHHHHCCSHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHHHHHHHHHH
+Confidence            56677777788888888888876543
+
+
+No 6
+>3MUD_A DNA repair protein XRCC4, Tropomyosin; tropomysoin, overlap complex, coiled-coils, Contractile; 2.2A {Homo sapiens}
+Probab=30.02  E-value=1.5e+02  Score=19.41  Aligned_cols=71  Identities=11%  Similarity=0.101  Sum_probs=53.8  Template_Neff=9.300
+
+Q ss_pred             CCCCCcEEEEEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY    1 MDQPAGLQVDYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESA   74 (77)
+Q Consensus         1 mdqpaglqvdyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesa   74 (77)
+                      |+.....-..+...+   ..|.|.....+   +.+.|.+.  +....|.|.++...|+.+..+.+  .+...|++.+..|
+T Consensus         1 ~~~~~~~~~~l~~~~~~~~~~~l~~~w~~~~~~~~~l~lt--dg~~~w~g~v~~~~i~~~a~~~~--~s~~~y~~~~~~a   76 (175)
+T 3MUD_A            1 GGSGERKISRIHLVSEPSITHFLQVSWEKTLESGFVITLT--DGHSAWTGTVSESEISQEADDMA--MEKGKYVGELRKA   76 (175)
+T ss_dssp             --CCEEEEEEEEETTEEEEEEEEEEEESSCGGGEEEEEEE--CSSCEEEEEEEHHHHHHHHHHTT--CCHHHHHHHHHHH
+T ss_pred             CCCcceeEEEEEeCCCCCceEEEEEEEecCCCCcEEEEEE--CCCceEEEEEcHHHHHHHHHHhc--CCHHHHHHHHHHH
+Confidence            344445556677766   77888888763   46777665  45679999999999999999954  6788999999999
+
+
+Q ss_pred             H
+Q tr|M0QYL5|M0QY   75 L   75 (77)
+Q Consensus        75 l   75 (77)
+                      |
+T Consensus        77 L   77 (175)
+T 3MUD_A           77 L   77 (175)
+T ss_dssp             H
+T ss_pred             H
+Confidence            8
+
+
+No 7
+>5WLZ_B DNA repair protein XRCC4,Myosin-7; Myosin, Xrcc4, Coiled-Coil, MOTOR PROTEIN; 3.5A {Homo sapiens}
+Probab=25.11  E-value=2.3e+02  Score=18.73  Aligned_cols=57  Identities=14%  Similarity=0.184  Sum_probs=47.5  Template_Neff=9.900
+
+Q ss_pred             ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHHC
+Q tr|M0QYL5|M0QY   16 VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALT   76 (77)
+Q Consensus        16 vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesalt   76 (77)
+                      ..|.|.+...+   +.+.|.+  .+....|.|.++...|.++..+.+  .++..+++-|.+||.
+T Consensus        18 ~~~~l~~~w~~~~~~~~~l~l--tdg~~~w~g~v~~~~i~~~a~~~~--~s~~~y~~~l~~aL~   77 (216)
+T 5WLZ_B           18 ITHFLQVSWEKTLKSGFVITL--TDGHSAWTGTVSESKISQEAATMA--MNKGKYVGELRKALL   77 (216)
+T ss_dssp             SCEEEEEEECSCGGGEEEEEE--ECSSCEEEEEEEHHHHHHHHHHTT--CCHHHHHHHHHHHHS
+T ss_pred             ceEEEEEEecCccCcceEEEE--EcCcceeEEEecHHHHHHHHHHcc--cchHHHHHHHHHHHH
+Confidence            67888888864   4677777  556789999999999999988855  678999999999984
+
+
+No 8
+>5WLZ_C DNA repair protein XRCC4,Myosin-7; Myosin, Xrcc4, Coiled-Coil, MOTOR PROTEIN; 3.5A {Homo sapiens}
+Probab=25.11  E-value=2.3e+02  Score=18.73  Aligned_cols=64  Identities=13%  Similarity=0.145  Sum_probs=50.2  Template_Neff=9.900
+
+Q ss_pred             EEEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHHC
+Q tr|M0QYL5|M0QY    9 VDYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESALT   76 (77)
+Q Consensus         9 vdyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesalt   76 (77)
+                      ..+...+   ..|.|.+...+   +.+.|.+  .+....|.|.++...|.++..+.+  .++..+++-|.+||.
+T Consensus         8 ~ri~~~~~~~~~~~l~~~w~~~~~~~~~l~l--tdg~~~w~g~v~~~~i~~~a~~~~--~s~~~y~~~l~~aL~   77 (216)
+T 5WLZ_C            8 SRIHLVSEPSITHFLQVSWEKTLKSGFVITL--TDGHSAWTGTVSESKISQEAATMA--MNKGKYVGELRKALL   77 (216)
+T ss_dssp             EEECBSSSSSSCEEEEEEESSCSTTCEEEEE--ECSSCEEEEEECHHHHHHHHHHTT--CCHHHHHHHHHHHTS
+T ss_pred             EEEEeCCCCCceEEEEEEecCccCcceEEEE--EcCcceeEEEecHHHHHHHHHHcc--cchHHHHHHHHHHHH
+Confidence            3344444   67888888864   4677777  556789999999999999988855  678999999999883
+
+
+No 9
+>3RWR_U DNA repair protein XRCC4, Non-homologous; complex-filament, non-homologous end-joining, DNA and; HET: TBR; 3.943A {Homo sapiens}
+Probab=24.86  E-value=3.8e+02  Score=18.33  Aligned_cols=62  Identities=15%  Similarity=0.215  Sum_probs=49.0  Template_Neff=8.000
+
+Q ss_pred             EEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY   10 DYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESAL   75 (77)
+Q Consensus        10 dyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesal   75 (77)
+                      .+.+.+   ..|.|.+...+   +.+.|.|.|  ....|.|.++...|+++...-+  ..+..|++=++.||
+T Consensus         7 ki~~~~~~~~~~~L~~~W~~~~~~~F~L~i~d--g~~aW~g~vs~~~i~~~a~~~~--~~~~~Y~~~~k~AL   74 (163)
+T 3RWR_U            7 RIHLVSEPSITHFLQVSWEKTLESGFVITLTD--GHSAWTGTVSESEISQEADDMA--MEKGKYVGELRKAL   74 (163)
+T ss_pred             EEEeCCCCCceEEEEEEeecCCCCcEEEEEEC--CCceeEEecCHHHHHHHHHHcC--CCHHHHHHHHHHHH
+Confidence            344544   78888887764   567888864  6789999999999999987775  68888888888887
+
+
+No 10
+>3RWR_Y DNA repair protein XRCC4, Non-homologous; complex-filament, non-homologous end-joining, DNA and; HET: TBR; 3.943A {Homo sapiens}
+Probab=24.86  E-value=3.8e+02  Score=18.33  Aligned_cols=62  Identities=15%  Similarity=0.215  Sum_probs=49.0  Template_Neff=8.000
+
+Q ss_pred             EEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY   10 DYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESAL   75 (77)
+Q Consensus        10 dyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesal   75 (77)
+                      .+.+.+   ..|.|.+...+   +.+.|.|.|  ....|.|.++...|+++...-+  ..+..|++=++.||
+T Consensus         7 ki~~~~~~~~~~~L~~~W~~~~~~~F~L~i~d--g~~aW~g~vs~~~i~~~a~~~~--~~~~~Y~~~~k~AL   74 (163)
+T 3RWR_Y            7 RIHLVSEPSITHFLQVSWEKTLESGFVITLTD--GHSAWTGTVSESEISQEADDMA--MEKGKYVGELRKAL   74 (163)
+T ss_pred             EEEeCCCCCceEEEEEEeecCCCCcEEEEEEC--CCceeEEecCHHHHHHHHHHcC--CCHHHHHHHHHHHH
+Confidence            344544   78888887764   567888864  6789999999999999987775  68888888888887
+
+
+No 11
+>3SR2_F DNA repair protein XRCC4, Non-homologous; XRCC4, XLF, NHEJ, DNA Repair; 3.9708A {Homo sapiens}
+Probab=24.70  E-value=3.4e+02  Score=17.63  Aligned_cols=67  Identities=13%  Similarity=0.165  Sum_probs=50.4  Template_Neff=8.800
+
+Q ss_pred             CcEEEEEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY    5 AGLQVDYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESAL   75 (77)
+Q Consensus         5 aglqvdyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesal   75 (77)
+                      ...-..+...+   ..|.+.+....   +.+.|.+.|  ....|.|.++...|+++..+.+-  ++..|++-++.||
+T Consensus         7 ~~~~~ri~~~~~~~~~~yl~~~w~~~~~~~f~L~ltd--g~~~W~g~vs~~~i~~~a~~~~~--s~~ey~~~~~~aL   79 (145)
+T 3SR2_F            7 ERKISRIHLVSEPSITHFLQVSWEKTLESGFVITLTD--GHSAWTGTVSESEISQEADDMAM--EKGKYVGELRKAL   79 (145)
+T ss_dssp             EEEEEECCCTTCSSSCCEEEEEESSSTTSCEEEEEEC--SSSEEEEEECHHHHHHHHHHHTC--CHHHHHHHTTTSS
+T ss_pred             cceEEEEEeCCCCCceEEEEEEEecCcCCcEEEEEEc--CCceEEEEecHHHHHHHHHHhCC--CHHHHHHHHHHHH
+Confidence            33444455544   67788887753   568888875  56799999999999999988544  8888888888777
+
+
+No 12
+>6GML_W DNA-directed RNA polymerase subunit, DNA-directed; RNA polymerase II, pausing, NELF; 3.2A {Sus scrofa}
+Probab=22.62  E-value=87  Score=25.99  Aligned_cols=28  Identities=21%  Similarity=0.542  Sum_probs=19.9  Template_Neff=7.600
+
+Q ss_pred             hhHHHHhhhcCChHHHHHHHHHHHHHHC
+Q tr|M0QYL5|M0QY   49 GFIEDLTHKTGNFKQFNIFCHMLESALT   76 (77)
+Q Consensus        49 gfiedlthktgnfkqfnifchmlesalt   76 (77)
+                      .|.+|++.-..---.|.||.++|.++|.
+T Consensus       177 G~~~Eias~~ta~~~~~VF~~vl~~~l~  204 (584)
+T 6GML_W          177 GYQGEITSVSTACQQLEVFSRVLRTSLA  204 (584)
+T ss_dssp             SCCCCSCCCSSSCCSHHHHHHHHHHHHH
+T ss_pred             CChhhhccchhHHHHHHHHHHHHHHHHH
+Confidence            4555666555666778999999988764
+
+
+No 13
+>5CJ0_B Xrcc4-MYH7-(1631-1692) chimera protein; Myosin, coiled-coil, MOTOR PROTEIN; 2.3A {Homo sapiens}
+Probab=21.94  E-value=4.2e+02  Score=17.79  Aligned_cols=72  Identities=13%  Similarity=0.117  Sum_probs=54.4  Template_Neff=9.400
+
+Q ss_pred             CCCCCcEEEEEEEcC---ceEEEEEEEeC---eEEEEEEEeCCCcchheeecchhhHHHHhhhcCChHHHHHHHHHHHHH
+Q tr|M0QYL5|M0QY    1 MDQPAGLQVDYVFRG---VEHAVRVMVSG---QVLELEVEDRMTADQWRGEFDAGFIEDLTHKTGNFKQFNIFCHMLESA   74 (77)
+Q Consensus         1 mdqpaglqvdyvfrg---vehavrvmvsg---qvlelevedrmtadqwrgefdagfiedlthktgnfkqfnifchmlesa   74 (77)
+                      |+.+...-..+...+   ..|.|.+....   +.+.|.+.|  ....|.|.++...|..+..+.  -.++..|++-++.|
+T Consensus         1 ~~~~~~~~~ri~~~~~~~~~~~l~~~w~~~~~~~~~L~~td--g~~~w~g~v~~~~i~~~a~~~--~~~~~~y~~~~~~a   76 (207)
+T 5CJ0_B            1 GGSGERKISRIHLVSEPSITHFLQVSWEKTLESGFVITLTD--GHSAWTGTVSESEISQEADDM--AMEKGKYVGELRKA   76 (207)
+T ss_dssp             ---CEEEEEEEEETTEEEEEEEEEEEESSCGGGEEEEEEEC--SSCEEEEEEEHHHHHHHHHHT--TCCHHHHHHHHHHH
+T ss_pred             CCCcceeEEEEEeCCCCCceEEEEEEeecCCCCcEEEEEEC--CcceEEEEEcHHHHHHHHHHh--cCCHHHHHHHHHHH
+Confidence            344445556677665   78888888864   456776664  677999999999999999884  47889999999999
+
+
+Q ss_pred             HC
+Q tr|M0QYL5|M0QY   75 LT   76 (77)
+Q Consensus        75 lt   76 (77)
+                      |.
+T Consensus        77 L~   78 (207)
+T 5CJ0_B           77 LL   78 (207)
+T ss_dssp             HT
+T ss_pred             Hh
+Confidence            84
+
+
+No 14
+>6M8S_M Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit; beta-propeller, homopentamer, GABAB desensitization, SIGNALING; 3.71A {Homo sapiens}
+Probab=21.27  E-value=75  Score=22.35  Aligned_cols=11  Identities=9%  Similarity=0.166  Sum_probs=4.5  Template_Neff=6.000
+
+Q ss_pred             cchheeecchh
+Q tr|M0QYL5|M0QY   39 ADQWRGEFDAG   49 (77)
+Q Consensus        39 adqwrgefdag   49 (77)
+                      +++|...++.+
+T Consensus        63 ~~~~~~ryt~R   73 (129)
+T 6M8S_M           63 PDRPPERYTSR   73 (129)
+T ss_pred             CCCCCcceeeE
+Confidence            34453334333
+
+

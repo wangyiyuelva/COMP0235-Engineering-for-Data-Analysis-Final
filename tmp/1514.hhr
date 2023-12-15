@@ -1,0 +1,346 @@
+Query         tr|A0A6Q8PGF8|A0A6Q8PGF8_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:24:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1514.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DSK_A Sodium-dependent neutra  88.4    0.36   4E-06   33.8   0.6   32   11-42     50-81  (647)
+  2 7CCS_A 4F2 cell-surface antige  87.2   0.045 4.9E-07   37.8  -4.3   34   10-43     36-69  (631)
+  3 1UUJ_D PLATELET-ACTIVATING FAC  81.6     5.1 5.5E-05   23.8   3.1   12    1-12      3-14  (88)
+  4 7MGM_C motor, AAA, MOTOR PROTE  81.4     2.8   3E-05   25.9   2.0   13    1-13      9-21  (495)
+  5 1VYH_C PLATELET-ACTIVATING FAC  75.9     4.3 4.7E-05   23.5   1.6   12    1-12      1-12  (410)
+  6 6GQ8_A NEQ011; neelaredoxin, s  39.6     6.3 6.9E-05   23.1  -2.0    8   20-27     95-102 (109)
+  7 4D7P_A SUPEROXIDE REDUCTASE (E  29.2      10 0.00011   22.1  -2.2    8   20-27     97-104 (111)
+  8 1VZI_A DESULFOFERRODOXIN (E.C.  28.4      13 0.00014   22.1  -2.0    9   19-27    113-121 (126)
+  9 4BFK_D SUPEROXIDE REDUCTASE (E  27.8      10 0.00011   23.5  -2.6    8   20-27    108-115 (125)
+ 10 4BGL_A SUPEROXIDE REDUCTASE; O  27.4      10 0.00011   23.4  -2.5    8   20-27    108-115 (125)
+ 11 1DO6_A SUPEROXIDE REDUCTASE; N  25.3      14 0.00015   23.5  -2.3    8   20-27    109-116 (124)
+ 12 1DQI_B CRYSTAL STRUCTURE OF SU  25.3      14 0.00015   23.5  -2.3    8   20-27    109-116 (124)
+ 13 1DFX_A DESULFOFERRODOXIN; ELEC  24.7      17 0.00018   21.6  -1.9    8   20-27    113-120 (125)
+ 14 2JI2_C DESULFOFERRODOXIN (E.C.  24.0      17 0.00018   21.7  -2.0    8   20-27    114-121 (126)
+ 15 3ZG1_B NICKEL AND COBALT RESIS  23.5 1.8E+02   0.002   15.1   2.0   15    2-16    126-140 (148)
+ 16 5OL4_A Urease subunit gamma (E  22.0 2.5E+02  0.0027   17.4   2.7   15    1-15      1-15  (100)
+ 17 6QDY_A Urease subunit gamma (E  22.0 2.5E+02  0.0027   17.4   2.7   16    1-16      1-16  (100)
+ 18 3A7P_A coiled-coil, Autophagy,  21.2 2.2E+02  0.0024   17.5   2.3   22    3-25     34-55  (152)
+ 19 3A7P_B coiled-coil, Autophagy,  21.2 2.2E+02  0.0024   17.5   2.3   23    3-26     34-56  (152)
+ 20 4DIX_B Plectin-related protein  20.6 2.2E+02  0.0024   20.6   2.5   30    4-33    195-224 (230)
+ 21 6QU1_D Transcription intermedi  20.0 1.8E+02  0.0019   14.7   1.5   21    3-23     19-46  (48)
+
+No 1
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=88.44  E-value=0.36  Score=33.79  Aligned_cols=32  Identities=34%  Similarity=0.325  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHHHHHHHHHHhcCCCCCCCChcccCCC
+Q tr|A0A6Q8PGF8|   11 LLEYSGAISAYCNLHLLGSRDSPASASQVAGI   42 (47)
+Q Consensus        11 lleysgaisaycnlhllgsrdspasasqvagi   42 (47)
+                      .++.++.+++.|.|.+.+|.|+|+++++++++
+T Consensus        50 ~l~~~~~~~~~~~l~l~~s~~~~~~~~~~a~~   81 (647)
+T 7DSK_A           50 DSETGSDCVTQAGLQLLASSDPPALASKNAEV   81 (647)
+T ss_dssp             --------------------------------
+T ss_pred             CCCCCcceEeeceecCCCCCCCCCcccccEEE
+Confidence            34455666666666666666666666665554
+
+
+No 2
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=87.17  E-value=0.045  Score=37.82  Aligned_cols=34  Identities=35%  Similarity=0.263  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHhcCCCCCCCChcccCCCc
+Q tr|A0A6Q8PGF8|   10 ELLEYSGAISAYCNLHLLGSRDSPASASQVAGIT   43 (47)
+Q Consensus        10 elleysgaisaycnlhllgsrdspasasqvagit   43 (47)
+                      .-++.++.+++.|++.+.++++++++++++++..
+T Consensus        36 ~~l~~~~~~~~~~~l~l~~s~~~~~s~~~~a~~~   69 (631)
+T 7CCS_A           36 DDSELGSHCVAQTGLELLASGDPLPSASQNAEMI   69 (631)
+T ss_dssp             ----------------------------------
+T ss_pred             cceecCceEEEEeeecCCCCCCCCCcHHHhhHHH
+Confidence            3467889999999999999999999999988743
+
+
+No 3
+>1UUJ_D PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB ALPHA; PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE, MITOSIS, NEUROGENESIS; HET: SO4, MSE; 1.75A {MUS MUSCULUS} SCOP: a.221.1.1
+Probab=81.65  E-value=5.1  Score=23.77  Aligned_cols=12  Identities=92%  Similarity=1.055  Sum_probs=10.5  Template_Neff=6.600
+
+Q ss_pred             CCCCHHHHHHHH
+Q tr|A0A6Q8PGF8|    1 MVLSQRQRDELL   12 (47)
+Q Consensus         1 mvlsqrqrdell   12 (47)
+                      |+|++|||+||-
+T Consensus         3 ~~Lt~rQ~~eL~   14 (88)
+T 1UUJ_D            3 MVLSQRQRDELN   14 (88)
+T ss_dssp             CCCCHHHHHHHH
+T ss_pred             CCCCHHHHHHHH
+Confidence            689999999874
+
+
+No 4
+>7MGM_C motor, AAA, MOTOR PROTEIN; HET: ADP, ATP;{Saccharomyces cerevisiae}
+Probab=81.44  E-value=2.8  Score=25.95  Aligned_cols=13  Identities=31%  Similarity=0.503  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCHHHHHHHHH
+Q tr|A0A6Q8PGF8|    1 MVLSQRQRDELLE   13 (47)
+Q Consensus         1 mvlsqrqrdelle   13 (47)
+                      |+|++|||+||-.
+T Consensus         9 ~~~~~~~~~~~~~   21 (495)
+T 7MGM_C            9 LPLTDTQKNELDK   21 (495)
+T ss_dssp             -------------
+T ss_pred             CCCCHHHHHHHHH
+Confidence            5799999999854
+
+
+No 5
+>1VYH_C PLATELET-ACTIVATING FACTOR ACETYLHYDROLASE IB BETA; LISSENCEPHALY, ACETYLHYDROLASE, PLATELET ACTIVACTING FACTOR; 3.4A {HOMO SAPIENS} SCOP: b.69.4.1
+Probab=75.94  E-value=4.3  Score=23.51  Aligned_cols=12  Identities=92%  Similarity=1.055  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CCCCHHHHHHHH
+Q tr|A0A6Q8PGF8|    1 MVLSQRQRDELL   12 (47)
+Q Consensus         1 mvlsqrqrdell   12 (47)
+                      |+|.|||.+|+.
+T Consensus         1 ~~~~~~~~~~~~   12 (410)
+T 1VYH_C            1 MVLSQRQRDELN   12 (410)
+T ss_dssp             ------------
+T ss_pred             CCcchhhHHHHH
+Confidence            889999888764
+
+
+No 6
+>6GQ8_A NEQ011; neelaredoxin, superoxide anion, reactive oxygen; 1.9A {Nanoarchaeum equitans Kin4-M}
+Probab=39.55  E-value=6.3  Score=23.06  Aligned_cols=8  Identities=63%  Similarity=1.269  Sum_probs=6.1  Template_Neff=7.900
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      ||||+|-+
+T Consensus        95 a~CN~HGl  102 (109)
+T 6GQ8_A           95 SYCTLHGL  102 (109)
+T ss_dssp             EEETTTEE
+T ss_pred             EEecCCcc
+Confidence            68999854
+
+
+No 7
+>4D7P_A SUPEROXIDE REDUCTASE (E.C.1.15.1.2); OXIDOREDUCTASE, SUPEROXIDE REDUCTASE, PATHOGEN, PROTOZOAN; 2.001A {GIARDIA INTESTINALIS}
+Probab=29.18  E-value=10  Score=22.06  Aligned_cols=8  Identities=75%  Similarity=1.231  Sum_probs=5.8  Template_Neff=8.100
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      ||||+|-+
+T Consensus        97 a~CN~HGl  104 (111)
+T 4D7P_A           97 AYCNLHGC  104 (111)
+T ss_dssp             EEETTTEE
+T ss_pred             EEeCCcce
+Confidence            68888854
+
+
+No 8
+>1VZI_A DESULFOFERRODOXIN (E.C.1.15.1.2); FERROCYANIDE, MICROSPECTROPHOTOMETRY, REDOX STATES, PHOTOREDUCTION; 1.15A {DESULFOVIBRIO BAARSII} SCOP: b.1.13.1, g.41.5.2
+Probab=28.39  E-value=13  Score=22.05  Aligned_cols=9  Identities=44%  Similarity=0.940  Sum_probs=6.1  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHhc
+Q tr|A0A6Q8PGF8|   19 SAYCNLHLL   27 (47)
+Q Consensus        19 saycnlhll   27 (47)
+                      -||||+|-|
+T Consensus       113 ~a~Cn~HGl  121 (126)
+T 1VZI_A          113 REYCNIHGH  121 (126)
+T ss_dssp             EEEETTTEE
+T ss_pred             EEEecCCee
+Confidence            368888854
+
+
+No 9
+>4BFK_D SUPEROXIDE REDUCTASE (E.C.1.15.1.2); OXIDOREDUCTASE, OXYGEN DETOXIFICATION; 2.103A {ARCHAEOGLOBUS FULGIDUS}
+Probab=27.82  E-value=10  Score=23.51  Aligned_cols=8  Identities=63%  Similarity=1.356  Sum_probs=6.4  Template_Neff=7.000
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|-+
+T Consensus       108 a~CNlHGl  115 (125)
+T 4BFK_D          108 SYCNIHGL  115 (125)
+T ss_dssp             EEETTTEE
+T ss_pred             EEECCCee
+Confidence            68999865
+
+
+No 10
+>4BGL_A SUPEROXIDE REDUCTASE; OXIDOREDUCTASE, OXYGEN DETOXIFICATION; HET: GOL; 1.9A {ARCHAEOGLOBUS FULGIDUS}
+Probab=27.38  E-value=10  Score=23.45  Aligned_cols=8  Identities=63%  Similarity=1.356  Sum_probs=6.4  Template_Neff=7.000
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|-+
+T Consensus       108 a~CNlHGl  115 (125)
+T 4BGL_A          108 SYCNIHGL  115 (125)
+T ss_dssp             EEETTTEE
+T ss_pred             EEECCCee
+Confidence            68999865
+
+
+No 11
+>1DO6_A SUPEROXIDE REDUCTASE; NON-HEME IRON PROTEIN, IMMUNOGLOBULIN-LIKE (IG); 2.0A {Pyrococcus furiosus} SCOP: b.1.13.1
+Probab=25.32  E-value=14  Score=23.53  Aligned_cols=8  Identities=63%  Similarity=1.356  Sum_probs=6.0  Template_Neff=6.200
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|=+
+T Consensus       109 a~CNlHGl  116 (124)
+T 1DO6_A          109 SYCNIHGL  116 (124)
+T ss_dssp             EEETTTEE
+T ss_pred             EEECCCee
+Confidence            68999854
+
+
+No 12
+>1DQI_B CRYSTAL STRUCTURE OF SUPEROXIDE REDUCTASE; non-heme iron protein, immunoglobulin-like (Ig); 1.7A {Pyrococcus furiosus} SCOP: b.1.13.1
+Probab=25.32  E-value=14  Score=23.53  Aligned_cols=8  Identities=63%  Similarity=1.356  Sum_probs=6.0  Template_Neff=6.200
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|=+
+T Consensus       109 a~CNlHGl  116 (124)
+T 1DQI_B          109 SYCNIHGL  116 (124)
+T ss_dssp             EEETTTEE
+T ss_pred             EEECCCee
+Confidence            68999854
+
+
+No 13
+>1DFX_A DESULFOFERRODOXIN; ELECTRON TRANSPORT, NON-HEME IRON PROTEIN; 1.9A {Desulfovibrio desulfuricans} SCOP: b.1.13.1, g.41.5.2
+Probab=24.74  E-value=17  Score=21.64  Aligned_cols=8  Identities=63%  Similarity=1.115  Sum_probs=5.6  Template_Neff=8.100
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|-|
+T Consensus       113 a~Cn~HGl  120 (125)
+T 1DFX_A          113 EYCNLHGH  120 (125)
+T ss_dssp             EEETTTEE
+T ss_pred             EEecCcee
+Confidence            57888854
+
+
+No 14
+>2JI2_C DESULFOFERRODOXIN (E.C.1.15.1.2); OXIDOREDUCTASE, RAMAN SPECTROSCOPY, SUPEROXIDE REDUCTASE; HET: NO3; 1.7A {Desulfarculus baarsii} SCOP: b.1.13.1, g.41.5.2
+Probab=23.99  E-value=17  Score=21.74  Aligned_cols=8  Identities=63%  Similarity=1.165  Sum_probs=5.7  Template_Neff=8.000
+
+Q ss_pred             HHHHHHhc
+Q tr|A0A6Q8PGF8|   20 AYCNLHLL   27 (47)
+Q Consensus        20 aycnlhll   27 (47)
+                      +|||+|-|
+T Consensus       114 a~Cn~HGl  121 (126)
+T 2JI2_C          114 AYCNIHGH  121 (126)
+T ss_dssp             EEETTTEE
+T ss_pred             EEecCcee
+Confidence            67888854
+
+
+No 15
+>3ZG1_B NICKEL AND COBALT RESISTANCE PROTEIN; METAL BINDING PROTEIN, SENSOR PROTEIN; HET: PGE, GOL, PEG; 1.85A {CUPRIAVIDUS METALLIDURANS}
+Probab=23.53  E-value=1.8e+02  Score=15.06  Aligned_cols=15  Identities=13%  Similarity=-0.110  Sum_probs=10.6  Template_Neff=11.700
+
+Q ss_pred             CCCHHHHHHHHHHHH
+Q tr|A0A6Q8PGF8|    2 VLSQRQRDELLEYSG   16 (47)
+Q Consensus         2 vlsqrqrdelleysg   16 (47)
+                      +|+..|+..+.++-.
+T Consensus       126 ~Lt~eQ~~~~~~~~~  140 (148)
+T 3ZG1_B          126 GLKPEHRPAYDRVLI  140 (148)
+T ss_dssp             TSCTTTHHHHHHHHH
+T ss_pred             cCCHHHHHHHHHHHH
+Confidence            577788887776644
+
+
+No 16
+>5OL4_A Urease subunit gamma (E.C.3.5.1.5), Urease; Urease Nickel NBPT enzyme, HYDROLASE; HET: CXM, SO4, EDO, KCX; 1.28A {Sporosarcina pasteurii}
+Probab=22.05  E-value=2.5e+02  Score=17.40  Aligned_cols=15  Identities=20%  Similarity=0.388  Sum_probs=11.8  Template_Neff=6.200
+
+Q ss_pred             CCCCHHHHHHHHHHH
+Q tr|A0A6Q8PGF8|    1 MVLSQRQRDELLEYS   15 (47)
+Q Consensus         1 mvlsqrqrdelleys   15 (47)
+                      |.|++++.|+|+-+.
+T Consensus         1 M~l~p~e~d~l~~~~   15 (100)
+T 5OL4_A            1 MHLNPAEKEKLQIFL   15 (100)
+T ss_dssp             CCCCHHHHHHHHHHH
+T ss_pred             CCCCchHHHHHHHHH
+Confidence            788999999886543
+
+
+No 17
+>6QDY_A Urease subunit gamma (E.C.3.5.1.5), Urease; urease, Sporosarcina pasteurii, nickel, urea; HET: CXM, SO4, EDO, KCX; 1.416A {Sporosarcina pasteurii}
+Probab=22.05  E-value=2.5e+02  Score=17.40  Aligned_cols=16  Identities=19%  Similarity=0.374  Sum_probs=12.3  Template_Neff=6.200
+
+Q ss_pred             CCCCHHHHHHHHHHHH
+Q tr|A0A6Q8PGF8|    1 MVLSQRQRDELLEYSG   16 (47)
+Q Consensus         1 mvlsqrqrdelleysg   16 (47)
+                      |.|++++.|+|+-+..
+T Consensus         1 M~l~p~e~d~l~~~~a   16 (100)
+T 6QDY_A            1 MHLNPAEKEKLQIFLA   16 (100)
+T ss_dssp             CCCCHHHHHHHHHHHH
+T ss_pred             CCCCchHHHHHHHHHH
+Confidence            7889999999875543
+
+
+No 18
+>3A7P_A coiled-coil, Autophagy, Coiled coil, Cytoplasmic; 2.8A {Saccharomyces cerevisiae}
+Probab=21.16  E-value=2.2e+02  Score=17.45  Aligned_cols=22  Identities=14%  Similarity=0.158  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A6Q8PGF8|    3 LSQRQRDELLEYSGAISAYCNLH   25 (47)
+Q Consensus         3 lsqrqrdelleysgaisaycnlh   25 (47)
+                      |.+|.+.| -.|...|.+|+.|.
+T Consensus        34 L~~Rd~~e-~~~~~ii~~y~~l~   55 (152)
+T 3A7P_A           34 LTDRNDKE-AHLNELFQDNSGAI   55 (152)
+T ss_dssp             -----------------------
+T ss_pred             HHHHHHHH-HHhHHHHHHHHHHh
+Confidence            44566666 45788888888765
+
+
+No 19
+>3A7P_B coiled-coil, Autophagy, Coiled coil, Cytoplasmic; 2.8A {Saccharomyces cerevisiae}
+Probab=21.16  E-value=2.2e+02  Score=17.45  Aligned_cols=23  Identities=13%  Similarity=0.088  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A6Q8PGF8|    3 LSQRQRDELLEYSGAISAYCNLHL   26 (47)
+Q Consensus         3 lsqrqrdelleysgaisaycnlhl   26 (47)
+                      |.+|.+.| -.|...|.+|+.|.-
+T Consensus        34 L~~Rd~~e-~~~~~ii~~y~~l~~   56 (152)
+T 3A7P_B           34 LTDRNDKE-AHLNELFQDNSGAIG   56 (152)
+T ss_dssp             ------------------------
+T ss_pred             HHHHHHHH-HHhHHHHHHHHHHhc
+Confidence            44566666 458888899987763
+
+
+No 20
+>4DIX_B Plectin-related protein; PH domain, Ig domain, malonate; HET: MLI; 1.7A {Arabidopsis thaliana}
+Probab=20.59  E-value=2.2e+02  Score=20.64  Aligned_cols=30  Identities=27%  Similarity=0.531  Sum_probs=25.0  Template_Neff=5.300
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHhcCCCCCC
+Q tr|A0A6Q8PGF8|    4 SQRQRDELLEYSGAISAYCNLHLLGSRDSP   33 (47)
+Q Consensus         4 sqrqrdelleysgaisaycnlhllgsrdsp   33 (47)
+                      |.|.||-..-..-...--||..|.|..|..
+T Consensus       195 s~R~Rd~aill~R~fa~~~n~~l~g~~~~~  224 (230)
+T 4DIX_B          195 SERERNAAIMLARRFACDCNVTLAGPEDRT  224 (230)
+T ss_dssp             SHHHHHHHHHHHHHHHHHTTCCCCSTTCCC
+T ss_pred             chHHHHHHHHHHHHHHHhccEEecCCCccc
+Confidence            679999888888888888999988877654
+
+
+No 21
+>6QU1_D Transcription intermediary factor 1-beta (E.C.2.3.2.27); TRIM28, transcriptional co-repressor, CUE domain; 3.7A {Homo sapiens}
+Probab=20.02  E-value=1.8e+02  Score=14.69  Aligned_cols=21  Identities=38%  Similarity=0.506  Sum_probs=12.1  Template_Neff=7.900
+
+Q ss_pred             CCHHHHHHHHHHH-------HHHHHHHH
+Q tr|A0A6Q8PGF8|    3 LSQRQRDELLEYS-------GAISAYCN   23 (47)
+Q Consensus         3 lsqrqrdelleys-------gaisaycn   23 (47)
+                      ++|+.+++|++..       +++++.++
+T Consensus        19 fp~~s~~el~~~i~~tstld~a~~~~l~   46 (48)
+T 6QU1_D           19 FPQRSDNDLLKLIESTSTMDGAIAAALL   46 (48)
+T ss_dssp             SCSSCHHHHHHHHHHTTSCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHhcCcchHHHHHHHhh
+Confidence            4566677777632       56655443
+
+

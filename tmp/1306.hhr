@@ -1,0 +1,266 @@
+Query         sp|Q6UW32|IGFL1_HUMAN
+Match_columns 110
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:13:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1306.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1PIJ_A ELECTRON TRANSFER (IRON  42.3      19  0.0002   24.7   0.2   13   64-76     28-40  (73)
+  2 1HPI_A HIGH-POTENTIAL IRON-SUL  41.2      23 0.00024   23.7   0.5   12   65-76     30-41  (71)
+  3 3A38_A High-potential iron-sul  40.4      23 0.00025   24.5   0.5   12   65-76     39-50  (83)
+  4 5D8V_A High-potential iron-sul  40.4      23 0.00025   24.5   0.5   12   65-76     39-50  (83)
+  5 3H31_A High potential iron-sul  37.5      31 0.00033   23.1   0.7   12   65-76     31-42  (74)
+  6 2JR7_A DESR1, CSL zinc finger,  37.5      32 0.00035   23.0   0.8   29   42-76     27-55  (89)
+  7 2HIP_A HIGH POTENTIAL IRON SUL  37.2      24 0.00026   24.0   0.1   13   64-76     26-38  (72)
+  8 1HLQ_A HIGH-POTENTIAL IRON-SUL  36.9      28 0.00031   23.5   0.4   12   65-76     34-45  (75)
+  9 1JS2_A serine ligated [4Fe-4S]  36.3      25 0.00028   24.7   0.2   13   64-76     42-54  (89)
+ 10 6XYV_A PioC; iron-sulphur prot  35.9      34 0.00036   21.8   0.6   13   65-77     18-30  (54)
+ 11 5T42_A Envelope glycoprotein;   34.7     3.4 3.7E-05   27.9  -4.0   17    5-21     31-47  (47)
+ 12 1ISU_B HIGH-POTENTIAL IRON-SUL  31.8      42 0.00045   21.9   0.6   13   65-77     18-30  (62)
+ 13 1YOP_A zinc finger, METAL BIND  28.7      48 0.00052   21.5   0.5   29   42-76     27-55  (83)
+ 14 1WGE_A Diphthamide, CSL zinc f  28.6      53 0.00058   21.2   0.7   29   42-76     34-62  (83)
+ 15 4X33_A Kti11, Kti13; Electron   24.2      77 0.00083   19.0   0.8   29   42-76     26-54  (63)
+ 16 5AX2_A Diphthamide biosynthesi  22.6      70 0.00076   21.5   0.4   29   42-76     27-55  (89)
+
+No 1
+>1PIJ_A ELECTRON TRANSFER (IRON-SULFUR PROTEIN); NMR {Halorhodospira halophila} SCOP: g.35.1.1
+Probab=42.28  E-value=19  Score=24.71  Aligned_cols=13  Identities=38%  Similarity=0.749  Sum_probs=10.6  Template_Neff=5.500
+
+Q ss_pred             cccccCCCCceee
+Q sp|Q6UW32|IGFL   64 ARTQTCGNCTFRV   76 (110)
+Q Consensus        64 artqtcgnctfrv   76 (110)
+                      ...|+|+||.|-.
+T Consensus        28 ~~~q~C~nC~~~~   40 (73)
+T 1PIJ_A           28 QEGQLCENCAFWG   40 (73)
+T ss_dssp             CTTCCGGGBTTEE
+T ss_pred             CCCCcccccHHHc
+Confidence            3579999999864
+
+
+No 2
+>1HPI_A HIGH-POTENTIAL IRON-SULFUR PROTEIN FROM ECTOTHIORHODOSPIRA; ELECTRON TRANSFER(IRON-SULFUR PROTEIN); 1.8A {Ectothiorhodospira shaposhnikovii} SCOP: g.35.1.1
+Probab=41.19  E-value=23  Score=23.66  Aligned_cols=12  Identities=42%  Similarity=0.717  Sum_probs=10.1  Template_Neff=6.200
+
+Q ss_pred             ccccCCCCceee
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRV   76 (110)
+Q Consensus        65 rtqtcgnctfrv   76 (110)
+                      ..|.|+||.|-.
+T Consensus        30 ~~q~C~nC~~f~   41 (71)
+T 1HPI_A           30 EGQTCLNCLLYT   41 (71)
+T ss_dssp             TTCCGGGBTTBS
+T ss_pred             CCCcccCCcccc
+Confidence            479999999865
+
+
+No 3
+>3A38_A High-potential iron-sulfur protein; IRON-SULFUR CLUSTER, ELECTRON TRANSPORT, Iron; HET: SO4; 0.7A {Thermochromatium tepidum}
+Probab=40.44  E-value=23  Score=24.48  Aligned_cols=12  Identities=42%  Similarity=0.938  Sum_probs=10.3  Template_Neff=5.900
+
+Q ss_pred             ccccCCCCceee
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRV   76 (110)
+Q Consensus        65 rtqtcgnctfrv   76 (110)
+                      -.|.|+||.|-.
+T Consensus        39 ~~q~C~nC~~y~   50 (83)
+T 3A38_A           39 EEQHCANCQFMQ   50 (83)
+T ss_dssp             GGCCGGGBTTEE
+T ss_pred             CcccccCChhhc
+Confidence            479999999876
+
+
+No 4
+>5D8V_A High-potential iron-sulfur protein; iron-sulfur protein, METAL BINDING PROTEIN; HET: SO4, GOL; 0.48A {Thermochromatium tepidum}
+Probab=40.44  E-value=23  Score=24.48  Aligned_cols=12  Identities=42%  Similarity=0.938  Sum_probs=10.3  Template_Neff=5.900
+
+Q ss_pred             ccccCCCCceee
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRV   76 (110)
+Q Consensus        65 rtqtcgnctfrv   76 (110)
+                      -.|.|+||.|-.
+T Consensus        39 ~~q~C~nC~~y~   50 (83)
+T 5D8V_A           39 EEQHCANCQFMQ   50 (83)
+T ss_dssp             GGCCGGGBTTEE
+T ss_pred             CcccccCChhhc
+Confidence            479999999876
+
+
+No 5
+>3H31_A High potential iron-sulfur protein; Iron-sulfur protein, ELECTRON TRANSPORT, Iron; 1.0A {Rhodothermus marinus}
+Probab=37.54  E-value=31  Score=23.14  Aligned_cols=12  Identities=42%  Similarity=0.944  Sum_probs=8.1  Template_Neff=6.300
+
+Q ss_pred             ccccCCCCceee
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRV   76 (110)
+Q Consensus        65 rtqtcgnctfrv   76 (110)
+                      -.|.|+||.|-.
+T Consensus        31 ~~q~C~nC~~f~   42 (74)
+T 3H31_A           31 PDKTCANCQLYV   42 (74)
+T ss_dssp             ---CGGGBTTEE
+T ss_pred             CCCccCCCcccc
+Confidence            479999999875
+
+
+No 6
+>2JR7_A DESR1, CSL zinc finger, METAL; HET: ZN; NMR {Homo sapiens}
+Probab=37.51  E-value=32  Score=23.03  Aligned_cols=29  Identities=28%  Similarity=0.608  Sum_probs=16.1  Template_Neff=7.200
+
+Q ss_pred             cCCCCCCCCcccccCCCCcccccccccCCCCceee
+Q sp|Q6UW32|IGFL   42 RCGDKFYDPLQHCCYDDAVVPLARTQTCGNCTFRV   76 (110)
+Q Consensus        42 rcgdkfydplqhccyddavvplartqtcgnctfrv   76 (110)
+                      |||+.|.-.......+..+      -.|.+|.+.+
+T Consensus        27 RCGg~f~l~~~~l~~~~~~------v~C~~CSL~I   55 (89)
+T 2JR7_A           27 PCGDNFSITKEDLENGEDV------ATCPSCSLII   55 (89)
+T ss_dssp             TTSSEEEEEHHHHHHTCCE------EECTTTCCEE
+T ss_pred             ccCCeEEecHHHhcCCCeE------EcCCCCeEEE
+Confidence            6999887655443222221      3477777543
+
+
+No 7
+>2HIP_A HIGH POTENTIAL IRON SULFUR PROTEIN; ELECTRON TRANSFER (IRON-SULFUR PROTEIN); HET: SF4; 2.5A {Halorhodospira halophila} SCOP: g.35.1.1
+Probab=37.19  E-value=24  Score=24.00  Aligned_cols=13  Identities=38%  Similarity=0.749  Sum_probs=10.6  Template_Neff=5.700
+
+Q ss_pred             cccccCCCCceee
+Q sp|Q6UW32|IGFL   64 ARTQTCGNCTFRV   76 (110)
+Q Consensus        64 artqtcgnctfrv   76 (110)
+                      ...|.|+||.|-.
+T Consensus        26 ~~gq~C~nC~~~~   38 (72)
+T 2HIP_A           26 QEGQLCENCAFWG   38 (72)
+T ss_dssp             CTTCCGGGBTTEE
+T ss_pred             CCCCcccccHHHc
+Confidence            3579999999864
+
+
+No 8
+>1HLQ_A HIGH-POTENTIAL IRON-SULFUR PROTEIN; Iron sulfur cluster, electron transport; HET: SO4, SF4; 1.45A {Rhodoferax fermentans} SCOP: g.35.1.1
+Probab=36.90  E-value=28  Score=23.51  Aligned_cols=12  Identities=25%  Similarity=0.836  Sum_probs=10.1  Template_Neff=6.100
+
+Q ss_pred             ccccCCCCceee
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRV   76 (110)
+Q Consensus        65 rtqtcgnctfrv   76 (110)
+                      -.|+|+||.|-.
+T Consensus        34 ~~q~C~nC~~~~   45 (75)
+T 1HLQ_A           34 KDQSCSTCALYQ   45 (75)
+T ss_dssp             TTCCGGGCTTCC
+T ss_pred             CCCccCCChhhc
+Confidence            479999999865
+
+
+No 9
+>1JS2_A serine ligated [4Fe-4S] cluster, ELECTRON; HET: SF4; 1.9A {Allochromatium vinosum} SCOP: g.35.1.1
+Probab=36.30  E-value=25  Score=24.66  Aligned_cols=13  Identities=38%  Similarity=0.874  Sum_probs=10.7  Template_Neff=5.800
+
+Q ss_pred             cccccCCCCceee
+Q sp|Q6UW32|IGFL   64 ARTQTCGNCTFRV   76 (110)
+Q Consensus        64 artqtcgnctfrv   76 (110)
+                      ...|.|+||.|-.
+T Consensus        42 ~~~q~C~nC~~f~   54 (89)
+T 1JS2_A           42 PEEQHCANCQFMQ   54 (89)
+T ss_dssp             GGGCCGGGBTTEE
+T ss_pred             CccccccccHHHc
+Confidence            3579999999875
+
+
+No 10
+>6XYV_A PioC; iron-sulphur protein, paramagnetic protein, paramagnetic; HET: SF4; NMR {Rhodopseudomonas palustris TIE-1}
+Probab=35.90  E-value=34  Score=21.77  Aligned_cols=13  Identities=23%  Similarity=0.511  Sum_probs=10.6  Template_Neff=6.200
+
+Q ss_pred             ccccCCCCceeeh
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRVC   77 (110)
+Q Consensus        65 rtqtcgnctfrvc   77 (110)
+                      ..|.|+||.|-.=
+T Consensus        18 ~~~~C~nC~~f~~   30 (54)
+T 6XYV_A           18 GAKRCGTCRQFRP   30 (54)
+T ss_dssp             TTBCSTTTTTEET
+T ss_pred             CCCcCCCCcccCC
+Confidence            4799999998753
+
+
+No 11
+>5T42_A Envelope glycoprotein; Ebola virus, membrane protein, protein-protein; NMR {Zaire ebolavirus (strain Kikwit-95)}
+Probab=34.68  E-value=3.4  Score=27.93  Aligned_cols=17  Identities=35%  Similarity=0.845  Sum_probs=13.2  Template_Neff=2.400
+
+Q ss_pred             CCcccCCCcccccCCCC
+Q sp|Q6UW32|IGFL    5 GCIVAVFAIFCISRLLC   21 (110)
+Q Consensus         5 gcivavfaifcisrllc   21 (110)
+                      |.|.|+.|++||-|+++
+T Consensus        31 gvI~aiiAL~CiCk~~~   47 (47)
+T 5T42_A           31 GVVIAVIALFAIAKFVF   47 (47)
+T ss_dssp             THHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHhC
+Confidence            56778888899988764
+
+
+No 12
+>1ISU_B HIGH-POTENTIAL IRON-SULFUR PROTEIN (HIPIP); ELECTRON TRANSFER(IRON-SULFUR PROTEIN); HET: SF4; 1.5A {Rhodocyclus tenuis} SCOP: g.35.1.1
+Probab=31.77  E-value=42  Score=21.91  Aligned_cols=13  Identities=23%  Similarity=0.506  Sum_probs=10.7  Template_Neff=6.200
+
+Q ss_pred             ccccCCCCceeeh
+Q sp|Q6UW32|IGFL   65 RTQTCGNCTFRVC   77 (110)
+Q Consensus        65 rtqtcgnctfrvc   77 (110)
+                      -.|.|+||.|-+-
+T Consensus        18 ~~q~C~nC~~f~~   30 (62)
+T 1ISU_B           18 NGKKCSGCAQFVP   30 (62)
+T ss_dssp             TTBCGGGBTTEEC
+T ss_pred             CCCccCCCccccC
+Confidence            4799999998764
+
+
+No 13
+>1YOP_A zinc finger, METAL BINDING PROTEIN; HET: ZN; NMR {Saccharomyces cerevisiae} SCOP: g.41.17.1
+Probab=28.68  E-value=48  Score=21.53  Aligned_cols=29  Identities=24%  Similarity=0.613  Sum_probs=17.4  Template_Neff=7.700
+
+Q ss_pred             cCCCCCCCCcccccCCCCcccccccccCCCCceee
+Q sp|Q6UW32|IGFL   42 RCGDKFYDPLQHCCYDDAVVPLARTQTCGNCTFRV   76 (110)
+Q Consensus        42 rcgdkfydplqhccyddavvplartqtcgnctfrv   76 (110)
+                      |||+.|--+.++...+..      .-.|.+|.+.+
+T Consensus        27 RCGg~f~i~~~~l~~~~~------~v~C~~CSL~i   55 (83)
+T 1YOP_A           27 PCGDRFQIYLDDMFEGEK------VAVCPSCSLMI   55 (83)
+T ss_dssp             TTTEEEEEEHHHHHTTCC------EEECSSSCCEE
+T ss_pred             CCCCeEEeeHHHHhCCCc------EEeCCCCceEE
+Confidence            899988766554322221      23588887654
+
+
+No 14
+>1WGE_A Diphthamide, CSL zinc finger, ADP-ribosylating; HET: ZN; NMR {Mus musculus} SCOP: g.41.17.1
+Probab=28.62  E-value=53  Score=21.17  Aligned_cols=29  Identities=28%  Similarity=0.605  Sum_probs=16.1  Template_Neff=7.900
+
+Q ss_pred             cCCCCCCCCcccccCCCCcccccccccCCCCceee
+Q sp|Q6UW32|IGFL   42 RCGDKFYDPLQHCCYDDAVVPLARTQTCGNCTFRV   76 (110)
+Q Consensus        42 rcgdkfydplqhccyddavvplartqtcgnctfrv   76 (110)
+                      |||+.|.-+......+..+      -.|.+|.+.+
+T Consensus        34 RCGg~f~i~~~~l~~~~~~------v~C~~CSL~i   62 (83)
+T 1WGE_A           34 PCGDNFAITKEDLENGEDV------ATCPSCSLII   62 (83)
+T ss_dssp             SSSSCEEEEHHHHHTTCCE------EECTTTCCEE
+T ss_pred             cCCCeEEcCHHHHhCCCcE------ecCCCCeEEE
+Confidence            7999886555443221111      3477777544
+
+
+No 15
+>4X33_A Kti11, Kti13; Electron transfer, tRNA modification, Complex; HET: DXE, CSO; 1.45A {Saccharomyces cerevisiae}
+Probab=24.18  E-value=77  Score=19.01  Aligned_cols=29  Identities=28%  Similarity=0.652  Sum_probs=15.3  Template_Neff=8.400
+
+Q ss_pred             cCCCCCCCCcccccCCCCcccccccccCCCCceee
+Q sp|Q6UW32|IGFL   42 RCGDKFYDPLQHCCYDDAVVPLARTQTCGNCTFRV   76 (110)
+Q Consensus        42 rcgdkfydplqhccyddavvplartqtcgnctfrv   76 (110)
+                      |||+.|.-+......+..+      -.|.+|.+.+
+T Consensus        26 rCG~~~~i~~~~~~~~~~~------~~C~~CSl~i   54 (63)
+T 4X33_A           26 PCGDRFQIYLDDMFEGEKV------AVCPSCSLMI   54 (63)
+T ss_dssp             TTSSEEEEEHHHHHTTCCE------EECTTSSCEE
+T ss_pred             CCCCceEecHHHHhcCCcE------EeCCCCceEE
+Confidence            8999876544332211111      3477776654
+
+
+No 16
+>5AX2_A Diphthamide biosynthesis protein 3; cytoplasm, metal binding, protein folding; 2.4A {Saccharomyces cerevisiae S288c}
+Probab=22.63  E-value=70  Score=21.47  Aligned_cols=29  Identities=24%  Similarity=0.613  Sum_probs=16.0  Template_Neff=7.200
+
+Q ss_pred             cCCCCCCCCcccccCCCCcccccccccCCCCceee
+Q sp|Q6UW32|IGFL   42 RCGDKFYDPLQHCCYDDAVVPLARTQTCGNCTFRV   76 (110)
+Q Consensus        42 rcgdkfydplqhccyddavvplartqtcgnctfrv   76 (110)
+                      |||+.|.-+....-.+..      .-.|.+|.+.+
+T Consensus        27 RCGg~f~i~~~~l~~~~~------~v~C~~CSL~i   55 (89)
+T 5AX2_A           27 PCGDRFQIYLDDMFEGEK------VAVCPSCSLMI   55 (89)
+T ss_dssp             SSSSEEEEEHHHHHTTCC------EEECTTSCCEE
+T ss_pred             CCCCeEEeeHHHHhCCCC------EEeCCCCceEE
+Confidence            899988755444221111      13477777543
+
+

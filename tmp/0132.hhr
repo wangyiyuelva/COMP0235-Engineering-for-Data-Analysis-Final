@@ -1,0 +1,177 @@
+Query         tr|H3BLW0|H3BLW0_HUMAN
+Match_columns 491
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:36:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0132.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AD3_G Pheromone alpha factor    6.6   5E+02  0.0055   22.9   1.0   12  296-307    96-107 (109)
+  2 5YZG_i Pre-mRNA-processing-spl   5.4 1.6E+03   0.017   22.1   3.5   21  208-228    70-90  (229)
+  3 3WOI_B dipeptidyl aminopeptida   4.7 1.2E+03   0.013   25.8   2.6   13  244-256   631-644 (698)
+  4 3WOK_A dipeptidyl aminopeptida   4.7 1.2E+03   0.013   25.8   2.6    7  184-190   201-207 (698)
+  5 6KGX_b1 Phycoerythrin alpha su   4.6 1.1E+03   0.012   26.5   2.2   79  148-226   285-384 (405)
+  6 7E8T_L Complex, TRANSPORT PROT   4.5 6.3E+02  0.0068   19.9   0.4    7  300-306   216-222 (222)
+  7 1ZTO_A POTASSIUM CHANNEL, INAC   4.4 8.4E+02  0.0092   18.6   0.9   19  297-315     5-24  (37)
+  8 6E8A_A DUF1795 domain-containi   4.3 1.2E+03   0.013   18.2   1.6   20   29-48     15-34  (156)
+  9 6E8A_B DUF1795 domain-containi   4.3 1.2E+03   0.013   18.2   1.6   20   29-48     15-34  (156)
+ 10 7P5C_B Membrane protein, lipid   4.0 2.8E+03   0.031   22.2   4.5   12  192-203   421-432 (530)
+
+No 1
+>7AD3_G Pheromone alpha factor receptor, Alpha-factor; Fungal GPCR, Dimer, Complex, Class; HET: Y01, NAG;{Saccharomyces cerevisiae}
+Probab=6.57  E-value=5e+02  Score=22.93  Aligned_cols=12  Identities=17%  Similarity=0.144  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCcee
+Q tr|H3BLW0|H3BL  296 ASVSGQSSGCCI  307 (491)
+Q Consensus       296 asvsgqssgcci  307 (491)
+                      +.-.+.++|||+
+T Consensus        96 ~~~~~~~~gCC~  107 (109)
+T 7AD3_G           96 SQMSNSNSVSST  107 (109)
+T ss_dssp             ------------
+T ss_pred             ccccccCCCcee
+Confidence            345577889986
+
+
+No 2
+>5YZG_i Pre-mRNA-processing-splicing factor 8, 116 kDa; Structure of a Human Catalytic; HET: ADP, GTP, IHP, SEP, ATP; 4.1A {Homo sapiens}
+Probab=5.36  E-value=1.6e+03  Score=22.10  Aligned_cols=21  Identities=24%  Similarity=0.370  Sum_probs=14.2  Template_Neff=7.100
+
+Q ss_pred             CCCCCCceeeeecCCCCCCCC
+Q tr|H3BLW0|H3BL  208 LKPRSNVISYVTVNDSPDSDS  228 (491)
+Q Consensus       208 lkprsnvisyvtvndspdsds  228 (491)
+                      +.-|.+.|.++++.+.+..|.
+T Consensus        70 vlIRGe~Iv~i~v~~~p~~~~   90 (229)
+T 5YZG_i           70 VLLRGENLVSMTVEGPPPKDT   90 (229)
+T ss_pred             EEEcCcceeeeecCCCCCCCC
+Confidence            344666778888887776653
+
+
+No 3
+>3WOI_B dipeptidyl aminopeptidase BII(E.C.3.4.14.-); Chymotrypsin fold, S46 peptidase, Hydrolase; HET: GOL, MSE; 2.1A {Pseudoxanthomonas mexicana}
+Probab=4.72  E-value=1.2e+03  Score=25.84  Aligned_cols=13  Identities=54%  Similarity=1.048  Sum_probs=5.3  Template_Neff=8.200
+
+Q ss_pred             CCCCC-CCCCCCce
+Q tr|H3BLW0|H3BL  244 GNSGS-VLEGPGRV  256 (491)
+Q Consensus       244 gnsgs-vlegpgrv  256 (491)
+                      ||||| ||.+.|++
+T Consensus       631 gnsGspv~n~~g~~  644 (698)
+T 3WOI_B          631 GNAGSPVLDAHGKL  644 (698)
+T ss_dssp             TCTTCEEECTTSCE
+T ss_pred             CCCCcEEECCCCCE
+Confidence            44444 33344443
+
+
+No 4
+>3WOK_A dipeptidyl aminopeptidase BII(E.C.3.4.14.-); Chymotrypsin fold, S46 peptidase, Hydrolase; HET: GOL, MSE; 1.95A {Pseudoxanthomonas mexicana}
+Probab=4.72  E-value=1.2e+03  Score=25.84  Aligned_cols=7  Identities=0%  Similarity=-0.102  Sum_probs=2.8  Template_Neff=8.200
+
+Q ss_pred             CceeeeC
+Q tr|H3BLW0|H3BL  184 VSVITIR  190 (491)
+Q Consensus       184 vsvitir  190 (491)
+                      +.++.|.
+T Consensus       201 ~Allrv~  207 (698)
+T 3WOK_A          201 FAFYRAY  207 (698)
+T ss_dssp             CEEEEEE
+T ss_pred             EEEEEEE
+Confidence            3344443
+
+
+No 5
+>6KGX_b1 Phycoerythrin alpha subunit, B-phycoerythrin beta; phycobilisome, Complex, PHOTOSYNTHESIS; HET: CYC, MEN, PUB, PEB; 2.8A {Porphyridium purpureum}
+Probab=4.58  E-value=1.1e+03  Score=26.46  Aligned_cols=79  Identities=23%  Similarity=0.339  Sum_probs=46.8  Template_Neff=4.600
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCC-Ccc-CCCCCCCCCceeeeCC---CCCCCCCC-------CCCCC---------CC
+Q tr|H3BLW0|H3BL  148 SLVGSSPLRTTSSYNSLVPVQDQHQ-PII-IPDTPSPPVSVITIRS---DTDEEEDN-------KYKPS---------SS  206 (491)
+Q Consensus       148 slvgssplrttssynslvpvqdqhq-pii-ipdtpsppvsvitirs---dtdeeedn-------kykps---------ss  206 (491)
+                      ..++..+.--++.|.++.|.+.-.. |.| |-+..+..++-+.+++   -+|+++.+       |||-.         ..
+T Consensus       285 ~~~~~~~~~~~~~y~~~~~~~~~~k~p~i~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~k~~~~~~~~~~~~~k~  364 (405)
+T 6KGX_b1         285 EKIGKFDHAPISTYTSLCSYDKVNKAPQISVTNVGSDEHSYVSVTSKYIAPDMAAAAQMLADCQKYKAGGNAPTGKWMKY  364 (405)
+T ss_pred             ccccCCCCCCcccccccccHHHHhcCCeEEeccCCCCccceeeeeecccccCHHHHHHHHHHHHHhcCCCCCCCcchHHh
+Confidence            3445566777889999999998877 755 3444333333333332   34666666       77651         11
+
+
+Q ss_pred             CCCCCCCceeeeecCCCCCC
+Q tr|H3BLW0|H3BL  207 GLKPRSNVISYVTVNDSPDS  226 (491)
+Q Consensus       207 glkprsnvisyvtvndspds  226 (491)
+                      --+.+-|+--||.+||.-+.
+T Consensus       365 y~~~~~~~ap~~~~~~~~~~  384 (405)
+T 6KGX_b1         365 YPGTTVNMAPYISLNDTGSD  384 (405)
+T ss_pred             CCCCcccccCeEEeecCCCC
+Confidence            11235677778888876543
+
+
+No 6
+>7E8T_L Complex, TRANSPORT PROTEIN;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=4.53  E-value=6.3e+02  Score=19.95  Aligned_cols=7  Identities=57%  Similarity=1.341  Sum_probs=4.5  Template_Neff=12.200
+
+Q ss_pred             CCCCCce
+Q tr|H3BLW0|H3BL  300 GQSSGCC  306 (491)
+Q Consensus       300 gqssgcc  306 (491)
+                      -+++|||
+T Consensus       216 ~~~~~~~  222 (222)
+T 7E8T_L          216 KKSSNCC  222 (222)
+T ss_pred             ccccCcC
+Confidence            3467777
+
+
+No 7
+>1ZTO_A POTASSIUM CHANNEL, INACTIVATION GATE; HET: AAR; NMR {Homo sapiens} SCOP: j.12.1.1
+Probab=4.37  E-value=8.4e+02  Score=18.60  Aligned_cols=19  Identities=58%  Similarity=0.858  Sum_probs=12.2  Template_Neff=5.200
+
+Q ss_pred             CCCCCCCCce-eCCCCCCCC
+Q tr|H3BLW0|H3BL  297 SVSGQSSGCC-ITPTGYRAQ  315 (491)
+Q Consensus       297 svsgqssgcc-itptgyraq  315 (491)
+                      -+++.+.||| ++|-||+.+
+T Consensus         5 ~~sa~~~~~~~~~~ygy~~~   24 (37)
+T 1ZTO_A            5 MVSAESSGCNSHMPYGYAAQ   24 (37)
+T ss_dssp             CCCCCCSSSTTCSCTTGGGT
+T ss_pred             ccccccCCCccCCccchhHH
+Confidence            3455555555 889999854
+
+
+No 8
+>6E8A_A DUF1795 domain-containing protein; Mog1/PsbP-like fold lipoprotein, UNKNOWN FUNCTION; 1.92A {Salmonella typhimurium}
+Probab=4.27  E-value=1.2e+03  Score=18.22  Aligned_cols=20  Identities=20%  Similarity=0.340  Sum_probs=15.2  Template_Neff=11.200
+
+Q ss_pred             eCCCCCeEEECCCCccCCCC
+Q tr|H3BLW0|H3BL   29 AWPGGTQQILLPSTWQQLPG   48 (491)
+Q Consensus        29 awpggtqqillpstwqqlpg   48 (491)
+                      .-+++.-.|.+|..|+..+.
+T Consensus        15 ~~~~~~~si~~P~~W~~~~~   34 (156)
+T 6E8A_A           15 SLMDGKLSFSLPADMTDQSG   34 (156)
+T ss_dssp             EEGGGTEEECCBTTCCCSSC
+T ss_pred             eeeCCeEEEEecCCccccCc
+Confidence            34567788999999997654
+
+
+No 9
+>6E8A_B DUF1795 domain-containing protein; Mog1/PsbP-like fold lipoprotein, UNKNOWN FUNCTION; 1.92A {Salmonella typhimurium}
+Probab=4.27  E-value=1.2e+03  Score=18.22  Aligned_cols=20  Identities=20%  Similarity=0.340  Sum_probs=15.4  Template_Neff=11.200
+
+Q ss_pred             eCCCCCeEEECCCCccCCCC
+Q tr|H3BLW0|H3BL   29 AWPGGTQQILLPSTWQQLPG   48 (491)
+Q Consensus        29 awpggtqqillpstwqqlpg   48 (491)
+                      .-+++.-.|.+|..|+..+.
+T Consensus        15 ~~~~~~~si~~P~~W~~~~~   34 (156)
+T 6E8A_B           15 SLMDGKLSFSLPADMTDQSG   34 (156)
+T ss_dssp             EEGGGTEEEECCTTCCCSSC
+T ss_pred             eeeCCeEEEEecCCccccCc
+Confidence            34567788999999997654
+
+
+No 10
+>7P5C_B Membrane protein, lipid metabolism, lipid; HET: NAG;{Homo sapiens}
+Probab=4.01  E-value=2.8e+03  Score=22.24  Aligned_cols=12  Identities=25%  Similarity=0.194  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H3BLW0|H3BL  192 DTDEEEDNKYKP  203 (491)
+Q Consensus       192 dtdeeednkykp  203 (491)
+                      |.+||||--+.|
+T Consensus       421 ~d~~~ed~~f~~  432 (530)
+T 7P5C_B          421 EDGEEEAAPGPR  432 (530)
+T ss_dssp             ------------
+T ss_pred             CCCCccCCCCCC
+Confidence            444455543433
+
+

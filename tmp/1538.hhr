@@ -1,0 +1,168 @@
+Query         tr|D6RC38|D6RC38_HUMAN
+Match_columns 22
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:56:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1538.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6S10_A RNA chaperone ProQ; Pro  34.4      52 0.00056   17.4   1.1   15    2-16     85-99  (122)
+  2 5NB9_A RNA chaperone ProQ; Fin  30.5      73 0.00079   17.4   1.3   17    3-19     94-110 (133)
+  3 6NE8_A Thioredoxin-like fold d  18.8      97  0.0011   14.8   0.3   10    8-17    137-146 (146)
+  4 1DVO_A Repressor, Bacterial Co  17.7 1.7E+02  0.0019   16.4   1.2   14    3-16    111-124 (152)
+  5 3ZC7_A ADENOSINE MONOPHOSPHATE  15.4 3.8E+02  0.0041   14.4   2.1   12    1-12      1-12  (254)
+  6 2RPQ_B Small ubiquitin-related  15.2 1.8E+02   0.002   15.1   0.8   13    8-20      4-16  (49)
+  7 4NI5_A Oxidoreductase, short-c  12.9 2.8E+02   0.003   13.2   1.0   10    1-10      1-10  (254)
+  8 4NI5_B Oxidoreductase, short-c  12.9 2.8E+02   0.003   13.2   1.0   10    1-10      1-10  (254)
+  9 6BY1_D0 ribosome; mRNA, tRNA,   12.1 1.9E+02  0.0021   13.1   0.4   11   11-21     24-34  (39)
+ 10 3MW6_A uncharacterized protein  11.7   3E+02  0.0032   15.6   1.1   13    3-15     90-102 (144)
+
+No 1
+>6S10_A RNA chaperone ProQ; ProQ, RNA binding protein, sRNA; NMR {Legionella pneumophila}
+Probab=34.37  E-value=52  Score=17.39  Aligned_cols=15  Identities=27%  Similarity=0.321  Sum_probs=12.4  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|D6RC38|D6RC    2 AKYNTGGNPTEDVSV   16 (22)
+Q Consensus         2 akyntggnptedvsv   16 (22)
+                      ..|+-.|+|.+.||-
+T Consensus        85 ~R~dL~G~~~g~Vt~   99 (122)
+T 6S10_A           85 ARVDIYGNEVDVVTP   99 (122)
+T ss_dssp             CCBCSSCCBCCCCCH
+T ss_pred             ceecCCCCcCccCCH
+Confidence            368899999998874
+
+
+No 2
+>5NB9_A RNA chaperone ProQ; FinO, ProQ, RNA, chaperone; NMR {Escherichia coli O45:K1 (strain S88 / ExPEC)}
+Probab=30.49  E-value=73  Score=17.40  Aligned_cols=17  Identities=18%  Similarity=0.411  Sum_probs=14.3  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|D6RC38|D6RC    3 KYNTGGNPTEDVSVNSR   19 (22)
+Q Consensus         3 kyntggnptedvsvnsr   19 (22)
+                      .|+-.|+|.+.|+-..+
+T Consensus        94 RydL~G~~~g~Vt~ee~  110 (133)
+T 5NB9_A           94 RVDLDGNPCGELDEQHV  110 (133)
+T ss_dssp             CCSTTTSSTTTCCSSST
+T ss_pred             eeCCCCCcCCCCCHHHH
+Confidence            68999999999987654
+
+
+No 3
+>6NE8_A Thioredoxin-like fold domain-containing protein MRL7L; NCP, NUCLEAR CONTROL OF PEP; NMR {Arabidopsis thaliana}
+Probab=18.85  E-value=97  Score=14.78  Aligned_cols=10  Identities=60%  Similarity=0.604  Sum_probs=7.1  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RC38|D6RC    8 GNPTEDVSVN   17 (22)
+Q Consensus         8 gnptedvsvn   17 (22)
+                      +.|.-|||||
+T Consensus       137 ~~~~~~~~~~  146 (146)
+T 6NE8_A          137 QIPLVDVSVN  146 (146)
+T ss_dssp             ECCCCCCCCC
+T ss_pred             cCcceeeeeC
+Confidence            4577788886
+
+
+No 4
+>1DVO_A Repressor, Bacterial Conjugation, TRANSCRIPTION; 2.0A {Escherichia coli} SCOP: a.136.1.1
+Probab=17.65  E-value=1.7e+02  Score=16.39  Aligned_cols=14  Identities=43%  Similarity=0.669  Sum_probs=10.5  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|D6RC38|D6RC    3 KYNTGGNPTEDVSV   16 (22)
+Q Consensus         3 kyntggnptedvsv   16 (22)
+                      .||-.|+|.+.||.
+T Consensus       111 R~dLdG~p~g~Vt~  124 (152)
+T 1DVO_A          111 RYDTEGYVTEHISQ  124 (152)
+T ss_dssp             EECTTSCEEEECCH
+T ss_pred             eeCCCCCcCCCCCH
+Confidence            47788888887763
+
+
+No 5
+>3ZC7_A ADENOSINE MONOPHOSPHATE-PROTEIN TRANSFERASE VBHT (E.C.2.7.7.-); TRANSFERASE-ANTITOXIN COMPLEX, AMPYLATION, ADENYLYLATION; HET: ATP; 2.1A {BARTONELLA SCHOENBUCHENSIS}
+Probab=15.36  E-value=3.8e+02  Score=14.42  Aligned_cols=12  Identities=25%  Similarity=0.567  Sum_probs=3.2  Template_Neff=9.900
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|D6RC38|D6RC    1 MAKYNTGGNPTE   12 (22)
+Q Consensus         1 makyntggnpte   12 (22)
+                      |.||-++|+|-.
+T Consensus         1 ~~~~~~~~~~~~   12 (254)
+T 3ZC7_A            1 VRKYEGSNDPYT   12 (254)
+T ss_dssp             -------CCTTE
+T ss_pred             CCCCCCCCCCCc
+Confidence            568888888743
+
+
+No 6
+>2RPQ_B Small ubiquitin-related modifier 2, Activating; SUMO, SIM, Nucleus, Ubl conjugation; NMR {Homo sapiens}
+Probab=15.18  E-value=1.8e+02  Score=15.12  Aligned_cols=13  Identities=31%  Similarity=0.251  Sum_probs=9.6  Template_Neff=3.400
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|D6RC38|D6RC    8 GNPTEDVSVNSRP   20 (22)
+Q Consensus         8 gnptedvsvnsrp   20 (22)
+                      .+|+-|.|+|-|+
+T Consensus         4 ~~p~td~sanKr~   16 (49)
+T 2RPQ_B            4 EFKTIDASVSKKA   16 (49)
+T ss_pred             ccccCcccccccc
+Confidence            4677788888775
+
+
+No 7
+>4NI5_A Oxidoreductase, short-chain dehydrogenase/reductase family protein; Structural Genomics, NIAID, National Institute; 1.7A {Brucella suis}
+Probab=12.92  E-value=2.8e+02  Score=13.19  Aligned_cols=10  Identities=20%  Similarity=0.006  Sum_probs=0.8  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RC38|D6RC    1 MAKYNTGGNP   10 (22)
+Q Consensus         1 makyntggnp   10 (22)
+                      |+||+..+.+
+T Consensus         1 ~~~~~~~~~~   10 (254)
+T 4NI5_A            1 MAHHHHHHMR   10 (254)
+T ss_dssp             --------CT
+T ss_pred             CCCccCCCcc
+Confidence            5566555443
+
+
+No 8
+>4NI5_B Oxidoreductase, short-chain dehydrogenase/reductase family protein; Structural Genomics, NIAID, National Institute; 1.7A {Brucella suis}
+Probab=12.92  E-value=2.8e+02  Score=13.19  Aligned_cols=10  Identities=20%  Similarity=0.006  Sum_probs=0.8  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RC38|D6RC    1 MAKYNTGGNP   10 (22)
+Q Consensus         1 makyntggnp   10 (22)
+                      |+||+..+.+
+T Consensus         1 ~~~~~~~~~~   10 (254)
+T 4NI5_B            1 MAHHHHHHMR   10 (254)
+T ss_dssp             --------CT
+T ss_pred             CCCccCCCcc
+Confidence            5566555443
+
+
+No 9
+>6BY1_D0 ribosome; mRNA, tRNA, helicase, RIBOSOME; HET: MG; 3.94A {Escherichia coli (strain K12)}
+Probab=12.05  E-value=1.9e+02  Score=13.06  Aligned_cols=11  Identities=36%  Similarity=0.637  Sum_probs=7.1  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|D6RC38|D6RC   11 TEDVSVNSRPF   21 (22)
+Q Consensus        11 tedvsvnsrpf   21 (22)
+                      .-|++-++-||
+T Consensus        24 ~vdi~s~~HPf   34 (39)
+T 6BY1_D0          24 NLDVCSKCHPF   34 (39)
+T ss_pred             EEEecCCCCCc
+Confidence            44666677776
+
+
+No 10
+>3MW6_A uncharacterized protein NMB1681; STRUCTURAL GENOMICS, PSI-2, PROTEIN STRUCTURE; HET: MSE; 2.209A {Neisseria meningitidis}
+Probab=11.68  E-value=3e+02  Score=15.64  Aligned_cols=13  Identities=8%  Similarity=0.332  Sum_probs=9.4  Template_Neff=6.300
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|D6RC38|D6RC    3 KYNTGGNPTEDVS   15 (22)
+Q Consensus         3 kyntggnptedvs   15 (22)
+                      .||-.|+|.+.|+
+T Consensus        90 RydLdG~p~g~Vt  102 (144)
+T 3MW6_A           90 RFDLNNRFKGEVT  102 (144)
+T ss_dssp             EECTTSCEEEECC
+T ss_pred             eeCCCCCcCccCC
+Confidence            4677788877765
+
+

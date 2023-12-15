@@ -1,0 +1,158 @@
+Query         tr|H3BUY5|H3BUY5_HUMAN
+Match_columns 263
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:40:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0615.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TTX_B CREB-binding protein (E  38.2      97   0.001   30.3   4.2    8  243-250   412-419 (456)
+  2 6Y4G_B CREB-binding protein (E  38.2      97   0.001   30.3   4.2    8  243-250   412-419 (456)
+  3 7ABG_C U5 small nuclear ribonu   9.4 6.8E+02  0.0074   19.3   2.7   22  241-262   113-136 (139)
+  4 4PKD_B U1-A (2-111) plus (Gly-   9.1 7.5E+02  0.0081   19.7   2.8   48  215-262   230-277 (279)
+  5 5K7W_B N6-adenosine-methyltran   7.8 1.5E+03   0.016   20.2   4.4   40  221-260   279-318 (349)
+  6 6ZMW_y Eukaryotic translation    7.5 5.7E+02  0.0062   27.7   2.1   20  241-260   886-905 (913)
+  7 6ZP4_C 40S ribosomal protein S   7.5 5.7E+02  0.0062   27.7   2.1   20  241-260   886-905 (913)
+  8 7OBQ_u SRP SRP receptor, co-tr   7.2 1.1E+03   0.012   25.0   3.9   32  231-262     1-32  (622)
+  9 6J5K_AJ ATP synthase F1 subuni   6.7 7.3E+02  0.0079   19.1   1.8   24  239-262     1-24  (83)
+ 10 6V7B_g Structural protein VP1,   6.7 6.8E+02  0.0073   21.3   1.8   24  236-259   118-141 (145)
+
+No 1
+>6TTX_B CREB-binding protein (E.C.2.3.1.48); Compound, Complex, Mettl3, Mettl14, Epitranscriptomic; HET: NX8; 2.0A {Homo sapiens}
+Probab=38.21  E-value=97  Score=30.31  Aligned_cols=8  Identities=100%  Similarity=1.905  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCC
+Q tr|H3BUY5|H3BU  243 APRGGGRG  250 (263)
+Q Consensus       243 aprgggrg  250 (263)
+                      +++|||||
+T Consensus       412 ~~~~~~rg  419 (456)
+T 6TTX_B          412 APRGGGRG  419 (456)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            34443444
+
+
+No 2
+>6Y4G_B CREB-binding protein (E.C.2.3.1.48); Inhibitor, Complex, METTL3, Sinefungin, METTL14; HET: SFG; 1.9A {Homo sapiens}
+Probab=38.21  E-value=97  Score=30.31  Aligned_cols=8  Identities=100%  Similarity=1.905  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCC
+Q tr|H3BUY5|H3BU  243 APRGGGRG  250 (263)
+Q Consensus       243 aprgggrg  250 (263)
+                      +++|||||
+T Consensus       412 ~~~~~~rg  419 (456)
+T 6Y4G_B          412 APRGGGRG  419 (456)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            34443444
+
+
+No 3
+>7ABG_C U5 small nuclear ribonucleoprotein 40; Complex, spliceosome, catalytic activation, splicing; HET: GTP, GTG, IHP; 7.8A {Homo sapiens}
+Probab=9.36  E-value=6.8e+02  Score=19.27  Aligned_cols=22  Identities=36%  Similarity=0.614  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCC--CCCCCCCC
+Q tr|H3BUY5|H3BU  241 RGAPRGGGRGGSRS--DRGGGRSR  262 (263)
+Q Consensus       241 rgaprgggrggsrs--drgggrsr  262 (263)
+                      ++..+||++|+++.  .+.+|+++
+T Consensus       113 ~g~g~g~~~g~~~~~~~~~~~~~~  136 (139)
+T 7ABG_C          113 GGRGRGGIPGTGRGQPEKKPGRQA  136 (139)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCcC
+
+
+No 4
+>4PKD_B U1-A (2-111) plus (Gly-Ser)6-Gly linker; U1-70k, U1 snRNP, Pre-mRNA splicing; HET: GTP; 2.5A {Sus scrofa}
+Probab=9.09  E-value=7.5e+02  Score=19.67  Aligned_cols=48  Identities=17%  Similarity=0.187  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  215 GRQERGLPPSMERGYPPPRDSYSSSSRGAPRGGGRGGSRSDRGGGRSR  262 (263)
+Q Consensus       215 grqerglppsmergyppprdsyssssrgaprgggrggsrsdrgggrsr  262 (263)
+                      +....|....++.....++.+...-..+.+.||.+.++++-++.++.|
+T Consensus       230 ~~~~~g~~l~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  277 (279)
+T 4PKD_B          230 GKKIDGRRVLVDVERGRTVKGWRPRRLGGGLGGTRRGGADVNIRHSGR  277 (279)
+T ss_dssp             TCEETTEECEEEECCTTTSTTCCCGGGTCCCCCTTCC-----------
+T ss_pred             CCEeCCEEeEEeeccCCCCCCCCCCccCCCCCCCCCCCCccccccccc
+
+
+No 5
+>5K7W_B N6-adenosine-methyltransferase 70 kDa subunit (E.C.2.1.1.62); methyltransferase, methyladenosine, m6A, TRANSFERASE; HET: SAH; 1.65A {Homo sapiens}
+Probab=7.76  E-value=1.5e+03  Score=20.19  Aligned_cols=40  Identities=25%  Similarity=0.314  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  221 LPPSMERGYPPPRDSYSSSSRGAPRGGGRGGSRSDRGGGR  260 (263)
+Q Consensus       221 lppsmergyppprdsyssssrgaprgggrggsrsdrgggr  260 (263)
+                      ++...+-.+-.|+..-.-..++...+||++|.+..+++++
+T Consensus       279 ~~~~~~i~~~~pk~~~~~~~~~~~~~~~~~~~~~~~~~~~  318 (349)
+T 5K7W_B          279 TGCTEEIERLRPKSPPPKSKSDRGGGAPRGGGRGGTSAGR  318 (349)
+T ss_dssp             CCCCHHHHHHSCCC--------------------------
+T ss_pred             cCccccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+No 6
+>6ZMW_y Eukaryotic translation initiation factor 3; ribosome, translation, initiation complex; HET: 5MU, OMC, 5MC, MG, A2M, MA6, PSU, UR3, 6MZ, OMU, JMH, OMG;{Homo sapiens}
+Probab=7.48  E-value=5.7e+02  Score=27.71  Aligned_cols=20  Identities=30%  Similarity=0.386  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  241 RGAPRGGGRGGSRSDRGGGR  260 (263)
+Q Consensus       241 rgaprgggrggsrsdrgggr  260 (263)
+                      ||...|+|+|++++.|||-+
+T Consensus       886 ~~~~~~~~~~~g~~~~~~~~  905 (913)
+T 6ZMW_y          886 RDQKDGYRKNEGYMRRGGYR  905 (913)
+T ss_dssp             HHHHHSCECCHCHHHT---H
+T ss_pred             ccCCCCccCCCCCCCCCccc
+
+
+No 7
+>6ZP4_C 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: GTP; 2.9A {Homo sapiens}
+Probab=7.48  E-value=5.7e+02  Score=27.71  Aligned_cols=20  Identities=30%  Similarity=0.386  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  241 RGAPRGGGRGGSRSDRGGGR  260 (263)
+Q Consensus       241 rgaprgggrggsrsdrgggr  260 (263)
+                      ||...|+|+|++++.|||-+
+T Consensus       886 ~~~~~~~~~~~g~~~~~~~~  905 (913)
+T 6ZP4_C          886 RDQKDGYRKNEGYMRRGGYR  905 (913)
+T ss_pred             ccCCCCccCCCCCCCCCccc
+
+
+No 8
+>7OBQ_u SRP SRP receptor, co-translational protein; HET: GTP, GNP; 3.9A {Canis lupus familiaris}
+Probab=7.20  E-value=1.1e+03  Score=25.04  Aligned_cols=32  Identities=28%  Similarity=0.478  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  231 PPRDSYSSSSRGAPRGGGRGGSRSDRGGGRSR  262 (263)
+Q Consensus       231 pprdsyssssrgaprgggrggsrsdrgggrsr  262 (263)
+                      .|..+-++...|...|||.||+.+..++|...
+T Consensus         1 ~~~~~~~~~~~~g~~g~~~gg~~~~~~~~~~~   32 (622)
+T 7OBQ_u            1 MAAEKQVPGGGGGGGGGGGGGGGSGGGRGAGG   32 (622)
+T ss_dssp             GGTT----------------------TCCTTC
+T ss_pred             CCcccCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+
+No 9
+>6J5K_AJ ATP synthase F1 subunit alpha; membrane protein; HET: ADP, ATP, MG; 6.2A {Sus scrofa}
+Probab=6.75  E-value=7.3e+02  Score=19.13  Aligned_cols=24  Identities=25%  Similarity=0.288  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  239 SSRGAPRGGGRGGSRSDRGGGRSR  262 (263)
+Q Consensus       239 ssrgaprgggrggsrsdrgggrsr  262 (263)
+                      ++.|+.+|+|.+|+-...++.-.+
+T Consensus         1 ~~~~~g~g~g~~Gsir~agg~F~k   24 (83)
+T 6J5K_AJ           1 SSDTPEGVRSGAGAVRDAGGAFGK   24 (83)
+T ss_pred             CCCCCCCCcCCcchhhccCCccch
+
+
+No 10
+>6V7B_g Structural protein VP1, Structural protein; helical symmetry, archaeal pilus, STRUCTURAL; 3.4A {Pyrobaculum filamentous virus 1}
+Probab=6.71  E-value=6.8e+02  Score=21.34  Aligned_cols=24  Identities=38%  Similarity=0.627  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BUY5|H3BU  236 YSSSSRGAPRGGGRGGSRSDRGGG  259 (263)
+Q Consensus       236 yssssrgaprgggrggsrsdrggg  259 (263)
+                      +.+..++...|||.||+.+..|||
+T Consensus       118 lk~~~~~~~~ggggggggggg~~~  141 (145)
+T 6V7B_g          118 AKDWIRREMTGGGGGGGGGGGGGG  141 (145)
+T ss_pred             hhhhhhcCCCCCCCCCCCCCCCCC
+
+

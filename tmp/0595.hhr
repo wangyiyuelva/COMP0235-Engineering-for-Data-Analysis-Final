@@ -1,0 +1,201 @@
+Query         tr|H0YIK9|H0YIK9_HUMAN
+Match_columns 24
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:16:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0595.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PUO_A Ferredoxin-thioredoxin   52.2     9.5  0.0001   21.1   0.0   10    6-15     66-75  (109)
+  2 7BZK_A Ferredoxin-thioredoxin   49.9      11 0.00012   21.0  -0.0   11    5-15     70-80  (115)
+  3 7C3F_D Ferredoxin-thioredoxin   49.9      11 0.00012   21.0  -0.0   11    5-15     70-80  (115)
+  4 1GH9_A BETA+ALPHA COMPLEX STRU  43.7      16 0.00017   18.2   0.1   16    3-18     19-34  (71)
+  5 1DJ7_A FERREDOXIN THIOREDOXIN   42.1      16 0.00017   20.5  -0.1   10    6-15     72-81  (117)
+  6 2PU9_A Thioredoxin, protein-pr  38.1      22 0.00024   19.7   0.1   10    6-15     65-74  (110)
+  7 1R4A_E ADP-ribosylation factor  33.8      29 0.00031   15.4   0.1    9    8-16      2-10  (51)
+  8 3QI7_A Putative transcriptiona  25.8      67 0.00073   19.7   0.7    9   15-23    294-302 (371)
+  9 3QI7_B Putative transcriptiona  25.8      67 0.00073   19.7   0.7    9   15-23    294-302 (371)
+ 10 4TPU_A RUBREDOXIN; FTR-LIKE PR  23.4      48 0.00052   19.2  -0.2   10    5-14     64-73  (173)
+ 11 1HN6_A disulphide connectiviti  22.6      53 0.00058   20.1  -0.1    8    4-11     51-58  (110)
+ 12 2O6S_A Variable lymphocyte rec  21.2      99  0.0011   13.8   0.6    7    3-9     202-208 (208)
+
+No 1
+>2PUO_A Ferredoxin-thioredoxin reductase, catalytic chain, Ferredoxin-thioredoxin; Thioredoxin, redox, iron-sulfur, ELECTRON TRANSPORT; 1.7A {Synechocystis sp.} SCOP: g.36.1.1
+Probab=52.23  E-value=9.5  Score=21.06  Aligned_cols=10  Identities=40%  Similarity=1.072  Sum_probs=8.2  Template_Neff=6.100
+
+Q ss_pred             eeCChhhhhc
+Q tr|H0YIK9|H0YI    6 VTCPCEYLRK   15 (24)
+Q Consensus         6 vtcpceylrk   15 (24)
+                      ..|||.|.+.
+T Consensus        66 ~iCPC~~~~e   75 (109)
+T 2PUO_A           66 WNCPCVPMRE   75 (109)
+T ss_dssp             TBSSCHHHHH
+T ss_pred             cccccEehhc
+Confidence            5799999775
+
+
+No 2
+>7BZK_A Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic; FTR, Trx y1, ELECTRON TRANSPORT; 1.5935A {Arabidopsis thaliana}
+Probab=49.87  E-value=11  Score=21.02  Aligned_cols=11  Identities=36%  Similarity=0.890  Sum_probs=8.3  Template_Neff=6.100
+
+Q ss_pred             eeeCChhhhhc
+Q tr|H0YIK9|H0YI    5 SVTCPCEYLRK   15 (24)
+Q Consensus         5 svtcpceylrk   15 (24)
+                      ...|||.|.+.
+T Consensus        70 ~~iCPC~~~~~   80 (115)
+T 7BZK_A           70 FWNCPCVPMRE   80 (115)
+T ss_dssp             TTBSSCHHHHH
+T ss_pred             cccccceehhh
+Confidence            35799999765
+
+
+No 3
+>7C3F_D Ferredoxin-thioredoxin reductase catalytic chain, chloroplastic; FTR, Trx m2, ELECTRON TRANSPORT; HET: NA, SF4; 2.3986A {Arabidopsis thaliana}
+Probab=49.87  E-value=11  Score=21.02  Aligned_cols=11  Identities=36%  Similarity=0.890  Sum_probs=8.3  Template_Neff=6.100
+
+Q ss_pred             eeeCChhhhhc
+Q tr|H0YIK9|H0YI    5 SVTCPCEYLRK   15 (24)
+Q Consensus         5 svtcpceylrk   15 (24)
+                      ...|||.|.+.
+T Consensus        70 ~~iCPC~~~~~   80 (115)
+T 7C3F_D           70 FWNCPCVPMRE   80 (115)
+T ss_dssp             TTBSSCHHHHH
+T ss_pred             cccccceehhh
+Confidence            35799998765
+
+
+No 4
+>1GH9_A BETA+ALPHA COMPLEX STRUCTURE, STRUCTURAL GENOMICS; NMR {Methanothermobacter thermautotrophicus} SCOP: g.41.6.1
+Probab=43.65  E-value=16  Score=18.21  Aligned_cols=16  Identities=25%  Similarity=0.480  Sum_probs=11.7  Template_Neff=7.000
+
+Q ss_pred             CCeeeCChhhhhccCC
+Q tr|H0YIK9|H0YI    3 VKSVTCPCEYLRKVDG   18 (24)
+Q Consensus         3 vksvtcpceylrkvdg   18 (24)
+                      .|+.+|||...-+++.
+T Consensus        19 ~kt~~CpCg~~~~~~~   34 (71)
+T 1GH9_A           19 AKTRKCVCGRTVNVKD   34 (71)
+T ss_dssp             CSEEEETTTEEEECCS
+T ss_pred             CceeecCCCCeEEeec
+Confidence            5889999987655543
+
+
+No 5
+>1DJ7_A FERREDOXIN THIOREDOXIN REDUCTASE: CATALYTIC CHAIN; 4FE-4S CLUSTER BINDING FOLD WITH; 1.6A {Synechocystis sp.} SCOP: g.36.1.1
+Probab=42.11  E-value=16  Score=20.54  Aligned_cols=10  Identities=40%  Similarity=1.072  Sum_probs=8.1  Template_Neff=5.900
+
+Q ss_pred             eeCChhhhhc
+Q tr|H0YIK9|H0YI    6 VTCPCEYLRK   15 (24)
+Q Consensus         6 vtcpceylrk   15 (24)
+                      ..|||.|.+.
+T Consensus        72 ~iCPC~~~~e   81 (117)
+T 1DJ7_A           72 WNCPCVPMRE   81 (117)
+T ss_dssp             TBSSCHHHHH
+T ss_pred             ccccceehhh
+Confidence            5799999775
+
+
+No 6
+>2PU9_A Thioredoxin, protein-protein complex, redox, iron-sulfur; HET: SO4; 1.65A {Synechocystis sp.} SCOP: g.36.1.1
+Probab=38.06  E-value=22  Score=19.65  Aligned_cols=10  Identities=40%  Similarity=1.072  Sum_probs=8.2  Template_Neff=6.100
+
+Q ss_pred             eeCChhhhhc
+Q tr|H0YIK9|H0YI    6 VTCPCEYLRK   15 (24)
+Q Consensus         6 vtcpceylrk   15 (24)
+                      ..|||.|.+.
+T Consensus        65 ~iCPC~~~~e   74 (110)
+T 2PU9_A           65 WNCPCVPMRE   74 (110)
+T ss_dssp             TBSSCHHHHH
+T ss_pred             eeccceehhc
+Confidence            6799999775
+
+
+No 7
+>1R4A_E ADP-ribosylation factor-like protein 1/Golgi autoantigen; Ras-like G Protein structure, Three-helix; HET: GNP; 2.3A {Rattus norvegicus} SCOP: a.193.1.1
+Probab=33.81  E-value=29  Score=15.39  Aligned_cols=9  Identities=67%  Similarity=0.922  Sum_probs=5.8  Template_Neff=8.300
+
+Q ss_pred             CChhhhhcc
+Q tr|H0YIK9|H0YI    8 CPCEYLRKV   16 (24)
+Q Consensus         8 cpceylrkv   16 (24)
+                      +.+|||+.|
+T Consensus         2 ~~~eYLKnv   10 (51)
+T 1R4A_E            2 TEFEYLRKV   10 (51)
+T ss_pred             CccHHHHHH
+Confidence            456777765
+
+
+No 8
+>3QI7_A Putative transcriptional regulator; PERIPLASMIC BINDING PROTEIN-LIKE, STRUCTURAL GENOMICS; HET: MSE; 1.86A {Clostridium difficile}
+Probab=25.85  E-value=67  Score=19.74  Aligned_cols=9  Identities=11%  Similarity=0.460  Sum_probs=7.1  Template_Neff=8.300
+
+Q ss_pred             ccCCccccC
+Q tr|H0YIK9|H0YI   15 KVDGRMATW   23 (24)
+Q Consensus        15 kvdgrmatw   23 (24)
+                      -..|||+||
+T Consensus       294 ~~~gr~~~~  302 (371)
+T 3QI7_A          294 GMSNRLGGY  302 (371)
+T ss_dssp             TCTTSBEEC
+T ss_pred             CCCCCcccC
+Confidence            357899998
+
+
+No 9
+>3QI7_B Putative transcriptional regulator; PERIPLASMIC BINDING PROTEIN-LIKE, STRUCTURAL GENOMICS; HET: MSE; 1.86A {Clostridium difficile}
+Probab=25.85  E-value=67  Score=19.74  Aligned_cols=9  Identities=11%  Similarity=0.460  Sum_probs=7.1  Template_Neff=8.300
+
+Q ss_pred             ccCCccccC
+Q tr|H0YIK9|H0YI   15 KVDGRMATW   23 (24)
+Q Consensus        15 kvdgrmatw   23 (24)
+                      -..|||+||
+T Consensus       294 ~~~gr~~~~  302 (371)
+T 3QI7_B          294 GMSNRLGGY  302 (371)
+T ss_dssp             TCTTSBEEC
+T ss_pred             CCCCCcccC
+Confidence            357899998
+
+
+No 10
+>4TPU_A RUBREDOXIN; FTR-LIKE PROTEIN, DISULFIDE REDUCTASE, ELECTRON; HET: URE; 2.355A {Methanosarcina acetivorans}
+Probab=23.37  E-value=48  Score=19.16  Aligned_cols=10  Identities=40%  Similarity=1.205  Sum_probs=7.1  Template_Neff=6.900
+
+Q ss_pred             eeeCChhhhh
+Q tr|H0YIK9|H0YI    5 SVTCPCEYLR   14 (24)
+Q Consensus         5 svtcpceylr   14 (24)
+                      ...|||.|.+
+T Consensus        64 ~~iCPC~~~~   73 (173)
+T 4TPU_A           64 DIICPCYYRD   73 (173)
+T ss_dssp             TTBSSCTTHH
+T ss_pred             cccCCccccc
+Confidence            4679998743
+
+
+No 11
+>1HN6_A disulphide connectivities, MEMBRANE PROTEIN; NMR {Plasmodium falciparum} SCOP: g.61.1.1
+Probab=22.65  E-value=53  Score=20.07  Aligned_cols=8  Identities=50%  Similarity=1.576  Sum_probs=6.2  Template_Neff=2.300
+
+Q ss_pred             CeeeCChh
+Q tr|H0YIK9|H0YI    4 KSVTCPCE   11 (24)
+Q Consensus         4 ksvtcpce   11 (24)
+                      .|+.|||+
+T Consensus        51 ~SL~CPC~   58 (110)
+T 1HN6_A           51 DSLKCPCD   58 (110)
+T ss_dssp             SSSSCCSS
+T ss_pred             cccCCCCC
+Confidence            47789996
+
+
+No 12
+>2O6S_A Variable lymphocyte receptor B; Leucine-rich repeat protein, LRR, IMMUNE; 1.5A {Eptatretus burgeri}
+Probab=21.18  E-value=99  Score=13.79  Aligned_cols=7  Identities=57%  Similarity=1.421  Sum_probs=3.8  Template_Neff=13.200
+
+Q ss_pred             CCeeeCC
+Q tr|H0YIK9|H0YI    3 VKSVTCP    9 (24)
+Q Consensus         3 vksvtcp    9 (24)
+                      |.++.||
+T Consensus       202 ~~~~~~~  208 (208)
+T 2O6S_A          202 VRSIICP  208 (208)
+T ss_dssp             GGGCCCC
+T ss_pred             CcceecC
+Confidence            3455665
+
+

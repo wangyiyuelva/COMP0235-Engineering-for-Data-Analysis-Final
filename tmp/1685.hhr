@@ -1,0 +1,248 @@
+Query         tr|S4R367|S4R367_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 09:34:22 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1685.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1H5O_A MYOTOXIN; TOXIN, SODIUM  48.7      24 0.00027   19.1   1.2   21   26-46     18-38  (42)
+  2 4GV5_C Crotamine Ile-19; alpha  48.7      24 0.00027   19.1   1.2   21   26-46     18-38  (42)
+  3 2RUP_A P2X purinoceptor 4; P2X  43.3      20 0.00021   17.0   0.3    8   20-27     50-57  (58)
+  4 1HQZ_1 ACTIN-BINDING PROTEIN A  36.9      48 0.00052   18.4   1.3   12   20-31     81-92  (141)
+  5 1HQZ_4 ACTIN-BINDING PROTEIN A  36.9      48 0.00052   18.4   1.3   12   20-31     81-92  (141)
+  6 1VKK_A Glia maturation factor   31.7      61 0.00066   18.5   1.2   12   20-31     98-109 (154)
+  7 5YNR_A Glia Mutation factor; A  28.2      82 0.00089   16.9   1.2   12   20-31     88-99  (140)
+  8 2LJ8_A Cofilin/actin depolymer  24.0 1.1E+02  0.0012   16.8   1.3   12   20-31     88-99  (144)
+  9 5G23_A TYPE-IV LIKE PILIN TTHA  23.6      73 0.00079   20.9   0.6   24    8-32    184-207 (236)
+ 10 5G24_A TYPE-IV LIKE PILIN TTHA  23.6      73 0.00079   20.9   0.6   24    8-32    184-207 (236)
+ 11 6SOK_S Streptavidin, Strep-tag  21.7 1.4E+02  0.0015   14.1   1.3   10   23-32      2-11  (32)
+ 12 6SOS_P Streptavidin, Strep-tag  21.7 1.4E+02  0.0015   14.1   1.3   10   23-32      2-11  (32)
+ 13 3V44_A Toll-like receptor 5 an  20.4   2E+02  0.0022   16.7   1.9   23   23-45    383-405 (407)
+ 14 1V6F_A ACTIN BINDING PROTEIN,   20.1 1.4E+02  0.0015   16.3   1.2   12   20-31     92-103 (151)
+ 15 5Y1Z_B Drebrin, Protein kinase  20.0 1.4E+02  0.0016   16.0   1.2   12   20-31     82-93  (137)
+
+No 1
+>1H5O_A MYOTOXIN; TOXIN, SODIUM CHANNEL AFFECTING TOXIN; NMR {CROTALUS DURISSUS TERRIFICUS} SCOP: g.9.1.2
+Probab=48.73  E-value=24  Score=19.10  Aligned_cols=21  Identities=29%  Similarity=0.699  Sum_probs=18.3  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCceeecCcccccccC
+Q tr|S4R367|S4R3   26 CPPGLSNLTILSCPEMRSCCV   46 (47)
+Q Consensus        26 cppglsnltilscpemrsccv   46 (47)
+                      ||+.|.+..-..||+-..|||
+T Consensus        18 C~~~l~~~~a~DC~~g~~CCi   38 (42)
+T 1H5O_A           18 CLPPSSDFGKMDCRWRWKCCK   38 (42)
+T ss_dssp             CSSSSCBCCSSSSCTTEEEEE
+T ss_pred             CCcccccCCCCCCCCCCEeee
+Confidence            999998777788999999986
+
+
+No 2
+>4GV5_C Crotamine Ile-19; alpha helix & beta sheet; HET: SCN, GOL, SO4; 1.7A {Crotalus durissus terrificus}
+Probab=48.73  E-value=24  Score=19.10  Aligned_cols=21  Identities=29%  Similarity=0.699  Sum_probs=18.0  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCceeecCcccccccC
+Q tr|S4R367|S4R3   26 CPPGLSNLTILSCPEMRSCCV   46 (47)
+Q Consensus        26 cppglsnltilscpemrsccv   46 (47)
+                      ||+.|.+..-..||+-..|||
+T Consensus        18 C~~~l~~~~a~DC~~g~~CCi   38 (42)
+T 4GV5_C           18 CLPPSSDFGKMDCRWRWKCCK   38 (42)
+T ss_dssp             CSSGGGBCCSTTSCTTEEEEE
+T ss_pred             CCcccccCCCCCCCCCCEeee
+Confidence            999988777778999988886
+
+
+No 3
+>2RUP_A P2X purinoceptor 4; P2X4 receptor, head domain, CANION; NMR {Rattus norvegicus}
+Probab=43.28  E-value=20  Score=17.03  Aligned_cols=8  Identities=50%  Similarity=1.290  Sum_probs=5.9  Template_Neff=10.000
+
+Q ss_pred             eeeecCCC
+Q tr|S4R367|S4R3   20 TVTFAWCP   27 (47)
+Q Consensus        20 tvtfawcp   27 (47)
+                      --.++|||
+T Consensus        50 Cei~~wCP   57 (58)
+T 2RUP_A           50 CEVAAWCP   57 (58)
+T ss_dssp             EEEEECCC
+T ss_pred             EEEEEecc
+Confidence            34688998
+
+
+No 4
+>1HQZ_1 ACTIN-BINDING PROTEIN ABP1P; cofilin homology domain, actin binding; 2.1A {Saccharomyces cerevisiae} SCOP: d.109.1.2
+Probab=36.93  E-value=48  Score=18.36  Aligned_cols=12  Identities=25%  Similarity=0.988  Sum_probs=9.4  Template_Neff=10.200
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        81 ~v~i~w~p~~~~   92 (141)
+T 1HQZ_1           81 IIIIGWCPDSAP   92 (141)
+T ss_dssp             EEEEEECCTTSC
+T ss_pred             EEEEEECCCCCC
+Confidence            567889998865
+
+
+No 5
+>1HQZ_4 ACTIN-BINDING PROTEIN ABP1P; cofilin homology domain, actin binding; 2.1A {Saccharomyces cerevisiae} SCOP: d.109.1.2
+Probab=36.93  E-value=48  Score=18.36  Aligned_cols=12  Identities=25%  Similarity=0.988  Sum_probs=9.4  Template_Neff=10.200
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        81 ~v~i~w~p~~~~   92 (141)
+T 1HQZ_4           81 IIIIGWCPDSAP   92 (141)
+T ss_dssp             EEEEEECCTTSC
+T ss_pred             EEEEEECCCCCC
+Confidence            567889998865
+
+
+No 6
+>1VKK_A Glia maturation factor gamma; 15079298, GMFG, GLIA MATURATION FACTOR-GAMMA; 1.35A {Mus musculus} SCOP: d.109.1.2
+Probab=31.74  E-value=61  Score=18.49  Aligned_cols=12  Identities=17%  Similarity=0.085  Sum_probs=8.5  Template_Neff=9.900
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        98 ~~~i~w~p~~~~  109 (154)
+T 1VKK_A           98 LCFIFSSPVGCK  109 (154)
+T ss_dssp             EEEEEECCTTSC
+T ss_pred             EEEEEEcCCCCC
+Confidence            345789998765
+
+
+No 7
+>5YNR_A Glia Mutation factor; ADF-H, PROTEIN BINDING; NMR {Caenorhabditis elegans}
+Probab=28.15  E-value=82  Score=16.93  Aligned_cols=12  Identities=33%  Similarity=0.769  Sum_probs=8.4  Template_Neff=10.800
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||.+.+
+T Consensus        88 ~~~i~~~p~~~~   99 (140)
+T 5YNR_A           88 MLLIYYCPNGSS   99 (140)
+T ss_dssp             EEEEEECCTTCC
+T ss_pred             EEEEEEcCCCCC
+Confidence            355779988765
+
+
+No 8
+>2LJ8_A Cofilin/actin depolymerizing factor, putative; PROTEIN BINDING; NMR {Trypanosoma brucei}
+Probab=24.04  E-value=1.1e+02  Score=16.77  Aligned_cols=12  Identities=17%  Similarity=0.529  Sum_probs=8.6  Template_Neff=10.500
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        88 ~~~i~w~p~~~~   99 (144)
+T 2LJ8_A           88 LILISWNPDSGA   99 (144)
+T ss_dssp             EEEEEECCTTSC
+T ss_pred             EEEEEECCCCCC
+Confidence            456789998854
+
+
+No 9
+>5G23_A TYPE-IV LIKE PILIN TTHA1219; STRUCTURAL PROTEIN, NATURAL COMPETENCE, TYPE; 1.85A {THERMUS THERMOPHILUS}
+Probab=23.58  E-value=73  Score=20.95  Aligned_cols=24  Identities=33%  Similarity=0.605  Sum_probs=15.3  Template_Neff=8.200
+
+Q ss_pred             hhhcccccceeeeeeecCCCCCCCC
+Q tr|S4R367|S4R3    8 WRLRNSISAFLFTVTFAWCPPGLSN   32 (47)
+Q Consensus         8 wrlrnsisaflftvtfawcppglsn   32 (47)
+                      ++.|+.--+|-=.-+.+| |||+|-
+T Consensus       184 ~~~~~~~~~~~~~~~~~~-~~~~~~  207 (236)
+T 5G23_A          184 VPVRGGAPAFTPGSTLSY-PPGLTS  207 (236)
+T ss_dssp             ECCTTCCCCCCTTTTCCC-CTTCCT
+T ss_pred             cCcCCCCCCCCCCCcccC-CCCCcc
+Confidence            344555555555556777 999875
+
+
+No 10
+>5G24_A TYPE-IV LIKE PILIN TTHA1219; STRUCTURAL PROTEIN, NATURAL COMPETENCE, TYPE; 2.3A {THERMUS THERMOPHILUS}
+Probab=23.58  E-value=73  Score=20.95  Aligned_cols=24  Identities=33%  Similarity=0.605  Sum_probs=15.0  Template_Neff=8.200
+
+Q ss_pred             hhhcccccceeeeeeecCCCCCCCC
+Q tr|S4R367|S4R3    8 WRLRNSISAFLFTVTFAWCPPGLSN   32 (47)
+Q Consensus         8 wrlrnsisaflftvtfawcppglsn   32 (47)
+                      ++.|+.--+|-=.-+.+| |||+|-
+T Consensus       184 ~~~~~~~~~~~~~~~~~~-~~~~~~  207 (236)
+T 5G24_A          184 VPVRGGAPAFTPGSTLSY-PPGLTS  207 (236)
+T ss_dssp             ECCTTCCCCCCTTTTCCC-CTTCCH
+T ss_pred             cCcCCCCCCCCCCCcccC-CCCCcc
+Confidence            344555555555556677 888875
+
+
+No 11
+>6SOK_S Streptavidin, Strep-tag II peptide; LOOP ENGINEERING, PEPTIDE BINDING PROTEIN; 1.96A {Streptomyces avidinii}
+Probab=21.69  E-value=1.4e+02  Score=14.14  Aligned_cols=10  Identities=30%  Similarity=0.747  Sum_probs=5.9  Template_Neff=7.400
+
+Q ss_pred             ecCCCCCCCC
+Q tr|S4R367|S4R3   23 FAWCPPGLSN   32 (47)
+Q Consensus        23 fawcppglsn   32 (47)
+                      |||.|...+.
+T Consensus         2 lA~fP~t~~g   11 (32)
+T 6SOK_S            2 SAWSHPQFEK   11 (32)
+T ss_pred             CCCCCCccCC
+Confidence            5666666543
+
+
+No 12
+>6SOS_P Streptavidin, Strep-tag II peptide; LOOP ENGINEERING, PEPTIDE BINDING PROTEIN; 2.2A {Streptomyces avidinii}
+Probab=21.69  E-value=1.4e+02  Score=14.14  Aligned_cols=10  Identities=30%  Similarity=0.747  Sum_probs=5.9  Template_Neff=7.400
+
+Q ss_pred             ecCCCCCCCC
+Q tr|S4R367|S4R3   23 FAWCPPGLSN   32 (47)
+Q Consensus        23 fawcppglsn   32 (47)
+                      |||.|...+.
+T Consensus         2 lA~fP~t~~g   11 (32)
+T 6SOS_P            2 SAWSHPQFEK   11 (32)
+T ss_pred             CCCCCCccCC
+Confidence            5666666543
+
+
+No 13
+>3V44_A Toll-like receptor 5 and variable; flagellin, innate immunity, Leucine-rich repeat; HET: NAG; 2.83A {Danio rerio}
+Probab=20.44  E-value=2e+02  Score=16.68  Aligned_cols=23  Identities=22%  Similarity=0.293  Sum_probs=17.5  Template_Neff=13.000
+
+Q ss_pred             ecCCCCCCCCceeecCccccccc
+Q tr|S4R367|S4R3   23 FAWCPPGLSNLTILSCPEMRSCC   45 (47)
+Q Consensus        23 fawcppglsnltilscpemrscc   45 (47)
+                      -.+|.+....|.+.+||+..+-|
+T Consensus       383 ~~~c~~~~~~~~~~~c~~~~~~~  405 (407)
+T 3V44_A          383 SAKCSGSGKPVRSIICPTSASLV  405 (407)
+T ss_dssp             CCBBTTTCCBGGGCCCCCCGGGS
+T ss_pred             ccccCCCCCCceeeeccCCcccC
+Confidence            45788888888888898876543
+
+
+No 14
+>1V6F_A ACTIN BINDING PROTEIN, CYTOSKELETON, RIKEN; NMR {Mus musculus} SCOP: d.109.1.2
+Probab=20.11  E-value=1.4e+02  Score=16.25  Aligned_cols=12  Identities=17%  Similarity=0.085  Sum_probs=8.8  Template_Neff=10.800
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        92 ~~~i~w~p~~~~  103 (151)
+T 1V6F_A           92 LCFIFSSPVGCK  103 (151)
+T ss_dssp             EEEEEECCTTSC
+T ss_pred             EEEEEEcCCCCC
+Confidence            456689998865
+
+
+No 15
+>5Y1Z_B Drebrin, Protein kinase C-binding protein; TRANSCRIPTION, NUCLEAR PROTEIN, PROTEIN BINDING; HET: SO4; 2.676A {Homo sapiens}
+Probab=20.02  E-value=1.4e+02  Score=16.02  Aligned_cols=12  Identities=17%  Similarity=0.426  Sum_probs=8.2  Template_Neff=10.700
+
+Q ss_pred             eeeecCCCCCCC
+Q tr|S4R367|S4R3   20 TVTFAWCPPGLS   31 (47)
+Q Consensus        20 tvtfawcppgls   31 (47)
+                      .+.+.|||++.+
+T Consensus        82 ~~~i~~~p~~~~   93 (137)
+T 5Y1Z_B           82 YVLINWVGEDVP   93 (137)
+T ss_dssp             EEEEEEECTTSC
+T ss_pred             EEEEEEcCCCCC
+Confidence            356778887754
+
+

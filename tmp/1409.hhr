@@ -1,0 +1,168 @@
+Query         tr|D6RBT7|D6RBT7_HUMAN
+Match_columns 83
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:14:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1409.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1OSC_C similar to divalent cat  35.2      51 0.00056   21.1   1.4   20   35-54      1-20  (126)
+  2 1OSC_F similar to divalent cat  35.2      51 0.00056   21.1   1.4   21   35-55      1-21  (126)
+  3 3SEO_A VopL C terminal domain   29.6      86 0.00094   25.9   2.1   45   20-64     86-140 (241)
+  4 3SEO_B VopL C terminal domain   29.6      86 0.00094   25.9   2.1   45   20-64     86-140 (241)
+  5 4M63_A T3SS2 effector VopL nuc  29.6      86 0.00094   25.9   2.1   46   20-65     86-141 (241)
+  6 4OCV_A N-acetylhexosamine 1-ph  22.9 2.6E+02  0.0028   18.9   3.0   24   35-58      3-26  (379)
+  7 6T9I_B Transcription factor SP  22.2 1.5E+02  0.0017   27.0   2.5   12   56-67    452-463 (604)
+  8 6T9K_B Transcription factor SP  22.2 1.5E+02  0.0017   27.0   2.5   12   56-67    452-463 (604)
+  9 5YBE_A Kank1 protein, KIF21A;   13.2      94   0.001   19.0  -0.6   13   70-82      2-14  (286)
+ 10 2W1O_A 60S ACIDIC RIBOSOMAL PR  12.5 3.4E+02  0.0036   15.2   1.5   23   55-79      2-24  (70)
+
+No 1
+>1OSC_C similar to divalent cation tolerant; CUTA, copper resistance, Structural Proteomics; 2.15A {Rattus norvegicus} SCOP: d.58.5.2
+Probab=35.20  E-value=51  Score=21.13  Aligned_cols=20  Identities=25%  Similarity=0.346  Sum_probs=1.1  Template_Neff=8.700
+
+Q ss_pred             cCCCCCCCCCCCCCCCCchh
+Q tr|D6RBT7|D6RB   35 MQSGRPRSSSTTDAPTSSAM   54 (83)
+Q Consensus        35 mqsgrprsssttdaptssam   54 (83)
+                      |.+|-|++++++.-+.+-.|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~   20 (126)
+T 1OSC_C            1 MASGSPPSQPSPASGSGYVP   20 (126)
+T ss_dssp             -----------------CCT
+T ss_pred             CCCCCCCCCCCCCCCCCCCC
+Confidence            56788888777644433333
+
+
+No 2
+>1OSC_F similar to divalent cation tolerant; CUTA, copper resistance, Structural Proteomics; 2.15A {Rattus norvegicus} SCOP: d.58.5.2
+Probab=35.20  E-value=51  Score=21.13  Aligned_cols=21  Identities=24%  Similarity=0.275  Sum_probs=2.8  Template_Neff=8.700
+
+Q ss_pred             cCCCCCCCCCCCCCCCCchhH
+Q tr|D6RBT7|D6RB   35 MQSGRPRSSSTTDAPTSSAMM   55 (83)
+Q Consensus        35 mqsgrprsssttdaptssamm   55 (83)
+                      |.+|-|++++++.-+.+-.|+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~   21 (126)
+T 1OSC_F            1 MASGSPPSQPSPASGSGYVPG   21 (126)
+T ss_dssp             --------------CCCCCTT
+T ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Confidence            567888888777444443333
+
+
+No 3
+>3SEO_A VopL C terminal domain protein; alpha helix, STRUCTURAL PROTEIN; 2.305A {Vibrio parahaemolyticus}
+Probab=29.65  E-value=86  Score=25.87  Aligned_cols=45  Identities=36%  Similarity=0.474  Sum_probs=24.3  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCCccccc----cCCCCCCCCCCCCCCC------CchhHHhHHHHHHH
+Q tr|D6RBT7|D6RB   20 SPQINRKSGQEMTAV----MQSGRPRSSSTTDAPT------SSAMMEIACAAAAA   64 (83)
+Q Consensus        20 spqinrksgqemtav----mqsgrprsssttdapt------ssammeiacaaaaa   64 (83)
+                      |++.....+...+.|    ||+|++|--+++|.--      ..+++|-|+-+|-+
+T Consensus        86 S~~s~~t~~~sVie~al~RLq~g~~Rlf~t~d~~G~~elkkg~aIle~A~~~A~~  140 (241)
+T 3SEO_A           86 SPESPKSGGGSVIDVALKRLQTGRERLFTTTDEKGNRELKKGDAILESAINAARM  140 (241)
+T ss_dssp             ----------CHHHHHHHHHTTTTTCEECCCCSSSCCCCEEHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCcHHHHHHHHHHcCCCccceecCCCCceechhHHHHHHHHHHHHHh
+Confidence            333333333444444    8999999888888732      24777777766543
+
+
+No 4
+>3SEO_B VopL C terminal domain protein; alpha helix, STRUCTURAL PROTEIN; 2.305A {Vibrio parahaemolyticus}
+Probab=29.65  E-value=86  Score=25.87  Aligned_cols=45  Identities=36%  Similarity=0.474  Sum_probs=24.4  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCCccccc----cCCCCCCCCCCCCCCC------CchhHHhHHHHHHH
+Q tr|D6RBT7|D6RB   20 SPQINRKSGQEMTAV----MQSGRPRSSSTTDAPT------SSAMMEIACAAAAA   64 (83)
+Q Consensus        20 spqinrksgqemtav----mqsgrprsssttdapt------ssammeiacaaaaa   64 (83)
+                      |++.....+...+.|    ||+|++|--+++|.--      ..+++|-|+-+|-+
+T Consensus        86 S~~s~~t~~~sVie~al~RLq~g~~Rlf~t~d~~G~~elkkg~aIle~A~~~A~~  140 (241)
+T 3SEO_B           86 SPESPKSGGGSVIDVALKRLQTGRERLFTTTDEKGNRELKKGDAILESAINAARM  140 (241)
+T ss_dssp             ----------CHHHHHHHHHHHTTTSEEEEECTTSCEEEEEHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCcHHHHHHHHHHcCCCccceecCCCCceechhHHHHHHHHHHHHHh
+Confidence            333333333444444    8999999888888732      35778877766544
+
+
+No 5
+>4M63_A T3SS2 effector VopL nucleation of; actin nucleator, actin nucleation, HYDROLASE; HET: ATP; 2.748A {Vibrio parahaemolyticus}
+Probab=29.65  E-value=86  Score=25.87  Aligned_cols=46  Identities=37%  Similarity=0.481  Sum_probs=27.3  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCCccccc----cCCCCCCCCCCCCCCC------CchhHHhHHHHHHHH
+Q tr|D6RBT7|D6RB   20 SPQINRKSGQEMTAV----MQSGRPRSSSTTDAPT------SSAMMEIACAAAAAA   65 (83)
+Q Consensus        20 spqinrksgqemtav----mqsgrprsssttdapt------ssammeiacaaaaaa   65 (83)
+                      |++.....+...+.|    ||+|++|--+++|.--      ..+++|-|+-+|-++
+T Consensus        86 S~~s~~t~~~sVie~al~RLq~g~~Rlf~t~d~~G~~elkkg~aIle~A~~~A~~~  141 (241)
+T 4M63_A           86 SPESPKSGGGSVIDVALKRLQTGRERLFTTTDEKGNRELKKGDAILESAINAARMA  141 (241)
+T ss_dssp             CSCCCCC----CHHHHHHHHHHTTTSEEEEECSSSCEEEEEHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCcHHHHHHHHHHcCCCccceecCCCCceechhHHHHHHHHHHHHHhc
+Confidence            333333333444454    8999999888888732      357888887766543
+
+
+No 6
+>4OCV_A N-acetylhexosamine 1-phosphate kinase (E.C.2.7.1.162); kinase, TRANSFERASE; HET: ANP, SO4, NDG; 1.472A {Bifidobacterium longum subsp. infantis}
+Probab=22.92  E-value=2.6e+02  Score=18.95  Aligned_cols=24  Identities=13%  Similarity=-0.156  Sum_probs=1.1  Template_Neff=11.700
+
+Q ss_pred             cCCCCCCCCCCCCCCCCchhHHhH
+Q tr|D6RBT7|D6RB   35 MQSGRPRSSSTTDAPTSSAMMEIA   58 (83)
+Q Consensus        35 mqsgrprsssttdaptssammeia   58 (83)
+                      |+++++..++..+......++...
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~   26 (379)
+T 4OCV_A            3 SSHHHHHHSSGLVPRGSHMNNTNE   26 (379)
+T ss_dssp             ---------------------CHH
+T ss_pred             CCcccCcCCCCCCCCCCCCCCChH
+Confidence            456666666655555444444333
+
+
+No 7
+>6T9I_B Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.25  E-value=1.5e+02  Score=26.96  Aligned_cols=12  Identities=75%  Similarity=0.692  Sum_probs=5.6  Template_Neff=4.700
+
+Q ss_pred             HhHHHHHHHHhc
+Q tr|D6RBT7|D6RB   56 EIACAAAAAAAA   67 (83)
+Q Consensus        56 eiacaaaaaaaa   67 (83)
+                      .+|.||+||||+
+T Consensus       452 ~~~~a~~aaaa~  463 (604)
+T 6T9I_B          452 QVALAAAAAAAA  463 (604)
+T ss_pred             HHHHHHHHHHHH
+Confidence            344444444444
+
+
+No 8
+>6T9K_B Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.25  E-value=1.5e+02  Score=26.96  Aligned_cols=12  Identities=75%  Similarity=0.692  Sum_probs=5.6  Template_Neff=4.700
+
+Q ss_pred             HhHHHHHHHHhc
+Q tr|D6RBT7|D6RB   56 EIACAAAAAAAA   67 (83)
+Q Consensus        56 eiacaaaaaaaa   67 (83)
+                      .+|.||+||||+
+T Consensus       452 ~~~~a~~aaaa~  463 (604)
+T 6T9K_B          452 QVALAAAAAAAA  463 (604)
+T ss_pred             HHHHHHHHHHHH
+Confidence            344444444444
+
+
+No 9
+>5YBE_A Kank1 protein, KIF21A; Microtubule-cell adhesion crosstalk, KANK1-KIF21A complex; 2.111A {Mus musculus}
+Probab=13.25  E-value=94  Score=19.02  Aligned_cols=13  Identities=38%  Similarity=0.401  Sum_probs=5.6  Template_Neff=12.700
+
+Q ss_pred             CCCCCcchhhccC
+Q tr|D6RBT7|D6RB   70 PGEEGTAERIERL   82 (83)
+Q Consensus        70 pgeegtaerierl   82 (83)
+                      ||+|.|.+.++.+
+T Consensus         2 ~~~~~~~~~~~~~   14 (286)
+T 5YBE_A            2 PGSEFEPEKEEIR   14 (286)
+T ss_dssp             -----CGGGCCCC
+T ss_pred             CccccchhHHHHH
+Confidence            6888888776654
+
+
+No 10
+>2W1O_A 60S ACIDIC RIBOSOMAL PROTEIN P2; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, RIBOSOME, TRANSLATION; NMR {HOMO SAPIENS}
+Probab=12.48  E-value=3.4e+02  Score=15.20  Aligned_cols=23  Identities=22%  Similarity=0.115  Sum_probs=9.7  Template_Neff=9.300
+
+Q ss_pred             HHhHHHHHHHHhcCCCCCCCcchhh
+Q tr|D6RBT7|D6RB   55 MEIACAAAAAAAACLPGEEGTAERI   79 (83)
+Q Consensus        55 meiacaaaaaaaaclpgeegtaeri   79 (83)
+                      |+..|+.++.....-  ++.|++.|
+T Consensus         2 m~~~~~~~~l~l~~~--~~~t~~~i   24 (70)
+T 2W1O_A            2 MRYVASYLLAALGGN--SSPSAKDI   24 (70)
+T ss_dssp             CHHHHHHHHHHHTTC--SSCCHHHH
+T ss_pred             hHHHHHHHHHHhCCC--CCCCHHHH
+Confidence            444444443333221  13555555
+
+

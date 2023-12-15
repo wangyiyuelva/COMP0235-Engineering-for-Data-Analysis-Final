@@ -1,0 +1,169 @@
+Query         tr|A0A1W2PPV0|A0A1W2PPV0_HUMAN
+Match_columns 127
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 00:29:38 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0088.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D9G_A zf-RanBP domain, YY1-as  18.0 1.7E+02  0.0018   15.2   1.2   13   68-80     38-50  (53)
+  2 6C90_A Superkiller viralicidic  15.5 3.8E+02  0.0041   21.8   3.0   28   38-65    653-680 (734)
+  3 6UXQ_A Bcl-2 homologous antago  14.7 3.5E+02  0.0038   16.9   2.2   19   42-60     48-66  (85)
+  4 6UXQ_B Bcl-2 homologous antago  14.7 3.5E+02  0.0038   16.9   2.2   19   42-60     48-66  (85)
+  5 5WDD_B Bcl-2-related ovarian k  14.5 3.7E+02   0.004   18.9   2.5   20   42-61     94-113 (168)
+  6 5DWA_A Type-2 restriction enzy  11.0 6.4E+02   0.007   22.1   3.3   32   36-67    161-192 (278)
+  7 5DWB_A Type-2 restriction enzy  11.0 6.4E+02   0.007   22.1   3.3   32   36-67    161-192 (278)
+  8 3IHD_A Apoptosis, BH3 domain,   10.8 4.5E+02  0.0049   20.2   2.2   21   40-60    122-142 (197)
+  9 3ILC_A Apoptosis, BH3 domain,   10.8 4.5E+02  0.0049   20.2   2.2   21   40-60    122-142 (197)
+ 10 6SOK_S Streptavidin, Strep-tag  10.6   5E+02  0.0054   14.5   1.8   21  103-123     2-23  (32)
+
+No 1
+>2D9G_A zf-RanBP domain, YY1-associated factor 2; HET: ZN; NMR {Homo sapiens}
+Probab=18.04  E-value=1.7e+02  Score=15.18  Aligned_cols=13  Identities=38%  Similarity=0.488  Sum_probs=9.4  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|A0A1W2PPV0|   68 MSRKPRASSPLSN   80 (127)
+Q Consensus        68 msrkprassplsn   80 (127)
+                      -.||||..|.|..
+T Consensus        38 ~~rKPR~~SqL~~   50 (53)
+T 2D9G_A           38 STRKPRPVSQSGP   50 (53)
+T ss_dssp             CCCCSCCCCCCCC
+T ss_pred             CCCCCCCcccCCC
+Confidence            3589998887753
+
+
+No 2
+>6C90_A Superkiller viralicidic activity 2-like 2; HYDROLASE, NEXT, EXOSOME, NUCLEOTIDE-BINDING, ATPASE; HET: MLI, ADP, TLA; 2.2A {Homo sapiens}
+Probab=15.48  E-value=3.8e+02  Score=21.83  Aligned_cols=28  Identities=11%  Similarity=0.262  Sum_probs=22.6  Template_Neff=11.500
+
+Q ss_pred             hhchhhhHhhHHHhccCCHHHHHhhcCC
+Q tr|A0A1W2PPV0|   38 ACWPAFTVLGEAWRDQVDWSRLLRDTGL   65 (127)
+Q Consensus        38 acwpaftvlgeawrdqvdwsrllrdtgl   65 (127)
+                      ...+++.-+-++|.+.++|+.++..+++
+T Consensus       653 ~~~~~~~~~~~~w~~~~~~~~~~~~~~~  680 (734)
+T 6C90_A          653 SFKPHLMDVVYTWATGATFAHICKMTDV  680 (734)
+T ss_dssp             TSCCTTHHHHHHHHTTCCHHHHHTTCSS
+T ss_pred             hcCHhHHHHHHHHHcCCCHHHHHhhCCC
+Confidence            3456665588999999999999998775
+
+
+No 3
+>6UXQ_A Bcl-2 homologous antagonist/killer; Pore-forming Protein, APOPTOSIS; HET: LBN, SO4, EDO, C8E; 1.696A {Homo sapiens}
+Probab=14.69  E-value=3.5e+02  Score=16.85  Aligned_cols=19  Identities=11%  Similarity=0.476  Sum_probs=15.2  Template_Neff=9.300
+
+Q ss_pred             hhhHhhHHHhccCCHHHHH
+Q tr|A0A1W2PPV0|   42 AFTVLGEAWRDQVDWSRLL   60 (127)
+Q Consensus        42 aftvlgeawrdqvdwsrll   60 (127)
+                      ...+..+.+.|.+.|.|+.
+T Consensus        48 ~~~v~~~lf~~ginWgriv   66 (85)
+T 6UXQ_A           48 FTKIATSLFESGINWGRVV   66 (85)
+T ss_dssp             HHHHHHHHHHTCCCHHHHH
+T ss_pred             HHHHHHHHhccCCCHHHHH
+Confidence            4457788889999999875
+
+
+No 4
+>6UXQ_B Bcl-2 homologous antagonist/killer; Pore-forming Protein, APOPTOSIS; HET: LBN, SO4, EDO, C8E; 1.696A {Homo sapiens}
+Probab=14.69  E-value=3.5e+02  Score=16.85  Aligned_cols=19  Identities=11%  Similarity=0.476  Sum_probs=15.2  Template_Neff=9.300
+
+Q ss_pred             hhhHhhHHHhccCCHHHHH
+Q tr|A0A1W2PPV0|   42 AFTVLGEAWRDQVDWSRLL   60 (127)
+Q Consensus        42 aftvlgeawrdqvdwsrll   60 (127)
+                      ...+..+.+.|.+.|.|+.
+T Consensus        48 ~~~v~~~lf~~ginWgriv   66 (85)
+T 6UXQ_B           48 FTKIATSLFESGINWGRVV   66 (85)
+T ss_dssp             HHHHHHHHHHTCCCHHHHH
+T ss_pred             HHHHHHHHhccCCCHHHHH
+Confidence            4457788889999999875
+
+
+No 5
+>5WDD_B Bcl-2-related ovarian killer protein; Bcl-2, Apoptosis, Pro-apoptotic, Cell death; HET: EDO; 1.799A {Gallus gallus}
+Probab=14.53  E-value=3.7e+02  Score=18.90  Aligned_cols=20  Identities=10%  Similarity=0.498  Sum_probs=14.5  Template_Neff=9.400
+
+Q ss_pred             hhhHhhHHHhccCCHHHHHh
+Q tr|A0A1W2PPV0|   42 AFTVLGEAWRDQVDWSRLLR   61 (127)
+Q Consensus        42 aftvlgeawrdqvdwsrllr   61 (127)
+                      ...+.-+-..|.+.|.|++.
+T Consensus        94 ~~~v~~~lf~dgi~WgrIv~  113 (168)
+T 5WDD_B           94 FLAVAAQIFTAGITWGKVVS  113 (168)
+T ss_dssp             HHHHHHHHCSSCCCHHHHHH
+T ss_pred             HHHHHHHHHHcCCChHHHHH
+Confidence            34566677788899988753
+
+
+No 6
+>5DWA_A Type-2 restriction enzyme AgeI/DNA Complex; restriction endonuclease, PD-(D/E)XK nuclease, protein-DNA; 1.5A {Thalassobius gelatinovorus}
+Probab=10.98  E-value=6.4e+02  Score=22.05  Aligned_cols=32  Identities=25%  Similarity=0.293  Sum_probs=24.2  Template_Neff=5.500
+
+Q ss_pred             hhhhchhhhHhhHHHhccCCHHHHHhhcCCcc
+Q tr|A0A1W2PPV0|   36 FLACWPAFTVLGEAWRDQVDWSRLLRDTGLVK   67 (127)
+Q Consensus        36 flacwpaftvlgeawrdqvdwsrllrdtglvk   67 (127)
+                      .++|.-.=|-+.|-..+.+-||+.|+++|+-+
+T Consensus       161 i~aIIScKtSlRERvt~d~~~S~~lm~~~~ws  192 (278)
+T 5DWA_A          161 VVGGIHAKVSLAERVSDDIPASRIMMGEGLLS  192 (278)
+T ss_dssp             EEEEEEEESCCTTGGGGHHHHHHHHHHTTCEE
+T ss_pred             EEEEEEccCCHHHHhcCCcchHHHHHHcCCEE
+Confidence            34455555667788888889999999999765
+
+
+No 7
+>5DWB_A Type-2 restriction enzyme AgeI/DNA Complex; restriction endonuclease, PD-(D/E)XK nuclease, protein-DNA; 2.4A {Thalassobius gelatinovorus}
+Probab=10.98  E-value=6.4e+02  Score=22.05  Aligned_cols=32  Identities=25%  Similarity=0.293  Sum_probs=24.5  Template_Neff=5.500
+
+Q ss_pred             hhhhchhhhHhhHHHhccCCHHHHHhhcCCcc
+Q tr|A0A1W2PPV0|   36 FLACWPAFTVLGEAWRDQVDWSRLLRDTGLVK   67 (127)
+Q Consensus        36 flacwpaftvlgeawrdqvdwsrllrdtglvk   67 (127)
+                      .++|.-.=|-+.|-..+.+-||+.|+++|+-+
+T Consensus       161 i~aIIScKtSlRERvt~d~~~S~~lm~~~~ws  192 (278)
+T 5DWB_A          161 VVGGIHAKVSLAERVSDDIPASRIMMGEGLLS  192 (278)
+T ss_dssp             EEEEEEEESCCTTGGGGTHHHHHHHHTTTCEE
+T ss_pred             EEEEEEccCCHHHHhcCCcchHHHHHHcCCEE
+Confidence            34555555667788888899999999999865
+
+
+No 8
+>3IHD_A Apoptosis, BH3 domain, Bcl-2, Membrane; 1.88A {Mus musculus}
+Probab=10.84  E-value=4.5e+02  Score=20.19  Aligned_cols=21  Identities=33%  Similarity=0.651  Sum_probs=16.6  Template_Neff=7.900
+
+Q ss_pred             chhhhHhhHHHhccCCHHHHH
+Q tr|A0A1W2PPV0|   40 WPAFTVLGEAWRDQVDWSRLL   60 (127)
+Q Consensus        40 wpaftvlgeawrdqvdwsrll   60 (127)
+                      .-...|..|.+.|.+.|.|++
+T Consensus       122 ~~f~~V~~elF~dginWGRIv  142 (197)
+T 3IHD_A          122 QSFEQVVNELFRDGVNWGRIV  142 (197)
+T ss_dssp             HHHHHHHGGGGTTCCCHHHHH
+T ss_pred             HHHHHHHHHHhcCCCChHHHH
+Confidence            344568889999999999965
+
+
+No 9
+>3ILC_A Apoptosis, BH3 domain, Bcl-2, Alternative; 1.64A {Mus musculus}
+Probab=10.84  E-value=4.5e+02  Score=20.19  Aligned_cols=21  Identities=33%  Similarity=0.651  Sum_probs=16.6  Template_Neff=7.900
+
+Q ss_pred             chhhhHhhHHHhccCCHHHHH
+Q tr|A0A1W2PPV0|   40 WPAFTVLGEAWRDQVDWSRLL   60 (127)
+Q Consensus        40 wpaftvlgeawrdqvdwsrll   60 (127)
+                      .-...|..|.+.|.+.|.|++
+T Consensus       122 ~~f~~V~~elF~dginWGRIv  142 (197)
+T 3ILC_A          122 QSFEQVVNELFRDGVNWGRIV  142 (197)
+T ss_dssp             HHHHHHHGGGGTTCCCHHHHH
+T ss_pred             HHHHHHHHHHhcCCCChHHHH
+Confidence            344568889999999999965
+
+
+No 10
+>6SOK_S Streptavidin, Strep-tag II peptide; LOOP ENGINEERING, PEPTIDE BINDING PROTEIN; 1.96A {Streptomyces avidinii}
+Probab=10.62  E-value=5e+02  Score=14.45  Aligned_cols=21  Identities=5%  Similarity=-0.391  Sum_probs=10.4  Template_Neff=7.400
+
+Q ss_pred             cCCCCCCC-CCCCCCCCCCCCC
+Q tr|A0A1W2PPV0|  103 LSKFPRQP-GREKGPIKEVPGT  123 (127)
+Q Consensus       103 lskfprqp-grekgpikevpgt  123 (127)
+                      |..||+.+ |.+...+.++.|+
+T Consensus         2 lA~fP~t~~g~~~~~l~~v~g~   23 (32)
+T 6SOK_S            2 SAWSHPQFEKGGGSGGGSGGSA   23 (32)
+T ss_pred             CCCCCCccCCCCCCCceecCce
+Confidence            44566554 3344455555543
+
+

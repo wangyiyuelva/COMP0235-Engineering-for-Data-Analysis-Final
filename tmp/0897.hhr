@@ -1,0 +1,170 @@
+Query         tr|E9PM71|E9PM71_HUMAN
+Match_columns 109
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:41:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0897.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2K89_A PROTEIN; Ubiquitin bind  19.9 2.5E+02  0.0027   18.9   2.6   40    8-58     32-71  (80)
+  2 4JDE_A Protein F15E11.13; Beta  16.8 1.5E+02  0.0017   21.7   1.1   17   58-74    100-116 (144)
+  3 3PSP_A Protein DOA1; protein d  13.7   4E+02  0.0043   22.1   2.8   40    8-58    111-150 (425)
+  4 3BZX_B Auto cleavage protein,   13.5 1.9E+02  0.0021   18.2   0.8   44   15-58     29-72  (83)
+  5 3PST_A Protein DOA1; protein d  12.4 4.8E+02  0.0052   21.7   2.9   40    8-58    111-150 (425)
+  6 5V7I_A Serine hydroxymethyltra  11.4 2.7E+02  0.0029   20.8   1.1   18   43-60    455-472 (476)
+  7 4LJS_A Periplasmic binding pro   9.6 5.7E+02  0.0062   18.7   2.2   37   69-107     7-46  (324)
+  8 3GFV_A Uncharacterized ABC tra   8.9   7E+02  0.0076   18.1   2.4   18   90-107    17-36  (303)
+  9 3V39_A D-alanyl-D-alanine carb   8.4 1.1E+02  0.0012   25.0  -1.9   22   46-67      2-23  (418)
+ 10 3L3F_X Protein DOA1; Armadillo   7.9 7.7E+02  0.0083   19.7   2.5   40    8-58     48-87  (362)
+
+No 1
+>2K89_A PROTEIN; Ubiquitin binding, WD repeat, PROTEIN; NMR {Homo sapiens}
+Probab=19.90  E-value=2.5e+02  Score=18.86  Aligned_cols=40  Identities=23%  Similarity=0.276  Sum_probs=26.9  Template_Neff=6.700
+
+Q ss_pred             eeccCCChhhhhhhhhhhhhhhcCCCCCHHHHhcCCCcHHHHHHHhhhhhc
+Q tr|E9PM71|E9PM    8 ILSYNFNTFAILNVYSKLTMFCTTNSLPMDLLLKQGSLKQEVESFCYQIVS   58 (109)
+Q Consensus         8 ilsynfntfailnvyskltmfcttnslpmdlllkqgslkqevesfcyqivs   58 (109)
+                      -|.||.+.    +.+.-..-||..|.||.+.+       ++|..|.-+-..
+T Consensus        32 ~L~~N~gd----dp~~vA~~Fi~~~~L~~~~~-------~~I~~fI~~~~~   71 (80)
+T 2K89_A           32 KLPYNTSD----DPWLTAYNFLQKNDLNPMFL-------DQVAKFIIDNTK   71 (80)
+T ss_dssp             EEEECTTS----CHHHHHHHHHHHHTCCTTHH-------HHHHHHHHHHHS
+T ss_pred             ecceeCCC----CHHHHHHHHHHHCCCCHHHH-------HHHHHHHHHhhc
+Confidence            45566654    44555567999999998765       667777665443
+
+
+No 2
+>4JDE_A Protein F15E11.13; Beta sandwich, UNKNOWN FUNCTION; HET: CL; 1.9A {Caenorhabditis elegans}
+Probab=16.84  E-value=1.5e+02  Score=21.69  Aligned_cols=17  Identities=35%  Similarity=0.411  Sum_probs=13.1  Template_Neff=7.000
+
+Q ss_pred             ccCCCCceeeccCCCCC
+Q tr|E9PM71|E9PM   58 SESNDQKVGILQSEDKQ   74 (109)
+Q Consensus        58 sesndqkvgilqsedkq   74 (109)
+                      +|+++-|-.+|++||..
+T Consensus       100 ~~~~g~Kqh~L~~eD~~  116 (144)
+T 4JDE_A          100 SDSRSWKQHMLTAEDDG  116 (144)
+T ss_dssp             ETTTSCEECCCCGGGTT
+T ss_pred             cCCCCeeeeEEEeccCC
+Confidence            35688888999999853
+
+
+No 3
+>3PSP_A Protein DOA1; protein degradation, Maintain the ubiquitin; 2.422A {Saccharomyces cerevisiae}
+Probab=13.66  E-value=4e+02  Score=22.12  Aligned_cols=40  Identities=25%  Similarity=0.356  Sum_probs=29.8  Template_Neff=8.300
+
+Q ss_pred             eeccCCChhhhhhhhhhhhhhhcCCCCCHHHHhcCCCcHHHHHHHhhhhhc
+Q tr|E9PM71|E9PM    8 ILSYNFNTFAILNVYSKLTMFCTTNSLPMDLLLKQGSLKQEVESFCYQIVS   58 (109)
+Q Consensus         8 ilsynfntfailnvyskltmfcttnslpmdlllkqgslkqevesfcyqivs   58 (109)
+                      -|.||.+.    |.|.--.-||..|.||++.+       ++|..|..|-..
+T Consensus       111 kLpyN~~e----np~~~A~~Fi~~~~L~~~~l-------~qI~~FI~~n~~  150 (425)
+T 3PSP_A          111 KLPINVSD----NPYTAADNFLARYELPMSYR-------DQVVQFILKNTN  150 (425)
+T ss_dssp             EEEECTTS----CHHHHHHHHHHHHTCCGGGH-------HHHHHHHHHHC-
+T ss_pred             eccccCCC----CHHHHHHHHHHHCCCCHHHH-------HHHHHHHHHhcC
+Confidence            46677654    66777778999999999865       678888777654
+
+
+No 4
+>3BZX_B Auto cleavage protein, intein, T3SS; 1.6A {Escherichia coli}
+Probab=13.52  E-value=1.9e+02  Score=18.19  Aligned_cols=44  Identities=11%  Similarity=0.040  Sum_probs=25.6  Template_Neff=8.500
+
+Q ss_pred             hhhhhhhhhhhhhhhcCCCCCHHHHhcCCCcHHHHHHHhhhhhc
+Q tr|E9PM71|E9PM   15 TFAILNVYSKLTMFCTTNSLPMDLLLKQGSLKQEVESFCYQIVS   58 (109)
+Q Consensus        15 tfailnvyskltmfcttnslpmdlllkqgslkqevesfcyqivs   58 (109)
+                      .-.|+....+...-+..|..-.+.|.++..+.+.+..-+|+.+.
+T Consensus        29 a~~i~~~A~~~~ipi~~~~~La~~L~~~~~~g~~Ip~~~~~~va   72 (83)
+T 3BZX_B           29 ALQIIKLAELYDIPVIEDIPLARSLYKNIHKGQYITEDFFEPVA   72 (83)
+T ss_dssp             HHHHHHHHHHHTCCEEECHHHHHHHHHHSCTTCBCCGGGHHHHH
+T ss_pred             HHHHHHHHHHcCCCeecCHHHHHHHHHcCCCCCCCCHHHHHHHH
+Confidence            33355555444444555554456666667777777777776654
+
+
+No 5
+>3PST_A Protein DOA1; protein degradation, cdc48, ubiquitin, NUCLEAR; 1.999A {Saccharomyces cerevisiae}
+Probab=12.37  E-value=4.8e+02  Score=21.69  Aligned_cols=40  Identities=23%  Similarity=0.315  Sum_probs=29.6  Template_Neff=8.300
+
+Q ss_pred             eeccCCChhhhhhhhhhhhhhhcCCCCCHHHHhcCCCcHHHHHHHhhhhhc
+Q tr|E9PM71|E9PM    8 ILSYNFNTFAILNVYSKLTMFCTTNSLPMDLLLKQGSLKQEVESFCYQIVS   58 (109)
+Q Consensus         8 ilsynfntfailnvyskltmfcttnslpmdlllkqgslkqevesfcyqivs   58 (109)
+                      -|.||.+.    |.|.--.-||..|.||.+.+       ++|..|..+-..
+T Consensus       111 kLpyN~~e----np~~~A~~Fi~~~~L~~~~l-------~qI~~FI~~n~~  150 (425)
+T 3PST_A          111 KLPINVSD----NPYTAADNFLARYELPMSYR-------DQVVQLILKNTN  150 (425)
+T ss_dssp             EEEECTTC----CHHHHHHHHHHHHTCCGGGH-------HHHHHHHHHHC-
+T ss_pred             ecccCCCC----CHHHHHHHHHHHCCCCHHHH-------HHHHHHHHHhcC
+Confidence            46677653    66777788999999999865       678888776554
+
+
+No 6
+>5V7I_A Serine hydroxymethyltransferase, mitochondrial (E.C.2.1.2.1); SHMT2, serine catabolism, antifolate, Transferase-Transferase; HET: GOL, PEG, LLP, 8Z1; 2.47A {Homo sapiens}
+Probab=11.36  E-value=2.7e+02  Score=20.84  Aligned_cols=18  Identities=28%  Similarity=0.401  Sum_probs=13.6  Template_Neff=11.300
+
+Q ss_pred             CCcHHHHHHHhhhhhccC
+Q tr|E9PM71|E9PM   43 GSLKQEVESFCYQIVSES   60 (109)
+Q Consensus        43 gslkqevesfcyqivses   60 (109)
+                      -+|+|+|++||..+....
+T Consensus       455 ~~~~~~~~~~~~~~~~~~  472 (476)
+T 5V7I_A          455 ANLRQRVEQFARAFPMPG  472 (476)
+T ss_dssp             HHHHHHHHHHHHTSCCSS
+T ss_pred             HHHHHHHHHHHHhCCCCC
+Confidence            468899999988776543
+
+
+No 7
+>4LJS_A Periplasmic binding protein; structural genomics, PSI-Biology, protein structure; HET: MSE; 2.321A {Veillonella parvula}
+Probab=9.57  E-value=5.7e+02  Score=18.68  Aligned_cols=37  Identities=22%  Similarity=0.276  Sum_probs=20.0  Template_Neff=10.500
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCcccceeccCCCC---CCCCCCCCC
+Q tr|E9PM71|E9PM   69 QSEDKQLQPSVSKKSEGELSRVKFISNSNK---ITFSKKPKR  107 (109)
+Q Consensus        69 qsedkqlqpsvskksegelsrvkfisnsnk---itfskkpkr  107 (109)
+                      +.++.+..|.-+..+  +.-.|+++....+   ++|.++|+|
+T Consensus         7 ~~~~~~~~~~~~~~~--~~~tv~~~d~~G~~~~v~i~~~~~r   46 (324)
+T 4LJS_A            7 TVEDHQSTPVHIKLQ--PPVTIESFVRRGEPFESTYTAVPER   46 (324)
+T ss_dssp             -CCCTTCCCCCCEEE--EEEEEEEEEETTEEEEEEEEECCSS
+T ss_pred             eecccccCCCCCCCC--CCeEEEEeccCCceeeEEeCCCCce
+Confidence            445555555554433  2344555554443   778887776
+
+
+No 8
+>3GFV_A Uncharacterized ABC transporter solute-binding protein; alpha-beta-sandwich, periplasmic binding protein fold; HET: MSE; 1.75A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=8.90  E-value=7e+02  Score=18.07  Aligned_cols=18  Identities=22%  Similarity=0.418  Sum_probs=9.6  Template_Neff=10.500
+
+Q ss_pred             ceeccCCCC--CCCCCCCCC
+Q tr|E9PM71|E9PM   90 VKFISNSNK--ITFSKKPKR  107 (109)
+Q Consensus        90 vkfisnsnk--itfskkpkr  107 (109)
+                      +.+.....+  +++.+.|+|
+T Consensus        17 ~~v~d~~g~~~v~~~~~p~R   36 (303)
+T 3GFV_A           17 ITVKHQLDKNGTKVPKNPKK   36 (303)
+T ss_dssp             EEEEETTEEEEEEEESSCSC
+T ss_pred             EEEEecCCccceecCCCCCe
+Confidence            444443333  667766665
+
+
+No 9
+>3V39_A D-alanyl-D-alanine carboxypeptidase (E.C.3.4.16.4); Peptidoglycan transpeptidase fold, endopeptidase, serine; HET: PGE, SO4; 1.45A {Bdellovibrio bacteriovorus}
+Probab=8.36  E-value=1.1e+02  Score=25.05  Aligned_cols=22  Identities=23%  Similarity=0.268  Sum_probs=12.9  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHhhhhhccCCCCceee
+Q tr|E9PM71|E9PM   46 KQEVESFCYQIVSESNDQKVGI   67 (109)
+Q Consensus        46 kqevesfcyqivsesndqkvgi   67 (109)
+                      |-+++|+|+-++.-.+.+.+.-
+T Consensus         2 ~~~~~s~~~~~~~~~~g~~l~~   23 (418)
+T 3V39_A            2 KVYLNSMCHMAANSKTQQIQGD   23 (418)
+T ss_dssp             EEEEEEEEEEETTCSSCCCEEC
+T ss_pred             ceeeceeEEEEEcCCCCcEeEe
+Confidence            4466788886665554444433
+
+
+No 10
+>3L3F_X Protein DOA1; Armadillo-like repeat structure, Nucleus, Ubl; HET: MSE; 1.9A {Saccharomyces cerevisiae}
+Probab=7.89  E-value=7.7e+02  Score=19.72  Aligned_cols=40  Identities=25%  Similarity=0.356  Sum_probs=30.1  Template_Neff=8.800
+
+Q ss_pred             eeccCCChhhhhhhhhhhhhhhcCCCCCHHHHhcCCCcHHHHHHHhhhhhc
+Q tr|E9PM71|E9PM    8 ILSYNFNTFAILNVYSKLTMFCTTNSLPMDLLLKQGSLKQEVESFCYQIVS   58 (109)
+Q Consensus         8 ilsynfntfailnvyskltmfcttnslpmdlllkqgslkqevesfcyqivs   58 (109)
+                      -|.||.+-    |.|.--.-||..|.||++.+       ++|..|..+-..
+T Consensus        48 kLpyN~~d----np~~~A~~Fi~~~~l~~~~~-------~qI~~fI~~n~~   87 (362)
+T 3L3F_X           48 KLPINVSD----NPYTAADNFLARYELPMSYR-------DQVVQFILKNTN   87 (362)
+T ss_dssp             EEEECTTS----CHHHHHHHHHHHTTCCGGGH-------HHHHHHHHHHCC
+T ss_pred             cccccCCC----CHHHHHHHHHHHCCCCHHHH-------HHHHHHHHHhcC
+Confidence            46677663    66777778999999999865       677788776654
+
+

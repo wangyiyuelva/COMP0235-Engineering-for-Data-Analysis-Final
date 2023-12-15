@@ -1,0 +1,303 @@
+Query         sp|Q8TB03|CX038_HUMAN
+Match_columns 319
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:33:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0040.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7N85_K nuclear pore complex, i  79.9      74 0.00081   30.5  11.5   32  268-299   506-537 (541)
+  2 7N9F_K NPC, nucleocytoplasmic   79.9      74 0.00081   30.5  11.5   32  268-299   506-537 (541)
+  3 6N30_A Bacterial ATP synthase;  30.6 5.5E+02   0.006   24.4   7.5   36  198-233   409-444 (502)
+  4 7V2H_H Respiratory, Complex, E  29.7      97   0.001   26.3   2.5   73  172-261    11-83  (112)
+  5 6TUG_A CRISPR system endoribon  29.0 7.2E+02  0.0078   22.9   8.1   57  152-209   365-429 (433)
+  6 6TUG_F CRISPR system endoribon  29.0 7.2E+02  0.0078   22.9   8.1   56  153-209   366-429 (433)
+  7 6JSJ_A Mitofusin-1,Mitofusin-1  25.5 2.4E+02  0.0026   29.3   4.7   60  239-304   603-689 (698)
+  8 6JSJ_C Mitofusin-1,Mitofusin-1  25.5 2.4E+02  0.0026   29.3   4.7   60  239-304   603-689 (698)
+  9 6QL4_B Putative mitochondrial   22.9 5.4E+02  0.0058   28.3   6.8   41  264-304   853-909 (939)
+ 10 7AR7_V Complex-I Arabidopsis,   22.3 1.5E+02  0.0017   26.6   2.5   73  171-260    12-84  (140)
+ 11 4PHQ_C ClyA; alpha pore-formin  22.1 2.5E+02  0.0027   26.1   3.9   24  278-301   258-281 (298)
+ 12 3E1I_B Blood Coagulation, Dise  21.6 4.8E+02  0.0052   23.5   5.3   37  236-272     3-39  (328)
+ 13 4ROU_A Mitochondrial ribonucle  20.5 9.1E+02  0.0098   22.2   6.8   49  230-282    78-128 (310)
+ 14 4ROU_B Mitochondrial ribonucle  20.5 9.1E+02  0.0098   22.2   6.8   49  230-282    78-128 (310)
+ 15 3MNF_A PAC2 family protein; PS  20.3 6.4E+02  0.0069   22.1   5.6   33  127-159   187-219 (250)
+ 16 6VBU_2 Bardet-Biedl syndrome 1  20.2 5.3E+02  0.0058   24.6   5.5   43  242-284   588-630 (721)
+
+No 1
+>7N85_K nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=79.94  E-value=74  Score=30.47  Aligned_cols=32  Identities=16%  Similarity=0.207  Sum_probs=14.9  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHCCHHHHhhchHHHHHHHHh
+Q sp|Q8TB03|CX03  268 LSNRLEVVKEFLRNNEDLRNGLTEDMQKLDSL  299 (319)
+Q Consensus       268 lsnrlevvkeflrnnedlrngltedmqkldsl  299 (319)
+                      +..-.+++++..+.-+.|-+-|.+|+.+++.+
+T Consensus       506 l~~i~~iL~~qq~gL~~L~~~l~~d~~~v~~l  537 (541)
+T 7N85_K          506 INKIVEILTNQQRGITYLNEVLEKDAAIVKKY  537 (541)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333444444444444555555555555443
+
+
+No 2
+>7N9F_K NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=79.94  E-value=74  Score=30.47  Aligned_cols=32  Identities=16%  Similarity=0.207  Sum_probs=14.9  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHCCHHHHhhchHHHHHHHHh
+Q sp|Q8TB03|CX03  268 LSNRLEVVKEFLRNNEDLRNGLTEDMQKLDSL  299 (319)
+Q Consensus       268 lsnrlevvkeflrnnedlrngltedmqkldsl  299 (319)
+                      +..-.+++++..+.-+.|-+-|.+|+.+++.+
+T Consensus       506 l~~i~~iL~~qq~gL~~L~~~l~~d~~~v~~l  537 (541)
+T 7N9F_K          506 INKIVEILTNQQRGITYLNEVLEKDAAIVKKY  537 (541)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            33333444444444444555555555555443
+
+
+No 3
+>6N30_A Bacterial ATP synthase; Bacterial ATP synthase, HYDROLASE; HET: ADP, ATP; 3.2A {Bacillus sp. PS3}
+Probab=30.60  E-value=5.5e+02  Score=24.38  Aligned_cols=36  Identities=22%  Similarity=0.096  Sum_probs=23.8  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHHHcCCcccCCChhhcCCCCCCccccc
+Q sp|Q8TB03|CX03  198 IVAVYSRIEQLLTSDWAVHIPEEDQRDGCECEMGTY  233 (319)
+Q Consensus       198 ivavysrieqlltsdwavhipeedqrdgcecemgty  233 (319)
+                      +++...+|+.+|+.+.-..++-+++-..+..-...+
+T Consensus       409 ~i~~~~~i~~~L~Q~~~~~~~~~e~~~~l~~i~~g~  444 (502)
+T 6N30_A          409 KLARGARTVEVLKQDLHQPIPVEKQVLIIYALTRGF  444 (502)
+T ss_pred             HHHHHHHHHHHHcCCCCCCCCHHHHHHHHHHHHcCc
+Confidence            445566778888887777777677666665544433
+
+
+No 4
+>7V2H_H Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=29.67  E-value=97  Score=26.31  Aligned_cols=73  Identities=25%  Similarity=0.320  Sum_probs=48.2  Template_Neff=5.800
+
+Q ss_pred             CCChHHHHHHHHHHHHHHHHhCChHHHHHHHHHHHHHHcCCcccCCChhhcCCCCCCcccccCChhcccHHHHHHHHHHH
+Q sp|Q8TB03|CX03  172 KVSSTWLRDFQMKIQNFLNEFKNIPEIVAVYSRIEQLLTSDWAVHIPEEDQRDGCECEMGTYLSESQVNEIEMQLLKEKL  251 (319)
+Q Consensus       172 kvsstwlrdfqmkiqnflnefknipeivavysrieqlltsdwavhipeedqrdgcecemgtylsesqvneiemqllkekl  251 (319)
+                      .|...+...........|+.++++|+-.+-....|++......+.-                 ++..+.+||..+=--.+
+T Consensus        11 ~v~p~~r~~L~~lY~~~L~~l~~iP~~~~YR~~vE~~t~~Rl~iv~-----------------~~~d~~~iE~~ig~Gqi   73 (112)
+T 7V2H_H           11 AVCETPHERLKILYTKILDVLGQIPKNAAYRKYTEQITNEKLGMVK-----------------AEPDVKKLEEQLQGGQI   73 (112)
+T ss_pred             ecCCCHHHHHHHHHHHHHHHHhcCCCccHHHHHHHHHHHHHHhccc-----------------ccccHHHHHHHhCCCcH
+Confidence            4555566666666677788889999987766677776665554431                 13446677766666667
+
+
+Q ss_pred             HHHHHHHHhC
+Q sp|Q8TB03|CX03  252 QEIYLQAEEQ  261 (319)
+Q Consensus       252 qeiylqaeeq  261 (319)
+                      .|+..||+..
+T Consensus        74 EElI~qA~~E   83 (112)
+T 7V2H_H           74 EEVILQAENE   83 (112)
+T ss_pred             HHHHHHHHHH
+Confidence            7777777653
+
+
+No 5
+>6TUG_A CRISPR system endoribonuclease Csm6 (E.C.3.1.-.-); CRISPR, cyclic oligoadenylate, RNase, nuclease; HET: AF2, SO4; 2.42A {Enterococcus italicus (strain DSM 15952 / LMG 22039 / TP 1.5)}
+Probab=28.98  E-value=7.2e+02  Score=22.89  Aligned_cols=57  Identities=14%  Similarity=0.194  Sum_probs=32.6  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHHHHHcCCCCCCChHHHHH------HHHHHHHHHHHhC-Ch-HHHHHHHHHHHHHH
+Q sp|Q8TB03|CX03  152 RKKVTEVIKCRNEIMHSSEMKVSSTWLRD------FQMKIQNFLNEFK-NI-PEIVAVYSRIEQLL  209 (319)
+Q Consensus       152 rkkvtevikcrneimhssemkvsstwlrd------fqmkiqnflnefk-ni-peivavysrieqll  209 (319)
+                      -+++.++.+.||.+.|.-+- ||...+..      +--+++.++..+- .+ ++..-.|.+|.+++
+T Consensus       365 ~~~l~~l~~~RN~laHg~~~-vs~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~yd~iN~~I  429 (433)
+T 6TUG_A          365 MNKVNEINNLRNKVAHNLDS-LNLDRDKNGRKITNAVTAVRTMLLAVFPEVQENDFHYLKQFNQSI  429 (433)
+T ss_dssp             HHHHHHTHHHHHHHHHSCCC-CCSTGGGHHHHHHHHHHHHHHHHHHHCTTCCGGGGGHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhcCCC-CCHHHHhcCCCHHHHHHHHHHHHHHHCCccCHhHhHHHHHHHHHH
+Confidence            35778888999999997654 44443332      3334444444322 22 34455666666654
+
+
+No 6
+>6TUG_F CRISPR system endoribonuclease Csm6 (E.C.3.1.-.-); CRISPR, cyclic oligoadenylate, RNase, nuclease; HET: AF2, SO4; 2.42A {Enterococcus italicus (strain DSM 15952 / LMG 22039 / TP 1.5)}
+Probab=28.98  E-value=7.2e+02  Score=22.89  Aligned_cols=56  Identities=14%  Similarity=0.208  Sum_probs=32.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHHHHcCCCCCCChHHHH------HHHHHHHHHHHHhC-Ch-HHHHHHHHHHHHHH
+Q sp|Q8TB03|CX03  153 KKVTEVIKCRNEIMHSSEMKVSSTWLR------DFQMKIQNFLNEFK-NI-PEIVAVYSRIEQLL  209 (319)
+Q Consensus       153 kkvtevikcrneimhssemkvsstwlr------dfqmkiqnflnefk-ni-peivavysrieqll  209 (319)
+                      +++.++.+.||.+.|.-+- ||...+.      ++--+++.++..+- .+ ++..-.|.+|.+++
+T Consensus       366 ~~l~~l~~~RN~laHg~~~-vs~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~yd~iN~~I  429 (433)
+T 6TUG_F          366 NKVNEINNLRNKVAHNLDS-LNLDRDKNGRKITNAVTAVRTMLLAVFPEVQENDFHYLKQFNQSI  429 (433)
+T ss_dssp             HHHHTTHHHHHHHHTTCCC-CCSSGGGHHHHHHHHHHHHHHHHHHHCTTCCGGGGGHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCC-CCHHHHhcCCCHHHHHHHHHHHHHHHCCccCHhHhHHHHHHHHHH
+Confidence            5777788999999997654 4443333      23334444444322 22 34455666666654
+
+
+No 7
+>6JSJ_A Mitofusin-1,Mitofusin-1 (E.C.3.6.5.-,3.6.5.-); Mitochondria, Fusion, Mgm1, HYDROLASE; HET: GDP, IOD; 3.2A {Saccharomyces cerevisiae S288c}
+Probab=25.50  E-value=2.4e+02  Score=29.32  Aligned_cols=60  Identities=25%  Similarity=0.465  Sum_probs=44.0  Template_Neff=8.000
+
+Q ss_pred             ccHHHHHHHHHHHHH-------------HHHHHHhCCCCCHHHHHHHH-----HHHHHHHCCHHHHh---------hchH
+Q sp|Q8TB03|CX03  239 VNEIEMQLLKEKLQE-------------IYLQAEEQEVLPEELSNRLE-----VVKEFLRNNEDLRN---------GLTE  291 (319)
+Q Consensus       239 vneiemqllkeklqe-------------iylqaeeqevlpeelsnrle-----vvkeflrnnedlrn---------glte  291 (319)
+                      --|+-+..+-+||-.             .|-|      +|-|+.+||.     -+..|++.|+..|.         -|.+
+T Consensus       603 ~~e~~l~~v~~kl~~~~~~fi~~ell~~f~~~------~p~e~~~~l~~~~~~~~~~fa~e~~~i~~~~~l~~r~~~le~  676 (698)
+T 6JSJ_A          603 CPEVFLSAVSDKLTSTAVLFLNVELLSDFFYN------FPIELDRRLTLLGDEQVEMFAKEDPKISRHIELQKRKELLEL  676 (698)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHCCCCCHHHHHH------HHHHHHHHHHTSCHHHHHHHHHTSHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHhHHHHHhHHHHHHhHhc------CcHHHHHHHhcCCHHHHHHHHhhCHHHHHHHHHHHHHHHHHH
+Confidence            346666777777643             4433      6888888882     37889999998764         5678
+
+
+Q ss_pred             HHHHHHHhhccCC
+Q sp|Q8TB03|CX03  292 DMQKLDSLCLHQK  304 (319)
+Q Consensus       292 dmqkldslclhqk  304 (319)
+                      -|.||+++...++
+T Consensus       677 ~~~~~~~~~~~~~  689 (698)
+T 6JSJ_A          677 ALEKIDSILVFKK  689 (698)
+T ss_dssp             HHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHH
+Confidence            8999999987776
+
+
+No 8
+>6JSJ_C Mitofusin-1,Mitofusin-1 (E.C.3.6.5.-,3.6.5.-); Mitochondria, Fusion, Mgm1, HYDROLASE; HET: GDP, IOD; 3.2A {Saccharomyces cerevisiae S288c}
+Probab=25.50  E-value=2.4e+02  Score=29.32  Aligned_cols=60  Identities=25%  Similarity=0.465  Sum_probs=44.0  Template_Neff=8.000
+
+Q ss_pred             ccHHHHHHHHHHHHH-------------HHHHHHhCCCCCHHHHHHHH-----HHHHHHHCCHHHHh---------hchH
+Q sp|Q8TB03|CX03  239 VNEIEMQLLKEKLQE-------------IYLQAEEQEVLPEELSNRLE-----VVKEFLRNNEDLRN---------GLTE  291 (319)
+Q Consensus       239 vneiemqllkeklqe-------------iylqaeeqevlpeelsnrle-----vvkeflrnnedlrn---------glte  291 (319)
+                      --|+-+..+-+||-.             .|-|      +|-|+.+||.     -+..|++.|+..|.         -|.+
+T Consensus       603 ~~e~~l~~v~~kl~~~~~~fi~~ell~~f~~~------~p~e~~~~l~~~~~~~~~~fa~e~~~i~~~~~l~~r~~~le~  676 (698)
+T 6JSJ_C          603 CPEVFLSAVSDKLTSTAVLFLNVELLSDFFYN------FPIELDRRLTLLGDEQVEMFAKEDPKISRHIELQKRKELLEL  676 (698)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHCCCCCCHHHHHH------HHHHHHHHHHTCCHHHHHHHHHTSHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHhHHHHHhHHHHHHhHhc------CcHHHHHHHhcCCHHHHHHHHhhCHHHHHHHHHHHHHHHHHH
+Confidence            346667777777643             4443      6888888882     37889999998764         5678
+
+
+Q ss_pred             HHHHHHHhhccCC
+Q sp|Q8TB03|CX03  292 DMQKLDSLCLHQK  304 (319)
+Q Consensus       292 dmqkldslclhqk  304 (319)
+                      -|.||+++...++
+T Consensus       677 ~~~~~~~~~~~~~  689 (698)
+T 6JSJ_C          677 ALEKIDSILVFKK  689 (698)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            8999999887666
+
+
+No 9
+>6QL4_B Putative mitochondrial dynamin protein; Mitochondrial genome maintenance 1 protein; HET: MSE; 3.6A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=22.92  E-value=5.4e+02  Score=28.33  Aligned_cols=41  Identities=22%  Similarity=0.394  Sum_probs=30.4  Template_Neff=7.500
+
+Q ss_pred             CCHHHHHHH-------HHHHHHHHCCHHHHh---------hchHHHHHHHHhhccCC
+Q sp|Q8TB03|CX03  264 LPEELSNRL-------EVVKEFLRNNEDLRN---------GLTEDMQKLDSLCLHQK  304 (319)
+Q Consensus       264 lpeelsnrl-------evvkeflrnnedlrn---------gltedmqkldslclhqk  304 (319)
+                      +|.||.+||       +.+..|++.|+..+.         -|.+-|.||++|-..++
+T Consensus       853 fp~eld~~L~~~l~~~~~i~~~a~Edp~i~~r~~Lq~rk~~Le~a~~ki~~l~~~~~  909 (939)
+T 6QL4_B          853 FPREVEAKLHEHMHAGGGLEKFAREDPKVRRHLDLIRRKELLETVLGKIEELHRISS  909 (939)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHHHHHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSS
+T ss_pred             CCHHHHHHhccCCCcchHHHHHHhhCHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcc
+Confidence            566777777       458899999987764         45667888888876655
+
+
+No 10
+>7AR7_V Complex-I Arabidopsis, ELECTRON TRANSPORT; HET: T7X, SF4, PSF, PTY, NDP, FMN, LMN, UQ9, 8Q1, PGT, PC7;{Arabidopsis thaliana}
+Probab=22.28  E-value=1.5e+02  Score=26.57  Aligned_cols=73  Identities=18%  Similarity=0.153  Sum_probs=46.6  Template_Neff=5.000
+
+Q ss_pred             CCCChHHHHHHHHHHHHHHHHhCChHHHHHHHHHHHHHHcCCcccCCChhhcCCCCCCcccccCChhcccHHHHHHHHHH
+Q sp|Q8TB03|CX03  171 MKVSSTWLRDFQMKIQNFLNEFKNIPEIVAVYSRIEQLLTSDWAVHIPEEDQRDGCECEMGTYLSESQVNEIEMQLLKEK  250 (319)
+Q Consensus       171 mkvsstwlrdfqmkiqnflnefknipeivavysrieqlltsdwavhipeedqrdgcecemgtylsesqvneiemqllkek  250 (319)
+                      ..|+.++-..+...-+..|+.++.+|+-.+...-.|++...-..+.-                 ++..+.+||.++=--.
+T Consensus        12 L~V~~~pr~~L~~lY~~~L~~L~~iP~~a~YR~~vE~ltk~Rl~iV~-----------------~~~dv~~iE~~ig~Gq   74 (140)
+T 7AR7_V           12 LDVVPNARAVLIDLYSKTLKEIQAVPEDEGYRKAVESFTRQRLNVCK-----------------EEEDWEMIEKRLGCGQ   74 (140)
+T ss_pred             eecCCCHHHHHHHHHHHHHHHHHcCCCchHHHHHHHHHHHHHHHhcc-----------------ccccHHHHHHHHCCCc
+Confidence            45667777777777778888889999987666666766555554421                 2334555555554455
+
+
+Q ss_pred             HHHHHHHHHh
+Q sp|Q8TB03|CX03  251 LQEIYLQAEE  260 (319)
+Q Consensus       251 lqeiylqaee  260 (319)
+                      +.|+..||+.
+T Consensus        75 IEElI~qA~~   84 (140)
+T 7AR7_V           75 VEELIEEARD   84 (140)
+T ss_pred             HHHHHHHHHH
+Confidence            5566666654
+
+
+No 11
+>4PHQ_C ClyA; alpha pore-forming toxin, intramolecular disulfide; HET: GOL; 1.94A {Escherichia coli}
+Probab=22.09  E-value=2.5e+02  Score=26.11  Aligned_cols=24  Identities=13%  Similarity=0.105  Sum_probs=20.0  Template_Neff=7.800
+
+Q ss_pred             HHHCCHHHHhhchHHHHHHHHhhc
+Q sp|Q8TB03|CX03  278 FLRNNEDLRNGLTEDMQKLDSLCL  301 (319)
+Q Consensus       278 flrnnedlrngltedmqkldslcl  301 (319)
+                      ++..++++|..+.+.+++|...|.
+T Consensus       258 l~~~~~~~~~~li~~~~~L~~~C~  281 (298)
+T 4PHQ_C          258 YCDYDDLMLSLLKEAAKKMINTAN  281 (298)
+T ss_dssp             CCCCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhcCCHHHHHHHHHHHHHHHHHHH
+Confidence            455678899999999999998885
+
+
+No 12
+>3E1I_B Blood Coagulation, Disease mutation, Glycoprotein; HET: NAG; 2.3A {Homo sapiens}
+Probab=21.60  E-value=4.8e+02  Score=23.49  Aligned_cols=37  Identities=24%  Similarity=0.075  Sum_probs=4.8  Template_Neff=9.300
+
+Q ss_pred             hhcccHHHHHHHHHHHHHHHHHHHhCCCCCHHHHHHH
+Q sp|Q8TB03|CX03  236 ESQVNEIEMQLLKEKLQEIYLQAEEQEVLPEELSNRL  272 (319)
+Q Consensus       236 esqvneiemqllkeklqeiylqaeeqevlpeelsnrl  272 (319)
+                      ++.+++.+.++-+..++..-+...+...+-+.+++.+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (328)
+T 3E1I_B            3 ENVVNEYSSELEKHQLYIDETVNSNIPTNLRVLRSIL   39 (328)
+T ss_dssp             -------------------------CCTTTTHHHHHH
+T ss_pred             hhHHHhHHHHHHHHHHHHHHHHHhchhHHHHHHHHHH
+Confidence            5567777777666555544333333333334444443
+
+
+No 13
+>4ROU_A Mitochondrial ribonuclease P protein 3; Hydrolase, mitochondria; 2.713A {Homo sapiens}
+Probab=20.47  E-value=9.1e+02  Score=22.16  Aligned_cols=49  Identities=20%  Similarity=0.392  Sum_probs=26.5  Template_Neff=8.700
+
+Q ss_pred             ccccCChhcccHHHHHHHHHHHHHHHHHHHh--CCCCCHHHHHHHHHHHHHHHCC
+Q sp|Q8TB03|CX03  230 MGTYLSESQVNEIEMQLLKEKLQEIYLQAEE--QEVLPEELSNRLEVVKEFLRNN  282 (319)
+Q Consensus       230 mgtylsesqvneiemqllkeklqeiylqaee--qevlpeelsnrlevvkeflrnn  282 (319)
+                      -|+.|....+.+-|.+.|++.+.+..++..+  ....|+|    ++-.++||..+
+T Consensus        78 C~~~L~~~~l~~~e~~~L~~~~~~~~~~~~~~~~~~~~~e----~~~F~~~l~~~  128 (310)
+T 4ROU_A           78 CGKTIESIQLSPEEYECLKGKIMRDVIDGGDQYRKTTPQE----LKRFENFIKSR  128 (310)
+T ss_dssp             TCCBCCBSSCCHHHHHHHHHHHCC--------------------CHHHHHHHHTS
+T ss_pred             CCCCCcccCCCHHHHHHHHHHHHHHHhccccccccCCHHH----HHHHHHHHHhC
+Confidence            4788888889999999998887544333211  1223444    34566777654
+
+
+No 14
+>4ROU_B Mitochondrial ribonuclease P protein 3; Hydrolase, mitochondria; 2.713A {Homo sapiens}
+Probab=20.47  E-value=9.1e+02  Score=22.16  Aligned_cols=49  Identities=20%  Similarity=0.392  Sum_probs=26.8  Template_Neff=8.700
+
+Q ss_pred             ccccCChhcccHHHHHHHHHHHHHHHHHHHh--CCCCCHHHHHHHHHHHHHHHCC
+Q sp|Q8TB03|CX03  230 MGTYLSESQVNEIEMQLLKEKLQEIYLQAEE--QEVLPEELSNRLEVVKEFLRNN  282 (319)
+Q Consensus       230 mgtylsesqvneiemqllkeklqeiylqaee--qevlpeelsnrlevvkeflrnn  282 (319)
+                      -|+.|....+.+-|.+.|++.+.+..++..+  ....|+|    ++-.++||..+
+T Consensus        78 C~~~L~~~~l~~~e~~~L~~~~~~~~~~~~~~~~~~~~~e----~~~F~~~l~~~  128 (310)
+T 4ROU_B           78 CGKTIESIQLSPEEYECLKGKIMRDVIDGGDQYRKTTPQE----LKRFENFIKSR  128 (310)
+T ss_dssp             TCCCCCBSSCCHHHHHHHHHHHHC--------------------CHHHHHHHHTS
+T ss_pred             CCCCCcccCCCHHHHHHHHHHHHHHHhccccccccCCHHH----HHHHHHHHHhC
+Confidence            4788888889999999998887654443221  1223444    44566777654
+
+
+No 15
+>3MNF_A PAC2 family protein; PSI2, MCSG, structural genomics, Protein; HET: MSE; 2.97A {Streptomyces avermitilis}
+Probab=20.26  E-value=6.4e+02  Score=22.08  Aligned_cols=33  Identities=18%  Similarity=0.175  Sum_probs=18.4  Template_Neff=9.000
+
+Q ss_pred             CCCchhhhHHHHHHHHHhcchcccCHHHHHHHH
+Q sp|Q8TB03|CX03  127 KQGPEECDAVALLSLINSCDHFVVDRKKVTEVI  159 (319)
+Q Consensus       127 kqgpeecdavallslinscdhfvvdrkkvtevi  159 (319)
+                      .++|..-+|.++++.+++.-.+.+|.+++.+-+
+T Consensus       187 ~~~~d~~aa~~ll~~l~~~~~l~id~~~L~~~~  219 (250)
+T 3MNF_A          187 SQPPNPKATLALLNRLEDLIDVRIPLGELPEDA  219 (250)
+T ss_dssp             CCSCCHHHHHHHHHHHHHHHTCCCCCTTHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHHhCCCCCcchhHHHH
+Confidence            344555566666666666555556655554443
+
+
+No 16
+>6VBU_2 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; 3.1A {Bos taurus}
+Probab=20.22  E-value=5.3e+02  Score=24.59  Aligned_cols=43  Identities=14%  Similarity=0.297  Sum_probs=17.6  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHHCCHH
+Q sp|Q8TB03|CX03  242 IEMQLLKEKLQEIYLQAEEQEVLPEELSNRLEVVKEFLRNNED  284 (319)
+Q Consensus       242 iemqllkeklqeiylqaeeqevlpeelsnrlevvkeflrnned  284 (319)
+                      ++++.+++-|+++...-+....+-.++..+...+|+++.+.+|
+T Consensus       588 ~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~k~l~~r~~d  630 (721)
+T 6VBU_2          588 VYFEELRKVLVKVDEYHSVHQKLSADMADNSNLIRSLLVQAED  630 (721)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHH
+Confidence            3344444433333333333333333444444445555544444
+
+

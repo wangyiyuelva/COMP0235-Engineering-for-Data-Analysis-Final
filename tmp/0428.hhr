@@ -1,0 +1,170 @@
+Query         tr|Q4VXW3|Q4VXW3_HUMAN
+Match_columns 94
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:12:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0428.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MC9_C Laminin subunit alpha-1  30.3      47 0.00051   19.7   0.6    9   43-51     49-57  (64)
+  2 5X1H_Q IcmJ (DotN); Type IV se  24.7      82 0.00089   20.8   1.0   25   36-60    170-194 (195)
+  3 5XAU_C Laminin subunit alpha-5  23.5      74  0.0008   19.4   0.6    9   43-51     68-76  (83)
+  4 5X42_A IcmS, IcmW, IcmO (DotL)  21.2 1.1E+02  0.0011   20.4   1.0   22   39-60    173-194 (195)
+  5 7VLM_A anti-CRISPR protein, RN  20.4 1.8E+02  0.0019   23.9   2.3   48   19-66     29-82  (182)
+  6 2L77_A Prostatic acid phosphat  16.6      45 0.00048   16.8  -1.2   24   37-60      3-26  (39)
+  7 5XM3_B Glucose dehydrogenase,   15.8 1.7E+02  0.0018   21.8   1.1   13   78-90     30-42  (90)
+  8 2AD7_D Methanol dehydrogenase   15.2 1.9E+02   0.002   20.9   1.2   13   78-90      6-18  (69)
+  9 1P0S_E factor xa, serine prote  15.2      54 0.00058   23.9  -1.5   30   47-76     56-85  (142)
+ 10 7CE5_L Methanol dehydrogenase   14.7   2E+02  0.0022   20.9   1.2   13   78-90      6-18  (72)
+
+No 1
+>5MC9_C Laminin subunit alpha-1, Laminin subunit; Extracellular matrix, cell adhesion, coiled; 2.13A {Mus musculus}
+Probab=30.29  E-value=47  Score=19.74  Aligned_cols=9  Identities=56%  Similarity=1.290  Sum_probs=6.5  Template_Neff=8.100
+
+Q ss_pred             eeCCCCcch
+Q tr|Q4VXW3|Q4VX   43 RFLPNGCFI   51 (94)
+Q Consensus        43 rflpngcfi   51 (94)
+                      .-||.|||-
+T Consensus        49 ~sLP~~C~~   57 (64)
+T 5MC9_C           49 KTLPTGCFN   57 (64)
+T ss_dssp             HHSCCSCCC
+T ss_pred             HhCCCCcCC
+Confidence            358999973
+
+
+No 2
+>5X1H_Q IcmJ (DotN); Type IV secretion system, Coupling; HET: ZN; 3.005A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=24.73  E-value=82  Score=20.80  Aligned_cols=25  Identities=20%  Similarity=0.462  Sum_probs=20.4  Template_Neff=10.200
+
+Q ss_pred             eeecceeeeCCCCcchHHHHhhhhh
+Q tr|Q4VXW3|Q4VX   36 SFYRNEIRFLPNGCFIEDILQNWTD   60 (94)
+Q Consensus        36 sfyrneirflpngcfiedilqnwtd   60 (94)
+                      .-....+|++|+.-.+.+.+.-|..
+T Consensus       170 ~~~~~~lR~lp~~~~~~~~~~~w~~  194 (195)
+T 5X1H_Q          170 EKLFKNIRLLPSRAKFRKQIEKWAA  194 (195)
+T ss_dssp             HHHSTTEEEEECSGGGHHHHHHHHH
+T ss_pred             HHHhccceEecCHHHHHHHHHHHHh
+Confidence            3345789999999999999998864
+
+
+No 3
+>5XAU_C Laminin subunit alpha-5, Laminin subunit; laminin, integrin, extracellular matrix protein; HET: NAG; 1.8A {Homo sapiens}
+Probab=23.47  E-value=74  Score=19.44  Aligned_cols=9  Identities=56%  Similarity=1.305  Sum_probs=6.6  Template_Neff=8.600
+
+Q ss_pred             eeCCCCcch
+Q tr|Q4VXW3|Q4VX   43 RFLPNGCFI   51 (94)
+Q Consensus        43 rflpngcfi   51 (94)
+                      ..||.|||-
+T Consensus        68 ~sLP~~C~~   76 (83)
+T 5XAU_C           68 KTLPSGCFN   76 (83)
+T ss_dssp             HHSCSSCCS
+T ss_pred             HhCCCCcCC
+Confidence            358899973
+
+
+No 4
+>5X42_A IcmS, IcmW, IcmO (DotL); Type IV secretion system, Coupling; 1.8A {Legionella pneumophila}
+Probab=21.24  E-value=1.1e+02  Score=20.40  Aligned_cols=22  Identities=23%  Similarity=0.572  Sum_probs=18.9  Template_Neff=10.100
+
+Q ss_pred             cceeeeCCCCcchHHHHhhhhh
+Q tr|Q4VXW3|Q4VX   39 RNEIRFLPNGCFIEDILQNWTD   60 (94)
+Q Consensus        39 rneirflpngcfiedilqnwtd   60 (94)
+                      -..+|++|+.-.+.+++.-|..
+T Consensus       173 ~~~lR~~p~~~~~~~~~~~w~~  194 (195)
+T 5X42_A          173 FKNIRLLPSRAKFRKQIEKWAA  194 (195)
+T ss_dssp             TTTEEEEECTTTTHHHHHHHHH
+T ss_pred             hccceEecCHHHHHHHHHHHHh
+Confidence            4679999999999999998864
+
+
+No 5
+>7VLM_A anti-CRISPR protein, RNA binding, Cas9; HET: PEG, ACT, MSE; 1.38A {Streptococcus macedonicus}
+Probab=20.45  E-value=1.8e+02  Score=23.92  Aligned_cols=48  Identities=21%  Similarity=0.296  Sum_probs=33.1  Template_Neff=3.100
+
+Q ss_pred             cCcchhhecCCCCCC-Cceee---cceeeeCC--CCcchHHHHhhhhhccchcc
+Q tr|Q4VXW3|Q4VX   19 NYPDLVERDCNGDTP-NLSFY---RNEIRFLP--NGCFIEDILQNWTDNYDLLE   66 (94)
+Q Consensus        19 nypdlverdcngdtp-nlsfy---rneirflp--ngcfiedilqnwtdnydlle   66 (94)
+                      .+.++.+-+|+-... +.|||   +.+|...|  +|-|-+|+|+-..+||+++.
+T Consensus        29 ~~s~~a~~~~~~~~~~~~~~f~V~~~~i~v~~~k~g~~~~~ll~~i~en~~~~~   82 (182)
+T 7VLM_A           29 AVSDKAVAGVNLFPGAKIGSFLVRQDNIVVFPDNKGEFDLDFFNLLNDNFETLV   82 (182)
+T ss_dssp             TTCSSEEECCC-----CCCEEEECSSCEEEECCTTSBCCHHHHHHHHHTHHHHH
+T ss_pred             HHHHHHhhhccCCCCCcceeEEEEEcceEEEeCCCceeCHHHHHHHhhchHHHH
+Confidence            355677788876544 45554   56676665  79999999999999987764
+
+
+No 6
+>2L77_A Prostatic acid phosphatase (E.C.3.1.3.2); PAP248-286, SEVI, AMYLOID, HYDROLASE; NMR {N/A}
+Probab=16.56  E-value=45  Score=16.85  Aligned_cols=24  Identities=21%  Similarity=0.368  Sum_probs=16.7  Template_Neff=9.400
+
+Q ss_pred             eecceeeeCCCCcchHHHHhhhhh
+Q tr|Q4VXW3|Q4VX   37 FYRNEIRFLPNGCFIEDILQNWTD   60 (94)
+Q Consensus        37 fyrneirflpngcfiedilqnwtd   60 (94)
+                      ++..|+.-+..|.++.+|+++..+
+T Consensus         3 ~~~~~l~rl~~G~ll~~i~~~~~~   26 (39)
+T 2L77_A            3 HKQKEKSRLQGGVLVNEILNHMKR   26 (39)
+T ss_dssp             CSSGGGCSSHHHHHHHHHHHHHHH
+T ss_pred             CccHHHHHHhhhHHHHHHHHHHHH
+Confidence            344566666778888888887654
+
+
+No 7
+>5XM3_B Glucose dehydrogenase, Methanol dehydrogenase [cytochrome; marine, methanol dehydrogenase, methylophaga, pyrroloquinoline; HET: PQQ; 1.701A {Methylophaga aminisulfidivorans MP}
+Probab=15.85  E-value=1.7e+02  Score=21.83  Aligned_cols=13  Identities=38%  Similarity=0.687  Sum_probs=11.0  Template_Neff=2.700
+
+Q ss_pred             CCCCCCCcccCCC
+Q tr|Q4VXW3|Q4VX   78 LREPGVNWHAKPL   90 (94)
+Q Consensus        78 lrepgvnwhakpl   90 (94)
+                      -++||+-|.+||=
+T Consensus        30 CKapGnCWEpKPG   42 (90)
+T 5XM3_B           30 CKAAGDCWEAKPG   42 (90)
+T ss_dssp             CSBTTBCCCCCTT
+T ss_pred             CCCCCCccCCCCC
+Confidence            4789999999983
+
+
+No 8
+>2AD7_D Methanol dehydrogenase subunit 1 (E.C.1.1.99.8); methanol dehydrogenase, PQQ configuration, methanol; HET: PQQ; 1.5A {Methylophilus methylotrophus} SCOP: a.137.2.1
+Probab=15.25  E-value=1.9e+02  Score=20.88  Aligned_cols=13  Identities=46%  Similarity=0.915  Sum_probs=10.8  Template_Neff=2.100
+
+Q ss_pred             CCCCCCCcccCCC
+Q tr|Q4VXW3|Q4VX   78 LREPGVNWHAKPL   90 (94)
+Q Consensus        78 lrepgvnwhakpl   90 (94)
+                      -++||+-|.+||=
+T Consensus         6 CkapGnCWEpKPG   18 (69)
+T 2AD7_D            6 CKEPGNCWENKPG   18 (69)
+T ss_dssp             CSBTTBCCCCCTT
+T ss_pred             CCCCCCCcCCCCC
+Confidence            3689999999983
+
+
+No 9
+>1P0S_E factor xa, serine protease, ecotin; HET: CGU; 2.8A {Homo sapiens} SCOP: b.16.1.1
+Probab=15.23  E-value=54  Score=23.91  Aligned_cols=30  Identities=17%  Similarity=0.344  Sum_probs=20.3  Template_Neff=6.300
+
+Q ss_pred             CCcchHHHHhhhhhccchcccccchhhehc
+Q tr|Q4VXW3|Q4VX   47 NGCFIEDILQNWTDNYDLLEDNHSYIQWLF   76 (94)
+Q Consensus        47 ngcfiedilqnwtdnydllednhsyiqwlf   76 (94)
+                      +|.|-+..++.|.-.|-.++.+...++-+.
+T Consensus        56 ~G~l~~k~l~GwGy~YY~~~~~~~~~sT~m   85 (142)
+T 1P0S_E           56 GGKLENKTLEGWGYDYYVFDKVSSPVSTRM   85 (142)
+T ss_dssp             EEEEEEEEETTTTEEEEEEEEEECCCEECC
+T ss_pred             eeeeeeeecCCCCceEEEEeeCCCcccccc
+Confidence            466666678888888777777665554443
+
+
+No 10
+>7CE5_L Methanol dehydrogenase protein, large subunit; Methanol, PQQ, OXIDOREDUCTASE; HET: PQQ, MOH; 1.8A {Methylococcus capsulatus (strain ATCC 33009 / NCIMB 11132 / Bath)}
+Probab=14.67  E-value=2e+02  Score=20.88  Aligned_cols=13  Identities=38%  Similarity=0.838  Sum_probs=10.8  Template_Neff=2.100
+
+Q ss_pred             CCCCCCCcccCCC
+Q tr|Q4VXW3|Q4VX   78 LREPGVNWHAKPL   90 (94)
+Q Consensus        78 lrepgvnwhakpl   90 (94)
+                      -++||+-|.+||=
+T Consensus         6 CkapG~CWEpKPG   18 (72)
+T 7CE5_L            6 CKAPGNCWEPKPG   18 (72)
+T ss_dssp             CSBTTBCCCCCTT
+T ss_pred             CCCCCCCCCCCCC
+Confidence            3689999999983
+
+

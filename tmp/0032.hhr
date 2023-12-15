@@ -1,0 +1,218 @@
+Query         tr|Q6ZWG5|Q6ZWG5_HUMAN
+Match_columns 170
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:25:40 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0032.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ZGI_D Putative 4-amino-4-deox  42.6      30 0.00032   26.5   1.3   35    9-46    180-214 (246)
+  2 3PES_A Uncharacterized protein  37.4      35 0.00038   26.4   1.0   44   48-98     17-62  (85)
+  3 3PES_B Uncharacterized protein  37.4      35 0.00038   26.4   1.0   44   48-98     17-62  (85)
+  4 1ICF_I PROTEIN (CATHEPSIN L) (  31.1 1.6E+02  0.0017   15.9   3.2   15  115-129    31-45  (65)
+  5 4JZR_A Egl nine homolog 1 (E.C  28.7 1.9E+02  0.0021   19.6   3.3   32   15-46     13-44  (216)
+  6 3DAA_A D-AMINO ACID AMINOTRANS  28.1 1.1E+02  0.0012   23.9   2.3   31   10-40    202-232 (277)
+  7 6HQZ_A AvrRpt2; Avirulence, re  25.9 2.9E+02  0.0032   17.4   4.8   46   34-81     54-99  (154)
+  8 2D9G_A zf-RanBP domain, YY1-as  25.4 2.1E+02  0.0023   15.5   2.6   41  101-149    11-51  (53)
+  9 6JIF_B Branched-chain-amino-ac  24.8      53 0.00058   27.2   0.2   36   10-46    265-301 (359)
+ 10 6NCS_B N-acetylneuraminic acid  24.0 4.5E+02  0.0049   21.6   5.2   63   13-79     88-151 (290)
+ 11 4RJY_C Low specificity L-threo  23.8 4.8E+02  0.0052   19.1   4.9   50    6-55      5-56  (333)
+ 12 2N4D_A Uncharacterized protein  21.9 1.1E+02  0.0012   15.1   1.0   12  130-141     2-13  (85)
+ 13 6TJL_B Alr0975 protein; glutat  20.6 3.8E+02  0.0041   20.9   3.9   48   33-83     99-151 (218)
+
+No 1
+>2ZGI_D Putative 4-amino-4-deoxychorismate lyase; TTHA0621, PLP cofactor, pyridoxal enzyme; HET: PGE, PEG, MSE, SO4, PLP; 1.93A {Thermus thermophilus}
+Probab=42.64  E-value=30  Score=26.50  Aligned_cols=35  Identities=17%  Similarity=0.327  Sum_probs=28.4  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHcCCCCCCcccCHHHHHHHHHHHH
+Q tr|Q6ZWG5|Q6ZW    9 PSGVPLERLIRVATERGYTAQGEMFSVADMGRLAQEVL   46 (170)
+Q Consensus         9 psgvplerlirvatergytaqgemfsvadmgrlaqevl   46 (170)
+                      ..|+..+.+++.+.+.|+...-..++..|+   |.|++
+T Consensus       180 l~gvtr~~v~~~~~~~g~~v~e~~i~~~el---a~e~f  214 (246)
+T 2ZGI_D          180 LEGITREKVAEAARGLGLRVERGLFRPEGL---RGHLL  214 (246)
+T ss_dssp             CCCHHHHHHHHHHHHTTCEEEEECCCGGGC---CSEEE
+T ss_pred             CCChHHHHHHHHHHHcCCeEEEEecCHHHH---hhccE
+Confidence            367778999999999999888888998888   55543
+
+
+No 2
+>3PES_A Uncharacterized protein gp49; PSI2, Structural Genomics, Protein Structure; HET: MSE; 1.3A {Pseudomonas phage YuA}
+Probab=37.38  E-value=35  Score=26.40  Aligned_cols=44  Identities=23%  Similarity=0.241  Sum_probs=33.5  Template_Neff=4.300
+
+Q ss_pred             CcceeccCCCCCCCHHHHHHHHhhCCCc--ccCCCCCCCCCCccCCCCCcccc
+Q tr|Q6ZWG5|Q6ZW   48 CQAKLLSGGLGGPNRDLVLQHLVTGHPL--LIPYDEDFNHEPCQRKGHKAHWA   98 (170)
+Q Consensus        48 cqakllsgglggpnrdlvlqhlvtghpl--lipydedfnhepcqrkghkahwa   98 (170)
+                      |+..+.+-.-.-|+|       .||+|.  .-|+.+.|..+-..|+|.+|.|-
+T Consensus        17 C~i~V~~Y~p~~P~~-------~~g~~~~~~p~e~~e~E~~vlDrrGrpA~WL   62 (85)
+T 3PES_A           17 CLIVVTYWEPYVPAK-------VSGPPEYCYPAEGGCGEWEVRDRRGRPAPWL   62 (85)
+T ss_dssp             EEEEEEEEECCBCCB-------CSSCGGGCBCCBCCEEEEEEECTTSCBCHHH
+T ss_pred             eEEEEEEecCCCCcc-------ccCCcccCCCCCCCceeEEEEcCCCCCcHHH
+Confidence            666666666666776       468877  56777788888899999999984
+
+
+No 3
+>3PES_B Uncharacterized protein gp49; PSI2, Structural Genomics, Protein Structure; HET: MSE; 1.3A {Pseudomonas phage YuA}
+Probab=37.38  E-value=35  Score=26.40  Aligned_cols=44  Identities=23%  Similarity=0.241  Sum_probs=33.5  Template_Neff=4.300
+
+Q ss_pred             CcceeccCCCCCCCHHHHHHHHhhCCCc--ccCCCCCCCCCCccCCCCCcccc
+Q tr|Q6ZWG5|Q6ZW   48 CQAKLLSGGLGGPNRDLVLQHLVTGHPL--LIPYDEDFNHEPCQRKGHKAHWA   98 (170)
+Q Consensus        48 cqakllsgglggpnrdlvlqhlvtghpl--lipydedfnhepcqrkghkahwa   98 (170)
+                      |+..+.+-.-.-|+|       .||+|.  .-|+.+.|..+-..|+|.+|.|-
+T Consensus        17 C~i~V~~Y~p~~P~~-------~~g~~~~~~p~e~~e~E~~vlDrrGrpA~WL   62 (85)
+T 3PES_B           17 CLIVVTYWEPYVPAK-------VSGPPEYCYPAEGGCGEWEVRDRRGRPAPWL   62 (85)
+T ss_dssp             EEEEEEEEECCBCCB-------CSSCGGGCBCCBCCEEEEEEECTTSCBCHHH
+T ss_pred             eEEEEEEecCCCCcc-------ccCCcccCCCCCCCceeEEEEcCCCCCcHHH
+Confidence            666666666666776       468877  56777788888899999999984
+
+
+No 4
+>1ICF_I PROTEIN (CATHEPSIN L) (3.4.22.15); CYSTEINE PROTEINASE, CATHEPSIN, MHC CLASS; HET: NAG; 2.0A {Homo sapiens} SCOP: g.28.1.1
+Probab=31.06  E-value=1.6e+02  Score=15.89  Aligned_cols=15  Identities=27%  Similarity=0.676  Sum_probs=7.6  Template_Neff=11.800
+
+Q ss_pred             eeecCCCCCeeeccC
+Q tr|Q6ZWG5|Q6ZW  115 TLSCRACSTQCWARP  129 (170)
+Q Consensus       115 tlscracstqcwarp  129 (170)
+                      ...|..-+..||...
+T Consensus        31 ~~qc~~~~~~c~c~~   45 (65)
+T 1ICF_I           31 PLQCYGSIGYCWCVF   45 (65)
+T ss_dssp             SEEEETTTTEEEEBC
+T ss_pred             CeeecCCCCeEEEEC
+Confidence            344544455666543
+
+
+No 5
+>4JZR_A Egl nine homolog 1 (E.C.1.14.11.29); Prolyl hydroxylase, Oxidoreductase; HET: 4JR; 2.1A {Homo sapiens}
+Probab=28.69  E-value=1.9e+02  Score=19.57  Aligned_cols=32  Identities=13%  Similarity=0.247  Sum_probs=25.1  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHcCCCCCCcccCHHHHHHHHHHHH
+Q tr|Q6ZWG5|Q6ZW   15 ERLIRVATERGYTAQGEMFSVADMGRLAQEVL   46 (170)
+Q Consensus        15 erlirvatergytaqgemfsvadmgrlaqevl   46 (170)
+                      +.+++...+.||..--..|+-.+..+|.+++.
+T Consensus        13 ~~~~~~~~~~g~~~~~~~ls~~~~~~l~~~~~   44 (216)
+T 4JZR_A           13 EYIVPCMNKHGICVVDDFLGKETGQQIGDEVR   44 (216)
+T ss_dssp             CCCHHHHHHHSEEEESSSSCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhCEEEEcCCCCHHHHHHHHHHHH
+Confidence            34566777888888888888888888888776
+
+
+No 6
+>3DAA_A D-AMINO ACID AMINOTRANSFERASE, 2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL)-AMINO]-PROPIONIC ACID; AMINOTRANSFERASE, PYRIDOXAL PHOSPHATE, TRANSAMINASE; HET: PDD; 1.9A {Bacillus sp.} SCOP: e.17.1.1
+Probab=28.09  E-value=1.1e+02  Score=23.87  Aligned_cols=31  Identities=16%  Similarity=0.235  Sum_probs=26.6  Template_Neff=9.900
+
+Q ss_pred             CCCCHHHHHHHHHHcCCCCCCcccCHHHHHH
+Q tr|Q6ZWG5|Q6ZW   10 SGVPLERLIRVATERGYTAQGEMFSVADMGR   40 (170)
+Q Consensus        10 sgvplerlirvatergytaqgemfsvadmgr   40 (170)
+                      .|+..+.+++.+.+.|+...-..++..|+..
+T Consensus       202 ~gitr~~v~~~~~~~g~~v~~~~i~~~~l~~  232 (277)
+T 3DAA_A          202 KGITRDVVIACANEINMPVKEIPFTTHEALK  232 (277)
+T ss_dssp             CCHHHHHHHHHHHHTTCCEECCCCBHHHHHT
+T ss_pred             CCchHHHHHHHHHHcCCCEEEEcCCHHHHhc
+Confidence            5778999999999999998888899887654
+
+
+No 7
+>6HQZ_A AvrRpt2; Avirulence, resistance, plant pathogen, cysteine; 1.8A {Erwinia amylovora}
+Probab=25.94  E-value=2.9e+02  Score=17.38  Aligned_cols=46  Identities=13%  Similarity=0.112  Sum_probs=28.6  Template_Neff=12.200
+
+Q ss_pred             CHHHHHHHHHHHHCCcceeccCCCCCCCHHHHHHHHhhCCCcccCCCC
+Q tr|Q6ZWG5|Q6ZW   34 SVADMGRLAQEVLGCQAKLLSGGLGGPNRDLVLQHLVTGHPLLIPYDE   81 (170)
+Q Consensus        34 svadmgrlaqevlgcqakllsgglggpnrdlvlqhlvtghpllipyde   81 (170)
+                      +..++.+++++ +|.+++...+. .....+.+.+.+..|.|+++..+.
+T Consensus        54 ~~~~~~~~~~~-~g~~~~~~~~~-~~~~~~~i~~~l~~~~p~i~~~~~   99 (154)
+T 6HQZ_A           54 QREDVLRLMRN-ENLAEVSLPES-RQFSANELGNLLCRHGPIMFGWQT   99 (154)
+T ss_dssp             HHHHHHHHHHH-HTEEECCCCTT-SCCCHHHHHHHHHHHCCEEEEEEC
+T ss_pred             CHHHHHHHHHh-CCCccccCCcc-cCCCHHHHHHHHHhcCCEEEEEec
+Confidence            45566666654 46655544432 122566778888889999887653
+
+
+No 8
+>2D9G_A zf-RanBP domain, YY1-associated factor 2; HET: ZN; NMR {Homo sapiens}
+Probab=25.38  E-value=2.1e+02  Score=15.52  Aligned_cols=41  Identities=24%  Similarity=0.590  Sum_probs=25.1  Template_Neff=10.900
+
+Q ss_pred             ceecccCCCCCccceeecCCCCCeeeccCCCCCCCCCCCCccccccCCC
+Q tr|Q6ZWG5|Q6ZW  101 CWVFGLCPVSATLRTLSCRACSTQCWARPANHHPCQRRAPRELSTCCPS  149 (170)
+Q Consensus       101 cwvfglcpvsatlrtlscracstqcwarpanhhpcqrraprelstccps  149 (170)
+                      .|....|..........|..|.++.        +...|.||-.|---||
+T Consensus        11 ~w~c~~ct~~n~~~~~~c~~c~~~~--------~~~~rKPR~~SqL~~~   51 (53)
+T 2D9G_A           11 YWDCSVCTFRNSAEAFKCMMCDVRK--------GTSTRKPRPVSQSGPS   51 (53)
+T ss_dssp             CEECSSSCCEECSSCSSCSSSCCCC--------CCCCCCSCCCCCCCCS
+T ss_pred             eeeCcCCeEeCCccCCeeeeCCCCC--------CCCCCCCCCcccCCCC
+Confidence            3555566666666777888887652        2223577777765554
+
+
+No 9
+>6JIF_B Branched-chain-amino-acid aminotransferase (E.C.2.6.1.42); Branched Chain Amino Acid Biosynthetic; HET: PLP; 1.7A {Pseudomonas sp. UW4}
+Probab=24.79  E-value=53  Score=27.19  Aligned_cols=36  Identities=17%  Similarity=0.132  Sum_probs=28.7  Template_Neff=9.200
+
+Q ss_pred             CCCCHHHHHHHHHH-cCCCCCCcccCHHHHHHHHHHHH
+Q tr|Q6ZWG5|Q6ZW   10 SGVPLERLIRVATE-RGYTAQGEMFSVADMGRLAQEVL   46 (170)
+Q Consensus        10 sgvplerlirvate-rgytaqgemfsvadmgrlaqevl   46 (170)
+                      .|+..+.+++.|.+ .||..+-..+++.|+. -|.|++
+T Consensus       265 ~Gitr~~il~~a~~~~g~~v~e~~i~~~eL~-~a~evf  301 (359)
+T 6JIF_B          265 PGITRLSLIELAKTRLGMEVVEGDVFIDKLS-DFKEAG  301 (359)
+T ss_dssp             CCHHHHHHHHHHHHTSCCCEEEECCBGGGGG-GEEEEE
+T ss_pred             CChHHHHHHHHHHHhhCCeEEEEecCHHHHH-hCCeeE
+Confidence            46788999999998 9999888889998883 344544
+
+
+No 10
+>6NCS_B N-acetylneuraminic acid (Sialic acid) synthetase; SSGCID, N-acetylneuraminic acid synthase, Sialic; HET: TAR, CIT, IOD; 1.8A {Leptospira borgpetersenii serovar Hardjo-bovis (strain JB197)}
+Probab=23.99  E-value=4.5e+02  Score=21.65  Aligned_cols=63  Identities=14%  Similarity=0.172  Sum_probs=44.6  Template_Neff=8.800
+
+Q ss_pred             CHHHHHHHHHHcCCCCCCcccCHHHHHHHHHHHHCCcce-eccCCCCCCCHHHHHHHHhhCCCcccCC
+Q tr|Q6ZWG5|Q6ZW   13 PLERLIRVATERGYTAQGEMFSVADMGRLAQEVLGCQAK-LLSGGLGGPNRDLVLQHLVTGHPLLIPY   79 (170)
+Q Consensus        13 plerlirvatergytaqgemfsvadmgrlaqevlgcqak-llsgglggpnrdlvlqhlvtghpllipy   79 (170)
+                      .+..|+..+.+.|...--+.|+..++..+.+  +|..+- +-|+-+  .|.+|+-+-.-++-|++|.-
+T Consensus        88 ~~~~L~~~a~~~gl~~~~sv~d~~~v~~l~~--~gvd~~KI~s~~~--~n~~Ll~~~~~~~~pvils~  151 (290)
+T 6NCS_B           88 EFLLLKERSQKKNILFFATPFDVPNLNMLKE--IGVEILKIASCDI--CNITLLEAAADSGLIVILSR  151 (290)
+T ss_dssp             HHHHHHHHHHHHTCEEEEEESSHHHHHHHHH--TTCCEEEECGGGT--TCHHHHHHHHHHCSEEEEEC
+T ss_pred             HHHHHHHHHHHCCCeEEeCCCCHHHHHHHHH--hCCCeEEEchhhc--CCHHHHHHHHHcCCEEEEEC
+Confidence            3667889999999988888888888877755  455543 333333  56777766667888887753
+
+
+No 11
+>4RJY_C Low specificity L-threonine aldolase; Pyridoxal-5-phosphate, threonine aldolase, aldimine, catalytic; HET: SER, LLP; 2.1A {Escherichia coli}
+Probab=23.77  E-value=4.8e+02  Score=19.08  Aligned_cols=50  Identities=18%  Similarity=0.198  Sum_probs=30.8  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCHHHHHHHHHHc--CCCCCCcccCHHHHHHHHHHHHCCcceeccC
+Q tr|Q6ZWG5|Q6ZW    6 LSPPSGVPLERLIRVATER--GYTAQGEMFSVADMGRLAQEVLGCQAKLLSG   55 (170)
+Q Consensus         6 lsppsgvplerlirvater--gytaqgemfsvadmgrlaqevlgcqakllsg   55 (170)
+                      .|.+.+.|.+.+++...+.  +....|..-......+++.+.+|....++..
+T Consensus         5 ~s~~~~~~~~~v~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   56 (333)
+T 4RJY_C            5 RSDTVTRPSRAMLEAMMAAPVGDDVYGDDPTVNALQDYAAELSGKEAAIFLP   56 (333)
+T ss_dssp             SCGGGCCCCHHHHHHHHHCCCCCTTTTCCHHHHHHHHHHHHHHTCSEEEEES
+T ss_pred             ccCCCCCCCHHHHHHHHhCCCCCcccCCCHHHHHHHHHHHHHhCCCEEEEeC
+Confidence            3455556667777766653  2233444445677888888999977655443
+
+
+No 12
+>2N4D_A Uncharacterized protein Atu1203; putative metal-binding domain ATU1203, EC-NMR; NMR {Agrobacterium fabrum str. C58}
+Probab=21.89  E-value=1.1e+02  Score=15.07  Aligned_cols=12  Identities=8%  Similarity=0.216  Sum_probs=0.0  Template_Neff=14.100
+
+Q ss_pred             CCCCCCCCCCCc
+Q tr|Q6ZWG5|Q6ZW  130 ANHHPCQRRAPR  141 (170)
+Q Consensus       130 anhhpcqrrapr  141 (170)
+                      .+++|+.++...
+T Consensus         2 ~~~~~~~~~~~~   13 (85)
+T 2N4D_A            2 GSSHHHHHHSSG   13 (85)
+T ss_dssp             ------------
+T ss_pred             CCCccccCCCCC
+Confidence            456666655443
+
+
+No 13
+>6TJL_B Alr0975 protein; glutathione, cyanobacteria, heavy metal, phytochelatin; HET: GSH; 1.87A {Nostoc sp. PCC 7120}
+Probab=20.58  E-value=3.8e+02  Score=20.86  Aligned_cols=48  Identities=17%  Similarity=0.347  Sum_probs=34.1  Template_Neff=9.100
+
+Q ss_pred             cCHHHHHHHHHHHHCCcceeccCCCCCCCHHHHHHHHhh-----CCCcccCCCCCC
+Q tr|Q6ZWG5|Q6ZW   33 FSVADMGRLAQEVLGCQAKLLSGGLGGPNRDLVLQHLVT-----GHPLLIPYDEDF   83 (170)
+Q Consensus        33 fsvadmgrlaqevlgcqakllsgglggpnrdlvlqhlvt-----ghpllipydedf   83 (170)
+                      .+..+|.++++. +|...+...+.  ..+.+.+...|..     |+|+++.++..+
+T Consensus        99 ~~~~~l~~~~~~-~G~~~~~~~~~--~~~~~~l~~~l~~~~~~~g~pviv~~~~~~  151 (218)
+T 6TJL_B           99 MTLDELGRLIAS-YGVKVKVNHAS--DTNIEDFRKQVAENLKQDGNFVIVNYLRKE  151 (218)
+T ss_dssp             CCHHHHHHHHHT-TTCEEEEEEGG--GSCHHHHHHHHHHHHTCSSEEEEEEEEGGG
+T ss_pred             CCHHHHHHHHHH-cCCeEEEEeCC--CCCHHHHHHHHHHHhcCCCcEEEEEEehhH
+Confidence            456788888876 47766665332  2377778888888     999999887543
+
+

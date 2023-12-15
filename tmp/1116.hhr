@@ -1,0 +1,959 @@
+Query         sp|Q9H6U8|ALG9_HUMAN
+Match_columns 611
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:42:08 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1116.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5EZM_A 4-amino-4-deoxy-L-arabi  97.9   0.029 3.2E-07   50.7  33.4   47  345-391   322-368 (578)
+  2 5F15_A 4-amino-4-deoxy-L-arabi  97.9   0.029 3.2E-07   50.7  33.4   46  345-390   322-367 (578)
+  3 6S7T_A Dolichyl-diphosphooligo  97.5    0.22 2.4E-06   50.3  35.6   24  369-392   458-481 (826)
+  4 6EZN_F Dolichyl-diphosphooligo  97.2    0.35 3.8E-06   46.7  28.7   24  369-392   403-426 (718)
+  5 5OGL_A Peptide-binding protein  97.1    0.51 5.6E-06   46.3  25.2   25  368-392   373-397 (713)
+  6 7E9S_A protein n-glycosylation  96.9    0.99 1.1E-05   47.0  34.6   26  367-392   423-448 (875)
+  7 3WAJ_A Transmembrane oligosacc  96.8     1.4 1.6E-05   46.1  34.2   38  354-391   410-447 (875)
+  8 6S7O_A Dolichyl-diphosphooligo  96.2     2.3 2.5E-05   41.9  31.7   24  369-392   404-427 (705)
+  9 6W98_A F5/8 type C domain-cont  96.0     5.3 5.8E-05   44.7  24.1   23  368-390   362-384 (1413)
+ 10 6SNI_X Dolichyl pyrophosphate   94.9     7.9 8.6E-05   39.5  27.7  105  140-246   158-269 (562)
+ 11 6P25_B Dolichyl-diphosphooligo  94.9       3 3.3E-05   43.5  16.0   65  140-204   149-214 (759)
+ 12 6P25_A Dolichyl-diphosphooligo  93.6     5.6 6.1E-05   43.9  15.6  129  140-268   135-284 (817)
+ 13 6P2R_A Dolichyl-diphosphooligo  93.6     5.6 6.1E-05   43.9  15.6  129  140-268   135-284 (817)
+ 14 7BVF_A Probable arabinosyltran  78.5 2.5E+02  0.0027   34.1  28.8   40  348-387   558-597 (1102)
+ 15 7BVE_A Integral membrane indol  77.7 2.6E+02  0.0028   34.0  29.1   43  346-388   550-592 (1084)
+ 16 7BWR_A Integral membrane indol  75.9 2.9E+02  0.0032   33.6  29.6   41  346-386   556-596 (1082)
+ 17 6X0O_A Integral membrane indol  71.0 3.8E+02  0.0041   32.8  29.9   40  346-385   556-595 (1098)
+ 18 7D3E_A Dual oxidase 1 (E.C.1.1  57.1 6.5E+02   0.007   30.6  20.3   11  239-249  1123-1133(1551)
+ 19 7D3F_C Dual oxidase 1 (E.C.1.1  57.1 6.5E+02   0.007   30.6  20.3   11  239-249  1123-1133(1551)
+ 20 7MTR_A Metabotropic Glutamate   56.8 3.5E+02  0.0038   27.4  17.4   23  328-351   725-747 (855)
+ 21 6N4X_A Metabotropic glutamate   55.7 3.8E+02  0.0041   27.5  15.6   16  387-402   822-837 (877)
+ 22 6W2X_B Gamma-aminobutyric acid  54.4 4.6E+02   0.005   28.0  18.4   25  328-352   638-662 (908)
+ 23 6S7T_A Dolichyl-diphosphooligo  52.5 4.8E+02  0.0052   27.7  16.3   18  290-307   131-149 (826)
+ 24 7BVF_B Probable arabinosyltran  52.3 8.2E+02  0.0089   30.4  28.2   42  346-387   570-611 (1116)
+ 25 6UO8_B Gamma-aminobutyric acid  51.9 4.3E+02  0.0047   27.0  16.3   26  327-352   630-655 (779)
+ 26 4AIN_A GLYCINE BETAINE TRANSPO  48.9 3.2E+02  0.0035   30.7  10.4   81  249-334   144-228 (539)
+ 27 7W72_U glycosylphosphatidylino  48.0 4.8E+02  0.0052   26.4  30.4   10  101-110    61-70  (420)
+ 28 2WIT_C GLYCINE BETAINE TRANSPO  45.9 3.3E+02  0.0035   31.0   9.9  106  249-364   155-264 (566)
+ 29 4C7R_A GLYCINE BETAINE TRANSPO  45.9 3.3E+02  0.0035   31.0   9.9  109  249-364   155-264 (566)
+ 30 5GKO_A Macrolide export ATP-bi  43.2   4E+02  0.0044   26.4   9.0   19  214-232   601-619 (671)
+ 31 5WS4_A Macrolide export ATP-bi  43.2   4E+02  0.0044   26.4   9.0   19  214-232   601-619 (671)
+ 32 6YMX_m Cytochrome c oxidase su  36.9      71 0.00077   25.5   2.6   17  214-230    15-31  (38)
+ 33 6YMY_m Cytochrome c oxidase su  36.9      71 0.00077   25.5   2.6   17  214-230    15-31  (38)
+ 34 6VN7_R Vasoactive intestinal p  34.5 8.2E+02  0.0089   25.2  21.2   15  384-398   360-374 (582)
+ 35 6HU9_l Cytochrome b-c1 complex  34.0      77 0.00084   27.4   2.6   18  214-231    40-57  (66)
+ 36 6T0B_l Cytochrome b-c1 complex  34.0      77 0.00084   27.4   2.6   18  214-231    40-57  (66)
+ 37 7BVH_B Integral membrane indol  33.2 1.6E+03   0.017   28.2  25.4   36  347-382   564-599 (1113)
+ 38 7BVC_A Integral membrane indol  26.2   2E+03   0.022   27.2  26.0   36  347-382   542-577 (1088)
+ 39 5NIK_K Outer membrane protein   25.1   1E+03   0.011   23.4   8.4   20  214-233   579-598 (654)
+ 40 5NIL_J Outer membrane protein   25.1   1E+03   0.011   23.4   8.4   20  214-233   579-598 (654)
+ 41 7ARL_E Lipoprotein-releasing A  25.0 7.7E+02  0.0083   21.9   7.0   20  214-233   326-345 (414)
+ 42 5LIL_A Macrolide export ATP-bi  23.6 1.1E+03   0.012   23.6   8.3   18  214-231   595-612 (664)
+ 43 5LIL_B Macrolide export ATP-bi  23.6 1.1E+03   0.012   23.6   8.3   18  214-231   595-612 (664)
+ 44 5LJ7_B MacB; Membrane Protein,  23.6 1.1E+03   0.012   23.6   8.3   18  214-231   595-612 (664)
+ 45 4K0E_A Heavy metal cation tric  23.6 1.5E+03   0.016   24.6  11.9   40  146-185   886-925 (1045)
+ 46 4K0E_C Heavy metal cation tric  23.6 1.5E+03   0.016   24.6  11.9   36  151-186   891-926 (1045)
+ 47 4K0J_C Heavy metal cation tric  23.6 1.5E+03   0.016   24.6  11.9   41  146-186   886-926 (1045)
+ 48 2WSW_A BCCT FAMILY BETAINE/CAR  23.5 6.3E+02  0.0069   28.4   7.6   81  249-334   142-227 (509)
+ 49 4CAD_F ANTIBODY FAB FRAGMENT L  23.5 8.6E+02  0.0093   21.9  10.6   15  356-370   128-142 (271)
+ 50 4CAD_I ANTIBODY FAB FRAGMENT L  23.5 8.6E+02  0.0093   21.9  10.6   15  356-370   128-142 (271)
+ 51 7ARL_C Lipoprotein-releasing A  22.4 6.4E+02   0.007   22.3   6.0   17  215-231   322-338 (399)
+ 52 7MDY_A ATP binding cassette tr  22.4 6.4E+02   0.007   22.3   6.0   17  215-231   322-338 (399)
+ 53 7DD5_B Calcium-Sensing Recepto  22.3 1.7E+03   0.018   24.8  14.5   15  388-402   851-865 (1069)
+ 54 7DD7_A Calcium-Sensing Recepto  22.3 1.7E+03   0.018   24.8  14.5   15  388-402   851-865 (1069)
+ 55 7MDX_B ATP binding cassette tr  22.1 8.8E+02  0.0095   21.5   7.4   18  215-232   322-339 (403)
+
+No 1
+>5EZM_A 4-amino-4-deoxy-L-arabinose (L-Ara4N) transferase; membrane protein, lipid glycosyltransferase, zinc; HET: EPE, DSL, PC, PO4, MPG; 2.7A {Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)}
+Probab=97.87  E-value=0.029  Score=50.73  Aligned_cols=47  Identities=26%  Similarity=0.381  Sum_probs=35.7  Template_Neff=12.200
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  345 HPYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALSALQ  391 (611)
+Q Consensus       345 hpywltlapmyiwfiiffiqphkeerflfpvypliclcgavalsalq  391 (611)
+                      ...++.+......++.+...+.+..|++.|++|.++++.+.++..+.
+T Consensus       322 ~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~~~~~~~l~~~~  368 (578)
+T 5EZM_A          322 RPALMAGIWAIAIFVFFSISRSKLPGYIVPVIPALGILAGVALDRLS  368 (578)
+T ss_dssp             CHHHHHHHHHHHHHHHHHTSSSCCGGGGTTHHHHHHHHHHHHHHTCC
+T ss_pred             hHHHHHHHHHHHHHHHHHhccccChhcHHhHHHHHHHHHHHHHHHcC
+Confidence            34444555555566677778888999999999999999998887553
+
+
+No 2
+>5F15_A 4-amino-4-deoxy-L-arabinose (L-Ara4N) transferase; membrane protein, lipid glycosyltransferase, GT-C; HET: EPE, MPG, 5TR; 3.2A {Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)}
+Probab=97.87  E-value=0.029  Score=50.73  Aligned_cols=46  Identities=26%  Similarity=0.387  Sum_probs=35.2  Template_Neff=12.200
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  345 HPYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALSAL  390 (611)
+Q Consensus       345 hpywltlapmyiwfiiffiqphkeerflfpvypliclcgavalsal  390 (611)
+                      ...++.+......++.+...+.+..|++.|++|.++++.+.++..+
+T Consensus       322 ~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~p~~~~~~~~~l~~~  367 (578)
+T 5F15_A          322 RPALMAGIWAIAIFVFFSISRSKLPGYIVPVIPALGILAGVALDRL  367 (578)
+T ss_dssp             CHHHHHHHHHHHHHHHHHTCSSCCGGGGTTHHHHHHHHHHHHGGGC
+T ss_pred             hHHHHHHHHHHHHHHHHHhccccChhcHHhHHHHHHHHHHHHHHHc
+Confidence            3444555555556667777888999999999999999999887654
+
+
+No 3
+>6S7T_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: NAG, 0K3, BMA, EGY, KZB, MAN; 3.5A {Homo sapiens}
+Probab=97.49  E-value=0.22  Score=50.32  Aligned_cols=24  Identities=25%  Similarity=0.660  Sum_probs=21.5  Template_Neff=10.700
+
+Q ss_pred             ccCcccHHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  369 ERFLFPVYPLICLCGAVALSALQK  392 (611)
+Q Consensus       369 erflfpvypliclcgavalsalqk  392 (611)
+                      .|++.+++|++|+..+.+++.+.+
+T Consensus       458 ~Ry~~~~~p~~~il~a~~l~~l~~  481 (826)
+T 6S7T_A          458 VRLMLTLTPVVCMLSAIAFSNVFE  481 (826)
+T ss_dssp             STTHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhHHHHHHHHHHHHHHHHHH
+Confidence            899999999999999999887654
+
+
+No 4
+>6EZN_F Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1 (E.C.2.4.99.18); OST complex, oligosaccharyltransferase, N-linked glycosylation; HET: NAG, BMA, PTY, CPL, MAN;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=97.22  E-value=0.35  Score=46.74  Aligned_cols=24  Identities=38%  Similarity=0.717  Sum_probs=20.7  Template_Neff=11.500
+
+Q ss_pred             ccCcccHHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  369 ERFLFPVYPLICLCGAVALSALQK  392 (611)
+Q Consensus       369 erflfpvypliclcgavalsalqk  392 (611)
+                      .|++.++.|.+|+..+.++..+.+
+T Consensus       403 ~Ry~~~~~p~~~il~a~~l~~l~~  426 (718)
+T 6EZN_F          403 VRLMLTLTPVICVSAAVALSKIFD  426 (718)
+T ss_dssp             STTHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            899999999999999988876643
+
+
+No 5
+>5OGL_A Peptide-binding protein, Substrate mimicking peptide; Oligosaccharyltransferase, Complex, Protein N-glycosylation, Bacteria; HET: 9UB, PPN; 2.7A {Campylobacter lari (strain RM2100 / D67 / ATCC BAA-1060)}
+Probab=97.09  E-value=0.51  Score=46.31  Aligned_cols=25  Identities=24%  Similarity=0.198  Sum_probs=21.0  Template_Neff=11.100
+
+Q ss_pred             cccCcccHHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  368 EERFLFPVYPLICLCGAVALSALQK  392 (611)
+Q Consensus       368 eerflfpvypliclcgavalsalqk  392 (611)
+                      ..|+..++.|.++++.+.++..+.+
+T Consensus       373 ~~R~~~~~~p~~~i~~~~~l~~l~~  397 (713)
+T 5OGL_A          373 GLRFTIYAVPVMALGFGYFLYAFFN  397 (713)
+T ss_dssp             CGGGGGGGHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3899999999999999988876543
+
+
+No 6
+>7E9S_A protein n-glycosylation, ternary complex, sequon-containing; HET: 7E8, PEG, J06; 2.7A {Archaeoglobus fulgidus DSM 4304}
+Probab=96.94  E-value=0.99  Score=47.03  Aligned_cols=26  Identities=23%  Similarity=0.347  Sum_probs=21.8  Template_Neff=10.200
+
+Q ss_pred             ccccCcccHHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  367 KEERFLFPVYPLICLCGAVALSALQK  392 (611)
+Q Consensus       367 keerflfpvypliclcgavalsalqk  392 (611)
+                      ...||..++.|.+|++.+.++..+-+
+T Consensus       423 ~~~R~~~~~~p~lail~a~~l~~l~~  448 (875)
+T 7E9S_A          423 GQNRFAYYFAAVSAVYSALALSVVFD  448 (875)
+T ss_dssp             HCGGGHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hccchHHHHHHHHHHHHHHHHHHHHH
+Confidence            34899999999999999998877644
+
+
+No 7
+>3WAJ_A Transmembrane oligosaccharyl transferase (E.C.2.4.1.119); oligosaccharyltransferase, N-glycosylation, Archaeoglobus fulgidus, GT-C; 2.501A {Archaeoglobus fulgidus}
+Probab=96.75  E-value=1.4  Score=46.08  Aligned_cols=38  Identities=29%  Similarity=0.507  Sum_probs=29.2  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHHhCCCccccCcccHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  354 MYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALSALQ  391 (611)
+Q Consensus       354 myiwfiiffiqphkeerflfpvypliclcgavalsalq  391 (611)
+                      ..+|++++++-.....||..+..|.+|++.+.++..+.
+T Consensus       410 ~~~~~~~~~~~~~~~~R~~~~~~p~lail~a~~l~~l~  447 (875)
+T 3WAJ_A          410 LLIWAIAMFIALWGQNRFAYYFAAVSAVYSALALSVVF  447 (875)
+T ss_dssp             HHHHHHHHHHHTSSCGGGTHHHHHHHHHHHHHHHHHHG
+T ss_pred             HHHHHHHHHHHHHhcchhHHHHHHHHHHHHHHHHHHHH
+Confidence            34555555555666799999999999999999887653
+
+
+No 8
+>6S7O_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTA, TRANSFERASE; HET: NAG, KZE, BMA, EGY, KZB, MAN; 3.5A {Homo sapiens}
+Probab=96.17  E-value=2.3  Score=41.94  Aligned_cols=24  Identities=17%  Similarity=0.566  Sum_probs=21.4  Template_Neff=11.100
+
+Q ss_pred             ccCcccHHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  369 ERFLFPVYPLICLCGAVALSALQK  392 (611)
+Q Consensus       369 erflfpvypliclcgavalsalqk  392 (611)
+                      .|+..++.|.+|++++.++..+-+
+T Consensus       404 ~R~~~~~~p~~~il~a~~l~~l~~  427 (705)
+T 6S7O_A          404 VRLMLVLAPVMCILSGIGVSQVLS  427 (705)
+T ss_dssp             SGGGGGGHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            899999999999999999887654
+
+
+No 9
+>6W98_A F5/8 type C domain-containing protein; Glycosyltransferase, lipomannan, lipoarabinomannan, arabinofuranose, membrane; HET: 6OU, PNS; 2.9A {Escherichia coli (strain K12)}
+Probab=96.02  E-value=5.3  Score=44.75  Aligned_cols=23  Identities=22%  Similarity=0.024  Sum_probs=18.6  Template_Neff=10.000
+
+Q ss_pred             cccCcccHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  368 EERFLFPVYPLICLCGAVALSAL  390 (611)
+Q Consensus       368 eerflfpvypliclcgavalsal  390 (611)
+                      ..||++++.+.++++.+.++..+
+T Consensus       362 ~~R~~~~~~~~lall~a~~l~~l  384 (1413)
+T 6W98_A          362 VHKLEPLIRLPLILGLAHALSRI  384 (1413)
+T ss_dssp             GGGSHHHHHHHHHHHHHHHTSSS
+T ss_pred             HHhHHHHHHHHHHHHHHHHHHhC
+Confidence            47999999999888888777654
+
+
+No 10
+>6SNI_X Dolichyl pyrophosphate Man9GlcNAc2 alpha-1,3-glucosyltransferase (E.C.2.4.1.267); Glycosyltransferase, Glucosyltransferase, GT-C, N-Glycosylation, MEMBRANE; HET: PTY, Y01;{Saccharomyces cerevisiae}
+Probab=94.89  E-value=7.9  Score=39.55  Aligned_cols=105  Identities=11%  Similarity=0.132  Sum_probs=51.0  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHHH---HHHHHH-HHHHHhC--CcHHHHHHHHHHHHHHHHH-hhhccCcHHHHHHHHHHHHHhhcCCHH
+Q sp|Q9H6U8|ALG9  140 YFLRCLLAFVSCIC---ELYFYK-AVCKKFG--LHVSRMMLAFLVLSTGMFC-SSSAFLPSSFCMYTTLIAMTGWYMDKT  212 (611)
+Q Consensus       140 yflrcllafvscic---elyfyk-avckkfg--lhvsrmmlaflvlstgmfc-sssaflpssfcmyttliamtgwymdkt  212 (611)
+                      .+.|........++   -...|+ ...+..|  -........+..++-+... +...+...++.+...+.++.-+..++ 
+T Consensus       158 ~~~r~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~ll~P~~i~~~~~~~q~d~~~l~l~llal~~~~~~r-  236 (562)
+T 6SNI_X          158 TYMRSTVIISDILFYFPAVIYFTKWLGRYRNQSPIGQSIAASAILFQPSLMLIDHGHFQYNSVMLGLTAYAINNLLDEY-  236 (562)
+T ss_dssp             SHHHHHHHHHHHHHTHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHCCHHHHHHHTTTCCCHHHHHHHHHHHHHHHHHTC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCchHHHHHHHHHHHCHHHHHhhccccccHHHHHHHHHHHHHHHHcCC-
+Confidence            35566555555555   445555 3333332  2222222223333333333 44456677777777777766655444 
+
+
+Q ss_pred             HHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHhcc
+Q sp|Q9H6U8|ALG9  213 SIAVLGVAAGAILGWPFSAALGLPIAFDLLVMKH  246 (611)
+Q Consensus       213 siavlgvaagailgwpfsaalglpiafdllvmkh  246 (611)
+                       ....|++.|..+..-..+..-+|..+=.+..+.
+T Consensus       237 -~~la~~~~~la~~~K~~~l~~~p~~~~~ll~~~  269 (562)
+T 6SNI_X          237 -YAMAAVCFVLSICFKQMALYYAPIFFAYLLSRS  269 (562)
+T ss_dssp             -HHHHHHHHHHHHTTCGGGTTSHHHHHHHHHCCC
+T ss_pred             -ccHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHh
+Confidence             344455555555544444444554444444443
+
+
+No 11
+>6P25_B Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunits (E.C.2.4.99.18); complex, TRANSFERASE, glycosylation; HET: NAG, NNM, CPL; 3.2A {Saccharomyces cerevisiae W303}
+Probab=94.88  E-value=3  Score=43.46  Aligned_cols=65  Identities=15%  Similarity=0.158  Sum_probs=40.1  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHh-CCcHHHHHHHHHHHHHHHHHhhhccCcHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  140 YFLRCLLAFVSCICELYFYKAVCKKF-GLHVSRMMLAFLVLSTGMFCSSSAFLPSSFCMYTTLIAM  204 (611)
+Q Consensus       140 yflrcllafvscicelyfykavckkf-glhvsrmmlaflvlstgmfcsssaflpssfcmyttliam  204 (611)
+                      ..+|.+-++.++++-+..|....+-+ +-.++-...+++.++..+...+....+.++.+...++++
+T Consensus       149 ~~~rl~~~l~~~l~~~l~y~l~r~l~~~~~~alla~ll~~~~p~~~~~s~~~~~d~l~~~f~~l~l  214 (759)
+T 6P25_B          149 VKMRLFNASFSALCVPLAYFTAKAIGFSLPTVWLMTVLVLFENSYSTLGRFILLDSMLLFFTVASF  214 (759)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSCCCTHHHHHHHHHHHSCHHHHHHTSSSCSHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHhHHHHHHHHHhHHHHHHHHHHHHH
+Confidence            34577777777777777777666655 555555555555555666666666677776665555444
+
+
+No 12
+>6P25_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunits (E.C.2.4.99.18); complex, TRANSFERASE, glycosylation; HET: NAG, NNM, CPL; 3.2A {Saccharomyces cerevisiae W303}
+Probab=93.62  E-value=5.6  Score=43.89  Aligned_cols=129  Identities=19%  Similarity=0.169  Sum_probs=66.9  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHh-CCcHHHHHHHHHHHHHHHHHhhhccCcHHHHHHHHHHHHHhhc---CC-----
+Q sp|Q9H6U8|ALG9  140 YFLRCLLAFVSCICELYFYKAVCKKF-GLHVSRMMLAFLVLSTGMFCSSSAFLPSSFCMYTTLIAMTGWY---MD-----  210 (611)
+Q Consensus       140 yflrcllafvscicelyfykavckkf-glhvsrmmlaflvlstgmfcsssaflpssfcmyttliamtgwy---md-----  210 (611)
+                      ..+|.+-++.++++-..+|....+-+ +-.++-+..+++.++...+-.|...++.++.+...++++-.+.   ..     
+T Consensus       135 ~~~Rl~sal~g~ltv~l~y~i~r~l~~~~~~AllaalL~a~~p~~i~~sr~~~~D~~~lff~~lal~~~~~~~~~~~~~~  214 (817)
+T 6P25_A          135 VLMRFFSASLGALTVILMYMTLRYSGVRMWVALMSAICFAVENSYVTISRYILLDAPLMFFIAAAVYSFKKYEMYPANSL  214 (817)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHSCHHHHHHHHSSCSHHHHHHHHHHHHHHHHHHHTSCSSSH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHhHHHHHHHhhHhcHHHHHHHHHHHHHHHHHHHhCCCCCh
+Confidence            46788888888888888887665555 3334444444444445555555666666655554444433322   11     
+
+
+Q ss_pred             --HHHHHHHHHHHHHHH-----hhHHHHHHHHHHHHHHHHhc----cchHH-HHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  211 --KTSIAVLGVAAGAIL-----GWPFSAALGLPIAFDLLVMK----HRWKS-FFHWSLMALILFLVPVVV  268 (611)
+Q Consensus       211 --ktsiavlgvaagail-----gwpfsaalglpiafdllvmk----hrwks-ffhwslmalilflvpvvv  268 (611)
+                        .......|+++|..+     |..+.+.+++-+.+.+...+    .+++. +.++...++++.++|+++
+T Consensus       215 ~~~~~l~l~Gl~lGLa~~tK~~gl~~~~~l~l~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~ll~ip~~i  284 (817)
+T 6P25_A          215 NAYKSLLATGIALGMASSSKWVGLFTVTWVGLLCIWRLWFMIGDLTKSSKSIFKVAFAKLAFLLGVPFAL  284 (817)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHHHHHHHHHHCSSSCHHHHHHHHHHHHCCCCCHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcchhHHHHHHHHHHHHHHHHHHHHhCCCCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence              123455666666543     33444445555555444332    12222 234444444444455443
+
+
+No 13
+>6P2R_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunits (E.C.2.4.99.18); complex, TRANSFERASE, glycosylation; HET: NAG, NNM, CPL;{Saccharomyces cerevisiae W303}
+Probab=93.62  E-value=5.6  Score=43.89  Aligned_cols=129  Identities=19%  Similarity=0.169  Sum_probs=66.9  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHh-CCcHHHHHHHHHHHHHHHHHhhhccCcHHHHHHHHHHHHHhhc---CC-----
+Q sp|Q9H6U8|ALG9  140 YFLRCLLAFVSCICELYFYKAVCKKF-GLHVSRMMLAFLVLSTGMFCSSSAFLPSSFCMYTTLIAMTGWY---MD-----  210 (611)
+Q Consensus       140 yflrcllafvscicelyfykavckkf-glhvsrmmlaflvlstgmfcsssaflpssfcmyttliamtgwy---md-----  210 (611)
+                      ..+|.+-++.++++-..+|....+-+ +-.++-+..+++.++...+-.|...++.++.+...++++-.+.   ..     
+T Consensus       135 ~~~Rl~sal~g~ltv~l~y~i~r~l~~~~~~AllaalL~a~~p~~i~~sr~~~~D~~~lff~~lal~~~~~~~~~~~~~~  214 (817)
+T 6P2R_A          135 VLMRFFSASLGALTVILMYMTLRYSGVRMWVALMSAICFAVENSYVTISRYILLDAPLMFFIAAAVYSFKKYEMYPANSL  214 (817)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHSCHHHHHHHHSSCSHHHHHHHHHHHHHHHHHHHTSCSSSH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHhHHHHHHHhhHhcHHHHHHHHHHHHHHHHHHHhCCCCCh
+Confidence            46788888888888888887665554 3334444444444445555556666666655554444433322   11     
+
+
+Q ss_pred             --HHHHHHHHHHHHHHH-----hhHHHHHHHHHHHHHHHHhc----cchHH-HHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  211 --KTSIAVLGVAAGAIL-----GWPFSAALGLPIAFDLLVMK----HRWKS-FFHWSLMALILFLVPVVV  268 (611)
+Q Consensus       211 --ktsiavlgvaagail-----gwpfsaalglpiafdllvmk----hrwks-ffhwslmalilflvpvvv  268 (611)
+                        .......|+++|..+     |..+.+.+++-+.+.+...+    .+++. +.++...++++.++|+++
+T Consensus       215 ~~~~~l~l~Gl~lGLa~~tK~~gl~~~~~l~l~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~ll~ip~~i  284 (817)
+T 6P2R_A          215 NAYKSLLATGIALGMASSSKWVGLFTVTWVGLLCIWRLWFMIGDLTKSSKSIFKVAFAKLAFLLGVPFAL  284 (817)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTCTTHHHHHHHHHHHHHHHHHHHHHCSSSCHHHHHHHHHHHHCCCCCHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcchhHHHHHHHHHHHHHHHHHHHHhCCCCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence              123455666666543     33444445555555444332    12222 234444444444455443
+
+
+No 14
+>7BVF_A Probable arabinosyltransferase B (E.C.2.4.2.-), Probable; Mycobacterium tuberculosis, cell wall synthesis; HET: CDL, DSL, 95E;{Mycolicibacterium smegmatis MC2 155}
+Probab=78.48  E-value=2.5e+02  Score=34.14  Aligned_cols=40  Identities=18%  Similarity=0.228  Sum_probs=24.5  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  348 WLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVAL  387 (611)
+Q Consensus       348 wltlapmyiwfiiffiqphkeerflfpvypliclcgaval  387 (611)
+                      +..++-..+-++++.+.|.|-.+.++.+.++.+++.|++.
+T Consensus       558 ~~ll~~~~l~l~ll~~tP~kw~~Hf~~la~~~~~llA~~~  597 (1102)
+T 7BVF_A          558 WRLIGTTAVGLLLLTFTPTKWAVQFGAFAGLAGVLGAVTA  597 (1102)
+T ss_pred             HHHHHHHHHHHHHHHcCCcccchhHHHHHHHHHHHHHHHH
+Confidence            3334444455566677898887777766666555555443
+
+
+No 15
+>7BVE_A Integral membrane indolylacetylinositol arabinosyltransferase EmbC; Mycobacterium smegmatis, cell wall synthesis; HET: PN7, PO4, 95E; 2.81A {Mycolicibacterium smegmatis MC2 155}
+Probab=77.70  E-value=2.6e+02  Score=33.98  Aligned_cols=43  Identities=21%  Similarity=0.170  Sum_probs=30.7  Template_Neff=6.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  346 PYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVALS  388 (611)
+Q Consensus       346 pywltlapmyiwfiiffiqphkeerflfpvypliclcgavals  388 (611)
+                      +.+..++...+.++...++|.|-.+.++..-|..+++.++++.
+T Consensus       550 ~~~~ll~~~~~~ll~l~~tptkw~~Hf~~la~~~all~a~~~~  592 (1084)
+T 7BVE_A          550 PSRRIIGITIISFLAMMFTPTKWTHHFGVFAGLAGCLGALAAV  592 (1084)
+T ss_dssp             HHHHHHHHHHHHHHHGGGCSSCCSGGGGGGTTHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHcCCccchhhhHHHHHHHHHHHHHHHH
+Confidence            4455556666677778889999999887777777666666544
+
+
+No 16
+>7BWR_A Integral membrane indolylacetylinositol arabinosyltransferase EmbB; Mycobacterium tuberculosis, EmbB, cryo-EM, ethambutol; HET: F8L;{Mycolicibacterium smegmatis MC2 155}
+Probab=75.92  E-value=2.9e+02  Score=33.65  Aligned_cols=41  Identities=15%  Similarity=0.208  Sum_probs=24.2  Template_Neff=6.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  346 PYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVA  386 (611)
+Q Consensus       346 pywltlapmyiwfiiffiqphkeerflfpvypliclcgava  386 (611)
+                      +.+..++-..+-++++.++|.|-......+-++..+..+++
+T Consensus       556 ~~~~ll~~~~~~ll~l~~tPtKw~hHf~~lag~~aalaA~~  596 (1082)
+T 7BWR_A          556 PAWRLMGIIFATMFFLMFTPTKWIHHFGLFAAVGGAMAALA  596 (1082)
+T ss_dssp             HHHHHHHHHHHHHHHTBTTTBCCCCCTTGGGSHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHhcCCcchhHHHHHHHHHHHHHHHHH
+Confidence            44555555666677777889886665555444444444433
+
+
+No 17
+>6X0O_A Integral membrane indolylacetylinositol arabinosyltransferase EmbB; Glycosyltransferase, membrane protein, nanodisc; HET: LHG; 3.3A {Mycolicibacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=70.98  E-value=3.8e+02  Score=32.80  Aligned_cols=40  Identities=13%  Similarity=0.193  Sum_probs=24.9  Template_Neff=6.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  346 PYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAV  385 (611)
+Q Consensus       346 pywltlapmyiwfiiffiqphkeerflfpvypliclcgav  385 (611)
+                      +.+..++-..+-++++.+.|.|--.....+-++..+..++
+T Consensus       556 ~~~~lla~~~l~ll~l~~tPtKw~hHf~~lag~~aal~A~  595 (1098)
+T 6X0O_A          556 PAWRLMGIIFATMFFLMFTPTKWIHHFGLFAAVGGAMAAL  595 (1098)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSSSCTTTSCGGGSHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHhcCCcchhHHHHHHHHHHHHHHHH
+Confidence            4455556666777888889988665555554544444443
+
+
+No 18
+>7D3E_A Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.8A {Homo sapiens}
+Probab=57.15  E-value=6.5e+02  Score=30.64  Aligned_cols=11  Identities=45%  Similarity=0.434  Sum_probs=5.7  Template_Neff=9.000
+
+Q ss_pred             HHHHHhccchH
+Q sp|Q9H6U8|ALG9  239 FDLLVMKHRWK  249 (611)
+Q Consensus       239 fdllvmkhrwk  249 (611)
+                      ||-.+.-|||-
+T Consensus      1123 ~d~~~~~Hr~~ 1133 (1551)
+T 7D3E_A         1123 FDAAVDFHRLI 1133 (1551)
+T ss_dssp             GGGHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            45555555553
+
+
+No 19
+>7D3F_C Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.3A {Homo sapiens}
+Probab=57.15  E-value=6.5e+02  Score=30.64  Aligned_cols=11  Identities=45%  Similarity=0.434  Sum_probs=5.8  Template_Neff=9.000
+
+Q ss_pred             HHHHHhccchH
+Q sp|Q9H6U8|ALG9  239 FDLLVMKHRWK  249 (611)
+Q Consensus       239 fdllvmkhrwk  249 (611)
+                      ||-.+.-|||-
+T Consensus      1123 ~d~~~~~Hr~~ 1133 (1551)
+T 7D3F_C         1123 FDAAVDFHRLI 1133 (1551)
+T ss_dssp             GGGHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            45555555553
+
+
+No 20
+>7MTR_A Metabotropic Glutamate Receptor 2 (mGlu2); HET: ZQY, NAG, GLU; 3.3A {Homo sapiens}
+Probab=56.79  E-value=3.5e+02  Score=27.45  Aligned_cols=23  Identities=9%  Similarity=0.329  Sum_probs=11.9  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHcCcccCCChHHHHH
+Q sp|Q9H6U8|ALG9  328 TSLMEYLLQRFHVQNLGHPYWLTL  351 (611)
+Q Consensus       328 tslmeyllqrfhvqnlghpywltl  351 (611)
+                      ..++.+...+.. .+....-|+.+
+T Consensus       725 ~~~~a~~~r~~~-~~~~Es~~i~~  747 (855)
+T 7MTR_A          725 CTLYAFKTRKCP-ENFNEAKFIGF  747 (855)
+T ss_dssp             HHHHHHHTCSCC-SSTTTTHHHHH
+T ss_pred             HHHHHHhcCCCc-cccchhHHHHH
+Confidence            344455544444 55666656543
+
+
+No 21
+>6N4X_A Metabotropic glutamate receptor 5; Cell Surface Receptor, MEMBRANE PROTEIN; HET: NAG; 4.0A {Homo sapiens}
+Probab=55.66  E-value=3.8e+02  Score=27.53  Aligned_cols=16  Identities=19%  Similarity=0.175  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHHHHHhhcc
+Q sp|Q9H6U8|ALG9  387 LSALQKCYHFVFQRYR  402 (611)
+Q Consensus       387 lsalqkcyhfvfqryr  402 (611)
+                      +--+-|+|+.++++-+
+T Consensus       822 ~~f~pk~~~~~~~~~~  837 (877)
+T 6N4X_A          822 CMFVPKVYIILAKPER  837 (877)
+T ss_dssp             ----------------
+T ss_pred             HHHHhcEEEEEeecCC
+Confidence            3445677776665444
+
+
+No 22
+>6W2X_B Gamma-aminobutyric acid type B receptor; Inhibitor, Heterodimer, GPCR, SIGNALING PROTEIN; HET: SGG, NAG, L9Q; 3.6A {Homo sapiens}
+Probab=54.35  E-value=4.6e+02  Score=28.05  Aligned_cols=25  Identities=4%  Similarity=0.280  Sum_probs=14.5  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHcCcccCCChHHHHHH
+Q sp|Q9H6U8|ALG9  328 TSLMEYLLQRFHVQNLGHPYWLTLA  352 (611)
+Q Consensus       328 tslmeyllqrfhvqnlghpywltla  352 (611)
+                      ...+.|..++..+.+....-|++++
+T Consensus       638 ~~~la~~~r~~~~~~~~esk~i~~~  662 (908)
+T 6W2X_B          638 GCFLAWETRNVSIPALNDSKYIGMS  662 (908)
+T ss_dssp             HHHHHHHTSSCCCSSCCCHHHHHHH
+T ss_pred             HHHHHHHhcCCCChhhchhHHHHHH
+Confidence            3455555555544566677777654
+
+
+No 23
+>6S7T_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: NAG, 0K3, BMA, EGY, KZB, MAN; 3.5A {Homo sapiens}
+Probab=52.51  E-value=4.8e+02  Score=27.74  Aligned_cols=18  Identities=28%  Similarity=0.325  Sum_probs=8.9  Template_Neff=10.700
+
+Q ss_pred             CCCCCCccCCCC-chHHHH
+Q sp|Q9H6U8|ALG9  290 FTPHGPDLYGTE-PWYFYL  307 (611)
+Q Consensus       290 ftphgpdlygte-pwyfyl  307 (611)
+                      +.|+|.+..++. |.+.++
+T Consensus       131 ~~p~g~~~~~~~~p~~~~l  149 (826)
+T 6S7T_A          131 WYPLGRIVGGTVYPGLMIT  149 (826)
+T ss_dssp             STTTCEESTTSSCTTHHHH
+T ss_pred             cCCCCCCCCCCcChHHHHH
+Confidence            346665555444 444433
+
+
+No 24
+>7BVF_B Probable arabinosyltransferase B (E.C.2.4.2.-), Probable; Mycobacterium tuberculosis, cell wall synthesis; HET: CDL, DSL, 95E;{Mycolicibacterium smegmatis MC2 155}
+Probab=52.33  E-value=8.2e+02  Score=30.41  Aligned_cols=42  Identities=12%  Similarity=0.181  Sum_probs=25.5  Template_Neff=6.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  346 PYWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLCGAVAL  387 (611)
+Q Consensus       346 pywltlapmyiwfiiffiqphkeerflfpvypliclcgaval  387 (611)
+                      +-+..++-+.+-++.+.++|.|-...+-.+.|+..+..+++.
+T Consensus       570 ~~~~ll~~~~~~lv~l~~tPtkw~hHfg~la~~~a~laA~~~  611 (1116)
+T 7BVF_B          570 PAWRLMGVIFGTMFFLMFTPTKWVHHFGLFAAVGAAMAALTT  611 (1116)
+T ss_pred             hHHHHHHHHHHHHHHHhhCcchHHHHHHHHHHHHHHHHHHHH
+Confidence            334444455566677778988877666556665555544443
+
+
+No 25
+>6UO8_B Gamma-aminobutyric acid type B receptor; G protein-coupled receptor, GABA, GABAB; HET: BMA, NAG, QDA;{Homo sapiens}
+Probab=51.86  E-value=4.3e+02  Score=27.02  Aligned_cols=26  Identities=4%  Similarity=0.295  Sum_probs=15.1  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHHHHcCcccCCChHHHHHH
+Q sp|Q9H6U8|ALG9  327 LTSLMEYLLQRFHVQNLGHPYWLTLA  352 (611)
+Q Consensus       327 ltslmeyllqrfhvqnlghpywltla  352 (611)
+                      +...+.|..++....+.....++.++
+T Consensus       630 ~~~~~a~~~r~~~~~~fnE~~~i~~~  655 (779)
+T 6UO8_B          630 FGCFLAWETRNVSIPALNDSKYIGMS  655 (779)
+T ss_dssp             HHHHHHHHHHTSCCCTTSCSSHHHHH
+T ss_pred             HHHHHHHHHcCCCCcccccchhHHHH
+Confidence            34456666666654566666666443
+
+
+No 26
+>4AIN_A GLYCINE BETAINE TRANSPORTER BETP; MEMBRANE PROTEIN, CHEMOSENSOR AND OSMOSENSOR; HET: BET, CM5, FLC; 3.1A {CORYNEBACTERIUM GLUTAMICUM}
+Probab=48.88  E-value=3.2e+02  Score=30.74  Aligned_cols=81  Identities=19%  Similarity=0.263  Sum_probs=49.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhcchhccchchhhhHHHHhccCCCCCCccCCCCchHHHHHHhhhhHHH----HHHHHHHH
+Q sp|Q9H6U8|ALG9  249 KSFFHWSLMALILFLVPVVVIDSYYYGKLVIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNFNV----AFALALLV  324 (611)
+Q Consensus       249 ksffhwslmalilflvpvvvidsyyygklviaplnivlynvftphgpdlygtepwyfylingflnfnv----afalallv  324 (611)
+                      -++|||.+.+-..+.++-+.+--.+|-|-.-..+.-.+|.++..+     ..+.|--.+++.+.-+-.    |-.+++.+
+T Consensus       144 ~t~fHWG~~~Wa~Y~v~~l~~ay~~y~~~~~~~~ss~l~pl~g~~-----~~~g~~g~iid~~~i~~~~~g~atslglg~  218 (539)
+T 4AIN_A          144 TTMFHWTLHPWAIYAIVGLAIAYSTFRVGRKQLLSSAFVPLIGEK-----GAEGWLGKLIDILAIIATVFGTACSLGLGA  218 (539)
+T ss_dssp             HHHHHHSHHHHHHHHHHHHHHHCCCCCTCCCSCTTGGGHHHHHHH-----HTTSHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhhccchHHHHHHHHHHHHHHHHHhcCCCCcccchhhHHHhCCC-----CCcchHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            378999999999998888777544443333333444555554311     024555666776655544    44455566
+
+
+Q ss_pred             HHHHHHHHHH
+Q sp|Q9H6U8|ALG9  325 LPLTSLMEYL  334 (611)
+Q Consensus       325 lpltslmeyl  334 (611)
+                      .-+++.++++
+T Consensus       219 ~~i~~gl~~~  228 (539)
+T 4AIN_A          219 LQIGAGLSAA  228 (539)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHc
+Confidence            6666777776
+
+
+No 27
+>7W72_U glycosylphosphatidylinositol, transamidase, MEMBRANE PROTEIN; HET: BMA, NAG, 8JY;{Homo sapiens}
+Probab=48.02  E-value=4.8e+02  Score=26.40  Aligned_cols=10  Identities=10%  Similarity=0.252  Sum_probs=6.9  Template_Neff=9.400
+
+Q ss_pred             cccCCCHHHH
+Q sp|Q9H6U8|ALG9  101 QTWEYSPAYA  110 (611)
+Q Consensus       101 qtweyspaya  110 (611)
+                      ..++|.|.+.
+T Consensus        61 ~~~~YpPl~~   70 (420)
+T 7W72_U           61 AVFHETPLII   70 (420)
+T ss_dssp             SSCCCCHHHH
+T ss_pred             CcccCCHHHH
+Confidence            4578888654
+
+
+No 28
+>2WIT_C GLYCINE BETAINE TRANSPORTER BETP; MEMBRANE PROTEIN, CHEMOSENSOR AND OSMOSENSOR; HET: BET, MSE; 3.35A {CORYNEBACTERIUM GLUTAMICUM}
+Probab=45.88  E-value=3.3e+02  Score=30.96  Aligned_cols=106  Identities=16%  Similarity=0.281  Sum_probs=57.4  Template_Neff=6.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhcchhccchchhhhHHHHhccCCCCCCccCCCCchHHHHHHhhhhHHHHHHHH----HHH
+Q sp|Q9H6U8|ALG9  249 KSFFHWSLMALILFLVPVVVIDSYYYGKLVIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNFNVAFALA----LLV  324 (611)
+Q Consensus       249 ksffhwslmalilflvpvvvidsyyygklviaplnivlynvftphgpdlygtepwyfylingflnfnvafala----llv  324 (611)
+                      .++|||.+.+-..+.++-+.+--.+|-|-.-.-+.-.+|.++..+.     .+.|--.++|.+.-+-..++++    +.+
+T Consensus       155 ~~~fHWG~~~Wa~Y~v~~~~~ay~~y~~~~p~~~ss~l~pllg~k~-----~~g~~g~iiD~~~i~~t~~g~atslglg~  229 (566)
+T 2WIT_C          155 TTMFHWTLHPWAIYAIVGLAIAYSTFRVGRKQLLSSAFVPLIGEKG-----AEGWLGKLIDILAIIATVFGTACSLGLGA  229 (566)
+T ss_dssp             HHHHHHSHHHHHHHHHHHHHHHHHTTTSCCCSSGGGGGTTTSCTTT-----CCSSSSHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhhccchHHHHHHHHHHHHHHHHHhcCCCCcccchhhHHHhCCCc-----ccccHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4789999999988888777765444433222344555666654321     2445556677766655544444    334
+
+
+Q ss_pred             HHHHHHHHHHHHHcCcccCCChHHHHHHHHHHHHHHHHhC
+Q sp|Q9H6U8|ALG9  325 LPLTSLMEYLLQRFHVQNLGHPYWLTLAPMYIWFIIFFIQ  364 (611)
+Q Consensus       325 lpltslmeyllqrfhvqnlghpywltlapmyiwfiiffiq  364 (611)
+                      .-+++.++++ .  ++++-  ..++..+-..++.+++.+.
+T Consensus       230 ~~i~~gl~~l-g--~i~~~--~~~~~~~ii~~i~~~~~~S  264 (566)
+T 2WIT_C          230 LQIGAGLSAA-N--IIEDP--SDWTIVGIVSVLTLAFIFS  264 (566)
+T ss_dssp             HHHHHHHTTT-S--CCC----CCHHHHHHHHHHHHHTTGG
+T ss_pred             HHHHHHHHHc-c--CCCCC--ChhHHHHHHHHHHHHHHHH
+Confidence            4444444433 1  12221  3455555555565555443
+
+
+No 29
+>4C7R_A GLYCINE BETAINE TRANSPORTER BETP; MEMBRANE PROTEIN, CHEMOSENSOR AND OSMOSENSOR; HET: PGT, CM5, FLC; 2.7A {CORYNEBACTERIUM GLUTAMICUM}
+Probab=45.88  E-value=3.3e+02  Score=30.96  Aligned_cols=109  Identities=15%  Similarity=0.202  Sum_probs=59.5  Template_Neff=6.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhcchhccchchhhhHHHHhccCCCCCCccCCCCchHHHHHHhhhhHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  249 KSFFHWSLMALILFLVPVVVIDSYYYGKLVIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNFNVAFALALLVLPLT  328 (611)
+Q Consensus       249 ksffhwslmalilflvpvvvidsyyygklviaplnivlynvftphgpdlygtepwyfylingflnfnvafalallvlplt  328 (611)
+                      .++|||.+.+-..+.++-+.+--.+|-|-.-.-+.-.+|.++..+     ..+.|--.++|.+.-+-..++++..+---+
+T Consensus       155 ~~~fHWG~~~Wa~Y~v~~~~~ay~~y~~~~p~~~ss~l~pllg~k-----~~~g~~g~iiD~~~i~~t~~g~atslglg~  229 (566)
+T 4C7R_A          155 TTMFHWTLHPWAIYAIVGLAIAYSTFRVGRKQLLSSAFVPLIGEK-----GAEGWLGKLIDILAIIATVFGTACSLGLGA  229 (566)
+T ss_dssp             HHHHHHSHHHHHHHHHHHHHHHCCCCCTCCCSSHHHHTHHHHCHH-----HHHSHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhhccchHHHHHHHHHHHHHHHHHhcCCCCcccchhhHHHhCCC-----cccccHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            479999999999988887776544443322234445556554321     024566667777766655554443322222
+
+
+Q ss_pred             HHHHHHHHHcCcccCCC-hHHHHHHHHHHHHHHHHhC
+Q sp|Q9H6U8|ALG9  329 SLMEYLLQRFHVQNLGH-PYWLTLAPMYIWFIIFFIQ  364 (611)
+Q Consensus       329 slmeyllqrfhvqnlgh-pywltlapmyiwfiiffiq  364 (611)
+                      ..+...+....  ...+ ..++..+-..++.+++.+.
+T Consensus       230 ~~i~~gl~~lg--~i~~~~~~~~~~ii~~i~~~~~~S  264 (566)
+T 4C7R_A          230 LQIGAGLSAAN--IIEDPSDWTIVGIVSVLTLAFIFS  264 (566)
+T ss_dssp             HHHHHHHTTTT--SCCCCSHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHcc--CCCCCChhHHHHHHHHHHHHHHHH
+Confidence            22223333221  1333 4566666666777666654
+
+
+No 30
+>5GKO_A Macrolide export ATP-binding/permease protein MacB; Multi-drug, efflux transporter, ABC transporter; HET: MSE; 3.393A {Acinetobacter baumannii}
+Probab=43.22  E-value=4e+02  Score=26.41  Aligned_cols=19  Identities=16%  Similarity=0.405  Sum_probs=10.0  Template_Neff=11.700
+
+Q ss_pred             HHHHHHHHHHHHhhHHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSAA  232 (611)
+Q Consensus       214 iavlgvaagailgwpfsaa  232 (611)
+                      ++++|.++|.++|+.++..
+T Consensus       601 ~~~~g~~lg~~l~~~~~~~  619 (671)
+T 5GKO_A          601 VCLIGGVLGVLLSLGLGQL  619 (671)
+T ss_dssp             HHHTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3455555565565554433
+
+
+No 31
+>5WS4_A Macrolide export ATP-binding/permease protein MacB; Multi-drug efflux transporter, ABC transporter; HET: AT4; 3.4A {Acinetobacter baumannii}
+Probab=43.22  E-value=4e+02  Score=26.41  Aligned_cols=19  Identities=16%  Similarity=0.405  Sum_probs=10.9  Template_Neff=11.700
+
+Q ss_pred             HHHHHHHHHHHHhhHHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSAA  232 (611)
+Q Consensus       214 iavlgvaagailgwpfsaa  232 (611)
+                      ++++|.++|.++|+.++..
+T Consensus       601 ~~~~g~~lg~~l~~~~~~~  619 (671)
+T 5WS4_A          601 VCLIGGVLGVLLSLGLGQL  619 (671)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            4555666666666655443
+
+
+No 32
+>6YMX_m Cytochrome c oxidase subunit 1; Complex, CIII, CIV, Supercomplex, ELECTRON; HET: 9PE, PCF, 6PH, HEM, PTY, HEA, UQ6, CN5, CN3, 7PH, 8PE; 3.17A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=36.92  E-value=71  Score=25.48  Aligned_cols=17  Identities=29%  Similarity=0.522  Sum_probs=12.5  Template_Neff=4.100
+
+Q ss_pred             HHHHHHHHHHHHhhHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFS  230 (611)
+Q Consensus       214 iavlgvaagailgwpfs  230 (611)
+                      |..-|...+.+|||||.
+T Consensus        15 i~~W~~fm~~~LgWP~~   31 (38)
+T 6YMX_m           15 IFQWSAVLSVCLGWPGA   31 (38)
+T ss_pred             HHHHHHHHHHHHhhHHH
+Confidence            34446677889999985
+
+
+No 33
+>6YMY_m Cytochrome c oxidase subunit 1; CIV, CytcO, ELECTRON TRANSPORT; HET: CN3, PTY, HEA, PCF; 3.41A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=36.92  E-value=71  Score=25.48  Aligned_cols=17  Identities=29%  Similarity=0.522  Sum_probs=12.5  Template_Neff=4.100
+
+Q ss_pred             HHHHHHHHHHHHhhHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFS  230 (611)
+Q Consensus       214 iavlgvaagailgwpfs  230 (611)
+                      |..-|...+.+|||||.
+T Consensus        15 i~~W~~fm~~~LgWP~~   31 (38)
+T 6YMY_m           15 IFQWSAVLSVCLGWPGA   31 (38)
+T ss_pred             HHHHHHHHHHHHhhHHH
+Confidence            34446677889999985
+
+
+No 34
+>6VN7_R Vasoactive intestinal polypeptide receptor 1; Vasoactive intestinal polypeptide receptor, VIP1R; HET: CLR, PLM; 3.2A {Homo sapiens}
+Probab=34.48  E-value=8.2e+02  Score=25.23  Aligned_cols=15  Identities=7%  Similarity=0.173  Sum_probs=8.7  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  384 AVALSALQKCYHFVF  398 (611)
+Q Consensus       384 avalsalqkcyhfvf  398 (611)
+                      ...+..+|-++.++.
+T Consensus       360 ~~~l~~~~g~~n~ii  374 (582)
+T 6VN7_R          360 ELVVGSFQGFVVAIL  374 (582)
+T ss_dssp             HHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            344556677766554
+
+
+No 35
+>6HU9_l Cytochrome b-c1 complex subunit 1; Cytochrome c oxidase Cytochrome bc1; HET: PCF, HEM, HEA, HEC, UQ6, PEF, CDL;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=34.03  E-value=77  Score=27.45  Aligned_cols=18  Identities=28%  Similarity=0.495  Sum_probs=13.4  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       214 iavlgvaagailgwpfsa  231 (611)
+                      |+.-|+..+++|||||..
+T Consensus        40 i~~W~~fm~~~LgWP~~i   57 (66)
+T 6HU9_l           40 IFQWSAVLSVCLGWPGAV   57 (66)
+T ss_pred             HHHHHHHHHHHHHhHHHH
+Confidence            455567788899999853
+
+
+No 36
+>6T0B_l Cytochrome b-c1 complex subunit 1; CYTOCHROME C OXIDASE CYTOCHROME BC1; HET: PCF, HEM, HEA, HEC, PEF, CDL; 2.8A {Saccharomyces cerevisiae S288c}
+Probab=34.03  E-value=77  Score=27.45  Aligned_cols=18  Identities=28%  Similarity=0.495  Sum_probs=13.4  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       214 iavlgvaagailgwpfsa  231 (611)
+                      |+.-|+..+++|||||..
+T Consensus        40 i~~W~~fm~~~LgWP~~i   57 (66)
+T 6T0B_l           40 IFQWSAVLSVCLGWPGAV   57 (66)
+T ss_pred             HHHHHHHHHHHHHhHHHH
+Confidence            455567788899999853
+
+
+No 37
+>7BVH_B Integral membrane indolylacetylinositol arabinosyltransferase EmbC; cell wall synthesis, arabinosyltransferase, drug; HET: BXY, BGC, PO4, GLC; 3.3A {Mycolicibacterium smegmatis MC2 155}
+Probab=33.15  E-value=1.6e+03  Score=28.16  Aligned_cols=36  Identities=14%  Similarity=0.031  Sum_probs=20.2  Template_Neff=6.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHH
+Q sp|Q9H6U8|ALG9  347 YWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLC  382 (611)
+Q Consensus       347 ywltlapmyiwfiiffiqphkeerflfpvypliclc  382 (611)
+                      -+..++-..+-+.....+|.|-.+.....-+...++
+T Consensus       564 ~~~ll~~~~~~l~~l~~tPtkw~hHfg~la~~~a~l  599 (1113)
+T 7BVH_B          564 SRRIIGITIISFLAMMFTPTKWTHHFGVFAGLAGCL  599 (1113)
+T ss_dssp             HHHHHHHHHHHHHHGGGCSSCCSGGGGGGHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhCCcccccchHHHHHHHHHH
+Confidence            344445555556667778888777444444433333
+
+
+No 38
+>7BVC_A Integral membrane indolylacetylinositol arabinosyltransferase EmbA; Mycobacterium smegmatis, cell wall synthesis; HET: 95E, F8L, CDL, PNS;{Mycolicibacterium smegmatis MC2 155}
+Probab=26.23  E-value=2e+03  Score=27.20  Aligned_cols=36  Identities=14%  Similarity=0.130  Sum_probs=19.4  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCccccCcccHHHHHHHH
+Q sp|Q9H6U8|ALG9  347 YWLTLAPMYIWFIIFFIQPHKEERFLFPVYPLICLC  382 (611)
+Q Consensus       347 ywltlapmyiwfiiffiqphkeerflfpvypliclc  382 (611)
+                      -+..++-..+-+..+..+|.|-.+....+-+...+.
+T Consensus       542 ~~~ll~~~~~~l~~l~~tptkw~hHfg~la~~~a~l  577 (1088)
+T 7BVC_A          542 LWRLCGSTAIGLLLLILTPTKWAIQFGAFAGLAGAL  577 (1088)
+T ss_dssp             HHHHHHHHHHHHHHTTSCSCCCSGGGGGGHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHCccccchhhHHHHHHHHHH
+Confidence            344444455555666678888776444444433333
+
+
+No 39
+>5NIK_K Outer membrane protein TolC, Macrolide; ABC transporter, drug efflux pump; 3.3A {Escherichia coli (strain K12)}
+Probab=25.14  E-value=1e+03  Score=23.44  Aligned_cols=20  Identities=25%  Similarity=0.380  Sum_probs=11.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHhhHHHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSAAL  233 (611)
+Q Consensus       214 iavlgvaagailgwpfsaal  233 (611)
+                      ++++|+++|.++|+.++..+
+T Consensus       579 ~~~~~~~~g~~l~~~~~~~~  598 (654)
+T 5NIK_K          579 VCLVGGALGITLSLLIAFTL  598 (654)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            44556666666666655444
+
+
+No 40
+>5NIL_J Outer membrane protein TolC, Macrolide; ABC transporter, drug efflux pump; 5.3A {Escherichia coli (strain K12)}
+Probab=25.14  E-value=1e+03  Score=23.44  Aligned_cols=20  Identities=25%  Similarity=0.380  Sum_probs=11.6  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHhhHHHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSAAL  233 (611)
+Q Consensus       214 iavlgvaagailgwpfsaal  233 (611)
+                      ++++|+++|.++|+.++..+
+T Consensus       579 ~~~~~~~~g~~l~~~~~~~~  598 (654)
+T 5NIL_J          579 VCLVGGALGITLSLLIAFTL  598 (654)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            44556666666666655443
+
+
+No 41
+>7ARL_E Lipoprotein-releasing ABC transporter permease subunit; LolCDE, lipoprotein, lipoprotein transporter, lipoprotein; HET: ADP, PLM, Z41; 3.2A {Escherichia coli K-12}
+Probab=24.97  E-value=7.7e+02  Score=21.85  Aligned_cols=20  Identities=30%  Similarity=0.484  Sum_probs=10.5  Template_Neff=12.700
+
+Q ss_pred             HHHHHHHHHHHHhhHHHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSAAL  233 (611)
+Q Consensus       214 iavlgvaagailgwpfsaal  233 (611)
+                      ++++|.++|.++|+.++..+
+T Consensus       326 ~~~~~~~~g~~~~~~~~~~~  345 (414)
+T 7ARL_E          326 AGLFGSLCGVIIGVVVSLQL  345 (414)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHHHHHHhch
+Confidence            34455555666665554433
+
+
+No 42
+>5LIL_A Macrolide export ATP-binding/permease protein MacB; Membrane Protein ABC Transporter, transport; HET: ATP; 3.35A {Aggregatibacter actinomycetemcomitans}
+Probab=23.65  E-value=1.1e+03  Score=23.58  Aligned_cols=18  Identities=28%  Similarity=0.455  Sum_probs=9.1  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       214 iavlgvaagailgwpfsa  231 (611)
+                      ++++|+++|.++|+.++.
+T Consensus       595 l~~~g~~lg~~lg~~~~~  612 (664)
+T 5LIL_A          595 ICLIGGVAGILLSVLIGV  612 (664)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            344555555555554443
+
+
+No 43
+>5LIL_B Macrolide export ATP-binding/permease protein MacB; Membrane Protein ABC Transporter, transport; HET: ATP; 3.35A {Aggregatibacter actinomycetemcomitans}
+Probab=23.65  E-value=1.1e+03  Score=23.58  Aligned_cols=18  Identities=28%  Similarity=0.455  Sum_probs=8.8  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       214 iavlgvaagailgwpfsa  231 (611)
+                      ++++|+++|.++|+.++.
+T Consensus       595 l~~~g~~lg~~lg~~~~~  612 (664)
+T 5LIL_B          595 ICLIGGVAGILLSVLIGV  612 (664)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            344455555555544443
+
+
+No 44
+>5LJ7_B MacB; Membrane Protein, ABC Transporter, transport; HET: ATP; 3.25A {Aggregatibacter actinomycetemcomitans}
+Probab=23.65  E-value=1.1e+03  Score=23.58  Aligned_cols=18  Identities=28%  Similarity=0.455  Sum_probs=8.9  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  214 IAVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       214 iavlgvaagailgwpfsa  231 (611)
+                      ++++|+++|.++|+.++.
+T Consensus       595 l~~~g~~lg~~lg~~~~~  612 (664)
+T 5LJ7_B          595 ICLIGGVAGILLSVLIGV  612 (664)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            344455555555544443
+
+
+No 45
+>4K0E_A Heavy metal cation tricomponent efflux; Structural Genomics, PSI-Biology, Center for; 3.713A {Cupriavidus metallidurans}
+Probab=23.57  E-value=1.5e+03  Score=24.63  Aligned_cols=40  Identities=8%  Similarity=-0.069  Sum_probs=22.9  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCcHHHHHHHHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  146 LAFVSCICELYFYKAVCKKFGLHVSRMMLAFLVLSTGMFC  185 (611)
+Q Consensus       146 lafvscicelyfykavckkfglhvsrmmlaflvlstgmfc  185 (611)
+                      +++++.++-+-.--+++.-+|....-+.+..+++..|+-+
+T Consensus       886 ~~~~~i~~~~~~~~g~~~l~g~~l~~~~~~~~~l~~G~~v  925 (1045)
+T 4K0E_A          886 LILMAVPLATLGGLVALHLRGMTLNVSSAVGFIALFGVAV  925 (1045)
+T ss_dssp             HHHTTHHHHHHHHHHHHHHTTCCBSHHHHHHHHHHHHHHH
+T ss_pred             HHHhHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHH
+Confidence            3334444444444555566777777666666666666543
+
+
+No 46
+>4K0E_C Heavy metal cation tricomponent efflux; Structural Genomics, PSI-Biology, Center for; 3.713A {Cupriavidus metallidurans}
+Probab=23.57  E-value=1.5e+03  Score=24.63  Aligned_cols=36  Identities=6%  Similarity=-0.169  Sum_probs=20.8  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHHHHhCCcHHHHHHHHHHHHHHHHHh
+Q sp|Q9H6U8|ALG9  151 CICELYFYKAVCKKFGLHVSRMMLAFLVLSTGMFCS  186 (611)
+Q Consensus       151 cicelyfykavckkfglhvsrmmlaflvlstgmfcs  186 (611)
+                      .++-+-.--+++.-+|....-+.+..+++..|+-+-
+T Consensus       891 i~~~~~~~~g~~~l~g~~l~~~~~~~~~l~~G~~vD  926 (1045)
+T 4K0E_C          891 VPLATLGGLVALHLRGMTLNVSSAVGFIALFGVAVL  926 (1045)
+T ss_dssp             HHHHHHHHHHHHHHHTCCBCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHHh
+Confidence            333333334455557777777766666766666443
+
+
+No 47
+>4K0J_C Heavy metal cation tricomponent efflux; Structural Genomics, PSI-Biology, Center for; 3.0A {Cupriavidus metallidurans}
+Probab=23.57  E-value=1.5e+03  Score=24.63  Aligned_cols=41  Identities=7%  Similarity=-0.084  Sum_probs=23.9  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCcHHHHHHHHHHHHHHHHHh
+Q sp|Q9H6U8|ALG9  146 LAFVSCICELYFYKAVCKKFGLHVSRMMLAFLVLSTGMFCS  186 (611)
+Q Consensus       146 lafvscicelyfykavckkfglhvsrmmlaflvlstgmfcs  186 (611)
+                      +++++.++-+-.--+++.-+|....-+.+..+++..|+-+-
+T Consensus       886 ~~~~~i~~~~~~~~g~~~l~g~~l~~~~~~~~~l~~G~~vD  926 (1045)
+T 4K0J_C          886 LILMAVPLATLGGLVALHLRGMTLNVSSAVGFIALFGVAVL  926 (1045)
+T ss_dssp             HHHTTHHHHHHHHHHHHHHHTCCCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHhHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHHh
+Confidence            33344444444444555667877777766667777666443
+
+
+No 48
+>2WSW_A BCCT FAMILY BETAINE/CARNITINE/CHOLINE TRANSPORTER; TRANSPORT PROTEIN, SD METHIONINE, MEMBRANE; HET: CM5, 1PE; 2.294A {PROTEUS MIRABILIS}
+Probab=23.51  E-value=6.3e+02  Score=28.38  Aligned_cols=81  Identities=15%  Similarity=0.293  Sum_probs=40.6  Template_Neff=6.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhcchhccch-chhhhHHHHhccCCCCCCccCCCCchHHHHHHhhhhH----HHHHHHHHH
+Q sp|Q9H6U8|ALG9  249 KSFFHWSLMALILFLVPVVVIDSYYYGKL-VIAPLNIVLYNVFTPHGPDLYGTEPWYFYLINGFLNF----NVAFALALL  323 (611)
+Q Consensus       249 ksffhwslmalilflvpvvvidsyyygkl-viaplnivlynvftphgpdlygtepwyfylingflnf----nvafalall  323 (611)
+                      -++|||.+.+-..+.++-+.+--.+|-|- -..-+.-.+|.++.++.     .+-|---+++.+.-+    .+|-.+++.
+T Consensus       142 ~~~fHWG~~~Wa~Y~~~~l~~ay~~y~~~~~~~~~ss~l~p~~g~~~-----~~g~~g~~iD~~~i~~~~~g~atslglg  216 (509)
+T 2WSW_A          142 YSLFHWGPLPWATYSFLSVAFAYFFFVRKMEVIRPSSTLVPLVGEKH-----VNGLFGTVVDNFYLVALILAMGTSLGLA  216 (509)
+T ss_dssp             HHHHHTSHHHHHTTHHHHHHHHHHHHTSCCCCCSGGGGCHHHHHHHH-----HHSHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhhccCchHHHHHHHHHHHHHHHHHhcCCCCCCcccccHHHhCccc-----ccCchHHHHhHHHHHHHHHHHHHHhHHh
+Confidence            47899999998888887776643333221 11112223333332110     112333444443333    344455555
+
+
+Q ss_pred             HHHHHHHHHHH
+Q sp|Q9H6U8|ALG9  324 VLPLTSLMEYL  334 (611)
+Q Consensus       324 vlpltslmeyl  334 (611)
+                      +.-+++.++++
+T Consensus       217 ~~~i~~gl~~l  227 (509)
+T 2WSW_A          217 TPLVTECIQYL  227 (509)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            66666666655
+
+
+No 49
+>4CAD_F ANTIBODY FAB FRAGMENT LIGHT CHAIN; PROTEIN BINDING, INTEGRAL MEMBRANE PROTEASE; HET: LMT, BOG; 2.5A {MUS MUSCULUS}
+Probab=23.47  E-value=8.6e+02  Score=21.88  Aligned_cols=15  Identities=13%  Similarity=0.200  Sum_probs=8.7  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHhCCCcccc
+Q sp|Q9H6U8|ALG9  356 IWFIIFFIQPHKEER  370 (611)
+Q Consensus       356 iwfiiffiqphkeer  370 (611)
+                      .+++..+++|--||-
+T Consensus       128 ~~~~~~i~~~~~EE~  142 (271)
+T 4CAD_F          128 PVLFLLLLAATFEEL  142 (271)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhhhhh
+Confidence            344555666766763
+
+
+No 50
+>4CAD_I ANTIBODY FAB FRAGMENT LIGHT CHAIN; PROTEIN BINDING, INTEGRAL MEMBRANE PROTEASE; HET: LMT, BOG; 2.5A {MUS MUSCULUS}
+Probab=23.47  E-value=8.6e+02  Score=21.88  Aligned_cols=15  Identities=13%  Similarity=0.200  Sum_probs=8.5  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHhCCCcccc
+Q sp|Q9H6U8|ALG9  356 IWFIIFFIQPHKEER  370 (611)
+Q Consensus       356 iwfiiffiqphkeer  370 (611)
+                      .+++..+++|--||-
+T Consensus       128 ~~~~~~i~~~~~EE~  142 (271)
+T 4CAD_I          128 PVLFLLLLAATFEEL  142 (271)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhhhhh
+Confidence            344455666666763
+
+
+No 51
+>7ARL_C Lipoprotein-releasing ABC transporter permease subunit; LolCDE, lipoprotein, lipoprotein transporter, lipoprotein; HET: ADP, PLM, Z41; 3.2A {Escherichia coli K-12}
+Probab=22.39  E-value=6.4e+02  Score=22.25  Aligned_cols=17  Identities=29%  Similarity=0.554  Sum_probs=8.5  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  215 AVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       215 avlgvaagailgwpfsa  231 (611)
+                      .++|.++|.++|+.++.
+T Consensus       322 ~~~~~~~g~~~~~~~~~  338 (399)
+T 7ARL_C          322 GIIGAILGAALGALLAS  338 (399)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            44455555555554443
+
+
+No 52
+>7MDY_A ATP binding cassette transporter, ABC; HET: AOV; 3.5A {Escherichia coli}
+Probab=22.39  E-value=6.4e+02  Score=22.25  Aligned_cols=17  Identities=29%  Similarity=0.554  Sum_probs=8.5  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHHHhhHHHH
+Q sp|Q9H6U8|ALG9  215 AVLGVAAGAILGWPFSA  231 (611)
+Q Consensus       215 avlgvaagailgwpfsa  231 (611)
+                      .++|.++|.++|+.++.
+T Consensus       322 ~~~~~~~g~~~~~~~~~  338 (399)
+T 7MDY_A          322 GIIGAILGAALGALLAS  338 (399)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            44455555555554443
+
+
+No 53
+>7DD5_B Calcium-Sensing Receptor; Calcium-Sensing Receptor, CaSR, NPS-2143, MEMBRANE; HET: NAG, TRP, YP1; 3.2A {Gallus gallus}
+Probab=22.33  E-value=1.7e+03  Score=24.78  Aligned_cols=15  Identities=27%  Similarity=0.459  Sum_probs=9.5  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHhhcc
+Q sp|Q9H6U8|ALG9  388 SALQKCYHFVFQRYR  402 (611)
+Q Consensus       388 salqkcyhfvfqryr  402 (611)
+                      --+-|+|...++..+
+T Consensus       851 lf~pk~~~i~~~~~~  865 (1069)
+T 7DD5_B          851 IFFNKVYIILFKPSR  865 (1069)
+T ss_dssp             HHHHHHHHHHHCCCC
+T ss_pred             HHHHcEEEEEecCCC
+Confidence            345678877776544
+
+
+No 54
+>7DD7_A Calcium-Sensing Receptor; CaSR, Calcium-Sensing Receptor, Evocalcet, MEMBRANE; HET: H43, NAG, TRP; 3.2A {Gallus gallus}
+Probab=22.33  E-value=1.7e+03  Score=24.78  Aligned_cols=15  Identities=27%  Similarity=0.459  Sum_probs=9.4  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHhhcc
+Q sp|Q9H6U8|ALG9  388 SALQKCYHFVFQRYR  402 (611)
+Q Consensus       388 salqkcyhfvfqryr  402 (611)
+                      --+-|+|...++..+
+T Consensus       851 lf~pk~~~i~~~~~~  865 (1069)
+T 7DD7_A          851 IFFNKVYIILFKPSR  865 (1069)
+T ss_dssp             HHHHHHHHHHHCCCC
+T ss_pred             HHHHcEEEEEecCCC
+Confidence            345677777766544
+
+
+No 55
+>7MDX_B ATP binding cassette transporter, ABC; HET: YPC, DAL; 3.8A {Escherichia coli}
+Probab=22.11  E-value=8.8e+02  Score=21.51  Aligned_cols=18  Identities=28%  Similarity=0.479  Sum_probs=9.1  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHHHhhHHHHH
+Q sp|Q9H6U8|ALG9  215 AVLGVAAGAILGWPFSAA  232 (611)
+Q Consensus       215 avlgvaagailgwpfsaa  232 (611)
+                      +++|.++|.++|+.++..
+T Consensus       322 ~~~~~~~g~~~~~~~~~~  339 (403)
+T 7MDX_B          322 GLFGSLCGVIIGVVVSLQ  339 (403)
+T ss_dssp             HHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHh
+Confidence            344555555555554433
+
+

@@ -1,0 +1,368 @@
+Query         tr|C9JPR9|C9JPR9_HUMAN
+Match_columns 142
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:42:21 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0454.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3E5U_B CprK, Halorespiration,   43.5 1.4E+02  0.0015   20.2   4.4   40   90-129   192-231 (250)
+  2 3E6C_C CprK, Halorespiration,   43.5 1.4E+02  0.0015   20.2   4.4   41   90-130   192-232 (250)
+  3 4E98_A CutA1 divalent ion tole  39.4 2.2E+02  0.0024   20.6   5.2   79   13-95     25-107 (138)
+  4 4E98_C CutA1 divalent ion tole  39.4 2.2E+02  0.0024   20.6   5.2   78   14-95     26-107 (138)
+  5 3GPG_B Crystal structure of ma  35.3 1.8E+02   0.002   18.1   3.7   33   24-56     71-108 (168)
+  6 6VUQ_C Nonstructural polyprote  35.3 1.8E+02   0.002   18.1   3.7   33   24-56     71-108 (168)
+  7 4EV0_D Transcription regulator  30.7 2.1E+02  0.0023   18.0   3.5   34   91-124   179-212 (216)
+  8 3DV8_A transcriptional regulat  30.5 2.1E+02  0.0022   18.2   3.5   35   90-124   184-218 (220)
+  9 2FFM_A SAV1430; alpha-beta pro  26.7 1.4E+02  0.0015   19.7   2.3   19   32-50     69-87  (91)
+ 10 2M6Q_A SAV1430; Structural Gen  26.7 1.4E+02  0.0015   19.7   2.3   18   32-49     69-86  (91)
+ 11 4C2V_D AURORA KINASE B-A (E.C.  26.1   1E+02  0.0011   18.5   1.6   18   31-49      2-19  (44)
+ 12 4C2W_C AURORA KINASE B-A (E.C.  25.9      88 0.00096   19.2   1.3   20   29-49      1-20  (52)
+ 13 4C2W_D AURORA KINASE B-A (E.C.  25.9      88 0.00096   19.2   1.3   20   29-49      1-20  (52)
+ 14 3OSM_A Probable serine/threoni  25.4 3.2E+02  0.0034   20.9   4.3   41   63-103    82-124 (128)
+ 15 3OST_A Probable serine/threoni  25.4 3.2E+02  0.0034   20.9   4.3   41   63-103    82-124 (128)
+ 16 2FN2_A FIBRONECTIN; GLYCOPROTE  22.9 1.1E+02  0.0012   15.7   1.1   11   70-80     10-20  (59)
+ 17 1O5L_A transcriptional regulat  22.5 1.8E+02   0.002   19.0   2.3   33   91-123   180-212 (213)
+ 18 2VGP_D SERINE/THREONINE-PROTEI  22.2 1.6E+02  0.0018   17.6   1.9   18   31-49      1-18  (43)
+ 19 2X7M_A ARCHAEMETZINCIN (E.C.3.  21.7   3E+02  0.0032   20.4   3.5   41   15-56     14-56  (195)
+ 20 6EXM_A Listeriolysin regulator  21.4 3.1E+02  0.0034   18.5   3.2   38   91-128   187-224 (239)
+ 21 5W5A_B HTH-type transcriptiona  21.3 3.3E+02  0.0036   18.2   3.3   33   91-123   213-245 (247)
+
+No 1
+>3E5U_B CprK, Halorespiration, transcriptional regulator, TRANSCRIPTION; HET: 3C4, PO4; 1.83A {Desulfitobacterium hafniense} SCOP: a.4.5.4, b.82.3.2
+Probab=43.45  E-value=1.4e+02  Score=20.23  Aligned_cols=40  Identities=15%  Similarity=0.139  Sum_probs=26.8  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHcCCcccCCcceeeehhhhHHHHHHhhcc
+Q tr|C9JPR9|C9JP   90 QTCISELRMLQREGCFRSQGASLRLAVEDGLQQFKQYSRH  129 (142)
+Q Consensus        90 qtciselrmlqregcfrsqgaslrlavedglqqfkqysrh  129 (142)
+                      ++.-..++.|.++|...-.+..+.+.-.+.|+++......
+T Consensus       192 ~~~~r~l~~l~~~g~i~~~~~~i~i~~~~~l~~~~~~~~~  231 (250)
+T 3E5U_B          192 VTVSRVLASLKRENILDKKKNKIIVYNLGELKHLSEQTSY  231 (250)
+T ss_dssp             HHHHHHHHHHHHTTSEEC----CEESCHHHHHHHTC----
+T ss_pred             HHHHHHHHHHHHCCCEEeeCCEEEEecHHHHHHHhhcCCC
+Confidence            4566778999999999999988999888888887654433
+
+
+No 2
+>3E6C_C CprK, Halorespiration, transcriptional regulator, TRANSCRIPTION; HET: 3C4; 1.8A {Desulfitobacterium hafniense} SCOP: a.4.5.4, b.82.3.2
+Probab=43.45  E-value=1.4e+02  Score=20.23  Aligned_cols=41  Identities=15%  Similarity=0.126  Sum_probs=32.8  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHcCCcccCCcceeeehhhhHHHHHHhhccc
+Q tr|C9JPR9|C9JP   90 QTCISELRMLQREGCFRSQGASLRLAVEDGLQQFKQYSRHV  130 (142)
+Q Consensus        90 qtciselrmlqregcfrsqgaslrlavedglqqfkqysrhv  130 (142)
+                      ++.-..++.|.++|...-.+..+.+.-.+.|+++.......
+T Consensus       192 ~~~~r~l~~l~~~g~i~~~~~~i~i~~~~~l~~~~~~~~~~  232 (250)
+T 3E6C_C          192 VTVSRVLASLKRENILDKKKNKIIVYNLGELKHLSEQTSYY  232 (250)
+T ss_dssp             HHHHHHHHHHHHTTSEEECSSEEEESCHHHHHHHHTSSCCC
+T ss_pred             HHHHHHHHHHHHCCCEEeeCCEEEEecHHHHHHHhhcCCCC
+Confidence            45667789999999999999899998888888877554433
+
+
+No 3
+>4E98_A CutA1 divalent ion tolerance protein; SSGCID, Structural Genomics, Seattle Structural; 2.0A {Cryptosporidium parvum}
+Probab=39.44  E-value=2.2e+02  Score=20.59  Aligned_cols=79  Identities=19%  Similarity=0.325  Sum_probs=45.3  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCEEEEEEEeCCChHHHHHHHHHHHHHHHHHHHHHhCCCceEEEEEEEeCC----CCeeEEEEEEEeCCHHH
+Q tr|C9JPR9|C9JP   13 THTQIDQQPPRLLIVHIALPSWADICTNLCEALQNFFSLACSLMGPSRMSLFSLYMVQD----QHECILPFVQVKGNFAR   88 (142)
+Q Consensus        13 thtqidqqpprllivhialpswadictnlcealqnffslacslmgpsrmslfslymvqd----qhecilpfvqvkgnfar   88 (142)
+                      ...........+.+|.+..|+-.+ ...+.++|-..--.+|....|.   .-|.|.-++    ..|..+-+.-....+..
+T Consensus        25 ~~~~~~~~~~~~~~v~it~p~~~~-A~~ia~~Ll~~~Laacv~i~~~---v~s~y~w~g~i~~~~E~~l~~kt~~~~~~~  100 (138)
+T 4E98_A           25 SNMTETKIESNIILIYISAPNQDE-ATSIAKTLVDEELCACVSIIPS---VRSIYKFKGQVHDENEVMLLVKTTSQLFTT  100 (138)
+T ss_dssp             ---CCCCSCCCEEEEEEEESSHHH-HHHHHHHHHHTTSCSEEEEEEE---EEEEEEETTEEEEEEEEEEEEEEEGGGHHH
+T ss_pred             ccccccccCCCeEEEEEEcCCHHH-HHHHHHHHHHcCCCeEEEEecc---eeEEEEECCcEEecEEEEEEEEEcHHHHHH
+Confidence            334556667778899999998544 4566665544322334433332   234454433    35677777666677777
+
+
+Q ss_pred             HHHHHHH
+Q tr|C9JPR9|C9JP   89 LQTCISE   95 (142)
+Q Consensus        89 lqtcise   95 (142)
+                      +...|.+
+T Consensus       101 i~~~I~~  107 (138)
+T 4E98_A          101 LKEKVTE  107 (138)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            7666654
+
+
+No 4
+>4E98_C CutA1 divalent ion tolerance protein; SSGCID, Structural Genomics, Seattle Structural; 2.0A {Cryptosporidium parvum}
+Probab=39.44  E-value=2.2e+02  Score=20.59  Aligned_cols=78  Identities=19%  Similarity=0.322  Sum_probs=41.3  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCEEEEEEEeCCChHHHHHHHHHHHHHHHHHHHHHhCCCceEEEEEEEeCC----CCeeEEEEEEEeCCHHHH
+Q tr|C9JPR9|C9JP   14 HTQIDQQPPRLLIVHIALPSWADICTNLCEALQNFFSLACSLMGPSRMSLFSLYMVQD----QHECILPFVQVKGNFARL   89 (142)
+Q Consensus        14 htqidqqpprllivhialpswadictnlcealqnffslacslmgpsrmslfslymvqd----qhecilpfvqvkgnfarl   89 (142)
+                      ..........+.+|.+..|+-.+ ...+.++|-..--.+|....|.   .-|.|.-++    ..|..+-+.-....+..+
+T Consensus        26 ~~~~~~~~~~~~~v~it~p~~~~-A~~ia~~Ll~~~Laacv~i~~~---v~s~y~w~g~i~~~~E~~l~~kt~~~~~~~i  101 (138)
+T 4E98_C           26 NMTETKIESNIILIYISAPNQDE-ATSIAKTLVDEELCACVSIIPS---VRSIYKFKGQVHDENEVMLLVKTTSQLFTTL  101 (138)
+T ss_dssp             --------CCEEEEEEEESSHHH-HHHHHHHHHHTTSCSEEEEEEE---EEEEEEETTEEEEEEEEEEEEEEEGGGHHHH
+T ss_pred             cccccccCCCeEEEEEEcCCHHH-HHHHHHHHHHcCCCeEEEEecc---eeEEEEECCcEEecEEEEEEEEEcHHHHHHH
+Confidence            33455666778889999998544 4566665544322334433332   234454433    356777776666777777
+
+
+Q ss_pred             HHHHHH
+Q tr|C9JPR9|C9JP   90 QTCISE   95 (142)
+Q Consensus        90 qtcise   95 (142)
+                      ...|.+
+T Consensus       102 ~~~I~~  107 (138)
+T 4E98_C          102 KEKVTE  107 (138)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            666654
+
+
+No 5
+>3GPG_B Crystal structure of macro domain; macro domain, X domain, Chikungunya; 1.65A {Chikungunya virus}
+Probab=35.28  E-value=1.8e+02  Score=18.11  Aligned_cols=33  Identities=15%  Similarity=0.179  Sum_probs=25.5  Template_Neff=12.200
+
+Q ss_pred             EEEEEEeCCChHH-----HHHHHHHHHHHHHHHHHHHh
+Q tr|C9JPR9|C9JP   24 LLIVHIALPSWAD-----ICTNLCEALQNFFSLACSLM   56 (142)
+Q Consensus        24 llivhialpswad-----ictnlcealqnffslacslm   56 (142)
+                      -.++|+..|.|.+     -..++.+++++.+..+-...
+T Consensus        71 ~~v~~~~~~~~~~~~~~~~~~~l~~~~~~~l~~~~~~~  108 (168)
+T 3GPG_B           71 YPVIHAVGPNFSNYSESEGDRELAAAYREVAKEVTRLG  108 (168)
+T ss_dssp             EEEEEECCCCTTTSCHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CeEEEeeCCCccCCChhHHHHHHHHHHHHHHHHHHHcC
+Confidence            3578999999866     35678899999988876653
+
+
+No 6
+>6VUQ_C Nonstructural polyprotein; nsP3, macrodomain, VIRAL PROTEIN; HET: APR; 1.64A {Chikungunya virus}
+Probab=35.25  E-value=1.8e+02  Score=18.10  Aligned_cols=33  Identities=15%  Similarity=0.179  Sum_probs=25.4  Template_Neff=12.200
+
+Q ss_pred             EEEEEEeCCChHH-----HHHHHHHHHHHHHHHHHHHh
+Q tr|C9JPR9|C9JP   24 LLIVHIALPSWAD-----ICTNLCEALQNFFSLACSLM   56 (142)
+Q Consensus        24 llivhialpswad-----ictnlcealqnffslacslm   56 (142)
+                      -.++|+..|.|.+     -..++.+++++.+..+-...
+T Consensus        71 ~~v~~~~~~~~~~~~~~~~~~~l~~~~~~~l~~~~~~~  108 (168)
+T 6VUQ_C           71 YPVIHAVGPNFSNYSESEGDRELAAAYREVAKEVTRLG  108 (168)
+T ss_dssp             EEEEEECCCCTTTSCHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             ceEEEeeCCCccCCChhHHHHHHHHHHHHHHHHHHHcC
+Confidence            3578999999866     35678899999988876653
+
+
+No 7
+>4EV0_D Transcription regulator, Crp family; cAMP binding, winged helix-turn-helix motif; HET: CMP, SO4; 2.402A {Thermus thermophilus}
+Probab=30.69  E-value=2.1e+02  Score=17.96  Aligned_cols=34  Identities=21%  Similarity=0.235  Sum_probs=27.9  Template_Neff=12.900
+
+Q ss_pred             HHHHHHHHHHHcCCcccCCcceeeehhhhHHHHH
+Q tr|C9JPR9|C9JP   91 TCISELRMLQREGCFRSQGASLRLAVEDGLQQFK  124 (142)
+Q Consensus        91 tciselrmlqregcfrsqgaslrlavedglqqfk  124 (142)
+                      +.-..++.|.++|..+..+..+.+--.+.|.++-
+T Consensus       179 ~~~r~~~~l~~~g~i~~~~~~i~i~~~~~l~~~~  212 (216)
+T 4EV0_D          179 TVSRVLHALAEEGVVRLGPGTVEVREAALLEEIA  212 (216)
+T ss_dssp             HHHHHHHHHHHTTSEEEETTEEEESCHHHHHHHH
+T ss_pred             HHHHHHHHHHHcCCEEEcCcEEEECCHHHHHHHH
+Confidence            4455678899999999999999998888887764
+
+
+No 8
+>3DV8_A transcriptional regulator, Crp/Fnr family; Cyclic nucleotide-binding domain, structural genomics; HET: MSE; 2.55A {Eubacterium rectale ATCC 33656}
+Probab=30.51  E-value=2.1e+02  Score=18.18  Aligned_cols=35  Identities=17%  Similarity=0.272  Sum_probs=28.4  Template_Neff=12.800
+
+Q ss_pred             HHHHHHHHHHHHcCCcccCCcceeeehhhhHHHHH
+Q tr|C9JPR9|C9JP   90 QTCISELRMLQREGCFRSQGASLRLAVEDGLQQFK  124 (142)
+Q Consensus        90 qtciselrmlqregcfrsqgaslrlavedglqqfk  124 (142)
+                      .+.-..++.|+++|..+..+..+.+-..+.|.++.
+T Consensus       184 ~~~~r~l~~l~~~g~i~~~~~~i~i~~~~~l~~~~  218 (220)
+T 3DV8_A          184 EVITRMLRYFQVEGLVKLSRGKITILDSKRLETLQ  218 (220)
+T ss_dssp             HHHHHHHHHHHHTTSEEEETTEEEESCHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCEEEcCCeEEEcChHHHHHHh
+Confidence            34556788899999999999999998888887764
+
+
+No 9
+>2FFM_A SAV1430; alpha-beta protein., Structural Genomics, PSI; HET: MSE; 2.51A {Staphylococcus aureus subsp. aureus Mu50} SCOP: d.267.1.1
+Probab=26.69  E-value=1.4e+02  Score=19.65  Aligned_cols=19  Identities=5%  Similarity=0.235  Sum_probs=13.7  Template_Neff=8.800
+
+Q ss_pred             CChHHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   32 PSWADICTNLCEALQNFFS   50 (142)
+Q Consensus        32 pswadictnlcealqnffs   50 (142)
+                      -+|.++-..+.+++.+||-
+T Consensus        69 ~~W~~l~~~v~~~i~~~~~   87 (91)
+T 2FFM_A           69 ANWETVLPKVEAVFELEHH   87 (91)
+T ss_dssp             CCHHHHHHHHHHTTC----
+T ss_pred             CCHHHHHHHHHHHHHHhhc
+Confidence            4899999999999999884
+
+
+No 10
+>2M6Q_A SAV1430; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Staphylococcus aureus subsp. aureus}
+Probab=26.69  E-value=1.4e+02  Score=19.65  Aligned_cols=18  Identities=6%  Similarity=0.252  Sum_probs=15.5  Template_Neff=8.800
+
+Q ss_pred             CChHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   32 PSWADICTNLCEALQNFF   49 (142)
+Q Consensus        32 pswadictnlcealqnff   49 (142)
+                      -+|.++-..+.+++.+||
+T Consensus        69 ~~W~~l~~~v~~~i~~~~   86 (91)
+T 2M6Q_A           69 ANWETVLPKVEAVFELEH   86 (91)
+T ss_dssp             CCHHHHHHHHHHHHSSCC
+T ss_pred             CCHHHHHHHHHHHHHHhh
+Confidence            489999999999998776
+
+
+No 11
+>4C2V_D AURORA KINASE B-A (E.C.2.7.11.1), INNER; TRANSFERASE-CELL CYCLE COMPLEX, AZD1152; HET: TPO, YJA; 1.49A {XENOPUS LAEVIS}
+Probab=26.06  E-value=1e+02  Score=18.50  Aligned_cols=18  Identities=28%  Similarity=0.726  Sum_probs=13.9  Template_Neff=7.600
+
+Q ss_pred             CCChHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   31 LPSWADICTNLCEALQNFF   49 (142)
+Q Consensus        31 lpswadictnlcealqnff   49 (142)
+                      +|+||. -.+|+++|..-.
+T Consensus         2 IP~WA~-g~~l~~~l~~Q~   19 (44)
+T 4C2V_D            2 IPAWAS-GNLLTQAIRQQY   19 (44)
+T ss_dssp             CCGGGS-HHHHHHHHHHHH
+T ss_pred             CChhhc-CHHHHHHHHHHH
+Confidence            589997 567888887654
+
+
+No 12
+>4C2W_C AURORA KINASE B-A (E.C.2.7.11.1), INNER; TRANSFERASE; HET: TPO, ANP; 1.7A {XENOPUS LAEVIS}
+Probab=25.92  E-value=88  Score=19.21  Aligned_cols=20  Identities=30%  Similarity=0.725  Sum_probs=14.0  Template_Neff=7.900
+
+Q ss_pred             EeCCChHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   29 IALPSWADICTNLCEALQNFF   49 (142)
+Q Consensus        29 ialpswadictnlcealqnff   49 (142)
+                      +..|+||. -.+|+++|....
+T Consensus         1 ~~IP~WA~-g~~l~~~l~~Q~   20 (52)
+T 4C2W_C            1 IPIPAWAS-GNLLTQAIRQQY   20 (52)
+T ss_dssp             --CCGGGS-HHHHHHHHHHHH
+T ss_pred             CCCChhhc-CHHHHHHHHHHh
+Confidence            45799998 467888887654
+
+
+No 13
+>4C2W_D AURORA KINASE B-A (E.C.2.7.11.1), INNER; TRANSFERASE; HET: TPO, ANP; 1.7A {XENOPUS LAEVIS}
+Probab=25.92  E-value=88  Score=19.21  Aligned_cols=20  Identities=30%  Similarity=0.725  Sum_probs=14.0  Template_Neff=7.900
+
+Q ss_pred             EeCCChHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   29 IALPSWADICTNLCEALQNFF   49 (142)
+Q Consensus        29 ialpswadictnlcealqnff   49 (142)
+                      +..|+||. -.+|+++|....
+T Consensus         1 ~~IP~WA~-g~~l~~~l~~Q~   20 (52)
+T 4C2W_D            1 IPIPAWAS-GNLLTQAIRQQY   20 (52)
+T ss_dssp             --CCGGGS-HHHHHHHHHHHH
+T ss_pred             CCCChhhc-CHHHHHHHHHHh
+Confidence            45799998 467888887655
+
+
+No 14
+>3OSM_A Probable serine/threonine-protein kinase KCC4 (E.C.2.7.11.1); Kinase Associated-1(KA1) Domain, TRANSFERASE, LIPID; HET: SRT; 1.7A {Saccharomyces cerevisiae}
+Probab=25.40  E-value=3.2e+02  Score=20.91  Aligned_cols=41  Identities=24%  Similarity=0.544  Sum_probs=30.2  Template_Neff=6.500
+
+Q ss_pred             EEEEEEeCC-CCeeEEEEEEEeCCHHHHHHHHHHHHH-HHHcC
+Q tr|C9JPR9|C9JP   63 LFSLYMVQD-QHECILPFVQVKGNFARLQTCISELRM-LQREG  103 (142)
+Q Consensus        63 lfslymvqd-qhecilpfvqvkgnfarlqtciselrm-lqreg  103 (142)
+                      -|..-.... ...+++-|+|.||...-++....|++. |..+|
+T Consensus        82 ~FriEi~~~g~~~S~v~ftqekGs~sSF~~v~~eie~~l~~~~  124 (128)
+T 3OSM_A           82 LFEIMVLPNGDGRSLIKFNKKTGSTKTLTKLATEIQIILQKEG  124 (128)
+T ss_dssp             EEEEEEEECSTTCEEEEEEEEESCHHHHHHHHHHHHHHHHHHT
+T ss_pred             EEEEEEEecCCCeEEEEEEEecCCHHHHHHHHHHHHHHHHhCC
+Confidence            355444443 247999999999999999999999975 44444
+
+
+No 15
+>3OST_A Probable serine/threonine-protein kinase KCC4 (E.C.2.7.11.1); Kinase Associated-1(KA1) Domain, TRANSFERASE, LIPID; HET: SO4, GOL; 1.694A {Saccharomyces cerevisiae}
+Probab=25.40  E-value=3.2e+02  Score=20.91  Aligned_cols=41  Identities=24%  Similarity=0.544  Sum_probs=30.2  Template_Neff=6.500
+
+Q ss_pred             EEEEEEeCC-CCeeEEEEEEEeCCHHHHHHHHHHHHH-HHHcC
+Q tr|C9JPR9|C9JP   63 LFSLYMVQD-QHECILPFVQVKGNFARLQTCISELRM-LQREG  103 (142)
+Q Consensus        63 lfslymvqd-qhecilpfvqvkgnfarlqtciselrm-lqreg  103 (142)
+                      -|..-.... ...+++-|+|.||...-++....|++. |..+|
+T Consensus        82 ~FriEi~~~g~~~S~v~ftqekGs~sSF~~v~~eie~~l~~~~  124 (128)
+T 3OST_A           82 LFEIMVLPNGDGRSLIKFNKKTGSTKTLTKLATEIQIILQKEG  124 (128)
+T ss_dssp             EEEEEEEECSTTCEEEEEEESSSCHHHHHHHHHHHHHHHHHTT
+T ss_pred             EEEEEEEecCCCeEEEEEEEecCCHHHHHHHHHHHHHHHHhCC
+Confidence            344444332 247999999999999999999999975 44444
+
+
+No 16
+>2FN2_A FIBRONECTIN; GLYCOPROTEIN, FIBRONECTIN, TYPE TWO MODULE; HET: NAG; NMR {Homo sapiens} SCOP: g.14.1.2
+Probab=22.85  E-value=1.1e+02  Score=15.74  Aligned_cols=11  Identities=27%  Similarity=0.772  Sum_probs=6.7  Template_Neff=11.800
+
+Q ss_pred             CCCCeeEEEEE
+Q tr|C9JPR9|C9JP   70 QDQHECILPFV   80 (142)
+Q Consensus        70 qdqhecilpfv   80 (142)
+                      .+..+|..||.
+T Consensus        10 ~~~~~c~~pf~   20 (59)
+T 2FN2_A           10 SNGALCHFPFL   20 (59)
+T ss_dssp             TSSCBCCSSEE
+T ss_pred             CCCccccccEE
+Confidence            34556777765
+
+
+No 17
+>1O5L_A transcriptional regulator, crp family; TM1171, TRANSCRIPTIONAL REGULATOR, CRP FAMILY; 2.3A {Thermotoga maritima} SCOP: b.82.3.2
+Probab=22.52  E-value=1.8e+02  Score=18.98  Aligned_cols=33  Identities=15%  Similarity=0.212  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             HHHHHHHHHHHcCCcccCCcceeeehhhhHHHH
+Q tr|C9JPR9|C9JP   91 TCISELRMLQREGCFRSQGASLRLAVEDGLQQF  123 (142)
+Q Consensus        91 tciselrmlqregcfrsqgaslrlavedglqqf  123 (142)
+                      +....+..|+++|..+..+..+.+.-.+.|.++
+T Consensus       180 ~~~r~l~~l~~~g~i~~~~~~~~i~~~~~l~~~  212 (213)
+T 1O5L_A          180 ALSRVFQELEREGYIEKHGRRIKVLKNPFEHDR  212 (213)
+T ss_dssp             ---------------------------------
+T ss_pred             HHHHHHHHHHHcCCEEEeCCEEEEcCchhhhcc
+Confidence            444567778888888888877777666666554
+
+
+No 18
+>2VGP_D SERINE/THREONINE-PROTEIN KINASE 12-A (E.C.2.7.11.1), INNER; NUCLEOTIDE-BINDING, SERINE/THREONINE-PROTEIN KINASE, ATP-BINDING, TRANSFERASE; HET: TPO, AD6; 1.7A {XENOPUS LAEVIS}
+Probab=22.23  E-value=1.6e+02  Score=17.59  Aligned_cols=18  Identities=28%  Similarity=0.726  Sum_probs=13.6  Template_Neff=7.600
+
+Q ss_pred             CCChHHHHHHHHHHHHHHH
+Q tr|C9JPR9|C9JP   31 LPSWADICTNLCEALQNFF   49 (142)
+Q Consensus        31 lpswadictnlcealqnff   49 (142)
+                      +|+||. -.+|+++|..-.
+T Consensus         1 IP~WA~-g~~l~~~l~~Q~   18 (43)
+T 2VGP_D            1 IPAWAS-GNLLTQAIRQQY   18 (43)
+T ss_dssp             CCGGGS-HHHHHHHHHHHH
+T ss_pred             CChhhc-CHHHHHHHHHHH
+Confidence            489997 457888887655
+
+
+No 19
+>2X7M_A ARCHAEMETZINCIN (E.C.3.-.-.-); METALLOPROTEASE, PROTEASE, HYDROLASE, METZINCIN, METAL-BINDING; 1.5A {METHANOPYRUS KANDLERI}
+Probab=21.70  E-value=3e+02  Score=20.36  Aligned_cols=41  Identities=12%  Similarity=0.206  Sum_probs=29.4  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCEEEEEEE--eCCChHHHHHHHHHHHHHHHHHHHHHh
+Q tr|C9JPR9|C9JP   15 TQIDQQPPRLLIVHI--ALPSWADICTNLCEALQNFFSLACSLM   56 (142)
+Q Consensus        15 tqidqqpprllivhi--alpswadictnlcealqnffslacslm   56 (142)
+                      .+....++++.||-+  ..+.-.++...+.+.|+.+|.+ ..+.
+T Consensus        14 ~~~~~~~~~I~ivp~~g~~~~~~~~l~~l~~~l~~~f~~-v~i~   56 (195)
+T 2X7M_A           14 LVPRGSHMKLCLVAFDGRIPMLSSIVDRFEEHVSEYLGE-VKVK   56 (195)
+T ss_dssp             CCCTTCSCEEEEEESSSCCTTHHHHHHHHHHHHHHHHCS-CEEE
+T ss_pred             CCCCCCCcEEEEEEcCCCCccccHHHHHHHHHHHHHHCC-eEEc
+Confidence            355667788888887  3443337888899999999986 5554
+
+
+No 20
+>6EXM_A Listeriolysin regulatory protein; Transcription regulator, DNA binding, 2-pyridone; HET: QQH, IPA; 1.6A {Listeria monocytogenes}
+Probab=21.39  E-value=3.1e+02  Score=18.51  Aligned_cols=38  Identities=11%  Similarity=0.101  Sum_probs=31.1  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHHHcCCcccCCcceeeehhhhHHHHHHhhc
+Q tr|C9JPR9|C9JP   91 TCISELRMLQREGCFRSQGASLRLAVEDGLQQFKQYSR  128 (142)
+Q Consensus        91 tciselrmlqregcfrsqgaslrlavedglqqfkqysr  128 (142)
+                      +....++.|.++|..+-.+..+.+--.+.|.++-.+.+
+T Consensus       187 ~~~r~l~~l~~~g~i~~~~~~i~i~~~~~l~~~~~~~~  224 (239)
+T 6EXM_A          187 AVSRIISKLKQEKVIVYKNSCFYVQNLDYLKRYAPKLD  224 (239)
+T ss_dssp             HHHHHHHHHHHTTSEEEETTEEEECCHHHHHHHCHHHH
+T ss_pred             HHHHHHHHHHHCCCEEEeCCEEEEcCHHHHHHHccccc
+Confidence            45566888999999999999999999999988766543
+
+
+No 21
+>5W5A_B HTH-type transcriptional regulator Cmr; transcription factor, CRP/FNR family, helix-turn-helix; HET: SO4, MSE; 1.85A {Mycobacterium tuberculosis H37Rv}
+Probab=21.29  E-value=3.3e+02  Score=18.21  Aligned_cols=33  Identities=15%  Similarity=0.194  Sum_probs=27.1  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHcCCcccCCcceeeehhhhHHHH
+Q tr|C9JPR9|C9JP   91 TCISELRMLQREGCFRSQGASLRLAVEDGLQQF  123 (142)
+Q Consensus        91 tciselrmlqregcfrsqgaslrlavedglqqf  123 (142)
+                      +.-..++.|+++|..+..+..+.+.-.+.|.++
+T Consensus       213 ~~~r~l~~l~~~g~i~~~~~~~~i~~~~~l~~~  245 (247)
+T 5W5A_B          213 SINKILKEFERDRLITVGYAVIEITDQHGLRAR  245 (247)
+T ss_dssp             HHHHHHHHHHHTTSEEECSSCEEESCHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCEEEeCCEEEECCHHHHHHH
+Confidence            445678889999999999999998888888765
+
+

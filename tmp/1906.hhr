@@ -1,0 +1,167 @@
+Query         tr|H7C2U7|H7C2U7_HUMAN
+Match_columns 62
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:48:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1906.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5I2C_A GATS-like protein 3; si  89.9    0.27 2.9E-06   35.2   0.7   35    2-36      2-36  (329)
+  2 5GT7_C GATS-like protein 3; ar  76.6     1.7 1.8E-05   31.1   0.1   35    2-36      8-42  (335)
+  3 2HNT_E GAMMA-THROMBIN; SERINE   19.5 1.6E+02  0.0018   12.3   1.1   11   47-57     65-75  (81)
+  4 6LJJ_A Deoxyuridine 5'-triphos  15.1 3.3E+02  0.0036   16.5   2.1   16   35-50    132-147 (155)
+  5 2JR3_A Pelovaterin; beta-defen  14.1   2E+02  0.0022   17.9   1.0   12   36-53      5-16  (42)
+  6 6XB5_A Poxin; Poxin, nuclease,  13.8 1.8E+02   0.002   23.3   0.9   12   37-48    110-121 (244)
+  7 2Z0D_A papain-like fold, ubiqu  13.5 1.7E+02  0.0019   22.3   0.7   13   45-57     70-82  (357)
+  8 2Z0E_A papain-like fold, ubiqu  13.5 1.7E+02  0.0019   22.3   0.7   13   45-57     70-82  (357)
+  9 6YBA_W Hexon protein, Penton p  13.5 2.5E+02  0.0027   21.7   1.5   12   45-56      8-19  (183)
+ 10 6YBA_w Hexon protein, Penton p  13.5 2.5E+02  0.0027   21.7   1.5   15   45-59      8-22  (183)
+
+No 1
+>5I2C_A GATS-like protein 3; signaling, arginine, ACT, mTOR, SIGNALING; HET: ACT, ARG; 1.801A {Homo sapiens}
+Probab=89.86  E-value=0.27  Score=35.19  Aligned_cols=35  Identities=100%  Similarity=1.631  Sum_probs=30.6  Template_Neff=8.000
+
+Q ss_pred             CCCcccchhhhhhcCCCCchhhcCchHHHhCCCCC
+Q tr|H7C2U7|H7C2    2 ELHILEHRVRVLSVARPGLWLYTHPLIKLLFLPRR   36 (62)
+Q Consensus         2 elhilehrvrvlsvarpglwlythplikllflprr   36 (62)
+                      ++.++.++..+.++.+...+.++|+++|++|.|..
+T Consensus         2 ~l~vl~~~~~i~~l~~~~~~~~~~~ll~~l~~~~~   36 (329)
+T 5I2C_A            2 ELHILEHRVRVLSVARPGLWLYTHPLIKLLFLPRR   36 (329)
+T ss_dssp             EEEEEEEEEEEEEEEGGGHHHHHHHHHHHHHCGGG
+T ss_pred             ceEeCCceEEEEEecccchhhhhHHHHHHHcCCCC
+Confidence            46788899999999988899999999999998754
+
+
+No 2
+>5GT7_C GATS-like protein 3; arginine binding, mTOR, GATSL2, CASTOR1; HET: MLI, ARG; 2.048A {Homo sapiens}
+Probab=76.60  E-value=1.7  Score=31.11  Aligned_cols=35  Identities=100%  Similarity=1.631  Sum_probs=28.6  Template_Neff=8.200
+
+Q ss_pred             CCCcccchhhhhhcCCCCchhhcCchHHHhCCCCC
+Q tr|H7C2U7|H7C2    2 ELHILEHRVRVLSVARPGLWLYTHPLIKLLFLPRR   36 (62)
+Q Consensus         2 elhilehrvrvlsvarpglwlythplikllflprr   36 (62)
+                      ++.+++.+..+.++.......++|++++++|.+.+
+T Consensus         8 ~l~~l~~~~~i~~l~~~~~~~~~~~ll~~~~~~~~   42 (335)
+T 5GT7_C            8 ELHILEHRVRVLSVARPGLWLYTHPLIKLLFLPRR   42 (335)
+T ss_dssp             EEEEEEEEEEEEEEEGGGGGGGHHHHHHHHHCGGG
+T ss_pred             EEEEcCCeEEEEEEeccchhhhhHHHHHHHcCCCC
+Confidence            35678888888888877788889999999988754
+
+
+No 3
+>2HNT_E GAMMA-THROMBIN; SERINE PROTEASE; 2.5A {Homo sapiens}
+Probab=19.49  E-value=1.6e+02  Score=12.33  Aligned_cols=11  Identities=27%  Similarity=0.540  Sum_probs=5.1  Template_Neff=13.800
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H7C2U7|H7C2   47 DRGWGLCSRSG   57 (62)
+Q Consensus        47 drgwglcsrsg   57 (62)
+                      ..|||.+..++
+T Consensus        65 ~~g~g~~~~~~   75 (81)
+T 2HNT_E           65 VTGWGNLKETW   75 (81)
+T ss_dssp             EEECCEECT--
+T ss_pred             EeecccCCCcc
+Confidence            34666655443
+
+
+No 4
+>6LJJ_A Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial isoform; swine dUTPase, sDUT, dUTPase, HYDROLASE; HET: DUP; 1.89A {Sus scrofa}
+Probab=15.11  E-value=3.3e+02  Score=16.55  Aligned_cols=16  Identities=31%  Similarity=0.511  Sum_probs=10.4  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   35 RRSRCAPGFGSADRGW   50 (62)
+Q Consensus        35 rrsrcapgfgsadrgw   50 (62)
+                      ...|-.-||||.++.|
+T Consensus       132 ~~~rg~~g~gs~~~~~  147 (155)
+T 6LJJ_A          132 DTERGSGGFGSTGTNL  147 (155)
+T ss_dssp             CCSSTTCCTTTTCSSH
+T ss_pred             CCCCCCCCCCCCCCCc
+Confidence            3445566788877765
+
+
+No 5
+>2JR3_A Pelovaterin; beta-defensin Like Peptide, Chinese Soft-shelled; NMR {Pelodiscus sinensis}
+Probab=14.07  E-value=2e+02  Score=17.88  Aligned_cols=12  Identities=67%  Similarity=1.727  Sum_probs=7.7  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   36 RSRCAPGFGSADRGWGLC   53 (62)
+Q Consensus        36 rsrcapgfgsadrgwglc   53 (62)
+                      .|||..|      |||-|
+T Consensus         5 ssrcgsg------gwgpc   16 (42)
+T 2JR3_A            5 SSRCGSG------GWGPC   16 (42)
+T ss_dssp             SCCTTTS------SBCSC
+T ss_pred             ccccCCC------CcCcc
+Confidence            4677543      78866
+
+
+No 6
+>6XB5_A Poxin; Poxin, nuclease, HDD13, Lepidoptera, Moth; HET: 9BG; 2.9A {Trichoplusia ni}
+Probab=13.82  E-value=1.8e+02  Score=23.34  Aligned_cols=12  Identities=50%  Similarity=0.744  Sum_probs=10.1  Template_Neff=3.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   37 SRCAPGFGSADR   48 (62)
+Q Consensus        37 srcapgfgsadr   48 (62)
+                      -||||.|-|+++
+T Consensus       110 wr~aptfes~n~  121 (244)
+T 6XB5_A          110 WRSAPTFESSNR  121 (244)
+T ss_dssp             EEEEEEEECSSC
+T ss_pred             eecCCccccCCc
+Confidence            489999999875
+
+
+No 7
+>2Z0D_A papain-like fold, ubiquitin fold, HYDROLASE-STRUCTURAL; 1.9A {Homo sapiens} SCOP: d.3.1.22
+Probab=13.54  E-value=1.7e+02  Score=22.27  Aligned_cols=13  Identities=46%  Similarity=1.060  Sum_probs=9.8  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   45 SADRGWGLCSRSG   57 (62)
+Q Consensus        45 sadrgwglcsrsg   57 (62)
+                      ..|.|||-+-|+|
+T Consensus        70 tSD~GWGCmiRsg   82 (357)
+T 2Z0D_A           70 TSDTGWGCMLRCG   82 (357)
+T ss_dssp             SBCTTTCHHHHHH
+T ss_pred             CCcCCccccchhh
+Confidence            6799999766654
+
+
+No 8
+>2Z0E_A papain-like fold, ubiquitin fold, HYDROLASE-STRUCTURAL; 1.9A {Homo sapiens} SCOP: d.3.1.22
+Probab=13.54  E-value=1.7e+02  Score=22.27  Aligned_cols=13  Identities=46%  Similarity=1.060  Sum_probs=9.8  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   45 SADRGWGLCSRSG   57 (62)
+Q Consensus        45 sadrgwglcsrsg   57 (62)
+                      ..|.|||-+-|+|
+T Consensus        70 tSD~GWGCmiRsg   82 (357)
+T 2Z0E_A           70 TSDTGWGCMLRCG   82 (357)
+T ss_dssp             SBCTTTCHHHHHH
+T ss_pred             CCcCCccccchhh
+Confidence            6799999766654
+
+
+No 9
+>6YBA_W Hexon protein, Penton protein, Pre-hexon-linking; Adenovirus, VIRUS; 4.0A {Human adenovirus F serotype 41}
+Probab=13.51  E-value=2.5e+02  Score=21.74  Aligned_cols=12  Identities=42%  Similarity=0.952  Sum_probs=8.6  Template_Neff=3.100
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   45 SADRGWGLCSRS   56 (62)
+Q Consensus        45 sadrgwglcsrs   56 (62)
+                      |..+||||...+
+T Consensus         8 sdNtGWGlg~~~   19 (183)
+T 6YBA_W            8 DNNTGWGLHSAG   19 (183)
+T ss_pred             CCCCCCCCcccc
+Confidence            567899986543
+
+
+No 10
+>6YBA_w Hexon protein, Penton protein, Pre-hexon-linking; Adenovirus, VIRUS; 4.0A {Human adenovirus F serotype 41}
+Probab=13.51  E-value=2.5e+02  Score=21.74  Aligned_cols=15  Identities=40%  Similarity=0.762  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|H7C2U7|H7C2   45 SADRGWGLCSRSGPG   59 (62)
+Q Consensus        45 sadrgwglcsrsgpg   59 (62)
+                      |..+||||...+--|
+T Consensus         8 sdNtGWGlg~~~m~g   22 (183)
+T 6YBA_w            8 DNNTGWGLHSAGMYG   22 (183)
+T ss_pred             CCCCCCCCccccccc
+
+

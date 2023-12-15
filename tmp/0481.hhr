@@ -1,0 +1,476 @@
+Query         tr|A0A804HIJ1|A0A804HIJ1_HUMAN
+Match_columns 307
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:12:59 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0481.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5H7Q_A MNDA PYD domain with MB  96.6   0.012 1.3E-07   49.7   5.9   96  116-211   379-478 (479)
+  2 6IGM_H RuvB-like 1 (E.C.3.6.4.  75.2 3.8E+02  0.0042   34.7  19.0   66  227-294   182-251 (3230)
+  3 4GNK_B Guanine nucleotide-bind  69.9 2.6E+02  0.0029   30.5  17.8   18  220-237  1122-1139(1235)
+  4 4GNK_D Guanine nucleotide-bind  69.9 2.6E+02  0.0029   30.5  17.8   18  220-237  1122-1139(1235)
+  5 3OJA_B Leucine-rich Immune Mol  58.6 2.2E+02  0.0024   25.8  20.3   46  246-291   537-582 (597)
+  6 7N85_J nuclear pore complex, i  50.8 4.7E+02  0.0051   27.1  21.4   19  145-163   639-657 (823)
+  7 7N9F_z NPC, nucleocytoplasmic   50.8 4.7E+02  0.0051   27.1  21.4   19  145-163   639-657 (823)
+  8 6X0U_D Gamma-tubulin complex c  50.3 6.9E+02  0.0075   29.0  19.7   15  180-194   702-716 (1819)
+  9 7AS4_L Tubulin gamma-1 chain,   50.3 6.9E+02  0.0075   29.0  19.7   15  180-194   702-716 (1819)
+ 10 2QAG_A Septin-2, Septin-6, Sep  48.9 1.9E+02  0.0021   25.3   7.1   13  180-192   269-281 (361)
+ 11 7NRC_A 40S ribosomal protein S  48.4 2.4E+02  0.0026   32.7   9.2   12   46-57    150-161 (1209)
+ 12 5HM7_A Butyrophilin subfamily   46.5 1.5E+02  0.0016   20.2   6.6   11  149-159     1-11  (244)
+ 13 5HM7_B Butyrophilin subfamily   46.5 1.5E+02  0.0016   20.2   6.6   11  149-159     1-11  (244)
+ 14 3OJA_A Leucine-rich Immune Mol  42.8 3.4E+02  0.0037   23.2  17.3   40  250-289   446-485 (487)
+ 15 3A7O_C Autophagy protein 16; c  39.3 3.2E+02  0.0034   21.9   8.9   38  236-273    36-73  (75)
+ 16 3A7O_E Autophagy protein 16; c  39.3 3.2E+02  0.0034   21.9   8.9   37  236-272    36-72  (75)
+ 17 6TF9_SP1 Helix 1, Belt helices  34.4 1.2E+03   0.013   26.9  18.0   16  179-194   628-643 (1625)
+ 18 7EGD_D Transcription initiatio  32.7   3E+02  0.0033   32.0   7.3   18   22-39    661-678 (1085)
+ 19 7EGG_D Transcription initiatio  32.7   3E+02  0.0033   32.0   7.3   18   22-39    661-678 (1085)
+ 20 4NAD_A Regulation of nuclear p  32.6 5.1E+02  0.0055   22.3  12.6   49  177-226    44-92  (154)
+ 21 4NAD_B Regulation of nuclear p  32.6 5.1E+02  0.0055   22.3  12.6   49  177-226    44-92  (154)
+ 22 7AR9_a Complex-I, ELECTRON TRA  29.9      59 0.00064   27.1   1.3   15   20-34     44-58  (71)
+ 23 3VKG_A Dynein heavy chain, cyt  27.0 1.9E+03    0.02   27.0  19.1   45  248-292  2037-2081(3245)
+ 24 7C4J_C Transcription regulator  25.6 7.3E+02   0.008   25.8   7.8   15  250-264   265-279 (332)
+ 25 5IJN_Y NUCLEAR PORE COMPLEX PR  24.5 1.6E+03   0.018   25.5  14.0   22  249-270   351-372 (599)
+ 26 4NB5_B DNA binding protein; DN  22.8 5.6E+02   0.006   19.5   5.5   32  181-212   136-167 (171)
+ 27 7NE1_B Netrin-1, Neogenin; cel  21.9 4.4E+02  0.0048   20.8   4.6   22   87-108   328-349 (354)
+ 28 2GS4_A Protein yciF; STRESS PR  21.2 6.4E+02   0.007   19.6   7.6   54  157-210    10-63  (166)
+ 29 5ME5_B Eukaryotic transcriptio  20.6 1.2E+02  0.0013   25.0   1.3   23   23-48     55-77  (90)
+
+No 1
+>5H7Q_A MNDA PYD domain with MBP; MNDA, PYD domain, MBP, fusion; HET: GLC; 1.451A {Homo sapiens}
+Probab=96.58  E-value=0.012  Score=49.75  Aligned_cols=96  Identities=18%  Similarity=0.184  Sum_probs=76.8  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCCCChhhHHHHHHHHHHhcCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HhhHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  116 ESMVLQSSRGIKVEGCVRMYELVHRMKGTEGLRLWQEEQERKVQALSEMASEQLKRFDEWKEL-KQHKEFQDLREVMEKS  194 (307)
+Q Consensus       116 esmvlqssrgikvegcvrmyelvhrmkgteglrlwqeeqerkvqalsemaseqlkrfdewkel-kqhkefqdlrevmeks  194 (307)
+                      ..+|+....+--.+.|.++|......-.+-.-+.|.+.++-++..|++........++.-.++ +.+++++++...|++.
+T Consensus       379 ~~iv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  458 (479)
+T 5H7Q_A          379 KKILLLKGFELMDDYHFTSIKSLLAYDLGLTTKMQEEYNRIKITDLMEKKFQGVACLDKLIELAKDMPSLKNLVNNLRKE  458 (479)
+T ss_dssp             HHHCCCCCGGGSCHHHHHHHHHHHHHHHTCCHHHHHHCCHHHHHHHHHHHSTTHHHHHHHHHHHTTCGGGHHHHHHHHHH
+T ss_pred             hheEEecchhhccHHHHHHHHHHHHHhcCCCHHHHHHhhhhcHHHHhHHhcCCChhHHHHHHHHhhcHHhHHHHHHHHHH
+Confidence            346777888878899999999888888888889999999999999999999999999987776 7889999999999988
+
+
+Q ss_pred             HHHHHHH---HHHHHHHHHH
+Q tr|A0A804HIJ1|  195 SREALGH---QEKLKAEHRH  211 (307)
+Q Consensus       195 srealgh---qeklkaehrh  211 (307)
+                      ......+   ||||...|.|
+T Consensus       459 ~~~~~~~~~~~~~~~~~~~~  478 (479)
+T 5H7Q_A          459 KSKVAKKIKTQEKLEHHHHH  478 (479)
+T ss_dssp             HHHHHHHHHHTC--------
+T ss_pred             HHHHHHHhchHHhhcccccC
+Confidence            8877777   6777554444
+
+
+No 2
+>6IGM_H RuvB-like 1 (E.C.3.6.4.12), RuvB-like 2; SRCAP complex, TRANSCRIPTION; 4.0A {Homo sapiens}
+Probab=75.21  E-value=3.8e+02  Score=34.70  Aligned_cols=66  Identities=27%  Similarity=0.426  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH--HHHHHHHHHHHHHHHHHhhhhHHHHHHHHH--HHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  227 RVKQAEQERLRKEEGQIR--LRALYALQEEMLQLSQQLDASEQHKALLKV--DLAAFQTRGNQLCSLISGII  294 (307)
+Q Consensus       227 rvkqaeqerlrkeegqir--lralyalqeemlqlsqqldaseqhkallkv--dlaafqtrgnqlcslisgii  294 (307)
+                      |.|+.||.+||+.-..|-  ++-++.--|...|..||-...|..|..|..  |+...||.  ....|+|+.+
+T Consensus       182 ~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~k~~~~~~l~~i~~q~e--kysd~Lsq~L  251 (3230)
+T 6IGM_H          182 RARREEQAKLRRIASTMAKDVRQFWSNVEKVVQFKQQSRLEEKRKKALDLHLDFIVGQTE--KYSDLLSQSL  251 (3230)
+T ss_dssp             ------------------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcHH--HHHHHHHHHh
+Confidence            344455555555433331  223355567778888888778877755544  44444543  3444554443
+
+
+No 3
+>4GNK_B Guanine nucleotide-binding protein G(q) subunit; GTP-binding protein alpha subunits, phospholipase; HET: ALF, GDP; 4.0A {Mus musculus}
+Probab=69.91  E-value=2.6e+02  Score=30.54  Aligned_cols=18  Identities=17%  Similarity=0.302  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  220 LREAEQQRVKQAEQERLR  237 (307)
+Q Consensus       220 lreaeqqrvkqaeqerlr  237 (307)
+                      .||..+.-+++.-++|-+
+T Consensus      1122 ~rE~~~~~ike~v~er~~ 1139 (1235)
+T 4GNK_B         1122 LTEINRRHITESVNSIRR 1139 (1235)
+T ss_dssp             ------------------
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            344444444444444333
+
+
+No 4
+>4GNK_D Guanine nucleotide-binding protein G(q) subunit; GTP-binding protein alpha subunits, phospholipase; HET: ALF, GDP; 4.0A {Mus musculus}
+Probab=69.91  E-value=2.6e+02  Score=30.54  Aligned_cols=18  Identities=17%  Similarity=0.302  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  220 LREAEQQRVKQAEQERLR  237 (307)
+Q Consensus       220 lreaeqqrvkqaeqerlr  237 (307)
+                      .||..+.-+++.-++|-+
+T Consensus      1122 ~rE~~~~~ike~v~er~~ 1139 (1235)
+T 4GNK_D         1122 LTEINRRHITESVNSIRR 1139 (1235)
+T ss_dssp             ------------------
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            344444444444444333
+
+
+No 5
+>3OJA_B Leucine-rich Immune Molecule 1/Anopheles Plasmodium-responsive; coiled-coil, helix-loop-helix, leucine-rich repeat, PROTEIN; HET: NAG, MAN; 2.7A {Anopheles gambiae}
+Probab=58.62  E-value=2.2e+02  Score=25.75  Aligned_cols=46  Identities=22%  Similarity=0.255  Sum_probs=34.2  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  246 RALYALQEEMLQLSQQLDASEQHKALLKVDLAAFQTRGNQLCSLIS  291 (307)
+Q Consensus       246 ralyalqeemlqlsqqldaseqhkallkvdlaafqtrgnqlcslis  291 (307)
+                      +.+-.++++..+|-+++++.+.....++-.+...+..-+++-.-+.
+T Consensus       537 ~~~~~l~~~~~~L~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~  582 (597)
+T 3OJA_B          537 KETEDLEQENIALEKQLDNKRAKQAELRQETSLKRQKVKQLEAKKN  582 (597)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            5567788888888888888888877777777777776666654443
+
+
+No 6
+>7N85_J nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=50.78  E-value=4.7e+02  Score=27.14  Aligned_cols=19  Identities=5%  Similarity=0.296  Sum_probs=10.7  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  145 EGLRLWQEEQERKVQALSE  163 (307)
+Q Consensus       145 eglrlwqeeqerkvqalse  163 (307)
+                      +-+..|..+.+..+..+.+
+T Consensus       639 ~~v~~w~~~L~~~~~~f~~  657 (823)
+T 7N85_J          639 DLVTKWTNQLTESASHFEQ  657 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3466777766655554443
+
+
+No 7
+>7N9F_z NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=50.78  E-value=4.7e+02  Score=27.14  Aligned_cols=19  Identities=5%  Similarity=0.296  Sum_probs=10.7  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  145 EGLRLWQEEQERKVQALSE  163 (307)
+Q Consensus       145 eglrlwqeeqerkvqalse  163 (307)
+                      +-+..|..+.+..+..+.+
+T Consensus       639 ~~v~~w~~~L~~~~~~f~~  657 (823)
+T 7N9F_z          639 DLVTKWTNQLTESASHFEQ  657 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3466777766655554443
+
+
+No 8
+>6X0U_D Gamma-tubulin complex component 3, Gamma-tubulin; gamma-TuRC, lumenal bridge, MZT1, GCP; 3.6A {Homo sapiens}
+Probab=50.33  E-value=6.9e+02  Score=28.96  Aligned_cols=15  Identities=33%  Similarity=0.592  Sum_probs=8.7  Template_Neff=8.500
+
+Q ss_pred             hhHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  180 QHKEFQDLREVMEKS  194 (307)
+Q Consensus       180 qhkefqdlrevmeks  194 (307)
+                      ..++|+.|++-|+..
+T Consensus       702 K~~~~~~Lk~q~e~~  716 (1819)
+T 6X0U_D          702 KREQFQRLKEQFVKD  716 (1819)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            345566666666554
+
+
+No 9
+>7AS4_L Tubulin gamma-1 chain, Gamma-tubulin complex; microtubule organizing center, microtubule, gamma-tubulin; HET: GDP; 4.13A {Homo sapiens}
+Probab=50.33  E-value=6.9e+02  Score=28.96  Aligned_cols=15  Identities=33%  Similarity=0.592  Sum_probs=8.7  Template_Neff=8.500
+
+Q ss_pred             hhHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  180 QHKEFQDLREVMEKS  194 (307)
+Q Consensus       180 qhkefqdlrevmeks  194 (307)
+                      ..++|+.|++-|+..
+T Consensus       702 K~~~~~~Lk~q~e~~  716 (1819)
+T 7AS4_L          702 KREQFQRLKEQFVKD  716 (1819)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            345566666666554
+
+
+No 10
+>2QAG_A Septin-2, Septin-6, Septin-7; Cell cycle, Cell division, GTP-binding; HET: GTP, GDP; 4.0A {Homo sapiens}
+Probab=48.93  E-value=1.9e+02  Score=25.32  Aligned_cols=13  Identities=31%  Similarity=0.703  Sum_probs=9.2  Template_Neff=10.100
+
+Q ss_pred             hhHHHHHHHHHHH
+Q tr|A0A804HIJ1|  180 QHKEFQDLREVME  192 (307)
+Q Consensus       180 qhkefqdlrevme  192 (307)
+                      .|.+|..||+.+.
+T Consensus       269 ~~~df~~lr~~L~  281 (361)
+T 2QAG_A          269 EHNDFLKLRTMLI  281 (361)
+T ss_dssp             -CCTHHHHHHHHH
+T ss_pred             CCCcHHHHHHHHH
+Confidence            6778888887764
+
+
+No 11
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=48.44  E-value=2.4e+02  Score=32.66  Aligned_cols=12  Identities=33%  Similarity=0.689  Sum_probs=6.6  Template_Neff=1.500
+
+Q ss_pred             ccccchhHhhhh
+Q tr|A0A804HIJ1|   46 SSYSGWVVEHVL   57 (307)
+Q Consensus        46 ssysgwvvehvl   57 (307)
+                      ..|-|.+.|.+|
+T Consensus       150 ~~~~~~~~~~~~  161 (1209)
+T 7NRC_A          150 GDYLGILMEKLL  161 (1209)
+T ss_pred             hHHHHHHHHHhh
+Confidence            345666665554
+
+
+No 12
+>5HM7_A Butyrophilin subfamily 3 member A1; Immunological protein, intracellular domain, IMMUNE; HET: BME, GOL; 1.93A {Homo sapiens}
+Probab=46.54  E-value=1.5e+02  Score=20.24  Aligned_cols=11  Identities=36%  Similarity=0.570  Sum_probs=0.0  Template_Neff=13.900
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|A0A804HIJ1|  149 LWQEEQERKVQ  159 (307)
+Q Consensus       149 lwqeeqerkvq  159 (307)
+                      +|+++++++-+
+T Consensus         1 ~~~~~~~~~~~   11 (244)
+T 5HM7_A            1 MGQQQEEKKTQ   11 (244)
+T ss_dssp             -----------
+T ss_pred             ChhHHHHHHHH
+Confidence            36776666554
+
+
+No 13
+>5HM7_B Butyrophilin subfamily 3 member A1; Immunological protein, intracellular domain, IMMUNE; HET: BME, GOL; 1.93A {Homo sapiens}
+Probab=46.54  E-value=1.5e+02  Score=20.24  Aligned_cols=11  Identities=36%  Similarity=0.570  Sum_probs=0.0  Template_Neff=13.900
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|A0A804HIJ1|  149 LWQEEQERKVQ  159 (307)
+Q Consensus       149 lwqeeqerkvq  159 (307)
+                      +|+++++++-+
+T Consensus         1 ~~~~~~~~~~~   11 (244)
+T 5HM7_B            1 MGQQQEEKKTQ   11 (244)
+T ss_dssp             -----------
+T ss_pred             ChhHHHHHHHH
+Confidence            36776666554
+
+
+No 14
+>3OJA_A Leucine-rich Immune Molecule 1/Anopheles Plasmodium-responsive; coiled-coil, helix-loop-helix, leucine-rich repeat, PROTEIN; HET: NAG, MAN; 2.7A {Anopheles gambiae}
+Probab=42.81  E-value=3.4e+02  Score=23.21  Aligned_cols=40  Identities=23%  Similarity=0.202  Sum_probs=27.5  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  250 ALQEEMLQLSQQLDASEQHKALLKVDLAAFQTRGNQLCSL  289 (307)
+Q Consensus       250 alqeemlqlsqqldaseqhkallkvdlaafqtrgnqlcsl  289 (307)
+                      ++++++.++-.+...-|.--.-++.++...+.+..+|-.-
+T Consensus       446 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  485 (487)
+T 3OJA_A          446 QLAEENARLKKLNGEADLALASANATLQELVVREQNLASQ  485 (487)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHchHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            6666677776666666666666777777888877776543
+
+
+No 15
+>3A7O_C Autophagy protein 16; coiled-coil, Autophagy, Coiled coil, Cytoplasmic; 2.5A {Saccharomyces cerevisiae}
+Probab=39.29  E-value=3.2e+02  Score=21.86  Aligned_cols=38  Identities=18%  Similarity=0.127  Sum_probs=23.2  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHHH
+Q tr|A0A804HIJ1|  236 LRKEEGQIRLRALYALQEEMLQLSQQLDASEQHKALLK  273 (307)
+Q Consensus       236 lrkeegqirlralyalqeemlqlsqqldaseqhkallk  273 (307)
+                      -+.++-+..-+.+-.+|.||+.|.-|+...++...-|+
+T Consensus        36 dl~EEl~eK~K~ie~lqDEilsLqielN~le~k~~kLk   73 (75)
+T 3A7O_C           36 RLKEVIALKNKNTERLNDELISGTIENNVLQQKLSDLK   73 (75)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTTCC---------
+T ss_pred             HHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHhh
+Confidence            34566666777888899999999988887776554443
+
+
+No 16
+>3A7O_E Autophagy protein 16; coiled-coil, Autophagy, Coiled coil, Cytoplasmic; 2.5A {Saccharomyces cerevisiae}
+Probab=39.29  E-value=3.2e+02  Score=21.86  Aligned_cols=37  Identities=16%  Similarity=0.101  Sum_probs=27.4  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhhhHHHHHHH
+Q tr|A0A804HIJ1|  236 LRKEEGQIRLRALYALQEEMLQLSQQLDASEQHKALL  272 (307)
+Q Consensus       236 lrkeegqirlralyalqeemlqlsqqldaseqhkall  272 (307)
+                      -+.++-+..-+.+-.+|.||+.|.-|+...++...-|
+T Consensus        36 dl~EEl~eK~K~ie~lqDEilsLqielN~le~k~~kL   72 (75)
+T 3A7O_E           36 RLKEVIALKNKNTERLNDELISGTIENNVLQQKLSDL   72 (75)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             HHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHh
+Confidence            3456666677788889999999998888777665443
+
+
+No 17
+>6TF9_SP1 Helix 1, Belt helices 1,2,3,4; gamma-Tubulin Ring Complex, microtubule nucleation;{Xenopus laevis}
+Probab=34.44  E-value=1.2e+03  Score=26.93  Aligned_cols=16  Identities=38%  Similarity=0.596  Sum_probs=9.7  Template_Neff=8.600
+
+Q ss_pred             HhhHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  179 KQHKEFQDLREVMEKS  194 (307)
+Q Consensus       179 kqhkefqdlrevmeks  194 (307)
+                      |..++|+.|++-|+..
+T Consensus       628 ~K~~~~~~Lk~q~~~~  643 (1625)
+T 6TF9_SP1        628 KKRELFQKLKDQYEKE  643 (1625)
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3455667777666654
+
+
+No 18
+>7EGD_D Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 6.75A {Homo sapiens}
+Probab=32.72  E-value=3e+02  Score=32.03  Aligned_cols=18  Identities=11%  Similarity=0.106  Sum_probs=11.6  Template_Neff=4.700
+
+Q ss_pred             hHHHHHHHHccHHHHHHH
+Q tr|A0A804HIJ1|   22 LCYYRDWLLRREDVLEEC   39 (307)
+Q Consensus        22 lcyyrdwllrredvleec   39 (307)
+                      |-++|.-+...+-.++.|
+T Consensus       661 LPaLRq~l~~~~~~Iqq~  678 (1085)
+T 7EGD_D          661 LPALRQLTPDSAAFIQQS  678 (1085)
+T ss_pred             HHHHHHhCcCcchhhccc
+Confidence            455666666666666666
+
+
+No 19
+>7EGG_D Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 2.77A {Homo sapiens}
+Probab=32.72  E-value=3e+02  Score=32.03  Aligned_cols=18  Identities=11%  Similarity=0.106  Sum_probs=11.6  Template_Neff=4.700
+
+Q ss_pred             hHHHHHHHHccHHHHHHH
+Q tr|A0A804HIJ1|   22 LCYYRDWLLRREDVLEEC   39 (307)
+Q Consensus        22 lcyyrdwllrredvleec   39 (307)
+                      |-++|.-+...+-.++.|
+T Consensus       661 LPaLRq~l~~~~~~Iqq~  678 (1085)
+T 7EGG_D          661 LPALRQLTPDSAAFIQQS  678 (1085)
+T ss_pred             HHHHHHhCcCcchhhccc
+Confidence            455666666666666666
+
+
+No 20
+>4NAD_A Regulation of nuclear pre-mRNA domain-containing; coiled-coil, TRANSCRIPTION; 2.8A {Homo sapiens}
+Probab=32.56  E-value=5.1e+02  Score=22.26  Aligned_cols=49  Identities=16%  Similarity=0.242  Sum_probs=32.6  Template_Neff=7.200
+
+Q ss_pred             HHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  177 ELKQHKEFQDLREVMEKSSREALGHQEKLKAEHRHRAKILNLKLREAEQQ  226 (307)
+Q Consensus       177 elkqhkefqdlrevmekssrealghqeklkaehrhrakilnlklreaeqq  226 (307)
+                      .||...+..++...++....---..-..|.+|-..|.++.++ |..+.+.
+T Consensus        44 ~lkD~~~~~~l~~~v~ea~~~L~~Y~~~L~~Ei~~R~~l~~~-L~~~~~~   92 (154)
+T 4NAD_A           44 KITDKEAAERLSKTVDEACLLLAEYNGRLAAELEDRRQLARM-LVEYTQN   92 (154)
+T ss_dssp             GCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+T ss_pred             hcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+Confidence            445555666666667777766667777888888888776654 5555543
+
+
+No 21
+>4NAD_B Regulation of nuclear pre-mRNA domain-containing; coiled-coil, TRANSCRIPTION; 2.8A {Homo sapiens}
+Probab=32.56  E-value=5.1e+02  Score=22.26  Aligned_cols=49  Identities=16%  Similarity=0.242  Sum_probs=32.8  Template_Neff=7.200
+
+Q ss_pred             HHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  177 ELKQHKEFQDLREVMEKSSREALGHQEKLKAEHRHRAKILNLKLREAEQQ  226 (307)
+Q Consensus       177 elkqhkefqdlrevmekssrealghqeklkaehrhrakilnlklreaeqq  226 (307)
+                      .||...+..++...++....---..-..|.+|-..|.++.++ |..+.+.
+T Consensus        44 ~lkD~~~~~~l~~~v~ea~~~L~~Y~~~L~~Ei~~R~~l~~~-L~~~~~~   92 (154)
+T 4NAD_B           44 KITDKEAAERLSKTVDEACLLLAEYNGRLAAELEDRRQLARM-LVEYTQN   92 (154)
+T ss_dssp             GCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+T ss_pred             hcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHH
+Confidence            445555666666667777776677777888888888776654 5555543
+
+
+No 22
+>7AR9_a Complex-I, ELECTRON TRANSPORT; HET: PTY, PC7, CDL, 8Q1; 2.97A {Polytomella sp. Pringsheim 198.80}
+Probab=29.90  E-value=59  Score=27.14  Aligned_cols=15  Identities=60%  Similarity=1.077  Sum_probs=12.4  Template_Neff=1.400
+
+Q ss_pred             hhhHHHHHHHHccHH
+Q tr|A0A804HIJ1|   20 GRLCYYRDWLLRRED   34 (307)
+Q Consensus        20 grlcyyrdwllrred   34 (307)
+                      .+-.|-|||.|+||.
+T Consensus        44 qkalyrrdwyl~ree   58 (71)
+T 7AR9_a           44 QRALYRRDWYLRREQ   58 (71)
+T ss_pred             HHHHHHhhHHHHhhH
+Confidence            356789999999985
+
+
+No 23
+>3VKG_A Dynein heavy chain, cytoplasmic; AAA+ protein, molecular motor, microtubles; HET: ADP, SPM; 2.81A {Dictyostelium discoideum}
+Probab=27.02  E-value=1.9e+03  Score=26.99  Aligned_cols=45  Identities=9%  Similarity=0.218  Sum_probs=25.3  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  248 LYALQEEMLQLSQQLDASEQHKALLKVDLAAFQTRGNQLCSLISG  292 (307)
+Q Consensus       248 lyalqeemlqlsqqldaseqhkallkvdlaafqtrgnqlcslisg  292 (307)
+                      +-.+++++.++-++++...+.+.-++-++...+.+-+.-..|+.+
+T Consensus      2037 l~~le~~l~~l~~~~~~~~~~~~~l~~~~~~~~~kl~ra~~Ll~~ 2081 (3245)
+T 3VKG_A         2037 ITALEKSIATYKEEYATLIRETEQIKTESSKVKNKVDRSIALLDN 2081 (3245)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            444555666666666666666666666555555554444444444
+
+
+No 24
+>7C4J_C Transcription regulatory protein SNF12, SWI/SNF; SWI/SNF remodeling, Swi-Snf complex, nucleosome; 2.89A {Saccharomyces cerevisiae S288C}
+Probab=25.58  E-value=7.3e+02  Score=25.76  Aligned_cols=15  Identities=33%  Similarity=0.257  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             HHHHHHHHHHHHhhh
+Q tr|A0A804HIJ1|  250 ALQEEMLQLSQQLDA  264 (307)
+Q Consensus       250 alqeemlqlsqqlda  264 (307)
+                      .-|||++|+.+|..+
+T Consensus       265 q~qee~~q~~~~~~~  279 (332)
+T 7C4J_C          265 QQQQQDLQQQQQVVT  279 (332)
+T ss_dssp             ---------------
+T ss_pred             HHHHHHHHHHHhHHH
+Confidence            445555565555543
+
+
+No 25
+>5IJN_Y NUCLEAR PORE COMPLEX PROTEIN NUP155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=24.54  E-value=1.6e+03  Score=25.46  Aligned_cols=22  Identities=27%  Similarity=0.376  Sum_probs=14.1  Template_Neff=2.500
+
+Q ss_pred             HHHHHHHHHHHHHhhhhHHHHH
+Q tr|A0A804HIJ1|  249 YALQEEMLQLSQQLDASEQHKA  270 (307)
+Q Consensus       249 yalqeemlqlsqqldaseqhka  270 (307)
+                      ...+..|.|+.||+..-|.|-+
+T Consensus       351 ~qfe~Ql~qYrqqIEeLEnhLt  372 (599)
+T 5IJN_Y          351 QQFEVQLQQYRQQIEELENHLA  372 (599)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Confidence            4455667777777776666643
+
+
+No 26
+>4NB5_B DNA binding protein; DNA binding, DNA BINDING PROTEIN; HET: 2JT; 1.641A {Mycobacterium tuberculosis}
+Probab=22.76  E-value=5.6e+02  Score=19.46  Aligned_cols=32  Identities=31%  Similarity=0.464  Sum_probs=14.8  Template_Neff=10.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  181 HKEFQDLREVMEKSSREALGHQEKLKAEHRHR  212 (307)
+Q Consensus       181 hkefqdlrevmekssrealghqeklkaehrhr  212 (307)
+                      -..+.++-+.+.+...+.+....+.+++.+|+
+T Consensus       136 l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (171)
+T 4NB5_B          136 LREMRDLLAYMENVVSDALGRYSQRTGEDDHH  167 (171)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHCC------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhhcccCCC
+Confidence            34455555555555666666666655554443
+
+
+No 27
+>7NE1_B Netrin-1, Neogenin; cell surface receptor signaling, axon; HET: GU4, NAG, NO3, YYJ; 3.15A {Homo sapiens}
+Probab=21.95  E-value=4.4e+02  Score=20.81  Aligned_cols=22  Identities=45%  Similarity=0.457  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A804HIJ1|   87 KSPDASSAFSPASPATPNGTKG  108 (307)
+Q Consensus        87 kspdassafspaspatpngtkg  108 (307)
+                      .....+.+-+|.+|-..||||.
+T Consensus       328 ~~~~~~~~~~~~~~~~~~~~~~  349 (354)
+T 7NE1_B          328 MSGSNSPHGSPTSPLDSNGTKH  349 (354)
+T ss_dssp             ----------------------
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Confidence            3344455667777777788774
+
+
+No 28
+>2GS4_A Protein yciF; STRESS PROTEINS, RUBRERYTHRIN, Metal Binding; HET: MSE; 2.0A {Escherichia coli} SCOP: a.25.1.4
+Probab=21.16  E-value=6.4e+02  Score=19.57  Aligned_cols=54  Identities=15%  Similarity=0.173  Sum_probs=36.6  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIJ1|  157 KVQALSEMASEQLKRFDEWKELKQHKEFQDLREVMEKSSREALGHQEKLKAEHR  210 (307)
+Q Consensus       157 kvqalsemaseqlkrfdewkelkqhkefqdlrevmekssrealghqeklkaehr  210 (307)
+                      -++.|.++..-...-.+-...+..+-...+|++.++....+...|.+.|..--+
+T Consensus        10 ~~~~L~~l~~~E~~~~~~l~~~~~~~~~~~l~~~l~~~~~~~~~~~~~L~~~~~   63 (166)
+T 2GS4_A           10 FIHLLSDTYSAEKQLTRALAKLARATSNEKLSQAFHAHLEETHGQIERIDQVVE   63 (166)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSCSCHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344555554444444445555666677788999999999999999888875543
+
+
+No 29
+>5ME5_B Eukaryotic transcription initiation factor 4E; translation initiation eIF4F complex, translation; HET: SO4; 1.9A {Cucumis melo}
+Probab=20.65  E-value=1.2e+02  Score=24.99  Aligned_cols=23  Identities=35%  Similarity=0.566  Sum_probs=17.8  Template_Neff=5.600
+
+Q ss_pred             HHHHHHHHccHHHHHHHhCCcccccc
+Q tr|A0A804HIJ1|   23 CYYRDWLLRREDVLEECMSLPKLSSY   48 (307)
+Q Consensus        23 cyyrdwllrredvleecmslpklssy   48 (307)
+                      -|-||+||.   ..+.|..||.--..
+T Consensus        55 kYSRDFLLt---f~eqctdLP~gFei   77 (90)
+T 5ME5_B           55 KYSRDFLLK---FAEQFLDLPHNFEV   77 (90)
+T ss_dssp             CCCHHHHHH---TGGGCCSCCTTCCC
+T ss_pred             cccHHHHHH---HHHHhccCCCcccc
+Confidence            488999998   46789999975443
+
+

@@ -1,0 +1,426 @@
+Query         tr|V9GY18|V9GY18_HUMAN
+Match_columns 98
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:53:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1913.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2YGW_B MALONYL-COA DECARBOXYLA  99.9 3.4E-25 3.7E-30  176.9   3.4   96    1-96    201-296 (460)
+  2 4F0X_A Malonyl-CoA decarboxyla  99.9 1.1E-24 1.2E-29  173.9   3.5   96    1-96    196-291 (458)
+  3 4KS9_B Malonyl-CoA decarboxyla  99.8   2E-21 2.1E-26  155.4   3.8   94    1-96    176-269 (428)
+  4 4KSA_A Malonyl-CoA decarboxyla  99.8 5.1E-21 5.5E-26  153.3   1.7   94    1-96    209-303 (453)
+  5 4KSA_D Malonyl-CoA decarboxyla  99.8 5.1E-21 5.5E-26  153.3   1.7   94    1-96    209-303 (453)
+  6 4KSF_A Malonyl-CoA decarboxyla  99.8 4.9E-21 5.3E-26  153.2   1.0   94    1-96    207-301 (456)
+  7 7JTK_H Radial spoke 1; cilia,   56.5      11 0.00012   31.6   1.0    8    4-11    214-221 (465)
+  8 7DMP_b Radial spoke head prote  48.5      26 0.00029   32.5   2.1    6    4-9     426-431 (716)
+  9 7JRJ_C Radial spoke protein 10  48.3      16 0.00018   30.8   0.8    7    4-10    215-221 (466)
+ 10 7JRJ_D Radial spoke protein 10  36.4      31 0.00034   29.1   0.7    6    5-10    195-200 (459)
+ 11 7JTK_L Radial spoke 1; cilia,   36.4      31 0.00034   29.1   0.7    8    4-11    194-201 (459)
+ 12 5IZ5_A Cytosolic phospholipase  33.9      75 0.00082   26.4   2.4   25    4-29    714-738 (814)
+ 13 1R8J_B KaiA; KaiA, Circadian C  29.1 3.3E+02  0.0036   19.0   5.0   15   72-86    240-254 (289)
+ 14 2L4M_A Uncharacterized protein  27.0 1.5E+02  0.0016   17.4   2.3   12   76-87     41-52  (69)
+ 15 2CU5_A Conserved Hypothetical   26.3 1.4E+02  0.0016   20.2   2.4   12    2-13    106-117 (129)
+ 16 2CU5_B Conserved Hypothetical   26.3 1.4E+02  0.0016   20.2   2.4   13    2-14    106-118 (129)
+ 17 1CJY_A CYTOSOLIC PHOSPHOLIPASE  26.2 1.1E+02  0.0012   25.9   2.3   24    5-29    618-644 (749)
+ 18 1CJY_B CYTOSOLIC PHOSPHOLIPASE  26.2 1.1E+02  0.0012   25.9   2.3   24    5-29    618-644 (749)
+ 19 7AWK_A Mycobacterium tuberculo  25.1 2.5E+02  0.0027   17.5   3.1    9   20-28     90-98  (130)
+ 20 7NBU_Y TOXIN; HET: MEQ, G7M, 4  24.3 1.4E+02  0.0015   18.6   1.9   20    5-28     70-89  (121)
+ 21 1ZVB_A E2 glycoprotein; SARS c  22.9   1E+02  0.0011   19.3   1.1   10   31-40     16-25  (34)
+ 22 3BD9_A 3-O-sulfotransferase, h  22.8 3.4E+02  0.0037   17.1   3.5   26   17-42     22-47  (280)
+
+No 1
+>2YGW_B MALONYL-COA DECARBOXYLASE, MITOCHONDRIAL (E.C.4.1.1.9); LYASE; 2.8A {HOMO SAPIENS}
+Probab=99.91  E-value=3.4e-25  Score=176.94  Aligned_cols=96  Identities=88%  Similarity=1.263  Sum_probs=84.3  Template_Neff=6.400
+
+Q ss_pred             CCCCcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHHh
+Q tr|V9GY18|V9GY    1 VGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKR   80 (98)
+Q Consensus         1 vgpyrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflikr   80 (98)
+                      ++++||||+|+||+||+|||+|||||||++||+||++|++...+.+..+++++++||||||||||+||+||++|++|||+
+T Consensus       201 l~~~Rr~f~~~Hp~mp~ePL~fv~vAl~~~ip~si~~Il~~~~~~~~~~~~~~~~AiFYSIss~q~GL~Gi~lG~~LIk~  280 (460)
+T 2YGW_B          201 VGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETAAANKITAAIFYSISLTQQGLQGVELGTFLIKR  280 (460)
+T ss_dssp             HSTTEEEEEEEETTSTTCCSEEEEEEEESSCCCCSHHHHSCCCC-------CCCEEEEEEEEECCGGGTTSCHHHHHHHH
+T ss_pred             cCCCceEEEEecCCCCCCceEEEEeecccCcccchHHHHhcCCCCchhccccCCEEEEEeeeccccccccchHHHHHHHH
+Confidence            57899999999999999999999999999999999999987654322345678999999999999999999999999999
+
+
+Q ss_pred             hhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   81 VVKELQMESRSVAQAE   96 (98)
+Q Consensus        81 vvkelqmesrsvaqae   96 (98)
+                      |+++|++++|+|++|.
+T Consensus       281 vv~~L~~e~P~i~~f~  296 (460)
+T 2YGW_B          281 VVKELQREFPHLGVFS  296 (460)
+T ss_dssp             HHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHCCCccEEE
+Confidence            9999999999998763
+
+
+No 2
+>4F0X_A Malonyl-CoA decarboxylase, mitochondrial (E.C.4.1.1.9); Enzyme, Peroxisome, LYASE; HET: 0OR; 3.29A {Homo sapiens}
+Probab=99.90  E-value=1.1e-24  Score=173.90  Aligned_cols=96  Identities=91%  Similarity=1.300  Sum_probs=87.1  Template_Neff=6.400
+
+Q ss_pred             CCCCcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHHh
+Q tr|V9GY18|V9GY    1 VGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKR   80 (98)
+Q Consensus         1 vgpyrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflikr   80 (98)
+                      ++++||||+|+||+||+|||+|||||||++||+||++|++...+.+..+++++++||||||||||+||+||++|++|||+
+T Consensus       196 l~~~Rr~f~l~Hp~~p~ePl~fv~vAl~~~ip~si~~il~~~~~~~~~~~~~~~~AiFYSIss~q~GL~Gi~lG~~LIk~  275 (458)
+T 4F0X_A          196 VGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKR  275 (458)
+T ss_dssp             TSTTEEEEEEEESSSTTSEEEEEEEEEESSCCCCSHHHHTCCCCCCCCCSTTCCEEEEEEEEECCGGGTTTSCSHHHHHH
+T ss_pred             cCCCceEEEEecCCCCCCceEEEEEEccCCcccchHHHHhcCCCCcccchhcCcEEEEEEEeccccccccccHHHHHHHH
+Confidence            57899999999999999999999999999999999999987654322345678999999999999999999999999999
+
+
+Q ss_pred             hhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   81 VVKELQMESRSVAQAE   96 (98)
+Q Consensus        81 vvkelqmesrsvaqae   96 (98)
+                      |+++|++++|+|++|.
+T Consensus       276 vv~~L~~e~P~i~~f~  291 (458)
+T 4F0X_A          276 VVKELQREFPHLGVFS  291 (458)
+T ss_dssp             HHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHCCCccEEE
+Confidence            9999999999998763
+
+
+No 3
+>4KS9_B Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; 2.3A {Cupriavidus metallidurans}
+Probab=99.84  E-value=2e-21  Score=155.40  Aligned_cols=94  Identities=45%  Similarity=0.748  Sum_probs=82.2  Template_Neff=6.100
+
+Q ss_pred             CCCCcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHHh
+Q tr|V9GY18|V9GY    1 VGPYRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIKR   80 (98)
+Q Consensus         1 vgpyrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflikr   80 (98)
+                      ++++||||+|+||.||+|||+|||||||++||+||++|++...+.  .++.++++||||||||+|+||+||++|++|||+
+T Consensus       176 l~~~Rr~fal~Hp~~p~ePL~fv~vAl~~~ip~si~~il~~~~~~--~~~~~~~~AiFYSIss~q~GL~Gi~lG~~LIk~  253 (428)
+T 4KS9_B          176 LDSDRRCYAFFHPRIPREPLIFVEVAFVPEMAANVQALLDEAAPL--EDLRRVKWAIFYSISNTQAGLRGVSFGNFLLKR  253 (428)
+T ss_dssp             TSTTEEEEEEECTTSTTCCCEEEEEEEESSCCCCHHHHC----------CCSCCEEEEEEEEECCGGGTTCCCCSCHHHH
+T ss_pred             ccCCCeEEEEeCcCCCCCCeEEEEeeccchhhhchHHHHccCCCc--CchhcCcEEEEEeeecccccccccchhHHHHHH
+Confidence            578999999999999999999999999999999999999875543  344578999999999999999999999999999
+
+
+Q ss_pred             hhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   81 VVKELQMESRSVAQAE   96 (98)
+Q Consensus        81 vvkelqmesrsvaqae   96 (98)
+                      |+++|++++|+|++|.
+T Consensus       254 vv~~L~~e~P~i~~f~  269 (428)
+T 4KS9_B          254 VIEELQREHPKLKQFA  269 (428)
+T ss_dssp             HHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHCCCCCeEE
+Confidence            9999999999998763
+
+
+No 4
+>4KSA_A Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; HET: MSE; 2.7A {Rhodopseudomonas palustris}
+Probab=99.82  E-value=5.1e-21  Score=153.33  Aligned_cols=94  Identities=41%  Similarity=0.618  Sum_probs=86.1  Template_Neff=6.300
+
+Q ss_pred             CCC-CcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHH
+Q tr|V9GY18|V9GY    1 VGP-YRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIK   79 (98)
+Q Consensus         1 vgp-yrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflik   79 (98)
+                      +++ +||||+|+||+||+|||+||||||+++||+||++|++...+.  .+++.+++||||||||+++||+||++|++|||
+T Consensus       209 l~~~~Rr~f~l~Hp~~p~ePl~fv~vAl~~~ip~si~~il~~~~~~--~~~~~~~~AifYSIss~q~GL~Gi~lG~~LIk  286 (453)
+T 4KSA_A          209 LAPPDRRCYGFFHPRLVDEPLIFVEVALTKDSPAAIAPLLDLEREP--IAASDATTAVFYSISNTQQGLAGISFGNFLIK  286 (453)
+T ss_dssp             HCCTTEEEEEEECGGGTTCCSEEEEEEEESSCCSCHHHHHCTTSCC--CCTTTCCEEEEEEEEECCGGGTTCCCCSCHHH
+T ss_pred             CCCCCceEEEEeCHHHcCCCeEEeEeeccCCCCccccchhcccCCC--CCccCCCEEEEEeecccccccccchHHHHHHH
+Confidence            466 999999999999999999999999999999999999876543  33557899999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   80 RVVKELQMESRSVAQAE   96 (98)
+Q Consensus        80 rvvkelqmesrsvaqae   96 (98)
+                      +|+++|++++|+|++|.
+T Consensus       287 ~vv~~l~~~~p~i~~f~  303 (453)
+T 4KSA_A          287 QVVEEIKRELPNVQTFV  303 (453)
+T ss_dssp             HHHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHHCCCcceEE
+Confidence            99999999999998763
+
+
+No 5
+>4KSA_D Malonyl-CoA decarboxylase (E.C.4.1.1.9); NESGC, Structural Genomics, PSI-Biology, Northeast; HET: MSE; 2.7A {Rhodopseudomonas palustris}
+Probab=99.82  E-value=5.1e-21  Score=153.33  Aligned_cols=94  Identities=41%  Similarity=0.618  Sum_probs=86.3  Template_Neff=6.300
+
+Q ss_pred             CCC-CcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHH
+Q tr|V9GY18|V9GY    1 VGP-YRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIK   79 (98)
+Q Consensus         1 vgp-yrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflik   79 (98)
+                      +++ +||||+|+||+||+|||+||||||+++||+||++|++...+.  .+++.+++||||||||+++||+||++|++|||
+T Consensus       209 l~~~~Rr~f~l~Hp~~p~ePl~fv~vAl~~~ip~si~~il~~~~~~--~~~~~~~~AifYSIss~q~GL~Gi~lG~~LIk  286 (453)
+T 4KSA_D          209 LAPPDRRCYGFFHPRLVDEPLIFVEVALTKDSPAAIAPLLDLEREP--IAASDATTAVFYSISNTQQGLAGISFGNFLIK  286 (453)
+T ss_dssp             HSSTTEEEEEEEBTTBTTCCSEEEEEEEESSCCSCSHHHHSSCSCC--CCGGGCCEEEEEEEEECCGGGTTCCCCSCHHH
+T ss_pred             CCCCCceEEEEeCHHHcCCCeEEeEeeccCCCCccccchhcccCCC--CCccCCCEEEEEeecccccccccchHHHHHHH
+Confidence            466 999999999999999999999999999999999999876543  34567899999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   80 RVVKELQMESRSVAQAE   96 (98)
+Q Consensus        80 rvvkelqmesrsvaqae   96 (98)
+                      +|+++|++++|+|++|.
+T Consensus       287 ~vv~~l~~~~p~i~~f~  303 (453)
+T 4KSA_D          287 QVVEEIKRELPNVQTFV  303 (453)
+T ss_dssp             HHHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHHCCCcceEE
+Confidence            99999999999998763
+
+
+No 6
+>4KSF_A Malonyl-CoA decarboxylase; NESGC, Structural Genomics, PSI-Biology, Northeast; HET: MSE; 3.1A {Agrobacterium vitis}
+Probab=99.81  E-value=4.9e-21  Score=153.20  Aligned_cols=94  Identities=38%  Similarity=0.632  Sum_probs=86.2  Template_Neff=6.400
+
+Q ss_pred             CCC-CcceeeccCCCCCCCceeeEEeeccCChhHHHHHHHhhCCCCCchhhhHHHhhhhhhhhhhcCCCChhHHHHHHHH
+Q tr|V9GY18|V9GY    1 VGP-YRRCYFFSHCSTPGEPLVVLHVALTGDISSNIQAIVKEHPPSETEEKNKITAAIFYSISLTQQGLQGVELGTFLIK   79 (98)
+Q Consensus         1 vgp-yrrcyffshcstpgeplvvlhvaltgdissniqaivkehppseteeknkitaaifysisltqqglqgvelgtflik   79 (98)
+                      +++ +||||+|+||.||+|||+|||||||++||+||++|++...+.  .+++++++||||||||+++||+||++|++|||
+T Consensus       207 l~~~~Rr~f~l~Hp~~p~ePl~fv~vAl~~~ip~si~~il~~~~~~--~~~~~~~~AiFYSIss~~~GL~Gi~lG~~LIk  284 (456)
+T 4KSF_A          207 LAPADRRCFAFFHPRLRDDPLVFVEVALTRSIPSAIADVLDESRDH--IGADTATTAVFYSISNCQDGLRGISFGNFLIK  284 (456)
+T ss_dssp             TSSTTEEEEEEECTTTCSSCSEEEEEEEESSCCSCHHHHHCTTSCC--CCGGGCCEEEEEEEEECCSTTTTSCCHHHHHH
+T ss_pred             cCCCCceEEEEECHHHcCCceeeeehcccccCCccchhhhcccccc--CCcCCCcEEEEEeecccCcccccchHHHHHHH
+Confidence            456 999999999999999999999999999999999999876543  34567899999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCCCCC
+Q tr|V9GY18|V9GY   80 RVVKELQMESRSVAQAE   96 (98)
+Q Consensus        80 rvvkelqmesrsvaqae   96 (98)
+                      +|+++|++++|+|++|.
+T Consensus       285 ~vv~~l~~~~p~i~~f~  301 (456)
+T 4KSF_A          285 QVVEDLRRDLPGLKEFV  301 (456)
+T ss_dssp             HHHHHHHHHCTTCCEEE
+T ss_pred             HHHHHHHHHCCCcceeE
+Confidence            99999999999998763
+
+
+No 7
+>7JTK_H Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=56.49  E-value=11  Score=31.59  Aligned_cols=8  Identities=13%  Similarity=0.318  Sum_probs=3.8  Template_Neff=7.200
+
+Q ss_pred             Ccceeecc
+Q tr|V9GY18|V9GY    4 YRRCYFFS   11 (98)
+Q Consensus         4 yrrcyffs   11 (98)
+                      ++++|...
+T Consensus       214 N~~~Yfv~  221 (465)
+T 7JTK_H          214 NKFTYLVC  221 (465)
+T ss_dssp             GSSEEEEE
+T ss_pred             CceEEEEE
+Confidence            35555443
+
+
+No 8
+>7DMP_b Radial spoke head protein 4; Cilia, Complex, Signal transducer., STRUCTURAL; 3.2A {Mus musculus}
+Probab=48.49  E-value=26  Score=32.49  Aligned_cols=6  Identities=33%  Similarity=0.794  Sum_probs=2.5  Template_Neff=5.300
+
+Q ss_pred             Ccceee
+Q tr|V9GY18|V9GY    4 YRRCYF    9 (98)
+Q Consensus         4 yrrcyf    9 (98)
+                      |+.+|.
+T Consensus       426 Nk~vYf  431 (716)
+T 7DMP_b          426 NKYVYF  431 (716)
+T ss_dssp             TSSBCE
+T ss_pred             CeEEEE
+Confidence            344443
+
+
+No 9
+>7JRJ_C Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=48.27  E-value=16  Score=30.78  Aligned_cols=7  Identities=14%  Similarity=0.358  Sum_probs=3.3  Template_Neff=7.000
+
+Q ss_pred             Ccceeec
+Q tr|V9GY18|V9GY    4 YRRCYFF   10 (98)
+Q Consensus         4 yrrcyff   10 (98)
+                      ++++|..
+T Consensus       215 N~~~Y~v  221 (466)
+T 7JRJ_C          215 NKFTYLV  221 (466)
+T ss_pred             CceEEEE
+Confidence            3455544
+
+
+No 10
+>7JRJ_D Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=36.44  E-value=31  Score=29.06  Aligned_cols=6  Identities=33%  Similarity=0.633  Sum_probs=2.6  Template_Neff=7.100
+
+Q ss_pred             cceeec
+Q tr|V9GY18|V9GY    5 RRCYFF   10 (98)
+Q Consensus         5 rrcyff   10 (98)
+                      +++|..
+T Consensus       195 ~~~yfv  200 (459)
+T 7JRJ_D          195 AYIYFV  200 (459)
+T ss_pred             eEEEEE
+Confidence            444443
+
+
+No 11
+>7JTK_L Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=36.44  E-value=31  Score=29.06  Aligned_cols=8  Identities=38%  Similarity=0.509  Sum_probs=3.8  Template_Neff=7.100
+
+Q ss_pred             Ccceeecc
+Q tr|V9GY18|V9GY    4 YRRCYFFS   11 (98)
+Q Consensus         4 yrrcyffs   11 (98)
+                      ++++|...
+T Consensus       194 N~~~yfv~  201 (459)
+T 7JTK_L          194 NAYIYFVS  201 (459)
+T ss_dssp             TSSEEEEE
+T ss_pred             CeEEEEEE
+Confidence            35555443
+
+
+No 12
+>5IZ5_A Cytosolic phospholipase A2 delta (E.C.3.1.1.4); Signal Transduction, Phospholipase, alpha/beta hydrolase; HET: SO4; 2.2A {Homo sapiens}
+Probab=33.89  E-value=75  Score=26.40  Aligned_cols=25  Identities=36%  Similarity=0.723  Sum_probs=18.5  Template_Neff=10.000
+
+Q ss_pred             CcceeeccCCCCCCCceeeEEeeccC
+Q tr|V9GY18|V9GY    4 YRRCYFFSHCSTPGEPLVVLHVALTG   29 (98)
+Q Consensus         4 yrrcyffshcstpgeplvvlhvaltg   29 (98)
+                      .+.||+|.....++.|+ +|+..+.+
+T Consensus       714 ~~~~~vf~~~~~~~~p~-vi~~pl~~  738 (814)
+T 5IZ5_A          714 PRECHLFSDPACPEAPI-LLHFPLVN  738 (814)
+T ss_dssp             CCSCEEECCTTCTTSCE-EEEECSCC
+T ss_pred             CCeEEEecCCCCCCCCE-EEEEeccC
+Confidence            57899998877777786 57777754
+
+
+No 13
+>1R8J_B KaiA; KaiA, Circadian Clock Protein; 2.03A {Synechococcus elongatus PCC 7942} SCOP: c.23.1.5, a.186.1.1
+Probab=29.05  E-value=3.3e+02  Score=18.99  Aligned_cols=15  Identities=27%  Similarity=0.401  Sum_probs=8.7  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHhhhhhhc
+Q tr|V9GY18|V9GY   72 ELGTFLIKRVVKELQ   86 (98)
+Q Consensus        72 elgtflikrvvkelq   86 (98)
+                      .+-..|+.+..++|+
+T Consensus       240 ~~~~~l~~~~~~~l~  254 (289)
+T 1R8J_B          240 EIHMELMDEFAKKLR  254 (289)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHcc
+Confidence            445556666666665
+
+
+No 14
+>2L4M_A Uncharacterized protein; Zbeta, Z-DNA binding protein, bent; NMR {Homo sapiens}
+Probab=26.97  E-value=1.5e+02  Score=17.41  Aligned_cols=12  Identities=8%  Similarity=0.041  Sum_probs=5.0  Template_Neff=8.800
+
+Q ss_pred             HHHHhhhhhhcc
+Q tr|V9GY18|V9GY   76 FLIKRVVKELQM   87 (98)
+Q Consensus        76 flikrvvkelqm   87 (98)
+                      .-+++.+..|.+
+T Consensus        41 ~~v~~~L~~L~~   52 (69)
+T 2L4M_A           41 KDVNRDLYRMKS   52 (69)
+T ss_dssp             HHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHH
+Confidence            344444444433
+
+
+No 15
+>2CU5_A Conserved Hypothetical Protein TT1486; Thermus Thermophilus HB8, Conserved Hypothetical; 1.84A {Thermus thermophilus}
+Probab=26.32  E-value=1.4e+02  Score=20.24  Aligned_cols=12  Identities=8%  Similarity=0.404  Sum_probs=5.6  Template_Neff=8.100
+
+Q ss_pred             CCCcceeeccCC
+Q tr|V9GY18|V9GY    2 GPYRRCYFFSHC   13 (98)
+Q Consensus         2 gpyrrcyffshc   13 (98)
+                      |+..++|.+.+.
+T Consensus       106 G~~q~i~l~e~~  117 (129)
+T 2CU5_A          106 GRWQQVFLAEFD  117 (129)
+T ss_dssp             CTTCEEEEEESS
+T ss_pred             CCCcEEEEEECC
+Confidence            334455555543
+
+
+No 16
+>2CU5_B Conserved Hypothetical Protein TT1486; Thermus Thermophilus HB8, Conserved Hypothetical; 1.84A {Thermus thermophilus}
+Probab=26.32  E-value=1.4e+02  Score=20.24  Aligned_cols=13  Identities=8%  Similarity=0.383  Sum_probs=6.2  Template_Neff=8.100
+
+Q ss_pred             CCCcceeeccCCC
+Q tr|V9GY18|V9GY    2 GPYRRCYFFSHCS   14 (98)
+Q Consensus         2 gpyrrcyffshcs   14 (98)
+                      |+..++|.+.+..
+T Consensus       106 G~~q~i~l~e~~~  118 (129)
+T 2CU5_B          106 GRWQQVFLAEFDG  118 (129)
+T ss_dssp             CTTCEEEEEESSC
+T ss_pred             CCCcEEEEEECCC
+Confidence            3344555555433
+
+
+No 17
+>1CJY_A CYTOSOLIC PHOSPHOLIPASE A2 (E.C.3.1.1.4); PHOSPHOLIPASE, LIPID-BINDING, HYDROLASE; HET: MES; 2.5A {Homo sapiens} SCOP: c.19.1.2, b.7.1.1
+Probab=26.22  E-value=1.1e+02  Score=25.87  Aligned_cols=24  Identities=25%  Similarity=0.665  Sum_probs=16.6  Template_Neff=9.200
+
+Q ss_pred             cceeeccCCCC---CCCceeeEEeeccC
+Q tr|V9GY18|V9GY    5 RRCYFFSHCST---PGEPLVVLHVALTG   29 (98)
+Q Consensus         5 rrcyffshcst---pgeplvvlhvaltg   29 (98)
+                      +.|+.|+....   ++.| .++|+.+.+
+T Consensus       618 ~~~~vF~~~~~~~~~~~P-~iiy~p~~n  644 (749)
+T 1CJY_A          618 KECYVFKPKNPDMEKDCP-TIIHFVLAN  644 (749)
+T ss_dssp             CSEEEECCCSSCSSCCCC-EEEEEECCC
+T ss_pred             ccceeccCCCCCCCCCCC-EEEEEeccc
+Confidence            56888887655   6667 567777754
+
+
+No 18
+>1CJY_B CYTOSOLIC PHOSPHOLIPASE A2 (E.C.3.1.1.4); PHOSPHOLIPASE, LIPID-BINDING, HYDROLASE; HET: MES; 2.5A {Homo sapiens} SCOP: c.19.1.2, b.7.1.1
+Probab=26.22  E-value=1.1e+02  Score=25.87  Aligned_cols=24  Identities=25%  Similarity=0.665  Sum_probs=14.0  Template_Neff=9.200
+
+Q ss_pred             cceeeccCCCC---CCCceeeEEeeccC
+Q tr|V9GY18|V9GY    5 RRCYFFSHCST---PGEPLVVLHVALTG   29 (98)
+Q Consensus         5 rrcyffshcst---pgeplvvlhvaltg   29 (98)
+                      +.|+.|+....   ++.| .++|+.+.+
+T Consensus       618 ~~~~vF~~~~~~~~~~~P-~iiy~p~~n  644 (749)
+T 1CJY_B          618 KECYVFKPKNPDMEKDCP-TIIHFVLAN  644 (749)
+T ss_dssp             CSEEEECC-------CCC-EEEEECCCC
+T ss_pred             ccceeccCCCCCCCCCCC-EEEEEeccc
+Confidence            56888887555   6667 566777654
+
+
+No 19
+>7AWK_A Mycobacterium tuberculosis, Toxin-Antitoxin-Chaperone, RNase, TOXIN; 1.91A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=25.07  E-value=2.5e+02  Score=17.52  Aligned_cols=9  Identities=22%  Similarity=0.124  Sum_probs=4.8  Template_Neff=10.100
+
+Q ss_pred             eeeEEeecc
+Q tr|V9GY18|V9GY   20 LVVLHVALT   28 (98)
+Q Consensus        20 lvvlhvalt   28 (98)
+                      ++++++...
+T Consensus        90 i~~l~~~~k   98 (130)
+T 7AWK_A           90 PVALTAFYA   98 (130)
+T ss_dssp             EEEEEEEEC
+T ss_pred             EEEEEEEec
+Confidence            555555553
+
+
+No 20
+>7NBU_Y TOXIN; HET: MEQ, G7M, 4OC, 2MG, PSU, 6MZ, OMU, 4D4, 5MC, D2T, 1MG, UR3, H2U, 5MU, 2MA, FME, OMG, 4SU, OMC, MG, MA6, 3TD;{Escherichia coli}
+Probab=24.30  E-value=1.4e+02  Score=18.64  Aligned_cols=20  Identities=30%  Similarity=0.418  Sum_probs=10.5  Template_Neff=9.800
+
+Q ss_pred             cceeeccCCCCCCCceeeEEeecc
+Q tr|V9GY18|V9GY    5 RRCYFFSHCSTPGEPLVVLHVALT   28 (98)
+Q Consensus         5 rrcyffshcstpgeplvvlhvalt   28 (98)
+                      -|+|...+    +..++++++..-
+T Consensus        70 ~Ri~~~~~----~~~~i~l~~~~k   89 (121)
+T 7NBU_Y           70 FRVLFFRW----GQHPVALTAFYA   89 (121)
+T ss_dssp             EEEEEECC----TTSCEEEEEEEC
+T ss_pred             EEEEEEEe----CCEEEEEEEEEc
+Confidence            45665554    334555555543
+
+
+No 21
+>1ZVB_A E2 glycoprotein; SARS coronavirus, membrane fusion, S2; 1.7A {SARS coronavirus} SCOP: h.3.3.1
+Probab=22.90  E-value=1e+02  Score=19.34  Aligned_cols=10  Identities=40%  Similarity=0.511  Sum_probs=6.6  Template_Neff=3.200
+
+Q ss_pred             hhHHHHHHHh
+Q tr|V9GY18|V9GY   31 ISSNIQAIVK   40 (98)
+Q Consensus        31 issniqaivk   40 (98)
+                      |.+++++|.+
+T Consensus        16 ISssi~dIy~   25 (34)
+T 1ZVB_A           16 ISSVLNDILS   25 (34)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            5667777764
+
+
+No 22
+>3BD9_A 3-O-sulfotransferase, heparan sulfate, heparan sulfate; HET: A3P; 2.3A {Homo sapiens}
+Probab=22.85  E-value=3.4e+02  Score=17.06  Aligned_cols=26  Identities=4%  Similarity=0.070  Sum_probs=17.8  Template_Neff=12.700
+
+Q ss_pred             CCceeeEEeeccCChhHHHHHHHhhC
+Q tr|V9GY18|V9GY   17 GEPLVVLHVALTGDISSNIQAIVKEH   42 (98)
+Q Consensus        17 geplvvlhvaltgdissniqaivkeh   42 (98)
+                      ..+-.++++..-..=.+.+..++...
+T Consensus        22 ~~~~~i~i~g~~rsGtt~l~~~l~~~   47 (280)
+T 3BD9_A           22 QQLPKAIIIGVRKGGTRALLEMLNLH   47 (280)
+T ss_dssp             ECCCSEEEEECTTSSHHHHHHHHTTS
+T ss_pred             ccCCcEEEEcCCcccHHHHHHHHhhC
+Confidence            34556677777777778888888643
+
+

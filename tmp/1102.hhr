@@ -1,0 +1,168 @@
+Query         tr|K7EJV4|K7EJV4_HUMAN
+Match_columns 48
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:27:18 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1102.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KTO_C Mitotic spindle assembl  36.5      34 0.00037   21.1   0.7   16   10-25     27-42  (64)
+  2 6M7A_C Mitotic spindle assembl  34.0      47 0.00051   19.3   1.0   16   11-26      1-16  (46)
+  3 6WWA_Y Mitotic spindle assembl  21.6      96   0.001   20.3   0.9   18    8-25     56-73  (99)
+  4 6LAR_G ESX-3 secretion system   10.6 2.4E+02  0.0026   20.1   0.7   12   35-46    296-308 (309)
+  5 5MPH_A Grainyhead-like protein   9.6 2.2E+02  0.0024   19.8   0.1    9   16-24    221-229 (238)
+  6 6XF9_B Packaging protein UL32;   9.3 2.6E+02  0.0028   22.5   0.5   26   20-45      1-26  (467)
+  7 6XF9_D Packaging protein UL32;   9.3 2.6E+02  0.0028   22.5   0.5   23   20-42      1-23  (467)
+  8 5MR7_B Grainyhead-like protein   9.0 2.3E+02  0.0025   20.6   0.1    9   16-24    262-270 (278)
+  9 7APD_B DNA, virus, helicase, r   8.3 4.3E+02  0.0047   17.5   1.1   15    4-18    278-292 (298)
+ 10 2W59_A IGY FCU3-4; IMMUNOGLOBU   8.0   4E+02  0.0043   14.7   0.7   12   10-21      5-16  (231)
+
+No 1
+>6KTO_C Mitotic spindle assembly checkpoint protein; Shieldin, Complex, Conformational dimer, NHEJ; 3.44976331487A {Homo sapiens}
+Probab=36.47  E-value=34  Score=21.12  Aligned_cols=16  Identities=44%  Similarity=0.742  Sum_probs=14.2  Template_Neff=3.800
+
+Q ss_pred             CCCCCCCCchhccccc
+Q tr|K7EJV4|K7EJ   10 QQPFPCLPPALFIPFS   25 (48)
+Q Consensus        10 qqpfpclppalfipfs   25 (48)
+                      -++|||-++-.|+|+.
+T Consensus        27 Le~FP~R~lp~F~PWF   42 (64)
+T 6KTO_C           27 IQDFPTRPLSRFIPWF   42 (64)
+T ss_dssp             HSCCCBCCCCCCCCSS
+T ss_pred             HhhCCCCCCCceecCC
+Confidence            4799999999999985
+
+
+No 2
+>6M7A_C Mitotic spindle assembly checkpoint protein; REV7, shieldin, SHLD3, DNA damage; 1.9A {Homo sapiens}
+Probab=33.99  E-value=47  Score=19.29  Aligned_cols=16  Identities=44%  Similarity=0.733  Sum_probs=13.4  Template_Neff=4.000
+
+Q ss_pred             CCCCCCCchhcccccc
+Q tr|K7EJV4|K7EJ   11 QPFPCLPPALFIPFSL   26 (48)
+Q Consensus        11 qpfpclppalfipfsl   26 (48)
+                      ++|||-++-.|+|+.-
+T Consensus         1 e~FP~R~~p~F~PWFP   16 (46)
+T 6M7A_C            1 QDFPTRPLSRFIPWFP   16 (46)
+T ss_pred             CCCCCCCCCceecCCC
+Confidence            5799999999999853
+
+
+No 3
+>6WWA_Y Mitotic spindle assembly checkpoint protein; REV7, SHLD2, SHLD3, NUCLEAR PROTEIN; 3.8A {Homo sapiens}
+Probab=21.56  E-value=96  Score=20.31  Aligned_cols=18  Identities=44%  Similarity=0.706  Sum_probs=15.4  Template_Neff=4.400
+
+Q ss_pred             CCCCCCCCCCchhccccc
+Q tr|K7EJV4|K7EJ    8 SAQQPFPCLPPALFIPFS   25 (48)
+Q Consensus         8 saqqpfpclppalfipfs   25 (48)
+                      .+-++|||-++-.|+|+.
+T Consensus        56 k~LEdFP~R~~p~F~PWF   73 (99)
+T 6WWA_Y           56 KAIQDFPTRPLSRFIPWF   73 (99)
+T ss_dssp             HTTSCCCEECCCCCCCSS
+T ss_pred             HHhhcCCCCCCCccccCC
+Confidence            356899999999999985
+
+
+No 4
+>6LAR_G ESX-3 secretion system ATPase EccB3; Membrane protein; 3.7A {Mycolicibacterium smegmatis MC2 155}
+Probab=10.59  E-value=2.4e+02  Score=20.09  Aligned_cols=12  Identities=67%  Similarity=0.902  Sum_probs=7.9  Template_Neff=7.300
+
+Q ss_pred             hHhhhhhcC-CCC
+Q tr|K7EJV4|K7EJ   35 MVEAELLQE-GHP   46 (48)
+Q Consensus        35 mveaellqe-ghp   46 (48)
+                      .||+|+-|| |||
+T Consensus       296 ~~~~~~~~~~~~~  308 (309)
+T 6LAR_G          296 SVEHEAAQEAGHP  308 (309)
+T ss_pred             ehhHHHHHHcCCC
+Confidence            477777776 454
+
+
+No 5
+>5MPH_A Grainyhead-like protein 1 homolog; grainyhead, GRHL1, DNA-binding domain, transcription; 2.337A {Homo sapiens}
+Probab=9.59  E-value=2.2e+02  Score=19.83  Aligned_cols=9  Identities=56%  Similarity=0.899  Sum_probs=7.0  Template_Neff=6.900
+
+Q ss_pred             CCchhcccc
+Q tr|K7EJV4|K7EJ   16 LPPALFIPF   24 (48)
+Q Consensus        16 lppalfipf   24 (48)
+                      -+|+||||-
+T Consensus       221 ~~pvlf~p~  229 (238)
+T 5MPH_A          221 TQPVLFIPD  229 (238)
+T ss_dssp             CCCCCCCCC
+T ss_pred             CCCeeecCc
+Confidence            478899984
+
+
+No 6
+>6XF9_B Packaging protein UL32; viral packaging, viral cleavage, VIRAL; HET: ZN; 2.22A {Human herpesvirus 8 type M}
+Probab=9.30  E-value=2.6e+02  Score=22.55  Aligned_cols=26  Identities=27%  Similarity=0.405  Sum_probs=20.0  Template_Neff=5.100
+
+Q ss_pred             hcccccccccccchhhHhhhhhcCCC
+Q tr|K7EJV4|K7EJ   20 LFIPFSLQTISAHSIMVEAELLQEGH   45 (48)
+Q Consensus        20 lfipfslqtisahsimveaellqegh   45 (48)
+                      .|+|+.+.||..|+--++.-|...-.
+T Consensus         1 ~f~Pw~~~t~~~h~~~l~~ll~~s~l   26 (467)
+T 6XF9_B            1 MFVPWQLGTITRHRDELQKLLAASLL   26 (467)
+T ss_dssp             -CCSSCHHHHHHTHHHHHHHHHTTSC
+T ss_pred             CCCCCcHHHHHHhHHHHHHHHHHccC
+Confidence            48999999999999888776654433
+
+
+No 7
+>6XF9_D Packaging protein UL32; viral packaging, viral cleavage, VIRAL; HET: ZN; 2.22A {Human herpesvirus 8 type M}
+Probab=9.30  E-value=2.6e+02  Score=22.55  Aligned_cols=23  Identities=30%  Similarity=0.546  Sum_probs=18.4  Template_Neff=5.100
+
+Q ss_pred             hcccccccccccchhhHhhhhhc
+Q tr|K7EJV4|K7EJ   20 LFIPFSLQTISAHSIMVEAELLQ   42 (48)
+Q Consensus        20 lfipfslqtisahsimveaellq   42 (48)
+                      .|+|+.+.||..|+--++.-|..
+T Consensus         1 ~f~Pw~~~t~~~h~~~l~~ll~~   23 (467)
+T 6XF9_D            1 MFVPWQLGTITRHRDELQKLLAA   23 (467)
+T ss_dssp             -CCSSCHHHHHHTHHHHHHHHHT
+T ss_pred             CCCCCcHHHHHHhHHHHHHHHHH
+Confidence            48999999999999888765544
+
+
+No 8
+>5MR7_B Grainyhead-like protein 2 homolog; transcription factor, DNA-binding domain, transcription; 2.5A {Homo sapiens}
+Probab=9.04  E-value=2.3e+02  Score=20.62  Aligned_cols=9  Identities=56%  Similarity=0.870  Sum_probs=7.1  Template_Neff=6.200
+
+Q ss_pred             CCchhcccc
+Q tr|K7EJV4|K7EJ   16 LPPALFIPF   24 (48)
+Q Consensus        16 lppalfipf   24 (48)
+                      -+|.||||-
+T Consensus       262 ~~pvlF~p~  270 (278)
+T 5MR7_B          262 SQPVLFIPD  270 (278)
+T ss_dssp             SCCCCCCCC
+T ss_pred             CCCeeeCCc
+Confidence            478999984
+
+
+No 9
+>7APD_B DNA, virus, helicase, replisome, DNA; 3.9A {Bovine papillomavirus}
+Probab=8.33  E-value=4.3e+02  Score=17.49  Aligned_cols=15  Identities=27%  Similarity=0.598  Sum_probs=9.5  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCCCCc
+Q tr|K7EJV4|K7EJ    4 EVKGSAQQPFPCLPP   18 (48)
+Q Consensus         4 evkgsaqqpfpclpp   18 (48)
+                      +..|..+|||.|-..
+T Consensus       278 ~~~~~~~~~~~~~~~  292 (298)
+T 7APD_B          278 EEDGDSMRTFTCSAR  292 (298)
+T ss_dssp             TTSSSCCGGGCC---
+T ss_pred             ccCCCcCCcceeecC
+Confidence            556778899988643
+
+
+No 10
+>2W59_A IGY FCU3-4; IMMUNOGLOBULIN, AVIAN, IGY FC, IMMUNE; HET: GOL, NAG, MAN; 1.75A {GALLUS GALLUS}
+Probab=7.99  E-value=4e+02  Score=14.66  Aligned_cols=12  Identities=25%  Similarity=0.592  Sum_probs=2.6  Template_Neff=12.200
+
+Q ss_pred             CCCCCCCCchhc
+Q tr|K7EJV4|K7EJ   10 QQPFPCLPPALF   21 (48)
+Q Consensus        10 qqpfpclppalf   21 (48)
+                      +.+++|.||.++
+T Consensus         5 ~~~~~~~~p~~~   16 (231)
+T 2W59_A            5 DGAQSCSPIQLY   16 (231)
+T ss_dssp             -------CCEEE
+T ss_pred             CCCCcCCCcEEE
+Confidence            345566665544
+
+

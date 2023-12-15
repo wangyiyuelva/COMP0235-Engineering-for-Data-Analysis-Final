@@ -1,0 +1,170 @@
+Query         tr|M0R2C0|M0R2C0_HUMAN
+Match_columns 63
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:06:24 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1926.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1IGQ_D Transcriptional repress  40.6      42 0.00046   19.6   1.5   19   14-32     30-48  (62)
+  2 1IGU_A Transcriptional repress  40.6      42 0.00046   19.6   1.5   19   14-32     30-48  (62)
+  3 1IGU_B Transcriptional repress  40.6      42 0.00046   19.6   1.5   19   14-32     30-48  (62)
+  4 2OQ0_B Gamma-interferon-induci  14.8 5.8E+02  0.0063   16.3   3.5   36   20-55    145-185 (206)
+  5 2OQ0_D Gamma-interferon-induci  14.8 5.8E+02  0.0063   16.3   3.5   36   20-55    145-185 (206)
+  6 4QGU_B Gamma-interferon-induci  14.8 5.8E+02  0.0063   16.3   3.5   37   20-56    145-186 (206)
+  7 3HLZ_A uncharacterized protein  12.4   6E+02  0.0065   18.0   3.0   25   30-54     29-53  (269)
+  8 3HLZ_B uncharacterized protein  12.4   6E+02  0.0065   18.0   3.0   25   30-54     29-53  (269)
+  9 1CEU_A REGULATORY PROTEIN, HEL   8.3 3.8E+02  0.0042   17.0   0.8    9   12-20      3-11  (51)
+ 10 5JK7_F DNA damage-binding prot   8.3 3.8E+02  0.0041   18.5   0.8   10   12-21      3-12  (96)
+
+No 1
+>1IGQ_D Transcriptional repressor protein KorB; SH3 domain, dimerization domain, TRANSCRIPTION; 1.7A {Escherichia coli} SCOP: b.34.1.3
+Probab=40.61  E-value=42  Score=19.59  Aligned_cols=19  Identities=42%  Similarity=0.522  Sum_probs=13.3  Template_Neff=6.800
+
+Q ss_pred             CCCCCCeeEEcCCCCCccc
+Q tr|M0R2C0|M0R2   14 PEDEGPVMVKLEDSEEEGE   32 (63)
+Q Consensus        14 pedegpvmvkledseeege   32 (63)
+                      |...|-+.|+++|..++-|
+T Consensus        30 p~~~g~~wV~~~d~g~~~e   48 (62)
+T 1IGQ_D           30 PPAEGYAWLKYEDDGQEFE   48 (62)
+T ss_dssp             CSSTTEEEEEETTTCCEEE
+T ss_pred             CCCCCEEEEEECCCCCEEE
+Confidence            4458889999987655433
+
+
+No 2
+>1IGU_A Transcriptional repressor protein KorB; SH3 domain, dimerization domain, transcription; 2.2A {Escherichia coli} SCOP: b.34.1.3
+Probab=40.61  E-value=42  Score=19.59  Aligned_cols=19  Identities=42%  Similarity=0.522  Sum_probs=13.3  Template_Neff=6.800
+
+Q ss_pred             CCCCCCeeEEcCCCCCccc
+Q tr|M0R2C0|M0R2   14 PEDEGPVMVKLEDSEEEGE   32 (63)
+Q Consensus        14 pedegpvmvkledseeege   32 (63)
+                      |...|-+.|+++|..++-|
+T Consensus        30 p~~~g~~wV~~~d~g~~~e   48 (62)
+T 1IGU_A           30 PPAEGYAWLKYEDDGQEFE   48 (62)
+T ss_dssp             CSSTTEEEEEETTTCCEEE
+T ss_pred             CCCCCEEEEEECCCCCEEE
+Confidence            4458889999987655433
+
+
+No 3
+>1IGU_B Transcriptional repressor protein KorB; SH3 domain, dimerization domain, transcription; 2.2A {Escherichia coli} SCOP: b.34.1.3
+Probab=40.61  E-value=42  Score=19.59  Aligned_cols=19  Identities=42%  Similarity=0.522  Sum_probs=13.3  Template_Neff=6.800
+
+Q ss_pred             CCCCCCeeEEcCCCCCccc
+Q tr|M0R2C0|M0R2   14 PEDEGPVMVKLEDSEEEGE   32 (63)
+Q Consensus        14 pedegpvmvkledseeege   32 (63)
+                      |...|-+.|+++|..++-|
+T Consensus        30 p~~~g~~wV~~~d~g~~~e   48 (62)
+T 1IGU_B           30 PPAEGYAWLKYEDDGQEFE   48 (62)
+T ss_dssp             CSSTTEEEEEETTTCCEEE
+T ss_pred             CCCCCEEEEEECCCCCEEE
+Confidence            4458889999987655433
+
+
+No 4
+>2OQ0_B Gamma-interferon-inducible protein Ifi-16; OB folds, beta-barrels, Structural Genomics; HET: MSE; 2.0A {Homo sapiens} SCOP: b.40.16.1
+Probab=14.80  E-value=5.8e+02  Score=16.28  Aligned_cols=36  Identities=17%  Similarity=0.346  Sum_probs=26.2  Template_Neff=9.800
+
+Q ss_pred             eeEEcCCCCCccccceecC-----CcccceeeEEEeecccC
+Q tr|M0R2C0|M0R2   20 VMVKLEDSEEEGEAALWDP-----GPEAARLRFRCFRYEEA   55 (63)
+Q Consensus        20 vmvkledseeegeaalwdp-----gpeaarlrfrcfryeea   55 (63)
+                      ..+.+.|+..+-+..+|..     -++...+++.||.....
+T Consensus       145 ~~~~i~d~tg~i~v~~~~~~~~~~~~~g~~~~~~~~~~~~~  185 (206)
+T 2OQ0_B          145 TIYEIQDDRGKMDVVGTGQCHNIPCEEGDKLQLFCFRLRKK  185 (206)
+T ss_dssp             EEEEEEETTEEEEEEECGGGSSCSCCTTCEEEEEEEEEEEE
+T ss_pred             EEEEeecCCeEEEEEEeccccccccCCCCEEEEEEEEecCC
+Confidence            4456777777888888843     35678899999976554
+
+
+No 5
+>2OQ0_D Gamma-interferon-inducible protein Ifi-16; OB folds, beta-barrels, Structural Genomics; HET: MSE; 2.0A {Homo sapiens} SCOP: b.40.16.1
+Probab=14.80  E-value=5.8e+02  Score=16.28  Aligned_cols=36  Identities=17%  Similarity=0.346  Sum_probs=26.1  Template_Neff=9.800
+
+Q ss_pred             eeEEcCCCCCccccceecC-----CcccceeeEEEeecccC
+Q tr|M0R2C0|M0R2   20 VMVKLEDSEEEGEAALWDP-----GPEAARLRFRCFRYEEA   55 (63)
+Q Consensus        20 vmvkledseeegeaalwdp-----gpeaarlrfrcfryeea   55 (63)
+                      ..+.+.|+..+-+..+|..     -++...+++.||.....
+T Consensus       145 ~~~~i~d~tg~i~v~~~~~~~~~~~~~g~~~~~~~~~~~~~  185 (206)
+T 2OQ0_D          145 TIYEIQDDRGKMDVVGTGQCHNIPCEEGDKLQLFCFRLRKK  185 (206)
+T ss_dssp             EEEEEEETTEEEEEEECGGGSSCCCCTTCEEEEEEEEEEEE
+T ss_pred             EEEEeecCCeEEEEEEeccccccccCCCCEEEEEEEEecCC
+Confidence            4456777777888888844     35678899999976554
+
+
+No 6
+>4QGU_B Gamma-interferon-inducible protein 16; OB FOLD, DNA BINDING, CYTOSOLIC; 2.545A {Homo sapiens}
+Probab=14.80  E-value=5.8e+02  Score=16.28  Aligned_cols=37  Identities=16%  Similarity=0.341  Sum_probs=26.9  Template_Neff=9.800
+
+Q ss_pred             eeEEcCCCCCccccceecC-----CcccceeeEEEeecccCC
+Q tr|M0R2C0|M0R2   20 VMVKLEDSEEEGEAALWDP-----GPEAARLRFRCFRYEEAT   56 (63)
+Q Consensus        20 vmvkledseeegeaalwdp-----gpeaarlrfrcfryeeat   56 (63)
+                      ..+.+.|+..+-+..+|..     -++...+++.||......
+T Consensus       145 ~~~~i~d~tg~i~v~~~~~~~~~~~~~g~~~~~~~~~~~~~~  186 (206)
+T 4QGU_B          145 TIYEIQDDRGKMDVVGTGQCHNIPCEEGDKLQLFCFRLRKKN  186 (206)
+T ss_dssp             EEEEEEETTEEEEEEECGGGSSCCCCTTCEEEEEEEEEEESS
+T ss_pred             EEEEeecCCeEEEEEEeccccccccCCCCEEEEEEEEecCCC
+Confidence            4556777777888888844     356788999999776553
+
+
+No 7
+>3HLZ_A uncharacterized protein BT_1490; NP_810393.1, BT_1490, Structural Genomics, Joint; HET: GOL, ACT, MSE; 1.5A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=12.39  E-value=6e+02  Score=18.03  Aligned_cols=25  Identities=20%  Similarity=0.438  Sum_probs=21.2  Template_Neff=8.300
+
+Q ss_pred             ccccceecCCcccceeeEEEeeccc
+Q tr|M0R2C0|M0R2   30 EGEAALWDPGPEAARLRFRCFRYEE   54 (63)
+Q Consensus        30 egeaalwdpgpeaarlrfrcfryee   54 (63)
+                      ++-..++++.....-||+.+|+++.
+T Consensus        29 e~~~~f~~~~~~~G~LqIS~~~~~~   53 (269)
+T 3HLZ_A           29 EGSFLFYNPDVWTGNFRISAFKGNA   53 (269)
+T ss_dssp             TTEEEEECSSSCCCEEEEEEEECST
+T ss_pred             CCceEEecCCCCCcEEEEEEEEcCh
+Confidence            5778899998778899999999875
+
+
+No 8
+>3HLZ_B uncharacterized protein BT_1490; NP_810393.1, BT_1490, Structural Genomics, Joint; HET: GOL, ACT, MSE; 1.5A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=12.39  E-value=6e+02  Score=18.03  Aligned_cols=25  Identities=20%  Similarity=0.438  Sum_probs=21.2  Template_Neff=8.300
+
+Q ss_pred             ccccceecCCcccceeeEEEeeccc
+Q tr|M0R2C0|M0R2   30 EGEAALWDPGPEAARLRFRCFRYEE   54 (63)
+Q Consensus        30 egeaalwdpgpeaarlrfrcfryee   54 (63)
+                      ++-..++++.....-||+.+|+++.
+T Consensus        29 e~~~~f~~~~~~~G~LqIS~~~~~~   53 (269)
+T 3HLZ_B           29 EGSFLFYNPDVWTGNFRISAFKGNA   53 (269)
+T ss_dssp             TTEEEEECSSSCCCEEEEEEEECST
+T ss_pred             CCceEEecCCCCCcEEEEEEEEcCh
+Confidence            5778899998778899999999875
+
+
+No 9
+>1CEU_A REGULATORY PROTEIN, HELICAL DOMAIN, AMPHIPATICITY; NMR {N/A} SCOP: j.11.1.1
+Probab=8.33  E-value=3.8e+02  Score=17.05  Aligned_cols=9  Identities=56%  Similarity=1.125  Sum_probs=6.5  Template_Neff=3.100
+
+Q ss_pred             CCCCCCCCe
+Q tr|M0R2C0|M0R2   12 APPEDEGPV   20 (63)
+Q Consensus        12 appedegpv   20 (63)
+                      .+|||.||-
+T Consensus         3 qaPEdqgPq   11 (51)
+T 1CEU_A            3 QAPEDQGPQ   11 (51)
+T ss_dssp             SCCCTTTTC
+T ss_pred             CCCCCCCCC
+Confidence            467888874
+
+
+No 10
+>5JK7_F DNA damage-binding protein 1, Protein; Cullin4-RING E3 ubiquitin ligase HIV-1; 3.49A {Homo sapiens}
+Probab=8.29  E-value=3.8e+02  Score=18.47  Aligned_cols=10  Identities=50%  Similarity=0.956  Sum_probs=7.0  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCee
+Q tr|M0R2C0|M0R2   12 APPEDEGPVM   21 (63)
+Q Consensus        12 appedegpvm   21 (63)
+                      .+|||+||-.
+T Consensus         3 qaPEdqgpqR   12 (96)
+T 5JK7_F            3 QAPEDQGPQR   12 (96)
+T ss_dssp             CCCCCCSCCC
+T ss_pred             CCCCCCCCCC
+Confidence            4678888753
+
+

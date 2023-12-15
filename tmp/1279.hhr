@@ -1,0 +1,258 @@
+Query         tr|H7C541|H7C541_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:44:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1279.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LOO_A Transmembrane protein 1  98.8 3.2E-09 3.5E-14   61.9   0.6   38    2-39     23-60  (108)
+  2 2LOS_A Transmembrane protein 1  98.4 1.4E-07 1.5E-12   57.1   0.3   37    2-38     32-68  (121)
+  3 6T0B_v Cytochrome b-c1 complex  87.3       1 1.1E-05   24.5   1.7   27    5-31      5-31  (55)
+  4 6TMG_U ATPTG11, ATPTG7, ATPTG1  79.1     4.6   5E-05   27.6   2.7   21    6-26     31-52  (126)
+  5 6TMK_U ATPTG11, ATPTG7, ATPTG1  79.1     4.6   5E-05   27.6   2.7   21    6-26     31-52  (126)
+  6 5XTC_f NADH dehydrogenase [ubi  56.1      41 0.00045   19.6   3.0   16   19-34     17-32  (47)
+  7 7V2H_f Respiratory, Complex, E  51.7      53 0.00058   19.3   3.0   16   19-34     17-32  (49)
+  8 7V30_f Respiratory, Complex, E  47.7      77 0.00083   18.2   3.2    7   19-25     10-16  (42)
+  9 7V32_f Respiratory, Complex, E  47.7      77 0.00083   18.2   3.2    7   19-25     10-16  (42)
+ 10 6RBG_H Chain length determinan  28.7 1.8E+02  0.0019   17.7   2.8   10   17-26    299-308 (341)
+ 11 4WL1_A WzzE Polysaccharide Co-  28.1 1.8E+02   0.002   17.7   2.7    8   19-26    336-343 (356)
+ 12 6EBU_A LpxE; LpxE, lipid A 1-p  24.5 2.3E+02  0.0025   15.6   3.1   10   16-25    153-162 (180)
+ 13 6CFW_A Monovalent cation/H+ an  22.0 2.5E+02  0.0027   17.8   2.7   14   13-26     27-40  (167)
+ 14 7D6V_A succinate dehydrogenase  20.6 4.5E+02  0.0049   18.8   3.9    9   17-25    429-437 (635)
+ 15 7D6X_A succinate dehydrogenase  20.6 4.5E+02  0.0049   18.8   3.9    9   17-25    429-437 (635)
+ 16 2I10_B transcriptional regulat  20.4 2.5E+02  0.0027   14.5   3.6    9   18-26    160-168 (202)
+
+No 1
+>2LOO_A Transmembrane protein 14A; Membrane protein, helical bundle; NMR {Homo sapiens}
+Probab=98.77  E-value=3.2e-09  Score=61.93  Aligned_cols=38  Identities=55%  Similarity=0.959  Sum_probs=33.7  Template_Neff=7.500
+
+Q ss_pred             CCCccccccCCCcchHHHHHHHHHHHHHHHHHHHhCch
+Q tr|H7C541|H7C5    2 SGGIVGYVKTGSVPSLAAGLLFGSLAGLGAYQLYQDPR   39 (47)
+Q Consensus         2 sggivgyvktgsvpslaagllfgslaglgayqlyqdpr   39 (47)
+                      +||++||++++|++|+++|+.+|.++.+++++++++++
+T Consensus        23 ~GGv~Gy~k~~S~~SL~aG~~~g~ll~~~~~~~~~~~~   60 (108)
+T 2LOO_A           23 FGSIFGYKRRGGVPSLIAGLFVGCLAGYGAYRVSNDKR   60 (108)
+T ss_dssp             HHHHHHSCCCCCSCSHHHHHHHHHHHHHHHHHHCSSCC
+T ss_pred             HHHHHHHHHcCCHHHHhhhHHHHHHHHHHHHHHhCCCC
+Confidence            58999999999999999999999998899998865543
+
+
+No 2
+>2LOS_A Transmembrane protein 14C; Membrane protein, Paramagnetic relaxation enhancement; NMR {Homo sapiens}
+Probab=98.39  E-value=1.4e-07  Score=57.12  Aligned_cols=37  Identities=92%  Similarity=1.429  Sum_probs=32.4  Template_Neff=6.900
+
+Q ss_pred             CCCccccccCCCcchHHHHHHHHHHHHHHHHHHHhCc
+Q tr|H7C541|H7C5    2 SGGIVGYVKTGSVPSLAAGLLFGSLAGLGAYQLYQDP   38 (47)
+Q Consensus         2 sggivgyvktgsvpslaagllfgslaglgayqlyqdp   38 (47)
+                      +||++||++++|.+||++|+..|.++.++++.+.+++
+T Consensus        32 ~GG~~gy~~~~S~~SL~~G~~~G~ll~~~~~~~~~~~   68 (121)
+T 2LOS_A           32 SGGIIGYVKAGSVPSLAAGLLFGSLAGLGAYQLSQDP   68 (121)
+T ss_dssp             CCCCCHHTCSCCHHHHHHHHHHHHHHHHHHTSSSSTH
+T ss_pred             HHHHHHHHHcCChHHHHHHHHHHHHHHHHHHHHcCCC
+Confidence            6999999999999999999999999888877765444
+
+
+No 3
+>6T0B_v Cytochrome b-c1 complex subunit 1; CYTOCHROME C OXIDASE CYTOCHROME BC1; HET: PCF, HEM, HEA, HEC, PEF, CDL; 2.8A {Saccharomyces cerevisiae S288c}
+Probab=87.30  E-value=1  Score=24.50  Aligned_cols=27  Identities=19%  Similarity=0.287  Sum_probs=17.9  Template_Neff=6.800
+
+Q ss_pred             ccccccCCCcchHHHHHHHHHHHHHHH
+Q tr|H7C541|H7C5    5 IVGYVKTGSVPSLAAGLLFGSLAGLGA   31 (47)
+Q Consensus         5 ivgyvktgsvpslaagllfgslaglga   31 (47)
+                      +-|..+++-...++.++.+|....+..
+T Consensus         5 i~G~l~~~i~~~i~i~~~lg~~~g~~~   31 (55)
+T 6T0B_v            5 ITGTIKRRVIMDIVLGFSLGGVMASYW   31 (55)
+T ss_pred             cCchHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            345667777777787777777654443
+
+
+No 4
+>6TMG_U ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PC1, LMT, CDL, PEE; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=79.13  E-value=4.6  Score=27.64  Aligned_cols=21  Identities=29%  Similarity=0.142  Sum_probs=10.3  Template_Neff=3.300
+
+Q ss_pred             cccccCCCc-chHHHHHHHHHH
+Q tr|H7C541|H7C5    6 VGYVKTGSV-PSLAAGLLFGSL   26 (47)
+Q Consensus         6 vgyvktgsv-pslaagllfgsl   26 (47)
+                      ..+++..|. .|++-|...|+.
+T Consensus        31 ~~~~k~pSv~hSilfG~~aG~~   52 (126)
+T 6TMG_U           31 RMAIKGPSVPHSILFGVGAGCC   52 (126)
+T ss_pred             HHHccCCChHHHHHHHHHHHHH
+Confidence            344444443 355555555554
+
+
+No 5
+>6TMK_U ATPTG11, ATPTG7, ATPTG14, Uncharacterized protein; mitochondrial, ATP synthase, dimer, lipids; HET: PC1, LMT, PEE, ADP, CDL, ATP; 2.9A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=79.13  E-value=4.6  Score=27.64  Aligned_cols=21  Identities=29%  Similarity=0.142  Sum_probs=10.3  Template_Neff=3.300
+
+Q ss_pred             cccccCCCc-chHHHHHHHHHH
+Q tr|H7C541|H7C5    6 VGYVKTGSV-PSLAAGLLFGSL   26 (47)
+Q Consensus         6 vgyvktgsv-pslaagllfgsl   26 (47)
+                      ..+++..|. .|++-|...|+.
+T Consensus        31 ~~~~k~pSv~hSilfG~~aG~~   52 (126)
+T 6TMK_U           31 RMAIKGPSVPHSILFGVGAGCC   52 (126)
+T ss_pred             HHHccCCChHHHHHHHHHHHHH
+Confidence            344444443 355555555554
+
+
+No 6
+>5XTC_f NADH dehydrogenase [ubiquinone] iron-sulfur protein; Homo sapiens, Oxidoreductase, Respiratory, Complex; HET: PEE, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=56.11  E-value=41  Score=19.57  Aligned_cols=16  Identities=25%  Similarity=0.403  Sum_probs=7.3  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q tr|H7C541|H7C5   19 AGLLFGSLAGLGAYQL   34 (47)
+Q Consensus        19 agllfgslaglgayql   34 (47)
+                      .|+.+|.-.++-.++.
+T Consensus        17 VGLt~gTs~fLW~~L~   32 (47)
+T 5XTC_f           17 VGFTLGTTVFLWIYLI   32 (47)
+T ss_pred             hHHHHHHHHHHHHHHH
+Confidence            4555555333334443
+
+
+No 7
+>7V2H_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=51.70  E-value=53  Score=19.27  Aligned_cols=16  Identities=31%  Similarity=0.428  Sum_probs=7.2  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q tr|H7C541|H7C5   19 AGLLFGSLAGLGAYQL   34 (47)
+Q Consensus        19 agllfgslaglgayql   34 (47)
+                      .|+.+|.-.++-.++.
+T Consensus        17 VGLt~gTs~fLW~~L~   32 (49)
+T 7V2H_f           17 VGLTLGTSVFLWIYLI   32 (49)
+T ss_pred             hHHHHHHHHHHHHHHH
+Confidence            4555555333333443
+
+
+No 8
+>7V30_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.7A {Sus scrofa}
+Probab=47.74  E-value=77  Score=18.16  Aligned_cols=7  Identities=43%  Similarity=0.928  Sum_probs=3.5  Template_Neff=3.800
+
+Q ss_pred             HHHHHHH
+Q tr|H7C541|H7C5   19 AGLLFGS   25 (47)
+Q Consensus        19 agllfgs   25 (47)
+                      .|+.+|.
+T Consensus        10 VGLt~gT   16 (42)
+T 7V30_f           10 VGLTLGT   16 (42)
+T ss_pred             hHHHHHH
+Confidence            3455555
+
+
+No 9
+>7V32_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, PLX; 3.2A {Sus scrofa}
+Probab=47.74  E-value=77  Score=18.16  Aligned_cols=7  Identities=43%  Similarity=0.928  Sum_probs=3.5  Template_Neff=3.800
+
+Q ss_pred             HHHHHHH
+Q tr|H7C541|H7C5   19 AGLLFGS   25 (47)
+Q Consensus        19 agllfgs   25 (47)
+                      .|+.+|.
+T Consensus        10 VGLt~gT   16 (42)
+T 7V32_f           10 VGLTLGT   16 (42)
+T ss_pred             hHHHHHH
+Confidence            3455555
+
+
+No 10
+>6RBG_H Chain length determinant protein; membrane protein, enzyme, polysaccharide, co-polymerase; 3.0A {Escherichia coli (strain K12)}
+Probab=28.70  E-value=1.8e+02  Score=17.66  Aligned_cols=10  Identities=30%  Similarity=0.670  Sum_probs=5.0  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHHH
+Q tr|H7C541|H7C5   17 LAAGLLFGSL   26 (47)
+Q Consensus        17 laagllfgsl   26 (47)
+                      ++.|+..|++
+T Consensus       299 ~~~~~~~gl~  308 (341)
+T 6RBG_H          299 LILAVLLGGM  308 (341)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4445555554
+
+
+No 11
+>4WL1_A WzzE Polysaccharide Co-Polymerase; ECA, Enterobacterial common antigen, chain; 5.989A {Escherichia coli}
+Probab=28.14  E-value=1.8e+02  Score=17.68  Aligned_cols=8  Identities=25%  Similarity=0.202  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHH
+Q tr|H7C541|H7C5   19 AGLLFGSL   26 (47)
+Q Consensus        19 agllfgsl   26 (47)
+                      .|+..|++
+T Consensus       336 ~~~~~gl~  343 (356)
+T 4WL1_A          336 MWGIVGGL  343 (356)
+T ss_dssp             --------
+T ss_pred             HHHHHHHH
+Confidence            33444443
+
+
+No 12
+>6EBU_A LpxE; LpxE, lipid A 1-phosphatase, UppP; HET: BOG; 2.372A {Aquifex aeolicus (strain VF5)}
+Probab=24.47  E-value=2.3e+02  Score=15.57  Aligned_cols=10  Identities=30%  Similarity=0.511  Sum_probs=4.2  Template_Neff=11.300
+
+Q ss_pred             hHHHHHHHHH
+Q tr|H7C541|H7C5   16 SLAAGLLFGS   25 (47)
+Q Consensus        16 slaagllfgs   25 (47)
+                      ..+.|...+.
+T Consensus       153 dvi~g~~~g~  162 (180)
+T 6EBU_A          153 DVFVGALIGI  162 (180)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3344444444
+
+
+No 13
+>6CFW_A Monovalent cation/H+ antiporter subunit D; respiratory, hydrogenase, ion translocation, MEMBRANE; HET: SF4; 3.7A {Pyrococcus furiosus COM1}
+Probab=21.97  E-value=2.5e+02  Score=17.78  Aligned_cols=14  Identities=50%  Similarity=0.802  Sum_probs=8.2  Template_Neff=7.900
+
+Q ss_pred             CcchHHHHHHHHHH
+Q tr|H7C541|H7C5   13 SVPSLAAGLLFGSL   26 (47)
+Q Consensus        13 svpslaagllfgsl   26 (47)
+                      |..+++.|...+.+
+T Consensus        27 ~~~~l~~G~v~a~~   40 (167)
+T 6CFW_A           27 STQELIAGLIFASI   40 (167)
+T ss_pred             CHHHHHHHHHHHHH
+Confidence            45556666666654
+
+
+No 14
+>7D6V_A succinate dehydrogenase, electron transport chain; HET: FAD, PEV, UQ1;{Mycolicibacterium smegmatis}
+Probab=20.60  E-value=4.5e+02  Score=18.83  Aligned_cols=9  Identities=44%  Similarity=0.726  Sum_probs=3.7  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHH
+Q tr|H7C541|H7C5   17 LAAGLLFGS   25 (47)
+Q Consensus        17 laagllfgs   25 (47)
+                      +...+.+|-
+T Consensus       429 l~~a~~~G~  437 (635)
+T 7D6V_A          429 LSDLLVFGR  437 (635)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            333344444
+
+
+No 15
+>7D6X_A succinate dehydrogenase, electron transport chain; HET: FAD, PEV; 2.88A {Mycolicibacterium smegmatis}
+Probab=20.60  E-value=4.5e+02  Score=18.83  Aligned_cols=9  Identities=44%  Similarity=0.726  Sum_probs=3.7  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHH
+Q tr|H7C541|H7C5   17 LAAGLLFGS   25 (47)
+Q Consensus        17 laagllfgs   25 (47)
+                      +...+.+|-
+T Consensus       429 l~~a~~~G~  437 (635)
+T 7D6X_A          429 LSDLLVFGR  437 (635)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            333344444
+
+
+No 16
+>2I10_B transcriptional regulator; structural genomics, APC5890, TetR family; HET: PGE, NPO, MSE; 2.05A {Rhodococcus sp.} SCOP: a.121.1.1, a.4.1.9
+Probab=20.39  E-value=2.5e+02  Score=14.52  Aligned_cols=9  Identities=11%  Similarity=0.261  Sum_probs=3.4  Template_Neff=12.800
+
+Q ss_pred             HHHHHHHHH
+Q tr|H7C541|H7C5   18 AAGLLFGSL   26 (47)
+Q Consensus        18 aagllfgsl   26 (47)
+                      ++....+.+
+T Consensus       160 ~a~~~~~~~  168 (202)
+T 2I10_B          160 LARYVMAAV  168 (202)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            333333333
+
+

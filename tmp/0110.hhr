@@ -1,0 +1,218 @@
+Query         sp|P02795|MT2_HUMAN
+Match_columns 61
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:15:37 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0110.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4MT2_A METALLOTHIONEIN ISOFORM 100.0 1.4E-31 1.5E-36  162.3   5.1   61    1-61      2-62  (62)
+  2 1M0G_A Cadmium-thiolate cluste  99.5 9.3E-15   1E-19   78.7   2.3   30   32-61      1-30  (30)
+  3 1MHU_A METALLOTHIONEIN; NMR {H  99.5 9.2E-15   1E-19   78.8   1.9   31   31-61      1-31  (31)
+  4 1DFT_A HALF TURN, CD-S CLUSTER  99.5 7.1E-14 7.7E-19   73.6   3.2   30    1-30      1-30  (30)
+  5 1JI9_A 3-10 helix, Cd-S cluste  99.4 7.9E-14 8.6E-19   78.6   2.2   31   31-61      1-37  (37)
+  6 6QK6_A Cadmium-metallothionein  95.6   0.069 7.5E-07   34.0   4.7   27    5-31      8-38  (67)
+  7 5ML1_A Putative metallothionei  79.6      13 0.00015   25.7   4.9   22   11-32     51-73  (102)
+  8 1RJU_V Metallothionein; Yeast   71.9     8.8 9.6E-05   23.0   2.3   12   29-42     16-27  (36)
+  9 1AQQ_A METALLOTHIONEIN, COPPER  70.4     9.3  0.0001   23.3   2.2   13   28-42     19-31  (40)
+ 10 1AQS_A METALLOTHIONEIN, COPPER  49.1      35 0.00038   21.9   2.2   13   28-42     19-31  (53)
+ 11 5IJ7_A Enhancer of Zeste Homol  24.8 3.2E+02  0.0035   21.6   4.2   15   37-51    446-460 (643)
+ 12 5IJ7_B Enhancer of Zeste Homol  24.8 3.2E+02  0.0035   21.6   4.2   15   37-51    446-460 (643)
+ 13 1DMD_A METALLOTHIONEIN; HET: C  23.4 1.2E+02  0.0013   17.8   1.4   11   41-51      3-13  (31)
+
+No 1
+>4MT2_A METALLOTHIONEIN ISOFORM II; METALLOTHIONEIN; 2.0A {Rattus rattus} SCOP: g.46.1.1
+Probab=99.97  E-value=1.4e-31  Score=162.31  Aligned_cols=61  Identities=89%  Similarity=1.934  Sum_probs=59.6  Template_Neff=4.000
+
+Q ss_pred             CCCCCCCCCCCCCcCCCCCcCCCCcCCCCCCccCCCCCCCCCcCCCCceeCCCCCCCCCCC
+Q sp|P02795|MT2_    1 MDPNCSCAAGDSCTCAGSCKCKECKCTSCKKSCCSCCPVGCAKCAQGCICKGASDKCSCCA   61 (61)
+Q Consensus         1 mdpncscaagdsctcagsckckeckctsckksccsccpvgcakcaqgcickgasdkcscca   61 (61)
+                      ||||++|++|++|+|+++|+|++++|+++|||+|++||+|++|||||||+|++++++++|+
+T Consensus         2 mdp~csC~~ggsCtC~~sCkCk~ckCtsckKScCsCCP~gCakCaqGCvck~~s~kcscC~   62 (62)
+T 4MT2_A            2 MDPNCSCATDGSCSCAGSCKCKQCKCTSCKKSCCSCCPVGCAKCSQGCICKEASDKCSCCA   62 (62)
+T ss_dssp             CCTTCCSCSSSCCCCTTCSCCSSCCCTTCCCCSSTTSCTTCTTTTTSCCSCTTCSCCSSCC
+T ss_pred             CCCCCccCCCCCccccccCccCCCcCCCCCCceeCCCCCcchhhhccceecCcCCCCcccC
+Confidence            8999999999999999999999999999999999999999999999999999999999875
+
+
+No 2
+>1M0G_A Cadmium-thiolate cluster, METAL BINDING PROTEIN; HET: CD; NMR {Notothenia coriiceps} SCOP: g.46.1.1
+Probab=99.53  E-value=9.3e-15  Score=78.66  Aligned_cols=30  Identities=63%  Similarity=1.736  Sum_probs=28.3  Template_Neff=4.400
+
+Q ss_pred             ccCCCCCCCCCcCCCCceeCCCCCCCCCCC
+Q sp|P02795|MT2_   32 SCCSCCPVGCAKCAQGCICKGASDKCSCCA   61 (61)
+Q Consensus        32 sccsccpvgcakcaqgcickgasdkcscca   61 (61)
+                      |||++||+||+||||||++|++++++++|+
+T Consensus         1 ScCscCP~gcakcaqgcvck~~~~kcscc~   30 (30)
+T 1M0G_A            1 SCCPCCPSGCTKCASGCVCKGKTCDTSCCQ   30 (30)
+T ss_dssp             CCCTTSCSCCHHHHTSCGGGTSSSSTTTTC
+T ss_pred             CCCCCCCCcchHhhccceeCCCCCCCcccC
+Confidence            689999999999999999999999999874
+
+
+No 3
+>1MHU_A METALLOTHIONEIN; NMR {Homo sapiens} SCOP: g.46.1.1
+Probab=99.52  E-value=9.2e-15  Score=78.80  Aligned_cols=31  Identities=100%  Similarity=2.145  Sum_probs=29.3  Template_Neff=4.600
+
+Q ss_pred             CccCCCCCCCCCcCCCCceeCCCCCCCCCCC
+Q sp|P02795|MT2_   31 KSCCSCCPVGCAKCAQGCICKGASDKCSCCA   61 (61)
+Q Consensus        31 ksccsccpvgcakcaqgcickgasdkcscca   61 (61)
+                      ||||++||+||++|||||++|++++++++|+
+T Consensus         1 KScCscCp~gcakcaqgcvck~~~~kcscc~   31 (31)
+T 1MHU_A            1 KSCCSCCPVGCAKCAQGCICKGASDKCSCCA   31 (31)
+T ss_dssp             CCSCSSSCSSCGGGTSSCCCCSCSSCCSSCC
+T ss_pred             CccccCCCcchhHHhccceeCCCCCCCcccC
+Confidence            7899999999999999999999999999874
+
+
+No 4
+>1DFT_A HALF TURN, CD-S CLUSTER, METAL; NMR {Mus musculus} SCOP: g.46.1.1
+Probab=99.48  E-value=7.1e-14  Score=73.56  Aligned_cols=30  Identities=77%  Similarity=1.743  Sum_probs=29.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCcCCCCCcCCCCcCCCCC
+Q sp|P02795|MT2_    1 MDPNCSCAAGDSCTCAGSCKCKECKCTSCK   30 (61)
+Q Consensus         1 mdpncscaagdsctcagsckckeckctsck   30 (61)
+                      ||||++|++|++|+|+++|+|++|+|++||
+T Consensus         1 md~~csc~~ggsC~C~~sCkCk~c~C~sck   30 (30)
+T 1DFT_A            1 MDPNCSCSTGGSCTCTSSCACKNCKCTSCK   30 (30)
+T ss_dssp             CCCSCCCCSSSCCCCCSCCSSSSCSSSSCC
+T ss_pred             CCCCCcCCCCCCccccCCCCcCCCcCCCCC
+Confidence            899999999999999999999999999986
+
+
+No 5
+>1JI9_A 3-10 helix, Cd-S cluster, half; NMR {Mus musculus} SCOP: g.46.1.1
+Probab=99.45  E-value=7.9e-14  Score=78.62  Aligned_cols=31  Identities=71%  Similarity=1.895  Sum_probs=27.8  Template_Neff=3.900
+
+Q ss_pred             CccCCCCCCCCCcCCCCceeCCCC------CCCCCCC
+Q sp|P02795|MT2_   31 KSCCSCCPVGCAKCAQGCICKGAS------DKCSCCA   61 (61)
+Q Consensus        31 ksccsccpvgcakcaqgcickgas------dkcscca   61 (61)
+                      ||||++||+||+|||||||+|+++      +++++|+
+T Consensus         1 KScCscCP~gCakCaqgCvck~~~~~~~~~~kcsCC~   37 (37)
+T 1JI9_A            1 KSCCSCCPAGCEKCAKDCVCKGEEGAKAEAEKCSCCQ   37 (37)
+T ss_dssp             CCCCSSSCTTCTTTTTTCTTCCCSSCCSTTSSCSSCC
+T ss_pred             CcccCCCCCccchhhcceEeCCccccccccccCccCC
+Confidence            789999999999999999999864      7888874
+
+
+No 6
+>6QK6_A Cadmium-metallothionein; metallothionein, Cadmium protein, snail protein; HET: CD; NMR {Helix pomatia}
+Probab=95.65  E-value=0.069  Score=34.05  Aligned_cols=27  Identities=37%  Similarity=1.266  Sum_probs=19.9  Template_Neff=3.700
+
+Q ss_pred             CCCC---CCCCCcCCCCCcCCC-CcCCCCCC
+Q sp|P02795|MT2_    5 CSCA---AGDSCTCAGSCKCKE-CKCTSCKK   31 (61)
+Q Consensus         5 csca---agdsctcagsckcke-ckctsckk   31 (61)
+                      +.|+   ++..|.|+..|+|.+ |+|+.|+.
+T Consensus         8 c~Ct~~C~~~~C~CG~~CkC~~~C~C~~Ck~   38 (67)
+T 6QK6_A            8 EKCTSACRSEPCQCGSKCQCGEGCTCAACKT   38 (67)
+T ss_dssp             TTCCTTTTSSSCGGGSCCCCCSSCCCTTTCC
+T ss_pred             CCCCcCCCCCCCccCCCCccCCCCCCCCCCc
+Confidence            4555   456788888888855 88888876
+
+
+No 7
+>5ML1_A Putative metallothionein; NMR metallothionein metal cluster metalloprotein; HET: CD; NMR {Littorina littorea}
+Probab=79.55  E-value=13  Score=25.65  Aligned_cols=22  Identities=45%  Similarity=1.435  Sum_probs=14.9  Template_Neff=3.600
+
+Q ss_pred             CCCcCCCCCcCCC-CcCCCCCCc
+Q sp|P02795|MT2_   11 DSCTCAGSCKCKE-CKCTSCKKS   32 (61)
+Q Consensus        11 dsctcagsckcke-ckctsckks   32 (61)
+                      +.|.|+..|+|.+ |+|+.|+..
+T Consensus        51 ~~C~CG~~CkC~~~C~C~~Ck~~   73 (102)
+T 5ML1_A           51 TPCGCGSGCNCKEDCRCQSCSTA   73 (102)
+T ss_dssp             SSCSCTTSCCCCSCCCCTTTSCC
+T ss_pred             CCCCCCCCCccCCCCcCCCCCCc
+Confidence            4577777777754 777777654
+
+
+No 8
+>1RJU_V Metallothionein; Yeast Cu(I) metallothionein, Cu(I) metallothionein; 1.44A {N/A} SCOP: g.46.1.1
+Probab=71.85  E-value=8.8  Score=22.98  Aligned_cols=12  Identities=67%  Similarity=1.854  Sum_probs=6.6  Template_Neff=1.200
+
+Q ss_pred             CCCccCCCCCCCCC
+Q sp|P02795|MT2_   29 CKKSCCSCCPVGCA   42 (61)
+Q Consensus        29 ckksccsccpvgca   42 (61)
+                      |+|||  .||.||.
+T Consensus        16 cqksc--~cp~gc~   27 (36)
+T 1RJU_V           16 CQKSC--SCPTGCN   27 (36)
+T ss_dssp             GTTSC--CSCTTCC
+T ss_pred             hhhhc--CCCCCCC
+Confidence            45563  3676654
+
+
+No 9
+>1AQQ_A METALLOTHIONEIN, COPPER DETOXIFICATION, METAL-THIOLATE CLUSTER; HET: AG; NMR {Saccharomyces cerevisiae} SCOP: g.46.1.1
+Probab=70.38  E-value=9.3  Score=23.31  Aligned_cols=13  Identities=62%  Similarity=1.717  Sum_probs=7.3  Template_Neff=1.100
+
+Q ss_pred             CCCCccCCCCCCCCC
+Q sp|P02795|MT2_   28 SCKKSCCSCCPVGCA   42 (61)
+Q Consensus        28 sckksccsccpvgca   42 (61)
+                      .|+|||  .||.||.
+T Consensus        19 qcqksc--~cp~gc~   31 (40)
+T 1AQQ_A           19 QCQKSC--SCPTGCN   31 (40)
+T ss_dssp             TSSSSC--CCCTTCC
+T ss_pred             Hhhhhc--CCCCCCC
+Confidence            355663  3677654
+
+
+No 10
+>1AQS_A METALLOTHIONEIN, COPPER DETOXIFICATION, METAL-THIOLATE CLUSTER; HET: CU1; NMR {Saccharomyces cerevisiae} SCOP: g.46.1.1
+Probab=49.13  E-value=35  Score=21.90  Aligned_cols=13  Identities=62%  Similarity=1.717  Sum_probs=8.2  Template_Neff=1.200
+
+Q ss_pred             CCCCccCCCCCCCCC
+Q sp|P02795|MT2_   28 SCKKSCCSCCPVGCA   42 (61)
+Q Consensus        28 sckksccsccpvgca   42 (61)
+                      .|+|||  .||.||.
+T Consensus        19 qcqksc--~cp~gc~   31 (53)
+T 1AQS_A           19 QCQKSC--SCPTGCN   31 (53)
+T ss_dssp             TSTTSC--SCCTTCS
+T ss_pred             Hhhhhc--CCCCCCC
+Confidence            456673  3788775
+
+
+No 11
+>5IJ7_A Enhancer of Zeste Homolog 2; lysine methyltransferase, transferase-transferase inhibitor complex; HET: 6BN, ZN; 2.62A {Anolis carolinensis}
+Probab=24.84  E-value=3.2e+02  Score=21.61  Aligned_cols=15  Identities=40%  Similarity=1.063  Sum_probs=7.9  Template_Neff=8.600
+
+Q ss_pred             CCCCCCcCCCCceeC
+Q sp|P02795|MT2_   37 CPVGCAKCAQGCICK   51 (61)
+Q Consensus        37 cpvgcakcaqgcick   51 (61)
+                      |+..|...-.||.|+
+T Consensus       446 c~~~c~~r~~gC~c~  460 (643)
+T 5IJ7_A          446 CSSECQNRFPGCRCK  460 (643)
+T ss_dssp             SCTTCTTBCCCCCCS
+T ss_pred             CCccccccCCCCccc
+Confidence            344555555555554
+
+
+No 12
+>5IJ7_B Enhancer of Zeste Homolog 2; lysine methyltransferase, transferase-transferase inhibitor complex; HET: 6BN, ZN; 2.62A {Anolis carolinensis}
+Probab=24.84  E-value=3.2e+02  Score=21.61  Aligned_cols=15  Identities=40%  Similarity=1.063  Sum_probs=7.9  Template_Neff=8.600
+
+Q ss_pred             CCCCCCcCCCCceeC
+Q sp|P02795|MT2_   37 CPVGCAKCAQGCICK   51 (61)
+Q Consensus        37 cpvgcakcaqgcick   51 (61)
+                      |+..|...-.||.|+
+T Consensus       446 c~~~c~~r~~gC~c~  460 (643)
+T 5IJ7_B          446 CSSECQNRFPGCRCK  460 (643)
+T ss_dssp             SCTTCTTBCCCCCCS
+T ss_pred             CCccccccCCCCccc
+Confidence            344555555555554
+
+
+No 13
+>1DMD_A METALLOTHIONEIN; HET: CD; NMR {Callinectes sapidus} SCOP: g.46.1.1
+Probab=23.37  E-value=1.2e+02  Score=17.79  Aligned_cols=11  Identities=55%  Similarity=1.630  Sum_probs=5.1  Template_Neff=2.000
+
+Q ss_pred             CCcCCCCceeC
+Q sp|P02795|MT2_   41 CAKCAQGCICK   51 (61)
+Q Consensus        41 cakcaqgcick   51 (61)
+                      |.||..+|.|.
+T Consensus         3 CeKC~s~C~C~   13 (31)
+T 1DMD_A            3 CQKCTSGCKCA   13 (31)
+T ss_dssp             CTTTTTTCCCS
+T ss_pred             ccccCCCCCCC
+Confidence            34455555443
+
+

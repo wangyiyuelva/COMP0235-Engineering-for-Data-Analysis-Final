@@ -1,0 +1,540 @@
+Query         sp|Q96H79|ZCCHL_HUMAN
+Match_columns 300
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:29:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0997.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3U9G_A Zinc finger CCCH-type a 100.0 8.2E-34 8.9E-39  227.9  10.6  223    1-245     5-229 (229)
+  2 6DNH_C Cleavage and polyadenyl  97.6 5.5E-05   6E-10   61.6   1.1  120   85-216    36-172 (245)
+  3 6FBS_C Cleavage and polyadenyl  97.3 0.00044 4.8E-09   48.6   2.7  119   85-215    35-170 (178)
+  4 6FUW_C Cleavage and polyadenyl  97.3 0.00044 4.8E-09   48.6   2.7  119   85-215    35-170 (178)
+  5 3U9G_A Zinc finger CCCH-type a  97.1  0.0014 1.6E-08   54.3   4.2   56   88-147   151-213 (229)
+  6 3U9G_A Zinc finger CCCH-type a  95.8   0.011 1.2E-07   49.3   2.0   57  181-239    81-142 (229)
+  7 6EOJ_B Protein CFT1, mRNA 3'-e  91.2    0.95   1E-05   34.8   4.7  122   84-217    27-173 (208)
+  8 5ELH_A RING finger protein unk  85.3     3.2 3.5E-05   30.9   4.0   85  107-214    15-125 (145)
+  9 5ELH_B RING finger protein unk  85.3     3.2 3.5E-05   30.9   4.0   85  107-214    15-125 (145)
+ 10 6DNH_C Cleavage and polyadenyl  60.6     5.6 6.1E-05   33.2  -0.0   43  165-212    38-88  (245)
+ 11 6EOJ_B Protein CFT1, mRNA 3'-e  56.6      31 0.00034   26.8   3.3   43   88-133   121-171 (208)
+ 12 7D7Q_A Phosphodiesterase (E.C.  46.9     9.4  0.0001   33.0  -0.8   10  126-135   322-331 (353)
+ 13 7D7Q_B Phosphodiesterase (E.C.  46.9     9.4  0.0001   33.0  -0.8    8  127-134   323-330 (353)
+ 14 3MQ2_A 16S rRNA methyltransfer  45.1      84 0.00091   24.0   4.0   10   35-44    165-174 (218)
+ 15 2E5S_A zf-CCCHx2 domain, Muscl  44.0      95   0.001   20.1   3.6   20  194-213    59-78  (98)
+ 16 6FBS_C Cleavage and polyadenyl  37.3      33 0.00036   24.5   0.9   44  165-213    37-88  (178)
+ 17 6FUW_C Cleavage and polyadenyl  37.3      33 0.00036   24.5   0.9   44  165-213    37-88  (178)
+ 18 6FBS_C Cleavage and polyadenyl  36.1      83  0.0009   22.6   2.7   38   90-130   123-167 (178)
+ 19 6FUW_C Cleavage and polyadenyl  36.1      83  0.0009   22.6   2.7   38   90-130   123-167 (178)
+ 20 6EOJ_B Protein CFT1, mRNA 3'-e  26.4      60 0.00065   25.3   0.7   31  181-211    45-85  (208)
+ 21 6DNH_C Cleavage and polyadenyl  24.2 1.4E+02  0.0015   25.3   2.5   42   87-131   121-169 (245)
+ 22 2FC6_A structure genomics, zf-  22.7      66 0.00072   23.9   0.4   25  165-193    19-43  (50)
+ 23 7M30_B HCMV pentamer, Fab, cyt  22.0      75 0.00082   31.0   0.6   23  229-251   155-177 (248)
+ 24 2K7R_A Primosomal protein dnaI  21.2      59 0.00064   24.3  -0.2   11   34-44     31-41  (106)
+ 25 5VOB_B Envelope glycoprotein H  20.4      85 0.00092   31.2   0.6   23  217-239   228-250 (278)
+ 26 7LBG_B Envelope glycoprotein H  20.4      85 0.00092   31.2   0.6   23  217-239   228-250 (278)
+ 27 2XVC_A ESCRT-III, CDVA, SSO091  20.0 1.4E+02  0.0015   20.8   1.5   38    7-44     12-49  (59)
+
+No 1
+>3U9G_A Zinc finger CCCH-type antiviral protein; zinc finger protein, ANTIVIRAL PROTEIN; 1.801A {Rattus norvegicus}
+Probab=100.00  E-value=8.2e-34  Score=227.93  Aligned_cols=223  Identities=42%  Similarity=0.826  Sum_probs=198.4  Template_Neff=8.600
+
+Q ss_pred             CCCCChhhHHHhhhhhCCCeeeeeccCCCcccCHHHHHHHHHHhCCCcceeeeccCCCCCCCcchhccCCCCCCCCCCCc
+Q sp|Q96H79|ZCCH    1 MAEPTVCSFLTKVLCAHGGRMFLKDLRGHVELSEARLRDVLQRAGPERFLLQEVETQEGLGDAEAEAAAGAVGGGGTSAW   80 (300)
+Q Consensus         1 maeptvcsfltkvlcahggrmflkdlrghvelsearlrdvlqragperfllqevetqeglgdaeaeaaagavggggtsaw   80 (300)
+                      |+++.++++|+++|+.+||++++.+|...+.+++.++.+|++.+++++|++.+.++                  +.+...
+T Consensus         5 ~~~~~~~~~~~~~l~~~~g~~~~~~l~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~------------------~~~~~~   66 (229)
+T 3U9G_A            5 MADPGVCCFITKILCAHGGRMTLEELLGEIRLPEAQLYELLETAGPDRFVLLETGG------------------QAGITR   66 (229)
+T ss_dssp             --CCCCCCHHHHHHHHTTTEEEHHHHHHHHTCCHHHHHHHHHHHCTTTEEEEEC------------------------CE
+T ss_pred             cCCHHHHHHHHHHHHhCCCcccHHHHHHHCCCCHHHHHHHHHHHCCCCEEEEEcCC------------------CCCcce
+Confidence            57888999999999999999999999999999999999999987789999987543                  222356
+
+
+Q ss_pred             eEeeecccecchcccCCCCC-CCCcccccchhhCCCCCCCCcc-ccccccccCCCchhHHHHHHCCCCCCCHHHHHHHHh
+Q sp|Q96H79|ZCCH   81 RVVAVSSVRLCARYQRGECQ-ACDQLHFCRRHMLGKCPNRDCW-STCTLSHDIHTPVNMQVLKSHGLFGLNENQLRILLL  158 (300)
+Q Consensus        81 rvvavssvrlcaryqrgecq-acdqlhfcrrhmlgkcpnrdcw-stctlshdihtpvnmqvlkshglfglnenqlrilll  158 (300)
+                      +|++++++++|..   +.|. .|.++|+|++|+.|.|.++.++ ..|.++|++.+.+|..+++.+++..+...+++.++.
+T Consensus        67 ~v~~~~~~~~C~~---~~C~~~C~~lHiCk~fl~g~C~~~~~~~~~C~~sH~~~~~~n~~~l~~~~l~~l~~~~l~~ll~  143 (229)
+T 3U9G_A           67 SVVATTRARVCRR---KYCQRPCDSLHLCKLNLLGRCHYAQSQRNLCKYSHDVLSEQNFQILKNHELSGLNQEELACLLV  143 (229)
+T ss_dssp             EEEECCSCCBCCC---TTCCSSCCSBCCCHHHHTTCCGGGTCCSSCCSSCSCTTCHHHHHHHHHTTCTTCCHHHHHHHHH
+T ss_pred             eEEEEcCCcccCC---CCCCCCCCcccccHHHHcCCCcccccccccCCCCCCCCCHHHHHHHHHCCCcCCCHHHHHHHHH
+Confidence            7889999999998   7899 9999999999999999975222 489999999999999999999999999999999999
+
+
+Q ss_pred             cCCCCCCcceeeeecCCCceeeecCCccCCCceeecccccCCCCccccCcchhhhhHHHHHHHHHHCCCCCCCceceeee
+Q sp|Q96H79|ZCCH  159 QNDPCLLPEVCLLYNKGEALYGYCNLKDKCNKFHVCKSFVKGECKLQTCKRSHQLIHAASLKLLQDQGLNIPSVVNFQII  238 (300)
+Q Consensus       159 qndpcllpevcllynkgealygycnlkdkcnkfhvcksfvkgecklqtckrshqlihaaslkllqdqglnipsvvnfqii  238 (300)
+                      +++....|.+|.+|+. .++++.|..++.|+++|+|.+|++|.|..+.|.++|++.++|+++||+++||+++.+.+|+.|
+T Consensus       144 ~~~~~~~p~vC~~y~~-~~~~~~C~~~~~C~~lHiC~~fv~g~C~~~~C~~~H~~~~~~~~~~l~~~~~~~~~~~~l~~i  222 (229)
+T 3U9G_A          144 QSDPFFLPEICKSYKG-EGRKQTCGQPQPCERLHICEHFTRGNCSYLNCLRSHNLMDRKVLTIMREHGLSPDVVQNIQDI  222 (229)
+T ss_dssp             TTCGGGSCCBCTTCCC-SSSCCSCSSSSCCCSBCSCHHHHTTCCCCSSCSSCCCTTSHHHHHHHHHHTCCHHHHHHHHHH
+T ss_pred             cCCCCCCchhhhhhcc-CCCCCCCCCCCCCCCcccccccccCCCCCCCCCCCCCCCCHHHHHHHHHCCCCHHHHHHHHHH
+Confidence            9888889999999977 555568998899999999999999999988999999999999999999999999999999999
+
+
+Q ss_pred             ccccccc
+Q sp|Q96H79|ZCCH  239 STYKHMK  245 (300)
+Q Consensus       239 stykhmk  245 (300)
+                      |+|||+|
+T Consensus       223 ~~~~~~~  229 (229)
+T 3U9G_A          223 CNNKHAR  229 (229)
+T ss_dssp             HHHHHTC
+T ss_pred             HHHhhcC
+Confidence            9999986
+
+
+No 2
+>6DNH_C Cleavage and polyadenylation specificity factor; Recognition of the AAUAAA polyadenylation;{Homo sapiens}
+Probab=97.55  E-value=5.5e-05  Score=61.56  Aligned_cols=120  Identities=23%  Similarity=0.509  Sum_probs=50.3  Template_Neff=9.300
+
+Q ss_pred             ecccecchcccCCCCC---CCCccc-------ccchhhCCCCCCCCccccccccccCCCchhH--HHHHHCCCCCCCHHH
+Q sp|Q96H79|ZCCH   85 VSSVRLCARYQRGECQ---ACDQLH-------FCRRHMLGKCPNRDCWSTCTLSHDIHTPVNM--QVLKSHGLFGLNENQ  152 (300)
+Q Consensus        85 vssvrlcaryqrgecq---acdqlh-------fcrrhmlgkcpnrdcwstctlshdihtpvnm--qvlkshglfglnenq  152 (300)
+                      +....+|.+|..+.|.   .|.+.|       +|++|+.+.|..+   ..|.|.|........  .++...+.+....  
+T Consensus        36 ~~~~~~C~~~~~g~C~~g~~C~~~H~~~~~~~vCk~~l~g~C~~g---~~C~f~H~~~~~~~p~c~~~~~~g~c~~~~--  110 (245)
+T 6DNH_C           36 KSGAAVCEFFLKAACGKGGMCPFRHISGEKTVVCKHWLRGLCKKG---DQCEFLHEYDMTKMPECYFYSKFGECSNKE--  110 (245)
+T ss_dssp             CTTCCBCSHHHHSCCSCTTSCSSBCCCTTCCSBCTTGGGTCCSSG---GGCSSBCSCCTTSCCBCHHHHTSSSCSCTT--
+T ss_pred             CCCccchHHHHcCCCCCcccCCCCCCCCCCcccCHHHHcCCCCCc---ccCcccccccCccCchhHHHHhhCCcCCCC--
+Confidence            4567889988777887   799999       8999999999998   899999986554322  4444444444433  
+
+
+Q ss_pred             HHHHHhcCCCCCCcceeeeecCCCceeeecCCccCCCceee----cccccCCCCccc-cCcchhhhhHH
+Q sp|Q96H79|ZCCH  153 LRILLLQNDPCLLPEVCLLYNKGEALYGYCNLKDKCNKFHV----CKSFVKGECKLQ-TCKRSHQLIHA  216 (300)
+Q Consensus       153 lrilllqndpcllpevcllynkgealygycnlkdkcnkfhv----cksfvkgecklq-tckrshqliha  216 (300)
+                        +.+.+........+|.+|..     +.|..|+.|.+.|+    |.+|..|.|.++ .|.+.|...+.
+T Consensus       111 --c~~~h~~~~~~~~~C~~~~~-----G~C~~G~~C~~~H~~~~~C~~~~~G~C~~g~~C~~~H~~~~~  172 (245)
+T 6DNH_C          111 --CPFLHIDPESKIKDCPWYDR-----GFCKHGPLCRHRHTRRVICVNYLVGFCPEGPSCKFMHPRFEL  172 (245)
+T ss_dssp             --CCSBCCC------------------------------------------------------------
+T ss_pred             --CCCCCCCccccCCCCcHHHc-----CCCCCCcccCCCCCCCeecccccCCCCCCCCCCCCCCCCCCC
+Confidence              55556555556678999988     89999999999999    999999999998 89999986443
+
+
+No 3
+>6FBS_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF;{Homo sapiens}
+Probab=97.27  E-value=0.00044  Score=48.56  Aligned_cols=119  Identities=23%  Similarity=0.517  Sum_probs=46.5  Template_Neff=11.800
+
+Q ss_pred             ecccecchcccCCCCC---CCCccc-------ccchhhCCCCCCCCccccccccccCCCchhH--HHHHHCCCCCCCHHH
+Q sp|Q96H79|ZCCH   85 VSSVRLCARYQRGECQ---ACDQLH-------FCRRHMLGKCPNRDCWSTCTLSHDIHTPVNM--QVLKSHGLFGLNENQ  152 (300)
+Q Consensus        85 vssvrlcaryqrgecq---acdqlh-------fcrrhmlgkcpnrdcwstctlshdihtpvnm--qvlkshglfglnenq  152 (300)
+                      .....+|.+|..+.|.   .|.+.|       +|+.|..+.|..+   ..|.+.|......+.  .++...+.+....  
+T Consensus        35 ~~~~~~c~~~~~~~c~~~~~c~~~h~~~~~~~~~~~~~~~~c~~~---~~c~~~h~~~~~~~~~~~~~~~~~~~~~~~--  109 (178)
+T 6FBS_C           35 KSGAAVCEFFLKAACGKGGMCPFRHISGEKTVVCKHWLRGLCKKG---DQCEFLHEYDMTKMPECYFYSKFGECSNKE--  109 (178)
+T ss_dssp             CCSSCBCHHHHTTCCCSTTCCSSBCCCSCCCSBCTTGGGTCCSST---TTCSSBCSCCTTSCCBCHHHHTTSCCSCTT--
+T ss_pred             CCCccccHHHhcCCCCCCCCCCCCCCCCCccccCHHHHcCCCCCC---ccCcccccccCcCCCCchhhhhcCccccCC--
+Confidence            4567889888777787   699999       7999988999988   899999986543322  3333322333333  
+
+
+Q ss_pred             HHHHHhcCCCCCCcceeeeecCCCceeeecCCccCCCceee----cccccCCCCccc-cCcchhhhhH
+Q sp|Q96H79|ZCCH  153 LRILLLQNDPCLLPEVCLLYNKGEALYGYCNLKDKCNKFHV----CKSFVKGECKLQ-TCKRSHQLIH  215 (300)
+Q Consensus       153 lrilllqndpcllpevcllynkgealygycnlkdkcnkfhv----cksfvkgecklq-tckrshqlih  215 (300)
+                        +.+.+........+|.+|..     +.|..+..|.+.|.    |.+|..|.|.++ .|.+.|...+
+T Consensus       110 --~~~~~~~~~~~~~~c~~~~~-----~~c~~g~~c~~~h~~~~~c~~~~~g~c~~~~~c~~~h~~~~  170 (178)
+T 6FBS_C          110 --CPFLHIDPESKIKDCPWYDR-----GFCKHGPLCRHRHTRRVICVNYLVGFCPEGPSCKFMHPRFE  170 (178)
+T ss_dssp             --CCSBCC------------------------------------------------------------
+T ss_pred             --CCcCCCCccccCCCCCchHc-----CCCCCCccCcccCCCCccCchhhcCCCCCCCCCCCCCCCcC
+Confidence              44555555556678998887     78999999999998    999999999997 8999998744
+
+
+No 4
+>6FUW_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF; 3.07A {Homo sapiens}
+Probab=97.27  E-value=0.00044  Score=48.56  Aligned_cols=119  Identities=23%  Similarity=0.517  Sum_probs=46.5  Template_Neff=11.800
+
+Q ss_pred             ecccecchcccCCCCC---CCCccc-------ccchhhCCCCCCCCccccccccccCCCchhH--HHHHHCCCCCCCHHH
+Q sp|Q96H79|ZCCH   85 VSSVRLCARYQRGECQ---ACDQLH-------FCRRHMLGKCPNRDCWSTCTLSHDIHTPVNM--QVLKSHGLFGLNENQ  152 (300)
+Q Consensus        85 vssvrlcaryqrgecq---acdqlh-------fcrrhmlgkcpnrdcwstctlshdihtpvnm--qvlkshglfglnenq  152 (300)
+                      .....+|.+|..+.|.   .|.+.|       +|+.|..+.|..+   ..|.+.|......+.  .++...+.+....  
+T Consensus        35 ~~~~~~c~~~~~~~c~~~~~c~~~h~~~~~~~~~~~~~~~~c~~~---~~c~~~h~~~~~~~~~~~~~~~~~~~~~~~--  109 (178)
+T 6FUW_C           35 KSGAAVCEFFLKAACGKGGMCPFRHISGEKTVVCKHWLRGLCKKG---DQCEFLHEYDMTKMPECYFYSKFGECSNKE--  109 (178)
+T ss_dssp             CCSSCBCHHHHTTCCCSTTCCSSBCCCSCCCSBCTTGGGTCCSST---TTCSSBCSCCTTSCCBCHHHHTTSCCSCTT--
+T ss_pred             CCCccccHHHhcCCCCCCCCCCCCCCCCCccccCHHHHcCCCCCC---ccCcccccccCcCCCCchhhhhcCccccCC--
+Confidence            4567889888777787   699999       7999988999988   899999986543322  3333322333333  
+
+
+Q ss_pred             HHHHHhcCCCCCCcceeeeecCCCceeeecCCccCCCceee----cccccCCCCccc-cCcchhhhhH
+Q sp|Q96H79|ZCCH  153 LRILLLQNDPCLLPEVCLLYNKGEALYGYCNLKDKCNKFHV----CKSFVKGECKLQ-TCKRSHQLIH  215 (300)
+Q Consensus       153 lrilllqndpcllpevcllynkgealygycnlkdkcnkfhv----cksfvkgecklq-tckrshqlih  215 (300)
+                        +.+.+........+|.+|..     +.|..+..|.+.|.    |.+|..|.|.++ .|.+.|...+
+T Consensus       110 --~~~~~~~~~~~~~~c~~~~~-----~~c~~g~~c~~~h~~~~~c~~~~~g~c~~~~~c~~~h~~~~  170 (178)
+T 6FUW_C          110 --CPFLHIDPESKIKDCPWYDR-----GFCKHGPLCRHRHTRRVICVNYLVGFCPEGPSCKFMHPRFE  170 (178)
+T ss_dssp             --CCSBCC------------------------------------------------------------
+T ss_pred             --CCcCCCCccccCCCCCchHc-----CCCCCCccCcccCCCCccCchhhcCCCCCCCCCCCCCCCcC
+Confidence              44555555556678998887     78999999999998    999999999997 8999998744
+
+
+No 5
+>3U9G_A Zinc finger CCCH-type antiviral protein; zinc finger protein, ANTIVIRAL PROTEIN; 1.801A {Rattus norvegicus}
+Probab=97.07  E-value=0.0014  Score=54.34  Aligned_cols=56  Identities=27%  Similarity=0.724  Sum_probs=46.7  Template_Neff=8.600
+
+Q ss_pred             cecchcccC----CCCC---CCCcccccchhhCCCCCCCCccccccccccCCCchhHHHHHHCCCCC
+Q sp|Q96H79|ZCCH   88 VRLCARYQR----GECQ---ACDQLHFCRRHMLGKCPNRDCWSTCTLSHDIHTPVNMQVLKSHGLFG  147 (300)
+Q Consensus        88 vrlcaryqr----gecq---acdqlhfcrrhmlgkcpnrdcwstctlshdihtpvnmqvlkshglfg  147 (300)
+                      ..+|..|..    +.|.   .|.++|+|..|+.|.|..+    .|.++|++.+.++..++.++++..
+T Consensus       151 p~vC~~y~~~~~~~~C~~~~~C~~lHiC~~fv~g~C~~~----~C~~~H~~~~~~~~~~l~~~~~~~  213 (229)
+T 3U9G_A          151 PEICKSYKGEGRKQTCGQPQPCERLHICEHFTRGNCSYL----NCLRSHNLMDRKVLTIMREHGLSP  213 (229)
+T ss_dssp             CCBCTTCCCSSSCCSCSSSSCCCSBCSCHHHHTTCCCCS----SCSSCCCTTSHHHHHHHHHHTCCH
+T ss_pred             chhhhhhccCCCCCCCCCCCCCCCcccccccccCCCCCC----CCCCCCCCCCHHHHHHHHHCCCCH
+Confidence            467888864    5686   7999999999999999885    899999998888888888876533
+
+
+No 6
+>3U9G_A Zinc finger CCCH-type antiviral protein; zinc finger protein, ANTIVIRAL PROTEIN; 1.801A {Rattus norvegicus}
+Probab=95.82  E-value=0.011  Score=49.34  Aligned_cols=57  Identities=25%  Similarity=0.637  Sum_probs=46.9  Template_Neff=8.600
+
+Q ss_pred             ecCCccCCCceeecccccCCCCccc-----cCcchhhhhHHHHHHHHHHCCCCCCCceceeeec
+Q sp|Q96H79|ZCCH  181 YCNLKDKCNKFHVCKSFVKGECKLQ-----TCKRSHQLIHAASLKLLQDQGLNIPSVVNFQIIS  239 (300)
+Q Consensus       181 ycnlkdkcnkfhvcksfvkgecklq-----tckrshqlihaaslkllqdqglnipsvvnfqiis  239 (300)
+                      .|.  ..|..+|+|.+|+.|.|.++     .|.++|++.++|+..+|++++++.-....|..++
+T Consensus        81 ~C~--~~C~~lHiCk~fl~g~C~~~~~~~~~C~~sH~~~~~~n~~~l~~~~l~~l~~~~l~~ll  142 (229)
+T 3U9G_A           81 YCQ--RPCDSLHLCKLNLLGRCHYAQSQRNLCKYSHDVLSEQNFQILKNHELSGLNQEELACLL  142 (229)
+T ss_dssp             TCC--SSCCSBCCCHHHHTTCCGGGTCCSSCCSSCSCTTCHHHHHHHHHTTCTTCCHHHHHHHH
+T ss_pred             CCC--CCCCcccccHHHHcCCCcccccccccCCCCCCCCCHHHHHHHHHCCCcCCCHHHHHHHH
+Confidence            465  46999999999999999974     7999999999999999999999875544444443
+
+
+No 7
+>6EOJ_B Protein CFT1, mRNA 3'-end-processing protein; WD40, Beta-propeller, Zinc finger, 3'end; 3.55A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=91.18  E-value=0.95  Score=34.82  Aligned_cols=122  Identities=24%  Similarity=0.559  Sum_probs=38.7  Template_Neff=10.600
+
+Q ss_pred             eecccecchcc-cC---CCCC---CCCccc---------ccchhhCCCCCCCCccccccccccCCCchhH--HHHHHCCC
+Q sp|Q96H79|ZCCH   84 AVSSVRLCARY-QR---GECQ---ACDQLH---------FCRRHMLGKCPNRDCWSTCTLSHDIHTPVNM--QVLKSHGL  145 (300)
+Q Consensus        84 avssvrlcary-qr---gecq---acdqlh---------fcrrhmlgkcpnrdcwstctlshdihtpvnm--qvlkshgl  145 (300)
+                      .......|.+| ..   +.|.   .|.+.|         +|.+|..+.|..+   ..|.+.|........  .++...+.
+T Consensus        27 ~~~~~~~c~~~~~~~~~~~c~~g~~c~~~h~~~~~~~~~~c~~~~~g~c~~g---~~c~~~h~~~~~~~~~c~~~~~~~~  103 (208)
+T 6EOJ_B           27 LDPDRPICEFYNSREGPKSCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKN---DQCEYLHEYNLRKMPECVFFSKNGY  103 (208)
+T ss_dssp             SCTTCCBCSSCCTTTCTTTCSSGGGCSSBCCCTTTSCSSBCHHHHTTCCSCS---SSCSSBCCCCTTSCCC---------
+T ss_pred             CCCCCCCcHHHHhcCCCCCCCCcccCCCCCCCCcccCCccCHHHhcCCCCCC---cCCCCCCCCCCCCCCCCcCcccCCc
+Confidence            34677889988 66   7887   799998         7888888999988   799999975432211  11111111
+
+
+Q ss_pred             CCC-CHHHHHHHHhcCCCCCCcceeeeecCCCceeeecCCccCCCceee----cccccCCCCcccc--CcchhhhhHHH
+Q sp|Q96H79|ZCCH  146 FGL-NENQLRILLLQNDPCLLPEVCLLYNKGEALYGYCNLKDKCNKFHV----CKSFVKGECKLQT--CKRSHQLIHAA  217 (300)
+Q Consensus       146 fgl-nenqlrilllqndpcllpevcllynkgealygycnlkdkcnkfhv----cksfvkgecklqt--ckrshqlihaa  217 (300)
+                      +.. ..    +.+.+........+|.++..     +.|..+..|.+.|.    |.+|..|.|.++.  |.+.|......
+T Consensus       104 c~~~~~----c~~~h~~~~~~~~~~~~~~~-----~~c~~g~~c~~~h~~~~~C~~~~~g~C~~g~~~C~~~H~~~~~~  173 (208)
+T 6EOJ_B          104 CTQSPD----CQYLHIDPASKIPKCENYEM-----GFCPLGSSCPRRHIKKVFCQRYMTGFCPLGKDECDMEHPQFIIP  173 (208)
+T ss_dssp             -------------------------------------------------------------------------------
+T ss_pred             cCCCCC----CcccCCCcccCCCCCccccC-----CCCCCCCCCCCCCCCCeechHHhcCCCCCCcccCCCCCCcccCC
+Confidence            111 11    33444433444567888866     78988899999995    9999889999976  99999975543
+
+
+No 8
+>5ELH_A RING finger protein unkempt homolog/RNA; Unkempt, RNA-binding protein, CCCH zinc; HET: SO4; 1.8A {Mus musculus}
+Probab=85.28  E-value=3.2  Score=30.87  Aligned_cols=85  Identities=22%  Similarity=0.322  Sum_probs=54.0  Template_Neff=10.100
+
+Q ss_pred             ccchhhCCCCCC--CCccccccccccCCCchhHHHHHHCCCCCCCHHHHHHHHhcCCCCCCcceeeee--cCCCceeeec
+Q sp|Q96H79|ZCCH  107 FCRRHMLGKCPN--RDCWSTCTLSHDIHTPVNMQVLKSHGLFGLNENQLRILLLQNDPCLLPEVCLLY--NKGEALYGYC  182 (300)
+Q Consensus       107 fcrrhmlgkcpn--rdcwstctlshdihtpvnmqvlkshglfglnenqlrilllqndpcllpevclly--nkgealygyc  182 (300)
+                      +|.+|..+.|..  +   ..|.|.|.........        ....       ...........|.+|  ..     +.|
+T Consensus        15 ~C~~~~~g~c~~~~g---~~C~f~H~~~~~r~~~--------~~~~-------~~~~~~~~~~~c~~~~~~~-----g~C   71 (145)
+T 5ELH_A           15 QCPLFVQHKCTQHRP---YTCFHWHFVNQRRRRS--------IRRR-------DGTFNYSPDVYCTKYDEAT-----GLC   71 (145)
+T ss_dssp             BCTTGGGTCCSCTTT---TCCSSBSSGGGCCCCC--------CBCT-------TSCBSSCSSSBCSSCBTTT-----TBC
+T ss_pred             cChHHHCCCCCCCCc---ccCccCCCccccccCC--------CCCC-------CCCCCCCccccccchhhhC-----CCC
+Confidence            688888889988  7   8999999643211000        0000       000011123578777  44     689
+
+
+Q ss_pred             CCccCCCceee------------------ccccc--CCCCc-cc-cCcchhhhh
+Q sp|Q96H79|ZCCH  183 NLKDKCNKFHV------------------CKSFV--KGECK-LQ-TCKRSHQLI  214 (300)
+Q Consensus       183 nlkdkcnkfhv------------------cksfv--kgeck-lq-tckrshqli  214 (300)
+                      ..++.|.+.|.                  |..+.  .|.|. .+ .|.+.|...
+T Consensus        72 ~~g~~C~f~H~~~~~~~~~~~~~~~~~~~C~~~~~~~g~c~~~g~~c~f~H~~~  125 (145)
+T 5ELH_A           72 PEGDECPFLHRTTGDTERRYHLRYYKTGICIHETDSKGNCTKNGLHCAFAHGPH  125 (145)
+T ss_dssp             TTGGGCCSBCCCGGGHHHHTSTTTTTCSBCSSCBCTTSCBTTTBTTCSSBSSGG
+T ss_pred             CCCccCcccCCCCCCccccccccccccccccccccccCCCCCCcCcCCCCCCHH
+Confidence            99999999984                  54554  68899 67 899999753
+
+
+No 9
+>5ELH_B RING finger protein unkempt homolog/RNA; Unkempt, RNA-binding protein, CCCH zinc; HET: SO4; 1.8A {Mus musculus}
+Probab=85.28  E-value=3.2  Score=30.87  Aligned_cols=85  Identities=22%  Similarity=0.322  Sum_probs=54.3  Template_Neff=10.100
+
+Q ss_pred             ccchhhCCCCCC--CCccccccccccCCCchhHHHHHHCCCCCCCHHHHHHHHhcCCCCCCcceeeee--cCCCceeeec
+Q sp|Q96H79|ZCCH  107 FCRRHMLGKCPN--RDCWSTCTLSHDIHTPVNMQVLKSHGLFGLNENQLRILLLQNDPCLLPEVCLLY--NKGEALYGYC  182 (300)
+Q Consensus       107 fcrrhmlgkcpn--rdcwstctlshdihtpvnmqvlkshglfglnenqlrilllqndpcllpevclly--nkgealygyc  182 (300)
+                      +|.+|..+.|..  +   ..|.|.|.........        ....       ...........|.+|  ..     +.|
+T Consensus        15 ~C~~~~~g~c~~~~g---~~C~f~H~~~~~r~~~--------~~~~-------~~~~~~~~~~~c~~~~~~~-----g~C   71 (145)
+T 5ELH_B           15 QCPLFVQHKCTQHRP---YTCFHWHFVNQRRRRS--------IRRR-------DGTFNYSPDVYCTKYDEAT-----GLC   71 (145)
+T ss_dssp             BCHHHHTTCCTTTTT---TCCSSBSSGGGCCCCC--------CBCT-------TSCBSSCSSCBCSSCBTTT-----TBC
+T ss_pred             cChHHHCCCCCCCCc---ccCccCCCccccccCC--------CCCC-------CCCCCCCccccccchhhhC-----CCC
+Confidence            688998899998  7   8999999643211000        0000       000011123578777  44     689
+
+
+Q ss_pred             CCccCCCceee------------------ccccc--CCCCc-cc-cCcchhhhh
+Q sp|Q96H79|ZCCH  183 NLKDKCNKFHV------------------CKSFV--KGECK-LQ-TCKRSHQLI  214 (300)
+Q Consensus       183 nlkdkcnkfhv------------------cksfv--kgeck-lq-tckrshqli  214 (300)
+                      ..++.|.+.|.                  |..+.  .|.|. .+ .|.+.|...
+T Consensus        72 ~~g~~C~f~H~~~~~~~~~~~~~~~~~~~C~~~~~~~g~c~~~g~~c~f~H~~~  125 (145)
+T 5ELH_B           72 PEGDECPFLHRTTGDTERRYHLRYYKTGICIHETDSKGNCTKNGLHCAFAHGPH  125 (145)
+T ss_dssp             TTGGGCSSBCCCGGGHHHHTSTTTTTCSBCSSCBCTTSCBSSSCTTCCSBCSGG
+T ss_pred             CCCccCcccCCCCCCccccccccccccccccccccccCCCCCCcCcCCCCCCHH
+Confidence            99999999984                  54554  67899 67 899999753
+
+
+No 10
+>6DNH_C Cleavage and polyadenylation specificity factor; Recognition of the AAUAAA polyadenylation;{Homo sapiens}
+Probab=60.59  E-value=5.6  Score=33.21  Aligned_cols=43  Identities=33%  Similarity=0.679  Sum_probs=34.8  Template_Neff=9.300
+
+Q ss_pred             CcceeeeecCCCceeeecCCccCCCcee-------ecccccCCCCccc-cCcchhh
+Q sp|Q96H79|ZCCH  165 LPEVCLLYNKGEALYGYCNLKDKCNKFH-------VCKSFVKGECKLQ-TCKRSHQ  212 (300)
+Q Consensus       165 lpevcllynkgealygycnlkdkcnkfh-------vcksfvkgecklq-tckrshq  212 (300)
+                      ...+|.+|..     +.|..+..|++.|       +|..|.+|.|..+ .|.+.|.
+T Consensus        38 ~~~~C~~~~~-----g~C~~g~~C~~~H~~~~~~~vCk~~l~g~C~~g~~C~f~H~   88 (245)
+T 6DNH_C           38 GAAVCEFFLK-----AACGKGGMCPFRHISGEKTVVCKHWLRGLCKKGDQCEFLHE   88 (245)
+T ss_dssp             TCCBCSHHHH-----SCCSCTTSCSSBCCCTTCCSBCTTGGGTCCSSGGGCSSBCS
+T ss_pred             CccchHHHHc-----CCCCCcccCCCCCCCCCCcccCHHHHcCCCCCcccCccccc
+Confidence            3467888876     6788888899998       5888888888887 8888885
+
+
+No 11
+>6EOJ_B Protein CFT1, mRNA 3'-end-processing protein; WD40, Beta-propeller, Zinc finger, 3'end; 3.55A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=56.56  E-value=31  Score=26.81  Aligned_cols=43  Identities=35%  Similarity=0.868  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             cecchcccCCCCC---CCCccc----ccchhhCCCCCCCCccc-cccccccCCC
+Q sp|Q96H79|ZCCH   88 VRLCARYQRGECQ---ACDQLH----FCRRHMLGKCPNRDCWS-TCTLSHDIHT  133 (300)
+Q Consensus        88 vrlcaryqrgecq---acdqlh----fcrrhmlgkcpnrdcws-tctlshdiht  133 (300)
+                      ...|..+..+.|.   .|.+.|    +|.+|..|.|.++   . .|.|.|....
+T Consensus       121 ~~~~~~~~~~~c~~g~~c~~~h~~~~~C~~~~~g~C~~g---~~~C~~~H~~~~  171 (208)
+T 6EOJ_B          121 IPKCENYEMGFCPLGSSCPRRHIKKVFCQRYMTGFCPLG---KDECDMEHPQFI  171 (208)
+T ss_dssp             ------------------------------------------------------
+T ss_pred             CCCCccccCCCCCCCCCCCCCCCCCeechHHhcCCCCCC---cccCCCCCCccc
+Confidence            3455555445565   688888    5888877899988   6 7999997543
+
+
+No 12
+>7D7Q_A Phosphodiesterase (E.C.3.1.4.-); microbial rhodopsin, eight-transmembrane, light-dependent phosphodiesterase; HET: RET, OLC; 3.5A {Salpingoeca rosetta (strain ATCC 50818 / BSB-021)}
+Probab=46.90  E-value=9.4  Score=32.96  Aligned_cols=10  Identities=0%  Similarity=0.066  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             cccccCCCch
+Q sp|Q96H79|ZCCH  126 TLSHDIHTPV  135 (300)
+Q Consensus       126 tlshdihtpv  135 (300)
+                      ..+|+++++-
+T Consensus       322 ~isHElRtPL  331 (353)
+T 7D7Q_A          322 WIMNEFSGST  331 (353)
+T ss_dssp             ----------
+T ss_pred             HHHHhhhcCC
+Confidence            3467766553
+
+
+No 13
+>7D7Q_B Phosphodiesterase (E.C.3.1.4.-); microbial rhodopsin, eight-transmembrane, light-dependent phosphodiesterase; HET: RET, OLC; 3.5A {Salpingoeca rosetta (strain ATCC 50818 / BSB-021)}
+Probab=46.90  E-value=9.4  Score=32.96  Aligned_cols=8  Identities=0%  Similarity=0.227  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ccccCCCc
+Q sp|Q96H79|ZCCH  127 LSHDIHTP  134 (300)
+Q Consensus       127 lshdihtp  134 (300)
+                      .+|+++++
+T Consensus       323 isHElRtP  330 (353)
+T 7D7Q_B          323 IMNEFSGS  330 (353)
+T ss_dssp             --------
+T ss_pred             HHHhhhcC
+Confidence            35555444
+
+
+No 14
+>3MQ2_A 16S rRNA methyltransferase; Methyltranferase, Ribosomal, 16S, Antibiotic Resistance; HET: SAH; 1.69A {Streptomyces sp. DSM 40477}
+Probab=45.10  E-value=84  Score=24.05  Aligned_cols=10  Identities=20%  Similarity=0.059  Sum_probs=5.8  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHh
+Q sp|Q96H79|ZCCH   35 ARLRDVLQRA   44 (300)
+Q Consensus        35 arlrdvlqra   44 (300)
+                      ..+.+++...
+T Consensus       165 ~~~~~~l~~~  174 (218)
+T 3MQ2_A          165 EWLAPRYAEA  174 (218)
+T ss_dssp             CCCHHHHHHT
+T ss_pred             hhHHHHHHHc
+Confidence            3456666653
+
+
+No 15
+>2E5S_A zf-CCCHx2 domain, Muscleblind-like 2, isoform; HET: ZN; NMR {Homo sapiens}
+Probab=44.02  E-value=95  Score=20.12  Aligned_cols=20  Identities=35%  Similarity=0.871  Sum_probs=10.0  Template_Neff=11.600
+
+Q ss_pred             cccccCCCCccccCcchhhh
+Q sp|Q96H79|ZCCH  194 CKSFVKGECKLQTCKRSHQL  213 (300)
+Q Consensus       194 cksfvkgecklqtckrshql  213 (300)
+                      |..|..+.|....|.+.|..
+T Consensus        59 ~~~~~~~~~~~~~~~~~h~~   78 (98)
+T 2E5S_A           59 CMDYIKGRCMREKCKYFHPP   78 (98)
+T ss_dssp             CHHHHHTCCCCTTCCSBCCC
+T ss_pred             chHHHCCccCcccCCCCCCC
+Confidence            44444444444456666654
+
+
+No 16
+>6FBS_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF;{Homo sapiens}
+Probab=37.33  E-value=33  Score=24.54  Aligned_cols=44  Identities=32%  Similarity=0.664  Sum_probs=35.4  Template_Neff=11.800
+
+Q ss_pred             CcceeeeecCCCceeeecCCccCCCcee-------ecccccCCCCccc-cCcchhhh
+Q sp|Q96H79|ZCCH  165 LPEVCLLYNKGEALYGYCNLKDKCNKFH-------VCKSFVKGECKLQ-TCKRSHQL  213 (300)
+Q Consensus       165 lpevcllynkgealygycnlkdkcnkfh-------vcksfvkgecklq-tckrshql  213 (300)
+                      ...+|.+|..     +.|..+..|.+.|       +|..|..+.|..+ .|.+.|..
+T Consensus        37 ~~~~c~~~~~-----~~c~~~~~c~~~h~~~~~~~~~~~~~~~~c~~~~~c~~~h~~   88 (178)
+T 6FBS_C           37 GAAVCEFFLK-----AACGKGGMCPFRHISGEKTVVCKHWLRGLCKKGDQCEFLHEY   88 (178)
+T ss_dssp             SSCBCHHHHT-----TCCCSTTCCSSBCCCSCCCSBCTTGGGTCCSSTTTCSSBCSC
+T ss_pred             CccccHHHhc-----CCCCCCCCCCCCCCCCCccccCHHHHcCCCCCCccCcccccc
+Confidence            3457888866     6788888899999       5888888889887 89888865
+
+
+No 17
+>6FUW_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF; 3.07A {Homo sapiens}
+Probab=37.33  E-value=33  Score=24.54  Aligned_cols=44  Identities=32%  Similarity=0.664  Sum_probs=35.4  Template_Neff=11.800
+
+Q ss_pred             CcceeeeecCCCceeeecCCccCCCcee-------ecccccCCCCccc-cCcchhhh
+Q sp|Q96H79|ZCCH  165 LPEVCLLYNKGEALYGYCNLKDKCNKFH-------VCKSFVKGECKLQ-TCKRSHQL  213 (300)
+Q Consensus       165 lpevcllynkgealygycnlkdkcnkfh-------vcksfvkgecklq-tckrshql  213 (300)
+                      ...+|.+|..     +.|..+..|.+.|       +|..|..+.|..+ .|.+.|..
+T Consensus        37 ~~~~c~~~~~-----~~c~~~~~c~~~h~~~~~~~~~~~~~~~~c~~~~~c~~~h~~   88 (178)
+T 6FUW_C           37 GAAVCEFFLK-----AACGKGGMCPFRHISGEKTVVCKHWLRGLCKKGDQCEFLHEY   88 (178)
+T ss_dssp             SSCBCHHHHT-----TCCCSTTCCSSBCCCSCCCSBCTTGGGTCCSSTTTCSSBCSC
+T ss_pred             CccccHHHhc-----CCCCCCCCCCCCCCCCCccccCHHHHcCCCCCCccCcccccc
+Confidence            3457888866     6788888899999       5888888889887 89888865
+
+
+No 18
+>6FBS_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF;{Homo sapiens}
+Probab=36.08  E-value=83  Score=22.57  Aligned_cols=38  Identities=34%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cchcccCCCCC---CCCcccc----cchhhCCCCCCCCcccccccccc
+Q sp|Q96H79|ZCCH   90 LCARYQRGECQ---ACDQLHF----CRRHMLGKCPNRDCWSTCTLSHD  130 (300)
+Q Consensus        90 lcaryqrgecq---acdqlhf----crrhmlgkcpnrdcwstctlshd  130 (300)
+                      .|.+|..+.|.   .|.+.|.    |..|..|.|..+   ..|.+.|.
+T Consensus       123 ~c~~~~~~~c~~g~~c~~~h~~~~~c~~~~~g~c~~~---~~c~~~h~  167 (178)
+T 6FBS_C          123 DCPWYDRGFCKHGPLCRHRHTRRVICVNYLVGFCPEG---PSCKFMHP  167 (178)
+T ss_dssp             ------------------------------------------------
+T ss_pred             CCCchHcCCCCCCccCcccCCCCccCchhhcCCCCCC---CCCCCCCC
+Confidence            44444344454   4556654    555555555554   45665554
+
+
+No 19
+>6FUW_C Cleavage and polyadenylation specificity factor; 3' pre-mRNA processing, polyadenylation, CPSF; 3.07A {Homo sapiens}
+Probab=36.08  E-value=83  Score=22.57  Aligned_cols=38  Identities=34%  Similarity=0.894  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cchcccCCCCC---CCCcccc----cchhhCCCCCCCCcccccccccc
+Q sp|Q96H79|ZCCH   90 LCARYQRGECQ---ACDQLHF----CRRHMLGKCPNRDCWSTCTLSHD  130 (300)
+Q Consensus        90 lcaryqrgecq---acdqlhf----crrhmlgkcpnrdcwstctlshd  130 (300)
+                      .|.+|..+.|.   .|.+.|.    |..|..|.|..+   ..|.+.|.
+T Consensus       123 ~c~~~~~~~c~~g~~c~~~h~~~~~c~~~~~g~c~~~---~~c~~~h~  167 (178)
+T 6FUW_C          123 DCPWYDRGFCKHGPLCRHRHTRRVICVNYLVGFCPEG---PSCKFMHP  167 (178)
+T ss_dssp             ------------------------------------------------
+T ss_pred             CCCchHcCCCCCCccCcccCCCCccCchhhcCCCCCC---CCCCCCCC
+Confidence            44444344454   4556654    555555555554   45665554
+
+
+No 20
+>6EOJ_B Protein CFT1, mRNA 3'-end-processing protein; WD40, Beta-propeller, Zinc finger, 3'end; 3.55A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=26.36  E-value=60  Score=25.30  Aligned_cols=31  Identities=35%  Similarity=0.822  Sum_probs=18.4  Template_Neff=10.600
+
+Q ss_pred             ecCCccCCCceee---------cccccCCCCccc-cCcchh
+Q sp|Q96H79|ZCCH  181 YCNLKDKCNKFHV---------CKSFVKGECKLQ-TCKRSH  211 (300)
+Q Consensus       181 ycnlkdkcnkfhv---------cksfvkgecklq-tckrsh  211 (300)
+                      .|..+..|++.|.         |..|..|.|..+ .|.+.|
+T Consensus        45 ~c~~g~~c~~~h~~~~~~~~~~c~~~~~g~c~~g~~c~~~h   85 (208)
+T 6EOJ_B           45 SCPRGPLCPKKHVLPIFQNKIVCRHWLRGLCKKNDQCEYLH   85 (208)
+T ss_dssp             TCSSGGGCSSBCCCTTTSCSSBCHHHHTTCCSCSSSCSSBC
+T ss_pred             CCCCcccCCCCCCCCcccCCccCHHHhcCCCCCCcCCCCCC
+Confidence            4666666666662         555555666655 566555
+
+
+No 21
+>6DNH_C Cleavage and polyadenylation specificity factor; Recognition of the AAUAAA polyadenylation;{Homo sapiens}
+Probab=24.15  E-value=1.4e+02  Score=25.29  Aligned_cols=42  Identities=31%  Similarity=0.837  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             ccecchcccCCCCC---CCCcccc----cchhhCCCCCCCCccccccccccC
+Q sp|Q96H79|ZCCH   87 SVRLCARYQRGECQ---ACDQLHF----CRRHMLGKCPNRDCWSTCTLSHDI  131 (300)
+Q Consensus        87 svrlcaryqrgecq---acdqlhf----crrhmlgkcpnrdcwstctlshdi  131 (300)
+                      ....|..|..+.|.   .|.+.|.    |.+|..|.|..+   ..|.+.|..
+T Consensus       121 ~~~~C~~~~~G~C~~G~~C~~~H~~~~~C~~~~~G~C~~g---~~C~~~H~~  169 (245)
+T 6DNH_C          121 KIKDCPWYDRGFCKHGPLCRHRHTRRVICVNYLVGFCPEG---PSCKFMHPR  169 (245)
+T ss_dssp             ----------------------------------------------------
+T ss_pred             cCCCCcHHHcCCCCCCcccCCCCCCCeecccccCCCCCCC---CCCCCCCCC
+Confidence            34567666666776   6888886    888888888887   788888863
+
+
+No 22
+>2FC6_A structure genomics, zf-CCCH domain, Target; HET: ZN; NMR {Homo sapiens} SCOP: g.66.1.1
+Probab=22.74  E-value=66  Score=23.93  Aligned_cols=25  Identities=28%  Similarity=0.752  Sum_probs=18.2  Template_Neff=5.300
+
+Q ss_pred             CcceeeeecCCCceeeecCCccCCCceee
+Q sp|Q96H79|ZCCH  165 LPEVCLLYNKGEALYGYCNLKDKCNKFHV  193 (300)
+Q Consensus       165 lpevcllynkgealygycnlkdkcnkfhv  193 (300)
+                      .+.+|..|..    ++.|..+..|...|-
+T Consensus        19 ~~~iC~~Fa~----~G~C~~g~~C~~sHd   43 (50)
+T 2FC6_A           19 PTSICDNFSA----YGWCPLGPQCPQSHD   43 (50)
+T ss_dssp             CSCBCSHHHH----TCCCTTGGGCSSBCC
+T ss_pred             CCCcCHhhhh----hCcCCCCCCCCCCCc
+Confidence            4568987744    278998888888774
+
+
+No 23
+>7M30_B HCMV pentamer, Fab, cytomegalovirus, immunocomplex; HET: NAG; 3.81A {Human cytomegalovirus}
+Probab=22.02  E-value=75  Score=31.05  Aligned_cols=23  Identities=13%  Similarity=0.248  Sum_probs=13.7  Template_Neff=4.000
+
+Q ss_pred             CCCceceeeeccccccccccccC
+Q sp|Q96H79|ZCCH  229 IPSVVNFQIISTYKHMKLHKMLE  251 (300)
+Q Consensus       229 ipsvvnfqiistykhmklhkmle  251 (300)
+                      ++..-.+.-+++|..-+.++.+.
+T Consensus       155 p~~~~~vlv~LrN~~tk~~rvVr  177 (248)
+T 7M30_B          155 PPSLFNVVVAIRNEATRTNRAVR  177 (248)
+T ss_pred             CCceEEEEEEEEeCCCCCceeEE
+Confidence            33334566677777777666543
+
+
+No 24
+>2K7R_A Primosomal protein dnaI; DnaI N-terminal domain, helicase-loading protein; HET: ZN; NMR {Bacillus subtilis}
+Probab=21.16  E-value=59  Score=24.29  Aligned_cols=11  Identities=9%  Similarity=0.332  Sum_probs=6.2  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHh
+Q sp|Q96H79|ZCCH   34 EARLRDVLQRA   44 (300)
+Q Consensus        34 earlrdvlqra   44 (300)
+                      ..++.+|++.+
+T Consensus        31 ~p~i~~fl~~~   41 (106)
+T 2K7R_A           31 DQDVQAFLKEN   41 (106)
+T ss_dssp             CHHHHHHHHHS
+T ss_pred             CHHHHHHHHHC
+Confidence            34566666653
+
+
+No 25
+>5VOB_B Envelope glycoprotein H, Envelope glycoprotein; HCMV, neutralizing epitope, immunogen, viral; HET: BMA, NAG; 3.02A {Human cytomegalovirus}
+Probab=20.36  E-value=85  Score=31.23  Aligned_cols=23  Identities=13%  Similarity=0.112  Sum_probs=13.9  Template_Neff=3.800
+
+Q ss_pred             HHHHHHHHCCCCCCCceceeeec
+Q sp|Q96H79|ZCCH  217 ASLKLLQDQGLNIPSVVNFQIIS  239 (300)
+Q Consensus       217 aslkllqdqglnipsvvnfqiis  239 (300)
+                      -.+..+.+++++.+++..+..-|
+T Consensus       228 ~vk~f~~r~~~~~~LL~~l~~Y~  250 (278)
+T 5VOB_B          228 AVKEFCLRHQLDPPLLRHLDKYY  250 (278)
+T ss_dssp             HHHHHHHHTTCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHcCCChHHHHHHHHHH
+Confidence            45666666777666665555544
+
+
+No 26
+>7LBG_B Envelope glycoprotein H, Envelope glycoprotein; virus, receptor, complex, neutralizing antibody; HET: BMA, NAG, MAN; 2.6A {Human cytomegalovirus (strain Merlin)}
+Probab=20.36  E-value=85  Score=31.23  Aligned_cols=23  Identities=13%  Similarity=0.112  Sum_probs=12.4  Template_Neff=3.800
+
+Q ss_pred             HHHHHHHHCCCCCCCceceeeec
+Q sp|Q96H79|ZCCH  217 ASLKLLQDQGLNIPSVVNFQIIS  239 (300)
+Q Consensus       217 aslkllqdqglnipsvvnfqiis  239 (300)
+                      -.+..+.+++++.+++..+..-|
+T Consensus       228 ~vk~f~~r~~~~~~LL~~l~~Y~  250 (278)
+T 7LBG_B          228 AVKEFCLRHQLDPPLLRHLDKYY  250 (278)
+T ss_dssp             HHHHHHHHTTCCCHHHHHHHHHH
+T ss_pred             HHHHHHHHcCCChHHHHHHHHHH
+Confidence            34555566666655555544444
+
+
+No 27
+>2XVC_A ESCRT-III, CDVA, SSO0911; CELL CYCLE, CELL DIVISION, CYTOKINESIS; 2.15A {SULFOLOBUS SOLFATARICUS}
+Probab=20.03  E-value=1.4e+02  Score=20.76  Aligned_cols=38  Identities=11%  Similarity=0.156  Sum_probs=32.0  Template_Neff=8.100
+
+Q ss_pred             hhHHHhhhhhCCCeeeeeccCCCcccCHHHHHHHHHHh
+Q sp|Q96H79|ZCCH    7 CSFLTKVLCAHGGRMFLKDLRGHVELSEARLRDVLQRA   44 (300)
+Q Consensus         7 csfltkvlcahggrmflkdlrghvelsearlrdvlqra   44 (300)
+                      ...+..+|...++.++..+|...++++...+...++..
+T Consensus        12 ~~~~~~~l~~~~~~~t~~ela~~l~vs~~tv~~~l~~L   49 (59)
+T 2XVC_A           12 ERELLDYIVNNGGFLDIEHFSKVYGVEKQEVVKLLEAL   49 (59)
+T ss_dssp             HHHHHHHHHHTTSEEEHHHHHHHHCCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCccHHHHHHHHCCCHHHHHHHHHHH
+Confidence            35677888888999999999999999988888777764
+
+

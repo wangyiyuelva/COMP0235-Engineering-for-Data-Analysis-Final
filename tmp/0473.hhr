@@ -1,0 +1,473 @@
+Query         tr|A0A8Q3WK70|A0A8Q3WK70_HUMAN
+Match_columns 541
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:02:31 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0473.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7MQA_NA Ribosomal assembly int 100.0 7.2E-93 7.8E-98  720.2  27.3  485   55-541   195-681 (681)
+  2 6LQP_5E 40S ribosomal protein  100.0 2.9E-71 3.1E-76  557.1  21.1  381   56-495   179-570 (593)
+  3 6ZQD_CK Periodic tryptophan pr 100.0 2.9E-71 3.1E-76  557.1  21.1  381   56-495   179-570 (593)
+  4 6RXU_CL Periodic tryptophan pr 100.0   1E-58 1.1E-63  481.3  20.1  404   56-495   284-762 (785)
+  5 6RXZ_CL ?; ribosome, ribosome  100.0   1E-58 1.1E-63  481.3  20.1  404   56-495   284-762 (785)
+  6 5WYK_MC rRNA 2'-O-methyltransf  99.9 4.8E-25 5.2E-30  223.5   2.5  156  324-495   404-570 (593)
+  7 5O9E_B Eukaryotic translation   99.9   9E-23 9.8E-28  176.5   7.3   92  215-306    40-131 (131)
+  8 5WXM_U U3 small nucleolar ribo  98.8 3.8E-09 4.1E-14   73.4   3.0   33  348-380     2-34  (34)
+  9 5WXM_V U3 small nucleolar ribo  98.8 3.8E-09 4.1E-14   73.4   3.0   33  348-380     2-34  (34)
+ 10 7O4J_W Pre-initiation complex,  15.0      96   0.001   34.2  -0.4   39   68-106   355-402 (492)
+
+No 1
+>7MQA_NA Ribosomal assembly intermediate, RIBOSOME; HET: OMC, MG, A2M, PSU, 4AC, GTP, SAH, OMU, ATP, OMG; 2.7A {Homo sapiens}
+Probab=100.00  E-value=7.2e-93  Score=720.18  Aligned_cols=485  Identities=99%  Similarity=1.306  Sum_probs=370.9  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCCCCCHHHHHHHHhhhcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|   55 REKSIVDDKFFKLSEMEAYLENIEKEEERKDDNDEEEEDIDFFEDIDSDEDEGGLFGSKKLKSGKSSRNLKYKDFFDPVE  134 (541)
+Q Consensus        55 reksivddkffklsemeayleniekeeerkddndeeeedidffedidsdedegglfgskklksgkssrnlkykdffdpve  134 (541)
+                      +++++|||.||+|++|++||+.+|+.+.+..++++++++||||.++++++++++++++++.++..++.+++|.|||+||.
+T Consensus       195 ~~~s~vdD~FFkL~eme~fle~~E~~e~~~~~~ddddediD~f~d~~~ddd~~e~~~~~~~~~~~~~~~~~Y~DFF~~~~  274 (681)
+T 7MQA_NA         195 REKSIVDDKFFKLSEMEAYLENIEKEEERKDDNDEEEEDIDFFEDIDSDEDEGGLFGSKKLKSGKSSRNLKYKDFFDPVE  274 (681)
+T ss_pred             cccccCCccccCHHHHHHHHHHHHHHHHccCCCCcchhhhcccccCCcccccCcccCcccccCCCcccccchHHhcCCCC
+Confidence            35789999999999999999999976532110112234689998877544322111111111112368999999999885
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CC-CCchhhhhcCCCCCCCCCCCCCCCCCCCCCCcCCCCcccCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|  135 SDEDITNVHDDELDSNKE-DD-EIAEEEAEELSISETDEDDDLQENEDNKQHKESLKRVTFALPDDAETEDTGVLNVKKN  212 (541)
+Q Consensus       135 sdeditnvhddeldsnke-dd-eiaeeeaeelsisetdedddlqenednkqhkeslkrvtfalpddaetedtgvlnvkkn  212 (541)
+                      .............+ . . .. +..+.++++.+.+++++.+++++++++.+..+...++.++|+++++++++.+.+....
+T Consensus       275 ~~~~~~~~~~~~~~-~-~~e~~~~~~~e~~~~~~~e~~~~dd~~~~~e~~~~~~~~~~~~~~l~~~~~~~d~~~~~~~~~  352 (681)
+T 7MQA_NA         275 SDEDITNVHDDELD-S-NKEDDEIAEEEAEELSISETDEDDDLQENEDNKQHKESLKRVTFALPDDAETEDTGVLNVKKN  352 (681)
+T ss_pred             Ccccccccchhhcc-c-cccchhhHHHHHHhhccccccccchhhhchhhHHHHHHHHHhcccCCCCcccccccccccccC
+Confidence            33210001111000 0 0 00 0000000000000000111100000010112345567778886544322211101101
+
+
+Q ss_pred             CccccccHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHH
+Q tr|A0A8Q3WK70|  213 SDEVKSSFEKRQEKMNEKIASLEKELLEKKPWQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQR  292 (541)
+Q Consensus       213 sdevkssfekrqekmnekiaslekellekkpwqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqr  292 (541)
+                      ....+|+||++|++|+++|.+||.++|++|+|+|+|||+|+.||.||||+++|+|+|+++|+|+||+++|.+||+||+||
+T Consensus       353 ~~~~~S~~e~~q~~l~~~I~~LE~~~l~~K~W~l~GEv~a~~RP~NSLLee~lefd~~~k~~p~iTee~t~~LE~iIkqR  432 (681)
+T 7MQA_NA         353 SDEVKSSFEKRQEKMNEKIASLEKELLEKKPWQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQR  432 (681)
+T ss_pred             cccccCHHHHHHHHHHHHHHHHHHHHhcCCCcccCCccCcCCCCCCcchhhhcccccccCCCCCCCHHHhHHHHHHHHHH
+Confidence            12569999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHhcchhhhccCCCCCCCchhhhhhcccchhhccCcHHHHHHHHHHHHHhccCCCCCCcchHHHHHHHHHHHHhhhhhcC
+Q tr|A0A8Q3WK70|  293 IRDQAWDDVVRKEKPKEDAYEYKKRLTLDHEKSKLSLAEIYEQEYIKLNQQKTAEEENPEHVEIQKMMDSLFLKLDALSN  372 (541)
+Q Consensus       293 irdqawddvvrkekpkedayeykkrltldheksklslaeiyeqeyiklnqqktaeeenpehveiqkmmdslflkldalsn  372 (541)
+                      |++++||||+|++++...++.+++.++|+++||++|||+||+++|++++.+...+++.++|.+|+.||..||++||||||
+T Consensus       433 I~d~~fDDv~rk~~~~~~~~~~~~~~~l~~eKsk~sLaeiYe~ey~k~~~~~~~~~~~~~~~ei~~l~~~l~~kLDaLsn  512 (681)
+T 7MQA_NA         433 IRDQAWDDVVRKEKPKEDAYEYKKRLTLDHEKSKLSLAEIYEQEYIKLNQQKTAEEENPEHVEIQKMMDSLFLKLDALSN  512 (681)
+T ss_pred             HHhhccccceecCCCCCChhhhhccccccchhhhhhHHHHHHHHHHHHHhhhcchhcCHHHHHHHHHHHHHHHhhHhhhc
+Confidence            99999999999999987778888889999999999999999999999876555667889999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCccCCCchhhccCCCCCCCCCcccCCCCchhhHhhhhHHhhhhhhhHH
+Q tr|A0A8Q3WK70|  373 FHFIPKPPVPEIKVVSNLPAITMEEVAPVSVSDAALLAPEEIKEKNKAGDIKTAAEKTATDKKRERRKKKYQKRMKIKEK  452 (541)
+Q Consensus       373 fhfipkppvpeikvvsnlpaitmeevapvsvsdaallapeeikeknkagdiktaaektatdkkrerrkkkyqkrmkikek  452 (541)
+                      |||||+|++|+|+|++|+|||+||||+|+++|++++|||+|||+.+++|.+++..|||+++|+|+||++|++++++++.+
+T Consensus       513 ~hftPk~~~~e~~i~~n~pai~mEE~~P~~~s~a~~lAPeEv~~~~~~~~~~~~~E~t~~dkkr~Rr~kK~~~~~~~~~k  592 (681)
+T 7MQA_NA         513 FHFIPKPPVPEIKVVSNLPAITMEEVAPVSVSDAALLAPEEIKEKNKAGDIKTAAEKTATDKKRERRKKKYQKRMKIKEK  592 (681)
+T ss_pred             cccCCCCCCCCcccccCccccchhhccCccccHHHHhChHHHHhhccCCCCCchhcCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999976667889999999999999999999999999999888
+
+
+Q ss_pred             HHHHHHhhcCCCCCCCCCCcccchHHHHhhcccCCCCCCCCCCCCccccccHHHHHHHHHHHhhhhcccccCccCCCCCC
+Q tr|A0A8Q3WK70|  453 EKRRKLLEKSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEGKDKALKSSQAFFSKLQDQVKMQINDAKKTEKKKKKRQ  532 (541)
+Q Consensus       453 ekrrkllekssvdqagkysktvaseklkqltktgkasfikdegkdkalkssqaffsklqdqvkmqindakktekkkkkrq  532 (541)
+                      +++++++.+.++++++++.+.++++.|+++++.++|++++..|+.+.+++|++||++||+++++.|+++++++++++++.
+T Consensus       593 ~~~~k~~~~~~~~~~~k~~k~~~~~~l~~~~~~~~~~~~~~~~~~~~~~sS~~fF~~Lq~~~~~~~~~~~~~~~~~~~~~  672 (681)
+T 7MQA_NA         593 EKRRKLLEKSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEGKDKALKSSQAFFSKLQDQVKMQINDAKKTEKKKKKRQ  672 (681)
+T ss_pred             HHHHHHHHhcCccccccccHHHHHHHHHHHhhhCCceEeecCCcccccccHHHHHHHHHHHHHHHHhHHhhhhhcccccc
+Confidence            88889988889988888888889999999888889998886665677899999999999999988876543224444456
+
+
+Q ss_pred             CCCcchccc
+Q tr|A0A8Q3WK70|  533 DISVHKLKL  541 (541)
+Q Consensus       533 disvhklkl  541 (541)
+                      +.++++|||
+T Consensus       673 ~~~a~~~kL  681 (681)
+T 7MQA_NA         673 DISVHKLKL  681 (681)
+T ss_pred             cCCchhccC
+Confidence            678999998
+
+
+No 2
+>6LQP_5E 40S ribosomal protein S1-A, 40S; ribosome assembly, 90S to pre-40S; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=100.00  E-value=2.9e-71  Score=557.14  Aligned_cols=381  Identities=34%  Similarity=0.535  Sum_probs=298.3  Template_Neff=5.800
+
+Q ss_pred             CCCCCCCCCCCHHHHHHHHhhhcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|   56 EKSIVDDKFFKLSEMEAYLENIEKEEERKDDNDEEEEDIDFFEDIDSDEDEGGLFGSKKLKSGKSSRNLKYKDFFDPVES  135 (541)
+Q Consensus        56 eksivddkffklsemeayleniekeeerkddndeeeedidffedidsdedegglfgskklksgkssrnlkykdffdpves  135 (541)
+                      ++++|||+||+|++|++||+.+|+.+...  +++++++||||.|++++++              +.++++|.|||+||..
+T Consensus       179 ~~~~vdD~FF~l~eme~f~~~~E~~~~~~--~~~ddeeiD~f~d~~~ddd--------------~~~~~~Y~DFF~~p~~  242 (593)
+T 6LQP_5E         179 DPYGINDKFFDLEKFNRDTLAAEDSNEAS--EGSEDEDIDYFQDMPSDDE--------------EEEAIYYEDFFDKPTK  242 (593)
+T ss_pred             CCCCCCccCCCHHHHHHHHHHHHHhcccc--CCCcccccccccCCCCCCc--------------hHHhhchhhhcCCCCC
+Confidence            47899999999999999999999765321  1123346899987764331              2469999999998842
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCchhhhhcCCCCCCCCCCCCCCCCCCCCCCcCCCCcccCCCCCCCCCCCCCCCCCCCCcc
+Q tr|A0A8Q3WK70|  136 DEDITNVHDDELDSNKEDDEIAEEEAEELSISETDEDDDLQENEDNKQHKESLKRVTFALPDDAETEDTGVLNVKKNSDE  215 (541)
+Q Consensus       136 deditnvhddeldsnkeddeiaeeeaeelsisetdedddlqenednkqhkeslkrvtfalpddaetedtgvlnvkknsde  215 (541)
+                      ...   .... .... ..    +.   .       +.++     ++  ....+..+.++||++.+++++.+.... ....
+T Consensus       243 ~~~---~~~~-~~~~-~~----~~---~-------~~~~-----~~--~~~~~~~~~~dl~~d~~~ed~~~~~~~-~~~~  295 (593)
+T 6LQP_5E         243 EPV---KKHS-DVKD-PK----ED---E-------ELDE-----EE--HDSAMDKVKLDLFADEEDEPNAEGVGE-ASDK  295 (593)
+T ss_pred             Ccc---cCCC-CCCC-cc----cc---c-------ccCH-----HH--HHHHHHHHhhhhccCCCCCCcccCCCc-cccc
+Confidence            211   0000 0000 00    00   0       0000     00  112344566678765432221110001 1235
+
+
+Q ss_pred             ccccHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHHHHh
+Q tr|A0A8Q3WK70|  216 VKSSFEKRQEKMNEKIASLEKELLEKKPWQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQRIRD  295 (541)
+Q Consensus       216 vkssfekrqekmnekiaslekellekkpwqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqrird  295 (541)
+                      .+|+||++|++|+++|++||.++|++|+|+|+|||+|+.||.||||+++|+|+|+++|+|+||+++|.+||+||+|||++
+T Consensus       296 ~~S~fek~q~~l~~~I~~LE~e~v~~K~W~l~GEv~a~~RP~NSLLee~Ldfd~~~kp~PviTee~t~~LE~lIkqRI~d  375 (593)
+T 6LQP_5E         296 NLSSFEKQQIEIRKQIEQLENEAVAEKKWSLKGEVKAKDRPEDALLTEELEFDRTAKPVPVITSEVTESLEDMIRRRIQD  375 (593)
+T ss_pred             cCCHHHHHHHHHHHHHHHHHHHHHhcCCccccCccccCCCCCCchhHhhcccccCCCCCCCCChhcChhHHHHHHHHHHc
+Confidence            69999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cchhhhccCCCCCCCchhhhhhcccchhhccCcHHHHHHHHHHHHHhcc-CCCCCCcchHHHHHHHHHHHHhhhhhcCCC
+Q tr|A0A8Q3WK70|  296 QAWDDVVRKEKPKEDAYEYKKRLTLDHEKSKLSLAEIYEQEYIKLNQQK-TAEEENPEHVEIQKMMDSLFLKLDALSNFH  374 (541)
+Q Consensus       296 qawddvvrkekpkedayeykkrltldheksklslaeiyeqeyiklnqqk-taeeenpehveiqkmmdslflkldalsnfh  374 (541)
+                      ++||||+|++++...++.+++.++|+++||++|||+||+++|++++... ..+++.++|++|..||..||++||||||||
+T Consensus       376 ~~fDDV~rk~~~~~~~~~~~~~~~l~~eKSk~sLaeiYE~ey~~~~~~~~~~~~~~~~h~Ei~~l~~~l~~kLDaLsn~h  455 (593)
+T 6LQP_5E         376 SNFDDLQRRTLLDITRKSQRPQFELSDVKSSKSLAEIYEDDYTRAEDESALSEELQKAHSEISELYANLVYKLDVLSSVH  455 (593)
+T ss_pred             CCcccccccccccCCcccCCCccccccccccchHHHHHHHHHHHHhhhhhhcHHHHHHHHHHHHHHHHHHHhcHhhhcCc
+Confidence            9999999999988767778888999999999999999999999987433 456778999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCcccCCCCCCCCCCCCCCCCCCccCCCchhhccCC----------CCCCCCCcccCCCCchhhHhhhhHHh
+Q tr|A0A8Q3WK70|  375 FIPKPPVPEIKVVSNLPAITMEEVAPVSVSDAALLAPEEIKEKN----------KAGDIKTAAEKTATDKKRERRKKKYQ  444 (541)
+Q Consensus       375 fipkppvpeikvvsnlpaitmeevapvsvsdaallapeeikekn----------kagdiktaaektatdkkrerrkkkyq  444 (541)
+                      |||+|+.++|+|++|+|||+||||+|+++|++++|||+|||.+.          ++|.++++.|||+++|+|+||++|++
+T Consensus       456 ftPk~~~~~~~i~~n~pai~mEE~~P~~~s~a~~LAPeEv~~~~~~~~~~e~~~~~g~~~~~~E~t~~dkkr~Rr~kK~~  535 (593)
+T 6LQP_5E         456 FVPKPASTSLEIRVETPTISMEDAQPLYMSNASSLAPQEIYNVGKAEKDGEIRLKNGVAMSKEELTREDKNRLRRALKRK  535 (593)
+T ss_pred             cCCCCCCCcceeccCccceehhhccccccCchHhcCCHHHhccCccccCCceeccCCcccCHhhCCHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999997663          45889999999999999999999988
+
+
+Q ss_pred             hhhhhhHHHHHHHHhhcCCCCCCCCCCcccchHHHHhhcccCCCCCCCCCC
+Q tr|A0A8Q3WK70|  445 KRMKIKEKEKRRKLLEKSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEG  495 (541)
+Q Consensus       445 krmkikekekrrkllekssvdqagkysktvaseklkqltktgkasfikdeg  495 (541)
+                      ++++++.     +.        .++..++.++++|   ++.++|+||+..|
+T Consensus       536 ~~~~~~~-----~~--------~~k~~~~~~~~~l---~k~~~v~vi~~~g  570 (593)
+T 6LQP_5E         536 RSKANLP-----NV--------NKRSKRNDVVDTL---SKAKNITVINQKG  570 (593)
+T ss_pred             HHHhccc-----cc--------cchhHHHHHHHHH---HhcCCeEEecCCC
+Confidence            8876532     11        1223344555566   4447899987543
+
+
+No 3
+>6ZQD_CK Periodic tryptophan protein 2, Nucleolar; ribosome, 90S pre-ribosome, 40S pre-ribosome; HET: GTP; 3.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=100.00  E-value=2.9e-71  Score=557.14  Aligned_cols=381  Identities=34%  Similarity=0.535  Sum_probs=298.3  Template_Neff=5.800
+
+Q ss_pred             CCCCCCCCCCCHHHHHHHHhhhcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|   56 EKSIVDDKFFKLSEMEAYLENIEKEEERKDDNDEEEEDIDFFEDIDSDEDEGGLFGSKKLKSGKSSRNLKYKDFFDPVES  135 (541)
+Q Consensus        56 eksivddkffklsemeayleniekeeerkddndeeeedidffedidsdedegglfgskklksgkssrnlkykdffdpves  135 (541)
+                      ++++|||+||+|++|++||+.+|+.+...  +++++++||||.|++++++              +.++++|.|||+||..
+T Consensus       179 ~~~~vdD~FF~l~eme~f~~~~E~~~~~~--~~~ddeeiD~f~d~~~ddd--------------~~~~~~Y~DFF~~p~~  242 (593)
+T 6ZQD_CK         179 DPYGINDKFFDLEKFNRDTLAAEDSNEAS--EGSEDEDIDYFQDMPSDDE--------------EEEAIYYEDFFDKPTK  242 (593)
+T ss_pred             CCCCCCccCCCHHHHHHHHHHHHHhcccc--CCCcccccccccCCCCCCc--------------hHHhhchhhhcCCCCC
+Confidence            47899999999999999999999765321  1123346899987764331              2469999999998842
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCchhhhhcCCCCCCCCCCCCCCCCCCCCCCcCCCCcccCCCCCCCCCCCCCCCCCCCCcc
+Q tr|A0A8Q3WK70|  136 DEDITNVHDDELDSNKEDDEIAEEEAEELSISETDEDDDLQENEDNKQHKESLKRVTFALPDDAETEDTGVLNVKKNSDE  215 (541)
+Q Consensus       136 deditnvhddeldsnkeddeiaeeeaeelsisetdedddlqenednkqhkeslkrvtfalpddaetedtgvlnvkknsde  215 (541)
+                      ...   .... .... ..    +.   .       +.++     ++  ....+..+.++||++.+++++.+.... ....
+T Consensus       243 ~~~---~~~~-~~~~-~~----~~---~-------~~~~-----~~--~~~~~~~~~~dl~~d~~~ed~~~~~~~-~~~~  295 (593)
+T 6ZQD_CK         243 EPV---KKHS-DVKD-PK----ED---E-------ELDE-----EE--HDSAMDKVKLDLFADEEDEPNAEGVGE-ASDK  295 (593)
+T ss_pred             Ccc---cCCC-CCCC-cc----cc---c-------ccCH-----HH--HHHHHHHHhhhhccCCCCCCcccCCCc-cccc
+Confidence            211   0000 0000 00    00   0       0000     00  112344566678765432221110001 1235
+
+
+Q ss_pred             ccccHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHHHHh
+Q tr|A0A8Q3WK70|  216 VKSSFEKRQEKMNEKIASLEKELLEKKPWQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQRIRD  295 (541)
+Q Consensus       216 vkssfekrqekmnekiaslekellekkpwqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqrird  295 (541)
+                      .+|+||++|++|+++|++||.++|++|+|+|+|||+|+.||.||||+++|+|+|+++|+|+||+++|.+||+||+|||++
+T Consensus       296 ~~S~fek~q~~l~~~I~~LE~e~v~~K~W~l~GEv~a~~RP~NSLLee~Ldfd~~~kp~PviTee~t~~LE~lIkqRI~d  375 (593)
+T 6ZQD_CK         296 NLSSFEKQQIEIRKQIEQLENEAVAEKKWSLKGEVKAKDRPEDALLTEELEFDRTAKPVPVITSEVTESLEDMIRRRIQD  375 (593)
+T ss_pred             cCCHHHHHHHHHHHHHHHHHHHHHhcCCccccCccccCCCCCCchhHhhcccccCCCCCCCCChhcChhHHHHHHHHHHc
+Confidence            69999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cchhhhccCCCCCCCchhhhhhcccchhhccCcHHHHHHHHHHHHHhcc-CCCCCCcchHHHHHHHHHHHHhhhhhcCCC
+Q tr|A0A8Q3WK70|  296 QAWDDVVRKEKPKEDAYEYKKRLTLDHEKSKLSLAEIYEQEYIKLNQQK-TAEEENPEHVEIQKMMDSLFLKLDALSNFH  374 (541)
+Q Consensus       296 qawddvvrkekpkedayeykkrltldheksklslaeiyeqeyiklnqqk-taeeenpehveiqkmmdslflkldalsnfh  374 (541)
+                      ++||||+|++++...++.+++.++|+++||++|||+||+++|++++... ..+++.++|++|..||..||++||||||||
+T Consensus       376 ~~fDDV~rk~~~~~~~~~~~~~~~l~~eKSk~sLaeiYE~ey~~~~~~~~~~~~~~~~h~Ei~~l~~~l~~kLDaLsn~h  455 (593)
+T 6ZQD_CK         376 SNFDDLQRRTLLDITRKSQRPQFELSDVKSSKSLAEIYEDDYTRAEDESALSEELQKAHSEISELYANLVYKLDVLSSVH  455 (593)
+T ss_pred             CCcccccccccccCCcccCCCccccccccccchHHHHHHHHHHHHhhhhhhcHHHHHHHHHHHHHHHHHHHhcHhhhcCc
+Confidence            9999999999988767778888999999999999999999999987433 456778999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCcccCCCCCCCCCCCCCCCCCCccCCCchhhccCC----------CCCCCCCcccCCCCchhhHhhhhHHh
+Q tr|A0A8Q3WK70|  375 FIPKPPVPEIKVVSNLPAITMEEVAPVSVSDAALLAPEEIKEKN----------KAGDIKTAAEKTATDKKRERRKKKYQ  444 (541)
+Q Consensus       375 fipkppvpeikvvsnlpaitmeevapvsvsdaallapeeikekn----------kagdiktaaektatdkkrerrkkkyq  444 (541)
+                      |||+|+.++|+|++|+|||+||||+|+++|++++|||+|||.+.          ++|.++++.|||+++|+|+||++|++
+T Consensus       456 ftPk~~~~~~~i~~n~pai~mEE~~P~~~s~a~~LAPeEv~~~~~~~~~~e~~~~~g~~~~~~E~t~~dkkr~Rr~kK~~  535 (593)
+T 6ZQD_CK         456 FVPKPASTSLEIRVETPTISMEDAQPLYMSNASSLAPQEIYNVGKAEKDGEIRLKNGVAMSKEELTREDKNRLRRALKRK  535 (593)
+T ss_pred             cCCCCCCCcceeccCccceehhhccccccCchHhcCCHHHhccCccccCCceeccCCcccCHhhCCHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999997663          45889999999999999999999988
+
+
+Q ss_pred             hhhhhhHHHHHHHHhhcCCCCCCCCCCcccchHHHHhhcccCCCCCCCCCC
+Q tr|A0A8Q3WK70|  445 KRMKIKEKEKRRKLLEKSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEG  495 (541)
+Q Consensus       445 krmkikekekrrkllekssvdqagkysktvaseklkqltktgkasfikdeg  495 (541)
+                      ++++++.     +.        .++..++.++++|   ++.++|+||+..|
+T Consensus       536 ~~~~~~~-----~~--------~~k~~~~~~~~~l---~k~~~v~vi~~~g  570 (593)
+T 6ZQD_CK         536 RSKANLP-----NV--------NKRSKRNDVVDTL---SKAKNITVINQKG  570 (593)
+T ss_pred             HHHhccc-----cc--------cchhHHHHHHHHH---HhcCCeEEecCCC
+Confidence            8876532     11        1223344555566   4447899987543
+
+
+No 4
+>6RXU_CL Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=100.00  E-value=1e-58  Score=481.25  Aligned_cols=404  Identities=31%  Similarity=0.466  Sum_probs=295.7  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCHHHHHHHHhhhcccccCCC--C-CCCCCCCCCCCCCCCC----------------CC--CCC-C--C--
+Q tr|A0A8Q3WK70|   56 EKSIVDDKFFKLSEMEAYLENIEKEEERKD--D-NDEEEEDIDFFEDIDS----------------DE--DEG-G--L--  109 (541)
+Q Consensus        56 eksivddkffklsemeayleniekeeerkd--d-ndeeeedidffedids----------------de--deg-g--l--  109 (541)
+                      .+++|||+||+|++||++++..|+.+.+..  . +++++++||||.|+..                ++  +++ +  +  
+T Consensus       284 D~~gLNDgFFsIDeFNkqte~~E~~d~~~~~~~~~~~deeeID~~aDp~~~~~~~~~~~~~~~~~~~~~~~~d~e~gptf  363 (785)
+T 6RXU_CL         284 DPHGLNDGFFSIDEFNKQTQMWEDQDMRAEPTAELDDDSEDIDWHADPFAVKPSKRGKKDDGDMDLDDEEDESDDEAPPV  363 (785)
+T ss_pred             CCCccCCCCCCHHHHHHHHHHHHHhHhhcCCCCcccccccccCCcCCcccCCcccCCCCCCCCCCcCcCCCCCcccCCCC
+Confidence            378999999999999998888887653321  0 1223456999998643                00  000 0  0  
+
+
+Q ss_pred             ---------C---CCCC--CC--------CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCchhhhhcCCCC
+Q tr|A0A8Q3WK70|  110 ---------F---GSKK--LK--------SGKSSRNLKYKDFFDPVESDEDITNVHDDELDSNKEDDEIAEEEAEELSIS  167 (541)
+Q Consensus       110 ---------f---gskk--lk--------sgkssrnlkykdffdpvesdeditnvhddeldsnkeddeiaeeeaeelsis  167 (541)
+                               .   +.+.  ..        +..+.++|+|.|||+||.....  .......... ..    ..   .    
+T Consensus       364 g~~dl~~~~~~~~dd~~~~~d~~~~~~~~~~~n~~~i~Y~DFF~pP~~~~~--~~~~~~~~~~-~~----~~---~----  429 (785)
+T 6RXU_CL         364 GKKALEKMLDKDEDDEGGNLEDDLADGMGMDLTANDIYYKDFFAPPRKKKK--PGSSKKKREL-EL----ET---K----  429 (785)
+T ss_pred             CchhHHHhccCCccCCCCccchhhccccccCCchHHhcHHHhcCCCCCCCC--CCCccccchh-hh----cc---C----
+Confidence                     0   0000  00        0014579999999999953321  0000000000 00    00   0    
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcCCCCcccCCCCCCCCCC-CCC--CC-CCCCCccccccHHHHHHHHHHHHHHHHHHHHhCCC
+Q tr|A0A8Q3WK70|  168 ETDEDDDLQENEDNKQHKESLKRVTFALPDDAETED-TGV--LN-VKKNSDEVKSSFEKRQEKMNEKIASLEKELLEKKP  243 (541)
+Q Consensus       168 etdedddlqenednkqhkeslkrvtfalpddaeted-tgv--ln-vkknsdevkssfekrqekmnekiaslekellekkp  243 (541)
+                         +.++     ++  ....+..+..+||+++++++ +++  .. ........+|+||++|++|+++|.+||.++|++|+
+T Consensus       430 ---~~~e-----~d--~e~a~~~v~~DLF~de~~~~~~e~~~~~~~~~~~~~~~SsfEk~q~kL~~~I~~LE~e~va~K~  499 (785)
+T 6RXU_CL         430 ---RPDD-----AD--VERAEQDVRRDLFDDLSEHEDSEDALSDASAGDPKSRKSAHERRQAKIAEQIRKLEAELVAKRA  499 (785)
+T ss_pred             ---CCCh-----HH--HHHHHHHHHhhcccCcCcCCcchhHhhcccCCCCCcCCCHHHHHHHHHHHHHHHHHHHHHhccc
+Confidence               0000     11  23456778889998754311 111  00 00012356999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHHHHhcchhhhccCCCCCCC--chhhhhhcccc
+Q tr|A0A8Q3WK70|  244 WQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQRIRDQAWDDVVRKEKPKED--AYEYKKRLTLD  321 (541)
+Q Consensus       244 wqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqrirdqawddvvrkekpked--ayeykkrltld  321 (541)
+                      |+|+|||+|+.||.||||+++|+|+|+.+|+|+||+++|..||+|||+||+++.||||+|+.+....  .+.++..++|+
+T Consensus       500 W~L~GEv~A~~RP~NSLLEedLdFe~~~Kp~PvITeE~T~sLEdlIK~RI~d~~FDDV~Rr~~~~~~~~~~~~r~~~ELd  579 (785)
+T 6RXU_CL         500 WTLAGEATAADRPVNSLLGEDMEFDHVGKPVPVVTEEVSESIEELIKRRILAGEFDEVLRRRPDMFGNPHGVRRGLVDVE  579 (785)
+T ss_pred             cccccccccccCCCCcccccCCccccCCCCCCCCCHHHhhhHHHHHHHHHHhCCCCcceecCcccCCCCCCCCCCccccc
+Confidence            9999999999999999999999999999999999999999999999999999999999999876542  14456678999
+
+
+Q ss_pred             hhhccCcHHHHHHHHHHHHHhcc-----CCCCCCcchHHHHHHHHHHHHhhhhhcCCCCCCCCCCCCCcccCCCCCCCCC
+Q tr|A0A8Q3WK70|  322 HEKSKLSLAEIYEQEYIKLNQQK-----TAEEENPEHVEIQKMMDSLFLKLDALSNFHFIPKPPVPEIKVVSNLPAITME  396 (541)
+Q Consensus       322 heksklslaeiyeqeyiklnqqk-----taeeenpehveiqkmmdslflkldalsnfhfipkppvpeikvvsnlpaitme  396 (541)
+                      ++||++|||+||+++|++++...     ..+++.++|.||..||..||++|||||||||||+|+.++|.|++|+|||+||
+T Consensus       580 deKSkksLAElYE~ey~k~~~~~~~~~~~~ekl~~eh~EI~~Lf~~L~~kLDALSn~hftPKp~~~~i~vv~n~pAI~mE  659 (785)
+T 6RXU_CL         580 DTKAKQSLAEIYEEEAVKKANPDAYVSAADEKLRRDEEEIKRMWKEISAKLDALSSWHYKPKPPAPTLTVVSDVATVAME  659 (785)
+T ss_pred             hhhHhhcHHHHHHHHHHHHhCcchhcccccHHhHHHHHHHHHHHHHHHHHhHHHhcCCCCCCCCCCCCeecCCcchhcHh
+Confidence            99999999999999999986432     4567889999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCC----Cc-cCCCchhhccCC-----------CCCCCCCcccCCCCchhhHhhhhHHhhhhhhhHHHHHHHHhh
+Q tr|A0A8Q3WK70|  397 EVAPVSVS----DA-ALLAPEEIKEKN-----------KAGDIKTAAEKTATDKKRERRKKKYQKRMKIKEKEKRRKLLE  460 (541)
+Q Consensus       397 evapvsvs----da-allapeeikekn-----------kagdiktaaektatdkkrerrkkkyqkrmkikekekrrklle  460 (541)
+                      ||+|+++|    ++ ++|||+|||.+.           +.|.++++.|||+++|+|+||++|+++++++....   +   
+T Consensus       660 Ea~P~~~s~~~s~a~s~LAPeEIy~~~~~~~~~gev~~k~G~~~ak~EmTredKkR~RR~kK~k~kk~~~~~~---~---  733 (785)
+T 6RXU_CL         660 DAQPATAQGVAGGETSMIAPQEVYAPSKDTAEKGEVVTKAGIPIAKQEMSREEKLRRRRREKERIRKAGGLDG---G---  733 (785)
+T ss_pred             hhcccccccCCCCcchhcCchhhhCCCcCccccCceeccCCCccchhcCCHHHHHHHHHHHHHHHHHhcCCCC---C---
+Confidence            99999765    47 999999998764           24667899999999999999999987766543111   0   
+
+
+Q ss_pred             cCCCCCCCCCCcccchHHHHhhcccCCCCCCCCCC
+Q tr|A0A8Q3WK70|  461 KSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEG  495 (541)
+Q Consensus       461 kssvdqagkysktvaseklkqltktgkasfikdeg  495 (541)
+                        .+..+++..++.++..|+   + ++|+||+++|
+T Consensus       734 --~~~~~k~~~k~~~~~~Lk---k-~gV~vIgk~G  762 (785)
+T 6RXU_CL         734 --KPVSEKEKEKKETVAQLK---K-SGVKVINRKG  762 (785)
+T ss_pred             --CCCChhHHHHHHHHHHHH---H-cCcEEecCCc
+Confidence              011122234455666664   3 6899998654
+
+
+No 5
+>6RXZ_CL ?; ribosome, ribosome biogenesis, rRNA; 4.4A {Chaetomium thermophilum}
+Probab=100.00  E-value=1e-58  Score=481.25  Aligned_cols=404  Identities=31%  Similarity=0.466  Sum_probs=295.7  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCHHHHHHHHhhhcccccCCC--C-CCCCCCCCCCCCCCCC----------------CC--CCC-C--C--
+Q tr|A0A8Q3WK70|   56 EKSIVDDKFFKLSEMEAYLENIEKEEERKD--D-NDEEEEDIDFFEDIDS----------------DE--DEG-G--L--  109 (541)
+Q Consensus        56 eksivddkffklsemeayleniekeeerkd--d-ndeeeedidffedids----------------de--deg-g--l--  109 (541)
+                      .+++|||+||+|++||++++..|+.+.+..  . +++++++||||.|+..                ++  +++ +  +  
+T Consensus       284 D~~gLNDgFFsIDeFNkqte~~E~~d~~~~~~~~~~~deeeID~~aDp~~~~~~~~~~~~~~~~~~~~~~~~d~e~gptf  363 (785)
+T 6RXZ_CL         284 DPHGLNDGFFSIDEFNKQTQMWEDQDMRAEPTAELDDDSEDIDWHADPFAVKPSKRGKKDDGDMDLDDEEDESDDEAPPV  363 (785)
+T ss_pred             CCCccCCCCCCHHHHHHHHHHHHHhHhhcCCCCcccccccccCCcCCcccCCcccCCCCCCCCCCcCcCCCCCcccCCCC
+Confidence            378999999999999998888887653321  0 1223456999998643                00  000 0  0  
+
+
+Q ss_pred             ---------C---CCCC--CC--------CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCchhhhhcCCCC
+Q tr|A0A8Q3WK70|  110 ---------F---GSKK--LK--------SGKSSRNLKYKDFFDPVESDEDITNVHDDELDSNKEDDEIAEEEAEELSIS  167 (541)
+Q Consensus       110 ---------f---gskk--lk--------sgkssrnlkykdffdpvesdeditnvhddeldsnkeddeiaeeeaeelsis  167 (541)
+                               .   +.+.  ..        +..+.++|+|.|||+||.....  .......... ..    ..   .    
+T Consensus       364 g~~dl~~~~~~~~dd~~~~~d~~~~~~~~~~~n~~~i~Y~DFF~pP~~~~~--~~~~~~~~~~-~~----~~---~----  429 (785)
+T 6RXZ_CL         364 GKKALEKMLDKDEDDEGGNLEDDLADGMGMDLTANDIYYKDFFAPPRKKKK--PGSSKKKREL-EL----ET---K----  429 (785)
+T ss_pred             CchhHHHhccCCccCCCCccchhhccccccCCchHHhcHHHhcCCCCCCCC--CCCccccchh-hh----cc---C----
+Confidence                     0   0000  00        0014579999999999953321  0000000000 00    00   0    
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcCCCCcccCCCCCCCCCC-CCC--CC-CCCCCccccccHHHHHHHHHHHHHHHHHHHHhCCC
+Q tr|A0A8Q3WK70|  168 ETDEDDDLQENEDNKQHKESLKRVTFALPDDAETED-TGV--LN-VKKNSDEVKSSFEKRQEKMNEKIASLEKELLEKKP  243 (541)
+Q Consensus       168 etdedddlqenednkqhkeslkrvtfalpddaeted-tgv--ln-vkknsdevkssfekrqekmnekiaslekellekkp  243 (541)
+                         +.++     ++  ....+..+..+||+++++++ +++  .. ........+|+||++|++|+++|.+||.++|++|+
+T Consensus       430 ---~~~e-----~d--~e~a~~~v~~DLF~de~~~~~~e~~~~~~~~~~~~~~~SsfEk~q~kL~~~I~~LE~e~va~K~  499 (785)
+T 6RXZ_CL         430 ---RPDD-----AD--VERAEQDVRRDLFDDLSEHEDSEDALSDASAGDPKSRKSAHERRQAKIAEQIRKLEAELVAKRA  499 (785)
+T ss_pred             ---CCCh-----HH--HHHHHHHHHhhcccCcCcCCcchhHhhcccCCCCCcCCCHHHHHHHHHHHHHHHHHHHHHhccc
+Confidence               0000     11  23456778889998754311 111  00 00012356999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHHHHhcchhhhccCCCCCCC--chhhhhhcccc
+Q tr|A0A8Q3WK70|  244 WQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQRIRDQAWDDVVRKEKPKED--AYEYKKRLTLD  321 (541)
+Q Consensus       244 wqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqrirdqawddvvrkekpked--ayeykkrltld  321 (541)
+                      |+|+|||+|+.||.||||+++|+|+|+.+|+|+||+++|..||+|||+||+++.||||+|+.+....  .+.++..++|+
+T Consensus       500 W~L~GEv~A~~RP~NSLLEedLdFe~~~Kp~PvITeE~T~sLEdlIK~RI~d~~FDDV~Rr~~~~~~~~~~~~r~~~ELd  579 (785)
+T 6RXZ_CL         500 WTLAGEATAADRPVNSLLGEDMEFDHVGKPVPVVTEEVSESIEELIKRRILAGEFDEVLRRRPDMFGNPHGVRRGLVDVE  579 (785)
+T ss_pred             cccccccccccCCCCcccccCCccccCCCCCCCCCHHHhhhHHHHHHHHHHhCCCCcceecCcccCCCCCCCCCCccccc
+Confidence            9999999999999999999999999999999999999999999999999999999999999876542  14456678999
+
+
+Q ss_pred             hhhccCcHHHHHHHHHHHHHhcc-----CCCCCCcchHHHHHHHHHHHHhhhhhcCCCCCCCCCCCCCcccCCCCCCCCC
+Q tr|A0A8Q3WK70|  322 HEKSKLSLAEIYEQEYIKLNQQK-----TAEEENPEHVEIQKMMDSLFLKLDALSNFHFIPKPPVPEIKVVSNLPAITME  396 (541)
+Q Consensus       322 heksklslaeiyeqeyiklnqqk-----taeeenpehveiqkmmdslflkldalsnfhfipkppvpeikvvsnlpaitme  396 (541)
+                      ++||++|||+||+++|++++...     ..+++.++|.||..||..||++|||||||||||+|+.++|.|++|+|||+||
+T Consensus       580 deKSkksLAElYE~ey~k~~~~~~~~~~~~ekl~~eh~EI~~Lf~~L~~kLDALSn~hftPKp~~~~i~vv~n~pAI~mE  659 (785)
+T 6RXZ_CL         580 DTKAKQSLAEIYEEEAVKKANPDAYVSAADEKLRRDEEEIKRMWKEISAKLDALSSWHYKPKPPAPTLTVVSDVATVAME  659 (785)
+T ss_pred             hhhHhhcHHHHHHHHHHHHhCcchhcccccHHhHHHHHHHHHHHHHHHHHhHHHhcCCCCCCCCCCCCeecCCcchhcHh
+Confidence            99999999999999999986432     4567889999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCC----Cc-cCCCchhhccCC-----------CCCCCCCcccCCCCchhhHhhhhHHhhhhhhhHHHHHHHHhh
+Q tr|A0A8Q3WK70|  397 EVAPVSVS----DA-ALLAPEEIKEKN-----------KAGDIKTAAEKTATDKKRERRKKKYQKRMKIKEKEKRRKLLE  460 (541)
+Q Consensus       397 evapvsvs----da-allapeeikekn-----------kagdiktaaektatdkkrerrkkkyqkrmkikekekrrklle  460 (541)
+                      ||+|+++|    ++ ++|||+|||.+.           +.|.++++.|||+++|+|+||++|+++++++....   +   
+T Consensus       660 Ea~P~~~s~~~s~a~s~LAPeEIy~~~~~~~~~gev~~k~G~~~ak~EmTredKkR~RR~kK~k~kk~~~~~~---~---  733 (785)
+T 6RXZ_CL         660 DAQPATAQGVAGGETSMIAPQEVYAPSKDTAEKGEVVTKAGIPIAKQEMSREEKLRRRRREKERIRKAGGLDG---G---  733 (785)
+T ss_pred             hhcccccccCCCCcchhcCchhhhCCCcCccccCceeccCCCccchhcCCHHHHHHHHHHHHHHHHHhcCCCC---C---
+Confidence            99999765    47 999999998764           24667899999999999999999987766543111   0   
+
+
+Q ss_pred             cCCCCCCCCCCcccchHHHHhhcccCCCCCCCCCC
+Q tr|A0A8Q3WK70|  461 KSSVDQAGKYSKTVASEKLKQLTKTGKASFIKDEG  495 (541)
+Q Consensus       461 kssvdqagkysktvaseklkqltktgkasfikdeg  495 (541)
+                        .+..+++..++.++..|+   + ++|+||+++|
+T Consensus       734 --~~~~~k~~~k~~~~~~Lk---k-~gV~vIgk~G  762 (785)
+T 6RXZ_CL         734 --KPVSEKEKEKKETVAQLK---K-SGVKVINRKG  762 (785)
+T ss_pred             --CCCChhHHHHHHHHHHHH---H-cCcEEecCCc
+Confidence              011122234455666664   3 6899998654
+
+
+No 6
+>5WYK_MC rRNA 2'-O-methyltransferase fibrillarin, Nucleolar protein; ribosome, 90S, pre-ribosome, protein-RNA complex; 4.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.90  E-value=4.8e-25  Score=223.47  Aligned_cols=156  Identities=26%  Similarity=0.406  Sum_probs=130.6  Template_Neff=1.800
+
+Q ss_pred             hccCcHHHHHHHHHHHHHhc-cCCCCCCcchHHHHHHHHHHHHhhhhhcCCCCCCCCCCCCCcccCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|  324 KSKLSLAEIYEQEYIKLNQQ-KTAEEENPEHVEIQKMMDSLFLKLDALSNFHFIPKPPVPEIKVVSNLPAITMEEVAPVS  402 (541)
+Q Consensus       324 ksklslaeiyeqeyiklnqq-ktaeeenpehveiqkmmdslflkldalsnfhfipkppvpeikvvsnlpaitmeevapvs  402 (541)
+                      ....||++||++.|.++..+ ..++++.++|+||..||+.||++|||||||||||+|+.++++|++|+|||+||||+|++
+T Consensus       404 ~~~~glg~~yad~YkKQ~lGsEKDEKLdKEHKEIeKLFKKLFyKLDALSNFHFTPKPPkPEIKIVSNVPAISMEEAqPTA  483 (593)
+T 5WYK_MC         404 XXXXXXXXXXXXXXXXXXXXXXXXXELQKAHSEISELYANLVYKLDVLSSVHFVPKPASTSLEIRVETPTISMEDAQPLY  483 (593)
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCcccCHHHHHHHHHHHHHHHhCcchhcCCCCCCCCCCCCcccCCCCeeehhhcCCcc
+Confidence            34579999999999999754 36777899999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCccCCCchhhccCC----------CCCCCCCcccCCCCchhhHhhhhHHhhhhhhhHHHHHHHHhhcCCCCCCCCCCc
+Q tr|A0A8Q3WK70|  403 VSDAALLAPEEIKEKN----------KAGDIKTAAEKTATDKKRERRKKKYQKRMKIKEKEKRRKLLEKSSVDQAGKYSK  472 (541)
+Q Consensus       403 vsdaallapeeikekn----------kagdiktaaektatdkkrerrkkkyqkrmkikekekrrkllekssvdqagkysk  472 (541)
+                      +|++++|||+|||.+.          ++|.++++.|||++||+|+||++|+++++++++     +.        .++..+
+T Consensus       484 VSDASLLAPEEVYKpgk~k~kGEVvgKKGepKGKSEMTREEKKRERRKKKRKRKKKrKE-----KK--------kKK~EK  550 (593)
+T 5WYK_MC         484 MSNASSLAPQEIYNVGKAEKDGEIRLKNGVAMSKEELTREDKNRLRRALKRKRSKANLP-----NV--------NKRSKR  550 (593)
+T ss_pred             CCHHHHhCCHHHhcCCccccCCCcccCCCCCCCHHHCCHHHHHHHHHHHHHHHHHccCc-----cc--------cchhhH
+Confidence            9999999999998762          467899999999999999999999877765522     00        122334
+
+
+Q ss_pred             ccchHHHHhhcccCCCCCCCCCC
+Q tr|A0A8Q3WK70|  473 TVASEKLKQLTKTGKASFIKDEG  495 (541)
+Q Consensus       473 tvaseklkqltktgkasfikdeg  495 (541)
+                      .+++++|+   +.++|+|++++|
+T Consensus       551 KKALKkLK---KAKNVTVIGKKG  570 (593)
+T 5WYK_MC         551 NDVVDTLS---KAKNITVINQKG  570 (593)
+T ss_pred             HHHHHHHc---ccCCcEEeCCCC
+Confidence            55566664   447899998554
+
+
+No 7
+>5O9E_B Eukaryotic translation initiation factor 6; Ribosome biogenesis, RIBOSOME, BRIX; 1.884A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=99.88  E-value=9e-23  Score=176.46  Aligned_cols=92  Identities=46%  Similarity=0.746  Sum_probs=78.7  Template_Neff=5.300
+
+Q ss_pred             cccccHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCcchcccHHHHHHHHHH
+Q tr|A0A8Q3WK70|  215 EVKSSFEKRQEKMNEKIASLEKELLEKKPWQLQGEVTAQKRPENSLLEETLHFDHAVRMAPVITEETTLQLEDIIKQRIR  294 (541)
+Q Consensus       215 evkssfekrqekmnekiaslekellekkpwqlqgevtaqkrpenslleetlhfdhavrmapviteettlqlediikqrir  294 (541)
+                      ..+|+|+++|++|+.+|.+||.++|++|+|+|+|||+|++||.||||+.+|+|+++.+|+|+||+++|..||+||++||+
+T Consensus        40 ~~~S~~ek~q~kl~~~I~~LE~e~v~~K~W~l~GEv~a~~RP~NSLLe~~Ldfd~~~k~~p~itee~t~~lE~iIk~RI~  119 (131)
+T 5O9E_B           40 SRKSAHERRQAKIAEQIRKLEAELVAKRAWTLAGEATAADRPVNSLLGEDMEFDHVGKPVPVVTEEVSESIEELIKRRIL  119 (131)
+T ss_dssp             ----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC--------CTTSSCEECCCTTCCCCCCCHHHHHHHHHHHHHHHH
+T ss_pred             ccCCHHHHHHHHHHHHHHHHHHHHHhcCccccccccccccCCCCchhhccCccccCCCCCCCCCHHHHHhHHHHHHHHHH
+Confidence            56999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hcchhhhccCCC
+Q tr|A0A8Q3WK70|  295 DQAWDDVVRKEK  306 (541)
+Q Consensus       295 dqawddvvrkek  306 (541)
+                      ++.||||+|+.+
+T Consensus       120 e~~FDdv~rk~~  131 (131)
+T 5O9E_B          120 AGEFDEVLRRRP  131 (131)
+T ss_dssp             HTCCCSCBCCCC
+T ss_pred             hCCCCCCeeCCC
+Confidence            999999999863
+
+
+No 8
+>5WXM_U U3 small nucleolar ribonucleoprotein protein; protein complex, components of 90S; HET: SO4, MSE; 2.304A {Saccharomyces cerevisiae S288c}
+Probab=98.85  E-value=3.8e-09  Score=73.41  Aligned_cols=33  Identities=42%  Similarity=0.728  Sum_probs=29.0  Template_Neff=6.300
+
+Q ss_pred             CCCcchHHHHHHHHHHHHhhhhhcCCCCCCCCC
+Q tr|A0A8Q3WK70|  348 EENPEHVEIQKMMDSLFLKLDALSNFHFIPKPP  380 (541)
+Q Consensus       348 eenpehveiqkmmdslflkldalsnfhfipkpp  380 (541)
+                      ++.++|++|..+|..||++|||||||||||+|+
+T Consensus         2 ~~~~~~~ei~~l~~~l~~kLDaLs~~~~~Pk~~   34 (34)
+T 5WXM_U            2 PLQKAHSEISELYANLVYKLDVLSSVHFVPKPA   34 (34)
+T ss_dssp             TTHHHHHHHHHHHHHHHHHHHHHTCCCCCCC--
+T ss_pred             cchHHHHHHHHHHHHHHHHhhhhhcCCCCCCCC
+Confidence            356789999999999999999999999999984
+
+
+No 9
+>5WXM_V U3 small nucleolar ribonucleoprotein protein; protein complex, components of 90S; HET: SO4, MSE; 2.304A {Saccharomyces cerevisiae S288c}
+Probab=98.85  E-value=3.8e-09  Score=73.41  Aligned_cols=33  Identities=42%  Similarity=0.728  Sum_probs=29.0  Template_Neff=6.300
+
+Q ss_pred             CCCcchHHHHHHHHHHHHhhhhhcCCCCCCCCC
+Q tr|A0A8Q3WK70|  348 EENPEHVEIQKMMDSLFLKLDALSNFHFIPKPP  380 (541)
+Q Consensus       348 eenpehveiqkmmdslflkldalsnfhfipkpp  380 (541)
+                      ++.++|++|..+|..||++|||||||||||+|+
+T Consensus         2 ~~~~~~~ei~~l~~~l~~kLDaLs~~~~~Pk~~   34 (34)
+T 5WXM_V            2 PLQKAHSEISELYANLVYKLDVLSSVHFVPKPA   34 (34)
+T ss_dssp             TTHHHHHHHHHHHHHHHHHHHHHTCCCCCCC--
+T ss_pred             cchHHHHHHHHHHHHHHHHhhhhhcCCCCCCCC
+Confidence            356789999999999999999999999999984
+
+
+No 10
+>7O4J_W Pre-initiation complex, TRANSCRIPTION; HET: ZN, ADP; 2.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=14.98  E-value=96  Score=34.23  Aligned_cols=39  Identities=26%  Similarity=0.566  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHhhhcccccCC--------CCCCCC-CCCCCCCCCCCCCCCC
+Q tr|A0A8Q3WK70|   68 SEMEAYLENIEKEEERK--------DDNDEE-EEDIDFFEDIDSDEDE  106 (541)
+Q Consensus        68 semeayleniekeeerk--------ddndee-eedidffedidsdede  106 (541)
+                      ..|.+|...+.++..+.        ++.+++ ++|-|-|||+..++++
+T Consensus       355 ~~l~~y~a~l~~~q~~e~~~~~~~~eeeede~dddedeFeDv~~~~~~  402 (492)
+T 7O4J_W          355 KTLNDYYAALAKKQAKLNKEEEEEEEEEEDEEEEEEEEMEDVMDDNDE  402 (492)
+T ss_pred             HHHHHHHHHHHHHHHHHhhhhhhhhhhhcccchhhHhhhccccCCCch
+
+

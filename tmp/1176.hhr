@@ -1,0 +1,168 @@
+Query         tr|S4R3R2|S4R3R2_HUMAN
+Match_columns 121
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:42:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1176.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5JY1_D Putative short-chain de  16.6 2.4E+02  0.0026   19.5   1.9   20   54-73      7-26  (274)
+  2 4M6B_F Chimera protein of Hist  15.4 1.6E+02  0.0017   21.1   0.8   21   19-39     31-51  (55)
+  3 1I24_A SULFOLIPID BIOSYNTHESIS  13.5 2.4E+02  0.0026   21.6   1.4   15   56-72      8-22  (404)
+  4 6ZU5_SDD uL2, uL15, uL3, eL29,  12.3   4E+02  0.0043   17.7   2.0   29    1-29      9-37  (63)
+  5 3CTM_A Carbonyl Reductase (E.C  12.1 4.5E+02  0.0049   16.9   2.1   24   49-72     22-45  (279)
+  6 3CTM_H Carbonyl Reductase (E.C  12.1 4.5E+02  0.0049   16.9   2.1   24   49-72     22-45  (279)
+  7 6DRR_B Short-chain dehydrogena  11.4   4E+02  0.0044   16.7   1.7   16   57-72      3-18  (271)
+  8 2Z1N_A dehydrogenase; dehydrog  11.0 4.2E+02  0.0046   16.7   1.7   14   59-72      5-18  (260)
+  9 2Z1N_B dehydrogenase; dehydrog  11.0 4.2E+02  0.0046   16.7   1.7   14   59-72      5-18  (260)
+ 10 3GAF_A 7-ALPHA-HYDROXYSTEROID   10.0 5.6E+02  0.0061   15.6   2.0   17   56-72      7-23  (256)
+
+No 1
+>5JY1_D Putative short-chain dehydrogenase/reductase (E.C.1.1.1.100); dehydrogenase/reductase NAD, Structural Genomics, Seattle; HET: ACT, NAD, EDO; 1.65A {Burkholderia xenovorans (strain LB400)}
+Probab=16.60  E-value=2.4e+02  Score=19.52  Aligned_cols=20  Identities=25%  Similarity=0.393  Sum_probs=14.3  Template_Neff=11.400
+
+Q ss_pred             cccCCcCcceeeecCCCCCC
+Q tr|S4R3R2|S4R3   54 ADKMHVDREFAVVTGGSGQF   73 (121)
+Q Consensus        54 adkmhvdrefavvtggsgqf   73 (121)
+                      ..+.+.....++|||++|..
+T Consensus         7 ~~~~~~~~~~~lvtG~~~~i   26 (274)
+T 5JY1_D            7 HHMGLLEQRVALVTGAGGGI   26 (274)
+T ss_dssp             --CCTTTTCEEEEETTTSHH
+T ss_pred             ccccccCCCEEEEeCCCCHH
+Confidence            34567778899999998753
+
+
+No 2
+>4M6B_F Chimera protein of Histone H2B.1; Chromatin remodeler, Histone binding, Structural; 1.78A {Saccharomyces cerevisiae}
+Probab=15.40  E-value=1.6e+02  Score=21.14  Aligned_cols=21  Identities=43%  Similarity=0.597  Sum_probs=14.7  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCcCCCCcCcCCCCCC
+Q tr|S4R3R2|S4R3   19 RCLEDSEDFGVKKARTEAQSL   39 (121)
+Q Consensus        19 rcledsedfgvkkarteaqsl   39 (121)
+                      --|.|||||-|.....|...|
+T Consensus        31 ldlddsedftvnsssvegeel   51 (55)
+T 4M6B_F           31 LDLDDSEDFTVNSSSVEGEEL   51 (55)
+T ss_pred             CCCCcccCceecccccccchh
+Confidence            457899999987665554443
+
+
+No 3
+>1I24_A SULFOLIPID BIOSYNTHESIS PROTEIN SQD1, NICOTINAMIDE-ADENINE-DINUCLEOTIDE; SDR, SHORT-CHAIN DEHYDROGENASE/REDUCTASE, ROSSMANN FOLD; HET: SO4, UPG, NAD; 1.2A {Arabidopsis thaliana} SCOP: c.2.1.2
+Probab=13.47  E-value=2.4e+02  Score=21.62  Aligned_cols=15  Identities=40%  Similarity=0.674  Sum_probs=8.7  Template_Neff=10.500
+
+Q ss_pred             cCCcCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   56 KMHVDREFAVVTGGSGQ   72 (121)
+Q Consensus        56 kmhvdrefavvtggsgq   72 (121)
+                      +||-++  .+||||+|.
+T Consensus         8 ~~~~~~--ilvtG~~Gf   22 (404)
+T 1I24_A            8 HHHGSR--VMVIGGDGY   22 (404)
+T ss_dssp             ----CE--EEEETTTSH
+T ss_pred             ccCCcc--EEEECCCCh
+Confidence            455554  789999985
+
+
+No 4
+>6ZU5_SDD uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=12.35  E-value=4e+02  Score=17.66  Aligned_cols=29  Identities=14%  Similarity=0.174  Sum_probs=19.3  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCcCCC
+Q tr|S4R3R2|S4R3    1 XGHQNVFPNHISVGTNRKRCLEDSEDFGV   29 (121)
+Q Consensus         1 ~ghqnvfpnhisvgtnrkrcledsedfgv   29 (121)
+                      .||++++..|-..|....+|..-+..-|+
+T Consensus         9 ~~~~~~~~~~r~~g~gsr~C~~cg~~~g~   37 (63)
+T 6ZU5_SDD          9 PGSYAGRVDTRKFGRGSRSCRACFTHRGI   37 (63)
+T ss_pred             CCccccCCCcccccCCCceeeeCCCccee
+Confidence            37888988884467766777665544443
+
+
+No 5
+>3CTM_A Carbonyl Reductase (E.C.1.1.1.-); alcohol dehydrogenase, Candida parapsilosis, short-chain; 2.69A {Candida Parapsilosis}
+Probab=12.09  E-value=4.5e+02  Score=16.93  Aligned_cols=24  Identities=29%  Similarity=0.356  Sum_probs=17.2  Template_Neff=12.900
+
+Q ss_pred             CCCCCcccCCcCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   49 DTEDDADKMHVDREFAVVTGGSGQ   72 (121)
+Q Consensus        49 dteddadkmhvdrefavvtggsgq   72 (121)
+                      ........|+.....++|+|++|.
+T Consensus        22 ~~~~~~~~~~~~~~~~~i~G~~g~   45 (279)
+T 3CTM_A           22 LSKNVLDLFSLKGKVASVTGSSGG   45 (279)
+T ss_dssp             CCSSGGGGGCCTTCEEEETTTTSS
+T ss_pred             cchhHHHHcccCCcEEEEeCCCCh
+Confidence            344455667777888899999874
+
+
+No 6
+>3CTM_H Carbonyl Reductase (E.C.1.1.1.-); alcohol dehydrogenase, Candida parapsilosis, short-chain; 2.69A {Candida Parapsilosis}
+Probab=12.09  E-value=4.5e+02  Score=16.93  Aligned_cols=24  Identities=29%  Similarity=0.356  Sum_probs=17.1  Template_Neff=12.900
+
+Q ss_pred             CCCCCcccCCcCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   49 DTEDDADKMHVDREFAVVTGGSGQ   72 (121)
+Q Consensus        49 dteddadkmhvdrefavvtggsgq   72 (121)
+                      ........|+.....++|+|++|.
+T Consensus        22 ~~~~~~~~~~~~~~~~~i~G~~g~   45 (279)
+T 3CTM_H           22 LSKNVLDLFSLKGKVASVTGSSGG   45 (279)
+T ss_dssp             CCSSGGGGGCCTTCEEEETTTTSH
+T ss_pred             cchhHHHHcccCCcEEEEeCCCCh
+Confidence            334455667777888899999873
+
+
+No 7
+>6DRR_B Short-chain dehydrogenase; OXIDOREDUCTASE; HET: EDO; 1.599A {Campylobacter jejuni}
+Probab=11.37  E-value=4e+02  Score=16.69  Aligned_cols=16  Identities=19%  Similarity=0.625  Sum_probs=10.9  Template_Neff=13.300
+
+Q ss_pred             CCcCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   57 MHVDREFAVVTGGSGQ   72 (121)
+Q Consensus        57 mhvdrefavvtggsgq   72 (121)
+                      ++.....++|+|++|.
+T Consensus         3 ~~~~~~~~li~G~~g~   18 (271)
+T 6DRR_B            3 LKIKNKVCIITGGAKG   18 (271)
+T ss_dssp             CCCTTCEEEEETTTSH
+T ss_pred             CccCCcEEEEeCCCCh
+Confidence            3445566788888875
+
+
+No 8
+>2Z1N_A dehydrogenase; dehydrogenase, reductase, SDR, OXIDOREDUCTASE; 1.8A {Aeropyrum pernix}
+Probab=11.00  E-value=4.2e+02  Score=16.74  Aligned_cols=14  Identities=43%  Similarity=0.634  Sum_probs=9.9  Template_Neff=13.000
+
+Q ss_pred             cCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   59 VDREFAVVTGGSGQ   72 (121)
+Q Consensus        59 vdrefavvtggsgq   72 (121)
+                      .....++|+|++|.
+T Consensus         5 ~~~~~~~i~G~~g~   18 (260)
+T 2Z1N_A            5 IQGKLAVVTAGSSG   18 (260)
+T ss_dssp             CTTCEEEEETTTSH
+T ss_pred             cCCCEEEEeCCCCh
+Confidence            44566788888875
+
+
+No 9
+>2Z1N_B dehydrogenase; dehydrogenase, reductase, SDR, OXIDOREDUCTASE; 1.8A {Aeropyrum pernix}
+Probab=11.00  E-value=4.2e+02  Score=16.74  Aligned_cols=14  Identities=43%  Similarity=0.634  Sum_probs=9.9  Template_Neff=13.000
+
+Q ss_pred             cCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   59 VDREFAVVTGGSGQ   72 (121)
+Q Consensus        59 vdrefavvtggsgq   72 (121)
+                      .....++|+|++|.
+T Consensus         5 ~~~~~~~i~G~~g~   18 (260)
+T 2Z1N_B            5 IQGKLAVVTAGSSG   18 (260)
+T ss_dssp             CTTCEEEEETTTSH
+T ss_pred             cCCCEEEEeCCCCh
+Confidence            44566788888875
+
+
+No 10
+>3GAF_A 7-ALPHA-HYDROXYSTEROID DEHYDROGENASE (E.C.1.1.1.159); BRUCELLA, MELITENSIS, HYDROXYSTEROID, DEHYDROGENASE, SEATTLE; 2.2A {Brucella melitensis}
+Probab=10.00  E-value=5.6e+02  Score=15.61  Aligned_cols=17  Identities=29%  Similarity=0.587  Sum_probs=11.6  Template_Neff=13.600
+
+Q ss_pred             cCCcCcceeeecCCCCC
+Q tr|S4R3R2|S4R3   56 KMHVDREFAVVTGGSGQ   72 (121)
+Q Consensus        56 kmhvdrefavvtggsgq   72 (121)
+                      .++.....++|+|++|.
+T Consensus         7 ~~~~~~~~~~i~g~~g~   23 (256)
+T 3GAF_A            7 PFHLNDAVAIVTGAAAG   23 (256)
+T ss_dssp             TTCCTTCEEEECSCSSH
+T ss_pred             CCccCCCEEEEeCCCCh
+Confidence            34555667888888773
+
+

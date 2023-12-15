@@ -1,0 +1,399 @@
+Query         tr|A0A087WYB2|A0A087WYB2_HUMAN
+Match_columns 225
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:05:00 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1492.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4GIW_A RUN and SH3 domain-cont  97.7 8.4E-05 9.2E-10   56.4   4.3   87    6-92     99-195 (198)
+  2 6IF2_A Ras-related protein Rab  97.5 0.00017 1.8E-09   54.0   3.4   85    7-91    109-203 (205)
+  3 2DWK_A Protein RUFY3; RUN doma  92.5    0.26 2.8E-06   35.7   2.9   75   10-90     89-173 (180)
+  4 7BQI_A FYVE and coiled-coil do  86.5     0.8 8.7E-06   33.5   1.4   75    9-88     91-175 (183)
+  5 6FZW_A Collagen alpha-1(III) c  85.3     1.2 1.3E-05   37.2   2.0   22   88-109     5-26  (293)
+  6 6FZW_C Collagen alpha-1(III) c  85.3     1.2 1.3E-05   37.2   2.0   22   88-109     5-26  (293)
+  7 3GUD_B Neck appendage protein;  50.6      53 0.00057   22.1   3.3   12   66-77    103-114 (129)
+  8 6TG5_A MacpD; Mupirocin, acyl   44.7      12 0.00013   26.8  -0.4   10   90-99      6-15  (138)
+  9 4FLA_B Regulation of nuclear p  41.1      79 0.00085   26.4   3.6   25   95-119    10-34  (152)
+ 10 4FLA_D Regulation of nuclear p  41.1      79 0.00085   26.4   3.6   26   94-119     9-34  (152)
+ 11 3K7X_A Lin0763, Q92DQ0, LkR23,  40.3 1.2E+02  0.0013   22.9   4.2    6  106-111   322-327 (349)
+ 12 3IE7_A Lin2199 protein (E.C.2.  39.4      30 0.00033   26.7   1.0    6   38-43    267-272 (320)
+ 13 6TU2_B Annexin; annexin, calci  32.2      48 0.00052   26.3   1.1   16   89-104     5-20  (326)
+ 14 4BJX_A BROMODOMAIN-CONTAINING   27.3 3.2E+02  0.0035   18.3   4.5   12   90-101     8-19  (153)
+ 15 3L19_A Calcium/calmodulin depe  27.2 2.3E+02  0.0025   19.9   3.6   15  105-119    24-38  (214)
+ 16 6F3Z_A Lipoprotein-releasing s  25.2 1.7E+02  0.0018   21.2   2.7    8   66-73    207-214 (230)
+ 17 4HZI_A ABC transporter ATP-bin  22.6      62 0.00068   24.7   0.2    6   91-96      8-13  (294)
+ 18 4HZI_B ABC transporter ATP-bin  22.6      62 0.00068   24.7   0.2   11   90-100     7-17  (294)
+ 19 3UBO_A adenosine kinase (E.C.2  22.6 4.2E+02  0.0046   21.2   4.6   10   35-44    291-300 (354)
+ 20 3CWZ_B Rab6 Interacting Protei  22.0 2.5E+02  0.0027   24.8   3.6   69    7-80    158-236 (384)
+ 21 3UF8_A Ubiquitin-like protein   21.0 1.6E+02  0.0018   21.7   2.0    7  109-115    43-49  (209)
+
+No 1
+>4GIW_A RUN and SH3 domain-containing protein; NGF-TrkA signaling pathway, NF-kB pathway; HET: MSE; 2.0A {Homo sapiens}
+Probab=97.74  E-value=8.4e-05  Score=56.35  Aligned_cols=87  Identities=94%  Similarity=1.374  Sum_probs=73.8  Template_Neff=9.400
+
+Q ss_pred             cHHHHHHHHHhcCCCCCchHHHHHHHHHhcChHHHHHHHHHHhh----------chchhhhhcCCCCCccHHHHHHHHHH
+Q tr|A0A087WYB2|    6 SLGTLYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQE----------DAGFFSLARGGCPSLSTELLLLLQPL   75 (225)
+Q Consensus         6 slgtlysqvsrlaplsssrsrfhafilgllntkqlelwfsslqe----------dagffslarggcpslstelllllqpl   75 (225)
+                      .+.++++.++......++++|+|+||+.+||+++|..|+..+..          ++|+++++++++++.++.++.+|..|
+T Consensus        99 ~~~~~v~~i~~~~~~~~~~~r~Ra~i~~~Ln~~~L~~~l~~l~~~~~~l~~~Y~~~a~l~~~~~~~~~~~~~l~~~L~~L  178 (198)
+T 4GIW_A           99 SLGTLYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQEDAGLLSLMYMPTGFFSLARGGCPSLSTELLLLLQPL  178 (198)
+T ss_dssp             HHHHHHHHHHHTCSSCCHHHHHHHHHHHHHHHTCHHHHHHHHHTCHHHHHHHBCTTSHHHHTSSBTTBHHHHHHHHHGGG
+T ss_pred             HHHHHHHHHHccCcCCCCchhHHHHHHHHHccCcHHHHHHHHhcCHHHHHhhccCcchhhccCCCCcchHHHHHHHhHhH
+Confidence            45678888888888899999999999999999999999998765          88999987556778899999999999
+
+
+Q ss_pred             HHHHHHHHHHhhccCCC
+Q tr|A0A087WYB2|   76 SVLTFHLDLLFEHHHHL   92 (225)
+Q Consensus        76 svltfhldllfehhhhl   92 (225)
+                      +.++|.|+++++..++.
+T Consensus       179 ~~~~F~L~~~~~~~~~~  195 (198)
+T 4GIW_A          179 SVLTFHLDLLFELEHHH  195 (198)
+T ss_dssp             GGSCCBCCTTCC-----
+T ss_pred             hcCCCCCChHHHhccCC
+Confidence            99999999998877664
+
+
+No 2
+>6IF2_A Ras-related protein Rab-35, Iporin; Rab35, RUSC2, complex, ENDOCYTOSIS; HET: GTP; 2.4A {Homo sapiens}
+Probab=97.53  E-value=0.00017  Score=53.99  Aligned_cols=85  Identities=54%  Similarity=0.892  Sum_probs=71.7  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHhcCCCCCchHHHHHHHHHhcChHHHHHHHHHHhh----------chchhhhhcCCCCCccHHHHHHHHHHH
+Q tr|A0A087WYB2|    7 LGTLYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQE----------DAGFFSLARGGCPSLSTELLLLLQPLS   76 (225)
+Q Consensus         7 lgtlysqvsrlaplsssrsrfhafilgllntkqlelwfsslqe----------dagffslarggcpslstelllllqpls   76 (225)
+                      +.++++.+..+....+..+|+|+||+.+|+++.|+.|+..++.          ++||++++++.++..++.++.+|..|+
+T Consensus       109 ~~~~v~~i~~~~~~~~~~~k~ra~i~~~L~~~~L~~~l~~l~~~~~~l~~~Y~~~a~l~~~~~~~~~~~~~l~~~L~~L~  188 (205)
+T 6IF2_A          109 LHGLYNKVSQFPELTSHTMRFNAFILGLLNIRSLEFWFNHLYNHEDIIQTHYQPWGFLSAAHTVCPGLFEELLLLLQPLA  188 (205)
+T ss_pred             HHHHHHHHhcCCccCCchHhHHHHHHHHHccccHHHHHHHHHhChHHHHHhcCccchHhccCCcCcchHHHHHHHhHcHh
+Confidence            3345666667766778999999999999999999999988775          789999654445678899999999999
+
+
+Q ss_pred             HHHHHHHHHhhccCC
+Q tr|A0A087WYB2|   77 VLTFHLDLLFEHHHH   91 (225)
+Q Consensus        77 vltfhldllfehhhh   91 (225)
+                      .++|.|+++.++|+.
+T Consensus       189 ~l~f~l~l~~~~~~~  203 (205)
+T 6IF2_A          189 LLPFSLDLLFQHRLL  203 (205)
+T ss_pred             cCCCCCChHHHhHhh
+Confidence            999999999999863
+
+
+No 3
+>2DWK_A Protein RUFY3; RUN domain, effector, Rap2, bundle; HET: MSE; 2.0A {Mus musculus}
+Probab=92.54  E-value=0.26  Score=35.66  Aligned_cols=75  Identities=19%  Similarity=0.160  Sum_probs=62.1  Template_Neff=10.500
+
+Q ss_pred             HHHHHHhcCCCCCchHHHHHHHHHhcChHHHHHHHHHHhh----------chchhhhhcCCCCCccHHHHHHHHHHHHHH
+Q tr|A0A087WYB2|   10 LYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQE----------DAGFFSLARGGCPSLSTELLLLLQPLSVLT   79 (225)
+Q Consensus        10 lysqvsrlaplsssrsrfhafilgllntkqlelwfsslqe----------dagffslarggcpslstelllllqplsvlt   79 (225)
+                      .++.+..+....+..+|+|+||+.+++++.|+.+++.++.          ++|++++.     . ...+..+|..++.+.
+T Consensus        89 ~~~~~~~~~~~~~~~~k~r~~ir~~L~~~~L~~~l~~l~~~~~~l~~~Y~~~a~l~~~-----~-~~~l~~~L~~l~~~~  162 (180)
+T 2DWK_A           89 ITASVKDLPGLKTPVGRGRAWLRLALMQKKLSEYMKALINKKELLSEFYEVNALMMEE-----E-GAIIAGLLVGLNVID  162 (180)
+T ss_dssp             HHHHHHTCTTCCSHHHHHHHHHHHHHHHTCHHHHHHHHHTCHHHHTTTBCTTSGGGSH-----H-HHHHHHHGGGGGGCC
+T ss_pred             HHHHHHhCCCCCChhHHHHHHHHHHHHcCCHHHHHHHHHhCHHHHHHHhcccchhcCH-----H-HHHHHHHHHhcCcCe
+Confidence            4455666666788899999999999999999999998765          78999864     4 678899999999999
+
+
+Q ss_pred             HHHHHHhhccC
+Q tr|A0A087WYB2|   80 FHLDLLFEHHH   90 (225)
+Q Consensus        80 fhldllfehhh   90 (225)
+                      |.++++....+
+T Consensus       163 f~l~l~~~~ld  173 (180)
+T 2DWK_A          163 ANFCMKGEDLD  173 (180)
+T ss_dssp             BCSSCCHHHHC
+T ss_pred             eeccCCchhhc
+Confidence            99888876543
+
+
+No 4
+>7BQI_A FYVE and coiled-coil domain-containing protein; Autophagy, CYTOSOLIC PROTEIN; 1.3A {Homo sapiens}
+Probab=86.52  E-value=0.8  Score=33.46  Aligned_cols=75  Identities=20%  Similarity=0.085  Sum_probs=63.1  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHhcCCCCCchHHHHHHHHHhcChHHHHHHHHHHhh----------chchhhhhcCCCCCccHHHHHHHHHHHHH
+Q tr|A0A087WYB2|    9 TLYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQE----------DAGFFSLARGGCPSLSTELLLLLQPLSVL   78 (225)
+Q Consensus         9 tlysqvsrlaplsssrsrfhafilgllntkqlelwfsslqe----------dagffslarggcpslstelllllqplsvl   78 (225)
+                      ..+..+.......+..+|+|+||+.+++++.|+.++..++.          ++|++++.     +..+.++.+|..|+.+
+T Consensus        91 ~~~~~i~~~~~~~~~~~~~rawl~~~L~~~~L~~~l~~l~~~~~~l~~~Y~~~a~l~~~-----~~~~~l~~~L~~l~~~  165 (183)
+T 7BQI_A           91 DGIRFVKSISELRTSLGKGRAFIRYSLVHQRLADTLQQCFMNTKVTSDWYYARSPFLQP-----KLSSDIVGQLYELTEV  165 (183)
+T ss_dssp             HHHHHHHTCTTCCSHHHHHHHHHHHHHHTTCHHHHHHHHHHCHHHHHHHBCTTCGGGCH-----HHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHhhhcCCCCCCchHHHHHHHHHCccHHHHHHHHHhCHHHHHHhccCCCHhhCH-----HHHHHHHHHHHhcCcc
+Confidence            44556666666778899999999999999999999998765          78999865     5688999999999999
+
+
+Q ss_pred             HHHHHHHhhc
+Q tr|A0A087WYB2|   79 TFHLDLLFEH   88 (225)
+Q Consensus        79 tfhldllfeh   88 (225)
+                      +|.++++...
+T Consensus       166 ~f~l~~~~~~  175 (183)
+T 7BQI_A          166 QFDLASRGFD  175 (183)
+T ss_dssp             CBCCCSSSSC
+T ss_pred             cceEecCCcc
+Confidence            9988887655
+
+
+No 5
+>6FZW_A Collagen alpha-1(III) chain, Procollagen C-endopeptidase; Collagen, STRUCTURAL PROTEIN; HET: FLC; 2.78A {Homo sapiens}
+Probab=85.30  E-value=1.2  Score=37.25  Aligned_cols=22  Identities=50%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCChhH
+Q tr|A0A087WYB2|   88 HHHHLPLGPPQAPAPPGPPPAL  109 (225)
+Q Consensus        88 hhhhlplgppqapappgpppal  109 (225)
+                      .++|-..|||.++.||||+.+.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~   26 (293)
+T 6FZW_A            5 HHHHHSAGPPGPPGAPGPCCGG   26 (293)
+T ss_dssp             ----------------------
+T ss_pred             CccccCCCCCCCCCCCCCCCcc
+Confidence            4566677888888888887554
+
+
+No 6
+>6FZW_C Collagen alpha-1(III) chain, Procollagen C-endopeptidase; Collagen, STRUCTURAL PROTEIN; HET: FLC; 2.78A {Homo sapiens}
+Probab=85.30  E-value=1.2  Score=37.25  Aligned_cols=22  Identities=50%  Similarity=0.946  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCChhH
+Q tr|A0A087WYB2|   88 HHHHLPLGPPQAPAPPGPPPAL  109 (225)
+Q Consensus        88 hhhhlplgppqapappgpppal  109 (225)
+                      .++|-..|||.++.||||+.+.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~   26 (293)
+T 6FZW_C            5 HHHHHSAGPPGPPGAPGPCCGG   26 (293)
+T ss_dssp             ----------------------
+T ss_pred             CccccCCCCCCCCCCCCCCCcc
+Confidence            4566677888888888887554
+
+
+No 7
+>3GUD_B Neck appendage protein; 3-helix bundle, chaperon, CHAPERONE; HET: PEG; 2.2A {Bacillus phage GA-1}
+Probab=50.58  E-value=53  Score=22.08  Aligned_cols=12  Identities=25%  Similarity=-0.056  Sum_probs=4.7  Template_Neff=11.100
+
+Q ss_pred             HHHHHHHHHHHH
+Q tr|A0A087WYB2|   66 TELLLLLQPLSV   77 (225)
+Q Consensus        66 telllllqplsv   77 (225)
+                      ..++.++..+..
+T Consensus       103 ~~~~~~~~~~~~  114 (129)
+T 3GUD_B          103 TECQWLEMACMR  114 (129)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            333334444433
+
+
+No 8
+>6TG5_A MacpD; Mupirocin, acyl carrier protein, Acyl; NMR {Pseudomonas fluorescens}
+Probab=44.72  E-value=12  Score=26.84  Aligned_cols=10  Identities=30%  Similarity=0.185  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCCCCCC
+Q tr|A0A087WYB2|   90 HHLPLGPPQA   99 (225)
+Q Consensus        90 hhlplgppqa   99 (225)
+                      +|.+++++..
+T Consensus         6 ~~~~~~~~~~   15 (138)
+T 6TG5_A            6 HHGKPIPNPL   15 (138)
+T ss_dssp             ----------
+T ss_pred             CCCCCCCCCC
+Confidence            4444444433
+
+
+No 9
+>4FLA_B Regulation of nuclear pre-mRNA domain-containing; Structural Genomics Consortium, SGC, TRANSCRIPTION; 2.2A {Homo sapiens}
+Probab=41.11  E-value=79  Score=26.40  Aligned_cols=25  Identities=12%  Similarity=0.153  Sum_probs=7.2  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCChhHHHHHHHHHHH
+Q tr|A0A087WYB2|   95 GPPQAPAPPGPPPALQQTMQAMLHF  119 (225)
+Q Consensus        95 gppqapappgpppalqqtmqamlhf  119 (225)
+                      |.-.+-.|++.||..+..++++..+
+T Consensus        10 ~~~~~~~~~~~pP~~eeLi~~L~~L   34 (152)
+T 4FLA_B           10 GRENLYFQGAGPLLTEELIKALQDL   34 (152)
+T ss_dssp             -------------CHHHHHHHHHHH
+T ss_pred             CCcCCCCCCCCCCCHHHHHHHHHHH
+Confidence            3333334555566666666665544
+
+
+No 10
+>4FLA_D Regulation of nuclear pre-mRNA domain-containing; Structural Genomics Consortium, SGC, TRANSCRIPTION; 2.2A {Homo sapiens}
+Probab=41.11  E-value=79  Score=26.40  Aligned_cols=26  Identities=12%  Similarity=0.120  Sum_probs=8.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCChhHHHHHHHHHHH
+Q tr|A0A087WYB2|   94 LGPPQAPAPPGPPPALQQTMQAMLHF  119 (225)
+Q Consensus        94 lgppqapappgpppalqqtmqamlhf  119 (225)
+                      -|.-.+-.|++.||..+..++++..+
+T Consensus         9 ~~~~~~~~~~~~pP~~eeLi~~L~~L   34 (152)
+T 4FLA_D            9 SGRENLYFQGAGPLLTEELIKALQDL   34 (152)
+T ss_dssp             -------------CHHHHHHHHHHHH
+T ss_pred             CCCcCCCCCCCCCCCHHHHHHHHHHH
+Confidence            33333344555666666666666544
+
+
+No 11
+>3K7X_A Lin0763, Q92DQ0, LkR23, NESG, Structural; HET: MSE; 1.889A {Listeria innocua}
+Probab=40.27  E-value=1.2e+02  Score=22.86  Aligned_cols=6  Identities=17%  Similarity=0.124  Sum_probs=2.4  Template_Neff=12.300
+
+Q ss_pred             ChhHHH
+Q tr|A0A087WYB2|  106 PPALQQ  111 (225)
+Q Consensus       106 ppalqq  111 (225)
+                      .+...+
+T Consensus       322 ~~~~~~  327 (349)
+T 3K7X_A          322 IPYSAE  327 (349)
+T ss_dssp             EEHHHH
+T ss_pred             CChHHH
+Confidence            343333
+
+
+No 12
+>3IE7_A Lin2199 protein (E.C.2.7.1.-); Phosphofructokinases, Transferase, Listeria innocua, Glycerol; HET: ATP, MSE; 1.6A {Listeria innocua}
+Probab=39.42  E-value=30  Score=26.68  Aligned_cols=6  Identities=0%  Similarity=-0.285  Sum_probs=2.2  Template_Neff=11.400
+
+Q ss_pred             HHHHHH
+Q tr|A0A087WYB2|   38 KQLELW   43 (225)
+Q Consensus        38 kqlelw   43 (225)
+                      ..+...
+T Consensus       267 ~~~~~a  272 (320)
+T 3IE7_A          267 MPITET  272 (320)
+T ss_dssp             CCHHHH
+T ss_pred             CCHHHH
+Confidence            333333
+
+
+No 13
+>6TU2_B Annexin; annexin, calcium, core domain, LIPID; HET: CA; 2.3A {Rattus norvegicus}
+Probab=32.20  E-value=48  Score=26.29  Aligned_cols=16  Identities=38%  Similarity=0.769  Sum_probs=4.2  Template_Neff=10.900
+
+Q ss_pred             cCCCCCCCCCCCCCCC
+Q tr|A0A087WYB2|   89 HHHLPLGPPQAPAPPG  104 (225)
+Q Consensus        89 hhhlplgppqapappg  104 (225)
+                      ++|-|.|+..--.++.
+T Consensus         5 ~~~~~~~~~~~~~~~~   20 (326)
+T 6TU2_B            5 HHHHPMGRGTITDASG   20 (326)
+T ss_dssp             -------CCSCCCCSS
+T ss_pred             CCCCCCCCCeeeCCCC
+Confidence            4555666554444443
+
+
+No 14
+>4BJX_A BROMODOMAIN-CONTAINING PROTEIN 4; DNA BINDING PROTEIN, INHIBITOR, HISTONE; HET: 73B; 1.59A {HOMO SAPIENS}
+Probab=27.31  E-value=3.2e+02  Score=18.25  Aligned_cols=12  Identities=33%  Similarity=0.531  Sum_probs=3.2  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A087WYB2|   90 HHLPLGPPQAPA  101 (225)
+Q Consensus        90 hhlplgppqapa  101 (225)
+                      +|...+...+++
+T Consensus         8 ~~~~~~~~~~~~   19 (153)
+T 4BJX_A            8 HHSSSMNPPPPE   19 (153)
+T ss_dssp             ----CCCCCCCC
+T ss_pred             cCCCCCCCCCCC
+Confidence            344444444333
+
+
+No 15
+>3L19_A Calcium/calmodulin dependent protein kinase with; Transferase, calcium dependent protein kinase; HET: GOL, 1PE; 2.14A {Cryptosporidium parvum}
+Probab=27.17  E-value=2.3e+02  Score=19.92  Aligned_cols=15  Identities=27%  Similarity=0.547  Sum_probs=7.5  Template_Neff=12.100
+
+Q ss_pred             CChhHHHHHHHHHHH
+Q tr|A0A087WYB2|  105 PPPALQQTMQAMLHF  119 (225)
+Q Consensus       105 pppalqqtmqamlhf  119 (225)
+                      ..+....+++.+..|
+T Consensus        24 ~~~~~~~~~~~l~~~   38 (214)
+T 3L19_A           24 ELPSLANAIENMRKF   38 (214)
+T ss_dssp             CCHHHHHHHHHHHHH
+T ss_pred             CchHHHHHHHHHHHH
+Confidence            344555555555444
+
+
+No 16
+>6F3Z_A Lipoprotein-releasing system transmembrane protein LolC; Lipoprotein trafficking, PROTEIN TRANSPORT; 2.0A {Escherichia coli K-12}
+Probab=25.25  E-value=1.7e+02  Score=21.17  Aligned_cols=8  Identities=25%  Similarity=0.376  Sum_probs=3.0  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHH
+Q tr|A0A087WYB2|   66 TELLLLLQ   73 (225)
+Q Consensus        66 telllllq   73 (225)
+                      +.+...+.
+T Consensus       207 ~~~~~~~~  214 (230)
+T 6F3Z_A          207 GELFQAVR  214 (230)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33333333
+
+
+No 17
+>4HZI_A ABC transporter ATP-binding protein; ABC transporter superfamily, manganese uptake; HET: SO4; 1.85A {Leptospira interrogans serovar Copenhageni}
+Probab=22.62  E-value=62  Score=24.71  Aligned_cols=6  Identities=33%  Similarity=0.368  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCC
+Q tr|A0A087WYB2|   91 HLPLGP   96 (225)
+Q Consensus        91 hlplgp   96 (225)
+                      |+++.+
+T Consensus         8 ~~~~~~   13 (294)
+T 4HZI_A            8 HHHLES   13 (294)
+T ss_dssp             ------
+T ss_pred             cccccc
+Confidence            333333
+
+
+No 18
+>4HZI_B ABC transporter ATP-binding protein; ABC transporter superfamily, manganese uptake; HET: SO4; 1.85A {Leptospira interrogans serovar Copenhageni}
+Probab=22.62  E-value=62  Score=24.71  Aligned_cols=11  Identities=27%  Similarity=0.262  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|A0A087WYB2|   90 HHLPLGPPQAP  100 (225)
+Q Consensus        90 hhlplgppqap  100 (225)
+                      .|+++.+...+
+T Consensus         7 ~~~~~~~~~~~   17 (294)
+T 4HZI_B            7 HHHHLESTSLY   17 (294)
+T ss_dssp             -----------
+T ss_pred             cccccccceee
+Confidence            34444433333
+
+
+No 19
+>3UBO_A adenosine kinase (E.C.2.7.1.4); Structural Genomics, PSI-Biology, New York; HET: ADN, ADP, MSE; 2.601A {Sinorhizobium meliloti}
+Probab=22.58  E-value=4.2e+02  Score=21.24  Aligned_cols=10  Identities=20%  Similarity=0.082  Sum_probs=3.9  Template_Neff=11.200
+
+Q ss_pred             cChHHHHHHH
+Q tr|A0A087WYB2|   35 LNTKQLELWF   44 (225)
+Q Consensus        35 lntkqlelwf   44 (225)
+                      ++...+...+
+T Consensus       291 ~~~~~~~~a~  300 (354)
+T 3UBO_A          291 TSGRSLEECS  300 (354)
+T ss_dssp             TTCCCHHHHH
+T ss_pred             hCCCCHHHHH
+Confidence            3333444333
+
+
+No 20
+>3CWZ_B Rab6 Interacting Protein 1, Rab; HET: GTP; 3.2A {Homo sapiens}
+Probab=21.96  E-value=2.5e+02  Score=24.77  Aligned_cols=69  Identities=12%  Similarity=0.196  Sum_probs=58.4  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHhcCCCCCchHHHHHHHHHhcChHHHHHHHHHHhh----------chchhhhhcCCCCCccHHHHHHHHHHH
+Q tr|A0A087WYB2|    7 LGTLYSQVSRLAPLSSSRSRFHAFILGLLNTKQLELWFSSLQE----------DAGFFSLARGGCPSLSTELLLLLQPLS   76 (225)
+Q Consensus         7 lgtlysqvsrlaplsssrsrfhafilgllntkqlelwfsslqe----------dagffslarggcpslstelllllqpls   76 (225)
+                      +...++.+..+..+.+..+|.|+||+.+|+++.|+.++..++.          ++||+++.     +..+.++.+|..|+
+T Consensus       158 ~~~~v~~v~~~~~i~t~~gr~RawiR~aL~~~~L~~~l~~l~~~~~~l~~~Y~~~a~l~~~-----e~~~~l~~lL~~L~  232 (384)
+T 3CWZ_B          158 LIQDMRHIQNIGEIKTDVGKARAWVRLSMEKKLLSRHLKQLLSDHELTKKLYKRYAFLRCD-----DEKEQFLYHLLSFN  232 (384)
+T ss_dssp             HHHHHHHHHTCTTCCSHHHHHHHHHHHHHHHTCHHHHHHHHTTCHHHHHHHBCTTSTTTCH-----HHHHHHHHHHGGGG
+T ss_pred             HHHHHHHHHHHhcccchhHHHHHHHHHHhhcchHHHHHHHHHcCHHHHHHHhhhHHHHcCH-----hHHHHHHHHhhhcc
+Confidence            3445677788888889999999999999999999999988765          77999865     67888899999998
+
+
+Q ss_pred             HHHH
+Q tr|A0A087WYB2|   77 VLTF   80 (225)
+Q Consensus        77 vltf   80 (225)
+                      .++|
+T Consensus       233 ~~~f  236 (384)
+T 3CWZ_B          233 AVDY  236 (384)
+T ss_dssp             SSCC
+T ss_pred             cccc
+Confidence            8877
+
+
+No 21
+>3UF8_A Ubiquitin-like protein SMT3, Peptidyl-prolyl cis-trans; SSGCID, Isomerase, Seattle Structural Genomics; HET: FK5; 1.5A {Saccharomyces cerevisiae}
+Probab=21.03  E-value=1.6e+02  Score=21.69  Aligned_cols=7  Identities=43%  Similarity=0.672  Sum_probs=2.9  Template_Neff=11.000
+
+Q ss_pred             HHHHHHH
+Q tr|A0A087WYB2|  109 LQQTMQA  115 (225)
+Q Consensus       109 lqqtmqa  115 (225)
+                      ++..|.+
+T Consensus        43 l~~l~~~   49 (209)
+T 3UF8_A           43 LRRLMEA   49 (209)
+T ss_dssp             THHHHHH
+T ss_pred             HHHHHHH
+Confidence            3444444
+
+

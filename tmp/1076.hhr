@@ -1,0 +1,210 @@
+Query         tr|C9JBF5|C9JBF5_HUMAN
+Match_columns 117
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:00:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1076.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PE4_A Hyaluronidase-1 (E.C.3.  99.8 1.2E-19 1.3E-24  145.5   3.6   93   25-117     2-94  (424)
+  2 2ATM_A Hyaluronoglucosaminidas  99.6 2.8E-16   3E-21  121.9   2.6   84   31-117     3-91  (331)
+  3 1FCQ_A HYALURONIDASE (E.C. 3.2  99.6 1.5E-15 1.6E-20  119.4   1.6   85   30-117     5-95  (350)
+  4 1FCU_A HYALURONIDASE (3.2.1.35  99.6 1.5E-15 1.6E-20  119.4   1.6   85   30-117     5-95  (350)
+  5 6H9C_B VP7, VP9, GPS-III molec  16.0 5.5E+02   0.006   21.8   4.2   52   33-88     97-149 (232)
+  6 6H82_H VP4, VP7, Penton Protei  15.7 5.6E+02  0.0061   21.7   4.1   52   33-88     94-146 (229)
+  7 3CJI_C Polyprotein; virus caps  14.3 2.3E+02  0.0025   22.8   1.7   12   69-80    125-136 (284)
+  8 5VBD_A USP9X; Ubiquitin, prote  14.3   8E+02  0.0087   17.7   4.8    9   74-82     70-78  (109)
+  9 4LR3_I protein YfbU; Helical T  14.1   2E+02  0.0021   21.4   1.1   12   78-89    109-120 (164)
+ 10 4V7E_BM Ribosome; eukaryotic r  13.6 2.6E+02  0.0029   20.2   1.6   23   17-39      2-24  (171)
+
+No 1
+>2PE4_A Hyaluronidase-1 (E.C.3.2.1.35); Hyaluronidase, Hyaluronan, EGF-like domain, HYDROLASE; HET: BMA, NAG, ACT, MAN; 2.0A {Homo sapiens}
+Probab=99.78  E-value=1.2e-19  Score=145.51  Aligned_cols=93  Identities=39%  Similarity=0.719  Sum_probs=86.7  Template_Neff=7.100
+
+Q ss_pred             CCCCCCCCCCCEEEEEcCCCcCCCccccCCCCccceeeeeCCCCCcccceEEEEEeCCCCceceECCCCCcccCCCCccc
+Q tr|C9JBF5|C9JB   25 PTAPPIFTGRPFVVAWDVPTQDCGPRLKVPLDLNAFDVQASPNEGFVNQNITIFYRDRLGLYPRFDSAGRSVHGGVPQNV  104 (117)
+Q Consensus        25 ptappiftgrpfvvawdvptqdcgprlkvpldlnafdvqaspnegfvnqnitifyrdrlglyprfdsagrsvhggvpqnv  104 (117)
+                      ++++|+..+++|+||||+||+.|..+|++++||++|||+.|++++|.|++|+|||++++|+||++..+++++|||+||++
+T Consensus         2 ~~~~p~~~~~~f~v~Wn~pt~~C~~~~~~~~~l~~~~i~~n~~~~f~g~~i~ifY~~~~G~~P~~~~~~~~~nGGlPQ~~   81 (424)
+T 2PE4_A            2 SFRGPLLPNRPFTTVWNANTQWCLERHGVDVDVSVFDVVANPGQTFRGPDMTIFYSSQLGTYPYYTPTGEPVFGGLPQNA   81 (424)
+T ss_dssp             CCCSSSBTTBSSEEEEESCHHHHHHHHCCCCCCTTSSEECCTTCCSCCSSEEEECTTSSSCCCEECTTSCEETTSSGGGS
+T ss_pred             CCCCCCCCCCCceEEEeCChHHHHHHHCCCCChHHcCeEeCCCCCCCCCCeEEEecCCCCCCCeeCCCCCcccCCCCCCc
+Confidence            34678899999999999999999778999999999999999999999999999999999999999776889999999999
+
+
+Q ss_pred             eheeehhhhcCCC
+Q tr|C9JBF5|C9JB  105 SLWAHRKMLQKRV  117 (117)
+Q Consensus       105 slwahrkmlqkrv  117 (117)
+                      +|++||+++++||
+T Consensus        82 ~l~~hl~~~~~dI   94 (424)
+T 2PE4_A           82 SLIAHLARTFQDI   94 (424)
+T ss_dssp             CHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHH
+Confidence            9999999998764
+
+
+No 2
+>2ATM_A Hyaluronoglucosaminidase (E.C.3.2.1.35); beta-alpha-barrels, HYDROLASE; HET: MES; 2.0A {Vespula vulgaris}
+Probab=99.62  E-value=2.8e-16  Score=121.95  Aligned_cols=84  Identities=27%  Similarity=0.587  Sum_probs=75.9  Template_Neff=7.400
+
+Q ss_pred             CCCCCEEEEEcCCCcCCCccccCCC-CccceeeeeCCCCCcccceEEEEEeCCCCceceECCC--C--CcccCCCCccce
+Q tr|C9JBF5|C9JB   31 FTGRPFVVAWDVPTQDCGPRLKVPL-DLNAFDVQASPNEGFVNQNITIFYRDRLGLYPRFDSA--G--RSVHGGVPQNVS  105 (117)
+Q Consensus        31 ftgrpfvvawdvptqdcgprlkvpl-dlnafdvqaspnegfvnqnitifyrdrlglyprfdsa--g--rsvhggvpqnvs  105 (117)
+                      .++++|+|+||+||+.| .++++++ +|++|+|+.|+++.|.|++|+|||+  .|+||++..+  |  +++|||+||+++
+T Consensus         3 ~~~~~f~v~WNvPt~~C-~~~~~~~~~l~~~~i~~n~~~~f~g~~i~ifY~--~G~~P~~~~~~~~~~~~~nGGlPQ~~~   79 (331)
+T 2ATM_A            3 RPKRVFNIYWNVPTFMC-HQYDLYFDEVTNFNIKRNSKDDFQGDKIAIFYD--PGEFPALLSLKDGKYKKRNGGVPQEGN   79 (331)
+T ss_dssp             ---CCCEEEEECCGGGG-GGGTCCCTTGGGGTCBCCGGGCSSCSSEEEEES--CSCCCEEEECSSSCEEEETTSSGGGCC
+T ss_pred             CCCCccEEEEEcCHHHH-hhcCCChhhhhhcccEecCCcccCCCeEEEEcC--CCCCCchhcccCCCeEeccCCCCCCCc
+Confidence            45789999999999999 7999998 9999999999999999999999999  7999999653  6  789999999999
+
+
+Q ss_pred             heeehhhhcCCC
+Q tr|C9JBF5|C9JB  106 LWAHRKMLQKRV  117 (117)
+Q Consensus       106 lwahrkmlqkrv  117 (117)
+                      |+.||++++++|
+T Consensus        80 l~~hl~~~~~~I   91 (331)
+T 2ATM_A           80 ITIHLQKFIENL   91 (331)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHH
+Confidence            999999998764
+
+
+No 3
+>1FCQ_A HYALURONIDASE (E.C. 3.2.1.35); 7-stranded (beta/alpha) TIM barrel, glycosidase; 1.6A {Apis mellifera} SCOP: c.1.8.9
+Probab=99.56  E-value=1.5e-15  Score=119.40  Aligned_cols=85  Identities=27%  Similarity=0.521  Sum_probs=73.1  Template_Neff=7.200
+
+Q ss_pred             CCCCCCEEEEEcCCCcCCCccccCCC-Cccc-eeeeeCCCCCcccceEEEEEeCCCCceceECCC--C--CcccCCCCcc
+Q tr|C9JBF5|C9JB   30 IFTGRPFVVAWDVPTQDCGPRLKVPL-DLNA-FDVQASPNEGFVNQNITIFYRDRLGLYPRFDSA--G--RSVHGGVPQN  103 (117)
+Q Consensus        30 iftgrpfvvawdvptqdcgprlkvpl-dlna-fdvqaspnegfvnqnitifyrdrlglyprfdsa--g--rsvhggvpqn  103 (117)
+                      ..+.++|+|+||+||+.| .++++++ +|.+ |+|+.|+++.|.|++|+|||+  +|+||++..+  |  +++|||+||+
+T Consensus         5 ~~~~~~f~v~Wnvpt~~C-~~~~v~~~~l~~~~~i~~N~~~~f~G~~i~ifY~--~G~~P~~~~~~~~~~~~vnGGlPQ~   81 (350)
+T 1FCQ_A            5 NKTVREFNVYWNVPTFMC-HKYGLRFEEVSEKYGILQNWMDKFRGEEIAILYD--PGMFPALLKDPNGNVVARNGGVPQL   81 (350)
+T ss_dssp             -----CCEEEEESCGGGG-GGGTCCCTHHHHTTCCBCCGGGCSSSSSEEEEES--CSCCCEEC-------CEETTSSGGG
+T ss_pred             cCCCCCcEEEEEcCHHHH-HhcCCChHHHHHHhCceecchhhcCCCeeEEEcC--CCCCCccccCCCCCEEeccCCCCCC
+Confidence            356889999999999999 7999998 9986 999999999999999999999  8999999764  5  6899999999
+
+
+Q ss_pred             ceheeehhhhcCCC
+Q tr|C9JBF5|C9JB  104 VSLWAHRKMLQKRV  117 (117)
+Q Consensus       104 vslwahrkmlqkrv  117 (117)
+                      ++|+.||++++++|
+T Consensus        82 ~nl~~HL~~~~~~I   95 (350)
+T 1FCQ_A           82 GNLTKHLQVFRDHL   95 (350)
+T ss_dssp             CCHHHHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHH
+Confidence            99999999998764
+
+
+No 4
+>1FCU_A HYALURONIDASE (3.2.1.35); 7 stranded (beta/alpha) TIM barrel; 2.1A {Apis mellifera} SCOP: c.1.8.9
+Probab=99.56  E-value=1.5e-15  Score=119.40  Aligned_cols=85  Identities=27%  Similarity=0.521  Sum_probs=74.5  Template_Neff=7.200
+
+Q ss_pred             CCCCCCEEEEEcCCCcCCCccccCCC-Cccc-eeeeeCCCCCcccceEEEEEeCCCCceceECCC--C--CcccCCCCcc
+Q tr|C9JBF5|C9JB   30 IFTGRPFVVAWDVPTQDCGPRLKVPL-DLNA-FDVQASPNEGFVNQNITIFYRDRLGLYPRFDSA--G--RSVHGGVPQN  103 (117)
+Q Consensus        30 iftgrpfvvawdvptqdcgprlkvpl-dlna-fdvqaspnegfvnqnitifyrdrlglyprfdsa--g--rsvhggvpqn  103 (117)
+                      ..+.++|+|+||+||+.| .++++++ +|.+ |+|+.|+++.|.|++|+|||+  +|+||++..+  |  +++|||+||+
+T Consensus         5 ~~~~~~f~v~Wnvpt~~C-~~~~v~~~~l~~~~~i~~N~~~~f~G~~i~ifY~--~G~~P~~~~~~~~~~~~vnGGlPQ~   81 (350)
+T 1FCU_A            5 NKTVREFNVYWNVPTFMC-HKYGLRFEEVSEKYGILQNWMDKFRGEEIAILYD--PGMFPALLKDPNGNVVARNGGVPQL   81 (350)
+T ss_dssp             -----CCEEEEESCGGGG-GGGTCCCTHHHHTTCCBCCGGGCSSSSSEEEEES--CTTCCEEEECTTSCEEEETTSSGGG
+T ss_pred             cCCCCCcEEEEEcCHHHH-HhcCCChHHHHHHhCceecchhhcCCCeeEEEcC--CCCCCccccCCCCCEEeccCCCCCC
+Confidence            356889999999999999 7999998 9986 999999999999999999999  8999999654  5  6899999999
+
+
+Q ss_pred             ceheeehhhhcCCC
+Q tr|C9JBF5|C9JB  104 VSLWAHRKMLQKRV  117 (117)
+Q Consensus       104 vslwahrkmlqkrv  117 (117)
+                      ++|+.||++++++|
+T Consensus        82 ~nl~~HL~~~~~~I   95 (350)
+T 1FCU_A           82 GNLTKHLQVFRDHL   95 (350)
+T ss_dssp             SCHHHHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHH
+Confidence            99999999998764
+
+
+No 5
+>6H9C_B VP7, VP9, GPS-III molecule located; vertical single beta-barrel virus, internal; 3.74A {Haloarcula californiae ATCC 33799}
+Probab=16.05  E-value=5.5e+02  Score=21.77  Aligned_cols=52  Identities=13%  Similarity=0.127  Sum_probs=27.9  Template_Neff=5.200
+
+Q ss_pred             CCCEEEEEcCC-CcCCCccccCCCCccceeeeeCCCCCcccceEEEEEeCCCCcece
+Q tr|C9JBF5|C9JB   33 GRPFVVAWDVP-TQDCGPRLKVPLDLNAFDVQASPNEGFVNQNITIFYRDRLGLYPR   88 (117)
+Q Consensus        33 grpfvvawdvp-tqdcgprlkvpldlnafdvqaspnegfvnqnitifyrdrlglypr   88 (117)
+                      .++=.+.|+.- ...| .-..|+.+-..+.+..   ..-.++.+.+||-..-|.+-.
+T Consensus        97 ~~pdVvv~~~~~~~~~-~~dsVDYaa~tvT~t~---~pg~~~~v~VYYi~~dg~~ei  149 (232)
+T 6H9C_B           97 DYPVVVAYNVTQGAQV-EIADVNYATDEVTLAT---DPADGDTVKLWPIMGDGEVQF  149 (232)
+T ss_pred             CcccEEEEEeCCCcEe-cceeeecCCCEEEEEc---CCCCCCEEEEEEecCCeEEEE
+Confidence            56667888875 3455 2333433322233321   223356899999865555543
+
+
+No 6
+>6H82_H VP4, VP7, Penton Protein VP9; single vertical beta-barrel virus, archaeal; 3.78A {Haloarcula hispanica icosahedral virus 2}
+Probab=15.68  E-value=5.6e+02  Score=21.71  Aligned_cols=52  Identities=10%  Similarity=0.100  Sum_probs=27.9  Template_Neff=5.200
+
+Q ss_pred             CCCEEEEEcCC-CcCCCccccCCCCccceeeeeCCCCCcccceEEEEEeCCCCcece
+Q tr|C9JBF5|C9JB   33 GRPFVVAWDVP-TQDCGPRLKVPLDLNAFDVQASPNEGFVNQNITIFYRDRLGLYPR   88 (117)
+Q Consensus        33 grpfvvawdvp-tqdcgprlkvpldlnafdvqaspnegfvnqnitifyrdrlglypr   88 (117)
+                      .++=.+.|+.- ...| .-..|+.+-..+.+..   ..-.++.+.+||-..-|.+-.
+T Consensus        94 ~~pdVvv~~~~~~~~~-~~dsVDYaa~tvT~t~---~pg~~~~v~VYYi~~dg~~ei  146 (229)
+T 6H82_H           94 DYPVAVAYNVTQGVEV-DVVDADYAADTVTLGT---NPADGDEVKVWPIMSDGDVQF  146 (229)
+T ss_pred             CcccEEEEEecCCcEe-cceeEecCCCEEEEee---CCCCCCEEEEEEecCCeEEEE
+Confidence            56667888875 3455 2333433322233321   223356899999865555533
+
+
+No 7
+>3CJI_C Polyprotein; virus capsid protein structure, ATP-binding; 2.3A {Seneca valley virus}
+Probab=14.34  E-value=2.3e+02  Score=22.84  Aligned_cols=12  Identities=8%  Similarity=0.099  Sum_probs=6.1  Template_Neff=7.600
+
+Q ss_pred             CcccceEEEEEe
+Q tr|C9JBF5|C9JB   69 GFVNQNITIFYR   80 (117)
+Q Consensus        69 gfvnqnitifyr   80 (117)
+                      .|....+.++|.
+T Consensus       125 ~F~~G~L~v~~~  136 (284)
+T 3CJI_C          125 QFHQGALLVAMV  136 (284)
+T ss_dssp             TTCEEEEEEEEE
+T ss_pred             cccccEEEEEEE
+Confidence            344555555554
+
+
+No 8
+>5VBD_A USP9X; Ubiquitin, protease, Structural Genomics, Structural; 1.5A {Homo sapiens}
+Probab=14.31  E-value=8e+02  Score=17.68  Aligned_cols=9  Identities=22%  Similarity=0.479  Sum_probs=6.6  Template_Neff=6.700
+
+Q ss_pred             eEEEEEeCC
+Q tr|C9JBF5|C9JB   74 NITIFYRDR   82 (117)
+Q Consensus        74 nitifyrdr   82 (117)
+                      ++.++|.++
+T Consensus        70 kl~L~~n~~   78 (109)
+T 5VBD_A           70 KIELFVGGE   78 (109)
+T ss_dssp             EEEEEETTE
+T ss_pred             EEEEEECCE
+Confidence            778888754
+
+
+No 9
+>4LR3_I protein YfbU; Helical Tetramer, APOPTOSIS; HET: PO4, MG; 2.5A {Escherichia coli}
+Probab=14.09  E-value=2e+02  Score=21.37  Aligned_cols=12  Identities=33%  Similarity=0.614  Sum_probs=6.8  Template_Neff=7.600
+
+Q ss_pred             EEeCCCCceceE
+Q tr|C9JBF5|C9JB   78 FYRDRLGLYPRF   89 (117)
+Q Consensus        78 fyrdrlglyprf   89 (117)
+                      |.-...|.|+..
+T Consensus       109 fli~~~~rf~~~  120 (164)
+T 4LR3_I          109 FMVNVEGRYTHF  120 (164)
+T ss_dssp             CCCCCSCCSTTS
+T ss_pred             eeecccCccccc
+Confidence            343446777765
+
+
+No 10
+>4V7E_BM Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=13.64  E-value=2.6e+02  Score=20.24  Aligned_cols=23  Identities=35%  Similarity=0.637  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             cccccCCCCCCCCCCCCCCEEEE
+Q tr|C9JBF5|C9JB   17 VSWAMELKPTAPPIFTGRPFVVA   39 (117)
+Q Consensus        17 vswamelkptappiftgrpfvva   39 (117)
+                      +-||-.|.|..||.|.-|+|...
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~   24 (171)
+T 4V7E_BM           2 TLLAKTLTPPPPPLFATRSFRRS   24 (171)
+T ss_pred             ccccccCCCCCCCceeeeEEeee
+
+

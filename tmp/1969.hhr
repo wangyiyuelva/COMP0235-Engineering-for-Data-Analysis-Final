@@ -1,0 +1,354 @@
+Query         sp|Q5JVS0|HABP4_HUMAN
+Match_columns 413
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:46:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1969.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4V6X_Ah Ribosome; eukarya, euk 100.0 2.8E-69   3E-74  508.6  21.9  369   13-413     2-408 (408)
+  2 4V6W_Ah Ribosome; eukarya, euk  99.4 1.4E-12 1.5E-17  106.6   7.8  105  179-301    16-121 (121)
+  3 6MTE_w Ribosome; Ribosome, tra  99.2 2.4E-11 2.6E-16   88.6   5.1   40  206-245     1-40  (55)
+  4 7OLD_B thermophilic eukaryotic  98.9 1.4E-09 1.5E-14  101.6   4.4  184  214-413   100-300 (302)
+  5 4U4R_SM 40S ribosomal protein   98.8 1.8E-08   2E-13   93.2   5.2  127  213-364    88-216 (273)
+  6 5DGV_SM ?; Ribosome, Complex,   98.2 1.3E-06 1.4E-11   81.3   3.3  113  213-364    93-206 (263)
+  7 4V88_Ah Translation, ribosome,  98.2 1.3E-06 1.4E-11   81.4   2.0  125  213-364    88-216 (273)
+  8 5MEI_i 60S ribosomal protein L  96.2  0.0034 3.7E-08   55.0   0.9   89  213-318    80-168 (168)
+  9 5TBW_i ?; Protein translation   95.7  0.0043 4.6E-08   54.5  -0.7   88  213-317    80-167 (168)
+ 10 3UOR_A ABC transporter sugar b  37.1 4.4E+02  0.0047   23.8   7.6   26   24-49    384-409 (458)
+ 11 3UOR_B ABC transporter sugar b  37.1 4.4E+02  0.0047   23.8   7.6   26   24-49    384-409 (458)
+ 12 3LAY_A Zinc resistance-associa  33.1      79 0.00086   24.7   2.3   10   33-42     70-79  (175)
+ 13 4WHE_A phage shock protein A (  27.1 1.5E+02  0.0016   24.5   3.1   31   19-49      6-36  (150)
+ 14 4V88_Ah Translation, ribosome,  20.8 1.9E+02  0.0021   28.7   3.0   14   25-38      2-15  (273)
+
+No 1
+>4V6X_Ah Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 5.0A {Homo sapiens}
+Probab=100.00  E-value=2.8e-69  Score=508.64  Aligned_cols=369  Identities=46%  Similarity=0.735  Sum_probs=292.3  Template_Neff=5.900
+
+Q ss_pred             CccccccccchhhhhHHhhcCCCCCHHHHHHHHHHHHHHHHHHhhhhhhhhcCCCCCCCCCCCCCC--CC--CCCCCCCC
+Q sp|Q5JVS0|HABP   13 GAAMQESFGCVVANRFHQLLDDESDPFDILREAERRRQQQLQRKRRDEAAAAAGAGPRGGRSPAGA--SG--HRAGAGGR   88 (413)
+Q Consensus        13 gaamqesfgcvvanrfhqllddesdpfdilreaerrrqqqlqrkrrdeaaaaagagprggrspaga--sg--hragaggr   88 (413)
+                      .+|||++|||+|||||+||||||+||||||++||.+|+         + +++.+++++++|+++++  ++  ..++|+++
+T Consensus         2 ~~~~~~~fgc~v~nrf~~llDde~dPfd~l~~~e~~k~---------~-~~~~~~~~~~~k~~a~~~~~~~~~~~~k~~~   71 (408)
+T 4V6X_Ah           2 PGHLQEGFGCVVTNRFDQLFDDESDPFEVLKAAENKKK---------E-AGGGGVGGPGAKSAAQAAAQTNSNAAGKQLR   71 (408)
+T ss_pred             CCcccccccceeecCcccccCCCCCHHHHHHHHHHHhh---------h-cCCCCCCCCchHHHHHHHHhccccccccccc
+Confidence            47899999999999999999999999999999999997         4 44556677788876643  22  34578889
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC-----CCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCC----CCCC
+Q sp|Q5JVS0|HABP   89 RESQKERKSLPAPVAQRPDSPGGGLQ-----APGQKRTPRRGEQQGWNDSRGPEGMLERAERRSYREYRPYE----TERQ  159 (413)
+Q Consensus        89 resqkerkslpapvaqrpdspggglq-----apgqkrtprrgeqqgwndsrgpegmleraerrsyreyrpye----terq  159 (413)
+                      +||||+|++|+++..++++.+++.++     ++|+++.++++.+++|++++.+.   +|++||+|+|||++.    ++.+
+T Consensus        72 ~esqk~r~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~---~r~~~r~~~e~r~~~~~~~~~~~  148 (408)
+T 4V6X_Ah          72 KESQKDRKNPLPPSVGVVDKKEETQPPVALKKEGIRRVGRRPDQQLQGEGKIID---RRPERRPPRERRFEKPLEEKGEG  148 (408)
+T ss_pred             hhhhhccCCCCCCcccccCccccCCCCccceecCceeeccCccccccCCCCccC---CCccCCCCccccCCCChhhcCCC
+Confidence            99999999887776544444433222     46889999999999999998887   899999999999976    4557
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccCCCCCC------CCCCCCCCC
+Q sp|Q5JVS0|HABP  160 ADFTAEKFPDEKPGDRFDRDRPLRGRGGPRGGMRGRGRGGPGNRVFDAFDQRGKREFERYGGNDK------IAVRTEDNM  233 (413)
+Q Consensus       160 adftaekfpdekpgdrfdrdrplrgrggprggmrgrgrggpgnrvfdafdqrgkreferyggndk------iavrtednm  233 (413)
+                      ++|++++     |    +.++++++|||+++||||||+|   ++++++||+|++|+||||||+++      +++++++|+
+T Consensus       149 ~~~~~~~-----p----~~~~~~rgrgg~~~grggrgrG---~~~~d~fd~rgkRefDRhSGsdr~~~~~~tgvk~~~KR  216 (408)
+T 4V6X_Ah         149 GEFSVDR-----P----IIDRPIRGRGGLGRGRGGRGRG---MGRGDGFDSRGKREFDRHSGSDRSSFSHYSGLKHEDKR  216 (408)
+T ss_pred             CCccccc-----c----ccCCCCCCCCCCCCCCCCCCCC---CCCCCCCcccCccccccCCCCCCCccccccCCCccccc
+Confidence            8999998     8    7899999999866666666665   67889999999999999999999      899999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCC----------------CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHH
+Q sp|Q5JVS0|HABP  234 GGCGVRTWGSGKDTSD----------------VEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQEMTLDEWK  297 (413)
+Q Consensus       234 ggcgvrtwgsgkdtsd----------------veptapmeeptvveesqgtpeeespakvpeleveeetqvqemtldewk  297 (413)
+                      +|.|.||||+++|+++                ++++++++++++.++.+  +.++.++++++.++++++++++|||+||+
+T Consensus       217 ~G~G~~NWGs~~de~~~~~~~~~~~~s~~~~~~e~~~~~ee~~~~ee~~--~~~e~e~~e~e~ee~~eee~k~mTLdEyk  294 (408)
+T 4V6X_Ah         217 GGSGSHNWGTVKDELTESPKYIQKQISYNYSDLDQSNVTEETPEGEEHH--PVADTENKENEVEEVKEEGPKEMTLDEWK  294 (408)
+T ss_pred             CCCCccCCccchhhhccCchHhhhhcccccccccccCCCCCCCCCCcCC--CCCcccchhhhHHHHHccCCccccHHHHH
+Confidence            9999999999999876                12222334444333312  22344455555444445567899999999
+
+
+Q ss_pred             hhhccCCCCCCCCCCCCCCCCC---CCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  298 NLQEQTRPKPEFNIRKPESTVP---SKAVVIHKSKYRDDMVKDDYEDDSHVFRKPANDITSQLEINFGNLPRPGRGARGG  374 (413)
+Q Consensus       298 nlqeqtrpkpefnirkpestvp---skavvihkskyrddmvkddyeddshvfrkpanditsqleinfgnlprpgrgargg  374 (413)
+                      ++|+++++++.|||||++++++   ++++||||+++++++.+.+  ..++++++++++|||+|+|||++++||+||+||+
+T Consensus       295 a~q~~~r~k~~~niRKa~eg~~~~w~k~~vl~K~k~~E~~~e~~--~~~~~~rk~k~ki~~~idi~F~d~~RpgRGgRGg  372 (408)
+T 4V6X_Ah         295 AIQNKDRAKVEFNIRKPNEGADGQWKKGFVLHKSKSEEAHAEDS--VMDHHFRKPANDITSQLEINFGDLGRPGRGGRGG  372 (408)
+T ss_pred             HHHHHHHhcccccCCCCCCCCCcchhccEEEEeChhhhhhcccc--cccccccCccccceEEeEEEeCCCCCCCCCCCCC
+Confidence            9999999999999999999986   8999999988766665555  4566788899999999999999999999999987
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCccCCCCCCCCCCcccCCCCC
+Q sp|Q5JVS0|HABP  375 TRGGRGRIRRAENYGPRAEVVMQDVAPNPDDPEDFPALS  413 (413)
+Q Consensus       375 trggrgrirraenygpraevvmqdvapnpddpedfpals  413 (413)
+                       |||||+|+|+.. ++..... ...+|+++|+++||||+
+T Consensus       373 -rgGRGrg~r~~~-g~~~~~~-~~~ap~~dD~~~FPaL~  408 (408)
+T 4V6X_Ah         373 -RGGRGRGGRPNR-GSRTDKS-SASAPDVDDPEAFPALA  408 (408)
+T ss_pred             -CCCCCCCCCCCC-CCCCCCC-CCCCCCCCCHHHCCCCC
+Confidence             777777655544 3322222 45789999999999996
+
+
+No 2
+>4V6W_Ah Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=99.40  E-value=1.4e-12  Score=106.64  Aligned_cols=105  Identities=32%  Similarity=0.549  Sum_probs=66.8  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCC
+Q sp|Q5JVS0|HABP  179 DRPLRGRGGPRGGMRGRGRGGPGNRVFDAFDQRGKREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSD-VEPTAPME  257 (413)
+Q Consensus       179 drplrgrggprggmrgrgrggpgnrvfdafdqrgkreferyggndkiavrtednmggcgvrtwgsgkdtsd-veptapme  257 (413)
+                      ++++++||++|+   +||+||         +.+++|+|+|++|+++++++++.+++|.|.+||++..|++. +++.  .+
+T Consensus        16 ~~~~~~r~~~g~---~rgrgg---------~~r~rRefdR~sGs~r~g~k~~~kr~G~G~~Nwg~~~de~~~~~~~--~e   81 (121)
+T 4V6W_Ah          16 QRQFNNRDNRGP---PRVRTG---------EKFGKREFDRQSGSDRTGVKSIDKREGGGAHNWGSPKQDIEDLKTT--GE   81 (121)
+T ss_pred             CcccCCCCCCCC---CCCCCC---------CcCCCcccccCCCCCCCCccccccccCCCcCCCCCchHhhhhhhcc--CC
+Confidence            677888875332   233331         56788999999999999899999999999999999998875 2221  11
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHhhhc
+Q sp|Q5JVS0|HABP  258 EPTVVEESQGTPEEESPAKVPELEVEEETQVQEMTLDEWKNLQE  301 (413)
+Q Consensus       258 eptvveesqgtpeeespakvpeleveeetqvqemtldewknlqe  301 (413)
+                      +.+..+. .  . .+.+..+++.++++++++++||||||++||+
+T Consensus        82 ~~~~~e~-~--~-~~~e~~~~~~e~~~eee~kemTLdEwka~q~  121 (121)
+T 4V6W_Ah          82 TSPQAEK-E--D-SANEQSADPAVAAEKEEPKEMTLDEWKAIQN  121 (121)
+T ss_pred             CCCcccc-c--c-chhhccCChhhhccccCCceecHHHHHHHhC
+Confidence            1111111 0  0 0111111112223356689999999999874
+
+
+No 3
+>6MTE_w Ribosome; Ribosome, translation; HET: P7G, M7A, 2MG, PSU, BGH, 7MG, 6MZ, OMU, DDE, 4AC, 5MC, MHG, A2M, UR3, E7G, B9B, MLZ, 5MU, I4U, B8N, GDP, B8Q, E3C, OMG, B8K, OMC, 1MA, MG, B8H, B8T, E6G, B8W, B9H, MA6, P4U; 3.4A {Oryctolagus cuniculus}
+Probab=99.24  E-value=2.4e-11  Score=88.63  Aligned_cols=40  Identities=50%  Similarity=0.998  Sum_probs=36.7  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCccccCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  206 DAFDQRGKREFERYGGNDKIAVRTEDNMGGCGVRTWGSGK  245 (413)
+Q Consensus       206 dafdqrgkreferyggndkiavrtednmggcgvrtwgsgk  245 (413)
+                      ++||+|++|+|+||||+++++++++++++|.|.+||+++.
+T Consensus         1 d~fd~rgkRefdR~sgsdk~gvk~~~k~~g~g~~nwg~~~   40 (55)
+T 6MTE_w            1 DGFDSRGKREFDRHSGSDRSGLKHEDKRGGSGSHNWGTVK   40 (55)
+T ss_pred             CCCCCCCCcccccCCCCCCCCCCCcccCCCCCcCCCcccc
+Confidence            4689999999999999999999999999999999998643
+
+
+No 4
+>7OLD_B thermophilic eukaryotic ribosome, 80S, rRNA; HET: DDE, B8N, GDP;{Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=98.94  E-value=1.4e-09  Score=101.64  Aligned_cols=184  Identities=22%  Similarity=0.311  Sum_probs=98.7  Template_Neff=6.200
+
+Q ss_pred             CccccC-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC--CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  214 REFERY-GGNDKIAVRTEDNMGGCGVRTWGSGKDTSD--VEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQE  290 (413)
+Q Consensus       214 refery-ggndkiavrtednmggcgvrtwgsgkdtsd--veptapmeeptvveesqgtpeeespakvpeleveeetqvqe  290 (413)
+                      +.|||| |++++++  ..+|+   ..+|||+..++..  .++.  .+.....+...  +.++....+ +.++++|+++++
+T Consensus       100 r~fDRh~SgTGr~g--d~~Kk---~~~gWG~~~~~~e~~~E~~--ge~~a~~e~~~--~~a~~~~~a-~~~~~~EeE~k~  169 (302)
+T 7OLD_B          100 EEGDRHPTRSAPRS--NSEKQ---ASQGWGATEGEAELKDEQA--AEEIAQTEKKE--AAEGEAAPE-AEAKEEEPQEKV  169 (302)
+T ss_pred             CCCCCCCCCCCCCC--hhhhc---cccCCCCccchhhHHHHHH--HHHHHHHHHHH--Hhhhccchh-hhhhccCcccCc
+Confidence            469999 9988863  34454   3779999654322  1111  01111011000  101110000 111223456789
+
+
+Q ss_pred             CCHHHHHhhhccCCCCCC----CCCCCCCCCCC---CCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccCCC
+Q sp|Q5JVS0|HABP  291 MTLDEWKNLQEQTRPKPE----FNIRKPESTVP---SKAVVIHKSKYRDDMVKDDYEDDSHVFRKPANDITSQLEINFGN  363 (413)
+Q Consensus       291 mtldewknlqeqtrpkpe----fnirkpestvp---skavvihkskyrddmvkddyeddshvfrkpanditsqleinfgn  363 (413)
+                      |||+||+++|+.++..+.    +++|+++++++   +.+++|+|. .+++|+.... ...+..+..+.|++|+|+|.|.+
+T Consensus       170 ~TLeEY~a~~~~kk~~l~~~~k~~~Rk~neG~~~~~~~~~~l~K~-eee~f~~~~~-~k~~k~k~kKeK~~l~id~~f~~  247 (302)
+T 7OLD_B          170 LTYDQYLAKLAEKKLALEQENALKVRKPNEGAEDKFKGLKPLTKN-EDEALFAPTV-QKKERQRERKTKQIIEIENRYVE  247 (302)
+T ss_pred             ccHHHHHHHHHHHHHHHhhhhhhccCCCCCCCchhhcCCccccCC-cchhhccccc-chhHHHhhhhcceeEEeeeeecc
+Confidence            999999999987665433    68999998742   788899883 2344443320 11122344566789999999977
+
+
+Q ss_pred             CCCC-CCCCCCCCCC----CCCCC--CCCCCCCCCCCccCCCCCCCCCCcccCCCCC
+Q sp|Q5JVS0|HABP  364 LPRP-GRGARGGTRG----GRGRI--RRAENYGPRAEVVMQDVAPNPDDPEDFPALS  413 (413)
+Q Consensus       364 lprp-grgarggtrg----grgri--rraenygpraevvmqdvapnpddpedfpals  413 (413)
+                      ..+. +|||||+ ||    |||||  +++.+ +.+. .. ...++|++|..+||+|+
+T Consensus       248 p~~~~gRggRgg-RGg~RGgRgRG~~~rg~r-gg~~-~~-~~~~~n~~D~~aFPsLg  300 (302)
+T 7OLD_B          248 ERPRGGRGGRGA-RDGARGGRGRGGAPRGGR-GGAK-EN-AAPAINTNDETAFPSLG  300 (302)
+T ss_pred             CCCCCCCCCCCC-CCCCCCCCCCCCCCCCCC-CCcc-cC-CCCCCCCCCHHhccccC
+Confidence            3221 2333432 22    22222  11111 1111 01 23568999999999995
+
+
+No 5
+>4U4R_SM 40S ribosomal protein S0-A, 40S; translation, ribosome, 40S, 60S, 80S; HET: ZN, 3H3, MG, OHX; 2.801A {Saccharomyces cerevisiae S288c}
+Probab=98.75  E-value=1.8e-08  Score=93.16  Aligned_cols=127  Identities=14%  Similarity=0.183  Sum_probs=77.3  Template_Neff=6.200
+
+Q ss_pred             CCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  213 KREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSDVEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQEMT  292 (413)
+Q Consensus       213 kreferyggndkiavrtednmggcgvrtwgsgkdtsdveptapmeeptvveesqgtpeeespakvpeleveeetqvqemt  292 (413)
+                      +|+|||||+++++   ...|+.+   +|||+..+++..++..  +.....+. .  .  +.   +.+.|+ +|+++++||
+T Consensus        88 rR~fDRhSgTGr~---d~~Kk~~---~gWG~~~~El~~E~~~--e~da~~e~-~--~--~a---~~e~e~-~Eee~k~~T  150 (273)
+T 4U4R_SM          88 RRATDRHSRTGKT---DTKKKVN---QGWGDDKKELSAEKEA--QADAAAEI-A--E--DA---AEAEDA-GKPKTAQLS  150 (273)
+T ss_pred             CcccccCCCCCCC---Ccccccc---CCCCccHHHHHHHHHH--HHhHHHHh-h--h--hh---HHHHhh-CCCccccCC
+Confidence            5899999998774   4456654   4899987776522211  11111111 0  0  00   011111 344578999
+
+
+Q ss_pred             HHHHHhhhccCCCCCCCCCCCCCCCCCCCCccc-CCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCccccCCCC
+Q sp|Q5JVS0|HABP  293 LDEWKNLQEQTRPKPEFNIRKPESTVPSKAVVI-HKSKYRDDMVKDDYEDD-SHVFRKPANDITSQLEINFGNL  364 (413)
+Q Consensus       293 ldewknlqeqtrpkpefnirkpestvpskavvi-hkskyrddmvkddyedd-shvfrkpanditsqleinfgnl  364 (413)
+                      |+||+++|+.+.....++||+++++    +++| +|  .+|+|+...  .. .+..+..+.|++|+|+|+|.+.
+T Consensus       151 LdEYla~~~~k~l~~~~~~Rkaneg----~~~l~~K--eee~f~~~~--~~k~~k~k~~K~K~~ldid~~F~~~  216 (273)
+T 4U4R_SM         151 LQDYLNQQANNQFNKVPEAKKVELD----AERIETA--EKEAYVPAT--KVKNVKSKQLKTKEYLEFDATFVES  216 (273)
+T ss_pred             HHHHHHHHHHhhcCCCCcccccccc----cceecch--hhhhccccc--ccccccccccccceEEeeeceeccc
+Confidence            9999999987644444899999987    7788 66  345555433  22 2223445678899999999766
+
+
+No 6
+>5DGV_SM ?; Ribosome, Complex, tRNA analogue; HET: ZN, SPS, 8AN; 3.1A {Saccharomyces cerevisiae S288c}
+Probab=98.25  E-value=1.3e-06  Score=81.27  Aligned_cols=113  Identities=11%  Similarity=0.138  Sum_probs=64.8  Template_Neff=6.000
+
+Q ss_pred             CCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  213 KREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSDVEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQEMT  292 (413)
+Q Consensus       213 kreferyggndkiavrtednmggcgvrtwgsgkdtsdveptapmeeptvveesqgtpeeespakvpeleveeetqvqemt  292 (413)
+                      +|.|||||+++++   ...|+.+   .+||...+++..+..  .+.....|.      .+      +.++ +|+++++||
+T Consensus        93 rR~fDRhSgTGr~---d~~Kk~~---~gWG~~~~El~~E~~--ge~~a~~e~------~e------~aee-~E~e~~~~T  151 (263)
+T 5DGV_SM          93 RRATDRHSRTGKT---DTKKKVN---QGWGDDKKELSAEKE--AQADAAAEI------AE------DAAE-AEDAXXXXX  151 (263)
+T ss_pred             CcccccCCCCCCC---Ccccccc---CCCCCcHHHHHHHHH--HHHhHHHHH------HH------HHHH-HhcCCCCCC
+Confidence            5889999998774   3455554   459987666542211  010000010      00      0111 234578999
+
+
+Q ss_pred             HHHHHhhhccCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCccccCCCC
+Q sp|Q5JVS0|HABP  293 LDEWKNLQEQTRPKPEFNIRKPESTVPSKAVVIHKSKYRDDMVKDDYEDD-SHVFRKPANDITSQLEINFGNL  364 (413)
+Q Consensus       293 ldewknlqeqtrpkpefnirkpestvpskavvihkskyrddmvkddyedd-shvfrkpanditsqleinfgnl  364 (413)
+                      |+||+++|            |  +.....|++|.|  .+|+|+...  .. ....+..+.|++|+|++.|.+.
+T Consensus       152 LdEYla~~------------K--d~~~~~~~~l~k--eeE~f~~~~--~~k~~k~k~~K~K~~ldid~~f~~~  206 (263)
+T 5DGV_SM         152 XXXXXXXX------------X--XXXXXXXXXXXX--EKEAYVPAT--KVKNVKSKQLKTKEYLEFDATFVES  206 (263)
+T ss_pred             CCCCCCCC------------C--CCCCCCCCCCCC--Ccccccccc--ccccccccccccceEEeeeceeccc
+Confidence            99999966            1  111257888887  345555433  22 2223445678899999999766
+
+
+No 7
+>4V88_Ah Translation, ribosome, 40S, 60S, 80S; HET: ZN, MG, OHX; 3.0A {Saccharomyces cerevisiae}
+Probab=98.19  E-value=1.3e-06  Score=81.43  Aligned_cols=125  Identities=10%  Similarity=0.127  Sum_probs=72.9  Template_Neff=6.100
+
+Q ss_pred             CCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCC
+Q sp|Q5JVS0|HABP  213 KREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSDVEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEE-ETQVQEM  291 (413)
+Q Consensus       213 kreferyggndkiavrtednmggcgvrtwgsgkdtsdveptapmeeptvveesqgtpeeespakvpelevee-etqvqem  291 (413)
+                      +|.|||||+++++   ..+|+.+.   +||+..+++..++.  .+.....|. .    .+.     +.++++ |+++++|
+T Consensus        88 rR~fDRhSgTGr~---d~~Kk~~~---GWG~~~~El~~E~~--ge~~a~~e~-~----~~a-----e~ee~~~E~e~k~~  149 (273)
+T 4V88_Ah          88 RRATDRHSRTGKT---DTKKKVNQ---GWGDDKKELSAEKE--AQADAAAEI-A----EDA-----AEAEDAGKPKTAQL  149 (273)
+T ss_pred             CcccccCCCCCCC---CccccccC---CCCCchHHHHHHHH--HHHhHHHHH-h----hhH-----HHHHhcCCCcccCC
+Confidence            4889999998774   45566654   49997666542211  011011111 0    010     111222 3457899
+
+
+Q ss_pred             CHHHHHhhhccCCCCCCCCCCCCCCCCC--CCCccc-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccCCCC
+Q sp|Q5JVS0|HABP  292 TLDEWKNLQEQTRPKPEFNIRKPESTVP--SKAVVI-HKSKYRDDMVKDDYEDDSHVFRKPANDITSQLEINFGNL  364 (413)
+Q Consensus       292 tldewknlqeqtrpkpefnirkpestvp--skavvi-hkskyrddmvkddyeddshvfrkpanditsqleinfgnl  364 (413)
+                      ||+||+++|+.++    ++  +.++++.  ..+++| +|  .+|+|+.... ......+..+.|++|+|+|+|.+.
+T Consensus       150 TLdEYla~~~~k~----l~--k~neg~~~~~~~~~l~~K--eeE~f~~~~~-~k~~k~k~~k~K~~ldid~~F~~~  216 (273)
+T 4V88_Ah         150 SXXXXXXXXXXXX----XX--XXXXXXXXXXXXERIETA--EKEAYVPATK-VKNVKSKQLKTKEYLEFDATFVES  216 (273)
+T ss_pred             CCCCCCCCCCCCC----CC--CCCCCCCCCCCCCCccch--hhhhcccccc-ccccccccccCCeeEeecceeccc
+Confidence            9999999887654    33  4576642  678888 77  3455554331 112234445678899999999766
+
+
+No 8
+>5MEI_i 60S ribosomal protein L2-A, 60S; 80S ribosome, protein synthesis inhibitor; HET: ZN, 7MB, MG, OHX; 3.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=96.20  E-value=0.0034  Score=55.04  Aligned_cols=89  Identities=15%  Similarity=0.223  Sum_probs=51.4  Template_Neff=6.600
+
+Q ss_pred             CCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  213 KREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSDVEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQEMT  292 (413)
+Q Consensus       213 kreferyggndkiavrtednmggcgvrtwgsgkdtsdveptapmeeptvveesqgtpeeespakvpeleveeetqvqemt  292 (413)
+                      +|.|||||+++++   ..+|+.   .+|||+..+++..+..  .+.....+. .  ..++     .+.+ +++++.++||
+T Consensus        80 ~r~fDRhS~tg~~---d~~Kk~---~~~WG~~~~el~~e~~--~e~~a~~e~-~--~~a~-----ee~e-~~Eee~~~~T  142 (168)
+T 5MEI_i           80 RRATDRHSRTGKT---DTKKKV---NQGWGDDKKELSAEKE--AQADAAAEI-A--EDAA-----EAED-AGKPKTAQLS  142 (168)
+T ss_pred             CccccCCCCCCCC---Cchhhh---cCCCCChHHHHHHHHH--HHHhHHHHh-h--hhhh-----hhhc-cCCcccceee
+Confidence            4789999998775   344554   3489997666541111  111111111 0  0010     0111 1345578999
+
+
+Q ss_pred             HHHHHhhhccCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  293 LDEWKNLQEQTRPKPEFNIRKPESTV  318 (413)
+Q Consensus       293 ldewknlqeqtrpkpefnirkpestv  318 (413)
+                      |+||+++|........+++||+++|+
+T Consensus       143 LdEYla~~~~~~l~~~~~~Rk~nEG~  168 (168)
+T 5MEI_i          143 LQDYLNQQANNQFNKVPEAKKVELDA  168 (168)
+T ss_pred             HHHHHHHHHhhhcCCCCccccccCCC
+Confidence            99999998654434447999999873
+
+
+No 9
+>5TBW_i ?; Protein translation inhibitor, complex, ribosome; HET: ZN, 7AL, MG, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=95.69  E-value=0.0043  Score=54.49  Aligned_cols=88  Identities=15%  Similarity=0.204  Sum_probs=50.1  Template_Neff=6.600
+
+Q ss_pred             CCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  213 KREFERYGGNDKIAVRTEDNMGGCGVRTWGSGKDTSDVEPTAPMEEPTVVEESQGTPEEESPAKVPELEVEEETQVQEMT  292 (413)
+Q Consensus       213 kreferyggndkiavrtednmggcgvrtwgsgkdtsdveptapmeeptvveesqgtpeeespakvpeleveeetqvqemt  292 (413)
+                      +|.|||||+++++   ...|+.   .+|||+..+++..+..  .+.....+. .  ..++     .+.+ .++++.++||
+T Consensus        80 rr~fDRhS~Tg~~---d~~Kk~---~~gWG~~~~el~~e~~--~e~~a~~e~-~--~~a~-----ee~e-~~Eee~~~~T  142 (168)
+T 5TBW_i           80 RRATDRHSRTGKT---DTKKKV---NQGWGDDKKELSAEKE--AQADAAAEI-A--ELAA-----EAED-AGKPKTAQLS  142 (168)
+T ss_pred             CcccccCCCCCCC---Cchhhh---cCCCCChHHHHHHHHH--HHHhHHHHH-H--HHHh-----hhhc-cCCcccceee
+Confidence            4789999998775   344544   3489987666541111  111111111 0  0000     0111 1344578999
+
+
+Q ss_pred             HHHHHhhhccCCCCCCCCCCCCCCC
+Q sp|Q5JVS0|HABP  293 LDEWKNLQEQTRPKPEFNIRKPEST  317 (413)
+Q Consensus       293 ldewknlqeqtrpkpefnirkpest  317 (413)
+                      |+||+++|........+++||++++
+T Consensus       143 LdEY~a~~~~~~l~~~~~~RkanEg  167 (168)
+T 5TBW_i          143 LQDYLNQQANNQFNKVPEAKKVELD  167 (168)
+T ss_pred             HHHHHHHHHhhhcCCCCccccccCC
+Confidence            9999999865433333799999987
+
+
+No 10
+>3UOR_A ABC transporter sugar binding protein; alfa/beta protein, periplasmic-binding protein, maltose; 2.202A {Xanthomonas axonopodis pv. citri}
+Probab=37.05  E-value=4.4e+02  Score=23.81  Aligned_cols=26  Identities=8%  Similarity=0.065  Sum_probs=20.2  Template_Neff=11.400
+
+Q ss_pred             hhhhHHhhcCCCCCHHHHHHHHHHHH
+Q sp|Q5JVS0|HABP   24 VANRFHQLLDDESDPFDILREAERRR   49 (413)
+Q Consensus        24 vanrfhqllddesdpfdilreaerrr   49 (413)
+                      +.+-+.+++....+|-++|.+++.+-
+T Consensus       384 ~~~~~~~~~~g~~s~~~a~~~~~~~~  409 (458)
+T 3UOR_A          384 MRLVTERVVRGGQSHDAAVQELDQRV  409 (458)
+T ss_dssp             HHHHHHHHHHHCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCCHHHHHHHHHHHH
+Confidence            44556777888889999999987765
+
+
+No 11
+>3UOR_B ABC transporter sugar binding protein; alfa/beta protein, periplasmic-binding protein, maltose; 2.202A {Xanthomonas axonopodis pv. citri}
+Probab=37.05  E-value=4.4e+02  Score=23.81  Aligned_cols=26  Identities=8%  Similarity=0.065  Sum_probs=20.1  Template_Neff=11.400
+
+Q ss_pred             hhhhHHhhcCCCCCHHHHHHHHHHHH
+Q sp|Q5JVS0|HABP   24 VANRFHQLLDDESDPFDILREAERRR   49 (413)
+Q Consensus        24 vanrfhqllddesdpfdilreaerrr   49 (413)
+                      +.+-+.+++....+|-++|.+++.+-
+T Consensus       384 ~~~~~~~~~~g~~s~~~a~~~~~~~~  409 (458)
+T 3UOR_B          384 MRLVTERVVRGGQSHDAAVQELDQRV  409 (458)
+T ss_dssp             HHHHHHHHHHHCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhCCCCHHHHHHHHHHHH
+Confidence            44556777888889999999987765
+
+
+No 12
+>3LAY_A Zinc resistance-associated protein; Zinc resistance-associated protein, Salmonella typhimurium; 2.7A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=33.06  E-value=79  Score=24.66  Aligned_cols=10  Identities=0%  Similarity=0.125  Sum_probs=3.6  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHH
+Q sp|Q5JVS0|HABP   33 DDESDPFDIL   42 (413)
+Q Consensus        33 ddesdpfdil   42 (413)
+                      |+..+-|.-|
+T Consensus        70 ~eQ~~~i~~i   79 (175)
+T 3LAY_A           70 TEQQATAQKI   79 (175)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 13
+>4WHE_A phage shock protein A (PspA); PspA/IM30 family, AAA+ protein regulation; 1.8A {Escherichia coli K-12}
+Probab=27.07  E-value=1.5e+02  Score=24.54  Aligned_cols=31  Identities=23%  Similarity=0.401  Sum_probs=20.6  Template_Neff=9.000
+
+Q ss_pred             cccchhhhhHHhhcCCCCCHHHHHHHHHHHH
+Q sp|Q5JVS0|HABP   19 SFGCVVANRFHQLLDDESDPFDILREAERRR   49 (413)
+Q Consensus        19 sfgcvvanrfhqllddesdpfdilreaerrr   49 (413)
+                      -|.-.|...|..++|.-.||..+|.++-++-
+T Consensus         6 rl~~~~~~~~~~~~~~~edp~~~l~q~i~e~   36 (150)
+T 4WHE_A            6 RFADIVNANINALLEKAEDPQKLVRLMIQEM   36 (150)
+T ss_dssp             SHHHHHSCCSTTSCC---CHHHHHHHHHHHH
+T ss_pred             HHHHHHHhHHHHHHHhcCCHHHHHHHHHHHH
+Confidence            3445566777888998889999999876554
+
+
+No 14
+>4V88_Ah Translation, ribosome, 40S, 60S, 80S; HET: ZN, MG, OHX; 3.0A {Saccharomyces cerevisiae}
+Probab=20.78  E-value=1.9e+02  Score=28.70  Aligned_cols=14  Identities=21%  Similarity=0.329  Sum_probs=9.5  Template_Neff=6.100
+
+Q ss_pred             hhhHHhhcCCCCCH
+Q sp|Q5JVS0|HABP   25 ANRFHQLLDDESDP   38 (413)
+Q Consensus        25 anrfhqllddesdp   38 (413)
+                      .|.|++|-||..|+
+T Consensus         2 ~N~f~LLgnD~e~~   15 (273)
+T 4V88_Ah           2 SNPFDLLXXXXXXX   15 (273)
+T ss_pred             CChhhhCCCCCCCC
+Confidence            48997776665444
+
+

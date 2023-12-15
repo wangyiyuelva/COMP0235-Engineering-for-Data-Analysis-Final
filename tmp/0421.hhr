@@ -1,0 +1,288 @@
+Query         tr|Q5T1J1|Q5T1J1_HUMAN
+Match_columns 134
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:06:11 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0421.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HK1_C Sigma non-opioid intrac 100.0 2.3E-37 2.5E-42  235.8  10.7  134    1-134    94-227 (227)
+  2 6DJZ_B Sigma non-opioid intrac 100.0 2.3E-37 2.5E-42  235.8  10.7  134    1-134    94-227 (227)
+  3 7EYL_B Pyrimidine, purine, nuc  69.7      40 0.00043   21.0   5.7   52   31-82     40-91  (95)
+  4 2OYZ_A UPF0345 protein VPA0057  68.8      41 0.00045   20.8   6.7   53   31-83     39-91  (94)
+  5 3EO6_B protein of unknown func  58.4      76 0.00082   20.3   6.9   48   33-80     54-101 (106)
+  6 7EYM_A Pyrimidine, purine, nuc  43.0 1.3E+02  0.0015   18.6   6.7   53   32-84     40-92  (96)
+  7 3HQX_A UPF0345 protein ACIAD03  42.8 1.6E+02  0.0018   19.6   5.5   51   33-83     57-107 (111)
+  8 7DOG_B Nuclease SbcCD subunit   26.7 2.2E+02  0.0024   20.0   3.4   15   35-49    205-219 (323)
+  9 3RNS_A Cupin 2 conserved barre  24.8 3.8E+02  0.0041   18.3   6.7   52   32-85     56-107 (227)
+ 10 7EYJ_A Pyrimidine, purine, nuc  22.4 3.5E+02  0.0038   17.0   6.8   47   33-79     42-88  (95)
+ 11 7EYK_A Pyrimidine, purine, nuc  22.4 3.5E+02  0.0038   17.0   6.8   47   33-79     42-88  (95)
+ 12 4LA2_A Dimethylsulphoniopropio  21.7 5.4E+02  0.0059   18.9   5.7   45   32-78    126-170 (198)
+ 13 4LA2_B Dimethylsulphoniopropio  21.7 5.4E+02  0.0059   18.9   5.7   45   32-78    126-170 (198)
+ 14 2ARC_A ARABINOSE OPERON REGULA  21.1 3.1E+02  0.0034   16.0   6.5   42   35-78     40-81  (164)
+ 15 2ARC_B ARABINOSE OPERON REGULA  21.1 3.1E+02  0.0034   16.0   6.5   42   35-78     40-81  (164)
+ 16 7EYP_A Pyrimidine, purine, nuc  20.8 3.6E+02  0.0039   16.6   6.8   52   32-83     40-91  (94)
+
+No 1
+>5HK1_C Sigma non-opioid intracellular receptor 1; sigma-1 receptor, transmembrane receptor, signal; HET: SO4, 61W, OLC; 2.5051A {Homo sapiens}
+Probab=100.00  E-value=2.3e-37  Score=235.85  Aligned_cols=134  Identities=100%  Similarity=1.586  Sum_probs=129.7  Template_Neff=6.700
+
+Q ss_pred             CCCcccccccccceeeeeecccCCCCCCcceeeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeE
+Q tr|Q5T1J1|Q5T1    1 MGAMCLLHASLSEYVLLFGTALGSRGHSGRYWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTW   80 (134)
+Q Consensus         1 mgamcllhaslseyvllfgtalgsrghsgrywaeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntw   80 (134)
+                      |++||+||+|++|||+|||+|++|+|++||||+|++||||+|++++|+||++.+++|+||++++|++|++.++++++|||
+T Consensus        94 ~g~~~~lyaS~tEyv~v~Gtp~~T~G~sGr~~~~~~~tvLsG~~~~~~~g~~~~~~~~~G~~~~~~~~~~~~~~~~~~tw  173 (227)
+T 5HK1_C           94 MGAMCLLHASLSEYVLLFGTALGSRGHSGRYWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTW  173 (227)
+T ss_dssp             EEEEEEEEECSSEEEEEEEESSCEEEECCCCSEEEEEEEEESCEEEEETTCSCCEEECTTCEEEECTTCCEEEEECTTEE
+T ss_pred             hhhcHhHhhcccchhhhcCCCCCcCCCcccccccceeEEeeeceeeeCCCCceeEEECCCCeEEeCCCceeeEEecccce
+Confidence            57899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeeecCcccchhhhhhhhccccCchhHHHHHHHHHHHHHhhhhhhhhhhcCCCC
+Q tr|Q5T1J1|Q5T1   81 MVEYGRGVIPSTLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP  134 (134)
+Q Consensus        81 mveygrgvipstlafaladtvfstqdfltlfytlrsyarglrlelttylfgqdp  134 (134)
+                      ++||+||+||++++|+++|++++|+|+.+++++++.|++.+++|++++++++||
+T Consensus       174 ~leY~RG~ip~~~~~~~~~~~~st~D~~~~~~~~~~~~~~~~~e~~~~~~~~~~  227 (227)
+T 5HK1_C          174 MVEYGRGVIPSTLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP  227 (227)
+T ss_dssp             EEEEEEECHHHHHHHHTHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHC---
+T ss_pred             ecccccCCCchHHHHHHhhhhccCchHHHHHHHHHHHHHHHHHHHHHhhcCCCC
+Confidence            999999999999999999999999999999999999999999999999999997
+
+
+No 2
+>6DJZ_B Sigma non-opioid intracellular receptor 1; Membrane protein, Receptor, sigma-1 receptor; HET: SO4, GOL, GMJ, OLC; 3.084A {Homo sapiens}
+Probab=100.00  E-value=2.3e-37  Score=235.85  Aligned_cols=134  Identities=100%  Similarity=1.586  Sum_probs=128.8  Template_Neff=6.700
+
+Q ss_pred             CCCcccccccccceeeeeecccCCCCCCcceeeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeE
+Q tr|Q5T1J1|Q5T1    1 MGAMCLLHASLSEYVLLFGTALGSRGHSGRYWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTW   80 (134)
+Q Consensus         1 mgamcllhaslseyvllfgtalgsrghsgrywaeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntw   80 (134)
+                      |++||+||+|++|||+|||+|++|+|++||||+|++||||+|++++|+||++.+++|+||++++|++|++.++++++|||
+T Consensus        94 ~g~~~~lyaS~tEyv~v~Gtp~~T~G~sGr~~~~~~~tvLsG~~~~~~~g~~~~~~~~~G~~~~~~~~~~~~~~~~~~tw  173 (227)
+T 6DJZ_B           94 MGAMCLLHASLSEYVLLFGTALGSRGHSGRYWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTW  173 (227)
+T ss_dssp             EEEEEEEEECSSEEEEEEEESSCEEEECCCCSEEEEEEEEESCEEEEETTCSCCEEECTTCEEEECTTCCEEEEECTTEE
+T ss_pred             hhhcHhHhhcccchhhhcCCCCCcCCCcccccccceeEEeeeceeeeCCCCceeEEECCCCeEEeCCCceeeEEecccce
+Confidence            57899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeeecCcccchhhhhhhhccccCchhHHHHHHHHHHHHHhhhhhhhhhhcCCCC
+Q tr|Q5T1J1|Q5T1   81 MVEYGRGVIPSTLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP  134 (134)
+Q Consensus        81 mveygrgvipstlafaladtvfstqdfltlfytlrsyarglrlelttylfgqdp  134 (134)
+                      ++||+||+||++++|+++|++++|+|+.+++++++.|++.+++|++++++++||
+T Consensus       174 ~leY~RG~ip~~~~~~~~~~~~st~D~~~~~~~~~~~~~~~~~e~~~~~~~~~~  227 (227)
+T 6DJZ_B          174 MVEYGRGVIPSTLAFALADTVFSTQDFLTLFYTLRSYARGLRLELTTYLFGQDP  227 (227)
+T ss_dssp             EEEEEEECHHHHHHHHTHHHHHTSCCHHHHHHHHHHHHHHHHHHHHHHTC----
+T ss_pred             ecccccCCCchHHHHHHhhhhccCchHHHHHHHHHHHHHHHHHHHHHhhcCCCC
+Confidence            999999999999999999999999999999999999999999999999999997
+
+
+No 3
+>7EYL_B Pyrimidine, purine, nucleoside phosphorylase, HYDROLASE; 1.2A {Salmonella enterica}
+Probab=69.73  E-value=40  Score=21.01  Aligned_cols=52  Identities=15%  Similarity=0.111  Sum_probs=41.3  Template_Neff=9.900
+
+Q ss_pred             eeeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEe
+Q tr|Q5T1J1|Q5T1   31 YWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMV   82 (134)
+Q Consensus        31 ywaeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmv   82 (134)
+                      +..+..+.||+|+..-..++.-.....+||+..+.+++....+...+++-.+
+T Consensus        40 ~~~~e~~~vl~G~~~i~~~~~~~~~~l~~Gd~~~i~~g~~h~~~~~~~~~~~   91 (95)
+T 7EYL_B           40 TAEPEEMTVVSGALKVLLPGTVEWKVYTAGEVFNVPGHSEFHLQVAEPASYL   91 (95)
+T ss_dssp             ESSCEEEEEEESEEEEECTTCSSCEEEETTCEEEECSSEEEEEEESSCEEEE
+T ss_pred             CCCCeEEEEEEeEEEEEeCCCcceEEEcCCCEEEECCCCeEEEEeCCCeEEE
+Confidence            3467888999999998887733456678999999999999998888775433
+
+
+No 4
+>2OYZ_A UPF0345 protein VPA0057; Vibrio parahaemolyticus, unknown function, Structural; HET: MSE; 1.71A {Vibrio parahaemolyticus} SCOP: b.82.1.22
+Probab=68.78  E-value=41  Score=20.81  Aligned_cols=53  Identities=15%  Similarity=0.086  Sum_probs=43.1  Template_Neff=10.000
+
+Q ss_pred             eeeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEee
+Q tr|Q5T1J1|Q5T1   31 YWAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVE   83 (134)
+Q Consensus        31 ywaeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmve   83 (134)
+                      +-.+-.+.|++|+..-+.+++.......+|+....+++....++..+++-+++
+T Consensus        39 ~~~~e~~~vi~G~~~i~~~~~~~~~~l~~Gd~~~ip~~~~h~~~~~~~~~~~~   91 (94)
+T 2OYZ_A           39 TQAPERMTVVKGALVVKRVGEADWTTYSSGESFDVEGNSSFELQVKDATAYLC   91 (94)
+T ss_dssp             ESSCEEEEEEESEEEEEETTCSSCEEEETTCEEEECSSEEEEEEESSCEEEEE
+T ss_pred             CCCCeeEEEEEeEEEEEECCCCCeEEEcCCCEEEECCCCEEEEEEecCeEEEE
+Confidence            44677889999999988777445667889999999999999999888765544
+
+
+No 5
+>3EO6_B protein of unknown function (DUF1255); AFE_2634, protein of unknown function; HET: MSE; 0.97A {Acidithiobacillus ferrooxidans ATCC 23270}
+Probab=58.38  E-value=76  Score=20.29  Aligned_cols=48  Identities=15%  Similarity=0.117  Sum_probs=39.2  Template_Neff=9.800
+
+Q ss_pred             eeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeE
+Q tr|Q5T1J1|Q5T1   33 AEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTW   80 (134)
+Q Consensus        33 aeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntw   80 (134)
+                      .+..+.||+|+..-+.+++.......||+.++.+++....+..++.+-
+T Consensus        54 ~~e~~~vl~G~~~i~~~~~~~~~~~~~Gd~~~ip~~~~h~~~~~~~~~  101 (106)
+T 3EO6_B           54 VAETIRVLSGMAYYHAEGANDVQELHAGDSMVIPANQSYRLEVMEPLD  101 (106)
+T ss_dssp             SCEEEEEEEEEEEEEETTCSSCEEEETTCEEEECTTCEEEEEEEEEEE
+T ss_pred             CcEEEEEEEEEEEEEcCCCCCeEEECCCCEEEECCCCeEEEEEccceE
+Confidence            477889999999988777644567899999999999999888866543
+
+
+No 6
+>7EYM_A Pyrimidine, purine, nucleoside phosphorylase, HYDROLASE; 1.38A {Vibrio cholerae}
+Probab=43.01  E-value=1.3e+02  Score=18.64  Aligned_cols=53  Identities=15%  Similarity=0.035  Sum_probs=42.6  Template_Neff=10.000
+
+Q ss_pred             eeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEeee
+Q tr|Q5T1J1|Q5T1   32 WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVEY   84 (134)
+Q Consensus        32 waeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmvey   84 (134)
+                      ..+....||+|+..-..++........+|+.++.+++....++..+++-.+++
+T Consensus        40 ~~~e~~~vl~G~~~i~~~~~~~~~~~~~Gd~~~ip~~~~h~~~~~~~~~~~~~   92 (96)
+T 7EYM_A           40 GAPERMTVVKGALTIKRVTDADWVTFTAGEAFEVAGNSSFDLQVEVATAYLCE   92 (96)
+T ss_dssp             SSCEEEEEEESEEEEECTTCSSCEEEETTCEEEECSSCEEEEEESSCEEEEEE
+T ss_pred             CCCeEEEEEEeEEEEEeCCCCCeEEEcCCCEEEECCCCeEEEEEecCeEEEEE
+Confidence            36677899999998887773345678999999999999999988887655543
+
+
+No 7
+>3HQX_A UPF0345 protein ACIAD0356; DUF1255, PF06865, PSI2, MCSG, Structural; 1.66A {Acinetobacter sp. ADP1}
+Probab=42.78  E-value=1.6e+02  Score=19.58  Aligned_cols=51  Identities=22%  Similarity=0.106  Sum_probs=41.6  Template_Neff=9.100
+
+Q ss_pred             eeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEee
+Q tr|Q5T1J1|Q5T1   33 AEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVE   83 (134)
+Q Consensus        33 aeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmve   83 (134)
+                      .+..+.||+|+..-.-++.......++|+.++.+++....+....++-.+|
+T Consensus        57 ~~E~~~Vl~G~~~~~~~~~~~~~~l~~Gd~~~ip~g~~h~~~~~~~~~~l~  107 (111)
+T 3HQX_A           57 VPERMEIISGECRVKIADSTESELFRAGQSFYVPGNSLFKIETDEVLDYVC  107 (111)
+T ss_dssp             SCEEEEEEESEEEEEETTCSSCEEEETTCEEEECTTCEEEEECSSCEEEEE
+T ss_pred             CCeEEEEEECeEEEEeCCCCCeEEECCCCEEEECCCCeEEEEeCCCeEEEE
+Confidence            566788999999888877744567899999999999999888887765554
+
+
+No 8
+>7DOG_B Nuclease SbcCD subunit D; DNA nuclease, endonuclease, exonuclease, DNA; 2.91A {Staphylococcus aureus subsp. aureus Mu50}
+Probab=26.74  E-value=2.2e+02  Score=20.04  Aligned_cols=15  Identities=27%  Similarity=0.335  Sum_probs=9.6  Template_Neff=11.900
+
+Q ss_pred             eeceEEeeeeeeecC
+Q tr|Q5T1J1|Q5T1   35 ISDTIISGTFHQWRE   49 (134)
+Q Consensus        35 isdtiisgtfhqwre   49 (134)
+                      ..+.+++|..-....
+T Consensus       205 ~~~~v~~GH~H~~~~  219 (323)
+T 7DOG_B          205 IFDYVMLGHLHHPFS  219 (323)
+T ss_dssp             SSSEEEECSCCSTTS
+T ss_pred             cCCEEEEcCCCCCcc
+Confidence            356688887766543
+
+
+No 9
+>3RNS_A Cupin 2 conserved barrel domain; structural genomics, PSI-Biology, Midwest Center; HET: MSE; 2.07A {Leptotrichia buccalis}
+Probab=24.78  E-value=3.8e+02  Score=18.26  Aligned_cols=52  Identities=13%  Similarity=0.115  Sum_probs=40.3  Template_Neff=11.400
+
+Q ss_pred             eeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEeeec
+Q tr|Q5T1J1|Q5T1   32 WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVEYG   85 (134)
+Q Consensus        32 waeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmveyg   85 (134)
+                      -.+..+.|++|+..-..+++  ....++|+.++.+++....+...+++-+++..
+T Consensus        56 ~~~~~~~v~~G~~~~~~~~~--~~~~~~Gd~~~~p~g~~h~~~~~~~~~~~~~~  107 (227)
+T 3RNS_A           56 LGNRYYYCFNGNGEIFIENN--KKTISNGDFLEITANHNYSIEARDNLKLIEIG  107 (227)
+T ss_dssp             SSCEEEEEEESEEEEEESSC--EEEEETTEEEEECSSCCEEEEESSSEEEEEEE
+T ss_pred             CCcEEEEEEeCeEEEEECCe--EEEECCCCEEEEcCCCcEEEEeCCCeEEEEEE
+Confidence            35667889999998877665  45678999999999999988888766544443
+
+
+No 10
+>7EYJ_A Pyrimidine, purine, nucleoside phosphorylase, HYDROLASE; 1.38A {Escherichia coli K-12}
+Probab=22.39  E-value=3.5e+02  Score=16.97  Aligned_cols=47  Identities=17%  Similarity=0.125  Sum_probs=37.8  Template_Neff=9.800
+
+Q ss_pred             eeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCe
+Q tr|Q5T1J1|Q5T1   33 AEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNT   79 (134)
+Q Consensus        33 aeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpnt   79 (134)
+                      .+..+.||+|+..--.++.-.....+||+..+.+++....+...+++
+T Consensus        42 ~~e~~~Vl~G~~~~~~~~~~~~~~~~~Gd~~~i~~~~~h~~~~~~~~   88 (95)
+T 7EYJ_A           42 EPEEMTVISGALNVLLPDATDWQVYEAGSVFNVPGHSEFHLQVAEPT   88 (95)
+T ss_dssp             SCEEEEEEESEEEEECTTSSSCEEEETTCEEEECSSCEEEEEESSCE
+T ss_pred             CCeEEEEEEEEEEEEcCCCCCcEEECCCCEEEECCCCeEEEEecCCe
+Confidence            56778899999988777733456678999999999999988876654
+
+
+No 11
+>7EYK_A Pyrimidine, purine, nucleoside phosphorylase, HYDROLASE; HET: MSE; 1.38A {Escherichia coli K-12}
+Probab=22.39  E-value=3.5e+02  Score=16.97  Aligned_cols=47  Identities=17%  Similarity=0.125  Sum_probs=37.8  Template_Neff=9.800
+
+Q ss_pred             eeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCe
+Q tr|Q5T1J1|Q5T1   33 AEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNT   79 (134)
+Q Consensus        33 aeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpnt   79 (134)
+                      .+..+.||+|+..--.++.-.....+||+..+.+++....+...+++
+T Consensus        42 ~~e~~~Vl~G~~~~~~~~~~~~~~~~~Gd~~~i~~~~~h~~~~~~~~   88 (95)
+T 7EYK_A           42 EPEEMTVISGALNVLLPDATDWQVYEAGSVFNVPGHSEFHLQVAEPT   88 (95)
+T ss_dssp             SCEEEEEEESEEEEECTTCSSCEEEETTCEEEECSSCEEEEEESSCE
+T ss_pred             CCeEEEEEEEEEEEEcCCCCCcEEECCCCEEEECCCCeEEEEecCCe
+Confidence            56778899999988777733456678999999999999988876654
+
+
+No 12
+>4LA2_A Dimethylsulphoniopropionate (DMSP) lyase DddQ; Cupin motif, DMSP lyase, LYASE; HET: MES; 1.6A {Silicibacter lacuscaerulensis}
+Probab=21.69  E-value=5.4e+02  Score=18.94  Aligned_cols=45  Identities=18%  Similarity=0.084  Sum_probs=34.4  Template_Neff=9.200
+
+Q ss_pred             eeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCC
+Q tr|Q5T1J1|Q5T1   32 WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPN   78 (134)
+Q Consensus        32 waeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpn   78 (134)
+                      -......||+|+..-..++  .....+||+..+++++....+.-.++
+T Consensus       126 ~~~e~~~vlsG~~~~~~~~--~~~~~~~Gd~i~~p~~~~H~~~~~~~  170 (198)
+T 4LA2_A          126 QAEELYLTLAGGAVFKVDG--ERAFVGAEGTRLHASWQSHAMSTGDQ  170 (198)
+T ss_dssp             SSEEEEEEEEEEEEEEETT--EEEEEETTCEEEECTTCCEEEECCSS
+T ss_pred             CCeEEEEEEeCcEEEEECC--EEEEECCCcEEEeCCCCceEEecCCC
+Confidence            3567788999997555555  55678899999999999988776443
+
+
+No 13
+>4LA2_B Dimethylsulphoniopropionate (DMSP) lyase DddQ; Cupin motif, DMSP lyase, LYASE; HET: MES; 1.6A {Silicibacter lacuscaerulensis}
+Probab=21.69  E-value=5.4e+02  Score=18.94  Aligned_cols=45  Identities=18%  Similarity=0.084  Sum_probs=34.4  Template_Neff=9.200
+
+Q ss_pred             eeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCC
+Q tr|Q5T1J1|Q5T1   32 WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPN   78 (134)
+Q Consensus        32 waeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpn   78 (134)
+                      -......||+|+..-..++  .....+||+..+++++....+.-.++
+T Consensus       126 ~~~e~~~vlsG~~~~~~~~--~~~~~~~Gd~i~~p~~~~H~~~~~~~  170 (198)
+T 4LA2_B          126 QAEELYLTLAGGAVFKVDG--ERAFVGAEGTRLHASWQSHAMSTGDQ  170 (198)
+T ss_dssp             SSEEEEEEEEEEEEEEETT--EEEEEETTCEEEECTTCCEEEECCSS
+T ss_pred             CCeEEEEEEeCcEEEEECC--EEEEECCCcEEEeCCCCceEEecCCC
+Confidence            3567788999997555555  55678899999999999988776443
+
+
+No 14
+>2ARC_A ARABINOSE OPERON REGULATORY PROTEIN; TRANSCRIPTION FACTOR, CARBOHYDRATE BINDING, COILED-COIL; HET: ARA; 1.5A {Escherichia coli} SCOP: b.82.4.1
+Probab=21.13  E-value=3.1e+02  Score=15.98  Aligned_cols=42  Identities=26%  Similarity=0.347  Sum_probs=32.2  Template_Neff=13.100
+
+Q ss_pred             eeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCC
+Q tr|Q5T1J1|Q5T1   35 ISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPN   78 (134)
+Q Consensus        35 isdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpn   78 (134)
+                      .-..|++|+..-..+++  .....+|+....++++...+...++
+T Consensus        40 ~l~~~~~G~~~~~~~~~--~~~l~~g~~~~i~p~~~~~~~~~~~   81 (164)
+T 2ARC_A           40 ILNLTIRGQGVVKNQGR--EFVCRPGDILLFPPGEIHHYGRHPE   81 (164)
+T ss_dssp             EEEEEEEECEEEEETTE--EEEECTTCEEEECTTCCEEEEECTT
+T ss_pred             EEEEEEeCeEEEEeCCe--EEEECCCcEEEECCCCeEEEEeCcc
+Confidence            34568899887766653  4567899999999999988887654
+
+
+No 15
+>2ARC_B ARABINOSE OPERON REGULATORY PROTEIN; TRANSCRIPTION FACTOR, CARBOHYDRATE BINDING, COILED-COIL; HET: ARA; 1.5A {Escherichia coli} SCOP: b.82.4.1
+Probab=21.13  E-value=3.1e+02  Score=15.98  Aligned_cols=42  Identities=26%  Similarity=0.347  Sum_probs=32.2  Template_Neff=13.100
+
+Q ss_pred             eeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCC
+Q tr|Q5T1J1|Q5T1   35 ISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPN   78 (134)
+Q Consensus        35 isdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpn   78 (134)
+                      .-..|++|+..-..+++  .....+|+....++++...+...++
+T Consensus        40 ~l~~~~~G~~~~~~~~~--~~~l~~g~~~~i~p~~~~~~~~~~~   81 (164)
+T 2ARC_B           40 ILNLTIRGQGVVKNQGR--EFVCRPGDILLFPPGEIHHYGRHPE   81 (164)
+T ss_dssp             EEEEEEEECEEEEETTE--EEEECTTCEEEECTTCCEEEEECTT
+T ss_pred             EEEEEEeCeEEEEeCCe--EEEECCCcEEEECCCCeEEEEeCcc
+Confidence            34568899887766653  4567899999999999988887654
+
+
+No 16
+>7EYP_A Pyrimidine, purine, nucleoside phosphorylase, HYDROLASE; 1.5A {Pseudomonas aeruginosa}
+Probab=20.83  E-value=3.6e+02  Score=16.59  Aligned_cols=52  Identities=8%  Similarity=0.036  Sum_probs=40.2  Template_Neff=10.100
+
+Q ss_pred             eeeeeceEEeeeeeeecCCCceeeEEcCCCEEEECCCceeeEEECCCeEEee
+Q tr|Q5T1J1|Q5T1   32 WAEISDTIISGTFHQWREGTTKSEVFYPGETVVHGPGEATAVEWGPNTWMVE   83 (134)
+Q Consensus        32 waeisdtiisgtfhqwregttksevfypgetvvhgpgeatavewgpntwmve   83 (134)
+                      -.+..+.||+|+..-..++.......++|+..+.+++....+...++.-+++
+T Consensus        40 ~~~e~~~vl~G~~~i~~~~~~~~~~~~~Gd~~~~~~~~~h~~~~~~~~~~~~   91 (94)
+T 7EYP_A           40 SQLEIMHVVAGALTVKLPGSDEWQEYASGSQFTVPANSKFQLKVAQDTAYLC   91 (94)
+T ss_dssp             SSCEEEEEEESEEEEECTTCCSCEEEETTCEEEECSSCEEEEEECSCEEEEE
+T ss_pred             CCCeEEEEEEeeEEEEcCCCCCcEEEcCCCEEEeCCCCeEEEEEcCCeEEEE
+Confidence            4667788999999888766223457789999999999999888876655443
+
+

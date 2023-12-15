@@ -1,0 +1,391 @@
+Query         tr|J3KS40|J3KS40_HUMAN
+Match_columns 85
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:02:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0866.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5WT9_G Heavy Chain of Nivoluma  62.4      48 0.00052   19.3   6.5   38   31-68     30-67  (173)
+  2 3RBS_A Myomesin-1; Immunoglobu  50.3      69 0.00074   17.4   4.3   36   35-70      4-39  (207)
+  3 4FOM_A Poliovirus receptor-rel  47.2 1.1E+02  0.0012   18.8   4.4   35   36-70      2-36  (308)
+  4 6AGF_B Sodium channel protein   41.9 1.2E+02  0.0013   17.7   4.5   18   40-57     25-42  (218)
+  5 6J8H_B Sodium channel subunit   41.9 1.2E+02  0.0013   17.7   4.5   18   40-57     25-42  (218)
+  6 3J8F_7 Capsid protein VP1, Cap  38.7 1.9E+02   0.002   19.1   5.7   21   38-58     32-52  (423)
+  7 5D6D_C Ig gamma-1 chain C regi  35.9 1.6E+02  0.0018   17.6   4.4   17   43-59     35-51  (240)
+  8 7VUZ_S G Protein-Coupled Recep  33.3 1.8E+02  0.0019   17.2   5.8   21   39-59     43-63  (285)
+  9 7VV5_S G Protein-Coupled Recep  33.3 1.8E+02  0.0019   17.2   5.8   20   40-59     44-63  (285)
+ 10 1QOK_A MFE-23 RECOMBINANT ANTI  33.3 1.9E+02   0.002   17.5   3.8   21   39-59     32-52  (282)
+ 11 7DET_B Spike glycoprotein, ant  30.4 1.7E+02  0.0019   17.4   2.9   22   39-60     30-51  (280)
+ 12 5X0T_E 6H8 Fab fragment heavy   26.5 2.5E+02  0.0027   18.0   3.3   27   47-73     13-40  (89)
+ 13 6ULC_L Envelope glycoprotein G  25.7 1.6E+02  0.0017   18.2   2.3   22   39-60     25-46  (250)
+ 14 6RK4_A Lysostaphin (E.C.3.4.24  22.7      76 0.00083   22.2   0.6   17    9-25     15-31  (493)
+ 15 5LFR_A Myelin-associated glyco  22.5 3.2E+02  0.0035   16.6   3.1   33   46-78    279-313 (317)
+ 16 5LFR_B Myelin-associated glyco  22.5 3.2E+02  0.0035   16.6   3.1   33   46-78    279-313 (317)
+ 17 5LFV_B Myelin-associated glyco  22.5 3.2E+02  0.0035   16.6   3.1   33   46-78    279-313 (317)
+ 18 1G0Y_R INTERLEUKIN-1 RECEPTOR,  21.9 1.6E+02  0.0017   18.2   1.8   32   42-73     11-42  (312)
+ 19 4BFG_A CELL SURFACE GLYCOPROTE  21.4 3.1E+02  0.0034   16.1   3.6   30   43-72    127-156 (216)
+ 20 4BFI_A CELL SURFACE GLYCOPROTE  21.4 3.1E+02  0.0034   16.1   3.6   30   43-72    127-156 (216)
+ 21 5XPW_A amphioxus IgVJ-C2; Immu  20.9 2.5E+02  0.0028   14.8   3.7   15   45-59      3-17  (180)
+ 22 2GKI_A nuclease; anti-DNA anti  20.8 3.5E+02  0.0038   16.4   3.1   20   40-59     29-48  (291)
+ 23 2GKI_B nuclease; anti-DNA anti  20.8 3.5E+02  0.0038   16.4   3.1   20   40-59     29-48  (291)
+ 24 6R2S_B Antibody DB9 light chai  20.3 3.1E+02  0.0034   16.6   2.7   20   41-60     53-72  (278)
+
+No 1
+>5WT9_G Heavy Chain of Nivolumab, Light; PD-1, Nivolumab, IMMUNE SYSTEM; HET: FUC, NAG; 2.401A {Homo sapiens}
+Probab=62.37  E-value=48  Score=19.29  Aligned_cols=38  Identities=21%  Similarity=0.539  Sum_probs=26.3  Template_Neff=12.000
+
+Q ss_pred             CCCCCCcccccEEEEEECCCcEEEEEEecCCCeEEEEE
+Q tr|J3KS40|J3KS   31 EGWDSPICTEGVVSVSWGENTVMSCNISNAFSHVNIKL   68 (85)
+Q Consensus        31 egwdspictegvvsvswgentvmscnisnafshvnikl   68 (85)
+                      ..+.........+.+.-|++..+.|.......-..++.
+T Consensus        30 ~~~~~~~~~~~~~~~~~g~~v~l~C~~~~~~~~~~~~w   67 (173)
+T 5WT9_G           30 RPWNPPTFSPALLVVTEGDNATFTCSFSNTSESFVLNW   67 (173)
+T ss_dssp             CCCCCCEEECSBCCCCTTSCEEEEEECCCSSSCEEEEE
+T ss_pred             CCCCCceeCCCeEEEcCCCCEEEEeEeecCCCceEEEE
+Confidence            44555666667777888999999999886654333333
+
+
+No 2
+>3RBS_A Myomesin-1; Immunoglobulin C-set domain, CONTRACTILE PROTEIN; HET: BME; 1.85A {Homo sapiens}
+Probab=50.27  E-value=69  Score=17.35  Aligned_cols=36  Identities=6%  Similarity=-0.116  Sum_probs=21.3  Template_Neff=13.900
+
+Q ss_pred             CCcccccEEEEEECCCcEEEEEEecCCCeEEEEEEe
+Q tr|J3KS40|J3KS   35 SPICTEGVVSVSWGENTVMSCNISNAFSHVNIKLRA   70 (85)
+Q Consensus        35 spictegvvsvswgentvmscnisnafshvniklra   70 (85)
+                      .++.....+.+..|++..+.|.........++....
+T Consensus         4 ~~~~~~~~~~~~~g~~~~l~c~~~~~~~~~~~~w~~   39 (207)
+T 3RBS_A            4 PFTKSELAVEILEKGQVRFWMQAEKLSGNAKVNYIF   39 (207)
+T ss_dssp             --CCEEEEEEECGGGCEEEEEECSCCCSCCEEEEEE
+T ss_pred             cccccceeeEecCCCeEEEEEEEecCCCCcEEEEEE
+Confidence            445556667778888888888874433344444433
+
+
+No 3
+>4FOM_A Poliovirus receptor-related protein 3; Immunoglobulin-like domain, Ig domain, CELL; HET: BMA, FUC, NAG, MAN; 3.93A {Homo sapiens}
+Probab=47.22  E-value=1.1e+02  Score=18.85  Aligned_cols=35  Identities=29%  Similarity=0.495  Sum_probs=23.1  Template_Neff=12.900
+
+Q ss_pred             CcccccEEEEEECCCcEEEEEEecCCCeEEEEEEe
+Q tr|J3KS40|J3KS   36 PICTEGVVSVSWGENTVMSCNISNAFSHVNIKLRA   70 (85)
+Q Consensus        36 pictegvvsvswgentvmscnisnafshvniklra   70 (85)
+                      |+-...-+.+..|++..+.|..........+....
+T Consensus         2 ~v~~~~~~~v~~G~~v~l~C~~~~~~~~~~v~W~~   36 (308)
+T 4FOM_A            2 PIIVEPHVTAVWGKNVSLKCLIEVNETITQISWEK   36 (308)
+T ss_dssp             CSBCCCSCEEETTSCEEECCBCCCSSCEEEEEEEE
+T ss_pred             CeeeecCeEEecCCceEEecEeecCCCceEEEEEE
+Confidence            34444557788889989999876555555555444
+
+
+No 4
+>6AGF_B Sodium channel protein PaFPC1, Mu-diguetoxin-Dc1a; sodium channel, MEMBRANE PROTEIN; HET: BMA, NAG, 9Z9, 6OU; 3.2A {Homo sapiens}
+Probab=41.90  E-value=1.2e+02  Score=17.68  Aligned_cols=18  Identities=11%  Similarity=0.244  Sum_probs=14.1  Template_Neff=12.800
+
+Q ss_pred             ccEEEEEECCCcEEEEEE
+Q tr|J3KS40|J3KS   40 EGVVSVSWGENTVMSCNI   57 (85)
+Q Consensus        40 egvvsvswgentvmscni   57 (85)
+                      ...+.+..|++..+.|..
+T Consensus        25 ~~~~~~~~g~~v~l~c~~   42 (218)
+T 6AGF_B           25 DSETEAVYGMTFKILCIS   42 (218)
+T ss_dssp             CCCCEEETTSCEEECCBC
+T ss_pred             CCcEEEeCCCeEEEccEE
+Confidence            445677789999999987
+
+
+No 5
+>6J8H_B Sodium channel subunit beta-2, Sodium; voltage-gated sodium channel, MEMBRANE PROTEIN; HET: NAG, 9SL;{Homo sapiens}
+Probab=41.90  E-value=1.2e+02  Score=17.68  Aligned_cols=18  Identities=11%  Similarity=0.244  Sum_probs=13.4  Template_Neff=12.800
+
+Q ss_pred             ccEEEEEECCCcEEEEEE
+Q tr|J3KS40|J3KS   40 EGVVSVSWGENTVMSCNI   57 (85)
+Q Consensus        40 egvvsvswgentvmscni   57 (85)
+                      ...+.+..|++..+.|..
+T Consensus        25 ~~~~~~~~g~~v~l~c~~   42 (218)
+T 6J8H_B           25 DSETEAVYGMTFKILCIS   42 (218)
+T ss_pred             CCcEEEeCCCeEEEccEE
+Confidence            345566778888888887
+
+
+No 6
+>3J8F_7 Capsid protein VP1, Capsid protein; poliovirus, receptor, PVR, CD155, VIRUS-SIGNALING; HET: MYR, FUC, NAG, BMA; 3.7A {Human poliovirus 1 Mahoney}
+Probab=38.66  E-value=1.9e+02  Score=19.07  Aligned_cols=21  Identities=14%  Similarity=0.297  Sum_probs=16.5  Template_Neff=12.700
+
+Q ss_pred             ccccEEEEEECCCcEEEEEEe
+Q tr|J3KS40|J3KS   38 CTEGVVSVSWGENTVMSCNIS   58 (85)
+Q Consensus        38 ctegvvsvswgentvmscnis   58 (85)
+                      .....+.+.-|++..+.|.++
+T Consensus        32 ~~~~~~~~~~G~~v~l~C~~~   52 (423)
+T 3J8F_7           32 QAPTQVPGFLGDSVTLPCYLQ   52 (423)
+T ss_dssp             CCCSBCCCBSSSCCEECCCCC
+T ss_pred             eCCCCeeeecCCcEEECceec
+Confidence            344457788899999999987
+
+
+No 7
+>5D6D_C Ig gamma-1 chain C region; ADCC, Immune system, IgG; HET: FUC, NAG, MAN, BMA, GAL, FUL; 3.13A {Homo sapiens}
+Probab=35.86  E-value=1.6e+02  Score=17.59  Aligned_cols=17  Identities=12%  Similarity=0.169  Sum_probs=13.1  Template_Neff=12.600
+
+Q ss_pred             EEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   43 VSVSWGENTVMSCNISN   59 (85)
+Q Consensus        43 vsvswgentvmscnisn   59 (85)
+                      +.+..|++..+.|....
+T Consensus        35 ~~~~~g~~~~l~C~~~~   51 (240)
+T 5D6D_C           35 YRVLEKDSVTLKCQGAY   51 (240)
+T ss_dssp             SEEETTCCEEEEEECC-
+T ss_pred             eEEecCCeEEEEeecCC
+Confidence            45678999999998764
+
+
+No 8
+>7VUZ_S G Protein-Coupled Receptor, MEMBRANE PROTEIN; HET: CLR; 2.89A {Homo sapiens}
+Probab=33.32  E-value=1.8e+02  Score=17.17  Aligned_cols=21  Identities=29%  Similarity=0.328  Sum_probs=17.0  Template_Neff=13.500
+
+Q ss_pred             cccEEEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   39 TEGVVSVSWGENTVMSCNISN   59 (85)
+Q Consensus        39 tegvvsvswgentvmscnisn   59 (85)
+                      ....+.+..|++..+.|+++.
+T Consensus        43 ~~~~~~~~~g~~v~l~C~~~~   63 (285)
+T 7VUZ_S           43 ESGGGLVQPGGSRKLSCSASG   63 (285)
+T ss_dssp             EECCEEECTTCEEEEEEEEES
+T ss_pred             ecCCeEEcCCCcEEEEEEEec
+Confidence            344577888999999999986
+
+
+No 9
+>7VV5_S G Protein-Coupled Receptor, MEMBRANE PROTEIN; HET: 6IB, CLR; 2.76A {Homo sapiens}
+Probab=33.32  E-value=1.8e+02  Score=17.17  Aligned_cols=20  Identities=30%  Similarity=0.346  Sum_probs=15.9  Template_Neff=13.500
+
+Q ss_pred             ccEEEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   40 EGVVSVSWGENTVMSCNISN   59 (85)
+Q Consensus        40 egvvsvswgentvmscnisn   59 (85)
+                      ...+.+..|++..+.|+++.
+T Consensus        44 ~~~~~~~~g~~v~l~C~~~~   63 (285)
+T 7VV5_S           44 SGGGLVQPGGSRKLSCSASG   63 (285)
+T ss_dssp             ECCSEECTTCEEEEEEEEES
+T ss_pred             cCCeEEcCCCcEEEEEEEec
+Confidence            34456788999999999986
+
+
+No 10
+>1QOK_A MFE-23 RECOMBINANT ANTIBODY FRAGMENT; IMMUNOGLOBULIN, SINGLE-CHAIN FV, ANTI-CARCINOEMBRYONIC ANTIGEN; 2.4A {MUS MUSCULUS} SCOP: b.1.1.1
+Probab=33.31  E-value=1.9e+02  Score=17.49  Aligned_cols=21  Identities=29%  Similarity=0.434  Sum_probs=16.9  Template_Neff=13.000
+
+Q ss_pred             cccEEEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   39 TEGVVSVSWGENTVMSCNISN   59 (85)
+Q Consensus        39 tegvvsvswgentvmscnisn   59 (85)
+                      ....+.+..|++..+.|.+..
+T Consensus        32 ~~~~~~~~~g~~v~l~C~~~~   52 (282)
+T 1QOK_A           32 QSGAELVRSGTSVKLSCTASG   52 (282)
+T ss_dssp             ECCCEEEETTCCEEEEEEEES
+T ss_pred             cCCcEEEEeCCcEEEEEEecc
+Confidence            345577889999999999874
+
+
+No 11
+>7DET_B Spike glycoprotein, antibody scFv; SARS-CoV-2, RBD, antibody, VIRAL PROTEIN; HET: NAG; 2.2A {Severe acute respiratory syndrome coronavirus 2}
+Probab=30.35  E-value=1.7e+02  Score=17.36  Aligned_cols=22  Identities=23%  Similarity=0.306  Sum_probs=16.8  Template_Neff=13.300
+
+Q ss_pred             cccEEEEEECCCcEEEEEEecC
+Q tr|J3KS40|J3KS   39 TEGVVSVSWGENTVMSCNISNA   60 (85)
+Q Consensus        39 tegvvsvswgentvmscnisna   60 (85)
+                      ....+.+..|++..+.|.....
+T Consensus        30 ~~~~~~~~~g~~v~l~C~~~~~   51 (280)
+T 7DET_B           30 QSGAEVKKPGASVKLSCKASGY   51 (280)
+T ss_dssp             ECCCEEECTTCCEEEEEEEESS
+T ss_pred             cCCcEEeCCCCcEEEEEEeeCC
+Confidence            3445677889999999998753
+
+
+No 12
+>5X0T_E 6H8 Fab fragment heavy chain; CD147, monoclonal antibody, IMMUNE SYSTEM; 2.5A {Mus musculus}
+Probab=26.46  E-value=2.5e+02  Score=17.96  Aligned_cols=27  Identities=11%  Similarity=0.375  Sum_probs=18.2  Template_Neff=7.500
+
+Q ss_pred             ECCCcEEEEEEecCCC-eEEEEEEeCCC
+Q tr|J3KS40|J3KS   47 WGENTVMSCNISNAFS-HVNIKLRAHGQ   73 (85)
+Q Consensus        47 wgentvmscnisnafs-hvniklrahgq   73 (85)
+                      .+.+.+++||++..-+ +..++-..-|+
+T Consensus        13 ~~~~~~L~Cnlt~~~~~~~~~~W~K~g~   40 (89)
+T 5X0T_E           13 LGSKILLTCSLNDSATEVTGHRWLKGGV   40 (89)
+T ss_dssp             ETTEEEEEEEECSCSSCCCEEEEEETTE
+T ss_pred             cCCeEEEEEEcCCCCCCcceEEEEECCE
+Confidence            7888899999988854 33455444443
+
+
+No 13
+>6ULC_L Envelope glycoprotein GP120, Envelope glycoprotein; HIV-1, ENV, gp160, PG16, VIRAL; HET: FUC, NAG, BMA, GAL, MAN;{Human immunodeficiency virus 1}
+Probab=25.67  E-value=1.6e+02  Score=18.17  Aligned_cols=22  Identities=32%  Similarity=0.391  Sum_probs=17.3  Template_Neff=12.200
+
+Q ss_pred             cccEEEEEECCCcEEEEEEecC
+Q tr|J3KS40|J3KS   39 TEGVVSVSWGENTVMSCNISNA   60 (85)
+Q Consensus        39 tegvvsvswgentvmscnisna   60 (85)
+                      ....+.+..|++..+.|..+..
+T Consensus        25 ~~~~~~~~~g~~v~l~C~~~~~   46 (250)
+T 6ULC_L           25 QPASVSGSPGQTITISCNGTSS   46 (250)
+T ss_dssp             CCSEEEECSSSCEEEEECCCTT
+T ss_pred             cCCeEEeCCCCcEEEEeecccC
+Confidence            3456888999999999987643
+
+
+No 14
+>6RK4_A Lysostaphin (E.C.3.4.24.75); Peptidoglycan Hydrolase, PEPTIDE BINDING PROTEIN; HET: K5T; 1.43A {Staphylococcus simulans}
+Probab=22.72  E-value=76  Score=22.24  Aligned_cols=17  Identities=18%  Similarity=0.268  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCchhhhhhhhhhhhhh
+Q tr|J3KS40|J3KS    9 PGHVSQALGTLLFLAAS   25 (85)
+Q Consensus         9 pghvsqalgtllflaas   25 (85)
+                      -|..|-+||++||+...
+T Consensus        15 ~G~aSvlig~~~~~g~~   31 (493)
+T 6RK4_A           15 IGLSTFALASIVYGGIQ   31 (493)
+T ss_dssp             -----------------
+T ss_pred             chHHHHHHHHHhhhccc
+Confidence            36778889999888644
+
+
+No 15
+>5LFR_A Myelin-associated glycoprotein; myelin, cell adhesion molecule, Cell; HET: NAG, BMA, GOL, SO4, MAN; 2.12A {Mus musculus}
+Probab=22.54  E-value=3.2e+02  Score=16.62  Aligned_cols=33  Identities=24%  Similarity=0.358  Sum_probs=21.8  Template_Neff=13.300
+
+Q ss_pred             EECCCcEEEEEEecCCC--eEEEEEEeCCCccccc
+Q tr|J3KS40|J3KS   46 SWGENTVMSCNISNAFS--HVNIKLRAHGQESAIF   78 (85)
+Q Consensus        46 swgentvmscnisnafs--hvniklrahgqesaif   78 (85)
+                      .+......+|.++|...  ...+.|+.++-...+|
+T Consensus       279 ~~~d~g~Y~C~~~n~~g~~~~~~~l~v~~~~~~~~  313 (317)
+T 5LFR_A          279 TPGEDGVYACLAENAYGQDNRTVELSVMYAAAAHH  313 (317)
+T ss_dssp             CGGGCEEEEEEEEETTEEEEEEEEEEEEECCCCCC
+T ss_pred             CcccCeEEEEEEecCCCCceEEEEEEeeHhHhccc
+Confidence            44555677888888764  3456677777666665
+
+
+No 16
+>5LFR_B Myelin-associated glycoprotein; myelin, cell adhesion molecule, Cell; HET: NAG, BMA, GOL, SO4, MAN; 2.12A {Mus musculus}
+Probab=22.54  E-value=3.2e+02  Score=16.62  Aligned_cols=33  Identities=24%  Similarity=0.358  Sum_probs=21.8  Template_Neff=13.300
+
+Q ss_pred             EECCCcEEEEEEecCCC--eEEEEEEeCCCccccc
+Q tr|J3KS40|J3KS   46 SWGENTVMSCNISNAFS--HVNIKLRAHGQESAIF   78 (85)
+Q Consensus        46 swgentvmscnisnafs--hvniklrahgqesaif   78 (85)
+                      .+......+|.++|...  ...+.|+.++-...+|
+T Consensus       279 ~~~d~g~Y~C~~~n~~g~~~~~~~l~v~~~~~~~~  313 (317)
+T 5LFR_B          279 TPGEDGVYACLAENAYGQDNRTVELSVMYAAAAHH  313 (317)
+T ss_dssp             CGGGCEEEEEEEEETTEEEEEEEEEEEEECCCCCC
+T ss_pred             CcccCeEEEEEEecCCCCceEEEEEEeeHhHhccc
+Confidence            44555677888888764  3456677777666665
+
+
+No 17
+>5LFV_B Myelin-associated glycoprotein; Myelin, Cell Adhesion, Signaling; HET: NAG, SIA, BMA, GAL, SO4, MAN; 2.3A {Mus musculus}
+Probab=22.54  E-value=3.2e+02  Score=16.62  Aligned_cols=33  Identities=24%  Similarity=0.358  Sum_probs=21.8  Template_Neff=13.300
+
+Q ss_pred             EECCCcEEEEEEecCCC--eEEEEEEeCCCccccc
+Q tr|J3KS40|J3KS   46 SWGENTVMSCNISNAFS--HVNIKLRAHGQESAIF   78 (85)
+Q Consensus        46 swgentvmscnisnafs--hvniklrahgqesaif   78 (85)
+                      .+......+|.++|...  ...+.|+.++-...+|
+T Consensus       279 ~~~d~g~Y~C~~~n~~g~~~~~~~l~v~~~~~~~~  313 (317)
+T 5LFV_B          279 TPGEDGVYACLAENAYGQDNRTVELSVMYAAAAHH  313 (317)
+T ss_dssp             CTTSCSEEEEEEEETTEEEEEEEEEEEEECCCCC-
+T ss_pred             CcccCeEEEEEEecCCCCceEEEEEEeeHhHhccc
+Confidence            45566678898888764  3456677777666655
+
+
+No 18
+>1G0Y_R INTERLEUKIN-1 RECEPTOR, TYPE I/ANTAGONIST PEPTIDE; Immunoglobulin, IMMUNE SYSTEM; 3.0A {Homo sapiens} SCOP: b.1.1.4
+Probab=21.88  E-value=1.6e+02  Score=18.22  Aligned_cols=32  Identities=16%  Similarity=0.143  Sum_probs=22.7  Template_Neff=12.900
+
+Q ss_pred             EEEEEECCCcEEEEEEecCCCeEEEEEEeCCC
+Q tr|J3KS40|J3KS   42 VVSVSWGENTVMSCNISNAFSHVNIKLRAHGQ   73 (85)
+Q Consensus        42 vvsvswgentvmscnisnafshvniklrahgq   73 (85)
+                      ++.+..|++..+.|.+........+.....|.
+T Consensus        11 ~~~~~~g~~~~l~C~~~~~~~~~~~~W~~~~~   42 (312)
+T 1G0Y_R           11 ILVSSANEIDVRPCPLNPNEHKGTITWYKDDS   42 (312)
+T ss_dssp             CEEEESSSCEEECCCCCTTTCCSCEEEESSSS
+T ss_pred             eEecCCCccceecCCCCCCCCCCCeeEEeCCC
+Confidence            57788899999999987654455666555443
+
+
+No 19
+>4BFG_A CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR; IMMUNE SYSTEM, PAIRED RECEPTOR, IG; HET: NAG; 2.08A {MUS MUSCULUS}
+Probab=21.44  E-value=3.1e+02  Score=16.10  Aligned_cols=30  Identities=17%  Similarity=0.172  Sum_probs=18.6  Template_Neff=12.600
+
+Q ss_pred             EEEEECCCcEEEEEEecCCCeEEEEEEeCC
+Q tr|J3KS40|J3KS   43 VSVSWGENTVMSCNISNAFSHVNIKLRAHG   72 (85)
+Q Consensus        43 vsvswgentvmscnisnafshvniklrahg   72 (85)
+                      +.+.-|++..+.|..+......++.....+
+T Consensus       127 ~~v~~g~~~~l~C~~~~~~p~~~~~W~~~~  156 (216)
+T 4BFG_A          127 VTYFPEKNRSAVCEAMAGKPAAQISWSPDG  156 (216)
+T ss_pred             eEeccCCceEEEEEEeceecCCEEEEEeCC
+Confidence            445567777788887665555555554443
+
+
+No 20
+>4BFI_A CELL SURFACE GLYCOPROTEIN CD200 RECEPTOR; IMMUNE SYSTEM, PAIRED RECEPTOR, IG; HET: NAG; 3.22A {MUS MUSCULUS}
+Probab=21.44  E-value=3.1e+02  Score=16.10  Aligned_cols=30  Identities=17%  Similarity=0.172  Sum_probs=18.6  Template_Neff=12.600
+
+Q ss_pred             EEEEECCCcEEEEEEecCCCeEEEEEEeCC
+Q tr|J3KS40|J3KS   43 VSVSWGENTVMSCNISNAFSHVNIKLRAHG   72 (85)
+Q Consensus        43 vsvswgentvmscnisnafshvniklrahg   72 (85)
+                      +.+.-|++..+.|..+......++.....+
+T Consensus       127 ~~v~~g~~~~l~C~~~~~~p~~~~~W~~~~  156 (216)
+T 4BFI_A          127 VTYFPEKNRSAVCEAMAGKPAAQISWSPDG  156 (216)
+T ss_pred             eEeccCCceEEEEEEeceecCCEEEEEeCC
+Confidence            445567777788887665555555554443
+
+
+No 21
+>5XPW_A amphioxus IgVJ-C2; Immunoglobulin superfamily, dimmer, IMMUNE SYSTEM; 2.003A {Branchiostoma floridae}
+Probab=20.93  E-value=2.5e+02  Score=14.83  Aligned_cols=15  Identities=13%  Similarity=0.414  Sum_probs=7.0  Template_Neff=13.800
+
+Q ss_pred             EEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   45 VSWGENTVMSCNISN   59 (85)
+Q Consensus        45 vswgentvmscnisn   59 (85)
+                      +..|++..+.|....
+T Consensus         3 ~~~g~~~~l~c~~~~   17 (180)
+T 5XPW_A            3 HQQGQSHLFECDYPI   17 (180)
+T ss_dssp             EETTCCEEECCCSCC
+T ss_pred             ecCCCeEEEEEEeec
+Confidence            344444455554443
+
+
+No 22
+>2GKI_A nuclease; anti-DNA antibody, catalytic antibody, IMMUNE; 2.88A {Mus musculus}
+Probab=20.80  E-value=3.5e+02  Score=16.38  Aligned_cols=20  Identities=35%  Similarity=0.433  Sum_probs=15.8  Template_Neff=13.100
+
+Q ss_pred             ccEEEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   40 EGVVSVSWGENTVMSCNISN   59 (85)
+Q Consensus        40 egvvsvswgentvmscnisn   59 (85)
+                      ...+.+..|+...+.|.++.
+T Consensus        29 ~~~~~~~~g~~v~l~C~~~~   48 (291)
+T 2GKI_A           29 SGPELVKPGASVKMSCKASG   48 (291)
+T ss_dssp             CCCEEECTTCCEEEEEEEES
+T ss_pred             CCCeEeCCCCeEEEeeEEec
+Confidence            34567888999999999875
+
+
+No 23
+>2GKI_B nuclease; anti-DNA antibody, catalytic antibody, IMMUNE; 2.88A {Mus musculus}
+Probab=20.80  E-value=3.5e+02  Score=16.38  Aligned_cols=20  Identities=35%  Similarity=0.433  Sum_probs=15.8  Template_Neff=13.100
+
+Q ss_pred             ccEEEEEECCCcEEEEEEec
+Q tr|J3KS40|J3KS   40 EGVVSVSWGENTVMSCNISN   59 (85)
+Q Consensus        40 egvvsvswgentvmscnisn   59 (85)
+                      ...+.+..|+...+.|.++.
+T Consensus        29 ~~~~~~~~g~~v~l~C~~~~   48 (291)
+T 2GKI_B           29 SGPELVKPGASVKMSCKASG   48 (291)
+T ss_dssp             CCCEEECTTCCEEEEEECCS
+T ss_pred             CCCeEeCCCCeEEEeeEEec
+Confidence            34567888999999998874
+
+
+No 24
+>6R2S_B Antibody DB9 light chain, Antibody; Plasmodium vivax, Invasion, Broadly-neutralising human; 3.04A {Homo sapiens}
+Probab=20.28  E-value=3.1e+02  Score=16.55  Aligned_cols=20  Identities=25%  Similarity=0.378  Sum_probs=15.5  Template_Neff=13.000
+
+Q ss_pred             cEEEEEECCCcEEEEEEecC
+Q tr|J3KS40|J3KS   41 GVVSVSWGENTVMSCNISNA   60 (85)
+Q Consensus        41 gvvsvswgentvmscnisna   60 (85)
+                      ..+.+..|++..+.|.....
+T Consensus        53 ~~~~~~~g~~v~l~C~~~~~   72 (278)
+T 6R2S_B           53 GPGLVKPSETLSLTCTVSGG   72 (278)
+T ss_dssp             SCSEECTTSCEEEEEEEESS
+T ss_pred             CCceecCCCCEEEEeEEeCc
+Confidence            34567789999999998743
+
+

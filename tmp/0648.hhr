@@ -1,0 +1,169 @@
+Query         tr|K7EKL6|K7EKL6_HUMAN
+Match_columns 39
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:12:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0648.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1JY2_O FIBRINOGEN ALPHA CHAIN,  71.1     5.1 5.5E-05   23.4   1.1   13   27-39      4-16  (56)
+  2 1JY3_R FIBRINOGEN ALPHA CHAIN,  71.1     5.1 5.5E-05   23.4   1.1   13   27-39      4-16  (56)
+  3 2A45_K Thrombin light chain (E  64.2     6.8 7.4E-05   24.7   0.8   12   28-39     44-55  (91)
+  4 7DOJ_A Mycobacterium tuberculo  51.2      18 0.00019   15.9   0.8   10   16-25      2-11  (77)
+  5 2CGQ_A ACYL CARRIER PROTEIN AC  40.1      33 0.00035   16.1   0.8    8   17-24      3-10  (113)
+  6 3HIL_B Ephrin type-A receptor   30.3      54 0.00059   13.3   0.6    7   18-24      4-10  (82)
+  7 3KKA_A EPHRIN TYPE-A RECEPTOR   30.3      54 0.00059   13.3   0.6    7   18-24      4-10  (82)
+  8 3KKA_B EPHRIN TYPE-A RECEPTOR   30.3      54 0.00059   13.3   0.6    7   18-24      4-10  (82)
+  9 7L3O_B Threonyl-tRNA synthetas  28.5      40 0.00043   21.2   0.1   14   17-30      5-18  (442)
+ 10 7P2Q_C Endoplasmic Reticulum,   25.6      87 0.00095   21.0   1.2   14   26-39      8-21  (248)
+
+No 1
+>1JY2_O FIBRINOGEN ALPHA CHAIN, FIBRINOGEN BETA; fibrinogen, fragment E, disulfide bonds; 1.4A {Bos taurus} SCOP: h.1.8.1
+Probab=71.11  E-value=5.1  Score=23.39  Aligned_cols=13  Identities=46%  Similarity=0.902  Sum_probs=10.1  Template_Neff=3.500
+
+Q ss_pred             cccccCCCCCCCC
+Q tr|K7EKL6|K7EK   27 RRSLEAGGCSHAG   39 (39)
+Q Consensus        27 rrsleaggcshag   39 (39)
+                      |..-++|||.||.
+T Consensus         4 ~~~pdaGGC~Ha~   16 (56)
+T 1JY2_O            4 RKPPDADGCLHAD   16 (56)
+T ss_dssp             CCCCCCSCEECSS
+T ss_pred             ccCCCCCCCcccC
+Confidence            4556899999984
+
+
+No 2
+>1JY3_R FIBRINOGEN ALPHA CHAIN, FIBRINOGEN BETA; fibrinogen, fragment E, disulfide bonds; 1.6A {Bos taurus} SCOP: h.1.8.1
+Probab=71.11  E-value=5.1  Score=23.39  Aligned_cols=13  Identities=46%  Similarity=0.902  Sum_probs=10.1  Template_Neff=3.500
+
+Q ss_pred             cccccCCCCCCCC
+Q tr|K7EKL6|K7EK   27 RRSLEAGGCSHAG   39 (39)
+Q Consensus        27 rrsleaggcshag   39 (39)
+                      |..-++|||.||.
+T Consensus         4 ~~~pdaGGC~Ha~   16 (56)
+T 1JY3_R            4 RKPPDADGCLHAD   16 (56)
+T ss_dssp             CCCCCCSCEECSS
+T ss_pred             ccCCCCCCCcccC
+Confidence            4556899999984
+
+
+No 3
+>2A45_K Thrombin light chain (E.C.3.4.21.5), Thrombin; THROMBIN, FIBRIN, FRAGMENT E, THROMBIN-FIBRIN; HET: PO4, 0G6; 3.65A {Homo sapiens}
+Probab=64.21  E-value=6.8  Score=24.66  Aligned_cols=12  Identities=50%  Similarity=1.046  Sum_probs=9.3  Template_Neff=3.600
+
+Q ss_pred             ccccCCCCCCCC
+Q tr|K7EKL6|K7EK   28 RSLEAGGCSHAG   39 (39)
+Q Consensus        28 rsleaggcshag   39 (39)
+                      ..-++|||.||.
+T Consensus        44 ~~pDaGGC~Has   55 (91)
+T 2A45_K           44 KAPDAGGCLHAD   55 (91)
+T ss_pred             cCCCCCCccccc
+Confidence            446799999973
+
+
+No 4
+>7DOJ_A Mycobacterium tuberculosis, Rel, TGS domain; NMR {Mycobacterium tuberculosis}
+Probab=51.23  E-value=18  Score=15.92  Aligned_cols=10  Identities=40%  Similarity=0.856  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCCCCCcccc
+Q tr|K7EKL6|K7EK   16 KTHHPAWPLI   25 (39)
+Q Consensus        16 kthhpawpli   25 (39)
+                      |.||-+||+.
+T Consensus         2 ~~~~~~~~~~   11 (77)
+T 7DOJ_A            2 KHHHHHHPMV   11 (77)
+T ss_dssp             ----------
+T ss_pred             CCCccCCccc
+Confidence            4577788765
+
+
+No 5
+>2CGQ_A ACYL CARRIER PROTEIN ACPA; RV0033, ACYL CARRIER PROTEIN, PROTEIN; 1.83A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=40.08  E-value=33  Score=16.09  Aligned_cols=8  Identities=38%  Similarity=0.808  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCccc
+Q tr|K7EKL6|K7EK   17 THHPAWPL   24 (39)
+Q Consensus        17 thhpawpl   24 (39)
+                      .||+.||.
+T Consensus         3 ~~~~~~~~   10 (113)
+T 2CGQ_A            3 HHHHHHPM   10 (113)
+T ss_dssp             --------
+T ss_pred             CCCCCCCc
+Confidence            45555553
+
+
+No 6
+>3HIL_B Ephrin type-A receptor 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.0A {Homo sapiens}
+Probab=30.28  E-value=54  Score=13.32  Aligned_cols=7  Identities=29%  Similarity=0.135  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             CCCCccc
+Q tr|K7EKL6|K7EK   18 HHPAWPL   24 (39)
+Q Consensus        18 hhpawpl   24 (39)
+                      |||-|+.
+T Consensus         4 ~~~~~~~   10 (82)
+T 3HIL_B            4 HHHHSSG   10 (82)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            5566653
+
+
+No 7
+>3KKA_A EPHRIN TYPE-A RECEPTOR 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.4A {HOMO SAPIENS}
+Probab=30.28  E-value=54  Score=13.32  Aligned_cols=7  Identities=29%  Similarity=0.135  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             CCCCccc
+Q tr|K7EKL6|K7EK   18 HHPAWPL   24 (39)
+Q Consensus        18 hhpawpl   24 (39)
+                      |||-|+.
+T Consensus         4 ~~~~~~~   10 (82)
+T 3KKA_A            4 HHHHSSG   10 (82)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            5666654
+
+
+No 8
+>3KKA_B EPHRIN TYPE-A RECEPTOR 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.4A {HOMO SAPIENS}
+Probab=30.28  E-value=54  Score=13.32  Aligned_cols=7  Identities=29%  Similarity=0.135  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             CCCCccc
+Q tr|K7EKL6|K7EK   18 HHPAWPL   24 (39)
+Q Consensus        18 hhpawpl   24 (39)
+                      |||-|+.
+T Consensus         4 ~~~~~~~   10 (82)
+T 3KKA_B            4 HHHHSSG   10 (82)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            5666654
+
+
+No 9
+>7L3O_B Threonyl-tRNA synthetase (E.C.6.1.1.3); SSGCID, Threonyl-tRNA synthetase, class-II aminoacyl-tRNA; 2.1A {Cryptosporidium parvum (strain Iowa II)}
+Probab=28.53  E-value=40  Score=21.19  Aligned_cols=14  Identities=36%  Similarity=0.119  Sum_probs=6.1  Template_Neff=10.700
+
+Q ss_pred             CCCCCccccccccc
+Q tr|K7EKL6|K7EK   17 THHPAWPLIHRRSL   30 (39)
+Q Consensus        17 thhpawplihrrsl   30 (39)
+                      .|||+|-..||..-
+T Consensus         5 ~~~~~~~~~~~~~g   18 (442)
+T 7L3O_B            5 HHHHAKKRDHRLLG   18 (442)
+T ss_dssp             ------CCCHHHHH
+T ss_pred             cccccccCChhHHH
+Confidence            58999999988653
+
+
+No 10
+>7P2Q_C Endoplasmic Reticulum, Signal peptide, Serine; HET: BMA, NAG, MAN; 4.9A {Homo sapiens}
+Probab=25.56  E-value=87  Score=21.01  Aligned_cols=14  Identities=57%  Similarity=0.831  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             ccccccCCCCCCCC
+Q tr|K7EKL6|K7EK   26 HRRSLEAGGCSHAG   39 (39)
+Q Consensus        26 hrrsleaggcshag   39 (39)
+                      --||-..||||.||
+T Consensus         8 ~~~~~~~~~~~~~~   21 (248)
+T 7P2Q_C            8 GGRSGGSGGCSGAG   21 (248)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+Confidence            34777889999876
+
+

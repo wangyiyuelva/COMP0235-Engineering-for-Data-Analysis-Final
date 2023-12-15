@@ -1,0 +1,1055 @@
+Query         sp|P20061|TCO1_HUMAN
+Match_columns 433
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:22:39 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0939.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4KKI_A Cobalamin transport pro 100.0 2.7E-43   3E-48  315.0  38.8  433    1-433     1-433 (467)
+  2 4ZRP_A LDLR-A, Vitamin transpo 100.0 2.6E-36 2.9E-41  262.7  34.6  388   25-433     2-409 (409)
+  3 2BB6_D bovine transcobalamin I 100.0 2.3E-34 2.5E-39  250.2  35.5  392   25-433     2-414 (414)
+  4 2PMV_D Gastric intrinsic facto 100.0   6E-25 6.5E-30  189.6  37.3  379   27-433    12-399 (399)
+  5 3KQ4_C Gastric intrinsic facto 100.0 5.9E-24 6.4E-29  183.2  37.1  379   27-433     6-393 (393)
+  6 5NSA_A Transcobalamin-2; bindi  98.7 1.2E-06 1.3E-11   63.0  10.9   99  331-433     8-108 (108)
+  7 3U7Z_A putative metal binding   98.6 2.9E-06 3.2E-11   61.2  10.7   95  332-433     5-100 (101)
+  8 2BB6_D bovine transcobalamin I  85.0      12 0.00013   34.7   8.4  204   73-296    10-240 (414)
+  9 4FXG_E Complement C4-A, Mannan  80.9      52 0.00057   33.2  11.4   98  143-256   510-638 (767)
+ 10 4FXK_B Complement C4-A; IMMUNE  80.9      52 0.00057   33.2  11.4   99  142-256   509-638 (767)
+ 11 5JPM_B Complement C4-A, Mannan  80.9      52 0.00057   33.2  11.4   98  143-256   510-638 (767)
+ 12 3PRX_B Complement C5, Cobra ve  67.7 1.6E+02  0.0018   32.9  11.9   58  182-256  1208-1265(1642)
+ 13 3PVM_D Complement C5, Cobra ve  67.7 1.6E+02  0.0018   32.9  11.9   58  182-256  1208-1265(1642)
+ 14 6I2X_B Complement C5, Cobra ve  67.7 1.6E+02  0.0018   32.9  11.9   58  182-256  1208-1265(1642)
+ 15 6YSQ_D Complement C4b, hC4Nb8   65.1 2.2E+02  0.0024   27.9  11.3   58  183-256   504-561 (690)
+ 16 7BAG_B Complement system, C3b,  61.2 2.8E+02  0.0031   28.8  11.4   96  143-256   437-536 (915)
+ 17 5FO8_B COMPLEMENT C3 (E.C.3.4.  58.3 1.5E+02  0.0016   30.6   9.0   96  143-256   437-536 (915)
+ 18 1HZF_A COMPLEMENT FACTOR C4A (  53.7 2.4E+02  0.0026   24.6  14.7  209   30-256    91-361 (367)
+ 19 2B39_B C3; complement, thioest  53.7 3.1E+02  0.0033   31.0  11.0  140   91-256  1139-1283(1661)
+ 20 5HCC_A Complement C5, Compleme  53.3 2.8E+02  0.0031   29.3  10.2   57  183-256   568-624 (998)
+ 21 5HCE_A Complement C5, Compleme  53.3 2.8E+02  0.0031   29.3  10.2   57  183-256   568-624 (998)
+ 22 5I5K_B Complement C5, Eculizum  42.6 4.1E+02  0.0045   30.0   9.9   57  183-256  1246-1302(1676)
+ 23 7AD7_A Complement C5, K8 pepti  42.6 4.1E+02  0.0045   30.0   9.9   57  183-256  1246-1302(1676)
+ 24 7S64_C Xenopus egg extract, Pr  36.7 9.3E+02    0.01   26.5  12.7  200   31-256   993-1242(1441)
+ 25 6RD5_3 ASA-10: Polytomella F-A  26.2 5.7E+02  0.0061   24.1   6.8   45   77-127   122-166 (325)
+ 26 6RDI_3 ASA-10: Polytomella F-A  26.2 5.7E+02  0.0061   24.1   6.8   23   87-109    93-117 (325)
+ 27 2WY8_A COMPLEMENT C3D FRAGMENT  24.5 6.2E+02  0.0067   20.6   7.1  200   30-256    54-291 (310)
+ 28 7KH1_F1 Myoviridae, Phage, Bas  22.9 7.7E+02  0.0083   21.1   9.0   17  349-365    62-78  (143)
+ 29 4ZRP_A LDLR-A, Vitamin transpo  22.1 1.1E+03   0.012   22.7  14.6  174   51-255    84-282 (409)
+ 30 2Y35_A LD22664P (E.C.3.1.13.-)  21.6 3.1E+02  0.0034   31.3   5.1   11  149-159   278-288 (1140)
+ 31 3D5R_B Protein-protein complex  21.6 3.5E+02  0.0038   21.9   4.1  198   28-256    55-294 (297)
+
+No 1
+>4KKI_A Cobalamin transport protein, alpha6-alpha6 helical; HET: PEG, CNC, NAG; 2.35A {Homo sapiens}
+Probab=100.00  E-value=2.7e-43  Score=314.95  Aligned_cols=433  Identities=100%  Similarity=1.438  Sum_probs=355.4  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCcccccCCCCCCCCCcCCCChhhHHHHHHHHHHHHhcCCCCCCchHHHHHHHHHhchhHHHHHHHHHHHHH
+Q sp|P20061|TCO1    1 MRQSHQLPLVGLLLFSFIPSQLCEICEVSEENYIRLKPLLNTMIQSNYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIK   80 (433)
+Q Consensus         1 mrqshqlplvglllfsfipsqlceicevseenyirlkpllntmiqsnynrgtsavnvvlslklvgiqiqtlmqkmiqqik   80 (433)
+                      ||+++++++++++++++++++++..+++++.++++++||.+++.+++++|+..|+++++||++++.+.++..+.+++.|+
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~t~~~~~aL~~~g~~~~~~~~~~~~~l~   80 (467)
+T 4KKI_A            1 MRQSHQLPLVGLLLFSFIPSQLCEICEVSEENYIRLKPLLNTMIQSNYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIK   80 (467)
+T ss_dssp             -----------------------CCCCCCGGGGGGGHHHHHHHHHGGGCTTSCSHHHHHHHHHTTCCCHHHHHHHHHHHH
+T ss_pred             CcccchHHHHHHHHHHhcchhhcccCCCCHHHHHHHHHHHHHHHHhccCCCCCChHHhhhhhhcccchHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999997678889999999999999999888777778888898
+
+
+Q ss_pred             HHhhcCCCCCCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCC
+Q sp|P20061|TCO1   81 YNVKSRLSDVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGN  160 (433)
+Q Consensus        81 ynvksrlsdvssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfngn  160 (433)
+                      +.+......+++++++++++||.++|.+|+++.|+.+|+++|.++++..+++|+...+.+.++.+.++|+++|||..+..
+T Consensus        81 ~~~~~~~~~~~~~~la~~ilal~a~g~~~~~~~~~~~li~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~a~laL~~~~~~  160 (467)
+T 4KKI_A           81 YNVKSRLSDVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGN  160 (467)
+T ss_dssp             HHHHHCTTTSCHHHHHHHHHHHTSSCSGGGHHHHHTTHHHHHHHHHHHHHHHHHHTTTCCSSCHHHHHHHHHHHHHTTCC
+T ss_pred             HHHHhcccCCCHHHHHHHHHHHHhcCCCcccccccCcHHHHHHHHHHHHHHhHHhcCCCCCCChHHHHHHHHHHHHhcCC
+Confidence            88877777888999999999999999999997336799999999988877777544445677899999999999999988
+
+
+Q ss_pred             CChHHHHHhCCCCCCCcCCCCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCC
+Q sp|P20061|TCO1  161 YSTAEVVNHFTPENKNYYFGSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGN  240 (433)
+Q Consensus       161 ystaevvnhftpenknyyfgsqfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkenglign  240 (433)
+                      ...++++||+.+|+++|++++..++|+||++++||.|+.....++++..+.+....+..+++++++||+++|.+||+|+|
+T Consensus       161 ~~~~~v~~L~~~q~g~~~~~~~~d~d~Ta~al~AL~~~~~~~~~~~~~~~~~~~~~~~~ai~~a~~~L~~~q~~dG~fgn  240 (467)
+T 4KKI_A          161 YSTAEVVNHFTPENKNYYFGSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGN  240 (467)
+T ss_dssp             CCHHHHHHHCCTTCGGGEETTEECHHHHHHHHHHHHHHHHHHHTTSCCCCTTHHHHHHHHHHHHHHHHHTTBCTTSCBSS
+T ss_pred             CCHHHHHHhhcHHhcCCCCCCcccchHHHHHHHHHHHHHcchhcCCCcCChhhHHHHHHHHHHHHHHHHHhhhccCCccc
+Confidence            88899999999999888887788999999999999999988777778788888888999999999999999999999999
+
+
+Q ss_pred             CCCHHHHHHHHHhcchccCCCChhHHHHHHHHHHHHHcCCCCChhHHHHHHHHHhcchhhhccCCCCcccCCCCcccCCC
+Q sp|P20061|TCO1  241 TFSTGEAMQALFVSSDYYNENDWNCQQTLNTVLTEISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISAD  320 (433)
+Q Consensus       241 tfstgeamqalfvssdyynendwncqqtlntvlteisqgafsnpnaaaqvlpalmgktfldinkdsscvsasgnfnisad  320 (433)
+                      +++|+++++||.+.+.+..+..|.+.++++||++|+++|+|.++++|+++++||.+++|.++....+|+++.+++++++.
+T Consensus       241 ~~sTa~a~~aL~~~g~~~~~~~~~~~~~~~~Ll~q~~dGsf~~~~aT~~al~aL~~~~~~~i~~~~~~~~~~~~~~~~~~  320 (467)
+T 4KKI_A          241 TFSTGEAMQALFVSSDYYNENDWNCQQTLNTVLTEISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISAD  320 (467)
+T ss_dssp             TTTHHHHHHHHHTCGGGCCTTTCCHHHHHHHHHHHHHTTTTCSHHHHHHHHHHHTTCCGGGCCSSCCCCSSCCCCCC---
+T ss_pred             cccHHHHHHHHHhccccCCcccccHHHHHHHHHHHHhCCCCCCHHHHHHHHHHHcCCCHhhccccccccCCCCCcccCCC
+Confidence            99999999999999986556667899999999999999999999999999999999999999976577777655444444
+
+
+Q ss_pred             CCeeeCCCCCCCcEEEeeeEeeCCcceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcc
+Q sp|P20061|TCO1  321 EPITVTPPDSQSYISVNYSVRINETYFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRT  400 (433)
+Q Consensus       321 epitvtppdsqsyisvnysvrinetyftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrt  400 (433)
+                      ++.+++++.+++.++|+|+|++++.....+++++|+|++++|+++++.++++|+|++....++.||++|+|+.++...+.
+T Consensus       321 ~~~~~~~~~~~~~~~V~v~v~~~~~~~~~v~v~~g~t~~~~l~~a~~~~~~~~~~~~~~~~~g~~I~sI~g~~~~~~~~~  400 (467)
+T 4KKI_A          321 EPITVTPPDSQSYISVNYSVRINETYFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRT  400 (467)
+T ss_dssp             ----------CCEEEEEEEEESSSEEEEEEEEETTCBHHHHHHHHHHHCHHHHCEEEEECSSSEEEEEETTEECBTTTTE
+T ss_pred             CCccCCCCCCCCeEEEEEEEEeCCeEEEEEEEcCCCcHHHHHHHHHhcCCCcCeEEEeecCccccEEEecccccCCCCCc
+Confidence            43333344556788999999987766778999999999999999998763348888877889999999999998766799
+
+
+Q ss_pred             eeeeecCCCCCCCCCceEEEECCceeEEEeecc
+Q sp|P20061|TCO1  401 YWELLSGGEPLSQGAGSYVVRNGENLEVRWSKY  433 (433)
+Q Consensus       401 ywellsggeplsqgagsyvvrngenlevrwsky  433 (433)
+                      ||+|++||+++++|++.++|++||+|+|+|++|
+T Consensus       401 ~W~~~vng~~~~~g~~~~~l~~gd~i~~~~~~~  433 (467)
+T 4KKI_A          401 YWELLSGGEPLSQGAGSYVVRNGENLEVRWSKY  433 (467)
+T ss_dssp             EEEEEETTEECSSCTTTCBCCTTCCEEEEEEEC
+T ss_pred             eEEEEECCeeCceeccEEEeCCCCEEEEEEEEc
+Confidence            999999999999999999999999999999875
+
+
+No 2
+>4ZRP_A LDLR-A, Vitamin transporter, transport protein; HET: GOL, CNC; 2.1A {Homo sapiens}
+Probab=100.00  E-value=2.6e-36  Score=262.70  Aligned_cols=388  Identities=27%  Similarity=0.417  Sum_probs=320.1  Template_Neff=9.700
+
+Q ss_pred             cCCCChhhHHHHHHHHHHHH-hc-CCCCCCchHHHHHHHHHhchhHHHHHHHHHHHHHHHhhc-------------CCCC
+Q sp|P20061|TCO1   25 ICEVSEENYIRLKPLLNTMI-QS-NYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIKYNVKS-------------RLSD   89 (433)
+Q Consensus        25 icevseenyirlkpllntmi-qs-nynrgtsavnvvlslklvgiqiqtlmqkmiqqikynvks-------------rlsd   89 (433)
+                      .|++++...++++||.+++. ++ +..++..|+++++||+++|.+.+...+.+++.|+..+..             ....
+T Consensus         2 ~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~t~~~~~aL~~~g~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~   81 (409)
+T 4ZRP_A            2 MCEIPEMDSHLVEKLGQHLLPWMDRLSLEHLNPSIYVGLRLSSLQAGTKEDLYLHSLKLGYQQCLLGSAFSEDDGDCQGK   81 (409)
+T ss_dssp             CCCCCCCCHHHHHHHHHHHGGGGGCCSTTTCCHHHHHHHHTSSEECTHHHHHHHHHHHHHHHHHHHC---------CCSC
+T ss_pred             CccCChhhHHHHHHHHHHHHHHHhhccccCCChhHeehhhhcccCCcchHHHHHHHHHHHHHHHHhccccCCCCCCCCCC
+Confidence            46888899999999999997 44 667888999999999999987665444555555554432             1245
+
+
+Q ss_pred             CCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhccc-CCCCCCchHHHHHHHHHHHHHHcCCCChHHHHH
+Q sp|P20061|TCO1   90 VSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEA-HNGTPLTNYYQLSLDVLALCLFNGNYSTAEVVN  168 (433)
+Q Consensus        90 vssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmea-hngtpltnyyqlsldvlalclfngnystaevvn  168 (433)
+                      .+++++++++++|.++|.+|+++. +.+|+++|.+++...+++++. +...+..+.+.++|+++|||..+...+++.+++
+T Consensus        82 ~~~~~~a~~ilal~a~g~dp~~~~-g~~li~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~laL~~~~~~~~~~~v~~  160 (409)
+T 4ZRP_A           82 PSMGQLALYLLALRANCEFVRGHK-GDRLVSQLKWFLEDEKRAIGHDHKGHPHTSYYQYGLGILALCLHQKRVHDSVVDK  160 (409)
+T ss_dssp             CCHHHHHHHHHHHHHTTCCCCHHH-HHHHHHHHHHHHHHHHHHHCSSSCSCCSSCHHHHHHHHHHHHHTTCCCCHHHHHH
+T ss_pred             CChhHHHHHHHHHHHhccCCCCcc-cCcHHHHHHHHHHHHHHHhccCCCCCCCCCccHHHHHHHHHHHcCCCCCHHHHHH
+Confidence            679999999999999999999998 999999999999887766653 334566778999999999999998888999999
+
+
+Q ss_pred             hCCCCCCCcCCCCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHH
+Q sp|P20061|TCO1  169 HFTPENKNYYFGSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAM  248 (433)
+Q Consensus       169 hftpenknyyfgsqfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeam  248 (433)
+                      |++.|+..  .++..++|+|+|+++||.|+....      .+.+....+..+++++++||+++|.+||+|+|+++||+++
+T Consensus       161 Ll~~q~~~--~g~~~~~d~ta~al~AL~~~~~~~------~~~~~~~~v~~ai~~a~~~L~~~q~~dG~~gn~~sTa~al  232 (409)
+T 4ZRP_A          161 LLYAVEPF--HQGHHSVDTAAMAGLAFTCLKRSN------FNPGRRQRITMAIRTVQEEILKAQTPEGHFGNVYSTPLAL  232 (409)
+T ss_dssp             HHHHHSTT--CSSCCCHHHHHHHHHHHHHHHHTT------CCGGGHHHHHHHHHHHHHHHHHTBCTTSCBSSTTTHHHHH
+T ss_pred             HHHhhchh--cCCCCChHHHHHHHHHHHHHHhcC------CChhHHHHHHHHHHHHHHHHHHhcCCCCCccccchHHHHH
+Confidence            99998841  234678999999999999997652      2222335678999999999999999999999999999999
+
+
+Q ss_pred             HHHHhcchccCCCChhHHHHHHHHHHHHHcCCCCChhHHHHHHHHHhcchhhhccCCCCcccCCCCcccCCCCCeeeCCC
+Q sp|P20061|TCO1  249 QALFVSSDYYNENDWNCQQTLNTVLTEISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISADEPITVTPP  328 (433)
+Q Consensus       249 qalfvssdyynendwncqqtlntvlteisqgafsnpnaaaqvlpalmgktfldinkdsscvsasgnfnisadepitvtpp  328 (433)
+                      +||.+.+.++....+.+.+++++|++|.+||+|.++++|+++++||.+++|.++... .|......  ..+.+.     .
+T Consensus       233 ~AL~~~g~~~~~~~~~~~~~~~~Ll~q~~dG~f~~~~aT~~al~aL~~~~~~~~~~~-~~~~~~~~--~~~~~~-----~  304 (409)
+T 4ZRP_A          233 QFLMTSPMRGAELGTACLKARVALLASLQDGAFQNALMISQLLPVLNHKTYIDLIFP-DCLAPRVM--LEPAAE-----T  304 (409)
+T ss_dssp             HHHTTSCCTTSCHHHHHHHHHHHHHHHHHTTCCCCHHHHHHHHHHHTTCCGGGGSSC-CTTSCCEE--CCCCCC-----C
+T ss_pred             HHHhcCccchhhcCHHHHHHHHHHHHhCCCCCCCcHHHHHHHHHHHCCCccccccCC-cCCCCccc--ccCCcc-----C
+Confidence            999999885445556799999999999999999999999999999999999999976 67654321  222111     1
+
+
+Q ss_pred             CCCCcEEEeeeEeeCCc---ceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeee-
+Q sp|P20061|TCO1  329 DSQSYISVNYSVRINET---YFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWEL-  404 (433)
+Q Consensus       329 dsqsyisvnysvrinet---yftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywel-  404 (433)
+                      +....++|+|+|.+.+.   ...++++++|.|++++|+++.+.+  +|+|+++...+|.||++|+|+.+  ....||+| 
+T Consensus       305 ~~~~~~~v~v~i~~~~~~~~~~~~~~v~~g~t~~~~l~~a~~~~--~~~~~~~~~~~g~~i~sI~g~~~--~~~~~W~~y  380 (409)
+T 4ZRP_A          305 IPQTQEIISVTLQVLSLLPPYRQSISVLAGSTVEDVLKKAHELG--GFTYETQASLSGPYLTSVMGKAA--GEREFWQLL  380 (409)
+T ss_dssp             CCCCCCEEEEEEEECSSSSCEEEEEEEETTCCHHHHHHHHHHHS--SCCEEEECCTTSCEEEEETTEEC--CTTEEEEEE
+T ss_pred             CCCCceEEEEEEEeCCCCCCeeEEEEEcCCCCHHHHHHHHHHcC--CCEEEEEecCCcccEEEEcCccC--CCCcceEEE
+Confidence            12234677777777433   355688999999999999999987  69999888889999999999998  67899999 
+
+
+Q ss_pred             ecCCCCCCCCCceEEEECCceeEEEeecc
+Q sp|P20061|TCO1  405 LSGGEPLSQGAGSYVVRNGENLEVRWSKY  433 (433)
+Q Consensus       405 lsggeplsqgagsyvvrngenlevrwsky  433 (433)
+                      .+||+++++|++.++|++||+|+|+|++|
+T Consensus       381 ~~ng~~~~~g~~~~~~~~gd~i~~~y~~~  409 (409)
+T 4ZRP_A          381 RDPNTPLLQGIADYRPKDGETIELRLVSW  409 (409)
+T ss_dssp             ETTTEECSSCTTTCCCCTTCEEEEEEEEC
+T ss_pred             eeCCCcCcccceeecCCCCCEEEEEEEeC
+Confidence            69999999999999999999999999876
+
+
+No 3
+>2BB6_D bovine transcobalamin II; alpha_6 - alpha_6 barrel, TRANSPORT; HET: B12; 2.0A {Bos taurus}
+Probab=100.00  E-value=2.3e-34  Score=250.18  Aligned_cols=392  Identities=26%  Similarity=0.407  Sum_probs=327.0  Template_Neff=9.800
+
+Q ss_pred             cCCCChhhHHHHHHHHHHHH-hc-CCCCCCchHHHHHHHHHhchhHHHHHHHHHHHHHHHhhc-------------CCCC
+Q sp|P20061|TCO1   25 ICEVSEENYIRLKPLLNTMI-QS-NYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIKYNVKS-------------RLSD   89 (433)
+Q Consensus        25 icevseenyirlkpllntmi-qs-nynrgtsavnvvlslklvgiqiqtlmqkmiqqikynvks-------------rlsd   89 (433)
+                      .|.+++.++++++||.+++. ++ +..++..|+++++||+++|.+.....+.+++.|+..+..             ....
+T Consensus         2 ~~~~~~~~~~~v~~l~~~~~~~~~~~~~~~~t~~~~~aL~~~g~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~   81 (414)
+T 2BB6_D            2 ICEITEVDSTLVERLGQRLLPWMDRLSQEQLNPSIYVGLRLSSLQAGAKEAHYLHSLKLSYQQSLLRPASNKDDNDSEAK   81 (414)
+T ss_dssp             TTSCCCCCHHHHHHHHHHHGGGGGCCSTTTCCHHHHHHHHTSSEECTTHHHHHHHHHHHHHHHHHSCCSCCSCCCCCCSS
+T ss_pred             CccCChhhHHHHHHHHHHHHHHHhhcCccCCChhheehHHhhccccchHHHHHHHHHHHHHHHHhcccccCCCCCCCCCC
+Confidence            47889999999999999997 44 667889999999999999988765555666666665543             1255
+
+
+Q ss_pred             CCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhccc-CCCCCCchHHHHHHHHHHHHHHcCCCChHHHHH
+Q sp|P20061|TCO1   90 VSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEA-HNGTPLTNYYQLSLDVLALCLFNGNYSTAEVVN  168 (433)
+Q Consensus        90 vssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmea-hngtpltnyyqlsldvlalclfngnystaevvn  168 (433)
+                      .++++++++++||.++|.+|+++. +.+++++|.+++..++++++. +...+..+.+.++|+++|||..+.....+++++
+T Consensus        82 ~~~~~~a~~~lal~a~g~~~~~~~-~~~lv~~L~~~~~~~g~~~~~~~~~~~~~~~~~~a~a~laL~~~~~~~~~~~v~~  160 (414)
+T 2BB6_D           82 PSMGQLALYLLALRANCEFIGGRK-GDRLVSQLKRFLEDEKRAIGHNHQGHPRTSYYQYSLGILALCVHQKRVHDSVVGK  160 (414)
+T ss_dssp             CCHHHHHHHHHHHHHTTCCCCHHH-HHHHHHHHHHHHHHHHHHHCSSSSCCCSSCHHHHHHHHHHHHHTTCCCCHHHHHH
+T ss_pred             CChHHHHHHHHHHHHhCCCCCCcc-cCcHHHHHHHHHHHHHHHhccCCCCCCCCChhHHHHHHHHHHHcCCCCChHHHHH
+Confidence            679999999999999999999997 999999999999888766653 333466778999999999999998888899999
+
+
+Q ss_pred             hCCCCC-CCcCCCCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHH
+Q sp|P20061|TCO1  169 HFTPEN-KNYYFGSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEA  247 (433)
+Q Consensus       169 hftpen-knyyfgsqfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgea  247 (433)
+                      |++.|+ +||.++..+++|+|+++++||.|+....      ........+..+++++++||++.|.+||+|+|+++|+++
+T Consensus       161 L~~~q~~dG~~~~~~~~~d~ta~al~AL~~~~~~~------~~~~~~~~v~~~i~~a~~~l~~~q~~dGg~gn~~~Ta~a  234 (414)
+T 2BB6_D          161 LLYAVEHKPHLLQDHVSVDTMAMAGMAFSCLELSN------LNPKQRNRINLALKRVQEKILKAQTPEGYFGNVYSTPLA  234 (414)
+T ss_dssp             HHHHHHSSSCCSCTTTHHHHHHHHHHHHHHHHHHT------SCGGGHHHHHHHHHHHHHHHHHTBCTTSCBSSTTTHHHH
+T ss_pred             HHHHHhcCCCCCCCCCCHHHHHHHHHHHHHHHhcC------CCHHHHHHHHHHHHHHHHHHHHhcCCCCCCccchHHHHH
+Confidence            999998 7788777889999999999999987652      222233567899999999999999999999999999999
+
+
+Q ss_pred             HHHHHhcchccCCCChhHHHHHHHHHHHHHcCCCCChhHHHHHHHHHhcchhhhccCCCCcccCCCCcccCCCCCeeeCC
+Q sp|P20061|TCO1  248 MQALFVSSDYYNENDWNCQQTLNTVLTEISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISADEPITVTP  327 (433)
+Q Consensus       248 mqalfvssdyynendwncqqtlntvlteisqgafsnpnaaaqvlpalmgktfldinkdsscvsasgnfnisadepitvtp  327 (433)
+                      ++||.+.+.++....+.+.++++||++|+++|+|.++++|+++++||.+++|.++... .|....+.  ..|.+.   ++
+T Consensus       235 l~aL~a~~~~~~~~~~~~~~~~~~L~~q~~dG~f~~~~~t~~~l~aL~~~~~~~~~~~-~~~~~~~~--~~p~~~---~~  308 (414)
+T 2BB6_D          235 LQLLMGSLRPSVELGTACLKAKAALQASLQHKTFQNPLMISQLLPVLNQKSYVDLISP-DCQAPRAL--LEPALE---TP  308 (414)
+T ss_dssp             HHHHTTCSSCCHHHHHHHHHHHHHHHHHHTTTCCCSHHHHHHHHHHHTTCCGGGGGSC-CSSSCCEE--CCCCTT---CC
+T ss_pred             HHHHHcCCCcchhhhHHHHHHHHHHHHHhcCCCCCCHHHHHHHHHHHCCCchhccCCC-CCCCCccc--CcCCCC---CC
+Confidence            9999998874333456689999999999999999999999999999999999999986 67654322  222211   12
+
+
+Q ss_pred             CCCCCcEEEeeeEeeCCc---ceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeee
+Q sp|P20061|TCO1  328 PDSQSYISVNYSVRINET---YFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWEL  404 (433)
+Q Consensus       328 pdsqsyisvnysvrinet---yftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywel  404 (433)
+                      +..+..++|+++|.+.+.   ....+++++|.|++++|+++.+.+  +|+|+++...+|.||++|+|+.+  ..+.||+|
+T Consensus       309 ~~~~~~~~v~v~i~~~~~~~~~~~~~~v~~g~t~~d~l~~a~~~~--~~~~~~~~~~~g~~i~~I~G~~~--~~~~~W~~  384 (414)
+T 2BB6_D          309 PQAKVPKFIDVLLKVSGISPSYRHSVSVPAGSSLEDILKNAQEHG--RFRFRTQASLSGPFLTSVLGRKA--GEREFWQV  384 (414)
+T ss_dssp             SCCCCCCEEEEEEEEESSSSCEEEEEEEETTCCHHHHHHHHHHSS--SCCEEEECCTTSCEEEEETTEEC--CTTEEEEE
+T ss_pred             CCCCCCEEEEEEEEeCCccceEEEEEEeCCCCCHHHHHHHHHHcC--CcEEEEEeCCCcceEEEECCEeC--CCCcceEE
+Confidence            233445677777776432   355688999999999999999987  69999887889999999999998  67899999
+
+
+Q ss_pred             -ecCCCCCCCCCceEEEECCceeEEEeecc
+Q sp|P20061|TCO1  405 -LSGGEPLSQGAGSYVVRNGENLEVRWSKY  433 (433)
+Q Consensus       405 -lsggeplsqgagsyvvrngenlevrwsky  433 (433)
+                       ++||+.+++|++.|+|++||+|+|+|++|
+T Consensus       385 ~~vng~~~~~g~~~~~l~~gd~i~~~y~~~  414 (414)
+T 2BB6_D          385 LRDPDTPLQQGIADYRPKDGETIELRLVGW  414 (414)
+T ss_dssp             EETTTEECSSCTTTCCCCTTCEEEEEEEEC
+T ss_pred             EEeCCCCCCceeeEecCCCCCEEEEEEEeC
+Confidence             89999999999999999999999999876
+
+
+No 4
+>2PMV_D Gastric intrinsic factor; Cobalamin transport protein Alpha6-Alpha6 motif; HET: NAG, B12; 2.6A {Homo sapiens}
+Probab=99.96  E-value=6e-25  Score=189.59  Aligned_cols=379  Identities=31%  Similarity=0.497  Sum_probs=207.2  Template_Neff=10.000
+
+Q ss_pred             CCChhhHHHHHHHHHHHHhcCCCCCCchHHHHHHHHHhchhHHHHHHHHHHHHHHHhhcCCCCCCHHHHHHHHHHHhhhh
+Q sp|P20061|TCO1   27 EVSEENYIRLKPLLNTMIQSNYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIKYNVKSRLSDVSSGELALIILALGVCR  106 (433)
+Q Consensus        27 evseenyirlkpllntmiqsnynrgtsavnvvlslklvgiqiqtlmqkmiqqikynvksrlsdvssgelaliilalgvcr  106 (433)
+                      ...+.++++++||.+++. .+++|+  ++++++||++++.......+.+..+|.+.   .....+.++++++++||.+.|
+T Consensus        12 ~~~~~i~~~~~~L~~~q~-~dGg~~--~~~~~~aL~~~g~~~~~~~~~~~~~l~~~---~~~~~~~~~~a~~~~al~a~g   85 (399)
+T 2PMV_D           12 SAQEPLVNGIQVLMENSV-TSSAYP--NPSILIAMNLAGAYNLKAQKLLTYQLMSS---DNNDLTIGHLGLTIMALTSSC   85 (399)
+T ss_dssp             TTTHHHHHHHHHHHHHTC-CSSSCC--CHHHHHHHHHHCCSCHHHHHHHHHHHTTC---CTTSCCHHHHHHHHHHHHTTT
+T ss_pred             hhhHHHHHHHHHHHHccC-CCCCCC--CHHHhhhHHhcccCCHHHHHHHHHHHHhc---CCCCCCHHHHHHHHHHHHHhC
+Confidence            456789999999999884 566665  59999999999998776555555555543   235567899999999999999
+
+
+Q ss_pred             chhhhcccCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCCCChHHHHHhCCCCC-CCcCCCCCCcc
+Q sp|P20061|TCO1  107 NAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGNYSTAEVVNHFTPEN-KNYYFGSQFSV  185 (433)
+Q Consensus       107 naeenliydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfngnystaevvnhftpen-knyyfgsqfsv  185 (433)
+                      .+|++      ++..|.++++..++.   ..+.+..+.+.++|+++|||..+...+.+++++|++.|+ ++    +..++
+T Consensus        86 ~~~~~------~~~~l~~~~~~~~~~---~~~~~~~~~~~~~~a~lal~~~~~~~~~~~~~~l~~~q~~~g----~~~~~  152 (399)
+T 2PMV_D           86 RDPGD------KVSILQRQMENWAPS---SPNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANS----SPFNV  152 (399)
+T ss_dssp             CCCTH------HHHHHHHHHHTCCCS---STTCCGGGGHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHCC----SCCCH
+T ss_pred             CCHHH------HHHHHHHHHHhcccC---CCCCCCCCCcHHHHHHHHHHhcCCCCChHHHHHHHHHHHhCC----CCCCc
+Confidence            99766      466777766553221   123456678889999999999887666788999999998 32    36789
+
+
+Q ss_pred             cHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcchccCCCChhH
+Q sp|P20061|TCO1  186 DTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSDYYNENDWNC  265 (433)
+Q Consensus       186 dtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssdyynendwnc  265 (433)
+                      |+|+++++||.|+......   ....+....+...++++++||+++|.+||+|+++++|+++++||...+.+. ...|.+
+T Consensus       153 d~Ta~al~AL~~~~~~~~~---~~~~~~~~~~~~~i~~a~~~L~~~q~~dG~~~~~~~Ta~~~~aL~~~~~~~-~~~~~~  228 (399)
+T 2PMV_D          153 DTGAMATLALTCMYNKIPV---GSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPS-KKEWNC  228 (399)
+T ss_dssp             HHHHHHHHHHHHHHTBCCT---TCCSSHHHHHHHHHHHHHHHHTTSBCSSSCBSSTTTHHHHHHHHHHCSSCC-SSCCCH
+T ss_pred             hHHHHHHHHHHHHHccCCC---CCcchhHHHHHHHHHHHHHHHHhhhccCCCccchhhHHHHHHHHHcCCCCC-cCcccH
+Confidence            9999999999998765100   011123356789999999999999999999999999999999999998742 345679
+
+
+Q ss_pred             HHHHHHHHH-HHHcCCCCChhHHHHHHHHHhcchhhhccCCCCcccCCCCcccCCCCCeeeCCCCCCCcEEEeeeEeeC-
+Q sp|P20061|TCO1  266 QQTLNTVLT-EISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISADEPITVTPPDSQSYISVNYSVRIN-  343 (433)
+Q Consensus       266 qqtlntvlt-eisqgafsnpnaaaqvlpalmgktfldinkdsscvsasgnfnisadepitvtppdsqsyisvnysvrin-  343 (433)
+                      .++++||+. | +||+|.+.++|+++++||.+++|.++... .|..........+..+.  .+..++..++|+++|+.+ 
+T Consensus       229 ~~~~~~L~~~q-~dGs~~~~~~t~~~l~aL~~~~~~~~~~~-~~~~~~~~~~~~~~~~~--~~~~~~~~i~v~v~I~~~~  304 (399)
+T 2PMV_D          229 KKTTDMILNEI-KQGKFHNPMSIAQILPSLKGKTYLDVPQV-TCSPDHEVQPTLPSNPG--PGPTSASNITVIYTINNQL  304 (399)
+T ss_dssp             HHHHHHHHHHH-HTTCCCCHHHHHTTHHHHTTCCGGGGGGC-CSSCC---------------------------------
+T ss_pred             HHHHHHHHHHH-HCCCCCChHHHHHHHHHHCCCCccccccC-CCCCCCCCCCCCCCCCC--CCCCCCCceEEEEEEEeCC
+Confidence            999999999 8 99999999999999999999999999875 66544321101111110  112234456777777652 
+
+
+Q ss_pred             --C-c---ceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeeeecCCCCCCCCCce
+Q sp|P20061|TCO1  344 --E-T---YFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWELLSGGEPLSQGAGS  417 (433)
+Q Consensus       344 --e-t---yftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywellsggeplsqgags  417 (433)
+                        . .   ....+.+++++|++++|+++++.++ +|+|+++...+|.||++|+|+.+....+.||+|++||+++++|++.
+T Consensus       305 ~g~~~~~~~~~~v~v~~~~t~~d~l~~~~~~~~-~~~~~~~~~~~g~~v~sI~G~~~~~~~~~~W~~~v~g~~~~~g~~~  383 (399)
+T 2PMV_D          305 RGVELLFNETINVSVKSGSVLLVVLEEAQRKNP-MFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVAD  383 (399)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCcccceeEEEEEEeCCCCcHHHHHHHHHHhCC-CCeeEEeeCCceecEEEEeccCCCcCcCceEEEEeCCccCCCCCce
+Confidence              1 1   2446788899999999999999764 5888887778999999999999865668899999999999999999
+
+
+Q ss_pred             EEEECCceeEEEeecc
+Q sp|P20061|TCO1  418 YVVRNGENLEVRWSKY  433 (433)
+Q Consensus       418 yvvrngenlevrwsky  433 (433)
+                      ++|++||+|+|+|+.|
+T Consensus       384 ~~~~~gd~i~~~y~~~  399 (399)
+T 2PMV_D          384 YIPFNHEHITANFTQY  399 (399)
+T ss_dssp             ----------------
+T ss_pred             ecCCCCCEEEEEEEeC
+Confidence            9999999999999875
+
+
+No 5
+>3KQ4_C Gastric intrinsic factor, Cubilin; PROTEIN-PROTEIN COMPLEX, Cobalt, Cobalt transport; HET: NAG, MAN, BMA, B12, CA; 3.3A {Homo sapiens}
+Probab=99.95  E-value=5.9e-24  Score=183.16  Aligned_cols=379  Identities=31%  Similarity=0.498  Sum_probs=295.5  Template_Neff=10.000
+
+Q ss_pred             CCChhhHHHHHHHHHHHHhcCCCCCCchHHHHHHHHHhchhHHHHHHHHHHHHHHHhhcCCCCCCHHHHHHHHHHHhhhh
+Q sp|P20061|TCO1   27 EVSEENYIRLKPLLNTMIQSNYNRGTSAVNVVLSLKLVGIQIQTLMQKMIQQIKYNVKSRLSDVSSGELALIILALGVCR  106 (433)
+Q Consensus        27 evseenyirlkpllntmiqsnynrgtsavnvvlslklvgiqiqtlmqkmiqqikynvksrlsdvssgelaliilalgvcr  106 (433)
+                      ..+..++++++||.++|. .+++|+  |+++++||++++.......+.+..+|.+.   ......++.++++++++.+.|
+T Consensus         6 ~~~~~~~~~~~~L~~~q~-~dGgw~--t~~~~~aL~~~g~~~~~~~~~~~~~l~~~---~~~~~~~~~~a~~i~al~a~g   79 (393)
+T 3KQ4_C            6 SAQEPLVNGIQVLMENSV-TSSAYP--NPSILIAMNLAGAYNLKAQKLLTYQLMSS---DNNDLTIGHLGLTIMALTSSC   79 (393)
+T ss_dssp             TTTHHHHHHHHHHHHTTC-CSSSCC--CHHHHHHHHHHCCSCHHHHHHHHHHHHHC---CGGGCCHHHHHHHHHHHHTTT
+T ss_pred             hhhHHHHHHHHHHHHccC-CCCCCC--CHHHhHhHHhcccCCHHHHHHHHHHHHhc---CCCCCCHHHHHHHHHHHHHhC
+Confidence            446789999999999985 666776  99999999999988766545555555443   224567899999999999999
+
+
+Q ss_pred             chhhhcccCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCCCChHHHHHhCCCCC-CCcCCCCCCcc
+Q sp|P20061|TCO1  107 NAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGNYSTAEVVNHFTPEN-KNYYFGSQFSV  185 (433)
+Q Consensus       107 naeenliydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfngnystaevvnhftpen-knyyfgsqfsv  185 (433)
+                      .+|++      ++..|.+++...++.+   .+.+..+.+.++|+++|||..+...+.+++++|+++|+ ++    +.+++
+T Consensus        80 ~d~~~------l~~~l~~~~~~~~~~~---~~~~~~~~~~~~~a~laL~~~~~~~~~~~~~~l~~~q~~~g----~~~~~  146 (393)
+T 3KQ4_C           80 RDPGD------KVSILQRQMENWAPSS---PNAEASAFYGPSLAILALCQKNSEATLPIAVRFAKTLLANS----SPFNV  146 (393)
+T ss_dssp             CCCTH------HHHHHHHHHHTCCCCC---TTSCGGGGHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHCC----SCCCH
+T ss_pred             CCHHH------HHHHHHHHHHhcccCC---CCCCCCCCchHHHHHHHHHhcCCCCChhHHHHHHHHHHhCC----CCCCc
+Confidence            99765      4667777665432211   22345677899999999999887666789999999998 43    36789
+
+
+Q ss_pred             cHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcchccCCCChhH
+Q sp|P20061|TCO1  186 DTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSDYYNENDWNC  265 (433)
+Q Consensus       186 dtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssdyynendwnc  265 (433)
+                      |+|+++++||.|+......   ....+....+..+++++++||+++|.+||+|++.++|+++++||...+.+. ...|.+
+T Consensus       147 d~Ta~al~AL~~~~~~~~~---~~~~~~~~~v~~~i~~a~~~L~~~q~~dG~~g~~~sta~~l~aL~~~g~~~-~~~~~~  222 (393)
+T 3KQ4_C          147 DTGAMATLALTCMYNKIPV---GSEEGYRSLFGQVLKDIVEKISMKIKDNGIIGDIYSTGLAMQALSVTPEPS-KKEWNC  222 (393)
+T ss_dssp             HHHHHHHHHHHHHHTTCCT---TCCTTHHHHHHHHHHHHHHHHHTTBCTTSCBSSSTTHHHHHHHHTTCSSCC-SSCCCH
+T ss_pred             HHHHHHHHHHHHHHccCCC---CCcchhHHHHHHHHHHHHHHHHhhhccCCCccchhhHHHHHHHHHcCCCCC-cccccH
+Confidence            9999999999998765100   011123357789999999999999999999999999999999999998842 345678
+
+
+Q ss_pred             HHHHHHHHH-HHHcCCCCChhHHHHHHHHHhcchhhhccCCCCcccCCCCcccCCCCCeeeCCCCCCCcEEEeeeEeeC-
+Q sp|P20061|TCO1  266 QQTLNTVLT-EISQGAFSNPNAAAQVLPALMGKTFLDINKDSSCVSASGNFNISADEPITVTPPDSQSYISVNYSVRIN-  343 (433)
+Q Consensus       266 qqtlntvlt-eisqgafsnpnaaaqvlpalmgktfldinkdsscvsasgnfnisadepitvtppdsqsyisvnysvrin-  343 (433)
+                      .++++||+. | +||+|.+.++|+++++||.+++|.++... .|..........+.++  ..+..++..++|+|+|+.+ 
+T Consensus       223 ~~~~~~L~~~q-~dGsf~~~~~t~~~l~aL~~~~~~~~~~~-~~~~~~~~~~~~~~~~--~~~~~~~~~~~v~v~i~~~~  298 (393)
+T 3KQ4_C          223 KKTTDMILNEI-KQGKFHNPMSIAQILPSLKGKTYLDVPQV-TCSPDHEVQPTLPSNP--GPGPTSASNITVIYTINNQL  298 (393)
+T ss_dssp             HHHHHHHHHHH-HTTCCCSHHHHHHHHHHHTTCCGGGGGGC-CSCCCCCCCCCCCC----------CCCEEEEEEEEESS
+T ss_pred             HHHHHHHHHHH-HCCCCCChHHHHHHHHHhCCCcccccCcC-CCCCCCCCCCCCCCCC--CCCCCCCCeeEEEEEEEeCC
+Confidence            999999999 8 99999999999999999999999999876 6654432111111111  1123345567888888863 
+
+
+Q ss_pred             --Cc----ceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeeeecCCCCCCCCCce
+Q sp|P20061|TCO1  344 --ET----YFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWELLSGGEPLSQGAGS  417 (433)
+Q Consensus       344 --et----yftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywellsggeplsqgags  417 (433)
+                        +.    ....++++++.|++++|+++++.++ .|+|+++...+|.||++|+|+.++...+.||+|++||+.+++|++.
+T Consensus       299 ~g~~~~~~~~~~~~~~~~~t~~~~l~~~~~~~~-~~~~~~~~~~~g~~i~sI~g~~~~~~~~~~W~~~vng~~~~~g~~~  377 (393)
+T 3KQ4_C          299 RGVELLFNETINVSVKSGSVLLVVLEEAQRKNP-MFKFETTMTSWGLVVSSINNIAENVNHKTYWQFLSGVTPLNEGVAD  377 (393)
+T ss_dssp             STTCCBCCCCEEEESSSCCCHHHHHHHHHHHCG-GGCEEEEEETTEEEEEEETTEECBGGGTEEEEEEETTEECCSCTTT
+T ss_pred             CCcccceeeEEEEEeCCCCcHHHHHHHHHHhCC-CceEEEEecCceeeEEEEeccCCCcCcCceEEEEeCCccCccccce
+Confidence              21    2557888899999999999998764 4888887778999999999999865568899999999999999999
+
+
+Q ss_pred             EEEECCceeEEEeecc
+Q sp|P20061|TCO1  418 YVVRNGENLEVRWSKY  433 (433)
+Q Consensus       418 yvvrngenlevrwsky  433 (433)
+                      +.|++||+|+|+|+.|
+T Consensus       378 ~~~~~gd~i~~~y~~~  393 (393)
+T 3KQ4_C          378 YIPFNHEHITANFTQY  393 (393)
+T ss_dssp             CCCCTTCEEEEEEEEC
+T ss_pred             ecCCCCCEEEEEEEeC
+Confidence            9999999999999875
+
+
+No 6
+>5NSA_A Transcobalamin-2; binding protein, bloodstream, antivitamin B12; HET: 8FS, B12; 1.273A {Homo sapiens}
+Probab=98.66  E-value=1.2e-06  Score=63.01  Aligned_cols=99  Identities=33%  Similarity=0.601  Sum_probs=86.0  Template_Neff=10.400
+
+Q ss_pred             CCcEEEeeeEeeCCc-ceeeEEEeccchhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeeeecC-C
+Q sp|P20061|TCO1  331 QSYISVNYSVRINET-YFTNVTVLNGSVFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWELLSG-G  408 (433)
+Q Consensus       331 qsyisvnysvrinet-yftnvtvlngsvflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywellsg-g  408 (433)
+                      +..++|.+.|.+.+. ....+.++++.|++++|+++.+..  ++.|++....++.||++|+|....  ...+|+|++| |
+T Consensus         8 ~~~~~v~v~i~~~~~~~~~~~~~~~~~t~~~~l~~~~~~~--~~~~~~~~~~~g~~i~~I~g~~~~--~~~~W~~~vn~~   83 (108)
+T 5NSA_A            8 QEIISVTLQVLSLLPPYRQSISVLAGSTVEDVLKKAHELG--GFTYETQASLSGPYLTSVMGKAAG--EREFWQLLRDPN   83 (108)
+T ss_dssp             CSEEEEEEEECSSSSCEEEEEEEETTCCHHHHHHHHHHHS--SCCEEEECCTTSCEEEEETTEECC--TTEEEEEEETTT
+T ss_pred             CceEEEEEEEecCCCCceEEEEEcCCCcHHHHHHHHHHhC--CCEEEEeccCCcceEEEEcccccC--CCeeEEEEeCCC
+Confidence            356788888876543 355688889999999999999987  588888777899999999999985  6789999999 9
+
+
+Q ss_pred             CCCCCCCceEEEECCceeEEEeecc
+Q sp|P20061|TCO1  409 EPLSQGAGSYVVRNGENLEVRWSKY  433 (433)
+Q Consensus       409 eplsqgagsyvvrngenlevrwsky  433 (433)
+                      +.+.+|++.+.|++||+|.|+|++|
+T Consensus        84 ~~~~~~~~~~~l~~gd~i~~~y~~~  108 (108)
+T 5NSA_A           84 TPLLQGIADYRPKDGETIELRLVSW  108 (108)
+T ss_dssp             EECSSCTTTCCCCTTCEEEEEEEEC
+T ss_pred             CCCCccccEEecCCCCEEEEEEeeC
+Confidence            9999999999999999999999876
+
+
+No 7
+>3U7Z_A putative metal binding protein RUMGNA_00854; THE BINDING PROTEIN, TRANSPORT PROTEIN; HET: CA, EDO; 1.3A {Ruminococcus gnavus}
+Probab=98.56  E-value=2.9e-06  Score=61.17  Aligned_cols=95  Identities=17%  Similarity=0.282  Sum_probs=79.9  Template_Neff=10.100
+
+Q ss_pred             CcEEEeeeEeeCCcceeeEEEeccc-hhhhhhhhhhhcCCceeeeeeccCCccceeeeeeeeecCCCCcceeeeecCCCC
+Q sp|P20061|TCO1  332 SYISVNYSVRINETYFTNVTVLNGS-VFLSVMEKAQKMNDTIFGFTMEERSWGPYITCIQGLCANNNDRTYWELLSGGEP  410 (433)
+Q Consensus       332 syisvnysvrinetyftnvtvlngs-vflsvmekaqkmndtifgftmeerswgpyitciqglcannndrtywellsggep  410 (433)
+                      ...+|+++|.+.......+.++.+. +++++|+++      ++ +++.....+.||++|+|...+.....+|+|++||+.
+T Consensus         5 ~~~~v~v~i~~~~~~~~~~~~~~g~~t~~~~l~~~------~~-~~~~~~~~g~~i~~I~g~~~~~~~~~~W~~~vng~~   77 (101)
+T 3U7Z_A            5 GEKHITVTVIHGDQTENVFEFDTDAKYLGEVLESE------NL-VDGESGEYGLFITTVDEETADDSKQQWWCITKGGEQ   77 (101)
+T ss_dssp             CCEEEEEEEECTTSCEEEEEEEECCSBHHHHHHHT------TC-EEEECCTTSCEEEEETTEECCGGGTEEEEEEETTEE
+T ss_pred             CCeEEEEEEEeCCCCeEEEEEeCCcchHHHHHHHC------CC-ceeecccceeEEEEeCceecCCCCCceEEEEECCEE
+Confidence            3567888887754446678888999 999999998      24 555556788999999999986566889999999999
+
+
+Q ss_pred             CCCCCceEEEECCceeEEEeecc
+Q sp|P20061|TCO1  411 LSQGAGSYVVRNGENLEVRWSKY  433 (433)
+Q Consensus       411 lsqgagsyvvrngenlevrwsky  433 (433)
+                      +.+|++.+.|++||+|.|+|..+
+T Consensus        78 ~~~g~~~~~~~~gd~i~~~~~~~  100 (101)
+T 3U7Z_A           78 VNTSADQTPVSDGDAFELTLKEG  100 (101)
+T ss_dssp             CCSCGGGCBCCTTCEEEEEEEEC
+T ss_pred             CCcccCeeecCCCCEEEEEEeeC
+Confidence            99999999999999999999864
+
+
+No 8
+>2BB6_D bovine transcobalamin II; alpha_6 - alpha_6 barrel, TRANSPORT; HET: B12; 2.0A {Bos taurus}
+Probab=85.04  E-value=12  Score=34.73  Aligned_cols=204  Identities=16%  Similarity=0.088  Sum_probs=136.5  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHhh-cCCCCCCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhcccC----CCCCCchHHHH
+Q sp|P20061|TCO1   73 QKMIQQIKYNVK-SRLSDVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEAH----NGTPLTNYYQL  147 (433)
+Q Consensus        73 qkmiqqikynvk-srlsdvssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmeah----ngtpltnyyql  147 (433)
+                      +..+++|.+.+. ...........++++++|...|.++...  ....++.|...+..........    ...........
+T Consensus        10 ~~~v~~l~~~~~~~~~~~~~~~~t~~~~~aL~~~g~~~~~~--~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   87 (414)
+T 2BB6_D           10 STLVERLGQRLLPWMDRLSQEQLNPSIYVGLRLSSLQAGAK--EAHYLHSLKLSYQQSLLRPASNKDDNDSEAKPSMGQL   87 (414)
+T ss_dssp             HHHHHHHHHHHGGGGGCCSTTTCCHHHHHHHHTSSEECTTH--HHHHHHHHHHHHHHHHSCCSCCSCCCCCCSSCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHhhcCccCCChhheehHHhhccccchH--HHHHHHHHHHHHHHHhcccccCCCCCCCCCCCChHHH
+Confidence            355666666555 2222223356789999999998776543  3456677777665543210000    11234456788
+
+
+Q ss_pred             HHHHHHHHHHcCCCCh----HHHHHhCCCCC--CC-cCC----CCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhH
+Q sp|P20061|TCO1  148 SLDVLALCLFNGNYST----AEVVNHFTPEN--KN-YYF----GSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKN  216 (433)
+Q Consensus       148 sldvlalclfngnyst----aevvnhftpen--kn-yyf----gsqfsvdtgamavlaltcvkkslingqikadegslkn  216 (433)
+                      ++.++||...+.....    ..+++|...|.  ++ |.+    ....++..+++++.||......               
+T Consensus        88 a~~~lal~a~g~~~~~~~~~~lv~~L~~~~~~~g~~~~~~~~~~~~~~~~~~a~a~laL~~~~~~---------------  152 (414)
+T 2BB6_D           88 ALYLLALRANCEFIGGRKGDRLVSQLKRFLEDEKRAIGHNHQGHPRTSYYQYSLGILALCVHQKR---------------  152 (414)
+T ss_dssp             HHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHHHHHHHCSSSSCCCSSCHHHHHHHHHHHHHTTCC---------------
+T ss_pred             HHHHHHHHHhCCCCCCcccCcHHHHHHHHHHHHHHHhccCCCCCCCCChhHHHHHHHHHHHcCCC---------------
+Confidence            8999999988865443    46788877776  22 211    1244567889999999764432               
+
+
+Q ss_pred             HHHHHHHHHHHHHhhcccCCCC----CCCCCHHHHHHHHHhcchccCCC------ChhHHHHHHHHHH-HHHcCCCCChh
+Q sp|P20061|TCO1  217 ISIYTKSLVEKILSEKKENGLI----GNTFSTGEAMQALFVSSDYYNEN------DWNCQQTLNTVLT-EISQGAFSNPN  285 (433)
+Q Consensus       217 isiytkslvekilsekkengli----gntfstgeamqalfvssdyynen------dwncqqtlntvlt-eisqgafsnpn  285 (433)
+                         ..+++++||.+.|.++|..    .++..|+++++||..........      .....++++||++ |++||+|++..
+T Consensus       153 ---~~~~~v~~L~~~q~~dG~~~~~~~~~d~ta~al~AL~~~~~~~~~~~~~~~v~~~i~~a~~~l~~~q~~dGg~gn~~  229 (414)
+T 2BB6_D          153 ---VHDSVVGKLLYAVEHKPHLLQDHVSVDTMAMAGMAFSCLELSNLNPKQRNRINLALKRVQEKILKAQTPEGYFGNVY  229 (414)
+T ss_dssp             ---CCHHHHHHHHHHHHSSSCCSCTTTHHHHHHHHHHHHHHHHHHTSCGGGHHHHHHHHHHHHHHHHHTBCTTSCBSSTT
+T ss_pred             ---CChHHHHHHHHHHhcCCCCCCCCCCHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHHHHHHhcCCCCCCccch
+Confidence               1246899999999998621    26788999999999886521111      1236789999999 99999999999
+
+
+Q ss_pred             HHHHHHHHHhc
+Q sp|P20061|TCO1  286 AAAQVLPALMG  296 (433)
+Q Consensus       286 aaaqvlpalmg  296 (433)
+                      .|++++.||..
+T Consensus       230 ~Ta~al~aL~a  240 (414)
+T 2BB6_D          230 STPLALQLLMG  240 (414)
+T ss_dssp             THHHHHHHHTT
+T ss_pred             HHHHHHHHHHc
+Confidence            99999999954
+
+
+No 9
+>4FXG_E Complement C4-A, Mannan-binding lectin serine; IMMUNE SYSTEM, complement, proteolytic cascade; HET: TYS, BMA, NAG; 3.75A {Homo sapiens}
+Probab=80.92  E-value=52  Score=33.21  Aligned_cols=98  Identities=15%  Similarity=0.007  Sum_probs=68.0  Template_Neff=10.100
+
+Q ss_pred             hHHHHHHHHHHHHHHcCCC--ChHHHHHhCCCCC--C---CcCCC------------------------CCCcccHHHHH
+Q sp|P20061|TCO1  143 NYYQLSLDVLALCLFNGNY--STAEVVNHFTPEN--K---NYYFG------------------------SQFSVDTGAMA  191 (433)
+Q Consensus       143 nyyqlsldvlalclfngny--staevvnhftpen--k---nyyfg------------------------sqfsvdtgama  191 (433)
+                      +.+..++...||...+...  ...+...|.....  +   .|...                        ...++.+||++
+T Consensus       510 ~~~~~A~~a~al~~~~~~~~~~~~~~~~L~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ve~Ta~a  589 (767)
+T 4FXG_E          510 GAHAAAITAYALSLTKAPVDLLGVAHNNLMAMAQETGDNLYWGSVTGSQSNAVSPTPAPRNPSDPMPQAPALWIETTAYA  589 (767)
+T ss_dssp             CHHHHHHHHHHHHHTTCCHHHHHHHHHHHHTTCEEETTEEECCCCCCCSGGGTCSCSSCCCSSSCBCCCCHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHcCCChHHHhHHHHHHHHHchhhCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCcchHHHHHHH
+Confidence            4566666777777666443  2345666655443  1   13211                        12347889999
+
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  192 VLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       192 vlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      |.||......                ...+.++++||..+|..+|+|++...|+++++||..+..
+T Consensus       590 Llal~~~~~~----------------~~~~~~~~~wL~~q~~~~g~~~sT~dT~~al~AL~~y~~  638 (767)
+T 4FXG_E          590 LLHLLLHEGK----------------AEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWI  638 (767)
+T ss_dssp             HHHHHHHTCS----------------CHHHHHHHHHHHTTCCSSSCSSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHcCC----------------hHHHHHHHHHHHHccCCCCCCCCcHHHHHHHHHHHHHHh
+Confidence            9999876222                345688999999999999999999999999999987755
+
+
+No 10
+>4FXK_B Complement C4-A; IMMUNE SYSTEM, COMPLEMENT, PROTEOLYTIC CASCADE; HET: BMA, NAG; 3.6A {Homo sapiens}
+Probab=80.92  E-value=52  Score=33.21  Aligned_cols=99  Identities=15%  Similarity=0.003  Sum_probs=69.6  Template_Neff=10.100
+
+Q ss_pred             chHHHHHHHHHHHHHHcCCC--ChHHHHHhCCCCC--C---CcCCC------------------------CCCcccHHHH
+Q sp|P20061|TCO1  142 TNYYQLSLDVLALCLFNGNY--STAEVVNHFTPEN--K---NYYFG------------------------SQFSVDTGAM  190 (433)
+Q Consensus       142 tnyyqlsldvlalclfngny--staevvnhftpen--k---nyyfg------------------------sqfsvdtgam  190 (433)
+                      .+.+..++...||...+...  ...+...|.....  +   .|...                        ...++.+||+
+T Consensus       509 ~~~~~~A~~a~al~~~~~~~~~~~~~~~~L~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ve~Ta~  588 (767)
+T 4FXK_B          509 LGAHAAAITAYALSLTKAPVDLLGVAHNNLMAMAQETGDNLYWGSVTGSQSNAVSPTPAPRNPSDPMPQAPALWIETTAY  588 (767)
+T ss_dssp             CCHHHHHHHHHHHHHHTCTTHHHHHHHHHHHTTCCBCSSCBCCCCCCCCCGGGGCCSSSCCCSSSCBCCCCHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHcCCChHHHhHHHHHHHHHchhhCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCcchHHHHHH
+Confidence            45667777777887777543  2345666655443  1   13211                        1124688999
+
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  191 AVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       191 avlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      +|.||......                ...+.++++||..+|..+|+|++...|+++++||..+..
+T Consensus       589 aLlal~~~~~~----------------~~~~~~~~~wL~~q~~~~g~~~sT~dT~~al~AL~~y~~  638 (767)
+T 4FXK_B          589 ALLHLLLHEGK----------------AEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWI  638 (767)
+T ss_dssp             HHHHHHHHTSS----------------CHHHHHHHHHHHHTCCTTSSCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHcCC----------------hHHHHHHHHHHHHccCCCCCCCCcHHHHHHHHHHHHHHh
+Confidence            99999876222                345688999999999999999999999999999987654
+
+
+No 11
+>5JPM_B Complement C4-A, Mannan-binding lectin serine; complement, immune system, blood; HET: TYS, BMA, NAG; 3.75A {Homo sapiens}
+Probab=80.92  E-value=52  Score=33.21  Aligned_cols=98  Identities=15%  Similarity=0.007  Sum_probs=67.7  Template_Neff=10.100
+
+Q ss_pred             hHHHHHHHHHHHHHHcCCC--ChHHHHHhCCCCC--C---CcCCC------------------------CCCcccHHHHH
+Q sp|P20061|TCO1  143 NYYQLSLDVLALCLFNGNY--STAEVVNHFTPEN--K---NYYFG------------------------SQFSVDTGAMA  191 (433)
+Q Consensus       143 nyyqlsldvlalclfngny--staevvnhftpen--k---nyyfg------------------------sqfsvdtgama  191 (433)
+                      +.+..++...||...+...  ...+...|.....  +   .|...                        ...++.+||++
+T Consensus       510 ~~~~~A~~a~al~~~~~~~~~~~~~~~~L~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ve~Ta~a  589 (767)
+T 5JPM_B          510 GAHAAAITAYALSLTKAPVDLLGVAHNNLMAMAQETGDNLYWGSVTGSQSNAVSPTPAPRNPSDPMPQAPALWIETTAYA  589 (767)
+T ss_dssp             CHHHHHHHHHHHHHTTCCHHHHHHHHHHHHTTCEEETTEEECCCCCCCCSSCCSCTTCCCCTTSCBCCCCHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHcCCChHHHhHHHHHHHHHchhhCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCcchHHHHHHH
+Confidence            4566666777777666443  2345666655443  1   13211                        12246889999
+
+
+Q ss_pred             HHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  192 VLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       192 vlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      |.||......                ...+.++++||..+|..+|+|++...|+++++||..+..
+T Consensus       590 Llal~~~~~~----------------~~~~~~~~~wL~~q~~~~g~~~sT~dT~~al~AL~~y~~  638 (767)
+T 5JPM_B          590 LLHLLLHEGK----------------AEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWI  638 (767)
+T ss_dssp             HHHHHHHTCS----------------CHHHHHHHHHHHTTSCSSSCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHcCC----------------hHHHHHHHHHHHHccCCCCCCCCcHHHHHHHHHHHHHHh
+Confidence            9999876222                345688999999999999999999999999999987654
+
+
+No 12
+>3PRX_B Complement C5, Cobra venom factor; immune system, Complement, Staphylococcus aureus; HET: NAG; 4.3A {Homo sapiens}
+Probab=67.68  E-value=1.6e+02  Score=32.90  Aligned_cols=58  Identities=26%  Similarity=0.148  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  182 QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       182 qfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      ..++.+||+||+|+......                 ......++||.+++..+|+|++...|+.+++||.....
+T Consensus      1208 ~~~ve~tayaLla~~~~~~~-----------------~~~~~i~~wL~~q~~~~g~~~sTqdt~~al~AL~~y~~ 1265 (1642)
+T 3PRX_B         1208 THNIEGTSYALLALLKMKKF-----------------DQTGPIVRWLTDQNFYGETYGQTQATVMAFQALAEYEI 1265 (1642)
+T ss_dssp             ---------------------------------------------------------------------------
+T ss_pred             ceeHHHHHHHHHHHHHcCCh-----------------hhhhHHHHHHHHCCCCCCCCccHHHHHHHHHHHHHHHh
+Confidence            45789999999999876543                 23457899999999999999999999999999987654
+
+
+No 13
+>3PVM_D Complement C5, Cobra venom factor; Immune system, complement; HET: NAG; 4.3A {Homo sapiens}
+Probab=67.68  E-value=1.6e+02  Score=32.90  Aligned_cols=58  Identities=26%  Similarity=0.148  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  182 QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       182 qfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      ..++.+||+||+|+......                 ......++||.+++..+|+|++...|+.+++||.....
+T Consensus      1208 ~~~ve~tayaLla~~~~~~~-----------------~~~~~i~~wL~~q~~~~g~~~sTqdt~~al~AL~~y~~ 1265 (1642)
+T 3PVM_D         1208 THNIEGTSYALLALLKMKKF-----------------DQTGPIVRWLTDQNFYGETYGQTQATVMAFQALAEYEI 1265 (1642)
+T ss_dssp             ---------------------------------------------------------------------------
+T ss_pred             ceeHHHHHHHHHHHHHcCCh-----------------hhhhHHHHHHHHCCCCCCCCccHHHHHHHHHHHHHHHh
+Confidence            45789999999999876543                 23457899999999999999999999999999987754
+
+
+No 14
+>6I2X_B Complement C5, Cobra venom factor; Inhibitor, Protease, Complex, Cryo-EM, Toxin; HET: H1H; 3.35A {Homo sapiens}
+Probab=67.68  E-value=1.6e+02  Score=32.90  Aligned_cols=58  Identities=26%  Similarity=0.148  Sum_probs=48.8  Template_Neff=10.200
+
+Q ss_pred             CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  182 QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       182 qfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      ..++.+||+||+|+......                 ......++||.+++..+|+|++...|+.+++||.....
+T Consensus      1208 ~~~ve~tayaLla~~~~~~~-----------------~~~~~i~~wL~~q~~~~g~~~sTqdt~~al~AL~~y~~ 1265 (1642)
+T 6I2X_B         1208 THNIEGTSYALLALLKMKKF-----------------DQTGPIVRWLTDQNFYGETYGQTQATVMAFQALAEYEI 1265 (1642)
+T ss_pred             ceeHHHHHHHHHHHHHcCCh-----------------hhhhHHHHHHHHCCCCCCCCccHHHHHHHHHHHHHHHh
+Confidence            45789999999999876543                 23457899999999999999999999999999987754
+
+
+No 15
+>6YSQ_D Complement C4b, hC4Nb8 nanobody; Nanobody, inhibitor, complement C4b, IMMUNE; HET: BMA, NAG; 3.3A {Homo sapiens}
+Probab=65.13  E-value=2.2e+02  Score=27.86  Aligned_cols=58  Identities=19%  Similarity=0.050  Sum_probs=49.2  Template_Neff=10.900
+
+Q ss_pred             CcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  183 FSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       183 fsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .++..||+++++|......                ...+.++++||..+|..+|+|++...|++++.||.....
+T Consensus       504 ~~i~~ta~aL~al~~~~~~----------------~~~~~~~~~wL~~~~~~~g~w~st~~t~~al~AL~~y~~  561 (690)
+T 6YSQ_D          504 LWIETTAYALLHLLLHEGK----------------AEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWI  561 (690)
+T ss_pred             HHHHHHHHHHHHHHHHcCC----------------hHHHHHHHHHHHHccCCCCCccCcHHHHHHHHHHHHHHH
+Confidence            4578899999999876332                346788999999999999999999999999999988765
+
+
+No 16
+>7BAG_B Complement system, C3b, C3 convertase; HET: PEG, EXL, NAG, DTY; 2.0A {Homo sapiens}
+Probab=61.17  E-value=2.8e+02  Score=28.76  Aligned_cols=96  Identities=19%  Similarity=0.166  Sum_probs=70.0  Template_Neff=10.400
+
+Q ss_pred             hHHHHHHHHHHHHHHcCCCChHHHHHhCCCCC--CCcCCCC--CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHH
+Q sp|P20061|TCO1  143 NYYQLSLDVLALCLFNGNYSTAEVVNHFTPEN--KNYYFGS--QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNIS  218 (433)
+Q Consensus       143 nyyqlsldvlalclfngnystaevvnhftpen--knyyfgs--qfsvdtgamavlaltcvkkslingqikadegslknis  218 (433)
+                      +.+..+++..||...+... ...+..|+..+.  ..|....  ..++.+||++|+++.....                 .
+T Consensus       437 ~~~~~a~~ayal~~~~~~~-~~~~~~l~~~~~~~~~w~~~~~~~~~ve~ta~aLla~~~~~~-----------------~  498 (915)
+T 7BAG_B          437 RSYTVAIAGYALAQMGRLK-GPLLNKFLTTAKDKNRWEDPGKQLYNVEATSYALLALLQLKD-----------------F  498 (915)
+T ss_dssp             CHHHHHHHHHHHHHTTCCC-HHHHHHHHHHSBTTTBCCCSSCHHHHHHHHHHHHHHHHHTTC-----------------T
+T ss_pred             CHHHHHHHHHHHHHcCCCC-hHHHHHHHhhcccCCCCCCCCCccchHHHHHHHHHHHHHCCC-----------------c
+Confidence            4566677777777766544 556666665544  3343221  2368899999999987542                 2
+
+
+Q ss_pred             HHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  219 IYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       219 iytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      ..+...+.||..+|..+|+|+++..|+++++||.....
+T Consensus       499 ~~~~~i~~wL~~q~~~~g~~~stqdT~~al~AL~~y~~  536 (915)
+T 7BAG_B          499 DFVPPVVRWLNEQRYYGGGYGSTQATFMVFQALAQYQK  536 (915)
+T ss_dssp             TTHHHHHHHHHHHTCCCCSTTCHHHHHHHHHHHHHHHH
+T ss_pred             chhHHHHHHHHcCCCCCCCCCcHHHHHHHHHHHHHHHH
+Confidence            34577999999999999999999999999999987654
+
+
+No 17
+>5FO8_B COMPLEMENT C3 (E.C.3.4.21.47), MEMBRANE COFACTOR; LIPID BINDING, LIPID BIANDING, COMPLEMENT; HET: BMA, NAG, EDO; 2.4A {HOMO SAPIENS}
+Probab=58.32  E-value=1.5e+02  Score=30.64  Aligned_cols=96  Identities=19%  Similarity=0.166  Sum_probs=69.2  Template_Neff=10.400
+
+Q ss_pred             hHHHHHHHHHHHHHHcCCCChHHHHHhCCCCC--CCcCCCC--CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHH
+Q sp|P20061|TCO1  143 NYYQLSLDVLALCLFNGNYSTAEVVNHFTPEN--KNYYFGS--QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNIS  218 (433)
+Q Consensus       143 nyyqlsldvlalclfngnystaevvnhftpen--knyyfgs--qfsvdtgamavlaltcvkkslingqikadegslknis  218 (433)
+                      +.+..+++..||...+... ...+..|+..+.  ..|....  ..++.+||++|+|+.....                 .
+T Consensus       437 ~~~~~a~~a~al~~~~~~~-~~~l~~l~~~~~~~~~w~~~~~~~~~ve~ta~aLla~~~~~~-----------------~  498 (915)
+T 5FO8_B          437 RSYTVAIAGYALAQMGRLK-GPLLNKFLTTAKDKNRWEDPGKQLYNVEATSYALLALLQLKD-----------------F  498 (915)
+T ss_dssp             CHHHHHHHHHHHHTTTCCC-HHHHHHHHHTSBTTTBCCCSSCHHHHHHHHHHHHHHHHHTTC-----------------T
+T ss_pred             CHHHHHHHHHHHHHhCCCC-hHHHHHHHhhcccCCCCCCCCCcchhHHHHHHHHHHHHHcCC-----------------c
+Confidence            4566667777777666543 556666665544  3343221  2367899999999976542                 2
+
+
+Q ss_pred             HHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  219 IYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       219 iytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      ..+...+.||..+|..+|+|+++..|+++++||.....
+T Consensus       499 ~~~~~i~~wL~~q~~~~g~~~st~dT~~al~AL~~y~~  536 (915)
+T 5FO8_B          499 DFVPPVVRWLNEQRYYGGGYGSTQATFMVFQALAQYQK  536 (915)
+T ss_dssp             TTHHHHHHHHHHTCCCCCSTTCHHHHHHHHHHHHHHHH
+T ss_pred             ccchHHHHHHHcCCCCCCCCCcHHHHHHHHHHHHHHHH
+Confidence            34678999999999999999999999999999987755
+
+
+No 18
+>1HZF_A COMPLEMENT FACTOR C4A (E.C.3.4.21.43); alpha-alpha 6 barrel, IMMUNE SYSTEM; HET: MSE; 2.3A {Homo sapiens} SCOP: a.102.4.4
+Probab=53.67  E-value=2.4e+02  Score=24.55  Aligned_cols=209  Identities=13%  Similarity=-0.005  Sum_probs=124.0  Template_Neff=11.500
+
+Q ss_pred             hhhHHHHHHHHHHHHhcCCCCC---------CchHHHHHHHHHhchh---HHHHHHHHHHHHHHHhhcCCC---------
+Q sp|P20061|TCO1   30 EENYIRLKPLLNTMIQSNYNRG---------TSAVNVVLSLKLVGIQ---IQTLMQKMIQQIKYNVKSRLS---------   88 (433)
+Q Consensus        30 eenyirlkpllntmiqsnynrg---------tsavnvvlslklvgiq---iqtlmqkmiqqikynvksrls---------   88 (433)
+                      ..++++++||.+.|. .+++|+         ..|..++.+|..+...   .....+...++|.......+.         
+T Consensus        91 ~~i~~~~~~L~~~q~-~dGg~~~~~~~~~~~~~T~~~l~~L~~~~~~~~~~~~~~~~~~~~L~~~q~~~g~~~~~~~~~~  169 (367)
+T 1HZF_A           91 DLIQKGYMRIQQFRK-ADGSYAAWLSRDSSTWLTAFVLKVLSLAQEQVGGSPEKLQETSNWLLSQQQADGSFQDPCPVLD  169 (367)
+T ss_dssp             HHHHHHHHHHHTTBC-TTSCBCSSTTSCCCHHHHHHHHHHHHHHGGGTCCCHHHHHHHHHHHGGGBCTTSCBCCSSCCSC
+T ss_pred             HHHHHHHHHHhhccc-CCCCcccccCCCCCHHHHHHHHHHHHHHHhhcCCCHHHHHHHHHHHHhhcCCCCCccCCCCCCC
+Confidence            457888999999886 333443         4677888888877533   222335566677665433221         
+
+
+Q ss_pred             ----------CCCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHc
+Q sp|P20061|TCO1   89 ----------DVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFN  158 (433)
+Q Consensus        89 ----------dvssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfn  158 (433)
+                                .......+.++.+|...+....+.. ..++...+..........+.........+.+..++.++++...+
+T Consensus       170 ~~~~~~~~~~~~~~~~~a~~l~~l~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~a~~~~al~~~~  248 (367)
+T 1HZF_A          170 RSMQGGLVGNDETVALTAFVTIALHHGLAVFQDEG-AEPLKQRVEASISKASSFLGEKASAGLLGAHAAAITAYALTLTK  248 (367)
+T ss_dssp             GGGGGGGSSTTHHHHHHHHHHHHHHHHHTTCCTTT-THHHHHHHHHHHHHHHHHHHHHHHHTCCCHHHHHHHHHHHHHTT
+T ss_pred             HHhcCCCCCCCccccHHHHHHHHHHHhHhhhccCC-ChhHHHHHHHHHHHHHHHHHHHHhhcccCHHHHHHHHHHHHHcC
+Confidence                      1124557777777776664332211 11222222111111100000000001234566778888888776
+
+
+Q ss_pred             CCC--ChHHHHHhCCCCC--CC---cCCC------------------------CCCcccHHHHHHHHHHHHHHHHHCCCC
+Q sp|P20061|TCO1  159 GNY--STAEVVNHFTPEN--KN---YYFG------------------------SQFSVDTGAMAVLALTCVKKSLINGQI  207 (433)
+Q Consensus       159 gny--staevvnhftpen--kn---yyfg------------------------sqfsvdtgamavlaltcvkkslingqi  207 (433)
+                      ...  ...++++|...+.  ++   |...                        ...++..||+++.+|......      
+T Consensus       249 ~~~~~~~~~~~~l~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ta~~l~al~~~~~~------  322 (367)
+T 1HZF_A          249 APADLRGVAHNNLMAMAQETGDNLYWGSVTGSQSNAVSPTPAPRNPSDPMPQAPALWIETTAYALLHLLLHEGK------  322 (367)
+T ss_dssp             CCHHHHHHHHHHHHTTCEECSSCEECC------------------------CCCHHHHHHHHHHHHHHHHHTCS------
+T ss_pred             CcHHHHHHHHHHHHHHhhhhCCCceecccCCCCCCCCCCCCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhcCc------
+Confidence            543  3467888888775  32   2110                        112358899999999876433      
+
+
+Q ss_pred             CCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  208 KADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       208 kadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                                ...+.++++||..+|.++|+|+++..|++++.||.....
+T Consensus       323 ----------~~~~~~~~~~L~~~q~~~G~w~~t~~t~~a~~aL~~y~~  361 (367)
+T 1HZF_A          323 ----------AEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWI  361 (367)
+T ss_dssp             ----------SHHHHHHHHHHHHHTTSTTCSCSHHHHHHHHHHHHHHHH
+T ss_pred             ----------hHHHHHHHHHHHHccCCCCCCCChHHHHHHHHHHHHHHH
+Confidence                      356889999999999999999999999999999987644
+
+
+No 19
+>2B39_B C3; complement, thioester, immune defense, IMMUNE; HET: BMA, NAG; 3.0A {Bos taurus}
+Probab=53.67  E-value=3.1e+02  Score=31.01  Aligned_cols=140  Identities=19%  Similarity=0.184  Sum_probs=87.1  Template_Neff=10.200
+
+Q ss_pred             CHHHHHHHHHHHhhhhchhhhcccC-HHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCCCChHHHHHh
+Q sp|P20061|TCO1   91 SSGELALIILALGVCRNAEENLIYD-YHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGNYSTAEVVNH  169 (433)
+Q Consensus        91 ssgelaliilalgvcrnaeenliyd-yhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfngnystaevvnh  169 (433)
+                      .....|.++++|...+......... ...+......+...   +.     ...+.+..+++..||...+... ...+..|
+T Consensus      1139 ~~~~tA~vl~aL~~~~~~~~~~~~~~~~~~~~a~~~L~~~---~~-----~~~~~~~~al~ayal~~~~~~~-~~~~~~l 1209 (1661)
+T 2B39_B         1139 DVSLTAFVLIALHEAKDICEAQVNSLGRSIAKAGDFLENH---YR-----ELRRPYTVAIAAYALALLGKLE-GDRLTKF 1209 (1661)
+T ss_dssp             THHHHHHHHHHHHHTTTTTTTTCSSHHHHHHHHHHHHHHH---GG-----GCCSHHHHHHHHHHHHHTTCCC-THHHHHH
+T ss_pred             ccchHHHHHHHHHHhHHhcHHhHhhHHHHHHHHHHHHHHh---HH-----hcCCHHHHHHHHHHHHHcCCcc-hHHHHHH
+Confidence            4567788888888776533221000 11122222222221   11     1234667777777887777544 4555555
+
+
+Q ss_pred             CCCCC--CCcCCC--CCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHH
+Q sp|P20061|TCO1  170 FTPEN--KNYYFG--SQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTG  245 (433)
+Q Consensus       170 ftpen--knyyfg--sqfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstg  245 (433)
+                      +....  ..|...  ...++.+||+||+|+.....                 ...+.+.++||.+++..+|+|+++..|+
+T Consensus      1210 ~~~~~~~~~w~~~~~~~~~ve~tayaLla~~~~~~-----------------~~~~~~i~~wL~~q~~~~g~~~sTqdT~ 1272 (1661)
+T 2B39_B         1210 LNTAKEKNRWEEPNQKLYNVEATSYALLALLARKD-----------------YDTTPPVVRWLNEQRYYGGGYGSTQATF 1272 (1661)
+T ss_dssp             HHTCBTTTBCCCSSCHHHHHHHHHHHHHHHHHTTC-----------------GGGCHHHHHHHHHCCCBTTBBCSHHHHH
+T ss_pred             HHhccccCCCCCCCCceeeHHHHHHHHHHHHHcCC-----------------cccchHHHHHHHhCCCCCCCCCchHHHH
+Confidence            55444  234321  12467889999999876322                 2345789999999999999999999999
+
+
+Q ss_pred             HHHHHHHhcch
+Q sp|P20061|TCO1  246 EAMQALFVSSD  256 (433)
+Q Consensus       246 eamqalfvssd  256 (433)
+                      ++++||.....
+T Consensus      1273 ~al~AL~~y~~ 1283 (1661)
+T 2B39_B         1273 MVFQALAQYQK 1283 (1661)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHh
+Confidence            99999987754
+
+
+No 20
+>5HCC_A Complement C5, Complement inhibitor, Dermacentor; Complement, Inflammation, Inhibitor, Tick, immune; HET: NAG, EDO; 2.59A {Homo sapiens}
+Probab=53.33  E-value=2.8e+02  Score=29.30  Aligned_cols=57  Identities=25%  Similarity=0.179  Sum_probs=48.3  Template_Neff=10.200
+
+Q ss_pred             CcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  183 FSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       183 fsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .++.+||++|+|+......                 ..+...+.||..++..+|+|+++..|+.+++||..+..
+T Consensus       568 ~~ve~ta~aLla~~~~~~~-----------------~~~~~i~~wL~~q~~~~g~~~STqdT~~al~AL~~y~~  624 (998)
+T 5HCC_A          568 RMVETTAYALLTSLNLKDI-----------------NYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSL  624 (998)
+T ss_pred             cchHHHHHHHHHHHHcCCc-----------------hhHHHHHHHHHhCcCCCCCCcchHHHHHHHHHHHHHHh
+Confidence            4689999999999876432                 24577899999999999999999999999999987755
+
+
+No 21
+>5HCE_A Complement C5, Complement inhibitor, Rhipicephalus; Complement, Inflammation, Inhibitor, Tick, immune; HET: NAG; 3.12A {Homo sapiens}
+Probab=53.33  E-value=2.8e+02  Score=29.30  Aligned_cols=57  Identities=25%  Similarity=0.179  Sum_probs=48.3  Template_Neff=10.200
+
+Q ss_pred             CcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  183 FSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       183 fsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .++.+||++|+|+......                 ..+...+.||..++..+|+|+++..|+.+++||..+..
+T Consensus       568 ~~ve~ta~aLla~~~~~~~-----------------~~~~~i~~wL~~q~~~~g~~~STqdT~~al~AL~~y~~  624 (998)
+T 5HCE_A          568 RMVETTAYALLTSLNLKDI-----------------NYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSL  624 (998)
+T ss_pred             cchHHHHHHHHHHHHcCCc-----------------hhHHHHHHHHHhCcCCCCCCcchHHHHHHHHHHHHHHh
+Confidence            4689999999999876432                 24577899999999999999999999999999987755
+
+
+No 22
+>5I5K_B Complement C5, Eculizumab heavy chain; Complement, Fab, immune system; HET: BMA, NAG; 4.2A {Homo sapiens}
+Probab=42.59  E-value=4.1e+02  Score=29.97  Aligned_cols=57  Identities=25%  Similarity=0.179  Sum_probs=48.0  Template_Neff=10.400
+
+Q ss_pred             CcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  183 FSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       183 fsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .++.+||++|+++......                 ..+...++||..+|..+|+|+++..|+++++||.....
+T Consensus      1246 ~~ve~ta~aLla~~~~~~~-----------------~~~~~i~~wL~~qr~~~g~~~sTqdT~~al~AL~~y~~ 1302 (1676)
+T 5I5K_B         1246 RMVETTAYALLTSLNLKDI-----------------NYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSL 1302 (1676)
+T ss_pred             eeHHHHHHHHHHHHhcCCh-----------------hhHHHHHHHHHhccCCCCCCccHHHHHHHHHHHhEeee
+Confidence            4678999999999875432                 24567899999999999999999999999999987764
+
+
+No 23
+>7AD7_A Complement C5, K8 peptide; Complement C5, C5, ultralong, ultra-long; HET: NAG, MHA, MPD, EOH, TAM; 2.3A {Homo sapiens}
+Probab=42.59  E-value=4.1e+02  Score=29.97  Aligned_cols=57  Identities=25%  Similarity=0.179  Sum_probs=48.0  Template_Neff=10.400
+
+Q ss_pred             CcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  183 FSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       183 fsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .++.+||++|+++......                 ..+...++||..+|..+|+|+++..|+++++||.....
+T Consensus      1246 ~~ve~ta~aLla~~~~~~~-----------------~~~~~i~~wL~~qr~~~g~~~sTqdT~~al~AL~~y~~ 1302 (1676)
+T 7AD7_A         1246 RMVETTAYALLTSLNLKDI-----------------NYVNPVIKWLSEEQRYGGGFYSTQDTINAIEGLTEYSL 1302 (1676)
+T ss_pred             eeHHHHHHHHHHHHhcCCh-----------------hhHHHHHHHHHhccCCCCCCccHHHHHHHHHHHhEeee
+Confidence            4678999999999875432                 24567899999999999999999999999999987764
+
+
+No 24
+>7S64_C Xenopus egg extract, Protease inhibitor;{Xenopus laevis}
+Probab=36.73  E-value=9.3e+02  Score=26.50  Aligned_cols=200  Identities=13%  Similarity=0.030  Sum_probs=114.1  Template_Neff=10.900
+
+Q ss_pred             hhHHHHHHHHHHHHhcCCCCC-----------CchHHHHHHHHHhchhH---HHHHHHHHHHHHHHh-hcCC-----C--
+Q sp|P20061|TCO1   31 ENYIRLKPLLNTMIQSNYNRG-----------TSAVNVVLSLKLVGIQI---QTLMQKMIQQIKYNV-KSRL-----S--   88 (433)
+Q Consensus        31 enyirlkpllntmiqsnynrg-----------tsavnvvlslklvgiqi---qtlmqkmiqqikynv-ksrl-----s--   88 (433)
+                      .+.+++++|.+.+. .+++|.           ..|+.++.+|..+....   ....+..+++|.... ...+     .  
+T Consensus       993 ~i~~~~~~l~~~q~-~dGgfs~~~~~~~~~s~~lTa~vl~~L~~a~~~~~v~~~~~~~~~~~L~~~~~~~~g~~~~~~~~ 1071 (1441)
+T 7S64_C          993 FLNEGYYRQLRYKL-PSGAYDAFWSSPSDGSSWLSAYTFKTFEKAKKYIYVDGKIQQQTLLYLQTSQKLDNGCFKAEGNL 1071 (1441)
+T ss_dssp             HHHHHHHHHHTTBC-TTSSBCSCTTSCCSCCHHHHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHCCCCBTTBCCCCCSS
+T ss_pred             HHHHHHhhhhcccC-CCCCCcCcCCCCCCCCHHHHHHHHHHHHHcccccccCHHHHHHHHHHHHhccCCCCCcccceeee
+Confidence            35566667766664 233321           35777777777775321   223355667776544 2111     0  
+
+
+Q ss_pred             -------CCCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCCC
+Q sp|P20061|TCO1   89 -------DVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGNY  161 (433)
+Q Consensus        89 -------dvssgelaliilalgvcrnaeenliydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalclfngny  161 (433)
+                             .......+.++.+|...+.....     ..+......+...   +.     ...+.+..++..+||...+...
+T Consensus      1072 ~~~~~~~~~~~~~~a~~l~aL~~~~~~~~~-----~~~~~~~~~l~~~---~~-----~~~~~~~~a~~a~al~~~~~~~ 1138 (1441)
+T 7S64_C         1072 FMRQCGQERDLCFTAYLAIALLESNYSSGM-----TLLDDALGCLEAA---MS-----SASTLYFKSYTVYVFTLVQNWE 1138 (1441)
+T ss_dssp             SCCSSGGGHHHHHHHHHHHHHHHTTCCTTS-----HHHHHHHHHHHTT---SS-----SCCCHHHHHHHHHHHHHTTCSS
+T ss_pred             eeccCCCCccHHHHHHHHHHHHHCCCCCCC-----cHHHHHHHHHHHH---hh-----cCCCHHHHHHHHHHHHHcCCHH
+Confidence                   11234566666677666543211     1222222222211   10     1234566667777777666432
+
+
+Q ss_pred             C-hHHHHHhCCCCC--CC---cCC---------------CCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHH
+Q sp|P20061|TCO1  162 S-TAEVVNHFTPEN--KN---YYF---------------GSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIY  220 (433)
+Q Consensus       162 s-taevvnhftpen--kn---yyf---------------gsqfsvdtgamavlaltcvkkslingqikadegslknisiy  220 (433)
+                      . ...++.|...+.  ++   |..               ....++.+||+++++|.......            ......
+T Consensus      1139 ~~~~~~~~l~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~ie~ta~allal~~~~~~~------------~~~~~~ 1206 (1441)
+T 7S64_C         1139 IRNTLLNELKSKVVSERGTLHWEREDKLGQEGIPLYYPNYSPAEVEITAYMLLSIAKGSDPT------------HDDLTY 1206 (1441)
+T ss_dssp             HHHHHHHHHHHSCEEETTEEECCCCCCTTCCSTTTTCCCCCTHHHHHHHHHHHHHHTSSCCC------------HHHHHH
+T ss_pred             HHHHHHHHHHHhhhhcCCeeeeeecccCCCCCCCcCCCCCChHHHHHHHHHHHHHHhCCCCC------------hhHHHH
+Confidence            2 345666655543  21   211               12346788999999987653210            112456
+
+
+Q ss_pred             HHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  221 TKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       221 tkslvekilsekkengligntfstgeamqalfvssd  256 (433)
+                      +.++++||.++|..+|+|++...|+++++||.....
+T Consensus      1207 ~~~~~~wL~~~~~~~g~w~st~~t~~al~AL~~~~~ 1242 (1441)
+T 7S64_C         1207 MAQISVWLIQQQNSYGGFRSTQDTVVALQALAFYAQ 1242 (1441)
+T ss_dssp             HHHHHHHHHHSCCSSSCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHccCCCCCCCChHHHHHHHHHHHHHHH
+Confidence            889999999999999999999999999999987754
+
+
+No 25
+>6RD5_3 ASA-10: Polytomella F-ATP synthase associated; mitochondrial ATP synthase dimer flexible; HET: PEV, LMT; 2.69A {Polytomella sp. Pringsheim 198.80}
+Probab=26.22  E-value=5.7e+02  Score=24.08  Aligned_cols=45  Identities=16%  Similarity=0.265  Sum_probs=22.9  Template_Neff=9.200
+
+Q ss_pred             HHHHHHhhcCCCCCCHHHHHHHHHHHhhhhchhhhcccCHHHHHHHHHHHH
+Q sp|P20061|TCO1   77 QQIKYNVKSRLSDVSSGELALIILALGVCRNAEENLIYDYHLIDKLENKFQ  127 (433)
+Q Consensus        77 qqikynvksrlsdvssgelaliilalgvcrnaeenliydyhlidklenkfq  127 (433)
+                      ..+...+......+++.+++..+.++..++..      ..++++.+.....
+T Consensus       122 ~~l~~~~~~~~~~~~~~~la~~l~A~a~l~~~------~~~l~~~la~~~~  166 (325)
+T 6RD5_3          122 VKFAEAVKPKVAALSTSDITNLTVAFKRANYY------DKDLFTGIEANVS  166 (325)
+T ss_dssp             HHHHHHHTTTGGGCCHHHHHHHHHHHHHTTCC------CHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhCCHHHHHHHHHHHHHCCCC------CHHHHHHHHHHHH
+Confidence            33333333344556666666666666655432      3455555554433
+
+
+No 26
+>6RDI_3 ASA-10: Polytomella F-ATP synthase associated; mitochondrial ATP synthase dimer flexible; HET: ADP, ATP; 3.2A {Polytomella sp. Pringsheim 198.80}
+Probab=26.22  E-value=5.7e+02  Score=24.08  Aligned_cols=23  Identities=9%  Similarity=0.020  Sum_probs=16.4  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHH--hhhhchh
+Q sp|P20061|TCO1   87 LSDVSSGELALIILAL--GVCRNAE  109 (433)
+Q Consensus        87 lsdvssgelaliilal--gvcrnae  109 (433)
+                      ...+++.+++..+.++  ...+...
+T Consensus        93 ~~~f~~~~la~~~wa~~~a~~~~~~  117 (325)
+T 6RDI_3           93 ENLVNVAEIDVPFWSYWLSSAGFTS  117 (325)
+T ss_pred             hhcCCHHHhHHHHHHHHHHHCCCCC
+Confidence            3556777888888888  7776643
+
+
+No 27
+>2WY8_A COMPLEMENT C3D FRAGMENT, IGG-BINDING PROTEIN; IMMUNE SYSTEM, IMMUNE RESPONSE, INNATE; HET: GOL; 1.7A {HOMO SAPIENS}
+Probab=24.49  E-value=6.2e+02  Score=20.64  Aligned_cols=200  Identities=15%  Similarity=0.068  Sum_probs=120.8  Template_Neff=12.400
+
+Q ss_pred             hhhHHHHHHHHHHHHhcCCCCC---------CchHHHHHHHHHhchh---HHHHHHHHHHHHHHHhhcCCCC--------
+Q sp|P20061|TCO1   30 EENYIRLKPLLNTMIQSNYNRG---------TSAVNVVLSLKLVGIQ---IQTLMQKMIQQIKYNVKSRLSD--------   89 (433)
+Q Consensus        30 eenyirlkpllntmiqsnynrg---------tsavnvvlslklvgiq---iqtlmqkmiqqikynvksrlsd--------   89 (433)
+                      ..+++++++|.+.|. .+++|+         ..|..++.+|...+..   .....+...++|........+.        
+T Consensus        54 ~~i~~~~~~l~~~q~-~dG~~~~~~~~~~~~~~T~~~l~~L~~~~~~~~~~~~~~~~~~~~l~~~~~~~~g~~~~~~~~~  132 (310)
+T 2WY8_A           54 ELIKKGYTQQLAFRQ-PSSAFAAFVKRAPSTWLTAYVVKVFSLAVNLIAIDSQVLCGAVKWLILEKQKPDGVFQEDAPVI  132 (310)
+T ss_dssp             HHHHHHHHHHHTTBC-TTSCBCSSTTSCCCHHHHHHHHHHHHHHTTTSCCCHHHHHHHHHHHHHHHBCTTSCBCCSSCCS
+T ss_pred             HHHHHHHHHHHhhcC-CCCCCcccCCCCCcHHHHHHHHHHHHHHHhhcccCHHHHHHHHHHHHHccCCCCCcccccCccc
+Confidence            468889999999885 333333         4667777787776632   1122345566665222221111        
+
+
+Q ss_pred             -------------CCHHHHHHHHHHHhhhhchhhhcc-cCHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHH
+Q sp|P20061|TCO1   90 -------------VSSGELALIILALGVCRNAEENLI-YDYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALC  155 (433)
+Q Consensus        90 -------------vssgelaliilalgvcrnaeenli-ydyhlidklenkfqaeienmeahngtpltnyyqlsldvlalc  155 (433)
+                                   ......+..+.+|...+....... -....++.....+.....        ...+.+..++..+++.
+T Consensus       133 ~~~~~~~~~~~~~~~~~~ta~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~--------~~~~~~~~~~~~~~~~  204 (310)
+T 2WY8_A          133 HQEMIGGLRNNNEKDMALTAFVLISLQEAKDICEEQVNSLPGSITKAGDFLEANYM--------NLQRSYTVAIAGYALA  204 (310)
+T ss_dssp             CGGGGGGGTTCSCHHHHHHHHHHHHHHHHHHHHTTTCTTHHHHHHHHHHHHHHHGG--------GCCCHHHHHHHHHHHH
+T ss_pred             chhhcCcCCCCccccchHHHHHHHHHHHhHHHhhhhhhcchhHHHHHHHHHHHHHh--------cCCCHHHHHHHHHHHH
+Confidence                         123455666666666654332210 001222222222222110        1123555666667776
+
+
+Q ss_pred             HHcCCCChHHHHHhCCCCC--CCcCCCC--CCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhh
+Q sp|P20061|TCO1  156 LFNGNYSTAEVVNHFTPEN--KNYYFGS--QFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSE  231 (433)
+Q Consensus       156 lfngnystaevvnhftpen--knyyfgs--qfsvdtgamavlaltcvkkslingqikadegslknisiytkslvekilse  231 (433)
+                      ..+.. ....+++|...+.  +.|....  ..++..|++++.+|.....                 ...+.++++||.+.
+T Consensus       205 ~~~~~-~~~~~~~l~~~~~~~~~w~~~~~~~~~~~~ta~~l~al~~~~~-----------------~~~~~~~~~~L~~~  266 (310)
+T 2WY8_A          205 QMGRL-KGPLLNKFLTTAKDKNRWEDPGKQLYNVEATSYALLALLQLKD-----------------FDFVPPVVRWLNEQ  266 (310)
+T ss_dssp             HTTCC-CHHHHHHHHHHSBTTTBCCCSSCHHHHHHHHHHHHHHHHHHTC-----------------TTTHHHHHHHHHHT
+T ss_pred             Hhccc-chHHHHHHHHhhhccCCccCCCCchHHHHHHHHHHHHHHhcCC-----------------cchHHHHHHHHHHc
+Confidence            65543 3678888887776  4454322  2367889999999987652                 34578899999999
+
+
+Q ss_pred             cccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  232 KKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       232 kkengligntfstgeamqalfvssd  256 (433)
+                      |..+|+|++...|++++.||.....
+T Consensus       267 ~~~~g~w~~~~~t~~al~al~~~~~  291 (310)
+T 2WY8_A          267 RYYGGGYGSTQATFMVFQALAQYQK  291 (310)
+T ss_dssp             TCCCCSTTCHHHHHHHHHHHHHHHH
+T ss_pred             ccCCCCCcchHHHHHHHHHHHHHHH
+Confidence            9999999999999999999987655
+
+
+No 28
+>7KH1_F1 Myoviridae, Phage, Baseplate complex, VIRUS;{Vibrio phage XM1}
+Probab=22.92  E-value=7.7e+02  Score=21.12  Aligned_cols=17  Identities=18%  Similarity=0.044  Sum_probs=7.3  Template_Neff=8.300
+
+Q ss_pred             eEEEeccchhhhhhhhh
+Q sp|P20061|TCO1  349 NVTVLNGSVFLSVMEKA  365 (433)
+Q Consensus       349 nvtvlngsvflsvmeka  365 (433)
+                      ++++..++.....|..+
+T Consensus        62 Tl~L~q~S~~n~~L~~l   78 (143)
+T 7KH1_F1          62 AIMVQKHSPDDKFLNDA   78 (143)
+T ss_pred             EEEEecCCcchHHHHHH
+Confidence            34444444444444333
+
+
+No 29
+>4ZRP_A LDLR-A, Vitamin transporter, transport protein; HET: GOL, CNC; 2.1A {Homo sapiens}
+Probab=22.06  E-value=1.1e+03  Score=22.65  Aligned_cols=174  Identities=13%  Similarity=0.092  Sum_probs=121.2  Template_Neff=9.700
+
+Q ss_pred             CCchHHHHHHHHHhchhHHHHH-HHHHHHHHHHhhcC----------CCCCCHHHHHHHHHHHhhhhchhhhcccCHHHH
+Q sp|P20061|TCO1   51 GTSAVNVVLSLKLVGIQIQTLM-QKMIQQIKYNVKSR----------LSDVSSGELALIILALGVCRNAEENLIYDYHLI  119 (433)
+Q Consensus        51 gtsavnvvlslklvgiqiqtlm-qkmiqqikynvksr----------lsdvssgelaliilalgvcrnaeenliydyhli  119 (433)
+                      ....+..++||.+.+..+.... ..+++.|.......          ....+....+..++||...+...     ....+
+T Consensus        84 ~~~~a~~ilal~a~g~dp~~~~g~~li~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~laL~~~~~~~-----~~~~v  158 (409)
+T 4ZRP_A           84 MGQLALYLLALRANCEFVRGHKGDRLVSQLKWFLEDEKRAIGHDHKGHPHTSYYQYGLGILALCLHQKRV-----HDSVV  158 (409)
+T ss_dssp             HHHHHHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHHHHHHHCSSSCSCCSSCHHHHHHHHHHHHHTTCCC-----CHHHH
+T ss_pred             hhHHHHHHHHHHHhccCCCCcccCcHHHHHHHHHHHHHHHhccCCCCCCCCCccHHHHHHHHHHHcCCCC-----CHHHH
+Confidence            3678899999999987754422 34455555443321          12334677888888888776542     34568
+
+
+Q ss_pred             HHHHHHHHHHHHhcccCCCCCCchHHHHHHHHHHHHHHcCCC------------ChHHHHHhCCCCC--CCcCCCCCCcc
+Q sp|P20061|TCO1  120 DKLENKFQAEIENMEAHNGTPLTNYYQLSLDVLALCLFNGNY------------STAEVVNHFTPEN--KNYYFGSQFSV  185 (433)
+Q Consensus       120 dklenkfqaeienmeahngtpltnyyqlsldvlalclfngny------------staevvnhftpen--knyyfgsqfsv  185 (433)
+                      ++|...+...   .     +.......++++++||.......            .+++++||..+|.  |+|     .++
+T Consensus       159 ~~Ll~~q~~~---~-----g~~~~~d~ta~al~AL~~~~~~~~~~~~~~~v~~ai~~a~~~L~~~q~~dG~~-----gn~  225 (409)
+T 4ZRP_A          159 DKLLYAVEPF---H-----QGHHSVDTAAMAGLAFTCLKRSNFNPGRRQRITMAIRTVQEEILKAQTPEGHF-----GNV  225 (409)
+T ss_dssp             HHHHHHHSTT---C-----SSCCCHHHHHHHHHHHHHHHHTTCCGGGHHHHHHHHHHHHHHHHHTBCTTSCB-----SST
+T ss_pred             HHHHHhhchh---c-----CCCCChHHHHHHHHHHHHHHhcCCChhHHHHHHHHHHHHHHHHHHhcCCCCCc-----ccc
+Confidence            8888877651   1     12234677889999987765331            1367899999988  555     278
+
+
+Q ss_pred             cHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHHHHHHhhcccCCCCCCCCCHHHHHHHHHhcc
+Q sp|P20061|TCO1  186 DTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLVEKILSEKKENGLIGNTFSTGEAMQALFVSS  255 (433)
+Q Consensus       186 dtgamavlaltcvkkslingqikadegslknisiytkslvekilsekkengligntfstgeamqalfvss  255 (433)
+                      ..||++++||.......            .......+++++||.+ |.+||+|+++..|++++.||....
+T Consensus       226 ~sTa~al~AL~~~g~~~------------~~~~~~~~~~~~~Ll~-q~~dG~f~~~~aT~~al~aL~~~~  282 (409)
+T 4ZRP_A          226 YSTPLALQFLMTSPMRG------------AELGTACLKARVALLA-SLQDGAFQNALMISQLLPVLNHKT  282 (409)
+T ss_dssp             TTHHHHHHHHTTSCCTT------------SCHHHHHHHHHHHHHH-HHHTTCCCCHHHHHHHHHHHTTCC
+T ss_pred             chHHHHHHHHhcCccch------------hhcCHHHHHHHHHHHH-hCCCCCCCcHHHHHHHHHHHCCCc
+Confidence            99999999998865421            0112347899999999 799999999999999999998543
+
+
+No 30
+>2Y35_A LD22664P (E.C.3.1.13.-); HYDROLASE-DNA COMPLEX, RNA DEGRADATION, EXONUCLEASE; 3.2A {DROSOPHILA MELANOGASTER}
+Probab=21.65  E-value=3.1e+02  Score=31.25  Aligned_cols=11  Identities=9%  Similarity=0.078  Sum_probs=6.3  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHcC
+Q sp|P20061|TCO1  149 LDVLALCLFNG  159 (433)
+Q Consensus       149 ldvlalclfng  159 (433)
+                      +++|.+...+.
+T Consensus       278 fv~l~~l~GND  288 (1140)
+T 2Y35_A          278 WVLMGFLVGND  288 (1140)
+T ss_dssp             HHHHHHHHCCT
+T ss_pred             HHHHHHHhCCC
+Confidence            55566555554
+
+
+No 31
+>3D5R_B Protein-protein complex, cell adhesion-toxin complex; 2.1A {Homo sapiens} SCOP: a.102.4.4
+Probab=21.55  E-value=3.5e+02  Score=21.91  Aligned_cols=198  Identities=16%  Similarity=0.086  Sum_probs=117.2  Template_Neff=12.300
+
+Q ss_pred             CChhhHHHHHHHHHHHHhcCCCCC---------CchHHHHHHHHHhchhH---HHHHHHHHHHHH-HHhhcCCC------
+Q sp|P20061|TCO1   28 VSEENYIRLKPLLNTMIQSNYNRG---------TSAVNVVLSLKLVGIQI---QTLMQKMIQQIK-YNVKSRLS------   88 (433)
+Q Consensus        28 vseenyirlkpllntmiqsnynrg---------tsavnvvlslklvgiqi---qtlmqkmiqqik-ynvksrls------   88 (433)
+                      ....++++++||.+.|. .+++|+         ..|..++.+|...+...   ....+...++|. ......+.      
+T Consensus        55 ~~~~i~~~~~~l~~~q~-~dGg~~~~~~~~~~~~~t~~~l~~l~~~~~~~~~~~~~~~~~~~~l~~~~~~~~g~~~~~~~  133 (297)
+T 3D5R_B           55 ALELIKKGYTQQLAFRQ-PSSAFAAFVKRAPSTWLTAYVVKVFSLAVNLIAIDSQVLCGAVKWLILEKQKPDGVFQEDAP  133 (297)
+T ss_pred             HHHHHHHHHHHHHhhcC-CCCCccccCCCCCChHHHHHHHHHHHHHHhhcCCCHHHHHHHHHHHHHcccCCCCCcccCCC
+Confidence            44568899999999986 333332         56777888887766431   112234445554 22111110      
+
+
+Q ss_pred             --------------CCCHHHHHHHHHHHhhhhchhhhc--cc---CHHHHHHHHHHHHHHHHhcccCCCCCCchHHHHHH
+Q sp|P20061|TCO1   89 --------------DVSSGELALIILALGVCRNAEENL--IY---DYHLIDKLENKFQAEIENMEAHNGTPLTNYYQLSL  149 (433)
+Q Consensus        89 --------------dvssgelaliilalgvcrnaeenl--iy---dyhlidklenkfqaeienmeahngtpltnyyqlsl  149 (433)
+                                    .......+..+.+|...+......  .+   ....+++|...+..            ..+.+..++
+T Consensus       134 ~~~~~~~~~~~~~~~~~~~~t~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~------------~~~~~~~~~  201 (297)
+T 3D5R_B          134 VIHQEMIGGLRNNNEKDMALTAFVLISLQEAKDICEEQVNSLPGSITKAGDFLEANYMN------------LQRSYTVAI  201 (297)
+T ss_pred             ccCHHHcCCCCCCCccchhHHHHHHHHHHHhHHhchhhhhcchHHHHHHHHHHHHHHhh------------cCCHHHHHH
+Confidence                          112344566666666665433221  00   01122333222111            122334445
+
+
+Q ss_pred             HHHHHHHHcCCCChHHHHHhCCCCC--CCcCC--CCCCcccHHHHHHHHHHHHHHHHHCCCCCCCCchhhHHHHHHHHHH
+Q sp|P20061|TCO1  150 DVLALCLFNGNYSTAEVVNHFTPEN--KNYYF--GSQFSVDTGAMAVLALTCVKKSLINGQIKADEGSLKNISIYTKSLV  225 (433)
+Q Consensus       150 dvlalclfngnystaevvnhftpen--knyyf--gsqfsvdtgamavlaltcvkkslingqikadegslknisiytkslv  225 (433)
+                      .+.++...+... .+.+++|.+.+.  +.|..  ....++..|++++.+|.....                 ...+++++
+T Consensus       202 ~~~~l~~~~~~~-~~~~~~l~~~~~~~~~w~~~~~~~~~~~~ta~~l~~l~~~~~-----------------~~~~~~~~  263 (297)
+T 3D5R_B          202 AGYALAQMGRLK-GPLLNKFLTTAKDKNRWEDPGKQLYNVEATSYALLALLQLKD-----------------FDFVPPVV  263 (297)
+T ss_pred             HHHHHHHccccc-hhHHHHHHHhccccCCccCCCCchhHHHHHHHHHHHHHhcCC-----------------hhhHHHHH
+Confidence            555555544333 567788888776  45543  224578899999999987652                 34678899
+
+
+Q ss_pred             HHHHhhcccCCCCCCCCCHHHHHHHHHhcch
+Q sp|P20061|TCO1  226 EKILSEKKENGLIGNTFSTGEAMQALFVSSD  256 (433)
+Q Consensus       226 ekilsekkengligntfstgeamqalfvssd  256 (433)
+                      .||...|..+|+|++...|++++.||.....
+T Consensus       264 ~~L~~~q~~~g~w~~~~~t~~al~al~~y~~  294 (297)
+T 3D5R_B          264 RWLNEQRYYGGGYGSTQATFMVFQALAQYQK  294 (297)
+T ss_pred             HHHHHccCCCCCCCcHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999999976543
+
+

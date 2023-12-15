@@ -1,0 +1,170 @@
+Query         sp|P53701|CCHL_HUMAN
+Match_columns 268
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:27:37 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0827.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LVV_A Flagellar calcium-bindi  28.9      99  0.0011   23.4   2.2   20    1-20      1-20  (226)
+  2 1WHN_A double-stranded RNA bin  22.4 1.9E+02  0.0021   20.7   2.6   26   18-43    103-128 (128)
+  3 5JYS_A Protein PRY1; CAP prote  18.8 4.6E+02   0.005   22.6   4.5   35  171-205   194-233 (298)
+  4 1U53_A secreted protein ASP-2;  13.1 7.3E+02  0.0079   17.8   3.6   28  134-161     4-31  (196)
+  5 1YO4_A beta-sandwich, immunogl  12.3 1.6E+02  0.0017   25.2   0.2   42   60-102     4-45  (87)
+  6 5L9Z_B Heparanase (E.C.3.2.1.1  10.1 2.5E+02  0.0027   20.3   0.6   14  179-192    56-69  (77)
+  7 2HWJ_A Hypothetical protein At   9.7 4.6E+02   0.005   23.1   2.1   19  122-140    95-113 (205)
+  8 2HWJ_D Hypothetical protein At   9.7 4.6E+02   0.005   23.1   2.1   19  122-140    95-113 (205)
+  9 6NFQ_B CopC; CopC, metallochap   9.6 5.9E+02  0.0064   17.2   2.2   22  222-243    99-120 (122)
+ 10 1EYF_A One central beta-sheet    9.5 8.8E+02  0.0096   15.3   2.9   21  120-140     6-26  (92)
+
+No 1
+>2LVV_A Flagellar calcium-binding protein TB-24; EF-hand, METAL BINDING PROTEIN; NMR {Trypanosoma brucei brucei}
+Probab=28.89  E-value=99  Score=23.44  Aligned_cols=20  Identities=30%  Similarity=0.273  Sum_probs=11.8  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q sp|P53701|CCHL    1 MGLSPSAPAVAVQASNASAS   20 (268)
+Q Consensus         1 mglspsapavavqasnasas   20 (268)
+                      ||+++|-++...++..+...
+T Consensus         1 ~g~~~~~~~~~~~~~~~~~~   20 (226)
+T 2LVV_A            1 MGCSGSKDTTNSKDGAASKG   20 (226)
+T ss_dssp             CCCCCCCCCCCCSCCCCCCS
+T ss_pred             CCCCCccccCCccccccccC
+Confidence            78888776555444444333
+
+
+No 2
+>1WHN_A double-stranded RNA binding domain, dsRBD; NMR {Mus musculus} SCOP: d.50.1.1
+Probab=22.44  E-value=1.9e+02  Score=20.74  Aligned_cols=26  Identities=23%  Similarity=0.134  Sum_probs=19.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|P53701|CCHL   18 SASPPSGCPMHEGKMKGCPVNTEPSG   43 (268)
+Q Consensus        18 sasppsgcpmhegkmkgcpvntepsg   43 (268)
+                      +.++-+.|-.--.++.|||.+|..||
+T Consensus       103 ~~~~~~~~~~~~~~~~~~~~~~~~~~  128 (128)
+T 1WHN_A          103 SPSLNKRKREAPDQDPGGPRSGPSSG  128 (128)
+T ss_dssp             CCCCCCCCCCCCCSSCCCSCCSSSCC
+T ss_pred             CcchhhhhhcCCCCCCCCCCCCCCCC
+Confidence            45555566666688899998888775
+
+
+No 3
+>5JYS_A Protein PRY1; CAP protein, TRANSPORT PROTEIN; 1.901A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.84  E-value=4.6e+02  Score=22.62  Aligned_cols=35  Identities=26%  Similarity=0.401  Sum_probs=18.7  Template_Neff=9.400
+
+Q ss_pred             HHhccCCCcchheecCCcccc-----cCchhhHHhhhCcC
+Q sp|P53701|CCHL  171 LHAAECPCGPSLIRFGGKAKE-----YSPRARIRSWMGYE  205 (268)
+Q Consensus       171 lhaaecpcgpslirfggkake-----ysprarirswmgye  205 (268)
+                      .|+..|.|...+-..++...|     +.....+..|+.-.
+T Consensus       194 ~~a~~~~~~~~~~~~~~~~genl~~~~~~~~~~~~W~~~~  233 (298)
+T 5JYS_A          194 DYADNYDCSGTLTHSGGPYGENLALGYDGPAAVDAWYNEI  233 (298)
+T ss_dssp             HHHHTCCCSSCCCCCCCSSEEEEEESSCHHHHHHHHHGGG
+T ss_pred             HHHHHccccCccccCCCCceeeeeeeCCHHHHHHHHHHHH
+Confidence            467778876555433332221     23445677787643
+
+
+No 4
+>1U53_A secreted protein ASP-2; ANTIBIOTIC; 1.56A {Necator americanus}
+Probab=13.10  E-value=7.3e+02  Score=17.77  Aligned_cols=28  Identities=14%  Similarity=0.299  Sum_probs=21.2  Template_Neff=12.000
+
+Q ss_pred             CCCCCcCCCCHHHHHHHHHHHhhCcHHH
+Q sp|P53701|CCHL  134 GWKWKDEDISQKDMYNIIRIHNQNNEQA  161 (268)
+Q Consensus       134 gwkwkdedisqkdmyniirihnqnneqa  161 (268)
+                      .|.=....+++++...++..||+--...
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~N~~R~~~   31 (196)
+T 1U53_A            4 EFGCPDNGMSEEARQKFLEMHNSLRSSV   31 (196)
+T ss_dssp             CCCCCSSSCCHHHHHHHHHHHHHHHHHH
+T ss_pred             ccCCCCCCCCHHHHHHHHHHHHHHHHHH
+Confidence            3555667789999999999999765443
+
+
+No 5
+>1YO4_A beta-sandwich, immunoglobulin-like domain, VIRAL PROTEIN; NMR {SARS coronavirus}
+Probab=12.27  E-value=1.6e+02  Score=25.24  Aligned_cols=42  Identities=33%  Similarity=0.502  Sum_probs=25.8  Template_Neff=1.700
+
+Q ss_pred             ccccccCCCCCCCCCCCCCCChchCCCCCCCCCCCCCCCCCCC
+Q sp|P53701|CCHL   60 AYEYVECPIRGTAAENKENLDPSNLMPPPNQTPAPDQPFALST  102 (268)
+Q Consensus        60 ayeyvecpirgtaaenkenldpsnlmpppnqtpapdqpfalst  102 (268)
+                      .|.|-|| +|||..--||.-.+...-....-.|-.|.-||+..
+T Consensus         4 lyhyqec-vrgttvllkepc~sgtyegnspfhPlaDNKFA~tc   45 (87)
+T 1YO4_A            4 LYHYQEC-VRGTTVLLKEPCPSGTYEGNSPFHPLADNKFALTC   45 (87)
+T ss_dssp             CCEEEEE-ETTSEEEEECSSSSCEEESSSCCCEETTTEEEEEC
+T ss_pred             eeeceec-ccCcEEEEeccCCCCCccCCCCCcccCCCceeeeE
+Confidence            5778888 68888777776544333322233356677777743
+
+
+No 6
+>5L9Z_B Heparanase (E.C.3.2.1.166); Heparanase, Probe, GH79, Hydrolase; HET: GUX, NAG, EDO; 1.57A {Homo sapiens}
+Probab=10.10  E-value=2.5e+02  Score=20.30  Aligned_cols=14  Identities=36%  Similarity=1.056  Sum_probs=11.2  Template_Neff=8.100
+
+Q ss_pred             cchheecCCccccc
+Q sp|P53701|CCHL  179 GPSLIRFGGKAKEY  192 (268)
+Q Consensus       179 gpslirfggkakey  192 (268)
+                      +|..+|+||....+
+T Consensus        56 ~p~~lRiGGt~~D~   69 (77)
+T 5L9Z_B           56 SPAYLRFGGTKTDF   69 (77)
+T ss_dssp             CSEEEEECSGGGGG
+T ss_pred             CCcEEEecCChhhe
+Confidence            67899999987653
+
+
+No 7
+>2HWJ_A Hypothetical protein Atu1540; Agrobacterium tumefaciens, Hypothetical protein, Structural; HET: MSE; 2.61A {Agrobacterium tumefaciens str. C58} SCOP: d.268.1.3
+Probab=9.72  E-value=4.6e+02  Score=23.14  Aligned_cols=19  Identities=16%  Similarity=0.450  Sum_probs=16.0  Template_Neff=7.200
+
+Q ss_pred             cHHHHHHHHHHcCCCCCcC
+Q sp|P53701|CCHL  122 SEQMFWNAMLKKGWKWKDE  140 (268)
+Q Consensus       122 seqmfwnamlkkgwkwkde  140 (268)
+                      +...||+.|.+.||.|-..
+T Consensus        95 ~~~~Fw~~m~~~~~~~l~D  113 (205)
+T 2HWJ_A           95 GKDEFWSVMDHRNLIYPFD  113 (205)
+T ss_dssp             CHHHHHHHHHHTTCCBCBC
+T ss_pred             CHHHHHHHHHHcCcccccC
+Confidence            4689999999999998643
+
+
+No 8
+>2HWJ_D Hypothetical protein Atu1540; Agrobacterium tumefaciens, Hypothetical protein, Structural; HET: MSE; 2.61A {Agrobacterium tumefaciens str. C58} SCOP: d.268.1.3
+Probab=9.72  E-value=4.6e+02  Score=23.14  Aligned_cols=19  Identities=16%  Similarity=0.450  Sum_probs=16.0  Template_Neff=7.200
+
+Q ss_pred             cHHHHHHHHHHcCCCCCcC
+Q sp|P53701|CCHL  122 SEQMFWNAMLKKGWKWKDE  140 (268)
+Q Consensus       122 seqmfwnamlkkgwkwkde  140 (268)
+                      +...||+.|.+.||.|-..
+T Consensus        95 ~~~~Fw~~m~~~~~~~l~D  113 (205)
+T 2HWJ_D           95 GKDEFWSVMDHRNLIYPFD  113 (205)
+T ss_dssp             CHHHHHHHHHHTTCCBCBC
+T ss_pred             CHHHHHHHHHHcCcccccC
+Confidence            4689999999999998643
+
+
+No 9
+>6NFQ_B CopC; CopC, metallochaperone, copper binding, METAL; 2.0A {Pseudomonas fluorescens}
+Probab=9.57  E-value=5.9e+02  Score=17.23  Aligned_cols=22  Identities=23%  Similarity=0.312  Sum_probs=12.9  Template_Neff=11.300
+
+Q ss_pred             eeeeeeccCCCCCCccceeeee
+Q sp|P53701|CCHL  222 VRYVIDYYDGGEVNKDYQFTIL  243 (268)
+Q Consensus       222 vryvidyydggevnkdyqftil  243 (268)
+                      +++.+..-+|..+...+.|+|.
+T Consensus        99 i~~~~~~~~g~~~~~~~~f~v~  120 (122)
+T 6NFQ_B           99 VVWNAVSVDTHKSNGEYSFKVK  120 (122)
+T ss_dssp             EEEEEEBTTSCEEEEEEEEEEC
+T ss_pred             EEEEEEecCCCeEEEEEEEEEe
+Confidence            4444555566666666666664
+
+
+No 10
+>1EYF_A One central beta-sheet sandwiched between; HET: ZN; NMR {Escherichia coli} SCOP: g.48.1.1
+Probab=9.51  E-value=8.8e+02  Score=15.31  Aligned_cols=21  Identities=14%  Similarity=0.295  Sum_probs=15.6  Template_Neff=11.500
+
+Q ss_pred             CccHHHHHHHHHHcCCCCCcC
+Q sp|P53701|CCHL  120 YPSEQMFWNAMLKKGWKWKDE  140 (268)
+Q Consensus       120 ypseqmfwnamlkkgwkwkde  140 (268)
+                      +.++|++|+++++..-.+..+
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~   26 (92)
+T 1EYF_A            6 CLTDDQRWQSVLARDPNADGE   26 (92)
+T ss_dssp             CCCHHHHHHHHHTTCTTCTTT
+T ss_pred             CCChHHHHHHHHhcCCCCCCc
+Confidence            447899999999877655544
+
+

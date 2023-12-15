@@ -1,0 +1,166 @@
+Query         tr|M0QZP3|M0QZP3_HUMAN
+Match_columns 72
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:31:44 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1466.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1QLW_A ESTERASE; HYDROLASE(CAR  34.3 1.5E+02  0.0016   20.0   3.4   47    2-48      1-60  (328)
+  2 1QLW_B ESTERASE; HYDROLASE(CAR  34.3 1.5E+02  0.0016   20.0   3.4   47    2-48      1-60  (328)
+  3 6G18_w 40S ribosomal protein S  24.8      37  0.0004   28.3  -0.7   23   46-69    282-304 (437)
+  4 6RXU_CX Periodic tryptophan pr  18.7      43 0.00046   28.6  -1.4   23   45-68    297-319 (480)
+  5 7MQ8_SZ Ribosomal assembly int  18.5      69 0.00075   26.1  -0.3   24   45-69    148-171 (304)
+  6 7MQA_SZ Ribosomal assembly int  18.5      69 0.00075   26.1  -0.3   24   45-69    148-171 (304)
+  7 7AD3_G Pheromone alpha factor   15.3 1.3E+02  0.0015   20.0   0.5    9   59-67    100-108 (109)
+  8 3TYW_C Putative cytochrome P45  13.9 5.8E+02  0.0063   16.9   3.0   12    1-12      1-12  (417)
+  9 3TYW_D Putative cytochrome P45  13.9 5.8E+02  0.0063   16.9   3.0   12    1-12      1-12  (417)
+ 10 6C14_C Protocadherin-15, LHFPL  13.7      96   0.001   22.7  -0.5    8   38-45    329-336 (337)
+
+No 1
+>1QLW_A ESTERASE; HYDROLASE(CARBOXYLIC ESTERASE), ESTERASE, ANISOTROPIC REFINEMENT; HET: SO4; 1.09A {ALCALIGENES SP.} SCOP: c.69.1.15
+Probab=34.33  E-value=1.5e+02  Score=19.97  Aligned_cols=47  Identities=28%  Similarity=0.444  Sum_probs=25.9  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCCCCCCCcCcccCCCCCCCCceEE-------------EEcCCceEEEEecCCCC
+Q tr|M0QZP3|M0QZ    2 APPPPPLAASTPLLHGEFGSYPARGPRFAL-------------TLTSQALHIQRLRPKPE   48 (72)
+Q Consensus         2 appppplaastpllhgefgsypargprfal-------------tltsqalhiqrlrpkpe   48 (72)
+                      |+||+|...+.++--.+-|+|...|.....             +++...+.+....|...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~   60 (328)
+T 1QLW_A            1 APPPVPKTPAGPLTLSGQGSFFVGGRDVTSETLSLSPKYDAHGTVTVDQMYVRYQIPQRA   60 (328)
+T ss_dssp             ----CCCCCCSCEEEEEEEEEEECCEEEEESCSCSSTTSCSSEEEEESCEEEEEEEETTC
+T ss_pred             CCCCCCCCCCCCceeceeceEEEccEEEecCccccCCccCCCCeEEECceEEEEEcCCCC
+Confidence            456666666677777777777665555444             23344556666665543
+
+
+No 2
+>1QLW_B ESTERASE; HYDROLASE(CARBOXYLIC ESTERASE), ESTERASE, ANISOTROPIC REFINEMENT; HET: SO4; 1.09A {ALCALIGENES SP.} SCOP: c.69.1.15
+Probab=34.33  E-value=1.5e+02  Score=19.97  Aligned_cols=47  Identities=28%  Similarity=0.444  Sum_probs=25.9  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCCCCCCCcCcccCCCCCCCCceEE-------------EEcCCceEEEEecCCCC
+Q tr|M0QZP3|M0QZ    2 APPPPPLAASTPLLHGEFGSYPARGPRFAL-------------TLTSQALHIQRLRPKPE   48 (72)
+Q Consensus         2 appppplaastpllhgefgsypargprfal-------------tltsqalhiqrlrpkpe   48 (72)
+                      |+||+|...+.++--.+-|+|...|.....             +++...+.+....|...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~   60 (328)
+T 1QLW_B            1 APPPVPKTPAGPLTLSGQGSFFVGGRDVTSETLSLSPKYDAHGTVTVDQMYVRYQIPQRA   60 (328)
+T ss_dssp             ----CCCCCCSCEEEEEEEEEEECCEEEEESCSCSSTTSCSSEEEEESCEEEEEEEETTC
+T ss_pred             CCCCCCCCCCCCceeceeceEEEccEEEecCccccCCccCCCCeEEECceEEEEEcCCCC
+Confidence            456666666677777777777665555444             23344556666665543
+
+
+No 3
+>6G18_w 40S ribosomal protein S5, 40S; 40S, pre-40S, ribosome biogenesis, RIBOSOME; 3.6A {Homo sapiens}
+Probab=24.77  E-value=37  Score=28.33  Aligned_cols=23  Identities=61%  Similarity=0.953  Sum_probs=19.8  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCCCceehhheccceeeee
+Q tr|M0QZP3|M0QZ   46 KPEARPRGGLVPLAEVSGCCTLRS   69 (72)
+Q Consensus        46 kpearprgglvplaevsgcctlrs   69 (72)
+                      ||.|--.|-+.||.+ +|.||+|-
+T Consensus       282 kp~affkgil~Pl~~-~~~ct~~e  304 (437)
+T 6G18_w          282 KPGAWFKGILIPLCE-SGTCTLRE  304 (437)
+T ss_pred             Ccchhhhccchhhcc-cCCCCHHH
+Confidence            788888999999998 78888873
+
+
+No 4
+>6RXU_CX Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=18.73  E-value=43  Score=28.61  Aligned_cols=23  Identities=57%  Similarity=0.788  Sum_probs=20.2  Template_Neff=5.000
+
+Q ss_pred             CCCCCCCCCCceehhheccceeee
+Q tr|M0QZP3|M0QZ   45 PKPEARPRGGLVPLAEVSGCCTLR   68 (72)
+Q Consensus        45 pkpearprgglvplaevsgcctlr   68 (72)
+                      -||.+--.|-+.||.+ +|+||+|
+T Consensus       297 yKP~aFfkGillPL~e-~~~ctlr  319 (480)
+T 6RXU_CX         297 YKPAGFFKGFLFPLAA-SGTCTLR  319 (480)
+T ss_pred             cCchHHHhhchHHHhh-cCCCcHH
+Confidence            4888999999999998 7889987
+
+
+No 5
+>7MQ8_SZ Ribosomal assembly intermediate, RIBOSOME; HET: GTP, ATP, SAH, MG; 3.6A {Homo sapiens}
+Probab=18.51  E-value=69  Score=26.09  Aligned_cols=24  Identities=58%  Similarity=0.861  Sum_probs=20.1  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCceehhheccceeeee
+Q tr|M0QZP3|M0QZ   45 PKPEARPRGGLVPLAEVSGCCTLRS   69 (72)
+Q Consensus        45 pkpearprgglvplaevsgcctlrs   69 (72)
+                      -||.+--.|-+.||.+ +|.||+|-
+T Consensus       148 yKP~aFfKGillPLc~-sg~CtlrE  171 (304)
+T 7MQ8_SZ         148 FKPGAWFKGILIPLCE-SGTCTLRE  171 (304)
+T ss_pred             cCchhheeccchhhcc-CCCCcHHH
+Confidence            4788888999999998 77888874
+
+
+No 6
+>7MQA_SZ Ribosomal assembly intermediate, RIBOSOME; HET: OMC, MG, A2M, PSU, 4AC, GTP, SAH, OMU, ATP, OMG; 2.7A {Homo sapiens}
+Probab=18.51  E-value=69  Score=26.09  Aligned_cols=24  Identities=58%  Similarity=0.861  Sum_probs=20.1  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCceehhheccceeeee
+Q tr|M0QZP3|M0QZ   45 PKPEARPRGGLVPLAEVSGCCTLRS   69 (72)
+Q Consensus        45 pkpearprgglvplaevsgcctlrs   69 (72)
+                      -||.+--.|-+.||.+ +|.||+|-
+T Consensus       148 yKP~aFfKGillPLc~-sg~CtlrE  171 (304)
+T 7MQA_SZ         148 FKPGAWFKGILIPLCE-SGTCTLRE  171 (304)
+T ss_pred             cCchhheeccchhhcc-CCCCcHHH
+Confidence            4788888999999998 77888874
+
+
+No 7
+>7AD3_G Pheromone alpha factor receptor, Alpha-factor; Fungal GPCR, Dimer, Complex, Class; HET: Y01, NAG;{Saccharomyces cerevisiae}
+Probab=15.33  E-value=1.3e+02  Score=20.01  Aligned_cols=9  Identities=33%  Similarity=0.124  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             hheccceee
+Q tr|M0QZP3|M0QZ   59 AEVSGCCTL   67 (72)
+Q Consensus        59 aevsgcctl   67 (72)
+                      ++-+|||++
+T Consensus       100 ~~~~gCC~i  108 (109)
+T 7AD3_G          100 NSNSVSSTL  108 (109)
+T ss_dssp             ---------
+T ss_pred             ccCCCceee
+Confidence            567899986
+
+
+No 8
+>3TYW_C Putative cytochrome P450; P450 monooxygenase, OXIDOREDUCTASE; HET: HEM; 2.9A {Streptomyces coelicolor}
+Probab=13.90  E-value=5.8e+02  Score=16.88  Aligned_cols=12  Identities=50%  Similarity=0.891  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|M0QZP3|M0QZ    1 MAPPPPPLAAST   12 (72)
+Q Consensus         1 mappppplaast   12 (72)
+                      |-||++|.+.++
+T Consensus         1 ~~~~~~~~~~~~   12 (417)
+T 3TYW_C            1 MTPPESPTASHT   12 (417)
+T ss_dssp             ------------
+T ss_pred             CCCCCCCCcCCC
+Confidence            345555444444
+
+
+No 9
+>3TYW_D Putative cytochrome P450; P450 monooxygenase, OXIDOREDUCTASE; HET: HEM; 2.9A {Streptomyces coelicolor}
+Probab=13.90  E-value=5.8e+02  Score=16.88  Aligned_cols=12  Identities=50%  Similarity=0.891  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|M0QZP3|M0QZ    1 MAPPPPPLAAST   12 (72)
+Q Consensus         1 mappppplaast   12 (72)
+                      |-||++|.+.++
+T Consensus         1 ~~~~~~~~~~~~   12 (417)
+T 3TYW_D            1 MTPPESPTASHT   12 (417)
+T ss_dssp             ------------
+T ss_pred             CCCCCCCCcCCC
+Confidence            344554444443
+
+
+No 10
+>6C14_C Protocadherin-15, LHFPL tetraspan subfamily member; PCDH15, LHFPL5, protocadherin, tip link;{Mus musculus}
+Probab=13.71  E-value=96  Score=22.74  Aligned_cols=8  Identities=50%  Similarity=0.654  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEEEecC
+Q tr|M0QZP3|M0QZ   38 LHIQRLRP   45 (72)
+Q Consensus        38 lhiqrlrp   45 (72)
+                      .|-|+|||
+T Consensus       329 ~~~~~~~~  336 (337)
+T 6C14_C          329 LFESRLVP  336 (337)
+T ss_dssp             --------
+T ss_pred             HhhhccCC
+Confidence            45566654
+
+

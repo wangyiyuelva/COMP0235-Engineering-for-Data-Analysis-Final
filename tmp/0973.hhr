@@ -1,0 +1,181 @@
+Query         tr|V9GZ58|V9GZ58_HUMAN
+Match_columns 59
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:06:18 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0973.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5DRZ_Q HIV Antibody F240 Light  46.1      28 0.00031   18.9   1.2   20   29-56     13-32  (36)
+  2 4WZ7_I Subunit ND1, Subunit ND  38.3      97  0.0011   16.8   2.6   18   42-59    105-122 (137)
+  3 6MAR_D Immunoglobulin G PGT151  36.4      49 0.00053   22.9   1.5   21   28-56     89-109 (220)
+  4 6WIX_B Envelope glycoprotein g  25.1      83  0.0009   22.0   1.1   20   29-56     84-103 (153)
+  5 4TVP_B BG505 SOSIP T332N gp120  24.8      89 0.00096   21.8   1.2    7   29-35     84-90  (153)
+  6 6MTJ_B Envelope glycoprotein g  24.8      89 0.00096   21.8   1.2    8   29-36     84-91  (153)
+  7 3CPJ_B Rab GTPase, prenylation  24.8 2.5E+02  0.0027   16.2   2.9   18   37-55    198-215 (223)
+  8 7SKA_Z HIV-1, envelope protein  23.5      97  0.0011   21.5   1.2    7   29-35     75-81  (144)
+  9 6CCB_B Glycoprotein 41, Glycop  22.9      98  0.0011   22.0   1.2   21   29-57     84-104 (162)
+ 10 6V8X_F envelope glycoprotein g  22.7      99  0.0011   21.5   1.1   20   29-56     76-95  (145)
+ 11 6JI7_A coffeetide; Coffee, cys  20.3 1.1E+02  0.0012   18.3   0.8   11   25-35     11-21  (36)
+
+No 1
+>5DRZ_Q HIV Antibody F240 Light Chain; IgG, VIRAL PROTEIN, HIV gp41; 2.54A {Homo sapiens}
+Probab=46.11  E-value=28  Score=18.90  Aligned_cols=20  Identities=45%  Similarity=1.194  Sum_probs=11.8  Template_Neff=5.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGSSHSPQTPSTCGTEPYPWNPSL   56 (59)
+Q Consensus        29 pwgcagsshspqtpstcgtepypwnpsl   56 (59)
+                      -|||+|.-       .|. ..-|||-+.
+T Consensus        13 ~wGcsgk~-------ic~-t~vpwn~sw   32 (36)
+T 5DRZ_Q           13 IWGCSGKL-------ICT-TAVPWNASW   32 (36)
+T ss_pred             hhhhCCCe-------eec-CCCCCcccc
+Confidence            48998872       232 345677654
+
+
+No 2
+>4WZ7_I Subunit ND1, Subunit ND2, subunit; Complex I, respiratory chain, oxidoreductase; HET: SF4; 3.6A {Yarrowia lipolytica}
+Probab=38.30  E-value=97  Score=16.83  Aligned_cols=18  Identities=0%  Similarity=0.002  Sum_probs=12.7  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   42 PSTCGTEPYPWNPSLTKR   59 (59)
+Q Consensus        42 pstcgtepypwnpsltkr   59 (59)
+                      ...-|.+|-+|++.+.++
+T Consensus       105 ~~~~~~~~~~~~~~~~~~  122 (137)
+T 4WZ7_I          105 TXXXXXXXXXXXXXXXXX  122 (137)
+T ss_pred             CCCCCCCCCCCCCCCCCC
+Confidence            445577888888887654
+
+
+No 3
+>6MAR_D Immunoglobulin G PGT151 Fab, Heavy; Fusion protein-Fab complex, MEMBRANE PROTEIN; HET: FUC, NAG, BMA, GAL, MAN;{Homo sapiens}
+Probab=36.43  E-value=49  Score=22.94  Aligned_cols=21  Identities=48%  Similarity=1.091  Sum_probs=14.1  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   28 LPWGCAGSSHSPQTPSTCGTEPYPWNPSL   56 (59)
+Q Consensus        28 lpwgcagsshspqtpstcgtepypwnpsl   56 (59)
+                      .-|||.+.       .-|-| |.|||.+.
+T Consensus        89 ~~~gC~~~-------~iC~T-~vp~n~sw  109 (220)
+T 6MAR_D           89 GIWGCSGK-------LICTT-NVPWNSSW  109 (220)
+T ss_pred             hHhhccCc-------ccccC-CCCCCccc
+Confidence            35899873       45666 67777653
+
+
+No 4
+>6WIX_B Envelope glycoprotein gp41, 35O22 scFv; HIV-1 Envelope Prefusion Trimer, VIRAL; HET: BMA, NAG, MAN; 2.67A {Human immunodeficiency virus 1}
+Probab=25.14  E-value=83  Score=22.04  Aligned_cols=20  Identities=50%  Similarity=1.204  Sum_probs=11.9  Template_Neff=5.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGSSHSPQTPSTCGTEPYPWNPSL   56 (59)
+Q Consensus        29 pwgcagsshspqtpstcgtepypwnpsl   56 (59)
+                      -|||+|..       -|.| .-|||.+.
+T Consensus        84 ~wGcsgk~-------ic~t-~vpwn~sw  103 (153)
+T 6WIX_B           84 IWGCSGKL-------ICCT-NVPWNSSW  103 (153)
+T ss_pred             hHHhcCcc-------cccC-CCCCcccc
+Confidence            49999873       3444 34676543
+
+
+No 5
+>4TVP_B BG505 SOSIP T332N gp120, BG505; HIV-1 ENVELOPE Trimer, gp120, gp41; HET: BMA, SO4, NAG, MAN; 3.1A {Human immunodeficiency virus 1}
+Probab=24.82  E-value=89  Score=21.83  Aligned_cols=7  Identities=57%  Similarity=1.782  Sum_probs=5.5  Template_Neff=5.700
+
+Q ss_pred             CCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGS   35 (59)
+Q Consensus        29 pwgcags   35 (59)
+                      -|||+|.
+T Consensus        84 ~wGcs~k   90 (153)
+T 4TVP_B           84 IWGCSGK   90 (153)
+T ss_dssp             HSSCCSC
+T ss_pred             hhHhcCc
+Confidence            3899876
+
+
+No 6
+>6MTJ_B Envelope glycoprotein gp160, 35O22 scFv; HIV-1 Envelope Prefusion Trimer, Entry; HET: BMA, NAG, MAN, 83G; 2.336A {Human immunodeficiency virus 1}
+Probab=24.82  E-value=89  Score=21.83  Aligned_cols=8  Identities=50%  Similarity=1.473  Sum_probs=6.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGSS   36 (59)
+Q Consensus        29 pwgcagss   36 (59)
+                      -|||+|..
+T Consensus        84 ~wGcs~k~   91 (153)
+T 6MTJ_B           84 IWGCSGKL   91 (153)
+T ss_pred             hhHhcCce
+Confidence            48999873
+
+
+No 7
+>3CPJ_B Rab GTPase, prenylation, vesicular transport; HET: GDP; 2.35A {Saccharomyces cerevisiae}
+Probab=24.77  E-value=2.5e+02  Score=16.17  Aligned_cols=18  Identities=28%  Similarity=0.457  Sum_probs=2.6  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   37 HSPQTPSTCGTEPYPWNPS   55 (59)
+Q Consensus        37 hspqtpstcgtepypwnps   55 (59)
+                      .++.+++.+-+ |-||.-+
+T Consensus       198 ~~~~~~~~~~~-~~~~~~~  215 (223)
+T 3CPJ_B          198 SAPNGPTISLT-PTPNENK  215 (223)
+T ss_dssp             -----CCBCC---------
+T ss_pred             CCCCCCeeecC-CCccccc
+Confidence            33444555554 6666543
+
+
+No 8
+>7SKA_Z HIV-1, envelope protein, glycoprotein, Env; HET: FUC, NAG, BMA, GAL, MAN;{Human immunodeficiency virus 1}
+Probab=23.54  E-value=97  Score=21.52  Aligned_cols=7  Identities=57%  Similarity=1.782  Sum_probs=5.4  Template_Neff=5.600
+
+Q ss_pred             CCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGS   35 (59)
+Q Consensus        29 pwgcags   35 (59)
+                      -|||+|.
+T Consensus        75 ~wGcsgk   81 (144)
+T 7SKA_Z           75 IWGCSGK   81 (144)
+T ss_dssp             HHTCCSC
+T ss_pred             hhHhcCc
+Confidence            3889887
+
+
+No 9
+>6CCB_B Glycoprotein 41, Glycoprotein 120, 10-1074; HIV, vaccine, antibody, VIRAL PROTEIN; HET: BMA, NAG, MAN; 6.5A {Human immunodeficiency virus 1}
+Probab=22.88  E-value=98  Score=21.96  Aligned_cols=21  Identities=38%  Similarity=0.998  Sum_probs=12.1  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGSSHSPQTPSTCGTEPYPWNPSLT   57 (59)
+Q Consensus        29 pwgcagsshspqtpstcgtepypwnpslt   57 (59)
+                      -|||+|..       -|.| .-|||.+..
+T Consensus        84 ~wGcsgk~-------iC~t-~vpwn~sws  104 (162)
+T 6CCB_B           84 IWGCSGKL-------ICCT-NVLWNTTWS  104 (162)
+T ss_dssp             HTTCSSCS-------EEEE-EEECCTTSC
+T ss_pred             HhHhcCce-------eecC-CCCCCcccc
+Confidence            48999863       3433 346765443
+
+
+No 10
+>6V8X_F envelope glycoprotein gp120, envelope glycoprotein; Trimer, Complex, Immunogen, HIV-1, VIRAL; HET: BMA, NAG, MAN; 3.0A {Human immunodeficiency virus 1}
+Probab=22.69  E-value=99  Score=21.51  Aligned_cols=20  Identities=50%  Similarity=1.204  Sum_probs=11.4  Template_Neff=5.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|V9GZ58|V9GZ   29 PWGCAGSSHSPQTPSTCGTEPYPWNPSL   56 (59)
+Q Consensus        29 pwgcagsshspqtpstcgtepypwnpsl   56 (59)
+                      -|||+|..       -|.| .-|||-+.
+T Consensus        76 ~wGcsgk~-------ic~t-~vpwn~sw   95 (145)
+T 6V8X_F           76 IWGCSGKL-------ICCT-NVPWNSSW   95 (145)
+T ss_dssp             HTTCTTCS-------EEEE-EEECCGGG
+T ss_pred             HhHhcCce-------eecC-CCCCcccc
+Confidence            48898763       2333 45666543
+
+
+No 11
+>6JI7_A coffeetide; Coffee, cysteine-rich peptide, iron-binding, stable; NMR {Coffea canephora}
+Probab=20.27  E-value=1.1e+02  Score=18.31  Aligned_cols=11  Identities=36%  Similarity=1.060  Sum_probs=8.5  Template_Neff=2.300
+
+Q ss_pred             cccCCCCCCCC
+Q tr|V9GZ58|V9GZ   25 MMSLPWGCAGS   35 (59)
+Q Consensus        25 mmslpwgcags   35 (59)
+                      -|--||||-++
+T Consensus        11 C~~nPwGCC~~   21 (36)
+T 6JI7_A           11 CAGNPWGCCPG   21 (36)
+T ss_dssp             SSSSSSSCCTT
+T ss_pred             ccCCCCCcCCC
+Confidence            45669999886
+
+

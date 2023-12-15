@@ -1,0 +1,170 @@
+Query         tr|H7C4I0|H7C4I0_HUMAN
+Match_columns 115
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:15:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0542.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DSK_A Sodium-dependent neutra  95.9   0.011 1.2E-07   47.6   2.6   40   76-115    37-76  (647)
+  2 7CCS_A 4F2 cell-surface antige  95.3   0.022 2.3E-07   45.7   2.0   34   81-114    29-62  (631)
+  3 7DSK_A Sodium-dependent neutra  63.8      14 0.00016   30.5   2.8   63   42-114    45-107 (647)
+  4 7CCS_A 4F2 cell-surface antige  52.9      21 0.00023   29.4   2.0   64   40-114    30-93  (631)
+  5 4IC6_A Protease Do-like 8, chl  32.5      84 0.00092   22.6   2.2   46   11-56     20-73  (368)
+  6 4IC6_C Protease Do-like 8, chl  32.5      84 0.00092   22.6   2.2   47   10-56     19-73  (368)
+  7 3PNU_A Dihydroorotase (E.C.3.5  26.1 1.3E+02  0.0014   20.5   2.1   32   73-104     8-39  (359)
+  8 3PNU_B Dihydroorotase (E.C.3.5  26.1 1.3E+02  0.0014   20.5   2.1   32   73-104     8-39  (359)
+  9 1YRR_B N-acetylglucosamine-6-p  17.5 3.2E+02  0.0034   19.8   2.7   27   81-107    41-67  (382)
+ 10 7M5F_A toxin, antitoxin, CDI T  16.7 2.8E+02   0.003   17.4   2.1   25   13-37     28-52  (98)
+
+No 1
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=95.94  E-value=0.011  Score=47.55  Aligned_cols=40  Identities=28%  Similarity=0.135  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ccCCCCceeEecCceeeCCeeeccccccCCCCCCCCCCCC
+Q tr|H7C4I0|H7C4   76 VAGTTDQVLHLSPRLECNGVISAHCNLCLPGSSDCPASPS  115 (115)
+Q Consensus        76 vagttdqvlhlsprlecngvisahcnlclpgssdcpasps  115 (115)
+                      +...-.|-+.++++++|.+.+++||.|++|+|++.+++++
+T Consensus        37 ~~~~~~~~~~l~~~l~~~~~~~~~~~l~l~~s~~~~~~~~   76 (647)
+T 7DSK_A           37 HSEAGVQGLSAGDDSETGSDCVTQAGLQLLASSDPPALAS   76 (647)
+T ss_dssp             ----------------------------------------
+T ss_pred             cccccccCcCCCCCCCCCcceEeeceecCCCCCCCCCccc
+Confidence            4455567788999999999999999999999999888763
+
+
+No 2
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=95.32  E-value=0.022  Score=45.70  Aligned_cols=34  Identities=26%  Similarity=0.067  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CceeEecCceeeCCeeeccccccCCCCCCCCCCC
+Q tr|H7C4I0|H7C4   81 DQVLHLSPRLECNGVISAHCNLCLPGSSDCPASP  114 (115)
+Q Consensus        81 dqvlhlsprlecngvisahcnlclpgssdcpasp  114 (115)
+                      .+.+.++++++|.+.+++||++|+|++++.++++
+T Consensus        29 ~~~~~~~~~l~~~~~~~~~~~l~l~~s~~~~~s~   62 (631)
+T 7CCS_A           29 VQGLSAGDDSELGSHCVAQTGLELLASGDPLPSA   62 (631)
+T ss_dssp             ----------------------------------
+T ss_pred             ccceecccceecCceEEEEeeecCCCCCCCCCcH
+Confidence            4556789999999999999999999999988765
+
+
+No 3
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=63.82  E-value=14  Score=30.46  Aligned_cols=63  Identities=21%  Similarity=0.185  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCcccccccceEeeeccccccCCCCCCCCCcccccCCCCceeEecCceeeCCeeeccccccCCCCCCCCCCC
+Q tr|H7C4I0|H7C4   42 IPLWPKLECSGTIIAHCCCSTHFGRKDPPTSASRVAGTTDQVLHLSPRLECNGVISAHCNLCLPGSSDCPASP  114 (115)
+Q Consensus        42 iplwpklecsgtiiahcccsthfgrkdpptsasrvagttdqvlhlsprlecngvisahcnlclpgssdcpasp  114 (115)
+                      ..+.+.++|++.+.++||-+. .+..|++.+++++++++         .+..--..+.+.|.+.+|++-|++.
+T Consensus        45 ~~l~~~l~~~~~~~~~~~l~l-~~s~~~~~~~~~~a~~~---------~~~~~~~~~q~gl~~~~s~~~~~~~  107 (647)
+T 7DSK_A           45 LSAGDDSETGSDCVTQAGLQL-LASSDPPALASKNAEVT---------VETGFHHVSQADIEFLTSIDPTASA  107 (647)
+T ss_dssp             -------------------------------------------------------------------------
+T ss_pred             cCCCCCCCCCcceEeeceecC-CCCCCCCCcccccEEEE---------EEeeeecccccccccccCCCCCccc
+Confidence            456688999999999986654 67889999999999987         1211112345567777777766554
+
+
+No 4
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=52.94  E-value=21  Score=29.38  Aligned_cols=64  Identities=27%  Similarity=0.245  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCcccccccceEeeeccccccCCCCCCCCCcccccCCCCceeEecCceeeCCeeeccccccCCCCCCCCCCC
+Q tr|H7C4I0|H7C4   40 HGIPLWPKLECSGTIIAHCCCSTHFGRKDPPTSASRVAGTTDQVLHLSPRLECNGVISAHCNLCLPGSSDCPASP  114 (115)
+Q Consensus        40 hgiplwpklecsgtiiahcccsthfgrkdpptsasrvagttdqvlhlsprlecngvisahcnlclpgssdcpasp  114 (115)
+                      ++..+.+.++|+|.+.++|+.. .-+..+++.+++++++.          .|..---.+.+.+.+..+++.|+++
+T Consensus        30 ~~~~~~~~l~~~~~~~~~~~l~-l~~s~~~~~s~~~~a~~----------~~~~~~~~~q~gl~ll~s~~~~~~~   93 (631)
+T 7CCS_A           30 QGLSAGDDSELGSHCVAQTGLE-LLASGDPLPSASQNAEM----------IETGSDCVTQAGLQLLASSDPPALA   93 (631)
+T ss_dssp             ---------------------------------------------------------------------------
+T ss_pred             cceecccceecCceEEEEeeec-CCCCCCCCCcHHHhhHH----------HHhccccchhcccchhcCCCCCccc
+Confidence            4456778999999999998653 34667889999999981          2222223445667777888777654
+
+
+No 5
+>4IC6_A Protease Do-like 8, chloroplastic (E.C.3.4.21.-); Beta-barrel, HYDROLASE; 2.0A {Arabidopsis thaliana}
+Probab=32.49  E-value=84  Score=22.62  Aligned_cols=46  Identities=15%  Similarity=0.105  Sum_probs=24.2  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCccHHHHHHHHHHHHhhhhhcCCCCCc--------ccccccceEee
+Q tr|H7C4I0|H7C4   11 PSADKDGMEPNVVARISQWADDHLRLVRGHGIPLW--------PKLECSGTIIA   56 (115)
+Q Consensus        11 psadkdgmepnvvarisqwaddhlrlvrghgiplw--------pklecsgtiia   56 (115)
+                      ++.....++..+...+.++..-..++......+.+        +.-.|+|++|.
+T Consensus        20 ~~~~~~~~~~~~~~~~~~~~~svv~i~~~~~~~~~~~~~~~~~~~~~gtG~li~   73 (368)
+T 4IC6_A           20 PAGPLFPTEGRIVQLFEKNTYSVVNIFDVTLRPQLKMTGVVEIPEGNGSGVVWD   73 (368)
+T ss_dssp             CCCCCCHHHHHHHHHHHHHHTTEEEEEETTCCC------------CCEEEEECS
+T ss_pred             CCCCCCCCchhHHHHHHhhcCceEEEEeeecccccccccceeccccceEEEEEC
+Confidence            44444555555555555555555555554443332        55678888875
+
+
+No 6
+>4IC6_C Protease Do-like 8, chloroplastic (E.C.3.4.21.-); Beta-barrel, HYDROLASE; 2.0A {Arabidopsis thaliana}
+Probab=32.49  E-value=84  Score=22.62  Aligned_cols=47  Identities=15%  Similarity=0.083  Sum_probs=23.7  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCccHHHHHHHHHHHHhhhhhcCCCCCc--------ccccccceEee
+Q tr|H7C4I0|H7C4   10 SPSADKDGMEPNVVARISQWADDHLRLVRGHGIPLW--------PKLECSGTIIA   56 (115)
+Q Consensus        10 spsadkdgmepnvvarisqwaddhlrlvrghgiplw--------pklecsgtiia   56 (115)
+                      .++.....++..+...+.++..-..++......+.+        +.-.|+|++|.
+T Consensus        19 ~~~~~~~~~~~~~~~~~~~~~~svv~i~~~~~~~~~~~~~~~~~~~~~gtG~li~   73 (368)
+T 4IC6_C           19 FPAGPLFPTEGRIVQLFEKNTYSVVNIFDVTLRPQLKMTGVVEIPEGNGSGVVWD   73 (368)
+T ss_dssp             ---CCCCHHHHHHHHHHHHHHTTEEEEEETTCCCC-----------CCEEEEECC
+T ss_pred             CCCCCCCCCchhHHHHHHhhcCceEEEEeeecccccccccceeccccceEEEEEC
+Confidence            344444555555555555555555555554443332        55678888875
+
+
+No 7
+>3PNU_A Dihydroorotase (E.C.3.5.2.3); TIM barrel, Dihydroorotase, Zinc binding; HET: PO4, KCX; 2.4A {Campylobacter jejuni subsp. jejuni}
+Probab=26.10  E-value=1.3e+02  Score=20.52  Aligned_cols=32  Identities=19%  Similarity=0.154  Sum_probs=20.7  Template_Neff=12.400
+
+Q ss_pred             cccccCCCCceeEecCceeeCCeeeccccccC
+Q tr|H7C4I0|H7C4   73 ASRVAGTTDQVLHLSPRLECNGVISAHCNLCL  104 (115)
+Q Consensus        73 asrvagttdqvlhlsprlecngvisahcnlcl  104 (115)
+                      .++..+...+++.+..++-..|.|.+|+.+-.
+T Consensus         8 ~~~~~~~~~~vid~~g~~v~Pg~iD~H~H~~~   39 (359)
+T 3PNU_A            8 SSGVDLGTENLYFQSNAMKLKNPLDMHLHLRD   39 (359)
+T ss_dssp             --------CCCCCSSCCEEEESCEEEEECCCS
+T ss_pred             CCCCCCCCchhhccCCeEEecCceeceecccC
+Confidence            35566677788888899999999999988754
+
+
+No 8
+>3PNU_B Dihydroorotase (E.C.3.5.2.3); TIM barrel, Dihydroorotase, Zinc binding; HET: PO4, KCX; 2.4A {Campylobacter jejuni subsp. jejuni}
+Probab=26.10  E-value=1.3e+02  Score=20.52  Aligned_cols=32  Identities=19%  Similarity=0.154  Sum_probs=20.6  Template_Neff=12.400
+
+Q ss_pred             cccccCCCCceeEecCceeeCCeeeccccccC
+Q tr|H7C4I0|H7C4   73 ASRVAGTTDQVLHLSPRLECNGVISAHCNLCL  104 (115)
+Q Consensus        73 asrvagttdqvlhlsprlecngvisahcnlcl  104 (115)
+                      .++..+...+++.+..++-..|.|.+|+.+-.
+T Consensus         8 ~~~~~~~~~~vid~~g~~v~Pg~iD~H~H~~~   39 (359)
+T 3PNU_B            8 SSGVDLGTENLYFQSNAMKLKNPLDMHLHLRD   39 (359)
+T ss_dssp             --------CCSCBTTBSEEEESCEEEEECCCC
+T ss_pred             CCCCCCCCchhhccCCeEEecCceeceecccC
+Confidence            35566667788888899999999999988753
+
+
+No 9
+>1YRR_B N-acetylglucosamine-6-phosphate deacetylase (E.C.3.5.1.25); (BETA/ALPHA)8 BARREL, BETA SANDWICH, HYDROLASE; HET: GOL, PO4; 2.0A {Escherichia coli} SCOP: b.92.1.5, c.1.9.10
+Probab=17.50  E-value=3.2e+02  Score=19.77  Aligned_cols=27  Identities=19%  Similarity=0.110  Sum_probs=22.9  Template_Neff=11.500
+
+Q ss_pred             CceeEecCceeeCCeeeccccccCCCC
+Q tr|H7C4I0|H7C4   81 DQVLHLSPRLECNGVISAHCNLCLPGS  107 (115)
+Q Consensus        81 dqvlhlsprlecngvisahcnlclpgs  107 (115)
+                      .+|+.++.++-+-|.|.+|+++...++
+T Consensus        41 ~~viD~~g~~v~PG~ID~H~H~~~~~~   67 (382)
+T 1YRR_B           41 IEQRSLNGAILSPGFIDVQLNGCGGVQ   67 (382)
+T ss_dssp             CCEEECTTCEEEECEEEEEECEETTEE
+T ss_pred             cceeecCCCEecccEEeCeecCCCCCC
+Confidence            478999999999999999999876543
+
+
+No 10
+>7M5F_A toxin, antitoxin, CDI Toxin-Immunity Protein; HET: MLI, MSE; 1.59A {Serratia marcescens}
+Probab=16.68  E-value=2.8e+02  Score=17.43  Aligned_cols=25  Identities=12%  Similarity=0.247  Sum_probs=20.2  Template_Neff=9.400
+
+Q ss_pred             CCCCCCCccHHHHHHHHHHHHhhhh
+Q tr|H7C4I0|H7C4   13 ADKDGMEPNVVARISQWADDHLRLV   37 (115)
+Q Consensus        13 adkdgmepnvvarisqwaddhlrlv   37 (115)
+                      .+.-++.+..+.+|..|.+.+....
+T Consensus        28 ~~~l~ls~~L~~~l~~W~~~~~~~~   52 (98)
+T 7M5F_A           28 PDELPISLGLKNSLEAWAKRYDAIL   52 (98)
+T ss_dssp             GGGSSCCHHHHHHHHHHHHHHHTTC
+T ss_pred             hHHCCCCHHHHHHHHHHHHHHHHHc
+Confidence            3455788899999999999987654
+
+

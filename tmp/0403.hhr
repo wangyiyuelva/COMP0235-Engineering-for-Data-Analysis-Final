@@ -1,0 +1,170 @@
+Query         tr|F6SXV3|F6SXV3_HUMAN
+Match_columns 309
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:47:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0403.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JSX_B Flagellar biosynthesis   29.1 1.4E+02  0.0015   21.7   2.9   21  101-121    35-55  (73)
+  2 4LES_A Protein - conserved hyp  22.1 3.3E+02  0.0036   21.8   4.0   66   72-137   128-204 (206)
+  3 7CQ1_A Ribosome maturation fac  11.3 1.1E+03   0.012   17.8   6.3   66   78-148    12-77  (85)
+  4 2HC5_A Hypothetical protein yv  10.8 5.7E+02  0.0061   22.0   2.9   36   84-122    54-89  (117)
+  5 1N4N_A Cysteine-stabilised alp  10.2 2.4E+02  0.0026   18.8   0.5   18  211-228     1-18  (47)
+  6 5LVY_A Adhesin protein; Aggreg  10.1 1.4E+03   0.015   22.0   5.2   48   73-122    50-105 (154)
+  7 3BWS_A protein Lp49; Two-domai  10.0 1.6E+03   0.017   18.5   6.9   59   78-136    79-137 (433)
+  8 7C2P_D Plant defensing Egk; Pl   9.5 2.2E+02  0.0023   18.7   0.1   17  212-228     2-18  (47)
+  9 1OIS_A DNA TOPOISOMERASE I; IS   9.5 2.2E+02  0.0024   27.0   0.2   30  274-303    56-97  (223)
+ 10 4AAZ_B FLOWER-SPECIFIC DEFENSI   9.2 2.3E+02  0.0025   19.0   0.1   17  212-228     2-18  (47)
+
+No 1
+>6JSX_B Flagellar biosynthesis protein FlaG; Helicobacter pylori, flagella, BIOSYNTHETIC PROTEIN; 2.7A {Helicobacter pylori}
+Probab=29.06  E-value=1.4e+02  Score=21.65  Aligned_cols=21  Identities=19%  Similarity=0.471  Sum_probs=16.8  Template_Neff=8.200
+
+Q ss_pred             ceEEEEccCCCCcEEEEeCCC
+Q tr|F6SXV3|F6SX  101 QMMIVASPTENGQVLRVIPPT  121 (309)
+Q Consensus       101 qmmivasptengqvlrvippt  121 (309)
+                      ++++-.--.+.|+|+|-|||-
+T Consensus        35 ~~~v~v~D~~TgevIrqiP~e   55 (73)
+T 6JSX_B           35 GLVVSVKDANGDKVIREIPSK   55 (73)
+T ss_dssp             EEEEEEECTTSCEEEEEEEHH
+T ss_pred             eEEEEEEECCCCeEEEEeChH
+Confidence            566666677889999999985
+
+
+No 2
+>4LES_A Protein - conserved hypothetical; Structural Genomics, NIAID, National Institute; HET: PGE, MSE; 2.2A {Bacillus anthracis}
+Probab=22.07  E-value=3.3e+02  Score=21.78  Aligned_cols=66  Identities=18%  Similarity=0.159  Sum_probs=31.6  Template_Neff=10.200
+
+Q ss_pred             ccCcc-eEEEECCCCCeEEEEeeeC--------CCCCCceEEEEccCCCCcEEEEeCCCCC--CceEEEeCCCCeee
+Q tr|F6SXV3|F6SX   72 TLSAE-QFHLVDQNGQAIQYELQSL--------GESNAQMMIVASPTENGQVLRVIPPTQT--GMAQVIIPQGQLVD  137 (309)
+Q Consensus        72 tlsae-qfhlvdqngqaiqyelqsl--------gesnaqmmivasptengqvlrvipptqt--gmaqviipqgqlvd  137 (309)
+                      .+... .|.|+|.+|..........        +.....--+-..-+..|.++..||....  +..++.+.-|.-++
+T Consensus       128 ~~~~~~~~~l~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~l~pG~~~~g~~~f~Vp~~~~~~~~~~l~~~~~~~~~  204 (206)
+T 4LES_A          128 KLAFLPSVDLVDENDNAYQSDVWAASSYDVEKGETSSITKELKPGEVKRQNKVYVINKEKFDTGKWYVVVNNEYKEQ  204 (206)
+T ss_dssp             EGGGSCCEEEEETTCCBCCCCHHHHHHHHHHTTCCSCCCSEECTTCEEECCEEEEEEHHHHHHSCEEEEETTTEEEE
+T ss_pred             eecccCceEEEeCCCCEEecchhhhcccccccCCCCccccccCCCCeEEEEEEEEeehhhccCCeEEEEECCCceeE
+Confidence            34444 7889999888765432211        1111111122222334556666665422  44556555555444
+
+
+No 3
+>7CQ1_A Ribosome maturation factor RimM; Ribosome maturation, 30S subunit, PROTEIN; NMR {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=11.29  E-value=1.1e+03  Score=17.75  Aligned_cols=66  Identities=8%  Similarity=0.201  Sum_probs=42.4  Template_Neff=8.000
+
+Q ss_pred             EEEECCCCCeEEEEeeeCCCCCCceEEEEccCCCCcEEEEeCCCCCCceEEEeCCCCeeeCCCCCCCCCCC
+Q tr|F6SXV3|F6SX   78 FHLVDQNGQAIQYELQSLGESNAQMMIVASPTENGQVLRVIPPTQTGMAQVIIPQGQLVDVNSPRDVPEEK  148 (309)
+Q Consensus        78 fhlvdqngqaiqyelqslgesnaqmmivasptengqvlrvipptqtgmaqviipqgqlvdvnsprdvpeek  148 (309)
+                      |.++|++|+. .-.+...-+..++-+++... .+|  -..||-. ...-..|-+..+.+.++-|...-+..
+T Consensus        12 ~~V~d~~~~~-lG~V~~i~~~~~~~~l~I~~-~~~--~~liP~~-~~~i~~id~~~~~i~v~~~~gl~~~~   77 (85)
+T 7CQ1_A           12 LMVQTATGEG-VGVVTEVVHTAAGELLAVKR-DSD--EVLVPFV-RAIVTSVSLDDGIVEIDPPHGLLNLE   77 (85)
+T ss_dssp             SEEEETTCCC-CEEEEECCBCSSSEEEEEEC-SSS--EEEEEEC-TTTCCEEETTTTEEEECCSTTTTSCC
+T ss_pred             eEEEeCCCCE-EEEEEEEEeCCCceEEEEEe-CCc--EEEEECc-HHheeeEECCCCEEEEcCCCchhhcc
+Confidence            5678888775 44677777888888877753 344  3445544 44445566677777777777665544
+
+
+No 4
+>2HC5_A Hypothetical protein yvyC; NESG, GFT-NMR, PSI, Protein Structure; NMR {Bacillus subtilis} SCOP: d.352.1.1
+Probab=10.81  E-value=5.7e+02  Score=21.98  Aligned_cols=36  Identities=19%  Similarity=0.409  Sum_probs=24.8  Template_Neff=5.900
+
+Q ss_pred             CCCeEEEEeeeCCCCCCceEEEEccCCCCcEEEEeCCCC
+Q tr|F6SXV3|F6SX   84 NGQAIQYELQSLGESNAQMMIVASPTENGQVLRVIPPTQ  122 (309)
+Q Consensus        84 ngqaiqyelqslgesnaqmmivasptengqvlrvipptq  122 (309)
+                      .+..++|++..-   .-+++|..--.+.|+|+|-|||-+
+T Consensus        54 ~n~~l~F~vde~---~~~~vVkVvD~~TGEVIReIPpEe   89 (117)
+T 2HC5_A           54 SQVHLKFELHDK---LNEYYVKVIEDSTNEVIREIPPKR   89 (117)
+T ss_dssp             SSCCEEEEEEEE---TTEEEEEEEETTTTEEEEEECHHH
+T ss_pred             hCCceEEEEECC---CCeEEEEEEECCCCeEEEeeChHH
+Confidence            455666666543   235666666788899999999854
+
+
+No 5
+>1N4N_A Cysteine-stabilised alpha-beta motif, fifth disulfide; NMR {Petunia x hybrida} SCOP: g.3.7.5
+Probab=10.21  E-value=2.4e+02  Score=18.80  Aligned_cols=18  Identities=11%  Similarity=0.541  Sum_probs=12.9  Template_Neff=8.200
+
+Q ss_pred             eeceecCCceeeEEechh
+Q tr|F6SXV3|F6SX  211 RSCEKIGDSYRGYCVSET  228 (309)
+Q Consensus       211 rscekigdsyrgycvset  228 (309)
+                      |.|++....|.|.|++..
+T Consensus         1 r~C~~~s~~~~g~C~~~~   18 (47)
+T 1N4N_A            1 ATCKAECPTWDSVCINKK   18 (47)
+T ss_dssp             CCEEEECTTCCSCCCCHH
+T ss_pred             CcccCCCCCeeccccCCc
+Confidence            347777788888887653
+
+
+No 6
+>5LVY_A Adhesin protein; Aggregative adherence fimbriae, donor strand; NMR {Escherichia coli O111:H21}
+Probab=10.11  E-value=1.4e+03  Score=22.02  Aligned_cols=48  Identities=13%  Similarity=0.079  Sum_probs=30.8  Template_Neff=3.100
+
+Q ss_pred             cCcceEEEECCCCCeEEEEeeeCCCCCCce--------EEEEccCCCCcEEEEeCCCC
+Q tr|F6SXV3|F6SX   73 LSAEQFHLVDQNGQAIQYELQSLGESNAQM--------MIVASPTENGQVLRVIPPTQ  122 (309)
+Q Consensus        73 lsaeqfhlvdqngqaiqyelqslgesnaqm--------mivasptengqvlrvipptq  122 (309)
+                      =+..+|.|+.+.+  ..|-|+..-+...+-        ..++--+..-..++|||+++
+T Consensus        50 G~~~~~~l~~~~n--~~YTL~~~~~g~~~~~~g~~~~~y~lt~~t~g~~~v~Vipk~~  105 (154)
+T 5LVY_A           50 DTRDGKLVMKKGQ--DKYTLMTTYGGAVQQQLGGGYGYYHVSQKTPPQTISGVVSKNV  105 (154)
+T ss_dssp             CSSSSCEEEEETT--EEEEECCCCCTTCSTTCCSTTCCCCCCTTCCCEEEEEECCTTT
+T ss_pred             CCCCcEEEEEcCC--CcEEeeccccccceeeecCCceeEEeecCCCCceEEEeecCCC
+Confidence            3556788888866  889998876665432        22222233344688888876
+
+
+No 7
+>3BWS_A protein Lp49; Two-domain, immunoglobulin-like, 7-bladed beta propeller; HET: SO4, MSE; 1.99A {Leptospira interrogans}
+Probab=10.01  E-value=1.6e+03  Score=18.51  Aligned_cols=59  Identities=12%  Similarity=0.128  Sum_probs=24.8  Template_Neff=12.600
+
+Q ss_pred             EEEECCCCCeEEEEeeeCCCCCCceEEEEccCCCCcEEEEeCCCCCCceEEEeCCCCee
+Q tr|F6SXV3|F6SX   78 FHLVDQNGQAIQYELQSLGESNAQMMIVASPTENGQVLRVIPPTQTGMAQVIIPQGQLV  136 (309)
+Q Consensus        78 fhlvdqngqaiqyelqslgesnaqmmivasptengqvlrvipptqtgmaqviipqgqlv  136 (309)
+                      +.+...+|+.+.|.+..-+........+......+..+..++....-.+-.+-|.|+++
+T Consensus        79 ~~~~s~~g~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~s~dg~~l  137 (433)
+T 3BWS_A           79 LKLSSPGFQNSSYRIRKPEELNEKLIALDKEGITHRFISRFKTGFQPKSVRFIDNTRLA  137 (433)
+T ss_dssp             EEEECTTBCCEEEEESSGGGGTTCEEECCBTTCSEEEEEEEECSSCBCCCEESSSSEEE
+T ss_pred             EEEecCceecEEEEeeCCchhceEEEEecCCCCceeEEEEeecCCCCceEEEcCCCCEE
+Confidence            33445566666664443333333333333333344444444433322233334444433
+
+
+No 8
+>7C2P_D Plant defensing Egk; Plant Defensin, PROTEIN BINDING; 2.1A {Elaeis guineensis}
+Probab=9.52  E-value=2.2e+02  Score=18.71  Aligned_cols=17  Identities=24%  Similarity=0.815  Sum_probs=12.2  Template_Neff=8.500
+
+Q ss_pred             eceecCCceeeEEechh
+Q tr|F6SXV3|F6SX  212 SCEKIGDSYRGYCVSET  228 (309)
+Q Consensus       212 scekigdsyrgycvset  228 (309)
+                      .|++....|+|.|++..
+T Consensus         2 ~C~~~s~~~~g~C~~~~   18 (47)
+T 7C2P_D            2 TCESQSHKFKGPCLRAS   18 (47)
+T ss_dssp             EEEEECSSCCSCCCCHH
+T ss_pred             cccCCCCcccccccCCc
+Confidence            47777778888887653
+
+
+No 9
+>1OIS_A DNA TOPOISOMERASE I; ISOMERASE, TOPOISOMERASE, DNA-BINDING PROTEIN; 1.9A {Saccharomyces cerevisiae} SCOP: e.15.1.1
+Probab=9.49  E-value=2.2e+02  Score=26.97  Aligned_cols=30  Identities=37%  Similarity=0.707  Sum_probs=21.6  Template_Neff=5.600
+
+Q ss_pred             ccchhHHHHHHHHhccC----C--------CCCcccCCCCCe
+Q tr|F6SXV3|F6SX  274 FVNAGTFLKNYFKRFSS----S--------HSPLSKCDFPKV  303 (309)
+Q Consensus       274 fvnagtflknyfkrfss----s--------hsplskcdfpkv  303 (309)
+                      ++..-.|-+|+|+.|..    .        -..+.+|||-.+
+T Consensus        56 ~~~~~~F~~NF~~Df~~~l~~~~~~~~~~~i~~l~~cDFs~I   97 (223)
+T 1OIS_A           56 HAKNPVFQKNFFNDFLQVLKESGGPLNGIEIKEFSRCDFTKM   97 (223)
+T ss_dssp             GGGCHHHHHHHHHHHHHHHHHTTCCTTCCCCCCGGGEECHHH
+T ss_pred             cccCHHHHHHHHHHHHHHHHhcCCCCCCcccccHHHCCcHHH
+Confidence            45556899999998875    1        236789999654
+
+
+No 10
+>4AAZ_B FLOWER-SPECIFIC DEFENSIN; ANTIMICROBIAL PROTEIN, INNATE IMMUNITY; HET: EDO; 1.4A {NICOTIANA ALATA}
+Probab=9.15  E-value=2.3e+02  Score=19.00  Aligned_cols=17  Identities=18%  Similarity=0.821  Sum_probs=12.8  Template_Neff=8.000
+
+Q ss_pred             eceecCCceeeEEechh
+Q tr|F6SXV3|F6SX  212 SCEKIGDSYRGYCVSET  228 (309)
+Q Consensus       212 scekigdsyrgycvset  228 (309)
+                      .|++....|.|.|++..
+T Consensus         2 ~C~~~S~~~~G~C~~~~   18 (47)
+T 4AAZ_B            2 ECKTESNTFPGICITKP   18 (47)
+T ss_dssp             EEEEECSSCCSCCCSHH
+T ss_pred             cccCCCCCCCcccCCCh
+Confidence            47777788888887654
+
+

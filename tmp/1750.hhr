@@ -1,0 +1,170 @@
+Query         tr|A0A7I2V6D3|A0A7I2V6D3_HUMAN
+Match_columns 23
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:58:11 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1750.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YSX_D RHODOQUINOL-FUMARATE RE  31.9      42 0.00045   19.1   0.5   16    1-16      2-17  (156)
+  2 4YSY_D RHODOQUINOL-FUMARATE RE  31.9      42 0.00045   19.1   0.5   16    1-16      2-17  (156)
+  3 5D39_A STAT6 core fragment/DNA  27.0      42 0.00046   22.5   0.0   11   12-22    439-449 (539)
+  4 4Y5U_A STAT6 core fragment; tr  25.6      46  0.0005   22.3   0.0   11   12-22    449-459 (549)
+  5 5V4A_B GLYCOSYLTRANSFERASE (DU  24.2      25 0.00028   20.2  -1.2   11   12-22     23-33  (274)
+  6 4PFX_A DUF1792; DUF1792, glyco  23.5      27 0.00029   20.1  -1.2   11   12-22     29-39  (277)
+  7 4PHR_A unknown function domain  23.3      27 0.00029   20.1  -1.2   10   13-22     30-39  (277)
+  8 6MBZ_A Signal transducer and a  23.1      54 0.00058   21.2  -0.0   11   12-22    483-493 (572)
+  9 6UX2_A Signal transducer and a  19.8      73 0.00079   21.2   0.1   10   12-21    597-606 (713)
+ 10 1Y1U_B Signal transducer and a  19.1      74  0.0008   20.6  -0.0   11   12-22    487-497 (585)
+
+No 1
+>4YSX_D RHODOQUINOL-FUMARATE REDUCTASE FP SUBUNIT, RHODOQUINOL-FUMARATE; rhodoquinol-fumarate reductase, Complex II, OXIDOREDUCTASE-OXIDOREDUCTASE; HET: SF4, HEM, MLI, EPH, FAD, F3S, E23; 2.25A {Ascaris suum}
+Probab=31.92  E-value=42  Score=19.08  Aligned_cols=16  Identities=38%  Similarity=0.544  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CCchhhhhhchchhhc
+Q tr|A0A7I2V6D3|    1 MAAVRRARSYCRCLVR   16 (23)
+Q Consensus         1 maavrrarsycrclvr   16 (23)
+                      |+|++|.-+-|+-+++
+T Consensus         2 ~~~~~r~~~~~~~~~~   17 (156)
+T 4YSX_D            2 LSAVRRAIPLSARILR   17 (156)
+T ss_dssp             ----------------
+T ss_pred             chhhHHHHHHHHHhhc
+Confidence            6788898888887665
+
+
+No 2
+>4YSY_D RHODOQUINOL-FUMARATE REDUCTASE FP SUBUNIT, RHODOQUINOL-FUMARATE; rhodoquinol-fumarate reductase, Complex II, OXIDOREDUCTASE-OXIDOREDUCTASE; HET: E24, SF4, HEM, MLI, EPH, FAD, F3S; 3.1A {Ascaris suum}
+Probab=31.92  E-value=42  Score=19.08  Aligned_cols=16  Identities=38%  Similarity=0.544  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CCchhhhhhchchhhc
+Q tr|A0A7I2V6D3|    1 MAAVRRARSYCRCLVR   16 (23)
+Q Consensus         1 maavrrarsycrclvr   16 (23)
+                      |+|++|.-+-|+-+++
+T Consensus         2 ~~~~~r~~~~~~~~~~   17 (156)
+T 4YSY_D            2 LSAVRRAIPLSARILR   17 (156)
+T ss_dssp             ----------------
+T ss_pred             chhhHHHHHHHHHhhc
+Confidence            6788898888887665
+
+
+No 3
+>5D39_A STAT6 core fragment/DNA Complex; regulation, DNA binding, innate immune; HET: PTR; 3.2A {Homo sapiens}
+Probab=27.03  E-value=42  Score=22.46  Aligned_cols=11  Identities=55%  Similarity=0.896  Sum_probs=8.7  Template_Neff=6.900
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      ..|+||||.++
+T Consensus       439 TFLLRFSdS~~  449 (539)
+T 5D39_A          439 TFLLRFSDSEI  449 (539)
+T ss_dssp             EEEEEECSSST
+T ss_pred             cEEEEEeCCCC
+Confidence            46899999764
+
+
+No 4
+>4Y5U_A STAT6 core fragment; transcription, dimerization, innate immune, DNA; HET: PTR; 2.708A {Homo sapiens}
+Probab=25.59  E-value=46  Score=22.33  Aligned_cols=11  Identities=55%  Similarity=0.896  Sum_probs=8.6  Template_Neff=6.900
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      ..|+||||.++
+T Consensus       449 TFLLRFSdS~~  459 (549)
+T 4Y5U_A          449 TFLLRFSDSEI  459 (549)
+T ss_dssp             EEEEEECSSSS
+T ss_pred             cEEEEEeCCCC
+Confidence            46899999764
+
+
+No 5
+>5V4A_B GLYCOSYLTRANSFERASE (DUF1792); Glycosyltransferase, DUF1792, TRANSFERASE; HET: UDP; 1.75A {Streptococcus sanguinis (strain SK36)}
+Probab=24.21  E-value=25  Score=20.16  Aligned_cols=11  Identities=45%  Similarity=0.815  Sum_probs=8.1  Template_Neff=8.600
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      -.++||.|.|.
+T Consensus        23 ~SliRfGDGE~   33 (274)
+T 5V4A_B           23 ASVVRFGDGEM   33 (274)
+T ss_dssp             CEEEECCHHHH
+T ss_pred             CEEEEECChHH
+Confidence            36889998763
+
+
+No 6
+>4PFX_A DUF1792; DUF1792, glycosyltransferase, TRANSFERASE; HET: UDP; 1.66A {Streptococcus parasanguinis}
+Probab=23.46  E-value=27  Score=20.09  Aligned_cols=11  Identities=45%  Similarity=0.815  Sum_probs=8.2  Template_Neff=8.600
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      -.++||.|.|+
+T Consensus        29 fSlvRfGDGE~   39 (277)
+T 4PFX_A           29 ASVVRFGDGEI   39 (277)
+T ss_dssp             CEEEECCHHHH
+T ss_pred             CEEEEECchHH
+Confidence            36889988764
+
+
+No 7
+>4PHR_A unknown function domain 1792 with; Domain of unknown function 1792; HET: UDP; 1.34A {Streptococcus parasanguinis}
+Probab=23.35  E-value=27  Score=20.08  Aligned_cols=10  Identities=50%  Similarity=0.916  Sum_probs=7.8  Template_Neff=8.600
+
+Q ss_pred             hhhccCCCCC
+Q tr|A0A7I2V6D3|   13 CLVRFSDREL   22 (23)
+Q Consensus        13 clvrfsdrel   22 (23)
+                      .++||.|.|+
+T Consensus        30 SliRfGDGE~   39 (277)
+T 4PHR_A           30 SVVRFGDGEI   39 (277)
+T ss_dssp             EEEECCHHHH
+T ss_pred             EEEEECchHH
+Confidence            6889988764
+
+
+No 8
+>6MBZ_A Signal transducer and activator of; transcription factor, TRANSCRIPTION ACTIVATOR; 3.21A {Homo sapiens}
+Probab=23.11  E-value=54  Score=21.16  Aligned_cols=11  Identities=55%  Similarity=0.896  Sum_probs=8.0  Template_Neff=8.300
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      ..|+|||+.++
+T Consensus       483 TFLlRFS~s~~  493 (572)
+T 6MBZ_A          483 TFLLRFSDSEI  493 (572)
+T ss_dssp             EEEEEECSSST
+T ss_pred             eEEEEEeCCCC
+Confidence            36889998653
+
+
+No 9
+>6UX2_A Signal transducer and activator of; host-pathogen interaction, VIRAL PROTEIN, DNA; HET: SO4; 3.01A {Homo sapiens}
+Probab=19.79  E-value=73  Score=21.19  Aligned_cols=10  Identities=40%  Similarity=0.713  Sum_probs=7.6  Template_Neff=8.300
+
+Q ss_pred             chhhccCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDRE   21 (23)
+Q Consensus        12 rclvrfsdre   21 (23)
+                      ..|+||||.+
+T Consensus       597 TFLlRFS~s~  606 (713)
+T 6UX2_A          597 TFLLRFSESS  606 (713)
+T ss_dssp             EEEEEECSSS
+T ss_pred             eEEEEeeCCC
+Confidence            4688999865
+
+
+No 10
+>1Y1U_B Signal transducer and activator of; Activator, STAT, DNA-binding, SH2 domain; 3.21A {Mus musculus}
+Probab=19.10  E-value=74  Score=20.64  Aligned_cols=11  Identities=55%  Similarity=0.896  Sum_probs=8.0  Template_Neff=8.300
+
+Q ss_pred             chhhccCCCCC
+Q tr|A0A7I2V6D3|   12 RCLVRFSDREL   22 (23)
+Q Consensus        12 rclvrfsdrel   22 (23)
+                      ..|+|||+.++
+T Consensus       487 TFLlRFS~s~~  497 (585)
+T 1Y1U_B          487 TFLLRFSDSEI  497 (585)
+T ss_dssp             CEEEEEETTST
+T ss_pred             eEEEEEeCCCC
+Confidence            46889988653
+
+

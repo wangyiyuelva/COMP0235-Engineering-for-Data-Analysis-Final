@@ -1,0 +1,234 @@
+Query         tr|H0Y8N0|H0Y8N0_HUMAN
+Match_columns 155
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:26:40 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0995.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5GAM_A Pre-mRNA-splicing facto  58.9      40 0.00044   32.7   5.1   81   61-144   607-707 (735)
+  2 5C8H_A Origin recognition comp  52.1      56 0.00061   23.6   3.8   31   68-98     13-43  (121)
+  3 6XY4_A 16L protein, Bcl-2-like  34.0      84 0.00091   26.5   2.7   25   74-98    119-143 (150)
+  4 6XY6_C 16L protein, Bcl-2-like  33.0      90 0.00098   26.2   2.7   26   73-98    113-138 (145)
+  5 2LNM_A Protein TIC 40, chlorop  29.2 1.9E+02   0.002   16.2   3.7   39   74-112    21-59  (62)
+  6 5GM6_A Prp8, Brr2, Snu114, Rse  26.2 1.7E+02  0.0019   33.4   4.1   80   61-143   481-580 (2287)
+  7 7DCO_A PRP8 isoform 1, SNU114   24.1 1.6E+02  0.0017   33.9   3.4   80   61-143   607-706 (2413)
+  8 1ABZ_A DE NOVO DESIGN, HELIX-T  22.1 1.7E+02  0.0018   20.6   2.1   26   63-88     13-38  (40)
+  9 4CY4_E MAGNESIUM TRANSPORT PRO  21.4   5E+02  0.0054   19.3   4.5   31   83-113   249-279 (317)
+ 10 3THG_A Ribulose bisphosphate c  21.1 5.2E+02  0.0057   19.0   4.6   26   37-66     32-57  (107)
+ 11 5UJ8_F Origin recognition comp  20.7 3.6E+02  0.0039   23.6   4.2   32   69-100   240-271 (347)
+ 12 5UJM_B Origin recognition comp  20.7 3.6E+02  0.0039   23.6   4.2   33   68-100   239-271 (347)
+
+No 1
+>5GAM_A Pre-mRNA-splicing factor 8, Pre-mRNA-splicing factor; Transcription, pre-mRNA splicing, snRNP, GTPase; HET: GTP; 3.7A {Saccharomyces cerevisiae}
+Probab=58.92  E-value=40  Score=32.75  Aligned_cols=81  Identities=26%  Similarity=0.497  Sum_probs=47.1  Template_Neff=6.500
+
+Q ss_pred             HHHHHhcCCCCChHHHHHHHHhCCHHHHHHHHHHHh-hhhhhhhHHHHHHHcCCchh-------------------hHHH
+Q tr|H0Y8N0|H0Y8   61 TKKVLDARGSNSLPLLRSVLDKLSANQQNILKFIAC-NEIFLMPATVFMLFSGQGSL-------------------LQPF  120 (155)
+Q Consensus        61 tkkvldargsnslpllrsvldklsanqqnilkfiac-neiflmpatvfmlfsgqgsl-------------------lqpf  120 (155)
+                      ||.--..|-.|+.-++|+++.-+.---.....|-.- .+.|-.--.+.-+|+--|.+                   +.=.
+T Consensus       607 tke~k~sr~g~~f~l~~e~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~t~~yryky~~m~qi~~~k~~~~~  686 (735)
+T 5GAM_A          607 TKERKKSRLGNSFHLMRELLKMMKLIVDTHVQFRLGNVDAFQLADGIHYILNHIGQLTGIYRYKYKVMHQIRACKDLKHI  686 (735)
+T ss_dssp             HHHHHHTCCCHHHHHHHHHHHHHHHHHHHHHHHHSSSSCHHHHHHHHHHHHHCHHHHCCSTTTCTHHHHHHHHHHHHHHH
+T ss_pred             hHHHHhhccchHHHHHHHHHHHhhHHhhhhhhHhcCCCCHHHHHHHHHHHHhhHHHHHhHHHHHHHHHHHHHhcCcccch
+Confidence            455566788888888888775322111111111110 11122222344455555543                   4567
+
+
+Q ss_pred             HHHHHHhhhccCCCCCcccccCCC
+Q tr|H0Y8N0|H0Y8  121 IYYRFLTLRYSSRRNPYCRLWCPK  144 (155)
+Q Consensus       121 iyyrfltlryssrrnpycrlwcpk  144 (155)
+                      |||||-+   .....|.|-.|+|-
+T Consensus       687 ~y~~fn~---~~~~~pg~g~w~p~  707 (735)
+T 5GAM_A          687 IYYKFNK---NLGKGPGCGFWQPA  707 (735)
+T ss_dssp             HHHHHTT---SSCCSSCCCCCHHH
+T ss_pred             hhhcccc---cCCCCCCCcccchH
+Confidence            9999998   77889999999873
+
+
+No 2
+>5C8H_A Origin recognition complex subunit 2; Structural Genomics, DNA replication, Structural; 2.01A {Homo sapiens}
+Probab=52.13  E-value=56  Score=23.57  Aligned_cols=31  Identities=29%  Similarity=0.438  Sum_probs=26.1  Template_Neff=8.000
+
+Q ss_pred             CCCCChHHHHHHHHhCCHHHHHHHHHHHhhh
+Q tr|H0Y8N0|H0Y8   68 RGSNSLPLLRSVLDKLSANQQNILKFIACNE   98 (155)
+Q Consensus        68 rgsnslpllrsvldklsanqqnilkfiacne   98 (155)
+                      .|.++..-++.||+.|..|.+++++.+|-..
+T Consensus        13 ~~~~~~~~~~~VL~SLt~n~r~lf~lLa~~q   43 (121)
+T 5C8H_A           13 SGSLPLSSLTHVLRSLTPNARGIFRLLIKYQ   43 (121)
+T ss_dssp             --CCCHHHHHHHHTTSCHHHHHHHHHHHHHH
+T ss_pred             CCCCchHHHHHHHHhCCHHHHHHHHHHHHHH
+Confidence            4677889999999999999999999998653
+
+
+No 3
+>6XY4_A 16L protein, Bcl-2-like protein 11; Pox virus, Apoptosis, Bcl-2; 2.04623155256A {Sheeppox virus (strain Turkey/TU-V02127)}
+Probab=33.96  E-value=84  Score=26.48  Aligned_cols=25  Identities=28%  Similarity=0.541  Sum_probs=21.4  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHhCCHHHHHHHHHHHhhh
+Q tr|H0Y8N0|H0Y8   74 PLLRSVLDKLSANQQNILKFIACNE   98 (155)
+Q Consensus        74 pllrsvldklsanqqnilkfiacne   98 (155)
+                      -+...+++|+|++++.|++||-+|.
+T Consensus       119 ~Ls~~ii~kiS~~~~~iI~fI~k~~  143 (150)
+T 6XY4_A          119 LALNELINKFSSYQKDIISFVEKNK  143 (150)
+T ss_dssp             HHHHHHHHHHHHTHHHHHHHHHTC-
+T ss_pred             HHHHHHHHHhhhchHHHHHHHHHHH
+Confidence            4667899999999999999998764
+
+
+No 4
+>6XY6_C 16L protein, Bcl-2-like protein 11; Pox virus, Apoptosis, Bcl-2; 2.91414639113A {Sheeppox virus (strain Turkey/TU-V02127)}
+Probab=33.01  E-value=90  Score=26.19  Aligned_cols=26  Identities=27%  Similarity=0.469  Sum_probs=22.7  Template_Neff=3.900
+
+Q ss_pred             hHHHHHHHHhCCHHHHHHHHHHHhhh
+Q tr|H0Y8N0|H0Y8   73 LPLLRSVLDKLSANQQNILKFIACNE   98 (155)
+Q Consensus        73 lpllrsvldklsanqqnilkfiacne   98 (155)
+                      --+...+++|+|++++.|++||-+|.
+T Consensus       113 ~~Ls~~ii~kiS~~~~~iI~fi~k~~  138 (145)
+T 6XY6_C          113 DLALNELINKFSSYQKDIISFVEKNK  138 (145)
+T ss_dssp             HHHHHHHHHHHHHTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhhhcHHHHHHHHHHHH
+Confidence            35677899999999999999999864
+
+
+No 5
+>2LNM_A Protein TIC 40, chloroplastic; translocon, import, chloroplast, Tic40-NP, PROTEIN; NMR {Arabidopsis thaliana}
+Probab=29.22  E-value=1.9e+02  Score=16.22  Aligned_cols=39  Identities=28%  Similarity=0.419  Sum_probs=19.2  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHhCCHHHHHHHHHHHhhhhhhhhHHHHHHHcC
+Q tr|H0Y8N0|H0Y8   74 PLLRSVLDKLSANQQNILKFIACNEIFLMPATVFMLFSG  112 (155)
+Q Consensus        74 pllrsvldklsanqqnilkfiacneiflmpatvfmlfsg  112 (155)
+                      |-++..+..+..|.+++-++...-++--.....+..+.+
+T Consensus        21 p~~~~~~~~~~~~p~~~~~~~~~p~~~~~~~~~~~~~~~   59 (62)
+T 2LNM_A           21 PRVQAALMECSENPMNIMKYQNDKEVMDVFNKISQLFPG   59 (62)
+T ss_dssp             HHHHHHHHHHTTCGGGHHHHTTCHHHHHHHHHHHHHSSS
+T ss_pred             HHHHHHHHHHHhCHHHHHHHhcCHHHHHHHHHHHHHcCC
+Confidence            555566666666666655554433333333333333443
+
+
+No 6
+>5GM6_A Prp8, Brr2, Snu114, Rse1, Cus1; spliceosome, RNA splicing, Bact, Catalytically; HET: ADP, GTP, ZN; 3.5A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=26.24  E-value=1.7e+02  Score=33.42  Aligned_cols=80  Identities=26%  Similarity=0.505  Sum_probs=46.9  Template_Neff=4.900
+
+Q ss_pred             HHHHHhcCCCCChHHHHHHHHhCCHHHHHHHHHHHh-hhhhhhhHHHHHHHcCCchh-------------------hHHH
+Q tr|H0Y8N0|H0Y8   61 TKKVLDARGSNSLPLLRSVLDKLSANQQNILKFIAC-NEIFLMPATVFMLFSGQGSL-------------------LQPF  120 (155)
+Q Consensus        61 tkkvldargsnslpllrsvldklsanqqnilkfiac-neiflmpatvfmlfsgqgsl-------------------lqpf  120 (155)
+                      ||.--..|=.|+..|+|++|.-+.--..-..+|=.- -+.|-.--.+.-+|+--|.+                   +.-.
+T Consensus       481 TKErKksR~G~afhl~rE~l~~~k~ivd~~v~yr~g~ida~qlad~l~yif~hvG~lTgiYRYKYk~m~QIr~~K~lk~l  560 (2287)
+T 5GM6_A          481 TKERKKSRLGNSFHLMRELLKMMKLIVDTHVQFRLGNVDAFQLADGIHYILNHIGQLTGIYRYKYKVMHQIRACKDLKHI  560 (2287)
+T ss_dssp             HHHHHHTCCCHHHHHHHHHHHHHHHHHHHHHHHHTTSSCSHHHHHHHHHHHHHHHHHTCGGGTCGGGHHHHHHHHHHHHH
+T ss_pred             hhHHHHhchhHHHHHHHHHHHhHhHHhhHhHHHHcCCCCHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHhccccchH
+Confidence            566667888999999998875332111111111100 01122222344445444433                   4457
+
+
+Q ss_pred             HHHHHHhhhccCCCCCcccccCC
+Q tr|H0Y8N0|H0Y8  121 IYYRFLTLRYSSRRNPYCRLWCP  143 (155)
+Q Consensus       121 iyyrfltlryssrrnpycrlwcp  143 (155)
+                      |||||-+   .....|.|-.|||
+T Consensus       561 iy~rfn~---~vgk~pg~gfw~p  580 (2287)
+T 5GM6_A          561 IYYKFNK---NLGKGPGCGFWQP  580 (2287)
+T ss_dssp             HHHHHST---TSCSSSCCCCCHH
+T ss_pred             hHhcccc---CCCCCCCCccccc
+Confidence            9999998   7778899999998
+
+
+No 7
+>7DCO_A PRP8 isoform 1, SNU114 isoform; RNA splicing, spliceosome, Bact complex; HET: ZN, GTP, IHP; 2.5A {Saccharomyces cerevisiae}
+Probab=24.10  E-value=1.6e+02  Score=33.86  Aligned_cols=80  Identities=26%  Similarity=0.512  Sum_probs=50.1  Template_Neff=5.000
+
+Q ss_pred             HHHHHhcCCCCChHHHHHHHHhCCHHHHHHHHHH-HhhhhhhhhHHHHHHHcCCchh-------------------hHHH
+Q tr|H0Y8N0|H0Y8   61 TKKVLDARGSNSLPLLRSVLDKLSANQQNILKFI-ACNEIFLMPATVFMLFSGQGSL-------------------LQPF  120 (155)
+Q Consensus        61 tkkvldargsnslpllrsvldklsanqqnilkfi-acneiflmpatvfmlfsgqgsl-------------------lqpf  120 (155)
+                      ||.--..|=.|+..|.|++|.-+.---.-..+|= ..-+.|-.--.+.-+|+.-|.+                   +.=.
+T Consensus       607 tKErKksr~g~~fhl~rE~lr~~k~ivd~~~~~r~~~~~~~~l~~~~~~~f~~vg~ltg~yryKYk~m~Qi~~~k~lkh~  686 (2413)
+T 7DCO_A          607 TKERKKSRLGNSFHLMRELLKMMKLIVDTHVQFRLGNVDAFQLADGIHYILNHIGQLTGIYRYKYKVMHQIRACKDLKHI  686 (2413)
+T ss_dssp             HHHHHHSCCCHHHHHHHHHHHHHHHHHHHHHHHHTTSSCHHHHHHHHHHHHTCHHHHCCGGGTSGGGHHHHHHHHHHHHH
+T ss_pred             hhHHHHhchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHhhHHhhHHHHHHHHHHHHHhcccccce
+Confidence            5666678889999999988753221111111110 1112222334556677776654                   3457
+
+
+Q ss_pred             HHHHHHhhhccCCCCCcccccCC
+Q tr|H0Y8N0|H0Y8  121 IYYRFLTLRYSSRRNPYCRLWCP  143 (155)
+Q Consensus       121 iyyrfltlryssrrnpycrlwcp  143 (155)
+                      |||||-+   .....|.|-.|||
+T Consensus       687 iy~rfn~---~~~k~pg~gfw~p  706 (2413)
+T 7DCO_A          687 IYYKFNK---NLGKGPGCGFWQP  706 (2413)
+T ss_dssp             HHHHHTT---TCCSSSCCCCCHH
+T ss_pred             eeeeccc---CCCCCCCCcccCc
+Confidence            9999998   7788999999998
+
+
+No 8
+>1ABZ_A DE NOVO DESIGN, HELIX-TURN-HELIX; HET: SIN, NH2; NMR {N/A} SCOP: k.15.1.1
+Probab=22.13  E-value=1.7e+02  Score=20.59  Aligned_cols=26  Identities=42%  Similarity=0.541  Sum_probs=22.1  Template_Neff=1.000
+
+Q ss_pred             HHHhcCCCCChHHHHHHHHhCCHHHH
+Q tr|H0Y8N0|H0Y8   63 KVLDARGSNSLPLLRSVLDKLSANQQ   88 (155)
+Q Consensus        63 kvldargsnslpllrsvldklsanqq   88 (155)
+                      ..|+|||..|-.-||..-.||.+.-|
+T Consensus        13 qaleargtdsnaelrameaklkaeiq   38 (40)
+T 1ABZ_A           13 QALEARGTDSNAELRAMEAKLKAEIQ   38 (40)
+T ss_dssp             HHHHHTCSSCSSHHHHHHHHHHHHHT
+T ss_pred             HHHHHhCCCcHHHHHHHHHHHHHHHh
+Confidence            56899999999999999888877654
+
+
+No 9
+>4CY4_E MAGNESIUM TRANSPORT PROTEIN CORA; MEMBRANE PROTEIN, MAGNESIUM ION CHANNEL; 21.6A {METHANOCALDOCOCCUS JANNASCHII}
+Probab=21.38  E-value=5e+02  Score=19.30  Aligned_cols=31  Identities=10%  Similarity=0.082  Sum_probs=19.7  Template_Neff=11.300
+
+Q ss_pred             CCHHHHHHHHHHHhhhhhhhhHHHHHHHcCC
+Q tr|H0Y8N0|H0Y8   83 LSANQQNILKFIACNEIFLMPATVFMLFSGQ  113 (155)
+Q Consensus        83 lsanqqnilkfiacneiflmpatvfmlfsgq  113 (155)
+                      .+.++...+|.++.--++.+|+|.+.-+-|.
+T Consensus       249 ~s~~~n~~~~~lt~vt~iflP~t~vas~fgm  279 (317)
+T 4CY4_E          249 ENIKMNQIMKILTMVTTIFAVPMWITGIYGM  279 (317)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhhcC
+Confidence            3445555677777777777888766544443
+
+
+No 10
+>3THG_A Ribulose bisphosphate carboxylase/oxygenase activase 1; Four-helix bundle, Rubisco reactivation, Chloroplast; 1.88A {Larrea tridentata}
+Probab=21.11  E-value=5.2e+02  Score=19.04  Aligned_cols=26  Identities=27%  Similarity=0.537  Sum_probs=17.9  Template_Neff=7.100
+
+Q ss_pred             cCCCcchhcHHHHHHHHHHHHHHHHHHHHh
+Q tr|H0Y8N0|H0Y8   37 VNSYPVTMSIFPVLLFSLLHAATYTKKVLD   66 (155)
+Q Consensus        37 vnsypvtmsifpvllfsllhaatytkkvld   66 (155)
+                      |..||-.    |+-.|+-+.+.+|-..|.+
+T Consensus        32 V~~Fp~q----~idFFgalrsr~~D~~i~~   57 (107)
+T 3THG_A           32 VDTFPGQ----SIDFFGALRARVYDDEVRK   57 (107)
+T ss_dssp             HHHSTTC----CHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhCCCC----chHHHHHHHHHHHHHHHHH
+Confidence            4555544    7778899998888655543
+
+
+No 11
+>5UJ8_F Origin recognition complex subunit 3; ORC, Replication, ATPase, HYDROLASE; 6.0A {Homo sapiens}
+Probab=20.71  E-value=3.6e+02  Score=23.56  Aligned_cols=32  Identities=28%  Similarity=0.408  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             CCCChHHHHHHHHhCCHHHHHHHHHHHhhhhh
+Q tr|H0Y8N0|H0Y8   69 GSNSLPLLRSVLDKLSANQQNILKFIACNEIF  100 (155)
+Q Consensus        69 gsnslpllrsvldklsanqqnilkfiacneif  100 (155)
+                      |+.++.-+..||..|+.|.++|++.+|-..+-
+T Consensus       240 ~~~~~~~~~~VL~SLt~nar~if~~La~~ql~  271 (347)
+T 5UJ8_F          240 GSLPLSSLTHVLRSLTPNARGIFRLLIKYQLD  271 (347)
+T ss_dssp             --------------------------------
+T ss_pred             CCCChHHHHHHHhcCCHHHHHHHHHHHHHHHH
+Confidence            33455568899999999999999999876443
+
+
+No 12
+>5UJM_B Origin recognition complex subunit 1; ORC, replication, ATPase; HET: ATP; 18.0A {Homo sapiens}
+Probab=20.71  E-value=3.6e+02  Score=23.56  Aligned_cols=33  Identities=27%  Similarity=0.394  Sum_probs=26.5  Template_Neff=7.500
+
+Q ss_pred             CCCCChHHHHHHHHhCCHHHHHHHHHHHhhhhh
+Q tr|H0Y8N0|H0Y8   68 RGSNSLPLLRSVLDKLSANQQNILKFIACNEIF  100 (155)
+Q Consensus        68 rgsnslpllrsvldklsanqqnilkfiacneif  100 (155)
+                      .|+.++.-+..||..|+.|.++|++.+|-..+-
+T Consensus       239 ~~~~~~~~~~~VL~SLt~nar~if~~La~~ql~  271 (347)
+T 5UJM_B          239 SGSLPLSSLTHVLRSLTPNARGIFRLLIKYQLD  271 (347)
+T ss_dssp             --CCCHHHHHHHHTTSCHHHHHHHHHHHHHHHH
+T ss_pred             CCCCChHHHHHHHhcCCHHHHHHHHHHHHHHHH
+Confidence            345567788999999999999999999977543
+
+

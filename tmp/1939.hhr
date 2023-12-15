@@ -1,0 +1,170 @@
+Query         tr|I3L3B1|I3L3B1_HUMAN
+Match_columns 35
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:16:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1939.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1FI4_A MEVALONATE 5-DIPHOSPHAT  18.4 1.2E+02  0.0013   19.6   0.7   12    5-16    391-402 (416)
+  2 3T30_C Nucleoplasmin-2; beta-b  18.1 1.4E+02  0.0015   16.9   0.9   12    5-16     92-103 (110)
+  3 6N10_A Diphosphomevalonate dec  16.2 1.3E+02  0.0014   19.6   0.6   13    5-17    388-400 (415)
+  4 6XR5_B Diphosphomevalonate dec  16.1 1.4E+02  0.0015   19.5   0.7   12    5-16    375-386 (403)
+  5 6XR5_G Diphosphomevalonate dec  16.1 1.4E+02  0.0015   19.5   0.7   12    5-16    375-386 (403)
+  6 7OG0_B NTHi, RNA binding, pept  14.3 2.1E+02  0.0023   17.4   1.1   12    9-20    199-210 (527)
+  7 5NBB_A RNA chaperone ProQ; Fin  13.2 2.9E+02  0.0031   15.1   1.3   12    8-19     16-27  (53)
+  8 5YH8_A Nickel ABC transporter   12.6 2.7E+02   0.003   17.1   1.2   13    8-20    165-177 (510)
+  9 3U21_A Nuclear factor related   12.0 1.9E+02  0.0021   18.1   0.5   21    1-21     76-97  (127)
+ 10 1DPE_A DIPEPTIDE-BINDING PROTE  11.9 3.1E+02  0.0033   16.8   1.3   11    9-19    180-190 (507)
+
+No 1
+>1FI4_A MEVALONATE 5-DIPHOSPHATE DECARBOXYLASE; mixed alpha/beta structure, ATP binding; HET: MSE; 2.27A {Saccharomyces cerevisiae} SCOP: d.14.1.5, d.58.26.2
+Probab=18.40  E-value=1.2e+02  Score=19.61  Aligned_cols=12  Identities=50%  Similarity=0.958  Sum_probs=10.2  Template_Neff=9.500
+
+Q ss_pred             ceeeeCCCCeee
+Q tr|I3L3B1|I3L3    5 FITKVGSGPVKA   16 (35)
+Q Consensus         5 fitkvgsgpvka   16 (35)
+                      .+|++|+||...
+T Consensus       391 ~~~~~g~g~~~~  402 (416)
+T 1FI4_A          391 ILTQVGSGPQET  402 (416)
+T ss_dssp             EEEEBCCCCEEC
+T ss_pred             EECCCCCCcEEc
+Confidence            479999999876
+
+
+No 2
+>3T30_C Nucleoplasmin-2; beta-barrel jelly roll topology, Histone; 1.9A {Homo sapiens}
+Probab=18.06  E-value=1.4e+02  Score=16.92  Aligned_cols=12  Identities=50%  Similarity=0.791  Sum_probs=7.9  Template_Neff=7.600
+
+Q ss_pred             ceeeeCCCCeee
+Q tr|I3L3B1|I3L3    5 FITKVGSGPVKA   16 (35)
+Q Consensus         5 fitkvgsgpvka   16 (35)
+                      |.-+-|||||-.
+T Consensus        92 f~L~~GsGPV~l  103 (110)
+T 3T30_C           92 FQLRAGSGPVFL  103 (110)
+T ss_dssp             EEEEESCCCEEE
+T ss_pred             EEEeeCCcceEE
+Confidence            444569999853
+
+
+No 3
+>6N10_A Diphosphomevalonate decarboxylase MVD1, peroxisomal (E.C.4.1.1.33); LYASE; HET: DP6, SO4; 2.3A {Arabidopsis thaliana}
+Probab=16.22  E-value=1.3e+02  Score=19.58  Aligned_cols=13  Identities=31%  Similarity=0.562  Sum_probs=10.5  Template_Neff=9.200
+
+Q ss_pred             ceeeeCCCCeeee
+Q tr|I3L3B1|I3L3    5 FITKVGSGPVKAV   17 (35)
+Q Consensus         5 fitkvgsgpvkav   17 (35)
+                      ..|++|.||...-
+T Consensus       388 i~t~~g~gp~~~~  400 (415)
+T 6N10_A          388 ICSRPGRGPVVLQ  400 (415)
+T ss_dssp             EEECBCCCCEECC
+T ss_pred             EECCCCCCcEECC
+Confidence            4689999998764
+
+
+No 4
+>6XR5_B Diphosphomevalonate decarboxylase (E.C.4.1.1.33); SSGCID, Diphosphomevalonate decarboxylase, Cryptococcus neoformans; HET: SO4, ADE; 1.7A {Cryptococcus neoformans var. grubii H99}
+Probab=16.10  E-value=1.4e+02  Score=19.48  Aligned_cols=12  Identities=42%  Similarity=0.661  Sum_probs=10.3  Template_Neff=9.100
+
+Q ss_pred             ceeeeCCCCeee
+Q tr|I3L3B1|I3L3    5 FITKVGSGPVKA   16 (35)
+Q Consensus         5 fitkvgsgpvka   16 (35)
+                      .+|++|+||...
+T Consensus       375 ~~~~~g~g~~~~  386 (403)
+T 6XR5_B          375 IHTRVGDGPRVL  386 (403)
+T ss_dssp             EEEEBCCSCEEC
+T ss_pred             EeCCCCCCcEec
+Confidence            479999999876
+
+
+No 5
+>6XR5_G Diphosphomevalonate decarboxylase (E.C.4.1.1.33); SSGCID, Diphosphomevalonate decarboxylase, Cryptococcus neoformans; HET: SO4, ADE; 1.7A {Cryptococcus neoformans var. grubii H99}
+Probab=16.10  E-value=1.4e+02  Score=19.48  Aligned_cols=12  Identities=42%  Similarity=0.661  Sum_probs=10.3  Template_Neff=9.100
+
+Q ss_pred             ceeeeCCCCeee
+Q tr|I3L3B1|I3L3    5 FITKVGSGPVKA   16 (35)
+Q Consensus         5 fitkvgsgpvka   16 (35)
+                      .+|++|+||...
+T Consensus       375 ~~~~~g~g~~~~  386 (403)
+T 6XR5_G          375 IHTRVGDGPRVL  386 (403)
+T ss_dssp             EEEEBCCSCEEC
+T ss_pred             EeCCCCCCcEec
+Confidence            479999999876
+
+
+No 6
+>7OG0_B NTHi, RNA binding, peptide binding; 2.61A {Haemophilus influenzae (strain 86-028NP)}
+Probab=14.33  E-value=2.1e+02  Score=17.42  Aligned_cols=12  Identities=33%  Similarity=0.603  Sum_probs=9.8  Template_Neff=11.700
+
+Q ss_pred             eCCCCeeeeecC
+Q tr|I3L3B1|I3L3    9 VGSGPVKAVSLG   20 (35)
+Q Consensus         9 vgsgpvkavslg   20 (35)
+                      +|+||.+.++.-
+T Consensus       199 vgtGPy~~~~~~  210 (527)
+T 7OG0_B          199 VGTGPYQVKDYV  210 (527)
+T ss_dssp             CCSSSEEEEEEE
+T ss_pred             CCcCCeeeeeee
+Confidence            799999988753
+
+
+No 7
+>5NBB_A RNA chaperone ProQ; FinO, ProQ, RNA chaperone, chaperone; NMR {Escherichia coli (strain K12)}
+Probab=13.22  E-value=2.9e+02  Score=15.06  Aligned_cols=12  Identities=33%  Similarity=0.509  Sum_probs=8.7  Template_Neff=5.200
+
+Q ss_pred             eeCCCCeeeeec
+Q tr|I3L3B1|I3L3    8 KVGSGPVKAVSL   19 (35)
+Q Consensus         8 kvgsgpvkavsl   19 (35)
+                      |+|..|++|+-+
+T Consensus        16 k~G~~~~~atV~   27 (53)
+T 5NBB_A           16 KAGQNAMDATVL   27 (53)
+T ss_dssp             CSSSSCCCEEEE
+T ss_pred             EeCCCcceEEEE
+Confidence            678888887643
+
+
+No 8
+>5YH8_A Nickel ABC transporter substrate-binding protein; complex, receptor, METAL BINDING PROTEIN; HET: 8UX, GOL, PEG; 2.12A {Staphylococcus aureus}
+Probab=12.56  E-value=2.7e+02  Score=17.06  Aligned_cols=13  Identities=31%  Similarity=0.312  Sum_probs=10.2  Template_Neff=11.500
+
+Q ss_pred             eeCCCCeeeeecC
+Q tr|I3L3B1|I3L3    8 KVGSGPVKAVSLG   20 (35)
+Q Consensus         8 kvgsgpvkavslg   20 (35)
+                      .+|+||.+..+..
+T Consensus       165 ~vgsGpy~~~~~~  177 (510)
+T 5YH8_A          165 FDGTGPFKLGEHK  177 (510)
+T ss_dssp             CCCSSSEEEEEEE
+T ss_pred             ccCCCCeeeeeec
+Confidence            4799999988753
+
+
+No 9
+>3U21_A Nuclear factor related to kappa-B-binding; DNA/RNA-binding 3-helical bundle, winged-HTH domain; HET: MLY, MSE; 2.18A {Homo sapiens}
+Probab=11.99  E-value=1.9e+02  Score=18.05  Aligned_cols=21  Identities=19%  Similarity=0.305  Sum_probs=10.2  Template_Neff=5.500
+
+Q ss_pred             CCCcceeeeCC-CCeeeeecCC
+Q tr|I3L3B1|I3L3    1 DFVPFITKVGS-GPVKAVSLGR   21 (35)
+Q Consensus         1 dfvpfitkvgs-gpvkavslgr   21 (35)
+                      +|||||---.. +--+-+.-||
+T Consensus        76 ~FvP~ve~k~~~~~wqWIG~gr   97 (127)
+T 3U21_A           76 SFSPFVEFKEKTQQWKLLGQSQ   97 (127)
+T ss_dssp             TCCCSEEEETTTTEEEECC---
+T ss_pred             cccceEEEeccCCeEEEcCCCC
+Confidence            58999875433 3334443343
+
+
+No 10
+>1DPE_A DIPEPTIDE-BINDING PROTEIN; PEPTIDE TRANSPORT, PERIPLASMIC, CHEMOTAXIS BINDING; 2.0A {Escherichia coli K12} SCOP: c.94.1.1
+Probab=11.92  E-value=3.1e+02  Score=16.75  Aligned_cols=11  Identities=27%  Similarity=0.742  Sum_probs=9.3  Template_Neff=11.600
+
+Q ss_pred             eCCCCeeeeec
+Q tr|I3L3B1|I3L3    9 VGSGPVKAVSL   19 (35)
+Q Consensus         9 vgsgpvkavsl   19 (35)
+                      +|+||.+..+.
+T Consensus       180 vgsGPy~~~~~  190 (507)
+T 1DPE_A          180 IGTGPFQLQQY  190 (507)
+T ss_dssp             CCSSSEEEEEE
+T ss_pred             cccCCeEEEEE
+Confidence            79999998874
+
+

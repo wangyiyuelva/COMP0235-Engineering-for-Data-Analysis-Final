@@ -1,0 +1,186 @@
+Query         tr|G5E9F5|G5E9F5_HUMAN
+Match_columns 113
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:38:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1474.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2OB1_A Leucine carboxyl methyl  38.4   2E+02  0.0022   22.0   5.0   19   48-66     86-104 (319)
+  2 2ZWA_B Leucine carboxyl methyl  26.3 1.3E+02  0.0015   25.1   2.6   15   48-62    105-119 (695)
+  3 1RJD_A carboxy methyl transfer  26.2 1.5E+02  0.0016   22.8   2.7   18   48-65     95-112 (334)
+  4 1RJE_C carboxy methyl transfer  26.2 1.5E+02  0.0016   22.8   2.7   18   48-65     95-112 (334)
+  5 2JR2_B UPF0352 protein CPS_261  24.3 1.3E+02  0.0014   22.0   2.0   30    6-39     18-47  (76)
+  6 2OTA_A UPF0352 protein CPS_261  24.3 1.3E+02  0.0014   22.0   2.0   29    7-39     19-47  (76)
+  7 3O7W_A Leucine carboxyl methyl  23.4 2.2E+02  0.0024   21.6   3.1   13   51-63     75-87  (294)
+  8 2JRX_A UPF0352 protein yejL; h  22.2 1.5E+02  0.0016   21.9   2.0   23   20-42     28-50  (83)
+  9 2JPQ_A UPF0352 protein VP2129;  21.5 1.7E+02  0.0018   21.7   2.1   26    8-37     20-45  (83)
+ 10 3IEI_G LCMT-1, Methyltransfera  21.1 1.3E+02  0.0014   23.2   1.6   14   51-64     91-104 (334)
+ 11 3P71_T Leucine carboxyl methyl  21.1 1.3E+02  0.0014   23.2   1.6   14   51-64     91-104 (334)
+
+No 1
+>2OB1_A Leucine carboxyl methyltransferase 1 (E.C.2.1.1.-); ppm1 in the presence of; HET: PO4; 1.9A {Saccharomyces cerevisiae}
+Probab=38.43  E-value=2e+02  Score=21.97  Aligned_cols=19  Identities=26%  Similarity=0.331  Sum_probs=13.8  Template_Neff=9.400
+
+Q ss_pred             ccccceeeeeccccccCCc
+Q tr|G5E9F5|G5E9   48 RGRTLTMVSLGCGFVDYPD   66 (113)
+Q Consensus        48 rgrtltmvslgcgfvdypd   66 (113)
+                      .+....+|.|||||-..+-
+T Consensus        86 ~~~~~qvV~LGaG~dt~~~  104 (319)
+T 2OB1_A           86 ANEKVQVVNLGCGSDLRML  104 (319)
+T ss_dssp             HCSSEEEEEETCTTCCTHH
+T ss_pred             cCCceEEEEcCCCCCchHH
+Confidence            3455689999999966443
+
+
+No 2
+>2ZWA_B Leucine carboxyl methyltransferase 2 (E.C.2.1.1.-); TRANSFERASE; HET: SAH, CIT, EDO; 1.7A {Saccharomyces cerevisiae}
+Probab=26.30  E-value=1.3e+02  Score=25.06  Aligned_cols=15  Identities=33%  Similarity=0.977  Sum_probs=12.3  Template_Neff=10.000
+
+Q ss_pred             ccccceeeeeccccc
+Q tr|G5E9F5|G5E9   48 RGRTLTMVSLGCGFV   62 (113)
+Q Consensus        48 rgrtltmvslgcgfv   62 (113)
+                      .+....+|+|||||-
+T Consensus       105 ~~~~~qiv~LGaG~D  119 (695)
+T 2ZWA_B          105 QDKKIVVVNLGCGYD  119 (695)
+T ss_dssp             TTSEEEEEEETCTTC
+T ss_pred             CCCcEEEEecCCCCC
+Confidence            356789999999983
+
+
+No 3
+>1RJD_A carboxy methyl transferase for protein; SAM dependent methyltransferase, TRANSFERASE; HET: BME, SAM; 1.8A {Saccharomyces cerevisiae} SCOP: c.66.1.37
+Probab=26.22  E-value=1.5e+02  Score=22.85  Aligned_cols=18  Identities=28%  Similarity=0.423  Sum_probs=13.3  Template_Neff=9.400
+
+Q ss_pred             ccccceeeeeccccccCC
+Q tr|G5E9F5|G5E9   48 RGRTLTMVSLGCGFVDYP   65 (113)
+Q Consensus        48 rgrtltmvslgcgfvdyp   65 (113)
+                      .+....+|+|||||-..+
+T Consensus        95 ~~~~~qvv~LGaG~dt~~  112 (334)
+T 1RJD_A           95 ANEKVQVVNLGCGSDLRM  112 (334)
+T ss_dssp             HCSSEEEEEETCTTCCTH
+T ss_pred             hCCCeEEEEcCCCCCcch
+Confidence            345568999999996543
+
+
+No 4
+>1RJE_C carboxy methyl transferase for protein; SAM dependent methyltransferase, TRANSFERASE; HET: BME, SO4, SAH; 2.0A {Saccharomyces cerevisiae} SCOP: c.66.1.37
+Probab=26.22  E-value=1.5e+02  Score=22.85  Aligned_cols=18  Identities=28%  Similarity=0.423  Sum_probs=13.3  Template_Neff=9.400
+
+Q ss_pred             ccccceeeeeccccccCC
+Q tr|G5E9F5|G5E9   48 RGRTLTMVSLGCGFVDYP   65 (113)
+Q Consensus        48 rgrtltmvslgcgfvdyp   65 (113)
+                      .+....+|+|||||-..+
+T Consensus        95 ~~~~~qvv~LGaG~dt~~  112 (334)
+T 1RJE_C           95 ANEKVQVVNLGCGSDLRM  112 (334)
+T ss_dssp             HCSSEEEEEETCTTCCTH
+T ss_pred             hCCCeEEEEcCCCCCcch
+Confidence            345568999999996543
+
+
+No 5
+>2JR2_B UPF0352 protein CPS_2611; dimer, all alpha helix, homodimer; NMR {Colwellia psychrerythraea} SCOP: a.284.1.1
+Probab=24.35  E-value=1.3e+02  Score=22.02  Aligned_cols=30  Identities=17%  Similarity=0.228  Sum_probs=20.0  Template_Neff=3.800
+
+Q ss_pred             HHHHHHHcCCchhhhhhHHHHhhHHHHHHHHHHH
+Q tr|G5E9F5|G5E9    6 AYQRALAAHPWKVQVLTAGSLMGLGDIISQQLVE   39 (113)
+Q Consensus         6 ayqralaahpwkvqvltagslmglgdiisqqlve   39 (113)
+                      .....|..|.-    -+--|||.||+.++.-+-.
+T Consensus        18 el~~vLekh~a----p~DLsLMvLGN~vTniin~   47 (76)
+T 2JR2_B           18 DLLDVLVKEEV----TPDLALMCLGNAVTNIIAQ   47 (76)
+T ss_dssp             HHHHHHHHTTC----CHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHCCC----CHHHHHHHHHHHHHHHHHc
+Confidence            33445555543    3456999999999986654
+
+
+No 6
+>2OTA_A UPF0352 protein CPS_2611; NESG, Y2611_COLP3, UPF0352, CPS_2611, Structural; HET: MSE; 2.2A {Colwellia psychrerythraea} SCOP: a.284.1.1
+Probab=24.35  E-value=1.3e+02  Score=22.02  Aligned_cols=29  Identities=17%  Similarity=0.240  Sum_probs=19.5  Template_Neff=3.800
+
+Q ss_pred             HHHHHHcCCchhhhhhHHHHhhHHHHHHHHHHH
+Q tr|G5E9F5|G5E9    7 YQRALAAHPWKVQVLTAGSLMGLGDIISQQLVE   39 (113)
+Q Consensus         7 yqralaahpwkvqvltagslmglgdiisqqlve   39 (113)
+                      ....|..|.-    -+--|||.||+.++.-+-.
+T Consensus        19 l~~vLekh~a----p~DLsLMvLGN~vTniin~   47 (76)
+T 2OTA_A           19 LLDVLVKEEV----TPDLALMCLGNAVTNIIAQ   47 (76)
+T ss_dssp             HHHHHHHTTC----CHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHCCC----CHHHHHHHHHHHHHHHHHc
+Confidence            3445555543    3456999999999986644
+
+
+No 7
+>3O7W_A Leucine carboxyl methyltransferase 1 (E.C.2.1.1.-); Modified Rossmann fold, Transferase, PP2A; HET: SAM; 2.0A {Homo sapiens}
+Probab=23.39  E-value=2.2e+02  Score=21.58  Aligned_cols=13  Identities=31%  Similarity=0.549  Sum_probs=10.5  Template_Neff=9.300
+
+Q ss_pred             cceeeeecccccc
+Q tr|G5E9F5|G5E9   51 TLTMVSLGCGFVD   63 (113)
+Q Consensus        51 tltmvslgcgfvd   63 (113)
+                      ...+|+|||||-.
+T Consensus        75 ~~qvV~LGaG~Dt   87 (294)
+T 3O7W_A           75 HCQIVNLGAGMDT   87 (294)
+T ss_dssp             CSEEEEETCTTCC
+T ss_pred             CeEEEEeCCCCCc
+Confidence            4689999999843
+
+
+No 8
+>2JRX_A UPF0352 protein yejL; homodimer, alpha helix, Structural Genomics; NMR {Escherichia coli} SCOP: a.284.1.1
+Probab=22.15  E-value=1.5e+02  Score=21.95  Aligned_cols=23  Identities=26%  Similarity=0.294  Sum_probs=17.8  Template_Neff=3.800
+
+Q ss_pred             hhhHHHHhhHHHHHHHHHHHhcC
+Q tr|G5E9F5|G5E9   20 VLTAGSLMGLGDIISQQLVERRG   42 (113)
+Q Consensus        20 vltagslmglgdiisqqlverrg   42 (113)
+                      .-+--|||.||+.++.-+-.+..
+T Consensus        28 ap~DLsLM~LGN~vT~iin~~v~   50 (83)
+T 2JRX_A           28 APTDLSLMVLGNMVTNLINTSIA   50 (83)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHSC
+T ss_pred             CChHHHHHHHHHHHHHHHHcCCC
+Confidence            34556999999999988776655
+
+
+No 9
+>2JPQ_A UPF0352 protein VP2129; dimer, all alpha, homodimer, Structural; NMR {Vibrio parahaemolyticus} SCOP: a.284.1.1
+Probab=21.49  E-value=1.7e+02  Score=21.74  Aligned_cols=26  Identities=27%  Similarity=0.285  Sum_probs=17.5  Template_Neff=3.800
+
+Q ss_pred             HHHHHcCCchhhhhhHHHHhhHHHHHHHHH
+Q tr|G5E9F5|G5E9    8 QRALAAHPWKVQVLTAGSLMGLGDIISQQL   37 (113)
+Q Consensus         8 qralaahpwkvqvltagslmglgdiisqql   37 (113)
+                      ...|..|-    .-+--|||.||+.++.-+
+T Consensus        20 l~VLekh~----ap~DLsLMvLGN~vTnii   45 (83)
+T 2JPQ_A           20 ALVLEKHA----ASPELTLMIAGNIATNVL   45 (83)
+T ss_dssp             HHHHHHTT----CCHHHHHHHHHHHHHHCC
+T ss_pred             HHHHHHcC----CCHHHHHHHHHHHHHHHH
+Confidence            34455553    345569999999998654
+
+
+No 10
+>3IEI_G LCMT-1, Methyltransferase, S-adenosyl-L-methionine, Transferase; HET: MES, GOL, SAH; 1.9A {Homo sapiens}
+Probab=21.08  E-value=1.3e+02  Score=23.18  Aligned_cols=14  Identities=29%  Similarity=0.465  Sum_probs=11.2  Template_Neff=9.300
+
+Q ss_pred             cceeeeeccccccC
+Q tr|G5E9F5|G5E9   51 TLTMVSLGCGFVDY   64 (113)
+Q Consensus        51 tltmvslgcgfvdy   64 (113)
+                      ...+|+|||||-.+
+T Consensus        91 ~~qiv~LGaG~dt~  104 (334)
+T 3IEI_G           91 HCQIVNLGAGMDTT  104 (334)
+T ss_dssp             CSEEEEETCTTCCH
+T ss_pred             CeEEEEeCCCCCch
+Confidence            46899999998554
+
+
+No 11
+>3P71_T Leucine carboxyl methyltransferase 1 (E.C.2.1.1.-); LEUCINE CARBOXYMETHYLTRANSFERASE-1, SERINE/THREONINE PROTEIN KEYWDS; HET: AN6; 2.7A {Homo sapiens}
+Probab=21.08  E-value=1.3e+02  Score=23.18  Aligned_cols=14  Identities=29%  Similarity=0.465  Sum_probs=11.2  Template_Neff=9.300
+
+Q ss_pred             cceeeeeccccccC
+Q tr|G5E9F5|G5E9   51 TLTMVSLGCGFVDY   64 (113)
+Q Consensus        51 tltmvslgcgfvdy   64 (113)
+                      ...+|+|||||-.+
+T Consensus        91 ~~qiv~LGaG~dt~  104 (334)
+T 3P71_T           91 HCQIVNLGAGMDTT  104 (334)
+T ss_dssp             CSEEEEETCTTCCH
+T ss_pred             CeEEEEeCCCCCch
+Confidence            46899999998554
+
+

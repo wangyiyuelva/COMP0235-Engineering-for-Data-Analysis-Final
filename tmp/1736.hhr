@@ -1,0 +1,169 @@
+Query         tr|G5E950|G5E950_HUMAN
+Match_columns 643
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:43:57 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1736.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5M5J_A Thioredoxin reductase (   8.2 4.8E+02  0.0052   22.2   1.6   18  537-554    22-39  (325)
+  2 5M5J_B Thioredoxin reductase (   8.2 4.8E+02  0.0052   22.2   1.6   18  537-554    22-39  (325)
+  3 4OPC_A Conserved Archaeal prot   7.6 4.8E+02  0.0052   26.3   1.6   17  537-553    11-27  (453)
+  4 1F6M_E ALTERNATE CONFORMATION,   7.0   4E+02  0.0043   22.3   0.6   21  537-557    10-30  (320)
+  5 4OPL_A Conserved Archaeal prot   6.4   6E+02  0.0065   25.5   1.6   17  537-553    11-27  (453)
+  6 3D8X_A Thioredoxin reductase 1   6.4 6.5E+02   0.007   22.2   1.6   18  537-554    15-32  (326)
+  7 2GMH_A Electron transfer flavo   6.3 8.2E+02  0.0089   25.4   2.5   17  537-553    40-56  (584)
+  8 5VJ4_A PR-1 protein; Relapsing   6.3 2.6E+03   0.028   23.1   6.0   47  394-440    29-75  (375)
+  9 5TCE_A Dihydroorotate dehydrog   6.0 1.1E+03   0.012   17.6   2.3   18  331-348    17-34  (35)
+ 10 5K0A_B oxidoreductase; HET: PG   5.8 7.2E+02  0.0078   22.0   1.6   18  537-554    24-41  (330)
+
+No 1
+>5M5J_A Thioredoxin reductase (E.C.1.8.1.9); reductase, flavoprotein, oxidoreductase; HET: FAD; 2.65A {Giardia intestinalis}
+Probab=8.19  E-value=4.8e+02  Score=22.24  Aligned_cols=18  Identities=33%  Similarity=0.599  Sum_probs=14.0  Template_Neff=12.700
+
+Q ss_pred             CCCCcHHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAAK  554 (643)
+Q Consensus       537 vvgagpaaaaaaakaaak  554 (643)
+                      |||+|+++..++...+..
+T Consensus        22 IIG~G~aGl~aA~~L~~~   39 (325)
+T 5M5J_A           22 IIGGGPAGLTAGIYASRA   39 (325)
+T ss_dssp             EECCSHHHHHHHHHHHHT
+T ss_pred             EECCCHHHHHHHHHHHHc
+Confidence            689999998887665543
+
+
+No 2
+>5M5J_B Thioredoxin reductase (E.C.1.8.1.9); reductase, flavoprotein, oxidoreductase; HET: FAD; 2.65A {Giardia intestinalis}
+Probab=8.19  E-value=4.8e+02  Score=22.24  Aligned_cols=18  Identities=33%  Similarity=0.599  Sum_probs=13.8  Template_Neff=12.700
+
+Q ss_pred             CCCCcHHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAAK  554 (643)
+Q Consensus       537 vvgagpaaaaaaakaaak  554 (643)
+                      |||+|+++..++...+..
+T Consensus        22 IIG~G~aGl~aA~~L~~~   39 (325)
+T 5M5J_B           22 IIGGGPAGLTAGIYASRA   39 (325)
+T ss_dssp             EECCSHHHHHHHHHHHHT
+T ss_pred             EECCCHHHHHHHHHHHHc
+Confidence            689999998877665543
+
+
+No 3
+>4OPC_A Conserved Archaeal protein (E.C.1.3.1.83); Rossmann Fold, Oxidoreductase, Archaeal Protein; HET: PGT, FDA; 1.4A {Sulfolobus acidocaldarius}
+Probab=7.63  E-value=4.8e+02  Score=26.29  Aligned_cols=17  Identities=29%  Similarity=0.483  Sum_probs=13.8  Template_Neff=10.000
+
+Q ss_pred             CCCCcHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAA  553 (643)
+Q Consensus       537 vvgagpaaaaaaakaaa  553 (643)
+                      |||+||+|..+|...+.
+T Consensus        11 IVGaGpaG~~aA~~La~   27 (453)
+T 4OPC_A           11 IIGGGFAGSSAAYQLSR   27 (453)
+T ss_dssp             EECCSHHHHHHHHHHTT
+T ss_pred             EECCCHHHHHHHHHHHH
+Confidence            78999999988776644
+
+
+No 4
+>1F6M_E ALTERNATE CONFORMATION, TERNARY COMPLEX, DOMAIN; HET: FAD, 3AA; 2.95A {Escherichia coli} SCOP: c.3.1.5
+Probab=7.05  E-value=4e+02  Score=22.31  Aligned_cols=21  Identities=43%  Similarity=0.570  Sum_probs=16.2  Template_Neff=13.000
+
+Q ss_pred             CCCCcHHHHHHHHHHHHHHHh
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAAKAAQ  557 (643)
+Q Consensus       537 vvgagpaaaaaaakaaakaaq  557 (643)
+                      |||+|+++..+|...+.+-.+
+T Consensus        10 IIG~G~aGl~~A~~l~~~g~~   30 (320)
+T 1F6M_E           10 ILGSGPAGYTAAVYAARANLQ   30 (320)
+T ss_dssp             EECCSHHHHHHHHHHHHTTCC
+T ss_pred             EECCCHHHHHHHHHHHHCCCC
+Confidence            689999999988777665333
+
+
+No 5
+>4OPL_A Conserved Archaeal protein (E.C.1.3.1.83); Rossmann Fold, Oxidoreductase, Archaeal Protein; HET: FDA; 2.51A {Sulfolobus acidocaldarius}
+Probab=6.40  E-value=6e+02  Score=25.55  Aligned_cols=17  Identities=29%  Similarity=0.483  Sum_probs=13.5  Template_Neff=10.100
+
+Q ss_pred             CCCCcHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAA  553 (643)
+Q Consensus       537 vvgagpaaaaaaakaaa  553 (643)
+                      |||+||++..+|...+.
+T Consensus        11 IvGaGpAG~~aA~~La~   27 (453)
+T 4OPL_A           11 IIGGGFAGSSAAYQLSR   27 (453)
+T ss_dssp             EECCSHHHHHHHHHHSS
+T ss_pred             EECCCHHHHHHHHHHHH
+Confidence            68999999987766643
+
+
+No 6
+>3D8X_A Thioredoxin reductase 1 (E.C.1.8.1.9); thioredoxin reductase, NADPH, yeast, ModPipe; HET: FAD, NDP; 2.8A {Saccharomyces cerevisiae}
+Probab=6.40  E-value=6.5e+02  Score=22.25  Aligned_cols=18  Identities=44%  Similarity=0.645  Sum_probs=14.6  Template_Neff=12.000
+
+Q ss_pred             CCCCcHHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAAK  554 (643)
+Q Consensus       537 vvgagpaaaaaaakaaak  554 (643)
+                      +||+|+++..+|.+.+.+
+T Consensus        15 ~~gaG~aGl~aA~~L~~~   32 (326)
+T 3D8X_A           15 IIGSGPAAHTAAIYLARA   32 (326)
+T ss_dssp             EECCSHHHHHHHHHHHHT
+T ss_pred             EECCCHHHHHHHHHHHHC
+Confidence            689999999988776654
+
+
+No 7
+>2GMH_A Electron transfer flavoprotein-ubiquinone oxidoreductase (E.C.1.5.5.1); Electron-Transfer, Oxidoreductase, Flavoprotein, Ubiquinone; HET: SF4, UQ5, FAD, BHG, EDO; 2.5A {Sus scrofa} SCOP: d.16.1.8, c.3.1.2, d.58.1.6
+Probab=6.30  E-value=8.2e+02  Score=25.40  Aligned_cols=17  Identities=47%  Similarity=0.761  Sum_probs=14.0  Template_Neff=10.300
+
+Q ss_pred             CCCCcHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAA  553 (643)
+Q Consensus       537 vvgagpaaaaaaakaaa  553 (643)
+                      +||+||++.++|...+.
+T Consensus        40 IvGaGpaGl~aA~~La~   56 (584)
+T 2GMH_A           40 IVGAGPAGLSAATRLKQ   56 (584)
+T ss_dssp             EECCSHHHHHHHHHHHH
+T ss_pred             EECCCHHHHHHHHHHHH
+Confidence            68999999998866655
+
+
+No 8
+>5VJ4_A PR-1 protein; Relapsing fever, LIPID BINDING PROTEIN; HET: SO4, MSE; 2.8A {Borrelia turicatae}
+Probab=6.28  E-value=2.6e+03  Score=23.08  Aligned_cols=47  Identities=47%  Similarity=0.905  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc
+Q tr|G5E950|G5E9  394 PGVGVAPGVGVAPGVGVAPGVGLAPGVGVAPGVGVAPGVGVAPGIGP  440 (643)
+Q Consensus       394 pgvgvapgvgvapgvgvapgvglapgvgvapgvgvapgvgvapgigp  440 (643)
+                      |..|..|..|+.|..|..|..|..|..|..|..|..|..|..|.-|+
+T Consensus        29 p~~g~~p~~g~~p~~g~~p~~g~~p~~g~~p~~g~~p~~g~~p~~g~   75 (375)
+T 5VJ4_A           29 PESGVGPEAGVGPEAGVGPESGVGPESGVGPEAGVRPEAGVRPEAGA   75 (375)
+T ss_dssp             -----------------------------------------------
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            33333444444444444444444444444444444444444444433
+
+
+No 9
+>5TCE_A Dihydroorotate dehydrogenase (quinone), mitochondrial (E.C.1.3.5.2); micelles, OXIDOREDUCTASE; HET: NH2; NMR {N/A}
+Probab=6.01  E-value=1.1e+03  Score=17.61  Aligned_cols=18  Identities=28%  Similarity=0.551  Sum_probs=15.4  Template_Neff=6.500
+
+Q ss_pred             CCCHHHHHHHHHHHHHhC
+Q tr|G5E950|G5E9  331 VVSPEAAAKAAAKAAKYG  348 (643)
+Q Consensus       331 vvspeaaakaaakaakyg  348 (643)
+                      ..+||.+-+-+-++.||+
+T Consensus        17 ~ldpE~AH~lav~~~~~g   34 (35)
+T 5TCE_A           17 LLDPESAHRLAVRFTSLG   34 (35)
+T ss_dssp             SSCTTHHHHHHHHHHSCC
+T ss_pred             hcCHHHHHHHHHHHHhcC
+Confidence            358999999999999886
+
+
+No 10
+>5K0A_B oxidoreductase; HET: PG4, 1PE, PGE, PO4, FAD, NO3, CSO; 1.706A {Synechocystis sp.}
+Probab=5.82  E-value=7.2e+02  Score=22.02  Aligned_cols=18  Identities=33%  Similarity=0.331  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCcHHHHHHHHHHHHH
+Q tr|G5E950|G5E9  537 VVGAGPAAAAAAAKAAAK  554 (643)
+Q Consensus       537 vvgagpaaaaaaakaaak  554 (643)
+                      ++|+|+++..++...+..
+T Consensus        24 IiGaG~aGl~aA~~l~~~   41 (330)
+T 5K0A_B           24 VLGGGMGGLSAAIYLARY   41 (330)
+T ss_dssp             EECCSHHHHHHHHHHHHT
+T ss_pred             EECCCHHHHHHHHHHHHC
+
+

@@ -1,0 +1,163 @@
+Query         sp|Q8NDH2|CC168_HUMAN
+Match_columns 7081
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:21:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1202.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2IBZ_I Ubiquinol-cytochrome-c   22.5 2.6E+02  0.0028   29.5   4.5   41   22-63      1-41  (66)
+  2 1PP9_W UBIQUINOL CYTOCHROME C   14.0 6.2E+02  0.0068   26.6   4.9   44   22-65      3-46  (62)
+  3 2YBB_J NADH-QUINONE OXIDOREDUC  14.0 6.2E+02  0.0068   26.6   4.9   44   22-65      3-46  (62)
+  4 6XVF_J Cytochrome b-c1 complex  13.7   6E+02  0.0066   26.5   4.7   42   22-63      2-43  (59)
+  5 7JRG_J Mitochondrial-processin  10.5 8.2E+02  0.0089   26.8   4.6   39   27-65     15-53  (72)
+  6 7JRP_J Mitochondrial-processin  10.5 8.2E+02  0.0089   26.8   4.6   39   27-65     15-53  (72)
+  7 6ZQW_E Flavivirus, VIRUS; HET:  10.1 5.7E+02  0.0062   31.7   3.7   24   25-48    123-146 (169)
+  8 4B03_E DENGUE VIRUS 1 E PROTEI   9.9 5.9E+02  0.0065   31.4   3.8   24   25-48    120-143 (166)
+  9 3J8F_7 Capsid protein VP1, Cap   9.7 1.1E+03   0.012   27.5   5.5    6   92-97    397-402 (423)
+ 10 6LNT_D Envelope protein, Preme   9.5 6.2E+02  0.0068   31.1   3.8   24   25-48    117-140 (163)
+
+No 1
+>2IBZ_I Ubiquinol-cytochrome-c reductase complex core protein; multisubunit membrane protein complex, OXIDOREDUCTASE; HET: SMA, HEC, UQ6; 2.3A {Saccharomyces cerevisiae} SCOP: f.23.14.1
+Probab=22.53  E-value=2.6e+02  Score=29.55  Aligned_cols=41  Identities=17%  Similarity=0.214  Sum_probs=32.0  Template_Neff=6.900
+
+Q ss_pred             ccHHHHHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcC
+Q sp|Q8NDH2|CC16   22 MTLWDFLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWK   63 (7081)
+Q Consensus        22 mtlwdfleswiiqndwvaiffiillgiifeiilmkacasfwk   63 (7081)
+                      |+|. .+-.-+......-+.+|+.-+++||..+-.+|..+|.
+T Consensus         1 m~~~-~~Y~~~~rr~st~~~~i~~ga~~~e~~~d~~~d~~w~   41 (66)
+T 2IBZ_I            1 MSFS-SLYKTFFKRNAVFVGTIFAGAFVFQTVFDTAITSWYE   41 (66)
+T ss_dssp             ---C-HHHHHHTTTSCCCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CcHH-HHHHHHchhcHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4555 5666677777777888999999999999999999994
+
+
+No 2
+>1PP9_W UBIQUINOL CYTOCHROME C OXIDOREDUCTASE (E.C.1.10.2.2); CYTOCHROME BC1, MEMBRANE PROTEIN, HEME; HET: PEE, JZR, AZI, HEM, UQ, HEC, GOL, CDL, PO4, SMA; 2.1A {Bos taurus} SCOP: f.23.14.1
+Probab=14.01  E-value=6.2e+02  Score=26.65  Aligned_cols=44  Identities=16%  Similarity=0.166  Sum_probs=32.7  Template_Neff=6.900
+
+Q ss_pred             ccHHHHHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|Q8NDH2|CC16   22 MTLWDFLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWKKP   65 (7081)
+Q Consensus        22 mtlwdfleswiiqndwvaiffiillgiifeiilmkacasfwkkp   65 (7081)
+                      |++-..+-.-+......-+.+++.-+++||..+-.+|..+|..-
+T Consensus         3 ~~~~~~~Y~~~~rrns~~~~~i~~gaf~~e~~~d~~~d~~w~~~   46 (62)
+T 1PP9_W            3 PTLTARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYEHI   46 (62)
+T ss_pred             chHHHHHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34444444555566666777888899999999999999999653
+
+
+No 3
+>2YBB_J NADH-QUINONE OXIDOREDUCTASE SUBUNIT 1 (E.C.1.6.99.5); SUPERCOMPLEX B, MITOCHONDRIA, RESPIRATORY CHAIN; HET: HEM, SF4, HEA, HEC, FMN, SMA, CDL, UQ1, NAI, FES; 19.0A {THERMUS THERMOPHILUS}
+Probab=14.01  E-value=6.2e+02  Score=26.65  Aligned_cols=44  Identities=16%  Similarity=0.166  Sum_probs=32.7  Template_Neff=6.900
+
+Q ss_pred             ccHHHHHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|Q8NDH2|CC16   22 MTLWDFLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWKKP   65 (7081)
+Q Consensus        22 mtlwdfleswiiqndwvaiffiillgiifeiilmkacasfwkkp   65 (7081)
+                      |++-..+-.-+......-+.+++.-+++||..+-.+|..+|..-
+T Consensus         3 ~~~~~~~Y~~~~rrns~~~~~i~~gaf~~e~~~d~~~d~~w~~~   46 (62)
+T 2YBB_J            3 PTLTARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYEHI   46 (62)
+T ss_pred             chHHHHHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34444444555566666777888899999999999999999653
+
+
+No 4
+>6XVF_J Cytochrome b-c1 complex subunit 1; Cytochrome bc1, Malaria, Electron transport; HET: LMT, HEM, PG4, PEE, HEC, CDL, PO4, JAG, 6PE, PX4; 3.5A {Bos taurus}
+Probab=13.72  E-value=6e+02  Score=26.51  Aligned_cols=42  Identities=17%  Similarity=0.190  Sum_probs=31.7  Template_Neff=6.900
+
+Q ss_pred             ccHHHHHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcC
+Q sp|Q8NDH2|CC16   22 MTLWDFLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWK   63 (7081)
+Q Consensus        22 mtlwdfleswiiqndwvaiffiillgiifeiilmkacasfwk   63 (7081)
+                      |.+...+-.-+....-.-+.+++.-+++||..+-.+|..+|.
+T Consensus         2 ~~~~~~~Y~~~~rrns~~~~~i~~ga~~~e~~~d~~~d~~w~   43 (59)
+T 6XVF_J            2 PTLTARLYSLLFRRTSTFALTIVVGALFFERAFDQGADAIYE   43 (59)
+T ss_dssp             CCHHHHHCCCCCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            445555555555555666778888899999999999999994
+
+
+No 5
+>7JRG_J Mitochondrial-processing peptidase subunit beta, mitochondrial; mitochondria, respiration, bioenergetics, plants, ELECTRON; HET: PC1, 3PE, HEM, HEC, CDL; 3.2A {Vigna radiata var. radiata}
+Probab=10.54  E-value=8.2e+02  Score=26.83  Aligned_cols=39  Identities=15%  Similarity=0.206  Sum_probs=28.1  Template_Neff=6.400
+
+Q ss_pred             HHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|Q8NDH2|CC16   27 FLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWKKP   65 (7081)
+Q Consensus        27 fleswiiqndwvaiffiillgiifeiilmkacasfwkkp   65 (7081)
+                      .+-.-+....-.-+.+|++-+++||..+-.+|-.+|..-
+T Consensus        15 ~~Y~~~~rr~st~~~~iv~gaf~~e~~~d~~~d~~wd~~   53 (72)
+T 7JRG_J           15 SLYKVVMRRNSVYVTFVIAGAFLGERAVDYGIHKLWEAN   53 (72)
+T ss_pred             HHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            333334444455567788889999999999999999654
+
+
+No 6
+>7JRP_J Mitochondrial-processing peptidase subunit beta, mitochondrial; mitochondria, respiration, bioenergetics, plants, OXIDOREDUCTASE; HET: PC1, 3PE, HEM, HEA, HEC, CDL; 3.8A {Vigna radiata var. radiata}
+Probab=10.54  E-value=8.2e+02  Score=26.83  Aligned_cols=39  Identities=15%  Similarity=0.206  Sum_probs=28.1  Template_Neff=6.400
+
+Q ss_pred             HHHHHhhcCChHHHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|Q8NDH2|CC16   27 FLESWIIQNDWVAIFFIILLGIIFEIILMKACASFWKKP   65 (7081)
+Q Consensus        27 fleswiiqndwvaiffiillgiifeiilmkacasfwkkp   65 (7081)
+                      .+-.-+....-.-+.+|++-+++||..+-.+|-.+|..-
+T Consensus        15 ~~Y~~~~rr~st~~~~iv~gaf~~e~~~d~~~d~~wd~~   53 (72)
+T 7JRP_J           15 SLYKVVMRRNSVYVTFVIAGAFLGERAVDYGIHKLWEAN   53 (72)
+T ss_pred             HHHHHHccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            333334444455567788889999999999999999654
+
+
+No 7
+>6ZQW_E Flavivirus, VIRUS; HET: NAG;{Spondweni virus}
+Probab=10.09  E-value=5.7e+02  Score=31.69  Aligned_cols=24  Identities=21%  Similarity=0.253  Sum_probs=18.7  Template_Neff=6.200
+
+Q ss_pred             HHHHHHHhhcCChHHHHHHHHHHH
+Q sp|Q8NDH2|CC16   25 WDFLESWIIQNDWVAIFFIILLGI   48 (7081)
+Q Consensus        25 wdfleswiiqndwvaiffiillgi   48 (7081)
+                      ..=.|.||+.|.+.|+++++|.-+
+T Consensus       123 l~rvE~W~~rNp~~~~~~~~l~w~  146 (169)
+T 6ZQW_E          123 LIKVENWILRNPGYALVAAVIGWT  146 (169)
+T ss_pred             HHHHHHHHhhCHHHHHHHHHHHHH
+Confidence            345799999999999888776433
+
+
+No 8
+>4B03_E DENGUE VIRUS 1 E PROTEIN; VIRUS, FLAVIVIRUS, PRM PROTEIN; 6.0A {DENGUE VIRUS 1}
+Probab=9.89  E-value=5.9e+02  Score=31.40  Aligned_cols=24  Identities=13%  Similarity=0.297  Sum_probs=18.7  Template_Neff=6.300
+
+Q ss_pred             HHHHHHHhhcCChHHHHHHHHHHH
+Q sp|Q8NDH2|CC16   25 WDFLESWIIQNDWVAIFFIILLGI   48 (7081)
+Q Consensus        25 wdfleswiiqndwvaiffiillgi   48 (7081)
+                      ..=.|.||+.|.+.|+++++|.-+
+T Consensus       120 l~rvE~W~~rnp~~~~~~~~l~~~  143 (166)
+T 4B03_E          120 IQKVETWALGHPGFTVIALFLAHA  143 (166)
+T ss_pred             HHHHHHHHhcCHHHHHHHHHHHHH
+Confidence            344799999999999888776443
+
+
+No 9
+>3J8F_7 Capsid protein VP1, Capsid protein; poliovirus, receptor, PVR, CD155, VIRUS-SIGNALING; HET: MYR, FUC, NAG, BMA; 3.7A {Human poliovirus 1 Mahoney}
+Probab=9.71  E-value=1.1e+03  Score=27.49  Aligned_cols=6  Identities=17%  Similarity=0.628  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCcccC
+Q sp|Q8NDH2|CC16   92 NWSVIN   97 (7081)
+Q Consensus        92 nwsvin   97 (7081)
+                      .++.+|
+T Consensus       397 ~Y~~v~  402 (423)
+T 3J8F_7          397 SYSAVS  402 (423)
+T ss_dssp             ------
+T ss_pred             eeeccc
+Confidence            344444
+
+
+No 10
+>6LNT_D Envelope protein, Premembrane protein, Fab; immature Zika virus, human antibody; 8.0A {Zika virus (isolate ZIKV/Human/French Polynesia/10087PF/2013)}
+Probab=9.51  E-value=6.2e+02  Score=31.10  Aligned_cols=24  Identities=21%  Similarity=0.250  Sum_probs=18.7  Template_Neff=6.400
+
+Q ss_pred             HHHHHHHhhcCChHHHHHHHHHHH
+Q sp|Q8NDH2|CC16   25 WDFLESWIIQNDWVAIFFIILLGI   48 (7081)
+Q Consensus        25 wdfleswiiqndwvaiffiillgi   48 (7081)
+                      ..=.|.||+.|.+.|+++++|.-+
+T Consensus       117 ~~rvE~W~~rnp~~~~~~~~l~~~  140 (163)
+T 6LNT_D          117 LIRVENWIFRNPGFALAAAAIAWL  140 (163)
+T ss_pred             HHHHHHHHhcCHHHHHHHHHHHHH
+Confidence            344799999999999888776443
+
+

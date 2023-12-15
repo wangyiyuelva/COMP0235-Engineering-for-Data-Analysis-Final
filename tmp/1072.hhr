@@ -1,0 +1,648 @@
+Query         tr|A0A590UK85|A0A590UK85_HUMAN
+Match_columns 564
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:55:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1072.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2A3L_A ATAMPD, At2g38280, ADEN 100.0 2.9E-86 3.2E-91  661.3  29.1  419  100-557    91-509 (701)
+  2 3IAR_A Adenosine deaminase (E.  55.6      19 0.00021   33.4   2.5  134  291-460     3-155 (367)
+  3 6N9M_A Adenosine deaminase (E.  54.9      19  0.0002   32.4   2.2  135  290-460     2-144 (341)
+  4 1ADD_A ADENOSINE DEAMINASE (E.  54.6      20 0.00022   32.7   2.4  135  290-460     2-155 (349)
+  5 3EWD_A Adenosine deaminase (E.  49.0      20 0.00021   33.6   1.5  159  258-458     5-173 (370)
+  6 3RYS_A Adenosine deaminase 1 (  32.9      71 0.00077   29.0   2.4  131  289-459     8-145 (343)
+  7 3RYS_B Adenosine deaminase 1 (  32.9      71 0.00077   29.0   2.4  131  289-459     8-145 (343)
+  8 7A4Y_D Nanobody Nb34, Coiled-c  31.4      98  0.0011   24.2   2.5   18   34-51      9-26  (31)
+  9 7BI7_A FeMo cofactor biosynthe  28.1 5.9E+02  0.0064   21.6   9.6   44  401-445   174-218 (288)
+ 10 4GXW_A Adenosine deaminase (E.  27.9 1.1E+02  0.0011   29.2   2.7   33  289-321    24-56  (380)
+ 11 4GXW_B Adenosine deaminase (E.  27.9 1.1E+02  0.0011   29.2   2.7   34  289-322    24-57  (380)
+ 12 6N91_A Adenosine deaminase (E.  27.8      86 0.00094   28.4   2.0  135  290-460     2-144 (340)
+ 13 7RTY_B Fosfomycin biosynthesis  26.8 1.1E+02  0.0012   26.0   2.4   27  294-320     3-34  (245)
+ 14 7NBI_A Fms-related tyrosine ki  26.3 1.7E+02  0.0019   28.2   3.7    7  289-295   126-132 (138)
+ 15 7NBI_B Fms-related tyrosine ki  26.3 1.7E+02  0.0019   28.2   3.7    7  289-295   126-132 (138)
+ 16 7JMA_A Nitrogenase iron-molybd  25.8   7E+02  0.0076   21.7   9.1   43  402-445   175-218 (296)
+ 17 3OU8_B Adenosine deaminase (E.  23.5 1.4E+02  0.0016   26.9   2.6  131  289-459     5-142 (326)
+ 18 3PAO_A Adenosine deaminase (E.  23.5 1.4E+02  0.0016   26.9   2.6  131  289-459     5-142 (326)
+ 19 3PBM_A Adenosine deaminase (E.  23.5 1.4E+02  0.0016   26.9   2.6  131  289-459     5-142 (326)
+ 20 6IJN_A beta-glucosidase 1317;   21.9 1.1E+02  0.0012   29.2   1.7  102  288-428    22-123 (376)
+ 21 1QP9_A ZINC BINUCLEAR CLUSTER,  20.1 2.5E+02  0.0027   14.4   2.5   14   36-49     61-74  (76)
+ 22 1QP9_D ZINC BINUCLEAR CLUSTER,  20.1 2.5E+02  0.0027   14.4   2.5   14   36-49     61-74  (76)
+
+No 1
+>2A3L_A ATAMPD, At2g38280, ADENOSINE 5'-MONOPHOSPHATE DEAMINASE; HET: CF5; 3.34A {Arabidopsis thaliana} SCOP: c.1.9.1
+Probab=100.00  E-value=2.9e-86  Score=661.30  Aligned_cols=419  Identities=49%  Similarity=0.866  Sum_probs=384.9  Template_Neff=7.600
+
+Q ss_pred             HhhhhccccccccCCCHHHHHHHHHHHHHHHHhhhhhhhhhhhccCHHHHHHHHHHhCCCCCcCCCCCCCCCCCCCCCCC
+Q tr|A0A590UK85|  100 EFQRVTISGEEKCGVPFTDLLDAAKSVVRALFIREKYMALSLQSFCPTTRRYLQQLAEKPLETRTYEQGPDTPVSADAPV  179 (564)
+Q Consensus       100 efqrvtisgeekcgvpftdlldaaksvvralfirekymalslqsfcpttrrylqqlaekpletrtyeqgpdtpvsadapv  179 (564)
+                      .|+||.|+|    +++++|+++||++|++||.||+|||+.+.               ..+|..   ...++        +
+T Consensus        91 ~f~rv~i~~----~~~~~e~~~~~~~L~~aL~LR~KY~~~~~---------------~~~~~~---~~~~~--------~  140 (701)
+T 2A3L_A           91 TFVRLNVPL----EVPTSDEVEAYKCLQECLELRKRYVFQET---------------VAPWEK---EVISD--------P  140 (701)
+T ss_dssp             CCCCCCCCC----CCCCCSTTTTHHHHHHHHHHHHTTSCCCS---------------SCTTSC---C-------------
+T ss_pred             CeeeeeccC----CCCChhHHHHHHHHHHHHHHHHHHhcccc---------------cCcccc---ccCCC--------C
+Confidence            499999999    78899999999999999999999998765               556643   32222        3
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCccceeeeecceEEEEecCCCCCCccecccCCccHHHHHhhHHHHHHHHhcCchhhhhHH
+Q tr|A0A590UK85|  180 HPPALEQHPYEHCEPSTMPGDLGLGLRMVRGVVHVYTRREPDEHCSEVELPYPDLQEFVADVNVLMALIINGPIKSFCYR  259 (564)
+Q Consensus       180 hppaleqhpyehcepstmpgdlglglrmvrgvvhvytrrepdehcsevelpypdlqefvadvnvlmaliingpiksfcyr  259 (564)
+                      ..|....+||.. .   +++++.++++|++|||+|+++++..    +.++|+|||++|+.|++.|+++++|||++|||++
+T Consensus       141 ~~~~~~~~p~~~-~---~~~~~~~~~~~~~GV~~v~~~~~~~----~~~~~~~~~~~f~~d~~~l~~~~~~g~~~s~~~~  212 (701)
+T 2A3L_A          141 STPKPNTEPFAH-Y---PQGKSDHCFEMQDGVVHVFANKDAK----EDLFPVADATAFFTDLHHVLKVIAAGNIRTLCHR  212 (701)
+T ss_dssp             -------CCCCC-C---CCCCCCCCCCCBTTBCCCCCSSCCS----SCSCCCCCHHHHHHHHHHHHHHTTCHHHHHHHHH
+T ss_pred             CCCCCCCCCccc-C---CCCCCcEEEEecCceEEEecCCCCC----CCccccCCHHHHHhHHHHHHHHHHcccchhhhhh
+Confidence            445556688887 6   6777899999999999999876544    5689999999999999999999999999999999
+
+
+Q ss_pred             HHHHhhhHhhHHHHHHHHHHHHHcCCCChhhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHH
+Q tr|A0A590UK85|  260 RLQYLSSKFQMHVLLNEMKELAAQKKVPHRDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLR  339 (564)
+Q Consensus       260 rlqylsskfqmhvllnemkelaaqkkvphrdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlr  339 (564)
+                      ||++|++||+||.+||+..|..++|++||+||+++||||+|||++|||++++|++||+++....|+.+|...+|+..||+
+T Consensus       213 RL~~Le~kf~lh~~ln~~~E~~~~k~~~~~df~~~pKvDlHvHl~g~~~~~~Ll~fik~~~~~~p~~~v~~~~g~~~tL~  292 (701)
+T 2A3L_A          213 RLVLLEQKFNLHLMLNADKEFLAQKSAPHRDFYNVRKVDTHVHHSACMNQKHLLRFIKSKLRKEPDEVVIFRDGTYLTLR  292 (701)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHGGGSCSCCTTTSCEEEEEEETTTCSCHHHHHHHHHHHHHTCCSCCCEEETTEEECHH
+T ss_pred             cHHHHHHHHHHHHHhCHHHHHHHhccCChhHHhhcccccceecCcccCCHHHHHHHHHHhccCCccceEEeeCCCeeeHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999988877789999999
+
+
+Q ss_pred             HHHHHCCcccccccccccccccCcccccchhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCc
+Q tr|A0A590UK85|  340 EVFESMNLTAYDLSVDTLDVHADRNTFHRFDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNA  419 (564)
+Q Consensus       340 evfesmnltaydlsvdtldvhadrntfhrfdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqna  419 (564)
+                      ++|+.+++++++++||.|++|++..+|++||+|+.+|+|.|++.|+++||++||+|+|++|++++++++++++++||+|+
+T Consensus       293 e~f~~~~~~~~~l~vd~L~~~~~~~~f~~fd~f~~~y~p~g~~~Lr~iFL~~dn~~~g~~la~l~~~vl~~~~~~~v~y~  372 (701)
+T 2A3L_A          293 EVFESLDLTGYDLNVDLLDVHADKSTFHRFDKFNLKYNPCGQSRLREIFLKQDNLIQGRFLGEITKQVFSDLEASKYQMA  372 (701)
+T ss_dssp             HHHHHHSSCSTTCCSTTCCCCSCSSCCCCCSSSHHHHCCSSCCHHHHHHSCSSSTTTTTTHHHHHHHHHHHHTTSSSEEE
+T ss_pred             HHHHHcCCCccccchhHhcccCChhhhhcHHHhhHHhCccchHHHHHHHhcCCcccChhHHHHHHHHHHHHHHHcccceE
+Confidence            99999999999999999999999999999999999999999889999999999999999999999999999999999999
+
+
+Q ss_pred             eEEEEEeCCCHHHHHHHHHHHHHhcCCCCCceEEEeccchhhhhcCcCchHHHHHHHHHhHHHHHhhccCCCCChhhhhh
+Q tr|A0A590UK85|  420 ELRLSIYGRSRDEWDKLARWAVMHRVHSPNVRWLVQVPRLFDVYRTKGQLANFQEMLENIFLPLFEATVHPASHPELHLF  499 (564)
+Q Consensus       420 elrlsiygrsrdewdklarwavmhrvhspnvrwlvqvprlfdvyrtkgqlanfqemleniflplfeatvhpashpelhlf  499 (564)
+                      |+|++|+|+..++|+++++|+.++...+.+++|+|++||.++++++.+.+++|+++|+|||.|+|++++.|++||+++.|
+T Consensus       373 Elris~~g~~~~e~~~la~~i~~~~~~~~~vr~ii~i~R~~~~~~~~~~~~~f~~~L~nif~pl~e~t~~p~~~~~l~~f  452 (701)
+T 2A3L_A          373 EYRISIYGRKMSEWDQLASWIVNNDLYSENVVWLIQLPRLYNIYKDMGIVTSFQNILDNIFIPLFEATVDPDSHPQLHVF  452 (701)
+T ss_dssp             EEEEECCSSSSTHHHHHHHHHHTTTCCCSSEEEEEEEECCHHHHTTSSSCSSTHHHHHHHSSHHHHHHHCGGGSTTTHHH
+T ss_pred             EEEeccccCCccHHHHHHHHHHhCcccCCeEEEEEEecccCCHHHhccccchHHHHHHHhHHHHHHHhcCcccCccHHHH
+Confidence            99999999998899999999999999899999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhccCCCCCCCCCCCCCCccccCCCCCChhhcCCCCCCchhhhHHhHhHHHHHHHhhc
+Q tr|A0A590UK85|  500 LEHVDGFDSVDDESKPENHVFNLESPLPEAWVEEDNPPYAYYLYYTFANMAMLNHLRR  557 (564)
+Q Consensus       500 lehvdgfdsvddeskpenhvfnlesplpeawveednppyayylyytfanmamlnhlrr  557 (564)
+                      |++|+|||++|+|+..+. .++...|.|+.|...++++|+||+||+|+|+.+||++|+
+T Consensus       453 l~~VvG~Dl~g~E~~~~~-~~~~~~p~p~~~~~~~~~a~~y~~yy~~anl~~ln~lr~  509 (701)
+T 2A3L_A          453 LKQVVGFDLVDDESKPER-RPTKHMPTPAQWTNAFNPAFSYYVYYCYANLYVLNKLRE  509 (701)
+T ss_dssp             HTTEEEEEEESCTTSCCC-CCCSSCCCTTTCCSSSCCCHHHHHHHHHHHHHHHHHHHT
+T ss_pred             hhcccceeecCCCCCCCC-CCCCCCCChHHHhhhcCchhhHHHHHHHHHHHHHHHHHH
+Confidence            999999999999998765 566666779999999999999999999999999999997
+
+
+No 2
+>3IAR_A Adenosine deaminase (E.C.3.5.4.4); deaminase, adenosine deaminase, adenosine, purine; HET: 3D1; 1.52A {Homo sapiens}
+Probab=55.56  E-value=19  Score=33.40  Aligned_cols=134  Identities=13%  Similarity=0.102  Sum_probs=84.2  Template_Neff=10.300
+
+Q ss_pred             hcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccchh
+Q tr|A0A590UK85|  291 FYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHRFD  370 (564)
+Q Consensus       291 fynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhrfd  370 (564)
+                      |+.+||+|+|+|++|++++..+++++++++...|.       .   +.+++-..+..                +.+..++
+T Consensus         3 ~~~lP~idlH~Hl~~~~~~~~~~~~~~~~~~~~~~-------~---~~~~~~~~~~~----------------~~~~~~~   56 (367)
+T 3IAR_A            3 AFDKPKVELHVHLDGSIKPETILYYGRRRGIALPA-------N---TAEGLLNVIGM----------------DKPLTLP   56 (367)
+T ss_dssp             CCCSCEEECCBBGGGSCCHHHHHHHHHHHTCCCSC-------S---SHHHHHHHHCC----------------SSCCCHH
+T ss_pred             cccCCceeeEecccCCCCHHHHHHHHHHhCCCCCC-------C---CHHHHHHHhCC----------------CCCCCHH
+Confidence            78999999999999999999999999876543221       1   22222221110                0122344
+
+
+Q ss_pred             ccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeCC-----------------CHH-H
+Q tr|A0A590UK85|  371 KFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYGR-----------------SRD-E  432 (564)
+Q Consensus       371 kfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiygr-----------------srd-e  432 (564)
+                      .|...+.... ..+    +.     .++++..+++.++.++.++|++|+|++++|...                 ... .
+T Consensus        57 ~~~~~~~~~~-~~~----~~-----~~e~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  126 (367)
+T 3IAR_A           57 DFLAKFDYYM-PAI----AG-----CREAIKRIAYEFVEMKAKEGVVYVEVRYSPHLLANSKVEPIPWNQAEGDLTPDEV  126 (367)
+T ss_dssp             HHHGGGGGTH-HHH----TT-----CHHHHHHHHHHHHHHHHTTTEEEEEEEECGGGGCSSSCSSCGGGCCCCSCCHHHH
+T ss_pred             HHHHHHHHHH-HHH----hC-----CHHHHHHHHHHHHHHHHHcCceEEEEEeChHHHhcCCCCCCCccccCCCCCHHHH
+Confidence            4444333221 111    11     389999999999999999999999999998422                 222 3
+
+
+Q ss_pred             HHHHHHHHHHhcC-CCCCceEEEeccchh
+Q tr|A0A590UK85|  433 WDKLARWAVMHRV-HSPNVRWLVQVPRLF  460 (564)
+Q Consensus       433 wdklarwavmhrv-hspnvrwlvqvprlf  460 (564)
+                      .+.+.+.+.+... .+.++++++++.|..
+T Consensus       127 ~~~~~~~~~~~~~~~gi~~~~~~~~~~~~  155 (367)
+T 3IAR_A          127 VALVGQGLQEGERDFGVKARSILCCMRHQ  155 (367)
+T ss_dssp             HHHHHHHHHHHHHHHCCEEEEEEEEETTC
+T ss_pred             HHHHHHHHHHHHHHHCCEEEEEEEeccCC
+Confidence            3344455544322 257788888887653
+
+
+No 3
+>6N9M_A Adenosine deaminase (E.C.3.5.4.4); deaminase, pentostatin, Structural Genomics, Center; HET: DCF, MSE; 1.449A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=54.88  E-value=19  Score=32.39  Aligned_cols=135  Identities=16%  Similarity=0.036  Sum_probs=83.0  Template_Neff=10.900
+
+Q ss_pred             hhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccch
+Q tr|A0A590UK85|  290 DFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHRF  369 (564)
+Q Consensus       290 dfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhrf  369 (564)
+                      +|.++||||+|+|++|+++.+.+..++.......|       ......+.+.+.   ..               .....+
+T Consensus         2 ~~~~~Pgvd~H~Hl~~~~~~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~---~~---------------~~~~~~   56 (341)
+T 6N9M_A            2 IDITLPLTDIHRHLDGNIRAQTILDLGRQFNIALP-------AQTLETLIPHVQ---VT---------------STEPDL   56 (341)
+T ss_dssp             CCTTSCCEEEEEEGGGCCCHHHHHHHHHHHTCCCS-------CSSHHHHHHHHS---CS---------------SCCSSH
+T ss_pred             ccccCCceeeeccccccccHHHHHHHHHHcCCCCC-------CCCHHHHHHhcc---CC---------------CCCCCH
+Confidence            57899999999999999999999999865543222       111112222221   00               001223
+
+
+Q ss_pred             hccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEe------CCCHH-HHHHHHHHHHH
+Q tr|A0A590UK85|  370 DKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIY------GRSRD-EWDKLARWAVM  442 (564)
+Q Consensus       370 dkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiy------grsrd-ewdklarwavm  442 (564)
+                      ..|..++.... ..+.          .++++...+...+.++.+.|++++|++++|.      +.... .+..+.+++.+
+T Consensus        57 ~~~~~~~~~~~-~~~~----------~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  125 (341)
+T 6N9M_A           57 VSFLTKLDWGV-KVLA----------SLDACRRVAFENIEDAARNGLHYVELRFSPGYMAMAHQLPIAGVVEAVIDGVRD  125 (341)
+T ss_dssp             HHHHHTTHHHH-HTCC----------SHHHHHHHHHHHHHHHHHTTCSEEEEEECHHHHHTTTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH-HHhC----------CHHHHHHHHHHHHHHHHHCCCcEEEEEeChHHHHHhcCCCHHHHHHHHHHHHHH
+Confidence            33333222111 1111          2899999999999999999999999999875      22333 34445555554
+
+
+Q ss_pred             hcC-CCCCceEEEeccchh
+Q tr|A0A590UK85|  443 HRV-HSPNVRWLVQVPRLF  460 (564)
+Q Consensus       443 hrv-hspnvrwlvqvprlf  460 (564)
+                      ... .+.++++++++.|..
+T Consensus       126 ~~~~~~i~~~~~~~~~~~~  144 (341)
+T 6N9M_A          126 GCNTFGVEARLIGIMSRTF  144 (341)
+T ss_dssp             HHHHHCCEEEEEEEEEGGG
+T ss_pred             HHHHHCCeEEEEEEecCCC
+Confidence            322 357778888887754
+
+
+No 4
+>1ADD_A ADENOSINE DEAMINASE (E.C.3.5.4.4) COMPLEXED WITH; HYDROLASE(ACTING IN CYCLICAMIDINES); HET: 1DA; 2.4A {Mus musculus} SCOP: c.1.9.1
+Probab=54.63  E-value=20  Score=32.66  Aligned_cols=135  Identities=17%  Similarity=0.124  Sum_probs=84.7  Template_Neff=10.600
+
+Q ss_pred             hhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccch
+Q tr|A0A590UK85|  290 DFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHRF  369 (564)
+Q Consensus       290 dfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhrf  369 (564)
+                      .++.+||||+|+|++||++.+.++.+.++.....|..          +..++-..+...                ....+
+T Consensus         2 ~~~~~P~~dlH~Hl~~~~~~~~~~~~~~~~~~~~~~~----------~~~~~~~~~~~~----------------~~~~~   55 (349)
+T 1ADD_A            2 PAFNKPKVELHVHLDGAIKPETILYFGKKRGIALPAD----------TVEELRNIIGMD----------------KPLSL   55 (349)
+T ss_dssp             CSCCSCEEEEEEEGGGSCCHHHHHHHHHHHTCCCSCS----------SHHHHHHHHSCS----------------SCCCH
+T ss_pred             CcccCCcccceecccCCCCHHHHHHHHHHhCCCCCCC----------CHHHHHHHhCCC----------------CCCCH
+Confidence            4688999999999999999999999997754322211          122222211110                11244
+
+
+Q ss_pred             hccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeC-----------------CCH-H
+Q tr|A0A590UK85|  370 DKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYG-----------------RSR-D  431 (564)
+Q Consensus       370 dkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiyg-----------------rsr-d  431 (564)
+                      ..|...+.....     .++.     .++.+..++..++.++.++|++|+|+++++..                 ... .
+T Consensus        56 ~~~~~~~~~~~~-----~~~~-----~~e~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  125 (349)
+T 1ADD_A           56 PGFLAKFDYYMP-----VIAG-----CREAIKRIAYEFVEMKAKEGVVYVEVRYSPHLLANSKVDPMPWNQTEGDVTPDD  125 (349)
+T ss_dssp             HHHTTGGGGTHH-----HHTT-----CHHHHHHHHHHHHHHHHHTTEEEEEEEECSGGGCSSSCSSCGGGCCCCSCCHHH
+T ss_pred             HHHHHHHHHHHH-----HHhC-----CHHHHHHHHHHHHHHHHHcCCeEEEEEeCHHHHhcCCCCCCCcccCCCCCCHHH
+Confidence            444444433221     1111     38999999999999999999999999999852                 122 2
+
+
+Q ss_pred             HHHHHHHHHHHhcC-CCCCceEEEeccchh
+Q tr|A0A590UK85|  432 EWDKLARWAVMHRV-HSPNVRWLVQVPRLF  460 (564)
+Q Consensus       432 ewdklarwavmhrv-hspnvrwlvqvprlf  460 (564)
+                      ..+.+.+.+.+... .++.+++++++.|..
+T Consensus       126 ~~~~~~~~~~~~~~~~gi~~~~~~~~~~~~  155 (349)
+T 1ADD_A          126 VVDLVNQGLQEGEQAFGIKVRSILCCMRHQ  155 (349)
+T ss_dssp             HHHHHHHHHHHHHHHHCCEEEEEEEEETTC
+T ss_pred             HHHHHHHHHHHHHHHHCCEEEEEEEeccCC
+Confidence            33444444444322 257788888887753
+
+
+No 5
+>3EWD_A Adenosine deaminase (E.C.3.5.4.4); adenosine deaminase, MT-coformycin, methylthio-coformycin, HYDROLASE; HET: MCF; 1.9A {Plasmodium vivax}
+Probab=48.96  E-value=20  Score=33.56  Aligned_cols=159  Identities=13%  Similarity=0.113  Sum_probs=91.7  Template_Neff=10.200
+
+Q ss_pred             HHHHHHhhhHhhHHHHHHHHHHHHHcCCCChhhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhh
+Q tr|A0A590UK85|  258 YRRLQYLSSKFQMHVLLNEMKELAAQKKVPHRDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQT  337 (564)
+Q Consensus       258 yrrlqylsskfqmhvllnemkelaaqkkvphrdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqt  337 (564)
+                      .+++++|+.||    +.|.......... -...++.+||||+|+|+.|+++...+++++++.... |.          .+
+T Consensus         5 ~~~~~~~~~~~----~~~~~~~~~~~~~-~~~~~~~lPgid~H~Hl~~~~~~~~~~~~~~~~~~~-p~----------~~   68 (370)
+T 3EWD_A            5 QEPIDFLKKEE----LKNIDLSQMSKKE-RYKIWKRIPKCELHCHLDLCFSADFFVSCIRKYNLQ-PN----------LS   68 (370)
+T ss_dssp             --CCCCCCGGG----GGGCCGGGCCHHH-HHHHHHHSCEEEEEEEGGGCCCHHHHHHHHHHTTCC-TT----------SC
+T ss_pred             hhhHHHHhhhh----cccCCHHHcChhH-HHHHHHhCChhhheeCcccCCCHHHHHHHHHHhCCC-CC----------CC
+Confidence            36778888887    4443332111000 135678999999999999999999999998765432 21          12
+
+
+Q ss_pred             HHHHHHHCCcccccccccccccccCcccccchhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCC
+Q tr|A0A590UK85|  338 LREVFESMNLTAYDLSVDTLDVHADRNTFHRFDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQ  417 (564)
+Q Consensus       338 lrevfesmnltaydlsvdtldvhadrntfhrfdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyq  417 (564)
+                      +.++...+...               .....+..|...+.... ..+.    +      .+.+..++...++++.+.|+.
+T Consensus        69 ~~~~~~~~~~~---------------~~~~~~~~~~~~~~~~~-~~~~----~------~~~~~~~~~~~~~~~~~~Gvt  122 (370)
+T 3EWD_A           69 DEEVLDYYLFA---------------KGGKSLGEFVEKAIKVA-DIFH----D------YEVIEDLAKHAVFNKYKEGVV  122 (370)
+T ss_dssp             HHHHHHHHCCT---------------TCCSCHHHHHHHHHHHG-GGCC----S------HHHHHHHHHHHHHHHHHHTEE
+T ss_pred             HHHHHHhcccc---------------CCCCCHHHHHHHHHHHH-HHhC----C------HHHHHHHHHHHHHHHHHcCce
+Confidence            23332221110               00112222222222111 1111    2      888999999999999999999
+
+
+Q ss_pred             CceEEEEEe------CCCHH-HHHHHHHHHHHhcC---CCCCceEEEeccc
+Q tr|A0A590UK85|  418 NAELRLSIY------GRSRD-EWDKLARWAVMHRV---HSPNVRWLVQVPR  458 (564)
+Q Consensus       418 naelrlsiy------grsrd-ewdklarwavmhrv---hspnvrwlvqvpr  458 (564)
+                      ++|+++++.      |.... .+..+.+.+.+...   .+..++++++..+
+T Consensus       123 ~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  173 (370)
+T 3EWD_A          123 LMEFRYSPTFVAFKYNLDIELIHQAIVKGIKEVVELLDHKIHVALMCIGTG  173 (370)
+T ss_dssp             EEEEEECHHHHHHTTTCCHHHHHHHHHHHHHHHHHHTTTSSEEEEEEEEES
+T ss_pred             EEEEEeCchHHHHhcCCCHHHHHHHHHHHHHHHHHHhCCCcEEEEEEecCC
+Confidence            999999975      44433 23344444333221   3466777777766
+
+
+No 6
+>3RYS_A Adenosine deaminase 1 (E.C.3.5.4.4); SGX, HYDROLASE; HET: ADE; 2.601A {Arthrobacter aurescens}
+Probab=32.90  E-value=71  Score=29.04  Aligned_cols=131  Identities=11%  Similarity=0.101  Sum_probs=76.4  Template_Neff=10.800
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccc
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHR  368 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhr  368 (564)
+                      ..++++||||+|+|+.++++.+.+.++++......|...          ..+.-. +                  ..+..
+T Consensus         8 ~~~~~mPgid~H~Hl~~~~~~~~~~~~~~~~~~~~p~~~----------~~~~~~-~------------------~~~~~   58 (343)
+T 3RYS_A            8 TTSTAPPVAELHLHIEGTLQPELIFALAERNGIELPYED----------IEELRE-K------------------YEFTD   58 (343)
+T ss_dssp             CCCSCCCEEECSBBGGGGCCHHHHHHHHHHTTCCCSCSS----------HHHHHT-T------------------CCCSS
+T ss_pred             hhcccCCceeeEeCcccCCCHHHHHHHHHHcCCCCCCCC----------HHHHHH-h------------------cCCCC
+Confidence            457899999999999999999999999876543322110          011110 0                  00112
+
+
+Q ss_pred             hhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeCCC--HHHHHHHHHHHHHhcC-
+Q tr|A0A590UK85|  369 FDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYGRS--RDEWDKLARWAVMHRV-  445 (564)
+Q Consensus       369 fdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiygrs--rdewdklarwavmhrv-  445 (564)
+                      +..|...+.... ..+          ...+++...+...+.++.++|+.|+|+++++....  ...+....+++.+... 
+T Consensus        59 ~~~~~~~~~~~~-~~~----------~~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  127 (343)
+T 3RYS_A           59 LQSFLDLYYANM-AVL----------QTEQDFTDMTRAYLERAAAGGVRHAEIMMDPQAHTSRGVALETCVNGVANALAT  127 (343)
+T ss_dssp             HHHHHHHHHHHG-GGC----------CSHHHHHHHHHHHHHHHHHTTEEEEEEEECHHHHHTTTCCHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHH-HHh----------CCHHHHHHHHHHHHHHHHHCCceEEEEEEccHHHHhcCCCHHHHHHHHHHHHHH
+Confidence            222222221111 011          12899999999999999999999999999975211  0112233333333221 
+
+
+Q ss_pred             ----CCCCceEEEeccch
+Q tr|A0A590UK85|  446 ----HSPNVRWLVQVPRL  459 (564)
+Q Consensus       446 ----hspnvrwlvqvprl  459 (564)
+                          .+...++++++.+.
+T Consensus       128 ~~~~~~i~~~~~~~~~~~  145 (343)
+T 3RYS_A          128 SEEDFGVSTLLIAAFLRD  145 (343)
+T ss_dssp             HHHHHSCEEEEEEEEETT
+T ss_pred             HHHHHCceEEEEEEecCC
+Confidence                14566666676654
+
+
+No 7
+>3RYS_B Adenosine deaminase 1 (E.C.3.5.4.4); SGX, HYDROLASE; HET: ADE; 2.601A {Arthrobacter aurescens}
+Probab=32.90  E-value=71  Score=29.04  Aligned_cols=131  Identities=11%  Similarity=0.101  Sum_probs=73.8  Template_Neff=10.800
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccc
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHR  368 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhr  368 (564)
+                      ..++++||||+|+|+.++++.+.+.++++......|...          ..+.-. +                  ..+..
+T Consensus         8 ~~~~~mPgid~H~Hl~~~~~~~~~~~~~~~~~~~~p~~~----------~~~~~~-~------------------~~~~~   58 (343)
+T 3RYS_B            8 TTSTAPPVAELHLHIEGTLQPELIFALAERNGIELPYED----------IEELRE-K------------------YEFTD   58 (343)
+T ss_dssp             ----CCCEEECSBBGGGGCCHHHHHHHHHHTTCCCSSSS----------HHHHHT-T------------------CCCSS
+T ss_pred             hhcccCCceeeEeCcccCCCHHHHHHHHHHcCCCCCCCC----------HHHHHH-h------------------cCCCC
+Confidence            567899999999999999999999999876543322110          011110 0                  00112
+
+
+Q ss_pred             hhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeCCC--HHHHHHHHHHHHHhcC-
+Q tr|A0A590UK85|  369 FDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYGRS--RDEWDKLARWAVMHRV-  445 (564)
+Q Consensus       369 fdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiygrs--rdewdklarwavmhrv-  445 (564)
+                      +..|...+.... ..+          ...+++...+...+.++.++|+.|+|+++++....  ...+....+++.+... 
+T Consensus        59 ~~~~~~~~~~~~-~~~----------~~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  127 (343)
+T 3RYS_B           59 LQSFLDLYYANM-AVL----------QTEQDFTDMTRAYLERAAAGGVRHAEIMMDPQAHTSRGVALETCVNGVANALAT  127 (343)
+T ss_dssp             HHHHHHHHHHHG-GGC----------CSHHHHHHHHHHHHHHHHHTTEEEEEEEECHHHHHTTTCCHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHH-HHh----------CCHHHHHHHHHHHHHHHHHCCceEEEEEEccHHHHhcCCCHHHHHHHHHHHHHH
+Confidence            222222221111 011          12899999999999999999999999999975221  0112233333333221 
+
+
+Q ss_pred             ----CCCCceEEEeccch
+Q tr|A0A590UK85|  446 ----HSPNVRWLVQVPRL  459 (564)
+Q Consensus       446 ----hspnvrwlvqvprl  459 (564)
+                          .+...++++++.+.
+T Consensus       128 ~~~~~~i~~~~~~~~~~~  145 (343)
+T 3RYS_B          128 SEEDFGVSTLLIAAFLRD  145 (343)
+T ss_dssp             HHHHHSCEEEEEEEEETT
+T ss_pred             HHHHHCceEEEEEEecCC
+Confidence                14566666676654
+
+
+No 8
+>7A4Y_D Nanobody Nb34, Coiled-coil P6 peptide; coiled-coil, nanobody, antibody, protein design; HET: SO4; 2.157A {Lama glama}
+Probab=31.40  E-value=98  Score=24.18  Aligned_cols=18  Identities=56%  Similarity=0.767  Sum_probs=15.5  Template_Neff=1.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHhc
+Q tr|A0A590UK85|   34 PIEQLEERRQRLERQISQ   51 (564)
+Q Consensus        34 pieqleerrqrlerqisq   51 (564)
+                      .|.||++..|.||..||.
+T Consensus         9 eiqqleeenqqleekise   26 (31)
+T 7A4Y_D            9 EIQQLEEENQQLEEKISE   26 (31)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            478999999999999874
+
+
+No 9
+>7BI7_A FeMo cofactor biosynthesis protein NifB; NITROGENASE, RADICAL SAM ENZYME, IRON-MOLYBDENUM; HET: CLF, SF4; 3.0A {Methanothermobacter thermautotrophicus (strain ATCC 29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H)}
+Probab=28.09  E-value=5.9e+02  Score=21.56  Aligned_cols=44  Identities=14%  Similarity=0.077  Sum_probs=26.9  Template_Neff=12.100
+
+Q ss_pred             HHHHHHHHHHHHHcCCCCceEEEEEe-CCCHHHHHHHHHHHHHhcC
+Q tr|A0A590UK85|  401 AHIIKEVMSDLEESKYQNAELRLSIY-GRSRDEWDKLARWAVMHRV  445 (564)
+Q Consensus       401 ahiikevmsdleeskyqnaelrlsiy-grsrdewdklarwavmhrv  445 (564)
+                      .+-+.+.++.+.+.|+ .+.+.+.+. +...+++..+++++.+.+.
+T Consensus       174 ~~~~~~~i~~~~~~g~-~~~~~~~~~~~~~~~~~~~~~~~~~~~g~  218 (288)
+T 7BI7_A          174 SRNQLEGIEKLAERGI-IVKVNSVLIPGLNDEHIVDIAREVKKRGA  218 (288)
+T ss_dssp             HHHHHHHHHHHHHTTC-EEEEEEEECTTTTTTTHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHHCCC-cEEEEEEEecCCCHHHHHHHHHHHHHcCC
+Confidence            3445566777777775 344444442 2345578888888877643
+
+
+No 10
+>4GXW_A Adenosine deaminase (E.C.3.5.4.4); amidohydrolase, cog1816, adenosine deaminase related; 1.3A {Burkholderia ambifaria}
+Probab=27.90  E-value=1.1e+02  Score=29.24  Aligned_cols=33  Identities=18%  Similarity=0.293  Sum_probs=29.8  Template_Neff=10.100
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHH
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMK  321 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramk  321 (564)
+                      .+++.+||||+|+|++|+++...+.++..++..
+T Consensus        24 ~~~~~lPgvd~H~Hl~~~~~~~~~~~~~~~~~~   56 (380)
+T 4GXW_A           24 AFFHALPKVELHCHLLGAVRHDTFVALAQRSGA   56 (380)
+T ss_dssp             HHHHHSCEEECCBBGGGCCCHHHHHHHHHHHTC
+T ss_pred             HHHHhCCCceEEECCcCCCCHHHHHHHHHHhCC
+Confidence            578899999999999999999999999887764
+
+
+No 11
+>4GXW_B Adenosine deaminase (E.C.3.5.4.4); amidohydrolase, cog1816, adenosine deaminase related; 1.3A {Burkholderia ambifaria}
+Probab=27.90  E-value=1.1e+02  Score=29.24  Aligned_cols=34  Identities=18%  Similarity=0.276  Sum_probs=30.2  Template_Neff=10.100
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHH
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKR  322 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkr  322 (564)
+                      .+++.+||||+|+|++|+++...+.++..++...
+T Consensus        24 ~~~~~lPgvd~H~Hl~~~~~~~~~~~~~~~~~~~   57 (380)
+T 4GXW_B           24 AFFHALPKVELHCHLLGAVRHDTFVALAQRSGAP   57 (380)
+T ss_dssp             HHHHHSCEEECCBBGGGSCCHHHHHHHHHHHTCS
+T ss_pred             HHHHhCCCceEEECCcCCCCHHHHHHHHHHhCCC
+Confidence            5788999999999999999999999998877643
+
+
+No 12
+>6N91_A Adenosine deaminase (E.C.3.5.4.4); deaminase, pentostatin, Structural Genomics, Center; HET: DCF, GOL, PO4, CXS; 2.05A {Vibrio cholerae O1 biovar El Tor str. N16961}
+Probab=27.77  E-value=86  Score=28.37  Aligned_cols=135  Identities=15%  Similarity=0.051  Sum_probs=81.6  Template_Neff=10.900
+
+Q ss_pred             hhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccch
+Q tr|A0A590UK85|  290 DFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHRF  369 (564)
+Q Consensus       290 dfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhrf  369 (564)
+                      ++.++||||+|+|++|+++.+.+.+++.+.....|       ......+..++..   .               ..+..+
+T Consensus         2 ~~~~mPgid~H~Hl~~~~~~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~~---~---------------~~~~~~   56 (340)
+T 6N91_A            2 ITSSLPLTDLHRHLDGNIRTQTILELGQKFGVKLP-------ANTLQTLTPYVQI---V---------------EAEPSL   56 (340)
+T ss_dssp             CCTTSCCEEEEEEGGGCCCHHHHHHHHHHHTCCCS-------CSSHHHHHHHHSC---S---------------SCCSSH
+T ss_pred             ccccCChhhhhhhhccCCCHHHHHHHHHHHCCCCC-------CCCHHHhHhhccc---c---------------CCCCCH
+Confidence            46789999999999999999999999876543222       1112223333321   0               001233
+
+
+Q ss_pred             hccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeCC------CH-HHHHHHHHHHHH
+Q tr|A0A590UK85|  370 DKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYGR------SR-DEWDKLARWAVM  442 (564)
+Q Consensus       370 dkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiygr------sr-dewdklarwavm  442 (564)
+                      ..|...+.... ..    +.+      ++.+...+..++.++.++|++|+|++++++..      .. ..+..+.+.+.+
+T Consensus        57 ~~~~~~~~~~~-~~----~~~------~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  125 (340)
+T 6N91_A           57 VAFLSKLDWGV-AV----LGD------LDACRRVAYENVEDALNARIDYAELRFSPYYMAMKHSLPVTGVVEAVVDGVRA  125 (340)
+T ss_dssp             HHHHGGGHHHH-HT----CCS------HHHHHHHHHHHHHHHHHTTCSEEEEEECHHHHHHTTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH-HH----HCC------HHHHHHHHHHHHHHHHHCCCcEEEEEeccHHHHHhCCCCHHHHHHHHHHHHHH
+Confidence            34433332211 11    113      88899999999999999999999999997532      21 233333344433
+
+
+Q ss_pred             hc-CCCCCceEEEeccchh
+Q tr|A0A590UK85|  443 HR-VHSPNVRWLVQVPRLF  460 (564)
+Q Consensus       443 hr-vhspnvrwlvqvprlf  460 (564)
+                      .. ..+..+++++++.|..
+T Consensus       126 ~~~~~~~~~~~~~~~~~~~  144 (340)
+T 6N91_A          126 GVRDFGIQANLIGIMSRTF  144 (340)
+T ss_dssp             HHHHHCCEEEEEEEEEGGG
+T ss_pred             HHHHHCCeEEEEEEccCCC
+Confidence            32 1256677777776643
+
+
+No 13
+>7RTY_B Fosfomycin biosynthesis, metalloenzyme, Fe, BIOSYNTHETIC; 1.963A {Pseudomonas syringae}
+Probab=26.76  E-value=1.1e+02  Score=25.96  Aligned_cols=27  Identities=26%  Similarity=0.313  Sum_probs=17.7  Template_Neff=11.200
+
+Q ss_pred             cccccccccccccC-----CHHHHHHHHHHHH
+Q tr|A0A590UK85|  294 IRKVDTHIHASSCM-----NQKHLLRFIKRAM  320 (564)
+Q Consensus       294 irkvdthihasscm-----nqkhllrfikram  320 (564)
+                      .-++|+|+|...|.     ....+-+++....
+T Consensus         3 ~~~~DlH~Hs~~s~~~~~~~~~~~~~~~~~a~   34 (245)
+T 7RTY_B            3 RKVVDTHVHLLLSKKQRVPDWAAIKRMLDVAK   34 (245)
+T ss_dssp             EEEEEEEECSSSCTTCCSCCHHHHHHHHHHHH
+T ss_pred             eeEEEEEEccccccccCCCChHHHHHHHHHHH
+Confidence            45789999998775     4555555554443
+
+
+No 14
+>7NBI_A Fms-related tyrosine kinase 3 ligand; FLT3 Ligand, Engineered cytokine, monomeric; HET: SO4; 1.65A {Homo sapiens}
+Probab=26.29  E-value=1.7e+02  Score=28.25  Aligned_cols=7  Identities=14%  Similarity=0.278  Sum_probs=3.5  Template_Neff=4.700
+
+Q ss_pred             hhhcccc
+Q tr|A0A590UK85|  289 RDFYNIR  295 (564)
+Q Consensus       289 rdfynir  295 (564)
+                      +||.++.
+T Consensus       126 ~nFs~C~  132 (138)
+T 7NBI_A          126 QNFSRCL  132 (138)
+T ss_dssp             CCCGGGS
+T ss_pred             CCCcCCc
+Confidence            5555543
+
+
+No 15
+>7NBI_B Fms-related tyrosine kinase 3 ligand; FLT3 Ligand, Engineered cytokine, monomeric; HET: SO4; 1.65A {Homo sapiens}
+Probab=26.29  E-value=1.7e+02  Score=28.25  Aligned_cols=7  Identities=14%  Similarity=0.278  Sum_probs=3.4  Template_Neff=4.700
+
+Q ss_pred             hhhcccc
+Q tr|A0A590UK85|  289 RDFYNIR  295 (564)
+Q Consensus       289 rdfynir  295 (564)
+                      +||.++.
+T Consensus       126 ~nFs~C~  132 (138)
+T 7NBI_B          126 QNFSRCL  132 (138)
+T ss_dssp             SCCGGGS
+T ss_pred             CCCcCCc
+Confidence            4555443
+
+
+No 16
+>7JMA_A Nitrogenase iron-molybdenum cofactor biosynthesis protein; Nitrogenase, Radical SAM enzyme, iron-molybdenum; 1.7A {Methanothermobacter thermautotrophicus}
+Probab=25.83  E-value=7e+02  Score=21.71  Aligned_cols=43  Identities=14%  Similarity=0.070  Sum_probs=26.8  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHHHHHHcCCCCceEEEEEe-CCCHHHHHHHHHHHHHhcC
+Q tr|A0A590UK85|  402 HIIKEVMSDLEESKYQNAELRLSIY-GRSRDEWDKLARWAVMHRV  445 (564)
+Q Consensus       402 hiikevmsdleeskyqnaelrlsiy-grsrdewdklarwavmhrv  445 (564)
+                      +-+.+.++.+.+.|+ .+.+.+.+. +...+++..+++++.+.+.
+T Consensus       175 ~~~~~~i~~~~~~g~-~~~~~~~~~~~~~~~~i~~~~~~~~~~g~  218 (296)
+T 7JMA_A          175 RNQLEGIEKLAERGI-IVKVNSVLIPGLNDEHIVDIAREVKKRGA  218 (296)
+T ss_dssp             HHHHHHHHHHHHTTC-EEEEEEEECTTTTTTTHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHCCC-EEEEEEEEcCCCCHHHHHHHHHHHHHhCC
+Confidence            444566777777775 344444442 2345688888999887753
+
+
+No 17
+>3OU8_B Adenosine deaminase (E.C.3.5.4.4); Structural Genomics, PSI-2, Protein Structure; HET: MSE; 2.51A {Pseudomonas aeruginosa}
+Probab=23.52  E-value=1.4e+02  Score=26.88  Aligned_cols=131  Identities=10%  Similarity=0.053  Sum_probs=77.0  Template_Neff=10.900
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccc
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHR  368 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhr  368 (564)
+                      .+++.+||||+|+|+.|+++++.+++++++.....|..          +..++ ..+.                  .+..
+T Consensus         5 ~~~~~~Pgid~H~Hl~~~~~~~~~~~~~~~~~~~~~~~----------~~~~~-~~~~------------------~~~~   55 (326)
+T 3OU8_B            5 EWLNALPKAELHLHLEGTLEPELLFALAERNRIALPWN----------DVETL-RKAY------------------AFNN   55 (326)
+T ss_dssp             HHHHHSCEEECSBBGGGGCCHHHHHHHHHHHTCCCSSS----------SHHHH-HTTC------------------CCSS
+T ss_pred             HHHHhCCceeeEeCccCCCCHHHHHHHHHHcCCCCCCC----------CHHHH-HHHh------------------cCCC
+Confidence            46789999999999999999999999988765432211          01111 1100                  0112
+
+
+Q ss_pred             hhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeC-----CCH-HHHHHHHHHHHH
+Q tr|A0A590UK85|  369 FDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYG-----RSR-DEWDKLARWAVM  442 (564)
+Q Consensus       369 fdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiyg-----rsr-dewdklarwavm  442 (564)
+                      +..|...+.... ..+          ..++++...+...+.++.+.|+.++|+++++..     ... +.++.+.+.+.+
+T Consensus        56 ~~~~~~~~~~~~-~~~----------~~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  124 (326)
+T 3OU8_B           56 LQEFLDLYYAGA-DVL----------RTEQDFYDLTWAYLQKCKAQNVVHVEPFFDPQTHTDRGIPFEVVLAGIRAALRD  124 (326)
+T ss_dssp             HHHHHHHHHHHG-GGC----------CSHHHHHHHHHHHHHHHHHTTEEEECCEECHHHHHTTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-HHh----------CCHHHHHHHHHHHHHHHHHCCceEEEEEEChHHHHhCCCCHHHHHHHHHHHHHH
+Confidence            222222211110 011          128889999999999999999999999988652     121 234444444444
+
+
+Q ss_pred             hcC-CCCCceEEEeccch
+Q tr|A0A590UK85|  443 HRV-HSPNVRWLVQVPRL  459 (564)
+Q Consensus       443 hrv-hspnvrwlvqvprl  459 (564)
+                      ... .+..+++++.+.+.
+T Consensus       125 ~~~~~~~~~~~~~~~~~~  142 (326)
+T 3OU8_B          125 GEKLLGIRHGLILSFLRH  142 (326)
+T ss_dssp             CCCCCCCEECCEEEEETT
+T ss_pred             HHHHHCCeEEEEEEecCC
+Confidence            332 24555566665543
+
+
+No 18
+>3PAO_A Adenosine deaminase (E.C.3.5.4.4); Structural Genomics, PSI-2, Protein Structure; HET: ADE, MSE; 2.493A {Pseudomonas aeruginosa}
+Probab=23.52  E-value=1.4e+02  Score=26.88  Aligned_cols=131  Identities=10%  Similarity=0.053  Sum_probs=75.8  Template_Neff=10.900
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccc
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHR  368 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhr  368 (564)
+                      .+++.+||||+|+|+.|+++++.+++++++.....|..          +..++ ..+.                  .+..
+T Consensus         5 ~~~~~~Pgid~H~Hl~~~~~~~~~~~~~~~~~~~~~~~----------~~~~~-~~~~------------------~~~~   55 (326)
+T 3PAO_A            5 EWLNALPKAELHLHLEGTLEPELLFALAERNRIALPWN----------DVETL-RKAY------------------AFNN   55 (326)
+T ss_dssp             HHHHHSCEEECSBBGGGGCCHHHHHHHHHHTTCCCSSS----------SHHHH-HHTC------------------CCSS
+T ss_pred             HHHHhCCceeeEeCccCCCCHHHHHHHHHHcCCCCCCC----------CHHHH-HHHh------------------cCCC
+Confidence            46789999999999999999999999988654332211          11111 1110                  0112
+
+
+Q ss_pred             hhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeC-----CCH-HHHHHHHHHHHH
+Q tr|A0A590UK85|  369 FDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYG-----RSR-DEWDKLARWAVM  442 (564)
+Q Consensus       369 fdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiyg-----rsr-dewdklarwavm  442 (564)
+                      +..|...+.... ..+          ..++++...+...+.++.+.|+.++|+++++..     ... +.++.+.+.+.+
+T Consensus        56 ~~~~~~~~~~~~-~~~----------~~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  124 (326)
+T 3PAO_A           56 LQEFLDLYYAGA-DVL----------RTEQDFYDLTWAYLQKCKAQNVVHVEPFFDPQTHTDRGIPFEVVLAGIRAALRD  124 (326)
+T ss_dssp             HHHHHHHHHHHG-GGC----------CSHHHHHHHHHHHHHHHHHTTEEEECCEECHHHHHTTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-HHh----------CCHHHHHHHHHHHHHHHHHCCceEEEEEEChHHHHhCCCCHHHHHHHHHHHHHH
+Confidence            222222211110 011          128889999999999999999999999988652     121 223334433333
+
+
+Q ss_pred             hcC-CCCCceEEEeccch
+Q tr|A0A590UK85|  443 HRV-HSPNVRWLVQVPRL  459 (564)
+Q Consensus       443 hrv-hspnvrwlvqvprl  459 (564)
+                      ... .+..+++++.+.+.
+T Consensus       125 ~~~~~~~~~~~~~~~~~~  142 (326)
+T 3PAO_A          125 GEKLLGIRHGLILSFLRH  142 (326)
+T ss_dssp             HHHHHCCEECCEEEEETT
+T ss_pred             HHHHHCCeEEEEEEecCC
+Confidence            221 14555566655443
+
+
+No 19
+>3PBM_A Adenosine deaminase (E.C.3.5.4.4); Structural Genomics, PSI-2, Protein Structure; HET: ES4, MSE; 2.591A {Pseudomonas aeruginosa}
+Probab=23.52  E-value=1.4e+02  Score=26.88  Aligned_cols=131  Identities=10%  Similarity=0.053  Sum_probs=76.4  Template_Neff=10.900
+
+Q ss_pred             hhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCcccccc
+Q tr|A0A590UK85|  289 RDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFHR  368 (564)
+Q Consensus       289 rdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfhr  368 (564)
+                      .+++.+||||+|+|+.|+++++.+++++++.....|..          +..++ ..+.                  .+..
+T Consensus         5 ~~~~~~Pgid~H~Hl~~~~~~~~~~~~~~~~~~~~~~~----------~~~~~-~~~~------------------~~~~   55 (326)
+T 3PBM_A            5 EWLNALPKAELHLHLEGTLEPELLFALAERNRIALPWN----------DVETL-RKAY------------------AFNN   55 (326)
+T ss_dssp             HHHHHSCEEECSBBGGGGCCHHHHHHHHHHHTCCCSSS----------SHHHH-HHTC------------------CCSS
+T ss_pred             HHHHhCCceeeEeCccCCCCHHHHHHHHHHcCCCCCCC----------CHHHH-HHHh------------------cCCC
+Confidence            46789999999999999999999999988765432211          11111 1110                  0112
+
+
+Q ss_pred             hhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeC-----CCH-HHHHHHHHHHHH
+Q tr|A0A590UK85|  369 FDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYG-----RSR-DEWDKLARWAVM  442 (564)
+Q Consensus       369 fdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiyg-----rsr-dewdklarwavm  442 (564)
+                      +..|...+.... ..+          ..++++...+...+.++.+.|+.++|+++++..     ... +.++.+.+.+.+
+T Consensus        56 ~~~~~~~~~~~~-~~~----------~~~~~~~~~~~~~~~~~~~~Gvt~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  124 (326)
+T 3PBM_A           56 LQEFLDLYYAGA-DVL----------RTEQDFYDLTWAYLQKCKAQNVVHVEPFFDPQTHTDRGIPFEVVLAGIRAALRD  124 (326)
+T ss_dssp             HHHHHHHHHHGG-GGC----------CSHHHHHHHHHHHHHHHHHTTEEEECCEECHHHHHTTTCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH-HHh----------CCHHHHHHHHHHHHHHHHHCCceEEEEEEChHHHHhCCCCHHHHHHHHHHHHHH
+Confidence            222222211110 011          128889999999999999999999999988652     121 223434433333
+
+
+Q ss_pred             hcC-CCCCceEEEeccch
+Q tr|A0A590UK85|  443 HRV-HSPNVRWLVQVPRL  459 (564)
+Q Consensus       443 hrv-hspnvrwlvqvprl  459 (564)
+                      ... .+..+++++.+.+.
+T Consensus       125 ~~~~~~~~~~~~~~~~~~  142 (326)
+T 3PBM_A          125 GEKLLGIRHGLILSFLRH  142 (326)
+T ss_dssp             HHHHHCCEECCEEEEETT
+T ss_pred             HHHHHCCeEEEEEEecCC
+Confidence            221 14555566665443
+
+
+No 20
+>6IJN_A beta-glucosidase 1317; Purine metabolism, deaminase, N6-methyladensosine, Tim-barrel; HET: 6MZ; 1.66A {Arabidopsis thaliana}
+Probab=21.90  E-value=1.1e+02  Score=29.19  Aligned_cols=102  Identities=15%  Similarity=0.159  Sum_probs=67.6  Template_Neff=9.900
+
+Q ss_pred             hhhhcccccccccccccccCCHHHHHHHHHHHHHHhHHhhcccccCchhhHHHHHHHCCcccccccccccccccCccccc
+Q tr|A0A590UK85|  288 HRDFYNIRKVDTHIHASSCMNQKHLLRFIKRAMKRHLEEIVHVEQGREQTLREVFESMNLTAYDLSVDTLDVHADRNTFH  367 (564)
+Q Consensus       288 hrdfynirkvdthihasscmnqkhllrfikramkrhleeivhveqgreqtlrevfesmnltaydlsvdtldvhadrntfh  367 (564)
+                      ...++++||||+|+|++|++..+.+++++++.....|.        ....+.+++..-                    ..
+T Consensus        22 ~~~~~~~Pgvd~H~Hl~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~~~~--------------------~~   73 (376)
+T 6IJN_A           22 MEWIQSLPKIELHAHLNGSIRDSTLLELARVLGEKGVI--------VFADVEHVIQKN--------------------DR   73 (376)
+T ss_dssp             HHHHHHSCEEEEEEEGGGSCCHHHHHHHHHHHHHTTSS--------CHHHHHHHHHHC--------------------CC
+T ss_pred             HHHHHhCChhHhHHcccCCCCHHHHHHHHHHhCCCCCc--------ChhhHHHHHhhC--------------------CC
+Confidence            35688999999999999999999999999877643221        112333343210                    01
+
+
+Q ss_pred             chhccccccCCCCccceeEEEEecCCcccHHHHHHHHHHHHHHHHHcCCCCceEEEEEeCC
+Q tr|A0A590UK85|  368 RFDKFNAKYNPIGESVLREIFIKTDNRVSGKYFAHIIKEVMSDLEESKYQNAELRLSIYGR  428 (564)
+Q Consensus       368 rfdkfnakynpigesvlreifiktdnrvsgkyfahiikevmsdleeskyqnaelrlsiygr  428 (564)
+                      .+..|...+.... ..+.    +      ++.+..+++.++.++.++|+.|+|+++++...
+T Consensus        74 ~~~~~~~~~~~~~-~~~~----~------~e~~~~~~~~~~~~~~~~Gvt~ve~~~~~~~~  123 (376)
+T 6IJN_A           74 SLVEVFKLFDLIH-KLTT----D------HKTVTRITREVVEDFALENVVYLELRTTPKRS  123 (376)
+T ss_dssp             CHHHHHHHHHHHH-HHHC----S------HHHHHHHHHHHHHHHHHTTEEEEEEEECCCCB
+T ss_pred             CHHHHHHHHHHHH-HHhC----C------HHHHHHHHHHHHHHHHHCCeEEEEEEcCCccc
+Confidence            1222222211110 0111    2      88999999999999999999999999998643
+
+
+No 21
+>1QP9_A ZINC BINUCLEAR CLUSTER, COILED-COIL, HEPTAD; 2.8A {Saccharomyces cerevisiae} SCOP: g.38.1.1, h.1.3.1
+Probab=20.08  E-value=2.5e+02  Score=14.45  Aligned_cols=14  Identities=36%  Similarity=0.662  Sum_probs=6.4  Template_Neff=15.500
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q tr|A0A590UK85|   36 EQLEERRQRLERQI   49 (564)
+Q Consensus        36 eqleerrqrlerqi   49 (564)
+                      ..|+.+.+.|+..+
+T Consensus        61 ~~l~~~~~~le~~l   74 (76)
+T 1QP9_A           61 KKLRERVKSLEKTL   74 (76)
+T ss_dssp             HHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHh
+Confidence            34444444555443
+
+
+No 22
+>1QP9_D ZINC BINUCLEAR CLUSTER, COILED-COIL, HEPTAD; 2.8A {Saccharomyces cerevisiae} SCOP: g.38.1.1, h.1.3.1
+Probab=20.08  E-value=2.5e+02  Score=14.45  Aligned_cols=14  Identities=36%  Similarity=0.662  Sum_probs=6.4  Template_Neff=15.500
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q tr|A0A590UK85|   36 EQLEERRQRLERQI   49 (564)
+Q Consensus        36 eqleerrqrlerqi   49 (564)
+                      ..|+.+.+.|+..+
+T Consensus        61 ~~l~~~~~~le~~l   74 (76)
+T 1QP9_D           61 KKLRERVKSLEKTL   74 (76)
+T ss_dssp             HHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHh
+Confidence            34444444555443
+
+

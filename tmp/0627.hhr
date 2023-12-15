@@ -1,0 +1,199 @@
+Query         tr|H0YKY9|H0YKY9_HUMAN
+Match_columns 48
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:51:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0627.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7EMF_S Mediator of RNA polymer  70.9     2.9 3.1E-05   30.5   0.1   16   24-39    209-224 (244)
+  2 7NVR_m TFIIH basal transcripti  70.9     2.9 3.1E-05   30.5   0.1   16   24-39    209-224 (244)
+  3 1KQ9_A Methionine aminopeptida  44.8      30 0.00033   25.3   1.6   13   25-37     33-45  (478)
+  4 1B6A_A METHIONINE AMINOPEPTIDA  44.6      31 0.00034   25.2   1.6   13   25-37     33-45  (478)
+  5 3S6B_A Methionine aminopeptida  32.7      47 0.00051   22.2   0.9   19   23-41     19-37  (368)
+  6 2B0R_A Crystal Structure of Cy  27.3      60 0.00065   22.1   0.7   34    6-39     11-44  (202)
+  7 2B0R_B Crystal Structure of Cy  27.3      60 0.00065   22.1   0.7   34    6-39     11-44  (202)
+  8 6CZO_B Serine/threonine-protei  22.9 1.8E+02   0.002   17.3   2.1   13   32-44     33-45  (62)
+  9 6CZO_D Serine/threonine-protei  22.9 1.8E+02   0.002   17.3   2.1   13   32-44     33-45  (62)
+ 10 5OLA_D Transcription elongatio  22.8      53 0.00058   21.5  -0.1   17   28-44      6-22  (234)
+ 11 1WJ7_A UBA domain, ubiquitin a  21.4      79 0.00086   19.2   0.4    9   29-37     91-99  (104)
+ 12 3ELV_A Pre-mRNA leakage protei  20.6      74  0.0008   20.2   0.2   18   18-35      8-25  (205)
+
+No 1
+>7EMF_S Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=70.90  E-value=2.9  Score=30.49  Aligned_cols=16  Identities=56%  Similarity=0.704  Sum_probs=8.9  Template_Neff=4.700
+
+Q ss_pred             hHHhhhchccCCCCCC
+Q tr|H0YKY9|H0YK   24 EEAAKKKKEKKKKSPR   39 (48)
+Q Consensus        24 eeaakkkkekkkkspr   39 (48)
+                      .|..||||+||||..|
+T Consensus       209 ~erkkkKK~KKkKK~~  224 (244)
+T 7EMF_S          209 PDRKRKKKEKKKKKNR  224 (244)
+T ss_pred             HhhhhhHHHHHhhhcc
+Confidence            3455666666665533
+
+
+No 2
+>7NVR_m TFIIH basal transcription factor complex; Mediator complex, RNA polymerase II; HET: ZN; 4.5A {Sus scrofa}
+Probab=70.90  E-value=2.9  Score=30.49  Aligned_cols=16  Identities=56%  Similarity=0.704  Sum_probs=8.9  Template_Neff=4.700
+
+Q ss_pred             hHHhhhchccCCCCCC
+Q tr|H0YKY9|H0YK   24 EEAAKKKKEKKKKSPR   39 (48)
+Q Consensus        24 eeaakkkkekkkkspr   39 (48)
+                      .|..||||+||||..|
+T Consensus       209 ~erkkkKK~KKkKK~~  224 (244)
+T 7NVR_m          209 PDRKRKKKEKKKKKNR  224 (244)
+T ss_pred             HhhhhhHHHHHhhhcc
+Confidence            3455666666665533
+
+
+No 3
+>1KQ9_A Methionine aminopeptidase 2 (E.C.3.4.11.18); central b-sheet and two pairs; 1.9A {Homo sapiens} SCOP: a.4.5.25, d.127.1.1
+Probab=44.85  E-value=30  Score=25.27  Aligned_cols=13  Identities=85%  Similarity=0.925  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHhhhchccCCCC
+Q tr|H0YKY9|H0YK   25 EAAKKKKEKKKKS   37 (48)
+Q Consensus        25 eaakkkkekkkks   37 (48)
+                      +.+||||.||||+
+T Consensus        33 ~~~~~~~~~~~~~   45 (478)
+T 1KQ9_A           33 EAAKKKRRKKKKS   45 (478)
+T ss_dssp             -------------
+T ss_pred             HHHHHhhcccCCC
+Confidence            4444444444443
+
+
+No 4
+>1B6A_A METHIONINE AMINOPEPTIDASE, 3,5,6,8-TETRAMETHYL-N-METHYL PHENANTHROLINIUM; ANGIOGENESIS INHIBITOR, AMINOPEPTIDASE; HET: TN4; 1.6A {Homo sapiens} SCOP: a.4.5.25, d.127.1.1
+Probab=44.60  E-value=31  Score=25.24  Aligned_cols=13  Identities=85%  Similarity=0.925  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHhhhchccCCCC
+Q tr|H0YKY9|H0YK   25 EAAKKKKEKKKKS   37 (48)
+Q Consensus        25 eaakkkkekkkks   37 (48)
+                      +.++|||.||||+
+T Consensus        33 ~~~~~~~~~~~~~   45 (478)
+T 1B6A_A           33 EAAKKKRRKKKKS   45 (478)
+T ss_dssp             -------------
+T ss_pred             HHHHHhhcccCCC
+Confidence            4445544444443
+
+
+No 5
+>3S6B_A Methionine aminopeptidase (E.C.3.4.11.18); malaria, proteolysis, "pita bread" fold; HET: GOL; 1.95A {Plasmodium falciparum}
+Probab=32.66  E-value=47  Score=22.22  Aligned_cols=19  Identities=37%  Similarity=0.291  Sum_probs=8.0  Template_Neff=9.500
+
+Q ss_pred             hhHHhhhchccCCCCCCCC
+Q tr|H0YKY9|H0YK   23 EEEAAKKKKEKKKKSPRAS   41 (48)
+Q Consensus        23 eeeaakkkkekkkkspras   41 (48)
+                      +.+.-+|+|.||++++.++
+T Consensus        19 ~~~~~~k~~~~~~~~~~~~   37 (368)
+T 3S6B_A           19 EKEDHLKTIVKKHLSPENF   37 (368)
+T ss_dssp             ----CHHHHHHHHSSTTTC
+T ss_pred             chhHhchhhhhccCCcccC
+Confidence            3444455555555555444
+
+
+No 6
+>2B0R_A Crystal Structure of Cyclase-Associated Protein; structural genomics consortium, Cryptosporidium parvum; 2.6A {Cryptosporidium parvum}
+Probab=27.30  E-value=60  Score=22.14  Aligned_cols=34  Identities=21%  Similarity=0.288  Sum_probs=4.1  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCchhHHhhhchccCCCCCC
+Q tr|H0YKY9|H0YK    6 SEDLVPPLEAGAAPYREEEEAAKKKKEKKKKSPR   39 (48)
+Q Consensus         6 sedlvppleagaapyreeeeaakkkkekkkkspr   39 (48)
+                      |..|||-.....|.-.+.+..+.-++.++++.|+
+T Consensus        11 ~~~~~~~~~~s~a~~k~~~k~~~~~~~~~~~pp~   44 (202)
+T 2B0R_A           11 SSGLVPRGSKSQIYLKKEKKMKAARQVVTNGSPK   44 (202)
+T ss_dssp             ------------------------CCCCCCSSCE
+T ss_pred             cCCCCCCCcchHHHHHHHHHHHHHhhhccCCCCE
+Confidence            3456665433333333333222223334444444
+
+
+No 7
+>2B0R_B Crystal Structure of Cyclase-Associated Protein; structural genomics consortium, Cryptosporidium parvum; 2.6A {Cryptosporidium parvum}
+Probab=27.30  E-value=60  Score=22.14  Aligned_cols=34  Identities=21%  Similarity=0.288  Sum_probs=4.2  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCchhHHhhhchccCCCCCC
+Q tr|H0YKY9|H0YK    6 SEDLVPPLEAGAAPYREEEEAAKKKKEKKKKSPR   39 (48)
+Q Consensus         6 sedlvppleagaapyreeeeaakkkkekkkkspr   39 (48)
+                      |..|||-.....|.-.+.+..+.-++.++++.|+
+T Consensus        11 ~~~~~~~~~~s~a~~k~~~k~~~~~~~~~~~pp~   44 (202)
+T 2B0R_B           11 SSGLVPRGSKSQIYLKKEKKMKAARQVVTNGSPK   44 (202)
+T ss_dssp             ------------------------CCCCCSSSCE
+T ss_pred             cCCCCCCCcchHHHHHHHHHHHHHhhhccCCCCE
+Confidence            3456665433333333333222223334444444
+
+
+No 8
+>6CZO_B Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; PHOSPHATASE, REGULATOR, SLIM, Kinetochore, HYDROLASE; HET: PO4; 2.95A {Homo sapiens}
+Probab=22.91  E-value=1.8e+02  Score=17.33  Aligned_cols=13  Identities=46%  Similarity=0.621  Sum_probs=6.9  Template_Neff=5.000
+
+Q ss_pred             ccCCCCCCCCCCC
+Q tr|H0YKY9|H0YK   32 EKKKKSPRASFCT   44 (48)
+Q Consensus        32 ekkkksprasfct   44 (48)
+                      .+++.|.|.||+.
+T Consensus        33 ~~kr~SRRVSFA~   45 (62)
+T 6CZO_B           33 RNKKNSRRVSFAD   45 (62)
+T ss_dssp             -----CCCCEECS
+T ss_pred             cccccCCcceecc
+Confidence            3467889999974
+
+
+No 9
+>6CZO_D Serine/threonine-protein phosphatase PP1-alpha catalytic subunit; PHOSPHATASE, REGULATOR, SLIM, Kinetochore, HYDROLASE; HET: PO4; 2.95A {Homo sapiens}
+Probab=22.91  E-value=1.8e+02  Score=17.33  Aligned_cols=13  Identities=46%  Similarity=0.621  Sum_probs=9.9  Template_Neff=5.000
+
+Q ss_pred             ccCCCCCCCCCCC
+Q tr|H0YKY9|H0YK   32 EKKKKSPRASFCT   44 (48)
+Q Consensus        32 ekkkksprasfct   44 (48)
+                      .+++.|.|.||+.
+T Consensus        33 ~~kr~SRRVSFA~   45 (62)
+T 6CZO_D           33 RNKKNSRRVSFAD   45 (62)
+T ss_pred             cccccCCcceecc
+Confidence            3467889999974
+
+
+No 10
+>5OLA_D Transcription elongation factor, mitochondrial, DNA-directed; Elongation Factor, Mitochondria, Resolvase, RNA; 3.904A {Homo sapiens}
+Probab=22.85  E-value=53  Score=21.52  Aligned_cols=17  Identities=6%  Similarity=0.128  Sum_probs=4.1  Template_Neff=8.300
+
+Q ss_pred             hhchccCCCCCCCCCCC
+Q tr|H0YKY9|H0YK   28 KKKKEKKKKSPRASFCT   44 (48)
+Q Consensus        28 kkkkekkkksprasfct   44 (48)
+                      |++|+.|.++...+||+
+T Consensus         6 ~~~~~~~~~~~~~~~~~   22 (234)
+T 5OLA_D            6 REKRKSPENRFLRKLLK   22 (234)
+T ss_dssp             -----------CCSSEE
+T ss_pred             ccCCCCcchhhhHhhcC
+Confidence            45555666666667765
+
+
+No 11
+>1WJ7_A UBA domain, ubiquitin associated domain; NMR {Mus musculus} SCOP: a.5.2.1
+Probab=21.41  E-value=79  Score=19.16  Aligned_cols=9  Identities=44%  Similarity=0.346  Sum_probs=3.4  Template_Neff=7.000
+
+Q ss_pred             hchccCCCC
+Q tr|H0YKY9|H0YK   29 KKKEKKKKS   37 (48)
+Q Consensus        29 kkkekkkks   37 (48)
+                      ||+.+++++
+T Consensus        91 KKkkk~~~~   99 (104)
+T 1WJ7_A           91 KKGVSGQKS   99 (104)
+T ss_dssp             CCCSSSSSS
+T ss_pred             CCCCCCCCC
+Confidence            333333333
+
+
+No 12
+>3ELV_A Pre-mRNA leakage protein 1; Intrinsically unstructured domain, forkhead-associated domain; HET: SO4; 2.4A {Saccharomyces cerevisiae}
+Probab=20.64  E-value=74  Score=20.22  Aligned_cols=18  Identities=28%  Similarity=0.401  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCchhHHhhhchccCC
+Q tr|H0YKY9|H0YK   18 APYREEEEAAKKKKEKKK   35 (48)
+Q Consensus        18 apyreeeeaakkkkekkk   35 (48)
+                      .||..+.+..|+||.|+.
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (205)
+T 3ELV_A            8 RPYNTRNYGHDDKKFKSQ   25 (205)
+T ss_dssp             ------------------
+T ss_pred             CcccCCCCCcCCcccccc
+Confidence            355556666555554443
+
+

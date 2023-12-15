@@ -1,0 +1,266 @@
+Query         tr|J3KRS5|J3KRS5_HUMAN
+Match_columns 15
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:12:38 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1936.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3K1I_C Flagellar protein, Puta  56.5     8.6 9.3E-05   19.6   0.3   10    3-12     12-21  (178)
+  2 6LEA_C Flagellar secretion cha  38.8      26 0.00028   17.8   0.4   10    4-13     12-21  (177)
+  3 6LEA_D Flagellar secretion cha  38.8      26 0.00028   17.8   0.4   10    4-13     12-21  (177)
+  4 2QW6_B AAA ATPase, central reg  32.6      32 0.00035   16.4   0.1   12    2-13     18-29  (112)
+  5 2QW6_D AAA ATPase, central reg  32.6      32 0.00035   16.4   0.1   12    2-13     18-29  (112)
+  6 3CTD_A STRUCTURAL GENOMICS, UN  31.6      36 0.00039   17.8   0.2   12    2-13     39-50  (213)
+  7 3CTD_B STRUCTURAL GENOMICS, UN  31.6      36 0.00039   17.8   0.2   12    2-13     39-50  (213)
+  8 3BGE_A structural genomics, Pr  28.9      42 0.00045   17.1   0.2   12    2-13     11-22  (201)
+  9 3U9J_A F-box/LRR-repeat protei  28.1      20 0.00021   15.3  -0.9   10    4-13    122-131 (160)
+ 10 3U9M_A F-box/LRR-repeat protei  28.1      20 0.00021   15.3  -0.9   10    4-13    122-131 (160)
+ 11 2VY5_A U11/U12 SMALL NUCLEAR R  27.9      30 0.00032   12.3  -0.3    9    3-11     19-27  (37)
+ 12 1PWA_A Fibroblast growth facto  25.2      51 0.00056   16.1   0.1   10    2-11    142-151 (162)
+ 13 4I1L_A Forkhead box protein P3  22.7      61 0.00066   16.2   0.1   10    3-12     28-37  (93)
+ 14 2R9G_A AAA ATPase, central reg  22.6      65 0.00071   16.7   0.2   12    2-13     18-29  (204)
+ 15 2R9G_L AAA ATPase, central reg  22.6      65 0.00071   16.7   0.2   12    2-13     18-29  (204)
+ 16 7L3L_A TNF receptor-associated  20.1      75 0.00082   12.1   0.1    8    4-11    130-137 (142)
+
+No 1
+>3K1I_C Flagellar protein, Putative uncharacterized protein; Co-chaperone, chaperone, flagellar system, Helicobacter; 2.7A {Helicobacter pylori}
+Probab=56.55  E-value=8.6  Score=19.62  Aligned_cols=10  Identities=40%  Similarity=0.514  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             chhhhhcccc
+Q tr|J3KRS5|J3KR    3 SAFQKHLQRE   12 (15)
+Q Consensus         3 safqkhlqre   12 (15)
+                      +.|||||--.
+T Consensus        12 ~~~~k~l~~d   21 (178)
+T 3K1I_C           12 KTLQKHLGDV   21 (178)
+T ss_dssp             ----------
+T ss_pred             HHHHHHhccc
+Confidence            5799998643
+
+
+No 2
+>6LEA_C Flagellar secretion chaperone FliS, Uncharacterized; Flagellar, chaperone, complex; 2.95A {Helicobacter pylori CPY1124}
+Probab=38.83  E-value=26  Score=17.78  Aligned_cols=10  Identities=50%  Similarity=0.630  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             hhhhhccccC
+Q tr|J3KRS5|J3KR    4 AFQKHLQREE   13 (15)
+Q Consensus         4 afqkhlqree   13 (15)
+                      -|+|||...+
+T Consensus        12 ~~~kh~~~dD   21 (177)
+T 6LEA_C           12 TLQKHLGDVE   21 (177)
+T ss_dssp             ----------
+T ss_pred             HHHHHhhhhc
+Confidence            5899987643
+
+
+No 3
+>6LEA_D Flagellar secretion chaperone FliS, Uncharacterized; Flagellar, chaperone, complex; 2.95A {Helicobacter pylori CPY1124}
+Probab=38.83  E-value=26  Score=17.78  Aligned_cols=10  Identities=50%  Similarity=0.630  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             hhhhhccccC
+Q tr|J3KRS5|J3KR    4 AFQKHLQREE   13 (15)
+Q Consensus         4 afqkhlqree   13 (15)
+                      -|+|||...+
+T Consensus        12 ~~~kh~~~dD   21 (177)
+T 6LEA_D           12 TLQKHLGDVE   21 (177)
+T ss_dssp             ----------
+T ss_pred             HHHHHhhhhc
+Confidence            5899987643
+
+
+No 4
+>2QW6_B AAA ATPase, central region; STRUCTURAL GENOMICS, ATPASE, PSI-2, Protein; 2.3A {Enterococcus faecium} SCOP: a.80.1.2
+Probab=32.63  E-value=32  Score=16.38  Aligned_cols=12  Identities=42%  Similarity=0.603  Sum_probs=8.5  Template_Neff=7.600
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|+|||-..+.+
+T Consensus        18 iSalqKsiR~~~   29 (112)
+T 2QW6_B           18 ISAFQKSIRGSD   29 (112)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhhhcCCC
+Confidence            378898876643
+
+
+No 5
+>2QW6_D AAA ATPase, central region; STRUCTURAL GENOMICS, ATPASE, PSI-2, Protein; 2.3A {Enterococcus faecium} SCOP: a.80.1.2
+Probab=32.63  E-value=32  Score=16.38  Aligned_cols=12  Identities=42%  Similarity=0.603  Sum_probs=8.5  Template_Neff=7.600
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|+|||-..+.+
+T Consensus        18 iSalqKsiR~~~   29 (112)
+T 2QW6_D           18 ISAFQKSIRGSD   29 (112)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhhhcCCC
+Confidence            378898876643
+
+
+No 6
+>3CTD_A STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 2.5A {Prochlorococcus marinus subsp. pastoris str. CCMP1986} SCOP: a.80.1.2
+Probab=31.58  E-value=36  Score=17.83  Aligned_cols=12  Identities=33%  Similarity=0.476  Sum_probs=8.5  Template_Neff=7.700
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|||||.+.+.+
+T Consensus        39 ~SalqKsiR~~d   50 (213)
+T 3CTD_A           39 ISAFIKSIRGSD   50 (213)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhhhcCCC
+Confidence            378888876654
+
+
+No 7
+>3CTD_B STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 2.5A {Prochlorococcus marinus subsp. pastoris str. CCMP1986} SCOP: a.80.1.2
+Probab=31.58  E-value=36  Score=17.83  Aligned_cols=12  Identities=33%  Similarity=0.476  Sum_probs=8.5  Template_Neff=7.700
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|||||.+.+.+
+T Consensus        39 ~SalqKsiR~~d   50 (213)
+T 3CTD_B           39 ISAFIKSIRGSD   50 (213)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhhhcCCC
+Confidence            378888876654
+
+
+No 8
+>3BGE_A structural genomics, Predicted AAA+ATPase C-terminal; HET: SO4; 1.85A {Haemophilus influenzae} SCOP: a.80.1.2
+Probab=28.92  E-value=42  Score=17.11  Aligned_cols=12  Identities=25%  Similarity=0.321  Sum_probs=8.8  Template_Neff=8.200
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|||||-+.+.+
+T Consensus        11 ~SalqKsiR~~d   22 (201)
+T 3BGE_A           11 ISALHKSVRGSA   22 (201)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             HHHHHHHhcCCC
+Confidence            489999877643
+
+
+No 9
+>3U9J_A F-box/LRR-repeat protein 5; FBOX, LRR, Ubiquitin ligase E3; HET: MSE; 1.603A {Homo sapiens}
+Probab=28.09  E-value=20  Score=15.35  Aligned_cols=10  Identities=40%  Similarity=0.747  Sum_probs=7.0  Template_Neff=11.300
+
+Q ss_pred             hhhhhccccC
+Q tr|J3KRS5|J3KR    4 AFQKHLQREE   13 (15)
+Q Consensus         4 afqkhlqree   13 (15)
+                      .+..|+++||
+T Consensus       122 ~l~~h~~~EE  131 (160)
+T 3U9J_A          122 DFLPHMKEEE  131 (160)
+T ss_dssp             HHHHHHHHCC
+T ss_pred             HhHHHHHHHH
+Confidence            4567777776
+
+
+No 10
+>3U9M_A F-box/LRR-repeat protein 5; F-box, LRR, E3, Iron sensor; 1.95A {Homo sapiens}
+Probab=28.09  E-value=20  Score=15.35  Aligned_cols=10  Identities=40%  Similarity=0.747  Sum_probs=7.0  Template_Neff=11.300
+
+Q ss_pred             hhhhhccccC
+Q tr|J3KRS5|J3KR    4 AFQKHLQREE   13 (15)
+Q Consensus         4 afqkhlqree   13 (15)
+                      .+..|+++||
+T Consensus       122 ~l~~h~~~EE  131 (160)
+T 3U9M_A          122 DFLPHMKEEE  131 (160)
+T ss_dssp             HHHHHHHHCC
+T ss_pred             HhHHHHHHHH
+Confidence            4567777776
+
+
+No 11
+>2VY5_A U11/U12 SMALL NUCLEAR RIBONUCLEOPROTEIN 48; SPLICING, MRNA PROCESSING, ALTERNATIVE SPLICING; NMR {HOMO SAPIENS} SCOP: g.37.1.7
+Probab=27.85  E-value=30  Score=12.29  Aligned_cols=9  Identities=33%  Similarity=0.619  Sum_probs=6.2  Template_Neff=9.500
+
+Q ss_pred             chhhhhccc
+Q tr|J3KRS5|J3KR    3 SAFQKHLQR   11 (15)
+Q Consensus         3 safqkhlqr   11 (15)
+                      ..|++|+++
+T Consensus        19 ~~l~~Hl~~   27 (37)
+T 2VY5_A           19 SSLAKHMAS   27 (37)
+T ss_dssp             GGHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            467888764
+
+
+No 12
+>1PWA_A Fibroblast growth factor-19; BETA TREFOIL, DISULPHIDE BONDS, HORMONE-GROWTH; 1.3A {Homo sapiens} SCOP: b.42.1.1
+Probab=25.17  E-value=51  Score=16.12  Aligned_cols=10  Identities=20%  Similarity=0.474  Sum_probs=0.4  Template_Neff=8.400
+
+Q ss_pred             Cchhhhhccc
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQR   11 (15)
+Q Consensus         2 ssafqkhlqr   11 (15)
+                      |.+|++|+++
+T Consensus       142 ~~~~~~~~~~  151 (162)
+T 1PWA_A          142 PEDLRGHLES  151 (162)
+T ss_dssp             C---------
+T ss_pred             cccccccccc
+Confidence            3578888875
+
+
+No 13
+>4I1L_A Forkhead box protein P3; FOXP3, DIMERIZATION, COMPLEX ENSEMBLE, STABILITY; HET: SO4; 2.1A {Mus musculus}
+Probab=22.71  E-value=61  Score=16.19  Aligned_cols=10  Identities=40%  Similarity=0.604  Sum_probs=6.3  Template_Neff=5.600
+
+Q ss_pred             chhhhhcccc
+Q tr|J3KRS5|J3KR    3 SAFQKHLQRE   12 (15)
+Q Consensus         3 safqkhlqre   12 (15)
+                      +.|.+||..|
+T Consensus        28 ~~fl~HL~~e   37 (93)
+T 4I1L_A           28 EEFLKHCQAD   37 (93)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHcc
+Confidence            3677887543
+
+
+No 14
+>2R9G_A AAA ATPase, central region; STRUCTURAL GENOMICS, ATPASE, PSI-2, PROTEIN; HET: GOL, ACT; 2.09A {Enterococcus faecium} SCOP: a.80.1.2
+Probab=22.64  E-value=65  Score=16.67  Aligned_cols=12  Identities=42%  Similarity=0.603  Sum_probs=8.5  Template_Neff=7.900
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|||||-+.+.+
+T Consensus        18 ~SalqKsiR~sd   29 (204)
+T 2R9G_A           18 ISAFQKSIRGSD   29 (204)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhHhcCCC
+Confidence            478999876643
+
+
+No 15
+>2R9G_L AAA ATPase, central region; STRUCTURAL GENOMICS, ATPASE, PSI-2, PROTEIN; HET: GOL, ACT; 2.09A {Enterococcus faecium} SCOP: a.80.1.2
+Probab=22.64  E-value=65  Score=16.67  Aligned_cols=12  Identities=42%  Similarity=0.603  Sum_probs=8.5  Template_Neff=7.900
+
+Q ss_pred             CchhhhhccccC
+Q tr|J3KRS5|J3KR    2 SSAFQKHLQREE   13 (15)
+Q Consensus         2 ssafqkhlqree   13 (15)
+                      .|||||-+.+.+
+T Consensus        18 ~SalqKsiR~sd   29 (204)
+T 2R9G_L           18 ISAFQKSIRGSD   29 (204)
+T ss_dssp             HHHHHHHHHTTC
+T ss_pred             hHHHHhHhcCCC
+Confidence            378999876643
+
+
+No 16
+>7L3L_A TNF receptor-associated factor 5, TNF; E3 Ligase, TRANSFERASE; HET: ZN; 2.8A {Homo sapiens}
+Probab=20.12  E-value=75  Score=12.14  Aligned_cols=8  Identities=25%  Similarity=0.584  Sum_probs=4.4  Template_Neff=12.900
+
+Q ss_pred             hhhhhccc
+Q tr|J3KRS5|J3KR    4 AFQKHLQR   11 (15)
+Q Consensus         4 afqkhlqr   11 (15)
+                      .+++|++.
+T Consensus       130 ~~~~H~~~  137 (142)
+T 7L3L_A          130 DLKEHLSA  137 (142)
+T ss_dssp             HHTTCCCC
+T ss_pred             HHHHHHHc
+Confidence            35566654
+
+

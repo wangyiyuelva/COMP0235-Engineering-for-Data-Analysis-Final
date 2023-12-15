@@ -1,0 +1,359 @@
+Query         tr|H0Y9H7|H0Y9H7_HUMAN
+Match_columns 137
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:34:45 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1956.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3AFO_A NADH kinase POS5 (E.C.2  95.5    0.12 1.3E-06   43.0   6.9   97    3-123   214-320 (388)
+  2 3AFO_B NADH kinase POS5 (E.C.2  95.5    0.12 1.3E-06   43.0   6.9   97    3-123   214-320 (388)
+  3 3PFN_A NAD kinase (E.C.2.7.1.2  92.4     1.9 2.1E-05   34.2   7.6   98    3-124   232-334 (365)
+  4 3PFN_D NAD kinase (E.C.2.7.1.2  92.4     1.9 2.1E-05   34.2   7.6   98    3-124   232-334 (365)
+  5 1U0R_D Inorganic polyphosphate  86.0      15 0.00016   28.0   7.8  101    3-125   173-275 (307)
+  6 1U0T_B Inorganic polyphosphate  86.0      15 0.00016   28.0   7.8  101    3-125   173-275 (307)
+  7 1Y3I_B Inorganic polyphosphate  86.0      15 0.00016   28.0   7.8  101    3-125   173-275 (307)
+  8 1SUW_C Probable inorganic poly  50.8 1.3E+02  0.0014   22.1   5.5   31    3-33    129-159 (249)
+  9 1YT5_B Probable inorganic poly  49.3 1.3E+02  0.0014   22.2   5.4   30    4-33    134-163 (258)
+ 10 2DBO_A D-tyrosyl-tRNA(Tyr) dea  34.7 1.7E+02  0.0018   20.8   3.9   38   94-131     3-40  (148)
+ 11 1J7G_A D-tyrosyl-tRNA(Tyr) dea  32.4 1.7E+02  0.0018   20.6   3.6   38   94-131     3-40  (144)
+ 12 2AN1_A putative kinase (E.C.2.  26.3      77 0.00084   23.5   1.2   31    3-33    161-191 (292)
+ 13 2AN1_B putative kinase (E.C.2.  26.3      77 0.00084   23.5   1.2   31    3-33    161-191 (292)
+ 14 1JKE_D D-Tyr-tRNATyr deacylase  25.9 2.3E+02  0.0025   19.9   3.4   38   94-131     3-40  (145)
+ 15 2KM0_A Copper resistance prote  24.7 1.2E+02  0.0013   22.7   1.9   16  105-120    12-27  (74)
+ 16 3DSO_A Putative uncharacterize  24.7 1.2E+02  0.0013   22.7   1.9   16  105-120    12-27  (74)
+ 17 6O5E_A Vitronectin; integrin l  20.7 3.3E+02  0.0036   17.4   3.1   25   93-118     3-27  (204)
+
+No 1
+>3AFO_A NADH kinase POS5 (E.C.2.7.1.86); Alpha/beta+beta sandwich, ATP-binding, Kinase, Mitochondrion; HET: NAI, MPD; 2.0A {Saccharomyces cerevisiae}
+Probab=95.47  E-value=0.12  Score=42.97  Aligned_cols=97  Identities=24%  Similarity=0.286  Sum_probs=64.3  Template_Neff=7.700
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcccccccc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPIANRVFS   82 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepianrvfs   82 (137)
+                      .|++.+|+.......+.|+-++|.|||.||++....                   + +..|..+-+++..-.|..   . 
+T Consensus       214 ~~~v~id~~~~~~~~~DGlIisTptGSTaY~lSagG-------------------p-iv~p~~~~~~itpi~p~~---l-  269 (388)
+T 3AFO_A          214 NLDIFIDGEFLTRTTADGVALATPTGSTAYSLSAGG-------------------S-IVSPLVPAILMTPICPRS---L-  269 (388)
+T ss_dssp             EEEEEETTEEEEEEEEEEEEEECTGGGGTHHHHTTC-------------------C-EECTTSCEEEEEEEEESC---S-
+T ss_pred             eEEEEECCEEEEEEeCCEEEEeCCCCCccHHHhCCC-------------------c-eecccCCEEEEcccCCcc---c-
+Confidence            578899998888999999999999999999865421                   2 234666777776444422   1 
+
+
+Q ss_pred             ccccceeccc----eEEe--cccc----ceEEEEcCCeEEEeCccceeeee
+Q tr|H0Y9H7|H0Y9   83 SSRQRCFSSK----VCVR--SRCW----DACMVVDGGTSFEFNDGAIASMM  123 (137)
+Q Consensus        83 ssrqrcfssk----vcvr--srcw----dacmvvdggtsfefndgaiasmm  123 (137)
+                      +.|.--++..    +.+.  +|+-    ++.+++||-..+++..|.-....
+T Consensus       270 ~~rpivl~~~~~i~i~~~~~~~~~~~~~~~~~~~DG~~~~~l~~gd~v~i~  320 (388)
+T 3AFO_A          270 SFRPLILPHSSHIRIKIGSKLNQKPVNSVVKLSVDGIPQQDLDVGDEIYVI  320 (388)
+T ss_dssp             CCCCEEEETTCCEEEEECCCSSCSCSSSCEEEEETTEEEEEECTTCEEEEE
+T ss_pred             CCCCcccCCCCEEEEEeCCCCCCCCCCCEEEEEECCceeEeCCCCCEEEEE
+Confidence            1233333322    2222  3332    68999999999999888654443
+
+
+No 2
+>3AFO_B NADH kinase POS5 (E.C.2.7.1.86); Alpha/beta+beta sandwich, ATP-binding, Kinase, Mitochondrion; HET: NAI, MPD; 2.0A {Saccharomyces cerevisiae}
+Probab=95.47  E-value=0.12  Score=42.97  Aligned_cols=97  Identities=24%  Similarity=0.286  Sum_probs=62.5  Template_Neff=7.700
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcccccccc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPIANRVFS   82 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepianrvfs   82 (137)
+                      .|++.+|+.......+.|+-++|.|||.||++....                   + +..|..+-+++..-.|..   . 
+T Consensus       214 ~~~v~id~~~~~~~~~DGlIisTptGSTaY~lSagG-------------------p-iv~p~~~~~~itpi~p~~---l-  269 (388)
+T 3AFO_B          214 NLDIFIDGEFLTRTTADGVALATPTGSTAYSLSAGG-------------------S-IVSPLVPAILMTPICPRS---L-  269 (388)
+T ss_dssp             EEEEEETTEEEEEEEEEEEEEECTGGGGTHHHHTTC-------------------C-EECTTSCCEEEEEEEESC---S-
+T ss_pred             eEEEEECCEEEEEEeCCEEEEeCCCCCccHHHhCCC-------------------c-eecccCCEEEEcccCCcc---c-
+Confidence            578899998888999999999999999999865422                   2 234566667666443322   1 
+
+
+Q ss_pred             ccccceeccc----eEEe--cccc----ceEEEEcCCeEEEeCccceeeee
+Q tr|H0Y9H7|H0Y9   83 SSRQRCFSSK----VCVR--SRCW----DACMVVDGGTSFEFNDGAIASMM  123 (137)
+Q Consensus        83 ssrqrcfssk----vcvr--srcw----dacmvvdggtsfefndgaiasmm  123 (137)
+                      +.|.--++..    +.+.  +|+-    ++.+++||-..+++..|.-....
+T Consensus       270 ~~rpivl~~~~~i~i~~~~~~~~~~~~~~~~~~~DG~~~~~l~~gd~v~i~  320 (388)
+T 3AFO_B          270 SFRPLILPHSSHIRIKIGSKLNQKPVNSVVKLSVDGIPQQDLDVGDEIYVI  320 (388)
+T ss_dssp             CCCCEEECTTCCEEEEECC--------CCEEEEETTEEEEEECTTCEEEEE
+T ss_pred             CCCCcccCCCCEEEEEeCCCCCCCCCCCEEEEEECCceeEeCCCCCEEEEE
+Confidence            1233333332    2222  2332    68899999999999888654443
+
+
+No 3
+>3PFN_A NAD kinase (E.C.2.7.1.23); Structural Genomics Consortium, SNP, SGC; HET: UNX, MSE; 2.7A {Homo sapiens}
+Probab=92.44  E-value=1.9  Score=34.18  Aligned_cols=98  Identities=19%  Similarity=0.238  Sum_probs=57.3  Template_Neff=9.200
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcc----cc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPI----AN   78 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepi----an   78 (137)
+                      .++|.+|+..+++...+++-++++.|+.+|+++.....                    ..|.-..+++.-..+.    ..
+T Consensus       232 ~~~i~~dg~~~~~~~~~~~~ia~~~g~~~~~~~~~~~~--------------------~dg~l~v~~~~~~~~~~~~~~~  291 (365)
+T 3PFN_A          232 NVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAGASM--------------------IHPNVPAIMITPICPHSLSFRP  291 (365)
+T ss_dssp             CEEEEETTEEEEEECSSEEEEECGGGGGTHHHHTTCCE--------------------ECTTSCCEEEEEESCSSTTCCC
+T ss_pred             EEEEEECCEEEeEEEcCeEEEeCCCccHHHHHHCCCcc--------------------cCCCCCEEEEeecCCcCCCCCC
+Confidence            47899999988888899999999999998876554321                    2222222333322221    11
+
+
+Q ss_pred             ccccccccceeccceEEeccc-cceEEEEcCCeEEEeCccceeeeee
+Q tr|H0Y9H7|H0Y9   79 RVFSSSRQRCFSSKVCVRSRC-WDACMVVDGGTSFEFNDGAIASMMI  124 (137)
+Q Consensus        79 rvfsssrqrcfsskvcvrsrc-wdacmvvdggtsfefndgaiasmmi  124 (137)
+                      .++...+    ..++...+++ ....+.+||-...+++++.-...-+
+T Consensus       292 ~~~~~~~----~v~i~~~~~~~~~~~~~vDGe~~~~~~~~~~~~i~v  334 (365)
+T 3PFN_A          292 IVVPAGV----ELKIMLSPEARNTAWVSFDGRKRQEIRHGDSISITT  334 (365)
+T ss_dssp             EEECTTC----CEEEEECTTCSSCEEEEETTEEEEEECTTCEEEEEE
+T ss_pred             EEeCCCC----EEEEEeCcccCCceEEEECCeEeEEcCCCCEEEEEE
+Confidence            1122111    1233333333 4678899998888887666554443
+
+
+No 4
+>3PFN_D NAD kinase (E.C.2.7.1.23); Structural Genomics Consortium, SNP, SGC; HET: UNX, MSE; 2.7A {Homo sapiens}
+Probab=92.44  E-value=1.9  Score=34.18  Aligned_cols=98  Identities=19%  Similarity=0.238  Sum_probs=56.9  Template_Neff=9.200
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcc----cc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPI----AN   78 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepi----an   78 (137)
+                      .++|.+|+..+++...+++-++++.|+.+|+++.....                    ..|.-..+++.-..+.    ..
+T Consensus       232 ~~~i~~dg~~~~~~~~~~~~ia~~~g~~~~~~~~~~~~--------------------~dg~l~v~~~~~~~~~~~~~~~  291 (365)
+T 3PFN_D          232 NVDVYLDGHLITTVQGDGVIVSTPTGSTAYAAAAGASM--------------------IHPNVPAIMITPICPHSLSFRP  291 (365)
+T ss_dssp             CEEEEETTEEEEEECEEEEEEECGGGGGTHHHHTTCCE--------------------ECTTSCCEEEEEEEESSTTCCC
+T ss_pred             EEEEEECCEEEeEEEcCeEEEeCCCccHHHHHHCCCcc--------------------cCCCCCEEEEeecCCcCCCCCC
+Confidence            47899999988888899999999999988876544321                    1222222232222221    11
+
+
+Q ss_pred             ccccccccceeccceEEeccc-cceEEEEcCCeEEEeCccceeeeee
+Q tr|H0Y9H7|H0Y9   79 RVFSSSRQRCFSSKVCVRSRC-WDACMVVDGGTSFEFNDGAIASMMI  124 (137)
+Q Consensus        79 rvfsssrqrcfsskvcvrsrc-wdacmvvdggtsfefndgaiasmmi  124 (137)
+                      .++...+    ..++...+++ ....+.+||-...+++++.-...-+
+T Consensus       292 ~~~~~~~----~v~i~~~~~~~~~~~~~vDGe~~~~~~~~~~~~i~v  334 (365)
+T 3PFN_D          292 IVVPAGV----ELKIMLSPEARNTAWVSFDGRKRQEIRHGDSISITT  334 (365)
+T ss_dssp             EEECTTC----CEEEEECTTCSSCEEEEETTEEEEEECTTCEEEEEE
+T ss_pred             EEeCCCC----EEEEEeCcccCCceEEEECCeEeEEcCCCCEEEEEE
+Confidence            1122111    1233333333 4678899998888887666554443
+
+
+No 5
+>1U0R_D Inorganic polyphosphate/ATP-NAD kinase (E.C.2.7.1.23); alpha-beta  beta sandwich, Structural; 2.8A {Mycobacterium tuberculosis} SCOP: e.52.1.1
+Probab=86.01  E-value=15  Score=28.02  Aligned_cols=101  Identities=19%  Similarity=0.220  Sum_probs=56.7  Template_Neff=9.800
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcccccccc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPIANRVFS   82 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepianrvfs   82 (137)
+                      .++|.+|+..+...++.++-+++++|+..|.++...                    ...+|.-.-+++.-..+..-  .+
+T Consensus       173 ~~~i~~dg~~~~~~~~~~~~i~~~~~~~~~~~~~~~--------------------~~~~~~~~~~~~~~~~~~~~--~~  230 (307)
+T 1U0R_D          173 GVVVEIDGRPVSAFGCDGVLVSTPTGSTAYAFSAGG--------------------PVLWPDLEAILVVPNNAHAL--FG  230 (307)
+T ss_dssp             EEEEEETTEEEEEEEESEEEEECSTTTTTHHHHTTC--------------------CEECTTCCCEEEEEESCSSS--CC
+T ss_pred             EEEEEECCEEEEEEEcCEEEEeCCCcchhhHHHcCC--------------------cEecCCCCeEEEeeeCcccc--CC
+Confidence            467888887776677899999999999887654321                    11222222233322222211  11
+
+
+Q ss_pred             ccccceeccceEEec--cccceEEEEcCCeEEEeCccceeeeeec
+Q tr|H0Y9H7|H0Y9   83 SSRQRCFSSKVCVRS--RCWDACMVVDGGTSFEFNDGAIASMMIN  125 (137)
+Q Consensus        83 ssrqrcfsskvcvrs--rcwdacmvvdggtsfefndgaiasmmin  125 (137)
+                      .........++-+.+  +.....+.+||-....+.++.-...-+.
+T Consensus       231 ~~~~~~~~~~v~I~~~~~~~~~~~~~DGe~~~~~~~~~~~~i~~~  275 (307)
+T 1U0R_D          231 RPMVTSPEATIAIEIEADGHDALVFCDGRREMLIPAGSRLEVTRC  275 (307)
+T ss_dssp             CCEEECTTCCEEEEECSSSCCEEEEETTTEEEEECTTCEEEEEEC
+T ss_pred             CCeEeCCCCeEEEEeCCCCCcEEEEECCeEeEEcCCCCEEEEEEC
+Confidence            000111133555555  2578889999998877776665554443
+
+
+No 6
+>1U0T_B Inorganic polyphosphate/ATP-NAD kinase (E.C.2.7.1.23); alpha-beta  beta sandwich, Structural; 2.3A {Mycobacterium tuberculosis} SCOP: e.52.1.1
+Probab=86.01  E-value=15  Score=28.02  Aligned_cols=101  Identities=19%  Similarity=0.220  Sum_probs=56.7  Template_Neff=9.800
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcccccccc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPIANRVFS   82 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepianrvfs   82 (137)
+                      .++|.+|+..+...++.++-+++++|+..|.++...                    ...+|.-.-+++.-..+..-  .+
+T Consensus       173 ~~~i~~dg~~~~~~~~~~~~i~~~~~~~~~~~~~~~--------------------~~~~~~~~~~~~~~~~~~~~--~~  230 (307)
+T 1U0T_B          173 GVVVEIDGRPVSAFGCDGVLVSTPTGSTAYAFSAGG--------------------PVLWPDLEAILVVPNNAHAL--FG  230 (307)
+T ss_dssp             EEEEESSSSEEEEEEESEEEEECTGGGGTHHHHTTC--------------------CEECTTCCCEEEEEESCSSS--CC
+T ss_pred             EEEEEECCEEEEEEEcCEEEEeCCCcchhhHHHcCC--------------------cEecCCCCeEEEeeeCcccc--CC
+Confidence            467888888777778899999999998876644221                    11222222233322222211  11
+
+
+Q ss_pred             ccccceeccceEEec--cccceEEEEcCCeEEEeCccceeeeeec
+Q tr|H0Y9H7|H0Y9   83 SSRQRCFSSKVCVRS--RCWDACMVVDGGTSFEFNDGAIASMMIN  125 (137)
+Q Consensus        83 ssrqrcfsskvcvrs--rcwdacmvvdggtsfefndgaiasmmin  125 (137)
+                      .........++-+.+  +.....+.+||-....+.++.-...-+.
+T Consensus       231 ~~~~~~~~~~v~I~~~~~~~~~~~~~DGe~~~~~~~~~~~~i~~~  275 (307)
+T 1U0T_B          231 RPMVTSPEATIAIEIEADGHDALVFCDGRREMLIPAGSRLEVTRC  275 (307)
+T ss_dssp             CCEEECTTCCEEEEECSSSCCEEEEETTTEEEEECTTCEEEEEEC
+T ss_pred             CCeEeCCCCeEEEEeCCCCCcEEEEECCeEeEEcCCCCEEEEEEC
+Confidence            000111133555555  2578889999998877766665554443
+
+
+No 7
+>1Y3I_B Inorganic polyphosphate/ATP-NAD kinase (E.C.2.7.1.23); NAD kinase, polyphosphate, NAD, Mycobacterium; HET: GOL, NAD; 2.6A {Mycobacterium tuberculosis} SCOP: e.52.1.1
+Probab=86.01  E-value=15  Score=28.02  Aligned_cols=101  Identities=19%  Similarity=0.220  Sum_probs=55.3  Template_Neff=9.800
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceeeeeehhhhhhhHHHHHHHhhccCcccccCCCCCCeEEEEEcCcccccccc
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWSFNINRVATQAVEDVLNIVTNEYNESLLYSPEEPKILFSIREPIANRVFS   82 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskawsfninrvatqavedvlnivtneynesllyspeepkilfsirepianrvfs   82 (137)
+                      .++|.+|+..+...++.++-+++++|+..|.++...                    ...+|.-.-+++.-..+..-  .+
+T Consensus       173 ~~~i~~dg~~~~~~~~~~~~i~~~~~~~~~~~~~~~--------------------~~~~~~~~~~~~~~~~~~~~--~~  230 (307)
+T 1Y3I_B          173 GVVVEIDGRPVSAFGCDGVLVSTPTGSTAYAFSAGG--------------------PVLWPDLEAILVVPNNAHAL--FG  230 (307)
+T ss_dssp             EEEEEETTEEEEEEEEEEEEEECGGGTTSHHHHTTC--------------------CEECTTCCCEEEEEEEEESS--CC
+T ss_pred             EEEEEECCEEEEEEEcCEEEEeCCCcchhhHHHcCC--------------------cEecCCCCeEEEeeeCcccc--CC
+Confidence            467888887776677889999999998877644321                    11122222222222111111  11
+
+
+Q ss_pred             ccccceeccceEEec--cccceEEEEcCCeEEEeCccceeeeeec
+Q tr|H0Y9H7|H0Y9   83 SSRQRCFSSKVCVRS--RCWDACMVVDGGTSFEFNDGAIASMMIN  125 (137)
+Q Consensus        83 ssrqrcfsskvcvrs--rcwdacmvvdggtsfefndgaiasmmin  125 (137)
+                      .........++-+.+  +.....+.+||-....+.++.-...-+.
+T Consensus       231 ~~~~~~~~~~v~I~~~~~~~~~~~~~DGe~~~~~~~~~~~~i~~~  275 (307)
+T 1Y3I_B          231 RPMVTSPEATIAIEIEADGHDALVFCDGRREMLIPAGSRLEVTRC  275 (307)
+T ss_dssp             CCEEECTTCCEEEEECSSSCCEEEEETTEEEEEECTTCEEEEEEC
+T ss_pred             CCeEeCCCCeEEEEeCCCCCcEEEEECCeEeEEcCCCCEEEEEEC
+Confidence            000011133455555  2577889999988777766665554443
+
+
+No 8
+>1SUW_C Probable inorganic polyphosphate/ATP-NAD kinase (E.C.2.7.1.23); ATP-NAD kinase, NADK, NAD, NADP; HET: NAP; 2.45A {Archaeoglobus fulgidus} SCOP: e.52.1.1
+Probab=50.76  E-value=1.3e+02  Score=22.12  Aligned_cols=31  Identities=19%  Similarity=0.334  Sum_probs=25.3  Template_Neff=10.100
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceee
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWS   33 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskaws   33 (137)
+                      .++|.+|+..|+..+.+++-+.++.|+..|.
+T Consensus       129 ~~~i~~d~~~~~~~~~~~~~~~~~~~~~~~~  159 (249)
+T 1SUW_C          129 DVALRVDGVEVDRIRCDGFIVATQIGSTGYA  159 (249)
+T ss_dssp             EEEEEETTEEEEEEEESEEEEEEGGGGGTHH
+T ss_pred             EEEEEECCEEeeEEEccEEEEeCCCCchHHH
+Confidence            4688899988877788888888888887775
+
+
+No 9
+>1YT5_B Probable inorganic polyphosphate/ATP-NAD kinase (E.C.2.7.1.23); domain 1: alpha/beta domain2: beta; HET: SO4; 2.3A {Thermotoga maritima}
+Probab=49.28  E-value=1.3e+02  Score=22.18  Aligned_cols=30  Identities=30%  Similarity=0.320  Sum_probs=24.3  Template_Neff=10.100
+
+Q ss_pred             eEEEcCCCCccccccCceEEeccCCCceee
+Q tr|H0Y9H7|H0Y9    4 YEISVDDGPWEKQKSSGLNLCTGTGSKAWS   33 (137)
+Q Consensus         4 yeisvddgpwekqkssglnlctgtgskaws   33 (137)
+                      ++|.+|+..|++....++-+.++.|+.+|.
+T Consensus       134 ~~i~~d~~~~~~~~~~~~~i~~~~~~~~~~  163 (258)
+T 1YT5_B          134 IEVEVEHHSSMWFFADGVVISTPTGSTAYS  163 (258)
+T ss_dssp             EEEEETTSCCEEEEESEEEEECTGGGGTTT
+T ss_pred             EEEEECCeeeeEEEcCEEEEeCCCcccchH
+Confidence            678888888877788888888888887764
+
+
+No 10
+>2DBO_A D-tyrosyl-tRNA(Tyr) deacylase (E.C.3.1.-.-); D-amino acid, D-Tyrosine, tRNA, deacylase; 2.76A {Aquifex aeolicus}
+Probab=34.67  E-value=1.7e+02  Score=20.78  Aligned_cols=38  Identities=24%  Similarity=0.226  Sum_probs=30.1  Template_Neff=8.900
+
+Q ss_pred             EEeccccceEEEEcCCeEEEeCccceeeeeecChcchh
+Q tr|H0Y9H7|H0Y9   94 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELR  131 (137)
+Q Consensus        94 cvrsrcwdacmvvdggtsfefndgaiasmminkedelr  131 (137)
+                      ||-.||-.|.+.|||.+--+.+.|-+.-.-+.++|.-.
+T Consensus         3 ~v~qrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~~   40 (148)
+T 2DBO_A            3 AVIQRVKKSWVEVDGKVVGSINEGLNVFLGVRKGDTEE   40 (148)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCHH
+T ss_pred             EEEEEEEEEEEEECCEEEEEECCeEEEEEEEeCCCCHH
+Confidence            56667778888889888888899988888888877643
+
+
+No 11
+>1J7G_A D-tyrosyl-tRNA(Tyr) deacylase; D-Tyr-tRNA(Tyr) deacylase, structural genomics, hypothetical; 1.64A {Haemophilus influenzae Rd KW20} SCOP: c.110.1.1
+Probab=32.39  E-value=1.7e+02  Score=20.61  Aligned_cols=38  Identities=24%  Similarity=0.257  Sum_probs=29.8  Template_Neff=9.000
+
+Q ss_pred             EEeccccceEEEEcCCeEEEeCccceeeeeecChcchh
+Q tr|H0Y9H7|H0Y9   94 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELR  131 (137)
+Q Consensus        94 cvrsrcwdacmvvdggtsfefndgaiasmminkedelr  131 (137)
+                      +|-.||-.|.+.|||-+.-+...|-+.-.-+.++|...
+T Consensus         3 ~viqrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~~   40 (144)
+T 1J7G_A            3 ALIQRVSQAKVDVKGETIGKIGKGLLVLLGVEKEDNRE   40 (144)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCHH
+T ss_pred             EEEEEEEEEEEEECCeEEEEEcCeEEEEEEEecCCCHH
+Confidence            46667778888888888778888888888888877654
+
+
+No 12
+>2AN1_A putative kinase (E.C.2.7.1.23); Structural Genomics, putative kinase, PSI; 2.0A {Salmonella typhimurium}
+Probab=26.25  E-value=77  Score=23.51  Aligned_cols=31  Identities=39%  Similarity=0.487  Sum_probs=24.4  Template_Neff=10.400
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceee
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWS   33 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskaws   33 (137)
+                      .++|.+|+..++..+.+++-++++.|+.+|.
+T Consensus       161 ~~~i~~dg~~~~~~~~~~~~i~~~~~~~~~~  191 (292)
+T 2AN1_A          161 EFEVYIDETFAFSQRSDGLIISTPTGSTAYS  191 (292)
+T ss_dssp             EEEEEETTEEEEEEEESEEEEECTGGGGTHH
+T ss_pred             EEEEEECCEEeeeEEEcEEEEeCCCCchhHH
+Confidence            4678888888777788899999888876653
+
+
+No 13
+>2AN1_B putative kinase (E.C.2.7.1.23); Structural Genomics, putative kinase, PSI; 2.0A {Salmonella typhimurium}
+Probab=26.25  E-value=77  Score=23.51  Aligned_cols=31  Identities=39%  Similarity=0.487  Sum_probs=24.4  Template_Neff=10.400
+
+Q ss_pred             CeEEEcCCCCccccccCceEEeccCCCceee
+Q tr|H0Y9H7|H0Y9    3 YYEISVDDGPWEKQKSSGLNLCTGTGSKAWS   33 (137)
+Q Consensus         3 yyeisvddgpwekqkssglnlctgtgskaws   33 (137)
+                      .++|.+|+..++..+.+++-++++.|+.+|.
+T Consensus       161 ~~~i~~dg~~~~~~~~~~~~i~~~~~~~~~~  191 (292)
+T 2AN1_B          161 EFEVYIDETFAFSQRSDGLIISTPTGSTAYS  191 (292)
+T ss_dssp             EEEEEETTEEEEEEEESEEEEECTGGGGTHH
+T ss_pred             EEEEEECCEEeeeEEEcEEEEeCCCCchhHH
+Confidence            4678888888777788999999888876653
+
+
+No 14
+>1JKE_D D-Tyr-tRNATyr deacylase; beta-alpha-barrel, HYDROLASE; HET: ZN; 1.55A {Escherichia coli} SCOP: c.110.1.1
+Probab=25.90  E-value=2.3e+02  Score=19.87  Aligned_cols=38  Identities=21%  Similarity=0.348  Sum_probs=29.7  Template_Neff=9.100
+
+Q ss_pred             EEeccccceEEEEcCCeEEEeCccceeeeeecChcchh
+Q tr|H0Y9H7|H0Y9   94 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELR  131 (137)
+Q Consensus        94 cvrsrcwdacmvvdggtsfefndgaiasmminkedelr  131 (137)
+                      ++-.||-.|.+.||+.+-.+.+.|-+.-.-+.++|...
+T Consensus         3 ~viqrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~~   40 (145)
+T 1JKE_D            3 ALIQRVTRASVTVEGEVTGEIGAGLLVLLGVEKDDDEQ   40 (145)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCHH
+T ss_pred             EEEEEEEEEEEEECCEEEeeEcCeEEEEEEEeCCCCHH
+Confidence            45667788888889888778888888888787777653
+
+
+No 15
+>2KM0_A Copper resistance protein K; heavy metal resistance, periplasmic copper; HET: CU1; NMR {Ralstonia metallidurans}
+Probab=24.66  E-value=1.2e+02  Score=22.72  Aligned_cols=16  Identities=31%  Similarity=0.642  Sum_probs=13.9  Template_Neff=3.800
+
+Q ss_pred             EEcCCeEEEeCcccee
+Q tr|H0Y9H7|H0Y9  105 VVDGGTSFEFNDGAIA  120 (137)
+Q Consensus       105 vvdggtsfefndgaia  120 (137)
+                      .-||+|-+.|.||-.|
+T Consensus        12 LKDGstlyvfkDGkMa   27 (74)
+T 2KM0_A           12 LQDGSKVHVFKDGKMG   27 (74)
+T ss_dssp             BTTSEEEEEETTSCEE
+T ss_pred             CCCCCEEEEEcCCcee
+Confidence            4599999999999876
+
+
+No 16
+>3DSO_A Putative uncharacterized protein copK; copper (I) bound, copper resistance; 1.55A {Ralstonia metallidurans}
+Probab=24.66  E-value=1.2e+02  Score=22.72  Aligned_cols=16  Identities=31%  Similarity=0.642  Sum_probs=14.0  Template_Neff=3.800
+
+Q ss_pred             EEcCCeEEEeCcccee
+Q tr|H0Y9H7|H0Y9  105 VVDGGTSFEFNDGAIA  120 (137)
+Q Consensus       105 vvdggtsfefndgaia  120 (137)
+                      .-||+|-+.|.||-.|
+T Consensus        12 LKDGstlyvfkDGkMa   27 (74)
+T 3DSO_A           12 LQDGSKVHVFKDGKMG   27 (74)
+T ss_dssp             BTTSCEEEEETTSCEE
+T ss_pred             CCCCCEEEEEcCCcee
+Confidence            4599999999999876
+
+
+No 17
+>6O5E_A Vitronectin; integrin ligand, hemopexin-like domain, beta-propeller; HET: IMD, SO4; 1.9A {Homo sapiens}
+Probab=20.66  E-value=3.3e+02  Score=17.41  Aligned_cols=25  Identities=24%  Similarity=0.497  Sum_probs=16.0  Template_Neff=12.300
+
+Q ss_pred             eEEeccccceEEEEcCCeEEEeCccc
+Q tr|H0Y9H7|H0Y9   93 VCVRSRCWDACMVVDGGTSFEFNDGA  118 (137)
+Q Consensus        93 vcvrsrcwdacmvvdggtsfefndga  118 (137)
+                      +|.. ...||++....|+.+-|.+.-
+T Consensus         3 ~c~~-~~~da~~~~~~~~~~~f~~~~   27 (204)
+T 6O5E_A            3 LCSG-KPFDAFTDLKNGSLFAFRGQY   27 (204)
+T ss_dssp             TTSC-CCCSEECCCBTTEEEEEETTE
+T ss_pred             ccCC-CCCcEEEEcCCCEEEEEECCe
+Confidence            4543 567777777667777776543
+
+

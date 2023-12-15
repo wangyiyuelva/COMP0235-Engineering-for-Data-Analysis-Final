@@ -1,0 +1,167 @@
+Query         tr|E9PRE3|E9PRE3_HUMAN
+Match_columns 141
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:34:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1268.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7FIN_P Cryo-electron microscop  40.8      45 0.00049   20.5   1.7   34   66-99      2-38  (39)
+  2 7VAB_P Cryo-electron microscop  22.1 1.3E+02  0.0014   18.7   1.4   27   66-92      2-31  (39)
+  3 2MJ9_A Exendin-4; alpha helix,  14.7 2.3E+02  0.0025   17.4   1.4   26   66-91      2-30  (39)
+  4 6ZHX_K ALC1, CHD1L, chromatin   13.9 3.1E+02  0.0034   17.3   1.8   23   27-49      8-32  (37)
+  5 5OTT_B Glucagon-like peptide 1  13.2 3.2E+02  0.0035   16.9   1.7   26   66-91      2-30  (39)
+  6 2D2P_A HORMONE-GROWTH FACTOR C  12.9 2.3E+02  0.0025   17.3   1.0   23   66-88      2-27  (39)
+  7 6GE2_A Exendin-4; HORMONE; HET  12.4   2E+02  0.0022   18.2   0.7   24   66-89      2-28  (40)
+  8 1T5Q_A GIP, molecular modellin  12.4 2.2E+02  0.0024   16.8   0.8    9   66-74      2-10  (30)
+  9 2M5Q_X Glucagon; GLUCAGON, DIA  11.6 2.4E+02  0.0026   16.1   0.8    9   66-74      2-10  (30)
+ 10 2NAW_A Exendin-4, Alpha/kappa-  11.5 2.3E+02  0.0025   17.9   0.7    9   66-74      2-10  (39)
+
+No 1
+>7FIN_P Cryo-electron microscopy  G protein-coupled; HET: CLR; 3.1A {Homo sapiens}
+Probab=40.79  E-value=45  Score=20.45  Aligned_cols=34  Identities=26%  Similarity=0.336  Sum_probs=20.3  Template_Neff=6.500
+
+Q ss_pred             CCCCccchH---HHHHHhhhccccccCCCCCCCCCCC
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF---LLLQALQTYSDDILSSETHTKIDPT   99 (141)
+Q Consensus        66 adgtfssqf---lllqalqtysddilssethtkidpt   99 (141)
+                      +||+|.+-+   |=-.+.+.|-+.++.......+.|+
+T Consensus         2 sdG~ftsd~s~~L~~~~ak~fv~wL~~~k~~~~~~~~   38 (39)
+T 7FIN_P            2 XQGTFTSDKSKYLDERAAQDFVQWLLDGGPSSGAPPP   38 (39)
+T ss_pred             CCCccCchHHHHHHHHHHHHHHHHHHhCCccCCCCCC
+Confidence            578887654   3445666776666665544444443
+
+
+No 2
+>7VAB_P Cryo-electron microscopy  G protein-coupled; HET: AIB, CLR; 3.2A {Homo sapiens}
+Probab=22.12  E-value=1.3e+02  Score=18.74  Aligned_cols=27  Identities=19%  Similarity=0.341  Sum_probs=15.9  Template_Neff=6.200
+
+Q ss_pred             CCCCccchHH---HHHHhhhccccccCCCC
+Q tr|E9PRE3|E9PR   66 ADGTFSSQFL---LLQALQTYSDDILSSET   92 (141)
+Q Consensus        66 adgtfssqfl---llqalqtysddilsset   92 (141)
+                      +||+|.|-+-   =-.+.+.|-+.++....
+T Consensus         2 sdG~ftsd~sk~l~~~~~k~fv~~L~~~k~   31 (39)
+T 7VAB_P            2 XEGTFTSDYSIXLDKIAQKAFVQWLIAGGP   31 (39)
+T ss_pred             CCcccccchhhhHHHHHHHHHHHHHHhCCC
+Confidence            6889887653   23455566555555433
+
+
+No 3
+>2MJ9_A Exendin-4; alpha helix, Trp-cage, TOXIN; HET: DAL; NMR {Heloderma suspectum}
+Probab=14.66  E-value=2.3e+02  Score=17.45  Aligned_cols=26  Identities=23%  Similarity=0.404  Sum_probs=14.4  Template_Neff=6.400
+
+Q ss_pred             CCCCccchH---HHHHHhhhccccccCCC
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF---LLLQALQTYSDDILSSE   91 (141)
+Q Consensus        66 adgtfssqf---lllqalqtysddilsse   91 (141)
+                      +||+|.+-+   |=-.+.+.|-+.++...
+T Consensus         2 sdg~fts~~s~~l~~~aak~~l~~L~~~~   30 (39)
+T 2MJ9_A            2 GEGTFTSDLSKQMEEEAVRLYIQWLKEGG   30 (39)
+T ss_dssp             CCCCSCSTTSSSSHHHHHHHHHHHHHTTS
+T ss_pred             CccccchHHHHHHHHHHHHHHHHHHHhcC
+Confidence            688887654   33344555555555443
+
+
+No 4
+>6ZHX_K ALC1, CHD1L, chromatin remodeler, DNA; 2.5A {Xenopus laevis}
+Probab=13.90  E-value=3.1e+02  Score=17.31  Aligned_cols=23  Identities=30%  Similarity=0.388  Sum_probs=12.6  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCCC--CCCCCCCCCCCCCC
+Q tr|E9PRE3|E9PR   27 RFLPNKSRQ--PSYVPAPLRKKKPD   49 (141)
+Q Consensus        27 rflpnksrq--psyvpaplrkkkpd   49 (141)
+                      |-|.||+..  +..++.|.||+|+-
+T Consensus         8 RaLR~k~~v~l~~l~~~p~rkrk~L   32 (37)
+T 6ZHX_K            8 RSLRNKGSVLIPGLVEGSTKRKRVL   32 (37)
+T ss_pred             ccccccccccCccccCCCCccccCC
+Confidence            445555553  33455577776653
+
+
+No 5
+>5OTT_B Glucagon-like peptide 1 receptor, Exendin-4; glucagon-like peptide 1, GPCR, cyclic; HET: HCS; 1.92A {Homo sapiens}
+Probab=13.19  E-value=3.2e+02  Score=16.90  Aligned_cols=26  Identities=15%  Similarity=0.300  Sum_probs=16.0  Template_Neff=6.300
+
+Q ss_pred             CCCCccchHH---HHHHhhhccccccCCC
+Q tr|E9PRE3|E9PR   66 ADGTFSSQFL---LLQALQTYSDDILSSE   91 (141)
+Q Consensus        66 adgtfssqfl---llqalqtysddilsse   91 (141)
+                      +||+|.+-+-   =-.+.+.|-+.++...
+T Consensus         2 sdG~ftsd~s~~l~~~~ak~fv~~L~~~~   30 (39)
+T 5OTT_B            2 XEGXFTSDLSKQMEEEAVRLFIEWLKNGG   30 (39)
+T ss_dssp             CTTCCSTTHHHHHHHHHHHHHHHHHHTTG
+T ss_pred             CCCccchhHHHHHHHHHHHHHHHHHHhCC
+Confidence            6899988653   3345566665555543
+
+
+No 6
+>2D2P_A HORMONE-GROWTH FACTOR COMPLEX; HET: NH2; NMR {Homo sapiens}
+Probab=12.94  E-value=2.3e+02  Score=17.30  Aligned_cols=23  Identities=26%  Similarity=0.540  Sum_probs=13.7  Template_Neff=6.700
+
+Q ss_pred             CCCCccchH---HHHHHhhhcccccc
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF---LLLQALQTYSDDIL   88 (141)
+Q Consensus        66 adgtfssqf---lllqalqtysddil   88 (141)
+                      +||+|.+-+   +--.+++.|-..++
+T Consensus         2 sdgift~~~s~~l~~~~~~~fl~~Ll   27 (39)
+T 2D2P_A            2 SDGIFTDSYSRYRKQMAVKKYLAAVL   27 (39)
+T ss_dssp             CTTTHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCccccchHHHHHHHHHHHHHHHHHh
+Confidence            689998765   23345555555444
+
+
+No 7
+>6GE2_A Exendin-4; HORMONE; HET: NH2, AIB, EVT; NMR {N/A}
+Probab=12.42  E-value=2e+02  Score=18.18  Aligned_cols=24  Identities=21%  Similarity=0.286  Sum_probs=14.7  Template_Neff=5.900
+
+Q ss_pred             CCCCccchH---HHHHHhhhccccccC
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF---LLLQALQTYSDDILS   89 (141)
+Q Consensus        66 adgtfssqf---lllqalqtysddils   89 (141)
+                      +||+|.|-+   +=-.+.+.|-+.++.
+T Consensus         2 sdG~ftsd~sk~l~~~aak~fv~~L~~   28 (40)
+T 6GE2_A            2 XQGTFTSDLSKQKDEQRAKLFIEWLXA   28 (40)
+T ss_dssp             CSTHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCccccHHHHHHHHHHHHHHHHHHHHc
+Confidence            689998754   334455666555544
+
+
+No 8
+>1T5Q_A GIP, molecular modelling, helix, diabetes; NMR {N/A} SCOP: j.6.1.1
+Probab=12.39  E-value=2.2e+02  Score=16.78  Aligned_cols=9  Identities=56%  Similarity=1.021  Sum_probs=7.1  Template_Neff=6.200
+
+Q ss_pred             CCCCccchH
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF   74 (141)
+Q Consensus        66 adgtfssqf   74 (141)
+                      +||+|.|-+
+T Consensus         2 s~g~ftsd~   10 (30)
+T 1T5Q_A            2 AEGTFISDY   10 (30)
+T ss_dssp             CCSSHHHHH
+T ss_pred             CCccccchH
+Confidence            589998765
+
+
+No 9
+>2M5Q_X Glucagon; GLUCAGON, DIABETES, OBESITY, LIPIDATED, LIPID; HET: NH2, AIB, PLM, GGL; NMR {N/A}
+Probab=11.55  E-value=2.4e+02  Score=16.11  Aligned_cols=9  Identities=44%  Similarity=0.988  Sum_probs=6.6  Template_Neff=6.900
+
+Q ss_pred             CCCCccchH
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF   74 (141)
+Q Consensus        66 adgtfssqf   74 (141)
+                      +||+|.+-+
+T Consensus         2 ~dg~ftsd~   10 (30)
+T 2M5Q_X            2 XQGTFTSDY   10 (30)
+T ss_dssp             CTTTSSGGG
+T ss_pred             CCCccchhH
+Confidence            588888754
+
+
+No 10
+>2NAW_A Exendin-4, Alpha/kappa-conotoxin pl14a chimera; agonist, TOXIN; NMR {N/A}
+Probab=11.47  E-value=2.3e+02  Score=17.94  Aligned_cols=9  Identities=44%  Similarity=0.959  Sum_probs=6.7  Template_Neff=5.700
+
+Q ss_pred             CCCCccchH
+Q tr|E9PRE3|E9PR   66 ADGTFSSQF   74 (141)
+Q Consensus        66 adgtfssqf   74 (141)
+                      +||+|+|-+
+T Consensus         2 sdG~ftsd~   10 (39)
+T 2NAW_A            2 GEGTFTSDL   10 (39)
+T ss_dssp             CCCCCBSSS
+T ss_pred             CCcccchHH
+Confidence            688888754
+
+

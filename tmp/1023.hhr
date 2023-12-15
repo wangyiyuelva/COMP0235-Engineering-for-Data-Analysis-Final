@@ -1,0 +1,402 @@
+Query         tr|F8W1M8|F8W1M8_HUMAN
+Match_columns 75
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:08:29 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1023.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3UOR_A ABC transporter sugar b  65.4      24 0.00026   24.3   3.6   14   49-62    443-456 (458)
+  2 3UOR_B ABC transporter sugar b  65.4      24 0.00026   24.3   3.6   14   49-62    443-456 (458)
+  3 6TB4_F TATA-box Binding Protei  52.9      24 0.00026   30.4   2.3   18   15-32    325-342 (517)
+  4 6KQS_A lacto-N-biosidase; beta  52.1      33 0.00036   25.9   2.7   23   14-36     29-51  (665)
+  5 6MTE_w Ribosome; Ribosome, tra  49.0      22 0.00024   21.2   1.2   11   19-29     44-54  (55)
+  6 7QEP_MS genome decay, microbia  44.3      28  0.0003   24.2   1.3   14   18-31      4-17  (73)
+  7 3UZ0_A Stage III sporulation p  41.5      41 0.00045   22.7   1.7   21   14-34     15-35  (133)
+  8 4CHT_B DNA TOPOISOMERASE 3-ALP  37.4 1.1E+02  0.0012   21.7   3.3   28   12-39    190-217 (219)
+  9 6FX0_A Retinoic acid receptor   35.4 1.3E+02  0.0014   21.8   3.4   46   17-62    409-454 (454)
+ 10 4CXA_C CYCLIN-DEPENDENT KINASE  33.7      64 0.00069   19.9   1.5   15   17-31    325-339 (340)
+ 11 6CFZ_F Ask1, Dad3, Dad2, Duo1,  31.4 2.7E+02  0.0029   18.7   4.4   43   20-62     47-89  (92)
+ 12 2DNX_A syntaxin, SNARE, Habc d  30.5 1.8E+02   0.002   16.6   3.0   20    9-28      2-21  (130)
+ 13 4NUT_B Snu13p, Rsa1; SnoRNP as  28.7 1.2E+02  0.0013   20.4   2.3   16   16-31      5-20  (57)
+ 14 1QA4_A HIV, AIDS, REGULATORY F  28.3 1.4E+02  0.0015   19.0   2.5   10   23-32     12-21  (57)
+ 15 6X89_P2 NADH dehydrogenase com  26.7 4.2E+02  0.0045   19.4   4.9   23   26-49     42-64  (115)
+ 16 4V6W_Ah Ribosome; eukarya, euk  26.7      63 0.00068   22.0   0.8    8   20-27    113-120 (121)
+ 17 7AR7_n Complex-I Arabidopsis,   26.5 2.4E+02  0.0026   16.6   5.1   17   39-55     81-97  (109)
+ 18 7KDF_E Stu2, tension sensing,   25.6 1.7E+02  0.0018   17.5   2.3   20   18-37      9-28  (33)
+ 19 2KLO_A DNA replication factor   24.4 1.8E+02  0.0019   19.1   2.5   28    7-34      3-30  (138)
+ 20 4XHM_A Archaeoglobus fulgidus   24.2 1.7E+02  0.0019   15.7   2.1   15   15-29      2-16  (137)
+ 21 6T9I_B Transcription factor SP  22.9 1.3E+02  0.0014   27.0   2.1   17   17-33    478-494 (604)
+ 22 6T9K_B Transcription factor SP  22.9 1.3E+02  0.0014   27.0   2.1   17   17-33    478-494 (604)
+ 23 1C94_B RETRO-GCN4 LEUCINE ZIPP  22.4 1.9E+02  0.0021   18.2   2.2   16   17-32     22-37  (38)
+ 24 1X5D_A PDIA6, ERP5, P5, TXNDC7  21.2 2.1E+02  0.0022   15.2   2.0   20   13-32    101-120 (133)
+ 25 3GUV_A Site-specific recombina  20.4 3.1E+02  0.0034   15.7   4.2   12   33-44    154-165 (167)
+
+No 1
+>3UOR_A ABC transporter sugar binding protein; alfa/beta protein, periplasmic-binding protein, maltose; 2.202A {Xanthomonas axonopodis pv. citri}
+Probab=65.41  E-value=24  Score=24.28  Aligned_cols=14  Identities=36%  Similarity=0.313  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   49 AAGKPPAGALGTPA   62 (75)
+Q Consensus        49 aagkppagalgtpa   62 (75)
+                      +...+|+++.+.+|
+T Consensus       443 ~~~~~~~~~~~~~~  456 (458)
+T 3UOR_A          443 ADTTAPAAASDQGA  456 (458)
+T ss_dssp             --------------
+T ss_pred             cCCCCCchhhhhhh
+Confidence            33444555554443
+
+
+No 2
+>3UOR_B ABC transporter sugar binding protein; alfa/beta protein, periplasmic-binding protein, maltose; 2.202A {Xanthomonas axonopodis pv. citri}
+Probab=65.41  E-value=24  Score=24.28  Aligned_cols=14  Identities=36%  Similarity=0.313  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   49 AAGKPPAGALGTPA   62 (75)
+Q Consensus        49 aagkppagalgtpa   62 (75)
+                      +...+|+++.+.+|
+T Consensus       443 ~~~~~~~~~~~~~~  456 (458)
+T 3UOR_B          443 ADTTAPAAASDQGA  456 (458)
+T ss_dssp             --------------
+T ss_pred             cCCCCCchhhhhhh
+Confidence            33444555555444
+
+
+No 3
+>6TB4_F TATA-box Binding Protein (TBP), Transcriptional; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 3.8A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=52.93  E-value=24  Score=30.45  Aligned_cols=18  Identities=28%  Similarity=0.739  Sum_probs=14.4  Template_Neff=5.100
+
+Q ss_pred             ChHHHHHHHHHHHHHHhh
+Q tr|F8W1M8|F8W1   15 STTDFLEEWKAKREKMRA   32 (75)
+Q Consensus        15 sttdfleewkakrekmra   32 (75)
+                      +-.+|+|+||.|+++++.
+T Consensus       325 ~RlkfIE~~R~kke~~kq  342 (517)
+T 6TB4_F          325 MRLRFVEAWRKKEERLQE  342 (517)
+T ss_pred             hHHHHHHHHHHHHHHHHH
+Confidence            345799999999998753
+
+
+No 4
+>6KQS_A lacto-N-biosidase; beta helix, HYDROLASE; HET: NAG, GAL, MSE; 1.4A {Eubacterium ramulus ATCC 29099}
+Probab=52.11  E-value=33  Score=25.91  Aligned_cols=23  Identities=30%  Similarity=0.559  Sum_probs=19.0  Template_Neff=10.500
+
+Q ss_pred             CChHHHHHHHHHHHHHHhhcCCC
+Q tr|F8W1M8|F8W1   14 GSTTDFLEEWKAKREKMRAKQNP   36 (75)
+Q Consensus        14 gsttdfleewkakrekmrakqnp   36 (75)
+                      -|-.+|+++||.+-+.|++....
+T Consensus        29 ~~~~~~~~~~~~~~~~~~~~~~~   51 (665)
+T 6KQS_A           29 CSPNGFYQRWKQKNAFMKAQAEE   51 (665)
+T ss_dssp             CSHHHHHHHHHHHHHHHHHHSCC
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHH
+Confidence            46789999999999999886543
+
+
+No 5
+>6MTE_w Ribosome; Ribosome, translation; HET: P7G, M7A, 2MG, PSU, BGH, 7MG, 6MZ, OMU, DDE, 4AC, 5MC, MHG, A2M, UR3, E7G, B9B, MLZ, 5MU, I4U, B8N, GDP, B8Q, E3C, OMG, B8K, OMC, 1MA, MG, B8H, B8T, E6G, B8W, B9H, MA6, P4U; 3.4A {Oryctolagus cuniculus}
+Probab=49.03  E-value=22  Score=21.23  Aligned_cols=11  Identities=55%  Similarity=0.951  Sum_probs=8.7  Template_Neff=6.400
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|F8W1M8|F8W1   19 FLEEWKAKREK   29 (75)
+Q Consensus        19 fleewkakrek   29 (75)
+                      -|+|||+-+++
+T Consensus        44 ~~~ew~~~~~~   54 (55)
+T 6MTE_w           44 TLDEWKAIQNK   54 (55)
+T ss_pred             cHHHHHHHhhc
+Confidence            48999998764
+
+
+No 6
+>7QEP_MS genome decay, microbial parasite, genome; HET: SPD, AMP;{Encephalitozoon cuniculi GB-M1}
+Probab=44.28  E-value=28  Score=24.24  Aligned_cols=14  Identities=50%  Similarity=1.047  Sum_probs=11.8  Template_Neff=1.400
+
+Q ss_pred             HHHHHHHHHHHHHh
+Q tr|F8W1M8|F8W1   18 DFLEEWKAKREKMR   31 (75)
+Q Consensus        18 dfleewkakrekmr   31 (75)
+                      -+|..||.|+||+-
+T Consensus         4 tylk~wkekkek~p   17 (73)
+T 7QEP_MS           4 TYLKSWKEKKEKMP   17 (73)
+T ss_pred             hHHHHHHHHHhhCC
+Confidence            47899999999874
+
+
+No 7
+>3UZ0_A Stage III sporulation protein AH; Transport Protein, Hybrid Transporter, Sporulation; HET: SO4, MSE; 2.82A {Bacillus subtilis}
+Probab=41.47  E-value=41  Score=22.67  Aligned_cols=21  Identities=19%  Similarity=0.422  Sum_probs=15.2  Template_Neff=7.200
+
+Q ss_pred             CChHHHHHHHHHHHHHHhhcC
+Q tr|F8W1M8|F8W1   14 GSTTDFLEEWKAKREKMRAKQ   34 (75)
+Q Consensus        14 gsttdfleewkakrekmrakq   34 (75)
+                      .+..||+.+++-+|+..|.++
+T Consensus        15 ~~~~d~F~~~rler~~~r~~~   35 (133)
+T 3UZ0_A           15 TADDDLFTTYRLDLEDARSKE   35 (133)
+T ss_dssp             ----CHHHHHHHHHHHHHHHH
+T ss_pred             cccchHHHHHHHHHHHHHHHH
+Confidence            456799999999999998764
+
+
+No 8
+>4CHT_B DNA TOPOISOMERASE 3-ALPHA (E.C.5.99.1.2), RECQ-MEDIATED; CELL CYCLE, DOUBLE HOLLIDAY JUNCTION; 3.25A {HOMO SAPIENS}
+Probab=37.38  E-value=1.1e+02  Score=21.65  Aligned_cols=28  Identities=29%  Similarity=0.418  Sum_probs=21.8  Template_Neff=8.200
+
+Q ss_pred             CCCChHHHHHHHHHHHHHHhhcCCCCCC
+Q tr|F8W1M8|F8W1   12 LGGSTTDFLEEWKAKREKMRAKQNPPGP   39 (75)
+Q Consensus        12 lggsttdfleewkakrekmrakqnppgp   39 (75)
+                      |||+..++.++|+..+.-.|+-..|..|
+T Consensus       190 LGG~v~~l~~~~~~~~~l~~~l~~~~~~  217 (219)
+T 4CHT_B          190 LGGEVDALLEEYAQEKVLARLIGEPDLV  217 (219)
+T ss_dssp             EECCCHHHHHHTCHHHHHHHTTTCSCC-
+T ss_pred             EcCChHHHHHHHHHHHHHHHHhCCCcCC
+Confidence            7899999999999888777776666554
+
+
+No 9
+>6FX0_A Retinoic acid receptor gamma; retinoic ligand complex, drug design; HET: PG4, E9T; 1.9A {Homo sapiens}
+Probab=35.41  E-value=1.3e+02  Score=21.77  Aligned_cols=46  Identities=24%  Similarity=0.493  Sum_probs=5.3  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   17 TDFLEEWKAKREKMRAKQNPPGPAPPGGGSSDAAGKPPAGALGTPA   62 (75)
+Q Consensus        17 tdfleewkakrekmrakqnppgpappgggssdaagkppagalgtpa   62 (75)
+                      .++|.|.-..-+..-.++++.++.|+.....+..|.---|.+-.||
+T Consensus       409 ~~ll~el~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  454 (454)
+T 6FX0_A          409 PPLIREMLENPEMFEDDSSQPGPHPNASSEDEVPGGQGKGGLKSPA  454 (454)
+T ss_dssp             CHHHHHHHC-------------------------------------
+T ss_pred             CHHHHHHhcCccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            3566666656666777888888888888777777776666655543
+
+
+No 10
+>4CXA_C CYCLIN-DEPENDENT KINASE 12 (E.C.2.7.11.22), CYCLIN-K; TRANSFERASE, KINASE; HET: TPO, ANP; 3.15A {HOMO SAPIENS}
+Probab=33.67  E-value=64  Score=19.87  Aligned_cols=15  Identities=40%  Similarity=0.698  Sum_probs=9.2  Template_Neff=12.800
+
+Q ss_pred             HHHHHHHHHHHHHHh
+Q tr|F8W1M8|F8W1   17 TDFLEEWKAKREKMR   31 (75)
+Q Consensus        17 tdfleewkakrekmr   31 (75)
+                      .++++.|-++|+|.|
+T Consensus       325 ~~~~~~~~~~~~~~~  339 (340)
+T 4CXA_C          325 QDCHELWSKKRRRQR  339 (340)
+T ss_dssp             CCCHHHHHHTTC---
+T ss_pred             hhchHHHHHHHHHHh
+Confidence            467888888877765
+
+
+No 11
+>6CFZ_F Ask1, Dad3, Dad2, Duo1, Dad4; DASH, Dam1 complex, Ask1, Dad1;{Chaetomium thermophilum}
+Probab=31.35  E-value=2.7e+02  Score=18.73  Aligned_cols=43  Identities=19%  Similarity=0.140  Sum_probs=8.3  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHhhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   20 LEEWKAKREKMRAKQNPPGPAPPGGGSSDAAGKPPAGALGTPA   62 (75)
+Q Consensus        20 leewkakrekmrakqnppgpappgggssdaagkppagalgtpa   62 (75)
+                      -+-|..--..|.+++.++..-+-.|-+.+.+-|-+||.-+.|.
+T Consensus        47 a~LWs~F~~~m~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   89 (92)
+T 6CFZ_F           47 EALWSQFENVMSWSHPQFEKGAMTGWSHPQFEKRSAGSWSHPQ   89 (92)
+T ss_dssp             HHHHHHHHHHHTTC-----------------------------
+T ss_pred             HHHHHHHHHHHhccCccccccccccCCCccccccCCccCCCcc
+Confidence            3447666666654777777888888889999999999888774
+
+
+No 12
+>2DNX_A syntaxin, SNARE, Habc domain, up; NMR {Homo sapiens}
+Probab=30.45  E-value=1.8e+02  Score=16.64  Aligned_cols=20  Identities=30%  Similarity=0.305  Sum_probs=12.8  Template_Neff=10.900
+
+Q ss_pred             CCCCCCChHHHHHHHHHHHH
+Q tr|F8W1M8|F8W1    9 SSGLGGSTTDFLEEWKAKRE   28 (75)
+Q Consensus         9 ssglggsttdfleewkakre   28 (75)
+                      |++-..+..+|+++|..-+.
+T Consensus         2 ~~~~~~~~~~f~~~v~~i~~   21 (130)
+T 2DNX_A            2 SSGSSGQLRDFSSIIQTCSG   21 (130)
+T ss_dssp             CCCCSCCSCCHHHHHHHHHH
+T ss_pred             CCCcccchHHHHHHHHHHHH
+Confidence            34445567789888865443
+
+
+No 13
+>4NUT_B Snu13p, Rsa1; SnoRNP assembly, RNA BINDING PROTEIN; 1.55A {Saccharomyces cerevisiae}
+Probab=28.70  E-value=1.2e+02  Score=20.38  Aligned_cols=16  Identities=31%  Similarity=0.725  Sum_probs=12.7  Template_Neff=2.400
+
+Q ss_pred             hHHHHHHHHHHHHHHh
+Q tr|F8W1M8|F8W1   16 TTDFLEEWKAKREKMR   31 (75)
+Q Consensus        16 ttdfleewkakrekmr   31 (75)
+                      |.+-++.|+..|.+|-
+T Consensus         5 teedI~kWreeRkkmW   20 (57)
+T 4NUT_B            5 TDEDVKKWREERKKMW   20 (57)
+T ss_dssp             -CHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHH
+Confidence            5567899999999984
+
+
+No 14
+>1QA4_A HIV, AIDS, REGULATORY FACTOR, NEGATIVE; NMR {N/A} SCOP: j.52.1.1
+Probab=28.32  E-value=1.4e+02  Score=19.01  Aligned_cols=10  Identities=60%  Similarity=1.122  Sum_probs=6.9  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHhh
+Q tr|F8W1M8|F8W1   23 WKAKREKMRA   32 (75)
+Q Consensus        23 wkakrekmra   32 (75)
+                      |.+-||+||.
+T Consensus        12 Wp~vRerir~   21 (57)
+T 1QA4_A           12 WPAVRERMRR   21 (57)
+T ss_dssp             CCCCCCCCCC
+T ss_pred             HHHHHHHHhc
+Confidence            5667888864
+
+
+No 15
+>6X89_P2 NADH dehydrogenase complex; respiration, mitochondria, electron transport chain; HET: PC1, NAP, FMN, SF4;{Vigna radiata}
+Probab=26.74  E-value=4.2e+02  Score=19.42  Aligned_cols=23  Identities=43%  Similarity=0.557  Sum_probs=10.1  Template_Neff=4.100
+
+Q ss_pred             HHHHHhhcCCCCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   26 KREKMRAKQNPPGPAPPGGGSSDA   49 (75)
+Q Consensus        26 krekmrakqnppgpappgggssda   49 (75)
+                      |.+|++.|-.-+. +.+||..+|+
+T Consensus        42 kLekLr~K~~~~e-~~sg~~~~da   64 (115)
+T 6X89_P2          42 KLEKLARKGPQPE-ASSGGSVIDA   64 (115)
+T ss_pred             HHHHHHHhCCCcc-ccCCCCcccc
+Confidence            4445555544444 3344433333
+
+
+No 16
+>4V6W_Ah Ribosome; eukarya, eukaryotic, ribosomal, 80S, RNA; 6.0A {Drosophila melanogaster}
+Probab=26.70  E-value=63  Score=21.95  Aligned_cols=8  Identities=63%  Similarity=1.228  Sum_probs=4.9  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHH
+Q tr|F8W1M8|F8W1   20 LEEWKAKR   27 (75)
+Q Consensus        20 leewkakr   27 (75)
+                      |+|||+.+
+T Consensus       113 LdEwka~q  120 (121)
+T 4V6W_Ah         113 LDEWKAIQ  120 (121)
+T ss_pred             HHHHHHHh
+Confidence            56776644
+
+
+No 17
+>7AR7_n Complex-I Arabidopsis, ELECTRON TRANSPORT; HET: T7X, SF4, PSF, PTY, NDP, FMN, LMN, UQ9, 8Q1, PGT, PC7;{Arabidopsis thaliana}
+Probab=26.54  E-value=2.4e+02  Score=16.64  Aligned_cols=17  Identities=41%  Similarity=0.683  Sum_probs=9.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   39 PAPPGGGSSDAAGKPPA   55 (75)
+Q Consensus        39 pappgggssdaagkppa   55 (75)
+                      |.+|+|+..+....+|+
+T Consensus        81 ~~~~~g~~~~r~~~~~~   97 (109)
+T 7AR7_n           81 PWAPGGSKFCRNPTPPA   97 (109)
+T ss_pred             CCCCCCCCcCCCCCCCC
+Confidence            45566655555444444
+
+
+No 18
+>7KDF_E Stu2, tension sensing, Ndc80, kinetochore; HET: SO4; 2.72A {Saccharomyces cerevisiae}
+Probab=25.57  E-value=1.7e+02  Score=17.53  Aligned_cols=20  Identities=35%  Similarity=0.373  Sum_probs=15.3  Template_Neff=3.400
+
+Q ss_pred             HHHHHHHHHHHHHhhcCCCC
+Q tr|F8W1M8|F8W1   18 DFLEEWKAKREKMRAKQNPP   37 (75)
+Q Consensus        18 dfleewkakrekmrakqnpp   37 (75)
+                      +.-...|++.|+|++++...
+T Consensus         9 EvT~qLKaRIe~MKa~~~~~   28 (33)
+T 7KDF_E            9 AVTSTLKARIEKMKAKSRRE   28 (33)
+T ss_dssp             THHHHHHHHHHHHHHHHHCC
+T ss_pred             HHhHHHHHHHHHHHHHHhcc
+Confidence            45567899999999877543
+
+
+No 19
+>2KLO_A DNA replication factor Cdt1; mouse Cdt1, replication licensing factor; NMR {Mus musculus}
+Probab=24.40  E-value=1.8e+02  Score=19.09  Aligned_cols=28  Identities=25%  Similarity=0.361  Sum_probs=21.8  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCChHHHHHHHHHHHHHHhhcC
+Q tr|F8W1M8|F8W1    7 RTSSGLGGSTTDFLEEWKAKREKMRAKQ   34 (75)
+Q Consensus         7 rtssglggsttdfleewkakrekmrakq   34 (75)
+                      +|.+++.|-...+||..++|-.+....+
+T Consensus         3 ~~~~~l~~~~~sLLeRIr~Ke~~~~~~~   30 (138)
+T 2KLO_A            3 ASPSALKGVSQALLERIRAKEVQKQLAR   30 (138)
+T ss_dssp             CCCCCCCCSTHHHHHHHHHHHHHHHTCS
+T ss_pred             CChhHhcCcCHHHHHHHHHHHHHHHHhh
+Confidence            6788999999999999988755544333
+
+
+No 20
+>4XHM_A Archaeoglobus fulgidus thioredoxin 3 M60H; disulfide, thioredoxin, OXIDOREDUCTASE; 1.95A {Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126)}
+Probab=24.21  E-value=1.7e+02  Score=15.74  Aligned_cols=15  Identities=40%  Similarity=0.310  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             ChHHHHHHHHHHHHH
+Q tr|F8W1M8|F8W1   15 STTDFLEEWKAKREK   29 (75)
+Q Consensus        15 sttdfleewkakrek   29 (75)
+                      +--|+|+.|+.++-+
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (137)
+T 4XHM_A            2 SHMDELELIRQKKLK   16 (137)
+T ss_dssp             ---------------
+T ss_pred             CchhHHHHHHHHHHH
+Confidence            445788888766533
+
+
+No 21
+>6T9I_B Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.92  E-value=1.3e+02  Score=26.99  Aligned_cols=17  Identities=29%  Similarity=0.843  Sum_probs=13.6  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHHHHHHHhhc
+Q tr|F8W1M8|F8W1   17 TDFLEEWKAKREKMRAK   33 (75)
+Q Consensus        17 tdfleewkakrekmrak   33 (75)
+                      -.|+|.|+.++||++..
+T Consensus       478 lkfie~~r~~~e~~kqq  494 (604)
+T 6T9I_B          478 LKFIEQWRINKEKRKQQ  494 (604)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            35999999999987643
+
+
+No 22
+>6T9K_B Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.92  E-value=1.3e+02  Score=26.99  Aligned_cols=17  Identities=29%  Similarity=0.843  Sum_probs=13.6  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHHHHHHHhhc
+Q tr|F8W1M8|F8W1   17 TDFLEEWKAKREKMRAK   33 (75)
+Q Consensus        17 tdfleewkakrekmrak   33 (75)
+                      -.|+|.|+.++||++..
+T Consensus       478 lkfie~~r~~~e~~kqq  494 (604)
+T 6T9K_B          478 LKFIEQWRINKEKRKQQ  494 (604)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            35999999999987643
+
+
+No 23
+>1C94_B RETRO-GCN4 LEUCINE ZIPPER; RETRO-COILED COIL, 4-ALPHA-HELIX-BUNDLE, PEPTIDE SYNTHESIS; 2.08A {N/A} SCOP: k.11.1.1
+Probab=22.41  E-value=1.9e+02  Score=18.20  Aligned_cols=16  Identities=44%  Similarity=0.559  Sum_probs=13.0  Template_Neff=1.000
+
+Q ss_pred             HHHHHHHHHHHHHHhh
+Q tr|F8W1M8|F8W1   17 TDFLEEWKAKREKMRA   32 (75)
+Q Consensus        17 tdfleewkakrekmra   32 (75)
+                      ...|||.|...+|||.
+T Consensus        22 kslleevkdelqkmrq   37 (38)
+T 1C94_B           22 KSLLEEVKDELQKMRQ   37 (38)
+T ss_dssp             HHHHHHHHHHHTTTTT
+T ss_pred             HHHHHHHHHHHHHHHh
+Confidence            3578999999999984
+
+
+No 24
+>1X5D_A PDIA6, ERP5, P5, TXNDC7, Thioredoxin; NMR {Homo sapiens}
+Probab=21.23  E-value=2.1e+02  Score=15.17  Aligned_cols=20  Identities=20%  Similarity=0.059  Sum_probs=9.6  Template_Neff=12.400
+
+Q ss_pred             CCChHHHHHHHHHHHHHHhh
+Q tr|F8W1M8|F8W1   13 GGSTTDFLEEWKAKREKMRA   32 (75)
+Q Consensus        13 ggsttdfleewkakrekmra   32 (75)
+                      |+.+.+-+.+|..+......
+T Consensus       101 ~~~~~~~~~~~l~~~~~~~~  120 (133)
+T 1X5D_A          101 GGRTRSDIVSRALDLFSDNA  120 (133)
+T ss_dssp             SCCSHHHHHHHHHHHHHHHS
+T ss_pred             CCCCHHHHHHHHHHHhcCCC
+Confidence            34445555555555444433
+
+
+No 25
+>3GUV_A Site-specific recombinase, resolvase family protein; STRUCTURAL GENOMICS, RECOMBINASE, PSI-2, Protein; 2.2A {Streptococcus pneumoniae}
+Probab=20.38  E-value=3.1e+02  Score=15.68  Aligned_cols=12  Identities=8%  Similarity=-0.089  Sum_probs=0.4  Template_Neff=11.800
+
+Q ss_pred             cCCCCCCCCCCC
+Q tr|F8W1M8|F8W1   33 KQNPPGPAPPGG   44 (75)
+Q Consensus        33 kqnppgpappgg   44 (75)
+                      ....+++.||+|
+T Consensus       154 ~~~~~~~~~~~~  165 (167)
+T 3GUV_A          154 EGKWNGEGHHHH  165 (167)
+T ss_dssp             C-----------
+T ss_pred             cCCCCCCCCCCC
+Confidence            344555566555
+
+

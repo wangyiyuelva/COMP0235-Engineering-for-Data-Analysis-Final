@@ -1,0 +1,165 @@
+Query         tr|H7C3Y4|H7C3Y4_HUMAN
+Match_columns 87
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:38:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1113.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5TX1_M Hexon protein, Penton,   25.5      47 0.00051   29.2   0.0   34   45-78     95-128 (388)
+  2 7RD1_R Adenovirus, simian aden  19.3      75 0.00081   29.5   0.0   34   45-78     99-132 (589)
+  3 6CGV_M Hexon protein, Penton p  19.0      78 0.00085   29.4   0.1   34   45-78     98-131 (585)
+  4 7S78_M Adenovirus, ts1 mutant,  19.0      78 0.00085   29.4   0.1   34   45-78     98-131 (585)
+  5 6QI5_N Hexon protein, Protein   15.9   1E+02  0.0011   28.9   0.1   34   45-78     84-117 (609)
+  6 1Q5C_B EP-cadherin, ectodomain  11.4 7.4E+02   0.008   19.6   3.4   41   18-58    737-778 (880)
+  7 3SXU_A DNA polymerase III subu  10.9 3.1E+02  0.0033   18.6   1.2   16   67-82    123-138 (150)
+  8 2G77_B Protein transport, Gyp1   9.2 6.2E+02  0.0068   14.4   1.9   17    2-18      8-24  (198)
+  9 2ZUI_A P450CAM, MONOOXYGENASE,   8.0 9.8E+02   0.011   16.2   2.6   19    7-25      3-21  (415)
+ 10 1EM8_A CHI AND PSI SUBUNIT HET   7.8 4.8E+02  0.0052   17.7   1.2   16   67-82    120-135 (147)
+
+No 1
+>5TX1_M Hexon protein, Penton, Fiber, PIIIa; human adenovirus 26, hexon, penton; 3.7A {Human adenovirus 26}
+Probab=25.52  E-value=47  Score=29.23  Aligned_cols=34  Identities=38%  Similarity=0.482  Sum_probs=30.9  Template_Neff=3.500
+
+Q ss_pred             CccccCCCCCCCCcchhhhhhhhHHHHHHhhhhh
+Q tr|H7C3Y4|H7C3   45 DLSRVHKGKSTRKEENTRSLLNDKRAVAAQRQRY   78 (87)
+Q Consensus        45 dlsrvhkgkstrkeentrsllndkravaaqrqry   78 (87)
+                      =|.||||=.|++-.+|.-.|.+|-|.+.+|+.|.
+T Consensus        95 LL~Rv~kyNS~nvQ~nL~~Lv~DVr~a~~~~er~  128 (388)
+T 5TX1_M           95 LLERVGRYNSTNVQSNLDRLVTDVREAVAQRERF  128 (388)
+T ss_pred             HHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            5899999999999999999999999988887774
+
+
+No 2
+>7RD1_R Adenovirus, simian adenovirus, chimpanzee adenovirus; 3.07A {Chimpanzee adenovirus Y25}
+Probab=19.28  E-value=75  Score=29.53  Aligned_cols=34  Identities=35%  Similarity=0.474  Sum_probs=30.8  Template_Neff=3.200
+
+Q ss_pred             CccccCCCCCCCCcchhhhhhhhHHHHHHhhhhh
+Q tr|H7C3Y4|H7C3   45 DLSRVHKGKSTRKEENTRSLLNDKRAVAAQRQRY   78 (87)
+Q Consensus        45 dlsrvhkgkstrkeentrsllndkravaaqrqry   78 (87)
+                      =|.||||=.|+.-.+|.-.|.+|-|.+.+|+.|.
+T Consensus        99 LL~Rv~kyNS~nVQ~nLd~LV~DVr~a~~q~eR~  132 (589)
+T 7RD1_R           99 LLERVARYNSTNVQTNLDRMVTDVREAVAQRERF  132 (589)
+T ss_pred             HHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHh
+Confidence            5899999999999999999999999988887764
+
+
+No 3
+>6CGV_M Hexon protein, Penton protein, Pre-hexon-linking; Human adenovirus Crystal structure Ad5F35; 3.8A {Human adenovirus C serotype 5}
+Probab=18.98  E-value=78  Score=29.40  Aligned_cols=34  Identities=35%  Similarity=0.378  Sum_probs=30.8  Template_Neff=3.200
+
+Q ss_pred             CccccCCCCCCCCcchhhhhhhhHHHHHHhhhhh
+Q tr|H7C3Y4|H7C3   45 DLSRVHKGKSTRKEENTRSLLNDKRAVAAQRQRY   78 (87)
+Q Consensus        45 dlsrvhkgkstrkeentrsllndkravaaqrqry   78 (87)
+                      =|.||||=.|+.-.+|.-.|.+|-|.+.+|+.|.
+T Consensus        98 LL~Rv~kyNS~nvQ~nL~~LV~DVr~a~~~~er~  131 (585)
+T 6CGV_M           98 LLQRVARYNSGNVQTNLDRLVGDVREAVAQRERA  131 (585)
+T ss_pred             HHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            5899999999999999999999999987887774
+
+
+No 4
+>7S78_M Adenovirus, ts1 mutant, minor protein; 3.72A {Human adenovirus C serotype 5}
+Probab=18.98  E-value=78  Score=29.40  Aligned_cols=34  Identities=35%  Similarity=0.378  Sum_probs=30.8  Template_Neff=3.200
+
+Q ss_pred             CccccCCCCCCCCcchhhhhhhhHHHHHHhhhhh
+Q tr|H7C3Y4|H7C3   45 DLSRVHKGKSTRKEENTRSLLNDKRAVAAQRQRY   78 (87)
+Q Consensus        45 dlsrvhkgkstrkeentrsllndkravaaqrqry   78 (87)
+                      =|.||||=.|+.-.+|.-.|.+|-|.+.+|+.|.
+T Consensus        98 LL~Rv~kyNS~nvQ~nL~~LV~DVr~a~~~~er~  131 (585)
+T 7S78_M           98 LLQRVARYNSGNVQTNLDRLVGDVREAVAQRERA  131 (585)
+T ss_pred             HHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            5899999999999999999999999987887774
+
+
+No 5
+>6QI5_N Hexon protein, Protein LH3, Pre-hexon-linking; adenovirus atadenovirus virus evolution, VIRUS;{Lizard adenovirus 2}
+Probab=15.91  E-value=1e+02  Score=28.88  Aligned_cols=34  Identities=38%  Similarity=0.388  Sum_probs=30.5  Template_Neff=3.000
+
+Q ss_pred             CccccCCCCCCCCcchhhhhhhhHHHHHHhhhhh
+Q tr|H7C3Y4|H7C3   45 DLSRVHKGKSTRKEENTRSLLNDKRAVAAQRQRY   78 (87)
+Q Consensus        45 dlsrvhkgkstrkeentrsllndkravaaqrqry   78 (87)
+                      =|.||||=.|++-.+|.-.|.+|-|...+++.|.
+T Consensus        84 LL~RV~kyNS~nvQ~NLd~LV~DVr~aqa~~~r~  117 (609)
+T 6QI5_N           84 LMIRVHKYNSTNVQNNLSVLLGDIRAAQSEAIRS  117 (609)
+T ss_pred             HHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHh
+Confidence            5899999999999999999999999887777664
+
+
+No 6
+>1Q5C_B EP-cadherin, ectodomain; CADHERIN  TRANS INTERACTION ; HET: NAG, CA, NDG; 30.0A {Mus musculus} SCOP: i.20.1.1
+Probab=11.40  E-value=7.4e+02  Score=19.56  Aligned_cols=41  Identities=29%  Similarity=0.375  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CCCCCCCCCCccccCCCCCCCCc
+Q tr|H7C3Y4|H7C3   18 PDPTPLLTSRHNVFQNDE-FDVFSRDSVDLSRVHKGKSTRKE   58 (87)
+Q Consensus        18 pdptplltsrhnvfqnde-fdvfsrdsvdlsrvhkgkstrke   58 (87)
+                      +.+.+-.-.|.|++..++ -+-......|++..|+|+..+.+
+T Consensus       737 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  778 (880)
+T 1Q5C_B          737 PLLLPEDDTRDNIFYYGEEGGGEEDQDYDLSQLHRGLDSRPD  778 (880)
+T ss_dssp             ------------------------------------------
+T ss_pred             CCCCCCCcchhhceeccccCCCcccccCChhhhccCCCCCCc
+Confidence            344444556788776543 33444445677788888877655
+
+
+No 7
+>3SXU_A DNA polymerase III subunit chi; DNA replication, Chi binds to; 1.85A {Escherichia coli}
+Probab=10.92  E-value=3.1e+02  Score=18.59  Aligned_cols=16  Identities=25%  Similarity=0.542  Sum_probs=11.0  Template_Neff=8.400
+
+Q ss_pred             hHHHHHHhhhhhhhcC
+Q tr|H7C3Y4|H7C3   67 DKRAVAAQRQRYEQYS   82 (87)
+Q Consensus        67 dkravaaqrqryeqys   82 (87)
+                      |....++.|+||..|.
+T Consensus       123 ~~~~~~~aR~r~k~yk  138 (150)
+T 3SXU_A          123 EDSLKQLARERYKAYR  138 (150)
+T ss_dssp             SGGGHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHH
+Confidence            4445677888888774
+
+
+No 8
+>2G77_B Protein transport, Gyp1 TBC domain; HET: GDP, MSE; 2.26A {Saccharomyces cerevisiae} SCOP: c.37.1.8
+Probab=9.21  E-value=6.2e+02  Score=14.44  Aligned_cols=17  Identities=18%  Similarity=0.118  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|H7C3Y4|H7C3    2 WPAWSTTTTTQSREMKP   18 (87)
+Q Consensus         2 wpawstttttqsremkp   18 (87)
+                      |-+|...+.+.|..+.+
+T Consensus         8 ~~~~~~~~~~~~~~~~~   24 (198)
+T 2G77_B            8 HGSSSCAVSGASGCLPP   24 (198)
+T ss_dssp             -----------------
+T ss_pred             CCCcccccCCCcccCCC
+Confidence            33455555555544443
+
+
+No 9
+>2ZUI_A P450CAM, MONOOXYGENASE, CAMPHOR-HYDROXYLASE, Heme, Iron; HET: CAM, HEM; 1.5A {Pseudomonas putida}
+Probab=7.95  E-value=9.8e+02  Score=16.21  Aligned_cols=19  Identities=21%  Similarity=0.312  Sum_probs=6.8  Template_Neff=12.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCC
+Q tr|H7C3Y4|H7C3    7 TTTTTQSREMKPDPTPLLT   25 (87)
+Q Consensus         7 tttttqsremkpdptpllt   25 (87)
+                      +++.++++.|.|-|.|+..
+T Consensus         3 ~~~~~~~~~~~~~p~~~p~   21 (415)
+T 2ZUI_A            3 TETIQSNANLAPLPPHVPE   21 (415)
+T ss_dssp             --------CCCCCCTTCCG
+T ss_pred             cccccccccCCCCCCCCCh
+Confidence            4556677777776665444
+
+
+No 10
+>1EM8_A CHI AND PSI SUBUNIT HETERODIMER; DNA Pol III, heterodimer, clamp-loader; 2.1A {Escherichia coli} SCOP: c.128.1.1
+Probab=7.79  E-value=4.8e+02  Score=17.69  Aligned_cols=16  Identities=25%  Similarity=0.542  Sum_probs=11.3  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHhhhhhhhcC
+Q tr|H7C3Y4|H7C3   67 DKRAVAAQRQRYEQYS   82 (87)
+Q Consensus        67 dkravaaqrqryeqys   82 (87)
+                      |....++.|+||..|.
+T Consensus       120 ~~~~~~~aR~r~k~yk  135 (147)
+T 1EM8_A          120 EDSLKQLARERYKAYR  135 (147)
+T ss_dssp             SHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHH
+Confidence            4455677888888774
+
+

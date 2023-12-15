@@ -1,0 +1,191 @@
+Query         tr|A0A140T9E6|A0A140T9E6_HUMAN
+Match_columns 203
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:19:00 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1095.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DH4_A Coroni Coiled coli doma  31.1      88 0.00096   23.3   2.2   21  179-199     7-27  (50)
+  2 7DGX_A Coroni Coiled coli doma  29.8      95   0.001   23.4   2.2   21  179-199     7-27  (52)
+  3 6ICR_C Coronin-like protein; C  28.2 1.1E+02  0.0011   23.0   2.2   20  180-199    18-37  (53)
+  4 5CX2_C Coronin; 4 helix bundle  27.8 1.1E+02  0.0012   22.6   2.2   20  180-199    15-34  (50)
+  5 5CX2_B Coronin; 4 helix bundle  27.7 1.1E+02  0.0012   22.5   2.2   20  180-199    14-33  (49)
+  6 7B9V_Z Pre-mRNA-splicing facto  23.0 1.5E+02  0.0017   23.5   2.4   23  174-199    95-117 (140)
+  7 2BO9_D CARBOXYPEPTIDASE A4, HU  20.0      37  0.0004   30.5  -1.7   67  116-182    50-141 (222)
+  8 1RTY_B yvqk protein, Structura  17.6 3.7E+02   0.004   21.6   3.5   42  156-197     5-46  (193)
+  9 1KX0_C LECTIN, C-TYPE LECTIN,   17.4 2.5E+02  0.0027   16.4   1.9   20  179-198     1-20  (149)
+ 10 1WNH_A Latexin; bi-cystatin fo  17.2      66 0.00072   29.1  -0.7   70  116-185    53-147 (225)
+
+No 1
+>7DH4_A Coroni Coiled coli domain, Actin; 2.41A {Trypanosoma brucei}
+Probab=31.10  E-value=88  Score=23.30  Aligned_cols=21  Identities=43%  Similarity=0.635  Sum_probs=16.2  Template_Neff=3.200
+
+Q ss_pred             chhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  179 DLKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       179 dlkgqlcdlnaelkrcrertq  199 (203)
+                      +|-.+|+--.+|+++||+..+
+T Consensus         7 ~L~~kL~~q~~Ei~~cRe~l~   27 (50)
+T 7DH4_A            7 ALASLLGQQQAEIQRCREDLQ   27 (50)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            355677778899999998764
+
+
+No 2
+>7DGX_A Coroni Coiled coli domain, Actin; 2.06A {Trypanosoma brucei}
+Probab=29.78  E-value=95  Score=23.38  Aligned_cols=21  Identities=43%  Similarity=0.620  Sum_probs=16.3  Template_Neff=3.000
+
+Q ss_pred             chhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  179 DLKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       179 dlkgqlcdlnaelkrcrertq  199 (203)
+                      +|-.+|+--.+|+++||+..+
+T Consensus         7 ~L~~kL~~q~aEv~~cReel~   27 (52)
+T 7DGX_A            7 ALASLLGQQQAEVQRCREDLQ   27 (52)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            355677788899999998764
+
+
+No 3
+>6ICR_C Coronin-like protein; Coiled coil domain of Actin; HET: EDO; 2.04A {Leishmania donovani}
+Probab=28.23  E-value=1.1e+02  Score=23.03  Aligned_cols=20  Identities=20%  Similarity=0.257  Sum_probs=14.3  Template_Neff=3.500
+
+Q ss_pred             hhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  180 LKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       180 lkgqlcdlnaelkrcrertq  199 (203)
+                      |-.+|+--.+|+++||+..+
+T Consensus        18 L~~kL~~q~~Ev~~cRe~l~   37 (53)
+T 6ICR_C           18 LSEKVRTAHQEISALRKALQ   37 (53)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            44556666788999998754
+
+
+No 4
+>5CX2_C Coronin; 4 helix bundle, antiparallel coiled; HET: EDO, MSE; 2.21A {Leishmania donovani}
+Probab=27.76  E-value=1.1e+02  Score=22.61  Aligned_cols=20  Identities=20%  Similarity=0.252  Sum_probs=14.1  Template_Neff=3.700
+
+Q ss_pred             hhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  180 LKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       180 lkgqlcdlnaelkrcrertq  199 (203)
+                      |-.+|+--.+|+++||+..+
+T Consensus        15 L~~kL~~q~~Ev~~cRe~l~   34 (50)
+T 5CX2_C           15 LSEKVRTCHQEISALRKALQ   34 (50)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            44556666788899998654
+
+
+No 5
+>5CX2_B Coronin; 4 helix bundle, antiparallel coiled; HET: EDO, MSE; 2.21A {Leishmania donovani}
+Probab=27.65  E-value=1.1e+02  Score=22.51  Aligned_cols=20  Identities=20%  Similarity=0.252  Sum_probs=14.1  Template_Neff=3.700
+
+Q ss_pred             hhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  180 LKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       180 lkgqlcdlnaelkrcrertq  199 (203)
+                      |-.+|+--.+|+++||+..+
+T Consensus        14 L~~kL~~q~~Ev~~cRe~l~   33 (49)
+T 5CX2_B           14 LSEKVRTCHQEISALRKALQ   33 (49)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            44556666788899998654
+
+
+No 6
+>7B9V_Z Pre-mRNA-splicing factor 8, Pre-mRNA-splicing helicase; splicing, spliceosome, RNA, ribozyme; HET: GTP, KGN, SEP; 2.8A {Saccharomyces cerevisiae}
+Probab=22.99  E-value=1.5e+02  Score=23.48  Aligned_cols=23  Identities=22%  Similarity=0.232  Sum_probs=14.1  Template_Neff=7.200
+
+Q ss_pred             CCCCCchhhhhHHHHHHHHHHHHhhc
+Q tr|A0A140T9E6|  174 KRPAWDLKGQLCDLNAELKRCRERTQ  199 (203)
+Q Consensus       174 krpawdlkgqlcdlnaelkrcrertq  199 (203)
+                      ++|-||||-.|..   .|.....|||
+T Consensus        95 kk~nwDLKRdl~~---kl~kLerrTq  117 (140)
+T 7B9V_Z           95 VCETSDLKAKLAP---IMEVLEKKTN  117 (140)
+T ss_pred             CCCChhHHHHHHH---HHHHHhHHHH
+Confidence            7789999975544   3444444443
+
+
+No 7
+>2BO9_D CARBOXYPEPTIDASE A4, HUMAN LATEXIN; METALLOCARBOXYPEPTIDASE, X-RAY CRYSTAL STRUCTURE, ENDOGENOUS; HET: VAL, NAG, MPD; 1.6A {HOMO SAPIENS} SCOP: d.17.1.5
+Probab=20.00  E-value=37  Score=30.54  Aligned_cols=67  Identities=18%  Similarity=0.289  Sum_probs=45.9  Template_Neff=4.900
+
+Q ss_pred             eecceecCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCC-------------------------CCCCCCCCC
+Q tr|A0A140T9E6|  116 HRLHLWCTSAQKVSKKTGPRCSTAIATGLKNQKPVPAVPVQKSGTS-------------------------GVPPMAGGK  170 (203)
+Q Consensus       116 hrlhlwctsaqkvskktgprcstaiatglknqkpvpavpvqksgts-------------------------gvppmaggk  170 (203)
+                      |..||-.+--.-.++..--.|+.-+---.++++|.|+|-+.-.|..                         ..|-.-|.-
+T Consensus        50 ~KY~L~Fs~~d~~~~~~~g~CsA~Vlf~~~~~k~~P~V~~tc~~~~~k~~~eeD~~fY~~lk~~~~pl~a~~IPDs~G~i  129 (222)
+T 2BO9_D           50 HKYRLKFAVEEIIQKQVKVNCTAEVLYPSTGQETAPEVNFTFEGETGKNPDEEDNTFYQRLKSMKEPLEAQNIPDNFGNV  129 (222)
+T ss_dssp             EEEEEEEEEEETTTCCCEEEEEEEEEEECTTCCCCCEEEEEEESCCCCCCHHHHHHHHHHHHTCSSCCEEEEESCTTSCC
+T ss_pred             ceEEEEEEeEEeccCCceEEEEEEEEeeCCCCCCCCeEEEEecCccCCCCcHHHHHHHHHHHcCCCCcceecCCcccCCC
+Confidence            5566666655555665666899888888889999998876544333                         245556667
+
+
+Q ss_pred             CCCCCCCCchhh
+Q tr|A0A140T9E6|  171 KPSKRPAWDLKG  182 (203)
+Q Consensus       171 kpskrpawdlkg  182 (203)
+                      .|+-+|.|+|..
+T Consensus       130 ~p~m~P~W~LA~  141 (222)
+T 2BO9_D          130 SPEMTLVLHLAW  141 (222)
+T ss_dssp             CHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHH
+Confidence            777777787754
+
+
+No 8
+>1RTY_B yvqk protein, Structural Genomics; all alpha-helical trimeric protein, Structural; HET: MSE; 2.4A {Bacillus subtilis} SCOP: a.25.2.2
+Probab=17.62  E-value=3.7e+02  Score=21.62  Aligned_cols=42  Identities=19%  Similarity=0.309  Sum_probs=20.6  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCchhhhhHHHHHHHHHHHHh
+Q tr|A0A140T9E6|  156 QKSGTSGVPPMAGGKKPSKRPAWDLKGQLCDLNAELKRCRER  197 (203)
+Q Consensus       156 qksgtsgvppmaggkkpskrpawdlkgqlcdlnaelkrcrer  197 (203)
+                      .|.|..|..-+.+|.-+..-|..++.|.+..||+.|-.++..
+T Consensus         5 t~~GD~G~T~l~~grv~K~~~~i~~~G~lDEl~a~lg~~~~~   46 (193)
+T 1RTY_B            5 TKTGDKGQTGLVGGRTDKDSLRVESYGTIDELNSFIGLALAE   46 (193)
+T ss_dssp             C-----------------CHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCCCCceecCCCeeeCCCchHHhhHhHHHHHHHHHHHHHH
+Confidence            356667766666555555567889999999999998877654
+
+
+No 9
+>1KX0_C LECTIN, C-TYPE LECTIN, CALCIUM-BINDING PROTEIN; HET: MAN; 2.0A {Rattus norvegicus} SCOP: d.169.1.1, h.1.1.1
+Probab=17.42  E-value=2.5e+02  Score=16.43  Aligned_cols=20  Identities=15%  Similarity=0.410  Sum_probs=13.5  Template_Neff=13.800
+
+Q ss_pred             chhhhhHHHHHHHHHHHHhh
+Q tr|A0A140T9E6|  179 DLKGQLCDLNAELKRCRERT  198 (203)
+Q Consensus       179 dlkgqlcdlnaelkrcrert  198 (203)
+                      +|..++..|+.++.+.....
+T Consensus         1 ~~~~~~~~l~~~~~~l~~~~   20 (149)
+T 1KX0_C            1 AIEVKLANMEAEINTLKSKL   20 (149)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHH
+Confidence            35667788888777765543
+
+
+No 10
+>1WNH_A Latexin; bi-cystatin fold, cis-proline, HYDROLASE INHIBITOR; 1.83A {Mus musculus}
+Probab=17.25  E-value=66  Score=29.14  Aligned_cols=70  Identities=21%  Similarity=0.368  Sum_probs=48.7  Template_Neff=4.800
+
+Q ss_pred             eecceecCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCC-------------------------CCCCCCCCC
+Q tr|A0A140T9E6|  116 HRLHLWCTSAQKVSKKTGPRCSTAIATGLKNQKPVPAVPVQKSGTS-------------------------GVPPMAGGK  170 (203)
+Q Consensus       116 hrlhlwctsaqkvskktgprcstaiatglknqkpvpavpvqksgts-------------------------gvppmaggk  170 (203)
+                      |..||-.+--.-.++..--.||.-+---.++++|.|+|-+.-.+..                         ..|-.-|.-
+T Consensus        53 ~KY~L~Fs~~~~~~~~~~g~CsA~Vlf~~~~~k~~P~V~~tc~~~~~k~~~~eD~~fY~~lk~~~~pl~a~~IPDs~G~i  132 (225)
+T 1WNH_A           53 HKYHLKFSVEEIIQKQVTVNCTAEVLYPQMGQGSAPEVNFTFEGEIGKNPDEEDNTFYQSLMSLKRPLEAQDIPDNFGNV  132 (225)
+T ss_dssp             EEEEEEEEEEETTTCCCEEEEEEEEEECCTTCCCCCEEEEEESSCCCCCCHHHHHHHHHHHHHCSSCCEEEEESCTTSCC
+T ss_pred             ceEEEEEEEEEeecCCceEEeEEEEeeeCCCCCCCCeEEEEeccccCCCccHHHHHHHHHHHcCCCCcccccCCcccCCC
+Confidence            5566666655555665666898888877788999998876544443                         246666778
+
+
+Q ss_pred             CCCCCCCCchhhhhH
+Q tr|A0A140T9E6|  171 KPSKRPAWDLKGQLC  185 (203)
+Q Consensus       171 kpskrpawdlkgqlc  185 (203)
+                      .|+-+|.|+|..--+
+T Consensus       133 ~p~m~P~W~LA~vgS  147 (225)
+T 1WNH_A          133 SPQMKPVQHLAWVAC  147 (225)
+T ss_dssp             CGGGHHHHHHHHHHH
+T ss_pred             CCcchHHHHHHHHHH
+Confidence            888888888865433
+
+

@@ -1,0 +1,239 @@
+Query         tr|H3BM60|H3BM60_HUMAN
+Match_columns 347
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:42:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1735.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2IAI_A Putative transcriptiona  54.4 1.4E+02  0.0016   22.3   7.7   60  195-254    51-115 (230)
+  2 6H3Z_A CCR4-NOT transcription   40.9 1.8E+02  0.0019   25.7   5.9   94  125-227   109-203 (226)
+  3 6H3Z_B CCR4-NOT transcription   40.9 1.8E+02  0.0019   25.7   5.9   94  125-227   109-203 (226)
+  4 2IE6_A Annexin A5; calcium bin  34.3 3.6E+02  0.0039   22.6   6.3   35  180-214   190-224 (318)
+  5 1YII_A Annexin A5; Annexin  me  31.8 1.9E+02   0.002   24.2   4.4   33  181-213   193-225 (320)
+  6 3C07_A Putative tetR-family tr  30.4 4.8E+02  0.0052   21.3   9.2   60  195-254    62-126 (273)
+  7 3C07_B Putative tetR-family tr  30.4 4.8E+02  0.0052   21.3   9.2   60  195-254    62-126 (273)
+  8 1QC7_A T. MARITIMA FLIG C-TERM  24.6 5.1E+02  0.0055   19.7   5.9   62  179-241    36-97  (101)
+  9 1AIN_A ANNEXIN I; CALCIUM/PHOS  24.5 3.1E+02  0.0034   22.7   4.4   14  239-252   258-271 (314)
+ 10 2RAE_A Transcriptional regulat  22.5 4.9E+02  0.0054   18.8   7.8   43  293-336   160-202 (207)
+ 11 4MXM_A Transcriptional regulat  20.8 5.5E+02  0.0059   18.6   7.6   54  195-248    41-99  (203)
+ 12 2IBD_A Possible transcriptiona  20.3 5.3E+02  0.0058   18.3   8.6   60  196-255    36-100 (204)
+ 13 2IBD_B Possible transcriptiona  20.3 5.3E+02  0.0058   18.3   8.6   59  196-254    36-99  (204)
+
+No 1
+>2IAI_A Putative transcriptional regulator; STRUCTURAL GENOMICS, TETR, TRANSCRIPTIONAL REGULATOR; HET: MSE; 1.65A {Streptomyces coelicolor}
+Probab=54.44  E-value=1.4e+02  Score=22.29  Aligned_cols=60  Identities=22%  Similarity=0.269  Sum_probs=32.6  Template_Neff=12.300
+
+Q ss_pred             HHHHHHHHHHchhh---HHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHHHhC
+Q tr|H3BM60|H3BM  195 RTVEFVAERIGSNC---VKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLC  254 (347)
+Q Consensus       195 rtvefvaerigsnc---vkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqlleilcsqlc  254 (347)
+                      -|++.+|++.|-+.   -.|.  |..|+..++.+....+.+.+........++.+.+..+...+.
+T Consensus        51 ~t~~~ia~~agvs~~~~y~~F~~k~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~  115 (230)
+T 2IAI_A           51 TSMEHLSKAAGISKSSIYHHVTGKEELLRRAVSRALDELFGILDEEHARVGTAAERLEYVVRRMV  115 (230)
+T ss_dssp             CCHHHHHHHHTSCHHHHTTTCSSHHHHHHHHHHHHHHHHHHHTTSHHHHSSCHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHCCCHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHH
+Confidence            36777888877542   2222  455666666655555554444333344566666655554443
+
+
+No 2
+>6H3Z_A CCR4-NOT transcription complex subunit 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 3.0A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=40.89  E-value=1.8e+02  Score=25.71  Aligned_cols=94  Identities=13%  Similarity=0.172  Sum_probs=48.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHH-HHHHHHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCchHHHHHHHHHHhCCChhHHHHHHHHHHH
+Q tr|H3BM60|H3BM  125 LLYTCCPYI-GELRKLLASWVSGSSGRSGGFMRKITPTTTTSLGAQPSQTSQGLQAQLAQAFFHNQPPSLRRTVEFVAER  203 (347)
+Q Consensus       125 llytccpyi-gelrkllaswvsgssgrsggfmrkitpttttslgaqpsqtsqglqaqlaqaffhnqppslrrtvefvaer  203 (347)
+                      +|...|... ..+.|-+..|...+...     ||.....+..+=-..--....+...|+++.-.+.+    ..++|...-
+T Consensus       109 lL~~l~~~~~~~~~kevt~wl~~~~~~-----~k~n~~v~~~Llr~~Ll~~~~lD~~La~~l~~~~~----~av~fa~~L  179 (226)
+T 6H3Z_A          109 VLETIRKIAGPQVSEQVRQLFHQQPGH-----LFLSLSLIAALLGTDLLDWKNIDMAMAKALEQRKE----GSIDFLEQL  179 (226)
+T ss_dssp             HHHHHHHHTHHHHHHHHHHHHTTSCGG-----GGCCHHHHHHHTTSSCCCHHHHHHHHHHHHHTTCT----THHHHHHHH
+T ss_pred             HHHHHHHHHhHHHHHHHHHHHhcCCch-----hhcCHHHHHHHHhCCCCCHHHHHHHHHHHHHcCCH----HHHHHHHHH
+Confidence            344555555 67888889998876443     33333222222222222345667778877643332    377777666
+
+
+Q ss_pred             HchhhHHHhhHHHHHHHHHHHHHH
+Q tr|H3BM60|H3BM  204 IGSNCVKHIKATLVADLVRQAESL  227 (347)
+Q Consensus       204 igsncvkhikatlvadlvrqaesl  227 (347)
+                      +..-++..-.....+|+.+-.|.+
+T Consensus       180 l~~~l~~~~~~~~~~df~~tleaL  203 (226)
+T 6H3Z_A          180 MDLVLLNDTPLALFTDFVRSLEAA  203 (226)
+T ss_dssp             HHHHTSSSSCSSCGGGGHHHHHHH
+T ss_pred             HHHHccCCCCcccHHHHHHHHHHH
+Confidence            544333321112334555544443
+
+
+No 3
+>6H3Z_B CCR4-NOT transcription complex subunit 1; GENE REGULATION, DEADENYLATION, MRNA DECAY; 3.0A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=40.89  E-value=1.8e+02  Score=25.71  Aligned_cols=94  Identities=13%  Similarity=0.172  Sum_probs=47.3  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHH-HHHHHHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCchHHHHHHHHHHhCCChhHHHHHHHHHHH
+Q tr|H3BM60|H3BM  125 LLYTCCPYI-GELRKLLASWVSGSSGRSGGFMRKITPTTTTSLGAQPSQTSQGLQAQLAQAFFHNQPPSLRRTVEFVAER  203 (347)
+Q Consensus       125 llytccpyi-gelrkllaswvsgssgrsggfmrkitpttttslgaqpsqtsqglqaqlaqaffhnqppslrrtvefvaer  203 (347)
+                      +|...|... ..+.|-+..|...+...     ||.....+..+=-..--....+...|+++.-.+.+    ..++|...-
+T Consensus       109 lL~~l~~~~~~~~~kevt~wl~~~~~~-----~k~n~~v~~~Llr~~Ll~~~~lD~~La~~l~~~~~----~av~fa~~L  179 (226)
+T 6H3Z_B          109 VLETIRKIAGPQVSEQVRQLFHQQPGH-----LFLSLSLIAALLGTDLLDWKNIDMAMAKALEQRKE----GSIDFLEQL  179 (226)
+T ss_dssp             HHHHHHHHTHHHHHHHHHHHHTTSCGG-----GGCCHHHHHHHTTSSCCCHHHHHHHHHHHHHTTCT----THHHHHHHH
+T ss_pred             HHHHHHHHHhHHHHHHHHHHHhcCCch-----hhcCHHHHHHHHhCCCCCHHHHHHHHHHHHHcCCH----HHHHHHHHH
+Confidence            344555555 67888889998876443     33333222222222222345667777776643332    367777665
+
+
+Q ss_pred             HchhhHHHhhHHHHHHHHHHHHHH
+Q tr|H3BM60|H3BM  204 IGSNCVKHIKATLVADLVRQAESL  227 (347)
+Q Consensus       204 igsncvkhikatlvadlvrqaesl  227 (347)
+                      +..-++..-.....+|+.+-.|.+
+T Consensus       180 l~~~l~~~~~~~~~~df~~tleaL  203 (226)
+T 6H3Z_B          180 MDLVLLNDTPLALFTDFVRSLEAA  203 (226)
+T ss_dssp             HHHHTSSSSCSSCGGGGHHHHHHH
+T ss_pred             HHHHccCCCCcccHHHHHHHHHHH
+Confidence            543333321111334555544443
+
+
+No 4
+>2IE6_A Annexin A5; calcium binding protein, phospholipid binding; HET: SO4; 1.83A {Rattus norvegicus} SCOP: a.65.1.1
+Probab=34.29  E-value=3.6e+02  Score=22.59  Aligned_cols=35  Identities=14%  Similarity=0.101  Sum_probs=22.5  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHhCCChhHHHHHHHHHHHHchhhHHHhhH
+Q tr|H3BM60|H3BM  180 QLAQAFFHNQPPSLRRTVEFVAERIGSNCVKHIKA  214 (347)
+Q Consensus       180 qlaqaffhnqppslrrtvefvaerigsncvkhika  214 (347)
+                      .+...+....+..++...+...+..|.+..+.|+.
+T Consensus       190 ~l~~il~~~s~~~l~~i~~~y~~~~~~~l~~~i~~  224 (318)
+T 2IE6_A          190 KFITILGTRSVSHLRRVFDKYMTISGFQIEETIDR  224 (318)
+T ss_dssp             HHHHHHHHSCHHHHHHHHHHHHHHHSSCHHHHHHH
+T ss_pred             HHHHHHccCCHHHHHHHHHHHHHHHCCCHHHHHHH
+Confidence            45556666666777777776666666666666543
+
+
+No 5
+>1YII_A Annexin A5; Annexin  membrane binding ; HET: SO4; 1.42A {Gallus gallus}
+Probab=31.80  E-value=1.9e+02  Score=24.18  Aligned_cols=33  Identities=15%  Similarity=0.098  Sum_probs=19.3  Template_Neff=11.200
+
+Q ss_pred             HHHHHHhCCChhHHHHHHHHHHHHchhhHHHhh
+Q tr|H3BM60|H3BM  181 LAQAFFHNQPPSLRRTVEFVAERIGSNCVKHIK  213 (347)
+Q Consensus       181 laqaffhnqppslrrtvefvaerigsncvkhik  213 (347)
+                      +...+....+..++...+..-+..|.+..+.|+
+T Consensus       193 l~~il~~~s~~~l~~i~~~y~~~~~~~l~~~i~  225 (320)
+T 1YII_A          193 FITILGTRSVSHLRRVFDKYMTISGFQIEETID  225 (320)
+T ss_dssp             HHHHHHHSCHHHHHHHHHHHHHHHSSCHHHHHC
+T ss_pred             HHHHHhcCCHHHHHHHHHHHHHHhCCCHHHHHH
+Confidence            334444455555666666666666766666664
+
+
+No 6
+>3C07_A Putative tetR-family transcriptional regulator; APC6322, TetR, Streptomyces coelicolor A3(2); HET: SO4, MSE; 2.7A {Streptomyces coelicolor A3(2)} SCOP: a.121.1.1, a.4.1.9
+Probab=30.41  E-value=4.8e+02  Score=21.33  Aligned_cols=60  Identities=12%  Similarity=0.051  Sum_probs=35.3  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHchh---hHHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHHHhC
+Q tr|H3BM60|H3BM  195 RTVEFVAERIGSN---CVKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLC  254 (347)
+Q Consensus       195 rtvefvaerigsn---cvkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqlleilcsqlc  254 (347)
+                      -+++-+|++.|-+   .-.|.  |..|+..+++.....+.+.+.....+..|+.+.+..++..+.
+T Consensus        62 ~t~~~Ia~~agvs~~t~y~~F~sk~~Ll~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~  126 (273)
+T 3C07_A           62 TTMRAIAQEAGVSVGNAYYYFAGKEHLIQGFYDRIAAEHRAAVREVLARETDLEARLAGVLKVWL  126 (273)
+T ss_dssp             CCHHHHHHHHTSCHHHHHHHCSSHHHHHHHHHHHHHHHHHHHTTTHHHHCCSHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHCCCHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHH
+Confidence            3677788887743   33343  455666666666555555554444455688776665555443
+
+
+No 7
+>3C07_B Putative tetR-family transcriptional regulator; APC6322, TetR, Streptomyces coelicolor A3(2); HET: SO4, MSE; 2.7A {Streptomyces coelicolor A3(2)}
+Probab=30.41  E-value=4.8e+02  Score=21.33  Aligned_cols=60  Identities=12%  Similarity=0.051  Sum_probs=33.5  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHchh---hHHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHHHhC
+Q tr|H3BM60|H3BM  195 RTVEFVAERIGSN---CVKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLC  254 (347)
+Q Consensus       195 rtvefvaerigsn---cvkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqlleilcsqlc  254 (347)
+                      -+++-+|++.|-+   .-.|.  |..|+..+++.....+.+.+.....+..|+.+.+..++..+.
+T Consensus        62 ~t~~~Ia~~agvs~~t~y~~F~sk~~Ll~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~  126 (273)
+T 3C07_B           62 TTMRAIAQEAGVSVGNAYYYFAGKEHLIQGFYDRIAAEHRAAVREVLARETDLEARLAGVLKVWL  126 (273)
+T ss_dssp             CCHHHHHHHHTSCHHHHHHHCSSHHHHHHHHHHHHHHHHTTTTHHHHHSCCSHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHCCCHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHH
+Confidence            3667788887743   33343  455566666555555444443333455688776665555443
+
+
+No 8
+>1QC7_A T. MARITIMA FLIG C-TERMINAL DOMAIN; FLAGELLAR MOTOR SWITCH PROTEIN, STRUCTURAL; 2.2A {Thermotoga maritima} SCOP: a.118.14.1
+Probab=24.62  E-value=5.1e+02  Score=19.65  Aligned_cols=62  Identities=15%  Similarity=0.244  Sum_probs=42.2  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHHhCCChhHHHHHHHHHHHHchhhHHHhhHHHHHHHHHHHHHHHHHHhhcCCCCCCC
+Q tr|H3BM60|H3BM  179 AQLAQAFFHNQPPSLRRTVEFVAERIGSNCVKHIKATLVADLVRQAESLLQEQLVTQGEEGGD  241 (347)
+Q Consensus       179 aqlaqaffhnqppslrrtvefvaerigsncvkhikatlvadlvrqaesllqeqlvtqgeeggd  241 (347)
+                      ..+...++.|-|+..++.++.-.++.+.--.+.|... -..++..+..+..++-++-...+++
+T Consensus        36 ~~~~~~il~~l~~~~~~~i~~~l~~~~~~~~~ei~~A-~~~i~~~~~~l~~~g~i~~~~~~~~   97 (101)
+T 1QC7_A           36 DELKEKIFKNMSKRAAALLKDELEYMGPVRLKDVEEA-QQKIINIIRRLEEAGEIVIARGGGE   97 (101)
+T ss_dssp             HHHHHHHHTTSCHHHHHHHHHHHHHHCSCCHHHHHHH-HHHHHHHHHHHHHTTCCCBCTTCCC
+T ss_pred             HHHHHHHHhcCCHHHHHHHHHHHHhcCCCCHHHHHHH-HHHHHHHHHHHHHcCCeeecCCCCC
+Confidence            4567788889999999988887777665333333332 4566777777777777776655544
+
+
+No 9
+>1AIN_A ANNEXIN I; CALCIUM/PHOSPHOLIPID BINDING, CALCIUM-PHOSPHOLIPID BINDING complex; 2.5A {Homo sapiens} SCOP: a.65.1.1
+Probab=24.45  E-value=3.1e+02  Score=22.68  Aligned_cols=14  Identities=29%  Similarity=0.506  Sum_probs=8.0  Template_Neff=11.400
+
+Q ss_pred             CCCHHHHHHHHHHH
+Q tr|H3BM60|H3BM  239 GGDPAQLLEILCSQ  252 (347)
+Q Consensus       239 ggdpaqlleilcsq  252 (347)
+                      |.|-..++.++++.
+T Consensus       258 ~~~~~~l~~il~~~  271 (314)
+T 1AIN_A          258 GTRHKALIRIMVSR  271 (314)
+T ss_pred             CCChhhceeeeeec
+Confidence            34555566666653
+
+
+No 10
+>2RAE_A Transcriptional regulator, AcrR family protein; TetR/AcrR family transcriptional regulator, structural; 2.2A {Rhodococcus sp.}
+Probab=22.53  E-value=4.9e+02  Score=18.79  Aligned_cols=43  Identities=9%  Similarity=0.154  Sum_probs=23.0  Template_Neff=12.700
+
+Q ss_pred             HHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHhhhcCCCCCCC
+Q tr|H3BM60|H3BM  293 ENIAVGLATEKACAWLSANITALIRREVKAAVSRTLRAQGPEPA  336 (347)
+Q Consensus       293 eniavglatekacawlsanitalirrevkaavsrtlraqgpepa  336 (347)
+                      -.+..|+...-...|+...- .-....+...+...++.-.+.+.
+T Consensus       160 ~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~~~  202 (207)
+T 2RAE_A          160 GYLLLGVAMSAYEQWLDDDS-LELNELLASGMQSLYDGLSSLGE  202 (207)
+T ss_dssp             HHHHHHHHHHHHHHHHHCTT-SCHHHHHHHHHHHHHHCSTTTTC
+T ss_pred             HHHHHHHHHHHHHHHhhCCC-ccHHHHHHHHHHHHHHhHhhCCC
+Confidence            33445555555556655432 23445666666666666554443
+
+
+No 11
+>4MXM_A Transcriptional regulator I2; Superantigen, DNA BINDING PROTEIN; HET: MSE; 1.95A {Pseudomonas fluorescens}
+Probab=20.78  E-value=5.5e+02  Score=18.61  Aligned_cols=54  Identities=15%  Similarity=0.168  Sum_probs=25.7  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHHchh---hHHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHH
+Q tr|H3BM60|H3BM  195 RTVEFVAERIGSN---CVKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEI  248 (347)
+Q Consensus       195 rtvefvaerigsn---cvkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqllei  248 (347)
+                      -+++.+|++.|-+   .-.|.  |..|+..++......+.+.+....++.+++.+.+..
+T Consensus        41 ~s~~~ia~~agvs~~~~y~~F~~k~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~   99 (203)
+T 4MXM_A           41 TTVRDLASAVGIQSGSIFHHFKSKDEILRAVMEETIHYNTAMMRASLEEASTVRERVLA   99 (203)
+T ss_dssp             CCHHHHHHHHTSCGGGGTTTTSSHHHHHHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHH
+T ss_pred             cCHHHHHHHhCCCHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHHHH
+Confidence            4677788887743   22222  444555554444433333333323334566544443
+
+
+No 12
+>2IBD_A Possible transcriptional regulator; Probable transcriptional regulatory protein, Rhodococcus; HET: MSE; 1.5A {Rhodococcus sp.}
+Probab=20.32  E-value=5.3e+02  Score=18.29  Aligned_cols=60  Identities=23%  Similarity=0.212  Sum_probs=34.6  Template_Neff=13.000
+
+Q ss_pred             HHHHHHHHHchh---hHHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHHHhCc
+Q tr|H3BM60|H3BM  196 TVEFVAERIGSN---CVKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLCP  255 (347)
+Q Consensus       196 tvefvaerigsn---cvkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqlleilcsqlcp  255 (347)
+                      |++-+|++.|-+   .-+|.  |..|+..++......+.+.+........++.+.++.++..+.-
+T Consensus        36 t~~~ia~~agvs~~t~y~~F~~k~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~  100 (204)
+T 2IBD_A           36 TVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFGKYREIVASGLDSRATLEALVTTSYE  100 (204)
+T ss_dssp             CHHHHHHHTTSCHHHHHHHCSCHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHH
+Confidence            677788887743   22232  4555555555555555444444444566888877776665543
+
+
+No 13
+>2IBD_B Possible transcriptional regulator; Probable transcriptional regulatory protein, Rhodococcus; HET: MSE; 1.5A {Rhodococcus sp.}
+Probab=20.32  E-value=5.3e+02  Score=18.29  Aligned_cols=59  Identities=24%  Similarity=0.227  Sum_probs=34.0  Template_Neff=13.000
+
+Q ss_pred             HHHHHHHHHchhh---HHHh--hHHHHHHHHHHHHHHHHHHhhcCCCCCCCHHHHHHHHHHHhC
+Q tr|H3BM60|H3BM  196 TVEFVAERIGSNC---VKHI--KATLVADLVRQAESLLQEQLVTQGEEGGDPAQLLEILCSQLC  254 (347)
+Q Consensus       196 tvefvaerigsnc---vkhi--katlvadlvrqaesllqeqlvtqgeeggdpaqlleilcsqlc  254 (347)
+                      |++-+|++.|-+-   -+|.  |..|+..++......+.+.+........++.+.++.++..+.
+T Consensus        36 t~~~ia~~agvs~~t~y~~F~~k~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~   99 (204)
+T 2IBD_B           36 TVRDIADAAGILSGSLYHHFDSKESMVDEILRGFLDDLFGKYREIVASGLDSRATLEALVTTSY   99 (204)
+T ss_dssp             CHHHHHHHHTSCHHHHHTTCSCHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHhCCCHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHH
+Confidence            6777888887432   2222  455555555555555544444444456688887776665543
+
+

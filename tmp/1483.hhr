@@ -1,0 +1,169 @@
+Query         tr|H3BQB7|H3BQB7_HUMAN
+Match_columns 99
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:45:36 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1483.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MSM_E Sister chromatid cohesi  96.4  0.0025 2.7E-08   45.3   1.0   33   14-46     27-77  (133)
+  2 5OKC_F Sister chromatid cohesi  96.4  0.0025 2.7E-08   45.3   1.0   32   15-46     28-77  (133)
+  3 2D4W_A glycerol kinase (E.C.2.  15.3 2.3E+02  0.0025   21.7   1.7   17   70-86    371-387 (504)
+  4 7D2O_A Luciferase; Luciferase,  13.0 1.1E+02  0.0012   25.2  -0.3   19   74-92    123-141 (174)
+  5 6CVM_B Beta-galactosidase (E.C  11.7 2.2E+02  0.0024   24.9   0.9   23   43-65    916-938 (1021)
+  6 5MJ3_B Interleukin-12 subunit   11.7 3.2E+02  0.0035   20.9   1.6   19   70-88     64-82  (179)
+  7 5MJ4_B Interleukin-12 subunit   11.7 3.2E+02  0.0035   20.9   1.6   18   71-88     65-82  (179)
+  8 6MVM_B Transcriptional regulat  11.0 2.5E+02  0.0028   16.7   0.8   17   71-87    135-151 (162)
+  9 1JZ7_C Beta-Galactosidase (E.C  10.2 2.4E+02  0.0026   24.8   0.6   23   43-65    917-939 (1023)
+ 10 3D85_C Interleukin-23, FAB, IM  10.0 3.9E+02  0.0043   20.3   1.6   19   70-88     64-82  (178)
+
+No 1
+>5MSM_E Sister chromatid cohesion protein DCC1; winged-helix, DNA repair, cell cycle; 2.29A {Saccharomyces cerevisiae S288c}
+Probab=96.43  E-value=0.0025  Score=45.26  Aligned_cols=33  Identities=21%  Similarity=0.235  Sum_probs=26.8  Template_Neff=6.300
+
+Q ss_pred             hhhhhhheecceeeeeeecC------------------cccccccceeeEe
+Q tr|H3BQB7|H3BQ   14 LAEWVLMELQGEIEARYSTG------------------LAGNLLGDLHYTT   46 (99)
+Q Consensus        14 laewvlmelqgeiearystg------------------lagnllgdlhytt   46 (99)
+                      ..||++.|+||+++.+-...                  +.|+.+|+|++..
+T Consensus        27 p~e~~liElQG~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lG~L~~~~   77 (133)
+T 5MSM_E           27 PLGMMMLEIQGELELPKDFASLARRDSPNEGRFSEQDGETLIRFGSLQIDG   77 (133)
+T ss_dssp             TTSEEEEEESEEEECCSCHHHHHHTCCTTTCCEEEETTEEEEEEEEEEEET
+T ss_pred             CCceEEEEeeEEEECCcchhhhhccCCCCCCccccCCCcCceEEEEEEEeC
+Confidence            36999999999999885543                  3788999999864
+
+
+No 2
+>5OKC_F Sister chromatid cohesion protein DCC1; Clamp loader DNA-binding protein Triple; HET: NO3, MSE; 2.3A {Saccharomyces cerevisiae S288c}
+Probab=96.43  E-value=0.0025  Score=45.26  Aligned_cols=32  Identities=22%  Similarity=0.273  Sum_probs=27.0  Template_Neff=6.300
+
+Q ss_pred             hhhhhheecceeeeeeecCc------------------ccccccceeeEe
+Q tr|H3BQB7|H3BQ   15 AEWVLMELQGEIEARYSTGL------------------AGNLLGDLHYTT   46 (99)
+Q Consensus        15 aewvlmelqgeiearystgl------------------agnllgdlhytt   46 (99)
+                      .||++.|+||+++.+-...+                  .|+.+|+|++..
+T Consensus        28 ~e~~liElQG~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lG~L~~~~   77 (133)
+T 5OKC_F           28 LGMMMLEIQGELELPKDFASLARRDSPNEGRFSEQDGETLIRFGSLQIDG   77 (133)
+T ss_pred             CceEEEEeeEEEECCcchhhhhccCCCCCCccccCCCcCceEEEEEEEeC
+Confidence            59999999999998866543                  789999999864
+
+
+No 3
+>2D4W_A glycerol kinase (E.C.2.7.1.30); Alpha and beta protein, Ribonuclease; HET: MPD; 2.3A {Cellulomonas sp.}
+Probab=15.30  E-value=2.3e+02  Score=21.72  Aligned_cols=17  Identities=12%  Similarity=0.065  Sum_probs=11.6  Template_Neff=10.600
+
+Q ss_pred             CCccHHHHHHHHHHhhh
+Q tr|H3BQB7|H3BQ   70 RTQSEDCLRFVIQGLAN   86 (99)
+Q Consensus        70 rtqsedclrfviqglan   86 (99)
+                      .+..++-+|-++++++.
+T Consensus       371 ~~~~~~~~~a~le~la~  387 (504)
+T 2D4W_A          371 YVNRNHIARAALEATAF  387 (504)
+T ss_dssp             SCCHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHH
+Confidence            35566778888887653
+
+
+No 4
+>7D2O_A Luciferase; Luciferase, LUMINESCENT PROTEIN; NMR {Gaussia princeps (T. Scott, 1894)}
+Probab=13.03  E-value=1.1e+02  Score=25.19  Aligned_cols=19  Identities=47%  Similarity=0.801  Sum_probs=14.4  Template_Neff=1.800
+
+Q ss_pred             HHHHHHHHHHhhhcceEEE
+Q tr|H3BQB7|H3BQ   74 EDCLRFVIQGLANLRCSLL   92 (99)
+Q Consensus        74 edclrfviqglanlrcsll   92 (99)
+                      +||-.-.+.||||.+||-+
+T Consensus       123 ~dCtt~CLKGLANvkCs~~  141 (174)
+T 7D2O_A          123 VDCTTGCLKGLANVQCSDL  141 (174)
+T ss_dssp             CCSCHHHHHHHHTTCCCHH
+T ss_pred             cccCCchHHHHhccchHHH
+Confidence            4566666779999999854
+
+
+No 5
+>6CVM_B Beta-galactosidase (E.C.3.2.1.23); drift correction, radiation damage, drug; HET: PTQ;{Escherichia coli (strain K12)}
+Probab=11.70  E-value=2.2e+02  Score=24.87  Aligned_cols=23  Identities=17%  Similarity=0.496  Sum_probs=20.0  Template_Neff=9.700
+
+Q ss_pred             eeEeEEeceeeeeeccccccccC
+Q tr|H3BQB7|H3BQ   43 HYTTEVRGLFFPCLMPQESKLHQ   65 (99)
+Q Consensus        43 hyttevrglffpclmpqesklhq   65 (99)
+                      .|...|..+++|-+.|||+--|.
+T Consensus       916 ~y~~~v~~~~~~Y~~PQe~Gnr~  938 (1021)
+T 6CVM_B          916 RWDLPLSDMYTPYVFPSENGLRC  938 (1021)
+T ss_dssp             EEEEEGGGGSCCCSSCCSCCCEE
+T ss_pred             EEEeehHhcCCCCCCCCcCCCcc
+Confidence            57889999999999999987665
+
+
+No 6
+>5MJ3_B Interleukin-12 subunit beta, Interleukin-23 subunit; DESIGNED ANTIPARALLEL TRIPLE-HELIX COILED-COIL, ALPHABODY; HET: NAG, YCM, PG4, BMA, PGE, MAN; 1.74A {Homo sapiens}
+Probab=11.68  E-value=3.2e+02  Score=20.87  Aligned_cols=19  Identities=37%  Similarity=0.515  Sum_probs=15.5  Template_Neff=6.500
+
+Q ss_pred             CCccHHHHHHHHHHhhhcc
+Q tr|H3BQB7|H3BQ   70 RTQSEDCLRFVIQGLANLR   88 (99)
+Q Consensus        70 rtqsedclrfviqglanlr   88 (99)
+                      ++.++.||+-+.+||-+.+
+T Consensus        64 ~~n~~~CL~kI~~~L~~Y~   82 (179)
+T 5MJ3_B           64 RDNSQFCLQRIHQGLIFYE   82 (179)
+T ss_dssp             HHHTHHHHHHHHHHHHHHH
+T ss_pred             ccCCHHHHHHHHHHHHHHH
+Confidence            3468889999999998765
+
+
+No 7
+>5MJ4_B Interleukin-12 subunit beta, Interleukin-23 subunit; SINGLE-CHAIN ANTIPARALLEL TRIPLE-HELIX COILED-COIL, IMMUNOGLOBULIN-LIKE; HET: BMA, NAG, MAN; 3.4A {Homo sapiens}
+Probab=11.68  E-value=3.2e+02  Score=20.87  Aligned_cols=18  Identities=33%  Similarity=0.457  Sum_probs=15.0  Template_Neff=6.500
+
+Q ss_pred             CccHHHHHHHHHHhhhcc
+Q tr|H3BQB7|H3BQ   71 TQSEDCLRFVIQGLANLR   88 (99)
+Q Consensus        71 tqsedclrfviqglanlr   88 (99)
+                      +.++.||+-+.+||-+.+
+T Consensus        65 ~n~~~CL~kI~~~L~~Y~   82 (179)
+T 5MJ4_B           65 DNSQFCLQRIHQGLIFYE   82 (179)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             cCCHHHHHHHHHHHHHHH
+Confidence            457889999999998765
+
+
+No 8
+>6MVM_B Transcriptional regulator LasR; transcriptional activator protein, 3-Oxo-N-(2-oxooxolan-3-yl)tetradecanamide, TRANSCRIPTION; HET: K4G; 1.895A {Pseudomonas aeruginosa (strain UCBPP-PA14)}
+Probab=10.98  E-value=2.5e+02  Score=16.71  Aligned_cols=17  Identities=6%  Similarity=-0.033  Sum_probs=13.0  Template_Neff=11.800
+
+Q ss_pred             CccHHHHHHHHHHhhhc
+Q tr|H3BQB7|H3BQ   71 TQSEDCLRFVIQGLANL   87 (99)
+Q Consensus        71 tqsedclrfviqglanl   87 (99)
+                      ...-+||+++.+|+.|-
+T Consensus       135 ~rE~~vl~~~a~G~s~~  151 (162)
+T 6MVM_B          135 NRFMESVLPTLWMLKDY  151 (162)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHccchHH
+Confidence            34468999999998763
+
+
+No 9
+>1JZ7_C Beta-Galactosidase (E.C.3.2.1.23); TIM BARREL (ALPHA/BETA BARREL), JELLY-ROLL; HET: DMS, MG, GAL, NA, CSO; 1.5A {Escherichia coli} SCOP: b.1.4.1, b.18.1.5, c.1.8.3, b.30.5.1
+Probab=10.17  E-value=2.4e+02  Score=24.76  Aligned_cols=23  Identities=17%  Similarity=0.496  Sum_probs=20.0  Template_Neff=9.700
+
+Q ss_pred             eeEeEEeceeeeeeccccccccC
+Q tr|H3BQB7|H3BQ   43 HYTTEVRGLFFPCLMPQESKLHQ   65 (99)
+Q Consensus        43 hyttevrglffpclmpqesklhq   65 (99)
+                      .|...|..+++|-..|||+-.|.
+T Consensus       917 ~y~~~v~~~~~~Y~~PQe~Gnr~  939 (1023)
+T 1JZ7_C          917 RWDLPLSDMYTPYVFPSENGLRC  939 (1023)
+T ss_dssp             EEEEEGGGGSCCCSSCCSCCCEE
+T ss_pred             EEeeehHHcCCCCCCCCcCCcee
+Confidence            57888999999999999987765
+
+
+No 10
+>3D85_C Interleukin-23, FAB, IMMUNE SYSTEM-CYTOKINE COMPLEX; HET: MPD; 1.9A {Homo sapiens}
+Probab=10.04  E-value=3.9e+02  Score=20.32  Aligned_cols=19  Identities=37%  Similarity=0.515  Sum_probs=15.5  Template_Neff=6.600
+
+Q ss_pred             CCccHHHHHHHHHHhhhcc
+Q tr|H3BQB7|H3BQ   70 RTQSEDCLRFVIQGLANLR   88 (99)
+Q Consensus        70 rtqsedclrfviqglanlr   88 (99)
+                      ++.++.||+-+.+||-+.+
+T Consensus        64 ~~n~~~CL~kI~~~L~~Y~   82 (178)
+T 3D85_C           64 RDNSQFCLQRIHQGLIFYE   82 (178)
+T ss_dssp             HHCCHHHHHHHHHHHHHHH
+T ss_pred             ccCCHHHHHHHHHHHHHHH
+Confidence            3468889999999998765
+
+

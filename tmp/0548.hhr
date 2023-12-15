@@ -1,0 +1,216 @@
+Query         tr|F8VXH4|F8VXH4_HUMAN
+Match_columns 96
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:23:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0548.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LXW_J Immunoglobulin heavy co  44.8      51 0.00055   26.7   2.9   42   19-77     36-77  (167)
+  2 4C68_A GLYCYLPEPTIDE N-TETRADE  40.3      26 0.00029   24.5   0.7    8   11-18      3-10  (384)
+  3 6UE7_D Immunoglobulin heavy co  39.8      69 0.00075   25.3   2.9   42   19-77     14-55  (137)
+  4 6MAZ_C Glycylpeptide N-tetrade  39.7      23 0.00024   25.5   0.3   10   10-19     23-32  (405)
+  5 5T6H_A Glycylpeptide N-tetrade  31.4      39 0.00042   25.0   0.5    8   12-19      3-10  (411)
+  6 7KZM_O Tubulin beta, Tubulin a  31.3 1.2E+02  0.0013   18.7   2.6   19    6-24     82-100 (117)
+  7 7KZN_O Heavy chain alpha, Flag  31.3 1.2E+02  0.0013   18.7   2.6   20    6-25     82-101 (117)
+  8 5O9U_B Glycylpeptide N-tetrade  28.9      43 0.00047   24.6   0.3    9   11-19     24-32  (402)
+  9 6FZ5_A Glycylpeptide N-tetrade  23.9      61 0.00066   23.5   0.4    7   12-18      5-11  (382)
+ 10 1XDX_B Chlamydomonas flagella,  22.7 2.2E+02  0.0024   17.5   2.6   18    7-24     80-97  (114)
+ 11 3C9G_A UPF0200/UPF0201 protein  22.6 1.1E+02  0.0012   21.7   1.4   15   14-28    101-115 (142)
+ 12 7K5B_N three head, outer dynei  21.5 2.3E+02  0.0025   18.0   2.5   19    6-24     79-97  (114)
+ 13 4B13_A GLYCYLPEPTIDE N-TETRADE  20.9      76 0.00083   22.3   0.3    9   10-18      3-11  (385)
+
+No 1
+>6LXW_J Immunoglobulin heavy constant mu, Immunoglobulin; immunoglobulin, dimer, transcytosis, secreted, IMMUNE;{Homo sapiens}
+Probab=44.79  E-value=51  Score=26.71  Aligned_cols=42  Identities=31%  Similarity=0.595  Sum_probs=29.8  Template_Neff=2.800
+
+Q ss_pred             CceEEEEEEeCCCCCCCCCccCCCCCCccccccccCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8VXH4|F8VX   19 GCVKISCIFYHSKPRNINGLFLPPSSNITLQKEIQEGIPLQSQSQEPLKPQENISRPIH   77 (96)
+Q Consensus        19 gcvkiscifyhskprninglflppssnitlqkeiqegiplqsqsqeplkpqenisrpih   77 (96)
+                      -||++..-|.-||-        .|+..| |.+.|+--+        ||+..||||-|..
+T Consensus        36 qCv~VTSr~VpSke--------nP~e~I-lERNIrIiV--------PL~sRENISDPtS   77 (167)
+T 6LXW_J           36 KCARITSRIIRSSE--------DPNEDI-VERNIRIIV--------PLNNRENISDPTS   77 (167)
+T ss_dssp             SCCCCEEEEECCSS--------SSSCCE-EEEEEEEEE--------CSSCBSSTTCTTS
+T ss_pred             EEeEEEeEeecCCC--------CCCcce-eeeeeEEEe--------eCCCCcCCCCCCC
+Confidence            58999998888875        344444 666666544        5677899999853
+
+
+No 2
+>4C68_A GLYCYLPEPTIDE N-TETRADECANOYLTRANSFERASE (E.C.2.3.1.97); TRANSFERASE, MYRISTOYLATION, MALARIA; HET: DMS, EN5, NHW; 1.38A {PLASMODIUM VIVAX}
+Probab=40.29  E-value=26  Score=24.51  Aligned_cols=8  Identities=63%  Similarity=1.261  Sum_probs=6.7  Template_Neff=11.300
+
+Q ss_pred             eEecCCCC
+Q tr|F8VXH4|F8VX   11 CFWETQPL   18 (96)
+Q Consensus        11 cfwetqpl   18 (96)
+                      =||.+||+
+T Consensus         3 ~fw~~qp~   10 (384)
+T 4C68_A            3 KFWYTQPV   10 (384)
+T ss_dssp             TTGGGSSS
+T ss_pred             CCccCCcc
+Confidence            48999996
+
+
+No 3
+>6UE7_D Immunoglobulin heavy constant alpha 1; immunoglobulin, IMMUNE SYSTEM; HET: BMA, NAG; 2.9A {Homo sapiens}
+Probab=39.81  E-value=69  Score=25.33  Aligned_cols=42  Identities=31%  Similarity=0.595  Sum_probs=27.3  Template_Neff=2.700
+
+Q ss_pred             CceEEEEEEeCCCCCCCCCccCCCCCCccccccccCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8VXH4|F8VX   19 GCVKISCIFYHSKPRNINGLFLPPSSNITLQKEIQEGIPLQSQSQEPLKPQENISRPIH   77 (96)
+Q Consensus        19 gcvkiscifyhskprninglflppssnitlqkeiqegiplqsqsqeplkpqenisrpih   77 (96)
+                      -||++..-|.-||-        .|+..| |.+.|+--+        ||+..||||-|..
+T Consensus        14 qCv~VTSr~VpS~e--------nP~e~v-leRNIrIiV--------PL~sRENISDPtS   55 (137)
+T 6UE7_D           14 KCARITSRIIRSSE--------DPNEDI-VERNIRIIV--------PLNNRENISDPTS   55 (137)
+T ss_pred             eEEEEEeeeecCCC--------CCCcce-eeeeeEEEe--------ecCCCcCCCCCCC
+Confidence            48888877777764        233333 555555444        5677899998853
+
+
+No 4
+>6MAZ_C Glycylpeptide N-tetradecanoyltransferase (E.C.2.3.1.97); SSGCID, glycylpeptide N-tetradecanoyltransferase, N-myristoyltransferase, NMT; HET: YNC, SO4, EDO, 646; 1.55A {Plasmodium vivax}
+Probab=39.73  E-value=23  Score=25.49  Aligned_cols=10  Identities=50%  Similarity=0.893  Sum_probs=8.3  Template_Neff=10.900
+
+Q ss_pred             eeEecCCCCC
+Q tr|F8VXH4|F8VX   10 SCFWETQPLG   19 (96)
+Q Consensus        10 scfwetqplg   19 (96)
+                      .=||.|||..
+T Consensus        23 ~~FW~~qPv~   32 (405)
+T 6MAZ_C           23 YKFWYTQPVP   32 (405)
+T ss_dssp             CTTGGGSSSC
+T ss_pred             CCccccCccC
+Confidence            3499999987
+
+
+No 5
+>5T6H_A Glycylpeptide N-tetradecanoyltransferase (E.C.2.3.1.97); ACYLTRANSFERASE, TRANSFERASE, DRUG DISCOVERY; HET: MYA, 75Q; 1.8A {Neosartorya fumigata (strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100)}
+Probab=31.36  E-value=39  Score=25.00  Aligned_cols=8  Identities=38%  Similarity=0.343  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EecCCCCC
+Q tr|F8VXH4|F8VX   12 FWETQPLG   19 (96)
+Q Consensus        12 fwetqplg   19 (96)
+                      ||.|||..
+T Consensus         3 fW~~qPv~   10 (411)
+T 5T6H_A            3 RSQTQPVP   10 (411)
+T ss_dssp             --------
+T ss_pred             CccCCCCC
+Confidence            99999987
+
+
+No 6
+>7KZM_O Tubulin beta, Tubulin alpha, Heavy; dynein, microtubule, cilia, MOTOR PROTEIN; HET: GTP, GDP; 7.5A {Chlamydomonas reinhardtii}
+Probab=31.34  E-value=1.2e+02  Score=18.68  Aligned_cols=19  Identities=11%  Similarity=0.352  Sum_probs=14.7  Template_Neff=9.800
+
+Q ss_pred             CCeeeeEecCCCCCceEEE
+Q tr|F8VXH4|F8VX    6 NCSISCFWETQPLGCVKIS   24 (96)
+Q Consensus         6 ncsiscfwetqplgcvkis   24 (96)
+                      ..+.+|+|+...-|++..+
+T Consensus        82 ~~~s~~~wd~~~D~~~~~~  100 (117)
+T 7KZM_O           82 HAASCARWNEKTDGKLTVQ  100 (117)
+T ss_pred             EEEEEEEEcCCCCeeEEEE
+Confidence            3567899999888887654
+
+
+No 7
+>7KZN_O Heavy chain alpha, Flagellar outer; dynein, microtubule, cilia, MOTOR PROTEIN; 4.0A {Chlamydomonas reinhardtii}
+Probab=31.34  E-value=1.2e+02  Score=18.68  Aligned_cols=20  Identities=10%  Similarity=0.318  Sum_probs=15.7  Template_Neff=9.800
+
+Q ss_pred             CCeeeeEecCCCCCceEEEE
+Q tr|F8VXH4|F8VX    6 NCSISCFWETQPLGCVKISC   25 (96)
+Q Consensus         6 ncsiscfwetqplgcvkisc   25 (96)
+                      ..+.+|+|+...-|++..+.
+T Consensus        82 ~~~s~~~wd~~~D~~~~~~~  101 (117)
+T 7KZN_O           82 HAASCARWNEKTDGKLTVQW  101 (117)
+T ss_dssp             CCCCCCCCCTTTCEEEEEEE
+T ss_pred             EEEEEEEEcCCCCeeEEEEE
+Confidence            45678999999999887653
+
+
+No 8
+>5O9U_B Glycylpeptide N-tetradecanoyltransferase 1 (E.C.2.3.1.97), GLY-CYS-SER-VAL-SER-LYS-LYS-LYS; TRANSFERASE, GLYCYLPEPTIDE N-TETRADECANOYLTRANSFERASE 1 N-MYRISTOYLTRANSFERASE; HET: MYR, COA, GOL; 1.85A {Homo sapiens}
+Probab=28.88  E-value=43  Score=24.60  Aligned_cols=9  Identities=56%  Similarity=1.276  Sum_probs=7.8  Template_Neff=10.400
+
+Q ss_pred             eEecCCCCC
+Q tr|F8VXH4|F8VX   11 CFWETQPLG   19 (96)
+Q Consensus        11 cfwetqplg   19 (96)
+                      =||.|||..
+T Consensus        24 ~FW~~qPv~   32 (402)
+T 5O9U_B           24 QFWDTQPVP   32 (402)
+T ss_dssp             TTGGGSSSC
+T ss_pred             cchhcCCCC
+Confidence            499999985
+
+
+No 9
+>6FZ5_A Glycylpeptide N-tetradecanoyltransferase 1 (E.C.2.3.1.97); protein-ligand complex, TRANSFERASE; HET: BXN, GOL, MYA; 1.89A {Homo sapiens}
+Probab=23.94  E-value=61  Score=23.47  Aligned_cols=7  Identities=71%  Similarity=1.830  Sum_probs=6.4  Template_Neff=10.600
+
+Q ss_pred             EecCCCC
+Q tr|F8VXH4|F8VX   12 FWETQPL   18 (96)
+Q Consensus        12 fwetqpl   18 (96)
+                      ||.+||.
+T Consensus         5 ~~~~~~~   11 (382)
+T 6FZ5_A            5 FWDTQPV   11 (382)
+T ss_dssp             TGGGSSS
+T ss_pred             CccCCCc
+Confidence            8999997
+
+
+No 10
+>1XDX_B Chlamydomonas flagella, Tctex1 dimer, NMR; NMR {Chlamydomonas reinhardtii}
+Probab=22.67  E-value=2.2e+02  Score=17.47  Aligned_cols=18  Identities=22%  Similarity=0.728  Sum_probs=14.6  Template_Neff=9.800
+
+Q ss_pred             CeeeeEecCCCCCceEEE
+Q tr|F8VXH4|F8VX    7 CSISCFWETQPLGCVKIS   24 (96)
+Q Consensus         7 csiscfwetqplgcvkis   24 (96)
+                      .+.+|+|+...-|++..+
+T Consensus        80 ~~s~~~wd~~~D~~~~~~   97 (114)
+T 1XDX_B           80 TAASCWWDSTTDGSRTVR   97 (114)
+T ss_dssp             EEEEECSCSSSCCCEEEE
+T ss_pred             EEEEEEEeCCCCceEEEE
+Confidence            467899999988888765
+
+
+No 11
+>3C9G_A UPF0200/UPF0201 protein AF_1395; uncharacterized UPF0201 protein AF_135, Structural; 2.3A {Archaeoglobus fulgidus DSM 4304}
+Probab=22.64  E-value=1.1e+02  Score=21.68  Aligned_cols=15  Identities=20%  Similarity=0.261  Sum_probs=10.6  Template_Neff=7.300
+
+Q ss_pred             cCCCCCceEEEEEEe
+Q tr|F8VXH4|F8VX   14 ETQPLGCVKISCIFY   28 (96)
+Q Consensus        14 etqplgcvkiscify   28 (96)
+                      ...||||++|..-+.
+T Consensus       101 ~~dplG~I~v~ik~~  115 (142)
+T 3C9G_A          101 ENAVLSPIKVTFRLN  115 (142)
+T ss_dssp             TTCC-CCEEEEEEES
+T ss_pred             CCCCCCCEEEEEEeC
+Confidence            356999999987664
+
+
+No 12
+>7K5B_N three head, outer dynein arms; HET: ADP, ATP; 4.5A {Tetrahymena thermophila}
+Probab=21.49  E-value=2.3e+02  Score=18.02  Aligned_cols=19  Identities=16%  Similarity=0.268  Sum_probs=15.2  Template_Neff=9.100
+
+Q ss_pred             CCeeeeEecCCCCCceEEE
+Q tr|F8VXH4|F8VX    6 NCSISCFWETQPLGCVKIS   24 (96)
+Q Consensus         6 ncsiscfwetqplgcvkis   24 (96)
+                      .++..|+|+...-|++...
+T Consensus        79 ~~~s~~~wd~~~D~~~~~~   97 (114)
+T 7K5B_N           79 SVQITAYQDTATDGSLIQC   97 (114)
+T ss_dssp             EEEEEEESCTTTCCCEEEE
+T ss_pred             EEEEEEEEeCCCCCEEEEE
+Confidence            4577899999999987654
+
+
+No 13
+>4B13_A GLYCYLPEPTIDE N-TETRADECANOYLTRANSFERASE (E.C.2.3.1.97); TRANSFERASE, MALARIA, DRUG DESIGN; HET: X25, NHW; 1.58A {PLASMODIUM VIVAX}
+Probab=20.90  E-value=76  Score=22.33  Aligned_cols=9  Identities=56%  Similarity=1.051  Sum_probs=7.2  Template_Neff=11.300
+
+Q ss_pred             eeEecCCCC
+Q tr|F8VXH4|F8VX   10 SCFWETQPL   18 (96)
+Q Consensus        10 scfwetqpl   18 (96)
+                      +-||.+||+
+T Consensus         3 ~~fw~~~p~   11 (385)
+T 4B13_A            3 YKFWYTQPV   11 (385)
+T ss_dssp             CTTGGGSSS
+T ss_pred             CCcccCCcc
+Confidence            458999996
+
+

@@ -1,0 +1,167 @@
+Query         tr|K7EPW5|K7EPW5_HUMAN
+Match_columns 67
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:47:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0258.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PQN_B Mitochondria fission 1   22.3   1E+02  0.0011   20.2   1.1   14   28-41      6-19  (54)
+  2 5W0E_A CREB-binding protein (E  13.3 4.5E+02  0.0049   14.2   2.5    8   12-19     12-19  (148)
+  3 5W0I_A CREB-binding protein (E  13.3 4.5E+02  0.0049   14.2   2.5    7   12-18     12-18  (148)
+  4 5W0Q_A CREB-binding protein (E  13.3 4.5E+02  0.0049   14.2   2.5   11   11-21     11-21  (148)
+  5 5X2M_D Taste receptor, type 1,   9.9 3.5E+02  0.0038   17.1   1.1   11    3-13    468-478 (478)
+  6 5X2N_B Taste receptor, type 1,   9.9 3.5E+02  0.0038   17.1   1.1   11    3-13    468-478 (478)
+  7 6ZP4_H 40S ribosomal protein S   7.6 8.7E+02  0.0095   17.5   2.4   13   44-56     37-49  (352)
+  8 7EGD_l Transcription initiatio   7.2 1.5E+03   0.016   16.0   4.7   19   44-62     54-72  (161)
+  9 7EGG_L Transcription initiatio   7.2 1.5E+03   0.016   16.0   4.7   19   44-62     54-72  (161)
+ 10 7K00_F ribosome; antibiotics,    6.3 4.2E+02  0.0046   17.6   0.3   15   28-42    119-133 (135)
+
+No 1
+>2PQN_B Mitochondria fission 1 protein, Mitochondrial; TPR domain, protein-protein complex, APOPTOSIS; 2.15A {Saccharomyces cerevisiae}
+Probab=22.26  E-value=1e+02  Score=20.21  Aligned_cols=14  Identities=43%  Similarity=0.757  Sum_probs=5.7  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCCCCCChH
+Q tr|K7EPW5|K7EP   28 SEGKLATKGDSSER   41 (67)
+Q Consensus        28 segklatkgdsser   41 (67)
+                      ..|||-|.|...|.
+T Consensus         6 adgkllteggenen   19 (54)
+T 2PQN_B            6 ADGKLLTEGGENEN   19 (54)
+T ss_dssp             ----HHHHHTCHHH
+T ss_pred             CCCCcccccccchh
+Confidence            45677666654443
+
+
+No 2
+>5W0E_A CREB-binding protein (E.C.2.3.1.48); CREBBP, Bromodomain, small molecule inhibitor; HET: 9U4; 1.41A {Homo sapiens}
+Probab=13.30  E-value=4.5e+02  Score=14.25  Aligned_cols=8  Identities=13%  Similarity=0.090  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCC
+Q tr|K7EPW5|K7EP   12 SRADFLPQ   19 (67)
+Q Consensus        12 sradflpq   19 (67)
+                      +++||-..
+T Consensus        12 ~~~~~~~~   19 (148)
+T 5W0E_A           12 PRGSMDYK   19 (148)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            34444333
+
+
+No 3
+>5W0I_A CREB-binding protein (E.C.2.3.1.48); CREBBP, Bromodomain, small molecule inhibitor; HET: 9UA; 1.43A {Mus musculus}
+Probab=13.30  E-value=4.5e+02  Score=14.25  Aligned_cols=7  Identities=14%  Similarity=0.031  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCCC
+Q tr|K7EPW5|K7EP   12 SRADFLP   18 (67)
+Q Consensus        12 sradflp   18 (67)
+                      +++||-.
+T Consensus        12 ~~~~~~~   18 (148)
+T 5W0I_A           12 PRGSMDY   18 (148)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            3344433
+
+
+No 4
+>5W0Q_A CREB-binding protein (E.C.2.3.1.48); CREBBP, Bromodomain, small molecule inhibitor; HET: 9UG, SO4; 1.7A {Homo sapiens}
+Probab=13.30  E-value=4.5e+02  Score=14.25  Aligned_cols=11  Identities=9%  Similarity=0.099  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|K7EPW5|K7EP   11 ASRADFLPQSS   21 (67)
+Q Consensus        11 asradflpqss   21 (67)
+                      .+++||-..++
+T Consensus        11 ~~~~~~~~~~~   21 (148)
+T 5W0Q_A           11 VPRGSMDYKDD   21 (148)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCCCC
+Confidence            34444443333
+
+
+No 5
+>5X2M_D Taste receptor, type 1, member; receptor, ligand binding, amino acid; HET: NAG, GLN; 2.206A {Oryzias latipes}
+Probab=9.89  E-value=3.5e+02  Score=17.10  Aligned_cols=11  Identities=18%  Similarity=0.232  Sum_probs=1.0  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|K7EPW5|K7EP    3 PVPAARCSASR   13 (67)
+Q Consensus         3 pvpaarcsasr   13 (67)
+                      ++|..+|+..|
+T Consensus       468 ~~P~s~Cs~~~  478 (478)
+T 5X2M_D          468 EKPESSGIEGR  478 (478)
+T ss_dssp             CC---------
+T ss_pred             CCCchhccCCC
+Confidence            45667777654
+
+
+No 6
+>5X2N_B Taste receptor, type 1, member; receptor, ligand binding, amino acid; HET: ALA, NAG; 2.2A {Oryzias latipes}
+Probab=9.89  E-value=3.5e+02  Score=17.10  Aligned_cols=11  Identities=18%  Similarity=0.232  Sum_probs=3.1  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|K7EPW5|K7EP    3 PVPAARCSASR   13 (67)
+Q Consensus         3 pvpaarcsasr   13 (67)
+                      ++|..+|+..|
+T Consensus       468 ~~P~s~Cs~~~  478 (478)
+T 5X2N_B          468 EKPESSGIEGR  478 (478)
+T ss_dssp             CCCCC------
+T ss_pred             CCCchhccCCC
+Confidence            45667777654
+
+
+No 7
+>6ZP4_H 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: GTP; 2.9A {Homo sapiens}
+Probab=7.61  E-value=8.7e+02  Score=17.49  Aligned_cols=13  Identities=15%  Similarity=0.409  Sum_probs=6.1  Template_Neff=9.300
+
+Q ss_pred             hhcCCChHHHhhh
+Q tr|K7EPW5|K7EP   44 REQNLPARALLKL   56 (67)
+Q Consensus        44 reqnlparallkl   56 (67)
+                      +.-.+...+++++
+T Consensus        37 ~~V~I~~~vl~~I   49 (352)
+T 6ZP4_H           37 KQVQIDGLVVLKI   49 (352)
+T ss_pred             cEEEEehHHHHHH
+Confidence            3344455555544
+
+
+No 8
+>7EGD_l Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 6.75A {Homo sapiens}
+Probab=7.20  E-value=1.5e+03  Score=16.00  Aligned_cols=19  Identities=32%  Similarity=0.487  Sum_probs=12.6  Template_Neff=6.700
+
+Q ss_pred             hhcCCChHHHhhhhccecc
+Q tr|K7EPW5|K7EP   44 REQNLPARALLKLTMEIKP   62 (67)
+Q Consensus        44 reqnlparallkltmeikp   62 (67)
+                      ..+.++-+.|-.|..+|.|
+T Consensus        54 ~~~vL~k~kL~~LvrevDp   72 (161)
+T 7EGD_l           54 NNQVLTKKKLQDLVREVDP   72 (161)
+T ss_pred             hcccccHHHHHHHHHHhCC
+Confidence            4456777777777766655
+
+
+No 9
+>7EGG_L Transcription initiation factor TFIID subunit; TFIID, preinitiation complex, core promoter; 2.77A {Homo sapiens}
+Probab=7.20  E-value=1.5e+03  Score=16.00  Aligned_cols=19  Identities=32%  Similarity=0.487  Sum_probs=12.6  Template_Neff=6.700
+
+Q ss_pred             hhcCCChHHHhhhhccecc
+Q tr|K7EPW5|K7EP   44 REQNLPARALLKLTMEIKP   62 (67)
+Q Consensus        44 reqnlparallkltmeikp   62 (67)
+                      ..+.++-+.|-.|..+|.|
+T Consensus        54 ~~~vL~k~kL~~LvrevDp   72 (161)
+T 7EGG_L           54 NNQVLTKKKLQDLVREVDP   72 (161)
+T ss_pred             hcccccHHHHHHHHHHhCC
+Confidence            4456777777777766655
+
+
+No 10
+>7K00_F ribosome; antibiotics, post-translational modifications, post-transcriptional modifications; HET: MEQ, G7M, 4OC, 2MG, PSU, 6MZ, OMU, PAR, 4D4, 5MC, D2T, 1MG, UR3, H2U, 5MU, SPM, 2MA, OMG, OMC, MG, MA6, SPD, 3TD; 1.98A {Escherichia coli}
+Probab=6.28  E-value=4.2e+02  Score=17.64  Aligned_cols=15  Identities=40%  Similarity=0.452  Sum_probs=9.3  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCChHh
+Q tr|K7EPW5|K7EP   28 SEGKLATKGDSSERE   42 (67)
+Q Consensus        28 segklatkgdssere   42 (67)
+                      .+|.-|.+|||.|.|
+T Consensus       119 ~~~~~~~~~~~~~~~  133 (135)
+T 7K00_F          119 ETADDAEAGDSEEEE  133 (135)
+T ss_dssp             GEEGTTHHCEECC--
+T ss_pred             hhhhchhccCchhhh
+Confidence            456667788887654
+
+

@@ -1,0 +1,506 @@
+Query         tr|E5RFM6|E5RFM6_HUMAN
+Match_columns 103
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:12:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0815.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KBT_A Proto-oncogene vav; sor  93.9   0.093   1E-06   28.5   1.8   19   85-103   103-121 (142)
+  2 3H0H_A beta barrel, TRANSFERAS  87.4     2.5 2.7E-05   18.0   3.2   23   74-96      5-27  (73)
+  3 2H8H_A SRC in complex; SRC KIN  81.1     3.2 3.4E-05   31.4   2.6   20   84-103    85-104 (535)
+  4 5H0B_A Tyrosine-protein kinase  65.1      16 0.00018   25.7   2.8   20   84-103     8-27  (454)
+  5 6AMW_A Tyrosine-protein kinase  58.7      19 0.00021   23.7   2.1   22   82-103    80-101 (255)
+  6 2ABL_A ABL TYROSINE KINASE; TR  53.5      30 0.00033   19.3   2.1   19   85-103     9-27  (163)
+  7 3UF4_A Tyrosine-protein kinase  48.4      51 0.00055   18.1   2.5   20   82-101     2-21  (164)
+  8 5MO4_A Tyrosine-protein kinase  45.1      48 0.00052   23.7   2.5   23   81-103    40-62  (495)
+  9 3NHN_A Tyrosine-protein kinase  44.5      53 0.00057   20.4   2.4   19   85-103    10-28  (193)
+ 10 6B9X_A Ragulator complex prote  42.4      69 0.00074   22.4   2.9   25    1-25      1-26  (161)
+ 11 3BH7_B ADP-ribosylation factor  38.8 2.6E+02  0.0028   23.0   6.0    9    1-9       3-11  (352)
+ 12 2BX6_A XRP2 PROTEIN; TRANSDUCT  38.2 2.7E+02  0.0029   22.8   6.0    9    1-9       1-9   (350)
+ 13 1TUC_A ALPHA-SPECTRIN; CAPPING  37.5      50 0.00054   12.1   2.3   13   84-96     50-62  (63)
+ 14 1OPK_A TRANSFERASE; HET: MYR,   37.0      51 0.00055   23.6   1.7   20   84-103    43-62  (495)
+ 15 2R5Y_A Homeodomain, homeotic p  35.6      52 0.00057   15.3   1.1   16   31-46      1-16  (88)
+ 16 2R5Z_A Homeodomain, homeotic p  35.6      52 0.00057   15.3   1.1   16   31-46      1-16  (88)
+ 17 2JMC_A chimer, Spc-SH3, P41, S  33.5      75 0.00081   12.9   3.0   20   84-103    52-71  (77)
+ 18 5FWA_A PROTEIN ARGININE N-METH  31.6      75 0.00082   24.9   2.0   19   85-103    46-64  (446)
+ 19 5JMQ_A Protein arginine N-meth  31.6      75 0.00082   24.9   2.0   19   85-103    46-64  (446)
+ 20 2KXD_A 11-mer peptide, SH3 dom  30.9      82 0.00089   13.9   1.4   15   82-96     58-72  (73)
+ 21 2FO0_A N-terminal cap, autoinh  30.6      90 0.00097   22.5   2.1   19   85-103    41-59  (495)
+ 22 6B25_A SH3 and cysteine-rich d  30.3 1.3E+02  0.0014   14.8   2.4   17   86-102     5-21  (118)
+ 23 1K9A_A Carboxyl-terminal Src k  29.2      93   0.001   21.7   1.9   20   84-103    11-30  (450)
+ 24 1K9A_B Carboxyl-terminal Src k  29.2      93   0.001   21.7   1.9   20   84-103    11-30  (450)
+ 25 1FMK_A TYROSINE-PROTEIN KINASE  28.9      99  0.0011   22.0   2.0   20   84-103     2-21  (452)
+ 26 1Y57_A Proto-oncogene tyrosine  28.9      99  0.0011   22.0   2.0   19   85-103     3-21  (452)
+ 27 4XI2_A Bruton's Tyrosine Kinas  26.0 1.3E+02  0.0014   21.2   2.2   22   82-103     1-22  (446)
+ 28 1Y8M_A Mitochondria, Fission,   24.8 1.2E+02  0.0013   17.3   1.6   16   57-72    128-143 (144)
+ 29 4U5W_B HIV-1 Nef Core domain 6  24.1   2E+02  0.0022   17.0   2.5   20   84-103    10-29  (180)
+ 30 4U5W_D HIV-1 Nef Core domain 6  24.1   2E+02  0.0022   17.0   2.5   19   85-103    11-29  (180)
+ 31 1X27_B Proto-oncogene tyrosine  21.0 2.9E+02  0.0031   15.5   2.9   18   85-102     5-22  (167)
+
+No 1
+>2KBT_A Proto-oncogene vav; sortase, protein ligation, GB1, intein; NMR {Mus musculus, synthetic, Streptococcus sp. 'group G'}
+Probab=93.93  E-value=0.093  Score=28.46  Aligned_cols=19  Identities=5%  Similarity=0.263  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      ..++|+|||.+..+++|+|
+T Consensus       103 ~~~~~~~~~~~~~~~el~~  121 (142)
+T 2KBT_A          103 EKVFKQYANDNGVDGEWTY  121 (142)
+T ss_dssp             -------------------
+T ss_pred             EEEEEccccCCCCCCCCCc
+Confidence            3678999999999999986
+
+
+No 2
+>3H0H_A beta barrel, TRANSFERASE; HET: PG4; 1.76A {Homo sapiens}
+Probab=87.45  E-value=2.5  Score=17.96  Aligned_cols=23  Identities=96%  Similarity=1.417  Sum_probs=8.3  Template_Neff=14.900
+
+Q ss_pred             eeeeecCCCceEEEEEEeecCCC
+Q tr|E5RFM6|E5RF   74 GTLRTRGGTGVTLFVALYDYEAR   96 (103)
+Q Consensus        74 gtlrtrggtgvtlfvalydyear   96 (103)
+                      ++++...+....++++++++...
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~   27 (73)
+T 3H0H_A            5 GTLRTRGGTGVTLFVALYDYEAI   27 (73)
+T ss_dssp             ------CCSTTCEEEESSCBCCS
+T ss_pred             cccccCCCCCcEEEEEEeccCCC
+Confidence            34444444444455555555443
+
+
+No 3
+>2H8H_A SRC in complex; SRC KINASE, TRANSFERASE; HET: H8H, PTR; 2.2A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=81.09  E-value=3.2  Score=31.45  Aligned_cols=20  Identities=85%  Similarity=1.250  Sum_probs=16.6  Template_Neff=10.700
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      +..++|+|||.++.+++|+|
+T Consensus        85 ~~~~~a~~~~~~~~~~~l~~  104 (535)
+T 2H8H_A           85 VTTFVALYDYESRTETDLSF  104 (535)
+T ss_dssp             --CEEESSCBCCCSSSBCCB
+T ss_pred             eEEEEEecccCCCCCCCCCc
+Confidence            45688999999999999986
+
+
+No 4
+>5H0B_A Tyrosine-protein kinase HCK (E.C.2.7.10.2); TRANSFERASE-TRANSFERASE INHIBITOR complex; HET: PTR, OOQ; 1.651A {Homo sapiens}
+Probab=65.06  E-value=16  Score=25.65  Aligned_cols=20  Identities=60%  Similarity=0.911  Sum_probs=16.9  Template_Neff=12.000
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      ..+++|+|||+++.+++|+|
+T Consensus         8 ~~~~~al~~~~~~~~~~l~~   27 (454)
+T 5H0B_A            8 RIIVVALYDYEAIHHEDLSF   27 (454)
+T ss_dssp             CCEEEECSCCBCCSSSBCBC
+T ss_pred             cEEEEEecccCCCCCCcCcc
+Confidence            35789999999999988875
+
+
+No 5
+>6AMW_A Tyrosine-protein kinase ABL1 (E.C.2.7.10.2); Signaling protein kinase, SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=58.66  E-value=19  Score=23.66  Aligned_cols=22  Identities=45%  Similarity=0.742  Sum_probs=17.9  Template_Neff=11.500
+
+Q ss_pred             CceEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   82 TGVTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        82 tgvtlfvalydyearteddlsf  103 (103)
+                      ....++++||+|+++..++|+|
+T Consensus        80 ~~~~~~~al~~~~~~~~~el~~  101 (255)
+T 6AMW_A           80 NDPNLFVALYDFVASGDNTLSI  101 (255)
+T ss_dssp             SCBCEEEESSCBCCSSTTBCCB
+T ss_pred             CCCCeEEEEEeecCCCCCcccE
+Confidence            3446789999999999888865
+
+
+No 6
+>2ABL_A ABL TYROSINE KINASE; TRANSFERASE, TYROSINE KINASE, SH3, SH2; 2.5A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1
+Probab=53.45  E-value=30  Score=19.32  Aligned_cols=19  Identities=53%  Similarity=0.880  Sum_probs=15.2  Template_Neff=13.100
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      .+++++++|.+...++++|
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~   27 (163)
+T 2ABL_A            9 NLFVALYDFVASGDNTLSI   27 (163)
+T ss_dssp             TEEEESSCBCCSSSSBCCB
+T ss_pred             cEEEEeccccCCCCCcccc
+Confidence            4788999999988877654
+
+
+No 7
+>3UF4_A Tyrosine-protein kinase Fyn, Isoform 2; Phosphorylation, Host-virus interaction, Protein-Tyrosine Kinases; HET: GOL; 1.98A {Mus musculus}
+Probab=48.40  E-value=51  Score=18.15  Aligned_cols=20  Identities=100%  Similarity=1.436  Sum_probs=9.3  Template_Neff=13.400
+
+Q ss_pred             CceEEEEEEeecCCCCCCCC
+Q tr|E5RFM6|E5RF   82 TGVTLFVALYDYEARTEDDL  101 (103)
+Q Consensus        82 tgvtlfvalydyearteddl  101 (103)
+                      .+++.+.+++++.+...+.+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~   21 (164)
+T 3UF4_A            2 TGVTLFVALYDYEARTEDDL   21 (164)
+T ss_dssp             ---CCEEESSCBCCSSTTBC
+T ss_pred             CceeEEEECcccCCCCCCcC
+Confidence            44555666666655544433
+
+
+No 8
+>5MO4_A Tyrosine-protein kinase ABL1 (E.C.2.7.10.2); Kinase, drug, inhibitor, transferase; HET: AY7, NIL; 2.17A {Homo sapiens}
+Probab=45.09  E-value=48  Score=23.73  Aligned_cols=23  Identities=43%  Similarity=0.699  Sum_probs=16.1  Template_Neff=12.000
+
+Q ss_pred             CCceEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   81 GTGVTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        81 gtgvtlfvalydyearteddlsf  103 (103)
+                      +...-.++++|+|.++..++++|
+T Consensus        40 ~~~~~~~~~l~~~~~~~~~~l~~   62 (495)
+T 5MO4_A           40 ENDPNLFVALYDFVASGDNTLSI   62 (495)
+T ss_dssp             ----CEEEESSCBCCCSTTBCCB
+T ss_pred             CCCCcEEEEeEeEcCCCCCcccc
+Confidence            34556899999999988887764
+
+
+No 9
+>3NHN_A Tyrosine-protein kinase HCK (E.C.2.7.10.2); Hck, SH3-SH2-linker, Src family kinase; 2.61A {Homo sapiens}
+Probab=44.52  E-value=53  Score=20.43  Aligned_cols=19  Identities=63%  Similarity=0.994  Sum_probs=16.0  Template_Neff=11.700
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      ..++++|+|.+...++++|
+T Consensus        10 ~~~~~~~~~~~~~~~~l~~   28 (193)
+T 3NHN_A           10 IIVVALYDYEAIHHEDLSF   28 (193)
+T ss_dssp             CEEEESSCBCCCSTTCCCB
+T ss_pred             eEEEEecCCCCCCCccCCc
+Confidence            4678999999999988875
+
+
+No 10
+>6B9X_A Ragulator complex protein LAMTOR1, Ragulator; Ragulator, Lamtor, SIGNALING PROTEIN; 1.42A {Homo sapiens}
+Probab=42.39  E-value=69  Score=22.36  Aligned_cols=25  Identities=32%  Similarity=0.542  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCC-CCCCCccccccccCCCcccC
+Q tr|E5RFM6|E5RF    1 MGCVQ-CKDKEATKLTEERDGSLNQS   25 (103)
+Q Consensus         1 mgcvq-ckdkeatklteerdgslnqs   25 (103)
+                      |||.- |.+.....-.+||..-|+.+
+T Consensus         1 MG~C~S~~~~~~~~~~~Ert~LL~~~   26 (161)
+T 6B9X_A            1 MGCCYSSENEDSDQDREERKLLLDPS   26 (161)
+T ss_dssp             --------------------------
+T ss_pred             CCCcccCCCCCCCCCcchhHhcCCCC
+Confidence            88876 44432222345776666543
+
+
+No 11
+>3BH7_B ADP-ribosylation factor-like protein 3, Protein; Protein-Protein complex, GTPase Activating protein; HET: GDP; 1.9A {Mus musculus}
+Probab=38.83  E-value=2.6e+02  Score=23.02  Aligned_cols=9  Identities=44%  Similarity=0.947  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCC
+Q tr|E5RFM6|E5RF    1 MGCVQCKDK    9 (103)
+Q Consensus         1 mgcvqckdk    9 (103)
+                      |||..||.+
+T Consensus         3 mgc~~~~~~   11 (352)
+T 3BH7_B            3 MGCFFSKRR   11 (352)
+T ss_dssp             ---------
+T ss_pred             cccccccCC
+Confidence            999999943
+
+
+No 12
+>2BX6_A XRP2 PROTEIN; TRANSDUCTION PROTEIN, RETINITIS PIGMENTOSA, SENSORY; 2.1A {HOMO SAPIENS}
+Probab=38.22  E-value=2.7e+02  Score=22.78  Aligned_cols=9  Identities=44%  Similarity=0.947  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCCC
+Q tr|E5RFM6|E5RF    1 MGCVQCKDK    9 (103)
+Q Consensus         1 mgcvqckdk    9 (103)
+                      |||..||.+
+T Consensus         1 mgc~~~~~~    9 (350)
+T 2BX6_A            1 MGCFFSKRR    9 (350)
+T ss_dssp             ---------
+T ss_pred             CCccccCCC
+Confidence            999999943
+
+
+No 13
+>1TUC_A ALPHA-SPECTRIN; CAPPING PROTEIN, CALCIUM-BINDING, DUPLICATION, SH3; 2.02A {Gallus gallus} SCOP: b.34.2.1
+Probab=37.50  E-value=50  Score=12.07  Aligned_cols=13  Identities=46%  Similarity=0.902  Sum_probs=8.3  Template_Neff=16.000
+
+Q ss_pred             eEEEEEEeecCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEAR   96 (103)
+Q Consensus        84 vtlfvalydyear   96 (103)
+                      .....++|+|+++
+T Consensus        50 ~~~~~~~~~~~~~   62 (63)
+T 1TUC_A           50 KELVLALYDYQEK   62 (63)
+T ss_dssp             SCEEEECSCBCC-
+T ss_pred             cceEEEeeeecCC
+Confidence            3456677888775
+
+
+No 14
+>1OPK_A TRANSFERASE; HET: MYR, P16; 1.8A {Mus musculus} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=37.03  E-value=51  Score=23.62  Aligned_cols=20  Identities=50%  Similarity=0.806  Sum_probs=16.2  Template_Neff=12.000
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      .-+++|+|||.++..++++|
+T Consensus        43 ~~~~~a~~~~~~~~~~~ls~   62 (495)
+T 1OPK_A           43 PNLFVALYDFVASGDNTLSI   62 (495)
+T ss_dssp             -CEEEESSCBCCCSTTBCCB
+T ss_pred             CcEEEEeeeecCCCCCeeee
+Confidence            34789999999998888775
+
+
+No 15
+>2R5Y_A Homeodomain, homeotic proteins, specificity, Developmental; 2.6A {Drosophila melanogaster}
+Probab=35.59  E-value=52  Score=15.27  Aligned_cols=16  Identities=31%  Similarity=0.519  Sum_probs=10.6  Template_Neff=14.000
+
+Q ss_pred             CCCCCCCCCCcccccc
+Q tr|E5RFM6|E5RF   31 GTDPTPQHYPSFGVTS   46 (103)
+Q Consensus        31 gtdptpqhypsfgvts   46 (103)
+                      |+.+++|.||-+-...
+T Consensus         1 ~~~~~~~~~pwm~~~~   16 (88)
+T 2R5Y_A            1 GKKNPPQIYPWMKRVH   16 (88)
+T ss_dssp             CCCCCSSCCGGGSCC-
+T ss_pred             CCCCCCCCCCCcCCcc
+Confidence            4567788898775443
+
+
+No 16
+>2R5Z_A Homeodomain, homeotic proteins, specificity, Developmental; 2.6A {Drosophila melanogaster}
+Probab=35.59  E-value=52  Score=15.27  Aligned_cols=16  Identities=31%  Similarity=0.519  Sum_probs=10.6  Template_Neff=14.000
+
+Q ss_pred             CCCCCCCCCCcccccc
+Q tr|E5RFM6|E5RF   31 GTDPTPQHYPSFGVTS   46 (103)
+Q Consensus        31 gtdptpqhypsfgvts   46 (103)
+                      |+.+++|.||-+-...
+T Consensus         1 ~~~~~~~~~pwm~~~~   16 (88)
+T 2R5Z_A            1 GKKNPPQIYPWMKRVH   16 (88)
+T ss_dssp             -CCCCSSCCGGGSCCC
+T ss_pred             CCCCCCCCCCCcCCcc
+Confidence            4567788898775543
+
+
+No 17
+>2JMC_A chimer, Spc-SH3, P41, SIGNALING PROTEIN; NMR {Gallus gallus}
+Probab=33.50  E-value=75  Score=12.94  Aligned_cols=20  Identities=35%  Similarity=0.680  Sum_probs=14.9  Template_Neff=15.300
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      ......+++++....++++|
+T Consensus        52 ~~~~~~~~~~~~~~~~~~~~   71 (77)
+T 2JMC_A           52 KELVLALYDYQESGDNAPSY   71 (77)
+T ss_dssp             CCEEEESSCCCCSSCCCCCS
+T ss_pred             ccEEEEeecccccCCCCCCC
+Confidence            34667788888888887765
+
+
+No 18
+>5FWA_A PROTEIN ARGININE N-METHYLTRANSFERASE 2 (E.C.2.1.1.125); TRANSFERASE, S-ADENOSYL-L-METHIONINE; HET: PG4, J7C, EDO; 1.8A {MUS MUSCULUS}
+Probab=31.57  E-value=75  Score=24.93  Aligned_cols=19  Identities=53%  Similarity=0.751  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      -.+||++||.+..+++++|
+T Consensus        46 ~~~~~~~~~~~~~~~~~~~   64 (446)
+T 5FWA_A           46 EEFVAIADYTATDETQLSF   64 (446)
+T ss_dssp             -------------------
+T ss_pred             ceEEEEeecCCCCccccce
+Confidence            3489999999988888765
+
+
+No 19
+>5JMQ_A Protein arginine N-methyltransferase 2; TRANSFERASE, S-ADENOSYL L-METHIONINE; HET: PG4, 6LC, EDO; 1.795A {Mus musculus}
+Probab=31.57  E-value=75  Score=24.93  Aligned_cols=19  Identities=53%  Similarity=0.751  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      -.+||++||.+..+++++|
+T Consensus        46 ~~~~~~~~~~~~~~~~~~~   64 (446)
+T 5JMQ_A           46 EEFVAIADYTATDETQLSF   64 (446)
+T ss_dssp             -------------------
+T ss_pred             ceEEEEeecCCCCccccce
+Confidence            3489999999988888765
+
+
+No 20
+>2KXD_A 11-mer peptide, SH3 domain of; alpha spectrin SH3 domain, Spc-S19P20s; NMR {synthetic construct}
+Probab=30.90  E-value=82  Score=13.95  Aligned_cols=15  Identities=53%  Similarity=0.984  Sum_probs=10.7  Template_Neff=14.000
+
+Q ss_pred             CceEEEEEEeecCCC
+Q tr|E5RFM6|E5RF   82 TGVTLFVALYDYEAR   96 (103)
+Q Consensus        82 tgvtlfvalydyear   96 (103)
+                      .......++|||.++
+T Consensus        58 ~~~~~~~~~~~~~~~   72 (73)
+T 2KXD_A           58 TGKELVLALYDYQEK   72 (73)
+T ss_dssp             CCSCEEEESSCBCCC
+T ss_pred             CChhhEeeeeecccC
+Confidence            344567888998875
+
+
+No 21
+>2FO0_A N-terminal cap, autoinhibition, myristoylation, SH3-SH2; HET: MYR, P16, GOL, SEP; 2.27A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=30.55  E-value=90  Score=22.53  Aligned_cols=19  Identities=53%  Similarity=0.880  Sum_probs=15.5  Template_Neff=11.900
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      -.+.++|+|+++..++++|
+T Consensus        41 ~~~~~~~~~~~~~~~~ls~   59 (495)
+T 2FO0_A           41 NLFVALYDFVASGDNTLSI   59 (495)
+T ss_dssp             TEEEESSCBCCCSTTBCCB
+T ss_pred             cEEEEeeeEcCCCCCccee
+Confidence            3589999999998887764
+
+
+No 22
+>6B25_A SH3 and cysteine-rich domain-containing protein; Excitation-contraction coupling, ion channel adaptor; HET: EPE; 2.39A {Homo sapiens}
+Probab=30.33  E-value=1.3e+02  Score=14.75  Aligned_cols=17  Identities=35%  Similarity=0.771  Sum_probs=11.4  Template_Neff=14.100
+
+Q ss_pred             EEEEEeecCCCCCCCCC
+Q tr|E5RFM6|E5RF   86 LFVALYDYEARTEDDLS  102 (103)
+Q Consensus        86 lfvalydyearteddls  102 (103)
+                      .+++++++.+....+++
+T Consensus         5 ~~~~~~~~~~~~~~~~~   21 (118)
+T 6B25_A            5 TYVALYKFVPQENEDLE   21 (118)
+T ss_dssp             EEEESSCBCCSSTTBCC
+T ss_pred             EEEEeeccCCCCCCCCC
+Confidence            46677777777666554
+
+
+No 23
+>1K9A_A Carboxyl-terminal Src kinase(E.C.2.7.1.112); carboxyl-terminal Src kinase, COOH-terminal Src; 2.5A {Rattus norvegicus} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=29.18  E-value=93  Score=21.72  Aligned_cols=20  Identities=35%  Similarity=0.600  Sum_probs=16.4  Template_Neff=12.300
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      +..++++|+|.++.+++++|
+T Consensus        11 ~~~~~~~~~~~~~~~~~l~~   30 (450)
+T 1K9A_A           11 GTECIAKYNFHGTAEQDLPF   30 (450)
+T ss_dssp             TCEEEESSCBCCSSSSBCCB
+T ss_pred             CCeEEEeeeecCCCCCeecc
+Confidence            45688999999998888765
+
+
+No 24
+>1K9A_B Carboxyl-terminal Src kinase(E.C.2.7.1.112); carboxyl-terminal Src kinase, COOH-terminal Src; 2.5A {Rattus norvegicus} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=29.18  E-value=93  Score=21.72  Aligned_cols=20  Identities=35%  Similarity=0.600  Sum_probs=16.4  Template_Neff=12.300
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      +..++++|+|.++.+++++|
+T Consensus        11 ~~~~~~~~~~~~~~~~~l~~   30 (450)
+T 1K9A_B           11 GTECIAKYNFHGTAEQDLPF   30 (450)
+T ss_dssp             TCEEEESSCBCCSSTTBCCB
+T ss_pred             CCeEEEeeeecCCCCCeecc
+Confidence            45688999999998888765
+
+
+No 25
+>1FMK_A TYROSINE-PROTEIN KINASE SRC; SRC, TYROSINE KINASE, PHOSPHORYLATION, SH2; HET: PTR; 1.5A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=28.92  E-value=99  Score=22.00  Aligned_cols=20  Identities=85%  Similarity=1.250  Sum_probs=16.2  Template_Neff=11.900
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      +..+.++|+|.++..+.++|
+T Consensus         2 ~~~~~~~~~~~~~~~~~l~~   21 (452)
+T 1FMK_A            2 VTTFVALYDYESRTETDLSF   21 (452)
+T ss_dssp             CEEEEESSCBCCCSSSBCCB
+T ss_pred             eEEEEECCccCCCCCCccCc
+Confidence            45788999999998887764
+
+
+No 26
+>1Y57_A Proto-oncogene tyrosine-protein kinase Src (E.C.2.7.1.112); Kinase structure, SH3, SH2, TRANSFERASE; HET: SO4, MPZ; 1.91A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1, d.144.1.7
+Probab=28.92  E-value=99  Score=22.00  Aligned_cols=19  Identities=84%  Similarity=1.256  Sum_probs=15.3  Template_Neff=11.900
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      ..+.++|+|.++..+.++|
+T Consensus         3 ~~~~~~~~~~~~~~~~l~~   21 (452)
+T 1Y57_A            3 TTFVALYDYESRTETDLSF   21 (452)
+T ss_dssp             TEEEESSCBCCCSSSBCCB
+T ss_pred             EEEEECCccCCCCCCccCc
+Confidence            4578999999988887764
+
+
+No 27
+>4XI2_A Bruton's Tyrosine Kinase (E.C.2.7.10.2); Kinase, Phosphorylation, Auto-inhibited, B-Cell development; 2.6A {Mus musculus}
+Probab=26.01  E-value=1.3e+02  Score=21.24  Aligned_cols=22  Identities=41%  Similarity=0.635  Sum_probs=16.7  Template_Neff=12.000
+
+Q ss_pred             CceEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   82 TGVTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        82 tgvtlfvalydyearteddlsf  103 (103)
+                      |++-.++++|+|.++.++.++|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~l~~   22 (446)
+T 4XI2_A            1 TELKKVVALYDYMPMNANDLQL   22 (446)
+T ss_dssp             CCCEEEEBSSCBCCSSTTBCCB
+T ss_pred             CCcEEEEECcccCCCCCCccCC
+Confidence            3566788899999888877764
+
+
+No 28
+>1Y8M_A Mitochondria, Fission, UNKNOWN FUNCTION; NMR {Saccharomyces cerevisiae} SCOP: a.118.8.1
+Probab=24.78  E-value=1.2e+02  Score=17.26  Aligned_cols=16  Identities=38%  Similarity=0.598  Sum_probs=10.4  Template_Neff=12.300
+
+Q ss_pred             CCCCeEEecccCCCCc
+Q tr|E5RFM6|E5RF   57 GGQGLTVFGGVNSSSH   72 (103)
+Q Consensus        57 ggqgltvfggvnsssh   72 (103)
+                      +..+..+++++++|||
+T Consensus       128 ~~~~~~~~~~~~~~~~  143 (144)
+T 1Y8M_A          128 TLKGVVVAGGVHHHHH  143 (144)
+T ss_dssp             TTTTCCCCCSCCCCCC
+T ss_pred             CCCceeeeccCCCCCC
+Confidence            4455566777777766
+
+
+No 29
+>4U5W_B HIV-1 Nef Core domain 62-209; Hck, SH3-SH2 regulatory domains, SH3; HET: MPD; 1.86A {Human immunodeficiency virus type 1}
+Probab=24.07  E-value=2e+02  Score=17.02  Aligned_cols=20  Identities=60%  Similarity=0.896  Sum_probs=14.6  Template_Neff=12.400
+
+Q ss_pred             eEEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   84 VTLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        84 vtlfvalydyearteddlsf  103 (103)
+                      ...++++++|.+...++++|
+T Consensus        10 ~~~~~~~~~~~~~~~~~l~~   29 (180)
+T 4U5W_B           10 DIIVVALYDYEAIHHEDLSF   29 (180)
+T ss_dssp             CEEEEESSCBCCCSTTBCCB
+T ss_pred             CEEEEEeCCCCCCCcccCCc
+Confidence            35778888888877777654
+
+
+No 30
+>4U5W_D HIV-1 Nef Core domain 62-209; Hck, SH3-SH2 regulatory domains, SH3; HET: MPD; 1.86A {Human immunodeficiency virus type 1}
+Probab=24.07  E-value=2e+02  Score=17.02  Aligned_cols=19  Identities=63%  Similarity=0.994  Sum_probs=13.8  Template_Neff=12.400
+
+Q ss_pred             EEEEEEeecCCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLSF  103 (103)
+Q Consensus        85 tlfvalydyearteddlsf  103 (103)
+                      ..++++++|.+...++++|
+T Consensus        11 ~~~~~~~~~~~~~~~~l~~   29 (180)
+T 4U5W_D           11 IIVVALYDYEAIHHEDLSF   29 (180)
+T ss_dssp             CEEEESSCBCCCSTTBCCB
+T ss_pred             EEEEEeCCCCCCCcccCCc
+Confidence            4677888888777776653
+
+
+No 31
+>1X27_B Proto-oncogene tyrosine-protein kinase LCK (E.C.2.7.1.112); Lck-Cas complex, LCK phospho-peptide complex; HET: PTR; 2.7A {Homo sapiens} SCOP: d.93.1.1, b.34.2.1
+Probab=21.04  E-value=2.9e+02  Score=15.52  Aligned_cols=18  Identities=39%  Similarity=0.658  Sum_probs=10.8  Template_Neff=13.100
+
+Q ss_pred             EEEEEEeecCCCCCCCCC
+Q tr|E5RFM6|E5RF   85 TLFVALYDYEARTEDDLS  102 (103)
+Q Consensus        85 tlfvalydyearteddls  102 (103)
+                      +.+++++++.....+++.
+T Consensus         5 ~~~~~~~~~~~~~~~~l~   22 (167)
+T 1X27_B            5 NLVIALHSYEPSHDGDLG   22 (167)
+T ss_dssp             CEEEESSCBCCCSTTBCC
+T ss_pred             eEEEEeeecCCCCCCCCc
+Confidence            455666776666655554
+
+

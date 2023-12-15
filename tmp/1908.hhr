@@ -1,0 +1,168 @@
+Query         tr|H0YMT2|H0YMT2_HUMAN
+Match_columns 67
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:50:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1908.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1B9W_A MEROZOITE SURFACE PROTE  30.5      44 0.00048   17.6   0.5   13   10-22     79-91  (95)
+  2 2JS4_A NESG, Northeast Structu  26.2   1E+02  0.0011   15.3   1.3   12   37-48     59-70  (70)
+  3 5K2M_E RimK-related lysine bio  17.7 2.2E+02  0.0024   12.8   1.8   14   17-30     25-38  (53)
+  4 5K2M_F RimK-related lysine bio  17.7 2.2E+02  0.0024   12.8   1.8   14   17-30     25-38  (53)
+  5 6TMG_q ATPTG11, ATPTG7, ATPTG1  15.5 1.1E+02  0.0012   23.1   0.1   22   31-52    107-128 (134)
+  6 6TMK_Q ATPTG11, ATPTG7, ATPTG1  15.5 1.1E+02  0.0012   23.1   0.1   22   31-52    107-128 (134)
+  7 4NK1_A Hemoglobin-like protein  15.4 1.6E+02  0.0018   19.2   0.9   48   13-61     25-72  (193)
+  8 4NK2_A Hemoglobin-like protein  15.4 1.6E+02  0.0018   19.2   0.9   47   14-61     26-72  (193)
+  9 1VD4_A ZINC FINGER, Transcript  14.2 3.5E+02  0.0038   14.0   1.8   17   17-33     43-59  (62)
+ 10 7B5W_A effector binding domain  13.3 2.2E+02  0.0024   14.3   0.9   12   41-52      1-12  (98)
+
+No 1
+>1B9W_A MEROZOITE SURFACE PROTEIN 1; MSP-1, CANDIDATE MALARIA VACCINE, SURFACE; 1.8A {Plasmodium cynomolgi} SCOP: g.3.11.4
+Probab=30.54  E-value=44  Score=17.58  Aligned_cols=13  Identities=31%  Similarity=0.376  Sum_probs=9.5  Template_Neff=11.000
+
+Q ss_pred             CCCcCCCCCCcce
+Q tr|H0YMT2|H0YM   10 SGRAANNVNCGLH   22 (67)
+Q Consensus        10 sgraannvncglh   22 (67)
+                      .|...||+|||-|
+T Consensus        79 ~g~~~~~~~~~~~   91 (95)
+T 1B9W_A           79 SEPLFEGVFCSHH   91 (95)
+T ss_dssp             EEEEGGGTEEEEC
+T ss_pred             ccCccCeeeeccc
+Confidence            4677788888754
+
+
+No 2
+>2JS4_A NESG, Northeast Structural Genomics Consortium; NMR {Bordetella bronchiseptica RB50}
+Probab=26.21  E-value=1e+02  Score=15.32  Aligned_cols=12  Identities=8%  Similarity=0.138  Sum_probs=6.1  Template_Neff=10.900
+
+Q ss_pred             chhhcchccCCC
+Q tr|H0YMT2|H0YM   37 KADRMSYHQWGR   48 (67)
+Q Consensus        37 kadrmsyhqwgr   48 (67)
+                      -...+.|+||++
+T Consensus        59 ~~~~~~~~~~~~   70 (70)
+T 2JS4_A           59 AQPSLEHHHHHH   70 (70)
+T ss_dssp             CCCCCSCCCCCC
+T ss_pred             CCcccCCccCCC
+Confidence            334455566553
+
+
+No 3
+>5K2M_E RimK-related lysine biosynthesis protein, Probable; ATP-dependent amine/thiol ligase family Amino-group; HET: ADP, SO4, PO4, UN1; 2.18A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=17.72  E-value=2.2e+02  Score=12.76  Aligned_cols=14  Identities=21%  Similarity=0.342  Sum_probs=8.6  Template_Neff=11.500
+
+Q ss_pred             CCCcceeEEeCCCC
+Q tr|H0YMT2|H0YM   17 VNCGLHLVIQTSSL   30 (67)
+Q Consensus        17 vncglhlviqtssl   30 (67)
+                      -+||.++.+...+.
+T Consensus        25 ~~C~~~~~~~~~~~   38 (53)
+T 5K2M_E           25 PVCGAELEVVSLEP   38 (53)
+T ss_dssp             TTTCCEEEEEEETT
+T ss_pred             CCCCCEEEEeeCCC
+Confidence            36777776655443
+
+
+No 4
+>5K2M_F RimK-related lysine biosynthesis protein, Probable; ATP-dependent amine/thiol ligase family Amino-group; HET: ADP, SO4, PO4, UN1; 2.18A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=17.72  E-value=2.2e+02  Score=12.76  Aligned_cols=14  Identities=21%  Similarity=0.342  Sum_probs=9.0  Template_Neff=11.500
+
+Q ss_pred             CCCcceeEEeCCCC
+Q tr|H0YMT2|H0YM   17 VNCGLHLVIQTSSL   30 (67)
+Q Consensus        17 vncglhlviqtssl   30 (67)
+                      -+||.++.+...+.
+T Consensus        25 ~~C~~~~~~~~~~~   38 (53)
+T 5K2M_F           25 PVCGAELEVVSLEP   38 (53)
+T ss_dssp             TTTCCEEEEEETTT
+T ss_pred             CCCCCEEEEeeCCC
+Confidence            46787777665544
+
+
+No 5
+>6TMG_q ATPTG11, ATPTG7, ATPTG14, ATPTG5, subunit; mitochondrial, ATP synthase, membrane region; HET: PC1, LMT, CDL, PEE; 2.8A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=15.45  E-value=1.1e+02  Score=23.05  Aligned_cols=22  Identities=32%  Similarity=0.442  Sum_probs=17.2  Template_Neff=2.200
+
+Q ss_pred             CCCCCCchhhcchccCCCCCch
+Q tr|H0YMT2|H0YM   31 PEKNKTKADRMSYHQWGRPPSF   52 (67)
+Q Consensus        31 peknktkadrmsyhqwgrppsf   52 (67)
+                      .-+.+++..|.---|||++||.
+T Consensus       107 D~~~~e~D~R~k~Lqy~~vPSI  128 (134)
+T 6TMG_q          107 DLKQAEDDQRYKQLQYGRVPSI  128 (134)
+T ss_pred             ChhhhhhcHHHHHHhccCCCcH
+Confidence            3345677778888899999997
+
+
+No 6
+>6TMK_Q ATPTG11, ATPTG7, ATPTG14, Uncharacterized protein; mitochondrial, ATP synthase, dimer, lipids; HET: PC1, LMT, PEE, ADP, CDL, ATP; 2.9A {Toxoplasma gondii (strain ATCC 50853 / GT1)}
+Probab=15.45  E-value=1.1e+02  Score=23.05  Aligned_cols=22  Identities=32%  Similarity=0.442  Sum_probs=17.2  Template_Neff=2.200
+
+Q ss_pred             CCCCCCchhhcchccCCCCCch
+Q tr|H0YMT2|H0YM   31 PEKNKTKADRMSYHQWGRPPSF   52 (67)
+Q Consensus        31 peknktkadrmsyhqwgrppsf   52 (67)
+                      .-+.+++..|.---|||++||.
+T Consensus       107 D~~~~e~D~R~k~Lqy~~vPSI  128 (134)
+T 6TMK_Q          107 DLKQAEDDQRYKQLQYGRVPSI  128 (134)
+T ss_pred             ChhhhhhcHHHHHHhccCCCcH
+Confidence            3345677778888899999997
+
+
+No 7
+>4NK1_A Hemoglobin-like protein; Truncated, Hemoglobins, Phosphate-bound, Heme, Truncated; HET: PO4, HEM; 2.21A {Methylacidiphilum infernorum}
+Probab=15.38  E-value=1.6e+02  Score=19.18  Aligned_cols=48  Identities=6%  Similarity=-0.056  Sum_probs=21.3  Template_Neff=9.200
+
+Q ss_pred             cCCCCCCcceeEEeCCCCCCCCCCchhhcchccCCCCCchhhhhhhccc
+Q tr|H0YMT2|H0YM   13 AANNVNCGLHLVIQTSSLPEKNKTKADRMSYHQWGRPPSFVELSTQFYN   61 (67)
+Q Consensus        13 aannvncglhlviqtsslpeknktkadrmsyhqwgrppsfvelstqfyn   61 (67)
+                      ..+...|+++.+..--............--|...| .+.+.++...||.
+T Consensus        25 ~~~~~~~~~~~~~a~~~~~~~~~~~~~~~l~~rlG-~~~i~~~v~~fy~   72 (193)
+T 4NK1_A           25 REKKTAESGSICEARIDFVFPEVKFPSKKVYLAAG-EELLRKLVEVHHE   72 (193)
+T ss_dssp             --------CCEECCBCSCCBCCEECCCTHHHHHHC-HHHHHHHHHHHHH
+T ss_pred             cccccccCCceeecccccCCCCCCCCCCcHHHHHc-HHHHHHHHHHHHH
+Confidence            33336788877743332222111112233466677 7777777777774
+
+
+No 8
+>4NK2_A Hemoglobin-like protein; Truncated, Hemoglobins, Heme, Truncated hemoglobin; HET: HEM; 1.96A {Methylacidiphilum infernorum}
+Probab=15.38  E-value=1.6e+02  Score=19.18  Aligned_cols=47  Identities=6%  Similarity=-0.053  Sum_probs=20.9  Template_Neff=9.200
+
+Q ss_pred             CCCCCCcceeEEeCCCCCCCCCCchhhcchccCCCCCchhhhhhhccc
+Q tr|H0YMT2|H0YM   14 ANNVNCGLHLVIQTSSLPEKNKTKADRMSYHQWGRPPSFVELSTQFYN   61 (67)
+Q Consensus        14 annvncglhlviqtsslpeknktkadrmsyhqwgrppsfvelstqfyn   61 (67)
+                      .+...|+++.+..--............--|...| .+.+.++...||.
+T Consensus        26 ~~~~~~~~~~~~a~~~~~~~~~~~~~~~l~~rlG-~~~i~~~v~~fy~   72 (193)
+T 4NK2_A           26 EKKTAESGSICEARIDFVFPEVKFPSKKVYLAAG-EELLRKLVEVHHE   72 (193)
+T ss_dssp             ----CCTTCEECCEESCEECCEECCCTHHHHHHH-HHHHHHHHHHHHH
+T ss_pred             ccccccCCceeecccccCCCCCCCCCCcHHHHHc-HHHHHHHHHHHHH
+Confidence            3336778777632221111111111223455666 6667777777764
+
+
+No 9
+>1VD4_A ZINC FINGER, Transcription; HET: ZN; NMR {Homo sapiens} SCOP: g.41.3.1
+Probab=14.25  E-value=3.5e+02  Score=14.00  Aligned_cols=17  Identities=24%  Similarity=0.436  Sum_probs=12.2  Template_Neff=9.600
+
+Q ss_pred             CCCcceeEEeCCCCCCC
+Q tr|H0YMT2|H0YM   17 VNCGLHLVIQTSSLPEK   33 (67)
+Q Consensus        17 vncglhlviqtsslpek   33 (67)
+                      -+||..+.+...+.+.+
+T Consensus        43 p~Cg~~l~~~~~~~~~~   59 (62)
+T 1VD4_A           43 TFCHTEVEEDESAMPKK   59 (62)
+T ss_dssp             SSSCCBCEECTTCSCCC
+T ss_pred             CCCCCEeEeCccCCCcc
+Confidence            57888888877766544
+
+
+No 10
+>7B5W_A effector binding domain, RCK_C, DNA; 1.0A {Streptococcus agalactiae}
+Probab=13.31  E-value=2.2e+02  Score=14.28  Aligned_cols=12  Identities=17%  Similarity=0.351  Sum_probs=5.8  Template_Neff=11.900
+
+Q ss_pred             cchccCCCCCch
+Q tr|H0YMT2|H0YM   41 MSYHQWGRPPSF   52 (67)
+Q Consensus        41 msyhqwgrppsf   52 (67)
+                      |+||+..-...+
+T Consensus         1 ~~~~~~~~~~~~   12 (98)
+T 7B5W_A            1 MAHHHHHHSAAL   12 (98)
+T ss_dssp             -CCTTSCCCHHH
+T ss_pred             CCCcccccccch
+Confidence            566665544433
+
+

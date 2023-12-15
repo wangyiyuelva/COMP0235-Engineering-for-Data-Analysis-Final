@@ -1,0 +1,179 @@
+Query         tr|E5RHA3|E5RHA3_HUMAN
+Match_columns 345
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:04:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1491.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XSV_D Chitinase (E.C.3.2.1.14  53.0      70 0.00076   34.0   6.1   65  234-302   393-457 (486)
+  2 5XSW_A Chitinase (E.C.3.2.1.14  53.0      70 0.00076   34.0   6.1   65  234-302   393-457 (486)
+  3 4XGL_A Mitochondrial ribonucle  40.4 2.4E+02  0.0026   25.0   6.5   51  272-322    56-109 (379)
+  4 4XGM_A Mitochondrial ribonucle  40.4 2.4E+02  0.0026   25.0   6.5   50  272-321    56-108 (379)
+  5 6NU2_AV 39S ribosomal protein   30.7 7.1E+02  0.0077   23.4   8.7   49  259-307    74-122 (365)
+  6 4L3U_A Uncharacterized protein  25.8 2.9E+02  0.0031   23.9   4.6   61  257-317    37-105 (139)
+  7 5AZ6_A Maltose-binding peripla  22.4 7.8E+02  0.0085   21.0   9.2   84  246-334   340-432 (433)
+  8 6IGM_H RuvB-like 1 (E.C.3.6.4.  21.7      29 0.00032   43.8  -2.4   38   13-54    187-226 (3230)
+  9 4I17_A hypothetical protein; T  21.1 5.4E+02  0.0058   18.6   4.8   31  274-304   135-165 (228)
+ 10 7AM2_Am Ribosomal protein L3-l  19.4 9.8E+02   0.011   21.0   6.6   30  272-301   160-189 (340)
+
+No 1
+>5XSV_D Chitinase (E.C.3.2.1.14); chitinase, HYDROLASE; HET: SO4, CO; 3.723A {Thermococcus chitonophagus}
+Probab=53.04  E-value=70  Score=34.01  Aligned_cols=65  Identities=23%  Similarity=0.316  Sum_probs=51.9  Template_Neff=4.800
+
+Q ss_pred             CCCCCChHHHHHHHHHHHHhhhhhccCCCChhHHHHHHHHHHHHHHHHHHhCCCCchhHHHHHHHHHHH
+Q tr|E5RHA3|E5RH  234 EDDTITNEKAHSILNFLKSTQEMYFYDGVSRDAASAALADAAEELLDRLASHSMLPSDVSILYHMKTLL  302 (345)
+Q Consensus       234 eddtitnekahsilnflkstqemyfydgvsrdaasaaladaaeelldrlashsmlpsdvsilyhmktll  302 (345)
+                      =|..||-+   -|.+||...+.+|..-|+.-++--.++-..+....|.|++|+ .-.-+|.-|.+.+||
+T Consensus       393 YD~~ITw~---DV~~Yl~~L~~~Y~~~G~~sd~dw~~i~~~Vk~AFD~l~~~~-g~~tISFRYDfg~VL  457 (486)
+T 5XSV_D          393 YDANLTWD---DIEYFFTVVRQKFFRPGAISDEEWNAMMRDVKRAYDLLSQHW-GGDHISYRYDFLTIL  457 (486)
+T ss_dssp             CCCEECHH---HHHHHHHHHHHHSSCTTSSCHHHHHHHHHHHHHHHHHTTTTT-TSSCEEHHHHHHHHH
+T ss_pred             cccCCCHH---HHHHHHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHHHHhhc-CCCceehHHhHHHHH
+Confidence            35556654   366777777778877899888888899999999999999986 456788999998876
+
+
+No 2
+>5XSW_A Chitinase (E.C.3.2.1.14); chitinase, HYDROLASE; HET: GOL, NAG, PO4, NDG; 1.95A {Thermococcus chitonophagus}
+Probab=53.04  E-value=70  Score=34.01  Aligned_cols=65  Identities=23%  Similarity=0.316  Sum_probs=52.0  Template_Neff=4.800
+
+Q ss_pred             CCCCCChHHHHHHHHHHHHhhhhhccCCCChhHHHHHHHHHHHHHHHHHHhCCCCchhHHHHHHHHHHH
+Q tr|E5RHA3|E5RH  234 EDDTITNEKAHSILNFLKSTQEMYFYDGVSRDAASAALADAAEELLDRLASHSMLPSDVSILYHMKTLL  302 (345)
+Q Consensus       234 eddtitnekahsilnflkstqemyfydgvsrdaasaaladaaeelldrlashsmlpsdvsilyhmktll  302 (345)
+                      =|..||-+   -|.+||...+.+|..-|+.-++--.++-..+....|.|++|+ .-.-+|.-|.+.+||
+T Consensus       393 YD~~ITw~---DV~~Yl~~L~~~Y~~~G~~sd~dw~~i~~~Vk~AFD~l~~~~-g~~tISFRYDfg~VL  457 (486)
+T 5XSW_A          393 YDANLTWD---DIEYFFTVVRQKFFRPGAISDEEWNAMMRDVKRAYDLLSQHW-GGDHISYRYDFLTIL  457 (486)
+T ss_dssp             CCCEECHH---HHHHHHHHHHHHSSCTTSSCHHHHHHHHHHHHHHHHHHHGGG-TSSCEEHHHHHHHHH
+T ss_pred             cccCCCHH---HHHHHHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHHHHhhc-CCCceehHHhHHHHH
+Confidence            45566654   366777777778877899888888899999999999999986 456788999998876
+
+
+No 3
+>4XGL_A Mitochondrial ribonuclease P protein 3; PPR domain, zinc binding domain; HET: GOL; 1.8A {Homo sapiens}
+Probab=40.44  E-value=2.4e+02  Score=24.96  Aligned_cols=51  Identities=16%  Similarity=0.197  Sum_probs=33.5  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHhCCCCchhHHHHHHHHHHHHhCC---HHHHHHHHHHChHHcC
+Q tr|E5RHA3|E5RH  272 ADAAEELLDRLASHSMLPSDVSILYHMKTLLLLQD---TERLKHALEMFPEHCT  322 (345)
+Q Consensus       272 adaaeelldrlashsmlpsdvsilyhmktllllqd---terlkhalemfpehct  322 (345)
+                      .+.|.++++.+......|........+..+.-..+   .+.....++.+.....
+T Consensus        56 ~~~a~~l~~~m~~~~~~p~~~~~~~ll~~~~~~~~~~~~~~~~~ll~~m~~~~~  109 (379)
+T 4XGL_A           56 VNTAWNLYQELLGHDIVPMLETLKAFFDFGKDIKDDNYSNKLLDILSYLRNNQL  109 (379)
+T ss_dssp             HHHHHHHHHHHHHTTCCCCHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHhcCCccHHHHHHHHHHHHHHCCC
+Confidence            35678899999998888887766666666555555   4555555554444433
+
+
+No 4
+>4XGM_A Mitochondrial ribonuclease P protein 3; PPR domain, zinc binding domain; HET: GOL; 1.98A {Homo sapiens}
+Probab=40.44  E-value=2.4e+02  Score=24.96  Aligned_cols=50  Identities=16%  Similarity=0.210  Sum_probs=33.1  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHhCCCCchhHHHHHHHHHHHHhCC---HHHHHHHHHHChHHc
+Q tr|E5RHA3|E5RH  272 ADAAEELLDRLASHSMLPSDVSILYHMKTLLLLQD---TERLKHALEMFPEHC  321 (345)
+Q Consensus       272 adaaeelldrlashsmlpsdvsilyhmktllllqd---terlkhalemfpehc  321 (345)
+                      .+.|.++++.+......|........+..+.-..+   .+.....++.+....
+T Consensus        56 ~~~a~~l~~~m~~~~~~p~~~~~~~ll~~~~~~~~~~~~~~~~~ll~~m~~~~  108 (379)
+T 4XGM_A           56 VNTAWNLYQELLGHDIVPMLETLKAFFDFGKDIKDDNYSNKLLDILSYLRNNQ  108 (379)
+T ss_dssp             HHHHHHHHHHHHHTTCCCCHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHhcCCccHHHHHHHHHHHHHHCC
+Confidence            35678899999998888887766666666555555   455555555444443
+
+
+No 5
+>6NU2_AV 39S ribosomal protein L2, mitochondrial; mitochondrial ribosome recycling Factor, mtRRF; HET: MG; 3.9A {Homo sapiens}
+Probab=30.74  E-value=7.1e+02  Score=23.36  Aligned_cols=49  Identities=12%  Similarity=0.100  Sum_probs=31.2  Template_Neff=9.000
+
+Q ss_pred             cCCCChhHHHHHHHHHHHHHHHHHHhCCCCchhHHHHHHHHHHHHhCCH
+Q tr|E5RHA3|E5RH  259 YDGVSRDAASAALADAAEELLDRLASHSMLPSDVSILYHMKTLLLLQDT  307 (345)
+Q Consensus       259 ydgvsrdaasaaladaaeelldrlashsmlpsdvsilyhmktllllqdt  307 (345)
+                      |.++-+-....--.+.|.++++.+......|+.++.-.-|..++--.+.
+T Consensus        74 ~~~lir~~~~~g~~~~a~~ll~~m~~~Gi~pd~~tyn~Lm~~l~~~g~~  122 (365)
+T 6NU2_AV          74 IHTWIRQCLKYDAQDKALYTLVNKVQYGIFPDNFTFNLLMDSFIKKENY  122 (365)
+T ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHCCCH
+Confidence            3444444444444567788888888888888887766666665544433
+
+
+No 6
+>4L3U_A Uncharacterized protein; PF1209 family protein, DUF 3571; 1.95A {Acinetobacter baumannii}
+Probab=25.76  E-value=2.9e+02  Score=23.89  Aligned_cols=61  Identities=18%  Similarity=0.247  Sum_probs=39.0  Template_Neff=6.900
+
+Q ss_pred             hccCCCChhHHHHHHHHHHHHHHHHHHhCCC---CchhHHHHHHHHHHHHh-----CCHHHHHHHHHHC
+Q tr|E5RHA3|E5RH  257 YFYDGVSRDAASAALADAAEELLDRLASHSM---LPSDVSILYHMKTLLLL-----QDTERLKHALEMF  317 (345)
+Q Consensus       257 yfydgvsrdaasaaladaaeelldrlashsm---lpsdvsilyhmktllll-----qdterlkhalemf  317 (345)
+                      ++|.|++.......+..+...+++.|.+..-   -|+.-.++-.++..+--     -|||.-.+..+.|
+T Consensus        37 ~~y~Gl~~~e~r~~l~~~vn~~id~Li~~~~~~~~~t~~~~l~~~~~~l~~~~~~~~DTEERE~i~~~~  105 (139)
+T 4L3U_A           37 QLYTGVQNSALRMSLNQKVADTAQAFIALYQQKNEPTKAELLQVLANGISQIDPDKLDTEDREQVATTF  105 (139)
+T ss_dssp             SSCCBCCCHHHHHHHHHHHHHHHHHHHHHHHHCSSCCHHHHHHHHHHHHHTSCGGGSCHHHHHHHHHHH
+T ss_pred             cccCCCCCHHHHHHHHHHHHHHHHHHHHHHHccCCCCHHHHHHHHHHHHHcCCcccCCHHHHHHHHHHH
+Confidence            7899998888777777777777777765442   36666666666655432     3555544444444
+
+
+No 7
+>5AZ6_A Maltose-binding periplasmic protein,Mitochondrial import receptor; Fusion protein, SUGAR BINDING PROTEIN; HET: GLC; 2.56A {Escherichia coli (strain K12)}
+Probab=22.35  E-value=7.8e+02  Score=21.01  Aligned_cols=84  Identities=14%  Similarity=0.164  Sum_probs=46.5  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHhhhhhccCCCChhHHHHHHHHHHHHHHHHHHhCCCCchh--------HHHHHHH-HHHHHhCCHHHHHHHHHH
+Q tr|E5RHA3|E5RH  246 ILNFLKSTQEMYFYDGVSRDAASAALADAAEELLDRLASHSMLPSD--------VSILYHM-KTLLLLQDTERLKHALEM  316 (345)
+Q Consensus       246 ilnflkstqemyfydgvsrdaasaaladaaeelldrlashsmlpsd--------vsilyhm-ktllllqdterlkhalem  316 (345)
+                      +.+.+...-.-++..+.+.+.+...+.+.+.++|+++.....-...        .--..|+ ..|...+...+|...+. 
+T Consensus       340 ~~~~~~~~~~~~~~g~~~~~~a~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~l~~~~~~~~~~~~~~-  418 (433)
+T 5AZ6_A          340 FWYAVRTAVINAASGRQTVDEALKDAQTRIKEAVQKFFLEEIQLGEELLAQGDYEKGVDHLTNAIAVCGQPQQLLQVLQ-  418 (433)
+T ss_dssp             HHHHHHHHHHHHHHTSSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHTCSSHHHHHHHHH-
+T ss_pred             HHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCHHHhHHHHHHHHHHcCCHHHHHHHHH-
+Confidence            3344445555667777888888888888888888776532211000        0111222 23333344444444433 
+
+
+Q ss_pred             ChHHcCCChhHHHHHHhc
+Q tr|E5RHA3|E5RH  317 FPEHCTMPPGVLSRLKAK  334 (345)
+Q Consensus       317 fpehctmppgvlsrlkak  334 (345)
+                          -++||.|.+.|-.|
+T Consensus       419 ----~~~~~~~~~~~~~~  432 (433)
+T 5AZ6_A          419 ----QTLPPPVFQMLLTK  432 (433)
+T ss_dssp             ----HHSCHHHHHHHHHH
+T ss_pred             ----HhCCHHHHHHHHhc
+Confidence                46888888877543
+
+
+No 8
+>6IGM_H RuvB-like 1 (E.C.3.6.4.12), RuvB-like 2; SRCAP complex, TRANSCRIPTION; 4.0A {Homo sapiens}
+Probab=21.75  E-value=29  Score=43.77  Aligned_cols=38  Identities=42%  Similarity=0.492  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             CCCCCCCCCC--CCCCCCCCCCCCccccHHHHHHHhhhhhhccc
+Q tr|E5RHA3|E5RH   13 DQPKRRRIRK--HKSKKKFKNPNNVLIEQAELEKQQSLLQEKSQ   54 (345)
+Q Consensus        13 dqpkrrrirk--hkskkkfknpnnvlieqaelekqqsllqeksq   54 (345)
+                      .|+|.|||-.  .|--+.|. - |  +|+.-.-|||+.|.||-.
+T Consensus       187 ~~~k~~~~~~~~~~~~~~~~-~-~--~~~~~~~~~~~~~~e~~k  226 (3230)
+T 6IGM_H          187 EQAKLRRIASTMAKDVRQFW-S-N--VEKVVQFKQQSRLEEKRK  226 (3230)
+T ss_dssp             --------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHH-H-h--HHHHHHHHHHHHHHHHHH
+Confidence            4566666522  22334454 1 2  233444688888888755
+
+
+No 9
+>4I17_A hypothetical protein; TPR repeats protein, Structural Genomics; HET: SO4, MSE; 1.83A {Bacteroides fragilis}
+Probab=21.11  E-value=5.4e+02  Score=18.65  Aligned_cols=31  Identities=19%  Similarity=0.172  Sum_probs=15.4  Template_Neff=13.000
+
+Q ss_pred             HHHHHHHHHHhCCCCchhHHHHHHHHHHHHh
+Q tr|E5RHA3|E5RH  274 AAEELLDRLASHSMLPSDVSILYHMKTLLLL  304 (345)
+Q Consensus       274 aaeelldrlashsmlpsdvsilyhmktllll  304 (345)
+                      .|.+++.++......|....+++.+-.+++.
+T Consensus       135 ~A~~~~~~~~~~~~~~~~~~~~~~l~~~~~~  165 (228)
+T 4I17_A          135 KAEENYKHATDVTSKKWKTDALYSLGVLFYN  165 (228)
+T ss_dssp             HHHHHHHHHTTSSCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhCCCcCchHHHHHHHHHHHh
+Confidence            3455555555443345555555555444443
+
+
+No 10
+>7AM2_Am Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=19.41  E-value=9.8e+02  Score=21.00  Aligned_cols=30  Identities=20%  Similarity=0.297  Sum_probs=16.2  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHhCCCCchhHHHHHHHHHH
+Q tr|E5RHA3|E5RH  272 ADAAEELLDRLASHSMLPSDVSILYHMKTL  301 (345)
+Q Consensus       272 adaaeelldrlashsmlpsdvsilyhmktl  301 (345)
+                      -+.|.++++.+....+.|+..+.-.-+..+
+T Consensus       160 ~~~A~~l~~~m~~~g~~p~~~t~~~li~~~  189 (340)
+T 7AM2_Am         160 YEQAEQLFKEMETLGLEPNAQSYVNMMLAA  189 (340)
+T ss_pred             HHHHHHHHHHHHHhCCCCCHHHHHHHHHHH
+Confidence            345666777766666556554433333333
+
+

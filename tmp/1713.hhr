@@ -1,0 +1,375 @@
+Query         tr|Q5JX65|Q5JX65_HUMAN
+Match_columns 88
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:10:46 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1713.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3D46_H Putative galactonate de  37.4      44 0.00047   25.0   1.5   25   25-49    368-392 (405)
+  2 3D47_E Putative galactonate de  37.4      44 0.00047   25.0   1.5   25   25-49    368-392 (405)
+  3 1BW9_A PHENYLALANINE DEHYDROGE  37.1 1.4E+02  0.0015   22.3   3.9   32   25-56     17-49  (356)
+  4 7ROY_H Complex, Redox sensor,   28.1      89 0.00097   19.4   1.5   22    5-26      4-25  (31)
+  5 6VKS_A Efflux pump membrane tr  25.5 1.3E+02  0.0014   24.4   2.3   49   21-69     30-78  (1049)
+  6 1C1D_B L-PHENYLALANINE DEHYDRO  25.5 2.8E+02   0.003   20.7   3.9   32   24-55     15-47  (355)
+  7 1C1X_B L-PHENYLALANINE DEHYDRO  25.3 2.8E+02   0.003   20.8   3.9   32   25-56     16-48  (355)
+  8 4MT1_A Drug efflux protein; tr  24.9 1.1E+02  0.0012   24.6   1.8   49   21-69     30-78  (1056)
+  9 6VKT_A Efflux pump membrane tr  24.0 1.5E+02  0.0016   24.2   2.4   49   21-69     30-78  (1046)
+ 10 5MMJ_u 50S ribosomal protein L  23.1      70 0.00075   24.6   0.5   13   28-43    164-176 (180)
+ 11 5MMM_u 50S ribosomal protein L  23.1      70 0.00075   24.6   0.5   13   28-43    164-176 (180)
+ 12 5LQ3_B CmeB; transmembrane pro  22.9 1.2E+02  0.0013   24.1   1.8   48   21-68     31-78  (1035)
+ 13 5LQ3_F CmeB; transmembrane pro  22.9 1.2E+02  0.0013   24.1   1.8   48   21-68     31-78  (1035)
+ 14 5B37_B Tryptophan dehydrogenas  22.7 3.3E+02  0.0036   19.9   3.8   31   27-57     20-51  (361)
+ 15 5MKD_B Uncharacterized protein  22.5 1.6E+02  0.0018   21.9   2.3   24   24-47     24-47  (124)
+ 16 5MKD_D Uncharacterized protein  22.5 1.6E+02  0.0018   21.9   2.3   23   25-47     25-47  (124)
+ 17 3VPX_A Leucine dehydrogenase (  22.1 3.4E+02  0.0037   19.9   3.7   30   26-55     19-49  (364)
+ 18 6L2E_B Tyrosinase (E.C.1.14.18  20.9 3.1E+02  0.0033   16.8   2.9   24   57-80     62-85  (118)
+ 19 4GFI_B Mandelate racemase/muco  20.8 1.2E+02  0.0013   21.8   1.3   13   33-47    317-329 (329)
+ 20 4GFI_C Mandelate racemase/muco  20.8 1.2E+02  0.0013   21.8   1.3   13   33-47    317-329 (329)
+ 21 4BHU_B UNCHARACTERIZED PROTEIN  20.5 1.8E+02  0.0019   22.0   2.1   23   25-47     29-51  (130)
+ 22 4BHU_C UNCHARACTERIZED PROTEIN  20.5 1.8E+02  0.0019   22.0   2.1   23   25-47     29-51  (130)
+ 23 1LEH_B LEUCINE DEHYDROGENASE;   20.5 3.8E+02  0.0042   20.0   3.8   31   25-55     18-49  (364)
+
+No 1
+>3D46_H Putative galactonate dehydratase; Structural Genomics, NYSGXRC, target 9265a; HET: TLA; 1.9A {Salmonella typhimurium LT2}
+Probab=37.36  E-value=44  Score=24.96  Aligned_cols=25  Identities=24%  Similarity=0.477  Sum_probs=18.2  Template_Neff=9.700
+
+Q ss_pred             eeccccCcceEEEEECCCCCCCCce
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLPEGPGLGPA   49 (88)
+Q Consensus        25 fvseedevdgwliidlpegpglgpa   49 (88)
+                      |....-..||++.+.+|++||+|-.
+T Consensus       368 ~~~~~~~~~G~~~~~~p~~pGlG~~  392 (405)
+T 3D46_H          368 LLDEPVPVNGRIHKSVLDKPGFGVE  392 (405)
+T ss_dssp             EETCCCCBTTEEEGGGGCSSBTSCE
+T ss_pred             hCCCCCccCCEEecCCCCCCcccce
+Confidence            4444445799988777899999963
+
+
+No 2
+>3D47_E Putative galactonate dehydratase; Structural Genomics, NYSGXRC, L-RHAMNONATE DEHYDRATASE; HET: MLT; 1.8A {Salmonella typhimurium LT2}
+Probab=37.36  E-value=44  Score=24.96  Aligned_cols=25  Identities=24%  Similarity=0.477  Sum_probs=18.3  Template_Neff=9.700
+
+Q ss_pred             eeccccCcceEEEEECCCCCCCCce
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLPEGPGLGPA   49 (88)
+Q Consensus        25 fvseedevdgwliidlpegpglgpa   49 (88)
+                      |....-..||++.+.+|++||+|-.
+T Consensus       368 ~~~~~~~~~G~~~~~~p~~pGlG~~  392 (405)
+T 3D47_E          368 LLDEPVPVNGRIHKSVLDKPGFGVE  392 (405)
+T ss_dssp             EETCCCCBTTEEEGGGGCSSBTSCE
+T ss_pred             hCCCCCccCCEEecCCCCCCcccce
+Confidence            4444445799988777899999963
+
+
+No 3
+>1BW9_A PHENYLALANINE DEHYDROGENASE, NICOTINAMIDE-ADENINE-DINUCLEOTIDE, 2-OXO-3-PHENYLPROPIONIC ACID; AMINO ACID DEHYDROGENASE, OXIDATIVE DEAMINATION; HET: PPY, NAD, EDO, IPA; 1.5A {Rhodococcus sp.} SCOP: c.2.1.7, c.58.1.1
+Probab=37.09  E-value=1.4e+02  Score=22.33  Aligned_cols=32  Identities=16%  Similarity=0.093  Sum_probs=23.4  Template_Neff=9.400
+
+Q ss_pred             eeccccCcceEEEEECC-CCCCCCceeecCCcH
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLP-EGPGLGPARLQSSPL   56 (88)
+Q Consensus        25 fvseedevdgwliidlp-egpglgparlqsspl   56 (88)
+                      |...+....||++|+.. .||..|.-|+....-
+T Consensus        17 ~~~~~~~~~g~~~i~~~~~g~~~GG~R~~~~~~   49 (356)
+T 1BW9_A           17 RFDSMTGAHFVIRLDSTQLGPAAGGTRAAQYSN   49 (356)
+T ss_dssp             EEETTTTEEEEEEEEECSSSSEECCEEEECCSS
+T ss_pred             EEeCCCCeEEEEEEeCCCCCCCcceEEEeCCCC
+Confidence            34444568899999865 588889999877643
+
+
+No 4
+>7ROY_H Complex, Redox sensor, Stress response; HET: EPE; 2.9A {Mus musculus}
+Probab=28.11  E-value=89  Score=19.37  Aligned_cols=22  Identities=27%  Similarity=0.588  Sum_probs=17.5  Template_Neff=1.900
+
+Q ss_pred             cccccCCCCCCCCCCCCCceee
+Q tr|Q5JX65|Q5JX    5 LSSLFFSTPSPPEDPDCPRAFV   26 (88)
+Q Consensus         5 lsslffstpsppedpdcprafv   26 (88)
+                      -++|.|..+.+-++|+|+--+.
+T Consensus         4 ~~~lL~~e~Ee~rtpnc~ckyc   25 (31)
+T 7ROY_H            4 KSSLLFKESEETRTPNCNCKYC   25 (31)
+T ss_pred             hhhcccCCCccccCCCCCCccc
+Confidence            3678899999999999986543
+
+
+No 5
+>6VKS_A Efflux pump membrane transporter; Drug, efflux, pump, MtrD, MEMBRANE; HET: AIX, PTY; 3.02A {Neisseria gonorrhoeae}
+Probab=25.55  E-value=1.3e+02  Score=24.39  Aligned_cols=49  Identities=10%  Similarity=-0.105  Sum_probs=41.4  Template_Neff=11.300
+
+Q ss_pred             CCceeeccccCcceEEEEECCCCCCCCceeecCCcHHHhhhcCCCeEEE
+Q tr|Q5JX65|Q5JX   21 CPRAFVSEEDEVDGWLIIDLPEGPGLGPARLQSSPLEDLLIEHPSMSVY   69 (88)
+Q Consensus        21 cprafvseedevdgwliidlpegpglgparlqsspledlliehpsmsvy   69 (88)
+                      .|+.|..++|.-.=.+.+.+|.|..+........++|+.+.+.|...-+
+T Consensus        30 l~~~~~P~~~~~~~~v~~~~p~~~~~~~~~~~~~~~e~~l~~~~~v~~~   78 (1049)
+T 6VKS_A           30 LPVSQYPSVAAPTITLHAIYPGASAQVMEGSVLSVIERNMNGVEGLDYM   78 (1049)
+T ss_dssp             SCBCSSCCCCCCEEEEEEECTTCCHHHHCCCCCHHHHHHCCCCTTEEEE
+T ss_pred             CCHHHCCCCCCCeEEEEEEcCCCChhhhhHHhhHHHHHHhcCCCCceEE
+Confidence            4567777777777788899999999999999999999999999987654
+
+
+No 6
+>1C1D_B L-PHENYLALANINE DEHYDROGENASE; AMINO ACID DEHYDROGENASE, OXIDATIVE DEAMINATION; HET: PHE, NAI; 1.25A {Rhodococcus sp.} SCOP: c.2.1.7, c.58.1.1
+Probab=25.49  E-value=2.8e+02  Score=20.69  Aligned_cols=32  Identities=16%  Similarity=0.130  Sum_probs=23.6  Template_Neff=9.500
+
+Q ss_pred             eeeccccCcceEEEEECC-CCCCCCceeecCCc
+Q tr|Q5JX65|Q5JX   24 AFVSEEDEVDGWLIIDLP-EGPGLGPARLQSSP   55 (88)
+Q Consensus        24 afvseedevdgwliidlp-egpglgparlqssp   55 (88)
+                      .+...+..+.||++|+.. .||.+|.-|+....
+T Consensus        15 ~~~~~~~~~~~~~~~~~~~~~~~~GG~R~~~~~   47 (355)
+T 1C1D_B           15 TRFDSMTGAHFVIRLDSTQLGPAAGGTRAAQYS   47 (355)
+T ss_dssp             EEEETTTTEEEEEEEEECSSSSEECCEEEECCS
+T ss_pred             EEEeCCCCeEEEEEEECCCCCCCcceEEEeCCC
+Confidence            344555578999999876 67888888887653
+
+
+No 7
+>1C1X_B L-PHENYLALANINE DEHYDROGENASE; AMINO ACID DEHYDROGENASE, OXIDATIVE DEAMINATION; HET: NAD, HFA, IPA; 1.4A {Rhodococcus sp.} SCOP: c.2.1.7, c.58.1.1
+Probab=25.31  E-value=2.8e+02  Score=20.83  Aligned_cols=32  Identities=16%  Similarity=0.118  Sum_probs=23.5  Template_Neff=9.300
+
+Q ss_pred             eeccccCcceEEEEECC-CCCCCCceeecCCcH
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLP-EGPGLGPARLQSSPL   56 (88)
+Q Consensus        25 fvseedevdgwliidlp-egpglgparlqsspl   56 (88)
+                      +...+....||++|+.. -||..|.-|+....-
+T Consensus        16 ~~~~~~~~~~~~~~~~~~~g~~~GG~R~~~~~~   48 (355)
+T 1C1X_B           16 RFDKMTGAHFVIRLDSTQLGPAAGGTRAAQYSQ   48 (355)
+T ss_dssp             EEETTTTEEEEEEEEECSSSSEECCEEEECCSS
+T ss_pred             EEeCCCCeEEEEEEECCCCCCCCceEEEeCCCC
+Confidence            44455568899999866 778888888877543
+
+
+No 8
+>4MT1_A Drug efflux protein; transmembrane helix, membrane protein, tranport; 3.54A {Neisseria gonorrhoeae PID332}
+Probab=24.87  E-value=1.1e+02  Score=24.56  Aligned_cols=49  Identities=10%  Similarity=-0.105  Sum_probs=40.4  Template_Neff=11.500
+
+Q ss_pred             CCceeeccccCcceEEEEECCCCCCCCceeecCCcHHHhhhcCCCeEEE
+Q tr|Q5JX65|Q5JX   21 CPRAFVSEEDEVDGWLIIDLPEGPGLGPARLQSSPLEDLLIEHPSMSVY   69 (88)
+Q Consensus        21 cprafvseedevdgwliidlpegpglgparlqsspledlliehpsmsvy   69 (88)
+                      .|+.|..++|.-.--+.+.+|.|..+.-......++|+.+..++...-+
+T Consensus        30 l~~~~~P~~~~~~~~i~~~~p~g~~~~~~~~~~~~iE~~l~~~~~v~~~   78 (1056)
+T 4MT1_A           30 LPVSQYPSVAAPTITLHAIYPGASAQVMEGSVLSVIERNMNGVEGLDYM   78 (1056)
+T ss_dssp             SCCCSCCSCSCCEEEEEEECTTCCHHHHCCCCCHHHHTTSSSSTTEEEE
+T ss_pred             CChhhCCCCCCCeeEEEEEcCCCChhHhhHHHHHHHHHHhcCCCCcEEE
+Confidence            4666777777777777888999999999999999999999999987644
+
+
+No 9
+>6VKT_A Efflux pump membrane transporter; Efflux, pump, erythromycin, MEMBRANE PROTEIN; HET: ERY, PTY; 2.72A {Neisseria gonorrhoeae}
+Probab=24.00  E-value=1.5e+02  Score=24.15  Aligned_cols=49  Identities=10%  Similarity=-0.105  Sum_probs=41.8  Template_Neff=11.200
+
+Q ss_pred             CCceeeccccCcceEEEEECCCCCCCCceeecCCcHHHhhhcCCCeEEE
+Q tr|Q5JX65|Q5JX   21 CPRAFVSEEDEVDGWLIIDLPEGPGLGPARLQSSPLEDLLIEHPSMSVY   69 (88)
+Q Consensus        21 cprafvseedevdgwliidlpegpglgparlqsspledlliehpsmsvy   69 (88)
+                      .|+.|..++|.-.-.+.+.+|.|..+...+....++|+.+...|...-+
+T Consensus        30 lp~~~~P~~~~~~~~v~~~~p~~s~~~~~~~~~~~~e~~l~~~~~v~~~   78 (1046)
+T 6VKT_A           30 LPVSQYPSVAAPTITLHAIYPGASAQVMEGSVLSVIERNMNGVEGLDYM   78 (1046)
+T ss_dssp             SCBCSSCCCCCCEEEEEEECTTCCHHHHCCCCCHHHHTTCCCCTTEEEE
+T ss_pred             CCHHHCCCCCCCeEEEEEEcCCCCchhhhHHhHHHHHHHhcCCCCceEE
+Confidence            5677888888877788889999999999999999999999998887654
+
+
+No 10
+>5MMJ_u 50S ribosomal protein L31, plastid; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.646A {Spinacia oleracea}
+Probab=23.06  E-value=70  Score=24.61  Aligned_cols=13  Identities=62%  Similarity=1.370  Sum_probs=9.8  Template_Neff=5.400
+
+Q ss_pred             cccCcceEEEEECCCC
+Q tr|Q5JX65|Q5JX   28 EEDEVDGWLIIDLPEG   43 (88)
+Q Consensus        28 eedevdgwliidlpeg   43 (88)
+                      ++|+.|.|   |||||
+T Consensus       164 ~~~d~DnW---elpe~  176 (180)
+T 5MMJ_u          164 KEDDGDNW---DMPEG  176 (180)
+T ss_pred             cccccCCC---CCCCC
+Confidence            34567899   78987
+
+
+No 11
+>5MMM_u 50S ribosomal protein L31, 50S; chloroplast, translation, ribosome, cryo-EM; HET: MG; 3.4A {Spinacia oleracea}
+Probab=23.06  E-value=70  Score=24.61  Aligned_cols=13  Identities=62%  Similarity=1.370  Sum_probs=9.8  Template_Neff=5.400
+
+Q ss_pred             cccCcceEEEEECCCC
+Q tr|Q5JX65|Q5JX   28 EEDEVDGWLIIDLPEG   43 (88)
+Q Consensus        28 eedevdgwliidlpeg   43 (88)
+                      ++|+.|.|   |||||
+T Consensus       164 ~~~d~DnW---elpe~  176 (180)
+T 5MMM_u          164 KEDDGDNW---DMPEG  176 (180)
+T ss_pred             cccccCCC---CCCCC
+Confidence            34567899   78987
+
+
+No 12
+>5LQ3_B CmeB; transmembrane protein, transport protein; 3.55A {Campylobacter jejuni}
+Probab=22.90  E-value=1.2e+02  Score=24.09  Aligned_cols=48  Identities=15%  Similarity=0.019  Sum_probs=38.4  Template_Neff=11.600
+
+Q ss_pred             CCceeeccccCcceEEEEECCCCCCCCceeecCCcHHHhhhcCCCeEE
+Q tr|Q5JX65|Q5JX   21 CPRAFVSEEDEVDGWLIIDLPEGPGLGPARLQSSPLEDLLIEHPSMSV   68 (88)
+Q Consensus        21 cprafvseedevdgwliidlpegpglgparlqsspledlliehpsmsv   68 (88)
+                      .|+.|..++|.-.-.+.+.+|.+..+.-......++|+.+.+.+....
+T Consensus        31 l~~~~~P~~~~~~~~v~~~~p~~~~~~~~~~v~~~~e~~l~~~~~v~~   78 (1035)
+T 5LQ3_B           31 LPIEQYPSLTPPTVKVSATYTGADAQTIASTVASPIEDAINGADNMIY   78 (1035)
+T ss_dssp             CCBCSSCCCSCCEEEEEEECSSCCHHHHTTTSHHHHTTCCCTTTTEEE
+T ss_pred             CChhhCCCCCCCeEEEEEEeCCCCHHHHHHHchHHHHHHHcCCCCceE
+Confidence            356667777777777888999998888888888999999998887643
+
+
+No 13
+>5LQ3_F CmeB; transmembrane protein, transport protein; 3.55A {Campylobacter jejuni}
+Probab=22.90  E-value=1.2e+02  Score=24.09  Aligned_cols=48  Identities=15%  Similarity=0.019  Sum_probs=39.8  Template_Neff=11.600
+
+Q ss_pred             CCceeeccccCcceEEEEECCCCCCCCceeecCCcHHHhhhcCCCeEE
+Q tr|Q5JX65|Q5JX   21 CPRAFVSEEDEVDGWLIIDLPEGPGLGPARLQSSPLEDLLIEHPSMSV   68 (88)
+Q Consensus        21 cprafvseedevdgwliidlpegpglgparlqsspledlliehpsmsv   68 (88)
+                      .|+.|..++|.-.-.+.+.+|.+..+.-......++|+.+.+.+....
+T Consensus        31 l~~~~~P~~~~~~~~v~~~~p~~~~~~~~~~v~~~~e~~l~~~~~v~~   78 (1035)
+T 5LQ3_F           31 LPIEQYPSLTPPTVKVSATYTGADAQTIASTVASPIEDAINGADNMIY   78 (1035)
+T ss_dssp             SCBCSSCSCSCCEEEEEEECSSCCHHHHCCCCCHHHHHHHTTCTTEEE
+T ss_pred             CChhhCCCCCCCeEEEEEEeCCCCHHHHHHHchHHHHHHHcCCCCceE
+Confidence            456677777777777888999999988888999999999999997644
+
+
+No 14
+>5B37_B Tryptophan dehydrogenase (E.C.1.4.1.19); dehydrogenase, OXIDOREDUCTASE; 3.4A {Nostoc punctiforme NIES-2108}
+Probab=22.68  E-value=3.3e+02  Score=19.91  Aligned_cols=31  Identities=26%  Similarity=0.395  Sum_probs=22.5  Template_Neff=10.000
+
+Q ss_pred             ccccCcceEEEEECC-CCCCCCceeecCCcHH
+Q tr|Q5JX65|Q5JX   27 SEEDEVDGWLIIDLP-EGPGLGPARLQSSPLE   57 (88)
+Q Consensus        27 seedevdgwliidlp-egpglgparlqssple   57 (88)
+                      ..+....||++|+.. .||..|.-|+....-+
+T Consensus        20 ~~~~~~~~~~~~~~~~~g~~~Gg~R~~~~~~~   51 (361)
+T 5B37_B           20 SKNPEIKAIIAIHDTTLGPAMGATRILPYINE   51 (361)
+T ss_dssp             C--CCCEEEEEECCCSSSSEECCEEEECCSSH
+T ss_pred             eCCCCeEEEEEEEeCCCCCCCCcEEEeCCCCH
+Confidence            344568999999854 7888999998876543
+
+
+No 15
+>5MKD_B Uncharacterized protein; bacterial hydrophobin, unknown function; 2.51A {Bacillus subtilis}
+Probab=22.53  E-value=1.6e+02  Score=21.85  Aligned_cols=24  Identities=13%  Similarity=0.141  Sum_probs=18.5  Template_Neff=4.700
+
+Q ss_pred             eeeccccCcceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   24 AFVSEEDEVDGWLIIDLPEGPGLG   47 (88)
+Q Consensus        24 afvseedevdgwliidlpegpglg   47 (88)
+                      .|...++-.+||+.+.||+|---.
+T Consensus        24 tY~~ge~~~~Gtvef~LP~gftat   47 (124)
+T 5MKD_B           24 TYKPNAVLSLGAVEFQFPDGFHAT   47 (124)
+T ss_dssp             EEECSSCCCSSEEEEECCTTCCCC
+T ss_pred             EEcCCCceeceEEEEECCCCceee
+Confidence            355667778999999999986543
+
+
+No 16
+>5MKD_D Uncharacterized protein; bacterial hydrophobin, unknown function; 2.51A {Bacillus subtilis}
+Probab=22.53  E-value=1.6e+02  Score=21.85  Aligned_cols=23  Identities=13%  Similarity=0.138  Sum_probs=18.2  Template_Neff=4.700
+
+Q ss_pred             eeccccCcceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLPEGPGLG   47 (88)
+Q Consensus        25 fvseedevdgwliidlpegpglg   47 (88)
+                      |...++-.+||+.+.||+|---.
+T Consensus        25 Y~~ge~~~~Gtvef~LP~gftat   47 (124)
+T 5MKD_D           25 YKPNAVLSLGAVEFQFPDGFHAT   47 (124)
+T ss_dssp             EECCSCCCSSEEEEECCTTCCCC
+T ss_pred             EcCCCceeceEEEEECCCCceee
+Confidence            55667778999999999986544
+
+
+No 17
+>3VPX_A Leucine dehydrogenase (E.C.1.4.1.9); Rossmann fold, leucine dehydrogense, NAD/leucine; 2.55A {Sporosarcina psychrophila}
+Probab=22.14  E-value=3.4e+02  Score=19.90  Aligned_cols=30  Identities=20%  Similarity=0.330  Sum_probs=22.5  Template_Neff=10.000
+
+Q ss_pred             eccccCcceEEEEECC-CCCCCCceeecCCc
+Q tr|Q5JX65|Q5JX   26 VSEEDEVDGWLIIDLP-EGPGLGPARLQSSP   55 (88)
+Q Consensus        26 vseedevdgwliidlp-egpglgparlqssp   55 (88)
+                      ...+....||++|+.. .||..|.-|+....
+T Consensus        19 ~~~~~~~~~~~~~~~~~~g~~~GG~R~~~~~   49 (364)
+T 3VPX_A           19 QDKASGLKAIIAIHDTTLGPALGGTRMWTYA   49 (364)
+T ss_dssp             EETTTTEEEEEEEEECTTSSEECCEEEECCS
+T ss_pred             EeCCCCeEEEEEEECCCCCCCCCeEEEecCC
+Confidence            3445568899999876 67888988887653
+
+
+No 18
+>6L2E_B Tyrosinase (E.C.1.14.18.1); Artificial metalloenzymes, Copper enzyme, Cupin; HET: MES, CSD; 1.201A {Thermotoga maritima MSB8}
+Probab=20.87  E-value=3.1e+02  Score=16.75  Aligned_cols=24  Identities=13%  Similarity=0.297  Sum_probs=12.4  Template_Neff=9.800
+
+Q ss_pred             HHhhhcCCCeEEEEeCCEEEECCC
+Q tr|Q5JX65|Q5JX   57 EDLLIEHPSMSVYVTGSTIVLEPG   80 (88)
+Q Consensus        57 edlliehpsmsvyvtgstivlepg   80 (88)
+                      +-+++......+++-|....+.+|
+T Consensus        62 ~~~~v~~G~~~~~~~~~~~~l~~G   85 (118)
+T 6L2E_B           62 HEIFVLKGKLTVLKEQGEETVEEG   85 (118)
+T ss_dssp             EEEEEEESEEEEEESSSEEEEETT
+T ss_pred             eEEEEEeCcEEEEeCCEEEEECCC
+Confidence            334455555555555555555544
+
+
+No 19
+>4GFI_B Mandelate racemase/muconate lactonizing enzyme family; putative L-ALA-L/D-GLU epimerase, enzyme function; HET: ALA, SO4, GLU; 1.9A {Agrobacterium tumefaciens}
+Probab=20.76  E-value=1.2e+02  Score=21.85  Aligned_cols=13  Identities=8%  Similarity=-0.051  Sum_probs=9.7  Template_Neff=9.900
+
+Q ss_pred             ceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   33 DGWLIIDLPEGPGLG   47 (88)
+Q Consensus        33 dgwliidlpegpglg   47 (88)
+                      +|+  +.+|+|||+|
+T Consensus       317 ~G~--~~~p~~pGlG  329 (329)
+T 4GFI_B          317 GSL--VYPARPELWG  329 (329)
+T ss_dssp             TTE--ECCCCTTTCC
+T ss_pred             CCE--EeCCCCCCCC
+Confidence            565  4568999987
+
+
+No 20
+>4GFI_C Mandelate racemase/muconate lactonizing enzyme family; putative L-ALA-L/D-GLU epimerase, enzyme function; HET: ALA, SO4, GLU; 1.9A {Agrobacterium tumefaciens}
+Probab=20.76  E-value=1.2e+02  Score=21.85  Aligned_cols=13  Identities=8%  Similarity=-0.051  Sum_probs=9.7  Template_Neff=9.900
+
+Q ss_pred             ceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   33 DGWLIIDLPEGPGLG   47 (88)
+Q Consensus        33 dgwliidlpegpglg   47 (88)
+                      +|+  +.+|+|||+|
+T Consensus       317 ~G~--~~~p~~pGlG  329 (329)
+T 4GFI_C          317 GSL--VYPARPELWG  329 (329)
+T ss_dssp             TTE--ECCCCTTTCC
+T ss_pred             CCE--EeCCCCCCCC
+Confidence            565  4568999987
+
+
+No 21
+>4BHU_B UNCHARACTERIZED PROTEIN YUAB; STRUCTURAL PROTEIN, BIOFILM; HET: CL, GOL, MLY, MSE; 1.91A {BACILLUS SUBTILIS SUBSP. SUBTILIS}
+Probab=20.52  E-value=1.8e+02  Score=21.97  Aligned_cols=23  Identities=17%  Similarity=0.151  Sum_probs=17.9  Template_Neff=4.500
+
+Q ss_pred             eeccccCcceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLPEGPGLG   47 (88)
+Q Consensus        25 fvseedevdgwliidlpegpglg   47 (88)
+                      |...++-.+||+.+.||+|--..
+T Consensus        29 Y~~~~~~~~Gtvef~LP~gftat   51 (130)
+T 4BHU_B           29 YRPNTLLSLGVMEFTLPSGFTAN   51 (130)
+T ss_dssp             EECCCSEEEEEEEEECCTTCCCC
+T ss_pred             EcCCCceeccEEEEEcCCCcccc
+Confidence            45567778999999999986543
+
+
+No 22
+>4BHU_C UNCHARACTERIZED PROTEIN YUAB; STRUCTURAL PROTEIN, BIOFILM; HET: CL, GOL, MLY, MSE; 1.91A {BACILLUS SUBTILIS SUBSP. SUBTILIS}
+Probab=20.52  E-value=1.8e+02  Score=21.97  Aligned_cols=23  Identities=17%  Similarity=0.151  Sum_probs=17.9  Template_Neff=4.500
+
+Q ss_pred             eeccccCcceEEEEECCCCCCCC
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLPEGPGLG   47 (88)
+Q Consensus        25 fvseedevdgwliidlpegpglg   47 (88)
+                      |...++-.+||+.+.||+|--..
+T Consensus        29 Y~~~~~~~~Gtvef~LP~gftat   51 (130)
+T 4BHU_C           29 YRPNTLLSLGVMEFTLPSGFTAN   51 (130)
+T ss_dssp             EECCCSEEEEEEEEECCTTCCCC
+T ss_pred             EcCCCceeccEEEEEcCCCcccc
+Confidence            45567778999999999986543
+
+
+No 23
+>1LEH_B LEUCINE DEHYDROGENASE; OXIDOREDUCTASE; 2.2A {Lysinibacillus sphaericus} SCOP: c.2.1.7, c.58.1.1
+Probab=20.45  E-value=3.8e+02  Score=19.97  Aligned_cols=31  Identities=26%  Similarity=0.335  Sum_probs=23.8  Template_Neff=9.600
+
+Q ss_pred             eeccccCcceEEEEECC-CCCCCCceeecCCc
+Q tr|Q5JX65|Q5JX   25 FVSEEDEVDGWLIIDLP-EGPGLGPARLQSSP   55 (88)
+Q Consensus        25 fvseedevdgwliidlp-egpglgparlqssp   55 (88)
+                      |...+..+.||++|+-. .||..|.-|+....
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~g~~~GG~R~~~~~   49 (364)
+T 1LEH_B           18 CQDEASGLKAVIAIHDTTLGPALGGARMWTYN   49 (364)
+T ss_dssp             EEETTTTEEEEEEEEECSSSSEECCEEEECCS
+T ss_pred             EEeCCCCeEEEEEEEcCCCCCccceEEEeCCC
+Confidence            44555678999999866 68889999988654
+
+

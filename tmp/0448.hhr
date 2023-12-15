@@ -1,0 +1,169 @@
+Query         tr|A0A1X7SBT3|A0A1X7SBT3_HUMAN
+Match_columns 41
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:35:38 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0448.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QR5_B Cardiac Ca2+ release ch  15.3 2.2E+02  0.0023   17.5   1.3   18   21-38    141-158 (185)
+  2 2OB9_A Tail assembly chaperone  14.5 3.6E+02  0.0039   15.2   2.0   17   19-35     19-39  (130)
+  3 4MVE_B Uncharacterized protein  12.8 5.2E+02  0.0056   15.5   2.4   16   18-33    118-133 (151)
+  4 6H77_R Ubiquitin-like modifier  12.4 2.8E+02  0.0031   16.2   1.2   13   26-38     63-75  (78)
+  5 3OP8_A Beta-2-glycoprotein 1;   12.1 1.5E+02  0.0016   18.6   0.0   20    3-23     60-79  (85)
+  6 4PBP_C C-reactive protein; acu  11.7   4E+02  0.0043   12.8   2.3   25   11-35    186-210 (210)
+  7 5Y9V_A Ryanodine receptor 1; d  11.4 3.8E+02  0.0042   16.9   1.6   19   20-38    159-177 (208)
+  8 2J0A_A BETA-1,3-N-ACETYLGLUCOS   9.7 4.2E+02  0.0046   15.9   1.3   11   22-32     97-107 (280)
+  9 2J0B_A BETA-1,3-N-ACETYLGLUCOS   9.7 4.2E+02  0.0046   15.9   1.3   11   22-32     97-107 (280)
+ 10 3IM6_A ryanodine receptor 2, c   9.1   4E+02  0.0044   16.8   1.2   17   20-36    172-188 (217)
+
+No 1
+>3QR5_B Cardiac Ca2+ release channel; beta trefoil, Sarcoplasmic reticulum, SIGNALING; 2.3A {Mus musculus}
+Probab=15.28  E-value=2.2e+02  Score=17.45  Aligned_cols=18  Identities=44%  Similarity=0.383  Sum_probs=13.7  Template_Neff=8.500
+
+Q ss_pred             eEEEEcCCEEEEecCceE
+Q tr|A0A1X7SBT3|   21 ELVEVEDDVYLRHSSSLT   38 (41)
+Q Consensus        21 elveveddvylrhssslt   38 (41)
+                      +.|...|.|+|+|.++-.
+T Consensus       141 ~~V~~gd~V~L~h~~t~~  158 (185)
+T 3QR5_B          141 EKVRVGDDLILVSVSSER  158 (185)
+T ss_dssp             SBCBTTCCEEEEETTTCC
+T ss_pred             CccccCCEEEEEECCCCc
+Confidence            457788999999986543
+
+
+No 2
+>2OB9_A Tail assembly chaperone; Bacteriophage HK97, morphogenesis, tail assembly; HET: MSE; 2.3A {Enterobacteria phage HK97}
+Probab=14.46  E-value=3.6e+02  Score=15.15  Aligned_cols=17  Identities=41%  Similarity=0.501  Sum_probs=11.9  Template_Neff=9.100
+
+Q ss_pred             eeeEEEE---cC-CEEEEecC
+Q tr|A0A1X7SBT3|   19 KSELVEV---ED-DVYLRHSS   35 (41)
+Q Consensus        19 kselvev---ed-dvylrhss   35 (41)
+                      +.+.|++   ++ +||+|.-|
+T Consensus        19 ~~~~v~vpe~~G~~v~vr~ls   39 (130)
+T 2OB9_A           19 RHKTVVVPEWEGVKVVLREPS   39 (130)
+T ss_dssp             CEEEEEEGGGTTEEEEEECCC
+T ss_pred             cEEEEEccccCCcEEEEeCCC
+Confidence            5567777   55 79999644
+
+
+No 3
+>4MVE_B Uncharacterized protein; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.11A {Thermomonospora curvata}
+Probab=12.84  E-value=5.2e+02  Score=15.46  Aligned_cols=16  Identities=19%  Similarity=0.243  Sum_probs=13.1  Template_Neff=8.300
+
+Q ss_pred             EeeeEEEEcCCEEEEe
+Q tr|A0A1X7SBT3|   18 WKSELVEVEDDVYLRH   33 (41)
+Q Consensus        18 wkselveveddvylrh   33 (41)
+                      ...|+..|.|++||--
+T Consensus       118 i~De~R~v~~~~~LG~  133 (151)
+T 4MVE_B          118 IIDHFRRVNDDMVVGA  133 (151)
+T ss_dssp             EEEEEEEEETTEEEEE
+T ss_pred             eEEEEEEeCCCeEEEE
+Confidence            6778999999998853
+
+
+No 4
+>6H77_R Ubiquitin-like modifier-activating enzyme 5, Ubiquitin-fold; Ubiquitin like protein activating enzyme; HET: ATP, PEG, EDO; 2.1A {Homo sapiens}
+Probab=12.43  E-value=2.8e+02  Score=16.23  Aligned_cols=13  Identities=38%  Similarity=0.772  Sum_probs=9.8  Template_Neff=5.900
+
+Q ss_pred             cCCEEEEecCceE
+Q tr|A0A1X7SBT3|   26 EDDVYLRHSSSLT   38 (41)
+Q Consensus        26 eddvylrhssslt   38 (41)
+                      -+.|+|+|.+.|.
+T Consensus        63 Ag~vflk~g~~l~   75 (78)
+T 6H77_R           63 AGNVFLKHGSELR   75 (78)
+T ss_pred             CCeeEeeeccccc
+Confidence            4578899988764
+
+
+No 5
+>3OP8_A Beta-2-glycoprotein 1; SUSHI, antiphospholipid syndrome, anionic phospholipids; HET: SO4; 1.9A {Homo sapiens}
+Probab=12.12  E-value=1.5e+02  Score=18.55  Aligned_cols=20  Identities=40%  Similarity=0.831  Sum_probs=13.1  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCcCCCCceeEeeeEE
+Q tr|A0A1X7SBT3|    3 EQPECREEKRGSLHVWKSELV   23 (41)
+Q Consensus         3 eqpecreekrgslhvwkselv   23 (41)
+                      .-|+|-+|. .....|++.++
+T Consensus        60 ~iP~Cf~ep-~~y~l~~~~~~   79 (85)
+T 3OP8_A           60 EVPKCFKEH-SSLAFWKTDAS   79 (85)
+T ss_dssp             CCCTTCCCC-CTTCTTSCCGG
+T ss_pred             CCChhhccc-eeeeccCCCcc
+Confidence            358999988 55555655444
+
+
+No 6
+>4PBP_C C-reactive protein; acute phase protein, pentraxin, IMMUNE; HET: GOL; 1.648A {Danio rerio}
+Probab=11.75  E-value=4e+02  Score=12.76  Aligned_cols=25  Identities=16%  Similarity=0.384  Sum_probs=18.3  Template_Neff=13.800
+
+Q ss_pred             CCCCceeEeeeEEEEcCCEEEEecC
+Q tr|A0A1X7SBT3|   11 KRGSLHVWKSELVEVEDDVYLRHSS   35 (41)
+Q Consensus        11 krgslhvwkselveveddvylrhss   35 (41)
+                      ..+.+..|...-.....++++...|
+T Consensus       186 ~~~~~~~~~~~~~~~~~~~~~~~~s  210 (210)
+T 4PBP_C          186 VKGNVFDWDTIEYDVTGNVLVVPDN  210 (210)
+T ss_dssp             CCCSSEEGGGCEEEEESSEEEEECC
+T ss_pred             cCCceeecccceeEeecceEeecCC
+Confidence            3567778888777788888877554
+
+
+No 7
+>5Y9V_A Ryanodine receptor 1; diamondback moth, ryanodine receptor, ion; HET: GOL; 2.841A {Plutella xylostella}
+Probab=11.38  E-value=3.8e+02  Score=16.92  Aligned_cols=19  Identities=32%  Similarity=0.338  Sum_probs=13.9  Template_Neff=8.200
+
+Q ss_pred             eeEEEEcCCEEEEecCceE
+Q tr|A0A1X7SBT3|   20 SELVEVEDDVYLRHSSSLT   38 (41)
+Q Consensus        20 selveveddvylrhssslt   38 (41)
+                      .+.|...|.|+|+|..+-.
+T Consensus       159 Ge~V~~gd~V~L~~~~t~~  177 (208)
+T 5Y9V_A          159 GEKVRVGDDLILVSVATER  177 (208)
+T ss_dssp             TSBCBTTCEEEEEETTTSC
+T ss_pred             CCcceeCCEEEEEECCCCc
+Confidence            3567788899999876533
+
+
+No 8
+>2J0A_A BETA-1,3-N-ACETYLGLUCOSAMINYLTRANSFERASE MANIC FRINGE (E.C.2.4.1.222); GLYCOSYLTRANSFERASE, DEVELOPMENTAL PROTEIN, TRANSMEMBRANE, GOLGI; 1.8A {MUS MUSCULUS}
+Probab=9.73  E-value=4.2e+02  Score=15.85  Aligned_cols=11  Identities=36%  Similarity=0.776  Sum_probs=8.5  Template_Neff=10.600
+
+Q ss_pred             EEEEcCCEEEE
+Q tr|A0A1X7SBT3|   22 LVEVEDDVYLR   32 (41)
+Q Consensus        22 lveveddvylr   32 (41)
+                      ++.++||+|+.
+T Consensus        97 ~~~~DDD~~v~  107 (280)
+T 2J0A_A           97 FCHVDDDNYVN  107 (280)
+T ss_dssp             EEEEETTEEEC
+T ss_pred             EEEECCCceeC
+Confidence            56788998875
+
+
+No 9
+>2J0B_A BETA-1,3-N-ACETYLGLUCOSAMINYLTRANSFERASE MANIC FRINGE (E.C.2.4.1.222); GLYCOSYLTRANSFERASE, DEVELOPMENTAL PROTEIN, TRANSMEMBRANE, GOLGI; HET: UDP; 2.1A {MUS MUSCULUS}
+Probab=9.73  E-value=4.2e+02  Score=15.85  Aligned_cols=11  Identities=36%  Similarity=0.776  Sum_probs=8.5  Template_Neff=10.600
+
+Q ss_pred             EEEEcCCEEEE
+Q tr|A0A1X7SBT3|   22 LVEVEDDVYLR   32 (41)
+Q Consensus        22 lveveddvylr   32 (41)
+                      ++.++||+|+.
+T Consensus        97 ~~~~DDD~~v~  107 (280)
+T 2J0B_A           97 FCHVDDDNYVN  107 (280)
+T ss_dssp             EEEEETTEEEC
+T ss_pred             EEEECCCceeC
+Confidence            56788998875
+
+
+No 10
+>3IM6_A ryanodine receptor 2, calcium release; 1.7A {Mus musculus}
+Probab=9.14  E-value=4e+02  Score=16.75  Aligned_cols=17  Identities=47%  Similarity=0.464  Sum_probs=13.2  Template_Neff=8.500
+
+Q ss_pred             eeEEEEcCCEEEEecCc
+Q tr|A0A1X7SBT3|   20 SELVEVEDDVYLRHSSS   36 (41)
+Q Consensus        20 selveveddvylrhsss   36 (41)
+                      .+.|...|.|+|+|...
+T Consensus       172 Ge~V~~gd~V~L~h~~t  188 (217)
+T 3IM6_A          172 GEKVRVGDDLILVSMSS  188 (217)
+T ss_dssp             TCBCBTTCEEEEEETTT
+T ss_pred             CCccccCCEEEEEeCCC
+Confidence            45577889999998865
+
+

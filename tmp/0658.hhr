@@ -1,0 +1,170 @@
+Query         tr|H7C295|H7C295_HUMAN
+Match_columns 111
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:20:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0658.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YNF_E Succinylarginine dihydr  44.7      12 0.00013   33.0  -0.5   36   68-103   387-422 (458)
+  2 1YNH_B Succinylarginine Dihydr  44.7      12 0.00013   33.0  -0.5   39   65-103   384-422 (458)
+  3 3BHD_B Thiamine triphosphatase  44.6      55  0.0006   23.6   2.8   50   47-96    174-227 (234)
+  4 6VLO_B Putative dTDP-D-glucose  27.7 1.5E+02  0.0017   19.5   2.6   30   64-93    287-316 (326)
+  5 6VLO_D Putative dTDP-D-glucose  27.7 1.5E+02  0.0017   19.5   2.6   31   64-94    287-317 (326)
+  6 7DAB_A STRUCTURE FROM CYANA 2.  22.4 1.1E+02  0.0011   22.3   1.2   18   18-35      2-19  (64)
+  7 2ZE6_A Isopentenyl transferase  21.8 4.7E+02  0.0051   18.2   5.0   22   79-100   200-221 (253)
+  8 2ZE7_A Isopentenyl transferase  21.8 4.7E+02  0.0051   18.2   5.0   36   65-100   180-221 (253)
+  9 3X38_A Mitochondrial morphogen  20.4 5.5E+02  0.0059   18.5   5.1   42   59-100    12-53  (89)
+ 10 3X38_C Mitochondrial morphogen  20.4 5.5E+02  0.0059   18.5   5.1   42   59-100    12-53  (89)
+
+No 1
+>1YNF_E Succinylarginine dihydrolase (E.C.3.-.-.-); Succinylarginine, Dihydrolase, HYDROLASE; HET: MSE; 1.9A {Escherichia coli} SCOP: d.126.1.7
+Probab=44.66  E-value=12  Score=32.97  Aligned_cols=36  Identities=25%  Similarity=0.458  Sum_probs=26.7  Template_Neff=5.900
+
+Q ss_pred             HHCCCCcchccHHHHHHHHHhhhhHHHHHHHHHHHh
+Q tr|H7C295|H7C2   68 EASGLGPSHLDMNYVLQQLANWQDAHYRRQLRWKML  103 (111)
+Q Consensus        68 easglgpshldmnyvlqqlanwqdahyrrqlrwkml  103 (111)
+                      +...+.|+.+=-...+++|.+|-+.|||.+|.-.-|
+T Consensus       387 e~~a~~~~~~l~~~~~~~L~~wv~~~y~d~l~~~dL  422 (458)
+T 1YNF_E          387 ERRAVNPAVMMNDTLFNALNDWVDRYYRDRLTAADL  422 (458)
+T ss_dssp             HHHHSCGGGBCSHHHHHHHHHHHHHHCCSCBCGGGG
+T ss_pred             HHHhcCcceeecHHHHHHHHHHHHHHcHhhCCHHHh
+Confidence            344456666666778999999999999988765544
+
+
+No 2
+>1YNH_B Succinylarginine Dihydrolase (E.C.3.-.-.-); Succinylarginine, Dihydrolase, HYDROLASE; HET: SUO; 1.95A {Escherichia coli} SCOP: d.126.1.7
+Probab=44.66  E-value=12  Score=32.97  Aligned_cols=39  Identities=23%  Similarity=0.412  Sum_probs=29.1  Template_Neff=5.900
+
+Q ss_pred             HHHHHCCCCcchccHHHHHHHHHhhhhHHHHHHHHHHHh
+Q tr|H7C295|H7C2   65 SALEASGLGPSHLDMNYVLQQLANWQDAHYRRQLRWKML  103 (111)
+Q Consensus        65 saleasglgpshldmnyvlqqlanwqdahyrrqlrwkml  103 (111)
+                      +.-+...+.|+.+=-...+++|.+|-+.|||.+|.-.-|
+T Consensus       384 ~~~e~~a~~~~~~l~~~~~~~L~~wv~~~y~d~l~~~dL  422 (458)
+T 1YNH_B          384 TEEERRAVNPAVMMNDTLFNALNDWVDRYYRDRLTAADL  422 (458)
+T ss_dssp             EHHHHHTSCGGGBCSHHHHHHHHHHHHHHCCSCBCGGGG
+T ss_pred             CHHHHHhcCcceeecHHHHHHHHHHHHHHcHhhCCHHHh
+Confidence            334455566776666788999999999999988765544
+
+
+No 3
+>3BHD_B Thiamine triphosphatase (E.C.3.6.1.28); Hydrolase, Structural Genomics Consortium, Phosphatase; HET: GOL, CIT, MSE; 1.5A {Homo sapiens}
+Probab=44.58  E-value=55  Score=23.63  Aligned_cols=50  Identities=18%  Similarity=0.237  Sum_probs=33.0  Template_Neff=9.400
+
+Q ss_pred             CcccccCCCH----HHHHHHHHHHHHHCCCCcchccHHHHHHHHHhhhhHHHHH
+Q tr|H7C295|H7C2   47 WEEVELELDE----ATRMNVVTSALEASGLGPSHLDMNYVLQQLANWQDAHYRR   96 (111)
+Q Consensus        47 weevelelde----atrmnvvtsaleasglgpshldmnyvlqqlanwqdahyrr   96 (111)
+                      +.|||+++++    ......+...++..|+.++.....+....+..-.-.+|.+
+T Consensus       174 ~~EvEie~~~~~~~~~~~~~~~~~~~~lgl~~~~~~~sk~~~~l~~~~~~~~~~  227 (234)
+T 3BHD_B          174 VGEVEALVHEEAEVPTALEKIHRLSSMLGVPAQETAPAKLIVYLQRFRPQDYQR  227 (234)
+T ss_dssp             EEEEEEEESSGGGHHHHHHHHHHHHHHHSCCCSSCCCCHHHHHHHHHCHHHHCC
+T ss_pred             EEEEEEEEeCcchhHHHHHHHHHHHHHhCCCCCCCCCcHHHHHHHHHCHHHHHH
+Confidence            3477777764    3346778888999999875566666666665555555543
+
+
+No 4
+>6VLO_B Putative dTDP-D-glucose 4,6-dehydratase (E.C.4.2.1.46); Acanthamoeba polyphaga minivirus, dehydratase, dideoxysugar; HET: TYD, NAD; 2.05A {Acanthamoeba polyphaga mimivirus}
+Probab=27.72  E-value=1.5e+02  Score=19.46  Aligned_cols=30  Identities=20%  Similarity=0.387  Sum_probs=23.7  Template_Neff=12.700
+
+Q ss_pred             HHHHHHCCCCcchccHHHHHHHHHhhhhHH
+Q tr|H7C295|H7C2   64 TSALEASGLGPSHLDMNYVLQQLANWQDAH   93 (111)
+Q Consensus        64 tsaleasglgpshldmnyvlqqlanwqdah   93 (111)
+                      ...+++.|..+.+.|+...++.+.+|....
+T Consensus       287 ~~~~~~lg~~~~~~~~~~~~~~~~~~~~~~  316 (326)
+T 6VLO_B          287 NDKIKSLGWEQSRKDFKKELVELFDWYKVN  316 (326)
+T ss_dssp             CHHHHHTTCCCCCCCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHcCCCcccCCHHHHHHHHHHHHHHc
+Confidence            445567799999999999999998886544
+
+
+No 5
+>6VLO_D Putative dTDP-D-glucose 4,6-dehydratase (E.C.4.2.1.46); Acanthamoeba polyphaga minivirus, dehydratase, dideoxysugar; HET: TYD, NAD; 2.05A {Acanthamoeba polyphaga mimivirus}
+Probab=27.72  E-value=1.5e+02  Score=19.46  Aligned_cols=31  Identities=19%  Similarity=0.355  Sum_probs=24.2  Template_Neff=12.700
+
+Q ss_pred             HHHHHHCCCCcchccHHHHHHHHHhhhhHHH
+Q tr|H7C295|H7C2   64 TSALEASGLGPSHLDMNYVLQQLANWQDAHY   94 (111)
+Q Consensus        64 tsaleasglgpshldmnyvlqqlanwqdahy   94 (111)
+                      ...+++.|..+.+.|+...++.+.+|....+
+T Consensus       287 ~~~~~~lg~~~~~~~~~~~~~~~~~~~~~~~  317 (326)
+T 6VLO_D          287 NDKIKSLGWEQSRKDFKKELVELFDWYKVNR  317 (326)
+T ss_dssp             CHHHHHTTCCCSCCCHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHcCCCcccCCHHHHHHHHHHHHHHch
+Confidence            4455677999999999999999988865443
+
+
+No 6
+>7DAB_A STRUCTURE FROM CYANA 2.1, UNKNOWN; NMR {Zea mays}
+Probab=22.37  E-value=1.1e+02  Score=22.28  Aligned_cols=18  Identities=61%  Similarity=0.903  Sum_probs=15.3  Template_Neff=2.300
+
+Q ss_pred             cccCCCCCCCCCCCCCCC
+Q tr|H7C295|H7C2   18 QEELGAAKKVPAEEGVME   35 (111)
+Q Consensus        18 qeelgaakkvpaeegvme   35 (111)
+                      .+|+|+.+.+.||||+|.
+T Consensus         2 tDevG~~~p~~aeegim~   19 (64)
+T 7DAB_A            2 QDEVGAPPALSAEEGVME   19 (64)
+T ss_dssp             CCCCCCCTTTSSSSCCCC
+T ss_pred             CcccCCCCCccccccchh
+Confidence            368898888889999997
+
+
+No 7
+>2ZE6_A Isopentenyl transferase (E.C.2.5.1.27); transferase, Crown gall tumor, Cytokinin; HET: DST, AMP; 2.1A {Agrobacterium tumefaciens}
+Probab=21.76  E-value=4.7e+02  Score=18.23  Aligned_cols=22  Identities=23%  Similarity=-0.002  Sum_probs=17.1  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHhhhhHHHHHHHHH
+Q tr|H7C295|H7C2   79 MNYVLQQLANWQDAHYRRQLRW  100 (111)
+Q Consensus        79 mnyvlqqlanwqdahyrrqlrw  100 (111)
+                      ...++..+...-..+.++|++|
+T Consensus       200 ~~e~~~~i~~~~~~~~~~q~~~  221 (253)
+T 2ZE6_A          200 HVELIEAIANEYLEHALSQERD  221 (253)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Confidence            6677777777777788888887
+
+
+No 8
+>2ZE7_A Isopentenyl transferase (E.C.2.5.1.27); transferase, Crown gall tumor, Cytokinin; HET: DST, AMP; 2.1A {Agrobacterium tumefaciens}
+Probab=21.76  E-value=4.7e+02  Score=18.23  Aligned_cols=36  Identities=22%  Similarity=0.048  Sum_probs=24.2  Template_Neff=10.700
+
+Q ss_pred             HHHHHCCCCcchc------cHHHHHHHHHhhhhHHHHHHHHH
+Q tr|H7C295|H7C2   65 SALEASGLGPSHL------DMNYVLQQLANWQDAHYRRQLRW  100 (111)
+Q Consensus        65 saleasglgpshl------dmnyvlqqlanwqdahyrrqlrw  100 (111)
+                      ..+...+..++.+      +...++..+...-..+.++|++|
+T Consensus       180 ~~~~~~~~~~~~~~~~~~~s~~e~~~~i~~~~~~~~~~q~~~  221 (253)
+T 2ZE7_A          180 RFARKHDLAISQLPNIDAGRHVELIEAIANEYLEHALSQERD  221 (253)
+T ss_dssp             HHHHHTTCCGGGSTTCCTTHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhCCCChHhCCCCChhHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3455555554443      36777777777777888888887
+
+
+No 9
+>3X38_A Mitochondrial morphogenesis protein SLD7; alpha helix, REPLICATION REGULATOR; HET: SO4; 1.801A {Saccharomyces cerevisiae S288c}
+Probab=20.39  E-value=5.5e+02  Score=18.46  Aligned_cols=42  Identities=14%  Similarity=0.166  Sum_probs=30.4  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHHHHHCCCCcchccHHHHHHHHHhhhhHHHHHHHHH
+Q tr|H7C295|H7C2   59 RMNVVTSALEASGLGPSHLDMNYVLQQLANWQDAHYRRQLRW  100 (111)
+Q Consensus        59 rmnvvtsaleasglgpshldmnyvlqqlanwqdahyrrqlrw  100 (111)
+                      --.++.++|...|+..+|.+...+.++.-.-----.|+.+++
+T Consensus        12 I~k~ils~LRlrGi~k~~~EfKelY~~tyrga~FALR~~~~~   53 (89)
+T 3X38_A           12 LSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKR   53 (89)
+T ss_dssp             HHHHHHHHHHHTTCCTTSTTHHHHHHHHHHHHHHHTHHHHHH
+T ss_pred             HHHHHHHHHHHcCCCCCcHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            346788999999999999998888776644433344555554
+
+
+No 10
+>3X38_C Mitochondrial morphogenesis protein SLD7; alpha helix, REPLICATION REGULATOR; HET: SO4; 1.801A {Saccharomyces cerevisiae S288c}
+Probab=20.39  E-value=5.5e+02  Score=18.46  Aligned_cols=42  Identities=14%  Similarity=0.166  Sum_probs=30.6  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHHHHHCCCCcchccHHHHHHHHHhhhhHHHHHHHHH
+Q tr|H7C295|H7C2   59 RMNVVTSALEASGLGPSHLDMNYVLQQLANWQDAHYRRQLRW  100 (111)
+Q Consensus        59 rmnvvtsaleasglgpshldmnyvlqqlanwqdahyrrqlrw  100 (111)
+                      --.++.++|...|+..+|.+...+.++.-.-----.|+.+++
+T Consensus        12 I~k~ils~LRlrGi~k~~~EfKelY~~tyrga~FALR~~~~~   53 (89)
+T 3X38_C           12 LSKLILGGLRLRGISNSITDYQKLYKITFDAAEFTHRDELKR   53 (89)
+T ss_dssp             HHHHHHHHHHHTTCCTTSSCHHHHHHHHHHHHHHHTHHHHHH
+T ss_pred             HHHHHHHHHHHcCCCCCcHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            346788999999999999998888877644433344555554
+
+

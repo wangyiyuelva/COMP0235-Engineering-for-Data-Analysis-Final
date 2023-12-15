@@ -1,0 +1,168 @@
+Query         tr|F8WE26|F8WE26_HUMAN
+Match_columns 45
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:16:41 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1505.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2RJB_A Uncharacterized protein  26.1 1.5E+02  0.0017   22.8   2.7   33    5-37    177-213 (455)
+  2 7DFE_B Spidroin, TuSp2, Eggcas  21.4      48 0.00053   22.8  -0.5   20   25-44    106-125 (142)
+  3 1U7M_B Diiron proteins, four-h  18.4 1.8E+02   0.002   12.3   1.2   25    7-31     16-40  (53)
+  4 7A5P_W UNKNOWN, Pre-mRNA-proce  13.7 3.1E+02  0.0034   15.7   1.6   27    7-33    203-229 (255)
+  5 1CYI_A CYTOCHROME C6, PROTOPOR  12.4 2.6E+02  0.0028   10.9   0.8   11    9-19     79-89  (90)
+  6 1CYJ_A CYTOCHROME C6, PROTOPOR  12.4 2.6E+02  0.0028   10.9   0.8   12    8-19     78-89  (90)
+  7 3JB9_j Pre-mRNA-splicing facto  11.5   4E+02  0.0043   15.7   1.6   17   12-28    216-232 (239)
+  8 6W1G_A Hydroxyglutarate syntha  11.3 4.6E+02   0.005   20.4   2.3   33    5-37    179-215 (464)
+  9 6W1H_A Hydroxyglutarate syntha  11.3 4.6E+02   0.005   20.4   2.3   33    5-37    179-215 (464)
+ 10 3OLL_A Estrogen receptor beta,  11.0 5.4E+02  0.0059   14.4   2.0   19    2-20      2-20  (240)
+
+No 1
+>2RJB_A Uncharacterized protein; Uncharacterized protein, Structural Genomics, PSI-2; HET: MSE; 2.6A {Shigella flexneri}
+Probab=26.15  E-value=1.5e+02  Score=22.83  Aligned_cols=33  Identities=27%  Similarity=0.519  Sum_probs=25.0  Template_Neff=6.000
+
+Q ss_pred             hHHHHHHHHhCCCCC----CchHHHHHHhcccchccc
+Q tr|F8WE26|F8WE    5 AEAFVSQIAAAEPWP----ENATLYQQLKGEQILLSD   37 (45)
+Q Consensus         5 aeafvsqiaaaepwp----enatlyqqlkgeqillsd   37 (45)
+                      +++||......-+|.    -....|++|+.+.-++.|
+T Consensus       177 a~~fv~~~~~~f~W~~~~~vs~~~Y~~L~~es~~aAw  213 (455)
+T 2RJB_A          177 AQEFVQEALETFRWHQLATVDEETYRALHNEHRLIAD  213 (455)
+T ss_dssp             HHHHHHHHHHHHCCCSBCSSCHHHHHHHHHHCHHHHH
+T ss_pred             HHHHHHHHHHcccCcCCCCCCHHHHHHHHHhcccchh
+Confidence            567888888888993    467789999887655544
+
+
+No 2
+>7DFE_B Spidroin, TuSp2, Eggcase silk, PROTEIN; NMR {Nephila antipodiana}
+Probab=21.39  E-value=48  Score=22.81  Aligned_cols=20  Identities=55%  Similarity=0.378  Sum_probs=17.2  Template_Neff=4.000
+
+Q ss_pred             HHHHhcccchccccchcccC
+Q tr|F8WE26|F8WE   25 YQQLKGEQILLSDNAASLAV   44 (45)
+Q Consensus        25 yqqlkgeqillsdnaaslav   44 (45)
+                      -|-|.+|.||-.+||++||.
+T Consensus       106 a~~L~~qGiLn~~NA~sLAs  125 (142)
+T 7DFE_B          106 AGSLFLEGILNSDNAATLAK  125 (142)
+T ss_dssp             HHHHHTTTCCCTTHHHHHHH
+T ss_pred             HHHHHHcCCCCHHHHHHHHH
+Confidence            46789999999999999873
+
+
+No 3
+>1U7M_B Diiron proteins, four-helix bundle, protein; HET: ZN; NMR {Escherichia coli} SCOP: k.8.1.1
+Probab=18.38  E-value=1.8e+02  Score=12.26  Aligned_cols=25  Identities=12%  Similarity=0.256  Sum_probs=15.4  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHhCCCCCCchHHHHHHhcc
+Q tr|F8WE26|F8WE    7 AFVSQIAAAEPWPENATLYQQLKGE   31 (45)
+Q Consensus         7 afvsqiaaaepwpenatlyqqlkge   31 (45)
+                      .|..+++...+-|+...+++++..+
+T Consensus        16 ~~y~~~~~~~~~~~~~~~~~~l~~~   40 (53)
+T 1U7M_B           16 KLYREASEKARNPEKKSVLQKILED   40 (53)
+T ss_dssp             HHHHHHHHHTCSHHHHTTHHHHHHH
+T ss_pred             HHHHHHHHHcCCHHHHHHHHHHHHH
+Confidence            3455566666667777777766543
+
+
+No 4
+>7A5P_W UNKNOWN, Pre-mRNA-processing-splicing factor 8, SNW; human C complex, spliceosome, hC; HET: MSE; 5.0A {Homo sapiens}
+Probab=13.74  E-value=3.1e+02  Score=15.70  Aligned_cols=27  Identities=33%  Similarity=0.287  Sum_probs=20.5  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHhCCCCCCchHHHHHHhcccc
+Q tr|F8WE26|F8WE    7 AFVSQIAAAEPWPENATLYQQLKGEQI   33 (45)
+Q Consensus         7 afvsqiaaaepwpenatlyqqlkgeqi   33 (45)
+                      +....|+.+..+-|-..+...|++.+|
+T Consensus       203 ~~~~~~~~~~~~~e~~~~~~~l~~~~~  229 (255)
+T 7A5P_W          203 AIKNAIANASTLAEVERLKGLLQSGQI  229 (255)
+T ss_pred             HHHHHHHhCCCHHHHHHHHHHHHcCCC
+Confidence            455677788888888888888887766
+
+
+No 5
+>1CYI_A CYTOCHROME C6, PROTOPORPHYRIN IX CONTAINING; PHOTOSYNTHESIS, CHLAMYDOMONAS, ELECTRON TRANSPORT PROTEIN; HET: HEC; 1.9A {Chlamydomonas reinhardtii} SCOP: a.3.1.1
+Probab=12.37  E-value=2.6e+02  Score=10.91  Aligned_cols=11  Identities=27%  Similarity=0.510  Sum_probs=5.2  Template_Neff=14.300
+
+Q ss_pred             HHHHHhCCCCC
+Q tr|F8WE26|F8WE    9 VSQIAAAEPWP   19 (45)
+Q Consensus         9 vsqiaaaepwp   19 (45)
+                      +.......+||
+T Consensus        79 ~~~~~~~~~~~   89 (90)
+T 1CYI_A           79 VFKQATDAAWK   89 (90)
+T ss_dssp             HHHHHHHTCCC
+T ss_pred             HHHhccchhcc
+Confidence            33444455555
+
+
+No 6
+>1CYJ_A CYTOCHROME C6, PROTOPORPHYRIN IX CONTAINING; PHOTOSYNTHESIS, CHLAMYDOMONAS, ELECTRON TRANSPORT PROTEIN; HET: HEC; 1.9A {Chlamydomonas reinhardtii} SCOP: a.3.1.1
+Probab=12.37  E-value=2.6e+02  Score=10.91  Aligned_cols=12  Identities=25%  Similarity=0.609  Sum_probs=6.2  Template_Neff=14.300
+
+Q ss_pred             HHHHHHhCCCCC
+Q tr|F8WE26|F8WE    8 FVSQIAAAEPWP   19 (45)
+Q Consensus         8 fvsqiaaaepwp   19 (45)
+                      ++.......+||
+T Consensus        78 ~~~~~~~~~~~~   89 (90)
+T 1CYJ_A           78 YVFKQATDAAWK   89 (90)
+T ss_dssp             HHHHHHHTTCCC
+T ss_pred             HHHHhccchhcc
+Confidence            344445555665
+
+
+No 7
+>3JB9_j Pre-mRNA-splicing factor spp42, Pre-mRNA-splicing factor; Spliceosome, U2/U5/U6, Lariat, RNA BINDING; HET: ADP, GDP; 3.6A {Schizosaccharomyces pombe 972h-}
+Probab=11.51  E-value=4e+02  Score=15.66  Aligned_cols=17  Identities=29%  Similarity=0.182  Sum_probs=6.3  Template_Neff=10.800
+
+Q ss_pred             HHhCCCCCCchHHHHHH
+Q tr|F8WE26|F8WE   12 IAAAEPWPENATLYQQL   28 (45)
+Q Consensus        12 iaaaepwpenatlyqql   28 (45)
+                      |..|..+-|-..|.+.|
+T Consensus       216 ~~~a~~~~e~~~l~~~l  232 (239)
+T 3JB9_j          216 IKNASSIAEINRLEAML  232 (239)
+T ss_pred             HHhCCCHHHHHHHHHHH
+Confidence            33333333333333333
+
+
+No 8
+>6W1G_A Hydroxyglutarate synthase; Decarboxylase Lysine catabolism, LYASE; 1.14A {Pseudomonas putida}
+Probab=11.31  E-value=4.6e+02  Score=20.41  Aligned_cols=33  Identities=36%  Similarity=0.596  Sum_probs=23.5  Template_Neff=6.100
+
+Q ss_pred             hHHHHHHHHhCCCCCC----chHHHHHHhcccchccc
+Q tr|F8WE26|F8WE    5 AEAFVSQIAAAEPWPE----NATLYQQLKGEQILLSD   37 (45)
+Q Consensus         5 aeafvsqiaaaepwpe----natlyqqlkgeqillsd   37 (45)
+                      |+.|+.+....-.|..    ....|++|+.+.=++.|
+T Consensus       179 a~~fv~~~~~~f~w~~~~~v~~~~Y~~L~~~s~~aAw  215 (464)
+T 6W1G_A          179 AETFVQEALHTFRWHQDATVTAEQYQQLHDQHRLIAD  215 (464)
+T ss_dssp             HHHHHHHHHHTTCCCCBCSSCHHHHHHHHHHCHHHHH
+T ss_pred             HHHHHHHHHHhcCCCCCCCCCHHHHHHHHHhchHHHH
+Confidence            5677877777666653    67789999987655444
+
+
+No 9
+>6W1H_A Hydroxyglutarate synthase; Decarboxylase, Lysine catabolism, LYASE; HET: OOG; 1.42A {Pseudomonas putida}
+Probab=11.31  E-value=4.6e+02  Score=20.41  Aligned_cols=33  Identities=36%  Similarity=0.596  Sum_probs=23.5  Template_Neff=6.100
+
+Q ss_pred             hHHHHHHHHhCCCCCC----chHHHHHHhcccchccc
+Q tr|F8WE26|F8WE    5 AEAFVSQIAAAEPWPE----NATLYQQLKGEQILLSD   37 (45)
+Q Consensus         5 aeafvsqiaaaepwpe----natlyqqlkgeqillsd   37 (45)
+                      |+.|+.+....-.|..    ....|++|+.+.=++.|
+T Consensus       179 a~~fv~~~~~~f~w~~~~~v~~~~Y~~L~~~s~~aAw  215 (464)
+T 6W1H_A          179 AETFVQEALHTFRWHQDATVTAEQYQQLHDQHRLIAD  215 (464)
+T ss_dssp             HHHHHHHHHHTTSCCSBCSSCHHHHHHHHHHCHHHHH
+T ss_pred             HHHHHHHHHHhcCCCCCCCCCHHHHHHHHHhchHHHH
+Confidence            5677877777666653    67789999987655444
+
+
+No 10
+>3OLL_A Estrogen receptor beta, Nuclear receptor; Steroid binding, Phosphorylation, HORMONE RECEPTOR-ACTIVATOR; HET: PTR, EST; 1.5A {Homo sapiens}
+Probab=11.03  E-value=5.4e+02  Score=14.38  Aligned_cols=19  Identities=32%  Similarity=0.322  Sum_probs=13.7  Template_Neff=11.800
+
+Q ss_pred             CchhHHHHHHHHhCCCCCC
+Q tr|F8WE26|F8WE    2 SLVAEAFVSQIAAAEPWPE   20 (45)
+Q Consensus         2 slvaeafvsqiaaaepwpe   20 (45)
+                      ++-.+.+++++..++|-+.
+T Consensus         2 ~~~~~~~~~~l~~~~~~~~   20 (240)
+T 3OLL_A            2 ALSPEQLVLTLLEAEPPHV   20 (240)
+T ss_dssp             CCSHHHHHHHHHHHCCCCC
+T ss_pred             CCCHHHHHHHHHHhCCCCc
+Confidence            3456788888888887554
+
+

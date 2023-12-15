@@ -1,0 +1,170 @@
+Query         tr|K7EP09|K7EP09_HUMAN
+Match_columns 90
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:21:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0659.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TS2_B UDP-glucose-glycoprotei  34.1 2.1E+02  0.0023   26.1   5.2   41    8-48    658-698 (1260)
+  2 6TS2_D UDP-glucose-glycoprotei  34.1 2.1E+02  0.0023   26.1   5.2   41    8-48    658-698 (1260)
+  3 6TS8_B UDP-glucose-glycoprotei  34.0 2.1E+02  0.0023   26.2   5.2   40    9-48    886-925 (1382)
+  4 5NV4_A UDP-glucose-glycoprotei  32.4 2.3E+02  0.0025   26.2   5.2   41    8-48    892-932 (1494)
+  5 5N2J_B UDP-glucose-glycoprotei  31.5 2.5E+02  0.0027   26.0   5.2   41    8-48    892-932 (1494)
+  6 5Y7O_B UGGT; ENDOPLASMIC RETIC  23.4   4E+02  0.0043   24.0   5.0   41    8-48    888-928 (1130)
+  7 3O2B_C ATP-dependent Clp prote  22.8 3.2E+02  0.0035   17.9   3.4   37    7-43     68-104 (105)
+  8 2W9R_A ATP-DEPENDENT CLP PROTE  20.5 3.6E+02  0.0039   17.8   3.3   38    7-44     69-106 (108)
+  9 3LGD_B Adenosine deaminase CEC  17.6 1.3E+02  0.0014   23.7   0.9   20   63-82     71-90  (508)
+ 10 3LGG_B Adenosine deaminase CEC  17.6 1.3E+02  0.0014   23.7   0.9   21   62-82     70-90  (508)
+
+No 1
+>6TS2_B UDP-glucose-glycoprotein glucosyltransferase-like protein,UDP-glucose-glycoprotein glucosyltransferase-like protein; Endoplasmic Reticulum, Glycoprotein Folding, ERQC; HET: BMA, NAG, MAN; 5.74A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=34.14  E-value=2.1e+02  Score=26.11  Aligned_cols=41  Identities=22%  Similarity=0.421  Sum_probs=35.9  Template_Neff=8.800
+
+Q ss_pred             EEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    8 LLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         8 llvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      +.++.-|+..-+.|+++||.....+.+-.+-|+|.|...++
+T Consensus       658 i~~ivDPls~~aQk~~~il~~l~~~~~v~i~i~lnP~~~~~  698 (1260)
+T 6TS2_B          658 FVAVINPASEIGQRWVAVLKVLSELEGVHLRVFLNPTVMIE  698 (1260)
+T ss_dssp             EEEECCSSSTTHHHHHHHHHHHHTSTTEEEEEECCCCSCCC
+T ss_pred             EEEEECCCCHHHHHHHHHHHHHHhhhCCEEEEEECCCcccc
+Confidence            45667899999999999999999999999999999976554
+
+
+No 2
+>6TS2_D UDP-glucose-glycoprotein glucosyltransferase-like protein,UDP-glucose-glycoprotein glucosyltransferase-like protein; Endoplasmic Reticulum, Glycoprotein Folding, ERQC; HET: BMA, NAG, MAN; 5.74A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=34.14  E-value=2.1e+02  Score=26.11  Aligned_cols=41  Identities=22%  Similarity=0.421  Sum_probs=35.9  Template_Neff=8.800
+
+Q ss_pred             EEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    8 LLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         8 llvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      +.++.-|+..-+.|+++||.....+.+-.+-|+|.|...++
+T Consensus       658 i~~ivDPls~~aQk~~~il~~l~~~~~v~i~i~lnP~~~~~  698 (1260)
+T 6TS2_D          658 FVAVINPASEIGQRWVAVLKVLSELEGVHLRVFLNPTVMIE  698 (1260)
+T ss_dssp             EEEECCSSCTTHHHHHHHHHHHHTSTTEEEEEECCCCSCCC
+T ss_pred             EEEEECCCCHHHHHHHHHHHHHHhhhCCEEEEEECCCcccc
+Confidence            45667899999999999999999999999999999976554
+
+
+No 3
+>6TS8_B UDP-glucose-glycoprotein glucosyltransferase-like protein; Endoplasmic Reticulum, Glycoprotein Folding, ERQC; 4.6A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=33.96  E-value=2.1e+02  Score=26.22  Aligned_cols=40  Identities=23%  Similarity=0.414  Sum_probs=34.5  Template_Neff=9.000
+
+Q ss_pred             EEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    9 LVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         9 lvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      .++.-|+..-+.|++++|.....+.+-.+-|+|.|...++
+T Consensus       886 ~~ilDPlse~aQk~~~ll~~L~~~~~v~i~i~LnP~~~l~  925 (1382)
+T 6TS8_B          886 VAVINPASEIGQRWVAVLKVLSELEGVHLRVFLNPTVMIE  925 (1382)
+T ss_dssp             CCCBCSSCTTHHHHHHHHHHHHTSSSBCCCBCBCCCCCCS
+T ss_pred             EEEECCCCHHHHHHHHHHHHHHhhcCCEEEEEEcCCCccc
+Confidence            3456799999999999999999999989999999986653
+
+
+No 4
+>5NV4_A UDP-glucose-glycoprotein glucosyltransferase-like protein; glycoprotein, misfolding, transferase, endoplasmic reticulum; HET: BMA, NAG; 2.78A {Chaetomium thermophilum var. thermophilum DSM 1495}
+Probab=32.43  E-value=2.3e+02  Score=26.17  Aligned_cols=41  Identities=22%  Similarity=0.421  Sum_probs=36.0  Template_Neff=9.100
+
+Q ss_pred             EEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    8 LLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         8 llvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      +.++.-|+..-+.|++++|.....+.+-.+-|+|.|...+.
+T Consensus       892 i~aiiDPlSe~aQk~~~ll~~L~~~~~v~v~i~LnP~~~l~  932 (1494)
+T 5NV4_A          892 FVAVINPASEIGQRWVAVLKVLSELEGVHLRVFLNPTVMIE  932 (1494)
+T ss_dssp             EEEEECTTCSHHHHHHHHHHHHHTSTTEEEEEEECCCSCCS
+T ss_pred             EEEEECCCCHHHHHHHHHHHHHHhhcCCEEEEEECCCCCcc
+Confidence            35567899999999999999999999999999999986663
+
+
+No 5
+>5N2J_B UDP-glucose-glycoprotein glucosyltransferase-like protein; glycoprotein, misfolding, transferase, endoplasmic reticulum; HET: BMA, NAG, MAN; 4.4A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=31.46  E-value=2.5e+02  Score=26.02  Aligned_cols=41  Identities=22%  Similarity=0.421  Sum_probs=36.0  Template_Neff=9.100
+
+Q ss_pred             EEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    8 LLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         8 llvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      +.++.-|+..-+.|++++|.....+.+-.+-|+|.|...+.
+T Consensus       892 i~aiiDPlSe~aQk~~~ll~~L~~~~~v~v~i~LnP~~~l~  932 (1494)
+T 5N2J_B          892 FVAVINPASEIGQRWVAVLKVLSELEGVHLRVFLNPTVMIE  932 (1494)
+T ss_dssp             EEEEECTTCHHHHHHHHHHHHHHTSTTEEEEEEECCCSCCS
+T ss_pred             EEEEECCCCHHHHHHHHHHHHHHhhcCCEEEEEECCCcCcc
+Confidence            35567899999999999999999999999999999986663
+
+
+No 6
+>5Y7O_B UGGT; ENDOPLASMIC RETICULUM, QUALITY CONTROL, GLUCOSYLTRANSFERASE; HET: MSE; 3.1A {Thermomyces dupontii}
+Probab=23.43  E-value=4e+02  Score=24.00  Aligned_cols=41  Identities=20%  Similarity=0.323  Sum_probs=35.5  Template_Neff=9.000
+
+Q ss_pred             EEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCCCccc
+Q tr|K7EP09|K7EP    8 LLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPGMSLE   48 (90)
+Q Consensus         8 llvlttplaslaprlasiltsaarlvnhtlyvhlqpgmsle   48 (90)
+                      +.++.-|+..-+.|++++|.....+.+-.+-|+|.|...++
+T Consensus       888 v~ailDPlS~~aQk~~~ll~~L~~~~~v~i~v~LnP~~~~~  928 (1130)
+T 5Y7O_B          888 IVATIDPASERSQRWVPILRTLSKLNGVNVKIFLTPVRILQ  928 (1130)
+T ss_dssp             EEEEECTTCSTHHHHHHHHHHHHTSTTCEEEEEECCCSSCC
+T ss_pred             EEEEECCCCHHHHHHHHHHHHHHHhcCCeEEEEEccccchh
+Confidence            45566799999999999999999999999999999976554
+
+
+No 7
+>3O2B_C ATP-dependent Clp protease adaptor protein; adaptor, protein-peptide complex, peptide-binding protein; 2.05A {Escherichia coli}
+Probab=22.76  E-value=3.2e+02  Score=17.90  Aligned_cols=37  Identities=22%  Similarity=0.222  Sum_probs=27.0  Template_Neff=7.800
+
+Q ss_pred             cEEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECC
+Q tr|K7EP09|K7EP    7 GLLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQP   43 (90)
+Q Consensus         7 gllvlttplaslaprlasiltsaarlvnhtlyvhlqp   43 (90)
+                      |.-++.+.-...+.+++..+.+.+|...+.|.+.++|
+T Consensus        68 G~avV~~~~~e~ae~~~~~l~~~a~~~~~~L~~~i~~  104 (105)
+T 3O2B_C           68 GKAICGVFTAEVAETKVAMVNKYARENEHPLLCTLEK  104 (105)
+T ss_dssp             SEEEEEEEEHHHHHHHHHHHHHHHHHTTCCCEEEEEE
+T ss_pred             CcEEEEEeCHHHHHHHHHHHHHHHHHcCCCeEEEEEE
+Confidence            4444444446778888888988888888888887765
+
+
+No 8
+>2W9R_A ATP-DEPENDENT CLP PROTEASE ADAPTER PROTEIN; CHAPERONE, ADAPTOR PROTEIN, DNA CONDENSATION; 1.7A {ESCHERICHIA COLI}
+Probab=20.54  E-value=3.6e+02  Score=17.80  Aligned_cols=38  Identities=21%  Similarity=0.221  Sum_probs=28.0  Template_Neff=7.800
+
+Q ss_pred             cEEEEcCChhhhhHHHHHHHHHHHhhcCcEEEEEECCC
+Q tr|K7EP09|K7EP    7 GLLVLTTPLASLAPRLASILTSAARLVNHTLYVHLQPG   44 (90)
+Q Consensus         7 gllvlttplaslaprlasiltsaarlvnhtlyvhlqpg   44 (90)
+                      |--++.+.-...|..++..+.+.+|...+.|.+.+.|.
+T Consensus        69 G~avV~~~~~~~Ae~~~~~l~~~a~~~~~~L~~ti~~~  106 (108)
+T 2W9R_A           69 GKAICGVFTAEVAETKVAMVNKYARENEHPLLCTLEKA  106 (108)
+T ss_dssp             SEEEEEEEEHHHHHHHHHHHHHHHHHTTCCCEEEEEEC
+T ss_pred             CcEEEEeeCHHHHHHHHHHHHHHHHHcCCCcEEEEEEC
+Confidence            44444444566788888888888888889998887763
+
+
+No 9
+>3LGD_B Adenosine deaminase CECR1 (E.C.3.5.4.4); TIM barrel, dimerization and receptor; HET: NAG; 2.0A {Homo sapiens}
+Probab=17.64  E-value=1.3e+02  Score=23.69  Aligned_cols=20  Identities=25%  Similarity=0.391  Sum_probs=17.7  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHhcCCCccccce
+Q tr|K7EP09|K7EP   63 EVLDFITHLYAGADVHRHLD   82 (90)
+Q Consensus        63 evldfithlyagadvhrhld   82 (90)
+                      ++.+|+..+=-|++.|.|++
+T Consensus        71 ~l~~~l~~mPKGa~LH~Hl~   90 (508)
+T 3LGD_B           71 QVFNILRMMPKGAALHLHDI   90 (508)
+T ss_dssp             HHHHHHHHSCCEEEEEEETT
+T ss_pred             HHHHHHhcCCCCceeeeccc
+Confidence            57789999999999999985
+
+
+No 10
+>3LGG_B Adenosine deaminase CECR1 (E.C.3.5.4.4); TIM barrel, dimerization and receptor; HET: NAG, CFE; 2.5A {Homo sapiens}
+Probab=17.64  E-value=1.3e+02  Score=23.69  Aligned_cols=21  Identities=24%  Similarity=0.328  Sum_probs=18.1  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHhcCCCccccce
+Q tr|K7EP09|K7EP   62 FEVLDFITHLYAGADVHRHLD   82 (90)
+Q Consensus        62 fevldfithlyagadvhrhld   82 (90)
+                      -++.+|+..+=-|++.|.|++
+T Consensus        70 s~l~~~l~~mPKGa~LH~Hl~   90 (508)
+T 3LGG_B           70 SQVFNILRMMPKGAALHLHDI   90 (508)
+T ss_dssp             CHHHHHHHHSCCEEEEEEETT
+T ss_pred             cHHHHHHhcCCCCceeeeccc
+Confidence            367789999999999999985
+
+

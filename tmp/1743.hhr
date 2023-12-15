@@ -1,0 +1,166 @@
+Query         sp|Q8TCD1|CR032_HUMAN
+Match_columns 76
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:53:21 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1743.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LEZ_A Secreted effector prote  38.9      43 0.00046   23.4   1.6   17   45-61    129-145 (145)
+  2 6KHJ_Q Chlorophyll a-b binding  26.5      86 0.00094   20.1   1.3   15   45-59      3-17  (45)
+  3 6NBY_Q PROTEIN; photosynthesis  26.5      87 0.00094   20.1   1.3   15   45-59      3-17  (45)
+  4 6HUM_Q NAD(P)H-quinone oxidore  20.9 1.2E+02  0.0013   19.0   1.1   15   46-60      2-16  (39)
+  5 1I5P_A PESTICIDIAL CRYSTAL PRO  16.6 2.3E+02  0.0025   23.5   2.2   32    8-39     54-85  (633)
+  6 7NNL_C P-type ATPase, superfam  11.3 4.2E+02  0.0046   20.0   2.1   23   19-41     16-39  (190)
+  7 1KWM_B Procarboxypeptidase B;   10.6 5.4E+02  0.0058   19.6   2.4   19   23-41    198-223 (402)
+  8 6IAN_C Intraflagellar transpor  10.5 4.2E+02  0.0045   21.8   2.0   12    7-18    109-120 (454)
+  9 6IAN_D Intraflagellar transpor  10.5 4.2E+02  0.0045   21.8   2.0   12    7-18    109-120 (454)
+ 10 7JG5_b ATP synthase subunit al  10.1 3.4E+02  0.0037   17.7   1.2   11    9-19     38-48  (170)
+
+No 1
+>2LEZ_A Secreted effector protein pipB2; Structural Genomics, Northeast Structural Genomics; NMR {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=38.94  E-value=43  Score=23.45  Aligned_cols=17  Identities=41%  Similarity=0.569  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q sp|Q8TCD1|CR03   45 NDTNKGKVNFKGADMNG   61 (76)
+Q Consensus        45 ndtnkgkvnfkgadmng   61 (76)
+                      .-|..|++|++|||..+
+T Consensus       129 iLT~~G~inL~ga~Ls~  145 (145)
+T 2LEZ_A          129 ILTAQGGMNLKGAVLTG  145 (145)
+T ss_dssp             -----------------
+T ss_pred             cccCCCCcccCCCCCCC
+Confidence            45889999999999754
+
+
+No 2
+>6KHJ_Q Chlorophyll a-b binding protein, chloroplastic; Supercomplex, cyanobacteria, cyclic electron transport; HET: LMT, SF4, BCR, DGD, SQD, LMG, LHG, PL9;{Thermosynechococcus elongatus BP-1}
+Probab=26.46  E-value=86  Score=20.05  Aligned_cols=15  Identities=47%  Similarity=0.804  Sum_probs=13.1  Template_Neff=2.900
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q sp|Q8TCD1|CR03   45 NDTNKGKVNFKGADM   59 (76)
+Q Consensus        45 ndtnkgkvnfkgadm   59 (76)
+                      .|-|+|-..|+|||-
+T Consensus         3 sd~nrgiMkf~gaDs   17 (45)
+T 6KHJ_Q            3 TDFNRGIMKFDGADS   17 (45)
+T ss_dssp             TTSSSTTSCCTTSSS
+T ss_pred             cccccccccCCCCCC
+Confidence            578999999999984
+
+
+No 3
+>6NBY_Q PROTEIN; photosynthesis, bioenergetics, membrane protein complex; HET: SF4; 3.1A {Thermosynechococcus elongatus BP-1}
+Probab=26.45  E-value=87  Score=20.05  Aligned_cols=15  Identities=47%  Similarity=0.804  Sum_probs=13.1  Template_Neff=2.900
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q sp|Q8TCD1|CR03   45 NDTNKGKVNFKGADM   59 (76)
+Q Consensus        45 ndtnkgkvnfkgadm   59 (76)
+                      .|-|+|-..|+|||-
+T Consensus         3 sd~nrgiMkf~gaDs   17 (45)
+T 6NBY_Q            3 TDFNRGIMKFDGADS   17 (45)
+T ss_dssp             TTTSCSSSCCCSCCS
+T ss_pred             cccccccccCCCCCC
+Confidence            578999999999984
+
+
+No 4
+>6HUM_Q NAD(P)H-quinone oxidoreductase subunit 1 (E.C.1.6.5.-); Respiratory Complex, Ferredoxin, Cyclic electron; HET: LMG, BCR, SF4; 3.34A {Thermosynechococcus elongatus BP-1}
+Probab=20.87  E-value=1.2e+02  Score=19.01  Aligned_cols=15  Identities=27%  Similarity=0.430  Sum_probs=11.9  Template_Neff=2.900
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q sp|Q8TCD1|CR03   46 DTNKGKVNFKGADMN   60 (76)
+Q Consensus        46 dtnkgkvnfkgadmn   60 (76)
+                      |-|+|-..|+|||-.
+T Consensus         2 ~~~rgiMkf~gaDsp   16 (39)
+T 6HUM_Q            2 TDFRAIMKFDGADSP   16 (39)
+T ss_pred             CcccccccCCCCCCH
+Confidence            567888899999853
+
+
+No 5
+>1I5P_A PESTICIDIAL CRYSTAL PROTEIN CRY2AA; HELICAL BUNDLE, BETA PRISM, LECTIN-LIKE; 2.2A {Bacillus thuringiensis serovar kurstaki} SCOP: b.77.2.1, b.18.1.3, f.1.3.1
+Probab=16.55  E-value=2.3e+02  Score=23.49  Aligned_cols=32  Identities=22%  Similarity=0.151  Sum_probs=23.4  Template_Neff=8.100
+
+Q ss_pred             hHHHHHHHHHHHchhchHHhhchhhcccCCCC
+Q sp|Q8TCD1|CR03    8 VIPVLLWIYKKFLEPYIYPLVSPFVSRIWPKK   39 (76)
+Q Consensus         8 vipvllwiykkflepyiyplvspfvsriwpkk   39 (76)
+                      +-.++-++.+.+..++.-|+++.++.-+||+.
+T Consensus        54 ~~~i~~~l~~~~~~~~vg~~ls~li~~lwP~~   85 (633)
+T 1I5P_A           54 VGTVSSFLLKKVGSLIGKRILSELWGIIFPSG   85 (633)
+T ss_dssp             HHHHHHHHHHHHTSTTCCCCHHHHHHHHSGGG
+T ss_pred             HHHHHHHHHHHhchHHHHHHHHHHHHHHCCCC
+Confidence            33444456677777888888899999999964
+
+
+No 6
+>7NNL_C P-type ATPase, superfamily of K+; HET: ACP, K, CDL, SEP;{Escherichia coli}
+Probab=11.32  E-value=4.2e+02  Score=19.95  Aligned_cols=23  Identities=22%  Similarity=0.520  Sum_probs=15.5  Template_Neff=5.900
+
+Q ss_pred             HchhchHHhhchhhcc-cCCCCCC
+Q sp|Q8TCD1|CR03   19 FLEPYIYPLVSPFVSR-IWPKKAI   41 (76)
+Q Consensus        19 flepyiyplvspfvsr-iwpkkai   41 (76)
+                      ++--.+||++--.+++ ++|.+|-
+T Consensus        16 vl~G~~YPl~vtgi~q~~fp~qAn   39 (190)
+T 7NNL_C           16 LITGGVYPLLTTVLGQWWFPWQAN   39 (190)
+T ss_pred             HHHHHHHHHHHHHHHHHHcccccc
+Confidence            3445678887777776 6777663
+
+
+No 7
+>1KWM_B Procarboxypeptidase B; HYDROLASE, Procarboxypeptidase B; HET: CIT; 1.6A {Homo sapiens} SCOP: c.56.5.1, d.58.3.1
+Probab=10.64  E-value=5.4e+02  Score=19.60  Aligned_cols=19  Identities=32%  Similarity=0.609  Sum_probs=12.9  Template_Neff=8.900
+
+Q ss_pred             chHHhhchhh-------cccCCCCCC
+Q sp|Q8TCD1|CR03   23 YIYPLVSPFV-------SRIWPKKAI   41 (76)
+Q Consensus        23 yiyplvspfv-------sriwpkkai   41 (76)
+                      ||.|.+.|--       .|.|.|..-
+T Consensus       198 ~ivP~~NPDGy~~s~~~~r~wrk~r~  223 (402)
+T 1KWM_B          198 YVLPVLNIDGYIYTWTKSRFWRKTRS  223 (402)
+T ss_dssp             EEESCSCHHHHHHHHHTCTTCCSCCC
+T ss_pred             EEEecccCCchhhcccCCCcccccCC
+Confidence            5677777753       688887643
+
+
+No 8
+>6IAN_C Intraflagellar transport protein 22; Intraflagellar transport protein 22, IFT74; HET: GTP, MSE; 3.2A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=10.53  E-value=4.2e+02  Score=21.83  Aligned_cols=12  Identities=25%  Similarity=0.980  Sum_probs=9.4  Template_Neff=7.100
+
+Q ss_pred             ChHHHHHHHHHH
+Q sp|Q8TCD1|CR03    7 IVIPVLLWIYKK   18 (76)
+Q Consensus         7 ivipvllwiykk   18 (76)
+                      ++-|+|.|+...
+T Consensus       109 ~i~piL~wlL~~  120 (454)
+T 6IAN_C          109 VIYPTLYWVLSN  120 (454)
+T ss_pred             hHHHHHHHHHHC
+Confidence            577899998764
+
+
+No 9
+>6IAN_D Intraflagellar transport protein 22; Intraflagellar transport protein 22, IFT74; HET: GTP, MSE; 3.2A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=10.53  E-value=4.2e+02  Score=21.83  Aligned_cols=12  Identities=25%  Similarity=0.980  Sum_probs=9.6  Template_Neff=7.100
+
+Q ss_pred             ChHHHHHHHHHH
+Q sp|Q8TCD1|CR03    7 IVIPVLLWIYKK   18 (76)
+Q Consensus         7 ivipvllwiykk   18 (76)
+                      ++-|+|.|+...
+T Consensus       109 ~i~piL~wlL~~  120 (454)
+T 6IAN_D          109 VIYPTLYWVLSN  120 (454)
+T ss_dssp             HHHHHHHHHHHS
+T ss_pred             hHHHHHHHHHHC
+Confidence            467999999864
+
+
+No 10
+>7JG5_b ATP synthase subunit alpha (E.C.7.1.2.2); Bedaquiline, Sirturo, TMC207, T207910, ATP; HET: ADP, ATP, PO4; 3.4A {Mycolicibacterium smegmatis}
+Probab=10.10  E-value=3.4e+02  Score=17.72  Aligned_cols=11  Identities=18%  Similarity=0.392  Sum_probs=4.9  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHH
+Q sp|Q8TCD1|CR03    9 IPVLLWIYKKF   19 (76)
+Q Consensus         9 ipvllwiykkf   19 (76)
+                      +.+|+|+..+|
+T Consensus        38 F~il~~~l~~~   48 (170)
+T 7JG5_b           38 FLIVLGVISKW   48 (170)
+T ss_pred             HHHHHHHHHHh
+Confidence            33444444444
+
+

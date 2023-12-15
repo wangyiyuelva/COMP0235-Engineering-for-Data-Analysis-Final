@@ -1,0 +1,534 @@
+Query         tr|C9JAM9|C9JAM9_HUMAN
+Match_columns 118
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:21:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0026.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YKN_A Pi3K alpha p85a(318-615  99.9 5.3E-28 5.8E-33  209.6   4.6  116    2-117   317-432 (1383)
+  2 2V1Y_A PHOSPHATIDYLINOSITOL-4,  99.9 9.3E-27   1E-31  154.0   7.0  107    1-107     1-107 (108)
+  3 5SWP_A Phosphatidylinositol 4,  99.9 3.4E-27 3.6E-32  201.3   5.2  117    1-117    29-145 (1096)
+  4 4JPS_A Phosphatidylinositol 4,  99.9   1E-26 1.1E-31  196.8   5.7  117    1-117     1-117 (1074)
+  5 7OI4_AAA Inhibitor, complex, p  99.9 2.1E-26 2.3E-31  196.8   5.3  110    8-118    42-158 (1084)
+  6 5DXH_A Phosphatidylinositol 4,  99.9 3.7E-26 4.1E-31  193.4   5.3  116    2-117     1-116 (1067)
+  7 2Y3A_A PHOSPHATIDYLINOSITOL-4,  99.9 1.8E-24 1.9E-29  184.7   4.2  110    7-117    36-148 (1092)
+  8 6EZ6_A Phosphatidylinositol 4,  99.9 3.4E-24 3.7E-29  181.4   4.5  110    7-117     8-124 (1051)
+  9 7LM2_A Phosphatidylinositol 4,  99.9 1.2E-22 1.3E-27  170.6   3.9  102   16-117     5-106 (1020)
+ 10 7MEZ_A PI3K, p110, PIK3CG, PIK  99.8 3.4E-19 3.7E-24  153.7   2.8   98   18-117    36-154 (1102)
+ 11 4HHU_A OR280; Engineered Prote  50.4      92   0.001   26.2   5.2   20   33-53     86-105 (170)
+ 12 1J7G_A D-tyrosyl-tRNA(Tyr) dea  29.5 1.2E+02  0.0013   20.8   2.5   20   27-46     24-43  (144)
+ 13 2Q79_A Regulatory protein E2;   27.5 1.5E+02  0.0016   21.8   2.8   10   67-76     47-56  (93)
+ 14 4NBI_A D-tyrosyl-tRNA(Tyr) dea  27.0 1.5E+02  0.0016   21.4   2.7   19   27-45     34-52  (164)
+ 15 1JKE_D D-Tyr-tRNATyr deacylase  26.5 1.4E+02  0.0015   20.4   2.4   20   27-46     24-43  (145)
+ 16 2DBO_A D-tyrosyl-tRNA(Tyr) dea  26.3 1.9E+02   0.002   20.1   3.0   22   26-47     23-44  (148)
+ 17 1JJH_A REGULATORY PROTEIN E2;   24.5   2E+02  0.0022   20.7   3.0    7   69-75     52-58  (86)
+ 18 1F9F_C REGULATORY PROTEIN E2;   22.4 2.4E+02  0.0026   20.1   3.0    9   41-49     16-24  (83)
+ 19 1F9F_D REGULATORY PROTEIN E2;   22.4 2.4E+02  0.0026   20.1   3.0    9   41-49     16-24  (83)
+ 20 5XAQ_A Probable D-tyrosyl-tRNA  22.3 1.7E+02  0.0018   21.0   2.2   14   29-42     41-54  (168)
+ 21 5XAQ_B Probable D-tyrosyl-tRNA  22.3 1.7E+02  0.0018   21.0   2.2   14   29-42     41-54  (168)
+ 22 1R8H_F Regulatory protein E2;   22.2 2.3E+02  0.0024   20.4   2.8    8   42-49     16-23  (87)
+ 23 2AYB_A PROTEIN/DNA Complex; Pr  22.2 2.3E+02  0.0024   20.4   2.8    8   42-49     16-23  (87)
+ 24 2AYE_B Regulatory protein E2;   22.2 2.3E+02  0.0024   20.4   2.8    8   42-49     16-23  (87)
+ 25 3AQX_A Beta-1,3-glucan-binding  21.7 1.9E+02  0.0021   19.0   2.3   18   19-36      7-24  (104)
+ 26 3AQX_B Beta-1,3-glucan-binding  21.7 1.9E+02  0.0021   19.0   2.3   18   19-36      7-24  (104)
+
+No 1
+>4YKN_A Pi3K alpha p85a(318-615)-linker(GSPGISGGGGG)-p110a fusion protein; "Lipid Kinase", inhibitor, complex, Pi3K; HET: 4EL; 2.9A {Homo sapiens}
+Probab=99.94  E-value=5.3e-28  Score=209.63  Aligned_cols=116  Identities=100%  Similarity=1.548  Sum_probs=101.1  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHH
+Q tr|C9JAM9|C9JA    2 PPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREE   81 (118)
+Q Consensus         2 pprpssgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaeree   81 (118)
+                      ++++.++++|+....++.++|+||||||+.+++.|+.++|+.+||+.||++|+++|+|+.+.++++|+|.+++.+|+.+|
+T Consensus       317 ~~~~~~~~~w~~~~~~~~i~v~~llPnG~~i~l~~~~~~Tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~ee  396 (1383)
+T 4YKN_A          317 PPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREE  396 (1383)
+T ss_dssp             ---------TTCSSCCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHGGGSTTGGGCCCGGGCEEEEEBTTCCEEE
+T ss_pred             CCCCchhhhhhccCCCCeEEEEEecCCCeEEEEEccccccHHHHHHHHHHHHhcCCcHHhcCCcccEEEEEEcCCCCeEe
+Confidence            44677799998766788999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHhhhcccccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   82 FFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        82 ffdetrrlcdlrlfqpflkviepvgnreekilnrei  117 (118)
+                      ++||+++||++++++|.|++++++++++++.++.+|
+T Consensus       397 ~~De~~~l~d~~~~~p~l~lve~~~~~~ek~l~~~I  432 (1383)
+T 4YKN_A          397 FFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  432 (1383)
+T ss_dssp             ECCTTSBGGGSCBSSSEEEEECCCSCHHHHHHHHHH
+T ss_pred             hhcccccccccccccceEEEecCCCCHHHHHHHHHH
+Confidence            999999999999999999999999999988776554
+
+
+No 2
+>2V1Y_A PHOSPHATIDYLINOSITOL-4,5-BISPHOSPHATE 3-KINASE CATALYTIC SUBUNIT ALPHA; KINASE, CANCER, SH2 DOMAIN, SH3; HET: MSE; 2.4A {BOS TAURUS}
+Probab=99.94  E-value=9.3e-27  Score=154.04  Aligned_cols=107  Identities=100%  Similarity=1.570  Sum_probs=86.9  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHH
+Q tr|C9JAM9|C9JA    1 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE   80 (118)
+Q Consensus         1 mpprpssgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaere   80 (118)
+                      |++++..+++|.....++.+.++|+||||..+++.|+.++|+.++|..+|.+|+++|+++.++++++|+|.+++++|+++
+T Consensus         1 ~~~~~~~~~~w~~~~~~~~i~v~~llPnG~~i~l~~~~~~tl~~iK~~lw~~A~~~pl~~~L~~~~~Y~f~~v~~~~~~~   80 (108)
+T 2V1Y_A            1 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE   80 (108)
+T ss_dssp             ---------------CCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHGGGSTTGGGCCCGGGCEEEEEBTTSCEE
+T ss_pred             CCCCCCccccccccCCCCEEEEEEeCCCceEEEeeehhcCChHHHHHHHHHHHhhCCcHHHcCCchhEEEEEEcCCCCeE
+Confidence            67778899999876677899999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHhhhcccccceeeecCCCC
+Q tr|C9JAM9|C9JA   81 EFFDETRRLCDLRLFQPFLKVIEPVGN  107 (118)
+Q Consensus        81 effdetrrlcdlrlfqpflkviepvgn  107 (118)
+                      |++||+++|++++++++.|++++++++
+T Consensus        81 E~~DE~~~L~dv~~~~~~l~l~e~~~~  107 (108)
+T 2V1Y_A           81 EFFDETRRLCDLRLFQPFLKVIEPVGN  107 (108)
+T ss_dssp             EECCTTSBGGGSCBSSSEEEEECCC--
+T ss_pred             EEecCcceehhcccccceeEEecCCCC
+Confidence            999999999999999999999987654
+
+
+No 3
+>5SWP_A Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; lipid kinase, phosphoinositide, 3-kinase, signaling; HET: 70W, 70V, SEP; 3.41A {Homo sapiens}
+Probab=99.94  E-value=3.4e-27  Score=201.27  Aligned_cols=117  Identities=100%  Similarity=1.547  Sum_probs=109.5  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHH
+Q tr|C9JAM9|C9JA    1 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE   80 (118)
+Q Consensus         1 mpprpssgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaere   80 (118)
+                      |++++.++++|+....++.++|+|+||||+.+++.|+.++|+.+||+.||++|+++|+++.+.++++|+|.+++++|+.+
+T Consensus        29 ~~~~~~~~~~~~~~~~~~~i~v~~llPnG~~i~l~~~~~~Tl~~lK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~e  108 (1096)
+T 5SWP_A           29 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE  108 (1096)
+T ss_dssp             CCCCCCCCSBTTBSSCCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHGGGSSCGGGCCCGGGCEEEEECTTSCEE
+T ss_pred             CCCCCCchhhhhccCCCCEEEEEEEcCCccEEEEEecccCcHHHHHHHHHHHHhcCCcHHhcCCchhEEEEEEcCCCCee
+Confidence            34567889999887788899999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHhhhcccccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   81 EFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        81 effdetrrlcdlrlfqpflkviepvgnreekilnrei  117 (118)
+                      |++||+++||++++++|.|++++++++++++.++.+|
+T Consensus       109 e~~DE~~~l~dl~~~~p~L~lve~~~~~~ek~l~~~I  145 (1096)
+T 5SWP_A          109 EFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  145 (1096)
+T ss_dssp             EECCTTSBTTTTCCSSSEEEEECCCSSCTGGGTTHHH
+T ss_pred             ehhcccccccccccccceeeEecCCCCHHHHHHHHHH
+Confidence            9999999999999999999999999999998887655
+
+
+No 4
+>4JPS_A Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; Class I Phosphatidylinositol 3-Kinases, p85; HET: 1LT; 2.2A {Homo sapiens}
+Probab=99.93  E-value=1e-26  Score=196.84  Aligned_cols=117  Identities=100%  Similarity=1.547  Sum_probs=109.5  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHH
+Q tr|C9JAM9|C9JA    1 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE   80 (118)
+Q Consensus         1 mpprpssgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaere   80 (118)
+                      |++++.++++|.....++.++|+||||||+.+++.|+.++|+++||+.+|++|+++|+++.+.++++|+|.+++++|+.+
+T Consensus         1 ~~~~~~~~~~w~~~~~~~~i~v~~llP~G~~i~l~~~~~~Tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~e   80 (1074)
+T 4JPS_A            1 MPPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAERE   80 (1074)
+T ss_dssp             -CCCSSSSSBTTBSSCCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHGGGSTTGGGCCCGGGCEEEEEBTTSCEE
+T ss_pred             CCCCCCcccchhccCCCCEEEEEEECCCccEEEEEecccCcHHHHHHHHHHHHhcCCcHHhcCCchhEEEEEEcCCcCee
+Confidence            77888999999887788899999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHhhhcccccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   81 EFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        81 effdetrrlcdlrlfqpflkviepvgnreekilnrei  117 (118)
+                      |++||+++||++++++|.|++++++++++++.++.+|
+T Consensus        81 el~DE~~~l~~l~~~~p~L~lve~~~~~~ek~~~~~I  117 (1074)
+T 4JPS_A           81 EFFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (1074)
+T ss_dssp             EECCTTSBGGGSCBSSSEEEEECCCSCHHHHHHHHHH
+T ss_pred             ehhcccccccccccccceeeEecCCCCHHHHHHHHHH
+Confidence            9999999999999999999999999999888776554
+
+
+No 5
+>7OI4_AAA Inhibitor, complex, phosphor inositol 3; HET: VEQ; 1.8A {Mus musculus}
+Probab=99.93  E-value=2.1e-26  Score=196.77  Aligned_cols=110  Identities=37%  Similarity=0.691  Sum_probs=102.8  Template_Neff=8.300
+
+Q ss_pred             CCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHHHHHHHH
+Q tr|C9JAM9|C9JA    8 GELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDETR   87 (118)
+Q Consensus         8 gelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaereeffdetr   87 (118)
+                      .++|... ..+.+.|+|+||||+.+++.|+.++|+.+||+.+|++|+++|+++.+.++++|+|.+++.+|+.+|++||++
+T Consensus        42 ~~~w~~~-~~~~i~v~~llPng~~i~l~~~~~~Tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~ee~~DE~~  120 (1084)
+T 7OI4_AAA         42 MEFWTKE-ESQSVVVDFLLPTGVYLNFPVSRNANLSTIKQVLWHRAQYEPLFHMLSDPEAYVFTCVNQTAEQQELEDEQR  120 (1084)
+T ss_pred             hhhhccC-CCCeEEEEEECCCccEEEeecCCCCCHHHHHHHHHHHHhhCCcHHhCCCchhEEEEEEcCCCCeEEehhhhh
+Confidence            8999664 566899999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHhhhcccccceeeecCC-------CCcccccccCCCC
+Q tr|C9JAM9|C9JA   88 RLCDLRLFQPFLKVIEPV-------GNREEKILNREIG  118 (118)
+Q Consensus        88 rlcdlrlfqpflkviepv-------gnreekilnreig  118 (118)
+                      +||++++++|.|+++++.       ++++|+.++.+|+
+T Consensus       121 ~L~d~~~~~p~L~lve~~~~~~~~~~~~~ek~l~~~I~  158 (1084)
+T 7OI4_AAA        121 RLCDIQPFLPVLRLVAREENLYFQGGDRVKKLINSQIS  158 (1084)
+T ss_pred             chhccccccCeEEEEeCccccccCCCCHHHHHHHHHHH
+Confidence            999999999999999998       8889988887764
+
+
+No 6
+>5DXH_A Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; lipid kinase, Transferase-Transferase Inhibitor complex; HET: 5H2; 3.0A {Homo sapiens}
+Probab=99.93  E-value=3.7e-26  Score=193.41  Aligned_cols=116  Identities=100%  Similarity=1.548  Sum_probs=108.1  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHH
+Q tr|C9JAM9|C9JA    2 PPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREE   81 (118)
+Q Consensus         2 pprpssgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaeree   81 (118)
+                      +++|+++++|+....++.++|+||||||+.+++.|+.++|+++||+.||++|+++|+++.+.++++|+|.+++++|+.+|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~i~v~~llP~G~~i~l~~~~~~Tl~~lK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~ee   80 (1067)
+T 5DXH_A            1 PPRPSSGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREE   80 (1067)
+T ss_dssp             CCCSCCCSBTTBSSCCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHHTTSTTGGGCCCGGGCEEEEEBTTSSEEE
+T ss_pred             CCCCCccccccccCCCCEEEEEEecCCceEEEEeccccCcHHHHHHHHHHHHhcCCcHHhcCCcccEEEEEEcCCCCEEe
+Confidence            36788899998777888999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHhhhcccccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   82 FFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        82 ffdetrrlcdlrlfqpflkviepvgnreekilnrei  117 (118)
+                      ++||+++||++++++|.|++++++++++++.++.+|
+T Consensus        81 ~~DE~~~l~dl~~~~p~L~lve~~~~~~ek~~~~~I  116 (1067)
+T 5DXH_A           81 FFDETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  116 (1067)
+T ss_dssp             ECCTTSBGGGSCBSSSEEEEECCCSCHHHHHHHHHH
+T ss_pred             hhcccccccccccccceEEEecCCCCHHHHHHHHHH
+Confidence            999999999999999999999999999888776554
+
+
+No 7
+>2Y3A_A PHOSPHATIDYLINOSITOL-4,5-BISPHOSPHATE 3-KINASE CATALYTIC SUBUNIT BETA; TRANSFERASE, PHOSPHOINOSITIDE 3-KINASE, RTK; HET: GD9; 3.3A {MUS MUSCULUS}
+Probab=99.90  E-value=1.8e-24  Score=184.74  Aligned_cols=110  Identities=42%  Similarity=0.697  Sum_probs=95.8  Template_Neff=8.400
+
+Q ss_pred             CCCCccee---cCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHHHH
+Q tr|C9JAM9|C9JA    7 SGELWGIH---LMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFF   83 (118)
+Q Consensus         7 sgelwgih---lmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaereeff   83 (118)
+                      ..+.|...   ...+.++|+|+||||+.+++.|+.++|+++||+.||++|+++|+++.+.++++|+|.+++++|+.+|++
+T Consensus        36 ~~~~w~~~~~~~~~~~i~vd~LLPnG~~i~l~~~~~~Tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~F~~v~~~~~~eEl~  115 (1092)
+T 2Y3A_A           36 NLDIWAVDSQIASDGAISVDFLLPTGIYIQLEVPREATISYIKQMLWKQVHNYPMFNLLMDIDSYMFACVNQTAVYEELE  115 (1092)
+T ss_dssp             -----CCSSCSSCCSEEEEEEECTTCCEEEEEEETTCBHHHHHHHHHHHGGGSTTTTSCCCGGGEEEEEEBSSSCEEECC
+T ss_pred             CccccccccCCCCCCeEEEEEEcCCccEEEEECCccccHHHHHHHHHHHHhcCCchHhcCCchheEEEEEcCCCCeEEEe
+Confidence            47788543   244689999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHhhhcccccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   84 DETRRLCDLRLFQPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        84 detrrlcdlrlfqpflkviepvgnreekilnrei  117 (118)
+                      ||+++||++++++|.|+++++.++++|+. +.+|
+T Consensus       116 DE~~~L~dl~~~~p~L~lve~~~~~~ek~-~~~I  148 (1092)
+T 2Y3A_A          116 DETRRLCDVRPFLPVLKLVTRSCDPAEKL-DSKI  148 (1092)
+T ss_dssp             CTTSBSGGGCBSSSCEEEEESCCCSSCSH-HHHH
+T ss_pred             CCCccHhhcccccceEEEEecCCChHHHH-HHHH
+Confidence            99999999999999999999999888876 5443
+
+
+No 8
+>6EZ6_A Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; Covalent inhibitor, kinase, drug discovery; HET: C5Z; 2.04A {Mus musculus}
+Probab=99.90  E-value=3.4e-24  Score=181.40  Aligned_cols=110  Identities=37%  Similarity=0.691  Sum_probs=7.5  Template_Neff=8.600
+
+Q ss_pred             CCCCcceecCCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHHHHHHH
+Q tr|C9JAM9|C9JA    7 SGELWGIHLMPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDET   86 (118)
+Q Consensus         7 sgelwgihlmpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaereeffdet   86 (118)
+                      +.++|... ..+.++|+|+||||+.+++.|+.++|+.+||+.+|++|+++|+++.+.++++|+|.+++.+|+.+|++||+
+T Consensus         8 ~~~~w~~~-~~~~~~v~~llP~g~~i~l~~~~~~tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~f~~i~~~~~~ee~~De~   86 (1051)
+T 6EZ6_A            8 PMEFWTKE-ESQSVVVDFLLPTGVYLNFPVSRNANLSTIKQVLWHRAQYEPLFHMLSDPEAYVFTCVNQTAEQQELEDEQ   86 (1051)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             cchhcccC-CCCeEEEEEECCCccEEEeecCCCCCHHHHHHHHHHHHhhCCchHhCCCchhEEEEEEcCCCCeEEeeccc
+Confidence            58999653 66689999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHhhhcccccceeeecCC-------CCcccccccCCC
+Q tr|C9JAM9|C9JA   87 RRLCDLRLFQPFLKVIEPV-------GNREEKILNREI  117 (118)
+Q Consensus        87 rrlcdlrlfqpflkviepv-------gnreekilnrei  117 (118)
+                      ++||++++++|.|++++++       ++++|+.++.+|
+T Consensus        87 ~~l~d~~~~~p~l~lve~~~~~~~~~~~~~ek~l~~~I  124 (1051)
+T 6EZ6_A           87 RRLCDIQPFLPVLRLVAREENLYFQGGDRVKKLINSQI  124 (1051)
+T ss_dssp             ---------------------------CHHHHHHHHHH
+T ss_pred             ccHhccccccCeEEEEeCccccccCCCCHHHHHHHHHH
+Confidence            9999999999999999998       888887766544
+
+
+No 9
+>7LM2_A Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; PI3KDELTA KINASE, TRANSFERASE, TRANSFERASE-TRANSFERASE INHIBITOR; HET: Y5Y; 2.79A {Homo sapiens}
+Probab=99.87  E-value=1.2e-22  Score=170.57  Aligned_cols=102  Identities=36%  Similarity=0.674  Sum_probs=96.0  Template_Neff=8.800
+
+Q ss_pred             CCCeEEEEEeCCCCcEEEEeeccccchhhhhhHHhhhhccCChhhhccCCCcEEEEEecChhhHHHHHHHHHHHhhhccc
+Q tr|C9JAM9|C9JA   16 MPPRILVECLLPNGMIVTLECLREATLITIKHELFKEARKYPLHQLLQDESSYIFVSVTQEAEREEFFDETRRLCDLRLF   95 (118)
+Q Consensus        16 mpprilvecllpngmivtleclreatlitikhelfkearkyplhqllqdessyifvsvtqeaereeffdetrrlcdlrlf   95 (118)
+                      ..+.++|+|+||||+.+++.|+.++|+++||+.+|++|+++|+++.+.++++|+|.+++.+|+.+|++||+++||+++++
+T Consensus         5 ~~~~i~v~~llPng~~i~l~~~~~~Tl~~iK~~lw~~a~~~pl~~~l~~~~~Y~f~~v~~~~~~ee~~DE~~~L~d~~~~   84 (1020)
+T 7LM2_A            5 ENQSVVVDFLLPTGVYLNFPVSRNANLSTIKQLLWHRAQYEPLFHMLSGPEAYVFTCINQTAEQQELEDEQRRLCDVQPF   84 (1020)
+T ss_dssp             CCSEEEEEEECTTSCEEEEEEETTCBHHHHHHHHHHHHTTSTTGGGSCCGGGEEEEEEBTTSCEEEECCTTSBHHHHCBS
+T ss_pred             cCCeEEEEEECCCCcEEEeEcCCCCCHHHHHHHHHHHHhhCCchHhCCCcceEEEEEEcCCCCeEEEeccccchhhcccc
+Confidence            55689999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ccceeeecCCCCcccccccCCC
+Q tr|C9JAM9|C9JA   96 QPFLKVIEPVGNREEKILNREI  117 (118)
+Q Consensus        96 qpflkviepvgnreekilnrei  117 (118)
+                      +|.|+++++.+.++|+.++.+|
+T Consensus        85 ~p~L~lve~~~~~~ek~l~~~I  106 (1020)
+T 7LM2_A           85 LPVLRLVAREGDRVKKLINSQI  106 (1020)
+T ss_dssp             SSEEEEEESCSCHHHHHHHHHH
+T ss_pred             cCeEEEEeCCCCHHHHHHHHHH
+Confidence            9999999999998888776554
+
+
+No 10
+>7MEZ_A PI3K, p110, PIK3CG, PIK3R5, p101;{Homo sapiens}
+Probab=99.76  E-value=3.4e-19  Score=153.73  Aligned_cols=98  Identities=14%  Similarity=0.241  Sum_probs=83.1  Template_Neff=8.200
+
+Q ss_pred             CeEEEEEeCCCCcE-------EEEeeccccchhhhhhHHhhhhcc--C--ChhhhccCCCcEEEEEecChhhHHHHHHHH
+Q tr|C9JAM9|C9JA   18 PRILVECLLPNGMI-------VTLECLREATLITIKHELFKEARK--Y--PLHQLLQDESSYIFVSVTQEAEREEFFDET   86 (118)
+Q Consensus        18 prilvecllpngmi-------vtleclreatlitikhelfkeark--y--plhqllqdessyifvsvtqeaereeffdet   86 (118)
+                      +.+.++|+||||..       +++.|+.++|+++||+.+|.+|++  +  |+|+.+. +++|+|.++++ |+.+|++||+
+T Consensus        36 ~~~~v~~llPng~~~~~~~~~i~l~~~~~~Tl~~iK~~lw~~a~~~~~~~pl~~~l~-~~~Y~f~~v~~-~~~eEl~DE~  113 (1102)
+T 7MEZ_A           36 ELIPIEFVLPTSQRKCKSPETALLHVAGHGNVEQMKAQVWLRALETSVAADFYHRLG-PHHFLLLYQKK-GQWYEIYDKY  113 (1102)
+T ss_dssp             ----CEEEEC-------CCEEEECCCCTTSSCCTHHHHHHHHHHHHCHHHHHHHTTS-CSCEEEEEESS-SSEEECCCSS
+T ss_pred             CeEEEEEECCCCCCCCCCCCceEEEecCCCCHHHHHHHHHHHHHHhccCCchhHhhC-cceEEEEEEeC-CeeEEEEcCC
+Confidence            46899999999999       999999999999999999999999  7  8899888 99999999998 8999999999
+
+
+Q ss_pred             HHH-h-hhcccccc-------eeeecCCCCccccc-ccCCC
+Q tr|C9JAM9|C9JA   87 RRL-C-DLRLFQPF-------LKVIEPVGNREEKI-LNREI  117 (118)
+Q Consensus        87 rrl-c-dlrlfqpf-------lkviepvgnreeki-lnrei  117 (118)
+                      ++| + ++++++|.       |+++++.++++|+. ++.+|
+T Consensus       114 ~~L~~ld~~~~~~~~~~~~~~l~l~e~~~~~~ek~~l~~~I  154 (1102)
+T 7MEZ_A          114 QVVQTLDCLRYWKATHRSPGQIHLVQRHPPSEESQAFQRQL  154 (1102)
+T ss_dssp             CGGGGHHHHHHHHHHTCCSCEEEEEECCCCCHHHHHHHHHH
+T ss_pred             cEEecceeeeeccccCCCCCeEEEEECCCCcHHHHHHHHHH
+Confidence            999 8 99999999       99999999888876 55443
+
+
+No 11
+>4HHU_A OR280; Engineered Protein, PSI-Biology, Protein Structure; HET: PG4, AE4, MSE; 2.0A {synthetic construct}
+Probab=50.35  E-value=92  Score=26.25  Aligned_cols=20  Identities=10%  Similarity=0.029  Sum_probs=9.0  Template_Neff=2.200
+
+Q ss_pred             EEeeccccchhhhhhHHhhhh
+Q tr|C9JAM9|C9JA   33 TLECLREATLITIKHELFKEA   53 (118)
+Q Consensus        33 tleclreatlitikhelfkea   53 (118)
+                      .+.+.+ ..+..+...+|+..
+T Consensus        86 iiif~G-dD~eAl~~a~~~mi  105 (170)
+T 4HHU_A           86 VIVFEG-DDLEALEKALKEMI  105 (170)
+T ss_dssp             EEEEEC-SCHHHHHHHHHHHH
+T ss_pred             EEEEEc-CCHHHHHHHHHHHH
+Confidence            344433 34445544555533
+
+
+No 12
+>1J7G_A D-tyrosyl-tRNA(Tyr) deacylase; D-Tyr-tRNA(Tyr) deacylase, structural genomics, hypothetical; 1.64A {Haemophilus influenzae Rd KW20} SCOP: c.110.1.1
+Probab=29.54  E-value=1.2e+02  Score=20.79  Aligned_cols=20  Identities=20%  Similarity=0.257  Sum_probs=10.8  Template_Neff=9.000
+
+Q ss_pred             CCCcEEEEeeccccchhhhh
+Q tr|C9JAM9|C9JA   27 PNGMIVTLECLREATLITIK   46 (118)
+Q Consensus        27 pngmivtleclreatlitik   46 (118)
+                      -.|.++-+.+...+|-..+.
+T Consensus        24 ~~Gl~v~v~~~~~d~~~~~~   43 (144)
+T 1J7G_A           24 GKGLLVLLGVEKEDNREKAD   43 (144)
+T ss_dssp             SSEEEEEEECBTTCCHHHHH
+T ss_pred             cCeEEEEEEEecCCCHHHHH
+Confidence            34555555555566655553
+
+
+No 13
+>2Q79_A Regulatory protein E2; Beta barrel, DNA BINDING PROTEIN; 1.8A {Human papillomavirus type 16} SCOP: d.58.8.1
+Probab=27.53  E-value=1.5e+02  Score=21.84  Aligned_cols=10  Identities=10%  Similarity=0.245  Sum_probs=4.1  Template_Neff=5.000
+
+Q ss_pred             cEEEEEecCh
+Q tr|C9JAM9|C9JA   67 SYIFVSVTQE   76 (118)
+Q Consensus        67 syifvsvtqe   76 (118)
+                      ..++...++.
+T Consensus        47 ~r~lv~F~s~   56 (93)
+T 2Q79_A           47 AIVTLTYDSE   56 (93)
+T ss_dssp             EEEEEECSSH
+T ss_pred             EEEEEEECCH
+Confidence            3344444443
+
+
+No 14
+>4NBI_A D-tyrosyl-tRNA(Tyr) deacylase (E.C.3.1.-.-); DTD, DEACYLASE, DTD-like, HYDROLASE; HET: PGE, D3Y; 1.86A {Plasmodium falciparum}
+Probab=27.01  E-value=1.5e+02  Score=21.41  Aligned_cols=19  Identities=26%  Similarity=0.286  Sum_probs=9.7  Template_Neff=8.300
+
+Q ss_pred             CCCcEEEEeeccccchhhh
+Q tr|C9JAM9|C9JA   27 PNGMIVTLECLREATLITI   45 (118)
+Q Consensus        27 pngmivtleclreatliti   45 (118)
+                      ..|.++-+.+...+|-..+
+T Consensus        34 ~~Gl~v~v~~~~~d~~~~~   52 (164)
+T 4NBI_A           34 KNGLICFLGIHKNDTWEDA   52 (164)
+T ss_dssp             SSEEEEEEECBTTCCHHHH
+T ss_pred             cCeEEEEEEEecCCCHHHH
+Confidence            4455555555555554444
+
+
+No 15
+>1JKE_D D-Tyr-tRNATyr deacylase; beta-alpha-barrel, HYDROLASE; HET: ZN; 1.55A {Escherichia coli} SCOP: c.110.1.1
+Probab=26.49  E-value=1.4e+02  Score=20.42  Aligned_cols=20  Identities=15%  Similarity=0.224  Sum_probs=11.8  Template_Neff=9.100
+
+Q ss_pred             CCCcEEEEeeccccchhhhh
+Q tr|C9JAM9|C9JA   27 PNGMIVTLECLREATLITIK   46 (118)
+Q Consensus        27 pngmivtleclreatlitik   46 (118)
+                      -.|.++-+.+...+|...+.
+T Consensus        24 ~~Gl~v~v~~~~~d~~~~~~   43 (145)
+T 1JKE_D           24 GAGLLVLLGVEKDDDEQKAN   43 (145)
+T ss_dssp             SSEEEEEEECBTTCCHHHHH
+T ss_pred             cCeEEEEEEEeCCCCHHHHH
+Confidence            45555566666666665554
+
+
+No 16
+>2DBO_A D-tyrosyl-tRNA(Tyr) deacylase (E.C.3.1.-.-); D-amino acid, D-Tyrosine, tRNA, deacylase; 2.76A {Aquifex aeolicus}
+Probab=26.28  E-value=1.9e+02  Score=20.11  Aligned_cols=22  Identities=23%  Similarity=0.244  Sum_probs=13.7  Template_Neff=8.900
+
+Q ss_pred             CCCCcEEEEeeccccchhhhhh
+Q tr|C9JAM9|C9JA   26 LPNGMIVTLECLREATLITIKH   47 (118)
+Q Consensus        26 lpngmivtleclreatlitikh   47 (118)
+                      +-.|.++-+.+...+|-..+..
+T Consensus        23 i~~Gl~v~v~~~~~d~~~~~~~   44 (148)
+T 2DBO_A           23 INEGLNVFLGVRKGDTEEDIEK   44 (148)
+T ss_dssp             ESSEEEEEEECBTTCCHHHHHH
+T ss_pred             ECCeEEEEEEEeCCCCHHHHHH
+Confidence            3556666667777777666543
+
+
+No 17
+>1JJH_A REGULATORY PROTEIN E2; BPV-1, E2, DNA-binding domain, DNA; 2.5A {Bovine papillomavirus type 1} SCOP: d.58.8.1
+Probab=24.48  E-value=2e+02  Score=20.75  Aligned_cols=7  Identities=14%  Similarity=0.467  Sum_probs=2.8  Template_Neff=5.300
+
+Q ss_pred             EEEEecC
+Q tr|C9JAM9|C9JA   69 IFVSVTQ   75 (118)
+Q Consensus        69 ifvsvtq   75 (118)
+                      ++...++
+T Consensus        52 ~lv~F~s   58 (86)
+T 1JJH_A           52 ILITFGS   58 (86)
+T ss_dssp             EEEEESS
+T ss_pred             EEEEECC
+Confidence            3434344
+
+
+No 18
+>1F9F_C REGULATORY PROTEIN E2; Dimeric beta barrel, activator, DNA-binding; HET: SO4; 1.9A {Human papillomavirus type 18} SCOP: d.58.8.1
+Probab=22.42  E-value=2.4e+02  Score=20.14  Aligned_cols=9  Identities=22%  Similarity=0.394  Sum_probs=3.7  Template_Neff=5.500
+
+Q ss_pred             chhhhhhHH
+Q tr|C9JAM9|C9JA   41 TLITIKHEL   49 (118)
+Q Consensus        41 tlitikhel   49 (118)
+                      ++.-++-.+
+T Consensus        16 ~LKC~RyRl   24 (83)
+T 1F9F_C           16 SLKCLRYRL   24 (83)
+T ss_dssp             HHHHHHHHH
+T ss_pred             hchHHHHHH
+Confidence            344444444
+
+
+No 19
+>1F9F_D REGULATORY PROTEIN E2; Dimeric beta barrel, activator, DNA-binding; HET: SO4; 1.9A {Human papillomavirus type 18} SCOP: d.58.8.1
+Probab=22.42  E-value=2.4e+02  Score=20.14  Aligned_cols=9  Identities=22%  Similarity=0.394  Sum_probs=3.8  Template_Neff=5.500
+
+Q ss_pred             chhhhhhHH
+Q tr|C9JAM9|C9JA   41 TLITIKHEL   49 (118)
+Q Consensus        41 tlitikhel   49 (118)
+                      ++.-++-.+
+T Consensus        16 ~LKC~RyRl   24 (83)
+T 1F9F_D           16 SLKCLRYRL   24 (83)
+T ss_dssp             HHHHHHHHH
+T ss_pred             hchHHHHHH
+Confidence            344444444
+
+
+No 20
+>5XAQ_A Probable D-tyrosyl-tRNA(Tyr) deacylase 2; tRNA, deacylase, HYDROLASE; 1.86A {Mus musculus}
+Probab=22.34  E-value=1.7e+02  Score=21.03  Aligned_cols=14  Identities=14%  Similarity=0.399  Sum_probs=5.8  Template_Neff=8.600
+
+Q ss_pred             CcEEEEeeccccch
+Q tr|C9JAM9|C9JA   29 GMIVTLECLREATL   42 (118)
+Q Consensus        29 gmivtleclreatl   42 (118)
+                      |+++-+.+...+|-
+T Consensus        41 Gl~v~vg~~~~d~~   54 (168)
+T 5XAQ_A           41 GLVIYVCFFKGADT   54 (168)
+T ss_dssp             EEEEEEEEBSSCCT
+T ss_pred             eEEEEEEEEcCCCh
+Confidence            33334444444443
+
+
+No 21
+>5XAQ_B Probable D-tyrosyl-tRNA(Tyr) deacylase 2; tRNA, deacylase, HYDROLASE; 1.86A {Mus musculus}
+Probab=22.34  E-value=1.7e+02  Score=21.03  Aligned_cols=14  Identities=14%  Similarity=0.399  Sum_probs=5.6  Template_Neff=8.600
+
+Q ss_pred             CcEEEEeeccccch
+Q tr|C9JAM9|C9JA   29 GMIVTLECLREATL   42 (118)
+Q Consensus        29 gmivtleclreatl   42 (118)
+                      |+++-+.+...+|-
+T Consensus        41 Gl~v~vg~~~~d~~   54 (168)
+T 5XAQ_B           41 GLVIYVCFFKGADT   54 (168)
+T ss_dssp             EEEEEEEEBTTCCG
+T ss_pred             eEEEEEEEEcCCCh
+Confidence            33333444444443
+
+
+No 22
+>1R8H_F Regulatory protein E2; Anti-parallel beta-barrel, DNA-binding domain, TRANSCRIPTION; HET: PO4; 1.9A {Human papillomavirus type 6a} SCOP: d.58.8.1
+Probab=22.22  E-value=2.3e+02  Score=20.37  Aligned_cols=8  Identities=25%  Similarity=0.305  Sum_probs=3.0  Template_Neff=5.600
+
+Q ss_pred             hhhhhhHH
+Q tr|C9JAM9|C9JA   42 LITIKHEL   49 (118)
+Q Consensus        42 litikhel   49 (118)
+                      +..++-.+
+T Consensus        16 LKC~RyRl   23 (87)
+T 1R8H_F           16 LKCFRYRL   23 (87)
+T ss_dssp             HHHHHHHH
+T ss_pred             hhHHHHHH
+Confidence            33333333
+
+
+No 23
+>2AYB_A PROTEIN/DNA Complex; Protein-DNA complex, double helix, beta; 3.2A {Human papillomavirus type 6a} SCOP: d.58.8.1
+Probab=22.22  E-value=2.3e+02  Score=20.37  Aligned_cols=8  Identities=25%  Similarity=0.305  Sum_probs=3.1  Template_Neff=5.600
+
+Q ss_pred             hhhhhhHH
+Q tr|C9JAM9|C9JA   42 LITIKHEL   49 (118)
+Q Consensus        42 litikhel   49 (118)
+                      +..++-.+
+T Consensus        16 LKC~RyRl   23 (87)
+T 2AYB_A           16 LKCFRYRL   23 (87)
+T ss_dssp             HHHHHHHH
+T ss_pred             hhHHHHHH
+Confidence            33333334
+
+
+No 24
+>2AYE_B Regulatory protein E2; beta barrel, TRANSCRIPTION; HET: SO4, GOL; 2.3A {Human papillomavirus type 6a} SCOP: d.58.8.1
+Probab=22.22  E-value=2.3e+02  Score=20.37  Aligned_cols=8  Identities=25%  Similarity=0.305  Sum_probs=3.1  Template_Neff=5.600
+
+Q ss_pred             hhhhhhHH
+Q tr|C9JAM9|C9JA   42 LITIKHEL   49 (118)
+Q Consensus        42 litikhel   49 (118)
+                      +..++-.+
+T Consensus        16 LKC~RyRl   23 (87)
+T 2AYE_B           16 LKCFRYRL   23 (87)
+T ss_dssp             HHHHHHHH
+T ss_pred             hhHHHHHH
+Confidence            33333334
+
+
+No 25
+>3AQX_A Beta-1,3-glucan-binding protein; beta-sandwich, Immune receptor, beta-1, 3-glucan; HET: BGC; 2.05A {Bombyx mori}
+Probab=21.70  E-value=1.9e+02  Score=19.00  Aligned_cols=18  Identities=22%  Similarity=0.412  Sum_probs=14.0  Template_Neff=8.700
+
+Q ss_pred             eEEEEEeCCCCcEEEEee
+Q tr|C9JAM9|C9JA   19 RILVECLLPNGMIVTLEC   36 (118)
+Q Consensus        19 rilvecllpngmivtlec   36 (118)
+                      ...+.++-|.|+.+.+.-
+T Consensus         7 ~~~i~~l~P~G~~vsip~   24 (104)
+T 3AQX_A            7 PATLEAIHPKGLRVSVPD   24 (104)
+T ss_dssp             CCEEEEESSSCEEEEEEC
+T ss_pred             CcEEEEecCCeEEEEEec
+Confidence            467778899999887764
+
+
+No 26
+>3AQX_B Beta-1,3-glucan-binding protein; beta-sandwich, Immune receptor, beta-1, 3-glucan; HET: BGC; 2.05A {Bombyx mori}
+Probab=21.70  E-value=1.9e+02  Score=19.00  Aligned_cols=18  Identities=22%  Similarity=0.412  Sum_probs=13.6  Template_Neff=8.700
+
+Q ss_pred             eEEEEEeCCCCcEEEEee
+Q tr|C9JAM9|C9JA   19 RILVECLLPNGMIVTLEC   36 (118)
+Q Consensus        19 rilvecllpngmivtlec   36 (118)
+                      ...+.++-|.|+.+.+.-
+T Consensus         7 ~~~i~~l~P~G~~vsip~   24 (104)
+T 3AQX_B            7 PATLEAIHPKGLRVSVPD   24 (104)
+T ss_dssp             CCEEEECSSSCEEEEEEC
+T ss_pred             CcEEEEecCCeEEEEEec
+Confidence            467778889999877653
+
+

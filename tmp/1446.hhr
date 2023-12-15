@@ -1,0 +1,454 @@
+Query         tr|F8WEW7|F8WEW7_HUMAN
+Match_columns 50
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 05:05:26 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1446.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MV7_A Unconventional myosin-V  82.7     3.1 3.4E-05   27.9   2.7   34    6-39    113-146 (522)
+  2 5EJY_A Myosin-I heavy chain; M  82.5     3.9 4.3E-05   27.5   3.1   34    6-39    102-135 (500)
+  3 5F3Y_A Unconventional myosin-V  80.5     4.5 4.8E-05   28.1   2.9   34    6-39    147-180 (621)
+  4 5EJQ_A Class VII unconventiona  79.0     5.9 6.4E-05   26.8   3.1   34    6-39    101-134 (511)
+  5 5EJR_A Myosin-I heavy chain; M  76.5     7.1 7.7E-05   26.4   2.9   34    6-39    104-137 (507)
+  6 3PVL_A Myosin VIIa isoform 1,   73.7      14 0.00015   26.3   3.9   34    6-39    174-207 (655)
+  7 5XBF_A Unconventional myosin-V  73.5     7.4   8E-05   26.0   2.4   34    6-39    107-140 (516)
+  8 5MV9_A Unconventional myosin-V  69.1      10 0.00011   25.7   2.4   34    6-39    122-155 (527)
+  9 5EJS_A Myosin-I heavy chain; M  65.3      18  0.0002   24.3   2.9   34    6-39     90-123 (496)
+ 10 7F40_B Lysophospholipid Acyltr  63.7      28 0.00031   24.7   3.8   26    1-26     33-58  (501)
+ 11 6U19_B 26S proteasome non-ATPa  57.5      17 0.00019   19.9   1.6   14    7-20     11-24  (64)
+ 12 2KR1_A CTCL tumor antigen se37  51.5      23 0.00025   21.2   1.6   14    7-20     29-42  (82)
+ 13 3AU4_A Myosin-X, Netrin recept  48.7      51 0.00056   23.1   3.0   34    6-39    120-155 (555)
+ 14 3PZD_A Myosin-X, Netrin recept  42.9      85 0.00092   21.5   3.3   34    6-39    103-138 (511)
+ 15 6ITH_A Syndecan-2; membrane pr  36.2 1.4E+02  0.0015   16.9   4.0   33    4-46      2-34  (41)
+ 16 2W1K_A PUTATIVE SORTASE (E.C.2  31.3 1.3E+02  0.0014   20.0   2.7   12   36-47    236-247 (252)
+ 17 3UDC_G Small-conductance mecha  29.5   2E+02  0.0021   18.1   3.2   34    8-45      4-37  (285)
+ 18 6ZVJ_L Eukaryotic translation   25.8 1.1E+02  0.0012   22.9   1.9   15   25-39    183-197 (372)
+ 19 7P2Y_b ATP synthase, ESKAPE, R  25.0 2.3E+02  0.0025   16.5   2.7   18   29-46      8-25  (156)
+ 20 7P3N_p ATP synthase, ESKAPE, R  25.0 2.3E+02  0.0025   16.5   2.7   18   29-46      8-25  (156)
+ 21 3B13_C Dedicator of cytokinesi  24.8   1E+02  0.0011   21.8   1.6   22    8-29    334-355 (431)
+ 22 1HFE_T FE-ONLY HYDROGENASE (E.  24.1   1E+02  0.0011   19.3   1.3    9    2-10      4-12  (123)
+ 23 5T4O_J ATP synthase subunit al  24.0 2.6E+02  0.0028   16.1   2.8   19   28-46      6-24  (155)
+ 24 6TKY_B Dedicator of cytokinesi  21.6 1.3E+02  0.0014   21.5   1.5   21    9-29    363-383 (457)
+ 25 3VHL_A Dedicator of cytokinesi  21.6 1.4E+02  0.0015   20.0   1.6   22    8-29    193-214 (288)
+ 26 3T9N_A Small-conductance mecha  21.0 3.9E+02  0.0042   17.0   3.6   34    8-45      4-37  (282)
+ 27 2KV9_B Integrin beta-3, Integr  20.8 2.6E+02  0.0029   15.4   2.4   11   35-45     20-30  (75)
+ 28 2YIN_B DEDICATOR OF CYTOKINESI  20.3 1.4E+02  0.0015   21.2   1.5   22    8-29    339-360 (436)
+
+No 1
+>5MV7_A Unconventional myosin-VIIb; myosin, MyTh4-FERM, motor protein, myosin; HET: TAM, SO4; 2.44A {Homo sapiens}
+Probab=82.68  E-value=3.1  Score=27.86  Aligned_cols=34  Identities=21%  Similarity=0.427  Sum_probs=25.2  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|+|-|++..---...+......|.|+++|+.+
+T Consensus       113 rdEiy~Qi~kQ~~~n~~~~s~~~~w~ll~~~~~~  146 (522)
+T 5MV7_A          113 QDEVYCQILKQLTHNSNRHSEERGWQLLWLCTGL  146 (522)
+T ss_dssp             HHHHHHHHHHHTSSCCCHHHHHHHHHHHHHHTTT
+T ss_pred             hhHHHHHHHHHHccCCChhHHHHHHHHHHHHHhh
+Confidence            6788888776554444556678999999999765
+
+
+No 2
+>5EJY_A Myosin-I heavy chain; Molecular motor, myosin, myosin tail; HET: 15P; 1.9A {Dictyostelium discoideum}
+Probab=82.49  E-value=3.9  Score=27.46  Aligned_cols=34  Identities=21%  Similarity=0.315  Sum_probs=25.4  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++...--+..+......|-|+++|+.+
+T Consensus       102 rDEiy~Qi~kQ~~~n~~~~s~~~~w~ll~~~~~~  135 (500)
+T 5EJY_A          102 RDEIYCQLIKQSTSNPIQDLNIRVWELIHFTCST  135 (500)
+T ss_dssp             HHHHHHHHHHHTSSCCCHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHhh
+Confidence            6788877776555455566788999999999765
+
+
+No 3
+>5F3Y_A Unconventional myosin-VIIb, Ankyrin repeat and; MOTOR PROTEIN, PROTEIN BINDING, STRUCTURAL; 3.409A {Mus musculus}
+Probab=80.46  E-value=4.5  Score=28.14  Aligned_cols=34  Identities=26%  Similarity=0.582  Sum_probs=25.6  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++..---...+......|.|+++|..+
+T Consensus       147 rDEiy~Qi~kQ~~~n~~~~s~~r~w~ll~~~~~~  180 (621)
+T 5F3Y_A          147 RDEIYCQICKQLSENYKTSSRARGWILLSLCLGC  180 (621)
+T ss_dssp             HHHHHHHHHHHHSSCCSHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHhcCCChhHHHHHHHHHHHHHHh
+Confidence            6788877776554444567788999999999876
+
+
+No 4
+>5EJQ_A Class VII unconventional myosin; Myosin, motor protein, myosin tail; HET: GLU; 2.19A {Dictyostelium discoideum}
+Probab=78.98  E-value=5.9  Score=26.84  Aligned_cols=34  Identities=21%  Similarity=0.315  Sum_probs=25.1  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++...--...+......|.|+++|+.+
+T Consensus       101 rDEiy~Ql~kQ~~~n~~~~s~~r~w~ll~~~~~~  134 (511)
+T 5EJQ_A          101 RDEIYCQLIKQSTSNPIQDLNIRVWELIHFTCST  134 (511)
+T ss_dssp             HHHHHHHHHHHTSSCSCHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHhh
+Confidence            6788877776554444456678899999999866
+
+
+No 5
+>5EJR_A Myosin-I heavy chain; Myosin, motor myosin, myosin tail; HET: EDO; 2.0A {Dictyostelium discoideum}
+Probab=76.55  E-value=7.1  Score=26.45  Aligned_cols=34  Identities=12%  Similarity=0.066  Sum_probs=25.9  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++..---+.......+.|-|+++|..+
+T Consensus       104 rdEiy~Ql~kQ~~~n~~~~s~~~~w~ll~~~~~~  137 (507)
+T 5EJR_A          104 RDEIYCQAYRQTNKNPKVESAKKGFELIYFLSIT  137 (507)
+T ss_dssp             HHHHHHHHHHTTTTCSCHHHHHHHHHHHHHHHHH
+T ss_pred             cHHHHHHHHHHHcCCCChHHHHHHHHHHHHHHHh
+Confidence            6788877776555555556788999999999887
+
+
+No 6
+>3PVL_A Myosin VIIa isoform 1, Usher; protein complex, Novel folding, protein; HET: GOL, PO4; 2.8A {Mus musculus}
+Probab=73.69  E-value=14  Score=26.35  Aligned_cols=34  Identities=21%  Similarity=0.620  Sum_probs=25.5  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++..---..........|.|+++|..+
+T Consensus       174 rdEiy~Qi~kq~~~np~~~s~~r~w~ll~~~~~~  207 (655)
+T 3PVL_A          174 RDEIYCQISKQLTHNPSKSSYARGWILVSLCVGC  207 (655)
+T ss_dssp             HHHHHHHHHHHTSSCCCHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHhhcCCCCChHHHHHHHHHHHHHHHH
+Confidence            6788888776554444556788999999999776
+
+
+No 7
+>5XBF_A Unconventional myosin-VIIb, Harmonin; Protein complex, Molecular motor, MOTOR; HET: GOL; 1.802A {Homo sapiens}
+Probab=73.48  E-value=7.4  Score=26.00  Aligned_cols=34  Identities=21%  Similarity=0.427  Sum_probs=23.6  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.|-|++..---...+......|-|+++|..+
+T Consensus       107 ~dEiy~Ql~kQ~~~n~~~~s~~~~w~ll~~~~~~  140 (516)
+T 5XBF_A          107 QDEVYCQILKQLTHNSNRHSEERGWQLLWLCTGL  140 (516)
+T ss_dssp             HHHHHHHHHHHTSSCCCHHHHHHHHHHHHHHHTT
+T ss_pred             hhHHHHHHHHHHccCCCcchHHHHHHHHHHHhcc
+Confidence            5677777765444344455667899999999865
+
+
+No 8
+>5MV9_A Unconventional myosin-VIIa, cDNA FLJ51329, highly; motor protein, myosin, myosin tail; 2.6A {Homo sapiens}
+Probab=69.10  E-value=10  Score=25.73  Aligned_cols=34  Identities=21%  Similarity=0.341  Sum_probs=22.1  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|+|-|++.----..........|-|+++|+.+
+T Consensus       122 rdEi~~Ql~kq~~~n~~~~s~~r~w~ll~~~~~~  155 (527)
+T 5MV9_A          122 KDEAYVQILKQLTDNHIRYSEERGWELLWLCTGL  155 (527)
+T ss_dssp             HHHHHHHHHHHHSSCCCHHHHHHHHHHHHHHHTT
+T ss_pred             CcHHHHHHHHHHccCCCHHHHHHHHHHHHHHHhh
+Confidence            5666666654333333345677899999999765
+
+
+No 9
+>5EJS_A Myosin-I heavy chain; Myosin, motor myosin, myosin tail; 2.7A {Dictyostelium discoideum}
+Probab=65.35  E-value=18  Score=24.31  Aligned_cols=34  Identities=12%  Similarity=0.066  Sum_probs=24.5  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHccCCCcchhhchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcllptaqqgldqiwlllaiclac   39 (50)
+                      |.|.+-|++..---+..+....+.|-|+++|+.+
+T Consensus        90 rdEiy~Ql~kq~~~n~~~~~~~~~w~ll~~~~~~  123 (496)
+T 5EJS_A           90 RDEIYCQAYRQTNKNPKVESAKKGFELIYFLSIT  123 (496)
+T ss_dssp             HHHHHHHHHHTTTTCSCHHHHHHHHHHHHHHHHH
+T ss_pred             cHHHHHHHHHHHcCCCChHHHHHHHHHHHHHHHh
+Confidence            6777777765444444456778999999998876
+
+
+No 10
+>7F40_B Lysophospholipid Acyltransferase, LPCAT3, membrane-bound O-acyltransferase; HET: 3IX, PCW; 3.49A {Gallus gallus}
+Probab=63.70  E-value=28  Score=24.69  Aligned_cols=26  Identities=12%  Similarity=-0.050  Sum_probs=14.7  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHccCCCcchhhch
+Q tr|F8WEW7|F8WE    1 MATFSRQEFFQQLLQGCLLPTAQQGL   26 (50)
+Q Consensus         1 matfsrqeffqqllqgcllptaqqgl   26 (50)
+                      |...+++++++++-+.|-+|..+..+
+T Consensus        33 ~~~~~~~~~~~~~~~~~~~~~~~~~~   58 (501)
+T 7F40_B           33 MAVAGSGWSLARVAEALGSSEQALRL   58 (501)
+T ss_dssp             ---------CHHHHSTTSCCHHHHHH
+T ss_pred             hhccchhHHHHHHHHHHCCCHHHHHH
+Confidence            55678899999999999999877665
+
+
+No 11
+>6U19_B 26S proteasome non-ATPase regulatory subunit; proteasome, subunit, complex, ubiquitination, STRUCTURAL; HET: ZN; NMR {Homo sapiens}
+Probab=57.51  E-value=17  Score=19.94  Aligned_cols=14  Identities=29%  Similarity=0.733  Sum_probs=11.2  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHHccCCCc
+Q tr|F8WEW7|F8WE    7 QEFFQQLLQGCLLP   20 (50)
+Q Consensus         7 qeffqqllqgcllp   20 (50)
+                      +.+|.||..||=-+
+T Consensus        11 ~~y~~Qlt~GCg~~   24 (64)
+T 6U19_B           11 ERYYHQLTEGCGNE   24 (64)
+T ss_dssp             HHHHHHHHTCCSCS
+T ss_pred             HHHHHHHHcCCCCC
+Confidence            46899999998654
+
+
+No 12
+>2KR1_A CTCL tumor antigen se37-2; Ligase, Ubl conjugation pathway, Structural; HET: ZN; NMR {Homo sapiens}
+Probab=51.53  E-value=23  Score=21.25  Aligned_cols=14  Identities=29%  Similarity=0.733  Sum_probs=11.2  Template_Neff=6.300
+
+Q ss_pred             HHHHHHHHccCCCc
+Q tr|F8WEW7|F8WE    7 QEFFQQLLQGCLLP   20 (50)
+Q Consensus         7 qeffqqllqgcllp   20 (50)
+                      +.+|.||..||=-+
+T Consensus        29 ~~Y~~QLt~GCg~~   42 (82)
+T 2KR1_A           29 ERYYHQLTEGCGNE   42 (82)
+T ss_dssp             HHHHHHHHTCCSCS
+T ss_pred             HHHHHHHHcCCCCC
+Confidence            46899999999654
+
+
+No 13
+>3AU4_A Myosin-X, Netrin receptor DCC; protein-protein complex, motor protein cargo; 1.9A {Homo sapiens}
+Probab=48.71  E-value=51  Score=23.09  Aligned_cols=34  Identities=24%  Similarity=0.381  Sum_probs=22.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHccCC-Ccchh-hchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCL-LPTAQ-QGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcl-lptaq-qgldqiwlllaiclac   39 (50)
+                      |.|.|-|++...- -|... .+..+.|-|+++|..+
+T Consensus       120 rdEiy~Qi~kq~~~n~~~~~~~~~~~w~ll~~~~~~  155 (555)
+T 3AU4_A          120 RDELYCQLIKQTNKVPHPGSVGNLYSWQILTCLSCT  155 (555)
+T ss_dssp             HHHHHHHHHHHTSSCSSTTCHHHHHHHHHHHHHHTT
+T ss_pred             chHHHHHHHHHhcCCCCCCChhHhhHHHHHHHHHhh
+Confidence            6788877776433 23322 3467899999988753
+
+
+No 14
+>3PZD_A Myosin-X, Netrin receptor DCC; protein-protein complex, MyTH4 domain, FERM; 2.5A {Homo sapiens}
+Probab=42.86  E-value=85  Score=21.46  Aligned_cols=34  Identities=24%  Similarity=0.343  Sum_probs=21.4  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHHHccCCC-cchh-hchhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    6 RQEFFQQLLQGCLL-PTAQ-QGLDQIWLLLAICLAC   39 (50)
+Q Consensus         6 rqeffqqllqgcll-ptaq-qgldqiwlllaiclac   39 (50)
+                      |.|.+-|++..-.- |... ......|-|+++|..+
+T Consensus       103 ~dEi~~ql~kq~~~n~~~~~~~~~~~w~ll~~~~~~  138 (511)
+T 3PZD_A          103 RDELYCQLIKQTNKVPHPGSVGNLYSWQILTCLSCT  138 (511)
+T ss_dssp             HHHHHHHHHHHTSSCSSTTSHHHHHHHHHHHHHTTT
+T ss_pred             hhHHHHHHHHhcCCCCCCCChhHHHHHHHHHHHHhh
+Confidence            67888777764332 3322 2357889999887653
+
+
+No 15
+>6ITH_A Syndecan-2; membrane protein, DPC, micelles; NMR {Homo sapiens}
+Probab=36.22  E-value=1.4e+02  Score=16.92  Aligned_cols=33  Identities=27%  Similarity=0.400  Sum_probs=22.8  Template_Neff=4.400
+
+Q ss_pred             CCHHHHHHHHHccCCCcchhhchhHHHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    4 FSRQEFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRLV   46 (50)
+Q Consensus         4 fsrqeffqqllqgcllptaqqgldqiwlllaiclacrllwrlv   46 (50)
+                      ++|.|.+--.+.|          ..+-+++|++|...+++|.-
+T Consensus         2 ~erkEVLaavIaG----------gvvG~~~A~~Lv~lliyrmk   34 (41)
+T 6ITH_A            2 EQSTEVLAAVIAG----------GVIGFLFAIFLILLLVYRMR   34 (41)
+T ss_dssp             CSSHHHHHHHHHH----------HHHHHHHHHHHHHHHHHHHT
+T ss_pred             CccHHHHHHHHHH----------HHHHHHHHHHHHHHHHHHHh
+Confidence            4566766666543          34567888999888888763
+
+
+No 16
+>2W1K_A PUTATIVE SORTASE (E.C.2.3.2.12); PILUS, SORTASE, PNEUMOCOCCUS, PATHOGENICITY, TRANSFERASE; HET: MES; 2.14A {STREPTOCOCCUS PNEUMONIAE}
+Probab=31.25  E-value=1.3e+02  Score=20.02  Aligned_cols=12  Identities=33%  Similarity=0.559  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHc
+Q tr|F8WEW7|F8WE   36 CLACRLLWRLVR   47 (50)
+Q Consensus        36 clacrllwrlvr   47 (50)
+                      .+...++||+.|
+T Consensus       236 ~~~~~~~~~~~~  247 (252)
+T 2W1K_A          236 LGILFVLWKLAR  247 (252)
+T ss_dssp             ------------
+T ss_pred             HHHHHHHHHHHH
+Confidence            334445566554
+
+
+No 17
+>3UDC_G Small-conductance mechanosensitive channel, C-terminal peptide; membrane protein, channel, Mechanosensitive; 3.355A {Thermoanaerobacter tengcongensis}
+Probab=29.46  E-value=2e+02  Score=18.14  Aligned_cols=34  Identities=9%  Similarity=0.189  Sum_probs=10.9  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHccCCCcchhhchhHHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    8 EFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRL   45 (50)
+Q Consensus         8 effqqllqgcllptaqqgldqiwlllaiclacrllwrl   45 (50)
+                      +++..++..-..+.    ++.+...+++.++..+++++
+T Consensus         4 ~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~   37 (285)
+T 3UDC_G            4 DIYHKLVEIYDIKA----VKFLLDVLKILIIAFIGIKF   37 (285)
+T ss_dssp             ---------CCCCH----HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhhccccchhH----HHHHHHHHHHHHHHHHHHHH
+Confidence            34444444433333    33444444444444444444
+
+
+No 18
+>6ZVJ_L Eukaryotic translation initiation factor 3; Translation, Initiation, Ribosome Recycling, ABC; HET: ADP, ATP, SF4;{Homo sapiens}
+Probab=25.80  E-value=1.1e+02  Score=22.90  Aligned_cols=15  Identities=40%  Similarity=0.456  Sum_probs=12.9  Template_Neff=6.700
+
+Q ss_pred             chhHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE   25 GLDQIWLLLAICLAC   39 (50)
+Q Consensus        25 gldqiwlllaiclac   39 (50)
+                      -.|+++.|||||++.
+T Consensus       183 ~~dqm~aLLaic~~l  197 (372)
+T 6ZVJ_L          183 QNEQMHALLAIALTM  197 (372)
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            478999999999875
+
+
+No 19
+>7P2Y_b ATP synthase, ESKAPE, Rotary ATP; HET: ADP, ATP; 3.1A {Acinetobacter baumannii (strain ATCC 17978 / CIP 53.77 / LMG 1025 / NCDC KC755 / 5377)}
+Probab=24.96  E-value=2.3e+02  Score=16.51  Aligned_cols=18  Identities=17%  Similarity=0.198  Sum_probs=9.6  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE   29 IWLLLAICLACRLLWRLV   46 (50)
+Q Consensus        29 iwlllaiclacrllwrlv   46 (50)
+                      +|.++.+.+.+.++++++
+T Consensus         8 ~~~~i~f~il~~~l~~~~   25 (156)
+T 7P2Y_b            8 IGQAIAFAFFVAFCMKFV   25 (156)
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            455555555555555543
+
+
+No 20
+>7P3N_p ATP synthase, ESKAPE, Rotary ATP; HET: ADP, ATP; 4.6A {Acinetobacter baumannii ATCC 17978}
+Probab=24.96  E-value=2.3e+02  Score=16.51  Aligned_cols=18  Identities=17%  Similarity=0.198  Sum_probs=9.6  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE   29 IWLLLAICLACRLLWRLV   46 (50)
+Q Consensus        29 iwlllaiclacrllwrlv   46 (50)
+                      +|.++.+.+.+.++++++
+T Consensus         8 ~~~~i~f~il~~~l~~~~   25 (156)
+T 7P3N_p            8 IGQAIAFAFFVAFCMKFV   25 (156)
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            455555555555555543
+
+
+No 21
+>3B13_C Dedicator of cytokinesis protein 2; protein-ptotein complex, lymphocyte chemotaxis, signal; 3.006A {Homo sapiens}
+Probab=24.79  E-value=1e+02  Score=21.78  Aligned_cols=22  Identities=23%  Similarity=0.390  Sum_probs=17.6  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHccCCCcchhhchhHH
+Q tr|F8WEW7|F8WE    8 EFFQQLLQGCLLPTAQQGLDQI   29 (50)
+Q Consensus         8 effqqllqgcllptaqqgldqi   29 (50)
+                      .-++++|||++.|+...|.-.+
+T Consensus       334 ~~L~~~L~G~v~~~VngG~~~~  355 (431)
+T 3B13_C          334 NPLSMLLNGIVDPAVMGGFAKY  355 (431)
+T ss_dssp             HHHHHHHHHHHCCTTTCTTHHH
+T ss_pred             ChHHHHHHccCChhhhhHHHHH
+Confidence            3578999999999988876544
+
+
+No 22
+>1HFE_T FE-ONLY HYDROGENASE (E.C.1.18.99.1); FE-ONLY HYDROGENASE, HYDROGENE METABOLISM, PERIPLASM; HET: PDT, CYS, SF4; 1.6A {Desulfovibrio vulgaris subsp. vulgaris str. Hildenborough} SCOP: a.137.4.1
+Probab=24.06  E-value=1e+02  Score=19.33  Aligned_cols=9  Identities=33%  Similarity=0.770  Sum_probs=3.8  Template_Neff=7.000
+
+Q ss_pred             CCCCHHHHH
+Q tr|F8WEW7|F8WE    2 ATFSRQEFF   10 (50)
+Q Consensus         2 atfsrqeff   10 (50)
+                      +.|||.+|+
+T Consensus         4 ~~~~r~~f~   12 (123)
+T 1HFE_T            4 ASITRRGFL   12 (123)
+T ss_dssp             SGGHHTTCC
+T ss_pred             ccccHHHHH
+Confidence            334444443
+
+
+No 23
+>5T4O_J ATP synthase subunit alpha (E.C.3.6.3.14); ATP synthase, ATPase, rotary motor; HET: ADP, ATP; 6.9A {Escherichia coli}
+Probab=23.99  E-value=2.6e+02  Score=16.13  Aligned_cols=19  Identities=16%  Similarity=0.102  Sum_probs=9.9  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE   28 QIWLLLAICLACRLLWRLV   46 (50)
+Q Consensus        28 qiwlllaiclacrllwrlv   46 (50)
+                      -+|.++.+++...++++++
+T Consensus         6 ~~~~~i~F~il~~~l~~~~   24 (155)
+T 5T4O_J            6 ILGQAIAFVLFVLFAMKYV   24 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHhh
+Confidence            3555555555555555543
+
+
+No 24
+>6TKY_B Dedicator of cytokinesis protein 10; DOCK10 GEF CDC42 GTPase, SIGNALING; HET: GOL; 2.55A {Homo sapiens}
+Probab=21.64  E-value=1.3e+02  Score=21.48  Aligned_cols=21  Identities=24%  Similarity=0.164  Sum_probs=16.6  Template_Neff=9.000
+
+Q ss_pred             HHHHHHccCCCcchhhchhHH
+Q tr|F8WEW7|F8WE    9 FFQQLLQGCLLPTAQQGLDQI   29 (50)
+Q Consensus         9 ffqqllqgcllptaqqgldqi   29 (50)
+                      -++++|||++.|+...|.-.+
+T Consensus       363 ~L~~~L~G~v~~~VngG~~~~  383 (457)
+T 6TKY_B          363 RLQLKLQGSVSVKVNAGPMAY  383 (457)
+T ss_pred             HHHHHhhccccCcccCCHHHH
+Confidence            467889999999988886544
+
+
+No 25
+>3VHL_A Dedicator of cytokinesis protein 8; signal transduction, guanine nucleotide exchang; HET: PO4; 2.085A {Mus musculus}
+Probab=21.59  E-value=1.4e+02  Score=19.98  Aligned_cols=22  Identities=32%  Similarity=0.463  Sum_probs=16.4  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHccCCCcchhhchhHH
+Q tr|F8WEW7|F8WE    8 EFFQQLLQGCLLPTAQQGLDQI   29 (50)
+Q Consensus         8 effqqllqgcllptaqqgldqi   29 (50)
+                      .-++++|+|++.+....|...+
+T Consensus       193 ~~L~~~L~G~v~a~VngG~~~~  214 (288)
+T 3VHL_A          193 KMLQMVLQGSVGATVNQGPLEV  214 (288)
+T ss_dssp             HHHHHHHHHHHCCSSSCCHHHH
+T ss_pred             cHHHHHHhcccCCcccCChHHH
+Confidence            3578889999888877776544
+
+
+No 26
+>3T9N_A Small-conductance mechanosensitive channel; Membrane protein, channel; HET: LMT; 3.456A {Thermoanaerobacter tengcongensis}
+Probab=20.97  E-value=3.9e+02  Score=16.99  Aligned_cols=34  Identities=9%  Similarity=0.189  Sum_probs=10.7  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHccCCCcchhhchhHHHHHHHHHHHHHHHHHH
+Q tr|F8WEW7|F8WE    8 EFFQQLLQGCLLPTAQQGLDQIWLLLAICLACRLLWRL   45 (50)
+Q Consensus         8 effqqllqgcllptaqqgldqiwlllaiclacrllwrl   45 (50)
+                      +|+..+++.-..++    ++.+..++.+.+++.+++++
+T Consensus         4 ~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~   37 (282)
+T 3T9N_A            4 DIYHKLVEIYDIKA----VKFLLDVLKILIIAFIGIKF   37 (282)
+T ss_dssp             ---------CCSTH----HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhhcchhhHHH----HHHHHHHHHHHHHHHHHHHH
+Confidence            34444555444443    33444444444444444433
+
+
+No 27
+>2KV9_B Integrin beta-3, Integrin alpha-IIb; integrin beta3, beta3, platelet glycoprotein; NMR {Homo sapiens}
+Probab=20.75  E-value=2.6e+02  Score=15.45  Aligned_cols=11  Identities=27%  Similarity=0.534  Sum_probs=4.2  Template_Neff=8.000
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|F8WEW7|F8WE   35 ICLACRLLWRL   45 (50)
+Q Consensus        35 iclacrllwrl   45 (50)
+                      +.++..++|++
+T Consensus        20 ~glllL~iwk~   30 (75)
+T 2KV9_B           20 HMSPECLIWKL   30 (75)
+T ss_dssp             --CHHHHHHHH
+T ss_pred             hHHHHHHHHHH
+Confidence            33344445554
+
+
+No 28
+>2YIN_B DEDICATOR OF CYTOKINESIS PROTEIN 2; APOPTOSIS, DOCK, DOCK GUANINE NUCLEOTIDE; 2.7A {HOMO SAPIENS}
+Probab=20.30  E-value=1.4e+02  Score=21.20  Aligned_cols=22  Identities=23%  Similarity=0.390  Sum_probs=17.5  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHccCCCcchhhchhHH
+Q tr|F8WEW7|F8WE    8 EFFQQLLQGCLLPTAQQGLDQI   29 (50)
+Q Consensus         8 effqqllqgcllptaqqgldqi   29 (50)
+                      .-++++|||++.|....|.-.+
+T Consensus       339 ~~L~~~L~G~l~a~VngG~~~~  360 (436)
+T 2YIN_B          339 NPLSMLLNGIVDPAVMGGFAKY  360 (436)
+T ss_dssp             HHHHHHHHHHHCCCSSCCTHHH
+T ss_pred             ChHHHHHHcccChhhhchHHHH
+Confidence            4678999999999887776554
+
+

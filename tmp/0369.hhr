@@ -1,0 +1,265 @@
+Query         tr|A0A087WUC8|A0A087WUC8_HUMAN
+Match_columns 232
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:00:26 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0369.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2PRV_A Uncharacterized protein  92.6    0.58 6.3E-06   31.5   4.4   37   42-78     21-57  (153)
+  2 2PRV_B Uncharacterized protein  92.6    0.58 6.3E-06   31.5   4.4   38   41-78     20-57  (153)
+  3 2ICG_A Crystal structure of hy  92.5    0.92   1E-05   30.5   5.2   35   42-76     24-58  (160)
+  4 2PAG_A NYSGX, target 10412i, n  80.3       5 5.5E-05   26.9   3.1   33   43-75     20-52  (135)
+  5 6QBO_B Cell wall assembly regu  48.1 1.5E+02  0.0017   25.3   6.3   36   42-77     41-76  (275)
+  6 2RU9_A Predicted transporter;   42.7      67 0.00073   21.8   2.9   20   24-43     25-44  (76)
+  7 6QBR_A Cell wall assembly regu  42.0   3E+02  0.0033   23.5   7.1   36   42-77     41-76  (275)
+  8 6QBR_B Cell wall assembly regu  42.0   3E+02  0.0033   23.5   7.1   36   42-77     41-76  (275)
+  9 3D5P_B putative glucan synthes  41.2      17 0.00019   24.7  -0.0   38   40-77     10-47  (144)
+ 10 4RFU_C Coat protein; Protrusio  30.7      38 0.00041   29.7   0.3   30  143-186    42-71  (125)
+ 11 3PL0_A Uncharacterized protein  26.0 1.8E+02  0.0019   25.6   3.5   61  129-189   158-225 (254)
+ 12 3PL0_B Uncharacterized protein  26.0 1.8E+02  0.0019   25.6   3.5   61  129-189   158-225 (254)
+ 13 6TPI_B Murein hydrolase activa  25.4 1.6E+02  0.0018   21.3   2.7   31   22-52     18-48  (110)
+ 14 6TPI_C Murein hydrolase activa  25.4 1.6E+02  0.0018   21.3   2.7   32   22-53     18-49  (110)
+ 15 3FFV_A Protein syd; Membrane,   23.3      76 0.00083   24.9   0.8   34   47-80     59-92  (181)
+ 16 3CM8_B Polymerase acidic prote  20.4      58 0.00063   22.8  -0.3   10   89-98      2-11  (30)
+
+No 1
+>2PRV_A Uncharacterized protein yobK; Structural genomics, Joint Center for; HET: SO4, EDO, MSE; 1.3A {Bacillus subtilis} SCOP: d.369.1.1
+Probab=92.60  E-value=0.58  Score=31.53  Aligned_cols=37  Identities=19%  Similarity=0.185  Sum_probs=31.8  Template_Neff=11.600
+
+Q ss_pred             CChhHHhhhhhHHHhcCCCCChhhceEEEeeCCceee
+Q tr|A0A087WUC8|   42 KPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHMT   78 (232)
+Q Consensus        42 kppaerhmissweqknncvmpedvknfylmtngfhmt   78 (232)
+                      .+|+...-|..+|++.++..|++.+.||...||..+.
+T Consensus        21 ~~~~~~~~i~~~e~~~~~~lP~~~~~fl~~~~g~~~~   57 (153)
+T 2PRV_A           21 TEGASHENIGRIEENLQCDLPNSYKWFLEKYGAGGLF   57 (153)
+T ss_dssp             CCCCCHHHHHHHHHHHTSCCCHHHHHHHHHHCSEEET
+T ss_pred             CCCCCHHHHHHHHHHhCCCCCHHHHHHHHHhCCCeec
+Confidence            4567777799999999999999999999999987653
+
+
+No 2
+>2PRV_B Uncharacterized protein yobK; Structural genomics, Joint Center for; HET: SO4, EDO, MSE; 1.3A {Bacillus subtilis} SCOP: d.369.1.1
+Probab=92.60  E-value=0.58  Score=31.53  Aligned_cols=38  Identities=18%  Similarity=0.146  Sum_probs=32.2  Template_Neff=11.600
+
+Q ss_pred             eCChhHHhhhhhHHHhcCCCCChhhceEEEeeCCceee
+Q tr|A0A087WUC8|   41 EKPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHMT   78 (232)
+Q Consensus        41 ekppaerhmissweqknncvmpedvknfylmtngfhmt   78 (232)
+                      ..+|+...-|..+|++.++..|++.+.||...||..+.
+T Consensus        20 ~~~~~~~~~i~~~e~~~~~~lP~~~~~fl~~~~g~~~~   57 (153)
+T 2PRV_B           20 FTEGASHENIGRIEENLQCDLPNSYKWFLEKYGAGGLF   57 (153)
+T ss_dssp             ECCCCCHHHHHHHHHHHTCCCCHHHHHHHHHTCSEEET
+T ss_pred             cCCCCCHHHHHHHHHHhCCCCCHHHHHHHHHhCCCeec
+Confidence            34667777799999999999999999999999987653
+
+
+No 3
+>2ICG_A Crystal structure of hypothetical protein; NP_472245.1, hypothetical protein, Structural Genomics; HET: MSE; 1.65A {Listeria innocua} SCOP: d.369.1.1
+Probab=92.50  E-value=0.92  Score=30.52  Aligned_cols=35  Identities=14%  Similarity=0.168  Sum_probs=29.9  Template_Neff=11.800
+
+Q ss_pred             CChhHHhhhhhHHHhcCCCCChhhceEEEeeCCce
+Q tr|A0A087WUC8|   42 KPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFH   76 (232)
+Q Consensus        42 kppaerhmissweqknncvmpedvknfylmtngfh   76 (232)
+                      .+|+...-|...|++-++..|++.+.|+...||..
+T Consensus        24 ~~~~~~~~i~~~e~~l~~~lP~~~~~fl~~~~g~~   58 (160)
+T 2ICG_A           24 SGTGTPELIKIYQDALGNEFPETYKLFLEKYGTLT   58 (160)
+T ss_dssp             CCCCCHHHHHHHHHHHTCCCCHHHHHHHHHTSSEE
+T ss_pred             cCCCCHHHHHHHHHHHCCCCCHHHHHHHHHHCCee
+Confidence            45666667899999999999999999999888864
+
+
+No 4
+>2PAG_A NYSGX, target 10412i, novel fold; 1.6A {Pseudomonas syringae pv. tomato} SCOP: d.369.1.1
+Probab=80.26  E-value=5  Score=26.92  Aligned_cols=33  Identities=15%  Similarity=0.170  Sum_probs=28.5  Template_Neff=11.300
+
+Q ss_pred             ChhHHhhhhhHHHhcCCCCChhhceEEEeeCCc
+Q tr|A0A087WUC8|   43 PPAERHMISSWEQKNNCVMPEDVKNFYLMTNGF   75 (232)
+Q Consensus        43 ppaerhmissweqknncvmpedvknfylmtngf   75 (232)
+                      +|+...-|...|..-+..+|++.+.|+...||.
+T Consensus        20 ~~~~~~~i~~~e~~~g~~lP~~y~~fl~~~~g~   52 (135)
+T 2PAG_A           20 ELPDEDQLVEIEEQLFINIPFVFKEFLLTVSDV   52 (135)
+T ss_dssp             CCCCHHHHHHHHHHHTCCCCHHHHHHHHHHTTC
+T ss_pred             CCCCHHHHHHHHHHhCCCCCHHHHHHHhhcCCc
+Confidence            455667788999999999999999999999874
+
+
+No 5
+>6QBO_B Cell wall assembly regulator SMI1; cell-wall integrity, stress response, beta-glucan; 2.75A {Saccharomyces cerevisiae}
+Probab=48.09  E-value=1.5e+02  Score=25.30  Aligned_cols=36  Identities=19%  Similarity=0.309  Sum_probs=31.3  Template_Neff=8.600
+
+Q ss_pred             CChhHHhhhhhHHHhcCCCCChhhceEEEeeCCcee
+Q tr|A0A087WUC8|   42 KPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHM   77 (232)
+Q Consensus        42 kppaerhmissweqknncvmpedvknfylmtngfhm   77 (232)
+                      .+|+....|...|..-+|..|++++.||...||..-
+T Consensus        41 ~~pas~~~I~~~E~~lg~~LP~~lr~fl~~~~G~~~   76 (275)
+T 6QBO_B           41 SDPCTQNDITHAEEDLEVSFPNPVKASFKIHDGQED   76 (275)
+T ss_dssp             CCCCCHHHHHHHHHHHTCCCCHHHHHHHTTCCCBCC
+T ss_pred             CCCCCHHHHHHHHHHhCCCCCHHHHHHHHHhcCCCc
+Confidence            466777789999999999999999999999999743
+
+
+No 6
+>2RU9_A Predicted transporter; ferredoxin like, TRANSPORT PROTEIN; NMR {Escherichia coli}
+Probab=42.74  E-value=67  Score=21.81  Aligned_cols=20  Identities=35%  Similarity=0.405  Sum_probs=15.8  Template_Neff=8.900
+
+Q ss_pred             HHHHHhcCCCeEEEEEEeCC
+Q tr|A0A087WUC8|   24 ITRILESSPGVTEVTIIEKP   43 (232)
+Q Consensus        24 itrilesspgvtevtiiekp   43 (232)
+                      +.+.|.+.|||.||++.+..
+T Consensus        25 l~~~L~~l~GV~ev~v~~~e   44 (76)
+T 2RU9_A           25 LKVRLLETEGVKEVLIAEEE   44 (76)
+T ss_dssp             HHHHHTTSTTEEEEEEETTT
+T ss_pred             HHHHHHcCCCeeEEEEEcCC
+Confidence            45568899999999998643
+
+
+No 7
+>6QBR_A Cell wall assembly regulator SMI1; cell-wall integrity, stress response, beta-glucan; 2.15A {Saccharomyces cerevisiae}
+Probab=41.97  E-value=3e+02  Score=23.51  Aligned_cols=36  Identities=19%  Similarity=0.309  Sum_probs=31.4  Template_Neff=8.700
+
+Q ss_pred             CChhHHhhhhhHHHhcCCCCChhhceEEEeeCCcee
+Q tr|A0A087WUC8|   42 KPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHM   77 (232)
+Q Consensus        42 kppaerhmissweqknncvmpedvknfylmtngfhm   77 (232)
+                      .+|+..--|...|+.-+|.+|++++.||...||..-
+T Consensus        41 ~~pas~~~I~~lE~~lg~~LP~dlr~fl~~~nG~~~   76 (275)
+T 6QBR_A           41 SDPCTQNDITHAEEDLEVSFPNPVKASFKIHDGQED   76 (275)
+T ss_dssp             CCCCCHHHHHHHHHHHTCCCCHHHHHHHTTCCCBCC
+T ss_pred             CCCCCHHHHHHHHHHhCCCCCHHHHHHHHHHcCCcc
+Confidence            456667779999999999999999999999999754
+
+
+No 8
+>6QBR_B Cell wall assembly regulator SMI1; cell-wall integrity, stress response, beta-glucan; 2.15A {Saccharomyces cerevisiae}
+Probab=41.97  E-value=3e+02  Score=23.51  Aligned_cols=36  Identities=19%  Similarity=0.309  Sum_probs=31.3  Template_Neff=8.700
+
+Q ss_pred             CChhHHhhhhhHHHhcCCCCChhhceEEEeeCCcee
+Q tr|A0A087WUC8|   42 KPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHM   77 (232)
+Q Consensus        42 kppaerhmissweqknncvmpedvknfylmtngfhm   77 (232)
+                      .+|+..--|...|+.-+|.+|++++.||...||..-
+T Consensus        41 ~~pas~~~I~~lE~~lg~~LP~dlr~fl~~~nG~~~   76 (275)
+T 6QBR_B           41 SDPCTQNDITHAEEDLEVSFPNPVKASFKIHDGQED   76 (275)
+T ss_dssp             CCCCCHHHHHHHHHHHTCCCCHHHHHHHTTCCCBCC
+T ss_pred             CCCCCHHHHHHHHHHhCCCCCHHHHHHHHHHcCCcc
+Confidence            456667779999999999999999999999999754
+
+
+No 9
+>3D5P_B putative glucan synthesis regulator of; PUTATIVE GLUCAN SYNTHESIS REGULATOR OF; HET: GOL, ACT, MSE; 1.45A {Bacteroides fragilis NCTC 9343}
+Probab=41.21  E-value=17  Score=24.69  Aligned_cols=38  Identities=29%  Similarity=0.321  Sum_probs=32.0  Template_Neff=11.300
+
+Q ss_pred             EeCChhHHhhhhhHHHhcCCCCChhhceEEEeeCCcee
+Q tr|A0A087WUC8|   40 IEKPPAERHMISSWEQKNNCVMPEDVKNFYLMTNGFHM   77 (232)
+Q Consensus        40 iekppaerhmissweqknncvmpedvknfylmtngfhm   77 (232)
+                      .-.+++...-|...|+.-++..|++.+.|+.-.||...
+T Consensus        10 ~~~~~~~~~~i~~~e~~~g~~lP~~~~~fl~~~~~~~~   47 (144)
+T 3D5P_B           10 YKKDGASSASIDDVEKLLNTTLPKQYKSFLLWSNGGEG   47 (144)
+T ss_dssp             EECCCCCHHHHHHHHHHHTSCCCHHHHHHHHHCSSEEE
+T ss_pred             ccCCCCChHHHHHHHHHHCCCCCHHHHHHHHHcCCCcc
+Confidence            34566777789999999999999999999999888654
+
+
+No 10
+>4RFU_C Coat protein; Protrusion domain, VIRAL PROTEIN; HET: GOL; 1.2A {Epinephelus coioides nervous necrosis virus}
+Probab=30.74  E-value=38  Score=29.70  Aligned_cols=30  Identities=40%  Similarity=0.895  Sum_probs=19.8  Template_Neff=2.200
+
+Q ss_pred             EEEEEecCCCceEEEEEEeCCCcCCccccEEEEEchhhHHHHhh
+Q tr|A0A087WUC8|  143 VIFELDSCNGSGKVCLVYKSGKPALAEDTEIWFLDRALYWHFLT  186 (232)
+Q Consensus       143 vifeldscngsgkvclvyksgkpalaedteiwfldralywhflt  186 (232)
+                      .||.+|.     -.++=|.-|--    |     +|||.||||..
+T Consensus        42 avfqldr-----PLsIDYsLG~G----D-----VdrAvYwh~~k   71 (125)
+T 4RFU_C           42 AVFQLDR-----PLSIDYSLGTG----D-----VDRAVYWHLKK   71 (125)
+T ss_dssp             CEEEEEE-----EEEEEECCSSS----C-----CEEEEEEEEEE
+T ss_pred             CEEEecC-----CeeeeeecCCC----c-----hHHHHhhhhHH
+Confidence            4777773     35566665532    2     58999999864
+
+
+No 11
+>3PL0_A Uncharacterized protein; QUORUM SENSING, BIOFILM FORMATION, DOUBLE-STRANDED; HET: MSE; 1.91A {Methylibium petroleiphilum}
+Probab=26.02  E-value=1.8e+02  Score=25.58  Aligned_cols=61  Identities=20%  Similarity=0.239  Sum_probs=45.4  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCce--EEEEEecCCCceEEEEEEeCCCc-----CCccccEEEEEchhhHHHHhhHHH
+Q tr|A0A087WUC8|  129 SDDQPEKPHFDSRS--VIFELDSCNGSGKVCLVYKSGKP-----ALAEDTEIWFLDRALYWHFLTDTF  189 (232)
+Q Consensus       129 sddqpekphfdsrs--vifeldscngsgkvclvyksgkp-----alaedteiwfldralywhfltdtf  189 (232)
+                      ....||..|-|.-.  +++-++..|-.|-+-.||+..+.     .|.+--+..++|-.-+||..|+..
+T Consensus       158 g~~tPEG~HqDG~~~v~i~lI~R~Nv~GG~s~i~~~~~~~l~~~~L~~pgd~l~~dD~~v~H~vtpi~  225 (254)
+T 3PL0_A          158 GRPTPEGAHRDGVDFVAVVFIGRQGVRGGETRVFDAAGPQGVRFTLEQPWTVLLLDDQQVIHESTPLL  225 (254)
+T ss_dssp             CCCCTTCSBCCSSSEEEEEEEEEESEEECCEEEEETTSSEEEEECCCSTTCEEEEETTTEEEEECCEE
+T ss_pred             CCCCCCccccCCCcEEEEEEEecCCccccEEEEEcCCCCeeEEEEeCCCCeEEEEeCCcEEEEcCCce
+Confidence            56679999998754  45668889999999999997555     344556677776667899877643
+
+
+No 12
+>3PL0_B Uncharacterized protein; QUORUM SENSING, BIOFILM FORMATION, DOUBLE-STRANDED; HET: MSE; 1.91A {Methylibium petroleiphilum}
+Probab=26.02  E-value=1.8e+02  Score=25.58  Aligned_cols=61  Identities=20%  Similarity=0.239  Sum_probs=45.9  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCce--EEEEEecCCCceEEEEEEeCCCc-----CCccccEEEEEchhhHHHHhhHHH
+Q tr|A0A087WUC8|  129 SDDQPEKPHFDSRS--VIFELDSCNGSGKVCLVYKSGKP-----ALAEDTEIWFLDRALYWHFLTDTF  189 (232)
+Q Consensus       129 sddqpekphfdsrs--vifeldscngsgkvclvyksgkp-----alaedteiwfldralywhfltdtf  189 (232)
+                      ....||..|-|.-.  +++-++..|-.|-+-.||+..+.     .|.+--+..++|-.-+||..|+..
+T Consensus       158 g~~tPEG~HqDG~~~v~i~lI~R~Nv~GG~s~i~~~~~~~l~~~~L~~pgd~l~~dD~~v~H~vtpi~  225 (254)
+T 3PL0_B          158 GRPTPEGAHRDGVDFVAVVFIGRQGVRGGETRVFDAAGPQGVRFTLEQPWTVLLLDDQQVIHESTPLL  225 (254)
+T ss_dssp             BCCSSCSSBCCSSSEEEEEEEEEESEEECCEEEEETTSSEEEEECCCSTTEEEEEETTTEEEEECCEE
+T ss_pred             CCCCCCccccCCCcEEEEEEEecCCccccEEEEEcCCCCeeEEEEeCCCCeEEEEeCCcEEEEcCCce
+Confidence            56679999998754  45668889999999999997555     345566778887677899877643
+
+
+No 13
+>6TPI_B Murein hydrolase activator EnvC, Cell; Complex, PROTEIN BINDING; 2.1A {Escherichia coli (strain K12)}
+Probab=25.37  E-value=1.6e+02  Score=21.29  Aligned_cols=31  Identities=19%  Similarity=0.296  Sum_probs=23.8  Template_Neff=9.000
+
+Q ss_pred             hhHHHHHhcCCCeEEEEEEeCChhHHhhhhh
+Q tr|A0A087WUC8|   22 LGITRILESSPGVTEVTIIEKPPAERHMISS   52 (232)
+Q Consensus        22 lgitrilesspgvtevtiiekppaerhmiss   52 (232)
+                      -.+-..|++.|+|.+|+.+.+..+-..+...
+T Consensus        18 ~~l~~~l~~~~~V~~v~~~s~eea~~~~~~~   48 (110)
+T 6TPI_B           18 AGVVAQLQAEQGVEKVNYLSREDALGEFRNW   48 (110)
+T ss_dssp             HHHHHHHHTSTTEEEEEEECHHHHHHHHHTC
+T ss_pred             HHHHHHHHhCCCccEEEEECHHHHHHHHHHH
+Confidence            3456678999999999999887776665543
+
+
+No 14
+>6TPI_C Murein hydrolase activator EnvC, Cell; Complex, PROTEIN BINDING; 2.1A {Escherichia coli (strain K12)}
+Probab=25.37  E-value=1.6e+02  Score=21.29  Aligned_cols=32  Identities=19%  Similarity=0.253  Sum_probs=24.8  Template_Neff=9.000
+
+Q ss_pred             hhHHHHHhcCCCeEEEEEEeCChhHHhhhhhH
+Q tr|A0A087WUC8|   22 LGITRILESSPGVTEVTIIEKPPAERHMISSW   53 (232)
+Q Consensus        22 lgitrilesspgvtevtiiekppaerhmissw   53 (232)
+                      -.+-..|++.|+|.+|+.+.+..+-..+...+
+T Consensus        18 ~~l~~~l~~~~~V~~v~~~s~eea~~~~~~~~   49 (110)
+T 6TPI_C           18 AGVVAQLQAEQGVEKVNYLSREDALGEFRNWS   49 (110)
+T ss_dssp             HHHHHHTTTCTTEEEEEEECHHHHHHHHHHHS
+T ss_pred             HHHHHHHHhCCCccEEEEECHHHHHHHHHHHh
+Confidence            34566789999999999998887776665544
+
+
+No 15
+>3FFV_A Protein syd; Membrane, Translocon, SecYEG, Syd, Nanodisc; 2.0A {Escherichia coli}
+Probab=23.28  E-value=76  Score=24.86  Aligned_cols=34  Identities=15%  Similarity=0.199  Sum_probs=29.2  Template_Neff=9.100
+
+Q ss_pred             HhhhhhHHHhcCCCCChhhceEEEeeCCceeeEE
+Q tr|A0A087WUC8|   47 RHMISSWEQKNNCVMPEDVKNFYLMTNGFHMTWS   80 (232)
+Q Consensus        47 rhmissweqknncvmpedvknfylmtngfhmtws   80 (232)
+                      ..-++..|++-+...|+|.|.||..-+|..+...
+T Consensus        59 ~~d~~~lE~~l~i~lp~~~k~fl~~y~~~~~~~~   92 (181)
+T 3FFV_A           59 EQNVNAVERAFDIVIQPTIHTFYTTQFAGDMHAQ   92 (181)
+T ss_dssp             CSSCHHHHHHSSCCCCHHHHHHTSSEECCCEEEE
+T ss_pred             cccHHHHHHHhCCcCCHHHHHHHhccccCceEEE
+Confidence            4567899999999999999999999998877643
+
+
+No 16
+>3CM8_B Polymerase acidic protein, peptide from; Protein-peptide Complex, Nucleotide-binding, Nucleotidyltransferase, RNA; 2.899A {Influenza A virus}
+Probab=20.41  E-value=58  Score=22.81  Aligned_cols=10  Identities=60%  Similarity=1.036  Sum_probs=8.1  Template_Neff=1.300
+
+Q ss_pred             ecehhhhhhH
+Q tr|A0A087WUC8|   89 PLGSMAINSI   98 (232)
+Q Consensus        89 plgsmainsi   98 (232)
+                      |||||-||-.
+T Consensus         2 plgsM~iNP~   11 (30)
+T 3CM8_B            2 PLGSMDVNPT   11 (30)
+T ss_pred             CCcccccCce
+Confidence            7899998853
+
+

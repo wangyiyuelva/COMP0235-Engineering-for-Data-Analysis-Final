@@ -1,0 +1,282 @@
+Query         sp|P21741|MK_HUMAN
+Match_columns 143
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 09:40:55 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1690.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LUU_A Midkine-related growth  100.0 3.4E-46 3.7E-51  278.0   8.4  122   21-143     2-126 (127)
+  2 2LUT_A Midkine-related growth  100.0 1.1E-43 1.2E-48  262.7   8.7  122   22-143     3-124 (125)
+  3 2N6F_A Pleiotrophin; cytokine, 100.0 4.9E-42 5.3E-47  257.7   7.1  112   24-135     2-118 (136)
+  4 1MKN_A HEPARIN-BINDING GROWTH  100.0 1.5E-29 1.6E-34  170.1   4.2   58   24-81      2-59  (59)
+  5 1MKC_A HEPARIN-BINDING GROWTH   99.2 3.4E-11 3.7E-16   76.2   2.6   43   84-126     1-43  (43)
+  6 2JR3_A Pelovaterin; beta-defen  46.5      20 0.00022   24.8   0.9   18   33-50      4-21  (42)
+  7 5UGQ_A Carboxylesterase A (E.C  41.8 1.1E+02  0.0012   24.2   4.2    9   40-48     22-30  (492)
+  8 5UNO_A Carboxylesterase A (E.C  41.8 1.1E+02  0.0012   24.2   4.2    9   40-48     22-30  (492)
+  9 4NLM_A Lmo1340 protein; Surfac  25.9      75 0.00081   23.9   1.1   22    1-22      4-25  (363)
+ 10 2KUY_A Glycocin_F; bacteriocin  25.4      54 0.00058   23.0   0.3   12   51-62     11-22  (43)
+ 11 3T5O_A Complement component C6  23.4 5.1E+02  0.0056   24.0   5.8   42   86-127    64-107 (913)
+ 12 4A5W_B COMPLEMENT C5, COMPLEME  23.4 5.1E+02  0.0056   24.0   5.8   42   86-127    64-107 (913)
+ 13 4E0S_B Complement C5, Compleme  23.4 5.1E+02  0.0056   24.0   5.8   42   86-127    64-107 (913)
+ 14 2LUT_A Midkine-related growth   22.2 2.5E+02  0.0028   22.5   3.4   24   81-106    15-41  (125)
+ 15 7NYD_C Complement, MACPF, Memb  21.8   2E+02  0.0022   24.9   2.9   41   88-128    11-53  (821)
+
+No 1
+>2LUU_A Midkine-related growth factor Mdk2; beta sheet, independent half-domain, disulfide; NMR {Danio rerio}
+Probab=100.00  E-value=3.4e-46  Score=277.95  Aligned_cols=122  Identities=61%  Similarity=1.202  Sum_probs=114.2  Template_Neff=4.500
+
+Q ss_pred             cCCCCCCCCCCCCCCCCcccccccCCCCcccCCCCcCcccCCCcceEEEecCCCCcccccCCCCceeecccccCCCCCCc
+Q sp|P21741|MK_H   21 VAKKKDKVKKGGPGSECAEWAWGPCTPSSKDCGVGFREGTCGAQTQRIRCRVPCNWKKEFGADCKYKFENWGACDGGTGT  100 (143)
+Q Consensus        21 vakkkdkvkkggpgsecaewawgpctpsskdcgvgfregtcgaqtqrircrvpcnwkkefgadckykfenwgacdggtgt  100 (143)
+                      .++||||+++.+++++|+||+|++|||++||||.|+||+||.+++.+++|+|||||+++|+++|+|.|++||+||++|++
+T Consensus         2 ~~~kk~k~~~~~~g~~c~ew~~g~Cvp~~gdCG~G~r~gtC~~~t~~~~CkvpCnwKk~~g~~CKY~~g~WgeCD~~T~~   81 (127)
+T 2LUU_A            2 SMKKKEKGKEPKADAECSEWQYGKCVPNSGDCGNGIREATCNEQTKKTKCKVPCNWKKDFGADCKYKFGRWAECDTTTGT   81 (127)
+T ss_dssp             CCCCCCCCCCCCCCCCCSSCCBCCCEECSSSSSEEEEEEEETTEEEEEEEECCCSCCCCCSCCCEEECCCCCCCCTTTSE
+T ss_pred             CccccccCCCCCCCCcccceeeecceeCCCCccccccccccCCcccceeccCCCCcccccCCCCccccCCccccCCCCCc
+Confidence            35667988888888999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeccccccceecccCCCceccCCCCCCCCCCCCCC---CCCCCCC
+Q sp|P21741|MK_H  101 KVRQGTLKKARYNAQCQETIRVTKPCTPKTKAKAKA---KKGKGKD  143 (143)
+Q Consensus       101 kvrqgtlkkarynaqcqetirvtkpctpktkakaka---kkgkgkd  143 (143)
+                      ++|+++|+++|++++|++|++|++||..+. ++++|   +++++++
+T Consensus        82 rtRt~tLKk~l~~a~C~~T~~vtKpC~~k~-~k~k~~~~~~~~~~~  126 (127)
+T 2LUU_A           82 RSRSGTLKKALFNAECQTTIKVSKPCTPKT-PKPKGGEKKKGKGKE  126 (127)
+T ss_dssp             EEEEEEEEECCSSSCCCSSEEEEEECCSSC-CCCSSCCCCCCCCCC
+T ss_pred             eEeceeeehhhcCccccceeeEeCCCCCCC-CCCCCCcccCCCCCC
+Confidence            999999999999999999999999998777 88888   7777763
+
+
+No 2
+>2LUT_A Midkine-related growth factor; beta sheet, independent half-domains, disulfide; NMR {Danio rerio}
+Probab=100.00  E-value=1.1e-43  Score=262.69  Aligned_cols=122  Identities=62%  Similarity=1.224  Sum_probs=115.4  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCcccccccCCCCcccCCCCcCcccCCCcceEEEecCCCCcccccCCCCceeecccccCCCCCCce
+Q sp|P21741|MK_H   22 AKKKDKVKKGGPGSECAEWAWGPCTPSSKDCGVGFREGTCGAQTQRIRCRVPCNWKKEFGADCKYKFENWGACDGGTGTK  101 (143)
+Q Consensus        22 akkkdkvkkggpgsecaewawgpctpsskdcgvgfregtcgaqtqrircrvpcnwkkefgadckykfenwgacdggtgtk  101 (143)
+                      ++||||++.+.++++|+||+|++|||++||||.|+||+||.++|++++|+|||||+++|+++|+|.|++||+||++|+++
+T Consensus         3 ~~kk~k~k~~~~~s~C~ew~w~~C~p~~gdcG~g~regtC~~~t~~~kCkvpc~wkk~~g~~CKY~~g~WgeCD~~T~~k   82 (125)
+T 2LUT_A            3 KNKKEKNKGGKGGADCAEWLYGSCVANNGDCGQGMREGTCNEQTRKVKCRVPCNWKKEFGADCKYKFGNWGECDAATSTK   82 (125)
+T ss_dssp             CCCCCCCCCCCCCCCCSSCCCCCCBCSSSSSEEEEEEEEETTEEEEEEEEECSCSSCCCCCCCCEECCCCCCCBTTTTBE
+T ss_pred             cccccccCCCCCCcccccccccccccCCCcccccccCcccCcccceEeccCCCCcchhcCCCCccccCCccccCcccCcE
+Confidence            46678777777789999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeccccccceecccCCCceccCCCCCCCCCCCCCCCCCCCCC
+Q sp|P21741|MK_H  102 VRQGTLKKARYNAQCQETIRVTKPCTPKTKAKAKAKKGKGKD  143 (143)
+Q Consensus       102 vrqgtlkkarynaqcqetirvtkpctpktkakakakkgkgkd  143 (143)
+                      +|+++|++++++++|++|++|++||..+.+.+.+|++++++.
+T Consensus        83 tRt~tLKk~l~~a~C~~T~~vtKpC~~k~k~k~~~~~~~~~~  124 (125)
+T 2LUT_A           83 SRTGTLQKALFNVECQQTVSVTKPCTTKVKNKPKGKKGKGKG  124 (125)
+T ss_dssp             EEEEEECCCSSCCSCCSEEEEEECCCCCSCCCCCCSTTTSCC
+T ss_pred             EeeeeeehhccCCcCceeeeEeCCCCCCCCCCCCCCCCCCCC
+Confidence            999999999999999999999999999888999998888763
+
+
+No 3
+>2N6F_A Pleiotrophin; cytokine, glycosaminoglycan-binding protein, mitogen, angiogenesis; NMR {Homo sapiens}
+Probab=100.00  E-value=4.9e-42  Score=257.73  Aligned_cols=112  Identities=52%  Similarity=1.109  Sum_probs=105.3  Template_Neff=4.600
+
+Q ss_pred             CCCCCCCCCCCCCCcccccccCCCCcccCCCCcCccc-----CCCcceEEEecCCCCcccccCCCCceeecccccCCCCC
+Q sp|P21741|MK_H   24 KKDKVKKGGPGSECAEWAWGPCTPSSKDCGVGFREGT-----CGAQTQRIRCRVPCNWKKEFGADCKYKFENWGACDGGT   98 (143)
+Q Consensus        24 kkdkvkkggpgsecaewawgpctpsskdcgvgfregt-----cgaqtqrircrvpcnwkkefgadckykfenwgacdggt   98 (143)
+                      |++|+.+++.+++|+||+|++|||++||||.|+|+||     |.+++.+++|+|||||+++|+++|+|.|++|++||++|
+T Consensus         2 ~~~~~~~~~~~~~C~ew~~~~Cvp~~gdCG~G~regtr~g~~C~~~~k~~~CkvPCnwkk~~ga~CKY~f~~WgeCD~~T   81 (136)
+T 2N6F_A            2 KKEKPEKKVKKSDCGEWQWSVCVPTSGDCGLGTREGTRTGAECKQTMKTQRCKIPCNWKKQFGAECKYQFQAWGECDLNT   81 (136)
+T ss_dssp             CSCCCCCCCCSSCCEEEEECCCBCCCSSSCCCEEEEEEECTTCCEEEEEEECCCCCSSCSCCCSSSEEEEECSSCCBTTT
+T ss_pred             CCCCccccCCCCccccceeccceeCCCCCcccccccccCChhhccccceeecccCCchhhhcCCccccccCccccCCCCC
+Confidence            3456666677899999999999999999999999999     99999999999999999999999999999999999999
+
+
+Q ss_pred             CceeeccccccceecccCCCceccCCCCCCCCCCCCC
+Q sp|P21741|MK_H   99 GTKVRQGTLKKARYNAQCQETIRVTKPCTPKTKAKAK  135 (143)
+Q Consensus        99 gtkvrqgtlkkarynaqcqetirvtkpctpktkakak  135 (143)
+                      ++++|+++|+++|++++|++|++|++||.++.++|.+
+T Consensus        82 ~~ktRtgtLKk~l~~a~C~~ti~vtKpC~~~~k~k~~  118 (136)
+T 2N6F_A           82 ALKTRTGSLKRALHNAECQKTVTISKPCGKLTKPKPQ  118 (136)
+T ss_dssp             TEEEEEEEEEECCSSCCCCSEEEEEEESSCCCCCSSC
+T ss_pred             CceeeeeeeeccccCcccccceEEeCCCCCCCCCCcc
+Confidence            9999999999999999999999999999988877766
+
+
+No 4
+>1MKN_A HEPARIN-BINDING GROWTH FACTOR; NMR {N/A} SCOP: g.5.1.1
+Probab=99.96  E-value=1.5e-29  Score=170.06  Aligned_cols=58  Identities=100%  Similarity=1.883  Sum_probs=54.6  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCCcccccccCCCCcccCCCCcCcccCCCcceEEEecCCCCcccccC
+Q sp|P21741|MK_H   24 KKDKVKKGGPGSECAEWAWGPCTPSSKDCGVGFREGTCGAQTQRIRCRVPCNWKKEFG   81 (143)
+Q Consensus        24 kkdkvkkggpgsecaewawgpctpsskdcgvgfregtcgaqtqrircrvpcnwkkefg   81 (143)
+                      ||||+++.+++++|+||+|++|||+++|||.|+||+||.++|.+++|+||||||++|+
+T Consensus         2 Kk~k~kk~~~gs~c~ew~~g~CvP~~gDCG~G~regtC~~~t~ki~CkvPCnwKK~fg   59 (59)
+T 1MKN_A            2 KKDKVKKGGPGSECAEWAWGPCTPSSKDCGVGFREGTCGAQTQRIRCRVPCNWKKEFG   59 (59)
+T ss_dssp             CCCCCSSSCCCCCCSSSEEECCCCSSSSSBSCCEEEESSSCCEEECCCBCCCSSSSCC
+T ss_pred             cccccCCCCCCCcccceeecccccCCCCcCCccccCcCCCcccceeceeccCcchhhC
+Confidence            4588888888899999999999999999999999999999999999999999999985
+
+
+No 5
+>1MKC_A HEPARIN-BINDING GROWTH FACTOR; NMR {N/A} SCOP: g.5.1.2
+Probab=99.16  E-value=3.4e-11  Score=76.16  Aligned_cols=43  Identities=100%  Similarity=1.693  Sum_probs=41.9  Template_Neff=5.300
+
+Q ss_pred             CceeecccccCCCCCCceeeccccccceecccCCCceccCCCC
+Q sp|P21741|MK_H   84 CKYKFENWGACDGGTGTKVRQGTLKKARYNAQCQETIRVTKPC  126 (143)
+Q Consensus        84 ckykfenwgacdggtgtkvrqgtlkkarynaqcqetirvtkpc  126 (143)
+                      |+|.+++||+||+++++++|+++|++++++++|+++++|+|||
+T Consensus         1 CkY~kg~W~eCd~~t~~~trt~tLk~~~~~~~C~~t~~itK~C   43 (43)
+T 1MKC_A            1 CKYKFENWGACDGGTGTKVRQGTLKKARYNAQCQETIRVTKPC   43 (43)
+T ss_dssp             CCCEECCCCSSCSSSSSCCCCEECCCCSSSSSCCSSSCCCCCC
+T ss_pred             CCccccccccCCcCCCcEEEeeeeeccccccccCceEEEECCC
+Confidence            8999999999999999999999999988899999999999998
+
+
+No 6
+>2JR3_A Pelovaterin; beta-defensin Like Peptide, Chinese Soft-shelled; NMR {Pelodiscus sinensis}
+Probab=46.51  E-value=20  Score=24.80  Aligned_cols=18  Identities=44%  Similarity=1.169  Sum_probs=14.6  Template_Neff=1.000
+
+Q ss_pred             CCCCCcccccccCCCCcc
+Q sp|P21741|MK_H   33 PGSECAEWAWGPCTPSSK   50 (143)
+Q Consensus        33 pgsecaewawgpctpssk   50 (143)
+                      +.++|..--|++|.|--.
+T Consensus         4 pssrcgsggwgpclpivd   21 (42)
+T 2JR3_A            4 PSSRCGSGGWGPCLPIVD   21 (42)
+T ss_dssp             CSCCTTTSSBCSCEEGGG
+T ss_pred             CccccCCCCcCcchhHHh
+Confidence            458999999999988654
+
+
+No 7
+>5UGQ_A Carboxylesterase A (E.C.3.1.1.-); Serine protease, HYDROLASE; HET: MSE; 2.609A {Mycobacterium tuberculosis}
+Probab=41.76  E-value=1.1e+02  Score=24.24  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.5  Template_Neff=11.000
+
+Q ss_pred             cccccCCCC
+Q sp|P21741|MK_H   40 WAWGPCTPS   48 (143)
+Q Consensus        40 wawgpctps   48 (143)
+                      ..|.+|...
+T Consensus        22 l~w~~C~~~   30 (492)
+T 5UGQ_A           22 VEWTPCRSS   30 (492)
+T ss_dssp             CCCEECC--
+T ss_pred             ceeeeCCCC
+Confidence            678888653
+
+
+No 8
+>5UNO_A Carboxylesterase A (E.C.3.1.1.-); Serine protease, HYDROLASE; 2.603A {Mycobacterium tuberculosis}
+Probab=41.76  E-value=1.1e+02  Score=24.24  Aligned_cols=9  Identities=44%  Similarity=1.184  Sum_probs=5.5  Template_Neff=11.000
+
+Q ss_pred             cccccCCCC
+Q sp|P21741|MK_H   40 WAWGPCTPS   48 (143)
+Q Consensus        40 wawgpctps   48 (143)
+                      ..|.+|...
+T Consensus        22 l~w~~C~~~   30 (492)
+T 5UNO_A           22 VEWTPCRSS   30 (492)
+T ss_dssp             CCCEECC--
+T ss_pred             ceeeeCCCC
+Confidence            678888653
+
+
+No 9
+>4NLM_A Lmo1340 protein; Surface proteins, Center for Structural; HET: MSE; 1.18A {Listeria monocytogenes}
+Probab=25.88  E-value=75  Score=23.93  Aligned_cols=22  Identities=14%  Similarity=-0.099  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCcCCCCCCCCCCCcC
+Q sp|P21741|MK_H    1 MQHRGFLLLTLLALLALTSAVA   22 (143)
+Q Consensus         1 mqhrgfllltllallaltsava   22 (143)
+                      |+|+-+.+++++++|.|+.-..
+T Consensus         4 ~~~~~~~~~~~~~~~~l~gC~~   25 (363)
+T 4NLM_A            4 HHHHSSGVDLGTENLYFQSNAE   25 (363)
+T ss_dssp             ----------------------
+T ss_pred             CcccccchhHHhhheeeeecCC
+Confidence            4566666666666665554433
+
+
+No 10
+>2KUY_A Glycocin_F; bacteriocin, glycosylation, lactobacillus, S-linked, ANTIMICROBIAL; HET: NAG; NMR {Lactobacillus plantarum}
+Probab=25.37  E-value=54  Score=23.03  Aligned_cols=12  Identities=50%  Similarity=1.318  Sum_probs=7.6  Template_Neff=1.700
+
+Q ss_pred             cCCCCcCcccCC
+Q sp|P21741|MK_H   51 DCGVGFREGTCG   62 (143)
+Q Consensus        51 dcgvgfregtcg   62 (143)
+                      .|+.|.-.|||.
+T Consensus        11 lC~aGyDsGTC~   22 (43)
+T 2KUY_A           11 MCGAGYDSGTCD   22 (43)
+T ss_dssp             TTCSCSSSSHCC
+T ss_pred             ccccCccccccH
+Confidence            466666666654
+
+
+No 11
+>3T5O_A Complement component C6; MACPF, MAC, MEMBRANE ATTACK COMPLEX; HET: FUC, NAG, MAN, BGC, FUL; 2.869A {Homo sapiens}
+Probab=23.38  E-value=5.1e+02  Score=23.97  Aligned_cols=42  Identities=17%  Similarity=0.441  Sum_probs=23.6  Template_Neff=9.500
+
+Q ss_pred             eeecccccCCCCCCceeeccccccc--eecccCCCceccCCCCC
+Q sp|P21741|MK_H   86 YKFENWGACDGGTGTKVRQGTLKKA--RYNAQCQETIRVTKPCT  127 (143)
+Q Consensus        86 ykfenwgacdggtgtkvrqgtlkka--rynaqcqetirvtkpct  127 (143)
+                      +..+.|++|++-.+.+.|+..+...  .....|......+.+|.
+T Consensus        64 ~~w~~ws~Cs~C~~~~~r~r~~~~~~~~~g~~C~g~~~e~~~C~  107 (913)
+T 3T5O_A           64 GDFGPWSDCDPCIEKQSKVRSVLRPSQFGGQPCTAPLVAFQPCI  107 (913)
+T ss_dssp             CCCCCCCCCCSSSCEECCBCCEEECEETTCCCCCSCSBCCEECC
+T ss_pred             ccccCchhcccCCCCcEEEEeecCchhcCCCCCCCcceeeccCC
+Confidence            3467999999655555554444322  12234665555666663
+
+
+No 12
+>4A5W_B COMPLEMENT C5, COMPLEMENT COMPONENT C6; IMMUNE SYSTEM, IMMUNITY, MEMBRANE ATTACK; HET: BMA, FUC, NAG; 3.5A {HOMO SAPIENS}
+Probab=23.38  E-value=5.1e+02  Score=23.97  Aligned_cols=42  Identities=17%  Similarity=0.441  Sum_probs=24.6  Template_Neff=9.500
+
+Q ss_pred             eeecccccCCCCCCceeeccccccc--eecccCCCceccCCCCC
+Q sp|P21741|MK_H   86 YKFENWGACDGGTGTKVRQGTLKKA--RYNAQCQETIRVTKPCT  127 (143)
+Q Consensus        86 ykfenwgacdggtgtkvrqgtlkka--rynaqcqetirvtkpct  127 (143)
+                      +..+.|++|++-.+.+.|+..+...  .....|......+.+|.
+T Consensus        64 ~~w~~ws~Cs~C~~~~~r~r~~~~~~~~~g~~C~g~~~e~~~C~  107 (913)
+T 4A5W_B           64 GDFGPWSDCDPCIEKQSKVRSVLRPSQFGGQPCTAPLVAFQPCI  107 (913)
+T ss_dssp             CCBCCCCSCCTTSCCEEEEBCCCSCBCSCSSCCCSCSEEEECCC
+T ss_pred             ccccCchhcccCCCCcEEEEeecCchhcCCCCCCCcceeeccCC
+Confidence            3468999999655665555544432  12345665555566663
+
+
+No 13
+>4E0S_B Complement C5, Complement component C6; complement, MAC, immune system; HET: BGC, FUC, NAG, MAN; 4.21A {Homo sapiens}
+Probab=23.38  E-value=5.1e+02  Score=23.97  Aligned_cols=42  Identities=17%  Similarity=0.464  Sum_probs=23.9  Template_Neff=9.500
+
+Q ss_pred             eeecccccCCCCCCceeeccccccce--ecccCCCceccCCCCC
+Q sp|P21741|MK_H   86 YKFENWGACDGGTGTKVRQGTLKKAR--YNAQCQETIRVTKPCT  127 (143)
+Q Consensus        86 ykfenwgacdggtgtkvrqgtlkkar--ynaqcqetirvtkpct  127 (143)
+                      +..+.|++|++-.+.+.|+..+....  ....|......+.+|.
+T Consensus        64 ~~w~~ws~Cs~C~~~~~r~r~~~~~~~~~g~~C~g~~~e~~~C~  107 (913)
+T 4E0S_B           64 GDFGPWSDCDPCIEKQSKVRSVLRPSQFGGQPCTAPLVAFQPCI  107 (913)
+T ss_dssp             CCCCCCCCCCSSSCEECCBCCCSBCEETTCCCCCSCSBCCEECC
+T ss_pred             ccccCchhcccCCCCcEEEEeecCchhcCCCCCCCcceeeccCC
+Confidence            34679999996555555554443321  2244665555666663
+
+
+No 14
+>2LUT_A Midkine-related growth factor; beta sheet, independent half-domains, disulfide; NMR {Danio rerio}
+Probab=22.23  E-value=2.5e+02  Score=22.46  Aligned_cols=24  Identities=42%  Similarity=0.822  Sum_probs=19.0  Template_Neff=4.800
+
+Q ss_pred             CCCCceeecccccCCCCCCc---eeeccc
+Q sp|P21741|MK_H   81 GADCKYKFENWGACDGGTGT---KVRQGT  106 (143)
+Q Consensus        81 gadckykfenwgacdggtgt---kvrqgt  106 (143)
+                      +.+|.|  -.|++|++.++.   ..|.++
+T Consensus        15 ~s~C~e--w~w~~C~p~~gdcG~g~regt   41 (125)
+T 2LUT_A           15 GADCAE--WLYGSCVANNGDCGQGMREGT   41 (125)
+T ss_dssp             CCCCSS--CCCCCCBCSSSSSEEEEEEEE
+T ss_pred             Cccccc--ccccccccCCCcccccccCcc
+Confidence            358888  699999999998   666555
+
+
+No 15
+>7NYD_C Complement, MACPF, Membrane Attack Complex; HET: BMA, FUC, NAG, MAN; 3.3A {Homo sapiens}
+Probab=21.76  E-value=2e+02  Score=24.93  Aligned_cols=41  Identities=24%  Similarity=0.561  Sum_probs=26.2  Template_Neff=10.700
+
+Q ss_pred             ecccccCCCCCCceeeccccccce--ecccCCCceccCCCCCC
+Q sp|P21741|MK_H   88 FENWGACDGGTGTKVRQGTLKKAR--YNAQCQETIRVTKPCTP  128 (143)
+Q Consensus        88 fenwgacdggtgtkvrqgtlkkar--ynaqcqetirvtkpctp  128 (143)
+                      .+.|++|++-.+.+.|+..+...-  ....|........+|..
+T Consensus        11 w~~ws~c~~c~~~~~r~r~~~~~~~~~g~~c~~~~~~~~~C~~   53 (821)
+T 7NYD_C           11 YAPWSECNGCTKTQTRRRSVAVYGQYGGQPCVGNAFETQSCEP   53 (821)
+T ss_pred             CCCccCCCCCCCccEEEEEEEEeeccCCccCCCccccccccCC
+Confidence            458999998777777777766431  23556555556666643
+
+

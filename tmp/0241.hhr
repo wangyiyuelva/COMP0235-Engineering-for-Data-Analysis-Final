@@ -1,0 +1,330 @@
+Query         tr|H0YI54|H0YI54_HUMAN
+Match_columns 41
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:30:37 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0241.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3TNU_A Keratin, type I cytoske  82.9    0.93   1E-05   21.0   0.3   14    2-15    118-131 (131)
+  2 6UUI_X Keratin, type II cytosk  75.6     2.1 2.3E-05   19.0   0.3   14    2-15    109-122 (122)
+  3 4ZRY_A Keratin, type I cytoske  75.3     2.2 2.4E-05   19.0   0.3   13    3-15    112-124 (124)
+  4 6UUI_C Keratin, type II cytosk  74.5     2.4 2.6E-05   19.0   0.3   13    3-15    108-120 (120)
+  5 1GK6_A VIMENTIN; STRUCTURAL PR  59.6      12 0.00013   13.1   0.9   15    4-18     43-57  (59)
+  6 3TNU_B Keratin, type I cytoske  57.5     8.5 9.3E-05   17.3   0.3   13    3-15    117-129 (129)
+  7 3V4Q_A Prelamin-A/C; STRUCTURA  49.0      18  0.0002   13.8   0.6   12    4-15     60-71  (74)
+  8 1GK4_A VIMENTIN; VIMENTIN, INT  45.7      13 0.00014   14.5  -0.1   14    4-17     69-82  (84)
+  9 1GK4_C VIMENTIN; VIMENTIN, INT  45.7      13 0.00014   14.5  -0.1   14    4-17     69-82  (84)
+ 10 6ABO_B DNA repair protein XRCC  42.7      33 0.00036   13.5   0.9   14    3-16     67-80  (82)
+ 11 6YJD_A Capsid assembly scaffol  40.3      15 0.00016   17.9  -0.4   20    3-22     95-114 (127)
+ 12 1X8Y_A Lamin A/C; Structural P  38.3      17 0.00019   14.6  -0.3   12    4-15     71-82  (86)
+ 13 6JFV_B Keratin, type I cytoske  33.6      31 0.00034   14.1   0.2   10    4-13     88-97  (98)
+ 14 6JFV_D Keratin, type I cytoske  33.6      31 0.00034   14.1   0.2   10    4-13     88-97  (98)
+ 15 3V5B_A Prelamin-A/C; STRUCTURA  31.4      41 0.00044   12.8   0.3   12    4-15     60-71  (74)
+ 16 2WBF_X SERINE-REPEAT ANTIGEN P  29.9      25 0.00027   20.2  -0.6   14   19-32      4-17  (265)
+ 17 3TYY_A Lamin-B1; Lamin-B1, LMN  27.6      77 0.00084   14.4   1.0   14    4-17     80-93  (95)
+ 18 3TYY_B Lamin-B1; Lamin-B1, LMN  27.6      77 0.00084   14.4   1.0   14    4-17     80-93  (95)
+ 19 6JFV_A Keratin, type I cytoske  23.9      58 0.00063   13.3   0.2    9    4-12     85-93  (95)
+ 20 2XV5_A LAMIN-A/C; STRUCTURAL P  20.7   1E+02  0.0011   12.5   0.6   16    4-19     48-63  (74)
+
+No 1
+>3TNU_A Keratin, type I cytoskeletal 14; Coiled-coil, Structural Support, CYTOSOLIC PROTEIN; 3.005A {Homo sapiens}
+Probab=82.88  E-value=0.93  Score=20.97  Aligned_cols=14  Identities=86%  Similarity=1.253  Sum_probs=10.7  Template_Neff=13.000
+
+Q ss_pred             CCchhhhhHHhCCC
+Q tr|H0YI54|H0YI    2 DVEIATYRRLLEGE   15 (41)
+Q Consensus         2 dveiatyrrllege   15 (41)
+                      +.+|.+|+++++++
+T Consensus       118 ~~e~~~~~~ll~~~  131 (131)
+T 3TNU_A          118 EQEIATYRRLLEGE  131 (131)
+T ss_dssp             HHHHHHHHHHTTC-
+T ss_pred             HHHHHHHHHHHcCC
+Confidence            45788999998875
+
+
+No 2
+>6UUI_X Keratin, type II cytoskeletal 1; intermediate filament, cytoskeleton, skin, coiled-coil; HET: GOL, BOG; 2.069A {Homo sapiens}
+Probab=75.60  E-value=2.1  Score=19.05  Aligned_cols=14  Identities=71%  Similarity=1.058  Sum_probs=10.3  Template_Neff=13.400
+
+Q ss_pred             CCchhhhhHHhCCC
+Q tr|H0YI54|H0YI    2 DVEIATYRRLLEGE   15 (41)
+Q Consensus         2 dveiatyrrllege   15 (41)
+                      +.++..|+++++++
+T Consensus       109 ~~~~~~~~~~~~~~  122 (122)
+T 6UUI_X          109 ENEIQTYRSLLEGE  122 (122)
+T ss_dssp             HHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHhcCC
+Confidence            35678899888764
+
+
+No 3
+>4ZRY_A Keratin, type I cytoskeletal 10; keratin, intermediate filament, coiled-coil, skin; 3.30012502044A {Homo sapiens}
+Probab=75.26  E-value=2.2  Score=19.04  Aligned_cols=13  Identities=77%  Similarity=1.071  Sum_probs=9.6  Template_Neff=13.400
+
+Q ss_pred             CchhhhhHHhCCC
+Q tr|H0YI54|H0YI    3 VEIATYRRLLEGE   15 (41)
+Q Consensus         3 veiatyrrllege   15 (41)
+                      .++..|+++++++
+T Consensus       112 ~~~~~~~~~~~~~  124 (124)
+T 4ZRY_A          112 NEIQTYRSLLEGE  124 (124)
+T ss_dssp             HHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHcCC
+Confidence            4678888888754
+
+
+No 4
+>6UUI_C Keratin, type II cytoskeletal 1; intermediate filament, cytoskeleton, skin, coiled-coil; HET: GOL, BOG; 2.069A {Homo sapiens}
+Probab=74.49  E-value=2.4  Score=19.04  Aligned_cols=13  Identities=85%  Similarity=1.239  Sum_probs=9.5  Template_Neff=13.200
+
+Q ss_pred             CchhhhhHHhCCC
+Q tr|H0YI54|H0YI    3 VEIATYRRLLEGE   15 (41)
+Q Consensus         3 veiatyrrllege   15 (41)
+                      .++.+|+++++++
+T Consensus       108 ~~~~~~~~~~~~~  120 (120)
+T 6UUI_C          108 LEIATYRTLLEGE  120 (120)
+T ss_dssp             HHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHcCC
+Confidence            4678888888653
+
+
+No 5
+>1GK6_A VIMENTIN; STRUCTURAL PROTEIN, INTERMEDIATE FILAMENT, DIMER; 1.9A {SACCHAROMYCES CEREVISIAE} SCOP: h.1.20.1
+Probab=59.65  E-value=12  Score=13.10  Aligned_cols=15  Identities=80%  Similarity=1.176  Sum_probs=9.1  Template_Neff=14.500
+
+Q ss_pred             chhhhhHHhCCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEECS   18 (41)
+Q Consensus         4 eiatyrrllegeecs   18 (41)
+                      ++..++++++++++.
+T Consensus        43 ~~~~~~~~~~~~~~r   57 (59)
+T 1GK6_A           43 EIATYRKLLEGEESR   57 (59)
+T ss_dssp             HHHHHHHHHHCCCC-
+T ss_pred             HHHHHHHHHhhhhcc
+Confidence            345677777776654
+
+
+No 6
+>3TNU_B Keratin, type I cytoskeletal 14; Coiled-coil, Structural Support, CYTOSOLIC PROTEIN; 3.005A {Homo sapiens}
+Probab=57.55  E-value=8.5  Score=17.27  Aligned_cols=13  Identities=92%  Similarity=1.354  Sum_probs=8.5  Template_Neff=13.400
+
+Q ss_pred             CchhhhhHHhCCC
+Q tr|H0YI54|H0YI    3 VEIATYRRLLEGE   15 (41)
+Q Consensus         3 veiatyrrllege   15 (41)
+                      .++.+|+++++++
+T Consensus       117 ~~~~~~~~~~~~~  129 (129)
+T 3TNU_B          117 VEIATYRKLLEGE  129 (129)
+T ss_dssp             HHHHHHHHTTCC-
+T ss_pred             HHHHHHHHHHcCC
+Confidence            4677788877653
+
+
+No 7
+>3V4Q_A Prelamin-A/C; STRUCTURAL PROTEIN; 3.06A {Homo sapiens}
+Probab=49.02  E-value=18  Score=13.85  Aligned_cols=12  Identities=75%  Similarity=1.232  Sum_probs=6.9  Template_Neff=14.000
+
+Q ss_pred             chhhhhHHhCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGE   15 (41)
+Q Consensus         4 eiatyrrllege   15 (41)
+                      ++++|+++++++
+T Consensus        60 ~~~~~~~~~~~~   71 (74)
+T 3V4Q_A           60 EIHAYRKLLEGE   71 (74)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhhh
+Confidence            455666666543
+
+
+No 8
+>1GK4_A VIMENTIN; VIMENTIN, INTERMEDIATE FILAMENT, DIMER, PARALLEL; 2.3A {HOMO SAPIENS} SCOP: h.1.20.1
+Probab=45.75  E-value=13  Score=14.52  Aligned_cols=14  Identities=86%  Similarity=1.265  Sum_probs=7.6  Template_Neff=14.200
+
+Q ss_pred             chhhhhHHhCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEEC   17 (41)
+Q Consensus         4 eiatyrrllegeec   17 (41)
+                      ++..++++++++.+
+T Consensus        69 ~~~~~~~~~~~~~~   82 (84)
+T 1GK4_A           69 EIATYRKLLEGEES   82 (84)
+T ss_dssp             HHHHHHHHHTC---
+T ss_pred             HHHHHHHHHhhhhh
+Confidence            45667777777654
+
+
+No 9
+>1GK4_C VIMENTIN; VIMENTIN, INTERMEDIATE FILAMENT, DIMER, PARALLEL; 2.3A {HOMO SAPIENS} SCOP: h.1.20.1
+Probab=45.75  E-value=13  Score=14.52  Aligned_cols=14  Identities=86%  Similarity=1.265  Sum_probs=7.6  Template_Neff=14.200
+
+Q ss_pred             chhhhhHHhCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEEC   17 (41)
+Q Consensus         4 eiatyrrllegeec   17 (41)
+                      ++..++++++++.+
+T Consensus        69 ~~~~~~~~~~~~~~   82 (84)
+T 1GK4_C           69 EIATYRKLLEGEES   82 (84)
+T ss_dssp             HHHHHHHHHCC---
+T ss_pred             HHHHHHHHHhhhhh
+Confidence            45667777777654
+
+
+No 10
+>6ABO_B DNA repair protein XRCC4, Intermediate; complex, coiled-coil, NUCLEAR PROTEIN; HET: SO4; 2.65A {Homo sapiens}
+Probab=42.68  E-value=33  Score=13.48  Aligned_cols=14  Identities=36%  Similarity=0.574  Sum_probs=8.5  Template_Neff=13.900
+
+Q ss_pred             CchhhhhHHhCCCC
+Q tr|H0YI54|H0YI    3 VEIATYRRLLEGEE   16 (41)
+Q Consensus         3 veiatyrrllegee   16 (41)
+                      .+++.|+.++++++
+T Consensus        67 ~~~~~~~~~~~~~~   80 (82)
+T 6ABO_B           67 VQMETCRRLITQSG   80 (82)
+T ss_dssp             HHHHHHHHHHCC--
+T ss_pred             HHHHHHHHHHhccc
+Confidence            35667888887764
+
+
+No 11
+>6YJD_A Capsid assembly scaffolding protein,Prelamin-A/C; intermediate filaments, lamin, coiled-coil, NUCLEAR; HET: TRS; 2.9A {Bacillus phage phi29}
+Probab=40.33  E-value=15  Score=17.92  Aligned_cols=20  Identities=55%  Similarity=0.747  Sum_probs=9.2  Template_Neff=11.900
+
+Q ss_pred             CchhhhhHHhCCCCCCCCCc
+Q tr|H0YI54|H0YI    3 VEIATYRRLLEGEECSLGGR   22 (41)
+Q Consensus         3 veiatyrrllegeecslggr   22 (41)
+                      .++..|+++++++++.+...
+T Consensus        95 ~~~~~~~~~~~~~~~r~~~~  114 (127)
+T 6YJD_A           95 MEIHAYRKLLEGEEERLRLS  114 (127)
+T ss_dssp             HHHHHHHHHTC---------
+T ss_pred             HHHHHHHHHHHhhHhhccCC
+Confidence            46788999999988765543
+
+
+No 12
+>1X8Y_A Lamin A/C; Structural Protein, Intermediate filament protein; 2.2A {Homo sapiens} SCOP: h.1.20.1
+Probab=38.26  E-value=17  Score=14.59  Aligned_cols=12  Identities=75%  Similarity=1.232  Sum_probs=6.3  Template_Neff=13.800
+
+Q ss_pred             chhhhhHHhCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGE   15 (41)
+Q Consensus         4 eiatyrrllege   15 (41)
+                      ++..++.+++++
+T Consensus        71 ~~~~~~~~~~~~   82 (86)
+T 1X8Y_A           71 EIHAYRKLLEGE   82 (86)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhh
+Confidence            445555555544
+
+
+No 13
+>6JFV_B Keratin, type I cytoskeletal 14; Intermediate filaments, Keratinocytes, Skin, Epithelium; 2.6A {Homo sapiens}
+Probab=33.63  E-value=31  Score=14.09  Aligned_cols=10  Identities=90%  Similarity=1.308  Sum_probs=6.2  Template_Neff=13.900
+
+Q ss_pred             chhhhhHHhC
+Q tr|H0YI54|H0YI    4 EIATYRRLLE   13 (41)
+Q Consensus         4 eiatyrrlle   13 (41)
+                      ++..|+++++
+T Consensus        88 ~~~~~~~~~~   97 (98)
+T 6JFV_B           88 EIATYRKLLE   97 (98)
+T ss_dssp             HHHHHHHHHC
+T ss_pred             HHHHHHHHhc
+Confidence            4566776664
+
+
+No 14
+>6JFV_D Keratin, type I cytoskeletal 14; Intermediate filaments, Keratinocytes, Skin, Epithelium; 2.6A {Homo sapiens}
+Probab=33.63  E-value=31  Score=14.09  Aligned_cols=10  Identities=90%  Similarity=1.308  Sum_probs=5.7  Template_Neff=13.900
+
+Q ss_pred             chhhhhHHhC
+Q tr|H0YI54|H0YI    4 EIATYRRLLE   13 (41)
+Q Consensus         4 eiatyrrlle   13 (41)
+                      ++..|+++++
+T Consensus        88 ~~~~~~~~~~   97 (98)
+T 6JFV_D           88 EIATYRKLLE   97 (98)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHhc
+Confidence            4556666654
+
+
+No 15
+>3V5B_A Prelamin-A/C; STRUCTURAL PROTEIN; 3.0A {Homo sapiens}
+Probab=31.36  E-value=41  Score=12.79  Aligned_cols=12  Identities=75%  Similarity=1.232  Sum_probs=6.4  Template_Neff=14.000
+
+Q ss_pred             chhhhhHHhCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGE   15 (41)
+Q Consensus         4 eiatyrrllege   15 (41)
+                      +++.++++++++
+T Consensus        60 ~~~~~~~~~~~~   71 (74)
+T 3V5B_A           60 EIHAYRKLLEGE   71 (74)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhhh
+Confidence            345566665544
+
+
+No 16
+>2WBF_X SERINE-REPEAT ANTIGEN PROTEIN; SERINE REPEAT ANTIGEN, SERA, MALARIA; HET: DMS; 1.6A {PLASMODIUM FALCIPARUM}
+Probab=29.91  E-value=25  Score=20.20  Aligned_cols=14  Identities=7%  Similarity=0.200  Sum_probs=10.8  Template_Neff=11.100
+
+Q ss_pred             CCCccceehhhhhh
+Q tr|H0YI54|H0YI   19 LGGRQRCHVWRSWW   32 (41)
+Q Consensus        19 lggrqrchvwrsww   32 (41)
+                      |+..-+|+.||.|-
+T Consensus         4 ~~~~~~~~~~~~~~   17 (265)
+T 2WBF_X            4 FCNKEYCNRLKDEN   17 (265)
+T ss_dssp             TBSSSCBCGGGCTT
+T ss_pred             ccCHHHhHhccCcC
+Confidence            45577899999874
+
+
+No 17
+>3TYY_A Lamin-B1; Lamin-B1, LMNB1, B-type lamins, intermediate; 2.399A {Homo sapiens}
+Probab=27.64  E-value=77  Score=14.43  Aligned_cols=14  Identities=71%  Similarity=1.115  Sum_probs=9.6  Template_Neff=12.000
+
+Q ss_pred             chhhhhHHhCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEEC   17 (41)
+Q Consensus         4 eiatyrrllegeec   17 (41)
+                      ++.+++++++++.+
+T Consensus        80 ~~~~~~~~~~~~~~   93 (95)
+T 3TYY_A           80 EISAYRKLLEGEEE   93 (95)
+T ss_dssp             HHHHHHHHHCCCC-
+T ss_pred             HHHHHHHHHhchhh
+Confidence            45678888877765
+
+
+No 18
+>3TYY_B Lamin-B1; Lamin-B1, LMNB1, B-type lamins, intermediate; 2.399A {Homo sapiens}
+Probab=27.64  E-value=77  Score=14.43  Aligned_cols=14  Identities=71%  Similarity=1.115  Sum_probs=8.1  Template_Neff=12.000
+
+Q ss_pred             chhhhhHHhCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEEC   17 (41)
+Q Consensus         4 eiatyrrllegeec   17 (41)
+                      ++.+++++++++.+
+T Consensus        80 ~~~~~~~~~~~~~~   93 (95)
+T 3TYY_B           80 EISAYRKLLEGEEE   93 (95)
+T ss_dssp             HHHHHHHHHCC---
+T ss_pred             HHHHHHHHHhchhh
+Confidence            45678888877654
+
+
+No 19
+>6JFV_A Keratin, type I cytoskeletal 14; Intermediate filaments, Keratinocytes, Skin, Epithelium; 2.6A {Homo sapiens}
+Probab=23.91  E-value=58  Score=13.26  Aligned_cols=9  Identities=100%  Similarity=1.394  Sum_probs=4.0  Template_Neff=13.800
+
+Q ss_pred             chhhhhHHh
+Q tr|H0YI54|H0YI    4 EIATYRRLL   12 (41)
+Q Consensus         4 eiatyrrll   12 (41)
+                      ++..|+.++
+T Consensus        85 ~~~~~~~~~   93 (95)
+T 6JFV_A           85 EIATYRRLL   93 (95)
+T ss_dssp             HHHHHHHTC
+T ss_pred             HHHHHHHHH
+Confidence            344455443
+
+
+No 20
+>2XV5_A LAMIN-A/C; STRUCTURAL PROTEIN, INTERMEDIATE FILAMENTS, NUCLEAR; HET: MSE; 2.4A {HOMO SAPIENS}
+Probab=20.74  E-value=1e+02  Score=12.53  Aligned_cols=16  Identities=69%  Similarity=1.016  Sum_probs=7.8  Template_Neff=12.900
+
+Q ss_pred             chhhhhHHhCCCCCCC
+Q tr|H0YI54|H0YI    4 EIATYRRLLEGEECSL   19 (41)
+Q Consensus         4 eiatyrrllegeecsl   19 (41)
+                      ++..++.+++++.+.+
+T Consensus        48 ~~~~~~~~~~~~~~~~   63 (74)
+T 2XV5_A           48 EIHAYRKLLEGEEERL   63 (74)
+T ss_dssp             HHHHHHHHTTC-----
+T ss_pred             HHHHHHHHHhhhhhcc
+Confidence            4566777777776643
+
+

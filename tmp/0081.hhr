@@ -1,0 +1,170 @@
+Query         tr|C9JW89|C9JW89_HUMAN
+Match_columns 152
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 00:21:34 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0081.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2XC8_B GENE 22 PRODUCT; SIPHOV   8.8   5E+02  0.0055   21.8   1.9   19   21-39    126-144 (146)
+  2 7NMB_A DNA binding domain wHTH   8.3 6.9E+02  0.0075   16.0   2.0   16   67-82      1-16  (144)
+  3 3G28_A alpha-helical bundle, c   7.3 5.2E+02  0.0057   15.3   1.1   13  133-145    12-24  (77)
+  4 5DCK_A Gag polyprotein; Retrov   7.2 7.9E+02  0.0085   13.9   1.7   13  133-145    10-22  (72)
+  5 5DCK_B Gag polyprotein; Retrov   7.2 7.9E+02  0.0085   13.9   1.7   13  133-145    10-22  (72)
+  6 2K0L_A Outer membrane protein    7.0 1.3E+03   0.014   15.4   2.9   11  103-113   204-214 (216)
+  7 2ZX9_A Alpha-L-fucosidase, put   6.8   2E+02  0.0022   24.5  -1.1   40   69-109   125-164 (455)
+  8 2ZXD_A Alpha-L-fucosidase, put   6.8   2E+02  0.0022   24.5  -1.1   39   69-108   125-163 (455)
+  9 3G21_A Gag polyprotein; ALPHA-   6.2   6E+02  0.0066   15.1   0.9   13  133-145    12-24  (77)
+ 10 2XV6_C CAPSID PROTEIN P24, CAM   5.7 1.1E+03   0.012   13.4   1.9   13  133-145    13-25  (75)
+
+No 1
+>2XC8_B GENE 22 PRODUCT; SIPHOVIRIDAE, GRAM-POSITIVE PHAGE, VIRAL PROTEIN; HET: MSE; 2.35A {BACILLUS PHAGE SPP1}
+Probab=8.80  E-value=5e+02  Score=21.78  Aligned_cols=19  Identities=37%  Similarity=0.686  Sum_probs=4.6  Template_Neff=4.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCC
+Q tr|C9JW89|C9JW   21 RDPQTPGPQMRGPIGDPQV   39 (152)
+Q Consensus        21 rdpqtpgpqmrgpigdpqv   39 (152)
+                      .++++--||.-|-||+||+
+T Consensus       126 ~~~~~~~~~~~~~~~~~~~  144 (146)
+T 2XC8_B          126 KPPVIVEPQPVGEIGTPDI  144 (146)
+T ss_dssp             CCCEECC------------
+T ss_pred             CCCcccCCCcCCCCCCCCC
+Confidence            4567778888999999986
+
+
+No 2
+>7NMB_A DNA binding domain wHTH transcription; NMR {Vibrio cholerae}
+Probab=8.34  E-value=6.9e+02  Score=15.96  Aligned_cols=16  Identities=31%  Similarity=0.378  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCCCCCCCc
+Q tr|C9JW89|C9JW   67 MARCRHHSGYLADDEA   82 (152)
+Q Consensus        67 marcrhhsgyladdea   82 (152)
+                      |+.|.||-|..-+-.+
+T Consensus         1 ~~~~~~~~~~~~~~~~   16 (144)
+T 7NMB_A            1 MAHHHHHHGSMFGLGH   16 (144)
+T ss_dssp             ----------------
+T ss_pred             CCCcccccccccCCCC
+Confidence            5677777777655433
+
+
+No 3
+>3G28_A alpha-helical bundle, capsid protein, virion; 1.64A {Rous sarcoma virus}
+Probab=7.28  E-value=5.2e+02  Score=15.32  Aligned_cols=13  Identities=23%  Similarity=0.411  Sum_probs=10.3  Template_Neff=10.400
+
+Q ss_pred             CCCChhHHHHHhh
+Q tr|C9JW89|C9JW  133 PQPFGHFLDFLTE  145 (152)
+Q Consensus       133 pqpfghfldflte  145 (152)
+                      ..||..|+|.|++
+T Consensus        12 ~e~f~~f~~rl~~   24 (77)
+T 3G28_A           12 SESFVDFANRLIK   24 (77)
+T ss_dssp             TCCHHHHHHHHHH
+T ss_pred             CCcHHHHHHHHHH
+Confidence            4689999988875
+
+
+No 4
+>5DCK_A Gag polyprotein; Retrovirus, FIV, Capsid, viral protein; 2.29A {Feline immunodeficiency virus (isolate Petaluma)}
+Probab=7.16  E-value=7.9e+02  Score=13.95  Aligned_cols=13  Identities=23%  Similarity=0.483  Sum_probs=10.1  Template_Neff=10.900
+
+Q ss_pred             CCCChhHHHHHhh
+Q tr|C9JW89|C9JW  133 PQPFGHFLDFLTE  145 (152)
+Q Consensus       133 pqpfghfldflte  145 (152)
+                      ..||..|.+.|++
+T Consensus        10 ~e~f~~f~~rl~~   22 (72)
+T 5DCK_A           10 KEDYSSFIDRLFA   22 (72)
+T ss_dssp             TCCHHHHHHHHHH
+T ss_pred             CCcHHHHHHHHHH
+Confidence            4688889888765
+
+
+No 5
+>5DCK_B Gag polyprotein; Retrovirus, FIV, Capsid, viral protein; 2.29A {Feline immunodeficiency virus (isolate Petaluma)}
+Probab=7.16  E-value=7.9e+02  Score=13.95  Aligned_cols=13  Identities=23%  Similarity=0.483  Sum_probs=10.1  Template_Neff=10.900
+
+Q ss_pred             CCCChhHHHHHhh
+Q tr|C9JW89|C9JW  133 PQPFGHFLDFLTE  145 (152)
+Q Consensus       133 pqpfghfldflte  145 (152)
+                      ..||..|.+.|++
+T Consensus        10 ~e~f~~f~~rl~~   22 (72)
+T 5DCK_B           10 KEDYSSFIDRLFA   22 (72)
+T ss_dssp             TCCHHHHHHHHHH
+T ss_pred             CCcHHHHHHHHHH
+Confidence            4688889888765
+
+
+No 6
+>2K0L_A Outer membrane protein A; OMPA, membrane protein, TROSY, sidechain; NMR {Klebsiella pneumoniae}
+Probab=7.02  E-value=1.3e+03  Score=15.39  Aligned_cols=11  Identities=36%  Similarity=0.492  Sum_probs=3.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|C9JW89|C9JW  103 RPACKPGRVPH  113 (152)
+Q Consensus       103 rpackpgrvph  113 (152)
+                      .+.+++-+.||
+T Consensus       204 ~~~~~~~~~~~  214 (216)
+T 2K0L_A          204 APAPAPEHHHH  214 (216)
+T ss_dssp             SCCCSCC----
+T ss_pred             CCCCCCCCCCC
+Confidence            33444444443
+
+
+No 7
+>2ZX9_A Alpha-L-fucosidase, putative (E.C.3.2.1.51); Tim Barrel, HYDROLASE; HET: ZX9; 2.62A {Thermotoga maritima}
+Probab=6.80  E-value=2e+02  Score=24.48  Aligned_cols=40  Identities=23%  Similarity=0.385  Sum_probs=24.6  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|C9JW89|C9JW   69 RCRHHSGYLADDEASHSMCSARVQLPKKPLVPEMRPACKPG  109 (152)
+Q Consensus        69 rcrhhsgyladdeashsmcsarvqlpkkplvpemrpackpg  109 (152)
+                      -+.||.||..-+.......+.. .-+++.++.|+..||+.-
+T Consensus       125 takHhdGf~lw~S~~~~~~~~~-~~~~rDlv~el~~A~rk~  164 (455)
+T 2ZX9_A          125 TTKHHDGFCLWGTKYTDFNSVK-RGPKRDLVGDLAKAVREA  164 (455)
+T ss_dssp             EEECTTCCBSSCCSSCSCBTTT-STTCSCHHHHHHHHHHHT
+T ss_pred             eeCCCCCcccCCCCCCCCCccc-cCCCCChHHHHHHHHHHc
+Confidence            4678999876554443322222 236788888888877653
+
+
+No 8
+>2ZXD_A Alpha-L-fucosidase, putative (E.C.3.2.1.51); Tim Barrel, HYDROLASE; HET: ZXD; 2.15A {Thermotoga maritima}
+Probab=6.80  E-value=2e+02  Score=24.48  Aligned_cols=39  Identities=23%  Similarity=0.391  Sum_probs=24.2  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCcCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|C9JW89|C9JW   69 RCRHHSGYLADDEASHSMCSARVQLPKKPLVPEMRPACKP  108 (152)
+Q Consensus        69 rcrhhsgyladdeashsmcsarvqlpkkplvpemrpackp  108 (152)
+                      -+.||.||..-+.......+.. .-+++.++.|+..||+.
+T Consensus       125 takHhdGf~lw~S~~~~~~~~~-~~~~rDlv~el~~A~rk  163 (455)
+T 2ZXD_A          125 TTKHHDGFCLWGTKYTDFNSVK-RGPKRDLVGDLAKAVRE  163 (455)
+T ss_dssp             EEECTTCCBSSCCSSCSCBTTT-STTCSCHHHHHHHHHHH
+T ss_pred             eeCCCCCcccCCCCCCCCCccc-cCCCCChHHHHHHHHHH
+Confidence            4678999876554443322222 23678888888877765
+
+
+No 9
+>3G21_A Gag polyprotein; ALPHA-HELICAL BUNDLE, CAPSID PROTEIN, VIRION; 0.9A {Rous sarcoma virus}
+Probab=6.16  E-value=6e+02  Score=15.05  Aligned_cols=13  Identities=23%  Similarity=0.411  Sum_probs=10.2  Template_Neff=10.400
+
+Q ss_pred             CCCChhHHHHHhh
+Q tr|C9JW89|C9JW  133 PQPFGHFLDFLTE  145 (152)
+Q Consensus       133 pqpfghfldflte  145 (152)
+                      ..||..|+|.|++
+T Consensus        12 ~e~f~~f~~rl~~   24 (77)
+T 3G21_A           12 SESFVDFANRLIK   24 (77)
+T ss_dssp             TCCHHHHHHHHHH
+T ss_pred             CCcHHHHHHHHHH
+Confidence            4689999888765
+
+
+No 10
+>2XV6_C CAPSID PROTEIN P24, CAMELID VHH; VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX; 1.89A {HUMAN IMMUNODEFICIENCY VIRUS 1}
+Probab=5.72  E-value=1.1e+03  Score=13.36  Aligned_cols=13  Identities=23%  Similarity=0.636  Sum_probs=9.6  Template_Neff=11.000
+
+Q ss_pred             CCCChhHHHHHhh
+Q tr|C9JW89|C9JW  133 PQPFGHFLDFLTE  145 (152)
+Q Consensus       133 pqpfghfldflte  145 (152)
+                      ..||..|.+.|++
+T Consensus        13 ~e~~~~f~~rl~~   25 (75)
+T 2XV6_C           13 KEPFRDYVDRFYK   25 (75)
+T ss_dssp             TCCHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHH
+Confidence            4778888887654
+
+

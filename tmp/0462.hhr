@@ -1,0 +1,172 @@
+Query         sp|Q9H321|VCX3B_HUMAN
+Match_columns 246
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:49:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0462.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1NG0_C coat protein; sobemovir  23.3 2.4E+02  0.0026   24.8   3.8    7   62-68     40-46  (253)
+  2 3UWP_A Histone-lysine N-methyl  18.2 5.6E+02   0.006   24.0   5.1    9   41-49    414-422 (438)
+  3 2ENV_A Peroxisome proliferator  17.4 1.6E+02  0.0018   15.3   1.1   12   43-54     77-88  (88)
+  4 1F2N_C RICE YELLOW MOTTLE VIRU  17.3 2.8E+02  0.0031   23.7   2.9   23   46-68     16-38  (238)
+  5 6T9K_B Transcription factor SP  11.9 1.2E+03   0.013   25.3   6.0   57    9-65    546-602 (604)
+  6 4OLN_B AncSR1; nuclear recepto  11.1 2.3E+02  0.0025   13.7   0.5    7   44-50     76-82  (82)
+  7 7MQA_SG Ribosomal assembly int  11.1 7.5E+02  0.0081   20.2   3.5   41   12-52      5-45  (475)
+  8 1R4I_A AR, Steroid Receptor, P  11.0 3.2E+02  0.0035   16.1   1.2   22   44-65     79-100 (105)
+  9 1R4I_B AR, Steroid Receptor, P  11.0 3.2E+02  0.0035   16.1   1.2   22   44-65     79-100 (105)
+ 10 7BUJ_B Cyclic GMP-AMP synthase   9.1 1.7E+03   0.018   21.3   5.4   79   10-91      1-81  (447)
+
+No 1
+>1NG0_C coat protein; sobemovirus, virus assembly, Icosahedral virus; 2.7A {Cocksfoot mottle virus} SCOP: b.121.4.7
+Probab=23.35  E-value=2.4e+02  Score=24.82  Aligned_cols=7  Identities=29%  Similarity=0.510  Sum_probs=3.5  Template_Neff=7.700
+
+Q ss_pred             CCCCCCC
+Q sp|Q9H321|VCX3   62 VTAPEAE   68 (246)
+Q Consensus        62 vtapeae   68 (246)
+                      +.||-+-
+T Consensus        40 ~~aP~a~   46 (253)
+T 1NG0_C           40 LNPPAAV   46 (253)
+T ss_dssp             CCCCSCC
+T ss_pred             CCCCcce
+Confidence            4555543
+
+
+No 2
+>3UWP_A Histone-lysine N-methyltransferase, H3 lysine-79 specific; histone, methyltransferase, epigenetics, tubercidin, Structural; HET: 5ID; 2.05A {Homo sapiens}
+Probab=18.24  E-value=5.6e+02  Score=23.97  Aligned_cols=9  Identities=44%  Similarity=0.689  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCC
+Q sp|Q9H321|VCX3   41 KGKAVRRGR   49 (246)
+Q Consensus        41 kgkavrrgr   49 (246)
+                      ++|-.|+|+
+T Consensus       414 ~~~~~~~~~  422 (438)
+T 3UWP_A          414 KKKLNKKGR  422 (438)
+T ss_dssp             ---------
+T ss_pred             hhhhccccc
+Confidence            333344444
+
+
+No 3
+>2ENV_A Peroxisome proliferator-activated receptor delta; zinc binding, PPAR delta, PPAR; HET: ZN; NMR {Homo sapiens}
+Probab=17.35  E-value=1.6e+02  Score=15.33  Aligned_cols=12  Identities=33%  Similarity=0.512  Sum_probs=8.8  Template_Neff=14.200
+
+Q ss_pred             CCCCCCCCCCCC
+Q sp|Q9H321|VCX3   43 KAVRRGRRGKKG   54 (246)
+Q Consensus        43 kavrrgrrgkkg   54 (246)
+                      .+||.||.-+.|
+T Consensus        77 ~aVr~~r~p~~~   88 (88)
+T 2ENV_A           77 NAIRFGSGPSSG   88 (88)
+T ss_dssp             TTSCSSCCCCCC
+T ss_pred             hhcccCCCCCCC
+Confidence            378888877654
+
+
+No 4
+>1F2N_C RICE YELLOW MOTTLE VIRUS; PLANT VIRUS, CAPSID PROTEIN, COAT; 2.8A {Rice yellow mottle virus} SCOP: b.121.4.7
+Probab=17.31  E-value=2.8e+02  Score=23.71  Aligned_cols=23  Identities=26%  Similarity=0.400  Sum_probs=5.6  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3   46 RRGRRGKKGAATKMAAVTAPEAE   68 (246)
+Q Consensus        46 rrgrrgkkgaatkmaavtapeae   68 (246)
+                      ||+|+..++.......++||-+-
+T Consensus        16 ~~~~~~~~~~~~~~~~~~aP~a~   38 (238)
+T 1F2N_C           16 KRKSRRPRGRSAEPQLQRAPVAQ   38 (238)
+T ss_dssp             -----------CCCCCCCCCSCC
+T ss_pred             CCCCCCCCCCCCCcceecCCcee
+Confidence            33333333333334444555543
+
+
+No 5
+>6T9K_B Transcription factor SPT20, Protein SPT3; Coactivator, Transcription, Histone acetyltransferase, Histone; 3.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=11.95  E-value=1.2e+03  Score=25.34  Aligned_cols=57  Identities=18%  Similarity=0.279  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3    9 GPPAKAKEAGKRKSSSQPSPSDPKKKTTKVAKKGKAVRRGRRGKKGAATKMAAVTAP   65 (246)
+Q Consensus         9 gppakakeagkrksssqpspsdpkkkttkvakkgkavrrgrrgkkgaatkmaavtap   65 (246)
+                      |--++.+.++++..+..|-+..|.|.+.|.+--.-+.++.|--||..+..-+++.+.
+T Consensus       546 ~~~~~~~~~~~~~~~~k~k~k~~rk~~~~~~~~~~~~~kk~~~~kk~~~~~~~~~~~  602 (604)
+T 6T9K_B          546 GNNATSNNNNNNNNLDKPKVKRPRKNAKKSESGTPAPKKKRMTKKKQSASSTPSSTT  602 (604)
+T ss_pred             ccccccCCCcCCCcCCCCCCCCCCcccCcCCCCCCCCCcccCCCCccCCCCCCCccC
+
+
+No 6
+>4OLN_B AncSR1; nuclear receptor zinc finger, transcription; 1.7A {synthetic construct}
+Probab=11.11  E-value=2.3e+02  Score=13.66  Aligned_cols=7  Identities=43%  Similarity=0.715  Sum_probs=0.0  Template_Neff=15.000
+
+Q ss_pred             CCCCCCC
+Q sp|Q9H321|VCX3   44 AVRRGRR   50 (246)
+Q Consensus        44 avrrgrr   50 (246)
+                      +||++|+
+T Consensus        76 av~~~r~   82 (82)
+T 4OLN_B           76 GQRKERR   82 (82)
+T ss_dssp             -------
+T ss_pred             hccccCC
+
+
+No 7
+>7MQA_SG Ribosomal assembly intermediate, RIBOSOME; HET: OMC, MG, A2M, PSU, 4AC, GTP, SAH, OMU, ATP, OMG; 2.7A {Homo sapiens}
+Probab=11.05  E-value=7.5e+02  Score=20.17  Aligned_cols=41  Identities=17%  Similarity=0.241  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3   12 AKAKEAGKRKSSSQPSPSDPKKKTTKVAKKGKAVRRGRRGK   52 (246)
+Q Consensus        12 akakeagkrksssqpspsdpkkkttkvakkgkavrrgrrgk   52 (246)
+                      |.++-++++++...-++..+++|..|-+++-..+...++-+
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (475)
+T 7MQA_SG           5 AAARKRGKPASGAGAGAGAGKRRRKADSAGDRGKSKGGGKM   45 (475)
+T ss_pred             hhcccCCCCCccCCCCCCcccccccccccCCccccccCcCC
+
+
+No 8
+>1R4I_A AR, Steroid Receptor, Protein-DNA Complex; 3.1A {Rattus norvegicus} SCOP: g.39.1.2
+Probab=11.00  E-value=3.2e+02  Score=16.12  Aligned_cols=22  Identities=14%  Similarity=0.028  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3   44 AVRRGRRGKKGAATKMAAVTAP   65 (246)
+Q Consensus        44 avrrgrrgkkgaatkmaavtap   65 (246)
+                      |||+||.++.+-.--....++.
+T Consensus        79 a~~~~r~~~~~~~~~~~~~~~~  100 (105)
+T 1R4I_A           79 ARKLKKLGNLKLQEEGENSSAG  100 (105)
+T ss_dssp             CGGHHHCC--------------
+T ss_pred             hHhhhcccCccccccCCCCCCC
+
+
+No 9
+>1R4I_B AR, Steroid Receptor, Protein-DNA Complex; 3.1A {Rattus norvegicus} SCOP: g.39.1.2
+Probab=11.00  E-value=3.2e+02  Score=16.12  Aligned_cols=22  Identities=14%  Similarity=0.028  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3   44 AVRRGRRGKKGAATKMAAVTAP   65 (246)
+Q Consensus        44 avrrgrrgkkgaatkmaavtap   65 (246)
+                      |||+||.++.+-.--....++.
+T Consensus        79 a~~~~r~~~~~~~~~~~~~~~~  100 (105)
+T 1R4I_B           79 ARKLKKLGNLKLQEEGENSSAG  100 (105)
+T ss_dssp             CGGHHHCC--------------
+T ss_pred             hHhhhcccCccccccCCCCCCC
+
+
+No 10
+>7BUJ_B Cyclic GMP-AMP synthase (E.C.2.7.7.86); mcGAS, DNA-bingding, activator, inverted-orientation, IMMUNE; HET: GTP, 5GP; 2.13A {Mus musculus}
+Probab=9.12  E-value=1.7e+03  Score=21.26  Aligned_cols=79  Identities=18%  Similarity=0.160  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC--CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9H321|VCX3   10 PPAKAKEAGKRKSSSQPSPSDPKKKTTKVAKKGKAVRRGRRGKKG--AATKMAAVTAPEAESGPAAPGPSDQPSQELPQH   87 (246)
+Q Consensus        10 ppakakeagkrksssqpspsdpkkkttkvakkgkavrrgrrgkkg--aatkmaavtapeaesgpaapgpsdqpsqelpqh   87 (246)
+                      |.+.++.|..|...+|||.++....+  ...--..-|+..++-.|  ++--..+-.+|++...+..|+... ...-+++.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~   77 (447)
+T 7BUJ_B            1 PRVHPARATELTKDAQPSAMDAAGAT--ARPAVRVPQQQAILDPELPAVREPQPPADPEARKVVRGPSHRR-GARSTGQP   77 (447)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCCCccchhHHhHhcCcchhcccccC--CCCCCCCcchhhccCCCCCCCCCCCCCCCccccccccCCCccC-CCccCCCC
+
+
+Q ss_pred             CCCC
+Q sp|Q9H321|VCX3   88 ELPP   91 (246)
+Q Consensus        88 elpp   91 (246)
+                      .++|
+T Consensus        78 ~~~~   81 (447)
+T 7BUJ_B           78 RAPR   81 (447)
+T ss_dssp             ----
+T ss_pred             CCCC
+
+

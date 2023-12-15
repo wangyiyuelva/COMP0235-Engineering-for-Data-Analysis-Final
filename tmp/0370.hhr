@@ -1,0 +1,169 @@
+Query         tr|A0A494BZR9|A0A494BZR9_HUMAN
+Match_columns 214
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:01:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0370.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2EXD_A nfeD short homolog; nfe  61.3      49 0.00053   22.8   4.6   39  166-206    36-74  (80)
+  2 2K14_A YuaF protein; YuaF, Bac  34.7 2.1E+02  0.0023   18.9   4.2   34  169-202    49-82  (84)
+  3 5JG7_A Fur regulated Salmonell  27.4 4.3E+02  0.0047   19.8   5.8   26   57-82    113-138 (160)
+  4 2K5H_A Conserved protein; NESG  26.8 3.3E+02  0.0036   19.8   4.4   38  166-205    62-99  (101)
+  5 3CP0_A Membrane protein implic  24.7 3.3E+02  0.0036   17.5   4.2   35  166-200    45-80  (82)
+  6 3WWV_A Stomatin operon partner  24.6 3.9E+02  0.0042   18.3   4.6   38  166-203    30-67  (80)
+  7 2Q6O_B chlorinase, Y70T mutant  21.0 1.8E+02  0.0019   25.2   2.5   41  174-214   225-265 (283)
+  8 2WR8_A PUTATIVE UNCHARACTERIZE  20.7 2.2E+02  0.0023   24.5   2.9   45  170-214   208-252 (259)
+  9 6FX6_A Collagen Adhesion prote  19.4 5.8E+02  0.0063   20.5   4.8   39  166-204    15-53  (253)
+ 10 5MYJ_A 30S ribosomal protein S  19.1 2.2E+02  0.0023   22.6   2.4   46  132-200   138-184 (185)
+
+No 1
+>2EXD_A nfeD short homolog; nfeD, MEMBRANE PROTEIN; NMR {Pyrococcus horikoshii} SCOP: b.40.12.1
+Probab=61.31  E-value=49  Score=22.81  Aligned_cols=39  Identities=18%  Similarity=0.328  Sum_probs=32.3  Template_Neff=8.500
+
+Q ss_pred             CCceeEEEeeeccceccccEEEEEEEcCeEEEeCCCCCCCC
+Q tr|A0A494BZR9|  166 NNSFWKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQPAAE  206 (214)
+Q Consensus       166 nnsfwkivsksfneievgefscilrcdgevaicqppqpaae  206 (214)
+                      ++..|...+.  ..+..|+...|++-+|...+..+......
+T Consensus        36 ~g~~W~a~~~--~~i~~G~~V~I~~~~g~~l~V~~~~~~~~   74 (80)
+T 2EXD_A           36 EGDKWIAYSD--EKLSLGDRVMVVDVDGLKLKVKRIPPQLE   74 (80)
+T ss_dssp             TTEEEEECCS--SCCCTTCEEEEEEECSSCEEEEECCCTTC
+T ss_pred             CCEEEEEEeC--CCCCCCCEEEEEEEECCEEEEEECCCCcC
+Confidence            5689998875  68999999999999999999887665443
+
+
+No 2
+>2K14_A YuaF protein; YuaF, Bacillus subtilis, NfeD-like protein; NMR {Bacillus subtilis}
+Probab=34.72  E-value=2.1e+02  Score=18.89  Aligned_cols=34  Identities=18%  Similarity=0.138  Sum_probs=27.2  Template_Neff=9.700
+
+Q ss_pred             eeEEEeeeccceccccEEEEEEEcCeEEEeCCCC
+Q tr|A0A494BZR9|  169 FWKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQ  202 (214)
+Q Consensus       169 fwkivsksfneievgefscilrcdgevaicqppq  202 (214)
+                      .|...+..-..+..|+-..|++.+|...++.|..
+T Consensus        49 ~~~a~~~~~~~i~~G~~V~V~~~~~~~l~V~~~~   82 (84)
+T 2K14_A           49 SKSAVSFDNQQISYGTTVLVVDINNGVLSVTPHE   82 (84)
+T ss_dssp             CEEEEETTSCCBCSSCEEEEEEEETTEEEEECCC
+T ss_pred             EEEEEecCCcccCCCCEEEEEEEECCEEEEEeCC
+Confidence            6777664345789999999999999999988754
+
+
+No 3
+>5JG7_A Fur regulated Salmonella iron transporter; structural genomics, CSGID, periplasmic binding; HET: GOL, MSE; 1.7A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=27.35  E-value=4.3e+02  Score=19.77  Aligned_cols=26  Identities=19%  Similarity=0.388  Sum_probs=18.4  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHhhChHHHHhhhhhHHH
+Q tr|A0A494BZR9|   57 KIEKVKDAFTKTHPAYAEYMYTDLQA   82 (214)
+Q Consensus        57 kiekvkdaftkthpayaeymytdlqa   82 (214)
+                      -++.+.+.+.+..|..+++....+++
+T Consensus       113 ~~~~i~~~L~~~~p~~~~~~~~n~~~  138 (160)
+T 5JG7_A          113 YVDNIRDALVKYDPDNAQIYKQNAER  138 (160)
+T ss_dssp             HHHHHHHHHHHHCGGGHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCcccHHHHHHHHHH
+Confidence            35677788888888888776555444
+
+
+No 4
+>2K5H_A Conserved protein; NESG, Structural Genomics, PSI-2, Protein; NMR {Methanothermobacter thermautotrophicus str. Delta H}
+Probab=26.83  E-value=3.3e+02  Score=19.77  Aligned_cols=38  Identities=16%  Similarity=0.290  Sum_probs=31.3  Template_Neff=8.400
+
+Q ss_pred             CCceeEEEeeeccceccccEEEEEEEcCeEEEeCCCCCCC
+Q tr|A0A494BZR9|  166 NNSFWKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQPAA  205 (214)
+Q Consensus       166 nnsfwkivsksfneievgefscilrcdgevaicqppqpaa  205 (214)
+                      ++..|...+  -..|+.|+-.-|.+-+|...+..+..+..
+T Consensus        62 ~g~~W~a~~--~~~i~~G~~V~Vv~v~g~~l~V~~~~~~~   99 (101)
+T 2K5H_A           62 DGETWRATS--GTVLDVGEEVSVKAIEGVKLVVEKLEEQK   99 (101)
+T ss_dssp             TTEEEEEEC--SSCBCTTCEEEEEEECSSSEEEEECCCCC
+T ss_pred             CCEEEEEEC--CCccCCCCEEEEEEEECCEEEEEECCccC
+Confidence            468898877  46799999999999999999988766544
+
+
+No 5
+>3CP0_A Membrane protein implicated in regulation; beta barrel, Structural Genomics, PSI-2; 1.65A {Corynebacterium glutamicum ATCC 13032}
+Probab=24.73  E-value=3.3e+02  Score=17.54  Aligned_cols=35  Identities=23%  Similarity=0.385  Sum_probs=26.0  Template_Neff=10.100
+
+Q ss_pred             CCceeEEEeeec-cceccccEEEEEEEcCeEEEeCC
+Q tr|A0A494BZR9|  166 NNSFWKIVSKSF-NEIEVGEFSCILRCDGEVAICQP  200 (214)
+Q Consensus       166 nnsfwkivsksf-neievgefscilrcdgevaicqp  200 (214)
+                      ++..|...+..- .+++.|+---|.+-+|...++.|
+T Consensus        45 ~g~~w~a~~~~~~~~i~~G~~v~V~~v~g~~l~V~~   80 (82)
+T 3CP0_A           45 DGSIWSARSMDPTHTFAEGEIVSVIDIQGTTAIVWK   80 (82)
+T ss_dssp             TTEEEEEEESSTTCCBCTTCEEEEEEEETTEEEEEE
+T ss_pred             CCEEEEEEECCCCCCCCCCCEEEEEEEECCEEEEEe
+Confidence            456888866432 46888888888888888887765
+
+
+No 6
+>3WWV_A Stomatin operon partner protein; beta barrel, OB fold, Unknown; 2.4A {Pyrococcus horikoshii OT3}
+Probab=24.59  E-value=3.9e+02  Score=18.27  Aligned_cols=38  Identities=29%  Similarity=0.363  Sum_probs=29.9  Template_Neff=8.800
+
+Q ss_pred             CCceeEEEeeeccceccccEEEEEEEcCeEEEeCCCCC
+Q tr|A0A494BZR9|  166 NNSFWKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQP  203 (214)
+Q Consensus       166 nnsfwkivsksfneievgefscilrcdgevaicqppqp  203 (214)
+                      +...|...+..-..+..|+..-|++.+|...+..+...
+T Consensus        30 ~g~~w~a~~~~~~~i~~G~~V~Vv~~~g~~l~V~~~~~   67 (80)
+T 3WWV_A           30 RGELWKARSKFNGKIEKGEKVRVVDMDGLTLIVVRERK   67 (80)
+T ss_dssp             TTEEEEEEESSCSCBCTTCEEEEEEEETTEEEEEECCC
+T ss_pred             CCEEEEEEeCCCCccCCCCEEEEEEEeCCEEEEEEccC
+Confidence            46789988732258999999999999999888876544
+
+
+No 7
+>2Q6O_B chlorinase, Y70T mutant SAM and; HET: SAM; 2.0A {Salinispora tropica}
+Probab=20.98  E-value=1.8e+02  Score=25.15  Aligned_cols=41  Identities=29%  Similarity=0.412  Sum_probs=33.5  Template_Neff=8.200
+
+Q ss_pred             eeeccceccccEEEEEEEcCeEEEeCCCCCCCCCCCCCCCC
+Q tr|A0A494BZR9|  174 SKSFNEIEVGEFSCILRCDGEVAICQPPQPAAESKGAVPGD  214 (214)
+Q Consensus       174 sksfneievgefscilrcdgevaicqppqpaaeskgavpgd  214 (214)
+                      .++|.+++.||..|+....|-+.|+..-..|++.-|...||
+T Consensus       225 ~~~y~dv~~Ge~~~~~~s~G~leIain~gsaa~~lgl~~G~  265 (283)
+T 2Q6O_B          225 CKTFGEVDEGQPLLYLNSRGRLALGLNQSNFIEKWPVVPGD  265 (283)
+T ss_dssp             CSSGGGSCTTCEEEEECTTSEEEEEETTBCHHHHSCCCTTC
+T ss_pred             ecccccCCCCCeEEEEcCCCeEEEEEeCCCHHHHcCCCCCC
+Confidence            78999999999999999999887777767777776666664
+
+
+No 8
+>2WR8_A PUTATIVE UNCHARACTERIZED PROTEIN PH0463; TRANSFERASE, SAM, SAM HYDROXIDE ADENOSYLTRANSFERASE; HET: SAH; 1.77A {PYROCOCCUS HORIKOSHII}
+Probab=20.72  E-value=2.2e+02  Score=24.48  Aligned_cols=45  Identities=20%  Similarity=0.178  Sum_probs=34.1  Template_Neff=8.000
+
+Q ss_pred             eEEEeeeccceccccEEEEEEEcCeEEEeCCCCCCCCCCCCCCCC
+Q tr|A0A494BZR9|  170 WKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQPAAESKGAVPGD  214 (214)
+Q Consensus       170 wkivsksfneievgefscilrcdgevaicqppqpaaeskgavpgd  214 (214)
+                      ..-+..+|.++..|+..|+....|-+.|+-....|++.-|...||
+T Consensus       208 ~~~~~~~y~dv~~g~~~~~~~s~G~LeIai~~gsaa~~lgl~~g~  252 (259)
+T 2WR8_A          208 RLPYLETYGLVEKGEMLALPGSHDYLEIAVNMGSAAERLNVKVGD  252 (259)
+T ss_dssp             EEEBCSSGGGSCTTCEEEECTTSSSEEEEETTBCHHHHHTCCTTC
+T ss_pred             EEeeecceeecCCCcEEEEECCCCcEEEEEeCCCHHHHhCCCCCC
+Confidence            334577999999999999989999877777666776666655554
+
+
+No 9
+>6FX6_A Collagen Adhesion protein; LPXTG-anchored, surface protein, thioester domain; HET: MSE; 2.25A {Staphylococcus aureus}
+Probab=19.41  E-value=5.8e+02  Score=20.49  Aligned_cols=39  Identities=21%  Similarity=0.275  Sum_probs=27.1  Template_Neff=9.800
+
+Q ss_pred             CCceeEEEeeeccceccccEEEEEEEcCeEEEeCCCCCC
+Q tr|A0A494BZR9|  166 NNSFWKIVSKSFNEIEVGEFSCILRCDGEVAICQPPQPA  204 (214)
+Q Consensus       166 nnsfwkivsksfneievgefscilrcdgevaicqppqpa  204 (214)
+                      ++.+|.........---..+.+++.-||+.+.|--|.-.
+T Consensus        15 ~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~ayCiep~~~   53 (253)
+T 6FX6_A           15 KGINWIVYSAKDRENFTMDRWAKFYVNGEIAFCIEPNKE   53 (253)
+T ss_dssp             CSCCCEEEEETTEEEEEESSEEEEEETTEEEEESCTTSC
+T ss_pred             cCeeEEEEecCCCCCeeeCcEEEEEECCEEEEEEecCcc
+Confidence            667777665544443335677889999999999766533
+
+
+No 10
+>5MYJ_A 30S ribosomal protein S2, 30S; ribosome, 70S, lactoccocus lactis, Cryo-EM; 5.6A {Lactococcus lactis subsp. cremoris MG1363}
+Probab=19.11  E-value=2.2e+02  Score=22.55  Aligned_cols=46  Identities=20%  Similarity=0.373  Sum_probs=28.6  Template_Neff=8.800
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHHHHHhccCCCCceeEEEeeeccceccccEEEEEE-EcCeEEEeCC
+Q tr|A0A494BZR9|  132 PFGLTREDTVRQMETMGKRILPILDFIRSTQLNGNNSFWKIVSKSFNEIEVGEFSCILR-CDGEVAICQP  200 (214)
+Q Consensus       132 pfgltredtvrqmetmgkrilpildfirstqlngnnsfwkivsksfneievgefscilr-cdgevaicqp  200 (214)
+                      +-.+|.++.+.||+.++...+.                       |...+.|..+.+.| .||...+..|
+T Consensus       138 ~~pms~~EAi~~m~~~~~~f~~-----------------------F~n~~t~~~~vlyrr~dg~~glie~  184 (185)
+T 5MYJ_A          138 LKPMDAEEAVLQMDMLGHDFYV-----------------------FTDADSNGTHVVYRRTDGRYGLIET  184 (185)
+T ss_pred             ccccCHHHHHHHHHhcCCcEEE-----------------------EEECCCCCEEEEEEcCCCCEEEEec
+Confidence            4457778888888877654332                       44455666666664 4676665544
+
+

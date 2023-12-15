@@ -1,0 +1,1069 @@
+Query         sp|A6NKD2|TSPY2_HUMAN
+Match_columns 308
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:05:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0419.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5X7V_C Nucleosome assembly pro 100.0 1.2E-31 1.3E-36  209.3   2.4  183  109-292     2-192 (193)
+  2 7MTO_A Isoform 2 of Protein SE 100.0   2E-30 2.2E-35  201.3   2.5  194   99-292     1-203 (204)
+  3 3HFD_A Nucleosome assembly pro 100.0 2.6E-29 2.8E-34  205.7   5.3  204   97-300     9-267 (276)
+  4 5DAY_B NAP1-related protein 1; 100.0 4.1E-30 4.4E-35  203.5   0.3  191  100-290     5-208 (208)
+  5 5YPS_B Vacuolar protein sortin  99.9 1.5E-28 1.7E-33  201.2   3.4  188   99-297    12-222 (250)
+  6 5YPS_E Vacuolar protein sortin  99.9 1.5E-28 1.7E-33  201.2   3.4  188   99-297    12-222 (250)
+  7 7C7X_E histone H2A.3, Histone   99.9 8.7E-29 9.4E-34  198.9   1.4  196   99-294     4-212 (239)
+  8 3DM7_B Vps75 (vacuolar protein  99.9 1.1E-27 1.2E-32  192.1   3.6  196   97-299     5-229 (234)
+  9 7VF4_C Candida albicans, Vps75  99.9 1.2E-27 1.3E-32  193.2   3.7  185  111-295    10-228 (235)
+ 10 3Q35_B Histone acetyltransfera  99.9 5.3E-27 5.8E-32  187.3   3.1  196   99-301     5-229 (232)
+ 11 2ZD7_A Vacuolar protein sortin  99.9 2.1E-26 2.3E-31  190.0   3.7  185  102-293     8-221 (264)
+ 12 3Q66_A Vacuolar protein sortin  99.9 2.1E-26 2.3E-31  190.0   3.7  184  104-294    10-222 (264)
+ 13 3Q68_B Vacuolar protein sortin  99.9 2.1E-26 2.3E-31  190.0   3.7  189  100-295     6-223 (264)
+ 14 5GPL_A Ccp1; Ccp1 dimer, nucle  99.9 1.2E-25 1.3E-30  190.6   1.7  170  118-292     9-201 (274)
+ 15 5GPK_B Ccp1; Ccp1 dimer, nucle  99.9 2.1E-25 2.3E-30  189.7   2.2  176  107-294     5-203 (274)
+ 16 3FS3_A Nucleosome assembly pro  99.9 4.3E-25 4.7E-30  193.5   3.8  201   96-296    42-297 (359)
+ 17 3GYW_A Nucleosome assembly pro  99.9 5.4E-25 5.9E-30  177.0   2.1  193  100-292     2-249 (249)
+ 18 6K0C_A Histone H2B 2,Histone H  99.9 3.8E-23 4.1E-28  175.7   2.9  197   99-296    32-308 (308)
+ 19 6K00_B Nucleosome Assembly Pro  99.9 3.8E-23 4.1E-28  175.7   2.9  195  101-296    34-308 (308)
+ 20 6K02_B Nucleosome Assembly Pro  99.9 3.8E-23 4.1E-28  175.7   2.9  195  101-296    34-308 (308)
+ 21 2Z2R_A Nucleosome assembly pro  99.9 4.1E-23 4.4E-28  172.3   2.6  195   98-292    12-291 (292)
+ 22 2Z2R_B Nucleosome assembly pro  99.9 4.1E-23 4.4E-28  172.3   2.6  196   97-292    11-291 (292)
+ 23 2AYU_A Nucleosome assembly pro  99.8 4.1E-21 4.5E-26  175.2   1.0  194  100-293    87-365 (417)
+ 24 3UT8_A Putative uncharacterize  41.4      48 0.00053   27.3   2.4   24  254-277    33-56  (130)
+ 25 3UT4_A Putative uncharacterize  40.4      50 0.00055   27.3   2.4   23  255-277    34-56  (134)
+ 26 3NKZ_A Flagellar protein fliT;  33.0      52 0.00057   25.0   1.3   14  108-121    70-83  (123)
+ 27 4C1A_A ORF1-ENCODED PROTEIN; H  21.9 1.3E+02  0.0014   22.3   1.6    7  113-119     5-11  (36)
+ 28 4C1A_C ORF1-ENCODED PROTEIN; H  21.9 1.3E+02  0.0014   22.3   1.6    7  113-119     5-11  (36)
+ 29 1M7K_A THREE HELIX BUNDLE, CHA  21.5   2E+02  0.0022   21.7   2.6   31   96-126    10-40  (99)
+
+No 1
+>5X7V_C Nucleosome assembly protein; NUCLEOSOME ASSEMBLY PROTEIN, HISTONE RECOGNITION; 2.802A {Plasmodium falciparum}
+Probab=99.97  E-value=1.2e-31  Score=209.33  Aligned_cols=183  Identities=22%  Similarity=0.549  Sum_probs=163.8  Template_Neff=8.900
+
+Q ss_pred             HHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCceeeEEEEEE
+Q sp|A6NKD2|TSPY  109 LEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLE  188 (308)
+Q Consensus       109 leellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdededmlsymvsle  188 (308)
+                      +++|+.+|.++++++.++.+++.+++++|.++.+|+|++|+++|++||+||.+||.|||.++. +++.|.++|+||++|+
+T Consensus         2 l~~l~~lq~~l~~l~~e~~~~~~~l~~~~~~~~~~l~~~R~~ii~~ip~FW~~vl~n~~~~~~-i~~~D~~~L~~L~di~   80 (193)
+T 5X7V_C            2 MQDFEDIQKDIEQLDIKCAHEQMNIQKQYDEKKKPLFEKRDEIIQKIPGFWANTLRKHPALSD-IVPEDIDILNHLVKLD   80 (193)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHTTSGGGTT-BCTHHHHHHTTEEEEE
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHhcCCChHHHHHHcChhHHh-cCHHHHHHHHhcCEEE
+Confidence            678999999999999999999999999999999999999999999999999999999999986 8999999999999999
+
+
+Q ss_pred             eccccceeEEEEEEeeecC--ChhhcCCccChhheeehhhhhccCCCCCccCCchhHHH-H-HH-hc--c-ccchhHHHH
+Q sp|A6NKD2|TSPY  189 VEEEKHRVHLCKIMLFFRS--NPYFQNKVITKEYLVNITEYRASHSTPIEWYPDYEVEA-Y-RR-RH--H-NSSLNFFNW  260 (308)
+Q Consensus       189 veeekhrvhlckimlffrs--npyfqnkvitkeylvniteyrashstpiewypdyevea-y-rr-rh--h-nsslnffnw  260 (308)
+                      |.+..+...+|+|+|+|.+  ||||+|++|+|+|.+..++...+.+++|+||+|++++. . ++ ++  . ....|||+|
+T Consensus        81 v~~~~~~~~~~~i~f~F~~~~N~yf~n~~l~k~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~~~~~~~~~~~~~~~SFF~~  160 (193)
+T 5X7V_C           81 LKDNMDNNGSYKITFIFGEKAKEFMEPLTLVKHVTFDNNQEKVVECTRIKWKEGKNPIAAVTHNRSDLDNEIPKWSIFEW  160 (193)
+T ss_dssp             EEESCSSSSCEEEEEEECGGGGGTCSCSEEEEEECCBTTTBCCEEECCCCCCTTTCTTCCC----------CCCBCGGGG
+T ss_pred             eeecCCCCCcEEEEEEEcCCCCCCCCCcEEEEEEEECCCCCeEEEEeCCeeCCCCCcchheecccCCCCCCcCCCCHHHH
+Confidence            9997666789999999999  99999999999999987666788999999999998887 3 21 11  1 356799999
+
+
+Q ss_pred             HhcCCCCCchHHHHHHHHHHhhChhhhhcCCC
+Q sp|A6NKD2|TSPY  261 FSDHNFAGSNKIAEILCKDLWRNPLQYYKRMK  292 (308)
+Q Consensus       261 fsdhnfagsnkiaeilckdlwrnplqyykrmk  292 (308)
+                      |.+++.+++.+++.+|+++|||||+.||++.+
+T Consensus       161 F~~~~~~~~~~i~~~i~~~i~pn~l~yy~~~~  192 (193)
+T 5X7V_C          161 FTTDELQDKPDVGELIRREIWHNPLSYYLGLE  192 (193)
+T ss_dssp             SSSSCCSSSCCHHHCCCCCSSSSHHHHHC---
+T ss_pred             hCCcccCCCChHHHHHHhhcccChHHHhcccC
+Confidence            99998777789999999999999999999864
+
+
+No 2
+>7MTO_A Isoform 2 of Protein SET; Inhibitor of PP2A, ceramide binding; 1.791A {Homo sapiens}
+Probab=99.96  E-value=2e-30  Score=201.26  Aligned_cols=194  Identities=35%  Similarity=0.678  Sum_probs=174.7  Template_Neff=9.300
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCC
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDE  178 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdede  178 (308)
+                      |+.++++++.+.+|..+|.++++++.++.+++.+|+++|.+..+|+|++|++++++||+||.+||.|||.++.++++.|.
+T Consensus         1 ~~~~~~~~~~~~~L~~iq~~l~~~~~~~~~~~~~l~~~~~~~~~~l~~~R~~ii~~ip~FW~~v~~~~~~~~~~~~~~D~   80 (204)
+T 7MTO_A            1 GTSEKEQQEAIEHIDEVQNEIDRLNEQASEEILKVEQKYNKLRQPFFQKRSELIAKIPNFWVTTFVNHPQVSALLGEEDE   80 (204)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHTSTTTGGGCCHHHH
+T ss_pred             CCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHHhcCCCcHHHHHHhCHHHHHHhChhhH
+Confidence            56777889999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ceeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhheeehhhhhccCCCCCccCCchhHHH-H-H-H----hcc
+Q sp|A6NKD2|TSPY  179 DMLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYLVNITEYRASHSTPIEWYPDYEVEA-Y-R-R----RHH  251 (308)
+Q Consensus       179 dmlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeylvniteyrashstpiewypdyevea-y-r-r----rhh  251 (308)
+                      ++|+||+++++.+..+...+|+|+|.|.+||||+|++|+|+|.+...+...+.+++|+||+|++++. . . +    ++.
+T Consensus        81 ~~l~~L~di~v~~~~~~~~~~~i~f~F~~N~~f~n~~l~k~~~~~~~~~~~~~~~~I~Wk~g~~~~~~~~~~~~~~~~~~  160 (204)
+T 7MTO_A           81 EALHYLTRVEVTEFEDIKSGYRIDFYFDENPYFENKVLSKEFHLNESGDPSSKSTEIKWKSGKDLTKRSSQTQNKASRKR  160 (204)
+T ss_dssp             HHHTTEEEEEEEECSSTTSCEEEEEEECSCSSBCCSEEEEEEEECTTSCEEEEECCCCBCTTCCTTC-------------
+T ss_pred             HHHHhcceeEEEEecCCCCcEEEEEEeCCCccccCCeEEEEEEeCCCCCCcccccCceecCCCCCccccccccccccccc
+Confidence            9999999999999876667999999999999999999999999987655678999999999998877 3 1 1    111
+
+
+Q ss_pred             --ccchhHHHHHhcCCCCCchHHHHHHHHHHhhChhhhhcCCC
+Q sp|A6NKD2|TSPY  252 --NSSLNFFNWFSDHNFAGSNKIAEILCKDLWRNPLQYYKRMK  292 (308)
+Q Consensus       252 --nsslnffnwfsdhnfagsnkiaeilckdlwrnplqyykrmk  292 (308)
+                        ....|||+||.++..+++..++.+|++++||||+.||++++
+T Consensus       161 ~~~~~~sFF~~F~~~~~~~~~~i~~~i~~~i~~~a~~~~~~~~  203 (204)
+T 7MTO_A          161 QHEEPESFFTWFTDHSDAGADELGEVIKDDIWPNPLQYYLVPD  203 (204)
+T ss_dssp             ---CCCCGGGGGGCCTTTTTCHHHHHCCCCCTTCCHHHHCCCC
+T ss_pred             cCCCCCChhHhcCCcccCCccHHHHHHHHccccChHHHhcCCC
+Confidence              45689999999988777789999999999999999999754
+
+
+No 3
+>3HFD_A Nucleosome assembly protein 1; histone binding, Structural Genomics, Medical; 2.8A {Plasmodium knowlesi strain H}
+Probab=99.96  E-value=2.6e-29  Score=205.70  Aligned_cols=204  Identities=21%  Similarity=0.372  Sum_probs=169.2  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccc----------cccchHHHHhhcC
+Q sp|A6NKD2|TSPY   97 VPGPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQ----------SVPGFWANVIANH  166 (308)
+Q Consensus        97 vpgpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviq----------svpgfwanvianh  166 (308)
+                      ....+|+.+++++++|+.+|.++++++.++.+++.+++++|.++.+|+|++|+++|.          +||+||.+||.||
+T Consensus         9 ~~~~~~~~~~~~~~~L~~lq~~~~~l~~~~~~~~~~l~~~~~~~~~pl~~~R~~ii~g~~~~~~~~~~Ip~FW~~vl~~~   88 (276)
+T 3HFD_A            9 KMTDLTEEQKETLKKLKLYQKEYYDYESKFEYELFLLRQKYHDLYGPIYDKRREALVGNGEAKIGTPNLPEFWLRALRNN   88 (276)
+T ss_dssp             --CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCSCCSSSSTTSTTHHHHHHHTS
+T ss_pred             HHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHHhcCCccCCCCCCCCcHHHHHHHcC
+Confidence            345678889999999999999999999999999999999999999999999999999          8999999999999
+
+
+Q ss_pred             chhhheeccCCCceeeEEEEEEeccccce-e--EEEEEEeeecCChhhcCCccChhheeehhhh------hccCCCCCcc
+Q sp|A6NKD2|TSPY  167 PQMSALITDEDEDMLSYMVSLEVEEEKHR-V--HLCKIMLFFRSNPYFQNKVITKEYLVNITEY------RASHSTPIEW  237 (308)
+Q Consensus       167 pqmsalitdededmlsymvsleveeekhr-v--hlckimlffrsnpyfqnkvitkeylvnitey------rashstpiew  237 (308)
+                      |.++.++++.|.++|+||++|+|...... .  .+|+|+|+|.+||||+|++|+|+|.+.....      ..+.+++|+|
+T Consensus        89 ~~~~~~i~~~D~~~L~~L~di~v~~~~~~~~~~~~~~l~f~F~~NpyF~n~~L~K~~~~~~~~~~~~~~~~~~~~t~I~W  168 (276)
+T 3HFD_A           89 NTVSHVIEDHDEEILVYLNDIRCDYIKKNKEKKEGFILSFHFAPNPFFSNSVLTKTYHMKCVDCDNEPVLLHTEATVIDW  168 (276)
+T ss_dssp             HHHHTTCCHHHHHHHTTEEEEEEEECCC-----CEEEEEEEECSCSSBCCSEEEEEEEEC-------CCEEEEEECCCCB
+T ss_pred             CcchhccCcchHHHHHHhcccEEEEecCCCcCCCeEEEEEEeCCCccccCCeEEEEEEEeecCCCCCeEEEEEeceeeee
+Confidence            99999999999999999999999998754 3  7999999999999999999999999987531      4678999999
+
+
+Q ss_pred             CCchhHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCCc---------------------hHHHHHHHHHHh
+Q sp|A6NKD2|TSPY  238 YPDYEVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAGS---------------------NKIAEILCKDLW  281 (308)
+Q Consensus       238 ypdyevea-y--rr--rh--h--------nsslnffnwfsdhnfags---------------------nkiaeilckdlw  281 (308)
+                      |.|++++. .  ++  ++  +        ....|||+||.++..++.                     ++++.+|+++||
+T Consensus       169 k~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~i~  248 (276)
+T 3HFD_A          169 YDNKNILKKNVVKKQHNKNSREVKTVQQTVNRDSFFHFFTSHKVPNSNVIKQLSKHEVAQLEMIIEGDYEVALTIKERII  248 (276)
+T ss_dssp             CTTCCTTSCCCCC------------CCCCCCCCCGGGGSCCBCCC-----------CHHHHHHHHHHHHHHHHHCCCCCH
+T ss_pred             cCCCccchhheeecccccCCCcceeeeeeecCCChHHhhcCCCCCCchhhhhcCHHHHHHHHHHHhhhHHHHHHHHHchh
+Confidence            99998876 2  11  11  0        345799999999865432                     489999999999
+
+
+Q ss_pred             hChhhhhcCCCCCCCCCCC
+Q sp|A6NKD2|TSPY  282 RNPLQYYKRMKPPEEGTET  300 (308)
+Q Consensus       282 rnplqyykrmkppeegtet  300 (308)
+                      |+|+.||++.++++++.++
+T Consensus       249 p~a~~yy~~~~~~~~~d~~  267 (276)
+T 3HFD_A          249 PYAVDYFLGIIIESESNSI  267 (276)
+T ss_dssp             HHHHHHHHTCC--------
+T ss_pred             chhHHHHcCCcCCcccccc
+Confidence            9999999998876555443
+
+
+No 4
+>5DAY_B NAP1-related protein 1; histone chaperone, NAP1-Related protein, transcriptional; 2.329A {Arabidopsis thaliana}
+Probab=99.96  E-value=4.1e-30  Score=203.48  Aligned_cols=191  Identities=31%  Similarity=0.591  Sum_probs=159.8  Template_Neff=8.800
+
+Q ss_pred             CCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCc
+Q sp|A6NKD2|TSPY  100 PGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDED  179 (308)
+Q Consensus       100 pgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdeded  179 (308)
+                      .+|++++.++.+|..+|.++++++.++.+++..++++|.++.+|+|++|+++|++||+||.+||.|||.+..++++.|.+
+T Consensus         5 ~l~~~~~~~~~~L~~lq~~i~~~~~~~~~~~~~l~~~~~~~~~pl~~~R~~ii~~ip~FW~~~l~~~~~~~~~i~~~D~~   84 (208)
+T 5DAY_B            5 QIDAELVLSIEKLQEIQDDLEKINEKASDEVLEVEQKYNVIRKPVYDKRNEVIQSIPGFWMTAFLSHPALGDLLTEEDQK   84 (208)
+T ss_dssp             GSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHCHHHHTTCCHHHHH
+T ss_pred             hcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhcCCCHHHHHHHcCHHHHHhCCHHHHH
+Confidence            57888999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhheeehhhhhccCCCCCccCCchhHHH-H-H--H-h-cc-c
+Q sp|A6NKD2|TSPY  180 MLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYLVNITEYRASHSTPIEWYPDYEVEA-Y-R--R-R-HH-N  252 (308)
+Q Consensus       180 mlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeylvniteyrashstpiewypdyevea-y-r--r-r-hh-n  252 (308)
+                      +|+||++++|.+......+|+|+|+|.+||||+|++|+|+|.+...+...+.+++|+||+|++++. . .  + + +. .
+T Consensus        85 ~L~~L~di~v~~~~~~~~~~~i~f~F~~Npyf~n~~l~K~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~~~~~~~g~~~~~  164 (208)
+T 5DAY_B           85 IFKYLNSLEVEDAKDVKSGYSITFHFTSNPFFEDAKLTKTFTFLEEGTTKITATPIKWKEGKGLPNGVNHDDKKGNKRAL  164 (208)
+T ss_dssp             HHTTEEEEEEEECSSGGGEEEEEEEECSCSSBSCSEEEEEEECCSSSSCEEEECCCCBC---------------------
+T ss_pred             HHHHhcceeeEecCCCCCeEEEEEEeCCCCCccCCEEEEEEEeCCCCceEEEecCCeeCCCCCCCCCCCcCCcCCCccCc
+Confidence            999999999998776567999999999999999999999999987654577899999999999887 3 2  1 1 11 3
+
+
+Q ss_pred             cchhHHHHHhcCCCCC------chHHHHHHHHHHhhChhhhhcC
+Q sp|A6NKD2|TSPY  253 SSLNFFNWFSDHNFAG------SNKIAEILCKDLWRNPLQYYKR  290 (308)
+Q Consensus       253 sslnffnwfsdhnfag------snkiaeilckdlwrnplqyykr  290 (308)
+                      ...|||+||.++..++      +.+++..|++++||||+.||++
+T Consensus       165 ~~~SFF~~F~~~~~~~~~~~~~~~~i~~~i~~~i~p~~~~yy~~  208 (208)
+T 5DAY_B          165 PEESFFTWFTDAQHKEDAGDEIHDEVADIIKEDLWSNPLTYFNN  208 (208)
+T ss_dssp             ---CGGGGCCCC-----------CHHHHCCCCCCTTCCHHHHHC
+T ss_pred             CCCChhHhcCCcccccccCcchhHHHHHHHHHccccchhhhccC
+Confidence            4579999999886432      4699999999999999999975
+
+
+No 5
+>5YPS_B Vacuolar protein sorting-associated protein 75; Histone chaperone, acetylation, chaperone; HET: 1PE, PGE, GOL, PEG, MSE, CA; 2.097A {Pneumocystis carinii B80}
+Probab=99.95  E-value=1.5e-28  Score=201.17  Aligned_cols=188  Identities=21%  Similarity=0.380  Sum_probs=154.1  Template_Neff=8.500
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCc--hhhheeccC
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHP--QMSALITDE  176 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhp--qmsalitde  176 (308)
+                      ...++.+...+++|+.+|.+++++       ..+++++|.++++|+|++|+++|++||+||.+||.|||  .++.++++.
+T Consensus        12 ~~~~~~~~~~~~~L~~lq~e~~~~-------~~~l~~~~~~~~~pl~~~R~~ii~~Ip~FW~~al~n~~~~~l~~~i~~~   84 (250)
+T 5YPS_B           12 EIQSETNTTSLDEVADIELEFEKA-------DVELLKHQVELFNPLYEKRAMVLRKIPKFWPIAIEAAPSDELSVYISPE   84 (250)
+T ss_dssp             --------CHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHSCTTTTGGGCCHH
+T ss_pred             hccChhhHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHhhHHHHHHHHHHhCCCCHHHHHHHhCCHHHHHhhCCHH
+Confidence            345667788888888888887654       45678899999999999999999999999999999999  999999999
+
+
+Q ss_pred             CCceeeEEEEEEeccccceeEEEEEEeeecCCh--hhcCCccChhheeehh-------------hhhccCCCCCccCCch
+Q sp|A6NKD2|TSPY  177 DEDMLSYMVSLEVEEEKHRVHLCKIMLFFRSNP--YFQNKVITKEYLVNIT-------------EYRASHSTPIEWYPDY  241 (308)
+Q Consensus       177 dedmlsymvsleveeekhrvhlckimlffrsnp--yfqnkvitkeylvnit-------------eyrashstpiewypdy  241 (308)
+                      |.++|+||++|+|.+......+|+|+|+|.+||  ||+|++|+|+|.+...             ....+.+++|.||.|+
+T Consensus        85 D~~~L~~L~di~v~~~~~~~~~~~i~F~F~~Np~~yF~n~~L~K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~  164 (250)
+T 5YPS_B           85 DANVLEHLIDLRVYRPNEDPRDIKIVFEFEANEYLESNSLYLMKLFRYSSQKAEASSSNINKEPSQLISEKVNIEWKKNK  164 (250)
+T ss_dssp             HHHHHTTEEEEEEECCSSSTTCEEEEEEECCCSSBCGGGSEEEEEEEECHHHHHHCCSCTTTSCCCEEECCCCCCBCTTC
+T ss_pred             HHHHHHhccccEeecCCCCCCcEEEEEEEcCCCcccccCCEEEEEEEEecCccccccCCCCCCCcccEEecccceeCCCc
+Confidence            999999999999999865568999999999999  9999999999999854             1246788999999998
+
+
+Q ss_pred             hHHH-HHHhccccchhHHHHHhcCCC-----CCchHHHHHHHHHHhhChhhhhcCCCCCCCC
+Q sp|A6NKD2|TSPY  242 EVEA-YRRRHHNSSLNFFNWFSDHNF-----AGSNKIAEILCKDLWRNPLQYYKRMKPPEEG  297 (308)
+Q Consensus       242 evea-yrrrhhnsslnffnwfsdhnf-----agsnkiaeilckdlwrnplqyykrmkppeeg  297 (308)
+                      +++. ..    ....|||+||.+...     ..+++++.+|+++|||+|+.||++...++++
+T Consensus       165 ~~t~~~~----~~~~SFF~~F~~~~~~~~~~~~~~~i~~~i~~~i~p~a~~yy~~~~~~~~d  222 (250)
+T 5YPS_B          165 DLTRQTK----GTAPSFFTWFSWTGKENDIFEDEEELAIFIAEDLYPNAVKYFTDALQENEE  222 (250)
+T ss_dssp             CTTCCCT----TCCCCGGGGGGCCCCSSCSCBSHHHHHHHCCCCCHHHHHHHHHHHHCC---
+T ss_pred             CCCCCCC----CCCCCHHHhhcCCCchhhhcccchHHHHHHHHhhhhcHHHHHhccccccCC
+Confidence            7765 10    346799999998642     3458999999999999999999986665443
+
+
+No 6
+>5YPS_E Vacuolar protein sorting-associated protein 75; Histone chaperone, acetylation, chaperone; HET: 1PE, PGE, GOL, PEG, MSE, CA; 2.097A {Pneumocystis carinii B80}
+Probab=99.95  E-value=1.5e-28  Score=201.17  Aligned_cols=188  Identities=21%  Similarity=0.380  Sum_probs=154.6  Template_Neff=8.500
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCc--hhhheeccC
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHP--QMSALITDE  176 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhp--qmsalitde  176 (308)
+                      ...++.+...+++|+.+|.+++++       ..+++++|.++++|+|++|+++|++||+||.+||.|||  .++.++++.
+T Consensus        12 ~~~~~~~~~~~~~L~~lq~e~~~~-------~~~l~~~~~~~~~pl~~~R~~ii~~Ip~FW~~al~n~~~~~l~~~i~~~   84 (250)
+T 5YPS_E           12 EIQSETNTTSLDEVADIELEFEKA-------DVELLKHQVELFNPLYEKRAMVLRKIPKFWPIAIEAAPSDELSVYISPE   84 (250)
+T ss_dssp             --------CHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHSCTTTTGGGCCHH
+T ss_pred             hccChhhHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHhhHHHHHHHHHHhCCCCHHHHHHHhCCHHHHHhhCCHH
+Confidence            345667788888888888887654       45678899999999999999999999999999999999  999999999
+
+
+Q ss_pred             CCceeeEEEEEEeccccceeEEEEEEeeecCCh--hhcCCccChhheeehh-------------hhhccCCCCCccCCch
+Q sp|A6NKD2|TSPY  177 DEDMLSYMVSLEVEEEKHRVHLCKIMLFFRSNP--YFQNKVITKEYLVNIT-------------EYRASHSTPIEWYPDY  241 (308)
+Q Consensus       177 dedmlsymvsleveeekhrvhlckimlffrsnp--yfqnkvitkeylvnit-------------eyrashstpiewypdy  241 (308)
+                      |.++|+||++|+|.+......+|+|+|+|.+||  ||+|++|+|+|.+...             ....+.+++|.||.|+
+T Consensus        85 D~~~L~~L~di~v~~~~~~~~~~~i~F~F~~Np~~yF~n~~L~K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~  164 (250)
+T 5YPS_E           85 DANVLEHLIDLRVYRPNEDPRDIKIVFEFEANEYLESNSLYLMKLFRYSSQKAEASSSNINKEPSQLISEKVNIEWKKNK  164 (250)
+T ss_dssp             HHHHHTTEEEEEEECCSSSTTCEEEEEEECCCSSBCGGGSEEEEEEEECHHHHHHCCSCTTTSCCCEEECCCCCCBCTTC
+T ss_pred             HHHHHHhccccEeecCCCCCCcEEEEEEEcCCCcccccCCEEEEEEEEecCccccccCCCCCCCcccEEecccceeCCCc
+Confidence            999999999999999865568999999999999  9999999999999854             1246788999999998
+
+
+Q ss_pred             hHHH-HHHhccccchhHHHHHhcCCC-----CCchHHHHHHHHHHhhChhhhhcCCCCCCCC
+Q sp|A6NKD2|TSPY  242 EVEA-YRRRHHNSSLNFFNWFSDHNF-----AGSNKIAEILCKDLWRNPLQYYKRMKPPEEG  297 (308)
+Q Consensus       242 evea-yrrrhhnsslnffnwfsdhnf-----agsnkiaeilckdlwrnplqyykrmkppeeg  297 (308)
+                      +++. ..    ....|||+||.+...     ..+++++.+|+++|||+|+.||++...++++
+T Consensus       165 ~~t~~~~----~~~~SFF~~F~~~~~~~~~~~~~~~i~~~i~~~i~p~a~~yy~~~~~~~~d  222 (250)
+T 5YPS_E          165 DLTRQTK----GTAPSFFTWFSWTGKENDIFEDEEELAIFIAEDLYPNAVKYFTDALQENEE  222 (250)
+T ss_dssp             CTTCCCT----TCCCCGGGGGGCCSCSSCSCCSHHHHHHHCCCCCTTTHHHHHHHHHHTCC-
+T ss_pred             CCCCCCC----CCCCCHHHhhcCCCchhhhcccchHHHHHHHHhhhhcHHHHHhccccccCC
+Confidence            7765 10    346799999998642     3458999999999999999999986555433
+
+
+No 7
+>7C7X_E histone H2A.3, Histone H2B.1, NAP1-related; complex, Histone, PLANT PROTEIN, CHAPERONE; HET: GOL; 3.0A {Arabidopsis thaliana}
+Probab=99.95  E-value=8.7e-29  Score=198.93  Aligned_cols=196  Identities=31%  Similarity=0.563  Sum_probs=175.5  Template_Neff=8.900
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCC
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDE  178 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdede  178 (308)
+                      ..+|+++..++++|..+|.++++++.++.+++..|+++|.++++|+|++|+++|++||+||.+||.|||.+..++++.|.
+T Consensus         4 ~~l~~~~~~~~~~L~~lq~~i~~l~~~~~~~~~~l~~~~~~~~~pl~~~R~~ii~~ip~FW~~vl~n~~~~~~~i~~~D~   83 (239)
+T 7C7X_E            4 EQIDAELVLSIEKLQEIQDDLEKINEKASDEVLEVEQKYNVIRKPVYDKRNEVIQSIPGFWMTAFLSHPALGDLLTEEDQ   83 (239)
+T ss_pred             HhcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHcCCChhhHHHHcCHHHHHhCCHHHH
+Confidence            35788999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ceeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhheeehhhhhccCCCCCccCCchhHHH-H-H-H--hc-c-
+Q sp|A6NKD2|TSPY  179 DMLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYLVNITEYRASHSTPIEWYPDYEVEA-Y-R-R--RH-H-  251 (308)
+Q Consensus       179 dmlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeylvniteyrashstpiewypdyevea-y-r-r--rh-h-  251 (308)
+                      ++|+||++|+|.+......+|+|+|+|.+||||+|++|+|+|.+...+...+.+++|+||+|++++. . . .  +. . 
+T Consensus        84 ~~L~~L~di~v~~~~~~~~~f~i~f~F~~N~yf~n~~L~K~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~~~~~~~~~~~~  163 (239)
+T 7C7X_E           84 KIFKYLNSLEVEDAKDVKSGYSITFHFTSNPFFEDAKLTKTFTFLEEGTTKITATPIKWKEGKGLPNGVNHDDKKGNKRA  163 (239)
+T ss_pred             HHHHHcCccEEEEcCCCCCceEEEEEEcCCCCCcCCEEEEEEEECCCCceeEEEecCccCCCCCCCCCCccCccCCCccc
+Confidence            9999999999998876667999999999999999999999999987655678999999999998887 3 1 1  11 1 
+
+
+Q ss_pred             ccchhHHHHHhcCCCCC------chHHHHHHHHHHhhChhhhhcCCCCC
+Q sp|A6NKD2|TSPY  252 NSSLNFFNWFSDHNFAG------SNKIAEILCKDLWRNPLQYYKRMKPP  294 (308)
+Q Consensus       252 nsslnffnwfsdhnfag------snkiaeilckdlwrnplqyykrmkpp  294 (308)
+                      ....|||+||.+...+.      ...++..|++++||+|+.||++...+
+T Consensus       164 ~~~~SFF~~F~~~~~~~~~~~~~~~~i~~~i~~~i~p~a~~y~~~~~~~  212 (239)
+T 7C7X_E          164 LPEESFFTWFTDAQHKEDAGDEIHDEVADIIKEDLWSNPLTYFNNDADE  212 (239)
+T ss_pred             cCCCCHhHhhcCcccccccCchhhHHHHHHHHHhcccchhhhcCCCCCc
+Confidence            34579999999876432      36899999999999999999997755
+
+
+No 8
+>3DM7_B Vps75 (vacuolar protein sorting 75); HET: MSE; 2.0A {Saccharomyces cerevisiae}
+Probab=99.94  E-value=1.1e-27  Score=192.14  Aligned_cols=196  Identities=18%  Similarity=0.328  Sum_probs=158.0  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccC
+Q sp|A6NKD2|TSPY   97 VPGPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDE  176 (308)
+Q Consensus        97 vpgpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitde  176 (308)
+                      ...+.+..+.+++++|..+|.++++++       .+++++|.++++|+|++|+++|++||+||.+||.|||.++.++++.
+T Consensus         5 ~~~~~~~~~~~~~~~l~~lq~e~~~~~-------~~l~~~~~~~~~pl~~~R~~ii~~Ip~FW~~al~n~~~l~~~i~~~   77 (234)
+T 3DM7_B            5 SDQENENEHAKAFLGLAKCEEEVDAIE-------REVELYRLNKMKPVYEKRDAYIDEIAEFWKIVLSQHVSFANYIRAS   77 (234)
+T ss_dssp             ---------CHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHSSSGGGTSCGG
+T ss_pred             cccccHHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHhhHHHHHHHHHHhcCCCHHHHHHHhCHHHHHhcCHH
+Confidence            345567788889999999999987754       4789999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCceeeEEEEEEecc-----ccceeEEEEEEeeecCCh-hhcCCccChhheeehh-----hh-hccCCCCCccCCchhHH
+Q sp|A6NKD2|TSPY  177 DEDMLSYMVSLEVEE-----EKHRVHLCKIMLFFRSNP-YFQNKVITKEYLVNIT-----EY-RASHSTPIEWYPDYEVE  244 (308)
+Q Consensus       177 dedmlsymvslevee-----ekhrvhlckimlffrsnp-yfqnkvitkeylvnit-----ey-rashstpiewypdyeve  244 (308)
+                      |.++|+||++|+|.+     ......+|+|+|+|.+|| ||+|++|+|+|.+...     .. ..+.+++|+||+|++++
+T Consensus        78 D~~~L~~L~di~v~~~~~~~~~~~~~~f~i~F~F~~Np~yF~n~~L~K~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~~~~  157 (234)
+T 3DM7_B           78 DFKYMDTIDKIKVEWLALESEMYDTRDFSITFHFHGIEGDFKEQQVTKVFQIKKGKDDQEDGILTSEPVPIEWPQSYDSI  157 (234)
+T ss_dssp             GHHHHTTEEEEEEEEGGGTCTTSCTTCEEEEEEECCBTTTBCCEEEEEEEEEEC------CCEEEECCCCCCCCGGGGGG
+T ss_pred             HHHHHHHcccceeEEeccccccCCCCcEEEEEEEcCCCcccCCCEEEEEEEEecCCCCCCCCceeeeccCCCCCCCCCCC
+Confidence            999999999999999     344458999999999999 9999999999999763     22 45899999999999887
+
+
+Q ss_pred             H-H--HH-----hcc---ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCCCCCCC
+Q sp|A6NKD2|TSPY  245 A-Y--RR-----RHH---NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPPEEGTE  299 (308)
+Q Consensus       245 a-y--rr-----rhh---nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkppeegte  299 (308)
+                      . .  ++     +++   ....|||+||.+...      +.+.+++.+|+++|||+|+.||++...++++.+
+T Consensus       158 ~~~~~~k~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~i~~~i~~~i~p~a~~yy~~~~~d~dded  229 (234)
+T 3DM7_B          158 NPDLMKDKRSPEGKKKYRQGMKTIFGWFRWTGLKPGKEFPHGDSLASLFSEEIYPFCVKYYAEAQRDLEDEE  229 (234)
+T ss_dssp             CTTTCSCCSSHHHHHHHHHHHTSHHHHTTCCSSSTTSSSTTHHHHHHHCCCCCTTSHHHHHHHHHHC-----
+T ss_pred             CcchhccccCcCCccccccCCCCHHHhhcCCCCCCCccCCCcchHHHHHHHchhhHHHHHHHhccccccccc
+Confidence            6 2  11     000   235799999999876      556899999999999999999999877655544
+
+
+No 9
+>7VF4_C Candida albicans, Vps75, Histone Chaperon; 3.1A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=99.94  E-value=1.2e-27  Score=193.21  Aligned_cols=185  Identities=22%  Similarity=0.375  Sum_probs=151.4  Template_Neff=8.700
+
+Q ss_pred             HHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCceeeEEEEEEec
+Q sp|A6NKD2|TSPY  111 ELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVE  190 (308)
+Q Consensus       111 ellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdededmlsymvsleve  190 (308)
+                      .|...+.+++.++.++.+++.+++++|.++.+|+|++|+++|++||+||.+||.|||.++.++++.|.++|+||++|+|.
+T Consensus        10 ~l~~~~~~l~~lq~e~~~~~~~~~~~~~~~~~pl~~~R~~ii~~Ip~FW~~vl~n~~~~~~~i~~~D~~~L~~L~di~v~   89 (235)
+T 7VF4_C           10 RLQLSLDKLGDWEKEMSQVEREAEIYRIKKTQPMYAKRRSILKEIPKFWYIVLAENDDFADYISPDDLKYLEYIDDIYVY   89 (235)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHCHHHHHHSCGGGGGGGGGEEEEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHhcCCCHHHHHHHhChhHHHhCCHHHHHHHHHhceeEEE
+Confidence            33444445555556667777889999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cc-----cceeEEEEEEeeecCChhhcCCccChhheeehh----hhhccCCCCCccCCchhHHH--H--HH--hc--c--
+Q sp|A6NKD2|TSPY  191 EE-----KHRVHLCKIMLFFRSNPYFQNKVITKEYLVNIT----EYRASHSTPIEWYPDYEVEA--Y--RR--RH--H--  251 (308)
+Q Consensus       191 ee-----khrvhlckimlffrsnpyfqnkvitkeylvnit----eyrashstpiewypdyevea--y--rr--rh--h--  251 (308)
+                      +.     .+...+|+|+|+|.+|+||+|++|+|+|.+...    ....+.+++|+||+|++++.  .  ++  ++  +  
+T Consensus        90 ~~~~~~~~~~~~~~~i~F~F~~~nyF~n~~L~K~~~~~~~~~g~~~~~~~~t~I~Wk~g~~~~~~~~~~~k~~~~~~~~~  169 (235)
+T 7VF4_C           90 YPIVDDEAGHFKDFNITVTFGKNPYIPEQEITKKFKIVIQEDGDERIVSESVEVKWPHELSKINPSVIKEKYKGKDKKDM  169 (235)
+T ss_dssp             CGGGTTCSSCTTCEEEEEEECSCSSSCCEEEEEEEEEEECTTSCEEEEECCCCCCCCGGGGGGCHHHHHHHTTTSCGGGS
+T ss_pred             ccccCCCCCCcccEEEEEEeCCCCCCCCCeEEEEEEEEeCCCCCceEEEEeecccCCcccCCCChhheehhhcCCCccCC
+Confidence            97     443589999999994449999999999999754    12577899999999988422  1  11  10  0  
+
+
+Q ss_pred             ---------ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCCC
+Q sp|A6NKD2|TSPY  252 ---------NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPPE  295 (308)
+Q Consensus       252 ---------nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkppe  295 (308)
+                               ....|||+||.+...      +.+++++..|+++|||||+.||++...+.
+T Consensus       170 ~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~i~~~i~~~i~p~al~yf~~~~~~~  228 (235)
+T 7VF4_C          170 SAKDKKNYRLGMKSFFSWFNWTGEKPGKEFRNGEDLATLLSEDLYLNALKYYIIALSPL  228 (235)
+T ss_dssp             CHHHHHHHHHHHTSGGGGGGCCSSSTTSSCTTHHHHHHHHHHTTTTTHHHHHHHHTSCC
+T ss_pred             ChhhhhhcccCCCCHHHhhcCCCCCCCccccChhHHHHHHHHChHhhHHHHHHHhhCcc
+Confidence                     234799999998875      45689999999999999999999877654
+
+
+No 10
+>3Q35_B Histone acetyltransferase RTT109 (E.C.2.3.1.48), Vacuolar; Rtt109:Vps75=2:2 stoichiometry complex, Acetyl Coenzyme; HET: ALY, ACO; 3.3A {Saccharomyces cerevisiae}
+Probab=99.93  E-value=5.3e-27  Score=187.34  Aligned_cols=196  Identities=18%  Similarity=0.329  Sum_probs=163.9  Template_Neff=9.000
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCC
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDE  178 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdede  178 (308)
+                      ...++.+.+++++|+.+|.++++++       .+++++|.++++|+|++|+++|++||+||.+||.|||.++.++++.|.
+T Consensus         5 ~~~~~~~~~~~~~L~~lq~e~~~~~-------~~l~~~~~~~~~pl~~~R~~ii~~Ip~FW~~vl~n~~~~~~~i~~~D~   77 (232)
+T 3Q35_B            5 QENENEHAKAFLGLAKCEEEVDAIE-------REVELYRLNKMKPVYEKRDAYIDEIAEFWKIVLSQHVSFANYIRASDF   77 (232)
+T ss_dssp             ----CHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHCTGGGGSSCGGGH
+T ss_pred             hhchHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHhhhHHHHHHHHHHhcCCCHHHHHHHhCHHHHHhcCHHHH
+Confidence            4566778889999999999887764       478999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ceeeEEEEEEecc-----ccceeEEEEEEeeecCCh-hhcCCccChhheeehh-----hh-hccCCCCCccCCchhHHH-
+Q sp|A6NKD2|TSPY  179 DMLSYMVSLEVEE-----EKHRVHLCKIMLFFRSNP-YFQNKVITKEYLVNIT-----EY-RASHSTPIEWYPDYEVEA-  245 (308)
+Q Consensus       179 dmlsymvslevee-----ekhrvhlckimlffrsnp-yfqnkvitkeylvnit-----ey-rashstpiewypdyevea-  245 (308)
+                      ++|+||++|+|.+     ......+|+|+|+|.+|| ||+|++|+|+|.+...     .. ..+.+++|.||.|++++. 
+T Consensus        78 ~~L~~L~di~v~~~~~~~~~~~~~~~~i~f~F~~N~~yF~n~~L~K~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~~~t~~  157 (232)
+T 3Q35_B           78 KYIDTIDKIKVEWLALESEMYDTRDFSITFHFHGIEGDFKEQQVTKVFQIKKGKDDQEDGILTSEPVPIEWPQSYDSINP  157 (232)
+T ss_dssp             HHHTTEEEEEEEEGGGSCTTSCTTCEEEEEEECCBTTTBCCEEEEEEEEEECC-----CCEEEECCCCCCCCSGGGTTCG
+T ss_pred             HHHHHhhcceeEEeccccccCCCCcEEEEEEECCCCcccCCCEEEEEEEEecCCCCCCCCceEEEccCCCCCCCCCCCCc
+Confidence            9999999999998     344468999999999999 9999999999999763     22 458999999999998876 
+
+
+Q ss_pred             H--HH---hc--c---ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCCCCCCCCC
+Q sp|A6NKD2|TSPY  246 Y--RR---RH--H---NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPPEEGTETS  301 (308)
+Q Consensus       246 y--rr---rh--h---nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkppeegtets  301 (308)
+                      .  ++   +.  +   ....|||+||.+...      +.+.+++.+|+++|||||+.||++...++++.+++
+T Consensus       158 ~~~~k~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~i~~~i~~~i~p~a~~y~~~~~~~~dde~ed  229 (232)
+T 3Q35_B          158 DLIKDKRSPEGKKKYRQGMKTIFGWFRWTGLKPGKEFPHGDSLASLFSEEIYPFCVKYYAEAQRDLEDEEGE  229 (232)
+T ss_dssp             GGCSCSSSHHHHHHHHHHTTSSGGGTTCCSSSTTTSSTTHHHHHHHCCCCCHHHHHHHHHHHTCSSSCC---
+T ss_pred             chhccccCcCCCcccccCCCCHHHhhcCcCCCCCccCCCcchHHHHHHHcchhHHHHHHhhccccccccccc
+Confidence            2  11   00  0   345799999999876      55689999999999999999999988876665443
+
+
+No 11
+>2ZD7_A Vacuolar protein sorting-associated protein 75; Histone chaperone, vps75, NAP1, Nucleus; 1.85A {Saccharomyces cerevisiae}
+Probab=99.93  E-value=2.1e-26  Score=189.96  Aligned_cols=185  Identities=18%  Similarity=0.326  Sum_probs=154.7  Template_Neff=8.500
+
+Q ss_pred             CCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCcee
+Q sp|A6NKD2|TSPY  102 PMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDEDML  181 (308)
+Q Consensus       102 pmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdededml  181 (308)
+                      +..++..+..|..+|.+++++       ..+++++|..+++|+|++|+++|++||+||.+||.|||.++.++++.|.++|
+T Consensus         8 ~~~~~~~~~~L~~lq~e~~~~-------~~~l~~~~~~~~~pl~~~R~~~i~~Ip~FW~~al~~~~~~~~~i~~~D~~~L   80 (264)
+T 2ZD7_A            8 ENEHAKAFLGLAKCEEEVDAI-------EREVELYRLNKMKPVYEKRDAYIDEIAEFWKIVLSQHVSFANYIRASDFKYI   80 (264)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHTTCTTHHHHHHHHSTTGGGGSCGGGHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHhhHHHHHHHHHHhcCCCHHHHHHHhCHHHHhhcCHHHHHHH
+Confidence            345566677777777776554       3578999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eEEEEEEeccc-----cceeEEEEEEeeecCCh-hhcCCccChhheeehh-----hh-hccCCCCCccCCchhHHH-H--
+Q sp|A6NKD2|TSPY  182 SYMVSLEVEEE-----KHRVHLCKIMLFFRSNP-YFQNKVITKEYLVNIT-----EY-RASHSTPIEWYPDYEVEA-Y--  246 (308)
+Q Consensus       182 symvsleveee-----khrvhlckimlffrsnp-yfqnkvitkeylvnit-----ey-rashstpiewypdyevea-y--  246 (308)
+                      +||++|++.+.     .....+|+|+|+|.+|| ||+|++|+|+|.+...     .. ..+.+++|.||.|++++. .  
+T Consensus        81 ~~L~di~v~~~~~~~~~~~~~~~~i~F~F~~N~~yF~n~~l~K~~~~~~~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~~~  160 (264)
+T 2ZD7_A           81 DTIDKIKVEWLALESEMYDTRDFSITFHFHGIEGDFKEQQVTKVFQIKKGKDDQEDGILTSEPVPIEWPQSYDSINPDLI  160 (264)
+T ss_dssp             TTEEEEEEEEGGGTCTTSCTTCEEEEEEECCBTTTBCCEEEEEEEEEECCSSSCCCCEEEECCCCCCCCGGGGGGCTTTC
+T ss_pred             HHcceeeeEEeeccccCCCCCcEEEEEEEcCCCcccCCCEEEEEEEEecCCCCCCCCceEEEeeCCCCCCCCCCCCcchh
+Confidence            99999999994     44568899999999999 9999999999999754     23 458899999999998876 2  
+
+
+Q ss_pred             HH-----h-cc--ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCC
+Q sp|A6NKD2|TSPY  247 RR-----R-HH--NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKP  293 (308)
+Q Consensus       247 rr-----r-hh--nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkp  293 (308)
+                      ++     . +.  ....|||+||.....      +...+++.+|+++|||||+.||++...
+T Consensus       161 ~k~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~i~~~i~p~al~yf~~~~~  221 (264)
+T 2ZD7_A          161 KDKRSPEGKKKYRQGMKTIFGWFRWTGLKPGKEFPHGDSLASLFSEEIYPFCVKYYAEAQR  221 (264)
+T ss_dssp             SCSSSHHHHHHHHHHHTSHHHHTTCCSSSTTSSSTTHHHHHHCCCCCCHHHHHHHHHHHHH
+T ss_pred             cccCCcCCCcccccCCCCHHHhhcccCCCCCccCcCCchHHHHHHHcchhhHHHHHhcccc
+Confidence            11     0 00  245799999999876      556899999999999999999987443
+
+
+No 12
+>3Q66_A Vacuolar protein sorting-associated protein 75; histone chaperone, lysine acetyltransferase, CHAPERONE-TRANSFERASE; HET: ALY, SO4; 2.705A {Saccharomyces cerevisiae}
+Probab=99.93  E-value=2.1e-26  Score=189.96  Aligned_cols=184  Identities=18%  Similarity=0.324  Sum_probs=154.2  Template_Neff=8.500
+
+Q ss_pred             CchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCceeeE
+Q sp|A6NKD2|TSPY  104 TPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDEDMLSY  183 (308)
+Q Consensus       104 tpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdededmlsy  183 (308)
+                      .++..+..|..+|.++++       ...+++++|..+++|+|++|+++|++||+||.+||.|||.++.++++.|.++|+|
+T Consensus        10 ~~~~~~~~L~~lq~e~~~-------~~~~l~~~~~~~~~pl~~~R~~~i~~Ip~FW~~al~~~~~~~~~i~~~D~~~L~~   82 (264)
+T 3Q66_A           10 EHAKAFLGLAKCEEEVDA-------IEREVELYRLNKMKPVYEKRDAYIDEIAEFWKIVLSQHVSFANYIRASDFKYIDT   82 (264)
+T ss_dssp             HHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHHHTSTTHHHHHHHHCTTHHHHSCGGGHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHhhHHHHHHHHHHhcCCCHHHHHHHhCHHHHhhcCHHHHHHHHH
+Confidence            445566666666666655       4457899999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EEEEEeccc-----cceeEEEEEEeeecCCh-hhcCCccChhheeehh-----hh-hccCCCCCccCCchhHHH-H--HH
+Q sp|A6NKD2|TSPY  184 MVSLEVEEE-----KHRVHLCKIMLFFRSNP-YFQNKVITKEYLVNIT-----EY-RASHSTPIEWYPDYEVEA-Y--RR  248 (308)
+Q Consensus       184 mvsleveee-----khrvhlckimlffrsnp-yfqnkvitkeylvnit-----ey-rashstpiewypdyevea-y--rr  248 (308)
+                      |++|++.+.     .....+|+|+|+|.+|| ||+|++|+|+|.+...     .. ..+.+++|.||.|++++. .  ++
+T Consensus        83 L~di~v~~~~~~~~~~~~~~~~i~F~F~~N~~yF~n~~l~K~~~~~~~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~~~~k  162 (264)
+T 3Q66_A           83 IDKIKVEWLALESEMYDTRDFSITFHFHGIEGDFKEQQVTKVFQIKKGKDDQEDGILTSEPVPIEWPQSYDSINPDLIKD  162 (264)
+T ss_dssp             EEEEEEEEGGGTCTTSCTTCEEEEEEECCBTTTBCCEEEEEEEEEECCTTCCSCCEEECCCCCCCCCGGGGGGCTTTCSC
+T ss_pred             cceeeeEEeeccccCCCCCcEEEEEEEcCCCcccCCCEEEEEEEEecCCCCCCCCceEEEeeCCCCCCCCCCCCcchhcc
+Confidence            999999994     44568899999999999 9999999999999754     23 458899999999998876 2  11
+
+
+Q ss_pred             -----h-cc--ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCC
+Q sp|A6NKD2|TSPY  249 -----R-HH--NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPP  294 (308)
+Q Consensus       249 -----r-hh--nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkpp  294 (308)
+                           . +.  ....|||+||.....      +...+++.+|+++|||||+.||++...+
+T Consensus       163 ~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~i~~~i~p~al~yf~~~~~~  222 (264)
+T 3Q66_A          163 KRSPEGKKKYRQGMKTIFGWFRWTGLKPGKEFPHGDSLASLFSEEIYPFCVKYYAEAQRD  222 (264)
+T ss_dssp             SSSHHHHHHHHHHHTSHHHHTTCCSSSTTSSSTTHHHHHHHCCCCCHHHHHHHHHHTTCS
+T ss_pred             cCCcCCCcccccCCCCHHHhhcccCCCCCccCcCCchHHHHHHHcchhhHHHHHhccccc
+Confidence                 0 00  245799999999876      5568999999999999999999986664
+
+
+No 13
+>3Q68_B Vacuolar protein sorting-associated protein 75; Histone chaperone, Lysine acetyltransferase, CHAPERONE-TRANSFERASE; HET: ALY; 2.705A {Saccharomyces cerevisiae}
+Probab=99.93  E-value=2.1e-26  Score=189.96  Aligned_cols=189  Identities=17%  Similarity=0.321  Sum_probs=161.9  Template_Neff=8.500
+
+Q ss_pred             CCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCchhhheeccCCCc
+Q sp|A6NKD2|TSPY  100 PGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHPQMSALITDEDED  179 (308)
+Q Consensus       100 pgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhpqmsalitdeded  179 (308)
+                      .++..++..+..|..+|.++++++       .+++++|..+++|+|++|+++|++||+||.+||.|||.++.++++.|.+
+T Consensus         6 ~~~~~~~~~~~~L~~lq~e~~~~~-------~~l~~~~~~~~~pl~~~R~~~i~~Ip~FW~~al~~~~~~~~~i~~~D~~   78 (264)
+T 3Q68_B            6 ENENEHAKAFLGLAKCEEEVDAIE-------REVELYRLNKMKPVYEKRDAYIDEIAEFWKIVLSQHVSFANYIRASDFK   78 (264)
+T ss_pred             hcHHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHhhHHHHHHHHHHhcCCCHHHHHHHhCHHHHhhcCHHHHH
+Confidence            456677888888999998888865       4788899999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeEEEEEEeccc-----cceeEEEEEEeeecCCh-hhcCCccChhheeehh-----hh-hccCCCCCccCCchhHHH-H
+Q sp|A6NKD2|TSPY  180 MLSYMVSLEVEEE-----KHRVHLCKIMLFFRSNP-YFQNKVITKEYLVNIT-----EY-RASHSTPIEWYPDYEVEA-Y  246 (308)
+Q Consensus       180 mlsymvsleveee-----khrvhlckimlffrsnp-yfqnkvitkeylvnit-----ey-rashstpiewypdyevea-y  246 (308)
+                      +|+||++|++.+.     .....+|+|+|+|.+|| ||+|++|+|+|.+...     .. ..+.+++|.||.|++++. .
+T Consensus        79 ~L~~L~di~v~~~~~~~~~~~~~~~~i~F~F~~N~~yF~n~~l~K~~~~~~~~~~~~~~~~~~~~t~I~Wk~g~~~~~~~  158 (264)
+T 3Q68_B           79 YIDTIDKIKVEWLALESEMYDTRDFSITFHFHGIEGDFKEQQVTKVFQIKKGKDDQEDGILTSEPVPIEWPQSYDSINPD  158 (264)
+T ss_pred             HHHHcceeeeEEeeccccCCCCCcEEEEEEEcCCCcccCCCEEEEEEEEecCCCCCCCCceEEEeeCCCCCCCCCCCCcc
+Confidence            9999999999994     44568999999999999 9999999999999654     23 568899999999998877 2
+
+
+Q ss_pred             --HH---hc---c--ccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCCC
+Q sp|A6NKD2|TSPY  247 --RR---RH---H--NSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPPE  295 (308)
+Q Consensus       247 --rr---rh---h--nsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkppe  295 (308)
+                        ++   +.   .  ....|||+||.....      +...+++.+|+++|||||+.||++...++
+T Consensus       159 ~~~k~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~i~~~i~p~al~yf~~~~~~~  223 (264)
+T 3Q68_B          159 LIKDKRSPEGKKKYRQGMKTIFGWFRWTGLKPGKEFPHGDSLASLFSEEIYPFCVKYYAEAQRDL  223 (264)
+T ss_pred             hhcccCCcCCCcccccCCCCHHHhhcccCCCCCccCcCCchHHHHHHHcchhhHHHHHhcccccC
+Confidence              11   11   1  346799999998765      45579999999999999999999866643
+
+
+No 14
+>5GPL_A Ccp1; Ccp1 dimer, nucleosome assembly protein; 2.1A {Schizosaccharomyces pombe 972h-}
+Probab=99.91  E-value=1.2e-25  Score=190.64  Aligned_cols=170  Identities=22%  Similarity=0.345  Sum_probs=143.8  Template_Neff=7.700
+
+Q ss_pred             hcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcCc-hhhheeccCCCceeeEEEEEEecccc-ce
+Q sp|A6NKD2|TSPY  118 ELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANHP-QMSALITDEDEDMLSYMVSLEVEEEK-HR  195 (308)
+Q Consensus       118 elepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianhp-qmsalitdededmlsymvsleveeek-hr  195 (308)
+                      ++..|+.++..+..++.++|.++.+|+|++|+++|++||+||.+||.||| .+..+|++.|.++|+||++|+|.+.+ ..
+T Consensus         9 ~L~~lq~e~~~~~~el~~~~~~~~~ply~kR~~ii~~IP~FW~~vl~~~p~~l~~~i~~~D~~iL~~L~di~v~~~e~~~   88 (274)
+T 5GPL_A            9 NLANLEQEFGKAEIEILKKQNELFQPLFEQRRDILKTINNFWVVVLEAAGDEISQYITPEDSVLLEKLENIYVERFNEKE   88 (274)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHSCHHHHTTCCHHHHHHHTTEEEEEEECCCSSC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhcCCCHHHHHHHHCHHHHHhhCCHHHHHHHHHhccceeEEcCCCC
+Confidence            34444444556667789999999999999999999999999999999995 89999999999999999999999965 34
+
+
+Q ss_pred             eEEEEEEeeecCCh--hhcCCccChhheeeh------------hhhhccCCCCCccCCchhHHH-HHHhccccchhHHHH
+Q sp|A6NKD2|TSPY  196 VHLCKIMLFFRSNP--YFQNKVITKEYLVNI------------TEYRASHSTPIEWYPDYEVEA-YRRRHHNSSLNFFNW  260 (308)
+Q Consensus       196 vhlckimlffrsnp--yfqnkvitkeylvni------------teyrashstpiewypdyevea-yrrrhhnsslnffnw  260 (308)
+                      ..+|+|+|.|.+||  ||+|++|+|+|.+..            .....+.+++|.||+|++++. ..    ....|||+|
+T Consensus        89 ~~~f~i~F~F~~N~~~yF~n~~L~K~f~~~~~~~~~~~~~~d~~~~~~s~~~~I~Wk~gkd~t~~~~----~~~~SFF~~  164 (274)
+T 5GPL_A           89 PRDVRISLTFQPNEYLQDDNLTLVKEVRIKEEKAKDDEGLEKKITKYTSQPVDIHWKPGKSLFRKNK----KLPPNFFDY  164 (274)
+T ss_dssp             TTCEEEEEEECSCSSBCGGGCEEEEEEEEEEEEEECTTSCEEEEEEEEECCCCCCBCTTCCCSCSSS----CSCCCGGGG
+T ss_pred             CCceEEEEEEccCccccccCCEEEEEEEEccccccCCccccccceeeEEeeeeceecCCcCCccCCC----CCCccHHHH
+Confidence            57999999999999  999999999999971            112567899999999988765 10    346799999
+
+
+Q ss_pred             HhcCCC------CCchHHHHHHHHHHhhChhhhhcCCC
+Q sp|A6NKD2|TSPY  261 FSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMK  292 (308)
+Q Consensus       261 fsdhnf------agsnkiaeilckdlwrnplqyykrmk  292 (308)
+                      |...+.      + ..+++.+|+++|||||+.||++..
+T Consensus       165 F~~~~~~d~e~~~-~~ei~~~i~edl~pnai~yy~~~~  201 (274)
+T 5GPL_A          165 FQWTGEEEDDDFD-GATLTIFLAEDLFPNAVKYFTEAM  201 (274)
+T ss_dssp             GGCCSCSTTCSCC-HHHHHHHCCCCCTTTHHHHHHHHH
+T ss_pred             hccCCCCcccccC-cchHHHHHHHcccccHHHHHhhcc
+Confidence            998753      3 689999999999999999998633
+
+
+No 15
+>5GPK_B Ccp1; Ccp1 dimer, nucleosome assembly protein; HET: MSE; 2.103A {Schizosaccharomyces pombe 972h-}
+Probab=99.91  E-value=2.1e-25  Score=189.71  Aligned_cols=176  Identities=23%  Similarity=0.357  Sum_probs=147.7  Template_Neff=7.600
+
+Q ss_pred             hHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccccccchHHHHhhcC-chhhheeccCCCceeeEEE
+Q sp|A6NKD2|TSPY  107 SALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQSVPGFWANVIANH-PQMSALITDEDEDMLSYMV  185 (308)
+Q Consensus       107 saleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqsvpgfwanvianh-pqmsalitdededmlsymv  185 (308)
+                      ..+++|..||.++       .....++.++|.++++|+|++|+++|++||+||.+||.|| |.+..+|++.|.++|+||+
+T Consensus         5 ~~~~~L~~lq~e~-------~~~~~el~~~~~~~~~ply~kR~~ii~~IP~FW~~vl~n~p~~~~~~i~~~D~~iL~~L~   77 (274)
+T 5GPK_B            5 QAFENLANLEQEF-------GKAEIEILKKQNELFQPLFEQRRDILKTINNFWVVVLEAAGDEISQYITPEDSVLLEKLE   77 (274)
+T ss_dssp             HHHHHHHHHHHHH-------HHHHHHHHHHHHHHHHHHHHHHHHHHTTSTTHHHHHHHHSCHHHHTTCCHHHHHHHTTEE
+T ss_pred             HHHHHHHHHHHHH-------HHHHHHHHHHHHHHhHHHHHHHHHHHhcCCCHHHHHHHHcchHHHhcCCHHHHHHHHHhc
+Confidence            4455555555554       5556678899999999999999999999999999999999 5899999999999999999
+
+
+Q ss_pred             EEEecccc-ceeEEEEEEeeecCCh--hhcCCccChhheeeh------------hhhhccCCCCCccCCchhHHH-HHHh
+Q sp|A6NKD2|TSPY  186 SLEVEEEK-HRVHLCKIMLFFRSNP--YFQNKVITKEYLVNI------------TEYRASHSTPIEWYPDYEVEA-YRRR  249 (308)
+Q Consensus       186 sleveeek-hrvhlckimlffrsnp--yfqnkvitkeylvni------------teyrashstpiewypdyevea-yrrr  249 (308)
+                      +|+|.+.+ ....+|+|+|.|.+||  ||+|++|+|+|.+..            .....+.+++|+||+|++++. ..  
+T Consensus        78 di~V~~~e~~~~~~~~i~F~F~~N~~~yF~n~~L~K~f~~~~~~~~~~~~~~d~~~~~~s~~~~I~Wk~gkd~t~~~~--  155 (274)
+T 5GPK_B           78 NIYVERFNEKEPRDVRISLTFQPNEYLQDDNLTLVKEVRMKEEKAKDDEGLEKKITKYTSQPVDIHWKPGKSMFRKNK--  155 (274)
+T ss_dssp             EEEEECCCSSCTTCEEEEEEECSCSSBCGGGCEEEEEEEEEEEEEECTTSCEEEEEEEEECCCCCCBCTTCCCCCSST--
+T ss_pred             cceeEEcCCCCCCceeEEEEEccCcccccCCCEEEEEEEeccccccCCccccccccccEEeeeeceecCCcccccCCC--
+Confidence            99999965 3458999999999999  999999999999971            123577899999999987765 10  
+
+
+Q ss_pred             ccccchhHHHHHhcCCC------CCchHHHHHHHHHHhhChhhhhcCCCCC
+Q sp|A6NKD2|TSPY  250 HHNSSLNFFNWFSDHNF------AGSNKIAEILCKDLWRNPLQYYKRMKPP  294 (308)
+Q Consensus       250 hhnsslnffnwfsdhnf------agsnkiaeilckdlwrnplqyykrmkpp  294 (308)
+                        ....|||+||...+.      + .++++..|+++|||||+.||++...+
+T Consensus       156 --~~~~SFF~~F~~~~~~d~e~~~-~~ei~~~i~edl~pnal~yf~~~~~~  203 (274)
+T 5GPK_B          156 --KLPPNFFDYFQWTGEEEDDDFD-GATLTIFLAEDLFPNAVKYFTEAMTE  203 (274)
+T ss_dssp             --TSCCCGGGGGGCCSCCSSCCCC-HHHHHHHCCCCCTTTHHHHHHHHHTC
+T ss_pred             --CCCCcHHHHhccCCCCccccCC-hhHHHHHHHHcccccHHHHHhccCcC
+Confidence              346799999998753      3 68999999999999999999875443
+
+
+No 16
+>3FS3_A Nucleosome assembly protein 1, putative; plasmodium falciparum, nucleosome assembly protein; 2.3A {Plasmodium falciparum}
+Probab=99.91  E-value=4.3e-25  Score=193.53  Aligned_cols=201  Identities=21%  Similarity=0.391  Sum_probs=167.0  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCcccccccccc----------cccchHHHHhhc
+Q sp|A6NKD2|TSPY   96 AVPGPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQ----------SVPGFWANVIAN  165 (308)
+Q Consensus        96 avpgpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviq----------svpgfwanvian  165 (308)
+                      .....+|+.++.++.+|+.+|.++++++.++.+++.+|+++|..+++|+|++|+++|+          +||+||.+||.|
+T Consensus        42 ~~~~~l~~~~~~~~~aL~~lq~e~~~l~~e~~~e~~~Le~ky~~~~~pl~~kR~~ii~g~~~~~~~~~~IP~FW~~vl~n  121 (359)
+T 3FS3_A           42 DKMTDLTEEQKETLKKLKLYQKEYYDYESKFEYELFLLRQKYHDLYGPIYDKRREALVGNGEAKIGTPNLPEFWLRALRN  121 (359)
+T ss_dssp             ---CCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC---CCSSSTTSTTHHHHHHHT
+T ss_pred             hhhhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcCCccCCCCCCCCCHHHHHHHc
+Confidence            4456788999999999999999999999999999999999999999999999999999          999999999999
+
+
+Q ss_pred             CchhhheeccCCCceeeEEEEEEeccccce-e--EEEEEEeeecCChhhcCCccChhheeehhhh------hccCCCCCc
+Q sp|A6NKD2|TSPY  166 HPQMSALITDEDEDMLSYMVSLEVEEEKHR-V--HLCKIMLFFRSNPYFQNKVITKEYLVNITEY------RASHSTPIE  236 (308)
+Q Consensus       166 hpqmsalitdededmlsymvsleveeekhr-v--hlckimlffrsnpyfqnkvitkeylvnitey------rashstpie  236 (308)
+                      ||.++.+|++.|.++|+||++|+|.+.... .  .+|+|+|+|.+||||+|++|+|+|.+.....      ..+.+++|+
+T Consensus       122 ~~~l~~~i~~~D~~~L~~L~dI~v~~~~~~~~~~~~f~l~F~F~~NpyF~n~vL~K~~~~~~~~~~~~~~~~~~~~t~I~  201 (359)
+T 3FS3_A          122 NNTVSHVIEDHDEEILVYLNDIRCDYIKKNKEKKEGFILSFYFATNPFFSNSVLTKTYHMKCVDCDNEPVLLHTEATVID  201 (359)
+T ss_dssp             SHHHHTTCCHHHHHHHTTEEEEEEEECC-------CEEEEEEECSCSSBCCSEEEEEEEEC--------CEEEEEECCCC
+T ss_pred             ChhHHhhCChhHHHHHHHhHhceeeeccccccCCCeEEEEEEEeCCCCCCCCeEEEEEEEeecCCCCCeEEEEEEeeece
+Confidence            999999999999999999999999998764 4  7899999999999999999999999987631      468899999
+
+
+Q ss_pred             cCCchhHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCCc---------------------hHHHHHHHHHH
+Q sp|A6NKD2|TSPY  237 WYPDYEVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAGS---------------------NKIAEILCKDL  280 (308)
+Q Consensus       237 wypdyevea-y--rr--rh--h--------nsslnffnwfsdhnfags---------------------nkiaeilckdl  280 (308)
+                      ||.|++++. .  ++  ++  +        ....|||+||.++..+..                     ++++.+|+++|
+T Consensus       202 WK~gk~lt~~~~~kk~~~~~~~~~r~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~ig~~i~~~i  281 (359)
+T 3FS3_A          202 WYDNKNILKKNVVKKQHNKNSREVKTVQQTVNRDSFFHFFTSHKVPNSNVIKQLSKHEVAQLEMIIEGDYEVALTIKERI  281 (359)
+T ss_dssp             BCTTCCTTCC----------------------CCCGGGGSCCBCC------------CHHHHHHHHHHHHHHHHHCCCCC
+T ss_pred             ecCCCcccchhheeccccCCCCceeeEEEeecCccHHHHhcCCCCCCchhhhhccHHHHHHHHHHHHccHHHHHHHHHcc
+Confidence            999999987 3  11  11  1        346899999999865432                     48999999999
+
+
+Q ss_pred             hhChhhhhcCCCCCCC
+Q sp|A6NKD2|TSPY  281 WRNPLQYYKRMKPPEE  296 (308)
+Q Consensus       281 wrnplqyykrmkppee  296 (308)
+                      ||+|+.||++...+++
+T Consensus       282 ip~av~yf~g~~~edd  297 (359)
+T 3FS3_A          282 IPYAVDYYLGIIIESE  297 (359)
+T ss_dssp             HHHHHHHHTTCC----
+T ss_pred             chhhHHHhccCccCCC
+Confidence            9999999999876543
+
+
+No 17
+>3GYW_A Nucleosome assembly protein 1, putative; SIR, SIRAS, NUCLEOSOME ASSEMBLY PROTEIN; 2.4A {Plasmodium falciparum}
+Probab=99.90  E-value=5.4e-25  Score=176.96  Aligned_cols=193  Identities=22%  Similarity=0.419  Sum_probs=159.1  Template_Neff=9.100
+
+Q ss_pred             CCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccccc----------ccchHHHHhhcCchh
+Q sp|A6NKD2|TSPY  100 PGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVIQS----------VPGFWANVIANHPQM  169 (308)
+Q Consensus       100 pgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgaviqs----------vpgfwanvianhpqm  169 (308)
+                      .+|+++++++++|+.+|.++++++.++.+++.+++++|....+|+|++|+++|++          ||+||.+||.|||.+
+T Consensus         2 ~~~~~~~~~~~~L~~lq~~~~~l~~~~~~~~~~l~~~~~~~~~~l~~~R~~ii~~~~~~~~~~~~ip~FW~~vl~n~~~~   81 (249)
+T 3GYW_A            2 DLTEEQKETLKKLKLYQKEYYDYESKFEYELFLLRQKYHDLYGPIYDKRREALVGNGEAKIGTPNLPEFWLRALRNNNTV   81 (249)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC---CCSSSTTSTTHHHHHHHTSHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHccCccccCCCCCCCcHHHHHHHcChhH
+Confidence            4788999999999999999999999999999999999999999999999999998          999999999999999
+
+
+Q ss_pred             hheeccCCCceeeEEEEEEeccccc---eeEEEEEEeeecCChhhcCCccChhheeehhhh------hccCCCCCccCCc
+Q sp|A6NKD2|TSPY  170 SALITDEDEDMLSYMVSLEVEEEKH---RVHLCKIMLFFRSNPYFQNKVITKEYLVNITEY------RASHSTPIEWYPD  240 (308)
+Q Consensus       170 salitdededmlsymvsleveeekh---rvhlckimlffrsnpyfqnkvitkeylvnitey------rashstpiewypd  240 (308)
+                      ..++++.|.++|+||++|++...+.   ...+|+|+|+|.+||||+|++|+|+|.+.....      ..+++++|.||+|
+T Consensus        82 ~~~i~~~D~~~L~~L~di~v~~~~~~~~~~~~~~i~f~F~~N~yf~n~~l~K~~~~~~~~~~~~~~~~~~~~~~I~Wk~g  161 (249)
+T 3GYW_A           82 SHVIEDHDEEILVYLNDIRCDYIKKNKEKKEGFILSFYFATNPFFSNSVLTKTYHMKCVDCDNEPVLLHTEATVIDWYDN  161 (249)
+T ss_dssp             HTTCCHHHHHHHTTEEEEEEEC---------CEEEEEEECSCSSBCCSEEEEEECC------------CEEECCCCBCTT
+T ss_pred             HhhCChhhHHHHHhcceeeeeecccccccCCcEEEEEEEcCCCCCcCcEEEEEEEeeecCCCCCeeEEEEEeeecccCCC
+Confidence            9999999999999999999998764   247899999999999999999999999886532      4778999999999
+
+
+Q ss_pred             hhHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCCc---------------------hHHHHHHHHHHhhCh
+Q sp|A6NKD2|TSPY  241 YEVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAGS---------------------NKIAEILCKDLWRNP  284 (308)
+Q Consensus       241 yevea-y--rr--rh--h--------nsslnffnwfsdhnfags---------------------nkiaeilckdlwrnp  284 (308)
+                      ++++. .  ++  ++  +        ....|||+||.++..++.                     ++++.+|+++|||||
+T Consensus       162 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~i~~~i~~~i~p~a  241 (249)
+T 3GYW_A          162 KNILKKNVVKKQHNKNSREVKTVQQTVNRDSFFHFFTSHKVPNSNVIKQLSKHEVAQLEMIIEGDYEVALTIKERIIPYA  241 (249)
+T ss_dssp             TCCC------------------------CCCGGGGSCCC-------------------CHHHHHHHHHHHHCCCCCHHHH
+T ss_pred             CCcceeeeeeccccCCCCccceeeeeecCCChhhhcCCCCCCCchhhhhcCHHHHHHHHHHHHHHHHHHHHHHHchhhhH
+Confidence            98877 2  11  11  0        356799999999864432                     579999999999999
+
+
+Q ss_pred             hhhhcCCC
+Q sp|A6NKD2|TSPY  285 LQYYKRMK  292 (308)
+Q Consensus       285 lqyykrmk  292 (308)
+                      +.||+|..
+T Consensus       242 ~~y~~g~~  249 (249)
+T 3GYW_A          242 VDYYLGII  249 (249)
+T ss_dssp             HHHHHTCC
+T ss_pred             HHHHcCCC
+Confidence            99999863
+
+
+No 18
+>6K0C_A Histone H2B 2,Histone H2A.V, Nucleosome; NAP1, H2A.Z-H2B, CHAPERONE; 2.281A {Caenorhabditis elegans}
+Probab=99.87  E-value=3.8e-23  Score=175.73  Aligned_cols=197  Identities=20%  Similarity=0.390  Sum_probs=173.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc--------------------------
+Q sp|A6NKD2|TSPY   99 GPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI--------------------------  152 (308)
+Q Consensus        99 gpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi--------------------------  152 (308)
+                      ..+|+.+++++.+|+.||.++++++.++.+++.+|+++|.++++|+|++|+++|                          
+T Consensus        32 ~~~p~~~~~~v~aL~~lq~~~~~le~e~~~e~~~le~ky~~~~~pl~~~R~~ii~g~~~~~~~e~~~~~~~~~~~~~~~~  111 (308)
+T 6K0C_A           32 QALPLNVKQRVCALKNLQMKTIQIESDFYKRVHELEIEFEGKFKSTFDQRKAIVAGEVEPTKEQIDTPILEGLEGDQLAE  111 (308)
+T ss_pred             HhCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHcCCCCCChhhcCCchhcCCChHHHHH
+Confidence            347889999999999999999999999999999999999999999999999999                          
+
+
+Q ss_pred             -----------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhhe
+Q sp|A6NKD2|TSPY  153 -----------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYL  221 (308)
+Q Consensus       153 -----------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeyl  221 (308)
+                                 ++||+||.+||.|||.++.++++.|.++|+||++|+|.... ...+|+|+|+|.+||||+|.+|+|+|.
+T Consensus       112 ~~~~~~~~~~~~~IP~FW~~vl~n~~~l~~~i~~~D~~~L~~L~di~v~~~~-~~~~f~i~F~F~~NpyF~n~~L~K~~~  190 (308)
+T 6K0C_A          112 LYKAAEADPSAKGIKDFWLTALRTHDLVAEAIEEHDVPILSYLTDVTTAASK-DPAGFKIEFHFATNPYFKNQVLTKTYL  190 (308)
+T ss_pred             HHHHHhcCccccCCCChHHHHHhccHHHHHHhhhccHHHHHhhcceEEeecC-CCCceEEEEEeCCCcccCCCEEEEEEE
+Confidence                       78999999999999999999999999999999999999853 357899999999999999999999999
+
+
+Q ss_pred             eehhh------------hhccCCCCCccCCchhHHH-H--HH-hc--c--------ccchhHHHHHhcCCCC--------
+Q sp|A6NKD2|TSPY  222 VNITE------------YRASHSTPIEWYPDYEVEA-Y--RR-RH--H--------NSSLNFFNWFSDHNFA--------  267 (308)
+Q Consensus       222 vnite------------yrashstpiewypdyevea-y--rr-rh--h--------nsslnffnwfsdhnfa--------  267 (308)
+                      +....            ...+.+++|+||+|++++. .  ++ ++  +        ....|||+||.++..+        
+T Consensus       191 ~~~~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~~lt~~~~~~~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~  270 (308)
+T 6K0C_A          191 LGFDPDAEAPLQFDGPHVIRAVGDTIEWEDGKNVTKKAVKKKQKKGANAGKFLTKTVKADSFFNFFEPPKSKDERNEDED  270 (308)
+T ss_pred             EcCCCCCCCCCccCCCEEEEEeccCCeecCCCCCcHHhhcccccCCCCCCceeeeeecCCChhhhcCCCCCCCCCCCCCc
+Confidence            87431            1467899999999999887 3  21 11  0        3468999999987533        
+
+
+Q ss_pred             ---------CchHHHHHHHHHHhhChhhhhcCCCCCCC
+Q sp|A6NKD2|TSPY  268 ---------GSNKIAEILCKDLWRNPLQYYKRMKPPEE  296 (308)
+Q Consensus       268 ---------gsnkiaeilckdlwrnplqyykrmkppee  296 (308)
+                               .+++++.+|+++|||+|+.||+|...++|
+T Consensus       271 ~~~~~~~~~~d~~i~~~i~d~i~p~a~~yy~g~~~~~~  308 (308)
+T 6K0C_A          271 DEQAEEFLELDYEMGQAIRDTIIPRAVLFYTGELQSDD  308 (308)
+T ss_pred             cHHHHHHHHhhHHHHHHHHHcchHhHHHHHhCCcCCCC
+Confidence                     23689999999999999999999887654
+
+
+No 19
+>6K00_B Nucleosome Assembly Protein, Histone H2B; NAP1, H2A-H2B, CHAPERONE; 2.198A {Caenorhabditis elegans}
+Probab=99.87  E-value=3.8e-23  Score=175.73  Aligned_cols=195  Identities=21%  Similarity=0.404  Sum_probs=170.0  Template_Neff=8.200
+
+Q ss_pred             CCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc----------------------------
+Q sp|A6NKD2|TSPY  101 GPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI----------------------------  152 (308)
+Q Consensus       101 gpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi----------------------------  152 (308)
+                      +|+.+++++.+|+.||.++++++.++.+++.+|+++|.++++|+|++|+++|                            
+T Consensus        34 ~p~~~~~~v~aL~~lq~~~~~le~e~~~e~~~le~ky~~~~~pl~~~R~~ii~g~~~~~~~e~~~~~~~~~~~~~~~~~~  113 (308)
+T 6K00_B           34 LPLNVKQRVCALKNLQMKTIQIESDFYKRVHELEIEFEGKFKSTFDQRKAIVAGEVEPTKEQIDTPILEGLEGDQLAELY  113 (308)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSCCCHHHHTSCSSTTCCHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHcCCCCCChhhcCCchhcCCChHHHHHHH
+Confidence            6788999999999999999999999999999999999999999999999999                            
+
+
+Q ss_pred             ---------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhheee
+Q sp|A6NKD2|TSPY  153 ---------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYLVN  223 (308)
+Q Consensus       153 ---------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeylvn  223 (308)
+                               ++||+||.+||.|||.++.++++.|.++|+||++|+|..... ..+|+|+|+|.+||||+|.+|+|+|.+.
+T Consensus       114 ~~~~~~~~~~~IP~FW~~vl~n~~~l~~~i~~~D~~~L~~L~di~v~~~~~-~~~f~i~F~F~~NpyF~n~~L~K~~~~~  192 (308)
+T 6K00_B          114 KAAEADPSAKGIKDFWLTALRTHDLVAEAIEEHDVPILSYLTDVTTAASKD-PAGFKIEFHFATNPYFKNQVLTKTYLLG  192 (308)
+T ss_dssp             HSSCCCTTCCSCTTHHHHHHHHSHHHHHHCCGGGHHHHTTEEEEEEEEEET-TEEEEEEEEECSCSSBSCSEEEEEEEEE
+T ss_pred             HHHhcCccccCCCChHHHHHhccHHHHHHhhhccHHHHHhhcceEEeecCC-CCceEEEEEeCCCcccCCCEEEEEEEEc
+Confidence                     789999999999999999999999999999999999998533 4789999999999999999999999997
+
+
+Q ss_pred             hhh------------hhccCCCCCccCCchhHHH-H--HH-hc--c--------ccchhHHHHHhcCCCCC---------
+Q sp|A6NKD2|TSPY  224 ITE------------YRASHSTPIEWYPDYEVEA-Y--RR-RH--H--------NSSLNFFNWFSDHNFAG---------  268 (308)
+Q Consensus       224 ite------------yrashstpiewypdyevea-y--rr-rh--h--------nsslnffnwfsdhnfag---------  268 (308)
+                      ...            ...+.+++|+||+|++++. .  ++ ++  +        ....|||+||.++..++         
+T Consensus       193 ~~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~~lt~~~~~~~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~  272 (308)
+T 6K00_B          193 FDPDAEAPLQFDGPHVIRAVGDTIEWEDGKNVTKKAVKKKQKKGANAGKFLTKTVKADSFFNFFEPPKSKDERNEDEDDE  272 (308)
+T ss_dssp             CSCCTTSGGGCCSCEEEEEECCCCCBCTTCCTTEECC----------------CEECCCGGGGGSCCCCGGGC------C
+T ss_pred             CCCCCCCCCccCCCEEEEEeccCCeecCCCCCcHHhhcccccCCCCCCceeeeeecCCChhhhcCCCCCCCCCCCCCccH
+Confidence            431            1467899999999999877 2  11 11  0        24689999999986432         
+
+
+Q ss_pred             --------chHHHHHHHHHHhhChhhhhcCCCCCCC
+Q sp|A6NKD2|TSPY  269 --------SNKIAEILCKDLWRNPLQYYKRMKPPEE  296 (308)
+Q Consensus       269 --------snkiaeilckdlwrnplqyykrmkppee  296 (308)
+                              +++++.+|+++|||+|+.||+|...++|
+T Consensus       273 ~~~~~~~~d~~i~~~i~d~i~p~a~~yy~g~~~~~~  308 (308)
+T 6K00_B          273 QAEEFLELDYEMGQAIRDTIIPRAVLFYTGELQSDD  308 (308)
+T ss_dssp             THHHHHHHHHHHHHCCCCCCTTTHHHHHHTCSCC--
+T ss_pred             HHHHHHHhhHHHHHHHHHcchHhHHHHHhCCcCCCC
+Confidence                    3689999999999999999999887654
+
+
+No 20
+>6K02_B Nucleosome Assembly Protein; NAP1, CHAPERONE; 2.162A {Caenorhabditis elegans}
+Probab=99.87  E-value=3.8e-23  Score=175.73  Aligned_cols=195  Identities=21%  Similarity=0.404  Sum_probs=168.9  Template_Neff=8.200
+
+Q ss_pred             CCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc----------------------------
+Q sp|A6NKD2|TSPY  101 GPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI----------------------------  152 (308)
+Q Consensus       101 gpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi----------------------------  152 (308)
+                      +|+.+++++.+|+.||.++++++.++.+++.+|+++|.++++|+|++|+++|                            
+T Consensus        34 ~p~~~~~~v~aL~~lq~~~~~le~e~~~e~~~le~ky~~~~~pl~~~R~~ii~g~~~~~~~e~~~~~~~~~~~~~~~~~~  113 (308)
+T 6K02_B           34 LPLNVKQRVCALKNLQMKTIQIESDFYKRVHELEIEFEGKFKSTFDQRKAIVAGEVEPTKEQIDTPILEGLEGDQLAELY  113 (308)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSCCCHHHHTSCSSSSCCHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHcCCCCCChhhcCCchhcCCChHHHHHHH
+Confidence            6788999999999999999999999999999999999999999999999999                            
+
+
+Q ss_pred             ---------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecCChhhcCCccChhheee
+Q sp|A6NKD2|TSPY  153 ---------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRSNPYFQNKVITKEYLVN  223 (308)
+Q Consensus       153 ---------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrsnpyfqnkvitkeylvn  223 (308)
+                               ++||+||.+||.|||.++.++++.|.++|+||++|+|..... ..+|+|+|+|.+||||+|.+|+|+|.+.
+T Consensus       114 ~~~~~~~~~~~IP~FW~~vl~n~~~l~~~i~~~D~~~L~~L~di~v~~~~~-~~~f~i~F~F~~NpyF~n~~L~K~~~~~  192 (308)
+T 6K02_B          114 KAAEADPSAKGIKDFWLTALRTHDLVAEAIEEHDVPILSYLTDVTTAASKD-PAGFKIEFHFATNPYFKNQVLTKTYLLG  192 (308)
+T ss_dssp             TSSCCCTTCCSCTTHHHHHHHHSHHHHHHCCGGGHHHHTTEEEEEEEEEET-TEEEEEEEEECSCSSBSCSEEEEEEEEE
+T ss_pred             HHHhcCccccCCCChHHHHHhccHHHHHHhhhccHHHHHhhcceEEeecCC-CCceEEEEEeCCCcccCCCEEEEEEEEc
+Confidence                     789999999999999999999999999999999999998533 4789999999999999999999999997
+
+
+Q ss_pred             hhh------------hhccCCCCCccCCchhHHH-H--HH-hc--c--------ccchhHHHHHhcCCCCC---------
+Q sp|A6NKD2|TSPY  224 ITE------------YRASHSTPIEWYPDYEVEA-Y--RR-RH--H--------NSSLNFFNWFSDHNFAG---------  268 (308)
+Q Consensus       224 ite------------yrashstpiewypdyevea-y--rr-rh--h--------nsslnffnwfsdhnfag---------  268 (308)
+                      ...            ...+.+++|+||+|++++. .  ++ ++  +        ....|||+||.++..++         
+T Consensus       193 ~~~~~~~~~~~~~~~~~~~~~~~I~Wk~g~~lt~~~~~~~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~~~~~~~~~  272 (308)
+T 6K02_B          193 FDPDAEAPLQFDGPHVIRAVGDTIEWEDGKNVTKKAVKKKQKKGANAGKFLTKTVKADSFFNFFEPPKSKDERNEDEDDE  272 (308)
+T ss_dssp             CSCCTTSGGGCCSCEEEEEECCCCCBCTTCCTTEEEEC-------------CEEEECCCGGGGGSCC----------CCH
+T ss_pred             CCCCCCCCCccCCCEEEEEeccCCeecCCCCCcHHhhcccccCCCCCCceeeeeecCCChhhhcCCCCCCCCCCCCCccH
+Confidence            431            1467899999999999887 2  21 11  0        24689999999876432         
+
+
+Q ss_pred             --------chHHHHHHHHHHhhChhhhhcCCCCCCC
+Q sp|A6NKD2|TSPY  269 --------SNKIAEILCKDLWRNPLQYYKRMKPPEE  296 (308)
+Q Consensus       269 --------snkiaeilckdlwrnplqyykrmkppee  296 (308)
+                              +++++.+|+++|||+|+.||+|...++|
+T Consensus       273 ~~~~~~~~d~~i~~~i~d~i~p~a~~yy~g~~~~~~  308 (308)
+T 6K02_B          273 QAEEFLELDYEMGQAIRDTIIPRAVLFYTGELQSDD  308 (308)
+T ss_dssp             HHHHHHHHHHHHHHCCCCCCTTTHHHHHHTSSCCC-
+T ss_pred             HHHHHHHhhHHHHHHHHHcchHhHHHHHhCCcCCCC
+Confidence                    3689999999999999999999887664
+
+
+No 21
+>2Z2R_A Nucleosome assembly protein; Nucleosome Assembly Protein 1 (NAP1); 3.2A {Saccharomyces cerevisiae} SCOP: d.305.1.1
+Probab=99.87  E-value=4.1e-23  Score=172.34  Aligned_cols=195  Identities=24%  Similarity=0.421  Sum_probs=172.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc-------------------------
+Q sp|A6NKD2|TSPY   98 PGPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI-------------------------  152 (308)
+Q Consensus        98 pgpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi-------------------------  152 (308)
+                      ...+|+.+++++.+|+.+|.++++++.++.+++.+|+++|..+.+|+|++|++||                         
+T Consensus        12 ~~~~~~~~~~~~~aL~~lq~~~~~~~~~~~~~~~~l~~~~~~~~~pl~~~R~~ii~g~~~~t~~e~~~~~~~~~~~~~~~   91 (292)
+T 2Z2R_A           12 VGGLPKNVKEKLLSLKTLQSELFEVEKEFQVEMFELENKFLQKYKPIWEQRSRIISGQEQPKPEQIAKGQEIVESLNETE   91 (292)
+T ss_dssp             HHTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSCCCHHHHHHHHHHHHHHTCCT
+T ss_pred             hhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhCCCCCCHHHHhccchhhhhhchhh
+Confidence            3468899999999999999999999999999999999999999999999999999                         
+
+
+Q ss_pred             ------------------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecC--Chhhc
+Q sp|A6NKD2|TSPY  153 ------------------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRS--NPYFQ  212 (308)
+Q Consensus       153 ------------------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrs--npyfq  212 (308)
+                                        .+||+||.+||.|||.+..++++.|.++|+||++|++...+....+|+|+|+|.+  ||||+
+T Consensus        92 ~~~~~~~~~~~~~~~~~~~~IP~FW~~al~n~~~~~~~i~~~D~~iL~~L~dI~v~~~~~~~~~f~i~f~F~~~~Npyf~  171 (292)
+T 2Z2R_A           92 LLVDEEEKAQNDSEEEQVKGIPSFWLTALENLPIVCDTITDRDAEVLEYLQDIGLEYLTDGRPGFKLLFRFDSSANPFFT  171 (292)
+T ss_dssp             TCCCSCC---------CCSSCTTHHHHHHHHSHHHHTTCCHHHHHHHTTEEEECCEECCSSSCEEEEEEEECTTTCSSBS
+T ss_pred             HhhHHHHHhcccchhhhhcCCCCHHHHHHHcCHHHHHhcChhhHHHHHHhceeeeEEcCCCCCcEEEEEEeCCCCCCCCC
+Confidence                              7899999999999999999999999999999999999988745689999999999  99999
+
+
+Q ss_pred             CCccChhheeehhh----h---hccCCCCCccCCch-hHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCC-
+Q sp|A6NKD2|TSPY  213 NKVITKEYLVNITE----Y---RASHSTPIEWYPDY-EVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAG-  268 (308)
+Q Consensus       213 nkvitkeylvnite----y---rashstpiewypdy-evea-y--rr--rh--h--------nsslnffnwfsdhnfag-  268 (308)
+                      |++|+|+|.+....    .   ..+.+++|+||+|+ +++. .  ++  ++  +        ....|||+||.++..++ 
+T Consensus       172 n~~L~K~~~~~~~~~~~g~~~~~~~~~t~I~Wk~g~~~lt~~~~~~k~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~~  251 (292)
+T 2Z2R_A          172 NDILCKTYFYQKELGYSGDFIYDHAEGCEISWKDNAHNVTVDLEMRKQRNKTTKQVRTIEKITPIESFFNFFDPPKIQNE  251 (292)
+T ss_dssp             CSEEEEEEEECSSCCTTSSCCEEEEEECCCCBSCTTSCCSEEEEEEEEECTTTCCEEEEEEEEECCCGGGGGSCCCCCCT
+T ss_pred             CCEEEEEEEEeccCCCCCCeeeeceecccceecCCCCCceeeeehhhhhccCCCccceeeeeecCCCcchhcCCCcCCCC
+Confidence            99999999998542    1   25789999999999 8876 2  11  11  1        34679999999986443 
+
+
+Q ss_pred             ----------------chHHHHHHHHHHhhChhhhhcCCC
+Q sp|A6NKD2|TSPY  269 ----------------SNKIAEILCKDLWRNPLQYYKRMK  292 (308)
+Q Consensus       269 ----------------snkiaeilckdlwrnplqyykrmk  292 (308)
+                                      +++++..|+++|||+|+.||+|.+
+T Consensus       252 ~~~d~~~~~~~~~~~~d~~i~~~i~~~i~P~a~~yf~g~~  291 (292)
+T 2Z2R_A          252 DQDEELEEDLEERLALDYSIGEQLKDKLIPRAVDWFTGAA  291 (292)
+T ss_dssp             TCCSSTTTHHHHHHHHHHHHHHCCCCCCGGGHHHHHHTTT
+T ss_pred             CccchHHHHHHHHHHhHHHHHHHHHhchhhHHHHHHccCC
+Confidence                            247999999999999999999975
+
+
+No 22
+>2Z2R_B Nucleosome assembly protein; Nucleosome Assembly Protein 1 (NAP1); 3.2A {Saccharomyces cerevisiae} SCOP: d.305.1.1
+Probab=99.87  E-value=4.1e-23  Score=172.34  Aligned_cols=196  Identities=23%  Similarity=0.417  Sum_probs=173.4  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc------------------------
+Q sp|A6NKD2|TSPY   97 VPGPGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI------------------------  152 (308)
+Q Consensus        97 vpgpgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi------------------------  152 (308)
+                      ....+|+.+++++.+|+.+|.++++++.++.+++.+|+++|..+.+|+|++|++||                        
+T Consensus        11 ~~~~~~~~~~~~~~aL~~lq~~~~~~~~~~~~~~~~l~~~~~~~~~pl~~~R~~ii~g~~~~t~~e~~~~~~~~~~~~~~   90 (292)
+T 2Z2R_B           11 YVGGLPKNVKEKLLSLKTLQSELFEVEKEFQVEMFELENKFLQKYKPIWEQRSRIISGQEQPKPEQIAKGQEIVESLNET   90 (292)
+T ss_dssp             TTTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSCCCHHHHHHHHHHHHHTTCG
+T ss_pred             hhhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhCCCCCCHHHHhccchhhhhhchh
+Confidence            46678999999999999999999999999999999999999999999999999999                        
+
+
+Q ss_pred             -------------------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecC--Chhh
+Q sp|A6NKD2|TSPY  153 -------------------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRS--NPYF  211 (308)
+Q Consensus       153 -------------------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrs--npyf  211 (308)
+                                         .+||+||.+||.|||.+..++++.|.++|+||++|++...+....+|+|+|+|.+  ||||
+T Consensus        91 ~~~~~~~~~~~~~~~~~~~~~IP~FW~~al~n~~~~~~~i~~~D~~iL~~L~dI~v~~~~~~~~~f~i~f~F~~~~Npyf  170 (292)
+T 2Z2R_B           91 ELLVDEEEKAQNDSEEEQVKGIPSFWLTALENLPIVCDTITDRDAEVLEYLQDIGLEYLTDGRPGFKLLFRFDSSANPFF  170 (292)
+T ss_dssp             GGCCCC-----------CCCSCTTHHHHHHHHSHHHHTTCCHHHHHHHTTEEEEEEEEECSSSCEEEEEEEECTTTCSSB
+T ss_pred             hHhhHHHHHhcccchhhhhcCCCCHHHHHHHcCHHHHHhcChhhHHHHHHhceeeeEEcCCCCCcEEEEEEeCCCCCCCC
+Confidence                               7899999999999999999999999999999999999988744689999999999  9999
+
+
+Q ss_pred             cCCccChhheeehhh----h---hccCCCCCccCCch-hHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCC
+Q sp|A6NKD2|TSPY  212 QNKVITKEYLVNITE----Y---RASHSTPIEWYPDY-EVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAG  268 (308)
+Q Consensus       212 qnkvitkeylvnite----y---rashstpiewypdy-evea-y--rr--rh--h--------nsslnffnwfsdhnfag  268 (308)
+                      +|++|+|+|.+....    .   ..+.+++|+||+|+ +++. .  ++  ++  +        ....|||+||.++..++
+T Consensus       171 ~n~~L~K~~~~~~~~~~~g~~~~~~~~~t~I~Wk~g~~~lt~~~~~~k~~~~~~~~~~~~~~~~~~~SFF~~F~~~~~~~  250 (292)
+T 2Z2R_B          171 TNDILCKTYFYQKELGYSGDFIYDHAEGCEISWKDNAHNVTVDLEMRKQRNKTTKQVRTIEKITPIESFFNFFDPPKIQN  250 (292)
+T ss_dssp             CCSEEEEEEEECSSCCTTSSCCEEEEEECCCCBSCGGGCTTEEEEEEEEEETTTTEEEEEEEEEECCCGGGGGSCCCSCC
+T ss_pred             CCCEEEEEEEEeccCCCCCCeeeeceecccceecCCCCCceeeeehhhhhccCCCccceeeeeecCCCcchhcCCCcCCC
+Confidence            999999999998542    1   25789999999999 8887 2  11  11  1        34679999999986543
+
+
+Q ss_pred             -----------------chHHHHHHHHHHhhChhhhhcCCC
+Q sp|A6NKD2|TSPY  269 -----------------SNKIAEILCKDLWRNPLQYYKRMK  292 (308)
+Q Consensus       269 -----------------snkiaeilckdlwrnplqyykrmk  292 (308)
+                                       +++++..|+++|||+|+.||+|.+
+T Consensus       251 ~~~~d~~~~~~~~~~~~d~~i~~~i~~~i~P~a~~yf~g~~  291 (292)
+T 2Z2R_B          251 EDQDEELEEDLEERLALDYSIGEQLKDKLIPRAVDWFTGAA  291 (292)
+T ss_dssp             C----CHHHHTTHHHHHHHHHHHHCCCCCTTTHHHHHHSTT
+T ss_pred             CCccchHHHHHHHHHHhHHHHHHHHHhchhhHHHHHHccCC
+Confidence                             247999999999999999999975
+
+
+No 23
+>2AYU_A Nucleosome assembly protein; Nucleosome assembly protein 1 (NAP1); 3.0A {Saccharomyces cerevisiae} SCOP: d.305.1.1
+Probab=99.82  E-value=4.1e-21  Score=175.20  Aligned_cols=194  Identities=23%  Similarity=0.411  Sum_probs=170.8  Template_Neff=6.800
+
+Q ss_pred             CCCCCchhHHHHHHhhhhhcccccHHHHHHHHHHHHHHHhccCCccccccccc---------------------------
+Q sp|A6NKD2|TSPY  100 PGPMTPESALEELLAVQVELEPVNAQARKAFSRQREKMERRRKPHLDRRGAVI---------------------------  152 (308)
+Q Consensus       100 pgpmtpesaleellavqvelepvnaqarkafsrqrekmerrrkphldrrgavi---------------------------  152 (308)
+                      .+|+.+++++.+|+.||.++.+++.++.+++.+|+++|.++++|+|++|++||                           
+T Consensus        87 ~lp~~vk~rv~aLk~lQ~e~~~le~e~~~e~~eLe~ky~~~~~PLyekR~~II~G~~ept~eE~~~~~~~~~~~~~~~~~  166 (417)
+T 2AYU_A           87 GLPKNVKEKLLSLKTLQSELFEVEKEFQVEMFELENKFLQKYKPIWEQRSRIISGQEQPKPEQIAKGQEIVESLNETELL  166 (417)
+T ss_dssp             HSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSCCCHHHHHHHHHHHHHTTCGGGC
+T ss_pred             cCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhCCCCCCHHHHhhchHhHhhhchhhhh
+Confidence            58899999999999999999999999999999999999999999999999999                           
+
+
+Q ss_pred             ----------------ccccchHHHHhhcCchhhheeccCCCceeeEEEEEEeccccceeEEEEEEeeecC--ChhhcCC
+Q sp|A6NKD2|TSPY  153 ----------------QSVPGFWANVIANHPQMSALITDEDEDMLSYMVSLEVEEEKHRVHLCKIMLFFRS--NPYFQNK  214 (308)
+Q Consensus       153 ----------------qsvpgfwanvianhpqmsalitdededmlsymvsleveeekhrvhlckimlffrs--npyfqnk  214 (308)
+                                      ++||+||++||.|||.++.+|++.|.++|+||++|+|.+......+|+|+|+|.+  ||||+|+
+T Consensus       167 ~~~~~~~~~~~~~~~~kgIP~FWltaL~n~~~l~~lIte~De~~L~~L~DI~v~~~~~~~~gf~L~F~F~~~~NpyF~N~  246 (417)
+T 2AYU_A          167 VDEEEKAQNDSEEEQVKGIPSFWLTALENLPIVCDTITDRDAEVLEYLQDIGLEYLTDGRPGFKLLFRFDSSANPFFTND  246 (417)
+T ss_dssp             CSSCC---------CCSSCTTHHHHHHHTSTTGGGTCCHHHHTGGGGEEEEECCBCCSSSCEEEEEEEECTTTCSSBCCS
+T ss_pred             hhHHHHhcccChHHHhcCCchHHHHHHhcCHHHHhhCCHHHHHHHHHHHHcCCcccCCCCCCceEEEEEcCCCCCCCCCc
+Confidence                            6899999999999999999999999999999999999998644679999999999  9999999
+
+
+Q ss_pred             ccChhheeehhh----h---hccCCCCCccCCch-hHHH-H--HH--hc--c--------ccchhHHHHHhcCCCCC---
+Q sp|A6NKD2|TSPY  215 VITKEYLVNITE----Y---RASHSTPIEWYPDY-EVEA-Y--RR--RH--H--------NSSLNFFNWFSDHNFAG---  268 (308)
+Q Consensus       215 vitkeylvnite----y---rashstpiewypdy-evea-y--rr--rh--h--------nsslnffnwfsdhnfag---  268 (308)
+                      +|+|+|.+....    .   ..+.++.|+||.|+ +++. .  ++  ++  +        ....|||+||.++..++   
+T Consensus       247 vLtKty~~~~~~~~~g~~~~~~~~gt~I~WK~gk~nlT~~~~~kkqr~k~~~~~R~v~k~~~~~SFF~fF~~~~~~~~~e  326 (417)
+T 2AYU_A          247 ILCKTYFYQKELGYSGDFIYDHAEGCEISWKDNAHNVTVDLEMRKQRNKTTKQVRTIEKITPIESFFNFFDPPKIQNEDQ  326 (417)
+T ss_dssp             EEEEEEEEESSCCSSSSCEEEEEEECCCCBSCTTTCTTEEEEECCC---------CCEEEEECCCGGGGGSCSCSCCCTT
+T ss_pred             eEEEEEEEcccCCCCCCeeeeeeecccCccCCCCCCCcchhhHHHhhccCCCceeeeeeCCCchhhhhhcCCccCCCCCC
+Confidence            999999998542    1   25689999999999 8887 2  11  11  1        35789999999986442   
+
+
+Q ss_pred             --------------chHHHHHHHHHHhhChhhhhcCCCC
+Q sp|A6NKD2|TSPY  269 --------------SNKIAEILCKDLWRNPLQYYKRMKP  293 (308)
+Q Consensus       269 --------------snkiaeilckdlwrnplqyykrmkp  293 (308)
+                                    +++|+..|+++|||+|+.||+|.+.
+T Consensus       327 ~de~~ee~~~~l~~D~~ige~ike~IiP~Av~yftg~a~  365 (417)
+T 2AYU_A          327 DEELEEDLEERLALDYSIGEQLKDKLIPRAVDWFTGAAL  365 (417)
+T ss_dssp             SSSTTHHHHHHHHHHHHHHHHCCCCCTTTHHHHHHSHHH
+T ss_pred             ChHHHHHHHHHHHcChHHHHHHHHccchhHHHHHccchh
+Confidence                          1469999999999999999998653
+
+
+No 24
+>3UT8_A Putative uncharacterized protein; a non Pfam singleton, crystal; 2.168A {Clostridium thermocellum}
+Probab=41.37  E-value=48  Score=27.26  Aligned_cols=24  Identities=17%  Similarity=0.541  Sum_probs=16.2  Template_Neff=7.300
+
+Q ss_pred             chhHHHHHhcCCCCCchHHHHHHH
+Q sp|A6NKD2|TSPY  254 SLNFFNWFSDHNFAGSNKIAEILC  277 (308)
+Q Consensus       254 slnffnwfsdhnfagsnkiaeilc  277 (308)
+                      -+..|.|+.+.+-|....++..+.
+T Consensus        33 lp~LLeWlqD~NWPva~~i~~~L~   56 (130)
+T 3UT8_A           33 IFDLLKWLQDYNWPIAKDILPVVV   56 (130)
+T ss_dssp             HHHHHGGGSCTTSTTHHHHHHHHH
+T ss_pred             HHHHHHHHHcCCCcchhhHHHHHH
+Confidence            457888998888776545554443
+
+
+No 25
+>3UT4_A Putative uncharacterized protein; non Pfam singleton, helical fold; 2.03A {Clostridium thermocellum}
+Probab=40.40  E-value=50  Score=27.30  Aligned_cols=23  Identities=17%  Similarity=0.590  Sum_probs=15.9  Template_Neff=7.300
+
+Q ss_pred             hhHHHHHhcCCCCCchHHHHHHH
+Q sp|A6NKD2|TSPY  255 LNFFNWFSDHNFAGSNKIAEILC  277 (308)
+Q Consensus       255 lnffnwfsdhnfagsnkiaeilc  277 (308)
+                      +..|.|+.+.+-|....+...+.
+T Consensus        34 ~~LlewlqD~NWPva~~i~~~L~   56 (134)
+T 3UT4_A           34 FDLLKWLQDYNWPIAKDILPVVV   56 (134)
+T ss_dssp             HHHHGGGSCTTSTTHHHHHHHHH
+T ss_pred             HHHHHHHHhCCCcchHhHHHHHH
+Confidence            56889999988776655555444
+
+
+No 26
+>3NKZ_A Flagellar protein fliT; structural genomics, PSI-2, protein structure; HET: PG4, SO4, MSE; 2.112A {Yersinia enterocolitica subsp. enterocolitica}
+Probab=32.98  E-value=52  Score=24.99  Aligned_cols=14  Identities=21%  Similarity=0.472  Sum_probs=6.5  Template_Neff=9.200
+
+Q ss_pred             HHHHHHhhhhhccc
+Q sp|A6NKD2|TSPY  108 ALEELLAVQVELEP  121 (308)
+Q Consensus       108 aleellavqvelep  121 (308)
+                      .+..+..+..++..
+T Consensus        70 ~l~~il~~d~~i~~   83 (123)
+T 3NKZ_A           70 KLRAILDNEIEIKR   83 (123)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            44444444444433
+
+
+No 27
+>4C1A_A ORF1-ENCODED PROTEIN; HYDROLASE, RETROTRANSPOSITION, RNA-BINDING, MEMBRANE-BINDING, LIPID-BINDING; HET: GOL; 1.55A {DANIO RERIO}
+Probab=21.87  E-value=1.3e+02  Score=22.33  Aligned_cols=7  Identities=43%  Similarity=0.596  Sum_probs=2.7  Template_Neff=3.300
+
+Q ss_pred             Hhhhhhc
+Q sp|A6NKD2|TSPY  113 LAVQVEL  119 (308)
+Q Consensus       113 lavqvel  119 (308)
+                      ..++.++
+T Consensus         5 ~sve~EL   11 (36)
+T 4C1A_A            5 EALELEL   11 (36)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            3333333
+
+
+No 28
+>4C1A_C ORF1-ENCODED PROTEIN; HYDROLASE, RETROTRANSPOSITION, RNA-BINDING, MEMBRANE-BINDING, LIPID-BINDING; HET: GOL; 1.55A {DANIO RERIO}
+Probab=21.87  E-value=1.3e+02  Score=22.33  Aligned_cols=7  Identities=43%  Similarity=0.596  Sum_probs=2.7  Template_Neff=3.300
+
+Q ss_pred             Hhhhhhc
+Q sp|A6NKD2|TSPY  113 LAVQVEL  119 (308)
+Q Consensus       113 lavqvel  119 (308)
+                      ..++.++
+T Consensus         5 ~sve~EL   11 (36)
+T 4C1A_C            5 EALELEL   11 (36)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            3333333
+
+
+No 29
+>1M7K_A THREE HELIX BUNDLE, CHAPERONE; NMR {Homo sapiens} SCOP: a.7.7.1
+Probab=21.52  E-value=2e+02  Score=21.69  Aligned_cols=31  Identities=6%  Similarity=0.168  Sum_probs=15.6  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCchhHHHHHHhhhhhcccccHHH
+Q sp|A6NKD2|TSPY   96 AVPGPGPMTPESALEELLAVQVELEPVNAQA  126 (308)
+Q Consensus        96 avpgpgpmtpesaleellavqvelepvnaqa  126 (308)
+                      ..|.|.+......++.+..+..+++++..+.
+T Consensus        10 p~~~p~~~~~~~~~~~I~~i~~~v~~l~~~v   40 (99)
+T 1M7K_A           10 EECVPSDESTPPSIKKIIHVLEKVQYLEQEV   40 (99)
+T ss_dssp             ---------CCCSHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCChHHHHHHHHHHHHHHHHHHH
+Confidence            3344445566677788888887776665554
+
+

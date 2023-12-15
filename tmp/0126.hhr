@@ -1,0 +1,565 @@
+Query         tr|Q5SZM1|Q5SZM1_HUMAN
+Match_columns 156
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:30:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0126.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3QWL_A TBC1 domain family memb  99.9 4.7E-20 5.1E-25  126.6  15.1  154    1-154     2-155 (294)
+  2 4Z6Y_A TBC1D7, TSC1; coiled co  99.6 8.9E-14 9.7E-19   93.3  13.5  133   22-154     2-134 (273)
+  3 5EJC_A TBC1 domain family memb  99.6 1.6E-13 1.7E-18   92.3  14.1  137   18-154     1-137 (276)
+  4 2QFZ_A TBC1 domain family memb  98.8 2.1E-08 2.2E-13   72.8   5.2  139    6-145     7-161 (345)
+  5 6D0S_A TBC1 domain family memb  97.4  0.0034 3.7E-08   46.2   8.0  135   11-146    13-164 (346)
+  6 1FKM_A GYP1-46P; GAP, YPT/RAB   97.3  0.0031 3.4E-08   50.5   8.0  124   22-146     5-145 (396)
+  7 3QYE_B TBC1 domain family memb  97.3 0.00022 2.4E-09   50.4   1.1   63    3-66      8-75  (331)
+  8 4HL4_A TBC1 domain family memb  97.1    0.01 1.1E-07   41.4   8.3   53   21-73     16-70  (292)
+  9 4P17_B RabGAP/TBC protein; Fla  96.9  0.0056   6E-08   43.7   5.4  143    4-154     3-175 (313)
+ 10 6JL7_A Vesicle transport, brid  96.4   0.024 2.7E-07   42.4   6.2   48   24-71      2-49  (444)
+ 11 5TUC_B Sus TBC1D15 GAP Domain;  96.3   0.072 7.9E-07   39.1   8.1  135   20-154    28-190 (348)
+ 12 2QQ8_A TBC1 domain family memb  93.6    0.46   5E-06   35.0   5.4  118   35-154    34-176 (334)
+ 13 5TUB_A Shark TBC1D15 GTPase-ac  93.4     1.1 1.2E-05   33.0   7.0  137   18-154    26-190 (348)
+ 14 5TUB_B Shark TBC1D15 GTPase-ac  93.4     1.1 1.2E-05   33.0   7.0  137   18-154    26-190 (348)
+ 15 4NC6_A Rab GTPase-activating p  93.0    0.72 7.8E-06   33.3   5.5   44   26-70      8-51  (314)
+ 16 3QYB_A TBC1 domain family memb  92.5    0.55   6E-06   33.2   4.3   54   12-66      8-65  (301)
+ 17 5HJN_A LD10117p; TBC, RabGAP,   91.4     1.8   2E-05   33.1   6.2  116   26-154    83-216 (376)
+ 18 5HJQ_A LD10117p; TBC, RabGAP,   91.4     1.8   2E-05   33.1   6.2  116   26-154    83-216 (376)
+ 19 3HZJ_C RAB GTPase-activating p  91.4     1.7 1.9E-05   31.1   5.7   45   24-69      4-52  (310)
+ 20 2QC7_A Endoplasmic reticulum p  32.2 1.1E+02  0.0012   23.0   2.8   17   39-55    190-206 (240)
+ 21 4LMY_B Peroxide stress regulat  25.1 3.1E+02  0.0034   19.9   4.0   26   22-47     29-55  (163)
+ 22 4RAY_B DNA-binding transcripti  23.7 4.1E+02  0.0045   18.3   5.2   22   25-46     23-45  (145)
+ 23 4RB0_A DNA-binding transcripti  23.7 4.1E+02  0.0045   18.3   5.2   22   25-46     23-45  (145)
+
+No 1
+>3QWL_A TBC1 domain family member 7; Rab GTPase activation, structural genomics; 1.9A {Homo sapiens}
+Probab=99.86  E-value=4.7e-20  Score=126.63  Aligned_cols=154  Identities=100%  Similarity=1.515  Sum_probs=119.9  Template_Neff=11.500
+
+Q ss_pred             CCcccccchhhhhhhccCCCCcchhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhh
+Q tr|Q5SZM1|Q5SZ    1 MTEDSQRNFRSVYYEKVGFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMY   80 (156)
+Q Consensus         1 mtedsqrnfrsvyyekvgfrgveekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmy   80 (156)
+                      |++++|||+|+.|++++|++++++++.++.+++++..+.+++++++++.|+|+.+|+.+|..++++.+.+.+.+......
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~l~~~~~~~Gip~~~R~~~W~~ll~~~~~~~~~~~~~~~~   81 (294)
+T 3QWL_A            2 MTEDSQRNFRSVYYEKVGFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMY   81 (294)
+T ss_dssp             --------------------CHHHHHHHHHHTTSSBCCHHHHHHHHHHSCCCHHHHHHHHHHHTTSSCSBGGGHHHHHHH
+T ss_pred             CchhhhhhHhHHHHHHhCCCCcchHHHHHHHhcCCCCCHHHHHHHHHhCCCCHHHHHHHHHHHhCCCCCCchhHHHHHHH
+Confidence            89999999999999999999999999999999999999999999998899999999999999999988888777777777
+
+
+Q ss_pred             cHHhHHHHHHHHHHHhhhcCCcHHHHHHHHHHHhhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ   81 RKEQYLDVLHALKVVRFVSDATPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus        81 rkeqyldvlhalkvvrfvsdatpqaevylrmyqlesgklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      ....|..+.........|..|++++......+.............+..+|++|++.++++++.++..|..+||+
+T Consensus        82 ~~~~y~~~~~~~~~~~~i~~d~~r~~~~~~~~~~~~~~~~~~~~~~~~~y~~g~~~l~~~ll~~~~~e~~af~~  155 (294)
+T 3QWL_A           82 RKEQYLDVLHALKVVRFVSDATPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  155 (294)
+T ss_dssp             HHHHHHHHHHHHHHTTSCCTTSCHHHHHHHHHHHHHTCCCSSTTSCCCHHHHHHHHHHHHHHHHCCSHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcccCCCCCCHHHHHHHHhhhhCCCCCCCCCCCCCCHHHHHHHHHHHHHHhccHHHHHHH
+Confidence            78888888888888899999999999888888777777766677889999999999999999888777778874
+
+
+No 2
+>4Z6Y_A TBC1D7, TSC1; coiled coil, heterotetramer, HYDROLASE INHIBITOR-PROTEIN; 2.81A {Homo sapiens}
+Probab=99.61  E-value=8.9e-14  Score=93.29  Aligned_cols=133  Identities=100%  Similarity=1.513  Sum_probs=118.4  Template_Neff=11.900
+
+Q ss_pred             cchhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHHHHHHHhhhcCC
+Q tr|Q5SZM1|Q5SZ   22 VEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKVVRFVSDA  101 (156)
+Q Consensus        22 veekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmyrkeqyldvlhalkvvrfvsda  101 (156)
+                      +++++.++.+++++..|.+++++++++.|+|+.+|+.+|+.++++.+.+.+.+..........|..+.......+.|..|
+T Consensus         2 ~~~~~~~~~~l~~~~~~~~~l~~~~~~~gip~~lR~~~W~~ll~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~i~~d   81 (273)
+T 4Z6Y_A            2 VEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKVVRFVSDA   81 (273)
+T ss_dssp             TTHHHHHHHHHTSSBCCHHHHHHHHHHSCCCGGGHHHHHHHHTTSSCSBTTHHHHHHHHHHHHHHHHHHHHHHTTSCCTT
+T ss_pred             cchHHHHHHHhcCCCCCHHHHHHHHHhCCCCHHHHHHHHHHHhCCCCCCchhHHHHHHHHHHHHHHHHHHHHHHhccCCC
+Confidence            57899999999999999999999998899999999999999999988888777777777788888888888889999999
+
+
+Q ss_pred             cHHHHHHHHHHHhhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ  102 TPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus       102 tpqaevylrmyqlesgklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      +.++......+.............+..+|++|+..++++++..+..|..+||+
+T Consensus        82 ~~r~~~~~~~~~~~~~~~~~~~~~~~~~y~~g~~~l~~~l~~~~~~e~~~~~~  134 (273)
+T 4Z6Y_A           82 TPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  134 (273)
+T ss_dssp             SCHHHHHHHHHHHHTSCCCSSSSSCCCHHHHHHHHHHHHHHHHCCSHHHHHHH
+T ss_pred             CCchHHhhhhhccccCCCCCCCCCCCCCcHHHHHHHHHHHHHHhCCHHHHHHH
+Confidence            99999988888888877776777889999999999999999888777778774
+
+
+No 3
+>5EJC_A TBC1 domain family member 7; TSC1, TBC1D7, SIGNALING PROTEIN; HET: MSE; 3.1A {Homo sapiens}
+Probab=99.60  E-value=1.6e-13  Score=92.25  Aligned_cols=137  Identities=100%  Similarity=1.529  Sum_probs=118.5  Template_Neff=11.900
+
+Q ss_pred             CCCCcchhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHHHHHHHhh
+Q tr|Q5SZM1|Q5SZ   18 GFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKVVRF   97 (156)
+Q Consensus        18 gfrgveekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmyrkeqyldvlhalkvvrf   97 (156)
+                      |+++.+.++.++.+++++..|.+++++++++.|+|+.+|+.+|+.++++.+...+.+..........|..+.......+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~~giP~~~R~~~W~~ll~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (276)
+T 5EJC_A            1 GFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKVVRF   80 (276)
+T ss_dssp             ----CHHHHHHHHHHTSSBCCHHHHHHHHHHSCCCHHHHHHHHHHHTTSSCSBTTTHHHHHHHHHHHHHHHHHHHHHTTS
+T ss_pred             CCCccchHHHHHHHhcCCCCCHHHHHHHHHhCCCCHHHHHHHHHHHhCCCCCCcccHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            46788999999999999999999999999888999999999999999998888877777777778888888888888899
+
+
+Q ss_pred             hcCCcHHHHHHHHHHHhhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ   98 VSDATPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus        98 vsdatpqaevylrmyqlesgklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      |..|++++......+.............+..+|.++++.++++++.++..|..+||+
+T Consensus        81 i~~d~~r~~~~~~~~~~~~~~~~~~~~~~~~~y~~g~~~i~~~l~~~~~~e~~~~~~  137 (276)
+T 5EJC_A           81 VSDATPQAEVYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  137 (276)
+T ss_dssp             CCTTSCHHHHHHHHHHHHTTCCCSCTTSCCCHHHHHHHHHHHHHHHHCCCHHHHHHH
+T ss_pred             CCCCCCCHHHHhhHhhhhcCCCCCCCCCCCCCCHHHHHHHHHHHHHHhCCHHHHHHH
+Confidence            999999999998888888877776677889999999999999999888767677774
+
+
+No 4
+>2QFZ_A TBC1 domain family member 22A; RAB-GAP, gtpase activator, tbc1, Structural; HET: UNX; 2.1A {Homo sapiens}
+Probab=98.79  E-value=2.1e-08  Score=72.76  Aligned_cols=139  Identities=16%  Similarity=0.197  Sum_probs=83.5  Template_Neff=11.000
+
+Q ss_pred             ccchhhhhhhccCCCCcchhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhH
+Q tr|Q5SZM1|Q5SZ    6 QRNFRSVYYEKVGFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQY   85 (156)
+Q Consensus         6 qrnfrsvyyekvgfrgveekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmyrkeqy   85 (156)
+                      -++.|..++-+.+.++.+....|+.++.++..+.+++++++ +.|+|+.+|+.+|..++++.+.+...+..........|
+T Consensus         7 ~~~~~~~~~~~~~~~e~~~~~~~~~ll~~~~~~~~~l~~~~-~~GiP~~lR~~vW~~ll~~~~~~~~~~~~~~~~~~~~y   85 (345)
+T 2QFZ_A            7 HSSGRENLYFQGSEREASRLDKFKQLLAGPNTDLEELRRLS-WSGIPKPVRPMTWKLLSGYLPANVDRRPATLQRKQKEY   85 (345)
+T ss_dssp             -----------------CHHHHHHHHHHCSBCCHHHHHHHH-TTCCCGGGHHHHHHHHTTSSCSBGGGHHHHHHHHHHHH
+T ss_pred             cCCCCCCccccccHHHHHHHHHHHHHHcCCCCCHHHHHHHH-HcCCChhhHHHHHHHHcCCCCCCccccHHHHHHHHHHH
+Confidence            36788889999999999999999999999999999999999 78999999999999999998777665655666666667
+
+
+Q ss_pred             HHHHHHH----------HHHhhhcCCcHHHHHHHHHHHhh------cCCCCCCCCCCCCCChHHHHHHHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   86 LDVLHAL----------KVVRFVSDATPQAEVYLRMYQLE------SGKLPRSPSFPLEPDDEVFLAIAKAMEEMV  145 (156)
+Q Consensus        86 ldvlhal----------kvvrfvsdatpqaevylrmyqle------sgklprspsfplepddevflaiakameemv  145 (156)
+                      ..+....          .....|..|+.+++.........      ..........+..+|++|+..++++++..+
+T Consensus        86 ~~l~~~~~~~~~~~~~~~~~~~I~~d~~r~~~~~~~~~~~~~~~l~~il~~~~~~~~~~~y~~g~~~i~~~l~~~~  161 (345)
+T 2QFZ_A           86 FAFIEHYYDSRNDEVHQDTYRQIHIDIPRMSPEALILQPKVTEIFERILFIWAIRHPASGYVQGINDLVTPFFVVF  161 (345)
+T ss_dssp             HHHHHHC--------CHHHHHHHHHHGGGCSCHHHHTSHHHHHHHHHHHHHHHHHCTTTCCCTTHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCCChhHhHHHHHHHhHchhhcCchhhhcCHHHHHHHHHHHHHHHHHCCccccCCChHHhHHHHHHHH
+Confidence            6655541          22344444444432211110000      000001223556789999999999988877
+
+
+No 5
+>6D0S_A TBC1 domain family member 22B; Rab-GAP, GTPase activator, TBC1, structural; HET: UNX; 2.3A {Homo sapiens}
+Probab=97.35  E-value=0.0034  Score=46.21  Aligned_cols=135  Identities=16%  Similarity=0.274  Sum_probs=71.4  Template_Neff=11.000
+
+Q ss_pred             hhhhhccCCCCcchhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHH
+Q tr|Q5SZM1|Q5SZ   11 SVYYEKVGFRGVEEKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLH   90 (156)
+Q Consensus        11 svyyekvgfrgveekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmyrkeqyldvlh   90 (156)
+                      ..|.+.++.++.+....|+.++..++.+.+++++++ +.|+|+.+|+.+|..++++.+.+...+..........|..+..
+T Consensus        13 ~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~l~~~~-~~Gip~~lR~~vW~~ll~~~~~~~~~~~~~~~~~~~~y~~~~~   91 (346)
+T 6D0S_A           13 NLYFQGMTVREKTRLEKFRQLLSSQNTDLDELRKCS-WPGVPREVRPITWRLLSGYLPANTERRKLTLQRKREEYFGFIE   91 (346)
+T ss_dssp             -----------CCHHHHHHHHHSSSSCCHHHHHHHH-TTCCCGGGHHHHHHHHHSSSCSSCC----CHHHHHHHHHHHHH
+T ss_pred             ccccCCCCcchHHHHHHHHHHHcCCCCCHHHHHHHH-hcCCChHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            347778888999999999999999999999999988 6799999999999999998777665444444444555655544
+
+
+Q ss_pred             HH----------HHHhhhcCCcHHHHHHHHHHHhhcC-------CCCCCCCCCCCCChHHHHHHHHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   91 AL----------KVVRFVSDATPQAEVYLRMYQLESG-------KLPRSPSFPLEPDDEVFLAIAKAMEEMVE  146 (156)
+Q Consensus        91 al----------kvvrfvsdatpqaevylrmyqlesg-------klprspsfplepddevflaiakameemve  146 (156)
+                      ..          .....|..|+.+++.....+.....       ........+..+|++|+..++++++..+.
+T Consensus        92 ~~~~~~~~~~~~~~~~~I~~dv~rt~~~~~~~~~~~~~~~l~~iL~~~~~~~~~~~y~qg~~~i~~~ll~~~~  164 (346)
+T 6D0S_A           92 QYYDSRNEEHHQDTYRQIHIDIPRTNPLIPLFQQPLVQEIFERILFIWAIRHPASGYVQGINDLVTPFFVVFL  164 (346)
+T ss_dssp             HHC--------------------------CGGGSHHHHHHHHHHHHHHHHHCTTC---CTTSGGGHHHHHHHH
+T ss_pred             HhccCCCcccchHHHHHHHHHHHhhCCCcHHhcCHHHHHHHHHHHHHHHHHCCCcCCCCCHHHHHHHHHHHHh
+Confidence            42          2345677777776554322211100       00002235667888999999888877765
+
+
+No 6
+>1FKM_A GYP1-46P; GAP, YPT/RAB PROTEIN, VESICULAR TRAFFICKING; HET: MSE; 1.9A {Saccharomyces cerevisiae} SCOP: a.69.2.1
+Probab=97.30  E-value=0.0031  Score=50.46  Aligned_cols=124  Identities=18%  Similarity=0.312  Sum_probs=80.9  Template_Neff=9.300
+
+Q ss_pred             cchhHHHHHHHhC-CCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHHH---------
+Q tr|Q5SZM1|Q5SZ   22 VEEKKSLEILLKD-DRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHA---------   91 (156)
+Q Consensus        22 veekksleillkd-drldteklctfsqrfplpsmyralvwkvllgilpphheshakvmmyrkeqyldvlha---------   91 (156)
+                      ....+.|+.++++ ...+.+++++++ +.|+|+.+|+.+|+.++++.+.+...+..........|..+...         
+T Consensus         5 ~~r~~~~~~ll~~~~~~~~~~L~~~~-~~GIP~~lR~~vW~~lLg~~~~~~~~~~~~~~~~~~~y~~l~~~~~~~~~~~~   83 (396)
+T 1FKM_A            5 IQRISKFDNILKDKTIINQQDLRQIS-WNGIPKIHRPVVWKLLIGYLPVNTKRQEGFLQRKRKEYRDSLKHTFSDQHSRD   83 (396)
+T ss_dssp             HHHHHHHHHHHSSCSBCCHHHHHHHH-TTCCCGGGHHHHHHHHTTCSCSBGGGHHHHHHHHHHHHHHHHHHTSSSSCSTH
+T ss_pred             HHHHHHHHHHhcCCCCCCHHHHHHHH-hCCCChHHHHHHHHHHcCCCCCChhHHHHHHHHHHHHHHHHHHHHccCCccCC
+Confidence            4566788889877 788999999999 58999999999999999998877766665555556666665443         
+
+
+Q ss_pred             HHHHhhhcCCcHHHHHHHHHHHh-------hcCCCCCCCCCCCCCChHHHHHHHHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   92 LKVVRFVSDATPQAEVYLRMYQL-------ESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVE  146 (156)
+Q Consensus        92 lkvvrfvsdatpqaevylrmyql-------esgklprspsfplepddevflaiakameemve  146 (156)
+                      ......|..|+.++......+..       ......+....+...|.+|+..++++++.++.
+T Consensus        84 ~~~~~~I~~Dv~Rt~~~~~~f~~~~~~~~l~~iL~~~~~~~~~~~y~qg~~~l~a~ll~~~~  145 (396)
+T 1FKM_A           84 IPTWHQIEIDIPRTNPHIPLYQFKSVQNSLQRILYLWAIRHPASGYVQGINDLVTPFFETFL  145 (396)
+T ss_dssp             HHHHHHHHHHGGGSSTTSGGGGSHHHHHHHHHHHHHHHHHCTTTCSCTTHHHHHHHHHHHHH
+T ss_pred             cccceeehhccCcCCCCCchhcChhHHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHHHh
+Confidence            22334444444433211110000       00000002235567899999999999887763
+
+
+No 7
+>3QYE_B TBC1 domain family member 1; TBC, RabGAP, Rab, Myocytes, HYDROLASE; 2.2A {Homo sapiens}
+Probab=97.26  E-value=0.00022  Score=50.35  Aligned_cols=63  Identities=22%  Similarity=0.245  Sum_probs=55.0  Template_Neff=11.700
+
+Q ss_pred             cccccchhhhhhhccCCCCcchhHHHHHHHhCC-----CCCHHHHHHHHhhCCCCHHHHHHHHHHHHCC
+Q tr|Q5SZM1|Q5SZ    3 EDSQRNFRSVYYEKVGFRGVEEKKSLEILLKDD-----RLDTEKLCTFSQRFPLPSMYRALVWKVLLGI   66 (156)
+Q Consensus         3 edsqrnfrsvyyekvgfrgveekksleillkdd-----rldteklctfsqrfplpsmyralvwkvllgi   66 (156)
+                      +..++++++.+++.++....+....|..++.+.     ..+.+++++++ +.|||+.+|+.+|..++++
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~w~~~l~~~~~~~~~~~~~~l~~l~-~~GiP~~~R~~vW~~ll~~   75 (331)
+T 3QYE_B            8 NDLLNKRLKLDYEEITPCLKEVTTVWEKMLSTPGRSKIKFDMEKMHSAV-GQGVPRHHRGEIWKFLAEQ   75 (331)
+T ss_dssp             --CTHHHHTTCCCCSSCCCSSHHHHHHHTTSCTTTTSSCCCTHHHHHHH-HHCCCTTTHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCCHHHHHHHHHHHHHHHHHHhcCCCcccCCCCHHHHHHHH-HCCCCHHHHHHHHHHHHHH
+Confidence            467889999999999999999999999998765     35789999999 6799999999999999986
+
+
+No 8
+>4HL4_A TBC1 domain family member 20; Tbc, RabGAP, Rab1b, Hydrolase activator; 2.2A {Homo sapiens}
+Probab=97.15  E-value=0.01  Score=41.37  Aligned_cols=53  Identities=19%  Similarity=0.209  Sum_probs=44.1  Template_Neff=11.700
+
+Q ss_pred             CcchhHHHHHHHhCCCCCHHHHHHHHhhC-C-CCHHHHHHHHHHHHCCCCCCchh
+Q tr|Q5SZM1|Q5SZ   21 GVEEKKSLEILLKDDRLDTEKLCTFSQRF-P-LPSMYRALVWKVLLGILPPHHES   73 (156)
+Q Consensus        21 gveekksleillkddrldteklctfsqrf-p-lpsmyralvwkvllgilpphhes   73 (156)
+                      +....+.++.+++++..+.+++++++++. | +|+.+|+.+|+.+++........
+T Consensus        16 ~~~~~~~~~~~l~~~~~~~~~l~~~~~~~~G~ip~~~R~~vW~~ll~~~~~~~~~   70 (292)
+T 4HL4_A           16 RKKKVAEIHQALNSDPTDVAALRRMAISEGGLLTDEIRRKVWPKLLNVNANDPPP   70 (292)
+T ss_dssp             HHHHHHHHHHHHTSSSCCHHHHHHHHHSTTCSCCHHHHHHHHHHHTTCCSCSCCS
+T ss_pred             HHHHHHHHHHHHcCCCCCHHHHHHHHhccCCCCCHHHHHHHHHHHcCCCCCCCCC
+Confidence            34557788999999999999999999542 7 99999999999999987665543
+
+
+No 9
+>4P17_B RabGAP/TBC protein; Flagella, TBC, RabGAP, Chlamydomonas, cilia; 1.7941A {Chlamydomonas reinhardtii}
+Probab=96.90  E-value=0.0056  Score=43.70  Aligned_cols=143  Identities=13%  Similarity=0.024  Sum_probs=70.9  Template_Neff=11.400
+
+Q ss_pred             ccccchhhhhhhccCCCCcchh-----------------HHHHHHHhC--CCCCHHHHHHHHhhCCCCHHHHHHHHHHHH
+Q tr|Q5SZM1|Q5SZ    4 DSQRNFRSVYYEKVGFRGVEEK-----------------KSLEILLKD--DRLDTEKLCTFSQRFPLPSMYRALVWKVLL   64 (156)
+Q Consensus         4 dsqrnfrsvyyekvgfrgveek-----------------ksleillkd--drldteklctfsqrfplpsmyralvwkvll   64 (156)
+                      +..++.+..++...|+...+..                 ..|..++..  ...+.+++++++ +.|||+.+|+.+|..++
+T Consensus         3 ~~~~~~~~~~~d~~gf~~~~~~~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~l~~l~-~~Gip~~lR~~vW~~ll   81 (313)
+T 4P17_B            3 ASMAQQPVTVHDLYGFPIKVLPSQEDERRSCDVNAEREVPLWQHYIEKDKLPSNETKLKEMI-RKGVPPTLRNWVWMETS   81 (313)
+T ss_dssp             ---------CBCTTSCBCCCCTTCHHHHHHHHHHHHHTHHHHHHHHHHTCCCSCHHHHHHHH-HHCCCGGGHHHHHHHHT
+T ss_pred             ccccCCCCcccCCCCCCCCCChhhHHHHHhcchhHHHHHHHHHHHHHhCCCCCCHHHHHHHH-HcCCCHHHHHHHHHHHh
+Confidence            3456677777777777322221                 234555532  244589999999 78999999999999999
+
+
+Q ss_pred             CCCCCCchhhhHHHhhcHHhHHHHHHHH---HHHhhhcCCcHHHHHHHHHH-------HhhcCCCCCCCCCCCCCChHHH
+Q tr|Q5SZM1|Q5SZ   65 GILPPHHESHAKVMMYRKEQYLDVLHAL---KVVRFVSDATPQAEVYLRMY-------QLESGKLPRSPSFPLEPDDEVF  134 (156)
+Q Consensus        65 gilpphheshakvmmyrkeqyldvlhal---kvvrfvsdatpqaevylrmy-------qlesgklprspsfplepddevf  134 (156)
+                      +......       ......|.......   .....|..|+.+++....++       .............+..+|++|+
+T Consensus        82 ~~~~~~~-------~~~~~~y~~~~~~~~~~~~~~~I~~d~~rt~~~~~~f~~~~~~~~l~~il~~~~~~~~~~~y~qg~  154 (313)
+T 4P17_B           82 GANKKKA-------GHAANYYSIMVKAGEESQYKKDIETDSTHTFPDHPWLSSPDGRAALCRVLQAYSVHNERVGYVRAM  154 (313)
+T ss_dssp             SHHHHHH-------TSCTTHHHHHHHHHTTCTTHHHHHHHTTSSCSSCTTTTSHHHHHHHHHHHHHHHHHTTTTCCCTHH
+T ss_pred             chhHHHc-------CCcccHHHHHHHhcCcchhhhhhhhhhhhhCCCChhhCChhhHHHHHHHHHHHHhcCCCCCCCchh
+Confidence            8531111       11111222221111   12223333333321100000       0000000002235677899999
+
+
+Q ss_pred             HHHHHHHHHHHH-hhhhcccc
+Q tr|Q5SZM1|Q5SZ  135 LAIAKAMEEMVE-DSVDCYWI  154 (156)
+Q Consensus       135 laiakameemve-dsvdcywi  154 (156)
+                      ..++++++..+. .|..+||+
+T Consensus       155 ~~i~~~ll~~~~~~e~~~f~~  175 (313)
+T 4P17_B          155 NTIVGLMLVALNRNEEAAFWL  175 (313)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHH
+T ss_pred             hHHHHHHHHHcCCCHHHHHHH
+Confidence            999999887764 56677764
+
+
+No 10
+>6JL7_A Vesicle transport, bridging factor, PROTEIN; HET: MSE; 2.5A {Homo sapiens}
+Probab=96.44  E-value=0.024  Score=42.42  Aligned_cols=48  Identities=35%  Similarity=0.432  Sum_probs=41.9  Template_Neff=11.500
+
+Q ss_pred             hhHHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCc
+Q tr|Q5SZM1|Q5SZ   24 EKKSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHH   71 (156)
+Q Consensus        24 ekksleillkddrldteklctfsqrfplpsmyralvwkvllgilpphh   71 (156)
+                      .++.++.+++.+..|.++|+++++..|+|+..|+.+|+.+++......
+T Consensus         2 ~~~~~~~~l~~~~~~~~~l~~~~~~~gip~~~R~~~W~~ll~~~~~~~   49 (444)
+T 6JL7_A            2 WEKDLEEALEAGGCDLETLRNIIQGRPLPADLRAKVWKIALNVAGKGD   49 (444)
+T ss_dssp             HHHHHHHHHHSSCCCHHHHHHHHTTCCCCTTTHHHHHHHHTTCSSCCC
+T ss_pred             hhHHHHHHHHcCCCCHHHHHHHHhcCCCCHHHHHHHHHHHhCCCCCCC
+Confidence            467888999998999999999996669999999999999999875443
+
+
+No 11
+>5TUC_B Sus TBC1D15 GAP Domain; Sus (Sus scrofa), TBC1D15, GAP; 2.5A {Sus scrofa}
+Probab=96.35  E-value=0.072  Score=39.12  Aligned_cols=135  Identities=13%  Similarity=0.193  Sum_probs=82.2  Template_Neff=11.200
+
+Q ss_pred             CCcchhHHHHHHHhCC--CCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchh--hhHHHhhcHHhHHHHHHHHH--
+Q tr|Q5SZM1|Q5SZ   20 RGVEEKKSLEILLKDD--RLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHES--HAKVMMYRKEQYLDVLHALK--   93 (156)
+Q Consensus        20 rgveekksleillkdd--rldteklctfsqrfplpsmyralvwkvllgilpphhes--hakvmmyrkeqyldvlhalk--   93 (156)
+                      ++......|..++...  ..+..++++++++.|+|+.+|+.+|..++++.+.....  +..........|..+.....  
+T Consensus        28 ~~~~~~~~w~~~l~~~~~~~~~~~l~~~~~~~GiP~~~R~~vW~~ll~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~  107 (348)
+T 5TUC_B           28 REPVSLEEWTKNIDSEGRILNVDNMKQMIFRGGLSHALRKQAWKFLLGYFPWDSTKEERTELQKQKTDEYFRMKLQWKSV  107 (348)
+T ss_dssp             CCCBCHHHHHHTBCTTSCBSCHHHHHHHHHHHCBCGGGHHHHHHHHHTSSCTTCCHHHHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             CCCCCHHHHHHcccCCCCccCHHHHHHHHHhCCCCHHHHHHHHHHHcCCCCCCCCHHHHHHHHHHHHHHHHHHHHHhhcC
+Confidence            5555677888887544  47899999999888999999999999999987665433  23344445555555544421  
+
+
+Q ss_pred             -------------HHhhhcCCcHHHHHHHHHHHhhcC---------CCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhc
+Q tr|Q5SZM1|Q5SZ   94 -------------VVRFVSDATPQAEVYLRMYQLESG---------KLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDC  151 (156)
+Q Consensus        94 -------------vvrfvsdatpqaevylrmyqlesg---------klprspsfplepddevflaiakameemvedsvdc  151 (156)
+                                   ....+..|+.+++....++.....         ........+..+|++++..++++++.++..+..+
+T Consensus       108 ~~~~~~~~~~~~~~~~~i~~d~~rt~~~~~~~~~~~~~~~~~l~~il~~~~~~~~~~~y~~g~~~i~~~l~~~~~~e~~~  187 (348)
+T 5TUC_B          108 SEEQEKRNSRLRDYRSLIEKDVNRTDRTNKFYEGQDNPGLILLHDILMTYCMYDFDLGYVQGMSDLLSPVLYVMENEVDA  187 (348)
+T ss_dssp             CHHHHHHCHHHHHHHHHHHHHHHTC-----------CHHHHHHHHHHHHHHHHCTTTCCCTTHHHHHHHHHHHCCSHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHhcccccCCCChhhcCCCChHHHHHHHHHHHHHHhCCCCCCCCcHHHhHHHHHHHhhHHHHH
+Confidence                         223344555444333222211100         0000223566788999999999988887766567
+
+
+Q ss_pred             ccc
+Q tr|Q5SZM1|Q5SZ  152 YWI  154 (156)
+Q Consensus       152 ywi  154 (156)
+                      |++
+T Consensus       188 ~~~  190 (348)
+T 5TUC_B          188 FWC  190 (348)
+T ss_dssp             HHH
+T ss_pred             HHH
+Confidence            653
+
+
+No 12
+>2QQ8_A TBC1 domain family member 14; Structural Genomics Consortium, Rab-GAP, TBC1D14; 2.0A {Homo sapiens}
+Probab=93.59  E-value=0.46  Score=34.98  Aligned_cols=118  Identities=13%  Similarity=0.047  Sum_probs=60.2  Template_Neff=11.100
+
+Q ss_pred             CCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCch-hhhHHHhhcHHhHHHHHHHH----------------HHHhh
+Q tr|Q5SZM1|Q5SZ   35 DRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHE-SHAKVMMYRKEQYLDVLHAL----------------KVVRF   97 (156)
+Q Consensus        35 drldteklctfsqrfplpsmyralvwkvllgilpphhe-shakvmmyrkeqyldvlhal----------------kvvrf   97 (156)
+                      ...+.+++++++ +.|||+.+|+.+|+.+++....... .+..........|..+....                .....
+T Consensus        34 ~~~~~~~l~~~~-~~Gip~~~R~~vW~~ll~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~~~  112 (334)
+T 2QQ8_A           34 TMWCSRKVRDLW-WQGIPPSVRGKVWSLAIGNELNITHELFDICLARAKERWRSLSTGGSEVENEDAGFSAADREASLEL  112 (334)
+T ss_dssp             --CCCHHHHHHH-HTCCCHHHHHHHHHHHHCCTTCCCHHHHHHHHHHHHHHC----------------------CCHHHH
+T ss_pred             HhcCCHHHHHHH-HcCCCHHHHHHHHHHHhCCccCCCHHHHHHHHHHHHHHHHhhhcCCCcccccccCCchhhHHHHHHH
+Confidence            345678999999 5699999999999999996433332 23333333334443332211                11122
+
+
+Q ss_pred             hcCCcHHHHHHHHHHHhhc--------CCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ   98 VSDATPQAEVYLRMYQLES--------GKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus        98 vsdatpqaevylrmyqles--------gklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      |..|+.++......+....        .........+..+|++++..++++++.++ .+..+|++
+T Consensus       113 i~~d~~r~~~~~~~~~~~~~~~~~l~~iL~~~~~~~~~~~y~qg~~~l~~~ll~~~-~e~~~~~~  176 (334)
+T 2QQ8_A          113 IKLDISRTFPNLCIFQQGGPYHDMLHSILGAYTCYRPDVGYVQGMSFIAAVLILNL-DTADAFIA  176 (334)
+T ss_dssp             HHHHHHTSSGGGCSSSTTSTTHHHHHHHHHHHHHHCTTTCCCTTHHHHHHHHHHHS-CHHHHHHH
+T ss_pred             HHHHHHHHCCCcchhcCCCchHHHHHHHHHHHHHHCCCCCCCCCHHHHHHHHHHhC-CHHHHHHH
+Confidence            3333322211100000000        00000122456778899999999888776 46677763
+
+
+No 13
+>5TUB_A Shark TBC1D15 GTPase-activating Protein; shark (Chiloscyllium plagiosum), TBC1D15, GAP; 2.85A {Squalimorphii}
+Probab=93.39  E-value=1.1  Score=32.98  Aligned_cols=137  Identities=13%  Similarity=0.126  Sum_probs=80.9  Template_Neff=11.300
+
+Q ss_pred             CCCCcchhHHHHHHHhC--CCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhh--hHHHhhcHHhHHHHHHHH-
+Q tr|Q5SZM1|Q5SZ   18 GFRGVEEKKSLEILLKD--DRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESH--AKVMMYRKEQYLDVLHAL-   92 (156)
+Q Consensus        18 gfrgveekksleillkd--drldteklctfsqrfplpsmyralvwkvllgilpphhesh--akvmmyrkeqyldvlhal-   92 (156)
+                      +.+.......|..++.+  ...+.+++++++++.|+|+.+|+.+|..++++.+......  ..........|..+.... 
+T Consensus        26 ~~~~~~~~~~W~~~l~~~~~~~~~~~l~~~~~~~GiP~~~R~~vW~~ll~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~  105 (348)
+T 5TUB_A           26 QRGEPVSIERWSQCMDAEGKVLDPENVKKLIFRGGLCHAVRKLTWKFLLNYFPWDSSKEDRRLLIKRKTDEYFRMKLQWK  105 (348)
+T ss_dssp             CCCCCBCHHHHHHHBCSSSCBSCHHHHHHHHHHHCBCTTTHHHHHHHHTTSSCTTCCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCHHHHHHhcCCCCCccCHHHHHHHHHcCCCCHHHHHHHHHHHcCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            34566778888888854  3479999999998889999999999999999876654321  223333344444433321 
+
+
+Q ss_pred             --------------HHHhhhcCCcHHHHHHHHHHHh---------hcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhh
+Q tr|Q5SZM1|Q5SZ   93 --------------KVVRFVSDATPQAEVYLRMYQL---------ESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSV  149 (156)
+Q Consensus        93 --------------kvvrfvsdatpqaevylrmyql---------esgklprspsfplepddevflaiakameemvedsv  149 (156)
+                                    .....|..|+.++......+..         ...........+..+|+++++.++++++.++..+.
+T Consensus       106 ~~~~~~~~~~~~~~~~~~~i~~d~~rt~~~~~~~~~~~~~~~~~l~~il~~~~~~~~~~~y~~g~~~i~~~ll~~~~~e~  185 (348)
+T 5TUB_A          106 SVSEEQEKRNTRLKDYKSLIEKDVNRTDRTNPFYEGHENPGLILLHDILMTYCMYDFDLGYIQGMSDLLSPILYVMENEV  185 (348)
+T ss_dssp             TCCHHHHHTCHHHHHHHHHHHHHHHSSCTTSTTTCSTTCHHHHHHHHHHHHHHHHSTTTCCCTTHHHHHHHHHHHHCCHH
+T ss_pred             cCCHHHHHHhHHHHHHHHHHHHHHhhhCCCCccccCCCCchHHHHHHHHHHHHHHCCCCCCCCcHHHhHHHHHHHHchHH
+Confidence                          1112232222221111000000         00000001235677899999999999998887665
+
+
+Q ss_pred             hcccc
+Q tr|Q5SZM1|Q5SZ  150 DCYWI  154 (156)
+Q Consensus       150 dcywi  154 (156)
+                      .+|++
+T Consensus       186 ~a~~~  190 (348)
+T 5TUB_A          186 DAFWC  190 (348)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            77764
+
+
+No 14
+>5TUB_B Shark TBC1D15 GTPase-activating Protein; shark (Chiloscyllium plagiosum), TBC1D15, GAP; 2.85A {Squalimorphii}
+Probab=93.39  E-value=1.1  Score=32.98  Aligned_cols=137  Identities=15%  Similarity=0.153  Sum_probs=80.1  Template_Neff=11.300
+
+Q ss_pred             CCCCcchhHHHHHHHhC--CCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCCchhh--hHHHhhcHHhHHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   18 GFRGVEEKKSLEILLKD--DRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPHHESH--AKVMMYRKEQYLDVLHALK   93 (156)
+Q Consensus        18 gfrgveekksleillkd--drldteklctfsqrfplpsmyralvwkvllgilpphhesh--akvmmyrkeqyldvlhalk   93 (156)
+                      +.+.......|..++.+  ...+.+++++++++.|+|+.+|+.+|..++++.+......  ..........|..+.....
+T Consensus        26 ~~~~~~~~~~W~~~l~~~~~~~~~~~l~~~~~~~GiP~~~R~~vW~~ll~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~  105 (348)
+T 5TUB_B           26 QRGEPVSIERWSQCMDAEGKVLDPENVKKLIFRGGLCHAVRKLTWKFLLNYFPWDSSKEDRRLLIKRKTDEYFRMKLQWK  105 (348)
+T ss_dssp             CCCCCBCHHHHHHTBCSSSCBSCHHHHHHHHHHHCBCTTTHHHHHHHHTTSSCTTCCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCHHHHHHhcCCCCCccCHHHHHHHHHcCCCCHHHHHHHHHHHcCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            34556677888888754  3479999999998889999999999999999876654321  2233333444444433211
+
+
+Q ss_pred             ---------------HHhhhcCCcHHHHHHHHHHH---------hhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhh
+Q tr|Q5SZM1|Q5SZ   94 ---------------VVRFVSDATPQAEVYLRMYQ---------LESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSV  149 (156)
+Q Consensus        94 ---------------vvrfvsdatpqaevylrmyq---------lesgklprspsfplepddevflaiakameemvedsv  149 (156)
+                                     ....|..|+.++......+.         ............+..+|+++++.++++++.++..+.
+T Consensus       106 ~~~~~~~~~~~~~~~~~~~i~~d~~rt~~~~~~~~~~~~~~~~~l~~il~~~~~~~~~~~y~~g~~~i~~~ll~~~~~e~  185 (348)
+T 5TUB_B          106 SVSEEQEKRNTRLKDYKSLIEKDVNRTDRTNPFYEGHENPGLILLHDILMTYCMYDFDLGYIQGMSDLLSPILYVMENEV  185 (348)
+T ss_dssp             TCCHHHHHTCHHHHHHHHHHHHHHTTSCSSSTTTCSSSCHHHHHHHHHHHHHHHHCTTTCCCTTHHHHHHHHHHHHCCHH
+T ss_pred             cCCHHHHHHhHHHHHHHHHHHHHHhhhCCCCccccCCCCchHHHHHHHHHHHHHHCCCCCCCCcHHHhHHHHHHHHchHH
+Confidence                           11222222222111000000         000000001235677899999999999998887665
+
+
+Q ss_pred             hcccc
+Q tr|Q5SZM1|Q5SZ  150 DCYWI  154 (156)
+Q Consensus       150 dcywi  154 (156)
+                      .+|++
+T Consensus       186 ~a~~~  190 (348)
+T 5TUB_B          186 DAFWC  190 (348)
+T ss_dssp             HHHHH
+T ss_pred             HHHHH
+Confidence            77764
+
+
+No 15
+>4NC6_A Rab GTPase-activating protein 1; TBC DOMAIN, GTPASE ACTIVATION, HYDROLASE; 1.8A {Homo sapiens}
+Probab=93.00  E-value=0.72  Score=33.27  Aligned_cols=44  Identities=20%  Similarity=0.328  Sum_probs=34.7  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHhCCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCCC
+Q tr|Q5SZM1|Q5SZ   26 KSLEILLKDDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPPH   70 (156)
+Q Consensus        26 ksleillkddrldteklctfsqrfplpsmyralvwkvllgilpph   70 (156)
+                      ..+.........+.+++++++ +.|+|+.+|+.+|+.++++....
+T Consensus         8 ~~~~~~~~~~~~~~~~l~~~~-~~GiP~~~R~~~W~~ll~~~~~~   51 (314)
+T 4NC6_A            8 ELLSKWHLNLNVRPKQLSSLV-RNGVPEALRGEVWQLLAGCHNND   51 (314)
+T ss_dssp             HHHHHHHTCTTSCCTTHHHHH-HTCCCGGGHHHHHHHHHTCSSCH
+T ss_pred             HHHHhhHHhccCCHHHHHHHH-HcCCCHHHHHHHHHHHhCCCCch
+Confidence            344444455677889999999 78999999999999999975443
+
+
+No 16
+>3QYB_A TBC1 domain family member 4; RabGAP, Rab, Adipocyte, HYDROLASE ACTIVATOR; 3.5A {Homo sapiens}
+Probab=92.52  E-value=0.55  Score=33.15  Aligned_cols=54  Identities=26%  Similarity=0.281  Sum_probs=42.2  Template_Neff=11.700
+
+Q ss_pred             hhhhccCCCCcchhHHHHHHHh----CCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCC
+Q tr|Q5SZM1|Q5SZ   12 VYYEKVGFRGVEEKKSLEILLK----DDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGI   66 (156)
+Q Consensus        12 vyyekvgfrgveekksleillk----ddrldteklctfsqrfplpsmyralvwkvllgi   66 (156)
+                      .-+...+....+....|+..+.    ....+.++++++++ .|||+.+|+.+|+.++++
+T Consensus         8 ~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~~l~~l~~-~Gip~~~R~~vW~~ll~~   65 (301)
+T 3QYB_A            8 LDYEEVGACQKEVLITWDKKLLNCRAKIRCDMEDIHTLLK-EGVPKSRRGEIWQFLALQ   65 (301)
+T ss_dssp             TCSCCSCCCCHHHHHHHHHHTTSCSSCSCCCHHHHHHHHH-HCCCTTTHHHHHHHHHHH
+T ss_pred             CChhhhhhhHHHHHHHHHHHHHhcHHhcCCCHHHHHHHHH-cCCCHHHHHHHHHHHHHH
+Confidence            3345555666677778888774    34678999999995 599999999999999976
+
+
+No 17
+>5HJN_A LD10117p; TBC, RabGAP, signaling protein; 2.501A {Drosophila melanogaster}
+Probab=91.37  E-value=1.8  Score=33.11  Aligned_cols=116  Identities=13%  Similarity=0.152  Sum_probs=65.7  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHhCCCCCHHHHHHHHhhC--CCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHHHHHH-----Hhhh
+Q tr|Q5SZM1|Q5SZ   26 KSLEILLKDDRLDTEKLCTFSQRF--PLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKV-----VRFV   98 (156)
+Q Consensus        26 ksleillkddrldteklctfsqrf--plpsmyralvwkvllgilpphheshakvmmyrkeqyldvlhalkv-----vrfv   98 (156)
+                      ..+..++...  +.++++++++++  ++|+.+|+.+|+.++++......       .....|..+......     ...+
+T Consensus        83 ~~~~~~~~~~--~~~~lr~l~~~g~~~ip~~~R~~vW~~Llg~~~~~~~-------~~~~~y~~l~~~~~~~~~~~~~~i  153 (376)
+T 5HJN_A           83 TEIQQLLQQG--KKRDVKNILRENSWPINSPIRAQLWPMLCGQHQTKQQ-------MLDGFYWEMVHQVFGTTELSEKPI  153 (376)
+T ss_dssp             HHHHHHHHTT--CHHHHHHHHHHCCCCTTCTTHHHHHHHHHHTSSSSCC-------CSSSHHHHHHHHHHSSCSCCSSCC
+T ss_pred             HHHHHHHHCC--CHHHHHHHHHcCCCCCCHHHHHcHHHHHhCchhhHHh-------hhcchHHHHHHHHhCCCccCCCCC
+Confidence            3444455543  889999999543  29999999999999998755432       012233333333211     1122
+
+
+Q ss_pred             cCCcHHHH-----------HHHHHHHhhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ   99 SDATPQAE-----------VYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus        99 sdatpqae-----------vylrmyqlesgklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      ..+..+..           ...........   .....+..+|+||++.|+++++.++ .|.++||+
+T Consensus       154 ~~d~~~~~~~~~~~~~~~~~~~~l~~iL~~---~~~~~p~~~Y~qgm~~i~~~ll~~~-~e~~af~~  216 (376)
+T 5HJN_A          154 MLPAFVDATHCLPYHLTSTGRAVADRIVNV---LGYDCPDITYSPVLYPITSILLHFM-SEEEAYIC  216 (376)
+T ss_dssp             CCCTTSCGGGCCCTTBCHHHHHHHHHHHHH---HHHHCTTCCCCTTHHHHHHHHHTTS-CHHHHHHH
+T ss_pred             cCCCCCCCCcCCcccCCHHHHHHHHHHHHH---HHHHCCCCCCCCCHHHHHHHHHHhC-CHHHHHHH
+Confidence            22211100           00000000000   0223577889999999999999887 57788875
+
+
+No 18
+>5HJQ_A LD10117p; TBC, RabGAP, signaling protein; HET: I3P; 2.3A {Drosophila melanogaster}
+Probab=91.37  E-value=1.8  Score=33.11  Aligned_cols=116  Identities=13%  Similarity=0.152  Sum_probs=63.3  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHhCCCCCHHHHHHHHhhC--CCCHHHHHHHHHHHHCCCCCCchhhhHHHhhcHHhHHHHHHHHHH-----Hhhh
+Q tr|Q5SZM1|Q5SZ   26 KSLEILLKDDRLDTEKLCTFSQRF--PLPSMYRALVWKVLLGILPPHHESHAKVMMYRKEQYLDVLHALKV-----VRFV   98 (156)
+Q Consensus        26 ksleillkddrldteklctfsqrf--plpsmyralvwkvllgilpphheshakvmmyrkeqyldvlhalkv-----vrfv   98 (156)
+                      ..+..++...  +.++++++++++  ++|+.+|+.+|+.++++......       .....|..+......     ...+
+T Consensus        83 ~~~~~~~~~~--~~~~lr~l~~~g~~~ip~~~R~~vW~~Llg~~~~~~~-------~~~~~y~~l~~~~~~~~~~~~~~i  153 (376)
+T 5HJQ_A           83 TEIQQLLQQG--KKRDVKNILRENSWPINSPIRAQLWPMLCGQHQTKQQ-------MLDGFYWEMVHQVFGTTELSEKPI  153 (376)
+T ss_dssp             HHHHHHHHHT--CHHHHHHHHHHCCCCTTCTTHHHHHHHHHHTC-------------CCSHHHHHHHHHHSSSSCCSSCC
+T ss_pred             HHHHHHHHCC--CHHHHHHHHHcCCCCCCHHHHHcHHHHHhCchhhHHh-------hhcchHHHHHHHHhCCCccCCCCC
+Confidence            3344444443  889999999543  29999999999999998654331       112334444333211     1122
+
+
+Q ss_pred             cCCcHHHH-----------HHHHHHHhhcCCCCCCCCCCCCCChHHHHHHHHHHHHHHHhhhhcccc
+Q tr|Q5SZM1|Q5SZ   99 SDATPQAE-----------VYLRMYQLESGKLPRSPSFPLEPDDEVFLAIAKAMEEMVEDSVDCYWI  154 (156)
+Q Consensus        99 sdatpqae-----------vylrmyqlesgklprspsfplepddevflaiakameemvedsvdcywi  154 (156)
+                      ..+..+..           ...........   .....+..+|+||++.|+++++.++ .|.++||+
+T Consensus       154 ~~d~~~~~~~~~~~~~~~~~~~~l~~iL~~---~~~~~p~~~Y~qgm~~i~~~ll~~~-~e~~af~~  216 (376)
+T 5HJQ_A          154 MLPAFVDATHCLPYHLTSTGRAVADRIVNV---LGYDCPDITYSPVLYPITSILLHFM-SEEEAYIC  216 (376)
+T ss_dssp             CCCTTSCGGGCCCTTCCHHHHHHHHHHHHH---HHHHCTTCCCCTTHHHHHHHHTTTS-CHHHHHHH
+T ss_pred             cCCCCCCCCcCCcccCCHHHHHHHHHHHHH---HHHHCCCCCCCCCHHHHHHHHHHhC-CHHHHHHH
+Confidence            22221100           00000000000   0223577889999999999999887 57788875
+
+
+No 19
+>3HZJ_C RAB GTPase-activating protein 1-like; structural genomics consortium, GTPase activating; HET: UNX, MSE; 2.3A {Homo sapiens}
+Probab=91.36  E-value=1.7  Score=31.06  Aligned_cols=45  Identities=27%  Similarity=0.288  Sum_probs=34.6  Template_Neff=11.600
+
+Q ss_pred             hhHHHHHHHh----CCCCCHHHHHHHHhhCCCCHHHHHHHHHHHHCCCCC
+Q tr|Q5SZM1|Q5SZ   24 EKKSLEILLK----DDRLDTEKLCTFSQRFPLPSMYRALVWKVLLGILPP   69 (156)
+Q Consensus        24 ekksleillk----ddrldteklctfsqrfplpsmyralvwkvllgilpp   69 (156)
+                      ....|..++.    ....+.+++++++ +.|+|+.+|+.+|+.++++.+.
+T Consensus         4 ~~~~w~~~~~~~~~~~~~~~~~l~~~~-~~GiP~~~R~~vW~~ll~~~~~   52 (310)
+T 3HZJ_C            4 ILYSWGELLGKWHSNLGARPKGLSTLV-KSGVPEALRAEVWQLLAGCHDN   52 (310)
+T ss_dssp             -CHHHHHHHHHHHHCTTCCCTTHHHHH-HHCCCTTTHHHHHHHHHTCCCC
+T ss_pred             HHHHHHHHHHHHHHHcccCcchHHHHH-HhCCCHHHHHHHHHHHhCCCch
+Confidence            3445666553    3457778999999 7899999999999999997653
+
+
+No 20
+>2QC7_A Endoplasmic reticulum protein ERp29; b domain (residues 33-153), D; 2.9A {Homo sapiens}
+Probab=32.20  E-value=1.1e+02  Score=22.98  Aligned_cols=17  Identities=0%  Similarity=0.083  Sum_probs=7.5  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHhhCCCCHHH
+Q tr|Q5SZM1|Q5SZ   39 TEKLCTFSQRFPLPSMY   55 (156)
+Q Consensus        39 teklctfsqrfplpsmy   55 (156)
+                      ...|..++....+.+..
+T Consensus       190 ~~Rl~~ll~~~~~~~~k  206 (240)
+T 2QC7_A          190 MTRIARLIEKNKMSDGK  206 (240)
+T ss_dssp             HHHHHHHHHHCCSCHHH
+T ss_pred             HHHHHHHHHcCCCCHHH
+Confidence            34455555223355443
+
+
+No 21
+>4LMY_B Peroxide stress regulator PerR, FUR; Transcription Factor, Zinc Binding, Transcription; 1.6A {Streptococcus pyogenes}
+Probab=25.07  E-value=3.1e+02  Score=19.85  Aligned_cols=26  Identities=12%  Similarity=0.194  Sum_probs=15.0  Template_Neff=9.300
+
+Q ss_pred             cchhHHHHHHHh-CCCCCHHHHHHHHh
+Q tr|Q5SZM1|Q5SZ   22 VEEKKSLEILLK-DDRLDTEKLCTFSQ   47 (156)
+Q Consensus        22 veekksleillk-ddrldteklctfsq   47 (156)
+                      ......++.+.+ +++...+.|.+.+.
+T Consensus        29 ~~r~~il~~l~~~~~~~t~~~l~~~l~   55 (163)
+T 4LMY_B           29 ETRKAIISYMIQSTEHPSADKIYRDLQ   55 (163)
+T ss_dssp             HHHHHHHHHHHHCSSCCBHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHcCCCCCHHHHHHHHH
+Confidence            334445555554 35677777777663
+
+
+No 22
+>4RAY_B DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: SO4, FLC; 1.55A {Magnetospirillum gryphiswaldense}
+Probab=23.70  E-value=4.1e+02  Score=18.28  Aligned_cols=22  Identities=18%  Similarity=0.250  Sum_probs=10.0  Template_Neff=10.000
+
+Q ss_pred             hHHHHHHHh-CCCCCHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   25 KKSLEILLK-DDRLDTEKLCTFS   46 (156)
+Q Consensus        25 kksleillk-ddrldteklctfs   46 (156)
+                      ...++.+.+ ..+....++...+
+T Consensus        23 ~~il~~l~~~~~~~t~~ei~~~l   45 (145)
+T 4RAY_B           23 RVIAQVLSDSADHPDVEEVYRRA   45 (145)
+T ss_dssp             HHHHHHHHHCSSCCCHHHHHHHH
+T ss_pred             HHHHHHHHhCCCCCCHHHHHHHH
+Confidence            334444444 3444555555544
+
+
+No 23
+>4RB0_A DNA-binding transcriptional dual regulator of; ferric uptake regulator (FUR), metal; HET: SO4, FLC, MSE; 1.85A {Magnetospirillum gryphiswaldense}
+Probab=23.70  E-value=4.1e+02  Score=18.28  Aligned_cols=22  Identities=18%  Similarity=0.250  Sum_probs=9.8  Template_Neff=10.000
+
+Q ss_pred             hHHHHHHHh-CCCCCHHHHHHHH
+Q tr|Q5SZM1|Q5SZ   25 KKSLEILLK-DDRLDTEKLCTFS   46 (156)
+Q Consensus        25 kksleillk-ddrldteklctfs   46 (156)
+                      ...++.+.+ ..+....++...+
+T Consensus        23 ~~il~~l~~~~~~~t~~ei~~~l   45 (145)
+T 4RB0_A           23 RVIAQVLSDSADHPDVEEVYRRA   45 (145)
+T ss_dssp             HHHHHHHHHHC-CCBHHHHHHHH
+T ss_pred             HHHHHHHHhCCCCCCHHHHHHHH
+Confidence            334444444 3445555555544
+
+

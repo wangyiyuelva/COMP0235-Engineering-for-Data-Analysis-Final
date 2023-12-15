@@ -1,0 +1,165 @@
+Query         tr|D6RDM0|D6RDM0_HUMAN
+Match_columns 73
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:06:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1143.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TDV_k ATPTB1, ATPTB3, ATPTB6,  12.4 2.7E+02  0.0029   20.9   1.4   16    3-18     91-106 (113)
+  2 6TDV_s ATPTB1, ATPTB3, ATPTB6,   7.1 4.8E+02  0.0053   18.3   1.0   15   50-64     19-33  (74)
+  3 6OWV_A Calsequestrin-2; Calseq   6.6 1.4E+03   0.015   15.5   2.9    7    7-13    364-370 (387)
+  4 4OR5_H Cyclin-dependent kinase   5.7 7.8E+02  0.0085   15.8   1.2   10    1-10      1-10  (48)
+  5 3V3L_B E3 ubiquitin-protein li   5.3 6.6E+02  0.0071   12.3   0.6    9   26-34     76-84  (85)
+  6 4OGR_H Cyclin-dependent kinase   5.1 8.7E+02  0.0095   16.1   1.3   10    1-10      2-11  (58)
+  7 6C9M_B NatA, N-terminal acetyl   4.2   2E+03   0.022   14.3   3.9   17   31-47    215-231 (236)
+  8 3MI9_C Cell division protein k   4.2 1.1E+03   0.012   16.1   1.3   11   27-37     43-53  (86)
+  9 6ONA_C Hemagglutinin; Inflenza   4.1 9.6E+02    0.01   21.7   1.2   18   16-33    502-519 (538)
+ 10 6YOV_L Histone H3.1, Histone H   3.9 1.1E+03   0.011   11.9   0.8   16    1-16      1-16  (105)
+
+No 1
+>6TDV_k ATPTB1, ATPTB3, ATPTB6, ATPTB12, subunit; mitochondria, ATP synthase, MEMBRANE PROTEIN; HET: LMT, TRT, CDL, LPP; 2.8A {Euglena gracilis}
+Probab=12.42  E-value=2.7e+02  Score=20.89  Aligned_cols=16  Identities=50%  Similarity=0.823  Sum_probs=14.1  Template_Neff=1.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RDM0|D6RD    3 SVMPSQEPPVDDKNED   18 (73)
+Q Consensus         3 svmpsqeppvddkned   18 (73)
+                      |||.+..||.|=.||.
+T Consensus        91 sVMTkEKPPIDWNNEK  106 (113)
+T 6TDV_k           91 SVMTKEKPPIDWNNEK  106 (113)
+T ss_pred             hccccCCCCCCCCccc
+Confidence            7999999999988875
+
+
+No 2
+>6TDV_s ATPTB1, ATPTB3, ATPTB6, ATPTB12, subunit; mitochondria, ATP synthase, MEMBRANE PROTEIN; HET: LMT, TRT, CDL, LPP; 2.8A {Euglena gracilis}
+Probab=7.13  E-value=4.8e+02  Score=18.31  Aligned_cols=15  Identities=47%  Similarity=0.386  Sum_probs=11.8  Template_Neff=1.000
+
+Q ss_pred             CccCCCCCcccccCC
+Q tr|D6RDM0|D6RD   50 PVIDGMDGIKISQGL   64 (73)
+Q Consensus        50 pvidgmdgikisqgl   64 (73)
+                      .--||-=||.|||--
+T Consensus        19 kpwdgpwgiqisqkk   33 (74)
+T 6TDV_s           19 KPWDGPWGIQISQKK   33 (74)
+T ss_pred             CCCCCCCceeccccC
+Confidence            346899999999863
+
+
+No 3
+>6OWV_A Calsequestrin-2; Calsequestrin, Calcium-Binding Proteins, Sarcoplasmic Reticulum; HET: CL, SO4; 1.88A {Homo sapiens}
+Probab=6.62  E-value=1.4e+03  Score=15.49  Aligned_cols=7  Identities=14%  Similarity=0.254  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCC
+Q tr|D6RDM0|D6RD    7 SQEPPVD   13 (73)
+Q Consensus         7 sqeppvd   13 (73)
+                      |+++|.+
+T Consensus       364 s~~~~~~  370 (387)
+T 6OWV_A          364 DEDDDDD  370 (387)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            3444433
+
+
+No 4
+>4OR5_H Cyclin-dependent kinase 9 (E.C.2.7.11.22, 2.7.11.23); Cdk9, Tat, AFF4, Zinc Finger; HET: TPO, SO4, YT3; 2.9A {Homo sapiens}
+Probab=5.68  E-value=7.8e+02  Score=15.82  Aligned_cols=10  Identities=50%  Similarity=0.826  Sum_probs=5.3  Template_Neff=3.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RDM0|D6RD    1 MDSVMPSQEP   10 (73)
+Q Consensus         1 mdsvmpsqep   10 (73)
+                      |+.|.|+-||
+T Consensus         1 m~pvdp~lep   10 (48)
+T 4OR5_H            1 MEPVDPRLEP   10 (48)
+T ss_pred             CCCCCCCCCC
+Confidence            4555555544
+
+
+No 5
+>3V3L_B E3 ubiquitin-protein ligase RNF146 (E.C.6.3.2.-); ligase; HET: V3L, MSE; 1.65A {Homo sapiens}
+Probab=5.30  E-value=6.6e+02  Score=12.31  Aligned_cols=9  Identities=22%  Similarity=0.342  Sum_probs=4.9  Template_Neff=11.900
+
+Q ss_pred             CCCCcccCC
+Q tr|D6RDM0|D6RD   26 TDGIAYISS   34 (73)
+Q Consensus        26 tdgiayiss   34 (73)
+                      ..|++|+.|
+T Consensus        76 ~~~~~~~~~   84 (85)
+T 3V3L_B           76 KKGVAGLRL   84 (85)
+T ss_dssp             CSEETTEEC
+T ss_pred             CccccceeC
+Confidence            455666554
+
+
+No 6
+>4OGR_H Cyclin-dependent kinase 9 (E.C.2.7.11.22, 2.7.11.23); P-TEFb, cyclin-dependent kinase 9, cyclin; HET: ACE, TPO, ADN; 3.0A {Homo sapiens}
+Probab=5.15  E-value=8.7e+02  Score=16.11  Aligned_cols=10  Identities=50%  Similarity=0.826  Sum_probs=4.9  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RDM0|D6RD    1 MDSVMPSQEP   10 (73)
+Q Consensus         1 mdsvmpsqep   10 (73)
+                      |+.|.|+-||
+T Consensus         2 m~pvdp~lep   11 (58)
+T 4OGR_H            2 MEPVDPRLEP   11 (58)
+T ss_pred             CCCCCCCCCC
+Confidence            4455555444
+
+
+No 7
+>6C9M_B NatA, N-terminal acetylation, protein complex; HET: IHP, 1PE; 2.8A {Homo sapiens}
+Probab=4.23  E-value=2e+03  Score=14.31  Aligned_cols=17  Identities=29%  Similarity=0.444  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ccCCCCCCCCCCCCCCC
+Q tr|D6RDM0|D6RD   31 YISSSRKHDSIKDDSED   47 (73)
+Q Consensus        31 yisssrkhdsikddsed   47 (73)
+                      ..|.+......+|.|++
+T Consensus       215 ~~~~~~~~~~~~~~~~~  231 (236)
+T 6C9M_B          215 EVSETTESTDVKDSSEA  231 (236)
+T ss_dssp             -----------------
+T ss_pred             hccCcccCCCCCCcccc
+Confidence            33433333444555544
+
+
+No 8
+>3MI9_C Cell division protein kinase 9; P-TEFb, Tat, HIV-1, PROTEIN BINDING; HET: TPO; 2.1A {Homo sapiens}
+Probab=4.18  E-value=1.1e+03  Score=16.10  Aligned_cols=11  Identities=36%  Similarity=0.558  Sum_probs=4.5  Template_Neff=4.900
+
+Q ss_pred             CCCcccCCCCC
+Q tr|D6RDM0|D6RD   27 DGIAYISSSRK   37 (73)
+Q Consensus        27 dgiayisssrk   37 (73)
+                      =||.|-..-|+
+T Consensus        43 lgi~y~r~kRR   53 (86)
+T 3MI9_C           43 LGISYGRKKRR   53 (86)
+T ss_dssp             SCCCSCC----
+T ss_pred             cCccccccccc
+Confidence            36777665444
+
+
+No 9
+>6ONA_C Hemagglutinin; Inflenza hemagglutinin, Structural Genomics, Seattle; HET: BMA, PEG, NAG; 1.95A {Influenza A virus (strain A/Hickox/1940 H1N1)}
+Probab=4.14  E-value=9.6e+02  Score=21.66  Aligned_cols=18  Identities=28%  Similarity=0.536  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             CCCCCCCCCCCCCCcccC
+Q tr|D6RDM0|D6RD   16 NEDADLPSEETDGIAYIS   33 (73)
+Q Consensus        16 nedadlpseetdgiayis   33 (73)
+                      -+..-||++.+||+||+-
+T Consensus       502 i~~vkl~sap~dg~~yv~  519 (538)
+T 6ONA_C          502 PGSGYIPEAPRDGQAYVR  519 (538)
+T ss_dssp             ------------------
+T ss_pred             CCCccCCCCCCcceeEEE
+Confidence            345678999999999984
+
+
+No 10
+>6YOV_L Histone H3.1, Histone H4, Histone; nucleosome, OCT4, SOX2, transcription factor; HET: PTD; 3.42A {Homo sapiens}
+Probab=3.88  E-value=1.1e+03  Score=11.91  Aligned_cols=16  Identities=38%  Similarity=0.395  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RDM0|D6RD    1 MDSVMPSQEPPVDDKN   16 (73)
+Q Consensus         1 mdsvmpsqeppvddkn   16 (73)
+                      ||+.++.-+..+..++
+T Consensus         1 ~~~~~~~~~~~~~~~~   16 (105)
+T 6YOV_L            1 MDWSHPQFEKSAVDEN   16 (105)
+T ss_dssp             ----------------
+T ss_pred             CCCCCcccchhhcchh
+
+

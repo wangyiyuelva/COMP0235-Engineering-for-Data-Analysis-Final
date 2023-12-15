@@ -1,0 +1,328 @@
+Query         tr|A0A087WXG6|A0A087WXG6_HUMAN
+Match_columns 64
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:05:51 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1867.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5D5V_D Heat shock factor prote  98.1 1.8E-05 1.9E-10   45.0   5.0   46    2-47     13-58  (131)
+  2 1HKT_A TRANSCRIPTION REGULATIO  97.6 0.00018   2E-09   38.4   3.4   34   14-47      3-36  (106)
+  3 5HDK_D Heat shock factor prote  97.3 0.00075 8.1E-09   38.3   3.7   36   12-47      4-39  (112)
+  4 3HTS_B HEAT SHOCK TRANSCRIPTIO  97.2  0.0018 1.9E-08   34.4   4.0   37   10-46      7-43  (102)
+  5 7DCJ_A DNA BINDING PROTEIN-DNA  97.2  0.0011 1.2E-08   37.8   3.1   33   14-46      7-39  (113)
+  6 2LDU_A Heat shock factor prote  96.9   0.004 4.4E-08   36.0   3.9   36   11-46     13-48  (125)
+  7 5D5W_B Putative transcription   96.8  0.0046   5E-08   32.2   3.1   31   16-46      2-32  (104)
+  8 5D5X_B Putative transcription   96.8  0.0046   5E-08   32.2   3.1   31   16-46      2-32  (104)
+  9 6J6V_A Heat shock factor prote  96.8  0.0049 5.3E-08   32.8   3.2   31   16-46      2-32  (105)
+ 10 1FBQ_B helical bulge, helical   95.4   0.056 6.1E-07   27.4   3.1   31   16-46      1-31  (90)
+ 11 7JIL_4 Translation Initiation,  81.8     3.9 4.2E-05   24.2   2.7   19   44-62     18-36  (50)
+ 12 4EBR_A Ubiquitin-like-conjugat  39.4      26 0.00029   23.1   0.6   14   44-57    127-140 (169)
+ 13 3VX7_B E1, E2; ubiquitin conju  34.2      45 0.00049   21.3   1.0   14   44-57    113-126 (152)
+ 14 3VX8_B Ubiquitin-like modifier  34.1      65 0.00071   23.5   1.9   13   45-57    230-242 (292)
+ 15 6OJJ_A Autophagy-related prote  28.1 1.4E+02  0.0015   21.0   2.6   15   43-57    135-149 (220)
+ 16 5BY8_B Rpf2, Rrs1; ribosome bi  27.7 1.1E+02  0.0012   19.1   2.0   11   15-25     47-57  (85)
+ 17 2LRJ_A Staphyloxanthin biosynt  27.4   2E+02  0.0022   15.9   4.9   37   27-63     51-87  (113)
+ 18 4JMF_B Exoenzyme T, Probable c  24.6      98  0.0011   17.5   1.2   22   31-52     72-93  (116)
+ 19 6JNP_C Exoenzyme T, CesT famil  24.6      98  0.0011   17.5   1.2   23   30-52     71-93  (116)
+ 20 2K3A_A CHAP domain protein; Pr  23.6 2.8E+02   0.003   16.3   4.8   36   28-63     93-128 (155)
+
+No 1
+>5D5V_D Heat shock factor protein 1/DNA; protein-DNA complex, double helix, helix-turn-helix; 2.55A {Homo sapiens}
+Probab=98.12  E-value=1.8e-05  Score=44.96  Aligned_cols=46  Identities=87%  Similarity=1.435  Sum_probs=34.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCCCCChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEEE
+Q tr|A0A087WXG6|    2 DLPVGPGAAGPSNVPAFLTKLWTLVSDPDTDALICWSPLPGSRLVY   47 (64)
+Q Consensus         2 dlpvgpgaagpsnvpafltklwtlvsdpdtdalicwsplpgsrlvy   47 (64)
+                      +++.+++++...+.+.|+.+++.+++++....++.|..++..+.|.
+T Consensus        13 ~~~~~~~~~~~~~~~~F~~~l~~~l~~~~~~~~i~W~~~g~~~~i~   58 (131)
+T 5D5V_D           13 DLPVGPGAAGPSNVPAFLTKLWTLVSDPDTDALICWSPSGNSFHVF   58 (131)
+T ss_dssp             GGGCC------CCCCHHHHHHHHHHHCGGGTTTEEECTTSSSEEEE
+T ss_pred             CCCCCCCCCCCCCCCHHHHHHHHHHhCCCCCCCEEEcCCCCEEEEc
+Confidence            4566667777778999999999999988877789999999988773
+
+
+No 2
+>1HKT_A TRANSCRIPTION REGULATION; NMR {Drosophila melanogaster} SCOP: a.4.5.22
+Probab=97.62  E-value=0.00018  Score=38.44  Aligned_cols=34  Identities=53%  Similarity=0.965  Sum_probs=28.9  Template_Neff=11.000
+
+Q ss_pred             ChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEEE
+Q tr|A0A087WXG6|   14 NVPAFLTKLWTLVSDPDTDALICWSPLPGSRLVY   47 (64)
+Q Consensus        14 nvpafltklwtlvsdpdtdalicwsplpgsrlvy   47 (64)
+                      +.+.|+.+++.+++++....++.|..+++.+.|.
+T Consensus         3 ~~~~F~~kl~~~l~~~~~~~~i~W~~~g~~~~i~   36 (106)
+T 1HKT_A            3 GVPAFLAKLWRLVDDADTNRLICWTKDGQSFVIQ   36 (106)
+T ss_dssp             SCCHHHHHHHHHSCTTSCBTTBEEETTTTEEECC
+T ss_pred             CcchHHHHHHHHHhCCCCCCCEEEeCCCCEEEEc
+Confidence            4679999999999998877789999999877663
+
+
+No 3
+>5HDK_D Heat shock factor protein 2; HSF1-DBD, TRANSCRIPTION; 1.32A {Homo sapiens}
+Probab=97.34  E-value=0.00075  Score=38.28  Aligned_cols=36  Identities=50%  Similarity=0.812  Sum_probs=30.9  Template_Neff=9.900
+
+Q ss_pred             CCChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEEE
+Q tr|A0A087WXG6|   12 PSNVPAFLTKLWTLVSDPDTDALICWSPLPGSRLVY   47 (64)
+Q Consensus        12 psnvpafltklwtlvsdpdtdalicwsplpgsrlvy   47 (64)
+                      ....+.|+.+++.+++++....+++|..++..++|.
+T Consensus         4 ~~~~~~~~~~l~~ll~~~~~~~~i~W~~~g~~~~i~   39 (112)
+T 5HDK_D            4 HHHVPAFLSKLWTLVEETHTNEFITWSQNGQSFLVL   39 (112)
+T ss_dssp             CTTSBHHHHHHHHHHHCGGGTTTEEECTTSSCEEES
+T ss_pred             ccchhhHHHHHHHHHhcCCCCCcEEEcCCCCEEEEe
+Confidence            345789999999999999888899999999887663
+
+
+No 4
+>3HTS_B HEAT SHOCK TRANSCRIPTION FACTOR/DNA COMPLEX; TRANSCRIPTION REGULATION, DNA-BINDING PROTEIN, COMPLEX; 1.75A {Kluyveromyces lactis} SCOP: a.4.5.22
+Probab=97.21  E-value=0.0018  Score=34.44  Aligned_cols=37  Identities=38%  Similarity=0.737  Sum_probs=28.9  Template_Neff=11.000
+
+Q ss_pred             CCCCChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   10 AGPSNVPAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        10 agpsnvpafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      +.....+.|+.+++.+++.+....++.|..++..+.+
+T Consensus         7 ~~~~~~~~f~~~l~~~~~~~~~~~~~~w~~~g~~~~~   43 (102)
+T 3HTS_B            7 VGSMARPAFVNKLWSMVNDKSNEKFIHWSTSGESIVV   43 (102)
+T ss_dssp             ---CCSCHHHHHHHHHHHCGGGTTTSEECTTSCSEEE
+T ss_pred             cCcCCcCHHHHHHHHHHhCCCcCCCEEECCCCCeEEe
+Confidence            3455678999999999998877777899998888766
+
+
+No 5
+>7DCJ_A DNA BINDING PROTEIN-DNA COMPLEX; 2.004A {Homo sapiens}
+Probab=97.17  E-value=0.0011  Score=37.82  Aligned_cols=33  Identities=82%  Similarity=1.300  Sum_probs=28.8  Template_Neff=9.800
+
+Q ss_pred             ChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   14 NVPAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        14 nvpafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      .+..|+.+++.+++++....++.|..+++.+.|
+T Consensus         7 ~~~~~~~~l~~~l~~~~~~~~i~W~~~g~~~~i   39 (113)
+T 7DCJ_A            7 HVPAFLTKLWTLVSDPDTDALICWSPSGNSFHV   39 (113)
+T ss_dssp             -CCHHHHHHHHHHHCGGGTTTEEECTTSSEEEE
+T ss_pred             CcchHHHHHHHHHhCCCCCCCEEEcCCCCEEEE
+Confidence            357899999999999988888999999988777
+
+
+No 6
+>2LDU_A Heat shock factor protein 1; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=96.90  E-value=0.004  Score=35.95  Aligned_cols=36  Identities=86%  Similarity=1.367  Sum_probs=30.7  Template_Neff=9.900
+
+Q ss_pred             CCCChhHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   11 GPSNVPAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        11 gpsnvpafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      .....+.|+.+++.+++++....++.|..+++.+.|
+T Consensus        13 ~~~~~~~F~~kL~~~l~~~~~~~~i~W~~~g~~~~i   48 (125)
+T 2LDU_A           13 GPSNVPAFLTKLWTLVSDPDTDALICWSPSGNSFHV   48 (125)
+T ss_dssp             SSCCCCHHHHHHHHHHHCTTTTTTEEECTTSSEEEE
+T ss_pred             CCCCCCHHHHHHHHHHhCCCCCCCEEECCCCCEEEE
+Confidence            345678999999999999888888999999987766
+
+
+No 7
+>5D5W_B Putative transcription factor/DNA Complex; protein-DNA complex, double helix, helix-turn-helix; 2.35A {Chaetomium thermophilum}
+Probab=96.76  E-value=0.0046  Score=32.19  Aligned_cols=31  Identities=29%  Similarity=0.585  Sum_probs=26.3  Template_Neff=11.500
+
+Q ss_pred             hHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   16 PAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        16 pafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      ..|+.+++.+++.+.....+.|..++..+++
+T Consensus         2 ~~f~~kl~~~~~~~~~~~~i~w~~~g~~~~i   32 (104)
+T 5D5W_B            2 SDFVRKLYKMLEDPSYHSVVRWSDDGDSFVV   32 (104)
+T ss_dssp             CHHHHHHHHHHTCGGGTTTEEECTTSSSEEE
+T ss_pred             ChHHHHHHHHHhCcccCCCEEEcCCCCEEEE
+Confidence            4789999999998877778999998888766
+
+
+No 8
+>5D5X_B Putative transcription factor/DNA Complex; protein-DNA complex, double helix, helix-turn-helix; 2.4A {Chaetomium thermophilum}
+Probab=96.76  E-value=0.0046  Score=32.19  Aligned_cols=31  Identities=29%  Similarity=0.585  Sum_probs=26.0  Template_Neff=11.500
+
+Q ss_pred             hHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   16 PAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        16 pafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      ..|+.+++.+++.+.....+.|..++..+++
+T Consensus         2 ~~f~~kl~~~~~~~~~~~~i~w~~~g~~~~i   32 (104)
+T 5D5X_B            2 SDFVRKLYKMLEDPSYHSVVRWSDDGDSFVV   32 (104)
+T ss_dssp             CCHHHHHHHHTTCGGGTTTEEECTTSSSEEE
+T ss_pred             ChHHHHHHHHHhCcccCCCEEEcCCCCEEEE
+Confidence            4688999999988877778999998888766
+
+
+No 9
+>6J6V_A Heat shock factor protein 4; transcriptional factor, TRANSCRIPTION; HET: NO3; 1.2A {Homo sapiens}
+Probab=96.76  E-value=0.0049  Score=32.78  Aligned_cols=31  Identities=68%  Similarity=1.073  Sum_probs=27.1  Template_Neff=11.100
+
+Q ss_pred             hHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   16 PAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        16 pafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      +.|+.+++.+++++....++.|..++..+.|
+T Consensus         2 ~~f~~~l~~~l~~~~~~~~i~W~~~g~~~~i   32 (105)
+T 6J6V_A            2 PAFLGKLWALVGDPGTDHLIRWSPSGTSFLV   32 (105)
+T ss_dssp             CHHHHHHHHHHHCGGGTTTEEECTTSSSEEE
+T ss_pred             ChHHHHHHHHHcCCCCCCCEEECCCCCEEEE
+Confidence            5799999999998877778999999988776
+
+
+No 10
+>1FBQ_B helical bulge, helical kink, helix-turn-helix; 2.0A {Kluyveromyces lactis} SCOP: a.4.5.22
+Probab=95.41  E-value=0.056  Score=27.42  Aligned_cols=31  Identities=42%  Similarity=0.843  Sum_probs=24.6  Template_Neff=11.500
+
+Q ss_pred             hHHHHHHHHHhCCCCCCeEEEEcCCCCCeEE
+Q tr|A0A087WXG6|   16 PAFLTKLWTLVSDPDTDALICWSPLPGSRLV   46 (64)
+Q Consensus        16 pafltklwtlvsdpdtdalicwsplpgsrlv   46 (64)
+                      +.|+.+++.+++.+....++.|..++..+.+
+T Consensus         1 ~~f~~~l~~~~~~~~~~~~~~w~~~~~~~~~   31 (90)
+T 1FBQ_B            1 PAFVNKLWSMVNDKSNEKFIHWSTSGESIVV   31 (90)
+T ss_dssp             CHHHHHHHHHHTSGGGTTTSEECSSSSEEEE
+T ss_pred             CCHHHHHHHHHhCCCcCCcEEEcCCCCEEEE
+Confidence            3688899999988877777889888876655
+
+
+No 11
+>7JIL_4 Translation Initiation, Protein synthesis, bS21; 2.8A {Flavobacterium johnsoniae}
+Probab=81.85  E-value=3.9  Score=24.20  Aligned_cols=19  Identities=37%  Similarity=0.520  Sum_probs=15.1  Template_Neff=5.300
+
+Q ss_pred             eEEEEEeeCCCCCceeeeC
+Q tr|A0A087WXG6|   44 RLVYMVRPCKTGQLRFAEV   62 (64)
+Q Consensus        44 rlvymvrpcktgqlrfaev   62 (64)
+                      -.|.++..-+||..+|.|-
+T Consensus        18 KvI~~vks~ktG~y~F~E~   36 (50)
+T 7JIL_4           18 KAIKMVKSPKTGAYIFVES   36 (50)
+T ss_pred             EEEEEEeCCCCCcEEEEEE
+Confidence            4677788888999999873
+
+
+No 12
+>4EBR_A Ubiquitin-like-conjugating enzyme ATG10 (E.C.6.3.2.-); E2-Conjugating enzyme, Autophagy, ligase, protein; HET: MSE; 2.701A {Saccharomyces cerevisiae}
+Probab=39.38  E-value=26  Score=23.06  Aligned_cols=14  Identities=29%  Similarity=0.691  Sum_probs=11.4  Template_Neff=8.100
+
+Q ss_pred             eEEEEEeeCCCCCc
+Q tr|A0A087WXG6|   44 RLVYMVRPCKTGQL   57 (64)
+Q Consensus        44 rlvymvrpcktgql   57 (64)
+                      ...+.+.||+|.++
+T Consensus       127 ~~~~~iHPC~T~~~  140 (169)
+T 4EBR_A          127 SVWYSFHPCDTSCI  140 (169)
+T ss_dssp             EEEEECCSSCGGGS
+T ss_pred             CcEEEEcCCChHHH
+Confidence            57778999999776
+
+
+No 13
+>3VX7_B E1, E2; ubiquitin conjugation, E1-E2 complex, Ligase; 3.2A {Kluyveromyces marxianus}
+Probab=34.19  E-value=45  Score=21.30  Aligned_cols=14  Identities=21%  Similarity=0.524  Sum_probs=10.2  Template_Neff=8.500
+
+Q ss_pred             eEEEEEeeCCCCCc
+Q tr|A0A087WXG6|   44 RLVYMVRPCKTGQL   57 (64)
+Q Consensus        44 rlvymvrpcktgql   57 (64)
+                      ...+.+.||+|..+
+T Consensus       113 ~p~~~iHPC~T~~~  126 (152)
+T 3VX7_B          113 SVYYYINNCDTDAN  126 (152)
+T ss_dssp             SEEEEECCTTHHHH
+T ss_pred             cEEEEEEcCChHHH
+Confidence            45677899998654
+
+
+No 14
+>3VX8_B Ubiquitin-like modifier-activating enzyme atg7, Autophagy-related; E1-E2 complex, Ligase; 3.11A {Arabidopsis thaliana}
+Probab=34.12  E-value=65  Score=23.46  Aligned_cols=13  Identities=31%  Similarity=0.667  Sum_probs=8.8  Template_Neff=7.700
+
+Q ss_pred             EEEEEeeCCCCCc
+Q tr|A0A087WXG6|   45 LVYMVRPCKTGQL   57 (64)
+Q Consensus        45 lvymvrpcktgql   57 (64)
+                      ....+.||++..+
+T Consensus       230 p~~~iHPC~ta~~  242 (292)
+T 3VX8_B          230 KHASVHPCRHGAV  242 (292)
+T ss_pred             CEEEEeecCcHHH
+Confidence            4566788888653
+
+
+No 15
+>6OJJ_A Autophagy-related protein 3; Autophagy, E2, LIGASE; HET: GOL; 2.406A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=28.14  E-value=1.4e+02  Score=21.00  Aligned_cols=15  Identities=33%  Similarity=0.654  Sum_probs=11.1  Template_Neff=7.600
+
+Q ss_pred             CeEEEEEeeCCCCCc
+Q tr|A0A087WXG6|   43 SRLVYMVRPCKTGQL   57 (64)
+Q Consensus        43 srlvymvrpcktgql   57 (64)
+                      ......+.||+|..+
+T Consensus       135 g~p~~~iHPC~Ta~~  149 (220)
+T 6OJJ_A          135 SVLSVSIHPCKHANV  149 (220)
+T ss_dssp             CCEEEEECCTTHHHH
+T ss_pred             CccEEEEeeCCCHHH
+Confidence            357888899988643
+
+
+No 16
+>5BY8_B Rpf2, Rrs1; ribosome biogenesis, Brix domain, protein-RNA; HET: MSE; 1.515A {Emericella nidulans FGSC A4}
+Probab=27.74  E-value=1.1e+02  Score=19.14  Aligned_cols=11  Identities=36%  Similarity=0.510  Sum_probs=6.3  Template_Neff=6.500
+
+Q ss_pred             hhHHHHHHHHH
+Q tr|A0A087WXG6|   15 VPAFLTKLWTL   25 (64)
+Q Consensus        15 vpafltklwtl   25 (64)
+                      ++.++.++|.+
+T Consensus        47 ~Q~L~~~l~~L   57 (85)
+T 5BY8_B           47 VQSLLNQLLTT   57 (85)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHcc
+Confidence            44555666665
+
+
+No 17
+>2LRJ_A Staphyloxanthin biosynthesis protein, putative; BIOSYNTHETIC PROTEIN, Structural Genomics, Center; NMR {Staphylococcus aureus}
+Probab=27.43  E-value=2e+02  Score=15.93  Aligned_cols=37  Identities=22%  Similarity=0.328  Sum_probs=19.1  Template_Neff=10.500
+
+Q ss_pred             CCCCCCeEEEEcCCCCCeEEEEEeeCCCCCceeeeCC
+Q tr|A0A087WXG6|   27 SDPDTDALICWSPLPGSRLVYMVRPCKTGQLRFAEVN   63 (64)
+Q Consensus        27 sdpdtdalicwsplpgsrlvymvrpcktgqlrfaevn   63 (64)
+                      ..+...+.+.|.................|++...|.|
+T Consensus        51 ~~p~~G~i~~~~~~~~GHv~iv~~v~~~g~i~v~e~n   87 (113)
+T 2LRJ_A           51 HTPSKGAILQSSEGPFGHVAYVESVNSDGSVTISEMN   87 (113)
+T ss_dssp             SCCCTTSEEEESCSSSCEEEEEEEECTTSEEEEEEES
+T ss_pred             CCCCCCCEEEeCCCCCcEEEEEEEECCCCcEEEEEcc
+Confidence            3455666777764333333333333445566666654
+
+
+No 18
+>4JMF_B Exoenzyme T, Probable chaperone; Type III secretion system, T3SS; 2.099A {Pseudomonas aeruginosa}
+Probab=24.56  E-value=98  Score=17.50  Aligned_cols=22  Identities=23%  Similarity=0.498  Sum_probs=12.6  Template_Neff=10.200
+
+Q ss_pred             CCeEEEEcCCCCCeEEEEEeeC
+Q tr|A0A087WXG6|   31 TDALICWSPLPGSRLVYMVRPC   52 (64)
+Q Consensus        31 tdalicwsplpgsrlvymvrpc   52 (64)
+                      ....+.+.+......+....|.
+T Consensus        72 ~~~~~~ld~~~~~~~l~~~~~l   93 (116)
+T 4JMF_B           72 CKPILGRDPESGERLLWNRQPL   93 (116)
+T ss_dssp             TCCEEEECTTTCCEEEEEEEEG
+T ss_pred             CCCEEEEeCCCCcEEEEEeeeH
+Confidence            3456777776555555554443
+
+
+No 19
+>6JNP_C Exoenzyme T, CesT family type; ExoT, SpcS, T3SS, Pseudomonas, Pseudomonas; HET: GOL; 2.261A {Pseudomonas aeruginosa}
+Probab=24.56  E-value=98  Score=17.50  Aligned_cols=23  Identities=22%  Similarity=0.466  Sum_probs=13.7  Template_Neff=10.200
+
+Q ss_pred             CCCeEEEEcCCCCCeEEEEEeeC
+Q tr|A0A087WXG6|   30 DTDALICWSPLPGSRLVYMVRPC   52 (64)
+Q Consensus        30 dtdalicwsplpgsrlvymvrpc   52 (64)
+                      .....+.+.+......+....|.
+T Consensus        71 ~~~~~~~ld~~~~~~~l~~~~~l   93 (116)
+T 6JNP_C           71 PCKPILGRDPESGERLLWNRQPL   93 (116)
+T ss_dssp             TTCCEEEECTTTCCEEEEEEEEC
+T ss_pred             CCCCEEEEeCCCCcEEEEEeeeH
+Confidence            34556778776555555555554
+
+
+No 20
+>2K3A_A CHAP domain protein; Protein, monomer, CHAP domain, putative; NMR {Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305}
+Probab=23.58  E-value=2.8e+02  Score=16.30  Aligned_cols=36  Identities=14%  Similarity=0.286  Sum_probs=16.1  Template_Neff=10.500
+
+Q ss_pred             CCCCCeEEEEcCCCCCeEEEEEeeCCCCCceeeeCC
+Q tr|A0A087WXG6|   28 DPDTDALICWSPLPGSRLVYMVRPCKTGQLRFAEVN   63 (64)
+Q Consensus        28 dpdtdalicwsplpgsrlvymvrpcktgqlrfaevn   63 (64)
+                      .+...+.+.|.................|.+...|.|
+T Consensus        93 ~p~~G~~~~~~~~~~GHv~iv~~v~~~g~~~i~~~n  128 (155)
+T 2K3A_A           93 SPEAGSILQSTAGGYGHVAYVENVNSDGSVEVSEMN  128 (155)
+T ss_dssp             CCCSSEEEECCTTSSCCEEEEEEECTTCCEEEEEEC
+T ss_pred             CCCCCCEEEeCCCCCeEEEEEEEECCCCcEEEEECc
+Confidence            344555666654322222222233345556665544
+
+

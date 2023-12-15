@@ -1,0 +1,498 @@
+Query         sp|Q9UJA2|CRLS1_HUMAN
+Match_columns 301
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:55:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1980.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DRJ_A Product complex, Phosph  99.7 5.3E-14 5.8E-19  110.5  20.3  180  100-297    14-210 (212)
+  2 6H5A_B CDP-diacylglycerol--ino  99.4 2.8E-10 3.1E-15   88.1  16.9  172  106-297    26-204 (223)
+  3 6WM5_A AfCTD-Phosphatidylinosi  99.2 6.9E-09 7.5E-14   85.3  17.0  172  106-297   164-342 (370)
+  4 6WM5_C AfCTD-Phosphatidylinosi  99.2 6.9E-09 7.5E-14   85.3  17.0  172  106-297   164-342 (370)
+  5 6WMV_C AfCTD-Phosphatidylinosi  99.2 6.9E-09 7.5E-14   85.3  17.0  171  106-296   164-341 (370)
+  6 5D91_A AF2299,Phosphatidylinos  99.1 2.2E-08 2.3E-13   80.4  17.6  168  106-295   155-329 (336)
+  7 7POW_B Membrane protein, Lipid  99.1 1.1E-08 1.2E-13   83.0  14.4   82  102-191     6-87  (204)
+  8 6H59_A CDP-diacylglycerol--ino  99.1 4.8E-08 5.3E-13   75.0  16.8  173  106-298    26-205 (217)
+  9 7B1L_A Membrane protein, Lipid  98.9 8.1E-08 8.8E-13   79.1  14.6   81  103-191    26-106 (225)
+ 10 4MND_A CTP L-myo-inositol-1-ph  98.8   2E-06 2.2E-11   72.5  17.1  173  107-296   286-458 (479)
+ 11 5D92_B AF2299 protein,Phosphat  98.7 8.3E-06   9E-11   66.1  18.9  167  107-295   163-336 (342)
+ 12 4O6M_A AF2299, a CDP-alcohol p  98.6 4.7E-06 5.1E-11   69.8  15.1   84  104-188   196-282 (372)
+ 13 4Q7C_B AF2299, a CDP-alcohol p  98.6 4.7E-06 5.1E-11   69.8  15.1  169  104-296   196-371 (372)
+ 14 7B1N_B Membrane protein, Lipid  98.4 3.1E-05 3.4E-10   67.2  15.1   78  103-188    26-103 (251)
+
+No 1
+>7DRJ_A Product complex, Phospholipid synthase, Staphylococcus; HET: BU1, PO9, ACY, OLC; 2.5A {Staphylococcus aureus (strain N315)}
+Probab=99.67  E-value=5.3e-14  Score=110.45  Aligned_cols=180  Identities=26%  Similarity=0.375  Sum_probs=137.2  Template_Neff=9.300
+
+Q ss_pred             CCccCCCCcHHHHHHHHHHhHHHHHHHHHHcC----------------ChhHHHHHHHHHHHHHHHHHHHHHhhhcccch
+Q sp|Q9UJA2|CRLS  100 PSLYENPWTIPNMLSMTRIGLAPVLGYLIIEE----------------DFNIALGVFALAGLTDLLDGFIARNWANQRSA  163 (301)
+Q Consensus       100 pslyenpwtipnmlsmtriglapvlgyliiee----------------dfnialgvfalagltdlldgfiarnwanqrsa  163 (301)
+                      ..++.....+||++|+.++++++...++.+.+                +...+..++.+..++|.+||.+||+. ++.|+
+T Consensus        14 ~~~~~~~~~~pn~lT~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~D~lDG~lAR~~-~~~s~   92 (212)
+T 7DRJ_A           14 LVPRGSHMNIPNQITVFRVVLIPVFILFALVDFGFGNVSFLGGYEIRIELLISGFIFILASLSDFVDGYLARKW-NLVTN   92 (212)
+T ss_dssp             -------CCHHHHHHHHHHHHHHHHHHHHHCCCSCCEEECSSCCEEEHHHHHHHHHHHHHHHC-CHHHHHHHHT-TCCCH
+T ss_pred             CCCCCCcccHhHHHHHHHHHHHHHHHHHHHhhccCCCcccCCCchhHHHHHHHHHHHHHHHHHHHHHHHHHHHc-CCCCc
+Confidence            34556667899999999999999999988765                45677888999999999999999999 99999
+
+
+Q ss_pred             hhhhhhHHHHHHHHHHHHHHHHhccCCCccHHHHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHH
+Q sp|Q9UJA2|CRLS  164 LGSALDPLADKILISILYVSLTYADLIPVPLTYMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISK  243 (301)
+Q Consensus       164 lgsaldpladkilisilyvsltyadlipvpltymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfisk  243 (301)
+                      +|+++|+.+|++....+.+.+.+....+.+...++++.+++..+.+......                 +...+....+|
+T Consensus        93 ~G~~lD~~~D~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~gk  155 (212)
+T 7DRJ_A           93 MGKFLDPLADKLLVASALIVLVQLGLTNSVVAIIIIAREFAVTGLRLLQIEQ-----------------GFVSAAGQLGK  155 (212)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTSSCHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCHHHH
+T ss_pred             cHHHHHHHHHHHHHHHHHHHHHHcCCchHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCcCCCcHHHH
+Confidence            9999999999999998888888776666666677777777777777666554                 34556788899
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhHhc-cCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCccc
+Q sp|Q9UJA2|CRLS  244 VNTAVQLILVAASLAAPVF-NYADSIYLQILWCFTAFTTAASAYSYYHYGRKTVQ  297 (301)
+Q Consensus       244 vntavqlilvaaslaapvf-nyadsiylqilwcftafttaasaysyyhygrktvq  297 (301)
+                      ..+..+.+........... .+.......++.++.+++++++.+++..+.++..+
+T Consensus       156 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~s~~~~~~~~~~~~~  210 (212)
+T 7DRJ_A          156 IKTAVTMVAITWLLLGDPLATLIGLSLGQILLYIGVIFTILSGIEYFYKGRDVFK  210 (212)
+T ss_dssp             HHHHHHHHHHHHHHTTCTTHHHHSSCHHHHHHHHHHHHHHHHHHHHHHHSCCCCC
+T ss_pred             HHHHHHHHHHHHHHHcchhHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHh
+Confidence            9888887777666543221 11122356778888999999999999999887665
+
+
+No 2
+>6H5A_B CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase Glycerophospholipid metabolism Metal binding; HET: LFA, 1PE, OLC, FLC; 1.88A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=99.35  E-value=2.8e-10  Score=88.09  Aligned_cols=172  Identities=15%  Similarity=0.115  Sum_probs=123.5  Template_Neff=10.000
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHH-HHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGY-LIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgy-liieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+.+||.+|+.++++++.+.+ +.+.++...+..+++++.++|.+||.+||+. ++.|++|+++|+.+|++.+..+.+++
+T Consensus        26 ~~i~pn~lt~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~~D~lDG~lAR~~-~~~s~~G~~lD~~~D~~~~~~~~~~~  104 (223)
+T 6H5A_B           26 VGLTPDVVTILGTTASVAGALTLFPMGKLFAGACVVWFFVLFDMLDGAMARER-GGGTRFGAVLDATCDRISDGAVFCGL  104 (223)
+T ss_dssp             HTCCHHHHHHHHHHHHHHHHHHHTTTTCHHHHHHHHHHHHHHHTHHHHHHHHT-TCBCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHhhcCcHHHHHHHHHHHHHHHHHCHHHHHHC-CCCChHHHHHHHHHHHHHHHHHHHHH
+Confidence            367899999999999999999 6677788889999999999999999999999 99999999999999999998888888
+
+
+Q ss_pred             HhccC---CCccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADL---IPVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadl---ipvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+...   .+.+..   .+.+....+..+.+...+..                 +...+.+..+|..+..++.+......
+T Consensus       105 ~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (223)
+T 6H5A_B          105 LWWIAFHMRDRPLVIATLICLVTSQVISYIKARAEAS-----------------GLRGDGGFIERPERLIIVLTGAGVSD  167 (223)
+T ss_dssp             HHHHHHHCSCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCSSCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhcCCCcHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCCCCCCCCchHHHHHHHHHHHHHcc
+Confidence            76543   333322   33344445555555544443                 23334566677777776665554432
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCccc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTVQ  297 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrktvq  297 (301)
+                      ....  .......+.+++.++++.++.+.+..+..+..+
+T Consensus       168 ~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  204 (223)
+T 6H5A_B          168 FPFV--PWPPALSVGMWLLAVASVITCVQRLHTVWTSPG  204 (223)
+T ss_dssp             CSSS--CCTTHHHHHHHHHHHHHHHHHHHHHHHHHHSTT
+T ss_pred             CCCC--CCchHHHHHHHHHHHHHHHHHHHHHHHHHhccc
+Confidence            2111  123355667777888888888887777654444
+
+
+No 3
+>6WM5_A AfCTD-Phosphatidylinositol-phosphate synthase (PIPS) fusion; CDP-alcohol phosphotransferase, Structural Genomics, PSI-Biology; HET: XP4, TCE, FLC, GOL, OLC, 8K6; 1.961A {Archaeoglobus fulgidus}
+Probab=99.17  E-value=6.9e-09  Score=85.28  Aligned_cols=172  Identities=14%  Similarity=0.079  Sum_probs=121.0  Template_Neff=10.300
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHHHHH-cCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGYLII-EEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgylii-eedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+++||++|+++++++++..++++ .++...+.++++++.++|.+||.+||.. ++.|++|+++|+.+|++...++.+++
+T Consensus       164 ~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~a~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~lD~~~D~~~~~~~~~~l  242 (370)
+T 6WM5_A          164 IGLTPDAVTIIGTTASVAGALVLFPMGKLFPGACVVWFFVLFDMLDGAMARLR-SGGTRFGAVLDAACDRISDGAVFSGL  242 (370)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHHHHHTTTTCHHHHHHHHHHHHHHHTTHHHHHHHT-TCEEHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcccCChHHHHHHHHHHHHHHHhCHHHHHHc-CCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            367899999999999999988877 7788888999999999999999999999 99999999999999999999888888
+
+
+Q ss_pred             HhccCC---CccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADLI---PVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadli---pvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+....   +.+..   .+.+...++..+.+......                 ......+.+++....+++.+.++...
+T Consensus       243 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  305 (370)
+T 6WM5_A          243 LWWIAFGMRDRLLVVATLTCLVTSQVISYIKARAEAS-----------------GLRGDGGIIERPERLIIVLVGAGVSD  305 (370)
+T ss_dssp             HHCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCSCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCCCCCCCCCcHHHHHHHHHHHHHcc
+Confidence            875432   22222   22223333344443333322                 22334455667776666666665543
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCccc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTVQ  297 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrktvq  297 (301)
+                      +..+  ....+...++++.++++.++.+.+..+..+..+
+T Consensus       306 ~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  342 (370)
+T 6WM5_A          306 FPFI--AWPPALPVAMWVLAVASVITLGQRLHTVWTSPG  342 (370)
+T ss_dssp             CTTT--CCTTHHHHHHHHHHHHHHHHHHHHHHHHHHSTT
+T ss_pred             CCcC--CCCChHHHHHHHHHHHHHHHHHHHHHHHHhccC
+Confidence            3221  223356667778888888888887777654433
+
+
+No 4
+>6WM5_C AfCTD-Phosphatidylinositol-phosphate synthase (PIPS) fusion; CDP-alcohol phosphotransferase, Structural Genomics, PSI-Biology; HET: XP4, TCE, FLC, GOL, OLC, 8K6; 1.961A {Archaeoglobus fulgidus}
+Probab=99.17  E-value=6.9e-09  Score=85.28  Aligned_cols=172  Identities=14%  Similarity=0.079  Sum_probs=121.3  Template_Neff=10.300
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHHHHH-cCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGYLII-EEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgylii-eedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+++||++|+++++++++..++++ .++...+.++++++.++|.+||.+||.. ++.|++|+++|+.+|++...++.+++
+T Consensus       164 ~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~a~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~lD~~~D~~~~~~~~~~l  242 (370)
+T 6WM5_C          164 IGLTPDAVTIIGTTASVAGALVLFPMGKLFPGACVVWFFVLFDMLDGAMARLR-SGGTRFGAVLDAACDRISDGAVFSGL  242 (370)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHHHHHTTTTCHHHHHHHHHHHHHHHTTHHHHHHHT-TCEEHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcccCChHHHHHHHHHHHHHHHhCHHHHHHc-CCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            367899999999999999988877 7788888999999999999999999999 99999999999999999999888888
+
+
+Q ss_pred             HhccCC---CccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADLI---PVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadli---pvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+....   +.+..   .+.+...++..+.+......                 ......+.+++....+++.+.++...
+T Consensus       243 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  305 (370)
+T 6WM5_C          243 LWWIAFGMRDRLLVVATLTCLVTSQVISYIKARAEAS-----------------GLRGDGGIIERPERLIIVLVGAGVSD  305 (370)
+T ss_dssp             HHCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCSCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCCCCCCCCCcHHHHHHHHHHHHHcc
+Confidence            875432   22222   22223333344443333322                 22334455667776666666665543
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCccc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTVQ  297 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrktvq  297 (301)
+                      +..+  ....+...++++.++++.++.+.+..+..+..+
+T Consensus       306 ~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  342 (370)
+T 6WM5_C          306 FPFI--AWPPALPVAMWVLAVASVITLGQRLHTVWTSPG  342 (370)
+T ss_dssp             CTTT--CCTTHHHHHHHHHHHHHHHHHHHHHHHHHHSTT
+T ss_pred             CCcC--CCCChHHHHHHHHHHHHHHHHHHHHHHHHhccC
+Confidence            3221  223356667778888888888888777654443
+
+
+No 5
+>6WMV_C AfCTD-Phosphatidylinositol-phosphate synthase (PIPS) fusion; CDP-alcohol phosphotransferase, MEMBRANE PROTEIN; HET: TCE, FLC, LIP, 1PE, GOL, OLC, 8K6, C5P; 2.142A {Archaeoglobus fulgidus}
+Probab=99.17  E-value=6.9e-09  Score=85.28  Aligned_cols=171  Identities=14%  Similarity=0.082  Sum_probs=120.3  Template_Neff=10.300
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHHHHH-cCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGYLII-EEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgylii-eedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+++||++|+++++++++..++++ .++...+.++++++.++|.+||.+||.. ++.|++|+++|+.+|++...++.+++
+T Consensus       164 ~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~a~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~lD~~~D~~~~~~~~~~l  242 (370)
+T 6WMV_C          164 IGLTPDAVTIIGTTASVAGALVLFPMGKLFPGACVVWFFVLFDMLDGAMARLR-SGGTRFGAVLDAACDRISDGAVFSGL  242 (370)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHHHHHTTTTCHHHHHHHHHHHHHHHHHHHHHHHHT-TCCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcccCChHHHHHHHHHHHHHHHhCHHHHHHc-CCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            367899999999999999988877 7788888999999999999999999999 99999999999999999999888888
+
+
+Q ss_pred             HhccCC---CccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADLI---PVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadli---pvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+....   +.+..   .+.+...++..+.+......                 ......+.+++....+++.+.++...
+T Consensus       243 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  305 (370)
+T 6WMV_C          243 LWWIAFGMRDRLLVVATLTCLVTSQVISYIKARAEAS-----------------GLRGDGGIIERPERLIIVLVGAGVSD  305 (370)
+T ss_dssp             HHCCCCCSCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCSSCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCCCCCCCCCcHHHHHHHHHHHHHcc
+Confidence            875432   22222   22223333344443333322                 22334455667776666666665543
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCcc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTV  296 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrktv  296 (301)
+                      +..+  ....+...++++.++++.++.+.+..+..+..
+T Consensus       306 ~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  341 (370)
+T 6WMV_C          306 FPFI--AWPPALPVAMWVLAVASVITLGQRLHTVWTSP  341 (370)
+T ss_dssp             CSSS--CCTTHHHHHHHHHHHHHHHHHHHHHHHHHHST
+T ss_pred             CCcC--CCCChHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            2211  22335666777888888888888777765443
+
+
+No 6
+>5D91_A AF2299,Phosphatidylinositol synthase; Membrane protein, Enzyme, lipid biosynthesis; HET: 8K6, SO4; 2.501A {Archaeoglobus fulgidus}
+Probab=99.13  E-value=2.2e-08  Score=80.44  Aligned_cols=168  Identities=10%  Similarity=0.092  Sum_probs=116.7  Template_Neff=10.600
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHHHHHc-CChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGYLIIE-EDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgyliie-edfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+.+||.+|..++.+++++.+++.. ++...+.+++.++.++|.+||.+||.. ++.|++|+++|+.+|++....+.+++
+T Consensus       155 ~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~d~lDG~~Ar~~-~~~s~~G~~ld~~~D~~~~~~~~~~~  233 (336)
+T 5D91_A          155 WGVSPDAVTVVGTLGVMAGALIFYPMGQLFWGTVVITVFVFSDIIDGLMARLL-FREGPWGAFLDSYLDRVGDSSVFTGI  233 (336)
+T ss_dssp             TTCCHHHHHHHHHHHHHHCCCCCHHHTCHHHHHHHHHHHHTHHHHHHHHHHHT-TCCSHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCChHHHHHHHHHHHHHHHHHHcccCcHHHHHHHHHHHHHHHHhcHHHHHHc-CCCChhHHHHHHHhHHHHHHHHHHHH
+Confidence            4788999999999998888886665 566788899999999999999999999 99999999999999999998888887
+
+
+Q ss_pred             HhccCC---CccH---HHHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADLI---PVPL---TYMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadli---pvpl---tymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+....   +.+.   ..+.++...+..+.....+..                 +.+...+..++..+.+.+.+..++..
+T Consensus       234 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  296 (336)
+T 5D91_A          234 VIWFFLGGANPTIAILALICLVLSSLVSYSKARAEGL-----------------GLTANVGIAERSERLVVVLVATGLVG  296 (336)
+T ss_dssp             HHHHHTTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCSCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHcCCCChHHHHHHHHHHHHHHHHHHHHHHHHhC-----------------CCCCCCccccHHHHHHHHHHHHHHHh
+Confidence            765322   1211   134444555555555554444                 22333455566666666666555543
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKT  295 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrkt  295 (301)
+                      ...    ...+..++..+.++++.++.+.+..+..+.
+T Consensus       297 ~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  329 (336)
+T 5D91_A          297 LGI----PSWVLLVVLIVLAIASVVTIFQRVLTVREQ  329 (336)
+T ss_dssp             TTC----CTHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCC----ChHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            211    112455667777777777777777665443
+
+
+No 7
+>7POW_B Membrane protein, Lipid synthase, LIPID; HET: 58A, SMW, OLC, MSE; 2.51A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=99.09  E-value=1.1e-08  Score=83.04  Aligned_cols=82  Identities=23%  Similarity=0.312  Sum_probs=67.2  Template_Neff=8.400
+
+Q ss_pred             ccCCCCcHHHHHHHHHHhHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  102 LYENPWTIPNMLSMTRIGLAPVLGYLIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILY  181 (301)
+Q Consensus       102 lyenpwtipnmlsmtriglapvlgyliieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisily  181 (301)
+                      +.......||.+|..++++++.+.+.       .+..++.++.++|.+||.+||.. ++.|++|+.+|+.+|++......
+T Consensus         6 ~~~~~~~~pn~lT~~~l~~~~~~~~~-------~a~~l~~l~~~~D~lDG~lAR~~-~~~s~~G~~lD~~~D~~~~~~~~   77 (204)
+T 7POW_B            6 SIRKIITISDYVTMLNIITGLLAILL-------NSFSLIYLSIIFDSLDGYVARKT-GTVSDFGAELDSISDVVSFGVAP   77 (204)
+T ss_dssp             GGGGGCCHHHHHHHHHHHHHHHHHHH-------TCSHHHHHHHHHHHHHHHHHHHH-TCCCHHHHHHHHHHHCCCCCCHH
+T ss_pred             chhhHHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHhHHHHHHh-CCCCHHHHHHhHHHHHHHHchHH
+Confidence            44556789999999999988888776       45567888999999999999999 99999999999999998876666
+
+
+Q ss_pred             HHHHhccCCC
+Q sp|Q9UJA2|CRLS  182 VSLTYADLIP  191 (301)
+Q Consensus       182 vsltyadlip  191 (301)
+                      ..+.+....+
+T Consensus        78 ~~l~~~~~~~   87 (204)
+T 7POW_B           78 AYLLYNNFES   87 (204)
+T ss_dssp             HHHHHHHSCS
+T ss_pred             HHHHHhcCCC
+Confidence            5555543334
+
+
+No 8
+>6H59_A CDP-diacylglycerol--inositol 3-phosphatidyltransferase (E.C.2.7.8.11); Phosphotransferase, Glycerophospholipid metabolism, Metal binding; HET: OLB, FQT, 1PE, PGE, SO4; 1.8A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=99.08  E-value=4.8e-08  Score=75.02  Aligned_cols=173  Identities=15%  Similarity=0.112  Sum_probs=124.1  Template_Neff=10.200
+
+Q ss_pred             CCcHHHHHHHHHHhHHHHHHH-HHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  106 PWTIPNMLSMTRIGLAPVLGY-LIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSL  184 (301)
+Q Consensus       106 pwtipnmlsmtriglapvlgy-liieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvsl  184 (301)
+                      .+.+||.+|+.++++++...+ +++.++...+..++.++.++|.+||.+||+. ++.|++|+++|+.+|++....+.+.+
+T Consensus        26 ~~i~pn~lT~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~ld~~~D~~~~~~~~~~~  104 (217)
+T 6H59_A           26 VGLTPDVVTILGTTASVAGALTLFPMGKLFAGACVVWFFVLFDMLDGAMARER-GGGTRFGAVLDATCDRISDGAVFCGL  104 (217)
+T ss_dssp             HTCCHHHHHHHHHHHHHHHHHHHGGGTCHHHHHHHHHHHHHHTHHHHHHHHHT-TCBCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcccccHHHHHHHHHHHHHHHhcCHHHHHHc-CCCChHHHHHHHHhHHHHHHHHHHHH
+Confidence            368899999999999999998 7777788888999999999999999999999 99999999999999999998888888
+
+
+Q ss_pred             HhccC---CCccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  185 TYADL---IPVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLA  258 (301)
+Q Consensus       185 tyadl---ipvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaasla  258 (301)
+                      .+...   .+.+..   .+.+....+..+.+...+..                 +.....+..+|..+.++..+..+...
+T Consensus       105 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (217)
+T 6H59_A          105 LWWIAFHMRDRPLVIATLICLVTSQVISYIKARAEAS-----------------GLRGDGGFIERPERLIIVLTGAGVSD  167 (217)
+T ss_dssp             HHHCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCSSCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhcCCCcHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCCCCCCcCCcHHHHHHHHHHHHHcc
+Confidence            77544   233222   33334444455555544443                 22333456677777666666554432
+
+
+Q ss_pred             hHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCcccc
+Q sp|Q9UJA2|CRLS  259 APVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTVQV  298 (301)
+Q Consensus       259 apvfnyadsiylqilwcftafttaasaysyyhygrktvqv  298 (301)
+                      ...  .....+..+++++.+++++++.+.+..+..+..+.
+T Consensus       168 ~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  205 (217)
+T 6H59_A          168 FPF--VPWPPALSVGMWLLAVASVITCVQRLHTVWTSPGA  205 (217)
+T ss_dssp             CSS--SCCTTHHHHHHHHHHHHHHHHHHHHHHHHHTSTTT
+T ss_pred             CCC--CCCChHHHHHHHHHHHHHHHHHHHHHHHHHhccch
+Confidence            211  11234566777788888888888888776655443
+
+
+No 9
+>7B1L_A Membrane protein, Lipid synthase, LIPID; HET: 58A, SER, OLC, MSE; 1.85A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=98.95  E-value=8.1e-08  Score=79.08  Aligned_cols=81  Identities=23%  Similarity=0.325  Sum_probs=66.0  Template_Neff=8.400
+
+Q ss_pred             cCCCCcHHHHHHHHHHhHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  103 YENPWTIPNMLSMTRIGLAPVLGYLIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYV  182 (301)
+Q Consensus       103 yenpwtipnmlsmtriglapvlgyliieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyv  182 (301)
+                      .......||.+|..++++++...+.       .+..++.++.++|.+||.+||+. ++.|++|+.+|+.+|.+.......
+T Consensus        26 ~~~~~~~pn~lT~~~l~~~~~~~~~-------~a~~l~~~~~~~D~lDG~lAR~~-~~~s~~G~~lD~~~D~i~~~~~~~   97 (225)
+T 7B1L_A           26 IRKIITISDYVTMLNIITGLLAILL-------NSFSLIYLSIIFDSLDGYVARKT-GTVSDFGAELDSISDVVSFGVAPA   97 (225)
+T ss_dssp             GGGTCCHHHHHHHHHHHHHHHHHHT-------TCHHHHHHHHHHHHHHHHHHHHH-TCCCHHHHHHHHHHHCCCCCCHHH
+T ss_pred             HHhHHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHHhHHHHHHh-CCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            4456789999999999888877665       55678889999999999999999 999999999999999987665555
+
+
+Q ss_pred             HHHhccCCC
+Q sp|Q9UJA2|CRLS  183 SLTYADLIP  191 (301)
+Q Consensus       183 sltyadlip  191 (301)
+                      .+.+....+
+T Consensus        98 ~l~~~~~~~  106 (225)
+T 7B1L_A           98 YLLYNNFES  106 (225)
+T ss_dssp             HHHHHHSCS
+T ss_pred             HHHHhccCC
+Confidence            555543333
+
+
+No 10
+>4MND_A CTP L-myo-inositol-1-phosphate cytidylyltransferase/CDP-L-myo-inositol myo-inositolphosphotransferase; Transmembrane protein, Rossmann Fold, CDP-alcohol; HET: LFA; 2.66A {Archaeoglobus fulgidus}
+Probab=98.77  E-value=2e-06  Score=72.46  Aligned_cols=173  Identities=12%  Similarity=0.050  Sum_probs=108.8  Template_Neff=10.700
+
+Q ss_pred             CcHHHHHHHHHHhHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHHHh
+Q sp|Q9UJA2|CRLS  107 WTIPNMLSMTRIGLAPVLGYLIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSLTY  186 (301)
+Q Consensus       107 wtipnmlsmtriglapvlgyliieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvslty  186 (301)
+                      +++||++|.+++++++++.+++..+ ..++.+++.++.++|.+||.+||.. ++.|++|.++|+++|++...++++++.+
+T Consensus       286 ~i~~~~~t~~~~~~~~~~~~~~~~~-~~~~~~l~~~~~~~d~~DG~~AR~~-~~~s~~g~~~d~~~D~~~~~~~~~~l~~  363 (479)
+T 4MND_A          286 KVNPNQMTLISFLVGAFSALASFFS-IPLAGLLYQFSSILDGCDGEIARAS-LKMSKKGGYVDSILDRFVDFLFLAIIAL  363 (479)
+T ss_dssp             TSCHHHHHHHHHHHHHHHHHGGGSC-HHHHHHHHHHHHHHTTHHHHHHHHT-TCCCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCcchhHHHHHHHHHHHHHHHHcc-hhHHHHHHHHHHHHHccCHHHHHHh-CCCChHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            6799999999999999999888877 7788889999999999999999999 9999999999999999999988888887
+
+
+Q ss_pred             ccCCCccHHHHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHHhHhccCCC
+Q sp|Q9UJA2|CRLS  187 ADLIPVPLTYMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLAAPVFNYAD  266 (301)
+Q Consensus       187 adlipvpltymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaaslaapvfnyad  266 (301)
+                      ....+.+...+.++..++..+..........+      .|+++-.   ........+....+.+.+..+...      ..
+T Consensus       364 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~---~~~~~~~~r~~~~~~~~~~~~~~~------~~  428 (479)
+T 4MND_A          364 LYPKTATVAMFAIFGSVMVSYTSEKYKAEFGE------SIFGKFR---VLNYIPGKRDERIFLIMIFCLLSA------IS  428 (479)
+T ss_dssp             HCGGGHHHHHHHHHHHHHHHHHHHHHHHHHSS------CC----C---CCCCSCCCHHHHHHHHHHHHHHHT------TC
+T ss_pred             hCCCchHHHHHHHHHHHHHHHHHHHhHHhhcc------chhcchh---hhccCCCCHHHHHHHHHHHHHHhc------cC
+Confidence            62222222233444444444444332221000      1221110   111122233333333333332211      11
+
+
+Q ss_pred             cHHHHHHHHHHHHHHHHHHHHHHHhCCCcc
+Q sp|Q9UJA2|CRLS  267 SIYLQILWCFTAFTTAASAYSYYHYGRKTV  296 (301)
+Q Consensus       267 siylqilwcftafttaasaysyyhygrktv  296 (301)
+                      .....+++++.++++.++.+.+..+.++..
+T Consensus       429 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  458 (479)
+T 4MND_A          429 LQWIFWMFLFVAAISLTRVVVTLLAVLVSK  458 (479)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHHHHHCC-
+T ss_pred             chhHHHHHHHHHHHHHHHHHHHHHHHHhhc
+Confidence            223455666777777777777777765443
+
+
+No 11
+>5D92_B AF2299 protein,Phosphatidylinositol synthase; Membrane protein, Enzyme, lipid biosynthesis; HET: 58A, 8K6; 3.62A {Archaeoglobus fulgidus}
+Probab=98.73  E-value=8.3e-06  Score=66.05  Aligned_cols=167  Identities=10%  Similarity=0.085  Sum_probs=112.8  Template_Neff=10.600
+
+Q ss_pred             CcHHHHHHHHHHhHHHHHHHHHH-cCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  107 WTIPNMLSMTRIGLAPVLGYLII-EEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYVSLT  185 (301)
+Q Consensus       107 wtipnmlsmtriglapvlgylii-eedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyvslt  185 (301)
+                      +.+||++|+.++++++++.++.+ .++...+.++++++.++|.+||.+||.. ++.|++|+++|+.+|++....+.+++.
+T Consensus       163 ~~~pn~it~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~d~~dG~~Ar~~-~~~s~~G~~~d~~~d~~~~~~~~~~~~  241 (342)
+T 5D92_B          163 GVSPDAVTVVGTLGVMAGALIFYPMGQLFWGTVVITVFVFSDIIDGLMARLL-FREGPWGAFLDSYLDRVGDSSVFTGIV  241 (342)
+T ss_dssp             TCCHHHHHHHHHHHHHHCCCCCHHHTCHHHHHHHHHHHHTHHHHHHHHHHHT-TCCHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHcccCChHHHHHHHHHHHHHHHHcHHHHHHc-CCCChhHHHHHHHhHHHHHHHHHHHHH
+Confidence            57899999999999888877544 6677888899999999999999999999 999999999999999999988888776
+
+
+Q ss_pred             hccC---CCccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHHHHh
+Q sp|Q9UJA2|CRLS  186 YADL---IPVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAASLAA  259 (301)
+Q Consensus       186 yadl---ipvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaaslaa  259 (301)
+                      +...   .+.+..   .+.+...++..+...+....                 +.....+..++....+++.+..+...+
+T Consensus       242 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------------~~~~~~~~~~~~~~~~~~~~~~~~~~~  304 (342)
+T 5D92_B          242 IWFFLGGANPTIAILALICLVLSSLVSYSKARAEGL-----------------GLTANVGIAERSERLVVVLVATGLVGL  304 (342)
+T ss_dssp             HHHHTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHHT-----------------TCCCCCCSCCHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHcCCCChHHHHHHHHHHHHHHHHHHHHHHHHHc-----------------CCcccCCcccHHHHHHHHHHHHHHhhc
+Confidence            4221   122222   22333344444444433333                 223344556666666665555544322
+
+
+Q ss_pred             HhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCc
+Q sp|Q9UJA2|CRLS  260 PVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKT  295 (301)
+Q Consensus       260 pvfnyadsiylqilwcftafttaasaysyyhygrkt  295 (301)
+                      .    .......+++++.++++.++.+.+..+.++.
+T Consensus       305 ~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  336 (342)
+T 5D92_B          305 G----IPSWVLLVVLIVLAIASVVTIFQRVLTVREQ  336 (342)
+T ss_dssp             T----CCTHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             C----CChHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            1    1112445666777777777777777766544
+
+
+No 12
+>4O6M_A AF2299, a CDP-alcohol phosphotransferase; CDP-alcohol phosphotransferase, membrane protein, Structural; HET: SO4, MPG, C5P; 1.901A {Archaeoglobus fulgidus}
+Probab=98.63  E-value=4.7e-06  Score=69.77  Aligned_cols=84  Identities=26%  Similarity=0.208  Sum_probs=74.1  Template_Neff=10.000
+
+Q ss_pred             CCCCcHHHHHHHHHHhHHHHHHHHHHcC---ChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  104 ENPWTIPNMLSMTRIGLAPVLGYLIIEE---DFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISIL  180 (301)
+Q Consensus       104 enpwtipnmlsmtriglapvlgyliiee---dfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisil  180 (301)
+                      .+.+.+||.+|+.++++++++.+++..+   +.+.+.++++++.++|.+||.+||.. ++.|++|+.+|+.+|++....+
+T Consensus       196 ~~~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~~~a~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~ld~~~D~~~~~~~  274 (372)
+T 4O6M_A          196 ADTSVTPNQITVFSFFLSLVGSALFLLNSYLTTLLAGVIIQLHSIIDGCDGEIARLK-FMESKYGAWLDGVLDRYSDFII  274 (372)
+T ss_dssp             TTSCCCHHHHHHHHHHHHHHHHHHHHTCSHHHHHHHHHHHHHHHHHHTHHHHHHHHT-TCCCHHHHHHHHHHHHHHHHHH
+T ss_pred             hcCCCCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHHchhHHHHHHc-CCCChHHHHHHHHHHHHHHHHH
+Confidence            3457899999999999999999988877   44578888999999999999999999 9999999999999999999888
+
+
+Q ss_pred             HHHHHhcc
+Q sp|Q9UJA2|CRLS  181 YVSLTYAD  188 (301)
+Q Consensus       181 yvsltyad  188 (301)
+                      ++++.+..
+T Consensus       275 ~~~l~~~~  282 (372)
+T 4O6M_A          275 VFSITYVL  282 (372)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            88777543
+
+
+No 13
+>4Q7C_B AF2299, a CDP-alcohol phosphotransferase; CDP-alcohol phosphotransferase, membrane protein, Structural; HET: C2G, MPG, TLA; 3.102A {Archaeoglobus fulgidus}
+Probab=98.63  E-value=4.7e-06  Score=69.77  Aligned_cols=169  Identities=17%  Similarity=0.060  Sum_probs=107.7  Template_Neff=10.000
+
+Q ss_pred             CCCCcHHHHHHHHHHhHHHHHHHHHHcC---ChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  104 ENPWTIPNMLSMTRIGLAPVLGYLIIEE---DFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISIL  180 (301)
+Q Consensus       104 enpwtipnmlsmtriglapvlgyliiee---dfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisil  180 (301)
+                      .+.+.+||.+|+.++++++++.+++..+   +.+.+.++++++.++|.+||.+||.. ++.|++|+.+|+.+|++....+
+T Consensus       196 ~~~~~~pn~lt~~~~~~~~~~~~~~~~~~~~~~~~a~~l~~~~~~~D~~DG~lAR~~-~~~s~~G~~ld~~~D~~~~~~~  274 (372)
+T 4Q7C_B          196 ADTSVTPNQITVFSFFLSLVGSALFLLNSYLTTLLAGVIIQLHSIIDGCDGEIARLK-FMESKYGAWLDGVLDRYSDFII  274 (372)
+T ss_dssp             TTSCCCHHHHHHHHHHHHHHHHHHHHTCSHHHHHHHHHHHHHHHHHTTHHHHHHHHT-TCCCHHHHHHHHHHHHHHHHHH
+T ss_pred             hcCCCCHHHHHHHHHHHHHHHHHHHHcCChHHHHHHHHHHHHHHHHHchhHHHHHHc-CCCChHHHHHHHHHHHHHHHHH
+Confidence            3457899999999999999999988877   44578888999999999999999999 9999999999999999999888
+
+
+Q ss_pred             HHHHHhccCC-CccHH---HHHHHHHHHHHHHHHHHHHcCCCCchHHHHHcCcchhhcCCCccHHHHHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  181 YVSLTYADLI-PVPLT---YMIISRDVMLIAAVFYVRYRTLPTPRTLAKYFNPCYATARLKPTFISKVNTAVQLILVAAS  256 (301)
+Q Consensus       181 yvsltyadli-pvplt---ymiisrdvmliaavfyvryrtlptprtlakyfnpcyatarlkptfiskvntavqlilvaas  256 (301)
+                      ++++.+.... ++...   .+.+....+..+...+....           ..... .........++....+.+.+..+.
+T Consensus       275 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~  342 (372)
+T 4Q7C_B          275 VFSITYVLSASNPVYWIIGFLAAFASLMIAYTGDKFVAA-----------YMRTY-SPEGFAIPITRDFRLLIIFACSVV  342 (372)
+T ss_dssp             HHHHHHHHTTTCTTHHHHHHHHHHHHHHHHHHHHHHHHH-----------HCSCC-CCSSCCCSCSHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHhCCCcHHHHHHHHHHHHHHHHHHHHHHHHHH-----------hhhcC-CCCccccCCCccHHHHHHHHHHHc
+Confidence            8887754333 22222   22223333333333332211           00000 000111122223222222222211
+
+
+Q ss_pred             HHhHhccCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCcc
+Q sp|Q9UJA2|CRLS  257 LAAPVFNYADSIYLQILWCFTAFTTAASAYSYYHYGRKTV  296 (301)
+Q Consensus       257 laapvfnyadsiylqilwcftafttaasaysyyhygrktv  296 (301)
+                                 ....+.+++.++++.++.+.++.+.++..
+T Consensus       343 -----------~~~~~~l~~~~~~~~~~~~~~~~~~~~~~  371 (372)
+T 4Q7C_B          343 -----------NLPSLALVIIALLGNFEALRRIVALRSYT  371 (372)
+T ss_dssp             -----------TCHHHHHHHHHHHHHHHHHHHHHHTTC--
+T ss_pred             -----------cchhHHHHHHHHHHHHHHHHHHHHHHhhc
+Confidence                       13556777788888888888888877653
+
+
+No 14
+>7B1N_B Membrane protein, Lipid synthase, LIPID; HET: 58A; 2.8A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=98.41  E-value=3.1e-05  Score=67.24  Aligned_cols=78  Identities=24%  Similarity=0.339  Sum_probs=65.1  Template_Neff=7.300
+
+Q ss_pred             cCCCCcHHHHHHHHHHhHHHHHHHHHHcCChhHHHHHHHHHHHHHHHHHHHHHhhhcccchhhhhhhHHHHHHHHHHHHH
+Q sp|Q9UJA2|CRLS  103 YENPWTIPNMLSMTRIGLAPVLGYLIIEEDFNIALGVFALAGLTDLLDGFIARNWANQRSALGSALDPLADKILISILYV  182 (301)
+Q Consensus       103 yenpwtipnmlsmtriglapvlgyliieedfnialgvfalagltdlldgfiarnwanqrsalgsaldpladkilisilyv  182 (301)
+                      .......||.+|+.++++++.+.+.       .+..++.++.++|.+||.+||.. ++.|++|+.+|.++|.+...+...
+T Consensus        26 ~~~~~~~pn~lTl~~l~~g~~ai~~-------~a~~li~la~i~D~lDG~lAR~~-~~~s~~G~~lDslaD~vsf~v~p~   97 (251)
+T 7B1N_B           26 IRKIITISDYVTMLNIITGLLAILL-------NSFSLIYLSIIFDSLDGYVARKT-GTVSDFGAELDSISDVVSFGVAPA   97 (251)
+T ss_dssp             GGGTCCHHHHHHHHHHHHHHHHHHH-------TCTHHHHHHHHHHHHHHHHHHHH-TCCCHHHHHHHHHHHHCCCCCHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHHHHHccHHHHHHh-CCCChhHHHHHhhhhHhccchHhH
+Confidence            4456779999999999988888776       44567888999999999999999 999999999999999987766666
+
+
+Q ss_pred             HHHhcc
+Q sp|Q9UJA2|CRLS  183 SLTYAD  188 (301)
+Q Consensus       183 sltyad  188 (301)
+                      .+.+..
+T Consensus        98 ~l~~~~  103 (251)
+T 7B1N_B           98 YLLYNN  103 (251)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHc
+Confidence            655543
+
+

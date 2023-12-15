@@ -1,0 +1,633 @@
+Query         sp|Q6ZMY3|SPOC1_HUMAN
+Match_columns 1216
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:02:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0530.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4BXZ_X DNA-DIRECTED RNA POLYME  99.9 1.3E-23 1.4E-28  220.7  10.3  329  604-1020  233-592 (594)
+  2 6IC8_A SPOC domain, PHF3, pSER  99.2 9.5E-12   1E-16  113.6   3.3  150  860-1022    8-160 (162)
+  3 6IC9_B SPOC domain, PHF3, pSER  99.2 9.5E-12   1E-16  113.6   3.3  150  860-1022    8-160 (162)
+  4 6Q2V_D SPOC domain, PHF3, TRAN  99.2 9.5E-12   1E-16  113.6   3.3  150  860-1022    8-160 (162)
+  5 4BXX_X DNA-DIRECTED RNA POLYME  99.2   4E-11 4.3E-16  105.4   5.2  122  605-726    10-145 (146)
+  6 4BY1_X DNA-DIRECTED RNA POLYME  99.2   4E-11 4.3E-16  105.4   5.2  122  605-726    10-145 (146)
+  7 4BY7_X DNA-DIRECTED RNA POLYME  99.2   4E-11 4.3E-16  105.4   5.2  122  605-726    10-145 (146)
+  8 5IYC_U DNA-directed RNA polyme  99.0 1.2E-09 1.3E-14  105.4   6.1  118  603-724   135-252 (301)
+  9 2DME_A PHF3, TFS2M, Glioblasto  98.9   3E-09 3.2E-14   89.9   6.2  110  606-716    10-119 (120)
+ 10 5XON_U DNA-directed RNA polyme  98.9 3.9E-09 4.2E-14   93.4   6.7  115  603-723    25-140 (190)
+ 11 2LW4_A Transcription elongatio  98.9 8.6E-09 9.4E-14   84.8   6.5  102  606-711    10-111 (113)
+ 12 1PQV_S RNA polymerase II (E.C.  98.8 1.6E-08 1.8E-13   98.3   6.9  115  604-724   144-260 (309)
+ 13 3NDQ_A Transcription elongatio  98.8 7.7E-09 8.4E-14   85.7   3.5   97  604-704    12-108 (108)
+ 14 5FMF_2 DNA REPAIR HELICASE RAD  98.7 1.8E-08 1.9E-13   87.2   3.5  114  605-724    10-125 (174)
+ 15 1ENW_A helix-bundle, TRANSCRIP  98.7 1.7E-08 1.8E-13   85.1   3.0   92  606-704    20-114 (114)
+ 16 3PO3_S DNA-directed RNA polyme  98.7 7.9E-08 8.6E-13   83.9   5.9  114  605-724    14-129 (178)
+ 17 5KXF_A Flowering time control   96.4  0.0026 2.9E-08   60.9   1.6  127  862-1019   27-154 (156)
+ 18 3IH6_E Putative zinc protease;  37.6 2.4E+02  0.0026   24.0   5.9   14  699-712   167-180 (197)
+ 19 3IH6_F Putative zinc protease;  37.6 2.4E+02  0.0026   24.0   5.9   14  699-712   167-180 (197)
+ 20 3IVL_B Putative zinc protease;  33.6 2.8E+02  0.0031   24.0   5.9   16  698-713   163-178 (208)
+ 21 1RW2_A Ku80, NHEJ, DNA-PK, DNA  25.6 3.3E+02  0.0035   27.4   5.6    8  659-666    97-104 (152)
+ 22 7KD3_A HxlR, Helix turn helix   20.5 8.7E+02  0.0094   21.2   6.5   65  656-721    12-76  (114)
+ 23 1OW1_A SMART/HDAC1 associated   20.2 2.5E+02  0.0027   29.7   3.8  109  862-973    35-164 (195)
+
+No 1
+>4BXZ_X DNA-DIRECTED RNA POLYMERASE II SUBUNIT; TRANSCRIPTION; 4.8A {SACCHAROMYCES CEREVISIAE}
+Probab=99.90  E-value=1.3e-23  Score=220.74  Aligned_cols=329  Identities=20%  Similarity=0.262  Sum_probs=275.0  Template_Neff=8.700
+
+Q ss_pred             cceecCchhhhhHHHHHHHHH-H--------cCCCCcCCHHHHHHHHHHHHHHHHHHhcCC-----CCCccccchhhhhh
+Q sp|Q6ZMY3|SPOC  604 LYIGVRGTVVRSMQEVLWTRL-R--------ELPDPVLSEEVVEGIAAGIEAALWDLTQGT-----NGRYKTKYRSLLFN  669 (1216)
+Q Consensus       604 lyigvrgtvvrsmqevlwtrl-r--------elpdpvlseevvegiaagieaalwdltqgt-----ngryktkyrsllfn  669 (1216)
+                      +...+|++++++|.++|...+ .        +++.+.+..+.+..+|..||++||.++...     +..|++++|+|+||
+T Consensus       233 ~~~~~R~~~~~~l~~~l~~~~~~~~~e~~~~~~~~~~~~~~~~~~~A~~iE~~lf~~~~~~~~~~~~~~Yk~k~Rsl~~N  312 (594)
+T 4BXZ_X          233 KEHKLRYNAEKMFSTLFSKFIVPETIEAKLYELPDGKDVISISQEFAHNLEEELYKACLNVEFGTLDKIYTEKVRSLYSN  312 (594)
+T ss_pred             hhHHHHHHHHHHHHHHHHhhcCHHHHHhcccCCCCCCcHHHHHHHHHHHHHHHHHHHhcCCCcCCCCHHHHHHHhHHHhh
+Confidence            345689999999999998764 3        344555556788999999999999999654     57799999999999
+
+
+Q ss_pred             CCChhhHHHHHHhhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccCCCCCCCCCCCCCCCCCCccCCCCCC
+Q sp|Q6ZMY3|SPOC  670 LRDPRNLDLFLKVVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQKEPCRLPASKMTHKGEVEIQRDMDQ  749 (1216)
+Q Consensus       670 lrdprnldlflkvvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqqkepcrlpaskmthkgeveiqrdmdq  749 (1216)
+                      |||++|+.|+.+|++|+|+|.+||.|+++||++++|+++++++++++++++++.+++   +|++|+||||||+||++...
+T Consensus       313 Lkd~~N~~L~~~vl~g~i~p~~lv~ms~~ela~~e~k~~~e~~~~~~l~~~vl~~~~---~p~~~~ThKGee~ie~~~~~  389 (594)
+T 4BXZ_X          313 LKDKKNLELKAHVVEGKLPLNKLVNMNASELANPDLQEFKEKRDKIILENFIVEVPD---KPMYVKTHKGDELIEDIAEP  389 (594)
+T ss_pred             cCCCCCHHHHHHHHcCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHHccccCCCC---CCceeecCCCceeecCCCCc
+Confidence            999999999999999999999999999999999999999999999999999999988   99999999999999987654
+
+
+Q ss_pred             CCChhhcCCCCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcCCCCCCCccccCChhhhcccCCchhhcccCCCCCCCC
+Q sp|Q6ZMY3|SPOC  750 TLTLEDLVGPQMFMDCSPQALPIASEDTTGQHDHHFLDPNCHICKDWEPSNELLGSFEAAKSCGDNIFQKALSQTPMPAP  829 (1216)
+Q Consensus       750 tltledlvgpqmfmdcspqalpiasedttgqhdhhfldpnchickdwepsnellgsfeaakscgdnifqkalsqtpmpap  829 (1216)
+                      .+  |.+                +++|+++.|+++||           ++|         ++             +++|+
+T Consensus       390 ~~--~~~----------------~~~~~~~~~~~~s~-----------~~~---------~~-------------~~~d~  418 (594)
+T 4BXZ_X          390 QE--DIL----------------YSKDSIRLHNIDSI-----------DSD---------KS-------------KIEQT  418 (594)
+T ss_pred             cc--ccc----------------cCCCCccccCcccc-----------ccC---------cc-------------ccccc
+Confidence            43  323                44566666666665           122         11             33454
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccchhhhh-hhhhhhhhccCchh----hhhhhchh-hhhh
+Q sp|Q6ZMY3|SPOC  830 EMPKTRELSPTEPQDRVPPSGLHVPAAPTKALPCLPPWEGVLDMFSIK-RFRARAQLVSGHSC----RLVQALPT-VIRS  903 (1216)
+Q Consensus       830 empktrelsptepqdrvppsglhvpaaptkalpclppwegvldmfsik-rfraraqlvsghsc----rlvqalpt-virs  903 (1216)
+                      ++     |.+ +|   +|+           +.....+|+|.|.|+++. .|.++|+|++|...    .|.++||. .|.|
+T Consensus       419 ~~-----~~~-~~---sp~-----------~~~~~~vW~G~i~~~~~~~~f~~~a~~v~g~~~~~~~~~~~~lp~~~l~i  478 (594)
+T 4BXZ_X          419 HA-----ISK-EP---SPS-----------TIINEESLNCAFLYPGLGLEFTGYLNYIGASQKLRRDIFKEAIGDGKLYV  478 (594)
+T ss_pred             hh-----hcC-CC---CCC-----------ccCCCCceEEEEEcCCCceeEEEEEEEEecCcccccccHHHHhCCCeEEE
+Confidence            43     445 45   555           345788999999999999 99999999999863    69999998 9999
+
+
+Q ss_pred             CCCCCHHHHHHHHHHHCcccccceEEEEeCCCCccch-hhhHHHHHHhhhhhhcCCCCccc---cceeeccCCCCCCCCC
+Q sp|Q6ZMY3|SPOC  904 AGCIPSNIVWDLLASICPAKAKDVCVVRLCPHGARDT-QNCRLLYSYLNDRQRHGLASVEH---MGMVLLPLPAFQPLPT  979 (1216)
+Q Consensus       904 agcipsnivwdllasicpakakdvcvvrlcphgardt-qncrllysylndrqrhglasveh---mgmvllplpafqplpt  979 (1216)
+                      .|||+.+.+++||.+|  +.+|+|+||+|.|..+.+. ..|.+||+||.+++|||||....   ||+||||+.+++ +|.
+T Consensus       479 ~GRl~~~~a~~YL~~~--s~sr~~~v~~l~p~~~~~~~~~~~~l~~y~~~r~R~gVv~~~~~~vkd~YliPl~~~~-~P~  555 (594)
+T 4BXZ_X          479 EGRLPTTTAAPYLKEI--SCSRAILVYQLFPSNDSESKTTFADVVDSLENKGRIAGIKPKTRYEKDFYIVPSKGGE-IPE  555 (594)
+T ss_pred             EeCCCHHHHHHHHHHH--cCCceEEEEEEecCCCcchhhHHHHHHHHHHHcCCEEEeCCCCCCeeEEEEEcCCCCc-chH
+Confidence            9999999999999999  8899999999999876664 79999999999999999999765   999999999999 999
+
+
+Q ss_pred             CC-CCCCC------CCcccccCCCCCCCCCccccchhhhhhcCCCCCC
+Q sp|Q6ZMY3|SPOC  980 RL-RPLGG------PGLWALPVSPLLSPGLEVTHSSLLLAVLLPKEGL 1020 (1216)
+Q Consensus       980 rl-rplgg------pglwalpvspllspglevthsslllavllpkegl 1020 (1216)
+                      || .++++      ++|+.           .....++||||||+++..
+T Consensus       556 ~l~~~~~~~~~~~~~~~~~-----------~~~~~~~Ll~v~V~~~~~  592 (594)
+T 4BXZ_X          556 ILKDILGSHNDERSERFSR-----------MKSDERTLFAFVVVKQEF  592 (594)
+T ss_pred             HHHHHhccCCcccchhhcc-----------ccCCCCEEEEEEEEehhh
+Confidence            99 77774      23430           012378999999999864
+
+
+No 2
+>6IC8_A SPOC domain, PHF3, pSER2 peptide; HET: SEP; 1.929A {Homo sapiens}
+Probab=99.22  E-value=9.5e-12  Score=113.62  Aligned_cols=150  Identities=32%  Similarity=0.569  Sum_probs=135.3  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCccchhhhhhhhhhhhhccCchhhhhhhchhhhhhCCCCCHHHHHHHHHHHCcccccceEEEEeCCCCccc
+Q sp|Q6ZMY3|SPOC  860 ALPCLPPWEGVLDMFSIKRFRARAQLVSGHSCRLVQALPTVIRSAGCIPSNIVWDLLASICPAKAKDVCVVRLCPHGARD  939 (1216)
+Q Consensus       860 alpclppwegvldmfsikrfraraqlvsghscrlvqalptvirsagcipsnivwdllasicpakakdvcvvrlcphgard  939 (1216)
+                      .+....+|+|.|.|+++..|.++|++++|....|.++||+.|.|+|||+.+++++||.+++.+.+|+|+|++|.|.++++
+T Consensus         8 ~~~~~~vW~G~l~~~~~~~~~~~a~~v~g~~~~~~~~lp~~L~i~GRi~~~~~~~yl~~~~~s~~r~i~v~~l~p~~~~~   87 (162)
+T 6IC8_A            8 LARLNFIWKGFINMPSVAKFVTKAYPVSGSPEYLTEDLPDSIQVGGRISPQTVWDYVEKIKASGTKEICVVRFTPVTEED   87 (162)
+T ss_dssp             ----CCSEEEEEEETTTEEEEEEEEEEESCCGGGGGGSCSEEEEEEEECHHHHHHHHHHHHHHSSEEEEEEEEEESSHHH
+T ss_pred             hhhCCCcEEEeecCCCCCeEEEEEEEecCChhHhhhcCCCceEEecccCHHHHHHHHHHHhhcCCCEEEEEEEccCCHHH
+Confidence            35678899999999999999999999999987889999999999999999999999999999999999999999988777
+
+
+Q ss_pred             hhhhHHHHHHhhhhhhcCCCCccc---cceeeccCCCCCCCCCCCCCCCCCCcccccCCCCCCCCCccccchhhhhhcCC
+Q sp|Q6ZMY3|SPOC  940 TQNCRLLYSYLNDRQRHGLASVEH---MGMVLLPLPAFQPLPTRLRPLGGPGLWALPVSPLLSPGLEVTHSSLLLAVLLP 1016 (1216)
+Q Consensus       940 tqncrllysylndrqrhglasveh---mgmvllplpafqplptrlrplggpglwalpvspllspglevthsslllavllp 1016 (1216)
+                      ...|++||+||++++|||||....   ||+||||+.+++++|++|.++++++++             ..++++||||||+
+T Consensus        88 ~~~y~~l~~yl~~r~R~gVv~~~~~~~kd~YlvPl~~~~~lP~~l~~l~~~~l~-------------~~r~~~LLgvvV~  154 (162)
+T 6IC8_A           88 QISYTLLFAYFSSRKRYGVAANNMKQVKDMYLIPLGATDKIPHPLVPFDGPGLE-------------LHRPNLLLGLIIR  154 (162)
+T ss_dssp             HHHHHHHHHHHHHHTCEEEESCCCTTEEEEEEEEECTTCCCCGGGCSCSSSCCC-------------SSCCSEEEEEEEE
+T ss_pred             HHHHHHHHHHHhcCCcEEEEeCCCcceeeEEEEcCCCCCCCCcccccCCCCCCC-------------CCCCCEEEEEEEE
+Confidence            789999999999999999999764   999999999999999999999998887             5578999999999
+
+
+Q ss_pred             CCCCCC
+Q sp|Q6ZMY3|SPOC 1017 KEGLPD 1022 (1216)
+Q Consensus      1017 keglpd 1022 (1216)
+                      +|+++.
+T Consensus       155 ~k~~~~  160 (162)
+T 6IC8_A          155 QKLKRQ  160 (162)
+T ss_dssp             ECC---
+T ss_pred             cCCccC
+Confidence            999873
+
+
+No 3
+>6IC9_B SPOC domain, PHF3, pSER2 peptide; HET: SEP; 1.748A {Homo sapiens}
+Probab=99.22  E-value=9.5e-12  Score=113.62  Aligned_cols=150  Identities=32%  Similarity=0.569  Sum_probs=135.3  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCccchhhhhhhhhhhhhccCchhhhhhhchhhhhhCCCCCHHHHHHHHHHHCcccccceEEEEeCCCCccc
+Q sp|Q6ZMY3|SPOC  860 ALPCLPPWEGVLDMFSIKRFRARAQLVSGHSCRLVQALPTVIRSAGCIPSNIVWDLLASICPAKAKDVCVVRLCPHGARD  939 (1216)
+Q Consensus       860 alpclppwegvldmfsikrfraraqlvsghscrlvqalptvirsagcipsnivwdllasicpakakdvcvvrlcphgard  939 (1216)
+                      .+....+|+|.|.|+++..|.++|++++|....|.++||+.|.|+|||+.+++++||.+++.+.+|+|+|++|.|.++++
+T Consensus         8 ~~~~~~vW~G~l~~~~~~~~~~~a~~v~g~~~~~~~~lp~~L~i~GRi~~~~~~~yl~~~~~s~~r~i~v~~l~p~~~~~   87 (162)
+T 6IC9_B            8 LARLNFIWKGFINMPSVAKFVTKAYPVSGSPEYLTEDLPDSIQVGGRISPQTVWDYVEKIKASGTKEICVVRFTPVTEED   87 (162)
+T ss_dssp             ----CCSEEEEEEETTTEEEEEEEEEEESCCTTHHHHSCSEEEEEEEECHHHHHHHHHHHHHHCSEEEEEEEEEESSHHH
+T ss_pred             hhhCCCcEEEeecCCCCCeEEEEEEEecCChhHhhhcCCCceEEecccCHHHHHHHHHHHhhcCCCEEEEEEEccCCHHH
+Confidence            35678899999999999999999999999987889999999999999999999999999999999999999999988777
+
+
+Q ss_pred             hhhhHHHHHHhhhhhhcCCCCccc---cceeeccCCCCCCCCCCCCCCCCCCcccccCCCCCCCCCccccchhhhhhcCC
+Q sp|Q6ZMY3|SPOC  940 TQNCRLLYSYLNDRQRHGLASVEH---MGMVLLPLPAFQPLPTRLRPLGGPGLWALPVSPLLSPGLEVTHSSLLLAVLLP 1016 (1216)
+Q Consensus       940 tqncrllysylndrqrhglasveh---mgmvllplpafqplptrlrplggpglwalpvspllspglevthsslllavllp 1016 (1216)
+                      ...|++||+||++++|||||....   ||+||||+.+++++|++|.++++++++             ..++++||||||+
+T Consensus        88 ~~~y~~l~~yl~~r~R~gVv~~~~~~~kd~YlvPl~~~~~lP~~l~~l~~~~l~-------------~~r~~~LLgvvV~  154 (162)
+T 6IC9_B           88 QISYTLLFAYFSSRKRYGVAANNMKQVKDMYLIPLGATDKIPHPLVPFDGPGLE-------------LHRPNLLLGLIIR  154 (162)
+T ss_dssp             HHHHHHHHHHHHTTTCEEEESSCCTTEEEEEEEEECTTCCCCGGGCSCSSSCCC-------------SSCCCEEEEEEEE
+T ss_pred             HHHHHHHHHHHhcCCcEEEEeCCCcceeeEEEEcCCCCCCCCcccccCCCCCCC-------------CCCCCEEEEEEEE
+Confidence            789999999999999999999764   999999999999999999999998887             5578999999999
+
+
+Q ss_pred             CCCCCC
+Q sp|Q6ZMY3|SPOC 1017 KEGLPD 1022 (1216)
+Q Consensus      1017 keglpd 1022 (1216)
+                      +|+++.
+T Consensus       155 ~k~~~~  160 (162)
+T 6IC9_B          155 QKLKRQ  160 (162)
+T ss_dssp             ECC---
+T ss_pred             cCCccC
+Confidence            999873
+
+
+No 4
+>6Q2V_D SPOC domain, PHF3, TRANSCRIPTION; HET: GOL, MSE; 2.594A {Homo sapiens}
+Probab=99.22  E-value=9.5e-12  Score=113.62  Aligned_cols=150  Identities=32%  Similarity=0.569  Sum_probs=137.4  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCccchhhhhhhhhhhhhccCchhhhhhhchhhhhhCCCCCHHHHHHHHHHHCcccccceEEEEeCCCCccc
+Q sp|Q6ZMY3|SPOC  860 ALPCLPPWEGVLDMFSIKRFRARAQLVSGHSCRLVQALPTVIRSAGCIPSNIVWDLLASICPAKAKDVCVVRLCPHGARD  939 (1216)
+Q Consensus       860 alpclppwegvldmfsikrfraraqlvsghscrlvqalptvirsagcipsnivwdllasicpakakdvcvvrlcphgard  939 (1216)
+                      .+....+|+|.|.|+++..|.++|++++|....|.++||+.|.|+|||+.+++++||.+++.+.+|+|+|++|.|.++++
+T Consensus         8 ~~~~~~vW~G~l~~~~~~~~~~~a~~v~g~~~~~~~~lp~~L~i~GRi~~~~~~~yl~~~~~s~~r~i~v~~l~p~~~~~   87 (162)
+T 6Q2V_D            8 LARLNFIWKGFINMPSVAKFVTKAYPVSGSPEYLTEDLPDSIQVGGRISPQTVWDYVEKIKASGTKEICVVRFTPVTEED   87 (162)
+T ss_dssp             ----CCSEEEEEEETTTEEEEEEEEEEESCCTTHHHHSCSEEEEEEEECHHHHHHHHHHHHHSTTEEEEEEEEEESSHHH
+T ss_pred             hhhCCCcEEEeecCCCCCeEEEEEEEecCChhHhhhcCCCceEEecccCHHHHHHHHHHHhhcCCCEEEEEEEccCCHHH
+Confidence            35678899999999999999999999999987889999999999999999999999999999999999999999988777
+
+
+Q ss_pred             hhhhHHHHHHhhhhhhcCCCCccc---cceeeccCCCCCCCCCCCCCCCCCCcccccCCCCCCCCCccccchhhhhhcCC
+Q sp|Q6ZMY3|SPOC  940 TQNCRLLYSYLNDRQRHGLASVEH---MGMVLLPLPAFQPLPTRLRPLGGPGLWALPVSPLLSPGLEVTHSSLLLAVLLP 1016 (1216)
+Q Consensus       940 tqncrllysylndrqrhglasveh---mgmvllplpafqplptrlrplggpglwalpvspllspglevthsslllavllp 1016 (1216)
+                      ...|++||+||++++|||||....   ||+||||+.+++++|++|.++++++++             ..++++||||||+
+T Consensus        88 ~~~y~~l~~yl~~r~R~gVv~~~~~~~kd~YlvPl~~~~~lP~~l~~l~~~~l~-------------~~r~~~LLgvvV~  154 (162)
+T 6Q2V_D           88 QISYTLLFAYFSSRKRYGVAANNMKQVKDMYLIPLGATDKIPHPLVPFDGPGLE-------------LHRPNLLLGLIIR  154 (162)
+T ss_dssp             HHHHHHHHHHHHHHTCEEEECSCCSSEEEEEEEEECSSSCCCGGGCSCSSSCCC-------------SSCCCEEEEEEEE
+T ss_pred             HHHHHHHHHHHhcCCcEEEEeCCCcceeeEEEEcCCCCCCCCcccccCCCCCCC-------------CCCCCEEEEEEEE
+Confidence            789999999999999999999764   999999999999999999999998887             5578999999999
+
+
+Q ss_pred             CCCCCC
+Q sp|Q6ZMY3|SPOC 1017 KEGLPD 1022 (1216)
+Q Consensus      1017 keglpd 1022 (1216)
+                      +|+++.
+T Consensus       155 ~k~~~~  160 (162)
+T 6Q2V_D          155 QKLKRQ  160 (162)
+T ss_dssp             ECCBCC
+T ss_pred             cCCccC
+Confidence            999873
+
+
+No 5
+>4BXX_X DNA-DIRECTED RNA POLYMERASE II SUBUNIT; TRANSFERASE, TRANSCRIPTION; HET: BRU; 3.28A {SACCHAROMYCES CEREVISIAE}
+Probab=99.19  E-value=4e-11  Score=105.41  Aligned_cols=122  Identities=25%  Similarity=0.325  Sum_probs=105.5  Template_Neff=9.200
+
+Q ss_pred             ceecCchhhhhHHHHHHHHH-H--------cCCCCcCCHHHHHHHHHHHHHHHHHHhcC-----CCCCccccchhhhhhC
+Q sp|Q6ZMY3|SPOC  605 YIGVRGTVVRSMQEVLWTRL-R--------ELPDPVLSEEVVEGIAAGIEAALWDLTQG-----TNGRYKTKYRSLLFNL  670 (1216)
+Q Consensus       605 yigvrgtvvrsmqevlwtrl-r--------elpdpvlseevvegiaagieaalwdltqg-----tngryktkyrsllfnl  670 (1216)
+                      ...+|++++++|.++|.... .        .++.+......+..+|..||.+||..|..     ....|+.++|+|+|||
+T Consensus        10 ~~~~R~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~IE~~i~~~~~~~~~~~~~~~Y~~k~r~l~~nL   89 (146)
+T 4BXX_X           10 EHKLRYNAEKMFSTLFSKFIVPETIEAKLYELPDGKDVISISQEFAHNLEEELYKACLNVEFGTLDKIYTEKVRSLYSNL   89 (146)
+T ss_pred             hHHHHHHHHHHHHHHHHhhcCHHHHHhhccCCCCCCCHHHHHHHHHHHHHHHHHHHccCCccCCCCHHHHHHHHHHHHhh
+Confidence            45689999999999998764 2        12222244557788999999999999964     2678999999999999
+
+
+Q ss_pred             CChhhHHHHHHhhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccCCC
+Q sp|Q6ZMY3|SPOC  671 RDPRNLDLFLKVVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQKE  726 (1216)
+Q Consensus       671 rdprnldlflkvvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqqke  726 (1216)
+                      +|++|+.|+.+|++|+|+|++|+.|+++||++++|+++++++++++++++++...+
+T Consensus        90 k~~~N~~l~~~il~g~i~p~~l~~ms~~elas~e~k~~~e~~~~~~~~~~~~~~~~  145 (146)
+T 4BXX_X           90 KDKKNLELKAHVVEGKLPLNKLVNMNASELANPDLQEFKEKRDKIILENFIVEVPD  145 (146)
+T ss_pred             cCCCCHHHHHHHHcCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHHhhccCCCC
+Confidence            99999999999999999999999999999999999999999999999999988653
+
+
+No 6
+>4BY1_X DNA-DIRECTED RNA POLYMERASE II SUBUNIT; TRANSCRIPTION; HET: BRU, APC; 3.6A {SACCHAROMYCES CEREVISIAE}
+Probab=99.19  E-value=4e-11  Score=105.41  Aligned_cols=122  Identities=25%  Similarity=0.325  Sum_probs=105.5  Template_Neff=9.200
+
+Q ss_pred             ceecCchhhhhHHHHHHHHH-H--------cCCCCcCCHHHHHHHHHHHHHHHHHHhcC-----CCCCccccchhhhhhC
+Q sp|Q6ZMY3|SPOC  605 YIGVRGTVVRSMQEVLWTRL-R--------ELPDPVLSEEVVEGIAAGIEAALWDLTQG-----TNGRYKTKYRSLLFNL  670 (1216)
+Q Consensus       605 yigvrgtvvrsmqevlwtrl-r--------elpdpvlseevvegiaagieaalwdltqg-----tngryktkyrsllfnl  670 (1216)
+                      ...+|++++++|.++|.... .        .++.+......+..+|..||.+||..|..     ....|+.++|+|+|||
+T Consensus        10 ~~~~R~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~IE~~i~~~~~~~~~~~~~~~Y~~k~r~l~~nL   89 (146)
+T 4BY1_X           10 EHKLRYNAEKMFSTLFSKFIVPETIEAKLYELPDGKDVISISQEFAHNLEEELYKACLNVEFGTLDKIYTEKVRSLYSNL   89 (146)
+T ss_pred             hHHHHHHHHHHHHHHHHhhcCHHHHHhhccCCCCCCCHHHHHHHHHHHHHHHHHHHccCCccCCCCHHHHHHHHHHHHhh
+Confidence            45689999999999998764 2        12222244557788999999999999964     2678999999999999
+
+
+Q ss_pred             CChhhHHHHHHhhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccCCC
+Q sp|Q6ZMY3|SPOC  671 RDPRNLDLFLKVVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQKE  726 (1216)
+Q Consensus       671 rdprnldlflkvvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqqke  726 (1216)
+                      +|++|+.|+.+|++|+|+|++|+.|+++||++++|+++++++++++++++++...+
+T Consensus        90 k~~~N~~l~~~il~g~i~p~~l~~ms~~elas~e~k~~~e~~~~~~~~~~~~~~~~  145 (146)
+T 4BY1_X           90 KDKKNLELKAHVVEGKLPLNKLVNMNASELANPDLQEFKEKRDKIILENFIVEVPD  145 (146)
+T ss_pred             cCCCCHHHHHHHHcCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHHhhccCCCC
+Confidence            99999999999999999999999999999999999999999999999999988653
+
+
+No 7
+>4BY7_X DNA-DIRECTED RNA POLYMERASE II SUBUNIT; RNA POLYMERASE II, BYE1, TRANSCRIPTION; HET: EPE, BRU; 3.15A {SACCHAROMYCES CEREVISIAE}
+Probab=99.19  E-value=4e-11  Score=105.41  Aligned_cols=122  Identities=25%  Similarity=0.325  Sum_probs=105.5  Template_Neff=9.200
+
+Q ss_pred             ceecCchhhhhHHHHHHHHH-H--------cCCCCcCCHHHHHHHHHHHHHHHHHHhcC-----CCCCccccchhhhhhC
+Q sp|Q6ZMY3|SPOC  605 YIGVRGTVVRSMQEVLWTRL-R--------ELPDPVLSEEVVEGIAAGIEAALWDLTQG-----TNGRYKTKYRSLLFNL  670 (1216)
+Q Consensus       605 yigvrgtvvrsmqevlwtrl-r--------elpdpvlseevvegiaagieaalwdltqg-----tngryktkyrsllfnl  670 (1216)
+                      ...+|++++++|.++|.... .        .++.+......+..+|..||.+||..|..     ....|+.++|+|+|||
+T Consensus        10 ~~~~R~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~IE~~i~~~~~~~~~~~~~~~Y~~k~r~l~~nL   89 (146)
+T 4BY7_X           10 EHKLRYNAEKMFSTLFSKFIVPETIEAKLYELPDGKDVISISQEFAHNLEEELYKACLNVEFGTLDKIYTEKVRSLYSNL   89 (146)
+T ss_pred             hHHHHHHHHHHHHHHHHhhcCHHHHHhhccCCCCCCCHHHHHHHHHHHHHHHHHHHccCCccCCCCHHHHHHHHHHHHhh
+Confidence            45689999999999998764 2        12222244557788999999999999964     2678999999999999
+
+
+Q ss_pred             CChhhHHHHHHhhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccCCC
+Q sp|Q6ZMY3|SPOC  671 RDPRNLDLFLKVVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQKE  726 (1216)
+Q Consensus       671 rdprnldlflkvvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqqke  726 (1216)
+                      +|++|+.|+.+|++|+|+|++|+.|+++||++++|+++++++++++++++++...+
+T Consensus        90 k~~~N~~l~~~il~g~i~p~~l~~ms~~elas~e~k~~~e~~~~~~~~~~~~~~~~  145 (146)
+T 4BY7_X           90 KDKKNLELKAHVVEGKLPLNKLVNMNASELANPDLQEFKEKRDKIILENFIVEVPD  145 (146)
+T ss_pred             cCCCCHHHHHHHHcCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHHhhccCCCC
+Confidence            99999999999999999999999999999999999999999999999999988653
+
+
+No 8
+>5IYC_U DNA-directed RNA polymerase II subunit; initiation, RNA polymerase II, human; HET: ZN; 3.9A {Homo sapiens}
+Probab=98.99  E-value=1.2e-09  Score=105.37  Aligned_cols=118  Identities=25%  Similarity=0.287  Sum_probs=99.2  Template_Neff=9.500
+
+Q ss_pred             CcceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCCCCCccccchhhhhhCCChhhHHHHHHh
+Q sp|Q6ZMY3|SPOC  603 SLYIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGTNGRYKTKYRSLLFNLRDPRNLDLFLKV  682 (1216)
+Q Consensus       603 slyigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgtngryktkyrsllfnlrdprnldlflkv  682 (1216)
+                      .....+|++++++|.++|...... .   .....+..+|..||.+||..+...+..|+.++|+|+|||+|++|+.|+.+|
+T Consensus       135 ~~~~~~R~~~~~~l~~~l~~~~~~-~---~~~~~~~~~a~~iE~~i~~~~~~~~~~Y~~~~R~l~~nLk~~~n~~l~~~v  210 (301)
+T 5IYC_U          135 STSDSVRLKCREMLAAALRTGDDY-I---AIGADEEELGSQIEEAIYQEIRNTDMKYKNRVRSRISNLKDAKNPNLRKNV  210 (301)
+T ss_dssp             CCCCHHHHHHHHHHHHHHTGGGHH-H---HHTCCHHHHHHHHHHHHHHHHCSCCHHHHHHHHHHHHHHSCSSCHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHhCcch-h---hcCCCHHHHHHHHHHHHHHHHhCCChhHHHhhHHHHHccCCCCCHHHHHHH
+Confidence            345568999999999999753210 0   001134789999999999999877888999999999999999999999999
+
+
+Q ss_pred             hcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccC
+Q sp|Q6ZMY3|SPOC  683 VHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQ  724 (1216)
+Q Consensus       683 vhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqq  724 (1216)
+                      +.|+|+|.+|+.|++++|+++++++++++..++.++..++..
+T Consensus       211 l~g~i~p~~l~~m~~~el~~~~~k~~~~~~~~~~~~~~~~~~  252 (301)
+T 5IYC_U          211 LCGNIPPDLFARMTAEEMASDELKEMRKNLTKEAIREHQMAK  252 (301)
+T ss_dssp             HTTSSCHHHHTCCCSCCCCSSCHHHHHHHHHHHHHHHTTSCS
+T ss_pred             HcCCCCHHHHHcCChHHhCCHHHHHHHHHHHHHHHHHHHHhh
+Confidence            999999999999999999999999999998888877666553
+
+
+No 9
+>2DME_A PHF3, TFS2M, Glioblastoma multiforme, brain; NMR {Homo sapiens}
+Probab=98.94  E-value=3e-09  Score=89.90  Aligned_cols=110  Identities=41%  Similarity=0.686  Sum_probs=94.8  Template_Neff=9.600
+
+Q ss_pred             eecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCCCCCccccchhhhhhCCChhhHHHHHHhhcC
+Q sp|Q6ZMY3|SPOC  606 IGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGTNGRYKTKYRSLLFNLRDPRNLDLFLKVVHG  685 (1216)
+Q Consensus       606 igvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgtngryktkyrsllfnlrdprnldlflkvvhg  685 (1216)
+                      ..+|++++++|.++|...+.. .......+.+..+|..||.+||..+......|+.++|+|++||++.+|+.|+.+|++|
+T Consensus        10 ~~~R~~~r~~l~~~l~~~~~~-~~~~~~~~~~~~~a~~iE~~i~~~~~~~~~~Y~~~~r~l~~nlk~~~n~~l~~~i~~g   88 (120)
+T 2DME_A           10 DQIRQSVRHSLKDILMKRLTD-SNLKVPEEKAAKVATKIEKELFSFFRDTDAKYKNKYRSLMFNLKDPKNNILFKKVLKG   88 (120)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTT-TTCCCCHHHHHHHHHHHHHHHHHHHCSCSHHHHHHHHHHTHHHHSSSCCSHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHHHHccc-cCCCCCHHHHHHHHHHHHHHHHHHcCCCcHHHHHHHHHHHHhCCCCCCHHHHHHHHcC
+Confidence            457999999999999877631 1122345678899999999999999776788999999999999999999999999999
+
+
+Q ss_pred             CCCHHHHhhhhcCCCCHHHHHHHhhhhhhcC
+Q sp|Q6ZMY3|SPOC  686 DVTPYDLVRMSSMQLAPQELARWRDQEEKRG  716 (1216)
+Q Consensus       686 dvtpydlvrmssmqlapqelarwrdqeekrg  716 (1216)
+                      +|+|.+|+.|+++||+++++|+++++..+++
+T Consensus        89 ~i~~~~l~~m~~~el~~~~~k~~~~~~~~~~  119 (120)
+T 2DME_A           89 EVTPDHLIRMSPEELASKELAAWRRRSGPSS  119 (120)
+T ss_dssp             SSCTTHHHHSCTTTTTTCCSTTTCTTCCCCC
+T ss_pred             CCCHHHHhcCCHHHHCCHHHHHHHHHhcccc
+Confidence            9999999999999999999999988766543
+
+
+No 10
+>5XON_U DNA-directed RNA polymerase subunit, DNA-directed; transcription, complex, TRANSCRIPTION-RNA complex; HET: ZN; 3.83A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=98.93  E-value=3.9e-09  Score=93.43  Aligned_cols=115  Identities=21%  Similarity=0.288  Sum_probs=100.6  Template_Neff=10.200
+
+Q ss_pred             CcceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhc-CCCCCccccchhhhhhCCChhhHHHHHH
+Q sp|Q6ZMY3|SPOC  603 SLYIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQ-GTNGRYKTKYRSLLFNLRDPRNLDLFLK  681 (1216)
+Q Consensus       603 slyigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltq-gtngryktkyrsllfnlrdprnldlflk  681 (1216)
+                      .....+|++++++|.++|.....   .   ..+.+..+|..||.+||+.+. .....|+.++|+|+|||++++|+.|+.+
+T Consensus        25 ~~~~~~R~~~~~~l~~~l~~~~~---~---~~~~~~~~a~~iE~~i~~~~~~~~~~~Y~~~~r~l~~nlk~~~n~~l~~~   98 (190)
+T 5XON_U           25 IYENKTRNGSISAIYTALAMDSD---E---QPSKIFELVKDIEKQCFKAVNFTVDDTYRNKLRSLIMNLKNKNNPTLRRS   98 (190)
+T ss_pred             ccCCHHHHHHHHHHHHHHhcCCC---C---ChHHHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHccCCCCHHHHHH
+Confidence            33456899999999999987542   1   124567899999999999987 5578899999999999999999999999
+
+
+Q ss_pred             hhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCccccc
+Q sp|Q6ZMY3|SPOC  682 VVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQ  723 (1216)
+Q Consensus       682 vvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqq  723 (1216)
+                      |++|.|+|.+|+.|++++|+++++++.++++.++.+++.++.
+T Consensus        99 l~~g~i~p~~l~~m~~~~l~~~~~~~~~~~~~~~~~~~~~~~  140 (190)
+T 5XON_U           99 ILDHEIIPSKLVTMSAQELAPDSLKKEMEEIYKKNLFDAQGA  140 (190)
+T ss_pred             HHcCCCCHHHHhhCCHHHhCCHHHHHHHHHHHHHHHHhcccc
+Confidence            999999999999999999999999999999999998877765
+
+
+No 11
+>2LW4_A Transcription elongation factor A protein; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=98.88  E-value=8.6e-09  Score=84.77  Aligned_cols=102  Identities=29%  Similarity=0.373  Sum_probs=86.4  Template_Neff=10.100
+
+Q ss_pred             eecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCCCCCccccchhhhhhCCChhhHHHHHHhhcC
+Q sp|Q6ZMY3|SPOC  606 IGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGTNGRYKTKYRSLLFNLRDPRNLDLFLKVVHG  685 (1216)
+Q Consensus       606 igvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgtngryktkyrsllfnlrdprnldlflkvvhg  685 (1216)
+                      ..+|++++++|.++|.....    .....+.+..+|..||.+||..+...+..|++++|+|++||++++|+.|+.+|++|
+T Consensus        10 ~~~R~~~~~~l~~~l~~~~~----~~~~~~~~~~~a~~iE~~i~~~~~~~~~~Y~~~~r~l~~nl~~~~n~~l~~~i~~~   85 (113)
+T 2LW4_A           10 DAVRNKCREMLTAALQTDHD----HVAIGADCERLSAQIEECIFRDVGNTDMKYKNRVRSRISNLKDAKNPDLRRNVLCG   85 (113)
+T ss_dssp             STTHHHHHHHHHHHHHSSTH----HHHHTCCHHHHHHHHHHHHHHHHTCTTTHHHHHHHHHHHHHHCSSSSHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHhcCCc----cccccccHHHHHHHHHHHHHHHHCCCCHHHHHHhHHHHhccCCCCCHHHHHHHHCC
+Confidence            34799999999999985421    00001124678999999999999877788999999999999999999999999999
+
+
+Q ss_pred             CCCHHHHhhhhcCCCCHHHHHHHhhh
+Q sp|Q6ZMY3|SPOC  686 DVTPYDLVRMSSMQLAPQELARWRDQ  711 (1216)
+Q Consensus       686 dvtpydlvrmssmqlapqelarwrdq  711 (1216)
+                      +|+|..|+.|+++||+++++++++++
+T Consensus        86 ~i~p~~l~~m~~~el~~~~~k~~~~~  111 (113)
+T 2LW4_A           86 AITPQQIAVMTSEEMASDELKEIRKA  111 (113)
+T ss_dssp             SSCHHHHHHSCHHHHHCTTTTTCSSS
+T ss_pred             CCCHHHHhcCCHHHhCCHHHHHHHHH
+Confidence            99999999999999999999887664
+
+
+No 12
+>1PQV_S RNA polymerase II (E.C.2.7.7.6)/Transcription elongation; TRANSCRIPTION, MRNA CLEAVAGE, PROOFREADING, BACKTRACKING; 3.8A {Saccharomyces cerevisiae} SCOP: i.8.1.1
+Probab=98.80  E-value=1.6e-08  Score=98.29  Aligned_cols=115  Identities=23%  Similarity=0.308  Sum_probs=98.9  Template_Neff=9.400
+
+Q ss_pred             cceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHh-c-CCCCCccccchhhhhhCCChhhHHHHHH
+Q sp|Q6ZMY3|SPOC  604 LYIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLT-Q-GTNGRYKTKYRSLLFNLRDPRNLDLFLK  681 (1216)
+Q Consensus       604 lyigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdlt-q-gtngryktkyrsllfnlrdprnldlflk  681 (1216)
+                      ....+|++++++|.++|.....      ...+.+..+|..||.+||..+ . ..+..|+.++|+|+|||+|++|+.|+.+
+T Consensus       144 ~~~~~R~~~~~~l~~~l~~~~~------~~~~~~~~~a~~IE~~l~~~~~~~~~~~~Y~~~~R~l~~nLk~~~n~~lr~~  217 (309)
+T 1PQV_S          144 YHHKLRDQVLKALYDVLAKESE------HPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHK  217 (309)
+T ss_pred             cCcHHHHHHHHHHHHHHhccCC------CCchHHHHHHHHHHHHHHHHcCCCCCcHHHHHhHHHHHHhccCCCCHHHHHH
+Confidence            4467899999999999986431      012355779999999999984 4 3478899999999999999999999999
+
+
+Q ss_pred             hhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccC
+Q sp|Q6ZMY3|SPOC  682 VVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQ  724 (1216)
+Q Consensus       682 vvhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqq  724 (1216)
+                      |++|+|+|.+|+.|+++||++++++++++++.++.++..+...
+T Consensus       218 ll~g~i~p~~l~~m~~~el~s~e~k~~~~~~~~~~~~~~~~~~  260 (309)
+T 1PQV_S          218 IANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGAT  260 (309)
+T ss_pred             HHcCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHhcccccc
+Confidence            9999999999999999999999999999999998888776543
+
+
+No 13
+>3NDQ_A Transcription elongation factor A protein; helix bundle, TRANSCRIPTION; 1.933A {Homo sapiens}
+Probab=98.79  E-value=7.7e-09  Score=85.72  Aligned_cols=97  Identities=26%  Similarity=0.324  Sum_probs=78.7  Template_Neff=9.700
+
+Q ss_pred             cceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCCCCCccccchhhhhhCCChhhHHHHHHhh
+Q sp|Q6ZMY3|SPOC  604 LYIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGTNGRYKTKYRSLLFNLRDPRNLDLFLKVV  683 (1216)
+Q Consensus       604 lyigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgtngryktkyrsllfnlrdprnldlflkvv  683 (1216)
+                      ....+|++++++|.++|.......    .....+..+|..||.++|..+......|++++|+|++||++++|+.|+.+|+
+T Consensus        12 ~~~~~R~~~~~~l~~~l~~~~~~~----~~~~~~~~~a~~iE~~i~~~~~~~~~~Y~~k~r~l~~nLk~~~n~~l~~~i~   87 (108)
+T 3NDQ_A           12 TSDSVRLKCREMLAAALRTGDDYI----AIGADEEELGSQIEEAIYQEIRNTDMKYKNRVRSRISNLKDAKNPNLRKNVL   87 (108)
+T ss_dssp             CCCHHHHHHHHHHHHHTTGGGHHH----HHTCCHHHHHHHHHHHHHHHHCSSSHHHHHHHHHHHHHHTCTTCHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHhcCcchh----hcCCCHHHHHHHHHHHHHHHHccCCHHHHHHHHHHHHhcCCCCCHHHHHHHH
+Confidence            345689999999999997643100    0012346799999999999997767889999999999999999999999999
+
+
+Q ss_pred             cCCCCHHHHhhhhcCCCCHHH
+Q sp|Q6ZMY3|SPOC  684 HGDVTPYDLVRMSSMQLAPQE  704 (1216)
+Q Consensus       684 hgdvtpydlvrmssmqlapqe  704 (1216)
+                      +|+|+|++|+.|+++||+++|
+T Consensus        88 ~g~i~~~~l~~m~~~el~~~E  108 (108)
+T 3NDQ_A           88 CGNIPPDLFARMTAEEMASDE  108 (108)
+T ss_dssp             HTSSCHHHHHHCCTTTC----
+T ss_pred             cCCCCHHHHhcCCHHHhcCCC
+Confidence            999999999999999999875
+
+
+No 14
+>5FMF_2 DNA REPAIR HELICASE RAD25, SSL2; TRANSCRIPTION, PRE-INITIATION COMPLEX, RNA POLYMERASE; 6.0A {SACCHAROMYCES CEREVISIAE}
+Probab=98.71  E-value=1.8e-08  Score=87.25  Aligned_cols=114  Identities=24%  Similarity=0.316  Sum_probs=97.6  Template_Neff=10.500
+
+Q ss_pred             ceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCC--CCCccccchhhhhhCCChhhHHHHHHh
+Q sp|Q6ZMY3|SPOC  605 YIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGT--NGRYKTKYRSLLFNLRDPRNLDLFLKV  682 (1216)
+Q Consensus       605 yigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgt--ngryktkyrsllfnlrdprnldlflkv  682 (1216)
+                      ...+|++++++|.++|.....      .....+..+|..||.+||..+...  ...|+.++|+|++||++++|+.|+.+|
+T Consensus        10 ~~~~R~~~~~~l~~~l~~~~~------~~~~~~~~~a~~iE~~i~~~~~~~~~~~~Y~~~~r~l~~nl~~~~n~~l~~~i   83 (174)
+T 5FMF_2           10 HHKLRDQVLKALYDVLAKESE------HPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKI   83 (174)
+T ss_pred             ChHHHHHHHHHHHHHHhccCC------CCchHHHHHHHHHHHHHHHHcCCCcCHHHHHHHHHHHHHhhcCCCCHHHHHHH
+Confidence            345899999999999986531      112345678999999999987642  588999999999999999999999999
+
+
+Q ss_pred             hcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccC
+Q sp|Q6ZMY3|SPOC  683 VHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQ  724 (1216)
+Q Consensus       683 vhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqq  724 (1216)
+                      ++|+|+|..|+.|++++|+++++++.+++..++.+.+.++..
+T Consensus        84 ~~g~i~~~~l~~m~~~~l~~~~~~~~~~~~~~~~~~~~~~~~  125 (174)
+T 5FMF_2           84 ANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGAT  125 (174)
+T ss_pred             HCCCCCHHHHhcCCHHHhCCHHHHHHHHHHHHHHHHHhcccc
+Confidence            999999999999999999999999999998888888776653
+
+
+No 15
+>1ENW_A helix-bundle, TRANSCRIPTION; NMR {Saccharomyces cerevisiae} SCOP: a.5.4.1
+Probab=98.70  E-value=1.7e-08  Score=85.06  Aligned_cols=92  Identities=27%  Similarity=0.428  Sum_probs=79.2  Template_Neff=9.500
+
+Q ss_pred             eecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCCC---CCccccchhhhhhCCChhhHHHHHHh
+Q sp|Q6ZMY3|SPOC  606 IGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGTN---GRYKTKYRSLLFNLRDPRNLDLFLKV  682 (1216)
+Q Consensus       606 igvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgtn---gryktkyrsllfnlrdprnldlflkv  682 (1216)
+                      ..+|++++++|.++|.....   ..   .+.+..+|..||.+| ..|....   ..|+.++|+|+|||++++|+.|+.+|
+T Consensus        20 ~~~R~~~~~~l~~~l~~~~~---~~---~~~~~~~a~~iE~~l-~~~~~~~~~~~~Y~~~~r~l~~nl~~~~n~~l~~~v   92 (114)
+T 1ENW_A           20 HKLRDQVLKALYDVLAKESE---HP---PQSILHTAKAIESEM-NKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKI   92 (114)
+T ss_dssp             TTTHHHHHHHHHHHHHHHCS---SS---CSCHHHHHHHHTTTT-TSSCTTTTTHHHHHCCCCCHHHHHTTSCCCCTTTHH
+T ss_pred             HHHHHHHHHHHHHHHHhhCC---CC---chHHHHHHHHHHHHH-HHhCCCCCChHHHHHHHHHHHHhccCCCCHHHHHHH
+Confidence            35899999999999987642   11   124567899999999 8886655   78999999999999999999999999
+
+
+Q ss_pred             hcCCCCHHHHhhhhcCCCCHHH
+Q sp|Q6ZMY3|SPOC  683 VHGDVTPYDLVRMSSMQLAPQE  704 (1216)
+Q Consensus       683 vhgdvtpydlvrmssmqlapqe  704 (1216)
+                      ++|+|+|.+|+.|+++||+++|
+T Consensus        93 ~~g~i~p~~l~~m~~~ema~~e  114 (114)
+T 1ENW_A           93 ANGDITPEFLATCDAKDLAPAP  114 (114)
+T ss_dssp             HHCSSCCSSHHHHTTTTTCSCC
+T ss_pred             HCCCCCHHHHccCCHHHhCCCC
+Confidence            9999999999999999999863
+
+
+No 16
+>3PO3_S DNA-directed RNA polymerase II subunit; RNA Polymerase II, mRNA, Transcription; HET: PGE, EPE, BRU; 3.3A {Saccharomyces cerevisiae}
+Probab=98.66  E-value=7.9e-08  Score=83.88  Aligned_cols=114  Identities=24%  Similarity=0.316  Sum_probs=98.0  Template_Neff=10.400
+
+Q ss_pred             ceecCchhhhhHHHHHHHHHHcCCCCcCCHHHHHHHHHHHHHHHHHHhcCC--CCCccccchhhhhhCCChhhHHHHHHh
+Q sp|Q6ZMY3|SPOC  605 YIGVRGTVVRSMQEVLWTRLRELPDPVLSEEVVEGIAAGIEAALWDLTQGT--NGRYKTKYRSLLFNLRDPRNLDLFLKV  682 (1216)
+Q Consensus       605 yigvrgtvvrsmqevlwtrlrelpdpvlseevvegiaagieaalwdltqgt--ngryktkyrsllfnlrdprnldlflkv  682 (1216)
+                      ...+|++++++|.++|.....      ...+.+..+|..||.+||..+...  +..|+.++|+|++||++++|+.|+.+|
+T Consensus        14 ~~~~R~~~~~~l~~~l~~~~~------~~~~~~~~~a~~iE~~i~~~~~~~~~~~~Y~~~~r~l~~nl~~~~n~~l~~~i   87 (178)
+T 3PO3_S           14 HHKLRDQVLKALYDVLAKESE------HPPQSILHTAKAIESEMNKVNNCDTNEAAYKARYRIIYSNVISKNNPDLKHKI   87 (178)
+T ss_pred             ChHHHHHHHHHHHHHHhccCC------CCchHHHHHHHHHHHHHHHHCCCCccHHHHHHHHHHHHHHhcCCCCHHHHHHH
+Confidence            446899999999999976431      112355678999999999887642  588999999999999999999999999
+
+
+Q ss_pred             hcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCcccccC
+Q sp|Q6ZMY3|SPOC  683 VHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIEQQQ  724 (1216)
+Q Consensus       683 vhgdvtpydlvrmssmqlapqelarwrdqeekrglniieqqq  724 (1216)
+                      ++|+|+|.+|+.|++++|+++++++.++++.++.+...++..
+T Consensus        88 ~~g~i~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  129 (178)
+T 3PO3_S           88 ANGDITPEFLATCDAKDLAPAPLKQKIEEIAKQNLYNAQGAT  129 (178)
+T ss_pred             HcCCCCHHHHhcCChHHhCChhHHHHHHHHHHHHHHhccCCC
+Confidence            999999999999999999999999999998888888776654
+
+
+No 17
+>5KXF_A Flowering time control protein FPA; SPOC domain Arabidopsis flowering regulator; HET: MSE; 2.7A {Arabidopsis thaliana}
+Probab=96.44  E-value=0.0026  Score=60.92  Aligned_cols=127  Identities=20%  Similarity=0.272  Sum_probs=98.6  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCccchhhhhhhhhhhhhccCchhhhhhhchhhhhhCCCCCHHHHHHHHHHHCcccccceEEEEeCCCCccchh
+Q sp|Q6ZMY3|SPOC  862 PCLPPWEGVLDMFSIKRFRARAQLVSGHSCRLVQALPTVIRSAGCIPSNIVWDLLASICPAKAKDVCVVRLCPHGARDTQ  941 (1216)
+Q Consensus       862 pclppwegvldmfsikrfraraqlvsghscrlvqalptvirsagcipsnivwdllasicpakakdvcvvrlcphgardtq  941 (1216)
+                      ....+|+|.|.+.+...|.+.|++++|.   +...+|..|.|.+|+..+.+.+|+.+.     .++.|+.|.|.+..+..
+T Consensus        27 ~~~~~W~G~L~k~~~~~c~v~a~~v~g~---~~~~lP~~L~I~~R~~~~~l~~~~~~~-----~~~~v~~l~p~~~~d~~   98 (156)
+T 5KXF_A           27 DSDHIWRGMIAKGGTPVCCARCVPMGKG---IETKLPEVVNCSARTDLNMLAKHYAVA-----IGCEIVFFVPDREEDFA   98 (156)
+T ss_dssp             ---CCCEEEEEETTEEEEEEEEEEC-------CCCCCSEEEECEEEEHHHHHHHHHHC-----SEEEEEEEEESSGGGHH
+T ss_pred             CCCCEEEEEEEcCCcceEEEEEEEccCC---ccccCCCeeeceeecCHHHHHHHHHhh-----cCCEEEEEeCCCHHhHH
+Confidence            3577999999999888899999999986   356789999999999999999999843     35788889998777778
+
+
+Q ss_pred             hhHHHHHHhhhhhhcCCCCccc-cceeeccCCCCCCCCCCCCCCCCCCcccccCCCCCCCCCccccchhhhhhcCCCCC
+Q sp|Q6ZMY3|SPOC  942 NCRLLYSYLNDRQRHGLASVEH-MGMVLLPLPAFQPLPTRLRPLGGPGLWALPVSPLLSPGLEVTHSSLLLAVLLPKEG 1019 (1216)
+Q Consensus       942 ncrllysylndrqrhglasveh-mgmvllplpafqplptrlrplggpglwalpvspllspglevthsslllavllpkeg 1019 (1216)
+                      .|.+|++||.+|+|+|||.... +++||+|+....     ...|+                  ..+.+.||||||....
+T Consensus        99 ~~~~fv~YL~~K~RaGVv~l~~~~~lYIlPP~~~~-----~~~L~------------------~~~~~~Llgvv~~~~~  154 (156)
+T 5KXF_A           99 SYTEFLRYLSSKDRAGVAKLDDGTTLFLVPPSDFL-----TDVLQ------------------VTRQERLYGVVLKLPP  154 (156)
+T ss_dssp             HHHHHHHHHHTTTEEEEEECTTSCEEEEECSSTHH-----HHTSC------------------CCCCSSEEEEEEECCC
+T ss_pred             HHHHHHHHHhcCCcEEEEECCCCCEEEEECChHHH-----HHHhc------------------cCCCCcEEEEEEeCCC
+Confidence            9999999999999999997655 899999986531     11121                  2346679999987643
+
+
+No 18
+>3IH6_E Putative zinc protease; putative zinc protease, Bordetella pertussis; HET: EDO, MSE; 2.15A {Bordetella pertussis}
+Probab=37.62  E-value=2.4e+02  Score=23.98  Aligned_cols=14  Identities=7%  Similarity=-0.052  Sum_probs=6.8  Template_Neff=12.500
+
+Q ss_pred             CCCHHHHHHHhhhh
+Q sp|Q6ZMY3|SPOC  699 QLAPQELARWRDQE  712 (1216)
+Q Consensus       699 qlapqelarwrdqe  712 (1216)
+                      .+-.+++++..++.
+T Consensus       167 ~it~~~i~~~~~~~  180 (197)
+T 3IH6_E          167 EAKLDDVQRAAVAY  180 (197)
+T ss_dssp             HCCHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHH
+Confidence            34445555555543
+
+
+No 19
+>3IH6_F Putative zinc protease; putative zinc protease, Bordetella pertussis; HET: EDO, MSE; 2.15A {Bordetella pertussis}
+Probab=37.62  E-value=2.4e+02  Score=23.98  Aligned_cols=14  Identities=7%  Similarity=-0.052  Sum_probs=6.7  Template_Neff=12.500
+
+Q ss_pred             CCCHHHHHHHhhhh
+Q sp|Q6ZMY3|SPOC  699 QLAPQELARWRDQE  712 (1216)
+Q Consensus       699 qlapqelarwrdqe  712 (1216)
+                      .+-.+++++..++.
+T Consensus       167 ~it~~~i~~~~~~~  180 (197)
+T 3IH6_F          167 EAKLDDVQRAAVAY  180 (197)
+T ss_dssp             HCCHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHH
+Confidence            34444555555443
+
+
+No 20
+>3IVL_B Putative zinc protease; protease, inactive, peptidase, bordetella, parapertussis; HET: PEG, MSE; 2.2A {Bordetella parapertussis}
+Probab=33.58  E-value=2.8e+02  Score=24.02  Aligned_cols=16  Identities=6%  Similarity=-0.155  Sum_probs=8.3  Template_Neff=12.300
+
+Q ss_pred             CCCCHHHHHHHhhhhh
+Q sp|Q6ZMY3|SPOC  698 MQLAPQELARWRDQEE  713 (1216)
+Q Consensus       698 mqlapqelarwrdqee  713 (1216)
+                      +.+..+++++..++..
+T Consensus       163 ~~vt~~~v~~~~~~~l  178 (208)
+T 3IVL_B          163 RDAKLDDVQRAAVAYL  178 (208)
+T ss_dssp             HHCCHHHHHHHHHHHS
+T ss_pred             HcCCHHHHHHHHHHhc
+Confidence            3444555566655543
+
+
+No 21
+>1RW2_A Ku80, NHEJ, DNA-PK, DNA BINDING; NMR {Homo sapiens} SCOP: a.118.19.1
+Probab=25.60  E-value=3.3e+02  Score=27.41  Aligned_cols=8  Identities=13%  Similarity=0.455  Sum_probs=2.9  Template_Neff=7.300
+
+Q ss_pred             ccccchhh
+Q sp|Q6ZMY3|SPOC  659 YKTKYRSL  666 (1216)
+Q Consensus       659 yktkyrsl  666 (1216)
+                      |...+|.+
+T Consensus        97 yN~fl~~l  104 (152)
+T 1RW2_A           97 FNNFLKAL  104 (152)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33333333
+
+
+No 22
+>7KD3_A HxlR, Helix turn helix motifs; HET: CSO; 2.3A {Clostridioides difficile (strain R20291)}
+Probab=20.47  E-value=8.7e+02  Score=21.19  Aligned_cols=65  Identities=14%  Similarity=0.114  Sum_probs=42.3  Template_Neff=10.000
+
+Q ss_pred             CCCccccchhhhhhCCChhhHHHHHHhhcCCCCHHHHhhhhcCCCCHHHHHHHhhhhhhcCCCccc
+Q sp|Q6ZMY3|SPOC  656 NGRYKTKYRSLLFNLRDPRNLDLFLKVVHGDVTPYDLVRMSSMQLAPQELARWRDQEEKRGLNIIE  721 (1216)
+Q Consensus       656 ngryktkyrsllfnlrdprnldlflkvvhgdvtpydlvrmssmqlapqelarwrdqeekrglniie  721 (1216)
+                      +..|..-+..++..+.+.....+...+..+.++..+++..-+ .+.........+.+.++.+-...
+T Consensus        12 ~~~~~~~~~~~~~~l~~~~~~~il~~l~~~~~~~~el~~~~~-~~~~~~v~~~l~~L~~~Gli~~~   76 (114)
+T 7KD3_A           12 LDNYSCPIEATLALIGGKYKTLILWHLKDTILRFNELKKLIP-KATPKMLTQQLRELESDGLIIRV   76 (114)
+T ss_dssp             --CCSSSHHHHHHHHTSTTHHHHHHHHTTSEECHHHHHHHST-TSCHHHHHHHHHHHHHTTSEEEE
+T ss_pred             cCCCCChHHHHHHHHcCcchHHHHHHHhcCCCCHHHHHHHCC-CCCHHHHHHHHHHHHHCCCeeee
+Confidence            445777777888888776666777778778899999988763 24344455555555555544333
+
+
+No 23
+>1OW1_A SMART/HDAC1 associated repressor protein; beta-alpha-barrel, SPOC domain, TRANSCRIPTION; 1.8A {Homo sapiens} SCOP: b.131.1.3
+Probab=20.17  E-value=2.5e+02  Score=29.73  Aligned_cols=109  Identities=19%  Similarity=0.341  Sum_probs=78.3  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCccchhhhhhhhhhhhhccCchhhhhhhchh-----hhhhCCC--CCHHHHHHHHHHHCcccccceEEEEeCC
+Q sp|Q6ZMY3|SPOC  862 PCLPPWEGVLDMFSIKRFRARAQLVSGHSCRLVQALPT-----VIRSAGC--IPSNIVWDLLASICPAKAKDVCVVRLCP  934 (1216)
+Q Consensus       862 pclppwegvldmfsikrfraraqlvsghscrlvqalpt-----virsagc--ipsnivwdllasicpakakdvcvvrlcp  934 (1216)
+                      ..+.+|.|.|.+-.. .|.+..+++.|........|+.     .|.|..|  ++...+.+...+|..  ..+.+++--.|
+T Consensus        35 ~~P~~W~G~l~LKn~-~~~v~l~~i~Gn~~l~~~~l~~~~~~~~LrItQRlrLd~~~l~~v~~ri~~--~~~~~vllAlp  111 (195)
+T 1OW1_A           35 KYPIVWQGLLALKND-TAAVQLHFVSGNNVLAHRSLPLSEGGPPLRIAQRMRLEATQLEGVARRMTV--ETDYCLLLALP  111 (195)
+T ss_dssp             HSCEEEEEEEEETTE-EEEEEEEEEEECHHHHHHHSCCC---CCEEECEEEECSHHHHHHHHHHTSS--TTTEEEEEEEE
+T ss_pred             hCCceEEeEEEEcCC-cceEEEEEeecChhHHHhcCcCCCCCCCcceeeeeeCChHHHHHHHHHhcc--CCCeEEEEEee
+Confidence            357799999998876 5889999999997655555553     7889988  555667888888863  34555554445
+
+
+Q ss_pred             CCccc------hhhhH-HHHHHhhhhhhcCCCCccc-------cceeeccCCC
+Q sp|Q6ZMY3|SPOC  935 HGARD------TQNCR-LLYSYLNDRQRHGLASVEH-------MGMVLLPLPA  973 (1216)
+Q Consensus       935 hgard------tqncr-llysylndrqrhglasveh-------mgmvllplpa  973 (1216)
+                      .....      ...+. .|++||.+|+..|||....       --+||+|...
+T Consensus       112 ~~~~~~~~~~q~~~l~~~lv~YL~~K~AAGVv~l~~~~~~~~~~vlhiFPPce  164 (195)
+T 1OW1_A          112 CGRDQEDVVSQTESLKAAFITYLQAKQAAGIINVPNPGSNQPAYVLQIFPPCE  164 (195)
+T ss_dssp             CCSSHHHHHHHHHHCCCCCCHHHHHHTEEEEEEECCTTCCSCCEEEEEECSSH
+T ss_pred             CCCChHHHHHhHHHHHHHHHHHHHhcCceEEEECCCCCCCCCceEEEEeCCCH
+Confidence            54321      13466 4999999999999997532       3599999764
+
+

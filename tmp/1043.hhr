@@ -1,0 +1,169 @@
+Query         tr|A0A0D9SGA6|A0A0D9SGA6_HUMAN
+Match_columns 31
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:25:10 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1043.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1IBA_A GLUCOSE PERMEASE; PHOSP  29.7      51 0.00055   16.6   0.6   13    1-13      1-13  (101)
+  2 4I99_A Chromosome partition pr  24.5   1E+02  0.0011   16.0   1.1   18   10-27    275-292 (354)
+  3 4I99_B Chromosome partition pr  24.5   1E+02  0.0011   16.0   1.1   18   10-27    275-292 (354)
+  4 1XN6_A Structural genomics, Pr  22.5      81 0.00088   14.8   0.5   10   20-29     20-29  (143)
+  5 6ZZ6_A Structural maintenance   17.8 1.8E+02   0.002   15.6   1.2   20    9-28    293-312 (360)
+  6 3QKT_C DNA double-strand break  15.7 2.1E+02  0.0023   15.1   1.2   19   10-28    280-298 (339)
+  7 2QZG_B Conserved uncharacteriz  14.7 2.1E+02  0.0022   16.6   1.1   18   11-28     70-87  (94)
+  8 6CG0_N V(D)J recombination-act  14.2 1.7E+02  0.0019   12.7   0.6    7   23-29    118-124 (126)
+  9 3TJZ_B ADP-ribosylation factor  13.5 3.3E+02  0.0036   15.5   1.6   13    1-13      1-13  (355)
+ 10 6QJ2_A Smc4, Condensin complex  12.8 2.8E+02   0.003   14.9   1.1   20   10-29    322-341 (403)
+
+No 1
+>1IBA_A GLUCOSE PERMEASE; PHOSPHOTRANSFERASE SYSTEM, SUGAR TRANSPORT, TRANSFERASE; NMR {Escherichia coli} SCOP: d.95.1.1
+Probab=29.72  E-value=51  Score=16.64  Aligned_cols=13  Identities=31%  Similarity=0.491  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|A0A0D9SGA6|    1 MMRNKDKSQEEDS   13 (31)
+Q Consensus         1 mmrnkdksqeeds   13 (31)
+                      ||.|+++...+..
+T Consensus         1 ~~~~~~~~~~~~~   13 (101)
+T 1IBA_A            1 MFKNEDAKATGTS   13 (101)
+T ss_dssp             -------------
+T ss_pred             CCcchhhhccCch
+Confidence            7888877766554
+
+
+No 2
+>4I99_A Chromosome partition protein Smc, Putative; winged-helix domain and SMC head; HET: PO4, MSE; 2.3A {Pyrococcus furiosus}
+Probab=24.47  E-value=1e+02  Score=15.96  Aligned_cols=18  Identities=22%  Similarity=0.263  Sum_probs=14.1  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCchhhhhHhhh
+Q tr|A0A0D9SGA6|   10 EEDSSLHSNASRVVWNAL   27 (31)
+Q Consensus        10 eedsslhsnasrvvwnal   27 (31)
+                      |.+.+||..+.+.+++.|
+T Consensus       275 Epe~~Lhp~~q~~l~~~l  292 (354)
+T 4I99_A          275 EIDAHLDDANVKRVADLI  292 (354)
+T ss_dssp             STTTTCCHHHHHHHHHHH
+T ss_pred             chhhcCCHHHHHHHHHHH
+Confidence            667888888888777765
+
+
+No 3
+>4I99_B Chromosome partition protein Smc, Putative; winged-helix domain and SMC head; HET: PO4, MSE; 2.3A {Pyrococcus furiosus}
+Probab=24.47  E-value=1e+02  Score=15.96  Aligned_cols=18  Identities=22%  Similarity=0.263  Sum_probs=14.1  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCchhhhhHhhh
+Q tr|A0A0D9SGA6|   10 EEDSSLHSNASRVVWNAL   27 (31)
+Q Consensus        10 eedsslhsnasrvvwnal   27 (31)
+                      |.+.+||..+.+.+++.|
+T Consensus       275 Epe~~Lhp~~q~~l~~~l  292 (354)
+T 4I99_B          275 EIDAHLDDANVKRVADLI  292 (354)
+T ss_dssp             STTTTCCHHHHHHHHHHH
+T ss_pred             chhhcCCHHHHHHHHHHH
+Confidence            667888888888777765
+
+
+No 4
+>1XN6_A Structural genomics, Protein Structure Initiative; NMR {Bacillus cereus} SCOP: d.129.3.5
+Probab=22.46  E-value=81  Score=14.76  Aligned_cols=10  Identities=30%  Similarity=0.737  Sum_probs=6.4  Template_Neff=12.000
+
+Q ss_pred             hhhhHhhhcC
+Q tr|A0A0D9SGA6|   20 SRVVWNALSS   29 (31)
+Q Consensus        20 srvvwnalss   29 (31)
+                      ...||+.++.
+T Consensus        20 ~~~v~~~l~d   29 (143)
+T 1XN6_A           20 IQKVWSVVST   29 (143)
+T ss_dssp             HHHHHHTTSC
+T ss_pred             HHHHHHHHcC
+Confidence            3567877754
+
+
+No 5
+>6ZZ6_A Structural maintenance of chromosomes protein; SMC, cohesin, DNA, CELL CYCLE; HET: ATP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=17.77  E-value=1.8e+02  Score=15.57  Aligned_cols=20  Identities=10%  Similarity=0.144  Sum_probs=15.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCchhhhhHhhhc
+Q tr|A0A0D9SGA6|    9 QEEDSSLHSNASRVVWNALS   28 (31)
+Q Consensus         9 qeedsslhsnasrvvwnals   28 (31)
+                      .|-+++||..+.+.++..|.
+T Consensus       293 DEpe~~Lhp~~~~~l~~~l~  312 (360)
+T 6ZZ6_A          293 DQVDAALDITNVQRIAAYIR  312 (360)
+T ss_dssp             SSTTSSCCHHHHHHHHHHHH
+T ss_pred             ecCcccCCHHHHHHHHHHHH
+Confidence            36678899888888777653
+
+
+No 6
+>3QKT_C DNA double-strand break repair rad50; RecA-like fold, coiled-coils, ATPase, ATP; HET: ANP; 1.9A {Pyrococcus furiosus}
+Probab=15.68  E-value=2.1e+02  Score=15.09  Aligned_cols=19  Identities=16%  Similarity=0.212  Sum_probs=14.8  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCchhhhhHhhhc
+Q tr|A0A0D9SGA6|   10 EEDSSLHSNASRVVWNALS   28 (31)
+Q Consensus        10 eedsslhsnasrvvwnals   28 (31)
+                      |-+.+||....+.+++.|.
+T Consensus       280 Epe~~Lh~~~~~~~~~~l~  298 (339)
+T 3QKT_C          280 EPTPYLDEERRRKLITIME  298 (339)
+T ss_dssp             CCCTTCCHHHHHHHHHHHH
+T ss_pred             CCCccCCHHHHHHHHHHHH
+Confidence            6678899888888887764
+
+
+No 7
+>2QZG_B Conserved uncharacterized archaeal protein; Methanococcus maripaludis, unknown function protein; HET: MSE; 2.09A {Methanococcus maripaludis S2} SCOP: a.29.14.1
+Probab=14.69  E-value=2.1e+02  Score=16.64  Aligned_cols=18  Identities=22%  Similarity=0.562  Sum_probs=13.2  Template_Neff=5.600
+
+Q ss_pred             CCCCCCCchhhhhHhhhc
+Q tr|A0A0D9SGA6|   11 EDSSLHSNASRVVWNALS   28 (31)
+Q Consensus        11 edsslhsnasrvvwnals   28 (31)
+                      +|..+.+.+.-.+||.+|
+T Consensus        70 ~D~Nip~~~RT~Iw~iiS   87 (94)
+T 2QZG_B           70 EDPNMPIHTRTQIWGIVS   87 (94)
+T ss_dssp             TCTTCCHHHHHHHHHHHH
+T ss_pred             cCCCCCHHHHHHHHHHHH
+Confidence            456666777778899876
+
+
+No 8
+>6CG0_N V(D)J recombination-activating protein 1, V(D)J; V(D)J recombination, RAG1/2, RSS, Immunity;{Mus musculus}
+Probab=14.25  E-value=1.7e+02  Score=12.70  Aligned_cols=7  Identities=29%  Similarity=0.961  Sum_probs=3.7  Template_Neff=12.800
+
+Q ss_pred             hHhhhcC
+Q tr|A0A0D9SGA6|   23 VWNALSS   29 (31)
+Q Consensus        23 vwnalss   29 (31)
+                      -|+.|+.
+T Consensus       118 ~W~~l~~  124 (126)
+T 6CG0_N          118 MWNNTAA  124 (126)
+T ss_pred             HHHhCCc
+Confidence            3555554
+
+
+No 9
+>3TJZ_B ADP-ribosylation factor 1, Coatomer subunit; protein trafficking, Golgi membrane, protein; HET: GNP; 2.9A {Saccharomyces cerevisiae}
+Probab=13.50  E-value=3.3e+02  Score=15.55  Aligned_cols=13  Identities=38%  Similarity=0.624  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|A0A0D9SGA6|    1 MMRNKDKSQEEDS   13 (31)
+Q Consensus         1 mmrnkdksqeeds   13 (31)
+                      ||+.-++++|+..
+T Consensus         1 ~~~~~~~~~~~~~   13 (355)
+T 3TJZ_B            1 MLKKFDKKDEESG   13 (355)
+T ss_dssp             -------------
+T ss_pred             CCcccccccccCC
+Confidence            6777777776644
+
+
+No 10
+>6QJ2_A Smc4, Condensin complex subunit 2; condensin, SMC complex, ATPase, chromosome; HET: SO4; 3.0A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=12.76  E-value=2.8e+02  Score=14.87  Aligned_cols=20  Identities=25%  Similarity=0.265  Sum_probs=15.2  Template_Neff=13.000
+
+Q ss_pred             CCCCCCCCchhhhhHhhhcC
+Q tr|A0A0D9SGA6|   10 EEDSSLHSNASRVVWNALSS   29 (31)
+Q Consensus        10 eedsslhsnasrvvwnalss   29 (31)
+                      |.+.+||....+.+++.|..
+T Consensus       322 Epe~~Lhp~~~~~l~~~l~~  341 (403)
+T 6QJ2_A          322 EIDAALDFRNVSIVANYIKE  341 (403)
+T ss_dssp             STTTTCCHHHHHHHHHCCCC
+T ss_pred             cccccCCHHHHHHHHHHHHH
+Confidence            56778888888888877654
+
+

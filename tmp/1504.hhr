@@ -1,0 +1,1033 @@
+Query         sp|O95258|UCP5_HUMAN
+Match_columns 325
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:16:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1504.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6GCI_A Uncharacterized protein 100.0   3E-42 3.3E-47  272.3  24.7  281   38-323    13-304 (315)
+  2 4C9G_A ADP, ATP CARRIER PROTEI 100.0 1.3E-40 1.4E-45  256.2  26.0  287   32-323    15-311 (318)
+  3 4C9H_B ADP, ATP CARRIER PROTEI 100.0 1.3E-40 1.4E-45  256.2  26.0  287   32-323    15-311 (318)
+  4 2LCK_A Mitochondrial uncouplin 100.0 8.2E-37 8.9E-42  220.9  25.2  276   42-323     3-285 (303)
+  5 1OKC_A ADP, ATP CARRIER PROTEI 100.0 4.2E-35 4.6E-40  214.4  24.6  280   40-323     7-296 (297)
+  6 2C3E_A ADP/ATP TRANSLOCASE 1;  100.0 4.2E-35 4.6E-40  214.4  24.6  283   37-323     4-296 (297)
+  7 6GCI_A Uncharacterized protein  99.9 1.9E-26 2.1E-31  182.9  16.5  183   42-226   122-306 (315)
+  8 6GCI_A Uncharacterized protein  99.9   6E-26 6.5E-31  180.1  17.4  181  141-322    15-209 (315)
+  9 4C9G_A ADP, ATP CARRIER PROTEI  99.9 3.1E-24 3.4E-29  166.0  17.6  184   41-226   128-313 (318)
+ 10 4C9H_B ADP, ATP CARRIER PROTEI  99.9 3.1E-24 3.4E-29  166.0  17.6  184   41-226   128-313 (318)
+ 11 4C9G_A ADP, ATP CARRIER PROTEI  99.9 3.5E-22 3.8E-27  154.7  18.0  180  143-323    25-217 (318)
+ 12 4C9H_B ADP, ATP CARRIER PROTEI  99.9 3.5E-22 3.8E-27  154.7  18.0  180  143-323    25-217 (318)
+ 13 1OKC_A ADP, ATP CARRIER PROTEI  99.9   9E-21 9.8E-26  139.4  17.7  180  143-323     9-200 (297)
+ 14 2C3E_A ADP/ATP TRANSLOCASE 1;   99.9   9E-21 9.8E-26  139.4  17.7  179  143-322     9-199 (297)
+ 15 2LCK_A Mitochondrial uncouplin  99.9 2.2E-20 2.3E-25  135.9  16.6  183   40-226   104-287 (303)
+ 16 2LCK_A Mitochondrial uncouplin  99.9 3.6E-20 3.9E-25  134.8  16.7  178  144-323     4-191 (303)
+ 17 1OKC_A ADP, ATP CARRIER PROTEI  99.9 1.4E-19 1.6E-24  133.1  17.7  178   42-224   114-296 (297)
+ 18 2C3E_A ADP/ATP TRANSLOCASE 1;   99.9 1.4E-19 1.6E-24  133.1  17.7  178   42-224   114-296 (297)
+ 19 4C9G_A ADP, ATP CARRIER PROTEI  99.3 1.1E-11 1.2E-16   96.7   9.0   90  233-322    21-113 (318)
+ 20 4C9H_B ADP, ATP CARRIER PROTEI  99.3 1.1E-11 1.2E-16   96.7   9.0   90  233-322    21-113 (318)
+ 21 6GCI_A Uncharacterized protein  99.3 1.1E-11 1.2E-16   99.4   8.7   89  234-322    14-105 (315)
+ 22 1OKC_A ADP, ATP CARRIER PROTEI  99.1 4.9E-10 5.3E-15   83.2   8.5   89  234-322     6-96  (297)
+ 23 2C3E_A ADP/ATP TRANSLOCASE 1;   99.1 4.9E-10 5.3E-15   83.2   8.5   88  235-322     7-96  (297)
+ 24 2LCK_A Mitochondrial uncouplin  99.1 1.4E-09 1.5E-14   79.9   8.3   85  238-322     4-93  (303)
+ 25 4P5W_A Calcium-binding mitocho  95.1   0.025 2.7E-07   45.7   1.9   64   49-122   346-409 (411)
+ 26 4P5W_B Calcium-binding mitocho  95.1   0.025 2.7E-07   45.7   1.9   64   49-122   346-409 (411)
+ 27 4P5W_A Calcium-binding mitocho  94.8   0.027 2.9E-07   45.5   1.3   58  245-307   347-404 (411)
+ 28 4P5W_B Calcium-binding mitocho  94.8   0.027 2.9E-07   45.5   1.3   58  245-307   347-404 (411)
+ 29 4P5W_A Calcium-binding mitocho  93.4   0.095   1E-06   42.4   1.9   58  151-215   347-409 (411)
+ 30 4P5W_B Calcium-binding mitocho  93.4   0.095   1E-06   42.4   1.9   58  151-215   347-409 (411)
+ 31 3J9X_s coat protein; archaeal   36.8      73 0.00079   27.2   2.9   22   85-106    47-68  (128)
+
+No 1
+>6GCI_A Uncharacterized protein, Nanobody; Transporter, Inhibitor, Mitochondrial, Carrier, MEMBRANE; HET: BKC, CDL, P6G; 3.3A {Thermothelomyces thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)}
+Probab=100.00  E-value=3e-42  Score=272.28  Aligned_cols=281  Identities=23%  Similarity=0.380  Sum_probs=243.3  Template_Neff=10.500
+
+Q ss_pred             CCCCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhh
+Q sp|O95258|UCP5   38 GLNWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASY  117 (325)
+Q Consensus        38 glnwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasy  117 (325)
+                      .+.+..+++|+++++++.++.+|+|++|+|+|.+......+...+.|.++.+++++++++||+++||||+.+++++..+.
+T Consensus        13 ~~~~~~~~~g~~ag~~~~~~~~P~d~vk~r~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~G~~~l~rG~~~~~~~~~~~   92 (315)
+T 6GCI_A           13 PPFVVDFLMGGVSAAVSKTAAAPIERIKLLVQNQDEMIKAGRLDRRYNGIIDCFRRTTADEGLMALWRGNTANVIRYFPT   92 (315)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSHHHHHHTSCSSCCSCHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHcCcHHHHHHhHHhchHHHhcCccccccccHHHHHHHHHHHccHHHHhcccHHHHHHHhHh
+Confidence            34566899999999999999999999999999876543333335678999999999999999999999999999999999
+
+
+Q ss_pred             hhHHHHHHHHHHHHhcccCCCch----HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-------cchhHHHHHHH
+Q sp|O95258|UCP5  118 GTIKIGIYQSLKRLFVERLEDET----LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-------FQGSMIGSFID  186 (325)
+Q Consensus       118 gtikigiyqslkrlfverledet----llinmicgvvsgvisstianptdvlkirmqaqgsl-------fqgsmigsfid  186 (325)
+                      ..++|.+|+.++..+........    ....+..+..++.+...+.+|+|++|.++|.+...       .+.+..+++++
+T Consensus        93 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~~~vk~~~~~~~~~~~~~~~~~~~~~~~~~~~  172 (315)
+T 6GCI_A           93 QALNFAFRDKFKAMFGYKKDKDGYAKWMAGNLASGGAAGATSLLFVYSLDYARTRLANDAKSAKGGGARQFNGLIDVYRK  172 (315)
+T ss_dssp             HHHHHHHHHHHHHHHCCCHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCCCSSHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCCcccccchhHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHhchhhcCCCCccccccHHHHHHH
+Confidence            99999999999988754322211    34456677788888889999999999999875421       56789999999
+
+
+Q ss_pred             HHHHhCchhhhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhh
+Q sp|O95258|UCP5  187 IYQQEGTRGLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQ  266 (325)
+Q Consensus       187 iyqqegtrglwrgvvptaqraaivvgvelpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrtrmmnq  266 (325)
+                      +++.+|+.++|+|+.+.+.+..+...++|..|+.+++.+. ............++++.+++++..+++|+|++|+|||++
+T Consensus       173 ~~~~~G~~gl~rG~~~~l~~~~~~~~~~f~~~~~~~~~~~-~~~~~~~~~~~~~~g~~ag~~~~~~~~P~dvvk~r~~~~  251 (315)
+T 6GCI_A          173 TLASDGIAGLYRGFGPSVAGIVVYRGLYFGMYDSIKPVVL-VGPLANNFLASFLLGWCVTTGAGIASYPLDTVRRRMMMT  251 (315)
+T ss_dssp             HHHHHTHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHHHHS-CGGGSSCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHhccHHHHhccchHHHHHHHHHHHHHHHhHHHHHHHHh-cCccccchHHHHHHHHHHHHHHHHHhcHHHHHHHHHhcC
+Confidence            9999999999999999999999999999999999999886 655556677788999999999999999999999999988
+
+
+Q ss_pred             chhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  267 RAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       267 raivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      .+   ...+|.+.++++++++++||+++||||++++++|.++.+++ |.+||++|++
+T Consensus       252 ~~---~~~~~~~~~~~~~~i~~~~G~~~l~rG~~~~~~r~~~~~~~-~~~y~~~k~~  304 (315)
+T 6GCI_A          252 SG---EAVKYKSSIDAFRQIIAKEGVKSLFKGAGANILRGVAGAGV-LSIYDQLKIL  304 (315)
+T ss_dssp             C-------CCSSHHHHHHHHHHHTCHHHHHTTGGGGHHHHHHHHHH-HHHHHHHHHH
+T ss_pred             CC---CccccccHHHHHHHHHHHhChHHHhcChHHHHHhhhchHHH-HHHHHHHHHH
+Confidence            76   66778999999999999999999999999999999999999 9999999974
+
+
+No 2
+>4C9G_A ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: BNG, CDL, CXT; 2.49A {SACCHAROMYCES CEREVISIAE}
+Probab=100.00  E-value=1.3e-40  Score=256.24  Aligned_cols=287  Identities=23%  Similarity=0.375  Sum_probs=234.8  Template_Neff=11.200
+
+Q ss_pred             CCccCCCCCCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHH
+Q sp|O95258|UCP5   32 VSHEMSGLNWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPAL  111 (325)
+Q Consensus        32 vshemsglnwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapal  111 (325)
+                      ..++.+++++..+++|++++++..++++|+|++|+|+|++.....++.....|++..+++++++++||+++||||+.+++
+T Consensus        15 ~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~   94 (318)
+T 4C9G_A           15 PAPKKESNFLIDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANV   94 (318)
+T ss_dssp             ---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHH
+T ss_pred             CCCCccccHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHH
+Confidence            34556677888999999999999999999999999999876533333335678999999999999999999999999999
+
+
+Q ss_pred             HHHHhhhhHHHHHHHHHHHHhcccCCCch---HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-------cchhHH
+Q sp|O95258|UCP5  112 LRQASYGTIKIGIYQSLKRLFVERLEDET---LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-------FQGSMI  181 (325)
+Q Consensus       112 lrqasygtikigiyqslkrlfverledet---llinmicgvvsgvisstianptdvlkirmqaqgsl-------fqgsmi  181 (325)
+                      .+..+....+|..|+.+++.+........   ....+..+..++.++..+.+|+|+++.++|.+...       .+.+..
+T Consensus        95 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~  174 (318)
+T 4C9G_A           95 IRYFPTQALNFAFKDKIKAMFGFKKEEGYAKWFAGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKKGGARQFNGLI  174 (318)
+T ss_dssp             HTHHHHHHHHHHHHHHHHHHHCCCGGGCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC--------CCCCSHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCcccccchHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCCCcchhhccHH
+Confidence            99999999999999999988754333332   45566777888888889999999999999987642       467889
+
+
+Q ss_pred             HHHHHHHHHhCchhhhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHH
+Q sp|O95258|UCP5  182 GSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRT  261 (325)
+Q Consensus       182 gsfidiyqqegtrglwrgvvptaqraaivvgvelpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrt  261 (325)
+                      ++++.+++.+|+.++|+|+.+.+.+..+...+.+..|+.+++.+. .+...........+++.+++++..+++|+|++|+
+T Consensus       175 ~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~v~~  253 (318)
+T 4C9G_A          175 DVYKKTLKSDGVAGLYRGFLPSVVGIVVYRGLYFGMYDSLKPLLL-TGSLEGSFLASFLLGWVVTTGASTCSYPLDTVRR  253 (318)
+T ss_dssp             HHHHHHHHHTCSTTTSTTHHHHHHHHHHHHHHHHHHHHHC--------------CHHHHHHHHHHHHHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHcChHHHhcCcHHHHHHhHHHHHHHHHHHHHHHHHHh-cCCcchhHHHHHHHHHHHHHHHHHHhcHHHHHHH
+Confidence            999999999999999999999999999999999999999999887 6665666777888999999999999999999999
+
+
+Q ss_pred             HHhhhchhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  262 RMMNQRAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       262 rmmnqraivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      |++++.+   ....+.++++++.+++++||+++||||+.++++|+++++++ |.+||++|++
+T Consensus       254 r~~~~~~---~~~~~~~~~~~~~~i~~~~G~~gly~G~~~~~lr~~~~~~~-~~~~~~~k~~  311 (318)
+T 4C9G_A          254 RMMMTSG---QAVKYDGAFDCLRKIVAAEGVGSLFKGCGANILRGVAGAGV-ISMYDQLQMI  311 (318)
+T ss_dssp             HHHHTTT---SSCCCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHHH-HHHHHHHC--
+T ss_pred             HHhcCCC---CCCCCCCHHHHHHHHHHHhCHHHHccchHHHHHHhHHHHHH-HHHHHHHHHH
+Confidence            9998876   66678899999999999999999999999999999999999 9999999974
+
+
+No 3
+>4C9H_B ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: CM5, CDL, CXT; 3.2A {SACCHAROMYCES CEREVISIAE}
+Probab=100.00  E-value=1.3e-40  Score=256.24  Aligned_cols=287  Identities=23%  Similarity=0.375  Sum_probs=236.1  Template_Neff=11.200
+
+Q ss_pred             CCccCCCCCCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHH
+Q sp|O95258|UCP5   32 VSHEMSGLNWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPAL  111 (325)
+Q Consensus        32 vshemsglnwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapal  111 (325)
+                      ..++.+++++..+++|++++++..++++|+|++|+|+|++.....++.....|++..+++++++++||+++||||+.+++
+T Consensus        15 ~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~   94 (318)
+T 4C9H_B           15 PAPKKESNFLIDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANV   94 (318)
+T ss_dssp             ---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTCCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHH
+T ss_pred             CCCCccccHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHH
+Confidence            34556677888999999999999999999999999999876533333335678999999999999999999999999999
+
+
+Q ss_pred             HHHHhhhhHHHHHHHHHHHHhcccCCCch---HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-------cchhHH
+Q sp|O95258|UCP5  112 LRQASYGTIKIGIYQSLKRLFVERLEDET---LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-------FQGSMI  181 (325)
+Q Consensus       112 lrqasygtikigiyqslkrlfverledet---llinmicgvvsgvisstianptdvlkirmqaqgsl-------fqgsmi  181 (325)
+                      .+..+....+|..|+.+++.+........   ....+..+..++.++..+.+|+|+++.++|.+...       .+.+..
+T Consensus        95 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~  174 (318)
+T 4C9H_B           95 IRYFPTQALNFAFKDKIKAMFGFKKEEGYAKWFAGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKKGGARQFNGLI  174 (318)
+T ss_dssp             HTHHHHHHHCCCCCHHHHHHHCCCGGGCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCC-----CCCSCCSHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCcccccchHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCCCcchhhccHH
+Confidence            99999999999999999988754333332   45566777888888889999999999999987642       467889
+
+
+Q ss_pred             HHHHHHHHHhCchhhhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHH
+Q sp|O95258|UCP5  182 GSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRT  261 (325)
+Q Consensus       182 gsfidiyqqegtrglwrgvvptaqraaivvgvelpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrt  261 (325)
+                      ++++.+++.+|+.++|+|+.+.+.+..+...+.+..|+.+++.+. .+...........+++.+++++..+++|+|++|+
+T Consensus       175 ~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~v~~  253 (318)
+T 4C9H_B          175 DVYKKTLKSDGVAGLYRGFLPSVVGIVVYRGLYFGMYDSLKPLLL-TGSLEGSFLASFLLGWVVTTGASTCSYPLDTVRR  253 (318)
+T ss_dssp             HHHHHHHHHHCSTTTTTTHHHHHHHHHHHHHHHHHHHHHTC-------------CHHHHHHHHHHHHHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHcChHHHhcCcHHHHHHhHHHHHHHHHHHHHHHHHHh-cCCcchhHHHHHHHHHHHHHHHHHHhcHHHHHHH
+Confidence            999999999999999999999999999999999999999999887 6665666777888999999999999999999999
+
+
+Q ss_pred             HHhhhchhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  262 RMMNQRAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       262 rmmnqraivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      |++++.+   ....+.++++++.+++++||+++||||+.++++|+++++++ |.+||++|++
+T Consensus       254 r~~~~~~---~~~~~~~~~~~~~~i~~~~G~~gly~G~~~~~lr~~~~~~~-~~~~~~~k~~  311 (318)
+T 4C9H_B          254 RMMMTSG---QAVKYDGAFDCLRKIVAAEGVGSLFKGCGANILRGVAGAGV-ISMYDQLQMI  311 (318)
+T ss_dssp             HHHHTTT---SSCCCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHHH-HHHHHHHC--
+T ss_pred             HHhcCCC---CCCCCCCHHHHHHHHHHHhCHHHHccchHHHHHHhHHHHHH-HHHHHHHHHH
+Confidence            9998876   66678899999999999999999999999999999999999 9999999974
+
+
+No 4
+>2LCK_A Mitochondrial uncoupling protein 2; membrane protein, proton translocator, mitochondrial; NMR {Mus musculus}
+Probab=100.00  E-value=8.2e-37  Score=220.95  Aligned_cols=276  Identities=38%  Similarity=0.696  Sum_probs=228.6  Template_Neff=12.500
+
+Q ss_pred             chhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchh--hhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhh
+Q sp|O95258|UCP5   42 KPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDAR--FKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGT  119 (325)
+Q Consensus        42 kpfvygglasivaefgtfpvdltktrlqvqgqsidar--fkeikyrgmfhalfrickeegvlalysgiapallrqasygt  119 (325)
+                      ..+++|+.++.+..++.+|+|++|+|+|.+.......  .....+.+..+.+.++++++|+.++|+|..+.+....+...
+T Consensus         3 ~~~~~g~~a~~~~~~~~~P~~~~~~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~   82 (303)
+T 2LCK_A            3 VKFLGAGTAACIADLITFPLDTAKVRLQIQGESQGLVRTAASAQYRGVLGTILTMVRTEGPRSLYNGLVAGLQRQMSFAS   82 (303)
+T ss_dssp             CHHHHHHHHHHHHHHTTHHHHHHHHHSSCCTTCCSHHHHCSCSSCSCHHHHHHHHHHHHCHHHHHSSHHHHHHHHHHHHH
+T ss_pred             HhhHHHHHHHHHHHHHHCcHHHHHHHHHHccccccccccccchhcccHHHHHHHHHHHHCHHHHhcCchHHHHHHHhhHH
+Confidence            5789999999999999999999999999876532211  12346788999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc----cchhHHHHHHHHHHHhCchh
+Q sp|O95258|UCP5  120 IKIGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL----FQGSMIGSFIDIYQQEGTRG  195 (325)
+Q Consensus       120 ikigiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl----fqgsmigsfidiyqqegtrg  195 (325)
+                      ..+..++..+..................+..++.....+.+|+|.++.+++.....    .+.+..+++..+++.+|+.+
+T Consensus        83 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~  162 (303)
+T 2LCK_A           83 VRIGLYDSVKQFYTKGSEHAGIGSRLLAGSTTGALAVAVAQPTDVVKVRFQAQARAGGGRRYQSTVEAYKTIAREEGIRG  162 (303)
+T ss_dssp             HTTTHHHHHHHHHSCCCSSCCHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHSCSCCCSSSCCCHHHHHHHHHHHHCHHH
+T ss_pred             HHHHHHHHHHHHHhcCCccCChhHHHHHHHHHHHHHHHHhCcHHHHHHHHHHHhhcCCCCCCccHHHHHHHHHHHccHHH
+Confidence            99999999988765432222244455667777778888999999999999987532    45678899999999999999
+
+
+Q ss_pred             hhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhch-hhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhccchh
+Q sp|O95258|UCP5  196 LWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGM-MGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIVGHVD  274 (325)
+Q Consensus       196 lwrgvvptaqraaivvgvelpvyditkkhlilsgm-mgdtilthfvssftcglagalasnpvdvvrtrmmnqraivghvd  274 (325)
+                      +|+|+.+.+.+..+.....+..|+.+++.+. ... ..........++..++.....+++|+|++|+|+|.+..     .
+T Consensus       163 l~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~-----~  236 (303)
+T 2LCK_A          163 LWKGTSPNVARNAIVNCAELVTYDLIKDTLL-KANLMTDDLPCHFTSAFGAGFCTTVIASPVDVVKTRYMNSAL-----G  236 (303)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHTTT-TTTSCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCS-----S
+T ss_pred             hccCchHHHHHHHHHHHHHHHHHHHHHHHHH-HcCCCCCCCchhHHHHHHHHHHHHHHHCcHHHHHHHHHcCCc-----c
+Confidence            9999999999999999999999999988775 322 12234455677777888888999999999999987553     2
+
+
+Q ss_pred             hhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  275 LYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       275 lykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      .+.+..+++.++++++|+++||+|+.++++|.++..++.+.+||.+|+.
+T Consensus       237 ~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~~~~~~~~~~~~  285 (303)
+T 2LCK_A          237 QYHSAGHCALTMLRKEGPRAFYKGFMPSFLRLGSWNVVMFVTYEQLKRA  285 (303)
+T ss_dssp             SCCSHHHHHHHHHHSSCTHHHHSCCHHHHHHHHHHHHHHHHHHHHHHSC
+T ss_pred             cCCCHHHHHHHHHHHHCHHHHhcChhHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4678899999999999999999999999999999887768999999875
+
+
+No 5
+>1OKC_A ADP, ATP CARRIER PROTEIN HEART; MITOCHONDRIAL TRANSPORTER, NUCLEOTIDE TRANSLOCATION, MEMBRANE; HET: PC1, CDL, CXT, LDM; 2.2A {BOS TAURUS} SCOP: f.42.1.1
+Probab=100.00  E-value=4.2e-35  Score=214.40  Aligned_cols=280  Identities=28%  Similarity=0.410  Sum_probs=227.5  Template_Neff=12.200
+
+Q ss_pred             CCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhh
+Q sp|O95258|UCP5   40 NWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGT  119 (325)
+Q Consensus        40 nwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygt  119 (325)
+                      .+..+++|+.++.++.++++|+|++|+|+|.+...... .....+.+..+++.+++++||+.++|+|+.+.+....+...
+T Consensus         7 ~~~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~-~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~   85 (297)
+T 1OKC_A            7 FLKDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQI-SAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFPTQA   85 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHGGGCSSC-CGGGSCCSHHHHHHHHHHHHCGGGGGTTTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhcccc-CcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcHHHH
+Confidence            34578999999999999999999999999977543211 12356888999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhcccCCCch-----HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHHHHH
+Q sp|O95258|UCP5  120 IKIGIYQSLKRLFVERLEDET-----LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFIDIYQ  189 (325)
+Q Consensus       120 ikigiyqslkrlfverledet-----llinmicgvvsgvisstianptdvlkirmqaqgsl-----fqgsmigsfidiyq  189 (325)
+                      ..|..|+.++...........     .......+..++.....+.+|+|.++.+++.....     .+.+..+++..+.+
+T Consensus        86 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  165 (297)
+T 1OKC_A           86 LNFAFKDKYKQIFLGGVDRHKQFWRYFAGNLASGGAAGATSLCFVYPLDFARTRLAADVGKGAAQREFTGLGNCITKIFK  165 (297)
+T ss_dssp             HHHHHHHHHHHHHHTTCCTTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCSSTTTCSCSSHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhcCCCccccchHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcccccccccHHHHHHHHHH
+Confidence            999999999887643322221     44455667777777888899999999999987432     46788899999999
+
+
+Q ss_pred             HhCchhhhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchh
+Q sp|O95258|UCP5  190 QEGTRGLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAI  269 (325)
+Q Consensus       190 qegtrglwrgvvptaqraaivvgvelpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrtrmmnqrai  269 (325)
+                      .+|+.++|+|+.+.+.+..+...+.+..++.+++.+. ... ........+.+..++.....+++|+|++|+|+|++...
+T Consensus       166 ~~g~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~-~~~~~~~~~~~~~~~~~~~~~~~P~~~~k~~~~~~~~~  243 (297)
+T 1OKC_A          166 SDGLRGLYQGFNVSVQGIIIYRAAYFGVYDTAKGMLP-DPK-NVHIIVSWMIAQTVTAVAGLVSYPFDTVRRRMMMQSGR  243 (297)
+T ss_dssp             HHCHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHHSSC-GGG-CSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTC
+T ss_pred             HccHHHHhccchHHHHHHHHHHHHHHHHHHHHHHcCC-CCC-CchHHHHHHHHHHHHHHHHHHHchHHHHHHHHHhccCC
+Confidence            9999999999999999999999999999999998775 432 33344555666667777788999999999999987541
+
+
+Q ss_pred             ccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  270 VGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       270 vghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      .+....|.+..+++.+++++||+++||+|+.++++|.++..++ |.+|+++|+.
+T Consensus       244 ~~~~~~~~~~~~~~~~i~~~~g~~~~~~G~~~~~~~~~~~~~~-~~~~~~~~~~  296 (297)
+T 1OKC_A          244 KGADIMYTGTVDCWRKIAKDEGPKAFFKGAWSNVLRGMGGAFV-LVLYDEIKKF  296 (297)
+T ss_dssp             CGGGCSCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHHH-HHHHHTC---
+T ss_pred             CCCCCCCCcHHHHHHHHHHHhCHHHHhcccHHHHHhHHhHHHH-HHHHHHHHhh
+Confidence            0022347899999999999999999999999999999888888 9999988864
+
+
+No 6
+>2C3E_A ADP/ATP TRANSLOCASE 1; MITOCHONDRIAL CARRIER, NUCLEOTIDE TRANSPORT, MEMBRANE; HET: CDL, CXT; 2.8A {BOS TAURUS}
+Probab=100.00  E-value=4.2e-35  Score=214.40  Aligned_cols=283  Identities=27%  Similarity=0.399  Sum_probs=228.9  Template_Neff=12.200
+
+Q ss_pred             CCCCCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHh
+Q sp|O95258|UCP5   37 SGLNWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQAS  116 (325)
+Q Consensus        37 sglnwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqas  116 (325)
+                      ....+..+++|+.++.++.++++|+|++|+|+|.+...... .....+.+..+++.+++++||+.++|+|+.+.+....+
+T Consensus         4 ~~~~~~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~-~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~   82 (297)
+T 2C3E_A            4 ALSFLKDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQI-SAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFP   82 (297)
+T ss_dssp             SSTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGCSSC-CTTTCCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhcccc-CcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcH
+Confidence            34456689999999999999999999999999976542211 12356888999999999999999999999999999999
+
+
+Q ss_pred             hhhHHHHHHHHHHHHhcccCCCch-----HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHH
+Q sp|O95258|UCP5  117 YGTIKIGIYQSLKRLFVERLEDET-----LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFID  186 (325)
+Q Consensus       117 ygtikigiyqslkrlfverledet-----llinmicgvvsgvisstianptdvlkirmqaqgsl-----fqgsmigsfid  186 (325)
+                      .....|..|+.++...........     .......+..++.....+.+|+|.++.+++.....     .+.+..+++..
+T Consensus        83 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  162 (297)
+T 2C3E_A           83 TQALNFAFKDKYKQIFLGGVDRHKQFWRYFAGNLASGGAAGATSLCFVYPLDFARTRLAADVGKGAAQREFTGLGNCITK  162 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHTTTCCTTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCCCSTTSCSCSSHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhcCCCccccchHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcccccccccHHHHHHH
+Confidence            999999999999987654322221     44455667777777888899999999999887432     46788899999
+
+
+Q ss_pred             HHHHhCchhhhcccccHHHHHHHHhhhhhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhh
+Q sp|O95258|UCP5  187 IYQQEGTRGLWRGVVPTAQRAAIVVGVELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQ  266 (325)
+Q Consensus       187 iyqqegtrglwrgvvptaqraaivvgvelpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrtrmmnq  266 (325)
+                      +.+.+|+.++|+|+.+.+.+..+...+.+..++.+++.+. ... ........+.+..++.....+++|+|++|+|+|++
+T Consensus       163 ~~~~~g~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~-~~~~~~~~~~~~~~~~~~~~~~~P~~~~k~~~~~~  240 (297)
+T 2C3E_A          163 IFKSDGLRGLYQGFNVSVQGIIIYRAAYFGVYDTAKGMLP-DPK-NVHIIVSWMIAQTVTAVAGLVSYPFDTVRRRMMMQ  240 (297)
+T ss_dssp             HHHHHHHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHHHSC-CSS-CSCSHHHHHHHHHHHHHHHHHTHHHHHHHHHHHTT
+T ss_pred             HHHHccHHHHhccchHHHHHHHHHHHHHHHHHHHHHHcCC-CCC-CchHHHHHHHHHHHHHHHHHHHchHHHHHHHHHhc
+Confidence            9999999999999999999999999999999999998875 432 22334455666666777788999999999999987
+
+
+Q ss_pred             chhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  267 RAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       267 raivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      ....+....|.+..+++.+++++||+++||+|+.++++|.++..++ |.+|+++|+.
+T Consensus       241 ~~~~~~~~~~~~~~~~~~~i~~~~g~~~~~~G~~~~~~~~~~~~~~-~~~~~~~~~~  296 (297)
+T 2C3E_A          241 SGRKGADIMYTGTVDCWRKIAKDEGPKAFFKGAWSNVLRGMGGAFV-LVLYDEIKKF  296 (297)
+T ss_dssp             TTCCSTTCCCSSHHHHHHHCCCCCCSSGGGTTTTHHHHHHHHHHHH-HHHHCCC---
+T ss_pred             cCCCCCCCCCCcHHHHHHHHHHHhCHHHHhcccHHHHHhHHhHHHH-HHHHHHHHhh
+Confidence            5410122347899999999999999999999999999999888888 9999988763
+
+
+No 7
+>6GCI_A Uncharacterized protein, Nanobody; Transporter, Inhibitor, Mitochondrial, Carrier, MEMBRANE; HET: BKC, CDL, P6G; 3.3A {Thermothelomyces thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)}
+Probab=99.95  E-value=1.9e-26  Score=182.89  Aligned_cols=183  Identities=22%  Similarity=0.364  Sum_probs=151.3  Template_Neff=10.500
+
+Q ss_pred             chhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhHH
+Q sp|O95258|UCP5   42 KPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTIK  121 (325)
+Q Consensus        42 kpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygtik  121 (325)
+                      ..+++|+.++.+..++.+|+|++|+|+|.+.... .......|.+..+++++++++||++++|||+.+.+.+..+....+
+T Consensus       122 ~~~~~g~~a~~~~~~~~~P~~~vk~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~G~~gl~rG~~~~l~~~~~~~~~~  200 (315)
+T 6GCI_A          122 GNLASGGAAGATSLLFVYSLDYARTRLANDAKSA-KGGGARQFNGLIDVYRKTLASDGIAGLYRGFGPSVAGIVVYRGLY  200 (315)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HTTCCCCCSSHHHHHHHHHHHHTHHHHTTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHhHHHHHHHHHHhchhhc-CCCCccccccHHHHHHHHHHhccHHHHhccchHHHHHHHHHHHHH
+Confidence            3677889999999999999999999999753211 011134688999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--cchhHHHHHHHHHHHhCchhhhcc
+Q sp|O95258|UCP5  122 IGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL--FQGSMIGSFIDIYQQEGTRGLWRG  199 (325)
+Q Consensus       122 igiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl--fqgsmigsfidiyqqegtrglwrg  199 (325)
+                      |..|+.++..+...............+..++.++..+.+|+|++|+++|.+...  .|.+..++++.+++++|+.++|+|
+T Consensus       201 f~~~~~~~~~~~~~~~~~~~~~~~~~g~~ag~~~~~~~~P~dvvk~r~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~rG  280 (315)
+T 6GCI_A          201 FGMYDSIKPVVLVGPLANNFLASFLLGWCVTTGAGIASYPLDTVRRRMMMTSGEAVKYKSSIDAFRQIIAKEGVKSLFKG  280 (315)
+T ss_dssp             HHHHHHHHHHHSCGGGSSCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC----CCSSHHHHHHHHHHHTCHHHHHTT
+T ss_pred             HHhHHHHHHHHhcCccccchHHHHHHHHHHHHHHHHHhcHHHHHHHHHhcCCCCccccccHHHHHHHHHHHhChHHHhcC
+Confidence            999999998764322111144566677777888888999999999999987543  678999999999999999999999
+
+
+Q ss_pred             cccHHHHHHHHhhhhhhHHHHHhhhhh
+Q sp|O95258|UCP5  200 VVPTAQRAAIVVGVELPVYDITKKHLI  226 (325)
+Q Consensus       200 vvptaqraaivvgvelpvyditkkhli  226 (325)
+                      +.+.+.+..+...+ |..|+.+++.+.
+T Consensus       281 ~~~~~~r~~~~~~~-~~~y~~~k~~l~  306 (315)
+T 6GCI_A          281 AGANILRGVAGAGV-LSIYDQLKILLF  306 (315)
+T ss_dssp             GGGGHHHHHHHHHH-HHHHHHHHHHHC
+T ss_pred             hHHHHHhhhchHHH-HHHHHHHHHHHh
+Confidence            99999998777666 899999999886
+
+
+No 8
+>6GCI_A Uncharacterized protein, Nanobody; Transporter, Inhibitor, Mitochondrial, Carrier, MEMBRANE; HET: BKC, CDL, P6G; 3.3A {Thermothelomyces thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)}
+Probab=99.95  E-value=6e-26  Score=180.10  Aligned_cols=181  Identities=24%  Similarity=0.355  Sum_probs=150.6  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhh
+Q sp|O95258|UCP5  141 LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL--------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVG  212 (325)
+Q Consensus       141 llinmicgvvsgvisstianptdvlkirmqaqgsl--------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvg  212 (325)
+                      ....+..+..++.+...+.+|+|++|+++|.+...        .+.+..++++++++.||+.++|+|+.+.+.+..+...
+T Consensus        15 ~~~~~~~g~~ag~~~~~~~~P~d~vk~r~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~G~~~l~rG~~~~~~~~~~~~~   94 (315)
+T 6GCI_A           15 FVVDFLMGGVSAAVSKTAAAPIERIKLLVQNQDEMIKAGRLDRRYNGIIDCFRRTTADEGLMALWRGNTANVIRYFPTQA   94 (315)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSHHHHHHTSCSSCCSCHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHcCcHHHHHHhHHhchHHHhcCccccccccHHHHHHHHHHHccHHHHhcccHHHHHHHhHhHH
+Confidence            44567788899999999999999999999986431        5778999999999999999999999999999999999
+
+
+Q ss_pred             hhhhHHHHHhhhhhhhchhhH----HHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc--cchhhhhchHHHHHHH
+Q sp|O95258|UCP5  213 VELPVYDITKKHLILSGMMGD----TILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV--GHVDLYKGTVDGILKM  286 (325)
+Q Consensus       213 velpvyditkkhlilsgmmgd----tilthfvssftcglagalasnpvdvvrtrmmnqraiv--ghvdlykgtvdgilkm  286 (325)
+                      ++|..|+.+++.+. ......    ........+..++.+...+.+|+|++|+++|.+....  .....|.+.++++.++
+T Consensus        95 ~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~~~vk~~~~~~~~~~~~~~~~~~~~~~~~~~~~  173 (315)
+T 6GCI_A           95 LNFAFRDKFKAMFG-YKKDKDGYAKWMAGNLASGGAAGATSLLFVYSLDYARTRLANDAKSAKGGGARQFNGLIDVYRKT  173 (315)
+T ss_dssp             HHHHHHHHHHHHHC-CCHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCCCSSHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhc-CCCcccccchhHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHhchhhcCCCCccccccHHHHHHHH
+Confidence            99999999998774 332211    2334566777888888899999999999998764300  0123577899999999
+
+
+Q ss_pred             HHhhchHHHhcCcchhHHhhhHHHHHHHHhHHHHHc
+Q sp|O95258|UCP5  287 WKHEGFFALYKGFWPNWLRLGPWNIIFFITYEQLKR  322 (325)
+Q Consensus       287 wkhegffalykgfwpnwlrlgpwniiffityeqlkr  322 (325)
+                      +++||++++|||+.+.+++..+..++.|.+|+.+|+
+T Consensus       174 ~~~~G~~gl~rG~~~~l~~~~~~~~~~f~~~~~~~~  209 (315)
+T 6GCI_A          174 LASDGIAGLYRGFGPSVAGIVVYRGLYFGMYDSIKP  209 (315)
+T ss_dssp             HHHHTHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhccHHHHhccchHHHHHHHHHHHHHHHhHHHHHH
+Confidence            999999999999999999999988776899999986
+
+
+No 9
+>4C9G_A ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: BNG, CDL, CXT; 2.49A {SACCHAROMYCES CEREVISIAE}
+Probab=99.93  E-value=3.1e-24  Score=165.95  Aligned_cols=184  Identities=23%  Similarity=0.372  Sum_probs=141.5  Template_Neff=11.200
+
+Q ss_pred             CchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhH
+Q sp|O95258|UCP5   41 WKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTI  120 (325)
+Q Consensus        41 wkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygti  120 (325)
+                      ...++++..++.+..++.+|+|++|+++|.+...... .....+.+..++.++++++||+.+||+|+.+.+.+..+....
+T Consensus       128 ~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~  206 (318)
+T 4C9G_A          128 AGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKK-GGARQFNGLIDVYKKTLKSDGVAGLYRGFLPSVVGIVVYRGL  206 (318)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC---------CCCCSHHHHHHHHHHHTCSTTTSTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCC-CcchhhccHHHHHHHHHHHcChHHHhcCcHHHHHHhHHHHHH
+Confidence            4567889999999999999999999999987653221 123467889999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--cchhHHHHHHHHHHHhCchhhhc
+Q sp|O95258|UCP5  121 KIGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL--FQGSMIGSFIDIYQQEGTRGLWR  198 (325)
+Q Consensus       121 kigiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl--fqgsmigsfidiyqqegtrglwr  198 (325)
+                      .|..|+.+++.+...............+..++.+...+.+|+|++|.+++.+...  .+.+..+++.+++++||+.+||+
+T Consensus       207 ~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~v~~r~~~~~~~~~~~~~~~~~~~~i~~~~G~~gly~  286 (318)
+T 4C9G_A          207 YFGMYDSLKPLLLTGSLEGSFLASFLLGWVVTTGASTCSYPLDTVRRRMMMTSGQAVKYDGAFDCLRKIVAAEGVGSLFK  286 (318)
+T ss_dssp             HHHHHHHC-------------CHHHHHHHHHHHHHHHHTHHHHHHHHHHHHTTTSSCCCSSHHHHHHHHHHHHCGGGGGT
+T ss_pred             HHHHHHHHHHHHhcCCcchhHHHHHHHHHHHHHHHHHHhcHHHHHHHHHhcCCCCCCCCCCHHHHHHHHHHHhCHHHHcc
+Confidence            9999999887664322221133345566677777888999999999999886543  67889999999999999999999
+
+
+Q ss_pred             ccccHHHHHHHHhhhhhhHHHHHhhhhh
+Q sp|O95258|UCP5  199 GVVPTAQRAAIVVGVELPVYDITKKHLI  226 (325)
+Q Consensus       199 gvvptaqraaivvgvelpvyditkkhli  226 (325)
+                      |+.+.+.+..+..++ +..|+.+++.+.
+T Consensus       287 G~~~~~lr~~~~~~~-~~~~~~~k~~~~  313 (318)
+T 4C9G_A          287 GCGANILRGVAGAGV-ISMYDQLQMILF  313 (318)
+T ss_dssp             THHHHHHHHHHHHHH-HHHHHHHC----
+T ss_pred             chHHHHHHhHHHHHH-HHHHHHHHHHHc
+Confidence            999999999888877 888999988765
+
+
+No 10
+>4C9H_B ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: CM5, CDL, CXT; 3.2A {SACCHAROMYCES CEREVISIAE}
+Probab=99.93  E-value=3.1e-24  Score=165.95  Aligned_cols=184  Identities=23%  Similarity=0.372  Sum_probs=143.2  Template_Neff=11.200
+
+Q ss_pred             CchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhH
+Q sp|O95258|UCP5   41 WKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTI  120 (325)
+Q Consensus        41 wkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygti  120 (325)
+                      ...++++..++.+..++.+|+|++|+++|.+...... .....+.+..++.++++++||+.+||+|+.+.+.+..+....
+T Consensus       128 ~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~  206 (318)
+T 4C9H_B          128 AGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKK-GGARQFNGLIDVYKKTLKSDGVAGLYRGFLPSVVGIVVYRGL  206 (318)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCC------CCCSCCSHHHHHHHHHHHHCSTTTTTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCC-CcchhhccHHHHHHHHHHHcChHHHhcCcHHHHHHhHHHHHH
+Confidence            4567889999999999999999999999987653221 112457889999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--cchhHHHHHHHHHHHhCchhhhc
+Q sp|O95258|UCP5  121 KIGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL--FQGSMIGSFIDIYQQEGTRGLWR  198 (325)
+Q Consensus       121 kigiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl--fqgsmigsfidiyqqegtrglwr  198 (325)
+                      .|..|+.+++.+...............+..++.+...+.+|+|++|.+++.+...  .+.+..+++.+++++||+.+||+
+T Consensus       207 ~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~a~~~~~~~~~P~d~v~~r~~~~~~~~~~~~~~~~~~~~i~~~~G~~gly~  286 (318)
+T 4C9H_B          207 YFGMYDSLKPLLLTGSLEGSFLASFLLGWVVTTGASTCSYPLDTVRRRMMMTSGQAVKYDGAFDCLRKIVAAEGVGSLFK  286 (318)
+T ss_dssp             HHHHHHHTC------------CHHHHHHHHHHHHHHHHTHHHHHHHHHHHHTTTSSCCCSSHHHHHHHHHHHHCGGGGGT
+T ss_pred             HHHHHHHHHHHHhcCCcchhHHHHHHHHHHHHHHHHHHhcHHHHHHHHHhcCCCCCCCCCCHHHHHHHHHHHhCHHHHcc
+Confidence            9999998887664322221133345566677777888999999999999886543  67889999999999999999999
+
+
+Q ss_pred             ccccHHHHHHHHhhhhhhHHHHHhhhhh
+Q sp|O95258|UCP5  199 GVVPTAQRAAIVVGVELPVYDITKKHLI  226 (325)
+Q Consensus       199 gvvptaqraaivvgvelpvyditkkhli  226 (325)
+                      |+.+.+.+..+..++ +..|+.+++.+.
+T Consensus       287 G~~~~~lr~~~~~~~-~~~~~~~k~~~~  313 (318)
+T 4C9H_B          287 GCGANILRGVAGAGV-ISMYDQLQMILF  313 (318)
+T ss_dssp             THHHHHHHHHHHHHH-HHHHHHHC----
+T ss_pred             chHHHHHHhHHHHHH-HHHHHHHHHHHc
+Confidence            999999999888877 888999988765
+
+
+No 11
+>4C9G_A ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: BNG, CDL, CXT; 2.49A {SACCHAROMYCES CEREVISIAE}
+Probab=99.91  E-value=3.5e-22  Score=154.67  Aligned_cols=180  Identities=24%  Similarity=0.359  Sum_probs=145.6  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhh
+Q sp|O95258|UCP5  143 INMICGVVSGVISSTIANPTDVLKIRMQAQGSL--------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVE  214 (325)
+Q Consensus       143 inmicgvvsgvisstianptdvlkirmqaqgsl--------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgve  214 (325)
+                      .....+..++.+...+.+|+|++|.++|.....        .|.+..+++..+++.||+.++|+|+.+.+.+..+...++
+T Consensus        25 ~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~~~~~~~~~~~  104 (318)
+T 4C9G_A           25 IDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANVIRYFPTQALN  104 (318)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHHHHHHHHHHHH
+Confidence            456777888888899999999999999975421        567899999999999999999999999999999999999
+
+
+Q ss_pred             hhHHHHHhhhhhhhc---hhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc--cchhhhhchHHHHHHHHHh
+Q sp|O95258|UCP5  215 LPVYDITKKHLILSG---MMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV--GHVDLYKGTVDGILKMWKH  289 (325)
+Q Consensus       215 lpvyditkkhlilsg---mmgdtilthfvssftcglagalasnpvdvvrtrmmnqraiv--ghvdlykgtvdgilkmwkh  289 (325)
+                      |..|+.+++... ..   ............+..++.+...+.+|+|++|+++|.+....  +....+.+..+++..++++
+T Consensus       105 ~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  183 (318)
+T 4C9G_A          105 FAFKDKIKAMFG-FKKEEGYAKWFAGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKKGGARQFNGLIDVYKKTLKS  183 (318)
+T ss_dssp             HHHHHHHHHHHC-CCGGGCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC--------CCCCSHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhC-CCcccccchHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCCCcchhhccHHHHHHHHHHH
+Confidence            999999998763 21   12223445667777888888899999999999999875300  0112467899999999999
+
+
+Q ss_pred             hchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  290 EGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       290 egffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      ||++++|+|+.+.+++..+..++.|..|+.+|+.
+T Consensus       184 ~g~~~l~~G~~~~~~~~~~~~~~~~~~~~~~~~~  217 (318)
+T 4C9G_A          184 DGVAGLYRGFLPSVVGIVVYRGLYFGMYDSLKPL  217 (318)
+T ss_dssp             TCSTTTSTTHHHHHHHHHHHHHHHHHHHHHC---
+T ss_pred             cChHHHhcCcHHHHHHhHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999988887768999988764
+
+
+No 12
+>4C9H_B ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: CM5, CDL, CXT; 3.2A {SACCHAROMYCES CEREVISIAE}
+Probab=99.91  E-value=3.5e-22  Score=154.67  Aligned_cols=180  Identities=24%  Similarity=0.359  Sum_probs=146.9  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc--------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhh
+Q sp|O95258|UCP5  143 INMICGVVSGVISSTIANPTDVLKIRMQAQGSL--------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVE  214 (325)
+Q Consensus       143 inmicgvvsgvisstianptdvlkirmqaqgsl--------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgve  214 (325)
+                      .....+..++.+...+.+|+|++|.++|.....        .|.+..+++..+++.||+.++|+|+.+.+.+..+...++
+T Consensus        25 ~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~~~~~~~~~~~  104 (318)
+T 4C9H_B           25 IDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANVIRYFPTQALN  104 (318)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTCCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHHHTHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHHHHHHHHHHHH
+Confidence            456777888888899999999999999975421        567899999999999999999999999999999999999
+
+
+Q ss_pred             hhHHHHHhhhhhhhc---hhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc--cchhhhhchHHHHHHHHHh
+Q sp|O95258|UCP5  215 LPVYDITKKHLILSG---MMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV--GHVDLYKGTVDGILKMWKH  289 (325)
+Q Consensus       215 lpvyditkkhlilsg---mmgdtilthfvssftcglagalasnpvdvvrtrmmnqraiv--ghvdlykgtvdgilkmwkh  289 (325)
+                      |..|+.+++... ..   ............+..++.+...+.+|+|++|+++|.+....  +....+.+..+++..++++
+T Consensus       105 ~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  183 (318)
+T 4C9H_B          105 FAFKDKIKAMFG-FKKEEGYAKWFAGNLASGGAAGALSLLFVYSLDYARTRLAADSKSSKKGGARQFNGLIDVYKKTLKS  183 (318)
+T ss_dssp             CCCCHHHHHHHC-CCGGGCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCC-----CCCSCCSHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhC-CCcccccchHHHHHHHHHHHHHHHHHHHHhhhHHHHHHHHhcccccCCCcchhhccHHHHHHHHHHH
+Confidence            999999998763 21   12223445667777888888899999999999999875300  0112467899999999999
+
+
+Q ss_pred             hchHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  290 EGFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       290 egffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      ||++++|+|+.+.+++..+..++.|..|+.+|+.
+T Consensus       184 ~g~~~l~~G~~~~~~~~~~~~~~~~~~~~~~~~~  217 (318)
+T 4C9H_B          184 DGVAGLYRGFLPSVVGIVVYRGLYFGMYDSLKPL  217 (318)
+T ss_dssp             HCSTTTTTTHHHHHHHHHHHHHHHHHHHHHTC--
+T ss_pred             cChHHHhcCcHHHHHHhHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999988887768999988753
+
+
+No 13
+>1OKC_A ADP, ATP CARRIER PROTEIN HEART; MITOCHONDRIAL TRANSPORTER, NUCLEOTIDE TRANSLOCATION, MEMBRANE; HET: PC1, CDL, CXT, LDM; 2.2A {BOS TAURUS} SCOP: f.42.1.1
+Probab=99.88  E-value=9e-21  Score=139.41  Aligned_cols=180  Identities=21%  Similarity=0.328  Sum_probs=147.1  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhhh
+Q sp|O95258|UCP5  143 INMICGVVSGVISSTIANPTDVLKIRMQAQGSL-------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVEL  215 (325)
+Q Consensus       143 inmicgvvsgvisstianptdvlkirmqaqgsl-------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgvel  215 (325)
+                      ..+..+..++.....+.+|+|.+|+++|.....       .+.+..+.+..+++.+|+.++|+|+.+.+....+.....|
+T Consensus         9 ~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~~~~   88 (297)
+T 1OKC_A            9 KDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQISAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFPTQALNF   88 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHTHHHHHHHHHHHHGGGCSSCCGGGSCCSHHHHHHHHHHHHCGGGGGTTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhccccCcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcHHHHHHH
+Confidence            456677778888889999999999999976531       5677899999999999999999999999999999999999
+
+
+Q ss_pred             hHHHHHhhhhhhhch-----hhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhccchhhhhchHHHHHHHHHhh
+Q sp|O95258|UCP5  216 PVYDITKKHLILSGM-----MGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHE  290 (325)
+Q Consensus       216 pvyditkkhlilsgm-----mgdtilthfvssftcglagalasnpvdvvrtrmmnqraivghvdlykgtvdgilkmwkhe  290 (325)
+                      ..|+.+++... ...     ...........+..++.....+.+|+|+++++++.+.........+.+..+++.++++++
+T Consensus        89 ~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (297)
+T 1OKC_A           89 AFKDKYKQIFL-GGVDRHKQFWRYFAGNLASGGAAGATSLCFVYPLDFARTRLAADVGKGAAQREFTGLGNCITKIFKSD  167 (297)
+T ss_dssp             HHHHHHHHHHH-TTCCTTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCSSTTTCSCSSHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhc-CCCccccchHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcccccccccHHHHHHHHHHHc
+Confidence            99999988764 321     122344566777788888888999999999999886431001234678999999999999
+
+
+Q ss_pred             chHHHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  291 GFFALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       291 gffalykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      |++++|+|+.+.+.+.++..++.|..|+.+|+.
+T Consensus       168 g~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~~  200 (297)
+T 1OKC_A          168 GLRGLYQGFNVSVQGIIIYRAAYFGVYDTAKGM  200 (297)
+T ss_dssp             CHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             cHHHHhccchHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            999999999999999988887658999998864
+
+
+No 14
+>2C3E_A ADP/ATP TRANSLOCASE 1; MITOCHONDRIAL CARRIER, NUCLEOTIDE TRANSPORT, MEMBRANE; HET: CDL, CXT; 2.8A {BOS TAURUS}
+Probab=99.88  E-value=9e-21  Score=139.41  Aligned_cols=179  Identities=21%  Similarity=0.325  Sum_probs=146.3  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhhh
+Q sp|O95258|UCP5  143 INMICGVVSGVISSTIANPTDVLKIRMQAQGSL-------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVEL  215 (325)
+Q Consensus       143 inmicgvvsgvisstianptdvlkirmqaqgsl-------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgvel  215 (325)
+                      ..+..+..++.....+.+|+|.+|+++|.....       .+.+..+.+..+++.+|+.++|+|+.+.+....+.....|
+T Consensus         9 ~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~~~~   88 (297)
+T 2C3E_A            9 KDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQISAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFPTQALNF   88 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGCSSCCTTTCCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhccccCcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcHHHHHHH
+Confidence            456677778888888999999999999976531       5678899999999999999999999999999999999999
+
+
+Q ss_pred             hHHHHHhhhhhhhch-----hhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhccchhhhhchHHHHHHHHHhh
+Q sp|O95258|UCP5  216 PVYDITKKHLILSGM-----MGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHE  290 (325)
+Q Consensus       216 pvyditkkhlilsgm-----mgdtilthfvssftcglagalasnpvdvvrtrmmnqraivghvdlykgtvdgilkmwkhe  290 (325)
+                      ..|+.+++... ...     ...........+..++.....+.+|+|+++++++.+.........+.+..+++.++++++
+T Consensus        89 ~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  167 (297)
+T 2C3E_A           89 AFKDKYKQIFL-GGVDRHKQFWRYFAGNLASGGAAGATSLCFVYPLDFARTRLAADVGKGAAQREFTGLGNCITKIFKSD  167 (297)
+T ss_dssp             HHHHHHHHHHT-TTCCTTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCCCSTTSCSCSSHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhc-CCCccccchHHHHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcccccccccHHHHHHHHHHHc
+Confidence            99999988764 221     122344566777788888888999999999999886430001234678999999999999
+
+
+Q ss_pred             chHHHhcCcchhHHhhhHHHHHHHHhHHHHHc
+Q sp|O95258|UCP5  291 GFFALYKGFWPNWLRLGPWNIIFFITYEQLKR  322 (325)
+Q Consensus       291 gffalykgfwpnwlrlgpwniiffityeqlkr  322 (325)
+                      |++++|+|+.+.+.+.++..++.|..|+.+|+
+T Consensus       168 g~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~  199 (297)
+T 2C3E_A          168 GLRGLYQGFNVSVQGIIIYRAAYFGVYDTAKG  199 (297)
+T ss_dssp             HHHHHTTTHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cHHHHhccchHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999998888765899998885
+
+
+No 15
+>2LCK_A Mitochondrial uncoupling protein 2; membrane protein, proton translocator, mitochondrial; NMR {Mus musculus}
+Probab=99.87  E-value=2.2e-20  Score=135.95  Aligned_cols=183  Identities=22%  Similarity=0.311  Sum_probs=152.9  Template_Neff=12.500
+
+Q ss_pred             CCchhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhh
+Q sp|O95258|UCP5   40 NWKPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGT  119 (325)
+Q Consensus        40 nwkpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygt  119 (325)
+                      ....+++|..++.+...+.+|+|.+|+++|.......    ...+.+..++..++++++|+.++|+|..+.+....+...
+T Consensus       104 ~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~g~~~l~~g~~~~~~~~~~~~~  179 (303)
+T 2LCK_A          104 IGSRLLAGSTTGALAVAVAQPTDVVKVRFQAQARAGG----GRRYQSTVEAYKTIAREEGIRGLWKGTSPNVARNAIVNC  179 (303)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHSCSCCC----SSSCCCHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHhCcHHHHHHHHHHHhhcCC----CCCCccHHHHHHHHHHHccHHHhccCchHHHHHHHHHHH
+Confidence            3457889999999999999999999999998754221    345677899999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhcccCCCch-HHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccccchhHHHHHHHHHHHhCchhhhc
+Q sp|O95258|UCP5  120 IKIGIYQSLKRLFVERLEDET-LLINMICGVVSGVISSTIANPTDVLKIRMQAQGSLFQGSMIGSFIDIYQQEGTRGLWR  198 (325)
+Q Consensus       120 ikigiyqslkrlfverledet-llinmicgvvsgvisstianptdvlkirmqaqgslfqgsmigsfidiyqqegtrglwr  198 (325)
+                      ..+..++..+..+........ .......+..++.+...+.+|+|+++.+++......+.+..++...+++++|+.++|+
+T Consensus       180 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~l~~  259 (303)
+T 2LCK_A          180 AELVTYDLIKDTLLKANLMTDDLPCHFTSAFGAGFCTTVIASPVDVVKTRYMNSALGQYHSAGHCALTMLRKEGPRAFYK  259 (303)
+T ss_dssp             HHHHHHHHHHHTTTTTTSCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCSSSCCSHHHHHHHHHHSSCTHHHHS
+T ss_pred             HHHHHHHHHHHHHHHcCCCCCCCchhHHHHHHHHHHHHHHHCcHHHHHHHHHcCCcccCCCHHHHHHHHHHHHCHHHHhc
+Confidence            999999999887643322222 4445556667777888889999999999987654356778899999999999999999
+
+
+Q ss_pred             ccccHHHHHHHHhhhhhhHHHHHhhhhh
+Q sp|O95258|UCP5  199 GVVPTAQRAAIVVGVELPVYDITKKHLI  226 (325)
+Q Consensus       199 gvvptaqraaivvgvelpvyditkkhli  226 (325)
+                      |+.+.+.+..+...+.+..|+.+++.+.
+T Consensus       260 G~~~~~~~~~~~~~~~~~~~~~~~~~l~  287 (303)
+T 2LCK_A          260 GFMPSFLRLGSWNVVMFVTYEQLKRALM  287 (303)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHSCCC
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999998764
+
+
+No 16
+>2LCK_A Mitochondrial uncoupling protein 2; membrane protein, proton translocator, mitochondrial; NMR {Mus musculus}
+Probab=99.87  E-value=3.6e-20  Score=134.80  Aligned_cols=178  Identities=27%  Similarity=0.408  Sum_probs=147.5  Template_Neff=12.500
+
+Q ss_pred             HHHHHHHHHHHHHhcCChHHHHHHHHhhcccc----------cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhh
+Q sp|O95258|UCP5  144 NMICGVVSGVISSTIANPTDVLKIRMQAQGSL----------FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGV  213 (325)
+Q Consensus       144 nmicgvvsgvisstianptdvlkirmqaqgsl----------fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgv  213 (325)
+                      .+..+..++.....+.+|+|++|+++|.+...          .+.+..+.+.++++.+|+.++|+|..+.+.+..+....
+T Consensus         4 ~~~~g~~a~~~~~~~~~P~~~~~~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~   83 (303)
+T 2LCK_A            4 KFLGAGTAACIADLITFPLDTAKVRLQIQGESQGLVRTAASAQYRGVLGTILTMVRTEGPRSLYNGLVAGLQRQMSFASV   83 (303)
+T ss_dssp             HHHHHHHHHHHHHHTTHHHHHHHHHSSCCTTCCSHHHHCSCSSCSCHHHHHHHHHHHHCHHHHHSSHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHCcHHHHHHHHHHccccccccccccchhcccHHHHHHHHHHHHCHHHHhcCchHHHHHHHhhHHH
+Confidence            45667788888889999999999999986431          46778999999999999999999999999999999999
+
+
+Q ss_pred             hhhHHHHHhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhccchhhhhchHHHHHHHHHhhchH
+Q sp|O95258|UCP5  214 ELPVYDITKKHLILSGMMGDTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHEGFF  293 (325)
+Q Consensus       214 elpvyditkkhlilsgmmgdtilthfvssftcglagalasnpvdvvrtrmmnqraivghvdlykgtvdgilkmwkhegff  293 (325)
+                      .+..|+.+++... .............++..++.....+.+|+|+++++++.+... +....+.+..+++.++++++|++
+T Consensus        84 ~~~~~~~~~~~~~-~~~~~~~~~~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~g~~  161 (303)
+T 2LCK_A           84 RIGLYDSVKQFYT-KGSEHAGIGSRLLAGSTTGALAVAVAQPTDVVKVRFQAQARA-GGGRRYQSTVEAYKTIAREEGIR  161 (303)
+T ss_dssp             TTTHHHHHHHHHS-CCCSSCCHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHSCSC-CCSSSCCCHHHHHHHHHHHHCHH
+T ss_pred             HHHHHHHHHHHHh-cCCccCChhHHHHHHHHHHHHHHHHhCcHHHHHHHHHHHhhc-CCCCCCccHHHHHHHHHHHccHH
+Confidence            9999999988775 443334455667778888888889999999999999987530 02234568889999999999999
+
+
+Q ss_pred             HHhcCcchhHHhhhHHHHHHHHhHHHHHcC
+Q sp|O95258|UCP5  294 ALYKGFWPNWLRLGPWNIIFFITYEQLKRL  323 (325)
+Q Consensus       294 alykgfwpnwlrlgpwniiffityeqlkrl  323 (325)
+                      ++|+|+.+.+++..+...+.+..|+.+++.
+T Consensus       162 ~l~~g~~~~~~~~~~~~~~~~~~~~~~~~~  191 (303)
+T 2LCK_A          162 GLWKGTSPNVARNAIVNCAELVTYDLIKDT  191 (303)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HhccCchHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            999999999999988777658889888753
+
+
+No 17
+>1OKC_A ADP, ATP CARRIER PROTEIN HEART; MITOCHONDRIAL TRANSPORTER, NUCLEOTIDE TRANSLOCATION, MEMBRANE; HET: PC1, CDL, CXT, LDM; 2.2A {BOS TAURUS} SCOP: f.42.1.1
+Probab=99.86  E-value=1.4e-19  Score=133.13  Aligned_cols=178  Identities=19%  Similarity=0.348  Sum_probs=141.6  Template_Neff=12.200
+
+Q ss_pred             chhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhHH
+Q sp|O95258|UCP5   42 KPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTIK  121 (325)
+Q Consensus        42 kpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygtik  121 (325)
+                      ..+++|..++.+...+.+|+|.+++++|.+.....   ....+.+..++++.+.+++|+.++|+|+.+.+.+..+.....
+T Consensus       114 ~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~g~~~l~~g~~~~~~~~~~~~~~~  190 (297)
+T 1OKC_A          114 GNLASGGAAGATSLCFVYPLDFARTRLAADVGKGA---AQREFTGLGNCITKIFKSDGLRGLYQGFNVSVQGIIIYRAAY  190 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCSST---TTCSCSSHHHHHHHHHHHHCHHHHTTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcc---cccccccHHHHHHHHHHHccHHHHhccchHHHHHHHHHHHHH
+Confidence            35678889999999999999999999998654322   134578899999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHHHHHHhCchhh
+Q sp|O95258|UCP5  122 IGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFIDIYQQEGTRGL  196 (325)
+Q Consensus       122 igiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl-----fqgsmigsfidiyqqegtrgl  196 (325)
+                      |..++..+..+....... .......+..++.....+.+|+|++|.++|.+...     .+.+..+++..+++++|+.++
+T Consensus       191 ~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~P~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~g~~~~  269 (297)
+T 1OKC_A          191 FGVYDTAKGMLPDPKNVH-IIVSWMIAQTVTAVAGLVSYPFDTVRRRMMMQSGRKGADIMYTGTVDCWRKIAKDEGPKAF  269 (297)
+T ss_dssp             HHHHHHHHHSSCGGGCSC-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTCCGGGCSCSSHHHHHHHHHHHHCGGGG
+T ss_pred             HHHHHHHHHcCCCCCCch-HHHHHHHHHHHHHHHHHHHchHHHHHHHHHhccCCCCCCCCCCcHHHHHHHHHHHhCHHHH
+Confidence            999999988764322221 33344455555666677899999999999987643     378899999999999999999
+
+
+Q ss_pred             hcccccHHHHHHHHhhhhhhHHHHHhhh
+Q sp|O95258|UCP5  197 WRGVVPTAQRAAIVVGVELPVYDITKKH  224 (325)
+Q Consensus       197 wrgvvptaqraaivvgvelpvyditkkh  224 (325)
+                      |+|+...+.+..+ ....|..|+.+++.
+T Consensus       270 ~~G~~~~~~~~~~-~~~~~~~~~~~~~~  296 (297)
+T 1OKC_A          270 FKGAWSNVLRGMG-GAFVLVLYDEIKKF  296 (297)
+T ss_dssp             GTTHHHHHHHHHH-HHHHHHHHHTC---
+T ss_pred             hcccHHHHHhHHh-HHHHHHHHHHHHhh
+Confidence            9999999999555 66677778777653
+
+
+No 18
+>2C3E_A ADP/ATP TRANSLOCASE 1; MITOCHONDRIAL CARRIER, NUCLEOTIDE TRANSPORT, MEMBRANE; HET: CDL, CXT; 2.8A {BOS TAURUS}
+Probab=99.86  E-value=1.4e-19  Score=133.13  Aligned_cols=178  Identities=19%  Similarity=0.348  Sum_probs=141.2  Template_Neff=12.200
+
+Q ss_pred             chhhhhHHHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhHH
+Q sp|O95258|UCP5   42 KPFVYGGLASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTIK  121 (325)
+Q Consensus        42 kpfvygglasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygtik  121 (325)
+                      ..+++|..++.+...+.+|+|.+++++|.+.....   ....+.+..++++.+.+++|+.++|+|+.+.+.+..+.....
+T Consensus       114 ~~~~~g~~~~~~~~~~~~P~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~g~~~l~~g~~~~~~~~~~~~~~~  190 (297)
+T 2C3E_A          114 GNLASGGAAGATSLCFVYPLDFARTRLAADVGKGA---AQREFTGLGNCITKIFKSDGLRGLYQGFNVSVQGIIIYRAAY  190 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCCCST---TSCSCSSHHHHHHHHHHHHHHHHHTTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcHHHHHHHHHHhccCCcc---cccccccHHHHHHHHHHHccHHHHhccchHHHHHHHHHHHHH
+Confidence            35678889999999999999999999998754322   134578899999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhcccCCCchHHHHHHHHHHHHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHHHHHHhCchhh
+Q sp|O95258|UCP5  122 IGIYQSLKRLFVERLEDETLLINMICGVVSGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFIDIYQQEGTRGL  196 (325)
+Q Consensus       122 igiyqslkrlfverledetllinmicgvvsgvisstianptdvlkirmqaqgsl-----fqgsmigsfidiyqqegtrgl  196 (325)
+                      |..++..+..+....... .......+..++.....+.+|+|++|.++|.+...     .+.+..+++..+++++|+.++
+T Consensus       191 ~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~P~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~g~~~~  269 (297)
+T 2C3E_A          191 FGVYDTAKGMLPDPKNVH-IIVSWMIAQTVTAVAGLVSYPFDTVRRRMMMQSGRKGADIMYTGTVDCWRKIAKDEGPKAF  269 (297)
+T ss_dssp             HHHHHHHHHHSCCSSCSC-SHHHHHHHHHHHHHHHHHTHHHHHHHHHHHTTTTCCSTTCCCSSHHHHHHHCCCCCCSSGG
+T ss_pred             HHHHHHHHHcCCCCCCch-HHHHHHHHHHHHHHHHHHHchHHHHHHHHHhccCCCCCCCCCCcHHHHHHHHHHHhCHHHH
+Confidence            999999998875332221 23344445555566678899999999999987543     378899999999999999999
+
+
+Q ss_pred             hcccccHHHHHHHHhhhhhhHHHHHhhh
+Q sp|O95258|UCP5  197 WRGVVPTAQRAAIVVGVELPVYDITKKH  224 (325)
+Q Consensus       197 wrgvvptaqraaivvgvelpvyditkkh  224 (325)
+                      |+|+...+.+..+ ....|..|+.+++.
+T Consensus       270 ~~G~~~~~~~~~~-~~~~~~~~~~~~~~  296 (297)
+T 2C3E_A          270 FKGAWSNVLRGMG-GAFVLVLYDEIKKF  296 (297)
+T ss_dssp             GTTTTHHHHHHHH-HHHHHHHHCCC---
+T ss_pred             hcccHHHHHhHHh-HHHHHHHHHHHHhh
+Confidence            9999999999555 56667777766653
+
+
+No 19
+>4C9G_A ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: BNG, CDL, CXT; 2.49A {SACCHAROMYCES CEREVISIAE}
+Probab=99.34  E-value=1.1e-11  Score=96.74  Aligned_cols=90  Identities=20%  Similarity=0.319  Sum_probs=73.8  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc---cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHH
+Q sp|O95258|UCP5  233 DTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV---GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPW  309 (325)
+Q Consensus       233 dtilthfvssftcglagalasnpvdvvrtrmmnqraiv---ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpw  309 (325)
+                      .......+++..++.+...+++|+|++|+|+|++....   .....|.+.++++.+++++||+++||||+.+.+++.++.
+T Consensus        21 ~~~~~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~~~~~~~  100 (318)
+T 4C9G_A           21 SNFLIDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANVIRYFPT  100 (318)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTSCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHHHTHHHH
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHHHHHHHH
+Confidence            34555678888999999999999999999999864300   012357789999999999999999999999999999998
+
+
+Q ss_pred             HHHHHHhHHHHHc
+Q sp|O95258|UCP5  310 NIIFFITYEQLKR  322 (325)
+Q Consensus       310 niiffityeqlkr  322 (325)
+                      .++.|..|+.+|+
+T Consensus       101 ~~~~~~~~~~~~~  113 (318)
+T 4C9G_A          101 QALNFAFKDKIKA  113 (318)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            8776899999885
+
+
+No 20
+>4C9H_B ADP, ATP CARRIER PROTEIN 2; MITOCHONDRIAL CARRIER, ADP/ATP CARRIER, TRANSPORT; HET: CM5, CDL, CXT; 3.2A {SACCHAROMYCES CEREVISIAE}
+Probab=99.34  E-value=1.1e-11  Score=96.74  Aligned_cols=90  Identities=20%  Similarity=0.319  Sum_probs=73.6  Template_Neff=11.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc---cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHH
+Q sp|O95258|UCP5  233 DTILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV---GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPW  309 (325)
+Q Consensus       233 dtilthfvssftcglagalasnpvdvvrtrmmnqraiv---ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpw  309 (325)
+                      .......+++..++.+...+++|+|++|+|+|++....   .....|.+.++++.+++++||+++||||+.+.+++.++.
+T Consensus        21 ~~~~~~~~~g~~a~~~~~~~~~P~d~vk~~lq~~~~~~~~~~~~~~~~~~~~~~~~i~~~~G~~~l~~G~~~~~~~~~~~  100 (318)
+T 4C9H_B           21 SNFLIDFLMGGVSAAVAKTAASPIERVKLLIQNQDEMLKQGTLDRKYAGILDCFKRTATQEGVISFWRGNTANVIRYFPT  100 (318)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHTTCCSSCCCSHHHHHHHHHHHHCSGGGGTTHHHHHHTHHHH
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHcHHHHHHHHHHhhhhhhccCCCCcccCcHHHHHHHHHhhcchHHHhcCchHHHHHHHHH
+Confidence            34555678888999999999999999999999864300   012357789999999999999999999999999999998
+
+
+Q ss_pred             HHHHHHhHHHHHc
+Q sp|O95258|UCP5  310 NIIFFITYEQLKR  322 (325)
+Q Consensus       310 niiffityeqlkr  322 (325)
+                      .++.|..|+.+|+
+T Consensus       101 ~~~~~~~~~~~~~  113 (318)
+T 4C9H_B          101 QALNFAFKDKIKA  113 (318)
+T ss_dssp             HHHCCCCCHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            8776899998885
+
+
+No 21
+>6GCI_A Uncharacterized protein, Nanobody; Transporter, Inhibitor, Mitochondrial, Carrier, MEMBRANE; HET: BKC, CDL, P6G; 3.3A {Thermothelomyces thermophila (strain ATCC 42464 / BCRC 31852 / DSM 1799)}
+Probab=99.33  E-value=1.1e-11  Score=99.40  Aligned_cols=89  Identities=20%  Similarity=0.333  Sum_probs=76.2  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc---cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHH
+Q sp|O95258|UCP5  234 TILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV---GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWN  310 (325)
+Q Consensus       234 tilthfvssftcglagalasnpvdvvrtrmmnqraiv---ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwn  310 (325)
+                      ..+..+++|+.+++++..+++|+|++|+|+|.+....   .....|.+.++++++++++||+++||||+.+.+++..+..
+T Consensus        14 ~~~~~~~~g~~ag~~~~~~~~P~d~vk~r~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~G~~~l~rG~~~~~~~~~~~~   93 (315)
+T 6GCI_A           14 PFVVDFLMGGVSAAVSKTAAAPIERIKLLVQNQDEMIKAGRLDRRYNGIIDCFRRTTADEGLMALWRGNTANVIRYFPTQ   93 (315)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSHHHHHHTSCSSCCSCHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCcHHHHHHhHHhchHHHhcCccccccccHHHHHHHHHHHccHHHHhcccHHHHHHHhHhH
+Confidence            4667888999999999999999999999999864300   0134578999999999999999999999999999999988
+
+
+Q ss_pred             HHHHHhHHHHHc
+Q sp|O95258|UCP5  311 IIFFITYEQLKR  322 (325)
+Q Consensus       311 iiffityeqlkr  322 (325)
+                      +++|.+||.+|+
+T Consensus        94 ~~~~~~~~~~~~  105 (315)
+T 6GCI_A           94 ALNFAFRDKFKA  105 (315)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            776999999885
+
+
+No 22
+>1OKC_A ADP, ATP CARRIER PROTEIN HEART; MITOCHONDRIAL TRANSPORTER, NUCLEOTIDE TRANSLOCATION, MEMBRANE; HET: PC1, CDL, CXT, LDM; 2.2A {BOS TAURUS} SCOP: f.42.1.1
+Probab=99.15  E-value=4.9e-10  Score=83.23  Aligned_cols=89  Identities=22%  Similarity=0.387  Sum_probs=74.0  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc--cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHH
+Q sp|O95258|UCP5  234 TILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV--GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNI  311 (325)
+Q Consensus       234 tilthfvssftcglagalasnpvdvvrtrmmnqraiv--ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwni  311 (325)
+                      +.....+++..++.++..+++|+|++|+|+|.+....  .....+.+..+++.++++++|++++|+|+.+.+++.++..+
+T Consensus         6 ~~~~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~   85 (297)
+T 1OKC_A            6 SFLKDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQISAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFPTQA   85 (297)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHGGGCSSCCGGGSCCSHHHHHHHHHHHHCGGGGGTTTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhccccCcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcHHHH
+Confidence            4456678888899999999999999999999875300  01245678999999999999999999999999999988877
+
+
+Q ss_pred             HHHHhHHHHHc
+Q sp|O95258|UCP5  312 IFFITYEQLKR  322 (325)
+Q Consensus       312 iffityeqlkr  322 (325)
+                      +.|.+|+.+|+
+T Consensus        86 ~~~~~~~~~~~   96 (297)
+T 1OKC_A           86 LNFAFKDKYKQ   96 (297)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            66899998875
+
+
+No 23
+>2C3E_A ADP/ATP TRANSLOCASE 1; MITOCHONDRIAL CARRIER, NUCLEOTIDE TRANSPORT, MEMBRANE; HET: CDL, CXT; 2.8A {BOS TAURUS}
+Probab=99.15  E-value=4.9e-10  Score=83.23  Aligned_cols=88  Identities=23%  Similarity=0.386  Sum_probs=72.9  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc--cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHH
+Q sp|O95258|UCP5  235 ILTHFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV--GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNII  312 (325)
+Q Consensus       235 ilthfvssftcglagalasnpvdvvrtrmmnqraiv--ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwnii  312 (325)
+                      .....+++..++.++..+++|+|++|+|+|.+....  .....+.+..+++.++++++|++++|+|+.+.+++.++..++
+T Consensus         7 ~~~~~~~g~~~~~~~~~~~~P~~~~k~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~~   86 (297)
+T 2C3E_A            7 FLKDFLAGGVAAAISKTAVAPIERVKLLLQVQHASKQISAEKQYKGIIDCVVRIPKEQGFLSFWRGNLANVIRYFPTQAL   86 (297)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGCSSCCTTTCCSSHHHHHHHHHHHHCGGGGGTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhCHHHHHHHHHHHhHhccccCcchhcccHHHHHHHchhhhCchHhhhccHHHHHHhcHHHHH
+Confidence            345677888889999999999999999999875300  012356789999999999999999999999999999888776
+
+
+Q ss_pred             HHHhHHHHHc
+Q sp|O95258|UCP5  313 FFITYEQLKR  322 (325)
+Q Consensus       313 ffityeqlkr  322 (325)
+                      .|.+|+.+|+
+T Consensus        87 ~~~~~~~~~~   96 (297)
+T 2C3E_A           87 NFAFKDKYKQ   96 (297)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            6899998876
+
+
+No 24
+>2LCK_A Mitochondrial uncoupling protein 2; membrane protein, proton translocator, mitochondrial; NMR {Mus musculus}
+Probab=99.08  E-value=1.4e-09  Score=79.92  Aligned_cols=85  Identities=24%  Similarity=0.353  Sum_probs=70.0  Template_Neff=12.500
+
+Q ss_pred             HHHHHHHHHHHHHHHcChHHHHHHHHhhhchhc-----cchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhhHHHHH
+Q sp|O95258|UCP5  238 HFVSSFTCGLAGALASNPVDVVRTRMMNQRAIV-----GHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLGPWNII  312 (325)
+Q Consensus       238 hfvssftcglagalasnpvdvvrtrmmnqraiv-----ghvdlykgtvdgilkmwkhegffalykgfwpnwlrlgpwnii  312 (325)
+                      .++++..++.....+++|+|++|+|+|++....     .....+.+.++.+.++++++|++++|+|..+.+++.++...+
+T Consensus         4 ~~~~g~~a~~~~~~~~~P~~~~~~~~q~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~l~~G~~~~~~~~~~~~~~   83 (303)
+T 2LCK_A            4 KFLGAGTAACIADLITFPLDTAKVRLQIQGESQGLVRTAASAQYRGVLGTILTMVRTEGPRSLYNGLVAGLQRQMSFASV   83 (303)
+T ss_dssp             HHHHHHHHHHHHHHTTHHHHHHHHHSSCCTTCCSHHHHCSCSSCSCHHHHHHHHHHHHCHHHHHSSHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHCcHHHHHHHHHHccccccccccccchhcccHHHHHHHHHHHHCHHHHhcCchHHHHHHHhhHHH
+Confidence            457788888889999999999999999864300     011246789999999999999999999999999999998877
+
+
+Q ss_pred             HHHhHHHHHc
+Q sp|O95258|UCP5  313 FFITYEQLKR  322 (325)
+Q Consensus       313 ffityeqlkr  322 (325)
+                      .|..|+.+++
+T Consensus        84 ~~~~~~~~~~   93 (303)
+T 2LCK_A           84 RIGLYDSVKQ   93 (303)
+T ss_dssp             TTTHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            5888988774
+
+
+No 25
+>4P5W_A Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=95.13  E-value=0.025  Score=45.65  Aligned_cols=64  Identities=20%  Similarity=0.238  Sum_probs=17.6  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhHHH
+Q sp|O95258|UCP5   49 LASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTIKI  122 (325)
+Q Consensus        49 lasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygtiki  122 (325)
+                      .++.......+|++  ++|+|........   ...+.+...++.++   +|+.++|+|..+.+.+..  .++.|
+T Consensus       346 ~~g~~~~~~~~p~~--~~~~~~~~~~~~~---~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~--~ai~~  409 (411)
+T 4P5W_A          346 FQGGVKPMGSEPVP--KSRINLPAPNPDH---VGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS--KAIGG  409 (411)
+T ss_dssp             ------------------------CCTTC---CGGGGGHHHHHHHH---HHHHCCCC-----------------
+T ss_pred             HhchHHHeeecCCc--chhccCCCCCCCC---CcccccHHHHHHcC---CccHHHhccccHHHHhhc--ccccc
+Confidence            45556677889999  9999876432110   01167788888877   899999999999988776  45444
+
+
+No 26
+>4P5W_B Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=95.13  E-value=0.025  Score=45.65  Aligned_cols=64  Identities=20%  Similarity=0.238  Sum_probs=17.8  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHcCCchhhhhhhhhcCCCCcchhhhhcccccHHHHHHHHHHHhChHHHhcCChHHHHHHHhhhhHHH
+Q sp|O95258|UCP5   49 LASIVAEFGTFPVDLTKTRLQVQGQSIDARFKEIKYRGMFHALFRICKEEGVLALYSGIAPALLRQASYGTIKI  122 (325)
+Q Consensus        49 lasivaefgtfpvdltktrlqvqgqsidarfkeikyrgmfhalfrickeegvlalysgiapallrqasygtiki  122 (325)
+                      .++.......+|++  ++|+|........   ...+.+...++.++   +|+.++|+|..+.+.+..  .++.|
+T Consensus       346 ~~g~~~~~~~~p~~--~~~~~~~~~~~~~---~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~--~ai~~  409 (411)
+T 4P5W_B          346 FQGGVKPMGSEPVP--KSRINLPAPNPDH---VGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS--KAIGG  409 (411)
+T ss_dssp             ------------------------CCTTC---CGGGGSHHHHHHHH---HHHHCCCC-----------------
+T ss_pred             HhchHHHeeecCCc--chhccCCCCCCCC---CcccccHHHHHHcC---CccHHHhccccHHHHhhc--ccccc
+Confidence            45556677889999  9999876432110   01167788888887   899999999999988776  45444
+
+
+No 27
+>4P5W_A Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=94.81  E-value=0.027  Score=45.46  Aligned_cols=58  Identities=24%  Similarity=0.291  Sum_probs=17.7  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHcChHHHHHHHHhhhchhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhh
+Q sp|O95258|UCP5  245 CGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLG  307 (325)
+Q Consensus       245 cglagalasnpvdvvrtrmmnqraivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlg  307 (325)
+                      ++.......+|++  ++|++...........+.+..+++.++   +|++|+|+|..+.+++..
+T Consensus       347 ~g~~~~~~~~p~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~  404 (411)
+T 4P5W_A          347 QGGVKPMGSEPVP--KSRINLPAPNPDHVGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS  404 (411)
+T ss_dssp             -----------------------CCTTCCGGGGGHHHHHHHH---HHHHCCCC----------
+T ss_pred             hchHHHeeecCCc--chhccCCCCCCCCCcccccHHHHHHcC---CccHHHhccccHHHHhhc
+Confidence            4555667789999  888876542000012267788888887   899999999999998876
+
+
+No 28
+>4P5W_B Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=94.81  E-value=0.027  Score=45.46  Aligned_cols=58  Identities=24%  Similarity=0.291  Sum_probs=17.9  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHcChHHHHHHHHhhhchhccchhhhhchHHHHHHHHHhhchHHHhcCcchhHHhhh
+Q sp|O95258|UCP5  245 CGLAGALASNPVDVVRTRMMNQRAIVGHVDLYKGTVDGILKMWKHEGFFALYKGFWPNWLRLG  307 (325)
+Q Consensus       245 cglagalasnpvdvvrtrmmnqraivghvdlykgtvdgilkmwkhegffalykgfwpnwlrlg  307 (325)
+                      ++.......+|++  ++|++...........+.+..+++.++   +|++|+|+|..+.+++..
+T Consensus       347 ~g~~~~~~~~p~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~  404 (411)
+T 4P5W_B          347 QGGVKPMGSEPVP--KSRINLPAPNPDHVGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS  404 (411)
+T ss_dssp             -----------------------CCTTCCGGGGSHHHHHHHH---HHHHCCCC----------
+T ss_pred             hchHHHeeecCCc--chhccCCCCCCCCCcccccHHHHHHcC---CccHHHhccccHHHHhhc
+Confidence            4555667789999  888876542000012277888888888   899999999999998876
+
+
+No 29
+>4P5W_A Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=93.44  E-value=0.095  Score=42.40  Aligned_cols=58  Identities=16%  Similarity=0.188  Sum_probs=15.6  Template_Neff=11.900
+
+Q ss_pred             HHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhhh
+Q sp|O95258|UCP5  151 SGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVEL  215 (325)
+Q Consensus       151 sgvisstianptdvlkirmqaqgsl-----fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgvel  215 (325)
+                      ++.......+|++  +.+++.....     .+.+...++..+   +|+.++|+|..+.+.+..  .++.|
+T Consensus       347 ~g~~~~~~~~p~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~--~ai~~  409 (411)
+T 4P5W_A          347 QGGVKPMGSEPVP--KSRINLPAPNPDHVGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS--KAIGG  409 (411)
+T ss_dssp             -----------------------CCTTCCGGGGGHHHHHHHH---HHHHCCCC-----------------
+T ss_pred             hchHHHeeecCCc--chhccCCCCCCCCCcccccHHHHHHcC---CccHHHhccccHHHHhhc--ccccc
+Confidence            4445666789999  7887766421     256677777766   889999999998887766  44443
+
+
+No 30
+>4P5W_B Calcium-binding mitochondrial carrier protein Aralar2; transport protein; 2.4A {Homo sapiens}
+Probab=93.44  E-value=0.095  Score=42.40  Aligned_cols=58  Identities=16%  Similarity=0.188  Sum_probs=15.5  Template_Neff=11.900
+
+Q ss_pred             HHHHHHhcCChHHHHHHHHhhcccc-----cchhHHHHHHHHHHHhCchhhhcccccHHHHHHHHhhhhh
+Q sp|O95258|UCP5  151 SGVISSTIANPTDVLKIRMQAQGSL-----FQGSMIGSFIDIYQQEGTRGLWRGVVPTAQRAAIVVGVEL  215 (325)
+Q Consensus       151 sgvisstianptdvlkirmqaqgsl-----fqgsmigsfidiyqqegtrglwrgvvptaqraaivvgvel  215 (325)
+                      ++.......+|++  +.+++.....     .+.+...++..+   +|+.++|+|..+.+.+..  .++.|
+T Consensus       347 ~g~~~~~~~~p~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~---~g~~g~~~g~~~~~~~~~--~ai~~  409 (411)
+T 4P5W_B          347 QGGVKPMGSEPVP--KSRINLPAPNPDHVGGYKLAVATFAGI---ENKFGLYLPLFKPSVSTS--KAIGG  409 (411)
+T ss_dssp             -----------------------CCTTCCGGGGSHHHHHHHH---HHHHCCCC-----------------
+T ss_pred             hchHHHeeecCCc--chhccCCCCCCCCCcccccHHHHHHcC---CccHHHhccccHHHHhhc--ccccc
+Confidence            4445666789999  7887766421     256667777766   889999999998887766  44443
+
+
+No 31
+>3J9X_s coat protein; archaeal virus, helical symmetry, VIRUS; 3.8A {Sulfolobus islandicus rod-shaped virus 2}
+Probab=36.83  E-value=73  Score=27.17  Aligned_cols=22  Identities=5%  Similarity=0.054  Sum_probs=15.5  Template_Neff=6.400
+
+Q ss_pred             ccHHHHHHHHHHHhChHHHhcC
+Q sp|O95258|UCP5   85 RGMFHALFRICKEEGVLALYSG  106 (325)
+Q Consensus        85 rgmfhalfrickeegvlalysg  106 (325)
+                      ..+...++.++.++|+.+-.+.
+T Consensus        47 ~~le~~Vk~iLd~~GV~~~~r~   68 (128)
+T 3J9X_s           47 TSVNENVSAVLTQYGITGPNRA   68 (128)
+T ss_pred             HHHHHHHHHHHHHhCCChhHHH
+Confidence            3456678888999998755444
+
+

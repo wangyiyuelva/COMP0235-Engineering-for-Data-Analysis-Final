@@ -1,0 +1,405 @@
+Query         sp|O75603|GCM2_HUMAN
+Match_columns 506
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:28:16 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1325.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ODH_A MGCM1; TRANSCRIPTION FA 100.0 9.7E-36   1E-40  256.7   9.7  163   17-179    12-174 (174)
+  2 4ZLH_B Lipopolysaccharide asse  39.7      37  0.0004   27.8   1.5   16  116-131   319-334 (339)
+  3 2K4N_A Protein PF0246; beta-sh  36.2      37  0.0004   31.8   1.2   30  375-404    39-68  (111)
+  4 7OQY_P negative regulator, inh  29.6      88 0.00095   18.8   1.7   13  115-127    23-35  (48)
+  5 7AE4_c Decarboxylase, Hetero-c  27.0 2.2E+02  0.0023   21.8   3.7    8  117-124     2-9   (68)
+  6 7AE5_f Decarboxylase, Hetero-c  27.0 2.2E+02  0.0023   21.8   3.7    8  117-124     2-9   (68)
+  7 2NB9_A Uncharacterized protein  25.7      89 0.00097   17.5   1.2   12  116-127    26-37  (49)
+  8 5K2M_E RimK-related lysine bio  25.1   1E+02  0.0011   18.9   1.5   16  115-130    21-36  (53)
+  9 5K2M_F RimK-related lysine bio  25.1   1E+02  0.0011   18.9   1.5   17  115-131    21-37  (53)
+ 10 7EU0_L DNA-directed RNA polyme  23.9      94   0.001   19.0   1.1   12  116-127    27-38  (51)
+ 11 7EU1_L DNA-directed RNA polyme  23.9      94   0.001   19.0   1.1   12  116-127    27-38  (51)
+ 12 7NKX_Y chromatin remodelling,   22.2      80 0.00087   27.3   0.8   14  115-128    21-34  (102)
+ 13 7NKY_Y Chromatin, nucleosome,   22.2      80 0.00087   27.3   0.8   14  115-128    21-34  (102)
+ 14 1VD4_A ZINC FINGER, Transcript  22.1 1.1E+02  0.0011   21.6   1.2   13  115-127    39-51  (62)
+ 15 7ENA_w CDK-activating kinase a  21.9 1.2E+02  0.0013   36.5   2.4   14  142-155   241-254 (1368)
+ 16 6H02_A Mediator of RNA polymer  21.9 1.2E+02  0.0013   36.5   2.4   15  141-155   240-254 (1382)
+ 17 3WWL_A Alpha-aminoadipate carr  21.7 1.3E+02  0.0014   18.3   1.4   17  115-131    22-38  (54)
+ 18 3WWN_B Putative acetylglutamat  21.7 1.3E+02  0.0014   18.3   1.4   17  115-131    22-38  (54)
+ 19 5JB3_Y 30S ribosomal protein S  21.6      76 0.00083   19.7   0.4   13  115-127    19-31  (50)
+ 20 5JBH_Y 30S ribosomal protein S  21.6      76 0.00083   19.7   0.4   13  115-127    19-31  (50)
+ 21 4ILO_B CT398; hypothetical pro  20.6 1.2E+02  0.0013   25.8   1.4   14  114-127   222-235 (257)
+ 22 3H0G_U DNA-directed RNA polyme  20.2 1.2E+02  0.0013   21.5   1.2   15  115-129     4-18  (113)
+ 23 5U0S_i Mediator of RNA polymer  20.2 1.2E+02  0.0013   21.5   1.2   13  116-128     5-17  (113)
+ 24 4AYB_P DNA-DIRECTED RNA POLYME  20.2   1E+02  0.0011   19.0   0.8    9  117-125     5-13  (48)
+
+No 1
+>1ODH_A MGCM1; TRANSCRIPTION FACTOR/DNA, TRANSCRIPTION FACTOR, DNA-BINDING; 2.85A {MUS MUSCULUS} SCOP: d.239.1.1
+Probab=100.00  E-value=9.7e-36  Score=256.75  Aligned_cols=163  Identities=67%  Similarity=1.217  Sum_probs=153.0  Template_Neff=6.800
+
+Q ss_pred             ceeeccCCCCCCchhhhhhhhhhcCCCCeEEEEEcCChhhhhhhhchhhccCCCCCCCccccccccceEEeccceeCCCC
+Q sp|O75603|GCM2   17 MQLSWDINDPQMPQELALFDQFREWPDGYVRFIYSSDEKKAQRHLSGWAMRNTNNHNGHILKKSCLGVVVCTQACTLPDG   96 (506)
+Q Consensus        17 mqlswdindpqmpqelalfdqfrewpdgyvrfiyssdekkaqrhlsgwamrntnnhnghilkksclgvvvctqactlpdg   96 (506)
+                      .+++|+|+|++|+++.++.++|++||||+++++++.++..+++++++|+|+++|+++||+++|+|||||+|+++|+.+++
+T Consensus        12 ~~~~w~~~~~~~~~~~~~~~~~~~wPnG~~~~~~~~~~~~~~~~~v~Wa~~s~g~~~gk~~~r~CLGVlvCsn~C~~~~~   91 (174)
+T 1ODH_A           12 EILSWDINDVKLPQNVKTTDWFQEWPDSYVKHIYSSDDRNAQRHLSSWAMRNTNNHNSRILKKSCLGVVVCSRDCSTEEG   91 (174)
+T ss_dssp             --CCCCSSCSSCCCCCCCCCCCCSSCCSSCEECCBTTCHHHHTTCCSSCEEEECCSCTTCEEEEECCEEEETTCCCCSSS
+T ss_pred             cccccCCCCCCCCCCCCcCCCcCCCCCCCEEEEEchhHhhcccCcceeeeeccCCCCCeeEEEEeeEEEECCCCccCCCC
+Confidence            57899999999999999999999999999999999999999999999999999999999999999999999999988899
+
+
+Q ss_pred             CeeeecccccChHhhhcccccCCCCCCceeeeeCCCCCCCCccceEEEeCCeeeeccCCCCCCCCCCCCCcchhhhhhhh
+Q sp|O75603|GCM2   97 SRLQLRPAICDKARLKQQKKACPNCHSALELIPCRGHSGYPVTNFWRLDGNAIFFQAKGVHDHPRPESKSETEARRSAIK  176 (506)
+Q Consensus        97 srlqlrpaicdkarlkqqkkacpnchsalelipcrghsgypvtnfwrldgnaiffqakgvhdhprpesksetearrsaik  176 (506)
+                      +++++||+|+.++|++|+...|++|++.|+|++|+++++|++.+||+++++|++|+|.|+|+||||++|+++++|+++||
+T Consensus        92 ~~~~~rP~T~~~~r~~Ql~~~C~~C~~~L~h~~C~~~~~~~v~~~~~~~~g~~~~~h~G~H~HprP~~k~~~~~~~~~~~  171 (174)
+T 1ODH_A           92 RKIYLRPAICDKARQKQQRKSCPNCNGPLKLIPCRGHGGFPVTNFWRHDGRFIFFQSKGEHDHPRPETKLEAEARRAMKK  171 (174)
+T ss_dssp             CCCEECCCSSHHHHHHHHHSBCSSSCCBEEEECCCTBTTBCCEEEEEECSSBEEEEEECCCCSCCCCCHHHHHHHHSCC-
+T ss_pred             CEEEcCCCCChHHHHHHHhhcCCCCCCeEEEEEcCCCCceeeEEEEEeCCcEEEEEeccccCCCCCcccccHHHHHHHHh
+Confidence            99999999999999999999999999999999999998888999999999999999999999999999999999999999
+
+
+Q ss_pred             hhh
+Q sp|O75603|GCM2  177 RQM  179 (506)
+Q Consensus       177 rqm  179 (506)
+                      |||
+T Consensus       172 ~~~  174 (174)
+T 1ODH_A          172 VHM  174 (174)
+T ss_dssp             ---
+T ss_pred             hcC
+Confidence            999
+
+
+No 2
+>4ZLH_B Lipopolysaccharide assembly protein B; Nine TPR motifs Rubredoxin Lipopolysaccharide; 2.0A {Escherichia coli O157:H7}
+Probab=39.66  E-value=37  Score=27.85  Aligned_cols=16  Identities=31%  Similarity=0.729  Sum_probs=7.5  Template_Neff=12.700
+
+Q ss_pred             ccCCCCCCceeeeeCC
+Q sp|O75603|GCM2  116 KACPNCHSALELIPCR  131 (506)
+Q Consensus       116 kacpnchsalelipcr  131 (506)
+                      ..|+.|+..-...+|.
+T Consensus       319 ~~~~~~~~~~~~~~~~  334 (339)
+T 4ZLH_B          319 WHCPSCRAWSTIKPIR  334 (339)
+T ss_dssp             SBCTTTCCBSCEEECC
+T ss_pred             eeCCCCCCccceeeec
+Confidence            4455555444444443
+
+
+No 3
+>2K4N_A Protein PF0246; beta-sheet, alpha-helix, mobile loop, Structural; NMR {Pyrococcus furiosus}
+Probab=36.22  E-value=37  Score=31.78  Aligned_cols=30  Identities=37%  Similarity=0.697  Sum_probs=26.1  Template_Neff=1.600
+
+Q ss_pred             CCCCCCcccccCCCCCCCCCCCCCCCCCCC
+Q sp|O75603|GCM2  375 GAPALQTVITTTTKVSYQAYQPPAMKYSDS  404 (506)
+Q Consensus       375 gapalqtvittttkvsyqayqppamkysds  404 (506)
+                      |.|.|.|-+.-..-|.-..|.||.|||.+.
+T Consensus        39 GqPdl~tY~iEdevVEpGsYDPPemKYt~~   68 (111)
+T 2K4N_A           39 GEPELKTYVIEDEIVEPGEYDPPEMKYTNV   68 (111)
+T ss_dssp             TCCCCEEEEEEEEECCCCCCSSCTTSCCCC
+T ss_pred             cCccceeEEEeeeeeCCCCCCCCccccccc
+Confidence            678888888888888999999999999863
+
+
+No 4
+>7OQY_P negative regulator, inhibitor, Archaea, Sso;{Sulfolobus acidocaldarius DSM 639}
+Probab=29.59  E-value=88  Score=18.83  Aligned_cols=13  Identities=23%  Similarity=0.565  Sum_probs=9.1  Template_Neff=11.500
+
+Q ss_pred             cccCCCCCCceee
+Q sp|O75603|GCM2  115 KKACPNCHSALEL  127 (506)
+Q Consensus       115 kkacpnchsalel  127 (506)
+                      ...||.|+..+..
+T Consensus        23 ~~~Cp~Cg~~~~~   35 (48)
+T 7OQY_P           23 GVRCPYCGYRIIY   35 (48)
+T ss_pred             CeeCCCCCCEEEE
+Confidence            4689988876544
+
+
+No 5
+>7AE4_c Decarboxylase, Hetero-complex, UbiD, LYASE; HET: NA, PEG, PO4, EDO; 3.31A {Sedimentibacter hydroxybenzoicus}
+Probab=26.99  E-value=2.2e+02  Score=21.81  Aligned_cols=8  Identities=38%  Similarity=0.928  Sum_probs=4.5  Template_Neff=8.200
+
+Q ss_pred             cCCCCCCc
+Q sp|O75603|GCM2  117 ACPNCHSA  124 (506)
+Q Consensus       117 acpnchsa  124 (506)
+                      .||+||+.
+T Consensus         2 ~CP~Cgs~    9 (68)
+T 7AE4_c            2 KCHRCGSD    9 (68)
+T ss_pred             CCCCCCCC
+Confidence            46666543
+
+
+No 6
+>7AE5_f Decarboxylase, Hetero-complex, UbiD, LYASE; HET: RB; 2.19A {Sedimentibacter hydroxybenzoicus}
+Probab=26.99  E-value=2.2e+02  Score=21.81  Aligned_cols=8  Identities=38%  Similarity=0.928  Sum_probs=4.5  Template_Neff=8.200
+
+Q ss_pred             cCCCCCCc
+Q sp|O75603|GCM2  117 ACPNCHSA  124 (506)
+Q Consensus       117 acpnchsa  124 (506)
+                      .||+||+.
+T Consensus         2 ~CP~Cgs~    9 (68)
+T 7AE5_f            2 KCHRCGSD    9 (68)
+T ss_pred             CCCCCCCC
+Confidence            46666543
+
+
+No 7
+>2NB9_A Uncharacterized protein; zinc finger, UNKNOWN FUNCTION; HET: ZN; NMR {Caulobacter crescentus}
+Probab=25.69  E-value=89  Score=17.50  Aligned_cols=12  Identities=17%  Similarity=0.523  Sum_probs=7.7  Template_Neff=12.700
+
+Q ss_pred             ccCCCCCCceee
+Q sp|O75603|GCM2  116 KACPNCHSALEL  127 (506)
+Q Consensus       116 kacpnchsalel  127 (506)
+                      ..|++|+..+..
+T Consensus        26 ~~c~~c~~~~~~   37 (49)
+T 2NB9_A           26 VRCASCGNRWTA   37 (49)
+T ss_dssp             EECTTTCCEEEE
+T ss_pred             EEcCCCCCEEEE
+Confidence            467777766544
+
+
+No 8
+>5K2M_E RimK-related lysine biosynthesis protein, Probable; ATP-dependent amine/thiol ligase family Amino-group; HET: ADP, SO4, PO4, UN1; 2.18A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=25.09  E-value=1e+02  Score=18.93  Aligned_cols=16  Identities=31%  Similarity=0.744  Sum_probs=10.4  Template_Neff=11.500
+
+Q ss_pred             cccCCCCCCceeeeeC
+Q sp|O75603|GCM2  115 KKACPNCHSALELIPC  130 (506)
+Q Consensus       115 kkacpnchsalelipc  130 (506)
+                      ...|++|+..+....-
+T Consensus        21 ~~~C~~C~~~~~~~~~   36 (53)
+T 5K2M_E           21 IVECPVCGAELEVVSL   36 (53)
+T ss_dssp             EEECTTTCCEEEEEEE
+T ss_pred             EEECCCCCCEEEEeeC
+Confidence            4578888877655443
+
+
+No 9
+>5K2M_F RimK-related lysine biosynthesis protein, Probable; ATP-dependent amine/thiol ligase family Amino-group; HET: ADP, SO4, PO4, UN1; 2.18A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=25.09  E-value=1e+02  Score=18.93  Aligned_cols=17  Identities=29%  Similarity=0.708  Sum_probs=11.8  Template_Neff=11.500
+
+Q ss_pred             cccCCCCCCceeeeeCC
+Q sp|O75603|GCM2  115 KKACPNCHSALELIPCR  131 (506)
+Q Consensus       115 kkacpnchsalelipcr  131 (506)
+                      ...|++|+..+....-.
+T Consensus        21 ~~~C~~C~~~~~~~~~~   37 (53)
+T 5K2M_F           21 IVECPVCGAELEVVSLE   37 (53)
+T ss_dssp             EEECTTTCCEEEEEETT
+T ss_pred             EEECCCCCCEEEEeeCC
+Confidence            45798888877665544
+
+
+No 10
+>7EU0_L DNA-directed RNA polymerase IV, RNA-; 3.16A {Arabidopsis thaliana}
+Probab=23.94  E-value=94  Score=18.96  Aligned_cols=12  Identities=17%  Similarity=0.467  Sum_probs=7.3  Template_Neff=11.500
+
+Q ss_pred             ccCCCCCCceee
+Q sp|O75603|GCM2  116 KACPNCHSALEL  127 (506)
+Q Consensus       116 kacpnchsalel  127 (506)
+                      ..|+.||..+..
+T Consensus        27 ~~C~~Cg~~~~~   38 (51)
+T 7EU0_L           27 IQCRECGYRILY   38 (51)
+T ss_pred             EECCCCCCEEEe
+Confidence            467777665543
+
+
+No 11
+>7EU1_L DNA-directed RNA polymerase IV, RNA-; 3.86A {Arabidopsis thaliana}
+Probab=23.94  E-value=94  Score=18.96  Aligned_cols=12  Identities=17%  Similarity=0.467  Sum_probs=7.3  Template_Neff=11.500
+
+Q ss_pred             ccCCCCCCceee
+Q sp|O75603|GCM2  116 KACPNCHSALEL  127 (506)
+Q Consensus       116 kacpnchsalel  127 (506)
+                      ..|+.||..+..
+T Consensus        27 ~~C~~Cg~~~~~   38 (51)
+T 7EU1_L           27 IQCRECGYRILY   38 (51)
+T ss_pred             EECCCCCCEEEe
+Confidence            467777665543
+
+
+No 12
+>7NKX_Y chromatin remodelling, transcription, nucleosome, chromatin; HET: ADP; 2.9A {Saccharomyces cerevisiae}
+Probab=22.23  E-value=80  Score=27.28  Aligned_cols=14  Identities=36%  Similarity=0.973  Sum_probs=11.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCceeee
+Q sp|O75603|GCM2  115 KKACPNCHSALELI  128 (506)
+Q Consensus       115 kkacpnchsaleli  128 (506)
+                      ...||||++.|...
+T Consensus        21 ~~gCpnC~~~~~~~   34 (102)
+T 7NKX_Y           21 RDGCPNCQGIFEEA   34 (102)
+T ss_pred             cCCCCCchhhHhhc
+Confidence            56899999877655
+
+
+No 13
+>7NKY_Y Chromatin, nucleosome, elongation, histone chaperone; 3.2A {Saccharomyces cerevisiae}
+Probab=22.23  E-value=80  Score=27.28  Aligned_cols=14  Identities=36%  Similarity=0.973  Sum_probs=11.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCceeee
+Q sp|O75603|GCM2  115 KKACPNCHSALELI  128 (506)
+Q Consensus       115 kkacpnchsaleli  128 (506)
+                      ...||||++.|...
+T Consensus        21 ~~gCpnC~~~~~~~   34 (102)
+T 7NKY_Y           21 RDGCPNCQGIFEEA   34 (102)
+T ss_pred             cCCCCCchhhHhhc
+Confidence            56899999877655
+
+
+No 14
+>1VD4_A ZINC FINGER, Transcription; HET: ZN; NMR {Homo sapiens} SCOP: g.41.3.1
+Probab=22.05  E-value=1.1e+02  Score=21.62  Aligned_cols=13  Identities=31%  Similarity=0.675  Sum_probs=10.5  Template_Neff=9.600
+
+Q ss_pred             cccCCCCCCceee
+Q sp|O75603|GCM2  115 KKACPNCHSALEL  127 (506)
+Q Consensus       115 kkacpnchsalel  127 (506)
+                      ...|+.||+.|..
+T Consensus        39 ~~~Cp~Cg~~l~~   51 (62)
+T 1VD4_A           39 TFRCTFCHTEVEE   51 (62)
+T ss_dssp             EEBCSSSCCBCEE
+T ss_pred             EEECCCCCCEeEe
+Confidence            5689999988765
+
+
+No 15
+>7ENA_w CDK-activating kinase assembly factor MAT1; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.07A {Sus scrofa}
+Probab=21.87  E-value=1.2e+02  Score=36.47  Aligned_cols=14  Identities=43%  Similarity=0.935  Sum_probs=6.2  Template_Neff=6.900
+
+Q ss_pred             EEEeCCeeeeccCC
+Q sp|O75603|GCM2  142 WRLDGNAIFFQAKG  155 (506)
+Q Consensus       142 wrldgnaiffqakg  155 (506)
+                      |+.+.....|..+|
+T Consensus       241 WkLd~~tl~~~lkg  254 (1368)
+T 7ENA_w          241 WKLDPATLRFPLKG  254 (1368)
+T ss_dssp             SCCCTTTCCCCCSS
+T ss_pred             cccCccccccccCC
+Confidence            44443333454555
+
+
+No 16
+>6H02_A Mediator of RNA polymerase II; Human, Mediator, complex, subunit, TRANSCRIPTION; 2.8A {Homo sapiens}
+Probab=21.86  E-value=1.2e+02  Score=36.51  Aligned_cols=15  Identities=40%  Similarity=0.811  Sum_probs=6.6  Template_Neff=6.900
+
+Q ss_pred             eEEEeCCeeeeccCC
+Q sp|O75603|GCM2  141 FWRLDGNAIFFQAKG  155 (506)
+Q Consensus       141 fwrldgnaiffqakg  155 (506)
+                      .|+.+.....|..+|
+T Consensus       240 ~WkLd~~tl~~~lkg  254 (1382)
+T 6H02_A          240 SWKLDPATLRFPLKG  254 (1382)
+T ss_dssp             GGCCCTTTCCCCCSS
+T ss_pred             ccccCccccccccCC
+Confidence            344443333444455
+
+
+No 17
+>3WWL_A Alpha-aminoadipate carrier protein LysW; Zinc Finger, Amino acid carrier; HET: UN1; 1.2A {Thermus thermophilus HB27}
+Probab=21.67  E-value=1.3e+02  Score=18.28  Aligned_cols=17  Identities=24%  Similarity=0.585  Sum_probs=11.9  Template_Neff=11.800
+
+Q ss_pred             cccCCCCCCceeeeeCC
+Q sp|O75603|GCM2  115 KKACPNCHSALELIPCR  131 (506)
+Q Consensus       115 kkacpnchsalelipcr  131 (506)
+                      ...|+.|+..+....-.
+T Consensus        22 ~~~c~~C~~~~~~~~~~   38 (54)
+T 3WWL_A           22 LVVCEDCGAELEVVGLD   38 (54)
+T ss_dssp             EEECTTTCCEEEEEETT
+T ss_pred             EEECCCCCCEEEEecCC
+Confidence            46788888877765554
+
+
+No 18
+>3WWN_B Putative acetylglutamate kinase-like protein, OrfF; Zinc finger, Amino acid kinase; 1.85A {Thermus thermophilus HB27}
+Probab=21.67  E-value=1.3e+02  Score=18.28  Aligned_cols=17  Identities=24%  Similarity=0.585  Sum_probs=12.0  Template_Neff=11.800
+
+Q ss_pred             cccCCCCCCceeeeeCC
+Q sp|O75603|GCM2  115 KKACPNCHSALELIPCR  131 (506)
+Q Consensus       115 kkacpnchsalelipcr  131 (506)
+                      ...|+.|+..+....-.
+T Consensus        22 ~~~c~~C~~~~~~~~~~   38 (54)
+T 3WWN_B           22 LVVCEDCGAELEVVGLD   38 (54)
+T ss_dssp             EEECTTTCCEEEEEETT
+T ss_pred             EEECCCCCCEEEEecCC
+Confidence            46788888887765554
+
+
+No 19
+>5JB3_Y 30S ribosomal protein S11, 30S; TRANSLATION; HET: 5MU, OMC, GNP, PSU, H2U; 5.34A {Pyrococcus abyssi GE5}
+Probab=21.59  E-value=76  Score=19.72  Aligned_cols=13  Identities=31%  Similarity=0.841  Sum_probs=8.5  Template_Neff=11.100
+
+Q ss_pred             cccCCCCCCceee
+Q sp|O75603|GCM2  115 KKACPNCHSALEL  127 (506)
+Q Consensus       115 kkacpnchsalel  127 (506)
+                      ...|+.||..|..
+T Consensus        19 ~~~Cp~Cg~~~~~   31 (50)
+T 5JB3_Y           19 NKFCPRCGPGVFM   31 (50)
+T ss_pred             CeeCCCCCCCcEE
+Confidence            4577777766554
+
+
+No 20
+>5JBH_Y 30S ribosomal protein S3, 50S; transcription; HET: 5MU, H2U, OMC, GNP; 5.34A {Pyrococcus abyssi GE5}
+Probab=21.59  E-value=76  Score=19.72  Aligned_cols=13  Identities=31%  Similarity=0.841  Sum_probs=8.5  Template_Neff=11.100
+
+Q ss_pred             cccCCCCCCceee
+Q sp|O75603|GCM2  115 KKACPNCHSALEL  127 (506)
+Q Consensus       115 kkacpnchsalel  127 (506)
+                      ...|+.||..|..
+T Consensus        19 ~~~Cp~Cg~~~~~   31 (50)
+T 5JBH_Y           19 NKFCPRCGPGVFM   31 (50)
+T ss_pred             CeeCCCCCCCcEE
+Confidence            4577777766554
+
+
+No 21
+>4ILO_B CT398; hypothetical protein, DNA/RNA binding, coiled-coil; 2.12A {Chlamydia trachomatis}
+Probab=20.63  E-value=1.2e+02  Score=25.84  Aligned_cols=14  Identities=21%  Similarity=0.434  Sum_probs=11.2  Template_Neff=11.100
+
+Q ss_pred             ccccCCCCCCceee
+Q sp|O75603|GCM2  114 QKKACPNCHSALEL  127 (506)
+Q Consensus       114 qkkacpnchsalel  127 (506)
+                      ....||+||..|++
+T Consensus       222 ~~~~C~~Cgril~~  235 (257)
+T 4ILO_B          222 HLVFCEHCSRILYW  235 (257)
+T ss_dssp             SCEECTTTCCEEEC
+T ss_pred             CeEECCCCCcEEee
+Confidence            34689999988877
+
+
+No 22
+>3H0G_U DNA-directed RNA polymerase II subunit; Transcription, Multi-protein complex, Polymerase, DNA-binding; HET: ZN; 3.65A {Schizosaccharomyces pombe}
+Probab=20.24  E-value=1.2e+02  Score=21.49  Aligned_cols=15  Identities=20%  Similarity=0.330  Sum_probs=11.6  Template_Neff=11.800
+
+Q ss_pred             cccCCCCCCceeeee
+Q sp|O75603|GCM2  115 KKACPNCHSALELIP  129 (506)
+Q Consensus       115 kkacpnchsalelip  129 (506)
+                      ...||.|+..|....
+T Consensus         4 ~~fCp~C~~~l~~~~   18 (113)
+T 3H0G_U            4 FQYCIECNNMLYPRE   18 (113)
+T ss_dssp             CCCCSSSCCCCEECC
+T ss_pred             cccCccCCCEEEEcc
+Confidence            367999998887763
+
+
+No 23
+>5U0S_i Mediator of RNA polymerase II; transcriptional, transcription, Mediator, Srb, RNA; 7.8A {Schizosaccharomyces pombe}
+Probab=20.24  E-value=1.2e+02  Score=21.49  Aligned_cols=13  Identities=23%  Similarity=0.478  Sum_probs=10.1  Template_Neff=11.800
+
+Q ss_pred             ccCCCCCCceeee
+Q sp|O75603|GCM2  116 KACPNCHSALELI  128 (506)
+Q Consensus       116 kacpnchsaleli  128 (506)
+                      ..||.|+..|...
+T Consensus         5 ~fCp~C~~~l~~~   17 (113)
+T 5U0S_i            5 QYCIECNNMLYPR   17 (113)
+T ss_pred             ccCccCCCEEEEc
+Confidence            5799998877665
+
+
+No 24
+>4AYB_P DNA-DIRECTED RNA POLYMERASE (E.C.2.7.7.6); TRANSFERASE, MULTI-SUBUNIT, TRANSCRIPTION; HET: ZN; 3.202A {SULFOLOBUS SHIBATAE}
+Probab=20.20  E-value=1e+02  Score=18.96  Aligned_cols=9  Identities=22%  Similarity=0.870  Sum_probs=5.5  Template_Neff=11.100
+
+Q ss_pred             cCCCCCCce
+Q sp|O75603|GCM2  117 ACPNCHSAL  125 (506)
+Q Consensus       117 acpnchsal  125 (506)
+                      .|++|+..+
+T Consensus         5 ~C~~Cg~~~   13 (48)
+T 4AYB_P            5 RCGKCWKTF   13 (48)
+T ss_pred             ECCCCCCEE
+Confidence            577676544
+
+

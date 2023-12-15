@@ -1,0 +1,520 @@
+Query         tr|H0YIA4|H0YIA4_HUMAN
+Match_columns 109
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:52:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0572.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7QVC_B Amyloid, neurodegenerat  99.9 2.5E-22 2.7E-27  151.4   3.7   63   25-87     36-98  (274)
+  2 7QVF_A Amyloid, neurodegenerat  99.9 3.9E-22 4.2E-27  150.3   3.8   63   25-87     36-98  (274)
+  3 7QVF_A Amyloid, neurodegenerat  92.4    0.16 1.8E-06   39.8   1.8   25   85-109   231-255 (274)
+  4 7QVC_B Amyloid, neurodegenerat  91.5    0.23 2.5E-06   38.9   1.7   25   85-109   231-255 (274)
+  5 2BX9_E TRYPTOPHAN RNA-BINDING   74.9     1.2 1.3E-05   26.0  -0.8   20   47-66     23-42  (53)
+  6 2ZP8_H Transcription attenuati  74.9     1.2 1.3E-05   26.0  -0.8   20   47-66     23-42  (53)
+  7 3LCZ_A Inhibitor of TRAP, regu  71.9     1.8   2E-05   25.0  -0.5   23   48-70     24-46  (53)
+  8 3LD0_S Inhibitor of TRAP, regu  71.9     1.8   2E-05   25.0  -0.5   23   48-70     24-46  (53)
+  9 6EKB_A DnaJ/Hsp40 cysteine-ric  49.0      32 0.00035   20.6   1.9   12   48-59     50-61  (81)
+ 10 6EKC_B2 Ribulose bisphosphate   49.0      32 0.00035   20.6   1.9   12   48-59     50-61  (81)
+ 11 3JC8_Bd PilA, Type IV-A pilus   32.9      36 0.00039   26.7   0.5   12   48-59    488-499 (566)
+ 12 4MO1_A Antitermination protein  31.6      38 0.00041   24.1   0.4   16   48-63    105-120 (178)
+ 13 4MO1_B Antitermination protein  31.6      38 0.00041   24.1   0.4   16   48-63    105-120 (178)
+ 14 4PHT_B Type II secretion syste  31.2      37  0.0004   26.9   0.3   22   49-73    426-447 (500)
+ 15 5OIU_A Type IV pilus assembly   31.0      37  0.0004   25.9   0.3   11   49-59    316-326 (390)
+ 16 5IT5_A ATP binding motif-conta  30.4      44 0.00048   25.2   0.6   11   49-59    311-321 (385)
+ 17 5ZFR_C Type IV pilus biogenesi  28.3      47 0.00051   26.3   0.4   10   50-59    507-516 (582)
+ 18 5TSH_A Type IV pilus biogenesi  26.8      50 0.00054   26.1   0.4   10   50-59    513-522 (588)
+ 19 6JZB_A Chaperone protein DnaJ;  26.2      97  0.0011   23.4   1.7   14   48-61    170-183 (385)
+ 20 7QGJ_A E3-Ligase, Structural G  24.7 1.5E+02  0.0016   16.6   2.0   19   38-56     35-53  (83)
+ 21 7QGJ_B E3-Ligase, Structural G  24.7 1.5E+02  0.0016   16.6   2.0   19   38-56     35-53  (83)
+ 22 1P9R_A General secretion pathw  24.3      59 0.00064   25.5   0.4   11   49-59    339-349 (418)
+ 23 1P9W_A General secretion pathw  24.3      59 0.00064   25.5   0.4   11   49-59    339-349 (418)
+ 24 2CTT_A DnaJ, Zing finger, beta  23.4 1.6E+02  0.0017   16.1   1.8   15   47-61     45-59  (104)
+ 25 6MUD_B Calmodulin-1, Sodium ch  22.7 1.2E+02  0.0014   19.9   1.6   15   54-68     22-36  (140)
+ 26 2KBI_A Sodium channel protein   22.6      36 0.00039   20.8  -0.9   13   55-67     37-49  (97)
+ 27 1EXK_A extended beta-hairpin,   22.2 1.5E+02  0.0017   14.7   1.5   12   48-59     29-40  (79)
+ 28 6TAS_C Activity-regulated cyto  21.1      82 0.00089   18.6   0.4   16   46-61    223-238 (254)
+ 29 6TAS_F Activity-regulated cyto  21.1      82 0.00089   18.6   0.4   16   46-61    223-238 (254)
+ 30 4OVN_J Calmodulin, Voltage gat  20.9      48 0.00052   22.4  -0.6   19   54-72     32-50  (157)
+ 31 3M0A_D TNF receptor-associated  20.9 1.9E+02  0.0021   15.7   1.9   13   43-55     35-47  (75)
+ 32 3M0D_D TNF receptor-associated  20.9 1.9E+02  0.0021   15.7   1.9   13   43-55     35-47  (75)
+
+No 1
+>7QVC_B Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 2.64A {Homo sapiens}
+Probab=99.86  E-value=2.5e-22  Score=151.37  Aligned_cols=63  Identities=63%  Similarity=0.981  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CChhhhhhhhhcCCcEEEeCCCceecccCCCceEEehhhcceeeeeccCCCCCCCCCCcceeE
+Q tr|H0YIA4|H0YI   25 LAEREQEEAIAQFPYVEFTGRDSITCLTCQGTGYIPTEQVNELVALIPHSDQRLRPQRTTSVK   87 (109)
+Q Consensus        25 laereqeeaiaqfpyveftgrdsitcltcqgtgyipteqvnelvaliphsdqrlrpqrttsvk   87 (109)
+                      .++++..+++++|+|+||.|+++++||||+|+||||+++|++||||||++|+|||||||||-.
+T Consensus        36 ~~~~~~~~~~~~~~y~~~~~~~~v~CPTC~GtGrip~~~e~~lVALIP~~D~RLkPrrTkl~V   98 (274)
+T 7QVC_B           36 HNEDGRNGDVSQFPYVEFTGRDSVTCPTCQGTGRIPRGQENQLVALIPYSDQRLRPRRTKLYV   98 (274)
+T ss_dssp             ---------------------------------------------------------------
+T ss_pred             ccCCCCCCccccccceEecCCCCccCCCccccceeCCCcccceeeeecCCCccCCCHHHHHHH
+Confidence            345556778899999999999999999999999999999999999999999999999998543
+
+
+No 2
+>7QVF_A Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 3.64A {Homo sapiens}
+Probab=99.86  E-value=3.9e-22  Score=150.34  Aligned_cols=63  Identities=63%  Similarity=0.981  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CChhhhhhhhhcCCcEEEeCCCceecccCCCceEEehhhcceeeeeccCCCCCCCCCCcceeE
+Q tr|H0YIA4|H0YI   25 LAEREQEEAIAQFPYVEFTGRDSITCLTCQGTGYIPTEQVNELVALIPHSDQRLRPQRTTSVK   87 (109)
+Q Consensus        25 laereqeeaiaqfpyveftgrdsitcltcqgtgyipteqvnelvaliphsdqrlrpqrttsvk   87 (109)
+                      .++++..+++++|+|+||.|+++++||||+|+|+||+++|++||||||++|+||||+||||-.
+T Consensus        36 ~~~~~~~~~~~~~~y~~~~~~~~v~CPTC~GtGrip~~~e~~lVALIP~~D~RLkPrrTkl~V   98 (274)
+T 7QVF_A           36 HNEDGRNGDVSQFPYVEFTGRDSVTCPTCQGTGRIPRGQENQLVALIPYSDQRLRPRRTKLYV   98 (274)
+T ss_dssp             ---------------------------------------------------------------
+T ss_pred             ccCCCCCCccccccceEecCCCCccCCCccccceecCccccceeeeecCCCCcCCchHHHHHH
+Confidence            345556778899999999999999999999999999999999999999999999999998543
+
+
+No 3
+>7QVF_A Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 3.64A {Homo sapiens}
+Probab=92.38  E-value=0.16  Score=39.80  Aligned_cols=25  Identities=44%  Similarity=0.731  Sum_probs=22.0  Template_Neff=7.100
+
+Q ss_pred             eeEEEEeecccccccccccccCCCC
+Q tr|H0YIA4|H0YI   85 SVKISYIGLMTQSSLETHHYVDCGG  109 (109)
+Q Consensus        85 svkisyiglmtqsslethhyvdcgg  109 (109)
+                      -+.++|++...|.++++..||||++
+T Consensus       231 tv~~syL~hseq~s~~~~~~vdC~~  255 (274)
+T 7QVF_A          231 TVTTTYFGHSEQISQERYQYVDCGR  255 (274)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEEEEC-
+T ss_pred             EEEEEEeeEeeecceecceeeeCCC
+Confidence            5678999999999999999999974
+
+
+No 4
+>7QVC_B Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 2.64A {Homo sapiens}
+Probab=91.47  E-value=0.23  Score=38.94  Aligned_cols=25  Identities=44%  Similarity=0.731  Sum_probs=21.9  Template_Neff=7.100
+
+Q ss_pred             eeEEEEeecccccccccccccCCCC
+Q tr|H0YIA4|H0YI   85 SVKISYIGLMTQSSLETHHYVDCGG  109 (109)
+Q Consensus        85 svkisyiglmtqsslethhyvdcgg  109 (109)
+                      -+.++|++...|.+++++.||||++
+T Consensus       231 t~~~syL~~seq~s~~~~~~vdC~~  255 (274)
+T 7QVC_B          231 TVTTTYFGHSEQISQERYQYVDCGR  255 (274)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEEEEC-
+T ss_pred             EEEEEEeeeeeeceeeeceeeeCCC
+Confidence            4678999999999999999999974
+
+
+No 5
+>2BX9_E TRYPTOPHAN RNA-BINDING ATTENUATOR PROTEIN-INHIBITORY PROTEIN; TRANSCRIPTION REGULATION, ANTI-TRAP; HET: ZN; 2.8A {BACILLUS SUBTILIS}
+Probab=74.88  E-value=1.2  Score=25.97  Aligned_cols=20  Identities=35%  Similarity=0.596  Sum_probs=13.1  Template_Neff=8.200
+
+Q ss_pred             ceecccCCCceEEehhhcce
+Q tr|H0YIA4|H0YI   47 SITCLTCQGTGYIPTEQVNE   66 (109)
+Q Consensus        47 sitcltcqgtgyipteqvne   66 (109)
+                      ...|+.|.|.|.++......
+T Consensus        23 ~~~C~~C~G~G~~~~~~~~~   42 (53)
+T 2BX9_E           23 GTPCPACSGKGVILTAQGYT   42 (53)
+T ss_dssp             TEECTTTTTSSEEECHHHHH
+T ss_pred             CeeCCCCCCeeEEEeccchh
+Confidence            34688888888877754333
+
+
+No 6
+>2ZP8_H Transcription attenuation protein mtrB, Tryptophan; PROTEIN-PROTEIN COMPLEX, TRANSCRIPTION, RNA-binding, Transcription; HET: TRP; 3.2A {Bacillus stearothermophilus}
+Probab=74.88  E-value=1.2  Score=25.97  Aligned_cols=20  Identities=35%  Similarity=0.596  Sum_probs=13.3  Template_Neff=8.200
+
+Q ss_pred             ceecccCCCceEEehhhcce
+Q tr|H0YIA4|H0YI   47 SITCLTCQGTGYIPTEQVNE   66 (109)
+Q Consensus        47 sitcltcqgtgyipteqvne   66 (109)
+                      ...|+.|.|.|.++......
+T Consensus        23 ~~~C~~C~G~G~~~~~~~~~   42 (53)
+T 2ZP8_H           23 GTPCPACSGKGVILTAQGYT   42 (53)
+T ss_dssp             TEECTTTTSSSEEECHHHHH
+T ss_pred             CeeCCCCCCeeEEEeccchh
+Confidence            34688888888877754333
+
+
+No 7
+>3LCZ_A Inhibitor of TRAP, regulated by; Anti-TRAP, AT, TRAP, tryptophan RNA-binding; 2.06A {Bacillus licheniformis}
+Probab=71.89  E-value=1.8  Score=25.04  Aligned_cols=23  Identities=35%  Similarity=0.583  Sum_probs=14.9  Template_Neff=8.400
+
+Q ss_pred             eecccCCCceEEehhhcceeeee
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYIPTEQVNELVAL   70 (109)
+Q Consensus        48 itcltcqgtgyipteqvnelval   70 (109)
+                      ..|+.|.|.|.++......|+++
+T Consensus        24 ~~C~~C~G~G~v~~~~~~~l~~~   46 (53)
+T 3LCZ_A           24 EPCPKCLGKGVILTAQGSTLLHF   46 (53)
+T ss_dssp             EECTTTTTSSEEECHHHHHHHHH
+T ss_pred             CCCCCCCCCeEEEecCchhHHHH
+Confidence            56777777777776654444444
+
+
+No 8
+>3LD0_S Inhibitor of TRAP, regulated by; Anti-TRAP, AT, TRAP, tryptophan RNA-binding; HET: ZN, MG; 2.2A {Bacillus licheniformis}
+Probab=71.89  E-value=1.8  Score=25.04  Aligned_cols=23  Identities=35%  Similarity=0.583  Sum_probs=14.0  Template_Neff=8.400
+
+Q ss_pred             eecccCCCceEEehhhcceeeee
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYIPTEQVNELVAL   70 (109)
+Q Consensus        48 itcltcqgtgyipteqvnelval   70 (109)
+                      ..|+.|.|.|.++......|+++
+T Consensus        24 ~~C~~C~G~G~v~~~~~~~l~~~   46 (53)
+T 3LD0_S           24 EPCPKCLGKGVILTAQGSTLLHF   46 (53)
+T ss_dssp             EECTTTTTSSEEECHHHHHHHHH
+T ss_pred             CCCCCCCCCeEEEecCchhHHHH
+Confidence            46777777777766554444443
+
+
+No 9
+>6EKB_A DnaJ/Hsp40 cysteine-rich domain superfamily protein; zinc finger, assembly chaperone, Rubisco; 1.9A {Arabidopsis thaliana}
+Probab=48.99  E-value=32  Score=20.62  Aligned_cols=12  Identities=25%  Similarity=0.733  Sum_probs=7.6  Template_Neff=9.400
+
+Q ss_pred             eecccCCCceEE
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYI   59 (109)
+Q Consensus        48 itcltcqgtgyi   59 (109)
+                      ..|+.|.|.|++
+T Consensus        50 ~~C~~C~G~g~~   61 (81)
+T 6EKB_A           50 ALCWLCRGKKEV   61 (81)
+T ss_dssp             SBCTTTTTSCEE
+T ss_pred             eeeCCCCCcCEE
+Confidence            356667666665
+
+
+No 10
+>6EKC_B2 Ribulose bisphosphate carboxylase large chain; zinc finger, assembly chaperone, assembly; HET: ZN; 2.63A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=48.99  E-value=32  Score=20.62  Aligned_cols=12  Identities=25%  Similarity=0.733  Sum_probs=7.5  Template_Neff=9.400
+
+Q ss_pred             eecccCCCceEE
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYI   59 (109)
+Q Consensus        48 itcltcqgtgyi   59 (109)
+                      ..|+.|.|.|++
+T Consensus        50 ~~C~~C~G~g~~   61 (81)
+T 6EKC_B2          50 ALCWLCRGKKEV   61 (81)
+T ss_pred             eeeCCCCCcCEE
+Confidence            456667666654
+
+
+No 11
+>3JC8_Bd PilA, Type IV-A pilus assembly; motor, pilus, ring, membrane channel; HET: MEA;{Myxococcus xanthus DK 1622}
+Probab=32.87  E-value=36  Score=26.71  Aligned_cols=12  Identities=33%  Similarity=0.982  Sum_probs=9.5  Template_Neff=10.500
+
+Q ss_pred             eecccCCCceEE
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYI   59 (109)
+Q Consensus        48 itcltcqgtgyi   59 (109)
+                      .-||.|+++|..
+T Consensus       488 ~GC~~C~~~G~~  499 (566)
+T 3JC8_Bd         488 VGCRDCNDRGYR  499 (566)
+T ss_pred             CCCccCCCCccc
+Confidence            359999998863
+
+
+No 12
+>4MO1_A Antitermination protein Q; Structural Genomics, PSI-Biology, Protein Structure; HET: MSE; 2.099A {Enterobacteria phage lambda}
+Probab=31.62  E-value=38  Score=24.10  Aligned_cols=16  Identities=31%  Similarity=0.723  Sum_probs=13.2  Template_Neff=8.600
+
+Q ss_pred             eecccCCCceEEehhh
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYIPTEQ   63 (109)
+Q Consensus        48 itcltcqgtgyipteq   63 (109)
+                      ..|+.|.|.|+++...
+T Consensus       105 ~~C~~C~G~G~~~~~~  120 (178)
+T 4MO1_A          105 KECGRCKGVGYSRMPA  120 (178)
+T ss_dssp             EECTTTTTCCBCSTTH
+T ss_pred             EECCCccccccccCCH
+Confidence            5799999999887764
+
+
+No 13
+>4MO1_B Antitermination protein Q; Structural Genomics, PSI-Biology, Protein Structure; HET: MSE; 2.099A {Enterobacteria phage lambda}
+Probab=31.62  E-value=38  Score=24.10  Aligned_cols=16  Identities=31%  Similarity=0.723  Sum_probs=12.7  Template_Neff=8.600
+
+Q ss_pred             eecccCCCceEEehhh
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYIPTEQ   63 (109)
+Q Consensus        48 itcltcqgtgyipteq   63 (109)
+                      ..|+.|.|.|+++...
+T Consensus       105 ~~C~~C~G~G~~~~~~  120 (178)
+T 4MO1_B          105 KECGRCKGVGYSRMPA  120 (178)
+T ss_dssp             EECTTTTTCCBCCCCC
+T ss_pred             EECCCccccccccCCH
+Confidence            5799999999877653
+
+
+No 14
+>4PHT_B Type II secretion system protein; PROTEIN TRANSPORT; HET: ANP; 2.83A {Vibrio vulnificus}
+Probab=31.16  E-value=37  Score=26.89  Aligned_cols=22  Identities=23%  Similarity=0.481  Sum_probs=14.0  Template_Neff=9.800
+
+Q ss_pred             ecccCCCceEEehhhcceeeeeccC
+Q tr|H0YIA4|H0YI   49 TCLTCQGTGYIPTEQVNELVALIPH   73 (109)
+Q Consensus        49 tcltcqgtgyipteqvnelvaliph   73 (109)
+                      -|+.|.++|..-+   --+..+++.
+T Consensus       426 GC~~C~~~G~~g~---~~v~E~l~~  447 (500)
+T 4PHT_B          426 GCEKCNHKGYRGR---TGIHELLMV  447 (500)
+T ss_dssp             CCTTTSSSSEEEE---EEEEEEEEC
+T ss_pred             CCCccCCCCccce---eEEEEEEEC
+Confidence            4999999987544   234444443
+
+
+No 15
+>5OIU_A Type IV pilus assembly protein; ATPase, AAA+, type IV pilus; HET: CL, ATP; 2.44A {Thermus thermophilus HB8}
+Probab=30.96  E-value=37  Score=25.95  Aligned_cols=11  Identities=55%  Similarity=1.189  Sum_probs=8.9  Template_Neff=9.800
+
+Q ss_pred             ecccCCCceEE
+Q tr|H0YIA4|H0YI   49 TCLTCQGTGYI   59 (109)
+Q Consensus        49 tcltcqgtgyi   59 (109)
+                      -||.|+++|..
+T Consensus       316 GC~~C~~~G~~  326 (390)
+T 5OIU_A          316 GCERCGGTGYK  326 (390)
+T ss_dssp             CCGGGTTSSEE
+T ss_pred             CCcccCCCccc
+Confidence            49999998754
+
+
+No 16
+>5IT5_A ATP binding motif-containing protein PilF; ATPase, AAA+, hexamer, Type IV; HET: ATP, AGS; 2.648A {Thermus thermophilus}
+Probab=30.39  E-value=44  Score=25.21  Aligned_cols=11  Identities=55%  Similarity=1.189  Sum_probs=8.9  Template_Neff=10.100
+
+Q ss_pred             ecccCCCceEE
+Q tr|H0YIA4|H0YI   49 TCLTCQGTGYI   59 (109)
+Q Consensus        49 tcltcqgtgyi   59 (109)
+                      -|+.|+++|..
+T Consensus       311 GC~~C~~~G~~  321 (385)
+T 5IT5_A          311 GCERCGGTGYK  321 (385)
+T ss_dssp             CCTTTTTSSEE
+T ss_pred             CCccCCCCcee
+Confidence            49999998764
+
+
+No 17
+>5ZFR_C Type IV pilus biogenesis ATPase; extension motor, TRANSPORT PROTEIN; HET: PO4; 3.1A {Geobacter sulfurreducens PCA}
+Probab=28.29  E-value=47  Score=26.32  Aligned_cols=10  Identities=50%  Similarity=1.258  Sum_probs=8.6  Template_Neff=10.400
+
+Q ss_pred             cccCCCceEE
+Q tr|H0YIA4|H0YI   50 CLTCQGTGYI   59 (109)
+Q Consensus        50 cltcqgtgyi   59 (109)
+                      |+.|+++|..
+T Consensus       507 C~~C~~~G~~  516 (582)
+T 5ZFR_C          507 CAKCNNTGYK  516 (582)
+T ss_dssp             CTTTTTTTEE
+T ss_pred             CcccCCCCcc
+Confidence            9999998864
+
+
+No 18
+>5TSH_A Type IV pilus biogenesis ATPase; PilB, Pilus, Type IVa Pilus; HET: ADP, ANP; 2.3A {Geobacter metallireducens (strain GS-15 / ATCC 53774 / DSM 7210)}
+Probab=26.79  E-value=50  Score=26.10  Aligned_cols=10  Identities=50%  Similarity=1.358  Sum_probs=8.5  Template_Neff=10.500
+
+Q ss_pred             cccCCCceEE
+Q tr|H0YIA4|H0YI   50 CLTCQGTGYI   59 (109)
+Q Consensus        50 cltcqgtgyi   59 (109)
+                      |+.|+++|..
+T Consensus       513 C~~C~~~G~~  522 (588)
+T 5TSH_A          513 CVKCNNTGYK  522 (588)
+T ss_dssp             CGGGTTTTEE
+T ss_pred             CcccCCCCcc
+Confidence            9999998864
+
+
+No 19
+>6JZB_A Chaperone protein DnaJ; cochaperone activity, zinc finger, tetramer; 2.754A {Streptococcus pneumoniae}
+Probab=26.17  E-value=97  Score=23.37  Aligned_cols=14  Identities=43%  Similarity=0.975  Sum_probs=8.6  Template_Neff=10.200
+
+Q ss_pred             eecccCCCceEEeh
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYIPT   61 (109)
+Q Consensus        48 itcltcqgtgyipt   61 (109)
+                      .+|+.|.|.|.+..
+T Consensus       170 ~~c~~c~g~g~~~~  183 (385)
+T 6JZB_A          170 VTCGRCHGAGVINV  183 (385)
+T ss_dssp             CBCTTTSSSSEEEE
+T ss_pred             ccCCCCCCeeEEEE
+Confidence            45666766666544
+
+
+No 20
+>7QGJ_A E3-Ligase, Structural Genomics, Structural Genomics; HET: EDO; 1.3A {Homo sapiens}
+Probab=24.71  E-value=1.5e+02  Score=16.60  Aligned_cols=19  Identities=21%  Similarity=0.641  Sum_probs=12.1  Template_Neff=10.800
+
+Q ss_pred             CcEEEeCCCceecccCCCc
+Q tr|H0YIA4|H0YI   38 PYVEFTGRDSITCLTCQGT   56 (109)
+Q Consensus        38 pyveftgrdsitcltcqgt   56 (109)
+                      ++......+.+.|..|...
+T Consensus        35 Gf~~~~~~~~~~C~~C~~~   53 (83)
+T 7QGJ_A           35 GFYYIGPGDRVACFACGGK   53 (83)
+T ss_dssp             TEEECCSTTCEEETTTCCE
+T ss_pred             CCEECCCCCcEEECCCCCE
+Confidence            3333333577999999763
+
+
+No 21
+>7QGJ_B E3-Ligase, Structural Genomics, Structural Genomics; HET: EDO; 1.3A {Homo sapiens}
+Probab=24.71  E-value=1.5e+02  Score=16.60  Aligned_cols=19  Identities=21%  Similarity=0.641  Sum_probs=12.1  Template_Neff=10.800
+
+Q ss_pred             CcEEEeCCCceecccCCCc
+Q tr|H0YIA4|H0YI   38 PYVEFTGRDSITCLTCQGT   56 (109)
+Q Consensus        38 pyveftgrdsitcltcqgt   56 (109)
+                      ++......+.+.|..|...
+T Consensus        35 Gf~~~~~~~~~~C~~C~~~   53 (83)
+T 7QGJ_B           35 GFYYIGPGDRVACFACGGK   53 (83)
+T ss_dssp             TEEECCSTTCEEETTTCCE
+T ss_pred             CCEECCCCCcEEECCCCCE
+Confidence            3333333577999999763
+
+
+No 22
+>1P9R_A General secretion pathway protein E; Bacterial Type II secretion system; HET: MSE; 2.5A {Vibrio cholerae} SCOP: c.37.1.11
+Probab=24.31  E-value=59  Score=25.45  Aligned_cols=11  Identities=36%  Similarity=0.942  Sum_probs=8.8  Template_Neff=9.500
+
+Q ss_pred             ecccCCCceEE
+Q tr|H0YIA4|H0YI   49 TCLTCQGTGYI   59 (109)
+Q Consensus        49 tcltcqgtgyi   59 (109)
+                      -|+.|+++|..
+T Consensus       339 GC~~C~~~G~~  349 (418)
+T 1P9R_A          339 GCPKCNHKGYR  349 (418)
+T ss_dssp             CCSSSCSSSEE
+T ss_pred             CCCccCCCccc
+Confidence            49999988763
+
+
+No 23
+>1P9W_A General secretion pathway protein E; Bacterial Type II secretion system; HET: ANP, MSE; 2.7A {Vibrio cholerae} SCOP: c.37.1.11
+Probab=24.31  E-value=59  Score=25.45  Aligned_cols=11  Identities=36%  Similarity=0.942  Sum_probs=8.8  Template_Neff=9.500
+
+Q ss_pred             ecccCCCceEE
+Q tr|H0YIA4|H0YI   49 TCLTCQGTGYI   59 (109)
+Q Consensus        49 tcltcqgtgyi   59 (109)
+                      -|+.|+++|..
+T Consensus       339 GC~~C~~~G~~  349 (418)
+T 1P9W_A          339 GCPKCNHKGYR  349 (418)
+T ss_dssp             CCTTSCSSSEE
+T ss_pred             CCCccCCCccc
+Confidence            49999988763
+
+
+No 24
+>2CTT_A DnaJ, Zing finger, beta-hairpin, structural; HET: ZN; NMR {Homo sapiens}
+Probab=23.38  E-value=1.6e+02  Score=16.10  Aligned_cols=15  Identities=27%  Similarity=0.585  Sum_probs=10.3  Template_Neff=12.100
+
+Q ss_pred             ceecccCCCceEEeh
+Q tr|H0YIA4|H0YI   47 SITCLTCQGTGYIPT   61 (109)
+Q Consensus        47 sitcltcqgtgyipt   61 (109)
+                      ...|+.|.|.|.+..
+T Consensus        45 ~~~~~~~~g~g~~~~   59 (104)
+T 2CTT_A           45 VQHCHYCGGSGMETI   59 (104)
+T ss_dssp             CEECSSSSSSCEEEE
+T ss_pred             CeeCCCCCCccEEEE
+Confidence            356888888776653
+
+
+No 25
+>6MUD_B Calmodulin-1, Sodium channel protein type; voltage-gated ion channel, transport protein; 2.69A {Homo sapiens}
+Probab=22.68  E-value=1.2e+02  Score=19.95  Aligned_cols=15  Identities=13%  Similarity=0.370  Sum_probs=9.0  Template_Neff=9.500
+
+Q ss_pred             CCceEEehhhcceee
+Q tr|H0YIA4|H0YI   54 QGTGYIPTEQVNELV   68 (109)
+Q Consensus        54 qgtgyipteqvnelv   68 (109)
+                      .++|.||...-..++
+T Consensus        22 ~~t~~i~~~~l~~ll   36 (140)
+T 6MUD_B           22 EATQFIEYSVLSDFA   36 (140)
+T ss_dssp             TCCSEEEGGGHHHHH
+T ss_pred             CCCCceeHHHHHHHH
+Confidence            457788886444443
+
+
+No 26
+>2KBI_A Sodium channel protein type 5; protein, EF-hand, sodium channel, Brugada; NMR {Homo sapiens}
+Probab=22.62  E-value=36  Score=20.81  Aligned_cols=13  Identities=15%  Similarity=0.381  Sum_probs=8.1  Template_Neff=9.700
+
+Q ss_pred             CceEEehhhccee
+Q tr|H0YIA4|H0YI   55 GTGYIPTEQVNEL   67 (109)
+Q Consensus        55 gtgyipteqvnel   67 (109)
+                      ++|.|+......+
+T Consensus        37 ~~g~i~~~~l~~l   49 (97)
+T 2KBI_A           37 ATQFIEYSVLSDF   49 (97)
+T ss_dssp             CCSEEEHHHHHHH
+T ss_pred             CCCceeHHHHHHH
+Confidence            3579998654433
+
+
+No 27
+>1EXK_A extended beta-hairpin, CXXCXGXG, zinc-binding motif; HET: ZN; NMR {Escherichia coli} SCOP: g.54.1.1
+Probab=22.25  E-value=1.5e+02  Score=14.66  Aligned_cols=12  Identities=50%  Similarity=1.140  Sum_probs=6.5  Template_Neff=12.700
+
+Q ss_pred             eecccCCCceEE
+Q tr|H0YIA4|H0YI   48 ITCLTCQGTGYI   59 (109)
+Q Consensus        48 itcltcqgtgyi   59 (109)
+                      ..|+.|.|.|.+
+T Consensus        29 ~~~~~~~g~~~~   40 (79)
+T 1EXK_A           29 QTCPTCHGSGQV   40 (79)
+T ss_dssp             EECTTTTTSSEE
+T ss_pred             eeCCCCCCeeEE
+Confidence            356666655543
+
+
+No 28
+>6TAS_C Activity-regulated cytoskeleton associated protein 1; dArc, Gag, Virus, VLP, VIRUS; 2.75A {Drosophila melanogaster}
+Probab=21.15  E-value=82  Score=18.59  Aligned_cols=16  Identities=19%  Similarity=0.314  Sum_probs=0.0  Template_Neff=13.800
+
+Q ss_pred             CceecccCCCceEEeh
+Q tr|H0YIA4|H0YI   46 DSITCLTCQGTGYIPT   61 (109)
+Q Consensus        46 dsitcltcqgtgyipt   61 (109)
+                      ....|-.|+..|.+.+
+T Consensus       223 ~~~~C~~C~~~gH~~~  238 (254)
+T 6TAS_C          223 RTTRCTYCSFRGHTFD  238 (254)
+T ss_dssp             ----------------
+T ss_pred             CCccccccCCCCCccc
+Confidence            3457999998887655
+
+
+No 29
+>6TAS_F Activity-regulated cytoskeleton associated protein 1; dArc, Gag, Virus, VLP, VIRUS; 2.75A {Drosophila melanogaster}
+Probab=21.15  E-value=82  Score=18.59  Aligned_cols=16  Identities=19%  Similarity=0.314  Sum_probs=0.0  Template_Neff=13.800
+
+Q ss_pred             CceecccCCCceEEeh
+Q tr|H0YIA4|H0YI   46 DSITCLTCQGTGYIPT   61 (109)
+Q Consensus        46 dsitcltcqgtgyipt   61 (109)
+                      ....|-.|+..|.+.+
+T Consensus       223 ~~~~C~~C~~~gH~~~  238 (254)
+T 6TAS_F          223 RTTRCTYCSFRGHTFD  238 (254)
+T ss_dssp             ----------------
+T ss_pred             CCccccccCCCCCccc
+Confidence            3457999998887655
+
+
+No 30
+>4OVN_J Calmodulin, Voltage gated Sodium Channel; SCN5A, Voltage Gated Sodium Channel; HET: SO4, PO4, MG, MSE; 2.8A {Homo sapiens}
+Probab=20.93  E-value=48  Score=22.38  Aligned_cols=19  Identities=11%  Similarity=0.323  Sum_probs=11.6  Template_Neff=9.400
+
+Q ss_pred             CCceEEehhhcceeeeecc
+Q tr|H0YIA4|H0YI   54 QGTGYIPTEQVNELVALIP   72 (109)
+Q Consensus        54 qgtgyipteqvnelvalip   72 (109)
+                      .++|.||...-..++..+|
+T Consensus        32 ~~t~~i~~~~l~~ll~~l~   50 (157)
+T 4OVN_J           32 EATQFIEYSVLSDFADALS   50 (157)
+T ss_dssp             TCCSEEETTTHHHHHHHSC
+T ss_pred             CCCCceeHHHHHHHHHhCC
+Confidence            3678998865444444444
+
+
+No 31
+>3M0A_D TNF receptor-associated factor 2, Baculoviral; TRAF2: cIAP2 and the TRAF1:; 2.61A {Homo sapiens}
+Probab=20.89  E-value=1.9e+02  Score=15.68  Aligned_cols=13  Identities=23%  Similarity=0.590  Sum_probs=10.0  Template_Neff=11.000
+
+Q ss_pred             eCCCceecccCCC
+Q tr|H0YIA4|H0YI   43 TGRDSITCLTCQG   55 (109)
+Q Consensus        43 tgrdsitcltcqg   55 (109)
+                      ...+.+.|..|.+
+T Consensus        35 ~~~~~~~C~~C~~   47 (75)
+T 3M0A_D           35 GVNDKVKCFCCGL   47 (75)
+T ss_dssp             EETTEEEETTTCC
+T ss_pred             CCCCeEEECCCCC
+Confidence            3457789999976
+
+
+No 32
+>3M0D_D TNF receptor-associated factor 2, TNF; trimeric helix coiled coiled, acetylation; 2.8A {Homo sapiens}
+Probab=20.89  E-value=1.9e+02  Score=15.68  Aligned_cols=13  Identities=23%  Similarity=0.590  Sum_probs=10.0  Template_Neff=11.000
+
+Q ss_pred             eCCCceecccCCC
+Q tr|H0YIA4|H0YI   43 TGRDSITCLTCQG   55 (109)
+Q Consensus        43 tgrdsitcltcqg   55 (109)
+                      ...+.+.|..|.+
+T Consensus        35 ~~~~~~~C~~C~~   47 (75)
+T 3M0D_D           35 GVNDKVKCFCCGL   47 (75)
+T ss_dssp             SSTTCEEETTTCC
+T ss_pred             CCCCeEEECCCCC
+Confidence            3457789999976
+
+

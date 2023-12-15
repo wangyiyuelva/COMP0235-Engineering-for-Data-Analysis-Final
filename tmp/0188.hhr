@@ -1,0 +1,210 @@
+Query         tr|A0A804HL83|A0A804HL83_HUMAN
+Match_columns 696
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:28:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0188.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2BW3_A TRANSPOSASE; DNA RECOMB  99.3 1.3E-10 1.4E-15   98.2  14.8  239  107-387    23-269 (534)
+  2 7NRC_A 40S ribosomal protein S  63.3   3E+02  0.0033   34.3  13.6   75  516-595   310-388 (1209)
+  3 6MTC_v 80S ribosome; translati  24.2 4.8E+02  0.0052   28.6   6.8   56  402-457   231-290 (441)
+  4 6GCN_A ATP-dependent zinc meta  14.0 1.9E+03   0.021   21.8   7.8   33  513-545   410-442 (479)
+  5 6GCN_B ATP-dependent zinc meta  14.0 1.9E+03   0.021   21.8   7.8   33  513-545   410-442 (479)
+  6 5LPH_B Centrosomal protein of   13.1 1.7E+03   0.018   20.7  12.7   63  358-427    56-119 (288)
+  7 2WVO_B SMALL S PROTEIN; PRION-  13.0 1.5E+03   0.016   20.9   6.4   21  514-534    76-96  (233)
+  8 2CE7_B CELL DIVISION PROTEIN F  12.9 2.1E+03   0.023   21.7   7.7   73  471-543   356-430 (476)
+  9 2CEA_B CELL DIVISION PROTEIN F  12.9 2.1E+03   0.023   21.7   7.7   73  471-543   356-430 (476)
+ 10 2DHR_A AAA+ protein, hexameric  11.7 2.3E+03   0.025   21.6   7.8   79  471-550   369-447 (499)
+
+No 1
+>2BW3_A TRANSPOSASE; DNA RECOMBINATION, TRANSPOSITION; HET: MSE; 2.0A {MUSCA DOMESTICA} SCOP: a.270.1.1, c.55.3.12
+Probab=99.33  E-value=1.3e-10  Score=98.23  Aligned_cols=239  Identities=14%  Similarity=0.201  Sum_probs=212.7  Template_Neff=13.200
+
+Q ss_pred             HHHHhhcCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHHhcCcHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHhhHhhH
+Q tr|A0A804HL83|  107 ILILMGKQNIPLDGHEADEIPEGLFTPDNFQALLECRINSGEEVLRKRFETTAVNTLFCSKTQQRQMLEICESCIREETL  186 (696)
+Q Consensus       107 ililmgkqnipldgheadeipeglftpdnfqallecrinsgeevlrkrfettavntlfcsktqqrqmleicescireetl  186 (696)
+                      +++|++.+++|++          ++++++|++|++.+.+.|.++++    ..++++.+|+...++..+...+...+.+++
+T Consensus        23 ~~~~~~~~~~p~~----------~~~~~~f~~l~~~~~~~~~~~~~----~~~~~~~~ps~~~~~~~i~~~~~~~~~~l~   88 (534)
+T 2BW3_A           23 CAQWVVRDCRPFS----------AVSGSGFIDMIKFFIKVKAEYGE----HVNVEELLPSPITLSRKVTSDAKEKKALIG   88 (534)
+T ss_dssp             HHHHHHHTTCCGG----------GGGCHHHHHHHHHHHHHHHHHCS----CBCHHHHSCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCChh----------HhCChHHHHHHHHHHHHHHHhCC----CCCHHHhCCCHHHHHHhhhHHHHHHHHHHH
+Confidence            6999999999999          99999999999999776665543    446788999999999999999999999999
+
+
+Q ss_pred             HHhhhh---hhhhhhhhhhhhh-cCcchHHHHHHHHHhhhchhhhhhccCCC---cccHHHHHHHHHHHHHHhhCCCchh
+Q tr|A0A804HL83|  187 REVRDS---HFFSIITDDVVDI-AGEEHLPVLVRFVDESHNLREEFIGFLPY---EADAEILAVKFHTMITEKWGLNMEY  259 (696)
+Q Consensus       187 revrds---hffsiitddvvdi-ageehlpvlvrfvdeshnlreefigflpy---eadaeilavkfhtmitekwglnmey  259 (696)
+                      +.++..   .++++++|+|++. .+..++.+.+||++ ++.++..++++..+   ..+++.++..+.+++. +||+...+
+T Consensus        89 ~~l~~~~~~~~~sl~~D~~~~~~~~~~~l~v~~~~~~-~~~~~~~~l~~~~~~~~~~~~~~i~~~i~~~l~-~~~i~~~~  166 (534)
+T 2BW3_A           89 REIKSAVEKDGASATIDLWTDNYIKRNFLGVTLHYHE-NNELRDLILGLKSLDFERSTAENIYKKLKAIFS-QFNVEDLS  166 (534)
+T ss_dssp             HHHHHHHHTTCCEEEEEEEEETTTTEEEEEEEEEEEE-TTEEEEEEEEEEEECGGGCSHHHHHHHHHHHHH-TTTCCCCT
+T ss_pred             HHHHHHHHcCCcEEEEEEEecCCCCceEEEEEEEEee-CCeEEEEEEEecccCcccCCHHHHHHHHHHHHH-hCCCCchh
+Confidence            999987   8999999999998 78999999999998 88888999998877   5789999999999999 99999877
+
+
+Q ss_pred             hhhhhhhhccchhHHHHHHHHHHHHHCchHHHHHHHHHHHHHHHHcCCc-hhhHHHHHHHHHHHHHHhcCCHHHHHHHHH
+Q tr|A0A804HL83|  260 CRGQAYIVSSGFSSKMKVVASRLLEKYPQAIYTLCSSCALNMWLAKSVP-VMGVSVALGTIEEVCSFFHRSPQLLLELDN  338 (696)
+Q Consensus       260 crgqayivssgfsskmkvvasrllekypqaiytlcsscalnmwlaksvp-vmgvsvalgtieevcsffhrspqllleldn  338 (696)
+                      +++   +++|++++ +       ...+.+..+++|..|.++.++.+.+. .+.+..++.+++.++.+++.++..      
+T Consensus       167 ~~~---~~~d~~~~-~-------~~~~~~~~~~~C~~h~l~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~------  229 (534)
+T 2BW3_A          167 SIK---FVTDRGAN-V-------VKSLANNIRINCSSHLLSNVLENSFEETPELNMPILACKNIVKYFKKANLQ------  229 (534)
+T ss_dssp             TCE---EEECCCHH-H-------HHHTTTSEEEECHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHTTCG------
+T ss_pred             ceE---EEeCCchH-H-------HHHhhccCcCchHHHHHHHHHHHHHhcCHhhhHHHHHHHHHHHHHHHcchH------
+Confidence            778   89999999 8       88888888999999999999999887 777889999999999999887665      
+
+
+Q ss_pred             HHHHHHhcchHhHHHHHHHHhhccCCchhHHHHHHHHHHHHHHHHHccC
+Q tr|A0A804HL83|  339 VISVLFQNSKERGKELKEICHSQWTGRHDAFEILVELLQALVLCLDGIN  387 (696)
+Q Consensus       339 visvlfqnskergkelkeichsqwtgrhdafeilvellqalvlcldgin  387 (696)
+                               ......+..++.+||.+.+.++.++++.++.+..++....
+T Consensus       230 ---------~~~~~~l~~~~~trW~s~~~~l~~~~~~~~~l~~~~~~~~  269 (534)
+T 2BW3_A          230 ---------HRLRSSLKSECPTRWNSTYTMLRSILDNWESVIQILSEAG  269 (534)
+T ss_dssp             ---------GGGCCCCCCSSCGGGCHHHHHHHHHHHTHHHHHHHHHHTT
+T ss_pred             ---------HHhccCCCCCCCChhHHHHHHHHHHHHcHHHHHHHHHHcc
+Confidence                     4445667778999999999999999999999998887654
+
+
+No 2
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=63.27  E-value=3e+02  Score=34.28  Aligned_cols=75  Identities=17%  Similarity=0.198  Sum_probs=36.9  Template_Neff=1.500
+
+Q ss_pred             hhHHHHHHHHHHHccHHHHH----HHHHHHhhHHHHhhccCCCCcccchhcccCCCCChhhHHHHHHHHHHHhhhCCCCC
+Q tr|A0A804HL83|  516 PTVEHIIQELKDIFSEQHLK----ALKCLSLVPSVMGQLKFNTSEEHHADMYRSDLPNPDTLSAELHCWRIKWKHRGKDI  591 (696)
+Q Consensus       516 ptvehiiqelkdifseqhlk----alkclslvpsvmgqlkfntseehhadmyrsdlpnpdtlsaelhcwrikwkhrgkdi  591 (696)
+                      -.|+.++++|++++.+.+..    +.-+|+-    +|.+.-|..-........+-|.+|+ .+.+.-.|+|+|+.--.-|
+T Consensus       310 advseAVpALIeMLNDEDkRVRsNAAiALGK----IGD~~~~~~~QeaVPaLLQALkDpD-anAVEALgKIGDkQaVp~~  384 (1209)
+T 7NRC_A          310 ASVSTIVPEIVGVLNDSHKEVRKAADESLKR----FGEVIRNAAIQKLVPVLLQAIGDPT-KYTEEALDSLIQTQFVHYI  384 (1209)
+T ss_pred             cchhhhHHHHHHHhcCCCHHHHHHHHHHHHH----hcchhhHHHHhHHHHHHHHHhCCCC-ccHHHHHHHHhhccccccc
+Confidence            34556666676666554432    2222222    2221112222233334444555555 6666667888777655544
+
+
+Q ss_pred             CCCh
+Q tr|A0A804HL83|  592 ELPS  595 (696)
+Q Consensus       592 elps  595 (696)
+                      +-||
+T Consensus       385 ~~~~  388 (1209)
+T 7NRC_A          385 DGPS  388 (1209)
+T ss_pred             CChh
+Confidence            5554
+
+
+No 3
+>6MTC_v 80S ribosome; translation, RIBOSOME; HET: P7G, M7A, 2MG, PSU, BGH, 7MG, 6MZ, OMU, 4AC, 5MC, MHG, A2M, UR3, E7G, B9B, MLZ, 5MU, I4U, B8N, B8Q, E3C, OMG, B8K, OMC, 1MA, MG, B8H, B8T, E6G, B8W, B9H, MA6, P4U; 3.4A {Oryctolagus cuniculus}
+Probab=24.17  E-value=4.8e+02  Score=28.59  Aligned_cols=56  Identities=21%  Similarity=0.283  Sum_probs=39.6  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHcCCchHHHHHHHHHH----HHHHHHHhccccCCCchhHHHHHHHHHHHHHHHH
+Q tr|A0A804HL83|  402 AFVLCSAVSDFDFIVTIVVLKN----VLSFTRAFGKNLQGQTSDVFFAAGSLTAVLHSLN  457 (696)
+Q Consensus       402 afvlcsavsdfdfivtivvlkn----vlsftrafgknlqgqtsdvffaagsltavlhsln  457 (696)
+                      +-++++|++-+-+++|++--..    +-.....|..-|.....+|-.|||-..|+++.+.
+T Consensus       231 ~~l~~aAL~aW~LLlT~~~~~~~~~~~~~~l~~l~~lL~s~d~~VRiAAgE~iALl~E~~  290 (441)
+T 6MTC_v          231 HGVCCAALQAWALLLTICPSAHISHILDRQLPRLPQLLSSESVNLRIAAGETIALLFELA  290 (441)
+T ss_pred             HHHHHHHHHHHHHHHHhCChhhHHHHHHHHHHHHHHHHcCCCchHHHHHHHHHHHHHHHH
+Confidence            3478888888888888653221    1223445666677888899999999999988654
+
+
+No 4
+>6GCN_A ATP-dependent zinc metalloprotease FtsH (E.C.3.4.24.-); AAA protease, zinc metalloprotease, HYDROLASE; HET: ADP, ALA; 2.949A {Aquifex aeolicus (strain VF5)}
+Probab=13.98  E-value=1.9e+03  Score=21.85  Aligned_cols=33  Identities=27%  Similarity=0.178  Sum_probs=25.2  Template_Neff=11.100
+
+Q ss_pred             CCchhHHHHHHHHHHHccHHHHHHHHHHHhhHH
+Q tr|A0A804HL83|  513 LSVPTVEHIIQELKDIFSEQHLKALKCLSLVPS  545 (696)
+Q Consensus       513 lsvptvehiiqelkdifseqhlkalkclslvps  545 (696)
+                      .+..+...+-++++.+..+.+-++.+.|.---.
+T Consensus       410 ~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  442 (479)
+T 6GCN_A          410 TSPDLLREIDEEVKRIITEQYEKAKAIVEEYKE  442 (479)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHH
+Confidence            456678888889999999988888877754333
+
+
+No 5
+>6GCN_B ATP-dependent zinc metalloprotease FtsH (E.C.3.4.24.-); AAA protease, zinc metalloprotease, HYDROLASE; HET: ADP, ALA; 2.949A {Aquifex aeolicus (strain VF5)}
+Probab=13.98  E-value=1.9e+03  Score=21.85  Aligned_cols=33  Identities=27%  Similarity=0.178  Sum_probs=25.2  Template_Neff=11.100
+
+Q ss_pred             CCchhHHHHHHHHHHHccHHHHHHHHHHHhhHH
+Q tr|A0A804HL83|  513 LSVPTVEHIIQELKDIFSEQHLKALKCLSLVPS  545 (696)
+Q Consensus       513 lsvptvehiiqelkdifseqhlkalkclslvps  545 (696)
+                      .+..+...+-++++.+..+.+-++.+.|.---.
+T Consensus       410 ~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~  442 (479)
+T 6GCN_B          410 TSPDLLREIDEEVKRIITEQYEKAKAIVEEYKE  442 (479)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHH
+Confidence            456678888889999999988888877754333
+
+
+No 6
+>5LPH_B Centrosomal protein of 104 kDa; TOG domain, HEAT repeat, Tubulin; HET: MSE; 2.25A {Homo sapiens}
+Probab=13.13  E-value=1.7e+03  Score=20.73  Aligned_cols=63  Identities=22%  Similarity=0.229  Sum_probs=30.1  Template_Neff=10.800
+
+Q ss_pred             HhhccCCchhHHHHHHHHHHHHHHHHHccCCCC-chhHHHHHHHHHHHHHHHcCCchHHHHHHHHHHHHHH
+Q tr|A0A804HL83|  358 CHSQWTGRHDAFEILVELLQALVLCLDGINSDT-NIRWNNYIAGRAFVLCSAVSDFDFIVTIVVLKNVLSF  427 (696)
+Q Consensus       358 chsqwtgrhdafeilvellqalvlcldginsdt-nirwnnyiagrafvlcsavsdfdfivtivvlknvlsf  427 (696)
+                      .+..|..+...++.+.+..       ....... .....+.+..-...+...+.|-.+-|....+.-+..+
+T Consensus        56 ~s~~w~~R~~al~~l~~~l-------~~~~~~~~~~~~~~~~~~~~~~l~~~~~d~~~~v~~~al~~l~~l  119 (288)
+T 5LPH_B           56 YCKTWSYREDALLALSKKL-------MEMPVGTPKEDLKNTLRASVFLVRRAIKDIVTSVFQASLKLLKMI  119 (288)
+T ss_dssp             HSSCHHHHHHHHHHHHHHH-------HTSCTTSCHHHHHHHHHHHHHHHHHHTTCSSHHHHHHHHHHHHHC
+T ss_pred             hcCChHHHHHHHHHHHHHH-------ccCCCCCCHHHHHHHHHHHHHHHHHHhccCHHHHHHHHHHHHHHH
+Confidence            3456777777776654433       2222211 1122223333333455567777776655554433333
+
+
+No 7
+>2WVO_B SMALL S PROTEIN; PRION-BINDING PROTEIN, PRION REGULATORY DOMAIN; 2.3A {PODOSPORA ANSERINA}
+Probab=12.97  E-value=1.5e+03  Score=20.86  Aligned_cols=21  Identities=24%  Similarity=0.373  Sum_probs=15.4  Template_Neff=10.100
+
+Q ss_pred             CchhHHHHHHHHHHHccHHHH
+Q tr|A0A804HL83|  514 SVPTVEHIIQELKDIFSEQHL  534 (696)
+Q Consensus       514 svptvehiiqelkdifseqhl  534 (696)
+                      ..+.|..++.++.+.|.+..-
+T Consensus        76 ~~~~i~~~L~~i~~~l~~~~~   96 (233)
+T 2WVO_B           76 SVQLAKSIVEEILLLFESAQK   96 (233)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            356788888888888876553
+
+
+No 8
+>2CE7_B CELL DIVISION PROTEIN FTSH; CELL DIVISION, METALLOPROTEASE, FTSH, CELL; HET: ADP; 2.44A {Thermotoga maritima} SCOP: c.37.1.20, a.269.1.1
+Probab=12.85  E-value=2.1e+03  Score=21.73  Aligned_cols=73  Identities=21%  Similarity=0.194  Sum_probs=42.1  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHhhhhcCCCcccccccCCCcccc--CCCcchccccCCchhHHHHHHHHHHHccHHHHHHHHHHHhh
+Q tr|A0A804HL83|  471 FEEATNLATKLDIQMKLPGKFRRAHQGNLESQ--LTSESYYKETLSVPTVEHIIQELKDIFSEQHLKALKCLSLV  543 (696)
+Q Consensus       471 feeatnlatkldiqmklpgkfrrahqgnlesq--ltsesyyketlsvptvehiiqelkdifseqhlkalkclslv  543 (696)
+                      ++.|+.+|..+-.+.-+...+.....+.....  +.........++..+.++|-+++..++.+++-++...|.--
+T Consensus       356 ~~~a~~~a~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~ll~~~  430 (476)
+T 2CE7_B          356 IERATEIARNMVCQLGMSEELGPLAWGKEEQEVFLGKEITRLRNYSEEVASKIDEEVKKIVTNCYERAKEIIRKY  430 (476)
+T ss_dssp             HHHHHHHHHHHHHTSCCCTTTCSCCCCC-------------CCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHcCCCCCCCCccCCccccccccccccchhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            45667777777666555555544333222211  11122233457778888999999999988888887766543
+
+
+No 9
+>2CEA_B CELL DIVISION PROTEIN FTSH (E.C.3.4.24.-); CELL DIVISION, METALLOPROTEASE, HYDROLASE; HET: ADP; 2.75A {Thermotoga maritima} SCOP: c.37.1.20, a.269.1.1
+Probab=12.85  E-value=2.1e+03  Score=21.73  Aligned_cols=73  Identities=21%  Similarity=0.194  Sum_probs=42.1  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHhhhhcCCCcccccccCCCcccc--CCCcchccccCCchhHHHHHHHHHHHccHHHHHHHHHHHhh
+Q tr|A0A804HL83|  471 FEEATNLATKLDIQMKLPGKFRRAHQGNLESQ--LTSESYYKETLSVPTVEHIIQELKDIFSEQHLKALKCLSLV  543 (696)
+Q Consensus       471 feeatnlatkldiqmklpgkfrrahqgnlesq--ltsesyyketlsvptvehiiqelkdifseqhlkalkclslv  543 (696)
+                      ++.|+.+|..+-.+.-+...+.....+.....  +.........++..+.++|-+++..++.+++-++...|.--
+T Consensus       356 ~~~a~~~a~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~ll~~~  430 (476)
+T 2CEA_B          356 IERATEIARNMVCQLGMSEELGPLAWGKEEQEVFLGKEITRLRNYSEEVASKIDEEVKKIVTNCYERAKEIIRKY  430 (476)
+T ss_dssp             HHHHHHHHHHHHHTSCCCTTTCSCCCCC-------------CCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHcCCCCCCCCccCCccccccccccccchhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            45667777776666555555544333222211  11122233457778888999999999988888887766543
+
+
+No 10
+>2DHR_A AAA+ protein, hexameric Zn metalloprotease; HET: ADP; 3.9A {Thermus thermophilus}
+Probab=11.72  E-value=2.3e+03  Score=21.65  Aligned_cols=79  Identities=18%  Similarity=0.170  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHHhhhhcCCCcccccccCCCccccCCCcchccccCCchhHHHHHHHHHHHccHHHHHHHHHHHhhHHHHhhc
+Q tr|A0A804HL83|  471 FEEATNLATKLDIQMKLPGKFRRAHQGNLESQLTSESYYKETLSVPTVEHIIQELKDIFSEQHLKALKCLSLVPSVMGQL  550 (696)
+Q Consensus       471 feeatnlatkldiqmklpgkfrrahqgnlesqltsesyyketlsvptvehiiqelkdifseqhlkalkclslvpsvmgql  550 (696)
+                      ++.|+.+|..+--+.-+..++.-..-+-.+.+.....++ ...+..+.++|-+++++++.+++-++.+-|.---..+..+
+T Consensus       369 ~~~a~~~a~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~l~~~~~~~~~~~l~~~~~~l~~l  447 (499)
+T 2DHR_A          369 FRQATELARRMITEWGMHPEFGPVAYAVREDTYLGGYDV-RQYSEETAKRIDEAVRRLIEEQYQRVKALLLEKREVLERV  447 (499)
+T ss_dssp             HHHHHHHHHCCCCCSCCCSSSCSCCCCCCCCCSSCCCCC-CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHcCCCCCCCccceecccccccCCccc-ccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHH
+
+

@@ -1,0 +1,169 @@
+Query         tr|A0A2R8Y424|A0A2R8Y424_HUMAN
+Match_columns 159
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:45:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1650.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4UX8_C PROTO-ONCOGENE TYROSINE  19.9 3.7E+02   0.004   25.8   4.4   11   55-65    336-346 (463)
+  2 6Q2N_D Glial cell line-derived  13.1 7.1E+02  0.0077   23.5   4.4   11   55-65    317-327 (412)
+  3 4OZJ_A Nitrogen regulatory pro  13.0 3.2E+02  0.0034   19.6   1.8   20   33-52     12-31  (143)
+  4 4OZL_A GlnK2; GlnK, PII, GlnB,  13.0 3.2E+02  0.0034   19.6   1.8   20   33-52     12-31  (143)
+  5 4OZN_A Nitrogen regulatory pro  13.0 3.2E+02  0.0034   19.6   1.8   20   33-52     12-31  (143)
+  6 1GVJ_B C-ETS-1 PROTEIN; TRANSC  12.3 2.4E+02  0.0026   20.4   1.1   18   49-69    127-144 (146)
+  7 3FUB_A GDNF family receptor al  10.6 9.5E+02    0.01   21.5   4.2   12   55-66    197-208 (281)
+  8 1XRG_B Putative translation in   8.9 5.3E+02  0.0058   18.2   1.8   21   33-53     12-32  (156)
+  9 5M6Q_B Uncharacterized protein   8.9 6.9E+02  0.0075   22.7   2.8   38   92-129   116-153 (225)
+ 10 3WTT_C Runt-related transcript   6.7 5.2E+02  0.0056   19.6   1.0   15   51-68    149-163 (166)
+
+No 1
+>4UX8_C PROTO-ONCOGENE TYROSINE-PROTEIN KINASE RECEPTOR RET; SIGNALING PROTEIN, VERTEBRATE DEVELOPMENT, HUMAN; HET: NAG; 24.0A {HOMO SAPIENS}
+Probab=19.86  E-value=3.7e+02  Score=25.80  Aligned_cols=11  Identities=45%  Similarity=1.023  Sum_probs=6.5  Template_Neff=5.600
+
+Q ss_pred             hhhccCCCCcC
+Q tr|A0A2R8Y424|   55 ELKAFGSGIDI   65 (159)
+Q Consensus        55 elkafgsgidi   65 (159)
+                      .++|||.|.|+
+T Consensus       336 Aiqafg~gtd~  346 (463)
+T 4UX8_C          336 AIQAFGNGSDV  346 (463)
+T ss_dssp             HHHHHHCC---
+T ss_pred             HHHHhcCCCCC
+Confidence            35799999998
+
+
+No 2
+>6Q2N_D Glial cell line-derived neurotrophic factor; RET, receptor tyrosine kinase, cryo-EM; 4.4A {Homo sapiens}
+Probab=13.09  E-value=7.1e+02  Score=23.47  Aligned_cols=11  Identities=45%  Similarity=1.023  Sum_probs=8.8  Template_Neff=6.000
+
+Q ss_pred             hhhccCCCCcC
+Q tr|A0A2R8Y424|   55 ELKAFGSGIDI   65 (159)
+Q Consensus        55 elkafgsgidi   65 (159)
+                      .++|||.|.|.
+T Consensus       317 ai~af~~~~~~  327 (412)
+T 6Q2N_D          317 AIQAFGNGSDV  327 (412)
+T ss_pred             HHHHhcCCCCc
+Confidence            35799999887
+
+
+No 3
+>4OZJ_A Nitrogen regulatory protein P-II; GlnK, PII, GlnB, Signaling, Haloferax; HET: ADP; 1.45A {Haloferax mediterranei}
+Probab=13.00  E-value=3.2e+02  Score=19.62  Aligned_cols=20  Identities=30%  Similarity=0.438  Sum_probs=3.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCC
+Q tr|A0A2R8Y424|   33 RGLIPAGTQHSMIATTGKMS   52 (159)
+Q Consensus        33 rglipagtqhsmiattgkms   52 (159)
+                      .||+|++++.++...+..+.
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~   31 (143)
+T 4OZJ_A           12 SGLVPAGSHMSDADLPNDGG   31 (143)
+T ss_dssp             --------------CGGGGS
+T ss_pred             CCcccCCccCCcccCCCCCc
+Confidence            58999999988776655443
+
+
+No 4
+>4OZL_A GlnK2; GlnK, PII, GlnB, signaling, Haloferax; HET: SO4, AMP; 1.4942A {Haloferax mediterranei}
+Probab=13.00  E-value=3.2e+02  Score=19.62  Aligned_cols=20  Identities=30%  Similarity=0.438  Sum_probs=3.7  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCC
+Q tr|A0A2R8Y424|   33 RGLIPAGTQHSMIATTGKMS   52 (159)
+Q Consensus        33 rglipagtqhsmiattgkms   52 (159)
+                      .||+|++++.++...+..+.
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~   31 (143)
+T 4OZL_A           12 SGLVPAGSHMSDADLPNDGG   31 (143)
+T ss_dssp             -------------CCGGGGS
+T ss_pred             CCcccCCccCCcccCCCCCc
+Confidence            58999999988776655443
+
+
+No 5
+>4OZN_A Nitrogen regulatory protein P-II; Glnk2, PII, GlnB, signaling, Haloferax; HET: ATP, SO4; 2.6A {Haloferax mediterranei}
+Probab=13.00  E-value=3.2e+02  Score=19.62  Aligned_cols=20  Identities=30%  Similarity=0.438  Sum_probs=3.8  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCC
+Q tr|A0A2R8Y424|   33 RGLIPAGTQHSMIATTGKMS   52 (159)
+Q Consensus        33 rglipagtqhsmiattgkms   52 (159)
+                      .||+|++++.++...+..+.
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~   31 (143)
+T 4OZN_A           12 SGLVPAGSHMSDADLPNDGG   31 (143)
+T ss_dssp             -------------CCTGGGS
+T ss_pred             CCcccCCccCCcccCCCCCc
+Confidence            58999999988776665543
+
+
+No 6
+>1GVJ_B C-ETS-1 PROTEIN; TRANSCRIPTION, ETS-1, AUTOINHIBITION, ETS DOMAIN; 1.53A {HOMO SAPIENS} SCOP: a.4.5.21
+Probab=12.34  E-value=2.4e+02  Score=20.40  Aligned_cols=18  Identities=33%  Similarity=0.512  Sum_probs=14.4  Template_Neff=9.000
+
+Q ss_pred             CCCChhhhhccCCCCcCCCCC
+Q tr|A0A2R8Y424|   49 GKMSEMELKAFGSGIDIKPGT   69 (159)
+Q Consensus        49 gkmsemelkafgsgidikpgt   69 (159)
+                      ..|.+.|+++|   ||||+.+
+T Consensus       127 ~~~~~~~~~~~---~~~~~~~  144 (146)
+T 1GVJ_B          127 LGYTPEELHAM---LDVKPDA  144 (146)
+T ss_dssp             HSCCHHHHHHH---TTCCCSS
+T ss_pred             cCCCHHHHHHH---hcCCCCC
+Confidence            35888888888   8998875
+
+
+No 7
+>3FUB_A GDNF family receptor alpha-1, Glial; GFRALPHA1, ALL ALPHA GDNF, CYSTINE; HET: NAG, EDO; 2.35A {Rattus norvegicus}
+Probab=10.59  E-value=9.5e+02  Score=21.51  Aligned_cols=12  Identities=42%  Similarity=0.941  Sum_probs=6.4  Template_Neff=6.000
+
+Q ss_pred             hhhccCCCCcCC
+Q tr|A0A2R8Y424|   55 ELKAFGSGIDIK   66 (159)
+Q Consensus        55 elkafgsgidik   66 (159)
+                      .+++||.|.|..
+T Consensus       197 aiqaf~~~~~~~  208 (281)
+T 3FUB_A          197 AIQAFGNGSDVT  208 (281)
+T ss_dssp             HHHHHTCC----
+T ss_pred             HHHHhhcCCCCc
+Confidence            356999999874
+
+
+No 8
+>1XRG_B Putative translation initiation inhibitor, yjgF; conserved hypothetical protein, Clostridium thermocellum; HET: UNX, MSE; 2.2A {Clostridium thermocellum} SCOP: d.79.1.1
+Probab=8.93  E-value=5.3e+02  Score=18.21  Aligned_cols=21  Identities=24%  Similarity=0.479  Sum_probs=8.8  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCccccCCCCCCh
+Q tr|A0A2R8Y424|   33 RGLIPAGTQHSMIATTGKMSE   53 (159)
+Q Consensus        33 rglipagtqhsmiattgkmse   53 (159)
+                      .||+|.|.|+.+.........
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~~   32 (156)
+T 1XRG_B           12 SGLVPRGSQSTSLYKKAGLMY   32 (156)
+T ss_dssp             -------CCCCCCEEEETTEE
+T ss_pred             CCCcCCCccccchhhhcCcce
+Confidence            589999999987665444433
+
+
+No 9
+>5M6Q_B Uncharacterized protein; MTGASE, ZYMOGEN, PRO-ENZYME, CROSS-LINKING, TRANSFERASE; HET: PG4, MES, CME; 1.98A {Kutzneria albida DSM 43870}
+Probab=8.90  E-value=6.9e+02  Score=22.71  Aligned_cols=38  Identities=18%  Similarity=0.278  Sum_probs=30.8  Template_Neff=4.000
+
+Q ss_pred             CCCCCCCCccccccccCCCCCccccCCCCCCCCCCCCC
+Q tr|A0A2R8Y424|   92 NSQSSKMNSIVYQKQFQSAPATVRMTQPFPTQFAPQKR  129 (159)
+Q Consensus        92 nsqsskmnsivyqkqfqsapatvrmtqpfptqfapqkr  129 (159)
+                      +...++|+.++|.|.|-|.-..++-..|-|..|+|...
+T Consensus       116 ~~~ps~~~aVifsKhFwSgQd~~~~~~p~p~aF~Pdp~  153 (225)
+T 5M6Q_B          116 WIDSAKLKASIFSKRFYSWQNPDWSEERAHTTYRPDRE  153 (225)
+T ss_dssp             TSCGGGEEEEEEEEEECSCCSTTSCHHHHHHTTCCCTT
+T ss_pred             CCCHHHCEEEEEEeecccCCCCCCCcccCccccCCCCC
+Confidence            33689999999999999987777666677888888765
+
+
+No 10
+>3WTT_C Runt-related transcription factor 1, Core-binding; PROTEIN-DNA COMPLEX, TRANSCRIPTION-DNA COMPLEX; 2.35A {Mus musculus}
+Probab=6.73  E-value=5.2e+02  Score=19.61  Aligned_cols=15  Identities=40%  Similarity=0.722  Sum_probs=7.6  Template_Neff=8.400
+
+Q ss_pred             CChhhhhccCCCCcCCCC
+Q tr|A0A2R8Y424|   51 MSEMELKAFGSGIDIKPG   68 (159)
+Q Consensus        51 msemelkafgsgidikpg   68 (159)
+                      |...|+.++   |||||.
+T Consensus       149 ~~~~~~~~~---~~~~~~  163 (166)
+T 3WTT_C          149 YTPEELHAM---LDVKPD  163 (166)
+T ss_dssp             SCHHHHHHH---TTCC--
+T ss_pred             CCHHHHHHH---hcCCCC
+Confidence            555556555   666654
+
+

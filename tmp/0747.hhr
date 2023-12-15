@@ -1,0 +1,168 @@
+Query         tr|C9J6F9|C9J6F9_HUMAN
+Match_columns 45
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:08:55 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0747.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1SKH_A coil-helix-coil, UNKNOW  42.1      45 0.00049   18.3   1.6   14   17-30      4-17  (30)
+  2 6YSL_A Motility protein A, Mot  33.9      67 0.00073   18.9   1.6   16   18-33     24-40  (261)
+  3 6YKM_G Chemotaxis protein MotA  29.9      81 0.00088   20.0   1.6   19   19-37     23-42  (291)
+  4 5LLF_D Polyphosphate kinase 2   26.5      24 0.00026   21.4  -1.1    9    1-9       1-9   (269)
+  5 6CHG_F KLLA0E24487p, Histone-l  25.6      14 0.00015   18.5  -1.9   26    4-29     26-51  (61)
+  6 6YSF_B Chemotaxis motB protein  23.7 1.3E+02  0.0014   17.6   1.6   14   21-34     28-42  (251)
+  7 7AJQ_G TonB transport, MEMBRAN  15.9 2.6E+02  0.0029   16.1   1.7   11   21-31     28-38  (146)
+  8 6BX3_M Histone-lysine N-methyl  13.9      31 0.00034   15.6  -2.0   26    2-27     11-36  (42)
+  9 2XRB_A COMPLEMENT REGULATORY P  12.2 5.7E+02  0.0062   14.9   2.8   23   16-38     20-42  (290)
+ 10 7LEP_D Mix of AMPAR subunits (  12.1 3.5E+02  0.0038   15.8   1.5   17   13-29    122-138 (424)
+
+No 1
+>1SKH_A coil-helix-coil, UNKNOWN FUNCTION; NMR {Bos taurus}
+Probab=42.06  E-value=45  Score=18.30  Aligned_cols=14  Identities=29%  Similarity=0.883  Sum_probs=11.0  Template_Neff=2.500
+
+Q ss_pred             chhhHHHHHHHHHh
+Q tr|C9J6F9|C9J6   17 VHLTSWLLIFFILK   30 (45)
+Q Consensus        17 vhltswlliffilk   30 (45)
+                      .|+..|+|..|+.-
+T Consensus         4 ~~~g~WiL~lfVat   17 (30)
+T 1SKH_A            4 SKIGSWILVLFVAM   17 (30)
+T ss_dssp             TTTTTHHHHHHHHH
+T ss_pred             chhHHHHHHHHHHH
+Confidence            57889999888753
+
+
+No 2
+>6YSL_A Motility protein A, Motility protein; Stator Flagellar rotation ion driven;{Bacillus subtilis (strain 168)}
+Probab=33.90  E-value=67  Score=18.88  Aligned_cols=16  Identities=38%  Similarity=0.548  Sum_probs=8.1  Template_Neff=11.000
+
+Q ss_pred             hhhHHHHHHHH-Hhhcc
+Q tr|C9J6F9|C9J6   18 HLTSWLLIFFI-LKSIS   33 (45)
+Q Consensus        18 hltswlliffi-lksis   33 (45)
+                      .+.+.||.||| |.+++
+T Consensus        24 dl~~lll~fFi~l~~~s   40 (261)
+T 6YSL_A           24 DILTLLLALFIVLYASS   40 (261)
+T ss_pred             HHHHHHHHHHHHHHHHh
+Confidence            34455566665 44444
+
+
+No 3
+>6YKM_G Chemotaxis protein MotA, putative, Chemotaxis; Bacterial flagellar motor, stator unit;{Campylobacter jejuni subsp. jejuni serotype O:23/36 (strain 81-176)}
+Probab=29.89  E-value=81  Score=19.99  Aligned_cols=19  Identities=47%  Similarity=0.606  Sum_probs=10.6  Template_Neff=9.700
+
+Q ss_pred             hhHHHHHHHH-HhhccCCCC
+Q tr|C9J6F9|C9J6   19 LTSWLLIFFI-LKSISCLKP   37 (45)
+Q Consensus        19 ltswlliffi-lksisclkp   37 (45)
+                      +.+.||.||| |-++|....
+T Consensus        23 l~tLLlaFFvlL~s~s~~~~   42 (291)
+T 6YKM_G           23 FLSLLLALFIALWAISKTNP   42 (291)
+T ss_dssp             HHHHHHHHHHHHHHTTCCCC
+T ss_pred             HHHHHHHHHHHHHHHHcCCH
+Confidence            4455666665 456665543
+
+
+No 4
+>5LLF_D Polyphosphate kinase 2 (E.C.2.7.4.1); Polyphosphate kinase, polyphosphate metabolism, nucleotide; HET: 6YW, 6YX, 6YY, PO4; 2.31A {Francisella tularensis subsp. tularensis (strain SCHU S4 / Schu 4)}
+Probab=26.54  E-value=24  Score=21.44  Aligned_cols=9  Identities=56%  Similarity=0.649  Sum_probs=2.9  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCc
+Q tr|C9J6F9|C9J6    1 MKVLSEGQL    9 (45)
+Q Consensus         1 mkvlsegql    9 (45)
+                      |||||..|+
+T Consensus         1 ~~~~~~~~~    9 (269)
+T 5LLF_D            1 MKVLSQEER    9 (269)
+T ss_dssp             ---CCHHHH
+T ss_pred             CcccCHHHH
+Confidence            455554443
+
+
+No 5
+>6CHG_F KLLA0E24487p, Histone-lysine N-methyltransferase, H3 lysine-4; Histones, S-adenosylmethionine, Complex, enzyme, TRANSFERASE; HET: SAM; 2.985A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=25.57  E-value=14  Score=18.54  Aligned_cols=26  Identities=27%  Similarity=0.184  Sum_probs=13.1  Template_Neff=8.900
+
+Q ss_pred             CCCCCceeeecCcchhhHHHHHHHHH
+Q tr|C9J6F9|C9J6    4 LSEGQLKLCVVQPVHLTSWLLIFFIL   29 (45)
+Q Consensus         4 lsegqlklcvvqpvhltswlliffil   29 (45)
+                      |++|-..+|..+|.+...|+..+++-
+T Consensus        26 L~~gl~~l~~~rp~~P~~~l~~~l~~   51 (61)
+T 6CHG_F           26 LLEGMKLIAREKPEDPLRVLGQFLID   51 (61)
+T ss_dssp             HHHHHHHC------CCTHHHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHHHH
+Confidence            45566677888888887777665544
+
+
+No 6
+>6YSF_B Chemotaxis motB protein, Chemotaxis MotA; Stator Flagellar rotation ion driven;{Clostridium sporogenes}
+Probab=23.67  E-value=1.3e+02  Score=17.58  Aligned_cols=14  Identities=57%  Similarity=0.800  Sum_probs=6.5  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHHH-hhccC
+Q tr|C9J6F9|C9J6   21 SWLLIFFIL-KSISC   34 (45)
+Q Consensus        21 swlliffil-ksisc   34 (45)
+                      +.||.|||+ -+++.
+T Consensus        28 tlll~fFv~l~~~~~   42 (251)
+T 6YSF_B           28 TLLLTFFILLYSFSS   42 (251)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhc
+Confidence            345555554 44443
+
+
+No 7
+>7AJQ_G TonB transport, MEMBRANE PROTEIN, IRON;{Serratia marcescens}
+Probab=15.94  E-value=2.6e+02  Score=16.12  Aligned_cols=11  Identities=36%  Similarity=0.615  Sum_probs=5.4  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHhh
+Q tr|C9J6F9|C9J6   21 SWLLIFFILKS   31 (45)
+Q Consensus        21 swlliffilks   31 (45)
+                      ..||+||++.+
+T Consensus        28 flLliffl~~~   38 (146)
+T 7AJQ_G           28 LVLLIIFMVAA   38 (146)
+T ss_dssp             HHHHHHHHHHC
+T ss_pred             HHHHHHHHHHH
+Confidence            34555555543
+
+
+No 8
+>6BX3_M Histone-lysine N-methyltransferase, H3 lysine-4 specific; Histone H3K4 Methyltransferase, GENE REGULATION-Transferase; 4.3A {Saccharomyces cerevisiae (strain YJM789)}
+Probab=13.92  E-value=31  Score=15.56  Aligned_cols=26  Identities=23%  Similarity=0.158  Sum_probs=19.5  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCceeeecCcchhhHHHHHHH
+Q tr|C9J6F9|C9J6    2 KVLSEGQLKLCVVQPVHLTSWLLIFF   27 (45)
+Q Consensus         2 kvlsegqlklcvvqpvhltswlliff   27 (45)
+                      ..|++|-..+|..+|.....|+..++
+T Consensus        11 ~~l~~gl~~~~~~rp~~P~~~l~~~l   36 (42)
+T 6BX3_M           11 PHLLAGMRLIAVQQPEDPLRVLGEYL   36 (42)
+T ss_pred             HHHHHHHHHHHHHCCCCHHHHHHHHH
+Confidence            35677888888888888877776544
+
+
+No 9
+>2XRB_A COMPLEMENT REGULATORY PROTEIN CRRY; IMMUNE SYSTEM, IMMUNOLOGY; HET: SO4, EDO; 2.5A {RATTUS NORVEGICUS}
+Probab=12.19  E-value=5.7e+02  Score=14.86  Aligned_cols=23  Identities=30%  Similarity=0.358  Sum_probs=3.5  Template_Neff=11.700
+
+Q ss_pred             cchhhHHHHHHHHHhhccCCCCC
+Q tr|C9J6F9|C9J6   16 PVHLTSWLLIFFILKSISCLKPA   38 (45)
+Q Consensus        16 pvhltswlliffilksisclkpa   38 (45)
+                      .+++..+++.+......+|..|.
+T Consensus        20 ~~~~~~~~~~~~~~~~~~C~~p~   42 (290)
+T 2XRB_A           20 GVHLAVLLLFLSPSTLGQCPAPP   42 (290)
+T ss_dssp             -----------------CBCSCC
+T ss_pred             hHHHHHHHHhcCHhHhcCCCCCC
+Confidence            44543333333333334566653
+
+
+No 10
+>7LEP_D Mix of AMPAR subunits (GluA1; Native hippocampal ion channel, MEMBRANE; HET: XVD, D10, C14, ZK1, D12, OCT, POV; 3.25A {Mus musculus}
+Probab=12.12  E-value=3.5e+02  Score=15.80  Aligned_cols=17  Identities=24%  Similarity=0.692  Sum_probs=11.0  Template_Neff=12.900
+
+Q ss_pred             ecCcchhhHHHHHHHHH
+Q tr|C9J6F9|C9J6   13 VVQPVHLTSWLLIFFIL   29 (45)
+Q Consensus        13 vvqpvhltswlliffil   29 (45)
+                      ...|.....|++++..+
+T Consensus       122 ~~~pf~~~vw~~i~~~~  138 (424)
+T 7LEP_D          122 FLDPLAYEIWMCIVFAY  138 (424)
+T ss_dssp             TTCSBCHHHHHHHHHHH
+T ss_pred             hccCCCHHHHHHHHHHH
+Confidence            35677777787765543
+
+

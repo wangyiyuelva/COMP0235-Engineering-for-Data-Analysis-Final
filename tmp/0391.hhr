@@ -1,0 +1,166 @@
+Query         tr|I3L1T5|I3L1T5_HUMAN
+Match_columns 57
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:33:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0391.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3FQ3_C Inorganic pyrophosphata  25.0      86 0.00093   20.7   1.1   21    1-21      9-29  (197)
+  2 2NZ0_D Kv channel-interacting   15.7 1.7E+02  0.0019   15.7   0.9   21   17-37      3-23  (140)
+  3 6JO6_F Photosystem I P700 chlo  15.5      53 0.00058   24.1  -1.4    8   49-56     97-104 (165)
+  4 6IGZ_F PsaA, PsaB, PsaC, PsaD,  15.3      87 0.00094   24.4  -0.4   13   17-29     30-42  (236)
+  5 7COY_cF Photosystem I P700 chl  15.3      68 0.00073   23.6  -0.9    9   48-56     96-104 (167)
+  6 7BLZ_F Red alga C.merolae Phot  15.0      55  0.0006   23.8  -1.4    9   48-56     87-95  (155)
+  7 7DR1_F Photosystem I, ELECTRON  14.9      63 0.00068   24.1  -1.2    7   49-55    118-124 (186)
+  8 7DR2_cF Photosystem I, ELECTRO  14.9      63 0.00068   24.1  -1.2    9   48-56    117-125 (186)
+  9 3CMI_A Peroxiredoxin HYR1 (E.C  14.8 1.5E+02  0.0017   15.8   0.5    6   51-56      2-7   (171)
+ 10 6QPH_F Chlorophyll a-b binding  14.3      59 0.00064   23.8  -1.4    9   48-56     96-104 (163)
+
+No 1
+>3FQ3_C Inorganic pyrophosphatase:Bacterial/Archaeal inorganic pyrophosphatase (E.C.3.6.1.1); SSGCID, INORGANIC PHOSPHATASE, BRUCELLA MELITENSIS; HET: PO4; 1.9A {Brucella melitensis biovar Abortus 2308}
+Probab=25.04  E-value=86  Score=20.66  Aligned_cols=21  Identities=24%  Similarity=0.050  Sum_probs=4.4  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCCCCCchcccC
+Q tr|I3L1T5|I3L1    1 MGTWCRAPSGAEMEPWWARRA   21 (57)
+Q Consensus         1 mgtwcrapsgaemepwwarra   21 (57)
+                      |||.|++.++..+-+|...-.
+T Consensus         9 ~~~~~~~~~~~~~~~~~d~~~   29 (197)
+T 3FQ3_C            9 MGTLEAQTQGPGSMNIDAISI   29 (197)
+T ss_dssp             --------------CGGGSCS
+T ss_pred             cccccccCCCCCCCCHHHCCC
+Confidence            899999999998888876543
+
+
+No 2
+>2NZ0_D Kv channel-interacting protein 1, Potassium; Kv4.3, KChIP1, MEMBRANE PROTEIN; 3.2A {Homo sapiens}
+Probab=15.72  E-value=1.7e+02  Score=15.68  Aligned_cols=21  Identities=24%  Similarity=0.415  Sum_probs=12.6  Template_Neff=11.500
+
+Q ss_pred             hcccCCCCCCCCCCcCCCCCC
+Q tr|I3L1T5|I3L1   17 WARRARTSSCGSLTPEQSRGP   37 (57)
+Q Consensus        17 warrartsscgsltpeqsrgp   37 (57)
+                      |-+-|.+.+|+-+.++++.-+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~   23 (140)
+T 2NZ0_D            3 WLPFARAAAIGWMPVANCPMP   23 (140)
+T ss_dssp             SHHHHHHTTTTTCSSCSSCCC
+T ss_pred             chhhhchhHhcCCccccCCCC
+Confidence            445566666766666666544
+
+
+No 3
+>6JO6_F Photosystem I P700 chlorophyll a; photosystem membrane protein, PHOTOSYNTHESIS; HET: LUT, SF4, CLA, BCR, DGD, LMG, LHG, CL0, PQN, CHL; 2.9A {Chlamydomonas reinhardtii}
+Probab=15.46  E-value=53  Score=24.14  Aligned_cols=8  Identities=38%  Similarity=1.032  Sum_probs=4.3  Template_Neff=3.800
+
+Q ss_pred             CCCCCCCC
+Q tr|I3L1T5|I3L1   49 IAGWHGWA   56 (57)
+Q Consensus        49 iagwhgwa   56 (57)
+                      ||||-||+
+T Consensus        97 IaGwIGWa  104 (165)
+T 6JO6_F           97 VAGYIGYV  104 (165)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHhhHh
+Confidence            45555553
+
+
+No 4
+>6IGZ_F PsaA, PsaB, PsaC, PsaD, PsaE; PSI-LHCI, PLANT PROTEIN; HET: SF4, HTG, CLA, DGD, LMG, LHG, CHL, PQN, XAT, 8CT;{Bryopsis corticulans}
+Probab=15.34  E-value=87  Score=24.39  Aligned_cols=13  Identities=31%  Similarity=0.447  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             hcccCCCCCCCCC
+Q tr|I3L1T5|I3L1   17 WARRARTSSCGSL   29 (57)
+Q Consensus        17 warrartsscgsl   29 (57)
+                      -++-+|+-+|...
+T Consensus        30 ~~~~~r~~~c~a~   42 (236)
+T 6IGZ_F           30 AVRAVRAVSCSAE   42 (236)
+T ss_dssp             -------------
+T ss_pred             ceeeceeEEecCC
+Confidence            3445566667663
+
+
+No 5
+>7COY_cF Photosystem I P700 chlorophyll a; Photosynthesis, Photosystem I, Acaryochloris marina; HET: G9R, SF4, CL7, PHO, LMG, UNL, LHG, PQN; 2.5A {Acaryochloris marina MBIC11017}
+Probab=15.34  E-value=68  Score=23.57  Aligned_cols=9  Identities=44%  Similarity=0.257  Sum_probs=6.9  Template_Neff=4.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L1T5|I3L1   48 GIAGWHGWA   56 (57)
+Q Consensus        48 giagwhgwa   56 (57)
+                      =|+||-||+
+T Consensus        96 YIAGwIGWa  104 (167)
+T 7COY_cF          96 YIAGGIGNS  104 (167)
+T ss_pred             HHHhhhhhh
+Confidence            478888886
+
+
+No 6
+>7BLZ_F Red alga C.merolae Photosystem I; HET: LMU, T7X, SF4, ERG, PTY, 3PH, CLA, BCR, DGA, DGD, RRX, LHG, PGT, CL0, C7Z, PQN;{Cyanidioschyzon merolae (strain 10D)}
+Probab=15.00  E-value=55  Score=23.80  Aligned_cols=9  Identities=56%  Similarity=1.483  Sum_probs=7.1  Template_Neff=3.900
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L1T5|I3L1   48 GIAGWHGWA   56 (57)
+Q Consensus        48 giagwhgwa   56 (57)
+                      =|+||-||+
+T Consensus        87 YIaGwIGWa   95 (155)
+T 7BLZ_F           87 YITGWIGWV   95 (155)
+T ss_pred             HHHHHHhHh
+Confidence            478888886
+
+
+No 7
+>7DR1_F Photosystem I, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: SF4, CLA, BCR, LMG, LHG, CL0, PQN; 3.2A {Cyanophora paradoxa}
+Probab=14.87  E-value=63  Score=24.09  Aligned_cols=7  Identities=71%  Similarity=1.673  Sum_probs=3.0  Template_Neff=4.000
+
+Q ss_pred             CCCCCCC
+Q tr|I3L1T5|I3L1   49 IAGWHGW   55 (57)
+Q Consensus        49 iagwhgw   55 (57)
+                      |+||-||
+T Consensus       118 IaGwIGW  124 (186)
+T 7DR1_F          118 IAGFIGW  124 (186)
+T ss_dssp             HHHHHHH
+T ss_pred             HHhHhhH
+Confidence            3444444
+
+
+No 8
+>7DR2_cF Photosystem I, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: SF4, CLA, BCR, LMG, LHG, CL0, PQN; 3.8A {Cyanophora paradoxa}
+Probab=14.87  E-value=63  Score=24.09  Aligned_cols=9  Identities=56%  Similarity=1.195  Sum_probs=7.1  Template_Neff=4.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L1T5|I3L1   48 GIAGWHGWA   56 (57)
+Q Consensus        48 giagwhgwa   56 (57)
+                      =|+||-||+
+T Consensus       117 YIaGwIGWa  125 (186)
+T 7DR2_cF         117 YIAGFIGWS  125 (186)
+T ss_pred             HHHhHhhHh
+Confidence            378888886
+
+
+No 9
+>3CMI_A Peroxiredoxin HYR1 (E.C.1.11.1.15); Thioredoxin-like fold, Oxidoreductase, Peroxidase, Redox-active; 2.02A {Saccharomyces cerevisiae}
+Probab=14.78  E-value=1.5e+02  Score=15.78  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCCCC
+Q tr|I3L1T5|I3L1   51 GWHGWA   56 (57)
+Q Consensus        51 gwhgwa   56 (57)
+                      |||+|.
+T Consensus         2 ~~~~~~    7 (171)
+T 3CMI_A            2 GHHHHH    7 (171)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            677774
+
+
+No 10
+>6QPH_F Chlorophyll a-b binding protein, chloroplastic; Photosystem I, Dunaliella, Electron Transport; HET: LMT, LUT, GSH, SF4, CAC, CLA, BCR, DGD, LMG, SQD, LHG, CHL, CL0, XAT, PQN; 3.4A {Dunaliella salina}
+Probab=14.29  E-value=59  Score=23.83  Aligned_cols=9  Identities=33%  Similarity=0.590  Sum_probs=7.1  Template_Neff=3.900
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L1T5|I3L1   48 GIAGWHGWA   56 (57)
+Q Consensus        48 giagwhgwa   56 (57)
+                      =|+||-||+
+T Consensus        96 YIaGwIGWa  104 (163)
+T 6QPH_F           96 YVAGYIGHV  104 (163)
+T ss_pred             HHHHHHhHh
+Confidence            478888886
+
+

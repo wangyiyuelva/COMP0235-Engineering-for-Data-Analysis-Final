@@ -1,0 +1,159 @@
+Query         tr|H7C1T1|H7C1T1_HUMAN
+Match_columns 29
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:40:31 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1583.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2QAG_A Septin-2, Septin-6, Sep  98.6 3.4E-08 3.7E-13   56.3   1.9   28    2-29    334-361 (361)
+  2 1SFR_B Antigen 85-A(E.C.2.3.1.  19.9 2.3E+02  0.0025   15.3   1.9   27    2-28    274-300 (304)
+  3 2B5U_A High resolution crystal  18.8 1.7E+02  0.0019   20.4   1.6   14   15-28      1-14  (551)
+  4 1JCH_C COLICIN E3 (E.C.3.1.21.  18.7 1.7E+02  0.0019   20.4   1.6   14   15-28      1-14  (551)
+  5 7NST_D bacteriocin complex, im  17.5   2E+02  0.0022   18.3   1.6   14   15-28      1-14  (314)
+  6 7V2H_T Respiratory, Complex, E  16.2 1.7E+02  0.0018   16.6   0.9    9   19-27     60-68  (96)
+  7 2JZ8_A Uncharacterized protein  14.7 2.1E+02  0.0022   16.0   1.0    9   19-27     28-36  (87)
+  8 2E9X_D DNA replication complex  13.4   2E+02  0.0022   16.2   0.8    7   17-23      9-15  (223)
+  9 4V4K_S PORTAL PROTEIN, DNA EJE  12.9 2.9E+02  0.0032   16.6   1.4   14    4-17    589-602 (602)
+ 10 7C9A_A DNA repair protein RAD5  12.5 1.2E+02  0.0014   17.2  -0.2    6   11-16      1-6   (339)
+
+No 1
+>2QAG_A Septin-2, Septin-6, Septin-7; Cell cycle, Cell division, GTP-binding; HET: GTP, GDP; 4.0A {Homo sapiens}
+Probab=98.63  E-value=3.4e-08  Score=56.26  Aligned_cols=28  Identities=100%  Similarity=1.461  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CchhhhhHHhhhhcCCCCCCCCCCCCCC
+Q tr|H7C1T1|H7C1    2 EMIARMQAQMQMQMQGGDGDGGALGHHV   29 (29)
+Q Consensus         2 emiarmqaqmqmqmqggdgdggalghhv   29 (29)
+                      ++++++.++|++|++++++|+||+||||
+T Consensus       334 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  361 (361)
+T 2QAG_A          334 EMIARMQAQMQMQMQGGDGDGGALGHHV  361 (361)
+T ss_dssp             ----------------------------
+T ss_pred             HHHHHHHHHHHHHhccCCCCccccccCC
+Confidence            5788999999999999999999999997
+
+
+No 2
+>1SFR_B Antigen 85-A(E.C.2.3.1.-); alpha/beta hydrolase, Structural Genomics, PSI; 2.7A {Mycobacterium tuberculosis} SCOP: c.69.1.3
+Probab=19.87  E-value=2.3e+02  Score=15.27  Aligned_cols=27  Identities=33%  Similarity=0.513  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CchhhhhHHhhhhcCCCCCCCCCCCCC
+Q tr|H7C1T1|H7C1    2 EMIARMQAQMQMQMQGGDGDGGALGHH   28 (29)
+Q Consensus         2 emiarmqaqmqmqmqggdgdggalghh   28 (29)
+                      .++..+...+......+......+|||
+T Consensus       274 ~~~~~l~~~l~~~~~~~~~~~~~~~~~  300 (304)
+T 1SFR_B          274 AMKPDLQRALGATPNTGPAPQGALGHH  300 (304)
+T ss_dssp             HHHHHHHHHHTCCCC------------
+T ss_pred             HHHHHHHHHhCCCCCCCCCCCcccCCC
+
+
+No 3
+>2B5U_A High resolution crystal structure, Colicin; HET: CIT; 2.3A {Escherichia coli} SCOP: h.4.9.1, b.110.1.1, b.101.1.1
+Probab=18.81  E-value=1.7e+02  Score=20.39  Aligned_cols=14  Identities=57%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|H7C1T1|H7C1   15 MQGGDGDGGALGHH   28 (29)
+Q Consensus        15 mqggdgdggalghh   28 (29)
+                      |.||||.+..-|||
+T Consensus         1 ms~g~g~~~~~g~~   14 (551)
+T 2B5U_A            1 MSGGDGRGHNTGAH   14 (551)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCc
+
+
+No 4
+>1JCH_C COLICIN E3 (E.C.3.1.21.-), COLICIN E3; TRANSLOCATION DOMAIN IS A BETA-JELLYROLL; HET: GOL, CIT; 3.02A {Escherichia coli str. K12 substr.} SCOP: h.4.9.1, b.110.1.1, b.101.1.1
+Probab=18.75  E-value=1.7e+02  Score=20.38  Aligned_cols=14  Identities=57%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|H7C1T1|H7C1   15 MQGGDGDGGALGHH   28 (29)
+Q Consensus        15 mqggdgdggalghh   28 (29)
+                      |.||||.+..-|||
+T Consensus         1 ms~g~g~~~~~~~~   14 (551)
+T 1JCH_C            1 MSGGDGRGHNTGAH   14 (551)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCc
+
+
+No 5
+>7NST_D bacteriocin complex, import-stalled, MEMBRANE PROTEIN;{Escherichia coli (strain K12)}
+Probab=17.49  E-value=2e+02  Score=18.35  Aligned_cols=14  Identities=57%  Similarity=1.049  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|H7C1T1|H7C1   15 MQGGDGDGGALGHH   28 (29)
+Q Consensus        15 mqggdgdggalghh   28 (29)
+                      |.+|||.+..-|||
+T Consensus         1 m~~~~g~~~~~~~~   14 (314)
+T 7NST_D            1 MSGGDGRGHNTGAH   14 (314)
+T ss_dssp             --CCTTSSCCSSCC
+T ss_pred             CCCCCCCCCCCCCc
+
+
+No 6
+>7V2H_T Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=16.17  E-value=1.7e+02  Score=16.62  Aligned_cols=9  Identities=89%  Similarity=1.612  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C1T1|H7C1   19 DGDGGALGH   27 (29)
+Q Consensus        19 dgdggalgh   27 (29)
+                      ||.++++||
+T Consensus        60 dG~~~~lgH   68 (96)
+T 7V2H_T           60 DGGGGALGH   68 (96)
+T ss_pred             cCCCccccc
+
+
+No 7
+>2JZ8_A Uncharacterized protein BH09830; zinc binding, STRUCTURAL GENOMICS, UNKNOWN; HET: ZN; NMR {Bartonella henselae str. Houston-1}
+Probab=14.74  E-value=2.1e+02  Score=15.98  Aligned_cols=9  Identities=22%  Similarity=0.361  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|H7C1T1|H7C1   19 DGDGGALGH   27 (29)
+Q Consensus        19 dgdggalgh   27 (29)
+                      +|.++++||
+T Consensus        28 dGg~~~~gH   36 (87)
+T 2JZ8_A           28 VGATQPFDH   36 (87)
+T ss_dssp             CCSSCSSSS
+T ss_pred             CCCCCCCcC
+
+
+No 8
+>2E9X_D DNA replication complex GINS protein; GINS complex, Eukaryotic DNA replication; HET: SO4; 2.3A {Homo sapiens} SCOP: a.278.1.4, d.344.1.3
+Probab=13.43  E-value=2e+02  Score=16.18  Aligned_cols=7  Identities=71%  Similarity=1.360  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCCC
+Q tr|H7C1T1|H7C1   17 GGDGDGG   23 (29)
+Q Consensus        17 ggdgdgg   23 (29)
+                      |.|||||
+T Consensus         9 ~~~~~~~   15 (223)
+T 2E9X_D            9 GQDSDGG   15 (223)
+T ss_dssp             -------
+T ss_pred             ccCCCCC
+
+
+No 9
+>4V4K_S PORTAL PROTEIN, DNA EJECTION, MOLECULAR; HET: MSE; 3.251A {ENTEROBACTERIA PHAGE P22}
+Probab=12.94  E-value=2.9e+02  Score=16.59  Aligned_cols=14  Identities=21%  Similarity=0.157  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             hhhhhHHhhhhcCC
+Q tr|H7C1T1|H7C1    4 IARMQAQMQMQMQG   17 (29)
+Q Consensus         4 iarmqaqmqmqmqg   17 (29)
+                      .+.++.|+|.|.|+
+T Consensus       589 ~~~~~q~~~q~~q~  602 (602)
+T 4V4K_S          589 EQQWLVEAQQAKQG  602 (602)
+T ss_pred             HHHHHHHHHHHhcC
+
+
+No 10
+>7C9A_A DNA repair protein RAD51 homolog; meitotic homologous recombination, DNA repair; HET: ANP; 3.43A {Homo sapiens}
+Probab=12.49  E-value=1.2e+02  Score=17.21  Aligned_cols=6  Identities=83%  Similarity=1.005  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             hhhhcC
+Q tr|H7C1T1|H7C1   11 MQMQMQ   16 (29)
+Q Consensus        11 mqmqmq   16 (29)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (339)
+T 7C9A_A            1 MAMQMQ    6 (339)
+T ss_dssp             ------
+T ss_pred             Cccccc
+
+

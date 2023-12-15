@@ -1,0 +1,520 @@
+Query         tr|H7C3F3|H7C3F3_HUMAN
+Match_columns 55
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:21:00 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0179.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AO8_D Methyl-CpG-binding doma  98.9 1.4E-09 1.6E-14   81.3   1.5   38    1-38     24-61  (715)
+  2 7AOA_A Methyl-CpG-binding doma  98.9 1.4E-09 1.6E-14   81.3   1.5   38    1-38     24-61  (715)
+  3 1M4Z_A ORIGIN RECOGNITION COMP  86.3    0.54 5.9E-06   30.2   0.4   32    1-32     71-103 (238)
+  4 4KUI_A Regulatory protein SIR3  74.5     2.4 2.6E-05   27.2   0.4   32    1-32     67-99  (224)
+  5 4KUD_K Histone H3, Histone H4,  73.9     2.5 2.8E-05   27.1   0.4   32    1-32     67-99  (224)
+  6 1ZBX_A Origin recognition comp  67.9     4.2 4.5E-05   25.6   0.4   32    1-32     68-100 (219)
+  7 5Z8N_C Probable lysine-specifi  55.2     8.9 9.7E-05   21.1   0.2   29    2-30     51-79  (199)
+  8 6SP0_A N-acetyltransferase ESC  49.1      30 0.00032   21.5   1.8    7   24-30    170-176 (226)
+  9 5Z8L_A Probable lysine-specifi  46.8      15 0.00016   21.2   0.2   29    2-30     51-79  (234)
+ 10 5T53_A N-acetyltransferase ESC  43.9      40 0.00044   21.4   1.9    7   24-30    181-187 (227)
+ 11 3WXF_A Uncharacterized protein  42.9      29 0.00031   22.3   1.1    7   21-27    301-307 (312)
+ 12 4MXE_A N-acetyltransferase ESC  39.4      48 0.00052   22.1   1.8    8   23-30    148-155 (206)
+ 13 4DOV_A Origin recognition comp  38.1      28 0.00031   19.6   0.5   30    2-31     58-90  (163)
+ 14 5N1U_A MGC115718 protein; CELL  37.8      58 0.00063   20.5   1.9    6   25-30    128-133 (183)
+ 15 5N1W_B XEco2, ILE-GLY-ALA-LYX-  37.8      58 0.00063   20.5   1.9    6   25-30    128-133 (183)
+ 16 6VIL_B BAH and coiled-coil dom  37.6      22 0.00024   19.3   0.0   29    2-30     56-84  (160)
+ 17 6VIL_D BAH and coiled-coil dom  37.6      22 0.00024   19.3   0.0   29    2-30     56-84  (160)
+ 18 7CCE_A Bromo-adjacent homology  34.5      27  0.0003   19.6   0.1   29    1-29     40-68  (169)
+ 19 7CTG_A Origin recognition comp  33.2      41 0.00045   26.4   0.8   35    1-35     65-102 (861)
+ 20 4JJN_L Histone H3, Histone H4,  33.1      24 0.00026   26.1  -0.3   32    1-32     68-100 (382)
+ 21 3WXE_A Uncharacterized protein  33.0      52 0.00056   21.1   1.1    7   21-27    301-307 (312)
+ 22 6X9I_A EPIGENETICS, DNA METHYL  30.9      48 0.00052   25.2   0.8   30    1-30    267-303 (874)
+ 23 6X9J_A EPIGENETICS, DNA METHYL  30.9      48 0.00052   25.2   0.8   30    1-30    267-303 (874)
+ 24 1W4S_A POLYBROMO 1 PROTEIN; PO  28.8      41 0.00045   19.1   0.2   30    1-30     46-75  (174)
+ 25 6OXB_A Protein polybromo-1; SW  26.6      41 0.00044   18.9  -0.1   29    2-30     47-75  (177)
+ 26 6OXB_B Protein polybromo-1; SW  26.6      41 0.00044   18.9  -0.1   29    2-30     47-75  (177)
+ 27 7LMK_A DNA (cytosine-5)-methyl  23.0      94   0.001   17.7   0.9   28    2-29     51-78  (158)
+ 28 7LMK_C DNA (cytosine-5)-methyl  23.0      94   0.001   17.7   0.9   28    2-29     51-78  (158)
+ 29 4FT4_B DNA (cytosine-5)-methyl  22.8      54 0.00059   24.8  -0.1   30    1-30     76-105 (784)
+ 30 5ZNP_A SHORT LIFE family prote  20.5      61 0.00067   18.8  -0.2   29    2-30     44-73  (216)
+ 31 5ZNP_B SHORT LIFE family prote  20.5      61 0.00067   18.8  -0.2   29    2-30     44-73  (216)
+ 32 5ZNR_A SHORT LIFE family prote  20.5      61 0.00067   18.8  -0.2   30    1-30     43-73  (216)
+
+No 1
+>7AO8_D Methyl-CpG-binding domain protein 2, Metastasis-associated; Deacetylase, Complex, TRANSCRIPTION; HET: IHP; 4.5A {Homo sapiens}
+Probab=98.87  E-value=1.4e-09  Score=81.34  Aligned_cols=38  Identities=97%  Similarity=1.321  Sum_probs=31.9  Template_Neff=7.800
+
+Q ss_pred             CCChhhhhccCCCCceeEEEEEEeccchhHHHHHHhhh
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANGNVEAKVVCFYRRRDISSTLIALADK   38 (55)
+Q Consensus         1 ~rrieelnktangnveakvvcfyrrrdisstlialadk   38 (55)
+                      |++|..+++..+++++++|+||+|+.|++..+....++
+T Consensus        24 I~rI~~l~k~~~g~v~~~V~~fyR~~dip~~l~~~~~~   61 (715)
+T 7AO8_D           24 IRRIEELNKTANGNVEAKVVCFYRRRDISSTLIALADK   61 (715)
+T ss_pred             EEEeeEEeecCCCCEEEEEEEEEeHHHcCHHHHHHHHH
+Confidence            67899999888888999999999999999776655443
+
+
+No 2
+>7AOA_A Methyl-CpG-binding domain protein 2, Metastasis-associated; Deacetylase, Complex, TRANSCRIPTION; HET: IHP; 19.4A {Homo sapiens}
+Probab=98.87  E-value=1.4e-09  Score=81.34  Aligned_cols=38  Identities=97%  Similarity=1.321  Sum_probs=31.9  Template_Neff=7.800
+
+Q ss_pred             CCChhhhhccCCCCceeEEEEEEeccchhHHHHHHhhh
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANGNVEAKVVCFYRRRDISSTLIALADK   38 (55)
+Q Consensus         1 ~rrieelnktangnveakvvcfyrrrdisstlialadk   38 (55)
+                      |++|..+++..+++++++|+||+|+.|++..+....++
+T Consensus        24 I~rI~~l~k~~~g~v~~~V~~fyR~~dip~~l~~~~~~   61 (715)
+T 7AOA_A           24 IRRIEELNKTANGNVEAKVVCFYRRRDISSTLIALADK   61 (715)
+T ss_pred             EEEeeEEeecCCCCEEEEEEEEEeHHHcCHHHHHHHHH
+Confidence            67899999888888999999999999999776655443
+
+
+No 3
+>1M4Z_A ORIGIN RECOGNITION COMPLEX SUBUNIT 1; DNA replication, transcriptional silencing, chromatin; 2.2A {Saccharomyces cerevisiae} SCOP: b.34.12.1
+Probab=86.34  E-value=0.54  Score=30.17  Aligned_cols=32  Identities=22%  Similarity=0.256  Sum_probs=25.3  Template_Neff=9.200
+
+Q ss_pred             CCChhhhhccC-CCCceeEEEEEEeccchhHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-NGNVEAKVVCFYRRRDISSTL   32 (55)
+Q Consensus         1 ~rrieelnkta-ngnveakvvcfyrrrdisstl   32 (55)
+                      |++|..++... ++.+++.++||+|+.+++...
+T Consensus        71 i~~I~~i~~~~~~~~~~~~v~wf~r~~e~~~~~  103 (238)
+T 1M4Z_A           71 VYMIQELRLNTLNNVVELWALTYLRWFEVNPLA  103 (238)
+T ss_dssp             EEEEEEEEEETTTTEEEEEEEEEECGGGSCHHH
+T ss_pred             EEEEEEEEeCCCCCeEEEEEEEeeeHHHcCHHH
+Confidence            35677777666 667899999999999987654
+
+
+No 4
+>4KUI_A Regulatory protein SIR3; BAH domain, silencing, nucleus, TRANSCRIPTION; 1.85A {Saccharomyces cerevisiae}
+Probab=74.49  E-value=2.4  Score=27.19  Aligned_cols=32  Identities=25%  Similarity=0.309  Sum_probs=25.2  Template_Neff=9.100
+
+Q ss_pred             CCChhhhhccC-CCCceeEEEEEEeccchhHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-NGNVEAKVVCFYRRRDISSTL   32 (55)
+Q Consensus         1 ~rrieelnkta-ngnveakvvcfyrrrdisstl   32 (55)
+                      |++|..++... ++.+.+.++||+++.+++...
+T Consensus        67 i~~I~~i~~~~~~~~~~~~v~~~~r~~d~~~~~   99 (224)
+T 4KUI_A           67 VYLIHEIRLNTLNNVVEIWVFSYLRWFELKPKL   99 (224)
+T ss_dssp             EEEEEEEEESCSSCSEEEEEEEEECGGGSCHHH
+T ss_pred             EEEEEEEEEcCCCCeEEEEEEEeeeHHHcCHHH
+Confidence            35677777666 667899999999999998654
+
+
+No 5
+>4KUD_K Histone H3, Histone H4, Histone; PROTEPROTEIN-DNA COMPLEX, nucleosome, BAH domain; HET: AYA; 3.203A {Saccharomyces cerevisiae}
+Probab=73.91  E-value=2.5  Score=27.06  Aligned_cols=32  Identities=25%  Similarity=0.309  Sum_probs=25.6  Template_Neff=9.100
+
+Q ss_pred             CCChhhhhccC-CCCceeEEEEEEeccchhHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-NGNVEAKVVCFYRRRDISSTL   32 (55)
+Q Consensus         1 ~rrieelnkta-ngnveakvvcfyrrrdisstl   32 (55)
+                      |++|..++... ++.+.+.++||+|+.+++...
+T Consensus        67 i~~I~~i~~~~~~~~~~~~v~wf~r~~di~~~~   99 (224)
+T 4KUD_K           67 VYLIHEIRLNTLNNVVEIWVFSYLRWFELKPKL   99 (224)
+T ss_dssp             EEEEEEEEESCSSCSEEEEEEEEECGGGSCHHH
+T ss_pred             EEEEEEEEecCCCCeEEEEEEEeeeHHHcCHHH
+Confidence            35677777766 677899999999999998654
+
+
+No 6
+>1ZBX_A Origin recognition complex subunit 1; protein-protein interaction, epigenetics, silencing, silent; 2.5A {Saccharomyces cerevisiae} SCOP: b.34.12.1
+Probab=67.90  E-value=4.2  Score=25.59  Aligned_cols=32  Identities=22%  Similarity=0.256  Sum_probs=25.5  Template_Neff=9.500
+
+Q ss_pred             CCChhhhhccC-CCCceeEEEEEEeccchhHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-NGNVEAKVVCFYRRRDISSTL   32 (55)
+Q Consensus         1 ~rrieelnkta-ngnveakvvcfyrrrdisstl   32 (55)
+                      |++|..++... ++.+.+.++||+|+.+++...
+T Consensus        68 i~~I~~i~~~~~~~~~~~~v~w~~r~~e~~~~~  100 (219)
+T 1ZBX_A           68 VYMIQELRLNTLNNVVELWALTYLRWFEVNPLA  100 (219)
+T ss_dssp             EEEEEEEEECSSSCCEEEEEEEEECGGGSCHHH
+T ss_pred             EEEEEEEEeCCCCCeEEEEEEEeeeHHHcCHHH
+Confidence            35677777766 677899999999999998654
+
+
+No 7
+>5Z8N_C Probable lysine-specific demethylase JMJ14 (E.C.1.14.11.-); EBS, BAH, PHD, H3K4me2, histone; HET: MLY; 3.1A {Arabidopsis thaliana}
+Probab=55.22  E-value=8.9  Score=21.08  Aligned_cols=29  Identities=24%  Similarity=0.470  Sum_probs=22.3  Template_Neff=12.100
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++........+.++||+++.+++.
+T Consensus        51 ~~i~~~~~~~~~~~~~~v~w~~~~~~~~~   79 (199)
+T 5Z8N_C           51 ARVEKIEADARNNVKVHCRWYYRPEESLG   79 (199)
+T ss_dssp             EEEEEEEECTTCCEEEEEEEEECTTTSSS
+T ss_pred             EEEEEEEECCCCcEEEEEEEEeCHHHhcC
+Confidence            45666666666678999999999999864
+
+
+No 8
+>6SP0_A N-acetyltransferase ESCO2 (E.C.2.3.1.-); Acetyltransferase, Zinc finger, Coenzyme A; HET: COA; 1.77A {Mus musculus}
+Probab=49.06  E-value=30  Score=21.54  Aligned_cols=7  Identities=43%  Similarity=0.795  Sum_probs=2.8  Template_Neff=10.000
+
+Q ss_pred             eccchhH
+Q tr|H7C3F3|H7C3   24 RRRDISS   30 (55)
+Q Consensus        24 rrrdiss   30 (55)
+                      |...+..
+T Consensus       170 Rr~Gia~  176 (226)
+T 6SP0_A          170 RRKRIAR  176 (226)
+T ss_dssp             CSSSHHH
+T ss_pred             CCCCHHH
+Confidence            3344443
+
+
+No 9
+>5Z8L_A Probable lysine-specific demethylase JMJ14 (E.C.1.14.11.-); EBS, BAH, PHD, H3K27me3, histone; HET: M3L; 2.005A {Arabidopsis thaliana}
+Probab=46.78  E-value=15  Score=21.23  Aligned_cols=29  Identities=24%  Similarity=0.470  Sum_probs=20.7  Template_Neff=11.700
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++........+.++||++++++..
+T Consensus        51 ~~i~~i~~~~~~~~~~~v~w~~~~~~~~~   79 (234)
+T 5Z8L_A           51 ARVEKIEADARNNVKVHCRWYYRPEESLG   79 (234)
+T ss_dssp             EEEEEEEECC--CEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEECCCCCEEEEEEEEECHHHhcC
+Confidence            45666666556677999999999998753
+
+
+No 10
+>5T53_A N-acetyltransferase ESCO1 (E.C.2.3.1.-); Acetyltransferase, Cohesin, ESCO1, SMC3, TRANSFERASE; HET: ACO; 2.699A {Homo sapiens}
+Probab=43.88  E-value=40  Score=21.43  Aligned_cols=7  Identities=57%  Similarity=0.947  Sum_probs=2.7  Template_Neff=9.500
+
+Q ss_pred             eccchhH
+Q tr|H7C3F3|H7C3   24 RRRDISS   30 (55)
+Q Consensus        24 rrrdiss   30 (55)
+                      |...+..
+T Consensus       181 Rr~Gia~  187 (227)
+T 5T53_A          181 RRKKIAS  187 (227)
+T ss_dssp             TTSSHHH
+T ss_pred             CCCCHHH
+Confidence            3334433
+
+
+No 11
+>3WXF_A Uncharacterized protein, Ubiquitin; ubiquitin protease, HYDROLASE-PROTEIN BINDING complex; HET: SO4; 2.3A {Danio rerio}
+Probab=42.94  E-value=29  Score=22.30  Aligned_cols=7  Identities=29%  Similarity=1.013  Sum_probs=3.1  Template_Neff=10.400
+
+Q ss_pred             EEEeccc
+Q tr|H7C3F3|H7C3   21 CFYRRRD   27 (55)
+Q Consensus        21 cfyrrrd   27 (55)
+                      +||+..+
+T Consensus       301 l~Y~~~~  307 (312)
+T 3WXF_A          301 CMYQSPT  307 (312)
+T ss_dssp             EEEESSC
+T ss_pred             EEEeCCC
+Confidence            4444444
+
+
+No 12
+>4MXE_A N-acetyltransferase ESCO1 (E.C.2.3.1.-); Structural Genomics, Structural Genomics Consortium; HET: ACO; 2.6A {Homo sapiens}
+Probab=39.39  E-value=48  Score=22.15  Aligned_cols=8  Identities=50%  Similarity=0.821  Sum_probs=3.4  Template_Neff=7.900
+
+Q ss_pred             EeccchhH
+Q tr|H7C3F3|H7C3   23 YRRRDISS   30 (55)
+Q Consensus        23 yrrrdiss   30 (55)
+                      +|...+..
+T Consensus       148 ~RR~GiAt  155 (206)
+T 4MXE_A          148 MRRKKIAS  155 (206)
+T ss_dssp             GCSSSHHH
+T ss_pred             HcCCCHHH
+Confidence            34444443
+
+
+No 13
+>4DOV_A Origin recognition complex subunit 1; DNA replication, REPLICATION; HET: MSE; 1.696A {Mus musculus}
+Probab=38.07  E-value=28  Score=19.64  Aligned_cols=30  Identities=23%  Similarity=0.257  Sum_probs=21.9  Template_Neff=10.900
+
+Q ss_pred             CChhhhhccCCC---CceeEEEEEEeccchhHH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANG---NVEAKVVCFYRRRDISST   31 (55)
+Q Consensus         2 rrieelnktang---nveakvvcfyrrrdisst   31 (55)
+                      ++|..++.....   ..+++++||+++.+++..
+T Consensus        58 ~~i~~~~~~~~~~~~~~~~~v~w~~~~~~~~~~   90 (163)
+T 4DOV_A           58 AKLIELFQNGAEVPPKKCARVQWFVRFLEIPVS   90 (163)
+T ss_dssp             EEEEEEEEETTSSSCEEEEEEEEEEEGGGSCTT
+T ss_pred             EEEEEeeeCCCCCCCCeEEEEEEEeeHHHCChh
+Confidence            445566655444   678999999999998653
+
+
+No 14
+>5N1U_A MGC115718 protein; CELL CYCLE; HET: COA; 2.976A {Xenopus laevis}
+Probab=37.83  E-value=58  Score=20.46  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=2.3  Template_Neff=9.000
+
+Q ss_pred             ccchhH
+Q tr|H7C3F3|H7C3   25 RRDISS   30 (55)
+Q Consensus        25 rrdiss   30 (55)
+                      ...+..
+T Consensus       128 r~Gia~  133 (183)
+T 5N1U_A          128 RKAIAS  133 (183)
+T ss_dssp             SSSHHH
+T ss_pred             cCCHHH
+Confidence            333433
+
+
+No 15
+>5N1W_B XEco2, ILE-GLY-ALA-LYX-LYS-ALA,ILE-GLY-ALA-LYX-LYS-ALA,ILE-GLY-ALA-LYX-LYS-ALA,ILE-GLY-ALA-LYX-LYS-ALA; CELL CYCLE; HET: 8HB; 2.3A {Xenopus laevis}
+Probab=37.83  E-value=58  Score=20.46  Aligned_cols=6  Identities=50%  Similarity=0.800  Sum_probs=2.3  Template_Neff=9.000
+
+Q ss_pred             ccchhH
+Q tr|H7C3F3|H7C3   25 RRDISS   30 (55)
+Q Consensus        25 rrdiss   30 (55)
+                      ...+..
+T Consensus       128 r~Gia~  133 (183)
+T 5N1W_B          128 RKAIAS  133 (183)
+T ss_dssp             SSSHHH
+T ss_pred             cCCHHH
+Confidence            333433
+
+
+No 16
+>6VIL_B BAH and coiled-coil domain-containing protein; Structural protein; HET: M3L; 3.301A {Mus musculus}
+Probab=37.64  E-value=22  Score=19.32  Aligned_cols=29  Identities=31%  Similarity=0.395  Sum_probs=22.2  Template_Neff=11.600
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++...++...+.++||+++.+++.
+T Consensus        56 ~~i~~~~~~~~~~~~~~v~~~~~~~~~~~   84 (160)
+T 6VIL_B           56 GRIESLWESWGSNMVVKVKWFYHPEETKL   84 (160)
+T ss_dssp             EEEEEEEECTTSCEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEeecCCCCEEEEEEEEeCHHHccC
+Confidence            45666666666678999999999998763
+
+
+No 17
+>6VIL_D BAH and coiled-coil domain-containing protein; Structural protein; HET: M3L; 3.301A {Mus musculus}
+Probab=37.64  E-value=22  Score=19.32  Aligned_cols=29  Identities=31%  Similarity=0.395  Sum_probs=21.9  Template_Neff=11.600
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++...++...+.++||+++.+++.
+T Consensus        56 ~~i~~~~~~~~~~~~~~v~~~~~~~~~~~   84 (160)
+T 6VIL_D           56 GRIESLWESWGSNMVVKVKWFYHPEETKL   84 (160)
+T ss_dssp             EEEEEEEEETTTEEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEeecCCCCEEEEEEEEeCHHHccC
+Confidence            45566665556678999999999998763
+
+
+No 18
+>7CCE_A Bromo-adjacent homology (BAH) domain-containing protein; BAH domain, AIPP3, H3K27me3, histone; HET: M3L; 2.404A {Arabidopsis thaliana}
+Probab=34.48  E-value=27  Score=19.63  Aligned_cols=29  Identities=21%  Similarity=0.386  Sum_probs=23.0  Template_Neff=11.100
+
+Q ss_pred             CCChhhhhccCCCCceeEEEEEEeccchh
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANGNVEAKVVCFYRRRDIS   29 (55)
+Q Consensus         1 ~rrieelnktangnveakvvcfyrrrdis   29 (55)
+                      |++|..++....+...+.++||+++.+++
+T Consensus        40 i~~I~~~~~~~~~~~~~~v~w~~~~~~~~   68 (169)
+T 7CCE_A           40 VAIIKDITQTKDGSMMILGQWFYRPEEAE   68 (169)
+T ss_dssp             EEEEEEEEECTTSCEEEEEEEEECTTTSB
+T ss_pred             EEEEEEEEEcCCCCEEEEEEEEECHHHHc
+Confidence            35667777666667899999999999986
+
+
+No 19
+>7CTG_A Origin recognition complex subunit 1; DNA replication initiation, Origin Recognition; HET: ATP;{Homo sapiens}
+Probab=33.23  E-value=41  Score=26.43  Aligned_cols=35  Identities=20%  Similarity=0.237  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCChhhhhccCCC---CceeEEEEEEeccchhHHHHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANG---NVEAKVVCFYRRRDISSTLIAL   35 (55)
+Q Consensus         1 ~rrieelnktang---nveakvvcfyrrrdisstlial   35 (55)
+                      |++|..++.+..+   ..+++|+||+|++|++......
+T Consensus        65 va~I~~l~~~~~~~~~~~~~~v~Wf~r~~ei~~~~~~~  102 (861)
+T 7CTG_A           65 VAKLLELFEDDSDPPPKKRARVQWFVRFCEVPACKRHL  102 (861)
+T ss_dssp             --------------------------------------
+T ss_pred             EEEEEEeeeCCCCCCCceEEEEEEeEcHHHCCHhHHHh
+Confidence            6788999987655   6799999999999987655433
+
+
+No 20
+>4JJN_L Histone H3, Histone H4, Histone; BAH domain, silencing, DNA BINDING; 3.09A {Saccharomyces cerevisiae}
+Probab=33.06  E-value=24  Score=26.10  Aligned_cols=32  Identities=25%  Similarity=0.309  Sum_probs=25.8  Template_Neff=7.400
+
+Q ss_pred             CCChhhhhccC-CCCceeEEEEEEeccchhHHH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-NGNVEAKVVCFYRRRDISSTL   32 (55)
+Q Consensus         1 ~rrieelnkta-ngnveakvvcfyrrrdisstl   32 (55)
+                      |++|..++... ++.+++.++||+|+.+++...
+T Consensus        68 V~~I~eI~~~~~~~~v~i~v~wy~R~~El~~~~  100 (382)
+T 4JJN_L           68 VYLIHEIRLNTLNNVVEIWVFSYLRWFELKPKL  100 (382)
+T ss_dssp             EEEEEEEEESCSSSSEEEEEEEEECGGGSCHHH
+T ss_pred             EEEEEEEEEcCCCCeEEEEEEEeECHHHcChHH
+Confidence            45677787766 667899999999999998654
+
+
+No 21
+>3WXE_A Uncharacterized protein, Ubiquitin; ubiquitin protease, HYDROLASE-PROTEIN BINDING complex; 2.5A {Danio rerio}
+Probab=32.96  E-value=52  Score=21.09  Aligned_cols=7  Identities=29%  Similarity=1.013  Sum_probs=3.0  Template_Neff=10.500
+
+Q ss_pred             EEEeccc
+Q tr|H7C3F3|H7C3   21 CFYRRRD   27 (55)
+Q Consensus        21 cfyrrrd   27 (55)
+                      +||+..+
+T Consensus       301 l~Y~~~~  307 (312)
+T 3WXE_A          301 CMYQSPT  307 (312)
+T ss_dssp             EEEECSC
+T ss_pred             EEEeCCC
+Confidence            4444443
+
+
+No 22
+>6X9I_A EPIGENETICS, DNA METHYLTRANSFERASE FOLD, MAINTENANCE; HET: 5CM, SAH, PYO, EDO; 2.2A {Homo sapiens}
+Probab=30.94  E-value=48  Score=25.17  Aligned_cols=30  Identities=23%  Similarity=0.403  Sum_probs=21.9  Template_Neff=10.000
+
+Q ss_pred             CCChhhhhccC-------CCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-------NGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         1 ~rrieelnkta-------ngnveakvvcfyrrrdiss   30 (55)
+                      |++|..++...       .+...+.|+||+|+++++.
+T Consensus       267 i~~i~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~  303 (874)
+T 6X9I_A          267 IGRIKEIFCPKKSNGRPNETDIKIRVNKFYRPENTHK  303 (874)
+T ss_dssp             EEEEEEEEEEBCSSSSBCTTSCEEEEEECBCGGGSSS
+T ss_pred             EEEEEEEeCCCcCCCCCCCCccEEEEEEEeCccccCC
+Confidence            34556666543       4578999999999999864
+
+
+No 23
+>6X9J_A EPIGENETICS, DNA METHYLTRANSFERASE FOLD, MAINTENANCE; HET: 5CM, PYO, EDO, X52; 1.79A {Homo sapiens}
+Probab=30.94  E-value=48  Score=25.17  Aligned_cols=30  Identities=23%  Similarity=0.403  Sum_probs=21.9  Template_Neff=10.000
+
+Q ss_pred             CCChhhhhccC-------CCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTA-------NGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         1 ~rrieelnkta-------ngnveakvvcfyrrrdiss   30 (55)
+                      |++|..++...       .+...+.|+||+|+++++.
+T Consensus       267 i~~i~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~  303 (874)
+T 6X9J_A          267 IGRIKEIFCPKKSNGRPNETDIKIRVNKFYRPENTHK  303 (874)
+T ss_dssp             EEEEEEEEEEBCTTSCBCTTSCEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEeCCCcCCCCCCCCccEEEEEEEeCccccCC
+Confidence            34555666543       4578999999999999864
+
+
+No 24
+>1W4S_A POLYBROMO 1 PROTEIN; POLYBROMO, BAH, BROMO-ASSOCIATED HOMOLOGY DOMAIN; 1.55A {GALLUS GALLUS}
+Probab=28.76  E-value=41  Score=19.11  Aligned_cols=30  Identities=23%  Similarity=0.203  Sum_probs=22.6  Template_Neff=11.000
+
+Q ss_pred             CCChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         1 ~rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      |++|..++...++..++.++||+|+.++..
+T Consensus        46 i~~I~~~~~~~~~~~~~~v~~~~r~~~~~~   75 (174)
+T 1W4S_A           46 IVCIERLWEDSAGEKWLYGCWFYRPNETFH   75 (174)
+T ss_dssp             EEEEEEEEECTTCCEEEEEEEEECGGGSCC
+T ss_pred             EEEEEEEEECCCCCEEEEEEEEECHHHccc
+Confidence            345666666656678999999999998753
+
+
+No 25
+>6OXB_A Protein polybromo-1; SWI/SNF chromatin remodeler, PBAF, bromodomain; HET: SO4; 1.86A {Homo sapiens}
+Probab=26.57  E-value=41  Score=18.90  Aligned_cols=29  Identities=24%  Similarity=0.210  Sum_probs=22.4  Template_Neff=11.300
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++....+..++.++||+|+.+++.
+T Consensus        47 ~~i~~~~~~~~~~~~~~v~~~~r~~~~~~   75 (177)
+T 6OXB_A           47 VCIERLWEDSAGEKWLYGCWFYRPNETFH   75 (177)
+T ss_dssp             EECCEEEEETTSCEEEEEEEEECGGGSCC
+T ss_pred             EEEEEEEECCCCCEEEEEEEEECHHHccc
+Confidence            45666666666678999999999999753
+
+
+No 26
+>6OXB_B Protein polybromo-1; SWI/SNF chromatin remodeler, PBAF, bromodomain; HET: SO4; 1.86A {Homo sapiens}
+Probab=26.57  E-value=41  Score=18.90  Aligned_cols=29  Identities=24%  Similarity=0.210  Sum_probs=22.3  Template_Neff=11.300
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      ++|..++....+..++.++||+|+.+++.
+T Consensus        47 ~~i~~~~~~~~~~~~~~v~~~~r~~~~~~   75 (177)
+T 6OXB_B           47 VCIERLWEDSAGEKWLYGCWFYRPNETFH   75 (177)
+T ss_dssp             EEEEEEEEETTSCEEEEEEEEECGGGSCC
+T ss_pred             EEEEEEEECCCCCEEEEEEEEECHHHccc
+Confidence            45666666656678999999999999753
+
+
+No 27
+>7LMK_A DNA (cytosine-5)-methyltransferase 1 (E.C.2.1.1.37), Histone; DNA methylation, DNA methyltransferase 1; HET: M3L; 2.647A {Bos taurus}
+Probab=22.98  E-value=94  Score=17.74  Aligned_cols=28  Identities=14%  Similarity=0.135  Sum_probs=21.2  Template_Neff=10.600
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchh
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDIS   29 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdis   29 (55)
+                      ++|..++....+..++.++||+++++..
+T Consensus        51 ~~I~~~~~~~~~~~~~~v~w~~~~~~~~   78 (158)
+T 7LMK_A           51 ARVTALWEDSSNGQMFHAHWFCAGTDTV   78 (158)
+T ss_dssp             EEEEEEEEETTTEEEEEEEEEECGGGST
+T ss_pred             EEEEEeEEcCCCcEEEEEEEEEcccccc
+Confidence            4566666665667899999999998853
+
+
+No 28
+>7LMK_C DNA (cytosine-5)-methyltransferase 1 (E.C.2.1.1.37), Histone; DNA methylation, DNA methyltransferase 1; HET: M3L; 2.647A {Bos taurus}
+Probab=22.98  E-value=94  Score=17.74  Aligned_cols=28  Identities=14%  Similarity=0.135  Sum_probs=21.2  Template_Neff=10.600
+
+Q ss_pred             CChhhhhccCCCCceeEEEEEEeccchh
+Q tr|H7C3F3|H7C3    2 RRIEELNKTANGNVEAKVVCFYRRRDIS   29 (55)
+Q Consensus         2 rrieelnktangnveakvvcfyrrrdis   29 (55)
+                      ++|..++....+..++.++||+++++..
+T Consensus        51 ~~I~~~~~~~~~~~~~~v~w~~~~~~~~   78 (158)
+T 7LMK_C           51 ARVTALWEDSSNGQMFHAHWFCAGTDTV   78 (158)
+T ss_dssp             EEEEEEEEETTTEEEEEEEEEECGGGST
+T ss_pred             EEEEEeEEcCCCcEEEEEEEEEcccccc
+Confidence            4566666665667899999999998853
+
+
+No 29
+>4FT4_B DNA (cytosine-5)-methyltransferase 1 (E.C.2.1.1.37), H3(1-32)K9me2; chromodomain, BAH domain, DNA methyltransferase; HET: SAH, MLY; 2.7A {Zea mays}
+Probab=22.85  E-value=54  Score=24.80  Aligned_cols=30  Identities=20%  Similarity=0.204  Sum_probs=24.1  Template_Neff=9.700
+
+Q ss_pred             CCChhhhhccCCCCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTANGNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         1 ~rrieelnktangnveakvvcfyrrrdiss   30 (55)
+                      |++|..++....+.+++.|+||+|+++++.
+T Consensus        76 i~~I~~l~~~~~~~~~~~v~w~~r~~e~~~  105 (784)
+T 4FT4_B           76 IGRITEFFEGTDQCHYFTCRWFFRAEDTVI  105 (784)
+T ss_dssp             EEEEEEEEEETTSCEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEEECCCCcEEEEEEEEecHHHccc
+Confidence            456777777666778999999999999864
+
+
+No 30
+>5ZNP_A SHORT LIFE family protein, 15-mer; BAH, PHD, SHL, plant, H3K4me3; HET: M3L; 2.8A {Populus trichocarpa}
+Probab=20.51  E-value=61  Score=18.85  Aligned_cols=29  Identities=24%  Similarity=0.466  Sum_probs=21.2  Template_Neff=11.300
+
+Q ss_pred             CChhhhhccCC-CCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTAN-GNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktan-gnveakvvcfyrrrdiss   30 (55)
+                      ++|..++.... ..+.+.++||+++.+++.
+T Consensus        44 ~~I~~i~~~~~~~~~~~~v~w~~~~~~~~~   73 (216)
+T 5ZNP_A           44 AKIERIESDGRGPNVRVRVRWYYRPEESIG   73 (216)
+T ss_dssp             EEEEEEEEETTTTEEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEeCCCCCeeEEEEEEeeCHHHhcC
+Confidence            45666665433 457899999999999864
+
+
+No 31
+>5ZNP_B SHORT LIFE family protein, 15-mer; BAH, PHD, SHL, plant, H3K4me3; HET: M3L; 2.8A {Populus trichocarpa}
+Probab=20.51  E-value=61  Score=18.85  Aligned_cols=29  Identities=24%  Similarity=0.466  Sum_probs=21.2  Template_Neff=11.300
+
+Q ss_pred             CChhhhhccCC-CCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    2 RRIEELNKTAN-GNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         2 rrieelnktan-gnveakvvcfyrrrdiss   30 (55)
+                      ++|..++.... ..+.+.++||+++.+++.
+T Consensus        44 ~~I~~i~~~~~~~~~~~~v~w~~~~~~~~~   73 (216)
+T 5ZNP_B           44 AKIERIESDGRGPNVRVRVRWYYRPEESIG   73 (216)
+T ss_dssp             EEEEEEEEETTTTEEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEeCCCCCeeEEEEEEeeCHHHhcC
+Confidence            45666665433 457899999999999864
+
+
+No 32
+>5ZNR_A SHORT LIFE family protein, 17-mer; BAH, PHD, SHL, plant, H3K27me3; HET: M3L, SO4; 3.202A {Populus trichocarpa}
+Probab=20.51  E-value=61  Score=18.85  Aligned_cols=30  Identities=23%  Similarity=0.451  Sum_probs=21.8  Template_Neff=11.300
+
+Q ss_pred             CCChhhhhccCC-CCceeEEEEEEeccchhH
+Q tr|H7C3F3|H7C3    1 XRRIEELNKTAN-GNVEAKVVCFYRRRDISS   30 (55)
+Q Consensus         1 ~rrieelnktan-gnveakvvcfyrrrdiss   30 (55)
+                      +++|..++.... ..+.+.++||+++.+++.
+T Consensus        43 ~~~I~~i~~~~~~~~~~~~v~w~~~~~~~~~   73 (216)
+T 5ZNR_A           43 VAKIERIESDGRGPNVRVRVRWYYRPEESIG   73 (216)
+T ss_dssp             EEEEEEEEESSSSSCEEEEEEEEECGGGSSS
+T ss_pred             EEEEEEEEeCCCCCeeEEEEEEeeCHHHhcC
+Confidence            345666665443 467899999999999864
+
+

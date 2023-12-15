@@ -1,0 +1,169 @@
+Query         tr|A0A0U1RQT6|A0A0U1RQT6_HUMAN
+Match_columns 173
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:47:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0961.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3VZ9_B Uncharacterized protein  59.7      23 0.00025   25.0   2.8   23   17-39      2-24  (106)
+  2 4RRI_A Probable threonine--tRN  32.7      51 0.00056   25.7   1.3   29   18-46     81-115 (136)
+  3 6N2M_B Caspase recruitment dom  26.7 2.1E+02  0.0023   19.0   3.2   17   22-38    123-139 (142)
+  4 3VN0_B Voltage-gated hydrogen   25.9 1.2E+02  0.0013   19.4   1.9   24   19-42      3-26  (51)
+  5 3VMX_B Voltage-gated hydrogen   24.8 1.3E+02  0.0014   19.1   1.9   24   19-42      3-26  (48)
+  6 3FVW_A Q8DWD8_STRMU, putative   24.5 3.8E+02  0.0041   19.0   4.3   25   15-39    161-185 (192)
+  7 3FVW_B Q8DWD8_STRMU, putative   24.5 3.8E+02  0.0041   19.0   4.3   25   15-39    161-185 (192)
+  8 4RR9_A Probable threonine--tRN  21.9 1.1E+02  0.0012   24.0   1.4    7   40-46    109-115 (136)
+  9 4RRD_A Probable threonine--tRN  21.9 1.1E+02  0.0012   24.0   1.4    7   40-46    109-115 (136)
+ 10 6F93_A Serine hydroxymethyltra  19.3 2.2E+02  0.0023   21.8   2.4   33   15-47    387-419 (424)
+
+No 1
+>3VZ9_B Uncharacterized protein, Spc24 protein; RWD domain, kinetochore component, chromosome; 1.03A {Gallus gallus}
+Probab=59.67  E-value=23  Score=24.96  Aligned_cols=23  Identities=35%  Similarity=0.531  Sum_probs=20.1  Template_Neff=8.400
+
+Q ss_pred             ccHHHHHHHHHHHHHHHHHHhcC
+Q tr|A0A0U1RQT6|   17 KNKEKLEKLKSQADQFCQRLGKY   39 (173)
+Q Consensus        17 knkekleklksqadqfcqrlgky   39 (173)
+                      +|++++++++...+.|.+.||-.
+T Consensus         2 ~n~~~~~~l~k~~~~y~~~LGl~   24 (106)
+T 3VZ9_B            2 STKERVERLCKSKELFEERLGLE   24 (106)
+T ss_pred             chHHHHHHHHHHHHHHHHHhCCE
+Confidence            58999999999999999998853
+
+
+No 2
+>4RRI_A Probable threonine--tRNA ligase 2 (E.C.6.1.1.3); DTD-like fold, Proofreading, LIGASE; HET: A3T; 1.5A {Aeropyrum pernix}
+Probab=32.71  E-value=51  Score=25.69  Aligned_cols=29  Identities=21%  Similarity=0.280  Sum_probs=16.5  Template_Neff=6.800
+
+Q ss_pred             cHHHHHHHHHHHHHHHHHHhcC------CCCchhh
+Q tr|A0A0U1RQT6|   18 NKEKLEKLKSQADQFCQRLGKY------RMPFAWT   46 (173)
+Q Consensus        18 nkekleklksqadqfcqrlgky------rmpfawt   46 (173)
+                      +....+.-++-.++++++|.+.      ++||.|.
+T Consensus        81 ~la~~~~A~~il~~l~~~L~~~~g~~V~~~pFGw~  115 (136)
+T 4RRI_A           81 RLAKPMAAHKRLIELEGALRTKFPGHVHRAPFGWY  115 (136)
+T ss_dssp             CBCCHHHHHHHHHHHHHHHTTTCCSEEEECCSSEE
+T ss_pred             ccCCHHHHHHHHHHHHHHHhhhCCCceEEecCCce
+Confidence            3333444445555666666553      6788875
+
+
+No 3
+>6N2M_B Caspase recruitment domain-containing protein 9; innate immunity, coiled-coil, autoinhibition, SIGNALING; HET: ZN; NMR {Homo sapiens}
+Probab=26.69  E-value=2.1e+02  Score=19.02  Aligned_cols=17  Identities=18%  Similarity=0.307  Sum_probs=15.4  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHHHHHhc
+Q tr|A0A0U1RQT6|   22 LEKLKSQADQFCQRLGK   38 (173)
+Q Consensus        22 leklksqadqfcqrlgk   38 (173)
+                      +++|+.+.+.+|.+||.
+T Consensus       123 ~~~l~~~~~~l~~~~~~  139 (142)
+T 6N2M_B          123 VMKLQKKVQDLTALLSS  139 (142)
+T ss_dssp             HHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHHHHhc
+Confidence            78999999999999985
+
+
+No 4
+>3VN0_B Voltage-gated hydrogen channel 1; COILED-COIL, ASSEMBLY DOMAIN, ION TRANSPORT; 1.37A {Mus musculus}
+Probab=25.89  E-value=1.2e+02  Score=19.40  Aligned_cols=24  Identities=13%  Similarity=0.278  Sum_probs=17.8  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhcCCCC
+Q tr|A0A0U1RQT6|   19 KEKLEKLKSQADQFCQRLGKYRMP   42 (173)
+Q Consensus        19 kekleklksqadqfcqrlgkyrmp   42 (173)
+                      ..|++|||...++..+++.+++-+
+T Consensus         3 e~kv~klK~~~~~L~~~l~~l~~~   26 (51)
+T 3VN0_B            3 ERQILRLKQINIQLATKIQHLEFS   26 (51)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            357888888888888887766543
+
+
+No 5
+>3VMX_B Voltage-gated hydrogen channel 1; COILED-COIL, ION CHANNEL, ION TRANSPORT; 1.45A {Mus musculus}
+Probab=24.81  E-value=1.3e+02  Score=19.09  Aligned_cols=24  Identities=13%  Similarity=0.278  Sum_probs=17.8  Template_Neff=7.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhcCCCC
+Q tr|A0A0U1RQT6|   19 KEKLEKLKSQADQFCQRLGKYRMP   42 (173)
+Q Consensus        19 kekleklksqadqfcqrlgkyrmp   42 (173)
+                      ..|++|||...++..+++.+++-+
+T Consensus         3 e~kv~klK~~~~~L~~~l~~l~~~   26 (48)
+T 3VMX_B            3 ERQILRLKQINIQLATKIQHLEFS   26 (48)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            357888888888888887766543
+
+
+No 6
+>3FVW_A Q8DWD8_STRMU, putative NAD(P)H-dependent FMN reductase; HET: MSE; 2.3A {Streptococcus mutans}
+Probab=24.54  E-value=3.8e+02  Score=18.97  Aligned_cols=25  Identities=28%  Similarity=0.367  Sum_probs=19.6  Template_Neff=10.800
+
+Q ss_pred             ccccHHHHHHHHHHHHHHHHHHhcC
+Q tr|A0A0U1RQT6|   15 ATKNKEKLEKLKSQADQFCQRLGKY   39 (173)
+Q Consensus        15 atknkekleklksqadqfcqrlgky   39 (173)
+                      ...+++..++++..+++|++..+++
+T Consensus       161 ~~~~~~~~~~~~~~~~~l~~~~~~~  185 (192)
+T 3FVW_A          161 LKVSAEKLAELSAQADALLSAIENL  185 (192)
+T ss_dssp             CCCCHHHHHHHHHHHHHHHHHTTC-
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcc
+Confidence            3346778999999999999988764
+
+
+No 7
+>3FVW_B Q8DWD8_STRMU, putative NAD(P)H-dependent FMN reductase; HET: MSE; 2.3A {Streptococcus mutans}
+Probab=24.54  E-value=3.8e+02  Score=18.97  Aligned_cols=25  Identities=28%  Similarity=0.367  Sum_probs=19.9  Template_Neff=10.800
+
+Q ss_pred             ccccHHHHHHHHHHHHHHHHHHhcC
+Q tr|A0A0U1RQT6|   15 ATKNKEKLEKLKSQADQFCQRLGKY   39 (173)
+Q Consensus        15 atknkekleklksqadqfcqrlgky   39 (173)
+                      ...+++..++++..+++|++..+++
+T Consensus       161 ~~~~~~~~~~~~~~~~~l~~~~~~~  185 (192)
+T 3FVW_B          161 LKVSAEKLAELSAQADALLSAIENL  185 (192)
+T ss_dssp             CCCCHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             cCCCHHHHHHHHHHHHHHHHHHHcc
+Confidence            3346778999999999999988875
+
+
+No 8
+>4RR9_A Probable threonine--tRNA ligase 2 (E.C.6.1.1.3); DTD-like fold, Proofreading, LIGASE; HET: A3S; 1.67A {Aeropyrum pernix K1}
+Probab=21.85  E-value=1.1e+02  Score=24.04  Aligned_cols=7  Identities=57%  Similarity=1.493  Sum_probs=5.0  Template_Neff=6.600
+
+Q ss_pred             CCCchhh
+Q tr|A0A0U1RQT6|   40 RMPFAWT   46 (173)
+Q Consensus        40 rmpfawt   46 (173)
+                      ++||.|.
+T Consensus       109 ~~PFGw~  115 (136)
+T 4RR9_A          109 RAPFGWY  115 (136)
+T ss_dssp             ECCSSEE
+T ss_pred             EcCCCcE
+Confidence            6777775
+
+
+No 9
+>4RRD_A Probable threonine--tRNA ligase 2 (E.C.6.1.1.3); DTD-like fold, Proofreading, LIGASE; HET: A3T; 1.86A {Aeropyrum pernix K1}
+Probab=21.85  E-value=1.1e+02  Score=24.04  Aligned_cols=7  Identities=57%  Similarity=1.493  Sum_probs=5.1  Template_Neff=6.600
+
+Q ss_pred             CCCchhh
+Q tr|A0A0U1RQT6|   40 RMPFAWT   46 (173)
+Q Consensus        40 rmpfawt   46 (173)
+                      ++||.|.
+T Consensus       109 ~~PFGw~  115 (136)
+T 4RRD_A          109 RAPFGWY  115 (136)
+T ss_dssp             ECCSSEE
+T ss_pred             EcCCCcE
+Confidence            6777775
+
+
+No 10
+>6F93_A Serine hydroxymethyltransferase (E.C.2.1.2.1); SHMT, METHYLTRANSFERASE, H. pylori folate-sensitive; 2.8A {Helicobacter pylori (strain ATCC 700392 / 26695)}
+Probab=19.27  E-value=2.2e+02  Score=21.79  Aligned_cols=33  Identities=12%  Similarity=0.180  Sum_probs=20.1  Template_Neff=12.000
+
+Q ss_pred             ccccHHHHHHHHHHHHHHHHHHhcCCCCchhhH
+Q tr|A0A0U1RQT6|   15 ATKNKEKLEKLKSQADQFCQRLGKYRMPFAWTA   47 (173)
+Q Consensus        15 atknkekleklksqadqfcqrlgkyrmpfawta   47 (173)
+                      ..++..++++.+++...+++++-+|+.||...-
+T Consensus       387 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  419 (424)
+T 6F93_A          387 DINNVSLQLHVKEELKAMVNQFPVYHQPIFRSH  419 (424)
+T ss_dssp             TTTCHHHHHHHHHHHHHHHTTSCCC--------
+T ss_pred             cCCChHHHHHHHHHHHHHHhcCCCCCCcccccc
+Confidence            446667788888888888888888888886543
+
+

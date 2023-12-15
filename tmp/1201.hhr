@@ -1,0 +1,165 @@
+Query         tr|A0A6Q8PGS0|A0A6Q8PGS0_HUMAN
+Match_columns 86
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:07:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1201.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5L9Z_B Heparanase (E.C.3.2.1.1  11.7 2.5E+02  0.0028   17.0   0.9   23   55-83     44-66  (77)
+  2 2G48_C protein-peptide complex  10.7 6.5E+02   0.007   14.6   3.1   21   56-76      9-29  (37)
+  3 3HGZ_E Insulin degrading enzym  10.7 6.5E+02   0.007   14.6   3.1   21   56-76      9-29  (37)
+  4 2NN4_A Hypothetical protein yq   9.0 4.3E+02  0.0047   17.7   1.3   11   58-68      7-17  (72)
+  5 5MGQ_A Islet amyloid polypepti   9.0 7.7E+02  0.0084   14.3   3.1   25   56-80      9-33  (37)
+  6 2KPT_A Putative secreted prote   8.0 1.1E+03   0.012   15.4   3.0   21   48-68     21-41  (148)
+  7 2HH7_A Hypothetical protein; 4   8.0 7.4E+02  0.0081   17.5   2.2   29   55-83     75-103 (119)
+  8 2KE3_A Neuroendocrine converta   6.6 9.7E+02   0.011   15.5   2.0   18   51-68     24-41  (43)
+  9 6RIQ_F MinC, Site-determining    6.4 1.8E+03   0.019   16.2   3.5   45   10-56      6-50  (144)
+ 10 6E3Y_P Calcitonin gene-related   6.3 1.1E+03   0.012   13.7   3.1   27   57-83     10-36  (38)
+
+No 1
+>5L9Z_B Heparanase (E.C.3.2.1.166); Heparanase, Probe, GH79, Hydrolase; HET: GUX, NAG, EDO; 1.57A {Homo sapiens}
+Probab=11.66  E-value=2.5e+02  Score=17.02  Aligned_cols=23  Identities=35%  Similarity=0.528  Sum_probs=16.5  Template_Neff=8.100
+
+Q ss_pred             hHHHHHHHHHHHcccCCCCCCCCCCCCCC
+Q tr|A0A6Q8PGS0|   55 QEQRLQQLLRLFGQQQRATAAPLRLGGAS   83 (86)
+Q Consensus        55 qeqrlqqllrlfgqqqrataaplrlggas   83 (86)
+                      +..+|..|.+.++-      +-+|+||.+
+T Consensus        44 ~~~~l~~l~~~L~p------~~lRiGGt~   66 (77)
+T 5L9Z_B           44 GSPKLRTLARGLSP------AYLRFGGTK   66 (77)
+T ss_dssp             HCHHHHHHHHHTCS------EEEEECSGG
+T ss_pred             CCHHHHHHHHHcCC------cEEEecCCh
+Confidence            45778888888753      568888854
+
+
+No 2
+>2G48_C protein-peptide complex, HYDROLASE; HET: DIO; 2.6A {Homo sapiens}
+Probab=10.72  E-value=6.5e+02  Score=14.57  Aligned_cols=21  Identities=24%  Similarity=0.183  Sum_probs=12.2  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHHHHHcccCCCCCCC
+Q tr|A0A6Q8PGS0|   56 EQRLQQLLRLFGQQQRATAAP   76 (86)
+Q Consensus        56 eqrlqqllrlfgqqqrataap   76 (86)
+                      .+||.++|..+|.-....-.|
+T Consensus         9 t~rLa~~L~~~~~~~~~~~~p   29 (37)
+T 2G48_C            9 TQRLANFLVHSSNNFGAILSS   29 (37)
+T ss_pred             HHHHHHHHHHhccccCCCCCC
+Confidence            356777777776544444333
+
+
+No 3
+>3HGZ_E Insulin degrading enzyme, IDE, Amylin; 2.91A {Homo sapiens}
+Probab=10.72  E-value=6.5e+02  Score=14.57  Aligned_cols=21  Identities=24%  Similarity=0.183  Sum_probs=12.2  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHHHHHcccCCCCCCC
+Q tr|A0A6Q8PGS0|   56 EQRLQQLLRLFGQQQRATAAP   76 (86)
+Q Consensus        56 eqrlqqllrlfgqqqrataap   76 (86)
+                      .+||.++|..+|.-....-.|
+T Consensus         9 t~rLa~~L~~~~~~~~~~~~p   29 (37)
+T 3HGZ_E            9 TQRLANFLVHSSNNFGAILSS   29 (37)
+T ss_pred             HHHHHHHHHHhccccCCCCCC
+Confidence            356777777776544444333
+
+
+No 4
+>2NN4_A Hypothetical protein yqgQ; Novel fold, pfam:DUF910, 10278a, Structural; 2.1A {Bacillus subtilis} SCOP: a.272.1.1
+Probab=9.04  E-value=4.3e+02  Score=17.74  Aligned_cols=11  Identities=55%  Similarity=0.942  Sum_probs=9.0  Template_Neff=5.200
+
+Q ss_pred             HHHHHHHHHcc
+Q tr|A0A6Q8PGS0|   58 RLQQLLRLFGQ   68 (86)
+Q Consensus        58 rlqqllrlfgq   68 (86)
+                      -+||||+.||-
+T Consensus         7 DV~~lLkrfG~   17 (72)
+T 2NN4_A            7 DVQQLLKTFGH   17 (72)
+T ss_dssp             HHHHHHHTTTC
+T ss_pred             HHHHHHHHhCc
+Confidence            47899999985
+
+
+No 5
+>5MGQ_A Islet amyloid polypeptide; Recombinant human IAPP, Type II; HET: TYC; NMR {Homo sapiens}
+Probab=9.00  E-value=7.7e+02  Score=14.27  Aligned_cols=25  Identities=24%  Similarity=0.252  Sum_probs=14.4  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHHHHHcccCCCCCCCCCCC
+Q tr|A0A6Q8PGS0|   56 EQRLQQLLRLFGQQQRATAAPLRLG   80 (86)
+Q Consensus        56 eqrlqqllrlfgqqqrataaplrlg   80 (86)
+                      .|||.++|..+|.-...+-.|--.|
+T Consensus         9 t~rLa~~L~~~~~~~~~~~~pt~vg   33 (37)
+T 5MGQ_A            9 TQRLANFLVHSSNNFGAILSSTNVG   33 (37)
+T ss_dssp             HHHHHHHSSSCTTTTTTTSSSTTSS
+T ss_pred             HHHHHHHHHHccccCCCCCCCcccC
+Confidence            4677777766665555554444443
+
+
+No 6
+>2KPT_A Putative secreted protein; methods development, alpha/beta, Structural Genomics; NMR {Corynebacterium glutamicum}
+Probab=8.03  E-value=1.1e+03  Score=15.41  Aligned_cols=21  Identities=5%  Similarity=0.044  Sum_probs=14.7  Template_Neff=9.100
+
+Q ss_pred             cccCCcchHHHHHHHHHHHcc
+Q tr|A0A6Q8PGS0|   48 RHRLRHGQEQRLQQLLRLFGQ   68 (86)
+Q Consensus        48 rhrlrhgqeqrlqqllrlfgq   68 (86)
+                      -..+...+.++|.+.+.-+.+
+T Consensus        21 ag~ls~~~~~~l~~~~~~l~~   41 (148)
+T 2KPT_A           21 TGQISSSDITNIQAAIDDVKA   41 (148)
+T ss_dssp             SSCSCHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHHHH
+Confidence            345677778888887776654
+
+
+No 7
+>2HH7_A Hypothetical protein; 4-helix bundle, UNKNOWN FUNCTION; 2.55A {Mycobacterium tuberculosis}
+Probab=8.02  E-value=7.4e+02  Score=17.49  Aligned_cols=29  Identities=24%  Similarity=0.371  Sum_probs=11.9  Template_Neff=6.300
+
+Q ss_pred             hHHHHHHHHHHHcccCCCCCCCCCCCCCC
+Q tr|A0A6Q8PGS0|   55 QEQRLQQLLRLFGQQQRATAAPLRLGGAS   83 (86)
+Q Consensus        55 qeqrlqqllrlfgqqqrataaplrlggas   83 (86)
+                      .++.++.|+++|..-.+.+...-+++|+.
+T Consensus        75 ~e~~i~el~~~l~~~~k~~~~~~~~~~~~  103 (119)
+T 2HH7_A           75 GQAAIEELIDAVKFTPALTGPHARLGGAA  103 (119)
+T ss_dssp             HHHHHHHHHHTTCC---------------
+T ss_pred             HHHHHHHHHHHHHHhhhhhCCCcccCCcc
+Confidence            36789999999988887777667777763
+
+
+No 8
+>2KE3_A Neuroendocrine convertase 1; secretory granules, prohormone convertase, Calcium; NMR {Mus musculus}
+Probab=6.58  E-value=9.7e+02  Score=15.53  Aligned_cols=18  Identities=22%  Similarity=0.565  Sum_probs=13.3  Template_Neff=3.300
+
+Q ss_pred             CCcchHHHHHHHHHHHcc
+Q tr|A0A6Q8PGS0|   51 LRHGQEQRLQQLLRLFGQ   68 (86)
+Q Consensus        51 lrhgqeqrlqqllrlfgq   68 (86)
+                      -+|-.+.-||.|++++..
+T Consensus        24 yrHRddrLLQAL~~mL~~   41 (43)
+T 2KE3_A           24 YKHRDDRLLQALMDILNE   41 (43)
+T ss_dssp             CCCCHHHHHHHHHHHHHH
+T ss_pred             ccchhHHHHHHHHHHHhh
+Confidence            456678888888887753
+
+
+No 9
+>6RIQ_F MinC, Site-determining protein; Bacterial cell division, PROTEIN FIBRIL; HET: ATP, MG; 3.1A {Pseudomonas aeruginosa}
+Probab=6.37  E-value=1.8e+03  Score=16.19  Aligned_cols=45  Identities=18%  Similarity=0.293  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCcccccCCcchH
+Q tr|A0A6Q8PGS0|   10 RPPPALNAMSLGPRRARSAPTAVAAEAPVDAAELPQRRRHRLRHGQE   56 (86)
+Q Consensus        10 rpppalnamslgprrarsaptavaaeapvdaaelpqrrrhrlrhgqe   56 (86)
+                      |.|++--.-+.|..++  .|++.....+....+-..--.+-+|.||+
+T Consensus         6 ~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~ii~~~vRSGq~   50 (144)
+T 6RIQ_F            6 RKPAEEPSPSVGEARP--EPAKAEEKPAEPVSRPTKVVKTPVRGGMQ   50 (144)
+T ss_dssp             ---------------------------------CCEEECSCBCTTCE
+T ss_pred             CCCCCCCCCCCCCCCC--CCCCCCCCCCCCCCCCeEEEecccCCCCE
+
+
+No 10
+>6E3Y_P Calcitonin gene-related peptide 1, Nanobody; class B G protein-coupled receptor; 3.3A {Lama glama}
+Probab=6.26  E-value=1.1e+03  Score=13.74  Aligned_cols=27  Identities=26%  Similarity=0.383  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHcccCCCCCCCCCCCCCC
+Q tr|A0A6Q8PGS0|   57 QRLQQLLRLFGQQQRATAAPLRLGGAS   83 (86)
+Q Consensus        57 qrlqqllrlfgqqqrataaplrlggas   83 (86)
+                      |||.++|..+|.-....-.|--.|..+
+T Consensus        10 ~rLa~~L~~~g~~~~~~~~pt~vg~~~   36 (38)
+T 6E3Y_P           10 HRLAGLLSRSGGVVKNNFVPTNVGSKA   36 (38)
+T ss_pred             HHHHHHHHhcCCccccCCCCCccCCCC
+
+

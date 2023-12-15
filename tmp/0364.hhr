@@ -1,0 +1,451 @@
+Query         sp|Q13765|NACA_HUMAN
+Match_columns 215
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 05:48:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0364.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7QWR_t Ribosome, SRP, NAC, nas 100.0 5.4E-59 5.9E-64  361.0  15.1  215    1-215     1-215 (215)
+  2 1TR8_B conserved protein (MTH1  99.8 1.2E-20 1.3E-25  130.5   7.6   98   77-214     1-102 (102)
+  3 3MCE_A Nascent polypeptide-ass  99.6 5.6E-16   6E-21   98.7   4.9   58   75-132     3-60  (61)
+  4 3MCE_B Nascent polypeptide-ass  99.6 5.6E-16   6E-21   98.7   4.9   58   75-132     3-60  (61)
+  5 3MCB_A Nascent polypeptide-ass  99.5 5.3E-14 5.7E-19   86.0   4.0   53   79-131     1-53  (54)
+  6 7QWR_u Ribosome, SRP, NAC, nas  98.5 5.8E-07 6.3E-12   67.9   6.6   62   70-131    38-99  (162)
+  7 7QWS_u Ribosome, SRP, NAC, nas  98.5 5.8E-07 6.3E-12   67.9   6.6   62   70-131    38-99  (162)
+  8 5NNP_C N-terminal acetyltransf  98.2 2.1E-06 2.2E-11   58.6   3.5   41  174-214     4-44  (62)
+  9 6C95_D NatA, HYPK, N-terminal   97.0 0.00079 8.6E-09   52.9   1.7   42  173-214    87-128 (129)
+ 10 5NNR_C N-terminal acetyltransf  96.8  0.0023 2.6E-08   51.5   3.2   43  172-214    87-129 (133)
+ 11 3MCB_B Nascent polypeptide-ass  94.8     0.2 2.2E-06   33.7   5.2   46   86-131     2-47  (58)
+ 12 3LKX_A Transcription factor BT  93.1    0.58 6.3E-06   31.8   5.0   44   87-130     3-46  (66)
+ 13 6T59_NB Ribosomal protein L8,   90.9     1.7 1.8E-05   36.7   6.3   59   71-129    83-141 (206)
+ 14 2CP9_A UBA, structural genomic  63.7      20 0.00022   23.5   3.0   40  175-214     7-46  (64)
+ 15 1WJ7_A UBA domain, ubiquitin a  53.3      34 0.00037   26.1   3.0   36  178-213    40-75  (104)
+ 16 5O71_A Ubiquitin carboxyl-term  43.5      41 0.00045   30.5   2.5   38  176-213    18-56  (716)
+ 17 4ILF_B Thiol:disulfide interch  40.4 1.8E+02   0.002   21.4   5.0   49   74-126     9-57  (222)
+ 18 7EMF_F Mediator of RNA polymer  39.0      67 0.00073   29.1   3.1   39   88-126    63-105 (246)
+ 19 7ENC_f Mediator of RNA polymer  39.0      67 0.00073   29.1   3.1   39   88-126    63-105 (246)
+ 20 1EEJ_A DISULFIDE BOND ISOMERAS  27.5 3.4E+02  0.0037   20.0   4.6   49   74-126     3-51  (216)
+ 21 1G0T_B thiol oxidoreductase, p  26.9 3.3E+02  0.0036   20.0   4.5   12   74-85      3-14  (216)
+ 22 3K6G_A Telomeric repeat-bindin  26.3 1.7E+02  0.0019   23.4   3.2   36  178-213    14-49  (111)
+ 23 3K6G_B Telomeric repeat-bindin  26.3 1.7E+02  0.0019   23.4   3.2   36  178-213    14-49  (111)
+ 24 5Y3T_B RanBP-type and C3HC4-ty  23.9 2.3E+02  0.0025   23.1   3.5   33  181-213   102-134 (158)
+ 25 4H61_A Mediator of RNA polymer  21.8 1.9E+02   0.002   24.2   2.7   39   87-125    67-108 (175)
+ 26 2RU9_A Predicted transporter;   21.0 3.7E+02   0.004   18.1   3.6   26   85-110    29-54  (76)
+
+No 1
+>7QWR_t Ribosome, SRP, NAC, nascent chain; HET: MG; 2.9A {Oryctolagus cuniculus}
+Probab=100.00  E-value=5.4e-59  Score=360.99  Aligned_cols=215  Identities=100%  Similarity=1.215  Sum_probs=185.5  Template_Neff=8.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcCCCCCCCCCCCCCCCCCCCccHHHHHHHH
+Q sp|Q13765|NACA    1 MPGEATETVPATEQELPQPQAETGSGTESDSDESVPELEEQDSTQATTQQAQLAAAAEIDEEPVSKAKQSRSEKKARKAM   80 (215)
+Q Consensus         1 mpgeatetvpateqelpqpqaetgsgtesdsdesvpeleeqdstqattqqaqlaaaaeideepvskakqsrsekkarkam   80 (215)
+                      ||+++|+|+|+|++++|++++++|++++++|++++|++++.++..+.+.+.++..+.+++....++.+++|++|++|++|
+T Consensus         1 ~~~~~~~~~p~~~~~~~~~~~~~gs~~~s~s~~~~Pele~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~sr~ekk~rk~l   80 (215)
+T 7QWR_t            1 MPGEATETVPATEQELPQPQAETGSGTESDSDESVPELEEQDSTQATTQQAQLAAAAEIDEEPVSKAKQSRSEKKARKAM   80 (215)
+T ss_pred             CCCccCccCCCccccCCCCcccCCCCCCCCCccCCcchhhcccccchhHHHHHHHHhccCccchhcccCCcCHHHHHHHH
+Confidence            99999999999999999999999999999999999999988765544445555556666666778999999999999999
+
+
+Q ss_pred             HHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhhhHHHHHHHhhhcCCCCCCCCCCCCCCCCC
+Q sp|Q13765|NACA   81 SKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLSQQAQLAAAEKFKVQGEAVSNIQENTQTP  160 (215)
+Q Consensus        81 sklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedlsqqaqlaaaekfkvqgeavsniqentqtp  160 (215)
+                      +||||+++++|.+|+|++.++.+|+|.+|+||+++++++|+|||+.++++++++++..++++|+..+.......+....+
+T Consensus        81 ~klgl~~i~~v~~V~i~k~~~~~~vi~~P~V~~~~~~~~yivfGe~~~~dl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (215)
+T 7QWR_t           81 SKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLSQQAQLAAAEKFKVQGEAVSNIQENTQTP  160 (215)
+T ss_pred             HhcCCCccccceeeeEecCCcEEEEEcCCceeecCCCCeEEEeCCeEEechHHHHHHHHHHHhccCcchhccccccCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999888999987765433333322223
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHcC
+Q sp|Q13765|NACA  161 TVQEESEEEEVDETGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELTM  215 (215)
+Q Consensus       161 tvqeeseeeevdetgvevkdielvmsqanvsrakavralknnsndivnaimeltm  215 (215)
+                      .++++.+++++++.+++++||++||+|++|+|++|+++|++++||+++|||.|+|
+T Consensus       161 ~~~~~~~~~~~d~~~~~~~Di~lv~~qa~~sr~~A~kaLk~~~gDiv~AIm~lt~  215 (215)
+T 7QWR_t          161 TVQEESEEEEVDETGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELTM  215 (215)
+T ss_pred             CcccccccccccccCccHHHHhhhhhccCCCHHHHHHHHHhcCCcHHHHHHhhcC
+Confidence            3333334456788899999999999999999999999999999999999999986
+
+
+No 2
+>1TR8_B conserved protein (MTH177); Chaperones, Nascent Polypeptide-associated Complex, Ribosome; HET: MSE; 2.27A {Methanothermobacter marburgensis}
+Probab=99.84  E-value=1.2e-20  Score=130.46  Aligned_cols=98  Identities=36%  Similarity=0.542  Sum_probs=78.4  Template_Neff=8.600
+
+Q ss_pred             HHHHHHcCCcc--CCCcEEEEEEcCCCEEEEEECCcccC--CCCCCeEEEEeccchhhhhHHHHHHHhhhcCCCCCCCCC
+Q sp|Q13765|NACA   77 RKAMSKLGLRQ--VTGVTRVTIRKSKNILFVITKPDVYK--SPASDTYIVFGEAKIEDLSQQAQLAAAEKFKVQGEAVSN  152 (215)
+Q Consensus        77 rkamsklglrq--vtgvtrvtirksknilfvitkpdvyk--spasdtyivfgeakiedlsqqaqlaaaekfkvqgeavsn  152 (215)
+                      |++|+|||+++  ++++.+|+|++.++. |+|.+|+||.  ++++++|++||+.+.+++                     
+T Consensus         1 rk~~~klgl~~~~i~~v~~v~i~~~~~~-~~i~~P~V~~~~~~~~~~~~v~G~~~~~~~---------------------   58 (102)
+T 1TR8_B            1 GSHMKQMGMDMKDLRGVEEVVIKLKRKE-IIIKNPKVNVMEFMGQKTYQVTGKARERSL---------------------   58 (102)
+T ss_dssp             ---------CCEECCCCCEEEEECSSEE-EEEESCEEEEEEETTEEEEEEESCEEEEES---------------------
+T ss_pred             CcchhhcCCCceecCCeeEEEEEeCCcE-EEEeCCEEEEEEeCCcceEEEEecceeech---------------------
+Confidence            46889999996  999999999998877 9999999999  788999999998763211                     
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHc
+Q sp|Q13765|NACA  153 IQENTQTPTVQEESEEEEVDETGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELT  214 (215)
+Q Consensus       153 iqentqtptvqeeseeeevdetgvevkdielvmsqanvsrakavralknnsndivnaimelt  214 (215)
+                                 +       ++.+++++||+++|+|++|++..|+++|+.++||+++||+.|+
+T Consensus        59 -----------e-------~~~~~~~edi~~v~~~~~~~~~~A~~aL~~~~gd~~~a~~~l~  102 (102)
+T 1TR8_B           59 -----------E-------AEMEIPEDDIELVMNQTGASREDATRALQETGGDLAEAIMRLS  102 (102)
+T ss_dssp             -----------C-------CEECCCHHHHHHHHHHHCCCHHHHHHHHHHTTTCHHHHHHHC-
+T ss_pred             -----------h-------hccCCCHHHHHHHHHhhCCCHHHHHHHHHHhCCCHHHHHHhcC
+Confidence                       0       3557999999999999999999999999999999999999874
+
+
+No 3
+>3MCE_A Nascent polypeptide-associated complex subunit alpha; beta-barrel like structure, NAC, homodimer; 2.396A {Homo sapiens}
+Probab=99.64  E-value=5.6e-16  Score=98.73  Aligned_cols=58  Identities=90%  Similarity=1.203  Sum_probs=51.3  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhhh
+Q sp|Q13765|NACA   75 KARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLS  132 (215)
+Q Consensus        75 karkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedls  132 (215)
+                      |++++|+|||++++++|.+|++++.++..|+|.+|+||.+...++|++||++++++++
+T Consensus         3 ~~~~~l~klgl~~~~gi~~v~~~~~~~~~~~i~~P~v~~~~~~~~~vv~G~~~~~~l~   60 (61)
+T 3MCE_A            3 LGSPEFSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLS   60 (61)
+T ss_dssp             TSSCCGGGTTCEECSSEEEEEEEETTTEEEEESSCEEEEC---CEEEEESCEEEECCC
+T ss_pred             cchHHHHhcCCeecCCeEEEEEEeCCcEEEEEcCCeeEEcCCCCeEEEEccceecccC
+Confidence            6788999999999999999999999999999999999999999999999999877654
+
+
+No 4
+>3MCE_B Nascent polypeptide-associated complex subunit alpha; beta-barrel like structure, NAC, homodimer; 2.396A {Homo sapiens}
+Probab=99.64  E-value=5.6e-16  Score=98.73  Aligned_cols=58  Identities=90%  Similarity=1.203  Sum_probs=54.3  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhhh
+Q sp|Q13765|NACA   75 KARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLS  132 (215)
+Q Consensus        75 karkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedls  132 (215)
+                      |++++|+|||++++++|.+|++++.++..|+|.+|+||.+...++|++||++++++++
+T Consensus         3 ~~~~~l~klgl~~~~gi~~v~~~~~~~~~~~i~~P~v~~~~~~~~~vv~G~~~~~~l~   60 (61)
+T 3MCE_B            3 LGSPEFSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDLS   60 (61)
+T ss_dssp             CCCHHHHHHTCEEECCEEEEEEEETTTEEEEEESCEEEECSSSSEEEEESCCEEEETT
+T ss_pred             cchHHHHhcCCeecCCeEEEEEEeCCcEEEEEcCCeeEEcCCCCeEEEEccceecccC
+Confidence            5788999999999999999999999999999999999999999999999999887754
+
+
+No 5
+>3MCB_A Nascent polypeptide-associated complex subunit alpha; beta-barrel like structure, NAC, heterodimer; 1.9A {Homo sapiens}
+Probab=99.49  E-value=5.3e-14  Score=85.98  Aligned_cols=53  Identities=100%  Similarity=1.349  Sum_probs=49.2  Template_Neff=9.300
+
+Q ss_pred             HHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhh
+Q sp|Q13765|NACA   79 AMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDL  131 (215)
+Q Consensus        79 amsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedl  131 (215)
+                      +|+|||++++++|.+|++++.++..|+|.+|.||.....++|++||+++++++
+T Consensus         1 ~l~kl~~~~~~~i~~v~~~~~~~~~~~~~~p~v~~~~~~~~~~~~G~~~~~~~   53 (54)
+T 3MCB_A            1 AMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDL   53 (54)
+T ss_dssp             CGGGGTCEECTTEEEEEEESSSSEEEEESSCEEEECTTSSEEEEESCEEEEEC
+T ss_pred             CccccCCeecCCeEEEEEEecCCEEEEecCCeEEEcCCCCeEEEEccceecCC
+Confidence            36799999999999999999999999999999999999999999999887654
+
+
+No 6
+>7QWR_u Ribosome, SRP, NAC, nascent chain; HET: MG; 2.9A {Oryctolagus cuniculus}
+Probab=98.53  E-value=5.8e-07  Score=67.87  Aligned_cols=62  Identities=24%  Similarity=0.486  Sum_probs=57.1  Template_Neff=8.400
+
+Q ss_pred             CccHHHHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhh
+Q sp|Q13765|NACA   70 SRSEKKARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDL  131 (215)
+Q Consensus        70 srsekkarkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedl  131 (215)
+                      .+.+|+++..|++||+.++++|.+|++.+.++.+++|.+|.|+.....++|+|+|......+
+T Consensus        38 ~~ddkkl~~~l~kl~~~~~~~i~ev~~~~~d~~v~~f~~P~v~~s~~~nt~vv~G~~~~k~~   99 (162)
+T 7QWR_u           38 TADDKKLQFSLKKLGVNNISGIEEVNMFTNQGTVIHFNNPKVQASLAANTFTITGHAETKQL   99 (162)
+T ss_pred             CCChHHHHHHHHHcCCCccCCceeEEEEcCCCeEEEEeCcceeehhhcCeEEEEccccccch
+Confidence            46789999999999999999999999999999999999999999999999999999876654
+
+
+No 7
+>7QWS_u Ribosome, SRP, NAC, nascent chain; HET: MG; 3.4A {Oryctolagus cuniculus}
+Probab=98.53  E-value=5.8e-07  Score=67.87  Aligned_cols=62  Identities=24%  Similarity=0.486  Sum_probs=57.1  Template_Neff=8.400
+
+Q ss_pred             CccHHHHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhh
+Q sp|Q13765|NACA   70 SRSEKKARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDL  131 (215)
+Q Consensus        70 srsekkarkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedl  131 (215)
+                      .+.+|+++..|++||+.++++|.+|++.+.++.+++|.+|.|+.....++|+|+|......+
+T Consensus        38 ~~ddkkl~~~l~kl~~~~~~~i~ev~~~~~d~~v~~f~~P~v~~s~~~nt~vv~G~~~~k~~   99 (162)
+T 7QWS_u           38 TADDKKLQFSLKKLGVNNISGIEEVNMFTNQGTVIHFNNPKVQASLAANTFTITGHAETKQL   99 (162)
+T ss_pred             CCChHHHHHHHHHcCCCccCCceeEEEEcCCCeEEEEeCcceeehhhcCeEEEEccccccch
+Confidence            46789999999999999999999999999999999999999999999999999999876654
+
+
+No 8
+>5NNP_C N-terminal acetyltransferase-like protein, Naa10, HypK; N-acetylation, NATs, Naa15, Naa10, HypK; HET: CMC, GOL, PO4, FME; 2.602A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=98.25  E-value=2.1e-06  Score=58.56  Aligned_cols=41  Identities=27%  Similarity=0.432  Sum_probs=39.0  Template_Neff=7.000
+
+Q ss_pred             CCCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHc
+Q sp|Q13765|NACA  174 TGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELT  214 (215)
+Q Consensus       174 tgvevkdielvmsqanvsrakavralknnsndivnaimelt  214 (215)
+                      .++.++||++||.+.++++..|.++|++++||+++||+.|+
+T Consensus         4 v~v~~eDV~li~~q~~vs~~~A~~aL~~~~GDl~~ai~~l~   44 (62)
+T 5NNP_C            4 GKVDPADVNLLVEELELSKAKATELLKAHDGDAIKAMKAYI   44 (62)
+T ss_dssp             CCCCHHHHHHHHHHHCCCHHHHHHHHHTTTTCHHHHHHHHT
+T ss_pred             CCCCHHHHHHHHHHhCCCHHHHHHHHHHcCCCHHHHHHHHh
+Confidence            46899999999999999999999999999999999999986
+
+
+No 9
+>6C95_D NatA, HYPK, N-terminal acetylation, Huntingtin; HET: IHP; 3.15A {Homo sapiens}
+Probab=96.96  E-value=0.00079  Score=52.95  Aligned_cols=42  Identities=33%  Similarity=0.633  Sum_probs=39.4  Template_Neff=6.200
+
+Q ss_pred             CCCCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHc
+Q sp|Q13765|NACA  173 ETGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELT  214 (215)
+Q Consensus       173 etgvevkdielvmsqanvsrakavralknnsndivnaimelt  214 (215)
+                      ...|.++||.+||.+..+++..|.++|+.++||++.||+.|.
+T Consensus        87 ~vkV~~eDV~Li~~e~~vsk~~A~~aLre~~GD~~~Al~~l~  128 (129)
+T 6C95_D           87 KVTIKKEDLELIMTEMEISRAAAERSLREHMGNVVEALIALT  128 (129)
+T ss_dssp             SSCCCHHHHHHHHHHSCCCHHHHHHHHHHTTTCHHHHHHHHH
+T ss_pred             hcCCCHHHHHHHHHHhcCCHHHHHHHHHHhCCcHHHHHHHhh
+Confidence            457899999999999999999999999999999999999885
+
+
+No 10
+>5NNR_C N-terminal acetyltransferase-like protein, Naa10, HypK; N-acetylation, NATs, Naa15, Naa10, HypK; HET: FME, MSE; 3.1A {Chaetomium thermophilum}
+Probab=96.80  E-value=0.0023  Score=51.47  Aligned_cols=43  Identities=26%  Similarity=0.434  Sum_probs=40.0  Template_Neff=5.500
+
+Q ss_pred             CCCCCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHc
+Q sp|Q13765|NACA  172 DETGVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELT  214 (215)
+Q Consensus       172 detgvevkdielvmsqanvsrakavralknnsndivnaimelt  214 (215)
+                      ....|.++||.+||.+..+++..|.++|+.++||++.||+.|.
+T Consensus        87 ~~vkV~keDV~LI~~elevsk~~Aek~Lre~~GDvv~Al~~lv  129 (133)
+T 5NNR_C           87 KKVKVDPADVNLLVEELELSKAKATELLKAHDGDAIKAMKAYI  129 (133)
+T ss_dssp             -CCCCCHHHHHHHHHHHTCCHHHHHHHHHHTTTCHHHHHHHHT
+T ss_pred             hcCCCCHHHHHHHHHHhCCCHHHHHHHHHHcCCcHHHHHHHHh
+Confidence            4567999999999999999999999999999999999999885
+
+
+No 11
+>3MCB_B Nascent polypeptide-associated complex subunit alpha; beta-barrel like structure, NAC, heterodimer; 1.9A {Homo sapiens}
+Probab=94.76  E-value=0.2  Score=33.69  Aligned_cols=46  Identities=22%  Similarity=0.459  Sum_probs=40.9  Template_Neff=7.400
+
+Q ss_pred             ccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhhh
+Q sp|Q13765|NACA   86 RQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIEDL  131 (215)
+Q Consensus        86 rqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakiedl  131 (215)
+                      ..++||.+|++.+.++..+++.+|.|+.+...++|++.|..+...+
+T Consensus         2 ~~i~~IeEv~~~~~d~~v~~f~~pkv~~s~~~nt~vi~G~~~~k~~   47 (58)
+T 3MCB_B            2 NNISGIEEVNMFTNQGTVIHFNNPKVQASLAANTFTITGHAETKQL   47 (58)
+T ss_dssp             CEECCCCEEEEEETTSEEEEEESCEEEEETTTTEEEEESCEEEEEG
+T ss_pred             CCCCCeeEEEEEecCCeEEEeeCcccceeeccCEEEEeCCCcccch
+Confidence            4578999999999999999999999999999999999998875443
+
+
+No 12
+>3LKX_A Transcription factor BTF3, Nascent polypeptide-associated; beta-barrel, CHAPERONE; 2.5A {Homo sapiens}
+Probab=93.13  E-value=0.58  Score=31.83  Aligned_cols=44  Identities=20%  Similarity=0.447  Sum_probs=38.9  Template_Neff=7.800
+
+Q ss_pred             cCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchhh
+Q sp|Q13765|NACA   87 QVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIED  130 (215)
+Q Consensus        87 qvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakied  130 (215)
+                      .++||.+|.+.+.++..+++.+|.|+.....++|++.|......
+T Consensus         3 ~i~gIeEv~~~~~d~~v~~f~~pkv~~s~~~n~~vi~g~~~~k~   46 (66)
+T 3LKX_A            3 NISGIEEVNMFTNQGTVIHFNNPKVQASLAANTFTITGHAETKQ   46 (66)
+T ss_dssp             ECCCEEEEEEEETTSEEEEEESCEEEEECC-CEEEEESCEEEEE
+T ss_pred             CCCCeeEEEEEecCCeEEEeeCcccchhhhcCEEEEecCccccc
+Confidence            57899999999999999999999999999999999999887543
+
+
+No 13
+>6T59_NB Ribosomal protein L8, uL3, uL4; TUBULIN, nascent chain-associated complex, ribosome-nascent; HET: MG; 3.11A {Oryctolagus cuniculus}
+Probab=90.93  E-value=1.7  Score=36.74  Aligned_cols=59  Identities=24%  Similarity=0.475  Sum_probs=52.6  Template_Neff=6.700
+
+Q ss_pred             ccHHHHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEeccchh
+Q sp|Q13765|NACA   71 RSEKKARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEAKIE  129 (215)
+Q Consensus        71 rsekkarkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgeakie  129 (215)
+                      ...||++..|++|++.++++|.+|.+.+.++.+++|.+|.|......++|+|.|.....
+T Consensus        83 ~ddkKlq~~Lkkl~~~~i~~IeEVnmfk~dg~vi~F~~Pkvqas~~~nt~visG~~~~K  141 (206)
+T 6T59_NB          83 ADDKKLQFSLKKLGVNNISGIEEVNMFTNQGTVIHFNNPKVQASLAANTFTITGHAETK  141 (206)
+T ss_pred             cCHHHHHHHHHHhCCCCCCCcceEEEecCCCcEEEecCcchhhhhhcCeEEEECcchhh
+Confidence            34568888899999999999999999999999999999999999899999999976643
+
+
+No 14
+>2CP9_A UBA, structural genomics, human, NPPSFA; NMR {Homo sapiens} SCOP: a.5.2.2
+Probab=63.73  E-value=20  Score=23.47  Aligned_cols=40  Identities=18%  Similarity=0.151  Sum_probs=36.2  Template_Neff=8.700
+
+Q ss_pred             CCChhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHHc
+Q sp|Q13765|NACA  175 GVEVKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMELT  214 (215)
+Q Consensus       175 gvevkdielvmsqanvsrakavralknnsndivnaimelt  214 (215)
+                      .+..++|..++.+++++...+.++|..+++|+..|+..|.
+T Consensus         7 ~~~~~~i~~lr~~t~~~~~~~k~aL~~~~gd~~~A~~~L~   46 (64)
+T 2CP9_A            7 GSSKELLMKLRRKTGYSFVNCKKALETCGGDLKQAEIWLH   46 (64)
+T ss_dssp             CCCCHHHHHHHHHHCCCHHHHHHHHHHHTSCHHHHHHHHH
+T ss_pred             cCCHHHHHHHHHHHCCCHHHHHHHHHHhCCCHHHHHHHHH
+Confidence            4667889999999999999999999999999999998763
+
+
+No 15
+>1WJ7_A UBA domain, ubiquitin associated domain; NMR {Mus musculus} SCOP: a.5.2.1
+Probab=53.34  E-value=34  Score=26.12  Aligned_cols=36  Identities=19%  Similarity=0.283  Sum_probs=33.0  Template_Neff=7.000
+
+Q ss_pred             hhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHH
+Q sp|Q13765|NACA  178 VKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMEL  213 (215)
+Q Consensus       178 vkdielvmsqanvsrakavralknnsndivnaimel  213 (215)
+                      .+-|..|++-++++...+..||..+++|+..||..|
+T Consensus        40 ~~ki~~v~e~T~~s~~e~~~AL~d~~~Dv~~Ai~~l   75 (104)
+T 1WJ7_A           40 EEKVKQLIDITGKNQDECVIALHDCNGDVNRAINVL   75 (104)
+T ss_dssp             HHHHHHHHHHTCCCHHHHHHHHHHHTSCHHHHHHHH
+T ss_pred             HHHHHHHHHccCCCHHHHHHHHHHCCCCHHHHHHHH
+Confidence            446899999999999999999999999999999876
+
+
+No 16
+>5O71_A Ubiquitin carboxyl-terminal hydrolase 25 (E.C.3.4.19.12); Protease, de-ubiquinating Enzyme, USP family; 3.283A {Homo sapiens}
+Probab=43.47  E-value=41  Score=30.53  Aligned_cols=38  Identities=13%  Similarity=0.200  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CChhhhhhhhcccCccHHHHHH-HHHhchHHHHHHHHHH
+Q sp|Q13765|NACA  176 VEVKDIELVMSQANVSRAKAVR-ALKNNSNDIVNAIMEL  213 (215)
+Q Consensus       176 vevkdielvmsqanvsrakavr-alknnsndivnaimel  213 (215)
+                      .++++|..+++-+++++..|+. +|+.++||+-.||..|
+T Consensus        18 ~~~~~i~~l~e~~g~~~~~a~~~~L~~~n~d~e~Ai~~~   56 (716)
+T 5O71_A           18 HQQTFLNQLREITGINDTQILQQALKDSNGNLELAVAFL   56 (716)
+T ss_dssp             ---------------------------------------
+T ss_pred             hHHHHHHHHHHHhCCCcHHHHHHHHHHCCCCHHHHHHHH
+Confidence            4456788898888899999988 9999999999999754
+
+
+No 17
+>4ILF_B Thiol:disulfide interchange protein DsbC; CXXC motif, disulfide isomerase, isomerase; 1.999A {Salmonella typhimurium}
+Probab=40.42  E-value=1.8e+02  Score=21.40  Aligned_cols=49  Identities=20%  Similarity=0.312  Sum_probs=23.4  Template_Neff=11.100
+
+Q ss_pred             HHHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEecc
+Q sp|Q13765|NACA   74 KKARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEA  126 (215)
+Q Consensus        74 kkarkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgea  126 (215)
+                      ..++++|.+++++    +.++.-....+...++....++.......|++.|..
+T Consensus         9 ~~~~~~~~~~~~~----~~~~~~~~~~gl~~v~~~~~~~~~~~~g~~~~~g~~   57 (222)
+T 4ILF_B            9 AAIRQSLAKLGVQ----STEIQASPVAGMKTVLTHSGVLYVTDDGKHIIQGPM   57 (222)
+T ss_dssp             HHHHHHHHHTTCC----EEEEECCSSTTEEEEEETTEEEEEETTSCEEEESCE
+T ss_pred             HHHHHHHHhcCCC----ccEeEecCCCCcEEEEECCeeEEEcCCCCEEEEcce
+Confidence            5578888887664    222222222233333333333333334557777754
+
+
+No 18
+>7EMF_F Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=39.05  E-value=67  Score=29.07  Aligned_cols=39  Identities=28%  Similarity=0.548  Sum_probs=19.4  Template_Neff=5.700
+
+Q ss_pred             CCCcEEEEEEcCCCEEEEEECCcccCC----CCCCeEEEEecc
+Q sp|Q13765|NACA   88 VTGVTRVTIRKSKNILFVITKPDVYKS----PASDTYIVFGEA  126 (215)
+Q Consensus        88 vtgvtrvtirksknilfvitkpdvyks----pasdtyivfgea  126 (215)
+                      ..|+.=+...-....+|+|.+-..+..    +-...||+-|..
+T Consensus        63 m~GiEY~l~~~q~p~LfVI~Kq~R~sp~~v~pla~YYIi~G~I  105 (246)
+T 7EMF_F           63 MVGIEYILLHAQEPILFIIRKQQRQSPAQVIPLADYYIIAGVI  105 (246)
+T ss_pred             ccCceEEEEecCCCeEEEEEEeecCCCCceeeceEEEEECCEE
+Confidence            345554444434456677776555431    223445555543
+
+
+No 19
+>7ENC_f Mediator of RNA polymerase II; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.13A {Sus scrofa}
+Probab=39.05  E-value=67  Score=29.07  Aligned_cols=39  Identities=28%  Similarity=0.548  Sum_probs=19.4  Template_Neff=5.700
+
+Q ss_pred             CCCcEEEEEEcCCCEEEEEECCcccCC----CCCCeEEEEecc
+Q sp|Q13765|NACA   88 VTGVTRVTIRKSKNILFVITKPDVYKS----PASDTYIVFGEA  126 (215)
+Q Consensus        88 vtgvtrvtirksknilfvitkpdvyks----pasdtyivfgea  126 (215)
+                      ..|+.=+...-....+|+|.+-..+..    +-...||+-|..
+T Consensus        63 m~GiEY~l~~~q~p~LfVI~Kq~R~sp~~v~pla~YYIi~G~I  105 (246)
+T 7ENC_f           63 MVGIEYILLHAQEPILFIIRKQQRQSPAQVIPLADYYIIAGVI  105 (246)
+T ss_pred             ccCceEEEEecCCCeEEEEEEeecCCCCceeeceEEEEECCEE
+Confidence            345554444434456677776555431    223445555543
+
+
+No 20
+>1EEJ_A DISULFIDE BOND ISOMERASE (E.C.5.3.4.1); OXIDOREDUCTASE, PROTEIN DISULFIDE ISOMERASE, PROTEIN; HET: MES; 1.9A {Escherichia coli} SCOP: c.47.1.9, d.17.3.1
+Probab=27.55  E-value=3.4e+02  Score=19.97  Aligned_cols=49  Identities=14%  Similarity=0.263  Sum_probs=22.0  Template_Neff=11.100
+
+Q ss_pred             HHHHHHHHHcCCccCCCcEEEEEEcCCCEEEEEECCcccCCCCCCeEEEEecc
+Q sp|Q13765|NACA   74 KKARKAMSKLGLRQVTGVTRVTIRKSKNILFVITKPDVYKSPASDTYIVFGEA  126 (215)
+Q Consensus        74 kkarkamsklglrqvtgvtrvtirksknilfvitkpdvykspasdtyivfgea  126 (215)
+                      ..++++|.+++++    +.++.-..-.+...++....++.......|++.|..
+T Consensus         3 ~~~~~~~~~~~~~----~~~~~~~~~~gl~~v~~~~~~~~~~~~g~~~~~g~l   51 (216)
+T 1EEJ_A            3 AAIQQTLAKMGIK----SSDIQPAPVAGMKTVLTNSGVLYITDDGKHIIQGPM   51 (216)
+T ss_dssp             HHHHHHHHHTTCC----EEEEEECSSTTEEEEEETTEEEEEETTSCEEEESCE
+T ss_pred             HHHHHHHHHcCCC----ceeeEecCCCCcEEEEECCeEEEEcCCCCEEEEeee
+Confidence            4566777776653    222222222233333333333333334556676653
+
+
+No 21
+>1G0T_B thiol oxidoreductase, protein disulfide bond; 2.6A {Escherichia coli} SCOP: c.47.1.9, d.17.3.1
+Probab=26.91  E-value=3.3e+02  Score=20.04  Aligned_cols=12  Identities=17%  Similarity=0.592  Sum_probs=7.5  Template_Neff=11.100
+
+Q ss_pred             HHHHHHHHHcCC
+Q sp|Q13765|NACA   74 KKARKAMSKLGL   85 (215)
+Q Consensus        74 kkarkamsklgl   85 (215)
+                      ..++++|.++++
+T Consensus         3 ~~~~~~~~~~~~   14 (216)
+T 1G0T_B            3 AAIQQTLAKMGI   14 (216)
+T ss_dssp             HHHHHHHHTTTC
+T ss_pred             HHHHHHHHHcCC
+Confidence            456667776654
+
+
+No 22
+>3K6G_A Telomeric repeat-binding factor 2-interacting protein; helix, Chromosomal protein, Nucleus, Phosphoprotein; HET: MSE; 1.95A {Homo sapiens}
+Probab=26.32  E-value=1.7e+02  Score=23.41  Aligned_cols=36  Identities=22%  Similarity=0.266  Sum_probs=32.6  Template_Neff=6.100
+
+Q ss_pred             hhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHH
+Q sp|Q13765|NACA  178 VKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMEL  213 (215)
+Q Consensus       178 vkdielvmsqanvsrakavralknnsndivnaimel  213 (215)
+                      ...|..+|.+.+.+...+..||..+.||+..|...|
+T Consensus        14 ~~~v~~Lm~e~~~~~~~V~~aL~~~SGdv~~A~~~L   49 (111)
+T 3K6G_A           14 IKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFL   49 (111)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHHHHHHTTTCHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHccCcHHHHHHHH
+Confidence            457889999999999999999999999999988776
+
+
+No 23
+>3K6G_B Telomeric repeat-binding factor 2-interacting protein; helix, Chromosomal protein, Nucleus, Phosphoprotein; HET: MSE; 1.95A {Homo sapiens}
+Probab=26.32  E-value=1.7e+02  Score=23.41  Aligned_cols=36  Identities=22%  Similarity=0.266  Sum_probs=32.5  Template_Neff=6.100
+
+Q ss_pred             hhhhhhhhcccCccHHHHHHHHHhchHHHHHHHHHH
+Q sp|Q13765|NACA  178 VKDIELVMSQANVSRAKAVRALKNNSNDIVNAIMEL  213 (215)
+Q Consensus       178 vkdielvmsqanvsrakavralknnsndivnaimel  213 (215)
+                      ...|..+|.+.+.+...+..||..+.||+..|...|
+T Consensus        14 ~~~v~~Lm~e~~~~~~~V~~aL~~~SGdv~~A~~~L   49 (111)
+T 3K6G_B           14 IKIIRQLMEKFNLDLSTVTQAFLKNSGELEATSAFL   49 (111)
+T ss_dssp             HHHHHHHHHHHTCCHHHHHHHHHHTTTBHHHHHHHH
+T ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHccCcHHHHHHHH
+Confidence            457889999999999999999999999999988776
+
+
+No 24
+>5Y3T_B RanBP-type and C3HC4-type zinc finger-containing; HOIP, HOIL-1L, SHARPIN, Linear-Ubiquitin Assembly; 2.4A {Mus musculus}
+Probab=23.88  E-value=2.3e+02  Score=23.06  Aligned_cols=33  Identities=21%  Similarity=0.292  Sum_probs=20.4  Template_Neff=7.400
+
+Q ss_pred             hhhhhcccCccHHHHHHHHHhchHHHHHHHHHH
+Q sp|Q13765|NACA  181 IELVMSQANVSRAKAVRALKNNSNDIVNAIMEL  213 (215)
+Q Consensus       181 ielvmsqanvsrakavralknnsndivnaimel  213 (215)
+                      +..++.....++..++.||..++||+..|+..|
+T Consensus       102 ~~~L~~~G~~~~~~~~~AL~~~~gd~~~Al~~L  134 (158)
+T 5Y3T_B          102 VHELQSLGFGPKEGSLQALFQHGGDVARALTEL  134 (158)
+T ss_dssp             HHHHHHTTCCGGGTHHHHHHHTTTCHHHHHHHH
+T ss_pred             HHHHHhcCCCCHHHHHHHHHHcCCcHHHHHHHH
+Confidence            444444444555566777777777777776655
+
+
+No 25
+>4H61_A Mediator of RNA polymerase II; TRANSCRIPTION, MEDIATOR COMPLEX, NUCLEUS; 2.7A {Schizosaccharomyces pombe}
+Probab=21.77  E-value=1.9e+02  Score=24.19  Aligned_cols=39  Identities=28%  Similarity=0.446  Sum_probs=20.7  Template_Neff=7.000
+
+Q ss_pred             cCCCcEEEEEEcCCCEEEEEECCcccCCC---CCCeEEEEec
+Q sp|Q13765|NACA   87 QVTGVTRVTIRKSKNILFVITKPDVYKSP---ASDTYIVFGE  125 (215)
+Q Consensus        87 qvtgvtrvtirksknilfvitkpdvyksp---asdtyivfge  125 (215)
+                      .+.|+.=+...-....+|||.+-......   ....|.|++.
+T Consensus        67 ~m~GieY~v~~~~~p~lfvI~Kq~R~~~~~~~~la~YYIi~g  108 (175)
+T 4H61_A           67 RLTGIQFVIIHERPPFLWVIQKQNRLNENEVKPLTVYFVCNE  108 (175)
+T ss_dssp             TCCEEEEEEEEEETTTEEEEEEEEECSSSCEEEEEEEEEETT
+T ss_pred             HccCCEEEEEecCCCeeEEEEEeeeCCCCeeeeeeEEEEeCC
+Confidence            45566666554444557888765543211   1244555554
+
+
+No 26
+>2RU9_A Predicted transporter; ferredoxin like, TRANSPORT PROTEIN; NMR {Escherichia coli}
+Probab=21.03  E-value=3.7e+02  Score=18.09  Aligned_cols=26  Identities=23%  Similarity=0.353  Sum_probs=18.9  Template_Neff=8.900
+
+Q ss_pred             CccCCCcEEEEEEcCCCEEEEEECCc
+Q sp|Q13765|NACA   85 LRQVTGVTRVTIRKSKNILFVITKPD  110 (215)
+Q Consensus        85 lrqvtgvtrvtirksknilfvitkpd  110 (215)
+                      |..++||..|.+....+..++=-++.
+T Consensus        29 L~~l~GV~ev~v~~~e~~~ylkvd~~   54 (76)
+T 2RU9_A           29 LLETEGVKEVLIAEEEHSAYVKIDSK   54 (76)
+T ss_dssp             HTTSTTEEEEEEETTTTEEEEEEETT
+T ss_pred             HHcCCCeeEEEEEcCCCEEEEEEccc
+Confidence            44688999999999888765533333
+
+

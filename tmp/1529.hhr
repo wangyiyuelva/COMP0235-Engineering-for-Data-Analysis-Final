@@ -1,0 +1,246 @@
+Query         sp|Q5T953|IER5L_HUMAN
+Match_columns 404
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:45:58 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1529.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZON_F 40S ribosomal protein S  72.1      19 0.00021   34.0   5.7   11  239-249    85-95  (357)
+  2 6ZP4_F 40S ribosomal protein S  72.1      19 0.00021   34.0   5.7   11  239-249    85-95  (357)
+  3 1B71_A RUBRERYTHRIN; ELECTRON   46.2      27 0.00029   27.7   1.6   18  270-287   162-179 (191)
+  4 1LKO_A Rubrerythrin all-iron(I  46.2      27 0.00029   27.7   1.6   18  270-287   162-179 (191)
+  5 1S2Z_A Rubrerythrin; Rubreryth  46.2      27 0.00029   27.7   1.6   18  270-287   162-179 (191)
+  6 1L8D_A DNA double-strand break  36.9      38 0.00041   25.3   1.2   12  279-290    47-58  (112)
+  7 1L8D_B DNA double-strand break  36.9      38 0.00041   25.3   1.2   12  279-290    47-58  (112)
+  8 5GOX_A DNA repair protein RAD5  34.4      43 0.00047   26.9   1.2   13  279-291    98-110 (186)
+  9 2ZXT_A Maltose-binding peripla  27.8      89 0.00097   28.2   2.1   25  269-293   383-407 (465)
+ 10 5A5U_B EUKARYOTIC INITIATION F  23.9 7.4E+02  0.0081   27.2   8.0    8   45-52    190-197 (1121)
+ 11 6FEC_w Eukaryotic translation   23.9 7.4E+02  0.0081   27.2   8.0    8   45-52    190-197 (1121)
+ 12 2II3_H Lipoamide acyltransfera  23.6 2.2E+02  0.0024   24.0   3.5    8  226-233    17-24  (262)
+ 13 2II4_B Lipoamide acyltransfera  23.6 2.2E+02  0.0024   24.0   3.5    8  226-233    17-24  (262)
+ 14 7JRJ_F Radial spoke protein 10  20.4 1.9E+02  0.0021   30.8   3.1   49  319-367   329-385 (814)
+ 15 7JTK_B Radial spoke 1; cilia,   20.4 1.9E+02  0.0021   30.8   3.1   49  319-367   329-385 (814)
+
+No 1
+>6ZON_F 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; 3.0A {Homo sapiens}
+Probab=72.05  E-value=19  Score=34.02  Aligned_cols=11  Identities=27%  Similarity=0.495  Sum_probs=4.2  Template_Neff=8.500
+
+Q ss_pred             CCCChhhcCCC
+Q sp|Q5T953|IER5  239 AYPTPSDFGLH  249 (404)
+Q Consensus       239 ayptpsdfglh  249 (404)
+                      ..+.....-+|
+T Consensus        85 ~~~~~~~V~i~   95 (357)
+T 6ZON_F           85 PFPGGRVVRLH   95 (357)
+T ss_pred             CCCCCCEEEEc
+Confidence            33333333343
+
+
+No 2
+>6ZP4_F 40S ribosomal protein SA, 40S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: GTP; 2.9A {Homo sapiens}
+Probab=72.05  E-value=19  Score=34.02  Aligned_cols=11  Identities=27%  Similarity=0.495  Sum_probs=4.2  Template_Neff=8.500
+
+Q ss_pred             CCCChhhcCCC
+Q sp|Q5T953|IER5  239 AYPTPSDFGLH  249 (404)
+Q Consensus       239 ayptpsdfglh  249 (404)
+                      ..+.....-+|
+T Consensus        85 ~~~~~~~V~i~   95 (357)
+T 6ZP4_F           85 PFPGGRVVRLH   95 (357)
+T ss_pred             CCCCCCEEEEc
+Confidence            33333333343
+
+
+No 3
+>1B71_A RUBRERYTHRIN; ELECTRON TRANSPORT, IRON, FERROXIDASE; 1.9A {Desulfovibrio vulgaris subsp. vulgaris str. Hildenborough} SCOP: g.41.5.1, a.25.1.1
+Probab=46.20  E-value=27  Score=27.75  Aligned_cols=18  Identities=39%  Similarity=1.021  Sum_probs=10.3  Template_Neff=10.700
+
+Q ss_pred             CccccccccCCCCCCCCC
+Q sp|Q5T953|IER5  270 GYLHQDCCASAHCPCCGQ  287 (404)
+Q Consensus       270 gylhqdccasahcpccgq  287 (404)
+                      ||+...-.....||+||.
+T Consensus       162 g~~~~~~~~p~~cp~C~~  179 (191)
+T 1B71_A          162 GYVHEGTGAPELCPACAH  179 (191)
+T ss_dssp             CCEEEEEECCSBCTTTCC
+T ss_pred             CCEEecCCCCcCCCCCCC
+Confidence            444444334557888875
+
+
+No 4
+>1LKO_A Rubrerythrin all-iron(II) form; Rubrerythrin, reduced form, diiron, four-helix; 1.63A {Desulfovibrio vulgaris} SCOP: g.41.5.1, a.25.1.1
+Probab=46.20  E-value=27  Score=27.75  Aligned_cols=18  Identities=39%  Similarity=1.021  Sum_probs=9.4  Template_Neff=10.700
+
+Q ss_pred             CccccccccCCCCCCCCC
+Q sp|Q5T953|IER5  270 GYLHQDCCASAHCPCCGQ  287 (404)
+Q Consensus       270 gylhqdccasahcpccgq  287 (404)
+                      ||+...-.....||+||.
+T Consensus       162 g~~~~~~~~p~~cp~C~~  179 (191)
+T 1LKO_A          162 GYVHEGTGAPELCPACAH  179 (191)
+T ss_dssp             CCEEEEEECCSBCTTTCC
+T ss_pred             CCEEecCCCCcCCCCCCC
+Confidence            444433234456777765
+
+
+No 5
+>1S2Z_A Rubrerythrin; Rubrerythrin, zinc-substituted, diiron four-helix bundle; 1.75A {Desulfovibrio vulgaris} SCOP: g.41.5.1, a.25.1.1
+Probab=46.20  E-value=27  Score=27.75  Aligned_cols=18  Identities=39%  Similarity=1.021  Sum_probs=10.3  Template_Neff=10.700
+
+Q ss_pred             CccccccccCCCCCCCCC
+Q sp|Q5T953|IER5  270 GYLHQDCCASAHCPCCGQ  287 (404)
+Q Consensus       270 gylhqdccasahcpccgq  287 (404)
+                      ||+...-.....||+||.
+T Consensus       162 g~~~~~~~~p~~cp~C~~  179 (191)
+T 1S2Z_A          162 GYVHEGTGAPELCPACAH  179 (191)
+T ss_dssp             CCEEEEEECCSBCTTTCC
+T ss_pred             CCEEecCCCCcCCCCCCC
+Confidence            444444334556888875
+
+
+No 6
+>1L8D_A DNA double-strand break repair rad50; zinc finger, rad50, DNA repair; HET: CIT, PO4; 2.2A {Pyrococcus furiosus} SCOP: h.4.12.1
+Probab=36.85  E-value=38  Score=25.32  Aligned_cols=12  Identities=33%  Similarity=1.054  Sum_probs=8.6  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q sp|Q5T953|IER5  279 SAHCPCCGQGAP  290 (404)
+Q Consensus       279 sahcpccgqgap  290 (404)
+                      ...||.||+.-.
+T Consensus        47 ~~~CP~C~~~l~   58 (112)
+T 1L8D_A           47 KGKCPVCGRELT   58 (112)
+T ss_dssp             SEECTTTCCEEC
+T ss_pred             cCCCCCCCCCCC
+Confidence            457999998543
+
+
+No 7
+>1L8D_B DNA double-strand break repair rad50; zinc finger, rad50, DNA repair; HET: CIT, PO4; 2.2A {Pyrococcus furiosus} SCOP: h.4.12.1
+Probab=36.85  E-value=38  Score=25.32  Aligned_cols=12  Identities=33%  Similarity=1.054  Sum_probs=8.6  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q sp|Q5T953|IER5  279 SAHCPCCGQGAP  290 (404)
+Q Consensus       279 sahcpccgqgap  290 (404)
+                      ...||.||+.-.
+T Consensus        47 ~~~CP~C~~~l~   58 (112)
+T 1L8D_B           47 KGKCPVCGRELT   58 (112)
+T ss_dssp             SEECTTTCCEEC
+T ss_pred             cCCCCCCCCCCC
+Confidence            457999998543
+
+
+No 8
+>5GOX_A DNA repair protein RAD50 (E.C.3.6.-.-); DNA repair, HYDROLASE; HET: GOL, MSE; 2.405A {Homo sapiens}
+Probab=34.42  E-value=43  Score=26.85  Aligned_cols=13  Identities=23%  Similarity=0.621  Sum_probs=9.9  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCCCCC
+Q sp|Q5T953|IER5  279 SAHCPCCGQGAPG  291 (404)
+Q Consensus       279 sahcpccgqgapg  291 (404)
+                      ...||+|+++-..
+T Consensus        98 ~~~Cp~C~r~~~~  110 (186)
+T 5GOX_A           98 QSCCPVCQRVFQT  110 (186)
+T ss_dssp             CCBCSSSCCBCSS
+T ss_pred             CCCCCCCCCCCCC
+Confidence            5679999987654
+
+
+No 9
+>2ZXT_A Maltose-binding periplasmic protein, LINKER, Mitochondrial; disulfide bond, alpha helix, fusion; HET: GLC; 3.0A {Escherichia coli (strain K12)}
+Probab=27.80  E-value=89  Score=28.20  Aligned_cols=25  Identities=32%  Similarity=0.515  Sum_probs=17.7  Template_Neff=11.100
+
+Q ss_pred             CCccccccccCCCCCCCCCCCCCCC
+Q sp|Q5T953|IER5  269 NGYLHQDCCASAHCPCCGQGAPGPG  293 (404)
+Q Consensus       269 ngylhqdccasahcpccgqgapgpg  293 (404)
+                      .+|.+.+--..-.|||||.-+-||-
+T Consensus       383 ~~~~~~~~~~~~~~~~~~~~~~~~~  407 (465)
+T 2ZXT_A          383 FAYNPDTGEINWDCPCLGGMAHGPC  407 (465)
+T ss_dssp             GGEETTTTEECTTCGGGTTTTSSTT
+T ss_pred             ceecCCCCccCCCCCCccCcccCCC
+Confidence            4555555555667999998888874
+
+
+No 10
+>5A5U_B EUKARYOTIC INITIATION FACTOR 3, EUKARYOTIC; TRANSLATION, EIF3, EIF3 OCTAMER CORE; 9.0A {ORYCTOLAGUS CUNICULUS}
+Probab=23.86  E-value=7.4e+02  Score=27.24  Aligned_cols=8  Identities=63%  Similarity=0.679  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHhhHHH
+Q sp|Q5T953|IER5   45 QLYLSERY   52 (404)
+Q Consensus        45 qlylsery   52 (404)
+                      .+-|+|.|
+T Consensus       190 ~~~l~~i~  197 (1121)
+T 5A5U_B          190 MLTLSEIY  197 (1121)
+T ss_dssp             --------
+T ss_pred             CcCHHHHH
+Confidence            34444443
+
+
+No 11
+>6FEC_w Eukaryotic translation initiation factor 3; Translation initiation, 48S complex, capped; 6.3A {Homo sapiens}
+Probab=23.86  E-value=7.4e+02  Score=27.24  Aligned_cols=8  Identities=63%  Similarity=0.679  Sum_probs=3.3  Template_Neff=9.500
+
+Q ss_pred             HHHhhHHH
+Q sp|Q5T953|IER5   45 QLYLSERY   52 (404)
+Q Consensus        45 qlylsery   52 (404)
+                      .+-|+|.|
+T Consensus       190 ~~~l~~i~  197 (1121)
+T 6FEC_w          190 MLTLSEIY  197 (1121)
+T ss_pred             CcCHHHHH
+Confidence            34444433
+
+
+No 12
+>2II3_H Lipoamide acyltransferase component of branched-chain; cubic core, homo trimer, oxidized; HET: CL, CAO, ACT; 2.17A {Bos taurus}
+Probab=23.58  E-value=2.2e+02  Score=23.99  Aligned_cols=8  Identities=50%  Similarity=0.904  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCC
+Q sp|Q5T953|IER5  226 SPAPASSP  233 (404)
+Q Consensus       226 spapassp  233 (404)
+                      .++|++.|
+T Consensus        17 ~~~~~~~~   24 (262)
+T 2II3_H           17 IPIPISKP   24 (262)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            34555555
+
+
+No 13
+>2II4_B Lipoamide acyltransferase component of branched-chain; cubic core, homo trimer, CoA-bound; HET: CL, COA; 2.59A {Bos taurus}
+Probab=23.58  E-value=2.2e+02  Score=23.99  Aligned_cols=8  Identities=50%  Similarity=0.904  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCC
+Q sp|Q5T953|IER5  226 SPAPASSP  233 (404)
+Q Consensus       226 spapassp  233 (404)
+                      .++|++.|
+T Consensus        17 ~~~~~~~~   24 (262)
+T 2II4_B           17 IPIPISKP   24 (262)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            34555555
+
+
+No 14
+>7JRJ_F Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=20.42  E-value=1.9e+02  Score=30.77  Aligned_cols=49  Identities=24%  Similarity=0.537  Sum_probs=28.9  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCChhh---c---CCCCCCCccchhhhHhhh--CCCCCCC
+Q sp|Q5T953|IER5  319 GGLGAEPPGGAPFAPCKRARFED---F---CPDSSPDASNISNLISIF--GSGFSGL  367 (404)
+Q Consensus       319 gglgaeppggapfapckrarfed---f---cpdsspdasnisnlisif--gsgfsgl  367 (404)
+                      ++--+|++.+++-....+..|.+   +   ...-.+....|--+++||  +.+|+.+
+T Consensus       329 ~~~~~~~~~~~~~~~~~~~~~~~~~~i~v~l~~~p~~~~~i~~~~~~~~~~~~f~~~  385 (814)
+T 7JRJ_F          329 GGEPKEPPPPPPAPKVDPYEFKERDVIYLDVPDLPAEVRSMVLLVTNYDEENGFTRV  385 (814)
+T ss_pred             CCCCCCCCCCCCCCCCCcccccccCeEEEehhcCCHhheEEEEEEEccCCCCceeee
+Confidence            33345566666655555555552   2   223344667788888999  6677654
+
+
+No 15
+>7JTK_B Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=20.42  E-value=1.9e+02  Score=30.77  Aligned_cols=49  Identities=24%  Similarity=0.499  Sum_probs=22.2  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCChhh------cCCCCCCCccchhhhHhhh--CCCCCCC
+Q sp|Q5T953|IER5  319 GGLGAEPPGGAPFAPCKRARFED------FCPDSSPDASNISNLISIF--GSGFSGL  367 (404)
+Q Consensus       319 gglgaeppggapfapckrarfed------fcpdsspdasnisnlisif--gsgfsgl  367 (404)
+                      ++--+|++.+++-....+..|.+      ....-.+....|--+++||  +.+|+.+
+T Consensus       329 ~~~~~~~~~~~~~~~~~~~~~~~~~~i~v~l~~~p~~~~~i~~~~~~~~~~~~f~~~  385 (814)
+T 7JTK_B          329 GGEPKEPPPPPPAPKVDPYEFKERDVIYLDVPDLPAEVRSMVLLVTNYDEENGFTRV  385 (814)
+T ss_dssp             --------------CCCTTCCCCCEEEEEESTTSCTTBCCCEEEEECCCSSCTTTTC
+T ss_pred             CCCCCCCCCCCCCCCCCcccccccCeEEEehhcCCHhheEEEEEEEccCCCCceeee
+Confidence            33345566666655555555542      1234445677888888999  6777655
+
+

@@ -1,0 +1,167 @@
+Query         sp|Q17RF5|ODAPH_HUMAN
+Match_columns 130
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:43:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0956.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2LLL_A Lamin-B2; immunoglobuli  30.4      52 0.00056   20.0   0.8   14    1-14      1-14  (139)
+  2 5V5H_B RNA-directed RNA polyme  11.4 2.5E+02  0.0027   15.1   0.8   12    1-12      1-12  (105)
+  3 4V7E_BM Ribosome; eukaryotic r  11.3 2.4E+02  0.0027   20.7   0.9    9   47-55      7-15  (171)
+  4 3RLK_A A1 protein; Beta-barrel   9.4 6.2E+02  0.0067   22.3   2.7   41   49-89      9-49  (192)
+  5 3KKA_E EPHRIN TYPE-A RECEPTOR    7.0   5E+02  0.0054   12.7   0.8   10    3-12      3-12  (86)
+  6 2EQG_A zf-A20 domain, Tumor ne   7.0 4.6E+02  0.0049   18.3   0.8   10   65-74     14-23  (49)
+  7 3H8M_A Ephrin type-A receptor    6.9 5.3E+02  0.0058   12.8   0.9   10    3-12      3-12  (90)
+  8 3H8M_B Ephrin type-A receptor    6.9 5.3E+02  0.0058   12.8   0.9   10    3-12      3-12  (90)
+  9 6Z1P_BN Ribosomal protein L2,    6.6 2.4E+02  0.0026   25.8  -0.9    9    5-13    204-212 (283)
+ 10 6UUR_C Major prion protein; am   6.1 1.1E+03   0.012   17.9   2.4   34   72-105    37-70  (85)
+
+No 1
+>2LLL_A Lamin-B2; immunoglobulin-like fold, structural protein, NESG; NMR {Homo sapiens}
+Probab=30.40  E-value=52  Score=20.03  Aligned_cols=14  Identities=21%  Similarity=-0.071  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCccchhccc
+Q sp|Q17RF5|ODAP    1 MARRHCFSYWLLVC   14 (130)
+Q Consensus         1 marrhcfsywllvc   14 (130)
+                      |-+.|||++|++-+
+T Consensus         1 ~~~~~~~~~~~~~~   14 (139)
+T 2LLL_A            1 MHHHHHHSSGRENL   14 (139)
+T ss_dssp             --------------
+T ss_pred             CCCCccccccccee
+Confidence            56789999998743
+
+
+No 2
+>5V5H_B RNA-directed RNA polymerase L (E.C.3.4.19.12,2.7.7.48); Ovarian Tumor Domain protease, deubiquitinase; HET: EPE, CSD; 1.5A {Crimean-Congo hemorrhagic fever virus (strain Nigeria/IbAr10200/1970)}
+Probab=11.43  E-value=2.5e+02  Score=15.10  Aligned_cols=12  Identities=33%  Similarity=0.268  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CCCCCCccchhc
+Q sp|Q17RF5|ODAP    1 MARRHCFSYWLL   12 (130)
+Q Consensus         1 marrhcfsywll   12 (130)
+                      |+--+|++||-.
+T Consensus         1 ~~~~~~~~~~~~   12 (105)
+T 5V5H_B            1 MAHHHHHHVTSL   12 (105)
+T ss_dssp             ------------
+T ss_pred             CCCCcccccccc
+Confidence            455566666643
+
+
+No 3
+>4V7E_BM Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=11.33  E-value=2.4e+02  Score=20.74  Aligned_cols=9  Identities=78%  Similarity=1.387  Sum_probs=6.1  Template_Neff=8.400
+
+Q ss_pred             cCCCCCCCC
+Q sp|Q17RF5|ODAP   47 TLTPPPAPR   55 (130)
+Q Consensus        47 tltpppapr   55 (130)
+                      ||+|||.|.
+T Consensus         7 ~~~~~~~~~   15 (171)
+T 4V7E_BM           7 TLTPPPPPL   15 (171)
+T ss_pred             cCCCCCCCc
+Confidence            677777663
+
+
+No 4
+>3RLK_A A1 protein; Beta-barrel, polyproline helix, STRUCTURAL PROTEIN; HET: PG4; 1.76A {Enterobacteria phage Qbeta}
+Probab=9.35  E-value=6.2e+02  Score=22.31  Aligned_cols=41  Identities=27%  Similarity=0.426  Sum_probs=27.8  Template_Neff=1.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCC
+Q sp|Q17RF5|ODAP   49 TPPPAPRSPVTRAQPITKTPRCPFHFFPRRPRIHFRFPNRP   89 (130)
+Q Consensus        49 tpppaprspvtraqpitktprcpfhffprrprihfrfpnrp   89 (130)
+                      .|-|.|.+|.....+-|.+-+|||..+....-|.---.++|
+T Consensus         9 ~~~~v~~~P~vkPP~GTG~y~CPF~~~rl~~i~e~~~~~~p   49 (192)
+T 3RLK_A            9 KPDPVIPDPPIDPPPGTGKYTCPFAIWSLEEVYEPPTKNRP   49 (192)
+T ss_dssp             -CCCCCCCCCCCCCCCSSCEECSSCEEEEEEEEECCCSSSC
+T ss_pred             CCCCCCCCCCCCCCCCCCeeecCeEEEEcceeecCCCCCCC
+Confidence            35566667777777888899999998766555544444444
+
+
+No 5
+>3KKA_E EPHRIN TYPE-A RECEPTOR 1 (E.C.2.7.10.1); ATP-BINDING, KINASE, NUCLEOTIDE-BINDING, RECEPTOR, TRANSFERASE; 2.4A {HOMO SAPIENS}
+Probab=7.04  E-value=5e+02  Score=12.70  Aligned_cols=10  Identities=20%  Similarity=-0.094  Sum_probs=0.0  Template_Neff=13.500
+
+Q ss_pred             CCCCccchhc
+Q sp|Q17RF5|ODAP    3 RRHCFSYWLL   12 (130)
+Q Consensus         3 rrhcfsywll   12 (130)
+                      +-|-++||.+
+T Consensus         3 ~~~~~~~~~~   12 (86)
+T 3KKA_E            3 HHHHHSSGRE   12 (86)
+T ss_dssp             ----------
+T ss_pred             CCcccccccc
+Confidence            4445555543
+
+
+No 6
+>2EQG_A zf-A20 domain, Tumor necrosis factor; HET: ZN; NMR {Homo sapiens}
+Probab=6.98  E-value=4.6e+02  Score=18.27  Aligned_cols=10  Identities=50%  Similarity=1.288  Sum_probs=7.5  Template_Neff=3.800
+
+Q ss_pred             CCCCCCCCCC
+Q sp|Q17RF5|ODAP   65 TKTPRCPFHF   74 (130)
+Q Consensus        65 tktprcpfhf   74 (130)
+                      -.||+|||..
+T Consensus        14 C~Tp~C~y~~   23 (49)
+T 2EQG_A           14 CETPNCPFFM   23 (49)
+T ss_dssp             CSSTTCCSBC
+T ss_pred             ecCCCCCceE
+Confidence            3589999854
+
+
+No 7
+>3H8M_A Ephrin type-A receptor 7 (E.C.2.7.10.1); SAM DOMAIN, KINASE, STRUCTURAL GENOMICS; 2.1A {Homo sapiens}
+Probab=6.95  E-value=5.3e+02  Score=12.81  Aligned_cols=10  Identities=20%  Similarity=-0.094  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             CCCCccchhc
+Q sp|Q17RF5|ODAP    3 RRHCFSYWLL   12 (130)
+Q Consensus         3 rrhcfsywll   12 (130)
+                      -.+-|+||+.
+T Consensus         3 ~~~~~~~~~~   12 (90)
+T 3H8M_A            3 HHHHHSSGRE   12 (90)
+T ss_dssp             ----------
+T ss_pred             CCCCCccccc
+Confidence            3455666654
+
+
+No 8
+>3H8M_B Ephrin type-A receptor 7 (E.C.2.7.10.1); SAM DOMAIN, KINASE, STRUCTURAL GENOMICS; 2.1A {Homo sapiens}
+Probab=6.95  E-value=5.3e+02  Score=12.81  Aligned_cols=10  Identities=20%  Similarity=-0.094  Sum_probs=0.4  Template_Neff=13.400
+
+Q ss_pred             CCCCccchhc
+Q sp|Q17RF5|ODAP    3 RRHCFSYWLL   12 (130)
+Q Consensus         3 rrhcfsywll   12 (130)
+                      -.+-|+||+.
+T Consensus         3 ~~~~~~~~~~   12 (90)
+T 3H8M_B            3 HHHHHSSGRE   12 (90)
+T ss_dssp             ---------C
+T ss_pred             CCCCCccccc
+Confidence            3455666654
+
+
+No 9
+>6Z1P_BN Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: ATP, MG; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=6.59  E-value=2.4e+02  Score=25.83  Aligned_cols=9  Identities=22%  Similarity=1.032  Sum_probs=7.4  Template_Neff=3.000
+
+Q ss_pred             CCccchhcc
+Q sp|Q17RF5|ODAP    5 HCFSYWLLV   13 (130)
+Q Consensus         5 hcfsywllv   13 (130)
+                      .|++||.|+
+T Consensus       204 sc~~YW~l~  212 (283)
+T 6Z1P_BN         204 AAYTYWKIY  212 (283)
+T ss_pred             HHHHHHHHH
+Confidence            589999875
+
+
+No 10
+>6UUR_C Major prion protein; amyloid, fibril, prion, filament, protein;{Homo sapiens}
+Probab=6.07  E-value=1.1e+03  Score=17.93  Aligned_cols=34  Identities=29%  Similarity=0.359  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q17RF5|ODAP   72 FHFFPRRPRIHFRFPNRPFVPSRCNHRFPFQPFY  105 (130)
+Q Consensus        72 fhffprrprihfrfpnrpfvpsrcnhrfpfqpfy  105 (130)
+                      +-.++.||++||.-+..----..-.+|++-|.+|
+T Consensus        37 LG~~~srp~~~F~s~~Eer~yn~~~~r~~nqvy~   70 (85)
+T 6UUR_C           37 LGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYY   70 (85)
+T ss_dssp             CSCCEECCEEECCCCC------------------
+T ss_pred             ccCcCCCCCCCCCChhHhcccccccccCCCCCcc
+
+

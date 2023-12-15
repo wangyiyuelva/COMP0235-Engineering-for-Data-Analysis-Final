@@ -1,0 +1,564 @@
+Query         tr|C9JSX3|C9JSX3_HUMAN
+Match_columns 186
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:04:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0971.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6V0O_A methylation, methyltran 100.0 1.5E-32 1.6E-37  233.7  15.3  162    1-172     1-162 (637)
+  2 6V0P_A methyltransferase, spli 100.0 1.5E-32 1.6E-37  233.7  15.3  162    1-172     1-162 (637)
+  3 7BOC_A TIM barrel, Methyltrans 100.0 7.9E-31 8.6E-36  206.5  15.5  161    1-171     1-161 (292)
+  4 6CKC_A Protein arginine N-meth 100.0 9.9E-30 1.1E-34  217.8  14.1  161    1-171    14-174 (650)
+  5 3UA3_A Protein arginine N-meth  99.9 4.8E-23 5.2E-28  183.8  12.7  134   26-170    70-204 (745)
+  6 3UA3_B Protein arginine N-meth  99.9 4.8E-23 5.2E-28  183.8  12.7  134   26-170    70-204 (745)
+  7 2I3O_D Gamma-glutamyltransfera  42.9      32 0.00034   30.8   1.7   49   22-75    184-232 (516)
+  8 4Y23_A gamma-glutamyl transpep  36.7      57 0.00062   29.9   2.4   19   21-39    216-234 (585)
+  9 1XIM_C D-XYLOSE ISOMERASE (E.C  33.4 2.5E+02  0.0027   23.3   5.2   37  101-137   102-138 (393)
+ 10 6X6O_B DNA dC-dU-editing enzym  33.3 1.1E+02  0.0012   25.5   3.1   10  114-123    60-69  (105)
+ 11 6XC1_C DNA dC-dU-editing enzym  33.3 1.1E+02  0.0012   25.5   3.1   10  114-123    60-69  (105)
+ 12 7D9E_A Gamma-glutamyltransfera  32.8      63 0.00068   27.9   1.9   17   22-38    198-214 (371)
+ 13 5MRC_ZZ 54S ribosomal protein   32.0      99  0.0011   23.0   2.6   19   21-39     25-43  (91)
+ 14 5MRF_ZZ 54S ribosomal protein   32.0      99  0.0011   23.0   2.6   19   21-39     25-43  (91)
+ 15 4LNA_A Purine nucleoside phosp  31.5      17 0.00018   28.8  -1.5   10  144-153    23-32  (293)
+ 16 2NLZ_D Cephalosporin acylase;   30.2      62 0.00067   29.4   1.5   18   22-39    200-217 (547)
+ 17 2W1V_B NITRILASE HOMOLOG 2 (E.  29.9 1.3E+02  0.0014   22.0   2.8   22   24-45     22-43  (276)
+ 18 4XIA_B D-XYLOSE ISOMERASE (E.C  25.7 5.3E+02  0.0058   21.4   5.8   38  101-138   101-138 (393)
+ 19 2MCH_A Murine norovirus 1; Nor  25.5      98  0.0011   24.2   1.7   34   64-109    27-61  (69)
+ 20 1J31_D hypothetical protein PH  24.7 1.8E+02   0.002   21.2   2.8   22   24-45     21-42  (262)
+ 21 6YWE_11 60S ribosomal protein   24.1 1.9E+02   0.002   21.6   2.8   19   21-39     26-44  (90)
+ 22 2AC4_A ROSSMANN FOLD, PI-HELIX  23.2 1.8E+02   0.002   22.9   2.7   25   22-46     88-113 (309)
+ 23 2E0W_A Ntn hydrolase, precurso  22.0      95   0.001   28.3   1.2   18   22-39    199-216 (556)
+ 24 2E0W_B Ntn hydrolase, precurso  22.0      95   0.001   28.3   1.2   18   22-39    199-216 (556)
+ 25 6XYW_BA 60S ribosomal protein   21.9 2.3E+02  0.0025   21.4   3.0   20   21-40     32-51  (91)
+ 26 3WHR_A Gamma-glutamyltranspept  20.5 1.3E+02  0.0014   27.2   1.7   18   22-39    237-254 (418)
+ 27 2NQO_C Gamma-glutamyltranspept  20.5 1.5E+02  0.0017   25.8   2.1   18   22-39    209-226 (376)
+ 28 6SV3_A Ferrochelatase (E.C.4.9  20.4 2.4E+02  0.0026   22.2   2.9   25   22-46     88-113 (311)
+
+No 1
+>6V0O_A methylation, methyltransferase, epigenetic, SDMA, splicing; HET: SFG; 2.86A {Homo sapiens}
+Probab=100.00  E-value=1.5e-32  Score=233.75  Aligned_cols=162  Identities=99%  Similarity=1.535  Sum_probs=136.4  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCcHHHHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcccCCCCCCcHHHhhhCCCEEEE
+Q tr|C9JSX3|C9JS    1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSGRVFVF   80 (186)
+Q Consensus         1 maamavggaggsrvssgrdlncvpeiadtlgavakqgfdflcmpvfhprfkrefiqepaknrpgpqtrsdlllsgrvfvf   80 (186)
+                      |||||+|+++++..++|+++++.+++.++++.+.+.|||||++||++|++++++.+++...++.|++++|+.|++     
+T Consensus         1 ~~~~~~~~~~~~~~~~g~~~~~~~~l~~~~~~~~~~g~dfi~~pl~~~~~~~~~~~~~~~~~~~p~~~sD~~l~~-----   75 (637)
+T 6V0O_A            1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSG-----   75 (637)
+T ss_dssp             ------------CCCEEEECSCCSBHHHHHHHHHHTTCSEEEEESSCTTCCCCSSSTTGGGCCSCSSCCGGGSCH-----
+T ss_pred             CccccCCcCCCCccEEeeecCCCchHHHHHHHHHHcCCCEEEEeCCChHhhHhHhcCCCCCCCCCCChhheEeec-----
+Confidence            899999999999999999999999999999999999999999999999987765544455777899999999999     
+
+
+Q ss_pred             EecCccchhhheeecccccCCCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCce
+Q tr|C9JSX3|C9JS   81 LGWGSADWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  160 (186)
+Q Consensus        81 lgwgsadwntlivgklspwirpdskvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssm  160 (186)
+                           .+|++.|||++|+||++||.++.+|+++++.|++||+||.|||+++|+|+++.....||||+|++++..+++..+
+T Consensus        76 -----~~w~~~vvg~~S~wid~Ds~~~~~~~~s~~~l~~El~~A~~lgl~avii~~~~~~~~n~Ar~l~~~l~~~~~~~~  150 (637)
+T 6V0O_A           76 -----RDWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  150 (637)
+T ss_dssp             -----HHHHHHEEEECCTTCCTTCSSHHHHHHHHHHHHHHHHHHHHTTCSEEEEECCSSCCHHHHHHHHHHHTSSCCCSE
+T ss_pred             -----ccccccEEEEeccccCCCCcCHHHHHHHHHHHHHHHHHHHHhCCCEEEeecCCcccHHHHHHHHHHHHhcCCCce
+Confidence                 999999999999999999999999999999999999999999999999999987789999999999875444557
+
+
+Q ss_pred             eEEecccCCchh
+Q tr|C9JSX3|C9JS  161 FWMRVPLVAPED  172 (186)
+Q Consensus       161 fwmrvplvaped  172 (186)
+                      +|++||+..+..
+T Consensus       151 ~~i~vpl~~~~~  162 (637)
+T 6V0O_A          151 FWMRVPLVAPED  162 (637)
+T ss_dssp             EEEEEESSCGGG
+T ss_pred             EEEEeeecCcHH
+Confidence            999999976543
+
+
+No 2
+>6V0P_A methyltransferase, splicing, SDMA, epigenetic, SPLICING-TRANSFERASE; HET: GOL, SFG, QN4; 1.88A {Homo sapiens}
+Probab=100.00  E-value=1.5e-32  Score=233.75  Aligned_cols=162  Identities=99%  Similarity=1.535  Sum_probs=136.4  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCcHHHHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcccCCCCCCcHHHhhhCCCEEEE
+Q tr|C9JSX3|C9JS    1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSGRVFVF   80 (186)
+Q Consensus         1 maamavggaggsrvssgrdlncvpeiadtlgavakqgfdflcmpvfhprfkrefiqepaknrpgpqtrsdlllsgrvfvf   80 (186)
+                      |||||+|+++++..++|+++++.+++.++++.+.+.|||||++||++|++++++.+++...++.|++++|+.|++     
+T Consensus         1 ~~~~~~~~~~~~~~~~g~~~~~~~~l~~~~~~~~~~g~dfi~~pl~~~~~~~~~~~~~~~~~~~p~~~sD~~l~~-----   75 (637)
+T 6V0P_A            1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSG-----   75 (637)
+T ss_dssp             ------------CCCEEEECSCCSSHHHHHHHHHHTTCSEEEEESSCTTCCCCSSSTTGGGCCSCCSCCGGGSCH-----
+T ss_pred             CccccCCcCCCCccEEeeecCCCchHHHHHHHHHHcCCCEEEEeCCChHhhHhHhcCCCCCCCCCCChhheEeec-----
+Confidence            899999999999999999999999999999999999999999999999987765544455777899999999999     
+
+
+Q ss_pred             EecCccchhhheeecccccCCCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCce
+Q tr|C9JSX3|C9JS   81 LGWGSADWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  160 (186)
+Q Consensus        81 lgwgsadwntlivgklspwirpdskvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssm  160 (186)
+                           .+|++.|||++|+||++||.++.+|+++++.|++||+||.|||+++|+|+++.....||||+|++++..+++..+
+T Consensus        76 -----~~w~~~vvg~~S~wid~Ds~~~~~~~~s~~~l~~El~~A~~lgl~avii~~~~~~~~n~Ar~l~~~l~~~~~~~~  150 (637)
+T 6V0P_A           76 -----RDWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  150 (637)
+T ss_dssp             -----HHHHHHEEEECCTTCCTTCSSHHHHHHHHHHHHHHHHHHHHHTCSEEEEECCSSCCHHHHHHHHHHHTSSCCCCE
+T ss_pred             -----ccccccEEEEeccccCCCCcCHHHHHHHHHHHHHHHHHHHHhCCCEEEeecCCcccHHHHHHHHHHHHhcCCCce
+Confidence                 999999999999999999999999999999999999999999999999999987789999999999875444557
+
+
+Q ss_pred             eEEecccCCchh
+Q tr|C9JSX3|C9JS  161 FWMRVPLVAPED  172 (186)
+Q Consensus       161 fwmrvplvaped  172 (186)
+                      +|++||+..+..
+T Consensus       151 ~~i~vpl~~~~~  162 (637)
+T 6V0P_A          151 FWMRVPLVAPED  162 (637)
+T ss_dssp             EEEEEESSCGGG
+T ss_pred             EEEEeeecCcHH
+Confidence            999999976543
+
+
+No 3
+>7BOC_A TIM barrel, Methyltransferase, Histones, Chromatin-regulator; 2.55A {Homo sapiens}
+Probab=99.97  E-value=7.9e-31  Score=206.51  Aligned_cols=161  Identities=99%  Similarity=1.535  Sum_probs=88.7  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCcHHHHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcccCCCCCCcHHHhhhCCCEEEE
+Q tr|C9JSX3|C9JS    1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSGRVFVF   80 (186)
+Q Consensus         1 maamavggaggsrvssgrdlncvpeiadtlgavakqgfdflcmpvfhprfkrefiqepaknrpgpqtrsdlllsgrvfvf   80 (186)
+                      |||||+|+++.+.+++|+++++.+++.++++.+.+.|||||++||++|++++++.+++..++++|++++|+.|++     
+T Consensus         1 ~~~~~~~~~~~~~~~~G~~~~~~~~~~~~~~~~~~~gfdfi~~pl~~~~~~~~~~~~~~~~~~~p~~~~Dl~l~~-----   75 (292)
+T 7BOC_A            1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSG-----   75 (292)
+T ss_dssp             ----------------------------------------CEEEEEEECCC-----------------------------
+T ss_pred             CccccccCCCCCceEEccccCCCccHHHHHHHHHHcCCCEEEEeCCChhhhHHHhcCCCCCCCCCCCHhheeCcc-----
+Confidence            899999999999999999999999999999999999999999999999987765544445667799999999999     
+
+
+Q ss_pred             EecCccchhhheeecccccCCCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCce
+Q tr|C9JSX3|C9JS   81 LGWGSADWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  160 (186)
+Q Consensus        81 lgwgsadwntlivgklspwirpdskvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssm  160 (186)
+                           .+|++.|||++|+|+++||+++.+|+++++.|++||+||.|||+++|+|+++.....+|||.|++++..+++..+
+T Consensus        76 -----~~w~~~vVg~is~~idldS~~~~~~~~s~~~L~~El~~A~~lg~~~vil~~~~~~~~~~ar~l~~~l~~~~~~~~  150 (292)
+T 7BOC_A           76 -----RDWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  150 (292)
+T ss_dssp             ------CEEEEEEEECCTTCCTTCSSHHHHHHHHHHHHHHHHHHHHTTCSEEEEECCSSCCHHHHHHHHHHHHHSCSCSC
+T ss_pred             -----ccccccEEeEecccCCCCCCCHHHHHHHHHHHHHHHHHHHHhCCCEEEEEecccccHHHHHHHHHHHHcCCCCce
+Confidence                 999999999999999999999999999999999999999999999999999987899999999999885445557
+
+
+Q ss_pred             eEEecccCCch
+Q tr|C9JSX3|C9JS  161 FWMRVPLVAPE  171 (186)
+Q Consensus       161 fwmrvplvape  171 (186)
+                      +|+++|+..+.
+T Consensus       151 i~i~vpl~~~~  161 (292)
+T 7BOC_A          151 FWMRVPLVAPE  161 (292)
+T ss_dssp             EEEEEESSCTT
+T ss_pred             EEEEeccCCcH
+Confidence            99999997553
+
+
+No 4
+>6CKC_A Protein arginine N-methyltransferase 5 (E.C.2.1.1.320); Inhibitor, Complex, TRANSFERASE; HET: F5J; 2.8A {Homo sapiens}
+Probab=99.97  E-value=9.9e-30  Score=217.78  Aligned_cols=161  Identities=99%  Similarity=1.535  Sum_probs=135.8  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCcHHHHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcccCCCCCCcHHHhhhCCCEEEE
+Q tr|C9JSX3|C9JS    1 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSGRVFVF   80 (186)
+Q Consensus         1 maamavggaggsrvssgrdlncvpeiadtlgavakqgfdflcmpvfhprfkrefiqepaknrpgpqtrsdlllsgrvfvf   80 (186)
+                      |++||.|.......++|++++...++..+++.+.+.|||||++||++|++++++.+++...++.|++++|+.|++     
+T Consensus        14 ~~~~~~~~~~~~~~~~g~~~~~~~dl~~~~~~~~~~g~dfi~~pl~~~~~~~~~~~~~~~~~~~p~~~sD~~l~~-----   88 (650)
+T 6CKC_A           14 MAAMAVGGAGGSRVSSGRDLNCVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSG-----   88 (650)
+T ss_dssp             ------------CCCEEEECSCCSSHHHHHHHHHHTTCSEEEEESSCTTCCCCSSSTTGGGCCSCSSCCGGGSCH-----
+T ss_pred             HHHhccccCCCCceEEceecCCCchHHHHHHHHHHcCCCEEEEeCCChHhhHhHhcCCCCCCCCCCChhheEeec-----
+Confidence            678999987777899999999999999999999999999999999999988766544455677899999999999     
+
+
+Q ss_pred             EecCccchhhheeecccccCCCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCce
+Q tr|C9JSX3|C9JS   81 LGWGSADWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  160 (186)
+Q Consensus        81 lgwgsadwntlivgklspwirpdskvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssm  160 (186)
+                           .+|++.|||++|+||++||.++.+|+.+++.|++||+||.|||+++|+|+++.....||||+|++++...++..+
+T Consensus        89 -----~~w~~~vvg~iS~wid~Ds~~~~~~~~s~~~l~~El~~A~~lgl~~vii~~~~~~~~n~ar~l~~~l~~~~~~~~  163 (650)
+T 6CKC_A           89 -----RDWNTLIVGKLSPWIRPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSM  163 (650)
+T ss_dssp             -----HHHHHHEEEECCTTCCTTCSSHHHHHHHHHHHHHHHHHHHHHTCSEEEEECCSSCCHHHHHHHHHHHTSSCCCCE
+T ss_pred             -----ccccccEEEEeccccCCCCcCHHHHHHHHHHHHHHHHHHHHhCCCEEEeecCCcccHHHHHHHHHHHHhcCCCce
+Confidence                 999999999999999999999999999999999999999999999999999987789999999999875444557
+
+
+Q ss_pred             eEEecccCCch
+Q tr|C9JSX3|C9JS  161 FWMRVPLVAPE  171 (186)
+Q Consensus       161 fwmrvplvape  171 (186)
+                      +|++||+..+.
+T Consensus       164 i~i~vPl~~~~  174 (650)
+T 6CKC_A          164 FWMRVPLVAPE  174 (650)
+T ss_dssp             EEEEEESSCGG
+T ss_pred             EEEEeeecCcH
+Confidence            99999997654
+
+
+No 5
+>3UA3_A Protein arginine N-methyltransferase 5 (E.C.2.1.1.125); TIM-barrel, Rossmann Fold, beta-barrel, symmetric; HET: SAH, MSE; 3.0A {Caenorhabditis elegans}
+Probab=99.90  E-value=4.8e-23  Score=183.81  Aligned_cols=134  Identities=25%  Similarity=0.452  Sum_probs=117.4  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcc-cCCCCCCcHHHhhhCCCEEEEEecCccchhhheeecccccCCCCC
+Q tr|C9JSX3|C9JS   26 IADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPA-KNRPGPQTRSDLLLSGRVFVFLGWGSADWNTLIVGKLSPWIRPDS  104 (186)
+Q Consensus        26 iadtlgavakqgfdflcmpvfhprfkrefiqepa-knrpgpqtrsdlllsgrvfvflgwgsadwntlivgklspwirpds  104 (186)
+                      +.+.++.+.+.|||||++|| ++.+++.+...+. ...++|++++|+.|.+          .+|++.|||++|+||++||
+T Consensus        70 i~~~~~~~~~~g~dFv~~Pi-~~~~~~~~~~~~~~~~~~~p~~~~Dl~l~~----------~~W~~~vvg~iS~wid~Ds  138 (745)
+T 3UA3_A           70 VATFCTRLGEFKYNFVVYPI-GGVVRAFWTPNGSAENHPPVIDLPDVQLRN----------DLWESYVVGKISPWIDCDS  138 (745)
+T ss_dssp             HHHHHHHHHHTTCCCEECBT-TCHHHHTCCCCSCTTCCCCCCCCCSTTSCH----------HHHHHTBCEECCTTCCTTC
+T ss_pred             HHHHHHHHHHcCCCEEEEcC-CCccchhccCCCCCCCCCCCCCcccccCCc----------chhhccEEEEecccccCCC
+Confidence            78888999999999999996 7776665543322 4677899999999999          9999999999999999999
+
+
+Q ss_pred             chhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCceeEEecccCCc
+Q tr|C9JSX3|C9JS  105 KVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSMFWMRVPLVAP  170 (186)
+Q Consensus       105 kvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssmfwmrvplvap  170 (186)
+                      +++.+|+.|++.|++||+||+|||+++|+|+++.....+|||+|++++.......+|||+||+..+
+T Consensus       139 ~~~~~~~~s~~~L~~El~~A~~lgl~~vii~l~~~~~~~~Ar~l~~~l~~~~~~~~iwi~vPl~~~  204 (745)
+T 3UA3_A          139 SDPAFASLSEEHLLKELSYICYLGLQTMAIELTRISSPRTAAILKKWIWTRNSRFTVWVQLPSAIE  204 (745)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHTTCSEEEEECCSSCCHHHHHHHHHHHHHCSCCCEEEEECCSSGG
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHcCCCEEEEecCCCCcHHHHHHHHHHHhhCCCceEEEEEeecCCh
+Confidence            999999999999999999999999999999999878899999999999753334579999999644
+
+
+No 6
+>3UA3_B Protein arginine N-methyltransferase 5 (E.C.2.1.1.125); TIM-barrel, Rossmann Fold, beta-barrel, symmetric; HET: SAH, MSE; 3.0A {Caenorhabditis elegans}
+Probab=99.90  E-value=4.8e-23  Score=183.81  Aligned_cols=134  Identities=25%  Similarity=0.452  Sum_probs=117.1  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcc-cCCCCCCcHHHhhhCCCEEEEEecCccchhhheeecccccCCCCC
+Q tr|C9JSX3|C9JS   26 IADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPA-KNRPGPQTRSDLLLSGRVFVFLGWGSADWNTLIVGKLSPWIRPDS  104 (186)
+Q Consensus        26 iadtlgavakqgfdflcmpvfhprfkrefiqepa-knrpgpqtrsdlllsgrvfvflgwgsadwntlivgklspwirpds  104 (186)
+                      +.+.++.+.+.|||||++|| ++.+++.+...+. ...++|++++|+.|.+          .+|++.|||++|+||++||
+T Consensus        70 i~~~~~~~~~~g~dFv~~Pi-~~~~~~~~~~~~~~~~~~~p~~~~Dl~l~~----------~~W~~~vvg~iS~wid~Ds  138 (745)
+T 3UA3_B           70 VATFCTRLGEFKYNFVVYPI-GGVVRAFWTPNGSAENHPPVIDLPDVQLRN----------DLWESYVVGKISPWIDCDS  138 (745)
+T ss_dssp             HHHHHHHHHHTSCCEEEEES-SCHHHHTCCCCSCTTSCCCCCCCCSTTSCH----------HHHHHHEEEECCTTCCTTC
+T ss_pred             HHHHHHHHHHcCCCEEEEcC-CCccchhccCCCCCCCCCCCCCcccccCCc----------chhhccEEEEecccccCCC
+Confidence            77888999999999999996 7776665543322 4677899999999999          9999999999999999999
+
+
+Q ss_pred             chhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCccchhHHHHHHHhhhhcCCCCceeEEecccCCc
+Q tr|C9JSX3|C9JS  105 KVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQEDNTNLARVLTNHIHTGHHSSMFWMRVPLVAP  170 (186)
+Q Consensus       105 kvekirrnseaamlqelnfgaylglpafllplnqedntnlarvltnhihtghhssmfwmrvplvap  170 (186)
+                      +++.+|+.|++.|++||+||+|||+++|+|+++.....+|||+|++++.......+|||+||+..+
+T Consensus       139 ~~~~~~~~s~~~L~~El~~A~~lgl~~vii~l~~~~~~~~Ar~l~~~l~~~~~~~~iwi~vPl~~~  204 (745)
+T 3UA3_B          139 SDPAFASLSEEHLLKELSYICYLGLQTMAIELTRISSPRTAAILKKWIWTRNSRFTVWVQLPSAIE  204 (745)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHTCSCEEEECCSSCCHHHHHHHHHHHHHCCCCCCEEEECCSCGG
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHcCCCEEEEecCCCCcHHHHHHHHHHHhhCCCceEEEEEeecCCh
+Confidence            999999999999999999999999999999999878899999999999753334579999999644
+
+
+No 7
+>2I3O_D Gamma-glutamyltransferase related protein; Gamma-glutamyl transferase related protein, Thermoplasma; HET: MSE; 2.03A {Thermoplasma acidophilum} SCOP: d.153.1.6
+Probab=42.89  E-value=32  Score=30.83  Aligned_cols=49  Identities=16%  Similarity=0.305  Sum_probs=27.8  Template_Neff=8.700
+
+Q ss_pred             CcHHHHHHHHHHHHcCCCEEEEeCCChhhchhhcCCcccCCCCCCcHHHhhhCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFDFLCMPVFHPRFKREFIQEPAKNRPGPQTRSDLLLSG   75 (186)
+Q Consensus        22 cvpeiadtlgavakqgfdflcmpvfhprfkrefiqepaknrpgpqtrsdlllsg   75 (186)
+                      ..+++.++|+.+.+.|.+..-    +....+...+ ......+.++..||.-..
+T Consensus       184 ~~p~LA~tL~~ia~~G~~~fY----~G~la~~iv~-~~~~~gg~lt~eDl~~y~  232 (516)
+T 2I3O_D          184 KQPDLAESFRLMSEEGFRSFY----DGSLADIIIA-GLEGTGSPLSDRDLRVYR  232 (516)
+T ss_dssp             CCHHHHHHHHHHHHHCTTHHH----HSHHHHHHHH-TTTTTTCCCCHHHHHTCC
+T ss_pred             cCHHHHHHHHHHHHhCcchhh----cCHHHHHHHH-HHHhcCCCCCHHHHHhcc
+Confidence            568899999999998865421    1111111111 112234578888875444
+
+
+No 8
+>4Y23_A gamma-glutamyl transpeptidase; NTN HYDROLASE, PRECURSOR, GAMMA-GTP, POST-TRANSLATIONAL; 2.89A {Bacillus licheniformis}
+Probab=36.74  E-value=57  Score=29.91  Aligned_cols=19  Identities=21%  Similarity=0.298  Sum_probs=15.2  Template_Neff=8.600
+
+Q ss_pred             CCcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   21 NCVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        21 ncvpeiadtlgavakqgfd   39 (186)
+                      -..+++.++|+.+.++|.+
+T Consensus       216 ~~~p~LA~tL~~ia~~g~~  234 (585)
+T 4Y23_A          216 LVQKDMAKTFKLIRKEGSK  234 (585)
+T ss_dssp             ECCHHHHHHHHHHHHHTTH
+T ss_pred             ecCHHHHHHHHHHHHhChh
+Confidence            3568899999999988854
+
+
+No 9
+>1XIM_C D-XYLOSE ISOMERASE (E.C.5.3.1.5) COMPLEX WITH; ISOMERASE(INTRAMOLECULAR OXIDOREDUCTASE); HET: XYL; 2.2A {Actinoplanes missouriensis} SCOP: c.1.15.3
+Probab=33.43  E-value=2.5e+02  Score=23.28  Aligned_cols=37  Identities=24%  Similarity=0.313  Sum_probs=33.1  Template_Neff=10.100
+
+Q ss_pred             CCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCC
+Q tr|C9JSX3|C9JS  101 RPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLN  137 (186)
+Q Consensus       101 rpdskvekirrnseaamlqelnfgaylglpafllpln  137 (186)
+                      .+.+.++..++.+.+.+++.++.|..+|.+.+++..+
+T Consensus       102 ~~~~~d~~~~~~~~~~~~~~i~~a~~lG~~~i~~~~g  138 (393)
+T 1XIM_C          102 GFTSNDRSVRRYAIRKVLRQMDLGAELGAKTLVLWGG  138 (393)
+T ss_dssp             STTCSSHHHHHHHHHHHHHHHHHHHHHTCCEEEEECT
+T ss_pred             cccCCCHHHHHHHHHHHHHHHHHHHHhCCCEEEEeCC
+Confidence            5777788889999999999999999999999998665
+
+
+No 10
+>6X6O_B DNA dC-dU-editing enzyme APOBEC-3B (E.C.3.5.4.-); APOBEC, deaminase, HYDROLASE, VIRAL PROTEIN; 1.52A {Escherichia virus T4}
+Probab=33.31  E-value=1.1e+02  Score=25.53  Aligned_cols=10  Identities=20%  Similarity=0.295  Sum_probs=4.9  Template_Neff=3.100
+
+Q ss_pred             HHHHHHHHhh
+Q tr|C9JSX3|C9JS  114 EAAMLQELNF  123 (186)
+Q Consensus       114 eaamlqelnf  123 (186)
+                      .+.+.++|..
+T Consensus        60 qk~v~e~l~~   69 (105)
+T 6X6O_B           60 KAEVQKQLKS   69 (105)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHhhhc
+Confidence            3445555554
+
+
+No 11
+>6XC1_C DNA dC-dU-editing enzyme APOBEC-3B (E.C.3.5.4.-); Lysozyme, spackle, HYDROLASE; HET: IPA; 1.92A {Escherichia virus T4}
+Probab=33.31  E-value=1.1e+02  Score=25.53  Aligned_cols=10  Identities=20%  Similarity=0.295  Sum_probs=4.9  Template_Neff=3.100
+
+Q ss_pred             HHHHHHHHhh
+Q tr|C9JSX3|C9JS  114 EAAMLQELNF  123 (186)
+Q Consensus       114 eaamlqelnf  123 (186)
+                      .+.+.++|..
+T Consensus        60 qk~v~e~l~~   69 (105)
+T 6XC1_C           60 KAEVQKQLKS   69 (105)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHhhhc
+Confidence            3445555554
+
+
+No 12
+>7D9E_A Gamma-glutamyltransferase 1 Threonine peptidase. MEROPS; theanine synthesis, transpeptidation, enzyme, protein; HET: GOL, DON; 1.5A {Pseudomonas nitroreducens}
+Probab=32.76  E-value=63  Score=27.86  Aligned_cols=17  Identities=41%  Similarity=0.550  Sum_probs=12.5  Template_Neff=8.600
+
+Q ss_pred             CcHHHHHHHHHHHHcCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGF   38 (186)
+Q Consensus        22 cvpeiadtlgavakqgf   38 (186)
+                      ..+++.++|+.+.+.|.
+T Consensus       198 ~~p~LA~tL~~ia~~g~  214 (371)
+T 7D9E_A          198 KQPELAKTLERIADKGP  214 (371)
+T ss_dssp             CCHHHHHHHHHHHHHTH
+T ss_pred             eCHHHHHHHHHHHHHCC
+Confidence            45678888888887764
+
+
+No 13
+>5MRC_ZZ 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 3.25A {Saccharomyces cerevisiae}
+Probab=32.02  E-value=99  Score=23.02  Aligned_cols=19  Identities=16%  Similarity=0.315  Sum_probs=10.6  Template_Neff=6.600
+
+Q ss_pred             CCcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   21 NCVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        21 ncvpeiadtlgavakqgfd   39 (186)
+                      .+..++...|.-....|||
+T Consensus        25 ~C~~Em~~lL~C~~~~~~~   43 (91)
+T 5MRC_ZZ          25 KCLVLMSNLLQCWSSYGHM   43 (91)
+T ss_pred             cHHHHHHHHHHHHHHhCCC
+Confidence            4555555555555555664
+
+
+No 14
+>5MRF_ZZ 54S ribosomal protein RML2, mitochondrial; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: MG, GDP; 4.97A {Saccharomyces cerevisiae}
+Probab=32.02  E-value=99  Score=23.02  Aligned_cols=19  Identities=16%  Similarity=0.315  Sum_probs=10.6  Template_Neff=6.600
+
+Q ss_pred             CCcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   21 NCVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        21 ncvpeiadtlgavakqgfd   39 (186)
+                      .+..++...|.-....|||
+T Consensus        25 ~C~~Em~~lL~C~~~~~~~   43 (91)
+T 5MRF_ZZ          25 KCLVLMSNLLQCWSSYGHM   43 (91)
+T ss_pred             cHHHHHHHHHHHHHHhCCC
+Confidence            4555555555555555664
+
+
+No 15
+>4LNA_A Purine nucleoside phosphorylase (E.C.2.4.2.1); STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; HET: ADE, PO4, MSE; 2.1A {Spirosoma linguale}
+Probab=31.46  E-value=17  Score=28.82  Aligned_cols=10  Identities=0%  Similarity=0.115  Sum_probs=3.9  Template_Neff=9.800
+
+Q ss_pred             HHHHHHhhhh
+Q tr|C9JSX3|C9JS  144 LARVLTNHIH  153 (186)
+Q Consensus       144 larvltnhih  153 (186)
+                      +-+.+.....
+T Consensus        23 ~~~~~~~~~~   32 (293)
+T 4LNA_A           23 MFEQIQETTQ   32 (293)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333444333
+
+
+No 16
+>2NLZ_D Cephalosporin acylase; ACYLASE, STRUCTURAL GENOMICS, PROTEIN STRUCTURE; 2.7A {Bacillus halodurans} SCOP: d.153.1.6
+Probab=30.20  E-value=62  Score=29.43  Aligned_cols=18  Identities=28%  Similarity=0.226  Sum_probs=14.7  Template_Neff=8.600
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd   39 (186)
+                      ..+++.++|+.+.++|.+
+T Consensus       200 ~~p~LA~tL~~ia~~G~~  217 (547)
+T 2NLZ_D          200 RSQGHADTLRSIAESNGE  217 (547)
+T ss_dssp             CCHHHHHHHHHHHTTTTH
+T ss_pred             cCHHHHHHHHHHHHhccc
+Confidence            557899999999988854
+
+
+No 17
+>2W1V_B NITRILASE HOMOLOG 2 (E.C.3.5.-.-); HYDROLASE, NITRILASE; 1.49A {MUS MUSCULUS}
+Probab=29.89  E-value=1.3e+02  Score=22.02  Aligned_cols=22  Identities=23%  Similarity=0.403  Sum_probs=17.4  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHHHHHHcCCCEEEEeC
+Q tr|C9JSX3|C9JS   24 PEIADTLGAVAKQGFDFLCMPV   45 (186)
+Q Consensus        24 peiadtlgavakqgfdflcmpv   45 (186)
+                      ..+...+..+.++|.|+++.|=
+T Consensus        22 ~~~~~~i~~a~~~~~dliv~PE   43 (276)
+T 2W1V_B           22 TRACSLVREAAKQGANIVSLPE   43 (276)
+T ss_dssp             HHHHHHHHHHHHTTCSEEEECT
+T ss_pred             HHHHHHHHHHHHCCCCEEEecC
+Confidence            3466677888888999999985
+
+
+No 18
+>4XIA_B D-XYLOSE ISOMERASE (E.C.5.3.1.5), D-SORBITOL COMPLEX; ISOMERASE(INTRAMOLECULAR OXIDOREDUCTASE); HET: SOR; 2.3A {Arthrobacter sp.} SCOP: c.1.15.3
+Probab=25.71  E-value=5.3e+02  Score=21.37  Aligned_cols=38  Identities=24%  Similarity=0.297  Sum_probs=33.3  Template_Neff=10.200
+
+Q ss_pred             CCCCchhhhhhhhHHHHHHHHhhhhhcCCCeEeecCCc
+Q tr|C9JSX3|C9JS  101 RPDSKVEKIRRNSEAAMLQELNFGAYLGLPAFLLPLNQ  138 (186)
+Q Consensus       101 rpdskvekirrnseaamlqelnfgaylglpafllplnq  138 (186)
+                      .+.+.++..++.+.+.+++-++.|..||.+.+++..+.
+T Consensus       101 ~~~~~d~~~r~~~~~~~~~~i~~a~~lga~~v~~~~g~  138 (393)
+T 4XIA_B          101 GFTSNDRSIRRFALAKVLHNIDLAAEMGAETFVMWGGR  138 (393)
+T ss_dssp             STTCSSHHHHHHHHHHHHHHHHHHHHHTCSEEEECCTT
+T ss_pred             cccCCCHHHHHHHHHHHHHHHHHHHHcCCCEEEEECCC
+Confidence            56677788899999999999999999999999997653
+
+
+No 19
+>2MCH_A Murine norovirus 1; Norovirus, NS1/2, HYDROLASE; NMR {Murine norovirus 1}
+Probab=25.51  E-value=98  Score=24.21  Aligned_cols=34  Identities=38%  Similarity=0.593  Sum_probs=23.4  Template_Neff=1.000
+
+Q ss_pred             CCCcHHHh-hhCCCEEEEEecCccchhhheeecccccCCCCCchhhh
+Q tr|C9JSX3|C9JS   64 GPQTRSDL-LLSGRVFVFLGWGSADWNTLIVGKLSPWIRPDSKVEKI  109 (186)
+Q Consensus        64 gpqtrsdl-llsgrvfvflgwgsadwntlivgklspwirpdskveki  109 (186)
+                      -|.+++|- +|--          .+|..+-  +.-+|+++|-.+..+
+T Consensus        27 lpvtrsdarvlif----------neweerk--ksdpwlrldmsdkai   61 (69)
+T 2MCH_A           27 LPVTRSDARVLIF----------NEWEERK--KSDPWLRLDMSDKAI   61 (69)
+T ss_dssp             SBSSHHHHHHHHH----------HHHHHHH--HHSTTCCCCCCHHHH
+T ss_pred             CccccccceEEEe----------cchhHhh--cCCCcccccccchHH
+Confidence            48899994 3444          5898652  455899999887544
+
+
+No 20
+>1J31_D hypothetical protein PH0642; alpha-beta-beta-alpha sandwich, STRUCTURAL GENOMICS, UNKNOWN; HET: ACT, MSE; 1.6A {Pyrococcus horikoshii} SCOP: d.160.1.2
+Probab=24.67  E-value=1.8e+02  Score=21.18  Aligned_cols=22  Identities=14%  Similarity=0.379  Sum_probs=17.1  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHHHHHcCCCEEEEeC
+Q tr|C9JSX3|C9JS   24 PEIADTLGAVAKQGFDFLCMPV   45 (186)
+Q Consensus        24 peiadtlgavakqgfdflcmpv   45 (186)
+                      ..+.+.++.+.+.+.|+++.|=
+T Consensus        21 ~~~~~~~~~~~~~~~dlvv~PE   42 (262)
+T 1J31_D           21 SKAEKLIKEASKEGAKLVVLPE   42 (262)
+T ss_dssp             HHHHHHHHHHHHTTCSEEECCT
+T ss_pred             HHHHHHHHHHHHCCCCEEEecc
+Confidence            3466677888888999999874
+
+
+No 21
+>6YWE_11 60S ribosomal protein L1, mitochondrial; Neurospora crassa, translating Mitoribosomes, tRNA; HET: K, SPM, MG, NAD, ATP;{Neurospora crassa}
+Probab=24.08  E-value=1.9e+02  Score=21.59  Aligned_cols=19  Identities=21%  Similarity=0.611  Sum_probs=10.6  Template_Neff=6.600
+
+Q ss_pred             CCcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   21 NCVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        21 ncvpeiadtlgavakqgfd   39 (186)
+                      .+..++...|.-....|||
+T Consensus        26 ~C~~Em~~lL~Cw~~~~~~   44 (90)
+T 6YWE_11          26 PCIAVMSSVLACWASAGYN   44 (90)
+T ss_pred             cHHHHHHHHHHHHHHcCCC
+Confidence            4555555555555555664
+
+
+No 22
+>2AC4_A ROSSMANN FOLD, PI-HELIX, LYASE; 2.1A {Bacillus subtilis}
+Probab=23.23  E-value=1.8e+02  Score=22.88  Aligned_cols=25  Identities=20%  Similarity=0.308  Sum_probs=19.7  Template_Neff=10.400
+
+Q ss_pred             CcHHHHHHHHHHHHcCCCE-EEEeCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFDF-LCMPVF   46 (186)
+Q Consensus        22 cvpeiadtlgavakqgfdf-lcmpvf   46 (186)
+                      +.+.+.+++..+.+.|++- +++|++
+T Consensus        88 ~~p~i~~~l~~l~~~g~~~ivv~Pl~  113 (309)
+T 2AC4_A           88 IEPFIEDAVAEMHKDGITEAVSIVLA  113 (309)
+T ss_dssp             SSSBHHHHHHHHHHTTCCEEEEEESS
+T ss_pred             CCCCHHHHHHHHHHCCCCEEEEEcCC
+Confidence            4567899999999999864 456886
+
+
+No 23
+>2E0W_A Ntn hydrolase, precursor, gamma-gtp, post-translational; 2.55A {Escherichia coli K12} SCOP: d.153.1.6
+Probab=22.02  E-value=95  Score=28.28  Aligned_cols=18  Identities=28%  Similarity=0.451  Sum_probs=14.4  Template_Neff=8.700
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd   39 (186)
+                      ..+++.++|+.+.+.|.|
+T Consensus       199 ~~p~LA~tL~~ia~~G~~  216 (556)
+T 2E0W_A          199 VQANLAKSLEMIAENGPD  216 (556)
+T ss_dssp             CCHHHHHHHHHHHHHCTH
+T ss_pred             cCHHHHHHHHHHHHhCCh
+Confidence            567899999998888754
+
+
+No 24
+>2E0W_B Ntn hydrolase, precursor, gamma-gtp, post-translational; 2.55A {Escherichia coli K12} SCOP: d.153.1.6
+Probab=22.02  E-value=95  Score=28.28  Aligned_cols=18  Identities=28%  Similarity=0.451  Sum_probs=14.7  Template_Neff=8.700
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd   39 (186)
+                      ..+++.++|+.+.+.|.|
+T Consensus       199 ~~p~LA~tL~~ia~~G~~  216 (556)
+T 2E0W_B          199 VQANLAKSLEMIAENGPD  216 (556)
+T ss_dssp             CCHHHHHHHHHHHHHCTH
+T ss_pred             cCHHHHHHHHHHHHhCCh
+Confidence            568899999999988854
+
+
+No 25
+>6XYW_BA 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=21.95  E-value=2.3e+02  Score=21.42  Aligned_cols=20  Identities=20%  Similarity=0.351  Sum_probs=12.1  Template_Neff=6.200
+
+Q ss_pred             CCcHHHHHHHHHHHHcCCCE
+Q tr|C9JSX3|C9JS   21 NCVPEIADTLGAVAKQGFDF   40 (186)
+Q Consensus        21 ncvpeiadtlgavakqgfdf   40 (186)
+                      .+..++...|.-....|||-
+T Consensus        32 pC~~EM~~lL~Cw~~n~f~~   51 (91)
+T 6XYW_BA          32 PCMKEMVSFLNCMALNNIKD   51 (91)
+T ss_pred             chHHHHHHHHHHHHHCCCCC
+Confidence            45556666666666666654
+
+
+No 26
+>3WHR_A Gamma-glutamyltranspeptidase large chain (E.C.2.3.2.2, 3.4.19.13); Glutathione hydrolysis, HYDROLASE, TRANSFERASE; 1.58A {Bacillus subtilis}
+Probab=20.52  E-value=1.3e+02  Score=27.16  Aligned_cols=18  Identities=22%  Similarity=0.383  Sum_probs=14.5  Template_Neff=7.900
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd   39 (186)
+                      ..+++.++|+.+.+.|.|
+T Consensus       237 ~~p~LA~tL~~ia~~G~~  254 (418)
+T 3WHR_A          237 IQKDLAKTFKLIRSKGTD  254 (418)
+T ss_dssp             CCHHHHHHHHHHHHHCTH
+T ss_pred             cCHHHHHHHHHHHHhChh
+Confidence            568899999999888743
+
+
+No 27
+>2NQO_C Gamma-glutamyltranspeptidase (E.C.2.3.2.2); Ntn-hydrolase, glutamyltranspeptidase, TRANSFERASE; 1.9A {Helicobacter pylori}
+Probab=20.51  E-value=1.5e+02  Score=25.83  Aligned_cols=18  Identities=22%  Similarity=0.353  Sum_probs=14.4  Template_Neff=8.400
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD   39 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd   39 (186)
+                      ..+++.++|+.+.+.|.|
+T Consensus       209 ~~p~LA~tL~~ia~~G~~  226 (376)
+T 2NQO_C          209 VQKDLAKTLNQIKTLGAK  226 (376)
+T ss_dssp             CCHHHHHHHHHHHHHTTH
+T ss_pred             cCHHHHHHHHHHHHhCcc
+Confidence            557899999998888754
+
+
+No 28
+>6SV3_A Ferrochelatase (E.C.4.99.1.1); Ferrochelatase, Prokaryotic heme biosynthesis, ferredoxin-like; HET: GOL, FEC; 1.64000868883A {Listeria monocytogenes}
+Probab=20.42  E-value=2.4e+02  Score=22.20  Aligned_cols=25  Identities=24%  Similarity=0.393  Sum_probs=19.1  Template_Neff=10.500
+
+Q ss_pred             CcHHHHHHHHHHHHcCCC-EEEEeCC
+Q tr|C9JSX3|C9JS   22 CVPEIADTLGAVAKQGFD-FLCMPVF   46 (186)
+Q Consensus        22 cvpeiadtlgavakqgfd-flcmpvf   46 (186)
+                      +.+.+.+++..+.+.|++ .+++|++
+T Consensus        88 ~~p~i~~~l~~l~~~g~~~iivvPl~  113 (311)
+T 6SV3_A           88 IEPFIEDAVEAMHKDGIEEAISIVLA  113 (311)
+T ss_dssp             SSSBHHHHHHHHHHTTCCEEEEEESS
+T ss_pred             CCCCHHHHHHHHHHCCCCEEEEEecC
+Confidence            456788999999999985 4556875
+
+

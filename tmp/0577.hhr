@@ -1,0 +1,426 @@
+Query         tr|E9PR25|E9PR25_HUMAN
+Match_columns 139
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:58:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0577.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3H71_A Sialidase A (E.C.3.2.1.  75.0      11 0.00012   30.2   4.1   57   36-95     12-68  (477)
+  2 3H71_B Sialidase A (E.C.3.2.1.  75.0      11 0.00012   30.2   4.1   57   36-95     12-68  (477)
+  3 7MHU_A Sialidase, microbiome,   70.8      42 0.00045   25.3   6.0   34   45-79     38-71  (414)
+  4 2W20_A SIALIDASE A (E.C.3.2.1.  64.2      16 0.00018   28.5   3.0   41   52-93     21-62  (471)
+  5 2F25_A SIALIDASE, NEURAMINIDAS  63.4      23 0.00025   24.7   3.3   26   55-80     20-45  (382)
+  6 1SO7_A Sialidase 2(E.C.3.2.1.1  60.3      30 0.00032   24.2   3.4   25   55-79     20-44  (382)
+  7 1W8O_A BACTERIAL SIALIDASE (E.  60.0      25 0.00027   26.4   3.1   35   44-78      8-42  (601)
+  8 2SIL_A SIALIDASE (E.C.3.2.1.18  45.3      74 0.00081   24.6   3.8   37   41-78     18-55  (381)
+  9 2XCY_A EXTRACELLULAR SIALIDASE  39.7      79 0.00086   23.1   3.0   42   52-93     33-74  (386)
+ 10 7P1Q_A Carbohydrate Metabolism  36.5 1.1E+02  0.0012   22.3   3.3   27   52-78     34-60  (386)
+ 11 4YW3_A NanC; Sialidase, Neuram  34.2 1.7E+02  0.0019   23.4   4.3   37   44-80    193-230 (659)
+ 12 4YW4_B NanC; Sialidase, Neuram  34.2 1.7E+02  0.0019   23.4   4.3   37   44-80    193-230 (659)
+ 13 2BZD_A BACTERIAL SIALIDASE (E.  32.0 1.3E+02  0.0014   22.7   3.2   34   45-78      9-42  (601)
+ 14 4FJ6_D glycoside hydrolase fam  27.2   2E+02  0.0022   23.1   3.6   31   44-74    168-198 (523)
+ 15 3QH6_A CT296; CT296, Iron, mod  24.6      95   0.001   20.1   1.3   31   99-129    13-43  (157)
+ 16 3QH7_A CT296; CT296, Iron, mod  24.6      95   0.001   20.1   1.3   31   99-129    13-43  (157)
+ 17 2KSN_A Ubiquitin domain-contai  23.0 1.4E+02  0.0015   23.4   2.1   25   46-70     93-117 (137)
+ 18 6S29_B Histone acetyltransfera  22.6      51 0.00056   24.4  -0.2   20  108-127    27-46  (61)
+ 19 6S29_D Histone acetyltransfera  22.6      51 0.00056   24.4  -0.2   19  108-126    27-45  (61)
+ 20 7E01_A L-proline, Trans, Hydro  22.0 1.3E+02  0.0014   20.4   1.6   30   98-127    12-41  (266)
+ 21 7E06_A L-proline, Trans, Hydro  21.2 1.5E+02  0.0016   20.3   1.7   29   99-127    15-43  (268)
+ 22 7E07_B L-proline, Trans, Hydro  21.2 1.5E+02  0.0016   20.3   1.7   29   99-127    15-43  (268)
+ 23 1EUR_A SIALIDASE; NEURAMINIDAS  21.1 2.5E+02  0.0027   19.5   2.8   33   46-78     14-46  (365)
+ 24 4J9T_A designed unnatural amin  20.8   3E+02  0.0032   19.1   3.1   33   46-78     10-42  (363)
+ 25 1AIH_A HP1 INTEGRASE; DNA INTE  20.3      58 0.00063   20.0  -0.3   22   81-102    25-46  (170)
+ 26 4XAB_A EvdO2; oxidoreductase,   20.1 1.4E+02  0.0016   19.7   1.4   32   99-130    16-47  (252)
+
+No 1
+>3H71_A Sialidase A (E.C.3.2.1.18); six-bladed beta-propeller, Cell wall, Glycosidase; HET: MSE; 1.7A {Streptococcus pneumoniae}
+Probab=75.00  E-value=11  Score=30.19  Aligned_cols=57  Identities=26%  Similarity=0.290  Sum_probs=34.7  Template_Neff=10.200
+
+Q ss_pred             cccccccCCCcccccCCCCceeEeeeEEEeCCCceEEEEeeccCCCCccchhhhhhhcCc
+Q tr|E9PR25|E9PR   36 EVTTCSFNSPLFRQEDDRGITYRIPALLYIPPTHTFLAFAEKRSTRRDEDALHLVLRRGL   95 (139)
+Q Consensus        36 evttcsfnsplfrqeddrgityripallyippthtflafaekrstrrdedalhlvlrrgl   95 (139)
+                      +|..++-|.+..   .+..++||+|++...+-...++.+.+++....|.+...++++|.-
+T Consensus        12 ~~~~~~~~~~~~---~~~~~~~~~P~l~~~~~g~~~~~~~~~~~~~~~~~~~~i~~~~S~   68 (477)
+T 3H71_A           12 DIFESGRNGKPN---KDGIKSYRIPALLKTDKGTLIAGADERRLHSSDWGDIGMVIRRSE   68 (477)
+T ss_dssp             EEECCCBTTCCC---TTSCCEEEEEEEEECTTSCEEEEEEEESSCSSSSSSEEEEEEEES
+T ss_pred             CCcCCCCCCCCC---CCCCccccccEEEEeCCCcEEEEEEeccCCcCcccCeeEEEEEEC
+Confidence            444454444443   345799999999999776555555555555455555555554443
+
+
+No 2
+>3H71_B Sialidase A (E.C.3.2.1.18); six-bladed beta-propeller, Cell wall, Glycosidase; HET: MSE; 1.7A {Streptococcus pneumoniae}
+Probab=75.00  E-value=11  Score=30.19  Aligned_cols=57  Identities=26%  Similarity=0.290  Sum_probs=34.8  Template_Neff=10.200
+
+Q ss_pred             cccccccCCCcccccCCCCceeEeeeEEEeCCCceEEEEeeccCCCCccchhhhhhhcCc
+Q tr|E9PR25|E9PR   36 EVTTCSFNSPLFRQEDDRGITYRIPALLYIPPTHTFLAFAEKRSTRRDEDALHLVLRRGL   95 (139)
+Q Consensus        36 evttcsfnsplfrqeddrgityripallyippthtflafaekrstrrdedalhlvlrrgl   95 (139)
+                      +|..++-|.+..   .+..++||+|++...+-...++.+.+++....|.+...++++|.-
+T Consensus        12 ~~~~~~~~~~~~---~~~~~~~~~P~l~~~~~g~~~~~~~~~~~~~~~~~~~~i~~~~S~   68 (477)
+T 3H71_B           12 DIFESGRNGKPN---KDGIKSYRIPALLKTDKGTLIAGADERRLHSSDWGDIGMVIRRSE   68 (477)
+T ss_dssp             EEECCCBTTCCC---TTSCCEEEEEEEEECTTSCEEEEEEEESSCSSSSSSEEEEEEEES
+T ss_pred             CCcCCCCCCCCC---CCCCccccccEEEEeCCCcEEEEEEeccCCcCcccCeeEEEEEEC
+Confidence            444454454443   345799999999999776555555555555455555555554443
+
+
+No 3
+>7MHU_A Sialidase, microbiome, sialic acid, inflammation; 2.0A {Bacteroides acidifaciens}
+Probab=70.82  E-value=42  Score=25.28  Aligned_cols=34  Identities=29%  Similarity=0.581  Sum_probs=24.4  Template_Neff=11.300
+
+Q ss_pred             CcccccCCCCceeEeeeEEEeCCCceEEEEeeccC
+Q tr|E9PR25|E9PR   45 PLFRQEDDRGITYRIPALLYIPPTHTFLAFAEKRS   79 (139)
+Q Consensus        45 plfrqeddrgityripallyippthtflafaekrs   79 (139)
+                      -+|+-.+.....|+||++...+. ..+++++..+.
+T Consensus        38 ~~~~~~~~~~~~~~~p~i~~~~~-g~~~~~~~~~~   71 (414)
+T 7MHU_A           38 TVFSSKASNDISYRVPAIAVTKK-GSILVFCEARY   71 (414)
+T ss_dssp             EEEECCCTTTEEEEEEEEEECSS-SCEEEEEEEEE
+T ss_pred             EEEecCCCCceeEEeeEEEECCC-CcEEEEEeccC
+Confidence            56677777778899999987764 45667766553
+
+
+No 4
+>2W20_A SIALIDASE A (E.C.3.2.1.18); SECRETED, CELL WALL, HYDROLASE, SIALIDASE; HET: GOL, MES; 1.49A {STREPTOCOCCUS PNEUMONIAE}
+Probab=64.23  E-value=16  Score=28.48  Aligned_cols=41  Identities=39%  Similarity=0.492  Sum_probs=24.5  Template_Neff=10.800
+
+Q ss_pred             CCCceeEeeeEEEeCCCceEEEEeecc-CCCCccchhhhhhhc
+Q tr|E9PR25|E9PR   52 DRGITYRIPALLYIPPTHTFLAFAEKR-STRRDEDALHLVLRR   93 (139)
+Q Consensus        52 drgityripallyippthtflafaekr-strrdedalhlvlrr   93 (139)
+                      .-.++||||++...+- -++++++..+ ..-.+.....+.+++
+T Consensus        21 ~~~~~~rip~i~~~~~-g~~~a~~~~~~~~~~~~~~~~~~l~~   62 (471)
+T 2W20_A           21 DGIKSYRIPALLKTDK-GTLIAGADERRLHSSDWGDIGMVIRR   62 (471)
+T ss_dssp             TSCCEEEEEEEEECTT-SCEEEEEEEESSCSSSSSSEEEEEEE
+T ss_pred             CCCccccccEEEEecC-CeEEEEEEecccCCCCccceeEEEEE
+Confidence            3468999999998874 5566666543 333333444444433
+
+
+No 5
+>2F25_A SIALIDASE, NEURAMINIDASE, GANGLIOSIDE, DRUG DESIGN; HET: DAN, EPE; 1.95A {Homo sapiens}
+Probab=63.38  E-value=23  Score=24.74  Aligned_cols=26  Identities=58%  Similarity=1.055  Sum_probs=22.8  Template_Neff=12.600
+
+Q ss_pred             ceeEeeeEEEeCCCceEEEEeeccCC
+Q tr|E9PR25|E9PR   55 ITYRIPALLYIPPTHTFLAFAEKRST   80 (139)
+Q Consensus        55 ityripallyippthtflafaekrst   80 (139)
+                      ..|++|++.+.+....+++|.+.+..
+T Consensus        20 ~~~~~p~i~~~~~~~~~~~~~~~~~~   45 (382)
+T 2F25_A           20 HAYRIPALLYLPGQQSLLAFAEQRAS   45 (382)
+T ss_dssp             SEEEEEEEEEETTTTEEEEEEEEESS
+T ss_pred             ceeeeeEEEEeCCCCEEEEEEccccc
+Confidence            89999999999988899999887643
+
+
+No 6
+>1SO7_A Sialidase 2(E.C.3.2.1.18); sialidase, neuraminidase, ganglioside, sugar-induced form; 1.49A {Homo sapiens} SCOP: b.68.1.1
+Probab=60.26  E-value=30  Score=24.20  Aligned_cols=25  Identities=60%  Similarity=1.077  Sum_probs=22.4  Template_Neff=12.600
+
+Q ss_pred             ceeEeeeEEEeCCCceEEEEeeccC
+Q tr|E9PR25|E9PR   55 ITYRIPALLYIPPTHTFLAFAEKRS   79 (139)
+Q Consensus        55 ityripallyippthtflafaekrs   79 (139)
+                      ..|++|++...+....+++|.+.+.
+T Consensus        20 ~~~~~p~i~~~~~~~~~~~~~~~~~   44 (382)
+T 1SO7_A           20 HAYRIPALLYLPGQQSLLAFAEQRA   44 (382)
+T ss_dssp             CCEEEEEEEEETTTTEEEEEEEECC
+T ss_pred             ceEEeeEEEEeCCCCEEEEEEEecc
+Confidence            7899999999998899999998763
+
+
+No 7
+>1W8O_A BACTERIAL SIALIDASE (E.C.3.2.1.18); GLYCOSIDASE, HYDROLASE, SIALIDASE, BETA-PROPELLER; HET: GOL, CIT, GLC, GAL; 1.7A {MICROMONOSPORA VIRIDIFACIENS} SCOP: b.68.1.1, b.18.1.1, b.1.18.2
+Probab=60.01  E-value=25  Score=26.37  Aligned_cols=35  Identities=23%  Similarity=0.319  Sum_probs=26.9  Template_Neff=12.600
+
+Q ss_pred             CCcccccCCCCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   44 SPLFRQEDDRGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        44 splfrqeddrgityripallyippthtflafaekr   78 (139)
+                      .++|..-+.....||+|++...+-...++++....
+T Consensus         8 ~~~~~~~~~~~~~~~~p~i~~~~~g~l~~~~~~~~   42 (601)
+T 1W8O_A            8 QDLAVNGREGFPNYRIPALTVTPDGDLLASYDGRP   42 (601)
+T ss_dssp             EEEEETTSTTCSCEEEEEEEECTTSCEEEEEEECT
+T ss_pred             cccccCCCCCCCcceeceEEECCCCcEEEEEccCC
+Confidence            35666666677889999999999887777776654
+
+
+No 8
+>2SIL_A SIALIDASE (E.C.3.2.1.18) (NEURAMINIDASE); HYDROLASE; 1.6A {Salmonella typhimurium} SCOP: b.68.1.1
+Probab=45.33  E-value=74  Score=24.64  Aligned_cols=37  Identities=22%  Similarity=0.347  Sum_probs=24.1  Template_Neff=10.400
+
+Q ss_pred             ccCCCcccccCC-CCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   41 SFNSPLFRQEDD-RGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        41 sfnsplfrqedd-rgityripallyippthtflafaekr   78 (139)
+                      +++..++..-++ ....||+|+|.+.+ ..+++++++.+
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~p~l~~~~-~g~l~~~~~~~   55 (381)
+T 2SIL_A           18 QKGNTIVGSGSGGTTKYFRIPAMCTTS-KGTIVVFADAR   55 (381)
+T ss_dssp             TTSCBCCCSBGGGBCCEEEEEEEEECT-TCCEEEEEEEE
+T ss_pred             CCCCeeEecCCCCccceeEeeEEEEeC-CCeEEEEEEcc
+Confidence            444555555444 47899999999866 45566666544
+
+
+No 9
+>2XCY_A EXTRACELLULAR SIALIDASE/NEURAMINIDASE, PUTATIVE (E.C.3.2.1.18); HYDROLASE, GLYCOSIDASE; HET: MSE; 1.84A {ASPERGILLUS FUMIGATUS}
+Probab=39.74  E-value=79  Score=23.09  Aligned_cols=42  Identities=24%  Similarity=0.316  Sum_probs=24.3  Template_Neff=11.800
+
+Q ss_pred             CCCceeEeeeEEEeCCCceEEEEeeccCCCCccchhhhhhhc
+Q tr|E9PR25|E9PR   52 DRGITYRIPALLYIPPTHTFLAFAEKRSTRRDEDALHLVLRR   93 (139)
+Q Consensus        52 drgityripallyippthtflafaekrstrrdedalhlvlrr   93 (139)
+                      +-...|++|.+...+....++++.+......+.....+++.+
+T Consensus        33 ~~~~~~~~P~i~~~~~g~~~~~~~~~~~~~~~~~~~~i~~~~   74 (386)
+T 2XCY_A           33 IGFHSFRIPAVVRTTTGRILAFAEGRRHTNQDFGDINLVYKR   74 (386)
+T ss_dssp             CBCSEEEEEEEEECTTSCEEEEEEEESSSSCSSSSEEEEEEE
+T ss_pred             CcceeEEccEEEEeCCCcEEEEEeceecCCCCCCcEEEEEEE
+Confidence            445689999999988666555554544333333333344444
+
+
+No 10
+>7P1Q_A Carbohydrate Metabolism, Enzyme Structure, Protein; HET: KDM; 0.91A {Trichophyton rubrum}
+Probab=36.47  E-value=1.1e+02  Score=22.30  Aligned_cols=27  Identities=19%  Similarity=0.201  Sum_probs=19.2  Template_Neff=11.900
+
+Q ss_pred             CCCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   52 DRGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        52 drgityripallyippthtflafaekr   78 (139)
+                      +....||+|++...+....++++....
+T Consensus        34 ~~~~~~~~P~i~~~~~g~~~~~~~~~~   60 (386)
+T 7P1Q_A           34 VGFHSFRIPAVVRTNTGRILAFAEGRR   60 (386)
+T ss_dssp             CBCSEEEEEEEEECTTSCEEEEEEEES
+T ss_pred             CCcceeeceEEEEeCCCcEEEEEeCcc
+Confidence            455689999999998766655554444
+
+
+No 11
+>4YW3_A NanC; Sialidase, Neuraminidase, Beta-propeller, CBM40, hydrolase; HET: DAN, GOL, SIA; 2.05A {Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)}
+Probab=34.15  E-value=1.7e+02  Score=23.38  Aligned_cols=37  Identities=22%  Similarity=0.442  Sum_probs=27.1  Template_Neff=11.700
+
+Q ss_pred             CCcccccCCCCcee-EeeeEEEeCCCceEEEEeeccCC
+Q tr|E9PR25|E9PR   44 SPLFRQEDDRGITY-RIPALLYIPPTHTFLAFAEKRST   80 (139)
+Q Consensus        44 splfrqeddrgity-ripallyippthtflafaekrst   80 (139)
+                      ..+|..+++.+..| |+|++...+-...++++.+....
+T Consensus       193 ~~~~~~~~~~~~~~~~~p~i~~~~~g~~~~~~~~~~~~  230 (659)
+T 4YW3_A          193 HLIYTANDTTGSNYFRIPVLYTFSNGRVFSSIDARYGG  230 (659)
+T ss_dssp             GBSSCTTSTTCCSEEEEEEEEECTTSCEEEEEEEESST
+T ss_pred             eeccCCCCCCCCcceeccEEEEeCCCcEEEEEecccCC
+Confidence            45677777877777 99999998887777766554433
+
+
+No 12
+>4YW4_B NanC; Sialidase, Neuraminidase, NanC, CBM40, hydrolase; HET: GOL, PO4; 2.2A {Streptococcus pneumoniae}
+Probab=34.15  E-value=1.7e+02  Score=23.38  Aligned_cols=37  Identities=22%  Similarity=0.442  Sum_probs=27.1  Template_Neff=11.700
+
+Q ss_pred             CCcccccCCCCcee-EeeeEEEeCCCceEEEEeeccCC
+Q tr|E9PR25|E9PR   44 SPLFRQEDDRGITY-RIPALLYIPPTHTFLAFAEKRST   80 (139)
+Q Consensus        44 splfrqeddrgity-ripallyippthtflafaekrst   80 (139)
+                      ..+|..+++.+..| |+|++...+-...++++.+....
+T Consensus       193 ~~~~~~~~~~~~~~~~~p~i~~~~~g~~~~~~~~~~~~  230 (659)
+T 4YW4_B          193 HLIYTANDTTGSNYFRIPVLYTFSNGRVFSSIDARYGG  230 (659)
+T ss_dssp             GBSSCTTSTTCCSEEEEEEEEECTTSCEEEEEEEESST
+T ss_pred             eeccCCCCCCCCcceeccEEEEeCCCcEEEEEecccCC
+Confidence            45677777877777 99999998887777766554433
+
+
+No 13
+>2BZD_A BACTERIAL SIALIDASE (E.C.3.2.1.18); SIALIDASE, HYDROLASE, CARBOHYDRATE BINDING MODULE; HET: GOL, GAL; 2.0A {MICROMONOSPORA VIRIDIFACIENS}
+Probab=32.03  E-value=1.3e+02  Score=22.67  Aligned_cols=34  Identities=24%  Similarity=0.326  Sum_probs=25.0  Template_Neff=12.700
+
+Q ss_pred             CcccccCCCCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   45 PLFRQEDDRGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        45 plfrqeddrgityripallyippthtflafaekr   78 (139)
+                      .++...+.-...||+|++...+-...++++....
+T Consensus         9 ~~~~~~~~~~~~~~~p~i~~~~~G~l~~~~~~~~   42 (601)
+T 2BZD_A            9 DLAVNGREGFPNYRIPALTVTPDGDLLASYDGRP   42 (601)
+T ss_dssp             EEEETTSTTCSEEEEEEEEECTTSCEEEEEEEET
+T ss_pred             ecccCCCCCCCceeeceEEECCCCcEEEEEcCCC
+Confidence            3455555666789999999988887777776654
+
+
+No 14
+>4FJ6_D glycoside hydrolase family 33, candidate; bacterial neuraminidase repeat, intramolecular trans-sialidase; HET: GOL, PO4, MSE; 1.9A {Parabacteroides distasonis}
+Probab=27.22  E-value=2e+02  Score=23.13  Aligned_cols=31  Identities=19%  Similarity=0.300  Sum_probs=21.4  Template_Neff=10.800
+
+Q ss_pred             CCcccccCCCCceeEeeeEEEeCCCceEEEE
+Q tr|E9PR25|E9PR   44 SPLFRQEDDRGITYRIPALLYIPPTHTFLAF   74 (139)
+Q Consensus        44 splfrqeddrgityripallyippthtflaf   74 (139)
+                      ..++...++..-+||||++...+-...+.++
+T Consensus       168 ~~~~~~~~~g~~~~~ip~i~~~~~g~l~~~~  198 (523)
+T 4FJ6_D          168 IGVRQAGDDGSAAFRIPGLVTTNNGTLLGVY  198 (523)
+T ss_dssp             EEEECTTGGGCSEEEEEEEEECTTSCEEEEE
+T ss_pred             EEEecCCCCCcccceEeEEEEcCCCcEEEEE
+Confidence            3455556666688999999887765555444
+
+
+No 15
+>3QH6_A CT296; CT296, Iron, modeling, Chlamydia, UNKNOWN; HET: PG4; 1.8A {Chlamydia trachomatis}
+Probab=24.59  E-value=95  Score=20.13  Aligned_cols=31  Identities=13%  Similarity=0.102  Sum_probs=25.2  Template_Neff=11.100
+
+Q ss_pred             hhhhhececccceeccCchhhhhhhhhhhcc
+Q tr|E9PR25|E9PR   99 QLVQRWGFAMLPRLVSNSWTQAILKCWDYSM  129 (139)
+Q Consensus        99 qlvqrwgfamlprlvsnswtqailkcwdysm  129 (139)
+                      +..++-||..++.+++.+..+.+.+.++-..
+T Consensus        13 ~~~~~~Gy~vl~~~l~~~~i~~l~~~~~~~~   43 (157)
+T 3QH6_A           13 RYFQNHGHILFEGLAPVSDCKQLEAELKLFL   43 (157)
+T ss_dssp             HHHHHHSEEEETTCSCHHHHHHHHHHHHHHC
+T ss_pred             HHHHHcCeEEEeCCCCHHHHHHHHHHHHHHH
+Confidence            4467889999999999999998888776543
+
+
+No 16
+>3QH7_A CT296; CT296, Iron, modeling, Chlamydia, UNKNOWN; HET: MSE; 2.497A {Chlamydia trachomatis}
+Probab=24.59  E-value=95  Score=20.13  Aligned_cols=31  Identities=13%  Similarity=0.102  Sum_probs=25.3  Template_Neff=11.100
+
+Q ss_pred             hhhhhececccceeccCchhhhhhhhhhhcc
+Q tr|E9PR25|E9PR   99 QLVQRWGFAMLPRLVSNSWTQAILKCWDYSM  129 (139)
+Q Consensus        99 qlvqrwgfamlprlvsnswtqailkcwdysm  129 (139)
+                      +..++-||..++.+++.+..+.+.+.++-..
+T Consensus        13 ~~~~~~Gy~vl~~~l~~~~i~~l~~~~~~~~   43 (157)
+T 3QH7_A           13 RYFQNHGHILFEGLAPVSDCKQLEAELKLFL   43 (157)
+T ss_dssp             HHHHHHSEEEETTSSCHHHHHHHHHHHHHHC
+T ss_pred             HHHHHcCeEEEeCCCCHHHHHHHHHHHHHHH
+Confidence            4467889999999999999998888776543
+
+
+No 17
+>2KSN_A Ubiquitin domain-containing protein 2; UBTD2, DC-UbP, ubiquitin, SIGNALING PROTEIN; NMR {Homo sapiens}
+Probab=22.98  E-value=1.4e+02  Score=23.38  Aligned_cols=25  Identities=28%  Similarity=0.515  Sum_probs=20.7  Template_Neff=5.900
+
+Q ss_pred             cccccCCCCceeEeeeEEEeCCCce
+Q tr|E9PR25|E9PR   46 LFRQEDDRGITYRIPALLYIPPTHT   70 (139)
+Q Consensus        46 lfrqeddrgityripallyipptht   70 (139)
+                      +-.--|++|..|.||.....+|+..
+T Consensus        93 l~~~yDe~G~~Y~lP~yvl~~P~nl  117 (137)
+T 2KSN_A           93 LTECYDELGNRYQLPVYCLAPPINM  117 (137)
+T ss_dssp             SSEEEETTTEEEECCGGGTCCSTTT
+T ss_pred             ceeeecCCCCEEecceeeecCCCcc
+Confidence            4447789999999999999998764
+
+
+No 18
+>6S29_B Histone acetyltransferase type B subunit; centromere mitosis WD40 histone chaperone; 1.988A {Schizosaccharomyces pombe}
+Probab=22.57  E-value=51  Score=24.39  Aligned_cols=20  Identities=35%  Similarity=0.142  Sum_probs=14.9  Template_Neff=1.600
+
+Q ss_pred             ccceeccCchhhhhhhhhhh
+Q tr|E9PR25|E9PR  108 MLPRLVSNSWTQAILKCWDY  127 (139)
+Q Consensus       108 mlprlvsnswtqailkcwdy  127 (139)
+                      -|-+|-+|||+|+--+-.|.
+T Consensus        27 NL~~lRa~S~~q~k~~~~~L   46 (61)
+T 6S29_B           27 NLHSLRSKSLIRAQGKKLDL   46 (61)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHH
+T ss_pred             chHHhcccchhhhcCCCCCc
+Confidence            35678899999987665543
+
+
+No 19
+>6S29_D Histone acetyltransferase type B subunit; centromere mitosis WD40 histone chaperone; 1.988A {Schizosaccharomyces pombe}
+Probab=22.57  E-value=51  Score=24.39  Aligned_cols=19  Identities=37%  Similarity=0.150  Sum_probs=14.5  Template_Neff=1.600
+
+Q ss_pred             ccceeccCchhhhhhhhhh
+Q tr|E9PR25|E9PR  108 MLPRLVSNSWTQAILKCWD  126 (139)
+Q Consensus       108 mlprlvsnswtqailkcwd  126 (139)
+                      -|-+|-+|||+|+--+-.|
+T Consensus        27 NL~~lRa~S~~q~k~~~~~   45 (61)
+T 6S29_D           27 NLHSLRSKSLIRAQGKKLD   45 (61)
+T ss_dssp             CHHHHHHHHHHHHHHHHHH
+T ss_pred             chHHhcccchhhhcCCCCC
+Confidence            3567889999998766554
+
+
+No 20
+>7E01_A L-proline, Trans, Hydroxylase, AKG, HYDROLASE; 1.72A {uncultured bacterium esnapd13}
+Probab=22.05  E-value=1.3e+02  Score=20.37  Aligned_cols=30  Identities=7%  Similarity=-0.025  Sum_probs=24.3  Template_Neff=12.100
+
+Q ss_pred             hhhhhhececccceeccCchhhhhhhhhhh
+Q tr|E9PR25|E9PR   98 GQLVQRWGFAMLPRLVSNSWTQAILKCWDY  127 (139)
+Q Consensus        98 gqlvqrwgfamlprlvsnswtqailkcwdy  127 (139)
+                      -+.+.+-||+.++.+++..+.+++.+.++-
+T Consensus        12 ~~~~~~~G~~vi~~~l~~~~~~~l~~~~~~   41 (266)
+T 7E01_A           12 VDEYRKNGFLVQEHVFDEEEIELLRAEAAQ   41 (266)
+T ss_dssp             HHHHHHHSEEEESSSSCHHHHHHHHHHHHH
+T ss_pred             HHHHHHCCeEEecCCCCHHHHHHHHHHHHH
+Confidence            355677899999999999998888877664
+
+
+No 21
+>7E06_A L-proline, Trans, Hydroxylase, AKG, HYDROLASE; HET: AKG; 1.97A {uncultured bacterium esnapd13}
+Probab=21.16  E-value=1.5e+02  Score=20.30  Aligned_cols=29  Identities=7%  Similarity=0.012  Sum_probs=23.6  Template_Neff=12.000
+
+Q ss_pred             hhhhhececccceeccCchhhhhhhhhhh
+Q tr|E9PR25|E9PR   99 QLVQRWGFAMLPRLVSNSWTQAILKCWDY  127 (139)
+Q Consensus        99 qlvqrwgfamlprlvsnswtqailkcwdy  127 (139)
+                      +-+.+.||+.++.+++.....++.+.++-
+T Consensus        15 ~~~~~~G~~vi~~~l~~~~~~~l~~~~~~   43 (268)
+T 7E06_A           15 DEYRKNGFLVQEHVFDEEEIELLRAEAAQ   43 (268)
+T ss_dssp             HHHHHHSEEEETTCSCHHHHHHHHHHHHH
+T ss_pred             HHHHHcCeEeecCCCCHHHHHHHHHHHHH
+Confidence            45678999999999999988888776654
+
+
+No 22
+>7E07_B L-proline, Trans, Hydroxylase, AKG, HYDROLASE; HET: AKG, PRO; 2.14A {uncultured bacterium esnapd13}
+Probab=21.16  E-value=1.5e+02  Score=20.30  Aligned_cols=29  Identities=7%  Similarity=0.012  Sum_probs=23.7  Template_Neff=12.000
+
+Q ss_pred             hhhhhececccceeccCchhhhhhhhhhh
+Q tr|E9PR25|E9PR   99 QLVQRWGFAMLPRLVSNSWTQAILKCWDY  127 (139)
+Q Consensus        99 qlvqrwgfamlprlvsnswtqailkcwdy  127 (139)
+                      +-+.+.||+.++.+++.....++.+.++-
+T Consensus        15 ~~~~~~G~~vi~~~l~~~~~~~l~~~~~~   43 (268)
+T 7E07_B           15 DEYRKNGFLVQEHVFDEEEIELLRAEAAQ   43 (268)
+T ss_dssp             HHHHHHSEEEECCSSCHHHHHHHHHHHHH
+T ss_pred             HHHHHcCeEeecCCCCHHHHHHHHHHHHH
+Confidence            45678999999999999988888776654
+
+
+No 23
+>1EUR_A SIALIDASE; NEURAMINIDASE, SIALIDASE, HYDROLASE; 1.82A {Micromonospora viridifaciens} SCOP: b.68.1.1
+Probab=21.07  E-value=2.5e+02  Score=19.46  Aligned_cols=33  Identities=24%  Similarity=0.343  Sum_probs=24.7  Template_Neff=12.800
+
+Q ss_pred             cccccCCCCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   46 LFRQEDDRGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        46 lfrqeddrgityripallyippthtflafaekr   78 (139)
+                      +|.-.++....+++|++...+....++++....
+T Consensus        14 ~~~~~~~~~~~~~~p~i~~~~~g~~~~~~~~~~   46 (365)
+T 1EUR_A           14 LAVNGREGFPNYRIPALTVTPDGDLLASYDGRP   46 (365)
+T ss_dssp             EEETTSTTCSCEEEEEEEECTTSCEEEEEEECT
+T ss_pred             eeeCCCCCCcceecCeEEEcCCCCEEEEEcCCC
+Confidence            444445556789999999999888888777654
+
+
+No 24
+>4J9T_A designed unnatural amino acid dependent; Structural Genomics, PSI-Biology, Northeast Structural; 1.4A {Micromonospora viridifaciens}
+Probab=20.80  E-value=3e+02  Score=19.11  Aligned_cols=33  Identities=18%  Similarity=0.231  Sum_probs=22.9  Template_Neff=12.800
+
+Q ss_pred             cccccCCCCceeEeeeEEEeCCCceEEEEeecc
+Q tr|E9PR25|E9PR   46 LFRQEDDRGITYRIPALLYIPPTHTFLAFAEKR   78 (139)
+Q Consensus        46 lfrqeddrgityripallyippthtflafaekr   78 (139)
+                      ++.-.++....+++|++...+....++++....
+T Consensus        10 ~~~~~~~~~~~~~~p~i~~~~~g~~~~~~~~~~   42 (363)
+T 4J9T_A           10 LAVNGREGFPNYSHPALTVTPDGDLLASYDGRP   42 (363)
+T ss_dssp             EEETTSTTCSEEEEEEEEECTTSCEEEEEEEEC
+T ss_pred             ceecCCCCCceeecCeEEECCCCCEEEEEecCC
+Confidence            344445556789999999888777776666554
+
+
+No 25
+>1AIH_A HP1 INTEGRASE; DNA INTEGRATION, RECOMBINATION; HET: SO4; 2.5A {Haemophilus phage HP1} SCOP: d.163.1.1
+Probab=20.30  E-value=58  Score=20.03  Aligned_cols=22  Identities=14%  Similarity=0.077  Sum_probs=16.7  Template_Neff=12.400
+
+Q ss_pred             CCccchhhhhhhcCcchhhhhh
+Q tr|E9PR25|E9PR   81 RRDEDALHLVLRRGLRIGQLVQ  102 (139)
+Q Consensus        81 rrdedalhlvlrrglrigqlvq  102 (139)
+                      .+...++.+.+.-|+|++++..
+T Consensus        25 ~~~~~~~~l~~~~G~R~~Ei~~   46 (170)
+T 1AIH_A           25 PDLGLIVRICLATGARWSEAET   46 (170)
+T ss_dssp             TTHHHHHHHHHHHCCCHHHHHT
+T ss_pred             CcHHHHHHHHHHhCCCHHHHHh
+Confidence            4556677778888999998764
+
+
+No 26
+>4XAB_A EvdO2; oxidoreductase, double stranded beta helix; HET: IMD; 1.75A {Micromonospora carbonacea}
+Probab=20.09  E-value=1.4e+02  Score=19.70  Aligned_cols=32  Identities=25%  Similarity=0.392  Sum_probs=25.7  Template_Neff=12.400
+
+Q ss_pred             hhhhhececccceeccCchhhhhhhhhhhccc
+Q tr|E9PR25|E9PR   99 QLVQRWGFAMLPRLVSNSWTQAILKCWDYSMS  130 (139)
+Q Consensus        99 qlvqrwgfamlprlvsnswtqailkcwdysms  130 (139)
+                      +-+.+.||..++.+++....+.+.++++-.+.
+T Consensus        16 ~~~~~~G~~vi~~~l~~~~~~~l~~~~~~~~~   47 (252)
+T 4XAB_A           16 EEFRSRGFAILPQVASESEVAWLRQAYDRLFV   47 (252)
+T ss_dssp             HHHHHHSEEEESCSSCHHHHHHHHHHHHHHSC
+T ss_pred             HHHHHcCeEEecCCCCHHHHHHHHHHHHHHHh
+Confidence            34567899999999999999998888775444
+
+

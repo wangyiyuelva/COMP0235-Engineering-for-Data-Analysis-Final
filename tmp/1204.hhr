@@ -1,0 +1,169 @@
+Query         tr|K7EK55|K7EK55_HUMAN
+Match_columns 44
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:22:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1204.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1UF2_H Core protein P3/Outer c  48.2      19 0.00021   28.8   1.1   12   13-24    369-380 (421)
+  2 1UF2_T Core protein P3/Outer c  48.2      19 0.00021   28.8   1.1   12   13-24    369-380 (421)
+  3 5JIG_A Ubiquitin and WLM domai  23.2      90 0.00097   18.1   0.9   16   27-43     11-26  (127)
+  4 6JLU_W PsbA, PsbB, PsbC, PsbD,  22.3      89 0.00096   18.0   0.7    9   19-27     23-31  (51)
+  5 6HMV_B Golgi resident protein   20.7 1.6E+02  0.0017   16.4   1.5   15   29-43      4-18  (50)
+  6 6PEJ_A Sorbitol dehydrogenase   17.2      86 0.00093   16.8  -0.0    6   18-23      3-8   (291)
+  7 6PEJ_D Sorbitol dehydrogenase   17.2      86 0.00093   16.8  -0.0    6   18-23      3-8   (291)
+  8 5UCR_A Pantothenate synthetase  15.6 1.3E+02  0.0014   21.1   0.4   20    3-22    175-194 (285)
+  9 5UCR_B Pantothenate synthetase  15.6 1.3E+02  0.0014   21.1   0.4   20    3-22    175-194 (285)
+ 10 5XBV_A Wss1p; protease, HYDROL  15.3 1.8E+02   0.002   17.5   1.0   17   27-43     34-50  (149)
+
+No 1
+>1UF2_H Core protein P3/Outer capsid protein; VIRUS COMPONENTS, Icosahedral virus, Virus; 3.5A {Rice dwarf virus} SCOP: a.115.1.3, b.19.1.1
+Probab=48.17  E-value=19  Score=28.82  Aligned_cols=12  Identities=67%  Similarity=1.398  Sum_probs=10.7  Template_Neff=2.000
+
+Q ss_pred             CCCCCChhhhhh
+Q tr|K7EK55|K7EK   13 GLALDSPWHRFR   24 (44)
+Q Consensus        13 glaldspwhrfr   24 (44)
+                      ++|.+|||.||.
+T Consensus       369 ~iAF~sPW~RfS  380 (421)
+T 1UF2_H          369 GLAFTSPWFRFS  380 (421)
+T ss_dssp             SCCCSSCTTCHH
+T ss_pred             cceecCCchHHH
+Confidence            499999999995
+
+
+No 2
+>1UF2_T Core protein P3/Outer capsid protein; VIRUS COMPONENTS, Icosahedral virus, Virus; 3.5A {Rice dwarf virus} SCOP: a.115.1.3, b.19.1.1
+Probab=48.17  E-value=19  Score=28.82  Aligned_cols=12  Identities=67%  Similarity=1.398  Sum_probs=10.7  Template_Neff=2.000
+
+Q ss_pred             CCCCCChhhhhh
+Q tr|K7EK55|K7EK   13 GLALDSPWHRFR   24 (44)
+Q Consensus        13 glaldspwhrfr   24 (44)
+                      ++|.+|||.||.
+T Consensus       369 ~iAF~sPW~RfS  380 (421)
+T 1UF2_T          369 GLAFTSPWFRFS  380 (421)
+T ss_dssp             TCCCSSCGGGHH
+T ss_pred             cceecCCchHHH
+Confidence            499999999995
+
+
+No 3
+>5JIG_A Ubiquitin and WLM domain-containing metalloprotease; Metalloprotease, DNA-Repair, Endoprotease, Regulation, hydrolase; 1.0A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=23.16  E-value=90  Score=18.07  Aligned_cols=16  Identities=31%  Similarity=0.297  Sum_probs=12.8  Template_Neff=8.600
+
+Q ss_pred             cCCCCCCHHHHhhhhhC
+Q tr|K7EK55|K7EK   27 HLGDAPGPREALGLLRA   43 (44)
+Q Consensus        27 hlgdapgprealgllra   43 (44)
+                      ++++ |++.+|+.+|+.
+T Consensus        11 ~~~~-~~~~~a~~~l~~   26 (127)
+T 5JIG_A           11 VLDY-PHKDRALRYLER   26 (127)
+T ss_dssp             CCSS-TTHHHHHHHHHH
+T ss_pred             eCCC-CCHHHHHHHHHH
+Confidence            5677 999999988864
+
+
+No 4
+>6JLU_W PsbA, PsbB, PsbC, PsbD, PsbE; PSII-FCP supercomplex, PLANT PROTEIN; HET: DD6, HEM, KC2, CLA, BCR, DGD, PHO, SQD, PL9, LMG, LHG, A86, OEX, KC1; 3.02A {Chaetoceros gracilis}
+Probab=22.34  E-value=89  Score=17.98  Aligned_cols=9  Identities=56%  Similarity=1.276  Sum_probs=7.5  Template_Neff=4.500
+
+Q ss_pred             hhhhhhhhc
+Q tr|K7EK55|K7EK   19 PWHRFRRFH   27 (44)
+Q Consensus        19 pwhrfrrfh   27 (44)
+                      -|.||-||-
+T Consensus        23 eWdRFMRFM   31 (51)
+T 6JLU_W           23 EWDRFMRFM   31 (51)
+T ss_pred             HHHHHHHHH
+Confidence            499999984
+
+
+No 5
+>6HMV_B Golgi resident protein GCP60, Genome; complex, Golgi, enterovirus, picornavirus, VIRAL; 2.244A {Homo sapiens}
+Probab=20.73  E-value=1.6e+02  Score=16.40  Aligned_cols=15  Identities=27%  Similarity=0.477  Sum_probs=10.8  Template_Neff=5.400
+
+Q ss_pred             CCCCCHHHHhhhhhC
+Q tr|K7EK55|K7EK   29 GDAPGPREALGLLRA   43 (44)
+Q Consensus        29 gdapgprealgllra   43 (44)
+                      ++.|-|.+...|||+
+T Consensus         4 ~~kp~P~eI~DLL~s   18 (50)
+T 6HMV_B            4 SGTPAPDAINDALRS   18 (50)
+T ss_dssp             ---CCHHHHHHHHHH
+T ss_pred             CCCCCcHHHHHHHHc
+Confidence            367889999999986
+
+
+No 6
+>6PEJ_A Sorbitol dehydrogenase (L-iditol 2-dehydrogenase) (E.C.1.1.1.14); SmoS, sorbitol, galactitol, dehydrogenase, OXIDOREDUCTASE; HET: SOR; 2.0A {Sinorhizobium meliloti 1021}
+Probab=17.17  E-value=86  Score=16.83  Aligned_cols=6  Identities=33%  Similarity=0.462  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             Chhhhh
+Q tr|K7EK55|K7EK   18 SPWHRF   23 (44)
+Q Consensus        18 spwhrf   23 (44)
+                      ||||||
+T Consensus         3 ~~~~~~    8 (291)
+T 6PEJ_A            3 SSHHHH    8 (291)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            555554
+
+
+No 7
+>6PEJ_D Sorbitol dehydrogenase (L-iditol 2-dehydrogenase) (E.C.1.1.1.14); SmoS, sorbitol, galactitol, dehydrogenase, OXIDOREDUCTASE; HET: SOR; 2.0A {Sinorhizobium meliloti 1021}
+Probab=17.17  E-value=86  Score=16.83  Aligned_cols=6  Identities=33%  Similarity=0.462  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             Chhhhh
+Q tr|K7EK55|K7EK   18 SPWHRF   23 (44)
+Q Consensus        18 spwhrf   23 (44)
+                      ||||||
+T Consensus         3 ~~~~~~    8 (291)
+T 6PEJ_D            3 SSHHHH    8 (291)
+T ss_dssp             ------
+T ss_pred             CCcccc
+Confidence            555554
+
+
+No 8
+>5UCR_A Pantothenate synthetase (E.C.6.3.2.1); SSGCID, pantoate-beta-alanine_ligase, AMPPNP, Structural Genomics; HET: ALA, ANP; 2.25A {Neisseria gonorrhoeae}
+Probab=15.58  E-value=1.3e+02  Score=21.06  Aligned_cols=20  Identities=40%  Similarity=0.433  Sum_probs=15.4  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCChhhh
+Q tr|K7EK55|K7EK    3 VAVPVKQEAEGLALDSPWHR   22 (44)
+Q Consensus         3 vavpvkqeaeglaldspwhr   22 (44)
+                      +.+|.-.|..|||+.|--.+
+T Consensus       175 ~~~ptvRe~dGLA~SSRN~~  194 (285)
+T 5UCR_A          175 VPVDTGRAADGLALSSRNRY  194 (285)
+T ss_dssp             EEECCCBCTTSCBCCGGGGG
+T ss_pred             EEeCCCCCCCCccccchhhc
+Confidence            35788889999999984433
+
+
+No 9
+>5UCR_B Pantothenate synthetase (E.C.6.3.2.1); SSGCID, pantoate-beta-alanine_ligase, AMPPNP, Structural Genomics; HET: ALA, ANP; 2.25A {Neisseria gonorrhoeae}
+Probab=15.58  E-value=1.3e+02  Score=21.06  Aligned_cols=20  Identities=40%  Similarity=0.433  Sum_probs=15.4  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCChhhh
+Q tr|K7EK55|K7EK    3 VAVPVKQEAEGLALDSPWHR   22 (44)
+Q Consensus         3 vavpvkqeaeglaldspwhr   22 (44)
+                      +.+|.-.|..|||+.|--.+
+T Consensus       175 ~~~ptvRe~dGLA~SSRN~~  194 (285)
+T 5UCR_B          175 VPVDTGRAADGLALSSRNRY  194 (285)
+T ss_dssp             EEECCCBCTTSCBCCGGGGG
+T ss_pred             EEeCCCCCCCCccccchhhc
+Confidence            35788889999999984433
+
+
+No 10
+>5XBV_A Wss1p; protease, HYDROLASE; 1.804A {Saccharomyces cerevisiae}
+Probab=15.26  E-value=1.8e+02  Score=17.49  Aligned_cols=17  Identities=29%  Similarity=0.548  Sum_probs=14.0  Template_Neff=8.300
+
+Q ss_pred             cCCCCCCHHHHhhhhhC
+Q tr|K7EK55|K7EK   27 HLGDAPGPREALGLLRA   43 (44)
+Q Consensus        27 hlgdapgprealgllra   43 (44)
+                      +++..|.+.+|+.+|+.
+T Consensus        34 ~l~~~p~~~~a~~~L~~   50 (149)
+T 5XBV_A           34 VLQSKPNKEDALNLIKE   50 (149)
+T ss_dssp             CCTTSTTHHHHHHHHHH
+T ss_pred             eCCCCCCHHHHHHHHHH
+Confidence            67888999999988763
+
+

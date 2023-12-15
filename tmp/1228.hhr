@@ -1,0 +1,315 @@
+Query         sp|Q8WVR3|TPC14_HUMAN
+Match_columns 580
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:43:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1228.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Y5A_C 5-hydroxytryptamine rec  77.9      88 0.00096   31.9  11.9   12  267-278   191-202 (538)
+  2 6Y5A_D 5-hydroxytryptamine rec  77.9      88 0.00096   31.9  11.9   13  266-278   190-202 (538)
+  3 7OBR_u SRP SRP receptor, co-tr  75.7     8.8 9.6E-05   41.5   5.0   18  176-193   107-124 (622)
+  4 7OBQ_u SRP SRP receptor, co-tr  65.0      20 0.00022   40.2   4.9   17  176-192   107-123 (622)
+  5 5GUP_4 Cytochrome c oxidase su  49.7 1.5E+02  0.0016   29.3   7.3   40  272-320   207-246 (274)
+  6 7JRG_E Mitochondrial-processin  41.0 3.6E+02  0.0039   27.0   8.5   58  272-339   204-261 (271)
+  7 7EA3_X Complex, TRANSPORT PROT  35.9 1.8E+02  0.0019   32.6   6.2   91  377-467   418-536 (560)
+  8 4KBL_A E3 ubiquitin-protein li  31.4 1.8E+02  0.0019   30.5   5.1   14  501-514   489-502 (559)
+  9 2NUK_A Ubiquinol-cytochrome c   29.0 3.1E+02  0.0034   23.6   5.3   40  272-319    73-112 (141)
+ 10 1WQL_A iron-sulfur protein lar  26.1   1E+03   0.011   24.2   8.8   43  271-322    90-133 (459)
+ 11 5OYM_B PC4 and SFRS1-interacti  25.9      77 0.00084   28.3   1.4   11   54-64      7-17  (111)
+ 12 5OYM_D PC4 and SFRS1-interacti  25.9      77 0.00084   28.3   1.4   11   54-64      7-17  (111)
+ 13 3VMH_C Terminal oxygenase comp  25.5 4.4E+02  0.0048   25.5   6.1   41  272-320    59-100 (392)
+ 14 7BUG_B Terminal oxygenase comp  25.5 4.4E+02  0.0048   25.5   6.1   41  272-320    59-100 (392)
+ 15 7E2C_K protein transport TRAPP  24.3   4E+02  0.0044   30.1   6.5   92  377-468   418-537 (559)
+ 16 7JRJ_F Radial spoke protein 10  20.9 5.3E+02  0.0057   29.0   6.5   48  146-194   343-394 (814)
+ 17 7JTK_B Radial spoke 1; cilia,   20.9 5.3E+02  0.0057   29.0   6.5   41  154-195   355-395 (814)
+ 18 2QJY_L Cytochrome B, 8 TM heli  20.3 6.7E+02  0.0073   22.0   5.8   43  271-321   118-160 (187)
+
+No 1
+>6Y5A_C 5-hydroxytryptamine receptor 3A; Pentameric ligand-gated ion channel, pLGIC; HET: SRO; 2.8A {Mus musculus}
+Probab=77.88  E-value=88  Score=31.87  Aligned_cols=12  Identities=25%  Similarity=0.110  Sum_probs=6.0  Template_Neff=9.600
+
+Q ss_pred             CCcCCCCCEEEE
+Q sp|Q8WVR3|TPC1  267 LPVMPDGSVLLV  278 (580)
+Q Consensus       267 lpvmpdgsvllv  278 (580)
+                      .-+.+||.|...
+T Consensus       191 v~v~~~G~v~~~  202 (538)
+T 6Y5A_C          191 VYVHHRGEVQNY  202 (538)
+T ss_dssp             EEEETTSEEEEE
+T ss_pred             EEEEeCCEEEEc
+Confidence            334556655543
+
+
+No 2
+>6Y5A_D 5-hydroxytryptamine receptor 3A; Pentameric ligand-gated ion channel, pLGIC; HET: SRO; 2.8A {Mus musculus}
+Probab=77.88  E-value=88  Score=31.87  Aligned_cols=13  Identities=31%  Similarity=0.301  Sum_probs=6.9  Template_Neff=9.600
+
+Q ss_pred             cCCcCCCCCEEEE
+Q sp|Q8WVR3|TPC1  266 YLPVMPDGSVLLV  278 (580)
+Q Consensus       266 ylpvmpdgsvllv  278 (580)
+                      +.-+.+||.|...
+T Consensus       190 ~v~v~~~G~v~~~  202 (538)
+T 6Y5A_D          190 YVYVHHRGEVQNY  202 (538)
+T ss_dssp             CEEEETTSEEEEE
+T ss_pred             eEEEEeCCEEEEc
+Confidence            3445566666544
+
+
+No 3
+>7OBR_u SRP SRP receptor, co-translational protein; HET: MG, GDP; 2.8A {Canis lupus familiaris}
+Probab=75.69  E-value=8.8  Score=41.49  Aligned_cols=18  Identities=22%  Similarity=0.440  Sum_probs=10.3  Template_Neff=7.600
+
+Q ss_pred             ecccCCCcccccceeeee
+Q sp|Q8WVR3|TPC1  176 KREIEAPEVRDQGYLRLL  193 (580)
+Q Consensus       176 kreieapevrdqgylrll  193 (580)
+                      +++|.+..+.|..||.++
+T Consensus       107 ~k~~~~~~~~d~r~l~i~  124 (622)
+T 7OBR_u          107 GKKVTEDLLTDNRYLLLV  124 (622)
+T ss_pred             CCCCCHHHhcCCcEEEEe
+Confidence            445555556666666553
+
+
+No 4
+>7OBQ_u SRP SRP receptor, co-translational protein; HET: GTP, GNP; 3.9A {Canis lupus familiaris}
+Probab=65.01  E-value=20  Score=40.18  Aligned_cols=17  Identities=24%  Similarity=0.431  Sum_probs=11.7  Template_Neff=6.100
+
+Q ss_pred             ecccCCCcccccceeee
+Q sp|Q8WVR3|TPC1  176 KREIEAPEVRDQGYLRL  192 (580)
+Q Consensus       176 kreieapevrdqgylrl  192 (580)
+                      +++|.+..+.|..||.+
+T Consensus       107 ~k~it~~~v~d~r~L~l  123 (622)
+T 7OBQ_u          107 GKKVTEDLLTDNRYLLL  123 (622)
+T ss_dssp             CCCCCTTGGGGSCHHHH
+T ss_pred             CCCCCHHHhcCCCeeEE
+Confidence            45677667777777655
+
+
+No 5
+>5GUP_4 Cytochrome c oxidase subunit 6C; Cryo-EM, Mammalian, Respiratory, Supercomplex, ELECTRON; HET: SF4, PEE, HEM, NDP, HEA, HEC, FMN, ZMP, CDL, FES, PLX; 4.0A {Sus scrofa}
+Probab=49.65  E-value=1.5e+02  Score=29.26  Aligned_cols=40  Identities=23%  Similarity=0.493  Sum_probs=25.5  Template_Neff=7.800
+
+Q ss_pred             CCCEEEEeccccCCCCcCCcccccCCCCCCceecCcchccccceEEEec
+Q sp|Q8WVR3|TPC1  272 DGSVLLVDNVCHQSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQLR  320 (580)
+Q Consensus       272 dgsvllvdnvchqsgevsmgsfcrlpgtsgcfpcplnaleehnflfqlr  320 (580)
+                      ++.++.++++|...|-+-...    .+..+++-||.     |+..|...
+T Consensus       207 ~~~~~a~~~vCtH~Gc~~~~~----~~~~~~~~CPc-----Hgs~fd~s  246 (274)
+T 5GUP_4          207 KPEWVILIGVCTHLGCVPIAN----AGDFGGYYCPC-----HGSHYDAS  246 (274)
+T ss_pred             CCcEEEEEEeecCCCceeccc----CCCCCceecCC-----CCcEECCC
+Confidence            678899999997665332211    23347788886     66666633
+
+
+No 6
+>7JRG_E Mitochondrial-processing peptidase subunit beta, mitochondrial; mitochondria, respiration, bioenergetics, plants, ELECTRON; HET: PC1, 3PE, HEM, HEC, CDL; 3.2A {Vigna radiata var. radiata}
+Probab=40.96  E-value=3.6e+02  Score=26.99  Aligned_cols=58  Identities=28%  Similarity=0.446  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             CCCEEEEeccccCCCCcCCcccccCCCCCCceecCcchccccceEEEecCCCCCCCCCCCCCcCcEEE
+Q sp|Q8WVR3|TPC1  272 DGSVLLVDNVCHQSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQLRGGEQPPPGAKEGLEVPLIA  339 (580)
+Q Consensus       272 dgsvllvdnvchqsgevsmgsfcrlpgtsgcfpcplnaleehnflfqlrggeqpppgakeglevplia  339 (580)
+                      +..++.++++|...|-+-..    -.+..+++-||.     |+-.|.+.| +.....+...|+++-+.
+T Consensus       204 ~~~~~a~~~vCtHlGC~~~~----~~~~~~~~~CPC-----HGs~yd~~G-r~~~GPa~~~L~~~~~~  261 (271)
+T 7JRG_E          204 NPEWLIVIGVCTHLGCIPLP----NAGDFGGWFCPC-----HGSHYDISG-RIRKGPAPYNLEVPTYT  261 (271)
+T ss_dssp             --------------------------------------------------------------------
+T ss_pred             CCccEEEEeeCCCCCCccCC----CCCCCCceecCC-----CCcEEcCCC-CeecCCCCCCCccCEEE
+Confidence            45678888999776633211    123456788885     677777733 32222234555555433
+
+
+No 7
+>7EA3_X Complex, TRANSPORT PROTEIN; 4.31A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=35.91  E-value=1.8e+02  Score=32.58  Aligned_cols=91  Identities=13%  Similarity=0.192  Sum_probs=62.7  Template_Neff=6.600
+
+Q ss_pred             CCCCcceeeEEEEEEeccCCcceEEEEEEEChhhh-----------------------ccCCCCCHHHHHHHHH----HH
+Q sp|Q8WVR3|TPC1  377 KSPVRTYERFTVTYTLLNNLQDFLAVRLVWTPEHA-----------------------QAGKQLCEEERRAMQA----AL  429 (580)
+Q Consensus       377 kspvrtyerftvtytllnnlqdflavrlvwtpeha-----------------------qagkqlceeerramqa----al  429 (580)
+                      .+.|.-.+.|+++..+.|+-..-+...++..+.-.                       +.+..+-.|..-+|+.    .-
+T Consensus       418 p~~V~vGe~Ft~~v~IvN~S~r~~~L~l~~~~~~~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~e~~~~l~k~~~~~~  497 (560)
+T 7EA3_X          418 NIKVIKGEKFTMRLQIINSSSSPLDLVVYYNNTINPIPSANNVRNSNGINNCGMNNGTIPNSPLTLENQYQLHNKYRKIA  497 (560)
+T ss_pred             CCEEeCCCcEEEEEEEEECCCCCEEEEEEecCCCCCCCCccCCCCCCcccccCCCCCCCCCCCcchhhHHHHHHhhcccC
+Confidence            56788899999999999988777766666655310                       0011111222223322    24
+
+
+Q ss_pred             HhhhcCCCcccCCCCCCCCcceeeeehhhhhhccc-ccc
+Q sp|Q8WVR3|TPC1  430 DSVVCHTPLNNLGFSRKGSALTFSVAFQALRTGLF-ELS  467 (580)
+Q Consensus       430 dsvvchtplnnlgfsrkgsaltfsvafqalrtglf-els  467 (580)
+                      ..+||.++--.+|--.-|....+.+-|-||+.|++ .|.
+T Consensus       498 ~gII~LsndvrlGpL~Pga~~e~eL~fiaL~~Gv~~~L~  536 (560)
+T 7EA3_X          498 EGIILLSNDYKIPVVPPRETYFADLRFIGIMSGYYGTLS  536 (560)
+T ss_pred             CeEEEccCCeEecccCCCCEEEEEEEEEEeccceeceec
+Confidence            67889887777887777888889999999999999 776
+
+
+No 8
+>4KBL_A E3 ubiquitin-protein ligase ARIH1 (E.C.6.3.2.-); RING-IBR-RING, E3 ubiquitin ligase, LIGASE; HET: ZN; 3.3A {Homo sapiens}
+Probab=31.40  E-value=1.8e+02  Score=30.51  Aligned_cols=14  Identities=29%  Similarity=0.278  Sum_probs=8.4  Template_Neff=9.100
+
+Q ss_pred             hhchhhhccccCCC
+Q sp|Q8WVR3|TPC1  501 VRDLVERHQASLGR  514 (580)
+Q Consensus       501 vrdlverhqaslgr  514 (580)
+                      .++|.|.+|+.|-.
+T Consensus       489 ~~~~fe~~q~~le~  502 (559)
+T 4KBL_A          489 QSIIFENNQADLEN  502 (559)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            45667766665544
+
+
+No 9
+>2NUK_A Ubiquinol-cytochrome c reductase iron-sulfur subunit; Iron Sulfur CLuster, OXIDOREDUCTASE; 1.2A {Rhodobacter sphaeroides}
+Probab=28.98  E-value=3.1e+02  Score=23.60  Aligned_cols=40  Identities=30%  Similarity=0.571  Sum_probs=25.7  Template_Neff=8.900
+
+Q ss_pred             CCCEEEEeccccCCCCcCCcccccCCCCCCceecCcchccccceEEEe
+Q sp|Q8WVR3|TPC1  272 DGSVLLVDNVCHQSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQL  319 (580)
+Q Consensus       272 dgsvllvdnvchqsgevsmgsfcrlpgtsgcfpcplnaleehnflfql  319 (580)
+                      ++.+....++|...|-...... .  +..+++-||.     |+..|..
+T Consensus        73 ~~~~~~~~~~c~h~~~~~~~~~-~--~~~~~~~cp~-----h~~~~d~  112 (141)
+T 2NUK_A           73 AGEWLVMWGVCTHLGCVPIGGV-S--GDFGGWFCPC-----HGSHYDS  112 (141)
+T ss_dssp             TSCEEEEECCCTTTCCCCEEEE-E--TTTTEEEETT-----TTEEECT
+T ss_pred             CCCEEEEEeeCCCCCceecccc-c--CCCCeEEcCC-----CCcEECC
+Confidence            7889999999987663211111 0  2246788886     6677776
+
+
+No 10
+>1WQL_A iron-sulfur protein large subunit of; biphenyl dioxygenase, cumene dioxygenase, naphthalene; 2.2A {Pseudomonas fluorescens} SCOP: b.33.1.2, d.129.3.3
+Probab=26.06  E-value=1e+03  Score=24.17  Aligned_cols=43  Identities=26%  Similarity=0.503  Sum_probs=29.9  Template_Neff=9.700
+
+Q ss_pred             CCCCEEEEeccccCCCCcCCcccccC-CCCCCceecCcchccccceEEEecCC
+Q sp|Q8WVR3|TPC1  271 PDGSVLLVDNVCHQSGEVSMGSFCRL-PGTSGCFPCPLNALEEHNFLFQLRGG  322 (580)
+Q Consensus       271 pdgsvllvdnvchqsgevsmgsfcrl-pgtsgcfpcplnaleehnflfqlrgg  322 (580)
+                      .||.+-..+|+|...|-.    .|+- -+..+++-||.     |+..|.+.|.
+T Consensus        90 ~~g~~~a~~n~C~Hrg~~----l~~~~~~~~~~~~Cp~-----Hgw~f~~~G~  133 (459)
+T 1WQL_A           90 KDRSIKVFLNQCRHRGMR----IERSDFGNAKSFTCTY-----HGWAYDTAGN  133 (459)
+T ss_dssp             TTSCEEEEESSCTTTCCC----SCCSSEEECSCEECTT-----TCCEECTTCC
+T ss_pred             CCCCEEEEEeccCCCCCe----eeeccCCCCCeEEcCC-----CCcEEcCCCc
+Confidence            588999999999776642    2221 13346899997     8888887553
+
+
+No 11
+>5OYM_B PC4 and SFRS1-interacting protein; Integrase binding, transciptional co-activator, domain; 2.05A {Homo sapiens}
+Probab=25.94  E-value=77  Score=28.28  Aligned_cols=11  Identities=64%  Similarity=1.211  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCC
+Q sp|Q8WVR3|TPC1   54 GGAGSGTGGGP   64 (580)
+Q Consensus        54 ggagsgtgggp   64 (580)
+                      ||+|||.||+.
+T Consensus         7 ~~~~~~~~~~~   17 (111)
+T 5OYM_B            7 GGGGSGGGGSG   17 (111)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCCCC
+Confidence            44444444433
+
+
+No 12
+>5OYM_D PC4 and SFRS1-interacting protein; Integrase binding, transciptional co-activator, domain; 2.05A {Homo sapiens}
+Probab=25.94  E-value=77  Score=28.28  Aligned_cols=11  Identities=64%  Similarity=1.211  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCC
+Q sp|Q8WVR3|TPC1   54 GGAGSGTGGGP   64 (580)
+Q Consensus        54 ggagsgtgggp   64 (580)
+                      ||+|||.||+.
+T Consensus         7 ~~~~~~~~~~~   17 (111)
+T 5OYM_D            7 GGGGSGGGGSG   17 (111)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCCCC
+Confidence            44444444433
+
+
+No 13
+>3VMH_C Terminal oxygenase component of carbazole; Catalytic mechanism, Electron transfer complex; HET: FES; 1.85A {Janthinobacterium}
+Probab=25.53  E-value=4.4e+02  Score=25.45  Aligned_cols=41  Identities=20%  Similarity=0.477  Sum_probs=28.5  Template_Neff=10.200
+
+Q ss_pred             CCCEEEEecccc-CCCCcCCcccccCCCCCCceecCcchccccceEEEec
+Q sp|Q8WVR3|TPC1  272 DGSVLLVDNVCH-QSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQLR  320 (580)
+Q Consensus       272 dgsvllvdnvch-qsgevsmgsfcrlpgtsgcfpcplnaleehnflfqlr  320 (580)
+                      +|.+..++|.|- .....+.|..|   +..+++-||.     |+.-|.+.
+T Consensus        59 ~g~~~a~~~~C~hrg~~l~~~~~~---~~~~~~~Cp~-----hgw~~~~~  100 (392)
+T 3VMH_C           59 DGKLYCLKDRCLHRGVQLSVKVEC---KTKSTITCWY-----HAWTYRWE  100 (392)
+T ss_dssp             TTEEEEEESSCTTTCCCGGGGCCC---CSTTEEECTT-----TCEEEETT
+T ss_pred             CCEEEEEeCccCCCCcccccccee---CCCCEEECCC-----CCeEEECC
+Confidence            677889999995 44455555543   3356788987     78888764
+
+
+No 14
+>7BUG_B Terminal oxygenase component of carbazole; ring-hydroxylating, dioxygenase, OXIDOREDUCTASE; HET: MXE, PG0, PG4, 1PE, PGE, PEG, FES, P6G; 1.6A {Janthinobacterium sp. (strain J3)}
+Probab=25.53  E-value=4.4e+02  Score=25.45  Aligned_cols=41  Identities=20%  Similarity=0.477  Sum_probs=28.6  Template_Neff=10.200
+
+Q ss_pred             CCCEEEEecccc-CCCCcCCcccccCCCCCCceecCcchccccceEEEec
+Q sp|Q8WVR3|TPC1  272 DGSVLLVDNVCH-QSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQLR  320 (580)
+Q Consensus       272 dgsvllvdnvch-qsgevsmgsfcrlpgtsgcfpcplnaleehnflfqlr  320 (580)
+                      +|.+..++|.|- .....+.|..|   +..+++-||.     |+.-|.+.
+T Consensus        59 ~g~~~a~~~~C~hrg~~l~~~~~~---~~~~~~~Cp~-----hgw~~~~~  100 (392)
+T 7BUG_B           59 DGKLYCLKDRCLHRGVQLSVKVEC---KTKSTITCWY-----HAWTYRWE  100 (392)
+T ss_dssp             TTEEEEEESSCTTTCCCGGGGCBC---CSTTEEECTT-----TCEEEETT
+T ss_pred             CCEEEEEeCccCCCCcccccccee---CCCCEEECCC-----CCeEEECC
+Confidence            677889999995 44455565543   3356788987     78888764
+
+
+No 15
+>7E2C_K protein transport TRAPPII open, PROTEIN;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.33  E-value=4e+02  Score=30.08  Aligned_cols=92  Identities=13%  Similarity=0.188  Sum_probs=57.7  Template_Neff=6.500
+
+Q ss_pred             CCCCcceeeEEEEEEeccCCcceEEEEEEEChhhhcc-----------------------CCCCCHHHHHHHHH----HH
+Q sp|Q8WVR3|TPC1  377 KSPVRTYERFTVTYTLLNNLQDFLAVRLVWTPEHAQA-----------------------GKQLCEEERRAMQA----AL  429 (580)
+Q Consensus       377 kspvrtyerftvtytllnnlqdflavrlvwtpehaqa-----------------------gkqlceeerramqa----al  429 (580)
+                      .+.|.-.+.|+++..+.|+=+.-+...++..+.....                       +..+-.|..-+++.    ..
+T Consensus       418 p~~V~vGe~Ft~~v~VvN~S~r~~~L~l~~~~~~~~~p~~~~~~~~s~~~~~~~~~~~~~~~~~~le~~~~l~k~~~~~~  497 (559)
+T 7E2C_K          418 NIKVIKGEKFTMRLQIINSSSSPLDLVVYYNNTINPIPSANNVRNSNGINNCGMNNGTIPNSPLTLENQYQLHNKYRKIA  497 (559)
+T ss_dssp             SCEECCSSCBCCCEEEECCSSSCCCBEEECCCSCCCC---------------------------CCHHHHHHHHHHHHHH
+T ss_pred             CCEEeCCCcEEEEEEEEECCCCCEEEEEEecCCCCCCCCccCCCCCCcccccCCCCCCCCCCCcchhhHHHHHHhccccc
+Confidence            5678888999999999998877666666665432000                       11122222233332    24
+
+
+Q ss_pred             HhhhcCCCcccCCCCCCCCcceeeeehhhhhhccc-cccc
+Q sp|Q8WVR3|TPC1  430 DSVVCHTPLNNLGFSRKGSALTFSVAFQALRTGLF-ELSQ  468 (580)
+Q Consensus       430 dsvvchtplnnlgfsrkgsaltfsvafqalrtglf-elsq  468 (580)
+                      ..+||-++--.+|--.-|....+.+-|-||+.|++ .|..
+T Consensus       498 ~gII~LsndvrLGpL~Pga~~eveL~fiaL~~Gl~~~L~g  537 (559)
+T 7E2C_K          498 EGIILLSNDYKIPVVPPRETYFADLRFIGIMSGYYGTLSG  537 (559)
+T ss_dssp             HHCCCSSTTCCBC-------CCCCCCBCCCSCSCBCSCTT
+T ss_pred             CCeEEccCCeEeCccCCCCeEEEEEEEEEeccceecccce
+Confidence            57899998888887778888889999999999999 7863
+
+
+No 16
+>7JRJ_F Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=20.94  E-value=5.3e+02  Score=29.01  Aligned_cols=48  Identities=23%  Similarity=0.301  Sum_probs=34.5  Template_Neff=8.700
+
+Q ss_pred             CCCceEEE----EEEEeccCCCCCCCeEEEEEEEecccCCCcccccceeeeee
+Q sp|Q8WVR3|TPC1  146 STDEVIFP----LTVSLDRLPPGTPKAKIVVTVWKREIEAPEVRDQGYLRLLQ  194 (580)
+Q Consensus       146 stdevifp----ltvsldrlppgtpkakivvtvwkreieapevrdqgylrllq  194 (580)
+                      ..|++-|+    ++|.|++||+..-+.-|+||++++...--.|+ ..|+||..
+T Consensus       343 ~~~~~~~~~~~~i~v~l~~~p~~~~~i~~~~~~~~~~~~f~~~~-~~~~~~~~  394 (814)
+T 7JRJ_F          343 KVDPYEFKERDVIYLDVPDLPAEVRSMVLLVTNYDEENGFTRVR-TVRCRLVD  394 (814)
+T ss_pred             CCCcccccccCeEEEehhcCCHhheEEEEEEEccCCCCceeeec-EEEEEEEe
+Confidence            34555565    78999999999999999999996443333333 56788875
+
+
+No 17
+>7JTK_B Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=20.94  E-value=5.3e+02  Score=29.01  Aligned_cols=41  Identities=22%  Similarity=0.297  Sum_probs=32.0  Template_Neff=8.700
+
+Q ss_pred             EEEEeccCCCCCCCeEEEEEEEecccCCCcccccceeeeeec
+Q sp|Q8WVR3|TPC1  154 LTVSLDRLPPGTPKAKIVVTVWKREIEAPEVRDQGYLRLLQT  195 (580)
+Q Consensus       154 ltvsldrlppgtpkakivvtvwkreieapevrdqgylrllqt  195 (580)
+                      ++|.|++||+..-+.-|+||++++...--.|+ ..|+||...
+T Consensus       355 i~v~l~~~p~~~~~i~~~~~~~~~~~~f~~~~-~~~~~~~~~  395 (814)
+T 7JTK_B          355 IYLDVPDLPAEVRSMVLLVTNYDEENGFTRVR-TVRCRLVDV  395 (814)
+T ss_dssp             EEEESTTSCTTBCCCEEEEECCCSSCTTTTCC-EEEEEEEEC
+T ss_pred             EEEehhcCCHhheEEEEEEEccCCCCceeeec-EEEEEEEeC
+Confidence            68999999999999999999996444334443 678999863
+
+
+No 18
+>2QJY_L Cytochrome B, 8 TM helixces; HET: UQ2, LOP, HEM, BGL, SMA, FES; 2.4A {Rhodobacter sphaeroides}
+Probab=20.34  E-value=6.7e+02  Score=22.04  Aligned_cols=43  Identities=28%  Similarity=0.544  Sum_probs=28.3  Template_Neff=9.700
+
+Q ss_pred             CCCCEEEEeccccCCCCcCCcccccCCCCCCceecCcchccccceEEEecC
+Q sp|Q8WVR3|TPC1  271 PDGSVLLVDNVCHQSGEVSMGSFCRLPGTSGCFPCPLNALEEHNFLFQLRG  321 (580)
+Q Consensus       271 pdgsvllvdnvchqsgevsmgsfcrlpgtsgcfpcplnaleehnflfqlrg  321 (580)
+                      +|+.+...+++|...|-.....+   .+..+.|-||.     |+..|.+.|
+T Consensus       118 ~~~~~~~~~~~c~h~gc~~~~~~---~~~~~~~~cpc-----h~~~yd~~G  160 (187)
+T 2QJY_L          118 EAGEWLVMWGVCTHLGCSPIGGV---SGDFGGWFCPC-----HGSHYDSAG  160 (187)
+T ss_dssp             TTCCEEEEECCCTTTCCCCEEEE---ETTTTEEEETT-----TTEEECTTS
+T ss_pred             ccCCEEEEEeeCCcccceeccCC---CCCCceEEcCC-----CCCEeCCCC
+Confidence            48889999999987664211111   13346788885     788888743
+
+

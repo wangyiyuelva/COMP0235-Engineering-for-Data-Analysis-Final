@@ -1,0 +1,170 @@
+Query         tr|J3KMZ0|J3KMZ0_HUMAN
+Match_columns 378
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 11:34:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1782.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4DWD_A Mandelate racemase/muco  27.7      80 0.00087   29.0   1.8   30   98-127   362-391 (393)
+  2 4DWD_B Mandelate racemase/muco  27.7      80 0.00087   29.0   1.8   30   98-127   362-391 (393)
+  3 6SHD_B Alpha-1,6-mannanase; Ma  25.2 1.1E+02  0.0012   25.9   2.0   26  120-145     3-28  (390)
+  4 3ZUK_B ENDOPEPTIDASE, PEPTIDAS  21.3 1.7E+02  0.0019   27.7   2.7    8  122-129     6-13  (699)
+  5 5XN3_A SPRY domain-containing   20.6 1.1E+02  0.0012   21.3   1.0   11  116-126   199-209 (209)
+  6 6JWM_A SPRY domain-containing   20.6 1.1E+02  0.0012   21.3   1.0   10  117-126   200-209 (209)
+  7 5KDJ_B F5/8 type C domain prot  20.5 1.4E+02  0.0015   29.4   2.0   42  119-164     2-43  (674)
+  8 6KOK_A Sorting nexin-11,Unchar  20.3      32 0.00035   25.4  -1.7   27  101-127   132-158 (160)
+  9 2C2N_A MALONYL COA-ACYL CARRIE  18.9 1.5E+02  0.0016   23.7   1.5   24  122-145     3-26  (339)
+ 10 6ULC_L Envelope glycoprotein G  17.2 1.7E+02  0.0018   22.7   1.4   19  111-129   228-246 (250)
+
+No 1
+>4DWD_A Mandelate racemase/muconate lactonizing enzyme, C-terminal; STRUCTURAL GENOMICS, EFI, Enzyme Function; HET: MSE; 1.5A {Paracoccus denitrificans}
+Probab=27.68  E-value=80  Score=28.96  Aligned_cols=30  Identities=20%  Similarity=0.313  Sum_probs=6.5  Template_Neff=9.800
+
+Q ss_pred             hhcCCCCCCCCCccceccCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM   98 ELMHRECLPPSTVTEILMKNEGSYGGHHHP  127 (378)
+Q Consensus        98 elmhreclppstvteilmknegsygghhhp  127 (378)
+                      +.+.+.-.+...+....+.++|.|.||||.
+T Consensus       362 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  391 (393)
+T 4DWD_A          362 DELASRATEITVGRDQRPPAGGQYEGHHHH  391 (393)
+T ss_dssp             HHHHHHEEEECCC-----------------
+T ss_pred             HHHHHhcccccccccccCCCCCccCCCCCC
+Confidence            333343455566777889999999999985
+
+
+No 2
+>4DWD_B Mandelate racemase/muconate lactonizing enzyme, C-terminal; STRUCTURAL GENOMICS, EFI, Enzyme Function; HET: MSE; 1.5A {Paracoccus denitrificans}
+Probab=27.68  E-value=80  Score=28.96  Aligned_cols=30  Identities=20%  Similarity=0.313  Sum_probs=10.0  Template_Neff=9.800
+
+Q ss_pred             hhcCCCCCCCCCccceccCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM   98 ELMHRECLPPSTVTEILMKNEGSYGGHHHP  127 (378)
+Q Consensus        98 elmhreclppstvteilmknegsygghhhp  127 (378)
+                      +.+.+.-.+...+....+.++|.|.||||.
+T Consensus       362 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  391 (393)
+T 4DWD_B          362 DELASRATEITVGRDQRPPAGGQYEGHHHH  391 (393)
+T ss_dssp             HHHHHHEEEEETTEEEC-------------
+T ss_pred             HHHHHhcccccccccccCCCCCccCCCCCC
+Confidence            334444455667778889999999999985
+
+
+No 3
+>6SHD_B Alpha-1,6-mannanase; Mannanase, Glycoside hydrolase, GH76, CAZyme; 2.0A {Salegentibacter sp. Hel_I_6}
+Probab=25.20  E-value=1.1e+02  Score=25.93  Aligned_cols=26  Identities=27%  Similarity=0.276  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM  120 SYGGHHHPSAPHATPAGFYSSVNKNS  145 (378)
+Q Consensus       120 sygghhhpsaphatpagfyssvnkns  145 (378)
+                      |...|||.+.||..+.++..++....
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~   28 (390)
+T 6SHD_B            3 SHHHHHHSSGLVPRGSHMASSADDDG   28 (390)
+T ss_dssp             --------------------------
+T ss_pred             CcccccccCCCCCcchhhhhccCCCC
+Confidence            45678889999999999988887654
+
+
+No 4
+>3ZUK_B ENDOPEPTIDASE, PEPTIDASE FAMILY M13 (E.C.3.4.24.-); HYDROLASE-INHIBITOR COMPLEX, PATHOGENICITY, PHAGOSOME MATURATION; HET: PG4, RDF, ACT, PGE, PEG, 211, SO4; 2.6A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=21.31  E-value=1.7e+02  Score=27.70  Aligned_cols=8  Identities=50%  Similarity=0.609  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCC
+Q tr|J3KMZ0|J3KM  122 GGHHHPSA  129 (378)
+Q Consensus       122 gghhhpsa  129 (378)
+                      ..||||++
+T Consensus         6 ~~~~~~~~   13 (699)
+T 3ZUK_B            6 HHHHHGMA   13 (699)
+T ss_dssp             --------
+T ss_pred             cccccccc
+Confidence            33333333
+
+
+No 5
+>5XN3_A SPRY domain-containing SOCS box protein; E3 ubiquitin, ligase, cyclic peptide; 1.34A {Homo sapiens}
+Probab=20.62  E-value=1.1e+02  Score=21.31  Aligned_cols=11  Identities=45%  Similarity=0.667  Sum_probs=1.4  Template_Neff=13.600
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|J3KMZ0|J3KM  116 KNEGSYGGHHH  126 (378)
+Q Consensus       116 knegsygghhh  126 (378)
+                      .-..+|+||||
+T Consensus       199 ~~~~~~~~~~~  209 (209)
+T 5XN3_A          199 GERGSHHHHHH  209 (209)
+T ss_dssp             EEC--------
+T ss_pred             cccCCCCCCCC
+Confidence            34567787776
+
+
+No 6
+>6JWM_A SPRY domain-containing SOCS box protein; SPRY domain-containing SOCS box protein; 1.23A {Homo sapiens}
+Probab=20.62  E-value=1.1e+02  Score=21.31  Aligned_cols=10  Identities=50%  Similarity=0.770  Sum_probs=4.7  Template_Neff=13.600
+
+Q ss_pred             CCCCCCCCCC
+Q tr|J3KMZ0|J3KM  117 NEGSYGGHHH  126 (378)
+Q Consensus       117 negsygghhh  126 (378)
+                      -..+|+||||
+T Consensus       200 ~~~~~~~~~~  209 (209)
+T 6JWM_A          200 ERGSHHHHHH  209 (209)
+T ss_dssp             EECSTTC---
+T ss_pred             ccCCCCCCCC
+Confidence            4567888877
+
+
+No 7
+>5KDJ_B F5/8 type C domain protein; O-glycopeptidase, PF13402/M60-like, HYDROLASE; HET: GOL; 2.15A {Clostridium perfringens (strain ATCC 13124 / DSM 756 / JCM 1290 / NCIMB 6125 / NCTC 8237 / Type A)}
+Probab=20.53  E-value=1.4e+02  Score=29.41  Aligned_cols=42  Identities=19%  Similarity=0.241  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCchhhhhcCCCCCCCCC
+Q tr|J3KMZ0|J3KM  119 GSYGGHHHPSAPHATPAGFYSSVNKNSVLPQAFDRFFDNAYCGGGD  164 (378)
+Q Consensus       119 gsygghhhpsaphatpagfyssvnknsvlpqafdrffdnaycgggd  164 (378)
+                      ||-..|||.|..++.--.||..    ..+...++.+|.+.-|..-.
+T Consensus         2 ~~~~~~~~~~~~~~~e~~fy~~----~~~~~~~~~~F~D~~~s~L~   43 (674)
+T 5KDJ_B            2 GSSHHHHHHSSGLVPRGSHMAS----DEVYSSIPKLFTDGTMSELS   43 (674)
+T ss_dssp             ----------------------------------------------
+T ss_pred             CCCccccccCCcccceeecccc----ccHHHHHhHhhcccccceeC
+Confidence            4556777778788888899984    34556677888877776543
+
+
+No 8
+>6KOK_A Sorting nexin-11,Uncharacterized protein SNX10; sorting nexin, PROTEIN TRANSPORT, phox-homology; HET: CL; 2.0A {Homo sapiens}
+Probab=20.33  E-value=32  Score=25.44  Aligned_cols=27  Identities=22%  Similarity=0.059  Sum_probs=21.3  Template_Neff=11.400
+
+Q ss_pred             CCCCCCCCCccceccCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM  101 HRECLPPSTVTEILMKNEGSYGGHHHP  127 (378)
+Q Consensus       101 hreclppstvteilmknegsygghhhp  127 (378)
+                      .+.-..+.+|.+.|+|--|..++|||.
+T Consensus       132 ~~~~~~~~~~~~~~~~~~~~~~~~~~~  158 (160)
+T 6KOK_A          132 CVSGQTKYSVEEAIHKFALMNLEHHHH  158 (160)
+T ss_dssp             HTTTCSSSCHHHHHHHHHHHHCCSCCC
+T ss_pred             HhcCCCcccHHHHHHHHHHhhccccCC
+Confidence            344577889999999988888888774
+
+
+No 9
+>2C2N_A MALONYL COA-ACYL CARRIER PROTEIN TRANSACYLASE; FATTY ACID SYNTHASE, LIPID SYNTHESIS; HET: AE4, SO4; 1.55A {HOMO SAPIENS}
+Probab=18.86  E-value=1.5e+02  Score=23.75  Aligned_cols=24  Identities=21%  Similarity=0.263  Sum_probs=2.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM  122 GGHHHPSAPHATPAGFYSSVNKNS  145 (378)
+Q Consensus       122 gghhhpsaphatpagfyssvnkns  145 (378)
+                      ..|||.|.-..+|.|+|-..++..
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~   26 (339)
+T 2C2N_A            3 HHHHHSSGVDLGTENLYFQSMGQC   26 (339)
+T ss_dssp             --------------------CCCC
+T ss_pred             CCcccCCCCcccccceeeccCCCe
+Confidence            357788888899999987766543
+
+
+No 10
+>6ULC_L Envelope glycoprotein GP120, Envelope glycoprotein; HIV-1, ENV, gp160, PG16, VIRAL; HET: FUC, NAG, BMA, GAL, MAN;{Human immunodeficiency virus 1}
+Probab=17.24  E-value=1.7e+02  Score=22.69  Aligned_cols=19  Identities=37%  Similarity=0.539  Sum_probs=4.4  Template_Neff=12.200
+
+Q ss_pred             cceccCCCCCCCCCCCCCC
+Q tr|J3KMZ0|J3KM  111 TEILMKNEGSYGGHHHPSA  129 (378)
+Q Consensus       111 teilmknegsygghhhpsa  129 (378)
+                      +-.+-.++|.-|||||...
+T Consensus       228 ~~~~~~~~~~~~~~~~~~~  246 (250)
+T 6ULC_L          228 TVAPTECSGGSGGHHHHHH  246 (250)
+T ss_dssp             EECCCCCC-----------
+T ss_pred             EECcccccCCCCCCCCCCC
+Confidence            3345567777778877543
+
+

@@ -1,0 +1,163 @@
+Query         sp|P58550|FXYD8_HUMAN
+Match_columns 94
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:23:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0940.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ZXE_G Na, K-ATPase alpha subu  99.5 4.2E-14 4.5E-19   90.5   5.0   71   19-89      2-73  (74)
+  2 5AVT_G Na, K-ATPase alpha subu  99.5 4.2E-14 4.5E-19   90.5   5.0   71   19-89      2-73  (74)
+  3 5AW5_G NA, K-ATPASE ALPHA SUBU  99.5 4.2E-14 4.5E-19   90.5   5.0   71   19-89      2-73  (74)
+  4 2MKV_A Sodium/potassium-transp  99.5 6.7E-14 7.2E-19   87.1   4.1   51   19-69      7-57  (64)
+  5 2JP3_A Protein, TRANSCRIPTION;  99.3 3.5E-12 3.8E-17   79.2   4.9   63   23-89      4-67  (67)
+  6 4XE5_G Sodium/potassium-transp  99.3 5.9E-12 6.5E-17   76.2   4.0   47   23-69      5-51  (58)
+  7 3WGU_E Sodium/potassium-transp  99.2 2.4E-11 2.6E-16   75.1   3.6   50   19-69      9-58  (65)
+  8 7DDI_E Sodium/potassium-transp  99.2 2.4E-11 2.6E-16   75.1   3.6   50   19-69      9-58  (65)
+  9 2JO1_A FXYD1, Na, K-ATPase, Mi  99.2 3.5E-11 3.8E-16   77.0   4.1   48   22-69      2-49  (72)
+ 10 3N23_E Sodium/potassium-transp  98.6 7.3E-08 7.9E-13   53.0   2.1   31   27-57      1-31  (31)
+
+No 1
+>2ZXE_G Na, K-ATPase alpha subunit, Na+,K+-ATPase; membrane protein, ion pump, ATPase; HET: NAG, CLR, NDG; 2.4A {Squalus acanthias}
+Probab=99.51  E-value=4.2e-14  Score=90.48  Aligned_cols=71  Identities=24%  Similarity=0.513  Sum_probs=68.1  Template_Neff=6.000
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC-CCCCchhchccccccCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ-DPGDKEAQVENFITANAKEP   89 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq-dpgdkeaqvenfitanakep   89 (94)
+                      |++++++++||+|||++||++||++++++|++||+++++++|||+++++++ ++|++++++++|+++|++++
+T Consensus         2 ~~~~~~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 2ZXE_G            2 DPEGPDNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCCCCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            788999999999999999999999999999999999999999999999888 88899999999999999986
+
+
+No 2
+>5AVT_G Na, K-ATPase alpha subunit,Na+,K+-ATPase beta; MEMBRANE PROTEIN, ION PUMP, ATPASE; HET: NAG, CLR; 2.9A {Squalus acanthias}
+Probab=99.51  E-value=4.2e-14  Score=90.48  Aligned_cols=71  Identities=24%  Similarity=0.513  Sum_probs=68.1  Template_Neff=6.000
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC-CCCCchhchccccccCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ-DPGDKEAQVENFITANAKEP   89 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq-dpgdkeaqvenfitanakep   89 (94)
+                      |++++++++||+|||++||++||++++++|++||+++++++|||+++++++ ++|++++++++|+++|++++
+T Consensus         2 ~~~~~~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 5AVT_G            2 DPEGPDNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCCCCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            788999999999999999999999999999999999999999999999888 88899999999999999986
+
+
+No 3
+>5AW5_G NA, K-ATPASE ALPHA SUBUNIT, NA+,K+-ATPASE; MEMBRANE PROTEIN, ION PUMP, ATPASE; HET: NAG, CLR; 2.9A {Squalus acanthias}
+Probab=99.51  E-value=4.2e-14  Score=90.48  Aligned_cols=71  Identities=24%  Similarity=0.513  Sum_probs=68.1  Template_Neff=6.000
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC-CCCCchhchccccccCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ-DPGDKEAQVENFITANAKEP   89 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq-dpgdkeaqvenfitanakep   89 (94)
+                      |++++++++||+|||++||++||++++++|++||+++++++|||+++++++ ++|++++++++|+++|++++
+T Consensus         2 ~~~~~~~~~pF~YDy~~Lr~~Gli~a~vl~i~Gi~il~~~~~rc~~~~~~~~~~~~~~~~~~~l~~~~~~~~   73 (74)
+T 5AW5_G            2 DPEGPDNDERFTYDYYRLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNKRTRSNSGTATAQHLLQPGEATE   73 (74)
+T ss_pred             CCCCCCCCCcCcccHhhhcHHHHHHHHHHHHHHHHHHHcCCCcCCcccCCCCCCCCCcccccccCCCCCccC
+Confidence            788999999999999999999999999999999999999999999999888 88899999999999999986
+
+
+No 4
+>2MKV_A Sodium/potassium-transporting ATPase subunit gamma; FXYD2b, Na, K-ATPase, FXYD, micelle; NMR {Homo sapiens}
+Probab=99.48  E-value=6.7e-14  Score=87.11  Aligned_cols=51  Identities=37%  Similarity=0.667  Sum_probs=46.3  Template_Neff=6.200
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ   69 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq   69 (94)
+                      +.+.+++++||+|||++||++||++++++|++||+++++++|+|+++++++
+T Consensus         7 ~~~~~~~~~pF~Ydy~~Lr~gGli~a~vl~~~Gilil~s~~~~c~~~~~~~   57 (64)
+T 2MKV_A            7 GGSPKGDVDPFYYDYETVRNGGLIFAGLAFIVGLLILLSRRFRSGGNKKRR   57 (64)
+T ss_dssp             SCCCCSSCCCTHHHHTTHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSCCSC
+T ss_pred             CCCCCCCCCccccccccccHHHHHHHHHHHHHHHHHHHhccCCCCCCcccC
+Confidence            344567888999999999999999999999999999999999999998876
+
+
+No 5
+>2JP3_A Protein, TRANSCRIPTION; NMR {Rattus norvegicus}
+Probab=99.34  E-value=3.5e-12  Score=79.19  Aligned_cols=63  Identities=32%  Similarity=0.635  Sum_probs=56.2  Template_Neff=6.600
+
+Q ss_pred             cCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC-CCCCchhchccccccCCCCC
+Q sp|P58550|FXYD   23 EKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ-DPGDKEAQVENFITANAKEP   89 (94)
+Q Consensus        23 ekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq-dpgdkeaqvenfitanakep   89 (94)
+                      .+++++|+|||++||++||++|+++|++||+++++++|||+++++++ .++    ++++|+++||+++
+T Consensus         4 ~~~~~pF~ydy~~Lr~gGli~a~vl~~~Gi~il~s~~~~c~~~~~~~~~~~----~~~~l~~~~~~~~   67 (67)
+T 2JP3_A            4 VDKGSPFYYDWESLQLGGLIFGGLLCIAGIALALSGKCKCRRNHTPSSLPE----KVTPLITPGSAST   67 (67)
+T ss_dssp             TSTTSGGGGGGHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHTCCTTTSTT----TSHHHHSCCCSCC
+T ss_pred             cCCCCCcccchhhccHhHHHHHHHHHHHHHHHHhcCCcCCCCCCCCCCCCC----CCCCCCCCCCCCC
+Confidence            36788999999999999999999999999999999999999998776 333    3789999999875
+
+
+No 6
+>4XE5_G Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); alpha-helical transmembrane protein, ATPase, sodium; HET: BFD, OBN, CLR; 3.901A {Bos taurus}
+Probab=99.30  E-value=5.9e-12  Score=76.16  Aligned_cols=47  Identities=36%  Similarity=0.749  Sum_probs=43.9  Template_Neff=6.700
+
+Q ss_pred             cCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC
+Q sp|P58550|FXYD   23 EKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ   69 (94)
+Q Consensus        23 ekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq   69 (94)
+                      ++++++|+|||++||++||++++++|++||++++++++||+++++++
+T Consensus         5 ~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~~~~~r   51 (58)
+T 4XE5_G            5 QGTEDPFYYDYETVRNGGLIFAALAFIVGLVIILSKRFRCGAKRQHR   51 (58)
+T ss_pred             CCCCCCCccchhhccHhHHHHHHHHHHHHHHHHhcccCCCCCCcccC
+Confidence            46778999999999999999999999999999999999999998776
+
+
+No 7
+>3WGU_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); membrane protein, ion pump, ATPase; HET: PC1, NAG, ADP, CLR, ALF; 2.8A {Sus scrofa}
+Probab=99.21  E-value=2.4e-11  Score=75.15  Aligned_cols=50  Identities=36%  Similarity=0.742  Sum_probs=44.2  Template_Neff=6.600
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ   69 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq   69 (94)
+                      +...++++++|+|||++||++|+++++++|++||+++++++|||++ +++|
+T Consensus         9 ~~~~~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~-~~~r   58 (65)
+T 3WGU_E            9 GGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGG-KKHR   58 (65)
+T ss_pred             CCCCCCCCCCCcccccccchhHHHHHHHHHHHHHHHHHhccCCCCC-CCCC
+Confidence            3445577889999999999999999999999999999999999998 5554
+
+
+No 8
+>7DDI_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.7.2.2.13); Na+, K+-ATPase, membrane protein, ion; HET: NAG, PCW, PHD, F9R, CLR; 3.72A {Sus scrofa}
+Probab=99.21  E-value=2.4e-11  Score=75.15  Aligned_cols=50  Identities=36%  Similarity=0.742  Sum_probs=44.2  Template_Neff=6.600
+
+Q ss_pred             hccccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC
+Q sp|P58550|FXYD   19 SAAKEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ   69 (94)
+Q Consensus        19 saakekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq   69 (94)
+                      +...++++++|+|||++||++|+++++++|++||+++++++|||++ +++|
+T Consensus         9 ~~~~~~~~~~F~ydy~~Lr~~Gli~a~vl~~~Gi~i~~~~~~~c~~-~~~r   58 (65)
+T 7DDI_E            9 GGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGG-KKHR   58 (65)
+T ss_pred             CCCCCCCCCCCcccccccchhHHHHHHHHHHHHHHHHHhccCCCCC-CCCC
+Confidence            3445577889999999999999999999999999999999999998 5554
+
+
+No 9
+>2JO1_A FXYD1, Na, K-ATPase, Micelle, HYDROLASE; NMR {Homo sapiens}
+Probab=99.20  E-value=3.5e-11  Score=77.04  Aligned_cols=48  Identities=50%  Similarity=0.969  Sum_probs=44.4  Template_Neff=5.900
+
+Q ss_pred             ccCCCCCccccchhhhhhhHHHHhHhhhcchhhhhccccCCCCCCCCC
+Q sp|P58550|FXYD   22 KEKEIDPFHYNYQTLRIGGLVFDVVLFLVPSCHLLSHRCKCSFNQKPQ   69 (94)
+Q Consensus        22 kekeidpfhynyqtlrigglvfdvvlflvpschllshrckcsfnqkpq   69 (94)
+                      .++++++|+|||++||++||++++++|++||+++++++|+|+++++++
+T Consensus         2 ~~~e~~pF~YDy~~LR~gGLi~a~vlfi~Gi~il~s~~~~c~~~~~~r   49 (72)
+T 2JO1_A            2 SPKEHDPFTYDYQSLQIGGLVIAGILFILGILIVLSRRCRCKFNQQQR   49 (72)
+T ss_dssp             CHHHHSGGGCSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTTS
+T ss_pred             CCCCCCCcccchhhccHhHHHHHHHHHHHHHHHHhcccCCCCcccccC
+Confidence            356778999999999999999999999999999999999999988776
+
+
+No 10
+>3N23_E Sodium/potassium-transporting ATPase subunit alpha-1 (E.C.3.6.3.9); sodium-potassium pump, P-type ATPase, ouabain; HET: PHD, OBN; 4.6A {Sus scrofa}
+Probab=98.57  E-value=7.3e-08  Score=52.99  Aligned_cols=31  Identities=48%  Similarity=0.921  Sum_probs=29.1  Template_Neff=6.400
+
+Q ss_pred             CCccccchhhhhhhHHHHhHhhhcchhhhhc
+Q sp|P58550|FXYD   27 DPFHYNYQTLRIGGLVFDVVLFLVPSCHLLS   57 (94)
+Q Consensus        27 dpfhynyqtlrigglvfdvvlflvpschlls   57 (94)
+                      +||+|||++||++|+++++++|++||+++++
+T Consensus         1 ~~F~ydy~~Lr~~Gli~a~~l~~~gi~~~~s   31 (31)
+T 3N23_E            1 DPFYYDYETVRNGGLIFAALAFIVGLIIILS   31 (31)
+T ss_pred             CCcccchhhchHHHHHHHHHHHHHHHHHHhC
+Confidence            5899999999999999999999999998864
+
+

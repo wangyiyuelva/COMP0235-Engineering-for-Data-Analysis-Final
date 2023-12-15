@@ -1,0 +1,170 @@
+Query         sp|Q8N9Z2|CC71L_HUMAN
+Match_columns 235
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:54:45 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0575.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6C14_C Protocadherin-15, LHFPL  76.7     3.7   4E-05   35.4   2.1    8   75-82    190-197 (337)
+  2 6PX3_S Histone H3, Histone H4,  52.1      17 0.00018   37.9   1.6    9  149-157   843-851 (939)
+  3 4OR9_A Serine/threonine-protei  33.7 1.6E+02  0.0018   28.2   4.8    9  173-181    56-64  (544)
+  4 3SXU_B DNA polymerase III subu  31.8      67 0.00073   24.1   1.7   18   75-92    120-137 (138)
+  5 1EM8_D CHI AND PSI SUBUNIT HET  26.8      89 0.00097   22.8   1.6   18   75-92     94-111 (112)
+  6 5WFN_D Actin-5C, Leiomodin-2;   23.4 3.4E+02  0.0037   25.9   5.0    9  225-233   494-502 (506)
+  7 2KYG_C cAMP-dependent protein   23.3 2.6E+02  0.0028   19.7   3.2   12  173-184     9-20  (38)
+  8 5GUH_A CRISPR-associated endon  22.5 8.3E+02   0.009   24.8   7.4   10  113-122     6-15  (899)
+  9 5N15_A Bromodomain-containing   20.8 2.1E+02  0.0023   17.8   2.2   10  153-162     8-17  (138)
+ 10 5N16_B Bromodomain-containing   20.8 2.1E+02  0.0023   17.8   2.2   10  153-162     8-17  (138)
+
+No 1
+>6C14_C Protocadherin-15, LHFPL tetraspan subfamily member; PCDH15, LHFPL5, protocadherin, tip link;{Mus musculus}
+Probab=76.74  E-value=3.7  Score=35.44  Aligned_cols=8  Identities=50%  Similarity=0.783  Sum_probs=3.2  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHH
+Q sp|Q8N9Z2|CC71   75 AELWSFLC   82 (235)
+Q Consensus        75 aelwsflc   82 (235)
+                      .|+..+|.
+T Consensus       190 ~~~~~~ld  197 (337)
+T 6C14_C          190 NELFKFLD  197 (337)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33444443
+
+
+No 2
+>6PX3_S Histone H3, Histone H4, Ubiquitin-60S; Set2, nucleosome, chromatin, KMT, GENE;{Xenopus laevis}
+Probab=52.10  E-value=17  Score=37.95  Aligned_cols=9  Identities=89%  Similarity=2.258  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCC
+Q sp|Q8N9Z2|CC71  149 PPPPPPPPP  157 (235)
+Q Consensus       149 ppppppppp  157 (235)
+                      ||||||||+
+T Consensus       843 pppppppp~  851 (939)
+T 6PX3_S          843 PPPPPPPPA  851 (939)
+T ss_dssp             ---------
+T ss_pred             CCCCCCCCC
+Confidence            333444444
+
+
+No 3
+>4OR9_A Serine/threonine-protein phosphatase 2B catalytic subunit; Calmodulin-binding, HYDROLASE-METAL BINDING PROTEIN complex; 2.23A {Homo sapiens}
+Probab=33.70  E-value=1.6e+02  Score=28.23  Aligned_cols=9  Identities=33%  Similarity=0.361  Sum_probs=5.0  Template_Neff=8.100
+
+Q ss_pred             CCCCHHHHH
+Q sp|Q8N9Z2|CC71  173 GGRTLEEIW  181 (235)
+Q Consensus       173 ggrtleeiw  181 (235)
+                      ...+.+++|
+T Consensus        56 ~~~~~~~~~   64 (544)
+T 4OR9_A           56 HRLTSEEVF   64 (544)
+T ss_dssp             SCBCHHHHB
+T ss_pred             CCCChHHhc
+Confidence            445556665
+
+
+No 4
+>3SXU_B DNA polymerase III subunit chi; DNA replication, Chi binds to; 1.85A {Escherichia coli}
+Probab=31.84  E-value=67  Score=24.10  Aligned_cols=18  Identities=39%  Similarity=0.957  Sum_probs=14.6  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHhhcCCchh
+Q sp|Q8N9Z2|CC71   75 AELWSFLCSLKHQFSPHI   92 (235)
+Q Consensus        75 aelwsflcslkhqfsphi   92 (235)
+                      .+||.-||+++..|++||
+T Consensus       120 r~lWq~L~~~~~~~~~~~  137 (138)
+T 3SXU_B          120 AALWQQICTYEHDFFPRN  137 (138)
+T ss_dssp             HHHHHHHHHTHHHHCC--
+T ss_pred             HHHHHHHHHHhhhhccCC
+Confidence            479999999999999886
+
+
+No 5
+>1EM8_D CHI AND PSI SUBUNIT HETERODIMER; DNA Pol III, heterodimer, clamp-loader; 2.1A {Escherichia coli} SCOP: c.126.1.1
+Probab=26.80  E-value=89  Score=22.82  Aligned_cols=18  Identities=39%  Similarity=0.957  Sum_probs=15.6  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHhhcCCchh
+Q sp|Q8N9Z2|CC71   75 AELWSFLCSLKHQFSPHI   92 (235)
+Q Consensus        75 aelwsflcslkhqfsphi   92 (235)
+                      .+||.-||.++..|.+|+
+T Consensus        94 r~LWq~L~~~~~~~~~~~  111 (112)
+T 1EM8_D           94 AALWQQICTYEHDFFPRN  111 (112)
+T ss_dssp             HHHHHHHHHTHHHHSCCC
+T ss_pred             HHHHHHHHHhhhhccCCC
+Confidence            579999999999988764
+
+
+No 6
+>5WFN_D Actin-5C, Leiomodin-2; actin regulation, leiomodin, filament nucleation; HET: ANP; 3.0A {Drosophila melanogaster}
+Probab=23.37  E-value=3.4e+02  Score=25.94  Aligned_cols=9  Identities=44%  Similarity=0.807  Sum_probs=2.9  Template_Neff=8.100
+
+Q ss_pred             ccccCCCCC
+Q sp|Q8N9Z2|CC71  225 VRLRRFPVP  233 (235)
+Q Consensus       225 vrlrrfpvp  233 (235)
+                      -.|++..+|
+T Consensus       494 ~~~~~~~~~  502 (506)
+T 5WFN_D          494 KQLKRVEVP  502 (506)
+T ss_dssp             GGSBCCC--
+T ss_pred             HHhccCCCc
+Confidence            334444433
+
+
+No 7
+>2KYG_C cAMP-dependent protein kinase type II-alpha; protein/protein, homodimer bound to monomer; NMR {Homo sapiens}
+Probab=23.29  E-value=2.6e+02  Score=19.66  Aligned_cols=12  Identities=50%  Similarity=0.916  Sum_probs=9.4  Template_Neff=4.700
+
+Q ss_pred             CCCCHHHHHHHh
+Q sp|Q8N9Z2|CC71  173 GGRTLEEIWRAA  184 (235)
+Q Consensus       173 ggrtleeiwraa  184 (235)
+                      .|.-.||||+.+
+T Consensus         9 sGy~peeIWrkA   20 (38)
+T 2KYG_C            9 SGYVPEEIWKKA   20 (38)
+T ss_dssp             CSSCCSHHHHHH
+T ss_pred             cCCCCHHHHHHH
+Confidence            356678999998
+
+
+No 8
+>5GUH_A CRISPR-associated endonuclease Cpf1/RNA Complex; Nuclease, RNaseH, HYDROLASE-RNA complex; HET: OMU; 2.4A {Bombyx mori}
+Probab=22.45  E-value=8.3e+02  Score=24.76  Aligned_cols=10  Identities=50%  Similarity=0.684  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCC
+Q sp|Q8N9Z2|CC71  113 GPPTARGQAR  122 (235)
+Q Consensus       113 gpptargqar  122 (235)
+                      |.--+||+++
+T Consensus         6 ~~g~~rg~~~   15 (899)
+T 5GUH_A            6 GRGRARGRAG   15 (899)
+T ss_dssp             ----------
+T ss_pred             CCCCCCCCCC
+Confidence            3334444443
+
+
+No 9
+>5N15_A Bromodomain-containing factor 1; Bromodomain, Transcription; HET: EPE, IOD; 2.37A {Candida albicans}
+Probab=20.83  E-value=2.1e+02  Score=17.81  Aligned_cols=10  Identities=30%  Similarity=0.657  Sum_probs=3.6  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCC
+Q sp|Q8N9Z2|CC71  153 PPPPPEESCP  162 (235)
+Q Consensus       153 pppppeescp  162 (235)
+                      |++|+.....
+T Consensus         8 ~~~~~~~~~~   17 (138)
+T 5N15_A            8 PQEPDMNNLP   17 (138)
+T ss_dssp             CCSCCTTSCC
+T ss_pred             CCCCCCCCCC
+Confidence            3333333333
+
+
+No 10
+>5N16_B Bromodomain-containing factor 1; Bromodomain, Transcription; HET: 8FN; 1.76A {Candida albicans}
+Probab=20.83  E-value=2.1e+02  Score=17.81  Aligned_cols=10  Identities=30%  Similarity=0.657  Sum_probs=3.6  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCC
+Q sp|Q8N9Z2|CC71  153 PPPPPEESCP  162 (235)
+Q Consensus       153 pppppeescp  162 (235)
+                      |++|+.....
+T Consensus         8 ~~~~~~~~~~   17 (138)
+T 5N16_B            8 PQEPDMNNLP   17 (138)
+T ss_dssp             CCSSCTTSCC
+T ss_pred             CCCCCCCCCC
+Confidence            3333333333
+
+

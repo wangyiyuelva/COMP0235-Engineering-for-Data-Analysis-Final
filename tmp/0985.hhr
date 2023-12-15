@@ -1,0 +1,170 @@
+Query         tr|Q9UFN7|Q9UFN7_HUMAN
+Match_columns 37
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:17:20 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0985.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1CYQ_A PROTEIN-DNA COMPLEX, DI  47.0      25 0.00027   24.4   1.3   21    1-21      2-22  (162)
+  2 1CZ0_A INTRON-ENCODED HOMING E  46.9      34 0.00037   22.3   1.9   20    1-20      2-21  (162)
+  3 5GZT_A Chitinase; HYDROLASE; H  31.8      86 0.00094   17.8   1.8   16    1-16     17-32  (108)
+  4 2RSX_A Uncharacterized protein  29.2 1.5E+02  0.0016   17.6   2.5   19    1-19      8-26  (159)
+  5 4UY3_A SEPTATION RING FORMATIO  26.9 2.6E+02  0.0028   17.0   3.4   29    5-33     61-89  (198)
+  6 1A73_B INTRON-ENCODED ENDONUCL  24.6 1.3E+02  0.0014   19.8   1.9   20    1-20      3-22  (163)
+  7 4V00_A MONOTREME LACTATING PRO  23.4 1.4E+02  0.0015   22.0   2.0   28    6-33    299-326 (366)
+  8 4V00_B MONOTREME LACTATING PRO  23.4 1.4E+02  0.0015   22.0   2.0   28    6-33    299-326 (366)
+  9 4U13_A putative polyketide cyc  22.5 1.5E+02  0.0017   12.9   2.5   27    2-28      2-28  (109)
+ 10 2PM7_C beta propeller, alpha s  21.4 1.8E+02   0.002   19.6   2.1   24   11-34    215-238 (399)
+
+No 1
+>1CYQ_A PROTEIN-DNA COMPLEX, DISTORTED DNA, HIS-CYS; 1.93A {Physarum polycephalum} SCOP: d.4.1.3
+Probab=47.03  E-value=25  Score=24.40  Aligned_cols=21  Identities=43%  Similarity=0.589  Sum_probs=17.7  Template_Neff=1.000
+
+Q ss_pred             CChhHHHHHHHHHHHHHHhcC
+Q tr|Q9UFN7|Q9UF    1 MTNAQIILLIDNARMAVDDFN   21 (37)
+Q Consensus         1 mtnaqiillidnarmavddfn   21 (37)
+                      .|||||+..||.-...|..|.
+T Consensus         2 ltnaqilavidsweetvgqfp   22 (162)
+T 1CYQ_A            2 LTNAQILAVIDSWEETVGQFP   22 (162)
+T ss_dssp             CSHHHHHHHHHHHHHHHTTSC
+T ss_pred             CcHHHhhhhhhcHHhhhcCCC
+Confidence            489999999998888777764
+
+
+No 2
+>1CZ0_A INTRON-ENCODED HOMING ENDONUCLEASE I-PPOI (E.C.3.1.-.-)/DNA; PROTEIN-DNA COMPLEX, DISTORTED DNA, HIS-CYS; 2.1A {Physarum polycephalum} SCOP: d.4.1.3
+Probab=46.87  E-value=34  Score=22.26  Aligned_cols=20  Identities=45%  Similarity=0.634  Sum_probs=15.8  Template_Neff=5.500
+
+Q ss_pred             CChhHHHHHHHHHHHHHHhc
+Q tr|Q9UFN7|Q9UF    1 MTNAQIILLIDNARMAVDDF   20 (37)
+Q Consensus         1 mtnaqiillidnarmavddf   20 (37)
+                      .|||||+..||.-...|..|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~   21 (162)
+T 1CZ0_A            2 LTNAQILAVIDSWEETVGQF   21 (162)
+T ss_dssp             CSHHHHHHHHHHHHHHHTTS
+T ss_pred             CcHHHhHHhHhhHHhHhccc
+Confidence            48999999999877666554
+
+
+No 3
+>5GZT_A Chitinase; HYDROLASE; HET: FMT; 2.1A {Paenibacillus sp. FPU-7}
+Probab=31.78  E-value=86  Score=17.82  Aligned_cols=16  Identities=19%  Similarity=0.272  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CChhHHHHHHHHHHHH
+Q tr|Q9UFN7|Q9UF    1 MTNAQIILLIDNARMA   16 (37)
+Q Consensus         1 mtnaqiillidnarma   16 (37)
+                      +|.|+.+.++|++..+
+T Consensus        17 iTRAEavv~Ldr~~~~   32 (108)
+T 5GZT_A           17 MELGTLEVILDRAAAF   32 (108)
+T ss_dssp             ----------------
+T ss_pred             CcHHHHHHHHHHHHhc
+Confidence            5788899999998653
+
+
+No 4
+>2RSX_A Uncharacterized protein yoeB; inhibitor protein, hacksaw-like fold, autolysin; NMR {Bacillus subtilis}
+Probab=29.23  E-value=1.5e+02  Score=17.59  Aligned_cols=19  Identities=21%  Similarity=0.164  Sum_probs=15.1  Template_Neff=8.200
+
+Q ss_pred             CChhHHHHHHHHHHHHHHh
+Q tr|Q9UFN7|Q9UF    1 MTNAQIILLIDNARMAVDD   19 (37)
+Q Consensus         1 mtnaqiillidnarmavdd   19 (37)
+                      +|+.+++-|++.|+.+...
+T Consensus         8 lt~~~~~~L~~~A~~~y~~   26 (159)
+T 2RSX_A            8 LSQKQALQLALSAREHFWN   26 (159)
+T ss_dssp             CCHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHH
+Confidence            4678899999999887543
+
+
+No 5
+>4UY3_A SEPTATION RING FORMATION REGULATOR EZRA; STRUCTURAL PROTEIN, DIVISOME, FTSZ, CELL; 2.6A {STAPHYLOCOCCUS AUREUS}
+Probab=26.91  E-value=2.6e+02  Score=17.01  Aligned_cols=29  Identities=21%  Similarity=0.234  Sum_probs=23.3  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHhcCHHHHHHHHHHHH
+Q tr|Q9UFN7|Q9UF    5 QIILLIDNARMAVDDFNLKKWRSIMCQVT   33 (37)
+Q Consensus         5 qiillidnarmavddfnlkkwrsimcqvt   33 (37)
+                      +|--++.+|.-+++.|++++.+..+-.+.
+T Consensus        61 ~ie~~l~~ae~~~~~~~~~~a~~~l~~~~   89 (198)
+T 4UY3_A           61 PVEEKIHNAEALLDKFSFNASQSEIDDAN   89 (198)
+T ss_dssp             THHHHHHHHHHHHHTTCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHcCChhHHHHHHHHHH
+Confidence            45567889999999999999988776553
+
+
+No 6
+>1A73_B INTRON-ENCODED ENDONUCLEASE I-PPOI/DNA COMPLEX; COMPLEX (HOMING ENDONUCLEASE-DNA), INTRON, ZINC; 1.8A {Physarum polycephalum} SCOP: d.4.1.3
+Probab=24.63  E-value=1.3e+02  Score=19.76  Aligned_cols=20  Identities=45%  Similarity=0.634  Sum_probs=15.8  Template_Neff=5.400
+
+Q ss_pred             CChhHHHHHHHHHHHHHHhc
+Q tr|Q9UFN7|Q9UF    1 MTNAQIILLIDNARMAVDDF   20 (37)
+Q Consensus         1 mtnaqiillidnarmavddf   20 (37)
+                      .||+||+..||.-...|..|
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~   22 (163)
+T 1A73_B            3 LTNAQILAVIDSWEETVGQF   22 (163)
+T ss_dssp             CCHHHHHHHHHHHHHHHTTS
+T ss_pred             cchHHHHHHHHcHHHHhccc
+Confidence            48999999999877766554
+
+
+No 7
+>4V00_A MONOTREME LACTATING PROTEIN; ANTIMICROBIAL PROTEIN, NOVEL FOLD, MILK; HET: GOL, NAG; 1.82A {ORNITHORHYNCHUS ANATINUS}
+Probab=23.42  E-value=1.4e+02  Score=22.00  Aligned_cols=28  Identities=14%  Similarity=0.248  Sum_probs=19.4  Template_Neff=5.400
+
+Q ss_pred             HHHHHHHHHHHHHhcCHHHHHHHHHHHH
+Q tr|Q9UFN7|Q9UF    6 IILLIDNARMAVDDFNLKKWRSIMCQVT   33 (37)
+Q Consensus         6 iillidnarmavddfnlkkwrsimcqvt   33 (37)
+                      ++..+...........+.-||++||...
+T Consensus       299 ~~~~l~~~n~~tg~~~l~~W~~~M~s~~  326 (366)
+T 4V00_A          299 VLHGFYTVHSLSGGSSLTHWRNLMESPV  326 (366)
+T ss_dssp             HHHHHHHHHHHTTTHHHHHHHHHTTSHH
+T ss_pred             HHHHHHhhchhhcchHHHHHHHHhCCHH
+Confidence            3444555555666778999999999653
+
+
+No 8
+>4V00_B MONOTREME LACTATING PROTEIN; ANTIMICROBIAL PROTEIN, NOVEL FOLD, MILK; HET: GOL, NAG; 1.82A {ORNITHORHYNCHUS ANATINUS}
+Probab=23.42  E-value=1.4e+02  Score=22.00  Aligned_cols=28  Identities=14%  Similarity=0.248  Sum_probs=19.4  Template_Neff=5.400
+
+Q ss_pred             HHHHHHHHHHHHHhcCHHHHHHHHHHHH
+Q tr|Q9UFN7|Q9UF    6 IILLIDNARMAVDDFNLKKWRSIMCQVT   33 (37)
+Q Consensus         6 iillidnarmavddfnlkkwrsimcqvt   33 (37)
+                      ++..+...........+.-||++||...
+T Consensus       299 ~~~~l~~~n~~tg~~~l~~W~~~M~s~~  326 (366)
+T 4V00_B          299 VLHGFYTVHSLSGGSSLTHWRNLMESPV  326 (366)
+T ss_dssp             HHHHHHHHHHHTTTHHHHHHHHHTTSHH
+T ss_pred             HHHHHHhhchhhcchHHHHHHHHhCCHH
+Confidence            3444555555666778999999999653
+
+
+No 9
+>4U13_A putative polyketide cyclase (protein SMa1630); PSI-Biology, NYSGRC, putative polyketide cyclase; HET: MSE; 2.3A {Sinorhizobium meliloti 1021}
+Probab=22.51  E-value=1.5e+02  Score=12.91  Aligned_cols=27  Identities=4%  Similarity=-0.143  Sum_probs=14.9  Template_Neff=12.800
+
+Q ss_pred             ChhHHHHHHHHHHHHHHhcCHHHHHHH
+Q tr|Q9UFN7|Q9UF    2 TNAQIILLIDNARMAVDDFNLKKWRSI   28 (37)
+Q Consensus         2 tnaqiillidnarmavddfnlkkwrsi   28 (37)
+                      +..++.-+++.-..+++.-+...+.+.
+T Consensus         2 ~~~~~~~~~~~~~~a~~~~d~~~~~~~   28 (109)
+T 4U13_A            2 QSMDLPDIVNMYFDADSCNDTDALSET   28 (109)
+T ss_dssp             CGGGSCHHHHHHHHHHHHTCHHHHHTT
+T ss_pred             CccchHHHHHHHHHHhhCCCHHHHHhc
+Confidence            344444555555566666666665543
+
+
+No 10
+>2PM7_C beta propeller, alpha solenoid, PROTEIN; HET: MSE; 2.35A {Saccharomyces cerevisiae}
+Probab=21.42  E-value=1.8e+02  Score=19.62  Aligned_cols=24  Identities=13%  Similarity=0.415  Sum_probs=18.6  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHhcCHHHHHHHHHHHHc
+Q tr|Q9UFN7|Q9UF   11 DNARMAVDDFNLKKWRSIMCQVTS   34 (37)
+Q Consensus        11 dnarmavddfnlkkwrsimcqvts   34 (37)
+                      ++....+...++..||.+.+-+.+
+T Consensus       215 ~~~~~~v~~~~l~~W~~~la~ils  238 (399)
+T 2PM7_C          215 REVDDLVENLDVSQWKFISKAIQN  238 (399)
+T ss_dssp             TCCHHHHHHBCGGGHHHHHHHHHH
+T ss_pred             CCHHHHHhcCCHHHHHHHHHHHHH
+Confidence            566677888899999998876644
+
+

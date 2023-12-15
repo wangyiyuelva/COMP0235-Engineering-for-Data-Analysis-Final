@@ -1,0 +1,522 @@
+Query         tr|H3BPY3|H3BPY3_HUMAN
+Match_columns 54
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:12:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0979.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BRL_A Glutamate tRNA ligase;   84.2       1 1.1E-05   31.6   1.0   17   35-51     10-26  (511)
+  2 2JA2_A GLUTAMYL-TRNA SYNTHETAS  82.4     1.7 1.8E-05   29.8   1.5   16   36-51      6-21  (498)
+  3 6B1Z_A Glutamate--tRNA ligase   78.3     2.3 2.5E-05   29.6   1.1   17   35-51     10-26  (511)
+  4 7K86_B Glutamate--tRNA ligase   76.1     3.3 3.6E-05   28.5   1.4   18   34-51      8-25  (475)
+  5 2CFO_A GLUTAMYL-TRNA SYNTHETAS  74.0     3.3 3.6E-05   28.1   0.9   14   37-50      2-15  (492)
+  6 2CFO_B GLUTAMYL-TRNA SYNTHETAS  74.0     3.3 3.6E-05   28.1   0.9   14   37-50      2-15  (492)
+  7 1J09_A Glutamyl-tRNA synthetas  73.3     4.3 4.6E-05   27.1   1.3   15   37-51      2-16  (468)
+  8 2DXI_A glutamyl-tRNA synthetas  73.3     4.3 4.6E-05   27.1   1.3   15   37-51      2-16  (468)
+  9 5BNZ_A Glutamine--tRNA ligase   72.7       4 4.3E-05   29.4   1.1   15   36-50     36-50  (564)
+ 10 1NZJ_A Hypothetical protein ya  66.0     7.5 8.2E-05   24.6   1.2   14   37-50      6-19  (298)
+ 11 4A91_A GLUTAMYL-Q TRNA(ASP) SY  66.0     7.5 8.2E-05   24.6   1.2   14   37-50      6-19  (298)
+ 12 4H3S_A Glutamine--tRNA ligase   62.3     7.8 8.5E-05   30.5   1.0   17   36-52    251-267 (817)
+ 13 4G6Z_A Glutamate-tRNA ligase (  54.1      17 0.00019   25.0   1.4   16   36-51     25-40  (490)
+ 14 3AL0_C Glutamyl-tRNA(Gln) amid  52.0      18 0.00019   25.6   1.3   17   35-51    128-144 (592)
+ 15 3AKZ_A Glutamyl-tRNA synthetas  51.7      18 0.00019   24.9   1.2   15   36-50     24-38  (487)
+ 16 1QTQ_A GLUTAMINYL-TRNA SYNTHET  50.3      16 0.00018   26.3   0.9   15   36-50     26-40  (553)
+ 17 1ZJW_A Glutaminyl-tRNA synthet  50.3      16 0.00018   26.3   0.9   15   36-50     26-40  (553)
+ 18 4JYZ_A Glutamine--tRNA ligase   50.3      16 0.00018   26.3   0.9   15   36-50     26-40  (553)
+ 19 5TGT_A Glutamate--tRNA ligase   50.0      26 0.00028   24.3   1.8   25   28-52      3-27  (502)
+ 20 5TGT_B Glutamate--tRNA ligase   50.0      26 0.00028   24.3   1.8   25   28-52      3-27  (502)
+ 21 4YE6_A Glutamine tRNA ligase (  49.3      21 0.00022   27.9   1.4   15   36-50    264-278 (776)
+ 22 1IRX_A lysyl-tRNA synthetase (  48.4      23 0.00025   24.4   1.4   18   34-51     19-36  (523)
+ 23 1IRX_B lysyl-tRNA synthetase (  48.4      23 0.00025   24.4   1.4   18   34-51     19-36  (523)
+ 24 3AFH_A Glutamyl-tRNA synthetas  47.5      23 0.00025   24.5   1.2   16   35-50     24-39  (488)
+ 25 6B1P_A Glutamate--tRNA ligase   44.8      24 0.00026   24.0   1.0   17   35-51     10-26  (471)
+ 26 5ZDK_A Glutamine--tRNA ligase   40.1      31 0.00033   25.0   1.0   14   36-49     24-37  (548)
+ 27 5ZDO_A Glutamine-tRNA ligase (  40.1      31 0.00033   25.0   1.0   17   36-52     24-40  (548)
+ 28 4P2B_A Glutamine aminoacyl-tRN  35.7      41 0.00045   24.9   1.1   14   36-49     40-53  (576)
+ 29 4YE8_A glutamine tRNA ligase (  35.5      42 0.00045   26.2   1.2   17   36-52    264-280 (776)
+ 30 2HZ7_A Glutaminyl-tRNA synthet  27.7      63 0.00068   25.7   1.0   16   36-51     66-81  (851)
+ 31 3AII_A Glutamyl-tRNA synthetas  27.4      75 0.00081   23.9   1.3   15   36-50     96-110 (553)
+ 32 4GRI_B Glutamate--tRNA ligase   25.9      81 0.00088   22.0   1.2   15   36-50     24-38  (512)
+
+No 1
+>6BRL_A Glutamate tRNA ligase; SSGCID, ligase, Chryseobacterium, Flavobacterium, Structural; HET: EDO, GLU; 2.0A {Elizabethkingia meningoseptica}
+Probab=84.25  E-value=1  Score=31.59  Aligned_cols=17  Identities=65%  Similarity=0.960  Sum_probs=13.9  Template_Neff=9.600
+
+Q ss_pred             ceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   35 VAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        35 vavrvrfapsptgvvda   51 (54)
+                      ..+++||+|||+|..--
+T Consensus        10 ~~~~~r~~psPsG~lHi   26 (511)
+T 6BRL_A           10 EKVRVRFAPSPTGPLHL   26 (511)
+T ss_dssp             CCCEEEECCCSSSSCCH
+T ss_pred             CCceeeecCCCCCCccH
+Confidence            45899999999997643
+
+
+No 2
+>2JA2_A GLUTAMYL-TRNA SYNTHETASE (E.C.6.1.1.17); NON-DISCRIMINATING GLUTAMYL-TRNA AMINOACYLATION, PROTEIN BIOSYNTHESIS; 1.65A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=82.43  E-value=1.7  Score=29.76  Aligned_cols=16  Identities=63%  Similarity=1.030  Sum_probs=13.2  Template_Neff=10.200
+
+Q ss_pred             eeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        36 avrvrfapsptgvvda   51 (54)
+                      .+++||+|+|+|..--
+T Consensus         6 ~~~~r~~p~psG~~Hi   21 (498)
+T 2JA2_A            6 TVRVRFCPSPTGTPHV   21 (498)
+T ss_dssp             CCEEEECCCSSSSCBH
+T ss_pred             CeEEEeCCCCCCCCCH
+Confidence            4789999999997643
+
+
+No 3
+>6B1Z_A Glutamate--tRNA ligase (E.C.6.1.1.17); SSGCID, Elizabethkingia anophelis, Glutamate--tRNA ligase; HET: FMT, EDO; 1.6A {Elizabethkingia anophelis}
+Probab=78.26  E-value=2.3  Score=29.57  Aligned_cols=17  Identities=65%  Similarity=0.960  Sum_probs=14.0  Template_Neff=9.900
+
+Q ss_pred             ceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   35 VAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        35 vavrvrfapsptgvvda   51 (54)
+                      ..++++|+|||+|.+--
+T Consensus        10 ~~~~~~~~psPsG~lHi   26 (511)
+T 6B1Z_A           10 EKVRVRFAPSPTGPLHL   26 (511)
+T ss_dssp             CCCEEEECCCSSSCCCH
+T ss_pred             CCceeeecCCCCCCccH
+Confidence            45899999999997653
+
+
+No 4
+>7K86_B Glutamate--tRNA ligase (E.C.6.1.1.17); SSGCID, Stenotrophomonas maltophilia K279a, Stenotrophomonas; HET: EDO; 2.05A {Stenotrophomonas maltophilia (strain K279a)}
+Probab=76.11  E-value=3.3  Score=28.55  Aligned_cols=18  Identities=50%  Similarity=0.859  Sum_probs=14.1  Template_Neff=9.900
+
+Q ss_pred             CceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   34 GVAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        34 gvavrvrfapsptgvvda   51 (54)
+                      +..+++||+|||+|.+.-
+T Consensus         8 ~~~~~~~~~~sPsG~lHi   25 (475)
+T 7K86_B            8 HMTCRTRFAPSPTGYLHI   25 (475)
+T ss_dssp             -CCCEEEECCCCCSSCBH
+T ss_pred             CCCceeeeCCCCCCCccH
+Confidence            445899999999997653
+
+
+No 5
+>2CFO_A GLUTAMYL-TRNA SYNTHETASE (E.C.6.1.1.17); LIGASE, AMINOACYL-TRNA SYNTHETASE, ATP-BINDING, NUCLEOTIDE-BINDING; HET: GLU; 2.45A {SYNECHOCOCCUS ELONGATUS}
+Probab=74.03  E-value=3.3  Score=28.12  Aligned_cols=14  Identities=71%  Similarity=1.120  Sum_probs=12.0  Template_Neff=10.400
+
+Q ss_pred             eEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVD   50 (54)
+Q Consensus        37 vrvrfapsptgvvd   50 (54)
+                      |++||+|+|+|..-
+T Consensus         2 ~~~r~~p~p~g~lH   15 (492)
+T 2CFO_A            2 VRVRLAPSPTGNLH   15 (492)
+T ss_dssp             CEEEECCCTTSCCB
+T ss_pred             ceeeeCCCCCCCcc
+Confidence            68999999999754
+
+
+No 6
+>2CFO_B GLUTAMYL-TRNA SYNTHETASE (E.C.6.1.1.17); LIGASE, AMINOACYL-TRNA SYNTHETASE, ATP-BINDING, NUCLEOTIDE-BINDING; HET: GLU; 2.45A {SYNECHOCOCCUS ELONGATUS}
+Probab=74.03  E-value=3.3  Score=28.12  Aligned_cols=14  Identities=71%  Similarity=1.120  Sum_probs=12.0  Template_Neff=10.400
+
+Q ss_pred             eEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVD   50 (54)
+Q Consensus        37 vrvrfapsptgvvd   50 (54)
+                      |++||+|+|+|..-
+T Consensus         2 ~~~r~~p~p~g~lH   15 (492)
+T 2CFO_B            2 VRVRLAPSPTGNLH   15 (492)
+T ss_dssp             CEEEECCCSSSCCB
+T ss_pred             ceeeeCCCCCCCcc
+Confidence            68999999999754
+
+
+No 7
+>1J09_A Glutamyl-tRNA synthetase(E.C.6.1.1.17); GluRS-ATP-Glu complex, RIKEN Structural Genomics/Proteomics; HET: ATP, GLU; 1.8A {Thermus thermophilus} SCOP: a.97.1.1, c.26.1.1
+Probab=73.35  E-value=4.3  Score=27.08  Aligned_cols=15  Identities=53%  Similarity=0.707  Sum_probs=12.5  Template_Neff=10.700
+
+Q ss_pred             eEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVDA   51 (54)
+Q Consensus        37 vrvrfapsptgvvda   51 (54)
+                      ++|||+|+|+|...-
+T Consensus         2 ~~~~~~p~psg~lHi   16 (468)
+T 1J09_A            2 VVTRIAPSPTGDPHV   16 (468)
+T ss_dssp             CEEEECCCCSSSCBH
+T ss_pred             ceeeecCCCCCCCCH
+Confidence            689999999997643
+
+
+No 8
+>2DXI_A glutamyl-tRNA synthetase(E.C.6.1.1.17)/tRNA; LIGASE, RNA, Structural Genomics, NPPSFA; HET: ATP, GAU; 2.2A {Thermus thermophilus} SCOP: a.97.1.1, c.26.1.1
+Probab=73.35  E-value=4.3  Score=27.08  Aligned_cols=15  Identities=53%  Similarity=0.707  Sum_probs=12.5  Template_Neff=10.700
+
+Q ss_pred             eEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVDA   51 (54)
+Q Consensus        37 vrvrfapsptgvvda   51 (54)
+                      ++|||+|+|+|...-
+T Consensus         2 ~~~~~~p~psg~lHi   16 (468)
+T 2DXI_A            2 VVTRIAPSPTGDPHV   16 (468)
+T ss_dssp             CEEEECCCCSSSCBH
+T ss_pred             ceeeecCCCCCCCCH
+Confidence            689999999997643
+
+
+No 9
+>5BNZ_A Glutamine--tRNA ligase (E.C.6.1.1.18); SSGCID, Pseudomonas aeruginosa, Glutamine--tRNA ligase; HET: SO4; 1.9A {Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228)}
+Probab=72.71  E-value=4  Score=29.38  Aligned_cols=15  Identities=33%  Similarity=0.806  Sum_probs=12.7  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|++||+|+|+|-..
+T Consensus        36 ~v~~rf~P~P~G~lH   50 (564)
+T 5BNZ_A           36 KIVTRFPPEPNGYLH   50 (564)
+T ss_dssp             CCEEEECCCSSSCCB
+T ss_pred             ceeeecCCCCCCCCc
+Confidence            578999999999754
+
+
+No 10
+>1NZJ_A Hypothetical protein yadB; ZN CLUSTER, GLUTAMYL T-RNA SYNTHETASE; 1.5A {Escherichia coli} SCOP: c.26.1.1
+Probab=65.99  E-value=7.5  Score=24.61  Aligned_cols=14  Identities=50%  Similarity=0.788  Sum_probs=11.8  Template_Neff=10.400
+
+Q ss_pred             eEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVD   50 (54)
+Q Consensus        37 vrvrfapsptgvvd   50 (54)
+                      +++||+|+|+|..-
+T Consensus         6 ~~~r~~p~psg~lH   19 (298)
+T 1NZJ_A            6 YIGRFAPSPSGELH   19 (298)
+T ss_dssp             CEEEECCCTTSCCC
+T ss_pred             eEEEeCCCCCCCCC
+Confidence            58899999999754
+
+
+No 11
+>4A91_A GLUTAMYL-Q TRNA(ASP) SYNTHETASE (E.C.6.1.1.-); LIGASE; HET: GLU; 1.75A {ESCHERICHIA COLI}
+Probab=65.99  E-value=7.5  Score=24.61  Aligned_cols=14  Identities=50%  Similarity=0.788  Sum_probs=11.8  Template_Neff=10.400
+
+Q ss_pred             eEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   37 VRVRFAPSPTGVVD   50 (54)
+Q Consensus        37 vrvrfapsptgvvd   50 (54)
+                      +++||+|+|+|..-
+T Consensus         6 ~~~r~~p~psg~lH   19 (298)
+T 4A91_A            6 YIGRFAPSPSGELH   19 (298)
+T ss_dssp             CEEEECCCTTSCCB
+T ss_pred             eEEEeCCCCCCCCC
+Confidence            58999999999754
+
+
+No 12
+>4H3S_A Glutamine--tRNA ligase (E.C.6.1.1.18); Rossmann Fold, LIGASE, Appended domain; HET: DTT, GOL, ACT; 2.15A {Saccharomyces cerevisiae}
+Probab=62.30  E-value=7.8  Score=30.46  Aligned_cols=17  Identities=47%  Similarity=0.962  Sum_probs=14.3  Template_Neff=8.300
+
+Q ss_pred             eeEEEeCCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDAG   52 (54)
+Q Consensus        36 avrvrfapsptgvvdag   52 (54)
+                      .|+.||+|+|+|..--|
+T Consensus       251 ~v~~RfaPsPnG~lHIG  267 (817)
+T 4H3S_A          251 KVRTRFPPEPNGYLHIG  267 (817)
+T ss_dssp             CCEEEECCCSSSCCBTT
+T ss_pred             ceEEecCCCCCCcccHH
+Confidence            58999999999987554
+
+
+No 13
+>4G6Z_A Glutamate-tRNA ligase (E.C.6.1.1.17); aminoacyl-tRNA synthetase, aaRS, class 1b; HET: GLU; 2.05A {Burkholderia thailandensis}
+Probab=54.08  E-value=17  Score=25.02  Aligned_cols=16  Identities=63%  Similarity=1.070  Sum_probs=13.1  Template_Neff=10.200
+
+Q ss_pred             eeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        36 avrvrfapsptgvvda   51 (54)
+                      -++++|+|+|+|.+.-
+T Consensus        25 ~~~~~~~p~psg~lHi   40 (490)
+T 4G6Z_A           25 PVRTRFAPSPTGFIHL   40 (490)
+T ss_dssp             CCEEEECCCCCSCCBH
+T ss_pred             CeEEEECCCCCCCCCH
+Confidence            4789999999997643
+
+
+No 14
+>3AL0_C Glutamyl-tRNA(Gln) amidotransferase subunit A (E.C.6.3.5.-); Protein-rna complex, LIGASE-RNA complex; HET: GSU; 3.368A {Thermotoga maritima}
+Probab=52.03  E-value=18  Score=25.62  Aligned_cols=17  Identities=65%  Similarity=0.966  Sum_probs=13.8  Template_Neff=10.200
+
+Q ss_pred             ceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   35 VAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        35 vavrvrfapsptgvvda   51 (54)
+                      -.++++|+|+|+|..--
+T Consensus       128 ~~~~~~~~psPsG~lHi  144 (592)
+T 3AL0_C          128 ELVRVRFAPSPTGHLHV  144 (592)
+T ss_dssp             CCCEEEECCCSSSCCBH
+T ss_pred             CceEEEECCCCCCCCCH
+Confidence            45899999999997643
+
+
+No 15
+>3AKZ_A Glutamyl-tRNA synthetase 2 (E.C.6.1.1.17)/tRNAGln; Protein-rna complex, LIGASE-RNA complex; HET: GSU; 2.9A {Thermotoga maritima}
+Probab=51.72  E-value=18  Score=24.91  Aligned_cols=15  Identities=73%  Similarity=1.134  Sum_probs=12.6  Template_Neff=10.200
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .++++|+|+|+|...
+T Consensus        24 ~~~~~~~psPsG~lH   38 (487)
+T 3AKZ_A           24 LVRVRFAPSPTGHLH   38 (487)
+T ss_dssp             CCEEEECCCCSSCCB
+T ss_pred             ceEEEECCCCCCCcc
+Confidence            378999999999754
+
+
+No 16
+>1QTQ_A GLUTAMINYL-TRNA SYNTHETASE/TRNA COMPLEX; TRNA SYNTHETASE, GLUTAMINE, TRNAGLN, E.; HET: SO4, QSI; 2.25A {Escherichia coli} SCOP: c.26.1.1, b.53.1.2
+Probab=50.34  E-value=16  Score=26.34  Aligned_cols=15  Identities=40%  Similarity=0.893  Sum_probs=12.2  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|++||+|+|+|-.-
+T Consensus        26 ~vv~rf~P~p~G~lH   40 (553)
+T 1QTQ_A           26 TVHTRFPPEPNGYLH   40 (553)
+T ss_dssp             SCEEEECCCTTSCCB
+T ss_pred             ceeeecCCCCCCCCC
+Confidence            467899999999653
+
+
+No 17
+>1ZJW_A Glutaminyl-tRNA synthetase (E.C. 6.1.1.18)/tRNA complex; Protein-RNA complex, LIGASE-RNA COMPLEX; HET: SO4, AMP, GLN; 2.5A {Escherichia coli} SCOP: c.26.1.1, b.53.1.2
+Probab=50.34  E-value=16  Score=26.34  Aligned_cols=15  Identities=40%  Similarity=0.893  Sum_probs=12.2  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|++||+|+|+|-.-
+T Consensus        26 ~vv~rf~P~p~G~lH   40 (553)
+T 1ZJW_A           26 TVHTRFPPEPNGYLH   40 (553)
+T ss_dssp             SCEEEECCCSSSCCB
+T ss_pred             ceeeecCCCCCCCCC
+Confidence            467899999999653
+
+
+No 18
+>4JYZ_A Glutamine--tRNA ligase (E.C.6.1.1.18), rna; Rossmann fold, Protein-RNA complex, aminoacyl-tRNA; HET: 5MU, SO4, PSU, H2U, 2MA, OMU, 1RN, ATP, OMG, 4SU; 2.5A {Escherichia coli}
+Probab=50.34  E-value=16  Score=26.34  Aligned_cols=15  Identities=40%  Similarity=0.893  Sum_probs=12.2  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|++||+|+|+|-.-
+T Consensus        26 ~vv~rf~P~p~G~lH   40 (553)
+T 4JYZ_A           26 TVHTRFPPEPNGYLH   40 (553)
+T ss_dssp             SCEEEECCCSSSCCB
+T ss_pred             ceeeecCCCCCCCCC
+Confidence            467899999999653
+
+
+No 19
+>5TGT_A Glutamate--tRNA ligase (E.C.6.1.1.17); SSGCID, glutamyl-tRNA synthetase, GluRS, Pseudomonas; HET: 2PE, SO4; 2.45A {Pseudomonas aeruginosa}
+Probab=49.97  E-value=26  Score=24.26  Aligned_cols=25  Identities=40%  Similarity=0.526  Sum_probs=15.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCCCceeEEEeCCCCCCCCCCC
+Q tr|H3BPY3|H3BP   28 NLGTDAGVAVRVRFAPSPTGVVDAG   52 (54)
+Q Consensus        28 nlgtdagvavrvrfapsptgvvdag   52 (54)
+                      +-.+..+-.++++++|+|+|....|
+T Consensus         3 ~~~~~~~~~~~~~~~ptpsg~~HiG   27 (502)
+T 5TGT_A            3 HHHHHHMTTVRTRIAPSPTGDPHVG   27 (502)
+T ss_dssp             -------CCCEEEECCCSSSCCBHH
+T ss_pred             CCccccCCCceEEecCCCCCCCCHH
+Confidence            3456778889999999999976533
+
+
+No 20
+>5TGT_B Glutamate--tRNA ligase (E.C.6.1.1.17); SSGCID, glutamyl-tRNA synthetase, GluRS, Pseudomonas; HET: 2PE, SO4; 2.45A {Pseudomonas aeruginosa}
+Probab=49.97  E-value=26  Score=24.26  Aligned_cols=25  Identities=40%  Similarity=0.526  Sum_probs=14.2  Template_Neff=10.200
+
+Q ss_pred             CCCCCCCceeEEEeCCCCCCCCCCC
+Q tr|H3BPY3|H3BP   28 NLGTDAGVAVRVRFAPSPTGVVDAG   52 (54)
+Q Consensus        28 nlgtdagvavrvrfapsptgvvdag   52 (54)
+                      +-.+..+-.++++++|+|+|....|
+T Consensus         3 ~~~~~~~~~~~~~~~ptpsg~~HiG   27 (502)
+T 5TGT_B            3 HHHHHHMTTVRTRIAPSPTGDPHVG   27 (502)
+T ss_dssp             --------CCEEEECCCSSSCCBHH
+T ss_pred             CCccccCCCceEEecCCCCCCCCHH
+Confidence            3456777889999999999976533
+
+
+No 21
+>4YE6_A Glutamine tRNA ligase (E.C.6.1.1.18); aminoacyl-tRNA synthetase, class I aaRS; 2.4A {Homo sapiens}
+Probab=49.26  E-value=21  Score=27.91  Aligned_cols=15  Identities=47%  Similarity=1.059  Sum_probs=12.9  Template_Neff=8.500
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|++||+|+|+|...
+T Consensus       264 ~vvtRf~P~PnG~lH  278 (776)
+T 4YE6_A          264 QVRTRFPPEPNGILH  278 (776)
+T ss_dssp             CCEEEECCCTTCCCB
+T ss_pred             ceeEeCCCCCCCCcc
+Confidence            589999999999754
+
+
+No 22
+>1IRX_A lysyl-tRNA synthetase (E.C.6.1.1.6)/ZINC ION; beta sandwitch, zinc-binding structure, Rossmann; 2.6A {Pyrococcus horikoshii} SCOP: a.97.1.2, c.26.1.1
+Probab=48.45  E-value=23  Score=24.36  Aligned_cols=18  Identities=22%  Similarity=0.231  Sum_probs=14.2  Template_Neff=10.500
+
+Q ss_pred             CceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   34 GVAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        34 gvavrvrfapsptgvvda   51 (54)
+                      +-.|+++|+|+|+|....
+T Consensus        19 ~~~~~~~~~p~p~g~lHi   36 (523)
+T 1IRX_A           19 KEKYVVESGITPSGYVHV   36 (523)
+T ss_dssp             CSEEEEEEEECCSSCCCH
+T ss_pred             cCceEEecccCCCCCcch
+Confidence            345889999999997643
+
+
+No 23
+>1IRX_B lysyl-tRNA synthetase (E.C.6.1.1.6)/ZINC ION; beta sandwitch, zinc-binding structure, Rossmann; 2.6A {Pyrococcus horikoshii} SCOP: a.97.1.2, c.26.1.1
+Probab=48.45  E-value=23  Score=24.36  Aligned_cols=18  Identities=22%  Similarity=0.231  Sum_probs=14.1  Template_Neff=10.500
+
+Q ss_pred             CceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   34 GVAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        34 gvavrvrfapsptgvvda   51 (54)
+                      +-.|+++|+|+|+|....
+T Consensus        19 ~~~~~~~~~p~p~g~lHi   36 (523)
+T 1IRX_B           19 KEKYVVESGITPSGYVHV   36 (523)
+T ss_dssp             CSEECBEEEECCSSCCCH
+T ss_pred             cCceEEecccCCCCCcch
+Confidence            345889999999997643
+
+
+No 24
+>3AFH_A Glutamyl-tRNA synthetase 2 (E.C.6.1.1.17); PROTEIN-SUBSTRATE COMPLEX, non-discriminating glutamyl-tRNA synthetase; HET: GSU; 2.0A {Thermotoga maritima}
+Probab=47.51  E-value=23  Score=24.53  Aligned_cols=16  Identities=69%  Similarity=1.024  Sum_probs=12.7  Template_Neff=10.100
+
+Q ss_pred             ceeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   35 VAVRVRFAPSPTGVVD   50 (54)
+Q Consensus        35 vavrvrfapsptgvvd   50 (54)
+                      -.++++|+|+|+|..-
+T Consensus        24 ~~~~~~~~p~PsG~lH   39 (488)
+T 3AFH_A           24 ELVRVRFAPSPTGHLH   39 (488)
+T ss_dssp             -CCEEEECCCCSSSCB
+T ss_pred             CceEEEeCCCCCCCcc
+Confidence            3478999999999754
+
+
+No 25
+>6B1P_A Glutamate--tRNA ligase 1 (E.C.6.1.1.17); SSGCID, Glutamate--tRNA ligase, Helicobacter pylori; 2.5A {Helicobacter pylori (strain G27)}
+Probab=44.81  E-value=24  Score=24.03  Aligned_cols=17  Identities=47%  Similarity=0.780  Sum_probs=13.7  Template_Neff=10.400
+
+Q ss_pred             ceeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   35 VAVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        35 vavrvrfapsptgvvda   51 (54)
+                      ..++++|+|+|+|...-
+T Consensus        10 ~~~~~~~~p~psG~lHi   26 (471)
+T 6B1P_A           10 SLIVTRFAPSPTGYLHI   26 (471)
+T ss_dssp             CCCEEEECCCSCSSCBH
+T ss_pred             CCceeeeCCCCCCCccH
+Confidence            45889999999997643
+
+
+No 26
+>5ZDK_A Glutamine--tRNA ligase (E.C.6.1.1.18); GlnRS, QRS, Ligase, Synthetase; HET: ATP; 2.45A {Thermus thermophilus HB8}
+Probab=40.10  E-value=31  Score=24.99  Aligned_cols=14  Identities=36%  Similarity=0.823  Sum_probs=11.7  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVV   49 (54)
+Q Consensus        36 avrvrfapsptgvv   49 (54)
+                      .|++||+|+|+|-.
+T Consensus        24 ~vv~rf~P~p~g~l   37 (548)
+T 5ZDK_A           24 KLVTRFPPEPNGYL   37 (548)
+T ss_dssp             SCEEEECCCSSSCC
+T ss_pred             cEEEeCCCCCCCCC
+Confidence            46789999999864
+
+
+No 27
+>5ZDO_A Glutamine-tRNA ligase (E.C.6.1.1.18); GlnRS, QRS, Ligase, Synthetase; 2.8A {Thermus thermophilus HB8}
+Probab=40.10  E-value=31  Score=24.99  Aligned_cols=17  Identities=35%  Similarity=0.800  Sum_probs=13.1  Template_Neff=9.400
+
+Q ss_pred             eeEEEeCCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDAG   52 (54)
+Q Consensus        36 avrvrfapsptgvvdag   52 (54)
+                      .|++||+|+|+|-.--|
+T Consensus        24 ~vv~rf~P~p~g~lHiG   40 (548)
+T 5ZDO_A           24 KLVTRFPPEPNGYLHIG   40 (548)
+T ss_dssp             SCEEEECCCSSSCCBTT
+T ss_pred             cEEEeCCCCCCCCCCHH
+Confidence            46789999999975433
+
+
+No 28
+>4P2B_A Glutamine aminoacyl-tRNA synthetase; aminoacyl tRNA synthetase, LIGASE; HET: SO4; 2.8A {Toxoplasma gondii}
+Probab=35.66  E-value=41  Score=24.90  Aligned_cols=14  Identities=43%  Similarity=0.904  Sum_probs=12.0  Template_Neff=9.000
+
+Q ss_pred             eeEEEeCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVV   49 (54)
+Q Consensus        36 avrvrfapsptgvv   49 (54)
+                      .|++||+|+|+|..
+T Consensus        40 ~vv~rf~P~p~G~l   53 (576)
+T 4P2B_A           40 TVITRFPPEPNGFL   53 (576)
+T ss_dssp             CCEEEECCCSSSCC
+T ss_pred             eeeeecCCCCCCCC
+Confidence            57889999999864
+
+
+No 29
+>4YE8_A glutamine tRNA ligase (E.C.6.1.1.18); aminoacyl-tRNA synthetase, class I aaRS; 3.3A {Homo sapiens}
+Probab=35.51  E-value=42  Score=26.24  Aligned_cols=17  Identities=47%  Similarity=1.048  Sum_probs=14.0  Template_Neff=8.600
+
+Q ss_pred             eeEEEeCCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDAG   52 (54)
+Q Consensus        36 avrvrfapsptgvvdag   52 (54)
+                      .|..||+|+|+|-..-|
+T Consensus       264 ~vvtRf~P~PnG~lHIG  280 (776)
+T 4YE8_A          264 QVRTRFPPEPNGILHIG  280 (776)
+T ss_dssp             CCEEEECCCTTCCCBTT
+T ss_pred             eeeEeCCCCCCCCccHH
+Confidence            58899999999976544
+
+
+No 30
+>2HZ7_A Glutaminyl-tRNA synthetase (E.C.6.1.1.18); ROSSMANN FOLD, GLNRS CORE, CLASS; 2.3A {Deinococcus radiodurans}
+Probab=27.67  E-value=63  Score=25.72  Aligned_cols=16  Identities=38%  Similarity=0.725  Sum_probs=12.9  Template_Neff=8.500
+
+Q ss_pred             eeEEEeCCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVDA   51 (54)
+Q Consensus        36 avrvrfapsptgvvda   51 (54)
+                      .|++||+|+|+|..-.
+T Consensus        66 ~vv~rf~P~PsG~lHI   81 (851)
+T 2HZ7_A           66 RVVTRFPPDPSGYAHL   81 (851)
+T ss_dssp             SCEEEECCCSSSCCBH
+T ss_pred             cEEeecCCCCCCCCCH
+Confidence            4789999999997543
+
+
+No 31
+>3AII_A Glutamyl-tRNA synthetase (E.C.6.1.1.17); amino-acyl tRNA synthetase, Ligase; 1.65A {Methanothermobacter thermautotrophicus}
+Probab=27.44  E-value=75  Score=23.92  Aligned_cols=15  Identities=47%  Similarity=0.930  Sum_probs=12.3  Template_Neff=8.500
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .|.+||+|+|+|..-
+T Consensus        96 ~vvtr~~P~PsG~lH  110 (553)
+T 3AII_A           96 EVVLRFAPNPSGPLH  110 (553)
+T ss_dssp             CCEEEECCCSSSSCB
+T ss_pred             cEEEEeCCCCCCCCC
+Confidence            568899999999753
+
+
+No 32
+>4GRI_B Glutamate--tRNA ligase (E.C.6.1.1.17); Structural Genomics, Seattle Structural Genomics; HET: GLU; 2.6A {Borrelia burgdorferi}
+Probab=25.92  E-value=81  Score=22.03  Aligned_cols=15  Identities=60%  Similarity=1.079  Sum_probs=12.6  Template_Neff=10.200
+
+Q ss_pred             eeEEEeCCCCCCCCC
+Q tr|H3BPY3|H3BP   36 AVRVRFAPSPTGVVD   50 (54)
+Q Consensus        36 avrvrfapsptgvvd   50 (54)
+                      .++++|+|+|+|...
+T Consensus        24 ~~~~~~~p~psG~~H   38 (512)
+T 4GRI_B           24 STRVRYAPSPTGLQH   38 (512)
+T ss_dssp             CCEEEECCCSSSCCB
+T ss_pred             CeEEEEccCCCCCcc
+Confidence            478999999999754
+
+

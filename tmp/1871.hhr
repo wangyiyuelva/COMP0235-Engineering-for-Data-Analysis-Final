@@ -1,0 +1,169 @@
+Query         tr|H7C2M1|H7C2M1_HUMAN
+Match_columns 109
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:09:35 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1871.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6WQ2_N helical symmetry, archa  10.7 2.3E+02  0.0025   23.7   0.6   12   91-102   114-125 (167)
+  2 5ZUZ_A Rok; winged helix, xeno   9.8 3.1E+02  0.0034   20.0   1.0   17   90-106    60-76  (103)
+  3 5ZUX_A Rok/DNA Complex; winged   7.3 4.6E+02   0.005   18.5   0.9   16   90-105    55-70  (92)
+  4 2L7S_A Adrenomedullin; hormone   6.7   6E+02  0.0065   16.8   1.2   14   69-82      6-19  (53)
+  5 5BT2_A Methyl-CpG-binding prot   5.3 1.5E+03   0.017   14.3   2.8   24   11-34     10-33  (97)
+  6 6FS4_A Alpha-S2-casein; Antimi   5.2 6.5E+02   0.007   15.5   0.7   14   93-106    17-30  (31)
+  7 5JHI_A W35; DE NOVO PROTEIN; N   4.6   4E+02  0.0044   17.5  -0.5    8   74-81     22-29  (35)
+  8 1FDV_C DEHYDROGENASE, 17-BETA-   4.5   2E+03   0.022   17.2   3.1   16   49-64    308-323 (327)
+  9 3PWF_B Rubrerythrin; Non heme    4.3 1.1E+03   0.012   15.8   1.2   17   48-64    142-158 (170)
+ 10 3PZA_A Rubrerythrin; Rubreryth   4.3 1.1E+03   0.012   15.8   1.2   16   48-63    142-157 (170)
+
+No 1
+>6WQ2_N helical symmetry, archaeal virus, rod-like;{Sulfolobus islandicus filamentous virus}
+Probab=10.69  E-value=2.3e+02  Score=23.72  Aligned_cols=12  Identities=42%  Similarity=0.944  Sum_probs=7.1  Template_Neff=1.500
+
+Q ss_pred             cchhhHhhcCCc
+Q tr|H7C2M1|H7C2   91 KFIWTIMQRLPW  102 (109)
+Q Consensus        91 kfiwtimqrlpw  102 (109)
+                      .|+|++||+.|-
+T Consensus       114 n~l~elmqk~~~  125 (167)
+T 6WQ2_N          114 NFLWELMQRQSG  125 (167)
+T ss_dssp             HHHHHHCC----
+T ss_pred             HHHHHHHhhcCC
+Confidence            589999998774
+
+
+No 2
+>5ZUZ_A Rok; winged helix, xenogeneic silencer, DNA; NMR {Bacillus subtilis subsp. subtilis str. 168}
+Probab=9.79  E-value=3.1e+02  Score=20.00  Aligned_cols=17  Identities=18%  Similarity=0.337  Sum_probs=12.1  Template_Neff=5.600
+
+Q ss_pred             CcchhhHhhcCCchccC
+Q tr|H7C2M1|H7C2   90 GKFIWTIMQRLPWSQKL  106 (109)
+Q Consensus        90 gkfiwtimqrlpwsqkl  106 (109)
+                      .-|+|.+|+..|--+|.
+T Consensus        60 t~~m~~L~~~~p~I~KP   76 (103)
+T 5ZUZ_A           60 TTFMQSLIKMYPEVKKP   76 (103)
+T ss_dssp             HHHHHHHHHHCTTEEEE
+T ss_pred             HHHHHHHHHHCCCeecc
+Confidence            56888888887765543
+
+
+No 3
+>5ZUX_A Rok/DNA Complex; winged helix, xenogeneic silencer, DNA; NMR {Bacillus subtilis subsp. subtilis str. 168}
+Probab=7.27  E-value=4.6e+02  Score=18.50  Aligned_cols=16  Identities=19%  Similarity=0.405  Sum_probs=10.2  Template_Neff=6.100
+
+Q ss_pred             CcchhhHhhcCCchcc
+Q tr|H7C2M1|H7C2   90 GKFIWTIMQRLPWSQK  105 (109)
+Q Consensus        90 gkfiwtimqrlpwsqk  105 (109)
+                      .-|+|.+|...|--+|
+T Consensus        55 ~~~m~~L~~~~p~I~K   70 (92)
+T 5ZUX_A           55 TTFMQSLIKMYPEVKK   70 (92)
+T ss_dssp             HHHHHHHHHHCTTEEE
+T ss_pred             HHHHHHHHHHCCCeec
+Confidence            3577777777765444
+
+
+No 4
+>2L7S_A Adrenomedullin; hormone, pre-pro-adrenomedullin; HET: NH2; NMR {Homo sapiens}
+Probab=6.72  E-value=6e+02  Score=16.83  Aligned_cols=14  Identities=21%  Similarity=0.501  Sum_probs=9.3  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H7C2M1|H7C2   69 SGMRASRRSGCELW   82 (109)
+Q Consensus        69 sgmrasrrsgcelw   82 (109)
+                      .....++++||.|-
+T Consensus         6 ~~~~~~r~~GC~Lg   19 (53)
+T 2L7S_A            6 NNFQGLRSFGCRFG   19 (53)
+T ss_dssp             CCSSSSSSCCCSSS
+T ss_pred             cccccccCCCcccc
+Confidence            33456777899774
+
+
+No 5
+>5BT2_A Methyl-CpG-binding protein 2/DNA Complex; A/T run, MeCP2, hydration spine; HET: 5CM; 2.2A {Homo sapiens}
+Probab=5.27  E-value=1.5e+03  Score=14.26  Aligned_cols=24  Identities=17%  Similarity=0.104  Sum_probs=12.3  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCcc
+Q tr|H7C2M1|H7C2   11 SGCGKHNSPERCAPLGQGWGAAGA   34 (109)
+Q Consensus        11 sgcgkhnspercaplgqgwgaaga   34 (109)
+                      +...+......+.+|.+||-....
+T Consensus        10 ~~~~~~~~~~~~~~lp~gW~r~~~   33 (97)
+T 5BT2_A           10 SIIRDRGPMYDDPTLPEGWTRKLK   33 (97)
+T ss_dssp             ------CCCCCCTTSCTTCEEEEE
+T ss_pred             ccccCCCCCCCCCCCCCCeEEEEE
+Confidence            344555566667788888875443
+
+
+No 6
+>6FS4_A Alpha-S2-casein; Antimicrobial peptide, TFE, ANTIMICROBIAL PROTEIN; NMR {N/A}
+Probab=5.21  E-value=6.5e+02  Score=15.47  Aligned_cols=14  Identities=29%  Similarity=0.242  Sum_probs=9.5  Template_Neff=4.200
+
+Q ss_pred             hhhHhhcCCchccC
+Q tr|H7C2M1|H7C2   93 IWTIMQRLPWSQKL  106 (109)
+Q Consensus        93 iwtimqrlpwsqkl  106 (109)
+                      |-..+|.++|.|-+
+T Consensus        17 i~Qy~Qkf~~PQY~   30 (31)
+T 6FS4_A           17 ISQRYQKFALPQYL   30 (31)
+T ss_dssp             HHTTCSSSCCCSSC
+T ss_pred             HHHHHHHcccchhc
+Confidence            44457788888754
+
+
+No 7
+>5JHI_A W35; DE NOVO PROTEIN; NMR {synthetic construct}
+Probab=4.62  E-value=4e+02  Score=17.51  Aligned_cols=8  Identities=75%  Similarity=1.522  Sum_probs=5.1  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCC
+Q tr|H7C2M1|H7C2   74 SRRSGCEL   81 (109)
+Q Consensus        74 srrsgcel   81 (109)
+                      |||.|||+
+T Consensus        22 srrtgcev   29 (35)
+T 5JHI_A           22 SRRTGCEV   29 (35)
+T ss_dssp             HHHTTSEE
+T ss_pred             HHHhCCee
+Confidence            56677764
+
+
+No 8
+>1FDV_C DEHYDROGENASE, 17-BETA-HYDROXYSTEROID, MUTANT, NAD; HET: SO4, NAD; 3.1A {Homo sapiens} SCOP: c.2.1.2
+Probab=4.54  E-value=2e+03  Score=17.24  Aligned_cols=16  Identities=50%  Similarity=0.804  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|H7C2M1|H7C2   49 ACGRSRVGRPARGCPR   64 (109)
+Q Consensus        49 acgrsrvgrpargcpr   64 (109)
+                      ..||+-+|+|.-|-|.
+T Consensus       308 ~~~~~~~~~~~~~~~~  323 (327)
+T 1FDV_C          308 EAGRSAVGDPELGDPP  323 (327)
+T ss_dssp             ----------------
+T ss_pred             cchhcCCCCCccCCCC
+Confidence            4577888887766553
+
+
+No 9
+>3PWF_B Rubrerythrin; Non heme iron peroxidases, oxidative; 1.64A {Pyrococcus furiosus}
+Probab=4.25  E-value=1.1e+03  Score=15.80  Aligned_cols=17  Identities=35%  Similarity=0.823  Sum_probs=11.4  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|H7C2M1|H7C2   48 PACGRSRVGRPARGCPR   64 (109)
+Q Consensus        48 pacgrsrvgrpargcpr   64 (109)
+                      +.||-+.+|-|...||-
+T Consensus       142 ~~c~~~~~~~~~~~c~~  158 (170)
+T 3PWF_B          142 PICGYTAVDEAPEYCPV  158 (170)
+T ss_dssp             TTTCCEEESSCCSBCTT
+T ss_pred             CCCCCEeeCCCCccCCC
+Confidence            56777777666667764
+
+
+No 10
+>3PZA_A Rubrerythrin; Rubrerythrin, OXIDOREDUCTASE; 1.85A {Pyrococcus furiosus}
+Probab=4.25  E-value=1.1e+03  Score=15.80  Aligned_cols=16  Identities=38%  Similarity=0.916  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|H7C2M1|H7C2   48 PACGRSRVGRPARGCP   63 (109)
+Q Consensus        48 pacgrsrvgrpargcp   63 (109)
+                      +.||-+.+|-|...||
+T Consensus       142 ~~c~~~~~~~~~~~c~  157 (170)
+T 3PZA_A          142 PICGYTAVDEAPEYCP  157 (170)
+T ss_dssp             TTTCCEEESSCCSBCT
+T ss_pred             CCCCCEeeCCCCccCC
+
+

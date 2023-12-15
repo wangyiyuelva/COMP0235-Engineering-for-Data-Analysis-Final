@@ -1,0 +1,170 @@
+Query         tr|A0A2R8Y655|A0A2R8Y655_HUMAN
+Match_columns 60
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 00:14:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0077.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2M33_A Cytochrome b5; membrane  21.9      35 0.00038   18.3  -0.9   20    8-27    109-128 (134)
+  2 5HO1_A Magnetosome protein Mam  19.6 1.5E+02  0.0016   16.0   1.2   15   22-36      2-16  (102)
+  3 5HO3_A Magnetosome protein Mam  19.6 1.5E+02  0.0016   16.0   1.2   15   22-36      2-16  (102)
+  4 2M0Q_A Transmembrane helix, de  14.5      65 0.00071   22.0  -1.1   17   11-27     49-65  (123)
+  5 2NDJ_A Potassium voltage-gated  12.7      74  0.0008   22.1  -1.3   17   11-27     66-82  (112)
+  6 2K21_A KCNE1, membrane protein  12.2      85 0.00092   22.4  -1.1   19    9-27     50-68  (138)
+  7 1TE4_A MTH187, Methanobacteriu   8.1 6.5E+02   0.007   12.7   1.6   24   24-47      6-29  (131)
+  8 2A3V_D Protein-DNA complex, RE   7.4 1.9E+02   0.002   16.8  -0.7   17   18-34    124-140 (320)
+  9 3NKH_B Integrase; alpha-fold,    7.0 2.3E+02  0.0025   16.8  -0.5   18   17-34     58-75  (244)
+ 10 2R5T_A AGC Protein Kinase, Apo   6.5 6.6E+02  0.0071   16.0   1.2   17   19-35    357-373 (373)
+
+No 1
+>2M33_A Cytochrome b5; membrane protein, heme, HADDOCK, ELECTRON; HET: HEM; NMR {Oryctolagus cuniculus}
+Probab=21.91  E-value=35  Score=18.32  Aligned_cols=20  Identities=10%  Similarity=0.421  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCchhhhhccCchcC
+Q tr|A0A2R8Y655|    8 LSSSWIYPTVILCLFGFFSM   27 (60)
+Q Consensus         8 lssswiyptvilclfgffsm   27 (60)
+                      ....|++|+++++++.+.-+
+T Consensus       109 ~~~~~~~~~~~~~~~~~~~~  128 (134)
+T 2M33_A          109 WWTNWVIPAISALIVALMYR  128 (134)
+T ss_dssp             --------------------
+T ss_pred             chhhhHHHHHHHHHHHHHHH
+Confidence            34578899988887766544
+
+
+No 2
+>5HO1_A Magnetosome protein MamB; C-terminal domain, Magnetotactic bacteria, metallochaperone; 2.53A {Magnetospira sp. QH-2}
+Probab=19.63  E-value=1.5e+02  Score=16.02  Aligned_cols=15  Identities=7%  Similarity=-0.197  Sum_probs=1.0  Template_Neff=10.400
+
+Q ss_pred             cCchcCCCCCCCCCc
+Q tr|A0A2R8Y655|   22 FGFFSMMRPSEPFLI   36 (60)
+Q Consensus        22 fgffsmmrpsepfli   36 (60)
+                      |..|+++++.-.+++
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (102)
+T 5HO1_A            2 GSSHHHHHHSSGLVP   16 (102)
+T ss_dssp             -------------CC
+T ss_pred             CCCcccccccccccc
+Confidence            456778887766654
+
+
+No 3
+>5HO3_A Magnetosome protein MamB; c-terminal domain, Magnetotactic bacteria, metallochaperone; 2.15A {Magnetospira sp. QH-2}
+Probab=19.63  E-value=1.5e+02  Score=16.02  Aligned_cols=15  Identities=7%  Similarity=-0.197  Sum_probs=1.0  Template_Neff=10.400
+
+Q ss_pred             cCchcCCCCCCCCCc
+Q tr|A0A2R8Y655|   22 FGFFSMMRPSEPFLI   36 (60)
+Q Consensus        22 fgffsmmrpsepfli   36 (60)
+                      |..|+++++.-.+++
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (102)
+T 5HO3_A            2 GSSHHHHHHSSGLVP   16 (102)
+T ss_dssp             -------------CC
+T ss_pred             CCCcccccccccccc
+Confidence            456778887766654
+
+
+No 4
+>2M0Q_A Transmembrane helix, detergent micelle, Membrane; NMR {Homo sapiens}
+Probab=14.53  E-value=65  Score=22.05  Aligned_cols=17  Identities=24%  Similarity=0.581  Sum_probs=13.5  Template_Neff=5.300
+
+Q ss_pred             CCCCchhhhhccCchcC
+Q tr|A0A2R8Y655|   11 SWIYPTVILCLFGFFSM   27 (60)
+Q Consensus        11 swiyptvilclfgffsm   27 (60)
+                      ..+|..+++.+||||.+
+T Consensus        49 a~~YIL~vm~ffsf~~~   65 (123)
+T 2M0Q_A           49 VILYLMVMIGMFSFIIV   65 (123)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            45788899999998754
+
+
+No 5
+>2NDJ_A Potassium voltage-gated channel subfamily E; Estrogen, Membrane protein, Ion channel; NMR {Homo sapiens}
+Probab=12.71  E-value=74  Score=22.14  Aligned_cols=17  Identities=24%  Similarity=0.448  Sum_probs=12.7  Template_Neff=4.200
+
+Q ss_pred             CCCCchhhhhccCchcC
+Q tr|A0A2R8Y655|   11 SWIYPTVILCLFGFFSM   27 (60)
+Q Consensus        11 swiyptvilclfgffsm   27 (60)
+                      ..+|..+++.+||||.+
+T Consensus        66 aylYIL~Vm~ff~f~~~   82 (112)
+T 2NDJ_A           66 SYMYILFVMFLFAVTVG   82 (112)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            45688888888888743
+
+
+No 6
+>2K21_A KCNE1, membrane protein, potassium channel; NMR {Homo sapiens}
+Probab=12.25  E-value=85  Score=22.39  Aligned_cols=19  Identities=32%  Similarity=0.749  Sum_probs=15.2  Template_Neff=4.500
+
+Q ss_pred             CCCCCCchhhhhccCchcC
+Q tr|A0A2R8Y655|    9 SSSWIYPTVILCLFGFFSM   27 (60)
+Q Consensus         9 ssswiyptvilclfgffsm   27 (60)
+                      +...+|..+++.+||||.+
+T Consensus        50 ~~~ylYIL~vm~ff~f~~~   68 (138)
+T 2K21_A           50 KLEALYVLMVLGFFGFFTL   68 (138)
+T ss_dssp             SSTTCHHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHH
+Confidence            3467899999999998865
+
+
+No 7
+>1TE4_A MTH187, Methanobacterium thermoautotrophicum, structural proteomics; NMR {Methanothermobacter thermautotrophicus} SCOP: a.118.1.16
+Probab=8.14  E-value=6.5e+02  Score=12.72  Aligned_cols=24  Identities=4%  Similarity=-0.169  Sum_probs=5.6  Template_Neff=12.400
+
+Q ss_pred             chcCCCCCCCCCccccCCCCCCCC
+Q tr|A0A2R8Y655|   24 FFSMMRPSEPFLIPYLSGPDKNLT   47 (60)
+Q Consensus        24 ffsmmrpsepflipylsgpdknlt   47 (60)
+                      +..+..+..+++..++..++....
+T Consensus         6 ~~~~~~~~~~~~~~~l~~~~~~~r   29 (131)
+T 1TE4_A            6 HHHHHSSGLVPRGSHMADENKWVR   29 (131)
+T ss_dssp             ---------------CCSSCCCSS
+T ss_pred             ccCCCCCCCCCchhhccCCCHHHH
+Confidence            344555666777777777765543
+
+
+No 8
+>2A3V_D Protein-DNA complex, RECOMBINATION; 2.8A {Vibrio cholerae O1 biovar eltor str. N16961}
+Probab=7.42  E-value=1.9e+02  Score=16.84  Aligned_cols=17  Identities=18%  Similarity=-0.009  Sum_probs=10.8  Template_Neff=13.000
+
+Q ss_pred             hhhccCchcCCCCCCCC
+Q tr|A0A2R8Y655|   18 ILCLFGFFSMMRPSEPF   34 (60)
+Q Consensus        18 ilclfgffsmmrpsepf   34 (60)
+                      .+++++++..+|++|-.
+T Consensus       124 ~~~~l~~~tG~R~~E~~  140 (320)
+T 2A3V_D          124 LPIKLLYGSGLRLMECM  140 (320)
+T ss_dssp             HHHHHHHHHCCCHHHHH
+T ss_pred             HHHHHHHhhCCCHHHhh
+Confidence            34556667778877743
+
+
+No 9
+>3NKH_B Integrase; alpha-fold, MRSA protein, Structural Genomics; HET: MPD, SO4, MRD, MSE; 2.502A {Staphylococcus aureus subsp. aureus USA300_TCH1516}
+Probab=7.02  E-value=2.3e+02  Score=16.78  Aligned_cols=18  Identities=22%  Similarity=0.288  Sum_probs=11.5  Template_Neff=11.700
+
+Q ss_pred             hhhhccCchcCCCCCCCC
+Q tr|A0A2R8Y655|   17 VILCLFGFFSMMRPSEPF   34 (60)
+Q Consensus        17 vilclfgffsmmrpsepf   34 (60)
+                      ..+++++++.-+|++|-.
+T Consensus        58 ~~~~~l~~~tGlR~~E~~   75 (244)
+T 3NKH_B           58 ALMTEFQALNGMRIGEML   75 (244)
+T ss_dssp             HHHHHHHHHHCCCHHHHH
+T ss_pred             HHHHHHHHHhCCChhHHh
+Confidence            345566677777877743
+
+
+No 10
+>2R5T_A AGC Protein Kinase, Apoptosis, ATP-binding; HET: ANP; 1.9A {Homo sapiens}
+Probab=6.53  E-value=6.6e+02  Score=16.03  Aligned_cols=17  Identities=35%  Similarity=0.444  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             hhccCchcCCCCCCCCC
+Q tr|A0A2R8Y655|   19 LCLFGFFSMMRPSEPFL   35 (60)
+Q Consensus        19 lclfgffsmmrpsepfl   35 (60)
+                      .+.|.-||...|+..||
+T Consensus       357 ~~~~~~~~~~~~~~~~~  373 (373)
+T 2R5T_A          357 AEAFLGFSYAPPTDSFL  373 (373)
+T ss_dssp             -----------------
+T ss_pred             HHHhcCccCCCCccccC
+Confidence            35666677777766654
+
+

@@ -1,0 +1,170 @@
+Query         tr|A0A8I5KWM3|A0A8I5KWM3_HUMAN
+Match_columns 311
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:06:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0099.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7D3F_D Dual oxidase 1 (E.C.1.1  46.1      18 0.00019   37.7   0.8   13  297-309   428-440 (483)
+  2 5MAO_A Heat resistant RNA depe  29.3 1.2E+02  0.0013   22.5   2.7   20   45-64      3-22  (71)
+  3 2E29_A ATP binding, Helicase,   13.8 2.9E+02  0.0032   20.4   1.9   20   45-64      8-27  (92)
+  4 4I68_A Heat resistant RNA depe  12.9 4.2E+02  0.0046   21.0   2.7   20   46-65      4-23  (90)
+  5 3AQB_A Component A of hexapren  11.3 4.4E+02  0.0047   23.4   2.5   21  195-215     2-22  (147)
+  6 3AQC_C Component A of hexapren  11.3 4.4E+02  0.0047   23.4   2.5   21  195-215     2-22  (147)
+  7 3I31_A Heat resistant RNA depe  11.3 4.6E+02   0.005   21.1   2.5   19   46-64      2-20  (88)
+  8 2M3D_A Nucleolar RNA helicase   11.2   4E+02  0.0043   19.8   2.0   21   44-64      8-28  (95)
+  9 4N4R_B LPS-assembly protein Lp  10.8 3.3E+02  0.0036   22.1   1.5   45  196-240   147-191 (196)
+ 10 1FEH_A PROTEIN (HYDROGENASE);   10.6 1.8E+02  0.0019   27.6  -0.0   20  289-308   285-304 (574)
+
+No 1
+>7D3F_D Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.3A {Homo sapiens}
+Probab=46.13  E-value=18  Score=37.66  Aligned_cols=13  Identities=15%  Similarity=0.028  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCceeeeCCCccC
+Q tr|A0A8I5KWM3|  297 TDRVSLCCPGWRA  309 (311)
+Q Consensus       297 tdrvslccpgwra  309 (311)
+                      .|+|++|||||..
+T Consensus       428 ~d~v~~c~pgws~  440 (483)
+T 7D3F_D          428 ACGVRAMLPRLVS  440 (483)
+T ss_dssp             -------------
+T ss_pred             CCCceecCCCcCC
+Confidence            5799999999964
+
+
+No 2
+>5MAO_A Heat resistant RNA dependent ATPase; RNA HELICASE, RNA RECOGNITION MOTIF; 1.35A {Thermus thermophilus HB27}
+Probab=29.31  E-value=1.2e+02  Score=22.52  Aligned_cols=20  Identities=35%  Similarity=0.325  Sum_probs=17.4  Template_Neff=7.400
+
+Q ss_pred             ccccCCCCCCCCcEEEEEEe
+Q tr|A0A8I5KWM3|   45 QRKRSLVTSEPQHVTLIVFG   64 (311)
+Q Consensus        45 qrkrslvtsepqhvtlivfg   64 (311)
+                      -+.|||.|++..++|+.+-+
+T Consensus         3 ~~~RSLLtg~~g~~Tl~~~~   22 (71)
+T 5MAO_A            3 MAERSLLTGEEGWRTYKATG   22 (71)
+T ss_dssp             CCCBCTTTCCBSCEEEEEEC
+T ss_pred             CccccccCCCCCcEEEEEEc
+Confidence            36799999999999998765
+
+
+No 3
+>2E29_A ATP binding, Helicase, Hydrolase, Nuclear; NMR {Homo sapiens} SCOP: d.58.7.5
+Probab=13.82  E-value=2.9e+02  Score=20.39  Aligned_cols=20  Identities=35%  Similarity=0.390  Sum_probs=16.9  Template_Neff=8.800
+
+Q ss_pred             ccccCCCCCCCCcEEEEEEe
+Q tr|A0A8I5KWM3|   45 QRKRSLVTSEPQHVTLIVFG   64 (311)
+Q Consensus        45 qrkrslvtsepqhvtlivfg   64 (311)
+                      -..|||.|+++..+|+.+-+
+T Consensus         8 ~~~RSLLt~~~g~~T~~~~~   27 (92)
+T 2E29_A            8 FEPRSLITSDKGFVTMTLES   27 (92)
+T ss_dssp             CCCCCCCCCCCCEEEEEEEC
+T ss_pred             CCCeeeeeeCCCeEEEEEEe
+Confidence            45689999999999988764
+
+
+No 4
+>4I68_A Heat resistant RNA dependent ATPase; RNA recognition motif, ATP binding; 1.63A {Thermus thermophilus}
+Probab=12.89  E-value=4.2e+02  Score=20.96  Aligned_cols=20  Identities=35%  Similarity=0.298  Sum_probs=17.4  Template_Neff=7.000
+
+Q ss_pred             cccCCCCCCCCcEEEEEEec
+Q tr|A0A8I5KWM3|   46 RKRSLVTSEPQHVTLIVFGI   65 (311)
+Q Consensus        46 rkrslvtsepqhvtlivfgi   65 (311)
+                      +.|||.|+++..+|+.+-+-
+T Consensus         4 ~~RSLLtg~~g~~Tl~~~~~   23 (90)
+T 4I68_A            4 AERSLLTGEEGWRTYKATGP   23 (90)
+T ss_dssp             CCBCTTTCCBSCEEEEEEES
+T ss_pred             ccccccCCCCCcEEEEEEcC
+Confidence            56899999999999988763
+
+
+No 5
+>3AQB_A Component A of hexaprenyl diphosphate; Prenyltransferase, transferase; 2.4A {Micrococcus luteus}
+Probab=11.29  E-value=4.4e+02  Score=23.38  Aligned_cols=21  Identities=24%  Similarity=0.325  Sum_probs=18.3  Template_Neff=6.000
+
+Q ss_pred             hhhhhchHHHHHHHHHHhCCC
+Q tr|A0A8I5KWM3|  195 SMMVRSSHQLSKQISDLIRQP  215 (311)
+Q Consensus       195 smmvrsshqlskqisdlirqp  215 (311)
+                      |||.++..++-++|.+++..|
+T Consensus         2 ~~~m~~~~~l~~~i~~~~~~~   22 (147)
+T 3AQB_A            2 SGMMRYLHKIELELNRLTSRY   22 (147)
+T ss_dssp             --CCHHHHHHHHHHHHHHHHC
+T ss_pred             cchhhHHHHHHHHHHHHHcCC
+Confidence            789999999999999999998
+
+
+No 6
+>3AQC_C Component A of hexaprenyl diphosphate; Prenyltransferase, TRANSFERASE; HET: 2DE; 2.61A {Micrococcus luteus}
+Probab=11.29  E-value=4.4e+02  Score=23.38  Aligned_cols=21  Identities=24%  Similarity=0.325  Sum_probs=18.3  Template_Neff=6.000
+
+Q ss_pred             hhhhhchHHHHHHHHHHhCCC
+Q tr|A0A8I5KWM3|  195 SMMVRSSHQLSKQISDLIRQP  215 (311)
+Q Consensus       195 smmvrsshqlskqisdlirqp  215 (311)
+                      |||.++..++-++|.+++..|
+T Consensus         2 ~~~m~~~~~l~~~i~~~~~~~   22 (147)
+T 3AQC_C            2 SGMMRYLHKIELELNRLTSRY   22 (147)
+T ss_dssp             --CCHHHHHHHHHHHHHHHHC
+T ss_pred             cchhhHHHHHHHHHHHHHcCC
+Confidence            789999999999999999998
+
+
+No 7
+>3I31_A Heat resistant RNA dependent ATPase; RNA helicase, RNA recognition motif; 1.8A {Thermus thermophilus}
+Probab=11.28  E-value=4.6e+02  Score=21.11  Aligned_cols=19  Identities=37%  Similarity=0.359  Sum_probs=16.6  Template_Neff=6.400
+
+Q ss_pred             cccCCCCCCCCcEEEEEEe
+Q tr|A0A8I5KWM3|   46 RKRSLVTSEPQHVTLIVFG   64 (311)
+Q Consensus        46 rkrslvtsepqhvtlivfg   64 (311)
+                      ..|||.|.++.++||.+-+
+T Consensus         2 ~~RSLLTg~~g~~Tl~~~~   20 (88)
+T 3I31_A            2 AERSLLTGEEGWRTYKATG   20 (88)
+T ss_dssp             CCBCTTTCCBSCEEEEEEC
+T ss_pred             CCccccCCCCCcEEEEEEc
+Confidence            3689999999999998876
+
+
+No 8
+>2M3D_A Nucleolar RNA helicase 2 (E.C.3.6.4.13); GUCT domain, RRM fold, HYDROLASE; NMR {Homo sapiens}
+Probab=11.19  E-value=4e+02  Score=19.84  Aligned_cols=21  Identities=33%  Similarity=0.411  Sum_probs=17.3  Template_Neff=8.800
+
+Q ss_pred             CccccCCCCCCCCcEEEEEEe
+Q tr|A0A8I5KWM3|   44 TQRKRSLVTSEPQHVTLIVFG   64 (311)
+Q Consensus        44 tqrkrslvtsepqhvtlivfg   64 (311)
+                      .-..|||.|+++..+|+.+-.
+T Consensus         8 ~~~~RSLLt~~~g~~T~~~~~   28 (95)
+T 2M3D_A            8 SVDQRSLINSNVGFVTMILQC   28 (95)
+T ss_dssp             CSCCSSTTSSSSSEEEEEEEC
+T ss_pred             CCcceeeeecCCCeEEEEEEe
+Confidence            345689999999999988764
+
+
+No 9
+>4N4R_B LPS-assembly protein LptD, LPS-assembly lipoprotein; Beta barrel, Translocase, Lipopolysaccharide transport; HET: CAC, MSE; 2.8A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=10.79  E-value=3.3e+02  Score=22.11  Aligned_cols=45  Identities=16%  Similarity=0.206  Sum_probs=10.1  Template_Neff=9.700
+
+Q ss_pred             hhhhchHHHHHHHHHHhCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8I5KWM3|  196 MMVRSSHQLSKQISDLIRQPSTAPQPVKEDIATPLPSEKTPTSVN  240 (311)
+Q Consensus       196 mmvrsshqlskqisdlirqpstapqpvkediatplpsektptsvn  240 (311)
+                      |+.+-..++..++..+.......++++.++...+-+...+|.++.
+T Consensus       147 l~~~la~~i~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~  191 (196)
+T 4N4R_B          147 MYDKAAEQLIRKLTSVRAADIQATKEEATADNETAAPASTPARVS  191 (196)
+T ss_dssp             HHHHHHHHHHHTHHHHHHHHHCC----------------------
+T ss_pred             HHHHHHHHHHHHHHhhhHHhHhhcchhhhhhhhccCCCCCCceee
+Confidence            334444444444554444333334444444333333333554443
+
+
+No 10
+>1FEH_A PROTEIN (HYDROGENASE); OXIDOREDUCTASE; HET: HC1, SF4; 1.8A {Clostridium pasteurianum} SCOP: d.15.4.2, c.96.1.1, d.58.1.5
+Probab=10.58  E-value=1.8e+02  Score=27.59  Aligned_cols=20  Identities=35%  Similarity=0.953  Sum_probs=13.8  Template_Neff=9.900
+
+Q ss_pred             cccccCCCCCceeeeCCCcc
+Q tr|A0A8I5KWM3|  289 GRMRSHGMTDRVSLCCPGWR  308 (311)
+Q Consensus       289 grmrshgmtdrvslccpgwr  308 (311)
+                      .+++..+....++-+||+|-
+T Consensus       285 ~~l~~~~~~p~i~s~CP~~~  304 (574)
+T 1FEH_A          285 QRIENNGPFPMFTSCCPGWV  304 (574)
+T ss_dssp             HHHHHTCSCCEECCCCHHHH
+T ss_pred             HHHHhCCCCCEEecCCHHHH
+Confidence            34445555457899999995
+
+

@@ -1,0 +1,169 @@
+Query         tr|E9PPC1|E9PPC1_HUMAN
+Match_columns 56
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:41:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1175.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R2I_B SUN domain-containing p  20.1   2E+02  0.0021   16.9   1.8   21   31-51     11-31  (33)
+  2 5CVN_A WD repeat-containing pr  16.6 1.3E+02  0.0014   21.1   0.7   44    5-48    484-545 (598)
+  3 7AR7_k Complex-I Arabidopsis,   13.3 1.9E+02  0.0021   15.6   0.7   19    2-20      1-19  (47)
+  4 6IC8_A SPOC domain, PHF3, pSER  12.5 6.8E+02  0.0074   15.9   3.3   35   12-49    116-153 (162)
+  5 6IC9_B SPOC domain, PHF3, pSER  12.5 6.8E+02  0.0074   15.9   3.3   35   12-49    116-153 (162)
+  6 6Q2V_D SPOC domain, PHF3, TRAN  12.5 6.8E+02  0.0074   15.9   3.3   35   12-49    116-153 (162)
+  7 5Z4P_E Tubulin alpha-1B chain,  11.4 6.9E+02  0.0075   17.7   3.0   24   29-52     49-72  (185)
+  8 6S9E_E Tubulin alpha-1B chain,  11.1 7.2E+02  0.0078   17.8   3.0   24   29-52     49-72  (189)
+  9 5I3E_B Putative deoxyribonucle  10.9 3.8E+02  0.0041   19.4   1.7   16   34-49    139-154 (358)
+ 10 5UNB_B Putative deoxyribonucle  10.9 3.8E+02  0.0041   19.4   1.7   16   34-49    139-154 (358)
+
+No 1
+>6R2I_B SUN domain-containing protein 1, Nesprin-1; SUN1, KASH5, LINC complex, Nucleoskeleton; 1.541A {Homo sapiens}
+Probab=20.07  E-value=2e+02  Score=16.92  Aligned_cols=21  Identities=43%  Similarity=0.631  Sum_probs=15.3  Template_Neff=1.000
+
+Q ss_pred             ceecCCCCCCCcEEEEEeCCC
+Q tr|E9PPC1|E9PP   31 SVAPVPKRAEGHLFLCLLTPG   51 (56)
+Q Consensus        31 svapvpkraeghlflclltpg   51 (56)
+                      |-.|.|...--||-||.|.|-
+T Consensus        11 sggpsppptwphlqlcylqpp   31 (33)
+T 6R2I_B           11 SGGPSPPPTWPHLQLCYLQPP   31 (33)
+T ss_dssp             EEEECCCCBCCCCCCCCSSCC
+T ss_pred             CCCCCCCCCCCcceeEecCCC
+Confidence            445666667789999988774
+
+
+No 2
+>5CVN_A WD repeat-containing protein 48, Ubiquitin; WDR48, WD repeat, beta propeller; 3.36A {Homo sapiens}
+Probab=16.61  E-value=1.3e+02  Score=21.08  Aligned_cols=44  Identities=23%  Similarity=0.301  Sum_probs=20.7  Template_Neff=10.900
+
+Q ss_pred             cCCCCCCcceeeeCCccccee------------------eccccceecCCCCCCCcEEEEEe
+Q tr|E9PPC1|E9PP    5 QLKEPWPLMELVPLDPEKQLL------------------TSLEGSVAPVPKRAEGHLFLCLL   48 (56)
+Q Consensus         5 qlkepwplmelvpldpekqll------------------tslegsvapvpkraeghlflcll   48 (56)
+                      .+.+.||--.+.|+|.+....                  +..++++..+-..+..|||-.++
+T Consensus       484 ~l~~~~~~~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~  545 (598)
+T 5CVN_A          484 ALLEYWPRTHVNPMDEEENEVNHVNGEQENRVQKGNGYFQVPPHTPVIFGEAGGRTLFRLLC  545 (598)
+T ss_dssp             HHTTTCGGGC-----------------------CCCSSCCCCTTCEEEEEESSSCEEEEEEG
+T ss_pred             HHHHhccccCCCCCchhhhhhcccccccccceecCCceeecCCCCCeEEecCCceeeEEEee
+Confidence            356778888899999887766                  34445555555556677776654
+
+
+No 3
+>7AR7_k Complex-I Arabidopsis, ELECTRON TRANSPORT; HET: T7X, SF4, PSF, PTY, NDP, FMN, LMN, UQ9, 8Q1, PGT, PC7;{Arabidopsis thaliana}
+Probab=13.25  E-value=1.9e+02  Score=15.61  Aligned_cols=19  Identities=21%  Similarity=0.188  Sum_probs=12.3  Template_Neff=6.900
+
+Q ss_pred             CcccCCCCCCcceeeeCCc
+Q tr|E9PPC1|E9PP    2 PLAQLKEPWPLMELVPLDP   20 (56)
+Q Consensus         2 plaqlkepwplmelvpldp   20 (56)
+                      |+..||+||.--|.-.-+|
+T Consensus         1 ~~~glkdpW~Rne~WR~~~   19 (47)
+T 7AR7_k            1 PLGTTGEFFRRRDEWRKHP   19 (47)
+T ss_pred             CCCCCCChhhhccchhcCc
+Confidence            4567888887666554444
+
+
+No 4
+>6IC8_A SPOC domain, PHF3, pSER2 peptide; HET: SEP; 1.929A {Homo sapiens}
+Probab=12.52  E-value=6.8e+02  Score=15.94  Aligned_cols=35  Identities=29%  Similarity=0.493  Sum_probs=21.2  Template_Neff=8.400
+
+Q ss_pred             cceeeeCCcccce---eeccccceecCCCCCCCcEEEEEeC
+Q tr|E9PPC1|E9PP   12 LMELVPLDPEKQL---LTSLEGSVAPVPKRAEGHLFLCLLT   49 (56)
+Q Consensus        12 lmelvpldpekql---ltslegsvapvpkraeghlflcllt   49 (56)
+                      -+-++|+.++.++   +..+++...|.. |  ..++|+++.
+T Consensus       116 d~YlvPl~~~~~lP~~l~~l~~~~l~~~-r--~~~LLgvvV  153 (162)
+T 6IC8_A          116 DMYLIPLGATDKIPHPLVPFDGPGLELH-R--PNLLLGLII  153 (162)
+T ss_dssp             EEEEEEECTTCCCCGGGCSCSSSCCCSS-C--CSEEEEEEE
+T ss_pred             eEEEEcCCCCCCCCcccccCCCCCCCCC-C--CCEEEEEEE
+Confidence            3567899888754   555666544432 3  457776654
+
+
+No 5
+>6IC9_B SPOC domain, PHF3, pSER2 peptide; HET: SEP; 1.748A {Homo sapiens}
+Probab=12.52  E-value=6.8e+02  Score=15.94  Aligned_cols=35  Identities=29%  Similarity=0.493  Sum_probs=21.2  Template_Neff=8.400
+
+Q ss_pred             cceeeeCCcccce---eeccccceecCCCCCCCcEEEEEeC
+Q tr|E9PPC1|E9PP   12 LMELVPLDPEKQL---LTSLEGSVAPVPKRAEGHLFLCLLT   49 (56)
+Q Consensus        12 lmelvpldpekql---ltslegsvapvpkraeghlflcllt   49 (56)
+                      -+-++|+.++.++   +..+++...|.. |  ..++|+++.
+T Consensus       116 d~YlvPl~~~~~lP~~l~~l~~~~l~~~-r--~~~LLgvvV  153 (162)
+T 6IC9_B          116 DMYLIPLGATDKIPHPLVPFDGPGLELH-R--PNLLLGLII  153 (162)
+T ss_dssp             EEEEEEECTTCCCCGGGCSCSSSCCCSS-C--CCEEEEEEE
+T ss_pred             eEEEEcCCCCCCCCcccccCCCCCCCCC-C--CCEEEEEEE
+Confidence            3567899888754   555666544432 3  457776654
+
+
+No 6
+>6Q2V_D SPOC domain, PHF3, TRANSCRIPTION; HET: GOL, MSE; 2.594A {Homo sapiens}
+Probab=12.52  E-value=6.8e+02  Score=15.94  Aligned_cols=35  Identities=29%  Similarity=0.493  Sum_probs=21.2  Template_Neff=8.400
+
+Q ss_pred             cceeeeCCcccce---eeccccceecCCCCCCCcEEEEEeC
+Q tr|E9PPC1|E9PP   12 LMELVPLDPEKQL---LTSLEGSVAPVPKRAEGHLFLCLLT   49 (56)
+Q Consensus        12 lmelvpldpekql---ltslegsvapvpkraeghlflcllt   49 (56)
+                      -+-++|+.++.++   +..+++...|.. |  ..++|+++.
+T Consensus       116 d~YlvPl~~~~~lP~~l~~l~~~~l~~~-r--~~~LLgvvV  153 (162)
+T 6Q2V_D          116 DMYLIPLGATDKIPHPLVPFDGPGLELH-R--PNLLLGLII  153 (162)
+T ss_dssp             EEEEEEECSSSCCCGGGCSCSSSCCCSS-C--CCEEEEEEE
+T ss_pred             eEEEEcCCCCCCCCcccccCCCCCCCCC-C--CCEEEEEEE
+Confidence            3567899888754   555666544432 3  457776654
+
+
+No 7
+>5Z4P_E Tubulin alpha-1B chain, Tubulin beta-2B; Tubulin, OXYGEN TRANSPORT; HET: IMD, MES, GDP, GTP, GOL, ACP, 97O; 2.5A {Bos taurus}
+Probab=11.43  E-value=6.9e+02  Score=17.69  Aligned_cols=24  Identities=29%  Similarity=0.407  Sum_probs=19.9  Template_Neff=6.200
+
+Q ss_pred             ccceecCCCCCCCcEEEEEeCCCC
+Q tr|E9PPC1|E9PP   29 EGSVAPVPKRAEGHLFLCLLTPGS   52 (56)
+Q Consensus        29 egsvapvpkraeghlflclltpgs   52 (56)
+                      .-.|-+..|++.|.-|=.+|.|.+
+T Consensus        49 d~evk~l~K~~sG~AFEVIL~~ps   72 (185)
+T 5Z4P_E           49 DMEVIELNKCTSGQSFEVILKPPS   72 (185)
+T ss_dssp             -CEEEEEEECSSEEEEEEEEECCC
+T ss_pred             cceeeecccCCCCceeEEEecCCC
+Confidence            455889999999999999888766
+
+
+No 8
+>6S9E_E Tubulin alpha-1B chain, Tubulin beta-2B; tubulin, cytoskeleton, GTPase, transitional state; HET: IMD, MES, GDP, GTP, GOL, ACP; 2.25A {Bos taurus}
+Probab=11.09  E-value=7.2e+02  Score=17.79  Aligned_cols=24  Identities=29%  Similarity=0.407  Sum_probs=19.0  Template_Neff=6.000
+
+Q ss_pred             ccceecCCCCCCCcEEEEEeCCCC
+Q tr|E9PPC1|E9PP   29 EGSVAPVPKRAEGHLFLCLLTPGS   52 (56)
+Q Consensus        29 egsvapvpkraeghlflclltpgs   52 (56)
+                      .-.|-+..|++.|.-|=.+|.|.+
+T Consensus        49 d~evk~l~K~~sG~AFEVILk~ps   72 (189)
+T 6S9E_E           49 DMEVIELNKCTSGQSFEVILKPPS   72 (189)
+T ss_dssp             -CEEEEEEEETTEEEEEEEEECC-
+T ss_pred             cceeeecccCCCCceeEEEecCCC
+Confidence            345889999999999998888765
+
+
+No 9
+>5I3E_B Putative deoxyribonuclease-2 (E.C.3.1.-.-); SSGCID, Putative deoxyribonuclease-2, Structural Genomics; 1.65A {Burkholderia thailandensis}
+Probab=10.88  E-value=3.8e+02  Score=19.36  Aligned_cols=16  Identities=44%  Similarity=0.715  Sum_probs=11.8  Template_Neff=8.400
+
+Q ss_pred             cCCCCCCCcEEEEEeC
+Q tr|E9PPC1|E9PP   34 PVPKRAEGHLFLCLLT   49 (56)
+Q Consensus        34 pvpkraeghlflcllt   49 (56)
+                      |......||.|+|+-.
+T Consensus       139 p~~~~~~gQ~flClSl  154 (358)
+T 5I3E_B          139 GVPTPLYGQTFLCLSL  154 (358)
+T ss_dssp             CCCCCSSBEEEEEEEE
+T ss_pred             CCCCcccceeEeeeee
+Confidence            3445678999999864
+
+
+No 10
+>5UNB_B Putative deoxyribonuclease-2 (E.C.3.1.-.-); SSGCID, Putative deoxyribonuclease-2, inhitition, Structural; 1.75A {Burkholderia thailandensis (strain ATCC 700388 / DSM 13276 / CIP 106301 / E264)}
+Probab=10.88  E-value=3.8e+02  Score=19.36  Aligned_cols=16  Identities=44%  Similarity=0.715  Sum_probs=10.0  Template_Neff=8.400
+
+Q ss_pred             cCCCCCCCcEEEEEeC
+Q tr|E9PPC1|E9PP   34 PVPKRAEGHLFLCLLT   49 (56)
+Q Consensus        34 pvpkraeghlflcllt   49 (56)
+                      |......||.|+|+-.
+T Consensus       139 p~~~~~~gQ~flClSl  154 (358)
+T 5UNB_B          139 GVPTPLYGQTFLCLSL  154 (358)
+T ss_dssp             ----CCSBEEEEEEEE
+T ss_pred             CCCCcccceeEeeeee
+Confidence            3345678999999864
+
+

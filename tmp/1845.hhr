@@ -1,0 +1,201 @@
+Query         tr|H3BUD5|H3BUD5_HUMAN
+Match_columns 150
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:42:29 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1845.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6XKW_h Ubiquinol-cytochrome c   56.6      42 0.00046   22.9   3.6   22   92-113     4-25  (151)
+  2 7OXP_J Lipid droplet formation  31.5   2E+02  0.0022   25.6   4.7   14   87-100   226-240 (322)
+  3 6BMS_D Palmitoyltransferase (E  28.0 4.7E+02  0.0051   20.4   6.2   15   29-43    136-150 (341)
+  4 6GS1_A Dipeptide and tripeptid  27.9 2.3E+02  0.0025   21.4   3.8   22   92-113   453-474 (508)
+  5 6GS4_A Dipeptide and tripeptid  27.9 2.3E+02  0.0025   21.4   3.8   22   92-113   453-474 (508)
+  6 6L6I_B Acid-sensing ion channe  27.8 2.8E+02  0.0031   21.0   4.3   34   50-83    415-448 (454)
+  7 6WM0_A Potassium channel TASK2  27.0 4.7E+02  0.0051   20.1   7.6   14   74-87    189-202 (344)
+  8 4FZ0_C Acid-sensing ion channe  26.7 3.5E+02  0.0038   20.5   4.6   32   51-82    412-443 (450)
+  9 2XQ2_A SODIUM/GLUCOSE COTRANSP  26.3   7E+02  0.0076   21.9   7.7   10   75-84    534-543 (593)
+ 10 6DG6_C neoleukin-2/15; cytokin  22.2 1.1E+02  0.0012   24.6   1.5   24  111-134    41-64  (104)
+ 11 2QTS_B Acid-sensing ion channe  21.8 4.8E+02  0.0052   19.6   4.5   33   51-83    400-432 (438)
+ 12 7C9R_I Photosynthetic reaction  20.2 3.7E+02   0.004   20.3   3.7   32   97-129    20-51  (73)
+
+No 1
+>6XKW_h Ubiquinol-cytochrome c reductase iron-sulfur subunit; cytochrome bc1, cbb3-COX, Complex III; HET: HEC; 5.2A {Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003)}
+Probab=56.55  E-value=42  Score=22.89  Aligned_cols=22  Identities=23%  Similarity=0.332  Sum_probs=16.3  Template_Neff=10.100
+
+Q ss_pred             HhhhhHHHHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   92 KWQGLCWPMMVFGFFATIVFAT  113 (150)
+Q Consensus        92 kwqglcwpmmvfgffativfat  113 (150)
+                      ++.+--||.++++||+.++.+.
+T Consensus         4 ~~~~~~w~~~ii~~~~~~v~~~   25 (151)
+T 6XKW_h            4 PLTGRKVLLMFVAFFGLIIAVN   25 (151)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHH
+Confidence            4667789999988887765543
+
+
+No 2
+>7OXP_J Lipid droplet formation, lipid binding;{Saccharomyces cerevisiae}
+Probab=31.48  E-value=2e+02  Score=25.58  Aligned_cols=14  Identities=29%  Similarity=0.411  Sum_probs=10.7  Template_Neff=6.200
+
+Q ss_pred             hCCChHh-hhhHHHH
+Q tr|H3BUD5|H3BU   87 MQLNDKW-QGLCWPM  100 (150)
+Q Consensus        87 mqlndkw-qglcwpm  100 (150)
+                      .+++-+| +||-|-|
+T Consensus       226 l~~~a~f~~GlRy~M  240 (322)
+T 7OXP_J          226 IKFRMNFEQGLRNLM  240 (322)
+T ss_dssp             EEEEECCTTSHHHHH
+T ss_pred             EEEEEEecCchHHHH
+Confidence            4566788 8988887
+
+
+No 3
+>6BMS_D Palmitoyltransferase (E.C.2.3.1.225); Membrane bound enzyme, MEMBRANE PROTEIN; HET: LMT, POV, PO4, PLM; 2.441A {Danio rerio}
+Probab=28.05  E-value=4.7e+02  Score=20.44  Aligned_cols=15  Identities=27%  Similarity=0.512  Sum_probs=8.9  Template_Neff=10.300
+
+Q ss_pred             hhcchhhhhhcHHHH
+Q tr|H3BUD5|H3BU   29 ALLPARAFLCSLKGR   43 (150)
+Q Consensus        29 allparaflcslkgr   43 (150)
+                      ...|.|+.-|+.-++
+T Consensus       136 ~~~p~r~~hc~~c~~  150 (341)
+T 6BMS_D          136 VIKPDRCHHCSVCET  150 (341)
+T ss_dssp             EECCTTCEEETTTTE
+T ss_pred             ccCCCCCcchHHhCh
+Confidence            455667776665444
+
+
+No 4
+>6GS1_A Dipeptide and tripeptide permease A; peptide transporter, membrane protein, complex; 3.29A {Escherichia coli (strain K12)}
+Probab=27.95  E-value=2.3e+02  Score=21.44  Aligned_cols=22  Identities=5%  Similarity=0.072  Sum_probs=11.5  Template_Neff=12.400
+
+Q ss_pred             HhhhhHHHHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   92 KWQGLCWPMMVFGFFATIVFAT  113 (150)
+Q Consensus        92 kwqglcwpmmvfgffativfat  113 (150)
+                      ...+..+...+.+.+..+....
+T Consensus       453 ~~~~~~~~~~~~~~~~~~~~~~  474 (508)
+T 6GS1_A          453 SLEVYGRVFLQIGVATAVIAVL  474 (508)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHH
+Confidence            4455555555555555544443
+
+
+No 5
+>6GS4_A Dipeptide and tripeptide permease A; peptide transporter, membrane protein, complex; HET: LMT, F9E; 2.645A { Escherichia coli K-12}
+Probab=27.95  E-value=2.3e+02  Score=21.44  Aligned_cols=22  Identities=5%  Similarity=0.072  Sum_probs=11.4  Template_Neff=12.400
+
+Q ss_pred             HhhhhHHHHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   92 KWQGLCWPMMVFGFFATIVFAT  113 (150)
+Q Consensus        92 kwqglcwpmmvfgffativfat  113 (150)
+                      ...+..+...+.+.+..+....
+T Consensus       453 ~~~~~~~~~~~~~~~~~~~~~~  474 (508)
+T 6GS4_A          453 SLEVYGRVFLQIGVATAVIAVL  474 (508)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHH
+Confidence            4455555555555555444443
+
+
+No 6
+>6L6I_B Acid-sensing ion channel 1; Ion channel, complex, TRANSPORT PROTEIN; HET: NAG; 3.24A {Homo sapiens}
+Probab=27.81  E-value=2.8e+02  Score=20.98  Aligned_cols=34  Identities=12%  Similarity=0.286  Sum_probs=26.2  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHhhhhHHhHHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   50 GLSFITFICYVASSASAFLTAPLLEFLLALYFLF   83 (150)
+Q Consensus        50 glsfitficyvassasafltapllefllalyflf   83 (150)
+                      ..+++.+++.+.+..+-|+...++-++=.+++++
+T Consensus       415 ~~~~~~~l~~iGG~~gl~lG~S~ls~~e~~~~~~  448 (454)
+T 6L6I_B          415 AYEIAGLLGDIGGQMGLFIGASILTVLELFDYAY  448 (454)
+T ss_dssp             SSCHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHC
+T ss_pred             cccHHHHHHHHHHHHHHHchHHHHHHHHHHHHHH
+Confidence            3478889999999999998888777666666554
+
+
+No 7
+>6WM0_A Potassium channel TASK2; Potassium ion channel, K2P channel; 3.52A {Mus musculus}
+Probab=27.03  E-value=4.7e+02  Score=20.11  Aligned_cols=14  Identities=21%  Similarity=0.603  Sum_probs=9.1  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHHHHHh
+Q tr|H3BUD5|H3BU   74 EFLLALYFLFADAM   87 (150)
+Q Consensus        74 efllalyflfadam   87 (150)
+                      .+.-++||.+.-..
+T Consensus       189 ~~~~~~~~~~~t~t  202 (344)
+T 6WM0_A          189 NYIEGLYYSFITIS  202 (344)
+T ss_dssp             CHHHHHHHHHHHHT
+T ss_pred             CHHHHHHhhHHHHh
+Confidence            45667888776544
+
+
+No 8
+>4FZ0_C Acid-sensing ion channel 1, Pi-theraphotoxin-Pc1a; inhibitor cystine knot, TRANSPORT PROTEIN; HET: GOL, NAG; 2.8A {Gallus gallus}
+Probab=26.65  E-value=3.5e+02  Score=20.49  Aligned_cols=32  Identities=13%  Similarity=0.236  Sum_probs=21.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHhhhhHHhHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   51 LSFITFICYVASSASAFLTAPLLEFLLALYFL   82 (150)
+Q Consensus        51 lsfitficyvassasafltapllefllalyfl   82 (150)
+                      .++..+++++.+..+-|+...++-++=.++++
+T Consensus       412 ~~~~~ll~~iGG~lgl~lG~S~ls~~e~~~~~  443 (450)
+T 4FZ0_C          412 YEVAGLLGDIGGQMGLFIGASILTVLELFDYA  443 (450)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHHHTTC-----
+T ss_pred             ccHHHHHHHHHHHHHHHhHHHHHHHHHHHHHH
+Confidence            47888999999999988888877554444443
+
+
+No 9
+>2XQ2_A SODIUM/GLUCOSE COTRANSPORTER; TRANSPORT PROTEIN, INVERTED REPEATS, LEUT-FOLD; HET: PEG; 2.73A {VIBRIO PARAHAEMOLYTICUS}
+Probab=26.28  E-value=7e+02  Score=21.86  Aligned_cols=10  Identities=50%  Similarity=0.667  Sum_probs=5.8  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHH
+Q tr|H3BUD5|H3BU   75 FLLALYFLFA   84 (150)
+Q Consensus        75 fllalyflfa   84 (150)
+                      ...++|+.|.
+T Consensus       534 ~~~~~~~~f~  543 (593)
+T 2XQ2_A          534 VLAVLYTLFW  543 (593)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHc
+Confidence            3445666666
+
+
+No 10
+>6DG6_C neoleukin-2/15; cytokine mimetic, BIOSYNTHETIC PROTEIN; 1.999A {synthetic construct}
+Probab=22.20  E-value=1.1e+02  Score=24.65  Aligned_cols=24  Identities=38%  Similarity=0.811  Sum_probs=21.3  Template_Neff=1.000
+
+Q ss_pred             HHHHHHHHHHHHHHHhcCCCCCCC
+Q tr|H3BUD5|H3BU  111 FATDFYLIFNDVAKFLKQGDSADE  134 (150)
+Q Consensus       111 fatdfylifndvakflkqgdsade  134 (150)
+                      +|.+|-||...+++....||..||
+T Consensus        41 yafnfelileeiarlfesgdqkde   64 (104)
+T 6DG6_C           41 YAFNFELILEEIARLFESGDQKDE   64 (104)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTCHHH
+T ss_pred             hhhcHHHHHHHHHHHHHcccchHH
+Confidence            567899999999999999998776
+
+
+No 11
+>2QTS_B Acid-sensing ion channel; acid-sensing, ion channel, trimer, MEMBRANE; HET: NAG, GLC; 1.9A {Gallus gallus}
+Probab=21.83  E-value=4.8e+02  Score=19.59  Aligned_cols=33  Identities=12%  Similarity=0.280  Sum_probs=24.4  Template_Neff=12.100
+
+Q ss_pred             HHHHHHHHHHHhhhhHHhHHHHHHHHHHHHHHH
+Q tr|H3BUD5|H3BU   51 LSFITFICYVASSASAFLTAPLLEFLLALYFLF   83 (150)
+Q Consensus        51 lsfitficyvassasafltapllefllalyflf   83 (150)
+                      .+++.+++.+.+..+-|+...++-++=.+++++
+T Consensus       400 ~~~~~ll~~iGG~~gl~lG~S~is~~e~~~~~~  432 (438)
+T 2QTS_B          400 YEVAGLLGDIGGQMGLFIGASILTVLELFDYAY  432 (438)
+T ss_dssp             SCHHHHHHHHTTHHHHHHHHHHHHHHHHHHHGG
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            577888888888888888888776655555543
+
+
+No 12
+>7C9R_I Photosynthetic reaction center cytochrome c; LH1-RC, PHOTOSYNTHESIS, PURPLE BACTERIA; HET: LMT, HEM, MQ8, DGA, PGV, UQ8, CDL, 8K6, BPH, H4X, CA, BCL; 2.82A {Thiorhodovibrio sp. 970}
+Probab=20.20  E-value=3.7e+02  Score=20.34  Aligned_cols=32  Identities=9%  Similarity=0.099  Sum_probs=24.4  Template_Neff=4.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC
+Q tr|H3BUD5|H3BU   97 CWPMMVFGFFATIVFATDFYLIFNDVAKFLKQG  129 (150)
+Q Consensus        97 cwpmmvfgffativfatdfylifndvakflkqg  129 (150)
+                      -|-+..++|.+.+.+..-|+++.+| -.++..+
+T Consensus        20 ~~Lv~~~~~l~vlAllIH~~lLs~~-ynWl~~~   51 (73)
+T 7C9R_I           20 STLWAIFIFQIFLGLLIHMVVLSSD-LNWHDDQ   51 (73)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTST-TCSSSSC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCC-CCcccCC
+Confidence            4556678888888899999998888 6666643
+
+

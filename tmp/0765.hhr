@@ -1,0 +1,180 @@
+Query         tr|K7EJU7|K7EJU7_HUMAN
+Match_columns 135
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:24:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0765.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2W1W_A LIPOLYTIC ENZYME, G-D-S  27.8 1.1E+02  0.0012   17.2   1.8   24   60-83    123-146 (146)
+  2 2PSB_A YerB protein; YerB prot  27.5 1.2E+02  0.0013   25.6   2.6   23   47-69     17-41  (320)
+  3 6I5O_E SPBc2 prophage-derived   25.7 1.7E+02  0.0019   22.6   3.0   68   41-112    21-97  (118)
+  4 1IGQ_D Transcriptional repress  22.6 1.5E+02  0.0016   19.6   1.9   12   56-67     31-42  (62)
+  5 1IGU_A Transcriptional repress  22.6 1.5E+02  0.0016   19.6   1.9   12   56-67     31-42  (62)
+  6 1IGU_B Transcriptional repress  22.6 1.5E+02  0.0016   19.6   1.9   12   56-67     31-42  (62)
+  7 4L0C_B Deformylase; deformylas  22.4 1.1E+02  0.0012   19.0   1.2   22   78-99     12-33  (255)
+  8 4L0C_D Deformylase; deformylas  22.4 1.1E+02  0.0012   19.0   1.2   22   78-99     12-33  (255)
+  9 5FDN_B Phosphoenolpyruvate car  20.1      99  0.0011   30.2   1.0   11   90-100   610-620 (987)
+ 10 7BYE_B Antitoxin MazE, Unchara  19.4 4.1E+02  0.0045   16.7   4.0   48   50-109     1-51  (112)
+
+No 1
+>2W1W_A LIPOLYTIC ENZYME, G-D-S-L; FAMILY 35, URONIC ACID SUGARS; 1.55A {CLOSTRIDIUM THERMOCELLUM}
+Probab=27.77  E-value=1.1e+02  Score=17.18  Aligned_cols=24  Identities=13%  Similarity=0.151  Sum_probs=4.2  Template_Neff=13.400
+
+Q ss_pred             EEEEEEeCCCCCCchhheeheehc
+Q tr|K7EJU7|K7EJ   60 IVWVRFENADLNDTSRNLEFHEIH   83 (135)
+Q Consensus        60 ivwvrfenadlndtsrnlefheih   83 (135)
+                      +-|+.+......+.++-+-+|++|
+T Consensus       123 ~~~~~~~~~~~~~~~~~~~~~~~~  146 (146)
+T 2W1W_A          123 VDYLKVFSANAFQPVSLEHHHHHH  146 (146)
+T ss_dssp             EEEEEEECC---------------
+T ss_pred             EEEEEEEeCCCCCCCCCCCCCCCC
+Confidence            334445444444555555555443
+
+
+No 2
+>2PSB_A YerB protein; YerB protein, Structural Genomics, PSI-2; HET: MSE; 2.1A {Bacillus subtilis} SCOP: c.153.1.1
+Probab=27.52  E-value=1.2e+02  Score=25.64  Aligned_cols=23  Identities=17%  Similarity=0.208  Sum_probs=13.1  Template_Neff=7.300
+
+Q ss_pred             hcCCCCCCcC--CCcEEEEEEeCCC
+Q tr|K7EJU7|K7EJ   47 AYSGTPLTEE--KEKIVWVRFENAD   69 (135)
+Q Consensus        47 aysgtpltee--kekivwvrfenad   69 (135)
+                      ..+|.|+.++  ....+-|..+|..
+T Consensus        17 pLTG~~~~~~~~~~rpvaV~IdN~~   41 (320)
+T 2PSB_A           17 PLTGLKTEQKVTERRPVAVVVNNHP   41 (320)
+T ss_dssp             TTTCCBCCGGGGGBCCEEEEECCSG
+T ss_pred             CCCCCcCCcccccCCcEEEEECCCc
+Confidence            3556665543  2456777777753
+
+
+No 3
+>6I5O_E SPBc2 prophage-derived uncharacterized protein YomS; YomS, SPBc2 prophage-derived, UNKNOWN FUNCTION; 1.33A {Bacillus subtilis (strain 168)}
+Probab=25.69  E-value=1.7e+02  Score=22.60  Aligned_cols=68  Identities=18%  Similarity=0.307  Sum_probs=48.4  Template_Neff=5.400
+
+Q ss_pred             HHHcchhcCCCCCCcCCCcEEEEEEeCCCCCCchhheeheehccCCCCCCEEEEEEEcCCc---------EEEEEEcCcc
+Q tr|K7EJU7|K7EJ   41 QDVVPQAYSGTPLTEEKEKIVWVRFENADLNDTSRNLEFHEIHSTGNEPPLLIMIGYSDGM---------QVWSIPISGE  111 (135)
+Q Consensus        41 qdvvpqaysgtplteekekivwvrfenadlndtsrnlefheihstgneppllimigysdgm---------qvwsipisge  111 (135)
+                      ||..-.+-.|+++.-...|-+-|.+.-.   .+||.+.|.-....|+.-||--. -.+|++         .+|++.|.|-
+T Consensus        21 ~~~at~~g~G~~~~V~~~~~ltveI~GT---sTs~tv~F~~~~~sg~~~~l~G~-~~~d~~~~~~t~g~~e~w~fdV~g~   96 (118)
+T 6I5O_E           21 HEAATSPSEGEEFVVGHFRELTVKISGS---STSREIKFYAVDENGEKTALSGT-NKTDFQLGSSTLNTNEYWDFDIAGL   96 (118)
+T ss_dssp             EEEECSCBCCCCEECTTCCEEEEEEESS---CSEEEEEEEEECTTCCEEECCEE-ETTTCCEESEESCSSEEEEEECTTC
+T ss_pred             eecccCCCCCcEEEeCCeeEEEEEEEEe---ecceEEEEEEEcCCCCEEEEEEE-ECCCcceecccCCCCceEEEEeCcc
+Confidence            4445556679999988888888877765   48899999888888877765422 233333         5799999874
+
+
+Q ss_pred             h
+Q tr|K7EJU7|K7EJ  112 A  112 (135)
+Q Consensus       112 a  112 (135)
+                      .
+T Consensus        97 ~   97 (118)
+T 6I5O_E           97 F   97 (118)
+T ss_dssp             S
+T ss_pred             e
+Confidence            3
+
+
+No 4
+>1IGQ_D Transcriptional repressor protein KorB; SH3 domain, dimerization domain, TRANSCRIPTION; 1.7A {Escherichia coli} SCOP: b.34.1.3
+Probab=22.63  E-value=1.5e+02  Score=19.59  Aligned_cols=12  Identities=25%  Similarity=0.850  Sum_probs=9.3  Template_Neff=6.800
+
+Q ss_pred             CCCcEEEEEEeC
+Q tr|K7EJU7|K7EJ   56 EKEKIVWVRFEN   67 (135)
+Q Consensus        56 ekekivwvrfen   67 (135)
+                      .....+||+|++
+T Consensus        31 ~~~g~~wV~~~d   42 (62)
+T 1IGQ_D           31 PAEGYAWLKYED   42 (62)
+T ss_dssp             SSTTEEEEEETT
+T ss_pred             CCCCEEEEEECC
+Confidence            347789999974
+
+
+No 5
+>1IGU_A Transcriptional repressor protein KorB; SH3 domain, dimerization domain, transcription; 2.2A {Escherichia coli} SCOP: b.34.1.3
+Probab=22.63  E-value=1.5e+02  Score=19.59  Aligned_cols=12  Identities=25%  Similarity=0.850  Sum_probs=9.3  Template_Neff=6.800
+
+Q ss_pred             CCCcEEEEEEeC
+Q tr|K7EJU7|K7EJ   56 EKEKIVWVRFEN   67 (135)
+Q Consensus        56 ekekivwvrfen   67 (135)
+                      .....+||+|++
+T Consensus        31 ~~~g~~wV~~~d   42 (62)
+T 1IGU_A           31 PAEGYAWLKYED   42 (62)
+T ss_dssp             SSTTEEEEEETT
+T ss_pred             CCCCEEEEEECC
+Confidence            347789999974
+
+
+No 6
+>1IGU_B Transcriptional repressor protein KorB; SH3 domain, dimerization domain, transcription; 2.2A {Escherichia coli} SCOP: b.34.1.3
+Probab=22.63  E-value=1.5e+02  Score=19.59  Aligned_cols=12  Identities=25%  Similarity=0.850  Sum_probs=9.3  Template_Neff=6.800
+
+Q ss_pred             CCCcEEEEEEeC
+Q tr|K7EJU7|K7EJ   56 EKEKIVWVRFEN   67 (135)
+Q Consensus        56 ekekivwvrfen   67 (135)
+                      .....+||+|++
+T Consensus        31 ~~~g~~wV~~~d   42 (62)
+T 1IGU_B           31 PAEGYAWLKYED   42 (62)
+T ss_dssp             SSTTEEEEEETT
+T ss_pred             CCCCEEEEEECC
+Confidence            347789999974
+
+
+No 7
+>4L0C_B Deformylase; deformylase, HYDROLASE; HET: ACY, MSE; 1.65A {Pseudomonas putida}
+Probab=22.41  E-value=1.1e+02  Score=19.02  Aligned_cols=22  Identities=36%  Similarity=0.626  Sum_probs=12.4  Template_Neff=13.500
+
+Q ss_pred             eheehccCCCCCCEEEEEEEcC
+Q tr|K7EJU7|K7EJ   78 EFHEIHSTGNEPPLLIMIGYSD   99 (135)
+Q Consensus        78 efheihstgneppllimigysd   99 (135)
+                      ..+-++..++.|+++++=|...
+T Consensus        12 ~~~~~~~~~~~~~vv~~hG~~~   33 (255)
+T 4L0C_B           12 RQHIIHFPGTGSPLLLIPGITS   33 (255)
+T ss_dssp             EEEEEEECCSSEEEEEECCTTC
+T ss_pred             EEEEEEcCCCCCcEEEECCCCC
+Confidence            3444444566667666666543
+
+
+No 8
+>4L0C_D Deformylase; deformylase, HYDROLASE; HET: ACY, MSE; 1.65A {Pseudomonas putida}
+Probab=22.41  E-value=1.1e+02  Score=19.02  Aligned_cols=22  Identities=36%  Similarity=0.626  Sum_probs=12.4  Template_Neff=13.500
+
+Q ss_pred             eheehccCCCCCCEEEEEEEcC
+Q tr|K7EJU7|K7EJ   78 EFHEIHSTGNEPPLLIMIGYSD   99 (135)
+Q Consensus        78 efheihstgneppllimigysd   99 (135)
+                      ..+-++..++.|+++++=|...
+T Consensus        12 ~~~~~~~~~~~~~vv~~hG~~~   33 (255)
+T 4L0C_D           12 RQHIIHFPGTGSPLLLIPGITS   33 (255)
+T ss_dssp             EEEEEEECCSSEEEEEECCTTC
+T ss_pred             EEEEEEcCCCCCcEEEECCCCC
+Confidence            3444444566667666666543
+
+
+No 9
+>5FDN_B Phosphoenolpyruvate carboxylase 3 (E.C.4.1.1.31); Carboxylase Inhibitor PEPC Functional tetramer; HET: ASP, FLC; 2.2A {Arabidopsis thaliana}
+Probab=20.11  E-value=99  Score=30.23  Aligned_cols=11  Identities=55%  Similarity=0.851  Sum_probs=9.4  Template_Neff=7.200
+
+Q ss_pred             CEEEEEEEcCC
+Q tr|K7EJU7|K7EJ   90 PLLIMIGYSDG  100 (135)
+Q Consensus        90 pllimigysdg  100 (135)
+                      -.-|||||||.
+T Consensus       610 ~qeVMlGySDS  620 (987)
+T 5FDN_B          610 KQEVMIGYSDS  620 (987)
+T ss_dssp             EEEEEECHHHH
+T ss_pred             eeEEEEecCCc
+Confidence            67899999984
+
+
+No 10
+>7BYE_B Antitoxin MazE, Uncharacterized protein; protein complex, HYDROLASE; HET: PO4; 2.3A {Klebsiella pneumoniae}
+Probab=19.40  E-value=4.1e+02  Score=16.68  Aligned_cols=48  Identities=15%  Similarity=0.172  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCcCCCcEEEEEEeCCCCCCchhheeheehccCCCCCCEEEEEEEcCC---cEEEEEEcC
+Q tr|K7EJU7|K7EJ   50 GTPLTEEKEKIVWVRFENADLNDTSRNLEFHEIHSTGNEPPLLIMIGYSDG---MQVWSIPIS  109 (135)
+Q Consensus        50 gtplteekekivwvrfenadlndtsrnlefheihstgneppllimigysdg---mqvwsipis  109 (135)
+                      .+....+...|+|+.|...+            -+..+...|.+++-.....   -.++.+|++
+T Consensus         1 ~~~~~~~~g~i~~~~~~~~~------------~~~~~~~rp~lVv~~~~~~~~~~~~~v~~it   51 (112)
+T 7BYE_B            1 MTTYCPARGDVILLDFNPQS------------GHEQAGKRPALVVSDDLFNQVTGFAVVCPIT   51 (112)
+T ss_dssp             ---CCCCTTEEEEEEECCSS------------SSSCCEEEEEEECSCHHHHHHHSEEEEEEEE
+T ss_pred             CCCCCCCCCcEEEEECCCCC------------CCccCCcccEEEEchHHHhhcCCeEEEEeCc
+
+

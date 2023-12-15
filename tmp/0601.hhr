@@ -1,0 +1,167 @@
+Query         tr|A0A1W2PP09|A0A1W2PP09_HUMAN
+Match_columns 63
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:21:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0601.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3FAC_D Putative uncharacterize  34.2      31 0.00033   19.0   0.2    9    2-10     67-75  (118)
+  2 6VQ8_f ATPase H+-transporting   30.1      11 0.00012   23.7  -2.2   26    4-29     10-35  (98)
+  3 3WWL_A Alpha-aminoadipate carr  25.6      82 0.00089   13.9   0.8   10    1-10      1-10  (54)
+  4 3WWN_B Putative acetylglutamat  25.6      82 0.00089   13.9   0.8   10    1-10      1-10  (54)
+  5 6XBW_f V-type proton ATPase ca  23.5      17 0.00018   22.7  -2.2   25    4-28     10-34  (98)
+  6 2NB9_A Uncharacterized protein  21.1      80 0.00087   12.8   0.3    8    2-9       2-9   (49)
+  7 7AE1_I DNA-directed RNA polyme  18.4 1.5E+02  0.0016   16.4   1.1    8    3-10      3-10  (108)
+  8 7D58_I DNA-directed RNA polyme  18.4 1.5E+02  0.0016   16.4   1.1   10    2-11      2-11  (108)
+  9 7C06_B U2AF/RNA Complex; pre-m  18.2 1.4E+02  0.0015   18.3   0.9    8   51-58     62-69  (69)
+ 10 4PJO_m SmD3, SmB (1-95), SmD1   15.9 2.4E+02  0.0026   14.4   1.4   17    2-18      3-20  (61)
+
+No 1
+>3FAC_D Putative uncharacterized protein; Rhodobacter sphaeroides, Structural Genomics, PSI-2; 2.5A {Rhodobacter sphaeroides 2.4.1}
+Probab=34.22  E-value=31  Score=19.05  Aligned_cols=9  Identities=33%  Similarity=1.095  Sum_probs=6.8  Template_Neff=10.700
+
+Q ss_pred             CccCCCCCC
+Q tr|A0A1W2PP09|    2 RFFCARCCS   10 (63)
+Q Consensus         2 rffcarccs   10 (63)
+                      |+||.+|-+
+T Consensus        67 ~~fC~~CG~   75 (118)
+T 3FAC_D           67 HWFCRTCGI   75 (118)
+T ss_dssp             EEEETTTCC
+T ss_pred             eeecCCCCc
+Confidence            578999854
+
+
+No 2
+>6VQ8_f ATPase H+-transporting V1 subunit A; membrane protein complex, rotary atpase; HET: ADP; 3.9A {Rattus norvegicus}
+Probab=30.09  E-value=11  Score=23.66  Aligned_cols=26  Identities=15%  Similarity=0.118  Sum_probs=21.3  Template_Neff=7.000
+
+Q ss_pred             cCCCCCCCCCCCChHHhhhhhHHhhc
+Q tr|A0A1W2PP09|    4 FCARCCSFGPEMPAVQLLLLACLVWD   29 (63)
+Q Consensus         4 fcarccsfgpempavqllllaclvwd   29 (63)
+                      .|+.||.+=.-...++|++++.+.+-
+T Consensus        10 ~~s~cC~~lSi~Gii~L~~lG~l~~~   35 (98)
+T 6VQ8_f           10 KLAACGIVLSAWGVIMLIMLGIFFNV   35 (98)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            47889988888888999999887654
+
+
+No 3
+>3WWL_A Alpha-aminoadipate carrier protein LysW; Zinc Finger, Amino acid carrier; HET: UN1; 1.2A {Thermus thermophilus HB27}
+Probab=25.65  E-value=82  Score=13.85  Aligned_cols=10  Identities=30%  Similarity=0.590  Sum_probs=5.1  Template_Neff=11.800
+
+Q ss_pred             CCccCCCCCC
+Q tr|A0A1W2PP09|    1 MRFFCARCCS   10 (63)
+Q Consensus         1 mrffcarccs   10 (63)
+                      |.+.|..|.+
+T Consensus         1 ~~~~cp~c~~   10 (54)
+T 3WWL_A            1 MVGTCPECGA   10 (54)
+T ss_dssp             CEEECTTTCC
+T ss_pred             CceeCCCCCC
+Confidence            3455665553
+
+
+No 4
+>3WWN_B Putative acetylglutamate kinase-like protein, OrfF; Zinc finger, Amino acid kinase; 1.85A {Thermus thermophilus HB27}
+Probab=25.65  E-value=82  Score=13.85  Aligned_cols=10  Identities=30%  Similarity=0.590  Sum_probs=5.2  Template_Neff=11.800
+
+Q ss_pred             CCccCCCCCC
+Q tr|A0A1W2PP09|    1 MRFFCARCCS   10 (63)
+Q Consensus         1 mrffcarccs   10 (63)
+                      |.+.|..|.+
+T Consensus         1 ~~~~cp~c~~   10 (54)
+T 3WWN_B            1 MVGTCPECGA   10 (54)
+T ss_dssp             CEEECTTTCC
+T ss_pred             CceeCCCCCC
+Confidence            3455665553
+
+
+No 5
+>6XBW_f V-type proton ATPase catalytic subunit; PROTON TRANSPORT; HET: ADP, POV, NAG, OLA; 3.37A {Bos taurus}
+Probab=23.46  E-value=17  Score=22.74  Aligned_cols=25  Identities=16%  Similarity=0.161  Sum_probs=20.2  Template_Neff=7.100
+
+Q ss_pred             cCCCCCCCCCCCChHHhhhhhHHhh
+Q tr|A0A1W2PP09|    4 FCARCCSFGPEMPAVQLLLLACLVW   28 (63)
+Q Consensus         4 fcarccsfgpempavqllllaclvw   28 (63)
+                      .|+.||.+=.-...++|++++.+..
+T Consensus        10 ~~s~cc~~lSi~Gii~L~~lG~l~~   34 (98)
+T 6XBW_f           10 KLAACGIVLSAWGVIMLIMLGIFFN   34 (98)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            4788998888888889988887654
+
+
+No 6
+>2NB9_A Uncharacterized protein; zinc finger, UNKNOWN FUNCTION; HET: ZN; NMR {Caulobacter crescentus}
+Probab=21.08  E-value=80  Score=12.77  Aligned_cols=8  Identities=25%  Similarity=0.899  Sum_probs=3.7  Template_Neff=12.700
+
+Q ss_pred             CccCCCCC
+Q tr|A0A1W2PP09|    2 RFFCARCC    9 (63)
+Q Consensus         2 rffcarcc    9 (63)
+                      ++-|..|-
+T Consensus         2 ~~~c~~c~    9 (49)
+T 2NB9_A            2 ILTCPECA    9 (49)
+T ss_dssp             EEECTTTC
+T ss_pred             EEECCCCC
+Confidence            34455543
+
+
+No 7
+>7AE1_I DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=18.37  E-value=1.5e+02  Score=16.43  Aligned_cols=8  Identities=38%  Similarity=1.256  Sum_probs=3.6  Template_Neff=10.300
+
+Q ss_pred             ccCCCCCC
+Q tr|A0A1W2PP09|    3 FFCARCCS   10 (63)
+Q Consensus         3 ffcarccs   10 (63)
+                      .||..|-+
+T Consensus         3 ~fC~~Cg~   10 (108)
+T 7AE1_I            3 LFCPGCGN   10 (108)
+T ss_dssp             EECTTTCC
+T ss_pred             ccCCCCCC
+Confidence            34554433
+
+
+No 8
+>7D58_I DNA-directed RNA polymerase III subunit; RNA Polymerase III, TRANSCRIPTION; 2.9A {Homo sapiens}
+Probab=18.37  E-value=1.5e+02  Score=16.43  Aligned_cols=10  Identities=30%  Similarity=0.760  Sum_probs=5.2  Template_Neff=10.300
+
+Q ss_pred             CccCCCCCCC
+Q tr|A0A1W2PP09|    2 RFFCARCCSF   11 (63)
+Q Consensus         2 rffcarccsf   11 (63)
+                      -.||..|-+.
+T Consensus         2 ~~fC~~Cg~~   11 (108)
+T 7D58_I            2 LLFCPGCGNG   11 (108)
+T ss_dssp             CCBCSSSCCB
+T ss_pred             CccCCCCCCc
+Confidence            3456666443
+
+
+No 9
+>7C06_B U2AF/RNA Complex; pre-mRNA, splicing, intron, 3' splice; HET: ZN; 3.02A {Schizosaccharomyces pombe 972h-}
+Probab=18.17  E-value=1.4e+02  Score=18.27  Aligned_cols=8  Identities=63%  Similarity=1.198  Sum_probs=6.9  Template_Neff=6.200
+
+Q ss_pred             ccCCCCCC
+Q tr|A0A1W2PP09|   51 GHFGLPGT   58 (63)
+Q Consensus        51 ghfglpgt   58 (63)
+                      |.|.|||.
+T Consensus        62 GlF~lPG~   69 (69)
+T 7C06_B           62 GVFPLPGA   69 (69)
+T ss_dssp             TSSCCTTC
+T ss_pred             CCCCCCCC
+Confidence            89999984
+
+
+No 10
+>4PJO_m SmD3, SmB (1-95), SmD1 (1-85); U1 snRNP, Spliceosome, Pre-mRNA splicing; HET: GTP, EPE, MG; 3.3A {Homo sapiens}
+Probab=15.90  E-value=2.4e+02  Score=14.40  Aligned_cols=17  Identities=29%  Similarity=0.921  Sum_probs=10.7  Template_Neff=9.600
+
+Q ss_pred             CccCCCCCCCC-CCCChH
+Q tr|A0A1W2PP09|    2 RFFCARCCSFG-PEMPAV   18 (63)
+Q Consensus         2 rffcarccsfg-pempav   18 (63)
+                      |++|.-|..+- ...+.+
+T Consensus         3 ~~~C~~C~~~~~~~~~~~   20 (61)
+T 4PJO_m            3 KFYCDYCDTYLTHDSPSV   20 (61)
+T ss_pred             CcccCCCCCcccCCCHHH
+Confidence            68888887654 444433
+
+

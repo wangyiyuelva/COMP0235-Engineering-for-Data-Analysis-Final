@@ -1,0 +1,170 @@
+Query         tr|D6REA8|D6REA8_HUMAN
+Match_columns 50
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:56:45 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0798.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2X3A_A TOXIC EXTRACELLULAR END  37.8      82 0.00089   20.7   2.6   26    7-34    102-127 (343)
+  2 2X3C_A TOXIC EXTRACELLULAR END  37.8      82 0.00089   20.7   2.6   26    7-34    102-127 (343)
+  3 2X3B_A TOXIC EXTRACELLULAR END  23.7   2E+02  0.0022   18.8   2.6   26    7-34    102-127 (343)
+  4 4GFX_A Thioredoxin-interacting  22.9 2.3E+02  0.0025   15.1   2.9   19   23-41     89-108 (151)
+  5 4FVD_A 2A proteinase (E.C.3.4.  22.0      79 0.00086   22.3   0.6   35    8-42     64-98  (152)
+  6 5JTQ_E Protein-export protein   20.7      53 0.00058   13.3  -0.3    7   17-23     35-41  (42)
+  7 5X45_A protease 2A; protease,   20.3 1.1E+02  0.0012   20.9   1.0   35    8-42     59-93  (139)
+  8 2M5T_A human rhinovirus 2A pro  19.6 1.4E+02  0.0015   21.1   1.3   37    8-44     57-93  (142)
+  9 3W95_A Genome polyprotein (E.C  19.3      96   0.001   22.4   0.6   35    8-42     83-117 (171)
+ 10 7JRE_A metal ion binding, vira  18.9 1.2E+02  0.0013   21.5   0.8   35    8-42     59-93  (147)
+
+No 1
+>2X3A_A TOXIC EXTRACELLULAR ENDOPEPTIDASE (E.C.3.4.24.39); HYDROLASE; HET: SO4, MES, GOL; 2.0A {AEROMONAS SALMONICIDA SUBSP. ACHROMOGENES}
+Probab=37.76  E-value=82  Score=20.70  Aligned_cols=26  Identities=23%  Similarity=0.549  Sum_probs=20.6  Template_Neff=9.900
+
+Q ss_pred             eEEEeeehccccCchhhhCCceeeeeee
+Q tr|D6REA8|D6RE    7 MVEFSVELNKFYNVDLFQRGFYQIRASM   34 (50)
+Q Consensus         7 mvefsvelnkfynvdlfqrgfyqirasm   34 (50)
+                      .++..+.|++.|+.+  ..|-|.|+++.
+T Consensus       102 ~~~~~v~l~~~y~~~--~~G~Y~i~~~~  127 (343)
+T 2X3A_A          102 SLTVQAEVSGLYDMS--AQGQYSIRYQL  127 (343)
+T ss_dssp             EEEEEEECTTTBTCC--SCEEEEEEEBC
+T ss_pred             EEEEEEEccCccccC--CCeEEEEEEeC
+Confidence            467788899988644  67999999985
+
+
+No 2
+>2X3C_A TOXIC EXTRACELLULAR ENDOPEPTIDASE (E.C.3.4.24.39); HYDROLASE; HET: SO4; 1.99A {AEROMONAS SALMONICIDA SUBSP. ACHROMOGENES}
+Probab=37.76  E-value=82  Score=20.70  Aligned_cols=26  Identities=23%  Similarity=0.549  Sum_probs=20.0  Template_Neff=9.900
+
+Q ss_pred             eEEEeeehccccCchhhhCCceeeeeee
+Q tr|D6REA8|D6RE    7 MVEFSVELNKFYNVDLFQRGFYQIRASM   34 (50)
+Q Consensus         7 mvefsvelnkfynvdlfqrgfyqirasm   34 (50)
+                      .++..+.|++.|+.+  ..|-|.|+++.
+T Consensus       102 ~~~~~v~l~~~y~~~--~~G~Y~i~~~~  127 (343)
+T 2X3C_A          102 SLTVQAEVSGLYDMS--AQGQYSIRYQL  127 (343)
+T ss_dssp             EEEEEEECTTTBTCC--SCEEEEEEEC-
+T ss_pred             EEEEEEEccCccccC--CCeEEEEEEeC
+Confidence            467788899988644  67999999985
+
+
+No 3
+>2X3B_A TOXIC EXTRACELLULAR ENDOPEPTIDASE (E.C.3.4.24.39); HYDROLASE; 2.28A {AEROMONAS SALMONICIDA SUBSP. ACHROMOGENES}
+Probab=23.73  E-value=2e+02  Score=18.82  Aligned_cols=26  Identities=23%  Similarity=0.549  Sum_probs=20.0  Template_Neff=10.100
+
+Q ss_pred             eEEEeeehccccCchhhhCCceeeeeee
+Q tr|D6REA8|D6RE    7 MVEFSVELNKFYNVDLFQRGFYQIRASM   34 (50)
+Q Consensus         7 mvefsvelnkfynvdlfqrgfyqirasm   34 (50)
+                      .++..+.|++.|+.+  .-|-|.|+++.
+T Consensus       102 s~~~~~~l~~~y~~~--~~G~Y~i~~~~  127 (343)
+T 2X3B_A          102 SLTVQAEVSGLYDMS--AQGQYSIRYQL  127 (343)
+T ss_dssp             EEEEEEECTTTBTCC--SCEEEEEEEEC
+T ss_pred             EEEEEEEccCccccC--CCcEEEEEEeC
+Confidence            356778888888654  57999999985
+
+
+No 4
+>4GFX_A Thioredoxin-interacting protein; Arrestin-like fold, PROTEIN BINDING; 1.6A {Homo sapiens}
+Probab=22.86  E-value=2.3e+02  Score=15.11  Aligned_cols=19  Identities=11%  Similarity=0.280  Sum_probs=12.4  Template_Neff=11.400
+
+Q ss_pred             hhCCceeeeeeeeCCCC-CC
+Q tr|D6REA8|D6RE   23 FQRGFYQIRASMKIPSR-IP   41 (50)
+Q Consensus        23 fqrgfyqirasmkipsr-ip   41 (50)
+                      ...|-|++.-++.+|.. +|
+T Consensus        89 ~~~g~~~~~F~~~lP~~~lp  108 (151)
+T 4GFX_A           89 RPGNKYEYKFGFELPQGPLG  108 (151)
+T ss_dssp             CTTCCEEEEEEEECCSSCCE
+T ss_pred             cCCeEEEEEEEEECCCCCCC
+Confidence            35566777777777766 54
+
+
+No 5
+>4FVD_A 2A proteinase (E.C.3.4.22.29), 10-mer peptide; HYDROLASE, CYSTEINE PROTEINASE, HYDROLASE-HYDROLASE SUBSTRATE; 1.66A {Human enterovirus 71}
+Probab=22.02  E-value=79  Score=22.28  Aligned_cols=35  Identities=23%  Similarity=0.299  Sum_probs=30.1  Template_Neff=4.300
+
+Q ss_pred             EEEeeehccccCchhhhCCceeeeeeeeCCCCCCC
+Q tr|D6REA8|D6RE    8 VEFSVELNKFYNVDLFQRGFYQIRASMKIPSRIPH   42 (50)
+Q Consensus         8 vefsvelnkfynvdlfqrgfyqirasmkipsriph   42 (50)
+                      |=|+..-||+|-|..-.-++|.|.+|---|+||.-
+T Consensus        64 vYyc~sk~k~yPv~~~~p~~~~iqeseYYP~~~Q~   98 (152)
+T 4FVD_A           64 VYYCNSRRKHYPVSFSKPSLIYVEASEYYPARYQS   98 (152)
+T ss_dssp             EEEETTTTEEEEEECCCCEEEEECCCSSSCSEEEE
+T ss_pred             EEEECCCCceecEEEeCCceEEEcCCCCCchhhcc
+Confidence            45777889999999999999999999888888754
+
+
+No 6
+>5JTQ_E Protein-export protein SecB, Maltose-binding periplasmic; Molecular Chaperone, CHAPERONE-PROTEIN BINDING complex; NMR {Escherichia coli O157:H7}
+Probab=20.69  E-value=53  Score=13.28  Aligned_cols=7  Identities=57%  Similarity=1.027  Sum_probs=3.1  Template_Neff=11.600
+
+Q ss_pred             ccCchhh
+Q tr|D6REA8|D6RE   17 FYNVDLF   23 (50)
+Q Consensus        17 fynvdlf   23 (50)
+                      +||.++|
+T Consensus        35 ~~n~~~~   41 (42)
+T 5JTQ_E           35 IYNKDLL   41 (42)
+T ss_dssp             CCSSCCC
+T ss_pred             EEecccC
+Confidence            3444443
+
+
+No 7
+>5X45_A protease 2A; protease, human rhinovirus, VIRAL PROTEIN; 2.602A {Rhinovirus C}
+Probab=20.28  E-value=1.1e+02  Score=20.89  Aligned_cols=35  Identities=20%  Similarity=0.429  Sum_probs=28.1  Template_Neff=5.000
+
+Q ss_pred             EEEeeehccccCchhhhCCceeeeeeeeCCCCCCC
+Q tr|D6REA8|D6RE    8 VEFSVELNKFYNVDLFQRGFYQIRASMKIPSRIPH   42 (50)
+Q Consensus         8 vefsvelnkfynvdlfqrgfyqirasmkipsriph   42 (50)
+                      |=|+..-||+|-|..-.-++|.|.+|--.|.++-+
+T Consensus        59 vYyc~s~~k~ypv~~~~~~~~~i~~~~y~p~h~Q~   93 (139)
+T 5X45_A           59 CYYSRSKDRYFPVECVSHDWYEIQESGYYPKHIQY   93 (139)
+T ss_dssp             EEEETTTTEEEEEEEEEEEEEEECCCSSSCSEEEE
+T ss_pred             EEEeCCCCeeecEEEecccEEEEcccCcccceeEe
+Confidence            45677788999998888899999998887766544
+
+
+No 8
+>2M5T_A human rhinovirus 2A proteinase; Human Rhinovirus C, 2A proteinase; HET: ZN; NMR {Rhinovirus C}
+Probab=19.55  E-value=1.4e+02  Score=21.05  Aligned_cols=37  Identities=16%  Similarity=0.369  Sum_probs=31.1  Template_Neff=4.100
+
+Q ss_pred             EEEeeehccccCchhhhCCceeeeeeeeCCCCCCCce
+Q tr|D6REA8|D6RE    8 VEFSVELNKFYNVDLFQRGFYQIRASMKIPSRIPHRV   44 (50)
+Q Consensus         8 vefsvelnkfynvdlfqrgfyqirasmkipsriphrv   44 (50)
+                      |=|+..-||+|-|..-.-++|.|.+|---|+||.-.+
+T Consensus        57 vYyc~sk~k~yPV~~~~p~~~~i~~seYYP~ryQ~~v   93 (142)
+T 2M5T_A           57 CYYSRSLDRYIPVECEAHDWYPVEETQYYPKHIQYNL   93 (142)
+T ss_dssp             EEEETTTTEEEEEEEEEESCCEECCCSSCCSEECSSE
+T ss_pred             EEEecCCCeeecEEEecccEEEEccccCCchhhccce
+Confidence            4577778999999999999999999999998876543
+
+
+No 9
+>3W95_A Genome polyprotein (E.C.3.4.22.29, 3.6.1.15, 3.4.22.28; chymotrypsin-fold six-stranded beta-barrel catalytic triad; 1.85A {Human enterovirus 71}
+Probab=19.33  E-value=96  Score=22.36  Aligned_cols=35  Identities=23%  Similarity=0.299  Sum_probs=30.0  Template_Neff=4.100
+
+Q ss_pred             EEEeeehccccCchhhhCCceeeeeeeeCCCCCCC
+Q tr|D6REA8|D6RE    8 VEFSVELNKFYNVDLFQRGFYQIRASMKIPSRIPH   42 (50)
+Q Consensus         8 vefsvelnkfynvdlfqrgfyqirasmkipsriph   42 (50)
+                      |=|+..-||+|-|..-.-++|.|.+|---|.||.-
+T Consensus        83 vYYcksk~kyyPV~~~~p~~~~iqeseYYP~~~Q~  117 (171)
+T 3W95_A           83 VYYCNSRRKHYPVSFSKPSLIYVEASEYYPARYQS  117 (171)
+T ss_dssp             EEEETTTTEEEEEECCCSEEEEECCCSSCCSEEEE
+T ss_pred             EEEECCCCceecEEEeCCceEEEcCCCCCchhhcc
+Confidence            45777889999999999999999999888888743
+
+
+No 10
+>7JRE_A metal ion binding, viral process; 2.5A {Human enterovirus D68}
+Probab=18.90  E-value=1.2e+02  Score=21.46  Aligned_cols=35  Identities=23%  Similarity=0.227  Sum_probs=29.6  Template_Neff=4.200
+
+Q ss_pred             EEEeeehccccCchhhhCCceeeeeeeeCCCCCCC
+Q tr|D6REA8|D6RE    8 VEFSVELNKFYNVDLFQRGFYQIRASMKIPSRIPH   42 (50)
+Q Consensus         8 vefsvelnkfynvdlfqrgfyqirasmkipsriph   42 (50)
+                      |=|+..-||+|-|..-.-++|.|.+|---|+||.-
+T Consensus        59 vYycksk~kyyPV~~~~p~~~~iqeseYYP~~~Q~   93 (147)
+T 7JRE_A           59 VYYCRHRDKSYPVCFEGPGIQWIEQNEYYPARYQT   93 (147)
+T ss_dssp             EEEETTTTEEEEEECEEEEEEEECCCTTSCSEEEE
+T ss_pred             EEEeccCCceecEEEeCCcEEEEcCCCcChhhhcc
+Confidence            45777889999999999999999999888887743
+
+

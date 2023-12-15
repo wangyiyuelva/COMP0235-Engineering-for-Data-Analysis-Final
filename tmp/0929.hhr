@@ -1,0 +1,170 @@
+Query         tr|H3BRJ7|H3BRJ7_HUMAN
+Match_columns 48
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:13:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0929.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6S29_B Histone acetyltransfera  23.4      72 0.00078   20.3   0.6   10   33-42     12-21  (61)
+  2 6S29_D Histone acetyltransfera  23.4      72 0.00078   20.3   0.6   10   33-42     12-21  (61)
+  3 1C8C_A DNA-BINDING PROTEIN 7A/  19.5      65 0.00071   16.6  -0.2   11   34-44     43-53  (64)
+  4 3FPF_B Putative uncharacterize  19.1 3.1E+02  0.0034   17.1   2.6   21   28-48    273-293 (298)
+  5 3O31_B thermoNicotianamine syn  18.6 3.4E+02  0.0037   17.2   2.7   20   29-48    272-291 (296)
+  6 1BNZ_A SSO7D HYPERTHERMOPHILE   17.7      76 0.00082   16.4  -0.2   10   35-44     44-53  (64)
+  7 1WTQ_A COMPLEX CHROMATIN PROTE  16.0      85 0.00092   16.8  -0.2   10   35-44     43-52  (66)
+  8 2HJ1_B Crystal stucture of hyp  15.6   2E+02  0.0022   16.3   1.2   27    2-28     68-94  (97)
+  9 7AW8_A Alpha actinin, actin bi  15.6 4.3E+02  0.0047   15.5   2.5   29    1-29      1-32  (280)
+ 10 1XYI_A PROTEIN-DNA COMPLEX, Ol  15.3      91 0.00099   16.8  -0.2   10   35-44     43-52  (66)
+
+No 1
+>6S29_B Histone acetyltransferase type B subunit; centromere mitosis WD40 histone chaperone; 1.988A {Schizosaccharomyces pombe}
+Probab=23.45  E-value=72  Score=20.26  Aligned_cols=10  Identities=40%  Similarity=0.800  Sum_probs=5.8  Template_Neff=1.600
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H3BRJ7|H3BR   33 PHRPFGIKTS   42 (48)
+Q Consensus        33 phrpfgikts   42 (48)
+                      ..|||||+..
+T Consensus        12 R~R~FGirD~   21 (61)
+T 6S29_B           12 RFREFGVKDN   21 (61)
+T ss_dssp             CCBCSCC---
+T ss_pred             eccccCccCC
+Confidence            3689999853
+
+
+No 2
+>6S29_D Histone acetyltransferase type B subunit; centromere mitosis WD40 histone chaperone; 1.988A {Schizosaccharomyces pombe}
+Probab=23.45  E-value=72  Score=20.26  Aligned_cols=10  Identities=40%  Similarity=0.800  Sum_probs=6.7  Template_Neff=1.600
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H3BRJ7|H3BR   33 PHRPFGIKTS   42 (48)
+Q Consensus        33 phrpfgikts   42 (48)
+                      ..|||||+..
+T Consensus        12 R~R~FGirD~   21 (61)
+T 6S29_D           12 RFREFGVKDN   21 (61)
+T ss_dssp             CCBCCCCC--
+T ss_pred             eccccCccCC
+Confidence            3689999854
+
+
+No 3
+>1C8C_A DNA-BINDING PROTEIN 7A/DNA COMPLEX; DNA BINDING PROTEIN, PROTEIN-DNA INTERACTION; 1.45A {Sulfolobus solfataricus} SCOP: b.34.13.1
+Probab=19.46  E-value=65  Score=16.64  Aligned_cols=11  Identities=18%  Similarity=0.229  Sum_probs=7.8  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H3BRJ7|H3BR   34 HRPFGIKTSPI   44 (48)
+Q Consensus        34 hrpfgiktspi   44 (48)
+                      .-|+|.|.||.
+T Consensus        43 ~lp~G~~~sp~   53 (64)
+T 1C8C_A           43 RGAVSEKDAPK   53 (64)
+T ss_dssp             EEEEESTTCCH
+T ss_pred             EecCCcCCchH
+Confidence            35788888874
+
+
+No 4
+>3FPF_B Putative uncharacterized protein; thermonicotianamine, nicotianamine, BIOSYNTHETIC PROTEIN, TRANSFERASE; HET: MTA, TNA; 1.66A {Methanothermobacter thermautotrophicus}
+Probab=19.14  E-value=3.1e+02  Score=17.13  Aligned_cols=21  Identities=10%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCC
+Q tr|H3BRJ7|H3BR   28 RVEKGPHRPFGIKTSPIWPAG   48 (48)
+Q Consensus        28 rvekgphrpfgiktspiwpag   48 (48)
+                      .+...|-+-+-.--+|+||+|
+T Consensus       273 ~~~~~~~~~~~~~~~~~~~~~  293 (298)
+T 3FPF_B          273 KLEGKPIPNPLLGLDSTRTGH  293 (298)
+T ss_dssp             ---------------------
+T ss_pred             hhcCccccCCCcccccccCCC
+Confidence            444455555556667888875
+
+
+No 5
+>3O31_B thermoNicotianamine synthase; Rossmann fold, thermonicotianamine synthase, BIOSYNTHETIC; HET: 3O3; 1.7A {Methanothermobacter thermautotrophicus str. Delta H}
+Probab=18.65  E-value=3.4e+02  Score=17.20  Aligned_cols=20  Identities=10%  Similarity=-0.049  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCC
+Q tr|H3BRJ7|H3BR   29 VEKGPHRPFGIKTSPIWPAG   48 (48)
+Q Consensus        29 vekgphrpfgiktspiwpag   48 (48)
+                      ...++..-|-.-.+++||+|
+T Consensus       272 ~~~~~~~~~~~~~~~~~~~~  291 (296)
+T 3O31_B          272 LEGKPIPNPLLGLDSTRTGH  291 (296)
+T ss_dssp             --------------------
+T ss_pred             hcCccCcCCcccccccccCC
+Confidence            34556666667778888875
+
+
+No 6
+>1BNZ_A SSO7D HYPERTHERMOPHILE PROTEIN/DNA COMPLEX; PROTEIN-DNA INTERACTION, DNA BINDING PROTEIN-DNA; 2.0A {Sulfolobus acidocaldarius} SCOP: b.34.13.1
+Probab=17.74  E-value=76  Score=16.39  Aligned_cols=10  Identities=20%  Similarity=0.232  Sum_probs=7.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H3BRJ7|H3BR   35 RPFGIKTSPI   44 (48)
+Q Consensus        35 rpfgiktspi   44 (48)
+                      -|+|+|.||.
+T Consensus        44 lp~G~k~sp~   53 (64)
+T 1BNZ_A           44 GAVSEKDAPK   53 (64)
+T ss_dssp             EEEEGGGCCH
+T ss_pred             ecCCcCCchH
+Confidence            4678887774
+
+
+No 7
+>1WTQ_A COMPLEX CHROMATIN PROTEIN-DNA, MINOR-GROOVE DNA; 1.7A {Sulfolobus acidocaldarius}
+Probab=16.02  E-value=85  Score=16.77  Aligned_cols=10  Identities=20%  Similarity=0.232  Sum_probs=7.5  Template_Neff=8.100
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H3BRJ7|H3BR   35 RPFGIKTSPI   44 (48)
+Q Consensus        35 rpfgiktspi   44 (48)
+                      -|+|.+.||.
+T Consensus        43 lp~G~k~sp~   52 (66)
+T 1WTQ_A           43 GAVSEKDAPK   52 (66)
+T ss_dssp             EEEETTTSCH
+T ss_pred             eCCCccCCHH
+Confidence            4788888874
+
+
+No 8
+>2HJ1_B Crystal stucture of hypothetical protein; structural genomics, PSI, Protein Structure; HET: SO4; 2.1A {Haemophilus influenzae} SCOP: d.15.3.4
+Probab=15.64  E-value=2e+02  Score=16.34  Aligned_cols=27  Identities=15%  Similarity=0.226  Sum_probs=17.5  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCeeeeCCCCCCCCCccc
+Q tr|H3BRJ7|H3BR    2 VSAEGAVAPGSTLLVAPALSHRPALQR   28 (48)
+Q Consensus         2 vsaegavapgstllvapalshrpalqr   28 (48)
+                      ++.+-.+..|..+.+.|.++.-|+-.|
+T Consensus        68 v~~~~~l~dgd~V~i~ppvs~~~~~~~   94 (97)
+T 2HJ1_B           68 IKLTDVLKEGDRIEIYRPLLADPKEIR   94 (97)
+T ss_dssp             CCTTCBCCTTCEEEEECSCCCC-----
+T ss_pred             CCccCCCCCCCEEEEecccccCHHHHH
+Confidence            344567788999999999988887654
+
+
+No 9
+>7AW8_A Alpha actinin, actin binding, CELL; HET: FMT, ACY; 1.5A {Rhodamnia argentea}
+Probab=15.56  E-value=4.3e+02  Score=15.51  Aligned_cols=29  Identities=14%  Similarity=0.240  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCee---eeCCCCCCCCCcccc
+Q tr|H3BRJ7|H3BR    1 MVSAEGAVAPGSTL---LVAPALSHRPALQRV   29 (48)
+Q Consensus         1 mvsaegavapgstl---lvapalshrpalqrv   29 (48)
+                      |++.++-|...+.+   .+|..+.+++.+...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (280)
+T 7AW8_A            1 MTTVDGTANGNGAVPSTDYANGFNQNNGTSNV   32 (280)
+T ss_dssp             --------------------------------
+T ss_pred             CCccccccCCCCCCCcccccCCCcccCCCCcc
+Confidence            56666666555544   466667777765543
+
+
+No 10
+>1XYI_A PROTEIN-DNA COMPLEX, Oligonucleotide binding fold; 1.45A {Sulfolobus acidocaldarius}
+Probab=15.29  E-value=91  Score=16.79  Aligned_cols=10  Identities=20%  Similarity=0.232  Sum_probs=7.1  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H3BRJ7|H3BR   35 RPFGIKTSPI   44 (48)
+Q Consensus        35 rpfgiktspi   44 (48)
+                      -|+|.|.||.
+T Consensus        43 lpqG~k~sP~   52 (66)
+T 1XYI_A           43 GAVSEKDAPK   52 (66)
+T ss_dssp             EEEEGGGCCH
+T ss_pred             ecCCccCCHH
+Confidence            4678887774
+
+

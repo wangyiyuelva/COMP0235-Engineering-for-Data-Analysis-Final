@@ -1,0 +1,168 @@
+Query         tr|F8VR88|F8VR88_HUMAN
+Match_columns 175
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:27:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1829.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3ZLC_B ER-DERIVED VESICLES PRO  98.3 6.9E-07 7.5E-12   69.3   2.8   61   58-118     4-64  (252)
+  2 2XA0_C APOPTOSIS REGULATOR BCL  49.0      38 0.00041   20.8   2.3   26  119-144     4-29  (31)
+  3 1BYY_A SODIUM CHANNEL, MEMBRAN  44.9      51 0.00055   18.9   2.3   16  114-129    15-30  (53)
+  4 3PK1_D Induced myeloid leukemi  41.6      57 0.00062   20.5   2.2   26  119-144     8-33  (34)
+  5 6XYW_AL 60S ribosomal protein   41.5      66 0.00071   25.3   3.0   26  133-158    43-68  (81)
+  6 5DBR_C Calmodulin, Sodium chan  38.5      71 0.00077   19.1   2.3   15  115-129     8-22  (51)
+  7 6JGV_A CadR; CadR, MerR family  20.5 3.4E+02  0.0037   18.2   3.3   10  166-175   138-147 (147)
+  8 6JGX_B CadR/DNA; CadR, MerR fa  20.5 3.4E+02  0.0037   18.2   3.3   11  165-175   137-147 (147)
+  9 6JNI_D CadR/DNA; CadR, MerR fa  20.5 3.4E+02  0.0037   18.2   3.3   12  164-175   136-147 (147)
+ 10 2PIH_B Protein ymcA; ymcA, reg  16.8 3.6E+02  0.0039   20.9   3.1   61  111-175    86-146 (151)
+
+No 1
+>3ZLC_B ER-DERIVED VESICLES PROTEIN ERV41; PROTEIN TRANSPORT, EARLY SECRETORY PATHWAY; 1.999A {SACCHAROMYCES CEREVISIAE}
+Probab=98.32  E-value=6.9e-07  Score=69.28  Aligned_cols=61  Identities=25%  Similarity=0.384  Sum_probs=54.6  Template_Neff=8.600
+
+Q ss_pred             ceeeeeeeeCcccccceeeeeeeeeeeeccccCchhhHHHHHhhhcCCCcecCCccccCCh
+Q tr|F8VR88|F8VR   58 TWMKYEYEVDKDFSSKLRINIDITVAMKCQYVGADVLDLAETMVASADGLVYEPTVFDLSP  118 (175)
+Q Consensus        58 twmkyeyevdkdfssklriniditvamkcqyvgadvldlaetmvasadglvyeptvfdlsp  118 (175)
+                      ..++++|.||.+++++|+|||||+|++||.+|++|++|.+|+++.++.+|+++|+.++++.
+T Consensus         4 ~~~~~~~~VD~~~~~~l~In~dItf~~pC~~l~vD~~D~~G~~~~~~~~l~~~g~~~~~~~   64 (252)
+T 3ZLC_B            4 GYIDQQYVVDSQVRDTVQINMDIYVNTKCDWLQINVRDQTMDRKLVLEELQLEEMPFFIPY   64 (252)
+T ss_dssp             --CEEEEEECCCCCCEEEEEEEEEESSCGGGEEEEEEETTEEEEECCSSEEEEEEECCCCS
+T ss_pred             ceEEEEEEEeCCCccceEEEEEEEEeccCCeEEEEeecCCCCeeehhheeeccCCcccCCc
+Confidence            3568899999999999999999999999999999999999999888999999988866654
+
+
+No 2
+>2XA0_C APOPTOSIS REGULATOR BCL-2, APOPTOSIS REGULATOR; APOPTOSIS, CELL DEATH; 2.7A {HOMO SAPIENS}
+Probab=49.01  E-value=38  Score=20.84  Aligned_cols=26  Identities=27%  Similarity=0.356  Sum_probs=18.2  Template_Neff=6.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHhhccCchhhh
+Q tr|F8VR88|F8VR  119 QQKEWQRMLQLIQSRLQEEHSLQDVI  144 (175)
+Q Consensus       119 qqkewqrmlqliqsrlqeehslqdvi  144 (175)
+                      .-++...++..|-..|.....||+.|
+T Consensus         4 ~~kqla~~lr~IgD~Ld~n~elq~lI   29 (31)
+T 2XA0_C            4 STKKLSECLRRIGDELDSNMELQRMI   29 (31)
+T ss_dssp             --CCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHcccHHHHHHH
+Confidence            34566778888888888777777755
+
+
+No 3
+>1BYY_A SODIUM CHANNEL, MEMBRANE PROTEIN; NMR {Rattus norvegicus} SCOP: j.12.1.1
+Probab=44.89  E-value=51  Score=18.87  Aligned_cols=16  Identities=13%  Similarity=0.279  Sum_probs=11.6  Template_Neff=10.100
+
+Q ss_pred             ccCChhHHHHHHHHHH
+Q tr|F8VR88|F8VR  114 FDLSPQQKEWQRMLQL  129 (175)
+Q Consensus       114 fdlspqqkewqrmlql  129 (175)
+                      ..+...|++|..+.+.
+T Consensus        15 ~~lt~~q~~w~~~~~~   30 (53)
+T 1BYY_A           15 IFMTEEQKKYYNAMKK   30 (53)
+T ss_dssp             SCCCHHHHHHHHHHHT
+T ss_pred             CCCCHHHHHHHHHHHH
+Confidence            3477899999876554
+
+
+No 4
+>3PK1_D Induced myeloid leukemia cell differentiation; Bcl-2 family fold, Regulation of; HET: CD; 2.486A {Homo sapiens}
+Probab=41.57  E-value=57  Score=20.48  Aligned_cols=26  Identities=27%  Similarity=0.356  Sum_probs=20.7  Template_Neff=6.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHhhccCchhhh
+Q tr|F8VR88|F8VR  119 QQKEWQRMLQLIQSRLQEEHSLQDVI  144 (175)
+Q Consensus       119 qqkewqrmlqliqsrlqeehslqdvi  144 (175)
+                      .-++...++..|-..|.....||+.|
+T Consensus         8 ~vkqla~~lr~IgDeLd~n~elq~lI   33 (34)
+T 3PK1_D            8 STKKLSECLKRIGDELDSNMELQRMI   33 (34)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHCC
+T ss_pred             hHHHHHHHHHHHHHHHcccHHHHHHh
+Confidence            34888899999999998877777654
+
+
+No 5
+>6XYW_AL 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=41.51  E-value=66  Score=25.28  Aligned_cols=26  Identities=12%  Similarity=0.061  Sum_probs=11.3  Template_Neff=3.500
+
+Q ss_pred             HHhhccCchhhhhcccCCCCCCCCCC
+Q tr|F8VR88|F8VR  133 RLQEEHSLQDVIFKSAFKSTSTALPP  158 (175)
+Q Consensus       133 rlqeehslqdvifksafkststalpp  158 (175)
+                      ||..-....+++..++-........+
+T Consensus        43 RLr~VD~vi~vl~~~l~~~~~~~~~~   68 (81)
+T 6XYW_AL          43 RLRRVWQNEAVLRACGESDAPNPPGA   68 (81)
+T ss_pred             HHHHHHHHHHHHHHhhcCCCCCCCCC
+Confidence            34444444455555444443333333
+
+
+No 6
+>5DBR_C Calmodulin, Sodium channel protein type; Calmodulin, NaV1.5, Inactivation gate, Metal; 2.25A {Homo sapiens}
+Probab=38.49  E-value=71  Score=19.08  Aligned_cols=15  Identities=13%  Similarity=0.275  Sum_probs=6.2  Template_Neff=9.100
+
+Q ss_pred             cCChhHHHHHHHHHH
+Q tr|F8VR88|F8VR  115 DLSPQQKEWQRMLQL  129 (175)
+Q Consensus       115 dlspqqkewqrmlql  129 (175)
+                      .+...|++|-.+...
+T Consensus         8 ~lt~~Q~~w~~~~~~   22 (51)
+T 5DBR_C            8 FMTEEQKKYYNAMKK   22 (51)
+T ss_dssp             -CCHHHH-----HHT
+T ss_pred             cCCHHHHHHHHHHHH
+Confidence            467888888766543
+
+
+No 7
+>6JGV_A CadR; CadR, MerR family, cadmium regulator; 2.2A {Pseudomonas putida}
+Probab=20.46  E-value=3.4e+02  Score=18.15  Aligned_cols=10  Identities=40%  Similarity=0.700  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCCC
+Q tr|F8VR88|F8VR  166 SPNACRIHGH  175 (175)
+Q Consensus       166 spnacrihgh  175 (175)
+                      .+..++.|||
+T Consensus       138 ~~~~~~~~~~  147 (147)
+T 6JGV_A          138 HSHVGRSHGH  147 (147)
+T ss_dssp             ----------
+T ss_pred             CCcCCCCCCC
+Confidence            4455677776
+
+
+No 8
+>6JGX_B CadR/DNA; CadR, MerR family, cadmium regulator; 2.71A {Pseudomonas putida}
+Probab=20.46  E-value=3.4e+02  Score=18.15  Aligned_cols=11  Identities=36%  Similarity=0.688  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|F8VR88|F8VR  165 QSPNACRIHGH  175 (175)
+Q Consensus       165 qspnacrihgh  175 (175)
+                      ..+..++.|||
+T Consensus       137 ~~~~~~~~~~~  147 (147)
+T 6JGX_B          137 EHSHVGRSHGH  147 (147)
+T ss_dssp             -----------
+T ss_pred             CCCcCCCCCCC
+Confidence            34556677776
+
+
+No 9
+>6JNI_D CadR/DNA; CadR, MerR family, cadmium regulator; HET: ZN; 2.9A {Pseudomonas putida}
+Probab=20.46  E-value=3.4e+02  Score=18.15  Aligned_cols=12  Identities=33%  Similarity=0.673  Sum_probs=6.5  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|F8VR88|F8VR  164 SQSPNACRIHGH  175 (175)
+Q Consensus       164 sqspnacrihgh  175 (175)
+                      ...+..++.|||
+T Consensus       136 ~~~~~~~~~~~~  147 (147)
+T 6JNI_D          136 TEHSHVGRSHGH  147 (147)
+T ss_dssp             CCCCSSCCCC--
+T ss_pred             CCCCcCCCCCCC
+Confidence            345567788887
+
+
+No 10
+>2PIH_B Protein ymcA; ymcA, regulate community development, Structural; HET: MSE; 2.1A {Bacillus subtilis} SCOP: a.281.1.1
+Probab=16.79  E-value=3.6e+02  Score=20.86  Aligned_cols=61  Identities=16%  Similarity=0.257  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CccccCChhHHHHHHHHHHHHHHHhhccCchhhhhcccCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8VR88|F8VR  111 PTVFDLSPQQKEWQRMLQLIQSRLQEEHSLQDVIFKSAFKSTSTALPPREDDSSQSPNACRIHGH  175 (175)
+Q Consensus       111 ptvfdlspqqkewqrmlqliqsrlqeehslqdvifksafkststalppreddssqspnacrihgh  175 (175)
+                      |.+-++--.+.++..|++.|...+.+.-+...-+.+.....+.    -....-.-|.|.|.+-.|
+T Consensus        86 p~v~~y~~Ae~~~~~ll~eI~~~I~~~i~~~~~~~~~~~~~~~----~~g~~~~~~~~~~~~~~~  146 (151)
+T 2PIH_B           86 PVIQEFRDSQMEVNDLLQLVAHTISNQVTNEIITSTGGDLLKG----ETGSKVKHSNNSCSLLEH  146 (151)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCC--------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhcccccccCCCccccC----CCCCccccCCCccccccc
+
+

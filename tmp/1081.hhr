@@ -1,0 +1,555 @@
+Query         sp|P01579|IFNG_HUMAN
+Match_columns 166
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:05:27 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1081.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6E3K_A Interferon gamma, Inter 100.0 7.6E-31 8.2E-36  197.0  11.3  140   20-159     1-140 (148)
+  2 2RIG_A INTERFERON-GAMMA; CYTOK 100.0 1.4E-29 1.6E-34  188.5  10.6  142   24-165     1-142 (144)
+  3 3BES_L Interferon gamma, Inter 100.0 2.7E-29   3E-34  185.7  11.3  138   24-161     2-139 (139)
+  4 1EKU_B CRYSTAL STRUCTURE OF A  100.0 7.9E-28 8.6E-33  192.3  12.7  149   13-161   117-265 (265)
+  5 1FYH_D INTERFERON GAMMA/INTERF  99.9 4.8E-27 5.3E-32  187.2  12.7  148    9-156   111-258 (258)
+  6 1D9C_A INTERFERON GAMMA; helic  99.9 1.9E-23 2.1E-28  150.7  12.3  120   25-144     2-121 (121)
+  7 1FYH_D INTERFERON GAMMA/INTERF  99.9 1.8E-23   2E-28  166.9  11.6  123   24-146     2-124 (258)
+  8 1EKU_B CRYSTAL STRUCTURE OF A   99.9 6.9E-22 7.5E-27  158.5  11.1  124   24-147     2-125 (265)
+  9 6F1E_A Interferon gamma; Inter  99.8 3.1E-20 3.4E-25  143.5   7.1  128   21-149     1-152 (175)
+ 10 3V6A_A Apoptosis inhibitor 5;   69.3      83  0.0009   28.6   8.5   67   18-84     11-80  (474)
+ 11 1N1F_A Interleukin-19; cytokin  61.4 1.2E+02  0.0013   23.5   8.8  122   20-143     9-149 (159)
+ 12 6DF3_C Interleukin-22 receptor  59.6      74  0.0008   24.4   5.7  117   25-143    16-149 (155)
+ 13 6GG1_A Interleukin-24; cytokin  59.0 1.2E+02  0.0013   22.9   8.7  115   25-143    15-148 (154)
+ 14 3VP8_B General transcriptional  47.1      69 0.00075   23.7   3.7   30  114-143    40-69  (92)
+ 15 7NRC_A 40S ribosomal protein S  45.9 1.6E+02  0.0018   31.7   7.2   20   66-85    227-246 (1209)
+ 16 5X2D_B Tegumental protein 20.8  45.3 1.3E+02  0.0014   19.0   4.7   32   70-101    20-51  (95)
+ 17 3VP9_B General transcriptional  43.0      87 0.00094   23.3   3.7   23  120-142    46-68  (92)
+ 18 2MXT_A Heterogeneous nuclear r  42.2      55 0.00059   22.8   2.5   22   23-44     13-34  (85)
+ 19 4DOH_C Interleukin-20, Interle  40.8 2.6E+02  0.0028   21.3   8.3  115   25-143    17-149 (153)
+ 20 5IJO_Z Nuclear pore complex pr  29.3   1E+03   0.011   24.7   9.6   22  124-145   468-494 (522)
+ 21 7PER_H Nuclear Pore Complex, N  29.3   1E+03   0.011   24.7   9.6   14  134-147   483-496 (522)
+ 22 5FWZ_A CALCIUM BINDING PROTEIN  26.7 2.9E+02  0.0031   17.5   5.1    8   94-101    46-53  (98)
+ 23 3U0R_A Apoptosis inhibitor 5;   23.6   4E+02  0.0044   24.7   5.3   57   28-84      4-63  (507)
+ 24 6FG8_B Somatic embryogenesis r  23.6 1.7E+02  0.0019   19.9   2.4   37    2-38      2-38  (241)
+ 25 4DS1_C Dynein light chain 1, c  20.9   4E+02  0.0044   17.1   4.6   16   68-83     25-40  (97)
+ 26 6XTU_B Lysine export transcrip  20.8   4E+02  0.0043   19.0   3.8   15   87-101    50-64  (310)
+
+No 1
+>6E3K_A Interferon gamma, Interferon gamma receptor; cytokine receptor, protein complex, protein; HET: NAG, BMA, CYS, MAN, EDO; 3.25A {Homo sapiens}
+Probab=99.97  E-value=7.6e-31  Score=196.97  Aligned_cols=140  Identities=96%  Similarity=1.282  Sum_probs=135.8  Template_Neff=6.300
+
+Q ss_pred             CCCCCChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHH
+Q sp|P01579|IFNG   20 GCYCQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKED   99 (166)
+Q Consensus        20 gcycqdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetiked   99 (166)
+                      |||||++|+++|++|++|||+++++++||+|||++++.+|++++|+++||++||++|++||++|++++++++++++|+++
+T Consensus         1 ~~~~~~~~~~~I~~L~~hyn~s~~~~~~g~plF~~~l~~~~~~~e~kilms~iL~vY~~If~~ml~~~~vk~sl~~i~~~   80 (148)
+T 6E3K_A            1 GPGSQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKED   80 (148)
+T ss_pred             CCCCCHHHHHHHHHHHHHhcCChHHcccCCCCchHhhccccchHhcHHHHHHHHHHHHHHHHHhccCHHHHHHHHHHHHH
+Confidence            89999999999999999999999999999999999999999889999999999999999999999999999999999999
+
+
+Q ss_pred             HhhhcccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCCCCCCcccCCC
+Q sp|P01579|IFNG  100 MNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLF  159 (166)
+Q Consensus       100 mnvkffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaaktgkrkrsqmlf  159 (166)
+                      |+++||+++.+++++|++|++|+|||++||||||+||.+||++||+++.++||||+|+..
+T Consensus        81 l~~~~~~~~~~~~~~L~~L~~Ikv~D~~VQrKAl~EL~~V~~~as~~~~~~krkr~~~~~  140 (148)
+T 6E3K_A           81 MNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQAAA  140 (148)
+T ss_pred             HHHhcccCchhhHHHHHHHHcCCCCChhhHHHHHHHHHHHHHHhcchhccccHHHHhccc
+Confidence            988889998899999999999999999999999999999999999999999999999864
+
+
+No 2
+>2RIG_A INTERFERON-GAMMA; CYTOKINE; 2.3A {Oryctolagus cuniculus} SCOP: a.26.1.3
+Probab=99.96  E-value=1.4e-29  Score=188.52  Aligned_cols=142  Identities=64%  Similarity=0.916  Sum_probs=137.1  Template_Neff=6.500
+
+Q ss_pred             CChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHhhh
+Q sp|P01579|IFNG   24 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK  103 (166)
+Q Consensus        24 qdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetikedmnvk  103 (166)
+                      +++|+++|++|++|||+++++++||+|||++++.+|++++|+++||++||++|++||++|+++++|++++++|+++|.++
+T Consensus         1 ~~~~~~~I~~L~~~yn~s~~~~~~g~plF~~~l~~~~~~~e~~ilm~~iL~vY~~if~~ml~~~~vk~sl~~i~~~l~~~   80 (144)
+T 2RIG_A            1 QDTLTRETEHLKAYLKANTSDVANGGPLFLNILRNWKEESDNKIIQSQIVSFYFKLFDNLKDHEVIKKSMESIKEDIFVK   80 (144)
+T ss_pred             CchHHHHHHHHHHHHcCChhHhhcCCCchhHhhccCcchhhcHHHHHHHHHHHHHHHHHHccCHHHHHHHHHHHHHHHHH
+Confidence            36799999999999999999999999999999999998889999999999999999999999999999999999999999
+
+
+Q ss_pred             cccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCCCCCCcccCCCCCCCCC
+Q sp|P01579|IFNG  104 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRGRRAS  165 (166)
+Q Consensus       104 ffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaaktgkrkrsqmlfrgrras  165 (166)
+                      ||+++.+++++|++|++|+|||++||||||+||.+||++||..+..++|||||+++++||+|
+T Consensus        81 ~~~~~~~~~~~L~~L~~Ikv~D~~vQrKAl~El~~Vy~~as~~~~~~krrR~~~~~~~r~~~  142 (144)
+T 2RIG_A           81 FFNSNLTKMDDFQNLTRISVDDRLVQRKAVSELSNVLNFLSPKSNLKKRKRSQTLFRGRRAS  142 (144)
+T ss_pred             hccccchhhHHHHHHHhCCCCCHHhHHHHHHHHHHHHHHhCccccchhhHHHHHHHhccccC
+Confidence            99999999999999999999999999999999999999999989999999999999999987
+
+
+No 3
+>3BES_L Interferon gamma, Interferon-gamma binding protein; ectromelia virus, orthopoxvirus, interferon, protein; HET: BMA, NAG, PO4; 2.2A {Homo sapiens} SCOP: a.26.1.3
+Probab=99.96  E-value=2.7e-29  Score=185.69  Aligned_cols=138  Identities=100%  Similarity=1.376  Sum_probs=129.9  Template_Neff=6.600
+
+Q ss_pred             CChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHhhh
+Q sp|P01579|IFNG   24 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK  103 (166)
+Q Consensus        24 qdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetikedmnvk  103 (166)
+                      ..+|+++|++|++|||+++++++||+|+|++++.+|++++|+++||++||++|++||++|++++++++++++|+++|.++
+T Consensus         2 ~~~~~~~I~~L~~~~~~s~~~~~~g~plF~~~l~~~~~~~e~kill~~iL~vY~~if~~m~~~~~~k~sl~~i~~~l~~~   81 (139)
+T 3BES_L            2 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK   81 (139)
+T ss_dssp             CHHHHHHHHHHHHHTTCCSGGGGCSSCSSHHHHHHCCSHHHHHHHHHHHHHHHHHHHHTTTTCSTTHHHHHHHHHHHHHH
+T ss_pred             chhHHHHHHHHHHHhcCChHHcccCCCCchHhhccCcchHhcHHHHHHHHHHHHHHHHHhccCHHHHHHHHHHHHHHHHh
+Confidence            45799999999999999999999999999999999999899999999999999999999999999999999999999988
+
+
+Q ss_pred             cccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCCCCCCcccCCCCC
+Q sp|P01579|IFNG  104 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRG  161 (166)
+Q Consensus       104 ffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaaktgkrkrsqmlfrg  161 (166)
+                      ||+++.+++++|++|++|+|||++||||||+||++||++||++++.+||||||++++|
+T Consensus        82 ~~~~~~~~~~~L~~L~~i~v~D~~vQrKAl~El~~Vy~~as~~~~~~krkr~~~~~~~  139 (139)
+T 3BES_L           82 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRG  139 (139)
+T ss_dssp             TSTTCHHHHHHHHHHHHCCTTCHHHHHHHHHHHHHHHHHHSCGGGSCCCSCCE----T
+T ss_pred             cccCchhhHHHHHHHHcCCCCChhhHHHHHHHHHHHHHHhchHhhcccchHHhhhhcC
+Confidence            9999999999999999999999999999999999999999999999999999998875
+
+
+No 4
+>1EKU_B CRYSTAL STRUCTURE OF A BIOLOGICALLY; CYTOKINE, PROTEIN ENGINEERING, INTERFERON, IMMUNE; HET: SO4; 2.9A {Homo sapiens} SCOP: a.26.1.3
+Probab=99.95  E-value=7.9e-28  Score=192.30  Aligned_cols=149  Identities=92%  Similarity=1.234  Sum_probs=132.1  Template_Neff=6.800
+
+Q ss_pred             hhhhCCCCCCCCChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHH
+Q sp|P01579|IFNG   13 CIVLGSLGCYCQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKS   92 (166)
+Q Consensus        13 civlgslgcycqdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqks   92 (166)
+                      ...-++.+||||++|+++|++|++||++++++++||+|+|++++.+|++++|++++|++||++|++||++|+++++++++
+T Consensus       117 V~~~as~l~~~~~~l~~~i~~L~~~~~~~~~~~~~g~plF~~~l~~~~~~~e~~~lm~~iL~vY~~if~~ml~~~~v~~s  196 (265)
+T 1EKU_B          117 VMAEFSTEEQQEGPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKS  196 (265)
+T ss_dssp             HHHHTCSSCCCCSSTHHHHHHHHHHTTTTSTTTSSSCCSSHHHHHTCCSHHHHHHHHHHHHHHHHHHHHHHTTCHHHHHH
+T ss_pred             HHHHhcccccccchHHHHHHHHHHHhcCChhHcccCCCCchHhhccCcchHHhHHHHHHHHHHHHHHHHHHccCHHHHHH
+Confidence            44567789999999999999999999999999999999999999999998999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHhhhcccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCCCCCCcccCCCCC
+Q sp|P01579|IFNG   93 VETIKEDMNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRG  161 (166)
+Q Consensus        93 vetikedmnvkffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaaktgkrkrsqmlfrg  161 (166)
+                      ++.|+++|+++||+++.+++++|++|++|+|||++||||||+||.+||++||+++..+||||||++++|
+T Consensus       197 l~~l~~~l~~~~~~~~~~~~~~L~~L~~IkvdD~~vQrKAl~El~~Vy~~as~l~~~~krkr~~~~~~~  265 (265)
+T 1EKU_B          197 VETIKEDMNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQMLFRG  265 (265)
+T ss_dssp             HHHHHHHHHHHHHTTCHHHHHHHHHHHHSCSSCHHHHHHHHHHHHHHHHTTC-----------CCSSCC
+T ss_pred             HHHHHHHHHHhcccCchhhHHHHHHHHcCCCCChhhHHHHHHHHHHHHHHhchHhhcccchHHhhhhcC
+Confidence            999999998888999999999999999999999999999999999999999999999999999998875
+
+
+No 5
+>1FYH_D INTERFERON GAMMA/INTERFERON-GAMMA RECEPTOR ALPHA CHAIN; CYTOKINE-RECEPTOR COMPLEX, FIBRONECTIN TYPE-III, IMMUNE; 2.04A {Homo sapiens} SCOP: a.26.1.3
+Probab=99.95  E-value=4.8e-27  Score=187.21  Aligned_cols=148  Identities=90%  Similarity=1.215  Sum_probs=141.9  Template_Neff=6.800
+
+Q ss_pred             hhhhhhhhCCCCCCCCChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHH
+Q sp|P01579|IFNG    9 AFQLCIVLGSLGCYCQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQS   88 (166)
+Q Consensus         9 afqlcivlgslgcycqdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqs   88 (166)
+                      .+.||.|+..+|+++++.|+++|++|++||++++++++||+|+|++.+.+|++++|++++|++||++|++||++|+++++
+T Consensus       111 l~EL~~V~~~~s~i~~~~~~~~I~~L~~h~~~~~~~~~~g~plF~~~l~~~~~~~ek~llm~~iL~~Y~~if~~ml~~~~  190 (258)
+T 1FYH_D          111 IDELIQVMAELGANVSGEFVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQS  190 (258)
+T ss_pred             HHHHHHHHHHcCCCCChhHHHHHHHHHHHhcCChhHccCCCCCchHhhccCcchHHhHHHHHHHHHHHHHHHHHHccCHH
+Confidence            46789999999999999999999999999999999999999999999999998889999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhhhcccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCCCCCCccc
+Q sp|P01579|IFNG   89 IQKSVETIKEDMNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQ  156 (166)
+Q Consensus        89 iqksvetikedmnvkffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaaktgkrkrsq  156 (166)
+                      +++++.+|+++|+++||+++.+++++|++|++|+|||++||||||+||.+||++||++++.+||||++
+T Consensus       191 v~~sl~~i~~~l~~~~~~~~~~~~~~L~~L~~IkvdD~~vQrKAl~El~~V~~~as~~~~~~~~kr~~  258 (258)
+T 1FYH_D          191 IQKSVETIKEDMNVKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKTGKRKRSQ  258 (258)
+T ss_pred             HHHHHHHHHHHHHHhccCCchhhHHHHHHHHcCCCCCHhhHHHHHHHHHHHHHHhchHhhcccccccC
+Confidence            99999999999998899998899999999999999999999999999999999999999998888875
+
+
+No 6
+>1D9C_A INTERFERON GAMMA; helical homodimer, IMMUNE SYSTEM; 2.0A {Bos taurus} SCOP: a.26.1.3
+Probab=99.91  E-value=1.9e-23  Score=150.66  Aligned_cols=120  Identities=60%  Similarity=0.940  Sum_probs=116.5  Template_Neff=6.900
+
+Q ss_pred             ChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHhhhc
+Q sp|P01579|IFNG   25 DPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVKF  104 (166)
+Q Consensus        25 dpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetikedmnvkf  104 (166)
+                      ++|+++|++|++|||+++++++||+|+|++.+.+|++++|++++|++||++|++||++|++++++++++++|+++|.++|
+T Consensus         2 ~~~~~~I~~L~~~~~~s~~~~~~g~plF~~~l~~~~~~~ek~ilm~~iL~vY~~if~~m~~~~~~~~sl~~i~~~l~~~~   81 (121)
+T 1D9C_A            2 GQFFREIENLKEYFNASSPDVAKGGPLFSEILKNWKDESDKKIIQSQIVSFYFKLFENLKDNQVIQRSMDIIKQDMFQKF   81 (121)
+T ss_dssp             HHHHHHHHHHHHHHTCSSTTSSTTCCSSHHHHHHTTTCTTTHHHHHHHHHHHHHHHHTTTTCTTTHHHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHhcCChhHHhcCCCCchHhHhcCCchhhcHHHHHHHHHHHHHHHHHHccCHHHHHHHHHHHHHHHHhc
+Confidence            57999999999999999999999999999999999988899999999999999999999999999999999999999999
+
+
+Q ss_pred             ccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcC
+Q sp|P01579|IFNG  105 FNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELS  144 (166)
+Q Consensus       105 fnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaels  144 (166)
+                      |+++..++++|++|++|+|||++||||||+||.+||++||
+T Consensus        82 ~~~~~~~~~~L~~L~~i~v~D~~vQrKAl~El~~Vy~~~~  121 (121)
+T 1D9C_A           82 LNGSSEKLEDFKKLIQIPVDDLQIQRKAINELIKVMNDLS  121 (121)
+T ss_dssp             STTCHHHHHHHHHHHTCCSSCHHHHHHHHHTHHHHHHHHC
+T ss_pred             ccCChhhHHHHHHHHcCCCCCHHHHHHHHHHHHHHHHHhC
+Confidence            9999999999999999999999999999999999999986
+
+
+No 7
+>1FYH_D INTERFERON GAMMA/INTERFERON-GAMMA RECEPTOR ALPHA CHAIN; CYTOKINE-RECEPTOR COMPLEX, FIBRONECTIN TYPE-III, IMMUNE; 2.04A {Homo sapiens} SCOP: a.26.1.3
+Probab=99.91  E-value=1.8e-23  Score=166.95  Aligned_cols=123  Identities=97%  Similarity=1.329  Sum_probs=118.1  Template_Neff=6.800
+
+Q ss_pred             CChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHhhh
+Q sp|P01579|IFNG   24 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK  103 (166)
+Q Consensus        24 qdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetikedmnvk  103 (166)
+                      ..+|+++|++|++|||+++++++||+|+|++++.+|++++|++++|++||++|++||++|++++++++++.+|+++|+++
+T Consensus         2 ~~~~~~~i~~L~~~~n~~~~~~~~g~plF~~~l~~~~~~~e~~il~~~il~~Y~~if~~ml~~~~~~~s~~~i~~~l~~~   81 (258)
+T 1FYH_D            2 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK   81 (258)
+T ss_pred             chhHHHHHHHHHHHhcCChHHcccCCCChhHhhccccchHhchhhHHHHHHHHHHHHHHhccCHHHHHHHHHHHHHHHHH
+Confidence            46899999999999999999999999999999999998889999999999999999999999999999999999999888
+
+
+Q ss_pred             cccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCC
+Q sp|P01579|IFNG  104 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPA  146 (166)
+Q Consensus       104 ffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspa  146 (166)
+                      ||+++.+++++|++|++|+|||++||||||+||.+||++|+..
+T Consensus        82 ~~~~~~~~~~~l~~L~~i~v~D~~VQrKAl~EL~~V~~~~s~i  124 (258)
+T 1FYH_D           82 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIDELIQVMAELGAN  124 (258)
+T ss_pred             cccCchhhHHHHHHhhcCCCCCHHHHHHHHHHHHHHHHHcCCC
+Confidence            8998889999999999999999999999999999999999965
+
+
+No 8
+>1EKU_B CRYSTAL STRUCTURE OF A BIOLOGICALLY; CYTOKINE, PROTEIN ENGINEERING, INTERFERON, IMMUNE; HET: SO4; 2.9A {Homo sapiens} SCOP: a.26.1.3
+Probab=99.88  E-value=6.9e-22  Score=158.47  Aligned_cols=124  Identities=96%  Similarity=1.318  Sum_probs=119.5  Template_Neff=6.800
+
+Q ss_pred             CChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHhhh
+Q sp|P01579|IFNG   24 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK  103 (166)
+Q Consensus        24 qdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkddqsiqksvetikedmnvk  103 (166)
+                      .+.|+++|++|++||++++++++||+|+|++++.+|++++|++++|++||++|++||++|++++++++++..|+++|+.+
+T Consensus         2 ~~~~~~~I~~L~~~~~~s~~~v~~g~plF~~~l~~~~~~~e~~ilm~~iL~~Y~~ifs~ml~~~~~~~s~~~v~~~Lk~~   81 (265)
+T 1EKU_B            2 QDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKDDQSIQKSVETIKEDMNVK   81 (265)
+T ss_dssp             CSHHHHHHHHHHHHTTTTSSTTSCSSCSSHHHHHTCCSHHHHHHHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHH
+T ss_pred             CchHHHHHHHHHHHhcCChhHhccCCCCchHHhcccchhhhchhhHHHHHHHHHHHHHHHccChhhHHHHHHHHHHHHHH
+Confidence            57899999999999999999999999999999999999899999999999999999999999999999999999999988
+
+
+Q ss_pred             cccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCc
+Q sp|P01579|IFNG  104 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAA  147 (166)
+Q Consensus       104 ffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaa  147 (166)
+                      +|+++.+++++|++|++|+|||++||||||+||.+||++||+++
+T Consensus        82 ~~~~~~~~~~~L~~L~~Ikv~D~~vQrKAl~El~~V~~~as~l~  125 (265)
+T 1EKU_B           82 FFNSNKKKRDDFEKLTNYSVTDLNVQRKAIDELIQVMAEFSTEE  125 (265)
+T ss_dssp             HHTTCHHHHHHHHHHHTSCSSCHHHHHHHHHHHHHHHHHTCSSC
+T ss_pred             cccCchhhHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHhcccc
+Confidence            99999999999999999999999999999999999999999654
+
+
+No 9
+>6F1E_A Interferon gamma; Interferon gamma, Four-helix bundle, Antiviral; 2.296A {Paralichthys olivaceus}
+Probab=99.82  E-value=3.1e-20  Score=143.54  Aligned_cols=128  Identities=16%  Similarity=0.229  Sum_probs=115.7  Template_Neff=6.200
+
+Q ss_pred             CCCCChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCCC---------------
+Q sp|P01579|IFNG   21 CYCQDPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFKD---------------   85 (166)
+Q Consensus        21 cycqdpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfkd---------------   85 (166)
+                      ||||++|+++|++|++||++++++++||+|+|++++.+|++ +|+++||++||++|++||++|++               
+T Consensus         1 ~~i~~~l~~~I~~L~~h~~~~~~~~~~g~plF~~~l~~~k~-eek~ilm~~iL~vY~kIF~~ml~~~~~~~~~~~~~~~~   79 (175)
+T 6F1E_A            1 SHIPARMNKTIQNLLQHYNISNKDRFNGKPVFPKEPLSGRM-ETKMLFMGGVLETYEKLIGQMLEQLPNTTPPTAGSREG   79 (175)
+T ss_dssp             -CCCHHHHHHHHHHHHHSCCCHHHHTSSCCSSCSTTSSSCH-HHHHHHHHHHHHHHHHHHHHHHHTSCC-----------
+T ss_pred             CCcCHHHHHHHHHHHHHcCCChhHhcCCCCCCCCCCCCCCH-HHHHHHHHHHHHHHHHHHHHHHHcCCCCCCCCCCcccc
+Confidence            69999999999999999999999999999999999999986 49999999999999999999973               
+
+
+Q ss_pred             ------cHHHHHHHHHHHHHHh---hhcccCChhhHHHHHHHhcCChhhHHHHHHHHHHHHHHHHHcCCCcCC
+Q sp|P01579|IFNG   86 ------DQSIQKSVETIKEDMN---VKFFNSNKKKRDDFEKLTNYSVTDLNVQRKAIHELIQVMAELSPAAKT  149 (166)
+Q Consensus        86 ------dqsiqksvetikedmn---vkffnsnkkkrddfekltnysvtdlnvqrkaiheliqvmaelspaakt  149 (166)
+                            +++|+++|++|+++|.   +++|++..+++++|++|++|+|||++||+|||+||.+||++||.++..
+T Consensus        80 ~~~~~~~~~V~~~L~~i~~~m~~Lk~~~~~~~~~~~~~L~~L~~IkvdD~~VQrKAL~EL~~Vyq~As~l~~~  152 (175)
+T 6F1E_A           80 LNSAAPEVSVRTDLNYILKKVQELRTNRFKEQSKLLQGLHDLGDIKMNNFIIQSKALWELQWMYEEASSLSNN  152 (175)
+T ss_dssp             --------CHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHTCCTTCHHHHHHHHHTHHHHHHHHHHHTCS
+T ss_pred             cCCCCCCHHHHHHHHHHHHHHHHHHHhcccchHHHHHHHHHHhcCCCCChhhHHHHHHHHHHHHHHHhcccch
+Confidence                  3567889999997764   478888888999999999999999999999999999999999977643
+
+
+No 10
+>3V6A_A Apoptosis inhibitor 5; HEAT and Armadillo-like repeat, FGF-2; 2.6A {Homo sapiens}
+Probab=69.27  E-value=83  Score=28.56  Aligned_cols=67  Identities=19%  Similarity=0.275  Sum_probs=42.9  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCChHHHHHHHHHHHHHcCC---chhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCC
+Q sp|P01579|IFNG   18 SLGCYCQDPYVKEAENLKKYFNAGH---SDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFK   84 (166)
+Q Consensus        18 slgcycqdpyvkeaenlkkyfnagh---sdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfk   84 (166)
+                      +.|+.....+..+|+.|.++|+.-.   .+.......|..++.-.+.....|.|-++.+.-|++-|-.+.
+T Consensus        11 ~~~~~~~~~~~~~ve~lY~~~~~l~~~~~~~~~~~~~y~~il~~~k~~~~~K~Laaq~I~rffk~FP~l~   80 (474)
+T 3V6A_A           11 SSGLVPRGSHMPTVEELYRNYGILADATEQVGQHKDAYQVILDGVKGGTKEKRLAAQFIPKFFKHFPELA   80 (474)
+T ss_dssp             -----------CCHHHHHHHHHHHHHTGGGGGGGHHHHHHHHHGGGSCHHHHHHHHHHHHHHHTTCGGGH
+T ss_pred             CCCCCCCCCCCCcHHHHHHHhhHHcccccchhhcHHHHHHHHHHcCCCHHHHHHHHHHHHHHHhhCHHHH
+Confidence            4466666677889999999997632   223445678888888766445568999999999999888764
+
+
+No 11
+>1N1F_A Interleukin-19; cytokine, interleukin, four helix bundle; HET: NAG; 1.95A {Homo sapiens} SCOP: a.26.1.3
+Probab=61.43  E-value=1.2e+02  Score=23.49  Aligned_cols=122  Identities=12%  Similarity=0.163  Sum_probs=70.2  Template_Neff=7.700
+
+Q ss_pred             CCCCC---ChHHHHHHHHHHHHHcCCchhhhhhhHHH-HHHHhCCCHHHHHHHHHHHHHHHH-HHHHhCCC-cHHH----
+Q sp|P01579|IFNG   20 GCYCQ---DPYVKEAENLKKYFNAGHSDVADNGTLFL-GILKNWKEESDRKIMQSQIVSFYF-KLFKNFKD-DQSI----   89 (166)
+Q Consensus        20 gcycq---dpyvkeaenlkkyfnaghsdvadngtlfl-gilknwkeesdrkimqsqivsfyf-klfknfkd-dqsi----   89 (166)
+                      +|.+|   ..+.+....+++++...+.+..  ..+++ ..+...-+..+.+-+|..+|++|. ++|.+-.. ++.+    
+T Consensus         9 ~c~~~~~l~elr~~~~~ik~~~q~~D~~~~--~rLL~~~~~~~~~~~~~~C~~~~~lL~FYl~~Vf~~~~~~~~~~~~~~   86 (159)
+T 1N1F_A            9 RCLISTDMHHIEESFQEIKRAIQAKDTFPN--VTILSTLETLQIIKPLDVCCVTKNLLAFYVDRVFKDHQEPNPKILRKI   86 (159)
+T ss_dssp             STTTTSBHHHHHHHHHHHHHHHHTTCSCTT--CCTTGGGGSSSCCSHHHHHHHHHHHHHCCCCCCHHHCCCCCHHHHHHH
+T ss_pred             CCCCCCcHHHHHHHHHHHHHHHHhcCCCCC--cccccchhHHhhcCccchHHHHHHHHHHHHHhhcccCCCCChhhhhcH
+Confidence            45555   4567789999999876555422  23332 111111235688999999999996 89987654 4433    
+
+
+Q ss_pred             ---HHHHHHHHHHHhhh----cccCChhhHHHHHHHhcC--ChhhHHHHHHHHHHHHHHHHHc
+Q sp|P01579|IFNG   90 ---QKSVETIKEDMNVK----FFNSNKKKRDDFEKLTNY--SVTDLNVQRKAIHELIQVMAEL  143 (166)
+Q Consensus        90 ---qksvetikedmnvk----ffnsnkkkrddfekltny--svtdlnvqrkaiheliqvmael  143 (166)
+                         .+++..|+.+|..=    ++.-.......+..+...  +++...-..||+.||--+++-.
+T Consensus        87 ~~l~n~l~~L~~~L~~C~~~~~~~c~~~~~~~~~~~~~~f~kl~~~~~~~KAiGEldiLl~wi  149 (159)
+T 1N1F_A           87 SSIANSFLYMQKTLRQCQEQRQCHCRQEATNATRVIHDNYDQLEVHAAAIKSLGELDVFLAWI  149 (159)
+T ss_dssp             HHHHHHHHHHHHHHHHHC---CCCCCHHHHHHHHHHHHHHHHSCHHHHHHHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhcccccCCCCchhHhHHHHHHHHHHHhhChhHHHHHHHHHHHHHHHHH
+Confidence               35566666677642    222222122222222211  2332445679999998887754
+
+
+No 12
+>6DF3_C Interleukin-22 receptor subunit alpha-1, Interleukin-24; cytokine, ternary complex, cell signaling; HET: GOL, NAG; 2.15A {Homo sapiens}
+Probab=59.63  E-value=74  Score=24.37  Aligned_cols=117  Identities=13%  Similarity=0.173  Sum_probs=63.9  Template_Neff=7.800
+
+Q ss_pred             ChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHH-HHHhCCC---cH-------HHHHHH
+Q sp|P01579|IFNG   25 DPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFK-LFKNFKD---DQ-------SIQKSV   93 (166)
+Q Consensus        25 dpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyfk-lfknfkd---dq-------siqksv   93 (166)
+                      ..+.+.+..+++++...|.+.  +..+....+...-+..+.+-+|..+|++|.+ +|.+...   ++       .+.+++
+T Consensus        16 ~~lr~~f~~ik~~~q~~D~~~--~~rLL~~~~~~~~~~~~~C~~~~~lL~FYl~~Vf~~~~~~~~~~~~~~~~~~l~n~f   93 (155)
+T 6DF3_C           16 QKLWEAFWAVKDTMQAQDQIT--SARLLQQEVLQQVSDAESCYLVHTLLEFYLKTVFKNHHQRTVEVRTLKSFSTLANNF   93 (155)
+T ss_pred             HHHHHHHHHHHHHHHhcCCCC--ceeccCHHHHhCCChhhHHHHHHHHHHHHHHHhhhhchhcCCchhhHHhHHHHHHHH
+Confidence            457788888888876554443  2344444433222345788999999999966 8866532   22       233455
+
+
+Q ss_pred             HHHHHHHhhhc----ccCChhhHHHHHHHhcC--ChhhHHHHHHHHHHHHHHHHHc
+Q sp|P01579|IFNG   94 ETIKEDMNVKF----FNSNKKKRDDFEKLTNY--SVTDLNVQRKAIHELIQVMAEL  143 (166)
+Q Consensus        94 etikedmnvkf----fnsnkkkrddfekltny--svtdlnvqrkaiheliqvmael  143 (166)
+                      ..|+.+|+.-+    +.........+..+..-  ++++..-=.||+.||--+++-.
+T Consensus        94 ~~Lk~~L~~C~~~~~~~c~~~~~~~~~~i~~~~~kl~~~~g~~KAiGEldill~~i  149 (155)
+T 6DF3_C           94 VLIVSQLQPSQENEMFSIRDSAHRRFLLFRRAFKQLDVEAALTKALGEVDILLTWM  149 (155)
+T ss_pred             HHHHHHhHhcccccCCCCcHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHHH
+Confidence            55666665422    11111111112222211  2332223369999998887654
+
+
+No 13
+>6GG1_A Interleukin-24; cytokine, IL-10 family, immunity, automated; HET: SO4; 1.3A {Homo sapiens}
+Probab=58.98  E-value=1.2e+02  Score=22.86  Aligned_cols=115  Identities=14%  Similarity=0.223  Sum_probs=61.6  Template_Neff=8.200
+
+Q ss_pred             ChHHHHHHHHHHHHHcCCchhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHH-HHHHhCCC---cH-------HHHHHH
+Q sp|P01579|IFNG   25 DPYVKEAENLKKYFNAGHSDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYF-KLFKNFKD---DQ-------SIQKSV   93 (166)
+Q Consensus        25 dpyvkeaenlkkyfnaghsdvadngtlflgilknwkeesdrkimqsqivsfyf-klfknfkd---dq-------siqksv   93 (166)
+                      ..+......+++++...+.+..  .-+..+.+....+..+.+-+|..+|++|. ++|.+...   ++       .+.+++
+T Consensus        15 ~~l~~~~~~ik~~~q~~D~~~~--~rLL~~~~~~~~~~~~~C~~~~~lL~FYl~~Vf~~~~~~~~~~~~~~~~~~l~~~l   92 (154)
+T 6GG1_A           15 QELWEAFWAVRDTLQAQDNITD--VRLLRAEVLQNVSDAESCYLVHQLLRFYLDTVFKNYHNKTAELRTLKSFSTLANNF   92 (154)
+T ss_dssp             HHHHHHHHHHHTTC-----------CCSCHHHHHTCCHHHHHHHHHHHHHHCCCCCHHHCGGGGSSHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHcCCCCC--eeccCHHHHhcCCchhhHHHHHHHHHHHHHHhhhhccccccchhcHhcHHHHHHHH
+Confidence            3455555666555543333222  23333433333345688999999999995 88877643   22       234566
+
+
+Q ss_pred             HHHHHHHhhhc----ccCChhhHHHH----HHHhcCChhhHHHHHHHHHHHHHHHHHc
+Q sp|P01579|IFNG   94 ETIKEDMNVKF----FNSNKKKRDDF----EKLTNYSVTDLNVQRKAIHELIQVMAEL  143 (166)
+Q Consensus        94 etikedmnvkf----fnsnkkkrddf----ekltnysvtdlnvqrkaiheliqvmael  143 (166)
+                      ..|+.+|+.-.    ..........+    ....++.++  .-..||+.||--+++-.
+T Consensus        93 ~~l~~~L~~C~~~~~~~~~~~~~~~~~~i~~~~~kl~~~--~~~~KAigEldiLl~wi  148 (154)
+T 6GG1_A           93 VLIVSDLQPCQEQNMCSSREEAHRRFLQFQRAFEQLDVE--AAATKALGEIDILLRWM  148 (154)
+T ss_dssp             HHHHHHHHHHHHTTCSCCCHHHHHHHHHHHHHHHTSCHH--HHHHHHHHTHHHHHHHH
+T ss_pred             HHHHHhcHhccccCCCCCCHHHHHHHHHHHHHHHhcCHH--HHHHHHHHHHHHHHHHH
+Confidence            77777776422    22222222222    223444433  34569999999888754
+
+
+No 14
+>3VP8_B General transcriptional corepressor TUP1; Four helix bundle, TRANSCRIPTION; 1.91A {Saccharomyces cerevisiae}
+Probab=47.10  E-value=69  Score=23.72  Aligned_cols=30  Identities=17%  Similarity=0.295  Sum_probs=18.9  Template_Neff=6.300
+
+Q ss_pred             HHHHHhcCChhhHHHHHHHHHHHHHHHHHc
+Q sp|P01579|IFNG  114 DFEKLTNYSVTDLNVQRKAIHELIQVMAEL  143 (166)
+Q Consensus       114 dfekltnysvtdlnvqrkaiheliqvmael  143 (166)
+                      ++..=..-++++...=+.+|.||-.-....
+T Consensus        40 e~E~k~~~Q~~El~~ir~~l~eLE~~h~~~   69 (92)
+T 3VP8_B           40 DYDFKMNQQLAEMQQIRNTVYELELTHRKM   69 (92)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            344444556666677778888887665543
+
+
+No 15
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=45.89  E-value=1.6e+02  Score=31.72  Aligned_cols=20  Identities=20%  Similarity=0.468  Sum_probs=12.8  Template_Neff=1.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCC
+Q sp|P01579|IFNG   66 KIMQSQIVSFYFKLFKNFKD   85 (166)
+Q Consensus        66 kimqsqivsfyfklfknfkd   85 (166)
+                      ++.-..++.+|..|+..+..
+T Consensus       227 KIG~pKaI~lyPeLikLLqD  246 (1209)
+T 7NRC_A          227 KFFEPYVIEILPNILKNLGD  246 (1209)
+T ss_pred             hhcCchhhhhHHHHHHHhcC
+Confidence            44445566777777777654
+
+
+No 16
+>5X2D_B Tegumental protein 20.8 kDa; Calcium-binding protein, Tegument protein, CsTAL3; 2.6A {Clonorchis sinensis}
+Probab=45.27  E-value=1.3e+02  Score=18.97  Aligned_cols=32  Identities=9%  Similarity=0.104  Sum_probs=12.4  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHHHHHHhCCCcHHHHHHHHHHHHHHh
+Q sp|P01579|IFNG   70 SQIVSFYFKLFKNFKDDQSIQKSVETIKEDMN  101 (166)
+Q Consensus        70 sqivsfyfklfknfkddqsiqksvetikedmn  101 (166)
+                      ..++++..+.+..-..+...+..-+.|++.+.
+T Consensus        20 ~~~~~~~~~a~~~~~~~~~~~~i~~~ik~~ld   51 (95)
+T 5X2D_B           20 IKIARETIPIAPGAQTSEELGRLTENLKSFAD   51 (95)
+T ss_dssp             HHHHHHHHHHSTTCCSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhccCCChhHHHHHHHHHHHHHH
+Confidence            44444444443332222222333344444443
+
+
+No 17
+>3VP9_B General transcriptional corepressor TUP1; Four helix bundle, TRANSCRIPTION; HET: DIO; 1.799A {Saccharomyces cerevisiae}
+Probab=43.03  E-value=87  Score=23.30  Aligned_cols=23  Identities=13%  Similarity=0.160  Sum_probs=13.3  Template_Neff=6.200
+
+Q ss_pred             cCChhhHHHHHHHHHHHHHHHHH
+Q sp|P01579|IFNG  120 NYSVTDLNVQRKAIHELIQVMAE  142 (166)
+Q Consensus       120 nysvtdlnvqrkaiheliqvmae  142 (166)
+                      .-++++...=+.+|.||-.-...
+T Consensus        46 ~~Q~~El~~ir~~l~eLE~~h~~   68 (92)
+T 3VP9_B           46 NQQLAEMQQIRNTVYERELTHRK   68 (92)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34455555566777777655443
+
+
+No 18
+>2MXT_A Heterogeneous nuclear ribonucleoprotein Q; Structural Genomics, PSI-Biology, Acidic domain; NMR {Homo sapiens}
+Probab=42.23  E-value=55  Score=22.83  Aligned_cols=22  Identities=14%  Similarity=0.071  Sum_probs=10.0  Template_Neff=7.600
+
+Q ss_pred             CCChHHHHHHHHHHHHHcCCch
+Q sp|P01579|IFNG   23 CQDPYVKEAENLKKYFNAGHSD   44 (166)
+Q Consensus        23 cqdpyvkeaenlkkyfnaghsd   44 (166)
+                      +|+.+...++.|-..-.++..+
+T Consensus        13 L~~~V~~~L~~l~~~g~~~~~d   34 (85)
+T 2MXT_A           13 LPQKVAEKLDEIYVAGLVAHSD   34 (85)
+T ss_dssp             CCHHHHHHHHHHHHTTSCCSTT
+T ss_pred             CCHHHHHHHHHHHHCCCCChhh
+Confidence            4455555555554433333333
+
+
+No 19
+>4DOH_C Interleukin-20, Interleukin-20 receptor subunit beta; IL10 Family cytokine receptor complex; HET: NAG; 2.8A {Homo sapiens}
+Probab=40.82  E-value=2.6e+02  Score=21.32  Aligned_cols=115  Identities=17%  Similarity=0.239  Sum_probs=62.1  Template_Neff=8.000
+
+Q ss_pred             ChHHHHHHHHHHHHHcCCchhhhhhhHH-HHHHHhCCCHHHHHHHHHHHHHHHHH-HHHhCCC-cH-------HHHHHHH
+Q sp|P01579|IFNG   25 DPYVKEAENLKKYFNAGHSDVADNGTLF-LGILKNWKEESDRKIMQSQIVSFYFK-LFKNFKD-DQ-------SIQKSVE   94 (166)
+Q Consensus        25 dpyvkeaenlkkyfnaghsdvadngtlf-lgilknwkeesdrkimqsqivsfyfk-lfknfkd-dq-------siqksve   94 (166)
+                      .++.+..+.+++++...+.+..  ..+. ...+.+..+..+.+-++..+|++|.+ +|.+-.. ++       .+.+++.
+T Consensus        17 ~elr~~~~~ik~~~q~~D~~~~--~rLL~~~~~~~~~~~~~~C~~~~~lL~FYl~~Vf~~~~~~~~~~~~~~~~l~n~l~   94 (153)
+T 4DOH_C           17 QEIRNGFSEIRGSVQAKDGNID--IRILRRTESLQDTKPANRCCLLRHLLRLYLDRVFKNYQTPDHYTLRKISSLANSFL   94 (153)
+T ss_pred             HHHHHHHHHHHHHHHhcCCCcc--eeeccchhccCCCCccchHHHHHHHHHHHHHHHhhcCCCCChhhhccHHHHHHHHH
+Confidence            4566777778877755444322  2333 22233333245789999999999995 8866543 22       2334555
+
+
+Q ss_pred             HHHHHHhhh--ccc----C-ChhhHHHHH-HHhcCChhhHHHHHHHHHHHHHHHHHc
+Q sp|P01579|IFNG   95 TIKEDMNVK--FFN----S-NKKKRDDFE-KLTNYSVTDLNVQRKAIHELIQVMAEL  143 (166)
+Q Consensus        95 tikedmnvk--ffn----s-nkkkrddfe-kltnysvtdlnvqrkaiheliqvmael  143 (166)
+                      .|+.+|..=  .+.    + .....+.+. ...  +++...-..||+.||--+++-.
+T Consensus        95 ~l~~~L~~C~~~~~c~~~~~~~~~~~~~k~~f~--kl~~~~g~~KAiGEldil~~wi  149 (153)
+T 4DOH_C           95 TIKKDLRLCHAHMTCHCGEEAMKKYSQILSHFE--KLEPQAAVVKALGELDILLQWM  149 (153)
+T ss_pred             HHHHHHHHhhccCCCCCChHHHHHHHHHHHHHh--hhCHHHHHHHHHHHHHHHHHHH
+Confidence            566666531  111    1 111122221 112  3442345679999998776543
+
+
+No 20
+>5IJO_Z Nuclear pore complex protein Nup155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=29.27  E-value=1e+03  Score=24.66  Aligned_cols=22  Identities=18%  Similarity=-0.028  Sum_probs=13.6  Template_Neff=2.600
+
+Q ss_pred             hhHHHHHHHH-----HHHHHHHHHcCC
+Q sp|P01579|IFNG  124 TDLNVQRKAI-----HELIQVMAELSP  145 (166)
+Q Consensus       124 tdlnvqrkai-----heliqvmaelsp  145 (166)
+                      +||+.|--=+     .-|.||-+.+..
+T Consensus       468 sDPL~qI~RILNAqLsSLQwIDEnv~e  494 (522)
+T 5IJO_Z          468 SDPLQQICKILNAHMDSLQWIDQNSAL  494 (522)
+T ss_dssp             TSSHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4555554333     667888887774
+
+
+No 21
+>7PER_H Nuclear Pore Complex, NPC, TRANSPORT; 35.0A {Homo sapiens}
+Probab=29.27  E-value=1e+03  Score=24.66  Aligned_cols=14  Identities=7%  Similarity=-0.090  Sum_probs=9.4  Template_Neff=2.600
+
+Q ss_pred             HHHHHHHHHcCCCc
+Q sp|P01579|IFNG  134 HELIQVMAELSPAA  147 (166)
+Q Consensus       134 heliqvmaelspaa  147 (166)
+                      .-|.||-+.+..+.
+T Consensus       483 sSLQwIDEnv~eLk  496 (522)
+T 7PER_H          483 DSLQWIDQNSALLQ  496 (522)
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            56777777777543
+
+
+No 22
+>5FWZ_A CALCIUM BINDING PROTEIN; CALCIUM-BINDING PROTEIN; 2.3A {FASCIOLA HEPATICA}
+Probab=26.73  E-value=2.9e+02  Score=17.50  Aligned_cols=8  Identities=25%  Similarity=0.501  Sum_probs=3.2  Template_Neff=10.400
+
+Q ss_pred             HHHHHHHh
+Q sp|P01579|IFNG   94 ETIKEDMN  101 (166)
+Q Consensus        94 etikedmn  101 (166)
+                      ..|++.|.
+T Consensus        46 ~~ik~~ld   53 (98)
+T 5FWZ_A           46 QDMKNYMD   53 (98)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            33444443
+
+
+No 23
+>3U0R_A Apoptosis inhibitor 5; HEAT repeat, Armadillo repeat, lysine; 2.5A {Homo sapiens}
+Probab=23.64  E-value=4e+02  Score=24.67  Aligned_cols=57  Identities=19%  Similarity=0.318  Sum_probs=41.6  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHcCC---chhhhhhhHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHhCC
+Q sp|P01579|IFNG   28 VKEAENLKKYFNAGH---SDVADNGTLFLGILKNWKEESDRKIMQSQIVSFYFKLFKNFK   84 (166)
+Q Consensus        28 vkeaenlkkyfnagh---sdvadngtlflgilknwkeesdrkimqsqivsfyfklfknfk   84 (166)
+                      ..+|+.|.++|++=.   .+.......|..++.-.+.....|.|-++.+.-|++=|-.+.
+T Consensus         4 ~~~ve~lY~~~~~L~~a~~~~~~~~~~y~~il~~~kg~~~~K~Laaq~I~rffk~FP~l~   63 (507)
+T 3U0R_A            4 MPTVEELYRNYGILADATEQVGQHKDAYQVILDGVKGGTKEKRLAAQFIPKFFKHFPELA   63 (507)
+T ss_dssp             -CCHHHHHHHHHHHHHTGGGGGGGHHHHHHHHHGGGSCHHHHHHHHHHHHHHGGGCGGGH
+T ss_pred             chhHHHHHHHhHHHhccccchhhcHHHHHHHHHHcCCCHHHHHHHHHHHHHHHhhCHHHH
+Confidence            447999999997622   223445778888888766445568999999999998887664
+
+
+No 24
+>6FG8_B Somatic embryogenesis receptor kinase 1; leucine rich repeat receptor, membrane; HET: FUC, NAG, BMA, 1PE, PEG; 1.25A {Arabidopsis thaliana}
+Probab=23.59  E-value=1.7e+02  Score=19.94  Aligned_cols=37  Identities=19%  Similarity=0.016  Sum_probs=9.2  Template_Neff=12.200
+
+Q ss_pred             CCcchhhhhhhhhhhCCCCCCCCChHHHHHHHHHHHH
+Q sp|P01579|IFNG    2 KYTSYILAFQLCIVLGSLGCYCQDPYVKEAENLKKYF   38 (166)
+Q Consensus         2 kytsyilafqlcivlgslgcycqdpyvkeaenlkkyf   38 (166)
+                      +-..+.+.+.++++.+..++-.+..-...++.+..-+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   38 (241)
+T 6FG8_B            2 KKIFITLLWLLFISSFLCSSSSAEDDVLCLQGLKNSL   38 (241)
+T ss_dssp             -----------------------CCHHHHHHHHHHHS
+T ss_pred             hHHHHHHHHHHHHHHHHhccCChhHHHHHHHHHHHHh
+Confidence            3334444433333333333333333456777787765
+
+
+No 25
+>4DS1_C Dynein light chain 1, cytoplasmic; nucleoporin, Dynein Light Chain fold; 1.851A {Saccharomyces cerevisiae}
+Probab=20.93  E-value=4e+02  Score=17.15  Aligned_cols=16  Identities=6%  Similarity=0.339  Sum_probs=7.8  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHHHHhC
+Q sp|P01579|IFNG   68 MQSQIVSFYFKLFKNF   83 (166)
+Q Consensus        68 mqsqivsfyfklfknf   83 (166)
+                      +...+++...+.+..-
+T Consensus        25 ~~~~~~~~~~~~~~~~   40 (97)
+T 4DS1_C           25 LKEDILTISKDALDKY   40 (97)
+T ss_dssp             HHHHHHHHHHHHHTTC
+T ss_pred             HHHHHHHHHHHHHHHC
+Confidence            3444555555555443
+
+
+No 26
+>6XTU_B Lysine export transcriptional regulatory protein; LTTR HELIX-TURN-HELIX TRANSCRIPTION REGULATION, TRANSCRIPTION; 2.52A {Corynebacterium glutamicum MB001}
+Probab=20.83  E-value=4e+02  Score=18.99  Aligned_cols=15  Identities=7%  Similarity=0.399  Sum_probs=8.7  Template_Neff=12.300
+
+Q ss_pred             HHHHHHHHHHHHHHh
+Q sp|P01579|IFNG   87 QSIQKSVETIKEDMN  101 (166)
+Q Consensus        87 qsiqksvetikedmn  101 (166)
+                      +.+...|..+.+.+.
+T Consensus        50 ~~vs~~i~~lE~~lg   64 (310)
+T 6XTU_B           50 SAVSQRVKALEHHVG   64 (310)
+T ss_dssp             HHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHhC
+Confidence            344556666666654
+
+

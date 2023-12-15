@@ -1,0 +1,401 @@
+Query         tr|V9GYP5|V9GYP5_HUMAN
+Match_columns 217
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:53:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1978.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FAI_A Ribosomal RNA small sub 100.0 5.9E-50 6.4E-55  320.2  13.5  197    8-204     2-198 (232)
+  2 7AJT_JG rRNA 2'-O-methyltransf 100.0 7.7E-44 8.4E-49  290.2  12.6  172   29-201    33-213 (252)
+  3 3OII_B Essential for mitotic g 100.0 5.9E-44 6.4E-49  291.0  11.4  171   30-201    35-214 (253)
+  4 3O7B_A Ribosome biogenesis Nep 100.0 5.8E-40 6.3E-45  270.2   7.8  165   30-203    21-202 (244)
+  5 3BBD_A Probable ribosome bioge 100.0 2.9E-39 3.2E-44  254.9   6.3  159   35-204     1-171 (205)
+  6 3BBE_B Ribosome biogenesis pro 100.0 2.9E-39 3.2E-44  254.9   6.3  159   35-204     1-171 (205)
+  7 2QMM_B UPF0217 protein AF_1056  99.0 9.1E-10 9.9E-15   83.7   6.1  116   76-197    27-153 (197)
+  8 2QWV_B UPF0217 protein VC_A105  98.9   7E-09 7.6E-14   80.1   6.5  126   71-202    27-165 (208)
+  9 3T7A_A Inositol Pyrophosphate   49.3 1.3E+02  0.0015   23.3   5.6   23   99-121   271-293 (330)
+ 10 3T9C_A Inositol Pyrophosphate   49.3 1.3E+02  0.0015   23.3   5.6   23   99-121   271-293 (330)
+ 11 4NZN_A Inositol hexakisphospha  49.3 1.3E+02  0.0015   23.3   5.6   23   99-121   271-293 (330)
+ 12 3MMP_C Elongation factor Tu 2,  27.0 2.1E+02  0.0023   25.8   4.1   44   93-136    55-98  (678)
+ 13 4Y3U_B Sarcoplasmic/endoplasmi  25.0      19 0.00021   27.1  -2.0    8  111-118    17-24  (50)
+ 14 1AIP_D ELONGATION FACTOR TU, E  24.7 5.1E+02  0.0056   21.0   5.5   43   92-134    52-96  (196)
+ 15 1XB2_B Mitochondrial Elongatio  24.5 3.9E+02  0.0042   23.1   5.1   46   91-136    56-101 (291)
+
+No 1
+>5FAI_A Ribosomal RNA small subunit methyltransferase; EMG1, Methyltransferase, Structural Genomics, Structural; HET: SAH, CIT, UNX; 1.8A {Homo sapiens}
+Probab=100.00  E-value=5.9e-50  Score=320.16  Aligned_cols=197  Identities=98%  Similarity=1.465  Sum_probs=165.4  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCccCCCCCCCCCCCCCeeCCeEEEEEEcCCceeeeecCCeEEeeeccCCceEEeeCCCCCCCCCCCCChhhhh
+Q tr|V9GYP5|V9GY    8 SGGEQAQDWDALPPKRPRLGAGNKIGGRRLIVVLEGASLETVKVGKTYELLNCDKHKSILLKNGRDPGEARPDITHQSLL   87 (217)
+Q Consensus         8 sggeqaqdwdalppkrprlgagnkiggrrlivvlegasletvkvgktyellncdkhksillkngrdpgearpdithqsll   87 (217)
+                      +||||+|||+++++++||++|++++.+++++|||++|+||++|.++.+++||.++|+.+|++++++++++||||+|+||+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~ivL~~a~Le~~~~~~~~~lLd~~~h~~~~~~~~~~~~~~RPDIvH~~Ll   81 (232)
+T 5FAI_A            2 SGGEQAQDWDALPPKRPRLGAGNKIGGRRLIVVLEGASLETVKVGKTYELLNCDKHKSILLKNGRDPGEARPDITHQSLL   81 (232)
+T ss_dssp             ----------------------CCSTTCEEEEEEEEECCCEEEETTEEEECCTTTCTTSCCGGGCCGGGCCHHHHHHHHH
+T ss_pred             CccccccccCCCCCCCCCCCcccccCCceEEEEecCCceeEecCCCCeeecCHHHHHHHHHHcCCChhhcCCcchHHHHH
+Confidence            79999999999999999999889999999999999999999999889999999999999999999999999999999999
+
+
+Q ss_pred             hhhcCCCcccccEEEEEeCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccccc
+Q tr|V9GYP5|V9GY   88 MLMDSPLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMK  167 (217)
+Q Consensus        88 mlmdsplnragllqvyihtqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgcmk  167 (217)
+                      .+++||||++|.|+|||||.+|.+|+|+|++||||||+||.+||++||++++|++.+++++|+++++++|+++||.++.+
+T Consensus        82 ~lldSpLnk~G~L~v~vhT~~~~~i~v~p~~RiPr~y~rF~glm~~Ll~~~~i~~~~~~~~Llrvi~~~l~~~Lp~~~~~  161 (232)
+T 5FAI_A           82 MLMDSPLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMK  161 (232)
+T ss_dssp             HHHHSHHHHTTCEEEEEEETTSCEEEECTTCCCCSSHHHHHHHHHHHHHHSEEECTTSSCEEEEEECSCGGGGSCSSCEE
+T ss_pred             HHhcChhhhcCceeEEEEecCCcEEEeCCCCCCCccHHHHHHHHHHHHhhCCcccCCCCcceeEEecCCHHHhCCCCccc
+Confidence            99999999999999999999999999999999999999999999999999999886666799999999999999999999
+
+
+Q ss_pred             cCCcccceeccCchhcCCCCCCEEEEecccCCCCCcc
+Q tr|V9GYP5|V9GY  168 VGTSFSIPVVSDVRELVPSSDPIVFVVGAFAHGKRCD  204 (217)
+Q Consensus       168 vgtsfsipvvsdvrelvpssdpivfvvgafahgkrcd  204 (217)
+                      |+||.+|+++.++.+++..+++++|+||||++|+|++
+T Consensus       162 i~ls~~g~~~~~l~~~~~~~~~~v~vIG~f~~g~~~~  198 (232)
+T 5FAI_A          162 VGTSFSIPVVSDVRELVPSSDPIVFVVGAFAHGKVSV  198 (232)
+T ss_dssp             EEECTTCSSBCCGGGGCCSSSEEEEEEECSSSCCCCC
+T ss_pred             ccccccccccccHHHhCCCCCCEEEEEcCCCCCCCCh
+Confidence            9999999987668888774346799999999999863
+
+
+No 2
+>7AJT_JG rRNA 2'-O-methyltransferase fibrillarin, 40S ribosomal; Ribosome, Ribosome biogenesis, Exosome, 90S; HET: GTP; 4.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=100.00  E-value=7.7e-44  Score=290.16  Aligned_cols=172  Identities=58%  Similarity=0.931  Sum_probs=162.0  Template_Neff=7.000
+
+Q ss_pred             CCeeCCeEEEEEEcCCceeeeecC------CeEEeeeccCCceEEeeCCCCCCCCCCCCChhhhhhhhcCCCcccccEEE
+Q tr|V9GYP5|V9GY   29 GNKIGGRRLIVVLEGASLETVKVG------KTYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDSPLNRAGLLQV  102 (217)
+Q Consensus        29 gnkiggrrlivvlegasletvkvg------ktyellncdkhksillkngrdpgearpdithqsllmlmdsplnragllqv  102 (217)
+                      ++++.+++++|||++|+||++|.+      +.+++||+++|+.+|+++++++++|||||+|+||++++|||||++|.|+|
+T Consensus        33 ~~~~~~~~l~iVL~~a~LE~vp~~~~~r~~~~~~lLd~~~h~~~m~~l~~~~~rgRPDIvH~~Ll~lldSpLnk~G~L~v  112 (252)
+T 7AJT_JG          33 SKDKITKRMIVVLAMASLETHKISSNGPGGDKYVLLNCDDHQGLLKKMGRDISEARPDITHQCLLTLLDSPINKAGKLQV  112 (252)
+T ss_pred             CccccCCcEEEEEeCCcceeeccccCCCCCCceeeccHHHHHHHHHHhCCCHHHhCCcchHHHHHHHhcCcccccCceeE
+Confidence            367889999999999999999975      48899999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EEeCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccccccCCcccceeccCchh
+Q tr|V9GYP5|V9GY  103 YIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMKVGTSFSIPVVSDVRE  182 (217)
+Q Consensus       103 yihtqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgcmkvgtsfsipvvsdvre  182 (217)
+                      ||||.+|.+|+|+|++||||||+||.|||+|||++++|++.+++++|+++++++|+++||.++.+|+||.+|+.+. +.+
+T Consensus       113 yihT~~~~~i~v~p~~RiPr~y~rF~gLm~qLl~~~~V~~~~~~~~Ll~v~~~~l~~~Lp~~~~~i~lS~~G~~~~-l~~  191 (252)
+T 7AJT_JG         113 YIQTSRGILIEVNPTVRIPRTFKRFSGLMVQLLHKLSIRSVNSEEKLLKVIKNPITDHLPTKCRKVTLSFDAPVIR-VQD  191 (252)
+T ss_pred             EEEecCCeEEEeCCCccCCccHHHHHHHHHHHHHhcCcccCCCccceeEEecCCHHHcCCCCCcceeecCCCCccc-HHH
+Confidence            9999999999999999999999999999999999999988666679999999999999999999999999999888 889
+
+
+Q ss_pred             cCCC--C-CCEEEEecccCCCC
+Q tr|V9GYP5|V9GY  183 LVPS--S-DPIVFVVGAFAHGK  201 (217)
+Q Consensus       183 lvps--s-dpivfvvgafahgk  201 (217)
+                      ++..  + .+++|+||||++|+
+T Consensus       192 l~~~~~~~~~~v~vIG~f~~G~  213 (252)
+T 7AJT_JG         192 YIEKLDDDESICVFVGAMARGK  213 (252)
+T ss_pred             HHHhcCCCCCEEEEEecccCCC
+Confidence            8875  2 47899999999998
+
+
+No 3
+>3OII_B Essential for mitotic growth 1; EMG1, scNEP1, SPOUT, ribosome biogenesis; HET: SAH; 1.85A {Saccharomyces cerevisiae}
+Probab=100.00  E-value=5.9e-44  Score=291.00  Aligned_cols=171  Identities=58%  Similarity=0.936  Sum_probs=153.7  Template_Neff=7.000
+
+Q ss_pred             CeeCCeEEEEEEcCCceeeeecC------CeEEeeeccCCceEEeeCCCCCCCCCCCCChhhhhhhhcCCCcccccEEEE
+Q tr|V9GYP5|V9GY   30 NKIGGRRLIVVLEGASLETVKVG------KTYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDSPLNRAGLLQVY  103 (217)
+Q Consensus        30 nkiggrrlivvlegasletvkvg------ktyellncdkhksillkngrdpgearpdithqsllmlmdsplnragllqvy  103 (217)
+                      +++.+++++|||++|+||++|.+      +.+++||+++|+.+|+++++++++|||||+|+||+.++|||||++|.|+||
+T Consensus        35 ~~~~~~~l~iIL~~a~LE~vp~~~~~~~~~~~~lLd~~~h~~~m~~l~~~~~rgRPDIvH~~Ll~lldSpLnk~G~L~vy  114 (253)
+T 3OII_B           35 KDKITKRMIVVLAMASLETHKISSNGPGGDKYVLLNCDDHQGLLKKMGRDISEARPDITHQCLLTLLDSPINKAGKLQVY  114 (253)
+T ss_dssp             TCCSSCCEEEEEEEECCCBC------------CBCCTTTCHHHHHHTTCCGGGCCHHHHHHHHHHHHTSHHHHTTCEEEE
+T ss_pred             ccccCCcEEEEEeCCcceecccccCCCCCCceeeccHHHHHHHHHHhCCCHHHhCCcchHHHHHHHhcCcccccCceeEE
+Confidence            66889999999999999999975      488999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccccccCCcccceeccCchhc
+Q tr|V9GYP5|V9GY  104 IHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMKVGTSFSIPVVSDVREL  183 (217)
+Q Consensus       104 ihtqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgcmkvgtsfsipvvsdvrel  183 (217)
+                      |||.+|.+|+|+|++||||||+||.|||+|||++++|++.+++++|+++++++|+++||.++.+|+||.+|+.+. +.++
+T Consensus       115 ihT~~~~~i~v~p~~RiPr~y~rF~gLm~qLL~~~~V~~~~~~~~Ll~v~~~~l~~~Lp~~~~~i~lS~~G~~~~-l~~l  193 (253)
+T 3OII_B          115 IQTSRGILIEVNPTVRIPRTFKRFSGLMVQLLHKLSIRSVNSEEKLLKVIKNPITDHLPTKCRKVTLSFDAPVIR-VQDY  193 (253)
+T ss_dssp             EEETTSCEEEECTTCCCCSSHHHHHHHHHHHHHHSEECC-----CCEEEECSCGGGTSCSSEEEEEECTTSCBCC-HHHH
+T ss_pred             EEecCCeEEEeCCCccCCccHHHHHHHHHHHHHhcccccCCCcceeeEEecCCHHHcCCCCCcceeecCCCCccc-HHHH
+Confidence            999999999999999999999999999999999999988666679999999999999999999999999999888 8888
+
+
+Q ss_pred             CCC--C-CCEEEEecccCCCC
+Q tr|V9GYP5|V9GY  184 VPS--S-DPIVFVVGAFAHGK  201 (217)
+Q Consensus       184 vps--s-dpivfvvgafahgk  201 (217)
+                      +..  + .+++|+||||++|+
+T Consensus       194 ~~~~~~~~~~v~vIG~f~~G~  214 (253)
+T 3OII_B          194 IEKLDDDESICVFVGAMARGK  214 (253)
+T ss_dssp             HHTSCTTCEEEEEEECSSSCC
+T ss_pred             HHhcCCCCCEEEEEecccCCC
+Confidence            765  2 57899999999998
+
+
+No 4
+>3O7B_A Ribosome biogenesis Nep1 RNA methyltransferase; SPOUT, ribosome biogenesis, methyltransferase, rRNA; HET: SAH, TYR; 1.45A {Archaeoglobus fulgidus}
+Probab=100.00  E-value=5.8e-40  Score=270.19  Aligned_cols=165  Identities=32%  Similarity=0.421  Sum_probs=151.7  Template_Neff=6.400
+
+Q ss_pred             CeeCCeEEEEEEcCCceeeeec---------------CC--eEEeeeccCCceEEeeCCCCCCCCCCCCChhhhhhhhcC
+Q tr|V9GYP5|V9GY   30 NKIGGRRLIVVLEGASLETVKV---------------GK--TYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDS   92 (217)
+Q Consensus        30 nkiggrrlivvlegasletvkv---------------gk--tyellncdkhksillkngrdpgearpdithqsllmlmds   92 (217)
+                      .+..++++++||++|+||++|.               ++  .+++||+++|+.+|++++++++||||||+||||++++||
+T Consensus        21 ~~~~~~~l~iVL~~a~LE~vp~el~~~p~v~~~a~~~~k~p~~~lLd~s~H~~~m~kl~~~~~rgRPDIvH~~LL~lldS  100 (244)
+T 3O7B_A           21 LYFQGMGSAFVFLEASLELIPQKIRGHPAVRADAIRRGKRPEKILLDDSKHHTAMKSLEFREKRGRPDIVHQCLLLLLDS  100 (244)
+T ss_dssp             -----CCEEEEEEEESCCBCCGGGTTSHHHHHHHHHHTSCGGGSBCCHHHHGGGCTTCTTGGGCSCHHHHHHHHHHHHTC
+T ss_pred             hhhcCCeEEEEEeCcceeeccHHHcCChhhHHhHHHcCCCchhhccCHHHHHHHHHhCCcchhcCCChhHHHHHHHHHcC
+Confidence            4468889999999999999996               23  789999999999999999999999999999999999999
+
+
+Q ss_pred             CCcccccEEEEEeCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccccccCCcc
+Q tr|V9GYP5|V9GY   93 PLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMKVGTSF  172 (217)
+Q Consensus        93 plnragllqvyihtqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgcmkvgtsf  172 (217)
+                      ||   |.|+|||||.+|.+|+|+|++||||||+||.|||+|||++++|++ ++ ++||++++++|+++||.++ +|+||.
+T Consensus       101 pL---G~L~VyihT~~~~vI~V~p~~RiPr~y~rF~gLm~qLl~~~~V~~-~g-~~Ll~vi~~~l~~~L~~~~-~i~ls~  174 (244)
+T 3O7B_A          101 PL---RDFEVYVHTLNGEIIWVNRETRLPRNYNRFVGLMEKLFEERRITA-GD-TTLIEFKDVGLRDIVRGRD-VLLFRE  174 (244)
+T ss_dssp             SC---CSEEEEEEETTSCEEEECTTCCCCSSHHHHHHHHHHHHHHSEEEE-TT-EEEEEEESSCHHHHTTTSE-EEEEEE
+T ss_pred             CC---ccEEEEEEEeCCcEEEeCCCCCCChHHHHHHHHHHHHHHccCCCC-CC-CccEEEeCCCHHHHccCCC-eEEEee
+Confidence            99   999999999999999999999999999999999999999999988 44 7999999999999999888 999999
+
+
+Q ss_pred             cceeccCchhcCCCCCCEEEEecccCCCCCc
+Q tr|V9GYP5|V9GY  173 SIPVVSDVRELVPSSDPIVFVVGAFAHGKRC  203 (217)
+Q Consensus       173 sipvvsdvrelvpssdpivfvvgafahgkrc  203 (217)
+                      +|++++ +.+++.  ++++|+|||||+|+|+
+T Consensus       175 ~G~~~~-~~~l~~--~~~v~vIG~f~~G~~~  202 (244)
+T 3O7B_A          175 KGGRFE-FSELLD--GDVAVCIGAFPHGDFF  202 (244)
+T ss_dssp             EEECCC-HHHHTS--SSEEEEEECSSSSCCC
+T ss_pred             cCCccC-HHHHcC--CCEEEEEcCCCCCCCC
+Confidence            999987 999887  4789999999999985
+
+
+No 5
+>3BBD_A Probable ribosome biogenesis protein NEP1-like; methyltransferase, ribosome biogenesis, S-adenosyl-methionine, S-adenosyl-homocysteine; HET: GOL, SAH, MSE; 2.15A {Methanocaldococcus jannaschii} SCOP: c.116.1.6
+Probab=100.00  E-value=2.9e-39  Score=254.87  Aligned_cols=159  Identities=27%  Similarity=0.431  Sum_probs=146.8  Template_Neff=7.300
+
+Q ss_pred             eEEEEEEcCCceeeeec--------C--CeEEeeeccCCceEEeeCCCCCCCCCCCCChhhhhhhhcCCCcccccEEEEE
+Q tr|V9GYP5|V9GY   35 RRLIVVLEGASLETVKV--------G--KTYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDSPLNRAGLLQVYI  104 (217)
+Q Consensus        35 rrlivvlegasletvkv--------g--ktyellncdkhksillkngrdpgearpdithqsllmlmdsplnragllqvyi  104 (217)
+                      +++++||++|+||++|.        +  ..+++||+++|+.+|+++++++++|||||+|+||+.+++||||++|.|+|||
+T Consensus         1 ~~l~~vl~~a~Le~~p~~~~~~~~~~k~~~~~lLd~~~h~~~m~~l~~~~~rgRPDIvH~~Ll~ll~SpLn~~g~L~v~i   80 (205)
+T 3BBD_A            1 MTYNIILAKSALELIPEEIKNKIRKSRVYKYDILDSNYHYKAMEKLKDKEMRGRPDIIHISLLNILDSPINHEKKLNIYI   80 (205)
+T ss_dssp             -CEEEEEEEESCCBCCGGGGGGCCCBTTBCCSBCCHHHHTTTTTTCTTGGGSSCHHHHHHHHHHHHTSHHHHTTCEEEEE
+T ss_pred             CeEEEEeeCCcceecCHHHhcccccCCCCccccCCHHHHHHHHHhhcchhhcCCCchhhHHHhhhhcCcccccCCceEEE
+Confidence            37899999999999996        2  3889999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccc--cccCCcccceeccCchh
+Q tr|V9GYP5|V9GY  105 HTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGC--MKVGTSFSIPVVSDVRE  182 (217)
+Q Consensus       105 htqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgc--mkvgtsfsipvvsdvre  182 (217)
+                      ||.+|.+|+|+|++||||||+||.|||+|||++++       ++|+++++++++++|+.++  .+|+||.+|+.++ +.+
+T Consensus        81 hT~~~~~i~v~p~~RiPr~y~rF~gLm~~Ll~~~~-------~~Ll~v~~~~l~~~l~~~~~~~~i~ls~~g~~~~-~~~  152 (205)
+T 3BBD_A           81 HTYDDKVLKINPETRLPRNYFRFLGVMEKVLKGER-------NHLIKMEEKTLEDLLNEINAKKIAIMTKTGKLTH-PKL  152 (205)
+T ss_dssp             EETTSEEEEECTTCCCCSSHHHHHHHHHHHHTTCC-------CSSEEEEECCHHHHHHHTTCCEEEEEEEEEEECC-GGG
+T ss_pred             EecCCcEEEeCCCCCCChHHHHHHHHHHHHHhccc-------cceeEeecCCHHHHhhccCccceEEEeccCcccC-HHH
+Confidence            99999999999999999999999999999999998       4799999999999998875  3799999999987 888
+
+
+Q ss_pred             cCCCCCCEEEEecccCCCCCcc
+Q tr|V9GYP5|V9GY  183 LVPSSDPIVFVVGAFAHGKRCD  204 (217)
+Q Consensus       183 lvpssdpivfvvgafahgkrcd  204 (217)
+                       ++. .+ +|+||||++|+|++
+T Consensus       153 -~~~-~~-v~vIG~f~~G~f~~  171 (205)
+T 3BBD_A          153 -LKE-YD-TFIIGGFPYGKLKI  171 (205)
+T ss_dssp             -GGG-CS-EEEEECSSSSCCCC
+T ss_pred             -hcc-CC-EEEEeceeCCcccc
+Confidence             653 35 99999999999863
+
+
+No 6
+>3BBE_B Ribosome biogenesis protein NEP1-like; methyltransferase, ribosome biogenesis, S-adenosyl-methionine, rRNA; HET: GOL; 2.2A {Methanocaldococcus jannaschii} SCOP: c.116.1.6
+Probab=100.00  E-value=2.9e-39  Score=254.87  Aligned_cols=159  Identities=27%  Similarity=0.431  Sum_probs=146.8  Template_Neff=7.300
+
+Q ss_pred             eEEEEEEcCCceeeeec--------C--CeEEeeeccCCceEEeeCCCCCCCCCCCCChhhhhhhhcCCCcccccEEEEE
+Q tr|V9GYP5|V9GY   35 RRLIVVLEGASLETVKV--------G--KTYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDSPLNRAGLLQVYI  104 (217)
+Q Consensus        35 rrlivvlegasletvkv--------g--ktyellncdkhksillkngrdpgearpdithqsllmlmdsplnragllqvyi  104 (217)
+                      +++++||++|+||++|.        +  ..+++||+++|+.+|+++++++++|||||+|+||+.+++||||++|.|+|||
+T Consensus         1 ~~l~~vl~~a~Le~~p~~~~~~~~~~k~~~~~lLd~~~h~~~m~~l~~~~~rgRPDIvH~~Ll~ll~SpLn~~g~L~v~i   80 (205)
+T 3BBE_B            1 MTYNIILAKSALELIPEEIKNKIRKSRVYKYDILDSNYHYKAMEKLKDKEMRGRPDIIHISLLNILDSPINHEKKLNIYI   80 (205)
+T ss_dssp             -CEEEEEEEESCCBCCGGGGGGCCCCSSCCCSBCCHHHHTGGGTTCTTGGGSSCHHHHHHHHHHHHHSHHHHTTCEEEEE
+T ss_pred             CeEEEEeeCCcceecCHHHhcccccCCCCccccCCHHHHHHHHHhhcchhhcCCCchhhHHHhhhhcCcccccCCceEEE
+Confidence            37899999999999996        2  3889999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eCCCcEEEEECCCCCCCCchhhhhHHHHHHHhhhccccCCCccheeeeecCCCCCCCCccc--cccCCcccceeccCchh
+Q tr|V9GYP5|V9GY  105 HTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGC--MKVGTSFSIPVVSDVRE  182 (217)
+Q Consensus       105 htqknvlievnpqtriprtfdrfcglmvqllhklsvraadgpqkllkviknpvsdhfpvgc--mkvgtsfsipvvsdvre  182 (217)
+                      ||.+|.+|+|+|++||||||+||.|||+|||++++       ++|+++++++++++|+.++  .+|+||.+|+.++ +.+
+T Consensus        81 hT~~~~~i~v~p~~RiPr~y~rF~gLm~~Ll~~~~-------~~Ll~v~~~~l~~~l~~~~~~~~i~ls~~g~~~~-~~~  152 (205)
+T 3BBE_B           81 HTYDDKVLKINPETRLPRNYFRFLGVMEKVLKGER-------NHLIKMEEKTLEDLLNEINAKKIAIMTKTGKLTH-PKL  152 (205)
+T ss_dssp             EETTSEEEEECTTCCCCSSHHHHHHHHHHHHTTCC-------CSSEEEEECCHHHHHHHTTCCEEEEEEEEEEECC-GGG
+T ss_pred             EecCCcEEEeCCCCCCChHHHHHHHHHHHHHhccc-------cceeEeecCCHHHHhhccCccceEEEeccCcccC-HHH
+Confidence            99999999999999999999999999999999998       4799999999999998875  3799999999987 888
+
+
+Q ss_pred             cCCCCCCEEEEecccCCCCCcc
+Q tr|V9GYP5|V9GY  183 LVPSSDPIVFVVGAFAHGKRCD  204 (217)
+Q Consensus       183 lvpssdpivfvvgafahgkrcd  204 (217)
+                       ++. .+ +|+||||++|+|++
+T Consensus       153 -~~~-~~-v~vIG~f~~G~f~~  171 (205)
+T 3BBE_B          153 -LKE-YD-TFIIGGFPYGKLKI  171 (205)
+T ss_dssp             -GGG-CS-EEEEECSSSSCCCC
+T ss_pred             -hcc-CC-EEEEeceeCCcccc
+Confidence             653 35 99999999999863
+
+
+No 7
+>2QMM_B UPF0217 protein AF_1056; alpha/beta knot, SAM, Structural Genomics; HET: SAM; 1.85A {Archaeoglobus fulgidus DSM 4304} SCOP: c.116.1.7
+Probab=99.04  E-value=9.1e-10  Score=83.69  Aligned_cols=116  Identities=12%  Similarity=0.033  Sum_probs=96.8  Template_Neff=8.900
+
+Q ss_pred             CCCCCCChhhhhhhhcCCCcccccEEEEEeCCCc----EEEEECCC--CCCCCchhhhhHHHHHHHhh--hccccCCCcc
+Q tr|V9GYP5|V9GY   76 EARPDITHQSLLMLMDSPLNRAGLLQVYIHTQKN----VLIEVNPQ--TRIPRTFDRFCGLMVQLLHK--LSVRAADGPQ  147 (217)
+Q Consensus        76 earpdithqsllmlmdsplnragllqvyihtqkn----vlievnpq--triprtfdrfcglmvqllhk--lsvraadgpq  147 (217)
+                      ++||||+|+|+++++.++.+..+.+++|+++.++    .+|+++++  .++|+++.+|.++|.+++.+  +....  ...
+T Consensus        27 ~gR~div~r~i~~al~~s~~~r~d~~v~i~~~~~~~~~~~i~~~g~~l~~l~~de~s~~gll~~~l~~~~~~~~~--~~~  104 (197)
+T 2QMM_B           27 AGRMDVLCRCTSQALFISHGIRRDVEVYLLLLGPPSPPKSILIKGDEVRRMSPDERNVAGHIKKALAVECGKSWK--KVH  104 (197)
+T ss_dssp             TTSHHHHHHHHHHHHEETTEECTTEEEEEEECCSSSCCEEEEEETTTCCSCCSSHHHHHHHHHHHHHSCCCSSCE--EEE
+T ss_pred             CCcHHHHHHHHHHHHhCCCCeecceEEEEEecCCCCCCEEEEEECccccCCCCCHHHHHHHHHHHHhcccCCcee--eec
+Confidence            7999999999999999999999999999999887    89999999  99999999999999999997  32211  224
+
+
+Q ss_pred             heeeeecCCCCCCCCc---cccccCCcccceeccCchhcCCCCCCEEEEeccc
+Q tr|V9GYP5|V9GY  148 KLLKVIKNPVSDHFPV---GCMKVGTSFSIPVVSDVRELVPSSDPIVFVVGAF  197 (217)
+Q Consensus       148 kllkviknpvsdhfpv---gcmkvgtsfsipvvsdvrelvpssdpivfvvgaf  197 (217)
+                      +.+++.+.+++++|+.   +..++.|+.+|+.+. ...+   ..+.+|+||++
+T Consensus       105 ~gi~v~~~~l~~~l~~~~~~~~~~~l~~~G~~i~-~~~~---~~~~~fvig~~  153 (197)
+T 2QMM_B          105 SGVYVSRKGLEELIEELSEKYSIIYLKEDGVDIS-NAQL---PPNPLFVIGDH  153 (197)
+T ss_dssp             TTEEEECCCHHHHHHHHHTTSEEEEEEEEEEEGG-GSCC---CSSEEEEEECT
+T ss_pred             CCEEEEeCCHHHHHHHHhhcCcEEEEeCCCCccc-cCCC---CCCCeEEEeCC
+Confidence            6889999999999953   456788999998765 2211   24679999987
+
+
+No 8
+>2QWV_B UPF0217 protein VC_A1059; Vibrio cholerae, unknown function, Structural; HET: MSE; 2.6A {Vibrio cholerae O1 biovar eltor str. N16961} SCOP: c.116.1.7
+Probab=98.90  E-value=7e-09  Score=80.09  Aligned_cols=126  Identities=10%  Similarity=-0.001  Sum_probs=98.4  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCChhhhhhhhcCCCcccccEEEEEeCCCc----EEEEECCC-C-CC-CCchhhhhHHHHHHHhhhccccC
+Q tr|V9GYP5|V9GY   71 GRDPGEARPDITHQSLLMLMDSPLNRAGLLQVYIHTQKN----VLIEVNPQ-T-RI-PRTFDRFCGLMVQLLHKLSVRAA  143 (217)
+Q Consensus        71 grdpgearpdithqsllmlmdsplnragllqvyihtqkn----vlievnpq-t-ri-prtfdrfcglmvqllhklsvraa  143 (217)
+                      ++.++++||||+|+|+++++.++.+..+.+++|+++.++    .+|++++. + ++ |+++.+|.++|.+++.+.+++..
+T Consensus        27 ~~l~~~gR~Dii~r~i~aal~~s~~~r~~~~l~i~~~~~~~~~~~i~~~~~~lr~l~~~de~s~~gll~k~l~~~~~~~~  106 (208)
+T 2QWV_B           27 DEIGGKCHTEILAHCMMNSLFTAQSHREDVVIHLVLESTRDYSRTITVEANEISDVGGFHEAALIALLVKALDASVGMGK  106 (208)
+T ss_dssp             HTTTSTTCTHHHHHHHHHHHBCSSSBCSSEEEEEEEEECSSCCEEEEEETTTCC---CCSHHHHHHHHHHHHHTTTTCCS
+T ss_pred             HhcCCCccHHHHHHHHHHHHhccccccCCeEEEEEEcCCCCCceEEEEEchhhcCCCCCCHHHHHHHHHHHHHhcccCCC
+Confidence            344457999999999999999999999999999999876    89999999 8 99 99999999999999998877541
+
+
+Q ss_pred             C---CccheeeeecCCCCCCC---CccccccCCcccceeccCchhcCCCCCCEEEEecccCCCCC
+Q tr|V9GYP5|V9GY  144 D---GPQKLLKVIKNPVSDHF---PVGCMKVGTSFSIPVVSDVRELVPSSDPIVFVVGAFAHGKR  202 (217)
+Q Consensus       144 d---gpqkllkviknpvsdhf---pvgcmkvgtsfsipvvsdvrelvpssdpivfvvgafahgkr  202 (217)
+                      +   ...+.+++.+.+++++|   +.+..++.|+.+|+... ...+   ..+.+|+||+  ++++
+T Consensus       107 ~~~~~~~~gi~v~~~~l~~~L~~~~~~~~i~~l~~~G~~i~-~~~~---~~~~~fiig~--~~~~  165 (208)
+T 2QWV_B          107 EQTRVVQPGLTVRTISFEALLGELAEHHSLYMMDKKGDSIR-DIKI---GPNPCFILTD--HIPM  165 (208)
+T ss_dssp             SCEEEEETTEEEECCCHHHHHHHHTTTSEEEEEEEEEEEGG-GSCC---CSSEEEEEEC--C---
+T ss_pred             CcceeccCCeEEEeCCHHHHHHHHhhcCcEEEEeCCCCcHH-HcCC---CCCCeEEEeC--CCCC
+Confidence            1   22467899999999999   33446788999998865 1111   1467999998  5554
+
+
+No 9
+>3T7A_A Inositol Pyrophosphate Kinase (E.C.2.7.4.24); ATP-grasp Fold, Inositol Pyrophosphate Kinase; HET: ADP, ACT, EDO; 1.7A {Homo sapiens}
+Probab=49.32  E-value=1.3e+02  Score=23.30  Aligned_cols=23  Identities=9%  Similarity=0.076  Sum_probs=12.6  Template_Neff=11.400
+
+Q ss_pred             cEEEEEeCCCcEEEEECCCCCCC
+Q tr|V9GYP5|V9GY   99 LLQVYIHTQKNVLIEVNPQTRIP  121 (217)
+Q Consensus        99 llqvyihtqknvlievnpqtrip  121 (217)
+                      .+++.+....=.++++++.-++.
+T Consensus       271 ~iD~~~~~~~~~~~EiN~~p~~~  293 (330)
+T 3T7A_A          271 GFDLLRANGQSYVCDVNGFSFVK  293 (330)
+T ss_dssp             EEEEEEETTEEEEEEEEESCCCS
+T ss_pred             EEEEEEeCCcEEEEEecCCCccc
+Confidence            45556553334478888444443
+
+
+No 10
+>3T9C_A Inositol Pyrophosphate Kinase (E.C.2.7.4.24); ATP-grasp Fold, Inositol Pyrophosphate Kinase; HET: IHP, ANP; 1.9A {Homo sapiens}
+Probab=49.32  E-value=1.3e+02  Score=23.30  Aligned_cols=23  Identities=9%  Similarity=0.076  Sum_probs=12.6  Template_Neff=11.400
+
+Q ss_pred             cEEEEEeCCCcEEEEECCCCCCC
+Q tr|V9GYP5|V9GY   99 LLQVYIHTQKNVLIEVNPQTRIP  121 (217)
+Q Consensus        99 llqvyihtqknvlievnpqtrip  121 (217)
+                      .+++.+....=.++++++.-++.
+T Consensus       271 ~iD~~~~~~~~~~~EiN~~p~~~  293 (330)
+T 3T9C_A          271 GFDLLRANGQSYVCDVNGFSFVK  293 (330)
+T ss_dssp             EEEEEEETTEEEEEEEEESCCCS
+T ss_pred             EEEEEEeCCcEEEEEecCCCccc
+Confidence            45556553334478888444443
+
+
+No 11
+>4NZN_A Inositol hexakisphosphate and diphosphoinositol-pentakisphosphate kinase; ATP-grasp Fold, Inositol Pyrophosphate Kinase; HET: 2OU, ANP; 1.75A {Homo sapiens}
+Probab=49.32  E-value=1.3e+02  Score=23.30  Aligned_cols=23  Identities=9%  Similarity=0.076  Sum_probs=12.7  Template_Neff=11.400
+
+Q ss_pred             cEEEEEeCCCcEEEEECCCCCCC
+Q tr|V9GYP5|V9GY   99 LLQVYIHTQKNVLIEVNPQTRIP  121 (217)
+Q Consensus        99 llqvyihtqknvlievnpqtrip  121 (217)
+                      .+++.+....=.++++++.-++.
+T Consensus       271 ~iD~~~~~~~~~~~EiN~~p~~~  293 (330)
+T 4NZN_A          271 GFDLLRANGQSYVCDVNGFSFVK  293 (330)
+T ss_dssp             EEEEEEETTEEEEEEEEESCCCC
+T ss_pred             EEEEEEeCCcEEEEEecCCCccc
+Confidence            45556553334478888444443
+
+
+No 12
+>3MMP_C Elongation factor Tu 2, Elongation; RdRp, host-factor complex, translation, TRANSFERASE; HET: PXN; 2.5A {Escherichia coli}
+Probab=27.00  E-value=2.1e+02  Score=25.76  Aligned_cols=44  Identities=20%  Similarity=0.289  Sum_probs=32.3  Template_Neff=10.600
+
+Q ss_pred             CCcccccEEEEEeCCCcEEEEECCCCCCCCchhhhhHHHHHHHh
+Q tr|V9GYP5|V9GY   93 PLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLH  136 (217)
+Q Consensus        93 plnragllqvyihtqknvlievnpqtriprtfdrfcglmvqllh  136 (217)
+                      .-...|.+.+++....+.+++++-++..=..-..|..+...+..
+T Consensus        55 ~~~~~g~~~~~~~~~~~~~~e~~cetdfva~~~~f~~~~~~~~~   98 (678)
+T 3MMP_C           55 NVAADGVIKTKIDGNYGIILEVNCQTDFVAKDAGFQAFADKVLD   98 (678)
+T ss_dssp             SCCCEEEEEEEEETTEEEEEEEEESCHHHHHCHHHHHHHHHHHH
+T ss_pred             CcccccEEEEEECCCeEEEEEEecCCchHhcCHHHHHHHHHHHH
+Confidence            33456888888877778899999888766666777777766553
+
+
+No 13
+>4Y3U_B Sarcoplasmic/endoplasmic reticulum calcium ATPase 1; Ca-ATPase, SERCA1a, membrane protein; 3.51A {Oryctolagus cuniculus}
+Probab=25.00  E-value=19  Score=27.14  Aligned_cols=8  Identities=38%  Similarity=0.422  Sum_probs=1.8  Template_Neff=1.600
+
+Q ss_pred             EEEECCCC
+Q tr|V9GYP5|V9GY  111 LIEVNPQT  118 (217)
+Q Consensus       111 lievnpqt  118 (217)
+                      .|+++|..
+T Consensus        17 ~iev~pqa   24 (50)
+T 4Y3U_B           17 TIEMPQQA   24 (50)
+T ss_dssp             ----CCTT
+T ss_pred             hCCCCHHH
+Confidence            34555443
+
+
+No 14
+>1AIP_D ELONGATION FACTOR TU, ELONGATION FACTOR; ELONGATION FACTOR, NUCLEOTIDE EXCHANGE, GTP-BINDING; 3.0A {Thermus thermophilus} SCOP: d.43.1.1, a.5.2.2
+Probab=24.67  E-value=5.1e+02  Score=21.03  Aligned_cols=43  Identities=30%  Similarity=0.453  Sum_probs=26.0  Template_Neff=8.500
+
+Q ss_pred             CCCcccccEEEEEeCCC--cEEEEECCCCCCCCchhhhhHHHHHH
+Q tr|V9GYP5|V9GY   92 SPLNRAGLLQVYIHTQK--NVLIEVNPQTRIPRTFDRFCGLMVQL  134 (217)
+Q Consensus        92 splnragllqvyihtqk--nvlievnpqtriprtfdrfcglmvql  134 (217)
+                      +.....|.+.+|+|...  +.+++++-.+..-..-..|..+..++
+T Consensus        52 ~r~~~~g~i~~~~~~~~~~~~lvel~cetdfVar~~~f~~la~~l   96 (196)
+T 1AIP_D           52 DREAREGIIGHYIHHNQRVGVLVELNCETDFVARNELFQNLAKDL   96 (196)
+T ss_dssp             TSCCCCCEEEEEECTTSSEEEEEEEECSSHHHHTSHHHHHHHHHH
+T ss_pred             ccccCCeEEEEEEeCCCcEEEEEEEecCCcccccchHHHHHHHHH
+Confidence            44566788999999643  66788876553332334455554433
+
+
+No 15
+>1XB2_B Mitochondrial Elongation factors Tu and; Protein-protein complex, TRANSLATION; HET: MSE; 2.2A {Bos taurus} SCOP: d.43.1.1, a.5.2.2
+Probab=24.45  E-value=3.9e+02  Score=23.14  Aligned_cols=46  Identities=24%  Similarity=0.289  Sum_probs=33.3  Template_Neff=8.400
+
+Q ss_pred             cCCCcccccEEEEEeCCCcEEEEECCCCCCCCchhhhhHHHHHHHh
+Q tr|V9GYP5|V9GY   91 DSPLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLH  136 (217)
+Q Consensus        91 dsplnragllqvyihtqknvlievnpqtriprtfdrfcglmvqllh  136 (217)
+                      .++-...|.+.+++....+.+++++-++..=..-..|..+...+..
+T Consensus        56 ~~r~~~eG~I~~~~~~~~~~lvElncETDFVarn~~F~~la~~ia~  101 (291)
+T 1XB2_B           56 HGRKTKEGLIGLLQEGDTTVLVEVNCETDFVSRNLKFQQLVQQVAL  101 (291)
+T ss_dssp             TTSCCCEEEEEEEEETTEEEEEEEEESCHHHHTSHHHHHHHHHHHH
+T ss_pred             cCCCCCCEEEEEEECCCeEEEEEeccCCcchhcCHHHHHHHHHHHH
+Confidence            3455667888888877778899998888665555677777766543
+
+

@@ -1,0 +1,540 @@
+Query         tr|A0A2R8Y5X9|A0A2R8Y5X9_HUMAN
+Match_columns 205
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:19:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1563.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OGE_B GDP-mannose transporter  99.2 7.5E-10 8.1E-15   84.3  12.5  189    2-192   128-334 (337)
+  2 5OGE_G GDP-mannose transporter  99.2 7.5E-10 8.1E-15   84.3  12.5  189    3-193   129-335 (337)
+  3 5Y78_A Putative hexose phospha  98.9 6.7E-07 7.3E-12   66.0  15.1  191    3-195   126-322 (329)
+  4 6UKJ_A Chloroquine resistance   98.4 1.4E-05 1.5E-10   62.6  11.1  181    3-186   174-400 (464)
+  5 6I1R_B CMP-sialic acid transpo  98.3  0.0002 2.2E-09   52.2  14.3  187    3-191   116-314 (322)
+  6 6XBO_A Transporter, glycobiolo  98.0 0.00056 6.1E-09   50.5  12.3  181    3-189   132-322 (330)
+  7 5I20_C Uncharacterized protein  96.8    0.22 2.4E-06   37.9  15.5  177    2-190   108-291 (298)
+  8 5I20_E Uncharacterized protein  96.8    0.22 2.4E-06   37.9  15.5  177    2-190   108-291 (298)
+  9 6UKJ_A Chloroquine resistance   76.1      66 0.00071   26.3  10.0  145   38-186    62-206 (464)
+ 10 6I1R_B CMP-sialic acid transpo  54.1 1.5E+02  0.0016   22.4  11.4  145   40-187     3-149 (322)
+ 11 6LCP_A Phospholipid-transporti  51.7   4E+02  0.0043   29.3  11.1   15  164-178  1303-1317(1555)
+ 12 5OGE_B GDP-mannose transporter  48.7 2.2E+02  0.0024   22.8   9.6  144   38-188    19-163 (337)
+ 13 5OGE_G GDP-mannose transporter  48.7 2.2E+02  0.0024   22.8   9.6  144   38-188    19-163 (337)
+ 14 5I20_C Uncharacterized protein  48.0 2.1E+02  0.0023   22.3  11.7  135   38-184     4-140 (298)
+ 15 5I20_E Uncharacterized protein  48.0 2.1E+02  0.0023   22.3  11.7  136   38-184     4-140 (298)
+ 16 7KYC_A Phospholipid-transporti  40.6 7.5E+02  0.0081   27.4  11.1    8  166-173  1378-1385(1571)
+ 17 5LQ3_B CmeB; transmembrane pro  26.5 8.1E+02  0.0088   22.7   7.9   17  156-173   387-403 (1035)
+ 18 3W9I_F Multidrug resistance pr  25.6 7.2E+02  0.0078   23.3   7.1   16  155-171   916-931 (1046)
+
+No 1
+>5OGE_B GDP-mannose transporter 1; SLC35, Golgi transporter, MEMBRANE PROTEIN; HET: OLC; 3.22A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.22  E-value=7.5e-10  Score=84.31  Aligned_cols=189  Identities=19%  Similarity=0.299  Sum_probs=158.5  Template_Neff=10.600
+
+Q ss_pred             CCCccCCcchhHHHHHHHHHHHHHHHHHhCcchhccch------------------hhHHHHHHHHHHHHHhhhhcCCCC
+Q tr|A0A2R8Y5X9|    2 LETIILGKQYSLNIILSVFAIILGAFIAAGSDLAFNLE------------------GYIFVFLNDIFTAANGVYTKQKMD   63 (205)
+Q Consensus         2 letiilgkqyslniilsvfaiilgafiaagsdlafnle------------------gyifvflndiftaangvytkqkmd   63 (205)
+                      ++.+++|||+++.+++++.+++.|+.+...++.+.+..                  |+.+++.++++++.+.++.|+..+
+T Consensus       128 ~~~~~l~e~~~~~~~~~~~l~~~G~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~k~~~~  207 (337)
+T 5OGE_B          128 GEVLFFGGSVTSMELSSFLLMVLSSVVATWGDQQAVAAKAASLAEGAAGAVASFNPGYFWMFTNCITSALFVLIMRKRIK  207 (337)
+T ss_dssp             HTHHHHCCCCCHHHHHHHHHHHHHHHHHHTTCCCCCC----------------CTHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhCCCCCHHHHHHHHHHHHHHHHHHccCchhhHHHHHhhhhhccccchhcchHHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            35667899999999999999999999998776655544                  999999999999999999998876
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHH
+Q tr|A0A2R8Y5X9|   64 PKELGKYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCFLGFLLMYSTVLCSYYNSALTTAVVGA  143 (205)
+Q Consensus        64 pkelgkygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllscflgfllmystvlcsyynsalttavvga  143 (205)
+                      +.+.++.+...+....+.+...+.....++..........+. ..+...+.+++.+...++..+++.+..++...+.+..
+T Consensus       208 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  286 (337)
+T 5OGE_B          208 LTNFKDFDTMFYNNVLALPILLLFSFCVEDWSSVNLTNNFSN-DSLTAMIISGVASVGISYCSGWCVRVTSSTTYSMVGA  286 (337)
+T ss_dssp             HHTCCHHHHHHHHHHTHHHHHHHHHHHHSCCCHHHHHTTSSH-HHHHHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHH
+T ss_pred             cCCCCHHHHHHHHHHHHHHHHHHHHHHccChhhccccccCCH-HHHHHHHHHHHHHHHHHHHHHHHHHccChHHHHHHHH
+Confidence            644688899999999999999888877654221111122344 5677788888888888999899999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCCCC
+Q tr|A0A2R8Y5X9|  144 IKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLKPK  192 (205)
+Q Consensus       144 iknvsvayigiliggdyifsllnfvglnicmagglrysfltlssqlkpk  192 (205)
+                      ++++++.++++++++|+ ++..+++|..+++.|++++.+.+++++++++
+T Consensus       287 ~~~v~~~~~~~~~~~e~-~~~~~~~g~~lv~~g~~l~~~~~~~~~~~~~  334 (337)
+T 5OGE_B          287 LNKLPIALSGLIFFDAP-RNFLSILSIFIGFLSGIIYAVAKQKKQQAQP  334 (337)
+T ss_dssp             HTHHHHHHHHHHHSCCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             hhhHHHHHHHHHHcCCC-CCHHHHHHHHHHHHHHHHHHHHHHHHhhccc
+Confidence            99999999999999999 9999999999999999999999887765443
+
+
+No 2
+>5OGE_G GDP-mannose transporter 1; SLC35, Golgi transporter, MEMBRANE PROTEIN; HET: OLC; 3.22A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.22  E-value=7.5e-10  Score=84.31  Aligned_cols=189  Identities=19%  Similarity=0.303  Sum_probs=158.8  Template_Neff=10.600
+
+Q ss_pred             CCccCCcchhHHHHHHHHHHHHHHHHHhCcchhccch------------------hhHHHHHHHHHHHHHhhhhcCCCCH
+Q tr|A0A2R8Y5X9|    3 ETIILGKQYSLNIILSVFAIILGAFIAAGSDLAFNLE------------------GYIFVFLNDIFTAANGVYTKQKMDP   64 (205)
+Q Consensus         3 etiilgkqyslniilsvfaiilgafiaagsdlafnle------------------gyifvflndiftaangvytkqkmdp   64 (205)
+                      +.+++|||+++.+++++.+++.|+.+...++.+.+..                  |+.+++.++++++.+.++.|+..++
+T Consensus       129 ~~~~l~e~~~~~~~~~~~l~~~G~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~k~~~~~  208 (337)
+T 5OGE_G          129 EVLFFGGSVTSMELSSFLLMVLSSVVATWGDQQAVAAKAASLAEGAAGAVASFNPGYFWMFTNCITSALFVLIMRKRIKL  208 (337)
+T ss_dssp             HHHHTCCCCCHHHHHHHHHHHHHHHHHHHTCCCCCCC------------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhCCCCCHHHHHHHHHHHHHHHHHHccCchhhHHHHHhhhhhccccchhcchHHHHHHHHHHHHHHHHHHHHHHhhc
+Confidence            4567899999999999999999999988776655544                  9999999999999999999888665
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   65 KELGKYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCFLGFLLMYSTVLCSYYNSALTTAVVGAI  144 (205)
+Q Consensus        65 kelgkygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllscflgfllmystvlcsyynsalttavvgai  144 (205)
+                      .+.++.+...+....+.+...+.....++..........+. ..+...+.+++.+...++..+++.+..++...+.+..+
+T Consensus       209 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  287 (337)
+T 5OGE_G          209 TNFKDFDTMFYNNVLALPILLLFSFCVEDWSSVNLTNNFSN-DSLTAMIISGVASVGISYCSGWCVRVTSSTTYSMVGAL  287 (337)
+T ss_dssp             TTCCHHHHHHHHHHTHHHHHHHHHHHHSCCCHHHHHTTSSH-HHHHHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHHHHHccChhhccccccCCH-HHHHHHHHHHHHHHHHHHHHHHHHHccChHHHHHHHHh
+Confidence            33678899999999999999888877654221111122344 56777888888888889998999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCCCCC
+Q tr|A0A2R8Y5X9|  145 KNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLKPKP  193 (205)
+Q Consensus       145 knvsvayigiliggdyifsllnfvglnicmagglrysfltlssqlkpkp  193 (205)
+                      +++++.++++++++|+ ++..+++|..+++.|++++.+.++++++++++
+T Consensus       288 ~~v~~~~~~~~~~~e~-~~~~~~~g~~lv~~g~~l~~~~~~~~~~~~~~  335 (337)
+T 5OGE_G          288 NKLPIALSGLIFFDAP-RNFLSILSIFIGFLSGIIYAVAKQKKQQAQPL  335 (337)
+T ss_dssp             THHHHHHHHHHHSCCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHTTSSC
+T ss_pred             hhHHHHHHHHHHcCCC-CCHHHHHHHHHHHHHHHHHHHHHHHHhhcccc
+Confidence            9999999999999999 99999999999999999999998887665443
+
+
+No 3
+>5Y78_A Putative hexose phosphate translocator; Chloroplast, inner envelop membrane, antiporter; HET: PO4, OLC; 2.1A {Galdieria sulphuraria}
+Probab=98.86  E-value=6.7e-07  Score=66.04  Aligned_cols=191  Identities=18%  Similarity=0.258  Sum_probs=156.5  Template_Neff=11.400
+
+Q ss_pred             CCccCCcchhHHHHHHHHHHHHHHHHHhCcchhccchhhHHHHHHHHHHHHHhhhhcCCCCH----HHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    3 ETIILGKQYSLNIILSVFAIILGAFIAAGSDLAFNLEGYIFVFLNDIFTAANGVYTKQKMDP----KELGKYGVLFYNAC   78 (205)
+Q Consensus         3 etiilgkqyslniilsvfaiilgafiaagsdlafnlegyifvflndiftaangvytkqkmdp----kelgkygvlfynac   78 (205)
+                      +.+++||++++.++.++.+.+.|+.+...++.+.+..|.++.+.++++++.+.+..|+..++    .+.++.....+...
+T Consensus       126 ~~~~l~e~~~~~~~~~~~~~~~G~~l~~~~~~~~~~~g~~~~l~~~~~~a~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~  205 (329)
+T 5Y78_A          126 SALVLGEFFHPLTYLTLVPIVSGVALSAATELTFTWTGFITAMISNVAFVTRNITSKFTMVDFKNEKTLIAQNTYALITI  205 (329)
+T ss_dssp             HHHHHTCCBCTHHHHTHHHHHHHHHHHHHHCTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTCTTCCHHHHHHHHHH
+T ss_pred             HHHHhCCCCCHHHHHHHHHHHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHHHHHHHhhccCCCCcccCCHHHHHHHHHH
+Confidence            45678999999999999999999999998888888889999999999999999999877543    23678889999999
+
+
+Q ss_pred             HHHHHHHHHHHhcCCHHH-H-hhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   79 FMIIPTLIISVSTGDLQQ-A-TEFNQWKNVVFILQFLLSCFLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILI  156 (205)
+Q Consensus        79 fmiiptliisvstgdlqq-a-tefnqwknvvfilqfllscflgfllmystvlcsyynsalttavvgaiknvsvayigili  156 (205)
+                      .+.+...+.....+..+. . .+....+. ..+...+..++.....+...+.+.++.++...+.....+++++.++++++
+T Consensus       206 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  284 (329)
+T 5Y78_A          206 ISFFMELPFALLMEGFPPLVSAIAGVSKA-KLFGSIMFCSLFYHLYNEVSYLCLDNVSPVSFSIGNTIKRVIIIFGSILV  284 (329)
+T ss_dssp             HHHHHHHHHHHHHHCSCCSCCSSTTCCHH-HHHHHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHcCCcchHHHHhhccch-HHHHHHHHHHHHHHHHHHHHHHHHhcCCCchHHHHHHHHHHHHHHhHHHH
+Confidence            999888888776433111 1 11222334 66777888888889999999999999999999999999999999999999
+
+
+Q ss_pred             hHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCCCCCCC
+Q tr|A0A2R8Y5X9|  157 GGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLKPKPVG  195 (205)
+Q Consensus       157 ggdyifsllnfvglnicmagglrysfltlssqlkpkpvg  195 (205)
+                      ++|+ ++..+++|..+++.|+.++...++++++++++++
+T Consensus       285 ~~e~-~~~~~~~G~~li~~g~~l~~~~~~~~~~~~~~~~  322 (329)
+T 5Y78_A          285 FRTP-VTRLNFIGSTIAIIGTMLYSLAKAKLPSKREKQG  322 (329)
+T ss_dssp             HTCC-CCHHHHHHHHHHHHHHHHHHHHHHHCC-------
+T ss_pred             hCCC-CchHHHHHHHHHHHHHHHHHHHHHhcchhhhccc
+Confidence            9999 9999999999999999999999887766544433
+
+
+No 4
+>6UKJ_A Chloroquine resistance transporter, Fab Heavy; Transporter, drug resistance, digestive vacuole; HET: Y01; 3.3A {Plasmodium falciparum (isolate 7G8)}
+Probab=98.38  E-value=1.4e-05  Score=62.64  Aligned_cols=181  Identities=14%  Similarity=0.053  Sum_probs=141.0  Template_Neff=11.200
+
+Q ss_pred             CCccCCcchhHHHHHHHHHHHHHHHHHhCcchh-----ccchhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    3 ETIILGKQYSLNIILSVFAIILGAFIAAGSDLA-----FNLEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFYNA   77 (205)
+Q Consensus         3 etiilgkqyslniilsvfaiilgafiaagsdla-----fnlegyifvflndiftaangvytkqkmdpkelgkygvlfyna   77 (205)
+                      +.++++|++++.++++++++++|+.++..++..     ....|.++.++++++++.+.++.|+..++.+.++.....+..
+T Consensus       174 ~~~~l~e~~~~~~~~~~~l~~~Gv~l~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~~~~~~~~~~~~~~~~~~~~  253 (464)
+T 6UKJ_A          174 CFLILRYRYHLYNYLGAVIIVVTIALVEMKLSFETQEENSIIFNLVLISSLIPVCFSNMTREIVFKKYKIDILRLNAMVS  253 (464)
+T ss_dssp             HHHTSCCCCCHHHHHHHHHHHHHHHHHHHHHHHHBCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHH
+T ss_pred             HHHHhcCCCCHHHHHHHHHHHHHHHHHhccccCCCCCchhHHHHHHHHHhHHHHHHHHHHHHHHhhcCCCCHHHHHHHHH
+Confidence            457789999999999999999999998876543     345799999999999999999999876541248888889998
+
+
+Q ss_pred             HHHHHHHHHHHHhcCCHHHHh--------------------hhh----------------HHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   78 CFMIIPTLIISVSTGDLQQAT--------------------EFN----------------QWKNVVFILQFLLSCFLGFL  121 (205)
+Q Consensus        78 cfmiiptliisvstgdlqqat--------------------efn----------------qwknvvfilqfllscflgfl  121 (205)
+                      ..+.+...+....... +...                    +..                .... ..+..++..++....
+T Consensus       254 ~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~  331 (464)
+T 6UKJ_A          254 FFQLFTSCLILPVYTL-PFLKQLHLPYNEIWTNIKNGFACLFLGRNTVVENCGLGMAKLCDDCD-GAWKTFALFSFFDIC  331 (464)
+T ss_dssp             HHHHHHHHTTGGGTTS-TTCSSCCCCSTTSHHHHHHHHCCCCCCCCCCCSSCSTTSSSCCCCCT-THHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhc-cccccCCCCHHHHHHHHhHhhhchhcCCCccccccCcccccchhccc-hhHHHHHHHHHHHHH
+Confidence            8888877766554221 0000                    000                0112 345566677777888
+
+
+Q ss_pred             HHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHH--HhH---HHHHHHHHHHhHHHHHhchhHhhhhccc
+Q tr|A0A2R8Y5X9|  122 LMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGIL--IGG---DYIFSLLNFVGLNICMAGGLRYSFLTLS  186 (205)
+Q Consensus       122 lmystvlcsyynsalttavvgaiknvsvayigil--igg---dyifsllnfvglnicmagglrysfltls  186 (205)
+                      .+++...++++.++...+....++++++.+++.+  +++   |+ +++.+++|.+++++|++++...+.+
+T Consensus       332 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~-~~~~~~~G~~li~~g~~l~~~~~~~  400 (464)
+T 6UKJ_A          332 DNLITSYIIDKFSTMTYTIVSCIQGPALAIAYYFKFLAGDVVRE-PRLLDFVTLFGYLFGSIIYRVGNII  400 (464)
+T ss_dssp             HHHHHHHHHHHTCSSHHHHHHHTHHHHHHHHTTCTTTSCSCCCC-CCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhcHHHHHHHHHhHHHHHHHHHHcchhcCCCCCC-CCHHHHHHHHHHHHHHHHHHHhHHH
+Confidence            8888889999999999999999999998888865  677   99 9999999999999999999876543
+
+
+No 5
+>6I1R_B CMP-sialic acid transporter 1; CMP-sialic acid transporter, Secondary active; HET: C5P; 2.8A {Zea mays}
+Probab=98.28  E-value=0.0002  Score=52.16  Aligned_cols=187  Identities=14%  Similarity=0.089  Sum_probs=133.5  Template_Neff=11.800
+
+Q ss_pred             CCccCCcchhHHHHHHHHHHHHHHHHHhCcch---------hccchhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    3 ETIILGKQYSLNIILSVFAIILGAFIAAGSDL---------AFNLEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVL   73 (205)
+Q Consensus         3 etiilgkqyslniilsvfaiilgafiaagsdl---------afnlegyifvflndiftaangvytkqkmdpkelgkygvl   73 (205)
+                      +.+++|||+++.++.++.+.+.|+.+...++.         .....|..+.++++++++...++.|+..++.+.+.....
+T Consensus       116 ~~~~l~e~~~~~~~~~~~l~~~G~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~a~~~v~~~~~~~~~~~~~~~~~  195 (322)
+T 6I1R_B          116 FRLVLKRKLSNIQWMAIVLLAVGTTTSQVKGCGDSPCDSLFSAPLEGYLLGILSACLSALAGVYTEYLMKKNNDSLYWQN  195 (322)
+T ss_dssp             HHHTSCCCCCHHHHHHHHHHHHHHHHHHSCCSSCSSCCCTTCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHH
+T ss_pred             HHHHhCCCCCHHHHHHHHHHHHHHHHhcCCCCCCCccccccccHHHHHHHHHHHHHHHHHHHHHHHHHHhhCCCChHHHH
+Confidence            45678999999999999999999999887654         234569999999999999999999987665212555566
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHhcCCHHHHhhh---hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   74 FYNACFMIIPTLIISVSTGDLQQATEF---NQWKNVVFILQFLLSCFLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVA  150 (205)
+Q Consensus        74 fynacfmiiptliisvstgdlqqatef---nqwknvvfilqfllscflgfllmystvlcsyynsalttavvgaiknvsva  150 (205)
+                      .+....+.+...+.....+........   ..... ..........+...........+.++.++...+....++++++.
+T Consensus       196 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  274 (322)
+T 6I1R_B          196 VQLYTFGVIFNMGWLIYGDFKAGFELGPWWQRLFN-GYSITTWMVVFNLGSTGLLVSWLMKYSDNIVKVYSTSMAMLLTM  274 (322)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTTCSCCHHHHTTT-TCCHHHHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHccHhhcccCChhHHHhcC-CCCHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            666666666655544432210000000   00000 01112223334444555566677899999999999999999999
+
+
+Q ss_pred             HHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCCC
+Q tr|A0A2R8Y5X9|  151 YIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLKP  191 (205)
+Q Consensus       151 yigiliggdyifsllnfvglnicmagglrysfltlssqlkp  191 (205)
+                      ++++++++|+ ++..+++|..+++.|+.++...++++++++
+T Consensus       275 ~~~~~~~~e~-~~~~~~~G~~li~~g~~~~~~~~~~~~~~~  314 (322)
+T 6I1R_B          275 VLSIYLFSVK-ATIQLFLGIIICIISLQMYFMPVHMLIELP  314 (322)
+T ss_dssp             HHHHHTTCCC-CCHHHHHHHHHHHHHHHHHHSCTTTTTCC-
+T ss_pred             HHHHHHhCCC-ccHHHHHHHHHHHHHHHHhhCCcccccCCc
+Confidence            9999999999 999999999999999999998776655443
+
+
+No 6
+>6XBO_A Transporter, glycobiology, sialic acid, 5-methyl; HET: 2PE, 5MC, OLC; 1.8A {Mus musculus}
+Probab=98.01  E-value=0.00056  Score=50.50  Aligned_cols=181  Identities=14%  Similarity=0.096  Sum_probs=130.5  Template_Neff=11.600
+
+Q ss_pred             CCccCCcchhHHHHHHHHHHHHHHHHHhCcchh--------ccchhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    3 ETIILGKQYSLNIILSVFAIILGAFIAAGSDLA--------FNLEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLF   74 (205)
+Q Consensus         3 etiilgkqyslniilsvfaiilgafiaagsdla--------fnlegyifvflndiftaangvytkqkmdpkelgkygvlf   74 (205)
+                      +.++++|++++.++.++.+.+.|+.+...++..        ....|..+.++++++++.+.+..|+..++.+.+......
+T Consensus       132 ~~~~~~~~~~~~~~~~~~l~~~G~~~~~~~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~~~~~~~~~~~~~~~~~  211 (330)
+T 6XBO_A          132 TVLMLNRTLSKLQWISVFMLCGGVTLVQWKPAQATKVVVAQNPLLGFGAIAIAVLCSGFAGVYFEKVLKSSDTSLWVRNI  211 (330)
+T ss_dssp             HHHHTTCCCCHHHHHHHHHHHHHHHHHHCCCCCSSCCCSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSCCHHHHHH
+T ss_pred             HHHHhCCCCCHHHHHHHHHHHHHHHHhhcCcccCCccccccchHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHHH
+Confidence            456789999999999999999999998765543        235699999999999999999998876542235566667
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhcCCHHH-H-hhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   75 YNACFMIIPTLIISVSTGDLQQ-A-TEFNQWKNVVFILQFLLSCFLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYI  152 (205)
+Q Consensus        75 ynacfmiiptliisvstgdlqq-a-tefnqwknvvfilqfllscflgfllmystvlcsyynsalttavvgaiknvsvayi  152 (205)
+                      +....+.+...+.......... . ........ ..+...+..+    ........+.++.++...+.....+++++.+.
+T Consensus       212 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  286 (330)
+T 6XBO_A          212 QMYLSGIVVTLAGTYLSDGAEIQEKGFFYGYTY-YVWFVIFLAS----VGGLYTSVVVKYTDNIMKGFSAAAAIVLSTIA  286 (330)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHCTTTTCCH-HHHHHHHHHH----HHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhCCchHHhhcCcccCCCH-HHHHHHHHHH----HHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHH
+Confidence            7777777766665554322111 1 11111122 2233333333    33344446788899999999999999999999
+
+
+Q ss_pred             HHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCC
+Q tr|A0A2R8Y5X9|  153 GILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQL  189 (205)
+Q Consensus       153 giliggdyifsllnfvglnicmagglrysfltlssql  189 (205)
+                      ++++++|+ ++..+++|..+++.|..++...++++++
+T Consensus       287 ~~~~~~e~-~~~~~~~g~~li~~g~~l~~~~~~~~~~  322 (330)
+T 6XBO_A          287 SVLLFGLQ-ITLSFALGALLVCVSIYLYGLPRQDTTS  322 (330)
+T ss_dssp             HHHHHCCC-CCHHHHHHHHHHHHHHHHHTSCC---CT
+T ss_pred             HHHHhCCC-CCHHHHHHHHHHHHHHHHhcCCCCCCCC
+Confidence            99999999 9999999999999999999887655443
+
+
+No 7
+>5I20_C Uncharacterized protein; alpha helical, MEMBRANE PROTEIN; HET: OLC; 2.4A {Starkeya novella (strain ATCC 8093 / DSM 506 / CCM 1077 / IAM 12100 / NBRC 12443 / NCIB 9113)}
+Probab=96.83  E-value=0.22  Score=37.89  Aligned_cols=177  Identities=9%  Similarity=-0.013  Sum_probs=129.4  Template_Neff=10.800
+
+Q ss_pred             CCCccCCcchhHHHHHHHHHHHHHHHHHhC-cch-----hccchhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    2 LETIILGKQYSLNIILSVFAIILGAFIAAG-SDL-----AFNLEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFY   75 (205)
+Q Consensus         2 letiilgkqyslniilsvfaiilgafiaag-sdl-----afnlegyifvflndiftaangvytkqkmdpkelgkygvlfy   75 (205)
+                      ++.+++||++++.++.++.+++.|+.+... ++.     .....|..+.++++++++.+.+..|+. ++  .+......+
+T Consensus       108 ~~~~~~~e~~~~~~~~~i~l~~~G~~l~~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~k~~-~~--~~~~~~~~~  184 (298)
+T 5I20_C          108 FSAFLPGERLRPAHVAGALMGLAGTVVLLGARAGGFGFAPEYVPGYLAAAACAVIWSVYSVASRRF-AR--VPTEVVAGF  184 (298)
+T ss_dssp             HGGGSSSSCCCHHHHHHHHHHHHHHHHHHHHC-----CCGGGHHHHHHHHHHHHHHHHHHHHTTTT-TT--SCGGGHHHH
+T ss_pred             HHHHhCCCCCCHHHHHHHHHHHHhhhhHhcccCCCCCCCcccHHHHHHHHHHHHHHHHHHHHhhcc-CC--CCchHHHHH
+Confidence            356789999999999999999999999887 552     223679999999999999999999988 43  455555555
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   76 NACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCF-LGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGI  154 (205)
+Q Consensus        76 nacfmiiptliisvstgdlqqatefnqwknvvfilqfllscf-lgfllmystvlcsyynsalttavvgaiknvsvayigi  154 (205)
+                      ....+.....+....... . .  ..   . ..+...+..++ ...........++++.++...+.....+++++.++++
+T Consensus       185 ~~~~~~~~~~~~~~~~~~-~-~--~~---~-~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~  256 (298)
+T 5I20_C          185 CLATAALSALCHILFEPS-V-W--PV---G-SEWLAVVALGIGPVGIAFYTWDIGMKRGDVRLLGVLSYAAPVLSTLLLV  256 (298)
+T ss_dssp             HHHHHHHHHHHHHHHCCC-C-C--CC---T-THHHHHHHHTTTTTTTHHHHHHHHHHHSCHHHHHHHTTHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHcCCC-C-C--CC---h-HHHHHHHHHHHHHHHHHHHHHHHHhhhCCHHHHHHHHhHHHHHHHHHHH
+Confidence            544444443333332221 1 0  00   1 11223333333 4555667777889999999999999999999999999
+
+
+Q ss_pred             HHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCC
+Q tr|A0A2R8Y5X9|  155 LIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLK  190 (205)
+Q Consensus       155 liggdyifsllnfvglnicmagglrysfltlssqlk  190 (205)
+                      ++++|+ ++..+++|..+++.|+.++...+++++++
+T Consensus       257 ~~~~e~-~~~~~~~g~~li~~g~~l~~~~~~~~~~~  291 (298)
+T 5I20_C          257 VAGFAA-PSGALAIACALIVGGAAVATLLARRLESS  291 (298)
+T ss_dssp             HHTSSC-CCHHHHHHHHHHHHHHHHHHTTSSCC---
+T ss_pred             HHhcCC-CCHHHHHHHHHHHHHHHHHHHHHHhhccc
+Confidence            999999 99999999999999999999877665443
+
+
+No 8
+>5I20_E Uncharacterized protein; alpha helical, MEMBRANE PROTEIN; HET: OLC; 2.4A {Starkeya novella (strain ATCC 8093 / DSM 506 / CCM 1077 / IAM 12100 / NBRC 12443 / NCIB 9113)}
+Probab=96.83  E-value=0.22  Score=37.89  Aligned_cols=177  Identities=9%  Similarity=-0.013  Sum_probs=131.5  Template_Neff=10.800
+
+Q ss_pred             CCCccCCcchhHHHHHHHHHHHHHHHHHhC-cch-----hccchhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|    2 LETIILGKQYSLNIILSVFAIILGAFIAAG-SDL-----AFNLEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFY   75 (205)
+Q Consensus         2 letiilgkqyslniilsvfaiilgafiaag-sdl-----afnlegyifvflndiftaangvytkqkmdpkelgkygvlfy   75 (205)
+                      ++.+++||++++.++.++.+++.|+.+... ++.     .....|..+.++++++++.+.+..|+. ++  .+......+
+T Consensus       108 ~~~~~~~e~~~~~~~~~i~l~~~G~~l~~~~~~~~~~~~~~~~~g~~~~l~a~~~~a~~~v~~k~~-~~--~~~~~~~~~  184 (298)
+T 5I20_E          108 FSAFLPGERLRPAHVAGALMGLAGTVVLLGARAGGFGFAPEYVPGYLAAAACAVIWSVYSVASRRF-AR--VPTEVVAGF  184 (298)
+T ss_dssp             HHTTSTTCCCCHHHHHHHHHHHHHHHHHHHTSSSTTCCCGGGHHHHHHHHHHHHHHHHHHHHGGGG-TT--SCTTHHHHH
+T ss_pred             HHHHhCCCCCCHHHHHHHHHHHHhhhhHhcccCCCCCCCcccHHHHHHHHHHHHHHHHHHHHhhcc-CC--CCchHHHHH
+Confidence            356789999999999999999999999887 552     223679999999999999999999988 43  444445455
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   76 NACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCF-LGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGI  154 (205)
+Q Consensus        76 nacfmiiptliisvstgdlqqatefnqwknvvfilqfllscf-lgfllmystvlcsyynsalttavvgaiknvsvayigi  154 (205)
+                      ....+.....+....... . .  ..   . ..+...+..++ ...........++++.++...+.....+++++.++++
+T Consensus       185 ~~~~~~~~~~~~~~~~~~-~-~--~~---~-~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~  256 (298)
+T 5I20_E          185 CLATAALSALCHILFEPS-V-W--PV---G-SEWLAVVALGIGPVGIAFYTWDIGMKRGDVRLLGVLSYAAPVLSTLLLV  256 (298)
+T ss_dssp             HHHHHHHHHHHHHHHSCC-C-C--CC---T-THHHHHHHHHHTTTHHHHHHHHHHHHHSCHHHHHHHTTHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHcCCC-C-C--CC---h-HHHHHHHHHHHHHHHHHHHHHHHHhhhCCHHHHHHHHhHHHHHHHHHHH
+Confidence            444444443333332221 1 0  00   1 11223333333 4566677777889999999999999999999999999
+
+
+Q ss_pred             HHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCCCC
+Q tr|A0A2R8Y5X9|  155 LIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQLK  190 (205)
+Q Consensus       155 liggdyifsllnfvglnicmagglrysfltlssqlk  190 (205)
+                      ++++|+ ++..+++|..+++.|+.++...+++++++
+T Consensus       257 ~~~~e~-~~~~~~~g~~li~~g~~l~~~~~~~~~~~  291 (298)
+T 5I20_E          257 VAGFAA-PSGALAIACALIVGGAAVATLLARRLESS  291 (298)
+T ss_dssp             HTTSSC-CCHHHHHHHHHHHHHHHHHHHSTTTTCCC
+T ss_pred             HHhcCC-CCHHHHHHHHHHHHHHHHHHHHHHhhccc
+Confidence            999999 99999999999999999999877665443
+
+
+No 9
+>6UKJ_A Chloroquine resistance transporter, Fab Heavy; Transporter, drug resistance, digestive vacuole; HET: Y01; 3.3A {Plasmodium falciparum (isolate 7G8)}
+Probab=76.09  E-value=66  Score=26.30  Aligned_cols=145  Identities=13%  Similarity=0.085  Sum_probs=106.7  Template_Neff=11.200
+
+Q ss_pred             chhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   38 LEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCF  117 (205)
+Q Consensus        38 legyifvflndiftaangvytkqkmdpkelgkygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllscf  117 (205)
+                      ..++++.+++.++++...++.|....+....+............++..+...........  ...... ..+...+..++
+T Consensus        62 ~~~~~~~~~~~~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~-~~~~~~~~~~~  138 (464)
+T 6UKJ_A           62 IFIYILSIIYLSVSVMNTIFAKRTLNKIGNYSFVTSETHNFICMIMFFIVYSLFGNKKGN--SKERHR-SFNLQFFAISM  138 (464)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTTCCSCHHHHHHHHHHHHHHHHHHHHHHTC-----------CC-CCHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHhccCCCC--chHhcc-cHHHHHHHHHH
+Confidence            458899999999999999998877665112366666667666666666555543321110  000001 11344556666
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhccc
+Q tr|A0A2R8Y5X9|  118 LGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLS  186 (205)
+Q Consensus       118 lgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysfltls  186 (205)
+                      ...+...+.+.++++.++.....+..+.++++.+++.++++|+ ++..+++|++++++|+++.......
+T Consensus       139 ~~~~~~~~~~~al~~~~~~~~~~l~~~~p~~~~l~~~~~l~e~-~~~~~~~~~~l~~~Gv~l~~~~~~~  206 (464)
+T 6UKJ_A          139 LDACSVILAFIGLTRTTGNIQSFVLQLSIPINMFFCFLILRYR-YHLYNYLGAVIIVVTIALVEMKLSF  206 (464)
+T ss_dssp             HHHHHHHHHHHHTSSCCHHHHHHHHHHHHHHHHHHHHHTSCCC-CCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhccCCHHHHHHHHhcHHHHHHHHHHHHhcCC-CCHHHHHHHHHHHHHHHHHhccccC
+Confidence            6777788888999999999999999999999999999999999 9999999999999999999887643
+
+
+No 10
+>6I1R_B CMP-sialic acid transporter 1; CMP-sialic acid transporter, Secondary active; HET: C5P; 2.8A {Zea mays}
+Probab=54.09  E-value=1.5e+02  Score=22.37  Aligned_cols=145  Identities=11%  Similarity=0.082  Sum_probs=106.8  Template_Neff=11.800
+
+Q ss_pred             hhHHHHHHHHHHHHHhhhhcCCCCH--HHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   40 GYIFVFLNDIFTAANGVYTKQKMDP--KELGKYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCF  117 (205)
+Q Consensus        40 gyifvflndiftaangvytkqkmdp--kelgkygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllscf  117 (205)
+                      +..+.+++.++++...+..|...++  .+.++............+...+............ ....+. ..+......++
+T Consensus         3 ~~~~~l~~~~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~-~~~~~~~~~~~   80 (322)
+T 6I1R_B            3 WYLVAALLTILTSSQGILTTLSQSNGKYNYDYATIPFLAELFKLSVSGFFLWKECRTSPSV-RMTKEW-RSVRLYVVPSV   80 (322)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTCC---CCCTTSHHHHHHHHHHHHHHHHHHHHHHHCSCC-CCCCCH-HHHGGGHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhccCCCCCCCHHHHHHHHHHHHHHHHHHHHHHhcCCCCcc-cccccH-HHHHHHHHHHH
+Confidence            4677888888888888888766543  1256677777787777777766665432100000 001122 33444555666
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccC
+Q tr|A0A2R8Y5X9|  118 LGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSS  187 (205)
+Q Consensus       118 lgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysfltlss  187 (205)
+                      .....+.+.+.++++.++.....+....++++.+++.++++|+ ++..++.|+.+.+.|+.+....+...
+T Consensus        81 ~~~~~~~~~~~al~~~~~~~~~~i~~~~~~~~~l~~~~~l~e~-~~~~~~~~~~l~~~G~~~~~~~~~~~  149 (322)
+T 6I1R_B           81 IYLIHNNVQFATLTYVDPSTYQIMGNLKIVTTGILFRLVLKRK-LSNIQWMAIVLLAVGTTTSQVKGCGD  149 (322)
+T ss_dssp             HHHHHHHHHHHHTTTSCHHHHHHHGGGHHHHHHHHHHHTSCCC-CCHHHHHHHHHHHHHHHHHHSCCSSC
+T ss_pred             HHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHhcCCCCCC
+Confidence            6777888888999999999999999999999999999999999 99999999999999999988766443
+
+
+No 11
+>6LCP_A Phospholipid-transporting ATPase (E.C.7.6.2.1), Cdc50; P-type ATPase, lipid flippase, LIPID; HET: NAG, P5S, BMA, POV, MAN;{Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=51.72  E-value=4e+02  Score=29.33  Aligned_cols=15  Identities=27%  Similarity=0.096  Sum_probs=7.2  Template_Neff=7.500
+
+Q ss_pred             HHHHHhHHHHHhchh
+Q tr|A0A2R8Y5X9|  164 LLNFVGLNICMAGGL  178 (205)
+Q Consensus       164 llnfvglnicmaggl  178 (205)
+                      +..|+.+.+..+..+
+T Consensus      1303 ~~~wl~~ll~~~~~l 1317 (1555)
+T 6LCP_A         1303 LTFWMCLIVTPALCL 1317 (1555)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            455555555444443
+
+
+No 12
+>5OGE_B GDP-mannose transporter 1; SLC35, Golgi transporter, MEMBRANE PROTEIN; HET: OLC; 3.22A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=48.68  E-value=2.2e+02  Score=22.83  Aligned_cols=144  Identities=13%  Similarity=0.142  Sum_probs=111.2  Template_Neff=10.600
+
+Q ss_pred             chhhHHHHHHHHHHHHHhhhhcCCCCHHHHH-HHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   38 LEGYIFVFLNDIFTAANGVYTKQKMDPKELG-KYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSC  116 (205)
+Q Consensus        38 legyifvflndiftaangvytkqkmdpkelg-kygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllsc  116 (205)
+                      ..+..+.+.+.++++...+..|...++.+.+ +......+...+.+...+....... +...    .+. ..+...+..+
+T Consensus        19 ~~~~~~~l~~~~~~~~~~~~~K~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~-~~~~----~~~-~~~~~~~~~~   92 (337)
+T 5OGE_B           19 NSGPISILSYCGSSILMTVTNKFVVNLKDFNMNFVMLFVQSLVCTITLIILRILGYA-KFRS----LNK-TDAKNWFPIS   92 (337)
+T ss_dssp             SSTTHHHHHHHHHHHHHHHCCCCCSCCCCCSCHHHHHHHHHHHHHHHHHHHHSCC----CCC----CCS-HHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHcCCCChhHHHHHHHHHHHHHHHHHHHHhCCC-CCCC----CCH-HHHHhHHHHH
+Confidence            4588899999999999999999887742255 8888888888888887776654211 1110    011 2233344556
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCC
+Q tr|A0A2R8Y5X9|  117 FLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQ  188 (205)
+Q Consensus       117 flgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysfltlssq  188 (205)
+                      +.......+.+.+++..+......+....++++.++++++++|+ +++.+++|..+++.|+.+....+...+
+T Consensus        93 ~~~~~~~~~~~~al~~~~~~~~~~~~~~~~~~~~~~~~~~l~e~-~~~~~~~~~~l~~~G~~l~~~~~~~~~  163 (337)
+T 5OGE_B           93 FLLVLMIYTSSKALQYLAVPIYTIFKNLTIILIAYGEVLFFGGS-VTSMELSSFLLMVLSSVVATWGDQQAV  163 (337)
+T ss_dssp             HHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHTHHHHCCC-CCHHHHHHHHHHHHHHHHHHTTCCCCC
+T ss_pred             HHHHHHHHHHHHHHhcCChhHHHHHhhhHHHHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHccCchhh
+Confidence            66677778888999999999999999999999999999999999 999999999999999999887765543
+
+
+No 13
+>5OGE_G GDP-mannose transporter 1; SLC35, Golgi transporter, MEMBRANE PROTEIN; HET: OLC; 3.22A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=48.68  E-value=2.2e+02  Score=22.83  Aligned_cols=144  Identities=13%  Similarity=0.142  Sum_probs=111.3  Template_Neff=10.600
+
+Q ss_pred             chhhHHHHHHHHHHHHHhhhhcCCCCHHHHH-HHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   38 LEGYIFVFLNDIFTAANGVYTKQKMDPKELG-KYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSC  116 (205)
+Q Consensus        38 legyifvflndiftaangvytkqkmdpkelg-kygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllsc  116 (205)
+                      ..+..+.+.+.++++...+..|...++.+.+ +......+...+.+...+....... +...    .+. ..+...+..+
+T Consensus        19 ~~~~~~~l~~~~~~~~~~~~~K~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~~~-~~~~----~~~-~~~~~~~~~~   92 (337)
+T 5OGE_G           19 NSGPISILSYCGSSILMTVTNKFVVNLKDFNMNFVMLFVQSLVCTITLIILRILGYA-KFRS----LNK-TDAKNWFPIS   92 (337)
+T ss_dssp             CSTTHHHHHHHHHHHHHHHCCCCCSCCCCCSCHHHHHHHHHHHHHHHHHHHHSCC----CCC----CCS-HHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHcCCCChhHHHHHHHHHHHHHHHHHHHHhCCC-CCCC----CCH-HHHHhHHHHH
+Confidence            4588899999999999999999887742255 8888888888888887776654211 1110    011 2233344556
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhhhcccCC
+Q tr|A0A2R8Y5X9|  117 FLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSFLTLSSQ  188 (205)
+Q Consensus       117 flgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysfltlssq  188 (205)
+                      +.......+.+.+++..+......+....++++.++++++++|+ +++.+++|..+++.|+.+....+...+
+T Consensus        93 ~~~~~~~~~~~~al~~~~~~~~~~~~~~~~~~~~~~~~~~l~e~-~~~~~~~~~~l~~~G~~l~~~~~~~~~  163 (337)
+T 5OGE_G           93 FLLVLMIYTSSKALQYLAVPIYTIFKNLTIILIAYGEVLFFGGS-VTSMELSSFLLMVLSSVVATWGDQQAV  163 (337)
+T ss_dssp             HHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHTCCC-CCHHHHHHHHHHHHHHHHHHHTCCCCC
+T ss_pred             HHHHHHHHHHHHHHhcCChhHHHHHhhhHHHHHHHHHHHHhCCC-CCHHHHHHHHHHHHHHHHHHccCchhh
+Confidence            66677778888999999999999999999999999999999999 999999999999999999988765543
+
+
+No 14
+>5I20_C Uncharacterized protein; alpha helical, MEMBRANE PROTEIN; HET: OLC; 2.4A {Starkeya novella (strain ATCC 8093 / DSM 506 / CCM 1077 / IAM 12100 / NBRC 12443 / NCIB 9113)}
+Probab=47.97  E-value=2.1e+02  Score=22.32  Aligned_cols=135  Identities=7%  Similarity=-0.060  Sum_probs=106.3  Template_Neff=10.800
+
+Q ss_pred             chhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHHHHHHHHHHHH-HHHHhcCCHHHHhhhhHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   38 LEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFYNACFMIIPTL-IISVSTGDLQQATEFNQWKNVVFILQFLLSC  116 (205)
+Q Consensus        38 legyifvflndiftaangvytkqkmdpkelgkygvlfynacfmiiptl-iisvstgdlqqatefnqwknvvfilqfllsc  116 (205)
+                      ..|+.+.++++++++...+..|.. ++  .++....+++...+.+... +........+  ..     . ..+.....++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~k~~-~~--~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~--~~-----~-~~~~~~~~~~   72 (298)
+T 5I20_C            4 SSATLIGFTAILLWSTLALATSST-GA--VPPFLLTALTFTIGGAVGIAAGLARGVGLS--VL-----R-QPWPVWVHGI   72 (298)
+T ss_dssp             HHHHHHHHHHHHHHTTHHHHGGGC-TT--SCHHHHHHHHHHHHHHHHHHHHHHHTCCGG--GG-----C-CCHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHh-cC--CCHHHHHHHHHHHHHHHHHHHHHHcCCChh--Hh-----c-ChHHHHHHHH
+Confidence            358899999999999999999865 54  8999999999999998888 4443332211  10     1 1122233444
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhh-hc
+Q tr|A0A2R8Y5X9|  117 FLGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSF-LT  184 (205)
+Q Consensus       117 flgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysf-lt  184 (205)
+                      +.....+.+.+.++++.++.....+..+.|+++.+++.++++|+ +++.++.|+.+++.|+.+... .+
+T Consensus        73 ~~~~~~~~~~~~al~~~~~~~~~~i~~~~p~~~~l~~~~~~~e~-~~~~~~~~i~l~~~G~~l~~~~~~  140 (298)
+T 5I20_C           73 GGLFGYHFFYFSALKLAPPAEAGLVAYLWPLLIVLFSAFLPGER-LRPAHVAGALMGLAGTVVLLGARA  140 (298)
+T ss_dssp             HHHHHHHHHHHHHHHHSCHHHHHHHHTTHHHHHHHHGGGSSSSC-CCHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             HHHHHHHHHHHHHHhhCCHHHHHHHHHHHHHHHHHHHHHhCCCC-CCHHHHHHHHHHHHhhhhHhcccC
+Confidence            45555567778899999999999999999999999999999999 999999999999999999988 54
+
+
+No 15
+>5I20_E Uncharacterized protein; alpha helical, MEMBRANE PROTEIN; HET: OLC; 2.4A {Starkeya novella (strain ATCC 8093 / DSM 506 / CCM 1077 / IAM 12100 / NBRC 12443 / NCIB 9113)}
+Probab=47.97  E-value=2.1e+02  Score=22.32  Aligned_cols=136  Identities=7%  Similarity=-0.042  Sum_probs=106.8  Template_Neff=10.800
+
+Q ss_pred             chhhHHHHHHHHHHHHHhhhhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHHhhhhHHHHHHHHHHHHHHHH
+Q tr|A0A2R8Y5X9|   38 LEGYIFVFLNDIFTAANGVYTKQKMDPKELGKYGVLFYNACFMIIPTLIISVSTGDLQQATEFNQWKNVVFILQFLLSCF  117 (205)
+Q Consensus        38 legyifvflndiftaangvytkqkmdpkelgkygvlfynacfmiiptliisvstgdlqqatefnqwknvvfilqfllscf  117 (205)
+                      ..|+.+.++++++++...+..|.. ++  .++....+++...+.+...+.......... ..     . ..+.....+++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~k~~-~~--~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~-~~-----~-~~~~~~~~~~~   73 (298)
+T 5I20_E            4 SSATLIGFTAILLWSTLALATSST-GA--VPPFLLTALTFTIGGAVGIAAGLARGVGLS-VL-----R-QPWPVWVHGIG   73 (298)
+T ss_dssp             HHHHHHHHHHHHHHGGGGGGHHHH-TT--SCHHHHHHHHHHHHHHHHHHHHHHTTCCGG-GG-----C-CCHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHh-cC--CCHHHHHHHHHHHHHHHHHHHHHHcCCChh-Hh-----c-ChHHHHHHHHH
+Confidence            358899999999999999999865 44  899999999999999888844433332011 10     1 11222334444
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHhHHHHHhchhHhhh-hc
+Q tr|A0A2R8Y5X9|  118 LGFLLMYSTVLCSYYNSALTTAVVGAIKNVSVAYIGILIGGDYIFSLLNFVGLNICMAGGLRYSF-LT  184 (205)
+Q Consensus       118 lgfllmystvlcsyynsalttavvgaiknvsvayigiliggdyifsllnfvglnicmagglrysf-lt  184 (205)
+                      .....+.+.+.++++.++.....+..+.|+++.+++.++++|+ +++.++.|+.+++.|+.+... .+
+T Consensus        74 ~~~~~~~~~~~al~~~~~~~~~~i~~~~p~~~~l~~~~~~~e~-~~~~~~~~i~l~~~G~~l~~~~~~  140 (298)
+T 5I20_E           74 GLFGYHFFYFSALKLAPPAEAGLVAYLWPLLIVLFSAFLPGER-LRPAHVAGALMGLAGTVVLLGARA  140 (298)
+T ss_dssp             HHHHHHHHHHHHHHHSCHHHHHHHHTTHHHHHHHHHTTSTTCC-CCHHHHHHHHHHHHHHHHHHHTSS
+T ss_pred             HHHHHHHHHHHHHhhCCHHHHHHHHHHHHHHHHHHHHHhCCCC-CCHHHHHHHHHHHHhhhhHhcccC
+Confidence            5555567778999999999999999999999999999999999 999999999999999999988 54
+
+
+No 16
+>7KYC_A Phospholipid-transporting ATPase DNF1 (E.C.7.6.2.1), Alkylphosphocholine; P4 ATPase, Phosphatidylcholine Flippases, TRANSLOCASE; HET: NAG, POV, MAN; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=40.63  E-value=7.5e+02  Score=27.41  Aligned_cols=8  Identities=0%  Similarity=-0.006  Sum_probs=3.1  Template_Neff=7.600
+
+Q ss_pred             HHHhHHHH
+Q tr|A0A2R8Y5X9|  166 NFVGLNIC  173 (205)
+Q Consensus       166 nfvglnic  173 (205)
+                      .|+.+.+.
+T Consensus      1378 ~wl~~~l~ 1385 (1571)
+T 7KYC_A         1378 FWAVFFVA 1385 (1571)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHH
+Confidence            34443333
+
+
+No 17
+>5LQ3_B CmeB; transmembrane protein, transport protein; 3.55A {Campylobacter jejuni}
+Probab=26.51  E-value=8.1e+02  Score=22.65  Aligned_cols=17  Identities=24%  Similarity=0.323  Sum_probs=7.5  Template_Neff=11.600
+
+Q ss_pred             HhHHHHHHHHHHHhHHHH
+Q tr|A0A2R8Y5X9|  156 IGGDYIFSLLNFVGLNIC  173 (205)
+Q Consensus       156 iggdyifsllnfvglnic  173 (205)
+                      +++.+ ++.....+..++
+T Consensus       387 ~~~~~-~~~~~~~~~~~~  403 (1035)
+T 5LQ3_B          387 VLGFS-INLLTLFALILA  403 (1035)
+T ss_dssp             HHTCC-BCHHHHHHHHHH
+T ss_pred             HhcCC-CcHHHHHHHHHH
+Confidence            44444 444444443333
+
+
+No 18
+>3W9I_F Multidrug resistance protein MexB; MexB, Efflux pump, Transporter, Multidrug; HET: LMT; 2.71A {Pseudomonas aeruginosa}
+Probab=25.65  E-value=7.2e+02  Score=23.26  Aligned_cols=16  Identities=25%  Similarity=0.140  Sum_probs=6.8  Template_Neff=11.300
+
+Q ss_pred             HHhHHHHHHHHHHHhHH
+Q tr|A0A2R8Y5X9|  155 LIGGDYIFSLLNFVGLN  171 (205)
+Q Consensus       155 liggdyifsllnfvgln  171 (205)
+                      .+++-+ ++....++..
+T Consensus       916 ~l~g~~-l~~~~~~~~~  931 (1046)
+T 3W9I_F          916 SMRGLS-NDVFFQVGLL  931 (1046)
+T ss_dssp             HTTTCC-BCHHHHHHHH
+T ss_pred             HHCCCC-ccHHHHHHHH
+Confidence            344444 4444444433
+
+

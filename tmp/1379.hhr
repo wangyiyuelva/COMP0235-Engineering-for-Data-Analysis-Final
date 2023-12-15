@@ -1,0 +1,422 @@
+Query         tr|R4GN90|R4GN90_HUMAN
+Match_columns 61
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:39:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1379.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7K5B_N three head, outer dynei  45.8   1E+02  0.0011   18.1   4.2   34   15-48     15-57  (114)
+  2 3VZA_F Uncharacterized protein  45.4      53 0.00058   19.1   2.4   24    2-25      1-24  (39)
+  3 7KZM_F Tubulin beta, Tubulin a  44.9 1.2E+02  0.0013   18.5   4.3   24   25-48     54-77  (136)
+  4 7KZN_F Heavy chain alpha, Flag  44.9 1.2E+02  0.0013   18.5   4.3   33   17-49     45-78  (136)
+  5 6CH3_B Flagellar biosynthesis   44.5      61 0.00066   20.3   2.7   26   15-40     62-87  (198)
+  6 4WWR_F Ubl4A, Bag6; Endoplasmi  44.4      90 0.00098   17.1   4.2   32   15-46      4-35  (47)
+  7 1YGT_A Dynein Light Chain TcTe  42.3 1.1E+02  0.0012   17.4   4.3   32   17-48     22-54  (111)
+  8 3FM7_B Dynein light chain Tcte  42.3 1.1E+02  0.0012   17.4   4.3   24   25-48     31-54  (111)
+  9 5WUR_C ECF RNA polymerase sigm  41.6      59 0.00064   14.1   2.9   26   14-39      7-32  (80)
+ 10 4X86_A Ubiquitin-like protein   39.4 1.3E+02  0.0014   17.5   4.4   34   13-46      5-38  (58)
+ 11 5FRH_A ANTI-SIGMA FACTOR RSRA;  39.3      98  0.0011   16.0   3.6   26   13-38     16-41  (108)
+ 12 3BPJ_A Eukaryotic translation   39.3   1E+02  0.0011   18.4   3.0   35   20-54     45-79  (80)
+ 13 3BPJ_C Eukaryotic translation   39.3   1E+02  0.0011   18.4   3.0   35   20-54     45-79  (80)
+ 14 7K58_O outer-arm dynein, axone  38.2 1.3E+02  0.0014   17.2   4.1   24   25-48     38-61  (120)
+ 15 5HYC_A Uncharacterized protein  33.5 1.6E+02  0.0017   21.6   3.6   47    1-47      1-53  (161)
+ 16 7K58_N outer-arm dynein, axone  31.5 1.9E+02   0.002   17.0   4.4   22   26-47     35-56  (114)
+ 17 6GX7_H Tubulin alpha chain, Tu  25.4 3.2E+02  0.0035   20.0   4.1   31    2-32     18-48  (336)
+ 18 5JPW_A Dynein light chain Tcte  25.2   3E+02  0.0033   17.3   4.3   32   17-48     26-58  (143)
+ 19 1XDX_B Chlamydomonas flagella,  24.5 2.5E+02  0.0027   16.0   4.4   33   16-48     24-57  (114)
+ 20 2K5X_A Colicin-E9 immunity pro  24.4 1.5E+02  0.0016   17.8   2.0   14   10-23     60-73  (86)
+ 21 2VLQ_A COLICIN-E9 IMMUNITY PRO  24.4 1.5E+02  0.0016   17.8   2.0   14   10-23     60-73  (86)
+ 22 5VKY_A Topoisomerase I damage   23.8 3.4E+02  0.0037   17.6   3.6   34   14-47     31-68  (135)
+ 23 1WGW_A Signal recognition part  23.5 1.3E+02  0.0014   17.4   1.6   31   16-50     38-68  (99)
+ 24 5WI4_A Dynein light chain Tcte  22.4 3.6E+02  0.0039   17.1   4.3   24   25-48     35-58  (145)
+ 25 2PML_X Ser/Thr protein kinase;  20.8   3E+02  0.0033   17.3   2.8   29   10-38    313-341 (348)
+ 26 2PMN_X Ser/Thr protein kinase,  20.8   3E+02  0.0033   17.3   2.8   29   10-38    313-341 (348)
+
+No 1
+>7K5B_N three head, outer dynein arms; HET: ADP, ATP; 4.5A {Tetrahymena thermophila}
+Probab=45.77  E-value=1e+02  Score=18.12  Aligned_cols=34  Identities=3%  Similarity=0.045  Sum_probs=24.6  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHhc---------CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   15 EEIIDKHLQK---------DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        15 eeiidkhlqk---------dldaeenqnvaktlrgkvreklki   48 (61)
+                      +++++.+|..         ..+++.....++.+...++.+|+-
+T Consensus        15 ~~~l~~~l~~~~~~~~~~~~Y~~~~~~~~~~~i~~~i~~~l~~   57 (114)
+T 7K5B_N           15 DDSVKQVFGIKDDSSQVTITYNKDKVNLWTQQIIDYTIRGLNK   57 (114)
+T ss_dssp             HHHHHHHHCCCSSSCCCCCCCCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhCCCCCCcccccccCHHHHHHHHHHHHHHHHHHHHh
+Confidence            4556666665         457777778888888888888763
+
+
+No 2
+>3VZA_F Uncharacterized protein, Spc24 protein, Centromere; RWD domain, kinetochore component, chromosome; 1.898A {Gallus gallus}
+Probab=45.45  E-value=53  Score=19.12  Aligned_cols=24  Identities=17%  Similarity=0.345  Sum_probs=18.5  Template_Neff=4.200
+
+Q ss_pred             CCCCCccccCCCHHHHHHHHHhcC
+Q tr|R4GN90|R4GN    2 GVQMSEEMDNITAEEIIDKHLQKD   25 (61)
+Q Consensus         2 gvqmseemdnitaeeiidkhlqkd   25 (61)
+                      |++.+..+|+.|..-++.+.+|-.
+T Consensus         1 ~~~~~~~ld~~TPR~lLk~IlqTe   24 (39)
+T 3VZA_F            1 GRNAFSELDSADPRVMLRRIIQNQ   24 (39)
+T ss_dssp             --CTTHHHHHSCHHHHHHHHHHHS
+T ss_pred             CCccchhcccCCHHHHHHHHHHhC
+Confidence            577888899999999888888753
+
+
+No 3
+>7KZM_F Tubulin beta, Tubulin alpha, Heavy; dynein, microtubule, cilia, MOTOR PROTEIN; HET: GTP, GDP; 7.5A {Chlamydomonas reinhardtii}
+Probab=44.86  E-value=1.2e+02  Score=18.47  Aligned_cols=24  Identities=29%  Similarity=0.482  Sum_probs=16.7  Template_Neff=9.100
+
+Q ss_pred             CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   25 DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        25 dldaeenqnvaktlrgkvreklki   48 (61)
+                      ..+++.....++.|...++.+|+-
+T Consensus        54 ~y~~~~~~~~~~~l~~~I~~~l~~   77 (136)
+T 7KZM_F           54 KYDPVKGAQISKQLADDLREKVKA   77 (136)
+T ss_pred             ccCHHHHHHHHHHHHHHHHHHHHH
+Confidence            345566667788888888877763
+
+
+No 4
+>7KZN_F Heavy chain alpha, Flagellar outer; dynein, microtubule, cilia, MOTOR PROTEIN; 4.0A {Chlamydomonas reinhardtii}
+Probab=44.86  E-value=1.2e+02  Score=18.47  Aligned_cols=33  Identities=21%  Similarity=0.473  Sum_probs=23.5  Template_Neff=9.100
+
+Q ss_pred             HHHHHHh-cCCCHHHhHHHHHHHHHHHHHHHccc
+Q tr|R4GN90|R4GN   17 IIDKHLQ-KDLDAEENQNVAKTLRGKVREKLKIS   49 (61)
+Q Consensus        17 iidkhlq-kdldaeenqnvaktlrgkvreklkis   49 (61)
+                      ++...|. +..+++.....++.|...++.+|+-.
+T Consensus        45 vl~~~l~~~~y~~~~~~~~~~~l~~~I~~~l~~~   78 (136)
+T 7KZN_F           45 VLKERIEKQKYDPVKGAQISKQLADDLREKVKAL   78 (136)
+T ss_dssp             HHHHHHTTCCCCTTTHHHHHHHHHHHHHHHHTST
+T ss_pred             HHHHHhCCCccCHHHHHHHHHHHHHHHHHHHHHh
+Confidence            3344443 34567777889999999999998743
+
+
+No 5
+>6CH3_B Flagellar biosynthesis protein FlhA, Flagellar; flagellar, STRUCTURAL PROTEIN; 2.68A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=44.48  E-value=61  Score=20.30  Aligned_cols=26  Identities=35%  Similarity=0.491  Sum_probs=15.2  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHhcCCCHHHhHHHHHHHHH
+Q tr|R4GN90|R4GN   15 EEIIDKHLQKDLDAEENQNVAKTLRG   40 (61)
+Q Consensus        15 eeiidkhlqkdldaeenqnvaktlrg   40 (61)
+                      ..|||.+|+..||.+....++..|..
+T Consensus        62 ~~il~~~L~~~ld~~~g~e~a~~l~~   87 (198)
+T 6CH3_B           62 INIIDNGLKAGLDQEKGGEIATNLSE   87 (198)
+T ss_dssp             HHHCCCCCCTTCCHHHHTHHHHHHHH
+T ss_pred             HHHHHHHHHHhCChhhCCHHHHHHHH
+Confidence            34554556666777665566655543
+
+
+No 6
+>4WWR_F Ubl4A, Bag6; Endoplasmic Reticulum, Recombinant Proteins, Human; 2.0A {Homo sapiens}
+Probab=44.41  E-value=90  Score=17.06  Aligned_cols=32  Identities=22%  Similarity=0.343  Sum_probs=23.0  Template_Neff=7.000
+
+Q ss_pred             HHHHHHHHhcCCCHHHhHHHHHHHHHHHHHHH
+Q tr|R4GN90|R4GN   15 EEIIDKHLQKDLDAEENQNVAKTLRGKVREKL   46 (61)
+Q Consensus        15 eeiidkhlqkdldaeenqnvaktlrgkvrekl   46 (61)
+                      .+.+.++|++-...++...|.+.++.....++
+T Consensus         4 ~~~l~~~L~k~fs~~da~~i~~~f~k~~~~~~   35 (47)
+T 4WWR_F            4 WQLISKVLARHFSAADASRVLEQLQRDYERSL   35 (47)
+T ss_pred             HHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHH
+Confidence            45677888888888888888777766554443
+
+
+No 7
+>1YGT_A Dynein Light Chain TcTex-1; Domain Swapping, PROTEIN TRANSPORT; 1.7A {Drosophila melanogaster}
+Probab=42.25  E-value=1.1e+02  Score=17.37  Aligned_cols=32  Identities=9%  Similarity=0.096  Sum_probs=22.7  Template_Neff=9.800
+
+Q ss_pred             HHHHHHh-cCCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   17 IIDKHLQ-KDLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        17 iidkhlq-kdldaeenqnvaktlrgkvreklki   48 (61)
+                      ++++.|. .+.+++.....++.+...++++++-
+T Consensus        22 ~l~~~l~~~~y~~~~~~~~~~~i~~~i~~~lk~   54 (111)
+T 1YGT_A           22 AIETTIGGNAYQHDKVNNWTGQVVENCLTVLTK   54 (111)
+T ss_dssp             HHHHHHTTCCCCHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhCCCCCCHHHHHHHHHHHHHHHHHHHHh
+Confidence            3444443 3456777788899999999998874
+
+
+No 8
+>3FM7_B Dynein light chain Tctex-type, Dynein; Cytoplasmic Dynein, Light Chain Tctex-1; 3.5A {Drosophila melanogaster}
+Probab=42.25  E-value=1.1e+02  Score=17.37  Aligned_cols=24  Identities=8%  Similarity=0.012  Sum_probs=18.8  Template_Neff=9.800
+
+Q ss_pred             CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   25 DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        25 dldaeenqnvaktlrgkvreklki   48 (61)
+                      +.+++.....++.+...++++++-
+T Consensus        31 ~y~~~~~~~~~~~i~~~i~~~lk~   54 (111)
+T 3FM7_B           31 AYQHDKVNNWTGQVVENCLTVLTK   54 (111)
+T ss_dssp             CCCHHHHHHHHHHHHHHHTTTSST
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHh
+Confidence            456677778888999999888874
+
+
+No 9
+>5WUR_C ECF RNA polymerase sigma factor; Sigma-anti-sigma complex, zinc binding motif; 2.6A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=41.60  E-value=59  Score=14.14  Aligned_cols=26  Identities=15%  Similarity=0.354  Sum_probs=17.6  Template_Neff=13.300
+
+Q ss_pred             HHHHHHHHHhcCCCHHHhHHHHHHHH
+Q tr|R4GN90|R4GN   14 AEEIIDKHLQKDLDAEENQNVAKTLR   39 (61)
+Q Consensus        14 aeeiidkhlqkdldaeenqnvaktlr   39 (61)
+                      ..+++..++...++.++...+...+.
+T Consensus         7 ~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (80)
+T 5WUR_C            7 IVQLMHMHLDGDILPKDEHVLNEHLE   32 (80)
+T ss_dssp             HHHHHHHHHHTCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhcCCCCHHHHHHHHHHHh
+Confidence            46677788888888777665554443
+
+
+No 10
+>4X86_A Ubiquitin-like protein 4A/Large proline-rich protein; tail-anchored transmembrane protein biogenesis, quality; HET: SO4, CPS; 1.85A {Homo sapiens}
+Probab=39.36  E-value=1.3e+02  Score=17.47  Aligned_cols=34  Identities=21%  Similarity=0.339  Sum_probs=27.9  Template_Neff=6.500
+
+Q ss_pred             CHHHHHHHHHhcCCCHHHhHHHHHHHHHHHHHHH
+Q tr|R4GN90|R4GN   13 TAEEIIDKHLQKDLDAEENQNVAKTLRGKVREKL   46 (61)
+Q Consensus        13 taeeiidkhlqkdldaeenqnvaktlrgkvrekl   46 (61)
+                      ...+.+.++|++-...++...|.+.++....+.+
+T Consensus         5 ~fw~~L~~~L~k~fs~~da~~v~~~f~k~~~~~~   38 (58)
+T 4X86_A            5 SVWQLISKVLARHFSAADASRVLEQLQRDYERSL   38 (58)
+T ss_dssp             CHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHH
+Confidence            3567889999999999999999988887776654
+
+
+No 11
+>5FRH_A ANTI-SIGMA FACTOR RSRA; TRANSCRIPTION, ANTI-SIGMA FACTOR, STREPTOMYCES COELICOLOR; NMR {STREPTOMYCES COELICOLOR}
+Probab=39.33  E-value=98  Score=15.99  Aligned_cols=26  Identities=8%  Similarity=0.192  Sum_probs=18.5  Template_Neff=11.500
+
+Q ss_pred             CHHHHHHHHHhcCCCHHHhHHHHHHH
+Q tr|R4GN90|R4GN   13 TAEEIIDKHLQKDLDAEENQNVAKTL   38 (61)
+Q Consensus        13 taeeiidkhlqkdldaeenqnvaktl   38 (61)
+                      ..++.+..++...++.++...+...+
+T Consensus        16 ~~~~~~~~~~~~~l~~~~~~~~~~~l   41 (108)
+T 5FRH_A           16 EILDHLYEFLDKEMPDSDAVKFEHHF   41 (108)
+T ss_dssp             HHHHHHHHHHHTTCSSTTHHHHHHHH
+T ss_pred             HHHHHHHHHHccCCChHHHHHHHHHH
+Confidence            36788888888888877765554443
+
+
+No 12
+>3BPJ_A Eukaryotic translation initiation factor 3; translation initiation, eif3s1, structural genomics; 1.85A {Homo sapiens}
+Probab=39.32  E-value=1e+02  Score=18.42  Aligned_cols=35  Identities=20%  Similarity=0.271  Sum_probs=25.6  Template_Neff=7.300
+
+Q ss_pred             HHHhcCCCHHHhHHHHHHHHHHHHHHHcccCCCCC
+Q tr|R4GN90|R4GN   20 KHLQKDLDAEENQNVAKTLRGKVREKLKISKINKG   54 (61)
+Q Consensus        20 khlqkdldaeenqnvaktlrgkvreklkiskinkg   54 (61)
+                      +-+..+|+.++-..++.+|..-.-||.|..|-.+|
+T Consensus        45 r~l~~~L~~~dlkkl~~~l~~l~neK~K~eK~~~~   79 (80)
+T 3BPJ_A           45 RDVCISLEIDDLKKITNSLTVLCSEKQKQEKQSKA   79 (80)
+T ss_dssp             HHHHTTSCHHHHHHHHHHHHHHHHHHHHC------
+T ss_pred             HHHHHhCCHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            34567899999999999999999999998776654
+
+
+No 13
+>3BPJ_C Eukaryotic translation initiation factor 3; translation initiation, eif3s1, structural genomics; 1.85A {Homo sapiens}
+Probab=39.32  E-value=1e+02  Score=18.42  Aligned_cols=35  Identities=20%  Similarity=0.271  Sum_probs=27.4  Template_Neff=7.300
+
+Q ss_pred             HHHhcCCCHHHhHHHHHHHHHHHHHHHcccCCCCC
+Q tr|R4GN90|R4GN   20 KHLQKDLDAEENQNVAKTLRGKVREKLKISKINKG   54 (61)
+Q Consensus        20 khlqkdldaeenqnvaktlrgkvreklkiskinkg   54 (61)
+                      +-+..+|+.++-..++.+|..-.-||.|..|-.+|
+T Consensus        45 r~l~~~L~~~dlkkl~~~l~~l~neK~K~eK~~~~   79 (80)
+T 3BPJ_C           45 RDVCISLEIDDLKKITNSLTVLCSEKQKQEKQSKA   79 (80)
+T ss_dssp             HHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHC---
+T ss_pred             HHHHHhCCHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            34567899999999999999999999988776554
+
+
+No 14
+>7K58_O outer-arm dynein, axonemal dynein, microtubule; HET: ADP, ATP; 3.5A {Tetrahymena thermophila}
+Probab=38.16  E-value=1.3e+02  Score=17.18  Aligned_cols=24  Identities=25%  Similarity=0.421  Sum_probs=16.5  Template_Neff=9.900
+
+Q ss_pred             CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   25 DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        25 dldaeenqnvaktlrgkvreklki   48 (61)
+                      ..+++.....++.+...++++|+-
+T Consensus        38 ~y~~~~~~~~~~~i~~~i~~~l~~   61 (120)
+T 7K58_O           38 EYDPNNANQLSERLVLELREKIKR   61 (120)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHc
+Confidence            345566667777888888777764
+
+
+No 15
+>5HYC_A Uncharacterized protein, Cytoplasmic dynein 1; dynein light chain Tctex-1, Magnaporthe; 2.4A {Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)}
+Probab=33.48  E-value=1.6e+02  Score=21.57  Aligned_cols=47  Identities=9%  Similarity=0.114  Sum_probs=24.2  Template_Neff=4.700
+
+Q ss_pred             CCCCCCccccCCCHHHHH----HHHHhc--CCCHHHhHHHHHHHHHHHHHHHc
+Q tr|R4GN90|R4GN    1 MGVQMSEEMDNITAEEII----DKHLQK--DLDAEENQNVAKTLRGKVREKLK   47 (61)
+Q Consensus         1 mgvqmseemdnitaeeii----dkhlqk--dldaeenqnvaktlrgkvreklk   47 (61)
+                      |+.|.......-...+||    +..|..  ..|++.....++.|-..++++|+
+T Consensus         1 m~~~~~~~f~~~~lk~ii~~~l~~~l~~~~~Yd~~~~~~w~~~I~~~Il~~l~   53 (161)
+T 5HYC_A            1 MAAQGPSPIPTNRLKQIAADACNDAIGSAEFYDHAKTEQWNHQIINTILKAVI   53 (161)
+T ss_dssp             ----CCCSSCHHHHHHHHHHHHHHHHTTCSSCCTTTHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCHHHHHHHHHHHHHHHhCCCCCCCHHHHHHHHHHHHHHHHHHHH
+Confidence            344444444433344444    444543  55666666677777777776665
+
+
+No 16
+>7K58_N outer-arm dynein, axonemal dynein, microtubule; HET: ADP, ATP; 3.5A {Tetrahymena thermophila}
+Probab=31.50  E-value=1.9e+02  Score=16.96  Aligned_cols=22  Identities=5%  Similarity=0.015  Sum_probs=14.2  Template_Neff=9.200
+
+Q ss_pred             CCHHHhHHHHHHHHHHHHHHHc
+Q tr|R4GN90|R4GN   26 LDAEENQNVAKTLRGKVREKLK   47 (61)
+Q Consensus        26 ldaeenqnvaktlrgkvreklk   47 (61)
+                      .+++.....++.+...++.+|+
+T Consensus        35 Y~~~~~~~~~~~i~~~i~~~l~   56 (114)
+T 7K58_N           35 YNKDKVNLWTQQIIDYTIRGLN   56 (114)
+T ss_pred             cCHHHHHHHHHHHHHHHHHHHH
+Confidence            4555556666777777777665
+
+
+No 17
+>6GX7_H Tubulin alpha chain, Tubulin beta; microtubule, ALPHAREP, CELL CYCLE, COPN; HET: MES, PGE, GTP, GOL, SO4; 3.19A {Ovis aries}
+Probab=25.39  E-value=3.2e+02  Score=19.96  Aligned_cols=31  Identities=19%  Similarity=0.322  Sum_probs=13.7  Template_Neff=8.200
+
+Q ss_pred             CCCCCccccCCCHHHHHHHHHhcCCCHHHhH
+Q tr|R4GN90|R4GN    2 GVQMSEEMDNITAEEIIDKHLQKDLDAEENQ   32 (61)
+Q Consensus         2 gvqmseemdnitaeeiidkhlqkdldaeenq   32 (61)
+                      |..|++-..+..+.+.+++++++-.+.+..+
+T Consensus        18 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   48 (336)
+T 6GX7_H           18 GSHMSESTEEKPDTDLADKYASGNSEISGQE   48 (336)
+T ss_dssp             -------------CCHHHHHHTTCTTCCHHH
+T ss_pred             CCcccccCCCCchHHHHHHHHHcCccCCHHH
+Confidence            4456666777788888999998877665554
+
+
+No 18
+>5JPW_A Dynein light chain Tctex-type 1; DNYLT1/Tctex-1  Dynein Intermediate Chain; NMR {Homo sapiens}
+Probab=25.21  E-value=3e+02  Score=17.31  Aligned_cols=32  Identities=6%  Similarity=0.074  Sum_probs=20.6  Template_Neff=8.500
+
+Q ss_pred             HHHHHHhc-CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   17 IIDKHLQK-DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        17 iidkhlqk-dldaeenqnvaktlrgkvreklki   48 (61)
+                      ++++.|.. ..+.+.....++.|...++.+++-
+T Consensus        26 ~l~~~l~~~~Y~~~~~~~~~~~Is~~I~~~lk~   58 (143)
+T 5JPW_A           26 AIESAIGGNAYQHSKVNQWTTNVVEQTLSQLTK   58 (143)
+T ss_dssp             HHHHHHTTCCCCSTHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhCCCCCCHHHHHHHHHHHHHHHHHHHHh
+Confidence            34444433 456666777788888888877763
+
+
+No 19
+>1XDX_B Chlamydomonas flagella, Tctex1 dimer, NMR; NMR {Chlamydomonas reinhardtii}
+Probab=24.55  E-value=2.5e+02  Score=16.02  Aligned_cols=33  Identities=18%  Similarity=0.178  Sum_probs=21.8  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHhc-CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   16 EIIDKHLQK-DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        16 eiidkhlqk-dldaeenqnvaktlrgkvreklki   48 (61)
+                      ++++..|.. +.+++.....++.+...++.+++-
+T Consensus        24 ~~l~~~l~~~~y~~~~~~~~~~~i~~~i~~~l~~   57 (114)
+T 1XDX_B           24 ESIDAVLQNQQYSEAKVSQWTSSCLEHCIKRLTA   57 (114)
+T ss_dssp             HHHHHHHHSSCCCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHh
+Confidence            344444443 457777778888888888887763
+
+
+No 20
+>2K5X_A Colicin-E9 immunity protein, Colicin-E9; COLICIN E9, IMMUNITY PROTEIN IM9; NMR {Escherichia coli}
+Probab=24.40  E-value=1.5e+02  Score=17.77  Aligned_cols=14  Identities=21%  Similarity=0.295  Sum_probs=10.4  Template_Neff=7.500
+
+Q ss_pred             cCCCHHHHHHHHHh
+Q tr|R4GN90|R4GN   10 DNITAEEIIDKHLQ   23 (61)
+Q Consensus        10 dnitaeeiidkhlq   23 (61)
+                      .+.|+|+|+++-++
+T Consensus        60 ~~~t~eeIv~~~l~   73 (86)
+T 2K5X_A           60 DDDSPSGIVNTVKQ   73 (86)
+T ss_dssp             SCCSHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHH
+Confidence            46788888887664
+
+
+No 21
+>2VLQ_A COLICIN-E9 IMMUNITY PROTEIN, COLICIN E9; PROTEIN-BINDING, PROTEIN-PROTEIN INTERACTION, METAL-BINDING, ANTIMICROBIAL; HET: MLA; 1.6A {ESCHERICHIA COLI} SCOP: a.28.2.1
+Probab=24.40  E-value=1.5e+02  Score=17.77  Aligned_cols=14  Identities=21%  Similarity=0.295  Sum_probs=10.6  Template_Neff=7.500
+
+Q ss_pred             cCCCHHHHHHHHHh
+Q tr|R4GN90|R4GN   10 DNITAEEIIDKHLQ   23 (61)
+Q Consensus        10 dnitaeeiidkhlq   23 (61)
+                      .+.|+|+|+++-++
+T Consensus        60 ~~~t~eeIv~~~l~   73 (86)
+T 2VLQ_A           60 DDDSPSGIVNTVKQ   73 (86)
+T ss_dssp             CCCSHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHH
+Confidence            46788888887664
+
+
+No 22
+>5VKY_A Topoisomerase I damage affected protein; dynein light chain clathrin mediated; 2.3A {Saccharomyces cerevisiae (strain JAY291)}
+Probab=23.82  E-value=3.4e+02  Score=17.55  Aligned_cols=34  Identities=21%  Similarity=0.174  Sum_probs=17.2  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHhcCCCH----HHhHHHHHHHHHHHHHHHc
+Q tr|R4GN90|R4GN   14 AEEIIDKHLQKDLDA----EENQNVAKTLRGKVREKLK   47 (61)
+Q Consensus        14 aeeiidkhlqkdlda----eenqnvaktlrgkvreklk   47 (61)
+                      +++||++.++..|+.    +.-...++.+-..++++|+
+T Consensus        31 v~~ii~~~l~~~l~~~~Y~~~~~~w~~~I~e~il~~Lk   68 (135)
+T 5VKY_A           31 LVTLIQESYDSLKDDNEINLSTESTSNLLIKLVLEKLE   68 (135)
+T ss_dssp             HHHHHHHHHHHHHCTTCCCCSCCCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhcCCcchHHHHHHHHHHHHHHHHHHHH
+Confidence            344555554443322    3334455666666666665
+
+
+No 23
+>1WGW_A Signal recognition particle 54 (SRP54); NMR {Mus musculus} SCOP: a.24.13.1
+Probab=23.51  E-value=1.3e+02  Score=17.39  Aligned_cols=31  Identities=23%  Similarity=0.479  Sum_probs=15.5  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHhcCCCHHHhHHHHHHHHHHHHHHHcccC
+Q tr|R4GN90|R4GN   16 EIIDKHLQKDLDAEENQNVAKTLRGKVREKLKISK   50 (61)
+Q Consensus        16 eiidkhlqkdldaeenqnvaktlrgkvreklkisk   50 (61)
+                      +|-...++.|...    .++..+...+|+++.-.+
+T Consensus        38 el~~~Ll~aDV~~----~~~~~i~~~ir~~l~~~~   68 (99)
+T 1WGW_A           38 EVCTALLEADVNI----KLVKQLRENVKSAIDLEE   68 (99)
+T ss_dssp             HHHHHHHTTTCCH----HHHHHHHHHHHTTSCCSS
+T ss_pred             HHHHHHHHCCCCH----HHHHHHHHHHHHHhcHhh
+Confidence            4444455555544    445555555555554433
+
+
+No 24
+>5WI4_A Dynein light chain Tctex-type 1,Rho; DYNEIN LIGHT CHAIN, RHO GEF; HET: SO4; 2.0A {Mus musculus}
+Probab=22.41  E-value=3.6e+02  Score=17.11  Aligned_cols=24  Identities=4%  Similarity=0.014  Sum_probs=18.7  Template_Neff=8.400
+
+Q ss_pred             CCCHHHhHHHHHHHHHHHHHHHcc
+Q tr|R4GN90|R4GN   25 DLDAEENQNVAKTLRGKVREKLKI   48 (61)
+Q Consensus        25 dldaeenqnvaktlrgkvreklki   48 (61)
+                      ..+++.....++.+...++.+++-
+T Consensus        35 ~Y~~~~~~~~~~~Is~~I~~~lk~   58 (145)
+T 5WI4_A           35 AYQHSKVNQWTTNVLEQTLSQLTK   58 (145)
+T ss_dssp             CCCGGGHHHHHHHHHHHHHHHHHT
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHH
+Confidence            456777778888888888888774
+
+
+No 25
+>2PML_X Ser/Thr protein kinase; Ser/Thr protein kinase  Plasmodium; HET: ANP; 2.6A {Plasmodium falciparum}
+Probab=20.81  E-value=3e+02  Score=17.32  Aligned_cols=29  Identities=24%  Similarity=0.421  Sum_probs=17.2  Template_Neff=11.800
+
+Q ss_pred             cCCCHHHHHHHHHhcCCCHHHhHHHHHHH
+Q tr|R4GN90|R4GN   10 DNITAEEIIDKHLQKDLDAEENQNVAKTL   38 (61)
+Q Consensus        10 dnitaeeiidkhlqkdldaeenqnvaktl   38 (61)
+                      +..++++++..-+-.+.+.++.+..++.+
+T Consensus       313 ~Rp~~~~l~~~~~~~~~~~~~~~~~~~~~  341 (348)
+T 2PML_X          313 ERITSEDALKHEWLADTNIEDLREFSKEL  341 (348)
+T ss_dssp             GSCCHHHHHTSGGGTTCCHHHHHHHHHHH
+T ss_pred             hCCCHHHHhCCHHHhCCChHhHHHHHHHH
+Confidence            34566666665555666666666655543
+
+
+No 26
+>2PMN_X Ser/Thr protein kinase, putative; Ser/Thr protein kinase  Plasmodium; HET: K51; 2.8A {Plasmodium falciparum}
+Probab=20.81  E-value=3e+02  Score=17.32  Aligned_cols=29  Identities=24%  Similarity=0.421  Sum_probs=17.1  Template_Neff=11.800
+
+Q ss_pred             cCCCHHHHHHHHHhcCCCHHHhHHHHHHH
+Q tr|R4GN90|R4GN   10 DNITAEEIIDKHLQKDLDAEENQNVAKTL   38 (61)
+Q Consensus        10 dnitaeeiidkhlqkdldaeenqnvaktl   38 (61)
+                      +..++++++..-+-.+.+.++.+..++.+
+T Consensus       313 ~Rp~~~~l~~~~~~~~~~~~~~~~~~~~~  341 (348)
+T 2PMN_X          313 ERITSEDALKHEWLADTNIEDLREFSKEL  341 (348)
+T ss_dssp             TSCCHHHHHTSTTSTTCCHHHHHHHHHHH
+T ss_pred             hCCCHHHHhCCHHHhCCChHhHHHHHHHH
+Confidence            34566666665555566666666665544
+
+

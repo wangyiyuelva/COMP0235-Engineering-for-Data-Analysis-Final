@@ -1,0 +1,246 @@
+Query         tr|A0A994J517|A0A994J517_HUMAN
+Match_columns 176
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:54:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0147.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7QVF_A Amyloid, neurodegenerat 100.0 8.7E-40 9.4E-45  261.5  12.4  175    2-176   100-274 (274)
+  2 7QVC_B Amyloid, neurodegenerat 100.0 1.6E-39 1.8E-44  260.0  12.7  175    2-176   100-274 (274)
+  3 1XO8_A Structural Genomics, Pr  92.9     2.2 2.3E-05   29.9   7.6  128   19-157    18-146 (151)
+  4 3BUT_A LIPID BINDING PROTEIN,   88.9     9.7 0.00011   27.0   7.8  100   45-148    17-116 (136)
+  5 1YYC_A Structural Genomics, Pr  79.3      40 0.00044   25.8   7.9  126   20-156    42-168 (174)
+  6 5CUO_A Phosphate propanoyltran  19.2      51 0.00055   28.8  -0.9   19   81-99     59-78  (202)
+  7 5CUP_B PduL (E.C.2.3.1.8); Enz  19.2      51 0.00055   28.8  -0.9   19   81-99     59-78  (202)
+  8 2I32_B ASF1a protein (Anti-Sil  15.6 1.7E+02  0.0019   24.5   1.3    8  134-141    65-72  (182)
+  9 6YP6_A NanS-p; Carbohydrate bi  13.6 3.6E+02  0.0039   24.3   2.7   19   54-72    199-217 (218)
+ 10 3QR7_A Baseplate assembly prot  12.4 7.6E+02  0.0083   16.4   4.9   39   33-71     12-50  (115)
+
+No 1
+>7QVF_A Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 3.64A {Homo sapiens}
+Probab=100.00  E-value=8.7e-40  Score=261.54  Aligned_cols=175  Identities=100%  Similarity=1.423  Sum_probs=127.6  Template_Neff=7.100
+
+Q ss_pred             CCcccccCCCCCchhccCCCCcceeeeeeeEEEEEEEcCCCEEEEEEEeeeecCCCCeEEEEEEEEEEEEEeccceeceE
+Q tr|A0A994J517|    2 ASVFVCLLLSGLAVFFLFPRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKA   81 (176)
+Q Consensus         2 asvfvclllsglavfflfprsidvkyigvksayvsydvqkrtiylnitntlnitnnnyysvevenitaqvqfsktvigka   81 (176)
+                      ++|++|++++++++||||||+|++...+++...++|+++++.+.|++++.++|+|+||+++++++++++|+|++.++|++
+T Consensus       100 l~V~lclli~~l~~fFL~PRs~~v~~~~v~~~~v~~~~~~~~v~l~~~~~lnI~N~Nf~~v~v~~l~~~V~~~~~vvG~~  179 (274)
+T 7QVF_A          100 ASVFVCLLLSGLAVFFLFPRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKA  179 (274)
+T ss_dssp             --------------------CEEEEEESSEECSEECCEEESCEEESCEEEEEEECCEEEEESCEEEEEEEEEEEEEECSC
+T ss_pred             HHHHHHHHHHHHHHHHHCCCCccceecceeeEEEEEeCCCCeEEEEEEEEeeeecCCeEEEEEEEeEEEEEECCcEEeeE
+Confidence            67889999999999999999999999998887788876555799999999999999999999999999999999999999
+
+
+Q ss_pred             EEeeEEEECCcccceceeeccccccccceeeeeeeeeeeeEEeeEEEEEEEEEEEeeCCceeeEEEEEEEEEECCCCeeE
+Q tr|A0A994J517|   82 RLNNITIIGPLDMKQIDYTVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFGHSEQISQERYQYVDCGRNTTY  161 (176)
+Q Consensus        82 rlnnitiigpldmkqidytvptviaeemsymydfctlisikvhnivlmmqvtvtttyfghseqisqeryqyvdcgrntty  161 (176)
+                      ..++...++||+++++++++++.|++++.+++++|+++..++|+|.++|+++++++||+|+++.+++.|+++||+.+++.
+T Consensus       180 ~~~~~~~i~p~s~~~v~~~v~~~~~~~~~~l~~~C~~~~~~~h~l~l~~q~tv~~syL~hseq~s~~~~~~vdC~~n~~~  259 (274)
+T 7QVF_A          180 RLNNITIIGPLDMKQIDYTVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFGHSEQISQERYQYVDCGRNTTY  259 (274)
+T ss_dssp             EECSEEEECSCCEESCEEECCEEEEEESCEEEEESCEEEESCEEEEEEESCEEEEEEEEEEEEEEEEEEEEEEEC-----
+T ss_pred             EEeCceEEccCceeEEEEEeeeEecCCchHHHHHhccCCceeeeEEEEEEEEEEEEEeeEeeecceecceeeeCCCCCcc
+Confidence            99887789999999999999999998888899999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EecceeeeeccCCCC
+Q tr|A0A994J517|  162 QLGQSEYLNVLQPQQ  176 (176)
+Q Consensus       162 qlgqseylnvlqpqq  176 (176)
+                      ++++++.+++++|+|
+T Consensus       260 ~~~~~~~~~~~~~~~  274 (274)
+T 7QVF_A          260 QLGQSEYLNVLQPQQ  274 (274)
+T ss_dssp             ---------------
+T ss_pred             cCCchhhccCCCCCC
+Confidence            999988777777754
+
+
+No 2
+>7QVC_B Amyloid, neurodegeneration, filament, TMEM106B, PROTEIN; 2.64A {Homo sapiens}
+Probab=100.00  E-value=1.6e-39  Score=259.97  Aligned_cols=175  Identities=99%  Similarity=1.421  Sum_probs=127.4  Template_Neff=7.100
+
+Q ss_pred             CCcccccCCCCCchhccCCCCcceeeeeeeEEEEEEEcCCCEEEEEEEeeeecCCCCeEEEEEEEEEEEEEeccceeceE
+Q tr|A0A994J517|    2 ASVFVCLLLSGLAVFFLFPRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKA   81 (176)
+Q Consensus         2 asvfvclllsglavfflfprsidvkyigvksayvsydvqkrtiylnitntlnitnnnyysvevenitaqvqfsktvigka   81 (176)
+                      ++|++|++++++++||||||+|++...+++...+.|+.+++.+.|++++.++|+|+||+++++++++++|+|++.++|++
+T Consensus       100 laV~lclli~~l~~fFL~PRs~~v~~~~v~~~~v~~~~~~~~v~l~~t~~lnIsN~Nf~~v~v~~i~~~V~~~~~vvG~~  179 (274)
+T 7QVC_B          100 ASVFVCLLLSGLAVFFLFPRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKA  179 (274)
+T ss_dssp             --------------------CEEEEEESSEECSEECCEEESCEEESCEEEEEEECCEEEEESCEEEEEEEEEEEEEECSC
+T ss_pred             HHHHHHHHHHHHHHHHhCCCCccceecceeeEEEEEeCCCCeEEEEEEEEeeeecCCeEEEEEEEEEEEEEECCceEeee
+Confidence            67889999999999999999999999998877788866555799999999999999999999999999999999999999
+
+
+Q ss_pred             EEeeEEEECCcccceceeeccccccccceeeeeeeeeeeeEEeeEEEEEEEEEEEeeCCceeeEEEEEEEEEECCCCeeE
+Q tr|A0A994J517|   82 RLNNITIIGPLDMKQIDYTVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFGHSEQISQERYQYVDCGRNTTY  161 (176)
+Q Consensus        82 rlnnitiigpldmkqidytvptviaeemsymydfctlisikvhnivlmmqvtvtttyfghseqisqeryqyvdcgrntty  161 (176)
+                      ..++...++||++++++++++++|.+++.+++++|+++..++|+|.++|+++++++||+|+++.+++.|+++||+.+++.
+T Consensus       180 ~~~~~~~i~p~s~~qv~~~v~~~~~~~~~~l~~~C~~~~~~~h~l~l~~q~t~~~syL~~seq~s~~~~~~vdC~~n~~~  259 (274)
+T 7QVC_B          180 RLNNISIIGPLDMKQIDYTVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFGHSEQISQERYQYVDCGRNTTY  259 (274)
+T ss_dssp             EECSEEEECSCCEESCEEECCEEEEEESCEEEEESCEEEESCEEEEEEESCEEEEEEEEEEEEEEEEEEEEEEEC-----
+T ss_pred             EeecceEeccCceeEEEEEeeeeecCCchHHHHHhccCcceeeeEEEEEEEEEEEEEeeeeeeceeeeceeeeCCCCCcc
+Confidence            99887779999999999999999998888999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EecceeeeeccCCCC
+Q tr|A0A994J517|  162 QLGQSEYLNVLQPQQ  176 (176)
+Q Consensus       162 qlgqseylnvlqpqq  176 (176)
+                      ++++++.+++++|+|
+T Consensus       260 ~~~~~~~~~~~~~~~  274 (274)
+T 7QVC_B          260 QLGQSEYLNVLQPQQ  274 (274)
+T ss_dssp             ---------------
+T ss_pred             cCCchhhccCCCCCC
+Confidence            999988777777754
+
+
+No 3
+>1XO8_A Structural Genomics, Protein Structure Initiative; NMR {Arabidopsis thaliana} SCOP: b.1.25.1
+Probab=92.91  E-value=2.2  Score=29.92  Aligned_cols=128  Identities=13%  Similarity=0.039  Sum_probs=84.0  Template_Neff=9.900
+
+Q ss_pred             CCCCcceeeeeeeEEEEEEEcCCCEEEEEEEeeeecCCCCeEEEEEEEEEEEEEeccceeceEEEeeEEEECCccccece
+Q tr|A0A994J517|   19 FPRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKARLNNITIIGPLDMKQID   98 (176)
+Q Consensus        19 fprsidvkyigvksayvsydvqkrtiylnitntlnitnnnyysvevenitaqvqfsktvigkarlnnitiigpldmkqid   98 (176)
+                      .++.|++++.++....+.    .  -.+.+...+.|.|+|-+++.+++++.+++.++..+|.+.......++|++...+.
+T Consensus        18 ~~~~P~~~v~~~~~~~~~----~--~~~~~~~~l~i~Npn~~~~~i~~~~~~l~~~g~~~~~g~~~~~~~i~~~~~~~i~   91 (151)
+T 1XO8_A           18 AIPKPEGSVTDVDLKDVN----R--DSVEYLAKVSVTNPYSHSIPICEISFTFHSAGREIGKGKIPDPGSLKAKDMTALD   91 (151)
+T ss_dssp             CCCSCCCBCSEEEECCCT----T--TEECEEEEEEEECSSSSCCCCEEEEEEEESSSSCEEEEEEEECCCCSSSSEEEEE
+T ss_pred             CCCCCeeEEEEEEEEecc----C--CeeEEEEEEEEeCCCccceeeceEEEEEEECCeEeeEeeCCCCceecCCCeEEee
+Confidence            457888877665433211    1  2356667789999999999999999999999999999988755568999988888
+
+
+Q ss_pred             eeccccccccceeeeeeeeeeeeEEeeEEEEEEEEEEEeeCC-ceeeEEEEEEEEEECCC
+Q tr|A0A994J517|   99 YTVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFG-HSEQISQERYQYVDCGR  157 (176)
+Q Consensus        99 ytvptviaeemsymydfctlisikvhnivlmmqvtvtttyfg-hseqisqeryqyvdcgr  157 (176)
+                      +++.+.+..-. ...+.-.    ....+.+.+++.+.+..-. ......++....+.+|.
+T Consensus        92 i~~~l~~~~~~-~~~~~~~----~~~~~~~~l~g~~~~~~~~~~~~~~~~~~~~~i~~~~  146 (151)
+T 1XO8_A           92 IPVVVPYSILF-NLARDVG----VDWDIDYELQIGLTIDLPVVGEFTIPISSKGEIKLPT  146 (151)
+T ss_dssp             ECCCEEHHHHH-HHHHHHH----HHSEEEEEEEEEEEECCTTTSSEEEEEEEEEEEECCS
+T ss_pred             eeEEEeHHHHH-HHHHHhC----CCCcceEEEEEEEEEecCeeeeEEEecceeeeeeCCC
+Confidence            88888775311 0000000    0123555666666665332 34455566555666653
+
+
+No 4
+>3BUT_A LIPID BINDING PROTEIN, BETA BARREL; HET: MSE; 1.91A {Archaeoglobus fulgidus DSM 4304}
+Probab=88.91  E-value=9.7  Score=26.98  Aligned_cols=100  Identities=7%  Similarity=0.072  Sum_probs=69.2  Template_Neff=9.300
+
+Q ss_pred             EEEEEeeeecCCCCeEEEEEEEEEEEEEeccceeceEEEeeEEEECCcccceceeeccccccccceeeeeeeeeeeeEEe
+Q tr|A0A994J517|   45 YLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKARLNNITIIGPLDMKQIDYTVPTVIAEEMSYMYDFCTLISIKVH  124 (176)
+Q Consensus        45 ylnitntlnitnnnyysvevenitaqvqfsktvigkarlnnitiigpldmkqidytvptviaeemsymydfctlisikvh  124 (176)
+                      .+.+...+.+.|||.+++.+++++.+++.++..+|.+.......++|+++..+.+++.+.+..-...+.+.-..    ..
+T Consensus        17 ~~~l~~~l~i~NPn~~~i~i~~~~~~l~~~~~~~~~~~~~~~~~i~~~~~~~i~~~v~~~~~~l~~~~~~~~~~----~~   92 (136)
+T 3BUT_A           17 QTEIVALAKVRNEDVVPIVVSGYHYTIEMNGVKVADGYENSPVTVKPASATTLKFSLRLNNSFLREWWVTHIAN----GE   92 (136)
+T ss_dssp             EEEEEEEEEEECCSSSCEEEEEEEEEEEETTEEEEEEEECCCEEECTTCEEEEEEEEEEEHHHHTTHHHHHHHT----TS
+T ss_pred             EEEEEEEEEEEcCCCccEEEeeeEEEEEECCEEEEEeecCCCeEECCCceEEEEEEEEEchhhHHHHHHHHHHC----CC
+Confidence            34566778899999999999999999999999999999885567999999988888888875311111111100    01
+
+
+Q ss_pred             eEEEEEEEEEEEeeCCceeeEEEE
+Q tr|A0A994J517|  125 NIVLMMQVTVTTTYFGHSEQISQE  148 (176)
+Q Consensus       125 nivlmmqvtvtttyfghseqisqe  148 (176)
+                      .+.+.+++++.+..........++
+T Consensus        93 ~~~~~l~g~~~~~~~~~~~~~p~~  116 (136)
+T 3BUT_A           93 KTKIRVAIKPTIEIGGRDVEVPVF  116 (136)
+T ss_dssp             EEEEEEEEEEEEECC-CCEECCCE
+T ss_pred             eEEEEEEEEEEEEeCCEEEEEccc
+Confidence            355666666666655544444443
+
+
+No 5
+>1YYC_A Structural Genomics, Protein Structure Initiative; NMR {Arabidopsis thaliana}
+Probab=79.30  E-value=40  Score=25.76  Aligned_cols=126  Identities=9%  Similarity=-0.010  Sum_probs=85.8  Template_Neff=8.500
+
+Q ss_pred             CCCcceeeeeeeEEEEEEEcCCCEEEEEEEeeeecCCCCeEEEEEEEEEEEEEeccceeceEEEeeEEEECCccccecee
+Q tr|A0A994J517|   20 PRSIDVKYIGVKSAYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQVQFSKTVIGKARLNNITIIGPLDMKQIDY   99 (176)
+Q Consensus        20 prsidvkyigvksayvsydvqkrtiylnitntlnitnnnyysvevenitaqvqfsktvigkarlnnitiigpldmkqidy   99 (176)
+                      ++.|.+.+.++....+.+  +    .+.+...+.|.|||-+++.+++++.+++.++..+|.+.......++|+++..+.+
+T Consensus        42 ~k~P~v~l~~v~i~~~~~--~----~~~l~~~l~V~NPn~~~i~l~~~~y~i~l~g~~lg~g~~~~~~~I~a~~s~~i~i  115 (174)
+T 1YYC_A           42 IPTPEATVDDVDFKGVTR--D----GVDYHAKVSVKNPYSQSIPICQISYILKSATRTIASGTIPDPGSLVGSGTTVLDV  115 (174)
+T ss_dssp             SCCCEEEEEEEEEEEECS--S----SEEEEEEEEEEECSSSCCBCCSEEEEEEESSSCEEEEEESCCCBCCSSEEEEEEE
+T ss_pred             CCCCeeEEEeeEEeeecC--C----eeEEEEEEEEECCCCccceeeeEEEEEEECCEEeEEeeCCCCceecCCceEEEEE
+Confidence            578888877776544332  2    2456677889999999999999999999999999999887455689999888888
+
+
+Q ss_pred             eccccccccceeeeeeeeeeeeEEeeEEEEEEEEEEEeeCC-ceeeEEEEEEEEEECC
+Q tr|A0A994J517|  100 TVPTVIAEEMSYMYDFCTLISIKVHNIVLMMQVTVTTTYFG-HSEQISQERYQYVDCG  156 (176)
+Q Consensus       100 tvptviaeemsymydfctlisikvhnivlmmqvtvtttyfg-hseqisqeryqyvdcg  156 (176)
+                      ++.+.+.. +......+..    ...+.+.+.+.+.+.... ...+..++....+.++
+T Consensus       116 ~~~i~~~~-l~~~~~~l~~----~~~~~~~l~G~~~~~~~~~~~~~~p~~~~g~i~l~  168 (174)
+T 1YYC_A          116 PVKVAYSI-AVSLMKDMCT----DWDIDYQLDIGLTFDIPVVGDITIPVSTQGEIKLP  168 (174)
+T ss_dssp             EEEESHHH-HHHTCCCCCS----SEEECEEEEEEEEEECTTSSEEEEEEEEECCEEEC
+T ss_pred             EEEEEHHH-HHHHHHHhcC----CCceEEEEEEEEEEecCccceEEEeeeeeeeEeCC
+Confidence            88888753 1112222211    134566676777666553 3445555555455554
+
+
+No 6
+>5CUO_A Phosphate propanoyltransferase (E.C.2.3.1.222); Enzyme, TRANSFERASE; HET: COA; 1.544A {Rhodopseudomonas palustris (strain BisB18)}
+Probab=19.22  E-value=51  Score=28.84  Aligned_cols=19  Identities=26%  Similarity=0.670  Sum_probs=8.2  Template_Neff=4.800
+
+Q ss_pred             EEEeeEEEECCcc-ccecee
+Q tr|A0A994J517|   81 ARLNNITIIGPLD-MKQIDY   99 (176)
+Q Consensus        81 arlnnitiigpld-mkqidy   99 (176)
+                      |.+.+...++|.. ..|+.+
+T Consensus        59 g~i~~VRVlGP~R~~tQVEl   78 (202)
+T 5CUO_A           59 GSLSKVRVLGPLRRETQVEV   78 (202)
+T ss_dssp             CEEEEEEEEESCBSSCEEEC
+T ss_pred             CceeeEEEEecccccccEEE
+Confidence            3444433344444 445433
+
+
+No 7
+>5CUP_B PduL (E.C.2.3.1.8); Enzyme, TRANSFERASE; HET: PO4; 2.1A {Rhodopseudomonas palustris (strain BisB18)}
+Probab=19.22  E-value=51  Score=28.84  Aligned_cols=19  Identities=26%  Similarity=0.670  Sum_probs=8.2  Template_Neff=4.800
+
+Q ss_pred             EEEeeEEEECCcc-ccecee
+Q tr|A0A994J517|   81 ARLNNITIIGPLD-MKQIDY   99 (176)
+Q Consensus        81 arlnnitiigpld-mkqidy   99 (176)
+                      |.+.+...++|.. ..|+.+
+T Consensus        59 g~i~~VRVlGP~R~~tQVEl   78 (202)
+T 5CUP_B           59 GSLSKVRVLGPLRRETQVEV   78 (202)
+T ss_dssp             CEEEEEEEEESCCSSCEEEC
+T ss_pred             CceeeEEEEecccccccEEE
+Confidence            3444433344444 445433
+
+
+No 8
+>2I32_B ASF1a protein (Anti-Silencing Factor 1; Histone Deposition, Chromatin Regulation, Histone; 2.7A {Homo sapiens} SCOP: b.1.22.1
+Probab=15.62  E-value=1.7e+02  Score=24.49  Aligned_cols=8  Identities=25%  Similarity=0.443  Sum_probs=3.5  Template_Neff=6.200
+
+Q ss_pred             EEEeeCCc
+Q tr|A0A994J517|  134 VTTTYFGH  141 (176)
+Q Consensus       134 vtttyfgh  141 (176)
+                      .++.|.+.
+T Consensus        65 w~iiYvgs   72 (182)
+T 2I32_B           65 WKIIYVGS   72 (182)
+T ss_dssp             EEEEEESC
+T ss_pred             EEEEEecC
+Confidence            34444443
+
+
+No 9
+>6YP6_A NanS-p; Carbohydrate binding protein, SUGAR BINDING; HET: GOL; 0.97A {Escherichia phage vB_EcoP_24B}
+Probab=13.64  E-value=3.6e+02  Score=24.27  Aligned_cols=19  Identities=32%  Similarity=0.545  Sum_probs=14.9  Template_Neff=4.700
+
+Q ss_pred             cCCCCeEEEEEEEEEEEEE
+Q tr|A0A994J517|   54 ITNNNYYSVEVENITAQVQ   72 (176)
+Q Consensus        54 itnnnyysvevenitaqvq   72 (176)
+                      |+...=|++.++++.++|.
+T Consensus       199 IT~~aTY~v~iesl~vevn  217 (218)
+T 6YP6_A          199 ITRGATYPVLIDSIAVEVN  217 (218)
+T ss_dssp             CCSSCCCCEEEEEEEEEEC
+T ss_pred             CCCCCcccEEEEEeEEEec
+Confidence            6655677999999998874
+
+
+No 10
+>3QR7_A Baseplate assembly protein V; Beta-Helix, OB-Fold, Phage Baseplate, Iron-Binding; 0.94A {Enterobacteria phage P2}
+Probab=12.44  E-value=7.6e+02  Score=16.42  Aligned_cols=39  Identities=13%  Similarity=0.232  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEEEEEcCCCEEEEEEEeeeecCCCCeEEEEEEEEEEEE
+Q tr|A0A994J517|   33 AYVSYDVQKRTIYLNITNTLNITNNNYYSVEVENITAQV   71 (176)
+Q Consensus        33 ayvsydvqkrtiylnitntlnitnnnyysvevenitaqv   71 (176)
+                      +.+.||.+...+.+..-....+....-..++..+++...
+T Consensus        12 ~~~~yd~~~~~l~i~~~~~~~~~~~~~i~i~~~~~~~~~   50 (115)
+T 3QR7_A           12 AVIEYEPETSALTVSGIKTASVTASGSVTATVPVVMVKA   50 (115)
+T ss_dssp             CEEEEETTTTEEEEESCSCCCCCCSSCCCCCCSCCCCCC
+T ss_pred             CEEEEECCCCeEEEEeCCeEEEEeCCeEEEEcceEEEEe
+
+

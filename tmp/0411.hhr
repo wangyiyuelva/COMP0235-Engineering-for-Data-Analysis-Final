@@ -1,0 +1,165 @@
+Query         tr|A0A3B3IUC2|A0A3B3IUC2_HUMAN
+Match_columns 122
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:58:20 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0411.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7RRO_H2 cilia, microtubule, dy  21.6 8.3E+02   0.009   23.4   6.9   15   54-71    629-643 (687)
+  2 7RRO_H3 cilia, microtubule, dy  21.6 8.3E+02   0.009   23.4   6.9   15   54-71    629-643 (687)
+  3 6XYW_Az 60S ribosomal protein    9.9   4E+02  0.0043   19.7   1.5   21   91-111    88-108 (109)
+  4 2MC5_A 45L; p7, RNAP, sigma fa   8.9 2.9E+02  0.0031   20.9   0.6   15   55-69      7-21  (73)
+  5 4ZS9_A Sugar binding protein o   8.5 6.2E+02  0.0067   18.5   2.0   16   63-78      2-17  (413)
+  6 6ZBJ_C Precursor of the major    8.5 1.4E+03   0.016   24.1   5.0   24   47-70     75-98  (891)
+  7 6J9E_J DNA-directed RNA polyme   8.1 3.2E+02  0.0035   20.8   0.5   17   55-71     11-27  (77)
+  8 1WC1_C ADENYLATE CYCLASE (E.C.   6.3 5.7E+02  0.0061   16.4   0.9   15   49-63      5-19  (226)
+  9 5M0J_C SWI5-dependent HO expre   6.0 3.4E+03   0.037   19.1   6.6   11   48-58    263-273 (328)
+ 10 5M0J_H SWI5-dependent HO expre   6.0 3.4E+03   0.037   19.1   6.6   67   25-91    240-313 (328)
+
+No 1
+>7RRO_H2 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=21.58  E-value=8.3e+02  Score=23.42  Aligned_cols=15  Identities=53%  Similarity=0.942  Sum_probs=6.7  Template_Neff=6.500
+
+Q ss_pred             CCCCccCCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   54 GSSGYINSTGSTRGHAST   71 (122)
+Q Consensus        54 gssgyinstgstrghast   71 (122)
+                      ||.||+.   |.|||-|.
+T Consensus       629 ~~~~~~~---~~~~~~~~  643 (687)
+T 7RRO_H2         629 GSTGYVG---SSRDHDSF  643 (687)
+T ss_pred             ccccccc---CCCCcccc
+Confidence            4444443   34454443
+
+
+No 2
+>7RRO_H3 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=21.58  E-value=8.3e+02  Score=23.42  Aligned_cols=15  Identities=53%  Similarity=0.942  Sum_probs=6.7  Template_Neff=6.500
+
+Q ss_pred             CCCCccCCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   54 GSSGYINSTGSTRGHAST   71 (122)
+Q Consensus        54 gssgyinstgstrghast   71 (122)
+                      ||.||+.   |.|||-|.
+T Consensus       629 ~~~~~~~---~~~~~~~~  643 (687)
+T 7RRO_H3         629 GSTGYVG---SSRDHDSF  643 (687)
+T ss_pred             ccccccc---CCCCcccc
+Confidence            4444443   34454443
+
+
+No 3
+>6XYW_Az 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=9.88  E-value=4e+02  Score=19.69  Aligned_cols=21  Identities=24%  Similarity=0.203  Sum_probs=16.8  Template_Neff=6.100
+
+Q ss_pred             CCccCCccccCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   91 TFERKTHVTRHAYEGSSSGNS  111 (122)
+Q Consensus        91 tferkthvtrhayegsssgns  111 (122)
+                      .+.|-.+|.||+-++.++.|-
+T Consensus        88 ~~~~~~~~~~~~~~~~~~~~~  108 (109)
+T 6XYW_Az          88 KALRPPLVVSHSSPATDSSNM  108 (109)
+T ss_pred             cCCCCCEEeecCCCCCCcccC
+Confidence            566778999999998887664
+
+
+No 4
+>2MC5_A 45L; p7, RNAP, sigma factor, protein; NMR {Xanthomonas phage Xp10}
+Probab=8.94  E-value=2.9e+02  Score=20.90  Aligned_cols=15  Identities=53%  Similarity=0.902  Sum_probs=12.0  Template_Neff=1.400
+
+Q ss_pred             CCCccCCCCCCCCCC
+Q tr|A0A3B3IUC2|   55 SSGYINSTGSTRGHA   69 (122)
+Q Consensus        55 ssgyinstgstrgha   69 (122)
+                      -+||||.-|+.+|..
+T Consensus         7 i~g~inafg~q~gs~   21 (73)
+T 2MC5_A            7 ISGYVNAFGSQRGSV   21 (73)
+T ss_dssp             CTTBSSEEEEEETTE
+T ss_pred             ccchhhhccCCCCcE
+Confidence            479999999888753
+
+
+No 5
+>4ZS9_A Sugar binding protein of ABC; Raffinose, ABC transporter, complex, transport; HET: MG, GLA, GLC, FRU; 1.37A {Bifidobacterium animalis subsp. lactis Bl-04}
+Probab=8.50  E-value=6.2e+02  Score=18.52  Aligned_cols=16  Identities=31%  Similarity=0.237  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   63 GSTRGHASTSSYRRAH   78 (122)
+Q Consensus        63 gstrghastssyrrah   78 (122)
+                      ||.|.|.++|+|.+.-
+T Consensus         2 ~~~~~~~~~~~~~~~~   17 (413)
+T 4ZS9_A            2 GSSHHHHHHSSGLVPR   17 (413)
+T ss_dssp             ----------------
+T ss_pred             CCCccccccCCCcccC
+Confidence            5667777777776543
+
+
+No 6
+>6ZBJ_C Precursor of the major merozoite; Merozoite surface protein 1, malaria; 3.3A {Plasmodium falciparum}
+Probab=8.49  E-value=1.4e+03  Score=24.14  Aligned_cols=24  Identities=33%  Similarity=0.332  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             ccccCCCCCCCccCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   47 EKQSLTHGSSGYINSTGSTRGHAS   70 (122)
+Q Consensus        47 ekqslthgssgyinstgstrghas   70 (122)
+                      ..||-|.|.+|-.++.+++|...+
+T Consensus        75 ~~~~~~~~~~~~~~~~~~~~s~~~   98 (891)
+T 6ZBJ_C           75 SAQSGTSGPSGPSGTSPSSRSNTL   98 (891)
+T ss_dssp             ------------------------
+T ss_pred             cccCCCCCCCCCCCCCCCCcCCCC
+Confidence            446666666666666665554443
+
+
+No 7
+>6J9E_J DNA-directed RNA polymerase subunit alpha; RNA polymerase, transcription termination, anti-termination; 3.41A {Xanthomonas oryzae pv. oryzae (strain PXO99A)}
+Probab=8.06  E-value=3.2e+02  Score=20.84  Aligned_cols=17  Identities=53%  Similarity=0.804  Sum_probs=13.5  Template_Neff=1.400
+
+Q ss_pred             CCCccCCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   55 SSGYINSTGSTRGHAST   71 (122)
+Q Consensus        55 ssgyinstgstrghast   71 (122)
+                      -+||||.-|+.+|..-+
+T Consensus        11 i~g~inafg~q~gs~l~   27 (77)
+T 6J9E_J           11 ISGYVNAFGSQRGSVLT   27 (77)
+T ss_pred             hhchhhhccCCCCcEEE
+Confidence            47999999999886443
+
+
+No 8
+>1WC1_C ADENYLATE CYCLASE (E.C.4.6.1.1); CYCLASE, SOLUBLE ADENYLYL CYCLASE, CAMP; HET: TAT; 1.93A {SPIRULINA PLATENSIS} SCOP: d.58.29.1
+Probab=6.28  E-value=5.7e+02  Score=16.39  Aligned_cols=15  Identities=27%  Similarity=0.350  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ccCCCCCCCccCCCC
+Q tr|A0A3B3IUC2|   49 QSLTHGSSGYINSTG   63 (122)
+Q Consensus        49 qslthgssgyinstg   63 (122)
+                      .+++|+++|.+-...
+T Consensus         5 ~~~~~~~~~~~~~~~   19 (226)
+T 1WC1_C            5 HHHHHHSSGLVPRGS   19 (226)
+T ss_dssp             ---------------
+T ss_pred             ccccccCCCCcCCcc
+Confidence            356777777765443
+
+
+No 9
+>5M0J_C SWI5-dependent HO expression protein 2/RNA; She2p, She3p, ASH1-mRNA, mRNA transport; 2.8A {Saccharomyces cerevisiae (strain RM11-1a)}
+Probab=5.95  E-value=3.4e+03  Score=19.09  Aligned_cols=11  Identities=18%  Similarity=-0.040  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             cccCCCCCCCc
+Q tr|A0A3B3IUC2|   48 KQSLTHGSSGY   58 (122)
+Q Consensus        48 kqslthgssgy   58 (122)
+                      |.+--.|++.-
+T Consensus       263 KRsSFYG~~~~  273 (328)
+T 5M0J_C          263 KRRSFYTASPL  273 (328)
+T ss_dssp             -----------
+T ss_pred             ccccccccCCc
+Confidence            44433443333
+
+
+No 10
+>5M0J_H SWI5-dependent HO expression protein 2/RNA; She2p, She3p, ASH1-mRNA, mRNA transport; 2.8A {Saccharomyces cerevisiae (strain RM11-1a)}
+Probab=5.95  E-value=3.4e+03  Score=19.09  Aligned_cols=67  Identities=22%  Similarity=0.193  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCcccccCCCCCCCcc-------CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A3B3IUC2|   25 PPKGGTSNGYAKTASLGGGSRLEKQSLTHGSSGYI-------NSTGSTRGHASTSSYRRAHSPASTLPNSPGST   91 (122)
+Q Consensus        25 ppkggtsngyaktaslgggsrlekqslthgssgyi-------nstgstrghastssyrrahspastlpnspgst   91 (122)
+                      +-|.+++||-..-.|-.|...-.|.+--.|++.-|       .++|.-.|--.++|-|...++...-++++...
+T Consensus       240 k~K~~~~~~~~~d~s~~~~~s~~KRsSFYG~~~~~~~~~~~~sss~~LPGVKRssSiR~~S~~s~s~~~~~~~~  313 (328)
+T 5M0J_H          240 KLKNGGSGGGGSGGSSNGNSSNNKRRSFYTASPLLSSGSIPKSASPVLPGVKRTASVRKPSSSSSKTNVTHNND  313 (328)
+T ss_dssp             SCCCCCHTTCCCTHHCGCCCHCHHHHTTTCSSSCCC----CCCCCCCCTTEESCC--C-----CSSCS------
+T ss_pred             ccCCCCCCCCCCCCCCCCCCCCcccccccccCCcccCCCCCCCCCCCCCCcccccccccCCCCCCCCCCCCCCC
+
+

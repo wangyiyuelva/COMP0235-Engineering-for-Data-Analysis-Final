@@ -1,0 +1,186 @@
+Query         sp|Q6ZWC4|YS043_HUMAN
+Match_columns 215
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:19:45 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1821.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7JTU_B SsdA, SsdAI; Toxin, Imm  25.8 1.1E+02  0.0012   24.2   2.1   43  122-164    19-61  (193)
+  2 6WBJ_A Maltodextrin-binding pr  12.1 2.2E+02  0.0024   23.2   1.0   23  168-190   408-430 (447)
+  3 3M3G_A Epl1 protein; fungal, p   7.6 7.2E+02  0.0078   18.6   2.1   15   13-27     17-31  (120)
+  4 6CFB_A barrettide A; Structure   7.3   4E+02  0.0043   18.8   0.6   13   59-71      4-16  (31)
+  5 6QDV_K Eukaryotic initiation f   7.1 4.3E+02  0.0047   24.6   1.0   21   59-79    207-227 (295)
+  6 7AOI_AN bL28m, uL29m, uL30m, b   7.0 7.2E+02  0.0078   21.0   2.1   52  115-166     5-59  (171)
+  7 6SGA_F3 ?; mitochondrial ribos   6.0 1.4E+03   0.015   26.2   3.9   86   77-162   181-293 (966)
+  8 7PUA_F3 mitoribosome, assembly   6.0 1.4E+03   0.015   26.2   3.9   86   77-162   181-293 (966)
+  9 2AFF_B Ki67  FHA  NIFK; HET: T   5.7 7.4E+02  0.0081   18.3   1.3   29  121-149     8-36  (44)
+ 10 2X7L_M FAB HEAVY CHAIN, FAB LI   5.4 1.5E+03   0.016   19.6   3.0   38    7-44     74-114 (115)
+
+No 1
+>7JTU_B SsdA, SsdAI; Toxin, Immunity, Type VI, T6SS; HET: MSE; 3.0A {Pseudomonas syringae}
+Probab=25.75  E-value=1.1e+02  Score=24.24  Aligned_cols=43  Identities=14%  Similarity=0.290  Sum_probs=33.4  Template_Neff=8.800
+
+Q ss_pred             CCCCCCChhhhcchhccCCCCCCCCCchhhHHHHHHHHHhhcC
+Q sp|Q6ZWC4|YS04  122 APQGTSSYQEGRRAHEATSAESDDDNGVQVLASLAVSCAQHSR  164 (215)
+Q Consensus       122 apqgtssyqegrraheatsaesdddngvqvlaslavscaqhsr  164 (215)
+                      .|.|.-+...-++...+-....+.+++-++++-|+..|++|.-
+T Consensus        19 ~~~g~L~l~~R~~I~~~i~~~~~~~~~~~~~~~lal~ca~~vl   61 (193)
+T 7JTU_B           19 SPEGELILPLRKLLWNTITEDETAAKKKAILTALDVMCVRQGV   61 (193)
+T ss_dssp             CTTCCCCHHHHHHHHHHHHTTSCHHHHHHHHHHHHHHHHHTTH
+T ss_pred             CCCCCCCHHHHHHHHHHhcCccchHHHhHHHHHHHHHHHHHHH
+Confidence            5777777777777776666666677788999999999999754
+
+
+No 2
+>6WBJ_A Maltodextrin-binding protein,Reversion-inducing cysteine-rich protein with; Wnt signaling, 4-helix bundle, extracellular; HET: GOL, GLC; 1.651A {Escherichia coli}
+Probab=12.14  E-value=2.2e+02  Score=23.15  Aligned_cols=23  Identities=30%  Similarity=0.829  Sum_probs=18.3  Template_Neff=11.500
+
+Q ss_pred             chhHHHHHHHhCCCCCCCCCCCC
+Q sp|Q6ZWC4|YS04  168 PVGTQLQQACAQVPTSRAPLWPC  190 (215)
+Q Consensus       168 pvgtqlqqacaqvptsraplwpc  190 (215)
+                      .+-..|..+|-..|-...|+|.|
+T Consensus       408 ~~~~~l~~~~~~~~~~~~~~~~~  430 (447)
+T 6WBJ_A          408 EIVDGLIEGCKTQPLPQDPLWQC  430 (447)
+T ss_dssp             HHHHHHHHHHCSSCGGGCHHHHH
+T ss_pred             HHHHHHHhccCCCCCCCCcchhh
+Confidence            34477888888778888899988
+
+
+No 3
+>3M3G_A Epl1 protein; fungal, plant defense, fungus, POLYSACCHARIDE-BINDING; HET: EDO; 1.39A {Hypocrea virens}
+Probab=7.64  E-value=7.2e+02  Score=18.58  Aligned_cols=15  Identities=33%  Similarity=0.753  Sum_probs=11.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q sp|Q6ZWC4|YS04   13 RNLACSKGSPGWRTA   27 (215)
+Q Consensus        13 rnlacskgspgwrta   27 (215)
+                      .+++|+.+..+|++.
+T Consensus        17 ~~~~C~~~~~~~~~~   31 (120)
+T 3M3G_A           17 NDVSCSDGPNGLETR   31 (120)
+T ss_dssp             GGSSSSSSTTSHHHH
+T ss_pred             cccccCCCCCCcccc
+Confidence            468999987776543
+
+
+No 4
+>6CFB_A barrettide A; Structure from MOLMOL, Disulfide rich; NMR {N/A}
+Probab=7.28  E-value=4e+02  Score=18.82  Aligned_cols=13  Identities=54%  Similarity=1.091  Sum_probs=10.7  Template_Neff=1.000
+
+Q ss_pred             cccccCCCCCCCC
+Q sp|Q6ZWC4|YS04   59 TCFCLSNWTSGAG   71 (215)
+Q Consensus        59 tcfclsnwtsgag   71 (215)
+                      -|||...-||||-
+T Consensus         4 pcfcvedetsgak   16 (31)
+T 6CFB_A            4 PCFCVEDETSGAK   16 (31)
+T ss_dssp             CCEEEEETTTTEE
+T ss_pred             CceeeecCCCCCc
+Confidence            5899999888874
+
+
+No 5
+>6QDV_K Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, ATP, IHP, SEP; 3.3A {Homo sapiens}
+Probab=7.11  E-value=4.3e+02  Score=24.60  Aligned_cols=21  Identities=29%  Similarity=0.577  Sum_probs=15.5  Template_Neff=6.100
+
+Q ss_pred             cccccCCCCCCCCCchcccch
+Q sp|Q6ZWC4|YS04   59 TCFCLSNWTSGAGFSEMGRSR   79 (215)
+Q Consensus        59 tcfclsnwtsgagfsemgrsr   79 (215)
+                      .-.|+|||..--||.-.--.|
+T Consensus       207 IPp~ISnWKN~kGytIpLdKR  227 (295)
+T 6QDV_K          207 IPPCISNWKNAKGYTIPLDKR  227 (295)
+T ss_pred             CCCcccccccCCCCeeeHHHH
+Confidence            357999999999986554333
+
+
+No 6
+>7AOI_AN bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=7.04  E-value=7.2e+02  Score=21.02  Aligned_cols=52  Identities=25%  Similarity=0.246  Sum_probs=29.5  Template_Neff=6.800
+
+Q ss_pred             hhhhhCCC-CCCCCChhhhcchhcc--CCCCCCCCCchhhHHHHHHHHHhhcCCC
+Q sp|Q6ZWC4|YS04  115 TVLRRHRA-PQGTSSYQEGRRAHEA--TSAESDDDNGVQVLASLAVSCAQHSRHK  166 (215)
+Q Consensus       115 tvlrrhra-pqgtssyqegrrahea--tsaesdddngvqvlaslavscaqhsrhk  166 (215)
+                      .|||||++ |+|-+||...-.....  ...----|..-++|.-||.-.|+.-+.|
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~iDa~~~~lGRLAs~iAk~L~Gk   59 (171)
+T 7AOI_AN           5 SVLRRHKHHPEGLPLYNDMSKQWLCREGERWWLLDARGEQLPRVAAVAAQYITGQ   59 (171)
+T ss_pred             HHHHHhhcCCCCccccccccchhhhcCCCcEEEEcCCCCCHHHHHHHHHHHHcCC
+Confidence            46788875 7788888665321111  1111223444566777777777776544
+
+
+No 7
+>6SGA_F3 ?; mitochondrial ribosome, assembly intermediate, translation; HET: PM8, UBD; 3.1A {Trypanosoma brucei brucei}
+Probab=5.96  E-value=1.4e+03  Score=26.21  Aligned_cols=86  Identities=23%  Similarity=0.252  Sum_probs=47.5  Template_Neff=2.800
+
+Q ss_pred             cchccCCCCCCCccc--------------ccCCCCCCHHHHHHHHHhhhchhhhhhhCCCCCCCCChhhhc---------
+Q sp|Q6ZWC4|YS04   77 RSRFEEGRLGYSSDV--------------LSARPTMSPTEMLRSRALNLGAATVLRRHRAPQGTSSYQEGR---------  133 (215)
+Q Consensus        77 rsrfeegrlgyssdv--------------lsarptmsptemlrsralnlgaatvlrrhrapqgtssyqegr---------  133 (215)
+                      |-|||+-|--.-.|+              -..-|..|+.|||..--.--.|.|.--|...|-.+..-.|-.         
+T Consensus       181 RHRfEDVR~llWP~~~~a~a~ge~~~~~~~~~~p~Ls~~eMldaL~WLEAASTFcVRK~hP~D~a~~eeFlPLDL~REV~  260 (966)
+T 6SGA_F3         181 RHRFEDVRYVIWPDVVEETARGDSAQADVSLTNPSLTAGEMLEALLWLDAASTFCVRKVHPSDLGDKSEFLPLDLQREVE  260 (966)
+T ss_pred             HhhHhchhhhhcCchHHHhhcCChhhcCccCCCCCCCHHHHHHHHHHHHHhcceeeeecChhhcCChhhccCCcchhhhh
+Confidence            568988774433332              223467788899987555555666655555566555433311         
+
+
+Q ss_pred             ----chhccCCCCCCCCCchhhHHHHHHHHHhh
+Q sp|Q6ZWC4|YS04  134 ----RAHEATSAESDDDNGVQVLASLAVSCAQH  162 (215)
+Q Consensus       134 ----raheatsaesdddngvqvlaslavscaqh  162 (215)
+                          ++.....--+...+-+.-+.|.|.-|+.|
+T Consensus       261 vVA~~a~g~~~~f~~~~~a~drFiscAALC~NH  293 (966)
+T 6SGA_F3         261 VVACHARRDLDFFDPSATSLEQFTACAALCVNH  293 (966)
+T ss_pred             hhhhhhhCCcccCCCcchHHHHHHHHHHHHHcC
+Confidence                11111111123344556677888888766
+
+
+No 8
+>7PUA_F3 mitoribosome, assembly intermediate, Trypanosoma brucei; HET: PM8, FDA, GDP, PO4, ATP; 3.6A {Trypanosoma brucei brucei}
+Probab=5.96  E-value=1.4e+03  Score=26.21  Aligned_cols=86  Identities=23%  Similarity=0.252  Sum_probs=47.5  Template_Neff=2.800
+
+Q ss_pred             cchccCCCCCCCccc--------------ccCCCCCCHHHHHHHHHhhhchhhhhhhCCCCCCCCChhhhc---------
+Q sp|Q6ZWC4|YS04   77 RSRFEEGRLGYSSDV--------------LSARPTMSPTEMLRSRALNLGAATVLRRHRAPQGTSSYQEGR---------  133 (215)
+Q Consensus        77 rsrfeegrlgyssdv--------------lsarptmsptemlrsralnlgaatvlrrhrapqgtssyqegr---------  133 (215)
+                      |-|||+-|--.-.|+              -..-|..|+.|||..--.--.|.|.--|...|-.+..-.|-.         
+T Consensus       181 RHRfEDVR~llWP~~~~a~a~ge~~~~~~~~~~p~Ls~~eMldaL~WLEAASTFcVRK~hP~D~a~~eeFlPLDL~REV~  260 (966)
+T 7PUA_F3         181 RHRFEDVRYVIWPDVVEETARGDSAQADVSLTNPSLTAGEMLEALLWLDAASTFCVRKVHPSDLGDKSEFLPLDLQREVE  260 (966)
+T ss_pred             HhhHhchhhhhcCchHHHhhcCChhhcCccCCCCCCCHHHHHHHHHHHHHhcceeeeecChhhcCChhhccCCcchhhhh
+Confidence            568988774433332              223467788899987555555666655555566555433311         
+
+
+Q ss_pred             ----chhccCCCCCCCCCchhhHHHHHHHHHhh
+Q sp|Q6ZWC4|YS04  134 ----RAHEATSAESDDDNGVQVLASLAVSCAQH  162 (215)
+Q Consensus       134 ----raheatsaesdddngvqvlaslavscaqh  162 (215)
+                          ++.....--+...+-+.-+.|.|.-|+.|
+T Consensus       261 vVA~~a~g~~~~f~~~~~a~drFiscAALC~NH  293 (966)
+T 7PUA_F3         261 VVACHARRDLDFFDPSATSLEQFTACAALCVNH  293 (966)
+T ss_pred             hhhhhhhCCcccCCCcchHHHHHHHHHHHHHcC
+Confidence                11111111123344556677888888766
+
+
+No 9
+>2AFF_B Ki67  FHA  NIFK; HET: TPO, SEP; NMR {Homo sapiens}
+Probab=5.74  E-value=7.4e+02  Score=18.34  Aligned_cols=29  Identities=24%  Similarity=0.456  Sum_probs=17.9  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCChhhhcchhccCCCCCCCCCch
+Q sp|Q6ZWC4|YS04  121 RAPQGTSSYQEGRRAHEATSAESDDDNGV  149 (215)
+Q Consensus       121 rapqgtssyqegrraheatsaesdddngv  149 (215)
+                      -.|.-|.++-|-|....+...+.|+||.+
+T Consensus         8 pTPvCTPtfLErRKS~~~~~~ddd~D~EI   36 (44)
+T 2AFF_B            8 PTPVCTPTFLERRKSQVAELNDDDKDDEI   36 (44)
+T ss_dssp             CCCCCCHHHHHHHHHHHHHCCGGGGSCSE
+T ss_pred             CCCccChHHHHhhccccccccCCCCCCce
+Confidence            34667788888887754444444556554
+
+
+No 10
+>2X7L_M FAB HEAVY CHAIN, FAB LIGHT; NUCLEAR EXPORT, IMMUNE SYSTEM, POST-TRANSCRIPTIONAL; 3.17A {synthetic construct}
+Probab=5.35  E-value=1.5e+03  Score=19.64  Aligned_cols=38  Identities=26%  Similarity=0.354  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCC---CCCCCCCCCCC
+Q sp|Q6ZWC4|YS04    7 WPRPEGRNLACSKGSPGWRTAGQGSGS---YGAATLGKGTE   44 (215)
+Q Consensus         7 wprpegrnlacskgspgwrtagqgsgs---ygaatlgkgte   44 (215)
+                      -|..|.-.+.|+...+.+.|.+-++..   ...+.|+.||+
+T Consensus        74 LP~LerL~l~~~~~~~~~gt~~v~~~q~~~e~~~~l~~g~~  114 (115)
+T 2X7L_M           74 LPPLERLTLDCNEDCGTSGTQGVGSPQILVESPTVLESGAK  114 (115)
+T ss_dssp             -----------------------------------------
+T ss_pred             CCChhcCeecCCCCCCCCCCCCCCCCeeecCCcccccCccC
+Confidence            355677889999988888776555532   34566777765
+
+

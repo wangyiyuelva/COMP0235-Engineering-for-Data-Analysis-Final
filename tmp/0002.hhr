@@ -1,0 +1,404 @@
+Query         tr|D6RB62|D6RB62_HUMAN
+Match_columns 98
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 22:55:08 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0002.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ASE_f kDDX60, 40S ribosomal p  99.2 9.8E-13 1.1E-17  121.1  -5.2   79   20-98    130-210 (2174)
+  2 3VOQ_A Target of rapamycin com  62.4      30 0.00033   24.1   3.7   12   79-90     82-93  (125)
+  3 3VOQ_B Target of rapamycin com  62.4      30 0.00033   24.1   3.7   12   79-90     82-93  (125)
+  4 7FAJ_D Histone-arginine methyl  55.0      34 0.00037   25.2   3.1   19   35-53    282-300 (336)
+  5 7LC1_B KRAS, RAS, K-RAS, ONCOP  53.6      42 0.00046   25.0   3.5   13   79-91    177-189 (237)
+  6 7LC1_D KRAS, RAS, K-RAS, ONCOP  53.6      42 0.00046   25.0   3.5   13   79-91    177-189 (237)
+  7 3OFG_A Boca/mesd chaperone for  40.8      75 0.00082   21.8   2.9   18   35-52     49-66  (95)
+  8 3OFF_A LDLR chaperone boca; me  39.0      87 0.00094   21.2   2.9   18   34-51     43-60  (90)
+  9 3OFH_B LDLR chaperone MESD; me  36.7      88 0.00096   21.0   2.7   17   35-51     43-59  (89)
+ 10 2I9S_A ferredoxin-like-fold, C  36.4      88 0.00096   21.4   2.7   32   21-52     35-67  (97)
+ 11 3ULB_A Target of rapamycin com  34.9 1.4E+02  0.0015   20.9   3.5   13   77-89     72-84  (121)
+ 12 3ULB_B Target of rapamycin com  34.9 1.4E+02  0.0015   20.9   3.5   13   77-89     72-84  (121)
+ 13 7AOI_XJ bL28m, uL29m, uL30m, b  33.6 1.1E+02  0.0012   21.7   3.0   23   33-55    102-124 (150)
+ 14 3MJG_X Platelet-derived growth  31.2   1E+02  0.0011   19.1   2.1   23   36-58      8-30  (289)
+ 15 5W82_B Protein delta; pentamer  26.9 2.2E+02  0.0024   22.0   3.7   16    1-16      3-18  (103)
+ 16 5JIE_D Protein delta; Delta pr  26.8 2.5E+02  0.0027   20.3   3.6   13    2-14      2-14  (66)
+ 17 5JIE_E Protein delta; Delta pr  26.8 2.5E+02  0.0027   20.3   3.6   13    2-14      2-14  (66)
+ 18 2DMW_A LONGIN domain, beta(2)-  25.1 2.7E+02  0.0029   17.2   3.2   12   10-21     32-43  (131)
+ 19 2GX5_C GTP-sensing transcripti  24.3   2E+02  0.0022   18.6   2.7   26   25-50     36-61  (170)
+ 20 1BYR_A PROTEIN (ENDONUCLEASE);  24.3 2.1E+02  0.0023   16.0   2.5    9   37-45     96-104 (155)
+ 21 1BYS_A PROTEIN (ENDONUCLEASE);  24.3 2.1E+02  0.0023   16.0   2.5    9   37-45     96-104 (155)
+ 22 6P22_D Tail fiber protein; PVC  22.8 1.6E+02  0.0018   21.8   2.3   12   38-49      4-15  (138)
+ 23 2NUP_C Protein transport prote  21.5 3.7E+02   0.004   16.9   3.4   14    9-22     33-46  (196)
+ 24 2NUT_C Protein transport prote  21.5 3.7E+02   0.004   16.9   3.4   14    9-22     33-46  (196)
+
+No 1
+>7ASE_f kDDX60, 40S ribosomal protein S24; preinitiation, factors, kinetoplastid, helicase, TRANSLATION; HET: GNP; 3.33A {Trypanosoma cruzi}
+Probab=99.18  E-value=9.8e-13  Score=121.07  Aligned_cols=79  Identities=29%  Similarity=0.563  Sum_probs=75.5  Template_Neff=7.100
+
+Q ss_pred             hCccCCchhhhhhhhcecEEEEeCCEEEEEEEEeeeecc--CCceeeeeeeeehhhhhhhCCCeEEEEEEcCcceeeecC
+Q tr|D6RB62|D6RB   20 EMPKAGYSSILNDFVESNFFVIDGDSLLVTCLGVKSFKW--GQNLHFFYLVECYLVDLLSNGGQFTIVFFKDAEYAYFDF   97 (98)
+Q Consensus        20 empkagyssilndfvesnffvidgdsllvtclgvksfkw--gqnlhffylvecylvdllsnggqftivffkdaeyayfdf   97 (98)
+                      .+++|+|+||+|||+|+|+|+|||||||++|+++++++|  +|+||++|.||+||++|.+|||+||||||++++++|.+.
+T Consensus       130 ~~~~~~~~Dl~~d~ag~E~FlIdGDSLl~~~l~~~~~d~~~~Q~LH~~y~vE~~L~~L~~rg~~F~iVFF~~~~~~~~~~  209 (2174)
+T 7ASE_f          130 ATARPELCDMFVHLSASEMFFIDGDSLFMAALSPQSVDWDLIQPLHVIYNAQKLLYDMHCRGARFHVVFFDSLLWIWESA  209 (2174)
+T ss_dssp             HSSCCEECCCSSSSSSSSEEEEEHHHHHHHHSCCTTTTCCSCCSSCCTHHHHHHHHHHTSSCCCCEEEECCCCCCCCCSS
+T ss_pred             HhcChhhcccchhhccCceEEEeHHHHHHHHhCccccCCCCchHHHHHHHHHHHHHHHHHcCCcEEEEEehhhHHHhcCc
+Confidence            478999999999999999999999999999999999998  899999999999999999999999999999999999864
+
+
+Q ss_pred             C
+Q tr|D6RB62|D6RB   98 P   98 (98)
+Q Consensus        98 p   98 (98)
+                      |
+T Consensus       210 ~  210 (2174)
+T 7ASE_f          210 P  210 (2174)
+T ss_dssp             C
+T ss_pred             h
+Confidence            3
+
+
+No 2
+>3VOQ_A Target of rapamycin complex 2; PH domain, MEMBRANE PROTEIN; 2.0A {Homo sapiens}
+Probab=62.36  E-value=30  Score=24.06  Aligned_cols=12  Identities=8%  Similarity=0.437  Sum_probs=9.2  Template_Neff=7.200
+
+Q ss_pred             CCeEEEEEEcCc
+Q tr|D6RB62|D6RB   79 GGQFTIVFFKDA   90 (98)
+Q Consensus        79 ggqftivffkda   90 (98)
+                      ...|.|++..+.
+T Consensus        82 ~~~Fki~~~~~~   93 (125)
+T 3VOQ_A           82 HAIFKLTYLSNH   93 (125)
+T ss_dssp             CEEEEEEEEETT
+T ss_pred             CcEEEEEEEcCC
+Confidence            367999997764
+
+
+No 3
+>3VOQ_B Target of rapamycin complex 2; PH domain, MEMBRANE PROTEIN; 2.0A {Homo sapiens}
+Probab=62.36  E-value=30  Score=24.06  Aligned_cols=12  Identities=8%  Similarity=0.437  Sum_probs=9.1  Template_Neff=7.200
+
+Q ss_pred             CCeEEEEEEcCc
+Q tr|D6RB62|D6RB   79 GGQFTIVFFKDA   90 (98)
+Q Consensus        79 ggqftivffkda   90 (98)
+                      ...|.|++..+.
+T Consensus        82 ~~~Fki~~~~~~   93 (125)
+T 3VOQ_B           82 HAIFKLTYLSNH   93 (125)
+T ss_dssp             EEEEEEEEEETT
+T ss_pred             CcEEEEEEEcCC
+Confidence            367999997754
+
+
+No 4
+>7FAJ_D Histone-arginine methyltransferase CARM1, TRANSFERASE; HET: XJ4; 2.24507255823A {Homo sapiens}
+Probab=55.01  E-value=34  Score=25.16  Aligned_cols=19  Identities=42%  Similarity=0.663  Sum_probs=15.9  Template_Neff=9.800
+
+Q ss_pred             cecEEEEeCCEEEEEEEEe
+Q tr|D6RB62|D6RB   35 ESNFFVIDGDSLLVTCLGV   53 (98)
+Q Consensus        35 esnffvidgdsllvtclgv   53 (98)
+                      .+.+|.--||||.-+++=-
+T Consensus       282 ~~~~~~~~~~~~~~~~~~~  300 (336)
+T 7FAJ_D          282 QSPLFAKAGDTLSGTCLLI  300 (336)
+T ss_dssp             EEEEEECTTCEEEEEEEEE
+T ss_pred             cCccchhcCcccceeEEEE
+Confidence            4789999999999988744
+
+
+No 5
+>7LC1_B KRAS, RAS, K-RAS, ONCOPROTEIN, GMPPNP; HET: GNP; 2.35A {Homo sapiens}
+Probab=53.57  E-value=42  Score=25.00  Aligned_cols=13  Identities=8%  Similarity=0.473  Sum_probs=9.5  Template_Neff=8.100
+
+Q ss_pred             CCeEEEEEEcCcc
+Q tr|D6RB62|D6RB   79 GGQFTIVFFKDAE   91 (98)
+Q Consensus        79 ggqftivffkdae   91 (98)
+                      ...|.|+|-.+..
+T Consensus       177 ~~~fki~~~~~~~  189 (237)
+T 7LC1_B          177 HAIFKLTYLSNHD  189 (237)
+T ss_dssp             EEEEEEEEECSSS
+T ss_pred             CeEEEEEEEcCCC
+Confidence            4679999987543
+
+
+No 6
+>7LC1_D KRAS, RAS, K-RAS, ONCOPROTEIN, GMPPNP; HET: GNP; 2.35A {Homo sapiens}
+Probab=53.57  E-value=42  Score=25.00  Aligned_cols=13  Identities=8%  Similarity=0.473  Sum_probs=9.5  Template_Neff=8.100
+
+Q ss_pred             CCeEEEEEEcCcc
+Q tr|D6RB62|D6RB   79 GGQFTIVFFKDAE   91 (98)
+Q Consensus        79 ggqftivffkdae   91 (98)
+                      ...|.|+|-.+..
+T Consensus       177 ~~~fki~~~~~~~  189 (237)
+T 7LC1_D          177 HAIFKLTYLSNHD  189 (237)
+T ss_dssp             EEEEEEEEESSSS
+T ss_pred             CeEEEEEEEcCCC
+Confidence            4679999987543
+
+
+No 7
+>3OFG_A Boca/mesd chaperone for ywtd beta-propeller-egf; molecular chaperone, protein folding, YWTD; HET: MSE; 1.367A {Caenorhabditis elegans}
+Probab=40.79  E-value=75  Score=21.80  Aligned_cols=18  Identities=22%  Similarity=0.394  Sum_probs=13.9  Template_Neff=6.400
+
+Q ss_pred             cecEEEEeCCEEEEEEEE
+Q tr|D6RB62|D6RB   35 ESNFFVIDGDSLLVTCLG   52 (98)
+Q Consensus        35 esnffvidgdsllvtclg   52 (98)
+                      ...+|.||-+-+|...-+
+T Consensus        49 ~v~~y~vd~~~ilf~~~d   66 (95)
+T 3OFG_A           49 DLQVFVIDDNRAIFMFKN   66 (95)
+T ss_dssp             CEEEEEEETTEEEEEESS
+T ss_pred             eEEEEEEeCCEEEEEecC
+Confidence            567999999988876543
+
+
+No 8
+>3OFF_A LDLR chaperone boca; mesd, molecular chaperone, protein folding; HET: SO4, MSE; 2.002A {Drosophila melanogaster}
+Probab=39.05  E-value=87  Score=21.17  Aligned_cols=18  Identities=6%  Similarity=0.329  Sum_probs=13.7  Template_Neff=6.600
+
+Q ss_pred             hcecEEEEeCCEEEEEEE
+Q tr|D6RB62|D6RB   34 VESNFFVIDGDSLLVTCL   51 (98)
+Q Consensus        34 vesnffvidgdsllvtcl   51 (98)
+                      -..+.|.||-+-+|...-
+T Consensus        43 i~v~~y~vd~~~~lf~~~   60 (90)
+T 3OFF_A           43 IQAERYMVDDNRAIFLFK   60 (90)
+T ss_dssp             CCEEEEEEETTEEEEEES
+T ss_pred             ccEEEEEEeCCEEEEEeC
+Confidence            357899999888876543
+
+
+No 9
+>3OFH_B LDLR chaperone MESD; mesd, molecular chaperone, protein folding; 2.013A {Mus musculus}
+Probab=36.68  E-value=88  Score=21.01  Aligned_cols=17  Identities=12%  Similarity=0.292  Sum_probs=12.6  Template_Neff=6.700
+
+Q ss_pred             cecEEEEeCCEEEEEEE
+Q tr|D6RB62|D6RB   35 ESNFFVIDGDSLLVTCL   51 (98)
+Q Consensus        35 esnffvidgdsllvtcl   51 (98)
+                      ..++|.||-+-+|...-
+T Consensus        43 ~v~~y~vd~~~~lf~~~   59 (89)
+T 3OFH_B           43 DVQRFIVGSDRAIFMLR   59 (89)
+T ss_dssp             CEEEEECSSSEEEEEES
+T ss_pred             eEEEEEEcCCEEEEEec
+Confidence            45789999888776553
+
+
+No 10
+>2I9S_A ferredoxin-like-fold, CHAPERONE; NMR {Mus musculus}
+Probab=36.42  E-value=88  Score=21.40  Aligned_cols=32  Identities=13%  Similarity=0.141  Sum_probs=19.8  Template_Neff=6.600
+
+Q ss_pred             CccCCchhhh-hhhhcecEEEEeCCEEEEEEEE
+Q tr|D6RB62|D6RB   21 MPKAGYSSIL-NDFVESNFFVIDGDSLLVTCLG   52 (98)
+Q Consensus        21 mpkagyssil-ndfvesnffvidgdsllvtclg   52 (98)
+                      .+..+|..++ ..-...++|.||-+-+|...-+
+T Consensus        35 ~la~~W~~~L~n~~i~v~~y~vd~~~ilf~~~d   67 (97)
+T 2I9S_A           35 EITSLWQGSLFNANYDVQRFIVGSDRAIFMLRD   67 (97)
+T ss_dssp             HHCCCCCHHHHHTTCSEECCEEETTEEEEEECS
+T ss_pred             HHHHHHHHHHHhCCceEEEEEEcCCEEEEEECC
+Confidence            3445565544 3333567899998888876543
+
+
+No 11
+>3ULB_A Target of rapamycin complex 2; PH domain, membrane localization, MEMBRANE; 1.9A {Saccharomyces cerevisiae}
+Probab=34.92  E-value=1.4e+02  Score=20.89  Aligned_cols=13  Identities=15%  Similarity=0.255  Sum_probs=10.4  Template_Neff=7.100
+
+Q ss_pred             hCCCeEEEEEEcC
+Q tr|D6RB62|D6RB   77 SNGGQFTIVFFKD   89 (98)
+Q Consensus        77 snggqftivffkd   89 (98)
+                      ...+.|+||+..+
+T Consensus        72 k~~~~Fki~~~~~   84 (121)
+T 3ULB_A           72 RVPEHFKIFVRRE   84 (121)
+T ss_dssp             SCTTEEEEEECCT
+T ss_pred             CCCCeEEEEEEcC
+Confidence            4478899999875
+
+
+No 12
+>3ULB_B Target of rapamycin complex 2; PH domain, membrane localization, MEMBRANE; 1.9A {Saccharomyces cerevisiae}
+Probab=34.92  E-value=1.4e+02  Score=20.89  Aligned_cols=13  Identities=15%  Similarity=0.255  Sum_probs=10.4  Template_Neff=7.100
+
+Q ss_pred             hCCCeEEEEEEcC
+Q tr|D6RB62|D6RB   77 SNGGQFTIVFFKD   89 (98)
+Q Consensus        77 snggqftivffkd   89 (98)
+                      ...+.|+||+..+
+T Consensus        72 k~~~~Fki~~~~~   84 (121)
+T 3ULB_B           72 RVPEHFKIFVRRE   84 (121)
+T ss_dssp             SCTTEEEEEECCS
+T ss_pred             CCCCeEEEEEEcC
+Confidence            4478899999875
+
+
+No 13
+>7AOI_XJ bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=33.61  E-value=1.1e+02  Score=21.71  Aligned_cols=23  Identities=13%  Similarity=0.173  Sum_probs=17.3  Template_Neff=7.500
+
+Q ss_pred             hhcecEEEEeCCEEEEEEEEeee
+Q tr|D6RB62|D6RB   33 FVESNFFVIDGDSLLVTCLGVKS   55 (98)
+Q Consensus        33 fvesnffvidgdsllvtclgvks   55 (98)
+                      ..+++-.++|..+.+.|++..+.
+T Consensus       102 ~~~~~WvllD~g~ivVHift~e~  124 (150)
+T 7AOI_XJ         102 QVDHTWEVVPVGRIIVNLMQESL  124 (150)
+T ss_pred             ccCCCEEEEecCCeEEEecCHHH
+Confidence            34456888888888888887654
+
+
+No 14
+>3MJG_X Platelet-derived growth factor subunit B; protein-protein complex, growth factor-receptor complex; HET: NAG, NDG; 2.3A {Homo sapiens}
+Probab=31.22  E-value=1e+02  Score=19.05  Aligned_cols=23  Identities=17%  Similarity=0.546  Sum_probs=17.9  Template_Neff=13.100
+
+Q ss_pred             ecEEEEeCCEEEEEEEEeeeecc
+Q tr|D6RB62|D6RB   36 SNFFVIDGDSLLVTCLGVKSFKW   58 (98)
+Q Consensus        36 snffvidgdsllvtclgvksfkw   58 (98)
+                      .++.+..|+++...|-..+.+.|
+T Consensus         8 ~~~~v~~g~~v~l~C~~~~~~~W   30 (289)
+T 3MJG_X            8 PELVLNVSSTFVLTCSGSAPVVW   30 (289)
+T ss_dssp             SEEECCTTCCEEEEEEESSCCEE
+T ss_pred             CeEEEcCCCeEEEEEEeCCCeEE
+Confidence            45667789999999987777666
+
+
+No 15
+>5W82_B Protein delta; pentameric alpha and beta barrel; 1.8A {Orsay virus}
+Probab=26.91  E-value=2.2e+02  Score=21.96  Aligned_cols=16  Identities=31%  Similarity=0.445  Sum_probs=9.4  Template_Neff=1.800
+
+Q ss_pred             CCCchhHHHHHHHHHH
+Q tr|D6RB62|D6RB    1 MGSKDHAVFFREMTQL   16 (98)
+Q Consensus         1 mgskdhavffremtql   16 (98)
+                      |.|.|.|.+|...|-.
+T Consensus         3 ~PsedYa~WyaRAtiA   18 (103)
+T 5W82_B            3 MPSEDYAIWYARATIA   18 (103)
+T ss_dssp             CCCHHHHHHHHHHHHH
+T ss_pred             CChhHHHHHHHHHHHH
+Confidence            3566777776554433
+
+
+No 16
+>5JIE_D Protein delta; Delta protein, Orsay virus, C.; 2.1374A {Orsay virus}
+Probab=26.75  E-value=2.5e+02  Score=20.28  Aligned_cols=13  Identities=31%  Similarity=0.516  Sum_probs=4.2  Template_Neff=1.900
+
+Q ss_pred             CCchhHHHHHHHH
+Q tr|D6RB62|D6RB    2 GSKDHAVFFREMT   14 (98)
+Q Consensus         2 gskdhavffremt   14 (98)
+                      .|.|.+.+|...|
+T Consensus         2 PsedYa~WyaRAt   14 (66)
+T 5JIE_D            2 PSEDYAIWYARAT   14 (66)
+T ss_dssp             -----CHHHHHHH
+T ss_pred             ChhHHHHHHHHHH
+Confidence            4556666554443
+
+
+No 17
+>5JIE_E Protein delta; Delta protein, Orsay virus, C.; 2.1374A {Orsay virus}
+Probab=26.75  E-value=2.5e+02  Score=20.28  Aligned_cols=13  Identities=31%  Similarity=0.516  Sum_probs=3.3  Template_Neff=1.900
+
+Q ss_pred             CCchhHHHHHHHH
+Q tr|D6RB62|D6RB    2 GSKDHAVFFREMT   14 (98)
+Q Consensus         2 gskdhavffremt   14 (98)
+                      .|.|.+.+|...|
+T Consensus         2 PsedYa~WyaRAt   14 (66)
+T 5JIE_E            2 PSEDYAIWYARAT   14 (66)
+T ss_dssp             ------CHHHHHH
+T ss_pred             ChhHHHHHHHHHH
+Confidence            4555555554433
+
+
+No 18
+>2DMW_A LONGIN domain, beta(2)-alpha-beta(3)-alpha(2), Structural Genomics; NMR {Homo sapiens}
+Probab=25.06  E-value=2.7e+02  Score=17.24  Aligned_cols=12  Identities=42%  Similarity=0.667  Sum_probs=7.6  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHhC
+Q tr|D6RB62|D6RB   10 FREMTQLILNEM   21 (98)
+Q Consensus        10 fremtqlilnem   21 (98)
+                      |.++++.++...
+T Consensus        32 ~~~~~~~~l~~~   43 (131)
+T 2DMW_A           32 FLEVTEQILAKI   43 (131)
+T ss_dssp             CHHHHHHHHTTS
+T ss_pred             HHHHHHHHHhcC
+Confidence            466677666654
+
+
+No 19
+>2GX5_C GTP-sensing transcriptional pleiotropic repressor codY; CodY, DNA-binding, Nucleotide-binding, Repressor, Transcription; HET: PG4, PGE, PCG, GOL, SO4, P6G; 1.74A {Bacillus subtilis}
+Probab=24.32  E-value=2e+02  Score=18.60  Aligned_cols=26  Identities=27%  Similarity=0.473  Sum_probs=19.1  Template_Neff=10.300
+
+Q ss_pred             CchhhhhhhhcecEEEEeCCEEEEEE
+Q tr|D6RB62|D6RB   25 GYSSILNDFVESNFFVIDGDSLLVTC   50 (98)
+Q Consensus        25 gyssilndfvesnffvidgdsllvtc   50 (98)
+                      ..++.+++.-|..+.++|-+-=+...
+T Consensus        36 ~i~~~l~~~l~~~v~i~d~~~~~la~   61 (170)
+T 2GX5_C           36 EMAETLRDVIDSNIFVVSRRGKLLGY   61 (170)
+T ss_dssp             HHHHHHCCCCCSEEEEEETTSBEEEE
+T ss_pred             HHHHHHHHHhCCCEEEECCCCcEEEE
+Confidence            35677788888899999987555443
+
+
+No 20
+>1BYR_A PROTEIN (ENDONUCLEASE); ENDONUCLEASE, PHOSPHODIESTERASE; 2.0A {Salmonella typhimurium} SCOP: d.136.1.1
+Probab=24.25  E-value=2.1e+02  Score=15.97  Aligned_cols=9  Identities=11%  Similarity=0.438  Sum_probs=5.0  Template_Neff=12.800
+
+Q ss_pred             cEEEEeCCE
+Q tr|D6RB62|D6RB   37 NFFVIDGDS   45 (98)
+Q Consensus        37 nffvidgds   45 (98)
+                      .++++|+..
+T Consensus        96 k~~i~d~~~  104 (155)
+T 1BYR_A           96 KVIIVDNVT  104 (155)
+T ss_dssp             CEEEETTTE
+T ss_pred             eEEEECCcE
+Confidence            456666544
+
+
+No 21
+>1BYS_A PROTEIN (ENDONUCLEASE); ENDONUCLEASE, PHOSPHODIESTERASE; 2.0A {Salmonella typhimurium} SCOP: d.136.1.1
+Probab=24.25  E-value=2.1e+02  Score=15.97  Aligned_cols=9  Identities=11%  Similarity=0.438  Sum_probs=5.0  Template_Neff=12.800
+
+Q ss_pred             cEEEEeCCE
+Q tr|D6RB62|D6RB   37 NFFVIDGDS   45 (98)
+Q Consensus        37 nffvidgds   45 (98)
+                      .++++|+..
+T Consensus        96 k~~i~d~~~  104 (155)
+T 1BYS_A           96 KVIIVDNVT  104 (155)
+T ss_dssp             CEEEETTTE
+T ss_pred             eEEEECCcE
+Confidence            456666544
+
+
+No 22
+>6P22_D Tail fiber protein; PVC, Photorhabdus laumondii, membrane piercing; HET: STE, PLM, ELA; 2.291A {Enterobacteria phage T4}
+Probab=22.85  E-value=1.6e+02  Score=21.78  Aligned_cols=12  Identities=58%  Similarity=0.880  Sum_probs=5.9  Template_Neff=6.000
+
+Q ss_pred             EEEEeCCEEEEE
+Q tr|D6RB62|D6RB   38 FFVIDGDSLLVT   49 (98)
+Q Consensus        38 ffvidgdsllvt   49 (98)
+                      ..++|||.+...
+T Consensus         4 ~iv~~GD~v~f~   15 (138)
+T 6P22_D            4 QLVIDGDNLLFE   15 (138)
+T ss_dssp             BBCBTTCEEEEC
+T ss_pred             eeEEeCCEEEEe
+Confidence            345555555443
+
+
+No 23
+>2NUP_C Protein transport protein Sec23A, Protein; Human COPII Sec23-24 complexed with; 2.8A {Homo sapiens}
+Probab=21.48  E-value=3.7e+02  Score=16.94  Aligned_cols=14  Identities=0%  Similarity=0.285  Sum_probs=9.3  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHhCc
+Q tr|D6RB62|D6RB    9 FFREMTQLILNEMP   22 (98)
+Q Consensus         9 ffremtqlilnemp   22 (98)
+                      -|.+.++.++....
+T Consensus        33 ~~~~~~~~~l~~~~   46 (196)
+T 2NUP_C           33 QYQSQAKQLFRKLN   46 (196)
+T ss_dssp             HHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHhc
+Confidence            46677777777653
+
+
+No 24
+>2NUT_C Protein transport protein Sec23A, Protein; Human COPII Sec23-24 complexed with; 2.3A {Homo sapiens}
+Probab=21.48  E-value=3.7e+02  Score=16.94  Aligned_cols=14  Identities=0%  Similarity=0.285  Sum_probs=9.4  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHhCc
+Q tr|D6RB62|D6RB    9 FFREMTQLILNEMP   22 (98)
+Q Consensus         9 ffremtqlilnemp   22 (98)
+                      -|.+.++.++....
+T Consensus        33 ~~~~~~~~~l~~~~   46 (196)
+T 2NUT_C           33 QYQSQAKQLFRKLN   46 (196)
+T ss_dssp             HHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHhc
+Confidence            46677777777654
+
+

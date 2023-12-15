@@ -1,0 +1,164 @@
+Query         tr|E9PPD8|E9PPD8_HUMAN
+Match_columns 66
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:11:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1874.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6FRK_r Ribosomal protein eL28,  43.7 1.5E+02  0.0017   20.4   4.6   26    5-33    563-589 (605)
+  2 7OBR_z SRP SRP receptor, co-tr  31.1      94   0.001   22.4   2.2   17    5-21    563-580 (671)
+  3 1RB8_J Capsid protein/Major sp  17.9 1.4E+02  0.0016   18.3   1.0   11    2-12     11-21  (37)
+  4 2BPA_3 PHIX174/DNA COMPLEX; PR  17.9 1.4E+02  0.0016   18.3   1.0   11    2-12     11-21  (37)
+  5 4JPH_B Gremlin-2; Cystine knot  17.5 1.7E+02  0.0018   18.8   1.3   18    3-20      9-27  (148)
+  6 5HK5_F Gremlin-2, Growth/diffe  17.2 1.7E+02  0.0019   18.7   1.3   18    3-20      8-26  (147)
+  7 4NWY_A Protein disulfide-isome  16.0 2.9E+02  0.0032   14.1   1.7   14    6-19    120-133 (134)
+  8 4NWY_C Protein disulfide-isome  16.0 2.9E+02  0.0032   14.1   1.7   13    7-19    121-133 (134)
+  9 2DJK_A thioredoxin fold, ISOME  14.4 2.9E+02  0.0032   14.1   1.5   15    5-19    118-132 (133)
+ 10 3W57_B C2 domain protein; C2 d  12.2 3.1E+02  0.0033   13.3   1.1   12   49-60      1-12  (131)
+
+No 1
+>6FRK_r Ribosomal protein eL28, Ribosomal protein; ER membrane targeting ribosome Signal; HET: GTP, GNP, MG; 3.7A {Canis lupus familiaris}
+Probab=43.66  E-value=1.5e+02  Score=20.40  Aligned_cols=26  Identities=31%  Similarity=0.637  Sum_probs=16.5  Template_Neff=12.000
+
+Q ss_pred             CCCCCCC-CCCCCCCCCCCCCCCCcccCCC
+Q tr|E9PPD8|E9PP    5 PHPYDGN-SSDPENWDRKLHSRPRKLYKHS   33 (66)
+Q Consensus         5 phpydgn-ssdpenwdrklhsrprklykhs   33 (66)
+                      |-.||.+ ..|||-|=.|   +-|.-||..
+T Consensus       563 pk~~d~~~~pdperWlp~---~~Rs~~k~~  589 (605)
+T 6FRK_r          563 PKNYDPKVTPDPERWLPM---RXXXXXXXX  589 (605)
+T ss_pred             CCCCCCCCCCChhhcCCC---CCCCCCCCC
+Confidence            4556644 6889988655   555666643
+
+
+No 2
+>7OBR_z SRP SRP receptor, co-translational protein; HET: MG, GDP; 2.8A {Canis lupus familiaris}
+Probab=31.06  E-value=94  Score=22.39  Aligned_cols=17  Identities=41%  Similarity=0.882  Sum_probs=11.7  Template_Neff=11.300
+
+Q ss_pred             CCCCCCC-CCCCCCCCCC
+Q tr|E9PPD8|E9PP    5 PHPYDGN-SSDPENWDRK   21 (66)
+Q Consensus         5 phpydgn-ssdpenwdrk   21 (66)
+                      |-.||.| ..|||-|=.|
+T Consensus       563 pk~~~p~~~pdperwlp~  580 (671)
+T 7OBR_z          563 PKNYDPKVTPDPERWLPM  580 (671)
+T ss_pred             CCCCCCCCCCChhhcccH
+Confidence            4557754 5799999655
+
+
+No 3
+>1RB8_J Capsid protein/Major spike protein/Small core; bacteriophage alpha3, bacteriophage phiX174, bacteriophage; HET: DC; 3.5A {Enterobacteria phage alpha3}
+Probab=17.89  E-value=1.4e+02  Score=18.31  Aligned_cols=11  Identities=45%  Similarity=1.057  Sum_probs=8.3  Template_Neff=1.100
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|E9PPD8|E9PP    2 AGRPHPYDGNS   12 (66)
+Q Consensus         2 agrphpydgns   12 (66)
+                      .|||||+.|..
+T Consensus        11 pgrp~p~rgtk   21 (37)
+T 1RB8_J           11 PGRPQPLRGTK   21 (37)
+T ss_pred             CCCCCCCCCCC
+Confidence            47899987754
+
+
+No 4
+>2BPA_3 PHIX174/DNA COMPLEX; PROTEIN-DNA COMPLEX, SINGLE STRAND, Icosahedral; 3.0A {Enterobacteria phage phiX174}
+Probab=17.89  E-value=1.4e+02  Score=18.31  Aligned_cols=11  Identities=45%  Similarity=1.057  Sum_probs=8.3  Template_Neff=1.100
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|E9PPD8|E9PP    2 AGRPHPYDGNS   12 (66)
+Q Consensus         2 agrphpydgns   12 (66)
+                      .|||||+.|..
+T Consensus        11 pgrp~p~rgtk   21 (37)
+T 2BPA_3           11 PGRPQPLRGTK   21 (37)
+T ss_pred             CCCCCCCCCCC
+Confidence            47899987754
+
+
+No 5
+>4JPH_B Gremlin-2; Cystine knot, DAN domain, CAN; HET: GOL, CIT, GSH; 2.25A {Mus musculus}
+Probab=17.48  E-value=1.7e+02  Score=18.78  Aligned_cols=18  Identities=39%  Similarity=0.888  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCC-CCCCCCC
+Q tr|E9PPD8|E9PP    3 GRPHPYDGNSS-DPENWDR   20 (66)
+Q Consensus         3 grphpydgnss-dpenwdr   20 (66)
+                      .+|-||+.-++ |-|-|--
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~   27 (148)
+T 4JPH_B            9 AIPSPYKDGSSNNSERWHH   27 (148)
+T ss_dssp             -------------------
+T ss_pred             CCCCCCCCCCCCcchhhHH
+Confidence            36889988888 8888743
+
+
+No 6
+>5HK5_F Gremlin-2, Growth/differentiation factor 5; DAN-family, Bone Morphogenetic Proteins, CYTOKINE; 2.9A {Mus musculus}
+Probab=17.17  E-value=1.7e+02  Score=18.70  Aligned_cols=18  Identities=39%  Similarity=0.888  Sum_probs=13.7  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCC-CCCCCCC
+Q tr|E9PPD8|E9PP    3 GRPHPYDGNSS-DPENWDR   20 (66)
+Q Consensus         3 grphpydgnss-dpenwdr   20 (66)
+                      .+|-||+.-++ |-|-|--
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~   26 (147)
+T 5HK5_F            8 AIPSPYKDGSSNNSERWHH   26 (147)
+T ss_pred             CCCCCCCCCCCCCchhhHH
+Confidence            36889988888 8888743
+
+
+No 7
+>4NWY_A Protein disulfide-isomerase-like protein of the; thioredoxin-like fold, substrate-binding domain, endoplasmic; HET: FMT; 2.0A {Homo sapiens}
+Probab=15.98  E-value=2.9e+02  Score=14.05  Aligned_cols=14  Identities=21%  Similarity=0.525  Sum_probs=6.1  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E9PPD8|E9PP    6 HPYDGNSSDPENWD   19 (66)
+Q Consensus         6 hpydgnssdpenwd   19 (66)
+                      .++.....-|++||
+T Consensus       120 ~~~~~s~~~p~~~~  133 (134)
+T 4NWY_A          120 TKHQSSEEIPKYWD  133 (134)
+T ss_dssp             CCCTTSSCCCCCC-
+T ss_pred             CCccccCCCCCccC
+Confidence            34444444555554
+
+
+No 8
+>4NWY_C Protein disulfide-isomerase-like protein of the; thioredoxin-like fold, substrate-binding domain, endoplasmic; HET: FMT; 2.0A {Homo sapiens}
+Probab=15.98  E-value=2.9e+02  Score=14.05  Aligned_cols=13  Identities=23%  Similarity=0.573  Sum_probs=3.1  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|E9PPD8|E9PP    7 PYDGNSSDPENWD   19 (66)
+Q Consensus         7 pydgnssdpenwd   19 (66)
+                      ++.....-|++||
+T Consensus       121 ~~~~s~~~p~~~~  133 (134)
+T 4NWY_C          121 KHQSSEEIPKYWD  133 (134)
+T ss_dssp             CCC------CGGG
+T ss_pred             CccccCCCCCccC
+Confidence            3333334455554
+
+
+No 9
+>2DJK_A thioredoxin fold, ISOMERASE; NMR {Humicola insolens} SCOP: c.47.1.2
+Probab=14.37  E-value=2.9e+02  Score=14.10  Aligned_cols=15  Identities=20%  Similarity=0.187  Sum_probs=7.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|E9PPD8|E9PP    5 PHPYDGNSSDPENWD   19 (66)
+Q Consensus         5 phpydgnssdpenwd   19 (66)
+                      ..++.....-|++||
+T Consensus       118 ~~~~~~~~~~p~~~~  132 (133)
+T 2DJK_A          118 IEPSIKSEPIPEKQE  132 (133)
+T ss_dssp             CCCSSCCCCCCTTSC
+T ss_pred             ccCccccCCCCCCCC
+Confidence            334444444555554
+
+
+No 10
+>3W57_B C2 domain protein; C2 domain, LIPID BINDING PROTEIN; 1.662A {Scophthalmus maximus}
+Probab=12.16  E-value=3.1e+02  Score=13.32  Aligned_cols=12  Identities=25%  Similarity=0.119  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|E9PPD8|E9PP   49 MSLHGASGGHER   60 (66)
+Q Consensus        49 mslhgasggher   60 (66)
+                      |++.|+++.+++
+T Consensus         1 ~~~~~~~~~~~~   12 (131)
+T 3W57_B            1 MRGSHHHHHHEN   12 (131)
+T ss_dssp             ------------
+T ss_pred             CCCCcccccccc
+
+

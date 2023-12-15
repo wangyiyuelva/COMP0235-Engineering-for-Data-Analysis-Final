@@ -1,0 +1,169 @@
+Query         tr|H0YD30|H0YD30_HUMAN
+Match_columns 105
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:17:26 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0022.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YAX_C scFv1 antibody, Large e  44.4      52 0.00056   21.2   2.4   22    2-23     19-40  (60)
+  2 6H21_A Probable ss-1,3-N-acety  22.5 4.4E+02  0.0047   18.1   6.0   54   12-65      5-60  (345)
+  3 6H4F_F Probable ss-1,3-N-acety  22.5 4.4E+02  0.0047   18.1   6.0   54   12-65      5-60  (345)
+  4 6H4M_H Probable ss-1,3-N-acety  22.5 4.4E+02  0.0047   18.1   6.0   54   12-65      5-60  (345)
+  5 3KKQ_A Ras-related protein M-R  21.5 2.8E+02  0.0031   15.6   3.0   30   21-50     11-42  (183)
+  6 2KJ1_B BM2 protein; BM2, influ  20.8      19  0.0002   27.0  -2.7   26   62-87     49-74  (89)
+  7 2G17_A N-acetyl-gamma-glutamyl  18.1 4.2E+02  0.0045   19.9   3.5   34   55-88    301-336 (337)
+  8 3BCV_B Putative glycosyltransf  17.3 4.6E+02   0.005   16.4   4.4   38   27-64      5-42  (240)
+  9 3DR3_A N-acetyl-gamma-glutamyl  16.1 4.9E+02  0.0053   19.7   3.6   34   55-88    301-336 (337)
+ 10 2Z87_A Chondroitin synthase (E  15.1 9.4E+02    0.01   18.9   6.5   41   26-66     91-132 (624)
+
+No 1
+>5YAX_C scFv1 antibody, Large envelope protein; HBV, NTCP, preS1, antibody, Fc; 2.5A {Homo sapiens}
+Probab=44.42  E-value=52  Score=21.19  Aligned_cols=22  Identities=32%  Similarity=0.578  Sum_probs=18.7  Template_Neff=6.200
+
+Q ss_pred             CCCCCeeCCCCCCCCCCCCCCC
+Q tr|H0YD30|H0YD    2 VPQPAVILPGPPVDPDSQADTV   23 (105)
+Q Consensus         2 vpqpavilpgppvdpdsqadtv   23 (105)
+                      ||+|-.++|..++||.-++..-
+T Consensus        19 vpnp~Gffp~h~ldpa~~a~s~   40 (60)
+T 5YAX_C           19 VPNPLGFFPDHQLDPAFGANSN   40 (60)
+T ss_pred             CCCCCCcCCCccCCcCcCCcCC
+Confidence            7899999999999998777643
+
+
+No 2
+>6H21_A Probable ss-1,3-N-acetylglucosaminyltransferase; Staphylococcus aureus, wall teichoic acid; HET: CL, GOL, UD1; 1.8A {Staphylococcus aureus subsp. aureus N315}
+Probab=22.47  E-value=4.4e+02  Score=18.14  Aligned_cols=54  Identities=13%  Similarity=0.188  Sum_probs=22.5  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCceEEEEeccCHHHHHHHHHhccCCCcc--eEEEEEeCCC
+Q tr|H0YD30|H0YD   12 PPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRR--RFNFFVLENN   65 (105)
+Q Consensus        12 ppvdpdsqadtvhsnpeldvlllgsvdgrhllrtlsrakfwprr--rfnffvlenn   65 (105)
+                      +..-+........+.|.+.+++...-....+.+++....--...  .+.++|..|+
+T Consensus         5 ~~~~~~~~~~~~~~~~~vsiii~~~~~~~~l~~~l~sl~~~~~~~~~~eiivvdd~   60 (345)
+T 6H21_A            5 HHHHHHGSLVPRGSMKKVSVIMPTFNNGEKLHRTISSVLNQTMKSTDYELIIIDDH   60 (345)
+T ss_dssp             --------------CCSEEEEEEESSCGGGHHHHHHHHHTCSSCGGGEEEEEEECC
+T ss_pred             CCccccCCCCCCCCCCcEEEEEEcCCChHHHHHHHHHHHhcCCCCCCcEEEEEECC
+Confidence            33334444445556677777777665555555555433222222  5667776554
+
+
+No 3
+>6H4F_F Probable ss-1,3-N-acetylglucosaminyltransferase; Staphylococcus aureus, wall teichoic acid; HET: FQ8, CL; 2.18A {Staphylococcus aureus (strain N315)}
+Probab=22.47  E-value=4.4e+02  Score=18.14  Aligned_cols=54  Identities=13%  Similarity=0.188  Sum_probs=23.5  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCceEEEEeccCHHHHHHHHHhccCCCcc--eEEEEEeCCC
+Q tr|H0YD30|H0YD   12 PPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRR--RFNFFVLENN   65 (105)
+Q Consensus        12 ppvdpdsqadtvhsnpeldvlllgsvdgrhllrtlsrakfwprr--rfnffvlenn   65 (105)
+                      +..-+........+.|.+.+++...-....+.+++....--...  .+.++|..|+
+T Consensus         5 ~~~~~~~~~~~~~~~~~vsiii~~~~~~~~l~~~l~sl~~~~~~~~~~eiivvdd~   60 (345)
+T 6H4F_F            5 HHHHHHGSLVPRGSMKKVSVIMPTFNNGEKLHRTISSVLNQTMKSTDYELIIIDDH   60 (345)
+T ss_dssp             -------------CCCSEEEEEEESSCGGGHHHHHHHHHSCSSCGGGEEEEEEECC
+T ss_pred             CCccccCCCCCCCCCCcEEEEEEcCCChHHHHHHHHHHHhcCCCCCCcEEEEEECC
+Confidence            33344444445556677777777665555555555443322222  5677776554
+
+
+No 4
+>6H4M_H Probable ss-1,3-N-acetylglucosaminyltransferase; Staphylococcus aureus, wall teichoic acid; HET: UD1, CL, UDP, MG, FQ8; 2.73A {Staphylococcus aureus (strain N315)}
+Probab=22.47  E-value=4.4e+02  Score=18.14  Aligned_cols=54  Identities=13%  Similarity=0.188  Sum_probs=23.1  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCceEEEEeccCHHHHHHHHHhccCCCcc--eEEEEEeCCC
+Q tr|H0YD30|H0YD   12 PPVDPDSQADTVHSNPELDVLLLGSVDGRHLLRTLSRAKFWPRR--RFNFFVLENN   65 (105)
+Q Consensus        12 ppvdpdsqadtvhsnpeldvlllgsvdgrhllrtlsrakfwprr--rfnffvlenn   65 (105)
+                      +..-+........+.|.+.+++...-....+.+++....--...  .+.++|..|+
+T Consensus         5 ~~~~~~~~~~~~~~~~~vsiii~~~~~~~~l~~~l~sl~~~~~~~~~~eiivvdd~   60 (345)
+T 6H4M_H            5 HHHHHHGSLVPRGSMKKVSVIMPTFNNGEKLHRTISSVLNQTMKSTDYELIIIDDH   60 (345)
+T ss_dssp             --------------CCSEEEEEEESSCGGGHHHHHHHHHSCSSCGGGEEEEEEECC
+T ss_pred             CCccccCCCCCCCCCCcEEEEEEcCCChHHHHHHHHHHHhcCCCCCCcEEEEEECC
+Confidence            33344444445556777777777665555555555443322222  5677776554
+
+
+No 5
+>3KKQ_A Ras-related protein M-Ras; GTP-binding, GTPase, SIGNALING PROTEIN; HET: GDP; 1.2A {Mus musculus}
+Probab=21.52  E-value=2.8e+02  Score=15.61  Aligned_cols=30  Identities=10%  Similarity=0.113  Sum_probs=18.7  Template_Neff=13.400
+
+Q ss_pred             CCCCCCCCceEEEEecc--CHHHHHHHHHhcc
+Q tr|H0YD30|H0YD   21 DTVHSNPELDVLLLGSV--DGRHLLRTLSRAK   50 (105)
+Q Consensus        21 dtvhsnpeldvlllgsv--dgrhllrtlsrak   50 (105)
+                      ..-.+...+.++++|..  .-..+++.+....
+T Consensus        11 ~~~~~~~~~~i~~~G~~~~GKs~l~~~l~~~~   42 (183)
+T 3KKQ_A           11 VPSENLPTYKLVVVGDGGVGKSALTIQFFQKI   42 (183)
+T ss_dssp             ---CCCCEEEEEEECSTTSSHHHHHHHHHHSC
+T ss_pred             CCcccCCceEEEEECCCCCCHHHHHHHHhcCC
+Confidence            33445667889999965  3556777776554
+
+
+No 6
+>2KJ1_B BM2 protein; BM2, influenza B, cytoplasmic domain; NMR {Influenza B virus}
+Probab=20.83  E-value=19  Score=26.97  Aligned_cols=26  Identities=42%  Similarity=0.641  Sum_probs=15.0  Template_Neff=1.100
+
+Q ss_pred             eCCCHHHHHHHHHHHHHHhcChHHcC
+Q tr|H0YD30|H0YD   62 LENNLEAVARHMLIFSLALEEPEKMG   87 (105)
+Q Consensus        62 lennleavarhmlifslaleepekmg   87 (105)
+                      |.+|.|-...|..|-.|..+|--|||
+T Consensus        49 ls~~mevl~dhiviegls~eeiikmg   74 (89)
+T 2KJ1_B           49 LSDNMEVLSDHIVIEGLSAEEIIKMG   74 (89)
+T ss_dssp             HHHHHHHHHHHCCCSSSCHHHHHHHH
+T ss_pred             HhhcchhhccceeEeCCCHHHHHHhc
+Confidence            44555555666655555556665664
+
+
+No 7
+>2G17_A N-acetyl-gamma-glutamyl-phosphate reductase (E.C.1.2.1.38); N-acetyl-gamma-glutamyl-phosphate reductase, Semialdehyde dehydrogenase, NAD; HET: SO4, MSE; 2.3A {Salmonella typhimurium} SCOP: d.81.1.1, c.2.1.3
+Probab=18.09  E-value=4.2e+02  Score=19.88  Aligned_cols=34  Identities=21%  Similarity=0.198  Sum_probs=26.4  Template_Neff=9.900
+
+Q ss_pred             ceEEEEEeCCCHH--HHHHHHHHHHHHhcChHHcCc
+Q tr|H0YD30|H0YD   55 RRFNFFVLENNLE--AVARHMLIFSLALEEPEKMGL   88 (105)
+Q Consensus        55 rrfnffvlennle--avarhmlifslaleepekmgl   88 (105)
+                      +++.+++.-+|+.  +...-..+..+.+..+|+.||
+T Consensus       301 ~~l~~~~~~Dnl~~Gaa~~av~~~~~~~~~~e~~gl  336 (337)
+T 2G17_A          301 EHLIVVATEDNLLKGAAAQAVQCANIRFGFAETQSL  336 (337)
+T ss_dssp             TEEEEEEEECTTCCCCCHHHHHHHHHHHTCCTTTTT
+T ss_pred             CEEEEEEEECccccCHHHHHHHHHHHHhCCCcccCC
+Confidence            5789998888887  444556677888888888886
+
+
+No 8
+>3BCV_B Putative glycosyltransferase protein; Glycosyltransferase, Protein Structure Initiative II; HET: MSE; 2.35A {Bacteroides fragilis}
+Probab=17.31  E-value=4.6e+02  Score=16.37  Aligned_cols=38  Identities=8%  Similarity=0.089  Sum_probs=16.0  Template_Neff=12.500
+
+Q ss_pred             CCceEEEEeccCHHHHHHHHHhccCCCcceEEEEEeCC
+Q tr|H0YD30|H0YD   27 PELDVLLLGSVDGRHLLRTLSRAKFWPRRRFNFFVLEN   64 (105)
+Q Consensus        27 peldvlllgsvdgrhllrtlsrakfwprrrfnffvlen   64 (105)
+                      |.+.|++...-....+.+++....-.....+.+.|.+|
+T Consensus         5 ~~isiii~~~~~~~~l~~~l~sl~~~~~~~~~iivv~~   42 (240)
+T 3BCV_B            5 PKVSVIVPIYNVEKYLDQCVQALLAQTLSDIEIILIDD   42 (240)
+T ss_dssp             CSEEEEEEESSCHHHHHHHHHHHHTCSSSCEEEEEEEC
+T ss_pred             CcEEEEEEecCcHHHHHHHHHHHHhCCCCCcEEEEEeC
+Confidence            44555555544444444444332222222344555543
+
+
+No 9
+>3DR3_A N-acetyl-gamma-glutamyl-phosphate reductase (E.C.1.2.1.38); CSGID target, argC, Shigella flexneri; HET: MLT; 2.0A {Shigella flexneri}
+Probab=16.12  E-value=4.9e+02  Score=19.68  Aligned_cols=34  Identities=21%  Similarity=0.218  Sum_probs=26.3  Template_Neff=9.700
+
+Q ss_pred             ceEEEEEeCCCHH--HHHHHHHHHHHHhcChHHcCc
+Q tr|H0YD30|H0YD   55 RRFNFFVLENNLE--AVARHMLIFSLALEEPEKMGL   88 (105)
+Q Consensus        55 rrfnffvlennle--avarhmlifslaleepekmgl   88 (105)
+                      .++.|++.-+|+.  +...-+.+..+.+.-+|+.||
+T Consensus       301 ~~l~~~~~~Dnl~~Gaa~~av~~~~~~~g~~~~~gl  336 (337)
+T 3DR3_A          301 EHLIIVATEDNLLKGAAAQAVQCANIRFGYAETQSL  336 (337)
+T ss_dssp             TEEEEEEEECTTCCCCCHHHHHHHHHHHTCCTTTTT
+T ss_pred             CEEEEEEEEcccccCHHHHHHHHHHHHhCCCcccCC
+Confidence            5789998888887  444566777888888888887
+
+
+No 10
+>2Z87_A Chondroitin synthase (E.C.2.4.1.175, 2.4.1.226); GT-A (glycosyltransferase A) fold, TRANSFERASE; HET: UDP, UD2; 3.0A {Escherichia coli}
+Probab=15.10  E-value=9.4e+02  Score=18.90  Aligned_cols=41  Identities=12%  Similarity=0.045  Sum_probs=30.5  Template_Neff=11.200
+
+Q ss_pred             CCCceEEEEeccCHHHHHHHHHhccCC-CcceEEEEEeCCCH
+Q tr|H0YD30|H0YD   26 NPELDVLLLGSVDGRHLLRTLSRAKFW-PRRRFNFFVLENNL   66 (105)
+Q Consensus        26 npeldvlllgsvdgrhllrtlsrakfw-prrrfnffvlennl   66 (105)
+                      .|.+.+++...-....+.+++....-. ....+.++|.++.-
+T Consensus        91 ~~~vsiiip~~n~~~~l~~~l~~l~~~~~~~~~~iivvdd~s  132 (624)
+T 2Z87_A           91 IDGLSIVIPTYNRAKILAITLACLCNQKTIYDYEVIVADDGS  132 (624)
+T ss_dssp             CCEEEEEEEESSCHHHHHHHHHTTTSCCCSSEEEEEEEEESC
+T ss_pred             CCceEEEEEeCCCHHHHHHHHHHHHcCCCCCCcEEEEEeCCC
+Confidence            467788888777788888888776655 56678888887653
+
+

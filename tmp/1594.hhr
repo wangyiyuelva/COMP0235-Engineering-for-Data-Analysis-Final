@@ -1,0 +1,925 @@
+Query         sp|P56746|CLD15_HUMAN
+Match_columns 228
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:50:54 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1594.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4P79_A cell adhesion protein;   99.9 3.8E-23 4.1E-28  142.7  16.8  190    2-191     6-195 (198)
+  2 7KP4_A Claudin-9, Heat-labile   99.9 1.1E-20 1.2E-25  133.0  16.0  188    1-189     2-191 (214)
+  3 7TDM_A Claudin, cell adhesion,  99.9 6.2E-20 6.8E-25  128.9  16.6  186    1-187     2-189 (209)
+  4 6OV2_A Claudin-9, Heat-labile   99.9 1.7E-19 1.8E-24  129.0  18.4  189    1-190     2-192 (217)
+  5 6AKE_C Claudin-3, Heat-labile   99.8 6.8E-19 7.4E-24  121.5  13.9  179    2-181     9-189 (190)
+  6 5B2G_C Endolysin,Claudin-4 (E.  99.8 8.3E-19   9E-24  130.1  14.3  188    1-189   171-360 (364)
+  7 3X29_A Claudin-19, Heat-labile  99.8 7.3E-18   8E-23  116.5  15.9  181    1-181     2-184 (185)
+  8 6AKF_C Claudin-3, Heat-labile   99.8   9E-18 9.8E-23  115.5  14.2  179    2-181     9-189 (190)
+  9 6JPA_E Voltage-dependent L-typ  99.7 4.5E-14 4.8E-19   97.8  16.5  180    2-190     5-210 (222)
+ 10 7JPL_E BH1501 protein; rCav1.1  99.7 4.5E-14 4.8E-19   97.8  16.5  182    1-191     4-211 (222)
+ 11 7RZ4_A AMPA receptor, ion chan  99.6   1E-14 1.1E-19  122.2  13.8  178    5-190   828-1026(1038)
+ 12 7RZ5_A AMPA receptor, ion chan  99.6   1E-14 1.1E-19  122.2  13.8  178    5-190   828-1026(1038)
+ 13 7OCE_J Glutamate receptor 1, G  99.6 8.3E-14   9E-19  121.3  14.9  174    3-184    17-226 (422)
+ 14 7LEP_G Mix of AMPAR subunits (  99.5 8.8E-13 9.6E-18   91.4  12.8  176    5-188     2-213 (215)
+ 15 5VOU_F GluA2 AMPA receptor, Tr  99.5 2.7E-13 2.9E-18  107.6  11.3  183    2-189     6-207 (323)
+ 16 6NJM_F Glutamate receptor 3, G  99.5 2.7E-13 2.9E-18  107.6  11.3  172    2-181     6-199 (323)
+ 17 6C14_D Protocadherin-15, LHFPL  99.3 1.8E-10 1.9E-15   87.3  14.7  172    3-187    30-211 (228)
+ 18 5WEN_A Ion channel, TRANSPORT   97.3  0.0015 1.6E-08   57.8   6.8  139   43-185   909-1052(1057)
+ 19 6VJA_D B-lymphocyte antigen CD  94.7     3.2 3.5E-05   34.0  14.7   13  122-134    81-93  (278)
+ 20 7RZ9_A AMPA receptor, ion chan  90.8     1.1 1.2E-05   42.3   5.6  138   43-182   909-1049(1154)
+ 21 5AEZ_A MEP2; MEMBRANE PROTEIN,  54.1 2.5E+02  0.0027   26.7   9.1    8   93-100   290-297 (486)
+ 22 7P54_B Membrane protein, lipid  38.9      61 0.00066   30.5   2.9    8  180-187    68-75  (541)
+ 23 3JAF_B zebra fish alpha1 glyci  27.1 4.7E+02  0.0051   20.2   6.7   10   82-91    247-256 (342)
+ 24 5SV0_A Biopolymer transport pr  27.0 5.5E+02  0.0059   20.9   8.1   25   76-100   131-155 (244)
+ 25 5SV0_E Biopolymer transport pr  27.0 5.5E+02  0.0059   20.9   8.1   26   76-101   131-156 (244)
+ 26 6DW0_A Gamma-aminobutyric acid  26.9 5.6E+02  0.0061   21.0   9.7   19   78-96    280-298 (402)
+ 27 2WW9_B SEC SIXTY-ONE PROTEIN H  25.9 2.9E+02  0.0031   21.2   4.2   28   73-100    46-73  (80)
+ 28 6N3Q_C Protein transport prote  25.9 2.9E+02  0.0031   21.2   4.2   25   75-99     48-72  (80)
+ 29 5MM2_A capsid protein VP4C, ca  22.7 1.2E+02  0.0013   30.9   2.2   17  204-220   223-239 (416)
+ 30 3MK7_M Cytochrome c oxidase, c  22.1 7.1E+02  0.0077   20.4   6.4    7  158-164    55-61  (311)
+ 31 5JRW_E Cobalt/magnesium transp  21.1 8.2E+02  0.0089   20.8   6.5   25   77-101   312-336 (373)
+ 32 6WVG_A Green fluorescent prote  20.3   1E+03   0.011   21.6   7.2   15  166-180   332-346 (457)
+ 33 6WVG_B Green fluorescent prote  20.3   1E+03   0.011   21.6   7.2   12  167-178   333-344 (457)
+
+No 1
+>4P79_A cell adhesion protein; cell adhesion, tight junction, membrane; HET: OLC, MSE; 2.4A {Mus musculus}
+Probab=99.92  E-value=3.8e-23  Score=142.67  Aligned_cols=190  Identities=79%  Similarity=1.376  Sum_probs=158.0  Template_Neff=11.300
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCCCccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHHHH
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHGNVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACRAL   81 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhgnvittntifenlwfscatdslgvyncwefpsmlalsgyiqacral   81 (228)
+                      ++.++.+++++.++++++.++++.+|+|.+.+.+++...+...+.|||+.|...+.+...|.........+++++..|++
+T Consensus         6 ~~~~~~~~~~~~~~~~~l~~~a~~~~~W~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~~~   85 (198)
+T 4P79_A            6 SVAVETFGFFMSALGLLMLGLTLSNSYWRVSTVHGNVITTNTIFENLWYSCATDSLGVSNCWDFPSMLALSGYVQGCRAL   85 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTCSCSEEEC--------CEEEECSSEEEEECTTSCEEEEECCHHHHHHSSHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhCcccccccCCCCccccceeEcccchhhhccCCCccccccchhHhhccHHHHHHHHH
+Confidence            45678899999999999999999999999998665444456889999999999877778999988877778999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCCCCCCCcchh
+Q sp|P56746|CLD1   82 MITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYPGTKYELGPA  161 (228)
+Q Consensus        82 mitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplypgtkyelgpa  161 (228)
+                      +++++++.++++++.++.+++.++..++.+.+.......+++.++++++.++++.+|.....++..++..+..+.++||+
+T Consensus        86 ~~~s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~s  165 (198)
+T 4P79_A           86 MITAILLGFLGLFLGMVGLRATNVGNMDLSKKAKLLAIAGTLHILAGACGMVAISWYAVNITTDFFNPLYAGTKYELGPA  165 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSSSCCSSCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSSCCSCCEEECHH
+T ss_pred             HHHHHHHHHHHHHHHHhchhccccCCCChhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCcCCCCceeechh
+Confidence            99999999999999999997776644334567788888999999999999999999999998888776555567899999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhhhhcCCCCCCC
+Q sp|P56746|CLD1  162 LYLGWSASLISILGGLCLCSACCCGSDEDP  191 (228)
+Q Consensus       162 lylgwsaslisilgglclcsacccgsdedp  191 (228)
+                      |+++|++.++.++++++.++..++++++++
+T Consensus       166 ~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~  195 (198)
+T 4P79_A          166 LYLGWSASLLSILGGICVFSTAAASSKEEP  195 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTC-----
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhhhcCCCCC
+Confidence            999999999999999999998888775544
+
+
+No 2
+>7KP4_A Claudin-9, Heat-labile enterotoxin B chain; Claudin, Enterotoxin, Tight junction protein; 3.37A {Homo sapiens}
+Probab=99.88  E-value=1.1e-20  Score=133.00  Aligned_cols=188  Identities=40%  Similarity=0.742  Sum_probs=155.1  Template_Neff=11.100
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHH
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACR   79 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacr   79 (228)
+                      |++.+++++++++++++++.++++.+|+|.+.+..+ +..++...+.|||+.|..+..+..+|...+.....++++...|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~l~~~~~~~~~W~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~   81 (214)
+T 7KP4_A            2 ASMGLQVMGIALAVLGWLAVMLCCALPMWRVTAFIGSNIVTSQTIWEGLWMNCVVQSTGQMQCKVYDSLLALPQDLQAAR   81 (214)
+T ss_dssp             ---CCCHHHHHHHHHHHHHHHHHHHSCCSEEEECCSSCCSSCCEEEECSSEEEEECSSSCCEEEESTTTTCSCHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHhcccchhhcccCCcccCcceeEeeccccceecCCCceecccccchhcCCHHHHHHH
+Confidence            567889999999999999999999999999988665 4445678899999999988777788998887766788999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCc
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYEL  158 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyel  158 (228)
+                      +++++++++.++++++.++.+.+..+.. ++..+.......+++.++++++.++++.+|.....++...+..+ ....++
+T Consensus        82 ~~~~~s~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (214)
+T 7KP4_A           82 ALVIISIIVAALGVLLSVVGGKCTNCLE-DESAKAKTMIVAGVVFLLAGLMVIVPVSWTAHNIIQDFYNPLVASGQKREM  160 (214)
+T ss_dssp             HHHHHHHHHHHHHHHHHSTTCSSSCCCC-CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGTCTTSCTTCCEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhhhhhcCC-CHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHhhCcccCCCCcccc
+Confidence            9999999999999999999987665543 34466777888899999999999999999999888777665444 456799
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHhhhhhcCCCCC
+Q sp|P56746|CLD1  159 GPALYLGWSASLISILGGLCLCSACCCGSDE  189 (228)
+Q Consensus       159 gpalylgwsaslisilgglclcsacccgsde  189 (228)
+                      ||||+++|++.++.+++++++++..+.++++
+T Consensus       161 g~s~~l~~~~~~l~~~a~~~~~~~~~~~~~~  191 (214)
+T 7KP4_A          161 GASLYVGWAASGLLLLGGGLLCCNCPPRTDK  191 (214)
+T ss_dssp             CHHHHHHHHHHHHHHHHHTTTSSSCC-----
+T ss_pred             cchHHHHHHHHHHHHhchHHHHcCCCCCCCC
+Confidence            9999999999999999999988877666533
+
+
+No 3
+>7TDM_A Claudin, cell adhesion, enterotoxin, Fab;{Homo sapiens}
+Probab=99.87  E-value=6.2e-20  Score=128.87  Aligned_cols=186  Identities=40%  Similarity=0.739  Sum_probs=154.9  Template_Neff=11.100
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHH
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACR   79 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacr   79 (228)
+                      |++.++.++++++++++++.++++.+|+|...+..+ +.......+.|||+.|.....+..+|.......+.+++...+|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~   81 (209)
+T 7TDM_A            2 ASMGLQVMGIALAVLGWLAVMLCCALPMWRVTAFIGSNIVTSQTIWEGLWMNCVVQSTGQMQCKVYDSLLALPQDLQAAR   81 (209)
+T ss_dssp             ---CCHHHHHHHHHHHHHHHHHHHHCCCSEEEEECCSSSSCCEEEEECSSEEEESCSSSSCCEEECCSSCCCSHHHHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHHHHHHHhcchhhhhcccCCcccCceeEEeeccccceecCCCceecccccchhcCCHHHHHHH
+Confidence            478899999999999999999999999999988654 3445567899999999988777788998877666678999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCc
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYEL  158 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyel  158 (228)
+                      +++++++++.++++++.++.+++..+.. ++..+.......+++.++++++.++++.+|.....+++.....+ ....++
+T Consensus        82 ~~~~~s~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (209)
+T 7TDM_A           82 ALVIISIIVAALGVLLSVVGGKCTNCLE-DESAKAKTMIVAGVVFLLAGLMVIVPVSWTAHNIIQDFYNPLVASGQKREM  160 (209)
+T ss_dssp             HHHHHHHHHHHHHHHHTSSSCSSCCCCC-CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGTSCCSCSSCCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHhchhccccCC-CHhHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHhcCccccCCCceec
+Confidence            9999999999999999999887665544 34466777888899999999999999999999988877665544 467899
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|P56746|CLD1  159 GPALYLGWSASLISILGGLCLCSACCCGS  187 (228)
+Q Consensus       159 gpalylgwsaslisilgglclcsacccgs  187 (228)
+                      ||+|+++|++.++.+++++++++..++++
+T Consensus       161 g~s~~l~~~~~~l~~~~~i~~~~~~~~~~  189 (209)
+T 7TDM_A          161 GASLYVGWAASGLLLLGGGLLCCNCPPRT  189 (209)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHTTSCC---
+T ss_pred             cchHHHHHHHHHHHHhhHHHHHhcCCCCC
+Confidence            99999999999999999999888877654
+
+
+No 4
+>6OV2_A Claudin-9, Heat-labile enterotoxin B chain; Claudin, Enterotoxin, Tight junction protein; 3.2A {Homo sapiens}
+Probab=99.86  E-value=1.7e-19  Score=128.95  Aligned_cols=189  Identities=38%  Similarity=0.700  Sum_probs=151.8  Template_Neff=10.800
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHH
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACR   79 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacr   79 (228)
+                      |++.+..++.++.++++++.++++.+|+|.+.+..+ +.......+.|||+.|.....+...|.........+++++..|
+T Consensus         2 ~~~~l~~~~~~~~~~~~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~   81 (217)
+T 6OV2_A            2 ASTGLELLGMTLAVLGWLGTLVSCALPLWKVTAFIGNSIVVAQVVWEGLWMSCVVQSTGQMQCKVYDSLLALPQDLQAAR   81 (217)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHTSSCSEEEEECSTTCSSCEEEEECSSEEEEESSSSCCEEEESCSSCCCCHHHHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHHHHHHHhCccceehcccCCcccceeEEEEeccccceecCCCceecccchhhhcCCHHHHHHH
+Confidence            478899999999999999999999999999988654 3334567889999999987666778988876555678999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCc
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYEL  158 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyel  158 (228)
+                      +++++++++.+++++++++.+.|..+.. ++..+.......+++.++++++.++++.+|.....++......+ ..+.++
+T Consensus        82 ~~~~~s~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (217)
+T 6OV2_A           82 ALCVIALLLALLGLLVAITGAQCTTCVE-DEGAKARIVLTAGVILLLAGILVLIPVCWTAHAIIQDFYNPLVAEALKREL  160 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTSSTTSCSCC-CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHGGGGCTTSCSSCBCCB
+T ss_pred             HHHHHHHHHHHHHHHHHHHhhccccccC-CcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCccccccccccc
+Confidence            9999999999999999998876665543 23456677778899999999999999999999887776654433 456899
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHhhhhhcCCCCCC
+Q sp|P56746|CLD1  159 GPALYLGWSASLISILGGLCLCSACCCGSDED  190 (228)
+Q Consensus       159 gpalylgwsaslisilgglclcsacccgsded  190 (228)
+                      ||||+++|++.++.+++++++++..++++++.
+T Consensus       161 g~sf~l~~~~~~l~~~~~~l~~~~~~~~~~~~  192 (217)
+T 6OV2_A          161 GASLYLGWAAAALLMLGGGLLCCTCPPPQVER  192 (217)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHCCCC------
+T ss_pred             chhHHHHHHHHHHHHHhhHHHHccCCCccCCC
+Confidence            99999999999999999999888776655443
+
+
+No 5
+>6AKE_C Claudin-3, Heat-labile enterotoxin B chain; Cell adhesion, Tight junction, MEMBRANE; 3.6A {Mus musculus}
+Probab=99.83  E-value=6.8e-19  Score=121.50  Aligned_cols=179  Identities=40%  Similarity=0.709  Sum_probs=141.1  Template_Neff=11.200
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHHH
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACRA   80 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacra   80 (228)
+                      ++.++.++.++.++++++.++++.+|+|.+.+..+ +..+....+.|||+.|..++.+...|.........+++.+..|.
+T Consensus         9 ~~~~~~~~~~~~~~a~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~~   88 (190)
+T 6AKE_C            9 SMGLEITGTSLAVLGWLCTIVCCALPMWRVSAFIGSSIITAQITWEGLWMNCVVQSTGQMQCKMYDSLLALPQDLQAARA   88 (190)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHCSCSEEEEECSTTCSSCEEEEECSSCEEEEETTSCCCCBC-----CCCCCCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhchhcchhcccCCcccceeeeEeeccccceeccCCceeeecCcchhcCCHHHHHHHH
+Confidence            45678899999999999999999999999988654 34455678899999999887777889988776666788899999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCcc
+Q sp|P56746|CLD1   81 LMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYELG  159 (228)
+Q Consensus        81 lmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyelg  159 (228)
+                      ++++++++.+++++++++.+++..+.. +...+.......+.+.++++++.++++.+|.....++.+.+..+ ..+.++|
+T Consensus        89 ~~~~s~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g  167 (190)
+T 6AKE_C           89 LIVVSILLAAFGLLVALVGAQATNAVQ-DETAKAKITIVAGVLFLLAALLTLVPVSWSANTIIRDFYNPLVPEAQKREMG  167 (190)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHC-----------CTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTSCGGGCEEEC
+T ss_pred             HHHHHHHHHHHHHHHHHHhHhhccccC-CcchHHHHHHHHHHHHHHHHHHhHHHHHhcHHHHHHHhcCCCCChhhccccc
+Confidence            999999999999999999987665432 23456667778899999999999999999999887776555443 4567999
+
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1  160 PALYLGWSASLISILGGLCLCS  181 (228)
+Q Consensus       160 palylgwsaslisilgglclcs  181 (228)
+                      |+|+++|++.++.+++++++++
+T Consensus       168 ~sf~l~~~~~~l~~~a~~~~~~  189 (190)
+T 6AKE_C          168 AGLYVGWAAAALQLLGGALLAA  189 (190)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             chHHHHHHHHHHHHHHHHHHhc
+Confidence            9999999999999999998765
+
+
+No 6
+>5B2G_C Endolysin,Claudin-4 (E.C.3.2.1.17), Heat-labile enterotoxin B; Membrane protein, Complex, Cell-free protein; HET: MSE; 3.5A {Enterobacteria phage T4}
+Probab=99.82  E-value=8.3e-19  Score=130.09  Aligned_cols=188  Identities=39%  Similarity=0.723  Sum_probs=150.8  Template_Neff=11.600
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHH
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACR   79 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacr   79 (228)
+                      |++.+..++++++++++++.++++.+|+|......+ +.......+.|||+.|.....+...|.........++++..++
+T Consensus       171 ~~~~~~~~~~~l~~~~~~l~~~~~~~~~W~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~  250 (364)
+T 5B2G_C          171 ASMGLQVMGIALAVLGWLAVMLCCALPMWRVTAFIGSNIVTSQTIWEGLWMNCVVQSTGQMQCKVYDSLLALPQDLQAAR  250 (364)
+T ss_dssp             SSTTTHHHHHHHHHHHHHHHHHHHHSSCSEEEEECSTTCSSCEEEEECSSEEEEEESSSCCEEEECCSSCSCCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhhhcchhccCCCCccceeeEEecccccccccCCCceeeeeccchhcCCHHHHHHH
+Confidence            346778999999999999999999999999876544 3334557889999999887667778988777655678999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCc
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYEL  158 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyel  158 (228)
+                      +++++++++.++++++.++.++|..+.. ....+.......++++++++++.++++.+|......+......+ ....++
+T Consensus       251 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  329 (364)
+T 5B2G_C          251 ALVIISIIVAALGVLLSVVGGKCTNCLE-DESAKAKTMIVAGVVFLLAGLMVIVPVSWTAHNIIQDFYNPLVASGQKREM  329 (364)
+T ss_dssp             HHHHHHHHHHHHHHHTTSSCTTTTTCSS-STTSCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTSCTTCCCEE
+T ss_pred             HHHHHHHHHHHHHHHHHHhchhhhcccC-ChhhHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHhhcCCcCCCCCcccc
+Confidence            9999999999999999999987665543 33345667778899999999999999999999888776654443 567899
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHhhhhhcCCCCC
+Q sp|P56746|CLD1  159 GPALYLGWSASLISILGGLCLCSACCCGSDE  189 (228)
+Q Consensus       159 gpalylgwsaslisilgglclcsacccgsde  189 (228)
+                      ||||+++|++.++.+++++++++..++.+++
+T Consensus       330 g~sf~l~~~~~~~~~~~~~~~~~~~~~~~~~  360 (364)
+T 5B2G_C          330 GASLYVGWAASGLLLLGGGLLCCSGPSSGEN  360 (364)
+T ss_dssp             CTHHHHHHHHHHHHHHHHHHHHCC-------
+T ss_pred             chHHHHHHHHHHHHHhhhHHHHccCCCCCCc
+Confidence            9999999999999999999998887766543
+
+
+No 7
+>3X29_A Claudin-19, Heat-labile enterotoxin B chain; TOXIN-CELL ADHESION COMPLEX, TIGHT JUNCTION; 3.7A {Mus musculus}
+Probab=99.81  E-value=7.3e-18  Score=116.47  Aligned_cols=181  Identities=38%  Similarity=0.811  Sum_probs=142.6  Template_Neff=11.100
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHH
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACR   79 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacr   79 (228)
+                      |++.++.++.+++++++++.++++.+|+|.+.+..+ +...+...+.|||+.|.....+..+|.........+++.+..|
+T Consensus         2 ~~~~~~~~~~~~~~~a~~l~~~a~~~~~W~~~~~~~~~~~~~~~~~~Glw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~   81 (185)
+T 3X29_A            2 ANSGLQLLGYFLALGGWVGIIASTALPQWKQSSYAGDAIITAVGLYEGLWMSCASQSTGQVQCKLYDSLLALDGHIQSAR   81 (185)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHHHCSCSEEEEECSSSCSSCEEEEECSSEEEEC---CCCEEEECC------CCHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHhcchheeccCccCceeceeeeecccchHhhccCCCceecccchhHhcCCHHHHHHH
+Confidence            567889999999999999999999999999998665 3334557889999999887777778998887766788999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCc
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYEL  158 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyel  158 (228)
+                      +++++++++.+++++++++.+.+..+..++...+.......+++.++++++.++++.+|.....++...+..+ ..+.++
+T Consensus        82 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  161 (185)
+T 3X29_A           82 ALMVVAVLLGFVAMVLSVVGMKATRVGDSNPTAKSRVAISGGALFLLAGLCTLTAVSWYATLVTQEFFNPSTPVNARYEF  161 (185)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHC-------CTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTSCTTEEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhHhhhccCCCHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCCCCCcccCccc
+Confidence            9999999999999999999997766544234567778888899999999999999999999887776655443 457899
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1  159 GPALYLGWSASLISILGGLCLCS  181 (228)
+Q Consensus       159 gpalylgwsaslisilgglclcs  181 (228)
+                      ||||+++|++.++.+++++++++
+T Consensus       162 g~sf~l~~~~~~l~~~a~~~~~~  184 (185)
+T 3X29_A          162 GPALFVGWASAGLAMLGGSFLAA  184 (185)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHHHHhc
+Confidence            99999999999999999998875
+
+
+No 8
+>6AKF_C Claudin-3, Heat-labile enterotoxin B chain; Cell adhesion, Tight junction, MEMBRANE; 3.9A {Mus musculus}
+Probab=99.80  E-value=9e-18  Score=115.48  Aligned_cols=179  Identities=40%  Similarity=0.713  Sum_probs=145.9  Template_Neff=11.300
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-CccccCchhhcchhhhccCcCCCcccccCchHHHHhhHHHHHHH
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-NVITTNTIFENLWFSCATDSLGVYNCWEFPSMLALSGYIQACRA   80 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhg-nvittntifenlwfscatdslgvyncwefpsmlalsgyiqacra   80 (228)
+                      ++.+..++.++.++++++.++++.+|+|...+..+ +.++....+.|||+.|.....+..+|.........+++++..|+
+T Consensus         9 ~~~l~~~~~~~~~~~~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~Glw~~C~~~~~~~~~C~~~~~~~~~~~~~~~~~~   88 (190)
+T 6AKF_C            9 SMGLEITGTSLAVLGWLCTIVCCALPMWRVSAFIGSSIITAQITWEGLWMNCVVQSTGQMQCKMYDSLLALPQDLQAARA   88 (190)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHCCCSBCBBCCSTTSSSCEECCBCSSCBCCEEC--CCCCBCC------CCSSHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcccceeccccCCcccceeEeeeeccccceecCCCceecccccchhcCCHHHHHHHH
+Confidence            56788899999999999999999999999988655 34445678899999999876667789988876667889999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCCCC-CCCCCcc
+Q sp|P56746|CLD1   81 LMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPLYP-GTKYELG  159 (228)
+Q Consensus        81 lmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdplyp-gtkyelg  159 (228)
+                      +++++.++.+++.+++++.+++..... ....+.......++++++++++.++++.+|.....++.+.+..+ ..+.++|
+T Consensus        89 ~~~~s~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g  167 (190)
+T 6AKF_C           89 LIVVSILLAAFGLLVALVGAQATNAVQ-DETAKAKITIVAGVLFLLAALLTLVAVSWSANTIIRDFYNPLVPEAQKREMG  167 (190)
+T ss_dssp             HHTHHHHTTTHHHHHHHTTTTTTTTSS-SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSCSSCCBCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhccccC-ChhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCChhhccccC
+Confidence            999999999999999998887665543 34567777888899999999999999999999887776655444 4678999
+
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1  160 PALYLGWSASLISILGGLCLCS  181 (228)
+Q Consensus       160 palylgwsaslisilgglclcs  181 (228)
+                      |+|+++|++.++.+++++++++
+T Consensus       168 ~sf~l~~~~~~l~~~~~~~~~~  189 (190)
+T 6AKF_C          168 AGLYVGWAAAALQLLGGALLAA  189 (190)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             chHHHHHHHHHHHHHHHHHHHc
+Confidence            9999999999999999998764
+
+
+No 9
+>6JPA_E Voltage-dependent L-type calcium channel subunit; Membrane protein complex modulated by; HET: PC1, NAG, 3PE, BMA, 9Z9, 4YH; 2.6A {Oryctolagus cuniculus}
+Probab=99.66  E-value=4.5e-14  Score=97.82  Aligned_cols=180  Identities=17%  Similarity=0.252  Sum_probs=130.7  Template_Neff=11.700
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC--CccccCchhhcchhhhccCcC-------------CCcccccCc
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG--NVITTNTIFENLWFSCATDSL-------------GVYNCWEFP   66 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhg--nvittntifenlwfscatdsl-------------gvyncwefp   66 (228)
+                      ++.+..++++++++++++.++++.+|+|.+.+...  +.......+.|||+.|.....             +...|....
+T Consensus         5 ~~~~~~~~~~l~~~~~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~~~~~~~~~~~~~~C~~~~   84 (222)
+T 6JPA_E            5 EAPKVRVTLFCILVGIVLAMTAVVSDHWAVLSPHMENHNTTCEAAHFGLWRICTKRIALGEDRSCGPITLPGEKNCSYFR   84 (222)
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHhcccceEcCCCccCCCCcchhhhccceeeeceeecCCCCCccccccCCCCccceeee
+Confidence            56677789999999999999999999999887554  222346889999999987531             124565542
+
+
+Q ss_pred             hHHH-----------HhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   67 SMLA-----------LSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAI  135 (228)
+Q Consensus        67 smla-----------lsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvai  135 (228)
+                      ....           ...+....+.++++++++.++++++.+....         ..+.......+++.++++++.++++
+T Consensus        85 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~a~~~~~~~~  155 (222)
+T 6JPA_E           85 HFNPGESSEIFEFTTQKEYSISAAAISVFSLGFLIMGTICALMAFR---------KKRDYLLRPASMFYVFAGLCLFVSL  155 (222)
+T ss_pred             ecCCCcCCcccCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh---------CCchHhHHHHHHHHHHHHHHHHHHH
+Confidence            2110           1135566777888888888888777766432         2334455667888999999999999
+
+
+Q ss_pred             HHHHHHHhHHhcCCCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCCCC
+Q sp|P56746|CLD1  136 SWYAFNITRDFFDPLYPGTKYELGPALYLGWSASLISILGGLCLCSACCCGSDED  190 (228)
+Q Consensus       136 swyafnitrdffdplypgtkyelgpalylgwsaslisilgglclcsacccgsded  190 (228)
+                      .+|..................++||||+++|++.++.++++++.+...++.++++
+T Consensus       156 ~~~~~~~~~~~~~~~~~~~~~~~g~sf~l~~~a~~l~~~~~~~~~~~~~~~~~~~  210 (222)
+T 6JPA_E          156 EVMRQSVKRMIDSEDTVWIEYYYSWSFACACAAFVLLFLGGISLLLFSLPRMPQN  210 (222)
+T ss_pred             HHHHHHHHHHcCCCCCCccEEEchHHHHHHHHHHHHHHHHHHHHHHHhcccCCCC
+Confidence            9888876554433222245789999999999999999999999888877765544
+
+
+No 10
+>7JPL_E BH1501 protein; rCav1.1, Channels, Calcium Ion-Selective, TRANSPORT; HET: PC1, C8U, 3PE;{Oryctolagus cuniculus}
+Probab=99.66  E-value=4.5e-14  Score=97.82  Aligned_cols=182  Identities=18%  Similarity=0.262  Sum_probs=126.4  Template_Neff=11.700
+
+Q ss_pred             CCCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC--CccccCchhhcchhhhccCcC-------------CCcccccC
+Q sp|P56746|CLD1    1 MSMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG--NVITTNTIFENLWFSCATDSL-------------GVYNCWEF   65 (228)
+Q Consensus         1 msmavetfgffmatvgllmlgvtlpnsywrvstvhg--nvittntifenlwfscatdsl-------------gvyncwef   65 (228)
+                      +++.+..++++++++++++.++++.+|+|.+.+...  +.......+.|||+.|.....             +...|...
+T Consensus         4 ~~~~~~~~~~~l~~~~~~l~~~a~~t~~W~~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~~~~~~~~~~~~~~C~~~   83 (222)
+T 7JPL_E            4 TEAPKVRVTLFCILVGIVLAMTAVVSDHWAVLSPHMENHNTTCEAAHFGLWRICTKRIALGEDRSCGPITLPGEKNCSYF   83 (222)
+T ss_dssp             TSCHHHHHHHHHHHHHHHHHHHHTTCCCSEEECCC-------CCEEEECSSCEEEEC---------------CCCEEECC
+T ss_pred             CccHHHHHHHHHHHHHHHHHHHHHhcccceEcCCCccCCCCcchhhhccceeeeceeecCCCCCccccccCCCCccceee
+Confidence            356677889999999999999999999999887654  222356788999999987531             22456654
+
+
+Q ss_pred             chHHH-----------HhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   66 PSMLA-----------LSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVA  134 (228)
+Q Consensus        66 psmla-----------lsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmva  134 (228)
+                      .....           ...+....+.++++++++.++++++.+....         ..+.......+++.++++++.+++
+T Consensus        84 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~~a~~~~~~~  154 (222)
+T 7JPL_E           84 RHFNPGESSEIFEFTTQKEYSISAAAISVFSLGFLIMGTICALMAFR---------KKRDYLLRPASMFYVFAGLCLFVS  154 (222)
+T ss_dssp             --------------------CHHHHHHHHHHHHHHHHHHHHHHTTSS---------TTCCTTHHHHHHHHHHHHHHHHHH
+T ss_pred             eecCCCcCCcccCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh---------CCchHhHHHHHHHHHHHHHHHHHH
+Confidence            32210           1235567788888888888888888776432         112233456788889999999999
+
+
+Q ss_pred             HHHHHHHHhHHhcCCCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCCCCC
+Q sp|P56746|CLD1  135 ISWYAFNITRDFFDPLYPGTKYELGPALYLGWSASLISILGGLCLCSACCCGSDEDP  191 (228)
+Q Consensus       135 iswyafnitrdffdplypgtkyelgpalylgwsaslisilgglclcsacccgsdedp  191 (228)
+                      +.+|..................++||||+++|++.++.++++++.+...++.+++++
+T Consensus       155 ~~~~~~~~~~~~~~~~~~~~~~~~g~sf~l~~~a~~l~~~~~~~~~~~~~~~~~~~~  211 (222)
+T 7JPL_E          155 LEVMRQSVKRMIDSEDTVWIEYYYSWSFACACAAFVLLFLGGISLLLFSLPRMPQNP  211 (222)
+T ss_dssp             HHHHHHHHHTCC--------CEECCSSHHHHHHHHHHHHHHHHHHHHHHSCCCCCSS
+T ss_pred             HHHHHHHHHHHcCCCCCCccEEEchHHHHHHHHHHHHHHHHHHHHHHHhcccCCCCC
+Confidence            999888775543322222456899999999999999999999999888877765553
+
+
+No 11
+>7RZ4_A AMPA receptor, ion channel, neurotransmission; HET: NAG, PCW, ZK1; 3.6A {Rattus norvegicus}
+Probab=99.64  E-value=1e-14  Score=122.16  Aligned_cols=178  Identities=16%  Similarity=0.293  Sum_probs=134.2  Template_Neff=11.900
+
+Q ss_pred             hhHHHHHHHHHHHHHHcccCCcchhhhcccCC------CccccCchhhcchhhhccCcCCCcccccCchH----------
+Q sp|P56746|CLD1    5 VETFGFFMATVGLLMLGVTLPNSYWRVSTVHG------NVITTNTIFENLWFSCATDSLGVYNCWEFPSM----------   68 (228)
+Q Consensus         5 vetfgffmatvgllmlgvtlpnsywrvstvhg------nvittntifenlwfscatdslgvyncwefpsm----------   68 (228)
+                      ....+......+..+...+...+.|.......      +.......+.|||+.|.....+...|......          
+T Consensus       828 ~~~~~~~~~~~~~~~~~~~~~~~~W~~~~~~~~~~~~~~~~~~~~~~~gl~~~c~~~~~~~~~c~~~~~~~~~~~~~~~~  907 (1038)
+T 7RZ4_A          828 LTLLSSVFAVCGLGLLGIAVSTDYWLYLEEGIILPQNQSTEVKMSLHSGLWRVCFLAGEERGRCFTIEYVMPMNSQMTSE  907 (1038)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHSCCCEEEEEEEEETTTTEEEEEEEEEECSSEEECSSGGGSCCEEESSSCC--------C
+T ss_pred             HHHHHHHHhhcccccceecccCChhheeeccccCcCCCCCcchhhHhcCceehHHhhccccCceeEccccCCcccCCCCh
+Confidence            44566677788888999999999998554211      11123456889999998766556677654331          
+
+
+Q ss_pred             --HHHhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHh
+Q sp|P56746|CLD1   69 --LALSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDF  146 (228)
+Q Consensus        69 --lalsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdf  146 (228)
+                        ...+.+++.+++++++++++.+++++++++..+..        .+......+++++++++++.++++++|......+.
+T Consensus       908 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~~~~~~  979 (1038)
+T 7RZ4_A          908 STVNVLKMIRSATPFPLVSLFFMFIGFILSNIGHIRP--------HRTILAFVSGIFFILSGLSLVVGLVLYISSINDEM  979 (1038)
+T ss_dssp             HHHHHHHHHHHTCHHHHHHHHHHHHHHHHHHHHHHCC--------SSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHchHHHHHHHHHHHHHHHHHHHHhcCC--------CchHHHHHHHHHHHHHHHHHHHHHHHHHHhcCHHH
+Confidence              22346788999999999999999999999997532        24466777889999999999999999999887776
+
+
+Q ss_pred             cCCCCC---CCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCCCC
+Q sp|P56746|CLD1  147 FDPLYP---GTKYELGPALYLGWSASLISILGGLCLCSACCCGSDED  190 (228)
+Q Consensus       147 fdplyp---gtkyelgpalylgwsaslisilgglclcsacccgsded  190 (228)
+                      ......   ....++||||+++|++.++++++++++++..++.++++
+T Consensus       980 ~~~~~~~~~~~~~~~g~s~~l~~~~~~~~~~~~~~~~~~~~~~~~~~ 1026 (1038)
+T 7RZ4_A          980 LNRTKDAETYFNYKYGWSFAFAAISFLLTESAGVMSVYLFMKRYTAE 1026 (1038)
+T ss_dssp             HSSCCCSSEEEEEEECHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             hcCCCCCcccccccchHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHH
+Confidence            543222   23579999999999999999999999888776654443
+
+
+No 12
+>7RZ5_A AMPA receptor, ion channel, neurotransmission; HET: PCW, ZK1; 3.3A {Rattus norvegicus}
+Probab=99.64  E-value=1e-14  Score=122.16  Aligned_cols=178  Identities=16%  Similarity=0.293  Sum_probs=133.6  Template_Neff=11.900
+
+Q ss_pred             hhHHHHHHHHHHHHHHcccCCcchhhhcccCC------CccccCchhhcchhhhccCcCCCcccccCchH----------
+Q sp|P56746|CLD1    5 VETFGFFMATVGLLMLGVTLPNSYWRVSTVHG------NVITTNTIFENLWFSCATDSLGVYNCWEFPSM----------   68 (228)
+Q Consensus         5 vetfgffmatvgllmlgvtlpnsywrvstvhg------nvittntifenlwfscatdslgvyncwefpsm----------   68 (228)
+                      ....+......+..+...+...+.|.......      +.......+.|||+.|.....+...|......          
+T Consensus       828 ~~~~~~~~~~~~~~~~~~~~~~~~W~~~~~~~~~~~~~~~~~~~~~~~gl~~~c~~~~~~~~~c~~~~~~~~~~~~~~~~  907 (1038)
+T 7RZ5_A          828 LTLLSSVFAVCGLGLLGIAVSTDYWLYLEEGIILPQNQSTEVKMSLHSGLWRVCFLAGEERGRCFTIEYVMPMNSQMTSE  907 (1038)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHSCCCEEEEEEEEETTTTEEEEEEEEEECSSEEEESSGGGSCCEEESSSCC--------C
+T ss_pred             HHHHHHHHhhcccccceecccCChhheeeccccCcCCCCCcchhhHhcCceehHHhhccccCceeEccccCCcccCCCCh
+Confidence            44566677788888999999999998554211      11123456889999998766556677654331          
+
+
+Q ss_pred             --HHHhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHh
+Q sp|P56746|CLD1   69 --LALSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDF  146 (228)
+Q Consensus        69 --lalsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdf  146 (228)
+                        ...+.+++.+++++++++++.+++++++++..+..        .+......+++++++++++.++++++|......+.
+T Consensus       908 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~g~~~~~~g~~~~~~~~~~~~~~~~~~  979 (1038)
+T 7RZ5_A          908 STVNVLKMIRSATPFPLVSLFFMFIGFILSNIGHIRP--------HRTILAFVSGIFFILSGLSLVVGLVLYISSINDEM  979 (1038)
+T ss_dssp             HHHHHHHHHHHTCHHHHHHHHHHHHHHHHHHHHHHCC--------SSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTT
+T ss_pred             hHHHHHHHHHHchHHHHHHHHHHHHHHHHHHHHhcCC--------CchHHHHHHHHHHHHHHHHHHHHHHHHHHhcCHHH
+Confidence              22346788999999999999999999999997532        24466777889999999999999999999877665
+
+
+Q ss_pred             cCCCCC---CCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCCCC
+Q sp|P56746|CLD1  147 FDPLYP---GTKYELGPALYLGWSASLISILGGLCLCSACCCGSDED  190 (228)
+Q Consensus       147 fdplyp---gtkyelgpalylgwsaslisilgglclcsacccgsded  190 (228)
+                      ......   ....++||||+++|++.++++++++++++..++.++++
+T Consensus       980 ~~~~~~~~~~~~~~~g~s~~l~~~~~~~~~~~~~~~~~~~~~~~~~~ 1026 (1038)
+T 7RZ5_A          980 LNRTKDAETYFNYKYGWSFAFAAISFLLTESAGVMSVYLFMKRYTAE 1026 (1038)
+T ss_dssp             TSSCCCSSEEEEEEECHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             hcCCCCCcccccccchHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHH
+Confidence            443221   23479999999999999999999999888776654443
+
+
+No 13
+>7OCE_J Glutamate receptor 1, Glutamate receptor; AMPAR, ion channels, neurotransmission, MEMBRANE; HET: PC1, E2Q, CLR; 3.1A {Rattus norvegicus}
+Probab=99.59  E-value=8.3e-14  Score=121.33  Aligned_cols=174  Identities=16%  Similarity=0.194  Sum_probs=126.7  Template_Neff=7.600
+
+Q ss_pred             CchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-C----------------------ccccCchhhcchhhhccCcCCC
+Q sp|P56746|CLD1    3 MAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-N----------------------VITTNTIFENLWFSCATDSLGV   59 (228)
+Q Consensus         3 mavetfgffmatvgllmlgvtlpnsywrvstvhg-n----------------------vittntifenlwfscatdslgv   59 (228)
+                      +.+..+++++++++++++++++.+|+|.+..... +                      .......+.|||+.|.....+.
+T Consensus        17 ~~~~~la~~l~~~a~iL~~vA~~tp~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GLW~~C~~~~~~~   96 (422)
+T 7OCE_J           17 GVQVLLTTIGAFAAFGLMTIAISTDYWLYTRALICNTTNLTAGDDGPPHRGGSGSSEKKDPGGLTHSGLWRICCLEGLKR   96 (422)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHCCCSEEEEESTTCC-----------------------CCEEEEECSSEEEECSSTTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhcCccEEehhhcccccCCCCCCCCCCCCCCCCCCCCCCCCceeeccceeeeeeccccC
+Confidence            3467788999999999999999999999876421 0                      0112256889999999877666
+
+
+Q ss_pred             cccccCchHHH-----------HhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   60 YNCWEFPSMLA-----------LSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAG  128 (228)
+Q Consensus        60 yncwefpsmla-----------lsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilag  128 (228)
+                      ..|..++....           ...+.++.++++++++++.+++.++..+..+..        .+......+++++++++
+T Consensus        97 ~~C~~i~~f~~d~~~~~d~s~~ll~~vrAs~if~ilS~iLl~lg~l~~~~~~~~k--------sk~~i~l~aGIlfvlAG  168 (422)
+T 7OCE_J           97 GVCVKINHFPEDTDYDHDSAEYLLRVVRASSIFPILSAILLLLGGVCVAASRVYK--------SKRNIILGAGILFVAAG  168 (422)
+T ss_dssp             TCEEECCCC--------CHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHTTCC--------SCCSSHHHHHHHHHHHH
+T ss_pred             ceeEEccCCCCCCCCCcccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC--------CchhHHHHHHHHHHHHH
+Confidence            77875432111           124567778899999999999998888774221        22345667889999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHhHHhcCC-CCC-CCCCCcchhHHHHHHHHHHHHHHHHHhhhhhc
+Q sp|P56746|CLD1  129 ICGMVAISWYAFNITRDFFDP-LYP-GTKYELGPALYLGWSASLISILGGLCLCSACC  184 (228)
+Q Consensus       129 icgmvaiswyafnitrdffdp-lyp-gtkyelgpalylgwsaslisilgglclcsacc  184 (228)
+                      ++.++++++|......+.... ..+ ...+++|||||++|+++++.++++++.++...
+T Consensus       169 L~~iIgiivy~~~~~~~~~~~~~~~~~~~~~yGwSfylg~ls~il~ll~gvL~v~~~~  226 (422)
+T 7OCE_J          169 LSNIIGVIVYISANAGEPGPKRDEEKKNHYSYGWSFYFGGLSFILAEVIGVLAVNIYI  226 (422)
+T ss_dssp             HHHHHHHHHHHHHHCCC---------CCSCEECHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhcCCCCCCCCccccceecchHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            999999999998776554322 111 45679999999999999999999998775543
+
+
+No 14
+>7LEP_G Mix of AMPAR subunits (GluA1; Native hippocampal ion channel, MEMBRANE; HET: XVD, D10, C14, ZK1, D12, OCT, POV; 3.25A {Mus musculus}
+Probab=99.53  E-value=8.8e-13  Score=91.43  Aligned_cols=176  Identities=16%  Similarity=0.191  Sum_probs=128.8  Template_Neff=11.600
+
+Q ss_pred             hhHHHHHHHHHHHHHHcccCCcchhhhcccCC-C----------------------ccccCchhhcchhhhccCcCCCcc
+Q sp|P56746|CLD1    5 VETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-N----------------------VITTNTIFENLWFSCATDSLGVYN   61 (228)
+Q Consensus         5 vetfgffmatvgllmlgvtlpnsywrvstvhg-n----------------------vittntifenlwfscatdslgvyn   61 (228)
+                      +..++++++++++++.++++.+|+|.+.+... +                      .......+.|||+.|.....+...
+T Consensus         2 ~~~~~~~l~~~a~~l~~ia~~t~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~   81 (215)
+T 7LEP_G            2 QVLLTTIGAFSAFGLMTIAISTDYWLYTRALICNTTNLTAGDDGPPHRGGSGSSEKKDPGGLTHSGLWRICCLEGLKRGV   81 (215)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHSCCSEEEC-------------------------------CCEECCSSEECCCSSSSCSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCceeeecceecCCCCCCCCCCCCCCCCCCCCCCCcCcceeeccccceehhccCcCCce
+Confidence            46788999999999999999999999887431 0                      112237889999999987666667
+
+
+Q ss_pred             cccCchHH-----------HHhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   62 CWEFPSML-----------ALSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGIC  130 (228)
+Q Consensus        62 cwefpsml-----------alsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagic  130 (228)
+                      |.......           ....+++..+.++++++++.++++++.+...+..        .+.......+++.++++++
+T Consensus        82 C~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~~~~~~~~~~~  153 (215)
+T 7LEP_G           82 CVKINHFPEDTDYDHDSAEYLLRVVRASSIFPILSAILLLLGGVCVAASRVYK--------SKRNIILGAGILFVAAGLS  153 (215)
+T ss_dssp             CEECCCC----------CTHHHHHHHHTTHHHHHHHHHHHHHHHHHHHHHSSC--------CCSSHHHHHHHHHHHHHHH
+T ss_pred             eeeccCCCCCCCCCCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcC--------CCchHHHHHHHHHHHHHHH
+Confidence            76553211           1245688888999999999999999999886421        1223457778888999999
+
+
+Q ss_pred             HHHHHHHHHHHHhHHhcCCCC--CCCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCC
+Q sp|P56746|CLD1  131 GMVAISWYAFNITRDFFDPLY--PGTKYELGPALYLGWSASLISILGGLCLCSACCCGSD  188 (228)
+Q Consensus       131 gmvaiswyafnitrdffdply--pgtkyelgpalylgwsaslisilgglclcsacccgsd  188 (228)
+                      .++++.+|......+......  .....++||||+++|++.++.++++++.++..+++++
+T Consensus       154 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~s~~l~~~~~~l~~~~~~~~~~~~~~~~~  213 (215)
+T 7LEP_G          154 NIIGVIVYISANAGEPGPKRDEEKKNHYSYGWSFYFGGLSFILAEVIGVLAVNIYIERSR  213 (215)
+T ss_dssp             HHHHHHHHHHHHTC----------CCCCEECSHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhhcCCCCCCCCcccCeEeeehHHHHHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence            999999888877654332211  1457899999999999999999999998887766543
+
+
+No 15
+>5VOU_F GluA2 AMPA receptor, Tranmembrane AMPA; AMPA receptor-TARP complex, TARP modulation;{Rattus norvegicus}
+Probab=99.52  E-value=2.7e-13  Score=107.61  Aligned_cols=183  Identities=16%  Similarity=0.177  Sum_probs=123.1  Template_Neff=9.600
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-C----------ccccCchhhcchhhhccCcCCCcccccCchHHH
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-N----------VITTNTIFENLWFSCATDSLGVYNCWEFPSMLA   70 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhg-n----------vittntifenlwfscatdslgvyncwefpsmla   70 (228)
+                      ++.+.++++++++++++++++++.+|+|.+.+... +          .......+.|||+.|.........|........
+T Consensus         6 ~~~~~~~~~v~~~~a~~l~~ia~~t~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~   85 (323)
+T 5VOU_F            6 RGVQMLLTTVGAFAAFSLMTIAVGTDYWLYSRGVCKTKSVSENETSKKNEEVMTHSGLWRTCCLEGNFKGLCKQIDHFPE   85 (323)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCCcEEeccccCCCCCCCCccCCceeeeeeeccceeeeeecccccceeeeccCCCC
+Confidence            45677888999999999999999999999986531 0          112357789999999887555557766543211
+
+
+Q ss_pred             --------HhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   71 --------LSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNI  142 (228)
+Q Consensus        71 --------lsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafni  142 (228)
+                              .+.+....++.++++++..++.++..++..+...     .+.+.......++++++++++.++++++|....
+T Consensus        86 ~~~~~~~~~~~~~~~~ra~~i~~~ls~~l~~~~~l~~~~~~~-----~~~~~~~~~~~gil~~~agl~~ligiivy~~~~  160 (323)
+T 5VOU_F           86 DADYEADTAEYFLRAVRASSIFPILSVILLFMGGLCIAASEF-----YKTRHNIILSAGIFFVSAGLSNIIGIIVYISAN  160 (323)
+T ss_pred             ccCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-----hcCchhHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence                    1223444555444444444443333333322111     123455577788999999999999999999887
+
+
+Q ss_pred             hHHhcCCCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCCCC
+Q sp|P56746|CLD1  143 TRDFFDPLYPGTKYELGPALYLGWSASLISILGGLCLCSACCCGSDE  189 (228)
+Q Consensus       143 trdffdplypgtkyelgpalylgwsaslisilgglclcsacccgsde  189 (228)
+                      ..+...........++|||||++|++.++.++++++.+.....++++
+T Consensus       161 ~~~~~~~~~~~~~~~~GwSf~l~~~s~il~~~~gvl~~~~~~~~~~~  207 (323)
+T 5VOU_F          161 AGDPSKSDSKKNSYSYGWSFYFGALSFIIAEMVGVLAVHMFIDRHKQ  207 (323)
+T ss_pred             cCCCCcCCCCCccccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            65543322224478999999999999999999999986655544433
+
+
+No 16
+>6NJM_F Glutamate receptor 3, Glutamate receptor; AMPA receptor, ligand gated ion; HET: BMA, NAG, ZK1; 6.5A {Rattus norvegicus}
+Probab=99.52  E-value=2.7e-13  Score=107.61  Aligned_cols=172  Identities=17%  Similarity=0.221  Sum_probs=110.3  Template_Neff=9.600
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHcccCCcchhhhcccCC-C----------ccccCchhhcchhhhccCcCCCcccccCchHH-
+Q sp|P56746|CLD1    2 SMAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHG-N----------VITTNTIFENLWFSCATDSLGVYNCWEFPSML-   69 (228)
+Q Consensus         2 smavetfgffmatvgllmlgvtlpnsywrvstvhg-n----------vittntifenlwfscatdslgvyncwefpsml-   69 (228)
+                      ++.+.++++++++++++++++++.+|+|.+.+... +          .......+.|||+.|.........|....... 
+T Consensus         6 ~~~~~~~~~v~~~~a~~l~~ia~~t~~W~~~~~~~~~~~~~~~~~~~~~~~~~~~~GLw~~C~~~~~~~~~C~~~~~~~~   85 (323)
+T 6NJM_F            6 RGVQMLLTTVGAFAAFSLMTIAVGTDYWLYSRGVCKTKSVSENETSKKNEEVMTHSGLWRTCCLEGNFKGLCKQIDHFPE   85 (323)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHSCSEEEECCC------------------EEEECSSCEEEC---CTTCEECCCCSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhcCCcEEeccccCCCCCCCCccCCceeeeeeeccceeeeeecccccceeeeccCCCC
+Confidence            45677888999999999999999999999986541 0          11235678999999987755555676543211 
+
+
+Q ss_pred             -------HHhhHHHHHHH---HHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   70 -------ALSGYIQACRA---LMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYA  139 (228)
+Q Consensus        70 -------alsgyiqacra---lmitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswya  139 (228)
+                             ..+.+....++   +.++++++.+++.++.++..+   .     +.+.......++++++++++.++++++|.
+T Consensus        86 ~~~~~~~~~~~~~~~~ra~~i~~~ls~~l~~~~~l~~~~~~~---~-----~~~~~~~~~~gil~~~agl~~ligiivy~  157 (323)
+T 6NJM_F           86 DADYEADTAEYFLRAVRASSIFPILSVILLFMGGLCIAASEF---Y-----KTRHNIILSAGIFFVSAGLSNIIGIIVYI  157 (323)
+T ss_dssp             C------HHHHHHHHHHGGGHHHHHHHHHHHHHHHHHHHHHS---S-----CCCSSHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---h-----cCchhHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence                   11233444554   444555555555544444432   1     12234467788999999999999999999
+
+
+Q ss_pred             HHHhHHhcCCCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1  140 FNITRDFFDPLYPGTKYELGPALYLGWSASLISILGGLCLCS  181 (228)
+Q Consensus       140 fnitrdffdplypgtkyelgpalylgwsaslisilgglclcs  181 (228)
+                      .....+...........++|||||++|++.++.++++++.+.
+T Consensus       158 ~~~~~~~~~~~~~~~~~~~GwSf~l~~~s~il~~~~gvl~~~  199 (323)
+T 6NJM_F          158 SANAGDPSKSDSKKNSYSYGWSFYFGALSFIIAEMVGVLAVH  199 (323)
+T ss_dssp             HTCC------------CEECHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhcCCCCcCCCCCccccccHHHHHHHHHHHHHHHHHHHHHH
+Confidence            876555332222244789999999999999999999998743
+
+
+No 17
+>6C14_D Protocadherin-15, LHFPL tetraspan subfamily member; PCDH15, LHFPL5, protocadherin, tip link;{Mus musculus}
+Probab=99.33  E-value=1.8e-10  Score=87.30  Aligned_cols=172  Identities=12%  Similarity=0.054  Sum_probs=119.5  Template_Neff=9.700
+
+Q ss_pred             CchhHHHHHHHHHHHHHHcccCCcchhhhcccCCCccccCchhhcchhhhccCcC-CCcccccCchHH-H-HhhHHHHHH
+Q sp|P56746|CLD1    3 MAVETFGFFMATVGLLMLGVTLPNSYWRVSTVHGNVITTNTIFENLWFSCATDSL-GVYNCWEFPSML-A-LSGYIQACR   79 (228)
+Q Consensus         3 mavetfgffmatvgllmlgvtlpnsywrvstvhgnvittntifenlwfscatdsl-gvyncwefpsml-a-lsgyiqacr   79 (228)
+                      +.+.+++.+++++++++.++++.+|+|. .....   .....+.|||+.|..... +..+|....... . ..++++.++
+T Consensus        30 ~~~~~~~~~l~~~~~~l~~va~~t~~W~-~~~~~---~~~~~~~GLw~~C~~~~~~~~~~C~~~~~~~~~~~~~~~~~~~  105 (228)
+T 6C14_D           30 RAVGVMWGTLTICFSVLVMALFIQPYWI-GDSVS---TPQAGYFGLFSYCVGNVLSSELICKGGPLDFSSIPSRAFKTAM  105 (228)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHSCSCSE-ECCC------CEECCCSSSCBEECTTCCCCCBCCSSCCSSSSSCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcchhc-CCCCC---CCCCeeeeceeeeccccCCCcceeeCCCCChhhCCCHHHHHHH
+Confidence            4566788899999999999999999999 33221   224678999999987643 236786433221 1 125778889
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHhcCCC-------CC
+Q sp|P56746|CLD1   80 ALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAGALHILAGICGMVAISWYAFNITRDFFDPL-------YP  152 (228)
+Q Consensus        80 almitaillgflglllgiaglrctnigglelsrkaklaatagalhilagicgmvaiswyafnitrdffdpl-------yp  152 (228)
+                      +++++++++.++++++..+..++         .+.......+++.++++++.++++++|.....++.....       +.
+T Consensus       106 ~~~~~~~~~~~~~~~~~~~~~~~---------~~~~~~~~~~~~~~~a~~~~~i~~~vf~~~~~~~~~~~~~~~~~~~~~  176 (228)
+T 6C14_D          106 FFVALAMFLIIGSIICFSLFFVC---------NTATVYKICAWMQLAAATGLMIGCLVYPDGWDSSEVRRMCGEQTGKYT  176 (228)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTTTTS---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-----------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHh---------cchhHHHHHHHHHHHHHHHHHHHHHHcHhcCCCHHHHHHhcCCCCccc
+Confidence            99999999999997665544422         135566778999999999999999999987765432211       11
+
+
+Q ss_pred             CCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcCCC
+Q sp|P56746|CLD1  153 GTKYELGPALYLGWSASLISILGGLCLCSACCCGS  187 (228)
+Q Consensus       153 gtkyelgpalylgwsaslisilgglclcsacccgs  187 (228)
+                      ..+.++||||+++|++.++.++++++.++...+.+
+T Consensus       177 ~~~~~~gwsf~la~~~~~l~~~~~i~~~~~~~~~~  211 (228)
+T 6C14_D          177 LGHCTIRWAFMLAILSIGDALILSFLAFVLGYRQD  211 (228)
+T ss_dssp             -CCCEECHHHHHHHHHHHHHHHHHHHHHHC-----
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHHHHHHHHHhhccc
+Confidence            24679999999999999999999998766555544
+
+
+No 18
+>5WEN_A Ion channel, TRANSPORT PROTEIN; HET: AJP;{Rattus norvegicus}
+Probab=97.31  E-value=0.0015  Score=57.78  Aligned_cols=139  Identities=19%  Similarity=0.275  Sum_probs=94.5  Template_Neff=11.400
+
+Q ss_pred             chhhcchhhhccCcC-CCcccccCchHHHHh--hHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHH
+Q sp|P56746|CLD1   43 TIFENLWFSCATDSL-GVYNCWEFPSMLALS--GYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAAT  119 (228)
+Q Consensus        43 tifenlwfscatdsl-gvyncwefpsmlals--gyiqacralmitaillgflglllgiaglrctnigglelsrkaklaat  119 (228)
+                      ..|.|||+.|..... ..+.|.........+  +.........++.+++.++++++..+..++..    ......+....
+T Consensus       909 ~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~l~~~~~  984 (1057)
+T 5WEN_A          909 RFHTGIWYSCEEELGGPGEKCRSFIDLAPASEKGVLWLSVVSEVLYILLLVVGFSLMCLELLHSS----SVIDGLKLNAF  984 (1057)
+T ss_dssp             EEEECSSSEEEC-----CCEECCCCSCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTC-------CCHHHHHH
+T ss_pred             ccCCceEEecccccCCCcccccchHHcCCccccchHHHHHHHHHHHHHHHHHHHHHHHHHHHcCC----CcchhcchhHH
+Confidence            567899999987632 235787765532111  23334445555667777777777766654332    22345677778
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhHHhcC--CCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhhhhcC
+Q sp|P56746|CLD1  120 AGALHILAGICGMVAISWYAFNITRDFFD--PLYPGTKYELGPALYLGWSASLISILGGLCLCSACCC  185 (228)
+Q Consensus       120 agalhilagicgmvaiswyafnitrdffd--plypgtkyelgpalylgwsaslisilgglclcsaccc  185 (228)
+                      ++++..++|++.+++.++|...++.+...  .++......|||||+++|+++.++..+++..+-.+.+
+T Consensus       985 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1052 (1057)
+T 5WEN_A          985 AAVFTVLSGLLGMVAHMMYTQVFQVTVSLGPEDWRPHSWDYGWSFCLAWGSFTCCMAASVTTLNSYTK 1052 (1057)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCTTTCCSBCCCCHHHHHHHHHHHHHHHTHHHHTTGGGC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhcceeecCCccccCccceeccceeEeecccchhhhhhHHHhhhhccc
+Confidence            89999999999999999999888765432  2333567899999999999999999999886655544
+
+
+No 19
+>6VJA_D B-lymphocyte antigen CD20, Rituximab Fab; MS4A1, CD20, human, Rituximab, therapeutic; HET: Y01;{Homo sapiens}
+Probab=94.66  E-value=3.2  Score=33.96  Aligned_cols=13  Identities=8%  Similarity=0.158  Sum_probs=5.1  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHH
+Q sp|P56746|CLD1  122 ALHILAGICGMVA  134 (228)
+Q Consensus       122 alhilagicgmva  134 (228)
+                      ++.+++.++.+++
+T Consensus        81 ~~sIis~i~al~~   93 (278)
+T 6VJA_D           81 IMNSLSLFAAISG   93 (278)
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3334444433333
+
+
+No 20
+>7RZ9_A AMPA receptor, ion channel, neurotransmission; 4.15A {Rattus norvegicus}
+Probab=90.76  E-value=1.1  Score=42.30  Aligned_cols=138  Identities=17%  Similarity=0.272  Sum_probs=99.8  Template_Neff=10.500
+
+Q ss_pred             chhhcchhhhccCcC-CCcccccCchHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCCCHHHHHHHHHH
+Q sp|P56746|CLD1   43 TIFENLWFSCATDSL-GVYNCWEFPSMLALSGYIQACRALMITAILLGFLGLLLGIAGLRCTNIGGLELSRKAKLAATAG  121 (228)
+Q Consensus        43 tifenlwfscatdsl-gvyncwefpsmlalsgyiqacralmitaillgflglllgiaglrctnigglelsrkaklaatag  121 (228)
+                      ..|.|+|..|..... ..+.|+.....  .|...+.+..+.+.+-++.+..+.++...++...+.........+....+.
+T Consensus       909 ~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~a~~~  986 (1154)
+T 7RZ9_A          909 RFHTGIWYSCEEELGGPGEKCRSFIDL--APASEKGVLWLSVVSEVLYILLLVVGFSLMCLELLHSSSVIDGLKLNAFAA  986 (1154)
+T ss_dssp             EEEECSSEEEECCTTSSCCEEEEHHHH--SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSTTSSCSTTTHHHHHHHH
+T ss_pred             ccCcceEEecccccCCCccccccchhc--CCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCChhhhcchhHHHH
+Confidence            567899999977633 34567765443  245556677777878788777777777766555444323445577777889
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHhHHhc--CCCCCCCCCCcchhHHHHHHHHHHHHHHHHHhhhh
+Q sp|P56746|CLD1  122 ALHILAGICGMVAISWYAFNITRDFF--DPLYPGTKYELGPALYLGWSASLISILGGLCLCSA  182 (228)
+Q Consensus       122 alhilagicgmvaiswyafnitrdff--dplypgtkyelgpalylgwsaslisilgglclcsa  182 (228)
+                      ++..++|++.+++-.+|...++....  ..++......|||||+++|.++.+++.+++..+-.
+T Consensus       987 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1049 (1154)
+T 7RZ9_A          987 VFTVLSGLLGMVAHMMYTQVFQVTVSLGPEDWRPHSWDYGWSFCLAWGSFTCCMAASVTTLNS 1049 (1154)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHTSSSSCCCSCCCBCTTTHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcceeecCChhhcCcccccccceeEeecccccchhccchHhhhh
+Confidence            99999999999999999887775533  23333567899999999999999999998875443
+
+
+No 21
+>5AEZ_A MEP2; MEMBRANE PROTEIN, AMMONIUM TRANSPORTER; HET: BNG; 1.47A {CANDIDA ALBICANS}
+Probab=54.05  E-value=2.5e+02  Score=26.74  Aligned_cols=8  Identities=25%  Similarity=0.804  Sum_probs=3.3  Template_Neff=7.800
+
+Q ss_pred             HHHHHHhh
+Q sp|P56746|CLD1   93 LLLGIAGL  100 (228)
+Q Consensus        93 lllgiagl  100 (228)
+                      .+.+++++
+T Consensus       290 ~laGlVai  297 (486)
+T 5AEZ_A          290 AIAGLVGI  297 (486)
+T ss_dssp             HHHHHHHH
+T ss_pred             hhhhHHhh
+Confidence            34444443
+
+
+No 22
+>7P54_B Membrane protein, lipid metabolism, lipid; HET: NAG;{Homo sapiens}
+Probab=38.90  E-value=61  Score=30.46  Aligned_cols=8  Identities=38%  Similarity=0.958  Sum_probs=2.6  Template_Neff=8.400
+
+Q ss_pred             hhhhcCCC
+Q sp|P56746|CLD1  180 CSACCCGS  187 (228)
+Q Consensus       180 csacccgs  187 (228)
+                      ++.++.++
+T Consensus        68 ~c~CC~~~   75 (541)
+T 7P54_B           68 VCACHCRR   75 (541)
+T ss_dssp             HHHHTC--
+T ss_pred             HHHhccCC
+Confidence            33444443
+
+
+No 23
+>3JAF_B zebra fish alpha1 glycine receptor; cys loop receptor, alpha-1 glycine; HET: NAG, IVM; 3.801A {Danio rerio}
+Probab=27.06  E-value=4.7e+02  Score=20.15  Aligned_cols=10  Identities=10%  Similarity=0.092  Sum_probs=3.6  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHH
+Q sp|P56746|CLD1   82 MITAILLGFL   91 (228)
+Q Consensus        82 mitaillgfl   91 (228)
+                      ...+.++...
+T Consensus       247 ~~~~~ll~~~  256 (342)
+T 3JAF_B          247 LGITTVLTMT  256 (342)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3333333333
+
+
+No 24
+>5SV0_A Biopolymer transport protein ExbB; ExbB, membrane proteins, pore, channel; HET: EPE, MLY; 2.6A {Escherichia coli DH1}
+Probab=27.04  E-value=5.5e+02  Score=20.86  Aligned_cols=25  Identities=16%  Similarity=0.278  Sum_probs=14.1  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhh
+Q sp|P56746|CLD1   76 QACRALMITAILLGFLGLLLGIAGL  100 (228)
+Q Consensus        76 qacralmitaillgflglllgiagl  100 (228)
+                      ...+.+..++-.+++++.+++++..
+T Consensus       131 ~~l~~~~~~ap~lGllGTv~G~~~~  155 (244)
+T 5SV0_A          131 GYLATIGAISPFVGLFGTVWGIMNS  155 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3444555566666666666665544
+
+
+No 25
+>5SV0_E Biopolymer transport protein ExbB; ExbB, membrane proteins, pore, channel; HET: EPE, MLY; 2.6A {Escherichia coli DH1}
+Probab=27.04  E-value=5.5e+02  Score=20.86  Aligned_cols=26  Identities=15%  Similarity=0.226  Sum_probs=15.4  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1   76 QACRALMITAILLGFLGLLLGIAGLR  101 (228)
+Q Consensus        76 qacralmitaillgflglllgiaglr  101 (228)
+                      ...+.+..++-.+++++.+++++...
+T Consensus       131 ~~l~~~~~~ap~lGllGTv~G~~~~f  156 (244)
+T 5SV0_E          131 GYLATIGAISPFVGLFGTVWGIMNSF  156 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34555555666666666666665543
+
+
+No 26
+>6DW0_A Gamma-aminobutyric acid receptor subunit gamma-2; Neurotransmission, GABA Receptors, GABA, Cys; HET: BMA, ABU, NAG, MAN; 3.8A {Rattus norvegicus}
+Probab=26.88  E-value=5.6e+02  Score=20.96  Aligned_cols=19  Identities=16%  Similarity=0.242  Sum_probs=8.7  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q sp|P56746|CLD1   78 CRALMITAILLGFLGLLLG   96 (228)
+Q Consensus        78 cralmitaillgflglllg   96 (228)
+                      .|.......++........
+T Consensus       280 ~r~~~~~~~ll~~~~~~~~  298 (402)
+T 6DW0_A          280 ARTVFGVTTVLTMTTLSIS  298 (402)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            3444444455444444433
+
+
+No 27
+>2WW9_B SEC SIXTY-ONE PROTEIN HOMOLOG, PROTEIN; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, TRANSMEMBRANE, PHOSPHOPROTEIN; 8.6A {SACCHAROMYCES CEREVISIAE}
+Probab=25.90  E-value=2.9e+02  Score=21.23  Aligned_cols=28  Identities=21%  Similarity=0.437  Sum_probs=15.6  Template_Neff=6.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q sp|P56746|CLD1   73 GYIQACRALMITAILLGFLGLLLGIAGL  100 (228)
+Q Consensus        73 gyiqacralmitaillgflglllgiagl  100 (228)
+                      .+....+...+--++++++++++-++.+
+T Consensus        46 Ef~~~~~i~~lG~~iiG~iGfiI~li~i   73 (80)
+T 2WW9_B           46 EYTKIVKAVGIGFIAVGIIGYAIKLIHI   73 (80)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            3444555555555666666666665543
+
+
+No 28
+>6N3Q_C Protein transport protein SEC61, Protein; Sec61, Sec63, Sec71, Sec72, Sec66; 3.68A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=25.90  E-value=2.9e+02  Score=21.23  Aligned_cols=25  Identities=20%  Similarity=0.359  Sum_probs=12.0  Template_Neff=6.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHh
+Q sp|P56746|CLD1   75 IQACRALMITAILLGFLGLLLGIAG   99 (228)
+Q Consensus        75 iqacralmitaillgflglllgiag   99 (228)
+                      ....+...+--++++++++++-++.
+T Consensus        48 ~~~~~i~~lG~~iiG~iGfiI~li~   72 (80)
+T 6N3Q_C           48 TKIVKAVGIGFIAVGIIGYAIKLIH   72 (80)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            3334444444455555555555444
+
+
+No 29
+>5MM2_A capsid protein VP4C, capsid protein; nora virus, cryo-em, single particle; 2.7A {Nora virus}
+Probab=22.68  E-value=1.2e+02  Score=30.90  Aligned_cols=17  Identities=6%  Similarity=0.249  Sum_probs=7.9  Template_Neff=3.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q sp|P56746|CLD1  204 SVMPVATSDQEGDSSFG  220 (228)
+Q Consensus       204 svmpvatsdqegdssfg  220 (228)
+                      ..+..-.++.+.+..|+
+T Consensus       223 e~lK~v~~n~~~np~F~  239 (416)
+T 5MM2_A          223 EMLKYVKENYQDNPVFP  239 (416)
+T ss_dssp             SSCCCCSSSTTTSCCSC
+T ss_pred             HHHHhHHhhcccCCCcc
+Confidence            33343444455555554
+
+
+No 30
+>3MK7_M Cytochrome c oxidase, cbb3-type, subunit; TM helices, OXIDOREDUCTASE; HET: FC6, HEC, PO4, HEM; 3.2A {Pseudomonas stutzeri}
+Probab=22.09  E-value=7.1e+02  Score=20.45  Aligned_cols=7  Identities=14%  Similarity=-0.278  Sum_probs=2.9  Template_Neff=10.300
+
+Q ss_pred             cchhHHH
+Q sp|P56746|CLD1  158 LGPALYL  164 (228)
+Q Consensus       158 lgpalyl  164 (228)
+                      ..|-+++
+T Consensus        55 p~w~~~~   61 (311)
+T 3MK7_M           55 PRWWFLL   61 (311)
+T ss_pred             CHHHHHH
+Confidence            3444443
+
+
+No 31
+>5JRW_E Cobalt/magnesium transport protein CorA; Transport Protein; 3.3A {Thermotoga maritima}
+Probab=21.09  E-value=8.2e+02  Score=20.79  Aligned_cols=25  Identities=28%  Similarity=0.437  Sum_probs=18.7  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHhhh
+Q sp|P56746|CLD1   77 ACRALMITAILLGFLGLLLGIAGLR  101 (228)
+Q Consensus        77 acralmitaillgflglllgiaglr  101 (228)
+                      ..+.+.+++.++.-++++.++.++.
+T Consensus       312 ~m~~LTivt~iflP~t~iagifGMN  336 (373)
+T 5JRW_E          312 VMKVLTIIATIFMPLTFIAGIYGMN  336 (373)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcccCC
+Confidence            4566777888888888888877764
+
+
+No 32
+>6WVG_A Green fluorescent protein,Leukocyte surface antigen; CD53, tetraspanin-25, membrane protein; HET: CRO, NAG, OLC; 2.9A {Aequorea victoria}
+Probab=20.32  E-value=1e+03  Score=21.57  Aligned_cols=15  Identities=20%  Similarity=0.204  Sum_probs=6.1  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHHhh
+Q sp|P56746|CLD1  166 WSASLISILGGLCLC  180 (228)
+Q Consensus       166 wsaslisilgglclc  180 (228)
+                      ++.+++.++..++.+
+T Consensus       332 ~~~~~l~~~~~~~~~  346 (457)
+T 6WVG_A          332 ICVCVIEVLGMSFAL  346 (457)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            333444444444433
+
+
+No 33
+>6WVG_B Green fluorescent protein,Leukocyte surface antigen; CD53, tetraspanin-25, membrane protein; HET: CRO, NAG, OLC; 2.9A {Aequorea victoria}
+Probab=20.32  E-value=1e+03  Score=21.57  Aligned_cols=12  Identities=25%  Similarity=0.379  Sum_probs=4.7  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHH
+Q sp|P56746|CLD1  167 SASLISILGGLC  178 (228)
+Q Consensus       167 saslisilgglc  178 (228)
+                      +.+++.++..++
+T Consensus       333 ~~~~l~~~~~~~  344 (457)
+T 6WVG_B          333 CVCVIEVLGMSF  344 (457)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            333344444333
+
+

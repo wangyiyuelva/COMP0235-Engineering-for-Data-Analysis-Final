@@ -1,0 +1,166 @@
+Query         tr|A0A6Q8PGP0|A0A6Q8PGP0_HUMAN
+Match_columns 11
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:48:08 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1435.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2YST_A Protocadherin-7; Brain-  26.1      64 0.00069    9.8   1.1    7    3-9       4-10  (119)
+  2 6LW4_B Uncharacterized protein  17.9 1.1E+02  0.0012   16.0   0.5    8    4-11     47-54  (106)
+  3 6K3B_B Lpg2147, Uncharacterize  17.8 1.1E+02  0.0012   16.0   0.5    8    4-11     49-56  (108)
+  4 5DPO_A Uncharacterized protein  16.1 1.3E+02  0.0014   16.0   0.5    8    4-11     55-62  (119)
+  5 5ODT_B Aurora kinase A (E.C.2.  14.5 1.9E+02   0.002   11.8   0.6    7    5-11      2-8   (46)
+  6 4UAF_B Importin alpha 1 import  13.5 2.5E+02  0.0027   12.6   0.9    9    3-11    456-464 (466)
+  7 5D5K_C Importin subunit alpha-  13.5 2.5E+02  0.0027   12.6   0.9    9    3-11    456-464 (466)
+  8 6C14_C Protocadherin-15, LHFPL  12.6 2.3E+02  0.0025   14.4   0.7    6    5-10      2-7   (337)
+  9 6PPO_U Capsid protein VP1, Cap  11.2 2.9E+02  0.0032   11.0   0.7    8    3-10      2-9   (132)
+ 10 5YHR_A Anti-CRISPR protein 30;   9.5 2.4E+02  0.0026   14.7   0.2    6    6-11     44-49  (97)
+
+No 1
+>2YST_A Protocadherin-7; Brain-heart protocadherin, BH-Pcdh, beta-sandwich, Structural; NMR {Homo sapiens}
+Probab=26.07  E-value=64  Score=9.77  Aligned_cols=7  Identities=43%  Similarity=0.491  Sum_probs=3.4  Template_Neff=14.900
+
+Q ss_pred             CCCCCCC
+Q tr|A0A6Q8PGP0|    3 ATDINDN    9 (11)
+Q Consensus         3 atdindn    9 (11)
+                      .+|.|++
+T Consensus         4 v~~~~~~   10 (119)
+T 2YST_A            4 GSSGNDN   10 (119)
+T ss_dssp             CCCSCCC
+T ss_pred             cccCCCC
+Confidence            4455554
+
+
+No 2
+>6LW4_B Uncharacterized protein lpg2148,Uncharacterized protein Lpg2149; complex, deamidase, transglutaminase, TRANSFERASE; 2.7A {Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 / ATCC 33152 / DSM 7513)}
+Probab=17.87  E-value=1.1e+02  Score=15.97  Aligned_cols=8  Identities=63%  Similarity=0.887  Sum_probs=5.7  Template_Neff=1.100
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A6Q8PGP0|    4 TDINDNSF   11 (11)
+Q Consensus         4 tdindnsf   11 (11)
+                      .|||.+||
+T Consensus        47 mdina~sf   54 (106)
+T 6LW4_B           47 MDINATSF   54 (106)
+T ss_dssp             SCTTCCSG
+T ss_pred             cCccccch
+Confidence            47787776
+
+
+No 3
+>6K3B_B Lpg2147, Uncharacterized protein; metaeffector, complex, deamidase, ANTITOXIN; 1.974A {Legionella pneumophila}
+Probab=17.84  E-value=1.1e+02  Score=16.03  Aligned_cols=8  Identities=63%  Similarity=0.887  Sum_probs=5.8  Template_Neff=1.100
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A6Q8PGP0|    4 TDINDNSF   11 (11)
+Q Consensus         4 tdindnsf   11 (11)
+                      .|||.+||
+T Consensus        49 mdina~sf   56 (108)
+T 6K3B_B           49 MDINATSF   56 (108)
+T ss_dssp             CCTTCCGG
+T ss_pred             ccccccch
+Confidence            47787776
+
+
+No 4
+>5DPO_A Uncharacterized protein; LPG2149 protein, UNKNOWN FUNCTION; HET: MSE; 1.644A {Legionella pneumophila str. Paris}
+Probab=16.14  E-value=1.3e+02  Score=16.02  Aligned_cols=8  Identities=63%  Similarity=0.887  Sum_probs=5.8  Template_Neff=1.100
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A6Q8PGP0|    4 TDINDNSF   11 (11)
+Q Consensus         4 tdindnsf   11 (11)
+                      .|||.+||
+T Consensus        55 mdina~sf   62 (119)
+T 5DPO_A           55 MDINATSF   62 (119)
+T ss_dssp             CCTTCCGG
+T ss_pred             ccccccch
+Confidence            47787776
+
+
+No 5
+>5ODT_B Aurora kinase A (E.C.2.7.11.1), Transforming; Mitotic kinase, Transferase; HET: ADP, GOL, SO4; 2.021A {Homo sapiens}
+Probab=14.48  E-value=1.9e+02  Score=11.83  Aligned_cols=7  Identities=29%  Similarity=0.909  Sum_probs=2.1  Template_Neff=5.900
+
+Q ss_pred             CCCCCCC
+Q tr|A0A6Q8PGP0|    5 DINDNSF   11 (11)
+Q Consensus         5 dindnsf   11 (11)
+                      |+|+++|
+T Consensus         2 ~vnE~~f    8 (46)
+T 5ODT_B            2 ELKEESF    8 (46)
+T ss_dssp             ---CCCC
+T ss_pred             CCccccC
+Confidence            3455554
+
+
+No 6
+>4UAF_B Importin alpha 1 import receptor; importin karyopherin complex NLS, PROTEIN; HET: PO4; 1.698A {Mus musculus}
+Probab=13.46  E-value=2.5e+02  Score=12.57  Aligned_cols=9  Identities=22%  Similarity=0.305  Sum_probs=4.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCC
+Q tr|A0A6Q8PGP0|    3 ATDINDNSF   11 (11)
+Q Consensus         3 atdindnsf   11 (11)
+                      ++|++.++|
+T Consensus       456 ~~~~~~~~~  464 (466)
+T 4UAF_B          456 VQDGAPGTF  464 (466)
+T ss_pred             ccCCCCCcc
+Confidence            444444444
+
+
+No 7
+>5D5K_C Importin subunit alpha-1, Poly [ADP-ribose]; PARP-2 NLS, PARP-2, poly(ADP-ribose)polymerase-2, Importin; 1.9A {Mus musculus}
+Probab=13.46  E-value=2.5e+02  Score=12.57  Aligned_cols=9  Identities=22%  Similarity=0.305  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCC
+Q tr|A0A6Q8PGP0|    3 ATDINDNSF   11 (11)
+Q Consensus         3 atdindnsf   11 (11)
+                      ++|++.++|
+T Consensus       456 ~~~~~~~~~  464 (466)
+T 5D5K_C          456 VQDGAPGTF  464 (466)
+T ss_dssp             ---------
+T ss_pred             ccCCCCCcc
+Confidence            444444444
+
+
+No 8
+>6C14_C Protocadherin-15, LHFPL tetraspan subfamily member; PCDH15, LHFPL5, protocadherin, tip link;{Mus musculus}
+Probab=12.62  E-value=2.3e+02  Score=14.36  Aligned_cols=6  Identities=17%  Similarity=0.484  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCC
+Q tr|A0A6Q8PGP0|    5 DINDNS   10 (11)
+Q Consensus         5 dindns   10 (11)
+                      |+|||.
+T Consensus         2 DvNDn~    7 (337)
+T 6C14_C            2 QYDDHP    7 (337)
+T ss_dssp             ----CC
+T ss_pred             CCCCCC
+
+
+No 9
+>6PPO_U Capsid protein VP1, Capsid protein; receptor, cadherin, VIRUS-CELL ADHESION complex; 3.2A {Rhinovirus C}
+Probab=11.19  E-value=2.9e+02  Score=10.98  Aligned_cols=8  Identities=38%  Similarity=0.671  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A6Q8PGP0|    3 ATDINDNS   10 (11)
+Q Consensus         3 atdindns   10 (11)
+                      ++|++|..
+T Consensus         2 ~~~~~~~~    9 (132)
+T 6PPO_U            2 ASDYKDDD    9 (132)
+T ss_dssp             HCTTSCCG
+T ss_pred             CCccccCC
+
+
+No 10
+>5YHR_A Anti-CRISPR protein 30; anti-CRISPR protein, VIRAL PROTEIN; HET: MSE; 1.34A {Pseudomonas phage D3112}
+Probab=9.49  E-value=2.4e+02  Score=14.66  Aligned_cols=6  Identities=50%  Similarity=0.778  Sum_probs=0.0  Template_Neff=1.600
+
+Q ss_pred             CCCCCC
+Q tr|A0A6Q8PGP0|    6 INDNSF   11 (11)
+Q Consensus         6 indnsf   11 (11)
+                      .+||||
+T Consensus        44 FdDNS~   49 (97)
+T 5YHR_A           44 FDDNSV   49 (97)
+T ss_dssp             CTTSEE
+T ss_pred             eCCCce
+
+

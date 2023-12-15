@@ -1,0 +1,169 @@
+Query         tr|H0YBC9|H0YBC9_HUMAN
+Match_columns 497
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:12:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1304.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3F8T_A MCM, Helicase, MCM homo  50.0      31 0.00034   33.1   2.9   37  444-483   106-142 (506)
+  2 4AYZ_A HEME-BINDING PROTEIN 2;  25.6 2.4E+02  0.0026   25.5   4.3   46  314-362   159-204 (208)
+  3 6RWC_A beta-microseminoprotein  23.4   1E+02  0.0011   25.1   1.5   31   53-83     52-83  (87)
+  4 5YT6_B Ubiquitin, Tax1-binding  19.0 1.1E+02  0.0012   21.9   0.9   12  475-486     1-12  (35)
+  5 5YT6_D Ubiquitin, Tax1-binding  19.0 1.1E+02  0.0012   21.9   0.9   12  475-486     1-12  (35)
+  6 3IX0_B Beta-microseminoprotein  17.2 1.9E+02  0.0021   24.0   1.9   32   52-83     58-90  (94)
+  7 1XHH_A BETA SRANDS, NOVEL FOLD  16.4 2.5E+02  0.0027   23.2   2.3   30   54-83     57-87  (91)
+  8 3R8J_B Heme-binding protein 2;  13.3 5.5E+02  0.0059   23.2   3.8   44  313-359   158-201 (212)
+  9 3L0S_C Adenylate kinase (E.C.2  12.5 2.8E+02  0.0031   24.7   1.8   17  477-494   149-165 (223)
+ 10 6ADQ_G Transmembrane cytochrom  11.1 2.3E+02  0.0025   25.1   0.9   24  116-139     2-25  (203)
+
+No 1
+>3F8T_A MCM, Helicase, MCM homolog, DNA; 1.9A {Methanopyrus kandleri AV19}
+Probab=50.03  E-value=31  Score=33.13  Aligned_cols=37  Identities=16%  Similarity=0.322  Sum_probs=30.6  Template_Neff=10.300
+
+Q ss_pred             eeccCCCCCCCCcceeeecceEeccCCCCCccccccCCCC
+Q tr|H0YBC9|H0YB  444 VMLDSLDSATPVNSICSVQGTVVGVDESTAFSWPVCDMCG  483 (497)
+Q Consensus       444 vmldsldsatpvnsicsvqgtvvgvdestafswpvcdmcg  483 (497)
+                      ..+.++.+.  +|...++.|+|+.+.+...+..|.|. ||
+T Consensus       106 ~~~~~l~~~--~~~lv~~~G~v~~~s~~~~~~~p~C~-C~  142 (506)
+T 3F8T_A          106 RRVERIRPM--DGALISIEGVVREVRGAERLEHAIVD-TG  142 (506)
+T ss_dssp             SSCSCCGGG--TTCEEEEEEEEEEEEESSSEEEEEEE-CS
+T ss_pred             eeceeeccc--CCCEEEEEeEEEEEEcceeccccccC-CC
+Confidence            345566554  89999999999999999999999998 86
+
+
+No 2
+>4AYZ_A HEME-BINDING PROTEIN 2; APOPTOSIS, HEME BINDING PROTEIN; HET: MSE; 3.5A {HOMO SAPIENS}
+Probab=25.56  E-value=2.4e+02  Score=25.51  Aligned_cols=46  Identities=24%  Similarity=0.308  Sum_probs=30.1  Template_Neff=8.700
+
+Q ss_pred             hhHHHHHhccCCCCceeEEEEEEecCCccceeeeeccceEEEEEEeccc
+Q tr|H0YBC9|H0YB  314 RCLRDILQMNDLGTRCSFYATVIYQKPQLKSLLLLEQREIWLLVTDVTL  362 (497)
+Q Consensus       314 rclrdilqmndlgtrcsfyatviyqkpqlkslllleqreiwllvtdvtl  362 (497)
+                      +-|++.|.-+.+...-..|....|..|.-.   .....|||+.+.+...
+T Consensus       159 ~~L~~~L~~~g~~~~~~~~~~a~Yd~p~~~---~~r~NEVwi~~~~~~~  204 (208)
+T 4AYZ_A          159 LTLASILREDGKVFDEKVYYTAGYNSPVKL---LNRNNEVWLIQKNEPT  204 (208)
+T ss_dssp             HHHHHHHHHTTCCCCCSCEEEEESSSSSCC---SCCCEEEEEECCC---
+T ss_pred             HHHHHHHHHcCCeeCCCceEEEEeCCCCcc---cCcceeEEEEecCCCC
+Confidence            457778877666544455667788887632   4566799999887654
+
+
+No 3
+>6RWC_A beta-microseminoprotein, chicken egg white, UNKNOWN; HET: SO4, CIT, 1PE; 2.143A {Gallus gallus}
+Probab=23.39  E-value=1e+02  Score=25.07  Aligned_cols=31  Identities=29%  Similarity=0.630  Sum_probs=25.3  Template_Neff=7.600
+
+Q ss_pred             cCCCCCCeeecccccc-eeccCCCCCceeEEe
+Q tr|H0YBC9|H0YB   53 IPSGSCPVILNTYFCE-KVVAKEDSEKTCEVY   83 (497)
+Q Consensus        53 ipsgscpvilntyfce-kvvakedsektcevy   83 (497)
+                      +|...|.+|+|.-.|. +||.+.|..+.|+++
+T Consensus        52 ~~~~~C~~i~d~~~C~y~vv~~~dp~~~C~~~   83 (87)
+T 6RWC_A           52 YDRVNCVGLFHKKSCSIRVVKKTDPDISCKVY   83 (87)
+T ss_dssp             SCTTTEEEEEETTTTEEEEEESSCTTSBCCCB
+T ss_pred             cCHhhceEEecCCCeEEEEEeCCCCCCcCcce
+Confidence            3546799999988776 788899999999875
+
+
+No 4
+>5YT6_B Ubiquitin, Tax1-binding protein 1; TAX1BP1, ubiquitin, complex, autophagy receptor; HET: SO4; 1.501A {Homo sapiens}
+Probab=19.00  E-value=1.1e+02  Score=21.89  Aligned_cols=12  Identities=50%  Similarity=1.190  Sum_probs=9.5  Template_Neff=6.400
+
+Q ss_pred             cccccCCCCCCC
+Q tr|H0YBC9|H0YB  475 SWPVCDMCGNGR  486 (497)
+Q Consensus       475 swpvcdmcgngr  486 (497)
+                      ||.+|.||+.-.
+T Consensus         1 s~k~CPmC~~~f   12 (35)
+T 5YT6_B            1 SWKVCPMCSEQF   12 (35)
+T ss_dssp             CCEECTTTCCEE
+T ss_pred             CCCcCCCCCCcC
+Confidence            689999998643
+
+
+No 5
+>5YT6_D Ubiquitin, Tax1-binding protein 1; TAX1BP1, ubiquitin, complex, autophagy receptor; HET: SO4; 1.501A {Homo sapiens}
+Probab=19.00  E-value=1.1e+02  Score=21.89  Aligned_cols=12  Identities=50%  Similarity=1.190  Sum_probs=9.5  Template_Neff=6.400
+
+Q ss_pred             cccccCCCCCCC
+Q tr|H0YBC9|H0YB  475 SWPVCDMCGNGR  486 (497)
+Q Consensus       475 swpvcdmcgngr  486 (497)
+                      ||.+|.||+.-.
+T Consensus         1 s~k~CPmC~~~f   12 (35)
+T 5YT6_D            1 SWKVCPMCSEQF   12 (35)
+T ss_dssp             CCEECTTTCCEE
+T ss_pred             CCCcCCCCCCcC
+Confidence            689999998643
+
+
+No 6
+>3IX0_B Beta-microseminoprotein; beta sheet, Greek key motif; 2.3A {Homo sapiens}
+Probab=17.16  E-value=1.9e+02  Score=23.99  Aligned_cols=32  Identities=34%  Similarity=0.534  Sum_probs=25.6  Template_Neff=7.500
+
+Q ss_pred             ecCCCCCCeeecccccc-eeccCCCCCceeEEe
+Q tr|H0YBC9|H0YB   52 IIPSGSCPVILNTYFCE-KVVAKEDSEKTCEVY   83 (497)
+Q Consensus        52 iipsgscpvilntyfce-kvvakedsektcevy   83 (497)
+                      .+|...|-+++|.-.|. +||.|+|..+.|.++
+T Consensus        58 ~~~~~~C~~v~d~~~C~y~vv~k~np~~~C~~~   90 (94)
+T 3IX0_B           58 GYDKDNCQRIFKKEDCKYIVVEKKDPKKTCSVS   90 (94)
+T ss_dssp             ESCTTTEEEEEEGGGTEEEEEETTEEEEECCCS
+T ss_pred             ccChhhceEEEeCCCceEEEEeCCCCCCcCcce
+Confidence            44656899999977775 788899999999864
+
+
+No 7
+>1XHH_A BETA SRANDS, NOVEL FOLD, beta-microseminoprotein; NMR {Sus scrofa}
+Probab=16.37  E-value=2.5e+02  Score=23.15  Aligned_cols=30  Identities=43%  Similarity=0.743  Sum_probs=23.9  Template_Neff=7.600
+
+Q ss_pred             CCCCCCeeecccccc-eeccCCCCCceeEEe
+Q tr|H0YBC9|H0YB   54 PSGSCPVILNTYFCE-KVVAKEDSEKTCEVY   83 (497)
+Q Consensus        54 psgscpvilntyfce-kvvakedsektcevy   83 (497)
+                      |...|.++++.--|. +||.+.|..+.|+++
+T Consensus        57 ~~~~C~~~~d~~~C~y~vv~~~np~~~C~~~   87 (91)
+T 1XHH_A           57 DTNKCQKILNKKTCTYTVVEKKDPGKTCDVT   87 (91)
+T ss_dssp             CCSSEEEEEETTTTEEEEEETTEEEEECCCC
+T ss_pred             CcccceEEEeCCCceEEEEeCCCCCCcccce
+Confidence            445799999877776 678889999999875
+
+
+No 8
+>3R8J_B Heme-binding protein 2; HEBP family, SOUL protein, APOPTOSIS; 1.6A {Homo sapiens}
+Probab=13.34  E-value=5.5e+02  Score=23.19  Aligned_cols=44  Identities=25%  Similarity=0.336  Sum_probs=30.0  Template_Neff=9.000
+
+Q ss_pred             hhhHHHHHhccCCCCceeEEEEEEecCCccceeeeeccceEEEEEEe
+Q tr|H0YBC9|H0YB  313 TRCLRDILQMNDLGTRCSFYATVIYQKPQLKSLLLLEQREIWLLVTD  359 (497)
+Q Consensus       313 trclrdilqmndlgtrcsfyatviyqkpqlkslllleqreiwllvtd  359 (497)
+                      ..-|++.|..+.+...-+.|..+.|..|.-.   ....-|||+.+..
+T Consensus       158 ~~~L~~~L~~~g~~~~~~~~~~a~Yd~p~~~---~~r~nEVwi~~~~  201 (212)
+T 3R8J_B          158 LLTLASILREDGKVFDEKVYYTAGYNSPVKL---LNRNNEVWLIQKN  201 (212)
+T ss_dssp             HHHHHHHHHHTTCCBCTTCEEEEESSSSSCS---SSCCEEEEEEBCC
+T ss_pred             HHHHHHHHHHcCCeeCCCceEEEEeCCCCcc---ccccceEEEEEcC
+Confidence            3457778877766554456677888887532   3566799998765
+
+
+No 9
+>3L0S_C Adenylate kinase (E.C.2.7.4.3); Adenylate kinase, Gram-negative, Cobalt, ATP-binding; HET: TAR; 2.0A {Desulfovibrio gigas}
+Probab=12.52  E-value=2.8e+02  Score=24.73  Aligned_cols=17  Identities=47%  Similarity=1.126  Sum_probs=13.3  Template_Neff=9.400
+
+Q ss_pred             cccCCCCCCCccCCCCCc
+Q tr|H0YBC9|H0YB  477 PVCDMCGNGRLEQRPEDR  494 (497)
+Q Consensus       477 pvcdmcgngrleqrpedr  494 (497)
+                      .+|+-|| ++|.+|++|.
+T Consensus       149 ~~c~~~~-~~l~~R~dD~  165 (223)
+T 3L0S_C          149 DVCRVCG-GALSARADDQ  165 (223)
+T ss_dssp             TBCTTTC-CBEECCGGGG
+T ss_pred             CccCCCC-CccEecCCCC
+Confidence            5799987 4788888774
+
+
+No 10
+>6ADQ_G Transmembrane cytochrome C oxidase subunit; Respiratory, Supercomplex, SOD, Mycobacterium, ETC; HET: 9Y0, 9XX, HEM, MQ9, HEA, HEC, PLM, 9YF, CDL; 3.5A {Mycobacterium smegmatis MC2 51}
+Probab=11.10  E-value=2.3e+02  Score=25.14  Aligned_cols=24  Identities=29%  Similarity=0.209  Sum_probs=18.7  Template_Neff=9.100
+
+Q ss_pred             EeccccCCCccccCccchcccCCC
+Q tr|H0YBC9|H0YB  116 CSGVATTGTAWTHGHKEAKQRIPT  139 (497)
+Q Consensus       116 csgvattgtawthghkeakqript  139 (497)
+                      .|.|.|.|||-+|-+.+.+++-+.
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~   25 (203)
+T 6ADQ_G            2 TSAVGTSGTAITSRVHSLNRPNMV   25 (203)
+T ss_pred             CccccccceeeeccCccCCCCChH
+Confidence            367899999999998777765443
+
+

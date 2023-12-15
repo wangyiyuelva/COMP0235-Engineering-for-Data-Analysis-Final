@@ -1,0 +1,164 @@
+Query         sp|A6NJU9|NPB13_HUMAN
+Match_columns 1138
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:11:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1406.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1BBY_A AVERAGE STRUCTURE TRANS  47.8      53 0.00057   28.5   3.7   28   29-56     30-57  (69)
+  2 6ZKE_x NADH dehydrogenase [ubi  31.8      61 0.00067   30.9   1.8   31   50-89     31-61  (76)
+  3 6ZKV_x NADH dehydrogenase [ubi  31.8      61 0.00067   30.9   1.8   31   50-89     31-61  (76)
+  4 7V2H_f Respiratory, Complex, E  30.7      62 0.00067   29.0   1.6   29   51-88      5-33  (49)
+  5 5FMF_V DNA REPAIR HELICASE RAD  30.7 1.2E+02  0.0013   30.8   3.6   25   30-54    136-160 (174)
+  6 5XTC_f NADH dehydrogenase [ubi  29.8      68 0.00074   28.5   1.7   28   52-88      6-33  (47)
+  7 2YWE_A GTP-binding protein lep  25.8      32 0.00035   39.3  -1.1   21   30-52    411-431 (600)
+  8 2YWF_A GTP-binding protein lep  25.8      32 0.00035   39.3  -1.1   32  180-211   565-596 (600)
+  9 6O9L_T DNA-directed RNA polyme  21.8   2E+02  0.0022   30.0   3.6   30   21-53    199-228 (249)
+ 10 7NVU_R RPB1, DNA-directed RNA   21.8   2E+02  0.0022   30.0   3.6   23   31-53    206-228 (249)
+
+No 1
+>1BBY_A AVERAGE STRUCTURE TRANSCRIPTION REGULATION, RAP30; NMR {Homo sapiens} SCOP: a.4.5.15
+Probab=47.79  E-value=53  Score=28.52  Aligned_cols=28  Identities=14%  Similarity=0.375  Sum_probs=23.2  Template_Neff=7.300
+
+Q ss_pred             hcCCChHHHHHHHHHHHHhhccCCCCCC
+Q sp|A6NJU9|NPB1   29 KSVTCPCEYLRKVINTLADHHHRGTDFG   56 (1138)
+Q Consensus        29 ksvtcpceylrkvintladhhhrgtdfg   56 (1138)
+                      .....|+.||+.|++.+|+.+.+|...|
+T Consensus        30 ~~~~Qp~~~lk~~L~~ia~~~~~g~~~~   57 (69)
+T 1BBY_A           30 DITKQPVVYLKEILKEIGVQNVKGIHKN   57 (69)
+T ss_dssp             HHCCSCHHHHHHHHHHHCCCBCCTTCCC
+T ss_pred             HHhCCChHHHHHHHHHHHhhcCCCCCCC
+Confidence            3456899999999999999999887543
+
+
+No 2
+>6ZKE_x NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, DCQ, MYR, NDP, AMP, FMN, ZMP, 2MR, AYA, CDL, SEP, FME, NAI; 2.6A {Ovis aries}
+Probab=31.83  E-value=61  Score=30.92  Aligned_cols=31  Identities=32%  Similarity=0.700  Sum_probs=22.8  Template_Neff=4.200
+
+Q ss_pred             cCCCCCCCCCchhHhhhCCCCchHHHHHHHHHHHHHHHHH
+Q sp|A6NJU9|NPB1   50 HRGTDFGGSPWLHVIIAFPTSYKVVITLWIVYLWVSLLKT   89 (1138)
+Q Consensus        50 hrgtdfggspwlhviiafptsykvvitlwivylwvsllkt   89 (1138)
+                      .+--|.+...|+.|.++|-||         |+||+-|+|.
+T Consensus        31 ~~~p~~~~PnWlkVGLt~GTs---------vfLW~~L~kQ   61 (76)
+T 6ZKE_x           31 IQEPPHGSPNWLKVGLTLGTS---------AFLWIYLIKQ   61 (76)
+T ss_pred             eeCCCCCCCChhhhHHHHHHH---------HHHHHHHHHH
+Confidence            344566788899999999987         4566666653
+
+
+No 3
+>6ZKV_x NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, MYR, NDP, AMP, FMN, ZMP, 2MR, CDL, SEP, FME; 2.9A {Ovis aries}
+Probab=31.83  E-value=61  Score=30.92  Aligned_cols=31  Identities=32%  Similarity=0.700  Sum_probs=22.8  Template_Neff=4.200
+
+Q ss_pred             cCCCCCCCCCchhHhhhCCCCchHHHHHHHHHHHHHHHHH
+Q sp|A6NJU9|NPB1   50 HRGTDFGGSPWLHVIIAFPTSYKVVITLWIVYLWVSLLKT   89 (1138)
+Q Consensus        50 hrgtdfggspwlhviiafptsykvvitlwivylwvsllkt   89 (1138)
+                      .+--|.+...|+.|.++|-||         |+||+-|+|.
+T Consensus        31 ~~~p~~~~PnWlkVGLt~GTs---------vfLW~~L~kQ   61 (76)
+T 6ZKV_x           31 IQEPPHGSPNWLKVGLTLGTS---------AFLWIYLIKQ   61 (76)
+T ss_pred             eeCCCCCCCChhhhHHHHHHH---------HHHHHHHHHH
+Confidence            344566788899999999987         4566666653
+
+
+No 4
+>7V2H_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=30.75  E-value=62  Score=28.95  Aligned_cols=29  Identities=41%  Similarity=0.850  Sum_probs=21.1  Template_Neff=3.900
+
+Q ss_pred             CCCCCCCCCchhHhhhCCCCchHHHHHHHHHHHHHHHH
+Q sp|A6NJU9|NPB1   51 RGTDFGGSPWLHVIIAFPTSYKVVITLWIVYLWVSLLK   88 (1138)
+Q Consensus        51 rgtdfggspwlhviiafptsykvvitlwivylwvsllk   88 (1138)
+                      +-.+.+...|+.|.++|-||         ++||+-|+|
+T Consensus         5 ~~p~~~~PnWlkVGLt~gTs---------~fLW~~L~k   33 (49)
+T 7V2H_f            5 REPPHGSPDWLKVGLTLGTS---------VFLWIYLIK   33 (49)
+T ss_pred             cCCCCCCCChhhhHHHHHHH---------HHHHHHHHH
+Confidence            34466778899999999987         455655554
+
+
+No 5
+>5FMF_V DNA REPAIR HELICASE RAD25, SSL2; TRANSCRIPTION, PRE-INITIATION COMPLEX, RNA POLYMERASE; 6.0A {SACCHAROMYCES CEREVISIAE}
+Probab=30.68  E-value=1.2e+02  Score=30.84  Aligned_cols=25  Identities=16%  Similarity=0.270  Sum_probs=21.2  Template_Neff=7.200
+
+Q ss_pred             cCCChHHHHHHHHHHHHhhccCCCC
+Q sp|A6NJU9|NPB1   30 SVTCPCEYLRKVINTLADHHHRGTD   54 (1138)
+Q Consensus        30 svtcpceylrkvintladhhhrgtd   54 (1138)
+                      ....|+.||+.|++.+|+++.+|..
+T Consensus       136 ~t~QP~~~LkevL~eIa~~~k~Gp~  160 (174)
+T 5FMF_V          136 RTRQPEAHLKECLDKVATLVKKGPY  160 (174)
+T ss_pred             HcCCCHHHHHHHHHHHHHHhhcCCC
+Confidence            3457889999999999999999843
+
+
+No 6
+>5XTC_f NADH dehydrogenase [ubiquinone] iron-sulfur protein; Homo sapiens, Oxidoreductase, Respiratory, Complex; HET: PEE, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=29.79  E-value=68  Score=28.52  Aligned_cols=28  Identities=32%  Similarity=0.669  Sum_probs=20.4  Template_Neff=3.900
+
+Q ss_pred             CCCCCCCCchhHhhhCCCCchHHHHHHHHHHHHHHHH
+Q sp|A6NJU9|NPB1   52 GTDFGGSPWLHVIIAFPTSYKVVITLWIVYLWVSLLK   88 (1138)
+Q Consensus        52 gtdfggspwlhviiafptsykvvitlwivylwvsllk   88 (1138)
+                      -.+.+...|+.|.++|-||         ++||+-|+|
+T Consensus         6 ~p~~~~PnWlkVGLt~gTs---------~fLW~~L~k   33 (47)
+T 5XTC_f            6 EPPNAKPDWLKVGFTLGTT---------VFLWIYLIK   33 (47)
+T ss_pred             CCCCCCCChhhhHHHHHHH---------HHHHHHHHH
+Confidence            3456778899999999987         455555554
+
+
+No 7
+>2YWE_A GTP-binding protein lepA; G domain, Beta-barrel, Ferredoxin-like domain; 2.05A {Aquifex aeolicus}
+Probab=25.82  E-value=32  Score=39.33  Aligned_cols=21  Identities=29%  Similarity=0.624  Sum_probs=17.7  Template_Neff=8.400
+
+Q ss_pred             cCCChHHHHHHHHHHHHhhccCC
+Q sp|A6NJU9|NPB1   30 SVTCPCEYLRKVINTLADHHHRG   52 (1138)
+Q Consensus        30 svtcpceylrkvintladhhhrg   52 (1138)
+                      .|.||-+|+-.|+..+.++  ||
+T Consensus       411 ~i~~p~~~~g~v~~~~~~r--rg  431 (600)
+T 2YWE_A          411 TIITPKEYVGPIIQLCQEK--RG  431 (600)
+T ss_dssp             EEEEEGGGHHHHHHHHHHT--TC
+T ss_pred             EEECChHHHHHHHHHHHHH--hh
+Confidence            5789999999999988774  66
+
+
+No 8
+>2YWF_A GTP-binding protein lepA; G domain, Beta-barrel, Ferredoxin-like domain; HET: GNP; 2.24A {Aquifex aeolicus}
+Probab=25.82  E-value=32  Score=39.33  Aligned_cols=32  Identities=25%  Similarity=0.524  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHH
+Q sp|A6NJU9|NPB1  180 RKQKMFQRAQELRRRAEDYHKCKIPPSARKAL  211 (1138)
+Q Consensus       180 rkqkmfqraqelrrraedyhkckippsarkal  211 (1138)
+                      ||+|..++-.+=.+|....-+..||..|--++
+T Consensus       565 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  596 (600)
+T 2YWF_A          565 RKKKLLENQKEGKKRMKQFGKVQLPQEAFLSV  596 (600)
+T ss_dssp             --------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHhhccccCCHHHHHHH
+Confidence            45555555556667777788888888775443
+
+
+No 9
+>6O9L_T DNA-directed RNA polymerase II, Transcription; Transcription initiation, Molecular dynamics, Gene; HET: ZN; 7.2A {Homo sapiens}
+Probab=21.77  E-value=2e+02  Score=29.95  Aligned_cols=30  Identities=20%  Similarity=0.457  Sum_probs=24.4  Template_Neff=8.100
+
+Q ss_pred             hHHHHHHhhcCCChHHHHHHHHHHHHhhccCCC
+Q sp|A6NJU9|NPB1   21 TKELQQHVKSVTCPCEYLRKVINTLADHHHRGT   53 (1138)
+Q Consensus        21 tkelqqhvksvtcpceylrkvintladhhhrgt   53 (1138)
+                      .++|+++   ...|..||+.|++.+|+.|.+|-
+T Consensus       199 lk~L~~~---t~QP~~~LkevL~eIa~~~k~G~  228 (249)
+T 6O9L_T          199 LKDLVDI---TKQPVVYLKEILKEIGVQNVKGI  228 (249)
+T ss_dssp             HHHHHHH---SCCCHHHHHHHHHHHEEEECTTS
+T ss_pred             HHHHHHH---HCCCHHHHHHHHHHHHhhcCCCC
+Confidence            3556554   46789999999999999999984
+
+
+No 10
+>7NVU_R RPB1, DNA-directed RNA polymerase subunit; Initiation, TRANSCRIPTION; HET: ZN; 2.5A {Sus scrofa}
+Probab=21.77  E-value=2e+02  Score=29.95  Aligned_cols=23  Identities=17%  Similarity=0.511  Sum_probs=20.3  Template_Neff=8.100
+
+Q ss_pred             CCChHHHHHHHHHHHHhhccCCC
+Q sp|A6NJU9|NPB1   31 VTCPCEYLRKVINTLADHHHRGT   53 (1138)
+Q Consensus        31 vtcpceylrkvintladhhhrgt   53 (1138)
+                      ...|..||+.|++.+|+.|.+|-
+T Consensus       206 t~QP~~~LkevL~eIa~~~k~G~  228 (249)
+T 7NVU_R          206 TKQPVVYLKEILKEIGVQNVKGI  228 (249)
+T ss_pred             HCCCHHHHHHHHHHHHhhcCCCC
+Confidence            45688999999999999999884
+
+

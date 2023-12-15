@@ -1,0 +1,167 @@
+Query         tr|M0R1W4|M0R1W4_HUMAN
+Match_columns 72
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:14:54 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0754.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3DR2_A Exported gluconolactona  47.8      36 0.00039   20.8   2.0   20    1-20      1-20  (305)
+  2 3DR2_B Exported gluconolactona  47.8      36 0.00039   20.8   2.0   20    1-20      1-20  (305)
+  3 3R8J_B Heme-binding protein 2;  42.2      48 0.00052   22.3   2.1   25   20-44      3-27  (212)
+  4 4AYZ_A HEME-BINDING PROTEIN 2;  22.6 1.7E+02  0.0018   20.0   2.2   25   20-44      3-27  (208)
+  5 2VY5_A U11/U12 SMALL NUCLEAR R  16.6 2.2E+02  0.0023   13.4   1.3   12   37-48      3-14  (37)
+  6 6RLB_D PROTEIN; dynein, cilia,   9.2 4.6E+02   0.005   19.0   1.6   10    4-13      4-13  (564)
+  7 6SC2_D DYNC2H1 variant protein   9.2 4.6E+02   0.005   19.0   1.6   10    4-13      4-13  (564)
+  8 1XCQ_S Capsid protein C/Monocl   6.9 2.4E+02  0.0026   17.0  -0.5   13   28-40     23-35  (44)
+  9 1XF5_P Capsid protein C/Monocl   6.9 2.4E+02  0.0026   17.0  -0.5   13   28-40     23-35  (44)
+ 10 6D5A_A L,D-transpeptidase 5 (E   6.0 8.1E+02  0.0088   17.6   1.6   25   47-71     18-42  (388)
+
+No 1
+>3DR2_A Exported gluconolactonase (E.C.3.1.1.17); Xanthomonas campestris, gluconolactonase crystal structure; 1.67A {Xanthomonas campestris pv. campestris}
+Probab=47.80  E-value=36  Score=20.81  Aligned_cols=20  Identities=35%  Similarity=0.574  Sum_probs=11.7  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|M0R1W4|M0R1    1 MDSPCQPQPLSQALPQLPGS   20 (72)
+Q Consensus         1 mdspcqpqplsqalpqlpgs   20 (72)
+                      ||+-|.+.|.+.+.+++...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~   20 (305)
+T 3DR2_A            1 MDSHCRVRPAGPAVPADCDP   20 (305)
+T ss_dssp             ---CCEEECSCCCEECSSCC
+T ss_pred             CCCceeeecCCCCCCCCCCC
+Confidence            67777777777776666543
+
+
+No 2
+>3DR2_B Exported gluconolactonase (E.C.3.1.1.17); Xanthomonas campestris, gluconolactonase crystal structure; 1.67A {Xanthomonas campestris pv. campestris}
+Probab=47.80  E-value=36  Score=20.81  Aligned_cols=20  Identities=35%  Similarity=0.574  Sum_probs=10.7  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|M0R1W4|M0R1    1 MDSPCQPQPLSQALPQLPGS   20 (72)
+Q Consensus         1 mdspcqpqplsqalpqlpgs   20 (72)
+                      ||+-|.+.|.+.+.+++...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~   20 (305)
+T 3DR2_B            1 MDSHCRVRPAGPAVPADCDP   20 (305)
+T ss_dssp             ----CEEECSCCCEECSSCC
+T ss_pred             CCCceeeecCCCCCCCCCCC
+Confidence            67777777777766666543
+
+
+No 3
+>3R8J_B Heme-binding protein 2; HEBP family, SOUL protein, APOPTOSIS; 1.6A {Homo sapiens}
+Probab=42.18  E-value=48  Score=22.32  Aligned_cols=25  Identities=36%  Similarity=0.626  Sum_probs=3.9  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcCCCCCC
+Q tr|M0R1W4|M0R1   20 SSSEPLEPEPGRARMGVESYLPCPL   44 (72)
+Q Consensus        20 ssseplepepgrarmgvesylpcpl   44 (72)
+                      .|.|+|+++|+.+.-....-+.||.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~e~P~   27 (212)
+T 3R8J_B            3 GSAEPLQPDPGAAEDAAAQAVETPG   27 (212)
+T ss_dssp             -------------------CCCCCC
+T ss_pred             CCCCCCCCCcccccccccccCCCCC
+Confidence            3678999999998877666667764
+
+
+No 4
+>4AYZ_A HEME-BINDING PROTEIN 2; APOPTOSIS, HEME BINDING PROTEIN; HET: MSE; 3.5A {HOMO SAPIENS}
+Probab=22.59  E-value=1.7e+02  Score=20.03  Aligned_cols=25  Identities=32%  Similarity=0.570  Sum_probs=5.2  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcCCCCCC
+Q tr|M0R1W4|M0R1   20 SSSEPLEPEPGRARMGVESYLPCPL   44 (72)
+Q Consensus        20 ssseplepepgrarmgvesylpcpl   44 (72)
+                      .-.++|.|+||++.--.-.-+.||.
+T Consensus         3 ~~~~~~~~~~~~~~~~~c~~~e~p~   27 (208)
+T 4AYZ_A            3 HMAEPLQPDPGAAEDAAAQAVETPG   27 (208)
+T ss_dssp             ---------------CCCCCCCCCC
+T ss_pred             CCCCCCCCCCccccchhhccCcCCC
+Confidence            3457899999987765544555654
+
+
+No 5
+>2VY5_A U11/U12 SMALL NUCLEAR RIBONUCLEOPROTEIN 48; SPLICING, MRNA PROCESSING, ALTERNATIVE SPLICING; NMR {HOMO SAPIENS} SCOP: g.37.1.7
+Probab=16.61  E-value=2.2e+02  Score=13.42  Aligned_cols=12  Identities=17%  Similarity=0.423  Sum_probs=6.9  Template_Neff=9.500
+
+Q ss_pred             CcCCCCCCCCCC
+Q tr|M0R1W4|M0R1   37 ESYLPCPLLPSY   48 (72)
+Q Consensus        37 esylpcpllpsy   48 (72)
+                      +.+..||.-++.
+T Consensus         3 ~~~~~cp~~~~h   14 (37)
+T 2VY5_A            3 DEVVICPYDSNH   14 (37)
+T ss_dssp             CCEEECSSSSSC
+T ss_pred             CCeeeCCCCCCC
+Confidence            445667765543
+
+
+No 6
+>6RLB_D PROTEIN; dynein, cilia, intraflagellar transport, complex; 4.5A {Homo sapiens}
+Probab=9.16  E-value=4.6e+02  Score=19.02  Aligned_cols=10  Identities=70%  Similarity=0.926  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R1W4|M0R1    4 PCQPQPLSQA   13 (72)
+Q Consensus         4 pcqpqplsqa   13 (72)
+                      .|||.|++||
+T Consensus         4 ~~~~~~~~~~   13 (564)
+T 6RLB_D            4 RAQPGPLSQA   13 (564)
+T ss_dssp             ----------
+T ss_pred             cCCCCccccC
+Confidence            3444444443
+
+
+No 7
+>6SC2_D DYNC2H1 variant protein; dynein, cilia, intraflagellar transport, complex; HET: ADP, ATP; 3.9A {Homo sapiens}
+Probab=9.16  E-value=4.6e+02  Score=19.02  Aligned_cols=10  Identities=70%  Similarity=0.926  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCC
+Q tr|M0R1W4|M0R1    4 PCQPQPLSQA   13 (72)
+Q Consensus         4 pcqpqplsqa   13 (72)
+                      .|||.|++||
+T Consensus         4 ~~~~~~~~~~   13 (564)
+T 6SC2_D            4 RAQPGPLSQA   13 (564)
+T ss_dssp             ----------
+T ss_pred             cCCCCccccC
+Confidence            3444444443
+
+
+No 8
+>1XCQ_S Capsid protein C/Monoclonal antibody 19D9D6; Crystal packing, Fab, protein L; 3.5A {Mus musculus}
+Probab=6.94  E-value=2.4e+02  Score=17.01  Aligned_cols=13  Identities=31%  Similarity=0.442  Sum_probs=10.3  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCcCC
+Q tr|M0R1W4|M0R1   28 EPGRARMGVESYL   40 (72)
+Q Consensus        28 epgrarmgvesyl   40 (72)
+                      -+|.+++-++-|+
+T Consensus        23 fpgg~~~~~~fyl   35 (44)
+T 1XCQ_S           23 FPGGGQIVGGVYL   35 (44)
+T ss_pred             cCCceeEEEEEEe
+Confidence            4677888888887
+
+
+No 9
+>1XF5_P Capsid protein C/Monoclonal antibody 19D9D6; Crystal packing, Fab, Protein L; 2.6A {Mus musculus}
+Probab=6.94  E-value=2.4e+02  Score=17.01  Aligned_cols=13  Identities=31%  Similarity=0.442  Sum_probs=10.3  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCcCC
+Q tr|M0R1W4|M0R1   28 EPGRARMGVESYL   40 (72)
+Q Consensus        28 epgrarmgvesyl   40 (72)
+                      -+|.+++-++-|+
+T Consensus        23 fpgg~~~~~~fyl   35 (44)
+T 1XF5_P           23 FPGGGQIVGGVYL   35 (44)
+T ss_pred             cCCceeEEEEEEe
+Confidence            4677888888887
+
+
+No 10
+>6D5A_A L,D-transpeptidase 5 (E.C.2.3.2.-); L, D transpeptidation, apo form; HET: PG4; 2.622A {Mycobacterium tuberculosis}
+Probab=5.97  E-value=8.1e+02  Score=17.62  Aligned_cols=25  Identities=16%  Similarity=0.165  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|M0R1W4|M0R1   47 SYHCPGVPSEASAGSGTPRATATST   71 (72)
+Q Consensus        47 syhcpgvpseasagsgtpratatst   71 (72)
+                      +++|.|..+++......+-......
+T Consensus        18 ~~~c~g~~~~~~~~~~~~p~v~~~~   42 (388)
+T 6D5A_A           18 GSHMAGKVTKLAEKRPPPAPRLTFR   42 (388)
+T ss_dssp             ---------CCCCCCCCCCCEEEEE
+T ss_pred             CcccCCCCCccCCCCCCCCCeEEEe
+
+

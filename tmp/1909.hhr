@@ -1,0 +1,304 @@
+Query         sp|Q6PK57|DMP34_HUMAN
+Match_columns 102
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:50:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1909.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AX3_K DYNAMIN, CYTOSOLIC PROT  99.5 1.4E-13 1.5E-18  112.3   7.0   79   19-101   646-724 (864)
+  2 4UUK_I DYNAMIN-1 (E.C.3.6.5.5)  99.5 1.4E-13 1.5E-18  111.9   6.9   78   20-101   647-724 (864)
+  3 3ZVR_A DYNAMIN-1 (E.C.3.6.5.5)  98.8 8.7E-09 9.4E-14   79.1   5.2   75   23-101   670-744 (772)
+  4 6DLU_P Dynamin-1 (E.C.3.6.5.5)  98.7 8.4E-08 9.1E-13   73.5   5.7   75   23-101   650-724 (748)
+  5 6FGZ_A Dynamin; Dynamin, mitoc  97.8 0.00011 1.2E-09   57.8   5.9   70   28-101   669-738 (774)
+  6 5WP9_E Dynamin-1-like protein   95.9   0.037   4E-07   42.3   5.1   71   27-101   613-683 (710)
+  7 5UOT_G Interferon-induced GTP-  94.0    0.39 4.2E-06   36.2   5.6   67   30-100   529-595 (619)
+  8 3LJB_A Interferon-induced GTP-  93.9    0.42 4.6E-06   31.5   5.1   63   32-98    209-271 (271)
+  9 3LJB_B Interferon-induced GTP-  93.9    0.42 4.6E-06   31.5   5.1   63   32-98    209-271 (271)
+ 10 5GTM_A Interferon-induced GTP-  92.8    0.51 5.5E-06   35.6   4.7   66   31-100   512-577 (601)
+ 11 4WHJ_B Myxovirus Resistance Pr  92.7    0.72 7.8E-06   35.6   5.4   66   31-100   553-618 (646)
+ 12 3SZR_A Interferon-induced GTP-  92.6    0.56   6E-06   35.6   4.7   67   31-101   519-585 (608)
+ 13 4BEJ_B DYNAMIN 1-LIKE PROTEIN   83.7       8 8.6E-05   29.2   5.4   68   30-101   523-590 (617)
+ 14 4BEJ_C DYNAMIN 1-LIKE PROTEIN   83.7       8 8.6E-05   29.2   5.4   68   30-101   523-590 (617)
+ 15 4X0R_B Interferon-induced GTP-  83.4      10 0.00011   25.0   5.2   56   32-91    183-238 (239)
+ 16 6CFZ_D Ask1, Dad3, Dad2, Duo1,  22.2 1.8E+02   0.002   21.1   2.4   14   35-48     46-59  (111)
+ 17 3E6P_L Prothrombin (E.C.3.4.21  20.1 1.2E+02  0.0013   19.8   1.1    9   35-43    147-155 (158)
+
+No 1
+>7AX3_K DYNAMIN, CYTOSOLIC PROTEIN; HET: GCP, MG;{Homo sapiens}
+Probab=99.48  E-value=1.4e-13  Score=112.27  Aligned_cols=79  Identities=84%  Similarity=1.108  Sum_probs=69.1  Template_Neff=8.800
+
+Q ss_pred             CCcCCCCcchhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhh
+Q sp|Q6PK57|DMP3   19 SFMHSMVPQLEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQ   98 (102)
+Q Consensus        19 sfmhsmvpqlewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeq   98 (102)
+                      +.+.++++++++++++|+.+|++||+||+++|.|.|    ||+|+|+||+.++++|..+|+..|+..+++++|++|++++
+T Consensus       646 ~~~~~~~~~~~~~ve~i~~lv~sY~~iv~k~~~D~V----Pk~I~~~lv~~~~~~l~~~l~~~l~~~~~~~~ll~E~~~~  721 (864)
+T 7AX3_K          646 SFMHSMDPQLERQVETIRNLVDSYMAIVNKTVRDLM----PKTIMHLMINNTKEFIFSELLANLYSCGDQNTLMEESAEQ  721 (864)
+T ss_dssp             -------CCHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHHHHTHHHHHHHHHHTHHHHHHHSSCHHHHSCCCHHH
+T ss_pred             cccccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHhcCCHHH
+Confidence            345567889999999999999999999999999999    9999999999999999999999999988899999999998
+
+
+Q ss_pred             hcC
+Q sp|Q6PK57|DMP3   99 AQR  101 (102)
+Q Consensus        99 aqr  101 (102)
+                      +++
+T Consensus       722 ~~~  724 (864)
+T 7AX3_K          722 AQR  724 (864)
+T ss_dssp             HHH
+T ss_pred             HHH
+Confidence            753
+
+
+No 2
+>4UUK_I DYNAMIN-1 (E.C.3.6.5.5); HYDROLASE, DYNAMIN, ENDOCYTOSIS, MEMBRANE FISSION; 12.5A {HOMO SAPIENS}
+Probab=99.48  E-value=1.4e-13  Score=111.89  Aligned_cols=78  Identities=83%  Similarity=1.112  Sum_probs=54.0  Template_Neff=8.900
+
+Q ss_pred             CcCCCCcchhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhh
+Q sp|Q6PK57|DMP3   20 FMHSMVPQLEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQA   99 (102)
+Q Consensus        20 fmhsmvpqlewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqa   99 (102)
+                      .+.++++++++++++|+.+|++||+||+++|.|.|    ||+|+|+||+.++++|..+|+..|+..+++++|++|+++++
+T Consensus       647 ~~~~~~~~l~~~ve~i~~lv~sY~~iv~k~~~D~V----Pk~I~~~lv~~~~~~l~~~l~~~l~~~~~~~~ll~E~~~~~  722 (864)
+T 4UUK_I          647 FMHSMDPQLERQVETIRNLVDSYMAIVNKTVRDLM----PKTIMHLMINNTKEFIFSELLANLYSCGDQNTLMEESAEQA  722 (864)
+T ss_dssp             ------CCTTTTHHHHHHHHHHHHHHHHHHHHHHH----HHHHHHHHHHHHHHHHHHHHHHGGGC---------------
+T ss_pred             ccccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHHHhcCCHHHH
+Confidence            44567888899999999999999999999999999    99999999999999999999999998888999999999987
+
+
+Q ss_pred             cC
+Q sp|Q6PK57|DMP3  100 QR  101 (102)
+Q Consensus       100 qr  101 (102)
+                      ++
+T Consensus       723 ~~  724 (864)
+T 4UUK_I          723 QR  724 (864)
+T ss_dssp             --
+T ss_pred             HH
+Confidence            64
+
+
+No 3
+>3ZVR_A DYNAMIN-1 (E.C.3.6.5.5); HYDROLASE, DRP1, DRP, ENDOCYTOSIS, MITOCHONDRIAL; HET: 1PE; 3.1A {RATTUS NORVEGICUS}
+Probab=98.85  E-value=8.7e-09  Score=79.07  Aligned_cols=75  Identities=83%  Similarity=1.080  Sum_probs=67.6  Template_Neff=10.500
+
+Q ss_pred             CCCcchhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   23 SMVPQLEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        23 smvpqlewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      ..++.+.++++.++.++.+||+||+++|+|+|    ||+|+|+||+.+.+.+.++|+..|+..+.++.||.|+++++++
+T Consensus       670 ~~~~~~~~~~~~i~~lv~aY~~iv~k~~~D~V----Pk~I~~~lv~~~~~~l~~~L~~~l~~~~~~~~Ll~E~~~~~~~  744 (772)
+T 3ZVR_A          670 SMDPQLERQVETIRNLVDSYMAIVNKTVRDLM----PKTIMHLMINNTKEFIFSELLANLYSCGDQNTLMEESAEQAQR  744 (772)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCHHHHHCCCCCCHHHHHHTCCTTTTTCCCHHHHHH
+T ss_pred             cCCHHHHHHHHHHHHHHHHhHHHHcccchhhh----chHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHhcccCHHHHHH
+Confidence            34566677899999999999999999999999    9999999999999999999999999988899999999998753
+
+
+No 4
+>6DLU_P Dynamin-1 (E.C.3.6.5.5); dynamin family, gtpase, pleckstrin homology; HET: GCP; 3.75A {Homo sapiens}
+Probab=98.67  E-value=8.4e-08  Score=73.52  Aligned_cols=75  Identities=83%  Similarity=1.080  Sum_probs=69.4  Template_Neff=10.500
+
+Q ss_pred             CCCcchhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   23 SMVPQLEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        23 smvpqlewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      ..++.+..+++.++.++.+||+||+++|+|.|    ||+|+|+||+.+.+.++.+|+..|+..+.++.||.|+++++++
+T Consensus       650 ~~~~~~~~~~~~i~~lv~aYf~iv~k~~~D~v----pk~I~~~lv~~~~~~l~~~L~~~L~~~~~~~~ll~E~~~~~~~  724 (748)
+T 6DLU_P          650 SMDPQLERQVETIRNLVDSYMAIVNKTVRDLM----PKTIMHLMINNTKEFIFSELLANLYSCGDQNTLMEESAEQAQR  724 (748)
+T ss_dssp             SCCCTHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCHHHHHCCCCCHHHHHHHSSCHHHHSCCCHHHHHH
+T ss_pred             cCCHHHHHHHHHHHHHHHHHHHHHchhhhhcc----ChHHHHHHHHHHHHHHHHHHHHHHcCCCCHHHhccCCHHHHHH
+Confidence            35667778899999999999999999999999    9999999999999999999999999988899999999998753
+
+
+No 5
+>6FGZ_A Dynamin; Dynamin, mitochondrial fission, LIPID BINDING; 7.002A {Cyanidioschyzon merolae}
+Probab=97.80  E-value=0.00011  Score=57.78  Aligned_cols=70  Identities=30%  Similarity=0.478  Sum_probs=62.6  Template_Neff=10.200
+
+Q ss_pred             hhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   28 LEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        28 lewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      ....++.++..+.+||+|+++||.|+|    ||+|+|+|++.+.+.+..+|+..|+..+.+..||.|+++++++
+T Consensus       669 ~~~~~~~i~~~v~aYf~ia~kr~~D~V----pk~I~~~lv~~~~~~l~~~L~~~L~~~~~~~~ll~E~~~~~~~  738 (774)
+T 6FGZ_A          669 DRDDIELIQTLLASYFDVVRVNMMDMV----PKAIMSFLVLRARDRMQSRLVADLYKPERMSELLNESSDVAER  738 (774)
+T ss_dssp             ---HHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCCHHHHHHHHHHHHHTTSSSCTTHHHHHTTGGGTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHhHHhhhhH----HHHHHHHHHHHHHHHHHHHHHHHHhChhHHHHHhcCCHHHHHH
+Confidence            345677889999999999999999999    9999999999999999999999998767789999999999865
+
+
+No 6
+>5WP9_E Dynamin-1-like protein (E.C.3.6.5.5), Mitochondrial dynamics; Mitochondrial division, Dynamin related-protein-1, Nucleotide; HET: GCP; 4.22A {Homo sapiens}
+Probab=95.94  E-value=0.037  Score=42.29  Aligned_cols=71  Identities=35%  Similarity=0.541  Sum_probs=63.5  Template_Neff=11.000
+
+Q ss_pred             chhhhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   27 QLEWQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        27 qlewqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      .....+..++..+.+||+|+++||.|+|    |++|+++|++.+.+.+..+|+..|...+.+..|+.|+++++++
+T Consensus       613 ~~~~~~~~i~~~v~aY~~ia~kr~~D~v----p~~I~~~ll~~~~~~l~~~l~~~l~~~~~~~~l~~E~~~~~~~  683 (710)
+T 5WP9_E          613 REQRDCEVIERLIKSYFLIVRKNIQDSV----PKAVMHFLVNHVKDTLQSELVGQLYKSSLLDDLLTESEDMAQR  683 (710)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCHHHHHHHHHHHHHHHCCTTHHHHTCCCCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHcHHhHhhh----HHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHhcCCHHHHHH
+Confidence            3445677899999999999999999999    9999999999999999999999988666789999999998753
+
+
+No 7
+>5UOT_G Interferon-induced GTP-binding protein Mx2; cryoEM, mx2, mxb, assembly, interferon; 4.6A {Homo sapiens}
+Probab=93.97  E-value=0.39  Score=36.16  Aligned_cols=67  Identities=16%  Similarity=0.226  Sum_probs=59.1  Template_Neff=11.100
+
+Q ss_pred             hhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhc
+Q sp|Q6PK57|DMP3   30 WQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQ  100 (102)
+Q Consensus        30 wqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaq  100 (102)
+                      .....+...+.+||+++.++|+|+|    |++|.++|++.+.+.+...++..+...+.+..|+.|++++++
+T Consensus       529 ~~~~~~~~~~~~Y~~i~~~r~~d~v----~~~i~~~l~~~~~~~~~~~~~~~l~~~~~~~~l~~E~~~~~~  595 (619)
+T 5UOT_G          529 SSFTEIGIHLNAYFLETSKRLANQI----PFIIQYFMLRENGDSLQKAMMQILQEKNRYSWLLQEQSETAT  595 (619)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCCCHHHHHHHHHHHHTSCSSHHHHHTCBCHHHHH
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHhHH----HHHHHHHHHHHHHHHHHHHHHHHHhccccHHHHccCCHHHHH
+Confidence            3455788999999999999999999    999999999999999999998888655678999999998765
+
+
+No 8
+>3LJB_A Interferon-induced GTP-binding protein Mx1; FOUR-HELIX-BUNDLE, GTP-binding, ANTIVIRAL PROTEIN; 2.4A {Homo sapiens}
+Probab=93.87  E-value=0.42  Score=31.53  Aligned_cols=63  Identities=17%  Similarity=0.220  Sum_probs=55.2  Template_Neff=11.400
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhh
+Q sp|Q6PK57|DMP3   32 METTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQ   98 (102)
+Q Consensus        32 mettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeq   98 (102)
+                      +..+...+.+||+++.++|.|.|    ||.|.++|++.+.+.+..+|+..+..++.+..|+.|+|++
+T Consensus       209 ~~~~~~~~~ay~~~~~~~~~D~v----~~~i~~~l~~~~~~~~~~~l~~~l~~~~~~~~ll~E~~~~  271 (271)
+T 3LJB_A          209 MEEIFQHLMAYHQEASKRISSHI----PLIIQFFMLQTYGQQLQKAMLQLLQDKDTYSWLLKERSDT  271 (271)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH----HHHHHCCCCCCHHHHHHHHHHHTTSCGGGHHHHTCCC---
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhH----HHHHHHHHHHHHHHHHHHHHHHHHcCcchhHHhcccCCCC
+Confidence            45688999999999999999999    9999999999999999999999988556789999999874
+
+
+No 9
+>3LJB_B Interferon-induced GTP-binding protein Mx1; FOUR-HELIX-BUNDLE, GTP-binding, ANTIVIRAL PROTEIN; 2.4A {Homo sapiens}
+Probab=93.87  E-value=0.42  Score=31.53  Aligned_cols=63  Identities=17%  Similarity=0.220  Sum_probs=56.0  Template_Neff=11.400
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhh
+Q sp|Q6PK57|DMP3   32 METTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQ   98 (102)
+Q Consensus        32 mettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeq   98 (102)
+                      +..+...+.+||+++.++|.|.|    ||.|.++|++.+.+.+..+|+..+..++.+..|+.|+|++
+T Consensus       209 ~~~~~~~~~ay~~~~~~~~~D~v----~~~i~~~l~~~~~~~~~~~l~~~l~~~~~~~~ll~E~~~~  271 (271)
+T 3LJB_B          209 MEEIFQHLMAYHQEASKRISSHI----PLIIQFFMLQTYGQQLQKAMLQLLQDKDTYSWLLKERSDT  271 (271)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHH----HHHHHCCCCCCHHHHHHHHHHGGGSCGGGHHHHTCCGGGC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhH----HHHHHHHHHHHHHHHHHHHHHHHHcCcchhHHhcccCCCC
+Confidence            45688999999999999999999    9999999999999999999999988556789999999874
+
+
+No 10
+>5GTM_A Interferon-induced GTP-binding protein Mx1; hydrolysis, antiviral activity, ANTIVIRAL PROTEIN; 2.896A {Homo sapiens}
+Probab=92.84  E-value=0.51  Score=35.58  Aligned_cols=66  Identities=15%  Similarity=0.170  Sum_probs=57.2  Template_Neff=11.000
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhc
+Q sp|Q6PK57|DMP3   31 QMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQ  100 (102)
+Q Consensus        31 qmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaq  100 (102)
+                      .+..+...+.+||+++.++|+|+|    |++|.++|++.+.+.+...++..+...+.+..|+.|++++.+
+T Consensus       512 ~~~~~~~~~~aY~~va~krf~D~v----~~~i~~~l~~~~~~~~~~~l~~~l~~~~~~~~l~~E~~~~~~  577 (601)
+T 5GTM_A          512 SMEEIFQHLMAYHQEASKRISSHI----PLIIQFFMLQTYGQQLQSAMSQLSQDKDTYSWLLKERSDTSD  577 (601)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHH----HHHHHCCCCCCHHHHHHHHHHGGGGCGGGHHHHTCCCHHHHH
+T ss_pred             cHHHHHHHHHHHHHHHHHHHHhhH----HHHHHHHHHHHHHHHHHHHHHHHhcChhHHHHHhcCCHHHHH
+Confidence            355788999999999999999999    999999999999888888888777655678999999998865
+
+
+No 11
+>4WHJ_B Myxovirus Resistance Protein 2 (MxB); Dimer, 4-helix bundle, GTPase, ANTIVIRAL; 3.2A {Homo sapiens}
+Probab=92.66  E-value=0.72  Score=35.56  Aligned_cols=66  Identities=17%  Similarity=0.246  Sum_probs=59.5  Template_Neff=10.700
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhc
+Q sp|Q6PK57|DMP3   31 QMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQ  100 (102)
+Q Consensus        31 qmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaq  100 (102)
+                      ....+...+.+||+++.+||+|+|    |++|.++|++.+.+.+...++..|...+.+..|+.|++++++
+T Consensus       553 ~~~~~~~~l~aY~~v~~~r~~D~v----~~~i~~~l~~~~~~~l~~~~~~~l~~~~~~~~l~~E~~~~~~  618 (646)
+T 4WHJ_B          553 SFTEIGIHLNAYFLETSKRLANQI----PFIIQYFMLRENGDSLQKAMMQILQEKNRYSWLLQEQSETAT  618 (646)
+T ss_dssp             CTTHHHHHHHHHHHHHHHHHHHHH----HHHHHCCCCCCHHHHHHHHHHHHTTCGGGHHHHSCCCSHHHH
+T ss_pred             cHHHHHHHHHHHHHHHHHHHHhHH----HHHHHHHHHHHHHHHHHHHHHHHHccchhHHHHhcCCHHHHH
+Confidence            345789999999999999999999    999999999999999999999988755778999999998765
+
+
+No 12
+>3SZR_A Interferon-induced GTP-binding protein Mx1; Interferon-induced antiviral GTPase, membrane associated; 3.5A {Homo sapiens}
+Probab=92.60  E-value=0.56  Score=35.57  Aligned_cols=67  Identities=16%  Similarity=0.231  Sum_probs=58.4  Template_Neff=10.900
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   31 QMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        31 qmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      .++.+.+.+.+||+++.++|+|+|    |++|.++|++.+.+.+...|+..+...+.+..|+.|++++.++
+T Consensus       519 ~~~~~~~~~~aY~~va~~r~~D~v----~~~i~~~l~~~~~~~~~~~l~~~l~~~~~~~~l~~E~~~~~~~  585 (608)
+T 3SZR_A          519 SMEEIFQHLMAYHQEASKRISSHI----PLIIQFFMLQTYGQQLQKAMLQLLQDKDTYSWLLKERSDTSDK  585 (608)
+T ss_dssp             CTTHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCCCHHHHHHHHHHTTTTCHHHHHHHTCCCHHHHHH
+T ss_pred             cHHHHHHHHHHHHHHHHHHhhhhH----HHHHHHHHHHHHHHHHHHHHHHHhcChhhHHHHhcCChhHHHH
+Confidence            345788999999999999999999    9999999999999888888888776546789999999988753
+
+
+No 13
+>4BEJ_B DYNAMIN 1-LIKE PROTEIN (E.C.3.6.5.5); HYDROLASE, G PROTEIN, MITOCHONDRIAL FISSION; 3.483A {HOMO SAPIENS}
+Probab=83.73  E-value=8  Score=29.21  Aligned_cols=68  Identities=37%  Similarity=0.562  Sum_probs=57.0  Template_Neff=11.300
+
+Q ss_pred             hhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   30 WQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        30 wqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      ..+..++..+.+||+++.++|+|+|    |++|.++|++.+.+.+...++..+...+.+..|+.|+++++++
+T Consensus       523 ~~~~~~~~~~~aY~~~a~~r~~d~v----~~~i~~~ll~~~~~~l~~~~~~~l~~~~~~~~l~~E~~~~~~~  590 (617)
+T 4BEJ_B          523 RDCEVIERLIKSYFLIVRKNIQDSV----PKAVMHFLVNHVKDTLQSELVGQLYKSSLLDDLLTESEDMAQR  590 (617)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCCHHHHHHHHHHHHHHCCHHHHHHHTC---CTHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcHH----HHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHccCCHHHHHH
+Confidence            4567799999999999999999999    9999999999988889999998886555678999999988753
+
+
+No 14
+>4BEJ_C DYNAMIN 1-LIKE PROTEIN (E.C.3.6.5.5); HYDROLASE, G PROTEIN, MITOCHONDRIAL FISSION; 3.483A {HOMO SAPIENS}
+Probab=83.73  E-value=8  Score=29.21  Aligned_cols=68  Identities=37%  Similarity=0.562  Sum_probs=54.6  Template_Neff=11.300
+
+Q ss_pred             hhhhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhccccchhhhcC
+Q sp|Q6PK57|DMP3   30 WQMETTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNMLMEESAEQAQR  101 (102)
+Q Consensus        30 wqmettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknmlmeesaeqaqr  101 (102)
+                      ..+..++..+.+||+++.++|+|+|    |++|.++|++.+.+.+...++..+...+.+..|+.|+++++++
+T Consensus       523 ~~~~~~~~~~~aY~~~a~~r~~d~v----~~~i~~~ll~~~~~~l~~~~~~~l~~~~~~~~l~~E~~~~~~~  590 (617)
+T 4BEJ_C          523 RDCEVIERLIKSYFLIVRKNIQDSV----PKAVMHFLVNHVKDTLQSELVGQLYKSSLLDDLLTESEDMAQR  590 (617)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHH----HHHHCCCCCCHHHHHHHHHHHHHHCCHHHHHHHTCC------C
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcHH----HHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHccCCHHHHHH
+Confidence            4567789999999999999999999    9999999999988889999998886555678999999998764
+
+
+No 15
+>4X0R_B Interferon-induced GTP-binding protein Mx2; myxovirus resistance protein 2, anti-HIV; 2.905A {Homo sapiens}
+Probab=83.37  E-value=10  Score=24.96  Aligned_cols=56  Identities=14%  Similarity=0.196  Sum_probs=47.9  Template_Neff=11.200
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHhCCCchhHHHHHHHHHHhCChhhc
+Q sp|Q6PK57|DMP3   32 METTQSLVDSYVAIVNKTVWDLMVGLTPKTIMHLMINNNKEFIFSELLANLYLHGDKNML   91 (102)
+Q Consensus        32 mettqslvdsyvaivnktvwdlmvgltpktimhlminnnkefifsellanlylhgdknml   91 (102)
+                      ...++..+.+||+++.++|+|+|    ||+|.++|++.+.+.+...|+..+...+.+.+|
+T Consensus       183 ~~~~~~~~~aY~~i~~~r~~D~v----~~~i~~~l~~~~~~~~~~~l~~~l~~~~~~~~l  238 (239)
+T 4X0R_B          183 FTEIGIHLNAYFLETSKRLANQI----PFIIQYFMLRENGDSLQKAMMQILQEKNRYSWL  238 (239)
+T ss_dssp             -CCTHHHHHHHHHHHHHHHHHHH----HHHHHCCCCCCHHHHHHHHHHHTTSSGGGTTTC
+T ss_pred             HHHHHHHHHHHHHHHhhhhHhHH----HHHHHHHHHhhHHHHHHHHHHHHHhhhhchhhh
+Confidence            34578999999999999999999    999999999999999999998887765555554
+
+
+No 16
+>6CFZ_D Ask1, Dad3, Dad2, Duo1, Dad4; DASH, Dam1 complex, Ask1, Dad1;{Chaetomium thermophilum}
+Probab=22.20  E-value=1.8e+02  Score=21.11  Aligned_cols=14  Identities=7%  Similarity=0.520  Sum_probs=6.5  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q sp|Q6PK57|DMP3   35 TQSLVDSYVAIVNK   48 (102)
+Q Consensus        35 tqslvdsyvaivnk   48 (102)
+                      ...+++.|..|...
+T Consensus        46 T~~LLD~w~~ILsQ   59 (111)
+T 6CFZ_D           46 ATTLLNTWTRMLSQ   59 (111)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHc
+Confidence            34444555544444
+
+
+No 17
+>3E6P_L Prothrombin (E.C.3.4.21.5); Thrombin, meizothrombin, allostery, linkage, Na+; HET: DFK, NAG; 2.1A {Homo sapiens}
+Probab=20.11  E-value=1.2e+02  Score=19.80  Aligned_cols=9  Identities=33%  Similarity=0.859  Sum_probs=5.4  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHH
+Q sp|Q6PK57|DMP3   35 TQSLVDSYV   43 (102)
+Q Consensus        35 tqslvdsyv   43 (102)
+                      .+.++++|.
+T Consensus       147 ~~~~~~~~~  155 (158)
+T 3E6P_L          147 ERELLESYI  155 (158)
+T ss_dssp             HHHHHHHHH
+T ss_pred             hHHHHHHHh
+Confidence            455666664
+
+

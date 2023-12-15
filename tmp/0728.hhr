@@ -1,0 +1,185 @@
+Query         sp|A0A096LPI5|GVQW2_HUMAN
+Match_columns 108
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 12:39:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0728.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DSK_A Sodium-dependent neutra  98.3 3.2E-06 3.5E-11   66.4   5.3  102    4-105    23-127 (647)
+  2 7CCS_A 4F2 cell-surface antige  97.7 3.8E-05 4.1E-10   60.2   1.5   96    7-102    13-109 (631)
+  3 7D3F_D Dual oxidase 1 (E.C.1.1  93.6     0.1 1.1E-06   46.2   2.3   27   36-62    442-468 (483)
+  4 6BCD_A Mitotic spindle assembl  19.6   1E+02  0.0011   22.5   0.8   13   96-108     8-20  (227)
+  5 4KPN_E Nucleoside N-ribohydrol  18.6      95   0.001   23.7   0.4   10   96-105     8-17  (345)
+  6 6CPD_A PmoD; copper, cupredoxi  18.5 1.4E+02  0.0015   21.7   1.1   45   12-58      1-45  (128)
+  7 6CPD_B PmoD; copper, cupredoxi  18.5 1.4E+02  0.0015   21.7   1.1   45   12-58      1-45  (128)
+  8 2PSQ_A Fibroblast growth facto  17.9      47 0.00051   23.2  -1.2   13   96-108     8-20  (370)
+  9 5OQ5_A Serine/threonine-protei  15.4   2E+02  0.0021   18.6   1.2   14   85-98    279-292 (297)
+ 10 2LEK_A Putative thiamin biosyn  15.1 1.7E+02  0.0018   16.4   0.8   27   72-98     46-72  (73)
+
+No 1
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=98.26  E-value=3.2e-06  Score=66.41  Aligned_cols=102  Identities=16%  Similarity=0.011  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCCCCCcccccccceeccCCCCCCCCCCCcceecccCCCCCCcccceeeCCCc--ccCCcccccccccCCCCCC
+Q sp|A0A096LPI5|    4 PFRKLLRPSTESCCVAQARVQWCHLGSLQPPLPGFKQFSCHSLPSSWDYRWNLTLSPRL--ECSGAISAHCNLCLPDLSD   81 (108)
+Q Consensus         4 pfrkllrpstesccvaqarvqwchlgslqpplpgfkqfschslpsswdyrwnltlsprl--ecsgaisahcnlclpdlsd   81 (108)
+                      +|.-|+|++++++++++++++++.+.+++++.+..++++++++++++++++++++.+++  ++++++++|+|++++++++
+T Consensus        23 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~l~l~~s~~~~~~~~~~a~~~~~~~~~~~~q~gl~~~~s~~  102 (647)
+T 7DSK_A           23 SIAVVSIPRQLPGSHSEAGVQGLSAGDDSETGSDCVTQAGLQLLASSDPPALASKNAEVTVETGFHHVSQADIEFLTSID  102 (647)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             eEEEEEecCCCCCccccccccCcCCCCCCCCCcceEeeceecCCCCCCCCCcccccEEEEEEeeeecccccccccccCCC
+Confidence            46668899999999999999999999999999999999999999999999999999998  8999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCC-CCCCCCCCCeEE
+Q sp|A0A096LPI5|   82 SPASTSRVAGTT-GAHHHAQEPVVI  105 (108)
+Q Consensus        82 spastsrvagtt-gahhhaqepvvi  105 (108)
+                      ++++++|+++++ |++|++++++..
+T Consensus       103 ~~~~~~q~~~~~~~~~~~~~~~~~~  127 (647)
+T 7DSK_A          103 PTASASGSAGITGTMSQDTEVDMKE  127 (647)
+T ss_dssp             -------------------------
+T ss_pred             CCcccccccccccccccccCCccce
+Confidence            999999999999 999999998743
+
+
+No 2
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=97.66  E-value=3.8e-05  Score=60.18  Aligned_cols=96  Identities=21%  Similarity=0.083  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCcccccccceeccCCCCCCCCCCCcceecccCCCCCCcccceeeCCCc-ccCCcccccccccCCCCCCCCCC
+Q sp|A0A096LPI5|    7 KLLRPSTESCCVAQARVQWCHLGSLQPPLPGFKQFSCHSLPSSWDYRWNLTLSPRL-ECSGAISAHCNLCLPDLSDSPAS   85 (108)
+Q Consensus         7 kllrpstesccvaqarvqwchlgslqpplpgfkqfschslpsswdyrwnltlsprl-ecsgaisahcnlclpdlsdspas   85 (108)
+                      -.++|+.+++++++|.++...+..++++++..+++++++++++++++++..+.+++ ++++++++|+|++++++++++++
+T Consensus        13 ~~~~~~~~~~~~~~f~~~~~~~~~~l~~~~~~~~~~~l~l~~s~~~~~s~~~~a~~~~~~~~~~~q~gl~ll~s~~~~~~   92 (631)
+T 7CCS_A           13 VVSIPRQLPGSHSEAGVQGLSAGDDSELGSHCVAQTGLELLASGDPLPSASQNAEMIETGSDCVTQAGLQLLASSDPPAL   92 (631)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             eeeccccCCCCcccccccceecccceecCceEEEEeeecCCCCCCCCCcHHHhhHHHHhccccchhcccchhcCCCCCcc
+Confidence            35689999999999999999999999999999999999999999999999999998 99999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q sp|A0A096LPI5|   86 TSRVAGTTGAHHHAQEP  102 (108)
+Q Consensus        86 tsrvagttgahhhaqep  102 (108)
+                      +++++++++++|++++.
+T Consensus        93 ~~~~~~~~~~~~~~~~~  109 (631)
+T 7CCS_A           93 ASKNAEVTGTMSQDTEV  109 (631)
+T ss_dssp             -----------------
+T ss_pred             cccccccccccccCCCC
+Confidence            99999999888876643
+
+
+No 3
+>7D3F_D Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.3A {Homo sapiens}
+Probab=93.55  E-value=0.1  Score=46.22  Aligned_cols=27  Identities=41%  Similarity=0.758  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCCcceecccCCCCCCcccceeeCCCc
+Q sp|A0A096LPI5|   36 PGFKQFSCHSLPSSWDYRWNLTLSPRL   62 (108)
+Q Consensus        36 pgfkqfschslpsswdyrwnltlsprl   62 (108)
+                      ..++...++.+|.+||+++.+++.+..
+T Consensus       442 p~l~~s~~l~Lpkcwdyr~~p~~~~~~  468 (483)
+T 7D3F_D          442 SGLKRPSCLDLPKCWDYRRDARAFFHL  468 (483)
+T ss_dssp             ---------------------------
+T ss_pred             CCCCCCCCCCCCcccccCCCCCccHHH
+Confidence            344556678899999999999988764
+
+
+No 4
+>6BCD_A Mitotic spindle assembly checkpoint protein; DNA damage tolerance, translesion DNA; 1.43A {Homo sapiens}
+Probab=19.60  E-value=1e+02  Score=22.48  Aligned_cols=13  Identities=38%  Similarity=0.874  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCeEEEeC
+Q sp|A0A096LPI5|   96 HHHAQEPVVIRKM  108 (108)
+Q Consensus        96 hhhaqepvvirkm  108 (108)
+                      |||.|.|-+..||
+T Consensus         8 ~~~~~~~~~~~~~   20 (227)
+T 6BCD_A            8 HHHSQDPNSMTTL   20 (227)
+T ss_dssp             -----------CC
+T ss_pred             cccCCCCCccccc
+
+
+No 5
+>4KPN_E Nucleoside N-ribohydrolase 1 (E.C.3.2.2.1); IU-NRHs, hydrolase; 3.35A {Physcomitrella patens}
+Probab=18.59  E-value=95  Score=23.75  Aligned_cols=10  Identities=60%  Similarity=1.099  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCCCeEE
+Q sp|A0A096LPI5|   96 HHHAQEPVVI  105 (108)
+Q Consensus        96 hhhaqepvvi  105 (108)
+                      |||.|.|.|+
+T Consensus         8 ~~~~~~~~~~   17 (345)
+T 4KPN_E            8 HHHSQDPAVP   17 (345)
+T ss_dssp             ----------
+T ss_pred             cccCCCCCCc
+
+
+No 6
+>6CPD_A PmoD; copper, cupredoxin, periplasm, METAL BINDING; 1.903A {Methylocystis sp. ATCC 49242}
+Probab=18.46  E-value=1.4e+02  Score=21.67  Aligned_cols=45  Identities=16%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCcccccccceeccCCCCCCCCCCCcceecccCCCCCCcccceee
+Q sp|A0A096LPI5|   12 STESCCVAQARVQWCHLGSLQPPLPGFKQFSCHSLPSSWDYRWNLTL   58 (108)
+Q Consensus        12 stesccvaqarvqwchlgslqpplpgfkqfschslpsswdyrwnltl   58 (108)
+                      +...-|+.+..-.+.|+...|| .-+.++| |+.+|..-.-.+-+.+
+T Consensus         1 ~~~d~C~~~~g~~~vhfsaYQP-~~~~~~~-C~~iP~~G~t~iv~Dl   45 (128)
+T 6CPD_A            1 SMGNMCMVMFGYDMIHITVFQP-DKSRSEY-CDEIPATGRTIMAFDI   45 (128)
+T ss_dssp             --CCSBEEEETTEEEEEEEECT-TTCSCEE-SSEECSSEEEEEEEEE
+T ss_pred             CCCCceEEEECCEEEEEEEEcC-CCCcchh-cccCCCCceEEEEEEc
+
+
+No 7
+>6CPD_B PmoD; copper, cupredoxin, periplasm, METAL BINDING; 1.903A {Methylocystis sp. ATCC 49242}
+Probab=18.46  E-value=1.4e+02  Score=21.67  Aligned_cols=45  Identities=16%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCcccccccceeccCCCCCCCCCCCcceecccCCCCCCcccceee
+Q sp|A0A096LPI5|   12 STESCCVAQARVQWCHLGSLQPPLPGFKQFSCHSLPSSWDYRWNLTL   58 (108)
+Q Consensus        12 stesccvaqarvqwchlgslqpplpgfkqfschslpsswdyrwnltl   58 (108)
+                      +...-|+.+..-.+.|+...|| .-+.++| |+.+|..-.-.+-+.+
+T Consensus         1 ~~~d~C~~~~g~~~vhfsaYQP-~~~~~~~-C~~iP~~G~t~iv~Dl   45 (128)
+T 6CPD_B            1 SMGNMCMVMFGYDMIHITVFQP-DKSRSEY-CDEIPATGRTIMAFDI   45 (128)
+T ss_dssp             -CCCCBEEEETTEEEEEEEECT-TTCSCEE-SSEECCSEEEEEEEEE
+T ss_pred             CCCCceEEEECCEEEEEEEEcC-CCCcchh-cccCCCCceEEEEEEc
+
+
+No 8
+>2PSQ_A Fibroblast growth factor receptor 2; Kinase Domain Fold Consisting of; HET: SO4; 2.4A {Homo sapiens} SCOP: d.144.1.7
+Probab=17.87  E-value=47  Score=23.20  Aligned_cols=13  Identities=46%  Similarity=1.027  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCeEEEeC
+Q sp|A0A096LPI5|   96 HHHAQEPVVIRKM  108 (108)
+Q Consensus        96 hhhaqepvvirkm  108 (108)
+                      |||.|.|-.+.||
+T Consensus         8 ~~~~~~~~~~~~~   20 (370)
+T 2PSQ_A            8 HHHSQDPPAVHKL   20 (370)
+T ss_dssp             -------------
+T ss_pred             CccCCCChhHHHH
+
+
+No 9
+>5OQ5_A Serine/threonine-protein kinase Chk1 (E.C.2.7.11.1); Parkinson's disease, Leucine-rich repeat kinase; HET: MES, 4K4; 1.4A {Homo sapiens}
+Probab=15.40  E-value=2e+02  Score=18.57  Aligned_cols=14  Identities=29%  Similarity=0.634  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q sp|A0A096LPI5|   85 STSRVAGTTGAHHH   98 (108)
+Q Consensus        85 stsrvagttgahhh   98 (108)
+                      +++-+.++++.|||
+T Consensus       279 ~~~~~~~~~~~~~~  292 (297)
+T 5OQ5_A          279 TSGGVSESPSGHHH  292 (297)
+T ss_dssp             --------------
+T ss_pred             eeccccCCCCCCCC
+
+
+No 10
+>2LEK_A Putative thiamin biosynthesis ThiS; beta-grasp fold, Structural Genomics, Northeast; NMR {Rhodopseudomonas palustris}
+Probab=15.07  E-value=1.7e+02  Score=16.42  Aligned_cols=27  Identities=22%  Similarity=0.201  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccccCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|A0A096LPI5|   72 CNLCLPDLSDSPASTSRVAGTTGAHHH   98 (108)
+Q Consensus        72 cnlclpdlsdspastsrvagttgahhh   98 (108)
+                      .+.++.+-..-......-+|.++.|||
+T Consensus        46 ~~~~l~~~d~i~~~~~~~gg~~~~~~~   72 (73)
+T 2LEK_A           46 DETPVTAGDEIEILTPRQGGLEHHHHH   72 (73)
+T ss_dssp             TTCBCCTTCEEEEECCCCTTCGGGSCC
+T ss_pred             CCccCCCCCEEEEEecccCCccCCCCC
+
+

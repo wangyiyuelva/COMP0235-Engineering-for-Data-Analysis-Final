@@ -1,0 +1,264 @@
+Query         tr|F2Z2R0|F2Z2R0_HUMAN
+Match_columns 36
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:46:17 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1066.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4P9T_D Alpha N-catenin; Cytosk  94.8  0.0097 1.1E-07   36.4  -0.9   30    5-34      8-37  (263)
+  2 6UPV_L Catenin alpha-1, Actin,  91.6   0.093   1E-06   36.0  -0.3   30    6-35      8-37  (906)
+  3 3RF3_B Vinculin, Invasin ipaA;  81.5    0.29 3.2E-06   29.7  -2.1   18   17-34      3-20  (258)
+  4 5XA5_A Alpha-catenin-like prot  79.8    0.23 2.4E-06   31.2  -3.0   26    9-34     11-36  (279)
+  5 4ONS_A Catenin alpha-2, Cateni  71.1    0.64   7E-06   28.2  -2.6   18   17-34      2-19  (248)
+  6 1I96_V 30S RIBOSOMAL SUBUNIT W  44.6     4.7 5.1E-05   21.2  -1.8   25    4-28      4-28  (89)
+  7 2M71_A Translation initiation   38.1     7.3 7.9E-05   21.7  -1.8   23    6-28     12-34  (101)
+  8 6NR7_A Vinculin; focal adhesio  38.0     6.5 7.1E-05   28.3  -2.4   18   17-34     23-40  (1086)
+  9 1TIG_A TRANSLATION INITIATION   32.4     9.2  0.0001   20.4  -1.9   23    6-28     11-33  (94)
+ 10 6ITX_B Fiber protein; avian ad  29.1      35 0.00038   24.3  -0.1   16    6-21     65-80  (301)
+ 11 6ITX_D Fiber protein; avian ad  29.1      35 0.00038   24.3  -0.1   16    6-21     65-80  (301)
+ 12 6VRJ_A Translation initiation   28.3     9.7 0.00011   19.7  -2.2   23    6-28     15-37  (97)
+ 13 2K29_B Antitoxin RelB; RelB, R  24.8 1.2E+02  0.0013   13.0   1.2   14    1-14      1-14  (53)
+ 14 2CRQ_A ribosome, translation,   22.4      18 0.00019   20.0  -2.0   23    6-28     19-41  (112)
+ 15 4Q2U_C Antitoxin DinJ, mRNA in  22.0 1.5E+02  0.0016   14.5   1.4   14    2-15      2-15  (86)
+ 16 4Q2U_O Antitoxin DinJ, mRNA in  22.0 1.5E+02  0.0016   14.5   1.4   14    2-15      2-15  (86)
+
+No 1
+>4P9T_D Alpha N-catenin; Cytoskeletal protein, adherens junction, helix; HET: PEG, EDO, IOD; 2.5A {Mus musculus}
+Probab=94.78  E-value=0.0097  Score=36.43  Aligned_cols=30  Identities=57%  Similarity=0.984  Sum_probs=16.4  Template_Neff=8.600
+
+Q ss_pred             CCceeecChHhCccceeehhhcccceeeee
+Q tr|F2Z2R0|F2Z2    5 TPITLNIDPQDLQVQTFTVEKLLEPLIIQV   34 (36)
+Q Consensus         5 tpitlnidpqdlqvqtftvekllepliiqv   34 (36)
+                      .+..+++||..+.++|-++|++|+|++-||
+T Consensus         8 ~~~~~~~~~~~~~~~tksie~vl~Pi~~qv   37 (263)
+T 4P9T_D            8 SPIILKWDPKSLEIRTLTVERLLEPLVTQV   37 (263)
+T ss_dssp             ------------CCCCHHHHHHHHHHHHHH
+T ss_pred             CCCccccCcccCeeechhHHHHHHHHHhch
+Confidence            455678899999999999999999988665
+
+
+No 2
+>6UPV_L Catenin alpha-1, Actin, alpha skeletal; alpha-catenin, catenin, actin, mechanobiology, mechanosensing; HET: ADP, HIC; 3.2A {Gallus gallus}
+Probab=91.58  E-value=0.093  Score=35.98  Aligned_cols=30  Identities=47%  Similarity=0.843  Sum_probs=26.7  Template_Neff=9.900
+
+Q ss_pred             CceeecChHhCccceeehhhcccceeeeee
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTFTVEKLLEPLIIQVK   35 (36)
+Q Consensus         6 pitlnidpqdlqvqtftvekllepliiqvk   35 (36)
+                      ++.+..+|.++.+.|.+||+.|+|++-||.
+T Consensus         8 ~~~~~~~~~~~~~~t~sie~~l~pl~~~v~   37 (906)
+T 6UPV_L            8 NINFKWDPKSLEIRTLAVERLLEPLVTQVT   37 (906)
+T ss_pred             CcceecCccccccccchhHhhHHHHhhcch
+Confidence            567788999999999999999999998863
+
+
+No 3
+>3RF3_B Vinculin, Invasin ipaA; alpha-helix bundle domain, cytoskeletal protein; HET: CAC; 1.61A {Homo sapiens}
+Probab=81.53  E-value=0.29  Score=29.73  Aligned_cols=18  Identities=39%  Similarity=0.580  Sum_probs=16.0  Template_Neff=8.900
+
+Q ss_pred             ccceeehhhcccceeeee
+Q tr|F2Z2R0|F2Z2   17 QVQTFTVEKLLEPLIIQV   34 (36)
+Q Consensus        17 qvqtftvekllepliiqv   34 (36)
+                      +++|.++|.+|+|++-||
+T Consensus         3 ~~~T~sve~vl~Pi~~~v   20 (258)
+T 3RF3_B            3 VFHTRTIESILEPVAQQI   20 (258)
+T ss_dssp             CCSBHHHHHHHTTHHHHH
+T ss_pred             CcccccHHHhHHHHHHHH
+Confidence            589999999999998775
+
+
+No 4
+>5XA5_A Alpha-catenin-like protein hmp-1, Beta-catenin-like protein; five-helix bundle, CELL ADHESION; 1.6A {Caenorhabditis elegans}
+Probab=79.80  E-value=0.23  Score=31.22  Aligned_cols=26  Identities=23%  Similarity=0.065  Sum_probs=18.2  Template_Neff=8.300
+
+Q ss_pred             eecChHhCccceeehhhcccceeeee
+Q tr|F2Z2R0|F2Z2    9 LNIDPQDLQVQTFTVEKLLEPLIIQV   34 (36)
+Q Consensus         9 lnidpqdlqvqtftvekllepliiqv   34 (36)
+                      +..+|.+..++|.++|++|+|++-||
+T Consensus        11 ~~~~~~~~~~~Tksie~vL~Pi~~qV   36 (279)
+T 5XA5_A           11 SHAYFNIDEVRSKNVLKQITQLINEV   36 (279)
+T ss_dssp             ------CTTCCBHHHHHHHHHHHHHH
+T ss_pred             CcccCCCCeeechhHHHHHHHHHHHH
+Confidence            45577788999999999999998775
+
+
+No 5
+>4ONS_A Catenin alpha-2, Catenin beta-1; four helix bundles, cell adhesion; 2.8A {Mus musculus}
+Probab=71.14  E-value=0.64  Score=28.25  Aligned_cols=18  Identities=61%  Similarity=1.014  Sum_probs=15.6  Template_Neff=8.800
+
+Q ss_pred             ccceeehhhcccceeeee
+Q tr|F2Z2R0|F2Z2   17 QVQTFTVEKLLEPLIIQV   34 (36)
+Q Consensus        17 qvqtftvekllepliiqv   34 (36)
+                      .++|.++|++|+|++-||
+T Consensus         2 ~i~Tksie~vL~Pi~~qv   19 (248)
+T 4ONS_A            2 EIRTLTVERLLEPLVTQV   19 (248)
+T ss_dssp             CCCCHHHHHHHHHHHHHH
+T ss_pred             CccchHHHHHHHHHHHHH
+Confidence            688999999999987665
+
+
+No 6
+>1I96_V 30S RIBOSOMAL SUBUNIT WITH INITIATION; 30S ribosome, translation initiation factor; HET: MG, WO2; 4.2A {Thermus thermophilus} SCOP: d.68.1.1
+Probab=44.63  E-value=4.7  Score=21.22  Aligned_cols=25  Identities=20%  Similarity=0.383  Sum_probs=19.4  Template_Neff=8.500
+
+Q ss_pred             CCCceeecChHhCccceeehhhccc
+Q tr|F2Z2R0|F2Z2    4 ETPITLNIDPQDLQVQTFTVEKLLE   28 (36)
+Q Consensus         4 etpitlnidpqdlqvqtftveklle   28 (36)
+                      |--++.+|++.||++..-.+.++|+
+T Consensus         4 ei~i~~~I~~hDl~~K~k~~~~fL~   28 (89)
+T 1I96_V            4 SIKFRVKIDEHDYQTKLGHIKRFLQ   28 (89)
+T ss_pred             EEEEEcCCChhHHHHHHHHHHHHHH
+Confidence            4467889999999988776666665
+
+
+No 7
+>2M71_A Translation initiation factor IF-3; STRUCTURAL GENOMICS, TRANSLATION INITIATION FACTOR; NMR {Campylobacter jejuni}
+Probab=38.11  E-value=7.3  Score=21.73  Aligned_cols=23  Identities=17%  Similarity=0.343  Sum_probs=17.1  Template_Neff=7.600
+
+Q ss_pred             CceeecChHhCccceeehhhccc
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTFTVEKLLE   28 (36)
+Q Consensus         6 pitlnidpqdlqvqtftveklle   28 (36)
+                      -++.+|++.||++..-.+.++|+
+T Consensus        12 ~i~~~I~~hDl~~Kl~~~~~fL~   34 (101)
+T 2M71_A           12 KLSVKIAQNDINYKVKHALEFLE   34 (101)
+T ss_dssp             EEESSCCHHHHHHHHHHHHHHHH
+T ss_pred             EEecCcchHHHHHHHHHHHHHHH
+Confidence            46788999999887666666654
+
+
+No 8
+>6NR7_A Vinculin; focal adhesions, cytoskeleton interaction, cell; HET: SO4, PO4, KYG; 3.0A {Gallus gallus}
+Probab=38.00  E-value=6.5  Score=28.29  Aligned_cols=18  Identities=39%  Similarity=0.580  Sum_probs=15.6  Template_Neff=9.700
+
+Q ss_pred             ccceeehhhcccceeeee
+Q tr|F2Z2R0|F2Z2   17 QVQTFTVEKLLEPLIIQV   34 (36)
+Q Consensus        17 qvqtftvekllepliiqv   34 (36)
+                      .++|.++|+.|+|++-||
+T Consensus        23 ~~~tksie~~l~pl~~qv   40 (1086)
+T 6NR7_A           23 VFHTRTIESILEPVAQQI   40 (1086)
+T ss_dssp             CCCBHHHHHHHHHHHHHH
+T ss_pred             cccccHHHHhHHHHHHHH
+Confidence            368999999999998776
+
+
+No 9
+>1TIG_A TRANSLATION INITIATION FACTOR 3; IF3 C-TERMINAL DOMAIN, RIBOSOME BINDING; 2.0A {Geobacillus stearothermophilus} SCOP: d.68.1.1
+Probab=32.41  E-value=9.2  Score=20.41  Aligned_cols=23  Identities=22%  Similarity=0.395  Sum_probs=15.4  Template_Neff=8.400
+
+Q ss_pred             CceeecChHhCccceeehhhccc
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTFTVEKLLE   28 (36)
+Q Consensus         6 pitlnidpqdlqvqtftveklle   28 (36)
+                      -|+.+|++.||.+..-.+.++|+
+T Consensus        11 ~i~~~I~~hDl~~K~~~~~~fL~   33 (94)
+T 1TIG_A           11 RLSPTIEEHDFNTKLRNARKFLE   33 (94)
+T ss_dssp             EECTTCCHHHHHHHHHHHHHHHH
+T ss_pred             EeeCCCChhHHHHHHHHHHHHHH
+Confidence            36678899998876555555443
+
+
+No 10
+>6ITX_B Fiber protein; avian adenovirus, fiber protein, CELL; HET: SO4, GLN; 2.75A {Duck adenovirus 1}
+Probab=29.09  E-value=35  Score=24.26  Aligned_cols=16  Identities=38%  Similarity=0.470  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CceeecChHhCcccee
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTF   21 (36)
+Q Consensus         6 pitlnidpqdlqvqtf   21 (36)
+                      -++|++||+|++|+.=
+T Consensus        65 GLtL~yD~~~f~V~~G   80 (301)
+T 6ITX_B           65 ELTLAYDSTDFQVTEN   80 (301)
+T ss_dssp             ----------------
+T ss_pred             CeEEEEcCCceEEECC
+Confidence            5899999999998743
+
+
+No 11
+>6ITX_D Fiber protein; avian adenovirus, fiber protein, CELL; HET: SO4, GLN; 2.75A {Duck adenovirus 1}
+Probab=29.09  E-value=35  Score=24.26  Aligned_cols=16  Identities=38%  Similarity=0.470  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CceeecChHhCcccee
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTF   21 (36)
+Q Consensus         6 pitlnidpqdlqvqtf   21 (36)
+                      -++|++||+|++|+.=
+T Consensus        65 GLtL~yD~~~f~V~~G   80 (301)
+T 6ITX_D           65 ELTLAYDSTDFQVTEN   80 (301)
+T ss_dssp             ----------------
+T ss_pred             CeEEEEcCCceEEECC
+Confidence            5899999999998743
+
+
+No 12
+>6VRJ_A Translation initiation factor IF-3; translation initiation factor 3, TRANSLATION; NMR {Pseudomonas aeruginosa}
+Probab=28.32  E-value=9.7  Score=19.72  Aligned_cols=23  Identities=17%  Similarity=0.234  Sum_probs=16.3  Template_Neff=9.200
+
+Q ss_pred             CceeecChHhCccceeehhhccc
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTFTVEKLLE   28 (36)
+Q Consensus         6 pitlnidpqdlqvqtftveklle   28 (36)
+                      -|+.+|++.||.+..-.+.++|+
+T Consensus        15 ~i~~~I~~~Dl~~K~~~~~~~L~   37 (97)
+T 6VRJ_A           15 KFRPGTEEGDYQVKLRNLVRFLS   37 (97)
+T ss_dssp             EECSSCCHHHHHHHHHHHHHHHH
+T ss_pred             EEcCCCChhhHHHHHHHHHHHHH
+Confidence            36778899998877666655554
+
+
+No 13
+>2K29_B Antitoxin RelB; RelB, Ribbon-Helix-Helix, antitoxin, Repressor, Stress; NMR {Escherichia coli}
+Probab=24.76  E-value=1.2e+02  Score=12.98  Aligned_cols=14  Identities=36%  Similarity=0.328  Sum_probs=6.9  Template_Neff=10.500
+
+Q ss_pred             CCCCCCceeecChH
+Q tr|F2Z2R0|F2Z2    1 MSAETPITLNIDPQ   14 (36)
+Q Consensus         1 msaetpitlnidpq   14 (36)
+                      |.+..-+++++|+.
+T Consensus         1 m~~~~~~~~~i~~~   14 (53)
+T 2K29_B            1 GSHMGSINLRIDDE   14 (53)
+T ss_dssp             ---CEEEEEEECHH
+T ss_pred             CCCcceEEeecCHH
+Confidence            34445566777664
+
+
+No 14
+>2CRQ_A ribosome, translation, Structural Genomics, NPPSFA; NMR {Mus musculus}
+Probab=22.42  E-value=18  Score=19.98  Aligned_cols=23  Identities=22%  Similarity=0.419  Sum_probs=14.9  Template_Neff=8.300
+
+Q ss_pred             CceeecChHhCccceeehhhccc
+Q tr|F2Z2R0|F2Z2    6 PITLNIDPQDLQVQTFTVEKLLE   28 (36)
+Q Consensus         6 pitlnidpqdlqvqtftveklle   28 (36)
+                      -|+.+|++.||.+..-.+.++|+
+T Consensus        19 ~i~~~I~~hDL~~K~k~~~~fL~   41 (112)
+T 2CRQ_A           19 VFSSNIGQHDLDTKSKQIQQWIE   41 (112)
+T ss_dssp             EEETTCCHHHHHHHHHHHHHHHH
+T ss_pred             EEeCCCChhHHHHHHHHHHHHHH
+Confidence            36778889998765544444443
+
+
+No 15
+>4Q2U_C Antitoxin DinJ, mRNA interferase YafQ; Bacterial Toxin-Antitoxin complex, Translation control; HET: SO4, MSE; 1.8A {Escherichia coli}
+Probab=21.98  E-value=1.5e+02  Score=14.52  Aligned_cols=14  Identities=21%  Similarity=0.200  Sum_probs=7.8  Template_Neff=9.900
+
+Q ss_pred             CCCCCceeecChHh
+Q tr|F2Z2R0|F2Z2    2 SAETPITLNIDPQD   15 (36)
+Q Consensus         2 saetpitlnidpqd   15 (36)
+                      ...+.|++.+|++.
+T Consensus         2 ~~~~~i~~~i~~~l   15 (86)
+T 4Q2U_C            2 AANAFVRARIDEDL   15 (86)
+T ss_dssp             -CEEEEEEEECHHH
+T ss_pred             CCcceEEeECCHHH
+Confidence            34455667776654
+
+
+No 16
+>4Q2U_O Antitoxin DinJ, mRNA interferase YafQ; Bacterial Toxin-Antitoxin complex, Translation control; HET: SO4, MSE; 1.8A {Escherichia coli}
+Probab=21.98  E-value=1.5e+02  Score=14.52  Aligned_cols=14  Identities=21%  Similarity=0.200  Sum_probs=7.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCceeecChHh
+Q tr|F2Z2R0|F2Z2    2 SAETPITLNIDPQD   15 (36)
+Q Consensus         2 saetpitlnidpqd   15 (36)
+                      ...+.|++.+|++.
+T Consensus         2 ~~~~~i~~~i~~~l   15 (86)
+T 4Q2U_O            2 AANAFVRARIDEDL   15 (86)
+T ss_dssp             --CEEEEEEEEHHH
+T ss_pred             CCcceEEeECCHHH
+Confidence            34455666666553
+
+

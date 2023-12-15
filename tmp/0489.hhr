@@ -1,0 +1,320 @@
+Query         tr|H3BP95|H3BP95_HUMAN
+Match_columns 156
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:20:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0489.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7VCI_U nuclear pore complex, n  99.7 8.5E-17 9.2E-22  140.2  11.2  154    2-155   125-279 (820)
+  2 7WB4_O nuclear pore complex, n  99.7 8.5E-17 9.2E-22  140.2  11.2  154    2-155   125-279 (820)
+  3 7N85_T nuclear pore complex, i  98.1 0.00014 1.5E-09   65.6  11.8  139    2-155   136-294 (839)
+  4 7N9F_T NPC, nucleocytoplasmic   98.1 0.00014 1.5E-09   65.6  11.8  139    2-155   136-294 (839)
+  5 2RFO_A Nucleoporin NIC96; Alph  97.8 0.00033 3.6E-09   61.6  10.1   92   49-155    14-106 (651)
+  6 6X07_A Nucleoporin NIC96, VHH-  97.7 0.00081 8.8E-09   59.5  10.7   91   50-155    33-124 (669)
+  7 5HB2_C Nucleoporin NIC96; Nucl  97.6   0.001 1.1E-08   59.3   9.1  103   52-155     3-122 (723)
+  8 5HB3_A Nucleoporin NIC96, Nucl  97.6   0.001 1.1E-08   59.3   9.1  103   52-155     3-122 (723)
+  9 5NLA_A Putative transcriptiona  26.1 4.2E+02  0.0045   20.6   5.0   16  130-145   275-290 (382)
+ 10 1GUX_B RETINOBLASTOMA PROTEIN,  26.1 4.4E+02  0.0048   20.8   5.3   13   98-110    43-55  (152)
+ 11 1O9K_B RETINOBLASTOMA-ASSOCIAT  26.1 4.4E+02  0.0048   20.8   5.3   13   98-110    43-55  (152)
+ 12 6MJ1_A Probable HTH-type trans  22.3 3.9E+02  0.0042   17.5   4.4   18  126-143   181-198 (207)
+ 13 2PBE_A Aminoglycoside 6-adenyl  21.8 5.9E+02  0.0064   19.4   5.1    9  135-143   274-282 (294)
+
+No 1
+>7VCI_U nuclear pore complex, nuclear ring; 8.1A {Xenopus laevis}
+Probab=99.72  E-value=8.5e-17  Score=140.23  Aligned_cols=154  Identities=79%  Similarity=1.212  Sum_probs=122.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCcchhhhhHHHHHHHHHHHHHhcCcchcccCCCCCCCCcCCCCCCCCCchhHHHHHHHHHHHHHHHHHhCCCCChh
+Q tr|H3BP95|H3BP    2 AEEYHRESMLVEWEQVKQRILHTLLASGEDALDFTQESEPSYISDVGPPGRSSLDNIEMAYARQIYIYNEKIVNGHLQPN   81 (156)
+Q Consensus         2 aeeyhresmlveweqvkqrilhtllasgedaldftqesepsyisdvgppgrssldniemayarqiyiynekivnghlqpn   81 (156)
+                      |++++.+++..||++.|++|++++++.+.++.+++....++++++.+.++.+.++.++..||++|+++|+++..+..++.
+T Consensus       125 ~~~~~~~~~~~dW~~~K~~i~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~Ya~vV~~~n~~~~~~~~~~~  204 (820)
+T 7VCI_U          125 AEEYHRESMLVEWEQVKQRVLHTLLASGEDALDFTQESETSYISESGAPGRSSLDNVEMAYARQMYMYNEKVVSGHLQPS  204 (820)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTTCCSCCCCCCCCCCCCCCCCCCTTTTSSCHHHHHHHHHHHHHHHHHHHTCCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhcCCccccccccccccccccCCCCCCcchhhHHHHHHHHHHHHHHHHHHcCCCChh
+Confidence            45667888999999999999999887665433333333334444445566788999999999999999999988877766
+
+
+Q ss_pred             HHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP   82 LVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEVRMEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus        82 lvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvevrmefvrqalayleqsyknytlvtvfgnl  155 (156)
+                      +++.|.+++. ..+..+.+||+++.+|++....+++++...+.+.+++..|++||++|||+||++||+++|.+|+
+T Consensus       205 l~~~f~~~~~~~~~~~~~~~W~ll~~~~~~~~~~~~~~~~~~~~~~~~~~lv~ga~~~LE~qf~~~~~~~v~~~~  279 (820)
+T 7VCI_U          205 LVDLCTEAAERLDDKNVSDLWVMVKQMTDVPLIPASDTLKSRCSGQMQMAFVRQALNYLEQSYKNYTLISVFANL  279 (820)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHHHHHHSCCCCCSSHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTH
+T ss_pred             HHHHHHHHHHccCchhHHHHHHHHHHHhCCCCCCCCCccchhcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcH
+Confidence            8999999998 7778899999999999876433333344446678899999999999999999999999998774
+
+
+No 2
+>7WB4_O nuclear pore complex, nuclear ring; 5.6A {Xenopus laevis}
+Probab=99.72  E-value=8.5e-17  Score=140.23  Aligned_cols=154  Identities=79%  Similarity=1.212  Sum_probs=123.8  Template_Neff=8.300
+
+Q ss_pred             CCCCCcchhhhhHHHHHHHHHHHHHhcCcchcccCCCCCCCCcCCCCCCCCCchhHHHHHHHHHHHHHHHHHhCCCCChh
+Q tr|H3BP95|H3BP    2 AEEYHRESMLVEWEQVKQRILHTLLASGEDALDFTQESEPSYISDVGPPGRSSLDNIEMAYARQIYIYNEKIVNGHLQPN   81 (156)
+Q Consensus         2 aeeyhresmlveweqvkqrilhtllasgedaldftqesepsyisdvgppgrssldniemayarqiyiynekivnghlqpn   81 (156)
+                      |++++.+++..||++.|++|++++++.+.++.+++....++++++.+.++.+.++.++..||++|+++|+++..+..++.
+T Consensus       125 ~~~~~~~~~~~dW~~~K~~i~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~Ya~vV~~~n~~~~~~~~~~~  204 (820)
+T 7WB4_O          125 AEEYHRESMLVEWEQVKQRVLHTLLASGEDALDFTQESETSYISESGAPGRSSLDNVEMAYARQMYMYNEKVVSGHLQPS  204 (820)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhcCCccccccccccccccccCCCCCCcchhhHHHHHHHHHHHHHHHHHHcCCCChh
+Confidence            67888999999999999999998876654322222222223333344556778999999999999999999988877766
+
+
+Q ss_pred             HHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP   82 LVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEVRMEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus        82 lvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvevrmefvrqalayleqsyknytlvtvfgnl  155 (156)
+                      +++.|.+++. ..+..+.+||+++.+|++....+++++...+.+.+++..|++||++|||+||++||+++|.+|+
+T Consensus       205 l~~~f~~~~~~~~~~~~~~~W~ll~~~~~~~~~~~~~~~~~~~~~~~~~~lv~ga~~~LE~qf~~~~~~~v~~~~  279 (820)
+T 7WB4_O          205 LVDLCTEAAERLDDKNVSDLWVMVKQMTDVPLIPASDTLKSRCSGQMQMAFVRQALNYLEQSYKNYTLISVFANL  279 (820)
+T ss_pred             HHHHHHHHHHccCchhHHHHHHHHHHHhCCCCCCCCCccchhcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcH
+Confidence            8999999998 7777889999999999987654444556667788899999999999999999999999999875
+
+
+No 3
+>7N85_T nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=98.05  E-value=0.00014  Score=65.60  Aligned_cols=139  Identities=14%  Similarity=0.186  Sum_probs=101.1  Template_Neff=8.200
+
+Q ss_pred             CCCCCcchhhhhHHHHHHHHHHHHHhcCcc-hcc---cCC-CCCC--C-CcCC------C-----CCCCCCchhHHHHHH
+Q tr|H3BP95|H3BP    2 AEEYHRESMLVEWEQVKQRILHTLLASGED-ALD---FTQ-ESEP--S-YISD------V-----GPPGRSSLDNIEMAY   62 (156)
+Q Consensus         2 aeeyhresmlveweqvkqrilhtllasged-ald---ftq-esep--s-yisd------v-----gppgrssldniemay   62 (156)
+                      |++++.+++..+|++.|++|++.++..... ..+   .+. ..++  + ++++      .     +++..+.+++++..|
+T Consensus       136 ~~~~~~~~~~~~W~~~K~~i~~~l~~~~~~~~~~~~~~s~~~~~~~~s~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~y  215 (839)
+T 7N85_T          136 FDNFINHNLNLDWAQHKNEVMKNFGILIQDKKTVDHKKSISSLDPKLPSWGNKGNNILNSNESRLNVNENNILREKFENY  215 (839)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhccccccccCCcCccccccCCCCCCccccccccccCccccccCcccchHHHHHHHHH
+Confidence            678888999999999999999988764432 110   010 1111  1 2210      0     122345688899999
+
+
+Q ss_pred             HHHHHHHHHHHhCCCCChhHHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHH
+Q tr|H3BP95|H3BP   63 ARQIYIYNEKIVNGHLQPNLVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEVRMEFVRQALAYLEQ  141 (156)
+Q Consensus        63 arqiyiynekivnghlqpnlvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvevrmefvrqalayleq  141 (156)
+                      |++|+++|+.+..+.+++ +++.|.+++. ..+   ...|.+...++..           +.+.+++..+|.||++|||+
+T Consensus       216 a~~V~~~n~~r~~~~~~~-l~~~f~~~~~~~~~---~~~~~~~~~~~~~-----------~~~~~~~~~lv~~s~~~LE~  280 (839)
+T 7N85_T          216 ARIVFQFNNSRQANGNFD-IANEFISILSSANG---TRNAQLLESWKIL-----------ESMKSKDINIVEVGKQYLEQ  280 (839)
+T ss_pred             HHHHHHHHHHHHcCCCCc-HHHHHHHHHHccCC---CchHHHHHHhhcc-----------hhcHHHHHHHHHHHHHHHHH
+Confidence            999999999998888887 9999999987 543   3456666666543           34566778899999999999
+
+
+Q ss_pred             HhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  142 SYKNYTLVTVFGNL  155 (156)
+Q Consensus       142 syknytlvtvfgnl  155 (156)
+                      ||++||+++|.+|+
+T Consensus       281 qf~~~i~~~v~~~~  294 (839)
+T 7N85_T          281 QFLQYTDNLYKKNM  294 (839)
+T ss_pred             HHHHHHHHHHHhhh
+Confidence            99999999999886
+
+
+No 4
+>7N9F_T NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=98.05  E-value=0.00014  Score=65.60  Aligned_cols=139  Identities=14%  Similarity=0.186  Sum_probs=101.1  Template_Neff=8.200
+
+Q ss_pred             CCCCCcchhhhhHHHHHHHHHHHHHhcCcc-hcc---cCC-CCCC--C-CcCC------C-----CCCCCCchhHHHHHH
+Q tr|H3BP95|H3BP    2 AEEYHRESMLVEWEQVKQRILHTLLASGED-ALD---FTQ-ESEP--S-YISD------V-----GPPGRSSLDNIEMAY   62 (156)
+Q Consensus         2 aeeyhresmlveweqvkqrilhtllasged-ald---ftq-esep--s-yisd------v-----gppgrssldniemay   62 (156)
+                      |++++.+++..+|++.|++|++.++..... ..+   .+. ..++  + ++++      .     +++..+.+++++..|
+T Consensus       136 ~~~~~~~~~~~~W~~~K~~i~~~l~~~~~~~~~~~~~~s~~~~~~~~s~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~y  215 (839)
+T 7N9F_T          136 FDNFINHNLNLDWAQHKNEVMKNFGILIQDKKTVDHKKSISSLDPKLPSWGNKGNNILNSNESRLNVNENNILREKFENY  215 (839)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhccccccccCCcCccccccCCCCCCccccccccccCccccccCcccchHHHHHHHHH
+Confidence            678888999999999999999988764432 110   010 1111  1 2210      0     122345688899999
+
+
+Q ss_pred             HHHHHHHHHHHhCCCCChhHHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHH
+Q tr|H3BP95|H3BP   63 ARQIYIYNEKIVNGHLQPNLVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEVRMEFVRQALAYLEQ  141 (156)
+Q Consensus        63 arqiyiynekivnghlqpnlvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvevrmefvrqalayleq  141 (156)
+                      |++|+++|+.+..+.+++ +++.|.+++. ..+   ...|.+...++..           +.+.+++..+|.||++|||+
+T Consensus       216 a~~V~~~n~~r~~~~~~~-l~~~f~~~~~~~~~---~~~~~~~~~~~~~-----------~~~~~~~~~lv~~s~~~LE~  280 (839)
+T 7N9F_T          216 ARIVFQFNNSRQANGNFD-IANEFISILSSANG---TRNAQLLESWKIL-----------ESMKSKDINIVEVGKQYLEQ  280 (839)
+T ss_pred             HHHHHHHHHHHHcCCCCc-HHHHHHHHHHccCC---CchHHHHHHhhcc-----------hhcHHHHHHHHHHHHHHHHH
+Confidence            999999999998888887 9999999987 543   3456666666543           34566778899999999999
+
+
+Q ss_pred             HhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  142 SYKNYTLVTVFGNL  155 (156)
+Q Consensus       142 syknytlvtvfgnl  155 (156)
+                      ||++||+++|.+|+
+T Consensus       281 qf~~~i~~~v~~~~  294 (839)
+T 7N9F_T          281 QFLQYTDNLYKKNM  294 (839)
+T ss_pred             HHHHHHHHHHHhhh
+Confidence            99999999999886
+
+
+No 5
+>2RFO_A Nucleoporin NIC96; Alpha-alpha-superhelix, mRNA transport, Nuclear pore; 2.6A {Saccharomyces cerevisiae}
+Probab=97.84  E-value=0.00033  Score=61.61  Aligned_cols=92  Identities=16%  Similarity=0.158  Sum_probs=74.0  Template_Neff=8.100
+
+Q ss_pred             CCCCCchhHHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHH
+Q tr|H3BP95|H3BP   49 PPGRSSLDNIEMAYARQIYIYNEKIVNGHLQPNLVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEV  127 (156)
+Q Consensus        49 ppgrssldniemayarqiyiynekivnghlqpnlvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvev  127 (156)
+                      .+..+.|++++..||++|+++|++++.+.+++ +++.|.+++. ..+   ...|.+...++..           +.+.++
+T Consensus        14 ~~~~~~~~~~~~~ya~~V~~~n~~r~~~~~~~-l~~~f~~~~~~~~~---~~~~~~~~~~~~~-----------~~~~~~   78 (651)
+T 2RFO_A           14 VNENNILREKFENYARIVFQFNNSRQANGNFD-IANEFISILSSANG---TRNAQLLESWKIL-----------ESMKSK   78 (651)
+T ss_dssp             --CCSHHHHHHHHHHHHHHHHHHHHHHTCCCC-HHHHHHHHHHHCCS---TTHHHHHHHHHHH-----------HTSTTS
+T ss_pred             CCcchhHHHHHHHHHHHHHHHHHHHHcCCCCC-HHHHHHHHHHhcCc---hhHHHHHHHHccc-----------hhcHHH
+Confidence            45578899999999999999999999888887 9999999998 553   3345555555443           134456
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  128 RMEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus       128 rmefvrqalayleqsyknytlvtvfgnl  155 (156)
+                      +..|+.||++|||+||++||+++|.+|+
+T Consensus        79 ~~~lv~~a~~~LE~qf~~~i~~~v~~~~  106 (651)
+T 2RFO_A           79 DINIVEVGKQYLEQQFLQYTDNLYKKNM  106 (651)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHHHSSSC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            6689999999999999999999999986
+
+
+No 6
+>6X07_A Nucleoporin NIC96, VHH-SAN12; Nucleoporin, nanobody, STRUCTURAL PROTEIN; 2.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=97.72  E-value=0.00081  Score=59.48  Aligned_cols=91  Identities=16%  Similarity=0.154  Sum_probs=70.2  Template_Neff=8.100
+
+Q ss_pred             CCCCchhHHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHhc-CChhhHHHHHHHHHHHHHHHHHHHHHHHhCCCCHHHH
+Q tr|H3BP95|H3BP   50 PGRSSLDNIEMAYARQIYIYNEKIVNGHLQPNLVDLCASVAE-LDDKSISDMWTMVKQMTDVLLTPATDALKNRSSVEVR  128 (156)
+Q Consensus        50 pgrssldniemayarqiyiynekivnghlqpnlvdlcasvae-lddksisdmwtmvkqmtdvlltpatdalknrssvevr  128 (156)
+                      |..+.++.++..||++|+++|++++.+.+++ +++.|.+++. ..+   ...|.+...++...           .+.+++
+T Consensus        33 ~~~~~~~~~~~~ya~vV~~~N~~r~~~~~~~-l~~~f~~~~~~~~~---~~~~~~~~~~~~~~-----------~~~~~~   97 (669)
+T 6X07_A           33 NENNILREKFENYARIVFQFNNSRQANGNFD-IANEFISILSSANG---TRNAQLLESWKILE-----------SMKSKD   97 (669)
+T ss_dssp             GGCHHHHHHHHHHHHHHHHHHHHHHHTCCCC-HHHHHHHHHHHSCS---HHHHHHHHHHHHHH-----------HHTTSC
+T ss_pred             ccchHHHHHHHHHHHHHHHHHHHHHcCCCCC-HHHHHHHHHHhcCc---hhhHHHHHHHccch-----------hcHHHH
+Confidence            3456789999999999999999999988887 9999999998 554   45566666665431           122344
+
+
+Q ss_pred             HHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  129 MEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus       129 mefvrqalayleqsyknytlvtvfgnl  155 (156)
+                      ..++.|||+|||+||++||+++|.+|+
+T Consensus        98 ~~lv~~ar~~LE~qf~~~i~~~v~~~~  124 (669)
+T 6X07_A           98 INIVEVGKQYLEQQFLQYTDNLYKKNM  124 (669)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHC----
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence            579999999999999999999999886
+
+
+No 7
+>5HB2_C Nucleoporin NIC96; Nucleocytoplasmic transport, Protein transport, TRANSPORT; HET: MSE; 3.3A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=97.56  E-value=0.001  Score=59.35  Aligned_cols=103  Identities=14%  Similarity=0.130  Sum_probs=81.6  Template_Neff=8.100
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHhc-CC---hhhHHHHHHHHHHHHHHHHHHH---------HHH
+Q tr|H3BP95|H3BP   52 RSSLDNIEMAYARQIYIYNEKIVNGHLQPNLVDLCASVAE-LD---DKSISDMWTMVKQMTDVLLTPA---------TDA  118 (156)
+Q Consensus        52 rssldniemayarqiyiynekivnghlqpnlvdlcasvae-ld---dksisdmwtmvkqmtdvlltpa---------tda  118 (156)
+                      ...++.++..||+||+++|++++.+.+++ +++.|.+++. ..   ...+.+||+++..++++.....         ...
+T Consensus         3 ~~~~~~k~~~Ya~vv~~~N~~r~~~~~~~-l~~~f~~~~~~~~~~~~~~~~~~w~~l~~~~~e~~~~~~~~~~~~~~~~y   81 (723)
+T 5HB2_C            3 DRFLREKQAKLAEKIREFNDARQRGTPFY-ICRDLADLESKSGDRHGPHIVEAYRAVMEMVGEHPDAGEAPRERQFAKMY   81 (723)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHTCCCC-HHHHHHHHHHTTTCTTHHHHHHHHHHHHHHHTCBTTTTBCCCTTTTHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHcCCCCC-HHHHHHHHHHhcCCCcHHHHHHHHHHHHHHhCCCCCCCCchhHHHHHHHh
+Confidence            35688999999999999999999988887 9999998887 33   3568999999999986532110         000
+
+
+Q ss_pred             ----HhCCCCHHHHHHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  119 ----LKNRSSVEVRMEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus       119 ----lknrssvevrmefvrqalayleqsyknytlvtvfgnl  155 (156)
+                          ..++.+..++..|+.|||+|||+||++||+++|.+|+
+T Consensus        82 ~~~~~~~~~~~~~~~~lv~~ar~~LE~qf~~~i~~~v~~~~  122 (723)
+T 5HB2_C           82 LDPNTQSANALAMRKQILKGATTFLEKQFWNEVNSLIAKYP  122 (723)
+T ss_dssp             HCCCTTSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCT
+T ss_pred             cCcccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCH
+Confidence                1112346788899999999999999999999999986
+
+
+No 8
+>5HB3_A Nucleoporin NIC96, Nucleoporin NUP53; Nucleocytoplasmic Transport, Protein Transport, TRANSPORT; 2.65A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=97.56  E-value=0.001  Score=59.35  Aligned_cols=103  Identities=14%  Similarity=0.145  Sum_probs=81.0  Template_Neff=8.100
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHhc-CC---hhhHHHHHHHHHHHHHHHHHHHH--------HH-
+Q tr|H3BP95|H3BP   52 RSSLDNIEMAYARQIYIYNEKIVNGHLQPNLVDLCASVAE-LD---DKSISDMWTMVKQMTDVLLTPAT--------DA-  118 (156)
+Q Consensus        52 rssldniemayarqiyiynekivnghlqpnlvdlcasvae-ld---dksisdmwtmvkqmtdvlltpat--------da-  118 (156)
+                      ...++.++..||+||+++|++++.+.+++ +++.|.+++. ..   ...+.+||+++..++++.....+        .. 
+T Consensus         3 ~~~~~~k~~~Ya~vv~~~N~~r~~~~~~~-l~~~f~~~~~~~~~~~~~~~~~~w~~l~~~~~e~~~~~~~~~~~~~~~~y   81 (723)
+T 5HB3_A            3 DRFLREKQAKLAEKIREFNDARQRGTPFY-ICRDLADLESKSGDRHGPHIVEAYRAVMEMVGEHPDAGEAPRERQFAKMY   81 (723)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHTCCCC-HHHHHHHHHHTTTCTTHHHHHHHHHHHHHHHTCBGGGTBCCCTTSSHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHcCCCCC-HHHHHHHHHHhcCCCcHHHHHHHHHHHHHHhCCCCCCCCchhHHHHHHHh
+Confidence            34688999999999999999999988887 9999998887 33   35689999999999865321100        00 
+
+
+Q ss_pred             ----HhCCCCHHHHHHHHHHHHHHHHHHhhhhhhhhhccCC
+Q tr|H3BP95|H3BP  119 ----LKNRSSVEVRMEFVRQALAYLEQSYKNYTLVTVFGNL  155 (156)
+Q Consensus       119 ----lknrssvevrmefvrqalayleqsyknytlvtvfgnl  155 (156)
+                          ..++.+..++..|+.|||+|||+||++||+++|.+|+
+T Consensus        82 ~~~~~~~~~~~~~~~~lv~~ar~~LE~qf~~~i~~~v~~~~  122 (723)
+T 5HB3_A           82 LDPNTQSANALAMRKQILKGATTFLEKQFWNEVNSLIAKYP  122 (723)
+T ss_dssp             TCSCTTSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSH
+T ss_pred             cCcccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCH
+Confidence                1112346788899999999999999999999998875
+
+
+No 9
+>5NLA_A Putative transcriptional regulator TRANSCRIPTION REGULATOR; Transcription, polysaccharide, c-di-GMP; 2.7A {Rhizobium meliloti (strain 1021)}
+Probab=26.15  E-value=4.2e+02  Score=20.58  Aligned_cols=16  Identities=13%  Similarity=0.011  Sum_probs=8.0  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHHHHHHHhhh
+Q tr|H3BP95|H3BP  130 EFVRQALAYLEQSYKN  145 (156)
+Q Consensus       130 efvrqalayleqsykn  145 (156)
+                      ..+.-++++|...|.+
+T Consensus       275 ~~~g~S~~~L~r~Fk~  290 (382)
+T 5NLA_A          275 RELGISRTRLYQLFEP  290 (382)
+T ss_dssp             HTTTCCHHHHHHHHTT
+T ss_pred             HHHCCCHHHHHHHhhc
+Confidence            3344455555555544
+
+
+No 10
+>1GUX_B RETINOBLASTOMA PROTEIN, ONCOPROTEIN; COMPLEX (TRANSCRIPTION REGULATION-PEPTIDE), TUMOR SUPPRESSOR; 1.85A {Human papillomavirus} SCOP: a.74.1.3
+Probab=26.11  E-value=4.4e+02  Score=20.81  Aligned_cols=13  Identities=15%  Similarity=0.452  Sum_probs=8.4  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|H3BP95|H3BP   98 SDMWTMVKQMTDV  110 (156)
+Q Consensus        98 sdmwtmvkqmtdv  110 (156)
+                      ..+|.+++..+..
+T Consensus        43 ~~iw~~~~~~l~~   55 (152)
+T 1GUX_B           43 HIIWTLFQHTLQN   55 (152)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHh
+Confidence            5577777766543
+
+
+No 11
+>1O9K_B RETINOBLASTOMA-ASSOCIATED PROTEIN, TRANSCRIPTION FACTOR E2F1; APOPTOSIS, TUMOUR SUPPRESSOR, CELL CYCLE; 2.6A {HOMO SAPIENS} SCOP: a.74.1.3
+Probab=26.11  E-value=4.4e+02  Score=20.81  Aligned_cols=13  Identities=15%  Similarity=0.452  Sum_probs=8.6  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|H3BP95|H3BP   98 SDMWTMVKQMTDV  110 (156)
+Q Consensus        98 sdmwtmvkqmtdv  110 (156)
+                      ..+|.+++..+..
+T Consensus        43 ~~iw~~~~~~l~~   55 (152)
+T 1O9K_B           43 HIIWTLFQHTLQN   55 (152)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHh
+Confidence            5578777776543
+
+
+No 12
+>6MJ1_A Probable HTH-type transcriptional regulator YttP; TetR family, cell division, FtsZ; 2.6A {Bacillus subtilis (strain 168)}
+Probab=22.29  E-value=3.9e+02  Score=17.50  Aligned_cols=18  Identities=0%  Similarity=0.139  Sum_probs=9.3  Template_Neff=12.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHh
+Q tr|H3BP95|H3BP  126 EVRMEFVRQALAYLEQSY  143 (156)
+Q Consensus       126 evrmefvrqalayleqsy  143 (156)
+                      .+...++.....|+..-+
+T Consensus       181 ~~~~~~~~~l~~~i~~~~  198 (207)
+T 6MJ1_A          181 YFYKMYFEEIKIWIRSVF  198 (207)
+T ss_dssp             CCHHHHHHHHHHHHHHTE
+T ss_pred             HHHHHHHHHHHHHHHHHh
+Confidence            344455666665555443
+
+
+No 13
+>2PBE_A Aminoglycoside 6-adenylyltransferase (E.C.2.7.7.-); 10154a, NYSGXRC, Aminoglycoside 6-adenyltransferase, PSI-2; HET: MSE; 2.65A {Bacillus subtilis} SCOP: a.160.1.5, d.218.1.13
+Probab=21.83  E-value=5.9e+02  Score=19.40  Aligned_cols=9  Identities=33%  Similarity=0.468  Sum_probs=5.1  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHh
+Q tr|H3BP95|H3BP  135 ALAYLEQSY  143 (156)
+Q Consensus       135 alayleqsy  143 (156)
+                      ...||+.-|
+T Consensus       274 v~~~l~~~~  282 (294)
+T 2PBE_A          274 ITKYTEGIY  282 (294)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHh
+Confidence            555665554
+
+

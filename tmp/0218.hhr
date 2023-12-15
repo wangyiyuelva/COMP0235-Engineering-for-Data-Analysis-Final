@@ -1,0 +1,170 @@
+Query         tr|F8W7U6|F8W7U6_HUMAN
+Match_columns 86
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:03:16 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0218.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7MJH_D Spike glycoprotein, VH   38.2      54 0.00059   17.4   1.6   15   40-54    130-144 (145)
+  2 4LV8_A Rhoptry protein 5 C, In  23.8      76 0.00083   20.5   0.7   20   11-30      5-24  (371)
+  3 6B4F_B Nucleoporin GLE1, Nucle  23.4 1.9E+02  0.0021   21.4   2.7   25   19-47    292-316 (317)
+  4 6B4J_A Nucleoporin GLE1, Nucle  23.4 1.9E+02  0.0021   21.4   2.7   25   19-47    292-316 (317)
+  5 2O5H_A Hypothetical protein; a  17.9 3.8E+02  0.0042   19.3   3.2   33   17-49     81-116 (136)
+  6 5DMD_A Flagellar assembly fact  17.0      86 0.00094   22.3  -0.1    8   44-51     44-51  (151)
+  7 5DMD_B Flagellar assembly fact  17.0      86 0.00094   22.3  -0.1    8   44-51     44-51  (151)
+  8 4HCS_A Uncharacterized protein  13.2 5.1E+02  0.0055   14.8   2.8   26    9-34     55-80  (81)
+  9 4HED_A Uncharacterized protein  13.2 5.1E+02  0.0055   14.8   2.8   26    9-34     55-80  (81)
+ 10 2W1Z_B ROP2 (E.C.2.7.-.-); INA  12.6 2.3E+02  0.0025   18.4   1.0   19   10-28      2-20  (368)
+
+No 1
+>7MJH_D Spike glycoprotein, VH ab8; SARS-CoV-2, glycoprotein, fusion protein, viral; HET: NAG;{Severe acute respiratory syndrome coronavirus 2}
+Probab=38.17  E-value=54  Score=17.38  Aligned_cols=15  Identities=7%  Similarity=-0.113  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             CCchhcccccCCCCC
+Q tr|F8W7U6|F8W7   40 PTPADFWWLQSDSPD   54 (86)
+Q Consensus        40 ptpadfwwlqsdspd   54 (86)
+                      +--..|||+|.+.++
+T Consensus       130 ~~~~~~~~~~~~~~~  144 (145)
+T 7MJH_D          130 HHHHHHGDYKDDDDK  144 (145)
+T ss_dssp             ---------------
+T ss_pred             CCCCcCCCCcCCCCC
+Confidence            344678888877665
+
+
+No 2
+>4LV8_A Rhoptry protein 5 C, Interferon-inducible; immune related GTPase, guanine dissociation; HET: ADP, GDP, EDO; 1.72A {Toxoplasma gondii type I}
+Probab=23.80  E-value=76  Score=20.50  Aligned_cols=20  Identities=20%  Similarity=0.315  Sum_probs=13.6  Template_Neff=12.600
+
+Q ss_pred             CCCChHHHHHHHHHhhCCCC
+Q tr|F8W7U6|F8W7   11 DSGDSVVAKYINRFRQAQPT   30 (86)
+Q Consensus        11 dsgdsvvakyinrfrqaqpt   30 (86)
+                      ..||++++.+++|..+.+..
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~   24 (371)
+T 4LV8_A            5 EAGDSFMRDLLKREEELIGY   24 (371)
+T ss_dssp             -CCHHHHHHHHHHTHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHhcc
+Confidence            45788888888877766543
+
+
+No 3
+>6B4F_B Nucleoporin GLE1, Nucleoporin like 2; Complex, Nuclear Pore Complex, mRNA; HET: PO4; 2.811A {Homo sapiens}
+Probab=23.43  E-value=1.9e+02  Score=21.39  Aligned_cols=25  Identities=20%  Similarity=0.547  Sum_probs=17.1  Template_Neff=9.100
+
+Q ss_pred             HHHHHHhhCCCCCCCCCCCCCCCchhccc
+Q tr|F8W7U6|F8W7   19 KYINRFRQAQPTSREERQPAGPTPADFWW   47 (86)
+Q Consensus        19 kyinrfrqaqptsreerqpagptpadfww   47 (86)
+                      .++..+.+..    .-..|.|-.+.+|||
+T Consensus       292 ~~le~~~~~~----~~~~p~G~~~~~~~~  316 (317)
+T 6B4F_B          292 QFLEKCLQHK----DIPVPKGFLTSSFWR  316 (317)
+T ss_dssp             HHHHHHHHHT----SCCCCTTCCCHHHHH
+T ss_pred             HHHHHHHHcC----CCCCCCccCCccccc
+Confidence            4555555422    334788999999998
+
+
+No 4
+>6B4J_A Nucleoporin GLE1, Nucleoporin like 2; Complex, Nuclear Pore Complex, mRNA; HET: PO4, ANP; 3.4A {Homo sapiens}
+Probab=23.43  E-value=1.9e+02  Score=21.39  Aligned_cols=25  Identities=20%  Similarity=0.547  Sum_probs=17.1  Template_Neff=9.100
+
+Q ss_pred             HHHHHHhhCCCCCCCCCCCCCCCchhccc
+Q tr|F8W7U6|F8W7   19 KYINRFRQAQPTSREERQPAGPTPADFWW   47 (86)
+Q Consensus        19 kyinrfrqaqptsreerqpagptpadfww   47 (86)
+                      .++..+.+..    .-..|.|-.+.+|||
+T Consensus       292 ~~le~~~~~~----~~~~p~G~~~~~~~~  316 (317)
+T 6B4J_A          292 QFLEKCLQHK----DIPVPKGFLTSSFWR  316 (317)
+T ss_dssp             HHHHHHHHHT----CCCCCTTCCCHHHHH
+T ss_pred             HHHHHHHHcC----CCCCCCccCCccccc
+Confidence            4555655422    334788999999998
+
+
+No 5
+>2O5H_A Hypothetical protein; alpha-beta, Structural Genomics, PSI-2, Protein; HET: MSE; 1.9A {Neisseria meningitidis} SCOP: d.363.1.1
+Probab=17.90  E-value=3.8e+02  Score=19.27  Aligned_cols=33  Identities=21%  Similarity=0.382  Sum_probs=22.2  Template_Neff=6.300
+
+Q ss_pred             HHHHHHHHhhCCCCCCCCCCCCC---CCchhccccc
+Q tr|F8W7U6|F8W7   17 VAKYINRFRQAQPTSREERQPAG---PTPADFWWLQ   49 (86)
+Q Consensus        17 vakyinrfrqaqptsreerqpag---ptpadfwwlq   49 (86)
+                      +-..|++||++=|.+.++..|-.   +....+||+.
+T Consensus        81 ieEqi~~~r~~wP~~~~~~~~~~D~~~~~~~~Wf~~  116 (136)
+T 2O5H_A           81 PEEWEQIFREVWPEYEIEPNPLPGYAPFDIGMWLTV  116 (136)
+T ss_dssp             HHHHHHHHHHHCCSSSBCCCC------CBHHHHHHH
+T ss_pred             HHHHHHHHHHHCCCCCCCCCCCCCCCCccccceeec
+Confidence            45778999999999987763211   2356677764
+
+
+No 6
+>5DMD_A Flagellar assembly factor FliW; Translation, flagellum, assembly factor; 1.45A {Geobacillus thermodenitrificans}
+Probab=17.00  E-value=86  Score=22.27  Aligned_cols=8  Identities=50%  Similarity=0.364  Sum_probs=6.5  Template_Neff=7.000
+
+Q ss_pred             hcccccCC
+Q tr|F8W7U6|F8W7   44 DFWWLQSD   51 (86)
+Q Consensus        44 dfwwlqsd   51 (86)
+                      .|+||||-
+T Consensus        44 pf~~LqS~   51 (151)
+T 5DMD_A           44 PFIILQSV   51 (151)
+T ss_dssp             CEEEEEES
+T ss_pred             CeEEEEeC
+Confidence            39999984
+
+
+No 7
+>5DMD_B Flagellar assembly factor FliW; Translation, flagellum, assembly factor; 1.45A {Geobacillus thermodenitrificans}
+Probab=17.00  E-value=86  Score=22.27  Aligned_cols=8  Identities=50%  Similarity=0.364  Sum_probs=6.5  Template_Neff=7.000
+
+Q ss_pred             hcccccCC
+Q tr|F8W7U6|F8W7   44 DFWWLQSD   51 (86)
+Q Consensus        44 dfwwlqsd   51 (86)
+                      .|+||||-
+T Consensus        44 pf~~LqS~   51 (151)
+T 5DMD_B           44 PFIILQSV   51 (151)
+T ss_dssp             CCEEEEES
+T ss_pred             CeEEEEeC
+Confidence            39999984
+
+
+No 8
+>4HCS_A Uncharacterized protein; novel chemokine subfamily CX, chemokine; 1.28A {Danio rerio}
+Probab=13.16  E-value=5.1e+02  Score=14.78  Aligned_cols=26  Identities=31%  Similarity=0.390  Sum_probs=18.6  Template_Neff=9.600
+
+Q ss_pred             ccCCCChHHHHHHHHHhhCCCCCCCC
+Q tr|F8W7U6|F8W7    9 LIDSGDSVVAKYINRFRQAQPTSREE   34 (86)
+Q Consensus         9 lidsgdsvvakyinrfrqaqptsree   34 (86)
+                      -+|....-|-++++++.+...+.+++
+T Consensus        55 C~~p~~~wv~~~~~~~~~~~~~~~~~   80 (81)
+T 4HCS_A           55 CIDPNASWLAERLYRLKEKGVTCRGE   80 (81)
+T ss_dssp             EECTTCTTHHHHHHHHHHTTCCCC--
+T ss_pred             EeCCCCHHHHHHHHHHHHhCCCCcCC
+Confidence            35667788889999988887766543
+
+
+No 9
+>4HED_A Uncharacterized protein; chemokine fold, chemotaxis, new chemokine; 1.62A {Danio rerio}
+Probab=13.16  E-value=5.1e+02  Score=14.78  Aligned_cols=26  Identities=31%  Similarity=0.390  Sum_probs=19.7  Template_Neff=9.600
+
+Q ss_pred             ccCCCChHHHHHHHHHhhCCCCCCCC
+Q tr|F8W7U6|F8W7    9 LIDSGDSVVAKYINRFRQAQPTSREE   34 (86)
+Q Consensus         9 lidsgdsvvakyinrfrqaqptsree   34 (86)
+                      -+|....-|-++++++.+...+.+++
+T Consensus        55 C~~p~~~wv~~~~~~~~~~~~~~~~~   80 (81)
+T 4HED_A           55 CIDPNASWLAERLYRLKEKGVTCRGE   80 (81)
+T ss_dssp             EECTTCTTHHHHHHHHHHTTCCCBSC
+T ss_pred             EeCCCCHHHHHHHHHHHHhCCCCcCC
+Confidence            35677788899999998887766554
+
+
+No 10
+>2W1Z_B ROP2 (E.C.2.7.-.-); INACTIVITY, PROTEIN-KINASE, MEMBRANE-ATTACHMENT, TRANSFERASE; HET: SO4; 1.97A {TOXOPLASMA GONDII}
+Probab=12.64  E-value=2.3e+02  Score=18.44  Aligned_cols=19  Identities=32%  Similarity=0.608  Sum_probs=16.3  Template_Neff=12.500
+
+Q ss_pred             cCCCChHHHHHHHHHhhCC
+Q tr|F8W7U6|F8W7   10 IDSGDSVVAKYINRFRQAQ   28 (86)
+Q Consensus        10 idsgdsvvakyinrfrqaq   28 (86)
+                      .+.||.+..+++.+..+.+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~   20 (368)
+T 2W1Z_B            2 TDPGDVVIEELFNRIPETS   20 (368)
+T ss_dssp             CCTTHHHHHHHHHHCGGGG
+T ss_pred             CChHHHHHHHHHhcCcccc
+Confidence            3679999999999988877
+
+

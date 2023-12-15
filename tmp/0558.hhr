@@ -1,0 +1,164 @@
+Query         tr|D6RCN9|D6RCN9_HUMAN
+Match_columns 68
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 09:34:27 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0558.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5WBS_A Frizzled-7,inhibitor pe  77.0     8.7 9.4E-05   25.5   3.4   16   18-33    147-162 (190)
+  2 5WBS_C Frizzled-7,inhibitor pe  77.0     8.7 9.4E-05   25.5   3.4   16   18-33    147-162 (190)
+  3 5OYM_B PC4 and SFRS1-interacti  64.0      13 0.00014   24.5   2.1   16   13-28      2-17  (111)
+  4 5OYM_D PC4 and SFRS1-interacti  64.0      13 0.00014   24.5   2.1   16   13-28      2-17  (111)
+  5 6UAX_A Hypothetical serine ric  59.2      76 0.00083   23.5   5.4    6   59-64     93-98  (355)
+  6 6XTX_B DNA replication licensi  19.5 2.5E+02  0.0027   19.4   2.5   36    2-37    187-222 (222)
+  7 6R4M_A Phosphatidylglycerol/ph  16.8 2.1E+02  0.0023   19.0   1.6   14   16-29    178-191 (201)
+  8 6R4M_C Phosphatidylglycerol/ph  16.8 2.1E+02  0.0023   19.0   1.6   14   16-29    178-191 (201)
+  9 6R4N_E Phosphatidylglycerol/ph  16.8 2.1E+02  0.0023   19.0   1.6   14   16-29    178-191 (201)
+ 10 5A4P_A UBIQUITIN-CONJUGATING E  14.8 2.8E+02  0.0031   20.9   2.0   54    5-58     13-66  (354)
+
+No 1
+>5WBS_A Frizzled-7,inhibitor peptide Fz7-21; Frizzled, Wnt signaling, inhibitor, dimerization; 2.88A {Homo sapiens}
+Probab=77.01  E-value=8.7  Score=25.48  Aligned_cols=16  Identities=56%  Similarity=0.997  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   18 STNGSGGSGSSGPKAG   33 (68)
+Q Consensus        18 stngsggsgssgpkag   33 (68)
+                      .+.|+||||.||+..+
+T Consensus       147 ~~~~~~~~~~~~~~~~  162 (190)
+T 5WBS_A          147 GSGGSGGSGGSGGSGG  162 (190)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCCCCCCC
+Confidence            3445555555555444
+
+
+No 2
+>5WBS_C Frizzled-7,inhibitor peptide Fz7-21; Frizzled, Wnt signaling, inhibitor, dimerization; 2.88A {Homo sapiens}
+Probab=77.01  E-value=8.7  Score=25.48  Aligned_cols=16  Identities=56%  Similarity=0.997  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   18 STNGSGGSGSSGPKAG   33 (68)
+Q Consensus        18 stngsggsgssgpkag   33 (68)
+                      .+.|+||||.||+..+
+T Consensus       147 ~~~~~~~~~~~~~~~~  162 (190)
+T 5WBS_C          147 GSGGSGGSGGSGGSGG  162 (190)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCCCCCCC
+Confidence            3445555555555444
+
+
+No 3
+>5OYM_B PC4 and SFRS1-interacting protein; Integrase binding, transciptional co-activator, domain; 2.05A {Homo sapiens}
+Probab=63.96  E-value=13  Score=24.49  Aligned_cols=16  Identities=56%  Similarity=0.860  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   13 GSSSSSTNGSGGSGSS   28 (68)
+Q Consensus        13 gssssstngsggsgss   28 (68)
+                      ||+.|...||||.|+.
+T Consensus         2 ~~~~~~~~~~~~~~~~   17 (111)
+T 5OYM_B            2 GSMGSGGGGSGGGGSG   17 (111)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCCCCCCC
+Confidence            4444444555554443
+
+
+No 4
+>5OYM_D PC4 and SFRS1-interacting protein; Integrase binding, transciptional co-activator, domain; 2.05A {Homo sapiens}
+Probab=63.96  E-value=13  Score=24.49  Aligned_cols=16  Identities=56%  Similarity=0.860  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   13 GSSSSSTNGSGGSGSS   28 (68)
+Q Consensus        13 gssssstngsggsgss   28 (68)
+                      ||+.|...||||.|+.
+T Consensus         2 ~~~~~~~~~~~~~~~~   17 (111)
+T 5OYM_D            2 GSMGSGGGGSGGGGSG   17 (111)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCCCCCCC
+Confidence            4444545555555443
+
+
+No 5
+>6UAX_A Hypothetical serine rich protein; Glycosyl hydrolase, CARBOHYDRATE, HYDROLASE; HET: TRS, EPE; 1.3A {Sorangium cellulosum So ce56}
+Probab=59.22  E-value=76  Score=23.54  Aligned_cols=6  Identities=33%  Similarity=0.534  Sum_probs=2.4  Template_Neff=8.300
+
+Q ss_pred             CCCCCC
+Q tr|D6RCN9|D6RC   59 RNKSGI   64 (68)
+Q Consensus        59 rnksgi   64 (68)
+                      ..|.|+
+T Consensus        93 ~~KrG~   98 (355)
+T 6UAX_A           93 GCKRGL   98 (355)
+T ss_dssp             CCCEEE
+T ss_pred             CCceEE
+Confidence            334443
+
+
+No 6
+>6XTX_B DNA replication licensing factor MCM2; CMG, Helicase, ATPase, Replisome, REPLICATION; HET: ADP, AGS;{Homo sapiens}
+Probab=19.54  E-value=2.5e+02  Score=19.36  Aligned_cols=36  Identities=22%  Similarity=0.127  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC    2 SSLGGGSQDAGGSSSSSTNGSGGSGSSGPKAGAADK   37 (68)
+Q Consensus         2 sslgggsqdaggssssstngsggsgssgpkagaadk   37 (68)
+                      ++...|+...-.+.-......||+|.|.-.+++-+|
+T Consensus       187 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  222 (222)
+T 6XTX_B          187 NLYFQGSAWSHPQFEKGGGSGGGSGGSAWSHPQFEK  222 (222)
+T ss_pred             HHhhcCCcCCCcccccCCCCCCCCCCCcccCcccCC
+
+
+No 7
+>6R4M_A Phosphatidylglycerol/phosphatidylinositol transfer protein; Vacuole, Ergosterol, LIPID TRANSPORT; HET: NAG; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.80  E-value=2.1e+02  Score=18.96  Aligned_cols=14  Identities=57%  Similarity=0.964  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   16 SSSTNGSGGSGSSG   29 (68)
+Q Consensus        16 ssstngsggsgssg   29 (68)
+                      .+++.|++|.|+.|
+T Consensus       178 ~~~~~~~~~~~~~~  191 (201)
+T 6R4M_A          178 GSGGGGSGGGGSGG  191 (201)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+
+
+No 8
+>6R4M_C Phosphatidylglycerol/phosphatidylinositol transfer protein; Vacuole, Ergosterol, LIPID TRANSPORT; HET: NAG; 2.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.80  E-value=2.1e+02  Score=18.96  Aligned_cols=14  Identities=57%  Similarity=0.964  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   16 SSSTNGSGGSGSSG   29 (68)
+Q Consensus        16 ssstngsggsgssg   29 (68)
+                      .+++.|++|.|+.|
+T Consensus       178 ~~~~~~~~~~~~~~  191 (201)
+T 6R4M_C          178 GSGGGGSGGGGSGG  191 (201)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+
+
+No 9
+>6R4N_E Phosphatidylglycerol/phosphatidylinositol transfer protein; Vacuole, Ergosterol, LIPID TRANSPORT; HET: ERG, SO4, NAG; 2.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.80  E-value=2.1e+02  Score=18.96  Aligned_cols=14  Identities=57%  Similarity=0.964  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC   16 SSSTNGSGGSGSSG   29 (68)
+Q Consensus        16 ssstngsggsgssg   29 (68)
+                      .+++.|++|.|+.|
+T Consensus       178 ~~~~~~~~~~~~~~  191 (201)
+T 6R4N_E          178 GSGGGGSGGGGSGG  191 (201)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+
+
+No 10
+>5A4P_A UBIQUITIN-CONJUGATING ENZYME E2 Z (E.C.6.3.2.19); LIGASE, E2 ENZYME, FAT10 CONJUGATION; HET: MLI, PEG; 2.1A {HOMO SAPIENS}
+Probab=14.75  E-value=2.8e+02  Score=20.86  Aligned_cols=54  Identities=30%  Similarity=0.270  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|D6RCN9|D6RC    5 GGGSQDAGGSSSSSTNGSGGSGSSGPKAGAADKSAVVAAAAPASVADDTPPPER   58 (68)
+Q Consensus         5 gggsqdaggssssstngsggsgssgpkagaadksavvaaaapasvaddtppper   58 (68)
+                      +.+....+.++..+-.+.+|++++.+....++..+..++++.+...-..+++..
+T Consensus        13 ~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   66 (354)
+T 5A4P_A           13 GAGAAGPGASSVAGVVGVSGSGGGFGPPFLPDVWAAAAAAGGAGGPGSGLAPLP   66 (354)
+T ss_dssp             ------------------------------------------------------
+T ss_pred             cccccCCCccccccccCCCCCCCCCCCCCChHHHHHHHHhcCCCCCCCCCCCCC
+
+

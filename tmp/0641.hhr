@@ -1,0 +1,286 @@
+Query         tr|K7ENV1|K7ENV1_HUMAN
+Match_columns 147
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:06:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0641.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3R7G_A Protein spire homolog 1  99.9 9.6E-27   1E-31  172.1  10.2  119   17-135   102-220 (220)
+  2 2YLE_A PROTEIN SPIRE HOMOLOG 1  99.9 2.1E-25 2.3E-30  167.9  11.6  118   16-133   111-228 (229)
+  3 5LB7_B Katanin p80 WD40 repeat  65.2      52 0.00056   20.6   5.8   12  115-126    54-65  (80)
+  4 2RPA_A Katanin p60 ATPase-cont  45.4 1.2E+02  0.0013   18.8   5.0   15   93-107    34-48  (78)
+  5 4UYA_A MITOGEN-ACTIVATED PROTE  43.1 1.9E+02  0.0021   20.4   9.3   45   19-63    211-274 (340)
+  6 7AJL_AAA CYFIP-related Rac1 in  37.5 3.7E+02   0.004   22.1   6.8    9   46-54      9-17  (299)
+  7 7NRC_A 40S ribosomal protein S  31.5 1.6E+02  0.0017   31.4   4.6   10   96-105   314-323 (1209)
+  8 2G3V_A CAG pathogenicity islan  28.3 2.1E+02  0.0022   25.6   4.2   24  111-134    81-104 (208)
+  9 5FM3_A PROTO-ONCOGENE TYROSINE  27.7 3.4E+02  0.0037   19.2   4.4   44   19-62    271-333 (355)
+ 10 6FBX_A BCL2-like 10, BCL2-anta  26.1 3.8E+02  0.0041   18.7   5.6    6   34-39     20-25  (152)
+ 11 6AGX_D Fibroblast growth facto  24.0 3.7E+02   0.004   17.8   4.4   45   18-62    214-277 (298)
+ 12 4YJR_A Tyrosine-protein kinase  21.8 4.3E+02  0.0047   17.9   4.5   44   19-62    196-258 (281)
+ 13 6WC4_C Sec39,KLLA0B05115p, Use  21.2   5E+02  0.0054   21.4   4.9   28  114-141   275-302 (306)
+ 14 7POH_A Zinc-finger associated   20.7 4.8E+02  0.0052   20.7   4.5   53   91-144    37-89  (96)
+ 15 7POH_B Zinc-finger associated   20.7 4.8E+02  0.0052   20.7   4.5   53   91-144    37-89  (96)
+ 16 7KJA_B Eph receptor, kinase, S  20.3 5.5E+02   0.006   18.5   4.4   45   19-63    209-272 (390)
+
+No 1
+>3R7G_A Protein spire homolog 1, Formin-2; C-lobe of protein kinases, actin; 2.2A {Homo sapiens}
+Probab=99.94  E-value=9.6e-27  Score=172.12  Aligned_cols=119  Identities=100%  Similarity=1.437  Sum_probs=83.4  Template_Neff=8.200
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHccccchccCCChhHHHHHHHHHhhccCCCCCCCCcccccCCCCChhHHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN   17 QCMETEVIESLGIIIYKALDYGLKENEERELSPPLEQLIDHMANTVEADGSNDEGYEAAEEGLGDEDEKRKISAIRSYRD   96 (147)
+Q Consensus        17 qcmetevieslgiiiykaldyglkeneerelsppleqlidhmantveadgsndegyeaaeeglgdedekrkisairsyrd   96 (147)
+                      ..+++.+|||||+++|+|++|++++++++.+|++|++||..|+..+++.+++||||++++++++++.+.+.+..+.++++
+T Consensus       102 ~~sek~~v~sLG~tl~~Ald~gl~~~ee~~lS~~Le~Ll~~M~~~~~~~~~~deg~~~~~~~~~~~~~~~~~~~~~sl~~  181 (220)
+T 3R7G_A          102 QCMETEVIESLGIIIYKALDYGLKENEERELSPPLEQLIDHMANTVEADGSNDEGYEAAEEGLGDEDEKRKISAIRSYRD  181 (220)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHSTTCCTTEEECCCHHHHHHHHHHTTCCCC--------------------------CCSHHH
+T ss_pred             CccHHHHHHHHHHHHHHHHHcCCCcccccccCHHHHHHHHHHhccccCCCCCcCcccccccCCCcccccccccccccHHH
+Confidence            35789999999999999999999999999999999999999999987778899999999998776543333456789999
+
+
+Q ss_pred             HHHHHHHhCCCCCcCcHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN   97 VMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFLTK  135 (147)
+Q Consensus        97 vmklcaahlptesdapnhyqavcralfaetmelhtfltk  135 (147)
+                      |+++|.+|+..+..++.|||+|||+||+|+|+|++||.|
+T Consensus       182 Vl~~C~~hl~~~~~a~~hyraVcraL~~Ealel~~fl~~  220 (220)
+T 3R7G_A          182 VMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFLTK  220 (220)
+T ss_dssp             HHHHHHHTSSSGGGHHHHHHHHHHHHHHHHHHC------
+T ss_pred             HHHHHHHhCCCcccchHHHHHHHHHHHHHHHhHHHHhcC
+Confidence            999999999988889999999999999999999999986
+
+
+No 2
+>2YLE_A PROTEIN SPIRE HOMOLOG 1, FORMIN-2; ACTIN-BINDING PROTEIN, ACTIN POLYMERIZATION; 1.8A {HOMO SAPIENS}
+Probab=99.93  E-value=2.1e-25  Score=167.88  Aligned_cols=118  Identities=100%  Similarity=1.439  Sum_probs=87.8  Template_Neff=7.800
+
+Q ss_pred             chhhHHHHHHHHHHHHHHHHHHccccchccCCChhHHHHHHHHHhhccCCCCCCCCcccccCCCCChhHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN   16 SQCMETEVIESLGIIIYKALDYGLKENEERELSPPLEQLIDHMANTVEADGSNDEGYEAAEEGLGDEDEKRKISAIRSYR   95 (147)
+Q Consensus        16 sqcmetevieslgiiiykaldyglkeneerelsppleqlidhmantveadgsndegyeaaeeglgdedekrkisairsyr   95 (147)
+                      ...+++.+|||||++||+|++|++++++++.+|++|++||..|+..+.+.+++||||++++++++++.+++....+++++
+T Consensus       111 ~~~sek~~vysLG~tLy~Ald~gl~~~~e~~LS~~Le~LL~~M~~~~~~~~~~deg~~~~~~~~~~~~~~~~~~~~~sl~  190 (229)
+T 2YLE_A          111 SQCMETEVIESLGIIIYKALDYGLKENEERELSPPLEQLIDHMANTVEADGSNDEGYEAAEEGLGDEDEKRKISAIRSYR  190 (229)
+T ss_dssp             SSSCHHHHHHHHHHHHHHHHTTTCCTTEEECCCHHHHHHHHHHTTCCC--------------------CCSCCCCCCSHH
+T ss_pred             CccHHHHHHHHHHHHHHHHHhcCCCccccccCCHHHHHHHHHHhhhhccCCCCccccchhhcCCCchhhhcchhccccHH
+Confidence            44679999999999999999999999999999999999999999987666788999999888865431111112367999
+
+
+Q ss_pred             HHHHHHHHhCCCCCcCcHHHHHHHHHHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN   96 DVMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFL  133 (147)
+Q Consensus        96 dvmklcaahlptesdapnhyqavcralfaetmelhtfl  133 (147)
+                      +|+++|.+|+..+..++.||++|||+|++|++||++||
+T Consensus       191 ~Vl~~C~~hl~~~~~~~~hy~aVcraL~~Ealel~~fl  228 (229)
+T 2YLE_A          191 DVMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFL  228 (229)
+T ss_dssp             HHHHHHHTTSSSGGGHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHhCCCcccccHHHHHHHHHHHHHHHhHHHhc
+Confidence            99999999999988899999999999999999999997
+
+
+No 3
+>5LB7_B Katanin p80 WD40 repeat-containing subunit; katanin, ASPM, severing enzyme, HYDROLASE; 1.5A {Mus musculus}
+Probab=65.20  E-value=52  Score=20.63  Aligned_cols=12  Identities=25%  Similarity=0.404  Sum_probs=5.2  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHH
+Q tr|K7ENV1|K7EN  115 YQAVCRALFAET  126 (147)
+Q Consensus       115 yqavcralfaet  126 (147)
+                      +..+-+.+-.|.
+T Consensus        54 w~~~~~~l~~E~   65 (80)
+T 5LB7_B           54 WQQVWQEINVEA   65 (80)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            344444444444
+
+
+No 4
+>2RPA_A Katanin p60 ATPase-containing subunit A1; AAA ATPase, ATP-binding, Cell cycle; NMR {Mus musculus}
+Probab=45.42  E-value=1.2e+02  Score=18.81  Aligned_cols=15  Identities=20%  Similarity=0.250  Sum_probs=7.4  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHhCCC
+Q tr|K7ENV1|K7EN   93 SYRDVMKLCAAHLPT  107 (147)
+Q Consensus        93 syrdvmklcaahlpt  107 (147)
+                      .++.++.....+...
+T Consensus        34 ~y~~~~~~i~~~~~~   48 (78)
+T 2RPA_A           34 YYQGVLDQMNKYLYS   48 (78)
+T ss_dssp             HHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            445555555554443
+
+
+No 5
+>4UYA_A MITOGEN-ACTIVATED PROTEIN KINASE KINASE KINASE; MIXED-LINEAGE KINASE, ATP-BINDING, NUCLEOTIDE-BINDING, PHOSPHOPROTEIN; HET: AGS; 2.8A {HOMO SAPIENS}
+Probab=43.08  E-value=1.9e+02  Score=20.44  Aligned_cols=45  Identities=13%  Similarity=0.161  Sum_probs=31.0  Template_Neff=12.300
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHccccc-------------------hccCCChhHHHHHHHHHhhcc
+Q tr|K7ENV1|K7EN   19 METEVIESLGIIIYKALDYGLKEN-------------------EERELSPPLEQLIDHMANTVE   63 (147)
+Q Consensus        19 metevieslgiiiykaldyglken-------------------eerelsppleqlidhmantve   63 (147)
+                      ..+.++|++|.++|+.+....+..                   .+...+..+..++..|+..++
+T Consensus       211 ~~~~dv~slg~~~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~p  274 (340)
+T 4UYA_A          211 SKGSDIWSYGVLLWELLTGEVPYRGIDGLAVAYGVAVNKLTLPIPSTCPEPFAKLMKECWQQDP  274 (340)
+T ss_dssp             CHHHHHHHHHHHHHHHHHCCCTTTTCCHHHHHHHHHTSCCCCCCCTTCCTTHHHHHHHHSCSST
+T ss_pred             ChhHHHHHHHHHHHHHHHCCCCCCCCChHHHHHHHHhcCCCCCCCCCCCHHHHHHHHHHhccCC
+Confidence            457899999999999988544321                   123445667777777777653
+
+
+No 6
+>7AJL_AAA CYFIP-related Rac1 interactor B; Rac1 competitor, actin regulation, Scar/WAVE; HET: MSE; 2.37A {Mus musculus}
+Probab=37.53  E-value=3.7e+02  Score=22.10  Aligned_cols=9  Identities=11%  Similarity=0.239  Sum_probs=3.3  Template_Neff=8.400
+
+Q ss_pred             CCChhHHHH
+Q tr|K7ENV1|K7EN   46 ELSPPLEQL   54 (147)
+Q Consensus        46 elsppleql   54 (147)
+                      .+-..++.+
+T Consensus         9 ~~~~~~~~~   17 (299)
+T 7AJL_AAA          9 EIYNQVNVV   17 (299)
+T ss_pred             HHHHHHHHH
+Confidence            333333333
+
+
+No 7
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=31.51  E-value=1.6e+02  Score=31.39  Aligned_cols=10  Identities=10%  Similarity=0.096  Sum_probs=5.1  Template_Neff=1.500
+
+Q ss_pred             HHHHHHHHhC
+Q tr|K7ENV1|K7EN   96 DVMKLCAAHL  105 (147)
+Q Consensus        96 dvmklcaahl  105 (147)
+                      +++..+.++|
+T Consensus       314 eAVpALIeML  323 (1209)
+T 7NRC_A          314 TIVPEIVGVL  323 (1209)
+T ss_pred             hhHHHHHHHh
+Confidence            3555555555
+
+
+No 8
+>2G3V_A CAG pathogenicity island protein 13; Helicobacter pylori, pathogenicity island, Type; HET: MSE; 2.3A {Helicobacter pylori}
+Probab=28.27  E-value=2.1e+02  Score=25.56  Aligned_cols=24  Identities=33%  Similarity=0.448  Sum_probs=18.3  Template_Neff=1.400
+
+Q ss_pred             CcHHHHHHHHHHHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN  111 APNHYQAVCRALFAETMELHTFLT  134 (147)
+Q Consensus       111 apnhyqavcralfaetmelhtflt  134 (147)
+                      .-..|+.|-|-|..|+++|--|..
+T Consensus        81 gi~kfkkvy~ll~~et~~ll~~ia  104 (208)
+T 2G3V_A           81 GVDKFKKVYRLLESETMELLHAIA  104 (208)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChhHHHHHHHHHhhhhHHHHHHHH
+Confidence            345677888889999998877764
+
+
+No 9
+>5FM3_A PROTO-ONCOGENE TYROSINE-PROTEIN KINASE RECEPTOR RET; TRANSFERASE; HET: PP1, PTR, SEP; 2.95A {HOMO SAPIENS}
+Probab=27.72  E-value=3.4e+02  Score=19.23  Aligned_cols=44  Identities=11%  Similarity=0.188  Sum_probs=29.4  Template_Neff=12.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHcccc-------------------chccCCChhHHHHHHHHHhhc
+Q tr|K7ENV1|K7EN   19 METEVIESLGIIIYKALDYGLKE-------------------NEERELSPPLEQLIDHMANTV   62 (147)
+Q Consensus        19 metevieslgiiiykaldyglke-------------------neerelsppleqlidhmantv   62 (147)
+                      +.+.+||+||.++|+.+..+...                   ......++++..++..|+..+
+T Consensus       271 ~~~~Dv~~lg~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~li~~~l~~~  333 (355)
+T 5FM3_A          271 TTQSDVWSFGVLLWEIVTLGGNPYPGIPPERLFNLLKTGHRMERPDNCSEEMYRLMLQCWKQE  333 (355)
+T ss_dssp             CHHHHHHHHHHHHHHHHTTSCCSSTTCCHHHHHHHHHTTCCCCCCSSCCHHHHHHHHHHTCSS
+T ss_pred             CCHHHHHHHHHHHHHHHhcCCCCCCCCCHHHHHHHHHcCCCCCCCccCCHHHHHHHHHHHccC
+Confidence            56789999999999998733211                   112345566777777777654
+
+
+No 10
+>6FBX_A BCL2-like 10, BCL2-antagonist of cell; Bcl-2 family, pro-survival protein, APOPTOSIS; 1.639A {Danio rerio}
+Probab=26.05  E-value=3.8e+02  Score=18.69  Aligned_cols=6  Identities=0%  Similarity=0.119  Sum_probs=2.3  Template_Neff=9.700
+
+Q ss_pred             HHHHcc
+Q tr|K7ENV1|K7EN   34 ALDYGL   39 (147)
+Q Consensus        34 aldygl   39 (147)
+                      -+.|.+
+T Consensus        20 ~v~~~l   25 (152)
+T 6FBX_A           20 YISFCS   25 (152)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+Confidence            333433
+
+
+No 11
+>6AGX_D Fibroblast growth factor receptor 2; Tyrosine-protein kinase, TRANSFERASE-INHIBITOR complex; HET: 9WX, PTR; 2.95A {Homo sapiens}
+Probab=24.04  E-value=3.7e+02  Score=17.81  Aligned_cols=45  Identities=11%  Similarity=0.232  Sum_probs=31.4  Template_Neff=13.200
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHcccc-------------------chccCCChhHHHHHHHHHhhc
+Q tr|K7ENV1|K7EN   18 CMETEVIESLGIIIYKALDYGLKE-------------------NEERELSPPLEQLIDHMANTV   62 (147)
+Q Consensus        18 cmetevieslgiiiykaldyglke-------------------neerelsppleqlidhmantv   62 (147)
+                      ...+.++|++|.++|+.+..+...                   ......++.+..++..|+..+
+T Consensus       214 ~~~~~d~~~~g~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  277 (298)
+T 6AGX_D          214 YTHQSDVWSFGVLMWEIFTLGGSPYPGIPVEELFKLLKEGHRMDKPANCTNELYMMMRDCWHAV  277 (298)
+T ss_dssp             ECHHHHHHHHHHHHHHHHTTSCCSSTTCCGGGHHHHHHTTCCCCCCTTSCHHHHHHHHHHTCSS
+T ss_pred             CChHHHHHHHHHHHHHHHhcCCCCCCCCCHHHHHHHHHcCCCCCCCccCCHHHHHHHHHHHhcC
+Confidence            356889999999999998743221                   112345677888888877765
+
+
+No 12
+>4YJR_A Tyrosine-protein kinase SYK (E.C.2.7.10.2); SYK, NON-RECEPTOR TYROSINE KINASE, SPLEEN; HET: 4DJ, PTR; 1.32A {Homo sapiens}
+Probab=21.84  E-value=4.3e+02  Score=17.85  Aligned_cols=44  Identities=16%  Similarity=0.230  Sum_probs=29.0  Template_Neff=12.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHccccc-------------------hccCCChhHHHHHHHHHhhc
+Q tr|K7ENV1|K7EN   19 METEVIESLGIIIYKALDYGLKEN-------------------EERELSPPLEQLIDHMANTV   62 (147)
+Q Consensus        19 metevieslgiiiykaldyglken-------------------eerelsppleqlidhmantv   62 (147)
+                      ..+.++|++|.++|+++..+.+.-                   .+...++.+..++..|+..+
+T Consensus       196 ~~~~d~~s~g~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~li~~~l~~~  258 (281)
+T 4YJR_A          196 SSKSDVWSFGVLMWEAFSYGQKPYRGMKGSEVTAMLEKGERMGCPAGCPREMYDLMNLCWTYD  258 (281)
+T ss_dssp             EHHHHHHHHHHHHHHHHTTTCCTTTTCCHHHHHHHHHTTCCCCCCTTCCHHHHHHHHHHTCSS
+T ss_pred             ChHHHHHHHHHHHHHHHHcCCCCCCCCChhHHHHHHHcCCCCCCCCCCCHHHHHHHHHHhcCC
+Confidence            457899999999999987433221                   12235566777777776554
+
+
+No 13
+>6WC4_C Sec39,KLLA0B05115p, Use1, KLLA0C02695p,KLLA0C02695p; membrane trafficking, SNARE protein, COPI; 5.726A {Kluyveromyces lactis NRRL Y-1140}
+Probab=21.21  E-value=5e+02  Score=21.38  Aligned_cols=28  Identities=21%  Similarity=0.255  Sum_probs=21.7  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|K7ENV1|K7EN  114 HYQAVCRALFAETMELHTFLTKIKSAKE  141 (147)
+Q Consensus       114 hyqavcralfaetmelhtfltkiksake  141 (147)
+                      --+.++|||+.++-.=...+.+|+..+.
+T Consensus       275 El~~LI~AlF~ds~~R~~~L~~I~~~r~  302 (306)
+T 6WC4_C          275 EIVQWIILLFADTPTRRDCIDEIRRVRE  302 (306)
+T ss_dssp             HHHHHHHHHSCCCHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHhcCCHHHHHHHHHHHHHHh
+Confidence            3477889999988777788888887654
+
+
+No 14
+>7POH_A Zinc-finger associated domain, ZAD, protein; 2.85A {Drosophila melanogaster}
+Probab=20.68  E-value=4.8e+02  Score=20.66  Aligned_cols=53  Identities=17%  Similarity=0.262  Sum_probs=37.0  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHhCCCCCcCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|K7ENV1|K7EN   91 IRSYRDVMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFLTKIKSAKENLK  144 (147)
+Q Consensus        91 irsyrdvmklcaahlptesdapnhyqavcralfaetmelhtfltkiksakenlk  144 (147)
+                      ..++..||..-++....+-.... =..+|+..+.|-.+.-+.+-++-..+.+|-
+T Consensus        37 ~Ksi~~VL~hLA~~ik~~L~~~~-~~~lC~~C~~eL~~YD~~mVnLl~~QKrLt   89 (96)
+T 7POH_A           37 QKTVSLVLTHLANCIQTQLDLKP-GARLCPRCFQELSDYDTIMVNLMTTQKRLT   89 (96)
+T ss_dssp             CCBHHHHHHHHHHHTTCCCCCCT-TCEECHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccHHHHHHHHHHhcCCCeecCC-CCcccHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34788888777776654321110 123899999999999999998888777653
+
+
+No 15
+>7POH_B Zinc-finger associated domain, ZAD, protein; 2.85A {Drosophila melanogaster}
+Probab=20.68  E-value=4.8e+02  Score=20.66  Aligned_cols=53  Identities=17%  Similarity=0.262  Sum_probs=37.0  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHhCCCCCcCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|K7ENV1|K7EN   91 IRSYRDVMKLCAAHLPTESDAPNHYQAVCRALFAETMELHTFLTKIKSAKENLK  144 (147)
+Q Consensus        91 irsyrdvmklcaahlptesdapnhyqavcralfaetmelhtfltkiksakenlk  144 (147)
+                      ..++..||..-++....+-.... =..+|+..+.|-.+.-+.+-++-..+.+|-
+T Consensus        37 ~Ksi~~VL~hLA~~ik~~L~~~~-~~~lC~~C~~eL~~YD~~mVnLl~~QKrLt   89 (96)
+T 7POH_B           37 QKTVSLVLTHLANCIQTQLDLKP-GARLCPRCFQELSDYDTIMVNLMTTQKRLT   89 (96)
+T ss_dssp             CCBHHHHHHHHHHHTTCCCCCCT-TCCBCHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccHHHHHHHHHHhcCCCeecCC-CCcccHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            34788888777776654321110 123899999999999999998888777653
+
+
+No 16
+>7KJA_B Eph receptor, kinase, SAM, allostery; HET: ACP, GOL; 1.75A {Homo sapiens}
+Probab=20.31  E-value=5.5e+02  Score=18.50  Aligned_cols=45  Identities=16%  Similarity=0.294  Sum_probs=31.7  Template_Neff=12.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHccccc-------------------hccCCChhHHHHHHHHHhhcc
+Q tr|K7ENV1|K7EN   19 METEVIESLGIIIYKALDYGLKEN-------------------EERELSPPLEQLIDHMANTVE   63 (147)
+Q Consensus        19 metevieslgiiiykaldyglken-------------------eerelsppleqlidhmantve   63 (147)
+                      ..+.++|++|.++|+.+.++....                   .+...+..+..++..|+..++
+T Consensus       209 ~~~~dv~slg~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~p  272 (390)
+T 7KJA_B          209 TSASDVWSFGIVMWEVMTYGERPYWELSNHEVMKAINDGFRLPTPMDCPSAIYQLMMQCWQQER  272 (390)
+T ss_dssp             CHHHHHHHHHHHHHHHHTTSCCTTTTSCHHHHHHHHHHTCBCCCCTTCBHHHHHHHHHHTCSSG
+T ss_pred             CCHHHHHHHHHHHHHHHHcCCCChhhCCHHHHHHHHhCCCCCCCCCCCCHHHHHHHHHHHhcCH
+Confidence            467899999999999988433221                   123456678888888887654
+
+

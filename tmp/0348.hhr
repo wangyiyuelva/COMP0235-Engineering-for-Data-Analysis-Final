@@ -1,0 +1,474 @@
+Query         tr|V9GY91|V9GY91_HUMAN
+Match_columns 37
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 05:31:51 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0348.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5H0I_B Asparaginyl endopeptida  64.8      11 0.00011   24.5   1.7   22    4-25    399-420 (448)
+  2 5ZBI_A Peptide asparaginyl lig  60.6      14 0.00015   24.0   1.7   21    4-24    483-503 (532)
+  3 6DHI_B Asparaginyl endopeptida  58.0      16 0.00017   24.2   1.7   21    4-24    412-432 (473)
+  4 5NIJ_A Vacuolar-processing enz  57.1      17 0.00019   23.5   1.7   21    4-24    392-412 (454)
+  5 5NIJ_D Vacuolar-processing enz  57.1      17 0.00019   23.5   1.7   21    4-24    392-412 (454)
+  6 6IDV_B Peptide Asparaginyl Lig  53.6      21 0.00023   23.6   1.7   21    4-24    421-441 (483)
+  7 6AZT_A Asparaginyl endopeptida  52.5      23 0.00025   23.4   1.7   23    4-26    430-452 (491)
+  8 6L4V_A Asparaginyl endopeptida  49.8      26 0.00028   23.4   1.7   22    4-25    449-470 (502)
+  9 6YSA_E Vacuolar-processing enz  49.0      27  0.0003   22.9   1.7   21    4-24    391-411 (455)
+ 10 4ZDS_A Protein ETHYLENE INSENS  44.5      41 0.00045   22.1   2.0   29    5-34     16-45  (134)
+ 11 4ZDS_B Protein ETHYLENE INSENS  44.5      41 0.00045   22.1   2.0   29    5-34     16-45  (134)
+ 12 6XT5_B Asparaginyl endopeptida  40.7      46  0.0005   21.9   1.8   21    4-24    389-409 (451)
+ 13 4D3Z_A PROLEGUMAIN (E.C.3.4.22  35.8      56 0.00061   20.7   1.6   21    4-24    355-379 (408)
+ 14 4NOM_A Legumain (E.C.3.4.22.34  28.6      97   0.001   20.4   1.8   20    4-23    382-405 (441)
+ 15 2E73_A C1 domain, Structural G  26.5      73 0.00079   11.8   0.7    9   24-32     68-76  (77)
+ 16 1MUW_A XYLOSE ISOMERASE (E.C.5  26.4 1.1E+02  0.0012   18.7   1.7   28    6-33    157-186 (386)
+ 17 1S5N_A Xylose isomerase (E.C.5  26.4 1.1E+02  0.0012   18.7   1.7   28    6-33    157-186 (386)
+ 18 3AYV_D Putative uncharacterize  25.7      96   0.001   17.0   1.2   26    6-31    115-140 (254)
+ 19 3T0Y_A Response regulator, Nep  24.6 1.1E+02  0.0012   17.6   1.4   22    6-27     17-38  (142)
+ 20 3T0Y_C Response regulator, Nep  24.6 1.1E+02  0.0012   17.6   1.4   22    6-27     17-38  (142)
+ 21 1XLM_B ISOMERASE, AL, SUBSTRAT  24.4 1.2E+02  0.0013   19.2   1.6   28    6-33    157-186 (394)
+ 22 4U06_A LIC10831; unknown funct  24.2 1.5E+02  0.0017   16.2   1.8   18    2-19    324-341 (344)
+ 23 3CNY_A Inositol catabolism pro  23.7 1.3E+02  0.0014   16.8   1.5   27    6-32    139-165 (301)
+ 24 3H4R_A Exonuclease, Recombinat  23.6 1.6E+02  0.0017   15.9   1.8   18    2-20     13-30  (265)
+ 25 6N98_A Xylose isomerase (E.C.5  22.3 1.3E+02  0.0015   18.3   1.5   28    6-33    156-185 (382)
+ 26 2MDP_A Gene 1.2 protein; dNTPa  21.7 1.1E+02  0.0012   18.9   1.1   17    3-19      5-21  (85)
+ 27 1I60_A IOLI PROTEIN; Beta barr  21.6 1.4E+02  0.0016   16.4   1.4   27    5-31    120-146 (278)
+ 28 1I6N_A IOLI PROTEIN; BETA BARR  21.6 1.4E+02  0.0016   16.4   1.4   27    5-31    120-146 (278)
+ 29 1UPU_A TRANSFERASE, GLYCOSYLTR  20.9      91 0.00099   18.0   0.6   25    3-27    178-202 (224)
+
+No 1
+>5H0I_B Asparaginyl endopeptidase (E.C.3.4.22.34); hydrolase; 2.56A {Oldenlandia affinis}
+Probab=64.79  E-value=11  Score=24.53  Aligned_cols=22  Identities=32%  Similarity=0.717  Sum_probs=18.3  Template_Neff=9.600
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhcc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKLT   25 (37)
+Q Consensus         4 hsvldafrahcprlrtytlklt   25 (37)
+                      ++++++|..+|..+..|.++..
+T Consensus       399 ~~~v~~f~~~C~~~~~y~~~~~  420 (448)
+T 5H0I_B          399 RSLVGTFETHCGSLSEYGMRHT  420 (448)
+T ss_dssp             HHHHHHHHHHSSCCSTTGGGGH
+T ss_pred             HHHHHHHHHHcCCcchHHHHHH
+Confidence            4789999999998888887643
+
+
+No 2
+>5ZBI_A Peptide asparaginyl ligase; peptide ligase, PLANT PROTEIN; 2.09A {Viola canadensis}
+Probab=60.61  E-value=14  Score=24.03  Aligned_cols=21  Identities=29%  Similarity=0.729  Sum_probs=17.5  Template_Neff=10.200
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      ++++++|..+|..+..|.++-
+T Consensus       483 ~~~v~~f~~~C~~~~~y~~~~  503 (532)
+T 5ZBI_A          483 KTMVRTFETHCGSLSEYGMKY  503 (532)
+T ss_dssp             HHHHHHHHHHHCCSTTTTGGG
+T ss_pred             HHHHHHHHHHhCCccHHHHHH
+Confidence            478999999999888887764
+
+
+No 3
+>6DHI_B Asparaginyl endopeptidase 1, ALA-ALA-ASN ; PLANT PROTEIN, Hydrolase, Asparaginyl endopeptidase; HET: SNN; 3.1A {Clitoria ternatea}
+Probab=57.99  E-value=16  Score=24.20  Aligned_cols=21  Identities=29%  Similarity=0.717  Sum_probs=17.1  Template_Neff=9.300
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      ++++++|..+|..+..|.++-
+T Consensus       412 ~~vv~~f~~~C~~~~~y~~~~  432 (473)
+T 6DHI_B          412 KTLIRTFETHCGSLSEYGMKH  432 (473)
+T ss_dssp             HHHHHHHHHHHCCCTTTGGGG
+T ss_pred             HHHHHHHHHHhCCCcHHHHHH
+Confidence            578999999998888777653
+
+
+No 4
+>5NIJ_A Vacuolar-processing enzyme gamma-isozyme (E.C.3.4.22.34); Asparaginyl endopeptidase, Vacuolar processing enzyme; HET: SO4, CIT, SCH, SNN; 2.75A {Arabidopsis thaliana}
+Probab=57.11  E-value=17  Score=23.54  Aligned_cols=21  Identities=33%  Similarity=0.651  Sum_probs=17.4  Template_Neff=9.700
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      +++++.|..+|..+..|.++-
+T Consensus       392 ~~~v~~f~~~C~~~~~y~~~~  412 (454)
+T 5NIJ_A          392 KNQVRAFERHCGSLSQYGIKH  412 (454)
+T ss_dssp             HHHHHHHHHHHCCCHHHHGGG
+T ss_pred             HHHHHHHHHHhcCccHHHHHH
+Confidence            468999999999888887764
+
+
+No 5
+>5NIJ_D Vacuolar-processing enzyme gamma-isozyme (E.C.3.4.22.34); Asparaginyl endopeptidase, Vacuolar processing enzyme; HET: SO4, CIT, SCH, SNN; 2.75A {Arabidopsis thaliana}
+Probab=57.11  E-value=17  Score=23.54  Aligned_cols=21  Identities=33%  Similarity=0.651  Sum_probs=17.3  Template_Neff=9.700
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      +++++.|..+|..+..|.++-
+T Consensus       392 ~~~v~~f~~~C~~~~~y~~~~  412 (454)
+T 5NIJ_D          392 KNQVRAFERHCGSLSQYGIKH  412 (454)
+T ss_dssp             HHHHHHHHHHHCCCHHHHGGG
+T ss_pred             HHHHHHHHHHhcCccHHHHHH
+Confidence            468999999999888887764
+
+
+No 6
+>6IDV_B Peptide Asparaginyl Ligases; Peptide ligase, PAL, AEP, LIGASE; HET: FUC, NAG, SNN; 2.4A {Viola philippica}
+Probab=53.64  E-value=21  Score=23.55  Aligned_cols=21  Identities=29%  Similarity=0.708  Sum_probs=17.0  Template_Neff=9.500
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      +++.+.|.++|..+..|.++.
+T Consensus       421 ~~~v~~f~~~C~~~~~y~~~~  441 (483)
+T 6IDV_B          421 KAMIRTFETHCGSLSEYGMKH  441 (483)
+T ss_dssp             HHHHHHHHHHHCCCTTGGGGG
+T ss_pred             HHHHHHHHHHhCCcchHHHHH
+Confidence            578999999998887777654
+
+
+No 7
+>6AZT_A Asparaginyl endopeptidase 1, ALA-ALA-ASN ; PLANT PROTEIN; HET: GOL; 1.8A {Helianthus annuus}
+Probab=52.54  E-value=23  Score=23.36  Aligned_cols=23  Identities=35%  Similarity=0.573  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhccC
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKLTR   26 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkltr   26 (37)
+                      ..++++|..+|..+..|.++-.+
+T Consensus       430 ~~~v~~f~~~C~~~~~y~~~~~~  452 (491)
+T 6AZT_A          430 KSTARLFEKHCGLLTQYGMKHMR  452 (491)
+T ss_dssp             -----------------------
+T ss_pred             HHHHHHHHHHhCcccHHHHHHHH
+Confidence            35788999999988888876543
+
+
+No 8
+>6L4V_A Asparaginyl endopeptidase (E.C.3.4.22.34); AEP, Asparaginyl Endopeptidase, Peptide asparaginyl; HET: EDO; 1.35A {Clitoria ternatea}
+Probab=49.82  E-value=26  Score=23.36  Aligned_cols=22  Identities=32%  Similarity=0.670  Sum_probs=18.2  Template_Neff=9.400
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhcc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKLT   25 (37)
+Q Consensus         4 hsvldafrahcprlrtytlklt   25 (37)
+                      +++++.|..+|..+..|.++-.
+T Consensus       449 ~~~v~~f~~~C~~~~~y~~~~~  470 (502)
+T 6L4V_A          449 KSMVRVFESHCGSLTQYGMKHM  470 (502)
+T ss_dssp             HHHHHHHHHHHCCCHHHHGGGH
+T ss_pred             HHHHHHHHHHhcCcchHHHHHH
+Confidence            5789999999988888887643
+
+
+No 9
+>6YSA_E Vacuolar-processing enzyme beta-isozyme (E.C.3.4.22.34); protease, ligase, proenzyme, vacuolar processing; HET: SO4, NAG, CIT, SNN; 2.01A {Arabidopsis thaliana}
+Probab=48.98  E-value=27  Score=22.85  Aligned_cols=21  Identities=33%  Similarity=0.694  Sum_probs=17.0  Template_Neff=9.500
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      ..++++|.++|..+..|.++-
+T Consensus       391 ~~~v~~f~~~C~~~~~y~~~~  411 (455)
+T 6YSA_E          391 KSMVRVFEEHCGSLTQYGMKH  411 (455)
+T ss_dssp             HHHHHHHHHHHCCCTTGGGGG
+T ss_pred             HHHHHHHHHHhCccchhhHHH
+Confidence            357899999999888887764
+
+
+No 10
+>4ZDS_A Protein ETHYLENE INSENSITIVE 3; DNA binding domain Transcription factor; 1.78A {Arabidopsis thaliana}
+Probab=44.46  E-value=41  Score=22.07  Aligned_cols=29  Identities=41%  Similarity=0.900  Sum_probs=21.9  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHC-hhhhhhhhhccCCCCCCCCC
+Q tr|V9GY91|V9GY    5 SVLDAFRAHC-PRLRTYTLKLTREPHPWRPT   34 (37)
+Q Consensus         5 svldafrahc-prlrtytlkltrephpwrpt   34 (37)
+                      |+|.|+..|| |-.|.|-|.- .-+-||-||
+T Consensus        16 slLSaLmqhC~PPqr~fpl~~-g~~PPWWPt   45 (134)
+T 4ZDS_A           16 SLLSALMQHCDPPQRRFPLEK-GVPPPWWPN   45 (134)
+T ss_dssp             HHHHHHGGGSSSCGGGSCGGG-TCCCTTSCC
+T ss_pred             HHHHHHHhhCCCCccCCCccc-CCCCCCCCC
+Confidence            6788898898 5677788854 356788876
+
+
+No 11
+>4ZDS_B Protein ETHYLENE INSENSITIVE 3; DNA binding domain Transcription factor; 1.78A {Arabidopsis thaliana}
+Probab=44.46  E-value=41  Score=22.07  Aligned_cols=29  Identities=41%  Similarity=0.900  Sum_probs=21.9  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHC-hhhhhhhhhccCCCCCCCCC
+Q tr|V9GY91|V9GY    5 SVLDAFRAHC-PRLRTYTLKLTREPHPWRPT   34 (37)
+Q Consensus         5 svldafrahc-prlrtytlkltrephpwrpt   34 (37)
+                      |+|.|+..|| |-.|.|-|.- .-+-||-||
+T Consensus        16 slLSaLmqhC~PPqr~fpl~~-g~~PPWWPt   45 (134)
+T 4ZDS_B           16 SLLSALMQHCDPPQRRFPLEK-GVPPPWWPN   45 (134)
+T ss_dssp             HHHHHHGGGSSSCGGGSCGGG-TCCCTTSCC
+T ss_pred             HHHHHHHhhCCCCccCCCccc-CCCCCCCCC
+Confidence            6788898898 5677788854 356788876
+
+
+No 12
+>6XT5_B Asparaginyl endopeptidase, PLANT PROTEIN, Hydrolase; HET: SNN; 2.69A {Canavalia ensiformis}
+Probab=40.70  E-value=46  Score=21.93  Aligned_cols=21  Identities=33%  Similarity=0.703  Sum_probs=16.7  Template_Neff=9.400
+
+Q ss_pred             hHHHHHHHHHChhhhhhhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRTYTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrtytlkl   24 (37)
+                      .+++++|..+|..+..|.++-
+T Consensus       389 ~~~v~~f~~~C~~~~~y~l~~  409 (451)
+T 6XT5_B          389 KSMVRVFETHCGSLTQYGMKH  409 (451)
+T ss_dssp             HHHHHHHHHHHCCCTTGGGGG
+T ss_pred             HHHHHHHHHHhccccHHHHHH
+Confidence            467899999998887787654
+
+
+No 13
+>4D3Z_A PROLEGUMAIN (E.C.3.4.22.34); HYDROLASE, LEGUMAIN, CYSTEINE PROTEASE, SUCCINIMIDE; HET: NAG; 2.3A {CRICETULUS GRISEUS}
+Probab=35.80  E-value=56  Score=20.71  Aligned_cols=21  Identities=29%  Similarity=0.689  Sum_probs=15.4  Template_Neff=10.000
+
+Q ss_pred             hHHHHHHHHHChhhhh----hhhhc
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLRT----YTLKL   24 (37)
+Q Consensus         4 hsvldafrahcprlrt----ytlkl   24 (37)
+                      ++++++|.++|..+..    |.++.
+T Consensus       355 ~~~v~~f~~~C~~~~~~~~~y~~~~  379 (408)
+T 4D3Z_A          355 QEAVTHFRTHCFNWHSPTYEYALRH  379 (408)
+T ss_dssp             HHHHHHHHHHTCCTTSGGGGGGGGG
+T ss_pred             HHHHHHHHHhhccCCCcccHHHHHH
+Confidence            4689999999977642    55553
+
+
+No 14
+>4NOM_A Legumain (E.C.3.4.22.34); new fold, asparaginyl endopeptidase, substrate; 2.006A {Mus musculus}
+Probab=28.64  E-value=97  Score=20.42  Aligned_cols=20  Identities=25%  Similarity=0.562  Sum_probs=14.2  Template_Neff=9.400
+
+Q ss_pred             hHHHHHHHHHChhhh----hhhhh
+Q tr|V9GY91|V9GY    4 HSVLDAFRAHCPRLR----TYTLK   23 (37)
+Q Consensus         4 hsvldafrahcprlr----tytlk   23 (37)
+                      .+++++|..+|..+.    .|.++
+T Consensus       382 ~~~v~~f~~~C~~~~~~~~~Y~~~  405 (441)
+T 4NOM_A          382 QEAVTHFRTHCFNWHSVTYEHALR  405 (441)
+T ss_dssp             HHHHHHCCCCCCCTTSSTTGGGGG
+T ss_pred             HHHHHHHHHHcccccccccHHHHH
+Confidence            467889999997764    35554
+
+
+No 15
+>2E73_A C1 domain, Structural Genomics, NPPSFA; HET: ZN; NMR {Homo sapiens}
+Probab=26.46  E-value=73  Score=11.84  Aligned_cols=9  Identities=33%  Similarity=0.549  Sum_probs=5.9  Template_Neff=14.100
+
+Q ss_pred             ccCCCCCCC
+Q tr|V9GY91|V9GY   24 LTREPHPWR   32 (37)
+Q Consensus        24 ltrephpwr   32 (37)
+                      ..+.+|.|+
+T Consensus        68 ~~~~~~~~~   76 (77)
+T 2E73_A           68 DPRNKHKFR   76 (77)
+T ss_dssp             CCCCCCCCC
+T ss_pred             CCccccccc
+Confidence            456677776
+
+
+No 16
+>1MUW_A XYLOSE ISOMERASE (E.C.5.3.1.5); xylose isomerase, atomic resolution, disorder; 0.86A {Streptomyces olivochromogenes} SCOP: c.1.15.3
+Probab=26.42  E-value=1.1e+02  Score=18.74  Aligned_cols=28  Identities=25%  Similarity=0.528  Sum_probs=20.8  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHChhhhh--hhhhccCCCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRT--YTLKLTREPHPWRP   33 (37)
+Q Consensus         6 vldafrahcprlrt--ytlkltrephpwrp   33 (37)
+                      ..+.++..+.....  |.+++.-|+||..|
+T Consensus       157 ~~~~l~~l~~~a~~~g~~i~l~iE~~~~~~  186 (386)
+T 1MUW_A          157 MKEAFDLLGEYVTSQGYDIRFAIEPKPNEP  186 (386)
+T ss_dssp             HHHHHHHHHHHHHHHTCCCEEEECCCSSSS
+T ss_pred             HHHHHHHHHHHHHHcCCcEEEEEecCCCCC
+Confidence            45667777777777  45999999998765
+
+
+No 17
+>1S5N_A Xylose isomerase (E.C.5.3.1.5); xylose isomerase, hydride shift, atomic; HET: XYL; 0.95A {Streptomyces olivochromogenes} SCOP: c.1.15.3
+Probab=26.42  E-value=1.1e+02  Score=18.74  Aligned_cols=28  Identities=25%  Similarity=0.528  Sum_probs=20.8  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHChhhhh--hhhhccCCCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRT--YTLKLTREPHPWRP   33 (37)
+Q Consensus         6 vldafrahcprlrt--ytlkltrephpwrp   33 (37)
+                      ..+.++..+.....  |.+++.-|+||..|
+T Consensus       157 ~~~~l~~l~~~a~~~g~~i~l~iE~~~~~~  186 (386)
+T 1S5N_A          157 MKEAFDLLGEYVTSQGYDIRFAIEPKPNEP  186 (386)
+T ss_dssp             HHHHHHHHHHHHHHHTCCCEEEECCCSSSS
+T ss_pred             HHHHHHHHHHHHHHcCCcEEEEEecCCCCC
+Confidence            45667777777777  45999999998765
+
+
+No 18
+>3AYV_D Putative uncharacterized protein TTHB071; Structural Genomics, RIKEN Structural Genomics/Proteomics; HET: ZN; 1.85A {Thermus thermophilus}
+Probab=25.70  E-value=96  Score=17.01  Aligned_cols=26  Identities=23%  Similarity=0.185  Sum_probs=20.6  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHHChhhhhhhhhccCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRTYTLKLTREPHPW   31 (37)
+Q Consensus         6 vldafrahcprlrtytlkltrephpw   31 (37)
+                      +.+.++..+.....+-+++.-|+|++
+T Consensus       115 ~~~~l~~~~~~a~~~gv~l~iE~~~~  140 (254)
+T 3AYV_D          115 LAEALGLVVRRARTLGVRLLLENSHE  140 (254)
+T ss_dssp             HHHHTHHHHHHHHHHTCEEEEECSSC
+T ss_pred             HHHHHHHHHHHHHhcCCeEEEeCCCC
+Confidence            46667777777788888999999886
+
+
+No 19
+>3T0Y_A Response regulator, NepR; sigma factor, anti-sigma factor, receiver; HET: MSE; 2.102A {Caulobacter vibrioides}
+Probab=24.61  E-value=1.1e+02  Score=17.63  Aligned_cols=22  Identities=32%  Similarity=0.579  Sum_probs=17.3  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHChhhhhhhhhccCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRTYTLKLTRE   27 (37)
+Q Consensus         6 vldafrahcprlrtytlkltre   27 (37)
+                      +-+.+.++-|+||.|...+++.
+T Consensus        17 ~~~~l~~~~p~Lrr~ar~l~~d   38 (142)
+T 3T0Y_A           17 LLARLAPHLPYIRRYARALTGD   38 (142)
+T ss_dssp             HHHHHGGGHHHHHHHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHCC
+Confidence            4567788889999998888764
+
+
+No 20
+>3T0Y_C Response regulator, NepR; sigma factor, anti-sigma factor, receiver; HET: MSE; 2.102A {Caulobacter vibrioides}
+Probab=24.61  E-value=1.1e+02  Score=17.63  Aligned_cols=22  Identities=32%  Similarity=0.579  Sum_probs=17.2  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHChhhhhhhhhccCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRTYTLKLTRE   27 (37)
+Q Consensus         6 vldafrahcprlrtytlkltre   27 (37)
+                      +-+.+.++-|+||.|...+++.
+T Consensus        17 ~~~~l~~~~p~Lrr~ar~l~~d   38 (142)
+T 3T0Y_C           17 LLARLAPHLPYIRRYARALTGD   38 (142)
+T ss_dssp             HHHHHGGGHHHHHHHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHCC
+Confidence            3466788889999998888764
+
+
+No 21
+>1XLM_B ISOMERASE, AL, SUBSTRATE INDUCED METAL; HET: XYL; 2.4A {Arthrobacter sp. NRRL} SCOP: c.1.15.3
+Probab=24.41  E-value=1.2e+02  Score=19.16  Aligned_cols=28  Identities=18%  Similarity=0.398  Sum_probs=21.8  Template_Neff=10.100
+
+Q ss_pred             HHHHHHHHChhhhhhh--hhccCCCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRTYT--LKLTREPHPWRP   33 (37)
+Q Consensus         6 vldafrahcprlrtyt--lkltrephpwrp   33 (37)
+                      +.+.++..++..+.+-  +++.-|+||+.|
+T Consensus       157 ~~~~l~~l~~~a~~~g~~v~l~iE~~~~~~  186 (394)
+T 1XLM_B          157 MREGVDTAAGYIKDKGYNLRIALEPKPNEP  186 (394)
+T ss_dssp             HHHHHHHHHHHHHHHTCSCEEEECCCSSSS
+T ss_pred             HHHHHHHHHHHHHHhCCeEEEEEeCCCCCC
+Confidence            4566777777777755  999999999865
+
+
+No 22
+>4U06_A LIC10831; unknown function, LRR PROTEIN, PATHOGEN; HET: MSE; 1.9A {Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130}
+Probab=24.18  E-value=1.5e+02  Score=16.19  Aligned_cols=18  Identities=17%  Similarity=0.183  Sum_probs=13.5  Template_Neff=12.700
+
+Q ss_pred             CChHHHHHHHHHChhhhh
+Q tr|V9GY91|V9GY    2 VSHSVLDAFRAHCPRLRT   19 (37)
+Q Consensus         2 vshsvldafrahcprlrt   19 (37)
+                      ++...+.++..+||.|+.
+T Consensus       324 ~~~~~~~~l~~~~~~l~~  341 (344)
+T 4U06_A          324 FSSQEKKRIRKLLPKCQI  341 (344)
+T ss_dssp             CCHHHHHHHHHHCTTSEE
+T ss_pred             CCHHHHHHHHHHhHhccc
+Confidence            355667888889998874
+
+
+No 23
+>3CNY_A Inositol catabolism protein IolE; xylose isomerase-like tim barrel, structural; HET: EDO, MSE; 1.85A {Lactobacillus plantarum WCFS1}
+Probab=23.72  E-value=1.3e+02  Score=16.76  Aligned_cols=27  Identities=19%  Similarity=0.111  Sum_probs=20.3  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHChhhhhhhhhccCCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRTYTLKLTREPHPWR   32 (37)
+Q Consensus         6 vldafrahcprlrtytlkltrephpwr   32 (37)
+                      +.+.++..+...+.+-+++.-|+|++.
+T Consensus       139 ~~~~l~~l~~~a~~~gi~l~lE~~~~~  165 (301)
+T 3CNY_A          139 VCKGLNHYGEIAAKYGLKVAYHHHMGT  165 (301)
+T ss_dssp             HHHHHHHHHHHHHHTTCEEEEECCTTS
+T ss_pred             HHHHHHHHHHHHHHhCCEEEEeCCCCC
+Confidence            456666777777778888888998874
+
+
+No 24
+>3H4R_A Exonuclease, Recombination, Hydrolase, Nuclease; 2.8A {Escherichia coli}
+Probab=23.59  E-value=1.6e+02  Score=15.88  Aligned_cols=18  Identities=33%  Similarity=0.506  Sum_probs=13.1  Template_Neff=12.100
+
+Q ss_pred             CChHHHHHHHHHChhhhhh
+Q tr|V9GY91|V9GY    2 VSHSVLDAFRAHCPRLRTY   20 (37)
+Q Consensus         2 vshsvldafrahcprlrty   20 (37)
+                      +|.|-+..|. .||+.--+
+T Consensus        13 lS~S~l~~~~-~Cp~~~~~   30 (265)
+T 3H4R_A           13 ISKSQLDDIA-DTPALYLW   30 (265)
+T ss_dssp             BCHHHHHHHH-HCHHHHHH
+T ss_pred             CCHHHHHHHh-cChHHHHH
+Confidence            6788898885 59986433
+
+
+No 25
+>6N98_A Xylose isomerase (E.C.5.3.1.5); Wild type, Isomerase, bacteria; HET: SO4; 1.55A {Streptomyces sp. F-1}
+Probab=22.28  E-value=1.3e+02  Score=18.35  Aligned_cols=28  Identities=21%  Similarity=0.447  Sum_probs=19.7  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHChhhhh--hhhhccCCCCCCCC
+Q tr|V9GY91|V9GY    6 VLDAFRAHCPRLRT--YTLKLTREPHPWRP   33 (37)
+Q Consensus         6 vldafrahcprlrt--ytlkltrephpwrp   33 (37)
+                      +.+.++..++..+.  |.+++.-|++|+.|
+T Consensus       156 ~~~~l~~l~~~a~~~G~~v~l~iE~~~~~~  185 (382)
+T 6N98_A          156 FREAIDYLAGYVKEQNYGMRFALEPKPNEP  185 (382)
+T ss_dssp             HHHHHHHHHHHHHHHTCCCEEEECCCSSSS
+T ss_pred             HHHHHHHHHHHHHHcCCccEEEEecCCCCC
+Confidence            34556666666666  45899999998765
+
+
+No 26
+>2MDP_A Gene 1.2 protein; dNTPase inhibitor, VIRAL PROTEIN; NMR {Enterobacteria phage T7}
+Probab=21.65  E-value=1.1e+02  Score=18.88  Aligned_cols=17  Identities=29%  Similarity=0.307  Sum_probs=14.3  Template_Neff=4.000
+
+Q ss_pred             ChHHHHHHHHHChhhhh
+Q tr|V9GY91|V9GY    3 SHSVLDAFRAHCPRLRT   19 (37)
+Q Consensus         3 shsvldafrahcprlrt   19 (37)
+                      .+.-|.||++.|-||+.
+T Consensus         5 ySGNLnafk~A~~rl~~   21 (85)
+T 2MDP_A            5 YSGNLAAFKAATNKLFQ   21 (85)
+T ss_dssp             CCTTHHHHHHHHHHHHH
+T ss_pred             cccCHHHHHHHHHHHHc
+Confidence            34568899999999987
+
+
+No 27
+>1I60_A IOLI PROTEIN; Beta barrel, structural genomics, PSI; HET: MSE; 1.6A {Bacillus subtilis} SCOP: c.1.15.4
+Probab=21.59  E-value=1.4e+02  Score=16.35  Aligned_cols=27  Identities=19%  Similarity=0.154  Sum_probs=21.4  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHChhhhhhhhhccCCCCCC
+Q tr|V9GY91|V9GY    5 SVLDAFRAHCPRLRTYTLKLTREPHPW   31 (37)
+Q Consensus         5 svldafrahcprlrtytlkltrephpw   31 (37)
+                      .+.+.++..+...+.+-+++.-|++++
+T Consensus       120 ~~~~~l~~l~~~~~~~gv~l~iE~~~~  146 (278)
+T 1I60_A          120 SSVDVLTELSDIAEPYGVKIALEFVGH  146 (278)
+T ss_dssp             HHHHHHHHHHHHHGGGTCEEEEECCCC
+T ss_pred             HHHHHHHHHHHHHHHHCCEEEEEecCC
+Confidence            356777888888888888999999864
+
+
+No 28
+>1I6N_A IOLI PROTEIN; BETA BARREL, STRUCTURAL GENOMICS, PSI; HET: MSE; 1.8A {Bacillus subtilis} SCOP: c.1.15.4
+Probab=21.59  E-value=1.4e+02  Score=16.35  Aligned_cols=27  Identities=19%  Similarity=0.154  Sum_probs=21.4  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHChhhhhhhhhccCCCCCC
+Q tr|V9GY91|V9GY    5 SVLDAFRAHCPRLRTYTLKLTREPHPW   31 (37)
+Q Consensus         5 svldafrahcprlrtytlkltrephpw   31 (37)
+                      .+.+.++..+...+.+-+++.-|++++
+T Consensus       120 ~~~~~l~~l~~~~~~~gv~l~iE~~~~  146 (278)
+T 1I6N_A          120 SSVDVLTELSDIAEPYGVKIALEFVGH  146 (278)
+T ss_dssp             HHHHHHHHHHHHHGGGTCEEEEECCCC
+T ss_pred             HHHHHHHHHHHHHHHHCCEEEEEecCC
+Confidence            356777888888888888999999864
+
+
+No 29
+>1UPU_A TRANSFERASE, GLYCOSYLTRANSFERASE, PHOSPHORIBOSYLTRANSFERASE; HET: U5P, PO4; 2.5A {Toxoplasma gondii} SCOP: c.61.1.1
+Probab=20.88  E-value=91  Score=17.97  Aligned_cols=25  Identities=12%  Similarity=0.143  Sum_probs=20.4  Template_Neff=10.100
+
+Q ss_pred             ChHHHHHHHHHChhhhhhhhhccCC
+Q tr|V9GY91|V9GY    3 SHSVLDAFRAHCPRLRTYTLKLTRE   27 (37)
+Q Consensus         3 shsvldafrahcprlrtytlkltre   27 (37)
+                      +..-++.+...+|.++-|+..+.++
+T Consensus       178 ~~~~~~~l~~~~p~~~i~~~~~~~~  202 (224)
+T 1UPU_A          178 APQGIERVFKEYPKVRMVTAAVDIC  202 (224)
+T ss_dssp             CHHHHHHHHHHCTTCEEEEEEECSE
+T ss_pred             CHHHHHHHHHHCCCCEEEEEEecCC
+Confidence            4567888999999999999877653
+
+

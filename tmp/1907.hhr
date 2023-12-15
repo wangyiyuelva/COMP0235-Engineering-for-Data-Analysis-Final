@@ -1,0 +1,167 @@
+Query         tr|A0A0C4DGV3|A0A0C4DGV3_HUMAN
+Match_columns 247
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:49:41 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1907.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3AFO_A NADH kinase POS5 (E.C.2  55.3     2.9 3.1E-05   38.2  -2.7   53    6-63    132-185 (388)
+  2 3AFO_B NADH kinase POS5 (E.C.2  55.3     2.9 3.1E-05   38.2  -2.7   46   13-63    140-185 (388)
+  3 2DBO_A D-tyrosyl-tRNA(Tyr) dea  25.0 2.1E+02  0.0023   22.2   3.3   37  204-240     3-39  (148)
+  4 5J8A_CR 30S ribosomal protein   24.1      61 0.00066   25.2   0.4   38   46-83     51-90  (117)
+  5 1J7G_A D-tyrosyl-tRNA(Tyr) dea  23.1 2.5E+02  0.0027   21.6   3.4   38  204-241     3-40  (144)
+  6 6O5E_A Vitronectin; integrin l  18.7 2.4E+02  0.0026   19.7   2.4   26  202-228     2-27  (204)
+  7 1JKE_D D-Tyr-tRNATyr deacylase  18.2 3.4E+02  0.0037   20.8   3.3   38  204-241     3-40  (145)
+  8 6S0Z_O 50S ribosomal protein L  18.0      97   0.001   24.1   0.4   25   46-70     51-75  (116)
+  9 7ASP_O Ribosome, H68, translat  18.0      97   0.001   24.1   0.4   39   45-83     50-90  (116)
+ 10 4WZD_C8 30S ribosomal protein   17.1      79 0.00086   24.8  -0.3   38   46-83     52-91  (118)
+
+No 1
+>3AFO_A NADH kinase POS5 (E.C.2.7.1.86); Alpha/beta+beta sandwich, ATP-binding, Kinase, Mitochondrion; HET: NAI, MPD; 2.0A {Saccharomyces cerevisiae}
+Probab=55.28  E-value=2.9  Score=38.20  Aligned_cols=53  Identities=19%  Similarity=0.246  Sum_probs=34.0  Template_Neff=7.700
+
+Q ss_pred             cchhhc-cCCcceeeCCCCCCCCeeEeeeeecCCchHHHHHHHhcchhhhhhhhhhhhh
+Q tr|A0A0C4DGV3|    6 SKVLDR-LKPVIGVNTDPERSEGHLCLPVRYTHSFPEALQKFYRGEFRWLWRQRIRLYL   63 (247)
+Q Consensus         6 skvldr-lkpvigvntdperseghlclpvrythsfpealqkfyrgefrwlwrqrirlyl   63 (247)
+                      ..+.+. ..|++|+|.   .+.|.++- .. ...+.+++.....|+++...|.|+...+
+T Consensus       132 ~~~~~~~~ppil~i~~---Gt~gfl~~-~~-~~~~~~~l~~i~~g~~~~~~r~~L~~~v  185 (388)
+T 3AFO_A          132 SMFGNTQVPPVLAFAL---GTLGFLSP-FD-FKEHKKVFQEVISSRAKCLHRTRLECHL  185 (388)
+T ss_dssp             HTTTTSCCCCEEEEEC---SSCCSSCC-EE-GGGHHHHHHHHHTTCCEEEEECCEEEEE
+T ss_pred             HhcCCCCCCCEEEEcC---CCCcccCC-CC-HHHHHHHHHHHHcCCCEEEEEeEEEEEE
+Confidence            333343 348999976   35577763 22 5567889999999988765555554443
+
+
+No 2
+>3AFO_B NADH kinase POS5 (E.C.2.7.1.86); Alpha/beta+beta sandwich, ATP-binding, Kinase, Mitochondrion; HET: NAI, MPD; 2.0A {Saccharomyces cerevisiae}
+Probab=55.28  E-value=2.9  Score=38.20  Aligned_cols=46  Identities=20%  Similarity=0.281  Sum_probs=31.4  Template_Neff=7.700
+
+Q ss_pred             CCcceeeCCCCCCCCeeEeeeeecCCchHHHHHHHhcchhhhhhhhhhhhh
+Q tr|A0A0C4DGV3|   13 KPVIGVNTDPERSEGHLCLPVRYTHSFPEALQKFYRGEFRWLWRQRIRLYL   63 (247)
+Q Consensus        13 kpvigvntdperseghlclpvrythsfpealqkfyrgefrwlwrqrirlyl   63 (247)
+                      .|++|+|.   .+.|.++- .. ...+.+++.....|+++...|.|+...+
+T Consensus       140 ppil~i~~---Gt~gfl~~-~~-~~~~~~~l~~i~~g~~~~~~r~~L~~~v  185 (388)
+T 3AFO_B          140 PPVLAFAL---GTLGFLSP-FD-FKEHKKVFQEVISSRAKCLHRTRLECHL  185 (388)
+T ss_dssp             CCEEEEEC---SSCCSSCC-EE-GGGHHHHHHHHHTTCCEEEEECCEEEEE
+T ss_pred             CCEEEEcC---CCCcccCC-CC-HHHHHHHHHHHHcCCCEEEEEeEEEEEE
+Confidence            48999976   35577763 22 5567889999999988765555554444
+
+
+No 3
+>2DBO_A D-tyrosyl-tRNA(Tyr) deacylase (E.C.3.1.-.-); D-amino acid, D-Tyrosine, tRNA, deacylase; 2.76A {Aquifex aeolicus}
+Probab=25.04  E-value=2.1e+02  Score=22.18  Aligned_cols=37  Identities=24%  Similarity=0.228  Sum_probs=29.8  Template_Neff=8.900
+
+Q ss_pred             EeeccccceeEEEcCCeeeeeCccheeeeeecchhhh
+Q tr|A0A0C4DGV3|  204 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDEL  240 (247)
+Q Consensus       204 cvrsrcwdacmvvdggtsfefndgaiasmminkedel  240 (247)
+                      ||-.||-.|.+.|||.+.-+.+.|-+.-.-+.++|.-
+T Consensus         3 ~v~qrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~   39 (148)
+T 2DBO_A            3 AVIQRVKKSWVEVDGKVVGSINEGLNVFLGVRKGDTE   39 (148)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCH
+T ss_pred             EEEEEEEEEEEEECCEEEEEECCeEEEEEEEeCCCCH
+Confidence            5667788888889998888889998888878777654
+
+
+No 4
+>5J8A_CR 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: MEQ, 4OC, PG4, GUN, MPD, 2MG, PSU, 6MZ, 7MG, OMU, 4D4, 5MC, D2T, 1MG, PUT, UR3, H2U, EDO, 5MU, 2MA, PEG, OMG, OMC, T1C, MG, ACY, 1PE, MA6, PGE, SPD, 3TD; 3.1A {Escherichia coli (strain K12)}
+Probab=24.12  E-value=61  Score=25.23  Aligned_cols=38  Identities=24%  Similarity=0.392  Sum_probs=26.1  Template_Neff=7.600
+
+Q ss_pred             HHhcchhhhhhhhhhhhhcCCCCCC--ccCCccccccccc
+Q tr|A0A0C4DGV3|   46 FYRGEFRWLWRQRIRLYLEGTGINP--VPVDLHEQQLSLN   83 (247)
+Q Consensus        46 fyrgefrwlwrqrirlylegtginp--vpvdlheqqlsln   83 (247)
+                      .....|+++|-+||...++..|++.  ..-+|..+++.||
+T Consensus        51 ~kkr~~r~lwi~rinaa~~e~g~~Y~~f~~~L~~~~i~Ln   90 (117)
+T 5J8A_CR          51 QRKRQFRQLWIARINAAARQNGISYSKFINGLKKASVEID   90 (117)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHCCCCcC
+Confidence            3445789999999999998778764  3344555555444
+
+
+No 5
+>1J7G_A D-tyrosyl-tRNA(Tyr) deacylase; D-Tyr-tRNA(Tyr) deacylase, structural genomics, hypothetical; 1.64A {Haemophilus influenzae Rd KW20} SCOP: c.110.1.1
+Probab=23.11  E-value=2.5e+02  Score=21.60  Aligned_cols=38  Identities=24%  Similarity=0.257  Sum_probs=29.9  Template_Neff=9.000
+
+Q ss_pred             EeeccccceeEEEcCCeeeeeCccheeeeeecchhhhh
+Q tr|A0A0C4DGV3|  204 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELR  241 (247)
+Q Consensus       204 cvrsrcwdacmvvdggtsfefndgaiasmminkedelr  241 (247)
+                      ||-.||-.|.+.|||-+.-+.+.|-+.-.-+.++|...
+T Consensus         3 ~viqrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~~   40 (144)
+T 1J7G_A            3 ALIQRVSQAKVDVKGETIGKIGKGLLVLLGVEKEDNRE   40 (144)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCHH
+T ss_pred             EEEEEEEEEEEEECCeEEEEEcCeEEEEEEEecCCCHH
+Confidence            56678888888899888788888888887787777543
+
+
+No 6
+>6O5E_A Vitronectin; integrin ligand, hemopexin-like domain, beta-propeller; HET: IMD, SO4; 1.9A {Homo sapiens}
+Probab=18.71  E-value=2.4e+02  Score=19.70  Aligned_cols=26  Identities=23%  Similarity=0.493  Sum_probs=17.4  Template_Neff=12.300
+
+Q ss_pred             ceEeeccccceeEEEcCCeeeeeCcch
+Q tr|A0A0C4DGV3|  202 KVCVRSRCWDACMVVDGGTSFEFNDGA  228 (247)
+Q Consensus       202 kvcvrsrcwdacmvvdggtsfefndga  228 (247)
+                      ++|.. ...||++....|+.|-|.+.-
+T Consensus         2 ~~c~~-~~~da~~~~~~~~~~~f~~~~   27 (204)
+T 6O5E_A            2 ELCSG-KPFDAFTDLKNGSLFAFRGQY   27 (204)
+T ss_dssp             CTTSC-CCCSEECCCBTTEEEEEETTE
+T ss_pred             cccCC-CCCcEEEEcCCCEEEEEECCe
+Confidence            35644 567888877777777776543
+
+
+No 7
+>1JKE_D D-Tyr-tRNATyr deacylase; beta-alpha-barrel, HYDROLASE; HET: ZN; 1.55A {Escherichia coli} SCOP: c.110.1.1
+Probab=18.19  E-value=3.4e+02  Score=20.79  Aligned_cols=38  Identities=21%  Similarity=0.348  Sum_probs=29.7  Template_Neff=9.100
+
+Q ss_pred             EeeccccceeEEEcCCeeeeeCccheeeeeecchhhhh
+Q tr|A0A0C4DGV3|  204 CVRSRCWDACMVVDGGTSFEFNDGAIASMMINKEDELR  241 (247)
+Q Consensus       204 cvrsrcwdacmvvdggtsfefndgaiasmminkedelr  241 (247)
+                      |+-.||-.|.+.|||.+-.+.+.|-+.-.-+.++|...
+T Consensus         3 ~viqrv~~a~v~v~~~~~~~i~~Gl~v~v~~~~~d~~~   40 (145)
+T 1JKE_D            3 ALIQRVTRASVTVEGEVTGEIGAGLLVLLGVEKDDDEQ   40 (145)
+T ss_dssp             EEEEEEEEEEEEETTEEEEEESSEEEEEEECBTTCCHH
+T ss_pred             EEEEEEEEEEEEECCEEEeeEcCeEEEEEEEeCCCCHH
+Confidence            56678888888899888778888888877777776543
+
+
+No 8
+>6S0Z_O 50S ribosomal protein L2, 50S; Ribosome, antibiotics, resistance, Staphylococcus aureus; HET: ERY; 2.3A {Staphylococcus aureus}
+Probab=18.03  E-value=97  Score=24.05  Aligned_cols=25  Identities=24%  Similarity=0.361  Sum_probs=19.9  Template_Neff=7.700
+
+Q ss_pred             HHhcchhhhhhhhhhhhhcCCCCCC
+Q tr|A0A0C4DGV3|   46 FYRGEFRWLWRQRIRLYLEGTGINP   70 (247)
+Q Consensus        46 fyrgefrwlwrqrirlylegtginp   70 (247)
+                      ....+|+++|-+||....+..|++.
+T Consensus        51 ~kkr~~r~lwi~Rinaa~re~g~~Y   75 (116)
+T 6S0Z_O           51 QRKRDFRKLWITRINAAARQHEMSY   75 (116)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTTCCH
+T ss_pred             HhHHHHHHHHHHHHHHHHHhcCcch
+Confidence            3456789999999999888778754
+
+
+No 9
+>7ASP_O Ribosome, H68, translation, protein synthesis;{Staphylococcus aureus}
+Probab=18.03  E-value=97  Score=24.05  Aligned_cols=39  Identities=21%  Similarity=0.356  Sum_probs=25.4  Template_Neff=7.700
+
+Q ss_pred             HHHhcchhhhhhhhhhhhhcCCCCCC--ccCCccccccccc
+Q tr|A0A0C4DGV3|   45 KFYRGEFRWLWRQRIRLYLEGTGINP--VPVDLHEQQLSLN   83 (247)
+Q Consensus        45 kfyrgefrwlwrqrirlylegtginp--vpvdlheqqlsln   83 (247)
+                      +....+|+++|-+||....+..|++.  ..-.|...++.||
+T Consensus        50 k~kkr~~r~lwi~Rinaa~re~g~~Y~~f~~~L~~~~i~Ln   90 (116)
+T 7ASP_O           50 RQRKRDFRKLWITRINAAARQHEMSYSRLMNGLKKAGIDIN   90 (116)
+T ss_pred             HHhHHHHHHHHHHHHHHHHHhcCcchHHHHHHHHHcCCCcC
+Confidence            34456789999999998887777654  2334444444443
+
+
+No 10
+>4WZD_C8 30S ribosomal protein S2, 30S; ribosome, translation, mismatch; HET: 5MU, MG, PSU, MIA, QUO, OMG, 4SU; 3.1A {Thermus thermophilus HB8}
+Probab=17.09  E-value=79  Score=24.76  Aligned_cols=38  Identities=24%  Similarity=0.390  Sum_probs=26.3  Template_Neff=7.500
+
+Q ss_pred             HHhcchhhhhhhhhhhhhcCCCCCC--ccCCccccccccc
+Q tr|A0A0C4DGV3|   46 FYRGEFRWLWRQRIRLYLEGTGINP--VPVDLHEQQLSLN   83 (247)
+Q Consensus        46 fyrgefrwlwrqrirlylegtginp--vpvdlheqqlsln   83 (247)
+                      ..+..|+++|-.||....+..|++.  ..-.|...++.||
+T Consensus        52 ~kkr~~r~lwi~rinaa~r~~g~~Y~~f~~~L~~~~i~ln   91 (118)
+T 4WZD_C8          52 RRKRDFRRLWIVRINAACRQHGLNYSTFIHGLKKAGIEVD   91 (118)
+T ss_pred             ccHhHHHHHHHHHHHHHHHhcCcCHHHHHHHHHHCCCccC
+Confidence            3455799999999999988777654  3334555555554
+
+

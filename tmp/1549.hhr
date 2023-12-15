@@ -1,0 +1,370 @@
+Query         tr|H0YJP5|H0YJP5_HUMAN
+Match_columns 77
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:04:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1549.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3NJN_A Peptidase; STRUCTURAL G  35.4 2.3E+02  0.0025   19.1   5.8   46   18-65     56-101 (119)
+  2 5XPW_A amphioxus IgVJ-C2; Immu  34.1 1.3E+02  0.0014   15.7   3.0   52   18-71    116-169 (180)
+  3 6I52_A Replication factor A pr  29.1   3E+02  0.0032   18.5   4.2   28   42-69     25-58  (122)
+  4 1CCZ_A CD58; CD58, LFA-3, GLYC  29.1 1.6E+02  0.0018   15.4   4.3   55   18-72    105-159 (171)
+  5 3TDQ_A PilY2 protein; fimbiria  28.9 1.1E+02  0.0012   20.7   2.1   17   40-56      9-27  (98)
+  6 3TDQ_B PilY2 protein; fimbiria  28.9 1.1E+02  0.0012   20.7   2.1   17   40-56      9-27  (98)
+  7 1HNF_A CD2 (HUMAN); T LYMPHOCY  28.2 1.7E+02  0.0019   15.4   3.6   25   47-71    143-168 (182)
+  8 1CID_A CD4 (DOMAINS 3 AND 4);   27.9 1.7E+02  0.0019   15.4   4.2   51   21-71    115-167 (177)
+  9 1HNG_A CD2 (RAT); T LYMPHOCYTE  27.8 1.7E+02  0.0018   15.2   4.6   28   45-72    137-164 (176)
+ 10 6YFG_MJ coat protein; virus, v  27.4      76 0.00082   24.3   1.3   13    1-13    115-127 (130)
+ 11 4GNX_X Putative uncharacterize  26.1 2.2E+02  0.0024   18.0   3.1   18   42-59     25-42  (114)
+ 12 4GOP_X Putative uncharacterize  26.1 2.2E+02  0.0024   18.0   3.1   18   42-59     25-42  (114)
+ 13 4APW_G ALP12; STRUCTURAL PROTE  26.1 3.2E+02  0.0035   17.9   4.2   28   46-73    168-195 (329)
+ 14 5VKJ_A B-cell receptor CD22; S  24.3 2.9E+02  0.0031   16.7   4.0   57   15-71    239-299 (324)
+ 15 6CKA_B Paratox; prophage, natu  23.9      51 0.00056   22.4  -0.0   18    5-22     13-30  (68)
+ 16 7N1N_A Paratox, bacteriophage,  23.9      51 0.00056   22.4  -0.0   18    5-22     13-30  (68)
+ 17 2DRU_A chimera of CD48 antigen  23.4 2.1E+02  0.0023   14.9   3.4   29   44-72    141-169 (180)
+ 18 6EZN_A Dolichyl-diphosphooligo  23.3 5.2E+02  0.0056   20.5   5.1   60    6-74    248-330 (476)
+ 19 3I84_B EMMPRIN  CD147  dimeriz  22.4 3.4E+02  0.0037   17.8   3.5   47   21-74     25-83  (98)
+ 20 7B5I_ED contractile tail, inje  22.3   2E+02  0.0022   17.8   2.3   23   51-73     90-112 (143)
+ 21 6D6V_F Telomerase reverse tran  22.3 2.8E+02  0.0031   17.8   3.1   29   41-70     29-59  (121)
+ 22 6RAO_F Afp1, Afp2, Afp3, Afp5,  21.3 2.4E+02  0.0026   17.7   2.6   23   51-73     94-116 (149)
+
+No 1
+>3NJN_A Peptidase; STRUCTURAL GENOMICS, ASPARTIC PEPTIDASE, AUTOCATALYSIS; 1.25A {Shewanella oneidensis}
+Probab=35.40  E-value=2.3e+02  Score=19.10  Aligned_cols=46  Identities=15%  Similarity=0.089  Sum_probs=26.5  Template_Neff=7.000
+
+Q ss_pred             cCCCEEEEEEEEEcCcccCCCccceEEEeeCCCEEEEECCCCCcceee
+Q tr|H0YJP5|H0YJ   18 NNGARLQCRILEVLPPSHQNGFANGHVNSVDGETIIISDSDDSETQSC   65 (77)
+Q Consensus        18 nngarlqcrilevlppshqngfanghvnsvdgetiiisdsddsetqsc   65 (77)
+                      ..+..+.-.-.++.+|.. +-+.. .--|.||..|.|+|++.....-|
+T Consensus        56 ~t~~~~~F~g~~~~~~~~-~qis~-~~is~dG~~l~i~D~n~~~~~i~  101 (119)
+T 3NJN_A           56 QTLKGLKFVGVGFVTPFD-GIIDA-VTISSDGMLVQLVDLDKTPGTTK  101 (119)
+T ss_dssp             CSSSCCEEEEEEESSTTS-SSCCE-EEECTTSSEEEEEECCCSCEEEE
+T ss_pred             CCCCCEEEEEEEEcCCCC-Cceee-EEEcCCCCEEEEEECCCCCcEEE
+Confidence            334445544555555432 22221 23466999999999987755443
+
+
+No 2
+>5XPW_A amphioxus IgVJ-C2; Immunoglobulin superfamily, dimmer, IMMUNE SYSTEM; 2.003A {Branchiostoma floridae}
+Probab=34.13  E-value=1.3e+02  Score=15.72  Aligned_cols=52  Identities=23%  Similarity=0.420  Sum_probs=24.9  Template_Neff=13.800
+
+Q ss_pred             cCCCEEEEEEEEEcCcccCCCccceEEEeeCCCEEEEEC--CCCCcceeeeeeCCc
+Q tr|H0YJP5|H0YJ   18 NNGARLQCRILEVLPPSHQNGFANGHVNSVDGETIIISD--SDDSETQSCSFQNGF   71 (77)
+Q Consensus        18 nngarlqcrilevlppshqngfanghvnsvdgetiiisd--sddsetqscsfqngf   71 (77)
+                      .....+.|.....-++..+-...++.+.  .+..+.|..  .+|...-.|...|..
+T Consensus       116 ~~~~~l~c~~~~~~~~~~~w~~~~~~~~--~~~~l~~~~~~~~~~g~y~c~~~~~~  169 (180)
+T 5XPW_A          116 GEMMMSTCRANSHPPSNFTWTLPNGNVT--QGAVLEITNMTQAEIGTYMCTADNGY  169 (180)
+T ss_dssp             TCCEEEEEEEEEESCCEEEEECTTSCEE--ESSEEEESSCCTTTCEEEEEEEECSS
+T ss_pred             cCcEEEEeEeccCCCcEEEEEeCCceec--cccEEEEeCCccccCEEEEEEEecCC
+Confidence            3456778877644333322111222221  223444443  345556778777654
+
+
+No 3
+>6I52_A Replication factor A protein 3; Complex, heterotrimer, DNA binding, OB-fold; 4.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=29.10  E-value=3e+02  Score=18.45  Aligned_cols=28  Identities=14%  Similarity=0.259  Sum_probs=15.8  Template_Neff=7.300
+
+Q ss_pred             eEEEeeC-CCEEEEECCCCCcc-----eeeeeeC
+Q tr|H0YJP5|H0YJ   42 GHVNSVD-GETIIISDSDDSET-----QSCSFQN   69 (77)
+Q Consensus        42 ghvnsvd-getiiisdsddset-----qscsfqn   69 (77)
+                      |.|.+++ |.++++..+||+.+     -.|.+..
+T Consensus        25 Gkv~~~~~~~~~~l~~~dd~~~~~~~~V~V~l~~   58 (122)
+T 6I52_A           25 AQIKSQPTESQLILQSPTISSKNGSEVEMITLNN   58 (122)
+T ss_dssp             CEEECCSSTTEEEEEECCSCSTTSCCCEEEEEEC
+T ss_pred             EEEEEcCCCCeEEEEcCCCCCCCCceEEEEEEcC
+Confidence            4555666 66666666654443     5555554
+
+
+No 4
+>1CCZ_A CD58; CD58, LFA-3, GLYCOPROTEIN; HET: NAG; 1.8A {Homo sapiens} SCOP: b.1.1.3, b.1.1.1
+Probab=29.09  E-value=1.6e+02  Score=15.43  Aligned_cols=55  Identities=18%  Similarity=0.181  Sum_probs=30.7  Template_Neff=13.500
+
+Q ss_pred             cCCCEEEEEEEEEcCcccCCCccceEEEeeCCCEEEEECCCCCcceeeeeeCCcc
+Q tr|H0YJP5|H0YJ   18 NNGARLQCRILEVLPPSHQNGFANGHVNSVDGETIIISDSDDSETQSCSFQNGFP   72 (77)
+Q Consensus        18 nngarlqcrilevlppshqngfanghvnsvdgetiiisdsddsetqscsfqngfp   72 (77)
+                      .....+.|.....-++...--+.+..+..-.+.++.+...+|+..-.|...|.+.
+T Consensus       105 ~~~~~l~c~~~~~~~~~~~w~~~~~~~~~~~~~~~~~~~~~~~g~y~c~~~n~~~  159 (171)
+T 1CCZ_A          105 CSNATLTCEVLEGTDVELKLYQGKEHLRSLRQKTMSYQWTNLRAPFKCKAVNRVS  159 (171)
+T ss_dssp             TTTTEEEEECSSCSSCEEEEEETTEEEEEESSSEEEEECSCCSSCEEEEEEETTE
+T ss_pred             ccceEEEEEeccCcccEEEEEeCCcccccccceeeEEEEecCCccEEEEEEeCCC
+Confidence            3345677765431111111111222344445567777777888889999888754
+
+
+No 5
+>3TDQ_A PilY2 protein; fimbiria, cell adhesion, Structural Genomics; HET: GOL, MSE; 2.1A {Pseudomonas aeruginosa}
+Probab=28.87  E-value=1.1e+02  Score=20.69  Aligned_cols=17  Identities=24%  Similarity=0.243  Sum_probs=14.0  Template_Neff=6.000
+
+Q ss_pred             cceEEEeeC--CCEEEEEC
+Q tr|H0YJP5|H0YJ   40 ANGHVNSVD--GETIIISD   56 (77)
+Q Consensus        40 anghvnsvd--getiiisd   56 (77)
+                      ..|.|.++|  ..+|+|.|
+T Consensus         9 ~~G~I~~Id~~~~~IVIDg   27 (98)
+T 3TDQ_A            9 GAGVVFEVQVEKNLVDIDH   27 (98)
+T ss_dssp             EEEEEEEEEGGGTEEEETT
+T ss_pred             ceEEEEEEEcCCCEEEECC
+Confidence            468999999  89999943
+
+
+No 6
+>3TDQ_B PilY2 protein; fimbiria, cell adhesion, Structural Genomics; HET: GOL, MSE; 2.1A {Pseudomonas aeruginosa}
+Probab=28.87  E-value=1.1e+02  Score=20.69  Aligned_cols=17  Identities=24%  Similarity=0.243  Sum_probs=14.0  Template_Neff=6.000
+
+Q ss_pred             cceEEEeeC--CCEEEEEC
+Q tr|H0YJP5|H0YJ   40 ANGHVNSVD--GETIIISD   56 (77)
+Q Consensus        40 anghvnsvd--getiiisd   56 (77)
+                      ..|.|.++|  ..+|+|.|
+T Consensus         9 ~~G~I~~Id~~~~~IVIDg   27 (98)
+T 3TDQ_B            9 GAGVVFEVQVEKNLVDIDH   27 (98)
+T ss_dssp             EEEEEEEEEGGGTEEEETT
+T ss_pred             ceEEEEEEEcCCCEEEECC
+Confidence            468999999  89999943
+
+
+No 7
+>1HNF_A CD2 (HUMAN); T LYMPHOCYTE ADHESION GLYCOPROTEIN; HET: NAG; 2.5A {Homo sapiens} SCOP: b.1.1.3, b.1.1.1
+Probab=28.19  E-value=1.7e+02  Score=15.44  Aligned_cols=25  Identities=16%  Similarity=0.110  Sum_probs=15.3  Template_Neff=13.600
+
+Q ss_pred             eCCCEEEEECC-CCCcceeeeeeCCc
+Q tr|H0YJP5|H0YJ   47 VDGETIIISDS-DDSETQSCSFQNGF   71 (77)
+Q Consensus        47 vdgetiiisds-ddsetqscsfqngf   71 (77)
+                      ..+..+.|... +++..-.|...|..
+T Consensus       143 ~~~~~l~~~~~~~~~g~y~c~~~n~~  168 (182)
+T 1HNF_A          143 LSQRVITHKWTTSLSAKFKCTAGNKV  168 (182)
+T ss_dssp             EESSCEEEECCSCEEEEEEEEEECSS
+T ss_pred             CCccEEEEEEEccCCCCEEEEEeecc
+Confidence            34445555554 55566788888765
+
+
+No 8
+>1CID_A CD4 (DOMAINS 3 AND 4); T-CELL SURFACE GLYCOPROTEIN; 2.8A {Rattus norvegicus} SCOP: b.1.1.3, b.1.1.1
+Probab=27.87  E-value=1.7e+02  Score=15.42  Aligned_cols=51  Identities=16%  Similarity=0.290  Sum_probs=24.8  Template_Neff=13.500
+
+Q ss_pred             CEEEEEEEEEcCcccC--CCccceEEEeeCCCEEEEECCCCCcceeeeeeCCc
+Q tr|H0YJP5|H0YJ   21 ARLQCRILEVLPPSHQ--NGFANGHVNSVDGETIIISDSDDSETQSCSFQNGF   71 (77)
+Q Consensus        21 arlqcrilevlppshq--ngfanghvnsvdgetiiisdsddsetqscsfqngf   71 (77)
+                      ..|.|+.....||...  --..++.+...+...+.-....|+.+-.|...|.-
+T Consensus       115 ~~l~C~~~~~~~~~~~~~W~~~~~~~~~~~~~~~~~v~~~d~g~y~C~~~~~~  167 (177)
+T 1CID_A          115 NTLTCEVMGPTSPKMRLILKQENQEARVSRQEKVIQVQAPEAGVWQCLLSEGE  167 (177)
+T ss_dssp             SEEEEEEESCCCSSEEEEEEETTSCEEEEESSSEEEEESCCSSEEEEEEEETT
+T ss_pred             eEEEEEEecCCCCCcEEEEEeCCceeeeccCeeEeeeccccCeEEEEEEEeCC
+Confidence            7778877654433211  11112222222222233333566777889887754
+
+
+No 9
+>1HNG_A CD2 (RAT); T LYMPHOCYTE ADHESION GLYCOPROTEIN; 2.8A {Rattus rattus} SCOP: b.1.1.3, b.1.1.1
+Probab=27.76  E-value=1.7e+02  Score=15.18  Aligned_cols=28  Identities=14%  Similarity=0.120  Sum_probs=19.0  Template_Neff=13.800
+
+Q ss_pred             EeeCCCEEEEECCCCCcceeeeeeCCcc
+Q tr|H0YJP5|H0YJ   45 NSVDGETIIISDSDDSETQSCSFQNGFP   72 (77)
+Q Consensus        45 nsvdgetiiisdsddsetqscsfqngfp   72 (77)
+                      .......+.+...+|+..-.|...|...
+T Consensus       137 ~~~~~~~~~~~~~~~~g~y~c~~~n~~~  164 (176)
+T 1HNG_A          137 RSLRQKTMSYQWTNLRAPFKCKAVNRVS  164 (176)
+T ss_dssp             EEESSSEEEEECSCCSSCEEEEEEETTE
+T ss_pred             ccccceeEEeEeecCCcceEEEEeecCc
+Confidence            3445566666666777888888887653
+
+
+No 10
+>6YFG_MJ coat protein; virus, virus-like particle, structural protein; HET: CA; 3.897A {Beihai levi-like virus 32}
+Probab=27.36  E-value=76  Score=24.28  Aligned_cols=13  Identities=54%  Similarity=1.188  Sum_probs=10.8  Template_Neff=1.900
+
+Q ss_pred             CCCCceEEEEEEE
+Q tr|H0YJP5|H0YJ    1 XYVKDRYFVEETV   13 (77)
+Q Consensus         1 ~yvkdryfveetv   13 (77)
+                      .||.|.||+|..|
+T Consensus       115 g~~~~~~~~~~~~  127 (130)
+T 6YFG_MJ         115 GYVQDKYFIEDLV  127 (130)
+T ss_pred             eeeccceeeeeee
+Confidence            3899999999865
+
+
+No 11
+>4GNX_X Putative uncharacterized protein; ssDNA binding, DNA BINDING PROTEIN-DNA; 2.8A {Ustilago maydis}
+Probab=26.11  E-value=2.2e+02  Score=17.97  Aligned_cols=18  Identities=39%  Similarity=0.676  Sum_probs=9.2  Template_Neff=8.400
+
+Q ss_pred             eEEEeeCCCEEEEECCCC
+Q tr|H0YJP5|H0YJ   42 GHVNSVDGETIIISDSDD   59 (77)
+Q Consensus        42 ghvnsvdgetiiisdsdd   59 (77)
+                      |.|.+++|..+++.++|+
+T Consensus        25 Gkv~~~~~~~~~l~~~dg   42 (114)
+T 4GNX_X           25 GKVHKVTGNTLLMQTSDL   42 (114)
+T ss_dssp             EEEEEEETTEEEEEETTS
+T ss_pred             EEEEEEcCCEEEEEeCCC
+Confidence            444555555555555443
+
+
+No 12
+>4GOP_X Putative uncharacterized protein; OB fold, ssDNA binding, DNA; 3.1A {Ustilago maydis}
+Probab=26.11  E-value=2.2e+02  Score=17.97  Aligned_cols=18  Identities=39%  Similarity=0.676  Sum_probs=11.1  Template_Neff=8.400
+
+Q ss_pred             eEEEeeCCCEEEEECCCC
+Q tr|H0YJP5|H0YJ   42 GHVNSVDGETIIISDSDD   59 (77)
+Q Consensus        42 ghvnsvdgetiiisdsdd   59 (77)
+                      |.|.+++|..+++.++|+
+T Consensus        25 Gkv~~~~~~~~~l~~~dg   42 (114)
+T 4GOP_X           25 GKVHKVTGNTLLMQTSDL   42 (114)
+T ss_dssp             EEEEEEETTEEEEECTTS
+T ss_pred             EEEEEEcCCEEEEEeCCC
+Confidence            556666666666666554
+
+
+No 13
+>4APW_G ALP12; STRUCTURAL PROTEIN, ALP12, ACTIN-LIKE PROTEIN; 19.7A {CLOSTRIDIUM TETANI}
+Probab=26.07  E-value=3.2e+02  Score=17.85  Aligned_cols=28  Identities=7%  Similarity=0.067  Sum_probs=20.9  Template_Neff=11.700
+
+Q ss_pred             eeCCCEEEEECCCCCcceeeeeeCCccc
+Q tr|H0YJP5|H0YJ   46 SVDGETIIISDSDDSETQSCSFQNGFPL   73 (77)
+Q Consensus        46 svdgetiiisdsddsetqscsfqngfpl   73 (77)
+                      ....+.+++-|-..+.+.-+.|++|.+.
+T Consensus       168 ~~~~~~~lviDiG~~t~~~~~~~~~~~~  195 (329)
+T 4APW_G          168 NFKNKNVAVIDFGGLNMGFSLYRNCVVN  195 (329)
+T ss_dssp             CCTTCEEEEEEECSSCEEEEEEETTEEC
+T ss_pred             hcCCCcEEEEEeCCCeeeEEEEECCeeC
+Confidence            3456778888888888888888887664
+
+
+No 14
+>5VKJ_A B-cell receptor CD22; Siglec, Sialic acid, carbohydrate binding; HET: BMA, GOL, NAG, MAN; 2.12A {Homo sapiens}
+Probab=24.30  E-value=2.9e+02  Score=16.69  Aligned_cols=57  Identities=14%  Similarity=0.226  Sum_probs=31.0  Template_Neff=13.200
+
+Q ss_pred             EEecCCCEEEEEEEEEcCc--ccCCCccceEEEeeCCCEEEEEC--CCCCcceeeeeeCCc
+Q tr|H0YJP5|H0YJ   15 VIRNNGARLQCRILEVLPP--SHQNGFANGHVNSVDGETIIISD--SDDSETQSCSFQNGF   71 (77)
+Q Consensus        15 virnngarlqcrilevlpp--shqngfanghvnsvdgetiiisd--sddsetqscsfqngf   71 (77)
+                      +....-..|+|.+...-|+  .-+--+.+..+..-.+.++.|..  .+|+..-.|...|..
+T Consensus       239 ~~~g~~~~l~C~~~~~~~~~~~~~W~~~~~~~~~~~~~~l~i~~~~~~d~g~y~C~~~n~~  299 (324)
+T 5VKJ_A          239 VREGDSVTMTCEVSSSNPEYTTVSWLKDGTSLKKQNTFTLNLREVTKDQSGKYCCQVSNDV  299 (324)
+T ss_dssp             ECTTCCEEEEEEEEEEESCCCEEEEEETTEEETTCCSSEEEECSCCGGGCEEEEEEEECSS
+T ss_pred             EecCCeEEEEEEEeccCCCceeEEEEECCceeceecCcEEEeCCCCHhHCcEEEEEEEcCc
+Confidence            3345567889988765553  22211222333333445677754  345556788877764
+
+
+No 15
+>6CKA_B Paratox; prophage, natural competence, Streptococcus, protein; HET: MSE; 1.559A {Streptococcus pyogenes serotype M3}
+Probab=23.91  E-value=51  Score=22.38  Aligned_cols=18  Identities=33%  Similarity=0.689  Sum_probs=14.2  Template_Neff=3.400
+
+Q ss_pred             ceEEEEEEEEEEecCCCE
+Q tr|H0YJP5|H0YJ    5 DRYFVEETVEVIRNNGAR   22 (77)
+Q Consensus         5 dryfveetvevirnngar   22 (77)
+                      +.|+..+||.++|.||.-
+T Consensus        13 ~GyI~~dtV~IVRKnGkI   30 (68)
+T 6CKA_B           13 KGYILGDTVAIVRKNGKI   30 (68)
+T ss_dssp             TTSSCSSEEEEEEETTEE
+T ss_pred             cCCCCCCeEEEEEECCEE
+Confidence            446667899999999953
+
+
+No 16
+>7N1N_A Paratox, bacteriophage, quorum sensing, Streptococcus; HET: EPE; 1.6A {Streptococcus pyogenes serotype M3 (strain ATCC BAA-595 / MGAS315)}
+Probab=23.91  E-value=51  Score=22.38  Aligned_cols=18  Identities=33%  Similarity=0.689  Sum_probs=14.2  Template_Neff=3.400
+
+Q ss_pred             ceEEEEEEEEEEecCCCE
+Q tr|H0YJP5|H0YJ    5 DRYFVEETVEVIRNNGAR   22 (77)
+Q Consensus         5 dryfveetvevirnngar   22 (77)
+                      +.|+..+||.++|.||.-
+T Consensus        13 ~GyI~~dtV~IVRKnGkI   30 (68)
+T 7N1N_A           13 KGYILGDTVAIVRKNGKI   30 (68)
+T ss_dssp             TTSSCSSEEEEEEETTEE
+T ss_pred             cCCCCCCeEEEEEECCEE
+Confidence            446667899999999953
+
+
+No 17
+>2DRU_A chimera of CD48 antigen and; CD2 binding domain of CD48; HET: GOL, NAG; 2.6A {Rattus norvegicus}
+Probab=23.35  E-value=2.1e+02  Score=14.87  Aligned_cols=29  Identities=14%  Similarity=0.137  Sum_probs=19.1  Template_Neff=13.800
+
+Q ss_pred             EEeeCCCEEEEECCCCCcceeeeeeCCcc
+Q tr|H0YJP5|H0YJ   44 VNSVDGETIIISDSDDSETQSCSFQNGFP   72 (77)
+Q Consensus        44 vnsvdgetiiisdsddsetqscsfqngfp   72 (77)
+                      +.......+.|...+|+..-.|...|...
+T Consensus       141 ~~~~~~~~l~~~~~~~~g~y~c~~~~~~~  169 (180)
+T 2DRU_A          141 LRSLRQKTMSYQWTNLRAPFKCKAVNRVS  169 (180)
+T ss_dssp             EEEESSSEEEEECSCCSSCEEEEEEETTE
+T ss_pred             ccceeeecEEEEecCCCCcEEEEEecCcc
+Confidence            33444455777777778888888877643
+
+
+No 18
+>6EZN_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1 (E.C.2.4.99.18); OST complex, oligosaccharyltransferase, N-linked glycosylation; HET: NAG, BMA, PTY, CPL, MAN;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=23.31  E-value=5.2e+02  Score=20.52  Aligned_cols=60  Identities=20%  Similarity=0.283  Sum_probs=33.9  Template_Neff=8.500
+
+Q ss_pred             eEEEEEEEEEEecCCCEEE-----------------------EEEEEEcCcccCCCccceEEEeeCCCEEEEECCCCCcc
+Q tr|H0YJP5|H0YJ    6 RYFVEETVEVIRNNGARLQ-----------------------CRILEVLPPSHQNGFANGHVNSVDGETIIISDSDDSET   62 (77)
+Q Consensus         6 ryfveetvevirnngarlq-----------------------crilevlppshqngfanghvnsvdgetiiisdsddset   62 (77)
+                      ...|+|..+ |+|.|+.+.                       -.+--.||+.-.|-.+...+-.+....+  ...     
+T Consensus       248 ~i~V~e~y~-i~N~ga~l~g~FsR~~~~~~~~~~~~~~~~~~~~l~~~LP~~A~~i~~~D~iG~ists~~--~~~-----  319 (476)
+T 6EZN_A          248 TIQFEEYYE-LTNKAAKLSKGFSRLELMKQIQTQNMRQTHFVTVLDMLLPEGATDHYFTDLVGLVSTSHA--ERD-----  319 (476)
+T ss_dssp             EEEEEEEEE-EEECSCBCTTCCCHHHHHHHHHHSCCCSCSSBSCEEEECCSSCCCCEEECSSSBCCCEEE--ETT-----
+T ss_pred             eEEEEEEEE-EEeccccccCCccHHHHHHHHhhccccCcceeEEEeEeCCCCCcceEEEeCCCceEeeEE--EcC-----
+Confidence            567888886 889997642                       1244457877776555544444333221  111     
+
+
+Q ss_pred             eeeeeeCCccce
+Q tr|H0YJP5|H0YJ   63 QSCSFQNGFPLL   74 (77)
+Q Consensus        63 qscsfqngfpll   74 (77)
+                       ....+..||++
+T Consensus       320 -~l~v~pR~pl~  330 (476)
+T 6EZN_A          320 -HFFIRPRFPIF  330 (476)
+T ss_dssp             -EEEECCSSCBC
+T ss_pred             -eEEEEeCCCcc
+Confidence             45556666664
+
+
+No 19
+>3I84_B EMMPRIN  CD147  dimerization; 2.0A {Homo sapiens}
+Probab=22.43  E-value=3.4e+02  Score=17.84  Aligned_cols=47  Identities=21%  Similarity=0.333  Sum_probs=30.2  Template_Neff=6.800
+
+Q ss_pred             CEEEEEEEEEcCcccCCCccceEEEeeCCCEEE------------EECCCCCcceeeeeeCCccce
+Q tr|H0YJP5|H0YJ   21 ARLQCRILEVLPPSHQNGFANGHVNSVDGETII------------ISDSDDSETQSCSFQNGFPLL   74 (77)
+Q Consensus        21 arlqcrilevlppshqngfanghvnsvdgetii------------isdsddsetqscsfqngfpll   74 (77)
+                      +.|+|.+-..  ++    ...++.-.-||+.|.            +.+.+++-.-+|.|... |..
+T Consensus        25 ~~LsCnlt~~--~~----~~~~~~W~K~g~~I~~~~~~~~~t~y~~~~~e~~G~YtCVF~~~-p~~   83 (98)
+T 3I84_B           25 ILLTCSLDDS--AT----EVTGHRWLKGGVVLKEDALPGQKTEFKVDSDDQWGEYSCVFLPE-PMG   83 (98)
+T ss_dssp             EEEEEEESCC--SS----CCCEEEEEETTEEEEEECCCCSEEEEEEESTTCCEEEEEEEECC-CSE
+T ss_pred             EEEEEECCCC--CC----CcceeEEeeCCEEecCCCCCCCeEEEEeCCHhhCEEEEEEEccC-Cce
+Confidence            4788986543  11    234566666666665            55677888889999865 443
+
+
+No 20
+>7B5I_ED contractile tail, injection system, macromolecular; 2.8A {Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)}
+Probab=22.31  E-value=2e+02  Score=17.76  Aligned_cols=23  Identities=13%  Similarity=0.241  Sum_probs=16.7  Template_Neff=9.800
+
+Q ss_pred             EEEEECCCCCcceeeeeeCCccc
+Q tr|H0YJP5|H0YJ   51 TIIISDSDDSETQSCSFQNGFPL   73 (77)
+Q Consensus        51 tiiisdsddsetqscsfqngfpl   73 (77)
+                      +|.+-|.+.....++.|.|.||.
+T Consensus        90 ~i~~~d~~g~~~~~~~l~~~~p~  112 (143)
+T 7B5I_ED          90 TISLLNEKHEPVVVWKVNRAWPT  112 (143)
+T ss_pred             EEEEECCCCCeEEEEEEEEEEEE
+Confidence            34556677777888888888874
+
+
+No 21
+>6D6V_F Telomerase reverse transcriptase, Telomerase-associated protein; Telomerase, telomere, REPLICATION;{Tetrahymena thermophila}
+Probab=22.27  E-value=2.8e+02  Score=17.77  Aligned_cols=29  Identities=17%  Similarity=0.136  Sum_probs=18.8  Template_Neff=8.300
+
+Q ss_pred             ceEEEee--CCCEEEEECCCCCcceeeeeeCC
+Q tr|H0YJP5|H0YJ   41 NGHVNSV--DGETIIISDSDDSETQSCSFQNG   70 (77)
+Q Consensus        41 nghvnsv--dgetiiisdsddsetqscsfqng   70 (77)
+                      -|.|.++  +|.++++.++|..+ -.|.+...
+T Consensus        29 vGkV~~~~~~~~~~~l~~~d~~~-V~V~~~~~   59 (121)
+T 6D6V_F           29 VGNVCNEDQNDSLVIEFGPTGLN-QHVVIDNY   59 (121)
+T ss_dssp             EEEEEECCTTSSEEEEECSSSSC-CEEEEECC
+T ss_pred             EEEEEEeCCCCCEEEEEeCCCCE-EEEEeCCC
+Confidence            4666777  77888887777554 34656554
+
+
+No 22
+>6RAO_F Afp1, Afp2, Afp3, Afp5, Afp9; Anti-feeding prophage, secretion system, AFP; 3.1A {Serratia entomophila}
+Probab=21.34  E-value=2.4e+02  Score=17.71  Aligned_cols=23  Identities=9%  Similarity=0.303  Sum_probs=15.6  Template_Neff=9.600
+
+Q ss_pred             EEEEECCCCCcceeeeeeCCccc
+Q tr|H0YJP5|H0YJ   51 TIIISDSDDSETQSCSFQNGFPL   73 (77)
+Q Consensus        51 tiiisdsddsetqscsfqngfpl   73 (77)
+                      +|.+-|.+.....+..|.+.+|-
+T Consensus        94 ~i~~~d~~g~~~~~~~l~~a~p~  116 (149)
+T 6RAO_F           94 VIMLLNELSLPVTTWTLSHALPV  116 (149)
+T ss_pred             EEEEeCCCCCeeEEEEEEeeEEe
+Confidence            45556666667777778877763
+
+

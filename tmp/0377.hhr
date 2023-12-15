@@ -1,0 +1,166 @@
+Query         tr|J3QRT0|J3QRT0_HUMAN
+Match_columns 29
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:10:55 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0377.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2QKW_A Avirulence protein, Pro  43.6      29 0.00031   22.7   1.2   15    1-15      1-16  (164)
+  2 2M86_A MCo-PMI, E3 ubiquitin-p  17.9 1.1E+02  0.0012   17.2   0.5   20    9-28      3-22  (51)
+  3 3HTC_I ALPHA-THROMBIN (E.C.3.4  17.1 2.9E+02  0.0032   16.1   2.0   15    3-17     38-52  (65)
+  4 7O5B_h signal recognition part  14.3 1.4E+02  0.0015   18.8   0.3   16    1-16     36-51  (96)
+  5 2K4R_A Neurotrypsin (E.C.3.4.2  13.6 2.2E+02  0.0024   10.8   1.5    9    4-12      2-10  (77)
+  6 7A0D_III Prothrombin (E.C.3.4.  12.1 4.7E+02  0.0051   15.2   2.0   15    3-17     38-52  (65)
+  7 6OEI_A Spindle pole body compo  11.5 4.7E+02  0.0051   13.5   1.9   15    8-22      2-16  (298)
+  8 6J5T_D Probable serine/threoni  11.0 6.1E+02  0.0067   14.5   2.8   10    1-10      1-10  (426)
+  9 4Y2L_C CFA/I pili major subuni   7.7 2.1E+02  0.0023   16.7  -0.4   12   14-25     13-24  (153)
+ 10 4I1V_A Dephospho-CoA kinase (E   6.3 2.9E+02  0.0031   13.3  -0.3   10    4-13     13-22  (210)
+
+No 1
+>2QKW_A Avirulence protein, Protein kinase (E.C.2.7.11.1); three-helix bundle motif, Avrpto-pto duplex; HET: TPO, SEP; 3.2A {Pseudomonas syringae} SCOP: a.8.8.1
+Probab=43.58  E-value=29  Score=22.69  Aligned_cols=15  Identities=47%  Similarity=0.756  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CCC-CCCCCCCCCCCC
+Q tr|J3QRT0|J3QR    1 MKN-CVTGESSASKVS   15 (29)
+Q Consensus         1 mkn-cvtgessaskvs   15 (29)
+                      |-| ||.|.+.|-.|.
+T Consensus         1 MGN~CVGGssmA~qVn   16 (164)
+T 2QKW_A            1 MGNICVGGSRMAHQVN   16 (164)
+T ss_dssp             ----------------
+T ss_pred             CCCccccCcccccccC
+Confidence            566 999998887764
+
+
+No 2
+>2M86_A MCo-PMI, E3 ubiquitin-protein ligase Mdm2; Hdm2 oncoprotein, MCoTI-I cyclotide, p53; NMR {synthetic construct}
+Probab=17.92  E-value=1.1e+02  Score=17.21  Aligned_cols=20  Identities=25%  Similarity=0.157  Sum_probs=12.5  Template_Neff=2.200
+
+Q ss_pred             CCCCCCCCCCCCCccCCCCC
+Q tr|J3QRT0|J3QR    9 SSASKVSANVDSRIEMDSNK   28 (29)
+Q Consensus         9 ssaskvsanvdsriemdsnk   28 (29)
+                      |.||+....+|.-||..|+.
+T Consensus         3 ~~~s~~~~~~dE~i~l~s~g   22 (51)
+T 2M86_A            3 SGASKAPTSFAEYWNLLSAG   22 (51)
+T ss_dssp             CSCTTCCCSHHHHHHHTTTT
+T ss_pred             CCcccCCccHHHhhhhhccC
+Confidence            45666666667777776653
+
+
+No 3
+>3HTC_I ALPHA-THROMBIN (E.C.3.4.21.5) COMPLEX WITH RECOMBINANT; HYDROLASE(SERINE PROTEASE); 2.3A {Homo sapiens} SCOP: g.3.15.2
+Probab=17.11  E-value=2.9e+02  Score=16.06  Aligned_cols=15  Identities=47%  Similarity=0.740  Sum_probs=10.4  Template_Neff=3.000
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|J3QRT0|J3QR    3 NCVTGESSASKVSAN   17 (29)
+Q Consensus         3 ncvtgessaskvsan   17 (29)
+                      .||+|+......+.+
+T Consensus        38 ~CV~Geg~pk~~~~~   52 (65)
+T 3HTC_I           38 QCVTGEGTPKPESHN   52 (65)
+T ss_pred             cccccCCCCCCccCC
+Confidence            489998876655544
+
+
+No 4
+>7O5B_h signal recognition particle co-translational targeting; HET: G4P; 3.33A {Bacillus subtilis subsp. subtilis str. 168}
+Probab=14.30  E-value=1.4e+02  Score=18.77  Aligned_cols=16  Identities=31%  Similarity=0.580  Sum_probs=11.8  Template_Neff=1.800
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|J3QRT0|J3QR    1 MKNCVTGESSASKVSA   16 (29)
+Q Consensus         1 mkncvtgessaskvsa   16 (29)
+                      .|.|.+||+..+|--.
+T Consensus        36 lk~c~~ge~wk~kr~~   51 (96)
+T 7O5B_h           36 LRECRAGEQWKSKRTD   51 (96)
+T ss_pred             HhhhcCCCcccccccC
+Confidence            3679999998776443
+
+
+No 5
+>2K4R_A Neurotrypsin (E.C.3.4.21.-); NEUROTRYPSIN, KRINGLE DOMAIN, DISULFIDE-RICH PROTEIN; NMR {Rattus norvegicus}
+Probab=13.62  E-value=2.2e+02  Score=10.85  Aligned_cols=9  Identities=33%  Similarity=0.648  Sum_probs=5.1  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCC
+Q tr|J3QRT0|J3QR    4 CVTGESSAS   12 (29)
+Q Consensus         4 cvtgessas   12 (29)
+                      |++++...+
+T Consensus         2 ~~~~~~~~~   10 (77)
+T 2K4R_A            2 CGAGEPWGN   10 (77)
+T ss_dssp             CCTTCCCSS
+T ss_pred             CCCCCCcce
+Confidence            666665533
+
+
+No 6
+>7A0D_III Prothrombin (E.C.3.4.21.5), Hirudin variant-1; Hydrolase, Inhibitor, Hirudin, Thrombin, Selenocysteine; HET: NAG; 1.6A {Bos taurus}
+Probab=12.11  E-value=4.7e+02  Score=15.24  Aligned_cols=15  Identities=47%  Similarity=0.749  Sum_probs=10.0  Template_Neff=3.000
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|J3QRT0|J3QR    3 NCVTGESSASKVSAN   17 (29)
+Q Consensus         3 ncvtgessaskvsan   17 (29)
+                      .||.|+......+.+
+T Consensus        38 ~CV~Geg~pk~~~~~   52 (65)
+T 7A0D_III         38 QCVTGEGTPKPQSHN   52 (65)
+T ss_pred             ceeccCCCCCCCCCC
+Confidence            488888776555544
+
+
+No 7
+>6OEI_A Spindle pole body component SPC42; Yeast Centrosome, Coiled-Coil, Spindle Pole; HET: MPD, MSE; 2.58A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=11.51  E-value=4.7e+02  Score=13.47  Aligned_cols=15  Identities=33%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCCCCCCCCc
+Q tr|J3QRT0|J3QR    8 ESSASKVSANVDSRI   22 (29)
+Q Consensus         8 essaskvsanvdsri   22 (29)
+                      .+.++|-+-+-|..+
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (298)
+T 6OEI_A            2 GSGSSKSSRLYDDYY   16 (298)
+T ss_dssp             ---------------
+T ss_pred             CCCcccccccccccc
+Confidence            345566666666555
+
+
+No 8
+>6J5T_D Probable serine/threonine-protein kinase PBL2 (E.C.2.7.11.1); resistosome, PLANT PROTEIN; HET: BQL, BQO, DTP; 3.4A {Arabidopsis thaliana}
+Probab=10.99  E-value=6.1e+02  Score=14.47  Aligned_cols=10  Identities=30%  Similarity=0.737  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCC
+Q tr|J3QRT0|J3QR    1 MKNCVTGESS   10 (29)
+Q Consensus         1 mkncvtgess   10 (29)
+                      |-||++-.++
+T Consensus         1 ~~~~~~~~~~   10 (426)
+T 6J5T_D            1 MGNCLDSSAK   10 (426)
+T ss_dssp             ----------
+T ss_pred             CCcccccCcc
+Confidence            5566654443
+
+
+No 9
+>4Y2L_C CFA/I pili major subunit CfaB; Enterotoxigenic Escherichia coli, periplasmic chaperone; HET: IPA; 1.746A {Escherichia coli O78:H11 (strain H10407 / ETEC)}
+Probab=7.75  E-value=2.1e+02  Score=16.68  Aligned_cols=12  Identities=42%  Similarity=0.562  Sum_probs=7.4  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCccCC
+Q tr|J3QRT0|J3QR   14 VSANVDSRIEMD   25 (29)
+Q Consensus        14 vsanvdsriemd   25 (29)
+                      |.|+|++.+.+.
+T Consensus        13 V~A~V~~~l~v~   24 (153)
+T 4Y2L_C           13 VTASVDPVIDLL   24 (153)
+T ss_dssp             EEEEECSSEEEE
+T ss_pred             EEEEeCCcEEEE
+Confidence            566666666553
+
+
+No 10
+>4I1V_A Dephospho-CoA kinase (E.C.2.7.1.24); Structural Genomics, NIAID, National Institute; HET: ADP; 2.6A {Burkholderia vietnamiensis}
+Probab=6.27  E-value=2.9e+02  Score=13.27  Aligned_cols=10  Identities=30%  Similarity=0.381  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCCCCCC
+Q tr|J3QRT0|J3QR    4 CVTGESSASK   13 (29)
+Q Consensus         4 cvtgessask   13 (29)
+                      |++|.+.+.|
+T Consensus        13 ~~~G~~GsGK   22 (210)
+T 4I1V_A           13 GLTGGIGSGK   22 (210)
+T ss_dssp             EEECCTTSSH
+T ss_pred             EEECCCcCCH
+
+

@@ -1,0 +1,168 @@
+Query         tr|C9JW28|C9JW28_HUMAN
+Match_columns 21
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:56:31 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1860.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HFO_A Tetratricopeptide repea  23.9      92   0.001   17.3   1.0   12    3-14     55-66  (171)
+  2 6HFM_B Hsp70/Hsp90 co-chaperon  22.0   1E+02  0.0011   17.1   0.9   12    3-14     44-55  (167)
+  3 3ZDO_G PHOSPHOPROTEIN; VIRAL P  19.3      90 0.00098   17.8   0.3    8   12-19     67-74  (84)
+  4 6X61_H Transcription regulator  17.9   2E+02  0.0021   13.5   1.3   11    4-14     60-70  (108)
+  5 2L3F_A Uncharacterized protein  16.8 1.5E+02  0.0016   15.7   0.8    7   14-20    132-138 (166)
+  6 7W72_T glycosylphosphatidylino  14.7 2.6E+02  0.0028   17.8   1.5   14    8-21    486-499 (527)
+  7 3R84_Q Mediator of RNA polymer  14.4 1.4E+02  0.0015   15.1   0.3   10    3-12     74-83  (86)
+  8 3R84_U Mediator of RNA polymer  14.4 1.4E+02  0.0015   15.1   0.3   10    3-12     74-83  (86)
+  9 1T4Z_A Adaptive-response senso  14.0 2.8E+02  0.0031   13.0   1.3   11    4-14     63-73  (105)
+ 10 4BF7_A ARABINOGALACTAN ENDO-1,  12.7 1.5E+02  0.0017   14.8   0.2   15    6-20      1-15  (352)
+
+No 1
+>6HFO_A Tetratricopeptide repeat protein 4; unique fold, wheel domain, Hsp90; 1.65A {Homo sapiens}
+Probab=23.94  E-value=92  Score=17.33  Aligned_cols=12  Identities=33%  Similarity=0.664  Sum_probs=9.9  Template_Neff=7.200
+
+Q ss_pred             CCccccceeeee
+Q tr|C9JW28|C9JW    3 DGVMILPVLIMI   14 (21)
+Q Consensus         3 dgvmilpvlimi   14 (21)
+                      +|.++.||+++.
+T Consensus        55 ~~~L~wPvl~lY   66 (171)
+T 6HFO_A           55 QGRLSWPVLFLY   66 (171)
+T ss_dssp             TSCEEEEEEEEE
+T ss_pred             CCcEEEEEEEEc
+Confidence            588999998875
+
+
+No 2
+>6HFM_B Hsp70/Hsp90 co-chaperone CNS1; unique fold, wheel domain, Hsp90; 1.55A {Saccharomyces cerevisiae}
+Probab=22.00  E-value=1e+02  Score=17.09  Aligned_cols=12  Identities=42%  Similarity=0.769  Sum_probs=10.1  Template_Neff=7.200
+
+Q ss_pred             CCccccceeeee
+Q tr|C9JW28|C9JW    3 DGVMILPVLIMI   14 (21)
+Q Consensus         3 dgvmilpvlimi   14 (21)
+                      +|.++.|||++.
+T Consensus        44 ~~~L~wPVl~lY   55 (167)
+T 6HFM_B           44 ESQLIYPALIMY   55 (167)
+T ss_dssp             TSCEEEEEEEEE
+T ss_pred             ccceEEEEEEEc
+Confidence            688999999875
+
+
+No 3
+>3ZDO_G PHOSPHOPROTEIN; VIRAL PROTEIN, COILED-COIL; 2.07A {MEASLES VIRUS}
+Probab=19.35  E-value=90  Score=17.84  Aligned_cols=8  Identities=63%  Similarity=0.966  Sum_probs=1.4  Template_Neff=2.600
+
+Q ss_pred             eeecCCCC
+Q tr|C9JW28|C9JW   12 IMIALPSP   19 (21)
+Q Consensus        12 imialpsp   19 (21)
+                      +|||.|+.
+T Consensus        67 ~MIaIPgs   74 (84)
+T 3ZDO_G           67 IMIAIPGL   74 (84)
+T ss_dssp             CC------
+T ss_pred             heeeccCc
+Confidence            58888864
+
+
+No 4
+>6X61_H Transcription regulator, complex, circadian clock; HET: PO4; 3.2A {Thermosynechococcus elongatus}
+Probab=17.94  E-value=2e+02  Score=13.54  Aligned_cols=11  Identities=27%  Similarity=0.534  Sum_probs=8.7  Template_Neff=9.400
+
+Q ss_pred             Cccccceeeee
+Q tr|C9JW28|C9JW    4 GVMILPVLIMI   14 (21)
+Q Consensus         4 gvmilpvlimi   14 (21)
+                      ||+..|.++.+
+T Consensus        60 ~I~~~Ptli~~   70 (108)
+T 6X61_H           60 KLVATPALIKV   70 (108)
+T ss_dssp             TCCSBSEEEEE
+T ss_pred             CCeeCCEEEEe
+Confidence            67888888765
+
+
+No 5
+>2L3F_A Uncharacterized protein; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Methanosarcina acetivorans}
+Probab=16.77  E-value=1.5e+02  Score=15.68  Aligned_cols=7  Identities=57%  Similarity=0.686  Sum_probs=4.3  Template_Neff=8.400
+
+Q ss_pred             ecCCCCC
+Q tr|C9JW28|C9JW   14 IALPSPS   20 (21)
+Q Consensus        14 ialpsps   20 (21)
+                      +.|||||
+T Consensus       132 ~vlpspS  138 (166)
+T 2L3F_A          132 KVLPSSS  138 (166)
+T ss_dssp             EEECCCS
+T ss_pred             EEccCCC
+Confidence            4566766
+
+
+No 6
+>7W72_T glycosylphosphatidylinositol, transamidase, MEMBRANE PROTEIN; HET: BMA, NAG, 8JY;{Homo sapiens}
+Probab=14.68  E-value=2.6e+02  Score=17.84  Aligned_cols=14  Identities=36%  Similarity=0.574  Sum_probs=10.5  Template_Neff=8.100
+
+Q ss_pred             cceeeeecCCCCCC
+Q tr|C9JW28|C9JW    8 LPVLIMIALPSPSM   21 (21)
+Q Consensus         8 lpvlimialpspsm   21 (21)
+                      =|.|+.+..|.-||
+T Consensus       486 ~~lLv~lp~PDFSM  499 (527)
+T 7W72_T          486 EPLLVNLPTPDFSM  499 (527)
+T ss_dssp             CCEEECCCCCCTTC
+T ss_pred             CCeeeecCCCCCCC
+Confidence            46778888887777
+
+
+No 7
+>3R84_Q Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=14.42  E-value=1.4e+02  Score=15.08  Aligned_cols=10  Identities=30%  Similarity=0.654  Sum_probs=5.7  Template_Neff=6.900
+
+Q ss_pred             CCccccceee
+Q tr|C9JW28|C9JW    3 DGVMILPVLI   12 (21)
+Q Consensus         3 dgvmilpvli   12 (21)
+                      -|+++||+=|
+T Consensus        74 ~~~~~lp~~~   83 (86)
+T 3R84_Q           74 VGTRLLPINV   83 (86)
+T ss_dssp             BTTTBCC---
+T ss_pred             cCCceecCcc
+Confidence            4788999744
+
+
+No 8
+>3R84_U Mediator of RNA polymerase II; four-helix bundle, transcription, nucleus; HET: MSE; 2.05A {Saccharomyces cerevisiae}
+Probab=14.42  E-value=1.4e+02  Score=15.08  Aligned_cols=10  Identities=30%  Similarity=0.654  Sum_probs=6.3  Template_Neff=6.900
+
+Q ss_pred             CCccccceee
+Q tr|C9JW28|C9JW    3 DGVMILPVLI   12 (21)
+Q Consensus         3 dgvmilpvli   12 (21)
+                      -|+++||+=|
+T Consensus        74 ~~~~~lp~~~   83 (86)
+T 3R84_U           74 VGTRLLPINV   83 (86)
+T ss_dssp             BTTTBSCC--
+T ss_pred             cCCceecCcc
+Confidence            3788899744
+
+
+No 9
+>1T4Z_A Adaptive-response sensory-kinase sasA (E.C.2.7.-.-); Alpha/Beta protein, Thioredoxin fold, TRANSFERASE; NMR {Synechococcus elongatus} SCOP: c.47.1.15
+Probab=13.98  E-value=2.8e+02  Score=13.00  Aligned_cols=11  Identities=27%  Similarity=0.655  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             Cccccceeeee
+Q tr|C9JW28|C9JW    4 GVMILPVLIMI   14 (21)
+Q Consensus         4 gvmilpvlimi   14 (21)
+                      +|+.+|.++.+
+T Consensus        63 ~I~~vPtlv~~   73 (105)
+T 1T4Z_A           63 RLVVTPALVKI   73 (105)
+T ss_dssp             TCCSSSEEEEE
+T ss_pred             CceecCEEEEe
+
+
+No 10
+>4BF7_A ARABINOGALACTAN ENDO-1,4-BETA-GALACTOSIDASE A (E.C.3.2.1.89); HYDROLASE; HET: NAG, IMD, ACT, ZN, GOL; 2.001A {EMERICELLA NIDULANS}
+Probab=12.74  E-value=1.5e+02  Score=14.77  Aligned_cols=15  Identities=33%  Similarity=0.510  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             cccceeeeecCCCCC
+Q tr|C9JW28|C9JW    6 MILPVLIMIALPSPS   20 (21)
+Q Consensus         6 milpvlimialpsps   20 (21)
+                      |++++++..+++.++
+T Consensus         1 ~~~~~~~~~~~~~~~   15 (352)
+T 4BF7_A            1 MILSSLLPLSLVTLT   15 (352)
+T ss_dssp             ---------------
+T ss_pred             Cccccccchhhcccc
+
+

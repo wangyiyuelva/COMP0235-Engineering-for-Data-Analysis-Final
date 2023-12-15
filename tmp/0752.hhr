@@ -1,0 +1,165 @@
+Query         tr|A0A1W2PNZ6|A0A1W2PNZ6_HUMAN
+Match_columns 62
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:13:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0752.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3E0J_H DNA polymerase subunit   70.0     7.1 7.7E-05   25.2   1.7   21    5-25     29-49  (144)
+  2 7PUA_DE mitoribosome, assembly  28.0 1.5E+02  0.0017   27.1   3.4   25    9-33    661-685 (747)
+  3 6HIZ_DE Uncharacterized protei  27.9 1.5E+02  0.0017   27.1   3.4   25    9-33    661-685 (747)
+  4 7MY4_B Oligomerization, A-Kina  27.3      55  0.0006   16.4   0.5    8   15-22     65-72  (74)
+  5 6RXU_CK Periodic tryptophan pr  24.8      68 0.00074   22.9   0.7   38   17-56     74-116 (297)
+  6 6RXV_CK Periodic tryptophan pr  24.8      68 0.00074   22.9   0.7   38   17-56     74-116 (297)
+  7 5DIL_A Non-structural protein   23.7      86 0.00093   23.5   1.0   16   11-26    119-134 (141)
+  8 7LXD_G nucleic acid binding, D  22.7 1.4E+02  0.0015   23.4   2.0   22    5-26     28-49  (350)
+  9 5ZXL_B Glycerol dehydrogenase   20.8 1.7E+02  0.0019   20.2   1.9   47    2-48      7-54  (367)
+ 10 6TNY_C DNA polymerase delta ca  20.0 1.6E+02  0.0017   24.0   1.9   20    6-25     38-57  (474)
+
+No 1
+>3E0J_H DNA polymerase subunit delta-2 (E.C.2.7.7.7); DNA Polymerase Delta, p66 subunit; 3.0A {Homo sapiens}
+Probab=70.01  E-value=7.1  Score=25.16  Aligned_cols=21  Identities=33%  Similarity=0.599  Sum_probs=18.6  Template_Neff=7.800
+
+Q ss_pred             ceccChhhHHHHHHHHHHhcc
+Q tr|A0A1W2PNZ6|    5 KINVNVNSAAGLLDQFYEKQR   25 (62)
+Q Consensus         5 kinvnvnsaaglldqfyekqr   25 (62)
+                      +.++.+|.|..+|.+||++++
+T Consensus        29 ~~~i~~~~Ak~~L~~f~~~~~   49 (144)
+T 3E0J_H           29 TLGVHVNQAKQMLYDYVERKR   49 (144)
+T ss_dssp             CCCCCHHHHHHHHHHHHHHHH
+T ss_pred             HhCCCHHHHHHHHHHHHHHhh
+Confidence            467889999999999999985
+
+
+No 2
+>7PUA_DE mitoribosome, assembly intermediate, Trypanosoma brucei; HET: PM8, FDA, GDP, PO4, ATP; 3.6A {Trypanosoma brucei brucei}
+Probab=28.04  E-value=1.5e+02  Score=27.08  Aligned_cols=25  Identities=40%  Similarity=0.537  Sum_probs=18.3  Template_Neff=2.700
+
+Q ss_pred             ChhhHHHHHHHHHHhcchhhhcCCC
+Q tr|A0A1W2PNZ6|    9 NVNSAAGLLDQFYEKQRLLIISAPD   33 (62)
+Q Consensus         9 nvnsaaglldqfyekqrlliisapd   33 (62)
+                      .||-||.|||+|.++.--.+....+
+T Consensus       661 KVnVAAaLLD~fV~~ew~~~l~~~~  685 (747)
+T 7PUA_DE         661 KVNVAASLLDNFVEQEWTTILRDKH  685 (747)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhccc
+Confidence            3677999999999887655544444
+
+
+No 3
+>6HIZ_DE Uncharacterized protein, uS3m, UNK/RNA Complex; mitoribosome, translation, Trypanosoma, small ribosomal; HET: GTP, SPD, UTP; 3.08A {Trypanosoma brucei brucei}
+Probab=27.88  E-value=1.5e+02  Score=27.09  Aligned_cols=25  Identities=40%  Similarity=0.537  Sum_probs=18.3  Template_Neff=2.700
+
+Q ss_pred             ChhhHHHHHHHHHHhcchhhhcCCC
+Q tr|A0A1W2PNZ6|    9 NVNSAAGLLDQFYEKQRLLIISAPD   33 (62)
+Q Consensus         9 nvnsaaglldqfyekqrlliisapd   33 (62)
+                      .||-||.|||+|.++.--.+....+
+T Consensus       661 KVnVAAaLLD~fV~~ew~~~l~~~~  685 (747)
+T 6HIZ_DE         661 KVNVAASLLDNFVEQEWTTILRDKH  685 (747)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhccc
+Confidence            3677999999999887655544444
+
+
+No 4
+>7MY4_B Oligomerization, A-Kinase Anchoring Protein (AKAP); 1.72A {Danio rerio}
+Probab=27.33  E-value=55  Score=16.43  Aligned_cols=8  Identities=50%  Similarity=0.916  Sum_probs=3.5  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHH
+Q tr|A0A1W2PNZ6|   15 GLLDQFYE   22 (62)
+Q Consensus        15 glldqfye   22 (62)
+                      .++|+||+
+T Consensus        65 ~~~~~~~~   72 (74)
+T 7MY4_B           65 KLEDRFYN   72 (74)
+T ss_dssp             CCCCCCCC
+T ss_pred             HHHhccCC
+Confidence            34444444
+
+
+No 5
+>6RXU_CK Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=24.84  E-value=68  Score=22.90  Aligned_cols=38  Identities=21%  Similarity=0.405  Sum_probs=25.1  Template_Neff=8.200
+
+Q ss_pred             HHHHH-----HhcchhhhcCCCcccHHHHHHHHHHHHHhccHHHH
+Q tr|A0A1W2PNZ6|   17 LDQFY-----EKQRLLIISAPDPSNRYYKMQISMLQAISAPHSLL   56 (62)
+Q Consensus        17 ldqfy-----ekqrlliisapdpsnryykmqismlqaisaphsll   56 (62)
+                      -|.|+     ...+++|.+..+||.+....--.+...+  |+|.-
+T Consensus        74 ~de~~~~~~~~~pkilITtsr~ps~~~~~f~keL~~~~--Pns~~  116 (297)
+T 6RXU_CK          74 DDEYSELSGIVDPRVLVTTSRDPSSRLMAFSKEIRLMF--PTAIR  116 (297)
+T ss_pred             cchhHHhcCCCCCeEEEEecCCCCHHHHHHHHHHHHHC--CCcEE
+Confidence            45664     6788999999999998765544443333  55543
+
+
+No 6
+>6RXV_CK Periodic tryptophan protein 2-like protein; ribosome, ribosome biogenesis, rRNA; HET: GTP; 4.0A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=24.84  E-value=68  Score=22.90  Aligned_cols=38  Identities=21%  Similarity=0.405  Sum_probs=25.1  Template_Neff=8.200
+
+Q ss_pred             HHHHH-----HhcchhhhcCCCcccHHHHHHHHHHHHHhccHHHH
+Q tr|A0A1W2PNZ6|   17 LDQFY-----EKQRLLIISAPDPSNRYYKMQISMLQAISAPHSLL   56 (62)
+Q Consensus        17 ldqfy-----ekqrlliisapdpsnryykmqismlqaisaphsll   56 (62)
+                      -|.|+     ...+++|.+..+||.+....--.+...+  |+|.-
+T Consensus        74 ~de~~~~~~~~~pkilITtsr~ps~~~~~f~keL~~~~--Pns~~  116 (297)
+T 6RXV_CK          74 DDEYSELSGIVDPRVLVTTSRDPSSRLMAFSKEIRLMF--PTAIR  116 (297)
+T ss_pred             cchhHHhcCCCCCeEEEEecCCCCHHHHHHHHHHHHHC--CCcEE
+Confidence            45664     6788999999999998765544443333  55543
+
+
+No 7
+>5DIL_A Non-structural protein 1; effector domain, RNA binding, RNA-binding; HET: IOD, MSE; 2.01A {Influenza B virus (B/Singapore/DSO_090134/2004)}
+Probab=23.72  E-value=86  Score=23.48  Aligned_cols=16  Identities=44%  Similarity=0.756  Sum_probs=13.8  Template_Neff=1.500
+
+Q ss_pred             hhHHHHHHHHHHhcch
+Q tr|A0A1W2PNZ6|   11 NSAAGLLDQFYEKQRL   26 (62)
+Q Consensus        11 nsaaglldqfyekqrl   26 (62)
+                      ..|+|.|-|||...||
+T Consensus       119 ~~a~G~L~~F~~Ehrl  134 (141)
+T 5DIL_A          119 ETAVGVLSQFGQEHRL  134 (141)
+T ss_dssp             HHHHHHHHHTTCGGGC
+T ss_pred             HHHHHHHHhhchhccC
+Confidence            4578999999999986
+
+
+No 8
+>7LXD_G nucleic acid binding, DNA polymerase;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=22.70  E-value=1.4e+02  Score=23.45  Aligned_cols=22  Identities=14%  Similarity=0.333  Sum_probs=18.7  Template_Neff=6.100
+
+Q ss_pred             ceccChhhHHHHHHHHHHhcch
+Q tr|A0A1W2PNZ6|    5 KINVNVNSAAGLLDQFYEKQRL   26 (62)
+Q Consensus         5 kinvnvnsaaglldqfyekqrl   26 (62)
+                      +.++++|.|-.+|.+||++++-
+T Consensus        28 ~l~I~vn~AK~lL~~fy~~~k~   49 (350)
+T 7LXD_G           28 HLKIGPSMAKKLMFDYYKQTTN   49 (350)
+T ss_pred             HcCCCHHHHHHHHHHHHHHcCC
+Confidence            4578899999999999998763
+
+
+No 9
+>5ZXL_B Glycerol dehydrogenase (E.C.1.1.1.6); Dehydrogenase, Glycerol, Catalytic, OXIDOREDUCTASE; HET: GOL, SO4; 2.794A {Escherichia coli (strain K12)}
+Probab=20.80  E-value=1.7e+02  Score=20.24  Aligned_cols=47  Identities=11%  Similarity=-0.009  Sum_probs=29.2  Template_Neff=9.900
+
+Q ss_pred             CCCceccChhhHHHHHHHHHHh-cchhhhcCCCcccHHHHHHHHHHHH
+Q tr|A0A1W2PNZ6|    2 APMKINVNVNSAAGLLDQFYEK-QRLLIISAPDPSNRYYKMQISMLQA   48 (62)
+Q Consensus         2 apmkinvnvnsaaglldqfyek-qrlliisapdpsnryykmqismlqa   48 (62)
+                      -|.+|.+..++...+.+.+-+. .|.+||+.+.-.+.+.+--+..|+.
+T Consensus         7 ~p~~i~~g~~~~~~l~~~l~~~g~r~lii~d~~~~~~~~~~l~~~l~~   54 (367)
+T 5ZXL_B            7 SPGKYIQGADVINRLGEYLKPLAERWLVVGDKFVLGFAQSTVEKSFKD   54 (367)
+T ss_dssp             CCSEEEEETTGGGGHHHHHTTTCSEEEEEECHHHHHHHHHHHHHHHHH
+T ss_pred             CCceEEecccHHHHHHHHhHhhCCeEEEEeCHHHHHHHHHHHHHHHHH
+Confidence            3667777766666655544432 6888888776655555545555554
+
+
+No 10
+>6TNY_C DNA polymerase delta catalytic subunit; Protein, REPLICATION; HET: TTP, DOC; 3.08A {Homo sapiens}
+Probab=20.03  E-value=1.6e+02  Score=23.95  Aligned_cols=20  Identities=35%  Similarity=0.627  Sum_probs=17.7  Template_Neff=6.300
+
+Q ss_pred             eccChhhHHHHHHHHHHhcc
+Q tr|A0A1W2PNZ6|    6 INVNVNSAAGLLDQFYEKQR   25 (62)
+Q Consensus         6 invnvnsaaglldqfyekqr   25 (62)
+                      .+|.||.|-.+|..||+++|
+T Consensus        38 l~ihvn~AK~~L~~f~e~~r   57 (474)
+T 6TNY_C           38 LGVHVNQAKQMLYDYVERKR   57 (474)
+T ss_dssp             TTCCHHHHHHHHHHHHHHHH
+T ss_pred             hCCCHHHHHHHHHHHHHHHh
+Confidence            46889999999999999875
+
+

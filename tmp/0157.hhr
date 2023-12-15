@@ -1,0 +1,398 @@
+Query         tr|A0A1B0GTJ3|A0A1B0GTJ3_HUMAN
+Match_columns 96
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:01:57 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0157.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6COY_A Chloride channel protei  99.9 1.7E-23 1.9E-28  175.9   2.7   94    2-95    473-568 (988)
+  2 6QVC_A Chloride channel protei  99.9 1.7E-23 1.9E-28  175.9   2.7   94    2-95    473-568 (988)
+  3 5TQQ_B Chloride channel protei  99.6 3.7E-16   4E-21  118.5   2.7   95    2-96    390-486 (671)
+  4 5TR1_B Chloride channel protei  99.6 3.7E-16   4E-21  118.5   2.7   95    2-96    390-486 (671)
+  5 7JM7_C Osteopetrosis-associate  99.5 1.5E-14 1.6E-19  115.4   1.0   88    2-96    503-593 (805)
+  6 7CQ5_D Osteopetrosis-associate  99.4 3.3E-14 3.6E-19  115.2   1.0   87    2-95    523-612 (825)
+  7 3ORG_A CmCLC; CLC, transporter  98.5   1E-07 1.1E-12   72.8   3.1   85    2-95    334-420 (632)
+  8 4ENE_A H(+)/Cl(-) exchange tra  98.3 7.9E-07 8.6E-12   66.9   2.0   86    2-95    331-419 (446)
+  9 3ND0_B Sll0855 protein; CLC fa  98.2   1E-06 1.1E-11   66.4   1.9   86    2-95    338-426 (466)
+ 10 3Q17_A Sll0855 protein; CLC Cl  98.2   1E-06 1.1E-11   66.4   1.9   86    2-95    338-426 (466)
+ 11 2R9H_A CLC, antiporter, transp  98.2 1.4E-06 1.5E-11   65.5   2.3   86    2-95    330-418 (444)
+ 12 7CVT_B CLC, Chloride, Dimer in  98.1   2E-06 2.2E-11   65.4   1.8   86    2-95    346-434 (473)
+ 13 6D0K_B CLC-type fluoride/proto  97.8 2.1E-05 2.3E-10   59.1   1.5   78    2-95    311-391 (421)
+ 14 6D0J_B CLC-type fluoride/proto  97.7 2.4E-05 2.6E-10   58.7   1.5   78    2-95    311-391 (421)
+ 15 6IDF_E Nicastrin, Presenilin-1  34.3      86 0.00093   23.1   2.5    6   32-37     49-54  (129)
+
+No 1
+>6COY_A Chloride channel protein 1; chloride, channel, CLC, TRANSPORT PROTEIN; 3.36A {Homo sapiens}
+Probab=99.88  E-value=1.7e-23  Score=175.86  Aligned_cols=94  Identities=77%  Similarity=1.238  Sum_probs=83.5  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccccceeeeeeecccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQ   79 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavthtvstavivfeltgq   79 (96)
+                      ++++.+++||.|+|.+++  ++|+++++++..++|+++.+++......|+.|+++|++++++++++++.++++++|++++
+T Consensus       473 la~~~g~pgG~F~P~l~iGa~~G~l~g~~~~~~~p~~~~~~~~~~~i~pg~yavvGaaAl~gav~~t~stavIv~ElTg~  552 (988)
+T 6COY_A          473 VATTMPIPCGGFMPVFVLGAAFGRLVGEIMAMLFPDGILFDDIIYKILPGGYAVIGAAALTGAVSHTVSTAVICFELTGQ  552 (988)
+T ss_dssp             HHTTSSSBCCSHHHHHHHHHHHHHHHHHHHTTTCTTCEEETTEEECCCTHHHHHHHHHHHHHHHHTCSTHHHHHHHHHCB
+T ss_pred             HHHhCCCCCcchHHHHHHHHHHHHHHHHHHHHHCCCCcccccchhhccchHHHHHHHHHHHHHHHHHHHHHHHHhhccCC
+Confidence            468899999999999999  999999999988888766555555567899999999999999999998888899999999
+
+
+Q ss_pred             hHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   80 IAHILPVMIAVILANA   95 (96)
+Q Consensus        80 iahilpvmiavilana   95 (96)
+                      +.+++|++++++++++
+T Consensus       553 ~~~ilPvmiaviiA~~  568 (988)
+T 6COY_A          553 IAHILPMMVAVILANM  568 (988)
+T ss_dssp             CTTHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHH
+Confidence            9999999999999875
+
+
+No 2
+>6QVC_A Chloride channel protein 1; chloride channel, CLC1, CLCN1, MEMBRANE; 4.0A {Homo sapiens}
+Probab=99.88  E-value=1.7e-23  Score=175.86  Aligned_cols=94  Identities=77%  Similarity=1.238  Sum_probs=83.4  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccccceeeeeeecccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQ   79 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavthtvstavivfeltgq   79 (96)
+                      ++++.+++||.|+|.+++  ++|+++++++..++|+++.+++......|+.|+++|++++++++++++.++++++|++++
+T Consensus       473 la~~~g~pgG~F~P~l~iGa~~G~l~g~~~~~~~p~~~~~~~~~~~i~pg~yavvGaaAl~gav~~t~stavIv~ElTg~  552 (988)
+T 6QVC_A          473 VATTMPIPCGGFMPVFVLGAAFGRLVGEIMAMLFPDGILFDDIIYKILPGGYAVIGAAALTGAVSHTVSTAVICFELTGQ  552 (988)
+T ss_dssp             HHHHSSSCCCSSHHHHHHHHHHHHHHHHHHHHHCCSCEEETTEEECCCTHHHHHHHHHHHHHHHHTCSHHHHHHHHHHSC
+T ss_pred             HHHhCCCCCcchHHHHHHHHHHHHHHHHHHHHHCCCCcccccchhhccchHHHHHHHHHHHHHHHHHHHHHHHHhhccCC
+Confidence            456789999999999999  999999999998888766555555567899999999999999999998888899999999
+
+
+Q ss_pred             hHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   80 IAHILPVMIAVILANA   95 (96)
+Q Consensus        80 iahilpvmiavilana   95 (96)
+                      +.+++|++++++++++
+T Consensus       553 ~~~ilPvmiaviiA~~  568 (988)
+T 6QVC_A          553 IAHILPMMVAVILANM  568 (988)
+T ss_dssp             CTTHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHH
+Confidence            9999999999999875
+
+
+No 3
+>5TQQ_B Chloride channel protein, Monoclonal antibody; CLC, chloride channel, membrane, kidney; 3.76A {Bos taurus}
+Probab=99.61  E-value=3.7e-16  Score=118.46  Aligned_cols=95  Identities=60%  Similarity=1.039  Sum_probs=80.9  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccccceeeeeeecccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQ   79 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavthtvstavivfeltgq   79 (96)
+                      ++++++.|||.|.|++++  ++|++++++++..+|..+...+..+..+|..|+++|+++++++++++++++++++|++++
+T Consensus       390 ~~~~~~~pgG~f~P~l~iGa~~G~~~g~~~~~~~~~~~~~~~~~~~~~~~~~al~g~aa~~~~~~~~~s~~vi~~Eltg~  469 (671)
+T 5TQQ_B          390 LATTIPMPAGYFMPIFIFGAAIGRLLGEALSVAFPEGIVAGGVTNPIMPGGYALAGAAAFSGAVTHSISTALLAFELTGQ  469 (671)
+T ss_pred             HHhcCCCCCcchHHHHHHHHHHHHHHHHHHHHHCCCccccCCCCCCCCHHHHHHHHHHHHHHHHHhhHhHHHHHHHhcCc
+Confidence            578889999999999999  999999999887666544333334457899999999999999999988888899999999
+
+
+Q ss_pred             hHhHHHHHHHHHHHhCC
+Q tr|A0A1B0GTJ3|   80 IAHILPVMIAVILANAV   96 (96)
+Q Consensus        80 iahilpvmiavilanav   96 (96)
+                      +.+++|+++++.+++.+
+T Consensus       470 ~~~ilP~~~~~~~~~~v  486 (671)
+T 5TQQ_B          470 IVHALPVLMAVLAANAI  486 (671)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            99999999998887653
+
+
+No 4
+>5TR1_B Chloride channel protein, Monoclonal antibody; CLC, chloride channel, membrane, kidney; HET: Y01;{Mus musculus}
+Probab=99.61  E-value=3.7e-16  Score=118.46  Aligned_cols=95  Identities=60%  Similarity=1.039  Sum_probs=80.9  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccccceeeeeeecccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQ   79 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavthtvstavivfeltgq   79 (96)
+                      ++++++.|||.|.|++++  ++|++++++++..+|..+...+..+..+|..|+++|+++++++++++++++++++|++++
+T Consensus       390 ~~~~~~~pgG~f~P~l~iGa~~G~~~g~~~~~~~~~~~~~~~~~~~~~~~~~al~g~aa~~~~~~~~~s~~vi~~Eltg~  469 (671)
+T 5TR1_B          390 LATTIPMPAGYFMPIFIFGAAIGRLLGEALSVAFPEGIVAGGVTNPIMPGGYALAGAAAFSGAVTHSISTALLAFELTGQ  469 (671)
+T ss_pred             HHhcCCCCCcchHHHHHHHHHHHHHHHHHHHHHCCCccccCCCCCCCCHHHHHHHHHHHHHHHHHhhHhHHHHHHHhcCc
+Confidence            578889999999999999  999999999887666544333334457899999999999999999988888899999999
+
+
+Q ss_pred             hHhHHHHHHHHHHHhCC
+Q tr|A0A1B0GTJ3|   80 IAHILPVMIAVILANAV   96 (96)
+Q Consensus        80 iahilpvmiavilanav   96 (96)
+                      +.+++|+++++.+++.+
+T Consensus       470 ~~~ilP~~~~~~~~~~v  486 (671)
+T 5TR1_B          470 IVHALPVLMAVLAANAI  486 (671)
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            99999999998887653
+
+
+No 5
+>7JM7_C Osteopetrosis-associated transmembrane protein 1, H(+)/Cl(-); Lysosomal, chloride-proton antiporter, chloride transport; HET: NAG, BMA, ATP, MAN, 0J1;{Homo sapiens}
+Probab=99.48  E-value=1.5e-14  Score=115.42  Aligned_cols=88  Identities=34%  Similarity=0.570  Sum_probs=74.4  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhcc-ccceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTH-TVSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavth-tvstavivfeltg   78 (96)
+                      +++++|.|||.|.|++++  ++|++++.++..+++..       ...+|..|+++|++++++++.+ +++.+++++|+++
+T Consensus       503 ~t~g~g~~gG~f~P~l~iGA~~G~~~g~~~~~~~~~~-------~~~~p~~~al~G~aA~lag~~r~pls~~vi~~E~Tg  575 (805)
+T 7JM7_C          503 WTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAA-------IWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATS  575 (805)
+T ss_pred             HHHhchhhcccHHHHHHHHHHHHHHHHHHHHHHhCcc-------ccCChHHHHHHHHHHHHHHHhhHhHHHHHHHHHccC
+Confidence            478999999999999999  99999999887654421       1246889999999998776665 6888899999999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhCC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANAV   96 (96)
+Q Consensus        79 qiahilpvmiavilanav   96 (96)
+                      ++.+.+|+++++++++++
+T Consensus       576 ~~~~~lP~ml~~~~a~~v  593 (805)
+T 7JM7_C          576 NVTYGFPIMLVLMTAKIV  593 (805)
+T ss_pred             chhhHHHHHHHHHHHHHH
+Confidence            999999999999998764
+
+
+No 6
+>7CQ5_D Osteopetrosis-associated transmembrane protein 1, H(+)/Cl(-); Complex, Chloride channel, lysosome, MEMBRANE; HET: ATP, NAG; 2.6A {Homo sapiens}
+Probab=99.45  E-value=3.3e-14  Score=115.18  Aligned_cols=87  Identities=33%  Similarity=0.563  Sum_probs=74.1  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhcc-ccceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTH-TVSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavth-tvstavivfeltg   78 (96)
+                      ++++.+.|||.|.|++++  ++|++++.++...++..       ...+|+.|+++|++++++++.+ +++.+++++|+++
+T Consensus       523 ~t~g~g~~gGif~Psl~iGA~~G~l~g~~~~~~~~~~-------~~~~p~~~al~G~aA~l~g~~r~pls~~vi~~E~Tg  595 (825)
+T 7CQ5_D          523 WTYGLTVSAGVFIPSLLIGAAWGRLFGISLSYLTGAA-------IWADPGKYALMGAAAQLGGIVRMTLSLTVIMMEATS  595 (825)
+T ss_dssp             HSSSSSSCCBSHHHHHHHHHHHHHHHHHHHHHHTCSC-------GGGCHHHHHHHHHHHHHHHHSCCCHHHHHHHHHHTT
+T ss_pred             HHHhchhhcchHHHHHHHHHHHHHHHHHHHHHHhccc-------ccCChHHHHHHHHHHHHHHHhhhhHHHHHHHHHhcC
+Confidence            478999999999999999  99999999998775432       1246888999999998777665 5777889999999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++.+.+|++++++++++
+T Consensus       596 ~~~~~lP~mla~~~a~~  612 (825)
+T 7CQ5_D          596 NVTYGFPIMLVLMTAKI  612 (825)
+T ss_dssp             CGGGHHHHHHHHHHHHH
+T ss_pred             cchhHHHHHHHHHHHHH
+Confidence            99999999999998874
+
+
+No 7
+>3ORG_A CmCLC; CLC, transporter, TRANSPORT PROTEIN; 3.5A {Cyanidioschyzon merolae}
+Probab=98.55  E-value=1e-07  Score=72.75  Aligned_cols=85  Identities=55%  Similarity=0.956  Sum_probs=72.1  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccccceeeeeeecccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQ   79 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavthtvstavivfeltgq   79 (96)
+                      ++.++|.+||.|.|++++  ++|+.+++++...+++.         .++..+++++++++.++..+++++++++.|++++
+T Consensus       334 ~~~~~g~~GG~f~P~l~~Ga~~G~~~~~~~~~~~~~~---------~~~~~~~~~g~aa~~~~~~~~~~~~~~~~e~~~~  404 (632)
+T 3ORG_A          334 LSIGLPLPAGVFVPSFLIGAGFGRLYGELMRVVFGNA---------IVPGSYAVVGAAAFTAGVTRALSCAVIIFEVTGQ  404 (632)
+T ss_dssp             HHTTSSSBCBCHHHHHHHHHHHHHHHHHHHHHHHCTT---------SCHHHHHHHHHHHHHHHHSCCTTHHHHHHHHTCC
+T ss_pred             HHhcCCCCccchHHHHHHHHHHHHHHHHHHHHHhcCC---------CChhHHHHHHHHHHHHHhhHHhhHHHHHHhccCC
+Confidence            468899999999999999  99999999988655421         3577899999999988888887777889999999
+
+
+Q ss_pred             hHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   80 IAHILPVMIAVILANA   95 (96)
+Q Consensus        80 iahilpvmiavilana   95 (96)
+                      +....|+++++.+++.
+T Consensus       405 ~~~~~p~~~~~~~~~~  420 (632)
+T 3ORG_A          405 IRHLVPVLISVLLAVI  420 (632)
+T ss_dssp             CSCSHHHHHHHHHHHH
+T ss_pred             hHhHHHHHHHHHHHHH
+Confidence            8888999888877753
+
+
+No 8
+>4ENE_A H(+)/Cl(-) exchange transporter ClcA, heavy; membrane protein, coupled ion transporter; HET: DMU, GLC; 2.4A {Escherichia coli K-12}
+Probab=98.27  E-value=7.9e-07  Score=66.86  Aligned_cols=86  Identities=27%  Similarity=0.490  Sum_probs=70.6  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccc-cceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHT-VSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavtht-vstavivfeltg   78 (96)
+                      ++.+.|.+||.|.|.+++  ++|+.+++.++..+++.        ..++..++.+++++++++..+. ++.++++.|+++
+T Consensus       331 ~~~~~g~~GG~~~P~l~~Ga~~G~~~~~~~~~~~~~~--------~~~~~~~~~~g~aa~~~~~~~~Pl~~~~l~~e~~g  402 (446)
+T 4ENE_A          331 LCFSSGAPGGIFAPMLALGTVLGTAFGMVAVELFPQY--------HLEAGTFAIAGMGALLAASIRAPLTGIILVLEMTD  402 (446)
+T ss_dssp             HHHTTTCSSBSHHHHHHHHHHHHHHHHHHHHHHCGGG--------TCCHHHHHHHHHTHHCCCCCCCHHHHHHHHHHHHC
+T ss_pred             HHHhcCCCCccHHHHHHHHHHHHHHHHHHHHHHCccc--------CCChHHHHHHHHHHHHHHHhhHHHHHHHHHHHhcC
+Confidence            357889999999999999  99999999888765531        1356678899999988777775 666788999999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++....|+++++.+++.
+T Consensus       403 ~~~~~~p~~i~~~~a~~  419 (446)
+T 4ENE_A          403 NYQLILPMIITGLGATL  419 (446)
+T ss_dssp             CGGGHHHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHHHHHHH
+Confidence            99999999998888764
+
+
+No 9
+>3ND0_B Sll0855 protein; CLC family CL-/H+ antiporter, CLC_EC1; 3.2A {Synechocystis}
+Probab=98.23  E-value=1e-06  Score=66.41  Aligned_cols=86  Identities=21%  Similarity=0.363  Sum_probs=70.8  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhcc-ccceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTH-TVSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavth-tvstavivfeltg   78 (96)
+                      ++.++|++||.|.|.+++  +.|+.++++++..+++.        ..++..++.++++++.++..+ ++..++++.|+++
+T Consensus       338 ~~~~~g~~GG~~~P~~~iGa~~G~~~~~~~~~~~~~~--------~~~~~~~~~~g~aa~~~~~~~~pl~~~vl~~e~~~  409 (466)
+T 3ND0_B          338 ICYGSGAIGGIFAPMLGIASIVSVAMARHFHLLFPSQ--------IPEPAVMAIAGMGALVAATVRAPLTAILLTIEMTD  409 (466)
+T ss_dssp             HHHHTTCBCCSHHHHHHHHHHHHHHHHHHHHHHCTTT--------CSSTHHHHHHTTTHHHHHHHSCHHHHHHHHHHTTT
+T ss_pred             HHHhcCccchhHHHHHHHHHHHHHHHHHHHHHHCCCC--------CCCHHHHHHHHHHHHHHHHhhchHHHHHHHHHhcC
+Confidence            356789999999999999  99999999998876542        135778889999998777666 5777788899999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++...+|+++++.++++
+T Consensus       410 ~~~~~~p~~i~~~va~~  426 (466)
+T 3ND0_B          410 NYFVILPLLVTCLVASV  426 (466)
+T ss_dssp             CCTTHHHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHHHHHHH
+Confidence            98899999998888764
+
+
+No 10
+>3Q17_A Sll0855 protein; CLC Cl-/H+ exchange transporter, CLC; 3.6A {Synechocystis sp.}
+Probab=98.23  E-value=1e-06  Score=66.41  Aligned_cols=86  Identities=21%  Similarity=0.363  Sum_probs=71.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhcc-ccceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTH-TVSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavth-tvstavivfeltg   78 (96)
+                      ++.++|++||.|.|.+++  +.|+.++++++..+++.        ..++..++.++++++.++..+ ++..++++.|+++
+T Consensus       338 ~~~~~g~~GG~~~P~~~iGa~~G~~~~~~~~~~~~~~--------~~~~~~~~~~g~aa~~~~~~~~pl~~~vl~~e~~~  409 (466)
+T 3Q17_A          338 ICYGSGAIGGIFAPMLGIASIVSVAMARHFHLLFPSQ--------IPEPAVMAIAGMGALVAATVRAPLTAILLTIEMTD  409 (466)
+T ss_dssp             HHHTTTCBCCSTTHHHHHHHHHHHHHHHHHHHHCTTT--------CSCTTHHHHHTTSHHHHHHHSCCHHHHHHHHHHHC
+T ss_pred             HHHhcCccchhHHHHHHHHHHHHHHHHHHHHHHCCCC--------CCCHHHHHHHHHHHHHHHHhhchHHHHHHHHHhcC
+Confidence            456889999999999999  99999999998876542        135778889999998777665 5677788899999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++...+|+++++.++++
+T Consensus       410 ~~~~~~p~~i~~~va~~  426 (466)
+T 3Q17_A          410 NYFVILPLLVTCLVASV  426 (466)
+T ss_dssp             CCTTHHHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHHHHHHH
+Confidence            98899999998888764
+
+
+No 11
+>2R9H_A CLC, antiporter, transporter, exchanger, disulfide; 3.1A {Mus musculus}
+Probab=98.21  E-value=1.4e-06  Score=65.49  Aligned_cols=86  Identities=27%  Similarity=0.490  Sum_probs=70.9  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccc-cceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHT-VSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavtht-vstavivfeltg   78 (96)
+                      ++.+.|.+||.+.|.+++  +.|+.+++++...+++.        +.++..++.++++++.++..+. ++.++++.|+++
+T Consensus       330 ~~~~~g~~GG~~~P~l~~Ga~~G~~~~~~~~~~~~~~--------~~~~~~~~~~g~aa~~~~~~~~pl~~~ll~~e~~g  401 (444)
+T 2R9H_A          330 LCFSSGAPGGIFAPMLALGTVLGTAFGMVAVELFPQY--------HLEAGTFAIAGMGALLAASIRAPLTGIILVLEMTD  401 (444)
+T ss_dssp             HHHTTTCSSBSHHHHHHHHHHHHHHHHHHHHHHCGGG--------TCCHHHHHHHHHTTHHHHHSCCHHHHHHHHHHHHC
+T ss_pred             HHHhcCCCCccHHHHHHHHHHHHHHHHHHHHHHCccc--------cCChHHHHHHHHHHHHHHHhhhHHHHHHHHHHhcC
+Confidence            457889999999999999  99999999888766531        1356678899999987777765 677788999999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++...+|+++++.++++
+T Consensus       402 ~~~~~~p~~ia~~~a~~  418 (444)
+T 2R9H_A          402 NYQLILPMIITGLGATL  418 (444)
+T ss_dssp             CGGGHHHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHHHHHHH
+Confidence            99999999998888764
+
+
+No 12
+>7CVT_B CLC, Chloride, Dimer interface, TRANSPORT; 2.9A {Escherichia coli MS 198-1}
+Probab=98.14  E-value=2e-06  Score=65.45  Aligned_cols=86  Identities=27%  Similarity=0.490  Sum_probs=71.3  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccc-cceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHT-VSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavtht-vstavivfeltg   78 (96)
+                      ++.+.|.+||.|.|.+++  ++|+.+++.++..+|+.        ..++..+++++++++.++..+. ++.++++.|+++
+T Consensus       346 ~~~~~g~~GG~~~P~~~~Ga~~G~~~~~~~~~~~~~~--------~~~~~~~~~~g~aa~~~~~~~~Pl~~~~l~~e~~g  417 (473)
+T 7CVT_B          346 LCFSSGAPGGIFAPMLALGTVLGTAFGMVAVELFPQY--------HLEAGTFAIAGMGALLAASIRAPLTGIILVLEMTD  417 (473)
+T ss_dssp             HHHTTTCSSBSHHHHHHHHHHHHHHHHHHHHHHCGGG--------TCCHHHHHHHHHTHHCCCCCCCHHHHHHHHHHHHC
+T ss_pred             HHHhcCCCCccHHHHHHHHHHHHHHHHHHHHHHCCCc--------CCCHHHHHHHHHHHHHHHHhhHHHHHHHHHHHhcC
+Confidence            457889999999999999  99999999888765531        1356778999999988877765 666778899999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      ++...+|.++++.++++
+T Consensus       418 ~~~~~~p~~i~~~~s~~  434 (473)
+T 7CVT_B          418 NYQLILPMIITGLGATL  434 (473)
+T ss_dssp             CGGGHHHHHHHHHHHHH
+T ss_pred             ChhhHHHHHHHHHHHHH
+Confidence            99999999999888764
+
+
+No 13
+>6D0K_B CLC-type fluoride/proton antiporter, Monobody; fluoride/proton antiporter, CLC membrane protein; HET: MHA, DMU; 3.35A {Enterococcus casseliflavus (strain EC10)}
+Probab=97.76  E-value=2.1e-05  Score=59.13  Aligned_cols=78  Identities=22%  Similarity=0.248  Sum_probs=64.1  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhccc-cceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHT-VSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavtht-vstavivfeltg   78 (96)
+                      ++.++|.+||.+.|.+++  +.|+.+++.++               .++..++.++++++.++..+. ++.++++.|+++
+T Consensus       311 ~~~~~g~~GG~~~P~l~~Ga~~G~~~~~~~~---------------~~~~~~~~~g~aa~~~~~~~~Pl~~~~l~~e~~~  375 (421)
+T 6D0K_B          311 LTISSGFLGGEVTPLFAIGSSLGVVLAPLFG---------------LPIELVAALGYASVFGSATSTLFAPIFIGGEVFG  375 (421)
+T ss_dssp             HHHHTTCCSCSHHHHHHHHHHHHHHHHHHHT---------------CCHHHHHHHHHHHHHHHHHTCSHHHHHHHHHHHC
+T ss_pred             HHHhcCCCchhHHHHHHHHHHHHHHHHHHhC---------------CCHHHHHHHHHHHHHHHHhhccHHHHHHHHHHhC
+Confidence            356789999999999999  99999998775               135668899999988877765 677788999999
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      + ...+|+++++.++++
+T Consensus       376 ~-~~~~p~~~~~~~a~~  391 (421)
+T 6D0K_B          376 F-QNLPFFVIVCSVAYF  391 (421)
+T ss_dssp             G-GGHHHHHHHHHHHHH
+T ss_pred             c-chHHHHHHHHHHHHH
+Confidence            6 478899988888764
+
+
+No 14
+>6D0J_B CLC-type fluoride/proton antiporter, Monobody; fluoride/proton antiporter CLC membrane protein; HET: MHA, DMU; 3.0A {Enterococcus casseliflavus (strain EC10)}
+Probab=97.74  E-value=2.4e-05  Score=58.67  Aligned_cols=78  Identities=21%  Similarity=0.232  Sum_probs=63.9  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCcchhHHH--HhhhhhhHHHHHhCCCCccCCCCceeecCCchhhhhhHHHhhhhcc-ccceeeeeeeccc
+Q tr|A0A1B0GTJ3|    2 LATTIPVPCGAFMPVFVI--AFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTH-TVSTAVIVFELTG   78 (96)
+Q Consensus         2 lattipvpcgafmpvfvi--afgrlvgesmaawfpdgihtdsstyrivpggyavvgaaalagavth-tvstavivfeltg   78 (96)
+                      ++.+.|.+||.|.|++++  ++|+.+++.++               .++..++.++++++.++..+ |++.++++.|+++
+T Consensus       311 ~~~~~g~~GG~~~P~l~~Ga~~G~~~~~~~~---------------~~~~~~~~~g~aa~~~~~~~~Pl~~~~l~~e~~~  375 (421)
+T 6D0J_B          311 LTISSGFLGGEVTPLFAIGSSLGVVLAPLFG---------------LPIELVAALGYASVFGSATSTLFAPIFIGGEVFG  375 (421)
+T ss_dssp             HHHHTTCCSCSHHHHHHHHHHHHHHHHHHHT---------------CCHHHHHHHHHHHHHHHHHTCSHHHHHHHHHHHC
+T ss_pred             HHHHcCCCchhHHHHHHHHHHHHHHHHHHhC---------------CCHHHHHHHHHHHHHHHHhhccHHHHHHHHHHhC
+Confidence            356789999999999999  99999998775               14567889999998777776 4677788999998
+
+
+Q ss_pred             chHhHHHHHHHHHHHhC
+Q tr|A0A1B0GTJ3|   79 QIAHILPVMIAVILANA   95 (96)
+Q Consensus        79 qiahilpvmiavilana   95 (96)
+                      + ...+|+++++.++++
+T Consensus       376 ~-~~~~p~~i~~~~a~~  391 (421)
+T 6D0J_B          376 F-QNLPFFVIVCSVAYF  391 (421)
+T ss_dssp             G-GGHHHHHHHHHHHHH
+T ss_pred             c-CcHHHHHHHHHHHHH
+Confidence            6 578899998888764
+
+
+No 15
+>6IDF_E Nicastrin, Presenilin-1 (E.C.3.4.23.-), Gamma-secretase subunit; complex, MEMBRANE PROTEIN; HET: PC1, BMA, NAG, CLR;{Homo sapiens}
+Probab=34.31  E-value=86  Score=23.07  Aligned_cols=6  Identities=67%  Similarity=2.167  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             hCCCCc
+Q tr|A0A1B0GTJ3|   32 WFPDGI   37 (96)
+Q Consensus        32 wfpdgi   37 (96)
+                      +||++|
+T Consensus        49 WFPEGF   54 (129)
+T 6IDF_E           49 WFPEGF   54 (129)
+T ss_dssp             ------
+T ss_pred             ecCCCC
+Confidence            344443
+
+

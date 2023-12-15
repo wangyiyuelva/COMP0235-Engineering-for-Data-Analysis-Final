@@ -1,0 +1,269 @@
+Query         sp|O43674|NDUB5_HUMAN
+Match_columns 189
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:38:57 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0840.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZKE_W NADH dehydrogenase [ubi 100.0 1.7E-57 1.8E-62  362.3   7.6  187    1-189     1-189 (189)
+  2 6ZKQ_W NADH dehydrogenase [ubi 100.0 1.7E-57 1.8E-62  362.3   7.6  187    1-189     1-189 (189)
+  3 7V2H_a Respiratory, Complex, E 100.0 3.4E-47 3.7E-52  290.3   5.6  138   52-189     1-138 (138)
+  4 7V2D_a Respiratory, Complex, E 100.0 1.2E-45 1.2E-50  282.5   5.9  139   51-189     2-140 (140)
+  5 5LC5_h NADH-ubiquinone oxidore 100.0 4.7E-37 5.1E-42  251.1   3.3  130    1-130     1-130 (186)
+  6 5LDW_h NADH-ubiquinone oxidore  99.9 4.1E-28 4.5E-33  192.0   1.7   86   53-138     1-86  (134)
+  7 5LDX_h NADH-ubiquinone oxidore  99.9 4.1E-28 4.5E-33  192.0   1.7   86   53-138     1-86  (134)
+  8 6MJ1_A Probable HTH-type trans  40.9      34 0.00037   22.9   1.3   47   85-131   156-204 (207)
+  9 5XJR_2 Gem-associated protein   31.5 1.5E+02  0.0017   23.5   3.7    9   72-80    175-183 (241)
+ 10 5XJU_2 Gem-associated protein   31.5 1.5E+02  0.0017   23.5   3.7    9   72-80    175-183 (241)
+ 11 2WSS_U ATP SYNTHASE SUBUNIT AL  28.7      45 0.00049   25.1   0.4   38   96-136    39-76  (118)
+
+No 1
+>6ZKE_W NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, DCQ, MYR, NDP, AMP, FMN, ZMP, 2MR, AYA, CDL, SEP, FME, NAI; 2.6A {Ovis aries}
+Probab=100.00  E-value=1.7e-57  Score=362.28  Aligned_cols=187  Identities=79%  Similarity=1.315  Sum_probs=179.1  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCCccc--cccccccCCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCcceeeCCCccCChhHHHHHHHHHHHH
+Q sp|O43674|NDUB    1 MAAMSLLRRVS--VTAVAALSGRPLGTRLGFGGFLTRGFPKAAAPVRHSGDHGKRLFVIRPSRFYDRRFLKLLRFYIALT   78 (189)
+Q Consensus         1 maamsllrrvs--vtavaalsgrplgtrlgfggfltrgfpkaaapvrhsgdhgkrlfvirpsrfydrrflkllrfyialt   78 (189)
+                      ||+||+||+++  +.++++++  +++++++.+++|+++.+++++++|+||||++|+|.|+||+|+|++|||++|||+++|
+T Consensus         1 M~~~S~lr~~~~~~~~~~~~~--~l~~~l~~~~~l~~~~~~~~~~~R~~~~h~~r~~~i~ps~~~~~~fkd~~hFY~~lg   78 (189)
+T 6ZKE_W            1 MAAMSLLHRASVSAVVALSGR--RLGTRLGFGGFLTRDFPKTVAPVRHSGDHGKRLFIIKPSGFYDKRFLKLLRFYILLT   78 (189)
+T ss_pred             CccccchhhHHHHHHHHHhhc--ccccCccccccccCCCCCCccceEecCccccceEEEecchhchHHHHHHHHHHHHhh
+Confidence            99999999983  46777776  688888888999999999888999997788899999999999999999999999999
+
+
+Q ss_pred             CccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHcccheeeeeeee
+Q sp|O43674|NDUB   79 GIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVKELEVRK  158 (189)
+Q Consensus        79 gipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspekiyertmavlqieaekaelrvkelevrk  158 (189)
+                      +||++++++|+|||+|||||+||||||+|++|||||||||||||||++++||++|||.|++++++++|++++++|++|++
+T Consensus        79 ~IP~~~ii~y~NifiGpAeL~eIPEgY~P~~wEY~khPItRf~aky~~~~pq~~YEk~l~~~~~e~ek~~~r~~e~~Vk~  158 (189)
+T 6ZKE_W           79 GIPVVIGITLINVFIGEAELAEIPEGYVPEHWEYFKHPISRWIARTFFDAPEKNYERTMAILQIESEKAELRLKELEVRR  158 (189)
+T ss_pred             hccHHHHHhHhhhhhcchhhccCCCCCCCCcccccCCChHHHHHhhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eEEEcCCCCeEEEEEcChhhccCCCCCCCCC
+Q sp|O43674|NDUB  159 LMHVRGDGPWYYYETIDKELIDHSPKATPDN  189 (189)
+Q Consensus       159 lmhvrgdgpwyyyetidkelidhspkatpdn  189 (189)
+                      +|++|+||+|||||++++.++++++|+|||+
+T Consensus       159 lm~~r~D~~~yy~p~~~~~~i~~~~~~~~d~  189 (189)
+T 6ZKE_W          159 LMRAKGDGPWFQYPTIDKALIDHSPKATPDN  189 (189)
+T ss_pred             HHHHhCCCCCcccCCCCHHHhccCccCCCCC
+Confidence            9999999999999999999999999999996
+
+
+No 2
+>6ZKQ_W NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, MYR, NDP, AMP, FMN, ZMP, 2MR, AYA, CDL, SEP, FME; 3.3A {Ovis aries}
+Probab=100.00  E-value=1.7e-57  Score=362.28  Aligned_cols=187  Identities=79%  Similarity=1.315  Sum_probs=179.1  Template_Neff=5.500
+
+Q ss_pred             CCCCCCCCccc--cccccccCCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCcceeeCCCccCChhHHHHHHHHHHHH
+Q sp|O43674|NDUB    1 MAAMSLLRRVS--VTAVAALSGRPLGTRLGFGGFLTRGFPKAAAPVRHSGDHGKRLFVIRPSRFYDRRFLKLLRFYIALT   78 (189)
+Q Consensus         1 maamsllrrvs--vtavaalsgrplgtrlgfggfltrgfpkaaapvrhsgdhgkrlfvirpsrfydrrflkllrfyialt   78 (189)
+                      ||+||+||+++  +.++++++  +++++++.+++|+++.+++++++|+||||++|+|.|+||+|+|++|||++|||+++|
+T Consensus         1 M~~~S~lr~~~~~~~~~~~~~--~l~~~l~~~~~l~~~~~~~~~~~R~~~~h~~r~~~i~ps~~~~~~fkd~~hFY~~lg   78 (189)
+T 6ZKQ_W            1 MAAMSLLHRASVSAVVALSGR--RLGTRLGFGGFLTRDFPKTVAPVRHSGDHGKRLFIIKPSGFYDKRFLKLLRFYILLT   78 (189)
+T ss_pred             CccccchhhHHHHHHHHHhhc--ccccCccccccccCCCCCCccceEecCccccceEEEecchhchHHHHHHHHHHHHhh
+Confidence            99999999983  46777776  688888888999999999888999997788899999999999999999999999999
+
+
+Q ss_pred             CccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHcccheeeeeeee
+Q sp|O43674|NDUB   79 GIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKIYERTMAVLQIEAEKAELRVKELEVRK  158 (189)
+Q Consensus        79 gipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspekiyertmavlqieaekaelrvkelevrk  158 (189)
+                      +||++++++|+|||+|||||+||||||+|++|||||||||||||||++++||++|||.|++++++++|++++++|++|++
+T Consensus        79 ~IP~~~ii~y~NifiGpAeL~eIPEgY~P~~wEY~khPItRf~aky~~~~pq~~YEk~l~~~~~e~ek~~~r~~e~~Vk~  158 (189)
+T 6ZKQ_W           79 GIPVVIGITLINVFIGEAELAEIPEGYVPEHWEYFKHPISRWIARTFFDAPEKNYERTMAILQIESEKAELRLKELEVRR  158 (189)
+T ss_pred             hccHHHHHhHhhhhhcchhhccCCCCCCCCcccccCCChHHHHHhhcCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eEEEcCCCCeEEEEEcChhhccCCCCCCCCC
+Q sp|O43674|NDUB  159 LMHVRGDGPWYYYETIDKELIDHSPKATPDN  189 (189)
+Q Consensus       159 lmhvrgdgpwyyyetidkelidhspkatpdn  189 (189)
+                      +|++|+||+|||||++++.++++++|+|||+
+T Consensus       159 lm~~r~D~~~yy~p~~~~~~i~~~~~~~~d~  189 (189)
+T 6ZKQ_W          159 LMRAKGDGPWFQYPTIDKALIDHSPKATPDN  189 (189)
+T ss_pred             HHHHhCCCCCcccCCCCHHHhccCccCCCCC
+Confidence            9999999999999999999999999999996
+
+
+No 3
+>7V2H_a Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=100.00  E-value=3.4e-47  Score=290.35  Aligned_cols=138  Identities=84%  Similarity=1.409  Sum_probs=136.1  Template_Neff=5.700
+
+Q ss_pred             CcceeeCCCccCChhHHHHHHHHHHHHCccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHH
+Q sp|O43674|NDUB   52 KRLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEK  131 (189)
+Q Consensus        52 krlfvirpsrfydrrflkllrfyialtgipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspek  131 (189)
+                      +|+|.|+||+|+|++|||++|||++||+||++++++|+|||+|||||+||||||+|++|||||||||||+|||++++||+
+T Consensus         1 ~r~~~i~ps~~~~~~fkd~~hFY~~lg~iP~~~ii~y~nifiGpaeL~eiPEgY~P~~wEY~rhPItRf~aky~~~~pq~   80 (138)
+T 7V2H_a            1 KRLFIIKPSGFYDRRFLKLMRFYILLTGIPVAIGITLVNVFIGEAELADIPEGYVPEHWEYFKHPISRWIARTFYDGPEK   80 (138)
+T ss_pred             CCcccccCcchhHHHHHHHHHHHHHhhhhhHHHHHHHHhhhhcccccccCCCCCCCCcccccCCchHHHHHhhcCCCHHH
+Confidence            37899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHcccheeeeeeeeeEEEcCCCCeEEEEEcChhhccCCCCCCCCC
+Q sp|O43674|NDUB  132 IYERTMAVLQIEAEKAELRVKELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN  189 (189)
+Q Consensus       132 iyertmavlqieaekaelrvkelevrklmhvrgdgpwyyyetidkelidhspkatpdn  189 (189)
+                      +|||.|+++++++++++++++|++|+++|++++||+|||+|+++++++++++|+|||+
+T Consensus        81 ~YEk~l~~~~~e~ek~~~r~~e~~v~~lm~~r~D~~~yy~p~~~~~~i~~~~k~~~d~  138 (138)
+T 7V2H_a           81 NYEKTMAILQIEAEKAELRLKELEVRRLMRARGDGPWYQYPTIDKALIDHSPKTTPDN  138 (138)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCccCCCCCHHHhccCCCCCCCC
+Confidence            9999999999999999999999999999999999999999999999999999999996
+
+
+No 4
+>7V2D_a Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, PLX; 3.3A {Sus scrofa}
+Probab=100.00  E-value=1.2e-45  Score=282.51  Aligned_cols=139  Identities=84%  Similarity=1.414  Sum_probs=136.9  Template_Neff=5.700
+
+Q ss_pred             CCcceeeCCCccCChhHHHHHHHHHHHHCccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHH
+Q sp|O43674|NDUB   51 GKRLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPE  130 (189)
+Q Consensus        51 gkrlfvirpsrfydrrflkllrfyialtgipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspe  130 (189)
+                      |+|+|.|+||+|+|++|||++|||+++|+||++++++|+|||+|||||+||||||+|++|||+|||||||+|||++++||
+T Consensus         2 ~~r~~~i~ps~~~~~~~kD~~hFY~~lg~iP~~~~i~y~nifiGpaeL~eiPEgY~P~~wEY~khPItRf~aky~~~~~q   81 (140)
+T 7V2D_a            2 GKRLFIIKPSGFYDRRFLKLMRFYILLTGIPVAIGITLVNVFIGEAELADIPEGYVPEHWEYFKHPISRWIARTFYDGPE   81 (140)
+T ss_pred             CCcceeecCchhhhHHHHHHHHHHHHhhhhhHHHHHHHHhhhhcccccccCCCCCCCCcccccCCchHHHHHcccCCCHH
+Confidence            45899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHcccheeeeeeeeeEEEcCCCCeEEEEEcChhhccCCCCCCCCC
+Q sp|O43674|NDUB  131 KIYERTMAVLQIEAEKAELRVKELEVRKLMHVRGDGPWYYYETIDKELIDHSPKATPDN  189 (189)
+Q Consensus       131 kiyertmavlqieaekaelrvkelevrklmhvrgdgpwyyyetidkelidhspkatpdn  189 (189)
+                      ++|||.|+++++++++++++++|++|+++|++|+||+|||+|+++++++++++|+|||+
+T Consensus        82 ~~YEk~l~~~~~~~~k~~~~~~e~~Vk~lm~~r~D~~~yy~p~~~~~~i~~~~~~~~d~  140 (140)
+T 7V2D_a           82 KNYEKTMAILQIEAEKAELRLKELEVRRLMRARGDGPWYQYPTIDKALIDHSPKTTPDN  140 (140)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCccCCCCCHHHhccCCCCCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999996
+
+
+No 5
+>5LC5_h NADH-ubiquinone oxidoreductase chain 3 (E.C.1.6.5.3); NADH:ubiquinone oxidoreductase, multienzyme complexes, Complex; HET: NAP, FMN, SF4; 4.35A {Bos taurus}
+Probab=100.00  E-value=4.7e-37  Score=251.08  Aligned_cols=130  Identities=59%  Similarity=0.916  Sum_probs=111.2  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCccccccccccCCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCcceeeCCCccCChhHHHHHHHHHHHHCc
+Q sp|O43674|NDUB    1 MAAMSLLRRVSVTAVAALSGRPLGTRLGFGGFLTRGFPKAAAPVRHSGDHGKRLFVIRPSRFYDRRFLKLLRFYIALTGI   80 (189)
+Q Consensus         1 maamsllrrvsvtavaalsgrplgtrlgfggfltrgfpkaaapvrhsgdhgkrlfvirpsrfydrrflkllrfyialtgi   80 (189)
+                      ||+||+||++.+....+|+...++++++..++|++..+++.+++|++|||++|+|+|+||+|+|++|||++|||+++|+|
+T Consensus         1 Ma~MSlLR~~~a~~~~~L~~~~l~~~ls~~~lL~r~~~~~~~~vR~~s~hgkr~f~irPSr~~~~rfkD~lhFY~~Lg~I   80 (186)
+T 5LC5_h            1 MAAMSLLHRASVSAVAALSGRRLGTRLGFGGFLTRDFPKTVAPVRHSGDHGKRLFIIKPSGFYDKRFLKLLRFYILLTGI   80 (186)
+T ss_pred             CccccchhHHHHHHHHHhhCCCCcCCCCcCccccCCCCCCccceeeCCccccccEEecCchhhHHHHHHHHHHHHHhhcC
+Confidence            89999999983333333431133444555678889988877899998777889999999999999999999999999999
+
+
+Q ss_pred             cHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHH
+Q sp|O43674|NDUB   81 PVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPE  130 (189)
+Q Consensus        81 pvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspe  130 (189)
+                      |++++++|+|||+|||||+||||||+|+|||||||||.+|+||.......
+T Consensus        81 P~~lii~yvNIFiGpAELaEIPEGYePe~WEY~rhPi~~~~~~~~~~~~~  130 (186)
+T 5LC5_h           81 PVAIGITLINVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  130 (186)
+T ss_pred             ChhHhHHhhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            99999999999999999999999999999999999999999998765443
+
+
+No 6
+>5LDW_h NADH-ubiquinone oxidoreductase chain 3 (E.C.1.6.5.3); NADH:ubiquinone oxidoreductase, multienzyme complexes, Complex; HET: NAP, FMN, SF4; 4.27A {Bos taurus}
+Probab=99.94  E-value=4.1e-28  Score=191.96  Aligned_cols=86  Identities=37%  Similarity=0.603  Sum_probs=81.4  Template_Neff=3.200
+
+Q ss_pred             cceeeCCCccCChhHHHHHHHHHHHHCccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHHH
+Q sp|O43674|NDUB   53 RLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKI  132 (189)
+Q Consensus        53 rlfvirpsrfydrrflkllrfyialtgipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspeki  132 (189)
+                      |+|+|+||+|+|++|||++|||+++|+||++++++|+|||+|||||+||||||+|++|||||||||||+|||++.|+.|.
+T Consensus         1 R~f~IrPS~~~w~kfKD~lHFY~~LG~IP~~lii~yvNIFiGpAELaEIPEGYeP~~WEYyKHPITRF~AKy~~~sdie~   80 (134)
+T 5LDW_h            1 RLFIIKPSGFYDKRFLKLLRFYILLTGIPVAIGITLINVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   80 (134)
+T ss_pred             CCccccCchHHHHhHHHHHHHHHHcccCchHHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            57999999999999999999999999999999999999999999999999999999999999999999999999999887
+
+
+Q ss_pred             HHHHHH
+Q sp|O43674|NDUB  133 YERTMA  138 (189)
+Q Consensus       133 yertma  138 (189)
+                      ......
+T Consensus        81 ~~~~~~   86 (134)
+T 5LDW_h           81 XXXXXX   86 (134)
+T ss_pred             CCCCCC
+Confidence            655443
+
+
+No 7
+>5LDX_h NADH-ubiquinone oxidoreductase chain 3 (E.C.1.6.5.3); NADH:ubiquinone oxidoreductase, multienzyme complexes, Complex; HET: NAP, FMN, SF4; 5.6A {Bos taurus}
+Probab=99.94  E-value=4.1e-28  Score=191.96  Aligned_cols=86  Identities=37%  Similarity=0.603  Sum_probs=81.4  Template_Neff=3.200
+
+Q ss_pred             cceeeCCCccCChhHHHHHHHHHHHHCccHHHHHHHHHHhcCccchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHHH
+Q sp|O43674|NDUB   53 RLFVIRPSRFYDRRFLKLLRFYIALTGIPVAIFITLVNVFIGQAELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKI  132 (189)
+Q Consensus        53 rlfvirpsrfydrrflkllrfyialtgipvaifitlvnvfigqaelaeipegyvpehweyykhpisrwiarnfydspeki  132 (189)
+                      |+|+|+||+|+|++|||++|||+++|+||++++++|+|||+|||||+||||||+|++|||||||||||+|||++.|+.|.
+T Consensus         1 R~f~IrPS~~~w~kfKD~lHFY~~LG~IP~~lii~yvNIFiGpAELaEIPEGYeP~~WEYyKHPITRF~AKy~~~sdie~   80 (134)
+T 5LDX_h            1 RLFIIKPSGFYDKRFLKLLRFYILLTGIPVAIGITLINVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   80 (134)
+T ss_pred             CCccccCchHHHHhHHHHHHHHHHcccCchHHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Confidence            57999999999999999999999999999999999999999999999999999999999999999999999999999887
+
+
+Q ss_pred             HHHHHH
+Q sp|O43674|NDUB  133 YERTMA  138 (189)
+Q Consensus       133 yertma  138 (189)
+                      ......
+T Consensus        81 ~~~~~~   86 (134)
+T 5LDX_h           81 XXXXXX   86 (134)
+T ss_pred             CCCCCC
+Confidence            655443
+
+
+No 8
+>6MJ1_A Probable HTH-type transcriptional regulator YttP; TetR family, cell division, FtsZ; 2.6A {Bacillus subtilis (strain 168)}
+Probab=40.93  E-value=34  Score=22.95  Aligned_cols=47  Identities=17%  Similarity=0.264  Sum_probs=31.7  Template_Neff=12.300
+
+Q ss_pred             HHHHHHHhcCccchcCC--CCCCCCcchhhcCChHHHHHHHHcCCCHHH
+Q sp|O43674|NDUB   85 FITLVNVFIGQAELAEI--PEGYVPEHWEYYKHPISRWIARNFYDSPEK  131 (189)
+Q Consensus        85 fitlvnvfigqaelaei--pegyvpehweyykhpisrwiarnfydspek  131 (189)
+                      +..+.+.|+++..+.++  .+--.+..++=+..-+.+|+...+..++++
+T Consensus       156 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~~~~~  204 (207)
+T 6MJ1_A          156 KSLLMMPYLQPQYISEVLYMQPHEPYFYKMYFEEIKIWIRSVFRTGDVA  204 (207)
+T ss_dssp             HHHHHGGGTCHHHHHHHHHSCSCCCCCHHHHHHHHHHHHHHTEEC----
+T ss_pred             HHHHhhhhcCHHHHHhhhcCCCCCHHHHHHHHHHHHHHHHHHhcccccc
+Confidence            33444556666666663  455577888999999999999999888875
+
+
+No 9
+>5XJR_2 Gem-associated protein 2, Small nuclear; splicing; 3.12A {Homo sapiens}
+Probab=31.50  E-value=1.5e+02  Score=23.46  Aligned_cols=9  Identities=22%  Similarity=0.431  Sum_probs=4.9  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHCc
+Q sp|O43674|NDUB   72 RFYIALTGI   80 (189)
+Q Consensus        72 rfyialtgi   80 (189)
+                      ..|.+|..+
+T Consensus       175 WlfaLL~~l  183 (241)
+T 5XJR_2          175 WLYALLACL  183 (241)
+T ss_dssp             HHHHHHHHC
+T ss_pred             HHHHHHHHc
+Confidence            345555555
+
+
+No 10
+>5XJU_2 Gem-associated protein 2, Small nuclear; splicing; 2.58A {Homo sapiens}
+Probab=31.50  E-value=1.5e+02  Score=23.46  Aligned_cols=9  Identities=22%  Similarity=0.431  Sum_probs=4.8  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHCc
+Q sp|O43674|NDUB   72 RFYIALTGI   80 (189)
+Q Consensus        72 rfyialtgi   80 (189)
+                      ..|.+|..+
+T Consensus       175 WlfaLL~~l  183 (241)
+T 5XJU_2          175 WLYALLACL  183 (241)
+T ss_dssp             HHHHHHHHC
+T ss_pred             HHHHHHHHc
+Confidence            345555555
+
+
+No 11
+>2WSS_U ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; HYDROGEN ION TRANSPORT, ATP SYNTHESIS; HET: ADP, MG, ANP, MSE; 3.2A {BOS TAURUS}
+Probab=28.70  E-value=45  Score=25.12  Aligned_cols=38  Identities=29%  Similarity=0.552  Sum_probs=8.1  Template_Neff=7.500
+
+Q ss_pred             cchcCCCCCCCCcchhhcCChHHHHHHHHcCCCHHHHHHHH
+Q sp|O43674|NDUB   96 AELAEIPEGYVPEHWEYYKHPISRWIARNFYDSPEKIYERT  136 (189)
+Q Consensus        96 aelaeipegyvpehweyykhpisrwiarnfydspekiyert  136 (189)
+                      +.+...||...|=.|+|||.=|.-   .-+.+..++.|+..
+T Consensus        39 ~~~~~~p~~~~~IDw~~Yk~~i~~---~~lVd~~ek~y~sl   76 (118)
+T 2WSS_U           39 SRLATLPEKPPAIDWAYYKANVAK---AGLVDDFEKKFNAL   76 (118)
+T ss_dssp             CC---------------------------CTTTTSSSCC--
+T ss_pred             HHHhcCCCCCCCCCHHHHhhhccc---ccchhHHHHHHHhC
+Confidence            566778999999999999988875   55667777776653
+
+

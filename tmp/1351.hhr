@@ -1,0 +1,1716 @@
+Query         tr|A0A8V8TMZ5|A0A8V8TMZ5_HUMAN
+Match_columns 485
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:55:24 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1351.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6N3Q_A Protein transport prote 100.0 5.9E-67 6.4E-72  490.7  45.5  471    1-481     2-473 (480)
+  2 7KAH_A Protein transport prote 100.0 5.9E-67 6.4E-72  490.7  45.5  471    1-481     2-473 (480)
+  3 2WWB_A PROTEIN TRANSPORT PROTE 100.0 1.2E-66 1.3E-71  486.9  45.5  476    1-485     1-476 (476)
+  4 3J7Q_1 PROTEIN/RNA Complex; ma 100.0 1.2E-66 1.3E-71  486.9  45.5  476    1-485     1-476 (476)
+  5 7KAM_A Protein transport chann 100.0 6.2E-60 6.7E-65  442.4  46.6  465    2-477     3-468 (480)
+  6 3MP7_A Preprotein translocase  100.0 2.5E-60 2.8E-65  446.2  39.6  446    3-478     1-458 (482)
+  7 2WW9_A SEC SIXTY-ONE PROTEIN H 100.0 2.9E-58 3.2E-63  433.2  43.8  464    1-480     2-477 (490)
+  8 2WWA_A SEC SIXTY-ONE PROTEIN H 100.0 2.9E-58 3.2E-63  433.2  43.8  463    2-480     3-477 (490)
+  9 6FTJ_x Uncharacterized protein 100.0 1.6E-54 1.7E-59  397.7  44.1  426    5-474     1-426 (426)
+ 10 3BO1_A 23S RIBOSOMAL RNA/RNA C 100.0 5.1E-54 5.6E-59  396.0  41.7  422    7-478     1-435 (442)
+ 11 1RH5_A Protein translocation,  100.0 7.9E-53 8.6E-58  387.6  42.0  423    7-479     2-427 (436)
+ 12 3J7R_1 PROTEIN/RNA Complex; ma 100.0 1.5E-50 1.6E-55  370.2  45.8  393   25-475     1-393 (393)
+ 13 5EUL_Y SecA, SecY, SecE, AYC08 100.0   3E-38 3.3E-43  286.6  31.2  383   19-478     5-418 (424)
+ 14 6ITC_Y Protein translocase sub 100.0   3E-38 3.3E-43  286.6  31.2  382   19-477     5-417 (424)
+ 15 5AWW_Y Protein translocase sub 100.0 1.6E-36 1.8E-41  279.2  32.0  381   20-477     6-422 (444)
+ 16 3DIN_C Protein translocase sub 100.0 1.3E-36 1.4E-41  279.6  30.8  378   17-478     3-417 (431)
+ 17 2ZQP_Y TRANSLOCON, SEC, PROTEI 100.0 9.5E-35   1E-39  266.1  32.4  384   19-478     5-423 (434)
+ 18 5GAE_g 50S ribosomal protein L 100.0 5.8E-33 6.3E-38  255.1  32.2  393   14-479     5-429 (443)
+ 19 4V6M_BA PROTEIN/RNA Complex; R 100.0 4.2E-29 4.5E-34  229.3  35.4  388   18-478     2-421 (435)
+ 20 3DL8_H SecA, SecG, SecY, SecE; 100.0 9.9E-29 1.1E-33  226.5  30.7  384   18-478     4-422 (429)
+ 21 2AKH_B Protein-export membrane 100.0 2.3E-28 2.5E-33  222.4  32.0  364   16-478     7-392 (400)
+ 22 2AKI_Y Protein-export membrane 100.0 2.3E-28 2.5E-33  222.4  32.0  364   16-478     7-392 (400)
+
+No 1
+>6N3Q_A Protein transport protein SEC61, Protein; Sec61, Sec63, Sec71, Sec72, Sec66; 3.68A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=100.00  E-value=5.9e-67  Score=490.65  Aligned_cols=471  Identities=55%  Similarity=0.984  Sum_probs=360.1  Template_Neff=8.000
+
+Q ss_pred             CCCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcC
+Q tr|A0A8V8TMZ5|    1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (485)
+Q Consensus         1 maikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelg   80 (485)
+                      +++|++|.++|+.+.+|+++++++++++++|+++|++++++|++|++||+||+|.+...+.+.+++...+.++.|+++||
+T Consensus         2 ~~~~~~~~~~~~~~~~p~~~~~~~~~~l~~ri~~Tl~~l~i~~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~slfsLG   81 (480)
+T 6N3Q_A            2 SSNRVLDLFKPFESFLPEVIAPERKVPYNQKLIWTGVSLLIFLILGQIPLYGIVSSETSDPLYWLRAMLASNRGTLLELG   81 (480)
+T ss_dssp             --------CCCCCCCSCCBCCCSSCCCHHHHHHHHHHHHHHHHHHHSSCCSSCCCC---------------CCSSTTSST
+T ss_pred             CcchHHHHHHHHHhhcccCCCcccCCCHHHHHHHHHHHHHHHHHHhcCCCCCCChhhccChHHHHHHHhhhcCCCHHHhc
+Confidence            47899999999999999999999999999999999999999999999999999987665555555555567899999999
+
+
+Q ss_pred             CChHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   81 ISPIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAG  159 (485)
+Q Consensus        81 ispivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvag  159 (485)
+                      ++||++|++++|+++..++++++ ++++||+++++++|++++++|++||+.++...+++...+.++...+.+++++++|+
+T Consensus        82 I~P~ita~ii~qll~~~~~~~~~~~~~~~r~~l~~~~~~l~l~ia~iqa~~~~~~~~~~~~~~~~~~~~~~~il~L~aG~  161 (480)
+T 6N3Q_A           82 VSPIITSSMIFQFLQGTQLLQIRPESKQDRELFQIAQKVCAIILILGQALVVVMTGNYGAPSDLGLPICLLLIFQLMFAS  161 (480)
+T ss_dssp             THHHHHHHHHHHHHHHHTCSCCCSSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTCCC----CHHHHHHHHHHHHHH
+T ss_pred             chhhHHHHHHHHHHHHHHHhhcCcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCCHHHHHHHHHHHHHHH
+Confidence            99999999999999999888888 68999999999999999999999999999876555333344456778889999999
+
+
+Q ss_pred             HHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCCh
+Q tr|A0A8V8TMZ5|  160 LIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNL  239 (485)
+Q Consensus       160 livllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnl  239 (485)
+                      ++++|++|+++|+||+|||.+++|+++++.+++++++++...+.+++.++.|.++++++.+.+++++.+++++++++..+
+T Consensus       162 ~iliwL~~~i~k~~GiG~G~sliIl~~i~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~  241 (480)
+T 6N3Q_A          162 LIVMLLDELLSKGYGLGSGISLFTATNIAEQIFWRAFAPTTVNSGRGKEFEGAVIAFFHLLAVRKDKKRALVEAFYRTNL  241 (480)
+T ss_dssp             HHHHHHHHHHHTTSSSSCHHHHHHHHHHHHHHHHHHHCCCEEECSSCEEESSHHHHHHHHHHSSSSHHHHHHHHHSCSSS
+T ss_pred             HHHHHHHHHHHccCCCcchHHHHHHHHHHHHHHHHHhCcccccCCCCcccccHHHHHHHHHhcCcchHHHHHHHHHhcch
+Confidence            99999999999559999999999999999999999988765333333334466777788877888899999999888776
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A8V8TMZ5|  240 PNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSA  319 (485)
+Q Consensus       240 pnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsa  319 (485)
+                      +.+..++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++.+|+++.+++.+
+T Consensus       242 ~~~~~~~~~~~~~~~~v~~---------~~~~~~ipl~~~~~~~~~~~lPIkln~~G~mPi~~a~sll~lp~~i~~~l~~  312 (480)
+T 6N3Q_A          242 PNMFQVLMTVAIFLFVLYL---------QGFRYELPIRSTKVRGQIGIYPIKLFYTSNTPIMLQSALTSNIFLISQILFQ  312 (480)
+T ss_dssp             CCHHHHHHHHHHHHHHHHH---------TCCCCCEEEEETTTTTCEEEECCCSSSSTTCHHHHHHHHHHHHHHHHHHC--
+T ss_pred             hhHHHHHHHHHHHHHHHHH---------HcccccCeeeeeecCCceeeeeceeecccCCcHHHHHHHHHHHHHHHHHHHh
+Confidence            5566677888888999999         9999999999999999899999999999999999999999999999998877
+
+
+Q ss_pred             hccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHH
+Q tr|A0A8V8TMZ5|  320 RFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDV  399 (485)
+Q Consensus       320 rfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdv  399 (485)
+                      .++++.+.+++++|.+++ ++++++++++++.+|++|++++.+.+.+|.+.++|.++++++|++|+++|.++++.||+|+
+T Consensus       313 ~~~~~~~~~~l~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~li~~l~~~fs~~~~~~~~~~p~~i  391 (480)
+T 6N3Q_A          313 KYPTNPLIRLIGVWGIRP-GTQGPQMALSGLAYYIQPLMSLSEALLDPIKTIVYITFVLGSCAVFSKTWIEISGTSPRDI  391 (480)
+T ss_dssp             ------------------------------------------------CHHHHHHHHHHHHHHHHHHHHHHHHTCCHHHH
+T ss_pred             hCCCChhHhhhhhhhcCC-CCCCCceecchhHHHhcCCCCHHHHhhCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHH
+Confidence            676666666667775432 4567889999999999988766555678999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccccccCc
+Q tr|A0A8V8TMZ5|  400 AKQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGS  479 (485)
+Q Consensus       400 akqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsevgs  479 (485)
+                      +|+++|+|++++|+|||++++|++|++++++++|++++++++++|++++..++|++++++|++++|++|++++|++++++
+T Consensus       392 a~~l~~~g~~i~g~rpg~t~~~L~~~i~~~~~~g~l~l~~l~~~p~~~~~~~~g~sili~v~i~~~~~~~i~~~~~~~~~  471 (480)
+T 6N3Q_A          392 AKQFKDQGMVINGKRETSIYRELKKIIPTAAAFGGATIGALSVGSDLLGTLGSGASILMATTTIYGYYEAAAKEGGFTKN  471 (480)
+T ss_dssp             HHHHHHHTEEETTSCSTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSSCHHHHHHHHHHHHHHHHHHHHHCCC---
+T ss_pred             HHHHHHcCCccCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHhcCcccc
+Confidence            99999999999999999977999999999999999999999999999998889999999999999999999999999887
+
+
+Q ss_pred             hh
+Q tr|A0A8V8TMZ5|  480 MG  481 (485)
+Q Consensus       480 mg  481 (485)
+                      -+
+T Consensus       472 ~~  473 (480)
+T 6N3Q_A          472 LV  473 (480)
+T ss_dssp             --
+T ss_pred             cc
+Confidence            43
+
+
+No 2
+>7KAH_A Protein transport protein SEC61, Protein; Sec61, translocon, endoplasmic reticulum, protein;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=100.00  E-value=5.9e-67  Score=490.65  Aligned_cols=471  Identities=55%  Similarity=0.984  Sum_probs=398.6  Template_Neff=8.000
+
+Q ss_pred             CCCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcC
+Q tr|A0A8V8TMZ5|    1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (485)
+Q Consensus         1 maikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelg   80 (485)
+                      +++|++|.++|+.+.+|+++++++++++++|+++|++++++|++|++||+||+|.+...+.+.+++...+.++.|+++||
+T Consensus         2 ~~~~~~~~~~~~~~~~p~~~~~~~~~~l~~ri~~Tl~~l~i~~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~slfsLG   81 (480)
+T 7KAH_A            2 SSNRVLDLFKPFESFLPEVIAPERKVPYNQKLIWTGVSLLIFLILGQIPLYGIVSSETSDPLYWLRAMLASNRGTLLELG   81 (480)
+T ss_dssp             ----------CCCCCCCCBCCCSSCCCHHHHHHHHHHHHHHHHHHTTSBCSSCC-----CCCHHHHHHTTCCTTBTTSST
+T ss_pred             CcchHHHHHHHHHhhcccCCCcccCCCHHHHHHHHHHHHHHHHHHhcCCCCCCChhhccChHHHHHHHhhhcCCCHHHhc
+Confidence            47899999999999999999999999999999999999999999999999999987665556666666667899999999
+
+
+Q ss_pred             CChHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   81 ISPIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAG  159 (485)
+Q Consensus        81 ispivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvag  159 (485)
+                      ++||++|++++|+++..++++++ ++++||+++++++|++++++|++||+.++...+++...+.++...+.+++++++|+
+T Consensus        82 I~P~ita~ii~qll~~~~~~~~~~~~~~~r~~l~~~~~~l~l~ia~iqa~~~~~~~~~~~~~~~~~~~~~~~il~L~aG~  161 (480)
+T 7KAH_A           82 VSPIITSSMIFQFLQGTQLLQIRPESKQDRELFQIAQKVCAIILILGQALVVVMTGNYGAPSDLGLPICLLLIFQLMFAS  161 (480)
+T ss_dssp             THHHHHHHHHHHHHHHTTSSCCCTTCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTCCC----CHHHHHHHHHHHHHH
+T ss_pred             chhhHHHHHHHHHHHHHHHhhcCcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCCHHHHHHHHHHHHHHH
+Confidence            99999999999999999888888 68999999999999999999999999999876555333344456778889999999
+
+
+Q ss_pred             HHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCCh
+Q tr|A0A8V8TMZ5|  160 LIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNL  239 (485)
+Q Consensus       160 livllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnl  239 (485)
+                      ++++|++|+++|+||+|||.+++|+++++.+++++++++...+.+++.++.|.++++++.+.+++++.+++++++++..+
+T Consensus       162 ~iliwL~~~i~k~~GiG~G~sliIl~~i~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~  241 (480)
+T 7KAH_A          162 LIVMLLDELLSKGYGLGSGISLFTATNIAEQIFWRAFAPTTVNSGRGKEFEGAVIAFFHLLAVRKDKKRALVEAFYRTNL  241 (480)
+T ss_dssp             HHHHHHHHHCCCCCSSSCSHHHHHHHHHHHHHHHTTSCCCEEESSSCEEESSHHHHHHHHHHHSCCHHHHHHHHHHCSSS
+T ss_pred             HHHHHHHHHHHccCCCcchHHHHHHHHHHHHHHHHHhCcccccCCCCcccccHHHHHHHHHhcCcchHHHHHHHHHhcch
+Confidence            99999999999559999999999999999999999988765333333334466777777777778888899999988776
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A8V8TMZ5|  240 PNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSA  319 (485)
+Q Consensus       240 pnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsa  319 (485)
+                      +.+..++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++.+|+++.+++.+
+T Consensus       242 ~~~~~~~~~~~~~~~~v~~---------~~~~~~ipl~~~~~~~~~~~lPIkln~~G~mPi~~a~sll~lp~~i~~~l~~  312 (480)
+T 7KAH_A          242 PNMFQVLMTVAIFLFVLYL---------QGFRYELPIRSTKVRGQIGIYPIKLFYTSNTPIMLQSALTSNIFLISQILFQ  312 (480)
+T ss_dssp             CCHHHHHHHHHHHHHHHHT---------TSCEEEEEEEESSSSSCEEEEEEESSTTTHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHH---------HcccccCeeeeeecCCceeeeeceeecccCCcHHHHHHHHHHHHHHHHHHHh
+Confidence            5566677888888999999         9999999999999999999999999999999999999999999999999888
+
+
+Q ss_pred             hccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHH
+Q tr|A0A8V8TMZ5|  320 RFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDV  399 (485)
+Q Consensus       320 rfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdv  399 (485)
+                      .++++.+.+++++|.+++ ++++++++++++.+|++|++++.+.+.+|.+.++|.++++++|++|+++|.++++.||+|+
+T Consensus       313 ~~~~~~~~~~l~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~li~~l~~~fs~~~~~~~~~~p~~i  391 (480)
+T 7KAH_A          313 KYPTNPLIRLIGVWGIRP-GTQGPQMALSGLAYYIQPLMSLSEALLDPIKTIVYITFVLGSCAVFSKTWIEISGTSPRDI  391 (480)
+T ss_dssp             HCSCCHHHHHHCCEEC--------CEECSSHHHHHSCCCSHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHTTCSHHHH
+T ss_pred             hCCCChhHhhhhhhhcCC-CCCCCceecchhHHHhcCCCCHHHHhhCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHH
+Confidence            888787777788886433 4567889999999999988776666789999999999999999999999999989999999
+
+
+Q ss_pred             HHHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccccccCc
+Q tr|A0A8V8TMZ5|  400 AKQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGS  479 (485)
+Q Consensus       400 akqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsevgs  479 (485)
+                      +|+++|+|++++|+|||++++|++|++++++++|++++++++++|++++..++|++++++|++++|++|++++|++++++
+T Consensus       392 a~~l~~~g~~i~g~rpg~t~~~L~~~i~~~~~~g~l~l~~l~~~p~~~~~~~~g~sili~v~i~~~~~~~i~~~~~~~~~  471 (480)
+T 7KAH_A          392 AKQFKDQGMVINGKRETSIYRELKKIIPTAAAFGGATIGALSVGSDLLGTLGSGASILMATTTIYGYYEAAAKEGGFTKN  471 (480)
+T ss_dssp             HHHHHHHTEEETTSCSTTHHHHHTTTHHHHHHHHHHHHHHHHHHHHHHTCSSCHHHHHHHHHHHHHHHHHHHHHCCC---
+T ss_pred             HHHHHHcCCccCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHhcCcccc
+Confidence            99999999999999999977999999999999999999999999999998889999999999999999999999999887
+
+
+Q ss_pred             hh
+Q tr|A0A8V8TMZ5|  480 MG  481 (485)
+Q Consensus       480 mg  481 (485)
+                      -+
+T Consensus       472 ~~  473 (480)
+T 7KAH_A          472 LV  473 (480)
+T ss_dssp             --
+T ss_pred             cc
+Confidence            43
+
+
+No 3
+>2WWB_A PROTEIN TRANSPORT PROTEIN SEC61 SUBUNIT; RIBOSOME, PROTEIN EXIT TUNNEL, COTRANSLATIONAL; 6.48A {CANIS LUPUS FAMILIARIS}
+Probab=100.00  E-value=1.2e-66  Score=486.93  Aligned_cols=476  Identities=100%  Similarity=1.500  Sum_probs=416.1  Template_Neff=8.100
+
+Q ss_pred             CCCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcC
+Q tr|A0A8V8TMZ5|    1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (485)
+Q Consensus         1 maikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelg   80 (485)
+                      |++||+|++||+++++|++++++++++++||+++|++++++|++|++||+||+|.+...+.++.++..++.++.|+++||
+T Consensus         1 ~~~~~~~~~~~~~~~~p~~~~~~~~~~l~~ri~~tl~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~sifsLG   80 (476)
+T 2WWB_A            1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (476)
+T ss_dssp             CCSCCCCCCHHHHHHSCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHSCCCSSSTTTCSCCCHHHHHHHCSSCSSSCSSS
+T ss_pred             CcchHHHHHHHHHhhcccCCCcccCCCHHHHHHHHHHHHHHHHHHhcCCcCCCChhcCCCHHHHHHHHHHhcCCCHHHhc
+Confidence            89999999999999999999999999999999999999999999999999999987665556666666667899999999
+
+
+Q ss_pred             CChHHHHHHHHHHHHhcchhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   81 ISPIVTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGL  160 (485)
+Q Consensus        81 ispivtsglimqllagakiievgdtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvagl  160 (485)
+                      ++||++|++++|+++..++++++++++||+++++++|++++++|++||++++...+++...+.++...+.+++++++|++
+T Consensus        81 i~P~i~a~ii~qll~~~~l~~l~~~~~~r~~~~~~~~~ltl~la~iqa~~~~~~~~~~~~~~~~~~~~~~~~l~L~~G~~  160 (476)
+T 2WWB_A           81 ISPIVTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGL  160 (476)
+T ss_dssp             STHHHHHHHHHHHHHHHCCCSCCSSSSCSSCHHHHHHHHHHHHHHHHHHHHHHHTSSCCSSCSCHHHHHHHHHHHHHHHH
+T ss_pred             cHHHHHHHHHHHHHhhchhhhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCccCcHHHHHHHHHHHHHHHH
+Confidence            99999999999999999877777778899999999999999999999999998866553322344566778899999999
+
+
+Q ss_pred             HHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChH
+Q tr|A0A8V8TMZ5|  161 IVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLP  240 (485)
+Q Consensus       161 ivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlp  240 (485)
+                      +++|++|+++|+||+|||.+++|+++++.+++++++++...+.+++.|+.|.++++++.+.+++++.+++++++++.+++
+T Consensus       161 ~l~wl~~~i~~~~GiGnG~sliI~~~i~~~l~~~l~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  240 (476)
+T 2WWB_A          161 IVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLP  240 (476)
+T ss_dssp             HHHHHHHHHHTTTCSSCSHHHHHHHHHHHHHHHHHTCCSSCSCCCSCCTTTTCCCHHHHHHHTCTTSSSSSSCSSSSSHH
+T ss_pred             HHHHHHHHHHcCCCCcchHHHHHHHHHHHHHHHHhcCcccccCCCCcchhhHHHHHHHHHhcCchhHHHHHHHHHhcchh
+Confidence            99999999996699999999999999999999999888765554445554544444444432222211111122234444
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  241 NLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  320 (485)
+Q Consensus       241 nlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsar  320 (485)
+                      .+..++++++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++++|+++.+++...
+T Consensus       241 ~~~~~~~~~~~~~~~v~~---------~~~~~~Ipi~~~~~~~~~~~lPikln~~G~mPiifa~~ll~lp~~i~~~l~~~  311 (476)
+T 2WWB_A          241 NLMNLIATIFVFAVVIYF---------QGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  311 (476)
+T ss_dssp             HHHHHHHHHHHHHHHHHH---------HHCCBCCCCCBCSSSSBCSCCCBCTTTSSHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHH---------cCCeeEceeeccccCCCceeceeeeeecCCCcHHHHHHHHHHHHHHHHHHHhh
+Confidence            556678888899999999         99999999999999998999999999999999999999999999999999888
+
+
+Q ss_pred             ccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHH
+Q tr|A0A8V8TMZ5|  321 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  400 (485)
+Q Consensus       321 fsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdva  400 (485)
+                      ++++.+.+.+++|.++|++++++++|++++.+++++++++.+.+.++.+.++|.++++++|++|+++|++.+|+||+|++
+T Consensus       312 ~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia  391 (476)
+T 2WWB_A          312 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCHYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  391 (476)
+T ss_dssp             TSCCSCHHHHCSSSTTCSCTTSSSCCSSSHHHHTSCCSSSSSCCCSSHHHHHHHHHHHHHHHHHHHHHTTTSSCCHHHHH
+T ss_pred             cCCcchhhHhhhhcccCCCCCcceeeccceehhcCCCccHhhhhhCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHH
+Confidence            88777677888998888899999999999999999887654446789999999999999999999999888889999999
+
+
+Q ss_pred             HHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccccccCch
+Q tr|A0A8V8TMZ5|  401 KQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGSM  480 (485)
+Q Consensus       401 kqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsevgsm  480 (485)
+                      |+++|+|++|+|+|||+++||++|++++++++|++++++++++|++++..++|++++++|++++|++||++.|+++||+|
+T Consensus       392 ~~l~k~g~~I~girpg~~t~~L~~~i~~~~~~g~l~l~~la~lp~~~~~~~~gtslli~v~i~~~~~~~i~~e~~~~~~~  471 (476)
+T 2WWB_A          392 KQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGSM  471 (476)
+T ss_dssp             HHHHHHCTTTCCCCTTTTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCSSCHHHHHHHHHHHHHHHHHHHHHHTCCSSC
+T ss_pred             HHHHHCCCccCCcCCChhHHHHHhhHhHHHHHHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHHhhhhCCc
+Confidence            99999999999999999779999999999999999999999999999988999999999999999999999999999999
+
+
+Q ss_pred             hhhhc
+Q tr|A0A8V8TMZ5|  481 GALLF  485 (485)
+Q Consensus       481 gallf  485 (485)
+                      ||++|
+T Consensus       472 ~~~~~  476 (476)
+T 2WWB_A          472 GALLF  476 (476)
+T ss_dssp             CCSCC
+T ss_pred             ccccC
+Confidence            99986
+
+
+No 4
+>3J7Q_1 PROTEIN/RNA Complex; mammalian, Sec61, translocation, translation, RIBOSOME; HET: MG; 3.5A {Sus scrofa}
+Probab=100.00  E-value=1.2e-66  Score=486.93  Aligned_cols=476  Identities=100%  Similarity=1.500  Sum_probs=420.1  Template_Neff=8.100
+
+Q ss_pred             CCCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcC
+Q tr|A0A8V8TMZ5|    1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (485)
+Q Consensus         1 maikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelg   80 (485)
+                      |++||+|++||+++++|++++++++++++||+++|++++++|++|++||+||+|.+...+.++.++..++.++.|+++||
+T Consensus         1 ~~~~~~~~~~~~~~~~p~~~~~~~~~~l~~ri~~tl~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~sifsLG   80 (476)
+T 3J7Q_1            1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELG   80 (476)
+T ss_pred             CcchHHHHHHHHHhhcccCCCcccCCCHHHHHHHHHHHHHHHHHHhcCCcCCCChhcCCCHHHHHHHHHHhcCCCHHHhc
+Confidence            79999999999999999999999999999999999999999999999999999987655455555555567889999999
+
+
+Q ss_pred             CChHHHHHHHHHHHHhcchhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   81 ISPIVTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGL  160 (485)
+Q Consensus        81 ispivtsglimqllagakiievgdtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvagl  160 (485)
+                      ++||++|++++|+++..++++++++++||+++++++|++++++|++||++++...+++...+.++...+.+++++++|++
+T Consensus        81 i~P~i~a~ii~qll~~~~l~~l~~~~~~r~~~~~~~~~ltl~la~iqa~~~~~~~~~~~~~~~~~~~~~~~~l~L~~G~~  160 (476)
+T 3J7Q_1           81 ISPIVTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGL  160 (476)
+T ss_pred             cHHHHHHHHHHHHHhhchhhhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCccCcHHHHHHHHHHHHHHHH
+Confidence            99999999999999999877777778999999999999999999999999987765543323344556678899999999
+
+
+Q ss_pred             HHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChH
+Q tr|A0A8V8TMZ5|  161 IVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLP  240 (485)
+Q Consensus       161 ivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlp  240 (485)
+                      +++|++|+++|+||+|||.+++|+++++.+++++++++...+.+++.|+.|.++++++.+.+++++.+++++++++.+++
+T Consensus       161 ~l~wl~~~i~~~~GiGnG~sliI~~~i~~~l~~~l~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  240 (476)
+T 3J7Q_1          161 IVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLP  240 (476)
+T ss_pred             HHHHHHHHHHcCCCCcchHHHHHHHHHHHHHHHHhcCcccccCCCCcchhhHHHHHHHHHhcCchhHHHHHHHHHhcchh
+Confidence            99999999996599999999999999999999998887665555556777777676666554444555555555555544
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  241 NLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  320 (485)
+Q Consensus       241 nlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsar  320 (485)
+                      .+..++++++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++++|+++.+++...
+T Consensus       241 ~~~~~~~~~~~~~~~v~~---------~~~~~~Ipi~~~~~~~~~~~lPikln~~G~mPiifa~~ll~lp~~i~~~l~~~  311 (476)
+T 3J7Q_1          241 NLMNLIATIFVFAVVIYF---------QGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  311 (476)
+T ss_pred             hHHHHHHHHHHHHHHHHH---------cCCeeEceeeccccCCCceeceeeeeecCCCcHHHHHHHHHHHHHHHHHHHhh
+Confidence            455578888889999999         99999999999999988999999999999999999999999999999998877
+
+
+Q ss_pred             ccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHH
+Q tr|A0A8V8TMZ5|  321 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  400 (485)
+Q Consensus       321 fsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdva  400 (485)
+                      ++++.+.+.+++|.++|++++++++|++++.+++++++++.+.+.++.+.++|.++++++|++|+++|++.+|+||+|++
+T Consensus       312 ~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia  391 (476)
+T 3J7Q_1          312 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCHYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  391 (476)
+T ss_pred             cCCcchhhHhhhhcccCCCCCcceeeccceehhcCCCccHhhhhhCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHH
+Confidence            77666666778888778888999999999999999887665556789999999999999999999999888889999999
+
+
+Q ss_pred             HHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccccccCch
+Q tr|A0A8V8TMZ5|  401 KQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGSM  480 (485)
+Q Consensus       401 kqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsevgsm  480 (485)
+                      |+++|+|++|+|+|||+++||++|++++++++|++++++++++|++++..++|++++++|++++|++||++.|+++||+|
+T Consensus       392 ~~l~k~g~~I~girpg~~t~~L~~~i~~~~~~g~l~l~~la~lp~~~~~~~~gtslli~v~i~~~~~~~i~~e~~~~~~~  471 (476)
+T 3J7Q_1          392 KQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGSM  471 (476)
+T ss_pred             HHHHHCCCccCCcCCChhHHHHHhhHhHHHHHHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHHhhhhCCc
+Confidence            99999999999999999779999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhc
+Q tr|A0A8V8TMZ5|  481 GALLF  485 (485)
+Q Consensus       481 gallf  485 (485)
+                      ||++|
+T Consensus       472 ~~~~~  476 (476)
+T 3J7Q_1          472 GALLF  476 (476)
+T ss_pred             ccccC
+Confidence            99986
+
+
+No 5
+>7KAM_A Protein transport channel Sec61 complex; Sec61, translocon, endoplasmic reticulum, protein;{Thermomyces lanuginosus}
+Probab=100.00  E-value=6.2e-60  Score=442.38  Aligned_cols=465  Identities=67%  Similarity=1.136  Sum_probs=395.6  Template_Neff=8.100
+
+Q ss_pred             CCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCC
+Q tr|A0A8V8TMZ5|    2 AIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGI   81 (485)
+Q Consensus         2 aikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgi   81 (485)
+                      ++||+|++||+.+++|++++++++++++||+.+|++++++|++|++||+||+|.+...+.++.++..++.++.|+++||+
+T Consensus         3 ~~~~~~~~~~~~~~~p~~~~~~~~~~l~~ri~~Tl~il~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~sl~sLGi   82 (480)
+T 7KAM_A            3 GLRFLDLIKPFTPLLPEVAAPETKVPFNQKLMWTGLTLLIFLVMSQMPLYGIVSSDTSDPLYWLRMMLASNRGTLMELGI   82 (480)
+T ss_dssp             ------CCSTTTTTSCEECCCSSCCCHHHHHHHHHHHHHHHHHHHTSBCSSCCCCSCCCTTTTTTTTSCCCSSBTTSSTT
+T ss_pred             CchHHHHHHHHHHhCccCCCCCCCCCHHHHHHHHHHHHHHHHHHhCCCCcCCCcccCCChHHHHHHHhhhccccHHHccc
+Confidence            68999999999999999999999999999999999999999999999999999876555444444444567899999999
+
+
+Q ss_pred             ChHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   82 SPIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGL  160 (485)
+Q Consensus        82 spivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvagl  160 (485)
+                      +||++|++++|+++..++++++ +++++|+++++++|++++++|++||++++...+++...+.++...+.+++++++|++
+T Consensus        83 ~P~i~a~ii~qll~~~~~~~~~~~~~~~r~~~~~~~~~l~l~la~iqa~~~~~~~~~~~~~~~~~~~~~~~i~~l~~Gs~  162 (480)
+T 7KAM_A           83 TPIISSGMVFQLLAGTHLIDVNLDLKTDRELYQTAQKLFAIILSFGQACVHVLTGLYGQPSDLGAGICVLLIVQLVVAGL  162 (480)
+T ss_dssp             HHHHHHHHHHHHHHHHTCSSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSSCHHHHCSSHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhccchhhcccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCcchHHHHHHHHHHHHHHHH
+Confidence            9999999999999998777888 688999999999999999999999999987755554434444566788899999999
+
+
+Q ss_pred             HHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChH
+Q tr|A0A8V8TMZ5|  161 IVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLP  240 (485)
+Q Consensus       161 ivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlp  240 (485)
+                      +++|++|+++|+||+|||.+++|+++++.++.++.+++....++.+.++.|.+.++++.+.++.++.+++++++.+..++
+T Consensus       163 i~iwL~e~i~~~~GiGnG~sllI~~~i~~~l~~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~~~~~~~~~~~~~  242 (480)
+T 7KAM_A          163 VVILLDELLQKGYGLGSGISLFIATNICESIVWKAFSPTTINTGRGPEFEGAIIALFHLLLTWPDKQRALREAFYRQSLP  242 (480)
+T ss_dssp             HHHHHHHHHHTTTSSSCSHHHHTHHHHHHHHHHHHSCCEEEECSSSCEESSSHHHHHHHHHSCSSHHHHHHHHHSCSSSC
+T ss_pred             HHHHHHHHHHccCCCCchHHHHHHHHHHHHhHHHhhCcccccCCCCcchhhHHHHHHHHHhcCchHHHHHHHHHHccchH
+Confidence            99999999996699999999999999999999999887654333333444556666666655556666676777666554
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  241 NLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  320 (485)
+Q Consensus       241 nlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsar  320 (485)
+                      .+..++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++++|++++++++..
+T Consensus       243 ~l~~~~~~l~~~~~~v~~---------~~~~~~Ipi~~~~~~~~~~~lPikln~~G~mPi~fa~sll~lp~~i~~~l~~~  313 (480)
+T 7KAM_A          243 NIMNLLATLLVFAAVIYL---------QGFRVEIPVKSARQRGVRGSYPVRLFYTSNMPIMLQSALCSNVFLISQMLYSR  313 (480)
+T ss_dssp             CHHHHHHHHHHHHHHHHH---------HTCBCCEEEEESSSTTCCCEECCBTTSSTTSHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHH---------hCCCccceeecCccCCCCccceeeeeeccccHHHHHHHHHHHHHHHHHHHHhc
+Confidence            456678888899999999         99999999999999888999999999999999999999999999999998877
+
+
+Q ss_pred             ccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHH
+Q tr|A0A8V8TMZ5|  321 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  400 (485)
+Q Consensus       321 fsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdva  400 (485)
+                      ++++.+.+.+++|...+  +.+++++++++.+|++|++++.+.+.+|.+.++|.++++++|++|++.|.+++++||+|++
+T Consensus       314 ~~~~~~~~~l~~~~~~~--~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~i~y~~li~~~~~~fs~~~~~~~~~~p~~ia  391 (480)
+T 7KAM_A          314 FSDNLLVRLLGVWEPRE--GSAQLHAASGIAYYMSPPLNFKEALLDPVHTVVYITFMLVACALFSKTWIEVSGSSPRDVA  391 (480)
+T ss_dssp             CCSSHHHHHHCEEEC--------CEEESSHHHHHSCCCSHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHH
+T ss_pred             CCCcchhhhhhhcccCC--CccceeeeceeehhhCCCCCHHHHhhCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHH
+Confidence            77777777788886433  2446778889999999887665556799999999999999999999999998889999999
+
+
+Q ss_pred             HHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhcccccc
+Q tr|A0A8V8TMZ5|  401 KQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEV  477 (485)
+Q Consensus       401 kqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsev  477 (485)
+                      |+++|+|++|+|+|||++++|++|++++++++|++++++++++|++++...+|++++++|++++|++||++.|++++
+T Consensus       392 ~~l~k~g~~I~g~rpg~t~~yL~~~i~~~~~~g~l~l~~i~~~p~~~~~~~~g~sili~v~ii~~~~~~i~~~~~~~  468 (480)
+T 7KAM_A          392 KQLKDQGLVMAGHREQSMYKELKRVIPTAAAFGGACIGALSVASDLLGALGSGTGILLAVTIIYGYFEMAAREGDFG  468 (480)
+T ss_dssp             HHHHHHTEEECCSSSCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSSCHHHHHHHHHHHHHHHHHHHHHCC--
+T ss_pred             HHHHHCCCcCCCCCChHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHhchHHHHHHHHHHHHHHHHHHHHHcccc
+Confidence            99999999999999997789999999999999999999999999999988899999999999999999999999886
+
+
+No 6
+>3MP7_A Preprotein translocase subunit secY, Preprotein; Protein Transport, Membrane Protein Complex; 2.9A {Pyrococcus furiosus}
+Probab=100.00  E-value=2.5e-60  Score=446.24  Aligned_cols=446  Identities=35%  Similarity=0.716  Sum_probs=299.1  Template_Neff=8.000
+
+Q ss_pred             CCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCC
+Q tr|A0A8V8TMZ5|    3 IKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGIS   82 (485)
+Q Consensus         3 ikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgis   82 (485)
+                      +||+|.++|+.+++|+++++++++++++|+++|++++++|++|++||+||+|.+.. +.+++++...+.++.|+++||++
+T Consensus         1 ~~~~~~~~~~~~~lp~v~~~~~~~~l~~ri~~T~~~l~iy~lg~~IPlpGv~~~~~-~~~~~~~~~~g~~~~Sl~sLGI~   79 (482)
+T 3MP7_A            1 MGARDIIYALERWFPEVERPKRRVPLRERFMWTGVALILYYVLAEIPVYGIPERIQ-DYFQFLRVVLAGRNGSILTLGIG   79 (482)
+T ss_dssp             -------------------------CTTTHHHHHHHHHHHHHHHHSBCTTCCSSCC-CSCSSTTTTTCSCTTBTTSSTTH
+T ss_pred             CcHHHHHHHHHHhChhccCcccCCCHHHHHHHHHHHHHHHHHHhcCCCCCCChHHH-HHHHHHHHHhccCCccHHHhccH
+Confidence            58999999999999999999999999999999999999999999999999998753 33333344444578999999999
+
+
+Q ss_pred             hHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHh--HHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   83 PIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMG--AGICLLITIQLFVAG  159 (485)
+Q Consensus        83 pivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemg--agicllitiqlfvag  159 (485)
+                      |||+|++++|++...++.+++ ++++||+++++++|++++++|++||+.++..+.++.. +.+  +...+.++++|++|+
+T Consensus        80 P~itA~ii~qll~~~~l~~~~~~~~~~r~~~~~~~~~ltl~la~iqa~~~~~~~~~~~~-~~~~~~~~~l~~il~L~~Gs  158 (482)
+T 3MP7_A           80 PIVTAGIILQLLVGSEIIKLDLANPEDRRFYQALQRVFSVFMCFFEAAVWILGGAFGRV-GVDVTYAIAVLMILQLAMGG  158 (482)
+T ss_dssp             HHHHHHHHTTC-----------------------CHHHHHHHHHHHHHHHHHSSSSSCC-------CTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhccchhhhhhCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccCC-CcchHHHHHHHHHHHHHHHH
+Confidence            999999999999998888888 6889999999999999999999999999987655421 122  235677889999999
+
+
+Q ss_pred             HHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCccc------CCcchhHHHHHHHHHHHHhCCChHHHHHHHH
+Q tr|A0A8V8TMZ5|  160 LIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVN------TGRGMEFEGAIIALFHLLATRTDKVRALREA  233 (485)
+Q Consensus       160 livllldellqkgyglgsgislfiatnicetivwkafspttvn------tgrgmefegaiialfhllatrtdkvralrea  233 (485)
+                      ++++|++|+++| ||+|||.+++|+++++.++++++.+.....      +++ .+..|.++++++.+.+++-     .++
+T Consensus       159 ~iliwL~e~i~~-~GiG~G~sliI~~~i~~~~~~~l~~~~~~~~~~~~~~~~-~~~~g~~~~~~~~~~~~~~-----~~~  231 (482)
+T 3MP7_A          159 IVLIILDELVSK-WGIGSGISLFIAAGVSQTILTRSLNPLTDPNIIDPLTGQ-PAIVGAIPYFIQHILKGDL-----WGA  231 (482)
+T ss_dssp             HHHHHHHHHHHH-HSSSCHHHHHHHHHHHHHHHHHHSCCCCCCC---CCSSS-CCCSCHHHHHHHHHHHCCS-----CSS
+T ss_pred             HHHHHHHHHHHH-cCCCCchHHHHHHHHHHHHHHHHhCccCCCCcCCcCCCC-CCccccHHHHHHHHHcCCc-----chh
+Confidence            999999999997 999999999999999999999998875111      111 1223545444433221100     000
+
+
+Q ss_pred             HHhC-ChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  234 FYRQ-NLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYV  312 (485)
+Q Consensus       234 fyrq-nlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyv  312 (485)
+                      +.+. .+|.+..++.+++++++++++         |++|+|+|+++.+.+ .++++|+|+||+|+||++|+++++++|++
+T Consensus       232 ~~~~~~lp~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~-~~~~~Pikln~~G~mPiifa~sll~~p~~  301 (482)
+T 3MP7_A          232 IYRGGSAPDMLSVVATIVVFFIVVYF---------ESMRVEIPLGYRGVT-VRGSYPIRFLYVSNIPIILTFALYANIQL  301 (482)
+T ss_dssp             CCCSSSSCCHHHHHHHHHHHHHHHHH---------HHCCEEC-------------CEECSSSSTTHHHHHHHHHHHHHHH
+T ss_pred             hhcCCCHHHHHHHHHHHHHHHHHHHH---------HhhcccccccccCcc-cceeeEeeeehhhhhHHHHHHHHHHHHHH
+Confidence            0111 223366678888899999999         999999999999877 67899999999999999999999999999
+
+
+Q ss_pred             HHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  313 ISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVS  392 (485)
+Q Consensus       313 isqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievs  392 (485)
+                      +.+++.. ++    .+++++|.+.    +  ..|++++.++++++.++.+.+.+|.+.++|.++++.+|++|+++|.+.+
+T Consensus       302 i~~~l~~-~~----~~~l~~~~~~----~--~~~~~~l~~~l~~~~~~~~~~~~p~~~~~y~~~~~~l~~~fs~~~~~~~  370 (482)
+T 3MP7_A          302 WARVLDR-LG----HPWLGRFDPT----T--GSPISGFVLYVIPPRNIFSVIDNPVRAIVYLILTVIFSLLFGYLWVELT  370 (482)
+T ss_dssp             HHHHHHT-TS----CCSSBCCCCT----T--SCCCCBSGGGSCCCSSSTHHHHSHHHHHHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHh-hC----ChhHhccccC----C--CCcccchHHHhCCCcchHHhccCHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            9998753 22    1234455421    1  1667788889988766544467899999999999999999999999988
+
+
+Q ss_pred             CccHHHHHHHHHHhhhhhcCCcchh--HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  393 GSSAKDVAKQLKEQQMVMRGHRETS--MVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIF  470 (485)
+Q Consensus       393 gssakdvakqlkeqqmvmrghrets--mvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeif  470 (485)
+                      +.||+|++|+++|+|++|+|+|||+  +++|++|++++++++|++++++++++|++++...+|++++++|+++.|++||+
+T Consensus       371 ~~~p~~ia~~l~k~g~~I~gvrpG~~~t~~~L~~~i~~~~~~g~~~l~~l~~~p~~~~~~~~g~~ililv~i~~~~~~~i  450 (482)
+T 3MP7_A          371 GLDARSIARQLQRAGLQIPGFRRDPRTLEKVLQRYIPYVTFWGSLTVALIAVLADFLGALGTGTGILLTVGILYRFYEEI  450 (482)
+T ss_dssp             STTGGGCCC--------CCTTTTTTSTTCC------CTHHHHHHHHHHHHHHHHHHHTCSSCSHHHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHCCCCCCCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcchHHHHHHHHHHHHHHHHH
+Confidence            8999999999999999999999998  45999999999999999999999999999998889999999999999999999
+
+
+Q ss_pred             hccccccC
+Q tr|A0A8V8TMZ5|  471 VKEQSEVG  478 (485)
+Q Consensus       471 vkeqsevg  478 (485)
+                      +.+..++.
+T Consensus       451 ~~~~~~~~  458 (482)
+T 3MP7_A          451 AREQITEM  458 (482)
+T ss_dssp             HHHHHHHS
+T ss_pred             HHHHHHhh
+Confidence            99986644
+
+
+No 7
+>2WW9_A SEC SIXTY-ONE PROTEIN HOMOLOG, PROTEIN; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, TRANSMEMBRANE, PHOSPHOPROTEIN; 8.6A {SACCHAROMYCES CEREVISIAE}
+Probab=100.00  E-value=2.9e-58  Score=433.16  Aligned_cols=464  Identities=31%  Similarity=0.578  Sum_probs=383.4  Template_Neff=8.000
+
+Q ss_pred             CCCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCC---CChHHHHHHHHHhCcchHH
+Q tr|A0A8V8TMZ5|    1 MAIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDS---ADPFYWMRVILASNRGTLM   77 (485)
+Q Consensus         1 maikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssds---adpfywmrvilasnrgtlm   77 (485)
+                      +..|++|.+||+.+.+|+++++++++++++|+++|++++++|++ ++||+||+|.+..   .+.++.++...+.++.|+|
+T Consensus         2 ~~~~~~~~~~~~~~~lp~~~~~~~~~~l~~ri~~T~~il~i~~l-~~IPlpgv~~~~~~~~~~~~~~~~~l~~~~~~Slf   80 (490)
+T 2WW9_A            2 SGFRLIDIVKPILPILPEVELPFEKLPFDDKIVYTIFAGLIYLF-AQFPLVGLPKATTPNVNDPIYFLRGVFGCEPRTLL   80 (490)
+T ss_dssp             CCSCCCCCCCSSGGGSCCCCCCCCCCCSHHHHHHHHHHHHHTTC-CSSCCSCHHHHTTTCSSCCCTTTHHHHTCCSSSTT
+T ss_pred             CcchHHHHHHHHHhhCccCCCCcCCCCHHHHHHHHHHHHHHHHH-HCCCcCCCChhhCCCCCChHHHHHhHhcCCCCcHH
+Confidence            35799999999999999999999999999999999999999999 9999999987643   3444555556666799999
+
+
+Q ss_pred             HcCCChHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   78 ELGISPIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLF  156 (485)
+Q Consensus        78 elgispivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlf  156 (485)
+                      +||++|||+|++++|++...+.++++ ++++||+++++++|++++++|++||++++...+++...  ++...+.++++++
+T Consensus        81 sLGi~P~i~a~il~qll~~~~~~~~~~~~~~~~~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~--~~~~~~~~v~~Lv  158 (490)
+T 2WW9_A           81 EFGLFPNISSGLILQLLAGLKVIKVNFKIQSDRELFQSLTKVFAIVQYVILTNIFIFAGYFGDDL--SVVQIGLINFQLV  158 (490)
+T ss_dssp             SSTTHHHHHHHHHHHHHHHHTSSCCCTTSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCSSCCC--STTHHHHHHHHHH
+T ss_pred             HcCCHHHHHHHHHHHHHhccchHhhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCC--hHHHHHHHHHHHH
+Confidence            99999999999999999998877888 68899999999999999999999999998876554321  2345677889999
+
+
+Q ss_pred             HHHHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCc-c-hhHHHHHHHHHHH-HhCCChHHHHHHHH
+Q tr|A0A8V8TMZ5|  157 VAGLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGR-G-MEFEGAIIALFHL-LATRTDKVRALREA  233 (485)
+Q Consensus       157 vaglivllldellqkgyglgsgislfiatnicetivwkafspttvntgr-g-mefegaiialfhl-latrtdkvralrea  233 (485)
+                      +|+++++|++|+++|+||+|||.+++|+++++.+++++++++.....+. + .+..|.++++++. +.+++.+.+++++.
+T Consensus       159 aGs~~l~wL~~~i~~g~GiG~G~sllI~~~i~~~~~~~l~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~  238 (490)
+T 2WW9_A          159 GAGIFTTLLAEVIDKGFGFSSGAMIINTVVIATNLVADTFGVSQIKVGEDDQTEAQGALINLIQGLRSKHKTFIGGIISA  238 (490)
+T ss_dssp             HHHHHHHHHHHHHHTTSSSSCHHHHHHHHHHHHHHHHHHTCCCCCCCCSSCCCSCCCHHHHHHHHHHCCCSSCCCSCCCC
+T ss_pred             HHHHHHHHHHHHHHhcCCCCcchHHHHHHHHHHHHHHHhhCcceecCCCCCccchhHHHHHHHHHHhhcCCchhHHHHHH
+Confidence            9999999999999955999999999999999999999999876532111 1 2223555555554 22221111001011
+
+
+Q ss_pred             HHhCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHH---
+Q tr|A0A8V8TMZ5|  234 FYRQNLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNL---  310 (485)
+Q Consensus       234 fyrqnlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnl---  310 (485)
+                      +++..++.+..++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||+||+++++.+|   
+T Consensus       239 ~~~~~l~~~~~l~~~l~~~~~~v~l---------~~~~~rIpi~~~~~~~~~~~lPIKln~aG~mPiifa~~ll~lp~~~  309 (490)
+T 2WW9_A          239 FNRDYLPNLTTTIIVLAIAIIVCYL---------QSVRVELPIRSTRARGTNNVYPIKLLYTGCLSVLFSYTILFYIHIF  309 (490)
+T ss_dssp             CSSSSCCSHHHHHHHHHHHHHHHHH---------TTCCEECCCBCSSSSSBCCCCEECHHHHTHHHHHHHHHHHHHCSSS
+T ss_pred             hcccchHHHHHHHHHHHHHHHHHHH---------HcCceecceeecccCCCcceeeeeeehHHHHHHHHHHHHHHHHHHH
+Confidence            2222233355677888899999999         9999999999999988889999999999999999999999999   
+
+
+Q ss_pred             -HHHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHh-cCHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  311 -YVISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVL-EDPVHAVVYIVFMLGSCAFFSKTW  388 (485)
+Q Consensus       311 -yvisqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvl-edpvhavvyivfmlgscaffsktw  388 (485)
+                       +.+.+++...+|++.+.+++++|.+    .+++..+.+++.+|+++++++.+.+ .+|.+.++|.++++++|++|++.|
+T Consensus       310 ~~~l~~~l~~~~~~~~~~~~l~~~~~----~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~y~~l~~~l~~~Fs~~~  385 (490)
+T 2WW9_A          310 AFVLIQLVAKNEPTHIICKIMGHYEN----ANNLLAVPTFPLSLLAPPTSFFKGVTQQPLTFITYSAFILVTGIWFADKW  385 (490)
+T ss_dssp             CSTTTHHHHHCCCCSSSCTTSBCCSC----CSSSSCSCSSBSCCSSCCCCSSCCCCSCSHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhccCCCCcHHHHHHhhhhc----cCCCccCCCchHHHhCCCcchhhccccCHHHHHHHHHHHHHHHHHHHHHH
+Confidence             6666777666666655555666653    2457788899999998875532223 689999999999999999999999
+
+
+Q ss_pred             HHhhCccHHHHHHHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  389 IEVSGSSAKDVAKQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFE  468 (485)
+Q Consensus       389 ievsgssakdvakqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfe  468 (485)
+                      .+++|.||+|++|+++|+|++|+|+||.++++|++|++++++++|++++++++++|++++..++|++++++|++++|++|
+T Consensus       386 ~~~~~~~p~~va~~l~k~g~~I~girp~~t~~~L~~~i~~~~~~g~~~l~ll~~~p~~~~~~~~g~~ili~v~i~~~~~~  465 (490)
+T 2WW9_A          386 QAISGSSARDVALEFKDQGITLMGRREQNVAKELNKVIPIAAVTGASVLSLITVIGESLGLKGKAAGIVVGIAGGFSLLE  465 (490)
+T ss_dssp             HHSCSSCHHHHHHHHHHHHHTSSSCCCCCSTTHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHhCCCHHHHHHHHHHcCCccCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhccchHHHHHHHHHHHHHHH
+Confidence            98888999999999999999999999933679999999999999999999999999999988899999999999999999
+
+
+Q ss_pred             HHhccccccCch
+Q tr|A0A8V8TMZ5|  469 IFVKEQSEVGSM  480 (485)
+Q Consensus       469 ifvkeqsevgsm  480 (485)
+                      |++.++++++..
+T Consensus       466 ~i~~~~~~~~~~  477 (490)
+T 2WW9_A          466 VITIEYQQSGGQ  477 (490)
+T ss_dssp             HHHHCCCCCCSS
+T ss_pred             HHHHHHHHccCc
+Confidence            999999875543
+
+
+No 8
+>2WWA_A SEC SIXTY-ONE PROTEIN HOMOLOG, PROTEIN; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, TRANSMEMBRANE, PHOSPHOPROTEIN; 8.9A {SACCHAROMYCES CEREVISIAE}
+Probab=100.00  E-value=2.9e-58  Score=433.16  Aligned_cols=463  Identities=31%  Similarity=0.580  Sum_probs=382.8  Template_Neff=8.000
+
+Q ss_pred             CCCccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCC---CChHHHHHHHHHhCcchHHH
+Q tr|A0A8V8TMZ5|    2 AIKFLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDS---ADPFYWMRVILASNRGTLME   78 (485)
+Q Consensus         2 aikflevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssds---adpfywmrvilasnrgtlme   78 (485)
+                      ..|++|.+||+.+.+|+++++++++++++|+++|++++++|++ ++||+||+|.+..   .+.++.++...+.++.|+|+
+T Consensus         3 ~~~~~~~~~~~~~~lp~~~~~~~~~~l~~ri~~T~~il~i~~l-~~IPlpgv~~~~~~~~~~~~~~~~~l~~~~~~Slfs   81 (490)
+T 2WWA_A            3 GFRLIDIVKPILPILPEVELPFEKLPFDDKIVYTIFAGLIYLF-AQFPLVGLPKATTPNVNDPIYFLRGVFGCEPRTLLE   81 (490)
+T ss_dssp             SSCCCCSCTTTGGGSCCCCCCCCCCCSHHHHHHHHHHHHHSSC-CSSCCSCSSSSSSSCSSSCCTTTHHHHTCCSSSSCS
+T ss_pred             cchHHHHHHHHHhhCccCCCCcCCCCHHHHHHHHHHHHHHHHH-HCCCcCCCChhhCCCCCChHHHHHhHhcCCCCcHHH
+Confidence            5799999999999999999999999999999999999999999 9999999998754   34455555666667999999
+
+
+Q ss_pred             cCCChHHHHHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   79 LGISPIVTSGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFV  157 (485)
+Q Consensus        79 lgispivtsglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfv  157 (485)
+                      ||++|||+|++++|++...+.++++ ++++||+++++++|++++++|++||++++...+++...  ++...+.+++++++
+T Consensus        82 LGi~P~i~a~il~qll~~~~~~~~~~~~~~~~~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~--~~~~~~~~v~~Lva  159 (490)
+T 2WWA_A           82 FGLFPNISSGLILQLLAGLKVIKVNFKIQSDRELFQSLTKVFAIVQYVILTNIFIFAGYFGDDL--SVVQIGLINFQLVG  159 (490)
+T ss_dssp             STTHHHHHHHHHHHHHHHHTSSCCCTTSHHHHHHHHHHHHHHHHHHHHHHHHHTTTTTTTSCCC--STTHHHHHHHHHHT
+T ss_pred             cCCHHHHHHHHHHHHHhccchHhhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCC--hHHHHHHHHHHHHH
+Confidence            9999999999999999999877888 68999999999999999999999999988765444221  23456778899999
+
+
+Q ss_pred             HHHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCc-c-hhHHHHHHHHHHH-HhCCChHHHHHHHHH
+Q tr|A0A8V8TMZ5|  158 AGLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGR-G-MEFEGAIIALFHL-LATRTDKVRALREAF  234 (485)
+Q Consensus       158 aglivllldellqkgyglgsgislfiatnicetivwkafspttvntgr-g-mefegaiialfhl-latrtdkvralreaf  234 (485)
+                      |+++++|++|+++|+||+|||.+++|+++++.+++++++++.....+. + .+..|.++++++. +.+++.+.+++++.+
+T Consensus       160 Gs~~l~wL~~~i~~g~GiG~G~sllI~~~i~~~~~~~l~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~  239 (490)
+T 2WWA_A          160 AGIFTTLLAEVIDKGFGFSSGAMIINTVVIATNLVADTFGVSQIKVGEDDQTEAQGALINLIQGLRSKHKTFIGGIISAF  239 (490)
+T ss_dssp             TTHHHHHHHHHCCCCCSSSCHHHHHHTTHHHHHHHHHHTCCCCCCCCSSCCSSSCCHHHHHHHHHHCCCSSCCCSCCCCC
+T ss_pred             HHHHHHHHHHHHHhcCCCCcchHHHHHHHHHHHHHHHhhCcceecCCCCCccchhHHHHHHHHHHhhcCCchhHHHHHHh
+Confidence            999999999999955999999999999999999999999876532111 1 2233555555554 222211110010112
+
+
+Q ss_pred             HhCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHH----
+Q tr|A0A8V8TMZ5|  235 YRQNLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNL----  310 (485)
+Q Consensus       235 yrqnlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnl----  310 (485)
+                      ++..++.+..++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||+||+++++.+|    
+T Consensus       240 ~~~~l~~~~~l~~~l~~~~~~v~l---------~~~~~rIpi~~~~~~~~~~~lPIKln~aG~mPiifa~~ll~lp~~~~  310 (490)
+T 2WWA_A          240 NRDYLPNLTTTIIVLAIAIIVCYL---------QSVRVELPIRSTRARGTNNVYPIKLLYTGCLSVLFSYTILFYIHIFA  310 (490)
+T ss_dssp             CSSSCCSHHHHHHHHHHHHHHSST---------TTSCEECCCCCSSSSSCCCCCEECSTTTSHHHHHHHHHGGGTCSSSC
+T ss_pred             cccchHHHHHHHHHHHHHHHHHHH---------HcCceecceeecccCCCcceeeeeeehHHHHHHHHHHHHHHHHHHHH
+Confidence            222233355677888889999999         9999999999999988889999999999999999999999999    
+
+
+Q ss_pred             HHHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHh-cCHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  311 YVISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVL-EDPVHAVVYIVFMLGSCAFFSKTWI  389 (485)
+Q Consensus       311 yvisqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvl-edpvhavvyivfmlgscaffsktwi  389 (485)
+                      +.+.+++...+|++.+.+++++|.+    .+++..+.+++.+|+++++++.+.+ .+|.+.++|.++++++|++|++.|.
+T Consensus       311 ~~l~~~l~~~~~~~~~~~~l~~~~~----~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~y~~l~~~l~~~Fs~~~~  386 (490)
+T 2WWA_A          311 FVLIQLVAKNEPTHIICKIMGHYEN----ANNLLAVPTFPLSLLAPPTSFFKGVTQQPLTFITYSAFILVTGIWFADKWQ  386 (490)
+T ss_dssp             STTTHHHHHSCCCSSSCTTSBCCSC----CSSSSCSCSSBSCCSSCCCCSSBCCCSCSHHHHHHHHHHHHHHHHTHHHHH
+T ss_pred             HHHHHHhccCCCCcHHHHHHhhhhc----cCCCccCCCchHHHhCCCcchhhccccCHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            6666777666666655555666653    2457788899999998875532223 6899999999999999999999999
+
+
+Q ss_pred             HhhCccHHHHHHHHHHhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  390 EVSGSSAKDVAKQLKEQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEI  469 (485)
+Q Consensus       390 evsgssakdvakqlkeqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfei  469 (485)
+                      +++|.||+|++|+++|+|++|+|+||.++++|++|++++++++|++++++++++|++++..++|++++++|++++|++||
+T Consensus       387 ~~~~~~p~~va~~l~k~g~~I~girp~~t~~~L~~~i~~~~~~g~~~l~ll~~~p~~~~~~~~g~~ili~v~i~~~~~~~  466 (490)
+T 2WWA_A          387 AISGSSARDVALEFKDQGITLMGRREQNVAKELNKVIPIAAVTGASVLSLITVIGESLGLKGKAAGIVVGIAGGFSLLEV  466 (490)
+T ss_dssp             HSSSSCHHHHHHHHHHHHHSSSSCCCCCSTTTTTTTSHHHHSGGGTSHHHHHHHHHHHBCCSSTTTSTTTSSSSHHHHHH
+T ss_pred             HHhCCCHHHHHHHHHHcCCccCCCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhccchHHHHHHHHHHHHHHHH
+Confidence            88889999999999999999999999336799999999999999999999999999999888999999999999999999
+
+
+Q ss_pred             HhccccccCch
+Q tr|A0A8V8TMZ5|  470 FVKEQSEVGSM  480 (485)
+Q Consensus       470 fvkeqsevgsm  480 (485)
+                      ++.++++++..
+T Consensus       467 i~~~~~~~~~~  477 (490)
+T 2WWA_A          467 ITIEYQQSGGQ  477 (490)
+T ss_dssp             HHHCCCCCSSS
+T ss_pred             HHHHHHHccCc
+Confidence            99999875543
+
+
+No 9
+>6FTJ_x Uncharacterized protein, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: NAG, MG, BMA, 9UB, MAN; 4.7A {Oryctolagus cuniculus}
+Probab=100.00  E-value=1.6e-54  Score=397.72  Aligned_cols=426  Identities=99%  Similarity=1.483  Sum_probs=359.0  Template_Neff=8.400
+
+Q ss_pred             ccccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChH
+Q tr|A0A8V8TMZ5|    5 FLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPI   84 (485)
+Q Consensus         5 flevikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispi   84 (485)
+                      |+|++||+++++|++++++++++++||+++|++++++|++|++||+||+|.+...+.++.++..++.++.|+++||++||
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~l~~rl~~T~~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~slfsLGi~P~   80 (426)
+T 6FTJ_x            1 FLEVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPI   80 (426)
+T ss_pred             ChhhhHHHHhhccccCCcccCCcHHHHHHHHHHHHHHHHHHhcCCCCCCChhhCCchhHHHHHHHHhcCCCHHHhccHHH
+Confidence            68999999999999999999999999999999999999999999999999876555555555555668899999999999
+
+
+Q ss_pred             HHHHHHHHHHHhcchhcCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   85 VTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGLIVLL  164 (485)
+Q Consensus        85 vtsglimqllagakiievgdtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvaglivll  164 (485)
+                      ++|++++|+++..++++++++++||+|+++++|++++++|++||++++...           ....+++++++|+++++|
+T Consensus        81 i~A~il~qll~~~~~~~~~~~~~~r~~l~~~~~~l~l~~a~iqa~~~~~~~-----------~~~~~~~~l~~G~~~l~w  149 (426)
+T 6FTJ_x           81 VTSGLIMQLLAGAKIIEVGDTPKDRALFNGAQKLFGMIITIGQSIVYVMSG-----------ICLLITIQLFVAGLIVLL  149 (426)
+T ss_pred             HHHHHHHHHHhhhhhhhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-----------HHHHHHHHHHHHHHHHHH
+Confidence            999999999999988777777899999999999999999999999987531           124567899999999999
+
+
+Q ss_pred             HHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHH
+Q tr|A0A8V8TMZ5|  165 LDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMN  244 (485)
+Q Consensus       165 ldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmn  244 (485)
+                      ++|+++|+||+|||.+++|+++++.++++++++.....++.+.++.|.+.++++.+.++.++.+++.+++.+..++.+..
+T Consensus       150 l~~~i~~~~GiGnG~sllI~~~i~~~~~~~l~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  229 (426)
+T 6FTJ_x          150 LDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMN  229 (426)
+T ss_pred             HHHHHHccCCCCccHHHHHHHHHHhHhHHHHcCCccccCCCCcchhHHHHHHHHHHhccchHHHHHHHHHhhcccccHHH
+Confidence            99999965999999999999999999999987775544333344445555555444333334444444443344334455
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhhccCC
+Q tr|A0A8V8TMZ5|  245 LIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFSGN  324 (485)
+Q Consensus       245 liatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsarfsgn  324 (485)
+                      ++.+++++++++++         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++.+|+++.+++...++.+
+T Consensus       230 ~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~lPikln~~G~mPiifa~~ll~lp~~i~~~l~~~~~~~  300 (426)
+T 6FTJ_x          230 LIATIFVFAVVIYF---------QGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFPVG  300 (426)
+T ss_pred             HHHHHHHHHHHHHH---------hcCceeceeeecccCCCceeEeeeeeeccCCchHHHHHHHHHHHHHHHHHhhcCCcc
+Confidence            67888889999999         999999999999998889999999999999999999999999999888765433222
+
+
+Q ss_pred             hhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHHHHHH
+Q tr|A0A8V8TMZ5|  325 LLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLK  404 (485)
+Q Consensus       325 llvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdvakqlk  404 (485)
+                                              +..+++.++.++.+.+.++.+.++|.++++++|++|+++|++.+++||+|++|+++
+T Consensus       301 ------------------------~~~~~l~~~~~~~~~~~~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia~~l~  356 (426)
+T 6FTJ_x          301 ------------------------GLCHYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLK  356 (426)
+T ss_pred             ------------------------chHHHhCCChhhhhhccCHHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHH
+Confidence                                    12344444433222246789999999999999999999988887789999999999
+
+
+Q ss_pred             HhhhhhcCCcchhHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccc
+Q tr|A0A8V8TMZ5|  405 EQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQ  474 (485)
+Q Consensus       405 eqqmvmrghretsmvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeq  474 (485)
+                      |+|++|+|+|||++++|++|++++++++|++++++++++|++++...+|++++++|++++|++||+++|+
+T Consensus       357 k~g~~I~girpG~~t~~L~~~~~~~~~~g~~~l~~l~~~p~~~~~~~~g~~lli~v~i~~~~~~~i~~e~  426 (426)
+T 6FTJ_x          357 EQQMVMRGHRETSMVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQ  426 (426)
+T ss_pred             HCCCccCCCCCChhHHHHHHhhhHHHHHHHHHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHhcC
+Confidence            9999999999999779999999999999999999999999999999999999999999999999999985
+
+
+No 10
+>3BO1_A 23S RIBOSOMAL RNA/RNA Complex; Ribosome-SecY complex, Membrane, Protein transport; 9.6A {Escherichia coli}
+Probab=100.00  E-value=5.1e-54  Score=396.02  Aligned_cols=422  Identities=34%  Similarity=0.647  Sum_probs=357.1  Template_Neff=8.400
+
+Q ss_pred             ccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChHHH
+Q tr|A0A8V8TMZ5|    7 EVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPIVT   86 (485)
+Q Consensus         7 evikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispivt   86 (485)
+                      |+++|+.+.+|+++++.+++++++|+++|++++++|++|++||+||+|.+. .+.+++++...+.++.|+++||++||++
+T Consensus         1 ~~~~~~~~~~p~~~~~~~~~~l~~ri~~t~~~l~i~~lg~~IPlpgv~~~~-~~~~~~~~~~~g~~~~sl~sLGI~P~i~   79 (442)
+T 3BO1_A            1 KKLIPILEKIPEVELPVKEITFKEKLKWTGIVLVLYFIMGCIDVYTAGAQI-PAIFEFWQTITASRIGTLITLGIGPIVT   79 (442)
+T ss_dssp             CCSHHHHHHSCCBCCCCSCCCHHHHHHHHHHHHHHHHHHTTSBCSCSCCCC-CCCCTTTHHHHTCCTTBTTTTTTHHHHH
+T ss_pred             CcchHHHhhCcccCCCcCCCCHHHHHHHHHHHHHHHHHHhcCCccCCCcch-hhHHHHHHHHcccCCCcHHHhccHHHHH
+Confidence            578899999999999999999999999999999999999999999999764 3445555666666789999999999999
+
+
+Q ss_pred             HHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   87 SGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGLIVLLL  165 (485)
+Q Consensus        87 sglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvaglivlll  165 (485)
+                      |++++|++...+++++| +++++|+++++++|++++++|++||+.++..++++.   .++...+.+++++++|+++++|+
+T Consensus        80 a~ii~qll~~~~~~~l~~~~~~~r~~~~~~~~~l~l~la~iqa~~~~~~~~~~~---~~~~~~~~~vl~L~aGt~i~iwl  156 (442)
+T 3BO1_A           80 AGIIMQLLVGSGIIQMDLSIPENRALFQGCQKLLSIIMCFVEAVLFVGAGAFGI---LTPLLAFLVIIQIAFGSIILIYL  156 (442)
+T ss_dssp             HHHHHHHHTTSSTTCCCTTSHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSSC---CCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhHhHHhhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC---CcHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999888888 689999999999999999999999999988765542   23456678889999999999999
+
+
+Q ss_pred             HHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHHH
+Q tr|A0A8V8TMZ5|  166 DELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNL  245 (485)
+Q Consensus       166 dellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmnl  245 (485)
+                      +|+++| ||+|||.+++|+++++.++++++.++.           |.++++++...++            ...++.+..+
+T Consensus       157 ~~~i~~-~GiGnG~slli~~~i~~~~~~~~~~~~-----------g~~~~~~~~~~~~------------~~~~~~~~~~  212 (442)
+T 3BO1_A          157 DEIVSK-YGIGSGIGLFIAAGVSQTIFVGALGPE-----------GYLWKFLNSLIQG------------VPNIEYIAPI  212 (442)
+T ss_dssp             HHHHHH-HSSSCHHHHHHHHHHHHHHHHHHHSTT-----------CHHHHHHHHHHHT------------CCCHHHHHHH
+T ss_pred             HHHHHH-hcCcchHHHHHHHHHhhHHHHHHhCcc-----------cHHHHHHHHHhcC------------CCchhHHHHH
+Confidence            999997 999999999999999999999886641           3333333322110            0123345556
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCC-------CcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  246 IATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRG-------QYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLS  318 (485)
+Q Consensus       246 iatifvfavviyfqgiwfclasqgfrvdlpiksaryrg-------qyntypiklfytsnipiilqsalvsnlyvisqmls  318 (485)
+                      +.+++++++++++         |++|+|+|+++.+.++       .++++|+|+|++|+||++|+++++.+|+++.+++.
+T Consensus       213 ~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~~pikln~~G~~Piifa~~l~~~p~~i~~~~~  283 (442)
+T 3BO1_A          213 IGTIIVFLMVVYA---------ECMRRRIVVNYAKRQQGRRVYAAQSTHLPLKVVYVSNIPVILAAALFANIQLWGLALY  283 (442)
+T ss_dssp             HHHHHHHHHHHHT---------TTCCCCCCCCCCCCCCSSSCCCCCCCCCCCCSCCTTHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHH---------HcceeeceeeecccccCcceeccccccccceeechhhHHHHHHHHHHHHHHHHHHHHH
+Confidence            7788889999999         9999999999998765       66899999999999999999999999999988875
+
+
+Q ss_pred             hhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHH
+Q tr|A0A8V8TMZ5|  319 ARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKD  398 (485)
+Q Consensus       319 arfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakd  398 (485)
+                      . ++.+    .++.|.+        ..|.+++.+|+.++.++.+.+.+|.+.++|.++.+++|++|++.|.+.++.||+|
+T Consensus       284 ~-~~~~----~l~~~~~--------~~p~~~~~~~l~~~~~l~~~~~~~~~~~~y~~~~~~l~~~fs~~~~~~~~~~p~~  350 (442)
+T 3BO1_A          284 R-MGIP----ILGHYEG--------GRAVDGIAYYLSTPYGLSSVISDPIHAIVYMIAMIITCVMFGIFWVETTGLDPKS  350 (442)
+T ss_dssp             T-TSCC----SSCCCCS--------SSCSSHHHHHTSCCCSSSCCCSCHHHHHHHHHHHHHHHHHHHHHHHTTCCSCHHH
+T ss_pred             h-cCCc----hHhcccc--------CCcCchhHHHhcCCCChhHhhcChhHHHHHHHHHHHHHHHHHHHHHHhhCCChHH
+Confidence            2 2221    2345531        1466677888887655433347899999999999999999999998887899999
+
+
+Q ss_pred             HHHHHHHhhhhhcCCcchh-HHHHHHHHhhH----HHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhcc
+Q tr|A0A8V8TMZ5|  399 VAKQLKEQQMVMRGHRETS-MVHELNRYIPT----AAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKE  473 (485)
+Q Consensus       399 vakqlkeqqmvmrghrets-mvhelnryipt----aaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvke  473 (485)
+                      ++|+++|+|++|+|+|||+ |++|++|++++    ++++|++++++++++|++++..++|++++++|+++.|++||++.+
+T Consensus       351 ia~~l~k~g~~I~girpG~~T~~yl~~~~~~~i~~~~~~g~~~l~~l~~~~~~~~~~~~gtsililv~i~~~~~~~i~~~  430 (442)
+T 3BO1_A          351 MAKRIKKSGAFVPGIRPGEQTAKYIEHRLKRYIPPLTVMSSAFVGFLATIANFIGALGGGTGVLLTVSIVYRMYEQLLRE  430 (442)
+T ss_dssp             HSTTSSCTTCCSSSSCCCCCCCSSCCHHHHHHTTTTTCCCTTTHHHHHHHHHHHCCTTCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHcCCeecccCCChhHHHHHHHHHhhcchHHHHHHHHHHHHHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999 55888887777    999999999999999999998889999999999999999999999
+
+
+Q ss_pred             ccccC
+Q tr|A0A8V8TMZ5|  474 QSEVG  478 (485)
+Q Consensus       474 qsevg  478 (485)
+                      +.++-
+T Consensus       431 ~~~~~  435 (442)
+T 3BO1_A          431 KVSEL  435 (442)
+T ss_dssp             HHHTT
+T ss_pred             HHHhh
+Confidence            87653
+
+
+No 11
+>1RH5_A Protein translocation, SecY, Membrane Protein; 3.2A {Methanocaldococcus jannaschii} SCOP: f.41.1.1
+Probab=100.00  E-value=7.9e-53  Score=387.56  Aligned_cols=423  Identities=37%  Similarity=0.714  Sum_probs=346.8  Template_Neff=8.400
+
+Q ss_pred             ccccchhccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChHHH
+Q tr|A0A8V8TMZ5|    7 EVIKPFCVILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPIVT   86 (485)
+Q Consensus         7 evikpfcvilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispivt   86 (485)
+                      |.++|+.+.+|+++++++++++++|+.+|++++++|++|++||+||+|.+.. +.++.++...+.++.|+++||++||++
+T Consensus         2 ~~~~~~~~~~p~~~~~~~~~~l~~rl~~tl~~l~iy~lg~~IPlpgv~~~~~-~~~~~~~~~~g~~~~si~sLGi~P~i~   80 (436)
+T 1RH5_A            2 KKLIPILEKIPEVELPVKEITFKEKLKWTGIVLVLYFIMGCIDVYTAGAQIP-AIFEFWQTITASRIGTLITLGIGPIVT   80 (436)
+T ss_dssp             CTTHHHHHHSCCCCCCSSCCCHHHHHHHHHHHHHHHHHHTTSBCCCSSCCCC-SCCTTHHHHHTCCTTBTTTTTTHHHHH
+T ss_pred             cchHHHHhhchhccCcccCCCHHHHHHHHHHHHHHHHHHhcCCccCCCCchh-HHHHHHHHHcccCCCcHHHhchHHHHH
+Confidence            6789999999999999999999999999999999999999999999998753 344555556556889999999999999
+
+
+Q ss_pred             HHHHHHHHHhcchhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   87 SGLIMQLLAGAKIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGLIVLLL  165 (485)
+Q Consensus        87 sglimqllagakiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvaglivlll  165 (485)
+                      |++++|+++..+++++| ++++||+++++++|++++++|++||+.++..++++.   .++...+.+++++++|+++++|+
+T Consensus        81 a~ii~qll~~~~~~~~~~~~~~~r~~~~~~~~~ltl~la~iqa~~~~~~~~~~~---~~~~~~~~~v~~L~~Gs~i~~wL  157 (436)
+T 1RH5_A           81 AGIIMQLLVGSGIIQMDLSIPENRALFQGCQKLLSIIMCFVEAVLFVGAGAFGI---LTPLLAFLVIIQIAFGSIILIYL  157 (436)
+T ss_dssp             HHHHHCCCCCCCCSCCCCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSSCC---CCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhhchhhhhccCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcc---chHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999998888888 789999999999999999999999999998765542   23456677889999999999999
+
+
+Q ss_pred             HHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHHH
+Q tr|A0A8V8TMZ5|  166 DELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNL  245 (485)
+Q Consensus       166 dellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmnl  245 (485)
+                      +|+++| ||+|||.+++|++|++.++++++.+..           |.+.++++...++.            ..++.+..+
+T Consensus       158 ~e~i~~-~GiGnG~slli~~~i~~~~~~~l~~~~-----------g~~~~~~~~~~~~~------------~~~~~~~~l  213 (436)
+T 1RH5_A          158 DEIVSK-YGIGSGIGLFIAAGVSQTIFVGALGPE-----------GYLWKFLNSLIQGV------------PNIEYIAPI  213 (436)
+T ss_dssp             HHHHHH-HSSSCHHHHHHHHHHHHHHHHHHHSTT-----------CHHHHHHHHTTTTC------------CCGGGTHHH
+T ss_pred             HHHHHH-hCccchHHHHHHHHHHHHHHHHhcCcc-----------cHHHHHHHHHhcCC------------CcHHHHHHH
+Confidence            999997 999999999999999999999987641           22323332211110            112345557
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhhccCCh
+Q tr|A0A8V8TMZ5|  246 IATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFSGNL  325 (485)
+Q Consensus       246 iatifvfavviyfqgiwfclasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsarfsgnl  325 (485)
+                      +.+++++++++++         |++|+|+|+++.+.+++++|+|+|+|++|+||++|+++++.+|+++.+++. .++++ 
+T Consensus       214 ~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~Pikln~~G~mPiifa~~ll~lp~~i~~~l~-~~~~~-  282 (436)
+T 1RH5_A          214 IGTIIVFLMVVYA---------ECMRVEIPLAHGRIKGAVGKYPIKFVYVSNIPVILAAALFANIQLWGLALY-RMGIP-  282 (436)
+T ss_dssp             HHHHHHHHHHHHH---------TTCEEEEECCCSSSTTCCCEEEEESCTTCSHHHHHHHHHHHHHHHHHHHHH-TTSCC-
+T ss_pred             HHHHHHHHHHHHH---------HcccccCcccccccCCCCceeecccchhhhchHHHHHHHHHHHHHHHHHHH-hcCCh-
+Confidence            7888889999999         999999999999998888999999999999999999999999999999875 22222 
+
+
+Q ss_pred             hHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  326 LVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKE  405 (485)
+Q Consensus       326 lvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdvakqlke  405 (485)
+                         ++++|..        .+|++++.+|++++.++.+.+++|.+..+|.++.++++++|++.|.+.++.||+|++|+++|
+T Consensus       283 ---~l~~~~~--------~~p~~~~~~~l~~~~~~~~~~~~~~~~~~y~~~~~~l~~~fs~~~~~~~~~~p~~ia~~l~~  351 (436)
+T 1RH5_A          283 ---ILGHYEG--------GRAVDGIAYYLSTPYGLSSVISDPIHAIVYMIAMIITCVMFGIFWVETTGLDPKSMAKRIGS  351 (436)
+T ss_dssp             ---TTCCBCS--------SSBSSSTTGGGCCCCSSSCCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHTCSHHHHHHHC--
+T ss_pred             ---hhhcccc--------CCcchHHHHHhcCCcCHHHHhcChHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHH
+Confidence               2455631        14566778888877554333468999999999999999999999988888999999999999
+
+
+Q ss_pred             hhhhhcCCcchh--HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhccccccCc
+Q tr|A0A8V8TMZ5|  406 QQMVMRGHRETS--MVHELNRYIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQSEVGS  479 (485)
+Q Consensus       406 qqmvmrghrets--mvhelnryiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqsevgs  479 (485)
+                      +|++|+|+|||+  +++|++|++++++++|++++++++++|++++...+|++++++|+++.|++||++.++..+.-
+T Consensus       352 ~g~~i~gvrpg~~~t~~~l~~~i~~~~~~g~l~l~~l~~~p~~~~~~~~g~~lli~v~v~~~~~~~i~~~~~~~~y  427 (436)
+T 1RH5_A          352 LGMAIKGFRKSEKAIEHRLKRYIPPLTVMSSAFVGFLATIANFIGALGGGTGVLLTVSIVYRMYEQLLRERTSELH  427 (436)
+T ss_dssp             ----------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCTTCSHHHHHHHHHHHHHHHHHHTTCC----
+T ss_pred             cCCcccCCCCCcHHHHHHHHhhcHHHHHHHHHHHHHHHHHHHHHhHhcchHHHHHHHHHHHHHHHHHHHHHHHhhC
+Confidence            999999999998  55999999999999999999999999999998889999999999999999999999987654
+
+
+No 12
+>3J7R_1 PROTEIN/RNA Complex; mammalian, Sec61, translocation, translation, RIBOSOME; HET: MG; 3.9A {Sus scrofa}
+Probab=100.00  E-value=1.5e-50  Score=370.16  Aligned_cols=393  Identities=97%  Similarity=1.414  Sum_probs=325.4  Template_Neff=8.200
+
+Q ss_pred             CCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChHHHHHHHHHHHHhcchhcCCC
+Q tr|A0A8V8TMZ5|   25 KIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPIVTSGLIMQLLAGAKIIEVGD  104 (485)
+Q Consensus        25 kiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispivtsglimqllagakiievgd  104 (485)
+                      +++++||+++|++++++|++|+++     |+...      .+...+.++.|+++||++||++|++++|+++..+++++++
+T Consensus         1 ~~~l~~ri~~T~~~l~iy~lg~~i-----~~~~~------~~~l~~~~~~sl~sLGI~P~i~a~il~qll~~~~~~~~~~   69 (393)
+T 3J7R_1            1 KIQFKEKVLWTAITLFIFLVCCSA-----DPFYW------MRVILASNRGTLMELGISPIVTSGLIMQLLAGAKIIEVGD   69 (393)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHccC-----CHHHH------HHHHHHhcCCCHHHcCcHHHHHHHHHHHHHhhhhhhhcCC
+Confidence            357899999999999999999953     33221      1122235789999999999999999999999988777776
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCHHHHhHHHHHHHHHHHHHHHHHHHHHHHHhhCCCCcchHHHHHHH
+Q tr|A0A8V8TMZ5|  105 TPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGDPSEMGAGICLLITIQLFVAGLIVLLLDELLQKGYGLGSGISLFIA  184 (485)
+Q Consensus       105 tpkdralfngaqklfgmiitigqsivyvmtgmygdpsemgagicllitiqlfvaglivllldellqkgyglgsgislfia  184 (485)
+                      +++||+|+++++|++++++|++||+.++..              +.+++++++|+++++|++|+++|+||||||.+++|+
+T Consensus        70 ~~~~r~~~~~~~~~ltl~~a~iqa~~~~~~--------------~~~~~~L~~Gs~ii~wl~~~i~~~~GiGnG~slii~  135 (393)
+T 3J7R_1           70 TPKDRALFNGAQKLFGMIITIGQSIVYVMC--------------LLITIQLFVAGLIVLLLDELLQKGYGLGSGISLFIA  135 (393)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHH--------------HHHHHHHHHHHHHHHHHHHHHHhccCCcchHHHHHH
+Confidence            789999999999999999999999998752              356789999999999999999955999999999999
+
+
+Q ss_pred             HHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  185 TNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNLIATIFVFAVVIYFQGIWFC  264 (485)
+Q Consensus       185 tnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmnliatifvfavviyfqgiwfc  264 (485)
+                      ++++.+++++++++.....+++.|..|.+.++++.+.++.++.+++++++++..++.+..++.+++++++++++      
+T Consensus       136 ~~i~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~------  209 (393)
+T 3J7R_1          136 TNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNLIATIFVFAVVIYF------  209 (393)
+T ss_pred             HHHHhhhHHHhcCCccccCCCCcchhHHHHHHHHHHhcCchHHHHHHHHHHhcchHHHHHHHHHHHHHHHHHHH------
+Confidence            99999999998777654433444555666655555443333444444444444444455567888888999999      
+
+
+Q ss_pred             HHhCCCcccCCccccccCCCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhhccCChhHhhhccccCCCCCCCccc
+Q tr|A0A8V8TMZ5|  265 LASQGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFSGNLLVSLLGTWSDTSSGGPARA  344 (485)
+Q Consensus       265 lasqgfrvdlpiksaryrgqyntypiklfytsnipiilqsalvsnlyvisqmlsarfsgnllvsllgtwsdtssggpara  344 (485)
+                         |++|+|+|+++.+.+++++|+|+|+||+|+||++|+++++.+|+++.+++...++.+                    
+T Consensus       210 ---~~~~~~ipi~~~~~~~~~~~lPikln~~G~mPiifa~~l~~l~~~i~~~~~~~~~~~--------------------  266 (393)
+T 3J7R_1          210 ---QGFRVDLPIKSARYRGQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSARFPVG--------------------  266 (393)
+T ss_pred             ---hcCCeeccccccccCCCcccccceeehhhcHhHHHHHHHHHHHHHHHHHHHhcCCCc--------------------
+Confidence               999999999999998889999999999999999999999999999888775433222                    
+
+
+Q ss_pred             ccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHHHHHHHhhhhhcCCcchhHHHHHHH
+Q tr|A0A8V8TMZ5|  345 YPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKEQQMVMRGHRETSMVHELNR  424 (485)
+Q Consensus       345 ypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdvakqlkeqqmvmrghretsmvhelnr  424 (485)
+                          +..+++.++.++.+.+.+|.+.++|.++++++|++|++.|.+.+++||+|++|+++|+|++++|+|||+.|||++|
+T Consensus       267 ----~~~~~l~~~~~~~~~~~~~~~~~~y~~li~~~~~~fs~~~~~~~~~~p~~ia~~l~k~g~~i~gvrpG~~T~~L~~  342 (393)
+T 3J7R_1          267 ----GLCHYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVAKQLKEQQMVMRGHRETSMVHELNR  342 (393)
+T ss_pred             ----chHHHhCCChhhhhhccChHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHCCCccCCCCCchhHHHHHH
+Confidence                1234444443332234688999999999999999999998787778999999999999999999999996699999
+
+
+Q ss_pred             HhhHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHhcccc
+Q tr|A0A8V8TMZ5|  425 YIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQS  475 (485)
+Q Consensus       425 yiptaaafgglcigalsvladflgaigsgtgillavtiiyqyfeifvkeqs  475 (485)
+                      ++++++++|++++++++++|.+++...+|++++++|++++|++||+++|++
+T Consensus       343 ~~~~~~~~g~~~l~~l~~lp~~~~~~~~g~~ili~v~i~~~~~~qi~~~~~  393 (393)
+T 3J7R_1          343 YIPTAAAFGGLCIGALSVLADFLGAIGSGTGILLAVTIIYQYFEIFVKEQS  393 (393)
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHhchHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            999999999999999999999999988999999999999999999999974
+
+
+No 13
+>5EUL_Y SecA, SecY, SecE, AYC08; SecY, SecA, ATPase, channel, PROTEIN; HET: ADP, TBR; 3.7A {Bacillus subtilis (strain 168)}
+Probab=100.00  E-value=3e-38  Score=286.58  Aligned_cols=383  Identities=21%  Similarity=0.293  Sum_probs=300.0  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCC-----ChHHHHHHH--HHhCcchHHHcCCChHHHHHHHH
+Q tr|A0A8V8TMZ5|   19 IQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSA-----DPFYWMRVI--LASNRGTLMELGISPIVTSGLIM   91 (485)
+Q Consensus        19 iqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsa-----dpfywmrvi--lasnrgtlmelgispivtsglim   91 (485)
+                      ++++.++++++||+++|++++++|++|++||+||+|.+...     +.+..++..  ++.++.|+|+||++||++|++++
+T Consensus         5 ~~~~~~~~~~~~ri~~T~~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~gg~~~~~sifsLGi~P~i~a~il~   84 (424)
+T 5EUL_Y            5 ISNFMRVSDIRNKIIFTLLMLIVFRIGTFIPVPSVNTDVLKLQDQLNAFGVLNIFCGGALQNFSIFAMGVMPYITASIIV   84 (424)
+T ss_dssp             TTCEHHHHCHHHHHHHHHHHHHHHHHGGGSCCTTCCHHHHSSSCSSCCSSSSBCCBTTBCCBCSTTSSCSHHHHHHHHHH
+T ss_pred             HHHhcccHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHhhhccchHHHHHhhcCCcchhccHHHhchHHHHHHHHHH
+Confidence            45566778899999999999999999999999999764321     111111111  13478999999999999999999
+
+
+Q ss_pred             HHHHhc---chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc--C--CHHHHhHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   92 QLLAGA---KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMY--G--DPSEMGAGICLLITIQLFVAGLIVL  163 (485)
+Q Consensus        92 qllaga---kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmy--g--dpsemgagicllitiqlfvaglivl  163 (485)
+                      |++...   ++++++ ++++||+++++++|++++++|++||+.++..++.  +  ...+.++...+.+++++++|+++++
+T Consensus        85 qll~~~~~~~l~~l~~~g~~~r~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~~Gs~i~i  164 (424)
+T 5EUL_Y           85 QLLQMDVVPKFAEWSKQGEMGRRKLAQFTRYFTIVLGFIQALGMSYGFNNLAGGMLIQNPGIGTYLLIAVVLTAGTAFLM  164 (424)
+T ss_dssp             HHHHTTTSHHHHHHHTTCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTCCSSCC-CCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcccchHHHHHHHcchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccccCCcHHHHHHHHHHHHHHHHHHH
+Confidence            999983   567776 6789999999999999999999999998876421  1  1111233456788899999999999
+
+
+Q ss_pred             HHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHH
+Q tr|A0A8V8TMZ5|  164 LLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLM  243 (485)
+Q Consensus       164 lldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlm  243 (485)
+                      |++|+++| ||+|||.+++++++++.++++++.+......+      +                        .+....+.
+T Consensus       165 wl~~~i~~-~GiG~G~slii~~~i~~~~~~~l~~~~~~~~~------~------------------------~~~~~~~~  213 (424)
+T 5EUL_Y          165 WLGEQITA-KGVGNGISIIIFAGIVSGIPTILNQIYAQTFG------G------------------------LNIVRLLL  213 (424)
+T ss_dssp             HHHHHHTT-TSSSCHHHHHHHHHHHTTTHHHHHTSCC-------------------------------------CTTHHH
+T ss_pred             HHHHHHHH-cCCCCcHHHHHHHHHHcCHHHHHHHHHHhhcc------c------------------------chHHHHHH
+Confidence            99999997 99999999999999999999888765321000      0                        01122345
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-C------CCcCccchHHHHhccHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  244 NLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-R------GQYNTYPIKLFYTSNIPIILQSALVSNLYVISQM  316 (485)
+Q Consensus       244 nliatifvfavviyfqgiwfclasqgfrvdlpiksary-r------gqyntypiklfytsnipiilqsalvsnlyvisqm  316 (485)
+                      .++.+++++++++++         |++|+|+|+++++. +      ++++|+|+|+||+|+||++++++++.+|+++.++
+T Consensus       214 ~~~~~~~~~~~~v~~---------~~~~~~ipl~~~~~~~~~~~~~~~~~~lpikln~~g~~Pi~~a~~l~~~~~~i~~~  284 (424)
+T 5EUL_Y          214 VALAVVAVIVGVIYI---------QQAFRKIPIQYAKRLEGRNPVGGHSTHLPLKVNPAGVIPVIFAVSFLIAPPTIASF  284 (424)
+T ss_dssp             HHHHHHHHHHHHHHH---------HSCEEEEECC--------------CCEEEEECCC-----CTHHHHHHHHHHHHHTG
+T ss_pred             HHHHHHHHHHHHHHH---------HhchhccceeecccccCCCCCCCCCCcCCcccCccchHHHHHHHHHHhhHHHHHHh
+Confidence            567778888999999         99999999998775 1      3468999999999999999999999999998776
+
+
+Q ss_pred             HHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccH
+Q tr|A0A8V8TMZ5|  317 LSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSA  396 (485)
+Q Consensus       317 lsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssa  396 (485)
+                      +.    ++.+.    .                .+.++++        .++|.+.++|++++++++++++...     .||
+T Consensus       285 ~~----~~~~~----~----------------~l~~~l~--------~~~~~~~~~~~~l~~~~s~~~~~~~-----~~p  327 (424)
+T 5EUL_Y          285 FG----TNDVT----L----------------WIRRTFD--------YTHPVGMTIYVVLIIAFTYFYAFVQ-----VNP  327 (424)
+T ss_dssp             GG----SCC-------------------------CCTTC--------SSSHHHHHHHHHHHHHHHHHHHHHH-----SCS
+T ss_pred             hC----CChhH----H----------------HHHHhcC--------CCCHHHHHHHHHHHHHHHHHHHHhc-----CCH
+Confidence            53    11111    0                1223444        2478999999999999999888763     899
+
+
+Q ss_pred             HHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH--------HHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  397 KDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA--------IGSGTGILLAVTIIYQYF  467 (485)
+Q Consensus       397 kdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga--------igsgtgillavtiiyqyf  467 (485)
+                      +|++|+++|+|++++|+|||+ ++||++|++++++++|++++++++++|++++.        ..+|++++++|+++.|+.
+T Consensus       328 ~~ia~~l~~~g~~i~g~~pG~~T~~~l~~~~~~~~~~g~l~l~~l~~~~~~~~~~~~~~~~~~~~g~sili~v~~~~~~~  407 (424)
+T 5EUL_Y          328 EQMADNLKKQGGYIPGIRPGKNTQEYVTRILYRLTLVGSLFLAFIAVLPVFFVNFANLPPSAQIGGTSLLIVVGVALETM  407 (424)
+T ss_dssp             THHHHHHHHSSCCCTTSCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSCSCCTTCCCSSHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccccchHHHHHHHHHHHHHHH
+Confidence            999999999999999999999 56999999999999999999999999999986        258999999999999999
+
+
+Q ss_pred             HHHhccccccC
+Q tr|A0A8V8TMZ5|  468 EIFVKEQSEVG  478 (485)
+Q Consensus       468 eifvkeqsevg  478 (485)
+                      ||++.+++++.
+T Consensus       408 ~~i~~~~~~~~  418 (424)
+T 5EUL_Y          408 KQLESQLVKRH  418 (424)
+T ss_dssp             HHHHHHHCSSS
+T ss_pred             HHHHHHHHHhh
+Confidence            99999998753
+
+
+No 14
+>6ITC_Y Protein translocase subunit SecA, Protein; SecA, SecY, Translocation, Cryo-EM, PROTEIN; HET: ADP, PGV, GYS; 3.45A {Bacillus subtilis (strain 168)}
+Probab=100.00  E-value=3e-38  Score=286.58  Aligned_cols=382  Identities=20%  Similarity=0.282  Sum_probs=307.7  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCC-----ChHHHHHHH--HHhCcchHHHcCCChHHHHHHHH
+Q tr|A0A8V8TMZ5|   19 IQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSA-----DPFYWMRVI--LASNRGTLMELGISPIVTSGLIM   91 (485)
+Q Consensus        19 iqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsa-----dpfywmrvi--lasnrgtlmelgispivtsglim   91 (485)
+                      ++++.++++++||+++|++++++|++|++||+||+|.+...     +.+..++..  ++.++.|+|+||++||++|++++
+T Consensus         5 ~~~~~~~~~~~~ri~~T~~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~gg~~~~~sifsLGi~P~i~a~il~   84 (424)
+T 6ITC_Y            5 ISNFMRVSDIRNKIIFTLLMLIVFRIGTFIPVPSVNTDVLKLQDQLNAFGVLNIFCGGALQNFSIFAMGVMPYITASIIV   84 (424)
+T ss_dssp             HHHHTTSHHHHHHHHHHHHHHHHHHHTTTSBCTTSCHHHHHHCCCCSCSSSCCCSSSCSTTCCBTTTTCSHHHHHHHHHH
+T ss_pred             HHHhcccHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHhhhccchHHHHHhhcCCcchhccHHHhchHHHHHHHHHH
+Confidence            34456778899999999999999999999999999764211     111111111  13478999999999999999999
+
+
+Q ss_pred             HHHHhc---chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc--C--CHHHHhHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   92 QLLAGA---KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMY--G--DPSEMGAGICLLITIQLFVAGLIVL  163 (485)
+Q Consensus        92 qllaga---kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmy--g--dpsemgagicllitiqlfvaglivl  163 (485)
+                      |++...   ++++++ ++++||+++++++|++++++|++||+.++..++.  +  ...+.++...+.+++++++|+++++
+T Consensus        85 qll~~~~~~~l~~l~~~g~~~r~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~~Gs~i~i  164 (424)
+T 6ITC_Y           85 QLLQMDVVPKFAEWSKQGEMGRRKLAQFTRYFTIVLGFIQALGMSYGFNNLAGGMLIQNPGIGTYLLIAVVLTAGTAFLM  164 (424)
+T ss_dssp             HHHSSSSSHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSSCCSSSCSTTTHHHHHHHHHHHHHHHH
+T ss_pred             HHHhcccchHHHHHHHcchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccccCCcHHHHHHHHHHHHHHHHHHH
+Confidence            999983   567777 6789999999999999999999999999876432  1  1111233456788899999999999
+
+
+Q ss_pred             HHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHH
+Q tr|A0A8V8TMZ5|  164 LLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLM  243 (485)
+Q Consensus       164 lldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlm  243 (485)
+                      |++|+++| ||+|||.+++++++++.++++++.+.....                 . +            ..+....+.
+T Consensus       165 wl~~~i~~-~GiG~G~slii~~~i~~~~~~~l~~~~~~~-----------------~-~------------~~~~~~~~~  213 (424)
+T 6ITC_Y          165 WLGEQITA-KGVGNGISIIIFAGIVSGIPTILNQIYAQT-----------------F-G------------GLNIVRLLL  213 (424)
+T ss_dssp             HHHHHHHH-HSSSCHHHHHHHHHHGGGHHHHHHHHHHHC---------------------------------CCSHHHHH
+T ss_pred             HHHHHHHH-cCCCCcHHHHHHHHHHcCHHHHHHHHHHhh-----------------c-c------------cchHHHHHH
+Confidence            99999997 999999999999999999987764321000                 0 0            012223355
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-C------CCcCccchHHHHhccHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  244 NLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-R------GQYNTYPIKLFYTSNIPIILQSALVSNLYVISQM  316 (485)
+Q Consensus       244 nliatifvfavviyfqgiwfclasqgfrvdlpiksary-r------gqyntypiklfytsnipiilqsalvsnlyvisqm  316 (485)
+                      .++.+++++++++++         |++|+|+|+++++. +      ++++|+|+|+||+|+||++++++++.+|+++.++
+T Consensus       214 ~~~~~~~~~~~~v~~---------~~~~~~ipl~~~~~~~~~~~~~~~~~~lpikln~~g~~Pi~~a~~l~~~~~~i~~~  284 (424)
+T 6ITC_Y          214 VALAVVAVIVGVIYI---------QQAFRKIPIQYAKRLEGRNPVGGHSTHLPLKVNPAGVIPVIFAVSFLIAPPTIASF  284 (424)
+T ss_dssp             HHHHHHHHHHHHHHH---------HTCEEEEECBCTTSCTTSSCCCSSCCEEEEESSTTCSHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHH---------HhchhccceeecccccCCCCCCCCCCcCCcccCccchHHHHHHHHHHhhHHHHHHh
+Confidence            577788888999999         99999999998775 1      3468999999999999999999999999988776
+
+
+Q ss_pred             HHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccH
+Q tr|A0A8V8TMZ5|  317 LSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSA  396 (485)
+Q Consensus       317 lsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssa  396 (485)
+                      +.    ++.+..                    .+.+++++        ++|.+.++|++++++++++++...     .||
+T Consensus       285 ~~----~~~~~~--------------------~l~~~l~~--------~~~~~~~~~~~l~~~~s~~~~~~~-----~~p  327 (424)
+T 6ITC_Y          285 FG----TNDVTL--------------------WIRRTFDY--------THPVGMTIYVVLIIAFTYFYAFVQ-----VNP  327 (424)
+T ss_dssp             TC----SCHHHH--------------------HHHHHTCT--------TSTTHHHHHHHHHHHHHHHHHHHH-----TCH
+T ss_pred             hC----CChhHH--------------------HHHHhcCC--------CCHHHHHHHHHHHHHHHHHHHHhc-----CCH
+Confidence            52    222211                    12345552        478899999999999999888763     899
+
+
+Q ss_pred             HHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHH--------HHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  397 KDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGAI--------GSGTGILLAVTIIYQYF  467 (485)
+Q Consensus       397 kdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflgai--------gsgtgillavtiiyqyf  467 (485)
+                      +|++|+++|+|++++|+|||+ ++||++|++++++++|++++++++++|++++..        .+|++++++|+++.|+.
+T Consensus       328 ~~ia~~l~~~g~~i~g~~pG~~T~~~l~~~~~~~~~~g~l~l~~l~~~~~~~~~~~~~~~~~~~~g~sili~v~~~~~~~  407 (424)
+T 6ITC_Y          328 EQMADNLKKQGGYIPGIRPGKNTQEYVTRILYRLTLVGSLFLAFIAVLPVFFVNFANLPPSAQIGGTSLLIVVGVALETM  407 (424)
+T ss_dssp             HHHHHHHHHTSCBCTTSCTTTHHHHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHHCCCTTCCCSTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCCCCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccccchHHHHHHHHHHHHHHH
+Confidence            999999999999999999999 569999999999999999999999999999872        58899999999999999
+
+
+Q ss_pred             HHHhcccccc
+Q tr|A0A8V8TMZ5|  468 EIFVKEQSEV  477 (485)
+Q Consensus       468 eifvkeqsev  477 (485)
+                      ||++.+++++
+T Consensus       408 ~~i~~~~~~~  417 (424)
+T 6ITC_Y          408 KQLESQLVKR  417 (424)
+T ss_dssp             HHHHTTHHHH
+T ss_pred             HHHHHHHHHh
+Confidence            9999998764
+
+
+No 15
+>5AWW_Y Protein translocase subunit SecY, Protein; translocon, membrane protein, PROTEIN TRANSPORT-IMMUNE; HET: OLC; 2.724A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=100.00  E-value=1.6e-36  Score=279.19  Aligned_cols=381  Identities=20%  Similarity=0.313  Sum_probs=307.9  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCC--------ChHHHHHHHH--HhCcchHHHcCCChHHHHHH
+Q tr|A0A8V8TMZ5|   20 QKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSA--------DPFYWMRVIL--ASNRGTLMELGISPIVTSGL   89 (485)
+Q Consensus        20 qkperkiqfkekvlwtaitlfiflvccqiplfgimssdsa--------dpfywmrvil--asnrgtlmelgispivtsgl   89 (485)
+                      ++..+++++++|+++|++++++|++|++||+||+|.+...        +.+..++...  +.++.|+|+||++|||+|++
+T Consensus         6 ~~~~~~~~l~~ri~~Tl~~l~iy~lg~~IPlpGv~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~SifsLGi~P~i~A~i   85 (444)
+T 5AWW_Y            6 WSALQIPELRQRVLFTLLVLAAYRLGAFIPTPGVDLDKIQEFLRTAQGGVFGIINLFSGGNFERFSIFALGIMPYITAAI   85 (444)
+T ss_dssp             HHHHHSHHHHHHHHHHHHHHHHHHHHTTSBCTTBCHHHHHHHHTSTTGGGGHHHHHTTTSHHHHTBTTTTTTHHHHHHHH
+T ss_pred             HHHccCHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHhcCCchhHHHHhhcCCchhhcchhHhchHHHHHHHH
+Confidence            3445677899999999999999999999999999865321        1233333332  34789999999999999999
+
+
+Q ss_pred             HHHHHHhc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc---C-C-HH--HHhHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   90 IMQLLAGA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMY---G-D-PS--EMGAGICLLITIQLFVAG  159 (485)
+Q Consensus        90 imqllaga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmy---g-d-ps--emgagicllitiqlfvag  159 (485)
+                      ++|++...  ++++++ ++++||+++++++|++++++|++||+.++..+..   + . ..  +.++...+.+++++++|+
+T Consensus        86 l~qll~~~~p~l~~l~~~g~~gr~~~~~~~~~l~l~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~i~~Lv~Gs  165 (444)
+T 5AWW_Y           86 IMQILVTVVPALEKLSKEGEEGRRIINQYTRIGGIALGAFQGFFLATAFLGAEGGRFLLPGWSPGPFFWFVVVVTQVAGI  165 (444)
+T ss_dssp             HHHHHHHHCHHHHHHHTSCTTTHHHHHHHHHHHHHHHHHHHHHHHCCCCCSHHHHTTBCTTCCSSHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccCCccccCCCCCcHHHHHHHHHHHHHHH
+Confidence            99999998  677777 6789999999999999999999999998865421   1 0 01  233456677889999999
+
+
+Q ss_pred             HHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCCh
+Q tr|A0A8V8TMZ5|  160 LIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNL  239 (485)
+Q Consensus       160 livllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnl  239 (485)
+                      ++++|++|+++| ||+|||.+++|+++++.++++++.+.                  +....+.            ...+
+T Consensus       166 ~iliwL~e~i~~-~GiGnG~slli~~~i~~~l~~~l~~~------------------~~~~~~~------------~~~~  214 (444)
+T 5AWW_Y          166 ALLLWMAERITE-YGIGNGTSLIIFAGIVVEWLPQILRT------------------IGLIRTG------------EVNL  214 (444)
+T ss_dssp             HHHHHHHHHHHH-HSSSCHHHHHHHHHHHTTHHHHHHHH------------------HHHHHHT------------SSCH
+T ss_pred             HHHHHHHHHHHH-hCCCCChHHHHHHHHHHHHHHHHHHH------------------HHHhccC------------CCcH
+Confidence            999999999997 99999999999999999998765321                  1010000            0111
+
+
+Q ss_pred             HH-HHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-C------CCcCccchHHHHhccHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  240 PN-LMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-R------GQYNTYPIKLFYTSNIPIILQSALVSNLY  311 (485)
+Q Consensus       240 pn-lmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-r------gqyntypiklfytsnipiilqsalvsnly  311 (485)
+                      .. +..++.+++++++++++         |++|+|+|+++++. .      ++++|+|+|+||+|+||++|+++++.+|+
+T Consensus       215 ~~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lPikln~~G~~Pii~a~sl~~~p~  285 (444)
+T 5AWW_Y          215 VAFLFFLAFIVLAFAGMAAV---------QQAERRIPVQYARKVVGGRVYGGQATYIPIKLNAAGVIPIIFAAAILQIPI  285 (444)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH---------HHCEEEEEEECSCEEETTEEECSSEEEEEEESSCSCSHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH---------HhcccCccceecceeecCcccCccCcccCcccchhhHHHHHHHHHHHHHHH
+Confidence            22 44467778888899999         99999999998764 1      34689999999999999999999999999
+
+
+Q ss_pred             HHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A8V8TMZ5|  312 VISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEV  391 (485)
+Q Consensus       312 visqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwiev  391 (485)
+                      ++.+++.    ++.+..                    ++.+++++        .++.+.++|++++++++++|+.+.   
+T Consensus       286 ~i~~~~~----~~~~~~--------------------~l~~~~~~--------~~~~~~~~~~~li~~fs~~~~~~~---  330 (444)
+T 5AWW_Y          286 FLAAPFQ----DNPVLQ--------------------GIANFFNP--------TRPSGLFIEVLLVILFTYVYTAVQ---  330 (444)
+T ss_dssp             HHHTTCT----TCHHHH--------------------HHHHHTCT--------TSHHHHHHHHHHHHHHHHHHHHHH---
+T ss_pred             HHHhhcC----CChhHH--------------------HHHHhcCC--------CCHHHHHHHHHHHHHHHHHHHHhc---
+Confidence            8777652    222211                    12345553        378999999999999999998863   
+
+
+Q ss_pred             hCccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH-------HHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  392 SGSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA-------IGSGTGILLAVTII  463 (485)
+Q Consensus       392 sgssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga-------igsgtgillavtii  463 (485)
+                        .||+|++|+++|+|++|+|+|||+ +++|++|++.+++++|++++++++++|++++.       ..+|++++++|+++
+T Consensus       331 --~~p~~ia~~l~~~g~~i~girpG~~T~~~l~~~~~~~~~~~~l~l~~l~~~p~~~~~~~~~~~~~~~g~slli~v~v~  408 (444)
+T 5AWW_Y          331 --FDPKRIAESLREYGGFIPGIRPGEPTVKFLEHIVSRLTLWGALFLGLVTLLPQIIQNLTGIHSIAFSGIGLLIVVGVA  408 (444)
+T ss_dssp             --SCHHHHHHHHHHTTCBCTTSCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCCCGGGSHHHHHHHHHHH
+T ss_pred             --CCHHHHHHHHHHcCCCCCCCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCchhccHHHHHHHHHHH
+Confidence              899999999999999999999999 56999999999999999999999999999965       46899999999999
+
+
+Q ss_pred             HHHHHHHhcccccc
+Q tr|A0A8V8TMZ5|  464 YQYFEIFVKEQSEV  477 (485)
+Q Consensus       464 yqyfeifvkeqsev  477 (485)
+                      .|+.||++.++.++
+T Consensus       409 ~~~~~~i~~~~~~~  422 (444)
+T 5AWW_Y          409 LDTLRQVESQLMLR  422 (444)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHh
+Confidence            99999999988763
+
+
+No 16
+>3DIN_C Protein translocase subunit secA, Preprotein; protein translocation, membrane protein, ATPase; HET: ADP; 4.5A {Thermotoga maritima MSB8}
+Probab=100.00  E-value=1.3e-36  Score=279.56  Aligned_cols=378  Identities=19%  Similarity=0.268  Sum_probs=309.7  Template_Neff=8.500
+
+Q ss_pred             ccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCC------------h-HHHHHHHH--HhCcchHHHcCC
+Q tr|A0A8V8TMZ5|   17 PEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSAD------------P-FYWMRVIL--ASNRGTLMELGI   81 (485)
+Q Consensus        17 peiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsad------------p-fywmrvil--asnrgtlmelgi   81 (485)
+                      .+.++..+++++++|+.+|++++++|++|++||+||+|.+...+            . +..++...  +.++.|+++||+
+T Consensus         3 ~~~~~~~~~~~l~~ri~~Tl~~l~i~~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~Si~sLGi   82 (431)
+T 3DIN_C            3 QAFKNAFKIPELRDRIIFTFLALIVFRMGIYIPVPGLNLEAWGEIFRRIAETAGVAGILSFYDVFTGGALSRFSVFTMSV   82 (431)
+T ss_pred             HHHHHHhcCHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHHHHHhcCcchhHHHHHHhhccchhhcchhhhcc
+Confidence            45566778889999999999999999999999999999765432            1 22222222  357899999999
+
+
+Q ss_pred             ChHHHHHHHHHHHHhc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccC--CHHHHh---HHHHHHHHH
+Q tr|A0A8V8TMZ5|   82 SPIVTSGLIMQLLAGA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYG--DPSEMG---AGICLLITI  153 (485)
+Q Consensus        82 spivtsglimqllaga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmyg--dpsemg---agiclliti  153 (485)
+                      +|||+|++++|+++..  ++++++ ++++||+++++++|++++++|++||++++..++..  ...+.+   +...+.+++
+T Consensus        83 ~P~i~A~ii~qll~~~~p~l~~l~~~g~~gr~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~  162 (431)
+T 3DIN_C           83 TPYITASIILQLLASVMPSLKEMLREGEEGRKKFAKYTRRLTLLIGGFQAFFVSFSLARSNPDMVAPGVNVLQFTVLSTM  162 (431)
+T ss_pred             HHHHHHHHHHHHHHhcCHHHHHHHHcChhHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCcCCccchhHHHHHHHHH
+Confidence            9999999999999998  677887 67899999999999999999999999998765321  111233   345677889
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHH
+Q tr|A0A8V8TMZ5|  154 QLFVAGLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREA  233 (485)
+Q Consensus       154 qlfvaglivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralrea  233 (485)
+                      ++++|+++++|++|+++| ||+|||.+++|+++++.++++++.+...   +                     +       
+T Consensus       163 ~L~~Gs~i~iwL~~~i~~-~GiGnG~slli~~~i~~~~~~~~~~~~~---~---------------------~-------  210 (431)
+T 3DIN_C          163 SMLAGTMFLLWLGERITE-KGIGNGISILIFAGIVARYPSYIRQAYL---G---------------------G-------  210 (431)
+T ss_pred             HHHHHHHHHHHHHHHHHH-hCCCCCHHHHHHHHHHhcchHHHHHHHh---c---------------------C-------
+Confidence            999999999999999997 9999999999999999999877643211   0                     0       
+
+
+Q ss_pred             HHhCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-C------CCcCccchHHHHhccHHHHHHHHH
+Q tr|A0A8V8TMZ5|  234 FYRQNLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-R------GQYNTYPIKLFYTSNIPIILQSAL  306 (485)
+Q Consensus       234 fyrqnlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-r------gqyntypiklfytsnipiilqsal  306 (485)
+                      .  +....+..++.+++++++++++         |++|+|+|+++.+. .      ++++|+|+|+|++|+||++|++++
+T Consensus       211 ~--~~~~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikl~~~G~~Pi~~a~~l  279 (431)
+T 3DIN_C          211 L--NLLEWIFLIAVALITIFGIILV---------QQAERRITIQYARRVTGRRVYGGASTYLPIKVNQGGVIPIIFASAI  279 (431)
+T ss_pred             C--hHHHHHHHHHHHHHHHHHHHHH---------HcceecccccccccccCCCccCCCCcccCcccccccHHHHHHHHHH
+Confidence            0  0111234466777788889999         99999999998763 1      356899999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  307 VSNLYVISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSK  386 (485)
+Q Consensus       307 vsnlyvisqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsk  386 (485)
+                      +.+|+++.++++     +.       |                +.+++++        .++.+.++|+++++++|++|+.
+T Consensus       280 ~~~p~~i~~~l~-----~~-------~----------------l~~~~~~--------~~~~~~~~~~~l~~~~s~~~~~  323 (431)
+T 3DIN_C          280 VSIPSAIASITN-----NE-------T----------------LKNLFRA--------GGFLYLLIYGLLVFFFTYFYSV  323 (431)
+T ss_pred             HHHHHHHHHhCC-----CH-------H----------------HHHhhcC--------CcHHHHHHHHHHHHHHHHHHHH
+Confidence            999998877652     11       1                1223332        3678899999999999999887
+
+
+Q ss_pred             HHHHhhCccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHH------HHHHHHHHH
+Q tr|A0A8V8TMZ5|  387 TWIEVSGSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGAI------GSGTGILLA  459 (485)
+Q Consensus       387 twievsgssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflgai------gsgtgilla  459 (485)
+                      .     +.||+|++|+++|+|++++|+|||+ +++|++|++++++++|++++++++++|++++..      ++|++++++
+T Consensus       324 ~-----~~~p~~ia~~l~~~g~~i~gvrpg~~t~~~l~~~~~~~~~~g~l~l~~l~~~p~~~~~~~~~~~~~~g~slli~  398 (431)
+T 3DIN_C          324 V-----IFDPREISENIRKYGGYIPGLRPGRSTEQYLHRVLNRVTFIGAVFLVVIALLPYLVQGAIKVNVWIGGTSALIA  398 (431)
+T ss_pred             h-----cCCHHHHHHHHHHcCCCCCCCCCCCchHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHhcccchhccHHHHHHH
+Confidence            6     3899999999999999999999999 569999999999999999999999999999753      689999999
+
+
+Q ss_pred             HHHHHHHHHHHhccccccC
+Q tr|A0A8V8TMZ5|  460 VTIIYQYFEIFVKEQSEVG  478 (485)
+Q Consensus       460 vtiiyqyfeifvkeqsevg  478 (485)
+                      |++++|+.||++.++.++.
+T Consensus       399 v~v~~~~~~~i~~~~~~~~  417 (431)
+T 3DIN_C          399 VGVALDIIQQMETHMVMRH  417 (431)
+T ss_pred             HHHHHHHHHHHHHHHHHhh
+Confidence            9999999999999988754
+
+
+No 17
+>2ZQP_Y TRANSLOCON, SEC, PROTEIN-CONDUCTING-CHANNEL, Membrane, Protein; 6.0A {Thermus thermophilus}
+Probab=100.00  E-value=9.5e-35  Score=266.14  Aligned_cols=384  Identities=20%  Similarity=0.307  Sum_probs=310.3  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCC--------ChHHHHHHHH--HhCcchHHHcCCChHHHHH
+Q tr|A0A8V8TMZ5|   19 IQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSA--------DPFYWMRVIL--ASNRGTLMELGISPIVTSG   88 (485)
+Q Consensus        19 iqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsa--------dpfywmrvil--asnrgtlmelgispivtsg   88 (485)
+                      .++..+++++++|+++|++++++|++|++||+||+|.+...        +.++.++...  +.++.|+|+||++|||+|+
+T Consensus         5 ~~~~~~~~~l~~ri~~Tl~~l~iy~lg~~IPlpgv~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~SifsLGi~P~i~a~   84 (434)
+T 2ZQP_Y            5 FWSALQIPELRQRVLFTLLVLAAYRLGAFIPTPGVDLDKIQEFLRTAQGGVFGIINLFSGGNFERFSIFALGIMPYITAA   84 (434)
+T ss_dssp             HHHHTTSTTHHHHHHHHHHHHHHHHHHTTCCCTTBCGGGTHHHHSSTTTGGGHHHHHHHTSTTTTTCTTSSTTCTTTTTS
+T ss_pred             HHHHhcCHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHhcCCchhHHHHhhcCCCccccchhHhccHHHHHHH
+Confidence            34456778899999999999999999999999999876432        1244444444  3478999999999999999
+
+
+Q ss_pred             HHHHHHHhc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc---C-C-HH--HHhHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   89 LIMQLLAGA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMY---G-D-PS--EMGAGICLLITIQLFVA  158 (485)
+Q Consensus        89 limqllaga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmy---g-d-ps--emgagicllitiqlfva  158 (485)
+                      +++|++...  ++++++ ++++||+++++++|++++++|++||++++..+..   + . ..  +.++...+.+++++++|
+T Consensus        85 il~qll~~~~p~l~~l~~~g~~gr~~~~~~~~~l~l~~a~iqa~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~L~~G  164 (434)
+T 2ZQP_Y           85 IIMQILVTVVPALEKLSKEGEEGRRIINQYTRIGGIALGAFQGFFLATAFLGAEGGRFLLPGWSPGPFFWFVVVVTQVAG  164 (434)
+T ss_dssp             SHHHHTTTSSTTHHHHHHSSGGGSHHHHHHHHHHHHHHHHHSHHHHCCCCCHHHCSSSBCSSCCTTHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccCCceecCCCCCCHHHHHHHHHHHHHH
+Confidence            999999998  677887 7899999999999999999999999998865421   1 1 11  23445667888999999
+
+
+Q ss_pred             HHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCC
+Q tr|A0A8V8TMZ5|  159 GLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQN  238 (485)
+Q Consensus       159 glivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqn  238 (485)
+                      +++++|++|+++| ||+|||.+++|+++++.++++++.+.                  ++...+.  +         .+.
+T Consensus       165 s~il~wL~~~i~~-~GiGnG~slli~~~i~~~~~~~l~~~------------------~~~~~~~--~---------~~~  214 (434)
+T 2ZQP_Y          165 IALLLWMAERITE-YGIGNGTSLIIFAGIVVEWLPQILRT------------------IGLIRTG--E---------VNL  214 (434)
+T ss_dssp             HHHHHHHHHHHHH-HSSSCHHHHHHHHHHHTTSSHHHHHH------------------HHHHHHT--S---------SCT
+T ss_pred             HHHHHHHHHHHHH-hCCCCCHHHHHHHHHHHHHHHHHHHH------------------HHHhccC--C---------ccH
+Confidence            9999999999997 99999999999999999998665321                  1110000  0         011
+
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-------CCCcCccchHHHHhccHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  239 LPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-------RGQYNTYPIKLFYTSNIPIILQSALVSNLY  311 (485)
+Q Consensus       239 lpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-------rgqyntypiklfytsnipiilqsalvsnly  311 (485)
+                      ...+..++.+++++++++++         |++|+|+|+++.+.       .++++|+|+|+||+|+||++|+++++.+|+
+T Consensus       215 ~~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikln~~G~~Pi~~a~sl~~~p~  285 (434)
+T 2ZQP_Y          215 VAFLFFLAFIVLAFAGMAAV---------QQAERRIPVQYARKVVGGRVYGGQATYIPIKLNAAGVIPIIFAAAILQIPI  285 (434)
+T ss_dssp             THHHHHHHHHHHHHHHHHHH---------HTCCBCCCCEECC-------CCSCCSCCCBCSSSCSSHHHHHHHHHTTHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH---------HhchhcCchhcceeeecCcccCCcCcccCccccHhhHHHHHHHHHHHhHHH
+Confidence            12244567778888899999         99999999998763       135689999999999999999999999999
+
+
+Q ss_pred             HHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHh
+Q tr|A0A8V8TMZ5|  312 VISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEV  391 (485)
+Q Consensus       312 visqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwiev  391 (485)
+                      ++.+++.    ++.+..                    ++.+++++        .++.+.++|+++++++|++|+..    
+T Consensus       286 ~i~~~~~----~~~~~~--------------------~l~~~~~~--------~~~~~~~~~~~li~~~s~~~~~~----  329 (434)
+T 2ZQP_Y          286 FLAAPFQ----DNPVLQ--------------------GIANFFNP--------TRPSGLFIEVLLVILFTYVYTAV----  329 (434)
+T ss_dssp             HTTTTCS----SSTTHH--------------------HHHHHSCT--------TSHHHHHHHHHHHHHHHHHHTTT----
+T ss_pred             HHHhhcC----CChhHH--------------------HHHHhhCC--------CChHHHHHHHHHHHHHHHHHHHc----
+Confidence            8766542    222111                    12345553        37899999999999999999986    
+
+
+Q ss_pred             hCccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH-------HHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  392 SGSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA-------IGSGTGILLAVTII  463 (485)
+Q Consensus       392 sgssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga-------igsgtgillavtii  463 (485)
+                       +.||+|++|+++|+|++++|+|||+ +++|++|++++++++|++++++++++|++++.       ..+|++++++|+++
+T Consensus       330 -~~~p~~ia~~l~k~g~~i~gvrpG~~T~~~l~~~~~~~~~~g~l~l~~l~~~p~~~~~~~~~~~~~~~g~~lli~v~i~  408 (434)
+T 2ZQP_Y          330 -QFDPKRIAESLREYGGFIPGIRPGEPTVKFLEHIVSRLTLWGALFLGLVTLLPQIIQNLTGIHSIAFSGIGLLIVVGVA  408 (434)
+T ss_dssp             -SSHHHHHHHHTTSSCEECTTCCSSSTTTTTTTTTTTTHHHHHHHHHHHHHHHHHHHTTTSSCCCGGGTTTTTHHHHHHH
+T ss_pred             -cCCHHHHHHHHHHCCCCCCCCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCchhccHHHHHHHHHHH
+Confidence             4899999999999999999999999 56999999999999999999999999999954       46889999999999
+
+
+Q ss_pred             HHHHHHHhccccccC
+Q tr|A0A8V8TMZ5|  464 YQYFEIFVKEQSEVG  478 (485)
+Q Consensus       464 yqyfeifvkeqsevg  478 (485)
+                      .|+.||++.++.++.
+T Consensus       409 ~~~~~~i~~~~~~~~  423 (434)
+T 2ZQP_Y          409 LDTLRQVESQLMLRS  423 (434)
+T ss_dssp             HHHHHHHHHHHCCT-
+T ss_pred             HHHHHHHHHHHHHhh
+Confidence            999999999987753
+
+
+No 18
+>5GAE_g 50S ribosomal protein L2, 50S; ribosome, translocon; HET: MG; 3.33A {Escherichia coli}
+Probab=100.00  E-value=5.8e-33  Score=255.08  Aligned_cols=393  Identities=18%  Similarity=0.267  Sum_probs=307.0  Template_Neff=8.700
+
+Q ss_pred             ccCccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCC-------Ch-HHHHHHH--HHhCcchHHHcCCCh
+Q tr|A0A8V8TMZ5|   14 VILPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSA-------DP-FYWMRVI--LASNRGTLMELGISP   83 (485)
+Q Consensus        14 vilpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsa-------dp-fywmrvi--lasnrgtlmelgisp   83 (485)
+                      +.+++.++..++++++||+++|++++++|++|++||+||+|.+...       ++ +..++..  ++.++.|+++||++|
+T Consensus         5 ~~~~~~~~~~~~~~l~~ri~~Tl~~l~vy~lg~~IPlPgv~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~sifsLGI~P   84 (443)
+T 5GAE_g            5 PGLDFQSAKGGLGELKRRLLFVIGALIVFRIGSFIPIPGIDAAVLAKLLEQQRGTIIEMFNMFSGGALSRASIFALGIMP   84 (443)
+T ss_dssp             C-----CHTTCSHHHHHHHHHHHHHHHHHHHHTTCCSSSSCHHHHHHHTTCSSCGGGGGGGTTTTSTTTTTCSCSSTTHH
+T ss_pred             hhhHHHHHhcCcHHHHHHHHHHHHHHHHHHHHhcCCCCCCCHHHHHHHHHhccCchHHHHHhhhccchhhhchhhhccHH
+Confidence            4567777788899999999999999999999999999999875311       11 1111211  134689999999999
+
+
+Q ss_pred             HHHHHHHHHHHHhc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc-cC----CHHHHhHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   84 IVTSGLIMQLLAGA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGM-YG----DPSEMGAGICLLITIQL  155 (485)
+Q Consensus        84 ivtsglimqllaga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgm-yg----dpsemgagicllitiql  155 (485)
+                      ||+|++++|++...  ++++++ ++++||+++++++|++++++|++||++++..++ +.    ...+.++...+.+++++
+T Consensus        85 ~i~A~il~qll~~~~p~l~~l~~~g~~~r~~~~~~~~~l~l~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~il~L  164 (443)
+T 5GAE_g           85 YISASIIIQLLTVVHPTLAEIKKEGESGRRKISQYTRYGTLVLAIFQSIGIATGLPNMPGMQGLVINPGFAFYFTAVVSL  164 (443)
+T ss_dssp             HHHHHHHHHHHHHHCHHHHHHHTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC------------CHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhcHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCccccccCchHHHHHHHHHHH
+Confidence            99999999999987  566777 689999999999999999999999999998642 21    11123344567788999
+
+
+Q ss_pred             HHHHHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  156 FVAGLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFY  235 (485)
+Q Consensus       156 fvaglivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafy  235 (485)
+                      ++|+++++|++|+++| ||+|||.+++|+++++.++++.+.+...                  .. . .++         
+T Consensus       165 vaGs~i~~wL~~~i~~-~GiGnG~slli~~~i~~~~~~~l~~~~~------------------~~-~-~~~---------  214 (443)
+T 5GAE_g          165 VTGTMFLMWLGEQITE-RGIGNGISIIIFAGIVAGLPPAIAHTIE------------------QA-R-QGD---------  214 (443)
+T ss_dssp             HHHHHHHHHHHHSTTT-TSSSCHHHHHHHHHHHTTCHHHHHHHHH------------------TT-T-TTS---------
+T ss_pred             HHHHHHHHHHHHHHHH-hCCCCCHHHHHHHHHHccchHHHHHHHH------------------Hh-h-hCC---------
+Confidence            9999999999999997 9999999999999999999866532110                  00 0 000         
+
+
+Q ss_pred             hCChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-------CCCcCccchHHHHhccHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  236 RQNLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-------RGQYNTYPIKLFYTSNIPIILQSALVS  308 (485)
+Q Consensus       236 rqnlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-------rgqyntypiklfytsnipiilqsalvs  308 (485)
+                      .+....+..++.+++++++++++         |++|+|+|+++.+.       +++++|+|+|+|++|+||++|+++++.
+T Consensus       215 ~~~~~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikln~~G~~Pi~~a~~l~~  285 (443)
+T 5GAE_g          215 LHFLVLLLVAVLVFAVTFFVVFV---------ERGQRRIVVNYAKRQQGRRVYAAQSTHLPLKVNMAGVIPAIFASSIIL  285 (443)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHH---------HHSCEEEEEEEEEECTTSCCEEEEEEEEEECSSSSTHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHH---------HcceeeeeeeecccccCCcccccccccCCcccccccHHHHHHHHHHHH
+Confidence            01112234456777788889999         99999999988753       124689999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  309 NLYVISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTW  388 (485)
+Q Consensus       309 nlyvisqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktw  388 (485)
+                      +|+++.+++... ++..+.+                    ++.+++++        .++.+.++|.++++++|++|+.+ 
+T Consensus       286 lp~~l~~~~~~~-~~~~~~~--------------------~~~~~~~~--------~~~~~~~~y~~li~~~s~~~~~~-  335 (443)
+T 5GAE_g          286 FPATIASWFGGG-TGWNWLT--------------------TISLYLQP--------GQPLYVLLYASAIIFFCFFYTAL-  335 (443)
+T ss_dssp             HHHHHTTTTCS----CHHHH--------------------HHHHHTST--------TSHHHHHHHHHHHHHHHHHHHHH-
+T ss_pred             HHHHHHHHhcCC-CchhHHH--------------------HHHHhcCC--------CcHHHHHHHHHHHHHHHHHHHHh-
+Confidence            999876665321 1111111                    12345542        37899999999999999999976 
+
+
+Q ss_pred             HHhhCccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH------HHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  389 IEVSGSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA------IGSGTGILLAVT  461 (485)
+Q Consensus       389 ievsgssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga------igsgtgillavt  461 (485)
+                          +.||+|++|+++|+|++++|+|||+ +++|++|.+.+++++|++++++++++|.+++.      ..+|++++++|+
+T Consensus       336 ----~~~p~~ia~~l~~~g~~i~gv~pG~~T~~~l~~~~~~~~~~g~l~l~~l~~~p~~~~~~~~~~~~~~g~siii~V~  411 (443)
+T 5GAE_g          336 ----VFNPRETADNLKKSGAFVPGIRPGEQTAKYIDKVMTRLTLVGALYITFICLIPEFMRDAMKVPFYFGGTSLLIVVV  411 (443)
+T ss_dssp             ----HCCHHHHHHHHHHTTEECTTSCTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSSCCCCSSSHHHHHHHH
+T ss_pred             ----cCCHHHHHHHHHHcCCCCCccCCCcchHHHHHHhchhHHHHHHHHHHHHHHHHHHHHHHcCCChhccHHHHHHHHH
+Confidence                4899999999999999999999999 56999999999999999999999999999976      357999999999
+
+
+Q ss_pred             HHHHHHHHHhccccccCc
+Q tr|A0A8V8TMZ5|  462 IIYQYFEIFVKEQSEVGS  479 (485)
+Q Consensus       462 iiyqyfeifvkeqsevgs  479 (485)
+                      +++|+.||++.++.++.-
+T Consensus       412 i~~~~~~~i~~~~~~~~y  429 (443)
+T 5GAE_g          412 VIMDFMAQVQTLMMSSQY  429 (443)
+T ss_dssp             HHHHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHhhhh
+Confidence            999999999999876543
+
+
+No 19
+>4V6M_BA PROTEIN/RNA Complex; RIBOSOMAL PROTEIN, RIBONUCLEOPROTEIN, NUCLEOTIDE-BINDING, PROTEIN; HET: PEV, PGV; 7.1A {Escherichia coli}
+Probab=100.00  E-value=4.2e-29  Score=229.34  Aligned_cols=388  Identities=18%  Similarity=0.267  Sum_probs=309.9  Template_Neff=8.700
+
+Q ss_pred             cCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCCh--------HHHHHHH--HHhCcchHHHcCCChHHHH
+Q tr|A0A8V8TMZ5|   18 EIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADP--------FYWMRVI--LASNRGTLMELGISPIVTS   87 (485)
+Q Consensus        18 eiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadp--------fywmrvi--lasnrgtlmelgispivts   87 (485)
+                      ++++++++++++||+++|++++++|++|++||+||+|.+...+.        +...+..  ++..+.|+++||++|||+|
+T Consensus         2 ~~~~~~~~~~l~~ri~~Tl~~l~i~~lg~~IPlPgv~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~sifsLGi~P~i~A   81 (435)
+T 4V6M_BA           2 FQSAKGGLGELKRRLLFVIGALIVFRIGSFIPIPGIDAAVLAKLLEQQRGTIIEMFNMFSGGALSRASIFALGIMPYISA   81 (435)
+T ss_pred             hhhhhcccHHHHHHHHHHHHHHHHHHHhccCCCCCCCHHHHHHHHHhccCchHHHHHHhhccchhhhchHHhccHhHHHH
+Confidence            35667788999999999999999999999999999998753211        1111222  2356899999999999999
+
+
+Q ss_pred             HHHHHHHHhc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc-cC----CHHHHhHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   88 GLIMQLLAGA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGM-YG----DPSEMGAGICLLITIQLFVAG  159 (485)
+Q Consensus        88 glimqllaga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgm-yg----dpsemgagicllitiqlfvag  159 (485)
+                      ++++|++...  ++++++ ++++||+|+++++|++++++|++||+.++..++ +.    ...+.++...+.+++++++|+
+T Consensus        82 ~il~qll~~~~p~l~~l~~~g~~~r~~~~~~~~~ltl~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~v~~L~~Gs  161 (435)
+T 4V6M_BA          82 SIIIQLLTVVHPTLAEIKKEGESGRRKISQYTRYGTLVLAIFQSIGIATGLPNMPGMQGLVINPGFAFYFTAVVSLVTGT  161 (435)
+T ss_pred             HHHHHHHHHhcHHHHHHHHcchhHHHHHHHHHHHHHHHHHHHHHHHHHHhcCcCCCCcccccCchHHHHHHHHHHHHHHH
+Confidence            9999999987  567787 678999999999999999999999999987542 21    111223345567788999999
+
+
+Q ss_pred             HHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCCh
+Q tr|A0A8V8TMZ5|  160 LIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNL  239 (485)
+Q Consensus       160 livllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnl  239 (485)
+                      ++++|++|+++| ||+|||.+++|+++++.++++.+.+......                    .++       .  +..
+T Consensus       162 ~i~~wL~~~i~~-~GiGnG~slii~~~i~~~~~~~~~~~~~~~~--------------------~g~-------~--~~~  211 (435)
+T 4V6M_BA         162 MFLMWLGEQITE-RGIGNGISIIIFAGIVAGLPPAIAHTIEQAR--------------------QGD-------L--HFL  211 (435)
+T ss_pred             HHHHHHHHHHHH-hCCCCCHHHHHHHHHHccccHHHHHHHHHhh--------------------hcc-------C--hHH
+Confidence            999999999997 9999999999999999999876643321000                    000       0  111
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-------CCCcCccchHHHHhccHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  240 PNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-------RGQYNTYPIKLFYTSNIPIILQSALVSNLYV  312 (485)
+Q Consensus       240 pnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-------rgqyntypiklfytsnipiilqsalvsnlyv  312 (485)
+                      ..+..++.+++++++++++         |++|+|+|+++.+.       +++++|+|+|+|++|+||++|+++++.+|++
+T Consensus       212 ~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikln~~G~~Pi~~a~~l~~lp~~  282 (435)
+T 4V6M_BA         212 VLLLVAVLVFAVTFFVVFV---------ERGQRRIVVNYAKRQQGRRVYAAQSTHLPLKVNMAGVIPAIFASSIILFPAT  282 (435)
+T ss_pred             HHHHHHHHHHHHHHHHHHH---------HcceeeeeeeecccccCCccccCcCCCCCcccccccHHHHHHHHHHHHHHHH
+Confidence            1234456677778888999         99999999998753       2356899999999999999999999999999
+
+
+Q ss_pred             HHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  313 ISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVS  392 (485)
+Q Consensus       313 isqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievs  392 (485)
+                      +.+++... ++..+.                    .++.++++        ..++.+.++|.++++++|++|+..     
+T Consensus       283 i~~~~~~~-~~~~~~--------------------~~~~~~~~--------~~~~~~~~~~~~li~~~s~~~~~~-----  328 (435)
+T 4V6M_BA         283 IASWFGGG-TGWNWL--------------------TTISLYLQ--------PGQPLYVLLYASAIIFFCFFYTAL-----  328 (435)
+T ss_pred             HHHHhcCC-CcchHH--------------------HHHHHhcC--------CCcHHHHHHHHHHHHHHHHHHHHh-----
+Confidence            88776431 111111                    01223333        236889999999999999999976     
+
+
+Q ss_pred             CccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH------HHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  393 GSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA------IGSGTGILLAVTIIYQ  465 (485)
+Q Consensus       393 gssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga------igsgtgillavtiiyq  465 (485)
+                      +.||+|++|+++|+|++|+|+|||+ +++|++|++.+++++|++++++++++|.+++.      ..+|++++++|+++.|
+T Consensus       329 ~~~p~~ia~~l~k~g~~i~gvrpG~~T~~~L~~~i~~~~~~g~l~l~~l~~~p~~~~~~~~~~~~~~g~slli~v~i~~~  408 (435)
+T 4V6M_BA         329 VFNPRETADNLKKSGAFVPGIRPGEQTAKYIDKVMTRLTLVGALYITFICLIPEFMRDAMKVPFYFGGTSLLIVVVVIMD  408 (435)
+T ss_pred             cCCHHHHHHHHHHcCCCCCccCCChhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCChhccHHHHHHHHHHHHH
+Confidence            4899999999999999999999999 56999999999999999999999999999974      3688999999999999
+
+
+Q ss_pred             HHHHHhccccccC
+Q tr|A0A8V8TMZ5|  466 YFEIFVKEQSEVG  478 (485)
+Q Consensus       466 yfeifvkeqsevg  478 (485)
+                      +.||++.++.++.
+T Consensus       409 ~~~~i~~~~~~~~  421 (435)
+T 4V6M_BA         409 FMAQVQTLMMSSQ  421 (435)
+T ss_pred             HHHHHHHHHHhhh
+Confidence            9999999987743
+
+
+No 20
+>3DL8_H SecA, SecG, SecY, SecE; RecA-type ATPase membrane protein translocation; 7.5A {Bacillus subtilis}
+Probab=99.97  E-value=9.9e-29  Score=226.55  Aligned_cols=384  Identities=19%  Similarity=0.273  Sum_probs=309.4  Template_Neff=8.700
+
+Q ss_pred             cCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCC--------hHHHHHHHH--HhCcchHHHcCCChHHHH
+Q tr|A0A8V8TMZ5|   18 EIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSAD--------PFYWMRVIL--ASNRGTLMELGISPIVTS   87 (485)
+Q Consensus        18 eiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsad--------pfywmrvil--asnrgtlmelgispivts   87 (485)
+                      +.++.++++++++|+++|++++++|++|++||+||+|.+...+        .+..++..+  +.++.|+++||++||++|
+T Consensus         4 ~~~~~~~~~~l~~ri~~tl~~l~iy~lg~~IPlPgv~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~SifsLGi~P~i~a   83 (429)
+T 3DL8_H            4 YLKALFELKELRQKFIFTLLMFVIYRLGSHIPIPGINPEALRDFLKAFEGSVFALYDIFSGGNLGRLTVFALGVMPYISA   83 (429)
+T ss_pred             HHHHHhccHHHHHHHHHHHHHHHHHHHHhCCCCCCCCHHHHHHHHHhcCCchHHHHHHhhCCcchHhhHHHHccHhHHHH
+Confidence            3445567788999999999999999999999999999865432        122222222  357899999999999999
+
+
+Q ss_pred             HHHHHHHHhc--chhcCC-C-CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc-----C--CHHHHhHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   88 GLIMQLLAGA--KIIEVG-D-TPKDRALFNGAQKLFGMIITIGQSIVYVMTGMY-----G--DPSEMGAGICLLITIQLF  156 (485)
+Q Consensus        88 glimqllaga--kiievg-d-tpkdralfngaqklfgmiitigqsivyvmtgmy-----g--dpsemgagicllitiqlf  156 (485)
+                      ++++|+++..  ++++++ + +++||+|+++++|++++++|++||++++..++.     +  ...+.++...+.++++++
+T Consensus        84 ~ii~qll~~~~p~l~~l~~~~g~~gr~~~~~~~~~l~l~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~L~  163 (429)
+T 3DL8_H           84 SIMMQLLTVAIPSLQRLAKEEGDYGRYKINEYTKYLTLFVATVQSLGIAFWIRGQVSPKGIPVVENPGISFILITVLTLV  163 (429)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCccccCCcHHHHHHHHHHHH
+Confidence            9999999988  567777 5 689999999999999999999999999876532     1  111223345567788999
+
+
+Q ss_pred             HHHHHHHHHHHHhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHh
+Q tr|A0A8V8TMZ5|  157 VAGLIVLLLDELLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYR  236 (485)
+Q Consensus       157 vaglivllldellqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyr  236 (485)
+                      +|+++++|++|+++| ||+|||.+++|+++++.++++++.+......                    +++         .
+T Consensus       164 ~Gs~~l~wL~~~i~~-~GiGnG~slii~~~i~~~l~~~l~~~~~~~~--------------------~~~---------~  213 (429)
+T 3DL8_H          164 AGTMFLVWIADRITE-KGIGNGASLIIFAGIVANFPNAVIQFYEKVK--------------------TGD---------I  213 (429)
+T ss_pred             HHHHHHHHHHHHHHH-hCCCCChHHHHHHHHHhchhHHHHHHHHHhc--------------------cCC---------C
+Confidence            999999999999997 9999999999999999999987754321100                    000         0
+
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCcccCCcccccc-C------CCcCccchHHHHhccHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  237 QNLPNLMNLIATIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARY-R------GQYNTYPIKLFYTSNIPIILQSALVSN  309 (485)
+Q Consensus       237 qnlpnlmnliatifvfavviyfqgiwfclasqgfrvdlpiksary-r------gqyntypiklfytsnipiilqsalvsn  309 (485)
+                      +....+..++++++++++++++         |++|+|+|+++.+. .      ++++|+|+|+||+|+||++|+++++.+
+T Consensus       214 ~~~~~~~~~~~~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikln~~G~~Pi~~a~~l~~~  284 (429)
+T 3DL8_H          214 GPLTLLLIIALIIAIIVGIVYV---------QEAERRIPIQYPGRQVGRQLYAGRKTYLPIKINPAGVIPIIFAQALLLI  284 (429)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHH---------HhcccccccccCCccccCcccCCCCccCCcccChhhHHHHHHHHHHHHH
+Confidence            1111234456777888889999         99999999998763 1      346899999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHhhccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  310 LYVISQMLSARFSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWI  389 (485)
+Q Consensus       310 lyvisqmlsarfsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwi  389 (485)
+                      |+++.+++.     +.+.    .                .+.++++        ..++.+.++|.+++++++++|+..  
+T Consensus       285 p~~~~~~~~-----~~~~----~----------------~~~~~~~--------~~~~~~~~~~~~li~~f~~~~~~~--  329 (429)
+T 3DL8_H          285 PSTLLNFVQ-----NPFI----K----------------VIADMFQ--------PGAIFYNFLYVTFIVFFTYFYTAV--  329 (429)
+T ss_pred             HHHHHHHcc-----chHH----H----------------HHHHhhC--------CCCHHHHHHHHHHHHHHHHHHHHh--
+Confidence            998877663     1111    0                1123343        236789999999999999999986  
+
+
+Q ss_pred             HhhCccHHHHHHHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhHH------HHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|  390 EVSGSSAKDVAKQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGAI------GSGTGILLAVTI  462 (485)
+Q Consensus       390 evsgssakdvakqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflgai------gsgtgillavti  462 (485)
+                         +.||+|++|+++|+|++|+|+|||+ +++|++|++++++++|++++++++++|.+++..      .+|++++++|++
+T Consensus       330 ---~~~p~~~a~~l~k~g~~i~gvrpG~~T~~~l~~~~~~~~~~~~~~l~~l~~~p~~~~~~~~~~~~~~g~~lli~v~~  406 (429)
+T 3DL8_H          330 ---LINPVELAENLHKAGAFIPGVRPGQDTVKYLERIINRLIFFGALFLSVIALIPILISVWFNIPFYFGGTTALIVVGV  406 (429)
+T ss_pred             ---cCCHHHHHHHHHHCCCCCCCcCCCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCChhccHHHHHHHHHH
+Confidence               4899999999999999999999999 569999999999999999999999999999653      689999999999
+
+
+Q ss_pred             HHHHHHHHhccccccC
+Q tr|A0A8V8TMZ5|  463 IYQYFEIFVKEQSEVG  478 (485)
+Q Consensus       463 iyqyfeifvkeqsevg  478 (485)
+                      +.|+.||++.++.++.
+T Consensus       407 ~~~~~~~i~~~~~~~~  422 (429)
+T 3DL8_H          407 ALDTFRQIETYLIQKK  422 (429)
+T ss_pred             HHHHHHHHHHHHHHHh
+Confidence            9999999999988754
+
+
+No 21
+>2AKH_B Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=99.97  E-value=2.3e-28  Score=222.36  Aligned_cols=364  Identities=18%  Similarity=0.273  Sum_probs=297.3  Template_Neff=8.700
+
+Q ss_pred             CccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   16 LPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPIVTSGLIMQLLA   95 (485)
+Q Consensus        16 lpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispivtsglimqlla   95 (485)
+                      +...++..++++++||+++|++++++|++|++|                          |+|+||++||++|++++|++.
+T Consensus         7 ~~~~~~~~~~~~l~~ri~~T~~~l~iy~lg~~I--------------------------SifsLGi~P~i~A~il~qll~   60 (400)
+T 2AKH_B            7 LDFQSAKGGLGELKRRLLFVIGALIVFRIGSFI--------------------------SIFALGIMPYISASIIIQLLT   60 (400)
+T ss_pred             hHHHHHhcCcHHHHHHHHHHHHHHHHHHHHhHH--------------------------HHHHhcCHhHHHHHHHHHHHH
+Confidence            344556678899999999999999999999999                          799999999999999999999
+
+
+Q ss_pred             hc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCC-----HHHHhHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   96 GA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGD-----PSEMGAGICLLITIQLFVAGLIVLLLDE  167 (485)
+Q Consensus        96 ga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygd-----psemgagicllitiqlfvaglivlllde  167 (485)
+                      ..  ++++++ ++++||+++++++|++++++|++||++++...+...     ..+.++...+.+++++++|+++++|++|
+T Consensus        61 ~~~p~l~~l~~~g~~~r~~~~~~~~~l~l~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~v~~L~~Gs~~l~wL~~  140 (400)
+T 2AKH_B           61 VVHPTLAEIKKEGESGRRKISQYTRYGTLVLAIFQSIGIATGLPNMPGMQGLVINPGFAFYFTAVVSLVTGTMFLMWLGE  140 (400)
+T ss_pred             hhcHHHHHHHHcCcchHHHHHHHHHHHHHHHHHHHHHHHHhccCCCCCCcceeeCccHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            88  577888 678999999999999999999999999987653211     1122344567788999999999999999
+
+
+Q ss_pred             HhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHHHHH
+Q tr|A0A8V8TMZ5|  168 LLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNLIA  247 (485)
+Q Consensus       168 llqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmnlia  247 (485)
+                      +++| ||+|||.+++++++++.++++.+.+......                  +  +.       .  +....+..++.
+T Consensus       141 ~i~~-~GiGnG~slii~~~i~~~~~~~~~~~~~~~~------------------~--~~-------~--~~~~~~~~~~~  190 (400)
+T 2AKH_B          141 QITE-RGIGNGISIIIFAGIVAGLPPAIAHTIEQAR------------------Q--GD-------L--HFLVLLLVAVL  190 (400)
+T ss_pred             HHHH-hCCCCcHHHHHHHHHHccccHHHHHHHHHhh------------------c--CC-------C--hHHHHHHHHHH
+Confidence            9997 9999999999999999999876644321000                  0  00       0  00011233566
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCCcccCCccccccC-------CCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  248 TIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYR-------GQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  320 (485)
+Q Consensus       248 tifvfavviyfqgiwfclasqgfrvdlpiksaryr-------gqyntypiklfytsnipiilqsalvsnlyvisqmlsar  320 (485)
+                      +++++++++++         |++|+|+|+++.+..       ++++|+|+|+|++|+||++|+++++.+|+++.+++.. 
+T Consensus       191 ~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikl~~~G~mPi~~a~~ll~~p~~i~~~~~~-  260 (400)
+T 2AKH_B          191 VFAVTFFVVFV---------ERGQRRIVVNYAKRQQGRRVYAAQSTHLPLKVNMAGVIPAIFASSIILFPATIASWFGG-  260 (400)
+T ss_pred             HHHHHHHHHHH---------HcceeeeeeeecccccCCCcccccccCCCcccchhhHHHHHHHHHHHHHHHHHHHHhcC-
+Confidence            67788889999         999999999987652       4568999999999999999999999999988776542 
+
+
+Q ss_pred             ccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHH
+Q tr|A0A8V8TMZ5|  321 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  400 (485)
+Q Consensus       321 fsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdva  400 (485)
+                      .+++.+.+                    .+.++++        ..++.+.++|.++++++|++|++.     +.||+|++
+T Consensus       261 ~~~~~~~~--------------------~~~~~~~--------~~~~~~~~~y~~li~~~~~~~~~~-----~~~p~~~a  307 (400)
+T 2AKH_B          261 GTGWNWLT--------------------TISLYLQ--------PGQPLYVLLYASAIIFFCFFYTAL-----VFNPRETA  307 (400)
+T ss_pred             CCchhHHH--------------------HHHHHcC--------CCCHHHHHHHHHHHHHHHHHHHHh-----cCCHHHHH
+Confidence            11111110                    1223333        246789999999999999999986     48999999
+
+
+Q ss_pred             HHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH------HHHHHHHHHHHHHHHHHHHHHhcc
+Q tr|A0A8V8TMZ5|  401 KQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA------IGSGTGILLAVTIIYQYFEIFVKE  473 (485)
+Q Consensus       401 kqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga------igsgtgillavtiiyqyfeifvke  473 (485)
+                      |+++|+|++++|+|||+ +++|++|.+++++++|++++++++++|.+++.      ..+|++++++|+++.|+.||++.+
+T Consensus       308 ~~l~~~g~~i~gvrpG~~T~~~l~~~~~~~~~~g~~~l~ll~~~p~~~~~~~~~~~~~~g~slli~v~i~~~~~~~i~~~  387 (400)
+T 2AKH_B          308 DNLKKSGAFVPGIRPGEQTAKYIDKVMTRLTLVGALYITFICLIPEFMRDAMKVPFYFGGTSLLIVVVVIMDFMAQVQTL  387 (400)
+T ss_pred             HHHHHCCCCCCCCCCChhHHHHHHHHhhhhhHHHHHHHHHHHHHHHHHHHhcCCCccccHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999 56999999999999999999999999999986      468999999999999999999999
+
+
+Q ss_pred             ccccC
+Q tr|A0A8V8TMZ5|  474 QSEVG  478 (485)
+Q Consensus       474 qsevg  478 (485)
+                      +.++.
+T Consensus       388 ~~~~~  392 (400)
+T 2AKH_B          388 MMSSQ  392 (400)
+T ss_pred             HHHhh
+Confidence            87754
+
+
+No 22
+>2AKI_Y Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=99.97  E-value=2.3e-28  Score=222.36  Aligned_cols=364  Identities=18%  Similarity=0.273  Sum_probs=297.3  Template_Neff=8.700
+
+Q ss_pred             CccCCCCCCCCChhHHHHHHHHHHHHHHHHccchhhcccCCCCCChHHHHHHHHHhCcchHHHcCCChHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   16 LPEIQKPERKIQFKEKVLWTAITLFIFLVCCQIPLFGIMSSDSADPFYWMRVILASNRGTLMELGISPIVTSGLIMQLLA   95 (485)
+Q Consensus        16 lpeiqkperkiqfkekvlwtaitlfiflvccqiplfgimssdsadpfywmrvilasnrgtlmelgispivtsglimqlla   95 (485)
+                      +...++..++++++||+++|++++++|++|++|                          |+|+||++||++|++++|++.
+T Consensus         7 ~~~~~~~~~~~~l~~ri~~T~~~l~iy~lg~~I--------------------------SifsLGi~P~i~A~il~qll~   60 (400)
+T 2AKI_Y            7 LDFQSAKGGLGELKRRLLFVIGALIVFRIGSFI--------------------------SIFALGIMPYISASIIIQLLT   60 (400)
+T ss_pred             hHHHHHhcCcHHHHHHHHHHHHHHHHHHHHhHH--------------------------HHHHhcCHhHHHHHHHHHHHH
+Confidence            344556678899999999999999999999999                          799999999999999999999
+
+
+Q ss_pred             hc--chhcCC-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccCC-----HHHHhHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TMZ5|   96 GA--KIIEVG-DTPKDRALFNGAQKLFGMIITIGQSIVYVMTGMYGD-----PSEMGAGICLLITIQLFVAGLIVLLLDE  167 (485)
+Q Consensus        96 ga--kiievg-dtpkdralfngaqklfgmiitigqsivyvmtgmygd-----psemgagicllitiqlfvaglivlllde  167 (485)
+                      ..  ++++++ ++++||+++++++|++++++|++||++++...+...     ..+.++...+.+++++++|+++++|++|
+T Consensus        61 ~~~p~l~~l~~~g~~~r~~~~~~~~~l~l~la~iqa~~~~~~l~~~~~~~~~~~~~~~~~~~~~v~~L~~Gs~~l~wL~~  140 (400)
+T 2AKI_Y           61 VVHPTLAEIKKEGESGRRKISQYTRYGTLVLAIFQSIGIATGLPNMPGMQGLVINPGFAFYFTAVVSLVTGTMFLMWLGE  140 (400)
+T ss_pred             hhcHHHHHHHHcCcchHHHHHHHHHHHHHHHHHHHHHHHHhccCCCCCCcceeeCccHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            88  577888 678999999999999999999999999987653211     1122344567788999999999999999
+
+
+Q ss_pred             HhhCCCCcchHHHHHHHHHhhHHHHHHhcCCCcccCCcchhHHHHHHHHHHHHhCCChHHHHHHHHHHhCChHHHHHHHH
+Q tr|A0A8V8TMZ5|  168 LLQKGYGLGSGISLFIATNICETIVWKAFSPTTVNTGRGMEFEGAIIALFHLLATRTDKVRALREAFYRQNLPNLMNLIA  247 (485)
+Q Consensus       168 llqkgyglgsgislfiatnicetivwkafspttvntgrgmefegaiialfhllatrtdkvralreafyrqnlpnlmnlia  247 (485)
+                      +++| ||+|||.+++++++++.++++.+.+......                  +  +.       .  +....+..++.
+T Consensus       141 ~i~~-~GiGnG~slii~~~i~~~~~~~~~~~~~~~~------------------~--~~-------~--~~~~~~~~~~~  190 (400)
+T 2AKI_Y          141 QITE-RGIGNGISIIIFAGIVAGLPPAIAHTIEQAR------------------Q--GD-------L--HFLVLLLVAVL  190 (400)
+T ss_pred             HHHH-hCCCCcHHHHHHHHHHccccHHHHHHHHHhh------------------c--CC-------C--hHHHHHHHHHH
+Confidence            9997 9999999999999999999876644321000                  0  00       0  00011233566
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCCcccCCccccccC-------CCcCccchHHHHhccHHHHHHHHHHHHHHHHHHHHHhh
+Q tr|A0A8V8TMZ5|  248 TIFVFAVVIYFQGIWFCLASQGFRVDLPIKSARYR-------GQYNTYPIKLFYTSNIPIILQSALVSNLYVISQMLSAR  320 (485)
+Q Consensus       248 tifvfavviyfqgiwfclasqgfrvdlpiksaryr-------gqyntypiklfytsnipiilqsalvsnlyvisqmlsar  320 (485)
+                      +++++++++++         |++|+|+|+++.+..       ++++|+|+|+|++|+||++|+++++.+|+++.+++.. 
+T Consensus       191 ~~~~~~~~v~~---------~~~~~~ipi~~~~~~~~~~~~~~~~~~lpikl~~~G~mPi~~a~~ll~~p~~i~~~~~~-  260 (400)
+T 2AKI_Y          191 VFAVTFFVVFV---------ERGQRRIVVNYAKRQQGRRVYAAQSTHLPLKVNMAGVIPAIFASSIILFPATIASWFGG-  260 (400)
+T ss_pred             HHHHHHHHHHH---------HcceeeeeeeecccccCCCcccccccCCCcccchhhHHHHHHHHHHHHHHHHHHHHhcC-
+Confidence            67788889999         999999999987652       4568999999999999999999999999988776542 
+
+
+Q ss_pred             ccCChhHhhhccccCCCCCCCcccccccchhhhcCCcchhhHHhcCHHHHHHHHHHHHHHHHHHHHHHHHhhCccHHHHH
+Q tr|A0A8V8TMZ5|  321 FSGNLLVSLLGTWSDTSSGGPARAYPVGGLCYYLSPPESFGSVLEDPVHAVVYIVFMLGSCAFFSKTWIEVSGSSAKDVA  400 (485)
+Q Consensus       321 fsgnllvsllgtwsdtssggparaypvgglcyylsppesfgsvledpvhavvyivfmlgscaffsktwievsgssakdva  400 (485)
+                      .+++.+.+                    .+.++++        ..++.+.++|.++++++|++|++.     +.||+|++
+T Consensus       261 ~~~~~~~~--------------------~~~~~~~--------~~~~~~~~~y~~li~~~~~~~~~~-----~~~p~~~a  307 (400)
+T 2AKI_Y          261 GTGWNWLT--------------------TISLYLQ--------PGQPLYVLLYASAIIFFCFFYTAL-----VFNPRETA  307 (400)
+T ss_pred             CCchhHHH--------------------HHHHHcC--------CCCHHHHHHHHHHHHHHHHHHHHh-----cCCHHHHH
+Confidence            11111110                    1223333        246789999999999999999986     48999999
+
+
+Q ss_pred             HHHHHhhhhhcCCcchh-HHHHHHHHhhHHHHHHHHHHHHHHHHHHHHhH------HHHHHHHHHHHHHHHHHHHHHhcc
+Q tr|A0A8V8TMZ5|  401 KQLKEQQMVMRGHRETS-MVHELNRYIPTAAAFGGLCIGALSVLADFLGA------IGSGTGILLAVTIIYQYFEIFVKE  473 (485)
+Q Consensus       401 kqlkeqqmvmrghrets-mvhelnryiptaaafgglcigalsvladflga------igsgtgillavtiiyqyfeifvke  473 (485)
+                      |+++|+|++++|+|||+ +++|++|.+++++++|++++++++++|.+++.      ..+|++++++|+++.|+.||++.+
+T Consensus       308 ~~l~~~g~~i~gvrpG~~T~~~l~~~~~~~~~~g~~~l~ll~~~p~~~~~~~~~~~~~~g~slli~v~i~~~~~~~i~~~  387 (400)
+T 2AKI_Y          308 DNLKKSGAFVPGIRPGEQTAKYIDKVMTRLTLVGALYITFICLIPEFMRDAMKVPFYFGGTSLLIVVVVIMDFMAQVQTL  387 (400)
+T ss_pred             HHHHHCCCCCCCCCCChhHHHHHHHHhhhhhHHHHHHHHHHHHHHHHHHHhcCCCccccHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999 56999999999999999999999999999986      468999999999999999999999
+
+
+Q ss_pred             ccccC
+Q tr|A0A8V8TMZ5|  474 QSEVG  478 (485)
+Q Consensus       474 qsevg  478 (485)
+                      +.++.
+T Consensus       388 ~~~~~  392 (400)
+T 2AKI_Y          388 MMSSQ  392 (400)
+T ss_pred             HHHhh
+Confidence            87754
+
+

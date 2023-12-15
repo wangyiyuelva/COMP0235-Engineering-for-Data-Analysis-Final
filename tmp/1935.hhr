@@ -1,0 +1,170 @@
+Query         tr|M0R284|M0R284_HUMAN
+Match_columns 44
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:12:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1935.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2AFF_B Ki67  FHA  NIFK; HET: T  58.9     9.8 0.00011   21.8   0.8    8    2-9       7-14  (44)
+  2 6V6A_B Mitogen-activated prote  21.5   2E+02  0.0022   16.4   2.0   24   20-43      9-32  (34)
+  3 6K41_R Guanine nucleotide-bind  17.0 1.6E+02  0.0017   18.9   1.1   15   23-37     16-30  (512)
+  4 6K42_R Guanine nucleotide-bind  17.0 1.6E+02  0.0017   18.9   1.1   15   23-37     16-30  (512)
+  5 3R45_C Histone H3-like centrom  16.1 1.7E+02  0.0018   18.6   1.0   28   16-43     52-79  (81)
+  6 5L1D_D Ryanodine Receptor, Pep  14.6 1.2E+02  0.0014   16.6   0.2   11   30-40     18-28  (158)
+  7 1ATT_A ANTITHROMBIN III (ATIII  13.3 4.5E+02  0.0049   17.2   2.4    7    5-11      3-9   (429)
+  8 1V18_B BETA-CATENIN, ADENOMATO  10.2 3.1E+02  0.0034   16.4   0.9   18    6-23     10-27  (47)
+  9 2JJZ_C IONIZED CALCIUM-BINDING   9.9 5.9E+02  0.0064   13.5   1.8   16    9-24    135-150 (150)
+ 10 2VTG_A IONIZED CALCIUM-BINDING   9.9 5.9E+02  0.0064   13.5   1.8   16    9-24    135-150 (150)
+
+No 1
+>2AFF_B Ki67  FHA  NIFK; HET: TPO, SEP; NMR {Homo sapiens}
+Probab=58.95  E-value=9.8  Score=21.79  Aligned_cols=8  Identities=75%  Similarity=1.460  Sum_probs=6.4  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCC
+Q tr|M0R284|M0R2    2 APTPVCTE    9 (44)
+Q Consensus         2 aptpvcte    9 (44)
+                      .||||||.
+T Consensus         7 ~pTPvCTP   14 (44)
+T 2AFF_B            7 GPTPVCTP   14 (44)
+T ss_dssp             SCCCCCCH
+T ss_pred             CCCCccCh
+Confidence            58999983
+
+
+No 2
+>6V6A_B Mitogen-activated protein kinase (E.C.2.7.11.24), Apical; protein kinase, MAPK, intrinsically-disordered protein; HET: EDO; 2.1A {Toxoplasma gondii}
+Probab=21.54  E-value=2e+02  Score=16.36  Aligned_cols=24  Identities=33%  Similarity=0.576  Sum_probs=17.4  Template_Neff=1.400
+
+Q ss_pred             ccCCCCCCCcCCCCCCCCCCCCCC
+Q tr|M0R284|M0R2   20 VLSVPQAGRAIWGGGEEAEQNTPQ   43 (44)
+Q Consensus        20 vlsvpqagraiwgggeeaeqntpq   43 (44)
+                      .||..+||..-|-+|......-||
+T Consensus         9 clst~kag~gswm~g~rep~eyp~   32 (34)
+T 6V6A_B            9 CLSTAAAGAGSWMSGNREPSEYPQ   32 (34)
+T ss_dssp             CCCGGGGCSTTGGGTCSSCTTSCC
+T ss_pred             ccccccccCCccccCCCCCccCCC
+Confidence            477888999999887665555554
+
+
+No 3
+>6K41_R Guanine nucleotide-binding protein G(o) subunit; GPCR, Complex, cryo-EM, MEMBRANE PROTEIN; HET: CZX; 2.9A {Homo sapiens}
+Probab=16.97  E-value=1.6e+02  Score=18.89  Aligned_cols=15  Identities=47%  Similarity=0.909  Sum_probs=1.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCcCCCCCCCC
+Q tr|M0R284|M0R2   23 VPQAGRAIWGGGEEA   37 (44)
+Q Consensus        23 vpqagraiwgggeea   37 (44)
+                      .|.||.|-|++.|..
+T Consensus        16 ~~~~~~~~~~~~~~~   30 (512)
+T 6K41_R           16 QPDAGNASWNGTEAP   30 (512)
+T ss_dssp             -------C-------
+T ss_pred             cccccccCCCCCCCC
+Confidence            488999999876543
+
+
+No 4
+>6K42_R Guanine nucleotide-binding protein G(i) subunit; GPCR, Complex, cryo-EM, MEMBRANE PROTEIN; HET: CZX; 4.1A {Bos taurus}
+Probab=16.97  E-value=1.6e+02  Score=18.89  Aligned_cols=15  Identities=47%  Similarity=0.909  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCCcCCCCCCCC
+Q tr|M0R284|M0R2   23 VPQAGRAIWGGGEEA   37 (44)
+Q Consensus        23 vpqagraiwgggeea   37 (44)
+                      .|.||.|-|++.|..
+T Consensus        16 ~~~~~~~~~~~~~~~   30 (512)
+T 6K42_R           16 QPDAGNASWNGTEAP   30 (512)
+T ss_dssp             ---------------
+T ss_pred             cccccccCCCCCCCC
+Confidence            488999999876543
+
+
+No 5
+>3R45_C Histone H3-like centromeric protein A; histone fold, Centromere, CENP-A, Histone; HET: SO4, GOL; 2.6A {Homo sapiens}
+Probab=16.10  E-value=1.7e+02  Score=18.60  Aligned_cols=28  Identities=25%  Similarity=0.408  Sum_probs=15.2  Template_Neff=3.900
+
+Q ss_pred             CCccccCCCCCCCcCCCCCCCCCCCCCC
+Q tr|M0R284|M0R2   16 SAKSVLSVPQAGRAIWGGGEEAEQNTPQ   43 (44)
+Q Consensus        16 saksvlsvpqagraiwgggeeaeqntpq   43 (44)
+                      +..+....-..|.-+|||.-.-+.|+-|
+T Consensus        52 ~m~tLTY~TP~G~r~Wgg~~vk~~~~~~   79 (81)
+T 3R45_C           52 QMATLTYETPQGLRIWGGRLIKERNEGE   79 (81)
+T ss_dssp             BTTTTEEEETTEEEETTSCEEEEC----
+T ss_pred             eeecceeeCCCcceeecCeecccccccc
+Confidence            3444444445678899998666665543
+
+
+No 6
+>5L1D_D Ryanodine Receptor, Peptidyl-prolyl cis-trans isomerase; Calcium Release Channel, Ryanodine Receptor; 10.5A {Oryctolagus cuniculus}
+Probab=14.64  E-value=1.2e+02  Score=16.56  Aligned_cols=11  Identities=36%  Similarity=0.610  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|M0R284|M0R2   30 IWGGGEEAEQN   40 (44)
+Q Consensus        30 iwgggeeaeqn   40 (44)
+                      -|.||+++++.
+T Consensus        18 ~~~~~~~~~~~   28 (158)
+T 5L1D_D           18 GWRGGHVVEGL   28 (158)
+T ss_dssp             -----------
+T ss_pred             cccCchhhhhh
+Confidence            48888887764
+
+
+No 7
+>1ATT_A ANTITHROMBIN III (ATIII) (SYNCHROTRON RADIATION); SERINE PROTEINASE INHIBITOR; 3.2A {Bos taurus} SCOP: e.1.1.1
+Probab=13.25  E-value=4.5e+02  Score=17.17  Aligned_cols=7  Identities=71%  Similarity=1.308  Sum_probs=5.9  Template_Neff=10.500
+
+Q ss_pred             CCCCCCC
+Q tr|M0R284|M0R2    5 PVCTEKP   11 (44)
+Q Consensus         5 pvctekp   11 (44)
+                      .||+++|
+T Consensus         3 ~~~~~~~    9 (429)
+T 1ATT_A            3 DVCTAKP    9 (429)
+T ss_dssp             TTTTCSS
+T ss_pred             ccccCCC
+Confidence            5899998
+
+
+No 8
+>1V18_B BETA-CATENIN, ADENOMATOUS POLYPOSIS COLI; SIGNALING PROTEIN, SIGNALLING COMPLEX, WNT; HET: SEP; 2.1A {MUS MUSCULUS}
+Probab=10.21  E-value=3.1e+02  Score=16.35  Aligned_cols=18  Identities=39%  Similarity=0.423  Sum_probs=10.9  Template_Neff=2.600
+
+Q ss_pred             CCCCCCCCcCCCccccCC
+Q tr|M0R284|M0R2    6 VCTEKPPRVMSAKSVLSV   23 (44)
+Q Consensus         6 vctekpprvmsaksvlsv   23 (44)
+                      ..+|++|.-.|..|-||.
+T Consensus        10 FatE~tp~gFScASSLSa   27 (47)
+T 1V18_B           10 FATESTPDGFSCSSSLSA   27 (47)
+T ss_dssp             CCCCSCCCCCC----CCC
+T ss_pred             eeecCCCCCccccccccc
+Confidence            358999999888777664
+
+
+No 9
+>2JJZ_C IONIZED CALCIUM-BINDING ADAPTER MOLECULE 2; EF-HAND, CALCIUM BINDING, ACTIN CROSSLINKING; 2.15A {HOMO SAPIENS}
+Probab=9.87  E-value=5.9e+02  Score=13.54  Aligned_cols=16  Identities=25%  Similarity=0.426  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCcCCCccccCCC
+Q tr|M0R284|M0R2    9 EKPPRVMSAKSVLSVP   24 (44)
+Q Consensus         9 ekpprvmsaksvlsvp   24 (44)
+                      ++|++--..+++.|.|
+T Consensus       135 ~~~~~~~~~~~~~~~~  150 (150)
+T 2JJZ_C          135 PKPVGPPPERDIASLP  150 (150)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCccccCC
+Confidence            3444444445555443
+
+
+No 10
+>2VTG_A IONIZED CALCIUM-BINDING ADAPTER MOLECULE 2; EF-HAND, CALCIUM BINDING, ACTIN CROSSLINKING; 2.45A {HOMO SAPIENS}
+Probab=9.87  E-value=5.9e+02  Score=13.54  Aligned_cols=16  Identities=25%  Similarity=0.426  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCcCCCccccCCC
+Q tr|M0R284|M0R2    9 EKPPRVMSAKSVLSVP   24 (44)
+Q Consensus         9 ekpprvmsaksvlsvp   24 (44)
+                      ++|++--..+++.|.|
+T Consensus       135 ~~~~~~~~~~~~~~~~  150 (150)
+T 2VTG_A          135 PKPVGPPPERDIASLP  150 (150)
+T ss_dssp             ----------------
+T ss_pred             CCCCCCCCCCccccCC
+Confidence            3444444445555543
+
+

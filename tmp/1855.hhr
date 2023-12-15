@@ -1,0 +1,370 @@
+Query         tr|I3L321|I3L321_HUMAN
+Match_columns 30
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:52:22 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1855.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5IX5_A Antibacterial factor-re  49.5      22 0.00024   20.3   1.2   11   11-21     42-52  (68)
+  2 2D56_A ANTIBACTERIAL PEPTIDE,   49.4      22 0.00024   19.5   1.1   11   10-20     40-50  (53)
+  3 2MFJ_A Blo t 19; Allergen, Ant  48.2      23 0.00025   20.2   1.2   11   11-21     44-54  (68)
+  4 3JCR_p hPrp6, U5-40K, hBrr2 (E  39.9      45 0.00049   15.2   1.2    7    6-12    109-115 (119)
+  5 4F7U_A Small nuclear ribonucle  39.9      45 0.00049   15.2   1.2    7    6-12    109-115 (119)
+  6 2NSX_A Glucosylceramidase (E.C  34.8      54 0.00059   20.6   1.4   14    9-22      9-22  (497)
+  7 1S3S_G Transitional endoplasmi  33.4      43 0.00046   16.9   0.7   12    2-13     10-21  (127)
+  8 1S3S_I Transitional endoplasmi  33.4      43 0.00046   16.9   0.7   12    2-13     10-21  (127)
+  9 6TN1_AAA Glucosylceramidase (E  31.9      65 0.00071   20.2   1.4   14    9-22      9-22  (497)
+ 10 5HMB_A Azi13; azinomycin biosy  23.4 1.1E+02  0.0012   15.3   1.1   20   11-30    118-137 (141)
+ 11 5HMC_A Azi13; azinomycin biosy  23.4 1.1E+02  0.0012   15.3   1.1   20   11-30    118-137 (141)
+ 12 6SPG_L 30S ribosomal protein S  22.9 1.1E+02  0.0012   17.0   1.1   10    4-13     25-34  (143)
+ 13 6P22_D Tail fiber protein; PVC  22.2      79 0.00085   19.1   0.5   17    2-18     31-47  (138)
+ 14 5J8A_DM 30S ribosomal protein   22.0 1.2E+02  0.0013   16.8   1.1    9    4-12     26-34  (144)
+ 15 7K00_k ribosome; antibiotics,   22.0 1.2E+02  0.0013   16.8   1.1    9    4-12     26-34  (144)
+ 16 1SS6_A NMR  p47  SEP; NMR {Hom  21.9   1E+02  0.0011   16.1   0.9   10    2-11     85-94  (102)
+ 17 6V3B_K Ribosome; Ribosome, Aci  21.8 1.1E+02  0.0012   16.9   1.1   10    4-13     28-37  (146)
+ 18 7RYG_K Antibiotic, Ribosome, t  21.8 1.1E+02  0.0012   16.9   1.1   10    4-13     28-37  (146)
+ 19 4Q1Z_A Putative lipoprotein; t  20.8 1.5E+02  0.0017   20.2   1.7   20    4-23    185-204 (400)
+ 20 1JK9_D protein-protein complex  20.7      99  0.0011   17.3   0.7   14   12-25    225-238 (249)
+ 21 5MYJ_BO 30S ribosomal protein   20.5 1.3E+02  0.0014   16.3   1.1   10    4-13     26-35  (147)
+ 22 5HO1_A Magnetosome protein Mam  20.3      82 0.00089   15.0   0.3    9   22-30      2-10  (102)
+ 23 5HO3_A Magnetosome protein Mam  20.3      82 0.00089   15.0   0.3    9   22-30      2-10  (102)
+
+No 1
+>5IX5_A Antibacterial factor-related peptide 2; antimicrobial peptide, CYANA 2.1, ANTIBIOTIC; NMR {Caenorhabditis elegans}
+Probab=49.48  E-value=22  Score=20.30  Aligned_cols=11  Identities=55%  Similarity=1.247  Sum_probs=9.1  Template_Neff=3.900
+
+Q ss_pred             CCCeeeeeccc
+Q tr|I3L321|I3L3   11 RGRSVCVCTRA   21 (30)
+Q Consensus        11 rgrsvcvctra   21 (30)
+                      +||.+|||.|-
+T Consensus        42 ~gR~tCvC~rC   52 (68)
+T 5IX5_A           42 SGRPTCVCYRC   52 (68)
+T ss_dssp             TTEEEECCBSC
+T ss_pred             CCCeeEEEeee
+Confidence            57899999874
+
+
+No 2
+>2D56_A ANTIBACTERIAL PEPTIDE, CYSTINE STABILIZED ALPHA-BETA; NMR {Ascaris suum}
+Probab=49.38  E-value=22  Score=19.45  Aligned_cols=11  Identities=55%  Similarity=1.235  Sum_probs=9.0  Template_Neff=4.000
+
+Q ss_pred             CCCCeeeeecc
+Q tr|I3L321|I3L3   10 GRGRSVCVCTR   20 (30)
+Q Consensus        10 grgrsvcvctr   20 (30)
+                      -+||.+|||.|
+T Consensus        40 r~gr~tCvC~r   50 (53)
+T 2D56_A           40 RGGRPTCVCDR   50 (53)
+T ss_dssp             SSSCCEEEECC
+T ss_pred             eCCeeEEEEee
+Confidence            35899999987
+
+
+No 3
+>2MFJ_A Blo t 19; Allergen, Anti-microbial Protein; NMR {Blomia tropicalis}
+Probab=48.21  E-value=23  Score=20.23  Aligned_cols=11  Identities=55%  Similarity=1.325  Sum_probs=9.1  Template_Neff=3.900
+
+Q ss_pred             CCCeeeeeccc
+Q tr|I3L321|I3L3   11 RGRSVCVCTRA   21 (30)
+Q Consensus        11 rgrsvcvctra   21 (30)
+                      +||.+|||.|-
+T Consensus        44 ~gR~tCvC~rC   54 (68)
+T 2MFJ_A           44 GGRPTCVCSRC   54 (68)
+T ss_dssp             TTEEEEEEEEE
+T ss_pred             CCeeeEEEecc
+Confidence            57899999874
+
+
+No 4
+>3JCR_p hPrp6, U5-40K, hBrr2 (E.C.3.6.4.13), hDim1; snRNP, splicing, spliceosome, human; 7.0A {Homo sapiens}
+Probab=39.89  E-value=45  Score=15.16  Aligned_cols=7  Identities=57%  Similarity=1.037  Sum_probs=2.6  Template_Neff=11.800
+
+Q ss_pred             CCCCCCC
+Q tr|I3L321|I3L3    6 GHTLGRG   12 (30)
+Q Consensus         6 ghtlgrg   12 (30)
+                      |+-.||+
+T Consensus       109 ~~~~~~~  115 (119)
+T 3JCR_p          109 GRGRGRG  115 (119)
+T ss_pred             CCCCCCC
+Confidence            3333333
+
+
+No 5
+>4F7U_A Small nuclear ribonucleoprotein Sm D1; Assembly Machine, SPLICING; HET: P6G; 1.898A {Mus musculus}
+Probab=39.89  E-value=45  Score=15.16  Aligned_cols=7  Identities=57%  Similarity=1.037  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCCCCC
+Q tr|I3L321|I3L3    6 GHTLGRG   12 (30)
+Q Consensus         6 ghtlgrg   12 (30)
+                      |+-.||+
+T Consensus       109 ~~~~~~~  115 (119)
+T 4F7U_A          109 GRGRGRG  115 (119)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            3333333
+
+
+No 6
+>2NSX_A Glucosylceramidase (E.C.3.2.1.45); TIM-barrel glycosidase Cerezyme hydrolysis, Hydrolase; HET: IFM, SO4, NAG, GOL; 2.11A {Homo sapiens} SCOP: c.1.8.3, b.71.1.2
+Probab=34.84  E-value=54  Score=20.62  Aligned_cols=14  Identities=36%  Similarity=0.985  Sum_probs=10.2  Template_Neff=9.900
+
+Q ss_pred             CCCCCeeeeecccc
+Q tr|I3L321|I3L3    9 LGRGRSVCVCTRAF   22 (30)
+Q Consensus         9 lgrgrsvcvctraf   22 (30)
+                      .+.+..||||.-..
+T Consensus         9 ~~~~~~~c~c~~~~   22 (497)
+T 2NSX_A            9 FGYSSVVCVCNATY   22 (497)
+T ss_dssp             CSSSSEEEEECSSC
+T ss_pred             eCCCceEEEecCCc
+Confidence            45667799998654
+
+
+No 7
+>1S3S_G Transitional endoplasmic reticulum ATPase (TER; AAA ATPase, p97, p47, protein-protein; HET: ADP; 2.9A {Mus musculus} SCOP: d.15.1.2
+Probab=33.40  E-value=43  Score=16.92  Aligned_cols=12  Identities=33%  Similarity=0.822  Sum_probs=9.5  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|I3L321|I3L3    2 YKGKGHTLGRGR   13 (30)
+Q Consensus         2 ykgkghtlgrgr   13 (30)
+                      |.|.|++||...
+T Consensus        10 f~g~g~~lg~~~   21 (127)
+T 1S3S_G           10 FTGEGQKLGSTA   21 (127)
+T ss_dssp             CCSCCCCCCSSC
+T ss_pred             cccCCeeCCCCC
+Confidence            679999998654
+
+
+No 8
+>1S3S_I Transitional endoplasmic reticulum ATPase (TER; AAA ATPase, p97, p47, protein-protein; HET: ADP; 2.9A {Mus musculus} SCOP: d.15.1.2
+Probab=33.40  E-value=43  Score=16.92  Aligned_cols=12  Identities=33%  Similarity=0.822  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|I3L321|I3L3    2 YKGKGHTLGRGR   13 (30)
+Q Consensus         2 ykgkghtlgrgr   13 (30)
+                      |.|.|++||...
+T Consensus        10 f~g~g~~lg~~~   21 (127)
+T 1S3S_I           10 FTGEGQKLGSTA   21 (127)
+T ss_dssp             ------------
+T ss_pred             cccCCeeCCCCC
+Confidence            578899998543
+
+
+No 9
+>6TN1_AAA Glucosylceramidase (E.C.3.2.1.45,2.4.1.-,3.2.1.104); beta-glucocerebrosidase, lysosomal glycoside hydrolase, GH30; HET: NAG, GLN, BMA, FMT, EDO; 0.98A {Homo sapiens}
+Probab=31.85  E-value=65  Score=20.20  Aligned_cols=14  Identities=36%  Similarity=0.985  Sum_probs=9.4  Template_Neff=10.000
+
+Q ss_pred             CCCCCeeeeecccc
+Q tr|I3L321|I3L3    9 LGRGRSVCVCTRAF   22 (30)
+Q Consensus         9 lgrgrsvcvctraf   22 (30)
+                      ++.+.-||||.-..
+T Consensus         9 ~~~~~~~c~c~~~~   22 (497)
+T 6TN1_AAA          9 FGYSSVVCVCNATY   22 (497)
+T ss_pred             eCCCceEEEecCcc
+Confidence            35566699997543
+
+
+No 10
+>5HMB_A Azi13; azinomycin biosynthesis, polyketide synthase, thioesterase; HET: SO4; 2.151A {Streptomyces sahachiroi}
+Probab=23.43  E-value=1.1e+02  Score=15.32  Aligned_cols=20  Identities=20%  Similarity=0.129  Sum_probs=10.7  Template_Neff=10.600
+
+Q ss_pred             CCCeeeeecccchhhcCCCC
+Q tr|I3L321|I3L3   11 RGRSVCVCTRAFAWFSKGWH   30 (30)
+Q Consensus        11 rgrsvcvctrafawfskgwh   30 (30)
+                      .|+.|+.++..+.--++-||
+T Consensus       118 ~~~~va~~~~t~~~~~~~~~  137 (141)
+T 5HMB_A          118 AGRLVARGQVRLHNLRLEHH  137 (141)
+T ss_dssp             TCCEEEEEEEEEEEEEC---
+T ss_pred             CCCEEEEEEEEEEecCCCcc
+Confidence            35666766666665566554
+
+
+No 11
+>5HMC_A Azi13; azinomycin biosynthesis, polyketide synthase, thioesterase; HET: 5NE, SO4; 2.2A {Streptomyces sahachiroi}
+Probab=23.43  E-value=1.1e+02  Score=15.32  Aligned_cols=20  Identities=20%  Similarity=0.129  Sum_probs=10.7  Template_Neff=10.600
+
+Q ss_pred             CCCeeeeecccchhhcCCCC
+Q tr|I3L321|I3L3   11 RGRSVCVCTRAFAWFSKGWH   30 (30)
+Q Consensus        11 rgrsvcvctrafawfskgwh   30 (30)
+                      .|+.|+.++..+.--++-||
+T Consensus       118 ~~~~va~~~~t~~~~~~~~~  137 (141)
+T 5HMC_A          118 AGRLVARGQVRLHNLRLEHH  137 (141)
+T ss_dssp             TCCEEEEEEEEEEEEEC---
+T ss_pred             CCCEEEEEEEEEEecCCCcc
+Confidence            35666766666665566554
+
+
+No 12
+>6SPG_L 30S ribosomal protein S2, 30S; Ribosome, Pseudomonas aeruginosa; HET: MG; 3.34A {Pseudomonas aeruginosa}
+Probab=22.88  E-value=1.1e+02  Score=17.00  Aligned_cols=10  Identities=60%  Similarity=0.943  Sum_probs=6.7  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRGR   13 (30)
+Q Consensus         4 gkghtlgrgr   13 (30)
+                      |+|++-|||.
+T Consensus        25 g~G~~~GrG~   34 (143)
+T 6SPG_L           25 GLGKTGGRGH   34 (143)
+T ss_pred             CCCCCCCCCC
+Confidence            4677777764
+
+
+No 13
+>6P22_D Tail fiber protein; PVC, Photorhabdus laumondii, membrane piercing; HET: STE, PLM, ELA; 2.291A {Enterobacteria phage T4}
+Probab=22.18  E-value=79  Score=19.07  Aligned_cols=17  Identities=24%  Similarity=0.636  Sum_probs=13.2  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCCCCCeeeee
+Q tr|I3L321|I3L3    2 YKGKGHTLGRGRSVCVC   18 (30)
+Q Consensus         2 ykgkghtlgrgrsvcvc   18 (30)
+                      .+|.|+.-=.|+.|||-
+T Consensus        31 i~GSG~~~i~gk~VCv~   47 (138)
+T 6P22_D           31 IRGSGHAKIQGKKIVIV   47 (138)
+T ss_dssp             CCCCCSSEETTEEBCBT
+T ss_pred             eeeccceEECCEEEEEe
+Confidence            36778877789999984
+
+
+No 14
+>5J8A_DM 30S ribosomal protein S2, 30S; ribosome, resistance, negamycin, tigecycline, tetracycline; HET: MEQ, 4OC, PG4, GUN, MPD, 2MG, PSU, 6MZ, 7MG, OMU, 4D4, 5MC, D2T, 1MG, PUT, UR3, H2U, EDO, 5MU, 2MA, PEG, OMG, OMC, T1C, MG, ACY, 1PE, MA6, PGE, SPD, 3TD; 3.1A {Escherichia coli (strain K12)}
+Probab=21.98  E-value=1.2e+02  Score=16.81  Aligned_cols=9  Identities=67%  Similarity=1.025  Sum_probs=5.6  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRG   12 (30)
+Q Consensus         4 gkghtlgrg   12 (30)
+                      |+|+|-|||
+T Consensus        26 g~G~~~GrG   34 (144)
+T 5J8A_DM          26 GLGKTGGRG   34 (144)
+T ss_pred             CCCCCCCCC
+Confidence            456666665
+
+
+No 15
+>7K00_k ribosome; antibiotics, post-translational modifications, post-transcriptional modifications; HET: MEQ, G7M, 4OC, 2MG, PSU, 6MZ, OMU, PAR, 4D4, 5MC, D2T, 1MG, UR3, H2U, 5MU, SPM, 2MA, OMG, OMC, MG, MA6, SPD, 3TD; 1.98A {Escherichia coli}
+Probab=21.98  E-value=1.2e+02  Score=16.81  Aligned_cols=9  Identities=67%  Similarity=1.025  Sum_probs=5.6  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRG   12 (30)
+Q Consensus         4 gkghtlgrg   12 (30)
+                      |+|+|-|||
+T Consensus        26 g~G~~~GrG   34 (144)
+T 7K00_k           26 GLGKTGGRG   34 (144)
+T ss_pred             CCCCCCCCC
+Confidence            456666665
+
+
+No 16
+>1SS6_A NMR  p47  SEP; NMR {Homo sapiens} SCOP: d.245.1.1
+Probab=21.87  E-value=1e+02  Score=16.11  Aligned_cols=10  Identities=40%  Similarity=1.042  Sum_probs=7.6  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCC
+Q tr|I3L321|I3L3    2 YKGKGHTLGR   11 (30)
+Q Consensus         2 ykgkghtlgr   11 (30)
+                      +.|.||+||.
+T Consensus        85 F~G~G~~Lg~   94 (102)
+T 1SS6_A           85 FTGEGQKLGS   94 (102)
+T ss_dssp             SCSSSSSGGG
+T ss_pred             CCCCccccCC
+Confidence            4688898874
+
+
+No 17
+>6V3B_K Ribosome; Ribosome, Acinetobacter baumannii; HET: 5MU, 5MC, MG, 4OC, 2MG, PSU, 6MZ, 7MG, 2MA, OMU, UR3, MA6, 3TD, OMG;{Acinetobacter sp. CIP 51.11}
+Probab=21.82  E-value=1.1e+02  Score=16.87  Aligned_cols=10  Identities=60%  Similarity=0.856  Sum_probs=6.5  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRGR   13 (30)
+Q Consensus         4 gkghtlgrgr   13 (30)
+                      |+|++-|||.
+T Consensus        28 g~G~~~GrG~   37 (146)
+T 6V3B_K           28 GVGKTGGRGI   37 (146)
+T ss_pred             CCCCCCCCCC
+Confidence            4667777664
+
+
+No 18
+>7RYG_K Antibiotic, Ribosome, tetracycline, Ribosome-RNA complex; HET: 5MU, 5MC, 4OC, 2MG, PSU, 6MZ, 7MG, 2MA, OMU, UR3, MA6, H2U, 80P, OMG, 4SU; 2.38A {Acinetobacter baumannii (strain AB0057)}
+Probab=21.82  E-value=1.1e+02  Score=16.87  Aligned_cols=10  Identities=60%  Similarity=0.856  Sum_probs=6.5  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRGR   13 (30)
+Q Consensus         4 gkghtlgrgr   13 (30)
+                      |+|++-|||.
+T Consensus        28 g~G~~~GrG~   37 (146)
+T 7RYG_K           28 GVGKTGGRGI   37 (146)
+T ss_pred             CCCCCCCCCC
+Confidence            4667777664
+
+
+No 19
+>4Q1Z_A Putative lipoprotein; two domains protein, PF16215 family; HET: PGE, PEG, MSE; 2.5A {Bacteroides thetaiotaomicron}
+Probab=20.76  E-value=1.5e+02  Score=20.25  Aligned_cols=20  Identities=25%  Similarity=0.257  Sum_probs=16.6  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCeeeeecccch
+Q tr|I3L321|I3L3    4 GKGHTLGRGRSVCVCTRAFA   23 (30)
+Q Consensus         4 gkghtlgrgrsvcvctrafa   23 (30)
+                      |+.|.|..|.++.||..|-.
+T Consensus       185 G~~ypl~PGesiVIA~~Ain  204 (400)
+T 4Q1Z_A          185 GTEYPLAPGESCIISQFAAN  204 (400)
+T ss_dssp             SSSSEECTTBEEEEESSCSC
+T ss_pred             CceeeeCCCCEEEEeCCccc
+Confidence            56688999999999988753
+
+
+No 20
+>1JK9_D protein-protein complex, heterodimer, metallochaperone, chaperone; HET: SO4; 2.9A {Saccharomyces cerevisiae} SCOP: b.1.8.1, d.58.17.1
+Probab=20.67  E-value=99  Score=17.34  Aligned_cols=14  Identities=36%  Similarity=0.930  Sum_probs=10.9  Template_Neff=10.200
+
+Q ss_pred             CCeeeeecccchhh
+Q tr|I3L321|I3L3   12 GRSVCVCTRAFAWF   25 (30)
+Q Consensus        12 grsvcvctrafawf   25 (30)
+                      -+.||.|.....|-
+T Consensus       225 ~k~~c~~~~~~~~~  238 (249)
+T 1JK9_D          225 NKQVCACTGKTVWE  238 (249)
+T ss_dssp             CCCCCCBCCCCHHH
+T ss_pred             cceEEeCCCCceeh
+Confidence            45688898888884
+
+
+No 21
+>5MYJ_BO 30S ribosomal protein S2, 30S; ribosome, 70S, lactoccocus lactis, Cryo-EM; 5.6A {Lactococcus lactis subsp. cremoris MG1363}
+Probab=20.48  E-value=1.3e+02  Score=16.32  Aligned_cols=10  Identities=60%  Similarity=1.145  Sum_probs=6.4  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCC
+Q tr|I3L321|I3L3    4 GKGHTLGRGR   13 (30)
+Q Consensus         4 gkghtlgrgr   13 (30)
+                      |+|++-|||.
+T Consensus        26 g~G~~~GrG~   35 (147)
+T 5MYJ_BO          26 GNGKTSGRGQ   35 (147)
+T ss_pred             CCCCCCCCCC
+Confidence            4567777754
+
+
+No 22
+>5HO1_A Magnetosome protein MamB; C-terminal domain, Magnetotactic bacteria, metallochaperone; 2.53A {Magnetospira sp. QH-2}
+Probab=20.32  E-value=82  Score=14.97  Aligned_cols=9  Identities=11%  Similarity=-0.120  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             chhhcCCCC
+Q tr|I3L321|I3L3   22 FAWFSKGWH   30 (30)
+Q Consensus        22 fawfskgwh   30 (30)
+                      |.||+-+|+
+T Consensus         2 ~~~~~~~~~   10 (102)
+T 5HO1_A            2 GSSHHHHHH   10 (102)
+T ss_dssp             ---------
+T ss_pred             CCCcccccc
+Confidence            567766553
+
+
+No 23
+>5HO3_A Magnetosome protein MamB; c-terminal domain, Magnetotactic bacteria, metallochaperone; 2.15A {Magnetospira sp. QH-2}
+Probab=20.32  E-value=82  Score=14.97  Aligned_cols=9  Identities=11%  Similarity=-0.120  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             chhhcCCCC
+Q tr|I3L321|I3L3   22 FAWFSKGWH   30 (30)
+Q Consensus        22 fawfskgwh   30 (30)
+                      |.||+-+|+
+T Consensus         2 ~~~~~~~~~   10 (102)
+T 5HO3_A            2 GSSHHHHHH   10 (102)
+T ss_dssp             ---------
+T ss_pred             CCCcccccc
+Confidence            567766553
+
+

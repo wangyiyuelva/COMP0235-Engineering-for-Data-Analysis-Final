@@ -1,0 +1,167 @@
+Query         tr|I3L262|I3L262_HUMAN
+Match_columns 120
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:04:54 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1808.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2W2N_E PROPROTEIN CONVERTASE S  19.1 1.1E+02  0.0012   16.1   0.6   18   40-57      9-26  (107)
+  2 5KC9_A Glutamate receptor iono  18.0 2.4E+02  0.0026   19.7   2.2   14   64-77    415-428 (428)
+  3 3FBL_A Putative uncharacterize  12.9 1.5E+02  0.0016   22.6   0.2    9   96-104    10-18  (82)
+  4 7NN6_A ToxR; Vibrio cholerae T  12.7 3.4E+02  0.0037   20.8   2.0   31   13-48     12-42  (106)
+  5 6UTC_A Transcriptional activat   9.6 4.1E+02  0.0045   20.4   1.6   30   14-48     11-40  (104)
+  6 5TCU_S1 PROTEIN/RNA Complex, P   7.3 3.9E+02  0.0043   16.1   0.5   18   36-53     47-66  (80)
+  7 7ASP_a Ribosome, H68, translat   7.3 3.9E+02  0.0043   16.1   0.5   18   36-53     47-66  (80)
+  8 5YL6_A Uncharacterized protein   6.9 3.7E+02   0.004   18.0   0.4   10   43-52      1-10  (184)
+  9 2L1A_A Formin-C; fruiting body   6.9 6.3E+02  0.0068   20.3   1.6   15  106-120    20-34  (107)
+ 10 4ZMK_A Telomere length regulat   6.7 2.4E+02  0.0026   21.0  -0.7   12   83-94     31-42  (71)
+
+No 1
+>2W2N_E PROPROTEIN CONVERTASE SUBTILISIN/KEXIN TYPE 9; HYDROLASE-RECEPTOR COMPLEX, PCSK9, LDLR, PROPROTEIN; 2.3A {HOMO SAPIENS}
+Probab=19.07  E-value=1.1e+02  Score=16.09  Aligned_cols=18  Identities=28%  Similarity=0.362  Sum_probs=11.7  Template_Neff=13.100
+
+Q ss_pred             CCCccccccceeccCCCc
+Q tr|I3L262|I3L2   40 NASDFDQWEMETVYSNSE   57 (120)
+Q Consensus        40 nasdfdqwemetvysnse   57 (120)
+                      +-++|++|++...+-...
+T Consensus         9 ~~~~~~~~~~~~~~~~~~   26 (107)
+T 2W2N_E            9 PMSDYDIPTTENLYFQGA   26 (107)
+T ss_dssp             --CBESSBCBGCCCCSCC
+T ss_pred             cccccCCcccCceecccc
+Confidence            457888888877775444
+
+
+No 2
+>5KC9_A Glutamate receptor ionotropic, delta-1; ionotropic glutamate receptor (iGluR), neurotransmission; HET: BU1, CL, NAG, PG4, EDO; 2.3A {Mus musculus}
+Probab=18.04  E-value=2.4e+02  Score=19.73  Aligned_cols=14  Identities=14%  Similarity=0.090  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|I3L262|I3L2   64 PATFPNSFPSHTEH   77 (120)
+Q Consensus        64 patfpnsfpshteh   77 (120)
+                      ..++|++||.|..|
+T Consensus       415 ~~~~~~~~~~~~~~  428 (428)
+T 5KC9_A          415 SRLQGGTKHHHHHH  428 (428)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+Confidence            45678888877654
+
+
+No 3
+>3FBL_A Putative uncharacterized protein; AFV1, archaeal virus, extremophiles, lipothrixviridae; 1.95A {Acidianus filamentous virus 1}
+Probab=12.92  E-value=1.5e+02  Score=22.61  Aligned_cols=9  Identities=67%  Similarity=1.206  Sum_probs=7.4  Template_Neff=1.000
+
+Q ss_pred             CccCCCCCC
+Q tr|I3L262|I3L2   96 DQCKTDGID  104 (120)
+Q Consensus        96 dqcktdgid  104 (120)
+                      .-||||||.
+T Consensus        10 eicktdgip   18 (82)
+T 3FBL_A           10 EICKTDGIP   18 (82)
+T ss_dssp             HHHHHTTCC
+T ss_pred             HHHhhCCCC
+Confidence            469999985
+
+
+No 4
+>7NN6_A ToxR; Vibrio cholerae Trancription factor sensory; NMR {Vibrio cholerae}
+Probab=12.66  E-value=3.4e+02  Score=20.83  Aligned_cols=31  Identities=32%  Similarity=0.504  Sum_probs=24.0  Template_Neff=4.500
+
+Q ss_pred             CCCCCCCcceeeecceeecCccccCCCCCCcccccc
+Q tr|I3L262|I3L2   13 LPAQSESISLIRFHGVAILSPLVRKAPNASDFDQWE   48 (120)
+Q Consensus        13 lpaqsesislirfhgvailsplvrkapnasdfdqwe   48 (120)
+                      .|+.|+-..+-.+.||.|+.|.     |-.++++|.
+T Consensus        12 ~~~~S~Fr~i~~v~gVpV~tP~-----nhP~l~~Wl   42 (106)
+T 7NN6_A           12 SPSQTSFKPLTVVDGVAVNMPN-----NHPDLSNWL   42 (106)
+T ss_dssp             -CCCCSEEEEEESSSCEEEEES-----SSCCCTTHH
+T ss_pred             CCCcccceEeEEEcCEEEeccC-----CCCchHHhH
+Confidence            3677777778888999999885     667788885
+
+
+No 5
+>6UTC_A Transcriptional activator ToxR; Sensor, Periplasm, ToxR, alpha-beta, DNA; 1.249A {Vibrio vulnificus}
+Probab=9.63  E-value=4.1e+02  Score=20.37  Aligned_cols=30  Identities=33%  Similarity=0.636  Sum_probs=21.8  Template_Neff=4.500
+
+Q ss_pred             CCCCCCcceeeecceeecCccccCCCCCCcccccc
+Q tr|I3L262|I3L2   14 PAQSESISLIRFHGVAILSPLVRKAPNASDFDQWE   48 (120)
+Q Consensus        14 paqsesislirfhgvailsplvrkapnasdfdqwe   48 (120)
+                      |..|+-..+-.+.||.|+.|.     |-.++++|.
+T Consensus        11 ~~~S~Fr~i~~v~gVpV~tP~-----nhP~l~~Wl   40 (104)
+T 6UTC_A           11 PSESKFRLLENVNGVEVLTPL-----NHPPLQAWM   40 (104)
+T ss_dssp             ---CCEEEEEEETTEEEEEET-----TCCCCGGGH
+T ss_pred             CChhhceEEEEECCEEEEecC-----CCCCHHHHH
+Confidence            566776778889999999885     667888885
+
+
+No 6
+>5TCU_S1 PROTEIN/RNA Complex, PAROMOMYCIN; 70S ribosome, cryoEM, ribosome, Staphylococcus; HET: MG, PAR; 3.9A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=7.26  E-value=3.9e+02  Score=16.05  Aligned_cols=18  Identities=22%  Similarity=0.137  Sum_probs=11.9  Template_Neff=9.600
+
+Q ss_pred             cCCC--CCCccccccceecc
+Q tr|I3L262|I3L2   36 RKAP--NASDFDQWEMETVY   53 (120)
+Q Consensus        36 rkap--nasdfdqwemetvy   53 (120)
+                      .+.|  +....+|||+.+--
+T Consensus        47 ~ksp~~~kks~~~fe~~~~~   66 (80)
+T 5TCU_S1          47 IRAVHKYKDSREQFEQRTHK   66 (80)
+T ss_pred             ecCCCCCCCCHHheEEEEee
+Confidence            3455  56677888887653
+
+
+No 7
+>7ASP_a Ribosome, H68, translation, protein synthesis;{Staphylococcus aureus}
+Probab=7.26  E-value=3.9e+02  Score=16.05  Aligned_cols=18  Identities=22%  Similarity=0.137  Sum_probs=11.9  Template_Neff=9.600
+
+Q ss_pred             cCCC--CCCccccccceecc
+Q tr|I3L262|I3L2   36 RKAP--NASDFDQWEMETVY   53 (120)
+Q Consensus        36 rkap--nasdfdqwemetvy   53 (120)
+                      .+.|  +....+|||+.+--
+T Consensus        47 ~ksp~~~kks~~~fe~~~~~   66 (80)
+T 7ASP_a           47 IRAVHKYKDSREQFEQRTHK   66 (80)
+T ss_pred             ecCCCCCCCCHHheEEEEee
+Confidence            3455  56677888887653
+
+
+No 8
+>5YL6_A Uncharacterized protein P8A3.02c; beta barrel, OXIDOREDUCTASE; HET: AKG; 2.0A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=6.94  E-value=3.7e+02  Score=18.00  Aligned_cols=10  Identities=40%  Similarity=1.079  Sum_probs=5.7  Template_Neff=10.600
+
+Q ss_pred             ccccccceec
+Q tr|I3L262|I3L2   43 DFDQWEMETV   52 (120)
+Q Consensus        43 dfdqwemetv   52 (120)
+                      ||++|+-+.+
+T Consensus         1 ~~~~~~~~~~   10 (184)
+T 5YL6_A            1 DFENWTVVPV   10 (184)
+T ss_dssp             CCTTCEECCG
+T ss_pred             CcccCeecCC
+Confidence            5666665544
+
+
+No 9
+>2L1A_A Formin-C; fruiting body formation, actin binding; NMR {Dictyostelium discoideum}
+Probab=6.93  E-value=6.3e+02  Score=20.27  Aligned_cols=15  Identities=33%  Similarity=0.308  Sum_probs=11.1  Template_Neff=1.300
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|I3L262|I3L2  106 ARDSEGFNSPKQCDS  120 (120)
+Q Consensus       106 ardsegfnspkqcds  120 (120)
+                      -|.|..-|+|.||.|
+T Consensus        20 hr~s~s~~~p~q~~s   34 (107)
+T 2L1A_A           20 HRTSSTPQQPQQNPS   34 (107)
+T ss_dssp             SCSSSSCSCCSSCCE
+T ss_pred             ccCCCCCCCCCcCCc
+Confidence            356677788999964
+
+
+No 10
+>4ZMK_A Telomere length regulator taz1; telomere, dimerization domain, fission yeast; 1.5A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=6.65  E-value=2.4e+02  Score=21.04  Aligned_cols=12  Identities=67%  Similarity=1.043  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             ccccCCCCCCCC
+Q tr|I3L262|I3L2   83 LDKIAGILPLDN   94 (120)
+Q Consensus        83 ldkiagilpldn   94 (120)
+                      ||||.|+|..||
+T Consensus        31 ldkitgllsadn   42 (71)
+T 4ZMK_A           31 LDKITGLLSADN   42 (71)
+T ss_dssp             HHHHHHHHHHCC
+T ss_pred             HHHHHccccccc
+
+

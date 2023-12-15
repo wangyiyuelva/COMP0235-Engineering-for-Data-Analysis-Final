@@ -1,0 +1,216 @@
+Query         tr|F5GYA1|F5GYA1_HUMAN
+Match_columns 68
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:16:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1560.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4WBE_A Cytoplasmic activation/  99.5 3.4E-14 3.6E-19   91.2   5.9   65    2-66      6-70  (120)
+  2 6BK4_A Caprin homolog; RNA-Bin  99.5 1.2E-13 1.3E-18   88.9   6.0   63    2-64      7-69  (124)
+  3 6BK4_B Caprin homolog; RNA-Bin  99.5 1.2E-13 1.3E-18   88.9   6.0   63    2-64      7-69  (124)
+  4 5J97_A Caprin-2; all alpha hel  99.5 2.8E-13   3E-18   89.3   6.3   64    2-65     13-76  (137)
+  5 2F6M_B endosomes, trafficking   34.3 2.3E+02  0.0025   18.9   4.2    6   51-56     88-93  (109)
+  6 2F6M_D endosomes, trafficking   34.3 2.3E+02  0.0025   18.9   4.2    9   29-37     44-52  (109)
+  7 2AZE_A Transcription factor Dp  31.3 2.1E+02  0.0023   19.5   3.8   20    5-24     22-41  (155)
+  8 5TUU_A Transcription factor DP  31.3 2.1E+02  0.0023   19.5   3.8   20    5-24     22-41  (155)
+  9 2AKF_A Coronin-1A; coiled coil  21.9 1.8E+02   0.002   17.4   1.9   14    2-15      2-15  (32)
+ 10 4AYB_F DNA-DIRECTED RNA POLYME  21.3 1.1E+02  0.0012   18.6   1.1   12   43-54     64-75  (113)
+ 11 4V8S_BF DNA-DIRECTED RNA POLYM  21.3 1.1E+02  0.0012   18.6   1.1    8   43-50     64-71  (113)
+ 12 2RMY_A Myc box-dependent-inter  20.6 1.2E+02  0.0013   13.5   0.8    6   19-24     28-33  (34)
+ 13 4V8M_AD Ribosome; RIBOSOME, EU  20.1 1.9E+02  0.0021   19.0   2.0   12   43-54     75-86  (172)
+
+No 1
+>4WBE_A Cytoplasmic activation/proliferation-associated protein-1 (caprin-1); all alpha helical, RNA BINDING; 2.05A {Homo sapiens}
+Probab=99.54  E-value=3.4e-14  Score=91.20  Aligned_cols=65  Identities=48%  Similarity=0.745  Sum_probs=62.5  Template_Neff=6.700
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHhccHHHhhhhcCCCCCcceecCHHHHHHHHHHHhccCCCCCCCC
+Q tr|F5GYA1|F5GY    2 LKLEAEKKKLRTILQVQYVLQNLTQEHVQKDFKGGLNGAVYLPSKELDYLIKFSKLTCPERNESL   66 (68)
+Q Consensus         2 lkleaekkklrtilqvqyvlqnltqehvqkdfkgglngavylpskeldylikfskltcpernesl   66 (68)
+                      +|+++|++|+++||.+|+||++|++++||+||++|+|||++||+++|++|++||++|+|+|+...
+T Consensus         6 ~r~~~e~~rl~~vL~~Q~iL~~l~~e~vR~dFl~G~nGA~~Lse~eL~~Ld~l~~lv~p~r~~~~   70 (120)
+T 4WBE_A            6 MREEAEQKRLKTVLELQYVLDKLGDDEVRTDLKQGLNGVPILSEEELSLLDEFYKLVDPERDMSL   70 (120)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTSHHHHHHHHHCSSSCCSCCHHHHHHHHHHHHHHSCCCCTTS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhCCHHHHHHHHcCCCCCCCCCHHHHHHHHHHHHHHCCCCcCCC
+Confidence            68999999999999999999999999999999999999999999999999999999999998643
+
+
+No 2
+>6BK4_A Caprin homolog; RNA-Binding, Alpha-helical, FMRP parnter, cellular; 1.8A {Drosophila melanogaster}
+Probab=99.50  E-value=1.2e-13  Score=88.89  Aligned_cols=63  Identities=40%  Similarity=0.487  Sum_probs=59.4  Template_Neff=6.800
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHhccHHHhhhhcCCCCCcceecCHHHHHHHHHHHhccCCCCCC
+Q tr|F5GYA1|F5GY    2 LKLEAEKKKLRTILQVQYVLQNLTQEHVQKDFKGGLNGAVYLPSKELDYLIKFSKLTCPERNE   64 (68)
+Q Consensus         2 lkleaekkklrtilqvqyvlqnltqehvqkdfkgglngavylpskeldylikfskltcperne   64 (68)
+                      +|+++|++|+++||.+|+||++|++++||+||++|+|||++||+++|++|++||++|+|+++.
+T Consensus         7 er~e~e~~rl~~vL~iQ~vL~~l~~e~vR~dFl~G~nGA~~Lte~eL~~Ld~l~~li~p~~~~   69 (124)
+T 6BK4_A            7 AKTIAETAKIREVLIIQNVLNCFNDDQVRSDFLNGENGAKKLENTELELLEKFFIETQTRRPE   69 (124)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHTTSHHHHHHHHHTCTTCCCCCHHHHHHHHHHHHHHCCCCC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHcCCCCCccCCHHHHHHHHHHHHHHCCCCCC
+Confidence            799999999999999999999999999999999999999999999999999999999999975
+
+
+No 3
+>6BK4_B Caprin homolog; RNA-Binding, Alpha-helical, FMRP parnter, cellular; 1.8A {Drosophila melanogaster}
+Probab=99.50  E-value=1.2e-13  Score=88.89  Aligned_cols=63  Identities=40%  Similarity=0.487  Sum_probs=59.3  Template_Neff=6.800
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHhccHHHhhhhcCCCCCcceecCHHHHHHHHHHHhccCCCCCC
+Q tr|F5GYA1|F5GY    2 LKLEAEKKKLRTILQVQYVLQNLTQEHVQKDFKGGLNGAVYLPSKELDYLIKFSKLTCPERNE   64 (68)
+Q Consensus         2 lkleaekkklrtilqvqyvlqnltqehvqkdfkgglngavylpskeldylikfskltcperne   64 (68)
+                      +|+++|++|+++||.+|+||++|++++||+||++|+|||++||+++|++|++||++|+|+++.
+T Consensus         7 er~e~e~~rl~~vL~iQ~vL~~l~~e~vR~dFl~G~nGA~~Lte~eL~~Ld~l~~li~p~~~~   69 (124)
+T 6BK4_B            7 AKTIAETAKIREVLIIQNVLNCFNDDQVRSDFLNGENGAKKLENTELELLEKFFIETQTRRPE   69 (124)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHTSHHHHHHHHHTCTTCCCCCHHHHHHHHHHHHHHCCCCC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHcCCCCCccCCHHHHHHHHHHHHHHCCCCCC
+Confidence            799999999999999999999999999999999999999999999999999999999999975
+
+
+No 4
+>5J97_A Caprin-2; all alpha helical, RNA BINDING; HET: MSE; 2.55A {Homo sapiens}
+Probab=99.47  E-value=2.8e-13  Score=89.33  Aligned_cols=64  Identities=100%  Similarity=1.396  Sum_probs=62.1  Template_Neff=6.400
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHhccHHHhhhhcCCCCCcceecCHHHHHHHHHHHhccCCCCCCC
+Q tr|F5GYA1|F5GY    2 LKLEAEKKKLRTILQVQYVLQNLTQEHVQKDFKGGLNGAVYLPSKELDYLIKFSKLTCPERNES   65 (68)
+Q Consensus         2 lkleaekkklrtilqvqyvlqnltqehvqkdfkgglngavylpskeldylikfskltcpernes   65 (68)
+                      +|+++|++||++||.+|+||++|++++||+||++|+|||++||+++|++|++||++|+|+|+..
+T Consensus        13 ~R~~~e~~rl~~vL~~Q~iL~~l~~e~vR~dFl~G~nGA~~Lse~el~~Ld~l~~lv~p~r~~~   76 (137)
+T 5J97_A           13 LKLEAEKKKLRTILQVQYVLQNLTQEHVQKDFKGGLNGAVYLPSKELDYLIKFSKLTCPERNES   76 (137)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTSHHHHHHHHTTTTSCCCCCHHHHHHHHHHHHHHSCCCCTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCHHHHHHHhcCCCCCccCCHHHHHHHHHHHHHHCCCCCCC
+Confidence            6899999999999999999999999999999999999999999999999999999999999864
+
+
+No 5
+>2F6M_B endosomes, trafficking complex, Vps23, Vps28; HET: DDQ; 2.1A {Saccharomyces cerevisiae} SCOP: a.2.17.2
+Probab=34.27  E-value=2.3e+02  Score=18.93  Aligned_cols=6  Identities=17%  Similarity=0.462  Sum_probs=2.4  Template_Neff=6.300
+
+Q ss_pred             HHHHHh
+Q tr|F5GYA1|F5GY   51 LIKFSK   56 (68)
+Q Consensus        51 likfsk   56 (68)
+                      ++.|.+
+T Consensus        88 i~~F~~   93 (109)
+T 2F6M_B           88 IEAFAD   93 (109)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            444433
+
+
+No 6
+>2F6M_D endosomes, trafficking complex, Vps23, Vps28; HET: DDQ; 2.1A {Saccharomyces cerevisiae} SCOP: a.2.17.2
+Probab=34.27  E-value=2.3e+02  Score=18.93  Aligned_cols=9  Identities=22%  Similarity=0.294  Sum_probs=3.9  Template_Neff=6.300
+
+Q ss_pred             hhhhcCCCC
+Q tr|F5GYA1|F5GY   29 VQKDFKGGL   37 (68)
+Q Consensus        29 vqkdfkggl   37 (68)
+                      +-+.|..|.
+T Consensus        44 LEkayvrd~   52 (109)
+T 2F6M_D           44 VEKAYLKDS   52 (109)
+T ss_dssp             HHHHHHTTS
+T ss_pred             HHHHHhccc
+Confidence            344454443
+
+
+No 7
+>2AZE_A Transcription factor Dp-1, Transcription factor; coiled coil, beta sandwich, CELL; 2.55A {Homo sapiens} SCOP: e.63.1.1
+Probab=31.30  E-value=2.1e+02  Score=19.50  Aligned_cols=20  Identities=20%  Similarity=0.444  Sum_probs=8.6  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhc
+Q tr|F5GYA1|F5GY    5 EAEKKKLRTILQVQYVLQNL   24 (68)
+Q Consensus         5 eaekkklrtilqvqyvlqnl   24 (68)
+                      ++..+.|++.+.-+-.+.+|
+T Consensus        22 e~K~~~L~el~~q~~~l~nL   41 (155)
+T 2AZE_A           22 KQKQSQLQELILQQIAFKNL   41 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            34444454444443333433
+
+
+No 8
+>5TUU_A Transcription factor DP1, Transcription factor; Transcription factor, cell-cycle regulation, coiled; HET: GOL; 2.251A {Homo sapiens}
+Probab=31.30  E-value=2.1e+02  Score=19.50  Aligned_cols=20  Identities=20%  Similarity=0.444  Sum_probs=8.2  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhc
+Q tr|F5GYA1|F5GY    5 EAEKKKLRTILQVQYVLQNL   24 (68)
+Q Consensus         5 eaekkklrtilqvqyvlqnl   24 (68)
+                      ++..+.|++.+.-+-.+.+|
+T Consensus        22 e~K~~~L~el~~q~~~l~nL   41 (155)
+T 5TUU_A           22 KQKQSQLQELILQQIAFKNL   41 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            34444444444443333333
+
+
+No 9
+>2AKF_A Coronin-1A; coiled coil, coronin 1, PROTEIN; 1.2A {N/A}
+Probab=21.85  E-value=1.8e+02  Score=17.45  Aligned_cols=14  Identities=29%  Similarity=0.558  Sum_probs=9.5  Template_Neff=2.200
+
+Q ss_pred             CChHHHHHHHHHHH
+Q tr|F5GYA1|F5GY    2 LKLEAEKKKLRTIL   15 (68)
+Q Consensus         2 lkleaekkklrtil   15 (68)
+                      .|.+.|.+.|+.++
+T Consensus         2 ~~LeeE~r~L~a~V   15 (32)
+T 2AKF_A            2 SRLEEDVRNLNAIV   15 (32)
+T ss_dssp             CHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHH
+Confidence            35677777777664
+
+
+No 10
+>4AYB_F DNA-DIRECTED RNA POLYMERASE (E.C.2.7.7.6); TRANSFERASE, MULTI-SUBUNIT, TRANSCRIPTION; HET: ZN; 3.202A {SULFOLOBUS SHIBATAE}
+Probab=21.29  E-value=1.1e+02  Score=18.58  Aligned_cols=12  Identities=8%  Similarity=-0.094  Sum_probs=8.5  Template_Neff=8.700
+
+Q ss_pred             cCHHHHHHHHHH
+Q tr|F5GYA1|F5GY   43 LPSKELDYLIKF   54 (68)
+Q Consensus        43 lpskeldylikf   54 (68)
+                      |++.+..+|-.+
+T Consensus        64 l~~~e~~~i~Nl   75 (113)
+T 4AYB_F           64 SREDVRAVLASI   75 (113)
+T ss_dssp             CCHHHHHHHHHH
+T ss_pred             CCHHHHHHHhhc
+Confidence            777777776665
+
+
+No 11
+>4V8S_BF DNA-DIRECTED RNA POLYMERASE SUBUNIT K; TRANSFERASE-DNA COMPLEX, TRANSCRIPTION; HET: ZN, SF4; 4.323A {SULFOLOBUS SHIBATAE B12}
+Probab=21.29  E-value=1.1e+02  Score=18.58  Aligned_cols=8  Identities=0%  Similarity=-0.321  Sum_probs=3.2  Template_Neff=8.700
+
+Q ss_pred             cCHHHHHH
+Q tr|F5GYA1|F5GY   43 LPSKELDY   50 (68)
+Q Consensus        43 lpskeldy   50 (68)
+                      |++.+..+
+T Consensus        64 l~~~e~~~   71 (113)
+T 4V8S_BF          64 SREDVRAV   71 (113)
+T ss_pred             CCHHHHHH
+Confidence            44444333
+
+
+No 12
+>2RMY_A Myc box-dependent-interacting protein 1; BARpeptide, micelle, NMR-structure, Alternative splicing; NMR {Homo sapiens}
+Probab=20.63  E-value=1.2e+02  Score=13.46  Aligned_cols=6  Identities=67%  Similarity=0.711  Sum_probs=2.6  Template_Neff=10.100
+
+Q ss_pred             HHHHhc
+Q tr|F5GYA1|F5GY   19 YVLQNL   24 (68)
+Q Consensus        19 yvlqnl   24 (68)
+                      .||+.|
+T Consensus        28 ~VLQkL   33 (34)
+T 2RMY_A           28 KVLQKL   33 (34)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+Confidence            344443
+
+
+No 13
+>4V8M_AD Ribosome; RIBOSOME, EUKARYOTIC, KINETOPLASTIDS, EXPANSION SEGMENTS; 5.57A {TRYPANOSOMA BRUCEI BRUCEI}
+Probab=20.06  E-value=1.9e+02  Score=19.00  Aligned_cols=12  Identities=25%  Similarity=0.708  Sum_probs=5.1  Template_Neff=8.600
+
+Q ss_pred             cCHHHHHHHHHH
+Q tr|F5GYA1|F5GY   43 LPSKELDYLIKF   54 (68)
+Q Consensus        43 lpskeldylikf   54 (68)
+                      ++.+.++.|..+
+T Consensus        75 l~~egi~~lr~~   86 (172)
+T 4V8M_AD          75 LNDEGINYMRKY   86 (172)
+T ss_pred             EecccchhHHHh
+Confidence            344444443333
+
+

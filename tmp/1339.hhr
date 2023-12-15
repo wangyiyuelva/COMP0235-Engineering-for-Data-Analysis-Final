@@ -1,0 +1,570 @@
+Query         tr|H3BMR3|H3BMR3_HUMAN
+Match_columns 109
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:41:37 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1339.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1TT5_C amyloid protein-binding  99.6 1.2E-15 1.3E-20  116.1   8.2   92   18-109   136-227 (531)
+  2 2NVU_A Multifunction macromole  99.6 2.7E-15 2.9E-20  114.7   8.0   91   19-109   137-227 (536)
+  3 4II2_A Ubiquitin activating en  97.7 7.4E-05   8E-10   63.4   3.6   86   18-103   529-617 (1001)
+  4 4II3_A Ubiquitin activating en  97.7 7.4E-05   8E-10   63.4   3.6   86   18-103   529-617 (1001)
+  5 6O82_C Ubiquitin-activating en  97.7 7.4E-05   8E-10   63.4   3.6   86   18-103   529-617 (1001)
+  6 3CMM_C Ubiquitin-activating en  96.0   0.013 1.4E-07   50.5   3.2   78   18-95    538-618 (1015)
+  7 1Y8R_A SUMO  E1  HETERODIMER;   96.0   0.038 4.1E-07   39.7   5.1   39   18-56    137-175 (346)
+  8 6CWY_C E3 ubiquitin-protein li  96.0   0.038 4.1E-07   39.7   5.1   39   18-56    137-175 (346)
+  9 6XOG_A SUMO-activating enzyme   96.0   0.038 4.1E-07   39.7   5.1   39   18-56    137-175 (346)
+ 10 4NNJ_A Ubiquitin-activating en  95.7   0.023 2.5E-07   49.4   3.6   78   18-95    563-643 (1040)
+ 11 6ZQH_A Ubiquitin-activating en  95.1    0.04 4.4E-07   47.7   3.2   78   18-95    547-627 (1024)
+ 12 4II2_A Ubiquitin activating en  90.7    0.97 1.1E-05   39.4   4.8   42   18-59    123-165 (1001)
+ 13 4II3_A Ubiquitin activating en  90.7    0.97 1.1E-05   39.4   4.8   42   18-59    123-165 (1001)
+ 14 6O82_C Ubiquitin-activating en  90.7    0.97 1.1E-05   39.4   4.8   42   18-59    123-165 (1001)
+ 15 4P22_A Ubiquitin-like modifier  88.9     2.8   3E-05   32.8   5.5   42   18-59    177-218 (446)
+ 16 4P22_B Ubiquitin-like modifier  88.9     2.8   3E-05   32.8   5.5   42   18-59    177-218 (446)
+ 17 6DC6_C Ubiquitin-like modifier  87.8     2.7 2.9E-05   36.6   5.3   34   19-52    128-161 (1015)
+ 18 3CMM_C Ubiquitin-activating en  87.3     2.6 2.8E-05   37.0   5.0   37   17-53    125-161 (1015)
+ 19 4NNJ_A Ubiquitin-activating en  84.7       4 4.3E-05   36.3   4.9   42   17-58    150-191 (1040)
+ 20 6ZQH_A Ubiquitin-activating en  84.7     4.2 4.6E-05   36.0   5.0   42   17-58    134-175 (1024)
+ 21 6XOG_B SUMO-activating enzyme   47.0      72 0.00079   27.5   4.3   76   18-93    120-198 (640)
+ 22 3KYD_B E1, SUMO, UBIQUITIN, TH  38.5 1.3E+02  0.0014   24.7   4.3   77   18-94    122-201 (551)
+ 23 3KYC_B E1, SUMO, UBIQUITIN, TH  36.1 1.3E+02  0.0014   26.4   4.2   75   18-92    140-217 (660)
+ 24 1ZKM_A Adenylyltransferase thi  30.8 2.7E+02  0.0029   18.4   4.7   43   19-61    133-177 (253)
+ 25 2DOG_A Probable 16S rRNA-proce  29.7      83  0.0009   19.2   1.6    6   41-46     14-19  (85)
+ 26 6CWY_D E3 ubiquitin-protein li  27.5 1.9E+02  0.0021   25.4   3.9   75   18-92    140-217 (660)
+ 27 2NVU_B Multifunction macromole  25.8   2E+02  0.0022   23.6   3.5   68   17-84    511-595 (805)
+ 28 6YUB_B Adenylyltransferase and  24.5 3.3E+02  0.0036   20.0   4.0   44   18-61    136-190 (303)
+ 29 6DC6_C Ubiquitin-like modifier  20.2 3.5E+02  0.0038   24.4   4.1   77   18-94    536-615 (1015)
+
+No 1
+>1TT5_C amyloid protein-binding protein 1, ubiquitin-activating; CELL CYCLE, LIGASE; 2.6A {Homo sapiens} SCOP: c.111.1.2
+Probab=99.65  E-value=1.2e-15  Score=116.10  Aligned_cols=92  Identities=100%  Similarity=1.592  Sum_probs=70.1  Template_Neff=9.500
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeecCccchHhhccCCCCcHHHHHHHhhcChhhhccCCCCCCc
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESHPDNALEDLRLDKPFPELREHFQSYDLDHMEKKDHSHTP   97 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpvieshpdnaledlrldkpfpelrehfqsydldhmekkdhshtp   97 (109)
+                      ..+..+++.|+..++|++.+++.|..|++.+..+.+.|+.|.......+++...++|++.+++..++.+..+....+..|
+T Consensus       136 ~~~~~l~~~~~~~~ip~i~~~~~G~~G~v~~~~~~~~~~~~~~~~~~~dlrl~~p~~~L~~~~~~~d~~~~~~~~~~~~P  215 (531)
+T 1TT5_C          136 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESHPDNALEDLRLDKPFPELREHFQSYDLDHMEKKDHSHTP  215 (531)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEEEEETTEEEEEEECSCEEESCCCCSSCCCCCCSSSCCHHHHHHHTTC-----------CCC
+T ss_pred             HHHHHHHHHHHHCCCCEEEEEeccceEEEEEEeCCceEEecCCCccccccccCCCCHHHHHHHHHCChhhccccccccCH
+Confidence            34567899999999999999999999999999987778888765556678889999999999999988888888899999
+
+
+Q ss_pred             hhhhhhhhhhCC
+Q tr|H3BMR3|H3BM   98 WIVIIAKYLAQW  109 (109)
+Q Consensus        98 wiviiakylaqw  109 (109)
+                      +++.++.+++.|
+T Consensus       216 ~~vil~~al~~~  227 (531)
+T 1TT5_C          216 WIVIIAKYLAQW  227 (531)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+Confidence            999998887654
+
+
+No 2
+>2NVU_A Multifunction macromolecular complex, Ubiquitin, NEDD8; HET: ATP; 2.8A {Homo sapiens} SCOP: c.111.1.2
+Probab=99.62  E-value=2.7e-15  Score=114.74  Aligned_cols=91  Identities=100%  Similarity=1.602  Sum_probs=77.6  Template_Neff=9.400
+
+Q ss_pred             hhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeecCccchHhhccCCCCcHHHHHHHhhcChhhhccCCCCCCch
+Q tr|H3BMR3|H3BM   19 TSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESHPDNALEDLRLDKPFPELREHFQSYDLDHMEKKDHSHTPW   98 (109)
+Q Consensus        19 tslrladvlwnsqipllicrtyglvgymriiikehpvieshpdnaledlrldkpfpelrehfqsydldhmekkdhshtpw   98 (109)
+                      .+..+++.|+..++|++.+++.|..|.+.+..+.+.|+.|.......+++...++|++.+++..++.+..+.......|+
+T Consensus       137 ~~~~l~~~~~~~~ip~i~~~~~G~~G~v~~~~~~~~~~~~~~~~~~~dlr~~~p~~~L~~~~~~~d~~~~~~~~~~~vP~  216 (536)
+T 2NVU_A          137 TSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESHPDNALEDLRLDKPFPELREHFQSYDLDHMEKKDHSHTPW  216 (536)
+T ss_dssp             HHHHHHHHHHHTTCCEEEEEEETTEEEEEEECSCEEESCCCCSSCCCCCCSSSCCHHHHHHHHTCCSSSSCHHHHHTCCH
+T ss_pred             HHHHHHHHHHHCCCCEEEEEeccceEEEEEEecCceEEecCCCccCCCcccCCCCHHHHHHHHhCChhhcccccccCCHH
+Confidence            45678999999999999999999999999999878888887655566889999999999999988887777777788999
+
+
+Q ss_pred             hhhhhhhhhCC
+Q tr|H3BMR3|H3BM   99 IVIIAKYLAQW  109 (109)
+Q Consensus        99 iviiakylaqw  109 (109)
+                      ++.++.+++.|
+T Consensus       217 ~vil~~~l~~~  227 (536)
+T 2NVU_A          217 IVIIAKYLAQW  227 (536)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            99998777643
+
+
+No 3
+>4II2_A Ubiquitin activating enzyme 1 (Uba1); ubiquitin, E1, E2, Uba1, Ubc4; HET: ATP, SO4, EDO; 2.2A {Schizosaccharomyces pombe}
+Probab=97.68  E-value=7.4e-05  Score=63.40  Aligned_cols=86  Identities=17%  Similarity=0.127  Sum_probs=75.1  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..++..|...++|++.+++.|..|.+.+..|. ++||.|...+  ...++|+.+++|.+.+++..|+++.++..+..
+T Consensus       529 ~ar~~~~~~~~~~~~Pli~~gt~g~~g~v~v~~p~~t~~~~c~~~~~~~~~p~ct~~~fP~~~~h~i~wa~~~f~~~f~~  608 (1001)
+T 4II2_A          529 EARMYVDRRCVFFEKPLLESGTLGTKGNTQVVVPHLTESYGSSQDPPEKSFPICTLKNFPNRIEHTIAWARDLFEGLFKQ  608 (1001)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTBCCGGGSCCCCCCCCCHHHHHHCCCSHHHHHHHHHHHHHHHHTH
+T ss_pred             HHHHHHHHHHHHcCCCEEEccCCcccccceeecCCccCCCCCCCCCCCCCCCCccCCCCCccHHHHHHHHHHHHhHhhcC
+Confidence            35788999999999999999999999999999998 8899998766  46788999999999999999999998888887
+
+
+Q ss_pred             CCchhhhhh
+Q tr|H3BMR3|H3BM   95 HTPWIVIIA  103 (109)
+Q Consensus        95 htpwiviia  103 (109)
+                      ..+++..++
+T Consensus       609 ~~~~~~~~~  617 (1001)
+T 4II2_A          609 PIDNVNMYL  617 (1001)
+T ss_dssp             HHHHHHHHT
+T ss_pred             CHHHHHHHH
+Confidence            766655543
+
+
+No 4
+>4II3_A Ubiquitin activating enzyme 1 (Uba1); Rossmann-like Fold, ubiquitin-like fold, Ubiquitin; HET: ATP, CA; 2.9A {Schizosaccharomyces pombe}
+Probab=97.68  E-value=7.4e-05  Score=63.40  Aligned_cols=86  Identities=17%  Similarity=0.127  Sum_probs=75.4  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..++..|...++|++.+++.|..|.+.+..|. ++||.|...+  ...++|+.+++|.+.+++..|+++.++..+..
+T Consensus       529 ~ar~~~~~~~~~~~~Pli~~gt~g~~g~v~v~~p~~t~~~~c~~~~~~~~~p~ct~~~fP~~~~h~i~wa~~~f~~~f~~  608 (1001)
+T 4II3_A          529 EARMYVDRRCVFFEKPLLESGTLGTKGNTQVVVPHLTESYGSSQDPPEKSFPICTLKNFPNRIEHTIAWARDLFEGLFKQ  608 (1001)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEEEEEBTEEEEEEECTTTBCCGGGSCCCCCCCCCHHHHHTCCCSHHHHHHHHHHHHHHHHTH
+T ss_pred             HHHHHHHHHHHHcCCCEEEccCCcccccceeecCCccCCCCCCCCCCCCCCCCccCCCCCccHHHHHHHHHHHHhHhhcC
+Confidence            35788999999999999999999999999999998 8899998776  46788999999999999999999999888887
+
+
+Q ss_pred             CCchhhhhh
+Q tr|H3BMR3|H3BM   95 HTPWIVIIA  103 (109)
+Q Consensus        95 htpwiviia  103 (109)
+                      ..+++..++
+T Consensus       609 ~~~~~~~~~  617 (1001)
+T 4II3_A          609 PIDNVNMYL  617 (1001)
+T ss_dssp             HHHHHHHHT
+T ss_pred             CHHHHHHHH
+Confidence            776655543
+
+
+No 5
+>6O82_C Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); THIOESTER, ADENYLATION, INHIBITOR, ACYL-ADENYLATE INTERMEDIATE; HET: SO4, JZU, POP; 2.604A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=97.68  E-value=7.4e-05  Score=63.40  Aligned_cols=86  Identities=17%  Similarity=0.127  Sum_probs=75.4  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..++..|...++|++.+++.|..|.+.+..|. ++||.|...+  ...++|+.+++|.+.+++..|+++.++..+..
+T Consensus       529 ~ar~~~~~~~~~~~~Pli~~gt~g~~g~v~v~~p~~t~~~~c~~~~~~~~~p~ct~~~fP~~~~h~i~wa~~~f~~~f~~  608 (1001)
+T 6O82_C          529 EARMYVDRRCVFFEKPLLESGTLGTKGNTQVVVPHLTESYGSSQDPPEKSFPICTLKNFPNRIEHTIAWARDLFEGLFKQ  608 (1001)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEEEEETTEEEEEEECTTTBCCGGGSCCCCCCCCCHHHHHTCCCSHHHHHHHHHHHHHHHHTH
+T ss_pred             HHHHHHHHHHHHcCCCEEEccCCcccccceeecCCccCCCCCCCCCCCCCCCCccCCCCCccHHHHHHHHHHHHhHhhcC
+Confidence            35788999999999999999999999999999998 8899998776  46788999999999999999999999888887
+
+
+Q ss_pred             CCchhhhhh
+Q tr|H3BMR3|H3BM   95 HTPWIVIIA  103 (109)
+Q Consensus        95 htpwiviia  103 (109)
+                      ..+++..++
+T Consensus       609 ~~~~~~~~~  617 (1001)
+T 6O82_C          609 PIDNVNMYL  617 (1001)
+T ss_dssp             HHHHHHHHT
+T ss_pred             CHHHHHHHH
+Confidence            776655543
+
+
+No 6
+>3CMM_C Ubiquitin-activating enzyme E1 1 (E.C.6.3.2.19)/Ubiquitin; Ubiquitin, E1, Uba1, Protein turnover; HET: PRO; 2.7A {Saccharomyces cerevisiae}
+Probab=96.00  E-value=0.013  Score=50.51  Aligned_cols=78  Identities=18%  Similarity=0.136  Sum_probs=67.3  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..++..|...++|++.+++.|..|.+.++.|. +.||.|...+  ...++|+.+++|...+++..|+...|...+..
+T Consensus       538 ~~r~~v~~~c~~~~~Pli~~gt~G~~g~v~~~ip~~t~~~~~~~~~~~~~~p~ctl~~fp~~~~h~i~wa~~lf~~lf~~  617 (1015)
+T 3CMM_C          538 DARTYVDRRCVFYRKPLLESGTLGTKGNTQVIIPRLTESYSSSRDPPEKSIPLCTLRSFPNKIDHTIAWAKSLFQGYFTD  617 (1015)
+T ss_pred             HHHHHHHHHHHHcCCCEEEeecccCCccceEEcCCCCCCccCCCCCCCcCCCCccccCCCCcHHHHHHHHHHHHhHHhhh
+Confidence            34677889999999999999999999999999998 8899998765  46789999999999999999998877766554
+
+
+Q ss_pred             C
+Q tr|H3BMR3|H3BM   95 H   95 (109)
+Q Consensus        95 h   95 (109)
+                      .
+T Consensus       618 ~  618 (1015)
+T 3CMM_C          618 S  618 (1015)
+T ss_pred             c
+Confidence            3
+
+
+No 7
+>1Y8R_A SUMO  E1  HETERODIMER; HET: ATP; 2.75A {Homo sapiens}
+Probab=95.99  E-value=0.038  Score=39.68  Aligned_cols=39  Identities=15%  Similarity=0.373  Sum_probs=32.8  Template_Neff=10.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCccee
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVI   56 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpvi   56 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++.++.+.+.
+T Consensus       137 ~~~~~l~~~~~~~~ip~i~~~~~G~~g~v~~~~~~~~~~  175 (346)
+T 1Y8R_A          137 DVIVKVDQICHKNSIKFFTGDVFGYHGYTFANLGEHEFV  175 (346)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEEBTEEEEEEECSEEEEE
+T ss_pred             HHHHHHHHHHHHCCCcEEEEcccCcEEEEEEecCCCEEE
+Confidence            446778999999999999999999999999988764333
+
+
+No 8
+>6CWY_C E3 ubiquitin-protein ligase ARIH1 (E.C.2.3.2.-); ROSSMANN-LIKE FOLD, UBIQUITIN-LIKE FOLD, UBIQUITIN; HET: GOL, FHJ, SO4; 2.462A {Homo sapiens}
+Probab=95.99  E-value=0.038  Score=39.68  Aligned_cols=39  Identities=15%  Similarity=0.373  Sum_probs=32.8  Template_Neff=10.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCccee
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVI   56 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpvi   56 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++.++.+.+.
+T Consensus       137 ~~~~~l~~~~~~~~ip~i~~~~~G~~g~v~~~~~~~~~~  175 (346)
+T 6CWY_C          137 DVIVKVDQICHKNSIKFFTGDVFGYHGYTFANLGEHEFV  175 (346)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEEBTEEEEEEECSEEEEE
+T ss_pred             HHHHHHHHHHHHCCCcEEEEcccCcEEEEEEecCCCEEE
+Confidence            446778999999999999999999999999988764333
+
+
+No 9
+>6XOG_A SUMO-activating enzyme subunit 1, SUMO-activating; SAE, SUMO1, covalent inhibitor, LIGASE; HET: VAY; 1.98A {Homo sapiens}
+Probab=95.99  E-value=0.038  Score=39.68  Aligned_cols=39  Identities=15%  Similarity=0.373  Sum_probs=32.7  Template_Neff=10.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCccee
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVI   56 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpvi   56 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++.++.+.+.
+T Consensus       137 ~~~~~l~~~~~~~~ip~i~~~~~G~~g~v~~~~~~~~~~  175 (346)
+T 6XOG_A          137 DVIVKVDQICHKNSIKFFTGDVFGYHGYTFANLGEHEFV  175 (346)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEEBTEEEEEEECSEEEEE
+T ss_pred             HHHHHHHHHHHHCCCcEEEEcccCcEEEEEEecCCCEEE
+Confidence            445678999999999999999999999999988764333
+
+
+No 10
+>4NNJ_A Ubiquitin-activating enzyme E1 1, Uba1; ubiquitin activating enzyme (E1), Uba1; HET: SO4, GOL, AMP; 2.4A {Saccharomyces cerevisiae}
+Probab=95.67  E-value=0.023  Score=49.37  Aligned_cols=78  Identities=18%  Similarity=0.136  Sum_probs=68.0  Template_Neff=8.900
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..+++.|...++|++.+++.|..|.+.++.|. +.||.|...+  ...++|..+++|...+++..|+...|...+..
+T Consensus       563 ~ar~~l~~~c~~~~iPli~~gt~G~~g~v~~~~p~~t~~~~~~~~~~~~~~p~ctl~~fp~~~~h~i~wa~~lf~~lf~~  642 (1040)
+T 4NNJ_A          563 DARTYVDRRCVFYRKPLLESGTLGTKGNTQVIIPRLTESYSSSRDPPEKSIPLCTLRSFPNKIDHTIAWAKSLFQGYFTD  642 (1040)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTBCCGGGSCCCCCCCCCHHHHHTCCCSHHHHHHHHHHHHHCCCCC
+T ss_pred             HHHHHHHHHHHHcCCCEEEeecccceeeeeEEcCCCCCCccCCCCCCccCCCCccccccCcchHHHHHHHHHHHHHHHhh
+Confidence            45778999999999999999999999999999998 8899988665  45678999999999999999998888877655
+
+
+Q ss_pred             C
+Q tr|H3BMR3|H3BM   95 H   95 (109)
+Q Consensus        95 h   95 (109)
+                      .
+T Consensus       643 ~  643 (1040)
+T 4NNJ_A          643 S  643 (1040)
+T ss_dssp             H
+T ss_pred             c
+Confidence            3
+
+
+No 11
+>6ZQH_A Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); Ubiquitin, E1, LIGASE; HET: BME, PG4, GOL; 2.032A {Saccharomyces cerevisiae}
+Probab=95.10  E-value=0.04  Score=47.75  Aligned_cols=78  Identities=18%  Similarity=0.136  Sum_probs=67.8  Template_Neff=9.000
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..+++.|...++|++.+++.|..|.+.++.|. +.||.|...+  ...++|..+++|...+++..|+...|...+..
+T Consensus       547 ~~r~~l~~~~~~~~~Pli~~gt~G~~g~v~~~~p~~t~~~~~~~~~~~~~~p~ctl~~~p~~~~h~i~wa~~~f~~lf~~  626 (1024)
+T 6ZQH_A          547 DARTYVDRRCVFYRKPLLESGTLGTKGNTQVIIPRLTESYSSSRDPPEKSIPLCTLRSFPNKIDHTIAWAKSLFQGYFTD  626 (1024)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTBCCGGGSCCCCCCCCCHHHHHTCCCSHHHHHHHHHHHHHCCCCC
+T ss_pred             HHHHHHHHHHHHcCCCEEEccccCccccccEEcCCCCCCccCCCCCCccCCCCccccCCCCchhHHHHHHHHHHhHHhhc
+Confidence            45778999999999999999999999999999998 8899998765  45678999999999999999998888777665
+
+
+Q ss_pred             C
+Q tr|H3BMR3|H3BM   95 H   95 (109)
+Q Consensus        95 h   95 (109)
+                      .
+T Consensus       627 ~  627 (1024)
+T 6ZQH_A          627 S  627 (1024)
+T ss_dssp             H
+T ss_pred             C
+Confidence            4
+
+
+No 12
+>4II2_A Ubiquitin activating enzyme 1 (Uba1); ubiquitin, E1, E2, Uba1, Ubc4; HET: ATP, SO4, EDO; 2.2A {Schizosaccharomyces pombe}
+Probab=90.67  E-value=0.97  Score=39.45  Aligned_cols=42  Identities=17%  Similarity=0.280  Sum_probs=34.9  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESH   59 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpviesh   59 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++..+. +.+..+.
+T Consensus       123 ~~~~~l~~~c~~~~ip~i~~~~~G~~g~v~~~~~~~~~~~~~~  165 (1001)
+T 4II2_A          123 TKQLEINDFTHKNHIAYIAADSRGLFGSIFCDFGENFICTDTD  165 (1001)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEETTEEEEEEECCTTEEESBSS
+T ss_pred             HHHHHHHHHHHHcCCeEEEEecCCceeeEEeeecCceeEecCC
+Confidence            34678999999999999999999999999998876 4454443
+
+
+No 13
+>4II3_A Ubiquitin activating enzyme 1 (Uba1); Rossmann-like Fold, ubiquitin-like fold, Ubiquitin; HET: ATP, CA; 2.9A {Schizosaccharomyces pombe}
+Probab=90.67  E-value=0.97  Score=39.45  Aligned_cols=42  Identities=17%  Similarity=0.280  Sum_probs=34.8  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESH   59 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpviesh   59 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++..+. +.+..+.
+T Consensus       123 ~~~~~l~~~c~~~~ip~i~~~~~G~~g~v~~~~~~~~~~~~~~  165 (1001)
+T 4II3_A          123 TKQLEINDFTHKNHIAYIAADSRGLFGSIFCDFGENFICTDTD  165 (1001)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEETTEEEEEEECCTTEEESBSS
+T ss_pred             HHHHHHHHHHHHcCCeEEEEecCCceeeEEeeecCceeEecCC
+Confidence            34678999999999999999999999999998876 4454443
+
+
+No 14
+>6O82_C Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); THIOESTER, ADENYLATION, INHIBITOR, ACYL-ADENYLATE INTERMEDIATE; HET: SO4, JZU, POP; 2.604A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=90.67  E-value=0.97  Score=39.45  Aligned_cols=42  Identities=17%  Similarity=0.280  Sum_probs=34.8  Template_Neff=9.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESH   59 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpviesh   59 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++..+. +.+..+.
+T Consensus       123 ~~~~~l~~~c~~~~ip~i~~~~~G~~g~v~~~~~~~~~~~~~~  165 (1001)
+T 6O82_C          123 TKQLEINDFTHKNHIAYIAADSRGLFGSIFCDFGENFICTDTD  165 (1001)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEETTEEEEEEECCTTEEESBSS
+T ss_pred             HHHHHHHHHHHHcCCeEEEEecCCceeeEEeeecCceeEecCC
+Confidence            34678999999999999999999999999998876 4454443
+
+
+No 15
+>4P22_A Ubiquitin-like modifier-activating enzyme 1 (E.C.6.3.2.19); E1, ubiquitin, LIGASE; 2.75A {Homo sapiens}
+Probab=88.89  E-value=2.8  Score=32.85  Aligned_cols=42  Identities=24%  Similarity=0.363  Sum_probs=36.1  Template_Neff=9.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeecC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESH   59 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpviesh   59 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++..+.+.|+.|.
+T Consensus       177 ~~~~~l~~~c~~~~ip~i~~~~~G~~g~vf~d~g~~~~~~~~  218 (446)
+T 4P22_A          177 EDQLRVGEFCHNRGIKLVVADTRGLFGQLFCDFGEEMILTDS  218 (446)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEEETTEEEEEEECCSCEEEEEC
+T ss_pred             HHHHHHHHHHHHcCCeEEEEecCCceEEEEEeCCCccEEECC
+Confidence            456789999999999999999999999999887667777665
+
+
+No 16
+>4P22_B Ubiquitin-like modifier-activating enzyme 1 (E.C.6.3.2.19); E1, ubiquitin, LIGASE; 2.75A {Homo sapiens}
+Probab=88.89  E-value=2.8  Score=32.85  Aligned_cols=42  Identities=24%  Similarity=0.363  Sum_probs=35.9  Template_Neff=9.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeecC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIESH   59 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiikehpviesh   59 (109)
+                      ..+..+++.|+..++|++.+++.|..|.+++..+.+.|+.|.
+T Consensus       177 ~~~~~l~~~c~~~~ip~i~~~~~G~~g~vf~d~g~~~~~~~~  218 (446)
+T 4P22_B          177 EDQLRVGEFCHNRGIKLVVADTRGLFGQLFCDFGEEMILTDS  218 (446)
+T ss_dssp             HHHHHHHHHHHHHTCEEEEEEEETTEEEEEEECCTTEEEEEC
+T ss_pred             HHHHHHHHHHHHcCCeEEEEecCCceEEEEEeCCCccEEECC
+Confidence            456789999999999999999999999999887667777664
+
+
+No 17
+>6DC6_C Ubiquitin-like modifier-activating enzyme 1 (E.C.6.2.1.45); Ubiquitin, E1, adenylation, thioester bond; HET: POP; 3.14A {Homo sapiens}
+Probab=87.76  E-value=2.7  Score=36.61  Aligned_cols=34  Identities=29%  Similarity=0.406  Sum_probs=30.7  Template_Neff=9.400
+
+Q ss_pred             hhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC
+Q tr|H3BMR3|H3BM   19 TSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE   52 (109)
+Q Consensus        19 tslrladvlwnsqipllicrtyglvgymriiike   52 (109)
+                      ....+++.|+..++|++.+++.|..|.+++.++.
+T Consensus       128 ~~~~l~~~c~~~~ip~i~~~~~G~~g~vf~d~g~  161 (1015)
+T 6DC6_C          128 DQLRVGEFCHNRGIKLVVADTRGLFGQLFCDFGE  161 (1015)
+T ss_dssp             HHHHHHHHHHHHTCEEEEEEEETTEEEEEEECCS
+T ss_pred             HHHHHHHHHHHcCCEEEEEecCCceeeEEEecCC
+Confidence            4567899999999999999999999999998876
+
+
+No 18
+>3CMM_C Ubiquitin-activating enzyme E1 1 (E.C.6.3.2.19)/Ubiquitin; Ubiquitin, E1, Uba1, Protein turnover; HET: PRO; 2.7A {Saccharomyces cerevisiae}
+Probab=87.34  E-value=2.6  Score=37.04  Aligned_cols=37  Identities=19%  Similarity=0.338  Sum_probs=31.7  Template_Neff=9.100
+
+Q ss_pred             hchhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCc
+Q tr|H3BMR3|H3BM   17 LSTSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEH   53 (109)
+Q Consensus        17 lstslrladvlwnsqipllicrtyglvgymriiikeh   53 (109)
+                      ...+..+++.|+..++|++.+++.|..|.+++.++..
+T Consensus       125 ~~~~~~ln~~c~~~~ip~i~~~~~G~~g~vf~d~g~~  161 (1015)
+T 3CMM_C          125 LEDKVKINEFCHSSGIRFISSETRGLFGNTFVDLGDE  161 (1015)
+T ss_pred             HHHHHHHHHHHHHhCCeEEEeecccceEEEEEecCCc
+Confidence            3456678899999999999999999999999988763
+
+
+No 19
+>4NNJ_A Ubiquitin-activating enzyme E1 1, Uba1; ubiquitin activating enzyme (E1), Uba1; HET: SO4, GOL, AMP; 2.4A {Saccharomyces cerevisiae}
+Probab=84.74  E-value=4  Score=36.27  Aligned_cols=42  Identities=17%  Similarity=0.275  Sum_probs=34.6  Template_Neff=8.900
+
+Q ss_pred             hchhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeec
+Q tr|H3BMR3|H3BM   17 LSTSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIES   58 (109)
+Q Consensus        17 lstslrladvlwnsqipllicrtyglvgymriiikehpvies   58 (109)
+                      ...+..+++.|+..++|++.+++.|..|.+++.++...++.+
+T Consensus       150 ~~~~~~l~~~c~~~~ip~i~~~~~G~~g~vf~d~g~~~~~~d  191 (1040)
+T 4NNJ_A          150 LEDKVKINEFCHSSGIRFISSETRGLFGNTFVDLGDEFTVLD  191 (1040)
+T ss_dssp             HHHHHHHHHHHHHHTCEEEEEEEETTEEEEEEECCSCEEESB
+T ss_pred             HHHHHHHHHHHHHcCCEEEEeecccceEEEEEecCCceEEEC
+Confidence            345678999999999999999999999999999876434433
+
+
+No 20
+>6ZQH_A Ubiquitin-activating enzyme E1 1 (E.C.6.2.1.45); Ubiquitin, E1, LIGASE; HET: BME, PG4, GOL; 2.032A {Saccharomyces cerevisiae}
+Probab=84.71  E-value=4.2  Score=35.95  Aligned_cols=42  Identities=17%  Similarity=0.275  Sum_probs=34.7  Template_Neff=9.000
+
+Q ss_pred             hchhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcCcceeec
+Q tr|H3BMR3|H3BM   17 LSTSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKEHPVIES   58 (109)
+Q Consensus        17 lstslrladvlwnsqipllicrtyglvgymriiikehpvies   58 (109)
+                      ...+..+++.|+..++|++.+++.|..|.+++.++...++.+
+T Consensus       134 ~~~~~~l~~~c~~~~ip~i~~~~~G~~G~vf~d~g~~~~~~d  175 (1024)
+T 6ZQH_A          134 LEDKVKINEFCHSSGIRFISSETRGLFGNTFVDLGDEFTVLD  175 (1024)
+T ss_dssp             HHHHHHHHHHHHHHTCEEEEEEEEBTEEEEEEECCSSEEESB
+T ss_pred             HHHHHHHHHHHHHhCCcEEEeecccceEEEEEecCCceEEEC
+Confidence            445678999999999999999999999999999876444433
+
+
+No 21
+>6XOG_B SUMO-activating enzyme subunit 1, SUMO-activating; SAE, SUMO1, covalent inhibitor, LIGASE; HET: VAY; 1.98A {Homo sapiens}
+Probab=47.05  E-value=72  Score=27.48  Aligned_cols=76  Identities=16%  Similarity=0.123  Sum_probs=64.3  Template_Neff=8.500
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDH   93 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdh   93 (109)
+                      ..|..+++.|...++|++.+++.|..|++.++.|. ++||.|...+  ...+.|+.+++|....++..|+...|...|.
+T Consensus       120 ~ar~~v~~~c~~~~iPli~~g~~G~~g~v~~i~p~~t~Cy~C~~~~~~~~~p~cti~~~P~~~~hci~wak~~f~~lf~  198 (640)
+T 6XOG_B          120 AARNHVNRMCLAADVPLIESGTAGYLGQVTTIKKGVTECYECHPKPTQRTFPGCTIRNTPSEPIHCIVWAKYLFNQLFG  198 (640)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTSCCTTSSCCCC---CCHHHHHTCCCSHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHHHHcccceEEeecccccceeEEeccCCCCcccCCCCCCCCCCCCccCcCCCCchHHHHHHHHHHHHHhhC
+Confidence            45788999999999999999999999999999888 8999998766  4567899999999999999998876654443
+
+
+No 22
+>3KYD_B E1, SUMO, UBIQUITIN, THIOESTER, ADENYLATION; HET: EDO, VMX; 2.61A {Homo sapiens}
+Probab=38.48  E-value=1.3e+02  Score=24.67  Aligned_cols=77  Identities=16%  Similarity=0.122  Sum_probs=65.4  Template_Neff=9.500
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..+++.|...++|++.+++.|..|++.++.|. ++|+.|...+  ...+.|+.+++|...+++..|+...+...+..
+T Consensus       122 ~~r~~l~~~~~~~~~p~i~~g~~g~~g~v~~~~p~~t~c~~c~~~~~~~~~p~ct~~~~p~~~~hci~~a~~~f~~lf~~  201 (551)
+T 3KYD_B          122 AARNHVNRMCLAADVPLIESGTAGYLGQVTTIKKGVTECYECHPKPTQRTFPGCTIRNTPSEPIHCIVWAKYLFNQLFGE  201 (551)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTSCCTTSSCCCCCSSEECCSCCSSCSSTHHHHHHHHHHHTTTC--
+T ss_pred             HHHHHHHHHHHHcCCcEEEeecccccceEEEEcCCCCCcccCCCCCCCCCCCCCcccCCCCcHHHHHHHHHHHHHHhcCC
+Confidence            45778999999999999999999999999988888 8999998765  45688999999999999999988877665543
+
+
+No 23
+>3KYC_B E1, SUMO, UBIQUITIN, THIOESTER, ADENYLATION; HET: JZU; 2.45A {Homo sapiens}
+Probab=36.06  E-value=1.3e+02  Score=26.35  Aligned_cols=75  Identities=16%  Similarity=0.131  Sum_probs=64.4  Template_Neff=8.300
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKD   92 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkd   92 (109)
+                      ..|..+++.|...++|++.+++.|..|++.++.|. +.||.|...+  ...+.|+.+++|....++..|+...+...+
+T Consensus       140 ~ar~~vn~~c~~~~iPli~~g~~G~~G~v~~i~p~~t~C~~C~~~~~~~~~p~cti~~~p~~~~hci~wak~lf~~lf  217 (660)
+T 3KYC_B          140 AARNHVNRMCLAADVPLIESGTAGYLGQVTTIKKGVTECYECHPKPTQRTFPGCTIRNTPSEPIHCIVWAKYLFNQLF  217 (660)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEEEEETTEEEEEEECTTTSCCTTSSCCCCCCCCCHHHHHTCCCSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCcEEEeecCcccceeEEeccCCCCCccCCCCCCcCCCCCCCCCCCCCcHHHHHHHHHHHHHHhc
+Confidence            35788999999999999999999999999999988 8999998765  456778899999999999999877655443
+
+
+No 24
+>1ZKM_A Adenylyltransferase thiF (E.C.2.7.7.-); ThiF, ThiS, MoeB, Ubiquitin, Rossmann; 2.95A {Escherichia coli}
+Probab=30.77  E-value=2.7e+02  Score=18.44  Aligned_cols=43  Identities=12%  Similarity=0.141  Sum_probs=34.2  Template_Neff=11.700
+
+Q ss_pred             hhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC--cceeecCcc
+Q tr|H3BMR3|H3BM   19 TSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE--HPVIESHPD   61 (109)
+Q Consensus        19 tslrladvlwnsqipllicrtyglvgymriiike--hpvieshpd   61 (109)
+                      .+..+++.+...++|++.....+..+.+....+.  +.|+.|...
+T Consensus       133 ~~~~l~~~~~~~~~p~l~~~~~~~~~~v~p~~~~~~~~C~~C~~~  177 (253)
+T 1ZKM_A          133 TRQEINAACVALNTPLITASAVGFGGQLMVLTPPWEQGCYRCLWP  177 (253)
+T ss_dssp             HHHHHHHHHHHTTCCEEEEEEEBTEEEEEEECTTCTTCCHHHHCC
+T ss_pred             HHHHHHHHHHHcCCCEEEEEeCCceeEEEEEcCCCCCCchhHhCC
+Confidence            3456788888999999999999999888877764  678888654
+
+
+No 25
+>2DOG_A Probable 16S rRNA-processing protein rimM; beta barrel, NPPSFA, National Project; NMR {Thermus thermophilus}
+Probab=29.72  E-value=83  Score=19.22  Aligned_cols=6  Identities=33%  Similarity=0.457  Sum_probs=2.3  Template_Neff=9.200
+
+Q ss_pred             CcceEE
+Q tr|H3BMR3|H3BM   41 GLVGYM   46 (109)
+Q Consensus        41 glvgym   46 (109)
+                      |..|.+
+T Consensus        14 G~~G~~   19 (85)
+T 2DOG_A           14 ALKGGL   19 (85)
+T ss_dssp             STTTCE
+T ss_pred             eecCEE
+Confidence            333333
+
+
+No 26
+>6CWY_D E3 ubiquitin-protein ligase ARIH1 (E.C.2.3.2.-); ROSSMANN-LIKE FOLD, UBIQUITIN-LIKE FOLD, UBIQUITIN; HET: GOL, FHJ, SO4; 2.462A {Homo sapiens}
+Probab=27.52  E-value=1.9e+02  Score=25.41  Aligned_cols=75  Identities=16%  Similarity=0.131  Sum_probs=64.8  Template_Neff=8.200
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKD   92 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkd   92 (109)
+                      ..|..+++.|...++|++.+++.|..|++.++.|. ++||.|...+  ...+.|+.+++|....++..|+...|...|
+T Consensus       140 ~ar~~v~~~c~~~~iPlI~~gt~G~~g~v~~i~p~~t~C~~C~~~~~~~~~p~cti~~~P~~~~hci~wAk~~f~~lF  217 (660)
+T 6CWY_D          140 AARNHVNRMCLAADVPLIESGTAGYLGQVTTIKKGVTECYECHPKPTQRTFPGCTIRNTPSEPIHCIVWAKYLFNQLF  217 (660)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEECTTTSCCTTSSCCCCCEEECHHHHHTCCCTTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHcCCceeecccccccceeEEecCCCCCCccCCCCCCCCCCCCccccCCCCchHHHHHHHHHHHHHhc
+Confidence            45788999999999999999999999999998888 8999998765  456788999999999999999887665444
+
+
+No 27
+>2NVU_B Multifunction macromolecular complex, Ubiquitin, NEDD8; HET: ATP; 2.8A {Homo sapiens} SCOP: c.111.1.2, c.94.1.1
+Probab=25.75  E-value=2e+02  Score=23.59  Aligned_cols=68  Identities=22%  Similarity=0.265  Sum_probs=49.6  Template_Neff=10.900
+
+Q ss_pred             hchhhhHHHHHHhCC------------CCEEEEeccCcceEEEEEEcC-cceeecCccc----hHhhccCCCCcHHHHHH
+Q tr|H3BMR3|H3BM   17 LSTSLRLADVLWNSQ------------IPLLICRTYGLVGYMRIIIKE-HPVIESHPDN----ALEDLRLDKPFPELREH   79 (109)
+Q Consensus        17 lstslrladvlwnsq------------ipllicrtyglvgymriiike-hpvieshpdn----aledlrldkpfpelreh   79 (109)
+                      ...|..+++.|...+            +|++.+++.|..|.+.+..|. +.|+.|....    ...+.|..+..|....+
+T Consensus       511 ~~~~~~ln~~~~~~~~~~~~~~~~~~~~p~i~~~~~g~~g~~~~~~~~~~~C~~C~~~~~~~~~~~~~c~~~~~~~~~~~  590 (805)
+T 2NVU_B          511 IIARRWINGMLISLLNYEDGVLDPSSIVPLIDGGTEGFKGNARVILPGMTACIECTLELYPPQVNFPMCTIASMPRLPEH  590 (805)
+T ss_dssp             HHHHHHHHHHHHHTCCEETTEECGGGCCCEEEEEEETTEEEEEEECTTTSCCTTTSGGGSCCCCCCCHHHHHHCCCSHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCCCCCCccccceEEEcccCcceeeEEEEcCCCCcccccCccCCCCCCCCCCcccCCCCCCHHH
+Confidence            345778999999877            999999999999999999888 8999997531    23344444445555555
+
+
+Q ss_pred             HhhcC
+Q tr|H3BMR3|H3BM   80 FQSYD   84 (109)
+Q Consensus        80 fqsyd   84 (109)
+                      +..|.
+T Consensus       591 ~~~~~  595 (805)
+T 2NVU_B          591 CIEYV  595 (805)
+T ss_dssp             HHHHC
+T ss_pred             HHHHH
+Confidence            55543
+
+
+No 28
+>6YUB_B Adenylyltransferase and sulfurtransferase uba4; Ubiquitin-like protein activator 4, TRANSFERASE; 2.195A {Chaetomium thermophilum}
+Probab=24.50  E-value=3.3e+02  Score=20.01  Aligned_cols=44  Identities=16%  Similarity=0.135  Sum_probs=34.8  Template_Neff=10.100
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEc----------C-cceeecCcc
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIK----------E-HPVIESHPD   61 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiik----------e-hpvieshpd   61 (109)
+                      ..+..+++.|...++|++.++..+..+.+.+..+          . +.|+.|...
+T Consensus       136 ~~~~~l~~~~~~~~~p~i~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~C~~C~~~  190 (303)
+T 6YUB_B          136 ATRYLISDVCVLLGKPLVSAASVQKSGQLIVLNCPPTPQGVVNKKAAPCYRCCFK  190 (303)
+T ss_dssp             HHHHHHHHHHHHHTCCEEEEEEETTEEEEEEESSSCCCTTCCSSCCCCCHHHHCC
+T ss_pred             HHHHHHHHHHHHHCCCEEEEEecCCcCeEEEEcCCCCCccccccCCCCccccccC
+Confidence            3456788899999999999999999999877764          3 668877543
+
+
+No 29
+>6DC6_C Ubiquitin-like modifier-activating enzyme 1 (E.C.6.2.1.45); Ubiquitin, E1, adenylation, thioester bond; HET: POP; 3.14A {Homo sapiens}
+Probab=20.22  E-value=3.5e+02  Score=24.39  Aligned_cols=77  Identities=21%  Similarity=0.200  Sum_probs=67.9  Template_Neff=9.400
+
+Q ss_pred             chhhhHHHHHHhCCCCEEEEeccCcceEEEEEEcC-cceeecCccc--hHhhccCCCCcHHHHHHHhhcChhhhccCCCC
+Q tr|H3BMR3|H3BM   18 STSLRLADVLWNSQIPLLICRTYGLVGYMRIIIKE-HPVIESHPDN--ALEDLRLDKPFPELREHFQSYDLDHMEKKDHS   94 (109)
+Q Consensus        18 stslrladvlwnsqipllicrtyglvgymriiike-hpvieshpdn--aledlrldkpfpelrehfqsydldhmekkdhs   94 (109)
+                      ..|..+++.|...++|++.+++.|..|.+.++.|. +.||.|...+  ...+.|+.+++|....++..|+...+...+..
+T Consensus       536 ~~r~~i~~~~~~~~~P~i~~~~~g~~g~~~~~~p~~t~~~~~~~~~~~~~~p~cti~~~p~~~~h~i~wa~~~f~~~f~~  615 (1015)
+T 6DC6_C          536 DARMYMDRRCVYYRKPLLESGTLGTKGNVQVVIPFLTESYSSSQDPPEKSIPIATLKNFPNAIEHTLQWARDEFEGLFKQ  615 (1015)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEEEEEBTEEEEEEECTTTBCCGGGSCCCCCCCCCSHHHHTCCCSHHHHHHHHHHHHCCCCCH
+T ss_pred             HHHHHHHHHHHHhCCCEEEeccCcccceEEEEcCCCCCCccCCCCCCccCCCccccccCcchHHHHHHHHHHHHhhhhcC
+Confidence            35778999999999999999999999999999998 8999998765  45678999999999999999999988877654
+
+

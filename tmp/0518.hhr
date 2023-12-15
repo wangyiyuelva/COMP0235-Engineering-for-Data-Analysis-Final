@@ -1,0 +1,167 @@
+Query         tr|F5GX58|F5GX58_HUMAN
+Match_columns 182
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:48:16 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0518.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7RH7_b Electron transport chai   9.2 4.6E+02   0.005   19.2   1.6   34  121-154     1-35  (145)
+  2 2NCA_A Hsp90 co-chaperone Cdc3   5.7 7.1E+02  0.0077   19.3   1.3   15  136-151   113-127 (128)
+  3 3W6B_A Lysozyme-like chitinoly   5.5   1E+03   0.011   16.5   1.8   20   70-89      9-28  (183)
+  4 3W6B_D Lysozyme-like chitinoly   5.5   1E+03   0.011   16.5   1.8   19   71-89     10-28  (183)
+  5 5Y6P_C1 LRC6, LRC4, LRC5, alph   4.0 3.1E+03   0.034   19.2   4.1   51    1-54      1-51  (192)
+  6 2BBZ_B Viral CASP8 and FADD-li   3.6 9.9E+02   0.011   20.6   0.8   20   28-47    218-237 (249)
+  7 6K07_B Mitotic spindle assembl   3.5 1.3E+03   0.014   15.2   1.2   11    7-17      5-15  (30)
+  8 6APO_A Anti-Marburgvirus Nucle   3.4   9E+02  0.0098   13.3   0.3   15  124-138   108-122 (126)
+  9 2LTF_A Tail protein X; LysM, p   3.2 1.3E+03   0.014   12.9   0.8   10  133-142    60-69  (71)
+ 10 6YS3_z 50S ribosomal protein L   2.6 1.2E+03   0.013   17.4   0.3   16   37-52     46-61  (61)
+
+No 1
+>7RH7_b Electron transport chain, CIII2CIV2 supercomplex; HET: 9Y0, 9XX, HEM, MQ9, HEA, HEC, PLM, 9YF, CDL, HUU;{Mycolicibacterium smegmatis MC2 155}
+Probab=9.19  E-value=4.6e+02  Score=19.18  Aligned_cols=34  Identities=26%  Similarity=0.460  Sum_probs=16.8  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCcCC
+Q tr|F5GX58|F5GX  121 ELDLPLGTQLSVEEQMPP-WNQTEFPSKQVFSKEE  154 (182)
+Q Consensus       121 eldlplgtqlsveeqmpp-wnqtefpskqvfskee  154 (182)
+                      |||+|.|..+.-.-+.+. ++...-....+|+.++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~D~~~iLs~~~   35 (145)
+T 7RH7_b            1 ELDLPYGSALTSSGRISAVTEPGELSVHYPFPTMD   35 (145)
+T ss_pred             CCCCCCcceeeecCceeeecCCCCCCCCCCCCHHH
+Confidence            577777776655444332 2222222344555444
+
+
+No 2
+>2NCA_A Hsp90 co-chaperone Cdc37; chaperone, cochaperone; NMR {Homo sapiens}
+Probab=5.70  E-value=7.1e+02  Score=19.27  Aligned_cols=15  Identities=47%  Similarity=0.764  Sum_probs=6.1  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|F5GX58|F5GX  136 MPPWNQTEFPSKQVFS  151 (182)
+Q Consensus       136 mppwnqtefpskqvfs  151 (182)
+                      ..|||-... ++..|+
+T Consensus       113 ~~pwNvDti-sk~gfs  127 (128)
+T 2NCA_A          113 SMPWNVDTL-SKDGFS  127 (128)
+T ss_dssp             TCHHHHCCS-CCCCCC
+T ss_pred             cCCCCcccC-CCcCcC
+Confidence            344444333 333443
+
+
+No 3
+>3W6B_A Lysozyme-like chitinolytic enzyme (E.C.3.2.1.14); GH family 23, enzyme, Glycoside; HET: GOL; 1.9A {Ralstonia}
+Probab=5.55  E-value=1e+03  Score=16.48  Aligned_cols=20  Identities=30%  Similarity=0.406  Sum_probs=2.9  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcc
+Q tr|F5GX58|F5GX   70 TLGIARTPMKTSSGDPPSPL   89 (182)
+Q Consensus        70 tlgiartpmktssgdppspl   89 (182)
+                      .+.|.+++|.++++.++.+-
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~~   28 (183)
+T 3W6B_A            9 HHHIEGRHMGTTPSDPPTNP   28 (183)
+T ss_dssp             ---------------CCCBS
+T ss_pred             cccccCcccccCCCCCCCCC
+Confidence            35677888887777666554
+
+
+No 4
+>3W6B_D Lysozyme-like chitinolytic enzyme (E.C.3.2.1.14); GH family 23, enzyme, Glycoside; HET: GOL; 1.9A {Ralstonia}
+Probab=5.55  E-value=1e+03  Score=16.48  Aligned_cols=19  Identities=32%  Similarity=0.433  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCcc
+Q tr|F5GX58|F5GX   71 LGIARTPMKTSSGDPPSPL   89 (182)
+Q Consensus        71 lgiartpmktssgdppspl   89 (182)
+                      +.|.+++|.++++.++.+-
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~   28 (183)
+T 3W6B_D           10 HHIEGRHMGTTPSDPPTNP   28 (183)
+T ss_dssp             -------------------
+T ss_pred             ccccCcccccCCCCCCCCC
+Confidence            5577788877776665543
+
+
+No 5
+>5Y6P_C1 LRC6, LRC4, LRC5, alpha_APC, beta_APC; phycobilisome, PHOTOSYNTHESIS; HET: PUB, CYC, PVN, PEB; 3.5A {Griffithsia pacifica}
+Probab=4.00  E-value=3.1e+03  Score=19.21  Aligned_cols=51  Identities=29%  Similarity=0.442  Sum_probs=27.2  Template_Neff=2.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F5GX58|F5GX    1 MGSAKSVPVTPARPPPHNKHLARVADPRSPSAGILRTPIQVESSPQPGLPAGEQ   54 (182)
+Q Consensus         1 mgsaksvpvtparppphnkhlarvadprspsagilrtpiqvesspqpglpageq   54 (182)
+                      |++|-..|+.-++..-....+-++   .|.-....|++-.....+.||+|.|+.
+T Consensus         1 ~~~a~~~p~~~~~~~~~~~~~~a~---~s~~~~~~~~~~~~~~~~~pgip~g~D   51 (192)
+T 5Y6P_C1           1 MAAAFTAPVNLKGSSLTSNTLPAV---CSRPAPLTLTPRAQADLPPPGIPSGQD   51 (192)
+T ss_pred             CccccccceeccCCccccCCCCcc---ccCCCCcccCccccccCCCCCCCCCCC
+Confidence            445555555555544333222222   233334456666666677888888763
+
+
+No 6
+>2BBZ_B Viral CASP8 and FADD-like apoptosis; death effector domain, VIRAL PROTEIN; 3.8A {Molluscum contagiosum virus subtype 1}
+Probab=3.58  E-value=9.9e+02  Score=20.59  Aligned_cols=20  Identities=50%  Similarity=0.670  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|F5GX58|F5GX   28 RSPSAGILRTPIQVESSPQP   47 (182)
+Q Consensus        28 rspsagilrtpiqvesspqp   47 (182)
+                      .+++...+|||+|-.++..|
+T Consensus       218 ~~~~~~~~~~~~~~~~~~~~  237 (249)
+T 2BBZ_B          218 SSDSPELLRTPVQESSSDSP  237 (249)
+T ss_dssp             --------------------
+T ss_pred             cCCChHHhcCCccccCCCCc
+Confidence            34567788888887776554
+
+
+No 7
+>6K07_B Mitotic spindle assembly checkpoint protein; DSB repair complex, GENE REGULATION; 2.24A {Homo sapiens}
+Probab=3.51  E-value=1.3e+03  Score=15.20  Aligned_cols=11  Identities=45%  Similarity=1.105  Sum_probs=7.0  Template_Neff=4.200
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|F5GX58|F5GX    7 VPVTPARPPPH   17 (182)
+Q Consensus         7 vpvtparppph   17 (182)
+                      .|+-|+|+||-
+T Consensus         5 LPiKP~k~pPV   15 (30)
+T 6K07_B            5 LPLRPKRSPPV   15 (30)
+T ss_dssp             CCEEESSCCCC
+T ss_pred             CCCCCCCCCCc
+Confidence            45667777663
+
+
+No 8
+>6APO_A Anti-Marburgvirus Nucleoprotein Single Domain Antibody; single domain antibody, IMMUNE SYSTEM; 1.168A {Lama glama}
+Probab=3.40  E-value=9e+02  Score=13.27  Aligned_cols=15  Identities=27%  Similarity=0.187  Sum_probs=7.7  Template_Neff=13.900
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|F5GX58|F5GX  124 LPLGTQLSVEEQMPP  138 (182)
+Q Consensus       124 lplgtqlsveeqmpp  138 (182)
+                      ...||++.|.-++.+
+T Consensus       108 ~g~gt~~~~~~~~~~  122 (126)
+T 6APO_A          108 WGQGTQVTVSSGGHH  122 (126)
+T ss_dssp             ECCCEEEEEEC----
+T ss_pred             eccceeeEecCCCCC
+Confidence            356787777766654
+
+
+No 9
+>2LTF_A Tail protein X; LysM, phage tail, VIRAL PROTEIN; NMR {Enterobacteria phage P2}
+Probab=3.23  E-value=1.3e+03  Score=12.92  Aligned_cols=10  Identities=20%  Similarity=0.518  Sum_probs=7.5  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|F5GX58|F5GX  133 EEQMPPWNQT  142 (182)
+Q Consensus       133 eeqmppwnqt  142 (182)
+                      .+.+.+|+++
+T Consensus        60 ~~~~~~~~~~   69 (71)
+T 2LTF_A           60 AETVNLWEVE   69 (71)
+T ss_dssp             SCCCCCCCCC
+T ss_pred             cccccccccc
+Confidence            6677888875
+
+
+No 10
+>6YS3_z 50S ribosomal protein L28, 50S; translation 50S ribosome nascent peptide; 2.58A {Escherichia coli BL21(DE3)}
+Probab=2.60  E-value=1.2e+03  Score=17.45  Aligned_cols=16  Identities=31%  Similarity=0.289  Sum_probs=12.6  Template_Neff=4.600
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|F5GX58|F5GX   37 TPIQVESSPQPGLPAG   52 (182)
+Q Consensus        37 tpiqvesspqpglpag   52 (182)
+                      ..|.|+++...||-+|
+T Consensus        46 NSIRVe~~~~~~~~~~   61 (61)
+T 6YS3_z           46 FSTPVWISQAQGIRAG   61 (61)
+T ss_pred             ceEEeecccccccccC
+Confidence            4799999888777665
+
+

@@ -1,0 +1,167 @@
+Query         tr|A0A804HKM8|A0A804HKM8_HUMAN
+Match_columns 1023
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:53:58 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1439.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6C14_C Protocadherin-15, LHFPL  34.7      47 0.00051   34.7   1.8    7  177-183   131-137 (337)
+  2 3TU5_B Actin, alpha skeletal m  17.2 1.9E+02   0.002   30.2   2.2   13  383-395   254-266 (297)
+  3 1MSH_A CYTOKINE (CHEMOTACTIC);  16.9      34 0.00037   26.4  -2.2   30  963-992    31-62  (72)
+  4 5CI8_A Protein Tob1; Tob/BTG f  15.1 2.6E+02  0.0028   32.5   2.8   10  538-547   188-197 (347)
+  5 5CI9_A Protein Tob1; Tob/BTG f  14.9 2.7E+02  0.0029   32.3   2.8   10  538-547   187-196 (346)
+  6 1RMG_A RHAMNOGALACTURONASE A;   14.3 4.1E+02  0.0044   26.3   3.5   18  346-363   396-413 (422)
+  7 1RJT_A chemokine, CYTOKINE; NM  12.4      51 0.00055   25.4  -2.4   30  963-992    32-64  (73)
+  8 1L3A_C PBF-2, single strand DN  12.3 2.5E+02  0.0027   30.1   1.6   15  597-611    20-34  (227)
+  9 6WZL_E LY3041658 Fab heavy cha   8.6      70 0.00076   24.5  -2.8   27  963-989    27-55  (70)
+ 10 4HQF_A Thrombospondin-related    8.5 4.4E+02  0.0048   24.4   1.7   15  291-305   266-280 (281)
+
+No 1
+>6C14_C Protocadherin-15, LHFPL tetraspan subfamily member; PCDH15, LHFPL5, protocadherin, tip link;{Mus musculus}
+Probab=34.68  E-value=47  Score=34.67  Aligned_cols=7  Identities=43%  Similarity=0.572  Sum_probs=2.7  Template_Neff=8.700
+
+Q ss_pred             HHHHHHH
+Q tr|A0A804HKM8|  177 QELLEEL  183 (1023)
+Q Consensus       177 qelleel  183 (1023)
+                      .++.+.|
+T Consensus       131 ~~l~~~l  137 (337)
+T 6C14_C          131 EDLTEIL  137 (337)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            3333333
+
+
+No 2
+>3TU5_B Actin, alpha skeletal muscle, Gelsolin; Unusual hairpin conformation in the; HET: ATP, MPD; 3.0A {Oryctolagus cuniculus}
+Probab=17.25  E-value=1.9e+02  Score=30.25  Aligned_cols=13  Identities=23%  Similarity=0.465  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|A0A804HKM8|  383 SPNALLSSMTSSS  395 (1023)
+Q Consensus       383 spnallssmtsss  395 (1023)
+                      .-.+|+.......
+T Consensus       254 ~r~~l~~~I~~~~  266 (297)
+T 3TU5_B          254 ARQALMDAIRSGT  266 (297)
+T ss_dssp             -------------
+T ss_pred             HHHHHHHHHHccc
+Confidence            3455555555443
+
+
+No 3
+>1MSH_A CYTOKINE (CHEMOTACTIC); NMR {Homo sapiens} SCOP: d.9.1.1
+Probab=16.94  E-value=34  Score=26.38  Aligned_cols=30  Identities=27%  Similarity=0.699  Sum_probs=22.7  Template_Neff=10.100
+
+Q ss_pred             CCCCCChhhHHHHHHcC--CCCCCCCCchhch
+Q tr|A0A804HKM8|  963 SSPDCNEVDFIEALLKG--SCVSPDEDWVCNL  992 (1023)
+Q Consensus       963 sspdcnevdfieallkg--scvspdedwvcnl  992 (1023)
+                      .++.|+...+|-.+.+|  .|+.|+..|+-.+
+T Consensus        31 ~~~~C~~~~ii~~~~~~~~~C~~p~~~w~~~~   62 (72)
+T 1MSH_A           31 PGPHCAQTEVIATLKNGRKACLNPASPIVKKI   62 (72)
+T ss_dssp             CCSTTCSCCCEEECTTSCEEEBCTTSHHHHHH
+T ss_pred             CCCCCCccEEEEEEcCCcEEEeCCCCHHHHHH
+Confidence            47889887777666566  4999999998653
+
+
+No 4
+>5CI8_A Protein Tob1; Tob/BTG family, inhibitor, complex, TRANSCRIPTION-INHIBITOR; HET: 53Y; 2.328A {Homo sapiens}
+Probab=15.14  E-value=2.6e+02  Score=32.47  Aligned_cols=10  Identities=40%  Similarity=0.550  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCCCCCCCCC
+Q tr|A0A804HKM8|  538 TFGNTKPLSH  547 (1023)
+Q Consensus       538 tfgntkplsh  547 (1023)
+                      .||.||.-++
+T Consensus       188 KFGSTK~K~~  197 (347)
+T 5CI8_A          188 KFGSTKMKNS  197 (347)
+T ss_dssp             ----------
+T ss_pred             hhCCcccccC
+Confidence            5788876654
+
+
+No 5
+>5CI9_A Protein Tob1; Tob/BTG family, TRANSCRIPTION-INHIBITOR complex; HET: 549; 2.3A {Homo sapiens}
+Probab=14.89  E-value=2.7e+02  Score=32.33  Aligned_cols=10  Identities=40%  Similarity=0.550  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CCCCCCCCCC
+Q tr|A0A804HKM8|  538 TFGNTKPLSH  547 (1023)
+Q Consensus       538 tfgntkplsh  547 (1023)
+                      .||.||.-++
+T Consensus       187 KFGSTK~K~~  196 (346)
+T 5CI9_A          187 KFGSTKMKNS  196 (346)
+T ss_dssp             ----------
+T ss_pred             hhCCcccccC
+Confidence            5778776654
+
+
+No 6
+>1RMG_A RHAMNOGALACTURONASE A; HYDROLASE, INVERTING, PARALLEL BETA-HELIX, GLYCOSIDASE; HET: GLC, BMA, NAG, MAN; 2.0A {Aspergillus aculeatus} SCOP: b.80.1.3
+Probab=14.31  E-value=4.1e+02  Score=26.27  Aligned_cols=18  Identities=28%  Similarity=0.656  Sum_probs=8.2  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|A0A804HKM8|  346 PHPPPLPLPPPPPPFSPQ  363 (1023)
+Q Consensus       346 phppplplppppppfspq  363 (1023)
+                      +.++|.|.|++|+++.|-
+T Consensus       396 ~~~~~~p~p~~~~~~~~~  413 (422)
+T 1RMG_A          396 GLTASIPIPTIPTSFYPG  413 (422)
+T ss_dssp             CSSSCCCCCCCCSCCSTT
+T ss_pred             CCCCCcccCCCCCCCCCC
+Confidence            344444444444444443
+
+
+No 7
+>1RJT_A chemokine, CYTOKINE; NMR {N/A} SCOP: d.9.1.1
+Probab=12.38  E-value=51  Score=25.41  Aligned_cols=30  Identities=20%  Similarity=0.533  Sum_probs=21.5  Template_Neff=10.200
+
+Q ss_pred             CCCCCChhhHHHHHHcC---CCCCCCCCchhch
+Q tr|A0A804HKM8|  963 SSPDCNEVDFIEALLKG---SCVSPDEDWVCNL  992 (1023)
+Q Consensus       963 sspdcnevdfieallkg---scvspdedwvcnl  992 (1023)
+                      .++.|+...+|-.+.+|   -|++|+..|+-++
+T Consensus        32 ~~~~C~~~~ii~~~~~~~~~~C~~p~~~w~~~~   64 (73)
+T 1RJT_A           32 PSNNCDKIEVIITLKENKGQRCLNPKSKQARLI   64 (73)
+T ss_dssp             CTTTSSSCBCCBCCSSSCCCCCCCSSCCCHHHH
+T ss_pred             CCCCCCcEEEEEEEcCCCceEeeCCCCHHHHHH
+Confidence            36678766666555565   4999999998654
+
+
+No 8
+>1L3A_C PBF-2, single strand DNA binding; 2.3A {Solanum tuberosum} SCOP: d.18.1.2
+Probab=12.26  E-value=2.5e+02  Score=30.10  Aligned_cols=15  Identities=80%  Similarity=0.831  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             cccCCCCCCCCCCCC
+Q tr|A0A804HKM8|  597 QQQQQQQQQQPDHSS  611 (1023)
+Q Consensus       597 qqqqqqqqqqpdhss  611 (1023)
+                      |||||||||||...+
+T Consensus        20 ~~~~~~~~~~~~~~~   34 (227)
+T 1L3A_C           20 QQQQQQQQQQPQGAS   34 (227)
+T ss_dssp             ---------------
+T ss_pred             CcCCCCCCCCCCCCC
+
+
+No 9
+>6WZL_E LY3041658 Fab heavy chain, LY3041658; CXCR1, CXCR2, neutrophil, NAP-2, IMMUNE; HET: PG6; 2.29A {Homo sapiens}
+Probab=8.61  E-value=70  Score=24.48  Aligned_cols=27  Identities=33%  Similarity=0.743  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCChhhHHHHHHcC--CCCCCCCCch
+Q tr|A0A804HKM8|  963 SSPDCNEVDFIEALLKG--SCVSPDEDWV  989 (1023)
+Q Consensus       963 sspdcnevdfieallkg--scvspdedwv  989 (1023)
+                      .+++|+...+|..+.+|  .|+.|+..|+
+T Consensus        27 ~~~~C~~~~ii~~~~~~~~~C~~p~~~wv   55 (70)
+T 6WZL_E           27 KGIHCNQVEVIATLKDGRKICLDPDAPRI   55 (70)
+T ss_dssp             CCSSCSSCEEEEEETTSCEEEECCCHHHH
+T ss_pred             CCCCCCceEEEEEECCCcEEEeCCCCHHH
+
+
+No 10
+>4HQF_A Thrombospondin-related anonymous protein, TRAP; malaria, parasite motility, I domain; 2.2A {Plasmodium falciparum}
+Probab=8.55  E-value=4.4e+02  Score=24.40  Aligned_cols=15  Identities=33%  Similarity=0.450  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|A0A804HKM8|  291 VALPPLPVPQWHHAH  305 (1023)
+Q Consensus       291 valpplpvpqwhhah  305 (1023)
+                      ...+-.+-+||||.|
+T Consensus       266 ~~~~~~~~~~~~~~~  280 (281)
+T 4HQF_A          266 EPLDVPDEPHHHHHH  280 (281)
+T ss_dssp             ---------------
+T ss_pred             CCCCCCCCcccCcCC
+
+

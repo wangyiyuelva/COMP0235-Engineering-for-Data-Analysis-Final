@@ -1,0 +1,177 @@
+Query         tr|A0A494C1L2|A0A494C1L2_HUMAN
+Match_columns 101
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:38:03 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1377.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LXU_X Tripeptidyl-peptidase 2  98.6 8.8E-08 9.5E-13   84.5   5.1   86    1-87    933-1025(1354)
+  2 5FQE_B BETA-N-ACETYLGALACTOSAM  46.8      64 0.00069   25.9   3.7   38   33-75    135-172 (610)
+  3 5FQF_A BETA-N-ACETYLGALACTOSAM  46.8      64 0.00069   25.9   3.7   38   33-75    135-172 (610)
+  4 5L7R_B glycoside hydrolase; TI  19.0 2.3E+02  0.0025   23.0   2.6   37   34-75    155-191 (578)
+  5 5L7V_A glycoside hydrolase; TI  16.3 3.9E+02  0.0042   21.6   3.2   36   35-75    141-176 (563)
+  6 3ZLC_B ER-DERIVED VESICLES PRO  14.9 2.4E+02  0.0026   21.1   1.7   15   59-73    113-127 (252)
+  7 6IVS_A Anti-sigma-I factor Rsg  10.1 3.1E+02  0.0034   16.9   0.9   16   75-90     10-25  (53)
+  8 1Z81_A cyclophilin (E.C.5.2.1.  10.0 2.8E+02   0.003   18.9   0.8   18   84-101    14-31  (229)
+  9 3IYJ_C Major capsid protein L1   9.9 4.9E+02  0.0053   24.6   2.4   42   53-100   265-306 (495)
+ 10 4UAD_E Importin alpha import a   9.7 3.2E+02  0.0035   20.3   1.0   14   71-84     31-44  (77)
+
+No 1
+>3LXU_X Tripeptidyl-peptidase 2 (E.C.3.4.14.10); Spindle complex, Aminopeptidase, Hydrolase, Phosphoprotein; HET: MSE; 3.14A {Drosophila melanogaster}
+Probab=98.62  E-value=8.8e-08  Score=84.47  Aligned_cols=86  Identities=22%  Similarity=0.481  Sum_probs=75.9  Template_Neff=8.000
+
+Q ss_pred             CCCceeeeecCCceeEEecCCCeEEecCCCCCCCcCCCCCCCCCEEEEeCCCCcCCCCCCCc--ceeeceeEecccccCC
+Q tr|A0A494C1L2|    1 XLPFIVSHRLSNTLSLDIHENHSFALLGKKKSSNLTLPPKYNQPFFVTSLPDDKIPKGAGPG--CYLAGSLTLSKTELGK   78 (101)
+Q Consensus         1 ~lpfivshrlsntlsldihenhsfallgkkkssnltlppkynqpffvtslpddkipkgagpg--cylagsltlsktelgk   78 (101)
+                      .+||+++++|++||+++||++..++++|+++|++..|+ |+.+++|+++++.|+||+.+++|  ++|.|+|+|.+++.++
+T Consensus       933 ~~~l~v~~~L~~~i~l~v~~~~~~a~~~~~~~~~~~L~-g~~~~~~~~~~~~~~lpk~~~~G~~~~l~G~i~~~~~~~~~ 1011 (1354)
+T 3LXU_X          933 EANLVASFKLTSPLTLDFYENYNQCIVGGRKYVSSPLR-LSTRVLYIAPITQERLTKANLPAQCAWLSGNLVFPQDEVGR 1011 (1354)
+T ss_dssp             TCCEEEEEEEEEEEEECCBSSHHHHHTTCSCCCCEEEC-SSEEEEEECCCCHHHHHTTTCCTTEEEEEEEEEEESCHHHH
+T ss_pred             cCeEEEEEeCCCCceeEeecCHHHHHcCCCceeeeecC-CceEEEEEeeCChhhcCCCCCCCccceEEEEEEecCCCCCC
+Confidence            37999999999999999999999999988899999999 99999999999999999999999  9999999999855433
+
+
+Q ss_pred             -----cceEEEcCC
+Q tr|A0A494C1L2|   79 -----KANVVLTPR   87 (101)
+Q Consensus        79 -----kanvvltpr   87 (101)
+                           .+..++.|.
+T Consensus      1012 ~~~~~~~~y~~~~~ 1025 (1354)
+T 3LXU_X         1012 RVAQHPFTYILNPA 1025 (1354)
+T ss_dssp             HHCCEEEEEECCCC
+T ss_pred             CceeeEEEEEcCcc
+Confidence                 445566553
+
+
+No 2
+>5FQE_B BETA-N-ACETYLGALACTOSAMINIDASE; HYDROLASE, GLYCOSIDE HYDROLASE, GH123, GLYCOSPHINGOLIPID; HET: BR, FMT; 1.53A {CLOSTRIDIUM PERFRINGENS}
+Probab=46.84  E-value=64  Score=25.87  Aligned_cols=38  Identities=24%  Similarity=0.455  Sum_probs=28.4  Template_Neff=10.000
+
+Q ss_pred             CCcCCCCCCCCCEEEEeCCCCcCCCCCCCcceeeceeEecccc
+Q tr|A0A494C1L2|   33 SNLTLPPKYNQPFFVTSLPDDKIPKGAGPGCYLAGSLTLSKTE   75 (101)
+Q Consensus        33 snltlppkynqpffvtslpddkipkgagpgcylagsltlskte   75 (101)
+                      ....+.+|+..+||+.--    +|.+++|| ...|+|++...+
+T Consensus       135 ~~~~l~~~~~~~~wv~v~----vp~~~~pG-~Y~g~i~i~~~~  172 (610)
+T 5FQE_B          135 GSLNIEKNKIASAWINIK----IPRNAKPG-IYNGSIEVTADE  172 (610)
+T ss_dssp             SCEEECTTCEEEEEEEEE----CCTTCCCE-EEEEEEEEECTT
+T ss_pred             CceeeCCCceEEEEEEEE----eCCCCCCc-EEEEEEEEEeCC
+Confidence            345678888888998543    46788888 678999998753
+
+
+No 3
+>5FQF_A BETA-N-ACETYLGALACTOSAMINIDASE; HYDROLASE, BETA-N-ACETYLGALACTOSAMINIDASE, GLYCOSIDE HYDROLASE, GH123; HET: NGA, FMT; 2.15A {CLOSTRIDIUM PERFRINGENS}
+Probab=46.84  E-value=64  Score=25.87  Aligned_cols=38  Identities=24%  Similarity=0.455  Sum_probs=28.4  Template_Neff=10.000
+
+Q ss_pred             CCcCCCCCCCCCEEEEeCCCCcCCCCCCCcceeeceeEecccc
+Q tr|A0A494C1L2|   33 SNLTLPPKYNQPFFVTSLPDDKIPKGAGPGCYLAGSLTLSKTE   75 (101)
+Q Consensus        33 snltlppkynqpffvtslpddkipkgagpgcylagsltlskte   75 (101)
+                      ....+.+|+..+||+.--    +|.+++|| ...|+|++...+
+T Consensus       135 ~~~~l~~~~~~~~wv~v~----vp~~~~pG-~Y~g~i~i~~~~  172 (610)
+T 5FQF_A          135 GSLNIEKNKIASAWINIK----IPRNAKPG-IYNGSIEVTADE  172 (610)
+T ss_dssp             SCEEECTTCEEEEEEEEE----CCTTCCCE-EEEEEEEEECTT
+T ss_pred             CceeeCCCceEEEEEEEE----eCCCCCCc-EEEEEEEEEeCC
+Confidence            345678888888998543    46788888 678999998753
+
+
+No 4
+>5L7R_B glycoside hydrolase; TIM barrel, BACON, hydrolase; HET: EDO; 1.85A {Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 / NCTC 11154)}
+Probab=19.03  E-value=2.3e+02  Score=22.96  Aligned_cols=37  Identities=30%  Similarity=0.506  Sum_probs=28.2  Template_Neff=9.700
+
+Q ss_pred             CcCCCCCCCCCEEEEeCCCCcCCCCCCCcceeeceeEecccc
+Q tr|A0A494C1L2|   34 NLTLPPKYNQPFFVTSLPDDKIPKGAGPGCYLAGSLTLSKTE   75 (101)
+Q Consensus        34 nltlppkynqpffvtslpddkipkgagpgcylagsltlskte   75 (101)
+                      ...|.+|+...||+.--    .|+++++| ...|+|++..++
+T Consensus       155 ~~~l~~g~~~~lwl~v~----vP~~~~pG-~Y~g~I~l~~~g  191 (578)
+T 5L7R_B          155 TLTLPANSTQGGWISVN----IPQGTKAG-KYTGTVTVKADG  191 (578)
+T ss_dssp             CEEECSSEEEEEEEEEE----CCTTCCSE-EEEEEEEEECSS
+T ss_pred             ceecCCCceEEEEEEEE----eCCCCCCe-EEEEEEEEEECC
+Confidence            34577888888888553    47888888 779999998743
+
+
+No 5
+>5L7V_A glycoside hydrolase; TIM barrel, BACON, hydrolase; HET: GNL; 2.3A {Bacteroides vulgatus (strain ATCC 8482 / DSM 1447 / JCM 5826 / NBRC 14291 / NCTC 11154)}
+Probab=16.31  E-value=3.9e+02  Score=21.55  Aligned_cols=36  Identities=31%  Similarity=0.551  Sum_probs=26.8  Template_Neff=9.900
+
+Q ss_pred             cCCCCCCCCCEEEEeCCCCcCCCCCCCcceeeceeEecccc
+Q tr|A0A494C1L2|   35 LTLPPKYNQPFFVTSLPDDKIPKGAGPGCYLAGSLTLSKTE   75 (101)
+Q Consensus        35 ltlppkynqpffvtslpddkipkgagpgcylagsltlskte   75 (101)
+                      ..+.+|+...||+.-    ++|.++++| ...|+|++..++
+T Consensus       141 ~~l~~g~~~~~wl~v----~vp~~~~pG-~Y~g~i~l~~~~  176 (563)
+T 5L7V_A          141 LTLPANSTQGGWISV----NIPQGTKAG-KYTGTVTVKADG  176 (563)
+T ss_dssp             EEECSSEEEEEEEEE----ECCTTCCSE-EEEEEEEEEETT
+T ss_pred             ceeCCCceEEEEEEE----EeCCCCCCc-EEEEEEEEEECC
+Confidence            456778888888855    347888888 559999998743
+
+
+No 6
+>3ZLC_B ER-DERIVED VESICLES PROTEIN ERV41; PROTEIN TRANSPORT, EARLY SECRETORY PATHWAY; 1.999A {SACCHAROMYCES CEREVISIAE}
+Probab=14.90  E-value=2.4e+02  Score=21.07  Aligned_cols=15  Identities=27%  Similarity=0.587  Sum_probs=12.8  Template_Neff=8.600
+
+Q ss_pred             CCCcceeeceeEecc
+Q tr|A0A494C1L2|   59 AGPGCYLAGSLTLSK   73 (101)
+Q Consensus        59 agpgcylagsltlsk   73 (101)
+                      ..+|+.+.|.+.+.+
+T Consensus       113 ~~egC~i~G~~~v~k  127 (252)
+T 3ZLC_B          113 EFNGCHVFGSIPVNR  127 (252)
+T ss_dssp             TTEEEEEEEEEEEES
+T ss_pred             CCCCEEEEEEEEEEE
+Confidence            348999999999986
+
+
+No 7
+>6IVS_A Anti-sigma-I factor RsgI1; anti-sigma factor, TRANSCRIPTION; NMR {Hungateiclostridium thermocellum ATCC 27405}
+Probab=10.09  E-value=3.1e+02  Score=16.86  Aligned_cols=16  Identities=38%  Similarity=0.524  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             ccCCcceEEEcCCCCC
+Q tr|A0A494C1L2|   75 ELGKKANVVLTPRGSL   90 (101)
+Q Consensus        75 elgkkanvvltprgsl   90 (101)
+                      |+.++.-+|+|+.|..
+T Consensus        10 ei~~~~aiVlT~dG~F   25 (53)
+T 6IVS_A           10 EIQGMKAVVLTSEGEF   25 (53)
+T ss_dssp             EEETTEEEEEETTSCE
+T ss_pred             EEeCCEEEEEcCCCeE
+
+
+No 8
+>1Z81_A cyclophilin (E.C.5.2.1.8); Structural Genomics, Structural Genomics Consortium; 2.8A {Plasmodium yoelii yoelii} SCOP: b.62.1.1
+Probab=10.04  E-value=2.8e+02  Score=18.94  Aligned_cols=18  Identities=39%  Similarity=0.741  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             EcCCCCCCCCCccccCCC
+Q tr|A0A494C1L2|   84 LTPRGSLQQNDKENLKRM  101 (101)
+Q Consensus        84 ltprgslqqndkenlkrm  101 (101)
+                      +.|||+++++.++.++..
+T Consensus        14 ~~~~~~~~~~~~~~~~~~   31 (229)
+T 1Z81_A           14 LVPRGSMKSNSKDSENKK   31 (229)
+T ss_dssp             ------------------
+T ss_pred             CCCCCccccCChhHhhcc
+
+
+No 9
+>3IYJ_C Major capsid protein L1; bovine papillomavirus BPV1, major capsid; 4.2A {Bovine papillomavirus type 1}
+Probab=9.91  E-value=4.9e+02  Score=24.59  Aligned_cols=42  Identities=21%  Similarity=0.311  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             CcCCCCCCCcceeeceeEecccccCCcceEEEcCCCCCCCCCccccCC
+Q tr|A0A494C1L2|   53 DKIPKGAGPGCYLAGSLTLSKTELGKKANVVLTPRGSLQQNDKENLKR  100 (101)
+Q Consensus        53 dkipkgagpgcylagsltlsktelgkkanvvltprgslqqndkenlkr  100 (101)
+                      |+||.+    .|+.+. . ....+++..+-.-||.|||-..|..-..|
+T Consensus       265 e~iP~~----~y~~~~-~-~~~~~~~~~~y~~tPSGSlvsSd~qlFNR  306 (495)
+T 3IYJ_C          265 EAPTTD----FYLKNN-K-GDATLKIPSVHFGSPSGSLVSTDNQIFNR  306 (495)
+T ss_dssp             CCCCTT----TCCCBT-T-CCSSCCSCCCEEEEECCCCBCTTTSCCSC
+T ss_pred             CCCCcc----ccccCC-C-CCCCCCCCccccccCcccccCCcchhcCC
+
+
+No 10
+>4UAD_E Importin alpha import adaptor, Influenza; importin karyopherin complex NLS, PROTEIN; 2.42A {Homo sapiens}
+Probab=9.70  E-value=3.2e+02  Score=20.32  Aligned_cols=14  Identities=50%  Similarity=0.686  Sum_probs=0.0  Template_Neff=1.600
+
+Q ss_pred             ecccccCCcceEEE
+Q tr|A0A494C1L2|   71 LSKTELGKKANVVL   84 (101)
+Q Consensus        71 lsktelgkkanvvl   84 (101)
+                      |+|-.-|.||||.+
+T Consensus        31 L~kL~~GEKANvLi   44 (77)
+T 4UAD_E           31 LSNLAKGEKANVLI   44 (77)
+T ss_dssp             GGGSCTTCCEEEEE
+T ss_pred             HhcCCCCCcceEEE
+
+

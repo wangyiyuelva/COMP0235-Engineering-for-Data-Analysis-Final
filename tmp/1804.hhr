@@ -1,0 +1,280 @@
+Query         tr|A0A804HIW5|A0A804HIW5_HUMAN
+Match_columns 226
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:02:27 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1804.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6UCU_C Mitochondrial import re  63.9     2.1 2.3E-05   30.5  -1.6   19   27-45      4-22  (50)
+  2 6UCV_k Mitochondrial import re  63.9     2.1 2.3E-05   30.5  -1.6   20   27-46      4-23  (50)
+  3 4XTR_G ATPase GET3 (E.C.3.6.-.  58.2      32 0.00035   24.8   3.3   21  112-132    14-34  (37)
+  4 5OCE_A Phosphatidylinositol ma  54.6 1.7E+02  0.0018   23.1   8.9   36   87-122     3-38  (304)
+  5 5MAW_E Flagellin, Flagellar pr  44.7      42 0.00046   24.9   2.3   30  143-172   104-133 (133)
+  6 1KWP_A MAP Kinase Activated Pr  36.5 1.5E+02  0.0017   23.4   4.3   11  159-169   308-318 (400)
+  7 1KWP_B MAP Kinase Activated Pr  36.5 1.5E+02  0.0017   23.4   4.3    7  160-166   309-315 (400)
+  8 4NT1_B accelerated-cell-death   33.7 4.2E+02  0.0045   21.6   7.9   55  164-218    93-155 (207)
+  9 4USL_A SORCIN; METAL BINDING P  31.8 2.1E+02  0.0023   19.2   3.9    8    1-8       1-8   (198)
+ 10 5LPH_B Centrosomal protein of   29.7 1.2E+02  0.0013   23.9   2.8   10   67-76     42-51  (288)
+ 11 1BHB_A PHOTORECEPTOR; NMR {Hal  27.9 3.7E+02   0.004   19.4   4.8   31   96-126    17-51  (71)
+ 12 6ZJ3_Sg Ribosomal protein eS1,  23.5 3.2E+02  0.0034   22.7   4.3    8    1-8       1-8   (295)
+ 13 6P25_A Dolichyl-diphosphooligo  21.9   6E+02  0.0065   25.8   6.5   13   71-83    583-595 (817)
+ 14 6P2R_A Dolichyl-diphosphooligo  21.9   6E+02  0.0065   25.8   6.5   13   71-83    583-595 (817)
+ 15 5A5U_B EUKARYOTIC INITIATION F  21.6 2.2E+02  0.0023   28.7   3.5   10   45-54    433-442 (1121)
+ 16 6REW_C Sodium pumping rhodopsi  20.5 6.2E+02  0.0067   22.1   5.6   30   97-126    35-67  (273)
+ 17 6TEJ_A Drug ABC transporter AT  20.2 1.2E+03   0.013   22.5  11.9    8   80-87    352-359 (908)
+
+No 1
+>6UCU_C Mitochondrial import receptor subunit TOM40; Membrane protein, mitochondrial protein import; HET: LMT; 3.06A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=63.88  E-value=2.1  Score=30.53  Aligned_cols=19  Identities=21%  Similarity=0.466  Sum_probs=7.0  Template_Neff=5.000
+
+Q ss_pred             CCCCCCCCCCCCCCccchc
+Q tr|A0A804HIW5|   27 PPPPQASPAERQQQEEEAQ   45 (226)
+Q Consensus        27 ppppqaspaerqqqeeeaq   45 (226)
+                      .||||.|++|..++|.+|.
+T Consensus         4 g~ppqpS~eE~~~~e~~a~   22 (50)
+T 6UCU_C            4 LPQQEVSEEEKRAHQEQTE   22 (50)
+T ss_dssp             ---------CHHHHHHHHH
+T ss_pred             CCCCCCCHHHHHHHHHHHH
+Confidence            3678889998887776653
+
+
+No 2
+>6UCV_k Mitochondrial import receptor subunit TOM40; Membrane protein, mitochondrial protein import; HET: MC3; 4.1A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=63.88  E-value=2.1  Score=30.53  Aligned_cols=20  Identities=20%  Similarity=0.463  Sum_probs=15.8  Template_Neff=5.000
+
+Q ss_pred             CCCCCCCCCCCCCCccchcc
+Q tr|A0A804HIW5|   27 PPPPQASPAERQQQEEEAQE   46 (226)
+Q Consensus        27 ppppqaspaerqqqeeeaqe   46 (226)
+                      .||||.|++|..++|.+|..
+T Consensus         4 g~ppqpS~eE~~~~e~~a~~   23 (50)
+T 6UCV_k            4 LPQQEVSEEEKRAHQEQTEK   23 (50)
+T ss_pred             CCCCCCCHHHHHHHHHHHHH
+Confidence            36788999999888877653
+
+
+No 3
+>4XTR_G ATPase GET3 (E.C.3.6.-.-), Antibody Heavy; membrane protein targeting complex, HYDROLASE-TRANSPORT; HET: ADP, ATP; 2.05A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=58.18  E-value=32  Score=24.79  Aligned_cols=21  Identities=38%  Similarity=0.759  Sum_probs=12.3  Template_Neff=1.100
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHH
+Q tr|A0A804HIW5|  112 TPWRVYHLISVMILGRVIMQI  132 (226)
+Q Consensus       112 tpwrvyhlisvmilgrvimqi  132 (226)
+                      .-||||-|+...+..-+|.-|
+T Consensus        14 srwrvyllivllvml~fifli   34 (37)
+T 4XTR_G           14 SRWRVYLLIVLLVMLLFIFLI   34 (37)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHH
+Confidence            458999887655444444433
+
+
+No 4
+>5OCE_A Phosphatidylinositol mannoside acyltransferase (E.C.2.3.1.-); acyltransferase, glycolipid biosynthesis, TRANSFERASE; HET: 9R2, BMA, PLM; 2.41A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=54.64  E-value=1.7e+02  Score=23.14  Aligned_cols=36  Identities=14%  Similarity=0.017  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             hCCCchHHHHHHHHHHHHHHHHHHcChHHHHHHHHH
+Q tr|A0A804HIW5|   87 LSWKRPLRSLLGFVAANLLFWFLALTPWRVYHLISV  122 (226)
+Q Consensus        87 lswkrplrsllgfvaanllfwflaltpwrvyhlisv  122 (226)
+                      ++-|..++..+.++..++++.++...|+++...++.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~lP~~~~~~~~~   38 (304)
+T 5OCE_A            3 LSGRIPLGGQVTDLGYAAGWRLVRAMPEAMAQGVFG   38 (304)
+T ss_dssp             ------------------------------------
+T ss_pred             cccccCcchhHHHHHHHHHHHHHHhCCHHHHHHHHH
+Confidence            345667888888888888899999999988776654
+
+
+No 5
+>5MAW_E Flagellin, Flagellar protein FliS; flagellum, type-3-secretion, chaperone; 1.5A {Bacillus subtilis}
+Probab=44.70  E-value=42  Score=24.95  Aligned_cols=30  Identities=13%  Similarity=0.116  Sum_probs=15.3  Template_Neff=9.000
+
+Q ss_pred             hHHHHHHHHHHHHHHhCCCCCCCcHHHHHH
+Q tr|A0A804HIW5|  143 GAQLWRSLSESWEVINSKPDERPRLSHCIA  172 (226)
+Q Consensus       143 gaqlwrslseswevinskpderprlshcia  172 (226)
+                      -...+..|.+.|+.+..+....++.+|.||
+T Consensus       104 ~~~~l~~L~~~W~~~~~~~~~~~~~~~~~~  133 (133)
+T 5MAW_E          104 VEGYVTDFRDAWKQAIQSERKDRHGSGGIA  133 (133)
+T ss_dssp             HHHHHHHHHHHHHHHTTC------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHhhcccccCCCC
+Confidence            346788999999999999888889999875
+
+
+No 6
+>1KWP_A MAP Kinase Activated Protein Kinase; MAPKAP2, protein kinase, signal transduction; HET: HG; 2.8A {Homo sapiens} SCOP: d.144.1.7
+Probab=36.51  E-value=1.5e+02  Score=23.45  Aligned_cols=11  Identities=18%  Similarity=0.570  Sum_probs=5.2  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCcHHH
+Q tr|A0A804HIW5|  159 SKPDERPRLSH  169 (226)
+Q Consensus       159 skpderprlsh  169 (226)
+                      ..|+.||....
+T Consensus       308 ~~p~~Rps~~~  318 (400)
+T 1KWP_A          308 TEPTQRMTITE  318 (400)
+T ss_dssp             CCSSSCCCHHH
+T ss_pred             CCHHhCCCHHH
+Confidence            34555554443
+
+
+No 7
+>1KWP_B MAP Kinase Activated Protein Kinase; MAPKAP2, protein kinase, signal transduction; HET: HG; 2.8A {Homo sapiens} SCOP: d.144.1.7
+Probab=36.51  E-value=1.5e+02  Score=23.45  Aligned_cols=7  Identities=29%  Similarity=0.600  Sum_probs=2.7  Template_Neff=11.800
+
+Q ss_pred             CCCCCCc
+Q tr|A0A804HIW5|  160 KPDERPR  166 (226)
+Q Consensus       160 kpderpr  166 (226)
+                      .|+.||.
+T Consensus       309 ~p~~Rps  315 (400)
+T 1KWP_B          309 EPTQRMT  315 (400)
+T ss_dssp             CSSSSCC
+T ss_pred             CHHhCCC
+Confidence            3333333
+
+
+No 8
+>4NT1_B accelerated-cell-death 11; protein-lipid complexes, GLTP-fold, lipid transfer; HET: KCX; 1.8A {Arabidopsis thaliana}
+Probab=33.73  E-value=4.2e+02  Score=21.59  Aligned_cols=55  Identities=13%  Similarity=0.155  Sum_probs=35.4  Template_Neff=8.800
+
+Q ss_pred             CCcHHHHHHHHHHHH-----HHHHHHHHHHhh-cCCccehhhhhh--HHHhHhhhhhhhhhhh
+Q tr|A0A804HIW5|  164 RPRLSHCIAESWMNF-----SIFLQEMSLFKQ-QSPGKCVHIFYD--LGKLHSWGYTQLSTVT  218 (226)
+Q Consensus       164 rprlshciaeswmnf-----siflqemslfkq-qspgkcvhifyd--lgklhswgytqlstvt  218 (226)
+                      ++.-|.+.+--|++-     ..|++.+..-.. .+...|+.--|+  |++-|+|-..++..+.
+T Consensus        93 ~~~~s~t~~llwl~R~l~F~~~~l~~l~~~~~~~~l~~~~~~AY~~tL~~~H~~~~r~~~~~a  155 (207)
+T 4NT1_B           93 RKAGSHTRNLLRVKRGLDMVKVLFEQIIASEGDNSLKDPATKSYAQVFAPHHGWAIRKAVSLG  155 (207)
+T ss_dssp             TSTTCHHHHHHHHHHHHHHHHHHHHHHHHTTTCCCCHHHHHHHHHHHTGGGSCHHHHHHHHHG
+T ss_pred             cCCCcHHHHHHHHHHHHHHHHHHHHHHHhCCCCCChHHHHHHHHHHHHHHhchHHHHHHHHHH
+Confidence            345677778888873     335555443332 456677777777  5889999877765443
+
+
+No 9
+>4USL_A SORCIN; METAL BINDING PROTEIN, PENTA EF-HANDS; HET: PEG; 1.65A {HOMO SAPIENS}
+Probab=31.83  E-value=2.1e+02  Score=19.19  Aligned_cols=8  Identities=50%  Similarity=0.775  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A804HIW5|    1 MASPAPPE    8 (226)
+Q Consensus         1 maspappe    8 (226)
+                      ||.|.+|.
+T Consensus         1 ~a~~~~~~    8 (198)
+T 4USL_A            1 MAYPGHPG    8 (198)
+T ss_dssp             --------
+T ss_pred             CCCCCCCC
+Confidence            45555443
+
+
+No 10
+>5LPH_B Centrosomal protein of 104 kDa; TOG domain, HEAT repeat, Tubulin; HET: MSE; 2.25A {Homo sapiens}
+Probab=29.71  E-value=1.2e+02  Score=23.88  Aligned_cols=10  Identities=30%  Similarity=0.445  Sum_probs=4.4  Template_Neff=10.800
+
+Q ss_pred             HHHHHHcChh
+Q tr|A0A804HIW5|   67 AVTWLLGEPV   76 (226)
+Q Consensus        67 avtwllgepv   76 (226)
+                      .+.-++++.+
+T Consensus        42 ~~~~~~~~~~   51 (288)
+T 5LPH_B           42 SAIDVLGETL   51 (288)
+T ss_dssp             HHHHHHCHHH
+T ss_pred             HHHHHHCHHH
+Confidence            3334445443
+
+
+No 11
+>1BHB_A PHOTORECEPTOR; NMR {Halobacterium salinarum} SCOP: j.35.1.1
+Probab=27.88  E-value=3.7e+02  Score=19.43  Aligned_cols=31  Identities=10%  Similarity=0.095  Sum_probs=21.5  Template_Neff=7.100
+
+Q ss_pred             HHHHHHHHHHHHHHHcCh----HHHHHHHHHHHHH
+Q tr|A0A804HIW5|   96 LLGFVAANLLFWFLALTP----WRVYHLISVMILG  126 (226)
+Q Consensus        96 llgfvaanllfwflaltp----wrvyhlisvmilg  126 (226)
+                      ..+|.++.+.|.++....    .|.+|.+...|.+
+T Consensus        17 ~~im~~~~l~f~~~~~~~~~~~~r~~~~~~~~i~~   51 (71)
+T 1BHB_A           17 TALMGLGTLYFLVKGMGVSDPDAKKFYAITTLVPA   51 (71)
+T ss_dssp             HHHHHHHHHHHHHHHHCC--CCCHHHHHHHHSHHH
+T ss_pred             HHHHHHHHHHHHHHhhCCCChhhHHHHHHHHHHHH
+Confidence            356677777777777543    4888988877654
+
+
+No 12
+>6ZJ3_Sg Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: 5MC, OMC, 1MA, B8N, B8H, JMC, A2M, MA6, PSU, UR3, 7MG, MIA, OMU, 6MZ, JMH, OMG; 3.15A {Euglena gracilis}
+Probab=23.48  E-value=3.2e+02  Score=22.71  Aligned_cols=8  Identities=38%  Similarity=0.555  Sum_probs=3.1  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A804HIW5|    1 MASPAPPE    8 (226)
+Q Consensus         1 maspappe    8 (226)
+                      |+.+.+|.
+T Consensus         1 ~~~~~~~~    8 (295)
+T 6ZJ3_Sg           1 MAPKKKPS    8 (295)
+T ss_pred             CCCCCCCC
+Confidence            33344433
+
+
+No 13
+>6P25_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunits (E.C.2.4.99.18); complex, TRANSFERASE, glycosylation; HET: NAG, NNM, CPL; 3.2A {Saccharomyces cerevisiae W303}
+Probab=21.91  E-value=6e+02  Score=25.82  Aligned_cols=13  Identities=38%  Similarity=0.946  Sum_probs=8.4  Template_Neff=8.200
+
+Q ss_pred             HHcChhHHHhhcH
+Q tr|A0A804HIW5|   71 LLGEPVLWLGCRA   83 (226)
+Q Consensus        71 llgepvlwlgcra   83 (226)
+                      ++|.|++|..+-+
+T Consensus       583 l~gNp~~w~~~~~  595 (817)
+T 6P25_A          583 LLGNAIVWWAVTA  595 (817)
+T ss_dssp             ECCCHHHHHHHHH
+T ss_pred             hhccHHHHHHHHH
+Confidence            4577777766543
+
+
+No 14
+>6P2R_A Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunits (E.C.2.4.99.18); complex, TRANSFERASE, glycosylation; HET: NAG, NNM, CPL;{Saccharomyces cerevisiae W303}
+Probab=21.91  E-value=6e+02  Score=25.82  Aligned_cols=13  Identities=38%  Similarity=0.946  Sum_probs=8.4  Template_Neff=8.200
+
+Q ss_pred             HHcChhHHHhhcH
+Q tr|A0A804HIW5|   71 LLGEPVLWLGCRA   83 (226)
+Q Consensus        71 llgepvlwlgcra   83 (226)
+                      ++|.|++|..+-+
+T Consensus       583 l~gNp~~w~~~~~  595 (817)
+T 6P2R_A          583 LLGNAIVWWAVTA  595 (817)
+T ss_dssp             ECCCHHHHHHHHH
+T ss_pred             hhccHHHHHHHHH
+Confidence            5577777766543
+
+
+No 15
+>5A5U_B EUKARYOTIC INITIATION FACTOR 3, EUKARYOTIC; TRANSLATION, EIF3, EIF3 OCTAMER CORE; 9.0A {ORYCTOLAGUS CUNICULUS}
+Probab=21.61  E-value=2.2e+02  Score=28.73  Aligned_cols=10  Identities=40%  Similarity=0.544  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             ccCCCCCCCC
+Q tr|A0A804HIW5|   45 QEAGAAEGAG   54 (226)
+Q Consensus        45 qeagaaegag   54 (226)
+                      ++.....+.+
+T Consensus       433 ~~l~~~~~~~  442 (1121)
+T 5A5U_B          433 APASEAEGSA  442 (1121)
+T ss_dssp             ----------
+T ss_pred             CCcccCCCCc
+Confidence            3333333333
+
+
+No 16
+>6REW_C Sodium pumping rhodopsin; light-driven sodium pump, ion translocation; HET: BOG, RET, OLC, LFA; 2.2A {Dokdonia eikasta}
+Probab=20.47  E-value=6.2e+02  Score=22.14  Aligned_cols=30  Identities=13%  Similarity=0.266  Sum_probs=18.9  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHHcC---hHHHHHHHHHHHHH
+Q tr|A0A804HIW5|   97 LGFVAANLLFWFLALT---PWRVYHLISVMILG  126 (226)
+Q Consensus        97 lgfvaanllfwflalt---pwrvyhlisvmilg  126 (226)
+                      ..|+++-++|++....   .+|.+|.++..|.+
+T Consensus        35 ~~~~~~~~~~~~~~~~~~~~~R~~~~l~~~i~~   67 (273)
+T 6REW_C           35 AVMLAGLLYFILTIKNVDKKFQMSNILSAVVMV   67 (273)
+T ss_dssp             HHHHHHHHHHHHTGGGSCGGGHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHccCCHHhcHHHHHHHHHHH
+Confidence            4456666666666543   47888877766544
+
+
+No 17
+>6TEJ_A Drug ABC transporter ATP-binding protein; ABC transporter, Membrane protein, Sybody; HET: DMU; 2.7A {Mycolicibacterium thermoresistibile}
+Probab=20.22  E-value=1.2e+03  Score=22.47  Aligned_cols=8  Identities=38%  Similarity=-0.047  Sum_probs=3.3  Template_Neff=10.400
+
+Q ss_pred             hhcHHHHh
+Q tr|A0A804HIW5|   80 GCRADELL   87 (226)
+Q Consensus        80 gcradell   87 (226)
+                      +--.|.+.
+T Consensus       352 ~~li~~l~  359 (908)
+T 6TEJ_A          352 VELARLLL  359 (908)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHHHHHh
+Confidence            33344444
+
+

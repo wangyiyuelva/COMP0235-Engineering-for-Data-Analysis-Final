@@ -1,0 +1,177 @@
+Query         tr|A0A804HHZ9|A0A804HHZ9_HUMAN
+Match_columns 274
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:10:29 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1932.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KAC_r Photosystem II protein   46.8      87 0.00095   28.8   5.0   50  207-258     2-51  (280)
+  2 6KAD_R Chlorophyll a-b binding  46.8      87 0.00095   28.8   5.0   50  207-258     2-51  (280)
+  3 5MJR_A Protein Thf1; photosyst  28.6      68 0.00074   30.0   1.6   34   68-101    80-113 (239)
+  4 5MLF_F Protein Thf1; photosyst  28.6      68 0.00074   30.0   1.6   34   68-101    80-113 (239)
+  5 5UN0_2 Proteasome Activator; A  24.3 7.3E+02  0.0079   21.4   8.2   81   46-128   153-242 (251)
+  6 6X0N_P Histone H3.2, Histone H  16.8 2.4E+02  0.0026   27.4   2.7   20  217-236    19-39  (590)
+  7 3QH4_A Esterase LipW; Structur  11.7 1.2E+03   0.013   18.2   5.0   34   63-96      1-34  (317)
+  8 6Z8F_B Capsid protein precurso  10.8 9.1E+02  0.0099   24.1   4.6   44   49-101   114-157 (512)
+  9 7AE1_Q DNA-directed RNA polyme  10.7   1E+02  0.0011   26.6  -1.4   16   23-38    186-201 (223)
+ 10 7D59_Q DNA-directed RNA polyme  10.7   1E+02  0.0011   26.6  -1.4   21   16-36    179-199 (223)
+
+No 1
+>6KAC_r Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: NEX, LMU, LUT, HEM, CLA, BCR, DGD, PHO, SQD, LMG, PL9, LHG, CHL, OEX, XAT; 2.7A {Chlamydomonas reinhardtii}
+Probab=46.77  E-value=87  Score=28.81  Aligned_cols=50  Identities=26%  Similarity=0.375  Sum_probs=34.9  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A804HHZ9|  207 VFDFTQPAGVSGMAFPRPKRPAPAQEAATEGPSAASGVPQTGPGREVAATRP  258 (274)
+Q Consensus       207 vfdftqpagvsgmafprpkrpapaqeaategpsaasgvpqtgpgrevaatrp  258 (274)
+                      ||.|-.|.+.+-|+...+  +.+++.+++..+..+++.++-|+++.....++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   51 (280)
+T 6KAC_r            2 VFKFPTPPGTQKKAGTTA--TKPAPKATTKKVATSTGTRSGGVGYRKYQGDA   51 (280)
+T ss_pred             ceeCCCCCCccccCCCCC--CCCCCCccccccCCCCCCCCCCcCccccCCCc
+Confidence            677777777776766433  55566666666666899999999986655544
+
+
+No 2
+>6KAD_R Chlorophyll a-b binding protein, chloroplastic; PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: NEX, LUT, HEM, CLA, BCR, DGD, PHO, SQD, LMG, PL9, LHG, CHL, OEX, XAT; 3.4A {Chlamydomonas reinhardtii}
+Probab=46.77  E-value=87  Score=28.81  Aligned_cols=50  Identities=26%  Similarity=0.375  Sum_probs=34.9  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A804HHZ9|  207 VFDFTQPAGVSGMAFPRPKRPAPAQEAATEGPSAASGVPQTGPGREVAATRP  258 (274)
+Q Consensus       207 vfdftqpagvsgmafprpkrpapaqeaategpsaasgvpqtgpgrevaatrp  258 (274)
+                      ||.|-.|.+.+-|+...+  +.+++.+++..+..+++.++-|+++.....++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   51 (280)
+T 6KAD_R            2 VFKFPTPPGTQKKAGTTA--TKPAPKATTKKVATSTGTRSGGVGYRKYQGDA   51 (280)
+T ss_pred             ceeCCCCCCccccCCCCC--CCCCCCccccccCCCCCCCCCCcCccccCCCc
+Confidence            677777777776766433  55566666666666899999999986655544
+
+
+No 3
+>5MJR_A Protein Thf1; photosystem II FtsH, photosynthesis; 1.38A {Thermosynechococcus elongatus}
+Probab=28.64  E-value=68  Score=30.04  Aligned_cols=34  Identities=18%  Similarity=0.259  Sum_probs=25.9  Template_Neff=5.400
+
+Q ss_pred             hccCCChhhCCHHHHHHHHHHHCCCHHHHhhHHH
+Q tr|A0A804HHZ9|   68 ILSNEPWELENPVLAQTLVEALQLDPETLANETA  101 (274)
+Q Consensus        68 ilsnepwelenpvlaqtlvealqldpetlaneta  101 (274)
+                      ++.+-|-+-+...+-+.|+.+|++||+.+..+.+
+T Consensus        80 fm~gY~pe~~~~~If~Al~~Al~~Dp~~~r~DA~  113 (239)
+T 5MJR_A           80 FMEGYQPEGDRDRIFHALCVAEEMNPQQLKEDAA  113 (239)
+T ss_dssp             HTTTCSSGGGHHHHHHHHHHHTTCCHHHHHHHHH
+T ss_pred             HHhCCCChhHHHHHHHHHHHHcCCCHHHHHHHHH
+Confidence            4445555666778999999999999999876543
+
+
+No 4
+>5MLF_F Protein Thf1; photosystem II FtsH, photosynthesis; 3.637A {Thermosynechococcus elongatus (strain BP-1)}
+Probab=28.64  E-value=68  Score=30.04  Aligned_cols=34  Identities=18%  Similarity=0.259  Sum_probs=26.2  Template_Neff=5.400
+
+Q ss_pred             hccCCChhhCCHHHHHHHHHHHCCCHHHHhhHHH
+Q tr|A0A804HHZ9|   68 ILSNEPWELENPVLAQTLVEALQLDPETLANETA  101 (274)
+Q Consensus        68 ilsnepwelenpvlaqtlvealqldpetlaneta  101 (274)
+                      ++.+-|-+-+...+-+.|+.+|++||+.+..+.+
+T Consensus        80 fm~gY~pe~~~~~If~Al~~Al~~Dp~~~r~DA~  113 (239)
+T 5MLF_F           80 FMEGYQPEGDRDRIFHALCVAEEMNPQQLKEDAA  113 (239)
+T ss_dssp             HTTTCSSHHHHHHHHHHHHHHTTCCHHHHHHHHH
+T ss_pred             HHhCCCChhHHHHHHHHHHHHcCCCHHHHHHHHH
+Confidence            4455555666778999999999999999876543
+
+
+No 5
+>5UN0_2 Proteasome Activator; Activator, Apoptosis; 3.0A {Mycobacterium tuberculosis}
+Probab=24.28  E-value=7.3e+02  Score=21.38  Aligned_cols=81  Identities=11%  Similarity=0.115  Sum_probs=41.4  Template_Neff=8.900
+
+Q ss_pred             CCCChhhhhHHHHhcCCCCccehccCCChhh---CCHHHHHHHHHHH------CCCHHHHhhHHHHHHHHHHHHHHhcHH
+Q tr|A0A804HHZ9|   46 GTLTSFDIHILRAFGSLGPGLRILSNEPWEL---ENPVLAQTLVEAL------QLDPETLANETAARAANVARAAASNRA  116 (274)
+Q Consensus        46 gtltsfdihilrafgslgpglrilsnepwel---enpvlaqtlveal------qldpetlanetaaraanvaraaasnra  116 (274)
+                      +.++.+-+...+..+  -|++-++..-|..+   .||-.+..|+++|      .+|.+.|..+...--..+......|..
+T Consensus       153 ~G~~~~ll~~a~~~~--i~~i~Ll~~~~~~~~~~~d~~aa~~ll~~l~~l~~l~~d~~~L~~~~~~~~~~i~~~~~~~~e  230 (251)
+T 5UN0_2          153 TGIAGVFQSACVGAG--IPAVTFWAAVPHYVSHPPNPKATIALLRRVEDVLDVEVPLADLPAQAEAWEREITETIAEDHE  230 (251)
+T ss_dssp             CCHHHHHHHHHHHHT--CCEEEEEEEEETTCCSSCCCHHHHHHHHHHHHHHCCCCCCTTHHHHHHHHHHHHHTSCSSCCC
+T ss_pred             ccHHHHHHHHHHHCC--CCEEEEEEECchhhCCCCCHHHHHHHHHHHHHHhCCCCChhhHHHHHHHHHHHHHHHHHhCHH
+Confidence            333444344444333  25666665554333   7888888877765      456666655544433344444444554
+
+
+Q ss_pred             HHHHHHHhhhhh
+Q tr|A0A804HHZ9|  117 ARAAAAAARTAF  128 (274)
+Q Consensus       117 araaaaaartaf  128 (274)
+                      .+.-....+..|
+T Consensus       231 ~~~~~~~le~~~  242 (251)
+T 5UN0_2          231 LAEYVQTLEQHG  242 (251)
+T ss_dssp             HHHHHCEEEHTT
+T ss_pred             HHHHHHHHHHHH
+Confidence            444444333333
+
+
+No 6
+>6X0N_P Histone H3.2, Histone H4, Histone; DNA repair, PARP1, PARP2, HPF1;{Xenopus laevis}
+Probab=16.84  E-value=2.4e+02  Score=27.40  Aligned_cols=20  Identities=30%  Similarity=0.172  Sum_probs=9.9  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCC-CCCCCCCCCCCC
+Q tr|A0A804HHZ9|  217 SGMAFPRP-KRPAPAQEAATE  236 (274)
+Q Consensus       217 sgmafprp-krpapaqeaate  236 (274)
+                      |.|+.+|+ +++.++..++.+
+T Consensus        19 ~~~~~~~~~~~~~~~~~~~~~   39 (590)
+T 6X0N_P           19 SHMAARRRRSTGGGRARALNE   39 (590)
+T ss_pred             CccccccccCCCCcccccccc
+Confidence            44555555 555554444444
+
+
+No 7
+>3QH4_A Esterase LipW; Structural Genomics, SSGCID, Seattle Structural; 1.75A {Mycobacterium marinum}
+Probab=11.67  E-value=1.2e+03  Score=18.24  Aligned_cols=34  Identities=21%  Similarity=0.432  Sum_probs=23.5  Template_Neff=12.100
+
+Q ss_pred             CCccehccCCChhhCCHHHHHHHHHHHCCCHHHH
+Q tr|A0A804HHZ9|   63 GPGLRILSNEPWELENPVLAQTLVEALQLDPETL   96 (274)
+Q Consensus        63 gpglrilsnepwelenpvlaqtlvealqldpetl   96 (274)
+                      |||.+..+-+--+.-.|.+++.+..+-++.|+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (317)
+T 3QH4_A            1 GPGSMVTQPEAVDRLDPLLRAVATARIDFTAESI   34 (317)
+T ss_dssp             ---CTTTSCSCGGGSCHHHHTTCCCCCCCSHHHH
+T ss_pred             CCCCCCCCCCchhhcCHHHHHHHhhcCCCChHHH
+Confidence            3666666666667778888888888888888665
+
+
+No 8
+>6Z8F_B Capsid protein precursor; Human Picobirnavirus, CryoEM, assembly, capsid;{Human picobirnavirus (strain Human/Thailand/Hy005102/-)}
+Probab=10.84  E-value=9.1e+02  Score=24.11  Aligned_cols=44  Identities=20%  Similarity=0.255  Sum_probs=32.4  Template_Neff=7.700
+
+Q ss_pred             ChhhhhHHHHhcCCCCccehccCCChhhCCHHHHHHHHHHHCCCHHHHhhHHH
+Q tr|A0A804HHZ9|   49 TSFDIHILRAFGSLGPGLRILSNEPWELENPVLAQTLVEALQLDPETLANETA  101 (274)
+Q Consensus        49 tsfdihilrafgslgpglrilsnepwelenpvlaqtlvealqldpetlaneta  101 (274)
+                      -+|--++.|++|-+.         -+...|-.+...|++|++.|++.|.+..+
+T Consensus       114 ~~~~~~~~R~YG~~~---------~ys~~NrY~P~~ll~A~G~D~~dl~~n~a  157 (512)
+T 6Z8F_B          114 YIFHSYVRKILAISK---------LYTPVNKYFPRALLVALGVDPEDVFANQA  157 (512)
+T ss_dssp             HHHHHHHHHHHHHTT---------CCBTTBTTTTHHHHHHHTBCHHHHHHTHH
+T ss_pred             HHHHHHHHHHHHHHc---------ccCcccccHHHHHHHHCCCCHHHHHHhHH
+Confidence            345567788888653         24456888889999999999998875444
+
+
+No 9
+>7AE1_Q DNA-directed RNA polymerase III subunit; HUMAN, TRANSCRIPTION, SHORT RNAs; 2.8A {Homo sapiens}
+Probab=10.70  E-value=1e+02  Score=26.64  Aligned_cols=16  Identities=50%  Similarity=0.636  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|A0A804HHZ9|   23 DEVGEEEMVEGNDYEE   38 (274)
+Q Consensus        23 devgeeemvegndyee   38 (274)
+                      ++..+|+|-++|||-.
+T Consensus       186 ee~deee~ee~~DY~~  201 (223)
+T 7AE1_Q          186 EEYDEEEQEEENDYIN  201 (223)
+T ss_dssp             ----------------
+T ss_pred             hhcchhHHhhccchhH
+Confidence            4456678889999965
+
+
+No 10
+>7D59_Q DNA-directed RNA polymerase III subunit; RNA Polymerase III, TRANSCRIPTION; 3.1A {Homo sapiens}
+Probab=10.70  E-value=1e+02  Score=26.64  Aligned_cols=21  Identities=43%  Similarity=0.569  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A804HHZ9|   16 EDMDEGSDEVGEEEMVEGNDY   36 (274)
+Q Consensus        16 edmdegsdevgeeemvegndy   36 (274)
+                      ++-++..++..+|+|-++|||
+T Consensus       179 ~~e~ee~ee~deee~ee~~DY  199 (223)
+T 7D59_Q          179 DDDAAEQEEYDEEEQEEENDY  199 (223)
+T ss_dssp             ------CCCCCHHHHSCCCTT
+T ss_pred             cchHHHHhhcchhHHhhccch
+
+

@@ -1,0 +1,169 @@
+Query         tr|H3BNQ4|H3BNQ4_HUMAN
+Match_columns 190
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:49:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1592.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7DSK_A Sodium-dependent neutra  96.9  0.0021 2.2E-08   55.5   4.0   32  122-153    83-114 (647)
+  2 7CCS_A 4F2 cell-surface antige  96.6  0.0022 2.3E-08   55.1   1.7   34  121-154    68-101 (631)
+  3 6D6R_A Exosome complex; RNA ex  44.3      23 0.00025   32.9   1.2   22  122-143   402-423 (473)
+  4 6EET_A Protocadherin-15, Cadhe  17.5 1.2E+02  0.0013   23.9   0.8   21  109-129   452-472 (474)
+  5 6T9M_AAA Peroxiredoxin (E.C.1.  16.9 4.7E+02  0.0051   21.2   3.8   30  126-155     6-35  (386)
+  6 1W4I_A PYRUVATE DEHYDROGENASE   13.6 2.2E+02  0.0024   16.7   1.1   11  179-189    48-58  (62)
+  7 4ASD_A VASCULAR ENDOTHELIAL GR  12.5 1.7E+02  0.0019   22.7   0.4   19  124-142     1-19  (353)
+  8 4ASE_A VASCULAR ENDOTHELIAL GR  12.5 1.7E+02  0.0019   22.7   0.4   19  124-142     1-19  (353)
+  9 4K15_A Lmo2686 protein; Struct  10.8 3.9E+02  0.0042   22.2   1.9   26  124-149     1-26  (175)
+ 10 4K15_C Lmo2686 protein; Struct  10.8 3.9E+02  0.0042   22.2   1.9   26  124-149     1-26  (175)
+
+No 1
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=96.93  E-value=0.0021  Score=55.54  Aligned_cols=32  Identities=69%  Similarity=0.777  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCCcccccccCCCCCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  122 PEMGFHHVDQAGLELLTSGDLFASASQSAGIT  153 (190)
+Q Consensus       122 pemgfhhvdqaglelltsgdlfasasqsagit  153 (190)
+                      -++||||+-|+||+++++++.-++++|++||+
+T Consensus        83 ~~~~~~~~~q~gl~~~~s~~~~~~~~q~~~~~  114 (647)
+T 7DSK_A           83 VETGFHHVSQADIEFLTSIDPTASASGSAGIT  114 (647)
+T ss_dssp             --------------------------------
+T ss_pred             EEeeeecccccccccccCCCCCcccccccccc
+Confidence            68999999999999999999999999999998
+
+
+No 2
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=96.57  E-value=0.0022  Score=55.05  Aligned_cols=34  Identities=47%  Similarity=0.430  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCcccccccCCCCCCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  121 SPEMGFHHVDQAGLELLTSGDLFASASQSAGITV  154 (190)
+Q Consensus       121 spemgfhhvdqaglelltsgdlfasasqsagitv  154 (190)
+                      ..|||||||.|+|++++++++..++++|++|||-
+T Consensus        68 ~~~~~~~~~~q~gl~ll~s~~~~~~~~~~~~~~~  101 (631)
+T 7CCS_A           68 MIETGSDCVTQAGLQLLASSDPPALASKNAEVTG  101 (631)
+T ss_dssp             ----------------------------------
+T ss_pred             HHHhccccchhcccchhcCCCCCccccccccccc
+Confidence            5699999999999999999999999999999983
+
+
+No 3
+>6D6R_A Exosome complex; RNA exosome, RNA degradation, ribonuclease; HET: ANP; 3.45A {Homo sapiens}
+Probab=44.28  E-value=23  Score=32.93  Aligned_cols=22  Identities=59%  Similarity=0.939  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCCCCCcccccccCCCCCC
+Q tr|H3BNQ4|H3BN  122 PEMGFHHVDQAGLELLTSGDLF  143 (190)
+Q Consensus       122 pemgfhhvdqaglelltsgdlf  143 (190)
+                      -..|||||.|+++|.++.++..
+T Consensus       402 ~~~~~~~~~~~~~~~~~~~~~~  423 (473)
+T 6D6R_A          402 QELGFHHVGQTGLEFLTSDAPI  423 (473)
+T ss_dssp             ----------------------
+T ss_pred             ccccccccccccceecCCCCCe
+Confidence            4568999999999999999844
+
+
+No 4
+>6EET_A Protocadherin-15, Cadherin-23; Mechanotransduction, calcium binding protein, cell; HET: EPE, NAG, MAN; 3.23A {Mus musculus}
+Probab=17.51  E-value=1.2e+02  Score=23.87  Aligned_cols=21  Identities=29%  Similarity=0.268  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  109 SGDRDSDFLAASSPEMGFHHV  129 (190)
+Q Consensus       109 sgdrdsdflaasspemgfhhv  129 (190)
+                      .|-...-.||..-+.|+|||-
+T Consensus       452 ~~~~~~~~~~~~~~~~~~~~~  472 (474)
+T 6EET_A          452 LGYTEKVPRARDPPVGGHHHH  472 (474)
+T ss_dssp             ---------------------
+T ss_pred             cCcccceeeecCCCCCCCCCC
+Confidence            344445567777788999884
+
+
+No 5
+>6T9M_AAA Peroxiredoxin (E.C.1.11.1.15); Spore Coat, Chitinase, Colonisation Factor; HET: PEG, 1PE; 1.3A {Peptoclostridium difficile (strain 630)}
+Probab=16.87  E-value=4.7e+02  Score=21.24  Aligned_cols=30  Identities=30%  Similarity=0.511  Sum_probs=19.5  Template_Neff=10.700
+
+Q ss_pred             CCCCCcccccccCCCCCCCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  126 FHHVDQAGLELLTSGDLFASASQSAGITVP  155 (190)
+Q Consensus       126 fhhvdqaglelltsgdlfasasqsagitvp  155 (190)
+                      .||-...|||++.+|..-.+.+.+.....|
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p   35 (386)
+T 6T9M_AAA          6 HHHHHSSGLEVLFQGPAMKTLKDSKKLVRP   35 (386)
+T ss_pred             ccccccccceeeeeCcchhcccCcCCCCCC
+Confidence            366677899999998765555444443333
+
+
+No 6
+>1W4I_A PYRUVATE DEHYDROGENASE E2 (E.C.2.3.1.12); TRANSFERASE, PERIPHERAL-SUBUNIT BINDING DOMAIN, ULTRAFAST; NMR {PYROBACULUM AEROPHILUM}
+Probab=13.63  E-value=2.2e+02  Score=16.73  Aligned_cols=11  Identities=45%  Similarity=0.507  Sum_probs=7.1  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  179 WDLTAFPAPKA  189 (190)
+Q Consensus       179 wdltafpapka  189 (190)
+                      +..+.||+||+
+T Consensus        48 ~~~~~~~~~~~   58 (62)
+T 1W4I_A           48 KATAPAPAPKA   58 (62)
+T ss_dssp             SCSSCCCCCCS
+T ss_pred             ccCCCCCCCcc
+Confidence            45566777765
+
+
+No 7
+>4ASD_A VASCULAR ENDOTHELIAL GROWTH FACTOR RECEPTOR; ANGIOGENESIS, NUCLEOTIDE-BINDING, INHIBITOR, PHOSPHORYLATION, RECEPTOR; HET: BAX; 2.03A {HOMO SAPIENS}
+Probab=12.45  E-value=1.7e+02  Score=22.66  Aligned_cols=19  Identities=47%  Similarity=0.670  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCcccccccCCCCC
+Q tr|H3BNQ4|H3BN  124 MGFHHVDQAGLELLTSGDL  142 (190)
+Q Consensus       124 mgfhhvdqaglelltsgdl  142 (190)
+                      ||-||-...|||.|..|.-
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~   19 (353)
+T 4ASD_A            1 MGGHHHHHHGLEVLFQGPR   19 (353)
+T ss_dssp             -------------------
+T ss_pred             CCCCccccccceeEEEeEe
+Confidence            7888888899999987753
+
+
+No 8
+>4ASE_A VASCULAR ENDOTHELIAL GROWTH FACTOR RECEPTOR; TRANSFERASE, ANGIOGENESIS, SIGNALING PROTEIN, PHOSPHORYLATION; HET: AV9; 1.83A {HOMO SAPIENS}
+Probab=12.45  E-value=1.7e+02  Score=22.66  Aligned_cols=19  Identities=47%  Similarity=0.670  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCcccccccCCCCC
+Q tr|H3BNQ4|H3BN  124 MGFHHVDQAGLELLTSGDL  142 (190)
+Q Consensus       124 mgfhhvdqaglelltsgdl  142 (190)
+                      ||-||-...|||.|..|.-
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~   19 (353)
+T 4ASE_A            1 MGGHHHHHHGLEVLFQGPR   19 (353)
+T ss_dssp             -------------------
+T ss_pred             CCCCccccccceeEEEeEe
+Confidence            7888888999999987753
+
+
+No 9
+>4K15_A Lmo2686 protein; Structural Genomics, NIAID, National Institute; HET: MSE; 2.75A {Listeria monocytogenes}
+Probab=10.84  E-value=3.9e+02  Score=22.22  Aligned_cols=26  Identities=31%  Similarity=0.437  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCcccccccCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  124 MGFHHVDQAGLELLTSGDLFASASQS  149 (190)
+Q Consensus       124 mgfhhvdqaglelltsgdlfasasqs  149 (190)
+                      |..||-...|..|+..+-.+++|...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~a~Aae~   26 (175)
+T 4K15_A            1 MHHHHHHSSGVDLGTENLYFQSNAEI   26 (175)
+T ss_dssp             --------------------------
+T ss_pred             CCCcccccCCcccccccccccccccC
+Confidence            55677778899998887777777655
+
+
+No 10
+>4K15_C Lmo2686 protein; Structural Genomics, NIAID, National Institute; HET: MSE; 2.75A {Listeria monocytogenes}
+Probab=10.84  E-value=3.9e+02  Score=22.22  Aligned_cols=26  Identities=31%  Similarity=0.437  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCcccccccCCCCCCCCCCCC
+Q tr|H3BNQ4|H3BN  124 MGFHHVDQAGLELLTSGDLFASASQS  149 (190)
+Q Consensus       124 mgfhhvdqaglelltsgdlfasasqs  149 (190)
+                      |..||-...|..|+..+-.+++|...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~a~Aae~   26 (175)
+T 4K15_C            1 MHHHHHHSSGVDLGTENLYFQSNAEI   26 (175)
+T ss_dssp             --------------------------
+T ss_pred             CCCcccccCCcccccccccccccccC
+Confidence            55677778899999887777777655
+
+

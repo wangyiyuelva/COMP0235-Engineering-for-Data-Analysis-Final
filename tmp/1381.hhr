@@ -1,0 +1,167 @@
+Query         tr|R4GMV5|R4GMV5_HUMAN
+Match_columns 29
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:40:23 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1381.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3WDW_A Beta-1,3-1,4-glucanase   31.9      73 0.00079   18.2   1.5   18    9-26    100-117 (298)
+  2 2CL2_A PUTATIVE LAMINARINASE (  27.5 1.1E+02  0.0012   17.8   1.7   18    9-26    100-117 (298)
+  3 2W39_A PUTATIVE LAMINARINASE (  27.5 1.1E+02  0.0012   17.8   1.7   18    9-26    100-117 (298)
+  4 6U42_7G Tubulin beta, Tubulin   23.6      70 0.00076   21.0   0.5   12    7-18    201-212 (235)
+  5 3WDV_D Beta-1,3-1,4-glucanase   23.5 1.1E+02  0.0012   17.7   1.3   19    8-26     99-117 (298)
+  6 6U42_4B Tubulin beta, Tubulin   20.4 1.5E+02  0.0016   20.4   1.5   14   11-24     27-40  (307)
+  7 6U42_4J Tubulin beta, Tubulin   20.4 1.5E+02  0.0016   20.4   1.5   14   11-24     27-40  (307)
+  8 2YS0_A Ectonucleotide pyrophos  18.5 1.6E+02  0.0018   11.7   1.1   10    8-17     47-56  (56)
+  9 4ZHH_B Neutrophil gelatinase-a  17.3 1.5E+02  0.0017   14.3   0.8   12   11-22    169-180 (180)
+ 10 4ES7_A Protein AMBP; IMMUNE SY  15.9 2.2E+02  0.0024   14.4   1.3   14   11-24    188-201 (201)
+
+No 1
+>3WDW_A Beta-1,3-1,4-glucanase (E.C.3.2.1.73); 1, 3-1, 4-beta-glucanase, 3(4)-beta-glucanase, PtLic16A; HET: SO4; 1.8A {Paecilomyces}
+Probab=31.88  E-value=73  Score=18.15  Aligned_cols=18  Identities=39%  Similarity=0.704  Sum_probs=11.6  Template_Neff=10.300
+
+Q ss_pred             CCcccCCCCCCCCCCCCC
+Q tr|R4GMV5|R4GM    9 STVWLDETGSCPDDGEID   26 (29)
+Q Consensus         9 stvwldetgscpddgeid   26 (29)
+                      +.+||-.....|..+|||
+T Consensus       100 ~a~wl~~~~~~p~~~EID  117 (298)
+T 3WDW_A          100 PAFWTLGTGDWPYGGAID  117 (298)
+T ss_dssp             EEEEEEESSSTTTTCEEE
+T ss_pred             cchhcCCCCCCCCCccee
+Confidence            456765444667777887
+
+
+No 2
+>2CL2_A PUTATIVE LAMINARINASE (E.C.3.2.1.6); GLYCOSYL HYDROLASE, GH16, FAMILY 16; HET: BMA, NAG, MAN; 1.35A {PHANEROCHAETE CHRYSOSPORIUM}
+Probab=27.52  E-value=1.1e+02  Score=17.78  Aligned_cols=18  Identities=33%  Similarity=0.909  Sum_probs=12.1  Template_Neff=9.900
+
+Q ss_pred             CCcccCCCCCCCCCCCCC
+Q tr|R4GMV5|R4GM    9 STVWLDETGSCPDDGEID   26 (29)
+Q Consensus         9 stvwldetgscpddgeid   26 (29)
+                      +.+||-..+..|..+|||
+T Consensus       100 ~a~wl~~~~~~~~~~EID  117 (298)
+T 2CL2_A          100 PAAWETDEGDWPNGGEVD  117 (298)
+T ss_dssp             EEEEEECGGGTTTTCEEE
+T ss_pred             ccccccCCCCCCCCccee
+Confidence            456666566677777876
+
+
+No 3
+>2W39_A PUTATIVE LAMINARINASE (E.C.3.2.1.6); PHANEROCHAETE CHRYSOSPORIUM, HYDROLASE, WHITE ROT; HET: BGC, NAG, LGC; 1.1A {PHANEROCHAETE CHRYSOSPORIUM}
+Probab=27.52  E-value=1.1e+02  Score=17.78  Aligned_cols=18  Identities=33%  Similarity=0.909  Sum_probs=12.1  Template_Neff=9.900
+
+Q ss_pred             CCcccCCCCCCCCCCCCC
+Q tr|R4GMV5|R4GM    9 STVWLDETGSCPDDGEID   26 (29)
+Q Consensus         9 stvwldetgscpddgeid   26 (29)
+                      +.+||-..+..|..+|||
+T Consensus       100 ~a~wl~~~~~~~~~~EID  117 (298)
+T 2W39_A          100 PAAWETDEGDWPNGGEVD  117 (298)
+T ss_dssp             EEEEEECGGGTTTTCEEE
+T ss_pred             ccccccCCCCCCCCccee
+Confidence            456666566677777876
+
+
+No 4
+>6U42_7G Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=23.64  E-value=70  Score=21.04  Aligned_cols=12  Identities=42%  Similarity=0.805  Sum_probs=9.8  Template_Neff=5.500
+
+Q ss_pred             CCCCcccCCCCC
+Q tr|R4GMV5|R4GM    7 LGSTVWLDETGS   18 (29)
+Q Consensus         7 lgstvwldetgs   18 (29)
+                      .|..||.||-+.
+T Consensus       201 yg~sV~~DEYa~  212 (235)
+T 6U42_7G         201 YGVSVFVDEYGK  212 (235)
+T ss_pred             CCceeeeecccc
+Confidence            678999999764
+
+
+No 5
+>3WDV_D Beta-1,3-1,4-glucanase (E.C.3.2.1.73); 1, 3-1, 4-beta-glucanase, 3(4)-beta-glucanase, PtLic16A; HET: BGC; 1.936A {Paecilomyces}
+Probab=23.51  E-value=1.1e+02  Score=17.66  Aligned_cols=19  Identities=42%  Similarity=0.660  Sum_probs=11.9  Template_Neff=10.000
+
+Q ss_pred             CCCcccCCCCCCCCCCCCC
+Q tr|R4GMV5|R4GM    8 GSTVWLDETGSCPDDGEID   26 (29)
+Q Consensus         8 gstvwldetgscpddgeid   26 (29)
+                      .+.+||-....+|..+|||
+T Consensus        99 ~~a~wl~~~~~~~~~~EID  117 (298)
+T 3WDV_D           99 WPAFWTLGTGDWPYGGEID  117 (298)
+T ss_dssp             EEEEEEEESSSTTTTCEEE
+T ss_pred             ccchhcCCCCCCCCCceeE
+Confidence            3456665444567777887
+
+
+No 6
+>6U42_4B Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=20.39  E-value=1.5e+02  Score=20.40  Aligned_cols=14  Identities=43%  Similarity=0.548  Sum_probs=10.9  Template_Neff=5.400
+
+Q ss_pred             cccCCCCCCCCCCC
+Q tr|R4GMV5|R4GM   11 VWLDETGSCPDDGE   24 (29)
+Q Consensus        11 vwldetgscpddge   24 (29)
+                      ....|||||-|...
+T Consensus        27 ~~~~~tgscfd~t~   40 (307)
+T 6U42_4B          27 ANLSGTGSCFDTTS   40 (307)
+T ss_pred             cCCCCCCCCcccCC
+Confidence            56789999988544
+
+
+No 7
+>6U42_4J Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=20.39  E-value=1.5e+02  Score=20.40  Aligned_cols=14  Identities=43%  Similarity=0.548  Sum_probs=10.9  Template_Neff=5.400
+
+Q ss_pred             cccCCCCCCCCCCC
+Q tr|R4GMV5|R4GM   11 VWLDETGSCPDDGE   24 (29)
+Q Consensus        11 vwldetgscpddge   24 (29)
+                      ....|||||-|...
+T Consensus        27 ~~~~~tgscfd~t~   40 (307)
+T 6U42_4J          27 ANLSGTGSCFDTTS   40 (307)
+T ss_pred             cCCCCCCCCcccCC
+Confidence            56789999988544
+
+
+No 8
+>2YS0_A Ectonucleotide pyrophosphatase/phosphodiesterase family member 1; E-NPP 1, Phosphodiesterase I/nucleotide pyrophosphatase; NMR {Homo sapiens}
+Probab=18.53  E-value=1.6e+02  Score=11.72  Aligned_cols=10  Identities=20%  Similarity=0.195  Sum_probs=5.4  Template_Neff=11.100
+
+Q ss_pred             CCCcccCCCC
+Q tr|R4GMV5|R4GM    8 GSTVWLDETG   17 (29)
+Q Consensus         8 gstvwldetg   17 (29)
+                      |...|+++.|
+T Consensus        47 ~~~~W~~~~~   56 (56)
+T 2YS0_A           47 GEKSSGPSSG   56 (56)
+T ss_dssp             SCCSSCSCCC
+T ss_pred             cCcCCCCCCC
+Confidence            3456776543
+
+
+No 9
+>4ZHH_B Neutrophil gelatinase-associated lipocalin; Metal Binding Protein-inhibitor complex; HET: SO4, GOL, 4OL; 2.04A {Homo sapiens}
+Probab=17.32  E-value=1.5e+02  Score=14.34  Aligned_cols=12  Identities=25%  Similarity=0.409  Sum_probs=7.4  Template_Neff=11.900
+
+Q ss_pred             cccCCCCCCCCC
+Q tr|R4GMV5|R4GM   11 VWLDETGSCPDD   22 (29)
+Q Consensus        11 vwldetgscpdd   22 (29)
+                      +.++.++.||.+
+T Consensus       169 ~~~~~~~~C~~~  180 (180)
+T 4ZHH_B          169 VFPVPIDQCIDG  180 (180)
+T ss_dssp             ECCBCCCTTTC-
+T ss_pred             EecCCcccccCC
+Confidence            456667778764
+
+
+No 10
+>4ES7_A Protein AMBP; IMMUNE SYSTEM; HET: PEG; 2.001A {Homo sapiens}
+Probab=15.94  E-value=2.2e+02  Score=14.44  Aligned_cols=14  Identities=14%  Similarity=0.439  Sum_probs=9.4  Template_Neff=11.400
+
+Q ss_pred             cccCCCCCCCCCCC
+Q tr|R4GMV5|R4GM   11 VWLDETGSCPDDGE   24 (29)
+Q Consensus        11 vwldetgscpddge   24 (29)
+                      .+.+.++.||.+++
+T Consensus       188 ~~~~~~~~C~~~~~  201 (201)
+T 4ES7_A          188 FTMADRGECVPGEQ  201 (201)
+T ss_dssp             EECBCCCCCCTTCC
+T ss_pred             eecCCCCCCCCCCC
+Confidence            45566678887753
+
+

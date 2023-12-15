@@ -1,0 +1,203 @@
+Query         tr|M0QYA3|M0QYA3_HUMAN
+Match_columns 56
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:24:54 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0120.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2QZB_B Uncharacterized protein  26.1      98  0.0011   19.9   1.5   17    2-18     15-31  (166)
+  2 5L20_A Clostripain-related pro  23.5   1E+02  0.0011   19.3   1.2   30   14-43     97-127 (143)
+  3 5UXM_A Phospho-2-dehydro-3-deo  22.7 1.3E+02  0.0014   24.0   1.9   50    6-55    315-402 (453)
+  4 5MDU_A Rpb7-binding protein se  21.9 1.1E+02  0.0012   16.1   0.9   25    7-31    131-155 (157)
+  5 2YPO_B PHOSPHO-2-DEHYDRO-3-DEO  17.8 1.9E+02  0.0021   23.3   1.9   50    6-55    327-414 (462)
+  6 6E16_A Transcription initiatio  17.1 1.9E+02   0.002   19.9   1.5   30   16-45     14-43  (267)
+  7 3PDM_P PROTEIN/RNA Complex; HE  17.1 1.3E+02  0.0014   19.1   0.8   20   11-30     56-75  (162)
+  8 6BMC_A Phospho-2-dehydro-3-deo  15.1 2.3E+02  0.0025   22.6   1.7   50    6-55    261-348 (405)
+  9 4O2H_A hypothetical protein BC  12.9   2E+02  0.0021   19.4   0.7   11   31-41     13-23  (150)
+ 10 6PBJ_A 3-deoxy-d-arabino-heptu  12.8 2.8E+02   0.003   22.5   1.7   32   24-55    367-416 (464)
+
+No 1
+>2QZB_B Uncharacterized protein yfeY; STRUCTURAL GENOMICS, UNKNOWN FUNCTION, PSI-2; 2.1A {Escherichia coli}
+Probab=26.05  E-value=98  Score=19.95  Aligned_cols=17  Identities=29%  Similarity=0.659  Sum_probs=12.7  Template_Neff=8.100
+
+Q ss_pred             CCCCCCCCCcccccCCC
+Q tr|M0QYA3|M0QY    2 NLTENGVGEVSIKSRFP   18 (56)
+Q Consensus         2 nltengvgevsiksrfp   18 (56)
+                      .|+++|+|.+.+...|.
+T Consensus        15 ~it~~gvG~i~~~tp~~   31 (166)
+T 2QZB_B           15 KVSEQGVGELTASTPLQ   31 (166)
+T ss_dssp             CEETTEETTEETTSBSS
+T ss_pred             eeCCCccCCCCCCCCCC
+Confidence            46889999987766554
+
+
+No 2
+>5L20_A Clostripain-related protein, Peptide Inhibitor BTN-VLTK-AOMK; Clostripain, peptidase, microbiome, inhibitor, HYDROLASE-HYDROLASE; HET: CKC; 1.45A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=23.52  E-value=1e+02  Score=19.34  Aligned_cols=30  Identities=13%  Similarity=0.199  Sum_probs=18.4  Template_Neff=8.200
+
+Q ss_pred             ccCCCCCCccccc-CCCCCcccCCCceccCC
+Q tr|M0QYA3|M0QY   14 KSRFPGEDHRLDF-GHGDSQMSQDGYVTQTG   43 (56)
+Q Consensus        14 ksrfpgedhrldf-ghgdsqmsqdgyvtqtg   43 (56)
+                      ..+||.+..-|.| +||...+...+|.+..+
+T Consensus        97 ~~~~Pa~~y~Lil~~HG~Gw~~~~~~~~rs~  127 (143)
+T 5L20_A           97 QRYSPTKRYSMVIGCHGMGWIPVSNSKSRSG  127 (143)
+T ss_dssp             HHHCCCSEEEEEEESEECTTCCSCC------
+T ss_pred             HHHCCCCcEEEEEEeCCCcccCCCCcccccc
+Confidence            4568877666666 89998888888855544
+
+
+No 3
+>5UXM_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: TRP, PO4, PEP; 1.54A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)}
+Probab=22.72  E-value=1.3e+02  Score=23.96  Aligned_cols=50  Identities=30%  Similarity=0.515  Sum_probs=37.8  Template_Neff=6.100
+
+Q ss_pred             CCCCCcccccCCCCCC--------------------cccccCCCCCcccCCCcec------------------cCCCCCC
+Q tr|M0QYA3|M0QY    6 NGVGEVSIKSRFPGED--------------------HRLDFGHGDSQMSQDGYVT------------------QTGGHKG   47 (56)
+Q Consensus         6 ngvgevsiksrfpged--------------------hrldfghgdsqmsqdgyvt------------------qtgghkg   47 (56)
+                      |-.|.+.+.+|+..+.                    .-.|--||..+-+.+|+-|                  +.|.|.|
+T Consensus       315 ~~pGrltlI~R~G~~~v~~~Lp~li~av~~~g~~ViW~cDPmHGNt~~~~~G~KtR~~~~i~~Ei~~f~~ih~~~G~~~g  394 (453)
+T 5UXM_A          315 NDPGRLNLIVRMGADKVGDHLPRLIQAIQREGRQVLWSSDPMHGNTIKASSGYKTRDFARVLAEVRQFFEVHQAEGSYAG  394 (453)
+T ss_dssp             CCTTSEEEEECCCTTTHHHHHHHHHHHHHHTTCCCEEEECCSTTSEEECTTCCEEEBHHHHHHHHHHHHHHHHHHTCCCC
+T ss_pred             CCCCceeEEecCChHHHHHHHHHHHHHHHHcCCceeEEecCCcCCcccccCCCccccHHHHHHHHHHHHHHHHHcCCccc
+Confidence            4456777777776653                    2367889998888888765                  4699999
+
+
+Q ss_pred             CcceecCC
+Q tr|M0QYA3|M0QY   48 GLCVERTG   55 (56)
+Q Consensus        48 glcvertg   55 (56)
+                      ||++|-||
+T Consensus       395 GlHLE~t~  402 (453)
+T 5UXM_A          395 GIHIEMTG  402 (453)
+T ss_dssp             EEEEEBCC
+T ss_pred             cEEEEecC
+Confidence            99999886
+
+
+No 4
+>5MDU_A Rpb7-binding protein seb1; RNA recognition motif (RRM), S.; HET: GOL; 1.02A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=21.93  E-value=1.1e+02  Score=16.15  Aligned_cols=25  Identities=24%  Similarity=0.470  Sum_probs=16.0  Template_Neff=12.200
+
+Q ss_pred             CCCCcccccCCCCCCcccccCCCCC
+Q tr|M0QYA3|M0QY    7 GVGEVSIKSRFPGEDHRLDFGHGDS   31 (56)
+Q Consensus         7 gvgevsiksrfpgedhrldfghgds   31 (56)
+                      +.+...|.+....++...+||+|-+
+T Consensus       131 ~~~~~~~~~~~~~~~~~~~~~~~~~  155 (157)
+T 5MDU_A          131 GTGGLPITPGIALDEPDIEIGLGIS  155 (157)
+T ss_dssp             TTSSCCCCSSEEEECCCCSSCCCSC
+T ss_pred             CcCCcccCCCEEEEcCCceeccccc
+Confidence            3455556666667777777777643
+
+
+No 5
+>2YPO_B PHOSPHO-2-DEHYDRO-3-DEOXYHEPTONATE ALDOLASE AROG (E.C.2.5.1.54); SHIKIMATE PATHWAY, TRANSFERASE, AROMATIC AMINO; HET: PHE, SO4, GOL; 2.0A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=17.81  E-value=1.9e+02  Score=23.29  Aligned_cols=50  Identities=36%  Similarity=0.569  Sum_probs=36.0  Template_Neff=5.900
+
+Q ss_pred             CCCCCcccccCCCCCC--------------------cccccCCCCCcccCCCcec------------------cCCCCCC
+Q tr|M0QYA3|M0QY    6 NGVGEVSIKSRFPGED--------------------HRLDFGHGDSQMSQDGYVT------------------QTGGHKG   47 (56)
+Q Consensus         6 ngvgevsiksrfpged--------------------hrldfghgdsqmsqdgyvt------------------qtgghkg   47 (56)
+                      |--|.+.+..|+..+.                    .-.|--||...-+..|+-|                  +.|.|.|
+T Consensus       327 n~pGrltlI~R~Ga~~i~~~LP~LI~av~~~g~~VvW~cDPmHGNT~~~~~G~KtR~~~~i~~Ei~~f~~ih~~~Gs~~g  406 (462)
+T 2YPO_B          327 NKPGRLTLVSRMGNHKVRDLLPPIVEKVQATGHQVIWQCDPMHGNTHESSTGFKTRHFDRIVDEVQGFFEVHRALGTHPG  406 (462)
+T ss_dssp             CCTTSEEEEECCCTTTHHHHHHHHHHHHHHTTCCCEEEECTTGGGEEECTTSCEEEBHHHHHHHHHHHHHHHHHHTCCEE
+T ss_pred             CCCCcEEEeccCCcHHHHHhhHHHHHHHHHcCCCeEEEEcCCCCCcccccCCccceeHHHHHHHHHHHHHHHHHhCCCCc
+Confidence            4456677777776543                    2357778888777777763                  5689999
+
+
+Q ss_pred             CcceecCC
+Q tr|M0QYA3|M0QY   48 GLCVERTG   55 (56)
+Q Consensus        48 glcvertg   55 (56)
+                      ||++|-||
+T Consensus       407 GlHLE~tg  414 (462)
+T 2YPO_B          407 GIHVEITG  414 (462)
+T ss_dssp             EEEEEBCS
+T ss_pred             cEEEEecC
+Confidence            99999886
+
+
+No 6
+>6E16_A Transcription initiation factor TFIID subunit; transcriptional regulation, carcinogenesis, DNA BINDING; 2.4A {Saccharomyces cerevisiae}
+Probab=17.14  E-value=1.9e+02  Score=19.93  Aligned_cols=30  Identities=27%  Similarity=0.243  Sum_probs=11.4  Template_Neff=8.400
+
+Q ss_pred             CCCCCCcccccCCCCCcccCCCceccCCCC
+Q tr|M0QYA3|M0QY   16 RFPGEDHRLDFGHGDSQMSQDGYVTQTGGH   45 (56)
+Q Consensus        16 rfpgedhrldfghgdsqmsqdgyvtqtggh   45 (56)
+                      -|.||-..|+++.-.+.-+++|.|..||.-
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~~~g~~~~~G~~   43 (267)
+T 6E16_A           14 IFGGEFGSLEIGSYIGGDEGGGSGGGSGGG   43 (267)
+T ss_dssp             HHHSTTGGGGGGGGCC--------------
+T ss_pred             HhcCccceeecCceeccCCCCCCCCCCCCC
+Confidence            356777778877777777889999888753
+
+
+No 7
+>3PDM_P PROTEIN/RNA Complex; HELICAL VIRUS, VIRUS-RNA COMPLEX, VIRUS; 3.5A {Hibiscus latent Singapore virus}
+Probab=17.12  E-value=1.3e+02  Score=19.08  Aligned_cols=20  Identities=10%  Similarity=0.165  Sum_probs=16.8  Template_Neff=8.400
+
+Q ss_pred             cccccCCCCCCcccccCCCC
+Q tr|M0QYA3|M0QY   11 VSIKSRFPGEDHRLDFGHGD   30 (56)
+Q Consensus        11 vsiksrfpgedhrldfghgd   30 (56)
+                      ++...|||.+...++..++.
+T Consensus        56 f~~~~RFP~~~~yV~l~~~~   75 (162)
+T 3PDM_P           56 ANLNTRYPLLGFYVWVRNPT   75 (162)
+T ss_dssp             SCSSSCCCTTCCBCBSSCSS
+T ss_pred             CCCCccCCCCceEEEeeChh
+Confidence            78899999988888877774
+
+
+No 8
+>6BMC_A Phospho-2-dehydro-3-deoxyheptonate aldolase (E.C.2.5.1.54); TRANSFERASE, DAH7PS, 3-deoxy-D-arabino-heptulosonate 7-phosphate synthase; HET: PEP; 2.7A {Pseudomonas aeruginosa}
+Probab=15.13  E-value=2.3e+02  Score=22.60  Aligned_cols=50  Identities=26%  Similarity=0.369  Sum_probs=35.8  Template_Neff=5.800
+
+Q ss_pred             CCCCCcccccCCCCCCc--------------------ccccCCCCCcccCCCcec------------------cCCCCCC
+Q tr|M0QYA3|M0QY    6 NGVGEVSIKSRFPGEDH--------------------RLDFGHGDSQMSQDGYVT------------------QTGGHKG   47 (56)
+Q Consensus         6 ngvgevsiksrfpgedh--------------------rldfghgdsqmsqdgyvt------------------qtgghkg   47 (56)
+                      |--|.+.+.+||.....                    -.|--||+.+-+.+|+-|                  +.|.|.|
+T Consensus       261 ~~pGrltlI~R~G~~~v~~~Lp~Li~av~~~g~~V~W~cDPmhgNt~~~~~G~ktR~~~~i~~Ei~~f~~i~~~~G~~~g  340 (405)
+T 6BMC_A          261 REPGRLTLIARMGAQKVGERLPPLVEAVRAAGHPVIWLSDPMHGNTIVAPCGNKTRLVRSIAEEVAAFRLAVSGSGGVAA  340 (405)
+T ss_dssp             CCTTTEEEEECCCTTTHHHHHHHHHHHHHHHTCCCEEEECTTTTSCEECSSSSEECBHHHHHHHHHHHHHHHHHHTCEEE
+T ss_pred             CCCCccceeeccCchhhHhhcHHHHHHHHHcCCCcEEEecCCCCCceecCCCCchhcHhHHHHHHHHHHHHHHhcCCccc
+Confidence            34466677777665421                    246689998888888744                  4689999
+
+
+Q ss_pred             CcceecCC
+Q tr|M0QYA3|M0QY   48 GLCVERTG   55 (56)
+Q Consensus        48 glcvertg   55 (56)
+                      ||++|-|+
+T Consensus       341 GlHLE~t~  348 (405)
+T 6BMC_A          341 GLHLETTP  348 (405)
+T ss_dssp             EEEEEBCS
+T ss_pred             eEEEEcCC
+Confidence            99999886
+
+
+No 9
+>4O2H_A hypothetical protein BCAM1869; Structural Genomics, PSI-Biology, Midwest Center; HET: MSE; 2.3A {Burkholderia cenocepacia}
+Probab=12.85  E-value=2e+02  Score=19.39  Aligned_cols=11  Identities=45%  Similarity=0.597  Sum_probs=8.3  Template_Neff=6.600
+
+Q ss_pred             CcccCCCcecc
+Q tr|M0QYA3|M0QY   31 SQMSQDGYVTQ   41 (56)
+Q Consensus        31 sqmsqdgyvtq   41 (56)
+                      -.+|+||||--
+T Consensus        13 ~~~s~DGyvRl   23 (150)
+T 4O2H_A           13 PGPSPDGYVRL   23 (150)
+T ss_dssp             BCCCTTSCEEE
+T ss_pred             CCCCCCCeEEe
+Confidence            45689999854
+
+
+No 10
+>6PBJ_A 3-deoxy-d-arabino-heptulosonate 7-phosphate synthase (E.C.2.5.1.54); DAH7PS, Allostery, shipmate pathway, TIM; HET: PG4, SO4, PEG, PO4; 1.9A {Mycobacterium tuberculosis}
+Probab=12.82  E-value=2.8e+02  Score=22.47  Aligned_cols=32  Identities=41%  Similarity=0.640  Sum_probs=19.5  Template_Neff=5.900
+
+Q ss_pred             cccCCCCCcccCCCce------------------ccCCCCCCCcceecCC
+Q tr|M0QYA3|M0QY   24 LDFGHGDSQMSQDGYV------------------TQTGGHKGGLCVERTG   55 (56)
+Q Consensus        24 ldfghgdsqmsqdgyv------------------tqtgghkgglcvertg   55 (56)
+                      .|--||...-+.+|+.                  .+.|.|.|||++|-||
+T Consensus       367 cDPmhGNT~~~~~g~ktR~~~~i~~Ei~~f~~ih~~~gs~~gGlHLE~tg  416 (464)
+T 6PBJ_A          367 CDPMHGNTHESSTGFKTRHFDRIVDEVQGFFEVHRALGTHPGGIHVEITG  416 (464)
+T ss_dssp             ECCSTTCC---------CBHHHHHHHHHHHHHHHHHHTCCCCEEEEEBCS
+T ss_pred             EcCCCCCcccccCCcccchHHHHHHHHHHHHHHHHHhCCCcceEEEEeCC
+Confidence            5667888877777765                  3568999999999886
+
+

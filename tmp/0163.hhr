@@ -1,0 +1,249 @@
+Query         tr|H3BQD0|H3BQD0_HUMAN
+Match_columns 140
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:05:44 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0163.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5H48_A Cerebellin-1; C1q domai  99.0 4.7E-09 5.1E-14   68.9   8.1   58   18-75      9-66  (184)
+  2 5KC6_B Cerebellin-1; Cerebelli  98.9 2.2E-08 2.4E-13   64.8   6.6   48   22-73      2-49  (178)
+  3 5KCA_A Cerebellin-1,Cerebellin  90.8    0.68 7.4E-06   38.3   3.8   12   95-106    70-81  (878)
+  4 5KWR_A Cerebellin-1; Synapse P  70.3      21 0.00023   21.8   3.7   11   94-104    68-78  (143)
+  5 5KCA_A Cerebellin-1,Cerebellin  68.4      17 0.00018   30.5   3.9   15   60-74    147-161 (878)
+  6 5KCA_A Cerebellin-1,Cerebellin  68.0      22 0.00024   29.9   4.5   15   92-106   351-365 (878)
+  7 6UXD_A CT021; CT021, Chlamydia  33.7 1.1E+02  0.0012   26.2   3.5   56   62-129   150-206 (217)
+  8 4FXG_F Complement C4-A, Mannan  33.6 1.5E+02  0.0016   22.9   3.8   32   75-107    62-93  (291)
+  9 2A74_F Human Complement Compon  32.6 1.5E+02  0.0017   23.3   3.8   34   79-112   121-154 (343)
+ 10 2QKI_F Complement C3; immunity  32.6 1.5E+02  0.0017   23.3   3.8   34   79-112   121-154 (343)
+ 11 3T4A_C Complement C3 beta chai  32.6 1.5E+02  0.0017   23.3   3.8   31   79-109   121-151 (343)
+ 12 6VJR_A Vinylacetyl-CoA Delta-i  31.7 4.7E+02  0.0051   22.0   6.5   18   80-97    253-270 (502)
+ 13 1AYO_B ALPHA-2-MACROGLOBULIN;   31.4 1.7E+02  0.0018   18.7   3.3   34   76-110    71-104 (130)
+ 14 5JPN_C Complement C4-A; comple  24.5 2.4E+02  0.0026   21.7   3.5   17   75-91     61-77  (290)
+ 15 6YSQ_E Complement C4b, hC4Nb8   21.7   3E+02  0.0032   21.3   3.6   16   75-90     62-77  (291)
+
+No 1
+>5H48_A Cerebellin-1; C1q domain, C1q/TNF superfamily, receptor; HET: NAG; 2.2A {Rattus norvegicus}
+Probab=99.02  E-value=4.7e-09  Score=68.85  Aligned_cols=58  Identities=93%  Similarity=1.290  Sum_probs=14.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCeEeeeEEEEEeCCCCCCCCCCceEEEEEecCceEEEEEEeecCCCCCc
+Q tr|H3BQD0|H3BQ   18 PARGQNETEPIVLEGKCLVVCDSNPTSDPTGTALGISVRSGSAKVAFSAIRSTNHEPS   75 (140)
+Q Consensus        18 pargqnetepivlegkclvvcdsnptsdptgtalgisvrsgsakvafsairstnheps   75 (140)
+                      -+|+|+|+++++|++|++||||++++.++.+.++++.+......++|.+.........
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~~~~f~a~~~~~~~~~   66 (184)
+T 5H48_A            9 HHGSQNETEPIVLEGKCLVVCDSNPTSDPTGTALGISVRSGSAKVAFSAIRSTNHEPS   66 (184)
+T ss_dssp             ----------------------------------------CTTCCEEEEECCSCCCCC
+T ss_pred             cCCCCCCCcCeeecceEEEEcCCCCCCCCCCCcccceeecCCCeEEEEEEecCCCCCC
+Confidence            5899999999999999999999999999999999998888888999999877766543
+
+
+No 2
+>5KC6_B Cerebellin-1; Cerebellin, neurotransmission, Signaling protein; HET: NAG; 2.801A {Homo sapiens}
+Probab=98.86  E-value=2.2e-08  Score=64.84  Aligned_cols=48  Identities=96%  Similarity=1.348  Sum_probs=8.7  Template_Neff=11.100
+
+Q ss_pred             CCCCCCeEeeeEEEEEeCCCCCCCCCCceEEEEEecCceEEEEEEeecCCCC
+Q tr|H3BQD0|H3BQ   22 QNETEPIVLEGKCLVVCDSNPTSDPTGTALGISVRSGSAKVAFSAIRSTNHE   73 (140)
+Q Consensus        22 qnetepivlegkclvvcdsnptsdptgtalgisvrsgsakvafsairstnhe   73 (140)
+                      ++++.++++++|++|||++++++++.|..+|..    ...+.|.+.......
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~----~~~~~~~~~~~~~~~   49 (178)
+T 5KC6_B            2 TGETEPIVLEGKCLVVCDSNPTSDPTGTALGIS----SAKVAFSAIRSTNHE   49 (178)
+T ss_dssp             -------------------------------------CCCCEEEEECCSCCC
+T ss_pred             CCCCCceeecCceEEecCCCCCCCCCCCccccC----CCeEEEEEEecCCCC
+Confidence            578899999999999999999999999999977    456777776554443
+
+
+No 3
+>5KCA_A Cerebellin-1,Cerebellin-1,Cerebellin-1,Glutamate receptor ionotropic, delta-2; Cerebellin, ionotropic glutamate receptor (iGluR); 3.1A {Homo sapiens}
+Probab=90.77  E-value=0.68  Score=38.27  Aligned_cols=12  Identities=33%  Similarity=0.969  Sum_probs=6.4  Template_Neff=11.200
+
+Q ss_pred             CceEEEEeeccc
+Q tr|H3BQD0|H3BQ   95 RGVQIGLVKEGW  106 (140)
+Q Consensus        95 rgvqiglvkegw  106 (140)
+                      ..+.+.+.+.|.
+T Consensus        70 ~~~~~~l~~n~~   81 (878)
+T 5KCA_A           70 QTIQVSLMLNGW   81 (878)
+T ss_dssp             SCEEEEEEETTE
+T ss_pred             cEEEEEEEECCe
+Confidence            345566666544
+
+
+No 4
+>5KWR_A Cerebellin-1; Synapse Protein, Extracellular Protein, Glycoprotein; HET: FUC, NAG; 1.795A {Rattus norvegicus}
+Probab=70.32  E-value=21  Score=21.85  Aligned_cols=11  Identities=18%  Similarity=0.422  Sum_probs=4.8  Template_Neff=11.900
+
+Q ss_pred             cCceEEEEeec
+Q tr|H3BQD0|H3BQ   94 SRGVQIGLVKE  104 (140)
+Q Consensus        94 srgvqiglvke  104 (140)
+                      .....+.+.+.
+T Consensus        68 ~~~~~~~~~~~   78 (143)
+T 5KWR_A           68 RQTIQVSLMLN   78 (143)
+T ss_dssp             SCCEEEEEEET
+T ss_pred             CcEEEEEEEEC
+Confidence            33444444443
+
+
+No 5
+>5KCA_A Cerebellin-1,Cerebellin-1,Cerebellin-1,Glutamate receptor ionotropic, delta-2; Cerebellin, ionotropic glutamate receptor (iGluR); 3.1A {Homo sapiens}
+Probab=68.39  E-value=17  Score=30.55  Aligned_cols=15  Identities=100%  Similarity=1.274  Sum_probs=9.3  Template_Neff=11.200
+
+Q ss_pred             eEEEEEEeecCCCCC
+Q tr|H3BQD0|H3BQ   60 AKVAFSAIRSTNHEP   74 (140)
+Q Consensus        60 akvafsairstnhep   74 (140)
+                      ..++|++....+...
+T Consensus       147 ~~~af~a~~~~~~~~  161 (878)
+T 5KCA_A          147 AKVAFSAIRSTNHEP  161 (878)
+T ss_dssp             CCCEEEEECCCCCCC
+T ss_pred             ceeeEEEEEecCCCC
+Confidence            456888766655544
+
+
+No 6
+>5KCA_A Cerebellin-1,Cerebellin-1,Cerebellin-1,Glutamate receptor ionotropic, delta-2; Cerebellin, ionotropic glutamate receptor (iGluR); 3.1A {Homo sapiens}
+Probab=67.99  E-value=22  Score=29.92  Aligned_cols=15  Identities=27%  Similarity=0.722  Sum_probs=8.7  Template_Neff=11.200
+
+Q ss_pred             CccCceEEEEeeccc
+Q tr|H3BQD0|H3BQ   92 PSSRGVQIGLVKEGW  106 (140)
+Q Consensus        92 pssrgvqiglvkegw  106 (140)
+                      +....+.+.+.+.+.
+T Consensus       351 ~~~~~~~~~l~~n~~  365 (878)
+T 5KCA_A          351 YNRQTIQVSLMLNGW  365 (878)
+T ss_dssp             CCSSCEEEEEEETTE
+T ss_pred             cCCCEEEEEEEECCe
+Confidence            344456666666654
+
+
+No 7
+>6UXD_A CT021; CT021, Chlamydia trachomatis, UNKNOWN FUNCTION; 2.0A {Chlamydia trachomatis serovar L2 (strain 434/Bu / ATCC VR-902B)}
+Probab=33.69  E-value=1.1e+02  Score=26.24  Aligned_cols=56  Identities=21%  Similarity=0.315  Sum_probs=33.1  Template_Neff=4.800
+
+Q ss_pred             EEEEEeecCCC-CCcccCCcEEEEEEeecccCccCceEEEEeeccccccCCceccccchhhcCCCCCCC
+Q tr|H3BQD0|H3BQ   62 VAFSAIRSTNH-EPSEMSNRTMIIYFDQVSVPSSRGVQIGLVKEGWMEDRCPVLSKGSAEARGRQSGTD  129 (140)
+Q Consensus        62 vafsairstnh-epsemsnrtmiiyfdqvsvpssrgvqiglvkegwmedrcpvlskgsaeargrqsgtd  129 (140)
+                      +.|.|..+.=. -.++-|.++..+|||+-. |+.        -.-|+|-.-|   +|.+.-|.-.+|.+
+T Consensus       150 ~~f~a~~~~WPkD~S~LS~k~I~iYf~~~~-~s~--------FPyWieI~~~---~g~~kiR~IDsG~~  206 (217)
+T 6UXD_A          150 LPSSAWISVWPKDSSPLSEKNILIYFSNNE-RLA--------FPLWTSIDTP---TGTVIIKTIEMGHQ  206 (217)
+T ss_dssp             SSEEEEEEECCSSSSTTTTCEEEEEEESST-TCC--------SCSEEEECCT---TCCEEEEEEEEESC
+T ss_pred             cCceeEEEeCCCCCCcccCCEEEEEecCCC-ccc--------cCEEEEEeCC---CeEEEEEEEecCCC
+Confidence            66666555422 236778999999999876 321        2345555444   34555555555544
+
+
+No 8
+>4FXG_F Complement C4-A, Mannan-binding lectin serine; IMMUNE SYSTEM, complement, proteolytic cascade; HET: TYS, BMA, NAG; 3.75A {Homo sapiens}
+Probab=33.56  E-value=1.5e+02  Score=22.92  Aligned_cols=32  Identities=25%  Similarity=0.336  Sum_probs=19.7  Template_Neff=9.600
+
+Q ss_pred             cccCCcEEEEEEeecccCccCceEEEEeecccc
+Q tr|H3BQD0|H3BQ   75 SEMSNRTMIIYFDQVSVPSSRGVQIGLVKEGWM  107 (140)
+Q Consensus        75 semsnrtmiiyfdqvsvpssrgvqiglvkegwm  107 (140)
+                      -+..++.+++|||+++-. ..-+.+-+..+.-+
+T Consensus        62 ~e~~~~~v~~Y~~~v~~~-~~c~~~~~~~~~~v   93 (291)
+T 4FXG_F           62 FETEGPHVLLYFDSVPTS-RECVGFEAVQEVPV   93 (291)
+T ss_dssp             EECCTTEEEEEEEECCSS-CEEEEEEEEESSCE
+T ss_pred             EEEeCCEEEEEEeeCCCC-ceEEEEEEEEEEec
+Confidence            456789999999998743 33344444443333
+
+
+No 9
+>2A74_F Human Complement Component C3c; Immune system; HET: GOL, NO3, NDG; 2.4A {Homo sapiens}
+Probab=32.63  E-value=1.5e+02  Score=23.30  Aligned_cols=34  Identities=26%  Similarity=0.272  Sum_probs=22.5  Template_Neff=9.700
+
+Q ss_pred             CcEEEEEEeecccCccCceEEEEeeccccccCCc
+Q tr|H3BQD0|H3BQ   79 NRTMIIYFDQVSVPSSRGVQIGLVKEGWMEDRCP  112 (140)
+Q Consensus        79 nrtmiiyfdqvsvpssrgvqiglvkegwmedrcp  112 (140)
+                      .+.+++|||.+.-....-+.+-+..+..++..-|
+T Consensus       121 ~~~v~~Y~~~i~~~~~~c~~~~~~~~~~v~~~qp  154 (343)
+T 2A74_F          121 RNTLIIYLDKVSHSEDDCLAFKVHQYFNVELIQP  154 (343)
+T ss_dssp             CSEEEEEESCBCSSSCEEEEEEEEESSCCSSCCC
+T ss_pred             CCEEEEEEeecCCCCceeEEEEEEEEEecccccC
+Confidence            8999999999875455555565555555544333
+
+
+No 10
+>2QKI_F Complement C3; immunity, complement inhibitor design, C3; HET: BR, NAG, GOL; 2.4A {Homo sapiens}
+Probab=32.63  E-value=1.5e+02  Score=23.30  Aligned_cols=34  Identities=26%  Similarity=0.272  Sum_probs=22.5  Template_Neff=9.700
+
+Q ss_pred             CcEEEEEEeecccCccCceEEEEeeccccccCCc
+Q tr|H3BQD0|H3BQ   79 NRTMIIYFDQVSVPSSRGVQIGLVKEGWMEDRCP  112 (140)
+Q Consensus        79 nrtmiiyfdqvsvpssrgvqiglvkegwmedrcp  112 (140)
+                      .+.+++|||.+.-....-+.+-+..+..++..-|
+T Consensus       121 ~~~v~~Y~~~i~~~~~~c~~~~~~~~~~v~~~qp  154 (343)
+T 2QKI_F          121 RNTLIIYLDKVSHSEDDCLAFKVHQYFNVELIQP  154 (343)
+T ss_dssp             CSEEEEEESCBCSSSCEEEEEEEEESSCCSSCCC
+T ss_pred             CCEEEEEEeecCCCCceeEEEEEEEEEecccccC
+Confidence            8999999999875455555565555555544333
+
+
+No 11
+>3T4A_C Complement C3 beta chain, Complement; Age-related macular degeneration, Cleavage on; 3.4A {Homo sapiens}
+Probab=32.63  E-value=1.5e+02  Score=23.30  Aligned_cols=31  Identities=26%  Similarity=0.268  Sum_probs=20.8  Template_Neff=9.700
+
+Q ss_pred             CcEEEEEEeecccCccCceEEEEeecccccc
+Q tr|H3BQD0|H3BQ   79 NRTMIIYFDQVSVPSSRGVQIGLVKEGWMED  109 (140)
+Q Consensus        79 nrtmiiyfdqvsvpssrgvqiglvkegwmed  109 (140)
+                      .+.+++|||.+.-....-+.+-+..+..++.
+T Consensus       121 ~~~v~~Y~~~i~~~~~~c~~~~~~~~~~v~~  151 (343)
+T 3T4A_C          121 RNTLIIYLDKVSHSEDDCLAFKVHQYFNVEL  151 (343)
+T ss_dssp             CCEEEEEESSCCSSSCCEEEEEEECCSCCSS
+T ss_pred             CCEEEEEEeecCCCCceeEEEEEEEEEeccc
+Confidence            8999999999875455555555555444443
+
+
+No 12
+>6VJR_A Vinylacetyl-CoA Delta-isomerase (E.C.5.3.3.3); oxygen tolerance, iron-sulfur cluster, ammonia-oxidizing; HET: FAD, SO4, SF4; 1.55A {Nitrosopumilus maritimus (strain SCM1)}
+Probab=31.71  E-value=4.7e+02  Score=21.98  Aligned_cols=18  Identities=22%  Similarity=0.427  Sum_probs=14.6  Template_Neff=9.700
+
+Q ss_pred             cEEEEEEeecccCccCce
+Q tr|H3BQD0|H3BQ   80 RTMIIYFDQVSVPSSRGV   97 (140)
+Q Consensus        80 rtmiiyfdqvsvpssrgv   97 (140)
+                      .+..|.||.|.||..+-+
+T Consensus       253 ~~~~v~fd~v~VP~~~vl  270 (502)
+T 6VJR_A          253 QEALIILDRVFIPWDKVF  270 (502)
+T ss_dssp             CEEEEEEEEEEEEGGGEE
+T ss_pred             ceeEEEECCEEechhHeE
+Confidence            567899999999987644
+
+
+No 13
+>1AYO_B ALPHA-2-MACROGLOBULIN; MACROGLOBULIN, RECEPTOR BINDING DOMAIN; HET: NAG; 1.9A {Bos taurus} SCOP: b.2.4.1
+Probab=31.35  E-value=1.7e+02  Score=18.74  Aligned_cols=34  Identities=24%  Similarity=0.405  Sum_probs=21.1  Template_Neff=10.700
+
+Q ss_pred             ccCCcEEEEEEeecccCccCceEEEEeeccccccC
+Q tr|H3BQD0|H3BQ   76 EMSNRTMIIYFDQVSVPSSRGVQIGLVKEGWMEDR  110 (140)
+Q Consensus        76 emsnrtmiiyfdqvsvpssrgvqiglvkegwmedr  110 (140)
+                      +...+..++|||.++. ...-+.+-+.++.-++..
+T Consensus        71 e~~~~~v~~y~~~~~~-~~~c~~~~~~~~~~v~~~  104 (130)
+T 1AYO_B           71 EVSNNHVLIYLDKVTN-ETLTLTFTVLQDIPVRDL  104 (130)
+T ss_dssp             EEETTEEEEEESCCCS-SCEEEEEEEEESSCCSSC
+T ss_pred             EEeCCEEEEEEecCCC-eEEEEEEEEEEeeeccCC
+Confidence            3456789999999874 344455555555544443
+
+
+No 14
+>5JPN_C Complement C4-A; complement, immune system, blood; HET: BMA, NAG, A2G, MAN; 3.6A {Homo sapiens}
+Probab=24.49  E-value=2.4e+02  Score=21.69  Aligned_cols=17  Identities=29%  Similarity=0.595  Sum_probs=13.6  Template_Neff=9.700
+
+Q ss_pred             cccCCcEEEEEEeeccc
+Q tr|H3BQD0|H3BQ   75 SEMSNRTMIIYFDQVSV   91 (140)
+Q Consensus        75 semsnrtmiiyfdqvsv   91 (140)
+                      -+...+.+++|||+++-
+T Consensus        61 ~e~~~~~v~~Y~~~i~~   77 (290)
+T 5JPN_C           61 FETEGPHVLLYFDSVPT   77 (290)
+T ss_dssp             EEEETTEEEEEESCCCS
+T ss_pred             EEEeCCEEEEEEeCCCC
+Confidence            45567899999999874
+
+
+No 15
+>6YSQ_E Complement C4b, hC4Nb8 nanobody; Nanobody, inhibitor, complement C4b, IMMUNE; HET: BMA, NAG; 3.3A {Homo sapiens}
+Probab=21.69  E-value=3e+02  Score=21.35  Aligned_cols=16  Identities=31%  Similarity=0.632  Sum_probs=12.6  Template_Neff=9.600
+
+Q ss_pred             cccCCcEEEEEEeecc
+Q tr|H3BQD0|H3BQ   75 SEMSNRTMIIYFDQVS   90 (140)
+Q Consensus        75 semsnrtmiiyfdqvs   90 (140)
+                      -+...+.+++|||+++
+T Consensus        62 ~e~~~~~v~~Y~~~v~   77 (291)
+T 6YSQ_E           62 FETEGPHVLLYFDSVP   77 (291)
+T ss_pred             EEEeCCEEEEEEecCC
+Confidence            3456788999999976
+
+

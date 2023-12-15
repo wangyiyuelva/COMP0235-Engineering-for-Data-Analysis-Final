@@ -1,0 +1,163 @@
+Query         tr|B1AZ06|B1AZ06_HUMAN
+Match_columns 21
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:42:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0784.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4LGV_C Glucose-6-phosphate 1-d  25.4      93   0.001   19.5   1.2   18    1-18    252-269 (490)
+  2 6SA5_A Complement C5, Putative  22.7      85 0.00092   12.3   0.5   10    5-14      3-12  (137)
+  3 6SAN_A Complement C5, Putative  22.7      85 0.00092   12.3   0.5   11    5-15      3-13  (137)
+  4 4IL6_Y Photosystem Q(B) protei  18.8      96   0.001   14.6   0.3   11    9-19      9-19  (30)
+  5 5B66_y Photosystem II protein   18.8      96   0.001   14.6   0.3   11    9-19      9-19  (30)
+  6 5V2C_Y Photosystem II protein   18.8      96   0.001   14.6   0.3   11    9-19      9-19  (30)
+  7 7Q21_K MEMBRANE PROTEIN, CRYO-  17.7      81 0.00088   16.9  -0.1   15    5-19      8-22  (65)
+  8 6KAC_V Photosystem II protein   17.1 1.3E+02  0.0014   14.2   0.6   11    9-19     12-22  (33)
+  9 6KAD_V Chlorophyll a-b binding  17.1 1.3E+02  0.0014   14.2   0.6   11    9-19     12-22  (33)
+ 10 6IDI_F Envelope protein, Preme  16.7 1.8E+02   0.002   16.7   1.1   12    8-19    154-165 (166)
+
+No 1
+>4LGV_C Glucose-6-phosphate 1-dehydrogenase (E.C.1.1.1.49); Structural Genomics, Seattle Structural Genomics; HET: GOL; 2.3A {Mycobacterium avium}
+Probab=25.39  E-value=93  Score=19.49  Aligned_cols=18  Identities=39%  Similarity=0.578  Sum_probs=14.1  Template_Neff=8.100
+
+Q ss_pred             CCCchhHhhhhHhhcCcc
+Q tr|B1AZ06|B1AZ    1 MGDHLDLLLGVVLMAGPV   18 (21)
+Q Consensus         1 mgdhldlllgvvlmagpv   18 (21)
+                      |..|++.++..+.|--|.
+T Consensus       252 ~q~hll~ll~l~~~~~p~  269 (490)
+T 4LGV_C          252 VQNHLLQVLALVAMEPPV  269 (490)
+T ss_dssp             CCCCCHHHHHHHHCCCCS
+T ss_pred             cchhHHHHHHhhhcCCCC
+Confidence            367999999998886553
+
+
+No 2
+>6SA5_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.29A {Homo sapiens}
+Probab=22.74  E-value=85  Score=12.26  Aligned_cols=10  Identities=50%  Similarity=0.644  Sum_probs=0.0  Template_Neff=13.600
+
+Q ss_pred             hhHhhhhHhh
+Q tr|B1AZ06|B1AZ    5 LDLLLGVVLM   14 (21)
+Q Consensus         5 ldlllgvvlm   14 (21)
+                      +++++..+++
+T Consensus         3 ~~~~~~~~~~   12 (137)
+T 6SA5_A            3 LCILLAVVAF   12 (137)
+T ss_dssp             ----------
+T ss_pred             HHHHHHHHHH
+Confidence            3444444333
+
+
+No 3
+>6SAN_A Complement C5, Putative 8.9 kDa; Scavenger receptor cysteine-rich, pattern recognition; HET: GOL; 1.36A {Homo sapiens}
+Probab=22.74  E-value=85  Score=12.26  Aligned_cols=11  Identities=45%  Similarity=0.588  Sum_probs=0.0  Template_Neff=13.600
+
+Q ss_pred             hhHhhhhHhhc
+Q tr|B1AZ06|B1AZ    5 LDLLLGVVLMA   15 (21)
+Q Consensus         5 ldlllgvvlma   15 (21)
+                      +++++..+++.
+T Consensus         3 ~~~~~~~~~~~   13 (137)
+T 6SAN_A            3 LCILLAVVAFV   13 (137)
+T ss_dssp             -----------
+T ss_pred             HHHHHHHHHHH
+Confidence            34444443333
+
+
+No 4
+>4IL6_Y Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; Photosystem II, Electron transfer, Light-Driven; HET: DMS, LMT, OER, HEM, HTG, CLA, BCR, DGD, PHO, SQD, LMG, UNL, GOL, FME, LHG, PL9; 2.1A {Thermosynechococcus vulcanus}
+Probab=18.85  E-value=96  Score=14.56  Aligned_cols=11  Identities=27%  Similarity=0.767  Sum_probs=7.7  Template_Neff=3.500
+
+Q ss_pred             hhhHhhcCccc
+Q tr|B1AZ06|B1AZ    9 LGVVLMAGPVF   19 (21)
+Q Consensus         9 lgvvlmagpvf   19 (21)
+                      +..++.|||+.
+T Consensus         9 l~lIv~aGP~V   19 (30)
+T 4IL6_Y            9 IAMIGIAGPMI   19 (30)
+T ss_pred             HHHHHHHHhHH
+Confidence            45677889863
+
+
+No 5
+>5B66_y Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: DMS, LMT, HEM, HTG, CLA, BCR, HEC, DGD, PHO, SQD, LMG, UNL, OEX, FME, LHG, RRX, PL9; 1.85A {Thermosynechococcus vulcanus}
+Probab=18.85  E-value=96  Score=14.56  Aligned_cols=11  Identities=27%  Similarity=0.767  Sum_probs=7.7  Template_Neff=3.500
+
+Q ss_pred             hhhHhhcCccc
+Q tr|B1AZ06|B1AZ    9 LGVVLMAGPVF   19 (21)
+Q Consensus         9 lgvvlmagpvf   19 (21)
+                      +..++.|||+.
+T Consensus         9 l~lIv~aGP~V   19 (30)
+T 5B66_y            9 IAMIGIAGPMI   19 (30)
+T ss_pred             HHHHHHHHhHH
+Confidence            45677889863
+
+
+No 6
+>5V2C_Y Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: PG4, HEC, BCR, GOL, BCT, LMT, CLA, PHO, LMG, OEX, EDO, P6G, HEM, HTG, DGD, 2PE, MHS, LHG, FME, PE8, PL9, 1PE, PGE, SQD; 1.9A {Thermosynechococcus vulcanus}
+Probab=18.85  E-value=96  Score=14.56  Aligned_cols=11  Identities=27%  Similarity=0.767  Sum_probs=7.7  Template_Neff=3.500
+
+Q ss_pred             hhhHhhcCccc
+Q tr|B1AZ06|B1AZ    9 LGVVLMAGPVF   19 (21)
+Q Consensus         9 lgvvlmagpvf   19 (21)
+                      +..++.|||+.
+T Consensus         9 l~lIv~aGP~V   19 (30)
+T 5V2C_Y            9 IAMIGIAGPMI   19 (30)
+T ss_pred             HHHHHHHHhHH
+Confidence            45677889863
+
+
+No 7
+>7Q21_K MEMBRANE PROTEIN, CRYO-EM, RESPIRATORY SUPERCOMPLEX; HET: HEM, 9XX, TRD, HAS, MQ9, TWT, HEC, 9YF, PLM, CDL, 7PH; 3.0A {Corynebacterium glutamicum ATCC 13032}
+Probab=17.74  E-value=81  Score=16.89  Aligned_cols=15  Identities=40%  Similarity=0.764  Sum_probs=10.0  Template_Neff=3.700
+
+Q ss_pred             hhHhhhhHhhcCccc
+Q tr|B1AZ06|B1AZ    5 LDLLLGVVLMAGPVF   19 (21)
+Q Consensus         5 ldlllgvvlmagpvf   19 (21)
+                      +.+.+|+++.|+-+|
+T Consensus         8 I~lVLG~vlla~g~w   22 (65)
+T 7Q21_K            8 ALLVLGAIILAGGVW   22 (65)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            456778887776554
+
+
+No 8
+>6KAC_V Photosystem II protein D1 (E.C.1.10.3.9); PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: NEX, LMU, LUT, HEM, CLA, BCR, DGD, PHO, SQD, LMG, PL9, LHG, CHL, OEX, XAT; 2.7A {Chlamydomonas reinhardtii}
+Probab=17.12  E-value=1.3e+02  Score=14.19  Aligned_cols=11  Identities=45%  Similarity=0.751  Sum_probs=7.5  Template_Neff=3.900
+
+Q ss_pred             hhhHhhcCccc
+Q tr|B1AZ06|B1AZ    9 LGVVLMAGPVF   19 (21)
+Q Consensus         9 lgvvlmagpvf   19 (21)
+                      +..++.|||..
+T Consensus        12 l~lIv~aGP~V   22 (33)
+T 6KAC_V           12 LVLVVSAGPLV   22 (33)
+T ss_pred             HHHHHHHchHH
+Confidence            45677788863
+
+
+No 9
+>6KAD_V Chlorophyll a-b binding protein, chloroplastic; PhotosystemII, supercomplex, PHOTOSYNTHESIS; HET: NEX, LUT, HEM, CLA, BCR, DGD, PHO, SQD, LMG, PL9, LHG, CHL, OEX, XAT; 3.4A {Chlamydomonas reinhardtii}
+Probab=17.12  E-value=1.3e+02  Score=14.19  Aligned_cols=11  Identities=45%  Similarity=0.751  Sum_probs=7.5  Template_Neff=3.900
+
+Q ss_pred             hhhHhhcCccc
+Q tr|B1AZ06|B1AZ    9 LGVVLMAGPVF   19 (21)
+Q Consensus         9 lgvvlmagpvf   19 (21)
+                      +..++.|||..
+T Consensus        12 l~lIv~aGP~V   22 (33)
+T 6KAD_V           12 LVLVVSAGPLV   22 (33)
+T ss_pred             HHHHHHHchHH
+Confidence            45677788863
+
+
+No 10
+>6IDI_F Envelope protein, Premembrane protein, Fab; immature dengue virus, human antibody; 12.0A {Dengue virus 3}
+Probab=16.69  E-value=1.8e+02  Score=16.70  Aligned_cols=12  Identities=8%  Similarity=0.465  Sum_probs=6.8  Template_Neff=6.300
+
+Q ss_pred             hhhhHhhcCccc
+Q tr|B1AZ06|B1AZ    8 LLGVVLMAGPVF   19 (21)
+Q Consensus         8 llgvvlmagpvf   19 (21)
+                      ++.++|+.+|.+
+T Consensus       154 ~~~llllvaPaY  165 (166)
+T 6IDI_F          154 IFILLMLVTPSM  165 (166)
+T ss_pred             HHHHHHHhcccc
+Confidence            344556667765
+
+

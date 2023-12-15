@@ -1,0 +1,179 @@
+Query         tr|A0A087WUE6|A0A087WUE6_HUMAN
+Match_columns 1542
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:17:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0383.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7OD1_A TRIAD1, ARIH2, RBR, Ubi  38.4 1.4E+02  0.0015   32.5   5.8   23  580-602    63-85  (493)
+  2 7OD1_B TRIAD1, ARIH2, RBR, Ubi  38.4 1.4E+02  0.0015   32.5   5.8   23  580-602    63-85  (493)
+  3 2KP6_A UNKNOWN FUNCTION, Struc  28.5 1.5E+02  0.0016   29.4   3.8   57  641-697     5-62  (82)
+  4 6TUT_N DNA-directed RNA polyme  25.8 1.8E+03    0.02   27.3  12.3   21  575-595   201-221 (422)
+  5 3OEO_D Spheroplast protein Y;   18.1 1.1E+03   0.012   21.2   7.9   79  675-756    26-112 (138)
+  6 6ID0_W Pre-mRNA-processing-spl  13.4 1.5E+02  0.0016   33.3   0.4   13  742-754    80-92  (579)
+  7 6ID1_W Pre-mRNA-processing-spl  13.4 1.5E+02  0.0016   33.3   0.4   13  742-754    80-92  (579)
+  8 7JW1_E Capsid proteins, Glycop  13.0 1.2E+03   0.013   25.5   6.6   72  631-702   166-237 (244)
+  9 2ZD7_A Vacuolar protein sortin  13.0 5.4E+02  0.0059   27.8   4.3    7  390-396   246-252 (264)
+ 10 3Q66_A Vacuolar protein sortin  13.0 5.4E+02  0.0059   27.8   4.3    8  389-396   245-252 (264)
+
+No 1
+>7OD1_A TRIAD1, ARIH2, RBR, Ubiquitin, E3; HET: ZN; 2.45A {Homo sapiens}
+Probab=38.40  E-value=1.4e+02  Score=32.47  Aligned_cols=23  Identities=17%  Similarity=0.237  Sum_probs=15.0  Template_Neff=10.700
+
+Q ss_pred             cCCHHHHHHHHHHHHHhhhcccC
+Q tr|A0A087WUE6|  580 RITKKEVNELMEELFETFQDEMG  602 (1542)
+Q Consensus       580 ritkkevnelmeelfetfqdemg  602 (1542)
+                      -++..++.+.|++..+.+.+-++
+T Consensus        63 ~l~~~~~~~~~~~~i~~v~~~~~   85 (493)
+T 7OD1_A           63 CLTYKESEGALNEHMTSLASVLK   85 (493)
+T ss_dssp             EEEHHHHHHHHHHHHHHHHHHHT
+T ss_pred             EccHHHHHHHHHHHHHHHHHHhC
+Confidence            35677777777777666655444
+
+
+No 2
+>7OD1_B TRIAD1, ARIH2, RBR, Ubiquitin, E3; HET: ZN; 2.45A {Homo sapiens}
+Probab=38.40  E-value=1.4e+02  Score=32.47  Aligned_cols=23  Identities=17%  Similarity=0.237  Sum_probs=15.5  Template_Neff=10.700
+
+Q ss_pred             cCCHHHHHHHHHHHHHhhhcccC
+Q tr|A0A087WUE6|  580 RITKKEVNELMEELFETFQDEMG  602 (1542)
+Q Consensus       580 ritkkevnelmeelfetfqdemg  602 (1542)
+                      -++..++.+.|++..+.+.+-++
+T Consensus        63 ~l~~~~~~~~~~~~i~~v~~~~~   85 (493)
+T 7OD1_B           63 CLTYKESEGALNEHMTSLASVLK   85 (493)
+T ss_dssp             EEEHHHHHHHHHHHHHHHHHHHT
+T ss_pred             EccHHHHHHHHHHHHHHHHHHhC
+Confidence            35677787777777776665544
+
+
+No 3
+>2KP6_A UNKNOWN FUNCTION, Structural Genomics, PSI-2; NMR {Chromobacterium violaceum}
+Probab=28.49  E-value=1.5e+02  Score=29.41  Aligned_cols=57  Identities=19%  Similarity=0.266  Sum_probs=41.5  Template_Neff=4.800
+
+Q ss_pred             hhhchhHHHHHHHHcCCCCCccccccccCC-CCCCCCcccccCCCHHHHHHHHHHHHH
+Q tr|A0A087WUE6|  641 NEQHRTVKELFEQLKMKKSSAKQLQEVEKV-KPQSEKVHQTLILDPAQRKRLQQQMQQ  697 (1542)
+Q Consensus       641 neqhrtvkelfeqlkmkkssakqlqevekv-kpqsekvhqtlildpaqrkrlqqqmqq  697 (1542)
+                      .....|+..||+||....+.+.--+=+++- -+...+.+..-...++||.-|.+.+.+
+T Consensus         5 ~~~~~~l~~LF~QLGL~~~~~~I~~FI~~H~L~~~~~L~eA~FWt~~Qa~FL~e~~~~   62 (82)
+T 2KP6_A            5 DTSNHLLPGLFRQLGLEDEPAAIRAFIDSHPLPPRVPLPEAPFWTPAQAAFLRQALEC   62 (82)
+T ss_dssp             CTTCTHHHHHHHHHTSCCCHHHHHHHHHHSCCCTTSCSTTCTTSCHHHHHHHHHHHHS
+T ss_pred             cCCCCCHHHHHHhhCCCCCHHHHHHHHHhCCCCCCCCcccCCCCCHHHHHHHHHHHHh
+Confidence            345678999999999876643222222221 477788889999999999999998865
+
+
+No 4
+>6TUT_N DNA-directed RNA polymerase III subunit; Transcription, RNA Polymerase III, Pol; 3.25A {Saccharomyces cerevisiae S288C}
+Probab=25.80  E-value=1.8e+03  Score=27.30  Aligned_cols=21  Identities=29%  Similarity=0.479  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCccccCCHHHHHHHHHHHHH
+Q tr|A0A087WUE6|  575 TDRAVRITKKEVNELMEELFE  595 (1542)
+Q Consensus       575 tdravritkkevnelmeelfe  595 (1542)
+                      -=|++|+-..++.+.-.++-+
+T Consensus       201 PVR~~R~~h~d~~~~~~~~~~  221 (422)
+T 6TUT_N          201 PVRPVRVRHEDVETVKREIQE  221 (422)
+T ss_dssp             ---------------------
+T ss_pred             CccccccccCCHHHHHHHHHh
+Confidence            568888877777554444433
+
+
+No 5
+>3OEO_D Spheroplast protein Y; LTxxQ, extracytoplasmic stress response-related, SIGNALING; HET: CD; 2.7A {Escherichia coli}
+Probab=18.10  E-value=1.1e+03  Score=21.24  Aligned_cols=79  Identities=11%  Similarity=0.229  Sum_probs=41.2  Template_Neff=10.600
+
+Q ss_pred             CCcccccCCCHHHHHHHHHHHHHHHHHHH--------HHHHHHhCCCCCCcchHHHHHHHHHHHHHHHHHHHHHhhcChh
+Q tr|A0A087WUE6|  675 EKVHQTLILDPAQRKRLQQQMQQHVQLLT--------QIHLLATCNPNLNPEATTTRIFLKELGTFAQSSIALHHQYNPK  746 (1542)
+Q Consensus       675 ekvhqtlildpaqrkrlqqqmqqhvqllt--------qihllatcnpnlnpeatttriflkelgtfaqssialhhqynpk  746 (1542)
+                      +.....|-|+++|+++++.-+..|..-..        ++.-+. -+++  +.....+-.+.++...-..-...+..+-..
+T Consensus        26 ~~~~~~l~Lt~~Q~~~i~~~~~~~~~~~~~~~~~~~~~l~~~~-~~~~--~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~  102 (138)
+T 3OEO_D           26 DMMFKDLNLTDAQKQQIREIMKGQRDQMKRPPLEERRAMHDII-TSDT--FDKVKAEAQIAKMEEQRKANMLAHMETQNK  102 (138)
+T ss_dssp             ----CCCCCCHHHHHHHHHHHHHHHHTTCCCCSSSHHHHHHHH-SSSS--CCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHhCCCCHHHHHHHHHHHHHHHHHccCCcHHHHHHHHHHH-hcCC--CCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            45567888999999999988888765433        222111 1222  233344455566655544444444444444
+
+
+Q ss_pred             hHhhcccchH
+Q tr|A0A087WUE6|  747 FQTLFQPCNL  756 (1542)
+Q Consensus       747 fqtlfqpcnl  756 (1542)
+                      +..+..+--.
+T Consensus       103 ~~~~Lt~eQ~  112 (138)
+T 3OEO_D          103 IYNILTPEQK  112 (138)
+T ss_dssp             HHHHSCHHHH
+T ss_pred             HHhhCCHHHH
+Confidence            5444444333
+
+
+No 6
+>6ID0_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.9A {Homo sapiens}
+Probab=13.39  E-value=1.5e+02  Score=33.35  Aligned_cols=13  Identities=54%  Similarity=1.165  Sum_probs=11.8  Template_Neff=10.400
+
+Q ss_pred             hcChhhHhhcccc
+Q tr|A0A087WUE6|  742 QYNPKFQTLFQPC  754 (1542)
+Q Consensus       742 qynpkfqtlfqpc  754 (1542)
+                      +|||+|.+||+|-
+T Consensus        80 ~~~~~~~~~~~~~   92 (579)
+T 6ID0_W           80 QYNPTYETMFAPE   92 (579)
+T ss_pred             ecCCCHHHhcCcc
+Confidence            7999999999974
+
+
+No 7
+>6ID1_W Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.86A {Homo sapiens}
+Probab=13.39  E-value=1.5e+02  Score=33.35  Aligned_cols=13  Identities=54%  Similarity=1.165  Sum_probs=11.8  Template_Neff=10.400
+
+Q ss_pred             hcChhhHhhcccc
+Q tr|A0A087WUE6|  742 QYNPKFQTLFQPC  754 (1542)
+Q Consensus       742 qynpkfqtlfqpc  754 (1542)
+                      +|||+|.+||+|-
+T Consensus        80 ~~~~~~~~~~~~~   92 (579)
+T 6ID1_W           80 QYNPTYETMFAPE   92 (579)
+T ss_pred             ecCCCHHHhcCcc
+Confidence            7999999999974
+
+
+No 8
+>7JW1_E Capsid proteins, Glycoprotein 3; bacteriophage, phage, procapsid, satellite phage;{Escherichia phage P2}
+Probab=13.02  E-value=1.2e+03  Score=25.54  Aligned_cols=72  Identities=15%  Similarity=0.221  Sum_probs=54.7  Template_Neff=8.100
+
+Q ss_pred             CCCchHHhhhhhhchhHHHHHHHHcCCCCCccccccccCCCCCCCCcccccCCCHHHHHHHHHHHHHHHHHH
+Q tr|A0A087WUE6|  631 RFEEPLANLLNEQHRTVKELFEQLKMKKSSAKQLQEVEKVKPQSEKVHQTLILDPAQRKRLQQQMQQHVQLL  702 (1542)
+Q Consensus       631 rfeeplanllneqhrtvkelfeqlkmkkssakqlqevekvkpqsekvhqtlildpaqrkrlqqqmqqhvqll  702 (1542)
+                      .++++...+++.-...+..+++.....-....-|+++---.|....+-..++..|++|.++++.++.--..|
+T Consensus       166 ~~~~~~~~~~~~l~~~L~~~~~~~~~~~~~dpvl~~iGl~~~~~~~~D~~~~~SPa~~~k~~~~l~~~~~~~  237 (244)
+T 7JW1_E          166 GYVAPEKAVMQQVKSSLEQKIKQMQISLTGEPVLRLTGLSAATLPHMDYEVAGTPAQRKVWQDKIDQQGAEL  237 (244)
+T ss_dssp             TCCCHHHHHHHHHHHHHHHHHHHCCCCCCCHHHHSSCSSSCCSSCSSSSCSSCSHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHHcccccCCCHHHHHhCCCcCCCCCCCHHhcCCHHHHHHHHHHHHHHHHHH
+Confidence            457788888888888888888887655444455666665567777778889999999999999888765544
+
+
+No 9
+>2ZD7_A Vacuolar protein sorting-associated protein 75; Histone chaperone, vps75, NAP1, Nucleus; 1.85A {Saccharomyces cerevisiae}
+Probab=12.97  E-value=5.4e+02  Score=27.83  Aligned_cols=7  Identities=29%  Similarity=0.102  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCCC
+Q tr|A0A087WUE6|  390 LESDVES  396 (1542)
+Q Consensus       390 lesdves  396 (1542)
+                      .+-|+++
+T Consensus       246 ~~~~~~~  252 (264)
+T 2ZD7_A          246 GEVDLPL  252 (264)
+T ss_dssp             -------
+T ss_pred             cccCCCc
+Confidence            3444444
+
+
+No 10
+>3Q66_A Vacuolar protein sorting-associated protein 75; histone chaperone, lysine acetyltransferase, CHAPERONE-TRANSFERASE; HET: ALY, SO4; 2.705A {Saccharomyces cerevisiae}
+Probab=12.97  E-value=5.4e+02  Score=27.83  Aligned_cols=8  Identities=38%  Similarity=0.256  Sum_probs=2.4  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A087WUE6|  389 LLESDVES  396 (1542)
+Q Consensus       389 llesdves  396 (1542)
+                      ..+-|+++
+T Consensus       245 ~~~~~~~~  252 (264)
+T 3Q66_A          245 LGEVDLPL  252 (264)
+T ss_dssp             ---CCCCC
+T ss_pred             ccccCCCc
+Confidence            33444444
+
+

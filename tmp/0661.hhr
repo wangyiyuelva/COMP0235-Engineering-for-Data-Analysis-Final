@@ -1,0 +1,385 @@
+Query         sp|O75347|TBCA_HUMAN
+Match_columns 108
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:22:43 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0661.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1H7C_A TUBULIN-SPECIFIC CHAPER 100.0 7.6E-30 8.2E-35  169.1  12.1  107    1-107     1-107 (108)
+  2 4CQI_A TUBULIN-BINDING COFACTO 100.0 1.4E-28 1.5E-33  170.1  11.4  104    1-106    20-124 (127)
+  3 3MXZ_A Tubulin-specific chaper 100.0   9E-28 9.8E-33  159.0  10.8  107    1-107     2-110 (116)
+  4 1QSD_B BETA-TUBULIN BINDING PO  99.9 4.2E-26 4.5E-31  151.4  10.9   99    4-105     1-100 (106)
+  5 1VP7_A exodeoxyribonuclease VI  69.2      63 0.00068   23.1   8.0   57   25-84     31-87  (100)
+  6 1VP7_B exodeoxyribonuclease VI  69.2      63 0.00068   23.1   8.0   57   25-84     31-87  (100)
+  7 7N85_J nuclear pore complex, i  53.0   1E+02  0.0011   27.2   6.0   25   16-40    641-665 (823)
+  8 7N9F_z NPC, nucleocytoplasmic   53.0   1E+02  0.0011   27.2   6.0   25   16-40    641-665 (823)
+  9 3C7N_A Structure of the Hsp110  48.0 2.1E+02  0.0023   22.4  10.0   13   14-26    547-559 (668)
+ 10 4UET_A NEMATODE FATTY ACID RET  43.6   2E+02  0.0022   20.8   6.3   32   53-84    129-160 (170)
+ 11 4XCP_A Fatty acid and retinol   43.6   2E+02  0.0022   20.8   6.3   33   52-84    128-160 (170)
+ 12 7VOP_c cytoplasmic ring, cryo-  43.0   2E+02  0.0021   27.3   6.6    8   28-35    367-374 (547)
+ 13 7VOP_f cytoplasmic ring, cryo-  43.0   2E+02  0.0021   27.3   6.6    8   28-35    367-374 (547)
+ 14 4UY3_A SEPTATION RING FORMATIO  31.3 3.4E+02  0.0037   19.9  10.3   41   45-85     73-113 (198)
+ 15 7KRT_B molecular chaperone, Hs  29.9 4.3E+02  0.0046   20.5   8.8   70   13-85    509-579 (600)
+ 16 4JN4_B Chaperone protein DnaK;  28.7 4.6E+02   0.005   20.5   7.8   71   12-85    504-575 (608)
+ 17 4JNE_B Hsp70 CHAPERONE DnaK; D  28.7 4.6E+02   0.005   20.5   7.8   71   12-85    504-575 (608)
+ 18 6DMP_A Designed orthogonal pro  26.6 4.5E+02  0.0049   19.7   5.4   20   66-85     19-38  (77)
+ 19 6W6L_7 60S ribosome-TMCO1 tran  25.5 7.7E+02  0.0083   22.0   7.5   10   63-72    448-457 (483)
+ 20 4F01_B Chaperone protein DnaK;  20.1 4.5E+02  0.0049   17.4   9.4   23   63-85    191-213 (241)
+ 21 2XTP_A GTPASE IMAP FAMILY MEMB  20.0 3.6E+02  0.0039   16.2   5.3   14   30-43    195-208 (260)
+
+No 1
+>1H7C_A TUBULIN-SPECIFIC CHAPERONE A; CHAPERONE, TUBULIN, PROTEIN FOLDING, COFACTOR; HET: MSE; 1.8A {HOMO SAPIENS} SCOP: a.7.5.1
+Probab=99.97  E-value=7.6e-30  Score=169.12  Aligned_cols=107  Identities=98%  Similarity=1.320  Sum_probs=99.2  Template_Neff=7.200
+
+Q ss_pred             CCCccccccccchhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA    1 MADPRVRQIKIKTGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQR   80 (108)
+Q Consensus         1 madprvrqikiktgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesrmmipdcqrrleaayldlqr   80 (108)
+                      |++|.+++|+|++|+|+||+||..+|.+|+..+.+++++|+++|+|+|+||+|.+|++||.+|+|||.+||.+|+.+|..
+T Consensus         1 m~~~~~k~LkIkt~~vkRl~KE~~~Y~kE~~~~~~ki~~m~~~~~d~y~ikkq~evl~Et~~mipd~~~Rl~~a~~~L~~   80 (108)
+T 1H7C_A            1 MADPRVRQIKIKTGVVRRLVKERVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQR   80 (108)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCSCTHHHHHHHHHHHHHTTHHHHHHHHHHHHHHHHH
+T ss_pred             CCCcchhHhHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHH
+Confidence            67899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHccccHhHHHHHHHHHHHHHHhcCC
+Q sp|O75347|TBCA   81 ILENEKDLEEAEEYKEARLVLDSVKLE  107 (108)
+Q Consensus        81 ilenekdleeaeeykearlvldsvkle  107 (108)
+                      +|.+..++.++++|..|+++|++++.+
+T Consensus        81 ~l~~~~~~~~~ee~~~A~~~l~~~~~~  107 (108)
+T 1H7C_A           81 ILENEKDLEEAEEYKEARLVLDSVKLE  107 (108)
+T ss_dssp             HHHHCGGGTTSHHHHHHHHHHHHHHC-
+T ss_pred             HHHhccchhhhHHHHHHHHHHHHhhhc
+Confidence            998765577889999999999998764
+
+
+No 2
+>4CQI_A TUBULIN-BINDING COFACTOR A; STRUCTURAL PROTEIN, TUBULIN-BINDING COFACTOR A; 1.9A {LEISHMANIA MAJOR}
+Probab=99.96  E-value=1.4e-28  Score=170.11  Aligned_cols=104  Identities=21%  Similarity=0.400  Sum_probs=97.3  Template_Neff=6.500
+
+Q ss_pred             CCCccccccccchhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA    1 MADPRVRQIKIKTGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQR   80 (108)
+Q Consensus         1 madprvrqikiktgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesrmmipdcqrrleaayldlqr   80 (108)
+                      |++|.+++|+|++|+|+||+||..+|++|+..+.++|++|+++  |+|+||+|.+|++||.+|+|||.+||..|+.+|..
+T Consensus        20 ~~~~~~k~LkIktg~vkRl~KE~~~Y~kE~~~~~~ki~~mk~~--d~y~ikkq~evl~Et~~Mipd~~~RL~~a~~~L~~   97 (127)
+T 4CQI_A           20 AEAPNEKTLRIKVSALKRTIKDLEFAKREVERELQRLDTLCQS--DPDRVPQQTKVVDEAQMMVPHSVNRIMASVKDLSD   97 (127)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH--CGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccCCChHHchhcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcC--CcchHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHH
+Confidence            4667889999999999999999999999999999999999998  99999999999999999999999999999999999
+
+
+Q ss_pred             HHHcc-ccHhHHHHHHHHHHHHHHhcC
+Q sp|O75347|TBCA   81 ILENE-KDLEEAEEYKEARLVLDSVKL  106 (108)
+Q Consensus        81 ilene-kdleeaeeykearlvldsvkl  106 (108)
+                      +|... +++.+++++..|+++|+.++.
+T Consensus        98 ~l~~~~~~~~~~ee~~~A~~~l~~a~~  124 (127)
+T 4CQI_A           98 YLEKEGSTVSNEELLDLARATMADGQA  124 (127)
+T ss_dssp             HHHTGGGGCCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhCCCCCcHHHHHHHHHHHHHHHH
+Confidence            99876 447788999999999998863
+
+
+No 3
+>3MXZ_A Tubulin-specific chaperone A; helix bundle, Chaperone; 1.599A {Arabidopsis thaliana}
+Probab=99.95  E-value=9e-28  Score=158.97  Aligned_cols=107  Identities=39%  Similarity=0.625  Sum_probs=99.3  Template_Neff=7.600
+
+Q ss_pred             CCCccccccccchhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA    1 MADPRVRQIKIKTGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQR   80 (108)
+Q Consensus         1 madprvrqikiktgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesrmmipdcqrrleaayldlqr   80 (108)
+                      |+++.+++|+|++|+|+||+||..+|.+|+..+.+|+++|+.+|.|+|+||+|.++++||++|+|||.+||..|+.+|..
+T Consensus         2 ~~~~~~~~l~Ikt~~vkRl~Ke~~~Y~kE~~~~~~ri~~~~~~~~d~y~ikkq~evl~Et~~mipd~~~rl~~a~~~L~~   81 (116)
+T 3MXZ_A            2 SHMATIRNLKIKTSTCKRIVKELHSYEKEVEREAAKTADMKDKGADPYDLKQQENVLGESRMMIPDCHKRLESALADLKS   81 (116)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCcchhHhhchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCChHHHHHHHHHHHHHHhhcHHHHHHHHHHHHHHHH
+Confidence            67788999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHcc--ccHhHHHHHHHHHHHHHHhcCC
+Q sp|O75347|TBCA   81 ILENE--KDLEEAEEYKEARLVLDSVKLE  107 (108)
+Q Consensus        81 ilene--kdleeaeeykearlvldsvkle  107 (108)
+                      +|...  +.+.+++++..|+.+|+.+...
+T Consensus        82 ~l~~~~~~~~~~~ee~~~A~~~l~~~~~~  110 (116)
+T 3MXZ_A           82 TLAELEETDEKEGPEIEDAKKTVADVEKQ  110 (116)
+T ss_dssp             HHHHHHTC-CCCCHHHHHHHHHHHHHHTC
+T ss_pred             HHHHhHhccccCCHHHHHHHHHHHHHHHH
+Confidence            99865  3467789999999999998753
+
+
+No 4
+>1QSD_B BETA-TUBULIN BINDING POST-CHAPERONIN COFACTOR; FOUR-HELIX-BUNDLE, CHAPERONE; 2.2A {Saccharomyces cerevisiae} SCOP: a.7.5.1
+Probab=99.94  E-value=4.2e-26  Score=151.40  Aligned_cols=99  Identities=29%  Similarity=0.503  Sum_probs=89.8  Template_Neff=7.100
+
+Q ss_pred             ccccccccchhHHHHHHHHHHHHHHHHHHHHHHHHHHHh-hcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA    4 PRVRQIKIKTGVVKRLVKEKVMYEKEAKQQEEKIEKMRA-EDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQRIL   82 (108)
+Q Consensus         4 prvrqikiktgvvkrlvkekvmyekeakqqeekiekmra-edgenydikkqaeilqesrmmipdcqrrleaayldlqril   82 (108)
+                      +++++|+|++|+|+||+||..+|.+|+..+.+++++|+. +|.|+|+||+|.+|++||.+|||||.+||..|+.+|..++
+T Consensus         1 ~~~~~L~Ikt~~vkRl~Ke~~~Y~kE~~~~~~k~e~~k~~~~~dey~ikkq~evl~Et~~mipd~~~RL~~a~~~L~~~l   80 (106)
+T 1QSD_B            1 MAPTQLDIKVKALKRLTKEEGYYQQELKDQEAHVAKLKEDKSVDPYDLKKQEEVLDDTKRLLPTLYEKIREFKEDLEQFL   80 (106)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CChhHcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCHHHHHhHHHHHHHHHhHHHHHHHHHHHHHHHHHHHH
+Confidence            357899999999999999999999999999999999999 8999999999999999999999999999999999999999
+
+
+Q ss_pred             HccccHhHHHHHHHHHHHHHHhc
+Q sp|O75347|TBCA   83 ENEKDLEEAEEYKEARLVLDSVK  105 (108)
+Q Consensus        83 enekdleeaeeykearlvldsvk  105 (108)
+                      .+..   +++++..|+.+|+.+.
+T Consensus        81 ~~~~---~~~e~~~A~~~l~~a~  100 (106)
+T 1QSD_B           81 KTYQ---GTEDVSDARSAITSAQ  100 (106)
+T ss_dssp             HTCC---SSSCCHHHHHHHHHHH
+T ss_pred             HHcC---CChhHHHHHHHHHHHH
+Confidence            8752   2467888998888875
+
+
+No 5
+>1VP7_A exodeoxyribonuclease VII small subunit (E.C.3.1.11.6); NP_881400.1, Exodeoxyribonuclease VII small subunit; HET: MSE; 2.4A {Bordetella pertussis Tohama I} SCOP: a.7.13.1
+Probab=69.21  E-value=63  Score=23.07  Aligned_cols=57  Identities=14%  Similarity=0.217  Sum_probs=46.3  Template_Neff=5.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHc
+Q sp|O75347|TBCA   25 MYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQRILEN   84 (108)
+Q Consensus        25 myekeakqqeekiekmraedgenydikkqaeilqesrmmipdcqrrleaayldlqrilen   84 (108)
+                      .|+.-+..+..-+..+..+   ...|-.....+++....+..|..+|..+-..+..+...
+T Consensus        31 sfEe~l~~LeeIv~~LE~~---~l~LEesl~lyeeg~~L~~~C~~~L~~ae~~I~~i~~~   87 (100)
+T 1VP7_A           31 DFETALAELESLVSAMENG---TLPLEQSLSAYRRGVELARVCQDRLAQAEQQVKVLEGD   87 (100)
+T ss_dssp             SHHHHHHHHHHHHHHHHTT---CSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHcC---CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            4666666666666666543   67899999999999999999999999999999888764
+
+
+No 6
+>1VP7_B exodeoxyribonuclease VII small subunit (E.C.3.1.11.6); NP_881400.1, Exodeoxyribonuclease VII small subunit; HET: MSE; 2.4A {Bordetella pertussis Tohama I} SCOP: a.7.13.1
+Probab=69.21  E-value=63  Score=23.07  Aligned_cols=57  Identities=14%  Similarity=0.217  Sum_probs=45.3  Template_Neff=5.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHc
+Q sp|O75347|TBCA   25 MYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQRILEN   84 (108)
+Q Consensus        25 myekeakqqeekiekmraedgenydikkqaeilqesrmmipdcqrrleaayldlqrilen   84 (108)
+                      .|+.-+..+..-+..+..   +...|-.....+++....+..|..+|..+-..+..+...
+T Consensus        31 sfEe~l~~LeeIv~~LE~---~~l~LEesl~lyeeg~~L~~~C~~~L~~ae~~I~~i~~~   87 (100)
+T 1VP7_B           31 DFETALAELESLVSAMEN---GTLPLEQSLSAYRRGVELARVCQDRLAQAEQQVKVLEGD   87 (100)
+T ss_dssp             SHHHHHHHHHHHHHHHTT---CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHc---CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            455666666666666543   367899999999999999999999999999999888753
+
+
+No 7
+>7N85_J nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=52.96  E-value=1e+02  Score=27.23  Aligned_cols=25  Identities=16%  Similarity=0.145  Sum_probs=10.9  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA   16 VKRLVKEKVMYEKEAKQQEEKIEKM   40 (108)
+Q Consensus        16 vkrlvkekvmyekeakqqeekiekm   40 (108)
+                      |.+..+++..+..+...+..+|..|
+T Consensus       641 v~~w~~~L~~~~~~f~~~a~~v~~w  665 (823)
+T 7N85_J          641 VTKWTNQLTESASHFEQYTKKINSW  665 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3334444444444444444444443
+
+
+No 8
+>7N9F_z NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=52.96  E-value=1e+02  Score=27.23  Aligned_cols=25  Identities=16%  Similarity=0.145  Sum_probs=10.9  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|O75347|TBCA   16 VKRLVKEKVMYEKEAKQQEEKIEKM   40 (108)
+Q Consensus        16 vkrlvkekvmyekeakqqeekiekm   40 (108)
+                      |.+..+++..+..+...+..+|..|
+T Consensus       641 v~~w~~~L~~~~~~f~~~a~~v~~w  665 (823)
+T 7N9F_z          641 VTKWTNQLTESASHFEQYTKKINSW  665 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3334444444444444444444443
+
+
+No 9
+>3C7N_A Structure of the Hsp110:Hsc70 Nucleotide; chaperone, HSP110, HSP70, HSC70, molecular; HET: ADP, SO4; 3.115A {Saccharomyces cerevisiae}
+Probab=48.04  E-value=2.1e+02  Score=22.43  Aligned_cols=13  Identities=8%  Similarity=0.169  Sum_probs=5.9  Template_Neff=11.300
+
+Q ss_pred             hHHHHHHHHHHHH
+Q sp|O75347|TBCA   14 GVVKRLVKEKVMY   26 (108)
+Q Consensus        14 gvvkrlvkekvmy   26 (108)
+                      ..+.++.+....|
+T Consensus       547 ~~i~~~~~~~~~~  559 (668)
+T 3C7N_A          547 KKLNELIEKENEM  559 (668)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3445555444444
+
+
+No 10
+>4UET_A NEMATODE FATTY ACID RETINOID BINDING; RETINOL-BINDING PROTEIN, FATTY ACID BINDING; NMR {NECATOR AMERICANUS}
+Probab=43.56  E-value=2e+02  Score=20.80  Aligned_cols=32  Identities=16%  Similarity=0.238  Sum_probs=18.1  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHc
+Q sp|O75347|TBCA   53 QAEILQESRMMIPDCQRRLEAAYLDLQRILEN   84 (108)
+Q Consensus        53 qaeilqesrmmipdcqrrleaayldlqrilen   84 (108)
+                      ..+++..-..+-++.+.-|..+.=.+..++.+
+T Consensus       129 ~~~i~~~y~~Ls~~~K~~l~~~FP~i~~l~~~  160 (170)
+T 4UET_A          129 VKEVLKLYKAMSDAGKADFGKQFPFLAKVFES  160 (170)
+T ss_dssp             HHHHHHHHTTSCHHHHHHHHHHCHHHHHHHHH
+T ss_pred             HHHHHHHHHcCCHHHHHHHHHHChHHHHHHhC
+Confidence            44455555555566666666666555555543
+
+
+No 11
+>4XCP_A Fatty acid and retinol binding; Fatty acid retinol binding, retinol-binding; HET: PLM, MSE; 2.14A {Necator americanus}
+Probab=43.56  E-value=2e+02  Score=20.80  Aligned_cols=33  Identities=15%  Similarity=0.232  Sum_probs=20.2  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHc
+Q sp|O75347|TBCA   52 KQAEILQESRMMIPDCQRRLEAAYLDLQRILEN   84 (108)
+Q Consensus        52 kqaeilqesrmmipdcqrrleaayldlqrilen   84 (108)
+                      ...+++..-..+-++.+.-|..+.=.+..++.+
+T Consensus       128 ~~~~i~~~y~~Ls~~~K~~l~~~FP~i~~l~~~  160 (170)
+T 4XCP_A          128 SVKEVLKLYKAMSDAGKADFGKQFPFLAKVFES  160 (170)
+T ss_dssp             HHHHHHHHHHHSCHHHHHHHHHHCHHHHHHHHT
+T ss_pred             HHHHHHHHHHcCCHHHHHHHHHHChHHHHHHhC
+Confidence            345555566666666666666666666666654
+
+
+No 12
+>7VOP_c cytoplasmic ring, cryo-EM, nuclear pore; 8.7A {Xenopus laevis}
+Probab=43.03  E-value=2e+02  Score=27.32  Aligned_cols=8  Identities=38%  Similarity=0.414  Sum_probs=3.0  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHH
+Q sp|O75347|TBCA   28 KEAKQQEE   35 (108)
+Q Consensus        28 keakqqee   35 (108)
+                      .|++++..
+T Consensus       367 ~eLeeq~~  374 (547)
+T 7VOP_c          367 LELEDQEK  374 (547)
+T ss_pred             hhHHHHHH
+Confidence            33333333
+
+
+No 13
+>7VOP_f cytoplasmic ring, cryo-EM, nuclear pore; 8.7A {Xenopus laevis}
+Probab=43.03  E-value=2e+02  Score=27.32  Aligned_cols=8  Identities=38%  Similarity=0.414  Sum_probs=3.0  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHH
+Q sp|O75347|TBCA   28 KEAKQQEE   35 (108)
+Q Consensus        28 keakqqee   35 (108)
+                      .|++++..
+T Consensus       367 ~eLeeq~~  374 (547)
+T 7VOP_f          367 LELEDQEK  374 (547)
+T ss_pred             hhHHHHHH
+Confidence            33333333
+
+
+No 14
+>4UY3_A SEPTATION RING FORMATION REGULATOR EZRA; STRUCTURAL PROTEIN, DIVISOME, FTSZ, CELL; 2.6A {STAPHYLOCOCCUS AUREUS}
+Probab=31.34  E-value=3.4e+02  Score=19.85  Aligned_cols=41  Identities=5%  Similarity=0.199  Sum_probs=36.2  Template_Neff=8.500
+
+Q ss_pred             CCCCcHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   45 GENYDIKKQAEILQESRMMIPDCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        45 genydikkqaeilqesrmmipdcqrrleaayldlqrilene   85 (108)
+                      .+.|.+++....+.+...++.+....+..-...|..++...
+T Consensus        73 ~~~~~~~~a~~~l~~~~~~l~~~e~~~~~l~~~l~~l~~~e  113 (198)
+T 4UY3_A           73 LDKFSFNASQSEIDDANELMDSYEQSYQQQLEDVNEIIALY  113 (198)
+T ss_dssp             HHTTCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHcCChhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            46789999999999999999999999999999998888653
+
+
+No 15
+>7KRT_B molecular chaperone, Hsp70, protein folding; HET: ATP; 2.79A {Escherichia coli (strain K12)}
+Probab=29.86  E-value=4.3e+02  Score=20.55  Aligned_cols=70  Identities=16%  Similarity=0.228  Sum_probs=35.7  Template_Neff=11.300
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHH-hhhHHHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   13 TGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESR-MMIPDCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        13 tgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesr-mmipdcqrrleaayldlqrilene   85 (108)
+                      ...+.++..+...+...-.....+......-...-|.+   +..+.+.. .+-++....+...+.++..++...
+T Consensus       509 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~le~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  579 (600)
+T 7KRT_B          509 EDEIQKMVRDAEANAEADRKCEELVQTRNQGDHLLHST---RKQVEEAGDKLPADDKTAIESALTALETALKGE  579 (600)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---HHHHHHHGGGSCHHHHHHHHHHHHHHHHHHTTT
+T ss_pred             HHHHHHHHHHHHHhhhHHHHHHHHHHHHHHHHHHHHHH---HHHHHHhccCCCHHHHHHHHHHHHHHHHHHcCC
+Confidence            34566666666555444333333332222111112222   22333322 334677888888899988888654
+
+
+No 16
+>4JN4_B Chaperone protein DnaK; DnaK, Chaperone, 70kDa heat shock; HET: ATP, GOL, SO4; 2.3A {Escherichia coli}
+Probab=28.69  E-value=4.6e+02  Score=20.52  Aligned_cols=71  Identities=14%  Similarity=0.248  Sum_probs=38.9  Template_Neff=11.200
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHH-hhhHHHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   12 KTGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESR-MMIPDCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        12 ktgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesr-mmipdcqrrleaayldlqrilene   85 (108)
+                      ....+.++.++...|..+-.....+......   -+..+...+..+.+.. .+-++....+...+.++..++...
+T Consensus       504 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~---le~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  575 (608)
+T 4JN4_B          504 NEDEIQKMVRDAEANAEADRKFEELVQTRNQ---GDHLLHSTRKQVEEAGDKLPADDKTAIESALTALETALKGE  575 (608)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHTHHHHHHHH---HHHHHHHHHHHHHHHGGGSCHHHHHHHHHHHHHHHHHHHSS
+T ss_pred             CHHHHHHHHHHHHHhccccHHHHHHHHHHHH---HHHHHHHHHHHHHHhccCCCHhhHHHHHHHHHHHHHHhcCC
+Confidence            3445677777766665544433333322211   1112233333444432 345777888999999999988754
+
+
+No 17
+>4JNE_B Hsp70 CHAPERONE DnaK; DnaK, Chaperone, 70kDa heat shock; HET: ATP, GOL, SO4; 1.96A {Escherichia coli}
+Probab=28.69  E-value=4.6e+02  Score=20.52  Aligned_cols=71  Identities=14%  Similarity=0.248  Sum_probs=39.0  Template_Neff=11.200
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcHHHHHHHHHHHH-hhhHHHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   12 KTGVVKRLVKEKVMYEKEAKQQEEKIEKMRAEDGENYDIKKQAEILQESR-MMIPDCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        12 ktgvvkrlvkekvmyekeakqqeekiekmraedgenydikkqaeilqesr-mmipdcqrrleaayldlqrilene   85 (108)
+                      ....+.++.++...|..+-.....+......-   +..+...+..+.+.. .+-++....+...+.++..++...
+T Consensus       504 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l---e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  575 (608)
+T 4JNE_B          504 NEDEIQKMVRDAEANAEADRKFEELVQTRNQG---DHLLHSTRKQVEEAGDKLPADDKTAIESALTALETALKGE  575 (608)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHH---HHHHHHHHHHHHHHGGGSCHHHHHHHHHHHHHHHHHHHSC
+T ss_pred             CHHHHHHHHHHHHHhccccHHHHHHHHHHHHH---HHHHHHHHHHHHHhccCCCHhhHHHHHHHHHHHHHHhcCC
+Confidence            34456777777666655444333333222111   112233333444432 345777888999999999988754
+
+
+No 18
+>6DMP_A Designed orthogonal protein DHD13_XAAA_A, Designed; De Novo protein, Computational design; NMR {synthetic construct}
+Probab=26.62  E-value=4.5e+02  Score=19.73  Aligned_cols=20  Identities=25%  Similarity=0.489  Sum_probs=14.2  Template_Neff=1.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   66 DCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        66 dcqrrleaayldlqrilene   85 (108)
+                      ..++|++..+.+|..++...
+T Consensus        19 eihrr~qeileele~iir~~   38 (77)
+T 6DMP_A           19 EIHRRQQEILEELERIIRKP   38 (77)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHHHHHhCC
+Confidence            45677777778887777643
+
+
+No 19
+>6W6L_7 60S ribosome-TMCO1 translocon assembly; RIBOSOME-PROTEIN TRANSPORT complex; HET: MG; 3.84A {Homo sapiens}
+Probab=25.46  E-value=7.7e+02  Score=22.03  Aligned_cols=10  Identities=60%  Similarity=0.714  Sum_probs=5.8  Template_Neff=6.700
+
+Q ss_pred             hhHHHHHHHH
+Q sp|O75347|TBCA   63 MIPDCQRRLE   72 (108)
+Q Consensus        63 mipdcqrrle   72 (108)
+                      |-|+-++|++
+T Consensus       448 ~~PekQrK~E  457 (483)
+T 6W6L_7          448 EDPEKQRRLE  457 (483)
+T ss_pred             CCHHHHHHHH
+Confidence            4566666655
+
+
+No 20
+>4F01_B Chaperone protein DnaK; chaperone; 1.4A {Escherichia coli}
+Probab=20.12  E-value=4.5e+02  Score=17.39  Aligned_cols=23  Identities=26%  Similarity=0.362  Sum_probs=16.7  Template_Neff=11.500
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHcc
+Q sp|O75347|TBCA   63 MIPDCQRRLEAAYLDLQRILENE   85 (108)
+Q Consensus        63 mipdcqrrleaayldlqrilene   85 (108)
+                      +.+.....+...+.+...++.+.
+T Consensus       191 ~~~~~~~~~~~~~~~~~~wl~~~  213 (241)
+T 4F01_B          191 LPADDKTAIESALTALETALKGE  213 (241)
+T ss_dssp             SCTTHHHHHHHHHHHHHHHTTSS
+T ss_pred             CCHHHHHHHHHHHHHHHHHHccC
+Confidence            34667778888888888887653
+
+
+No 21
+>2XTP_A GTPASE IMAP FAMILY MEMBER 2; IMMUNE SYSTEM, G PROTEIN; HET: MSE; 1.5A {HOMO SAPIENS}
+Probab=20.03  E-value=3.6e+02  Score=16.20  Aligned_cols=14  Identities=29%  Similarity=0.309  Sum_probs=5.6  Template_Neff=13.600
+
+Q ss_pred             HHHHHHHHHHHHhh
+Q sp|O75347|TBCA   30 AKQQEEKIEKMRAE   43 (108)
+Q Consensus        30 akqqeekiekmrae   43 (108)
+                      +..+...+..+...
+T Consensus       195 ~~~l~~~i~~~~~~  208 (260)
+T 2XTP_A          195 VKELMDCIEDLLME  208 (260)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            33334444444333
+
+

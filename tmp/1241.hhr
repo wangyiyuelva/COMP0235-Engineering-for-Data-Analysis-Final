@@ -1,0 +1,398 @@
+Query         sp|Q8N7X4|MAGB6_HUMAN
+Match_columns 407
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:57:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1241.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6R7T_B anti MAGEB1 nanobody, M 100.0 1.9E-36   2E-41  255.8  13.7  215  189-403     6-220 (251)
+  2 5HVQ_D Melanoma-associated ant 100.0 6.4E-33 6.9E-38  225.8  13.5  213  189-401     2-215 (217)
+  3 5WY5_B Melanoma-associated ant 100.0 6.4E-33 6.9E-38  225.8  13.5  214  189-402     2-216 (217)
+  4 7DG2_C Non-structural maintena 100.0   7E-32 7.6E-37  219.7  12.9  213  189-401     3-215 (217)
+  5 2WA0_A MELANOMA-ASSOCIATED ANT 100.0 4.5E-31 4.9E-36  223.3  13.1  231  172-402    10-240 (240)
+  6 4V0P_A MELANOMA-ASSOCIATED ANT 100.0 5.1E-31 5.6E-36  214.9  12.1  210  190-399     3-212 (213)
+  7 6WJH_A Fusion protein of PCF11 100.0 4.2E-30 4.6E-35  217.2  12.3  214  189-402    30-243 (243)
+  8 6WJH_B Fusion protein of PCF11 100.0 4.2E-30 4.6E-35  217.2  12.3  214  189-402    30-243 (243)
+  9 7DG2_A Non-structural maintena  78.2      28 0.00031   31.3   7.9  125  231-370    44-172 (247)
+ 10 5HVQ_C Melanoma-associated ant  60.4   2E+02  0.0022   25.7   9.2  151  201-370     9-171 (238)
+ 11 5WY5_A Melanoma-associated ant  60.4   2E+02  0.0022   25.7   9.2  125  231-370    43-171 (238)
+
+No 1
+>6R7T_B anti MAGEB1 nanobody, Melanoma-associated antigen; Melanoma, immune system; 2.682A {Lama glama}
+Probab=100.00  E-value=1.9e-36  Score=255.77  Aligned_cols=215  Identities=56%  Similarity=0.916  Sum_probs=174.6  Template_Neff=8.500
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      .+++++++++|+++|||+|++++++.||+|++|.+.+.+.+++.|+.||++|++.|+++|||+|++++++++.|+|+|.+
+T Consensus         6 ~~~~~~~~~~v~~lvr~lL~~~~~k~pi~r~~i~k~v~~~~~~~f~~vl~~a~~~L~~vFG~~l~ev~~~~~~yiLv~~l   85 (251)
+T 6R7T_B            6 SSVKDPVAWEAGMLMHFILRKYKMREPIMKADMLKVVDEKYKEYFTEILNGASRRLELVFGLDLKEDNPSGHTYTLVSKL   85 (251)
+T ss_dssp             ----CHHHHHHHHHHHHHHHHHHTTCCCCHHHHHHC--------CHHHHHHHHHHHHHHSCBCCC-------CCCCCBSC
+T ss_pred             hhcccHHHHHHHHHHHHHHHHhhcCCcCCHHHHHHHHCHHhHHHHHHHHHHHHHHHHHHhCcEEEEeCCCCCEEEEEECC
+Confidence            46789999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhh
+Q sp|Q8N7X4|MAGB  269 GLPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVC  348 (407)
+Q Consensus       269 glpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvc  348 (407)
+                      +......+.++...++.|||++||++|+|+||+++|++||++|+.+|+..+..|+.||+++++|...||+|+||++.+..
+T Consensus        86 ~~~~~~~l~~~~~~~~~glL~~iL~lI~~~~~~i~E~~L~~~L~~~g~~~~~~~~~~g~~~~li~~~~vkq~YL~~~~~~  165 (251)
+T 6R7T_B           86 NLTNDGNLSNDWDFPRNGLLMPLLGVIFLKGNSATEEEIWKFMNVLGAYDGEEHLIYGEPRKFITQDLVQEKYLKYEQVP  165 (251)
+T ss_dssp             C----------CCCGGGGGHHHHHHHHHHTTTCEEHHHHHHHHHHTTCCTTCCBTTTBSHHHCCCCCHHHTTSEEEEC--
+T ss_pred             CCCCCCCCCCCCCCchHHHHHHHHHHHHhhCCCCCHHHHHHHHHHcCCCCCCCCCCCCCHHHHHHHHHHHcCCcEEEecC
+Confidence            98776666666888999999999999999999999999999999999999989999999999998889999999999988
+
+
+Q ss_pred             CCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHHHH
+Q sp|Q8N7X4|MAGB  349 NSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVERAL  403 (407)
+Q Consensus       349 nsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalideveral  403 (407)
+                      +++++.++|.|||||++||+++.|++|+++++|.+|.+|+.+|+++.++++++..
+T Consensus       166 ~~~~~~~~y~wG~RA~~E~~~~~il~f~~~i~~~~p~~~~~~~~~a~~~~~~~~~  220 (251)
+T 6R7T_B          166 NSDPPRYQFLWGPRAYAETTKMKVLEFLAKMNGATPRDFPSHYEEALRDEEERAQ  220 (251)
+T ss_dssp             ----CCCEEEECHHHHHHSCHHHHHHHHHHSSSSCGGGSHHHHHHHHHHHHHHHC
+T ss_pred             CCCCCceEEEEeccccccCCHHHHHHHHHHHhCCChhhcHHHHHHHHHHHHHHHH
+Confidence            8888899999999999999999999999999999999999999999999877653
+
+
+No 2
+>5HVQ_D Melanoma-associated antigen G1, Non-structural maintenance; complex Melanoma antigen RING-containing E3; 2.923A {Homo sapiens}
+Probab=100.00  E-value=6.4e-33  Score=225.79  Aligned_cols=213  Identities=41%  Similarity=0.712  Sum_probs=182.9  Template_Neff=9.100
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      ++|+++++++++++|||+|++++++.||+|++|.+.+.+.+++.|+.||.+|++.|+++|||+|++++++++.|+|+|.+
+T Consensus         2 ~~s~~~~~~~v~~~vr~~L~~~~~k~~i~r~di~~~v~~~~~~~~~~vl~~a~~~L~~vfG~~l~e~~~~~~~yiL~n~l   81 (217)
+T 5HVQ_D            2 PRSQKQLELKVSELVQFLLIKDQKKIPIKRADILKHVIGDYKDIFPDLFKRAAERLQYVFGYKLVELEPKSNTYILINTL   81 (217)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHTTCCCEEHHHHCCCCCTTGGGGHHHHHHHHHHHHHHTTCEEEEESSTTSCEEEEEECS
+T ss_pred             CccHHHHHHHHHHHHHHHHHHhccCCCCCHHHHHHHHchhchHhHHHHHHHHHHHHHHhhCeEEEEecCCCCEEEEEeCC
+Confidence            68999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCC-CCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhh
+Q sp|Q8N7X4|MAGB  269 GLPSEG-ILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQV  347 (407)
+Q Consensus       269 glpseg-ilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqv  347 (407)
+                      +..... .+.++.+.++.|||++||++|+|++|+++|++||++|+.||+..+..|+.||+++++|...|++|+||.+.+.
+T Consensus        82 ~~~~~~~~~~~~~~~~~~gll~~iL~~I~~~~~~i~e~~L~~~L~~lgi~~~~~~~~~g~~~~~i~~~~vkq~YL~~~~~  161 (217)
+T 5HVQ_D           82 EPVEEDAEMRGDQGTPTTGLLMIVLGLIFMKGNTLKETEAWDFLRRLGVYPTKKHLIFGDPKKLITEDFVRQRYLEYRRI  161 (217)
+T ss_dssp             CSCC-CCTTTTCCCCHHHHHHHHHHHHHHHHTSCEEHHHHHHHHTC--------------CHHHHHHHTTTTTSSEEECC
+T ss_pred             CCccccccccCCCCChhHHHHHHHHHHHHhcCCCCCHHHHHHHHHHhCCCCCCCcCCCCCHHHHHHHHHHHcCCceEEec
+Confidence            877654 4445678899999999999999999999999999999999999999999999999999899999999999988
+
+
+Q ss_pred             hCCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHH
+Q sp|Q8N7X4|MAGB  348 CNSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVER  401 (407)
+Q Consensus       348 cnsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidever  401 (407)
+                      .+.++..++|.|||||++||+++.|+.|+++++|.+|.+|++||+++..+++++
+T Consensus       162 ~~~~~~~~~y~wG~RA~~E~~~~~i~~f~~~i~~~~p~~~~~~~~~~~~~~~~~  215 (217)
+T 5HVQ_D          162 PHTDPVDYEFQWGPRTNLELSKMKVLKFVAKVHNQDPKDWPAQYCEALADEENR  215 (217)
+T ss_dssp             C-----CCEEECHHHHHHHCCHHHHHHHHHHSSSCCGGGCHHHHHHHHHHHTTT
+T ss_pred             CCCCCCceEEEEcccccccCCHHHHHHHHHHHcCCChhhcHHHHHHHHHHHHHh
+Confidence            877788899999999999999999999999999999999999999999988654
+
+
+No 3
+>5WY5_B Melanoma-associated antigen G1, Non-structural maintenance; E3 LIGASE, ZN, METAL BINDING; 2.92A {Homo sapiens}
+Probab=100.00  E-value=6.4e-33  Score=225.79  Aligned_cols=214  Identities=41%  Similarity=0.713  Sum_probs=201.5  Template_Neff=9.100
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      ++|+++++++++++|||+|++++++.||+|++|.+.+.+.+++.|+.||.+|++.|+++|||+|++++++++.|+|+|.+
+T Consensus         2 ~~s~~~~~~~v~~~vr~~L~~~~~k~~i~r~di~~~v~~~~~~~~~~vl~~a~~~L~~vfG~~l~e~~~~~~~yiL~n~l   81 (217)
+T 5WY5_B            2 PRSQKQLELKVSELVQFLLIKDQKKIPIKRADILKHVIGDYKDIFPDLFKRAAERLQYVFGYKLVELEPKSNTYILINTL   81 (217)
+T ss_pred             CccHHHHHHHHHHHHHHHHHHhccCCCCCHHHHHHHHchhchHhHHHHHHHHHHHHHHhhCeEEEEecCCCCEEEEEeCC
+Confidence            57899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCC-CCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhh
+Q sp|Q8N7X4|MAGB  269 GLPSEG-ILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQV  347 (407)
+Q Consensus       269 glpseg-ilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqv  347 (407)
+                      +..... .+.++.+.++.|||++||++|+|++|+++|++||++|+.||+..+..|+.||+++++|...|++|+||.+.+.
+T Consensus        82 ~~~~~~~~~~~~~~~~~~gll~~iL~~I~~~~~~i~e~~L~~~L~~lgi~~~~~~~~~g~~~~~i~~~~vkq~YL~~~~~  161 (217)
+T 5WY5_B           82 EPVEEDAEMRGDQGTPTTGLLMIVLGLIFMKGNTLKETEAWDFLRRLGVYPTKKHLIFGDPKKLITEDFVRQRYLEYRRI  161 (217)
+T ss_pred             CCccccccccCCCCChhHHHHHHHHHHHHhcCCCCCHHHHHHHHHHhCCCCCCCcCCCCCHHHHHHHHHHHcCCceEEec
+Confidence            876544 3445677889999999999999999999999999999999999999999999999999899999999999998
+
+
+Q ss_pred             hCCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHHH
+Q sp|Q8N7X4|MAGB  348 CNSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVERA  402 (407)
+Q Consensus       348 cnsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidevera  402 (407)
+                      .+.++..++|.|||||++||+++.|+.|+++++|.+|.+|++||+++..++++++
+T Consensus       162 ~~~~~~~~~y~wG~RA~~E~~~~~i~~f~~~i~~~~p~~~~~~~~~~~~~~~~~~  216 (217)
+T 5WY5_B          162 PHTDPVDYEFQWGPRTNLELSKMKVLKFVAKVHNQDPKDWPAQYCEALADEENRA  216 (217)
+T ss_pred             CCCCCCceEEEEcccccccCCHHHHHHHHHHHcCCChhhcHHHHHHHHHHHHHhc
+Confidence            8888888999999999999999999999999999999999999999999887764
+
+
+No 4
+>7DG2_C Non-structural maintenance of chromosomes element; SMC, DNA BINDING PROTEIN; HET: GOL; 1.7A {Xenopus laevis}
+Probab=99.98  E-value=7e-32  Score=219.73  Aligned_cols=213  Identities=37%  Similarity=0.616  Sum_probs=200.8  Template_Neff=9.100
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      .+++++++++|+++|||+|+++.++.||+|++|.+.+.+.+++.|+.||.+|++.|+++|||+|++++++++.|+|+|.+
+T Consensus         3 ~~s~~~~~~~v~~lvr~~L~~~~~~~~i~r~~i~k~~~~~~~~~f~~vl~~a~~~L~~vfG~~l~~~~~~~~~y~Lv~~l   82 (217)
+T 7DG2_C            3 NHSQEQVNLKVGEVVQYLLIKDQKKLPIKRADIVRSVIKEYKDIYPEIIHRAQITLQQVFGFQLEEIDTKSHIYILTNKL   82 (217)
+T ss_pred             cCCHHHHHHHHHHHHHHHHHHhcCCCCCCHHHHHHHHhHHhHHhHHHHHHHHHHHHHHhhCeEEEEecCCCCEEEEEeCC
+Confidence            67899999999999999999999999999999999998888899999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhh
+Q sp|Q8N7X4|MAGB  269 GLPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVC  348 (407)
+Q Consensus       269 glpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvc  348 (407)
+                      +......+.++.+.++.|+|++||++|+|++|+++|++||++|+.+|+..+..|+.||++.++|...|++|+||.+.+..
+T Consensus        83 ~~~~~~~~~~~~~~~~~gll~~vL~~I~~~~~~i~e~~L~~~L~~~g~~~~~~~~~~g~~~~~l~~~~vkq~YL~~~~~~  162 (217)
+T 7DG2_C           83 QRVQGDGMRVDENTSKLGLLMVILSLIFMKGNTAKESAIWEMLRRLRIEPGEMHSEFGDVKKLVTEEFVKQKYLEYNKVP  162 (217)
+T ss_pred             CcccCCCCccCCCcchHHHHHHHHHHHHhcCCCCCHHHHHHHHHhcCCCCCCccCCCCCHHHHHHHHHHHcCCeEEEecC
+Confidence            88766655566778899999999999999999999999999999999999889999999999998999999999999988
+
+
+Q ss_pred             CCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHH
+Q sp|Q8N7X4|MAGB  349 NSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVER  401 (407)
+Q Consensus       349 nsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidever  401 (407)
+                      +.+++.++|+|||||++||+++.|+.|+++++|.+|.+|+.+|+++.++++.+
+T Consensus       163 ~~~~~~~~y~~G~RA~~E~~~~~i~~~~~~i~~~~~~~~~~~~~~a~~~~~~~  215 (217)
+T 7DG2_C          163 HIDPVEYEFRWGQRAFKETSKMKVLEFVSKIQQKDPKSWTTQYKDAQEQTQVA  215 (217)
+T ss_pred             CCCCcEEEEEEecccCcCCCHHHHHHHHHHHhCCChhhhHHHHHHHHHHHHhh
+Confidence            88888899999999999999999999999999999999999999999987654
+
+
+No 5
+>2WA0_A MELANOMA-ASSOCIATED ANTIGEN 4; IMMUNE SYSTEM, MULTIPLE ANOMALOUS DISPERSION; 2.3A {HOMO SAPIENS}
+Probab=99.97  E-value=4.5e-31  Score=223.32  Aligned_cols=231  Identities=42%  Similarity=0.738  Sum_probs=200.8  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCccccchhhhcCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhcee
+Q sp|Q8N7X4|MAGB  172 GEDEESVSASQKAIIFKRLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVE  251 (407)
+Q Consensus       172 gedeesvsasqkaiifkrlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgve  251 (407)
+                      |-|-.+++++|-+--...++++++++++.++|||+|+++.++.||+|++|.+.+.+.+++.|+.||.+|+++|+++|||+
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~lvr~~L~~~~~k~~i~r~~i~k~~~~~~~~~~~~vl~~a~~~L~~vFG~~   89 (240)
+T 2WA0_A           10 GVDLGTENLYFQSMDAESLFREALSNKVDELAHFLLRKYRAKELVTKAEMLERVIKNYKRCFPVIFGKASESLKMIFGID   89 (240)
+T ss_dssp             CCCCCC---CCSSCCHHHHHHHHHHHHHHHHHHHHHHHHHTTCCEEHHHHHHHTCTTCGGGHHHHHHHHHHHCCCCCCEE
+T ss_pred             CCCCCCCChhhcccCHHHhcHHHHHHHHHHHHHHHHHHHhcCCCCCHHHHHHHHhHHcHHhhhHHHHHHHHHHHHHhCeE
+Confidence            44555667777776677899999999999999999999999999999999999999889999999999999999999999
+
+
+Q ss_pred             eEeeCCCCCeeeeeeecCCCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhh
+Q sp|Q8N7X4|MAGB  252 LKEMDSSGESYTLVSKLGLPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKI  331 (407)
+Q Consensus       252 lkemdssgesytlvsklglpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarki  331 (407)
+                      |++++++++.|+|+|.++......+.+..+.+++|||++||++|+|+|++|+|++||++|.+||+..+..|+.||+++++
+T Consensus        90 Lv~~~~~~~~yiLvn~l~~~~~~~~~~~~~~~~~glL~~iL~~I~l~g~~i~e~~L~~~L~~~gl~~~~~~~~~g~~~~~  169 (240)
+T 2WA0_A           90 VKEVDPTSNTYTLVTCLGLSYDGLLGNNQIFPKTGLLIIVLGTIAMEGDSASEEEIWEELGVMGVYDGREHTVYGEPRKL  169 (240)
+T ss_dssp             EEECC--CCEEEEEEGGGCSCCCCC--CCSSCCHHHHHHHHHHHHHHSSCEEHHHHHHHHHHTTCCTTSCBTTTBCHHHC
+T ss_pred             EEEeCCCCCEEEEEeCCCCcccccCCCCCcchHHHHHHHHHHHHHhcCCCCCHHHHHHHHhhcCCCCCCCcCCCCCHHHH
+Confidence            99999999999999999987766666677889999999999999999999999999999999999998889999999999
+
+
+Q ss_pred             hhHHHhccchhHHHhhhCCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHHH
+Q sp|Q8N7X4|MAGB  332 ITEDLVQDKYVVYRQVCNSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVERA  402 (407)
+Q Consensus       332 itedlvqdkyvvyrqvcnsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidevera  402 (407)
+                      |...|++|+||.+++..+.++..++|.|||||.+||+++.|++|+++++|.+|.+|+++|+++.+++++|+
+T Consensus       170 l~~~~vkq~YL~~~k~~~~~~~~~~y~~G~RA~~E~~~~~il~~~~~i~~~~p~~~~~~~~~a~~~e~~~~  240 (240)
+T 2WA0_A          170 LTQDWVQENYLEYRQVPGSNPARYEFLWGPRALAETSYVKVLEHVVRVNARVRIAYPSLREAALLEEEEGV  240 (240)
+T ss_dssp             CCCCHHHTTSEEEECC------CCEEEECHHHHHHCCHHHHHHHHHHHHTCCCCCCCCHHHHHTTC-----
+T ss_pred             HHHHHHHcCCeEEEecCCCCCCeEEEEEchhhcccCCHHHHHHHHHHHhcCChhhcHHHHHHHHHHHhhcC
+Confidence            98899999999999888778888999999999999999999999999999999999999999999888764
+
+
+No 6
+>4V0P_A MELANOMA-ASSOCIATED ANTIGEN 3; IMMUNE SYSTEM, MELANOMA ASSOCIATED ANTIGEN; 2.07A {HOMO SAPIENS}
+Probab=99.97  E-value=5.1e-31  Score=214.88  Aligned_cols=210  Identities=40%  Similarity=0.726  Sum_probs=197.1  Template_Neff=9.000
+
+Q ss_pred             CChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeecC
+Q sp|Q8N7X4|MAGB  190 LSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKLG  269 (407)
+Q Consensus       190 lskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvsklg  269 (407)
+                      +++++++++++++|||+|+++.++.||+|++|.+.+.+.+++.|+.||++|++.|+++|||+|++++++++.|+|+|.++
+T Consensus         3 ~~~~~~~~~v~~~vr~~L~~~~~~~~i~r~~i~k~~~~~~~~~~~~vl~~a~~~L~~~fG~~l~~~~~~~~~yiL~n~l~   82 (213)
+T 4V0P_A            3 EFQAALSRKVAELVHFLLLKYRAREPVTKAEMLGSVVGNWQYFFPVIFSKASSSLQLVFGIELMEVDPIGHLYIFATCLG   82 (213)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTCCEEHHHHHHHSCGGGGGGHHHHHHHHHHHHHHHHCEEEEEEETTTTEEEEEEGGG
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHccCCCCCHHHHHHHhChhhHHhHHHHHHHHHHHHHHhcCeEEEEecCCCCEEEEEeCCC
+Confidence            67899999999999999999999999999999999989888999999999999999999999999999999999999998
+
+
+Q ss_pred             CCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhhC
+Q sp|Q8N7X4|MAGB  270 LPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVCN  349 (407)
+Q Consensus       270 lpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvcn  349 (407)
+                      ........+..+.+.+|+|++||++|+|+||+++|++||++|..||+..+..|+.||++.++|...|++|+||.+.+..+
+T Consensus        83 ~~~~~~~~~~~~~~~~gll~~vL~~I~~~~~~i~e~~L~~~L~~lgi~~~~~~~~~g~~~~li~~~~vkq~YL~~~~~~~  162 (213)
+T 4V0P_A           83 LSYDGLLGDNQIMPKAGLLIIVLAIIAREGDCAPEEKIWEELSVLEVFEGREDSILGDPKKLLTQHFVQENYLEYRQVPG  162 (213)
+T ss_dssp             CSCCCCCTTCCCCCCHHHHHHHHHHHHHHSSCEEHHHHHHHHTTCGGGTTCTTCTTCCHHHHHHHHHHHTTSEEEEECTT
+T ss_pred             CccccccCCCCccchHHHHHHHHHHHHhhCCCCCHHHHHHHHhhcCCCCCCCCCCCCCHHHHHhHHHHHccCeEEEecCC
+Confidence            87666555667889999999999999999999999999999999999998889999999999989999999999998888
+
+
+Q ss_pred             CCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHH
+Q sp|Q8N7X4|MAGB  350 SDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEV  399 (407)
+Q Consensus       350 sdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidev  399 (407)
+                      .+++.++|.|||||..||+++.|++|+++++|.+|.+|++||+++...++
+T Consensus       163 ~~~~~~~y~~G~Ra~~E~~~~~il~~~~~i~~~~p~~~~~~~~~a~~~~~  212 (213)
+T 4V0P_A          163 SDPACYEFLWGPRALVETSYVKVLHHMVKISGGPHISYPPLHEWVLREGE  212 (213)
+T ss_dssp             CSSCCEEEEECHHHHHHCCHHHHHHHHHHTTTSCCCCCCCGGGTSCC---
+T ss_pred             CCCCeEEEEEccCccCCCCHHHHHHHHHHHhCCCCccCHHHHHHHHHhcc
+Confidence            88889999999999999999999999999999999999999999987654
+
+
+No 7
+>6WJH_A Fusion protein of PCF11 and; MAGE-A11, PCF 11, ubiquitin ligase; 2.19A {Homo sapiens}
+Probab=99.97  E-value=4.2e-30  Score=217.17  Aligned_cols=214  Identities=46%  Similarity=0.858  Sum_probs=198.1  Template_Neff=8.400
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      .+++++++++++++|||+|+++.++.||+|+||.+.+++.+++.|+.||.+|++.|+++|||+|++++++++.|+|+|.+
+T Consensus        30 ~~~~~~~~~~v~~~vr~~L~~~~~k~~i~r~di~k~v~~~~~~~~~~vl~~a~~~L~~vFG~~lv~~~~~~~~y~L~~~l  109 (243)
+T 6WJH_A           30 RPSQDILHDKIIDLVHLLLRKYRVKGLITKAEMLGSVIKNYEDYFPEIFREASVCMQLLFGIDVKEVDPTSHSYVLVTSL  109 (243)
+T ss_dssp             CCCCSHHHHHHHHHHHHHHHHHHTTCCEEHHHHCCCCCGGGGGGHHHHHHHHHHHHHHHHCEEEEEEETTTTEEEEEEGG
+T ss_pred             CCchHHHHHHHHHHHHHHHHHHhcCCCCCHHHHHHHHchhhhhhHHHHHHHHHHHHHHhhCeEEEEeCCCCCEEEEEeCC
+Confidence            68889999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhh
+Q sp|Q8N7X4|MAGB  269 GLPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVC  348 (407)
+Q Consensus       269 glpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvc  348 (407)
+                      +........+..+.+.+|||++||++|+|+|++++|++||++|++||+..+..|+.||+++++|...|++|+||.+.+..
+T Consensus       110 ~~~~~~~~~~~~~~~~~glL~~vL~~I~~~~~~i~e~~L~~~L~~lgl~~~~~~~~~g~~~~~l~~~~vkq~YL~~~k~~  189 (243)
+T 6WJH_A          110 NLSYDGIQCNEQSMPKSGLLIIVLGVIFMEGNCIPEEVMWEVLSIMGVYAGREHFLFGEPKRLLTQNWVQEKYLVYRQVP  189 (243)
+T ss_dssp             GCSCCSCSSCSSCCCCHHHHHHHHHHHHHTTSCEEHHHHHHHHGGGTCCTTSCBTTTBCHHHCCCCCHHHTTSEEEEECT
+T ss_pred             CCCCCCcccCCCCccHHHHHHHHHHHHHccCCCCCHHHHHHHHHHhCCCCCCCccCCCCHHHHHhHHHHHcCCeEEEeCC
+Confidence            87766555566788999999999999999999999999999999999999888999999999997889999999998888
+
+
+Q ss_pred             CCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHHH
+Q sp|Q8N7X4|MAGB  349 NSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVERA  402 (407)
+Q Consensus       349 nsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidevera  402 (407)
+                      +.++..++|.|||||++||+++.|++|+++++|.+|.+|++||+++.+++++++
+T Consensus       190 ~~~~~~~~y~wG~RA~~E~~~~~il~~v~~i~~~~p~~~~~~~~~a~~~~~~~~  243 (243)
+T 6WJH_A          190 GTDPACYEFLWGPRAHAETSKMKVLEYIANANGRDPTSYPSLYEDALREEGEGV  243 (243)
+T ss_dssp             TCSSCCEEEEECHHHHHHCCHHHHHHHHHHHTTCCGGGSHHHHHHHHCC-----
+T ss_pred             CCCCCeEEEEEcccccCCCCHHHHHHHHHHHhCCCcccchHHHHHHHHHhccCC
+Confidence            777889999999999999999999999999999999999999999999877653
+
+
+No 8
+>6WJH_B Fusion protein of PCF11 and; MAGE-A11, PCF 11, ubiquitin ligase; 2.19A {Homo sapiens}
+Probab=99.97  E-value=4.2e-30  Score=217.17  Aligned_cols=214  Identities=46%  Similarity=0.858  Sum_probs=195.5  Template_Neff=8.400
+
+Q ss_pred             cCChhHHHhhhhhHHHHHHHHhcCCchhhHHHHHHHHHHhhhhhhHHHhhhhcchhhhhhceeeEeeCCCCCeeeeeeec
+Q sp|Q8N7X4|MAGB  189 RLSKDAVKKKACTLAQFLQKKFEKKESILKADMLKCVRREYKPYFPQILNRTSQHLVVAFGVELKEMDSSGESYTLVSKL  268 (407)
+Q Consensus       189 rlskdavkkkactlaqflqkkfekkesilkadmlkcvrreykpyfpqilnrtsqhlvvafgvelkemdssgesytlvskl  268 (407)
+                      .+++++++++++++|||+|+++.++.||+|+||.+.+++.+++.|+.||.+|++.|+++|||+|++++++++.|+|+|.+
+T Consensus        30 ~~~~~~~~~~v~~~vr~~L~~~~~k~~i~r~di~k~v~~~~~~~~~~vl~~a~~~L~~vFG~~lv~~~~~~~~y~L~~~l  109 (243)
+T 6WJH_B           30 RPSQDILHDKIIDLVHLLLRKYRVKGLITKAEMLGSVIKNYEDYFPEIFREASVCMQLLFGIDVKEVDPTSHSYVLVTSL  109 (243)
+T ss_dssp             -CCCSHHHHHHHHHHHHHHHHHHTTCCEEHHHHCCCCCGGGGGGHHHHHHHHHHHHHHHHCEEEEEEETTTTEEEEEEGG
+T ss_pred             CCchHHHHHHHHHHHHHHHHHHhcCCCCCHHHHHHHHchhhhhhHHHHHHHHHHHHHHhhCeEEEEeCCCCCEEEEEeCC
+Confidence            68889999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCChhHHHHHHHHHHHHhCCCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhh
+Q sp|Q8N7X4|MAGB  269 GLPSEGILSGDNALPKSGLLMSLLVVIFMNGNCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVC  348 (407)
+Q Consensus       269 glpsegilsgdnalpksgllmsllvvifmngncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvc  348 (407)
+                      +........+..+.+.+|||++||++|+|+|++++|++||++|++||+..+..|+.||+++++|...|++|+||.+.+..
+T Consensus       110 ~~~~~~~~~~~~~~~~~glL~~vL~~I~~~~~~i~e~~L~~~L~~lgl~~~~~~~~~g~~~~~l~~~~vkq~YL~~~k~~  189 (243)
+T 6WJH_B          110 NLSYDGIQCNEQSMPKSGLLIIVLGVIFMEGNCIPEEVMWEVLSIMGVYAGREHFLFGEPKRLLTQNWVQEKYLVYRQVP  189 (243)
+T ss_dssp             GCSCCSCC--CCSCCCHHHHHHHHHHHHHTTSCEEHHHHHHHHGGGTCCTTSCBTTTBCHHHCCCCCHHHTTSEEEEECT
+T ss_pred             CCCCCCcccCCCCccHHHHHHHHHHHHHccCCCCCHHHHHHHHHHhCCCCCCCccCCCCHHHHHhHHHHHcCCeEEEeCC
+Confidence            87766555566788999999999999999999999999999999999999888999999999997889999999998888
+
+
+Q ss_pred             CCCCCchhhhcCchhhhHHHHHHHHHHHHhcCCCCCCCCcchchHHHHHHHHHH
+Q sp|Q8N7X4|MAGB  349 NSDPPCYEFLWGPRAYAETTKMRVLRVLADSSNTSPGLYPHLYEDALIDEVERA  402 (407)
+Q Consensus       349 nsdppcyeflwgprayaettkmrvlrvladssntspglyphlyedalidevera  402 (407)
+                      +.++..++|.|||||++||+++.|++|+++++|.+|.+|++||+++.+++++++
+T Consensus       190 ~~~~~~~~y~wG~RA~~E~~~~~il~~v~~i~~~~p~~~~~~~~~a~~~~~~~~  243 (243)
+T 6WJH_B          190 GTDPACYEFLWGPRAHAETSKMKVLEYIANANGRDPTSYPSLYEDALREEGEGV  243 (243)
+T ss_dssp             TCSSCCEEEEECHHHHHHCCHHHHHHHHHHTTTCCGGGSHHHHHHHHC------
+T ss_pred             CCCCCeEEEEEcccccCCCCHHHHHHHHHHHhCCCcccchHHHHHHHHHhccCC
+Confidence            777889999999999999999999999999999999999999999999887663
+
+
+No 9
+>7DG2_A Non-structural maintenance of chromosomes element; SMC, DNA BINDING PROTEIN; HET: GOL; 1.7A {Xenopus laevis}
+Probab=78.21  E-value=28  Score=31.35  Aligned_cols=125  Identities=15%  Similarity=0.194  Sum_probs=85.6  Template_Neff=8.500
+
+Q ss_pred             hhhHHHhhhhcchhhhhhceeeEeeCC---CCCeeeeeeecCCCCCCCCCCCCCCChhHHHHHHHHHHHHh-CCCCCHHH
+Q sp|Q8N7X4|MAGB  231 PYFPQILNRTSQHLVVAFGVELKEMDS---SGESYTLVSKLGLPSEGILSGDNALPKSGLLMSLLVVIFMN-GNCATEEE  306 (407)
+Q Consensus       231 pyfpqilnrtsqhlvvafgvelkemds---sgesytlvsklglpsegilsgdnalpksgllmsllvvifmn-gncateee  306 (407)
+                      ..+..++..+++.|.. |||+|+.+..   +...|+|+|....... ............++-.|+-.|+.+ ++.++..+
+T Consensus        44 ~~l~~~i~~iN~~L~~-~~l~I~~~~~e~~g~~~~~lvn~~~d~~s-k~at~~s~~Ei~~fk~ii~~I~~~~~g~i~~~~  121 (247)
+T 7DG2_A           44 DKLDDFVGVLNRHLQP-LFMTIEKGVGEEDGLTYYALVNRVENDIT-KMASDYAENELELFRKTMELIILSDNGFATSIS  121 (247)
+T ss_dssp             TCHHHHHHHHHHHHGG-GTEEEEEEECTTTCCEEEEEEECCCSTTG-GGCCSSCHHHHHHHHHHHHHHHHSSSSCEEHHH
+T ss_pred             HhHHHHHHHHHHHhHH-hhceeeeEeCCCCCcEEEEEEECCCCHHH-HhhcCCCHHHHHHHHHHHHHHHccCCCeeeHHH
+Confidence            4678899999999998 9999998843   3458888987654322 222334456788888999999986 56788777
+
+
+Q ss_pred             HHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhhCCCCCchhhhcCchhhhHHHHH
+Q sp|Q8N7X4|MAGB  307 VWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVCNSDPPCYEFLWGPRAYAETTKM  370 (407)
+Q Consensus       307 vweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvcnsdppcyeflwgprayaettkm  370 (407)
+                      +.+....+..  .  .....+...+| ..|++++||.+.        ...|.+|+||.+|+..-
+T Consensus       122 aln~~~~~~~--~--~~~~~~ae~~L-~~lv~~~WL~~~--------~~~~~lg~Ral~EL~~~  172 (247)
+T 7DG2_A          122 ILNLADELQS--K--KMKKKEVEQLL-QSFVQEKWLIGR--------NGEYTLHTRCIMELEHY  172 (247)
+T ss_dssp             HHHHHHHCSS--S--CCCHHHHHHHH-HHHHHTTSEEEE--------TTEEEECHHHHHHHHHH
+T ss_pred             HHHHHHHHhc--C--CCCHHHHHHHH-HHHHHcCCcccc--------CCeEEecCccHHHHHHH
+Confidence            6655443210  0  00001234455 789999999862        13689999999997654
+
+
+No 10
+>5HVQ_C Melanoma-associated antigen G1, Non-structural maintenance; complex Melanoma antigen RING-containing E3; 2.923A {Homo sapiens}
+Probab=60.38  E-value=2e+02  Score=25.73  Aligned_cols=151  Identities=18%  Similarity=0.197  Sum_probs=93.0  Template_Neff=8.900
+
+Q ss_pred             hHHHHHHHHhcCCchhhHHHHHHHHHHhh--------hhhhHHHhhhhcchhhhhhceeeEeeCC---CCCeeeeeeecC
+Q sp|Q8N7X4|MAGB  201 TLAQFLQKKFEKKESILKADMLKCVRREY--------KPYFPQILNRTSQHLVVAFGVELKEMDS---SGESYTLVSKLG  269 (407)
+Q Consensus       201 tlaqflqkkfekkesilkadmlkcvrrey--------kpyfpqilnrtsqhlvvafgvelkemds---sgesytlvsklg  269 (407)
+                      .++++||.    +..++.+++...+..-.        ...+..++..++..|.. |||+|+.+..   +...|+|+|...
+T Consensus         9 ~~lQ~lm~----~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~i~~iN~~L~~-l~l~I~~~~~e~~g~~~~~lvn~~~   83 (238)
+T 5HVQ_C            9 RFLQLLMT----HGVLEEWDVKRLQTHCYKVHDRNATVDKLEDFINNINSVLES-LYIEIKRGVTEDDGRPIYALVNLAT   83 (238)
+T ss_dssp             HHHHHHHH----SSCEEHHHHHHHHHHHHTTC--CCCCCCHHHHHHHHHTTSGG-GTEEEEEEECSSSCCEEEEEEESSS
+T ss_pred             HHHHHHHh----CCCcCHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHhHh-cCcEEEEEEeCCCCCEEEEEEECCC
+Confidence            34444444    45566666654332111        13588999999999998 9999998763   346788888765
+
+
+Q ss_pred             CCCCCCCCCCCCCChhHHHHHHHHHHHHhC-CCCCHHHHHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhh
+Q sp|Q8N7X4|MAGB  270 LPSEGILSGDNALPKSGLLMSLLVVIFMNG-NCATEEEVWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVC  348 (407)
+Q Consensus       270 lpsegilsgdnalpksgllmsllvvifmng-ncateeevweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvc  348 (407)
+                      ..... ..........+++-.||..|+-+. +.++..++.+.+..+..   . .....+...+| ..|++++||...   
+T Consensus        84 d~~~~-~~~~~~~~ei~~~~~il~~i~~~~~~~i~~~~~~~~~~~~~~---~-~~s~~~~~~~L-~~L~~~~wl~~~---  154 (238)
+T 5HVQ_C           84 TSISK-MATDFAENELDLFRKALELIIDSETGFASSTNILNLVDQLKG---K-KMRKKEAEQVL-QKFVQNKWLIEK---  154 (238)
+T ss_dssp             CTTHH-HHTTSCHHHHHHHHHHHHHHHHCSSSCEEHHHHGGGGGGCCS---S-CCCHHHHHHHH-HHHHHTTSEEEE---
+T ss_pred             ChHHh-hccCCCHHHHHHHHHHHHHHHcCCCCccCHHHHHHHHhhhcC---C-CCCHHHHHHHH-HHHHHcCCEEcc---
+Confidence            33211 122334456888888888888874 56665554433322100   0 00001233455 789999999851   
+
+
+Q ss_pred             CCCCCchhhhcCchhhhHHHHH
+Q sp|Q8N7X4|MAGB  349 NSDPPCYEFLWGPRAYAETTKM  370 (407)
+Q Consensus       349 nsdppcyeflwgprayaettkm  370 (407)
+                           ...|.+|+|+..|+..-
+T Consensus       155 -----~~~~~lg~r~l~El~~~  171 (238)
+T 5HVQ_C          155 -----EGEFTLHGRAILEMEQY  171 (238)
+T ss_dssp             -----TTEEEECHHHHHHHHHH
+T ss_pred             -----CCceecChhHHHHHHHH
+Confidence                 13578999999987654
+
+
+No 11
+>5WY5_A Melanoma-associated antigen G1, Non-structural maintenance; E3 LIGASE, ZN, METAL BINDING; 2.92A {Homo sapiens}
+Probab=60.38  E-value=2e+02  Score=25.73  Aligned_cols=125  Identities=18%  Similarity=0.205  Sum_probs=80.6  Template_Neff=8.900
+
+Q ss_pred             hhhHHHhhhhcchhhhhhceeeEeeCC---CCCeeeeeeecCCCCCCCCCCCCCCChhHHHHHHHHHHHHhC-CCCCHHH
+Q sp|Q8N7X4|MAGB  231 PYFPQILNRTSQHLVVAFGVELKEMDS---SGESYTLVSKLGLPSEGILSGDNALPKSGLLMSLLVVIFMNG-NCATEEE  306 (407)
+Q Consensus       231 pyfpqilnrtsqhlvvafgvelkemds---sgesytlvsklglpsegilsgdnalpksgllmsllvvifmng-ncateee  306 (407)
+                      ..+..++..++..|.. |||+|+.+..   +...|+|+|........ ..........+++-.||..|+-+. +.++..+
+T Consensus        43 ~~~~~~i~~iN~~L~~-l~l~I~~~~~e~~g~~~~~lvn~~~d~~~~-~~~~~~~~ei~~~~~il~~i~~~~~~~i~~~~  120 (238)
+T 5WY5_A           43 DKLEDFINNINSVLES-LYIEIKRGVTEDDGRPIYALVNLATTSISK-MATDFAENELDLFRKALELIIDSETGFASSTN  120 (238)
+T ss_pred             HHHHHHHHHHHHHhHh-cCcEEEEEEeCCCCCEEEEEEECCCChHHh-hccCCCHHHHHHHHHHHHHHHcCCCCccCHHH
+Confidence            3578899999999998 9999998763   35678888876533221 122233445677777788777764 5566555
+
+
+Q ss_pred             HHHHHHHHhhhHHHHHHHHcchhhhhhHHHhccchhHHHhhhCCCCCchhhhcCchhhhHHHHH
+Q sp|Q8N7X4|MAGB  307 VWEFLGLLGIYDGILHSIYGDARKIITEDLVQDKYVVYRQVCNSDPPCYEFLWGPRAYAETTKM  370 (407)
+Q Consensus       307 vweflgllgiydgilhsiygdarkiitedlvqdkyvvyrqvcnsdppcyeflwgprayaettkm  370 (407)
+                      +.+.+..+..   . .....+...+| ..|++++||...        ...|.+|+|+..|+..-
+T Consensus       121 ~~~~~~~~~~---~-~~s~~~~~~~L-~~L~~~~wl~~~--------~~~~~lg~r~l~El~~~  171 (238)
+T 5WY5_A          121 ILNLVDQLKG---K-KMRKKEAEQVL-QKFVQNKWLIEK--------EGEFTLHGRAILEMEQY  171 (238)
+T ss_pred             HHHHHhhhcC---C-CCCHHHHHHHH-HHHHHcCCEEcc--------CCceecChhHHHHHHHH
+Confidence            5544433211   0 01111234455 789999999862        13678999999988653
+
+

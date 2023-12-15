@@ -1,0 +1,167 @@
+Query         tr|K7EJF8|K7EJF8_HUMAN
+Match_columns 42
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:34:08 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1836.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6WDP_A cytokine receptor, SIGN  30.1      71 0.00077   17.3   1.2   10   32-41      1-10  (219)
+  2 4XMD_A nitrophorin 7; Heme, NO  27.2      84 0.00091   17.6   1.2    9   32-40      2-10  (184)
+  3 4XME_A nitrophorin 7; Heme, NO  27.2      84 0.00091   17.6   1.2    9   32-40      2-10  (184)
+  4 3UBU_B Agglucetin subunit alph  25.7      83  0.0009   13.2   0.8    7   32-38      1-7   (126)
+  5 1UMR_D CONVULXIN ALPHA, CONVUL  23.4      99  0.0011   12.8   0.8    7   32-38      1-7   (125)
+  6 4XMH_A nitrophorin 7, GLY-GLY-  15.0 2.2E+02  0.0023   16.0   1.2   10   31-40      2-11  (185)
+  7 6WX6_J Ferritin light chain; H  14.8 4.2E+02  0.0046   16.3   2.4   26    8-33      6-31  (227)
+  8 5YAX_C scFv1 antibody, Large e  14.1 2.7E+02  0.0029   15.4   1.4   12   31-42     15-26  (60)
+  9 6SOK_S Streptavidin, Strep-tag  13.5 3.1E+02  0.0034   12.7   1.3   17   22-38     12-28  (32)
+ 10 6SOS_P Streptavidin, Strep-tag  13.5 3.1E+02  0.0034   12.7   1.3   17   22-38     12-28  (32)
+
+No 1
+>6WDP_A cytokine receptor, SIGNALING PROTEIN; HET: GOL; 2.01A {Homo sapiens}
+Probab=30.14  E-value=71  Score=17.30  Aligned_cols=10  Identities=40%  Similarity=1.205  Sum_probs=7.7  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCC
+Q tr|K7EJF8|K7EJ   32 GRCCPQSPAF   41 (42)
+Q Consensus        32 grccpqspaf   41 (42)
+                      |-||.|..+|
+T Consensus         1 ~~~~~~~~~~   10 (219)
+T 6WDP_A            1 SECCFQDPPY   10 (219)
+T ss_dssp             CCCBCSCCSS
+T ss_pred             CccccCCCCC
+Confidence            5689888766
+
+
+No 2
+>4XMD_A nitrophorin 7; Heme, NO transpoter, oxidoreductase, transport; HET: HEM; 1.6A {Rhodnius prolixus}
+Probab=27.22  E-value=84  Score=17.62  Aligned_cols=9  Identities=22%  Similarity=0.527  Sum_probs=6.6  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|K7EJF8|K7EJ   32 GRCCPQSPA   40 (42)
+Q Consensus        32 grccpqspa   40 (42)
+                      |.|||.-|+
+T Consensus         2 g~C~~~~~~   10 (184)
+T 4XMD_A            2 GECSVNVIP   10 (184)
+T ss_dssp             CCCCSCCCC
+T ss_pred             CcccCCCCC
+Confidence            778887654
+
+
+No 3
+>4XME_A nitrophorin 7; Heme, NO transporter, OXIDOREDUCTASE, transport; HET: HEM; 1.29A {Rhodnius prolixus}
+Probab=27.22  E-value=84  Score=17.62  Aligned_cols=9  Identities=22%  Similarity=0.527  Sum_probs=6.6  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|K7EJF8|K7EJ   32 GRCCPQSPA   40 (42)
+Q Consensus        32 grccpqspa   40 (42)
+                      |.|||.-|+
+T Consensus         2 g~C~~~~~~   10 (184)
+T 4XME_A            2 GECSVNVIP   10 (184)
+T ss_dssp             CCCCSCCCC
+T ss_pred             CcccCCCCC
+Confidence            778887654
+
+
+No 4
+>3UBU_B Agglucetin subunit alpha-1, Agglucetin subunit; platelet inhibiting, agkisacucetin, dimer, toxin; HET: GOL; 1.91A {Deinagkistrodon acutus}
+Probab=25.67  E-value=83  Score=13.23  Aligned_cols=7  Identities=57%  Similarity=1.530  Sum_probs=4.2  Template_Neff=14.300
+
+Q ss_pred             CCCCCCC
+Q tr|K7EJF8|K7EJ   32 GRCCPQS   38 (42)
+Q Consensus        32 grccpqs   38 (42)
+                      |.|||..
+T Consensus         1 ~~~c~~~    7 (126)
+T 3UBU_B            1 GFCCPLR    7 (126)
+T ss_dssp             CCSCCTT
+T ss_pred             CCcCCCC
+Confidence            4567754
+
+
+No 5
+>1UMR_D CONVULXIN ALPHA, CONVULXIN BETA; LECTIN, C-TYPE LECTIN, PLATELET, SUGAR-BINDING; 2.4A {CROTALUS DURISSUS TERRIFICUS} SCOP: d.169.1.1
+Probab=23.41  E-value=99  Score=12.78  Aligned_cols=7  Identities=57%  Similarity=1.616  Sum_probs=4.1  Template_Neff=14.500
+
+Q ss_pred             CCCCCCC
+Q tr|K7EJF8|K7EJ   32 GRCCPQS   38 (42)
+Q Consensus        32 grccpqs   38 (42)
+                      |.+||+.
+T Consensus         1 ~~~c~~~    7 (125)
+T 1UMR_D            1 GFCCPSH    7 (125)
+T ss_dssp             CCCCCTT
+T ss_pred             CCCCCCC
+Confidence            4567654
+
+
+No 6
+>4XMH_A nitrophorin 7, GLY-GLY-GLY; Heme, NO transporter, oxidoreductase, transport; HET: HEM; 1.29A {Rhodnius prolixus}
+Probab=15.00  E-value=2.2e+02  Score=16.03  Aligned_cols=10  Identities=20%  Similarity=0.478  Sum_probs=6.8  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|K7EJF8|K7EJ   31 TGRCCPQSPA   40 (42)
+Q Consensus        31 tgrccpqspa   40 (42)
+                      .|.|||.-|.
+T Consensus         2 ~g~C~~~~~~   11 (185)
+T 4XMH_A            2 PGECSVNVIP   11 (185)
+T ss_dssp             TTSCCSCCCC
+T ss_pred             CCCcCCCCCC
+Confidence            4678887654
+
+
+No 7
+>6WX6_J Ferritin light chain; Human, apoferritin, ferritin, light chain; 2.0A {Homo sapiens}
+Probab=14.83  E-value=4.2e+02  Score=16.31  Aligned_cols=26  Identities=38%  Similarity=0.500  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCccccccCCCCCCCCCCCCCCCCCC
+Q tr|K7EJF8|K7EJ    8 DQEVKLKTASDTGGREGRGRTEETGR   33 (42)
+Q Consensus         8 dqevklktasdtggregrgrteetgr   33 (42)
+                      .|--|||..|..||++.++-+.....
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (227)
+T 6WX6_J            6 PQFEKLKGGSSRGGGGGSGGSGGSGG   31 (227)
+T ss_dssp             --------------------------
+T ss_pred             cchhccCCCCCCCCCCCCCCCCCCCC
+Confidence            35568999999999888776554433
+
+
+No 8
+>5YAX_C scFv1 antibody, Large envelope protein; HBV, NTCP, preS1, antibody, Fc; 2.5A {Homo sapiens}
+Probab=14.12  E-value=2.7e+02  Score=15.45  Aligned_cols=12  Identities=33%  Similarity=0.603  Sum_probs=9.4  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|K7EJF8|K7EJ   31 TGRCCPQSPAFF   42 (42)
+Q Consensus        31 tgrccpqspaff   42 (42)
+                      +..|||+...||
+T Consensus        15 ~n~~vpnp~Gff   26 (60)
+T 5YAX_C           15 TNLSVPNPLGFF   26 (60)
+T ss_pred             CCCcCCCCCCcC
+Confidence            468999888776
+
+
+No 9
+>6SOK_S Streptavidin, Strep-tag II peptide; LOOP ENGINEERING, PEPTIDE BINDING PROTEIN; 1.96A {Streptomyces avidinii}
+Probab=13.54  E-value=3.1e+02  Score=12.68  Aligned_cols=17  Identities=12%  Similarity=0.104  Sum_probs=10.9  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|K7EJF8|K7EJ   22 REGRGRTEETGRCCPQS   38 (42)
+Q Consensus        22 regrgrteetgrccpqs   38 (42)
+                      .+.....+-.|.|.+.+
+T Consensus        12 ~~~~~l~~v~g~cv~na   28 (32)
+T 6SOK_S           12 GGGSGGGSGGSAWSHPQ   28 (32)
+T ss_pred             CCCCCceecCceeCCCC
+Confidence            44455666778887754
+
+
+No 10
+>6SOS_P Streptavidin, Strep-tag II peptide; LOOP ENGINEERING, PEPTIDE BINDING PROTEIN; 2.2A {Streptomyces avidinii}
+Probab=13.54  E-value=3.1e+02  Score=12.68  Aligned_cols=17  Identities=12%  Similarity=0.104  Sum_probs=10.9  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|K7EJF8|K7EJ   22 REGRGRTEETGRCCPQS   38 (42)
+Q Consensus        22 regrgrteetgrccpqs   38 (42)
+                      .+.....+-.|.|.+.+
+T Consensus        12 ~~~~~l~~v~g~cv~na   28 (32)
+T 6SOS_P           12 GGGSGGGSGGSAWSHPQ   28 (32)
+T ss_pred             CCCCCceecCceeCCCC
+Confidence            44455666778887754
+
+

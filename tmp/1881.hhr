@@ -1,0 +1,165 @@
+Query         tr|H3BSI4|H3BSI4_HUMAN
+Match_columns 132
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:17:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1881.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KNH_A Protein CBFA2T1, Transc  97.5 0.00015 1.6E-09   51.2   2.4   28  105-132     2-29  (103)
+  2 2P6V_A Transcription initiatio  93.6   0.074 8.1E-07   38.5   1.4   21  109-129    15-35  (114)
+  3 5ECJ_B PR domain zinc finger p  89.3     1.7 1.8E-05   32.1   4.4   28  104-131   201-228 (309)
+  4 1FVG_A PEPTIDE METHIONINE SULF  26.3 1.8E+02   0.002   21.6   3.1    8   47-54     46-53  (199)
+  5 5VBD_A USP9X; Ubiquitin, prote  22.4 1.3E+02  0.0014   21.9   1.8   27   39-65      4-31  (109)
+  6 2M1L_B Cyclin-dependent kinase  21.0 2.3E+02  0.0026   20.4   2.7    6  118-123    19-24  (69)
+  7 6MRR_A foldit1; De novo protei  20.0 1.4E+02  0.0016   22.3   1.6   11  115-125    44-54  (68)
+  8 6VBU_4 Bardet-Biedl syndrome 1  19.0 3.6E+02  0.0039   20.8   3.4   31    5-35    482-512 (519)
+  9 6VBV_4 Bardet-Biedl syndrome 1  19.0 3.6E+02  0.0039   20.8   3.4   31    5-35    482-512 (519)
+ 10 6PX3_S Histone H3, Histone H4,  18.6 1.4E+02  0.0016   29.2   1.7   13   13-25    839-851 (939)
+
+No 1
+>2KNH_A Protein CBFA2T1, Transcription factor 12; AML1-ETO, eTAFH, HEB, DNA-binding, Metal-binding; NMR {Homo sapiens}
+Probab=97.49  E-value=0.00015  Score=51.18  Aligned_cols=28  Identities=82%  Similarity=1.125  Sum_probs=25.2  Template_Neff=6.500
+
+Q ss_pred             CCCCCchhhhHHHHHHHHHHHhCCCCCC
+Q tr|H3BSI4|H3BS  105 PPACGARQLSKLKRFLTTLQQFGSDISP  132 (132)
+Q Consensus       105 ppacgarqlsklkrflttlqqfgsdisp  132 (132)
+                      .|+++++++.|+||||++|++|+.|+++
+T Consensus         2 ~~~~~~~~~~K~k~Fl~tL~~~~~~~s~   29 (103)
+T 2KNH_A            2 AMGSGARQLSKLKRFLTTLQQFGNDISP   29 (103)
+T ss_dssp             CSCCTTTTHHHHHHHHHHHHHHTTTSCT
+T ss_pred             cccccHHHHHHHHHHHHHHHHHhcCCCh
+Confidence            4677899999999999999999999874
+
+
+No 2
+>2P6V_A Transcription initiation factor TFIID subunit; ALPHA HELIX, TRANSCRIPTION; HET: MLY; 2.0A {Homo sapiens} SCOP: a.277.1.1
+Probab=93.58  E-value=0.074  Score=38.47  Aligned_cols=21  Identities=33%  Similarity=0.480  Sum_probs=19.3  Template_Neff=6.500
+
+Q ss_pred             CchhhhHHHHHHHHHHHhCCC
+Q tr|H3BSI4|H3BS  109 GARQLSKLKRFLTTLQQFGSD  129 (132)
+Q Consensus       109 garqlsklkrflttlqqfgsd  129 (132)
+                      ..+++.|.||||.+|.+|+.+
+T Consensus        15 ~~~~~~K~~~Fl~tL~~~~~~   35 (114)
+T 2P6V_A           15 TMENVKKCKNFLSTLIKLASS   35 (114)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHHHHHHHHHHHHHhc
+Confidence            468899999999999999988
+
+
+No 3
+>5ECJ_B PR domain zinc finger protein; TRANSFERASE, PROTEIN BINDING, GENE REGULATION-TRANSCRIPTION; 3.05A {Mus musculus}
+Probab=89.30  E-value=1.7  Score=32.09  Aligned_cols=28  Identities=89%  Similarity=1.337  Sum_probs=23.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCCchhhhHHHHHHHHHHHhCCCCC
+Q tr|H3BSI4|H3BS  104 LPPACGARQLSKLKRFLTTLQQFGSDIS  131 (132)
+Q Consensus       104 lppacgarqlsklkrflttlqqfgsdis  131 (132)
+                      ....+..+++.|.|+|+.+|.+++.+++
+T Consensus       201 ~~~~~~~r~~~k~k~~~~~l~~~~~~~~  228 (309)
+T 5ECJ_B          201 LPATCGARQLSKLKRFLTTLQQFGNDIS  228 (309)
+T ss_pred             CCccccHHHHHHHHHHHHHHHHhccCCC
+Confidence            4455678999999999999999987654
+
+
+No 4
+>1FVG_A PEPTIDE METHIONINE SULFOXIDE REDUCTASE (E.C.1.8.4.5); OXIDOREDUCTASE; HET: MSE; 1.6A {Bos taurus} SCOP: d.58.28.1
+Probab=26.30  E-value=1.8e+02  Score=21.59  Aligned_cols=8  Identities=38%  Similarity=0.538  Sum_probs=3.1  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCc
+Q tr|H3BSI4|H3BS   47 ATLPHGRF   54 (132)
+Q Consensus        47 atlphgrf   54 (132)
+                      +++..|.|
+T Consensus        46 a~f~~gcf   53 (199)
+T 1FVG_A           46 AVFGMGCF   53 (199)
+T ss_dssp             EEEEESSH
+T ss_pred             EEEecCcc
+Confidence            33333333
+
+
+No 5
+>5VBD_A USP9X; Ubiquitin, protease, Structural Genomics, Structural; 1.5A {Homo sapiens}
+Probab=22.37  E-value=1.3e+02  Score=21.89  Aligned_cols=27  Identities=26%  Similarity=0.299  Sum_probs=7.0  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCC-cccccccccehh
+Q tr|H3BSI4|H3BS   39 HTHREDGPATLPHGR-FHGCLKWSMVCL   65 (132)
+Q Consensus        39 hthredgpatlphgr-fhgclkwsmvcl   65 (132)
+                      |.|...|...+|||+ |+|+--...|..
+T Consensus         4 ~~~~~~~~~~lPh~~s~rG~~i~l~I~~   31 (109)
+T 5VBD_A            4 HHHHSSGRENLYFQGAFRGKHLSFVVRF   31 (109)
+T ss_dssp             ---------------CCCCCCCCCEEEC
+T ss_pred             CcccCCCCcccccchhhCCCcEEEEEEc
+Confidence            556778899999997 677765555543
+
+
+No 6
+>2M1L_B Cyclin-dependent kinase 2-associated protein 2; Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Homo sapiens}
+Probab=21.00  E-value=2.3e+02  Score=20.37  Aligned_cols=6  Identities=17%  Similarity=0.556  Sum_probs=2.2  Template_Neff=4.700
+
+Q ss_pred             HHHHHH
+Q tr|H3BSI4|H3BS  118 RFLTTL  123 (132)
+Q Consensus       118 rflttl  123 (132)
+                      -+|..+
+T Consensus        19 ~LL~vI   24 (69)
+T 2M1L_B           19 DLLSVI   24 (69)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 7
+>6MRR_A foldit1; De novo protein, Foldit; 1.18A {synthetic construct}
+Probab=19.97  E-value=1.4e+02  Score=22.30  Aligned_cols=11  Identities=64%  Similarity=1.017  Sum_probs=0.0  Template_Neff=1.000
+
+Q ss_pred             HHHHHHHHHHH
+Q tr|H3BSI4|H3BS  115 KLKRFLTTLQQ  125 (132)
+Q Consensus       115 klkrflttlqq  125 (132)
+                      +|||||..|.|
+T Consensus        44 rlkrfleelrq   54 (68)
+T 6MRR_A           44 RLKRFLEELRQ   54 (68)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+
+
+No 8
+>6VBU_4 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; 3.1A {Bos taurus}
+Probab=18.96  E-value=3.6e+02  Score=20.75  Aligned_cols=31  Identities=16%  Similarity=0.203  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BSI4|H3BS    5 PAEVKTQPRSTPPSMPPPPPAASQGATRPPS   35 (132)
+Q Consensus         5 paevktqprstppsmpppppaasqgatrpps   35 (132)
+                      +.-....+..++|..+|+||.+..++..+++
+T Consensus       482 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  512 (519)
+T 6VBU_4          482 SSGAGGTSQLTKPPSLPLEPEPTVEAQPTEA  512 (519)
+T ss_dssp             CST-TSCEEECCCCCCSESSCCC-SSCCSCC
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCchh
+
+
+No 9
+>6VBV_4 Bardet-Biedl syndrome 18 protein, BBS1; Cilia, ciliopathy, complex, membrane-protein transport; HET: GTP; 3.5A {Bos taurus}
+Probab=18.96  E-value=3.6e+02  Score=20.75  Aligned_cols=31  Identities=16%  Similarity=0.203  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BSI4|H3BS    5 PAEVKTQPRSTPPSMPPPPPAASQGATRPPS   35 (132)
+Q Consensus         5 paevktqprstppsmpppppaasqgatrpps   35 (132)
+                      +.-....+..++|..+|+||.+..++..+++
+T Consensus       482 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  512 (519)
+T 6VBV_4          482 SSGAGGTSQLTKPPSLPLEPEPTVEAQPTEA  512 (519)
+T ss_dssp             CCT-TSCEEECCCCCCSESSCCC-SSCCSCC
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCchh
+
+
+No 10
+>6PX3_S Histone H3, Histone H4, Ubiquitin-60S; Set2, nucleosome, chromatin, KMT, GENE;{Xenopus laevis}
+Probab=18.56  E-value=1.4e+02  Score=29.23  Aligned_cols=13  Identities=54%  Similarity=1.093  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|H3BSI4|H3BS   13 RSTPPSMPPPPPA   25 (132)
+Q Consensus        13 rstppsmpppppa   25 (132)
+                      ...||+.|||||+
+T Consensus       839 ~~~~pppppppp~  851 (939)
+T 6PX3_S          839 VIPSPPPPPPPPA  851 (939)
+T ss_dssp             -------------
+T ss_pred             CCCCCCCCCCCCC
+
+

@@ -1,0 +1,396 @@
+Query         tr|F5H4K7|F5H4K7_HUMAN
+Match_columns 210
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:47:57 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1068.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5NUS_A Putative transcription  100.0 2.7E-29 2.9E-34  210.5   7.7  185    4-209    44-263 (303)
+  2 5O85_A General transcription f  99.9 2.5E-25 2.7E-30  174.0  10.9  195    1-210     1-195 (308)
+  3 6O9L_4 DNA-directed RNA polyme  99.9 2.5E-25 2.7E-30  174.0  10.9  195    1-210     1-195 (308)
+  4 7EGB_3 Integrator complex subu  99.9 2.5E-25 2.7E-30  174.0  10.9  195    1-210     1-195 (308)
+  5 7O4J_4 Pre-initiation complex,  99.7 8.2E-18 8.9E-23  135.6   5.7  188    4-210    22-217 (341)
+  6 5OQM_4 Mediator of RNA polymer  99.7   1E-16 1.1E-21  128.1   7.3  185    4-210    19-209 (333)
+  7 7O4J_6 Pre-initiation complex,  89.2     1.3 1.4E-05   40.4   4.6  143    8-210   126-268 (464)
+  8 7O4L_6 Pre-initiation complex,  89.2     1.3 1.4E-05   40.4   4.6  143    8-210   126-268 (464)
+  9 1ZBH_D histone mRNA 3'-end-spe  42.3 2.6E+02  0.0029   22.1   6.4    7  129-135    33-39  (299)
+ 10 5O85_B General transcription f  33.7 2.8E+02   0.003   22.5   5.4  144    7-210    57-200 (395)
+ 11 5V01_A Competence damage-induc  21.1 2.8E+02   0.003   20.1   3.1   10  126-135    18-27  (173)
+ 12 5V01_B Competence damage-induc  21.1 2.8E+02   0.003   20.1   3.1   10  126-135    18-27  (173)
+
+No 1
+>5NUS_A Putative transcription factor; RING finger domain, von Willebrand; 2.2A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=99.96  E-value=2.7e-29  Score=210.54  Aligned_cols=185  Identities=30%  Similarity=0.458  Sum_probs=138.9  Template_Neff=6.700
+
+Q ss_pred             CCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhcccc
+Q tr|F5H4K7|F5H4    4 DEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESR   83 (210)
+Q Consensus         4 dedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesr   83 (210)
+                      .++++..||||||+|+.+|....                  .+..|..++++++.|+++|+.++..|+++||+++.+.++
+T Consensus        44 ~~~~~slLvIVLD~np~~W~~~~------------------~~~~l~~~l~~ll~Fina~L~l~~~N~l~VIa~~~~~~~  105 (303)
+T 5NUS_A           44 TDDIPSLRTIIIDTNPRAWAALA------------------DVLPLSKAIANILIFVNAHLAFSNSNQVAIIASHTNRAV  105 (303)
+T ss_dssp             CTTSCBC-CEEEECCHHHHHHTT------------------TTCCHHHHHHHHHHHHHHHHHHCTTBCCCEEEECSSBEE
+T ss_pred             CCCCCeeEEEEEECCHHHHHHhc------------------CCCCHHHHHHHHHHHHHHHHHcCCCCcEEEEEecCCcee
+Confidence            46779999999999999997632                  244689999999999999999999999999999988888
+
+
+Q ss_pred             ccCCCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCC-CchhHHHHHHHHHHHHHHHHh
+Q tr|F5H4K7|F5H4   84 FLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKG-QHTETLLAGSLAKALCYIHRM  162 (210)
+Q Consensus        84 flypgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikg-qhtetllagslakalcyihrm  162 (210)
+                      ++||.......+.. .++| ..+.+ ....+.|+.|..+.+.+.+.+++++++....+ ....+.|++||.+|||+|+|.
+T Consensus       106 ~lyp~~~~~~~~~~-~~~d-~~~~~-~~~~~~~~~f~~v~~~l~~~l~~li~~~~~~~~~~~~s~Ls~ALs~ALC~inR~  182 (303)
+T 5NUS_A          106 WLYPQPPEPLPSGS-SSHD-AAARK-SATIGKYPQFAQIEKSLLSSIRALMDDTTPSDLDTTTTQISGALTLALAHINKT  182 (303)
+T ss_dssp             EEESCCCCC------------------CCSCSGGGHHHHHHHHHHHHHHHHTTCCHHHHTCCBCCHHHHHHHHHHHHHHH
+T ss_pred             eeeCCCCCCCCCCC-Cccc-HHHhh-ccCCCCcccHHHHHHHHHHHHHHHHhcCCCCcCCCCcchHHHHHHHHHHHHHHH
+Confidence            99996542100000 0000 00001 12455688899999999999999997542111 234689999999999999987
+
+
+Q ss_pred             chhc-CC---------------------------------CccccceEEEEeccccchhHHHHHHHHHHHHHhCCCcccc
+Q tr|F5H4K7|F5H4  163 NKEV-KD---------------------------------NQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDA  208 (210)
+Q Consensus       163 nkev-kd---------------------------------nqemksrilvikaaedsalqymnfmnvifaaqkqnilida  208 (210)
+                      .++. ..                                 .+..+.|||||+++.+...+|.++||++|.|++.+|.||+
+T Consensus       183 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RILvis~s~d~~~qYi~lMN~iFaAqk~~V~ID~  262 (303)
+T 5NUS_A          183 ALSLTASNTAAAAVATGHSLTAGSAASVAAKAASTSTSAGLAGLHARILIISVSDSSAAQYIPTMNAVFAAAHARIAIDT  262 (303)
+T ss_dssp             HHHHHHHSCCC-------------------------------CCBCEEEEEESSBCCGGGHHHHHHHHHHHHHTTCEEEE
+T ss_pred             HHhhccccchHHHHHccccccccchHHHHHHhcccccccccccCCccEEEEEcCCCchhhcchHHHHHHHHHHcCCeEEE
+Confidence            4432 00                                 0245889999999999999999999999999999999998
+
+
+Q ss_pred             C
+Q tr|F5H4K7|F5H4  209 C  209 (210)
+Q Consensus       209 c  209 (210)
+                      |
+T Consensus       263 ~  263 (303)
+T 5NUS_A          263 L  263 (303)
+T ss_dssp             E
+T ss_pred             E
+Confidence            7
+
+
+No 2
+>5O85_A General transcription factor IIH subunit; DNA repair, TFIIH, TFIIH interaction; 3.4A {Homo sapiens}
+Probab=99.93  E-value=2.5e-25  Score=173.96  Aligned_cols=195  Identities=98%  Similarity=1.415  Sum_probs=130.6  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhc
+Q tr|F5H4K7|F5H4    1 MVSDEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   80 (210)
+Q Consensus         1 mvsdedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiq   80 (210)
+                      |++.++.++.||||||+|++||..... +.              ++.++..+++++..|++.|+.+++.|+++||+++.+
+T Consensus         1 ~~~~~~~~~~lvlvlD~S~sm~~~~~~-~~--------------~~~~l~~~~~~l~~fi~~~l~~~~~n~v~vi~~~~~   65 (308)
+T 5O85_A            1 MVSDEDELNLLVIVVDANPIWWGKQAL-KE--------------SQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   65 (308)
+T ss_dssp             -------CCEEEEEECCCHHHHHHHHH-TT--------------CSCCHHHHHHHHHHHHHHHHHHCTTCEEEEEEECSS
+T ss_pred             CCCccccceeEEEEEECCHHHHhhhhh-cc--------------CCCcHHHHHHHHHHHHHHHHhcCCCCcEEEEEecCC
+Confidence            466778899999999999999977432 00              245799999999999999999999999999999977
+
+
+Q ss_pred             cccccCCCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHH
+Q tr|F5H4K7|F5H4   81 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  160 (210)
+Q Consensus        81 esrflypgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyih  160 (210)
+                      .++++++.+.....+.+++.+++.+.+..+..+++|+.+..+.+.+++.+++++++....+..+.+.|+.||.+|+|+++
+T Consensus        66 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~t~L~~aL~~Al~~l~  145 (308)
+T 5O85_A           66 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  145 (308)
+T ss_dssp             CEEEEEC--------------------------------CHHHHHHHHHHHHHHHSCCCCSSCCSBCHHHHHHHHHHHHH
+T ss_pred             CceeeecCCCCCccCcCCCCCCCCCCCCCCCcCCchHHHHHHHHHHHHHHHHHHhhcccCCCCcccHHHHHHHHHHHHHH
+Confidence            88899987654211110011111122233345566888888999999999999987643334567999999999999999
+
+
+Q ss_pred             HhchhcCCCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  161 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       161 rmnkevkdnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                      +.+++.+.....++|||||+++.+.+.+|.+++++++.|++.+|+||+|+
+T Consensus       146 ~~~~~~~~~~~~~~rILiis~s~~~~~~~~~~~n~~~~a~~~~I~Id~i~  195 (308)
+T 5O85_A          146 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  195 (308)
+T ss_dssp             HHHHHC----C-CCEEEEEECSCBCSTTHHHHHHHHHHHHHTTCEEEEEE
+T ss_pred             HHhhhccCCccCcceEEEEEeCCCcchhHHHHHHHHHHHHHCCCEEEEEE
+Confidence            87554322235688999999999877889999999999999999999873
+
+
+No 3
+>6O9L_4 DNA-directed RNA polymerase II, Transcription; Transcription initiation, Molecular dynamics, Gene; HET: ZN; 7.2A {Homo sapiens}
+Probab=99.93  E-value=2.5e-25  Score=173.96  Aligned_cols=195  Identities=98%  Similarity=1.415  Sum_probs=147.5  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhc
+Q tr|F5H4K7|F5H4    1 MVSDEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   80 (210)
+Q Consensus         1 mvsdedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiq   80 (210)
+                      |++.++.++.||||||+|++||..... +.              ++.++..+++++..|++.|+.+++.|+++||+++.+
+T Consensus         1 ~~~~~~~~~~lvlvlD~S~sm~~~~~~-~~--------------~~~~l~~~~~~l~~fi~~~l~~~~~n~v~vi~~~~~   65 (308)
+T 6O9L_4            1 MVSDEDELNLLVIVVDANPIWWGKQAL-KE--------------SQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   65 (308)
+T ss_pred             CCCccccceeEEEEEECCHHHHhhhhh-cc--------------CCCcHHHHHHHHHHHHHHHHhcCCCCcEEEEEecCC
+Confidence            456778899999999999999977421 00              356899999999999999999999999999999977
+
+
+Q ss_pred             cccccCCCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHH
+Q tr|F5H4K7|F5H4   81 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  160 (210)
+Q Consensus        81 esrflypgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyih  160 (210)
+                      .++++++.+.....+.+++.+++.+.+..+..+++|+.+..+.+.+++.+++++++....+..+.+.|+.||.+|+|+++
+T Consensus        66 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~t~L~~aL~~Al~~l~  145 (308)
+T 6O9L_4           66 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  145 (308)
+T ss_pred             CceeeecCCCCCccCcCCCCCCCCCCCCCCCcCCchHHHHHHHHHHHHHHHHHHhhcccCCCCcccHHHHHHHHHHHHHH
+Confidence            88899997654211110011111122223344566788888888888889888865532224468999999999999999
+
+
+Q ss_pred             HhchhcCCCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  161 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       161 rmnkevkdnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                      +.+++.+.....++|||||+++.+.+.+|.+++++++.|++.+|+||+|+
+T Consensus       146 ~~~~~~~~~~~~~~rILiis~s~~~~~~~~~~~n~~~~a~~~~I~Id~i~  195 (308)
+T 6O9L_4          146 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  195 (308)
+T ss_pred             HHhhhccCCccCcceEEEEEeCCCcchhHHHHHHHHHHHHHCCCEEEEEE
+Confidence            87544321235588999999999877889999999999999999999974
+
+
+No 4
+>7EGB_3 Integrator complex subunit 1, Integrator; TFIID, preinitiation complex, core promoter; HET: ZN; 3.3A {Homo sapiens}
+Probab=99.93  E-value=2.5e-25  Score=173.96  Aligned_cols=195  Identities=98%  Similarity=1.415  Sum_probs=147.5  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhc
+Q tr|F5H4K7|F5H4    1 MVSDEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   80 (210)
+Q Consensus         1 mvsdedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiq   80 (210)
+                      |++.++.++.||||||+|++||..... +.              ++.++..+++++..|++.|+.+++.|+++||+++.+
+T Consensus         1 ~~~~~~~~~~lvlvlD~S~sm~~~~~~-~~--------------~~~~l~~~~~~l~~fi~~~l~~~~~n~v~vi~~~~~   65 (308)
+T 7EGB_3            1 MVSDEDELNLLVIVVDANPIWWGKQAL-KE--------------SQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQ   65 (308)
+T ss_pred             CCCccccceeEEEEEECCHHHHhhhhh-cc--------------CCCcHHHHHHHHHHHHHHHHhcCCCCcEEEEEecCC
+Confidence            456778899999999999999977421 00              356899999999999999999999999999999977
+
+
+Q ss_pred             cccccCCCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHH
+Q tr|F5H4K7|F5H4   81 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  160 (210)
+Q Consensus        81 esrflypgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyih  160 (210)
+                      .++++++.+.....+.+++.+++.+.+..+..+++|+.+..+.+.+++.+++++++....+..+.+.|+.||.+|+|+++
+T Consensus        66 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~t~L~~aL~~Al~~l~  145 (308)
+T 7EGB_3           66 ESRFLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIH  145 (308)
+T ss_pred             CceeeecCCCCCccCcCCCCCCCCCCCCCCCcCCchHHHHHHHHHHHHHHHHHHhhcccCCCCcccHHHHHHHHHHHHHH
+Confidence            88899997654211110011111122223344566788888888888889888865532224468999999999999999
+
+
+Q ss_pred             HhchhcCCCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  161 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       161 rmnkevkdnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                      +.+++.+.....++|||||+++.+.+.+|.+++++++.|++.+|+||+|+
+T Consensus       146 ~~~~~~~~~~~~~~rILiis~s~~~~~~~~~~~n~~~~a~~~~I~Id~i~  195 (308)
+T 7EGB_3          146 RMNKEVKDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  195 (308)
+T ss_pred             HHhhhccCCccCcceEEEEEeCCCcchhHHHHHHHHHHHHHCCCEEEEEE
+Confidence            87544321235588999999999877889999999999999999999974
+
+
+No 5
+>7O4J_4 Pre-initiation complex, TRANSCRIPTION; HET: ZN, ADP; 2.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.73  E-value=8.2e-18  Score=135.56  Aligned_cols=188  Identities=29%  Similarity=0.449  Sum_probs=136.4  Template_Neff=8.900
+
+Q ss_pred             CCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhcccc
+Q tr|F5H4K7|F5H4    4 DEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESR   83 (210)
+Q Consensus         4 dedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesr   83 (210)
+                      ..+.++.|+||||+|++||..... .             ...+.++..+++++..|++.++.+++.++++||+|+.+.++
+T Consensus        22 ~~~~~~~LvlvlD~S~sm~~~~~~-~-------------~~~~~~l~~~~~al~~fi~~~~~~~~~n~l~vi~~~~~~~~   87 (341)
+T 7O4J_4           22 TEESPSLLTVIIEIAPKLWTTFDE-E-------------GNEKGSIIKVLEALIVFLNAHLAFNSANKVAVIAAYSQGIK   87 (341)
+T ss_pred             CCCCCceEEEEEECCHHHHhhccc-c-------------CCCCCcHHHHHHHHHHHHHHHHhcCCCCcEEEEEEeCCceE
+Confidence            355688999999999999977421 0             00246799999999999999999999999999999976888
+
+
+Q ss_pred             ccCCCCCCCc--ccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCC--CchhHHHHHHHHHHHHHH
+Q tr|F5H4K7|F5H4   84 FLYPGKNGRL--GDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKG--QHTETLLAGSLAKALCYI  159 (210)
+Q Consensus        84 flypgkngrl--gdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikg--qhtetllagslakalcyi  159 (210)
+                      ++++.+....  .|.+   ++.. ........+.|..|..+.+.+.+.+.+++......+  ..+.+.|+.||..|+|++
+T Consensus        88 ~l~p~~~~~~~~~~~~---~~~~-~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~g~t~L~~aL~~Al~~l  163 (341)
+T 7O4J_4           88 YLYPESTSALKASESE---NKTR-SDLKIINSDMYRRFRNVDETLVEEIYKLFELEKKQIEQNSQRSTLAGAMSAGLTYV  163 (341)
+T ss_pred             EEecCCcchhcccccc---cccc-cccccccchhhHHHHHHHHHHHHHHHHHHHHhHHHhhhccccchHHHHHHHHHHHH
+Confidence            9998764310  0000   0000 000001234566777787777888888886543211  346799999999999999
+
+
+Q ss_pred             HHhchhcCCCccccceEEEEeccccc----hhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  160 HRMNKEVKDNQEMKSRILVIKAAEDS----ALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       160 hrmnkevkdnqemksrilvikaaeds----alqymnfmnvifaaqkqnilidacv  210 (210)
+                      ++.+++. .+....+|||||+++.+.    ..+|.+++++++.|++.+|+||+|+
+T Consensus       164 ~~~~~~~-~~~~~~~rILiit~s~~~~~~~~~~~~~~~n~i~~a~k~~I~Idvi~  217 (341)
+T 7O4J_4          164 NRISKES-VTTSLKSRLLVLTCGSGSSKDEIFQYIPIMNCIFSATKMKCPIDVVK  217 (341)
+T ss_pred             HHHhhhc-cCCCCCceEEEEEecCCCCccccccchHHHHHHHHHHHcCCcEEEEE
+Confidence            8864321 002346899999999977    6788999999999999999999974
+
+
+No 6
+>5OQM_4 Mediator of RNA polymerase II; transcription initiation, TRANSCRIPTION, macromolecular complex; HET: ZN; 5.8A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.69  E-value=1e-16  Score=128.07  Aligned_cols=185  Identities=29%  Similarity=0.472  Sum_probs=135.2  Template_Neff=9.100
+
+Q ss_pred             CCCCCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhcccc
+Q tr|F5H4K7|F5H4    4 DEDELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESR   83 (210)
+Q Consensus         4 dedelnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesr   83 (210)
+                      .++.++.||||||+|++||..... .             ...+.++..+++++..|++.++.+++.++++||+|+...++
+T Consensus        19 ~~~~~~~lvlvlD~S~sm~~~~~~-~-------------~~~~~~l~~~~~al~~f~~~~~~~~~~~~l~vv~~~~~~~~   84 (333)
+T 5OQM_4           19 TEESPSLLTVIIEIAPKLWTTFDE-E-------------GNEKGSIIKVLEALIVFLNAHLAFNSANKVAVIAAYSQGIK   84 (333)
+T ss_pred             CCCCCeEEEEEEECCHHHHhhccc-c-------------CCCCCcHHHHHHHHHHHHHHHHhCCCCCcEEEEEEeCCCce
+Confidence            356688999999999999977421 0             01246799999999999999999999999999999976788
+
+
+Q ss_pred             ccCCCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCC--CchhHHHHHHHHHHHHHHHH
+Q tr|F5H4K7|F5H4   84 FLYPGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKG--QHTETLLAGSLAKALCYIHR  161 (210)
+Q Consensus        84 flypgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikg--qhtetllagslakalcyihr  161 (210)
+                      ++++.+.... |.+ + +    .+......+.|..|..+.+.+.+.+++.+......+  ..+.+.|+.||..|+|++++
+T Consensus        85 ~l~~~~~~~~-~~~-~-~----~~~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~g~t~L~~aL~~Al~~l~~  157 (333)
+T 5OQM_4           85 YLYPXXXXXX-XXX-X-X----XXXXXXXXXXYRRFRNVDETLVEEIYKLFELEKKQIEQNSQRSTLAGAMSAGLTYVNR  157 (333)
+T ss_pred             eecCCCCCCC-CCC-C-C----CCCCCCCCCCChhHHhHHHHHHHHHHHHHHHhHHHhhhccccchHHHHHHHHHHHHHH
+Confidence            9998764210 000 0 0    000001234466677777777888888876553211  35679999999999999988
+
+
+Q ss_pred             hchhcCCCccccceEEEEeccccc----hhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  162 MNKEVKDNQEMKSRILVIKAAEDS----ALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       162 mnkevkdnqemksrilvikaaeds----alqymnfmnvifaaqkqnilidacv  210 (210)
+                      .+.+. ..+...+|||||+++.+.    ..+|.+++++++.|++.+|+|++|+
+T Consensus       158 ~~~~~-~~~~~~~rIlvi~~s~~~~~~~~~~~~~~~~~~~~a~k~~I~Idvi~  209 (333)
+T 5OQM_4          158 ISKES-VTTSLKSRLLVLTCGSGSSKDEIFQYIPIMNCIFSATKMKCPIDVVK  209 (333)
+T ss_pred             Hhhhh-cCCCCCceEEEEEecCCCCccccccchhhhhHHHHHHhCCceEEEEE
+Confidence            64321 002346799999999876    6788999999999999999999974
+
+
+No 7
+>7O4J_6 Pre-initiation complex, TRANSCRIPTION; HET: ZN, ADP; 2.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=89.20  E-value=1.3  Score=40.37  Aligned_cols=143  Identities=9%  Similarity=0.096  Sum_probs=106.9  Template_Neff=7.700
+
+Q ss_pred             CcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhccccccCC
+Q tr|F5H4K7|F5H4    8 LNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESRFLYP   87 (210)
+Q Consensus         8 lnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesrflyp   87 (210)
+                      .+.|+||||.|.+|+..+.                  .+.++..+++.+..|++.++..++.++++||+|.++.+..+++
+T Consensus       126 ~r~lvlVLD~S~SM~~~D~------------------~p~rl~~~~~~l~~fi~~~~~~np~sqlgII~~~d~~a~~v~~  187 (464)
+T 7O4J_6          126 IRSLILTLDCSEAMLEKDL------------------RPNRHAMIIQYAIDFVHEFFDQNPISQMGIIIMRNGLAQLVSQ  187 (464)
+T ss_pred             ceeEEEEEECChhHhhccC------------------CCCHHHHHHHHHHHHHHHHHHcCCcCceEEEEEeCCeeEEEcc
+Confidence            4789999999999986532                  4678999999999999999999999999999998666667776
+
+
+Q ss_pred             CCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHHHhchhcC
+Q tr|F5H4K7|F5H4   88 GKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIHRMNKEVK  167 (210)
+Q Consensus        88 gkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyihrmnkevk  167 (210)
+                      .+.+.                               ..+.+.|..+... .   ..|.+.|..||..|++.+.+..    
+T Consensus       188 ls~n~-------------------------------~~~~~~L~~l~~~-~---~~G~~sL~naL~~A~~~L~~~~----  228 (464)
+T 7O4J_6          188 VSGNP-------------------------------QDHIDALKSIRKQ-E---PKGNPSLQNALEMARGLLLPVP----  228 (464)
+T ss_pred             CCCCH-------------------------------HHHHHHHHHHHhc-C---CCCCCCHHHHHHHHHHHhcCCC----
+Confidence            54321                               0111233332211 1   3468899999999999997641    
+
+
+Q ss_pred             CCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  168 DNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       168 dnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                        .+..++||+|+++.. ..++.++.++++.+++.+|.|++|+
+T Consensus       229 --~~~~reILiI~~s~~-s~d~~di~~~i~~l~~~~I~V~vI~  268 (464)
+T 7O4J_6          229 --AHCTREVLIVFGSLS-TTDPGDIHQTIDSLVSEKIRVKVLG  268 (464)
+T ss_pred             --CCCCceEEEEECCCC-CCCcccHHHHHHHHHhCCCEEEEEe
+Confidence              345679999998864 3455678899999999999999874
+
+
+No 8
+>7O4L_6 Pre-initiation complex, TRANSCRIPTION; HET: ZN, ADP; 3.4A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=89.20  E-value=1.3  Score=40.37  Aligned_cols=143  Identities=9%  Similarity=0.098  Sum_probs=106.5  Template_Neff=7.700
+
+Q ss_pred             CcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhccccccCC
+Q tr|F5H4K7|F5H4    8 LNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESRFLYP   87 (210)
+Q Consensus         8 lnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesrflyp   87 (210)
+                      .+.|+||||.|.+|+..+.                  .+.++..+++.+..|++.++..++.++++||+|.++.+..+++
+T Consensus       126 ~r~lvlVLD~S~SM~~~D~------------------~p~rl~~~~~~l~~fi~~~~~~np~sqlgII~~~d~~a~~v~~  187 (464)
+T 7O4L_6          126 IRSLILTLDCSEAMLEKDL------------------RPNRHAMIIQYAIDFVHEFFDQNPISQMGIIIMRNGLAQLVSQ  187 (464)
+T ss_dssp             SEEEEEEEECSGGGGCSSS------------------SSCHHHHHHHHHHHHHHHHHHHCSSCEEEEEEEETTEEEEEEE
+T ss_pred             ceeEEEEEECChhHhhccC------------------CCCHHHHHHHHHHHHHHHHHHcCCcCceEEEEEeCCeeEEEcc
+Confidence            5799999999999986532                  3567888889999999999999999999999998556666666
+
+
+Q ss_pred             CCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHHHhchhcC
+Q tr|F5H4K7|F5H4   88 GKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIHRMNKEVK  167 (210)
+Q Consensus        88 gkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyihrmnkevk  167 (210)
+                      .+.+                               ...+.+.|..+... .   ..|.+.|..||..|++.+.+.     
+T Consensus       188 ls~n-------------------------------~~~~~~~L~~l~~~-~---~~G~~sL~naL~~A~~~L~~~-----  227 (464)
+T 7O4L_6          188 VSGN-------------------------------PQDHIDALKSIRKQ-E---PKGNPSLQNALEMARGLLLPV-----  227 (464)
+T ss_dssp             EESC-------------------------------HHHHHHHHHHHTTC-C---CCSCCCHHHHHHHHHHHTSSS-----
+T ss_pred             CCCC-------------------------------HHHHHHHHHHHHhc-C---CCCCCCHHHHHHHHHHHhcCC-----
+Confidence            4432                               12233444443321 1   346789999999999998643     
+
+
+Q ss_pred             CCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  168 DNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       168 dnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                       ..+..++||+|+++... .++.++.++++.+++.+|.|++|+
+T Consensus       228 -~~~~~reILiI~~s~~s-~d~~di~~~i~~l~~~~I~V~vI~  268 (464)
+T 7O4L_6          228 -PAHCTREVLIVFGSLST-TDPGDIHQTIDSLVSEKIRVKVLG  268 (464)
+T ss_dssp             -CTTSEEEEEEECCCSCC-CCSSCHHHHHHHHHHHTEEEEEEE
+T ss_pred             -CCCCCceEEEEECCCCC-CCcccHHHHHHHHHhCCCEEEEEe
+Confidence             13456799999988743 445678899999999999998763
+
+
+No 9
+>1ZBH_D histone mRNA 3'-end-specific recognition ; HET: AMP; 3.0A {Homo sapiens}
+Probab=42.30  E-value=2.6e+02  Score=22.10  Aligned_cols=7  Identities=14%  Similarity=0.525  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHh
+Q tr|F5H4K7|F5H4  129 EIKDLMT  135 (210)
+Q Consensus       129 eikdlmt  135 (210)
+                      +++..+.
+T Consensus        33 ~l~~~~~   39 (299)
+T 1ZBH_D           33 ELRAKLS   39 (299)
+T ss_dssp             -------
+T ss_pred             HHHHHHH
+Confidence            4444443
+
+
+No 10
+>5O85_B General transcription factor IIH subunit; DNA repair, TFIIH, TFIIH interaction; 3.4A {Homo sapiens}
+Probab=33.71  E-value=2.8e+02  Score=22.51  Aligned_cols=144  Identities=15%  Similarity=0.136  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCcEEEEEEeCCcchcchhhhhhccccCCCCCCchhhhHHHHHHhhcceeeeeCCchhhcCCcchhhhhhhhhccccccC
+Q tr|F5H4K7|F5H4    7 ELNLLVIVVDANPIWWGKQALKESQHHHLMPQPPEYLGLQFTLSKCIDAVMVLGNSHLFMNRSNKLAVIASHIQESRFLY   86 (210)
+Q Consensus         7 elnllvivvdanpiwwgkqalkesqhhhlmpqppeylglqftlskcidavmvlgnshlfmnrsnklaviashiqesrfly   86 (210)
+                      .+..++||||.|++|+....                  .+.++..+++++..|++.++..++.++++|+.|+.+....+.
+T Consensus        57 ~~~~vvlvlD~S~sm~~~~~------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~v~lv~f~~~~~~~~~  118 (395)
+T 5O85_B           57 MMRHLYVVVDGSRTMEDQDL------------------KPNRLTCTLKLLEYFVEEYFDQNPISQIGIIVTKSKRAEKLT  118 (395)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             cceeEEEEEeCchhHhcccC------------------CCcHHHHHHHHHHHHHHHHHhhCChhhEEEEEeCCCeEEEec
+Confidence            35679999999999986532                  356788999999999999888888899999999854556666
+
+
+Q ss_pred             CCCCCCcccccCCCCCCCCCCCCCCCCCchhhhcchhHHHHHHHHHHHhcCCCCCCchhHHHHHHHHHHHHHHHHhchhc
+Q tr|F5H4K7|F5H4   87 PGKNGRLGDFFGDPGNPPEFNPSGSKDGKYELLTSANEVIVEEIKDLMTKSDIKGQHTETLLAGSLAKALCYIHRMNKEV  166 (210)
+Q Consensus        87 pgkngrlgdffgdpgnppefnpsgskdgkyelltsaneviveeikdlmtksdikgqhtetllagslakalcyihrmnkev  166 (210)
+                      +.+...                               +.+...+.+.+. ..   ..+.++|..||..|++.+.+..   
+T Consensus       119 ~~~~~~-------------------------------~~~~~~l~~~~~-~~---~~g~t~l~~al~~a~~~l~~~~---  160 (395)
+T 5O85_B          119 ELSGNP-------------------------------RKHITSLKKAVD-MT---CHGEPSLYNSLSIAMQTLKHMP---  160 (395)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ccCCCH-------------------------------HHHHHHHHHHhc-cC---CCCCchHHHHHHHHHHHHccCC---
+Confidence            654321                               111123333221 11   3467899999999999986541   
+
+
+Q ss_pred             CCCccccceEEEEeccccchhHHHHHHHHHHHHHhCCCccccCC
+Q tr|F5H4K7|F5H4  167 KDNQEMKSRILVIKAAEDSALQYMNFMNVIFAAQKQNILIDACV  210 (210)
+Q Consensus       167 kdnqemksrilvikaaedsalqymnfmnvifaaqkqnilidacv  210 (210)
+                         ....+.||||+++... .....+.+++..+++.+|.|++|+
+T Consensus       161 ---~~~~~~iiiitd~~~~-~~~~~~~~~~~~~~~~~i~i~~i~  200 (395)
+T 5O85_B          161 ---GHTSREVLIIFSSLTT-CDPSNIYDLIKTLKAAKIRVSVIG  200 (395)
+T ss_dssp             --------------------------------------------
+T ss_pred             ---CCCCccEEEEECCCCC-CCcccHHHHHHHHHHCCCEEEEEe
+Confidence               2346789999988743 334567888999999999998874
+
+
+No 11
+>5V01_A Competence damage-inducible protein A; cinA family, Structural Genomics, Center; HET: CL; 1.3A {Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578)}
+Probab=21.05  E-value=2.8e+02  Score=20.14  Aligned_cols=10  Identities=10%  Similarity=0.328  Sum_probs=4.7  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHh
+Q tr|F5H4K7|F5H4  126 IVEEIKDLMT  135 (210)
+Q Consensus       126 iveeikdlmt  135 (210)
+                      +.+.+.+++.
+T Consensus        18 L~~~v~~lL~   27 (173)
+T 5V01_A           18 LTAEVARALI   27 (173)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3445555544
+
+
+No 12
+>5V01_B Competence damage-inducible protein A; cinA family, Structural Genomics, Center; HET: CL; 1.3A {Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578)}
+Probab=21.05  E-value=2.8e+02  Score=20.14  Aligned_cols=10  Identities=10%  Similarity=0.328  Sum_probs=4.7  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHh
+Q tr|F5H4K7|F5H4  126 IVEEIKDLMT  135 (210)
+Q Consensus       126 iveeikdlmt  135 (210)
+                      +.+.+.+++.
+T Consensus        18 L~~~v~~lL~   27 (173)
+T 5V01_B           18 LTAEVARALI   27 (173)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3344555544
+
+

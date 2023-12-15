@@ -1,0 +1,424 @@
+Query         sp|Q96G97|BSCL2_HUMAN
+Match_columns 398
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:04:11 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1079.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DS5_A Seipin; Lipid droplets, 100.0  1E-123  1E-128  871.0  37.5  398    1-398    12-409 (409)
+  2 6MLU_A Seipin; Lipid storage,  100.0   3E-48 3.2E-53  356.6  26.0  256    8-267    33-288 (382)
+  3 7RSL_D lipid droplets, lipid d 100.0 2.3E-35 2.5E-40  264.0  20.4  233   19-259     7-272 (285)
+  4 7RSL_F lipid droplets, lipid d 100.0 2.3E-35 2.5E-40  264.0  20.4  233   19-259     7-272 (285)
+  5 7OXP_J Lipid droplet formation 100.0 1.2E-31 1.3E-36  246.0  24.3  233   19-259     7-272 (322)
+  6 6YFQ_AX virus, virus-like part  29.6 1.5E+02  0.0017   26.0   3.7   18  103-120    57-74  (135)
+  7 6YFQ_CA virus, virus-like part  29.6 1.5E+02  0.0017   26.0   3.7   18  103-120    57-74  (135)
+  8 2VF9_B COAT PROTEIN; VIRION, R  28.4 2.4E+02  0.0026   24.8   4.6   16  103-118    54-69  (131)
+  9 7B04_I Metalloprotein, Oxidore  26.7 1.5E+02  0.0017   28.2   3.5   24   23-46      3-26  (322)
+ 10 6LNW_C Accessory Sec system pr  23.9 7.1E+02  0.0077   22.8   6.8   38   98-142    64-102 (154)
+ 11 5VAE_F Accessory Sec system pr  22.7   7E+02  0.0076   23.2   6.6   38   98-142    74-112 (159)
+ 12 1UNA_A GA UNASSEMBLED COAT PRO  22.6 4.1E+02  0.0044   23.3   5.0   16  103-118    52-67  (129)
+ 13 2E56_A Lymphocyte antigen 96;   22.4 4.1E+02  0.0044   22.1   4.7   56   63-132    11-66  (144)
+ 14 4G8A_C Toll-like receptor 4, L  22.4 4.1E+02  0.0044   22.1   4.7   56   63-132    11-66  (144)
+ 15 1GAV_H BACTERIOPHAGE GA PROTEI  20.2 4.8E+02  0.0053   22.9   4.9   16  103-118    52-67  (129)
+
+No 1
+>6DS5_A Seipin; Lipid droplets, adipogenesis, LIPID BINDING; HET: NAG;{Homo sapiens}
+Probab=100.00  E-value=1.3e-123  Score=871.03  Aligned_cols=398  Identities=100%  Similarity=1.518  Sum_probs=156.0  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCcccchhhHHhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhccCCCcccccCeEEEEEcCCCCCCcc
+Q sp|Q96G97|BSCL    1 MVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTS   80 (398)
+Q Consensus         1 mvndppvpallwaqevgqvlagrarrlllqfgvlfctillllwvsvflygsfyysymptvshlspvhfyyrtdcdsstts   80 (398)
+                      ||+++|+|+++|+|+++++++.++|++++++++++|++++++|+|+++|+.|||.|||++.++.|+||+|.++|+.+..+
+T Consensus        12 ~~~~~~~~~~~w~~~~~~~~~~rarr~ll~~~ll~~~~llLL~vSv~lY~~FY~~ymP~v~~s~Pv~F~Y~t~c~~~~~~   91 (409)
+T 6DS5_A           12 KVNDPPVPALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTS   91 (409)
+T ss_dssp             -----------------------------------------------------------CCCCCEECCBCCCCSCCCSSC
+T ss_pred             cCCCCChhHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCcceeEEeeEeEeeccCCCCCCC
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999989888888
+
+
+Q ss_pred             ccccceeeeeeccCCccceeeCCCcEEEEEEEECCCCCCCCCCceEEEEEEEEecCCeEEEeccceEEEEecchhHhhhh
+Q sp|Q96G97|BSCL   81 LCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLD  160 (398)
+Q Consensus        81 lcsfpvanvsltkggrdrvlmygqpyrvtlelelpespvnqdlgmflvtiscytrggriistssrsvmlhyrsdllqmld  160 (398)
+                      +|+||.|++++.+++++++|++||+|+|+|+|+||+|+.|+++|||||+++|++.+|+++++++|++||+|+|.++|.++
+T Consensus        92 lcs~P~A~VsL~~~~~~~vL~~gQ~Y~VsLeLeLPeSp~N~~lGmFmV~vsl~s~~g~iIasSsRpamL~YrS~Llr~l~  171 (409)
+T 6DS5_A           92 LCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLD  171 (409)
+T ss_dssp             CSSCCEEEEECCCSSSCSSCSSCSCEEEEEEECCBCCHHHHHCCEEEEEEEEECSSSCEEEEEEEEEECCCCCHHHHHHH
+T ss_pred             cccCCceEEEeccCCCccccccceeEEEEEEEEccCCccccccCceeEEEEEEcCCCcEEEEEeccccccCCCHHHHHHH
+Confidence            99999999999998888899999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhchheeeccccccceEEEEEEecccCCCCCCCCCcEEEEEeceEEEeceEEEEEEeccChhHHHhcchhHHHHHHHH
+Q sp|Q96G97|BSCL  161 TLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVA  240 (398)
+Q Consensus       161 tlvfsslllfgfaeqkqllevelyadyrensyvpttgaiieihskriqlygaylrihahftglryllynfpmtcafigva  240 (398)
+                      +++|+|++++|+.+++|+++|+|+++|.++.+.|++++.|+|+++++|||+|+|+|+++|+||||+|||||++|+++|++
+T Consensus       172 tl~f~pllL~G~~ee~Q~l~V~L~~~~~e~~~~P~~~a~VeI~s~~vQIYsA~L~i~A~ftGLRylmy~~pitSa~iGv~  251 (409)
+T 6DS5_A          172 TLVFSSLLLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVA  251 (409)
+T ss_dssp             HHHTHHHHTTTTTCSBCCCCEEEEEEECCGGGCCCCEEEEEECCSSCCCCCEEEECCCC---------------------
+T ss_pred             HHHHHHHHHcCCccceEEEEEEeeccccccccCcceeEEEEEecCCceEEeEEEEEEecccchHHHHhhCchhHHHHHHH
+Confidence            99999999999999999999999999999988999899999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHcCCCCcccceecccccCCCCCCccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q96G97|BSCL  241 SNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGT  320 (398)
+Q Consensus       241 snftflsvivlfsymqwvwggiwprhrfslqvnirkrdnsrkevqrrisahqpgpegqeestpqsdvtedgespedpsgt  320 (398)
+                      +||+|++++++|++++|+|+++||++++++||++++++++|+++|||+.++++|+|++|+++|++|++++++++++|+++
+T Consensus       252 ~~f~flsvivlfs~l~~~~~~iw~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  331 (409)
+T 6DS5_A          252 SNFTFLSVIVLFSYMQWVWGGIWPRHRFSLQVNIRKRDNSRKEVQRRISAHQPGPEGQEESTPQSDVTEDGESPEDPSGT  331 (409)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHhcccCCccceeeeeeeecccCCHHHhHhhhccCCCCCCCCCCCCCccccCCCCCCCCCCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999989999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q96G97|BSCL  321 EGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS  398 (398)
+Q Consensus       321 egqlseeekpdqqplsgeeelepeasdgsgswedaallteanlpapapasasapvletlgssepaggalrqrptcsss  398 (398)
+                      +|++++|++++++|+.++++.|+|++|++|+|||++|++|+++|+++++++++++||++|++++++++||||++||||
+T Consensus       332 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~  409 (409)
+T 6DS5_A          332 EGQLSEEEKPDQQPLSGEEELEPEASDGSGSWEDAALLTEANLPAPAPASASAPVLETLGSSEPAGGALRQRPTCSSS  409 (409)
+T ss_dssp             ------------------------------------------------------------------------------
+T ss_pred             CCCCCCCCCCCCCCCCCccccCCCcCCCCCChhhHhhhccCCCCCCCCccccCCccccCCCCCCCCCCccCCCCCCCC
+Confidence            999999999999999999999999999999999999999999999988877778999999999999999999999997
+
+
+No 2
+>6MLU_A Seipin; Lipid storage, Lipid droplet formation;{Drosophila melanogaster}
+Probab=100.00  E-value=3e-48  Score=356.60  Aligned_cols=256  Identities=37%  Similarity=0.734  Sum_probs=145.7  Template_Neff=6.900
+
+Q ss_pred             CcccchhhHHhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhccCCCcccccCeEEEEEcCCCCCCcccccccee
+Q sp|Q96G97|BSCL    8 PALLWAQEVGQVLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVSHLSPVHFYYRTDCDSSTTSLCSFPVA   87 (398)
+Q Consensus         8 pallwaqevgqvlagrarrlllqfgvlfctillllwvsvflygsfyysymptvshlspvhfyyrtdcdssttslcsfpva   87 (398)
+                      ....+++.+++.++..+++++++++++++++++++++|+++|+.||+.|||...++.|+||+|.. |.. ..+.|++|.|
+T Consensus        33 ~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~ll~lSv~~Y~~fY~~yiP~~~~~~Pl~F~y~~-~~~-~~~~~s~P~A  110 (382)
+T 6MLU_A           33 NVYDRVRSKADEKVGTVRELVLRLGLIAFAVVLIIWLAVFMYAAFYYVYMPAISHTRPVHMQFKT-CLE-TSTPCTFPHA  110 (382)
+T ss_dssp             --------------------------------------------------------CCEEEECCB-CTT-SSSCSSCCBC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCcccceeceecEeec-CCC-CCCCCcCCeE
+Confidence            34567788888888999999999999999999999999999999999999999999999999988 865 5678999999
+
+
+Q ss_pred             eeeeccCCccceeeCCCcEEEEEEEECCCCCCCCCCceEEEEEEEEecCCeEEEeccceEEEEecchhHhhhhhhhhchh
+Q sp|Q96G97|BSCL   88 NVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISCYTRGGRIISTSSRSVMLHYRSDLLQMLDTLVFSSL  167 (398)
+Q Consensus        88 nvsltkggrdrvlmygqpyrvtlelelpespvnqdlgmflvtiscytrggriistssrsvmlhyrsdllqmldtlvfssl  167 (398)
+                      ++++.+  +...|.+||.|+|+|+|+||||+.|.++|||||++++++.+|+++++++||++|+|+|++++.+++++++|+
+T Consensus       111 ~V~L~~--~~~~L~~gq~YdV~l~L~lPeS~~N~~lGmFmV~lel~s~~g~~lasssRp~~L~y~S~llr~l~tl~~~P~  188 (382)
+T 6MLU_A          111 HVSLTK--KQQLLMVGQAYKVIVNIDMPESPQNLELGMFMVCAEMRDYDSMLRGHSCRSAMMRYRSPLIRMISTWVLSPL  188 (382)
+T ss_dssp             CCCCCH--HHHHHHHHHTCEEEEEEEEECCHHHHTTCCEEEEEEEEETTCCEEEEEEEEECCCCCCHHHHHHHHHHTHHH
+T ss_pred             EEeccc--CceeccCCCeEEEEEEEEecCCHHHHHcccceeeeEeecCCCCeeEEEeceeccCCCCHHHHHHHHHHHHHH
+Confidence            999976  456799999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeccccccceEEEEEEecccCCCCCCCCCcEEEEEeceEEEeceEEEEEEeccChhHHHhcchhHHHHHHHHHHHHHHH
+Q sp|Q96G97|BSCL  168 LLFGFAEQKQLLEVELYADYRENSYVPTTGAIIEIHSKRIQLYGAYLRIHAHFTGLRYLLYNFPMTCAFIGVASNFTFLS  247 (398)
+Q Consensus       168 llfgfaeqkqllevelyadyrensyvpttgaiieihskriqlygaylrihahftglryllynfpmtcafigvasnftfls  247 (398)
+                      +++|+.+++|+++|+|+++|.++...|+..+.|+|+++.+|||+|+|+|+++++|+||+||+||++|+++|++++|++++
+T Consensus       189 ~l~G~~~e~Q~v~V~L~~~~~e~~~~p~~~~~V~l~s~~lqvysA~L~i~a~lsGLRy~my~wp~tS~~vgi~~~~~~~~  268 (382)
+T 6MLU_A          189 YVLGWKEEFQQVPVEIFSRYLEERQHPITDVYVEIQSQKIQFYTVTLHIVADFTGLRYIMFNWPVLSAIVAISTNLFFIL  268 (382)
+T ss_dssp             HHTTSSCSEEEEEEECCSSCCSCSSSCEEECCCEESCSSCCCSEEEEEEESCC---------------------------
+T ss_pred             HHhCCCcceEEEEEEchhccccCCCCCceEEEEEEeccceEEEEEEEEEEEecCchHHHHhcchHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999998777888999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHcCCCCccc
+Q sp|Q96G97|BSCL  248 VIVLFSYMQWVWGGIWPRHR  267 (398)
+Q Consensus       248 vivlfsymqwvwggiwprhr  267 (398)
+                      ++++++|+++.+...|+.+.
+T Consensus       269 ~v~ll~~~~~~~~~~~~~~~  288 (382)
+T 6MLU_A          269 VVFLLSWYHWSDAKWLHSVQ  288 (382)
+T ss_dssp             --------------------
+T ss_pred             HHHHHHHHHHhchhccchhh
+Confidence            99999999998777777774
+
+
+No 3
+>7RSL_D lipid droplets, lipid droplet formation; 3.45A {Saccharomyces cerevisiae}
+Probab=100.00  E-value=2.3e-35  Score=264.01  Aligned_cols=233  Identities=14%  Similarity=0.169  Sum_probs=179.8  Template_Neff=6.700
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhccCCCcc-cccCeEEEEEcCCCCCCccccccceeeeeeccCCc-
+Q sp|Q96G97|BSCL   19 VLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVS-HLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGR-   96 (398)
+Q Consensus        19 vlagrarrlllqfgvlfctillllwvsvflygsfyysymptvs-hlspvhfyyrtdcdssttslcsfpvanvsltkggr-   96 (398)
+                      .=+.++|+++|+++++++.++++||+|+++|+.||+.|||+.+ +..|++| +.. |+.+..+ |+||.+.++++++.. 
+T Consensus         7 ~PL~~~r~~~Y~~~~~~v~~~vllplSi~lY~~FY~~lIP~~ss~~~Pl~~-~~~-~~~~~~~-~~f~~~~~~l~~~~~l   83 (285)
+T 7RSL_D            7 RPLQFLQWSSYIVVAFLIQLLIILPLSILIYHDFYLRLLPADSSNVVPLNT-FNI-LNGVQFG-TKFFQSIKSIPVGTDL   83 (285)
+T ss_dssp             ----------CHHHHHHHHHHHHHHHHHHHHHHHHHHHSCSSSEEEEEGGG-SEE-ECCSSSC-EEEEECEEECCTTSCC
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCCCCCcceeecce-eec-cCCCCCC-ccccceeeeCCCCCCC
+Confidence            3467789999999999999999999999999999999999998 9999999 665 5443455 999998888876322 
+
+
+Q ss_pred             ----------cceeeCCCcEEEEEEEECCCCCCC--CCCceEEEEEEEE--ecCCeEEEeccceEEEEecchhHhhhhhh
+Q sp|Q96G97|BSCL   97 ----------DRVLMYGQPYRVTLELELPESPVN--QDLGMFLVTISCY--TRGGRIISTSSRSVMLHYRSDLLQMLDTL  162 (398)
+Q Consensus        97 ----------drvlmygqpyrvtlelelpespvn--qdlgmflvtiscy--trggriistssrsvmlhyrsdllqmldtl  162 (398)
+                                +..|+.||+|++.|+|++||++.|  .++|||||++++.  +.+|.....++|+.+|+|||.+++|+.+.
+T Consensus        84 p~~~~ng~~q~~~L~~~~~Y~v~L~L~~~c~~~n~~~~l~~~~v~~~~~~~~~~~~~~~~~~~~~~l~~~s~ll~c~~t~  163 (285)
+T 7RSL_D           84 PQTIDNGLSQLIPMRDNMEYKLDLNLQLYCQSKTDHLNLDNLLIDVYRGPGPLLGAPGGSNSKDEKIFHTSRPIVCLALT  163 (285)
+T ss_dssp             CCCCSSCSCCCEEECSSSCEEEEEEEEEEEECSSCCCSCEEEEEEEEECC-------------CEEEEEEEEEECCBCTT
+T ss_pred             CccccCCCccccccCCCCcEEEEEEEEeeecCCCCCccceeEEEEEEeCCCCCCCCCCCCCCCCceeeeCceeEEecccC
+Confidence                      234899999999999999999998  6699999999994  45888999999999999999999999999
+
+
+Q ss_pred             ---h------hchheeecccc-ccceEEEEEEecccCCCCCCCCCcEEEEEe---c-eEEE--eceEEEEEEec-cChhH
+Q sp|Q96G97|BSCL  163 ---V------FSSLLLFGFAE-QKQLLEVELYADYRENSYVPTTGAIIEIHS---K-RIQL--YGAYLRIHAHF-TGLRY  225 (398)
+Q Consensus       163 ---v------fsslllfgfae-qkqllevelyadyrensyvpttgaiieihs---k-riql--ygaylrihahf-tglry  225 (398)
+                         +      +.|+++.|+.+ +.+.++++.+..  .+  .+.+.+.|+|++   + +++|  |++ ++|+|+| +||||
+T Consensus       164 ~~~~~~~~n~~~P~~l~~~~~e~~~~i~l~~~~~--~~--~~~~~~~v~i~~~~~~~~l~id~ys~-l~~~a~f~~GlRy  238 (285)
+T 7RSL_D          164 DSMSPQEIEQLGPSRLDVYDEEWLNTIRIEDKIS--LE--SSYETISVFLKTEIAQRNLIIHPESG-IKFRMNFEQGLRN  238 (285)
+T ss_dssp             CCCCHHHHHHSCSSHHHHHHHHHCEEEEEEEEEE--EC--SSSCCEEEEEEESSSCCEEEECTTCE-EEEEECCCHHHHH
+T ss_pred             cCCCchhhhhccchhhhccccchhceEEEeccee--cC--CCCCEEEEEEEeccCCCcEEEccCCe-EEEEEEeCCchHH
+Confidence               6      99999999998 789999998522  22  456688999998   4 6666  999 9999999 99999
+
+
+Q ss_pred             HHhcchhHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96G97|BSCL  226 LLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVW  259 (398)
+Q Consensus       226 llynfpmtcafigvasnftflsvivlfsymqwvw  259 (398)
+                      +|||||++|+++|+++||++++++++++|+..++
+T Consensus       239 ~M~~~~~~s~ivG~~~f~~~~~~~~~ls~~~~~~  272 (285)
+T 7RSL_D          239 LMLRKRFLSYIIGISIFHCIICVLFFITGCTAFI  272 (285)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC--------
+T ss_pred             HHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999999999987765
+
+
+No 4
+>7RSL_F lipid droplets, lipid droplet formation; 3.45A {Saccharomyces cerevisiae}
+Probab=100.00  E-value=2.3e-35  Score=264.01  Aligned_cols=233  Identities=14%  Similarity=0.169  Sum_probs=179.8  Template_Neff=6.700
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhccCCCcc-cccCeEEEEEcCCCCCCccccccceeeeeeccCCc-
+Q sp|Q96G97|BSCL   19 VLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVS-HLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGR-   96 (398)
+Q Consensus        19 vlagrarrlllqfgvlfctillllwvsvflygsfyysymptvs-hlspvhfyyrtdcdssttslcsfpvanvsltkggr-   96 (398)
+                      .=+.++|+++|+++++++.++++||+|+++|+.||+.|||+.+ +..|++| +.. |+.+..+ |+||.+.++++++.. 
+T Consensus         7 ~PL~~~r~~~Y~~~~~~v~~~vllplSi~lY~~FY~~lIP~~ss~~~Pl~~-~~~-~~~~~~~-~~f~~~~~~l~~~~~l   83 (285)
+T 7RSL_F            7 RPLQFLQWSSYIVVAFLIQLLIILPLSILIYHDFYLRLLPADSSNVVPLNT-FNI-LNGVQFG-TKFFQSIKSIPVGTDL   83 (285)
+T ss_dssp             ----------CHHHHHHHHHHHHHHHHHHHHHHHHHHHSCSSSEEEEEGGG-SEE-ECCSSSC-EEEEECEEECCTTSCC
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCCCCCcceeecce-eec-cCCCCCC-ccccceeeeCCCCCCC
+Confidence            3467789999999999999999999999999999999999998 9999999 665 5443455 999998888876322 
+
+
+Q ss_pred             ----------cceeeCCCcEEEEEEEECCCCCCC--CCCceEEEEEEEE--ecCCeEEEeccceEEEEecchhHhhhhhh
+Q sp|Q96G97|BSCL   97 ----------DRVLMYGQPYRVTLELELPESPVN--QDLGMFLVTISCY--TRGGRIISTSSRSVMLHYRSDLLQMLDTL  162 (398)
+Q Consensus        97 ----------drvlmygqpyrvtlelelpespvn--qdlgmflvtiscy--trggriistssrsvmlhyrsdllqmldtl  162 (398)
+                                +..|+.||+|++.|+|++||++.|  .++|||||++++.  +.+|.....++|+.+|+|||.+++|+.+.
+T Consensus        84 p~~~~ng~~q~~~L~~~~~Y~v~L~L~~~c~~~n~~~~l~~~~v~~~~~~~~~~~~~~~~~~~~~~l~~~s~ll~c~~t~  163 (285)
+T 7RSL_F           84 PQTIDNGLSQLIPMRDNMEYKLDLNLQLYCQSKTDHLNLDNLLIDVYRGPGPLLGAPGGSNSKDEKIFHTSRPIVCLALT  163 (285)
+T ss_dssp             CCCCSSCSCCCEEECSSSCEEEEEEEEEEEECSSCCCSCEEEEEEEEECC-------------CEEEEEEEEEECCBCTT
+T ss_pred             CccccCCCccccccCCCCcEEEEEEEEeeecCCCCCccceeEEEEEEeCCCCCCCCCCCCCCCCceeeeCceeEEecccC
+Confidence                      234899999999999999999998  6699999999994  45888999999999999999999999999
+
+
+Q ss_pred             ---h------hchheeecccc-ccceEEEEEEecccCCCCCCCCCcEEEEEe---c-eEEE--eceEEEEEEec-cChhH
+Q sp|Q96G97|BSCL  163 ---V------FSSLLLFGFAE-QKQLLEVELYADYRENSYVPTTGAIIEIHS---K-RIQL--YGAYLRIHAHF-TGLRY  225 (398)
+Q Consensus       163 ---v------fsslllfgfae-qkqllevelyadyrensyvpttgaiieihs---k-riql--ygaylrihahf-tglry  225 (398)
+                         +      +.|+++.|+.+ +.+.++++.+..  .+  .+.+.+.|+|++   + +++|  |++ ++|+|+| +||||
+T Consensus       164 ~~~~~~~~n~~~P~~l~~~~~e~~~~i~l~~~~~--~~--~~~~~~~v~i~~~~~~~~l~id~ys~-l~~~a~f~~GlRy  238 (285)
+T 7RSL_F          164 DSMSPQEIEQLGPSRLDVYDEEWLNTIRIEDKIS--LE--SSYETISVFLKTEIAQRNLIIHPESG-IKFRMNFEQGLRN  238 (285)
+T ss_dssp             CCCCHHHHHHSCSSHHHHHHHHHCEEEEEEEEEE--EC--SSSCCEEEEEEESSSCCEEEECTTCE-EEEEECCCHHHHH
+T ss_pred             cCCCchhhhhccchhhhccccchhceEEEeccee--cC--CCCCEEEEEEEeccCCCcEEEccCCe-EEEEEEeCCchHH
+Confidence               6      99999999998 789999998522  22  456688999998   4 6666  999 9999999 99999
+
+
+Q ss_pred             HHhcchhHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96G97|BSCL  226 LLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVW  259 (398)
+Q Consensus       226 llynfpmtcafigvasnftflsvivlfsymqwvw  259 (398)
+                      +|||||++|+++|+++||++++++++++|+..++
+T Consensus       239 ~M~~~~~~s~ivG~~~f~~~~~~~~~ls~~~~~~  272 (285)
+T 7RSL_F          239 LMLRKRFLSYIIGISIFHCIICVLFFITGCTAFI  272 (285)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC--------
+T ss_pred             HHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999999999987765
+
+
+No 5
+>7OXP_J Lipid droplet formation, lipid binding;{Saccharomyces cerevisiae}
+Probab=100.00  E-value=1.2e-31  Score=245.99  Aligned_cols=233  Identities=14%  Similarity=0.175  Sum_probs=168.5  Template_Neff=6.200
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhccCCCcc-cccCeEEEEEcCCCCCCccccccceeeeeeccCCc-
+Q sp|Q96G97|BSCL   19 VLAGRARRLLLQFGVLFCTILLLLWVSVFLYGSFYYSYMPTVS-HLSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGR-   96 (398)
+Q Consensus        19 vlagrarrlllqfgvlfctillllwvsvflygsfyysymptvs-hlspvhfyyrtdcdssttslcsfpvanvsltkggr-   96 (398)
+                      .-+.++|+++|.++++++.++++||+|+++|..||+.|||+.+ +..|++| +.. |..+..+ |+||.+.+++..+.. 
+T Consensus         7 ~PL~~~r~~lY~~~~l~v~~~vLLPlSv~lY~~FY~~LIP~~Ss~~vPl~f-~~~-~~~~~~~-~~f~~~i~~i~~~~~l   83 (322)
+T 7OXP_J            7 RPLQFLQWSSYIVVAFLIQLLIILPLSILIYHDFYLRLLPADSSNVVPLNT-FNI-LNGVQFG-TKFFQSIKSIPVGTDL   83 (322)
+T ss_dssp             -----------------CCSTTTHHHHHHHHHHHHHHHSCGGGEEEEEGGG-SEE-EECSSSC-EEEEEEEEEECSSSCC
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCcceeeccc-ccc-cCCCcCC-cccceeeeecCCCCCC
+Confidence            3467789999999999999999999999999999999999998 9999999 444 4332445 999998888775321 
+
+
+Q ss_pred             ----------cceeeCCCcEEEEEEEECCCCCCC--CCCceEEEEEEE--EecCCeEEEeccceEEEEecchhHhhhhhh
+Q sp|Q96G97|BSCL   97 ----------DRVLMYGQPYRVTLELELPESPVN--QDLGMFLVTISC--YTRGGRIISTSSRSVMLHYRSDLLQMLDTL  162 (398)
+Q Consensus        97 ----------drvlmygqpyrvtlelelpespvn--qdlgmflvtisc--ytrggriistssrsvmlhyrsdllqmldtl  162 (398)
+                                ...|+.+|+|++.|+|++||++.|  .++|||||++++  ++.+|...+.++|+.+|+|+|.+++|+.+.
+T Consensus        84 p~l~~nGl~q~~~L~~~~~Y~v~L~L~~~Cs~~n~~~~l~~~mv~i~~~~~~~~~~~~~~s~~~~~l~~~S~lL~C~~t~  163 (322)
+T 7OXP_J           84 PQTIDNGLSQLIPMRDNMEYKLDLNLQLYCQSKTDHLNLDNLLIDVYRGPGPLLGAPGGSNSKDEKIFHTSRPIVCLALT  163 (322)
+T ss_dssp             CCCCCSSSCCCEEEETTCEEEEEEEEEEEEEESSTTCSEEEEEEEEEEC------------CCCEEEEEEEEEEEEECTT
+T ss_pred             CccccCCCcccccCCCCCceEEEEEEEEeecCCCCCcccceEEEEEEeCCCCCCCCCCCCCCCCceeeeCcceEEecccC
+Confidence                      225899999999999999999998  679999999998  688899999999999999999999999999
+
+
+Q ss_pred             ---h------hchheeeccccc-cceEEEEEEecccCCCCCCCCCcEEEEEe---c-eEEE--eceEEEEEEec-cChhH
+Q sp|Q96G97|BSCL  163 ---V------FSSLLLFGFAEQ-KQLLEVELYADYRENSYVPTTGAIIEIHS---K-RIQL--YGAYLRIHAHF-TGLRY  225 (398)
+Q Consensus       163 ---v------fsslllfgfaeq-kqllevelyadyrensyvpttgaiieihs---k-riql--ygaylrihahf-tglry  225 (398)
+                         +      ++|+++.|+.++ .+.++++...+  ..  .+...+.|+|++   + +++|  |++ ++|+|+| +||||
+T Consensus       164 d~~i~~~~n~~~P~~L~~~~~e~ln~~~led~~~--i~--~~~~~~~v~l~~~~~~~~l~id~~~~-l~~~a~f~~GlRy  238 (322)
+T 7OXP_J          164 DSMSPQEIEQLGPSRLDVYDEEWLNTIRIEDKIS--LE--SSYETISVFLKTEIAQRNLIIHPESG-IKFRMNFEQGLRN  238 (322)
+T ss_dssp             CCCCHHHHHHSCSSHHHHHHHHTCEEEEEEEEEE--EE--TTCCEEEEEEEESSSCEEEEECTTCE-EEEEECCTTSHHH
+T ss_pred             cCCCchHHHhcccchhcceeeeEEEEEEEcCccc--cC--CCCcEEEEEEEecccCCcEEEccCCe-EEEEEEecCchHH
+Confidence               5      899999998664 45555544212  12  356688999998   5 5666  999 9999999 99999
+
+
+Q ss_pred             HHhcchhHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96G97|BSCL  226 LLYNFPMTCAFIGVASNFTFLSVIVLFSYMQWVW  259 (398)
+Q Consensus       226 llynfpmtcafigvasnftflsvivlfsymqwvw  259 (398)
+                      +||||+++|+++|+++||++++++++++|+..++
+T Consensus       239 ~M~~~~~~s~~vg~~~f~~~~s~~~~~~~~~~~~  272 (322)
+T 7OXP_J          239 LMLRKRFLSYIIGISIFHCIICVLFFITGCTAFI  272 (322)
+T ss_dssp             HHHHTHHHHHHHHHHHTHHHHHHHHHC-------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999999999987765
+
+
+No 6
+>6YFQ_AX virus, virus-like particle, structural protein; 3.8A {Leviviridae sp.}
+Probab=29.62  E-value=1.5e+02  Score=26.02  Aligned_cols=18  Identities=17%  Similarity=0.167  Sum_probs=14.8  Template_Neff=6.600
+
+Q ss_pred             CCcEEEEEEEECCCCCCC
+Q sp|Q96G97|BSCL  103 GQPYRVTLELELPESPVN  120 (398)
+Q Consensus       103 gqpyrvtlelelpespvn  120 (398)
+                      +..|++++.|.+|.-...
+T Consensus        57 ~~~~kv~~kl~~Pv~~t~   74 (135)
+T 6YFQ_AX          57 NGTSKVTIRIADPVLASV   74 (135)
+T ss_pred             CCeEEEEEEEEecEEEeC
+Confidence            788999999999986543
+
+
+No 7
+>6YFQ_CA virus, virus-like particle, structural protein; 3.8A {Leviviridae sp.}
+Probab=29.62  E-value=1.5e+02  Score=26.02  Aligned_cols=18  Identities=17%  Similarity=0.167  Sum_probs=14.8  Template_Neff=6.600
+
+Q ss_pred             CCcEEEEEEEECCCCCCC
+Q sp|Q96G97|BSCL  103 GQPYRVTLELELPESPVN  120 (398)
+Q Consensus       103 gqpyrvtlelelpespvn  120 (398)
+                      +..|++++.|.+|.-...
+T Consensus        57 ~~~~kv~~kl~~Pv~~t~   74 (135)
+T 6YFQ_CA          57 NGTSKVTIRIADPVLASV   74 (135)
+T ss_pred             CCeEEEEEEEEecEEEeC
+Confidence            788999999999986543
+
+
+No 8
+>2VF9_B COAT PROTEIN; VIRION, RNA-BINDING, CAPSID PROTEIN, STRUCTURAL; 3.5A {BACTERIOPHAGE PRR1}
+Probab=28.42  E-value=2.4e+02  Score=24.81  Aligned_cols=16  Identities=31%  Similarity=0.503  Sum_probs=12.1  Template_Neff=6.600
+
+Q ss_pred             CCcEEEEEEEECCCCC
+Q sp|Q96G97|BSCL  103 GQPYRVTLELELPESP  118 (398)
+Q Consensus       103 gqpyrvtlelelpesp  118 (398)
+                      +..|++++.|.+|.-.
+T Consensus        54 ~~~~kv~~kl~~Pv~~   69 (131)
+T 2VF9_B           54 NGRYKSTLKLVVPVVQ   69 (131)
+T ss_dssp             TSEEEEEEEEEEEEEE
+T ss_pred             CCeEEEEEEEEeeEEE
+Confidence            6778888888887654
+
+
+No 9
+>7B04_I Metalloprotein, Oxidoreductase, Anammox; HET: HEM, SF4, MD1, F3S, CA; 2.97A {Kuenenia stuttgartiensis}
+Probab=26.67  E-value=1.5e+02  Score=28.24  Aligned_cols=24  Identities=25%  Similarity=0.120  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96G97|BSCL   23 RARRLLLQFGVLFCTILLLLWVSV   46 (398)
+Q Consensus        23 rarrlllqfgvlfctillllwvsv   46 (398)
+                      +.+|+|...++++++++++++++|
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~c   26 (322)
+T 7B04_I            3 KFYRLLGSSSVALLGCLFLSVALC   26 (322)
+T ss_dssp             ------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            345666666666665555555554
+
+
+No 10
+>6LNW_C Accessory Sec system protein Asp1; Complex, TRANSPORT PROTEIN; 2.9A {Streptococcus pneumoniae TIGR4}
+Probab=23.85  E-value=7.1e+02  Score=22.82  Aligned_cols=38  Identities=26%  Similarity=0.469  Sum_probs=32.2  Template_Neff=6.300
+
+Q ss_pred             ceeeCCCcEEEEEEEEC-CCCCCCCCCceEEEEEEEEecCCeEEEe
+Q sp|Q96G97|BSCL   98 RVLMYGQPYRVTLELEL-PESPVNQDLGMFLVTISCYTRGGRIIST  142 (398)
+Q Consensus        98 rvlmygqpyrvtlelel-pespvnqdlgmflvtiscytrggriist  142 (398)
+                      ..|.+|+.|.+.+.++. |+.       .+.++++.+|..|+.|..
+T Consensus        64 PlL~~G~~Y~l~~~~~~~P~~-------sv~l~I~FyD~~~e~I~~  102 (154)
+T 6LNW_C           64 PLLKRKQEYQLSLVFDCQPEN-------GVYTKITFFDRYGDILEK  102 (154)
+T ss_dssp             CCCCTTCEEEEEEEEEESSTT-------SEEEEEEEECTTSCEEEE
+T ss_pred             ceecCCCEEEEEEEEEEecCC-------eEEEEEEEEcCCCCEEEE
+Confidence            46899999999999998 543       478999999999988754
+
+
+No 11
+>5VAE_F Accessory Sec system protein Asp1; O-glycosylation  bacterial adhesin ; HET: MSE; 3.106A {Streptococcus gordonii}
+Probab=22.71  E-value=7e+02  Score=23.23  Aligned_cols=38  Identities=21%  Similarity=0.422  Sum_probs=32.0  Template_Neff=5.900
+
+Q ss_pred             ceeeCCCcEEEEEEEEC-CCCCCCCCCceEEEEEEEEecCCeEEEe
+Q sp|Q96G97|BSCL   98 RVLMYGQPYRVTLELEL-PESPVNQDLGMFLVTISCYTRGGRIIST  142 (398)
+Q Consensus        98 rvlmygqpyrvtlelel-pespvnqdlgmflvtiscytrggriist  142 (398)
+                      ..|.+|+.|.+.++++. |+.       .+.+++..+|..|+.+..
+T Consensus        74 PLL~~G~~Y~l~~~~~~~P~~-------svyl~I~FfD~~~e~I~~  112 (159)
+T 5VAE_F           74 PLLKRGRSYSLTRDMTSYPSE-------SVFLKLIFFDRYNREVSN  112 (159)
+T ss_dssp             CCCCTTCEEEEEEEEEETTSS-------CEEEEEEEECTTSCEEEE
+T ss_pred             CeecCCCEEEEEEEEEEcCCC-------eEEEEEEEECCCCCEEEE
+Confidence            46899999999999997 443       478999999999988865
+
+
+No 12
+>1UNA_A GA UNASSEMBLED COAT PROTEIN DIMER; UNASSEMBLED VIRUS COAT PROTEIN DIMER; 2.8A {Enterobacteria phage GA} SCOP: d.85.1.1
+Probab=22.65  E-value=4.1e+02  Score=23.32  Aligned_cols=16  Identities=25%  Similarity=0.453  Sum_probs=13.5  Template_Neff=6.700
+
+Q ss_pred             CCcEEEEEEEECCCCC
+Q sp|Q96G97|BSCL  103 GQPYRVTLELELPESP  118 (398)
+Q Consensus       103 gqpyrvtlelelpesp  118 (398)
+                      +..|++++.|.+|.-.
+T Consensus        52 ~g~~kv~~kl~~Pv~~   67 (129)
+T 1UNA_A           52 ADKRKYTIKLEVPKIV   67 (129)
+T ss_dssp             TTEEEEEEEEEEECCC
+T ss_pred             CCeEEEEEEEEecEEE
+Confidence            4489999999999875
+
+
+No 13
+>2E56_A Lymphocyte antigen 96; INNATE IMMUNITY, LIPID-BINDING, LIPID BINDING; HET: MYR, NAG; 2.0A {Homo sapiens}
+Probab=22.36  E-value=4.1e+02  Score=22.10  Aligned_cols=56  Identities=13%  Similarity=0.125  Sum_probs=33.7  Template_Neff=8.700
+
+Q ss_pred             ccCeEEEEEcCCCCCCccccccceeeeeeccCCccceeeCCCcEEEEEEEECCCCCCCCCCceEEEEEEE
+Q sp|Q96G97|BSCL   63 LSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISC  132 (398)
+Q Consensus        63 lspvhfyyrtdcdssttslcsfpvanvsltkggrdrvlmygqpyrvtlelelpespvnqdlgmflvtisc  132 (398)
+                      +....+.|.. |.+...   .+   .+.+..    -.+..|+.+.+.+.+...+.-   .-|.+.+.+..
+T Consensus        11 ~~~~~~~~~~-Cg~~~~---~~---~v~v~P----c~~~~G~~~~i~i~f~~~~di---~~~~~~v~~~~   66 (144)
+T 2E56_A           11 SSDASISYTY-CDKMQY---PI---SINVNP----CIELKGSKGLLHIFYIPRRDL---KQLYFNLYITV   66 (144)
+T ss_dssp             CSSEEEEEEE-CSSCCS---CC---EEEEES----CCCTTCEEEEEEEEECCSSCC---TTCEEEEEEEE
+T ss_pred             CCCcEEEEEe-cCCCCC---ce---EEEEEc----ccccCCceEEEEEEEecCccc---cEEEEEEEEEE
+Confidence            3556677766 854111   11   333433    257789999999999887653   33555555554
+
+
+No 14
+>4G8A_C Toll-like receptor 4, Lymphocyte antigen; Leucine rich repeat MD-2 related; HET: DAO, LP4, NAG, MYR, LP5, KDO; 2.4A {Homo sapiens}
+Probab=22.36  E-value=4.1e+02  Score=22.10  Aligned_cols=56  Identities=14%  Similarity=0.180  Sum_probs=33.3  Template_Neff=8.700
+
+Q ss_pred             ccCeEEEEEcCCCCCCccccccceeeeeeccCCccceeeCCCcEEEEEEEECCCCCCCCCCceEEEEEEE
+Q sp|Q96G97|BSCL   63 LSPVHFYYRTDCDSSTTSLCSFPVANVSLTKGGRDRVLMYGQPYRVTLELELPESPVNQDLGMFLVTISC  132 (398)
+Q Consensus        63 lspvhfyyrtdcdssttslcsfpvanvsltkggrdrvlmygqpyrvtlelelpespvnqdlgmflvtisc  132 (398)
+                      +....+.|.. |.+...     +. .+.+..    -.+..|+.+.+.+.+...+.-   .-|.+.+.+..
+T Consensus        11 ~~~~~~~~~~-Cg~~~~-----~~-~v~v~P----c~~~~G~~~~i~i~f~~~~di---~~~~~~v~~~~   66 (144)
+T 4G8A_C           11 SSDASISYTY-CDKMQY-----PI-SINVNP----CIELKGSKGLLHIFYIPRRDL---KQLYFNLYITV   66 (144)
+T ss_dssp             CSSEEEEEEE-CSSSCC-----CE-EEEEES----CCCTTEEEEEEEEEECCSSCC---TTCEEEEEEEE
+T ss_pred             CCCcEEEEEe-cCCCCC-----ce-EEEEEc----ccccCCceEEEEEEEecCccc---cEEEEEEEEEE
+Confidence            3556677766 754111     11 334433    257789999999999887653   33555555554
+
+
+No 15
+>1GAV_H BACTERIOPHAGE GA PROTEIN CAPSID; BACTERIOPHAGE, CAPSID, COAT PROTEIN, Icosahedral; 3.4A {Enterobacteria phage GA} SCOP: d.85.1.1
+Probab=20.22  E-value=4.8e+02  Score=22.89  Aligned_cols=16  Identities=25%  Similarity=0.453  Sum_probs=11.9  Template_Neff=6.700
+
+Q ss_pred             CCcEEEEEEEECCCCC
+Q sp|Q96G97|BSCL  103 GQPYRVTLELELPESP  118 (398)
+Q Consensus       103 gqpyrvtlelelpesp  118 (398)
+                      +..|++++.|.+|.-.
+T Consensus        52 ~~~~kv~~kl~~Pv~~   67 (129)
+T 1GAV_H           52 ADKRKYTIKLEVPKIV   67 (129)
+T ss_dssp             TTEEEEEEEEEEEEEE
+T ss_pred             CCeEEEEEEEEecEEE
+Confidence            3478888888888754
+
+

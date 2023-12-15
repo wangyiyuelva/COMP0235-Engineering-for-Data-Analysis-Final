@@ -1,0 +1,170 @@
+Query         tr|A0A590UJD1|A0A590UJD1_HUMAN
+Match_columns 75
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:51:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0910.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6L8H_D Carotene epsilon-monoox  39.3      53 0.00058   20.9   1.9   23   47-69      3-25  (471)
+  2 7AJQ_E TonB transport, MEMBRAN  29.6      60 0.00066   23.2   1.1   17   56-72    174-190 (281)
+  3 5SV0_A Biopolymer transport pr  22.1   1E+02  0.0011   20.9   1.1   17   56-72    137-153 (244)
+  4 5SV0_E Biopolymer transport pr  22.1   1E+02  0.0011   20.9   1.1   17   56-72    137-153 (244)
+  5 3K9V_B MITOCHONDRIAL CYTOCHROM  18.3 2.6E+02  0.0028   18.4   2.2   19   47-65     24-42  (482)
+  6 5NCM_A CBK1 kinase activator p  17.1 4.3E+02  0.0047   19.1   3.3   35   41-75    149-183 (245)
+  7 6J82_A Cytochrome P-450; P450,  15.8 2.8E+02  0.0031   18.4   2.0   19   44-62     19-37  (418)
+  8 6J83_A Cytochrome P-450; P450,  15.8 2.8E+02  0.0031   18.4   2.0   19   44-62     19-37  (418)
+  9 1IRZ_A Helix-turn-Helix, DNA B  15.3 2.3E+02  0.0025   11.9   2.9   18   51-68      4-21  (64)
+ 10 4FWV_A TTC1975 peptidase (E.C.  15.2      34 0.00037   25.4  -2.5   12   27-38     40-51  (355)
+
+No 1
+>6L8H_D Carotene epsilon-monooxygenase, chloroplastic (E.C.1.14.99.45); lutein biosynthesis, photosynthesis, monooxygenase, carotenoid; HET: GOL, SOG, HEM; 2.0A {Arabidopsis thaliana}
+Probab=39.32  E-value=53  Score=20.90  Aligned_cols=23  Identities=13%  Similarity=0.205  Sum_probs=14.5  Template_Neff=13.200
+
+Q ss_pred             CCCCCCCCCCCchHHHHHHhhhh
+Q tr|A0A590UJD1|   47 RSVPSRKGVPWVGPFLALFGSAI   69 (75)
+Q Consensus        47 rsvpsrkgvpwvgpflalfgsai   69 (75)
+                      ++.+...|.|.++|++..++..+
+T Consensus         3 ~~~~~~~~~P~~~~~lg~~~~~~   25 (471)
+T 6L8H_D            3 SGKNDESGIPIANAKLDDVADLL   25 (471)
+T ss_dssp             ---CCSSCCCBCCCCHHHHHHHH
+T ss_pred             CCccCCCCCCccccchhcHHHHh
+Confidence            45677788898888776655543
+
+
+No 2
+>7AJQ_E TonB transport, MEMBRANE PROTEIN, IRON;{Serratia marcescens}
+Probab=29.64  E-value=60  Score=23.18  Aligned_cols=17  Identities=35%  Similarity=0.786  Sum_probs=13.6  Template_Neff=8.800
+
+Q ss_pred             CCchHHHHHHhhhhhhh
+Q tr|A0A590UJD1|   56 PWVGPFLALFGSAIGQL   72 (75)
+Q Consensus        56 pwvgpflalfgsaigql   72 (75)
+                      -++.|+|.|+|..+|..
+T Consensus       174 ~~~aPllGLLGTV~Gmi  190 (281)
+T 7AJQ_E          174 GAISPFVGLFGTVWGIM  190 (281)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            46789999999988853
+
+
+No 3
+>5SV0_A Biopolymer transport protein ExbB; ExbB, membrane proteins, pore, channel; HET: EPE, MLY; 2.6A {Escherichia coli DH1}
+Probab=22.09  E-value=1e+02  Score=20.87  Aligned_cols=17  Identities=35%  Similarity=0.786  Sum_probs=13.3  Template_Neff=9.600
+
+Q ss_pred             CCchHHHHHHhhhhhhh
+Q tr|A0A590UJD1|   56 PWVGPFLALFGSAIGQL   72 (75)
+Q Consensus        56 pwvgpflalfgsaigql   72 (75)
+                      -++.|++.|+|..+|..
+T Consensus       137 ~~~ap~lGllGTv~G~~  153 (244)
+T 5SV0_A          137 GAISPFVGLFGTVWGIM  153 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            35679999999988754
+
+
+No 4
+>5SV0_E Biopolymer transport protein ExbB; ExbB, membrane proteins, pore, channel; HET: EPE, MLY; 2.6A {Escherichia coli DH1}
+Probab=22.09  E-value=1e+02  Score=20.87  Aligned_cols=17  Identities=35%  Similarity=0.786  Sum_probs=13.3  Template_Neff=9.600
+
+Q ss_pred             CCchHHHHHHhhhhhhh
+Q tr|A0A590UJD1|   56 PWVGPFLALFGSAIGQL   72 (75)
+Q Consensus        56 pwvgpflalfgsaigql   72 (75)
+                      -++.|++.|+|..+|..
+T Consensus       137 ~~~ap~lGllGTv~G~~  153 (244)
+T 5SV0_E          137 GAISPFVGLFGTVWGIM  153 (244)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            35679999999988854
+
+
+No 5
+>3K9V_B MITOCHONDRIAL CYTOCHROME P450, MONOTOPIC MEMBRANE; HET: CPS, HEM; 2.5A {Rattus norvegicus}
+Probab=18.33  E-value=2.6e+02  Score=18.39  Aligned_cols=19  Identities=26%  Similarity=0.677  Sum_probs=14.6  Template_Neff=12.800
+
+Q ss_pred             CCCCCCCCCCCchHHHHHH
+Q tr|A0A590UJD1|   47 RSVPSRKGVPWVGPFLALF   65 (75)
+Q Consensus        47 rsvpsrkgvpwvgpflalf   65 (75)
+                      +..|..++.|++|.++.++
+T Consensus        24 ~~~Pgp~~~p~iG~~~~~~   42 (482)
+T 3K9V_B           24 TDLPGPTNWPLLGSLLEIF   42 (482)
+T ss_dssp             GGCCCSCCBTTTBTHHHHH
+T ss_pred             CCCCCCCCCcchHHHHHHH
+Confidence            4456778899999988773
+
+
+No 6
+>5NCM_A CBK1 kinase activator protein MOB2; SIGNALING protein, kinase; 2.8A {Saccharomyces cerevisiae}
+Probab=17.07  E-value=4.3e+02  Score=19.08  Aligned_cols=35  Identities=20%  Similarity=0.348  Sum_probs=26.9  Template_Neff=8.200
+
+Q ss_pred             hhcCCCCCCCCCCCCCCchHHHHHHhhhhhhhhCC
+Q tr|A0A590UJD1|   41 RVFSVPRSVPSRKGVPWVGPFLALFGSAIGQLIRI   75 (75)
+Q Consensus        41 rvfsvprsvpsrkgvpwvgpflalfgsaigqliri   75 (75)
+                      ..+.-+.--|.+.|.+.-.-|...+.....+|.||
+T Consensus       149 ~~l~d~~~FP~~~g~~fp~~f~~~~~~I~rrlfri  183 (245)
+T 5NCM_A          149 NKVNDKNLFPTKNGLPFPQQFSRDVQRIMVQMFRI  183 (245)
+T ss_dssp             HHHTCTTTSCCSSSCCCCTTHHHHHHHHHHHHHHH
+T ss_pred             HHcCCcccCCCcCCCCCChhHHHHHHHHHHHHHHH
+Confidence            44556677788889988888888888887777764
+
+
+No 7
+>6J82_A Cytochrome P-450; P450, indolactam, oxidation, OXIDOREDUCTASE; HET: HEM; 2.202A {Streptomyces blastmyceticus}
+Probab=15.81  E-value=2.8e+02  Score=18.38  Aligned_cols=19  Identities=11%  Similarity=0.055  Sum_probs=8.1  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCCCCCchHHH
+Q tr|A0A590UJD1|   44 SVPRSVPSRKGVPWVGPFL   62 (75)
+Q Consensus        44 svprsvpsrkgvpwvgpfl   62 (75)
+                      +.++..|...+.|++|.|+
+T Consensus        19 ~~~~~pp~p~~~P~~g~~~   37 (418)
+T 6J82_A           19 SHMKDERAPLSYPFNEAVA   37 (418)
+T ss_dssp             --------CEESSSSCCBT
+T ss_pred             CCCCCCCCCCcCCCChhhh
+Confidence            4455666667778888764
+
+
+No 8
+>6J83_A Cytochrome P-450; P450, indolactam, oxidation, NMVT, OXIDOREDUCTASE; HET: B9R, HEM; 1.9A {Streptomyces blastmyceticus}
+Probab=15.81  E-value=2.8e+02  Score=18.38  Aligned_cols=19  Identities=11%  Similarity=0.055  Sum_probs=8.2  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCCCCCchHHH
+Q tr|A0A590UJD1|   44 SVPRSVPSRKGVPWVGPFL   62 (75)
+Q Consensus        44 svprsvpsrkgvpwvgpfl   62 (75)
+                      +.++..|...+.|++|.|+
+T Consensus        19 ~~~~~pp~p~~~P~~g~~~   37 (418)
+T 6J83_A           19 SHMKDERAPLSYPFNEAVA   37 (418)
+T ss_dssp             --------CEESSSSCCBT
+T ss_pred             CCCCCCCCCCcCCCChhhh
+Confidence            4455666677778888764
+
+
+No 9
+>1IRZ_A Helix-turn-Helix, DNA BINDING PROTEIN; NMR {Arabidopsis thaliana} SCOP: a.4.1.11
+Probab=15.25  E-value=2.3e+02  Score=11.88  Aligned_cols=18  Identities=22%  Similarity=0.342  Sum_probs=9.9  Template_Neff=13.400
+
+Q ss_pred             CCCCCCCchHHHHHHhhh
+Q tr|A0A590UJD1|   51 SRKGVPWVGPFLALFGSA   68 (75)
+Q Consensus        51 srkgvpwvgpflalfgsa   68 (75)
+                      .+...+|..+.-..|..+
+T Consensus         4 ~~~~~~w~~~~~~~~~~~   21 (64)
+T 1IRZ_A            4 KKPRVLWTHELHNKFLAA   21 (64)
+T ss_dssp             CCSSCSSCHHHHHHHHHH
+T ss_pred             CCCCcccCHHHHHHHHHH
+Confidence            455667776544444443
+
+
+No 10
+>4FWV_A TTC1975 peptidase (E.C.3.4.21.53); Lon protease, HYDROLASE; HET: SO4, MSE; 2.4A {Meiothermus taiwanensis}
+Probab=15.20  E-value=34  Score=25.42  Aligned_cols=12  Identities=25%  Similarity=0.291  Sum_probs=9.2  Template_Neff=8.600
+
+Q ss_pred             CCCCCCcchhcc
+Q tr|A0A590UJD1|   27 TAAPDDWCKVST   38 (75)
+Q Consensus        27 taapddwckvst   38 (75)
+                      ...|.|||-|.-
+T Consensus        40 ~~~p~D~~yv~n   51 (355)
+T 4FWV_A           40 VETPPDLLYVPL   51 (355)
+T ss_dssp             CSCCCEEEEEES
+T ss_pred             CCCCCceEEeec
+Confidence            345799999876
+
+

@@ -1,0 +1,168 @@
+Query         tr|A0A2R8YDM8|A0A2R8YDM8_HUMAN
+Match_columns 128
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:10:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1147.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1V6T_A Hypothetical UPF0271 pr  18.0 2.3E+02  0.0025   23.4   2.5   26   30-56     62-87  (255)
+  2 2DFA_A Hypothetical UPF0271 pr  17.8 2.2E+02  0.0024   23.4   2.3   28   30-58     62-89  (250)
+  3 1XW8_A UPF0271 protein ybgL; N  17.7 2.3E+02  0.0025   23.4   2.4   25   30-55     57-81  (252)
+  4 6TT7_H ATP synthase F(0) compl  17.6      13 0.00014   27.8  -4.2   45   32-76      5-51  (168)
+  5 2W6I_H ATP SYNTHASE SUBUNIT AL  17.1      22 0.00023   26.5  -3.1   41   31-71      4-46  (168)
+  6 2W6J_H ATP SYNTHASE SUBUNIT AL  17.1      22 0.00023   26.5  -3.1   41   31-71      4-46  (168)
+  7 2XU2_A UPF0271 PROTEIN PA4511;  16.1 2.6E+02  0.0029   23.2   2.4   28   30-58     68-95  (252)
+  8 7OKX_D Pol II, Super elongatio  15.7 3.3E+02  0.0035   21.5   2.7   12   22-33      1-12  (184)
+  9 7OL0_D Pol II, Super elongatio  15.7 3.3E+02  0.0035   21.5   2.7   27   22-48      1-27  (184)
+ 10 7AX3_K DYNAMIN, CYTOSOLIC PROT  12.7 8.2E+02  0.0089   22.7   4.6   36   13-48    796-836 (864)
+
+No 1
+>1V6T_A Hypothetical UPF0271 protein PH0986; TIM-BARREL, Lactam Utilization Protein, STRUCTURAL; 1.7A {Pyrococcus horikoshii} SCOP: c.6.2.5
+Probab=18.00  E-value=2.3e+02  Score=23.36  Aligned_cols=26  Identities=35%  Similarity=0.604  Sum_probs=18.9  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCChhhhh
+Q tr|A0A2R8YDM8|   30 SPGFPARPGRGRPYMASRPPGDLAEAG   56 (128)
+Q Consensus        30 spgfparpgrgrpymasrppgdlaeag   56 (128)
+                      .||||.+.+-||..|. -++.+|.+.-
+T Consensus        62 HPsypD~~~FGRr~~~-~~~~~l~~~~   87 (255)
+T 1V6T_A           62 HPGYPDLMGFGRRYMK-LTPEEARNYI   87 (255)
+T ss_dssp             ECCCSCTTTTTCSCCC-CCHHHHHHHH
+T ss_pred             cCCCcCcCCCCCccCC-CCHHHHHHHH
+Confidence            4799999999998884 4455655443
+
+
+No 2
+>2DFA_A Hypothetical UPF0271 protein TTHB195; lactam utilization protein, structural genomics; 1.9A {Thermus thermophilus} SCOP: c.6.2.5
+Probab=17.84  E-value=2.2e+02  Score=23.39  Aligned_cols=28  Identities=36%  Similarity=0.472  Sum_probs=19.7  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCChhhhhhH
+Q tr|A0A2R8YDM8|   30 SPGFPARPGRGRPYMASRPPGDLAEAGGR   58 (128)
+Q Consensus        30 spgfparpgrgrpymasrppgdlaeaggr   58 (128)
+                      .|+||.+.+-||..|. .++.+|.+.--.
+T Consensus        62 HPsypD~~~FGRr~~~-~~~~~l~~~~~~   89 (250)
+T 2DFA_A           62 HPGFPDLVGFGRREMA-LSPEEVYADVLY   89 (250)
+T ss_dssp             ECCCSCTTTTTCSCCC-CCHHHHHHHHHH
+T ss_pred             CCCCcccCCCCCcccC-CCHHHHHHHHHH
+Confidence            4799999999998884 445566544433
+
+
+No 3
+>1XW8_A UPF0271 protein ybgL; NESG, Northeast Structural Genomics Consortium; HET: MSE; 2.0A {Escherichia coli} SCOP: c.6.2.5
+Probab=17.70  E-value=2.3e+02  Score=23.44  Aligned_cols=25  Identities=36%  Similarity=0.650  Sum_probs=11.5  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCChhhh
+Q tr|A0A2R8YDM8|   30 SPGFPARPGRGRPYMASRPPGDLAEA   55 (128)
+Q Consensus        30 spgfparpgrgrpymasrppgdlaea   55 (128)
+                      .||||.+.+-||..|. .++.+|.+.
+T Consensus        57 HPsypD~~~FGRr~m~-~~~~~l~~~   81 (252)
+T 1XW8_A           57 HPSFPDRENFGRSAMQ-LPPETVYAQ   81 (252)
+T ss_dssp             ECCCC-------CCCC-CCHHHHHHH
+T ss_pred             CCCCCCcCcCCCcccC-CCHHHHHHh
+Confidence            4799999999999885 344555443
+
+
+No 4
+>6TT7_H ATP synthase F(0) complex subunit; ATP synthase, mitochondrial, respiratory chain; HET: P5S, ADP, CDL, LHG, S12;{Ovis aries}
+Probab=17.64  E-value=13  Score=27.79  Aligned_cols=45  Identities=24%  Similarity=0.279  Sum_probs=10.5  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCChhhh--hhHHHHHhhhhhcCCCcccch
+Q tr|A0A2R8YDM8|   32 GFPARPGRGRPYMASRPPGDLAEA--GGRALQSLQLRLLTPTFEGIN   76 (128)
+Q Consensus        32 gfparpgrgrpymasrppgdlaea--ggralqslqlrlltptfegin   76 (128)
+                      +.-.|||+||-.|..|.-.+-+.+  -++--.++++.++||.-.-..
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~Ivtp~~~v~~   51 (168)
+T 6TT7_H            5 ALLRRPGLGRLVRQVRAYAEAAPAQAPAAGPGQMSFTFASPTQVFFN   51 (168)
+T ss_dssp             --------------------------------CEEEEEECSSCEEST
+T ss_pred             hhcccccchHHHHHhHhhhhhCCCCCCCCCCCcEEEEEECCCceEEe
+Confidence            445688999887776665443332  555667788889888644333
+
+
+No 5
+>2W6I_H ATP SYNTHASE SUBUNIT ALPHA HEART; ATP PHOSPHORYLASE (H+ TRANSPORTING), TRANSIT; 4.0A {BOS TAURUS}
+Probab=17.14  E-value=22  Score=26.46  Aligned_cols=41  Identities=24%  Similarity=0.332  Sum_probs=4.6  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCChhhh--hhHHHHHhhhhhcCCC
+Q tr|A0A2R8YDM8|   31 PGFPARPGRGRPYMASRPPGDLAEA--GGRALQSLQLRLLTPT   71 (128)
+Q Consensus        31 pgfparpgrgrpymasrppgdlaea--ggralqslqlrlltpt   71 (128)
+                      .+|-.|||+||--+..|.-.+.+-.  ......++++.++||+
+T Consensus         4 ~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~l~Iitp~   46 (168)
+T 2W6I_H            4 SALLRRPGLGRLVRQVRLYAEAAAAQAPAAGPGQMSFTFASPT   46 (168)
+T ss_dssp             ------------------------------------CEEEC-C
+T ss_pred             hhhccCCCCchHHHhhHHhHHHHhccCCCCCCCcEEEEEECCC
+Confidence            3566788888877776665555444  2444577888888884
+
+
+No 6
+>2W6J_H ATP SYNTHASE SUBUNIT ALPHA HEART; ATP PHOSPHORYLASE (H+ TRANSPORTING), TRANSIT; 3.84A {BOS TAURUS}
+Probab=17.14  E-value=22  Score=26.46  Aligned_cols=41  Identities=24%  Similarity=0.332  Sum_probs=6.3  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCChhhh--hhHHHHHhhhhhcCCC
+Q tr|A0A2R8YDM8|   31 PGFPARPGRGRPYMASRPPGDLAEA--GGRALQSLQLRLLTPT   71 (128)
+Q Consensus        31 pgfparpgrgrpymasrppgdlaea--ggralqslqlrlltpt   71 (128)
+                      .+|-.|||+||--+..|.-.+.+-.  ......++++.++||+
+T Consensus         4 ~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~l~Iitp~   46 (168)
+T 2W6J_H            4 SALLRRPGLGRLVRQVRLYAEAAAAQAPAAGPGQMSFTFASPT   46 (168)
+T ss_dssp             -----------------------------------CCCEECSS
+T ss_pred             hhhccCCCCchHHHhhHHhHHHHhccCCCCCCCcEEEEEECCC
+Confidence            3567788888877776665555444  2445577888888884
+
+
+No 7
+>2XU2_A UPF0271 PROTEIN PA4511; UNKNOWN FUNCTION; HET: CIT; 2.3A {PSEUDOMONAS AERUGINOSA}
+Probab=16.12  E-value=2.6e+02  Score=23.16  Aligned_cols=28  Identities=21%  Similarity=0.320  Sum_probs=19.8  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCChhhhhhH
+Q tr|A0A2R8YDM8|   30 SPGFPARPGRGRPYMASRPPGDLAEAGGR   58 (128)
+Q Consensus        30 spgfparpgrgrpymasrppgdlaeaggr   58 (128)
+                      .||||.+.+-||..|. .++.+|...--.
+T Consensus        68 HPsypD~~~FGRr~~~-~~~~~l~~~~~~   95 (252)
+T 2XU2_A           68 HPAYPDLSGFGRRSLA-CSAEEVHAMVLY   95 (252)
+T ss_dssp             ECCCSCTTTTTCSCCC-CCHHHHHHHHHH
+T ss_pred             cCCccCCCCCCCcccC-CCHHHHHHHHHH
+Confidence            4799999999998884 445666554433
+
+
+No 8
+>7OKX_D Pol II, Super elongation complex; 3.3A {Sus scrofa}
+Probab=15.73  E-value=3.3e+02  Score=21.45  Aligned_cols=12  Identities=33%  Similarity=0.985  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A2R8YDM8|   22 LWGPGPAWSPGF   33 (128)
+Q Consensus        22 lwgpgpawspgf   33 (128)
+                      .|||..+|++.-
+T Consensus         1 ~~~~~~~~~~~~   12 (184)
+T 7OKX_D            1 MWGPAQPYSDSA   12 (184)
+T ss_dssp             ------------
+T ss_pred             CCCCCCCCCCCC
+Confidence            488888886543
+
+
+No 9
+>7OL0_D Pol II, Super elongation complex;{Sus scrofa}
+Probab=15.73  E-value=3.3e+02  Score=21.45  Aligned_cols=27  Identities=19%  Similarity=0.329  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8YDM8|   22 LWGPGPAWSPGFPARPGRGRPYMASRP   48 (128)
+Q Consensus        22 lwgpgpawspgfparpgrgrpymasrp   48 (128)
+                      .|||..+|++.--.-+.+.++.|..+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   27 (184)
+T 7OL0_D            1 MWGPAQPYSDSALSPKPRPFRAVFRGS   27 (184)
+T ss_dssp             ---------------------------
+T ss_pred             CCCCCCCCCCCCCCCCCCccceecCCc
+
+
+No 10
+>7AX3_K DYNAMIN, CYTOSOLIC PROTEIN; HET: GCP, MG;{Homo sapiens}
+Probab=12.70  E-value=8.2e+02  Score=22.75  Aligned_cols=36  Identities=42%  Similarity=0.690  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCCCCCCCC-----CCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8YDM8|   13 RGPGPGPRP-----LWGPGPAWSPGFPARPGRGRPYMASRP   48 (128)
+Q Consensus        13 rgpgpgprp-----lwgpgpawspgfparpgrgrpymasrp   48 (128)
+                      ++++|+|.|     ...|++.+.||.+..|+-+.|-..+||
+T Consensus       796 ~~~~~~~pp~~~~~~~~p~~p~~~~~~~~~~~~~p~~p~~~  836 (864)
+T 7AX3_K          796 RGPAPGPPPAGSALGGAPPVPSRPGASPDPFGPPPQVPSRP  836 (864)
+T ss_dssp             -----------------------------------------
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+

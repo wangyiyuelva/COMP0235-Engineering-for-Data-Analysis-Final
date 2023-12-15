@@ -1,0 +1,268 @@
+Query         sp|Q5JTV8|TOIP1_HUMAN
+Match_columns 583
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:32:10 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0607.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4TVS_A Lamin-associated protei 100.0 1.4E-34 1.5E-39  254.7  15.6  229  355-583     3-231 (231)
+  2 5J1S_B Torsin-1A (E.C.3.6.4.-) 100.0 1.7E-29 1.8E-34  223.7  15.1  237  346-583     2-238 (239)
+  3 5J1T_B Torsin-1A (E.C.3.6.4.-) 100.0 1.7E-29 1.8E-34  223.7  15.1  237  346-583     2-238 (239)
+  4 6RBG_H Chain length determinan  44.3      99  0.0011   27.5   4.8   14  421-434   143-156 (341)
+  5 6CZS_A Pro-cathepsin H (E.C.3.  37.2   1E+02  0.0011   27.7   4.0   20  361-380    28-47  (335)
+  6 6S7T_H Dolichyl-diphosphooligo  30.1 3.5E+02  0.0039   25.1   6.2    9  406-414    72-80  (335)
+  7 6NBG_A Hypothetical Protein CD  27.0   2E+02  0.0022   25.3   4.0   36  389-428    18-53  (242)
+  8 6NBG_D Hypothetical Protein CD  27.0   2E+02  0.0022   25.3   4.0   36  389-428    18-53  (242)
+  9 6AL2_A Membrane protein insert  25.1 1.3E+02  0.0014   31.1   2.8   24  361-384   379-402 (551)
+ 10 6CZK_A Pro-cathepsin H (E.C.3.  25.0 2.3E+02  0.0025   25.6   4.1   14  367-380    34-47  (335)
+ 11 7NII_D Wzc, regulator, capsula  23.7      41 0.00044   34.2  -0.7   25  409-433   231-255 (727)
+ 12 6VEJ_C Resistance-nodulation-c  20.7 9.9E+02   0.011   25.5   7.9   19  419-437   674-692 (1022)
+
+No 1
+>4TVS_A Lamin-associated protein 1B , VHH; nuclear envelope protein, AAA+-associated, activator; HET: GOL; 1.6A {Homo sapiens}
+Probab=100.00  E-value=1.4e-34  Score=254.74  Aligned_cols=229  Identities=100%  Similarity=1.382  Sum_probs=211.8  Template_Neff=8.100
+
+Q ss_pred             cCCCcccchhHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCCCCCCeeeeeecccCHHHHHHHHHHHHHHHHh
+Q sp|Q5JTV8|TOIP  355 FSTPEVETTAVQEFQNQMNQLKNKYQGQDEKLWKRSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCLSEQIADAYS  434 (583)
+Q Consensus       355 fstpevettavqefqnqmnqlknkyqgqdeklwkrsqtflekhlnsshprsqpaillltaardaeealrclseqiadays  434 (583)
+                      .++++++.+.++.|.+.++.|+++||+|++++|+.|.+++++++++..|+.+|+||||+++.+++.+++|||++||++++
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~Lk~~Fp~Q~~~~w~~l~~~~~~~l~~~~p~~~PaviLl~~~~~~~~t~~cla~~la~~~~   82 (231)
+T 4TVS_A            3 GSTPEVETTAVQEFQNQMNQLKNKYQGQDEKLWKRSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCLSEQIADAYS   82 (231)
+T ss_dssp             -----CBCHHHHHHHHHHHHHHHHCTTSCHHHHHHHHHHHHHHHTCCSSCSSCEEEEEEECGGGHHHHHHHHHHHHHHHH
+T ss_pred             CCCCccccHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHccCCCCCCCEEEEEecCCCHHHHHHHHHHHHHHHHH
+Confidence            46899999999999999999999999999999999999999999876543799999999998888999999999999999
+
+
+Q ss_pred             hcccceeEEecCCCccCCCchhhhhhhhHHHHHhhhCCCceeEEEEeeecCCccEEEEEEecCCCCcchhhhhhheehhh
+Q sp|Q5JTV8|TOIP  435 SFRSVRAIRIDGTDKATQDSDTVKLEVDQELSNGFKNGQNAAVVHRFESFPAGSTLIFYKYCDHENAAFKDVALVLTVLL  514 (583)
+Q Consensus       435 sfrsvrairidgtdkatqdsdtvklevdqelsngfkngqnaavvhrfesfpagstlifykycdhenaafkdvalvltvll  514 (583)
+                      .+++.+++.|++.++...+.++.|..|+++|++.|+++.+||||.+||+||+++|++||+|||+++|+||+++|||||.+
+T Consensus        83 ~~~~~~~~~i~~~~~~~~~~~~~k~~i~~~l~~~~~~~~~vvvi~~ie~L~~~~a~~fH~~cD~~~~~~k~a~ii~Tl~~  162 (231)
+T 4TVS_A           83 SFRSVRAIRIDGTDKATQDSDTVKLEVDQELSNGFKNGQNAAVVHRFESFPAGSTLIFYKYCDHENAAFKDVALVLTVLL  162 (231)
+T ss_dssp             GGGTCCCEEEEGGGTTTSCHHHHHHHHHHHHHHHHHTTCCEEEEETGGGSCGGGGGHHHHHHCTTTCSCSSCEEEEEEEC
+T ss_pred             HhcCCCeEEEcCCcccCCChHHHHHHHHHHHHhcccCCCcEEEEcCHHhCChhHHHHHHHHcCCCCchhCCEEEEEEEEc
+Confidence            99988889999999988887888999999999999877899999999999999999999999999999999999999999
+
+
+Q ss_pred             chcccCCCCCHHHHHHHHHHHHhhhccCCCCCCCcCCCCHHHHhhHHHHHhhhcCCCCccchhhcceeh
+Q sp|Q5JTV8|TOIP  515 EEETLGTSLGLKEVEEKVRDFLKVKFTNSNTPNSYNHMDPDKLNGLWSRISHLVLPVQPENALKRGICL  583 (583)
+Q Consensus       515 eeetlgtslglkeveekvrdflkvkftnsntpnsynhmdpdklnglwsrishlvlpvqpenalkrgicl  583 (583)
+                      +...+..+++.+++++.++++|++.|.+++.+|.|..|+.|++.|||+||+++||+|++|+++++++|+
+T Consensus       163 ~~~~~~~~~~~~~~e~~v~~~L~~~W~~~~~~~~~~~l~~d~~~pLisRIt~~vi~v~~E~~~~~~~c~  231 (231)
+T 4TVS_A          163 EEETLGTSLGLKEVEEKVRDFLKVKFTNSNTPNSYNHMDPDKLNGLWSRISHLVLPVQPENALKRGICL  231 (231)
+T ss_dssp             SSSCCCSCCCHHHHHHHHHHHHHHHHHHTCCTTSSSCCCHHHHHHHHHHHCSSEEECCCCGGGTTSSCC
+T ss_pred             ChhhhcCCCCHHHHHHHHHHHHHHHhcCCCCCCccccCCHHHhhhhHHHhcCceeeecchhHhccCCCC
+Confidence            986666667788999999999999999889999999999999999999999999999999999999995
+
+
+No 2
+>5J1S_B Torsin-1A (E.C.3.6.4.-), Torsin-1A-interacting protein 2; AAA+ ATPase, Torsin, endoplasmic reticulum; HET: ATP, MES; 1.399A {Homo sapiens}
+Probab=99.97  E-value=1.7e-29  Score=223.72  Aligned_cols=237  Identities=61%  Similarity=0.951  Sum_probs=213.0  Template_Neff=8.100
+
+Q ss_pred             HHHhccchccCCCcccchhHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCCCCCCeeeeeecccCHHHHHHHH
+Q sp|Q5JTV8|TOIP  346 ALASGSFWFFSTPEVETTAVQEFQNQMNQLKNKYQGQDEKLWKRSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCL  425 (583)
+Q Consensus       346 alasgsfwffstpevettavqefqnqmnqlknkyqgqdeklwkrsqtflekhlnsshprsqpaillltaardaeealrcl  425 (583)
+                      .+|+|||+|+++++++.+.++.|++.++.|+++||+|++.+|++|++++++++++..| .+|+||||++++++..+++||
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~~~fp~Q~~~~w~~l~~~i~~~l~~~~~-~~PaViLll~~~~~~~~~~cl   80 (239)
+T 5J1S_B            2 SSVNSYYSSPAQQVPKNPALEAFLAQFSQLEDKFPGQSSFLWQRGRKFLQKHLNASNP-TEPATIIFTAAREGRETLKCL   80 (239)
+T ss_dssp             ---CCCCCCGGGCCCSSHHHHHHHHHHHHHHHHSCSCCHHHHHHHHHHHHHHHTCSSC-SSCEEEEEEECGGGHHHHHHH
+T ss_pred             eeeeccCCCcCCCCCCCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHhcCCC-CCCEEEEEccCcchHHHHHHH
+Confidence            4789999999999999999999999999999999999999999999999999987666 999999999988889999999
+
+
+Q ss_pred             HHHHHHHHhhcccceeEEecCCCccCCCchhhhhhhhHHHHHhhhCCCceeEEEEeeecCCccEEEEEEecCCCCcchhh
+Q sp|Q5JTV8|TOIP  426 SEQIADAYSSFRSVRAIRIDGTDKATQDSDTVKLEVDQELSNGFKNGQNAAVVHRFESFPAGSTLIFYKYCDHENAAFKD  505 (583)
+Q Consensus       426 seqiadayssfrsvrairidgtdkatqdsdtvklevdqelsngfkngqnaavvhrfesfpagstlifykycdhenaafkd  505 (583)
+                      |++||+++.++++++++.|++.++...+.++.|..|+++|++.|.++.+||||.+||+||+++|++||+|||+++|+||+
+T Consensus        81 a~~la~~~~~~~~~~~~~i~~~~~~~~~~~~~k~~l~~~l~~~~~~~~~vvvi~~ie~L~~~~a~~fH~~cD~~~~~~k~  160 (239)
+T 5J1S_B           81 SHHVADAYTSSQKVSPIQIDGAGRTWQDSDTVKLLVDLELSYGFENGQKAAVVHHFESFPAGSTLIFYKYCDHENAAFKD  160 (239)
+T ss_dssp             HHHHHHHHTTTSSCCCEEEECTTCTTSCHHHHHHHHHHHHHHHHHTTCCEEEEECGGGSCGGGGGHHHHHHCTTTCSCTT
+T ss_pred             HHHHHHHHHHHcCCCCEEEcCCCcCCCChHHHHHHHHHHHHHhhccCCcEEEEcChhhCChhHHHHHHHHcCCCCchhCC
+Confidence            99999999999998899999999988888889999999999999778899999999999999999999999999999999
+
+
+Q ss_pred             hhhheehhhchcccCCCCCHHHHHHHHHHHHhhhccCCCCCCCcCCCCHHHHhhHHHHHhhhcCCCCccchhhcceeh
+Q sp|Q5JTV8|TOIP  506 VALVLTVLLEEETLGTSLGLKEVEEKVRDFLKVKFTNSNTPNSYNHMDPDKLNGLWSRISHLVLPVQPENALKRGICL  583 (583)
+Q Consensus       506 valvltvlleeetlgtslglkeveekvrdflkvkftnsntpnsynhmdpdklnglwsrishlvlpvqpenalkrgicl  583 (583)
+                      ++|||||.++...+..+.+.+++++.++++|++.|.++|++++|+.|+.|++.|||+||+++||+|++|..++++||+
+T Consensus       161 a~ii~Tl~~~~~~~~~~~~~~~~e~~~~~~L~~~W~~~~~~~~~~~l~~d~~~pLisRIt~~vi~v~~e~~~~~~~c~  238 (239)
+T 5J1S_B          161 VALVLTVLLEEETLEASVGPRETEEKVRDLLWAKFTNSDTPTSFNHMDSDKLSGLWSRISHLVLPVQPVSSIEEQGCL  238 (239)
+T ss_dssp             CEEEEEEECSSSCCCTTCCHHHHHHHHHHHHHHHHC-----------CHHHHHHHHHHHCSCEEECCCCHHHHHHCCC
+T ss_pred             eEEEEEEEcChhhhccCCCHHHHHHHHHHHHHHHhcCCCCCcchhcCCHHHHhhhhHHhcCceEEecCCchhhhcCCC
+Confidence            999999999986566667888999999999999999999999999999999999999999999999999999999996
+
+
+No 3
+>5J1T_B Torsin-1A (E.C.3.6.4.-), Torsin-1A-interacting protein 2; AAA+ ATPase, Torsin, endoplasmic reticulum; HET: ATP, BTB; 1.402A {Homo sapiens}
+Probab=99.97  E-value=1.7e-29  Score=223.72  Aligned_cols=237  Identities=61%  Similarity=0.951  Sum_probs=223.6  Template_Neff=8.100
+
+Q ss_pred             HHHhccchccCCCcccchhHHHHHHHHHHHHHhcCCCCHHHHHHHHHHHHHHhcCCCCCCCCeeeeeecccCHHHHHHHH
+Q sp|Q5JTV8|TOIP  346 ALASGSFWFFSTPEVETTAVQEFQNQMNQLKNKYQGQDEKLWKRSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCL  425 (583)
+Q Consensus       346 alasgsfwffstpevettavqefqnqmnqlknkyqgqdeklwkrsqtflekhlnsshprsqpaillltaardaeealrcl  425 (583)
+                      .+|+|||+|+++++++.+.++.|++.++.|+++||+|++.+|++|++++++++++..| .+|+||||++++++..+++||
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~~~fp~Q~~~~w~~l~~~i~~~l~~~~~-~~PaViLll~~~~~~~~~~cl   80 (239)
+T 5J1T_B            2 SSVNSYYSSPAQQVPKNPALEAFLAQFSQLEDKFPGQSSFLWQRGRKFLQKHLNASNP-TEPATIIFTAAREGRETLKCL   80 (239)
+T ss_dssp             ---CCCCCCGGGCCCSSHHHHHHHHHHHHHHHHSTTCCHHHHHHHHHHHHHHHTCSSC-SSCEEEEEEECGGGHHHHHHH
+T ss_pred             eeeeccCCCcCCCCCCCHHHHHHHHHHHHHHHHCCCCCHHHHHHHHHHHHHHHhcCCC-CCCEEEEEccCcchHHHHHHH
+Confidence            4789999999999999999999999999999999999999999999999999987666 999999999988889999999
+
+
+Q ss_pred             HHHHHHHHhhcccceeEEecCCCccCCCchhhhhhhhHHHHHhhhCCCceeEEEEeeecCCccEEEEEEecCCCCcchhh
+Q sp|Q5JTV8|TOIP  426 SEQIADAYSSFRSVRAIRIDGTDKATQDSDTVKLEVDQELSNGFKNGQNAAVVHRFESFPAGSTLIFYKYCDHENAAFKD  505 (583)
+Q Consensus       426 seqiadayssfrsvrairidgtdkatqdsdtvklevdqelsngfkngqnaavvhrfesfpagstlifykycdhenaafkd  505 (583)
+                      |++||+++.++++++++.|++.++...+.++.|..|+++|++.|.++.+||||.+||+||+++|++||+|||+++|+||+
+T Consensus        81 a~~la~~~~~~~~~~~~~i~~~~~~~~~~~~~k~~l~~~l~~~~~~~~~vvvi~~ie~L~~~~a~~fH~~cD~~~~~~k~  160 (239)
+T 5J1T_B           81 SHHVADAYTSSQKVSPIQIDGAGRTWQDSDTVKLLVDLELSYGFENGQKAAVVHHFESFPAGSTLIFYKYCDHENAAFKD  160 (239)
+T ss_dssp             HHHHHHHTTTTSSCCCEEEECTTCTTSCHHHHHHHHHHHHHHHHHTTCCEEEEECGGGSCGGGGGHHHHHHCTTTCSCSS
+T ss_pred             HHHHHHHHHHHcCCCCEEEcCCCcCCCChHHHHHHHHHHHHHhhccCCcEEEEcChhhCChhHHHHHHHHcCCCCchhCC
+Confidence            99999999999998899999999988888889999999999999778899999999999999999999999999999999
+
+
+Q ss_pred             hhhheehhhchcccCCCCCHHHHHHHHHHHHhhhccCCCCCCCcCCCCHHHHhhHHHHHhhhcCCCCccchhhcceeh
+Q sp|Q5JTV8|TOIP  506 VALVLTVLLEEETLGTSLGLKEVEEKVRDFLKVKFTNSNTPNSYNHMDPDKLNGLWSRISHLVLPVQPENALKRGICL  583 (583)
+Q Consensus       506 valvltvlleeetlgtslglkeveekvrdflkvkftnsntpnsynhmdpdklnglwsrishlvlpvqpenalkrgicl  583 (583)
+                      ++|||||.++...+..+.+.+++++.++++|++.|.++|++++|+.|+.|++.|||+||+++||+|++|..++++||+
+T Consensus       161 a~ii~Tl~~~~~~~~~~~~~~~~e~~~~~~L~~~W~~~~~~~~~~~l~~d~~~pLisRIt~~vi~v~~e~~~~~~~c~  238 (239)
+T 5J1T_B          161 VALVLTVLLEEETLEASVGPRETEEKVRDLLWAKFTNSDTPTSFNHMDSDKLSGLWSRISHLVLPVQPVSSIEEQGCL  238 (239)
+T ss_dssp             CEEEEEEECSSSCCCTTCCHHHHHHHHHHHHHHHHCSSSSCCCTTSCCHHHHHHHHHHHCSCEEEECCCHHHHHHCCC
+T ss_pred             eEEEEEEEcChhhhccCCCHHHHHHHHHHHHHHHhcCCCCCcchhcCCHHHHhhhhHHhcCceEEecCCchhhhcCCC
+Confidence            999999999986566667888999999999999999999999999999999999999999999999999999999996
+
+
+No 4
+>6RBG_H Chain length determinant protein; membrane protein, enzyme, polysaccharide, co-polymerase; 3.0A {Escherichia coli (strain K12)}
+Probab=44.31  E-value=99  Score=27.45  Aligned_cols=14  Identities=7%  Similarity=-0.069  Sum_probs=6.2  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHHHHHHh
+Q sp|Q5JTV8|TOIP  421 ALRCLSEQIADAYS  434 (583)
+Q Consensus       421 alrclseqiadays  434 (583)
+                      .+..++..+++.+.
+T Consensus       143 ~a~~i~n~~~~~~~  156 (341)
+T 6RBG_H          143 GAQMKLAQYIQQVD  156 (341)
+T ss_dssp             TTTHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            34444444444443
+
+
+No 5
+>6CZS_A Pro-cathepsin H (E.C.3.4.22.16); papain family cysteine peptidase, protein; HET: NAG, BMA, GLC, SO4, MAN; 1.66A {Homo sapiens}
+Probab=37.19  E-value=1e+02  Score=27.71  Aligned_cols=20  Identities=15%  Similarity=0.340  Sum_probs=8.7  Template_Neff=11.100
+
+Q ss_pred             cchhHHHHHHHHHHHHHhcC
+Q sp|Q5JTV8|TOIP  361 ETTAVQEFQNQMNQLKNKYQ  380 (583)
+Q Consensus       361 ettavqefqnqmnqlknkyq  380 (583)
+                      +......|...+....+.|.
+T Consensus        28 ~~~~~~~~~~~~~~~~k~y~   47 (335)
+T 6CZS_A           28 NSLEKFHFKSWMSKHRKTYS   47 (335)
+T ss_dssp             CHHHHHHHHHHHHHTTCCCC
+T ss_pred             cchHHHHHHHHHHHHCCCCC
+Confidence            33333344444444444554
+
+
+No 6
+>6S7T_H Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B (E.C.2.4.99.18); N-glycosylation, Oligosaccharyltransferase, OSTB, TRANSFERASE; HET: NAG, 0K3, BMA, EGY, KZB, MAN; 3.5A {Homo sapiens}
+Probab=30.13  E-value=3.5e+02  Score=25.14  Aligned_cols=9  Identities=33%  Similarity=0.530  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCeeeeeec
+Q sp|Q5JTV8|TOIP  406 QPAILLLTA  414 (583)
+Q Consensus       406 qpailllta  414 (583)
+                      .+.++++.+
+T Consensus        72 ~~~vv~f~a   80 (335)
+T 6S7T_H           72 YSVIVMFTA   80 (335)
+T ss_dssp             ---------
+T ss_pred             cEEEEEEEe
+Confidence            355555554
+
+
+No 7
+>6NBG_A Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: PO4, MSE; 2.05A {Klebsiella pneumoniae}
+Probab=27.03  E-value=2e+02  Score=25.34  Aligned_cols=36  Identities=11%  Similarity=0.120  Sum_probs=17.3  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCeeeeeecccCHHHHHHHHHHH
+Q sp|Q5JTV8|TOIP  389 RSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCLSEQ  428 (583)
+Q Consensus       389 rsqtflekhlnsshprsqpaillltaardaeealrclseq  428 (583)
+                      .+...+...+..    ..+.+|.|..+.....+.+.|+..
+T Consensus        18 ~~a~~~~~~i~~----~~~~~i~l~~G~t~~~~~~~l~~~   53 (242)
+T 6NBG_A           18 VASHHVLGYITA----PRRVNLAVTAGSTPKRMYEHLTAA   53 (242)
+T ss_dssp             HHHHHHHHHHTC----SSCEEEEECCSSTTHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhC----CCCcEEEECCCCChHHHHHHHHHH
+Confidence            344444445543    234566555554444455555543
+
+
+No 8
+>6NBG_D Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: PO4, MSE; 2.05A {Klebsiella pneumoniae}
+Probab=27.03  E-value=2e+02  Score=25.34  Aligned_cols=36  Identities=11%  Similarity=0.120  Sum_probs=17.3  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCeeeeeecccCHHHHHHHHHHH
+Q sp|Q5JTV8|TOIP  389 RSQTFLEKHLNSSHPRSQPAILLLTAARDAEEALRCLSEQ  428 (583)
+Q Consensus       389 rsqtflekhlnsshprsqpaillltaardaeealrclseq  428 (583)
+                      .+...+...+..    ..+.+|.|..+.....+.+.|+..
+T Consensus        18 ~~a~~~~~~i~~----~~~~~i~l~~G~t~~~~~~~l~~~   53 (242)
+T 6NBG_D           18 VASHHVLGYITA----PRRVNLAVTAGSTPKRMYEHLTAA   53 (242)
+T ss_dssp             HHHHHHHHHHTC----SSCEEEEECCSSTTHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhC----CCCcEEEECCCCChHHHHHHHHHH
+Confidence            344444445543    234566555554444455555443
+
+
+No 9
+>6AL2_A Membrane protein insertase YidC; Transmembrane, Insertase, CHAPERONE; HET: OLC; 2.8A {Escherichia coli}
+Probab=25.12  E-value=1.3e+02  Score=31.06  Aligned_cols=24  Identities=4%  Similarity=0.286  Sum_probs=16.9  Template_Neff=9.500
+
+Q ss_pred             cchhHHHHHHHHHHHHHhcCCCCH
+Q sp|Q5JTV8|TOIP  361 ETTAVQEFQNQMNQLKNKYQGQDE  384 (583)
+Q Consensus       361 ettavqefqnqmnqlknkyqgqde  384 (583)
+                      ....++.+...++.|+.+|..-..
+T Consensus       379 ~~~~~~~~~p~~~~l~~~~~~~~~  402 (551)
+T 6AL2_A          379 SMAKMRMLQPKIQAMRERLGDDKQ  402 (551)
+T ss_dssp             HHHHHHHTHHHHHHHHHHHCSCHH
+T ss_pred             HHHHHHHhHHHHHHHHHHhhhhHH
+Confidence            334566667789999999976443
+
+
+No 10
+>6CZK_A Pro-cathepsin H (E.C.3.4.22.16); papain family cysteine peptidase, protein; HET: NAG, BMA, CSX, GOL, SO4, MAN; 2.001A {Homo sapiens}
+Probab=24.97  E-value=2.3e+02  Score=25.64  Aligned_cols=14  Identities=21%  Similarity=0.560  Sum_probs=6.0  Template_Neff=11.100
+
+Q ss_pred             HHHHHHHHHHHhcC
+Q sp|Q5JTV8|TOIP  367 EFQNQMNQLKNKYQ  380 (583)
+Q Consensus       367 efqnqmnqlknkyq  380 (583)
+                      .|...+....+.|.
+T Consensus        34 ~~~~~~~~~~k~y~   47 (335)
+T 6CZK_A           34 HFKSWMSKHRKTYS   47 (335)
+T ss_dssp             HHHHHHHHTTCCCC
+T ss_pred             HHHHHHHHhCCCCC
+Confidence            34444444444454
+
+
+No 11
+>7NII_D Wzc, regulator, capsular polysaccharide synthesis; HET: ADP;{Escherichia coli}
+Probab=23.71  E-value=41  Score=34.20  Aligned_cols=25  Identities=24%  Similarity=0.441  Sum_probs=10.9  Template_Neff=10.700
+
+Q ss_pred             eeeeecccCHHHHHHHHHHHHHHHH
+Q sp|Q5JTV8|TOIP  409 ILLLTAARDAEEALRCLSEQIADAY  433 (583)
+Q Consensus       409 illltaardaeealrclseqiaday  433 (583)
+                      +|.+.........+..++..+++.+
+T Consensus       231 ~i~i~~~~~dp~~a~~i~n~~~~~~  255 (727)
+T 7NII_D          231 MLTLTLTGDNPKRISHILDSISQNY  255 (727)
+T ss_dssp             EEEEEEEESCHHHHHHHHHHHHHHH
+T ss_pred             eEEEEEEcCCHHHHHHHHHHHHHHH
+Confidence            3344333333444555555554443
+
+
+No 12
+>6VEJ_C Resistance-nodulation-cell division (RND) efflux transporter; RND transporter, Pseudomonas aeruginosa, transmembrane; HET: LMU, E2V, PLM; 4.5A {Pseudomonas aeruginosa}
+Probab=20.70  E-value=9.9e+02  Score=25.47  Aligned_cols=19  Identities=11%  Similarity=0.064  Sum_probs=14.0  Template_Neff=11.500
+
+Q ss_pred             HHHHHHHHHHHHHHHhhcc
+Q sp|Q5JTV8|TOIP  419 EEALRCLSEQIADAYSSFR  437 (583)
+Q Consensus       419 eealrclseqiadayssfr  437 (583)
+                      ...+.+.++++...+...-
+T Consensus       674 ~~~l~~~~~~l~~~l~~~~  692 (1022)
+T 6VEJ_C          674 IDKVREYAMGLAGVLDGNP  692 (1022)
+T ss_dssp             HHHHHHHHHHHHHHHTTST
+T ss_pred             HHHHHHHHHHHHHHHhcCC
+Confidence            5777788888888777643
+
+

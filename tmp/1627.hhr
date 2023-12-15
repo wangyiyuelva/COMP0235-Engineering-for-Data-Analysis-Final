@@ -1,0 +1,183 @@
+Query         tr|A0A286YF04|A0A286YF04_HUMAN
+Match_columns 12
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:19:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1627.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ZYM_u Corepressor interacting  32.8      70 0.00076   15.7   1.3   11    1-11      1-11  (178)
+  2 1DX8_A RUBREDOXIN; ELECTRON TR  32.3      33 0.00035   13.5   0.1    9    4-12     62-70  (70)
+  3 7B9V_D Pre-mRNA-splicing facto  30.5      75 0.00082   17.6   1.3   12    1-12      1-12  (291)
+  4 3I05_B Tryptophanyl-tRNA synth  28.9      68 0.00074   16.4   0.9    7    1-8     271-277 (395)
+  5 1KP6_A TOXIN; KILLER TOXIN, IO  27.8      21 0.00023   18.1  -0.9    7    6-12     57-63  (79)
+  6 5THH_A Tyrosine--tRNA ligase,   26.6      88 0.00096   14.8   1.0    8    1-8     220-227 (339)
+  7 5YZG_Y Pre-mRNA-processing-spl  26.2      99  0.0011   17.3   1.3   12    1-12      1-12  (323)
+  8 6WRT_A Tyrosine--tRNA ligase (  25.0      91 0.00098   15.1   0.9    8    1-9     205-212 (314)
+  9 2CYB_A Tyrosyl-tRNA synthetase  21.6 1.4E+02  0.0015   14.2   1.1    7    1-8     215-221 (323)
+ 10 2CYB_B Tyrosyl-tRNA synthetase  21.6 1.4E+02  0.0015   14.2   1.1    7    1-8     215-221 (323)
+ 11 1N3L_A tyrosyl-tRNA synthetase  20.7 1.4E+02  0.0015   14.8   1.1    8    1-8     223-230 (372)
+
+No 1
+>6ZYM_u Corepressor interacting with RBPJ 1; human C complex, spliceosome, hC; HET: GTP, IHP;{Homo sapiens}
+Probab=32.78  E-value=70  Score=15.67  Aligned_cols=11  Identities=55%  Similarity=0.857  Sum_probs=7.8  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDNQFY   11 (12)
+Q Consensus         1 mskskvdnqfy   11 (12)
+                      |+..|+.|.+|
+T Consensus         1 M~erk~~nkYy   11 (178)
+T 6ZYM_u            1 MSERKVLNKYY   11 (178)
+T ss_pred             CCCCcccCccC
+Confidence            66777777665
+
+
+No 2
+>1DX8_A RUBREDOXIN; ELECTRON TRANSPORT, RUBREDOXIN, GUILLARDIA THETA; HET: ZN; NMR {GUILLARDIA THETA} SCOP: g.41.5.1
+Probab=32.30  E-value=33  Score=13.52  Aligned_cols=9  Identities=33%  Similarity=0.420  Sum_probs=6.2  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|A0A286YF04|    4 SKVDNQFYS   12 (12)
+Q Consensus         4 skvdnqfys   12 (12)
+                      ....||+|.
+T Consensus        62 ~~~~~~~~~   70 (70)
+T 1DX8_A           62 GFAENQKYG   70 (70)
+T ss_dssp             CSCCCSCCC
+T ss_pred             cchhhccCC
+Confidence            456788873
+
+
+No 3
+>7B9V_D Pre-mRNA-splicing factor 8, Pre-mRNA-splicing helicase; splicing, spliceosome, RNA, ribozyme; HET: GTP, KGN, SEP; 2.8A {Saccharomyces cerevisiae}
+Probab=30.51  E-value=75  Score=17.59  Aligned_cols=12  Identities=42%  Similarity=0.711  Sum_probs=9.5  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDNQFYS   12 (12)
+Q Consensus         1 mskskvdnqfys   12 (12)
+                      ||..||.|.+|.
+T Consensus         1 MsERKv~nKYyP   12 (291)
+T 7B9V_D            1 MSERKAINKYYP   12 (291)
+T ss_pred             CCCCcccCcCCC
+Confidence            788888888773
+
+
+No 4
+>3I05_B Tryptophanyl-tRNA synthetase, putative (E.C.6.1.1.2); apo tRNA-ligase, ATP-binding, Aminoacyl-tRNA synthetase; 2.8A {Trypanosoma brucei}
+Probab=28.94  E-value=68  Score=16.44  Aligned_cols=7  Identities=43%  Similarity=0.454  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDN    8 (12)
+Q Consensus         1 mskskvdn    8 (12)
+                      ||||+ +|
+T Consensus       271 MSkS~-~~  277 (395)
+T 3I05_B          271 MSSSS-GT  277 (395)
+T ss_dssp             --------
+T ss_pred             cCCCC-CC
+Confidence            67776 44
+
+
+No 5
+>1KP6_A TOXIN; KILLER TOXIN, ION CHANNEL MODULATOR; 1.8A {Ustilago maydis} SCOP: d.58.25.1
+Probab=27.84  E-value=21  Score=18.13  Aligned_cols=7  Identities=71%  Similarity=1.189  Sum_probs=4.0  Template_Neff=1.000
+
+Q ss_pred             CCCCCCC
+Q tr|A0A286YF04|    6 VDNQFYS   12 (12)
+Q Consensus         6 vdnqfys   12 (12)
+                      ..|||||
+T Consensus        57 lrnqfys   63 (79)
+T 1KP6_A           57 LRNQFYS   63 (79)
+T ss_dssp             CHHHHHH
+T ss_pred             HHhhHHH
+Confidence            3466764
+
+
+No 6
+>5THH_A Tyrosine--tRNA ligase, cytoplasmic (E.C.6.1.1.1); Tyrosyl-tRNA synthetase, CMT mutant, LIGASE; HET: TYR; 1.959A {Homo sapiens}
+Probab=26.56  E-value=88  Score=14.79  Aligned_cols=8  Identities=38%  Similarity=0.488  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDN    8 (12)
+Q Consensus         1 mskskvdn    8 (12)
+                      ||||.-+|
+T Consensus       220 msks~~~~  227 (339)
+T 5THH_A          220 MSSSEEES  227 (339)
+T ss_dssp             --------
+T ss_pred             CCCCcccc
+Confidence            66666544
+
+
+No 7
+>5YZG_Y Pre-mRNA-processing-splicing factor 8, 116 kDa; Structure of a Human Catalytic; HET: ADP, GTP, IHP, SEP, ATP; 4.1A {Homo sapiens}
+Probab=26.22  E-value=99  Score=17.30  Aligned_cols=12  Identities=50%  Similarity=0.797  Sum_probs=9.4  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDNQFYS   12 (12)
+Q Consensus         1 mskskvdnqfys   12 (12)
+                      ||..||.|.+|.
+T Consensus         1 MsERKv~nkYyP   12 (323)
+T 5YZG_Y            1 MSERKVLNKYYP   12 (323)
+T ss_pred             CCCCcccCccCC
+Confidence            788888888773
+
+
+No 8
+>6WRT_A Tyrosine--tRNA ligase (E.C.6.1.1.1); aminoacyl-tRNA synthetase, 3-nitro-tyrosine, LIGASE; HET: NIY; 1.55A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=25.03  E-value=91  Score=15.10  Aligned_cols=8  Identities=50%  Similarity=0.352  Sum_probs=4.9  Template_Neff=9.900
+
+Q ss_pred             CCCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDNQ    9 (12)
+Q Consensus         1 mskskvdnq    9 (12)
+                      |||| ..|.
+T Consensus       205 MSkS-~~~~  212 (314)
+T 6WRT_A          205 MSSS-KGNF  212 (314)
+T ss_dssp             CCTT-TTCC
+T ss_pred             CCCC-CCCc
+Confidence            7777 4444
+
+
+No 9
+>2CYB_A Tyrosyl-tRNA synthetase (E.C.6.1.1.1); Rossmann-fold, Structural Genomics, NPPSFA, National; HET: TYR; 1.8A {Archaeoglobus fulgidus}
+Probab=21.58  E-value=1.4e+02  Score=14.21  Aligned_cols=7  Identities=57%  Similarity=0.525  Sum_probs=4.2  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDN    8 (12)
+Q Consensus         1 mskskvdn    8 (12)
+                      |||| .+|
+T Consensus       215 mSkS-~~~  221 (323)
+T 2CYB_A          215 MSSS-KGN  221 (323)
+T ss_dssp             CCTT-TTC
+T ss_pred             CCCC-CCC
+Confidence            6777 344
+
+
+No 10
+>2CYB_B Tyrosyl-tRNA synthetase (E.C.6.1.1.1); Rossmann-fold, Structural Genomics, NPPSFA, National; HET: TYR; 1.8A {Archaeoglobus fulgidus}
+Probab=21.58  E-value=1.4e+02  Score=14.21  Aligned_cols=7  Identities=57%  Similarity=0.525  Sum_probs=4.2  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDN    8 (12)
+Q Consensus         1 mskskvdn    8 (12)
+                      |||| .+|
+T Consensus       215 mSkS-~~~  221 (323)
+T 2CYB_B          215 MSSS-KGN  221 (323)
+T ss_dssp             CCTT-TTC
+T ss_pred             CCCC-CCC
+Confidence            6777 344
+
+
+No 11
+>1N3L_A tyrosyl-tRNA synthetasen; Rossmann fold as catalytic domain; HET: SO4, GOL; 1.18A {Homo sapiens} SCOP: c.26.1.1
+Probab=20.67  E-value=1.4e+02  Score=14.82  Aligned_cols=8  Identities=38%  Similarity=0.488  Sum_probs=0.9  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A286YF04|    1 MSKSKVDN    8 (12)
+Q Consensus         1 mskskvdn    8 (12)
+                      ||||.-+|
+T Consensus       223 MSkS~~~~  230 (372)
+T 1N3L_A          223 MSSSEEES  230 (372)
+T ss_dssp             ------CC
+T ss_pred             CCCCCccc
+Confidence            66666544
+
+

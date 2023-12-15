@@ -1,0 +1,855 @@
+Query         tr|K7EL50|K7EL50_HUMAN
+Match_columns 378
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:44:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1430.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6ENY_G Beta-2-microglobulin, T 100.0  5E-107  6E-112  739.1  26.3  346   19-364     2-347 (400)
+  2 1JHN_A calnexin; jelly-roll, b 100.0 5.8E-85 6.2E-90  593.8  28.1  342   11-356    16-421 (424)
+  3 3RG0_A Calreticulin; beta-sand 100.0 1.4E-80 1.5E-85  541.6  25.4  322   17-368     3-324 (332)
+  4 5HCF_C Calreticulin, putative, 100.0 6.5E-67 7.1E-72  448.6  14.4  263   20-368     1-265 (271)
+  5 5HCF_D Calreticulin, putative, 100.0 6.5E-67 7.1E-72  448.6  14.4  263   20-368     1-265 (271)
+  6 5HCA_A Calreticulin,Calreticul 100.0 2.7E-64 2.9E-69  430.8  17.2  263   18-367     2-268 (274)
+  7 5HCA_B Calreticulin,Calreticul 100.0 2.7E-64 2.9E-69  430.8  17.2  263   18-367     2-268 (274)
+  8 5HCB_B Calreticulin,Calreticul 100.0 2.7E-64 2.9E-69  430.8  17.2  263   18-367     2-268 (274)
+  9 5LK5_A Calreticulin,Calreticul 100.0 1.9E-60   2E-65  399.9  19.8  256   17-366     8-263 (265)
+ 10 3POW_A calreticulin; legume le 100.0   2E-60 2.2E-65  402.0  19.6  256   17-366     8-263 (265)
+ 11 1HHN_A CALRETICULIN; MOLECULAR  99.9 4.1E-27 4.4E-32  178.1   9.4  100  205-304     1-100 (101)
+ 12 1K9C_A HAIRPIN, METAL TRANSPOR  99.8 1.5E-19 1.6E-24  130.4   6.5   73  205-277     1-73  (74)
+ 13 5V90_D Endoplasmic reticulum r  99.0 1.2E-09 1.3E-14   70.4   4.0   32  241-272     8-39  (40)
+ 14 1K91_A HAIRPIN, METAL TRANSPOR  98.9 2.5E-09 2.8E-14   68.4   3.7   20  253-272    17-36  (37)
+ 15 3ICI_C Peptidyl-prolyl cis-tra  98.6 8.9E-08 9.7E-13   62.3   3.7   29  241-269     9-37  (38)
+ 16 5V8Z_B Endoplasmic reticulum r  98.6 8.9E-08 9.7E-13   62.3   3.7   29  241-269     9-37  (38)
+ 17 6T3Y_A MHC class II alpha chai  37.7 1.1E+02  0.0012   22.0   3.5   24  129-152     7-30  (183)
+ 18 1UVQ_A HLA CLASS II HISTOCOMPA  32.7 1.3E+02  0.0014   22.4   3.3   27  127-153     6-32  (197)
+ 19 1BM8_A TRANSCRIPTION FACTOR MB  25.4      34 0.00037   25.5  -0.7   10  283-292    68-77  (99)
+ 20 7LGO_B Non-structural protein   23.1      86 0.00093   28.8   1.2   26  319-344    11-37  (115)
+ 21 7KEI_A MHC class II, antigen p  23.0 2.3E+02  0.0025   21.0   3.1   26  128-153     7-32  (206)
+ 22 2K87_A Non-structural protein   21.7      97   0.001   28.6   1.2   27  319-345    12-39  (116)
+ 23 5YBX_A Bouquet formation prote  20.9      60 0.00065   28.6  -0.2    9  284-292   109-117 (142)
+ 24 6A6W_A Bouquet formation prote  20.2      63 0.00068   28.5  -0.2    9  284-292   107-115 (140)
+
+No 1
+>6ENY_G Beta-2-microglobulin, Tapasin, Protein disulfide-isomerase A3; adaptive immunity, antigen processing, chaperone; HET: BGC, NAG, MAN; 5.8A {Homo sapiens}
+Probab=100.00  E-value=5.5e-107  Score=739.09  Aligned_cols=346  Identities=100%  Similarity=1.607  Sum_probs=328.7  Template_Neff=7.100
+
+Q ss_pred             CCceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEecCCCCCCEEEEEEEEe
+Q tr|K7EL50|K7EL   19 PAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVK   98 (378)
+Q Consensus        19 pavyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfepfsnkgqtlvvqftvk   98 (378)
+                      +++||.|+|+++++|.++|+.|++.++.|.|.++.+.++++..+++||+|++.+++|+||++|++|++.+++|||||+|+
+T Consensus         2 ~~~~f~e~F~~~~~~~~rWv~S~~~~~~G~~~~~~~~~~~~~~~dkGL~t~~~~~~yais~~~~~~~~~~k~LViQyevk   81 (400)
+T 6ENY_G            2 PAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVK   81 (400)
+T ss_dssp             CCEEEEECCCSGGGGGGTEEECCSCTTCCCEEEECCSSCSCTTTSCEEEECSSSEEEEEEEEEEEECCTTSCEEEEEEEE
+T ss_pred             CceeeeeecCCCCCcccCceeccccccCceEEEeeceecCCcccceeeEeCcchhhhhhhcCCCCccCCCCeEEEEEEee
+Confidence            46899999997556999999999999999999999987788889999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEECC
+Q tr|K7EL50|K7EL   99 HEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRP  178 (378)
+Q Consensus        99 heqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytlivrp  178 (378)
+                      +++.++|||+|||||++.+++..|+++++|.||||||+||..+++||+|++++++++.+.+++.+..|.++|||||+|++
+T Consensus        82 ~~~~~~CgG~yiKll~~~~~~~~f~~~t~y~imFGPD~Cg~~~~kvh~i~~~k~~~~~~~k~~~~~~d~~tHlYTLii~p  161 (400)
+T 6ENY_G           82 HEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRSKDDEFTHLYTLIVRP  161 (400)
+T ss_dssp             ETTCCSSCBCCEEEECTTCCGGGCCTTSCCSEEEEEEECSTTCEEEEEEEEETTEEECCSSCCBCCCSSSEEEEEEEECT
+T ss_pred             ccccccCCCceEEeccccCCHhhcCCCCccceeeccccCCCCCcceEEEEeeCCeeeeeeccccccCCCCCCeEEEEECC
+Confidence            99999999999999999999999999999999999999999887899999999999888888899999999999999999
+
+
+Q ss_pred             CCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  179 DNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMD  258 (378)
+Q Consensus       179 dntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdeemd  258 (378)
+                      +++|+|+||++.+..|+|..+|++.||+.|+||+++||+||+++++|+||+++||+|||+|..|++|.+.+|.+|+...+
+T Consensus       162 d~tyei~iD~~~v~~GsL~~d~~~~pp~~i~dp~~~KP~dW~d~~~i~Dp~~~kp~dwd~p~~ipdp~a~kp~dwd~~~d  241 (400)
+T 6ENY_G          162 DNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMD  241 (400)
+T ss_dssp             TSEEEEEETTEEEEEEEHHHHSCCC--CCCBCTTCCCCTTSCC-CBCSCSSCCCCSTTCCCSCEECTTCCCCTTCCHHHH
+T ss_pred             CCceEEEECCeEEeeCCCccccccCCCcccCCCCCCCCCchhhhccCCCCCCCCCCCCCCCCcccCCCCCCccccCcccC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeeeCCHHH
+Q tr|K7EL50|K7EL  259 GEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAY  338 (378)
+Q Consensus       259 geweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflitndeay  338 (378)
+                      |+|.+|++.||.|+|+|++++|+||+|+|.|.++.|.||+|+.+..++.+.+|+++|+++|++++|++|||||||+|+++
+T Consensus       242 Gew~~p~i~np~ykg~w~~~~i~np~ykG~w~~~~i~np~y~~d~~~~~~~~i~~vG~elw~~~~g~~fdNilit~d~~~  321 (400)
+T 6ENY_G          242 GEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAY  321 (400)
+T ss_dssp             SSCCCCEECCTTCCSTTCCCCCBC-CCCCCCCCCBCCCSSCCCCTTSSCCSCEEEEECEEEESSCCEEEEEEEEESCHHH
+T ss_pred             CCcCCCcccCcccCCCcCCCCCCCCCCCCcccCCccCCCCCCCCcchhhccccceeeeeeeeccCCceeeeEEecCCHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHCCCCCCcchhhhhhcccCCCCC
+Q tr|K7EL50|K7EL  339 AEEFGNETWGVTKAAEKQMKDKQDEE  364 (378)
+Q Consensus       339 aeefgnetwgvtkaaekqmkdkqdee  364 (378)
+                      |++|+++||+.++.+|++++++++++
+T Consensus       322 a~~~~~~t~~~~~~~e~~~~~~~~~~  347 (400)
+T 6ENY_G          322 AEEFGNETWGVTKAAEKQMKDKQDEE  347 (400)
+T ss_dssp             HHHHHHTTTTTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhhhhccHHHHHHHhHhhhHH
+Confidence            99999999999998888766554443
+
+
+No 2
+>1JHN_A calnexin; jelly-roll, beta sandwich, CHAPERONE; 2.9A {Canis lupus familiaris} SCOP: b.104.1.1, b.29.1.12
+Probab=100.00  E-value=5.8e-85  Score=593.77  Aligned_cols=342  Identities=44%  Similarity=0.843  Sum_probs=299.5  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCceccccecCCCCceeeeeeecccCC---------CccEEeecceecCCcccCCCCCCCccccEEEEEEEE
+Q tr|K7EL50|K7EL   11 LLGLAVAEPAVYFKEQFLDGDGWTSRWIESKHKSD---------FGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASF   81 (378)
+Q Consensus        11 llglavaepavyfkeqfldgdgwtsrwieskhksd---------fgkfvlssgkfygdeekdkglqtsqdarfyalsasf   81 (378)
+                      .+.++.+.+.+||.|+|++  .|.++|+.|++.++         .|+|.++.+. +.+..+++||++++.+++|+||++|
+T Consensus        16 ~~~~~~~~~~~~f~E~F~~--~~~~~Wi~S~~~~~~~~~~~~~y~G~w~~~~~~-~~~~~~d~gL~~~~~~~~yais~~~   92 (424)
+T 1JHN_A           16 TYKAPVPSGEVYFADSFDR--GTLSGWILSKAKKDDTDDEIAKYDGKWEVDEMK-ETKLPGDKGLVLMSRAKHHAISAKL   92 (424)
+T ss_dssp             -CCCCCCCSCCSSEECCCS--SSCCSCCCCCCC-----------CCEEECCBCT-TCSSTTCBCCEEECSSCCCEEEEEE
+T ss_pred             ceeCCCCCCceeeeecCCc--CcccCceecccccCCCcchHHhccceEEecccc-cCCCCCCcceEecchhhhhcHHhcC
+Confidence            3445556788999999997  68899999998653         6999999887 4667799999999999999999999
+
+
+Q ss_pred             e-cCCCCCCEEEEEEEEeCCCCccCCCcEEEEcCC--CCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCce----
+Q tr|K7EL50|K7EL   82 E-PFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPN--SLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKN----  154 (378)
+Q Consensus        82 e-pfsnkgqtlvvqftvkheqnidcgggyvklfpn--sldqtdmhgdseynimfgpdicgpgtkkvhvifnykgkn----  154 (378)
+                      + ++++.+++|||||+|++++.++|||+|||||+.  .+++.+|+++|+|.||||||+||..+ +||||+++++++    
+T Consensus        93 ~~p~~~~~k~lviQyevk~~~~~~CgG~yiKLl~~~~~~~~~~f~~~tpy~imFGPD~Cg~~~-kv~~i~~~~~~~~~~~  171 (424)
+T 1JHN_A           93 NKPFLFDTKPLIVQYEVNFQNGIECGGAYVKLLSKTPELNLDQFHDKTPYTIMFGPDKCGEDY-KLHFIFRHKNPKTGVY  171 (424)
+T ss_dssp             EEEECSSSSCEEEEEEECCTTCCSEEECCEEEEBCCSSCCGGGCCSSCCEEEEEEEEEESSCC-EEEEEEEEECTTTCCE
+T ss_pred             CCCccCCCCCeEEEEEEeeecccccCCeEEEEecCCCCcchhhhcCCCchheeecccccCCCC-eeEEEEEecCCCCCce
+Confidence            6 899999999999999999999999999999996  48899999999999999999999875 799999998864    
+
+
+Q ss_pred             --EEEccee----eecCCCccEEEEEEECCCCcEEEEEccccccCCCCCCCCc--CCCCCCCCCCCCCCCCCCcccCCCC
+Q tr|K7EL50|K7EL  155 --VLINKDI----RCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLEDDWD--FLPPKKIKDPDASKPEDWDERAKID  226 (378)
+Q Consensus       155 --vlinkdi----rckddefthlytlivrpdntyevkidnsqvesgsleddwd--flppkkikdpdaskpedwderakid  226 (378)
+                        +++..++    .+..|.+||||||||++|++|+|+||++.+.+|+|..+|+  +.||++|+||+++||+||+|+++|+
+T Consensus       172 ~e~~~~~~~~~~~~~~~d~~tHlYTLii~pd~t~~i~iD~~~~~~G~l~~~f~~~~~pp~~i~dp~~~kP~dw~d~~~i~  251 (424)
+T 1JHN_A          172 EEKHAKRPDADLKTYFTDKKTHLYTLILNPDNSFEILVDQSIVNSGNLLNDMTPPVNPSREIEDPEDQKPEDWDERPKIP  251 (424)
+T ss_dssp             EEECCCCCSSCCTHHHHSCSCEEEEEEEETTTEEEEEETTEEEEEEC-------CCSSCCCCBCTTCCCCTTCCCCSEEE
+T ss_pred             EeeeccCCCcchhhcccCCCCceEEEEeCCCCcEEEEECCEEeeeCcccccCCCCCCCCcccCCcccCCCCccccCCccC
+Confidence              2333331    2457899999999999999999999999999999999998  9999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCC---------------------CCCCCCCCCCCCCCCCCCCCCCCCCCC-------------------C
+Q tr|K7EL50|K7EL  227 DPTDSKPEDWDK---------------------PEHIPDPDAKKPEDWDEEMDGEWEPPV-------------------I  266 (378)
+Q Consensus       227 dptdskpedwdk---------------------pehipdpdakkpedwdeemdgeweppv-------------------i  266 (378)
+                      |++++||++|++                     +..++++.+.++..|+...+|+|.+++                   +
+T Consensus       252 D~~~~kp~dwde~~~~~i~d~~~~kp~~w~~~ep~~i~d~~a~kp~~w~~~~~gew~~p~i~np~c~~~~~cgrs~rsfi  331 (424)
+T 1JHN_A          252 DPDAVKPDDWNEDAPAKIPDEEATKPDGWLDDEPEYVPDPDAEKPEDWDEDMDGEWEAPQIANPKCESAPGCGVWQRPMI  331 (424)
+T ss_dssp             CSSCCCCTTCCSSCCSEEECTTCCCCSSCBSSSCSCCBCTTCCCCTTCCTTTSCCCCCCBCCCGGGTTSSCBSSCCCCEE
+T ss_pred             CcccCCCCCCCCCCCcCCCCcccCCCCCcccCCCCcCCCCCCCCCCCCCccCCCcccCCccCCCCCCCCCCCCcccCCCC
+Confidence            999999999984                     789999999999999998777777654                   5
+
+
+Q ss_pred             CCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeeeCCHHHHHHHCCCC
+Q tr|K7EL50|K7EL  267 QNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNET  346 (378)
+Q Consensus       267 qnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflitndeayaeefgnet  346 (378)
+                      +||+|+|+|++++|+||+|+|.|.+++|+||+|+.+.+++.+.+|+++||++|++++|++|||||||+|+++|++++++|
+T Consensus       332 nndrh~g~w~~~~i~np~y~g~w~~~~i~np~y~~~~~~~~~~~i~~ig~elw~~~~~~~fdnili~~~~~~a~~~~~~~  411 (424)
+T 1JHN_A          332 DNPNYKGKWKPPMIDNPNYQGIWKPRKIPNPDFFEDLEPFKMTPFSAIGLELWSMTSDIFFDNFIVCGDRRVVDDWANDG  411 (424)
+T ss_dssp             ECTTCCCSCCCCEEECTTCCCSCCCCBCCCTTCCCCCCTTCCCCEEEEEECCCCSSSCCBCEEEEEESSSHHHHHHHHHT
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCccCCCCccCCCChhhcCCccEEEeEEEEcCCCceeeeEEEcCCHHHHHHHHHhh
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCcchhhhhh
+Q tr|K7EL50|K7EL  347 WGVTKAAEKQ  356 (378)
+Q Consensus       347 wgvtkaaekq  356 (378)
+                      |++++.+|++
+T Consensus       412 ~~~~~~~~~~  421 (424)
+T 1JHN_A          412 WGLKKAADGA  421 (424)
+T ss_dssp             TTC-------
+T ss_pred             hhhhHHHhhh
+Confidence            9999887754
+
+
+No 3
+>3RG0_A Calreticulin; beta-sandwich, chaperone, monoglucosylated proteins binding; 2.57A {Mus musculus}
+Probab=100.00  E-value=1.4e-80  Score=541.61  Aligned_cols=322  Identities=93%  Similarity=1.495  Sum_probs=279.0  Template_Neff=8.100
+
+Q ss_pred             CCCCceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEecCCCCCCEEEEEEE
+Q tr|K7EL50|K7EL   17 AEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFT   96 (378)
+Q Consensus        17 aepavyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfepfsnkgqtlvvqft   96 (378)
+                      +++++||+|+|+++.+|.++|+.|++.++.|.|.++.+.++++..+++||++++.+++|+|+++|+|+++.+++|||||+
+T Consensus         3 ~~~~~~f~e~f~~~~~~~~~Wi~s~~~~~~G~~~~~~~~~~~~~~~~~gl~~~~~~~~y~is~~~~p~~~~~k~lviQye   82 (332)
+T 3RG0_A            3 MDPAIYFKEQFLDGDAWTNRWVESKHKSDFGKFVLSSGKFYGDLEKDKGLQTSQDARFYALSAKFEPFSNKGQTLVVQFT   82 (332)
+T ss_dssp             -CCCEEEEECCCSGGGGGGTEEECCSSSSCCCEEEECCSSCSSTTTTCEEEECSSSEEEEEEEEEEEECCTTSCEEEEEE
+T ss_pred             CCCceeeeeccCCccccccCceecccccccceEEEeeceecCCcccceeeEeCcchhcceeecccCceecCCCeEEEEeE
+Confidence            35789999999974468999999999999999999999877888899999999999999999999999999999999999
+
+
+Q ss_pred             EeCCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEE
+Q tr|K7EL50|K7EL   97 VKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIV  176 (378)
+Q Consensus        97 vkheqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytliv  176 (378)
+                      |++++.++|||+||||+++.+++..|+++++|.||||||+|+..+++||||+++++.++.+.+++.+..|.++|+|||+|
+T Consensus        83 vk~~~~~~Cgg~yiKll~~~~~~~~~~~~t~y~imFGPd~Cg~~~~~v~~i~~~~~~~~~~~~~~~~~~d~~thlytLii  162 (332)
+T 3RG0_A           83 VKHEQNIDCGGGYVKLFPSGLDQKDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRSKDDEFTHLYTLIV  162 (332)
+T ss_dssp             EEETTCCSEEECCEEEECSSCCGGGCCTTSCCSEEEEEEEETTTEEEEEEEEEETTEEEECSSCCBCCCSSSEEEEEEEE
+T ss_pred             EEecccccCCCceEEEcCCCCCHHHcCCCCcccceecCCCCCCCCceEEEEEeeCCeeeeeecceecCCCCCCceEEEEE
+Confidence            99999999999999999999999999999999999999999998878999999999998888888999999999999999
+
+
+Q ss_pred             CCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  177 RPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEE  256 (378)
+Q Consensus       177 rpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdee  256 (378)
+                      +++++|+|++|++.+..|+|..+|++.||++|+||++.||+||+|+++|+|++++||+||+++.                
+T Consensus       163 ~~d~t~ei~iDg~~~~~G~l~~~f~~~~p~~i~dp~~~kp~dw~d~~~i~Dp~~~kp~dwd~~~----------------  226 (332)
+T 3RG0_A          163 RPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDAAKPEDWDERAKIDDPTDSKPEDWDKGG----------------  226 (332)
+T ss_dssp             CTTSEEEEEETTEEEEEEEHHHHSCCSCCSEEECTTCCCCTTCCCCCCCC------------------------------
+T ss_pred             CCCCceEEEeCceeeecCCCcccccCCCCcccCCcccCCccccchhhcCCCCCCCCCcccccCC----------------
+Confidence            9999999999999999999999999999999999999999999999999999999999998632                
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeeeCCH
+Q tr|K7EL50|K7EL  257 MDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDE  336 (378)
+Q Consensus       257 mdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflitnde  336 (378)
+                                    |+|+|.+++|+||+|+|.|.++.|.||+|+.+..++.+.+|+++|+++|+++++++||||+||+|+
+T Consensus       227 --------------y~g~w~~~~i~np~ykg~w~~~~i~np~~~~~~~~~~~~~i~~vg~e~w~~~~~~~fdnili~~~~  292 (332)
+T 3RG0_A          227 --------------SGGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDANIYAYDSFAVLGLDLWQVKSGTIFDNFLITNDE  292 (332)
+T ss_dssp             ----------------------------CCCCCCCCEEECTTCCCCTTTTCCSCEEEEEEEEEESSCCEEEEEEEEESCH
+T ss_pred             --------------CCCCCCCCCCCCCCCCCCccCCcCCCCCCCCCCchhhccceeEEEEeeeeccCCceeeeEEecCCH
+Confidence                          999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHHCCCCCCcchhhhhhcccCCCCCCCCC
+Q tr|K7EL50|K7EL  337 AYAEEFGNETWGVTKAAEKQMKDKQDEEQRPE  368 (378)
+Q Consensus       337 ayaeefgnetwgvtkaaekqmkdkqdeeqrpe  368 (378)
+                      ++|++|+++||++|+.+|++++++++|++++.
+T Consensus       293 ~~a~~~~~~~~~~~~~~e~~~~~~~~~~~~~~  324 (332)
+T 3RG0_A          293 AYAEEFGNETWGVTKAAEKQMKDKQDEEQRLK  324 (332)
+T ss_dssp             HHHHHHHHTTHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             HHHHHHHHhhhhccHHHHHHhhhhhhHHHHHH
+Confidence            99999999999999999998777777665543
+
+
+No 4
+>5HCF_C Calreticulin, putative,Calreticulin, putative; chaperone, legume lectin fold, chagas; HET: BGC, ACY; 2.451A {Trypanosoma cruzi (strain CL Brener)}
+Probab=100.00  E-value=6.5e-67  Score=448.60  Aligned_cols=263  Identities=43%  Similarity=0.842  Sum_probs=242.4  Template_Neff=7.800
+
+Q ss_pred             CceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEe-cCCCCCCEEEEEEEEe
+Q tr|K7EL50|K7EL   20 AVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFE-PFSNKGQTLVVQFTVK   98 (378)
+Q Consensus        20 avyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfe-pfsnkgqtlvvqftvk   98 (378)
+                      ++||.|+|+   +|. +|+.|++.++.|.|.++.+.+.....+++||++++.+++|+|+++|+ |+++.+++|||||+|+
+T Consensus         1 ~v~f~E~F~---~~~-~Wi~s~~~~~~G~w~~~~~~~~~~~~~d~GL~~~~~~~~yais~~~~~p~~~~~k~lviQyevk   76 (271)
+T 5HCF_C            1 TVYFHEEFK---SME-HWTTSKHRDDFGKVEISAGKFYADAEKSKGLRLTEDARFYALSTAFPTPINNEKKSLVVSFSVK   76 (271)
+T ss_dssp             CEEEEECCS---CCT-TSEECCSSTTCCCEEEECCSSCSCTTTTCEEEECCSSEEEEEEEEEEEEECCTTSCEEEEEEEE
+T ss_pred             CccceecCc---ccc-cceecccccccccEEEeeceeccccccccceecChhhhhHHHHhcCCCCccCCCCcEEEEEEee
+Confidence            478999999   488 99999999999999999998666577999999999999999999997 8999999999999999
+
+
+Q ss_pred             CCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEECC
+Q tr|K7EL50|K7EL   99 HEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRP  178 (378)
+Q Consensus        99 heqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytlivrp  178 (378)
+                      +++.++|||+||||++ .+++..|+++++|.||||||+||.. ++||+|++++++.+.+.+++.+..|.++|||||+|++
+T Consensus        77 ~~~~~~CgG~yiKll~-~~~~~~f~~~t~y~imFGPD~Cg~~-~kvh~i~~~~~~~~~~~~~~~~~~d~~tHlytLii~~  154 (271)
+T 5HCF_C           77 HEQDLKCGGGYIKLLP-SMDPEKFHGETKYWLMFGPDRCGSQ-NRVHIILHYNGENREWSKRIRFPEDKLTHVYTLHIAA  154 (271)
+T ss_dssp             CTTCCSEEECCEEEES-SCCGGGCSTTSCCSEEEEEEEETTE-EEEEEEEEETTEEECCSCCCCCCCSSSEEEEEEEECT
+T ss_pred             cccccccCCeEEEecc-cCCHHHcCCCCcceeeeccccCCCC-ccEEEEEEecCccccccCCCCCCCCCCcceeEEEeCC
+Confidence            9999999999999999 8999999999999999999999974 5799999999988888888889999999999999999
+
+
+Q ss_pred             CCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  179 DNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMD  258 (378)
+Q Consensus       179 dntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdeemd  258 (378)
+                      |++|+|+||++.+..|+|..+|.+.||++|+||+                                              
+T Consensus       155 d~t~ei~iD~~~~~~g~l~~df~~~pp~~I~dp~----------------------------------------------  188 (271)
+T 5HCF_C          155 DNSYEFFLDGESKAKGQLEEDWSLLLPREIVDGS----------------------------------------------  188 (271)
+T ss_dssp             TSEEEEEETTEEEEEEEHHHHSCCSCCSBSSTTS----------------------------------------------
+T ss_pred             CCcEEEEECCeeeeeccccccchhcccceecCCC----------------------------------------------
+Confidence            9999999999999999999999999999888875                                              
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCC-CceeEEEEEEcCCCCcecceeeeCCHH
+Q tr|K7EL50|K7EL  259 GEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDN-FGVLGLDLWQVKSGTIFDNFLITNDEA  337 (378)
+Q Consensus       259 geweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydn-fgvlgldlwqvksgtifdnflitndea  337 (378)
+                                                        +|+||+|+++.+++.+.+ |+++||++|++++|++||||+||+|++
+T Consensus       189 ----------------------------------~I~np~y~~~~~~~~~~~~i~~ig~e~w~~~~g~~fDNili~~d~~  234 (271)
+T 5HCF_C          189 ----------------------------------GIPNPDFVEDSELHKVPEPLTHVGIDVWQVESGSIFKDIVIGDDLK  234 (271)
+T ss_dssp             ----------------------------------CCBCTTCCCCTTSSSCSSCEEEEEEEEEESSCCCEEEEEEEESCHH
+T ss_pred             ----------------------------------CCCCccccCCCchhcCCCCccccccceeeecCCceeeeEEEcCCHH
+Confidence                                              567777888888887776 999999999999999999999999999
+
+
+Q ss_pred             HHHHHCCCCCCcchhhhhhcccCCCCCCCCC
+Q tr|K7EL50|K7EL  338 YAEEFGNETWGVTKAAEKQMKDKQDEEQRPE  368 (378)
+Q Consensus       338 yaeefgnetwgvtkaaekqmkdkqdeeqrpe  368 (378)
+                      +|++++++||++|+..|+++++++++++++.
+T Consensus       235 ~a~~~~~~t~~~k~~~e~~~~~~~~~~~~~~  265 (271)
+T 5HCF_C          235 EVLDLVEKTYGGLKKAEADALKVMEDMEKGD  265 (271)
+T ss_dssp             HHHHHHCCCCCTTHHHHHHHHHHTTTCC---
+T ss_pred             HHHHHHHHHhhhhHHHHHHHHHHhhHHhhcC
+Confidence            9999999999999999998888888777654
+
+
+No 5
+>5HCF_D Calreticulin, putative,Calreticulin, putative; chaperone, legume lectin fold, chagas; HET: BGC, ACY; 2.451A {Trypanosoma cruzi (strain CL Brener)}
+Probab=100.00  E-value=6.5e-67  Score=448.60  Aligned_cols=263  Identities=43%  Similarity=0.842  Sum_probs=243.3  Template_Neff=7.800
+
+Q ss_pred             CceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEe-cCCCCCCEEEEEEEEe
+Q tr|K7EL50|K7EL   20 AVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFE-PFSNKGQTLVVQFTVK   98 (378)
+Q Consensus        20 avyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfe-pfsnkgqtlvvqftvk   98 (378)
+                      ++||.|+|+   +|. +|+.|++.++.|.|.++.+.+.....+++||++++.+++|+|+++|+ |+++.+++|||||+|+
+T Consensus         1 ~v~f~E~F~---~~~-~Wi~s~~~~~~G~w~~~~~~~~~~~~~d~GL~~~~~~~~yais~~~~~p~~~~~k~lviQyevk   76 (271)
+T 5HCF_D            1 TVYFHEEFK---SME-HWTTSKHRDDFGKVEISAGKFYADAEKSKGLRLTEDARFYALSTAFPTPINNEKKSLVVSFSVK   76 (271)
+T ss_dssp             CCCEEECCS---CCT-TCEECSSCTTCCCEEEECCSSCSCTTTTCEEEECCSSEEEEEEEEEEEEECCTTSCEEEEEEEE
+T ss_pred             CccceecCc---ccc-cceecccccccccEEEeeceeccccccccceecChhhhhHHHHhcCCCCccCCCCcEEEEEEee
+Confidence            478999999   488 99999999999999999998666577999999999999999999997 8999999999999999
+
+
+Q ss_pred             CCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEECC
+Q tr|K7EL50|K7EL   99 HEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRP  178 (378)
+Q Consensus        99 heqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytlivrp  178 (378)
+                      +++.++|||+||||++ .+++..|+++++|.||||||+||.. ++||+|++++++.+.+.+++.+..|.++|||||+|++
+T Consensus        77 ~~~~~~CgG~yiKll~-~~~~~~f~~~t~y~imFGPD~Cg~~-~kvh~i~~~~~~~~~~~~~~~~~~d~~tHlytLii~~  154 (271)
+T 5HCF_D           77 HEQDLKCGGGYIKLLP-SMDPEKFHGETKYWLMFGPDRCGSQ-NRVHIILHYNGENREWSKRIRFPEDKLTHVYTLHIAA  154 (271)
+T ss_dssp             CTTCCSEEECCEEEES-SCCGGGCSTTSCCSEEEEEEEETTE-EEEEEEEEETTEEEECSCCCCCCCSSSEEEEEEEECT
+T ss_pred             cccccccCCeEEEecc-cCCHHHcCCCCcceeeeccccCCCC-ccEEEEEEecCccccccCCCCCCCCCCcceeEEEeCC
+Confidence            9999999999999999 8999999999999999999999974 5799999999988888888889999999999999999
+
+
+Q ss_pred             CCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  179 DNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMD  258 (378)
+Q Consensus       179 dntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdeemd  258 (378)
+                      |++|+|+||++.+..|+|..+|.+.||++|+||+                                              
+T Consensus       155 d~t~ei~iD~~~~~~g~l~~df~~~pp~~I~dp~----------------------------------------------  188 (271)
+T 5HCF_D          155 DNSYEFFLDGESKAKGQLEEDWSLLLPREIVDGS----------------------------------------------  188 (271)
+T ss_dssp             TSEEEEEETTEEEEEEEHHHHSCCSCCSBSSTTS----------------------------------------------
+T ss_pred             CCcEEEEECCeeeeeccccccchhcccceecCCC----------------------------------------------
+Confidence            9999999999999999999999999999888875                                              
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCC-CceeEEEEEEcCCCCcecceeeeCCHH
+Q tr|K7EL50|K7EL  259 GEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDN-FGVLGLDLWQVKSGTIFDNFLITNDEA  337 (378)
+Q Consensus       259 geweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydn-fgvlgldlwqvksgtifdnflitndea  337 (378)
+                                                        +|+||+|+++.+++.+.+ |+++||++|++++|++||||+||+|++
+T Consensus       189 ----------------------------------~I~np~y~~~~~~~~~~~~i~~ig~e~w~~~~g~~fDNili~~d~~  234 (271)
+T 5HCF_D          189 ----------------------------------GIPNPDFVEDSELHKVPEPLTHVGIDVWQVESGSIFKDIVIGDDLK  234 (271)
+T ss_dssp             ----------------------------------CCBCTTCCCCTTTTSCSSCEEEEEEEEEESSCCCEEEEEEEESCHH
+T ss_pred             ----------------------------------CCCCccccCCCchhcCCCCccccccceeeecCCceeeeEEEcCCHH
+Confidence                                              566777777888887776 999999999999999999999999999
+
+
+Q ss_pred             HHHHHCCCCCCcchhhhhhcccCCCCCCCCC
+Q tr|K7EL50|K7EL  338 YAEEFGNETWGVTKAAEKQMKDKQDEEQRPE  368 (378)
+Q Consensus       338 yaeefgnetwgvtkaaekqmkdkqdeeqrpe  368 (378)
+                      +|++++++||++|+..|+++++++++++++.
+T Consensus       235 ~a~~~~~~t~~~k~~~e~~~~~~~~~~~~~~  265 (271)
+T 5HCF_D          235 EVLDLVEKTYGGLKKAEADALKVMEDMEKGD  265 (271)
+T ss_dssp             HHHHHHCCCCCTTHHHHHHHHHHHHHTTTC-
+T ss_pred             HHHHHHHHHhhhhHHHHHHHHHHhhHHhhcC
+Confidence            9999999999999999998778777777654
+
+
+No 6
+>5HCA_A Calreticulin,Calreticulin; chaperone, legume lectin domain, sugar; HET: BGC, SO4; 2.15A {Entamoeba histolytica HM-1:IMSS}
+Probab=100.00  E-value=2.7e-64  Score=430.84  Aligned_cols=263  Identities=50%  Similarity=0.964  Sum_probs=239.4  Template_Neff=8.000
+
+Q ss_pred             CCCceccccecCCCCceeeeeeecccCC-CccEEeecceecCCcccCCCCCCCccccEEEEEEEEe-cCCCCCCEEEEEE
+Q tr|K7EL50|K7EL   18 EPAVYFKEQFLDGDGWTSRWIESKHKSD-FGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFE-PFSNKGQTLVVQF   95 (378)
+Q Consensus        18 epavyfkeqfldgdgwtsrwieskhksd-fgkfvlssgkfygdeekdkglqtsqdarfyalsasfe-pfsnkgqtlvvqf   95 (378)
+                      +++++|.|+|++  .  ++|+.|+++++ .|.|.++.+.+..... ++||++++.+++|+|+++|+ |+++.+++|||||
+T Consensus         2 ~~~~~f~E~F~~--~--~~Wv~S~~~~~~~G~w~~~~~~~~~~~~-~~gl~~~~~~~~yais~~~~~p~~~~~~~lvvQy   76 (274)
+T 5HCA_A            2 SAKVYFHETFEN--R--DKWIDSTSSGKALGPFKIVSGKWYGDAN-NKGLQTSEDNKFYIAAAKLDEEFSNKDKNLIVQY   76 (274)
+T ss_dssp             -CCEEEEECCSC--C--TTCEECSSSCSCBCCEEEECCSSCSCTT-CCEEEECSSSEEEEEEEEEEEEECCTTSCEEEEE
+T ss_pred             CcceeeeeecCC--C--CCeeeCCCCCCCCccEEEeeceeccCcc-cceeeeCccccceeeeccCCCcccCCCCceEEEE
+Confidence            467899999998  3  78999998865 8999999988654444 49999999999999999997 7999999999999
+
+
+Q ss_pred             EEeCCCCccCCCcEEEEcCCC--CCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEE
+Q tr|K7EL50|K7EL   96 TVKHEQNIDCGGGYVKLFPNS--LDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYT  173 (378)
+Q Consensus        96 tvkheqnidcgggyvklfpns--ldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlyt  173 (378)
+                      +|++++.++|||+||||+++.  +++..|+++++|.||||||+|| ..+++|+|++++++.+.+.+++.+..|.++|+||
+T Consensus        77 evk~~~~~~Cgg~yiKll~~~~~~~~~~f~~~t~y~imFGPd~Cg-~~~kv~~i~~~~~~~~~~~~~~~~~~d~~thlyt  155 (274)
+T 5HCA_A           77 NLKFEQGIDCGGGYIKLLPKKSIESEEKFTPESEYNIMFGPDVCG-GSKRTHVIMNYKGKNNLIRKEIKCESDDISHLYT  155 (274)
+T ss_dssp             EEEETTCCSEEECCEEEECGGGCSSGGGCCTTSCCSEEEEEEEET-TEEEEEEEEEEETTEEEECCCCBCCCSSSCEEEE
+T ss_pred             EeeccCCcccCceeeEecccccccchhhcCCCCccceeccccccC-CCceeEEEEeeCCeeeeeecCCccCCCCcceeEE
+Confidence            999999999999999999986  8999999999999999999999 4568999999999998888888899999999999
+
+
+Q ss_pred             EEECCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  174 LIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDW  253 (378)
+Q Consensus       174 livrpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedw  253 (378)
+                      |+|++|++|+|+||++.+..|+|..+|.+.||++|+||+                                         
+T Consensus       156 Lii~pd~t~~i~iD~~~~~~G~l~~~f~~~ppk~I~dp~-----------------------------------------  194 (274)
+T 5HCA_A          156 LIIRPNNTYVVKIDGVEKQEGKFDEDWDMLAPKEIDDGS-----------------------------------------  194 (274)
+T ss_dssp             EEEETTTEEEEEETTEEEEEEESSTTCEEECTTCCCCSS-----------------------------------------
+T ss_pred             EEeCCCCeEEEEECCEEEEeccccccccCCCchhcCCCC-----------------------------------------
+Confidence            999999999999999999999999999988888888774                                         
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeee
+Q tr|K7EL50|K7EL  254 DEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLIT  333 (378)
+Q Consensus       254 deemdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflit  333 (378)
+                                                             +|+||+|+++..++.+.+|+++||++|+++++++||||+||
+T Consensus       195 ---------------------------------------~I~np~y~~d~~~~~~~~i~~vg~elw~~~~g~~fdNili~  235 (274)
+T 5HCA_A          195 ---------------------------------------GIANPDYVYDPELYKYDSFAYIGIDVWQVKAGTIYDDILIT  235 (274)
+T ss_dssp             ---------------------------------------CCSBCCCCCCTTTTCCSCEEEEEEEEEESSCCEEEEEEEEE
+T ss_pred             ---------------------------------------CCCCCccCCChhHhcccccceeeeeEceecCCceeeeEEec
+Confidence                                                   56788888888888899999999999999999999999999
+
+
+Q ss_pred             CCHHHHHHHCCCCCCcchhhhhhcccCCCCCCCC
+Q tr|K7EL50|K7EL  334 NDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRP  367 (378)
+Q Consensus       334 ndeayaeefgnetwgvtkaaekqmkdkqdeeqrp  367 (378)
+                      +|+++|++ +++||++|+.+|+++++++++++..
+T Consensus       236 ~d~~~a~~-~~~~~~~~~~~e~~~~~~~~~~~~~  268 (274)
+T 5HCA_A          236 DDIEEAEK-EAKVILERNAAEKKMRDEIKEAENG  268 (274)
+T ss_dssp             SCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHCC-
+T ss_pred             CCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHcC
+Confidence            99999999 9999999999999877777766643
+
+
+No 7
+>5HCA_B Calreticulin,Calreticulin; chaperone, legume lectin domain, sugar; HET: BGC, SO4; 2.15A {Entamoeba histolytica HM-1:IMSS}
+Probab=100.00  E-value=2.7e-64  Score=430.84  Aligned_cols=263  Identities=50%  Similarity=0.964  Sum_probs=239.5  Template_Neff=8.000
+
+Q ss_pred             CCCceccccecCCCCceeeeeeecccCC-CccEEeecceecCCcccCCCCCCCccccEEEEEEEEe-cCCCCCCEEEEEE
+Q tr|K7EL50|K7EL   18 EPAVYFKEQFLDGDGWTSRWIESKHKSD-FGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFE-PFSNKGQTLVVQF   95 (378)
+Q Consensus        18 epavyfkeqfldgdgwtsrwieskhksd-fgkfvlssgkfygdeekdkglqtsqdarfyalsasfe-pfsnkgqtlvvqf   95 (378)
+                      +++++|.|+|++  .  ++|+.|+++++ .|.|.++.+.+..... ++||++++.+++|+|+++|+ |+++.+++|||||
+T Consensus         2 ~~~~~f~E~F~~--~--~~Wv~S~~~~~~~G~w~~~~~~~~~~~~-~~gl~~~~~~~~yais~~~~~p~~~~~~~lvvQy   76 (274)
+T 5HCA_B            2 SAKVYFHETFEN--R--DKWIDSTSSGKALGPFKIVSGKWYGDAN-NKGLQTSEDNKFYIAAAKLDEEFSNKDKNLIVQY   76 (274)
+T ss_dssp             CCCEEEEECCSC--C--TTCEECSSSCSCBCCEEEECCSSCSCTT-CCEEEECSSSEEEEEEEEEEEEECCTTSCEEEEE
+T ss_pred             CcceeeeeecCC--C--CCeeeCCCCCCCCccEEEeeceeccCcc-cceeeeCccccceeeeccCCCcccCCCCceEEEE
+Confidence            467899999998  3  78999998865 8999999988654444 49999999999999999997 7999999999999
+
+
+Q ss_pred             EEeCCCCccCCCcEEEEcCCC--CCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEE
+Q tr|K7EL50|K7EL   96 TVKHEQNIDCGGGYVKLFPNS--LDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYT  173 (378)
+Q Consensus        96 tvkheqnidcgggyvklfpns--ldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlyt  173 (378)
+                      +|++++.++|||+||||+++.  +++..|+++++|.||||||+|| ..+++|+|++++++.+.+.+++.+..|.++|+||
+T Consensus        77 evk~~~~~~Cgg~yiKll~~~~~~~~~~f~~~t~y~imFGPd~Cg-~~~kv~~i~~~~~~~~~~~~~~~~~~d~~thlyt  155 (274)
+T 5HCA_B           77 NLKFEQGIDCGGGYIKLLPKKSIESEEKFTPESEYNIMFGPDVCG-GSKRTHVIMNYKGKNNLIRKEIKCESDDISHLYT  155 (274)
+T ss_dssp             EEEETTCCSEEECCEEEECGGGCSSGGGCCTTSCCSEEEEEEEET-TEEEEEEEEEETTEEEECSSCEECCCSSSCEEEE
+T ss_pred             EeeccCCcccCceeeEecccccccchhhcCCCCccceeccccccC-CCceeEEEEeeCCeeeeeecCCccCCCCcceeEE
+Confidence            999999999999999999986  8999999999999999999999 4568999999999888888888899999999999
+
+
+Q ss_pred             EEECCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  174 LIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDW  253 (378)
+Q Consensus       174 livrpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedw  253 (378)
+                      |+|++|++|+|+||++.+..|+|..+|.+.||++|+||+                                         
+T Consensus       156 Lii~pd~t~~i~iD~~~~~~G~l~~~f~~~ppk~I~dp~-----------------------------------------  194 (274)
+T 5HCA_B          156 LIIRPNNTYVVKIDGVEKQEGKFDEDWDMLAPKEIDDGS-----------------------------------------  194 (274)
+T ss_dssp             EEEETTTEEEEEETTEEEEEEEHHHHSCSSSCSCCCSSC-----------------------------------------
+T ss_pred             EEeCCCCeEEEEECCEEEEeccccccccCCCchhcCCCC-----------------------------------------
+Confidence            999999999999999999999999999988888888774                                         
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeee
+Q tr|K7EL50|K7EL  254 DEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLIT  333 (378)
+Q Consensus       254 deemdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflit  333 (378)
+                                                             +|+||+|+++..++.+.+|+++||++|+++++++||||+||
+T Consensus       195 ---------------------------------------~I~np~y~~d~~~~~~~~i~~vg~elw~~~~g~~fdNili~  235 (274)
+T 5HCA_B          195 ---------------------------------------GIANPDYVYDPELYKYDSFAYIGIDVWQVKAGTIYDDILIT  235 (274)
+T ss_dssp             ---------------------------------------CSCSTTCCCCTTTTCCSCEEEEEEEEEESSCCEEEEEEEEE
+T ss_pred             ---------------------------------------CCCCCccCCChhHhcccccceeeeeEceecCCceeeeEEec
+Confidence                                                   57788888888888899999999999999999999999999
+
+
+Q ss_pred             CCHHHHHHHCCCCCCcchhhhhhcccCCCCCCCC
+Q tr|K7EL50|K7EL  334 NDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRP  367 (378)
+Q Consensus       334 ndeayaeefgnetwgvtkaaekqmkdkqdeeqrp  367 (378)
+                      +|+++|++ +++||++|+.+|+++++++++++..
+T Consensus       236 ~d~~~a~~-~~~~~~~~~~~e~~~~~~~~~~~~~  268 (274)
+T 5HCA_B          236 DDIEEAEK-EAKVILERNAAEKKMRDEIKEAENG  268 (274)
+T ss_dssp             SCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHcC
+Confidence            99999999 9999999999999877777766543
+
+
+No 8
+>5HCB_B Calreticulin,Calreticulin; chaperone, legume lectin domain, sugar; HET: SO4; 2.9A {Entamoeba histolytica HM-1:IMSS}
+Probab=100.00  E-value=2.7e-64  Score=430.84  Aligned_cols=263  Identities=50%  Similarity=0.964  Sum_probs=238.9  Template_Neff=8.000
+
+Q ss_pred             CCCceccccecCCCCceeeeeeecccCC-CccEEeecceecCCcccCCCCCCCccccEEEEEEEEe-cCCCCCCEEEEEE
+Q tr|K7EL50|K7EL   18 EPAVYFKEQFLDGDGWTSRWIESKHKSD-FGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFE-PFSNKGQTLVVQF   95 (378)
+Q Consensus        18 epavyfkeqfldgdgwtsrwieskhksd-fgkfvlssgkfygdeekdkglqtsqdarfyalsasfe-pfsnkgqtlvvqf   95 (378)
+                      +++++|.|+|++  .  ++|+.|+++++ .|.|.++.+.+..... ++||++++.+++|+|+++|+ |+++.+++|||||
+T Consensus         2 ~~~~~f~E~F~~--~--~~Wv~S~~~~~~~G~w~~~~~~~~~~~~-~~gl~~~~~~~~yais~~~~~p~~~~~~~lvvQy   76 (274)
+T 5HCB_B            2 SAKVYFHETFEN--R--DKWIDSTSSGKALGPFKIVSGKWYGDAN-NKGLQTSEDNKFYIAAAKLDEEFSNKDKNLIVQY   76 (274)
+T ss_dssp             CCCEEEEECCSC--C--TTCEECSSSSSCBCCEEEECCSSCSCTT-CCEEEECSSSEEEEEEEEEEEEECCTTSCEEEEE
+T ss_pred             CcceeeeeecCC--C--CCeeeCCCCCCCCccEEEeeceeccCcc-cceeeeCccccceeeeccCCCcccCCCCceEEEE
+Confidence            467899999998  3  78999998865 8999999988654444 49999999999999999997 7999999999999
+
+
+Q ss_pred             EEeCCCCccCCCcEEEEcCCC--CCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEE
+Q tr|K7EL50|K7EL   96 TVKHEQNIDCGGGYVKLFPNS--LDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYT  173 (378)
+Q Consensus        96 tvkheqnidcgggyvklfpns--ldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlyt  173 (378)
+                      +|++++.++|||+||||+++.  +++..|+++++|.||||||+|| ..+++|+|++++++.+.+.+++.+..|.++|+||
+T Consensus        77 evk~~~~~~Cgg~yiKll~~~~~~~~~~f~~~t~y~imFGPd~Cg-~~~kv~~i~~~~~~~~~~~~~~~~~~d~~thlyt  155 (274)
+T 5HCB_B           77 NLKFEQGIDCGGGYIKLLPKKSIESEEKFTPESEYNIMFGPDVCG-GSKRTHVIMNYKGKNNLIRKEIKCESDDISHLYT  155 (274)
+T ss_dssp             EEECTTCCSEEECCEEEECGGGCSSGGGCCTTSCCSEEEEEEEET-TEEEEEEEEEETTEEECCSSCCBCCCSSSEEEEE
+T ss_pred             EeeccCCcccCceeeEecccccccchhhcCCCCccceeccccccC-CCceeEEEEeeCCeeeeeecCCccCCCCcceeEE
+Confidence            999999999999999999986  8999999999999999999999 4568999999999888888888899999999999
+
+
+Q ss_pred             EEECCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  174 LIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDW  253 (378)
+Q Consensus       174 livrpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedw  253 (378)
+                      |+|++|++|+|+||++.+..|+|..+|.+.||++|+||+                                         
+T Consensus       156 Lii~pd~t~~i~iD~~~~~~G~l~~~f~~~ppk~I~dp~-----------------------------------------  194 (274)
+T 5HCB_B          156 LIIRPNNTYVVKIDGVEKQEGKFDEDWDMLAPKEIDDGS-----------------------------------------  194 (274)
+T ss_dssp             EEEETTTEEEEEETTEEEEEEEHHHHSCTTCTTHHHHCC-----------------------------------------
+T ss_pred             EEeCCCCeEEEEECCEEEEeccccccccCCCchhcCCCC-----------------------------------------
+Confidence            999999999999999999999999999988888887774                                         
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeee
+Q tr|K7EL50|K7EL  254 DEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLIT  333 (378)
+Q Consensus       254 deemdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflit  333 (378)
+                                                             +|+||+|+++..++.+.+|+++||++|+++++++||||+||
+T Consensus       195 ---------------------------------------~I~np~y~~d~~~~~~~~i~~vg~elw~~~~g~~fdNili~  235 (274)
+T 5HCB_B          195 ---------------------------------------GIANPDYVYDPELYKYDSFAYIGIDVWQVKAGTIYDDILIT  235 (274)
+T ss_dssp             ---------------------------------------CSSCTTCCCCTTTTCCSCEEEEEEEEEESSCCCEEEEEEEE
+T ss_pred             ---------------------------------------CCCCCccCCChhHhcccccceeeeeEceecCCceeeeEEec
+Confidence                                                   57788888888888899999999999999999999999999
+
+
+Q ss_pred             CCHHHHHHHCCCCCCcchhhhhhcccCCCCCCCC
+Q tr|K7EL50|K7EL  334 NDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRP  367 (378)
+Q Consensus       334 ndeayaeefgnetwgvtkaaekqmkdkqdeeqrp  367 (378)
+                      +|+++|++ +++||++|+.+|+++++++++++..
+T Consensus       236 ~d~~~a~~-~~~~~~~~~~~e~~~~~~~~~~~~~  268 (274)
+T 5HCB_B          236 DDIEEAEK-EAKVILERNAAEKKMRDEIKEAENG  268 (274)
+T ss_dssp             SCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHC--
+T ss_pred             CCHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHcC
+Confidence            99999999 9999999999999877777766543
+
+
+No 9
+>5LK5_A Calreticulin,Calreticulin; calcium-binding protein; HET: CA; 2.3A {Homo sapiens}
+Probab=100.00  E-value=1.9e-60  Score=399.90  Aligned_cols=256  Identities=98%  Similarity=1.521  Sum_probs=232.9  Template_Neff=8.500
+
+Q ss_pred             CCCCceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEecCCCCCCEEEEEEE
+Q tr|K7EL50|K7EL   17 AEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFT   96 (378)
+Q Consensus        17 aepavyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfepfsnkgqtlvvqft   96 (378)
+                      +++++||.|+|+++.+|.++|+.|++.++.|.|.++.+.++++..+++||++++.+++|+|+++|+|+++.+++||+||+
+T Consensus         8 ~~~~~~f~E~F~~~~~~~~~Wi~s~~~~~~G~~~~~~~~~~~~~~~d~gl~~~~~~~~y~is~~~~p~~~~~~~lviQye   87 (265)
+T 5LK5_A            8 REPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQKARFYALSASFEPFSNKGQTLVVQFT   87 (265)
+T ss_dssp             -CCCEEEEECCCSGGGGGGTEEECCSSSCCCCEEEECCSSCSSTTTTCEEEECSSSEEEEEEEEEEEECCTTSCEEEEEE
+T ss_pred             cCCcEEEEeecCCCCCcccCceeccccccCceEEEeeceecCCcccceeeEeCcchhhchhhccCCCccCCCCeEEEEEE
+Confidence            46889999999974358999999999999999999998866777789999999999999999999999999999999999
+
+
+Q ss_pred             EeCCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEE
+Q tr|K7EL50|K7EL   97 VKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIV  176 (378)
+Q Consensus        97 vkheqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytliv  176 (378)
+                      |+++..++|||+||||+++.+++..|+++++|.||||||.|+..++++|+|++++++.+.+..++.+..|.++|+|||++
+T Consensus        88 vk~~~~~~Cgg~yiKll~~~~~~~~~~~~t~y~i~fGPd~Cg~~~~~v~~i~~~~~~~~~~~~~~~~~~d~~thlytlii  167 (265)
+T 5LK5_A           88 VKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIV  167 (265)
+T ss_dssp             EEETTCCSEEECCEEEECTTCCGGGCCTTSCCSEEEEEEEETTTEEEEEEEEEETTEEEECSSCCBCCCSSSEEEEEEEE
+T ss_pred             eeccccccCCCceEEecccccChhhcCCCCccceeecCCcCCCCCceeEEEEeeCCceeeecccccccCCCCCceEEEEE
+Confidence            99999999999999999998899999999999999999999998877999999999988888888899999999999999
+
+
+Q ss_pred             CCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  177 RPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEE  256 (378)
+Q Consensus       177 rpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdee  256 (378)
+                      +++++|+|++|++.+..|+|..+|.+.||+                                                  
+T Consensus       168 ~~d~t~~i~iD~~~~~~g~l~~~~~~~ppk--------------------------------------------------  197 (265)
+T 5LK5_A          168 RPDNTYEVKIDNSQVESGSLEDDWDFLPGS--------------------------------------------------  197 (265)
+T ss_dssp             CTTSEEEEEETTEEEEEEEHHHHSCCCSTT--------------------------------------------------
+T ss_pred             CCCCCeEEEeCCeEecccCCCccccCCCCC--------------------------------------------------
+Confidence            999999999999999999999998766654                                                  
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeeeCCH
+Q tr|K7EL50|K7EL  257 MDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDE  336 (378)
+Q Consensus       257 mdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflitnde  336 (378)
+                                                                  ++.+++.+.+|+++|||+|+++++++||||+||+|+
+T Consensus       198 --------------------------------------------~d~~~~~~~~i~~vg~e~w~~~~~~~fdNili~~d~  233 (265)
+T 5LK5_A          198 --------------------------------------------GDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDE  233 (265)
+T ss_dssp             --------------------------------------------CCTTTTCCSCEEEEEEEEEESSCCEEEEEEEEESCH
+T ss_pred             --------------------------------------------CCcchhcccCceEEeeeEeeccCCcccccEEecCCH
+Confidence                                                        122344577899999999999999999999999999
+
+
+Q ss_pred             HHHHHHCCCCCCcchhhhhhcccCCCCCCC
+Q tr|K7EL50|K7EL  337 AYAEEFGNETWGVTKAAEKQMKDKQDEEQR  366 (378)
+Q Consensus       337 ayaeefgnetwgvtkaaekqmkdkqdeeqr  366 (378)
+                      ++|++|++++|++|+.+|++++++++|+++
+T Consensus       234 ~~a~~~~~~~~~~k~~~e~~~~~~~~~~~~  263 (265)
+T 5LK5_A          234 AYAEEFGNETWGVTKAAEKQMKDKQDEEQR  263 (265)
+T ss_dssp             HHHHHHHHHTHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhcccCHHHHHHhhHhhhHHHh
+Confidence            999999999999999999887777765544
+
+
+No 10
+>3POW_A calreticulin; legume lectin fold, CNX/CRT family; 1.55A {Homo sapiens}
+Probab=100.00  E-value=2e-60  Score=401.99  Aligned_cols=256  Identities=98%  Similarity=1.527  Sum_probs=230.2  Template_Neff=8.300
+
+Q ss_pred             CCCCceccccecCCCCceeeeeeecccCCCccEEeecceecCCcccCCCCCCCccccEEEEEEEEecCCCCCCEEEEEEE
+Q tr|K7EL50|K7EL   17 AEPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFT   96 (378)
+Q Consensus        17 aepavyfkeqfldgdgwtsrwieskhksdfgkfvlssgkfygdeekdkglqtsqdarfyalsasfepfsnkgqtlvvqft   96 (378)
+                      +.+++||.|+|+++++|.++|+.|++.++.|.|.++.+.++++..+++||++++.+++|+|+++|+|+.+.+++||+||+
+T Consensus         8 ~~~~~~f~E~F~~~~~~~~~Wi~s~~~~~~G~~~~~~~~~~~~~~~d~gl~~~~~~~~y~is~~~~p~~~~~~~lvvQye   87 (265)
+T 3POW_A            8 REPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFT   87 (265)
+T ss_dssp             CCCSEEEEECCCSGGGGGGTEEECCSSSCCCCEEEECCSSCSCTTTTCEEEECSSSEEEEEEEEEEEECCTTSCEEEEEE
+T ss_pred             cCCcEEEEeccCCCCCcccCceeccccccCceEEEeeceecCCcccceeeEeCcchhhchhhcccCCccCCCCeEEEEEE
+Confidence            46889999999974468999999999999999999998866777789999999999999999999989999999999999
+
+
+Q ss_pred             EeCCCCccCCCcEEEEcCCCCCCCCCCCCCceeEEECCccCCCCCcEEEEEEEeCCceEEEcceeeecCCCccEEEEEEE
+Q tr|K7EL50|K7EL   97 VKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIV  176 (378)
+Q Consensus        97 vkheqnidcgggyvklfpnsldqtdmhgdseynimfgpdicgpgtkkvhvifnykgknvlinkdirckddefthlytliv  176 (378)
+                      |+++..++|||+||||+.+.+++..|+++++|.||||||.|+..++++|+|++++++.+.+..++.+..|.++|+|||++
+T Consensus        88 vk~~~~~~Cgg~yiKll~~~~~~~~~~~~t~y~imFGPd~Cg~~~~~v~~i~~~~~~~~~~~~~~~~~~d~~thlytLii  167 (265)
+T 3POW_A           88 VKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIV  167 (265)
+T ss_dssp             EECTTCCSEEECCEEEECTTCCGGGCCTTSCCSEEEEEEEESTTCEEEEEEEEETTEEEECSSCCBCCCSSSEEEEEEEE
+T ss_pred             eeccccccCCCceEEecccccccccCCCCCccceeecCCCCCCCCcceEEEEEeCCcceeeecceeccCCCCCceEEEEE
+Confidence            99999999999999999998899999999999999999999998877999999999988888888899999999999999
+
+
+Q ss_pred             CCCCcEEEEEccccccCCCCCCCCcCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  177 RPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEE  256 (378)
+Q Consensus       177 rpdntyevkidnsqvesgsleddwdflppkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdee  256 (378)
+                      ++|++|+|++|+..+..|+|..+|++.||+                                                  
+T Consensus       168 ~~d~t~ei~iD~~~~~~g~l~~~~~~~pp~--------------------------------------------------  197 (265)
+T 3POW_A          168 RPDNTYEVKIDNSQVESGSLEDDWDFLPGS--------------------------------------------------  197 (265)
+T ss_dssp             CTTSEEEEEETTEEEEEEEHHHHSCC------------------------------------------------------
+T ss_pred             CCCCceEEEeCCeeecccCCcccccCCCCC--------------------------------------------------
+Confidence            999999999999999999999998766654                                                  
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCccCCCCCCCCcccCCCCCCCCCCCCCcceecCCCceeEEEEEEcCCCCcecceeeeCCH
+Q tr|K7EL50|K7EL  257 MDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDE  336 (378)
+Q Consensus       257 mdgeweppviqnpeykgewkprqidnpdykgtwihpeidnpeyspdpsiyaydnfgvlgldlwqvksgtifdnflitnde  336 (378)
+                                                                  .+.+++.+.+|+++|+|+|+++++++||||+||+|+
+T Consensus       198 --------------------------------------------~d~~~~~~~~i~~vg~e~w~~~~~~~fdNili~~d~  233 (265)
+T 3POW_A          198 --------------------------------------------GDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDE  233 (265)
+T ss_dssp             -----------------------------------------------CTTCCSCEEEEEEEEEESSCCCEEEEEEEESCH
+T ss_pred             --------------------------------------------CCccceeccCceEEEeccccccCCcccccEEecCCH
+Confidence                                                        122333577899999999999999999999999999
+
+
+Q ss_pred             HHHHHHCCCCCCcchhhhhhcccCCCCCCC
+Q tr|K7EL50|K7EL  337 AYAEEFGNETWGVTKAAEKQMKDKQDEEQR  366 (378)
+Q Consensus       337 ayaeefgnetwgvtkaaekqmkdkqdeeqr  366 (378)
+                      ++|++|++++|++|+..|+++++++|++++
+T Consensus       234 ~~a~~~~~~~~~~k~~~e~~~~~~~~~~~~  263 (265)
+T 3POW_A          234 AYAEEFGNETWGVTKAAEKQMKDKQDEEQR  263 (265)
+T ss_dssp             HHHHHHHHHTHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhhhccHHHHHHhhHhhhHHHh
+Confidence            999999999999999999887777765543
+
+
+No 11
+>1HHN_A CALRETICULIN; MOLECULAR CHAPERONE; NMR {RATTUS NORVEGICUS} SCOP: b.104.1.1
+Probab=99.94  E-value=4.1e-27  Score=178.05  Aligned_cols=100  Identities=96%  Similarity=1.707  Sum_probs=96.6  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccCCCCC
+Q tr|K7EL50|K7EL  205 PKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPD  284 (378)
+Q Consensus       205 pkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdeemdgeweppviqnpeykgewkprqidnpd  284 (378)
+                      |+.|.|+++.||.+|+++++|.|++++||++|+++..++++.+.++..|+...+|+|.++++.|+.|+|.|++++|.||+
+T Consensus         1 pk~i~dp~~~kP~dwdd~~~i~Dp~~~kp~~w~~p~~i~d~~~~kp~~w~~~~dg~w~~~~i~np~~~~~~~~~~i~np~   80 (101)
+T 1HHN_A            1 SKKIKDPDAAKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPD   80 (101)
+T ss_dssp             CCSBCCSTTCCCSCCSTTSEECCSSCCCCSTTCCCSEEECTTCCCCTTCCHHHHSSCCCCEEECTTCCSSCCCCCEECSS
+T ss_pred             CCccCChhcCCCCccchhhcCCCCCCCCCCcCCCCCccCCCCCCCchhcCcccCCCCCCCCCCCccccCCCCCcccCCCC
+Confidence            57899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCcccCCCCCCCCCCCCCc
+Q tr|K7EL50|K7EL  285 YKGTWIHPEIDNPEYSPDPS  304 (378)
+Q Consensus       285 ykgtwihpeidnpeyspdps  304 (378)
+                      |+|.|.++.|.||.|+.+..
+T Consensus        81 y~g~w~~~~i~np~~~~d~~  100 (101)
+T 1HHN_A           81 YKGTWIHPEIDNPEYSPDAN  100 (101)
+T ss_dssp             CCCCCCCCCBCCTTCCSSSC
+T ss_pred             CCCccCCCccCCCccCCCCC
+Confidence            99999999999999997653
+
+
+No 12
+>1K9C_A HAIRPIN, METAL TRANSPORT; NMR {Rattus norvegicus} SCOP: b.104.1.1
+Probab=99.80  E-value=1.5e-19  Score=130.37  Aligned_cols=73  Identities=97%  Similarity=1.723  Sum_probs=65.8  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  205 PKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKP  277 (378)
+Q Consensus       205 pkkikdpdaskpedwderakiddptdskpedwdkpehipdpdakkpedwdeemdgeweppviqnpeykgewkp  277 (378)
+                      |+.|.|+++.||.+|+++++|+|++++||++|+++..++++.+.++..|+...+|+|.++++.|+.|+|.|++
+T Consensus         1 p~~i~dp~~~kP~dwdd~~~i~Dp~~~kp~~~~~p~~i~d~~~~kp~~w~~~~dg~w~~p~i~np~~~~~~~~   73 (74)
+T 1K9C_A            1 SKKIKDPDAAKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKP   73 (74)
+T ss_dssp             CCCCCCCSSCCTTSCTTTSCCSCSSTTCCTTTSCCSEEECSSCCCCTTCCTTTTCSCCCCEEECSSCCCSCCC
+T ss_pred             CCccCChhcCCCCchhhhhcCCCCCCCCCcccCCCCcCCCCCCCCCccCChhcCCCcCCCCCCCcccCCCCCC
+Confidence            5789999999999999999999999999999999999999999999999988888888877777777766654
+
+
+No 13
+>5V90_D Endoplasmic reticulum resident protein 29; chaperone, protein binding, protein folding; HET: GOL; 3.255A {Homo sapiens}
+Probab=98.98  E-value=1.2e-09  Score=70.35  Aligned_cols=32  Identities=100%  Similarity=1.806  Sum_probs=11.6  Template_Neff=8.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  241 HIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYK  272 (378)
+Q Consensus       241 hipdpdakkpedwdeemdgeweppviqnpeyk  272 (378)
+                      .++++.+.++..|+...+|+|.++++.|++|+
+T Consensus         8 ~i~d~~~~kp~~wd~~~dG~w~~~~i~np~~~   39 (40)
+T 5V90_D            8 HIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYK   39 (40)
+T ss_dssp             --CCC--CCCSSCCTTTTCSCCCCCC------
+T ss_pred             cCCCCCCCCchhCCcccCCCCCCCCCCCcccC
+Confidence            33333333344444555666666666666554
+
+
+No 14
+>1K91_A HAIRPIN, METAL TRANSPORT; NMR {Rattus norvegicus} SCOP: b.104.1.1
+Probab=98.91  E-value=2.5e-09  Score=68.38  Aligned_cols=20  Identities=100%  Similarity=1.903  Sum_probs=10.7  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  253 WDEEMDGEWEPPVIQNPEYK  272 (378)
+Q Consensus       253 wdeemdgeweppviqnpeyk  272 (378)
+                      |+...+|+|.++++.|++|+
+T Consensus        17 wd~~~dG~w~~~~i~np~~~   36 (37)
+T 1K91_A           17 WDEEMDGEWEPPVIQNPEYK   36 (37)
+T ss_dssp             CCHHHHCSCCCCEEECTTCC
+T ss_pred             CCcccCCCCCCCCCCCcccC
+Confidence            33445566666555555554
+
+
+No 15
+>3ICI_C Peptidyl-prolyl cis-trans isomerase B (E.C.5.2.1.8); protein-protein complex, Endoplasmic reticulum, Glycoprotein; HET: MES; 1.7A {Homo sapiens}
+Probab=98.61  E-value=8.9e-08  Score=62.27  Aligned_cols=29  Identities=69%  Similarity=1.480  Sum_probs=15.4  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  241 HIPDPDAKKPEDWDEEMDGEWEPPVIQNP  269 (378)
+Q Consensus       241 hipdpdakkpedwdeemdgeweppviqnp  269 (378)
+                      .++++.+.++..|+...+|+|.++++.|+
+T Consensus         9 ~i~dp~a~kp~~wd~~~dG~w~~~~i~np   37 (38)
+T 3ICI_C            9 FIPDPNAEKPDDWNEDMDGEWEAPRISNP   37 (38)
+T ss_pred             cCCCCCCCCcccCCccCCCCccCCCCCCC
+Confidence            33444444444444556667766666554
+
+
+No 16
+>5V8Z_B Endoplasmic reticulum resident protein 29; chaperone, protein binding, protein folding; 2.105A {Homo sapiens}
+Probab=98.61  E-value=8.9e-08  Score=62.27  Aligned_cols=29  Identities=69%  Similarity=1.480  Sum_probs=13.9  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EL50|K7EL  241 HIPDPDAKKPEDWDEEMDGEWEPPVIQNP  269 (378)
+Q Consensus       241 hipdpdakkpedwdeemdgeweppviqnp  269 (378)
+                      .++++.+.++..|+...+|+|.++++.|+
+T Consensus         9 ~i~dp~a~kp~~wd~~~dG~w~~~~i~np   37 (38)
+T 5V8Z_B            9 FIPDPNAEKPDDWNEDMDGEWEAPRISNP   37 (38)
+T ss_dssp             CEECTTCCCCTTCCHHHHCSCCCCEEC--
+T ss_pred             cCCCCCCCCcccCCccCCCCccCCCCCCC
+Confidence            33444444444444555666666665554
+
+
+No 17
+>6T3Y_A MHC class II alpha chain; MHC II, Immune Synapse, IMMUNE; HET: GOL; 1.7A {Gallus gallus}
+Probab=37.66  E-value=1.1e+02  Score=21.97  Aligned_cols=24  Identities=17%  Similarity=0.242  Sum_probs=9.9  Template_Neff=12.500
+
+Q ss_pred             eEEECCccCCCCCcEEEEEEEeCC
+Q tr|K7EL50|K7EL  129 NIMFGPDICGPGTKKVHVIFNYKG  152 (378)
+Q Consensus       129 nimfgpdicgpgtkkvhvifnykg  152 (378)
+                      ..+||-..++.......+.+.+.+
+T Consensus         7 q~~~~c~~~~~~~~~~~~~~~~dg   30 (183)
+T 6T3Y_A            7 QAEFYQRSEGPDKAWAQFGFHFDA   30 (183)
+T ss_dssp             EEEEEEEEETTTEEEEEEEEEETT
+T ss_pred             EEEEEeeecCCCCCcceEEEEECC
+Confidence            344555444433222334444444
+
+
+No 18
+>1UVQ_A HLA CLASS II HISTOCOMPATIBILITY ANTIGEN; IMMUNOLOGY, MHC CLASS II, DIABETES; HET: BMA, FUC, NAG; 1.8A {HOMO SAPIENS} SCOP: d.19.1.1, b.1.1.2
+Probab=32.74  E-value=1.3e+02  Score=22.42  Aligned_cols=27  Identities=7%  Similarity=0.050  Sum_probs=13.8  Template_Neff=12.100
+
+Q ss_pred             ceeEEECCccCCCCCcEEEEEEEeCCc
+Q tr|K7EL50|K7EL  127 EYNIMFGPDICGPGTKKVHVIFNYKGK  153 (378)
+Q Consensus       127 eynimfgpdicgpgtkkvhvifnykgk  153 (378)
+                      .+..++|-+..+.....-.+.+.+.+.
+T Consensus         6 ~~~~~~gc~~~~~~~~~~~~~~~~dg~   32 (197)
+T 1UVQ_A            6 DHVASCGVNLYQFYGPSGQYTHEFDGD   32 (197)
+T ss_dssp             SEEEEEEEEEEETTTTEEEEEEEETTE
+T ss_pred             ceEEEeeEEEEecCCCCeeEEEEECCe
+Confidence            456666665554333234455555554
+
+
+No 19
+>1BM8_A TRANSCRIPTION FACTOR MBP1; CELL CYCLE, CYCLINS, DNA SYNTHESIS; 1.71A {Saccharomyces cerevisiae} SCOP: d.34.1.1
+Probab=25.43  E-value=34  Score=25.47  Aligned_cols=10  Identities=40%  Similarity=1.039  Sum_probs=5.4  Template_Neff=9.400
+
+Q ss_pred             CCCCCcccCC
+Q tr|K7EL50|K7EL  283 PDYKGTWIHP  292 (378)
+Q Consensus       283 pdykgtwihp  292 (378)
+                      +..+|.|.+.
+T Consensus        68 ~~~~GtWv~~   77 (99)
+T 1BM8_A           68 GKYQGTWVPL   77 (99)
+T ss_dssp             STTCEEEECH
+T ss_pred             ccceeEEEeH
+Confidence            3456666654
+
+
+No 20
+>7LGO_B Non-structural protein 3; VIRAL PROTEIN, SARS-COV-2, NON-STRUCTURAL PROTEIN; 2.45A {Severe acute respiratory syndrome coronavirus 2}
+Probab=23.14  E-value=86  Score=28.82  Aligned_cols=26  Identities=23%  Similarity=0.503  Sum_probs=18.6  Template_Neff=2.900
+
+Q ss_pred             EEcCCCCcecce-eeeCCHHHHHHHCC
+Q tr|K7EL50|K7EL  319 WQVKSGTIFDNF-LITNDEAYAEEFGN  344 (378)
+Q Consensus       319 wqvksgtifdnf-litndeayaeefgn  344 (378)
+                      -+..+|..|+|+ ||++|..-+..++.
+T Consensus        11 t~~~~g~vYtNf~Lv~~~~~i~~~fN~   37 (115)
+T 7LGO_B           11 NQPYPNASFDNFKFVCDNIKFADDLNQ   37 (115)
+T ss_dssp             CCCCTTCCCCCCEEEESSHHHHHHHHH
+T ss_pred             CccCCCceeeCeEEEeCchHHHHHHHH
+Confidence            456788999995 67888666666654
+
+
+No 21
+>7KEI_A MHC class II, antigen presentation; HET: BMA, FUC, NAG; 1.75A {Homo sapiens}
+Probab=22.97  E-value=2.3e+02  Score=20.99  Aligned_cols=26  Identities=8%  Similarity=0.018  Sum_probs=10.2  Template_Neff=12.400
+
+Q ss_pred             eeEEECCccCCCCCcEEEEEEEeCCc
+Q tr|K7EL50|K7EL  128 YNIMFGPDICGPGTKKVHVIFNYKGK  153 (378)
+Q Consensus       128 ynimfgpdicgpgtkkvhvifnykgk  153 (378)
+                      +..++|-+.+........+.+.+.+.
+T Consensus         7 ~~~~~gc~l~~~~~~~~~~~~~~dg~   32 (206)
+T 7KEI_A            7 HVASCGVNLYQFYGPSGQYTHEFDGD   32 (206)
+T ss_dssp             EEEEEEEEEEETTTTEEEEEEEETTE
+T ss_pred             eEEEeeeEEeecCCCCceEEEEECCe
+Confidence            34445444443222223344444443
+
+
+No 22
+>2K87_A Non-structural protein 3 of Replicase; STRUCTURAL GENOMICS, JOINT CENTER FOR; NMR {SARS coronavirus}
+Probab=21.65  E-value=97  Score=28.56  Aligned_cols=27  Identities=26%  Similarity=0.457  Sum_probs=18.9  Template_Neff=2.900
+
+Q ss_pred             EEcCCCCcecce-eeeCCHHHHHHHCCC
+Q tr|K7EL50|K7EL  319 WQVKSGTIFDNF-LITNDEAYAEEFGNE  345 (378)
+Q Consensus       319 wqvksgtifdnf-litndeayaeefgne  345 (378)
+                      -+..+|..|+|+ ||++|..-+..++..
+T Consensus        12 t~~~~g~vYtNf~Lv~~~~~i~~~fN~l   39 (116)
+T 2K87_A           12 TQPLPNASFDNFKLTCSNTKFADDLNQM   39 (116)
+T ss_dssp             CCCCTTCBCCSEEEEESSHHHHHHHHHH
+T ss_pred             CccCCCceeeCeEEEeCChHHHHHHHHH
+Confidence            356788999996 567886666666543
+
+
+No 23
+>5YBX_A Bouquet formation protein 4; Telomere bouquet, Nuclear envelope, Chromosome; HET: MSE; 2.501A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=20.87  E-value=60  Score=28.63  Aligned_cols=9  Identities=33%  Similarity=1.010  Sum_probs=5.2  Template_Neff=6.400
+
+Q ss_pred             CCCCcccCC
+Q tr|K7EL50|K7EL  284 DYKGTWIHP  292 (378)
+Q Consensus       284 dykgtwihp  292 (378)
+                      .+.|.|.+.
+T Consensus       109 ~~~GtWIp~  117 (142)
+T 5YBX_A          109 RVAGLWVPP  117 (142)
+T ss_dssp             TSSSCEECH
+T ss_pred             ccCceeeCH
+Confidence            456666654
+
+
+No 24
+>6A6W_A Bouquet formation protein 4, Spindle; Chromosome organization, Inner nuclear membrane; 2.601A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=20.17  E-value=63  Score=28.45  Aligned_cols=9  Identities=33%  Similarity=1.010  Sum_probs=5.1  Template_Neff=6.400
+
+Q ss_pred             CCCCcccCC
+Q tr|K7EL50|K7EL  284 DYKGTWIHP  292 (378)
+Q Consensus       284 dykgtwihp  292 (378)
+                      .++|.|.+.
+T Consensus       107 ~~~GtWIp~  115 (140)
+T 6A6W_A          107 RVAGLWVPP  115 (140)
+T ss_dssp             TSCSCEECH
+T ss_pred             ccCceEeCH
+Confidence            456666654
+
+

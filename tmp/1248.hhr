@@ -1,0 +1,177 @@
+Query         tr|D6RDZ8|D6RDZ8_HUMAN
+Match_columns 238
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:07:20 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1248.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7PIL_X Photosynthetic bacteria  87.3     2.2 2.4E-05   31.8   4.0   42  197-238    14-55  (55)
+  2 7V30_f Respiratory, Complex, E  85.9     2.3 2.5E-05   30.4   3.4   24  191-214     3-26  (42)
+  3 7V32_f Respiratory, Complex, E  85.9     2.3 2.5E-05   30.4   3.4   24  191-214     3-26  (42)
+  4 2ITA_A bent transmembrane heli  83.9     3.8 4.2E-05   31.7   4.0   42  197-238    28-69  (70)
+  5 7DDQ_X Antenna pigment protein  83.3     3.9 4.3E-05   32.7   4.0   41  197-237    24-64  (83)
+  6 5XTC_f NADH dehydrogenase [ubi  82.1     3.9 4.2E-05   29.9   3.2   25  190-214     9-33  (47)
+  7 7V2H_f Respiratory, Complex, E  81.0     4.4 4.7E-05   29.9   3.2   25  190-214     9-33  (49)
+  8 2NRG_A Intrinsic membrane prot  80.1     5.7 6.1E-05   31.6   3.8   42  197-238    28-69  (82)
+  9 4V9G_BB Light-harvesting prote  80.1     5.7 6.1E-05   31.6   3.8   41  197-237    28-68  (82)
+ 10 6ZKE_x NADH dehydrogenase [ubi  72.0      10 0.00011   30.0   3.2   24  191-214    37-60  (76)
+ 11 6ZKV_x NADH dehydrogenase [ubi  72.0      10 0.00011   30.0   3.2   24  191-214    37-60  (76)
+
+No 1
+>7PIL_X Photosynthetic bacteria, light harvesting complex; HET: LMT, 3PE, U10, CD4, UQ1, SPO, BPH, BCL; 2.5A {Rhodobacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)}
+Probab=87.30  E-value=2.2  Score=31.76  Aligned_cols=42  Identities=21%  Similarity=0.290  Sum_probs=30.2  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHccchhhhhhhcCCCCCCCCCCCCCC
+Q tr|D6RDZ8|D6RD  197 LAGAAFGSLVFLTHWVFGEVSLVSRWAVSGHPHPGPDPNPFG  238 (238)
+Q Consensus       197 lagaafgslvflthwvfgevslvsrwavsghphpgpdpnpfg  238 (238)
+                      +.||.++.++|+.-|.|--+--.-.+...-.+...|||||++
+T Consensus        14 lkGAgyAA~~~~~i~~~i~~l~~ig~lLPeeSk~aPdP~p~s   55 (55)
+T 7PIL_X           14 MKGAGWAGGVFFGTLLLIGFFRVVGLMLPIQENQAPAPNITG   55 (55)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCChhHhcCCCCCCCC
+Confidence            568888888888777765554444455667788899999974
+
+
+No 2
+>7V30_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.7A {Sus scrofa}
+Probab=85.87  E-value=2.3  Score=30.44  Aligned_cols=24  Identities=33%  Similarity=0.760  Sum_probs=20.6  Template_Neff=3.800
+
+Q ss_pred             CCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  191 SRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       191 srpnwllagaafgslvflthwvfg  214 (238)
+                      ++|||+-.|.+||+-+||--.+|.
+T Consensus         3 ~~PnWlkVGLt~gTs~fLW~~l~k   26 (42)
+T 7V30_f            3 GSPDWLKVGLTLGTSVFLWIYLIK   26 (42)
+T ss_pred             CCCChHHhHHHHHHHHHHHHHHHH
+Confidence            589999999999999999666553
+
+
+No 3
+>7V32_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, PLX; 3.2A {Sus scrofa}
+Probab=85.87  E-value=2.3  Score=30.44  Aligned_cols=24  Identities=33%  Similarity=0.760  Sum_probs=20.6  Template_Neff=3.800
+
+Q ss_pred             CCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  191 SRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       191 srpnwllagaafgslvflthwvfg  214 (238)
+                      ++|||+-.|.+||+-+||--.+|.
+T Consensus         3 ~~PnWlkVGLt~gTs~fLW~~l~k   26 (42)
+T 7V32_f            3 GSPDWLKVGLTLGTSVFLWIYLIK   26 (42)
+T ss_pred             CCCChHHhHHHHHHHHHHHHHHHH
+Confidence            589999999999999999666553
+
+
+No 4
+>2ITA_A bent transmembrane helix, PHOTOSYNTHESIS, MEMBRANE; NMR {Rhodobacter sphaeroides}
+Probab=83.91  E-value=3.8  Score=31.67  Aligned_cols=42  Identities=21%  Similarity=0.283  Sum_probs=24.4  Template_Neff=4.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHccchhhhhhhcCCCCCCCCCCCCCC
+Q tr|D6RDZ8|D6RD  197 LAGAAFGSLVFLTHWVFGEVSLVSRWAVSGHPHPGPDPNPFG  238 (238)
+Q Consensus       197 lagaafgslvflthwvfgevslvsrwavsghphpgpdpnpfg  238 (238)
+                      +.||..+.++|+.-|+|--+--.-.+...-.++..|||||+.
+T Consensus        28 lkGAgyAA~~~~~i~~~i~~i~~IG~lLPeeSk~aPdP~p~s   69 (70)
+T 2ITA_A           28 MKGAGWAGGVFFGTLLLIGFFRVVGRMLPIQENQAPAPNITG   69 (70)
+T ss_dssp             HTHHHHHCCCCCHHHHHHHHHHHHTTSSHHHHSCCSSSSCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCChhHhcCCCCCCCC
+Confidence            457777776666665553322222222334567889999873
+
+
+No 5
+>7DDQ_X Antenna pigment protein alpha chain; membrane protein, light-harvesting, reaction center; HET: 3PE, U10, SPO, BPH, BCL;{Rhodobacter veldkampii DSM 11550}
+Probab=83.26  E-value=3.9  Score=32.73  Aligned_cols=41  Identities=17%  Similarity=0.205  Sum_probs=29.6  Template_Neff=4.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHccchhhhhhhcCCCCCCCCCCCCC
+Q tr|D6RDZ8|D6RD  197 LAGAAFGSLVFLTHWVFGEVSLVSRWAVSGHPHPGPDPNPF  237 (238)
+Q Consensus       197 lagaafgslvflthwvfgevslvsrwavsghphpgpdpnpf  237 (238)
+                      +.||.++.++|+.-|.|--+...--+...-..+..|||||+
+T Consensus        24 lkGAgyAAv~~~gi~~fi~vl~~IG~lLPeeSk~aPdP~p~   64 (83)
+T 7DDQ_X           24 GKGMGITAVVFFGTVFFVVALAFIGQFLPDRSREAPYPNTI   64 (83)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCChhHhcCCCCCCc
+Confidence            56888888888887777555444444556677889999985
+
+
+No 6
+>5XTC_f NADH dehydrogenase [ubiquinone] iron-sulfur protein; Homo sapiens, Oxidoreductase, Respiratory, Complex; HET: PEE, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=82.06  E-value=3.9  Score=29.92  Aligned_cols=25  Identities=32%  Similarity=0.769  Sum_probs=20.5  Template_Neff=3.900
+
+Q ss_pred             CCCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  190 ASRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       190 asrpnwllagaafgslvflthwvfg  214 (238)
+                      -.+|||+-.|.+||+-+||--.+|-
+T Consensus         9 ~~~PnWlkVGLt~gTs~fLW~~L~k   33 (47)
+T 5XTC_f            9 NAKPDWLKVGFTLGTTVFLWIYLIK   33 (47)
+T ss_pred             CCCCChhhhHHHHHHHHHHHHHHHH
+Confidence            3689999999999999998655543
+
+
+No 7
+>7V2H_f Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, DCQ, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.5A {Sus scrofa}
+Probab=81.00  E-value=4.4  Score=29.87  Aligned_cols=25  Identities=32%  Similarity=0.719  Sum_probs=20.5  Template_Neff=3.900
+
+Q ss_pred             CCCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  190 ASRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       190 asrpnwllagaafgslvflthwvfg  214 (238)
+                      -++|||+-.|.+||+-+||--.+|-
+T Consensus         9 ~~~PnWlkVGLt~gTs~fLW~~L~k   33 (49)
+T 7V2H_f            9 HGSPDWLKVGLTLGTSVFLWIYLIK   33 (49)
+T ss_pred             CCCCChhhhHHHHHHHHHHHHHHHH
+Confidence            3689999999999999998655543
+
+
+No 8
+>2NRG_A Intrinsic membrane protein pufX; Bent transmembrane helix, PHOTOSYNTHESIS, MEMBRANE; NMR {Rhodobacter sphaeroides}
+Probab=80.09  E-value=5.7  Score=31.64  Aligned_cols=42  Identities=21%  Similarity=0.283  Sum_probs=30.6  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHccchhhhhhhcCCCCCCCCCCCCCC
+Q tr|D6RDZ8|D6RD  197 LAGAAFGSLVFLTHWVFGEVSLVSRWAVSGHPHPGPDPNPFG  238 (238)
+Q Consensus       197 lagaafgslvflthwvfgevslvsrwavsghphpgpdpnpfg  238 (238)
+                      +.||..+.++|+.-|.|--+-..--+...-..+..|||||++
+T Consensus        28 lkGAgyAA~~~~~i~~~i~~l~~IG~lLPeeSk~aPDP~p~s   69 (82)
+T 2NRG_A           28 MKGAGWAGGVFFGTLLLIGFFRVVGRMLPIQENQAPAPNITG   69 (82)
+T ss_dssp             THHHHTHHHHHHHHHHHHHHHHHHHHSSTTTTTCCSSSSSCS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCChhHhcCCCCCCcc
+Confidence            468888888888888775554444455667778899999853
+
+
+No 9
+>4V9G_BB Light-harvesting protein B-875 alpha chain; photosynthesis, antenna complex LH1, Reaction; HET: U10, PO4, SPO, BPH, BCL; 7.78A {Rhodobacter sphaeroides}
+Probab=80.09  E-value=5.7  Score=31.64  Aligned_cols=41  Identities=20%  Similarity=0.236  Sum_probs=27.6  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHccchhhhhhhcCCCCCCCCCCCCC
+Q tr|D6RDZ8|D6RD  197 LAGAAFGSLVFLTHWVFGEVSLVSRWAVSGHPHPGPDPNPF  237 (238)
+Q Consensus       197 lagaafgslvflthwvfgevslvsrwavsghphpgpdpnpf  237 (238)
+                      +.||..+.++|+.-|.|--+-..--+...-..+..|||||+
+T Consensus        28 lkGAgyAA~~~~~i~~~i~~l~~IG~lLPeeSk~aPDP~p~   68 (82)
+T 4V9G_BB          28 MKGAGWAGGVFFGTLLLIGFFRVVGRMLPIQENQAPAPNIT   68 (82)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhCChhHhcCCCCCCc
+Confidence            56888888888777776544433333455667788999985
+
+
+No 10
+>6ZKE_x NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, DCQ, MYR, NDP, AMP, FMN, ZMP, 2MR, AYA, CDL, SEP, FME, NAI; 2.6A {Ovis aries}
+Probab=72.03  E-value=10  Score=30.03  Aligned_cols=24  Identities=33%  Similarity=0.736  Sum_probs=20.3  Template_Neff=4.200
+
+Q ss_pred             CCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  191 SRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       191 srpnwllagaafgslvflthwvfg  214 (238)
+                      .+|||+=.|.+||+-+||--.+|-
+T Consensus        37 ~~PnWlkVGLt~GTsvfLW~~L~k   60 (76)
+T 6ZKE_x           37 GSPNWLKVGLTLGTSAFLWIYLIK   60 (76)
+T ss_pred             CCCChhhhHHHHHHHHHHHHHHHH
+Confidence            579999999999999998655554
+
+
+No 11
+>6ZKV_x NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, MYR, NDP, AMP, FMN, ZMP, 2MR, CDL, SEP, FME; 2.9A {Ovis aries}
+Probab=72.03  E-value=10  Score=30.03  Aligned_cols=24  Identities=33%  Similarity=0.736  Sum_probs=20.3  Template_Neff=4.200
+
+Q ss_pred             CCccHHHHHHHHHHHHHHHHHHHc
+Q tr|D6RDZ8|D6RD  191 SRPNWLLAGAAFGSLVFLTHWVFG  214 (238)
+Q Consensus       191 srpnwllagaafgslvflthwvfg  214 (238)
+                      .+|||+=.|.+||+-+||--.+|-
+T Consensus        37 ~~PnWlkVGLt~GTsvfLW~~L~k   60 (76)
+T 6ZKV_x           37 GSPNWLKVGLTLGTSAFLWIYLIK   60 (76)
+T ss_pred             CCCChhhhHHHHHHHHHHHHHHHH
+Confidence            579999999999999998655554
+
+

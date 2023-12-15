@@ -1,0 +1,170 @@
+Query         tr|K7ERR5|K7ERR5_HUMAN
+Match_columns 113
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:35:48 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1270.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6AV8_A Potassium channel toxin  31.3      58 0.00063   19.9   1.1    8   73-80     15-22  (35)
+  2 1QK7_A SELENOCOSMIA HUWENA LEC  30.2      60 0.00065   19.0   1.0    9   72-80     12-20  (32)
+  3 7SKC_A ICK peptide, TOXIN; NMR  25.5      83 0.00091   18.8   1.1   12   69-80     13-24  (34)
+  4 2N1N_A Kappa-theraphotoxin-Gr3  25.0      80 0.00087   19.0   0.9   11   70-80     13-23  (35)
+  5 5I1X_A mu-TRTX-Pre1a toxin; Sp  21.3 1.1E+02  0.0012   18.4   1.0   12   69-80     14-25  (36)
+  6 1ZJQ_A Inhibitor cystine knot   20.8 1.1E+02  0.0012   18.4   1.0    9   72-80     15-23  (34)
+  7 2WH9_A GUANGXITOXIN-1EGXTX-1E;  19.5 1.2E+02  0.0013   18.5   0.9   11   70-80     14-25  (36)
+  8 2MT7_A Hs1a; spider-venom pept  18.2 1.4E+02  0.0015   18.1   1.0    9   72-80     17-25  (35)
+  9 2MXM_A entity; spider toxin, s  17.9 1.6E+02  0.0017   17.6   1.2   10   71-80     14-23  (33)
+ 10 2M9L_A Beta-theraphotoxin-Tp1a  17.9 1.3E+02  0.0014   18.2   0.9   11   70-80     12-22  (35)
+
+No 1
+>6AV8_A Potassium channel toxin alpha-KTx 3.10; Knottins, Cystine knot, Toxins, TOXIN; 1.89A {Haplopelma schmidti}
+Probab=31.27  E-value=58  Score=19.90  Aligned_cols=8  Identities=63%  Similarity=1.555  Sum_probs=7.8  Template_Neff=5.100
+
+Q ss_pred             cCCCcccC
+Q tr|K7ERR5|K7ER   73 CCDHRVCS   80 (113)
+Q Consensus        73 ccdhrvcs   80 (113)
+                      ||.|.+||
+T Consensus        15 CC~~l~Cs   22 (35)
+T 6AV8_A           15 CCSGYVCS   22 (35)
+T ss_dssp             CCTTCEEC
+T ss_pred             CCCCCeeC
+Confidence            99999998
+
+
+No 2
+>1QK7_A SELENOCOSMIA HUWENA LECTIN-I; LECTIN, SELENOCOSMIA HUWENA, SHL-I, CYSTINE; NMR {SELENOCOSMIA HUWENA} SCOP: g.3.6.2
+Probab=30.21  E-value=60  Score=19.02  Aligned_cols=9  Identities=56%  Similarity=1.254  Sum_probs=8.1  Template_Neff=5.800
+
+Q ss_pred             ccCCCcccC
+Q tr|K7ERR5|K7ER   72 MCCDHRVCS   80 (113)
+Q Consensus        72 mccdhrvcs   80 (113)
+                      -||.|.+|+
+T Consensus        12 dCC~~l~Cs   20 (32)
+T 1QK7_A           12 GCCSGYVCS   20 (32)
+T ss_dssp             CCCTTEEEC
+T ss_pred             CCCCCceeC
+Confidence            399999998
+
+
+No 3
+>7SKC_A ICK peptide, TOXIN; NMR {Selenotypus}
+Probab=25.49  E-value=83  Score=18.79  Aligned_cols=12  Identities=42%  Similarity=1.115  Sum_probs=10.2  Template_Neff=5.600
+
+Q ss_pred             CccccCCCcccC
+Q tr|K7ERR5|K7ER   69 ANEMCCDHRVCS   80 (113)
+Q Consensus        69 anemccdhrvcs   80 (113)
+                      .|.-||.|.+|+
+T Consensus        13 ~~~~CC~~l~C~   24 (34)
+T 7SKC_A           13 NNNKCCEGYVCH   24 (34)
+T ss_dssp             SSCCCCTTEECC
+T ss_pred             CCCCCCCCcccc
+Confidence            466799999998
+
+
+No 4
+>2N1N_A Kappa-theraphotoxin-Gr3a; TOXIN; NMR {Grammostola rosea}
+Probab=25.03  E-value=80  Score=19.05  Aligned_cols=11  Identities=45%  Similarity=1.138  Sum_probs=8.9  Template_Neff=5.500
+
+Q ss_pred             ccccCCCcccC
+Q tr|K7ERR5|K7ER   70 NEMCCDHRVCS   80 (113)
+Q Consensus        70 nemccdhrvcs   80 (113)
+                      +.-||.|.+|+
+T Consensus        13 ~~dCC~~l~C~   23 (35)
+T 2N1N_A           13 SNDCCKDLVCS   23 (35)
+T ss_dssp             TTSCCSSEEEE
+T ss_pred             CCCCccCceec
+Confidence            34499999997
+
+
+No 5
+>5I1X_A mu-TRTX-Pre1a toxin; Spider toxin, Sodium channel modulator; NMR {Psalmopoeus}
+Probab=21.26  E-value=1.1e+02  Score=18.41  Aligned_cols=12  Identities=42%  Similarity=1.065  Sum_probs=10.2  Template_Neff=5.700
+
+Q ss_pred             CccccCCCcccC
+Q tr|K7ERR5|K7ER   69 ANEMCCDHRVCS   80 (113)
+Q Consensus        69 anemccdhrvcs   80 (113)
+                      .|.-||.|-+|+
+T Consensus        14 ~~~dCC~~~~Cs   25 (36)
+T 5I1X_A           14 KNDKCCPNYKCS   25 (36)
+T ss_dssp             SSCCBCSSEEEE
+T ss_pred             CCCCCCCCCeec
+Confidence            466799999998
+
+
+No 6
+>1ZJQ_A Inhibitor cystine knot motif, TOXIN; NMR {Chilobrachys jingzhao}
+Probab=20.78  E-value=1.1e+02  Score=18.39  Aligned_cols=9  Identities=44%  Similarity=1.235  Sum_probs=8.0  Template_Neff=5.400
+
+Q ss_pred             ccCCCcccC
+Q tr|K7ERR5|K7ER   72 MCCDHRVCS   80 (113)
+Q Consensus        72 mccdhrvcs   80 (113)
+                      -||.|.+|+
+T Consensus        15 ~CC~~l~C~   23 (34)
+T 1ZJQ_A           15 FCCSGYNCS   23 (34)
+T ss_dssp             CCSSSEEEE
+T ss_pred             CCCCCCeec
+Confidence            399999998
+
+
+No 7
+>2WH9_A GUANGXITOXIN-1EGXTX-1E; MEMBRANE PROTEIN INHIBITOR, POTASSIUM CHANNEL; NMR {N/A}
+Probab=19.45  E-value=1.2e+02  Score=18.52  Aligned_cols=11  Identities=45%  Similarity=1.132  Sum_probs=9.0  Template_Neff=5.400
+
+Q ss_pred             ccc-cCCCcccC
+Q tr|K7ERR5|K7ER   70 NEM-CCDHRVCS   80 (113)
+Q Consensus        70 nem-ccdhrvcs   80 (113)
+                      +.- ||.|.+|+
+T Consensus        14 ~~d~CC~~l~C~   25 (36)
+T 2WH9_A           14 GKPACCPKYVCS   25 (36)
+T ss_dssp             TCCCBCSSCEEC
+T ss_pred             CCCCCccCceee
+Confidence            344 99999998
+
+
+No 8
+>2MT7_A Hs1a; spider-venom peptide, inhibitor cystine knot; NMR {Hysterocrates}
+Probab=18.19  E-value=1.4e+02  Score=18.05  Aligned_cols=9  Identities=56%  Similarity=1.383  Sum_probs=8.1  Template_Neff=5.500
+
+Q ss_pred             ccCCCcccC
+Q tr|K7ERR5|K7ER   72 MCCDHRVCS   80 (113)
+Q Consensus        72 mccdhrvcs   80 (113)
+                      -||.|.+|+
+T Consensus        17 ~CC~~l~C~   25 (35)
+T 2MT7_A           17 KCCANLVCS   25 (35)
+T ss_dssp             CBSTTCEEC
+T ss_pred             CCCccceec
+Confidence            499999998
+
+
+No 9
+>2MXM_A entity; spider toxin, sodium channel inhibitor; NMR {N/A}
+Probab=17.92  E-value=1.6e+02  Score=17.60  Aligned_cols=10  Identities=30%  Similarity=1.045  Sum_probs=8.5  Template_Neff=5.500
+
+Q ss_pred             cccCCCcccC
+Q tr|K7ERR5|K7ER   71 EMCCDHRVCS   80 (113)
+Q Consensus        71 emccdhrvcs   80 (113)
+                      .-||.|.+|+
+T Consensus        14 d~CC~~~~Cs   23 (33)
+T 2MXM_A           14 DKCCSGLKCG   23 (33)
+T ss_dssp             CCBCTTEEEC
+T ss_pred             CCCCCCCccc
+Confidence            3499999998
+
+
+No 10
+>2M9L_A Beta-theraphotoxin-Tp1a; beta hairpin, TOXIN; NMR {N/A}
+Probab=17.88  E-value=1.3e+02  Score=18.19  Aligned_cols=11  Identities=55%  Similarity=1.389  Sum_probs=8.9  Template_Neff=5.400
+
+Q ss_pred             ccccCCCcccC
+Q tr|K7ERR5|K7ER   70 NEMCCDHRVCS   80 (113)
+Q Consensus        70 nemccdhrvcs   80 (113)
+                      +.-||.|-+|+
+T Consensus        12 ~~dCC~~l~C~   22 (35)
+T 2M9L_A           12 GQTCCKHLVCS   22 (35)
+T ss_dssp             TCCBCTTEEEE
+T ss_pred             CCCCCCCCEee
+Confidence            34499999997
+
+

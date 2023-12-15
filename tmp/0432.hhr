@@ -1,0 +1,166 @@
+Query         tr|D6RBY3|D6RBY3_HUMAN
+Match_columns 61
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:16:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0432.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3D34_A Spondin-2; F-spondin do  98.6 3.3E-08 3.6E-13   65.1   2.3   35   27-61      1-35  (223)
+  2 3D34_B Spondin-2; F-spondin do  98.6 3.3E-08 3.6E-13   65.1   2.3   35   27-61      1-35  (223)
+  3 3Q13_A Spondin-1; F-spondin, F  97.3 0.00027   3E-09   48.6   1.7   33   29-61      9-41  (258)
+  4 5N8B_A Streptavidin, GLU-TRP-V  38.6      43 0.00047   23.2   1.5   15   42-56     36-50  (183)
+  5 5N8B_D Streptavidin, GLU-TRP-V  38.6      43 0.00047   23.2   1.5   13   44-56     38-50  (183)
+  6 5N8W_A Streptavidin, GLY-DTY-G  38.6      43 0.00047   23.2   1.5   15   42-56     36-50  (183)
+  7 7CQ0_A Mature Streptoavidin-C1  31.1      59 0.00064   23.0   1.3   13   44-56     47-59  (191)
+  8 7AVK_B LPXTG cell wall surface  19.9      96   0.001   18.1   0.6   14   45-58     73-86  (88)
+  9 4V98_BF Small nuclear ribonucl  19.4      94   0.001   20.6   0.5   31   12-42    177-207 (247)
+ 10 6IIC_A VP1 of Mud crab dicistr  17.8 1.4E+02  0.0015   19.0   1.0   12   31-42     19-30  (191)
+
+No 1
+>3D34_A Spondin-2; F-spondin domain of mindin, Cell; 1.8A {Homo sapiens}
+Probab=98.64  E-value=3.3e-08  Score=65.10  Aligned_cols=35  Identities=97%  Similarity=1.516  Sum_probs=27.3  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCccchhhhhceeeeecccccccCCCCCCC
+Q tr|D6RBY3|D6RB   27 QPLGGESICSARALAKYSITFTGKWSQTAFPKQYP   61 (61)
+Q Consensus        27 qplggesicsaralakysitftgkwsqtafpkqyp   61 (61)
+                      ||+.+...||+|+.++|+|+|++.|++++||++||
+T Consensus         1 ~~~~~~~~c~~~~~a~y~vtf~~~ws~~~~p~~~P   35 (223)
+T 3D34_A            1 QPLGGESICSARAPAKYSITFTGKWSQTAFPKQYP   35 (223)
+T ss_dssp             -------CCCCSSCEEEEEEEEECCCTTTCCTTCC
+T ss_pred             CCCCCCCccCCCCCEEEEEEEEeeeccccCCCCCC
+Confidence            57888999999999999999999999999999987
+
+
+No 2
+>3D34_B Spondin-2; F-spondin domain of mindin, Cell; 1.8A {Homo sapiens}
+Probab=98.64  E-value=3.3e-08  Score=65.10  Aligned_cols=35  Identities=97%  Similarity=1.516  Sum_probs=27.3  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCccchhhhhceeeeecccccccCCCCCCC
+Q tr|D6RBY3|D6RB   27 QPLGGESICSARALAKYSITFTGKWSQTAFPKQYP   61 (61)
+Q Consensus        27 qplggesicsaralakysitftgkwsqtafpkqyp   61 (61)
+                      ||+.+...||+|+.++|+|+|++.|++++||++||
+T Consensus         1 ~~~~~~~~c~~~~~a~y~vtf~~~ws~~~~p~~~P   35 (223)
+T 3D34_B            1 QPLGGESICSARAPAKYSITFTGKWSQTAFPKQYP   35 (223)
+T ss_dssp             -------CCCCSSCEEEEEEEEEECCTTTCCTTCC
+T ss_pred             CCCCCCCccCCCCCEEEEEEEEeeeccccCCCCCC
+Confidence            57888999999999999999999999999999987
+
+
+No 3
+>3Q13_A Spondin-1; F-spondin, FS-domain, membrane targeting, axon; HET: BMA, SO4, NAG; 1.95A {Homo sapiens}
+Probab=97.28  E-value=0.00027  Score=48.64  Aligned_cols=33  Identities=42%  Similarity=0.732  Sum_probs=30.9  Template_Neff=7.700
+
+Q ss_pred             CCCCCccchhhhhceeeeecccccccCCCCCCC
+Q tr|D6RBY3|D6RB   29 LGGESICSARALAKYSITFTGKWSQTAFPKQYP   61 (61)
+Q Consensus        29 lggesicsaralakysitftgkwsqtafpkqyp   61 (61)
+                      .++...|++|+.++|+|+|++.|++++||++||
+T Consensus         9 ~~~~~~c~a~~~a~Y~vtf~~~ws~~~hP~~~P   41 (258)
+T 3Q13_A            9 DKPILDCCACGTAKYRLTFYGNWSEKTHPKDYP   41 (258)
+T ss_dssp             CCCCCSCCCCSEEEEEEEEEECCSTTTSCTTCC
+T ss_pred             CCCCccccCCCcEEEEEEEEeccCCCCCCCcCC
+Confidence            458889999999999999999999999999987
+
+
+No 4
+>5N8B_A Streptavidin, GLU-TRP-VAL-HIS-PRO-GLN-PHE-GLU-GLN-LYS-ALA-LYS Peptide; STREPTAVIDIN, HPQ MOTIF, STREPTAVIDIN PEPTIDE; 1.03A {Streptomyces avidinii}
+Probab=38.63  E-value=43  Score=23.25  Aligned_cols=15  Identities=20%  Similarity=0.279  Sum_probs=8.5  Template_Neff=6.800
+
+Q ss_pred             ceeeeecccccccCC
+Q tr|D6RBY3|D6RB   42 KYSITFTGKWSQTAF   56 (61)
+Q Consensus        42 kysitftgkwsqtaf   56 (61)
+                      .-...+.|.|..+..
+T Consensus        36 ~~~~~l~G~W~Ne~G   50 (183)
+T 5N8B_A           36 AAEAGITGTWYNQLG   50 (183)
+T ss_dssp             ---CCCCEEEECTTC
+T ss_pred             ccccceeEEEEcCCC
+Confidence            345667888876654
+
+
+No 5
+>5N8B_D Streptavidin, GLU-TRP-VAL-HIS-PRO-GLN-PHE-GLU-GLN-LYS-ALA-LYS Peptide; STREPTAVIDIN, HPQ MOTIF, STREPTAVIDIN PEPTIDE; 1.03A {Streptomyces avidinii}
+Probab=38.63  E-value=43  Score=23.25  Aligned_cols=13  Identities=23%  Similarity=0.388  Sum_probs=8.4  Template_Neff=6.800
+
+Q ss_pred             eeeecccccccCC
+Q tr|D6RBY3|D6RB   44 SITFTGKWSQTAF   56 (61)
+Q Consensus        44 sitftgkwsqtaf   56 (61)
+                      ...+.|.|..+..
+T Consensus        38 ~~~l~G~W~Ne~G   50 (183)
+T 5N8B_D           38 EAGITGTWYNQLG   50 (183)
+T ss_dssp             TCCSCEEEECTTC
+T ss_pred             ccceeEEEEcCCC
+Confidence            4557778876653
+
+
+No 6
+>5N8W_A Streptavidin, GLY-DTY-GLY-DLE-DAL-DSG-DVA-DAS-DGL-DSN-DSN-GLY; STREPTAVIDIN, BIOTIN BINDING, D-AMINO ACIDS; HET: DGL, DAS, DTR, DHI, DTH, DAL, DLY; 1.1A {Streptomyces avidinii}
+Probab=38.63  E-value=43  Score=23.25  Aligned_cols=15  Identities=20%  Similarity=0.279  Sum_probs=7.9  Template_Neff=6.800
+
+Q ss_pred             ceeeeecccccccCC
+Q tr|D6RBY3|D6RB   42 KYSITFTGKWSQTAF   56 (61)
+Q Consensus        42 kysitftgkwsqtaf   56 (61)
+                      .-...+.|.|..+..
+T Consensus        36 ~~~~~l~G~W~Ne~G   50 (183)
+T 5N8W_A           36 AAEAGITGTWYNQLG   50 (183)
+T ss_dssp             ----CCCEEEECSSS
+T ss_pred             ccccceeEEEEcCCC
+Confidence            345667888877654
+
+
+No 7
+>7CQ0_A Mature Streptoavidin-C1; Avidin, Antifungal, Biotin, ANTIMICROBIAL PROTEIN; 2.03A {Streptomyces sp. H036}
+Probab=31.08  E-value=59  Score=22.97  Aligned_cols=13  Identities=15%  Similarity=0.235  Sum_probs=8.3  Template_Neff=6.500
+
+Q ss_pred             eeeecccccccCC
+Q tr|D6RBY3|D6RB   44 SITFTGKWSQTAF   56 (61)
+Q Consensus        44 sitftgkwsqtaf   56 (61)
+                      ...+.|.|..+..
+T Consensus        47 ~~~l~G~W~Ne~G   59 (191)
+T 7CQ0_A           47 RPGILGTWYNQLG   59 (191)
+T ss_dssp             -CTTCEEEECSSS
+T ss_pred             CCceEEEEEcCCC
+Confidence            4567888876654
+
+
+No 8
+>7AVK_B LPXTG cell wall surface protein; Bacterial surface, adhesin, tandem repeat; HET: IS8; 0.82A {Streptococcus gordonii (strain Challis / ATCC 35105 / BCRC 15272 / CH1 / DL1 / V288)}
+Probab=19.87  E-value=96  Score=18.13  Aligned_cols=14  Identities=43%  Similarity=0.904  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             eeecccccccCCCC
+Q tr|D6RBY3|D6RB   45 ITFTGKWSQTAFPK   58 (61)
+Q Consensus        45 itftgkwsqtafpk   58 (61)
+                      ++|+|.|.-++-|.
+T Consensus        73 ~~~~G~W~f~~~~~   86 (88)
+T 7AVK_B           73 VKFVGTWEFTASPA   86 (88)
+T ss_dssp             EEEEEEEEEEEC--
+T ss_pred             eEEEEEEEEecCCC
+
+
+No 9
+>4V98_BF Small nuclear ribonucleoprotein Sm D1; Complex, Assembly Machinery, SPLICING; HET: SO4; 3.1A {Homo sapiens}
+Probab=19.40  E-value=94  Score=20.64  Aligned_cols=31  Identities=29%  Similarity=0.262  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHhhhCCCCCCCCCCCccchhhhhc
+Q tr|D6RBY3|D6RB   12 KALCALLLATLGAAGQPLGGESICSARALAK   42 (61)
+Q Consensus        12 kalcalllatlgaagqplggesicsaralak   42 (61)
+                      ..++.-+.+.|.....||.++.+..-|.|+|
+T Consensus       177 ~~~~~Wi~aLL~~ld~pL~~d~~s~LR~L~r  207 (247)
+T 4V98_BF         177 VWLARWLYATLVCLHLPLEPHVFSTLRYIAR  207 (247)
+T ss_pred             HHHHHHHHHHHHhCCCCCCHHHHHHHHHHHH
+
+
+No 10
+>6IIC_A VP1 of Mud crab dicistrovirus; Dicistrovirus, VIRUS; 3.3A {Mud crab virus}
+Probab=17.82  E-value=1.4e+02  Score=18.97  Aligned_cols=12  Identities=42%  Similarity=0.598  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCccchhhhhc
+Q tr|D6RBY3|D6RB   31 GESICSARALAK   42 (61)
+Q Consensus        31 gesicsaralak   42 (61)
+                      ||.|.|-|.|.|
+T Consensus        19 GE~i~slr~Llk   30 (191)
+T 6IIC_A           19 GEQFRSLRMLTR   30 (191)
+T ss_dssp             SCCCCBSHHHHH
+T ss_pred             CCCCcCHHHHHh
+
+

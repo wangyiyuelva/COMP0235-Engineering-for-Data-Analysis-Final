@@ -1,0 +1,502 @@
+Query         tr|I3L4F5|I3L4F5_HUMAN
+Match_columns 35
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:54:29 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1745.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Z5S_S Light harvesting comple  45.7      37  0.0004   18.4   1.6   15   10-24     33-48  (65)
+  2 4TXA_A ROQUIN; RNA-binding HEP  42.8      24 0.00026   24.2   0.8   13    7-19    238-250 (484)
+  3 6LQO_L Cytoplasmic envelopment  42.6      34 0.00036   22.9   1.4   14    4-17     18-31  (131)
+  4 2AZE_B Transcription factor Dp  42.3      18  0.0002   18.9   0.2   11    2-12     69-79  (106)
+  5 1F0Z_A Ubiquitin fold, TRANSPO  37.7      54 0.00058   13.4   1.2   20    4-23     11-30  (66)
+  6 1ZUD_2 Adenylyltransferase thi  37.7      54 0.00058   13.4   1.2   18    4-21     11-28  (66)
+  7 6Z5R_6 Light-harvesting comple  35.2      69 0.00075   16.5   1.6   15   10-24     33-48  (52)
+  8 1WRG_A Membrane protein, Light  31.0      91 0.00099   16.3   1.7   14   11-24     36-50  (55)
+  9 5TUU_B Transcription factor DP  30.9      31 0.00034   18.1  -0.1   11    2-12     69-79  (111)
+ 10 2M19_A Molybdopterin convertin  29.5      33 0.00036   15.8  -0.1   22    4-25     37-58  (106)
+ 11 4ULW_B ROQUIN-1; RNA-BINDING P  26.7      41 0.00045   22.7  -0.1   12    8-19     63-74  (152)
+ 12 4ZLD_A Roquin-2/RNA Complex; R  25.8      43 0.00047   22.7  -0.1   12    8-19     66-77  (155)
+ 13 6R7U_B Mirolysin; metallopepti  25.8      61 0.00067   19.8   0.5   15   10-24    208-222 (314)
+ 14 6R7V_A Mirolysin; metallopepti  25.8      61 0.00067   19.8   0.5   15   10-24    208-222 (314)
+ 15 3LUM_B metallopeptidase, hydro  24.6      66 0.00072   18.5   0.5   13   10-22    169-181 (262)
+ 16 6R7W_A Mirolysin, Putative lip  24.4      67 0.00073   18.9   0.5   14   10-23    171-184 (277)
+ 17 5F5F_C Roquin-1/RNA Complex; R  23.8      48 0.00053   23.1  -0.2   12    8-19     69-80  (190)
+ 18 4Z31_B Roquin-2/RNA Complex; r  23.8      53 0.00057   24.3   0.0   12    8-19    151-162 (319)
+ 19 7DV2_A DNA BINDING PROTEIN-DNA  23.4      84 0.00091   19.2   0.8   18   12-29     29-46  (83)
+ 20 7DV2_C DNA BINDING PROTEIN-DNA  23.4      84 0.00091   19.2   0.8   18   12-29     29-46  (83)
+ 21 7V30_g Respiratory, Complex, E  23.1 1.1E+02  0.0012   17.9   1.2   17    5-21    104-120 (121)
+ 22 1KZU_B LIGHT HARVESTING PROTEI  21.8 1.5E+02  0.0017   14.9   1.5   13   11-23     28-41  (41)
+ 23 1NKZ_B Light-harvesting protei  21.8 1.5E+02  0.0017   14.9   1.5   13   11-23     28-41  (41)
+ 24 1RYJ_A beta/alpha protein, Str  21.6 1.1E+02  0.0012   12.7   0.8   16    3-18     18-33  (70)
+ 25 4QIK_B Roquin-1; RNA duplex, W  21.4      62 0.00067   24.1  -0.0   12    8-19    154-165 (330)
+ 26 6JC0_A Putative molybdenum cof  20.9      92   0.001   14.1   0.5   17    3-19     28-44  (88)
+ 27 2FY6_A Peptide methionine sulf  20.8 1.1E+02  0.0011   13.9   0.7    8   24-31      5-12  (143)
+ 28 5YQ7_I Beta subunit of light-h  20.2 1.7E+02  0.0018   15.8   1.5   13   11-23     42-55  (55)
+ 29 3X1O_A Roquin-1; WINGED-HELIX   20.1      72 0.00079   22.5   0.1   12    8-19     96-107 (208)
+ 30 3X1O_B Roquin-1; WINGED-HELIX   20.1      72 0.00079   22.5   0.1   12    8-19     96-107 (208)
+ 31 3CMI_A Peroxiredoxin HYR1 (E.C  20.0      47 0.00052   16.2  -0.6   23   12-34      2-24  (171)
+
+No 1
+>6Z5S_S Light harvesting complex 1 Protein; Reaction center, Light harvesting, Protein; HET: LMT, PGT, U10, QAK, CDL, FME, CRT, 6PL, BPH, BCL;{Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009)}
+Probab=45.67  E-value=37  Score=18.38  Aligned_cols=15  Identities=47%  Similarity=1.203  Sum_probs=12.2  Template_Neff=6.300
+
+Q ss_pred             CHHHHH-HhhcCCCCC
+Q tr|I3L4F5|I3L4   10 TIGHVL-QTWHPFLPK   24 (35)
+Q Consensus        10 tighvl-qtwhpflpk   24 (35)
+                      .++|+| ..|.|++|.
+T Consensus        33 vva~lL~~~wrpw~~g   48 (65)
+T 6Z5S_S           33 VVAHILAWMWRPWLPK   48 (65)
+T ss_pred             HHHHHHHHHhcCCCCC
+Confidence            468888 889999886
+
+
+No 2
+>4TXA_A ROQUIN; RNA-binding HEPN RING ROQ, RNA; 2.75A {Mus musculus}
+Probab=42.75  E-value=24  Score=24.23  Aligned_cols=13  Identities=46%  Similarity=0.606  Sum_probs=9.8  Template_Neff=8.100
+
+Q ss_pred             CCCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    7 PGTTIGHVLQTWH   19 (35)
+Q Consensus         7 pgttighvlqtwh   19 (35)
+                      .-|.||||+|.-.
+T Consensus       238 ~kt~~~~~~q~l~  250 (484)
+T 4TXA_A          238 SKTSIGHVVQLLY  250 (484)
+T ss_dssp             CHHHHHHHHHHHH
+T ss_pred             ccchhHHHHhhhh
+Confidence            3478999999643
+
+
+No 3
+>6LQO_L Cytoplasmic envelopment protein 1, Tegument; Epstein-Barr virus (EBV)/Human herpesvirus 4; HET: GOL, ACT; 3.09112613349A {Human gammaherpesvirus 4}
+Probab=42.60  E-value=34  Score=22.92  Aligned_cols=14  Identities=36%  Similarity=0.892  Sum_probs=12.2  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCHHHHHHh
+Q tr|I3L4F5|I3L4    4 QAPPGTTIGHVLQT   17 (35)
+Q Consensus         4 qappgttighvlqt   17 (35)
+                      --|||.++|.++|.
+T Consensus        18 GLPPGV~vGDli~~   31 (131)
+T 6LQO_L           18 GLPPGVQVGDLLRN   31 (131)
+T ss_dssp             CSCTTCCSHHHHHH
+T ss_pred             CCCCCcCHHHHHhc
+Confidence            46999999999985
+
+
+No 4
+>2AZE_B Transcription factor Dp-1, Transcription factor; coiled coil, beta sandwich, CELL; 2.55A {Homo sapiens} SCOP: e.63.1.2
+Probab=42.33  E-value=18  Score=18.89  Aligned_cols=11  Identities=36%  Similarity=0.721  Sum_probs=8.5  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCHH
+Q tr|I3L4F5|I3L4    2 EVQAPPGTTIG   12 (35)
+Q Consensus         2 evqappgttig   12 (35)
+                      -|+||+||++.
+T Consensus        69 ~i~ap~~t~~~   79 (106)
+T 2AZE_B           69 VIKAPPETQLQ   79 (106)
+T ss_dssp             EEECCTTCEEE
+T ss_pred             EEeCCCccccc
+Confidence            36799999865
+
+
+No 5
+>1F0Z_A Ubiquitin fold, TRANSPORT PROTEIN; NMR {Escherichia coli} SCOP: d.15.3.2
+Probab=37.70  E-value=54  Score=13.36  Aligned_cols=20  Identities=20%  Similarity=0.293  Sum_probs=14.5  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCHHHHHHhhcCCCC
+Q tr|I3L4F5|I3L4    4 QAPPGTTIGHVLQTWHPFLP   23 (35)
+Q Consensus         4 qappgttighvlqtwhpflp   23 (35)
+                      ..++++|+.++++.+..-..
+T Consensus        11 ~~~~~~t~~~~~~~~~~~~~   30 (66)
+T 1F0Z_A           11 QCAAGQTVHELLEQLDQRQA   30 (66)
+T ss_dssp             CCCTTCCHHHHHHHHTCCCS
+T ss_pred             EeCCCCcHHHHHHHhCCCCC
+Confidence            45778999999987754433
+
+
+No 6
+>1ZUD_2 Adenylyltransferase thiF (E.C.2.7.7.-), ThiS protein; Thiamin, Thiazole, protein-protein complex, THIS; 1.98A {Escherichia coli} SCOP: d.15.3.2
+Probab=37.70  E-value=54  Score=13.36  Aligned_cols=18  Identities=22%  Similarity=0.350  Sum_probs=13.3  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCHHHHHHhhcCC
+Q tr|I3L4F5|I3L4    4 QAPPGTTIGHVLQTWHPF   21 (35)
+Q Consensus         4 qappgttighvlqtwhpf   21 (35)
+                      ..++++|+.++++.+..-
+T Consensus        11 ~~~~~~t~~~~~~~~~~~   28 (66)
+T 1ZUD_2           11 QCAAGQTVHELLEQLDQR   28 (66)
+T ss_dssp             ECCTTCBHHHHHHHTTCC
+T ss_pred             EeCCCCcHHHHHHHhCCC
+Confidence            356789999999876443
+
+
+No 7
+>6Z5R_6 Light-harvesting complex 1 alpha chain; Reaction center, Light harvesting, Protein; HET: LMT, PGT, U10, QAK, CDL, FME, CRT, 6PL, BPH, BCL;{Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009)}
+Probab=35.16  E-value=69  Score=16.54  Aligned_cols=15  Identities=47%  Similarity=1.203  Sum_probs=11.2  Template_Neff=6.500
+
+Q ss_pred             CHHHHH-HhhcCCCCC
+Q tr|I3L4F5|I3L4   10 TIGHVL-QTWHPFLPK   24 (35)
+Q Consensus        10 tighvl-qtwhpflpk   24 (35)
+                      .++|+| ..|.|.+|.
+T Consensus        33 v~a~lL~~~wrpw~~g   48 (52)
+T 6Z5R_6           33 VVAHILAWMWRPWLPK   48 (52)
+T ss_pred             HHHHHHHHHhccCCCC
+Confidence            467877 788888874
+
+
+No 8
+>1WRG_A Membrane protein, Light-harvesting, Pigment binding; NMR {Rhodospirillum rubrum}
+Probab=31.05  E-value=91  Score=16.27  Aligned_cols=14  Identities=36%  Similarity=1.054  Sum_probs=10.8  Template_Neff=6.500
+
+Q ss_pred             HHHHH-HhhcCCCCC
+Q tr|I3L4F5|I3L4   11 IGHVL-QTWHPFLPK   24 (35)
+Q Consensus        11 ighvl-qtwhpflpk   24 (35)
+                      ++|+| ..|.|++|.
+T Consensus        36 ~a~lL~~~wrpw~~g   50 (55)
+T 1WRG_A           36 FAHLLVWIWRPWVPG   50 (55)
+T ss_dssp             HHHHHHSSCSSSSCC
+T ss_pred             HHHHHHHHhcCCCCC
+Confidence            57777 788898875
+
+
+No 9
+>5TUU_B Transcription factor DP1, Transcription factor; Transcription factor, cell-cycle regulation, coiled; HET: GOL; 2.251A {Homo sapiens}
+Probab=30.94  E-value=31  Score=18.10  Aligned_cols=11  Identities=36%  Similarity=0.836  Sum_probs=7.9  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCHH
+Q tr|I3L4F5|I3L4    2 EVQAPPGTTIG   12 (35)
+Q Consensus         2 evqappgttig   12 (35)
+                      -|+||+||++.
+T Consensus        69 ~v~ap~~t~l~   79 (111)
+T 5TUU_B           69 AIRAPSGTSLE   79 (111)
+T ss_dssp             EEECCTTCEEE
+T ss_pred             EEeCCCCCeEe
+Confidence            36789998753
+
+
+No 10
+>2M19_A Molybdopterin converting factor subunit 1; ubiquitin-like protein, PROTEIN BINDING; NMR {Haloferax volcanii}
+Probab=29.53  E-value=33  Score=15.81  Aligned_cols=22  Identities=18%  Similarity=0.308  Sum_probs=14.2  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCHHHHHHhhcCCCCCC
+Q tr|I3L4F5|I3L4    4 QAPPGTTIGHVLQTWHPFLPKF   25 (35)
+Q Consensus         4 qappgttighvlqtwhpflpkf   25 (35)
+                      ..+.+.|++.+++....-.|.|
+T Consensus        37 ~~~~~~t~~~~l~~l~~~~~~~   58 (106)
+T 2M19_A           37 RVDDDATVGDVLRSLEAEYDGL   58 (106)
+T ss_dssp             EEETTCCHHHHHHHHHHHCGGG
+T ss_pred             EcCCCCcHHHHHHHHHHHcchh
+Confidence            3455678998888765544443
+
+
+No 11
+>4ULW_B ROQUIN-1; RNA-BINDING PROTEIN, RNA BINDING PROTEIN; 1.91A {HOMO SAPIENS}
+Probab=26.67  E-value=41  Score=22.71  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.6  Template_Neff=3.200
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||+|.-.
+T Consensus        63 ktsiGhvvQlLy   74 (152)
+T 4ULW_B           63 KTSIGHVVQLLY   74 (152)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             cccccchheeee
+Confidence            478999999754
+
+
+No 12
+>4ZLD_A Roquin-2/RNA Complex; RNA BINDING PROTEIN, RNA BINDING; HET: GOL; 1.6A {Homo sapiens}
+Probab=25.82  E-value=43  Score=22.68  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.6  Template_Neff=3.200
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||+|.-.
+T Consensus        66 KTsiGhvvQlLy   77 (155)
+T 4ZLD_A           66 KTSIGHVVQLLY   77 (155)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             cccccchheeee
+Confidence            478999999754
+
+
+No 13
+>6R7U_B Mirolysin; metallopeptidase zymogen, metzincin, pappalysin family; HET: CSX, GOL, MSE; 1.6A {Tannerella forsythia}
+Probab=25.79  E-value=61  Score=19.80  Aligned_cols=15  Identities=27%  Similarity=0.404  Sum_probs=12.3  Template_Neff=9.700
+
+Q ss_pred             CHHHHHHhhcCCCCC
+Q tr|I3L4F5|I3L4   10 TIGHVLQTWHPFLPK   24 (35)
+Q Consensus        10 tighvlqtwhpflpk   24 (35)
+                      -+||.|.-+|+|-..
+T Consensus       208 ElGH~lGL~Ht~~~~  222 (314)
+T 6R7U_B          208 AVGHWLDLRHIWGDD  222 (314)
+T ss_dssp             HHHHHTTCCCTTCSS
+T ss_pred             HHhHHhcCcCcCCCC
+Confidence            479999999998763
+
+
+No 14
+>6R7V_A Mirolysin; metallopeptidase zymogen, metzincin, pappalysin family; HET: GOL; 1.4A {Tannerella forsythia}
+Probab=25.79  E-value=61  Score=19.80  Aligned_cols=15  Identities=27%  Similarity=0.404  Sum_probs=12.3  Template_Neff=9.700
+
+Q ss_pred             CHHHHHHhhcCCCCC
+Q tr|I3L4F5|I3L4   10 TIGHVLQTWHPFLPK   24 (35)
+Q Consensus        10 tighvlqtwhpflpk   24 (35)
+                      -+||.|.-+|+|-..
+T Consensus       208 ElGH~lGL~Ht~~~~  222 (314)
+T 6R7V_A          208 AVGHWLDLRHIWGDD  222 (314)
+T ss_dssp             HHHHHTTCCCTTCSS
+T ss_pred             HHhHHhcCcCcCCCC
+Confidence            479999999998763
+
+
+No 15
+>3LUM_B metallopeptidase, hydrolase, metal ion binding; HET: VAL, GOL, ARG, CA; 1.7A {Methanosarcina acetivorans}
+Probab=24.60  E-value=66  Score=18.55  Aligned_cols=13  Identities=38%  Similarity=0.616  Sum_probs=10.8  Template_Neff=10.400
+
+Q ss_pred             CHHHHHHhhcCCC
+Q tr|I3L4F5|I3L4   10 TIGHVLQTWHPFL   22 (35)
+Q Consensus        10 tighvlqtwhpfl   22 (35)
+                      -|||.|--.|+|-
+T Consensus       169 EiGH~lGL~Ht~~  181 (262)
+T 3LUM_B          169 EIGHWLNLYHIWG  181 (262)
+T ss_dssp             HHHHHTTCCCTTC
+T ss_pred             HHHHHccccCCCC
+Confidence            4799999999875
+
+
+No 16
+>6R7W_A Mirolysin, Putative lipoprotein; metallopeptidase zymogen, metzincin, pappalysin family; HET: CIT; 1.5A {Tannerella forsythia}
+Probab=24.39  E-value=67  Score=18.86  Aligned_cols=14  Identities=29%  Similarity=0.404  Sum_probs=11.3  Template_Neff=10.200
+
+Q ss_pred             CHHHHHHhhcCCCC
+Q tr|I3L4F5|I3L4   10 TIGHVLQTWHPFLP   23 (35)
+Q Consensus        10 tighvlqtwhpflp   23 (35)
+                      -+||.|--+|+|-.
+T Consensus       171 ElGH~lGL~Ht~~~  184 (277)
+T 6R7W_A          171 EVGHWLDLRHIWGD  184 (277)
+T ss_dssp             HHHHHTTCCCTTCS
+T ss_pred             HHHHHccCcCcCCC
+Confidence            37899998999865
+
+
+No 17
+>5F5F_C Roquin-1/RNA Complex; ROQ domain, winged-helix domain, RNA; 3.0A {Mus musculus}
+Probab=23.77  E-value=48  Score=23.05  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.5  Template_Neff=3.300
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||+|.-.
+T Consensus        69 KTsiGhvvQlLy   80 (190)
+T 5F5F_C           69 KTSIGHVVQLLY   80 (190)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             cccccchheeee
+Confidence            478999999754
+
+
+No 18
+>4Z31_B Roquin-2/RNA Complex; roquin2, RNA, Structural Genomics, Structural; 2.5A {Homo sapiens}
+Probab=23.76  E-value=53  Score=24.33  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.5  Template_Neff=3.600
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||.|.-.
+T Consensus       151 KTsIGHVVQLLY  162 (319)
+T 4Z31_B          151 KTSIGHVVQLLY  162 (319)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             CCccccHheeec
+Confidence            478999999753
+
+
+No 19
+>7DV2_A DNA BINDING PROTEIN-DNA COMPLEX, DNA; 3.1A {Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2)}
+Probab=23.43  E-value=84  Score=19.23  Aligned_cols=18  Identities=28%  Similarity=0.237  Sum_probs=14.3  Template_Neff=3.800
+
+Q ss_pred             HHHHHhhcCCCCCCCccc
+Q tr|I3L4F5|I3L4   12 GHVLQTWHPFLPKFSIQD   29 (35)
+Q Consensus        12 ghvlqtwhpflpkfsiqd   29 (35)
+                      .-||+-|---.|.|||.+
+T Consensus        29 aaVL~YLk~T~P~FSIS~   46 (83)
+T 7DV2_A           29 FLVLQYLYHTVPGFKMSR   46 (83)
+T ss_dssp             HHHHHHHHHHSTTCCHHH
+T ss_pred             HHHHHHHHhcCCCCCccH
+Confidence            457888888899999864
+
+
+No 20
+>7DV2_C DNA BINDING PROTEIN-DNA COMPLEX, DNA; 3.1A {Saccharolobus solfataricus (strain ATCC 35092 / DSM 1617 / JCM 11322 / P2)}
+Probab=23.43  E-value=84  Score=19.23  Aligned_cols=18  Identities=28%  Similarity=0.237  Sum_probs=14.5  Template_Neff=3.800
+
+Q ss_pred             HHHHHhhcCCCCCCCccc
+Q tr|I3L4F5|I3L4   12 GHVLQTWHPFLPKFSIQD   29 (35)
+Q Consensus        12 ghvlqtwhpflpkfsiqd   29 (35)
+                      .-||+-|---.|.|||.+
+T Consensus        29 aaVL~YLk~T~P~FSIS~   46 (83)
+T 7DV2_C           29 FLVLQYLYHTVPGFKMSR   46 (83)
+T ss_dssp             HHHHHHHHHHSTTCCSHH
+T ss_pred             HHHHHHHHhcCCCCCccH
+Confidence            457888888899999964
+
+
+No 21
+>7V30_g Respiratory, Complex, ELECTRON TRANSPORT; HET: PEE, SF4, ADP, NDP, UQ, FMN, 2MR, CDL, 8Q1, NAI, PLX; 2.7A {Sus scrofa}
+Probab=23.05  E-value=1.1e+02  Score=17.90  Aligned_cols=17  Identities=29%  Similarity=0.638  Sum_probs=13.4  Template_Neff=7.100
+
+Q ss_pred             CCCCCCHHHHHHhhcCC
+Q tr|I3L4F5|I3L4    5 APPGTTIGHVLQTWHPF   21 (35)
+Q Consensus         5 appgttighvlqtwhpf   21 (35)
+                      .|...+.+.+|..|.|.
+T Consensus       104 ~~~~~k~~dvl~~W~P~  120 (121)
+T 7V30_g          104 EKDKKTYGEILEEFHPV  120 (121)
+T ss_pred             CcCCccHHHHhccCccC
+Confidence            45677889999999884
+
+
+No 22
+>1KZU_B LIGHT HARVESTING PROTEIN B-800/850, BACTERIOCHLOROPHYLL; ANTENNA COMPLEX, LIGHT-HARVESTING PROTEIN, LH2; HET: BCL, FME, RG1; 2.5A {Rhodoblastus acidophilus} SCOP: f.3.1.1
+Probab=21.82  E-value=1.5e+02  Score=14.86  Aligned_cols=13  Identities=31%  Similarity=0.585  Sum_probs=8.6  Template_Neff=6.000
+
+Q ss_pred             HHHHH-HhhcCCCC
+Q tr|I3L4F5|I3L4   11 IGHVL-QTWHPFLP   23 (35)
+Q Consensus        11 ighvl-qtwhpflp   23 (35)
+                      ++|+| ..|.|.+|
+T Consensus        28 ~ahlL~~~wrpWlp   41 (41)
+T 1KZU_B           28 VAHFLAFSATPWLH   41 (41)
+T ss_dssp             HHHHHHHHHSSTTC
+T ss_pred             HHHHHHHHcCccCC
+Confidence            45655 46888876
+
+
+No 23
+>1NKZ_B Light-harvesting protein B-800/850, alpha chain; LIGHT HARVESTING COMPLEX II, TRANS-MEMBRANE; HET: BOG, RG1, CXM, BEN, BCL; 2.0A {Rhodoblastus acidophilus} SCOP: f.3.1.1
+Probab=21.82  E-value=1.5e+02  Score=14.86  Aligned_cols=13  Identities=31%  Similarity=0.585  Sum_probs=8.6  Template_Neff=6.000
+
+Q ss_pred             HHHHH-HhhcCCCC
+Q tr|I3L4F5|I3L4   11 IGHVL-QTWHPFLP   23 (35)
+Q Consensus        11 ighvl-qtwhpflp   23 (35)
+                      ++|+| ..|.|.+|
+T Consensus        28 ~ahlL~~~wrpWlp   41 (41)
+T 1NKZ_B           28 VAHFLAFSATPWLH   41 (41)
+T ss_dssp             HHHHHHHHHSSTTC
+T ss_pred             HHHHHHHHcCccCC
+Confidence            45655 46888876
+
+
+No 24
+>1RYJ_A beta/alpha protein, Structural Genomics, Protein; NMR {Methanothermococcus thermolithotrophicus} SCOP: d.15.3.2
+Probab=21.60  E-value=1.1e+02  Score=12.69  Aligned_cols=16  Identities=19%  Similarity=0.214  Sum_probs=11.3  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCHHHHHHhh
+Q tr|I3L4F5|I3L4    3 VQAPPGTTIGHVLQTW   18 (35)
+Q Consensus         3 vqappgttighvlqtw   18 (35)
+                      +..++++++..++..-
+T Consensus        18 ~~~~~~~t~~~~~~~~   33 (70)
+T 1RYJ_A           18 LESGAPRRIKDVLGEL   33 (70)
+T ss_dssp             EEESSCCBHHHHHHHT
+T ss_pred             EEcCCCccHHHHHHHC
+Confidence            3456788988888643
+
+
+No 25
+>4QIK_B Roquin-1; RNA duplex, Winged-helix motif, mRNA; HET: CL, MSE; 1.9A {Homo sapiens}
+Probab=21.39  E-value=62  Score=24.14  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.6  Template_Neff=3.500
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||.|.-.
+T Consensus       154 KTsIGHVVQLLY  165 (330)
+T 4QIK_B          154 KTSIGHVVQLLY  165 (330)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             CCcccchheeee
+Confidence            478999999754
+
+
+No 26
+>6JC0_A Putative molybdenum cofactor biosynthesis protein; molybdopterin synthases, molybdenum cofactor biosynthesis; 2.1A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=20.94  E-value=92  Score=14.10  Aligned_cols=17  Identities=12%  Similarity=0.407  Sum_probs=10.6  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    3 VQAPPGTTIGHVLQTWH   19 (35)
+Q Consensus         3 vqappgttighvlqtwh   19 (35)
+                      +..|+|.|++.+++.-.
+T Consensus        28 ~~~~~~~t~~~~~~~l~   44 (88)
+T 6JC0_A           28 LEIATGTSVAELVERLG   44 (88)
+T ss_pred             EEeCCCCcHHHHHHHHH
+Confidence            45566777777665543
+
+
+No 27
+>2FY6_A Peptide methionine sulfoxide reductase msrA/msrB; PILB, Cytochrome maturation protein, Thioredoxin; 1.9A {Neisseria meningitidis} SCOP: c.47.1.10
+Probab=20.77  E-value=1.1e+02  Score=13.90  Aligned_cols=8  Identities=25%  Similarity=0.335  Sum_probs=3.2  Template_Neff=13.000
+
+Q ss_pred             CCCcccCC
+Q tr|I3L4F5|I3L4   24 KFSIQDAD   31 (35)
+Q Consensus        24 kfsiqdad   31 (35)
+                      .|++.|.+
+T Consensus         5 ~~~~~~~~   12 (143)
+T 2FY6_A            5 LSTLKTAD   12 (143)
+T ss_dssp             HHTCEETT
+T ss_pred             ccccccCC
+Confidence            34444433
+
+
+No 28
+>5YQ7_I Beta subunit of light-harvesting 1; Photosynthetic core complex, PHOTOSYNTHESIS; HET: HEM, MQE, KGD, BPH, BCL;{Roseiflexus castenholzii}
+Probab=20.20  E-value=1.7e+02  Score=15.82  Aligned_cols=13  Identities=46%  Similarity=1.096  Sum_probs=7.6  Template_Neff=5.600
+
+Q ss_pred             HHHHH-HhhcCCCC
+Q tr|I3L4F5|I3L4   11 IGHVL-QTWHPFLP   23 (35)
+Q Consensus        11 ighvl-qtwhpflp   23 (35)
+                      ++|+| ..|.|.||
+T Consensus        42 ~AhlL~~~WrpWlp   55 (55)
+T 5YQ7_I           42 IAHVLCWAWTPWIR   55 (55)
+T ss_dssp             HHHHHTTTTCCCCC
+T ss_pred             HHHHHHHHcCcCCC
+Confidence            34554 45777765
+
+
+No 29
+>3X1O_A Roquin-1; WINGED-HELIX MOTIF, RNA, cytosol, RNA; HET: IOD; 2.201A {Homo sapiens}
+Probab=20.11  E-value=72  Score=22.52  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.6  Template_Neff=3.300
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||+|.-.
+T Consensus        96 KTsiGhvvQlLY  107 (208)
+T 3X1O_A           96 KTSIGHVVQLLY  107 (208)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             ccccchhheehh
+Confidence            478999999754
+
+
+No 30
+>3X1O_B Roquin-1; WINGED-HELIX MOTIF, RNA, cytosol, RNA; HET: IOD; 2.201A {Homo sapiens}
+Probab=20.11  E-value=72  Score=22.52  Aligned_cols=12  Identities=50%  Similarity=0.645  Sum_probs=9.6  Template_Neff=3.300
+
+Q ss_pred             CCCHHHHHHhhc
+Q tr|I3L4F5|I3L4    8 GTTIGHVLQTWH   19 (35)
+Q Consensus         8 gttighvlqtwh   19 (35)
+                      -|.||||+|.-.
+T Consensus        96 KTsiGhvvQlLY  107 (208)
+T 3X1O_B           96 KTSIGHVVQLLY  107 (208)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             ccccchhheehh
+Confidence            478999999754
+
+
+No 31
+>3CMI_A Peroxiredoxin HYR1 (E.C.1.11.1.15); Thioredoxin-like fold, Oxidoreductase, Peroxidase, Redox-active; 2.02A {Saccharomyces cerevisiae}
+Probab=20.04  E-value=47  Score=16.18  Aligned_cols=23  Identities=22%  Similarity=0.171  Sum_probs=11.2  Template_Neff=12.300
+
+Q ss_pred             HHHHHhhcCCCCCCCcccCCCCC
+Q tr|I3L4F5|I3L4   12 GHVLQTWHPFLPKFSIQDADRQT   34 (35)
+Q Consensus        12 ghvlqtwhpflpkfsiqdadrqt   34 (35)
+                      ||.--+|-...+.|+..|.+..+
+T Consensus         2 ~~~~~~~~~~~~~~~~~d~~g~~   24 (171)
+T 3CMI_A            2 GHHHHHHMSEFYKLAPVDKKGQP   24 (171)
+T ss_dssp             --------CGGGGCCCBBTTSCB
+T ss_pred             CCcccccccchhhcCccCCCCCE
+Confidence            55555666677888888877654
+
+

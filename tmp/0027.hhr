@@ -1,0 +1,170 @@
+Query         tr|K7EIY0|K7EIY0_HUMAN
+Match_columns 112
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:21:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0027.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7F5N_B Protein Tyrosine Phosph  98.4 8.4E-08 9.1E-13   64.5   0.4   28    2-29    290-317 (317)
+  2 7F5O_A Protein Tyrosine Phosph  65.5     3.6   4E-05   27.7  -0.2   16    2-17    290-305 (305)
+  3 7F5O_B Protein Tyrosine Phosph  65.5     3.6   4E-05   27.7  -0.2   16    2-17    290-305 (305)
+  4 1SBQ_B Hypothetical protein MG  56.8      97  0.0011   22.5   5.6   46   43-89     11-56  (189)
+  5 1U3F_B 5,10-Methenyltetrahydro  56.8      97  0.0011   22.5   5.6   46   43-89     11-56  (189)
+  6 3HY3_A 5-formyltetrahydrofolat  47.6      38 0.00041   24.0   2.4   29   59-87      8-36  (203)
+  7 3HY6_A 5-formyltetrahydrofolat  47.6      38 0.00041   24.0   2.4   29   59-87      8-36  (203)
+  8 2EAP_A CELL-FREE PROTEIN SYNTH  36.9      62 0.00067   20.4   1.9   23   75-97     67-89  (90)
+  9 3FO5_A Thioesterase, adipose a  23.7      53 0.00058   22.6   0.0   26   49-74      3-28  (258)
+ 10 1SOU_A Structural Genomics, PS  23.5   3E+02  0.0033   19.7   3.7   25   60-84      2-26  (194)
+
+No 1
+>7F5N_B Protein Tyrosine Phosphatase, TCPTP, PTPN2; 1.93A {Homo sapiens}
+Probab=98.45  E-value=8.4e-08  Score=64.46  Aligned_cols=28  Identities=100%  Similarity=1.503  Sum_probs=9.9  Template_Neff=11.400
+
+Q ss_pred             CChhcCChhhCCcccCCCCchhhccccC
+Q tr|K7EIY0|K7EI    2 KRWKELSKEDLSPAFDHSPNKIMTEKYN   29 (112)
+Q Consensus         2 krwkelskedlspafdhspnkimtekyn   29 (112)
+                      ++|+|+++||+++|++|+|++|||+|||
+T Consensus       290 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  317 (317)
+T 7F5N_B          290 KRWKELSKEDLSPAFDHSPNKIMTEKYN  317 (317)
+T ss_dssp             HHHHHHTTTTC-----------------
+T ss_pred             HHHHHhhhhccCcccccCCCcccccccC
+Confidence            4699999999999999999999999997
+
+
+No 2
+>7F5O_A Protein Tyrosine Phosphatase, TCPTP, PTPN2; 1.7A {Homo sapiens}
+Probab=65.48  E-value=3.6  Score=27.66  Aligned_cols=16  Identities=100%  Similarity=1.549  Sum_probs=13.8  Template_Neff=11.800
+
+Q ss_pred             CChhcCChhhCCcccC
+Q tr|K7EIY0|K7EI    2 KRWKELSKEDLSPAFD   17 (112)
+Q Consensus         2 krwkelskedlspafd   17 (112)
+                      ++|++..+|||++||+
+T Consensus       290 ~~~~~~~~~~~~~~~~  305 (305)
+T 7F5O_A          290 KRWKELSKEDLSPAFD  305 (305)
+T ss_dssp             HHHHHHHTCCSCCCCC
+T ss_pred             HHHHHhhhhccCccCC
+Confidence            4689999999999985
+
+
+No 3
+>7F5O_B Protein Tyrosine Phosphatase, TCPTP, PTPN2; 1.7A {Homo sapiens}
+Probab=65.48  E-value=3.6  Score=27.66  Aligned_cols=16  Identities=100%  Similarity=1.549  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CChhcCChhhCCcccC
+Q tr|K7EIY0|K7EI    2 KRWKELSKEDLSPAFD   17 (112)
+Q Consensus         2 krwkelskedlspafd   17 (112)
+                      ++|++..+|||++||+
+T Consensus       290 ~~~~~~~~~~~~~~~~  305 (305)
+T 7F5O_B          290 KRWKELSKEDLSPAFD  305 (305)
+T ss_dssp             ----------------
+T ss_pred             HHHHHhhhhccCccCC
+Confidence            5799999999999985
+
+
+No 4
+>1SBQ_B Hypothetical protein MG245 homolog (E.C.6.3.3.2); 5, 10-Methenyltetrahydrofolate synthetase, MTHFS, 5-formyltetrahydrofolate; HET: SO4; 2.2A {Mycoplasma pneumoniae} SCOP: c.124.1.6
+Probab=56.77  E-value=97  Score=22.51  Aligned_cols=46  Identities=22%  Similarity=0.255  Sum_probs=21.4  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCcccccccccCChhHHHHHHHhhhhccHHHHHHHHHHhhhh
+Q tr|K7EIY0|K7EI   43 DRCTGLSSKMQDTMEENSESALRKRIREDRKATTAQKVQQMKQRLNE   89 (112)
+Q Consensus        43 drctglsskmqdtmeensesalrkriredrkattaqkvqqmkqrlne   89 (112)
+                      |-|......+...+ .....+||+.+++.|++......+...+.+.+
+T Consensus        11 ~~~~~~~~~~~~~~-~~~K~~LR~~~~~~r~~l~~~~~~~~s~~i~~   56 (189)
+T 1SBQ_B           11 DYDIPTTENLYFQG-HMDKNALRKQILQKRMALSTIEKSHLDQKINQ   56 (189)
+T ss_dssp             ----------------CCHHHHHHHTHHHHTTSCHHHHHHHHHHHHH
+T ss_pred             ccCCCcchhhcccc-cccHHHHHHHHHHHHhCCCHHHHHHHHHHHHH
+Confidence            34444444444333 34678999999999988766554444444433
+
+
+No 5
+>1U3F_B 5,10-Methenyltetrahydrofolate Synthetase (E.C.6.3.3.2); Mycoplasma pneumoniae  5, 10-methenyltetrahydrofolate; HET: ADP, PO4; 2.5A {Mycoplasma pneumoniae} SCOP: c.124.1.6
+Probab=56.77  E-value=97  Score=22.51  Aligned_cols=46  Identities=22%  Similarity=0.255  Sum_probs=21.1  Template_Neff=8.500
+
+Q ss_pred             CCCCCCCcccccccccCChhHHHHHHHhhhhccHHHHHHHHHHhhhh
+Q tr|K7EIY0|K7EI   43 DRCTGLSSKMQDTMEENSESALRKRIREDRKATTAQKVQQMKQRLNE   89 (112)
+Q Consensus        43 drctglsskmqdtmeensesalrkriredrkattaqkvqqmkqrlne   89 (112)
+                      |-|......+...+ .....+||+.+++.|++......+...+.+.+
+T Consensus        11 ~~~~~~~~~~~~~~-~~~K~~LR~~~~~~r~~l~~~~~~~~s~~i~~   56 (189)
+T 1U3F_B           11 DYDIPTTENLYFQG-HMDKNALRKQILQKRMALSTIEKSHLDQKINQ   56 (189)
+T ss_dssp             ----------------CCHHHHHHHHHHHHHHCCHHHHHHHHHHHHH
+T ss_pred             ccCCCcchhhcccc-cccHHHHHHHHHHHHhCCCHHHHHHHHHHHHH
+Confidence            34444444444333 34578999999999988766554444444433
+
+
+No 6
+>3HY3_A 5-formyltetrahydrofolate cyclo-ligase (E.C.6.3.3.2); antifolate, cancer, 10-formyltetrahydrofolate, ATP-binding, Folate-binding; HET: 10F; 1.8A {Homo sapiens}
+Probab=47.62  E-value=38  Score=24.03  Aligned_cols=29  Identities=17%  Similarity=0.330  Sum_probs=19.5  Template_Neff=9.300
+
+Q ss_pred             CChhHHHHHHHhhhhccHHHHHHHHHHhh
+Q tr|K7EIY0|K7EI   59 NSESALRKRIREDRKATTAQKVQQMKQRL   87 (112)
+Q Consensus        59 nsesalrkriredrkattaqkvqqmkqrl   87 (112)
+                      .....||++++..|+..+....+...+.+
+T Consensus         8 ~~K~~lR~~~~~~r~~l~~~~~~~~s~~i   36 (203)
+T 3HY3_A            8 SAKRSLRGELKQRLRAMSAEERLRQSRVL   36 (203)
+T ss_dssp             HHHHHHHHHHHHHHHTSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCHHHHHHHHHHH
+Confidence            35678999999999876655544443333
+
+
+No 7
+>3HY6_A 5-formyltetrahydrofolate cyclo-ligase (E.C.6.3.3.2); antifolate, cancer, ADP, ATP-binding, Folate-binding; HET: MG; 2.1A {Homo sapiens}
+Probab=47.62  E-value=38  Score=24.03  Aligned_cols=29  Identities=17%  Similarity=0.330  Sum_probs=19.4  Template_Neff=9.300
+
+Q ss_pred             CChhHHHHHHHhhhhccHHHHHHHHHHhh
+Q tr|K7EIY0|K7EI   59 NSESALRKRIREDRKATTAQKVQQMKQRL   87 (112)
+Q Consensus        59 nsesalrkriredrkattaqkvqqmkqrl   87 (112)
+                      .....||++++..|+..+....+...+.+
+T Consensus         8 ~~K~~lR~~~~~~r~~l~~~~~~~~s~~i   36 (203)
+T 3HY6_A            8 SAKRSLRGELKQRLRAMSAEERLRQSRVL   36 (203)
+T ss_dssp             HHHHHHHHHHHHHHHTSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCHHHHHHHHHHH
+Confidence            35678999999999876655544443333
+
+
+No 8
+>2EAP_A CELL-FREE PROTEIN SYNTHESIS, PROTEIN REGULATION; NMR {Homo sapiens}
+Probab=36.94  E-value=62  Score=20.45  Aligned_cols=23  Identities=26%  Similarity=0.495  Sum_probs=17.7  Template_Neff=8.800
+
+Q ss_pred             cHHHHHHHHHHhhhhhhhhccCC
+Q tr|K7EIY0|K7EI   75 TTAQKVQQMKQRLNENERKRKSF   97 (112)
+Q Consensus        75 ttaqkvqqmkqrlnenerkrksf   97 (112)
+                      .+..+++.|-+-++.|+.++..|
+T Consensus        67 ~~~~~l~kiv~dIkkn~~~~~~~   89 (90)
+T 2EAP_A           67 LRVPILSKLSQEINKNEERRSIF   89 (90)
+T ss_dssp             TTHHHHHHHHHHHHTTSCCSSCC
+T ss_pred             ccHHHHHHHHHHHHhcchhcccC
+Confidence            34558889999999999887544
+
+
+No 9
+>3FO5_A Thioesterase, adipose associated, isoform BFIT2; Orthogonal Bundle, Consortium, LIPID TRANSPORT; HET: TCE, 1PE; 2.0A {Homo sapiens}
+Probab=23.70  E-value=53  Score=22.59  Aligned_cols=26  Identities=35%  Similarity=0.394  Sum_probs=15.8  Template_Neff=10.900
+
+Q ss_pred             CcccccccccCChhHHHHHHHhhhhc
+Q tr|K7EIY0|K7EI   49 SSKMQDTMEENSESALRKRIREDRKA   74 (112)
+Q Consensus        49 sskmqdtmeensesalrkriredrka   74 (112)
+                      ++...|.+....+...|++||.+|+.
+T Consensus         3 ~~~~~~~~~~~~~a~~r~~~~~~r~~   28 (258)
+T 3FO5_A            3 RPQPGDGERRYREASARKKIRLDRKY   28 (258)
+T ss_dssp             -------CHHHHHHHHHHHHHHHHHT
+T ss_pred             CCCCCccchhhhHHHhhhhEEeccEE
+Confidence            34445666667788899999999984
+
+
+No 10
+>1SOU_A Structural Genomics, PSI, Protein Structure; NMR {Aquifex aeolicus} SCOP: c.124.1.6
+Probab=23.54  E-value=3e+02  Score=19.73  Aligned_cols=25  Identities=20%  Similarity=0.361  Sum_probs=17.1  Template_Neff=9.000
+
+Q ss_pred             ChhHHHHHHHhhhhccHHHHHHHHH
+Q tr|K7EIY0|K7EI   60 SESALRKRIREDRKATTAQKVQQMK   84 (112)
+Q Consensus        60 sesalrkriredrkattaqkvqqmk   84 (112)
+                      ...+||++++..|++..+...++..
+T Consensus         2 ~K~~lR~~~~~~r~~l~~~~~~~~s   26 (194)
+T 1SOU_A            2 LKSELRKKVLHKRINLSEEERRRLS   26 (194)
+T ss_dssp             CHHHHHHHHHHHHTTSCHHHHHHHH
+T ss_pred             cHHHHHHHHHHHHhCCCHHHHHHHH
+Confidence            3567899999888877665544433
+
+

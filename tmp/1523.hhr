@@ -1,0 +1,230 @@
+Query         tr|A0A8I5KS68|A0A8I5KS68_HUMAN
+Match_columns 324
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:38:11 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1523.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3TW8_C DENN domain-containing  100.0 1.4E-27 1.5E-32  198.9  20.3  246    2-298    11-258 (391)
+  2 6EKK_B DENN domain-containing  100.0 1.1E-27 1.2E-32  198.8  18.6  249    2-299     9-259 (393)
+  3 6LBT_A KLLA0F20922p,KLLA0F2092  10.1 5.7E+02  0.0062   25.9   3.1   29   25-54     21-53  (319)
+  4 6LBT_B KLLA0F20922p,KLLA0F2092  10.1 5.7E+02  0.0062   25.9   3.1   31   24-55     20-54  (319)
+  5 3V42_B Folliculin; folliculin,   9.7 1.5E+03   0.016   20.3   5.2   48  210-257     8-55  (226)
+  6 1TAF_A TRANSCRIPTION INITIATIO   7.8 4.6E+02   0.005   18.0   1.1   29  205-233     1-29  (68)
+  7 1IM4_A DBH (E.C.2.7.7.7); DNA    7.2 1.2E+03   0.013   19.3   3.3   42  216-257    56-97  (221)
+  8 4HR6_A LECTIN; Type II RIP, Le   7.2 5.5E+02  0.0059   17.7   1.3   30  242-274    12-41  (41)
+  9 2AHQ_A Sigma-54, sigma factors   7.1 5.7E+02  0.0062   18.5   1.4   21  202-222    50-70  (76)
+ 10 7OUH_B integrase, intasome, HT   6.9 1.3E+03   0.014   17.2   3.1   43   67-109   258-300 (301)
+
+No 1
+>3TW8_C DENN domain-containing protein 1B, Ras-related; longin domain, Rab GTPase, guanine; 2.1A {Homo sapiens}
+Probab=99.96  E-value=1.4e-27  Score=198.86  Aligned_cols=246  Identities=24%  Similarity=0.429  Sum_probs=217.5  Template_Neff=9.900
+
+Q ss_pred             CCCCCeEEEEEECCCCCCCCCCCCceeecCCccccCCCCCCCceeeeecCcccecCCCCCCCcEEEEEEEeCCCCceEEE
+Q tr|A0A8I5KS68|    2 ARLADYFVLVAFGPHPRGSGEGQGQILQRFPEKDWEDNPFPQGIELFCQPSGWQLCPERNPPTFFVAVLTDINSERHYCA   81 (324)
+Q Consensus         2 arladyfvlvafgphprgsgegqgqilqrfpekdwednpfpqgielfcqpsgwqlcpernpptffvavltdinserhyca   81 (324)
+                      ++|+|+|++|+++.+.    +++|+|+++||+ +..+.+.+++|+.||||+|++..+....++.|.|+|++.+|++.||+
+T Consensus        11 ~~l~e~~~vv~~~~~~----~~~p~il~~yP~-~~~~~~~~~~i~~f~fP~g~~~~~~~~~~~~f~F~lt~~~g~~~yg~   85 (391)
+T 3TW8_C           11 DRTFDLVLKVKCHASE----NEDPVVLWKFPE-DFGDQEILQSVPKFCFPFDVERVSQNQVGQHFTFVLTDIESKQRFGF   85 (391)
+T ss_dssp             SCSCSEEEEEECCSST----TSCCEEEEEEST-TCCCHHHHHHHHHHHSCSCTTTSCGGGSCSEEEEEEECTTSCEEEEE
+T ss_pred             CcceEEEEEEecCCCC----CCCCEEEEeCCC-CCCChHHHhcCCcccCCCCccccccCCCCcEEEEEEEcCCCcEEEEE
+Confidence            6899999999999876    466999999999 87776678899999999999876666788999999999999999999
+
+
+Q ss_pred             EEEEEcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcEEEEEEcCCcchhhhccccheeeeeecCcc
+Q tr|A0A8I5KS68|   82 CLTFWEPAEPSQETTRVEDATEREEEGDEGGQTHLSPTAPAPSAQLFAPKTLVLVSRLDHTEVFRNSLGLIYAIHVEGLN  161 (324)
+Q Consensus        82 cltfwepaepsqettrvedatereeegdeggqthlsptapapsaqlfapktlvlvsrldhtevfrnslgliyaihvegln  161 (324)
+                      |.+..                                         +.++|+|++|++|++..|+++|..+...+.....
+T Consensus        86 c~~~~-----------------------------------------~~~~~~~llS~~p~~~~~~~~L~~l~~~~~~~~~  124 (391)
+T 3TW8_C           86 CRLTS-----------------------------------------GGTICLCILSYLPWFEVYYKLLNTLADYLAKELE  124 (391)
+T ss_dssp             EEEET-----------------------------------------TTTEEEEEEESSCCHHHHHHHHHHHHHHHHTTCC
+T ss_pred             EEecC-----------------------------------------CCcEEEEEeeCCcHHHHHHHHHHHHHHHHHccch
+Confidence            99876                                         6789999999999999999999999988887777
+
+
+Q ss_pred             hhhhhhhhhhheeeeecCCCCceEEEeCCCCceEEecCCcCCCCcc--hhhhHHHHhhcChhhHHHHHHHHhccCceeee
+Q tr|A0A8I5KS68|  162 VCLENVIGNLLTCTVPLAGGSQRTISLGAGDRQVIQTPLADSLPVS--RCSVALLFRQLGITNVLSLFCAALTEHKVLFL  239 (324)
+Q Consensus       162 vclenvignlltctvplaggsqrtislgagdrqviqtpladslpvs--rcsvallfrqlgitnvlslfcaaltehkvlfl  239 (324)
+                      ..+++++..+.+++.|.++.+ +.+..  .  ..+..|....++..  ..++..+|.++++++++.++.++|+|++|+++
+T Consensus       125 ~~l~~~~~~l~~~p~p~~~~~-~~l~~--~--~~~~~~~~~~~~~~~~~~~~~~l~~~l~~~~i~~l~~~llle~~ii~~  199 (391)
+T 3TW8_C          125 NDLNETLRSLYNHPVPKANTP-VNLSV--H--SYFIAPDVTGLPTIPESRNLTEYFVAVDVNNMLQLYASMLHERRIVII  199 (391)
+T ss_dssp             HHHHHHHHHHHHSCCCCTTCB-C---------CCCBCCCSSSCCCBTTSHHHHHHHHHSCHHHHHHHHHHHTTTCEEEEE
+T ss_pred             hHHHHHHHHHhcCCCCCCCCC-eEEEE--E--EeEecCCCCCCCCCCCCCChHHHHHhCCHHHHHHHHHHHHhcCcEEEE
+Confidence            888999999999999999988 77765  4  45556665555544  45689999999999999999999999999999
+
+
+Q ss_pred             ccchHHHHHHHHHHHHHHcccccceeccCCCcHHHHHHhCCCCCeeeeechhhhhhhhc
+Q tr|A0A8I5KS68|  240 SRSYQRLADACRGLLALLFPLRYSFTYVPILPAQLLEVLSTPTPFIIGVNAAFQAETQE  298 (324)
+Q Consensus       240 srsyqrladacrgllallfplrysftyvpilpaqllevlstptpfiigvnaafqaetqe  298 (324)
+                      |++.+.++.+++++.++|+||+|.+.++|++|.++.+++++|+|||+|+++..+....+
+T Consensus       200 s~~~~~~s~~~~al~~ll~P~~w~~~~ip~lP~~~~~~l~~P~P~i~Gv~~~~~~~~~~  258 (391)
+T 3TW8_C          200 SSKLSTLTACIHGSAALLYPMYWQHIYIPVLPPHLLDYCCAPMPYLIGIHSSLIERVKN  258 (391)
+T ss_dssp             ESCHHHHHHHHHHHHHTTTTSCCCSEEESSCCGGGGGGGGCSSCEEEEEEGGGHHHHHH
+T ss_pred             eCCHHHHHHHHHHHHHHHhhhcCCceeeecCCHHHHHHHhCCcceeeeeeHHHHHHHhc
+Confidence            99999999999999999999999999999999999999999999999999999866543
+
+
+No 2
+>6EKK_B DENN domain-containing protein 1A, Ras-related; DENND1A- DENN domain-containing protein 1A; HET: SO4, GDP, EDO; 1.82A {Homo sapiens}
+Probab=99.96  E-value=1.1e-27  Score=198.79  Aligned_cols=249  Identities=23%  Similarity=0.405  Sum_probs=217.9  Template_Neff=10.000
+
+Q ss_pred             CCCCCeEEEEEECCCCCCCCCCCCceeecCCccccCCCCCCCceeeeecCcccecCCCCCCCcEEEEEEEeCCCCceEEE
+Q tr|A0A8I5KS68|    2 ARLADYFVLVAFGPHPRGSGEGQGQILQRFPEKDWEDNPFPQGIELFCQPSGWQLCPERNPPTFFVAVLTDINSERHYCA   81 (324)
+Q Consensus         2 arladyfvlvafgphprgsgegqgqilqrfpekdwednpfpqgielfcqpsgwqlcpernpptffvavltdinserhyca   81 (324)
+                      ++|||+|++||++.+.+  +.+.|+|+++||+ +..+++.+++|..||||+|.+..++...++.|.|+|++.+|++.||+
+T Consensus         9 ~~lfe~f~vv~~~~~~~--~~~~p~il~~yP~-~~~~~~~~~~i~~f~fP~g~~~~~~~~~~~~~~F~lt~~~g~~~yg~   85 (393)
+T 6EKK_B            9 ETTFEVYVEVAYPRTGG--TLSDPEVQRQFPE-DYSDQEVLQTLTKFCFPFYVDSLTVSQVGQNFTFVLTDIDSKQRFGF   85 (393)
+T ss_dssp             SSSCSEEEEEECCCC------CCCEEEEEEST-TCCCHHHHHHHHHHTSCSCC--------CCEEEEEEECTTSCEEEEE
+T ss_pred             CcceEEEEEEecCCCCC--CCCCCEEEEeCCC-CCCCchHHhHHHHhhCccccccccccCCCCeEEEEEEcCCCCEEEEE
+Confidence            58999999999999875  4578999999999 87766678899999999999877667788999999999999999999
+
+
+Q ss_pred             EEEEEcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcEEEEEEcCCcchhhhccccheeeeeecCcc
+Q tr|A0A8I5KS68|   82 CLTFWEPAEPSQETTRVEDATEREEEGDEGGQTHLSPTAPAPSAQLFAPKTLVLVSRLDHTEVFRNSLGLIYAIHVEGLN  161 (324)
+Q Consensus        82 cltfwepaepsqettrvedatereeegdeggqthlsptapapsaqlfapktlvlvsrldhtevfrnslgliyaihvegln  161 (324)
+                      |.+..                                         +.++|+|++|++|++.+|+++|..+...+..+..
+T Consensus        86 c~~~~-----------------------------------------~~~~~~cilS~~p~~~~f~~~L~~i~~~~~~~~~  124 (393)
+T 6EKK_B           86 CRLSS-----------------------------------------GAKSCFCILSYLPWFEVFYKLLNILADYTTKRQE  124 (393)
+T ss_dssp             EEECT-----------------------------------------TSSEEEEEEESSCCHHHHHHHHHHHHHHHHTTCT
+T ss_pred             EEccC-----------------------------------------CCCeEEEEcccCchHHHHHHHHHHHHHHHhcCCh
+Confidence            98865                                         6799999999999999999999999888777777
+
+
+Q ss_pred             hhhhhhhhhhheeeeecCCCCceEEEeCCCCceEEecCCcCCCCcc--hhhhHHHHhhcChhhHHHHHHHHhccCceeee
+Q tr|A0A8I5KS68|  162 VCLENVIGNLLTCTVPLAGGSQRTISLGAGDRQVIQTPLADSLPVS--RCSVALLFRQLGITNVLSLFCAALTEHKVLFL  239 (324)
+Q Consensus       162 vclenvignlltctvplaggsqrtislgagdrqviqtpladslpvs--rcsvallfrqlgitnvlslfcaaltehkvlfl  239 (324)
+                      ..++++++.+.+++.|.++.+ +.+..  .  ..+..|....++..  +.++..+|.++++.+++.++.++|+|++|+++
+T Consensus       125 ~~~~~~~~~l~~~p~p~~~~~-~~~~~--~--~~~~~p~~~~~~~~~~~~~~~~l~~~l~~~~i~~i~~~lLle~~iv~~  199 (393)
+T 6EKK_B          125 NQWNELLETLHKLPIPDPGVS-VHLSV--H--SYFTVPDTRELPSIPENRNLTEYFVAVDVNNMLHLYASMLYERRILII  199 (393)
+T ss_dssp             THHHHHHHHHHHCCCCCTTCE-EEEET--T--EEEECCCTTSCCCBTTSHHHHHHHHHSCHHHHHHHHHHHTTTCEEEEE
+T ss_pred             hHHHHHHHHHHcCCCCCCCcE-EEEEe--c--cceeCCCCCCCCCCCCCCChHHHHHhCCHHHHHHHHHHHHccCcEEEE
+Confidence            888999999999999999998 88876  5  77888877776655  56799999999999999999999999999999
+
+
+Q ss_pred             ccchHHHHHHHHHHHHHHcccccceeccCCCcHHHHHHhCCCCCeeeeechhhhhhhhcc
+Q tr|A0A8I5KS68|  240 SRSYQRLADACRGLLALLFPLRYSFTYVPILPAQLLEVLSTPTPFIIGVNAAFQAETQEL  299 (324)
+Q Consensus       240 srsyqrladacrgllallfplrysftyvpilpaqllevlstptpfiigvnaafqaetqel  299 (324)
+                      |++.+.++.+++++.++++||+|.|.++|++|.++.+++++|.|||+|+++..+....+.
+T Consensus       200 s~~~~~ls~~~~~l~~ll~P~~w~~~~ip~lp~~~~~~l~~p~p~i~Gv~~~~~~~~~~~  259 (393)
+T 6EKK_B          200 CSKLSTLTACIHGSAAMLYPMYWQHVYIPVLPPHLLDYCCAPMPYLIGIHLSLMEKVRNM  259 (393)
+T ss_dssp             ESCHHHHHHHHHHHHHTTTTSCCCSEEESSCCGGGGGGGGCCSCEEEEEEGGGHHHHHTS
+T ss_pred             eCCHHHHHHHHHHHHHHhccccCCceEeecCCHHHHHHhhCCCCEEEEEeHHHHHHHHhc
+Confidence            999999999999999999999999999999999999999999999999999998776544
+
+
+No 3
+>6LBT_A KLLA0F20922p,KLLA0F20922p, KLLA0C11825p; Telomere, CST complex, DNA BINDING; 2.6A {Kluyveromyces lactis}
+Probab=10.11  E-value=5.7e+02  Score=25.93  Aligned_cols=29  Identities=17%  Similarity=0.254  Sum_probs=19.5  Template_Neff=5.300
+
+Q ss_pred             CceeecCCccccCCCCC----CCceeeeecCccc
+Q tr|A0A8I5KS68|   25 GQILQRFPEKDWEDNPF----PQGIELFCQPSGW   54 (324)
+Q Consensus        25 gqilqrfpekdwednpf----pqgielfcqpsgw   54 (324)
+                      .+|+.+||. ...+...    ...+..|+.|..+
+T Consensus        21 Gki~G~~P~-~~~~~~~~~l~~~sl~lYf~~~~~   53 (319)
+T 6LBT_A           21 GKILGFIPN-QYLDPESSLIEDDFLLIYVYTYEL   53 (319)
+T ss_dssp             EEEEEEESC-TTTCCSCCCCCTTCEEEEEEETTS
+T ss_pred             cEEEEEecC-CcCCccccccCCCeEEEEEEcCCC
+Confidence            567888887 5554322    3457888888766
+
+
+No 4
+>6LBT_B KLLA0F20922p,KLLA0F20922p, KLLA0C11825p; Telomere, CST complex, DNA BINDING; 2.6A {Kluyveromyces lactis}
+Probab=10.11  E-value=5.7e+02  Score=25.93  Aligned_cols=31  Identities=16%  Similarity=0.246  Sum_probs=21.0  Template_Neff=5.300
+
+Q ss_pred             CCceeecCCccccCCCCC----CCceeeeecCccce
+Q tr|A0A8I5KS68|   24 QGQILQRFPEKDWEDNPF----PQGIELFCQPSGWQ   55 (324)
+Q Consensus        24 qgqilqrfpekdwednpf----pqgielfcqpsgwq   55 (324)
+                      ..+|+.+||. ...+...    ...+..|+.|..+.
+T Consensus        20 ~Gki~G~~P~-~~~~~~~~~l~~~sl~lYf~~~~~~   54 (319)
+T 6LBT_B           20 DGKILGFIPN-QYLDPESSLIEDDFLLIYVYTYELP   54 (319)
+T ss_pred             ccEEEEEecC-CcCCccccccCCCeEEEEEEcCCCC
+Confidence            3678899998 6554322    34577888888763
+
+
+No 5
+>3V42_B Folliculin; folliculin, tumor suppressor, protein binding; 2.0A {Homo sapiens}
+Probab=9.70  E-value=1.5e+03  Score=20.29  Aligned_cols=48  Identities=23%  Similarity=0.254  Sum_probs=41.7  Template_Neff=8.100
+
+Q ss_pred             hhHHHHhhcChhhHHHHHHHHhccCceeeeccchHHHHHHHHHHHHHH
+Q tr|A0A8I5KS68|  210 SVALLFRQLGITNVLSLFCAALTEHKVLFLSRSYQRLADACRGLLALL  257 (324)
+Q Consensus       210 svallfrqlgitnvlslfcaaltehkvlflsrsyqrladacrgllall  257 (324)
+                      ++..+...++.+.+-.++.+++.+.+|++.|.+...+..++.+|..|+
+T Consensus         8 ~Lr~l~~~lg~~~F~~L~~~~l~G~QiIvrg~~~~~~~~~l~~L~~LL   55 (226)
+T 3V42_B            8 SLRHMRQVLGAPSFRMLAWHVLMGNQVIWKSRDVDLVQSAFEVLRTML   55 (226)
+T ss_dssp             CHHHHHHHHCHHHHHHHHHHHHTTCEEEEECSCHHHHHHHHHHHGGGS
+T ss_pred             cHHHHHHHHCHHHHHHHHHHHhcCCEEEEEcCCHHHHHHHHHHHHhcC
+Confidence            477888889988899999999999999999999998888877777644
+
+
+No 6
+>1TAF_A TRANSCRIPTION INITIATION, HISTONE FOLD, COMPLEX; 2.0A {Drosophila melanogaster} SCOP: a.22.1.3
+Probab=7.76  E-value=4.6e+02  Score=17.99  Aligned_cols=29  Identities=14%  Similarity=0.237  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CcchhhhHHHHhhcChhhHHHHHHHHhcc
+Q tr|A0A8I5KS68|  205 PVSRCSVALLFRQLGITNVLSLFCAALTE  233 (324)
+Q Consensus       205 pvsrcsvallfrqlgitnvlslfcaalte  233 (324)
+                      |-+.-.+..+++++|+.++-.-.+..+.+
+T Consensus         1 p~~~~~i~~il~~~g~~~~~~~~~~~l~~   29 (68)
+T 1TAF_A            1 PKDAQVIMSILKELNVQEYEPRVVNQLLE   29 (68)
+T ss_dssp             CHHHHHHHHHHHHTTCCCBCTHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHCCCCccCHHHHHHHHH
+
+
+No 7
+>1IM4_A DBH (E.C.2.7.7.7); DNA polymerase palm, thumb, fingers; HET: SO4; 2.3A {Sulfolobus solfataricus} SCOP: e.8.1.7
+Probab=7.23  E-value=1.2e+03  Score=19.31  Aligned_cols=42  Identities=14%  Similarity=0.262  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             hhcChhhHHHHHHHHhccCceeeeccchHHHHHHHHHHHHHH
+Q tr|A0A8I5KS68|  216 RQLGITNVLSLFCAALTEHKVLFLSRSYQRLADACRGLLALL  257 (324)
+Q Consensus       216 rqlgitnvlslfcaaltehkvlflsrsyqrladacrgllall  257 (324)
+                      +++||++-..+.-|.....++.++.+.++...+..+.+...+
+T Consensus        56 ~~~Gi~~gm~l~~a~~l~~~~~~~~~~~~~~~~~~~~l~~~l   97 (221)
+T 1IM4_A           56 RKLGVKAGMPIIKAMQIAPSAIYVPMRKPIYEAFSNRIMNLL   97 (221)
+T ss_dssp             HTTTCCTTCBHHHHHHHCTTSEEEECCHHHHHHHHHHHHHHH
+T ss_pred             HHcCCCCCCCHHHHHHHCCCCEEECCCHHHHHHHHHHHHHHH
+
+
+No 8
+>4HR6_A LECTIN; Type II RIP, Lectin, Beta-Trefoil; HET: AMG; 2.25A {Trichosanthes anguina}
+Probab=7.18  E-value=5.5e+02  Score=17.72  Aligned_cols=30  Identities=23%  Similarity=0.347  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             chHHHHHHHHHHHHHHcccccceeccCCCcHHH
+Q tr|A0A8I5KS68|  242 SYQRLADACRGLLALLFPLRYSFTYVPILPAQL  274 (324)
+Q Consensus       242 syqrladacrgllallfplrysftyvpilpaql  274 (324)
+                      +|....+..|..|+---...+.   +|+||++|
+T Consensus        12 ~Y~~FI~~LR~~l~~~~~~~~~---IPvL~~~~   41 (41)
+T 4HR6_A           12 TYKTFIGRVREELGSETYRLYG---IPVLKHSL   41 (41)
+T ss_dssp             HHHHHHHHHHHHHEEEEEEETT---EEEECSCC
+T ss_pred             HHHHHHHHHHHHHhcCCccccC---eeccCCCC
+
+
+No 9
+>2AHQ_A Sigma-54, sigma factors, solution structure; NMR {Aquifex aeolicus}
+Probab=7.08  E-value=5.7e+02  Score=18.52  Aligned_cols=21  Identities=33%  Similarity=0.418  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCcchhhhHHHHhhcChhh
+Q tr|A0A8I5KS68|  202 DSLPVSRCSVALLFRQLGITN  222 (324)
+Q Consensus       202 dslpvsrcsvallfrqlgitn  222 (324)
+                      ....+||-+|+.+-+++||.+
+T Consensus        50 ~gi~isRrtV~kyr~~~~i~~   70 (76)
+T 2AHQ_A           50 KGFKVARRTVAKYREMLGIPS   70 (76)
+T ss_dssp             TSSCCCHHHHHHHHHHTC---
+T ss_pred             CCCcchHHHHHHHHHHhCCCc
+
+
+No 10
+>7OUH_B integrase, intasome, HTLV, STLV, integration; HET: KLQ;{Simian T-lymphotropic virus 1}
+Probab=6.87  E-value=1.3e+03  Score=17.19  Aligned_cols=43  Identities=14%  Similarity=0.097  Sum_probs=0.0  Template_Neff=13.300
+
+Q ss_pred             EEEEEeCCCCceEEEEEEEEcCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A8I5KS68|   67 VAVLTDINSERHYCACLTFWEPAEPSQETTRVEDATEREEEGD  109 (324)
+Q Consensus        67 vavltdinserhycacltfwepaepsqettrvedatereeegd  109 (324)
+                      .+++.++..++..+.-..--+++.+..+.+.-+|..+.++.++
+T Consensus       258 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  300 (301)
+T 7OUH_B          258 GAALIPVSDTAAQWIPWKLLKRAVCPRLAGDTADPKERDHQHH  300 (301)
+T ss_dssp             SEEEECCSSSCCEEEEGGGEEECCCCC----------------
+T ss_pred             ceeeecCCCCCCceeEhHeEEECCCCCCCCCCCChhhccccCC
+
+

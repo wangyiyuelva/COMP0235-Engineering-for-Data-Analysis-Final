@@ -1,0 +1,168 @@
+Query         tr|D6RB63|D6RB63_HUMAN
+Match_columns 84
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:54:56 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0148.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3RMR_A ATR1; effector, RPP1-re  17.4 1.2E+02  0.0013   25.6   0.7   13   53-65     96-108 (260)
+  2 3RMR_B ATR1; effector, RPP1-re  17.4 1.2E+02  0.0013   25.6   0.7   13   53-65     96-108 (260)
+  3 2JXC_B Epidermal growth factor  12.3 2.4E+02  0.0026   18.5   1.0   10   62-71     28-37  (45)
+  4 6U42_4B Tubulin beta, Tubulin    9.9 1.7E+03   0.018   18.8   5.9   27   58-84     98-125 (307)
+  5 6U42_4J Tubulin beta, Tubulin    9.9 1.7E+03   0.018   18.8   5.9   27   58-84     98-125 (307)
+  6 1B0N_B PROTEIN (SINR PROTEIN);   8.5 5.4E+02  0.0059   15.8   1.5    9   62-70     49-57  (57)
+  7 4JIF_B Integrin beta-1-binding   7.7 3.7E+02  0.0041   16.9   0.6   13   71-83      1-13  (34)
+  8 6O1Q_A Nephrocystin-1; nephron   7.1 1.8E+02  0.0019   20.6  -1.1    7   17-23     79-85  (119)
+  9 2D9G_A zf-RanBP domain, YY1-as   6.5   6E+02  0.0066   12.2   0.9   11   55-65     41-51  (53)
+ 10 4IQZ_A DNA-directed RNA polyme   5.3   7E+02  0.0076   17.3   1.0   13    4-16     11-23  (250)
+
+No 1
+>3RMR_A ATR1; effector, RPP1-recognized, alpha-helical, W-motif, seahorse; HET: MSE; 2.3A {Hyaloperonospora parasitica}
+Probab=17.42  E-value=1.2e+02  Score=25.63  Aligned_cols=13  Identities=62%  Similarity=0.874  Sum_probs=10.6  Template_Neff=1.200
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|D6RB63|D6RB   53 KLHPRPSDKLNPK   65 (84)
+Q Consensus        53 klhprpsdklnpk   65 (84)
+                      -||+||||.|..|
+T Consensus        96 ilh~rpsdpls~k  108 (260)
+T 3RMR_A           96 ILHTRPSDPLSKK  108 (260)
+T ss_dssp             HHHHCCSCTTCTT
+T ss_pred             HccCCCCCchhcc
+Confidence            4799999988765
+
+
+No 2
+>3RMR_B ATR1; effector, RPP1-recognized, alpha-helical, W-motif, seahorse; HET: MSE; 2.3A {Hyaloperonospora parasitica}
+Probab=17.42  E-value=1.2e+02  Score=25.63  Aligned_cols=13  Identities=62%  Similarity=0.874  Sum_probs=10.6  Template_Neff=1.200
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|D6RB63|D6RB   53 KLHPRPSDKLNPK   65 (84)
+Q Consensus        53 klhprpsdklnpk   65 (84)
+                      -||+||||.|..|
+T Consensus        96 ilh~rpsdpls~k  108 (260)
+T 3RMR_B           96 ILHTRPSDPLSKK  108 (260)
+T ss_dssp             HHHHSCSSTTCTT
+T ss_pred             HccCCCCCchhcc
+Confidence            4799999988765
+
+
+No 3
+>2JXC_B Epidermal growth factor receptor substrate; endocytosis, Membrane, Phosphorylation, Proto-oncogene, SH3-binding; HET: CA; NMR {Homo sapiens}
+Probab=12.29  E-value=2.4e+02  Score=18.50  Aligned_cols=10  Identities=50%  Similarity=1.102  Sum_probs=8.1  Template_Neff=2.700
+
+Q ss_pred             CCCCCCCCCC
+Q tr|D6RB63|D6RB   62 LNPKTINPFG   71 (84)
+Q Consensus        62 lnpktinpfg   71 (84)
+                      +.|..||||.
+T Consensus        28 vQPSpINPFS   37 (45)
+T 2JXC_B           28 VQPSPINPFS   37 (45)
+T ss_dssp             CCCCTTCSCT
+T ss_pred             CCCCCCCccH
+Confidence            4688899995
+
+
+No 4
+>6U42_4B Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=9.95  E-value=1.7e+03  Score=18.81  Aligned_cols=27  Identities=22%  Similarity=0.480  Sum_probs=21.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC-CCccCCC
+Q tr|D6RB63|D6RB   58 PSDKLNPKTINPFGEQSRVP-SAFAAIY   84 (84)
+Q Consensus        58 psdklnpktinpfgeqsrvp-safaaiy   84 (84)
+                      +....+|+...+|.++..-+ +.|...|
+T Consensus        98 ~~~~~~p~~~g~f~~~~~~~~T~Fr~~Y  125 (307)
+T 6U42_4B          98 EERKPSPPQAGAYKRRENPPNTAFRRFY  125 (307)
+T ss_pred             CccCCCCCCCCCCCCCCCCCCChhHHHH
+Confidence            34456788999999888877 8888766
+
+
+No 5
+>6U42_4J Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=9.95  E-value=1.7e+03  Score=18.81  Aligned_cols=27  Identities=22%  Similarity=0.480  Sum_probs=21.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC-CCccCCC
+Q tr|D6RB63|D6RB   58 PSDKLNPKTINPFGEQSRVP-SAFAAIY   84 (84)
+Q Consensus        58 psdklnpktinpfgeqsrvp-safaaiy   84 (84)
+                      +....+|+...+|.++..-+ +.|...|
+T Consensus        98 ~~~~~~p~~~g~f~~~~~~~~T~Fr~~Y  125 (307)
+T 6U42_4J          98 EERKPSPPQAGAYKRRENPPNTAFRRFY  125 (307)
+T ss_pred             CccCCCCCCCCCCCCCCCCCCChhHHHH
+Confidence            34456788999999888877 8888766
+
+
+No 6
+>1B0N_B PROTEIN (SINR PROTEIN); TRANSCRIPTION REGULATOR, ANTAGONIST, SPORULATION; 1.9A {Bacillus subtilis} SCOP: a.34.1.1
+Probab=8.47  E-value=5.4e+02  Score=15.84  Aligned_cols=9  Identities=44%  Similarity=0.892  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCCCCCC
+Q tr|D6RB63|D6RB   62 LNPKTINPF   70 (84)
+Q Consensus        62 lnpktinpf   70 (84)
+                      ++-.+++||
+T Consensus        49 ~~~~~~~~~   57 (57)
+T 1B0N_B           49 ARSHTVNPF   57 (57)
+T ss_dssp             ---------
+T ss_pred             CCcccCCCC
+Confidence            555677776
+
+
+No 7
+>4JIF_B Integrin beta-1-binding protein 1, Krev; PTB fold, Integrin signaling, Integrin; 1.701A {Homo sapiens}
+Probab=7.67  E-value=3.7e+02  Score=16.88  Aligned_cols=13  Identities=15%  Similarity=0.197  Sum_probs=4.8  Template_Neff=2.200
+
+Q ss_pred             CCCCCCCCCccCC
+Q tr|D6RB63|D6RB   71 GEQSRVPSAFAAI   83 (84)
+Q Consensus        71 geqsrvpsafaai   83 (84)
+                      |||-.+|.|..|+
+T Consensus         1 ~~qht~phai~aL   13 (34)
+T 4JIF_B            1 GPLGSQSHFIPAL   13 (34)
+T ss_dssp             SHHEEETE---EG
+T ss_pred             CCCcccccchhhh
+Confidence            3444555555443
+
+
+No 8
+>6O1Q_A Nephrocystin-1; nephronophthisis, apoptosis; NMR {Homo sapiens}
+Probab=7.11  E-value=1.8e+02  Score=20.59  Aligned_cols=7  Identities=57%  Similarity=1.032  Sum_probs=3.8  Template_Neff=6.000
+
+Q ss_pred             CCCCCCC
+Q tr|D6RB63|D6RB   17 TGNYDQR   23 (84)
+Q Consensus        17 tgnydqr   23 (84)
+                      -||||||
+T Consensus        79 Vgnydqr   85 (119)
+T 6O1Q_A           79 VANYNQR   85 (119)
+T ss_dssp             CTHHHHH
+T ss_pred             CCCHHHH
+Confidence            3566654
+
+
+No 9
+>2D9G_A zf-RanBP domain, YY1-associated factor 2; HET: ZN; NMR {Homo sapiens}
+Probab=6.50  E-value=6e+02  Score=12.16  Aligned_cols=11  Identities=36%  Similarity=0.833  Sum_probs=8.3  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|D6RB63|D6RB   55 HPRPSDKLNPK   65 (84)
+Q Consensus        55 hprpsdklnpk   65 (84)
+                      .|||...|.|.
+T Consensus        41 KPR~~SqL~~~   51 (53)
+T 2D9G_A           41 KPRPVSQSGPS   51 (53)
+T ss_dssp             CSCCCCCCCCS
+T ss_pred             CCCCcccCCCC
+Confidence            58888888764
+
+
+No 10
+>4IQZ_A DNA-directed RNA polymerase subunit beta'; Function of insertion is unknown; HET: IOD, MSE; 2.1A {Escherichia coli}
+Probab=5.30  E-value=7e+02  Score=17.27  Aligned_cols=13  Identities=23%  Similarity=0.064  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|D6RB63|D6RB    4 SEGSGGTQLKNRA   16 (84)
+Q Consensus         4 segsggtqlknra   16 (84)
+                      |.+..||||.-|.
+T Consensus        11 ~~~EPGTQLTMRT   23 (250)
+T 4IQZ_A           11 SSGLVPRGSHMRT   23 (250)
+T ss_dssp             -------------
+T ss_pred             CCCCCCchhcCcc
+Confidence            5567788988775
+
+

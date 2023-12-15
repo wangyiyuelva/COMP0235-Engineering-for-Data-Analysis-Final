@@ -1,0 +1,203 @@
+Query         sp|Q6P1X6|CH082_HUMAN
+Match_columns 216
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:05:20 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0868.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2RE3_B Uncharacterized protein  97.8 5.6E-05 6.1E-10   61.3   3.9  146   37-205    35-188 (194)
+  2 2RA9_A Uncharacterized protein  97.1  0.0019   2E-08   50.8   4.9  128   37-185    18-147 (150)
+  3 5VZL_C CRISPR-associated endon  23.7 1.5E+02  0.0016   24.7   2.5   28   43-70     30-62  (87)
+  4 6VNA_B Heme, METAL BINDING PRO  23.6 3.5E+02  0.0038   18.6   3.9   20   38-57     39-58  (161)
+  5 4XG1_B Diaminopimelate decarbo  20.7 1.6E+02  0.0017   25.1   2.1   12   47-58      6-17  (427)
+  6 4XG1_C Diaminopimelate decarbo  20.7 1.6E+02  0.0017   25.1   2.1   17   45-61      4-20  (427)
+  7 2DTD_A Glucose 1-dehydrogenase  15.4 1.8E+02   0.002   19.9   1.1    7   26-32    244-250 (264)
+  8 2DTE_A Glucose 1-dehydrogenase  15.4 1.8E+02   0.002   19.9   1.1    7   26-32    244-250 (264)
+  9 2DTX_B Glucose 1-dehydrogenase  15.4 1.8E+02   0.002   19.9   1.1    7   26-32    244-250 (264)
+ 10 4BL9_C MALTOSE-BINDING PERIPLA  14.6 1.2E+02  0.0013   28.4   0.1   13  190-202   724-736 (756)
+
+No 1
+>2RE3_B Uncharacterized protein; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: MSE; 2.5A {Silicibacter pomeroyi DSS-3}
+Probab=97.76  E-value=5.6e-05  Score=61.26  Aligned_cols=146  Identities=17%  Similarity=0.178  Sum_probs=135.7  Template_Neff=7.100
+
+Q ss_pred             CCCcceeEEEECCCCCEEeChhhhhhhHhhcCCCceeEEEeeccCCCCCCceEEEeeeeCCCCCccceeecCCccEEEEE
+Q sp|Q6P1X6|CH08   37 EPRTREYFYYVDHQGQLFLDDSKMKNFITCFKDPQFLVTFFSRLRPNRSGRYEAAFPFLSPCGRERNFLRCEDRPVVFTH  116 (216)
+Q Consensus        37 eprtreyfyyvdhqgqlflddskmknfitcfkdpqflvtffsrlrpnrsgryeaafpflspcgrernflrcedrpvvfth  116 (216)
+                      .++|++++|+||++|+|||+|++|+       ||+++++|+++|+++++ +      |+++++.|+++|+|||+||+|++
+T Consensus        35 ~~~~~~~~i~ID~~G~W~~~g~~I~-------~~~i~~lF~~~L~~~~~-~------y~l~~~~e~~~V~VED~Pf~V~~  100 (194)
+T 2RE3_B           35 PPFNGDIDMRIARDGTWFYQGTPIN-------RPAMVRLFSSILKREED-R------FYLVTPVEKVGIRVDDAPFVAVD  100 (194)
+T ss_dssp             CCEEEEEEEEECTTSCEEETTEECC-------CHHHHHHHHTTEEEETT-E------EEEECSSCEEEEEESSCSEEEEE
+T ss_pred             CCCcccccEEECCCCCEEECCeecC-------CHHHHHHHHHhceEcCC-e------EEEECCCeEEEEEeCCCcEEEEE
+Confidence            5679999999999999999999999       99999999999999988 8      99999999999999999999999
+
+
+Q ss_pred             EEecCC--C-CcEEEEecCCceeeecCChhhhccec-----cCCeeecCCCCCCCCcceecchheeeeeeeeecCCCCCC
+Q sp|Q6P1X6|CH08  117 LLTADH--G-PPRLSYCGGGEALAVPFEPARLLPLA-----ANGRLYHPAPERAGGVGLVRSALAFELSACFEYGPGAPA  188 (216)
+Q Consensus       117 lltadh--g-pprlsycgggealavpfeparllpla-----angrlyhpaperaggvglvrsalafelsacfeygpgapa  188 (216)
+                      +...++  + .+.|.++ +|+.  ++|+++++|.++     ++++|||.+++  |+.|||+|+|||+|++++++++|   
+T Consensus       101 v~~~~~~~~~~i~l~l~-~g~~--~~l~~~~~L~~~~~~~~~~~~ly~~v~~--g~~ARfsR~a~~qL~~~l~~~~g---  172 (194)
+T 2RE3_B          101 VEVAGQGRKQVLTFTTH-VGDS--AVAGEGNPIRMAQDPATGEPAPYVHVRA--GLEALIDRKSFYRLMDLGEIEDG---  172 (194)
+T ss_dssp             EEEESCGGGCEEEEEET-TSCE--EECSSSSCEEEEECTTTCCEEEEEEEET--TEEEEECHHHHHHHHTTCEEETT---
+T ss_pred             EEEecCCceeEEEEEEC-CCCE--EEeCCCCCEEEecCCCCCCCCcEEEeCC--CcEEEEchHHHHHHHHhCeeeCC---
+Confidence            997543  2 5899999 9999  999999899998     47999999999  99999999999999999987777   
+
+
+Q ss_pred             CCeEEEECCeEEEEEee
+Q sp|Q6P1X6|CH08  189 LPSHVRWQGRRLALTMD  205 (216)
+Q Consensus       189 lpshvrwqgrrlaltmd  205 (216)
+                       .++|+++|++|+|...
+T Consensus       173 -~~~l~~~g~~~~i~~~  188 (194)
+T 2RE3_B          173 -WFGLWSSGSFFPLMTV  188 (194)
+T ss_dssp             -EEEEEETTEEEEEEEH
+T ss_pred             -eEEEEECCEEEECCcH
+Confidence             7899999999999764
+
+
+No 2
+>2RA9_A Uncharacterized protein DUF1285; Structural genomics, Joint Center for; HET: EDO; 1.4A {Shewanella baltica}
+Probab=97.11  E-value=0.0019  Score=50.83  Aligned_cols=128  Identities=17%  Similarity=0.207  Sum_probs=114.7  Template_Neff=7.100
+
+Q ss_pred             CCCcce-eEEEECCCCCEEeChhhhhhhHhhcCCCceeEEEeeccCCCCCCceEEEeeeeCCCCCccceeecCCccEEEE
+Q sp|Q6P1X6|CH08   37 EPRTRE-YFYYVDHQGQLFLDDSKMKNFITCFKDPQFLVTFFSRLRPNRSGRYEAAFPFLSPCGRERNFLRCEDRPVVFT  115 (216)
+Q Consensus        37 eprtre-yfyyvdhqgqlflddskmknfitcfkdpqflvtffsrlrpnrsgryeaafpflspcgrernflrcedrpvvft  115 (216)
+                      .+.|++ +.|+||++|+|||+|++|+        |+++++|+++|+++ +|+      |+++++.|+++|+|||+||+|+
+T Consensus        18 p~~~~~~~~i~ID~~G~W~~~g~~I~--------~~i~~lF~~~L~~d-~g~------y~l~~~~e~~~V~VeD~PfvV~   82 (150)
+T 2RA9_A           18 TPLCSEVPLFDINALGDWTYLGTSLP--------AKFAKLFASILHCI-DDE------YFLITPVEKVRVQVEDAPLLIV   82 (150)
+T ss_dssp             ----CCCCSEEECTTSCEEETTEECC--------HHHHHHHHTTEEEE-TTE------EEEECSSCEEEEEESSCSEEEE
+T ss_pred             CCCcCCCCcEEECCCCcEEECCcccC--------HHHHHHHHHHhcee-CCe------eEEECCCeEEEEecCCCCEEEE
+Confidence            456888 9999999999999999998        88999999999999 778      9999999999999999999999
+
+
+Q ss_pred             EEEec-CCCCcEEEEecCCceeeecCChhhhcceccCCeeecCCCCCCCCcceecchheeeeeeeeecCCC
+Q sp|Q6P1X6|CH08  116 HLLTA-DHGPPRLSYCGGGEALAVPFEPARLLPLAANGRLYHPAPERAGGVGLVRSALAFELSACFEYGPG  185 (216)
+Q Consensus       116 hllta-dhgpprlsycgggealavpfeparllplaangrlyhpaperaggvglvrsalafelsacfeygpg  185 (216)
+                      ++... +++.+.|.++ +|+.  ++|+|+++|.++ +++|||.++.  |+.|||+|+|||+|++++++.++
+T Consensus        83 ~v~~~~~~~~l~l~l~-~g~~--~~l~~~~~L~~~-~~~ly~~v~~--g~~AR~sR~a~~~L~~~~~e~~~  147 (150)
+T 2RA9_A           83 DFERAQPHSLLNVSTS-IGTL--HHNVDIKQMKLT-DDSVYLPLER--GLWGKLGRACYYNFVNEFNLSDL  147 (150)
+T ss_dssp             EEEESSTTCCEEEEET-TCCE--EEEECGGGCEEC-SSCEEEECST--TCEEEECGGGHHHHHHHCCGGGG
+T ss_pred             EeEecCCCCeEEEEEC-CCCE--EEeCCCCCeEEe-CCEEEEEcCC--CcEEEEeHHHHHHHHHHhccccc
+Confidence            99974 2247999999 9999  999998889998 5999999999  99999999999999999987643
+
+
+No 3
+>5VZL_C CRISPR-associated endonuclease Cas9, phage anti-CRISPR; anti-CRISPR, Cas9, CRISPR, gene editing; HET: GTP;{Streptococcus pyogenes M1 GAS}
+Probab=23.65  E-value=1.5e+02  Score=24.67  Aligned_cols=28  Identities=25%  Similarity=0.596  Sum_probs=17.1  Template_Neff=2.400
+
+Q ss_pred             eEEEECCCCCEEe-----ChhhhhhhHhhcCCC
+Q sp|Q6P1X6|CH08   43 YFYYVDHQGQLFL-----DDSKMKNFITCFKDP   70 (216)
+Q Consensus        43 yfyyvdhqgqlfl-----ddskmknfitcfkdp   70 (216)
+                      +-|.||-+|.=|-     +.+.+..|+++||+-
+T Consensus        30 ~ii~v~gdGneYpi~eS~~~sI~E~Fi~~FknG   62 (87)
+T 5VZL_C           30 LIIRVNNDGNEYVISESENESIVEKFISAFKNG   62 (87)
+T ss_dssp             EECCSSSSSCCCEECCCSSSCHHHHHHHHCSSC
+T ss_pred             EEEEECCCCCceecccccchhHHHHHHHHhhhc
+Confidence            4556666665443     345566778888764
+
+
+No 4
+>6VNA_B Heme, METAL BINDING PROTEIN; 2.2A {Paracoccus denitrificans (strain Pd 1222)}
+Probab=23.64  E-value=3.5e+02  Score=18.61  Aligned_cols=20  Identities=15%  Similarity=0.024  Sum_probs=12.4  Template_Neff=11.400
+
+Q ss_pred             CCcceeEEEECCCCCEEeCh
+Q sp|Q6P1X6|CH08   38 PRTREYFYYVDHQGQLFLDD   57 (216)
+Q Consensus        38 prtreyfyyvdhqgqlfldd   57 (216)
+                      +.+....+.++.+|..+.-.
+T Consensus        39 p~~~~~~~~~~~~~~~~~~~   58 (161)
+T 6VNA_B           39 PLVTRIALQTDADGVPLALL   58 (161)
+T ss_dssp             EEEEEEEEEECTTSCEEEEE
+T ss_pred             eEEEEEEEEECCCCCEEEEE
+Confidence            44555667777777665533
+
+
+No 5
+>4XG1_B Diaminopimelate decarboxylase; lysine biosynthesis, psychrophile, TIM barrel; HET: SCN, LLP, TME; 2.5A {Psychromonas ingrahamii}
+Probab=20.66  E-value=1.6e+02  Score=25.13  Aligned_cols=12  Identities=25%  Similarity=0.653  Sum_probs=5.2  Template_Neff=10.200
+
+Q ss_pred             ECCCCCEEeChh
+Q sp|Q6P1X6|CH08   47 VDHQGQLFLDDS   58 (216)
+Q Consensus        47 vdhqgqlfldds   58 (216)
+                      .|.+|+|+.++.
+T Consensus         6 ~~~~g~l~~~~~   17 (427)
+T 4XG1_B            6 YQNDGRLFVEGL   17 (427)
+T ss_dssp             ECTTSBEEETTE
+T ss_pred             eccCCeEEECCE
+Confidence            344444444443
+
+
+No 6
+>4XG1_C Diaminopimelate decarboxylase; lysine biosynthesis, psychrophile, TIM barrel; HET: SCN, LLP, TME; 2.5A {Psychromonas ingrahamii}
+Probab=20.66  E-value=1.6e+02  Score=25.13  Aligned_cols=17  Identities=18%  Similarity=0.577  Sum_probs=8.4  Template_Neff=10.200
+
+Q ss_pred             EEECCCCCEEeChhhhh
+Q sp|Q6P1X6|CH08   45 YYVDHQGQLFLDDSKMK   61 (216)
+Q Consensus        45 yyvdhqgqlflddskmk   61 (216)
+                      +..|.+|+|+.++..+.
+T Consensus         4 ~~~~~~g~l~~~~~~~~   20 (427)
+T 4XG1_C            4 FNYQNDGRLFVEGLPVE   20 (427)
+T ss_dssp             EEECTTSBEEETTEEHH
+T ss_pred             ceeccCCeEEECCEeHH
+Confidence            34455555555554433
+
+
+No 7
+>2DTD_A Glucose 1-dehydrogenase related protein; Rossmann fold, OXIDOREDUCTASE; HET: SO4; 2.1A {Thermoplasma acidophilum}
+Probab=15.43  E-value=1.8e+02  Score=19.92  Aligned_cols=7  Identities=43%  Similarity=0.767  Sum_probs=2.6  Template_Neff=13.200
+
+Q ss_pred             CCCCCCC
+Q sp|Q6P1X6|CH08   26 GGVSYTQ   32 (216)
+Q Consensus        26 ggvsytq   32 (216)
+                      +|..++.
+T Consensus       244 ~~~~~~~  250 (264)
+T 2DTD_A          244 GGLSIRA  250 (264)
+T ss_dssp             TTGGGCC
+T ss_pred             CCceecc
+Confidence            3333333
+
+
+No 8
+>2DTE_A Glucose 1-dehydrogenase related protein; Rossmann fold, OXIDOREDUCTASE; HET: NAI; 1.65A {Thermoplasma acidophilum}
+Probab=15.43  E-value=1.8e+02  Score=19.92  Aligned_cols=7  Identities=43%  Similarity=0.767  Sum_probs=2.7  Template_Neff=13.200
+
+Q ss_pred             CCCCCCC
+Q sp|Q6P1X6|CH08   26 GGVSYTQ   32 (216)
+Q Consensus        26 ggvsytq   32 (216)
+                      +|..++.
+T Consensus       244 ~~~~~~~  250 (264)
+T 2DTE_A          244 GGLSIRA  250 (264)
+T ss_dssp             TTGGGCC
+T ss_pred             CCceecc
+Confidence            3333333
+
+
+No 9
+>2DTX_B Glucose 1-dehydrogenase related protein (E.C.1.1.1.47); ROSSMANN FOLD, OXIDOREDUCTASE; HET: BMA, SO4; 1.6A {Thermoplasma acidophilum}
+Probab=15.43  E-value=1.8e+02  Score=19.92  Aligned_cols=7  Identities=43%  Similarity=0.767  Sum_probs=2.6  Template_Neff=13.200
+
+Q ss_pred             CCCCCCC
+Q sp|Q6P1X6|CH08   26 GGVSYTQ   32 (216)
+Q Consensus        26 ggvsytq   32 (216)
+                      +|..++.
+T Consensus       244 ~~~~~~~  250 (264)
+T 2DTX_B          244 GGLSIRA  250 (264)
+T ss_dssp             TTGGGCC
+T ss_pred             CCceecc
+Confidence            3333333
+
+
+No 10
+>4BL9_C MALTOSE-BINDING PERIPLASMIC PROTEIN, SUPPRESSOR OF; SIGNALING PROTEIN, SUGAR BINDING PROTEIN-SIGNALING; HET: GLC; 2.8A {ESCHERICHIA COLI}
+Probab=14.57  E-value=1.2e+02  Score=28.35  Aligned_cols=13  Identities=23%  Similarity=0.790  Sum_probs=7.2  Template_Neff=9.900
+
+Q ss_pred             CeEEEECCeEEEE
+Q sp|Q6P1X6|CH08  190 PSHVRWQGRRLAL  202 (216)
+Q Consensus       190 pshvrwqgrrlal  202 (216)
+                      +-.+.|-.+++.|
+T Consensus       724 ~~~~~~~~~~l~~  736 (756)
+T 4BL9_C          724 PKEYSWPEKKLKV  736 (756)
+T ss_dssp             SEEEECSSEEEEE
+T ss_pred             CCeeecCccCcEE
+Confidence            3455666655555
+
+

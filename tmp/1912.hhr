@@ -1,0 +1,179 @@
+Query         tr|A0A994J7R7|A0A994J7R7_HUMAN
+Match_columns 376
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:53:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1912.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2D68_B FOP; alpha helical bund  99.3 4.6E-12   5E-17   94.5   6.5   81   54-134     1-81  (82)
+  2 4WPX_F Cdc31, Sac3 CID region,  31.4   2E+02  0.0022   27.0   5.0   35    9-43     34-68  (181)
+  3 3MHS_B Ubiquitin carboxyl-term  27.9 2.6E+02  0.0029   22.5   4.5   28   13-40      5-32  (96)
+  4 4WA6_B Ubiquitin carboxyl-term  27.9 2.6E+02  0.0029   22.5   4.5   28   13-40      5-32  (96)
+  5 6TBM_P TATA-binding protein, T  27.3 1.7E+02  0.0018   23.6   3.3   27   13-39      6-32  (96)
+  6 5ERN_B Fusicoccadiene synthase  23.2 5.1E+02  0.0056   23.6   5.8   40   13-52    291-330 (349)
+  7 5ERO_A Fusicoccadiene synthase  23.2 5.1E+02  0.0056   23.6   5.8   39   14-52    292-330 (349)
+  8 7NRC_A 40S ribosomal protein S  22.9 4.7E+02  0.0051   31.1   6.7   19   73-91    216-234 (1209)
+  9 7JTH_E GGPP Synthase, Prenyltr  21.9 4.1E+02  0.0045   26.9   5.4   51   16-66    684-734 (739)
+ 10 2Z3X_B alpha/beta-type SASP, B  20.8 2.1E+02  0.0023   22.3   2.6   12  107-118    16-27  (63)
+
+No 1
+>2D68_B FOP; alpha helical bundle, dimer, CELL; 1.6A {Homo sapiens}
+Probab=99.34  E-value=4.6e-12  Score=94.50  Aligned_cols=81  Identities=100%  Similarity=1.395  Sum_probs=71.1  Template_Neff=7.500
+
+Q ss_pred             CChhhhHHHHHHHCCCChHHHHHHHHHHHHHhCCcchhhccCCCCCCCCCccchHHHHHHhCCcccCCCCChHHHHHHHH
+Q tr|A0A994J7R7|   54 KTPLVNESLKKFLNTKDGRLVASLVAEFLQFFNLDFTLAVFQPETSTLQGLEGRENLARDLGIIEAEGTVGGPLLLEVIR  133 (376)
+Q Consensus        54 ktplvneslkkflntkdgrlvaslvaeflqffnldftlavfqpetstlqglegrenlardlgiieaegtvggplllevir  133 (376)
+                      |+|++|+++++++.+++|.|+++||+|||+|++|+||+|||.+|+|++....+|+.|.+++|+.+.+...+.|+|++||+
+T Consensus         1 ~~~~~n~~~~~~~~~~~~~l~~~LI~e~L~~~~l~~TlsVf~~E~~~~~~~~~r~~L~~~l~l~~~~~~~~~PlL~~Li~   80 (82)
+T 2D68_B            1 KTPLVNESLKKFLNTKDGRLVASLVAEFLQFFNLDFTLAVFQPETSTLQGLEGRENLARDLGIIEAEGTVGGPLLLEVIR   80 (82)
+T ss_dssp             -----CHHHHHHHTSHHHHHHHHHHHHHHHHTTCHHHHHHHHHHHTCTTCCCCHHHHHHHHTCCCCHHHHTSCHHHHHHH
+T ss_pred             CCCccCHHHHHHhcCcchHHHHHHHHHHHHHCCCccHHHHHhHHhccCCCccCHHHHHHHhCCCcccCCCCCCHHHHHHH
+Confidence            68999999999999999999999999999999999999999999999988889999999999986544468899999997
+
+
+Q ss_pred             H
+Q tr|A0A994J7R7|  134 R  134 (376)
+Q Consensus       134 r  134 (376)
+                      +
+T Consensus        81 ~   81 (82)
+T 2D68_B           81 R   81 (82)
+T ss_dssp             T
+T ss_pred             h
+Confidence            4
+
+
+No 2
+>4WPX_F Cdc31, Sac3 CID region, Sus1; cell cycle, mRNA nuclear export; 3.31A {Chaetomium thermophilum}
+Probab=31.43  E-value=2e+02  Score=27.01  Aligned_cols=35  Identities=23%  Similarity=0.286  Sum_probs=28.7  Template_Neff=5.600
+
+Q ss_pred             CCCCCHHHHHHHHHHHHhCCHHHHHHHHHHHHHHH
+Q tr|A0A994J7R7|    9 VAEEDTELRDLLVQTLENSGVLNRIKAELRAAVFL   43 (376)
+Q Consensus         9 vaeedtelrdllvqtlensgvlnrikaelraavfl   43 (376)
+                      ....+.++|..|.+.|..+|-..||++.|+..+.-
+T Consensus        34 ~~~~~~~lr~~I~~~LieSGe~drL~~~L~~rL~e   68 (181)
+T 4WPX_F           34 PATLDQDLRSQINSLLIKEGHVAKIQEHLLHHLHA   68 (181)
+T ss_dssp             CSTTCCCCHHHHHHHHHHHTTTCHHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHHcCcHHHHHHHHHHHHHh
+Confidence            35567788999999999999999999988876543
+
+
+No 3
+>3MHS_B Ubiquitin carboxyl-terminal hydrolase 8 (E.C.3.1.2.15); Multi-protein complex, Hydrolase-transcription regulator-protein binding; 1.89A {Saccharomyces cerevisiae}
+Probab=27.85  E-value=2.6e+02  Score=22.53  Aligned_cols=28  Identities=32%  Similarity=0.408  Sum_probs=19.5  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHHhCCHHHHHHHHHHHH
+Q tr|A0A994J7R7|   13 DTELRDLLVQTLENSGVLNRIKAELRAA   40 (376)
+Q Consensus        13 dtelrdllvqtlensgvlnrikaelraa   40 (376)
+                      +.+++..+.+.|..+|-..||+..|+.-
+T Consensus         5 ~~~~~~~i~~~L~~sGe~~rl~~~l~~r   32 (96)
+T 3MHS_B            5 TAQLKSQIQQYLVESGNYELISNELKAR   32 (96)
+T ss_dssp             CTHHHHHHHHHHHHTTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHCCcHHHHHHHHHHH
+Confidence            4567777777777777777777766654
+
+
+No 4
+>4WA6_B Ubiquitin carboxyl-terminal hydrolase 8, Protein; Multi-Protein Complex, Hydrolase-transcription complex; HET: ZN; 2.36A {Saccharomyces cerevisiae}
+Probab=27.85  E-value=2.6e+02  Score=22.53  Aligned_cols=28  Identities=32%  Similarity=0.408  Sum_probs=17.0  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHHhCCHHHHHHHHHHHH
+Q tr|A0A994J7R7|   13 DTELRDLLVQTLENSGVLNRIKAELRAA   40 (376)
+Q Consensus        13 dtelrdllvqtlensgvlnrikaelraa   40 (376)
+                      +.+++..+.+.|..+|-..||+..|+.-
+T Consensus         5 ~~~~~~~i~~~L~~sGe~~rl~~~l~~r   32 (96)
+T 4WA6_B            5 TAQLKSQIQQYLVESGNYELISNELKAR   32 (96)
+T ss_dssp             HHHHHHHHHHHHHHHTHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHCCcHHHHHHHHHHH
+Confidence            4456666666666666666666655543
+
+
+No 5
+>6TBM_P TATA-binding protein, Transcriptional coactivator HFI1/ADA1; Transcriptional co-activator, Histone-acetylation, TRANSCRIPTION; 20.0A {Komagataella phaffii (strain GS115 / ATCC 20864)}
+Probab=27.35  E-value=1.7e+02  Score=23.62  Aligned_cols=27  Identities=22%  Similarity=0.334  Sum_probs=17.2  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHHhCCHHHHHHHHHHH
+Q tr|A0A994J7R7|   13 DTELRDLLVQTLENSGVLNRIKAELRA   39 (376)
+Q Consensus        13 dtelrdllvqtlensgvlnrikaelra   39 (376)
+                      +.+++..+.+.|..+|-..||+..|+.
+T Consensus         6 ~~~~~~~i~~~L~~sGe~~rl~~~L~~   32 (96)
+T 6TBM_P            6 VQHLKQQIQDVLVESGKYDELSNFLRS   32 (96)
+T ss_pred             HHHHHHHHHHHHHHCCcHHHHHHHHHH
+Confidence            455666666666667766666665554
+
+
+No 6
+>5ERN_B Fusicoccadiene synthase (E.C.2.5.1.29); diterpene synthase, terpenoids, lyase, TRANSFERASE; 2.434A {Phomopsis amygdali}
+Probab=23.21  E-value=5.1e+02  Score=23.63  Aligned_cols=40  Identities=13%  Similarity=0.204  Sum_probs=28.4  Template_Neff=9.800
+
+Q ss_pred             CHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHHhhhc
+Q tr|A0A994J7R7|   13 DTELRDLLVQTLENSGVLNRIKAELRAAVFLALEEQEKVE   52 (376)
+Q Consensus        13 dtelrdllvqtlensgvlnrikaelraavflaleeqekve   52 (376)
+                      +.+-...+.+.+.++|.+..++..++.....|.+.-....
+T Consensus       291 ~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~a~~~l~~l~  330 (349)
+T 5ERN_B          291 TLEQKQFVLDIIEEEKSLDYTRSVMMDLHVQLRAEIGRIE  330 (349)
+T ss_dssp             CHHHHHHHHHHHHHTTTHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHhHH
+Confidence            3455667788888999988888877777666666555443
+
+
+No 7
+>5ERO_A Fusicoccadiene synthase (E.C.2.5.1.29); diterpene synthase, lyase, TRANSFERASE; HET: 210, CO; 2.55A {Phomopsis amygdali}
+Probab=23.21  E-value=5.1e+02  Score=23.63  Aligned_cols=39  Identities=13%  Similarity=0.210  Sum_probs=26.5  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHHhhhc
+Q tr|A0A994J7R7|   14 TELRDLLVQTLENSGVLNRIKAELRAAVFLALEEQEKVE   52 (376)
+Q Consensus        14 telrdllvqtlensgvlnrikaelraavflaleeqekve   52 (376)
+                      .+-...+.+.+.++|.+..++..++.....|.+.-....
+T Consensus       292 ~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~a~~~l~~l~  330 (349)
+T 5ERO_A          292 LEQKQFVLDIIEEEKSLDYTRSVMMDLHVQLRAEIGRIE  330 (349)
+T ss_dssp             HHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHhHH
+Confidence            445566777788888888887777776666665555443
+
+
+No 8
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=22.93  E-value=4.7e+02  Score=31.12  Aligned_cols=19  Identities=16%  Similarity=0.205  Sum_probs=9.4  Template_Neff=1.500
+
+Q ss_pred             HHHHHHHHHHHHhCCcchh
+Q tr|A0A994J7R7|   73 LVASLVAEFLQFFNLDFTL   91 (376)
+Q Consensus        73 lvaslvaeflqffnldftl   91 (376)
+                      +|..-..+-|..++-++..
+T Consensus       216 wv~a~AaEaLGKIG~pKaI  234 (1209)
+T 7NRC_A          216 FCFQYLSESLGKFFEPYVI  234 (1209)
+T ss_pred             HHHHHHHHHHHhhcCchhh
+Confidence            4444444555555554444
+
+
+No 9
+>7JTH_E GGPP Synthase, Prenyltransferase, TRANSFERASE, LYASE;{Phomopsis amygdali}
+Probab=21.88  E-value=4.1e+02  Score=26.87  Aligned_cols=51  Identities=12%  Similarity=0.165  Sum_probs=34.7  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHHhhhcCCChhhhHHHHHHH
+Q tr|A0A994J7R7|   16 LRDLLVQTLENSGVLNRIKAELRAAVFLALEEQEKVENKTPLVNESLKKFL   66 (376)
+Q Consensus        16 lrdllvqtlensgvlnrikaelraavflaleeqekvenktplvneslkkfl   66 (376)
+                      ....+.+.+++.|++...+..++...-.+.+.-+..+......|..++.++
+T Consensus       684 ~~~~i~~~~~~~g~~~~~~~~~~~~~~~a~~~l~~l~~~~~~~~~~l~~l~  734 (739)
+T 7JTH_E          684 QKQFVLDIIEEEKSLDYTRSVMMDLHVQLRAEIGRIEILLDSPNPAMRLLL  734 (739)
+T ss_dssp             HHHHHHHHHHHTTCTTTTHHHHHHHHHHHHHHHHHHTTTTCCCCTTHHHHG
+T ss_pred             HHHHHHHHHHHCCHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHH
+Confidence            445667778888888888888877777777776666655444455555444
+
+
+No 10
+>2Z3X_B alpha/beta-type SASP, Bacillus subtils spore; 2.1A {Bacillus subtilis}
+Probab=20.79  E-value=2.1e+02  Score=22.30  Aligned_cols=12  Identities=17%  Similarity=0.432  Sum_probs=7.0  Template_Neff=6.300
+
+Q ss_pred             hHHHHHHhCCcc
+Q tr|A0A994J7R7|  107 RENLARDLGIIE  118 (376)
+Q Consensus       107 renlardlgiie  118 (376)
+                      +.+++++||+..
+T Consensus        16 K~EiA~ElGi~~   27 (63)
+T 2Z3X_B           16 KLEIASEFGVQL   27 (63)
+T ss_dssp             HHHHHHHHTCCC
+T ss_pred             HHHHHHHhCCCC
+Confidence            345666666654
+
+

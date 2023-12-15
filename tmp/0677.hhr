@@ -1,0 +1,168 @@
+Query         tr|C9J524|C9J524_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:41:37 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0677.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5XZX_B Importin subunit alpha-  47.9      23 0.00025   17.4   1.0   12   35-46     12-23  (30)
+  2 7NKV_A cryptic prophage CP933-  27.5      82 0.00089   14.1   1.0   11   33-43     64-74  (74)
+  3 3TNZ_A Iodotyrosine dehalogena  17.6      84 0.00091   19.0  -0.0   17   22-38    242-258 (259)
+  4 3GB5_A Iodotyrosine dehalogena  13.2 1.5E+02  0.0016   18.2   0.3   17   22-38    242-258 (259)
+  5 3GFD_B Iodotyrosine dehalogena  13.2 1.5E+02  0.0016   18.2   0.3   17   22-38    242-258 (259)
+  6 1OR4_A Heme-based aerotactic t  10.4 4.3E+02  0.0047   14.3   1.4   17   20-36      3-19  (178)
+  7 4DND_A Syntaxin-10; STRUCTURAL  10.1 2.2E+02  0.0024   17.1   0.3   22    2-23     12-33  (130)
+  8 5N9B_A Interleukin-17 receptor   9.0 2.3E+02  0.0024   20.2   0.0   14   14-27    249-262 (286)
+  9 6BD4_A Frizzled-4,Rubredoxin;    8.9 8.5E+02  0.0093   16.7   2.6   16   20-35     11-26  (420)
+ 10 3P5J_B Ribonuclease H2 subunit   8.7 3.1E+02  0.0033   19.4   0.6   18    8-25    310-327 (332)
+
+No 1
+>5XZX_B Importin subunit alpha-3, Ran-binding protein; nuclear import, TRANSPORT PROTEIN; 3.0A {Homo sapiens}
+Probab=47.93  E-value=23  Score=17.39  Aligned_cols=12  Identities=50%  Similarity=0.947  Sum_probs=8.5  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|C9J524|C9J5   35 WTNQNSCPPVIR   46 (47)
+Q Consensus        35 wtnqnscppvir   46 (47)
+                      -.+.+.||||.|
+T Consensus        12 ~~~g~~~pp~kr   23 (30)
+T 5XZX_B           12 REDGNYCPPVKR   23 (30)
+T ss_pred             cccCCCCCCccc
+Confidence            345678999876
+
+
+No 2
+>7NKV_A cryptic prophage CP933-P, CI repressor; NMR {Escherichia coli O157:H7}
+Probab=27.54  E-value=82  Score=14.12  Aligned_cols=11  Identities=0%  Similarity=-0.022  Sum_probs=2.6  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|C9J524|C9J5   33 ESWTNQNSCPP   43 (47)
+Q Consensus        33 eswtnqnscpp   43 (47)
+                      .-|.+..+|||
+T Consensus        64 ~~~~~~~~~~~   74 (74)
+T 7NKV_A           64 QPGSSHHHHHH   74 (74)
+T ss_dssp             STTCC------
+T ss_pred             CCCCCCCCCCC
+Confidence            34556677765
+
+
+No 3
+>3TNZ_A Iodotyrosine dehalogenase 1 (E.C.1.22.1.1); OXIDOREDUCTASE, FLAVOPROTEIN, MEMBRANE, TRANSMEMBRANE, DEHALOGENASE; HET: GOL, FLC, IYR, FMN; 2.25A {Mus musculus}
+Probab=17.62  E-value=84  Score=19.04  Aligned_cols=17  Identities=18%  Similarity=0.272  Sum_probs=12.6  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|C9J524|C9J5   22 RKKPLQQRWTSESWTNQ   38 (47)
+Q Consensus        22 rkkplqqrwtseswtnq   38 (47)
+                      +++|+.+.|..++|+|.
+T Consensus       242 ~r~~~~~~~~~~~~~~~  258 (259)
+T 3TNZ_A          242 KRKALDQIMVTVHHHHH  258 (259)
+T ss_dssp             CCCCGGGTEEECCC---
+T ss_pred             cCCcHHHheeeccCCCC
+Confidence            46899999999999874
+
+
+No 4
+>3GB5_A Iodotyrosine dehalogenase 1; IYD, iodide salvage, flavoprotein, FMN; HET: FMN; 2.0A {Mus musculus}
+Probab=13.22  E-value=1.5e+02  Score=18.16  Aligned_cols=17  Identities=18%  Similarity=0.272  Sum_probs=12.6  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|C9J524|C9J5   22 RKKPLQQRWTSESWTNQ   38 (47)
+Q Consensus        22 rkkplqqrwtseswtnq   38 (47)
+                      +++|+.+.+.-++|+|.
+T Consensus       242 ~r~~~~~~~~~~~~~~~  258 (259)
+T 3GB5_A          242 KRKALDQIMVTVHHHHH  258 (259)
+T ss_dssp             CCCCGGGTCCCCCC---
+T ss_pred             CCCcHHHhceeccCCCC
+Confidence            56899999999999874
+
+
+No 5
+>3GFD_B Iodotyrosine dehalogenase 1; IYD, iodide salvage, flavoprotein, mono-iodotyrosine; HET: GOL, IYR, FMN; 2.45A {Mus musculus}
+Probab=13.22  E-value=1.5e+02  Score=18.16  Aligned_cols=17  Identities=18%  Similarity=0.272  Sum_probs=10.9  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|C9J524|C9J5   22 RKKPLQQRWTSESWTNQ   38 (47)
+Q Consensus        22 rkkplqqrwtseswtnq   38 (47)
+                      +++|+.+.+.-++|+|.
+T Consensus       242 ~r~~~~~~~~~~~~~~~  258 (259)
+T 3GFD_B          242 KRKALDQIMVTVHHHHH  258 (259)
+T ss_dssp             CCCCHHHHEEEEC----
+T ss_pred             CCCcHHHhceeccCCCC
+Confidence            46888888888999874
+
+
+No 6
+>1OR4_A Heme-based aerotactic transducer hemAT; Globin fold, SIGNALING PROTEIN; HET: HEM; 2.15A {Bacillus subtilis} SCOP: a.1.1.2
+Probab=10.37  E-value=4.3e+02  Score=14.30  Aligned_cols=17  Identities=18%  Similarity=0.296  Sum_probs=7.2  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|C9J524|C9J5   20 FGRKKPLQQRWTSESWT   36 (47)
+Q Consensus        20 fgrkkplqqrwtseswt   36 (47)
+                      |-+.+.-++||-+++=+
+T Consensus         3 ~~~~~~~~~~~~~~~~~   19 (178)
+T 1OR4_A            3 FKKDRKQETAYFSDSNG   19 (178)
+T ss_dssp             -------CCCSSCCCGG
+T ss_pred             CCCCcccCcccccCCCC
+Confidence            33444445888777654
+
+
+No 7
+>4DND_A Syntaxin-10; STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE; HET: MSE; 1.4A {Homo sapiens}
+Probab=10.11  E-value=2.2e+02  Score=17.11  Aligned_cols=22  Identities=32%  Similarity=0.382  Sum_probs=4.3  Template_Neff=8.100
+
+Q ss_pred             CCcCCCCCCCCcccCCccCCCC
+Q tr|C9J524|C9J5    2 DLEVKGVAATSRSQIQPFFGRK   23 (47)
+Q Consensus         2 dlevkgvaatsrsqiqpffgrk   23 (47)
+                      ||++.+....+.+..-|||--+
+T Consensus        12 ~~~~~~~~~s~~~~~DPF~~v~   33 (130)
+T 4DND_A           12 DLGTENLYFQSMSLEDPFFVVR   33 (130)
+T ss_dssp             ---------------CCHHHHH
+T ss_pred             CcccchhhhhccCCCCchHHHH
+Confidence            6777777777766777776533
+
+
+No 8
+>5N9B_A Interleukin-17 receptor A; Fibronectin type III, signaling protein; HET: NAG; 1.9A {Homo sapiens}
+Probab=8.99  E-value=2.3e+02  Score=20.16  Aligned_cols=14  Identities=43%  Similarity=0.430  Sum_probs=10.5  Template_Neff=7.000
+
+Q ss_pred             ccCCccCCCCCCCC
+Q tr|C9J524|C9J5   14 SQIQPFFGRKKPLQ   27 (47)
+Q Consensus        14 sqiqpffgrkkplq   27 (47)
+                      -+|||||-+=+.-=
+T Consensus       249 v~I~P~F~~C~ndC  262 (286)
+T 5N9B_A          249 VQIQPFFSSCLNDC  262 (286)
+T ss_dssp             EEEEECCTTTTTCC
+T ss_pred             EEEEcCCccccccc
+Confidence            46999998866543
+
+
+No 9
+>6BD4_A Frizzled-4,Rubredoxin; GPCR, Frizzled, apo, MEMBRANE PROTEIN; HET: SO4, OLA, OLC; 2.4A {Homo sapiens}
+Probab=8.91  E-value=8.5e+02  Score=16.66  Aligned_cols=16  Identities=6%  Similarity=-0.033  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|C9J524|C9J5   20 FGRKKPLQQRWTSESW   35 (47)
+Q Consensus        20 fgrkkplqqrwtsesw   35 (47)
+                      ...+.+.+..|..+.|
+T Consensus        11 ~~~~~~~~~~~~~~~~   26 (420)
+T 6BD4_A           11 QTMHHHHHHHHHHENL   26 (420)
+T ss_dssp             ----------------
+T ss_pred             cccCCCCCcccccccc
+Confidence            3444455555555444
+
+
+No 10
+>3P5J_B Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H2 fold, triple beta-barrel; 2.9A {Mus musculus}
+Probab=8.68  E-value=3.1e+02  Score=19.39  Aligned_cols=18  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCCCCcccCCccCCCCCC
+Q tr|C9J524|C9J5    8 VAATSRSQIQPFFGRKKP   25 (47)
+Q Consensus         8 vaatsrsqiqpffgrkkp   25 (47)
+                      |+++.-..|..||+.|++
+T Consensus       310 v~~kGmksisSFF~kK~~  327 (332)
+T 3P5J_B          310 VDKSGMKSIDAFFGAKNK  327 (332)
+T ss_dssp             ------------------
+T ss_pred             HcccCCcchHHhhcCCCC
+
+

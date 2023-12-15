@@ -1,0 +1,870 @@
+Query         tr|I3L492|I3L492_HUMAN
+Match_columns 208
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:54:59 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1660.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2MQ9_A Eukaryotic peptide chai  99.9 7.1E-25 7.7E-30  162.7   9.4  108    1-108    34-141 (142)
+  2 1DT9_A EUKARYOTIC PEPTIDE CHAI  99.8 3.2E-19 3.5E-24  143.4  13.8  206    1-206    34-239 (437)
+  3 5DMQ_B Reverse transcriptase/r  99.8 3.2E-19 3.5E-24  143.4  13.8  205    1-205    34-238 (437)
+  4 6XA1_j translation termination  99.8 5.1E-19 5.6E-24  139.7  13.1  206    1-206    24-229 (411)
+  5 4CRN_X ERF3 IN RIBOSOME BOUND   99.8 1.1E-17 1.2E-22  135.6  12.3  205    1-205    31-235 (437)
+  6 4D5N_A EUKARYOTIC PEPTIDE CHAI  99.8 4.9E-17 5.3E-22  131.9  14.3  206    1-206    30-235 (436)
+  7 3E20_B Eukaryotic peptide chai  99.7 1.4E-16 1.5E-21  129.8  12.9  205    1-206    39-244 (441)
+  8 3AGK_A Peptide chain release f  99.6 6.5E-15 7.1E-20  115.7  10.8  195    1-204    34-235 (373)
+  9 3VMF_B Elongation factor 1-alp  99.6 6.5E-15 7.1E-20  115.7  10.8  195    1-204    34-235 (373)
+ 10 4AF1_A PEPTIDE CHAIN RELEASE F  99.5 3.5E-13 3.8E-18  108.0  10.7  198    1-204    34-238 (416)
+ 11 2HST_A Termination of protein   98.6 7.6E-08 8.2E-13   67.1   3.8   98  108-205     2-99  (143)
+ 12 4CRM_X TRANSLATION INITIATION   98.4   5E-07 5.4E-12   69.5   3.3   97  110-206     1-97  (282)
+ 13 3MCA_B Elongation factor 1 alp  98.3 2.6E-06 2.8E-11   69.1   5.2  136   55-204    76-218 (390)
+ 14 2VGN_A DOM34; TRANSLATION TERM  98.2   4E-06 4.3E-11   67.7   5.5  121   74-204   102-224 (386)
+ 15 3J16_A Dom34p, Rli1p, 60S ribo  98.2   4E-06 4.3E-11   67.7   5.5  113   83-204   107-224 (386)
+ 16 5LZX_ii uL2, Ul3, uL4, 60S rib  97.7 0.00016 1.7E-09   60.1   6.2  134   54-205    75-219 (403)
+ 17 5LZZ_ii uL2, uL3, Uncharacteri  97.7 0.00016 1.7E-09   60.1   6.2  134   54-205    75-219 (403)
+ 18 2QI2_A Cell division protein p  97.4 0.00078 8.4E-09   54.2   5.3  122   56-204    80-205 (347)
+ 19 3OBY_A Protein pelota homolog   97.3 0.00048 5.2E-09   55.5   3.6  118   56-205    80-202 (352)
+ 20 3OBY_B Protein pelota homolog   97.3 0.00048 5.2E-09   55.5   3.6  118   56-205    80-202 (352)
+ 21 3WXM_B Elongation factor 1-alp  97.2  0.0013 1.4E-08   54.1   5.0  127   58-204    97-227 (376)
+ 22 3J15_A Protein pelota (E.C.3.1  97.0  0.0028 3.1E-08   50.9   5.0  130   56-204    80-215 (357)
+ 23 3OBW_A Protein pelota homolog   96.0   0.038 4.1E-07   45.3   5.8  124   58-204    96-222 (364)
+ 24 6UN8_A Kanamycin nucleotidyltr  27.1 1.6E+02  0.0018   21.5   2.9   27  167-197    14-40  (253)
+ 25 4AP8_C MOLYBDOPTERIN SYNTHASE   25.3 2.8E+02  0.0031   20.8   4.0   14   54-67     28-41  (135)
+ 26 6EHR_C Ragulator complex prote  24.7 3.2E+02  0.0034   18.6   3.8   21  108-128    14-34  (91)
+ 27 6ULG_C Folliculin, Ragulator c  24.7 3.2E+02  0.0034   18.6   3.8   17  111-127    17-33  (91)
+ 28 2WP4_A MOLYBDOPTERIN-CONVERTIN  22.5 2.8E+02   0.003   21.4   3.6   14   54-67     31-44  (147)
+ 29 2WP4_B MOLYBDOPTERIN-CONVERTIN  22.5 2.8E+02   0.003   21.4   3.6   14   54-67     31-44  (147)
+ 30 6OPM_A CRISPR-associated endon  21.5 1.1E+03   0.011   22.2  10.6   38   89-127    63-101 (431)
+ 31 6OPM_C CRISPR-associated endon  21.5 1.1E+03   0.011   22.2  10.6   39   89-128    63-102 (431)
+
+No 1
+>2MQ9_A Eukaryotic peptide chain release factor; Translation Termination, eRF1, RDC, TRANSLATION; NMR {Homo sapiens}
+Probab=99.92  E-value=7.1e-25  Score=162.66  Aligned_cols=108  Identities=99%  Similarity=1.404  Sum_probs=87.0  Template_Neff=7.700
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      ++|+|+|.+.......+.+.++...+..++++.++..+..+++.+...+..+...+.+|+++|++....+.+......+.
+T Consensus        34 liSlyipp~~~~~~v~~~l~~e~~~a~~I~sk~~r~~v~~al~~~~~~l~~~~~~p~~Glv~f~g~~~~~~~~~~~~~~~  113 (142)
+T 2MQ9_A           34 MISLIIPPKDQISRVAKMLADQFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID  113 (142)
+T ss_dssp             CEEEEECTTSCHHHHHHHHHHHHHHHHHCSCHHHHHHHHHHHHHHHHHHHHHCSCCSSCEEEEECEEECTTCCEEECCEE
+T ss_pred             eeEEEeCCccchhHHHHHHHHHhcccccccccccchhHHHHHHHHHHHHHhccCCCCCcEEEEEeeEEccCCeEEEEEEE
+Confidence            48999998876666677777666655556677788888888999888888777788999999999764334445667778
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhC
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLS  108 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtalls  108 (208)
+                      +.+|.|+....+.|++.|++.||.+++.
+T Consensus       114 i~PP~Pv~~~~y~~~~~F~~epL~~~l~  141 (142)
+T 2MQ9_A          114 FEPFKPINTSLYLCDNKFHTEALTALLS  141 (142)
+T ss_dssp             ECCSCCCSSCEEECSSBCCCHHHHHHHH
+T ss_pred             eecCCcCCceEEEeCCEEehHHHHHHhc
+Confidence            8899999999999999999999998863
+
+
+No 2
+>1DT9_A EUKARYOTIC PEPTIDE CHAIN RELEASE FACTOR; erf1, trna mimicry, protein sythesis; 2.7A {Homo sapiens} SCOP: c.55.4.2, d.79.3.2, d.91.1.1
+Probab=99.83  E-value=3.2e-19  Score=143.44  Aligned_cols=206  Identities=100%  Similarity=1.405  Sum_probs=179.7  Template_Neff=9.800
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      |+|+|||+++....+++++.+++.+....+++.+++.+.+.++++.+.++.++..+.+|+|+|+|+.+.++++++++++.
+T Consensus        34 ~lSlyl~~~~~~~~~~k~l~~~~~~~~~~~~~~~~~~~~~~i~~~~~~l~~~~~~~~~g~aif~s~~~~~~~~~~~~~~~  113 (437)
+T 1DT9_A           34 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID  113 (437)
+T ss_dssp             EEEEEECSSSCHHHHHHHHHHHHHHHTTCCCTHHHHHHHHHHHHHHHHHTTCSSCCTTCEEEEEEEEECGGGCEEEEEEE
+T ss_pred             cEEEEeCCchhHHHHHHHHHHHhhhhhcccchHHHHHHHHHHHHHHHHHHhccCCCCCeEEEEeeecccCCCceEEEEEE
+Confidence            68999999988899999999998765434566777888999999999898776778899999999986555688999999
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHH
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  160 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarl  160 (208)
+                      +.+|.|+.++++++++.|++.||+.+++...+|+||+++++++.|+...+..++.+..++.+.++++..||++.++|+++
+T Consensus       114 ~~l~~~~~~~~~~~~~~~~l~pL~~~~~~~~~~~vl~l~~~~a~l~~~~~~~~e~~~~~~~~~~~~~~~gg~s~~~~~~~  193 (437)
+T 1DT9_A          114 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  193 (437)
+T ss_dssp             ECCSCCTTCCEEEEESSCCCHHHHHHCCCCCEEEEEECCSSCCCEEEEETTEEEEEECCCCCCSCCCCSSCSCSHHHHHH
+T ss_pred             EecCCCCCcceEEeCCcccHHHHHHHhccCCcEEEEEEeCCceEEEEEeCCceEEEEEEEeCCCCcccCCcccHHHHHHH
+Confidence            99999999988877999999999999999999999999999999999998887766677777888888899999999999
+
+
+Q ss_pred             HHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCCC
+Q tr|I3L492|I3L4  161 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  206 (208)
+Q Consensus       161 rmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsqs  206 (208)
+                      +++..++||++|++.+.+++...+..++++|||+|+++.++.|.+.
+T Consensus       194 ~~~~~~~~~~~va~~l~~~~~~~~~~~~~~lvlaG~~~~~~~f~k~  239 (437)
+T 1DT9_A          194 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  239 (437)
+T ss_dssp             HHHHTTTTTTHHHHHTTTTTSCSSSCSSSCCEEEESTTTTHHHHSC
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCCCCcCeEEEEecHHHHHHHhcC
+Confidence            9999999999999999999843223567899999999999998864
+
+
+No 3
+>5DMQ_B Reverse transcriptase/ribonuclease H p80 (E.C.2.7.7.49,2.7.7.7,3.1.26.4); complex, eRF1, RT, TRANSFERASE, HYDROLASE-TRANSLATION; 4.0A {Moloney murine leukemia virus (isolate Shinnick)}
+Probab=99.83  E-value=3.2e-19  Score=143.44  Aligned_cols=205  Identities=100%  Similarity=1.409  Sum_probs=178.8  Template_Neff=9.800
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      |+|+|||+++....+++++.+++.+....+++.+++.+.+.++++.+.++.++..+.+|+|+|+|+.+.++++++++++.
+T Consensus        34 ~lSlyl~~~~~~~~~~k~l~~~~~~~~~~~~~~~~~~~~~~i~~~~~~l~~~~~~~~~g~aif~s~~~~~~~~~~~~~~~  113 (437)
+T 5DMQ_B           34 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID  113 (437)
+T ss_dssp             EECCEECSSSCHHHHHHHHHHHHHHTTSCCCHHHHHHHHHHHHHHHHHHHTSCSCCTTCEEEEEEEEEETTEEEEECCEE
+T ss_pred             cEEEEeCCchhHHHHHHHHHHHhhhhhcccchHHHHHHHHHHHHHHHHHHhccCCCCCeEEEEeeecccCCCceEEEEEE
+Confidence            68999999988999999999998766444566777888999999999998777788899999999976555678889999
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHH
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  160 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarl  160 (208)
+                      +.+|.|+.++++++++.|++.||+.+++...+|+||+++++++.|+...+..++.+..++.+.++++..||++.++|+++
+T Consensus       114 ~~l~~~~~~~~~~~~~~~~l~pL~~~~~~~~~~~vl~l~~~~a~l~~~~~~~~e~~~~~~~~~~~~~~~gg~s~~~~~~~  193 (437)
+T 5DMQ_B          114 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  193 (437)
+T ss_dssp             ECCSCCSSCCBCCEESSCCCHHHHTTTTCCCCEEEEEECSSEEEEEEECSSSEEEEEEEECCCCCSCCCSSSCSTTTHHH
+T ss_pred             EecCCCCCcceEEeCCcccHHHHHHHhccCCcEEEEEEeCCceEEEEEeCCceEEEEEEEeCCCCcccCCcccHHHHHHH
+Confidence            99999999888767999999999999999999999999999999999999888766677777888888899999999999
+
+
+Q ss_pred             HHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCC
+Q tr|I3L492|I3L4  161 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQ  205 (208)
+Q Consensus       161 rmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsq  205 (208)
+                      +++..++||++|++.+.+++...+..++++|||+|+++.++.|.+
+T Consensus       194 ~~~~~~~~~~~va~~l~~~~~~~~~~~~~~lvlaG~~~~~~~f~k  238 (437)
+T 5DMQ_B          194 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQ  238 (437)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCSSSCSCSEEEEEESSTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCCCCcCeEEEEecHHHHHHHhc
+Confidence            999999999999999999985322456789999999999988875
+
+
+No 4
+>6XA1_j translation termination complex; Selectively stalling, translation termination, drug-like; HET: MEQ, G7M, 2MG, PSU, 6MZ, 4AC, OMU, UY1, 5MC, 1MG, A2M, UR3, H2U, MLZ, B8N, UY4, UXY, OMG, MVM, OMC, 1MA, MG, MA6, M2G; 2.8A {Homo sapiens}
+Probab=99.82  E-value=5.1e-19  Score=139.69  Aligned_cols=206  Identities=99%  Similarity=1.396  Sum_probs=172.0  Template_Neff=10.100
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      |+|+|+|+++.....++++.+++.+.....++..++.+...++++.+.++.++..+.+|+|+|++....+.+.++++++.
+T Consensus        24 ~vSlyl~~~~~~~~~~k~l~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~glaif~~~~~~~~~~~~~~~~~  103 (411)
+T 6XA1_j           24 MISLIIPPKDQISRVAKMLADEFGTASNIXSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID  103 (411)
+T ss_pred             eEEEEeCCCccHHHHHHHHHHHHhhhhcCcchhhHHHHHHHHHHHHHHHHhccCCCCCeEEEEeeeeeccCCeEEEEEEE
+Confidence            68999999998888999999988776433355566777888888888887666678899999998753333467778888
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHH
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  160 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarl  160 (208)
+                      +.+|.|+.+.++++++.|++.||+..++...+|+||+++++++.|+...+..++....++.+.++++..||++..+|+++
+T Consensus       104 ~~l~~~~~~~~~~~~~~~~l~pL~~~~~~~~~~~vl~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~gg~s~~r~~~~  183 (411)
+T 6XA1_j          104 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGXSALRFARL  183 (411)
+T ss_pred             EecCCCCCceEEEeCCeeeHHHHHHHhcCCCCEEEEEEeCCceEEEEEeCCceEEEEEEEeCCCccccCCCcchhHHHHH
+Confidence            99999999878766999999999999999999999999999998888888877766677777788888889999999999
+
+
+Q ss_pred             HHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCCC
+Q tr|I3L492|I3L4  161 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  206 (208)
+Q Consensus       161 rmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsqs  206 (208)
+                      .++..++||++|++.+.+++.+.+..+..+|||+|+++..+.|++.
+T Consensus       184 ~~~~~~~f~~~v~~~l~~~~~~~~~~~~~~lil~G~~~~~~~f~~~  229 (411)
+T 6XA1_j          184 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  229 (411)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhhcCCCcCcCeEEEEeCHHHHHHHhcC
+Confidence            9999999999999999999842113456799999999999999853
+
+
+No 5
+>4CRN_X ERF3 IN RIBOSOME BOUND ERF1-ERF3-GDPNP; TRANSLATION, TERMINATION, CRYO-EM; HET: GNP; 9.1A {SACCHAROMYCES CEREVISIAE}
+Probab=99.77  E-value=1.1e-17  Score=135.63  Aligned_cols=205  Identities=78%  Similarity=1.196  Sum_probs=163.7  Template_Neff=9.600
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      ++|+|||+++.....+++|.+++.......+..+++.+.+.++.+.+.++.++..+.+|+++|++....+.+....+.+.
+T Consensus        31 ~lSlyl~~~~~~~~~~k~L~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~~~~~~~Glaif~~~~~~~~~~~~~~~~~  110 (437)
+T 4CRN_X           31 MISLVIPPKGLIPLYQKMLTDEYGTASNIKSRVNRLSVLSAITSTQQKLKLYNTLPKNGLVLYCGDIITEDGKEKKVTFD  110 (437)
+T ss_dssp             EEEEEECTTSCHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHTTCSSCCTTCEEEEEECCCCSTTCCCCEEEE
+T ss_pred             cEEEEeCCCccHHHHHHHHHHhhccccccccHHHHHHHHHHHHHHHHHHHhcccCCCCcEEEEecccccCCCceEEEEEE
+Confidence            68999999877788889988876654212234456667777777887777666677899999998863323333445667
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHH
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  160 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarl  160 (208)
+                      +.+|.++.+.++++++.|++.||+.+++...+|+|++++++++.|+...+..++....+..+.++++..||++..+|+++
+T Consensus       111 ~~l~~~~~~~~~v~~~~~~l~pL~~~~~~~~~~~vl~l~~~~a~l~~~~~~~~~~~~~~~~~~~~k~~~gg~~~~~~~~~  190 (437)
+T 4CRN_X          111 IEPYKPINTSLYLCDNKFHTEVLSELLQADDKFGFIVMDGQGTLFGSVSGNTRTVLHKFTVDLPKKHGRGGQSALRFARL  190 (437)
+T ss_dssp             ECCSCCCSCCEEECSSCCCCTTHHHHSCCCSCEEEEECCSSCCEEEEEETTEEEEEEECCCCCSCCCCCSSSCSTHHHHH
+T ss_pred             EecCCCCCccEEEeCCcccHHHHHHHHhcCCCEEEEEEeCCCEEEEEEeCCceEEEEEEEEecCCCCCCCcccHHHHHHH
+Confidence            88999999888756999999999999999999999999999999998888877666666667787777889999999999
+
+
+Q ss_pred             HHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCC
+Q tr|I3L492|I3L4  161 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQ  205 (208)
+Q Consensus       161 rmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsq  205 (208)
+                      .++..++||+++++.+.+++...+..+.++|||+|++...+.|.+
+T Consensus       191 ~~~~~~~~~~~v~~~l~~~~~~~~~~~~~~lilaG~~~~~~~~~~  235 (437)
+T 4CRN_X          191 REEKRHNYVRKVAEVAVQNFITNDKVNVKGLILAGSADFKTDLAK  235 (437)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTTEETTEESSSCCEEEESTTTTHHHHS
+T ss_pred             HHHHHHHHHHHHHHHHHHHcccCCCcCCCeEEEEeCHHHHHHHHc
+Confidence            999999999999999999983110145679999999999888874
+
+
+No 6
+>4D5N_A EUKARYOTIC PEPTIDE CHAIN RELEASE FACTOR; RIBOSOME-RNA COMPLEX, CRPV IRES, RIBOSOME; 9.0A {HOMO SAPIENS}
+Probab=99.76  E-value=4.9e-17  Score=131.86  Aligned_cols=206  Identities=100%  Similarity=1.405  Sum_probs=175.7  Template_Neff=9.600
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEeec
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID   80 (208)
+Q Consensus         1 misliippkdqisrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvnid   80 (208)
+                      |+|+|+|+++..++.++++.+++.+.....++..++.+.+.++++.+.++.++..+.+|+++|+++...+.++++++++.
+T Consensus        30 ~lSlyl~~~~~~~~~~k~l~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~~~~~~~glaif~~~~~~~~~~~~~~~~~  109 (436)
+T 4D5N_A           30 MISLIIPPKDQISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNID  109 (436)
+T ss_dssp             EEEEEECTTCCHHHHHHHHHHHHHHHHHHCCSSHHHHHHHHHHHHHHHHHHCSSCCTTCEEEEEEEEECGGGCEEEEEEE
+T ss_pred             cEEEEeCCcchHHHHHHHHHHHhcccccccchhhHHHHHHHHHHHHHHHHhccCCCCCcEEEEEeeeecCCCeeEEEEEE
+Confidence            68999999998899999999988765433456677788888999998888777778899999999875444578889989
+
+
+Q ss_pred             CCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHH
+Q tr|I3L492|I3L4   81 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  160 (208)
+Q Consensus        81 fepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarl  160 (208)
+                      +.+|.|+.+.++++++.|++.||+.+++...+++||+++++++.|+...+..++....++.+.++++..||++..+|+++
+T Consensus       110 ~~l~~~~~~~~~~~~~~~~l~pL~~~~~~~~~~~vl~ld~~~a~l~~~~~~~~e~~~~~~~~~~~k~~~gg~s~~~~~~~  189 (436)
+T 4D5N_A          110 FEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARL  189 (436)
+T ss_dssp             ECCSSCCSCCCEEEESSCCCHHHHHHHCSSCCEEEEEEETTEEEEEEEETTEEEEEEEECCCCCCCCCSSSCCCSTHHHH
+T ss_pred             EecCCCCCccEEEeCCeeehHHHHHHhcCCCCEEEEEEeCCceEEEEEeCCceEEEEEEEeCCCCcCCCCCcchHHHHHH
+Confidence            99999999888767999999999999999999999999999999999988887766667777888888888999999999
+
+
+Q ss_pred             HHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCCC
+Q tr|I3L492|I3L4  161 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  206 (208)
+Q Consensus       161 rmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsqs  206 (208)
+                      .++..++||++|++.+.+++...+..+..+|||+|+++..+.|.+.
+T Consensus       190 ~e~~~~~~~k~v~~~l~~~~~~~~~~~~~~lvl~G~~~~~~~f~k~  235 (436)
+T 4D5N_A          190 RMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  235 (436)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHBCSSSBSCSEEEEEESTTHHHHHHSS
+T ss_pred             HHHHHHHHHHHHHHHHHHHcccCCCcCcCeEEEEechhhHHHHhcc
+Confidence            9999999999999999999842113456899999999999888753
+
+
+No 7
+>3E20_B Eukaryotic peptide chain release factor; Sup35, Sup45, translation termination, peptide; 3.5A {Schizosaccharomyces pombe}
+Probab=99.73  E-value=1.4e-16  Score=129.82  Aligned_cols=205  Identities=74%  Similarity=1.122  Sum_probs=72.9  Template_Neff=9.500
+
+Q ss_pred             CeEEEECCHHHHHHHHHHHHHHH-CCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEEee
+Q tr|I3L492|I3L4    1 MISLIIPPKDQISRVAKMLADEF-GTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKVNI   79 (208)
+Q Consensus         1 misliippkdqisrvakmladef-gtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkvni   79 (208)
+                      |+|+|+++++... .++++.++. .......++..++.+.+.++++...++.++..+.+|+|+|+|+...+.|....+..
+T Consensus        39 ~lSlyl~~~~~~~-~~~~~l~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~~~~~~~GlaiF~s~~~~~~G~~~~~~~  117 (441)
+T 3E20_B           39 MITLIIPPGEQIS-RYSNMLAEEYGTASNIKSRVNRLSVLSAITSTRERLKLYNKVPDNGLVIYCGEVIMEGNKTRKLNI  117 (441)
+T ss_dssp             EEEEECCTTCCHH-HHHHHHHHHHHHTTCCCCHHHHHHHHHHHHHHHHHHTTCSSCTTSCCEEEEEEECCGGGCCEEEEE
+T ss_pred             cEEEEeCCCccHH-HHHHHHHHHhhhhhccccHHHHHHHHHHHHHHHHHHHhcccCCCCeEEEEEeeeecCCCceeeEEE
+Confidence            6899999987543 333333333 21111223455667777788888877655667889999999886322232233555
+
+
+Q ss_pred             cCCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHH
+Q tr|I3L492|I3L4   80 DFEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFAR  159 (208)
+Q Consensus        80 dfepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfar  159 (208)
+                      .+.++.|+.+.++++++.|++.||+.+++.+.+|+||+++++++.|+...+..++....+..+.++++.+||++..++++
+T Consensus       118 ~~~l~~~~~~~~~~~~~~~~l~pL~~~~~~~~~~~vl~l~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~~~~  197 (441)
+T 3E20_B          118 DFEPFKPINTSQYLCDNKFHTEALAELLESDQRFGFIVMDGHQTLYGVVSGSAREVLQRFTVDLPKKHGRGGQSALRFAR  197 (441)
+T ss_dssp             EECCSCCTTCCEEEEESSCCCTTGGGGC----------------------------------------------------
+T ss_pred             EEccCCCCCCceeeeCCccchHHHHHHHhhCCcEEEEEEeCCcEEEEEEeCCceEEEEEEEEcCCCccCCCCcchHHHHH
+Confidence            88999999988873399999999999999999999999999999999988888877666777777777788999999999
+
+
+Q ss_pred             HHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCCC
+Q tr|I3L492|I3L4  160 LRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQS  206 (208)
+Q Consensus       160 lrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsqs  206 (208)
+                      +.++..++||+++++.+.+++...+..+.++|||+|++...+.|.+.
+T Consensus       198 ~~~~~~~~~~~~v~~~l~~~~~~~~~~~~~~lvl~G~~~~~~~f~~~  244 (441)
+T 3E20_B          198 LRDEKRHNYVRKVAEGAVQHFITDDKPNVAGIVLAGSADFKTELGQS  244 (441)
+T ss_dssp             -----------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHcccCCCCCCCeEEEEeChhHHHHHhcc
+Confidence            99999999999999999999841000156799999999999988764
+
+
+No 8
+>3AGK_A Peptide chain release factor subunit; TRANSLATION; 2.1A {Aeropyrum pernix}
+Probab=99.63  E-value=6.5e-15  Score=115.71  Aligned_cols=195  Identities=30%  Similarity=0.524  Sum_probs=141.1  Template_Neff=10.000
+
+Q ss_pred             CeEEEECCHHH---HHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEE
+Q tr|I3L492|I3L4    1 MISLIIPPKDQ---ISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKV   77 (208)
+Q Consensus         1 misliippkdq---isrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkv   77 (208)
+                      |+|+|+|+++.   ....+++..+.+..   ..+...++.+...++.+.+.++.++....+|+|+|+|+...   ....+
+T Consensus        34 ~iSlyl~~~~~~~~~~~~l~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~glaif~~~~~~---~~~~~  107 (373)
+T 3AGK_A           34 LLSLYIPPGRPLSDVMTLLRQEYSITDN---IKLKRTRQAVKRALSAAMDRLQMLTSTPPNGLVLFCGEDMS---TGKFE  107 (373)
+T ss_dssp             EEEEEECTTSCHHHHHHHHHHHHHHGGG---CCSHHHHHHHHHHHHHHHHHHTTCSSCCTTCEEEEEEC--------CCE
+T ss_pred             eEEEEeCCCCCHHHHHHHHHHHHHhhHh---cccHHHHHHHHHHHHHHHHHHHhccCCCCCCeEEEEEecCC---CCcEE
+Confidence            68999999863   33344444444322   12334455667778888888877677788999999987620   11224
+
+
+Q ss_pred             eecCCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHH
+Q tr|I3L492|I3L4   78 NIDFEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRF  157 (208)
+Q Consensus        78 nidfepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrf  157 (208)
+                      ++.+.+|.++.+.++.+++.|++.||+.+++...+|+||+++.+++.|+...++.++....+..+.+.+++.||++..+|
+T Consensus       108 ~~~~~~~~~~~~~~~~v~~~~~l~pL~~~~~~~~~~~vl~~~~~~a~l~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~~  187 (373)
+T 3AGK_A          108 CFMFSPPEPIRVFYYRTDKRFITDFLEDMVEDNNAIGIIIVERDQATIGLLKGARLEVLKELEGFVPGKHKMGGQSQRRY  187 (373)
+T ss_dssp             EEEEBCSSCCCSCEEEEESSCCCHHHHTTSSCSCEEEEEEEETTEEEEEEEETTEEEEEEEEECCCC------------C
+T ss_pred             EEEEcCCCCceeEEEeeCCcccHHHHHHHhhcCCcEEEEEEeCCcEEEEEEECCeeEEEEEEEeecCCccccCCcchHHH
+Confidence            55677899998878434999999999999999999999999999999999988887766666667777777888888899
+
+
+Q ss_pred             HHHHHhccchhHHHHHhhhhHhhhcCCce----eeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  158 ARLRMEKRHNYVRKVAETAVQLFISGDKV----NVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       158 arlrmekrhnyvrkvaetavqlfisgdkv----nvaglvlagsadfktels  204 (208)
+                      +++.++..++||+++++.+.+++.   ..    +..+|||+|+++..+.|.
+T Consensus       188 ~~~~~~~~~~f~~~v~~~l~~~~~---~~~~~~~~~~lil~G~~~~~~~f~  235 (373)
+T 3AGK_A          188 ERIIEQMVDEFFKKVGEEASNLLV---PLAEKGVLKGVIVAGPGLAKQEFV  235 (373)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHH---HHHHTTCEEEEEEEESTTHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcc---chhhcCCccEEEEEechhHHHHHH
+Confidence            999999999999999999999984   23    568999999999988877
+
+
+No 9
+>3VMF_B Elongation factor 1-alpha, Peptide chain; translation termination, TRANSLATION; HET: GTP; 2.3A {Aeropyrum pernix}
+Probab=99.63  E-value=6.5e-15  Score=115.71  Aligned_cols=195  Identities=30%  Similarity=0.524  Sum_probs=142.5  Template_Neff=10.000
+
+Q ss_pred             CeEEEECCHHH---HHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhcCCCCCCeEEEeceEEcCCCcEEEE
+Q tr|I3L492|I3L4    1 MISLIIPPKDQ---ISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYNKVPPNGLVVYCGTIVTEEGKEKKV   77 (208)
+Q Consensus         1 misliippkdq---isrvakmladefgtasniksrvnrlsvlgaitsvqqrlklynkvppnglvvycgtivteegkekkv   77 (208)
+                      |+|+|+|+++.   ....+++..+.+..   ..+...++.+...++.+.+.++.++....+|+|+|+|+...   ....+
+T Consensus        34 ~iSlyl~~~~~~~~~~~~l~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~glaif~~~~~~---~~~~~  107 (373)
+T 3VMF_B           34 LLSLYIPPGRPLSDVMTLLRQEYSITDN---IKLKRTRQAVKRALSAAMDRLQMLTSTPPNGLVLFCGEDMS---TGKFE  107 (373)
+T ss_dssp             EEEEEECTTCCHHHHHHHHHHHHHHGGG---CCCHHHHHHHHHHHHHHHHHHHTCSSCCTTCEEEEEEECTT---TCCEE
+T ss_pred             eEEEEeCCCCCHHHHHHHHHHHHHhhHh---cccHHHHHHHHHHHHHHHHHHHhccCCCCCCeEEEEEecCC---CCcEE
+Confidence            68999999863   33344444444322   12334455667778888888877777788999999987610   11224
+
+
+Q ss_pred             eecCCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHH
+Q tr|I3L492|I3L4   78 NIDFEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRF  157 (208)
+Q Consensus        78 nidfepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrf  157 (208)
+                      ++.+.+|.++.+.++.+++.|++.||+.+++...+|+||+++.+++.|+...++.++....+..+.+.+++.||++..+|
+T Consensus       108 ~~~~~~~~~~~~~~~~v~~~~~l~pL~~~~~~~~~~~vl~~~~~~a~l~~~~~~~~~~~~~~~~~~~~~~~~gg~~~~~~  187 (373)
+T 3VMF_B          108 CFMFSPPEPIRVFYYRTDKRFITDFLEDMVEDNNAIGIIIVERDQATIGLLKGARLEVLKELEGFVPGKHKMGGQSQRRY  187 (373)
+T ss_dssp             EEEEBCSSCCCSCEEEEESSCCCHHHHHHHCCSCEEEEEEECSSEEEEEEEETTEEEEEEEEECCCCC------------
+T ss_pred             EEEEcCCCCceeEEEeeCCcccHHHHHHHhhcCCcEEEEEEeCCcEEEEEEECCeeEEEEEEEeecCCccccCCcchHHH
+Confidence            55777899998878434999999999999999999999999999999999988887766666667777777888888899
+
+
+Q ss_pred             HHHHHhccchhHHHHHhhhhHhhhcCCce----eeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  158 ARLRMEKRHNYVRKVAETAVQLFISGDKV----NVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       158 arlrmekrhnyvrkvaetavqlfisgdkv----nvaglvlagsadfktels  204 (208)
+                      +++.++..++||+++++.+.+++.   ..    +..+|||+|+++..+.|.
+T Consensus       188 ~~~~~~~~~~f~~~v~~~l~~~~~---~~~~~~~~~~lil~G~~~~~~~f~  235 (373)
+T 3VMF_B          188 ERIIEQMVDEFFKKVGEEASNLLV---PLAEKGVLKGVIVAGPGLAKQEFV  235 (373)
+T ss_dssp             CCCCCCCHHHHHHHHHHHHHHHHH---HHHHTTCEEEEEEEESTTHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcc---chhhcCCccEEEEEechhHHHHHH
+Confidence            999999999999999999999984   23    568999999999988877
+
+
+No 10
+>4AF1_A PEPTIDE CHAIN RELEASE FACTOR SUBUNIT; HYDROLASE, TRANSLATION; 2.0A {HALOBACTERIUM SALINARUM}
+Probab=99.51  E-value=3.5e-13  Score=107.97  Aligned_cols=198  Identities=33%  Similarity=0.562  Sum_probs=154.3  Template_Neff=9.900
+
+Q ss_pred             CeEEEECCHHH---HHHHHHHHHHHHCCchhhhhhchhhhhccccccHHHHHHHhc-CCCCCCeEEEeceEEcCCCcEEE
+Q tr|I3L492|I3L4    1 MISLIIPPKDQ---ISRVAKMLADEFGTASNIKSRVNRLSVLGAITSVQQRLKLYN-KVPPNGLVVYCGTIVTEEGKEKK   76 (208)
+Q Consensus         1 misliippkdq---isrvakmladefgtasniksrvnrlsvlgaitsvqqrlklyn-kvppnglvvycgtivteegkekk   76 (208)
+                      |+|+|+|+++.   ....+++..+.+...   .++...+.+.+.++++.+.++.++ ..+.+|+|||++....+.....+
+T Consensus        34 ~vSiyl~~~~~~~~~~~~l~~~~~~~~~~---~~~~~~~~~~~~l~~l~~~l~~~~~~~~~~glaif~~~~~~~~~~~~~  110 (416)
+T 4AF1_A           34 LVTIYIPPDKQISDVVAHVTQEHSEASNI---KSKQTRTNVQDALTSIKDRLRYYDTFPPDNGMVVFSGAVDSGGGRTDM  110 (416)
+T ss_dssp             EEEEEECTTSCHHHHHHHHHHHHHHGGGC---SSHHHHHHHHHHHHHHHHHGGGSCSSCSTTCEEEEEEEEECSTTCEEE
+T ss_pred             eEEEEeCCCCCHHHHHHHHHHHHHHHhhC---CCHHHHHHHHHHHHHHHHHHhhcCCCCCCCcEEEEEeeccCCCCceee
+Confidence            68999999873   444555555444322   345566777788888888887665 57889999999987322222223
+
+
+Q ss_pred             Eee-cCCCCCCCCceEEEeCCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHH
+Q tr|I3L492|I3L4   77 VNI-DFEPFKPINTSLYLCDNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSAL  155 (208)
+Q Consensus        77 vni-dfepfkpintslylcdnkfhtealtallsddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsal  155 (208)
+                      +.+ ++.++.++.+.++.+++.|++.||+..++...+|+||+++++.+.|+...+..++.+..+..+.++++..||++..
+T Consensus       111 ~~~~~~~l~~~~~~~~~~v~~~f~l~pL~~~~~~~~~~~vl~l~~~~~~l~~~~~~~i~~~~~~~~~~~~~~~~gg~~~~  190 (416)
+T 4AF1_A          111 VTEVLESPPQPIESFRYHCDSAFLTEPLAEMLGDKGLYGLIVLDRRESNVGWLKGKRVQPVKSAESLVPGKQRKGGQSAQ  190 (416)
+T ss_dssp             EEEEEECCSSCCCSCEEEEESSCCCTTTTTTTSCCCEEEEEEECSSEEEEEEEETTEEEEEEEEECCSCCCCCCCTTCCC
+T ss_pred             EEEEEECCCCCCccceeeeCCceeHHHHHHHhcccCeEEEEEEeCCcEEEEEEeCCeeEEEEEEEEeCCCcccCCCCchh
+Confidence            333 4455889988884339999999999999999999999999999999998888776666666677777778888888
+
+
+Q ss_pred             HHHHHHHhccchhHHHHHhhhhHhhhcCCc--eeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  156 RFARLRMEKRHNYVRKVAETAVQLFISGDK--VNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       156 rfarlrmekrhnyvrkvaetavqlfisgdk--vnvaglvlagsadfktels  204 (208)
+                      +|+++.++..++||+.|++.+.+++.   .  .+..+|||+|++...+.|.
+T Consensus       191 ~~~~~~e~~~~~f~~~v~~~l~~~~~---~~~~~~~~lvl~G~~~~~~~f~  238 (416)
+T 4AF1_A          191 RFARLRLEAIDNFYQEVAGMADDLFV---PKRHEIDGILVGGPSPTKDEFL  238 (416)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHT---TTTTTEEEEEEEESHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhc---ccccCCCEEEEEcChhhHHHHh
+Confidence            89999999999999999999999984   3  4568999999998888877
+
+
+No 11
+>2HST_A Termination of protein synthesis, peptidyl-tRNA; NMR {Homo sapiens} SCOP: c.55.4.2
+Probab=98.62  E-value=7.6e-08  Score=67.12  Aligned_cols=98  Identities=100%  Similarity=1.400  Sum_probs=80.8  Template_Neff=9.900
+
+Q ss_pred             CCCCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCcee
+Q tr|I3L492|I3L4  108 SDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVN  187 (208)
+Q Consensus       108 sddskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvn  187 (208)
+                      +.+.+++++++|++++.++......++....+....+++...+|++..++++..++...+|++++++.+.+.+.......
+T Consensus         2 ~~~~~~~vv~vd~~~a~i~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~v~~~l~~~~~~~~~~~   81 (143)
+T 2HST_A            2 SDDSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVN   81 (143)
+T ss_dssp             CSCCEEEEEEEETTEEEEEEEETTEEEEEEEECCCCSSCSSSSSSCHHHHHHHHHHHHHHHHHHHHHHHHHHHEETTEEC
+T ss_pred             CCcceEEEEEEeCCcEEEEEEeCCceEEEEEEEEECCccccCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCCC
+Confidence            56788999999999999988887766655566667777777788999999999999999999999999999984100045
+
+
+Q ss_pred             eeeEEEecCcccccccCC
+Q tr|I3L492|I3L4  188 VAGLVLAGSADFKTELSQ  205 (208)
+Q Consensus       188 vaglvlagsadfktelsq  205 (208)
+                      .+.|+|+|++.....|.+
+T Consensus        82 ~~~lii~G~~~~~~~~~~   99 (143)
+T 2HST_A           82 VAGLVLAGSADFKTELSQ   99 (143)
+T ss_dssp             CSSEEEEEGGGHHHHHCT
+T ss_pred             cceEEEEeCHHHHHHHhc
+Confidence            789999999999888873
+
+
+No 12
+>4CRM_X TRANSLATION INITIATION FACTOR RLI1, EUKARYOTIC; TRANSLATION, TERMINATION, RECYCLING; HET: ADP, ATP, SF4; 8.75A {SACCHAROMYCES CEREVISIAE}
+Probab=98.39  E-value=5e-07  Score=69.54  Aligned_cols=97  Identities=81%  Similarity=1.243  Sum_probs=79.9  Template_Neff=9.900
+
+Q ss_pred             CCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeee
+Q tr|I3L492|I3L4  110 DSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVA  189 (208)
+Q Consensus       110 dskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnva  189 (208)
+                      +.+|+|+++|++.+.|+...+..++....+..+.++++..+|++..+|+++.++..++||+++++.+.+++...+....+
+T Consensus         1 ~~~~~vv~ld~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~e~~~~~f~~~v~~~l~~~~~~~~~~~~~   80 (282)
+T 4CRM_X            1 DDKFGFIVMDGQGTLFGSVSGNTRTVLHKFTVDLPKKHGRGGQSALRFARLREEKRHNYVRKVAEVAVQNFITNDKVNVK   80 (282)
+T ss_dssp             CCCEEEEEECSSCEEEEEEETTEEEEEEEECCCCCCTTSSCCTTTTHHHHHHHHHHHHHHHHHHHHHHHHHCSSSSCSSS
+T ss_pred             CCeEEEEEEeCCcEEEEEEeCCeeEEEEEEEecCCCcccCCCccHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCcccCC
+Confidence            36899999999999998888887776566667788887788888999999999999999999999999998421011557
+
+
+Q ss_pred             eEEEecCcccccccCCC
+Q tr|I3L492|I3L4  190 GLVLAGSADFKTELSQS  206 (208)
+Q Consensus       190 glvlagsadfktelsqs  206 (208)
+                      +|||+|+......|.+.
+T Consensus        81 ~lil~G~~~~~~~f~~~   97 (282)
+T 4CRM_X           81 GLILAGSADFKTDLAKS   97 (282)
+T ss_dssp             CEEEECSSGGGHHHHTS
+T ss_pred             eEEEEeChHHHHHHHhc
+Confidence            99999999998888764
+
+
+No 13
+>3MCA_B Elongation factor 1 alpha-like protein; protein protein complex, Translation regulation; 2.74A {Schizosaccharomyces pombe}
+Probab=98.28  E-value=2.6e-06  Score=69.05  Aligned_cols=136  Identities=15%  Similarity=0.120  Sum_probs=95.2  Template_Neff=9.700
+
+Q ss_pred             CCCCCeEE-----EeceEEcCCCcEEEEeecCCCCCCCCceEEEeCCcccHHHHHHHhCCC--CCcEEEEEcCCCcEEEE
+Q tr|I3L492|I3L4   55 VPPNGLVV-----YCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDNKFHTEALTALLSDD--SKFGFIVIDGSGALFGT  127 (208)
+Q Consensus        55 vppnglvv-----ycgtivteegkekkvnidfepfkpintslylcdnkfhtealtallsdd--skfgfividgsgalfgt  127 (208)
+                      ....++++     |+++..   ..+.+|++.+.++.++.-.... ++.|++.||+..+...  .+++||+++++.++++.
+T Consensus        76 ~~~~~l~i~G~iv~~~~~~---~~g~~~~l~i~~~~~v~v~k~~-~~~f~l~pL~~~~~~~~~~~~~vl~ld~~~a~l~~  151 (390)
+T 3MCA_B           76 TKAAQLHIKGRTTEYHPEV---KMGSYHTLDLELHRNFTLYKNE-WDAFALDRVDAACNPSRNAEIGAVVLDEGLANICL  151 (390)
+T ss_dssp             TTSSCEEEC-CBCSCCC------CCSCCCCCCCSSSCCBCC-CC-CCHHHHHHHTTSSSCC--CCEEEEEEETTEEEEEE
+T ss_pred             CCCCEEEEEEEecCCCCcc---cCCCceeeEeeCCCcEEEEecc-cCHHHHHHHHHHcCCCCCCcEEEEEEcCCeEEEEE
+Confidence            34455655     887541   1334455555555544422222 4789999999999887  78999999999999999
+
+
+Q ss_pred             ecCChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  128 LQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       128 lqgntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      ..+..+..+..++.+.|++. .||++      ..++..++||++|++.+.+.+.   ..++.+|||+|++...+.|.
+T Consensus       152 ~~~~~i~~~~~~~~~~~~k~-~gg~~------~~~~~~~~f~~~v~~~l~~~~~---~~~~~~lilaG~~~~~~~f~  218 (390)
+T 3MCA_B          152 ITDYMTILRQRIDQVIPRKR-RGDSS------AYQKGLDKFYDSVFQSINSEFD---FDKLKVVILASPGFVARGLY  218 (390)
+T ss_dssp             ECSSCEEEEEEEECCCCCCB-TTBCH------HHHHHHHHHHHHHHHHHHHHCC---TTTCSEEEEEESSSHHHHHH
+T ss_pred             EeCCeEEEEEEEEecCCCcc-cCCch------HHHHHHHHHHHHHHHHHHhhCC---HhhCCEEEEECChHHHHHHH
+Confidence            98887766555666666654 34433      2456778999999999999983   34567999999998877654
+
+
+No 14
+>2VGN_A DOM34; TRANSLATION TERMINATION FACTOR, PROTEIN BIOSYNTHESIS; HET: GOL, MSE; 2.505A {Saccharomyces cerevisiae} SCOP: c.55.4.2, d.79.3.2, b.38.4.1
+Probab=98.24  E-value=4e-06  Score=67.69  Aligned_cols=121  Identities=14%  Similarity=0.112  Sum_probs=82.7  Template_Neff=9.800
+
+Q ss_pred             EEEEeecCCCCCCCCceEEEeCCcccHHHHHHHhCC--CCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCch
+Q tr|I3L492|I3L4   74 EKKVNIDFEPFKPINTSLYLCDNKFHTEALTALLSD--DSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGG  151 (208)
+Q Consensus        74 ekkvnidfepfkpintslylcdnkfhtealtallsd--dskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrgg  151 (208)
+                      ..+|++.+.++.++.-... .++.|++.||..++..  ..+++||+++.+.+.++...+..++....+....|+++..||
+T Consensus       102 g~~~~l~i~~~~~v~i~k~-~~~~~~l~~L~~~~~~~~~~~~~vl~ld~~~a~l~~~~~~~~~~~~~i~~~~p~~~~~g~  180 (386)
+T 2VGN_A          102 GKYLSFTLDYVYPFTIIKQ-NFNKFMQKLLNEACNIEYKSDTAAVVLQEGIAHVCLVTSSSTILKQKIEYSMPKKKRTTD  180 (386)
+T ss_dssp             TCEEEEECCSSSCEEEEES-CCCHHHHHHHHHTTCTTTTTCEEEEEEETTEEEEEEECSSCEEEEEEEEC---------C
+T ss_pred             CCeEEEEeeCCCcEEEEEc-cCCHHHHHHHHHHccccCCCCEEEEEEeCCeEEEEEEeCCeEEEEEEEEEcCCCccCCCC
+Confidence            3556655555544432111 1578999999999887  778999999999999999888777655555555666554444
+
+
+Q ss_pred             HHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  152 QSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       152 qsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      ++      ..++..++||+++++.+.+.+.   ..+..+|||+|++...+.|.
+T Consensus       181 ~~------~~~~~~~~f~~~v~~~l~~~~~---~~~~~~lilaG~~~~~~~f~  224 (386)
+T 2VGN_A          181 VL------KFDEKTEKFYKAIYSAMKKDLN---FDKLKTIILCSPGFYAKILM  224 (386)
+T ss_dssp             CS------SCCHHHHHHHHHHHHHHHHHCC---TTTCSEEEEEESTTHHHHHH
+T ss_pred             cc------hhHHHHHHHHHHHHHHHHHhCC---hhhCCEEEEecChHHHHHHH
+Confidence            32      2456678999999999999983   34557999999988777664
+
+
+No 15
+>3J16_A Dom34p, Rli1p, 60S ribosomal protein; ribosome recycling, translation, eukarya, RIBOSOME; HET: ATP, SF4; 7.2A {Saccharomyces cerevisiae}
+Probab=98.24  E-value=4e-06  Score=67.69  Aligned_cols=113  Identities=13%  Similarity=0.077  Sum_probs=85.6  Template_Neff=9.800
+
+Q ss_pred             CCCCCCceEEEe---CCcccHHHHHHHhCC--CCCcEEEEEcCCCcEEEEecCChHHHHHHccccCCccCCCchHHHHHH
+Q tr|I3L492|I3L4   83 PFKPINTSLYLC---DNKFHTEALTALLSD--DSKFGFIVIDGSGALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRF  157 (208)
+Q Consensus        83 pfkpintslylc---dnkfhtealtallsd--dskfgfividgsgalfgtlqgntrevlhkftvdlpkkhgrggqsalrf  157 (208)
+                      ++.++.+.+.+.   ++.|++.||..++..  ..+++||+++.+.+.++...+..++....+....|+++..||++.   
+T Consensus       107 l~i~~~~~v~i~k~~~~~~~l~~L~~~~~~~~~~~~~vl~ld~~~a~l~~~~~~~~~~~~~i~~~~p~~~~~g~~~~---  183 (386)
+T 3J16_A          107 FTLDYVYPFTIIKQNFNKFMQKLLNEACNIEYKSDTAAVVLQEGIAHVCLVTSSSTILKQKIEYSMPKKKRTTDVLK---  183 (386)
+T ss_dssp             EECCSSSCEEEEESCCCHHHHHTTTTCCCSSCCCCCCEEEECSSCEEECCCCSSSSCCSCCCCCCCCCCCSSSSTTH---
+T ss_pred             EEeeCCCcEEEEEccCCHHHHHHHHHHccccCCCCEEEEEEeCCeEEEEEEeCCeEEEEEEEEEcCCCccCCCCcch---
+Confidence            333444444442   578999999999876  778999999999999999888777666556666677665555432   
+
+
+Q ss_pred             HHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  158 ARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       158 arlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                         .++..++||+++++.+.+.+.   ..+..+|||+|++...+.|.
+T Consensus       184 ---~~~~~~~f~~~v~~~l~~~~~---~~~~~~lilaG~~~~~~~f~  224 (386)
+T 3J16_A          184 ---FDEKTEKFYKAIYSAMKKDLN---FDKLKTIILCSPGFYAKILM  224 (386)
+T ss_dssp             ---HHHHHHHHHHHHHHHHHHHSC---SSSCCCEEEECSSTHHHHHH
+T ss_pred             ---hHHHHHHHHHHHHHHHHHhCC---hhhCCEEEEecChHHHHHHH
+Confidence               456678999999999999983   34557999999988777664
+
+
+No 16
+>5LZX_ii uL2, Ul3, uL4, 60S ribosomal; Translation, Elongation, Ribosome; HET: GCP, MG; 3.67A {Oryctolagus cuniculus}
+Probab=97.74  E-value=0.00016  Score=60.13  Aligned_cols=134  Identities=11%  Similarity=0.064  Sum_probs=97.4  Template_Neff=9.300
+
+Q ss_pred             CCCCCCeE-----EEeceEEcCCCcEEEEeecCCCCCCCCceEEEeCC----cccHHHHHHHhCCC--CCcEEEEEcCCC
+Q tr|I3L492|I3L4   54 KVPPNGLV-----VYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDN----KFHTEALTALLSDD--SKFGFIVIDGSG  122 (208)
+Q Consensus        54 kvppnglv-----vycgtivteegkekkvnidfepfkpintslylcdn----kfhtealtallsdd--skfgfividgsg  122 (208)
+                      .....|++     +|+++.   ...+.    .+.++.++.+.+.+ +.    .|++.||+.++...  .+|+||++|++.
+T Consensus        75 ~~~~~~L~i~G~ii~~~~~---~~~g~----~~~l~i~~~~~v~v-~~~~w~~f~l~pL~~~~~~~~~~~~~vl~ld~~~  146 (403)
+T 5LZX_ii          75 DSQACQLRVKGTNIQENEY---VKMGA----YHTIELEPNRQFTL-AKKQWDSVVLERIEQACDPAWSADVAAVVMQEGL  146 (403)
+T ss_pred             eCCCCEEEEEEEEecCCCc---cccCc----eEEEEEcCCCeEEE-EEcCCCHHHHHHHHHHcCccCCCCeEEEEEeCCe
+Confidence            33444555     998765   11234    34555566666666 44    79999999998776  479999999999
+
+
+Q ss_pred             cEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccc
+Q tr|I3L492|I3L4  123 ALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTE  202 (208)
+Q Consensus       123 alfgtlqgntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfkte  202 (208)
+                      ++|+...+..++.+..++.+.+++. .||++      ..++...+||++|++.|.+++.   ..+..+|||+|++...+.
+T Consensus       147 a~l~~~~~~~~~~~~~~~~~~~~~~-~gg~~------~~~~~~~~f~~~v~~~l~~~~~---~~~~~~lIlaG~~~~~~~  216 (403)
+T 5LZX_ii         147 AHICLVTPSMTLTRAKVEVNIPRKR-KGNCS------QHDRALERFYEQVVQAIQRHIH---FDVVKCILVASPGFVREQ  216 (403)
+T ss_pred             EEEEEEcCCeEEEEEEEEEcCCCcc-CCCcc------HHHHHHHHHHHHHHHHHHHhcc---cccCcEEEEEcChHHHHH
+Confidence            9999988887776666666555543 23332      3566788999999999999983   345679999999988887
+
+
+Q ss_pred             cCC
+Q tr|I3L492|I3L4  203 LSQ  205 (208)
+Q Consensus       203 lsq  205 (208)
+                      |.+
+T Consensus       217 f~~  219 (403)
+T 5LZX_ii         217 FCD  219 (403)
+T ss_pred             HHH
+Confidence            765
+
+
+No 17
+>5LZZ_ii uL2, uL3, Uncharacterized protein,uL4, uL18; Translation, Elongation, Ribosome; HET: GCP, MG; 3.47A {Oryctolagus cuniculus}
+Probab=97.74  E-value=0.00016  Score=60.13  Aligned_cols=134  Identities=11%  Similarity=0.064  Sum_probs=97.4  Template_Neff=9.300
+
+Q ss_pred             CCCCCCeE-----EEeceEEcCCCcEEEEeecCCCCCCCCceEEEeCC----cccHHHHHHHhCCC--CCcEEEEEcCCC
+Q tr|I3L492|I3L4   54 KVPPNGLV-----VYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDN----KFHTEALTALLSDD--SKFGFIVIDGSG  122 (208)
+Q Consensus        54 kvppnglv-----vycgtivteegkekkvnidfepfkpintslylcdn----kfhtealtallsdd--skfgfividgsg  122 (208)
+                      .....|++     +|+++.   ...+.    .+.++.++.+.+.+ +.    .|++.||+.++...  .+|+||++|++.
+T Consensus        75 ~~~~~~L~i~G~ii~~~~~---~~~g~----~~~l~i~~~~~v~v-~~~~w~~f~l~pL~~~~~~~~~~~~~vl~ld~~~  146 (403)
+T 5LZZ_ii          75 DSQACQLRVKGTNIQENEY---VKMGA----YHTIELEPNRQFTL-AKKQWDSVVLERIEQACDPAWSADVAAVVMQEGL  146 (403)
+T ss_pred             eCCCCEEEEEEEEecCCCc---cccCc----eEEEEEcCCCeEEE-EEcCCCHHHHHHHHHHcCccCCCCeEEEEEeCCe
+Confidence            33444555     998765   11234    34555566666666 44    79999999998776  479999999999
+
+
+Q ss_pred             cEEEEecCChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccc
+Q tr|I3L492|I3L4  123 ALFGTLQGNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTE  202 (208)
+Q Consensus       123 alfgtlqgntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfkte  202 (208)
+                      ++|+...+..++.+..++.+.+++. .||++      ..++...+||++|++.|.+++.   ..+..+|||+|++...+.
+T Consensus       147 a~l~~~~~~~~~~~~~~~~~~~~~~-~gg~~------~~~~~~~~f~~~v~~~l~~~~~---~~~~~~lIlaG~~~~~~~  216 (403)
+T 5LZZ_ii         147 AHICLVTPSMTLTRAKVEVNIPRKR-KGNCS------QHDRALERFYEQVVQAIQRHIH---FDVVKCILVASPGFVREQ  216 (403)
+T ss_pred             EEEEEEcCCeEEEEEEEEEcCCCcc-CCCcc------HHHHHHHHHHHHHHHHHHHhcc---cccCcEEEEEcChHHHHH
+Confidence            9999988887776666666555543 23332      3566788999999999999983   345679999999988887
+
+
+Q ss_pred             cCC
+Q tr|I3L492|I3L4  203 LSQ  205 (208)
+Q Consensus       203 lsq  205 (208)
+                      |.+
+T Consensus       217 f~~  219 (403)
+T 5LZZ_ii         217 FCD  219 (403)
+T ss_pred             HHH
+Confidence            765
+
+
+No 18
+>2QI2_A Cell division protein pelota related; Pelota, Dom34, CELL CYCLE; 2.9A {Thermoplasma acidophilum} SCOP: c.55.4.2, d.79.3.2, b.38.4.1
+Probab=97.36  E-value=0.00078  Score=54.24  Aligned_cols=122  Identities=9%  Similarity=0.070  Sum_probs=80.6  Template_Neff=9.700
+
+Q ss_pred             CCCCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEe--CCcccHHHHHHHhCCC--CCcEEEEEcCCCcEEEEecCC
+Q tr|I3L492|I3L4   56 PPNGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLC--DNKFHTEALTALLSDD--SKFGFIVIDGSGALFGTLQGN  131 (208)
+Q Consensus        56 ppnglvvycgtivteegkekkvnidfepfkpintslylc--dnkfhtealtallsdd--skfgfividgsgalfgtlqgn  131 (208)
+                      ..+|+++|+++..    .+..++    ++.++.+.+.+.  ++.|++.||+.+++..  .+|+||++|++.+.|+...+.
+T Consensus        80 ~~~G~~if~~~~~----~~~~~~----l~~~~~~~v~v~~~~~~~~l~pL~~~~~~~~~~~~~vl~ld~~~a~l~~~~~~  151 (347)
+T 2QI2_A           80 RILGTVIEGPEDT----KGKHQS----ITVTVDSEISITKEWDDQHIDLLKEATDEKYVTVYTAVAMDEDEAQIFLIHPY  151 (347)
+T ss_dssp             EECC-------------CCSEEE----EEECTTCEEEEESCCCHHHHHHHHHHTCHHHHCCEEEEEECSSEEEEEEECSS
+T ss_pred             EEEEEEEeCCccc----CCCcEE----EEEeCCCeEEEEEcCCHHHHHHHHHhccccCCccEEEEEEcCCceEEEEEecc
+Confidence            3456699998751    233333    344555666662  2899999999999888  899999999999999998887
+
+
+Q ss_pred             hHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  132 TREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       132 trevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      .++.+..++...|++         ++  +.++..++||+++++.+.+++        .+|||+|+++..+.|.
+T Consensus       152 ~~~~~~~~~~~~~~k---------~~--~~~~~~~~f~~~v~~~l~~~~--------~~lilaG~~~~~~~f~  205 (347)
+T 2QI2_A          152 GIQQVGTVYSGRSGK---------YA--EGNYSEASYFDQIVNALKNYS--------NSIIILGPGFARDRFA  205 (347)
+T ss_dssp             CEEEEEEEECCHHHH---------C------CCHHHHHHHHHHHHHTCC--------SCEEEEESSSHHHHHH
+T ss_pred             eeEEEEEEEeCCCCC---------cc--cCchhhHHHHHHHHHHHHhhC--------CcEEEEcCchhHHHHH
+Confidence            766554443322221         12  456778899999999999874        5899999998777665
+
+
+No 19
+>3OBY_A Protein pelota homolog (E.C.3.1.-.-); Sm fold, Hydrolase; 2.9A {Archaeoglobus fulgidus}
+Probab=97.30  E-value=0.00048  Score=55.51  Aligned_cols=118  Identities=17%  Similarity=0.121  Sum_probs=84.0  Template_Neff=9.700
+
+Q ss_pred             CCCCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEeCCc---ccHHHHHHHhCCCC--CcEEEEEcCCCcEEEEecC
+Q tr|I3L492|I3L4   56 PPNGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDNK---FHTEALTALLSDDS--KFGFIVIDGSGALFGTLQG  130 (208)
+Q Consensus        56 ppnglvvycgtivteegkekkvnidfepfkpintslylcdnk---fhtealtallsdds--kfgfividgsgalfgtlqg  130 (208)
+                      ..+|+++|+ ..     .+.++    .++.++.+.+.+ +..   |++.||...+....  +|+||+++++.+.|+...+
+T Consensus        80 ~~~G~~if~-~~-----~~~~~----~l~~~~~~~v~v-~~~~~~~~l~~L~~~~~~~~~~~~~vl~ld~~~a~l~~~~~  148 (352)
+T 3OBY_A           80 RVSGKIVAG-IE-----ESGYH----TLNITVGKELSI-IKKWKPEQLERLRRAVEDSNRPEIVMLTIEEGYAVAGVLRQ  148 (352)
+T ss_dssp             EEEEEEEEC----------CEE----EEEECTTCCEEE-EEECCHHHHHHHHHHHTTSCCCCEEEEEEETTEEEEEEEET
+T ss_pred             cccEEEEEe-ee-----CCCcE----EEEEeCCCeEEE-EECCCHHHHHHHHHHhhccCCCeEEEEEEeCCcEEEEEEec
+Confidence            568999999 44     33433    344456666777 666   99999999988755  9999999999999998888
+
+
+Q ss_pred             ChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCC
+Q tr|I3L492|I3L4  131 NTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQ  205 (208)
+Q Consensus       131 ntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsq  205 (208)
+                      ..++.+..+.. .|+++             .++..++||++|++.+.++ .      ..+|||+|+++..+.|.+
+T Consensus       149 ~~~~~~~~~~~-~~~k~-------------~~~~~~~f~~~v~~~l~~~-~------~~~lvlaG~~~~~~~f~~  202 (352)
+T 3OBY_A          149 WGVEEIFEERM-GYGKG-------------MGDSRKEFFGEVAAKLESF-D------FKYLIVAGPGFAKNDFLD  202 (352)
+T ss_dssp             TEEEEEEEEEC----------------------CCCCHHHHHHHHHHHH-C------CSEEEEECSTTHHHHHHH
+T ss_pred             ceeEEEEEEEe-cCCCC-------------chHHHHHHHHHHHHHHhhC-C------CCeEEEEcChHHHHHHHH
+Confidence            77665444433 22221             4677899999999999988 2      369999999988877653
+
+
+No 20
+>3OBY_B Protein pelota homolog (E.C.3.1.-.-); Sm fold, Hydrolase; 2.9A {Archaeoglobus fulgidus}
+Probab=97.30  E-value=0.00048  Score=55.51  Aligned_cols=118  Identities=17%  Similarity=0.121  Sum_probs=82.4  Template_Neff=9.700
+
+Q ss_pred             CCCCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEeCCc---ccHHHHHHHhCCCC--CcEEEEEcCCCcEEEEecC
+Q tr|I3L492|I3L4   56 PPNGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDNK---FHTEALTALLSDDS--KFGFIVIDGSGALFGTLQG  130 (208)
+Q Consensus        56 ppnglvvycgtivteegkekkvnidfepfkpintslylcdnk---fhtealtallsdds--kfgfividgsgalfgtlqg  130 (208)
+                      ..+|+++|+ ..     .+.++    .++.++.+.+.+ +..   |++.||...+....  +|+||+++++.+.|+...+
+T Consensus        80 ~~~G~~if~-~~-----~~~~~----~l~~~~~~~v~v-~~~~~~~~l~~L~~~~~~~~~~~~~vl~ld~~~a~l~~~~~  148 (352)
+T 3OBY_B           80 RVSGKIVAG-IE-----ESGYH----TLNITVGKELSI-IKKWKPEQLERLRRAVEDSNRPEIVMLTIEEGYAVAGVLRQ  148 (352)
+T ss_dssp             EEEEEECC----------CCEE----EEEECTTCCEEE-EEECCHHHHHHHHHHHHTTCCCCEEEEEEETTEEEEEEECS
+T ss_pred             cccEEEEEe-ee-----CCCcE----EEEEeCCCeEEE-EECCCHHHHHHHHHHhhccCCCeEEEEEEeCCcEEEEEEec
+Confidence            568999999 44     33433    344456666777 666   99999999987755  9999999999999999888
+
+
+Q ss_pred             ChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccCC
+Q tr|I3L492|I3L4  131 NTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELSQ  205 (208)
+Q Consensus       131 ntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktelsq  205 (208)
+                      ..++.+..+.. .|+++             .++..++||++|++.+.++ .      ..+|||+|+++..+.|.+
+T Consensus       149 ~~~~~~~~~~~-~~~k~-------------~~~~~~~f~~~v~~~l~~~-~------~~~lvlaG~~~~~~~f~~  202 (352)
+T 3OBY_B          149 WGVEEIFEERM-GYGKG-------------MGDSRKEFFGEVAAKLESF-D------FKYLIVAGPGFAKNDFLD  202 (352)
+T ss_dssp             SCEECCCEEEC-CC---------------------CCTHHHHHHHHHHH-C------CSEEEEECSTTHHHHHHH
+T ss_pred             ceeEEEEEEEe-cCCCC-------------chHHHHHHHHHHHHHHhhC-C------CCeEEEEcChHHHHHHHH
+Confidence            77665544433 33221             4567899999999999988 2      369999999988877653
+
+
+No 21
+>3WXM_B Elongation factor 1-alpha, Protein pelota; mRNA surveillance, Ribosome, TRANSLATION-HYDROLASE complex; HET: GTP; 2.3A {Aeropyrum pernix K1}
+Probab=97.19  E-value=0.0013  Score=54.14  Aligned_cols=127  Identities=20%  Similarity=0.213  Sum_probs=92.2  Template_Neff=9.400
+
+Q ss_pred             CCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEe----CCcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChH
+Q tr|I3L492|I3L4   58 NGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLC----DNKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTR  133 (208)
+Q Consensus        58 nglvvycgtivteegkekkvnidfepfkpintslylc----dnkfhtealtallsddskfgfividgsgalfgtlqgntr  133 (208)
+                      +|+++|++....  ..+.+|++.+    ++.+.+.+.    ++.|++.||..+.+ ..+|+||+++.+.+.|+...+..+
+T Consensus        97 ~G~ii~~~~~~~--~~g~~~~l~~----~~~~~v~i~k~~~w~~~~l~~L~~~~~-~~~~~vl~ld~~~a~l~~~~~~~~  169 (376)
+T 3WXM_B           97 SGIVVEGPDEFG--VKGRRHSTAV----SIGTWLVVERDKGWSEQELERLASGRA-RGTAVIAAVDYDEFALAVLAGHGM  169 (376)
+T ss_dssp             EEEEEECCGGGC--CTTSEEEEEE----ETTCCEEEECTTCCCHHHHHHHHHCCC-CCEEEEEEECSSEEEEEEEETTEE
+T ss_pred             EEEEEeCCcccc--cCCCcEEEEE----eCCCeEEEEECCCCCHHHHHHHHHhhh-cCcEEEEEEcCCeEEEEEEeCCee
+Confidence            499999976410  1234454444    444455552    24999999999987 889999999999999999988877
+
+
+Q ss_pred             HHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  134 EVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       134 evlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      +.+..++...|+++.          +..+...++||+++++.+.+.+.   ..+..+|||+|++...+.|.
+T Consensus       170 ~~i~~~~~~~~~k~~----------~~~e~~~~~f~~~v~~~l~~~~~---~~~~~~lvlaG~~~~~~~f~  227 (376)
+T 3WXM_B          170 KILEDTSARLPGKDD----------PSREQEVEKYVDRAAKRIVEEAA---RHRSPIAVIAGPGQLKTSVA  227 (376)
+T ss_dssp             EEEEEEECCCCCTTS----------TTHHHHHHHHHHHHHHHHHHHHH---HHTCSEEEEEESTTHHHHHH
+T ss_pred             EEEEEEEecCCCCCC----------cchHHHHHHHHHHHHHHHHHHHH---hcCCCEEEEECCHHHHHHHH
+Confidence            766566655554422          13455678999999999999984   33457999999998777664
+
+
+No 22
+>3J15_A Protein pelota (E.C.3.1.-.-), ABC transporter; ribosome recycling, ribosome, archaea, TRANSLATION-TRANSPORT; HET: ADP, SF4; 6.6A {Thermococcus kodakarensis}
+Probab=96.98  E-value=0.0028  Score=50.92  Aligned_cols=130  Identities=18%  Similarity=0.176  Sum_probs=92.7  Template_Neff=9.900
+
+Q ss_pred             CCCCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEeCCc----ccHHHHHHHhCCC--CCcEEEEEcCCCcEEEEec
+Q tr|I3L492|I3L4   56 PPNGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCDNK----FHTEALTALLSDD--SKFGFIVIDGSGALFGTLQ  129 (208)
+Q Consensus        56 ppnglvvycgtivteegkekkvnidfepfkpintslylcdnk----fhtealtallsdd--skfgfividgsgalfgtlq  129 (208)
+                      ..+|+++|+|+..  -..+.+|    .++.++.+.+.+ +..    |++.||..++...  ++|+||+++.+.+.|+...
+T Consensus        80 ~~~G~~i~~s~~~--~~~g~~~----~l~~~~~~~v~i-~k~~w~~~~l~~L~~~~~~~~~~~~~vl~ld~~~a~l~~~~  152 (357)
+T 3J15_A           80 RVTGPIVYASRED--VPLGKYH----TIAIEQGTVVTI-QKPRWKEHHIERLKEAVAASKRARVMIVVIDDGEADMALVR  152 (357)
+T ss_dssp             EECCBEEECCCSS--CCCSSBC----CEEECSSCCEEE-CTTCCCHHHHHHHHHSCSSCCCSCCCEEEECSSCEEEEEEE
+T ss_pred             EEEeEEEecCCCc--ccCCCcE----EEEEeCCCeEEE-EeCCCCHHHHHHHHHHHHhccCCcEEEEEEeCCceEEEEEe
+Confidence            4589999996431  0133433    444456666777 666    9999999998774  4899999999999999988
+
+
+Q ss_pred             CChHHHHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  130 GNTREVLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       130 gntrevlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      +..++....+.. .|++...|        +..+...++||+++++.+.+.+.   ..+..+|||+|++...+.|.
+T Consensus       153 ~~~~~~~~~~~~-~~~k~~~g--------~~~~~~~~~f~~~v~~~l~~~~~---~~~~~~lvl~G~~~~~~~f~  215 (357)
+T 3J15_A          153 EYGVEILNSIRH-NLGGKRYN--------TDRESEEMKFFHDVAKTMEEVMK---RENVEKAIVAGPGFVKEDFY  215 (357)
+T ss_dssp             TTEEEEEECCCC-CSCSSSSS--------CCCCHHHHHHHHHHHHHHHHHHH---HHTCCCCEECCSTTHHHHHH
+T ss_pred             cceeEEEEEEEe-cCCCCCCC--------CcchHHHHHHHHHHHHHHHHHHh---hhcCCEEEEEcCHHHHHHHH
+Confidence            887765544443 44443221        12345678999999999999984   33447999999998877665
+
+
+No 23
+>3OBW_A Protein pelota homolog (E.C.3.1.-.-); Sm fold, Hydrolase; 2.6A {Sulfolobus solfataricus}
+Probab=96.00  E-value=0.038  Score=45.31  Aligned_cols=124  Identities=15%  Similarity=0.134  Sum_probs=77.1  Template_Neff=9.600
+
+Q ss_pred             CCeEEEeceEEcCCCcEEEEeecCCCCCCCCceEEEeC---CcccHHHHHHHhCCCCCcEEEEEcCCCcEEEEecCChHH
+Q tr|I3L492|I3L4   58 NGLVVYCGTIVTEEGKEKKVNIDFEPFKPINTSLYLCD---NKFHTEALTALLSDDSKFGFIVIDGSGALFGTLQGNTRE  134 (208)
+Q Consensus        58 nglvvycgtivteegkekkvnidfepfkpintslylcd---nkfhtealtallsddskfgfividgsgalfgtlqgntre  134 (208)
+                      +|+++|++....  ..+.+|+    ++.++.+.+.+..   ..|++.||........+|+||+++.+.+.|+...+..++
+T Consensus        96 ~G~~i~~~~~~~--~~g~~~~----l~~~~~~~v~i~~~~w~~~~l~~L~~~~~~~~~~~vl~ld~~~a~l~~~~~~~~~  169 (364)
+T 3OBW_A           96 HGIIEDAPERFG--IKGAHHT----INLDIGDEIIIIKQQWNKYVLDRLKRQANKRSRIIIALVDFDEYLIAIPFEQGIK  169 (364)
+T ss_dssp             EEEEEECCGGGC--CTTCEEE----EEECTTCEEEEECSCC--------------CCCEEEEEEETTEEEEEEECSSCEE
+T ss_pred             EEEEEeCCcccc--cCCCcEE----EEEeCCCeEEEEEcCCCHHHHHHHHHHhccCCcEEEEEEeCCcEEEEEEecceEE
+Confidence            499999976410  1234344    4445556666622   489999999933458899999999999999999888776
+
+
+Q ss_pred             HHHHccccCCccCCCchHHHHHHHHHHHhccchhHHHHHhhhhHhhhcCCceeeeeEEEecCcccccccC
+Q tr|I3L492|I3L4  135 VLHKFTVDLPKKHGRGGQSALRFARLRMEKRHNYVRKVAETAVQLFISGDKVNVAGLVLAGSADFKTELS  204 (208)
+Q Consensus       135 vlhkftvdlpkkhgrggqsalrfarlrmekrhnyvrkvaetavqlfisgdkvnvaglvlagsadfktels  204 (208)
+                      .+..++...+++              +++..++||+++++.+.+.+.   ..+..+|||+|++...+.|.
+T Consensus       170 ~~~~~~~~~~~k--------------~e~~~~~f~~~v~~~l~~~~~---~~~~~~liiaG~~~~~~~f~  222 (364)
+T 3OBW_A          170 ILSEKSLRPLNE--------------EEGIIEQNALEIATELAEYVK---QYDPDAILLAGPGFFKEEVS  222 (364)
+T ss_dssp             CCCEEECGGGCS--------------STTHHHHHHHHHHHHHHHHHH---HHCCSEEEEECSSSHHHHHH
+T ss_pred             EEEEEEeCCCCc--------------chHHHHHHHHHHHHHHHHHHH---HhCCCcEEEEcCcchHHHHH
+Confidence            554444333322              145578999999999999984   33457999999998776654
+
+
+No 24
+>6UN8_A Kanamycin nucleotidyltransferase (E.C.2.7.7.-); antibiotic resistance, neomycin, TRANSFERASE-ANTIBIOTIC complex; HET: NMY; 1.65A {Staphylococcus aureus}
+Probab=27.05  E-value=1.6e+02  Score=21.45  Aligned_cols=27  Identities=19%  Similarity=0.265  Sum_probs=14.5  Template_Neff=11.700
+
+Q ss_pred             hhHHHHHhhhhHhhhcCCceeeeeEEEecCc
+Q tr|I3L492|I3L4  167 NYVRKVAETAVQLFISGDKVNVAGLVLAGSA  197 (208)
+Q Consensus       167 nyvrkvaetavqlfisgdkvnvaglvlagsa  197 (208)
+                      ..++.+.+.+.+.+.    .+...++++|.-
+T Consensus        14 ~~~~~~~~~l~~~~~----~~v~~i~l~GS~   40 (253)
+T 6UN8_A           14 KIVHEIKERILDKYG----DDVKAIGVYGSL   40 (253)
+T ss_dssp             HHHHHHHHHHHHHHG----GGEEEEEEEHHH
+T ss_pred             HHHHHHHHHHHHHHc----cCeEEEEEEecc
+Confidence            445555555555441    234667777763
+
+
+No 25
+>4AP8_C MOLYBDOPTERIN SYNTHASE CATALYTIC SUBUNIT (E.C.2.8.1.12); TRANSFERASE; HET: GOL; 2.78A {HOMO SAPIENS}
+Probab=25.25  E-value=2.8e+02  Score=20.81  Aligned_cols=14  Identities=14%  Similarity=0.263  Sum_probs=9.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCCeEEEeceE
+Q tr|I3L492|I3L4   54 KVPPNGLVVYCGTI   67 (208)
+Q Consensus        54 kvppnglvvycgti   67 (208)
+                      .....++++|.+..
+T Consensus        28 ~~~~Gai~~f~G~v   41 (135)
+T 4AP8_C           28 SPLCGAISLFVGTT   41 (135)
+T ss_dssp             CTTCSEEEEEEEEC
+T ss_pred             CCCCceEEEEEEEE
+Confidence            34456778877765
+
+
+No 26
+>6EHR_C Ragulator complex protein LAMTOR3, Ragulator; Scaffolding complex, Rag-GTPases, mTOR, Ragulator; 2.898A {Homo sapiens}
+Probab=24.71  E-value=3.2e+02  Score=18.62  Aligned_cols=21  Identities=24%  Similarity=0.387  Sum_probs=14.4  Template_Neff=9.300
+
+Q ss_pred             CCCCCcEEEEEcCCCcEEEEe
+Q tr|I3L492|I3L4  108 SDDSKFGFIVIDGSGALFGTL  128 (208)
+Q Consensus       108 sddskfgfividgsgalfgtl  128 (208)
+                      ....-.+++++|.++..+...
+T Consensus        14 ~~~gV~G~li~d~~Gl~i~s~   34 (91)
+T 6EHR_C           14 KNPSIVGVLCTDSQGLNLGCR   34 (91)
+T ss_dssp             TSSSEEEEEEECTTSCEEEEE
+T ss_pred             cCCCeeEEEEECCCCCeeeEe
+Confidence            334467888999998765553
+
+
+No 27
+>6ULG_C Folliculin, Ragulator complex protein LAMTOR3; FLCN-FNIP2, Rag GTPases, Ragulator, SIGNALING; HET: GNP, GDP;{Homo sapiens}
+Probab=24.71  E-value=3.2e+02  Score=18.62  Aligned_cols=17  Identities=29%  Similarity=0.489  Sum_probs=10.2  Template_Neff=9.300
+
+Q ss_pred             CCcEEEEEcCCCcEEEE
+Q tr|I3L492|I3L4  111 SKFGFIVIDGSGALFGT  127 (208)
+Q Consensus       111 skfgfividgsgalfgt  127 (208)
+                      .-.+++++|.++..+..
+T Consensus        17 gV~G~li~d~~Gl~i~s   33 (91)
+T 6ULG_C           17 SIVGVLCTDSQGLNLGC   33 (91)
+T ss_pred             CeeEEEEECCCCCeeeE
+Confidence            34667777777654433
+
+
+No 28
+>2WP4_A MOLYBDOPTERIN-CONVERTING FACTOR SUBUNIT 2 1; TRANSFERASE; 2.49A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=22.51  E-value=2.8e+02  Score=21.38  Aligned_cols=14  Identities=21%  Similarity=0.667  Sum_probs=8.8  Template_Neff=8.400
+
+Q ss_pred             CCCCCCeEEEeceE
+Q tr|I3L492|I3L4   54 KVPPNGLVVYCGTI   67 (208)
+Q Consensus        54 kvppnglvvycgti   67 (208)
+                      .....+++.|.+..
+T Consensus        31 ~~~~Gav~~F~G~v   44 (147)
+T 2WP4_A           31 GPEQGGIVIFVGNV   44 (147)
+T ss_dssp             CTTCCEEEEEEEEC
+T ss_pred             CCCCcEEEEEEEEe
+Confidence            44556677777665
+
+
+No 29
+>2WP4_B MOLYBDOPTERIN-CONVERTING FACTOR SUBUNIT 2 1; TRANSFERASE; 2.49A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=22.51  E-value=2.8e+02  Score=21.38  Aligned_cols=14  Identities=21%  Similarity=0.667  Sum_probs=8.8  Template_Neff=8.400
+
+Q ss_pred             CCCCCCeEEEeceE
+Q tr|I3L492|I3L4   54 KVPPNGLVVYCGTI   67 (208)
+Q Consensus        54 kvppnglvvycgti   67 (208)
+                      .....+++.|.+..
+T Consensus        31 ~~~~Gav~~F~G~v   44 (147)
+T 2WP4_B           31 GPEQGGIVIFVGNV   44 (147)
+T ss_dssp             CTTCCEEEEEEEEC
+T ss_pred             CCCCcEEEEEEEEe
+Confidence            34556677777665
+
+
+No 30
+>6OPM_A CRISPR-associated endonuclease Cas1, unknown/DNA Complex; Transposition, casposase, HYDROLASE-DNA complex; HET: MSE; 3.1A {Methanosarcina mazei}
+Probab=21.49  E-value=1.1e+03  Score=22.21  Aligned_cols=38  Identities=16%  Similarity=0.142  Sum_probs=20.8  Template_Neff=7.800
+
+Q ss_pred             ceEEEeCC-cccHHHHHHHhCCCCCcEEEEEcCCCcEEEE
+Q tr|I3L492|I3L4   89 TSLYLCDN-KFHTEALTALLSDDSKFGFIVIDGSGALFGT  127 (208)
+Q Consensus        89 tslylcdn-kfhtealtallsddskfgfividgsgalfgt  127 (208)
+                      +.+.+.+. .-...+++..+ ......|++++.++-.+..
+T Consensus        63 ~~Ivi~g~~~~IS~~al~~l-~~~~I~I~~~~~~G~~~~~  101 (431)
+T 6OPM_A           63 DGIIIYGKSGNLTLEAIRWL-IKHNVQVSILDWNGKLLTT  101 (431)
+T ss_dssp             EEEEECCSSEEEEHHHHHHH-HHTTCEEEEECTTSCEEEE
+T ss_pred             cEEEEECCCCeeCHHHHHHH-HHcCCEEEEECCCCCEEEE
+Confidence            34555454 23444555554 3456677777877654444
+
+
+No 31
+>6OPM_C CRISPR-associated endonuclease Cas1, unknown/DNA Complex; Transposition, casposase, HYDROLASE-DNA complex; HET: MSE; 3.1A {Methanosarcina mazei}
+Probab=21.49  E-value=1.1e+03  Score=22.21  Aligned_cols=39  Identities=15%  Similarity=0.163  Sum_probs=21.3  Template_Neff=7.800
+
+Q ss_pred             ceEEEeCC-cccHHHHHHHhCCCCCcEEEEEcCCCcEEEEe
+Q tr|I3L492|I3L4   89 TSLYLCDN-KFHTEALTALLSDDSKFGFIVIDGSGALFGTL  128 (208)
+Q Consensus        89 tslylcdn-kfhtealtallsddskfgfividgsgalfgtl  128 (208)
+                      +.+.+.+. .-...+++..+ ......|++++.++-.+...
+T Consensus        63 ~~Ivi~g~~~~IS~~al~~l-~~~~I~I~~~~~~G~~~~~~  102 (431)
+T 6OPM_C           63 DGIIIYGKSGNLTLEAIRWL-IKHNVQVSILDWNGKLLTTM  102 (431)
+T ss_dssp             CEEEECCSSEEEEHHHHHHH-HHTTCEEEEECTTSCEEEEE
+T ss_pred             cEEEEECCCCeeCHHHHHHH-HHcCCEEEEECCCCCEEEEE
+Confidence            34555454 23444555554 34566777778776544443
+
+

@@ -1,0 +1,739 @@
+Query         tr|A0A087X006|A0A087X006_HUMAN
+Match_columns 226
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:44:06 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1119.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AS4_J Tubulin gamma-1 chain,   99.9 2.4E-24 2.6E-29  190.5  13.8  188    2-225   716-903 (1024)
+  2 3RIP_A Gamma-tubulin complex c  99.7 1.8E-16   2E-21  132.8  10.0  165    2-225   350-533 (677)
+  3 6X0U_D Gamma-tubulin complex c  99.7 1.2E-16 1.3E-21  157.3   9.0  168    2-225  1513-1686(1819)
+  4 7AS4_L Tubulin gamma-1 chain,   99.7 1.2E-16 1.3E-21  157.3   9.0  168    2-225  1513-1686(1819)
+  5 6TF9_VP1 Helix 1, Belt helices  99.7 3.4E-16 3.7E-21  130.9   8.2  165    2-225   350-533 (666)
+  6 6TF9_SP1 Helix 1, Belt helices  99.7 2.4E-16 2.6E-21  153.3   8.0  168    2-225  1319-1492(1625)
+  7 7M2W_E Tubulin gamma chain, Sp  99.6 1.1E-14 1.2E-19  127.7  12.1  204    2-225   415-649 (823)
+  8 7M2W_G Tubulin gamma chain, Sp  99.6 1.1E-14 1.2E-19  127.7  12.1  204    2-225   415-649 (823)
+  9 7ANZ_C Tubulin gamma chain, Sp  99.6 4.2E-14 4.6E-19  127.6  11.6  206    2-225   440-668 (871)
+ 10 6X0U_B Gamma-tubulin complex c  99.5 2.4E-14 2.6E-19  132.3   7.8  165    2-225   555-724 (907)
+ 11 7AS4_E Tubulin gamma-1 chain,   99.5 1.1E-13 1.2E-18  126.5  10.4  190    2-225   509-699 (902)
+ 12 7QJ9_G Assembly, Intermediate,  99.5 1.1E-13 1.2E-18  126.5  10.4  167    2-225   509-699 (902)
+ 13 6TF9_fP1 Helix 1, Belt helices  99.5 3.2E-14 3.5E-19  132.0   7.0  165    2-225   554-723 (906)
+ 14 7M2W_H Tubulin gamma chain, Sp  99.4   7E-13 7.6E-18  118.7   7.6  171    2-224   470-653 (846)
+ 15 7M2Z_C Tubulin gamma chain, Sp  99.4   7E-13 7.6E-18  118.7   7.6  172    2-225   470-654 (846)
+ 16 7ANZ_D Tubulin gamma chain, Sp  99.4 1.6E-12 1.8E-17  115.9   7.5  170    2-225   432-606 (785)
+ 17 6NPP_B Epstein-Barr nuclear an  35.6      96   0.001   27.5   3.4   12  215-226   102-113 (134)
+ 18 1B3T_B EBNA-1 NUCLEAR PROTEIN/  34.4   1E+02  0.0011   27.7   3.4   12  215-226   115-126 (147)
+ 19 6VH6_B Epstein-Barr nuclear an  29.6 1.5E+02  0.0016   26.6   3.6   10  216-225   111-120 (142)
+ 20 6NBG_A Hypothetical Protein CD  20.9 1.5E+02  0.0017   22.9   2.0   10   20-29     42-51  (242)
+ 21 6NBG_D Hypothetical Protein CD  20.9 1.5E+02  0.0017   22.9   2.0   10   20-29     42-51  (242)
+
+No 1
+>7AS4_J Tubulin gamma-1 chain, Gamma-tubulin complex; microtubule organizing center, microtubule, gamma-tubulin; HET: GDP; 4.13A {Homo sapiens}
+Probab=99.92  E-value=2.4e-24  Score=190.48  Aligned_cols=188  Identities=100%  Similarity=1.479  Sum_probs=149.8  Template_Neff=10.100
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCCCCCCCCCCCcccccccccCCCC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPEDSSRKWRPGTVAHTCNASTLGGR   81 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqrypedssrkwrpgtvahtcnastlggr   81 (226)
+                      |.+||+.++++|||++||++..|++.+++.+.++..+.....++.++++++...+......                   
+T Consensus       716 L~~hL~~lr~~~Ll~~gd~~~~f~~~lf~~l~~~~~~~~~~~L~~~l~~a~~~~~~~~~~~-------------------  776 (1024)
+T 7AS4_J          716 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPEDSSR-------------------  776 (1024)
+T ss_pred             HHHHHHHHHHHHhhhccHHHHHHHHHHHHHHHcCCccCCHHHHHHHHHHHHHhcCCccccc-------------------
+Confidence            6789999999999999999999999999999988888888999999999998776655555                   
+
+
+Q ss_pred             CCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhhccccee
+Q tr|A0A087X006|   82 GGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKWAKYSLD  161 (226)
+Q Consensus        82 gggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikwakysld  161 (226)
+                                       +++.+..............++.+.+.|++|||+++||++.++.+|++||++|++++++.+.|.
+T Consensus       777 -----------------l~~~~~~~~~~~~~~~~~~~~~l~l~y~~~~Pl~~iit~~~l~~Y~~iF~~Ll~lk~a~~~L~  839 (1024)
+T 7AS4_J          777 -----------------LSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKWAKYSLD  839 (1024)
+T ss_pred             -----------------EEEEEecCCccccCCCccccccEEEEeCCCCCceeecCHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence                             666665544333455668899999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  162 VLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       162 vllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      ++|....++.+.+.....+..+++++++.++.+........++++.+|++|++|++++++|++.
+T Consensus       840 ~~~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lr~~m~~fv~~l~~y~~~  903 (1024)
+T 7AS4_J          840 VLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  903 (1024)
+T ss_pred             HhcHHHHhchhccccccCCCCcccccccccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9998654332223221233333444444444444444567788999999999999999999864
+
+
+No 2
+>3RIP_A Gamma-tubulin complex component 4; helix bundles, gamma-tubulin ring complex; HET: GOL; 2.3A {Homo sapiens}
+Probab=99.70  E-value=1.8e-16  Score=132.79  Aligned_cols=165  Identities=22%  Similarity=0.363  Sum_probs=128.4  Template_Neff=10.500
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCcccccccccC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNASTL   78 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcnastl   78 (226)
+                      |.+||+.++++|||++|||+..|++.+++.+.++..+.....++..++.++..+....   ...                
+T Consensus       350 l~~~l~~l~~~~Ll~~gd~~~~f~~~l~~~l~~~~~~~~~~~l~~~l~~a~~~~~~~~~~~~~~----------------  413 (677)
+T 3RIP_A          350 LLGQLKIIKDFYLLGRGELFQAFIDTAQHMLKTPPTAVTEHDVNVAFQQSAHKVLLDDDNLLPL----------------  413 (677)
+T ss_dssp             HHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHSSCCCTTHHHHHHHHHHHHHHHTTCCCTTTGGG----------------
+T ss_pred             HHHHHHHHHHHhhccCcHHHHHHHHHHHHHhcCCCCCCcHHHHHHHHHHHHHHhccCCCccHhh----------------
+Confidence            6789999999999999999999999999999988888888899999999887654322   122                
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcEEEEEEeccc----------------cccccCCeeeeccceeeecCCCCceeEEeehhhhh
+Q tr|A0A087X006|   79 GGRGGGSPEVRSSRPAWPTCLSISFENVD----------------TAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKI  142 (226)
+Q Consensus        79 ggrgggspevrssrpawptclsisfenvd----------------takkklpvhildgltlsykvpwpvdivislecqki  142 (226)
+                                          +++.+....                ..........++.+.+.|++|||+++||++.++.+
+T Consensus       414 --------------------~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~l~y~~~~Pl~~ii~~~~l~~  473 (677)
+T 3RIP_A          414 --------------------LHLTIEYHGKEHKDATQAREGPSRETSPREAPASGWAALGLSYKVQWPLHILFTPAVLEK  473 (677)
+T ss_dssp             --------------------EEEEECCCC-----------------------CCTTTTEEEEECCCTTGGGTSCHHHHHH
+T ss_pred             --------------------eeEEEeeCCcccccchhccCCCCCCCCCCcCCccCcccEEEEEecCCCceeeeCHHHHHH
+Confidence                                333332211                11123446778999999999999999999999999
+
+
+Q ss_pred             hhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A087X006|  143 YNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNY  222 (226)
+Q Consensus       143 ynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhny  222 (226)
+                      |++||++|++++++.+.|.++|....     +.. ..+              .   ....+..+.+|++|++|++++++|
+T Consensus       474 Y~~if~~Ll~l~~~~~~L~~~~~~~~-----~~~-~~~--------------~---~~~~~~~~~lr~~m~~fv~~l~~y  530 (677)
+T 3RIP_A          474 YNVVFKYLLSVRRVQAELQHCWALQM-----QRK-HLK--------------S---NQTDAIKWRLRNHMAFLVDNLQYY  530 (677)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHT-----SGG-GCC--------------S---SHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHH-----HHc-cCC--------------C---CCcHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999998653     111 111              1   134566788999999999999999
+
+
+Q ss_pred             HcC
+Q tr|A0A087X006|  223 IMT  225 (226)
+Q Consensus       223 imt  225 (226)
+                      ++.
+T Consensus       531 ~~~  533 (677)
+T 3RIP_A          531 LQV  533 (677)
+T ss_dssp             CCC
+T ss_pred             HHH
+Confidence            864
+
+
+No 3
+>6X0U_D Gamma-tubulin complex component 3, Gamma-tubulin; gamma-TuRC, lumenal bridge, MZT1, GCP; 3.6A {Homo sapiens}
+Probab=99.69  E-value=1.2e-16  Score=157.34  Aligned_cols=168  Identities=28%  Similarity=0.442  Sum_probs=132.9  Template_Neff=8.500
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHc---cCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIRE---KETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNA   75 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkire---ketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcna   75 (226)
+                      |.+||+.||+||||++|+|+..|++.+++.+..   +..+.....|+.++..|+..+....   ...             
+T Consensus      1513 L~~Hl~~LR~~~Ll~dGef~~~l~~~Lf~~l~~~~~p~~~~~~~~L~~~l~~al~~s~~~~~~~~~~------------- 1579 (1819)
+T 6X0U_D         1513 LEAHYEALRHFLLMEDGEFAQSLSDLLFEKLGAGQTPGELLNPLVLNSVLSKALQCSLHGDTPHASN------------- 1579 (1819)
+T ss_pred             HHHHHHHHHHHHhcCCchHHHHHHHHHHHHHCCCCCcHHhcCHHHHHHHHHHHHHHHhcCCCccHhh-------------
+Confidence            678999999999999999999999999999864   3455677789999999887654322   223             
+
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhh
+Q tr|A0A087X006|   76 STLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKW  155 (226)
+Q Consensus        76 stlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikw  155 (226)
+                                             +++.+...+........+.+++|.|.|+++||+++||++.++.+|++||+||+++++
+T Consensus      1580 -----------------------ls~~~~~~p~~~~~~~~~~ld~l~L~Y~v~wPLniiit~~~l~~Y~~iF~fLl~lkr 1636 (1819)
+T 6X0U_D         1580 -----------------------LSLALKYLPEVFAPNAPDVLSCLELRYKVDWPLNIVITEGCVSKYSGVFSFLLQLKL 1636 (1819)
+T ss_pred             -----------------------ceeEEecCCccCCCCCCcccceEEeEecCCCchhhccCHHHHHHHHHHHHHHHHHHH
+Confidence                                   566555444334455678899999999999999999999999999999999999999
+
+
+Q ss_pred             cccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  156 AKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       156 akysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      +.+.|..+|....     +.. ...              ........+.++.+|++|.||+++|++|++.
+T Consensus      1637 ~~~~L~~~~~~lk-----~~~-~~~--------------~~~~s~~~~~l~l~r~~m~hFv~~l~~Yi~~ 1686 (1819)
+T 6X0U_D         1637 MMWALKDVCFHLK-----RTA-LLS--------------HMAGSVQFRQLQLFKHEMQHFVKVIQGYIAN 1686 (1819)
+T ss_pred             HHHHHHHHHHHhH-----HHh-hhc--------------ccCccHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999998643     111 000              0111345778889999999999999999864
+
+
+No 4
+>7AS4_L Tubulin gamma-1 chain, Gamma-tubulin complex; microtubule organizing center, microtubule, gamma-tubulin; HET: GDP; 4.13A {Homo sapiens}
+Probab=99.69  E-value=1.2e-16  Score=157.34  Aligned_cols=168  Identities=28%  Similarity=0.442  Sum_probs=132.9  Template_Neff=8.500
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHc---cCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIRE---KETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNA   75 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkire---ketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcna   75 (226)
+                      |.+||+.||+||||++|+|+..|++.+++.+..   +..+.....|+.++..|+..+....   ...             
+T Consensus      1513 L~~Hl~~LR~~~Ll~dGef~~~l~~~Lf~~l~~~~~p~~~~~~~~L~~~l~~al~~s~~~~~~~~~~------------- 1579 (1819)
+T 7AS4_L         1513 LEAHYEALRHFLLMEDGEFAQSLSDLLFEKLGAGQTPGELLNPLVLNSVLSKALQCSLHGDTPHASN------------- 1579 (1819)
+T ss_pred             HHHHHHHHHHHHhcCCchHHHHHHHHHHHHHCCCCCcHHhcCHHHHHHHHHHHHHHHhcCCCccHhh-------------
+Confidence            678999999999999999999999999999864   3455677789999999887654322   223             
+
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhh
+Q tr|A0A087X006|   76 STLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKW  155 (226)
+Q Consensus        76 stlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikw  155 (226)
+                                             +++.+...+........+.+++|.|.|+++||+++||++.++.+|++||+||+++++
+T Consensus      1580 -----------------------ls~~~~~~p~~~~~~~~~~ld~l~L~Y~v~wPLniiit~~~l~~Y~~iF~fLl~lkr 1636 (1819)
+T 7AS4_L         1580 -----------------------LSLALKYLPEVFAPNAPDVLSCLELRYKVDWPLNIVITEGCVSKYSGVFSFLLQLKL 1636 (1819)
+T ss_pred             -----------------------ceeEEecCCccCCCCCCcccceEEeEecCCCchhhccCHHHHHHHHHHHHHHHHHHH
+Confidence                                   566555444334455678899999999999999999999999999999999999999
+
+
+Q ss_pred             cccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  156 AKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       156 akysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      +.+.|..+|....     +.. ...              ........+.++.+|++|.||+++|++|++.
+T Consensus      1637 ~~~~L~~~~~~lk-----~~~-~~~--------------~~~~s~~~~~l~l~r~~m~hFv~~l~~Yi~~ 1686 (1819)
+T 7AS4_L         1637 MMWALKDVCFHLK-----RTA-LLS--------------HMAGSVQFRQLQLFKHEMQHFVKVIQGYIAN 1686 (1819)
+T ss_pred             HHHHHHHHHHHhH-----HHh-hhc--------------ccCccHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999998643     111 000              0111345778889999999999999999864
+
+
+No 5
+>6TF9_VP1 Helix 1, Belt helices 1,2,3,4; gamma-Tubulin Ring Complex, microtubule nucleation;{Xenopus laevis}
+Probab=99.67  E-value=3.4e-16  Score=130.92  Aligned_cols=165  Identities=21%  Similarity=0.348  Sum_probs=124.7  Template_Neff=10.500
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCcccccccccC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNASTL   78 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcnastl   78 (226)
+                      |.+||+.++++|||++|||+..|++.+++.+.++..+.....++..++.+...+....   ...                
+T Consensus       350 l~~hl~~l~~~~Ll~~gd~~~~f~~~l~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~----------------  413 (666)
+T 6TF9_VP1        350 LLGQLKIIKDFYLLGRGELFQAFIDVAQNMLKTPPTAVTEHDVNVAFQLSAHKVLLDDDNLLPL----------------  413 (666)
+T ss_pred             HHHHHHHHHHHHhhcChHHHHHHHHHHHHHhcCCCCCCcHHHHHHHHHHHHHHhccCCCccHHh----------------
+Confidence            6789999999999999999999999999998887777777788888887765432211   111                
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcEEEEEEecc----------------ccccccCCeeeeccceeeecCCCCceeEEeehhhhh
+Q tr|A0A087X006|   79 GGRGGGSPEVRSSRPAWPTCLSISFENV----------------DTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKI  142 (226)
+Q Consensus        79 ggrgggspevrssrpawptclsisfenv----------------dtakkklpvhildgltlsykvpwpvdivislecqki  142 (226)
+                                          +++.+...                ...........++.+.+.|++|||+++||+++++.+
+T Consensus       414 --------------------l~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~l~y~~~~Pl~~i~~~~~~~~  473 (666)
+T 6TF9_VP1        414 --------------------LNLTIDYHGKEHKDTSQPREGPFRDMSPREAPTSGWAALGLSYKVQWPLHILFTPAVLEK  473 (666)
+T ss_pred             --------------------eeEEEecCCcccCCCCCCCCCCCCCCCcccCCCCCccceEEEEeeCCChhcccCHHHHHH
+Confidence                                22111110                011223446779999999999999999999999999
+
+
+Q ss_pred             hhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A087X006|  143 YNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNY  222 (226)
+Q Consensus       143 ynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhny  222 (226)
+                      |+.||++|++++++.+.|.++|....     ... ...              .   ....+..+.+|++|.+|++++++|
+T Consensus       474 Y~~if~~Ll~lk~a~~~L~~~~~~~~-----~~~-~~~--------------~---~~~~~~~~~lr~~m~~fv~~l~~y  530 (666)
+T 6TF9_VP1        474 YNVVFKYLLSVRRVQSELQHCWALQM-----QRK-HLE--------------S---NKTDAIKWRLQNHMAFLVDNLQYY  530 (666)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHH-----HHh-ccc--------------c---CchHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999764     111 110              0   122345678999999999999999
+
+
+Q ss_pred             HcC
+Q tr|A0A087X006|  223 IMT  225 (226)
+Q Consensus       223 imt  225 (226)
+                      ++.
+T Consensus       531 ~~~  533 (666)
+T 6TF9_VP1        531 LQV  533 (666)
+T ss_pred             HHH
+Confidence            864
+
+
+No 6
+>6TF9_SP1 Helix 1, Belt helices 1,2,3,4; gamma-Tubulin Ring Complex, microtubule nucleation;{Xenopus laevis}
+Probab=99.66  E-value=2.4e-16  Score=153.34  Aligned_cols=168  Identities=27%  Similarity=0.457  Sum_probs=131.6  Template_Neff=8.600
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHc---cCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIRE---KETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNA   75 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkire---ketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcna   75 (226)
+                      |.+||+.||+||||++|||+..|++.+++.+..   +........|+.++..|+..+....   ..+             
+T Consensus      1319 L~~Hl~~Lr~~~ll~~Gef~~~l~~~Lf~~l~~~~~p~~~~~~~~L~~~l~~al~~s~~~~~~~~~~------------- 1385 (1625)
+T 6TF9_SP1       1319 MERHFEAMRHFLLMEDGEFAQSLSDMLFEKLGSGQTPSELLNPLVLNSILNKALQYSLHGDSSLASN------------- 1385 (1625)
+T ss_pred             hHHHHHHHHHHHccCCchHHHHHHHHHHHHHCCCCChHHhcCHHHHHHHHHHHHHHhhcCCchhHHh-------------
+Confidence            678999999999999999999999999999864   3345566788889988887543322   233             
+
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhh
+Q tr|A0A087X006|   76 STLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKW  155 (226)
+Q Consensus        76 stlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikw  155 (226)
+                                             +++.+...+..........+++|.|.|++|||+++||++.++.+|++||+||+++++
+T Consensus      1386 -----------------------ls~~~~~~p~~~~~~~~~~l~~l~L~Y~v~wPLniiit~~~l~~Y~~iF~fLl~lkr 1442 (1625)
+T 6TF9_SP1       1386 -----------------------LTFALKYLPEVFTPTAPDALSCLELKYKVDWPLNIVITDTCMNKYSRIFSFLLQLKH 1442 (1625)
+T ss_pred             -----------------------ceEEeccCCCCCCCCCCCccccEEEEecCCCcHHHhcCHHHHHHHHHHHHHHHHHHH
+Confidence                                   566555444333445678899999999999999999999999999999999999999
+
+
+Q ss_pred             cccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  156 AKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       156 akysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      +.+.|..+|....     +.. ...              ........+.++.+|++|.||+++|++|++.
+T Consensus      1443 ~~~~L~~~~~~l~-----~~~-~~~--------------~~~~s~~~r~l~l~r~~m~hFv~~l~~Yi~~ 1492 (1625)
+T 6TF9_SP1       1443 MVWTLRDVWFHLK-----RTA-LVN--------------QASNSVQYRQLQLYRHEMQHFVKVIQGYIAN 1492 (1625)
+T ss_pred             HHHHHHHHHHHHH-----HHh-Hhc--------------CCCccHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999998653     111 000              0111345677889999999999999999864
+
+
+No 7
+>7M2W_E Tubulin gamma chain, Spindle pole; microtubule nucleation, CELL CYCLE; HET: GTP; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.61  E-value=1.1e-14  Score=127.68  Aligned_cols=204  Identities=18%  Similarity=0.222  Sum_probs=123.0  Template_Neff=9.900
+
+Q ss_pred             CHHHHHHHHHHhc-cCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCCCCCC--------CCCCC---c
+Q tr|A0A087X006|    2 LVEYLQAMRNFFL-MEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPEDSSRK--------WRPGT---V   69 (226)
+Q Consensus         2 lveylqamrnffl-meggdtmydfytsifdkireketwqnvsflnvqlqeavgqrypedssrk--------wrpgt---v   69 (226)
+                      |.+||..++++|| |++|||+..|++.++..+.++........++..++.++...........        .....   .
+T Consensus       415 L~~~L~~l~~~fL~l~~gdf~~~f~~~~~~~l~~~~~~~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  494 (823)
+T 7M2W_E          415 LINVLKHLQQIFLGYQSGHNVLKFLTKNMGELTKHYRNDNNANYDKLLQNFELERQSENPNNLMRQLLMIQFDTETLPQV  494 (823)
+T ss_dssp             HHHHHHHHHHHHSCTTCHHHHHHHHHHHHHHHHHHHHSCTTSCTHHHHHHHHHHHHTSCSSCHHHHTEEEEECSSCHHHH
+T ss_pred             HHHHHHHHHHHHhcccCcHHHHHHHHHcHHHHhcccccccHHHHHHHHHHHHhcCCCCCCCchhhhceEEEeCCCCHHHH
+Confidence            6789999999999 9999999999999999998877777777888888888764321110000        00000   0
+
+
+Q ss_pred             cccccc----c-------cCCCCCC----CCCCCCCCCCCCCcEEEEEEec---cccccccCCeeeeccceeeecCCCCc
+Q tr|A0A087X006|   70 AHTCNA----S-------TLGGRGG----GSPEVRSSRPAWPTCLSISFEN---VDTAKKKLPVHILDGLTLSYKVPWPV  131 (226)
+Q Consensus        70 ahtcna----s-------tlggrgg----gspevrssrpawptclsisfen---vdtakkklpvhildgltlsykvpwpv  131 (226)
+                      -.....    .       .+.+...    ....++.....    +...-..   .+..........++.+.++|++|||+
+T Consensus       495 l~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~l~l~y~v~~PL  570 (823)
+T 7M2W_E          495 LSHYLQIYPEVPENNSANDDSDPLMHANNFKNMNAILFDE----LSKERTGAYHGSNLELYTPKSAIYHLKFDINIPYPL  570 (823)
+T ss_dssp             HTTTSSCCC--------------------------------------------------------CCCCEEEEECCCTTG
+T ss_pred             HHHHHhhCCCCCCCCCCCCCCchhhcccchHHHHHHHHHH----hhhhccCccCCCCcccCCcccceeeEEEEeecCCCc
+Confidence            000000    0       0000000    00000000000    0000000   00001122345599999999999999
+
+
+Q ss_pred             eeEEeehhhhhhhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHH-HHHHHHHHHH
+Q tr|A0A087X006|  132 DIVISLECQKIYNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQ-QIHRMFLLRV  210 (226)
+Q Consensus       132 divislecqkiynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrq-qihrmfllrv  210 (226)
+                      ++||++.++.+|+.||++|++++++++.|..+|.........+.   .+   .          ...... ..++++.+|+
+T Consensus       571 ~lIit~~~l~~Y~~IFr~Ll~lk~~~~~L~~~w~~~~~~~~~~~---~~---~----------~~~~~~~~~~~~~~lr~  634 (823)
+T 7M2W_E          571 NIIISRTCMIKYQIILRYQLVLQYHSRLLDETWMDLNKTPSWKY---RG---Y----------SHTVKRRIVRATRVLHA  634 (823)
+T ss_dssp             GGTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHC---CC---G----------GGTHCCCCCCHHHHHHH
+T ss_pred             ceeecHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCcccc---CC---C----------ChhHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999986431000000   00   0          111223 6678899999
+
+
+Q ss_pred             HHHHHHHHHHHHHcC
+Q tr|A0A087X006|  211 KLMHFVNSLHNYIMT  225 (226)
+Q Consensus       211 klmhfvnslhnyimt  225 (226)
+                      +|.+|++++++|++.
+T Consensus       635 ~m~~fi~~l~~y~~~  649 (823)
+T 7M2W_E          635 KMNHFIKTIMEYFNQ  649 (823)
+T ss_dssp             HHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            999999999999975
+
+
+No 8
+>7M2W_G Tubulin gamma chain, Spindle pole; microtubule nucleation, CELL CYCLE; HET: GTP; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.61  E-value=1.1e-14  Score=127.68  Aligned_cols=204  Identities=18%  Similarity=0.227  Sum_probs=125.4  Template_Neff=9.900
+
+Q ss_pred             CHHHHHHHHHHhc-cCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCCCCC--------CCCCCC---c
+Q tr|A0A087X006|    2 LVEYLQAMRNFFL-MEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPEDSSR--------KWRPGT---V   69 (226)
+Q Consensus         2 lveylqamrnffl-meggdtmydfytsifdkireketwqnvsflnvqlqeavgqrypedssr--------kwrpgt---v   69 (226)
+                      |.+||..++++|| |++|||+..|++.++..+.++........++..++.++..........        ......   .
+T Consensus       415 L~~~L~~l~~~fL~l~~gdf~~~f~~~~~~~l~~~~~~~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  494 (823)
+T 7M2W_G          415 LINVLKHLQQIFLGYQSGHNVLKFLTKNMGELTKHYRNDNNANYDKLLQNFELERQSENPNNLMRQLLMIQFDTETLPQV  494 (823)
+T ss_dssp             HHHHHHHHCCCCCCTTCHHHHHHHHHHTTTGGGSTTSCCSSCSTHHHHHHHHHHHHTSCTTCHHHHHCEEEECSSCHHHH
+T ss_pred             HHHHHHHHHHHHhcccCcHHHHHHHHHcHHHHhcccccccHHHHHHHHHHHHhcCCCCCCCchhhhceEEEeCCCCHHHH
+Confidence            6789999999999 999999999999999999988888788888888888876432111000        000000   0
+
+
+Q ss_pred             cccccc----c-------cCCCCCC----CCCCCCCCCCCCCcEEEEEEec---cccccccCCeeeeccceeeecCCCCc
+Q tr|A0A087X006|   70 AHTCNA----S-------TLGGRGG----GSPEVRSSRPAWPTCLSISFEN---VDTAKKKLPVHILDGLTLSYKVPWPV  131 (226)
+Q Consensus        70 ahtcna----s-------tlggrgg----gspevrssrpawptclsisfen---vdtakkklpvhildgltlsykvpwpv  131 (226)
+                      -.....    .       .+.+...    ....++.....    +...-..   .+..........++.+.++|++|||+
+T Consensus       495 l~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~l~l~y~v~~PL  570 (823)
+T 7M2W_G          495 LSHYLQIYPEVPENNSANDDSDPLMHANNFKNMNAILFDE----LSKERTGAYHGSNLELYTPKSAIYHLKFDINIPYPL  570 (823)
+T ss_dssp             HTTTSSCCCCC--------------------------------------------------CCCCGGGTEEEECCCCTTT
+T ss_pred             HHHHHhhCCCCCCCCCCCCCCchhhcccchHHHHHHHHHH----hhhhccCccCCCCcccCCcccceeeEEEEeecCCCc
+Confidence            000000    0       0000000    00000000000    0000000   00001122345599999999999999
+
+
+Q ss_pred             eeEEeehhhhhhhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHH-HHHHHHHHHH
+Q tr|A0A087X006|  132 DIVISLECQKIYNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQ-QIHRMFLLRV  210 (226)
+Q Consensus       132 divislecqkiynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrq-qihrmfllrv  210 (226)
+                      ++||++.++.+|+.||++|++++++++.|..+|.........+.   .+   .          ...... ..++++.+|+
+T Consensus       571 ~lIit~~~l~~Y~~IFr~Ll~lk~~~~~L~~~w~~~~~~~~~~~---~~---~----------~~~~~~~~~~~~~~lr~  634 (823)
+T 7M2W_G          571 NIIISRTCMIKYQIILRYQLVLQYHSRLLDETWMDLNKTPSWKY---RG---Y----------SHTVKRRIVRATRVLHA  634 (823)
+T ss_dssp             TTTSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHC---SC---G----------GGTHCCCCCCHHHHHHH
+T ss_pred             ceeecHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCcccc---CC---C----------ChhHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999986431000000   00   0          111223 6678899999
+
+
+Q ss_pred             HHHHHHHHHHHHHcC
+Q tr|A0A087X006|  211 KLMHFVNSLHNYIMT  225 (226)
+Q Consensus       211 klmhfvnslhnyimt  225 (226)
+                      +|.+|++++++|++.
+T Consensus       635 ~m~~fi~~l~~y~~~  649 (823)
+T 7M2W_G          635 KMNHFIKTIMEYFNQ  649 (823)
+T ss_dssp             HHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            999999999999975
+
+
+No 9
+>7ANZ_C Tubulin gamma chain, Spindle pole; gamma-Tubulin Small Complex, Cytoskeleton, Microtubule;{Candida albicans}
+Probab=99.57  E-value=4.2e-14  Score=127.58  Aligned_cols=206  Identities=15%  Similarity=0.149  Sum_probs=130.0  Template_Neff=9.200
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHc----ccCCCCCCCCCCCCCccccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVG----QRYPEDSSRKWRPGTVAHTCNAST   77 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavg----qrypedssrkwrpgtvahtcnast   77 (226)
+                      |.+||+.++++|||++|||+..|++.+++.+.++..+.....++..++.++.    .........  .........+...
+T Consensus       440 L~~~L~~l~~~fLl~~g~f~~~f~~~~~~~l~~~~~~~~~~~l~~~l~~~~~~~~~~~~~~~~~~--~d~~~~~~~~~l~  517 (871)
+T 7ANZ_C          440 FPSVVNIFQRLFLFADSFQIDNFIDSTFSELKRGKLKISVSRLQKQYDDIFKEKIENKVGVRPSV--YDVLKKNQKLSVT  517 (871)
+T ss_dssp             THHHHTTHHHHTSCSSTHHHHHHHTTTHHHHHSCSTTSCHHHHHHHHHHHHCCCCCCBTTCCCCS--HHHHTTCCBCCCC
+T ss_pred             HHHHHHHHHHHhccCCchHHHHHHHhcHHHhhcCccccCHHHHHHHHHHHHHhhccCcCCCCchh--ccchhhccEEEEC
+Confidence            6889999999999999999999999999999999888999999999999998    433210000  0000000000000
+
+
+Q ss_pred             CCC-----CCCCC-CCCCCCC-CCCCcEEEEEEecc--c----c------ccccCCeeeeccceeeecCCCCceeEEeeh
+Q tr|A0A087X006|   78 LGG-----RGGGS-PEVRSSR-PAWPTCLSISFENV--D----T------AKKKLPVHILDGLTLSYKVPWPVDIVISLE  138 (226)
+Q Consensus        78 lgg-----rgggs-pevrssr-pawptclsisfenv--d----t------akkklpvhildgltlsykvpwpvdivisle  138 (226)
+                      ...     ..... ...+... +.......-.+...  .    .      .........++.+.++|++|||+++||++.
+T Consensus       518 ~~~l~~~l~~~~~~~~~d~~~~~~l~~l~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~L~y~~p~PL~lIi~~~  597 (871)
+T 7ANZ_C          518 SESLYKVVEELMEKNSDYLISDNNLRGIFHRVASLRDDSRLTISSTADSATENVKDEPTITSVDLTIPLPFPLNLVLNQQ  597 (871)
+T ss_dssp             SCCHHHHHHHHCC--------------------------------------------CCTTTCCCBCCCCTTHHHHSCHH
+T ss_pred             CCCHHHHHHHHHhcCCCcCCCcchHHHHHHHHhhhcCCccccccccccCccCCCCCCCceeeEEEEeeCCCCceEEecHH
+Confidence            000     00000 0000000 00000000000000  0    0      112233567899999999999999999999
+
+
+Q ss_pred             hhhhhhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A087X006|  139 CQKIYNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNS  218 (226)
+Q Consensus       139 cqkiynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvns  218 (226)
+                      ++.+|+.||++|++++++.+.|..+|.........+.+   +             .........++++.++++|.+|++.
+T Consensus       598 ~~~~Y~~IFr~Ll~lk~~~~~L~~~w~~~~~~~~~~~~---~-------------~~~~~~~~~~~~~~L~~~m~~Fv~~  661 (871)
+T 7ANZ_C          598 LSYQYEIMFKLLINIKFISKYNSSNWQEMNYSKIWTNS---H-------------FNSSVKKWILRCRVLHSRICSFIHE  661 (871)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCSSSSCS---S-------------CCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccccccc---C-------------CCHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999976422111111   0             0233456889999999999999999
+
+
+Q ss_pred             HHHHHcC
+Q tr|A0A087X006|  219 LHNYIMT  225 (226)
+Q Consensus       219 lhnyimt  225 (226)
+                      +++|++.
+T Consensus       662 l~~Y~~~  668 (871)
+T 7ANZ_C          662 LENYIVH  668 (871)
+T ss_dssp             HHHCCCC
+T ss_pred             HHHHHHH
+Confidence            9999864
+
+
+No 10
+>6X0U_B Gamma-tubulin complex component 3, Gamma-tubulin; gamma-TuRC, lumenal bridge, MZT1, GCP; 3.6A {Homo sapiens}
+Probab=99.54  E-value=2.4e-14  Score=132.27  Aligned_cols=165  Identities=23%  Similarity=0.330  Sum_probs=129.4  Template_Neff=8.500
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC-----CCCCCCCCCcccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED-----SSRKWRPGTVAHTCNAS   76 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped-----ssrkwrpgtvahtcnas   76 (226)
+                      |.+||+.+++||||++|||+..|++.+.+.+.+|........|+..++.|+..+....     ..+              
+T Consensus       555 L~~hL~~lk~y~LLg~GDF~~~l~~~l~~~L~~p~~~~~~~~L~~~L~~ai~~s~~~~~~~~~l~r--------------  620 (907)
+T 6X0U_B          555 LLDHMQAMRRYLLLGQGDFIRHLMDLLKPELVRPATTLYQHNLTGILETAVRATNAQFDSPEILRR--------------  620 (907)
+T ss_pred             HHHHHHHHHHHhccCCCHHHHHHHHhhHHHhcCCHHHhcHHHHHHHHHHHHHHhcccCCCHHHHhh--------------
+Confidence            6789999999999999999999999999999998888888899999999997653221     122              
+
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhhc
+Q tr|A0A087X006|   77 TLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKWA  156 (226)
+Q Consensus        77 tlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikwa  156 (226)
+                                            +++.+....     .+...|+.+.|+|+++||+++||++.++.+|++||+|||++|++
+T Consensus       621 ----------------------l~~~l~~~~-----~~~~gwd~f~L~Y~v~~PL~~I~t~~~~~~Y~~iF~fL~~lkr~  673 (907)
+T 6X0U_B          621 ----------------------LDVRLLEVS-----PGDTGWDVFSLDYHVDGPIATVFTRECMSHYLRVFNFLWRAKRM  673 (907)
+T ss_pred             ----------------------ccceeccCC-----CCCCcceeEEEEEecCCceeeeecHHHHHHHHHHHHHHHHHHHH
+Confidence                                  333332211     12467999999999999999999999999999999999999999
+
+
+Q ss_pred             ccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  157 KYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       157 kysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      ++.|..+|......   ... ...              ........+.++.++++|.+|++.+++|++.
+T Consensus       674 e~~L~~~w~~~~~~---~~~-~~~--------------~~~~~~~~~~~~~lr~~M~~Fv~~l~~Y~~~  724 (907)
+T 6X0U_B          674 EYILTDIRKGHMCN---AKL-LRN--------------MPEFSGVLHQCHILASEMVHFIHQMQYYITF  724 (907)
+T ss_pred             HHHHHHHHHHHHhc---hHH-hhc--------------ChhHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999865311   000 000              0111345667788999999999999999864
+
+
+No 11
+>7AS4_E Tubulin gamma-1 chain, Gamma-tubulin complex; microtubule organizing center, microtubule, gamma-tubulin; HET: GDP; 4.13A {Homo sapiens}
+Probab=99.52  E-value=1.1e-13  Score=126.50  Aligned_cols=190  Identities=18%  Similarity=0.250  Sum_probs=128.9  Template_Neff=8.900
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCCCCCCCCCCCcccccccccCCCC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPEDSSRKWRPGTVAHTCNASTLGGR   81 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqrypedssrkwrpgtvahtcnastlggr   81 (226)
+                      |.+||+.+++||||++|||+..|++.+++.+.++........++..++.+++.+........        ++......+.
+T Consensus       509 L~~~L~~lk~~fLl~~gdf~~~f~d~~~~eL~k~~~~~~~~~L~~ll~~al~~s~~~~d~~~--------d~l~~~l~~~  580 (902)
+T 7AS4_E          509 LVAHLRSIKRYFLMDQGDFFVHFMDLAEEELRKPVEDITPPRLEALLELALRMSTANTDPFK--------DDLKIDLMPH  580 (902)
+T ss_pred             HHHHHHHHHHHhcccCcHHHHHHHHHHHHHhcCCHHHcCHHHHHHHHHHHHhhccCCCCCch--------hcceEEecCc
+Confidence            67899999999999999999999999999998888888888899999998876542211000        0000000000
+
+
+Q ss_pred             CCCCCC-CCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhhcccce
+Q tr|A0A087X006|   82 GGGSPE-VRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKWAKYSL  160 (226)
+Q Consensus        82 gggspe-vrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikwakysl  160 (226)
+                      ...... +..+.....+.     ..............++.+.++|+++||+++||++.++.+|+.||++|+++|++++.|
+T Consensus       581 ~l~~q~~~i~~~~~~~~~-----~~~~~~~~~~~~~~~e~~~l~y~v~wPLslIi~~~~l~~Yq~IFr~L~~lk~~~~~L  655 (902)
+T 7AS4_E          581 DLITQLLRVLAIETKQEK-----AMAHADPTELALSGLEAFSFDYIVKWPLSLIINRKALTRYQMLFRHMFYCKHVERQL  655 (902)
+T ss_pred             CHHHHHHHHHccccchHH-----HHhcCCcchhhhccHHHeeEEEecCCCeEEeecHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            000000 00000000000     000001123346789999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  161 DVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       161 dvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      +++|....     ..+ ..               ........+..+.+|++|++|++++++|++.
+T Consensus       656 ~~~w~~~~-----~~k-~~---------------~~~~~~~~~~~~~Lr~~m~~fv~~l~~Y~~~  699 (902)
+T 7AS4_E          656 CSVWISNK-----TAK-QH---------------SLHSAQWFAGAFTLRQRMLNFVQNIQYYMMF  699 (902)
+T ss_pred             HHHHHHhh-----hhc-cC---------------ChhHHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Confidence            99999653     111 00               0011245678889999999999999999864
+
+
+No 12
+>7QJ9_G Assembly, Intermediate, Complex, CYTOSOLIC PROTEIN; 8.1A {Homo sapiens}
+Probab=99.52  E-value=1.1e-13  Score=126.50  Aligned_cols=167  Identities=20%  Similarity=0.364  Sum_probs=128.4  Template_Neff=8.900
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC---CCCCCCCCCcccccccccC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED---SSRKWRPGTVAHTCNASTL   78 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped---ssrkwrpgtvahtcnastl   78 (226)
+                      |.+||+.+++||||++|||+..|++.+++.+.++........++..++.+++.+....   ...                
+T Consensus       509 L~~~L~~lk~~fLl~~gdf~~~f~d~~~~eL~k~~~~~~~~~L~~ll~~al~~s~~~~d~~~d~----------------  572 (902)
+T 7QJ9_G          509 LVAHLRSIKRYFLMDQGDFFVHFMDLAEEELRKPVEDITPPRLEALLELALRMSTANTDPFKDD----------------  572 (902)
+T ss_dssp             HHHHHHHHHTTTSCSCCHHHHHHHHHHHHHHTSCTTSCCHHHHHHHHHHHHHHSSTTSCTTSSS----------------
+T ss_pred             HHHHHHHHHHHhcccCcHHHHHHHHHHHHHhcCCHHHcCHHHHHHHHHHHHhhccCCCCCchhc----------------
+Confidence            6789999999999999999999999999999998888899999999999997654321   111                
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcEEEEEEecc---------------------ccccccCCeeeeccceeeecCCCCceeEEee
+Q tr|A0A087X006|   79 GGRGGGSPEVRSSRPAWPTCLSISFENV---------------------DTAKKKLPVHILDGLTLSYKVPWPVDIVISL  137 (226)
+Q Consensus        79 ggrgggspevrssrpawptclsisfenv---------------------dtakkklpvhildgltlsykvpwpvdivisl  137 (226)
+                                          +.+.+...                     ...........++.+.++|+++||+++||++
+T Consensus       573 --------------------l~~~l~~~~l~~q~~~i~~~~~~~~~~~~~~~~~~~~~~~~e~~~l~y~v~wPLslIi~~  632 (902)
+T 7QJ9_G          573 --------------------LKIDLMPHDLITQLLRVLAIETKQEKAMAHADPTELALSGLEAFSFDYIVKWPLSLIINR  632 (902)
+T ss_dssp             --------------------EEEECCSSTTSSCC--------------------CCSSCSSSSCEEEECCCHHHHTTSCH
+T ss_pred             --------------------ceEEecCcCHHHHHHHHHccccchHHHHhcCCcchhhhccHHHeeEEEecCCCeEEeecH
+Confidence                                22211100                     0012233467799999999999999999999
+
+
+Q ss_pred             hhhhhhhhhhhhhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A087X006|  138 ECQKIYNQVFLLLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVN  217 (226)
+Q Consensus       138 ecqkiynqvfllllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvn  217 (226)
+                      .++.+|+.||++|+++|++++.|+++|....     ..+ ..               ........+..+.+|++|++|++
+T Consensus       633 ~~l~~Yq~IFr~L~~lk~~~~~L~~~w~~~~-----~~k-~~---------------~~~~~~~~~~~~~Lr~~m~~fv~  691 (902)
+T 7QJ9_G          633 KALTRYQMLFRHMFYCKHVERQLCSVWISNK-----TAK-QH---------------SLHSAQWFAGAFTLRQRMLNFVQ  691 (902)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-------------------------------CCCTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh-----hhc-cC---------------ChhHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999999999999999653     111 00               00112346778899999999999
+
+
+Q ss_pred             HHHHHHcC
+Q tr|A0A087X006|  218 SLHNYIMT  225 (226)
+Q Consensus       218 slhnyimt  225 (226)
+                      ++++|++.
+T Consensus       692 ~l~~Y~~~  699 (902)
+T 7QJ9_G          692 NIQYYMMF  699 (902)
+T ss_dssp             HHHHHCCC
+T ss_pred             HHHHHHhh
+Confidence            99999864
+
+
+No 13
+>6TF9_fP1 Helix 1, Belt helices 1,2,3,4; gamma-Tubulin Ring Complex, microtubule nucleation;{Xenopus laevis}
+Probab=99.52  E-value=3.2e-14  Score=132.03  Aligned_cols=165  Identities=24%  Similarity=0.329  Sum_probs=130.2  Template_Neff=8.300
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC-----CCCCCCCCCcccccccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED-----SSRKWRPGTVAHTCNAS   76 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped-----ssrkwrpgtvahtcnas   76 (226)
+                      |.+||+.+++||||++|||+..|++.+.+.+.++........|+..++.++..+....     ..+              
+T Consensus       554 L~~hL~~lk~y~LLg~GDF~~~f~e~l~~~L~kp~~~~~~~~L~~~L~~air~s~~~~~~~~~l~r--------------  619 (906)
+T 6TF9_fP1        554 LLEHMQAMRRYLLLGQGDFIRHLMDLLKPELVRPATTLYQHNLTGILETAVRATNAQFDNPEILKR--------------  619 (906)
+T ss_pred             HHHHHHHHHHHhhcCCcHHHHHHHHhhHHHHcCChhHhcHHHHHHHHHHHHHHhccccCCHHHHHh--------------
+Confidence            6789999999999999999999999999999999888888899999999987653211     122              
+
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEeehhhhhhhhhhhhhhhhhhc
+Q tr|A0A087X006|   77 TLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISLECQKIYNQVFLLLLQIKWA  156 (226)
+Q Consensus        77 tlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivislecqkiynqvfllllqikwa  156 (226)
+                                            +.+.+....     .+...|+.+.|+|+++||+++||++.++.+|++||+|||++|++
+T Consensus       620 ----------------------l~v~l~~~~-----~~~~gwd~f~L~Y~v~~PL~~Ilt~~~~~~Y~~iF~fL~~lKr~  672 (906)
+T 6TF9_fP1        620 ----------------------LDVRLLEVS-----PGDTGWDVFSLDYHVDGPIATVFTRECMSHYLRVFNFLWRAKRM  672 (906)
+T ss_pred             ----------------------cCcccccCC-----CCCCcceeEEEEEEcCCCcccccCHHHHHHHHHHHHHHHHHHHH
+Confidence                                  333332211     22467999999999999999999999999999999999999999
+
+
+Q ss_pred             ccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  157 KYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       157 kysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      ++.|..+|....     ... +..  ..          ........++++.++.+|.+|++.+++|++.
+T Consensus       673 e~~L~~~W~~~~-----~~~-~~~--~~----------~~~~~~~~~~~~~Lr~~M~~Fv~~l~~Yi~~  723 (906)
+T 6TF9_fP1        673 EYILTDIWKGHM-----CNA-KLL--KG----------MPELSGVLHQCHILASEMVHFIHQMQYYITF  723 (906)
+T ss_pred             HHHHHHHHHHHH-----hhh-HHh--cC----------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            999999998653     111 000  00          1122346678889999999999999999864
+
+
+No 14
+>7M2W_H Tubulin gamma chain, Spindle pole; microtubule nucleation, CELL CYCLE; HET: GTP; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.42  E-value=7e-13  Score=118.75  Aligned_cols=171  Identities=19%  Similarity=0.219  Sum_probs=132.4  Template_Neff=9.400
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC----------CCCCCCCCCccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED----------SSRKWRPGTVAH   71 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped----------ssrkwrpgtvah   71 (226)
+                      |.+|++.+++|+||++|||+..|++.+++.+.++........++..+++|+..+....          ..+         
+T Consensus       470 L~~hl~~Lk~~~Ll~~gdF~~~l~~~l~~~l~~~~~~l~~~~L~~~L~~ai~~s~~~~~~~~~~~~~~l~~---------  540 (846)
+T 7M2W_H          470 YRDVVFALKNILLMGKSDFMDALIEKANDILATPSDSLPNYKLTRVLQEAVQLSSLRHLMNSPRNSSVING---------  540 (846)
+T ss_dssp             HHHHHHHHHTTTSCSCHHHHHHHHHHTHHHHTSCSSCCCSSHHHHHHHHHHHTSTTHHHHTCSSSHHHHTT---------
+T ss_pred             HHHHHHHHHHHHccCCcHHHHHHHHHHHHHhcCCcccCCHHHHHHHHHHHHHHhcHhhhcCCCCchHHHcC---------
+Confidence            6789999999999999999999999999999998888888999999999998765321          223         
+
+
+Q ss_pred             ccccccCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEee---hhhhhhhhhhh
+Q tr|A0A087X006|   72 TCNASTLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISL---ECQKIYNQVFL  148 (226)
+Q Consensus        72 tcnastlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivisl---ecqkiynqvfl  148 (226)
+                                                 +.+.+...     ..+...|+.++|+|++|||+++||++   .++.+|++||+
+T Consensus       541 ---------------------------ld~r~l~~-----~~~~~~~d~f~L~Y~~~~PL~~Il~~~t~~~~~~Y~~IF~  588 (846)
+T 7M2W_H          541 ---------------------------LDARVLDL-----GHGSVGWDVFTLDYILYPPLSLVLNVNRPFGRKEYLRIFN  588 (846)
+T ss_dssp             ---------------------------EEEEECCC-----CTTCCHHHHEEEEECCCTTHHHHSCCSCTTSCCHHHHHHH
+T ss_pred             ---------------------------CeEEEecC-----CCCCcceEEEEEEEEcCCchhhheeCCCchHHHHHHHHHH
+Confidence                                       55544332     23457899999999999999999954   89999999999
+
+
+Q ss_pred             hhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Q tr|A0A087X006|  149 LLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIM  224 (226)
+Q Consensus       149 lllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyim  224 (226)
+                      |||+++++++.|...|...... .+..+ +.+   .      ..+.........+.++.++++|++|++.+++|++
+T Consensus       589 fL~~lk~~~~~L~~~w~~~~~~-~r~~~-~~~---~------~~~~~~~~~~~~~~~~~lr~~m~~Fv~~l~~Y~~  653 (846)
+T 7M2W_H          589 FLWRFKKNNYFYQKEMLKSNDI-IRSFK-KIR---G------YNPLIRDIINKLSRISILRTQFQQFNSKMESYYL  653 (846)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH-HHTCC-CCT---T------SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhHH-HHHHh-hhc---C------CCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999865311 00000 000   0      0000123346678899999999999999999986
+
+
+No 15
+>7M2Z_C Tubulin gamma chain, Spindle pole; microtubule nucleation, CELL CYCLE; HET: GDP; 3.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.42  E-value=7e-13  Score=118.75  Aligned_cols=172  Identities=19%  Similarity=0.218  Sum_probs=132.2  Template_Neff=9.400
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCCC----------CCCCCCCCCccc
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPED----------SSRKWRPGTVAH   71 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqryped----------ssrkwrpgtvah   71 (226)
+                      |.+|++.+++|+||++|||+..|++.+++.+.++........++..+++|+..+....          ..+         
+T Consensus       470 L~~hl~~Lk~~~Ll~~gdF~~~l~~~l~~~l~~~~~~l~~~~L~~~L~~ai~~s~~~~~~~~~~~~~~l~~---------  540 (846)
+T 7M2Z_C          470 YRDVVFALKNILLMGKSDFMDALIEKANDILATPSDSLPNYKLTRVLQEAVQLSSLRHLMNSPRNSSVING---------  540 (846)
+T ss_dssp             TTTHHHHHHHHTTCCSHHHHHHHHHHTHHHHTCSCSSCCHHHHHHHHHHHHHHSTTHHHHHCSTTTHHHHT---------
+T ss_pred             HHHHHHHHHHHHccCCcHHHHHHHHHHHHHhcCCcccCCHHHHHHHHHHHHHHhcHhhhcCCCCchHHHcC---------
+Confidence            6789999999999999999999999999999998888899999999999998765321          122         
+
+
+Q ss_pred             ccccccCCCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCCCceeEEee---hhhhhhhhhhh
+Q tr|A0A087X006|   72 TCNASTLGGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPWPVDIVISL---ECQKIYNQVFL  148 (226)
+Q Consensus        72 tcnastlggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpwpvdivisl---ecqkiynqvfl  148 (226)
+                                                 +.+.+...     ..+...|+.++|+|++|||+++||++   .++.+|++||+
+T Consensus       541 ---------------------------ld~r~l~~-----~~~~~~~d~f~L~Y~~~~PL~~Il~~~t~~~~~~Y~~IF~  588 (846)
+T 7M2Z_C          541 ---------------------------LDARVLDL-----GHGSVGWDVFTLDYILYPPLSLVLNVNRPFGRKEYLRIFN  588 (846)
+T ss_dssp             ---------------------------EEEECCCS-----CSSSTTTTTCEEEECCCTTHHHHSCCCCTTSCCHHHHHHH
+T ss_pred             ---------------------------CeEEEecC-----CCCCcceEEEEEEEEcCCchhhheeCCCchHHHHHHHHHH
+Confidence                                       44443222     23456799999999999999999954   89999999999
+
+
+Q ss_pred             hhhhhhhcccceeeeeeceecccCCCCccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  149 LLLQIKWAKYSLDVLLFGELVSTAEKPRLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       149 lllqikwakysldvllfgelvstaekprlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      |||+++++++.|...|...... .+..+ +.+   .      ..+.........+.++.++++|++|++.+++|++.
+T Consensus       589 fL~~lk~~~~~L~~~w~~~~~~-~r~~~-~~~---~------~~~~~~~~~~~~~~~~~lr~~m~~Fv~~l~~Y~~~  654 (846)
+T 7M2Z_C          589 FLWRFKKNNYFYQKEMLKSNDI-IRSFK-KIR---G------YNPLIRDIINKLSRISILRTQFQQFNSKMESYYLN  654 (846)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH-HHHHT-TTT---T------SCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHhHH-HHHHh-hhc---C------CCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999999999999865310 00000 000   0      00001233466788999999999999999999874
+
+
+No 16
+>7ANZ_D Tubulin gamma chain, Spindle pole; gamma-Tubulin Small Complex, Cytoskeleton, Microtubule;{Candida albicans}
+Probab=99.38  E-value=1.6e-12  Score=115.87  Aligned_cols=170  Identities=17%  Similarity=0.206  Sum_probs=133.9  Template_Neff=9.300
+
+Q ss_pred             CHHHHHHHHHHhccCCCchHHHHHHHHHHHHHccCCccchhhhhHHHHHHHcccCCC---CCCCCCCCCCcccccccccC
+Q tr|A0A087X006|    2 LVEYLQAMRNFFLMEGGDTMYDFYTSIFDKIREKETWQNVSFLNVQLQEAVGQRYPE---DSSRKWRPGTVAHTCNASTL   78 (226)
+Q Consensus         2 lveylqamrnfflmeggdtmydfytsifdkireketwqnvsflnvqlqeavgqrype---dssrkwrpgtvahtcnastl   78 (226)
+                      |.+|+..+++++||++|||+..|++.+++.+.++........++..+++|+..+...   ....                
+T Consensus       432 L~~hl~~l~~~~Ll~~gdF~~~l~~~l~~~l~~~~~~~~~~~L~~~l~~ai~~s~~~~~~~~~~----------------  495 (785)
+T 7ANZ_D          432 LFTHVYNFKRFYFMETNDFIDAIMVKGKDVFNESSVNISSTYLRKVLQDAIQISSVKNFEYVDR----------------  495 (785)
+T ss_dssp             HHHHHHHHHHHHSCSCHHHHHHHHHTTTTTTTSCTTCCSSSSHHHHHHHHHHHSGGGTSSCCTT----------------
+T ss_pred             HHHHHHHHHHHHccCCChHHHHHHHhcHHHhcCCCcccCHHHHHHHHHHHHHHhcccccHHHcc----------------
+Confidence            678999999999999999999999999999998888888899999999999765332   1223                
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCcEEEEEEeccccccccCCeeeeccceeeecCCC-CceeEEeehhhhhhhhhhhhhhhhhhcc
+Q tr|A0A087X006|   79 GGRGGGSPEVRSSRPAWPTCLSISFENVDTAKKKLPVHILDGLTLSYKVPW-PVDIVISLECQKIYNQVFLLLLQIKWAK  157 (226)
+Q Consensus        79 ggrgggspevrssrpawptclsisfenvdtakkklpvhildgltlsykvpw-pvdivislecqkiynqvfllllqikwak  157 (226)
+                                          +.+.+....     .+...|+.++++|++|| |+++||+++++.+|++||+|||++++++
+T Consensus       496 --------------------ld~~~l~~~-----~~~~gwd~f~L~Y~v~~~PL~~i~t~~~~~~Y~~iF~fL~~lkr~~  550 (785)
+T 7ANZ_D          496 --------------------LDSRVLNPQ-----HGNLGWESFTIEYKIDDLPMSYLFEGHQHLQYLKMFHFLWKLRQLN  550 (785)
+T ss_dssp             --------------------EEEEESCTT-----TCCCTTTSEEEEECCCSSSCCCSCCGGGTHHHHHHHHHHHHHHHHH
+T ss_pred             --------------------eEEEECCCC-----CCCccceeEEEEEEcCCCCccccCCHHHHHHHHHHHHHHHHHHHHH
+Confidence                                555543322     34578999999999999 9999999999999999999999999999
+
+
+Q ss_pred             cceeeeeeceecccCCCC-ccccCcccccccccccCCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q tr|A0A087X006|  158 YSLDVLLFGELVSTAEKP-RLKEGLIHEQDTVAQFGPQKEPVRQQIHRMFLLRVKLMHFVNSLHNYIMT  225 (226)
+Q Consensus       158 ysldvllfgelvstaekp-rlkegliheqdtvaqfgpqkepvrqqihrmfllrvklmhfvnslhnyimt  225 (226)
+                      +.|.+.|...... .+.. . +.+  ..         ..+......+.++.+|++|++|++++++|++.
+T Consensus       551 ~~L~~~w~~~~~~-~~~~~~-~~~--~~---------~~~~~~~~~~~~~~lr~~m~~Fi~~l~~Y~~~  606 (785)
+T 7ANZ_D          551 NLLNWHFEMFNEL-NHNVVT-KLS--SR---------NRRPLAKSLSIITSIRFHFTQFLNELIAYLSY  606 (785)
+T ss_dssp             HTTHHHHHHHHHH-HHHTGG-GST--TT---------SHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHH-HHHHHH-Hhh--hc---------CChhHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            9999999864310 0000 0 000  00         01233467899999999999999999999864
+
+
+No 17
+>6NPP_B Epstein-Barr nuclear antigen 1; EBNA1, DNA binding protein, Epstein-Barr; HET: KWG; 1.35A {Epstein-Barr virus (strain B95-8)}
+Probab=35.56  E-value=96  Score=27.53  Aligned_cols=12  Identities=17%  Similarity=0.606  Sum_probs=7.6  Template_Neff=2.000
+
+Q ss_pred             HHHHHHHHHcCC
+Q tr|A0A087X006|  215 FVNSLHNYIMTR  226 (226)
+Q Consensus       215 fvnslhnyimtr  226 (226)
+                      .-+++..||+++
+T Consensus       102 ~kDai~Dyi~T~  113 (134)
+T 6NPP_B          102 LKDAIKDLVMTK  113 (134)
+T ss_dssp             HHHHHHHHHTTS
+T ss_pred             HHHHHHHHHhcC
+Confidence            346677777653
+
+
+No 18
+>1B3T_B EBNA-1 NUCLEAR PROTEIN/DNA COMPLEX; NUCLEAR PROTEIN, PROTEIN-DNA COMPLEX, DNA-BINDING; 2.2A {Human herpesvirus 4} SCOP: d.58.8.1
+Probab=34.44  E-value=1e+02  Score=27.73  Aligned_cols=12  Identities=17%  Similarity=0.606  Sum_probs=7.7  Template_Neff=2.000
+
+Q ss_pred             HHHHHHHHHcCC
+Q tr|A0A087X006|  215 FVNSLHNYIMTR  226 (226)
+Q Consensus       215 fvnslhnyimtr  226 (226)
+                      .-+++..||+++
+T Consensus       115 ~kDai~Dyi~T~  126 (147)
+T 1B3T_B          115 LKDAIKDLVMTK  126 (147)
+T ss_dssp             HHHHHHHHHTTS
+T ss_pred             HHHHHHHHHhcC
+Confidence            346777777654
+
+
+No 19
+>6VH6_B Epstein-Barr nuclear antigen 1; EBNA1, DNA binding protein, Epstein-Barr; HET: QX4; 1.3A {Epstein-Barr virus (strain B95-8)}
+Probab=29.56  E-value=1.5e+02  Score=26.61  Aligned_cols=10  Identities=20%  Similarity=0.571  Sum_probs=6.3  Template_Neff=2.000
+
+Q ss_pred             HHHHHHHHcC
+Q tr|A0A087X006|  216 VNSLHNYIMT  225 (226)
+Q Consensus       216 vnslhnyimt  225 (226)
+                      -+++..||.+
+T Consensus       111 kDai~Dyi~t  120 (142)
+T 6VH6_B          111 KDAIKDLVMT  120 (142)
+T ss_dssp             HHHHHHHHTT
+T ss_pred             HHHHHHHhhc
+Confidence            4566677765
+
+
+No 20
+>6NBG_A Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: PO4, MSE; 2.05A {Klebsiella pneumoniae}
+Probab=20.95  E-value=1.5e+02  Score=22.90  Aligned_cols=10  Identities=20%  Similarity=0.248  Sum_probs=3.8  Template_Neff=10.500
+
+Q ss_pred             hHHHHHHHHH
+Q tr|A0A087X006|   20 TMYDFYTSIF   29 (226)
+Q Consensus        20 tmydfytsif   29 (226)
+                      ....+++.+.
+T Consensus        42 t~~~~~~~l~   51 (242)
+T 6NBG_A           42 TPKRMYEHLT   51 (242)
+T ss_dssp             TTHHHHHHHH
+T ss_pred             ChHHHHHHHH
+Confidence            3333333333
+
+
+No 21
+>6NBG_D Hypothetical Protein CD630_05490; Structural Genomics, Center for Structural; HET: PO4, MSE; 2.05A {Klebsiella pneumoniae}
+Probab=20.95  E-value=1.5e+02  Score=22.90  Aligned_cols=10  Identities=20%  Similarity=0.248  Sum_probs=3.7  Template_Neff=10.500
+
+Q ss_pred             hHHHHHHHHH
+Q tr|A0A087X006|   20 TMYDFYTSIF   29 (226)
+Q Consensus        20 tmydfytsif   29 (226)
+                      ....+++.+.
+T Consensus        42 t~~~~~~~l~   51 (242)
+T 6NBG_D           42 TPKRMYEHLT   51 (242)
+T ss_dssp             TTHHHHHHHH
+T ss_pred             ChHHHHHHHH
+Confidence            3333333333
+
+

@@ -1,0 +1,169 @@
+Query         tr|B1AKB9|B1AKB9_HUMAN
+Match_columns 142
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:44:21 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0621.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6SJV_A Maltodextrin-binding pr  52.2      20 0.00022   29.4   1.8   31  101-131   434-482 (543)
+  2 6SLM_A Maltodextrin-binding pr  30.3      68 0.00073   26.4   1.6   31  101-131   432-480 (551)
+  3 3JB9_e Pre-mRNA-splicing facto  26.6      36 0.00039   25.3  -0.4    9  100-108    99-107 (146)
+  4 3PY7_A Maltose-binding peripla  19.5 1.2E+02  0.0013   24.5   1.2   30  101-130   434-481 (523)
+  5 2N2S_A pheromone Ep-1; WATER-B  16.7 1.8E+02  0.0019   19.5   1.3   14  128-141     2-16  (32)
+  6 7BUJ_B Cyclic GMP-AMP synthase  15.2 9.5E+02    0.01   21.0   5.4   11   52-62     66-76  (447)
+  7 7QBT_C Radical SAM, B12 bindin  13.8 2.6E+02  0.0028   24.2   1.9   29  103-131    37-66  (436)
+  8 7QBU_A Radical SAM, B12 bindin  13.8 2.6E+02  0.0028   24.2   1.9   29  103-131    37-66  (436)
+  9 7QBU_B Radical SAM, B12 bindin  13.8 2.6E+02  0.0028   24.2   1.9   29  103-131    37-66  (436)
+ 10 5G23_A TYPE-IV LIKE PILIN TTHA  12.4 4.8E+02  0.0052   20.7   2.8   24   15-38    187-212 (236)
+
+No 1
+>6SJV_A Maltodextrin-binding protein,Interferon regulatory factor 3; HPV18 E6 protein, E6AP, LxxLL; HET: GLC; 2.029A {Escherichia coli}
+Probab=52.25  E-value=20  Score=29.35  Aligned_cols=31  Identities=26%  Similarity=0.469  Sum_probs=25.5  Template_Neff=10.200
+
+Q ss_pred             Ccchhhhhhchhhhhh------------------hhccccccCCCCCCC
+Q tr|B1AKB9|B1AK  101 DCCVHCILSCLFCEFL------------------TLCNIVLDCATCGSC  131 (142)
+Q Consensus       101 dccvhcilsclfcefl------------------tlcnivldcatcgsc  131 (142)
+                      .||..|+..+++-|+.                  .|++|.+.|-.|++-
+T Consensus       434 ~~c~~c~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~rc~~c~~~  482 (543)
+T 6SJV_A          434 AACHKCIDFYSRIRELRHYSDSVYGDTLEKLTNTGLYNLLIRCLRCQKP  482 (543)
+T ss_dssp             ECCHHHHHHHHHHHHHHTEEEEECHHHHHHHHTSCTTTCCCBBTTTCCB
+T ss_pred             eecHHHHHHHHHHHHHHcCccceeHHHHHHHhCCChhhceeeeCCCCCC
+Confidence            5899999988888764                  378999999999864
+
+
+No 2
+>6SLM_A Maltodextrin-binding protein,Protein E6; viral protein, ONCOPROTEIN; HET: GOL, GLC; 2.8A {Escherichia coli (strain K12)}
+Probab=30.31  E-value=68  Score=26.43  Aligned_cols=31  Identities=23%  Similarity=0.553  Sum_probs=21.1  Template_Neff=10.300
+
+Q ss_pred             Ccchhhhhhchhh---------------hhh---hhccccccCCCCCCC
+Q tr|B1AKB9|B1AK  101 DCCVHCILSCLFC---------------EFL---TLCNIVLDCATCGSC  131 (142)
+Q Consensus       101 dccvhcilsclfc---------------efl---tlcnivldcatcgsc  131 (142)
+                      .||..|+..++-.               |.+   -|++|++.|..|+.-
+T Consensus       432 ~~c~~c~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~rc~~c~~~  480 (551)
+T 6SLM_A          432 GVCTKCLRFYSKVSEFRWYRYSVYGTTLEKLTNKGISDLLIRCITCQRP  480 (551)
+T ss_dssp             ECCHHHHHHHHHHHHHHSEEEEECHHHHHHHHTSCGGGSCCEETTTCCB
+T ss_pred             EecHHHHHHHHHHHHhhcceEEEEhHhhHHHhCCCHhheeeeecCCCCC
+Confidence            4788888653332               222   278999999999864
+
+
+No 3
+>3JB9_e Pre-mRNA-splicing factor spp42, Pre-mRNA-splicing factor; Spliceosome, U2/U5/U6, Lariat, RNA BINDING; HET: ADP, GDP; 3.6A {Schizosaccharomyces pombe 972h-}
+Probab=26.63  E-value=36  Score=25.34  Aligned_cols=9  Identities=44%  Similarity=1.350  Sum_probs=6.6  Template_Neff=7.600
+
+Q ss_pred             CCcchhhhh
+Q tr|B1AKB9|B1AK  100 EDCCVHCIL  108 (142)
+Q Consensus       100 edccvhcil  108 (142)
+                      .-||++||-
+T Consensus        99 ~lcc~~~i~  107 (146)
+T 3JB9_e           99 KLCCLRCIQ  107 (146)
+T ss_pred             cceeEEeee
+Confidence            458888883
+
+
+No 4
+>3PY7_A Maltose-binding periplasmic protein; VIRAL PROTEIN; HET: GLC; 2.288A {Escherichia coli}
+Probab=19.51  E-value=1.2e+02  Score=24.51  Aligned_cols=30  Identities=33%  Similarity=0.785  Sum_probs=22.2  Template_Neff=10.700
+
+Q ss_pred             Ccchhhhhhchhhhhh------------------hhccccccCCCCCC
+Q tr|B1AKB9|B1AK  101 DCCVHCILSCLFCEFL------------------TLCNIVLDCATCGS  130 (142)
+Q Consensus       101 dccvhcilsclfcefl------------------tlcnivldcatcgs  130 (142)
+                      .||..|+..+...|+.                  .|.+|.+.|..|..
+T Consensus       434 ~~c~~c~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~rc~~c~~  481 (523)
+T 3PY7_A          434 GACTICLENCLATERRLWQGVPVTGEEAELLHGKTLDRLCIRCCYCGG  481 (523)
+T ss_dssp             ECCHHHHHHHHHHHHHHSCCEEECHHHHHHHTTSCGGGSCCEETTTCC
+T ss_pred             EecHHHHHHHHHHHHHHcCCccEEHHHHHHHHCCCHHHCeeehhhCCC
+Confidence            4888898888776654                  36677888888764
+
+
+No 5
+>2N2S_A pheromone Ep-1; WATER-BORNE PHEROMONE, ALPHA-HELICAL PROTEIN, DISULPHIDE-RICH; NMR {Euplotes petzi}
+Probab=16.73  E-value=1.8e+02  Score=19.48  Aligned_cols=14  Identities=57%  Similarity=1.628  Sum_probs=8.9  Template_Neff=1.000
+
+Q ss_pred             CCC-CCCCCCeeecc
+Q tr|B1AKB9|B1AK  128 CGS-CSSEDSCLCCC  141 (142)
+Q Consensus       128 cgs-cssedsclccc  141 (142)
+                      ||| |..|..|+-||
+T Consensus         2 cgsecapepdcwgcc   16 (32)
+T 2N2S_A            2 CGSECAPEPDCWGCC   16 (32)
+T ss_dssp             CCSTTCSSTTTHHHH
+T ss_pred             CCcccCCCCCcceee
+Confidence            444 66777777655
+
+
+No 6
+>7BUJ_B Cyclic GMP-AMP synthase (E.C.2.7.7.86); mcGAS, DNA-bingding, activator, inverted-orientation, IMMUNE; HET: GTP, 5GP; 2.13A {Mus musculus}
+Probab=15.21  E-value=9.5e+02  Score=21.04  Aligned_cols=11  Identities=27%  Similarity=0.513  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|B1AKB9|B1AK   52 TRRAGNGALGG   62 (142)
+Q Consensus        52 trragngalgg   62 (142)
+                      +++.++..+|.
+T Consensus        66 ~~~~~~~~~~~   76 (447)
+T 7BUJ_B           66 SHRRGARSTGQ   76 (447)
+T ss_dssp             -----------
+T ss_pred             CccCCCccCCC
+Confidence            44445554443
+
+
+No 7
+>7QBT_C Radical SAM, B12 binding, methyltransferase; HET: COB, MTA, SF4; 1.9A {Methanosarcina acetivorans}
+Probab=13.76  E-value=2.6e+02  Score=24.16  Aligned_cols=29  Identities=31%  Similarity=0.640  Sum_probs=18.2  Template_Neff=8.300
+
+Q ss_pred             chhhhhhchhhhhhhhccc-cccCCCCCCC
+Q tr|B1AKB9|B1AK  103 CVHCILSCLFCEFLTLCNI-VLDCATCGSC  131 (142)
+Q Consensus       103 cvhcilsclfcefltlcni-vldcatcgsc  131 (142)
+                      -..|-+.|.||-|-.+-+. -+.|..|..|
+T Consensus        37 ~~~C~~~C~yCy~~~~~~~~~~gC~yC~~~   66 (436)
+T 7QBT_C           37 GVDCKGFCKYCYFKKVKDIQPLGCKYCLPF   66 (436)
+T ss_dssp             TTTTTSCCTTCTTTTCCCCCCCCCTTSCTT
+T ss_pred             cCCCCCCcccccCCCCCCCCCCCCCCCCCc
+Confidence            3467777888877654443 3567666554
+
+
+No 8
+>7QBU_A Radical SAM, B12 binding, methyltransferase; HET: COB, PEG, MTA, SF4; 2.298A {Methanosarcina acetivorans}
+Probab=13.76  E-value=2.6e+02  Score=24.16  Aligned_cols=29  Identities=31%  Similarity=0.640  Sum_probs=18.0  Template_Neff=8.300
+
+Q ss_pred             chhhhhhchhhhhhhhccc-cccCCCCCCC
+Q tr|B1AKB9|B1AK  103 CVHCILSCLFCEFLTLCNI-VLDCATCGSC  131 (142)
+Q Consensus       103 cvhcilsclfcefltlcni-vldcatcgsc  131 (142)
+                      -..|-+.|.||-|-.+-+. -+.|..|..|
+T Consensus        37 ~~~C~~~C~yCy~~~~~~~~~~gC~yC~~~   66 (436)
+T 7QBU_A           37 GVDCKGFCKYCYFKKVKDIQPLGCKYCLPF   66 (436)
+T ss_dssp             TTTTTSCCTTCTTTTCCCCCCCCCTTSBTT
+T ss_pred             cCCCCCCcccccCCCCCCCCCCCCCCCCCc
+Confidence            3467777888877654443 3566666544
+
+
+No 9
+>7QBU_B Radical SAM, B12 binding, methyltransferase; HET: COB, PEG, MTA, SF4; 2.298A {Methanosarcina acetivorans}
+Probab=13.76  E-value=2.6e+02  Score=24.16  Aligned_cols=29  Identities=31%  Similarity=0.640  Sum_probs=18.1  Template_Neff=8.300
+
+Q ss_pred             chhhhhhchhhhhhhhccc-cccCCCCCCC
+Q tr|B1AKB9|B1AK  103 CVHCILSCLFCEFLTLCNI-VLDCATCGSC  131 (142)
+Q Consensus       103 cvhcilsclfcefltlcni-vldcatcgsc  131 (142)
+                      -..|-+.|.||-|-.+-+. -+.|..|..|
+T Consensus        37 ~~~C~~~C~yCy~~~~~~~~~~gC~yC~~~   66 (436)
+T 7QBU_B           37 GVDCKGFCKYCYFKKVKDIQPLGCKYCLPF   66 (436)
+T ss_dssp             TTTTTSCCTTCTTTTCCSCCCCCCTTSCTT
+T ss_pred             cCCCCCCcccccCCCCCCCCCCCCCCCCCc
+Confidence            3467777888877654443 3567666554
+
+
+No 10
+>5G23_A TYPE-IV LIKE PILIN TTHA1219; STRUCTURAL PROTEIN, NATURAL COMPETENCE, TYPE; 1.85A {THERMUS THERMOPHILUS}
+Probab=12.44  E-value=4.8e+02  Score=20.74  Aligned_cols=24  Identities=33%  Similarity=0.459  Sum_probs=18.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCCCCC--CCCCCCCCCCCC
+Q tr|B1AKB9|B1AK   15 PYGAPSAAPGPG--QPQGNPLGCTPL   38 (142)
+Q Consensus        15 pygapsaapgpg--qpqgnplgctpl   38 (142)
+                      --|+|+..||..  +|+|+.+.|.-+
+T Consensus       187 ~~~~~~~~~~~~~~~~~~~~~~~~~~  212 (236)
+T 5G23_A          187 RGGAPAFTPGSTLSYPPGLTSSLLEL  212 (236)
+T ss_dssp             TTCCCCCCTTTTCCCCTTCCTTTTTC
+T ss_pred             CCCCCCCCCCCcccCCCCCcchhhcC
+Confidence            347788888887  899999875433
+
+

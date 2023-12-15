@@ -1,0 +1,401 @@
+Query         tr|C9IYI4|C9IYI4_HUMAN
+Match_columns 60
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 17:11:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0977.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6RM3_LBB uL2, uS2, uL15, eS26,  99.7 8.3E-19   9E-24   98.2   1.2   48    1-48      1-48  (55)
+  2 4V8P_HT Ribosome; RIBOSOME, EU  99.7   1E-18 1.1E-23  101.4   1.4   49    1-49      1-49  (66)
+  3 3J79_4 PROTEIN/RNA Complex; em  99.7 7.9E-19 8.6E-24  101.6   0.8   49    1-49      1-49  (67)
+  4 7QEP_N9 genome decay, microbia  99.7 1.3E-18 1.4E-23   97.7   1.4   50    1-50      1-50  (57)
+  5 5XXB_a uL2, uL3, uL4, uL18, eL  99.7 2.3E-18 2.5E-23   96.4   1.3   49    1-49      1-49  (54)
+  6 5XY3_b Ribosomal protein L8, p  99.7 6.3E-18 6.9E-23   94.8   1.2   50    1-50      1-50  (58)
+  7 6ZMI_Lb 60S ribosomal protein   99.7 6.8E-18 7.4E-23  109.7   1.0   50    1-50      1-50  (159)
+  8 7LS2_V2 ribosome, regulation,   99.7 8.5E-18 9.2E-23  110.2   0.6   50    1-50      1-50  (160)
+  9 4V7E_Cb Ribosome; eukaryotic r  99.7 1.8E-17 1.9E-22   93.0   0.9   49    1-49      1-49  (60)
+ 10 6FTG_b Uncharacterized protein  99.7 2.3E-17 2.5E-22   93.5   0.6   48    2-49      1-48  (75)
+ 11 6SWA_Z 60S ribosomal protein L  99.7 3.8E-17 4.1E-22   91.9   1.1   46    2-47      1-46  (68)
+ 12 6QZP_Lb Human 80S ribosome, rR  99.7 4.1E-17 4.5E-22  100.8   1.3   49    2-50      1-49  (109)
+ 13 3JBP_A4 PROTEIN/RNA Complex; R  99.6 4.6E-17   5E-22   93.7   0.8   48    2-49      1-48  (66)
+ 14 5TBW_DD ?; Protein translation  99.6 4.5E-17 4.8E-22   90.3   0.6   47    2-48      1-47  (58)
+ 15 6T4Q_Lb 40S ribosomal protein   99.6 4.5E-17 4.8E-22   90.3   0.6   47    2-48      1-47  (58)
+ 16 6ZU5_LBB uL2, uL15, uL3, eL29,  99.6 5.8E-17 6.3E-22   92.6   0.7   46    1-47      1-46  (64)
+ 17 6XA1_Lb translation terminatio  99.6 1.3E-16 1.4E-21   99.7   1.1   49    2-50      1-49  (121)
+ 18 5IT7_bb KLLA0D16027p, 60S ribo  99.6 1.1E-16 1.2E-21   88.2   0.6   47    3-49      1-47  (57)
+ 19 6XU6_Cb Specialised ribosome,   99.6 9.9E-17 1.1E-21   96.0   0.5   49    2-50      1-49  (75)
+ 20 6XU8_Cb Specialised ribosome,   99.6 9.9E-17 1.1E-21   96.0   0.5   49    2-50      1-49  (75)
+ 21 6AZ3_b ribosomal protein uL2,   99.6 2.2E-16 2.4E-21   92.1   1.6   48    2-49      1-49  (68)
+ 22 6ZJ3_Lq Ribosomal protein eS1,  99.6 2.6E-16 2.8E-21  101.2   1.8   48    1-48      1-48  (117)
+ 23 6R5Q_b X-box-binding protein 1  99.6 1.6E-16 1.7E-21   97.0   0.6   49    2-50      1-49  (104)
+ 24 6D90_b Ribosome; ribosome, mam  99.6 3.8E-16 4.1E-21  111.4   0.9   47    1-47      1-47  (226)
+ 25 7O7Y_Bb Frameshift, virus, pse  99.6 1.1E-15 1.2E-20  110.8   0.9   49    1-49      1-49  (245)
+ 26 5T5H_d PROTEIN/RNA Complex; Tr  99.5 3.6E-15 3.9E-20   86.6   0.9   44    6-49      1-45  (63)
+
+No 1
+>6RM3_LBB uL2, uS2, uL15, eS26, uL3; Microsporidia, Ribosome, Intracellular Parasite; HET: MG; 3.4A {Vairimorpha necatrix}
+Probab=99.74  E-value=8.3e-19  Score=98.15  Aligned_cols=48  Identities=35%  Similarity=0.419  Sum_probs=46.3  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCC
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGS   48 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgs   48 (60)
+                      |||++|||+|||+++||+|||++|+.+++++++||||+||||++||--
+T Consensus         1 maksknht~~nq~~k~hrngIkkp~~~r~~s~kGv~pkflrN~~fakk   48 (55)
+T 6RM3_LBB          1 MAKKKNGTLANKNYKDHRNGIKRQKIGKLLELPGVNQKFLRNMKYARE   48 (55)
+T ss_pred             CCCCCCCCccchHHHHhHcCCCCCCCcccccCCCCCHHHHHHHHHHHH
+Confidence            899999999999999999999999999999999999999999999853
+
+
+No 2
+>4V8P_HT Ribosome; RIBOSOME, EUKARYOTIC INITIATION FACTOR 6; HET: ZN, MG; 3.52A {TETRAHYMENA THERMOPHILA}
+Probab=99.74  E-value=1e-18  Score=101.41  Aligned_cols=49  Identities=47%  Similarity=0.455  Sum_probs=46.9  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |||++|||+|||+++||+|||++|+.+++++++||||+||||++||--.
+T Consensus         1 maksknht~hnq~~k~hrNGIKKp~~~r~~s~kGvdpkflrN~~~akk~   49 (66)
+T 4V8P_HT           1 MAKSKNSTNKNQISKSHRNGIKKPKDHRHISTKGVNPRFLRNRRRAIKN   49 (66)
+T ss_pred             CCCCCCcCccchHHHHHHcCCCCCCcccCcccCCCChHHHHcHHHHHHh
+Confidence            8999999999999999999999999999999999999999999998644
+
+
+No 3
+>3J79_4 PROTEIN/RNA Complex; emetine, RIBOSOME-INHIBITOR complex; HET: MG; 3.2A {Plasmodium falciparum}
+Probab=99.74  E-value=7.9e-19  Score=101.56  Aligned_cols=49  Identities=47%  Similarity=0.647  Sum_probs=46.9  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |||++|||+|||+++||+|||++|+.+++++++||||+||||++||--.
+T Consensus         1 maKsknht~hnq~~k~hrNgIKKp~~~r~~s~kGvdpkflrN~~~akk~   49 (67)
+T 3J79_4            1 MAKSKNHTNHNQNRKAHKNGIKKPKKHKFMSRKGLDPNFFRNQKYCLKG   49 (67)
+T ss_pred             CCCCCCCCcchHHHHHHHcCCCCCCccCCcccCCCCcHHHHcHHhhHhc
+Confidence            8999999999999999999999999999999999999999999998644
+
+
+No 4
+>7QEP_N9 genome decay, microbial parasite, genome; HET: SPD, AMP;{Encephalitozoon cuniculi GB-M1}
+Probab=99.73  E-value=1.3e-18  Score=97.65  Aligned_cols=50  Identities=42%  Similarity=0.618  Sum_probs=47.4  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      |||++|||+|||+++||+|||++|+.+++++++||||+||||++||--..
+T Consensus         1 mak~knht~~nq~~k~hrngIKkp~~~r~~s~kGv~pkflrn~~fakk~~   50 (57)
+T 7QEP_N9           1 MAKRKNHTNHNQNRKDHRGGIKKPKMPKFSEFLGLHPATLARLEEAGKLW   50 (57)
+T ss_pred             CCCCCCCCccchHHHHHhcCCCCCCCCCcccccCCCHHHHHhHHHHHHhh
+Confidence            89999999999999999999999999999999999999999999986543
+
+
+No 5
+>5XXB_a uL2, uL3, uL4, uL18, eL6; parasitic ribosome, rRNA, rproteins, RIBOSOME; 3.17A {Toxoplasma gondii}
+Probab=99.72  E-value=2.3e-18  Score=96.40  Aligned_cols=49  Identities=49%  Similarity=0.567  Sum_probs=47.1  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |||++|||+|||+++||+|||++|+.+++++++||||+||||++||.-.
+T Consensus         1 maksknht~~nqs~k~hrngIkkp~~~r~~s~kGvd~kflrN~~fakk~   49 (54)
+T 5XXB_a            1 MAKSKNHTNHNQNKKAHRNGIKKPQRKRKMSTKGMCPKFLRNQRACKRG   49 (54)
+T ss_pred             CCCCCCcccchhHHHHHHcCCCCCCccCCcCCCCCChHHHHchHhHhcC
+Confidence            8999999999999999999999999999999999999999999998654
+
+
+No 6
+>5XY3_b Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=99.70  E-value=6.3e-18  Score=94.83  Aligned_cols=50  Identities=32%  Similarity=0.365  Sum_probs=47.6  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      |||++|||+|+|+++||+|||++|+.+++++++||||+||||++||--.+
+T Consensus         1 maksknht~~n~~~k~hrngIkkp~~~r~~s~kGv~pkflrN~~~akk~~   50 (58)
+T 5XY3_b            1 MAKRSNTSAHNRSHQHHRNGIHKCVVKKLWFEKGMNAKFLRNARYAKAGQ   50 (58)
+T ss_pred             CCCCCCCCcchhHHHHhhcCCCCCCcccchhhcCCChHHHHHHHHHHHcC
+Confidence            89999999999999999999999999999999999999999999986544
+
+
+No 7
+>6ZMI_Lb 60S ribosomal protein L8, 60S; Translational Inhibition, SARS-CoV-2, Immune Evasion; HET: MG; 2.6A {Homo sapiens}
+Probab=99.69  E-value=6.8e-18  Score=109.67  Aligned_cols=50  Identities=72%  Similarity=0.993  Sum_probs=47.7  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      |+|++|||+|||+++|||||||+|+.+++++++|+||+||||++|+-...
+T Consensus         1 maksknht~~nq~~k~hrngIKkp~~~r~~s~kGv~pkflrn~~fakK~n   50 (159)
+T 6ZMI_Lb           1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKHN   50 (159)
+T ss_pred             CCCCCCCCCchhHHHHHHcCCCCCccccchhhcCCChHHHHcHHHhHHHh
+Confidence            89999999999999999999999999999999999999999999987653
+
+
+No 8
+>7LS2_V2 ribosome, regulation, translation; HET: P7G, G7M, 2MG, PSU, 6MZ, 4AC, DDE, OMU, 5MC, MHG, A2M, UR3, E7G, B9B, MLZ, I4U, B8N, GDP, B8Q, OMG, OMC, 1MA, B8T, E6G, B9H, B8W;{Mus musculus}
+Probab=99.69  E-value=8.5e-18  Score=110.24  Aligned_cols=50  Identities=72%  Similarity=0.993  Sum_probs=47.7  Template_Neff=6.500
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      |+|++|||+|||+++|||||||+|+.+++++++||||+||||++|+-...
+T Consensus         1 maksknht~hnq~~k~hrngIKkp~~~r~~s~kGv~pkflrN~~fAkK~n   50 (160)
+T 7LS2_V2           1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKHN   50 (160)
+T ss_pred             CCCCCCcCcchhHHHHHHcCCCCCccccChhhcCCChHHHHhHHHHHHHh
+Confidence            89999999999999999999999999999999999999999999987653
+
+
+No 9
+>4V7E_Cb Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=99.67  E-value=1.8e-17  Score=92.95  Aligned_cols=49  Identities=49%  Similarity=0.617  Sum_probs=46.9  Template_Neff=7.100
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |||++|||+|||+++||+|||++|+.+++.+++||||+||||++||--.
+T Consensus         1 m~k~knht~~nq~~k~hrngIkkp~~~r~~s~kgv~~kflrn~~fakk~   49 (60)
+T 4V7E_Cb           1 MAKSKNHTAHNQSYKAHKNGIKKPKRHRQTSTKGMDPKFLRNQRYSRKH   49 (60)
+T ss_pred             CCCCCCcCcchHHHHHHHcCCCCCCCCCCcCCCCCCHHHHHhHHHHHHh
+Confidence            8999999999999999999999999999999999999999999998544
+
+
+No 10
+>6FTG_b Uncharacterized protein, Ribosomal protein L4; Protein translocon of the endoplasmic; HET: NAG, MG, BMA, 9UB, MAN; 9.1A {Oryctolagus cuniculus}
+Probab=99.66  E-value=2.3e-17  Score=93.54  Aligned_cols=48  Identities=73%  Similarity=1.017  Sum_probs=45.7  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      ||++|||+|||+++||+|||++|+.+++.+++|+||+||+|++||-..
+T Consensus         1 ak~kn~t~~nq~~k~hrngikkp~~~~~~s~~Gv~~kflrn~~~a~k~   48 (75)
+T 6FTG_b            1 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKH   48 (75)
+T ss_pred             CCCCCcccchHHHHHHHcCCCCCcccCCcccCCCChHHHHhHHHhHHH
+Confidence            689999999999999999999999999999999999999999998654
+
+
+No 11
+>6SWA_Z 60S ribosomal protein L8, 60S; 60S, EBP1, neurodevelopment, neocortex, ribosome; HET: MG; 3.1A {Mus musculus}
+Probab=99.66  E-value=3.8e-17  Score=91.95  Aligned_cols=46  Identities=76%  Similarity=1.056  Sum_probs=44.3  Template_Neff=7.600
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecC
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLG   47 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflg   47 (60)
+                      ||++|||+|||+++||+|||++|+.+++.+++|+||+||+|++||-
+T Consensus         1 ak~knht~~nq~~k~hrngikkp~~~~~~s~~gv~~kflrn~~~ak   46 (68)
+T 6SWA_Z            1 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAK   46 (68)
+T ss_dssp             CCCCCCCCTTCHHHHHHHCCCCCCCCSSCCCTTSCHHHHHHHHHHH
+T ss_pred             CCCCCcCcchhHHHHHHcCCCCCCccccccccCCChHHHHhHHHHH
+Confidence            6999999999999999999999999999999999999999999974
+
+
+No 12
+>6QZP_Lb Human 80S ribosome, rRNA, rRNA; HET: M7A, 2MG, PSU, 6MZ, 4AC, OMU, JMH, 5MC, A2M, UR3, MLZ, HYG, 5MU, HMT, B8N, OMG, OMC, 1MA, MG, B8H, B8T, MA6; 2.9A {Homo sapiens}
+Probab=99.66  E-value=4.1e-17  Score=100.81  Aligned_cols=49  Identities=71%  Similarity=0.984  Sum_probs=46.4  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      ||++|||+|||+++||||||++|+.+++++++||||+||+||+|+--.+
+T Consensus         1 aksknht~hnq~~k~hrngIkkp~~~r~~s~kGv~pkflrn~~fakK~n   49 (109)
+T 6QZP_Lb           1 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKHN   49 (109)
+T ss_pred             CCCCCcCcchhHHHHHHcCCCCCCccCCccccCCChHHHHhHHHHHHhc
+Confidence            6899999999999999999999999999999999999999999987654
+
+
+No 13
+>3JBP_A4 PROTEIN/RNA Complex; RIBOSOME; 6.7A {Plasmodium falciparum 3D7}
+Probab=99.65  E-value=4.6e-17  Score=93.74  Aligned_cols=48  Identities=46%  Similarity=0.630  Sum_probs=45.5  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      ||++|||+|||+++||+|||++|+.+++++++||||+||||++||--.
+T Consensus         1 aKsknht~~nq~~k~hrNgIkkp~~~r~~s~kGv~pkflrN~~~akk~   48 (66)
+T 3JBP_A4           1 AKSKNHTNHNQNRKAHKNGIKKPKKHKFMSRKGLDPNFFRNQKYCLKG   48 (66)
+T ss_pred             CCCCCcCcchHHHHHHHcCCCCCCccCCcccCCCCcHHHHcHHhHHhc
+Confidence            689999999999999999999999999999999999999999998543
+
+
+No 14
+>5TBW_DD ?; Protein translation inhibitor, complex, ribosome; HET: ZN, 7AL, MG, OHX; 3.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=99.65  E-value=4.5e-17  Score=90.29  Aligned_cols=47  Identities=55%  Similarity=0.715  Sum_probs=45.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCC
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGS   48 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgs   48 (60)
+                      ||++|||+|||+++||+|||++|..+++++++||||+||||++||--
+T Consensus         1 ak~knht~~nq~~k~hrngikkp~~~r~~s~kgv~~kflrn~~~akk   47 (58)
+T 5TBW_DD           1 AKSKNHTAHNQTRKAHRNGIKKPKTYKYPSLKGVDPKFRRNHKHALH   47 (58)
+T ss_pred             CCCCCcccchHHHHHHHcCCCCCCccCCCccCCCChHHHHhhHHhHH
+Confidence            68999999999999999999999999999999999999999999854
+
+
+No 15
+>6T4Q_Lb 40S ribosomal protein S1-A, 40S; stalling dicodon codon pair, TRANSLATION; HET: MG; 2.6A {Saccharomyces cerevisiae}
+Probab=99.65  E-value=4.5e-17  Score=90.29  Aligned_cols=47  Identities=55%  Similarity=0.715  Sum_probs=45.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCC
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGS   48 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgs   48 (60)
+                      ||++|||+|||+++||+|||++|..+++++++||||+||||++||--
+T Consensus         1 ak~knht~~nq~~k~hrngikkp~~~r~~s~kgv~~kflrn~~~akk   47 (58)
+T 6T4Q_Lb           1 AKSKNHTAHNQTRKAHRNGIKKPKTYKYPSLKGVDPKFRRNHKHALH   47 (58)
+T ss_pred             CCCCCcccchHHHHHHHcCCCCCCccCCCccCCCChHHHHhhHHhHH
+Confidence            68999999999999999999999999999999999999999999854
+
+
+No 16
+>6ZU5_LBB uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=99.64  E-value=5.8e-17  Score=92.65  Aligned_cols=46  Identities=46%  Similarity=0.621  Sum_probs=44.7  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecC
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLG   47 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflg   47 (60)
+                      |||++|||+|||+++||+|||++|+.++ ++++||||+|||||+||-
+T Consensus         1 maksknht~~nq~~k~hrngikkp~~~r-~s~kGv~~kflrn~~~ak   46 (64)
+T 6ZU5_LBB          1 MAKRKNHTNHNQNRKNHRNGIKKVKKSA-PSFRGLNHKYLRNMLYSR   46 (64)
+T ss_pred             CCCCCCCccchhHHHHHHcCCccCCCCC-ccccCCchHHHHHHHHHH
+Confidence            8999999999999999999999999999 999999999999999974
+
+
+No 17
+>6XA1_Lb translation termination complex; Selectively stalling, translation termination, drug-like; HET: MEQ, G7M, 2MG, PSU, 6MZ, 4AC, OMU, UY1, 5MC, 1MG, A2M, UR3, H2U, MLZ, B8N, UY4, UXY, OMG, MVM, OMC, 1MA, MG, MA6, M2G; 2.8A {Homo sapiens}
+Probab=99.63  E-value=1.3e-16  Score=99.74  Aligned_cols=49  Identities=71%  Similarity=0.984  Sum_probs=46.4  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      ||++|||+|||+++||||||++|+.+++++++||||+||||++||-..+
+T Consensus         1 aksknht~~nq~~k~hrngIkkp~~~r~~s~kGv~pkflrN~r~AkK~n   49 (121)
+T 6XA1_Lb           1 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKHN   49 (121)
+T ss_pred             CCCCCcCcchhHHHHHHcCCCCCCcccCccccCCChHHHHhHHHHHHHh
+Confidence            6899999999999999999999999999999999999999999987553
+
+
+No 18
+>5IT7_bb KLLA0D16027p, 60S ribosomal protein L3; ribosome, translocation, IRES, eEF2; HET: 6EM, GCP, MG; 3.6A {Kluyveromyces lactis}
+Probab=99.63  E-value=1.1e-16  Score=88.23  Aligned_cols=47  Identities=55%  Similarity=0.740  Sum_probs=44.6  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    3 KSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         3 ksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |++|||+|||+++||+|||++|+.+++++++||||+||||++||--.
+T Consensus         1 ksknht~~nq~~k~hrngikkp~~~r~~s~kgv~~kflrn~~~a~k~   47 (57)
+T 5IT7_bb           1 KSKNHTAHNQTKKAHRNGIKKPKTYKYPSLKGVDAKFRRNHRFALHG   47 (57)
+T ss_pred             CCCCcccchhHHHHHHcCCCCCCCCCCccccCCChhHHhhhHhHHHh
+Confidence            68999999999999999999999999999999999999999998643
+
+
+No 19
+>6XU6_Cb Specialised ribosome, Drosophila melanogaster, Testis; 3.5A {Drosophila melanogaster}
+Probab=99.63  E-value=9.9e-17  Score=96.04  Aligned_cols=49  Identities=45%  Similarity=0.584  Sum_probs=46.3  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      ||++|||+|||+++||||||++|+.+++++++||||+||||++||--.+
+T Consensus         1 aKsknht~hnqsrK~HrNGIKKP~~~r~~s~kGvdpkFlrN~rfakk~~   49 (75)
+T 6XU6_Cb           1 AKSKNHTNHNQNKKAHRNGIKRPLRKRHESTLGMDVKFLINQRYARKGN   49 (75)
+T ss_pred             CCCCccccchHHHHHHHcCCCCCCcccCcccCCCChHHHHhHHhhHhcC
+Confidence            6899999999999999999999999999999999999999999986554
+
+
+No 20
+>6XU8_Cb Specialised ribosome, Drosophila melanogaster, Ovary; 3.0A {Drosophila melanogaster}
+Probab=99.63  E-value=9.9e-17  Score=96.04  Aligned_cols=49  Identities=45%  Similarity=0.584  Sum_probs=46.3  Template_Neff=6.000
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      ||++|||+|||+++||||||++|+.+++++++||||+||||++||--.+
+T Consensus         1 aKsknht~hnqsrK~HrNGIKKP~~~r~~s~kGvdpkFlrN~rfakk~~   49 (75)
+T 6XU8_Cb           1 AKSKNHTNHNQNKKAHRNGIKRPLRKRHESTLGMDVKFLINQRYARKGN   49 (75)
+T ss_pred             CCCCccccchHHHHHHHcCCCCCCcccCcccCCCChHHHHhHHhhHhcC
+Confidence            6899999999999999999999999999999999999999999986554
+
+
+No 21
+>6AZ3_b ribosomal protein uL2, ribosomal protein; Leishmania, ribosome, aminoglycoside, paromomycin, RIBOSOME-ANTIBIOTIC; HET: C, OMC, MG, A2M, OMU, PAR, OMG; 2.5A {Leishmania donovani}
+Probab=99.62  E-value=2.2e-16  Score=92.14  Aligned_cols=48  Identities=44%  Similarity=0.462  Sum_probs=44.8  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcch-cccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQ-RYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsq-ryeslkgvsalnhmevsflgsr   49 (60)
+                      ||++|||+|||+++||+|||++|+.+ ++++++||||+|||||+||--.
+T Consensus         1 aKsknht~hnqs~K~hrNgIKkp~~~~r~~s~kGvdpkflrN~~fakk~   49 (68)
+T 6AZ3_b            1 AKSKNHTNHNQSSKNHRNGIKGPMPLHLHNSKRGSWLPALVNARRVRKH   49 (68)
+T ss_pred             CCCCCcCccchhHHHHHcCCCCCCcccCCCCCCCCcHHHHhhHHhHHHH
+Confidence            68999999999999999999999985 9999999999999999998544
+
+
+No 22
+>6ZJ3_Lq Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: 5MC, OMC, 1MA, B8N, B8H, JMC, A2M, MA6, PSU, UR3, 7MG, MIA, OMU, 6MZ, JMH, OMG; 3.15A {Euglena gracilis}
+Probab=99.62  E-value=2.6e-16  Score=101.17  Aligned_cols=48  Identities=38%  Similarity=0.326  Sum_probs=46.1  Template_Neff=5.700
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCC
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGS   48 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgs   48 (60)
+                      |+|++|||+|||+++||||||++|+.+++.+++|+||+||||++||--
+T Consensus         1 MaKsKnhT~hnqsrK~HRNGIKKP~~~r~~SlKGvdpKFLrN~~fAkK   48 (117)
+T 6ZJ3_Lq           1 MAKSKNHTNHNQNYKDHRHPIRLKGRRNQISSKGLEQKLKKNRKKSRK   48 (117)
+T ss_pred             CCCCCCCCCCchhHHHhhcCccCCCCCCCccccchhHHHhHccccccC
+Confidence            899999999999999999999999999999999999999999999743
+
+
+No 23
+>6R5Q_b X-box-binding protein 1, uL2, Uncharacterized; translational pausing, XBP1, UPR, RIBOSOME; HET: MG; 3.0A {Saccharomyces cerevisiae}
+Probab=99.62  E-value=1.6e-16  Score=97.03  Aligned_cols=49  Identities=71%  Similarity=0.984  Sum_probs=46.5  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCcc
+Q tr|C9IYI4|C9IY    2 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSRC   50 (60)
+Q Consensus         2 aksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsrc   50 (60)
+                      ||+||||+|||+++||+||||+|+.+++++++|+||+|||||+||...+
+T Consensus         1 aksknht~~nq~~k~hrngIkkp~~~r~~s~kGv~pkflrn~~fakK~~   49 (104)
+T 6R5Q_b            1 AKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKHN   49 (104)
+T ss_pred             CCCCCcCcchHHHHHHHcCCCCCccccCccccCCChHHHHhHHHHHHHc
+Confidence            6899999999999999999999999999999999999999999987654
+
+
+No 24
+>6D90_b Ribosome; ribosome, mammalian, CrPV IRES; 3.2A {Oryctolagus cuniculus}
+Probab=99.59  E-value=3.8e-16  Score=111.43  Aligned_cols=47  Identities=77%  Similarity=1.064  Sum_probs=45.8  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecC
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLG   47 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflg   47 (60)
+                      |+|++|||+|||+++||||||++|+.+++++++|+||+|||||+|+-
+T Consensus         1 MaKsKNhT~hNqsrK~HRNGIKKPks~r~~SlKGvdPKFLRNmrfAK   47 (226)
+T 6D90_b            1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAK   47 (226)
+T ss_pred             CCCCCCcCCchHHHHHHHcCCCCCchhcCcccccCCHHHHHHHHHHH
+Confidence            89999999999999999999999999999999999999999999975
+
+
+No 25
+>7O7Y_Bb Frameshift, virus, pseudoknot, RIBOSOME; HET: 2MG, PSU, 4AC, 7MG, 6MZ, OMU, GTP, UY1, 5MC, A2M, UR3, H2U, MLZ, V5N, 5MU, SPM, B8N, AME, UNX, OMG, SAC, HIC, OMC, 1MA, YYG, MG, M3L, MA6, SPD, NMM, M2G; 2.2A {Oryctolagus cuniculus}
+Probab=99.56  E-value=1.1e-15  Score=110.77  Aligned_cols=49  Identities=73%  Similarity=1.025  Sum_probs=46.8  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCCCcccCCCCCCcchcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         1 maksknhtthnqsrkwhrngikkprsqryeslkgvsalnhmevsflgsr   49 (60)
+                      |+|++|||+|||+++||||||++|+.+++++++|+||+|||||+|+-..
+T Consensus         1 MAKSKNHT~hNQsrK~HRNGIKKPrsqR~~SlKGvdPKFLRNmrFAKKh   49 (245)
+T 7O7Y_Bb           1 MAKSKNHTTHNQSRKWHRNGIKKPRSQRYESLKGVDPKFLRNMRFAKKH   49 (245)
+T ss_pred             CCCCCCcCCchhHHHHHHcCCCCCccccCccccCCCHHHHHHHHHHHHH
+Confidence            8999999999999999999999999999999999999999999997643
+
+
+No 26
+>5T5H_d PROTEIN/RNA Complex; Trypanosoma cruzi, ribosomal subunit, assmebly; HET: 5MC, OMC, MG, A2M, 7MG, OMU, OMG; 2.54A {Trypanosoma cruzi}
+Probab=99.53  E-value=3.6e-15  Score=86.58  Aligned_cols=44  Identities=39%  Similarity=0.431  Sum_probs=41.5  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCcccCCCCCCcc-hcccccCcchhcccceeeecCCc
+Q tr|C9IYI4|C9IY    6 NHTTHNQSRKWHRNGIKKPRS-QRYESLKGVSALNHMEVSFLGSR   49 (60)
+Q Consensus         6 nhtthnqsrkwhrngikkprs-qryeslkgvsalnhmevsflgsr   49 (60)
+                      |||+|||+++||+|||++|+. +++++++||||+|||||+||--.
+T Consensus         1 Nht~hnqsrK~HrNGIKKP~~~~r~~s~kGvdpkflrN~r~akk~   45 (63)
+T 5T5H_d            1 NHTNHNQSRKNHRNGIKRALPMYLHNSKRGSWLPALINARRVRKN   45 (63)
+T ss_pred             CCcccchHHHHhhcCCCCCCccccCcccCCCChHHHhcHHHHHHh
+Confidence            799999999999999999998 89999999999999999998643
+
+

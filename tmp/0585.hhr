@@ -1,0 +1,163 @@
+Query         tr|H0YLX0|H0YLX0_HUMAN
+Match_columns 98
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:07:12 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0585.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6W1S_Y Mediator of RNA polymer  23.7 1.9E+02  0.0021   21.4   2.8   19   78-96     61-79  (152)
+  2 7EMF_3 Mediator of RNA polymer  21.9 2.1E+02  0.0023   22.1   2.8   19   78-96     87-105 (178)
+  3 7ENC_l Mediator of RNA polymer  21.9 2.1E+02  0.0023   22.1   2.8   19   78-96     87-105 (178)
+  4 6ZX9_C viral protein Vpr, vira  17.6 4.5E+02  0.0049   18.8   3.5   31   62-92    189-219 (258)
+  5 5YDY_A WW2 domain and PPxY mot  16.6 1.8E+02   0.002   13.1   1.0    8   19-26     45-52  (54)
+  6 4XDQ_A Glycoside hydrolase fam   8.4 6.9E+02  0.0075   17.4   2.1   17   44-60      7-23  (267)
+  7 5TSZ_A Pv cell-traversal prote   8.2 5.8E+02  0.0063   21.2   2.0   23   71-94    109-131 (171)
+  8 4RVY_K Photosystem II protein    7.3 9.7E+02    0.01   15.5   2.3   20   76-95     15-34  (37)
+  9 5B66_K Photosystem II protein    7.3 9.7E+02    0.01   15.5   2.3   20   76-95     15-34  (37)
+ 10 5V2C_K Photosystem II protein    7.3 9.7E+02    0.01   15.5   2.3   19   78-96     17-35  (37)
+
+No 1
+>6W1S_Y Mediator of RNA polymerase II; mouse mediator, complex, GENE REGULATION; 4.02A {Mus musculus}
+Probab=23.68  E-value=1.9e+02  Score=21.40  Aligned_cols=19  Identities=37%  Similarity=0.788  Sum_probs=15.9  Template_Neff=6.500
+
+Q ss_pred             ChHHHHHHHHHHHHHHcCC
+Q tr|H0YLX0|H0YL   78 PLFPLLTLLFEKCEQATQG   96 (98)
+Q Consensus        78 plfplltllfekceqatqg   96 (98)
+                      -+|--|-++|+||.+..+|
+T Consensus        61 ~lFkrLR~iy~k~~e~~~~   79 (152)
+T 6W1S_Y           61 ILFRKLRLVYDKCNENCGG   79 (152)
+T ss_pred             HHHHHHHHHHHHHHHhcCC
+Confidence            3788899999999988765
+
+
+No 2
+>7EMF_3 Mediator of RNA polymerase II; Mediator complex, TRANSCRIPTION; 3.5A {Homo sapiens}
+Probab=21.87  E-value=2.1e+02  Score=22.07  Aligned_cols=19  Identities=37%  Similarity=0.802  Sum_probs=15.7  Template_Neff=6.000
+
+Q ss_pred             ChHHHHHHHHHHHHHHcCC
+Q tr|H0YLX0|H0YL   78 PLFPLLTLLFEKCEQATQG   96 (98)
+Q Consensus        78 plfplltllfekceqatqg   96 (98)
+                      -+|--|-++|+||.+..+|
+T Consensus        87 ~lFkrLR~iYdkcne~~~~  105 (178)
+T 7EMF_3           87 VLFRKLRLVYDKCNENCGG  105 (178)
+T ss_pred             HHHHHHHHHHHHHHHhcCC
+Confidence            3688899999999987765
+
+
+No 3
+>7ENC_l Mediator of RNA polymerase II; mediator, preinitiation complex, transcription initiation; HET: ZN; 4.13A {Sus scrofa}
+Probab=21.87  E-value=2.1e+02  Score=22.07  Aligned_cols=19  Identities=37%  Similarity=0.802  Sum_probs=15.7  Template_Neff=6.000
+
+Q ss_pred             ChHHHHHHHHHHHHHHcCC
+Q tr|H0YLX0|H0YL   78 PLFPLLTLLFEKCEQATQG   96 (98)
+Q Consensus        78 plfplltllfekceqatqg   96 (98)
+                      -+|--|-++|+||.+..+|
+T Consensus        87 ~lFkrLR~iYdkcne~~~~  105 (178)
+T 7ENC_l           87 VLFRKLRLVYDKCNENCGG  105 (178)
+T ss_pred             HHHHHHHHHHHHHHHhcCC
+Confidence            3688899999999987765
+
+
+No 4
+>6ZX9_C viral protein Vpr, viral hijacking; HET: GOL; 2.5197288426A {Homo sapiens}
+Probab=17.59  E-value=4.5e+02  Score=18.76  Aligned_cols=31  Identities=10%  Similarity=0.018  Sum_probs=25.1  Template_Neff=9.800
+
+Q ss_pred             ChhHhhHHHHhHHHhCChHHHHHHHHHHHHH
+Q tr|H0YLX0|H0YL   62 DPQAQLEADKRAVYRHPLFPLLTLLFEKCEQ   92 (98)
+Q Consensus        62 dpqaqleadkravyrhplfplltllfekceq   92 (98)
+                      ..+..||.-++...||--.++|.-|...|.+
+T Consensus       189 ~~~~~~~~~~~~~~~hf~~~~~~~~~~~~~~  219 (258)
+T 6ZX9_C          189 QAQQAMWDLNEEAEKHFSREELRGIWNDVTE  219 (258)
+T ss_dssp             HHHHHHHHHHHHHHTTSCHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHhhCCHHHHHHHHHHHHh
+Confidence            3456677788888999999999999888865
+
+
+No 5
+>5YDY_A WW2 domain and PPxY motif; Hippo pathway, YAP, LATs, WW; NMR {Homo sapiens}
+Probab=16.62  E-value=1.8e+02  Score=13.05  Aligned_cols=8  Identities=63%  Similarity=1.352  Sum_probs=4.3  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCC
+Q tr|H0YLX0|H0YL   19 VPPPPYQD   26 (98)
+Q Consensus        19 vppppyqd   26 (98)
+                      -++|+|+-
+T Consensus        45 ~~~~~~~~   52 (54)
+T 5YDY_A           45 QPPPPYPL   52 (54)
+T ss_dssp             CCCCCCCS
+T ss_pred             CCCCCCCC
+Confidence            34466754
+
+
+No 6
+>4XDQ_A Glycoside hydrolase family protein (Rv0315; structural genomics, National Institute for; HET: EDO; 1.35A {Mycobacterium thermoresistibile ATCC 19527}
+Probab=8.36  E-value=6.9e+02  Score=17.40  Aligned_cols=17  Identities=35%  Similarity=0.663  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|H0YLX0|H0YL   44 HISAPSAAASTPVPSAP   60 (98)
+Q Consensus        44 hisapsaaastpvpsap   60 (98)
+                      |+.++++++..|.++.+
+T Consensus         7 ~~~~~~~~~~~~~~~~~   23 (267)
+T 4XDQ_A            7 HHAQPVLDAPAPGPDTP   23 (267)
+T ss_dssp             -----------------
+T ss_pred             cCCCCCCCCCCCCCCCC
+Confidence            34445555555554443
+
+
+No 7
+>5TSZ_A Pv cell-traversal protein; membrane disruption, pore, malaria, traversal; 3.002A {Plasmodium vivax}
+Probab=8.19  E-value=5.8e+02  Score=21.19  Aligned_cols=23  Identities=30%  Similarity=0.478  Sum_probs=19.0  Template_Neff=2.800
+
+Q ss_pred             HhHHHhCChHHHHHHHHHHHHHHc
+Q tr|H0YLX0|H0YL   71 KRAVYRHPLFPLLTLLFEKCEQAT   94 (98)
+Q Consensus        71 kravyrhplfplltllfekceqat   94 (98)
+                      .+.|| .-+-|++.-||+|.|.+.
+T Consensus       109 ~~~vY-~Li~PV~kslFnkve~kl  131 (171)
+T 5TSZ_A          109 SEDAY-FLLGPVVKTLFNKVEDVL  131 (171)
+T ss_dssp             CHHHH-HHHHHHHHHHHHHHHHHT
+T ss_pred             CHHHH-HHHHHHHHHHHHHHHHHh
+Confidence            36788 777899999999998764
+
+
+No 8
+>4RVY_K Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: HEM, CLA, BCR, DGD, PHO, SQD, PL9, LMG, LHG, OEX; 5.5A {Thermosynechococcus elongatus}
+Probab=7.27  E-value=9.7e+02  Score=15.53  Aligned_cols=20  Identities=30%  Similarity=0.320  Sum_probs=13.4  Template_Neff=3.000
+
+Q ss_pred             hCChHHHHHHHHHHHHHHcC
+Q tr|H0YLX0|H0YL   76 RHPLFPLLTLLFEKCEQATQ   95 (98)
+Q Consensus        76 rhplfplltllfekceqatq   95 (98)
+                      --|..|++-+|..-+-|+.-
+T Consensus        15 vmPvIPl~ffLLafvwqa~v   34 (37)
+T 4RVY_K           15 VLPVIPVLFLALAFVWQAAV   34 (37)
+T ss_pred             HHchHHHHHHHHHHHHHHhh
+Confidence            34677777777777766654
+
+
+No 9
+>5B66_K Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: DMS, LMT, HEM, HTG, CLA, BCR, HEC, DGD, PHO, SQD, LMG, UNL, OEX, FME, LHG, RRX, PL9; 1.85A {Thermosynechococcus vulcanus}
+Probab=7.27  E-value=9.7e+02  Score=15.53  Aligned_cols=20  Identities=30%  Similarity=0.320  Sum_probs=13.4  Template_Neff=3.000
+
+Q ss_pred             hCChHHHHHHHHHHHHHHcC
+Q tr|H0YLX0|H0YL   76 RHPLFPLLTLLFEKCEQATQ   95 (98)
+Q Consensus        76 rhplfplltllfekceqatq   95 (98)
+                      --|..|++-+|..-+-|+.-
+T Consensus        15 vmPvIPl~ffLLafvwqa~v   34 (37)
+T 5B66_K           15 VLPVIPVLFLALAFVWQAAV   34 (37)
+T ss_pred             HHchHHHHHHHHHHHHHHhh
+Confidence            34677777777777766654
+
+
+No 10
+>5V2C_K Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: PG4, HEC, BCR, GOL, BCT, LMT, CLA, PHO, LMG, OEX, EDO, P6G, HEM, HTG, DGD, 2PE, MHS, LHG, FME, PE8, PL9, 1PE, PGE, SQD; 1.9A {Thermosynechococcus vulcanus}
+Probab=7.27  E-value=9.7e+02  Score=15.53  Aligned_cols=19  Identities=37%  Similarity=0.520  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             ChHHHHHHHHHHHHHHcCC
+Q tr|H0YLX0|H0YL   78 PLFPLLTLLFEKCEQATQG   96 (98)
+Q Consensus        78 plfplltllfekceqatqg   96 (98)
+                      |..|++-+|..-+-|+.-+
+T Consensus        17 PvIPl~ffLLafvwqa~v~   35 (37)
+T 5V2C_K           17 PVIPVLFLALAFVWQAAVG   35 (37)
+T ss_pred             chHHHHHHHHHHHHHHhhC
+
+

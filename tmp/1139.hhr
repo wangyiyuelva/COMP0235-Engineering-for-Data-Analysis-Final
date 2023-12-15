@@ -1,0 +1,169 @@
+Query         tr|A0A2R8Y4C6|A0A2R8Y4C6_HUMAN
+Match_columns 166
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:01:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1139.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6MHF_C Guanine nucleotide-bind  98.0 7.8E-06 8.4E-11   50.6   2.8   31   41-71      1-31  (31)
+  2 4QM8_A Cysteine dioxygenase (E  12.8 2.8E+02   0.003   19.9   1.5   46   36-90      3-48  (173)
+  3 4QM9_B Cysteine dioxygenase (E  12.8 2.8E+02   0.003   19.9   1.5   46   36-90      3-48  (173)
+  4 6BK4_A Caprin homolog; RNA-Bin  11.1 8.5E+02  0.0093   18.8   3.7   10   89-99     91-100 (124)
+  5 6BK4_B Caprin homolog; RNA-Bin  11.1 8.5E+02  0.0093   18.8   3.7   10   89-99     91-100 (124)
+  6 3S5U_D Putative uncharacterize  10.4 1.6E+02  0.0017   23.7  -0.3   35   72-106   142-176 (220)
+  7 3S5U_H Putative uncharacterize  10.4 1.6E+02  0.0017   23.7  -0.3   35   72-106   142-176 (220)
+  8 3QHQ_B Csn2; Helicase, TRANSFE   9.9 1.6E+02  0.0017   24.0  -0.5   53   49-106   124-176 (229)
+  9 3OWT_B DNA-binding protein RAP   8.8 4.9E+02  0.0053   21.2   1.8   39   53-91     44-82  (157)
+ 10 5VUG_A Uncharacterized protein   8.6 6.5E+02  0.0071   18.7   2.2   15   45-59    102-116 (281)
+
+No 1
+>6MHF_C Guanine nucleotide-binding protein G(k) subunit; exchange, modulator, GPCR, inhibitory, SIGNALING; HET: GOL, GDP; 2.0A {Rattus norvegicus}
+Probab=98.05  E-value=7.8e-06  Score=50.60  Aligned_cols=31  Identities=100%  Similarity=1.173  Sum_probs=27.7  Template_Neff=4.900
+
+Q ss_pred             CCCCCCCccccHHHHHHHhhccccccccCCC
+Q tr|A0A2R8Y4C6|   41 KTGSPGSEVVTLQQFLEESNKLTSVQIKSSS   71 (166)
+Q Consensus        41 ktgspgsevvtlqqfleesnkltsvqiksss   71 (166)
+                      |+.+|+|+|++|+|||+|+++.+++++++++
+T Consensus         1 ~~~sp~se~vtle~flees~~~s~~~~~s~s   31 (31)
+T 6MHF_C            1 KTGSPGSEVVTLQQFLEESNKLTSVQIKSSS   31 (31)
+T ss_pred             CCCCCccccccHHHHHHhhcCCCccccccCC
+Confidence            4678999999999999999999998887764
+
+
+No 2
+>4QM8_A Cysteine dioxygenase (E.C.1.13.11.20); OXIDOREDUCTASE, Cupin Fold, Cysteine dioxygnease; HET: CYS, MSE; 2.82A {Bacillus subtilis subsp. subtilis}
+Probab=12.82  E-value=2.8e+02  Score=19.89  Aligned_cols=46  Identities=13%  Similarity=0.116  Sum_probs=25.4  Template_Neff=10.000
+
+Q ss_pred             cccccCCCCCCCccccHHHHHHHhhccccccccCCCcccHHHHHHHHccCChhhC
+Q tr|A0A2R8Y4C6|   36 RHHKIKTGSPGSEVVTLQQFLEESNKLTSVQIKSSSQENLLDEVMKSLSVSSDFL   90 (166)
+Q Consensus        36 rhhkiktgspgsevvtlqqfleesnkltsvqiksssqenlldevmkslsvssdfl   90 (166)
+                      .||..+-.+-++...+|++|+.+....         ....+.+++..+.+..+.+
+T Consensus         3 ~~~~~~~~~~~~~~~~l~~~~~~~~~~---------s~~~l~~~~~~l~~~~~~l   48 (173)
+T 4QM8_A            3 HHHHHHSHSHMELYECIQDIFGGLKNP---------SVKDLATSLKQIPNAAKLS   48 (173)
+T ss_dssp             ----------CCHHHHHHHHTTTCSSC---------CHHHHHHHHHTSTTHHHHH
+T ss_pred             CcccccchhhhhHHHHHHHHHhcCCCC---------CHHHHHHHHhcCCCcHHHh
+Confidence            356677788899999999999887542         2345667777777764433
+
+
+No 3
+>4QM9_B Cysteine dioxygenase (E.C.1.13.11.20); OXIDOREDUCTASE, Cupin fold, catalyzes oxidation; HET: CYS; 2.3A {Bacillus subtilis subsp. subtilis}
+Probab=12.82  E-value=2.8e+02  Score=19.89  Aligned_cols=46  Identities=13%  Similarity=0.116  Sum_probs=25.5  Template_Neff=10.000
+
+Q ss_pred             cccccCCCCCCCccccHHHHHHHhhccccccccCCCcccHHHHHHHHccCChhhC
+Q tr|A0A2R8Y4C6|   36 RHHKIKTGSPGSEVVTLQQFLEESNKLTSVQIKSSSQENLLDEVMKSLSVSSDFL   90 (166)
+Q Consensus        36 rhhkiktgspgsevvtlqqfleesnkltsvqiksssqenlldevmkslsvssdfl   90 (166)
+                      .||..+-.+-++...+|++|+.+....         ....+.+++..+.+..+.+
+T Consensus         3 ~~~~~~~~~~~~~~~~l~~~~~~~~~~---------s~~~l~~~~~~l~~~~~~l   48 (173)
+T 4QM9_B            3 HHHHHHSHSHMELYECIQDIFGGLKNP---------SVKDLATSLKQIPNAAKLS   48 (173)
+T ss_dssp             ----------CCHHHHHHHHHTTCSSC---------CHHHHHHHHHTSTTHHHHH
+T ss_pred             CcccccchhhhhHHHHHHHHHhcCCCC---------CHHHHHHHHhcCCCcHHHh
+Confidence            356677788899999999999987542         2345667777777764433
+
+
+No 4
+>6BK4_A Caprin homolog; RNA-Binding, Alpha-helical, FMRP parnter, cellular; 1.8A {Drosophila melanogaster}
+Probab=11.15  E-value=8.5e+02  Score=18.84  Aligned_cols=10  Identities=10%  Similarity=0.049  Sum_probs=6.7  Template_Neff=6.800
+
+Q ss_pred             hCCCCCCCCcc
+Q tr|A0A2R8Y4C6|   89 FLGKDKPVSCG   99 (166)
+Q Consensus        89 flgkdkpvscg   99 (166)
+                      +-|++||| +|
+T Consensus        91 legk~k~v-~g  100 (124)
+T 6BK4_A           91 INARPKSF-GE  100 (124)
+T ss_dssp             HTTCSSEE-TT
+T ss_pred             HhcCCCcc-Cc
+Confidence            45788887 45
+
+
+No 5
+>6BK4_B Caprin homolog; RNA-Binding, Alpha-helical, FMRP parnter, cellular; 1.8A {Drosophila melanogaster}
+Probab=11.15  E-value=8.5e+02  Score=18.84  Aligned_cols=10  Identities=10%  Similarity=0.049  Sum_probs=0.9  Template_Neff=6.800
+
+Q ss_pred             hCCCCCCCCcc
+Q tr|A0A2R8Y4C6|   89 FLGKDKPVSCG   99 (166)
+Q Consensus        89 flgkdkpvscg   99 (166)
+                      +-|++||| +|
+T Consensus        91 legk~k~v-~g  100 (124)
+T 6BK4_B           91 INARPKSF-GE  100 (124)
+T ss_dssp             HC---------
+T ss_pred             HhcCCCcc-Cc
+Confidence            45788887 44
+
+
+No 6
+>3S5U_D Putative uncharacterized protein; CRISPR, CRISPR adaptation mechanism, new; HET: CA; 2.7A {Enterococcus faecalis}
+Probab=10.42  E-value=1.6e+02  Score=23.67  Aligned_cols=35  Identities=11%  Similarity=0.191  Sum_probs=28.5  Template_Neff=8.100
+
+Q ss_pred             cccHHHHHHHHccCChhhCCCCCCCCccccchecC
+Q tr|A0A2R8Y4C6|   72 QENLLDEVMKSLSVSSDFLGKDKPVSCGLASVIST  106 (166)
+Q Consensus        72 qenlldevmkslsvssdflgkdkpvscglasvist  106 (166)
+                      ..++++.+..-+.+..+++++.-.|-+++.+.++.
+T Consensus       142 ~~~~~ekl~~yi~~~~~l~~~ki~i~~Nl~~yl~~  176 (220)
+T 3S5U_D          142 SDTIFEKVMEITQVHRYLSKKKLLIFINACTYLTE  176 (220)
+T ss_dssp             TCCHHHHHHHHHHHHHHCTTCCEEEEESGGGGCCH
+T ss_pred             CCCHHHHHHHHHHHHHHHcCCcEEEEEchHHhCCH
+Confidence            67888888888888889999888888888776653
+
+
+No 7
+>3S5U_H Putative uncharacterized protein; CRISPR, CRISPR adaptation mechanism, new; HET: CA; 2.7A {Enterococcus faecalis}
+Probab=10.42  E-value=1.6e+02  Score=23.67  Aligned_cols=35  Identities=11%  Similarity=0.191  Sum_probs=28.2  Template_Neff=8.100
+
+Q ss_pred             cccHHHHHHHHccCChhhCCCCCCCCccccchecC
+Q tr|A0A2R8Y4C6|   72 QENLLDEVMKSLSVSSDFLGKDKPVSCGLASVIST  106 (166)
+Q Consensus        72 qenlldevmkslsvssdflgkdkpvscglasvist  106 (166)
+                      ..++++.+..-+.+..+++++.-.|-+++.+.++.
+T Consensus       142 ~~~~~ekl~~yi~~~~~l~~~ki~i~~Nl~~yl~~  176 (220)
+T 3S5U_H          142 SDTIFEKVMEITQVHRYLSKKKLLIFINACTYLTE  176 (220)
+T ss_dssp             TCCHHHHHHHHHHHHHHCTTCCEEEEESGGGTCCH
+T ss_pred             CCCHHHHHHHHHHHHHHHcCCcEEEEEchHHhCCH
+Confidence            67888888888888889998888888888776553
+
+
+No 8
+>3QHQ_B Csn2; Helicase, TRANSFERASE; HET: EDO; 2.0A {Streptococcus agalactiae}
+Probab=9.90  E-value=1.6e+02  Score=23.99  Aligned_cols=53  Identities=8%  Similarity=0.181  Sum_probs=40.2  Template_Neff=7.900
+
+Q ss_pred             cccHHHHHHHhhccccccccCCCcccHHHHHHHHccCChhhCCCCCCCCccccchecC
+Q tr|A0A2R8Y4C6|   49 VVTLQQFLEESNKLTSVQIKSSSQENLLDEVMKSLSVSSDFLGKDKPVSCGLASVIST  106 (166)
+Q Consensus        49 vvtlqqfleesnkltsvqiksssqenlldevmkslsvssdflgkdkpvscglasvist  106 (166)
+                      ..+++++|.--+-.-    .. ...++++.++.-+.+..++.++.-.|-|++.+.++.
+T Consensus       124 e~~i~~llK~~~i~i----~~-~~~s~~eki~~yi~~~~el~~~kl~v~~Nl~~yl~~  176 (229)
+T 3QHQ_B          124 EITILELIKALGVKI----ET-QSDTIFEKCFEIIQVYHYLTKKNLLVFVNSGAYLTK  176 (229)
+T ss_dssp             CCCHHHHHHHHTCCC----CC-TTCCHHHHHHHHHHHHHHCTTCCEEEEESCGGGCCH
+T ss_pred             cccHHHHHHHhCCee----ec-CCCCHHHHHHHHHHHHHHhcCCCEEEEEChHHhCCH
+Confidence            477777777653332    22 367889999999999999999999999998877654
+
+
+No 9
+>3OWT_B DNA-binding protein RAP1, Regulatory protein; RCT domain, protein binding; 2.0A {Saccharomyces cerevisiae}
+Probab=8.84  E-value=4.9e+02  Score=21.16  Aligned_cols=39  Identities=18%  Similarity=0.393  Sum_probs=22.9  Template_Neff=6.400
+
+Q ss_pred             HHHHHHhhccccccccCCCcccHHHHHHHHccCChhhCC
+Q tr|A0A2R8Y4C6|   53 QQFLEESNKLTSVQIKSSSQENLLDEVMKSLSVSSDFLG   91 (166)
+Q Consensus        53 qqfleesnkltsvqiksssqenlldevmkslsvssdflg   91 (166)
+                      .+|+..-+..-.-.......+.|++.+++.++++..|.+
+T Consensus        44 ~~~~~ki~~i~~~~~~~~~a~~lv~~l~~~~G~~~~f~~   82 (157)
+T 3OWT_B           44 RQFMDKLHEVISGDYEPSQAEKLVQDLCDETGIRKNFST   82 (157)
+T ss_dssp             HHHHHHHHHHHTSCCCTTCHHHHHHHHHHHHCBCHHHHH
+T ss_pred             HHHHHHHHHHHcCCCChhhHHHHHHHHHHHhCCChhhHH
+Confidence            455554333221122244567788888888888888753
+
+
+No 10
+>5VUG_A Uncharacterized protein Rv2277c; alpha-beta fold, TIM barrel, glycerophosphodiester; HET: MSE; 1.5A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=8.61  E-value=6.5e+02  Score=18.68  Aligned_cols=15  Identities=20%  Similarity=0.313  Sum_probs=11.9  Template_Neff=11.100
+
+Q ss_pred             CCCccccHHHHHHHh
+Q tr|A0A2R8Y4C6|   45 PGSEVVTLQQFLEES   59 (166)
+Q Consensus        45 pgsevvtlqqflees   59 (166)
+                      ++....+|+++|+.-
+T Consensus       102 ~~~~i~~l~e~l~~~  116 (281)
+T 5VUG_A          102 RATPIPTLEQAIGAT  116 (281)
+T ss_dssp             SCCBCCBHHHHHHTS
+T ss_pred             CCCcCCCHHHHHhcC
+Confidence            456789999999954
+
+

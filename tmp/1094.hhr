@@ -1,0 +1,169 @@
+Query         tr|I3L2A0|I3L2A0_HUMAN
+Match_columns 191
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:18:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1094.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1SR4_A Cytolethal distending t  19.1 4.8E+02  0.0052   17.3   4.0   21  151-171     3-23  (206)
+  2 3GBZ_A Kinase, CMGC CDK; SSGCI  14.2 4.4E+02  0.0048   19.0   2.8   23  117-139     1-23  (329)
+  3 3GC0_A Kinase, CMGC CDK; SSGCI  14.2 4.4E+02  0.0048   19.0   2.8   23  117-139     1-23  (329)
+  4 3SOM_H Methylmalonic aciduria   13.9 8.6E+02  0.0093   22.1   5.0   30   17-46    241-270 (286)
+  5 3SOM_N Methylmalonic aciduria   13.9 8.6E+02  0.0093   22.1   5.0   29   18-46    242-270 (286)
+  6 2H2M_A all alpha-helical, META  11.5 2.2E+02  0.0024   22.7   0.8   10   72-81     70-79  (108)
+  7 1OR7_C RNA polymerase sigma-E   11.4 3.2E+02  0.0035   18.8   1.5   17   70-86      2-18  (90)
+  8 1OR7_F RNA polymerase sigma-E   11.4 3.2E+02  0.0035   18.8   1.5   16   70-85      2-17  (90)
+  9 6KZJ_A Ankyrin-2, Nuclear dist   8.5   2E+02  0.0022   20.6  -0.4   19   95-113    49-67  (76)
+ 10 1QW1_A Diphtheria toxin repres   7.5 7.7E+02  0.0083   17.3   2.1   29   64-92      1-31  (121)
+
+No 1
+>1SR4_A Cytolethal distending toxin subunit A; toxin, bacterial, Haemophilus ducreyi, virulence; HET: BR; 2.0A {Haemophilus ducreyi} SCOP: b.42.2.1
+Probab=19.07  E-value=4.8e+02  Score=17.32  Aligned_cols=21  Identities=38%  Similarity=0.468  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCcccCCCCCCCCCCCCCCCC
+Q tr|I3L2A0|I3L2  151 MEWLDITMPNSSSGLTPLSTT  171 (191)
+Q Consensus       151 mewlditmpnsssgltplstt  171 (191)
+                      ..|-++.-|.+.+.+.|.++.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~   23 (206)
+T 1SR4_A            3 QRMNDYSQPESQSDLAPKSST   23 (206)
+T ss_dssp             ---------------------
+T ss_pred             cccccCCCCCCCCCCCCCCCC
+Confidence            345555556665555555443
+
+
+No 2
+>3GBZ_A Kinase, CMGC CDK; SSGCID, Kinase, CMGC CDK, ATP-binding; 1.85A {Giardia lamblia}
+Probab=14.19  E-value=4.4e+02  Score=18.98  Aligned_cols=23  Identities=30%  Similarity=0.257  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCC
+Q tr|I3L2A0|I3L2  117 MLDHSHSPMETSETQFAAGTPCL  139 (191)
+Q Consensus       117 mldhshspmetsetqfaagtpcl  139 (191)
+                      |..|-|.-|.|+++|-+++..+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (329)
+T 3GBZ_A            1 MAHHHHHHMGTLEAQTQGPGSMS   23 (329)
+T ss_dssp             -----------------------
+T ss_pred             CCCCccccccccccccCCCCCcc
+Confidence            34567788999999887765544
+
+
+No 3
+>3GC0_A Kinase, CMGC CDK; SSGCID, Kinase, CMGC CDK, AMP; HET: AMP; 2.0A {Giardia lamblia}
+Probab=14.19  E-value=4.4e+02  Score=18.98  Aligned_cols=23  Identities=30%  Similarity=0.257  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCC
+Q tr|I3L2A0|I3L2  117 MLDHSHSPMETSETQFAAGTPCL  139 (191)
+Q Consensus       117 mldhshspmetsetqfaagtpcl  139 (191)
+                      |..|-|.-|.|+++|-+++..+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (329)
+T 3GC0_A            1 MAHHHHHHMGTLEAQTQGPGSMS   23 (329)
+T ss_dssp             -----------------------
+T ss_pred             CCCCccccccccccccCCCCCcc
+Confidence            34577788999999887765544
+
+
+No 4
+>3SOM_H Methylmalonic aciduria and homocystinuria type; Structural Genomics, Structural Genomics Consortium; HET: FLC, MSE, B12, 5AD, DHL, EDO; 2.4A {Homo sapiens}
+Probab=13.93  E-value=8.6e+02  Score=22.15  Aligned_cols=30  Identities=27%  Similarity=0.228  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|I3L2A0|I3L2   17 LPIKEEPSPISKMRPVTASITTMPVNTVVS   46 (191)
+Q Consensus        17 lpikeepspiskmrpvtasittmpvntvvs   46 (191)
+                      +-.+++|++.+.--|+|..++.-|.|..-.
+T Consensus       241 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  270 (286)
+T 3SOM_H          241 AQPSEKPSSPSPDLPFTTPAPKKPGNPSRA  270 (286)
+T ss_dssp             ------------------------------
+T ss_pred             hCCCCCCCCCCCCCCCCCCCCCCCCCCccc
+Confidence            345789999998888888777777765433
+
+
+No 5
+>3SOM_N Methylmalonic aciduria and homocystinuria type; Structural Genomics, Structural Genomics Consortium; HET: FLC, MSE, B12, 5AD, DHL, EDO; 2.4A {Homo sapiens}
+Probab=13.93  E-value=8.6e+02  Score=22.15  Aligned_cols=29  Identities=28%  Similarity=0.250  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|I3L2A0|I3L2   18 PIKEEPSPISKMRPVTASITTMPVNTVVS   46 (191)
+Q Consensus        18 pikeepspiskmrpvtasittmpvntvvs   46 (191)
+                      -.+++|++.+.--|+|..++.-|.|..-.
+T Consensus       242 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  270 (286)
+T 3SOM_N          242 QPSEKPSSPSPDLPFTTPAPKKPGNPSRA  270 (286)
+T ss_dssp             -----------------------------
+T ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCccc
+Confidence            45789999998888888777777765433
+
+
+No 6
+>2H2M_A all alpha-helical, METAL TRANSPORT; NMR {Homo sapiens}
+Probab=11.53  E-value=2.2e+02  Score=22.66  Aligned_cols=10  Identities=70%  Similarity=0.933  Sum_probs=8.1  Template_Neff=5.600
+
+Q ss_pred             hhhhhhhCCC
+Q tr|I3L2A0|I3L2   72 NQLEAFLDGT   81 (191)
+Q Consensus        72 nqleafldgt   81 (191)
+                      |||||||...
+T Consensus        70 ~QLEafLtaq   79 (108)
+T 2H2M_A           70 NQLEAFLTAQ   79 (108)
+T ss_dssp             TTSTTTHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            7999999654
+
+
+No 7
+>1OR7_C RNA polymerase sigma-E factor, Sigma-E; regulation, DNA-BINDING, TRANSMEMBRANE, TRANSCRIPTION; 2.0A {Escherichia coli} SCOP: a.180.1.1
+Probab=11.42  E-value=3.2e+02  Score=18.83  Aligned_cols=17  Identities=29%  Similarity=0.485  Sum_probs=13.2  Template_Neff=8.700
+
+Q ss_pred             chhhhhhhhCCCCCCCC
+Q tr|I3L2A0|I3L2   70 LENQLEAFLDGTLPSAN   86 (191)
+Q Consensus        70 lenqleafldgtlpsan   86 (191)
+                      ...+|.+|+||.++...
+T Consensus         2 ~~e~ls~~lD~eL~~~e   18 (90)
+T 1OR7_C            2 QKEQLSALMDGETLDSE   18 (90)
+T ss_pred             chHHHHHHhcCCCChHH
+Confidence            35678899999988764
+
+
+No 8
+>1OR7_F RNA polymerase sigma-E factor, Sigma-E; regulation, DNA-BINDING, TRANSMEMBRANE, TRANSCRIPTION; 2.0A {Escherichia coli} SCOP: a.180.1.1
+Probab=11.42  E-value=3.2e+02  Score=18.83  Aligned_cols=16  Identities=31%  Similarity=0.497  Sum_probs=12.4  Template_Neff=8.700
+
+Q ss_pred             chhhhhhhhCCCCCCC
+Q tr|I3L2A0|I3L2   70 LENQLEAFLDGTLPSA   85 (191)
+Q Consensus        70 lenqleafldgtlpsa   85 (191)
+                      ...+|.+|+||.++..
+T Consensus         2 ~~e~ls~~lD~eL~~~   17 (90)
+T 1OR7_F            2 QKEQLSALMDGETLDS   17 (90)
+T ss_dssp             CHHHHHHHHTTSCCCH
+T ss_pred             chHHHHHHhcCCCChH
+Confidence            4568889999988754
+
+
+No 9
+>6KZJ_A Ankyrin-2, Nuclear distribution protein nudE-like; PROTEIN TRANSPORT, STRUCTURAL PROTEIN, PROTEIN; 1.5A {Homo sapiens}
+Probab=8.45  E-value=2e+02  Score=20.63  Aligned_cols=19  Identities=37%  Similarity=0.700  Sum_probs=14.4  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCchhhhhccccc
+Q tr|I3L2A0|I3L2   95 SEDREPFSLIEDLQNDLLS  113 (191)
+Q Consensus        95 sedrepfsliedlqndlls  113 (191)
+                      .++.|||.+++..+.+|-.
+T Consensus        49 ~e~~ep~~ivek~ke~lek   67 (76)
+T 6KZJ_A           49 EEPGEPFEIVERVKEDLEK   67 (76)
+T ss_dssp             HCCSCHHHHHHHHHHHHHH
+T ss_pred             CCCCCChHHhHHHHHHHHH
+Confidence            4678999999888776643
+
+
+No 10
+>1QW1_A Diphtheria toxin repressor; REPRESSOR, DTXR, C-TERMINAL DOMAIN, PROKARYOTIC; NMR {Corynebacterium diphtheriae} SCOP: b.34.1.2
+Probab=7.46  E-value=7.7e+02  Score=17.27  Aligned_cols=29  Identities=34%  Similarity=0.463  Sum_probs=21.3  Template_Neff=9.600
+
+Q ss_pred             CCCCccchhhhhhhhCC--CCCCCCCCCCCC
+Q tr|I3L2A0|I3L2   64 GSLSASLENQLEAFLDG--TLPSANEIPPLQ   92 (191)
+Q Consensus        64 gslsaslenqleafldg--tlpsaneipplq   92 (191)
+                      |.+|..++.+|.+||+-  .-|..+.||...
+T Consensus         1 ~~~s~~~~~rl~~~L~~p~~~P~g~pip~~~   31 (121)
+T 1QW1_A            1 GSHMDEVERRLVKVLKDVSRSPFGNPIPGLD   31 (121)
+T ss_dssp             CCCCCCSTTCCCCSSCCCSSCCCCSSCCCTT
+T ss_pred             CCCcHHHHHHHHHHhcCcccCCCCCCCCCch
+Confidence            46778888889999864  347777777654
+
+

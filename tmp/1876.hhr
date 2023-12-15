@@ -1,0 +1,250 @@
+Query         tr|K7EIK5|K7EIK5_HUMAN
+Match_columns 144
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 13:12:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1876.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2Y73_A MEMBRANE PRIMARY AMINE   99.6 3.4E-15 3.7E-20  130.0   6.8   66    1-66    470-535 (763)
+  2 1W7C_A LYSYL OXIDASE (E.C.1.4.  99.4 1.1E-12 1.2E-17  114.7   6.2   67    1-67    437-504 (747)
+  3 3PGB_A Putative uncharacterize  99.3   1E-11 1.1E-16  111.2   6.3   65    1-66    483-547 (797)
+  4 3WA2_X Phenylethylamine oxidas  99.3 1.9E-11   2E-16  102.2   7.2   66    1-66    373-438 (621)
+  5 3HI7_A oxidoreductase, copper   99.3 1.6E-11 1.7E-16  105.6   6.2   66    1-66    440-505 (731)
+  6 2C10_B MEMBRANE COPPER AMINE O  99.3 2.3E-11 2.5E-16  105.0   6.9   66    1-66    442-507 (735)
+  7 1TU5_A Copper amine oxidase, l  99.2 4.1E-11 4.4E-16  103.9   6.8   67    1-67    453-519 (746)
+  8 5ZOX_A Phenylethylamine oxidas  99.2   1E-10 1.1E-15   97.6   7.1   67    1-67    373-439 (620)
+  9 3LOY_B copper amine oxidase (E  99.1 1.3E-10 1.4E-15   97.7   5.6   67    1-67    384-451 (633)
+ 10 1EKM_C COPPER AMINE OXIDASE (E  99.1 1.4E-10 1.6E-15   97.9   5.8   66    1-66    388-455 (656)
+ 11 3SXX_F Peroxisomal primary ami  99.1   2E-10 2.2E-15   98.6   5.9   67    1-67    404-472 (692)
+ 12 1KSI_B COPPER AMINE OXIDASE; O  99.1 3.7E-10   4E-15   94.4   6.0   66    1-66    381-452 (642)
+ 13 6GRR_B Amine oxidase (E.C.1.4.  99.1   4E-10 4.4E-15   94.2   6.0   66    1-66    460-534 (720)
+ 14 1W2Z_A AMINE OXIDASE, COPPER C  98.9 7.3E-09   8E-14   87.4   6.1   66    1-66    386-457 (649)
+ 15 5UB8_A Likely rab family GTP-b  45.2      57 0.00062   21.6   2.8   36   78-113   185-220 (222)
+
+No 1
+>2Y73_A MEMBRANE PRIMARY AMINE OXIDASE (E.C.1.4.3.21); OXIDOREDUCTASE; HET: TPQ, NAG, MAN, IMD; 2.6A {HOMO SAPIENS}
+Probab=99.59  E-value=3.4e-15  Score=129.96  Aligned_cols=66  Identities=95%  Similarity=1.455  Sum_probs=62.0  Template_Neff=7.700
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+||+||+|++++.+||++++..+......||+++.+++.+.+|+|+++|||||||+|+
+T Consensus       470 NYdYi~d~~F~~dG~ie~~v~atG~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RvDlDV~G~  535 (763)
+T 2Y73_A          470 NXDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGL  535 (763)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCEEECCSSGGGTEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CcceEEEEEeeCCceeEEEEEeeceeeeEEeecCCCCccceecccccceeeeeeEEEEEeccccCC
+Confidence            899999999999999999999999999887766566899999999999999999999999999995
+
+
+No 2
+>1W7C_A LYSYL OXIDASE (E.C.1.4.3.13); AMINE OXIDASE, OXIDOREDUCTASE, QUINOPROTEIN, TOPAQUINONE; HET: TPQ, NAG, BMA, IMD; 1.23A {PICHIA PASTORIS} SCOP: b.30.2.1, d.17.2.1
+Probab=99.38  E-value=1.1e-12  Score=114.67  Aligned_cols=67  Identities=31%  Similarity=0.586  Sum_probs=62.5  Template_Neff=7.600
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecc-cCCCCCcccccccccceccceEEEEEeecCCCc
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGA-TGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGDP   67 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfga-tgkygnqvsehtlgtvhthsahfkvdldvagdp   67 (144)
+                      ||||+++|+|++||+|++++.+||+++...+.+. ...||+.+.+++.+.+|+|+++|||||||+|++
+T Consensus       437 NYdYi~d~~F~~DG~Ie~~v~atG~~~~~~~~~~~~~~~G~~i~~~~~~~~H~H~~~~R~DlDI~G~~  504 (747)
+T 1W7C_A          437 NXDYNFLYKFFLDGTLEVSVRAAGYIQAGYWNPETSAPYGLKIHDVLSGSFHDHVLNYKVDLDVGGTK  504 (747)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCCEECCTTTCGGGCCEEETTEECCCEEEEEEEEEEECTTSSE
+T ss_pred             CccEEEEEEEeCCCceEEeeeccCceeeeEeCCCCCCCceeeecCCceeeceeeeEEEeeeccCCCCc
+Confidence            8999999999999999999999999998887754 567999999999999999999999999999964
+
+
+No 3
+>3PGB_A Putative uncharacterized protein (E.C.1.4.3.6); oxidoreductase, copper amine oxidase, CAO; HET: TPQ, NAG, BMA, MAN; 2.45A {Emericella nidulans}
+Probab=99.28  E-value=1e-11  Score=111.21  Aligned_cols=65  Identities=34%  Similarity=0.682  Sum_probs=61.0  Template_Neff=6.900
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.+|||++...+.. ...||+.+.+++.+.+|+|+++||+||||+|+
+T Consensus       483 NYDYi~d~~F~~DGsIev~v~atGyi~~~~~~~-~~~yG~~i~~~~~g~~H~H~~~fRvD~DI~G~  547 (797)
+T 3PGB_A          483 NXDYMFSYNFHMDGTIGVEVRASGYIQSAYYAN-NQDFGYQIHDSLSGSMHDHVLNFKADFDILGP  547 (797)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCCEECTT-CGGGCCEEETTEECCCEEEEEEEEEEECTTSS
+T ss_pred             CcceEEEEEEecCCeEEeeeeccCceEEeeecC-CCcccceecccccccccccceEeeeceeccCC
+Confidence            899999999999999999999999999887764 45799999999999999999999999999996
+
+
+No 4
+>3WA2_X Phenylethylamine oxidase (E.C.1.4.3.21); oxidase, copper binding, post-translationally derived; HET: PG4, 1PE, PGE, TPQ, PEG, EDO; 1.08A {Arthrobacter globiformis}
+Probab=99.27  E-value=1.9e-11  Score=102.17  Aligned_cols=66  Identities=20%  Similarity=0.202  Sum_probs=60.5  Template_Neff=8.600
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.++|+++...+......||+.+.+++.+.+|+|+++|||||||+|.
+T Consensus       373 nYdYi~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RlD~Dv~g~  438 (621)
+T 3WA2_X          373 NXDYGFYWYLYLDGTIEFEAKATGVVFTSAFPEGGSDNISQLAPGLGAPFHQHIFSARLDMAIDGF  438 (621)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCCEECCTTCCSSEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CCCeEEEEEEEcCCeEEEEEEecceEEeeecCCCCCCccccccCCCCCcccceeEEEEEeeEecCC
+Confidence            899999999999999999999999998777633345799999999999999999999999999996
+
+
+No 5
+>3HI7_A oxidoreductase, copper amine oxidase, topaquinone; HET: TPQ, GOL, NAG, BMA; 1.799A {Homo sapiens}
+Probab=99.26  E-value=1.6e-11  Score=105.63  Aligned_cols=66  Identities=41%  Similarity=0.849  Sum_probs=61.9  Template_Neff=8.200
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.++|+++...+...+..||+.+.+++.+.+|+|+++|||||||+|+
+T Consensus       440 nYdYi~~~~F~~DG~i~~~v~~tG~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~R~D~DI~g~  505 (731)
+T 3HI7_A          440 NXDYIWDFIFYPNGVMEAKMHATGYVHATFYTPEGLRHGTRLHTHLIGNIHTHLVHYRVDLDVAGT  505 (731)
+T ss_dssp             SEEEEEEEEECTTSCEEEEEEEEECCCEEECCGGGGGSEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CCceEEEEEEecCCeEEEEEEecceEEEEEECCCCCcceEEeeccccceeeEEEEEEeeccccCCc
+Confidence            899999999999999999999999999887765556799999999999999999999999999986
+
+
+No 6
+>2C10_B MEMBRANE COPPER AMINE OXIDASE (E.C.1.4.3.6); SEMICARBAZIDE-SENSITIVE AMINE OXIDASE, VASCULAR ADHESION; HET: FUC, NAG, BMA, TPQ, MAN; 2.5A {HOMO SAPIENS}
+Probab=99.25  E-value=2.3e-11  Score=104.95  Aligned_cols=66  Identities=95%  Similarity=1.455  Sum_probs=61.8  Template_Neff=8.100
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.+||+++...+......||+.+.+++.+.+|+|+++|||||||+|+
+T Consensus       442 NYdYi~~~~F~~DG~ie~~v~~tG~~~~~~~~~~~~~~G~~i~~~~~~~~H~H~~~~RlD~DI~G~  507 (735)
+T 2C10_B          442 NXDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGL  507 (735)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCEEECCSCTTSSEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CcceEEEEEEcCCceEEEEEEccCeeEEEEEeCCCCCceeeecCccCceeeeeEEEEEeecccCCC
+Confidence            899999999999999999999999999877765556899999999999999999999999999995
+
+
+No 7
+>1TU5_A Copper amine oxidase, liver isozyme; Amine oxidase, oxidoreductase, quinoenzyme, TPQ; HET: TPQ, NAG; 2.37A {Bos taurus}
+Probab=99.22  E-value=4.1e-11  Score=103.95  Aligned_cols=67  Identities=73%  Similarity=1.190  Sum_probs=61.9  Template_Neff=8.000
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCCc
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGDP   67 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagdp   67 (144)
+                      ||||+++|+|++||+|++++.+||+++...+......||+.+.+++.+.+|+|+++|||||||+|..
+T Consensus       453 NYdYi~~~~F~~DG~Ie~~v~~tG~~~~~~~~~~~~~~G~~v~~~~~a~~H~H~~~~RlD~DI~G~~  519 (746)
+T 1TU5_A          453 NXDYVWDMVFYPNGAIEVKLHATGYISSAFLFGAARRYGNQVGEHTLGPVHTHSAHYKVDLDVGGLE  519 (746)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCCEECCTTGGGGEEEEETTEEEECEEEEEEEEEEECTTSSE
+T ss_pred             CCCeEEEEEEecCCceEEEeeecCceeeeEeecccccceeeccCCCccccccceEEEeeecCCCCCc
+Confidence            8999999999999999999999999998777654568999999999999999999999999999953
+
+
+No 8
+>5ZOX_A Phenylethylamine oxidase (E.C.1.4.3.21); COPPER AMINE OXIDASE, TOPAQUINONE, TPQ; HET: TYQ; 1.691A {Arthrobacter globiformis}
+Probab=99.18  E-value=1e-10  Score=97.59  Aligned_cols=67  Identities=19%  Similarity=0.199  Sum_probs=60.9  Template_Neff=8.700
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecccCCCCCcccccccccceccceEEEEEeecCCCc
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGDP   67 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgatgkygnqvsehtlgtvhthsahfkvdldvagdp   67 (144)
+                      ||||+++|+|++||+|++++.++|+++...+......||+.+.+++.+.+|+|+++|||||||+|++
+T Consensus       373 NYdY~~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RlD~Di~G~~  439 (620)
+T 5ZOX_A          373 NXDYGFYWYLYLDGTIEFEAKATGVVFTSAFPEGGSDNISQLAPGLGAPFHQHIFSARLDMAIDGFT  439 (620)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCCEECCTTCCSSEEEEETTEEEECEEEEEEEEEEECTTSSC
+T ss_pred             CcceEEEEEEEcCCeEEEEEEecceEEeeecCCCCCCcceeecCCCCCCcccceEEEEeeeEecCCC
+Confidence            8999999999999999999999999987766333457999999999999999999999999999963
+
+
+No 9
+>3LOY_B copper amine oxidase (E.C.1.4.3.21); amine oxidase, TPQ, OXIDOREDUCTASE; HET: TPQ, GOL, TLA; 2.0A {Pichia angusta}
+Probab=99.13  E-value=1.3e-10  Score=97.67  Aligned_cols=67  Identities=28%  Similarity=0.483  Sum_probs=61.1  Template_Neff=8.500
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeecc-cCCCCCcccccccccceccceEEEEEeecCCCc
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGA-TGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGDP   67 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfga-tgkygnqvsehtlgtvhthsahfkvdldvagdp   67 (144)
+                      ||||+++|+|++||+|++++.++|+++...+... ...||+.+.+++.+.+|+|+++|||||||+|+.
+T Consensus       384 nYdY~~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RlD~Dv~G~~  451 (633)
+T 3LOY_B          384 NXEYMLNIIFDQAGEIRIHVRATGILSTMPLDKDVTVPWGTNVGPRVMAAYHQHMLSFRIDPAVDGYE  451 (633)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCEEECCTTCCCTTEEEEETTEEEECEEEEEEEEEEECTTSSC
+T ss_pred             CcceEEEEEEEccceEEEEEEecceEEEecCCCCCCCCcceecCCCccccccccceeeeCCCCcCCCC
+Confidence            8999999999999999999999999988776543 347999999999999999999999999999963
+
+
+No 10
+>1EKM_C COPPER AMINE OXIDASE (E.C.1.4.3.6); amine oxidase, quinoprotein, OXIDOREDUCTASE; 2.5A {Pichia angusta} SCOP: b.30.2.1, d.17.2.1
+Probab=99.13  E-value=1.4e-10  Score=97.86  Aligned_cols=66  Identities=27%  Similarity=0.470  Sum_probs=60.4  Template_Neff=8.500
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeeccc--CCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGAT--GKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgat--gkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.++|+++...+.+..  ..||+.+.+++.+.+|+|+++|||||||+|+
+T Consensus       388 NYdYi~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~~~G~~i~~~~~~~~H~H~~~~R~D~Dv~G~  455 (656)
+T 1EKM_C          388 NYEYCLYWVFMQDGAIRLDIRLTGILNTYILGDDEEAGPWGTRVYPNVNAHNHQHLFSLRIDPRIDGD  455 (656)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCCEECCTTCCCTTTEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             ccceEEEEEEEeCCceEEEEEEEeEEEeeeeCCCcccCCccceecCCceeecceeeEEEeeCcccCCC
+Confidence            89999999999999999999999999877765432  4699999999999999999999999999986
+
+
+No 11
+>3SXX_F Peroxisomal primary amine oxidase (E.C.1.4.3.21); oxidoreductase, peroxisome; HET: GOL, PO4; 1.27A {Pichia angusta}
+Probab=99.11  E-value=2e-10  Score=98.63  Aligned_cols=67  Identities=27%  Similarity=0.455  Sum_probs=60.9  Template_Neff=8.100
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeeccc--CCCCCcccccccccceccceEEEEEeecCCCc
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFGAT--GKYGNQVSEHTLGTVHTHSAHFKVDLDVAGDP   67 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfgat--gkygnqvsehtlgtvhthsahfkvdldvagdp   67 (144)
+                      ||||+++|+|++||+|++++.++|+++...+.+..  ..||+.+.+++.+.+|+|+++|||||||+|+.
+T Consensus       404 NYdYi~~~~F~~DG~i~~~v~~tG~~~~~~~~~~~~~~~~G~~i~~~~~~~~H~H~~~~R~D~Dv~G~~  472 (692)
+T 3SXX_F          404 NYEYCLYWVFMQDGAIRLDIRLTGILNTYILGDDEEAGPWGTRVYPNVNAHNHQHLFSLRIDPRIDGDG  472 (692)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCCEECCTTCCCTTTEEEEETTEEEECEEEEEEEEEEECTTSSC
+T ss_pred             ccceEEEEEEEeCCceEEEEEEeeeEEeeecCCCcccCCccceecCCceeeccceeeEEeeCcccCCCC
+Confidence            89999999999999999999999999877765432  46999999999999999999999999999863
+
+
+No 12
+>1KSI_B COPPER AMINE OXIDASE; OXIDASE, PEA SEEDLING, OXIDOREDUCTASE; HET: TPQ, NAG; 2.2A {Pisum sativum} SCOP: b.30.2.1, d.17.2.1
+Probab=99.08  E-value=3.7e-10  Score=94.39  Aligned_cols=66  Identities=26%  Similarity=0.358  Sum_probs=58.3  Template_Neff=8.800
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeee--eecc----cCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAF--LFGA----TGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaf--lfga----tgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.+||+++...  +...    ...||+.+.+++.+.+|+|+++|||||||+|.
+T Consensus       381 NYdY~~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RlD~Di~G~  452 (642)
+T 1KSI_B          381 NXDNVIDWEFKASGSIKPSIALSGILEIKGTNIKHKDEIKEDLHGKLVSANSIGIYHDHFYIYYLDFDIDGT  452 (642)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCEEECSCCSGGGCCSCCSEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CcceEEEEEEECCCceeeEEEEeeeeEEEeeeccCcccccccCceeEeeCCccccceeeeeEeeeceecCCC
+Confidence            899999999999999999999999998642  2211    34799999999999999999999999999996
+
+
+No 13
+>6GRR_B Amine oxidase (E.C.1.4.3.-); OXIDOREDUCTASE; HET: GOL; 1.7A {Escherichia coli}
+Probab=99.08  E-value=4e-10  Score=94.19  Aligned_cols=66  Identities=36%  Similarity=0.660  Sum_probs=57.8  Template_Neff=9.200
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeeeeec---------ccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAFLFG---------ATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaflfg---------atgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|+++++++|+++......         ....||+.+.+++.+.+|+|+++|||||||+|.
+T Consensus       460 nYdY~~~~~F~~dG~i~~~~~~tG~~~~~~~~~~~~~~~~~~~~~~~G~~v~~~~~~~~H~H~~~~RiD~di~g~  534 (720)
+T 6GRR_B          460 NYDYIFDWIFHENGTIGIDAGATGIEAVKGVKAKTMHDETAKDDTRYGTLIDHNIVGTTHQHIYNFRLDLDVDGE  534 (720)
+T ss_dssp             TEEEEEEEEEETTSCEEEEEEEEECCCEEECSCSSTTSTTHHHHTTTEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             ccceEEEEEEecCceeEEEEeccceEEEeceeccccCccccccCCCceeEecCCceeecccceEEeeeceecCCC
+Confidence            899999999999999999999999987543210         124699999999999999999999999999986
+
+
+No 14
+>1W2Z_A AMINE OXIDASE, COPPER CONTAINING (E.C.1.4.3.6); GLYCOPROTEIN, MANGANESE, METAL-BINDING OXIDASE, OXIDOREDUCTASE; HET: TPQ, NAG, IOD; 2.24A {PISUM SATIVUM} SCOP: b.30.2.1, d.17.2.1
+Probab=98.87  E-value=7.3e-09  Score=87.42  Aligned_cols=66  Identities=26%  Similarity=0.358  Sum_probs=58.1  Template_Neff=8.600
+
+Q ss_pred             CCCceeeeEecCCCcEEEEEEecCceeeee--eec----ccCCCCCcccccccccceccceEEEEEeecCCC
+Q tr|K7EIK5|K7EI    1 XYDYVWDTVFHPSGAIEIRFYATGYISSAF--LFG----ATGKYGNQVSEHTLGTVHTHSAHFKVDLDVAGD   66 (144)
+Q Consensus         1 ~ydyvwdtvfhpsgaieirfyatgyissaf--lfg----atgkygnqvsehtlgtvhthsahfkvdldvagd   66 (144)
+                      ||||+++|+|++||+|++++.+||+++...  +..    ....||+.+.+++.+..|+|+++|||||||+|+
+T Consensus       386 nYdY~~~~~F~~dG~i~~~v~~tG~~~~~~~~~~~~~~~~~~~~G~~i~~~~~~~~H~H~~~~RlD~Di~g~  457 (649)
+T 1W2Z_A          386 NXDNVIDWEFKASGSIKPSIALSGILEIKGTNIKHKDEIKEDLHGKLVSANSIGIYHDHFYIYYLDFDIDGT  457 (649)
+T ss_dssp             TEEEEEEEEECTTSCEEEEEEEEECCCEEECSCCSGGGCCSCCSEEEEETTEEEECEEEEEEEEEEECTTSS
+T ss_pred             CcceeEEEEEEcCCceeeEEEEeceeEEeeeeccCcccccccCceeEEecCccceeecccEEeeecceecCC
+Confidence            899999999999999999999999998642  221    134699999999999999999999999999996
+
+
+No 15
+>5UB8_A Likely rab family GTP-binding protein; G-PROTEIN, RAB, GDP, P-LOOP, GTPASE; HET: GDP; 2.35A {Candida albicans (strain SC5314 / ATCC MYA-2876)}
+Probab=45.23  E-value=57  Score=21.61  Aligned_cols=36  Identities=8%  Similarity=0.029  Sum_probs=0.9  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccec
+Q tr|K7EIK5|K7EI   78 LPRGKRHPSLPVPGQQPQQQVGSPPGLPHPDAQLCW  113 (144)
+Q Consensus        78 lprgkrhpslpvpgqqpqqqvgsppglphpdaqlcw  113 (144)
+                      +..+.+.+.-+.+++.-..+..+++..+....++.|
+T Consensus       185 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  220 (222)
+T 5UB8_A          185 LENNDSKQTNTAGGPTISLTPAPQEKKNKNNGXLLL  220 (222)
+T ss_dssp             TC----------------------------------
+T ss_pred             cccCCCCcccccCCCceeecCCcccccccCCCcccc
+Confidence            444555555555542222333333334333344444
+
+

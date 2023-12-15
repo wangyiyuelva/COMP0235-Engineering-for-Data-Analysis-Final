@@ -1,0 +1,167 @@
+Query         tr|H0YH26|H0YH26_HUMAN
+Match_columns 194
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:55:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1390.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4LMG_A Iron-regulated transcri  29.1      53 0.00057   21.6   0.7   11  182-192   147-157 (157)
+  2 4LMG_C Iron-regulated transcri  29.1      53 0.00057   21.6   0.7   11  182-192   147-157 (157)
+  3 5NRL_N U6 snRNA-associated Sm-  22.8      85 0.00093   28.8   1.1   19  104-122    95-113 (291)
+  4 5ZWO_9 Pre-mRNA-splicing facto  22.8      85 0.00093   28.8   1.1   19  104-122    95-113 (291)
+  5 1ZOF_J decamer, toroide-shaped  19.9   2E+02  0.0022   19.7   2.2   23  141-163   173-195 (198)
+  6 2DOH_C lysine-binding site, pl  19.5 2.6E+02  0.0029   19.3   2.6   25    9-33      6-30  (30)
+  7 7OOP_S transcription, DNA repa  18.5 2.3E+02  0.0025   27.2   2.8   17  124-140  1147-1163(1173)
+  8 2KJ4_B plasminogen, VEK-30; Pr  18.1 2.5E+02  0.0027   19.6   2.3   26    8-33      7-32  (32)
+  9 5MPT_A citS citrinin polyketid  17.6 3.2E+02  0.0035   24.7   3.4   66   42-109    68-133 (414)
+ 10 7OKX_O Pol II, Super elongatio  16.0 3.3E+02  0.0035   25.2   3.1   15   28-42    182-196 (268)
+
+No 1
+>4LMG_A Iron-regulated transcriptional activator AFT2; WRKY-GCM1, TRANSCRIPTION FACTOR, DNA BINDING; 2.2A {Saccharomyces cerevisiae}
+Probab=29.12  E-value=53  Score=21.62  Aligned_cols=11  Identities=36%  Similarity=1.038  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ccCCCCCCCCC
+Q tr|H0YH26|H0YH  182 TVVPCDFGLST  192 (194)
+Q Consensus       182 tvvpcdfglst  192 (194)
+                      ..+|||.||+.
+T Consensus       147 ~~~~~~~~~~~  157 (157)
+T 4LMG_A          147 PIISCDCGLTK  157 (157)
+T ss_dssp             -----------
+T ss_pred             CeeeccCcccC
+Confidence            67999999973
+
+
+No 2
+>4LMG_C Iron-regulated transcriptional activator AFT2; WRKY-GCM1, TRANSCRIPTION FACTOR, DNA BINDING; 2.2A {Saccharomyces cerevisiae}
+Probab=29.12  E-value=53  Score=21.62  Aligned_cols=11  Identities=36%  Similarity=1.038  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ccCCCCCCCCC
+Q tr|H0YH26|H0YH  182 TVVPCDFGLST  192 (194)
+Q Consensus       182 tvvpcdfglst  192 (194)
+                      ..+|||.||+.
+T Consensus       147 ~~~~~~~~~~~  157 (157)
+T 4LMG_C          147 PIISCDCGLTK  157 (157)
+T ss_dssp             -----------
+T ss_pred             CeeeccCcccC
+Confidence            67999999973
+
+
+No 3
+>5NRL_N U6 snRNA-associated Sm-like protein LSm3; Spliceosome, Splicing, Ribonucleoprotein; HET: PSU, GTP; 7.2A {Saccharomyces cerevisiae}
+Probab=22.80  E-value=85  Score=28.84  Aligned_cols=19  Identities=16%  Similarity=0.361  Sum_probs=14.8  Template_Neff=5.500
+
+Q ss_pred             ccCCCCCcccHHHHHHHHH
+Q tr|H0YH26|H0YH  104 QKKVRPMYLKDYERKVILE  122 (194)
+Q Consensus       104 qkkvrpmylkdyerkvile  122 (194)
+                      ...++|.+++--.|..+.+
+T Consensus        95 ~~l~KPVFVkK~~R~t~~~  113 (291)
+T 5NRL_N           95 RPLPRPLFMKKKANNLQKA  113 (291)
+T ss_pred             CCCcCCeeechhhcccccc
+Confidence            4566899999988877664
+
+
+No 4
+>5ZWO_9 Pre-mRNA-splicing factor 8, U4/U6 small; spliceosome, assembly, B complex, SPLICING; HET: GTP; 3.9A {Saccharomyces cerevisiae S288c}
+Probab=22.80  E-value=85  Score=28.84  Aligned_cols=19  Identities=16%  Similarity=0.361  Sum_probs=14.8  Template_Neff=5.500
+
+Q ss_pred             ccCCCCCcccHHHHHHHHH
+Q tr|H0YH26|H0YH  104 QKKVRPMYLKDYERKVILE  122 (194)
+Q Consensus       104 qkkvrpmylkdyerkvile  122 (194)
+                      ...++|.+++--.|..+.+
+T Consensus        95 ~~l~KPVFVkK~~R~t~~~  113 (291)
+T 5ZWO_9           95 RPLPRPLFMKKKANNLQKA  113 (291)
+T ss_pred             CCCcCCeeechhhcccccc
+Confidence            4566899999988877664
+
+
+No 5
+>1ZOF_J decamer, toroide-shaped complex, OXIDOREDUCTASE; 2.95A {Helicobacter pylori} SCOP: c.47.1.10
+Probab=19.94  E-value=2e+02  Score=19.69  Aligned_cols=23  Identities=17%  Similarity=0.185  Sum_probs=1.4  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCHHHHHHHHh
+Q tr|H0YH26|H0YH  141 RLQEKPVFEPGDKTFEEYLDEYY  163 (194)
+Q Consensus       141 rlqekpvfepgdktfeeyldeyy  163 (194)
+                      .-+..++..+..++|.+|+..++
+T Consensus       173 ~~~~~~~~~~~~~~~~~~~~~~~  195 (198)
+T 1ZOF_J          173 WRKGDKGMKATHQGVAEYLKENS  195 (198)
+T ss_dssp             SCC--------------------
+T ss_pred             cccCCcceecCccCHHHHHHHhc
+Confidence            34567788999999999887654
+
+
+No 6
+>2DOH_C lysine-binding site, plasminogen, kringle domains; HET: DIO; 2.3A {Homo sapiens}
+Probab=19.54  E-value=2.6e+02  Score=19.35  Aligned_cols=25  Identities=32%  Similarity=0.444  Sum_probs=15.0  Template_Neff=1.400
+
+Q ss_pred             ccHHHHHHHHHHHhHHHHHhhhhcc
+Q tr|H0YH26|H0YH    9 VNAAFAARYNRYREREELQRLKDRY   33 (194)
+Q Consensus         9 vnaafaarynryrereelqrlkdry   33 (194)
+                      ..+++..--|.-.|..||.|||..|
+T Consensus         6 ~d~~l~rlknerheeaelerlk~ey   30 (30)
+T 2DOH_C            6 ADAELQRLKNERHEEAELERLLSEY   30 (30)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHC-C--
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHhhC
+Confidence            3445555556666788899998765
+
+
+No 7
+>7OOP_S transcription, DNA repair, TCR;{Sus scrofa}
+Probab=18.46  E-value=2.3e+02  Score=27.23  Aligned_cols=17  Identities=29%  Similarity=0.491  Sum_probs=9.5  Template_Neff=10.500
+
+Q ss_pred             ccCCCCCCCCCCCCCCC
+Q tr|H0YH26|H0YH  124 AGKYVDEENSDGETSNH  140 (194)
+Q Consensus       124 agkyvdeensdgetsnh  140 (194)
+                      ++.--|++.|+|+.+++
+T Consensus      1147 ~~~~~~~~~~~~~~~~~ 1163 (1173)
+T 7OOP_S         1147 SGNESEPEGSNNEASDR 1163 (1173)
+T ss_pred             CCCCCCCCCCCCccccc
+Confidence            44444555566666655
+
+
+No 8
+>2KJ4_B plasminogen, VEK-30; Protein/peptide, BLOOD CLOTTING; NMR {Homo sapiens}
+Probab=18.09  E-value=2.5e+02  Score=19.65  Aligned_cols=26  Identities=35%  Similarity=0.492  Sum_probs=18.0  Template_Neff=1.300
+
+Q ss_pred             cccHHHHHHHHHHHhHHHHHhhhhcc
+Q tr|H0YH26|H0YH    8 RVNAAFAARYNRYREREELQRLKDRY   33 (194)
+Q Consensus         8 rvnaafaarynryrereelqrlkdry   33 (194)
+                      .-.+|+..--|.-.|..||.|||..|
+T Consensus         7 ~~d~~lerlknerheeaelerlk~ey   32 (32)
+T 2KJ4_B            7 TADAELQRLKNERHEEAELERLKSEY   32 (32)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHCCC
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            33455555566666888999999766
+
+
+No 9
+>5MPT_A citS citrinin polyketide synthase; PKS, polyketide, natural product, domain; HET: SAH, EDO; 1.648A {Monascus purpureus}
+Probab=17.60  E-value=3.2e+02  Score=24.66  Aligned_cols=66  Identities=23%  Similarity=0.286  Sum_probs=46.8  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCCCCCCCChhHhhHHHHHHHHHhccCCccccCCCccCCCCCCCCCCCCCchhHhhccCCCC
+Q tr|H0YH26|H0YH   42 SSSESDSSDERVEFDPQQERDFYKTLSLLKKKDPRIYQKDATFYNRTASSSDSEEDPEALEKQKKVRP  109 (194)
+Q Consensus        42 sssesdssdervefdpqqerdfyktlsllkkkdpriyqkdatfynrtasssdseedpealekqkkvrp  109 (194)
+                      .+.+....-.||.|.|+.+|-.--.+.+|.  +-+|...+.+.+.||+-....++..+.+++--+..|
+T Consensus        68 ~~~~~~~~~~~~~~~~~~~~~v~~~~~~l~--~a~lv~~~~~~~~r~~~~~p~~~~~~~~~~ll~~~p  133 (414)
+T 5MPT_A           68 RSAAAYQRLERVPYLPKHERFMNLIYGLLE--EARLIDINGSEITRTSVPVSTKSVETMLEELLHDEP  133 (414)
+T ss_dssp             TTCCTTCEECCCCCCGGGHHHHHHHHHHHH--HTTSEEEETTEEEECSCCCCCSCHHHHHHHHHHHCG
+T ss_pred             hcCCCCCcccCCCCCHHHHHHHHHHHHHHH--HcCCEEecCCeEEEeccCCChhhHHHHHHHHhhcCh
+Confidence            344555567899999999998777777777  467777777777788887776655555555444445
+
+
+No 10
+>7OKX_O Pol II, Super elongation complex; 3.3A {Sus scrofa}
+Probab=15.96  E-value=3.3e+02  Score=25.18  Aligned_cols=15  Identities=20%  Similarity=0.293  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             hhhhccCCCCCCCCC
+Q tr|H0YH26|H0YH   28 RLKDRYGDRDSSSDS   42 (194)
+Q Consensus        28 rlkdrygdrdsssds   42 (194)
+                      ++.+...--|+||||
+T Consensus       182 ~~~~qmss~~sss~s  196 (268)
+T 7OKX_O          182 DIIEQMSSSSGSSSS  196 (268)
+T ss_dssp             ---------------
+T ss_pred             HHHHhhhcCCCCcCC
+Confidence            445555555555543
+
+

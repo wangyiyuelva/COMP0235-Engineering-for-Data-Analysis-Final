@@ -1,0 +1,170 @@
+Query         tr|H0YA94|H0YA94_HUMAN
+Match_columns 26
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:43:10 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0619.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HNO_B Cell division protein Z  43.8      20 0.00022   18.7   0.4    9   10-18      9-17  (190)
+  2 5HNO_C Cell division protein Z  43.8      20 0.00022   18.7   0.4    9   10-18      9-17  (190)
+  3 4QUV_A Delta(14)-sterol reduct  37.1      25 0.00027   21.7   0.2   14    6-19    346-359 (427)
+  4 4QUV_B Delta(14)-sterol reduct  37.1      25 0.00027   21.7   0.2   14    6-19    346-359 (427)
+  5 4A2N_B ISOPRENYLCYSTEINE CARBO  36.0      26 0.00028   17.7   0.1   17    3-19    112-128 (194)
+  6 5V7P_A Protein-S-isoprenylcyst  32.3      37  0.0004   20.7   0.4   16    4-19    196-211 (288)
+  7 4CYK_A PAB-DEPENDENT POLY(A)-S  21.9   1E+02  0.0011   13.4   0.7   12    6-17     14-25  (41)
+  8 7C83_A 3-oxo-5-alpha-steroid 4  15.1 2.2E+02  0.0024   15.7   1.2   16    4-19    182-197 (258)
+  9 1KEZ_A ERYTHRONOLIDE SYNTHASE   13.2 2.5E+02  0.0028   13.9   1.0   10   11-20      1-10  (300)
+ 10 6MLK_A 6-deoxyerythronolide-B   13.2 2.5E+02  0.0028   13.9   1.0   10   11-20      1-10  (300)
+
+No 1
+>5HNO_B Cell division protein ZapD; O antigen export, carbohydrate binding; 1.7A {Raoultella terrigena}
+Probab=43.76  E-value=20  Score=18.65  Aligned_cols=9  Identities=33%  Similarity=0.180  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ccccccCCC
+Q tr|H0YA94|H0YA   10 GLYGQIRHP   18 (26)
+Q Consensus        10 glygqirhp   18 (26)
+                      .||||+++-
+T Consensus         9 ~~~~~~~~~   17 (190)
+T 5HNO_B            9 NLYFQGADQ   17 (190)
+T ss_dssp             ---------
+T ss_pred             cceecCCCC
+Confidence            589999874
+
+
+No 2
+>5HNO_C Cell division protein ZapD; O antigen export, carbohydrate binding; 1.7A {Raoultella terrigena}
+Probab=43.76  E-value=20  Score=18.65  Aligned_cols=9  Identities=33%  Similarity=0.180  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ccccccCCC
+Q tr|H0YA94|H0YA   10 GLYGQIRHP   18 (26)
+Q Consensus        10 glygqirhp   18 (26)
+                      .||||+++-
+T Consensus         9 ~~~~~~~~~   17 (190)
+T 5HNO_C            9 NLYFQGADQ   17 (190)
+T ss_dssp             ---------
+T ss_pred             cceecCCCC
+Confidence            589999874
+
+
+No 3
+>4QUV_A Delta(14)-sterol reductase (E.C.1.3.1.70); Membrane protein, Cholesterol Biosynthesis, Oxidoreductase; HET: NDP; 2.743A {Methylomicrobium alcaliphilum}
+Probab=37.06  E-value=25  Score=21.70  Aligned_cols=14  Identities=36%  Similarity=0.541  Sum_probs=11.3  Template_Neff=9.000
+
+Q ss_pred             CcccccccccCCCC
+Q tr|H0YA94|H0YA    6 LTNIGLYGQIRHPP   19 (26)
+Q Consensus         6 ltniglygqirhpp   19 (26)
+                      +-.-|+|+.+|||.
+T Consensus       346 Ll~sG~~~~vRHPn  359 (427)
+T 4QUV_A          346 LLTSGWWGIARHMN  359 (427)
+T ss_dssp             EECSTHHHHCTTHH
+T ss_pred             eeecCcchhhcChh
+Confidence            55568999999984
+
+
+No 4
+>4QUV_B Delta(14)-sterol reductase (E.C.1.3.1.70); Membrane protein, Cholesterol Biosynthesis, Oxidoreductase; HET: NDP; 2.743A {Methylomicrobium alcaliphilum}
+Probab=37.06  E-value=25  Score=21.70  Aligned_cols=14  Identities=36%  Similarity=0.541  Sum_probs=11.2  Template_Neff=9.000
+
+Q ss_pred             CcccccccccCCCC
+Q tr|H0YA94|H0YA    6 LTNIGLYGQIRHPP   19 (26)
+Q Consensus         6 ltniglygqirhpp   19 (26)
+                      +-.-|+|+.+|||.
+T Consensus       346 Ll~sG~~~~vRHPn  359 (427)
+T 4QUV_B          346 LLTSGWWGIARHMN  359 (427)
+T ss_dssp             EECSTHHHHCTTHH
+T ss_pred             eeecCcchhhcChh
+Confidence            45568999999984
+
+
+No 5
+>4A2N_B ISOPRENYLCYSTEINE CARBOXYL METHYLTRANSFERASE; TRANSFERASE, MEMBRANE PROTEIN, RAS AND; HET: SAH, CDL, PLM; 3.4A {METHANOSARCINA ACETIVORANS}
+Probab=35.99  E-value=26  Score=17.72  Aligned_cols=17  Identities=41%  Similarity=0.741  Sum_probs=13.2  Template_Neff=10.900
+
+Q ss_pred             CCCCcccccccccCCCC
+Q tr|H0YA94|H0YA    3 KGQLTNIGLYGQIRHPP   19 (26)
+Q Consensus         3 kgqltniglygqirhpp   19 (26)
+                      ++.+-.-|+|.-+|||.
+T Consensus       112 ~~~l~~~G~~~~~rhP~  128 (194)
+T 4A2N_B          112 GHKLVKEGIYKNIRHPM  128 (194)
+T ss_dssp             TCCCCCSSTTTTBSSHH
+T ss_pred             CCceeeccccHHccCHH
+Confidence            34566779999999984
+
+
+No 6
+>5V7P_A Protein-S-isoprenylcysteine O-methyltransferase (E.C.2.1.1.100), monobody; membrane protein, membrane enzyme, methyltransferase; HET: MPG, SAH, D10, UND; 2.3A {Tribolium castaneum}
+Probab=32.30  E-value=37  Score=20.72  Aligned_cols=16  Identities=38%  Similarity=0.690  Sum_probs=13.1  Template_Neff=7.900
+
+Q ss_pred             CCCcccccccccCCCC
+Q tr|H0YA94|H0YA    4 GQLTNIGLYGQIRHPP   19 (26)
+Q Consensus         4 gqltniglygqirhpp   19 (26)
+                      .++..-|+|.-+|||.
+T Consensus       196 ~~Lvt~G~Y~~~RHP~  211 (288)
+T 5V7P_A          196 HVLVTHGVYAWFRHPS  211 (288)
+T ss_dssp             CCCCCSTHHHHCSCHH
+T ss_pred             CeeeeechhHhhcChh
+Confidence            4577789999999984
+
+
+No 7
+>4CYK_A PAB-DEPENDENT POLY(A)-SPECIFIC RIBONUCLEASE SUBUNIT PAN3; TRANSCRIPTION, PAN3P, PAN2P, POLYA, RNA; HET: ZN; NMR {SACCHAROMYCES CEREVISIAE}
+Probab=21.89  E-value=1e+02  Score=13.41  Aligned_cols=12  Identities=33%  Similarity=0.631  Sum_probs=9.4  Template_Neff=8.000
+
+Q ss_pred             CcccccccccCC
+Q tr|H0YA94|H0YA    6 LTNIGLYGQIRH   17 (26)
+Q Consensus         6 ltniglygqirh   17 (26)
+                      ..|+.+||..|.
+T Consensus        14 crn~~i~g~c~~   25 (41)
+T 4CYK_A           14 CRNITIYGYCKK   25 (41)
+T ss_dssp             CHCCCCCSCCGG
+T ss_pred             cccceecCcccC
+Confidence            578999997775
+
+
+No 8
+>7C83_A 3-oxo-5-alpha-steroid 4-dehydrogenase; steroid reductase, NADPH, steroid 3-oxo-delta(4); HET: NDP, OLC; 2.0A {Proteobacteria bacterium}
+Probab=15.06  E-value=2.2e+02  Score=15.67  Aligned_cols=16  Identities=19%  Similarity=0.320  Sum_probs=12.8  Template_Neff=10.100
+
+Q ss_pred             CCCcccccccccCCCC
+Q tr|H0YA94|H0YA    4 GQLTNIGLYGQIRHPP   19 (26)
+Q Consensus         4 gqltniglygqirhpp   19 (26)
+                      ..+-.-|+|.-+|||.
+T Consensus       182 ~~l~~~G~f~~vr~P~  197 (258)
+T 7C83_A          182 YEIPRGGAYRLVSCPN  197 (258)
+T ss_dssp             CCCCCSGGGGTBSCHH
+T ss_pred             CCCCCCCchHHcCCch
+Confidence            5566779999999984
+
+
+No 9
+>1KEZ_A ERYTHRONOLIDE SYNTHASE (E.C.2.3.1.94); polyketide synthase, 6-deoxyerythronolide synthase, modular; 2.8A {Saccharopolyspora erythraea} SCOP: c.69.1.22
+Probab=13.18  E-value=2.5e+02  Score=13.91  Aligned_cols=10  Identities=10%  Similarity=0.162  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             cccccCCCCC
+Q tr|H0YA94|H0YA   11 LYGQIRHPPA   20 (26)
+Q Consensus        11 lygqirhppa   20 (26)
+                      |.|||+-++.
+T Consensus         1 ~~~~~~~~~~   10 (300)
+T 1KEZ_A            1 MASQLDSGTP   10 (300)
+T ss_dssp             ----------
+T ss_pred             CCCCCCCCCC
+Confidence            3466665543
+
+
+No 10
+>6MLK_A 6-deoxyerythronolide-B synthase EryA3, modules 5; 6-Deoxyerythronolide B synthase, Thioesterase, monoclonal; 2.45A {Saccharopolyspora erythraea}
+Probab=13.18  E-value=2.5e+02  Score=13.91  Aligned_cols=10  Identities=10%  Similarity=0.162  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             cccccCCCCC
+Q tr|H0YA94|H0YA   11 LYGQIRHPPA   20 (26)
+Q Consensus        11 lygqirhppa   20 (26)
+                      |.|||+-++.
+T Consensus         1 ~~~~~~~~~~   10 (300)
+T 6MLK_A            1 MASQLDSGTP   10 (300)
+T ss_dssp             ----------
+T ss_pred             CCCCCCCCCC
+Confidence            3566665543
+
+

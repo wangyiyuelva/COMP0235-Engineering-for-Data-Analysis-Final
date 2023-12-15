@@ -1,0 +1,168 @@
+Query         tr|A0A0U1RQC1|A0A0U1RQC1_HUMAN
+Match_columns 48
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:14:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0930.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1LSH_B LIPOVITELLIN, VITELLOGE  15.8 4.1E+02  0.0045   18.3   2.8    7   35-41     25-31  (319)
+  2 4V7E_CC Ribosome; eukaryotic r  13.9 5.1E+02  0.0055   20.0   3.1   14   10-25     71-84  (405)
+  3 4TNS_A Peptidyl-prolyl cis-tra  11.2   5E+02  0.0054   14.7   1.9   12   36-47     11-22  (151)
+  4 4QN3_B Neuraminidase; 6-BLADED  10.8   2E+02  0.0022   22.9   0.4   12   36-47    285-296 (390)
+  5 4QN7_A Neuraminidase; 6-BLADED  10.8   2E+02  0.0022   22.9   0.4   12   36-47    285-296 (390)
+  6 2GYT_A SAM domain, protein str  10.4   3E+02  0.0033   14.1   0.8    7    1-7       1-7   (76)
+  7 5DMV_D Serine/threonine-protei  10.2 4.7E+02  0.0051   14.4   1.5   22   26-47      3-24  (32)
+  8 4K3Y_C neuraminidase; influenz  10.1   2E+02  0.0022   22.8   0.1    8   21-28    243-250 (369)
+  9 6PZD_A Neuraminidase (E.C.3.2.   9.9 2.2E+02  0.0024   22.8   0.3   11   37-47    291-301 (393)
+ 10 4MC7_B NEURAMINIDASE; bat, inf   9.8 2.1E+02  0.0023   22.8   0.1    8   21-28    248-255 (374)
+
+No 1
+>1LSH_B LIPOVITELLIN, VITELLOGENIN, LIPOPROTEIN, PLASMA APOLIPOPROTE; HET: PLD, UPL; 1.9A {Ichthyomyzon unicuspis} SCOP: f.7.1.1
+Probab=15.75  E-value=4.1e+02  Score=18.33  Aligned_cols=7  Identities=57%  Similarity=0.434  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCCC
+Q tr|A0A0U1RQC1|   35 STSVSSR   41 (48)
+Q Consensus        35 stsvssr   41 (48)
+                      +.+.||+
+T Consensus        25 ~~~~~~~   31 (319)
+T 1LSH_B           25 SSSSSSS   31 (319)
+T ss_dssp             -------
+T ss_pred             CCCCCCC
+Confidence            3333333
+
+
+No 2
+>4V7E_CC Ribosome; eukaryotic ribosome, homology modeling, de; 5.5A {Triticum aestivum}
+Probab=13.93  E-value=5.1e+02  Score=20.02  Aligned_cols=14  Identities=50%  Similarity=0.515  Sum_probs=8.6  Template_Neff=6.200
+
+Q ss_pred             CCCccccccCCCCCcc
+Q tr|A0A0U1RQC1|   10 PGTYRKVVAARAPRKV   25 (48)
+Q Consensus        10 pgtyrkvvaaraprkv   25 (48)
+                      .||-|++  +|.||.-
+T Consensus        71 ~GtGrk~--~riPR~~   84 (405)
+T 4V7E_CC          71 WGTGRAV--SRIPRVP   84 (405)
+T ss_pred             ecCCCcc--ccCCCCC
+Confidence            4777776  5666653
+
+
+No 3
+>4TNS_A Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1; Isomerase; HET: REA; 1.33A {Homo sapiens}
+Probab=11.23  E-value=5e+02  Score=14.70  Aligned_cols=12  Identities=25%  Similarity=0.299  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A0U1RQC1|   36 TSVSSRKGYKMF   47 (48)
+Q Consensus        36 tsvssrkgykmf   47 (48)
+                      .+..+++||.+|
+T Consensus        11 ~~~~~~~~~~~~   22 (151)
+T 4TNS_A           11 SSGLVPRGSHML   22 (151)
+T ss_dssp             ------------
+T ss_pred             CCCCcCCCcchh
+Confidence            344555555443
+
+
+No 4
+>4QN3_B Neuraminidase; 6-BLADED BETA-PROPELLER, HYDROLASE, CALCIUM BINDING; HET: BMA, NAG; 2.092A {Influenza A virus (A/mallard/ALB/196/1996(H10N7))}
+Probab=10.82  E-value=2e+02  Score=22.92  Aligned_cols=12  Identities=42%  Similarity=0.717  Sum_probs=6.7  Template_Neff=4.400
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A0U1RQC1|   36 TSVSSRKGYKMF   47 (48)
+Q Consensus        36 tsvssrkgykmf   47 (48)
+                      .|.+||+||.||
+T Consensus       285 is~~SRsGfE~~  296 (390)
+T 4QN3_B          285 ISPRSRSGFEML  296 (390)
+T ss_dssp             SSSSSSEEEEEE
+T ss_pred             ecCCCCCcceeE
+Confidence            345566666554
+
+
+No 5
+>4QN7_A Neuraminidase; 6-BLADED BETA-PROPELLER, HYDROLASE, CALCIUM BINDING; HET: BMA, NAG, G39; 2.302A {Influenza A virus (A/mallard/ALB/196/1996(H10N7))}
+Probab=10.82  E-value=2e+02  Score=22.92  Aligned_cols=12  Identities=42%  Similarity=0.717  Sum_probs=6.7  Template_Neff=4.400
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|A0A0U1RQC1|   36 TSVSSRKGYKMF   47 (48)
+Q Consensus        36 tsvssrkgykmf   47 (48)
+                      .|.+||+||.||
+T Consensus       285 is~~SRsGfE~~  296 (390)
+T 4QN7_A          285 ISPRSRSGFEML  296 (390)
+T ss_dssp             SSSSSSEEEEEE
+T ss_pred             ecCCCCCcceeE
+Confidence            345566666554
+
+
+No 6
+>2GYT_A SAM domain, protein structure, PROTEIN; NMR {Homo sapiens} SCOP: a.60.1.3
+Probab=10.40  E-value=3e+02  Score=14.09  Aligned_cols=7  Identities=57%  Similarity=0.824  Sum_probs=3.3  Template_Neff=9.500
+
+Q ss_pred             CCCCCCC
+Q tr|A0A0U1RQC1|    1 MVRTKAD    7 (48)
+Q Consensus         1 mvrtkad    7 (48)
+                      |+|||..
+T Consensus         1 ~~~tkPk    7 (76)
+T 2GYT_A            1 MCRKKPD    7 (76)
+T ss_dssp             CCCSCTT
+T ss_pred             CCCCCCc
+Confidence            4455543
+
+
+No 7
+>5DMV_D Serine/threonine-protein kinase PLK1 (E.C.2.7.11.21), F-box; Polo-box, PLK1, Emi2, meiosis, TRANSFERASE-METAL; HET: TPO; 2.499A {Mus musculus}
+Probab=10.18  E-value=4.7e+02  Score=14.43  Aligned_cols=22  Identities=27%  Similarity=0.217  Sum_probs=13.5  Template_Neff=3.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A0U1RQC1|   26 LGSSTSATNSTSVSSRKGYKMF   47 (48)
+Q Consensus        26 lgsstsatnstsvssrkgykmf   47 (48)
+                      |.+||.-+.....++||---+|
+T Consensus         3 l~tStlk~ed~~~s~rkrRl~F   24 (32)
+T 5DMV_D            3 LVTSTIKTEDVVSNSQNSRLHF   24 (32)
+T ss_pred             CcccccCcccCCCCcccceeee
+Confidence            4456666666666777765555
+
+
+No 8
+>4K3Y_C neuraminidase; influenza virus, neuraminidase-like, N11, beta; HET: BMA, FUC, NAG, MAN; 2.682A {Influenza A virus}
+Probab=10.14  E-value=2e+02  Score=22.79  Aligned_cols=8  Identities=25%  Similarity=0.472  Sum_probs=3.7  Template_Neff=4.400
+
+Q ss_pred             CCCccCCC
+Q tr|A0A0U1RQC1|   21 APRKVLGS   28 (48)
+Q Consensus        21 aprkvlgs   28 (48)
+                      -||.--++
+T Consensus       243 tPRp~D~s  250 (369)
+T 4K3Y_C          243 TPRGIDTT  250 (369)
+T ss_dssp             SSCCSCCC
+T ss_pred             CCCCCCCC
+Confidence            35544444
+
+
+No 9
+>6PZD_A Neuraminidase (E.C.3.2.1.18); antibody, inhibition mechanism, VIRAL PROTEIN; HET: NAG, BMA, MES, MAN, EDO; 1.12A {Influenza A virus (A/Shanghai/02/2013(H7N9))}
+Probab=9.88  E-value=2.2e+02  Score=22.82  Aligned_cols=11  Identities=55%  Similarity=0.975  Sum_probs=5.6  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|A0A0U1RQC1|   37 SVSSRKGYKMF   47 (48)
+Q Consensus        37 svssrkgykmf   47 (48)
+                      |.+||+||.||
+T Consensus       291 S~~SRsGfE~~  301 (393)
+T 6PZD_A          291 STASRSGYEML  301 (393)
+T ss_dssp             CSSSSEEEEEE
+T ss_pred             cCCCcccceeE
+Confidence            44555555544
+
+
+No 10
+>4MC7_B NEURAMINIDASE; bat, influenza, VIRAL PROTEIN; HET: NAG; 2.99A {Influenza A virus}
+Probab=9.76  E-value=2.1e+02  Score=22.77  Aligned_cols=8  Identities=25%  Similarity=0.472  Sum_probs=3.6  Template_Neff=4.300
+
+Q ss_pred             CCCccCCC
+Q tr|A0A0U1RQC1|   21 APRKVLGS   28 (48)
+Q Consensus        21 aprkvlgs   28 (48)
+                      -||.--++
+T Consensus       248 tPRp~D~s  255 (374)
+T 4MC7_B          248 TPRGIDTT  255 (374)
+T ss_dssp             SSCCCCCC
+T ss_pred             CCCCCCCC
+Confidence            34544443
+
+

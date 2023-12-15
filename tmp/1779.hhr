@@ -1,0 +1,739 @@
+Query         tr|H0Y2R3|H0Y2R3_HUMAN
+Match_columns 727
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 11:32:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1779.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6LTH_L Chromatin remodeler, Co 100.0  3E-138  3E-143 1171.3  52.4  539   43-647   594-1138(2285)
+  2 6LTJ_L Chromatin remodeler, Co 100.0   8E-28 8.7E-33  268.5  16.5  143  505-647     5-148 (1295)
+  3 2CXY_A BAF250b subunit; DNA-bi  99.7 1.4E-16 1.5E-21  121.8  10.4  121  510-630     2-122 (125)
+  4 1RYU_A ARID, SWI1, structural   99.6 1.3E-15 1.4E-20  115.4   8.7  118  511-628     2-119 (120)
+  5 2EQY_A ARID domain, Structural  99.4 9.4E-12   1E-16   97.1  10.8  108  518-626     1-109 (122)
+  6 2OEH_A MRF2/DNA Complex; Mrf2,  99.3 3.1E-11 3.3E-16   87.8   9.5   95  528-622     2-97  (107)
+  7 2LM1_A Lysine-specific demethy  99.3 2.5E-11 2.7E-16   89.1   8.6  103  517-620     2-105 (107)
+  8 1C20_A DNA-BINDING DOMAIN, ARI  99.3 2.7E-11 2.9E-16   94.9   8.7  111  512-622     2-116 (128)
+  9 2JRZ_A Histone demethylase JAR  99.3   7E-11 7.6E-16   91.7   9.9  102  521-623     2-104 (117)
+ 10 4LJX_B AT-rich interactive dom  99.3 8.5E-11 9.3E-16   92.3   9.7  113  509-621     6-119 (137)
+ 11 2YQE_A Jumonji/ARID domain-con  99.2 1.1E-10 1.2E-15   84.0   9.1   97  521-618     1-98  (100)
+ 12 2JXJ_A Histone demethylase JAR  99.2 2.1E-10 2.2E-15   82.1   8.7   91  527-618     5-95  (96)
+ 13 6L87_A DNA binding, PWWP, ARID  99.2 3.4E-10 3.7E-15  102.3  10.0   97  527-623   116-213 (229)
+ 14 2LI6_A SWI/SNF chromatin-remod  99.0 3.6E-09 3.9E-14   81.2   8.1  103  514-620     3-106 (116)
+ 15 2RQ5_A Protein Jumonji; PROTEI  99.0 5.7E-09 6.1E-14   81.3   8.4  100  520-619     2-103 (121)
+ 16 5CEH_A Lysine-specific demethy  98.9 6.8E-09 7.3E-14  108.1   7.7  111  509-620    55-166 (790)
+ 17 5V9P_A Lysine-specific demethy  98.9 6.8E-09 7.3E-14  108.1   7.7  111  509-620    55-166 (790)
+ 18 5V9T_B Lysine-specific demethy  98.9 6.8E-09 7.3E-14  108.1   7.7  110  510-620    56-166 (790)
+ 19 6LQF_A AT-rich interactive dom  98.7 1.9E-07 2.1E-12   81.2   8.1   88  529-617    25-126 (204)
+ 20 7C4J_I Transcription regulator  98.5 4.5E-07 4.8E-12  104.7   8.9   97  519-619   398-494 (1314)
+ 21 7KSO_F Histone-lysine N-methyl  98.5   3E-07 3.2E-12  105.4   7.2  109  510-618   603-713 (1246)
+ 22 7EGM_B Chromatin remodeler com  98.4 1.7E-06 1.8E-11   97.5   8.4   89  527-619   156-244 (1093)
+ 23 7EGP_B Chromatin remodeler com  98.4 1.7E-06 1.8E-11   97.5   8.4   89  527-619   156-244 (1093)
+ 24 1FEX_A HELIX TURN HELIX, RIKEN  26.0 3.2E+02  0.0034   20.5   4.4   33  576-611    26-58  (59)
+ 25 5CQQ_A Regulatory protein zest  25.7 1.9E+02   0.002   21.9   3.1   34  577-610    39-75  (82)
+ 26 5CQQ_B Regulatory protein zest  25.7 1.9E+02   0.002   21.9   3.1   34  577-610    39-75  (82)
+
+No 1
+>6LTH_L Chromatin remodeler, Complex, GENE REGULATION;{Homo sapiens}
+Probab=100.00  E-value=2.8e-138  Score=1171.35  Aligned_cols=539  Identities=60%  Similarity=0.987  Sum_probs=45.8  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC--CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2   43 QQRYQPQQDMSQEGYGTRSQ--PPLAPGKPNHEDLNLIQQERPSSLPDLSGSIDDLPTGTEATLSSAVSASGSTSSQGDQ  120 (727)
+Q Consensus        43 qqryqpqqdmsqegygtrsq--pplapgkpnhedlnliqqerpsslpdlsgsiddlptgteatlssavsasgstssqgdq  120 (727)
+                      |+|++++||++||+|+++++  ++++++|.|+|++++++|+||++|||||||||||||||||+|+++|+++|++|+||||
+T Consensus       594 ~~r~pppq~~~q~~~~s~~~~~~~~~~~~~~~~~~~~~~q~rpsslpdlsgsiddlptgte~~ls~~~s~sg~~ssqgeq  673 (2285)
+T 6LTH_L          594 QQRFPPPQELSQDSFGSQASSAPSMTSSKGGQEDMNLSLQSRPSSLPDLSGSIDDLPMGTEGALSPGVSTSGISSSQGEQ  673 (2285)
+T ss_dssp             ----------------------------------------------------------------------CCSC------
+T ss_pred             ccCCCCchhccccccCCcCCCCCCcCCCCCChHHhhhhhcCCCCCcCCCCCCcccCCCCccccccCCcCCCcccCCCCcc
+Confidence            57999999999999999987  7899999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  121 SNPAQSPFSPHASPHLSSIPGGPSPSPVGSPVGSNQSRSGPISPASIPGSQMPPQPPGSQSESSSHPALSQSPMPQERGF  200 (727)
+Q Consensus       121 snpaqspfsphasphlssipggpspspvgspvgsnqsrsgpispasipgsqmppqppgsqsessshpalsqspmpqergf  200 (727)
+                      +||||||||||+||||+++| |||||||+||||+++|||||||||++||++|+||++|+++|+++|++++||+|+|||||
+T Consensus       674 ~npaqsPfsPh~sp~l~~~r-gPSpsPvgspags~~srsgp~Spa~~pg~~~~p~~~g~~~d~~~h~~~~qs~m~q~rgf  752 (2285)
+T 6LTH_L          674 SNPAQSPFSPHTSPHLPGIR-GPSPSPVGSPASVAQSRSGPLSPAAVPGNQMPPRPPSGQSDSIMHPSMNQSSIAQDRGY  752 (2285)
+T ss_dssp             --SSCCC------------C-C-------------------CCH--HH-------------------------HHHHHHH
+T ss_pred             CCCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCccCcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccccCcccccccc
+Confidence            99999999999999999999 99999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  201 MAGTQRNPQMAQYGPQQTGPSMSPHPSPGGQMHAGISSFQQSNSSGTYGPQMSQYGPQGNYSRPPAYSGVPSASYSGPGP  280 (727)
+Q Consensus       201 magtqrnpqmaqygpqqtgpsmsphpspggqmhagissfqqsnssgtygpqmsqygpqgnysrppaysgvpsasysgpgp  280 (727)
+                      |   |||++++||++||++|+||||++|||+||++|++| |++++++||||++||||||||||+++|+|++++||+|||+
+T Consensus       753 ~---qrn~~~~q~~~~q~gp~mSPhp~pgg~m~~g~g~y-Q~~~~g~ygpqg~qygpqgnYpRpp~Y~g~psa~y~gpGp  828 (2285)
+T 6LTH_L          753 M---QRNPQMPQYSSPQPGSALSPRQPSGGQIHTGMGSY-QQNSMGSYGPQGGQYGPQGGYPRQPNYNALPNANYPSAGM  828 (2285)
+T ss_dssp             --------------------------------------------------------------HH-------------HHH
+T ss_pred             c---ccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcc-cCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCcCCCCCCC
+Confidence            8   99999999999999999999999999999999999 8899999999999999999999999999999999999999
+
+
+Q ss_pred             CC--C-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccccccc
+Q tr|H0Y2R3|H0Y2  281 GM--G-ISANNQMHGQGPSQPCGAVPLGRMPSAGMQNRPFPGNMSSMTPSSPGMSQQGGPGMGPPMPTVNRKAQEAAAAV  357 (727)
+Q Consensus       281 gm--g-isannqmhgqgpsqpcgavplgrmpsagmqnrpfpgnmssmtpsspgmsqqggpgmgppmptvnrkaqeaaaav  357 (727)
+                      +|  | |||+|||||||||+||++||+||++|+|+++|+||++|+       +|||++|+|||||.+++|||++|++ ++
+T Consensus       829 ~nslg~mnasspmhGqGp~~p~~~~p~gR~~g~~~~~r~yp~~~~-------~mPq~~g~gmgPp~~~~~~k~~~~~-a~  900 (2285)
+T 6LTH_L          829 AGGINPMGAGGQMHGQPGIPPYGTLPPGRMSHASMGNRPYGPNMA-------NMPPQVGSGMCPPPGGMNRKTQETA-VA  900 (2285)
+T ss_dssp             HHHH---------------------------------------------------------------------HH-----
+T ss_pred             CCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCcccc-------CCCCCCCCCCCCCCCCCCcchhHHH-HH
+Confidence            77  7 999999999999999999999999999999999997776       8999999999999999999999999 67
+
+
+Q ss_pred             cccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  358 MQAAANSAQSRQGSFPGMNQSGLMASSSPYSQPMNNSSSLMNTQAPPYSMAPAMVNSSAASVGLADMMSPGESKLPLPLK  437 (727)
+Q Consensus       358 mqaaansaqsrqgsfpgmnqsglmassspysqpmnnssslmntqappysmapamvnssaasvgladmmspgesklplplk  437 (727)
+                      |++++|++|+|+++|++|+++++|+++.||+|++++++++|++|+++|+++++++|++++|++.++||.+.|.|++.+.|
+T Consensus       901 ~~~~ans~~~r~~~~~~~~~~~~~~~~~py~~~~~~~~~~~~~q~~~y~~~~~~~~~~~~~~~~~~~~~~~~~k~~~~~~  980 (2285)
+T 6LTH_L          901 MHVAANSIQNRPPGYPNMNQGGMMGTGPPYGQGINSMAGMINPQGPPYSMGGTMANNSAGMAASPEMMGLGDVKLTPATK  980 (2285)
+T ss_dssp             --------------------------------------------------------------------------HHHHH-
+T ss_pred             cccccccccCCCCCCCCccCCCCCCCCCCCCCCCccccccCCCCCCCCCCCCccccccccccCChhhcCCCccCCChhhh
+Confidence            88889999999999999999999999999999999999999999999999999999998998889999878999999998
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  438 ADGKEEGTPQPESKSKDSYSSQGISQPPTPGNLPVPSPMSPSSASISSFHGDESDSISSPGWPKTPSSPKSSSSTTTGEK  517 (727)
+Q Consensus       438 adgkeegtpqpeskskdsyssqgisqpptpgnlpvpspmspssasissfhgdesdsisspgwpktpsspksssstttgek  517 (727)
+                      +++|||+.+                                              +|+|+       |+|+++++++.+|
+T Consensus       981 ~~~~~~~~~----------------------------------------------~~ss~-------s~~~~~~~~~~e~ 1007 (2285)
+T 6LTH_L          981 MNNKADGTP----------------------------------------------KTESK-------SKKSSSSTTTNEK 1007 (2285)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ccCCCCCCC----------------------------------------------CccCC-------CCCCCCCCccchH
+Confidence            889999888                                              78887       6799999999999
+
+
+Q ss_pred             ccccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCc
+Q tr|H0Y2R3|H0Y2  518 ITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSS  597 (727)
+Q Consensus       518 itkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsss  597 (727)
+                      |++||||+.++||++|||+|++||++||+.|..+|.|.++.||||+||++|+++|||++|+++|+|++|+..|++.++.+
+T Consensus      1008 i~rLYELd~~PeRk~FLD~L~~FmEeRGtpi~~iP~VgkkpLDLy~LY~~V~erGG~~~V~knKkWreIa~~L~~~tssS 1087 (2285)
+T 6LTH_L         1008 ITKLYELGGEPERKMWVDRYLAFTEEKAMGMTNLPAVGRKPLDLYRLYVSVKEIGGLTQVNKNKKWRELATNLNVGTSSS 1087 (2285)
+T ss_dssp             H----HH-------------------HH---------------H-HT-------------------------HH------
+T ss_pred             HHHHHHcCCCHHHHHHHHHHHHHHHHcCCCCCCCCccCCCCccHHHHHhHHHHhCccchhcccchHHHHHHHcCCCCcch
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999988788
+
+
+Q ss_pred             hhhHHHHHHHHHHHhhhccccCCCCCCCCCCCCCCCCC-CCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  598 AASSLKKQYIQYLFAFECKIERGEEPPPEVFSTGDTKK-QPKLQPPSPVVQ  647 (727)
+Q Consensus       598 aasslkkqyiqylfafeckiergeepppevfstgdtkk-qpklqppspvvq  647 (727)
+                      ++..||++|++||++|||+++|++++|.++++..|+|| ++||++|++++.
+T Consensus      1088 aa~tLKk~Y~KyLlpYEck~~rG~~~P~ei~~~~~~~k~~~k~qpPSp~~s 1138 (2285)
+T 6LTH_L         1088 AASSLKKQYIQCLYAFECKIERGEDPPPDIFAAADSKKSQPKIQPPSPAGS 1138 (2285)
+T ss_dssp             ---------------------------------------------------
+T ss_pred             hHHHHHHHHHHHhcChhHHhccCCCCCHHHHHHHhhcCCCCCCCCCCCCCC
+Confidence            89999999999999999999999999999999888877 889999999854
+
+
+No 2
+>6LTJ_L Chromatin remodeler, Complex, GENE REGULATION; 3.7A {Xenopus laevis}
+Probab=99.95  E-value=8e-28  Score=268.51  Aligned_cols=143  Identities=78%  Similarity=1.227  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCccccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHH
+Q tr|H0Y2R3|H0Y2  505 SPKSSSSTTTGEKITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWR  584 (727)
+Q Consensus       505 spksssstttgekitkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwr  584 (727)
+                      |+|+++++++.+||++||||+.+++++.|+++|++||+++|+.+..+|.|+++.||||+||++|+++|||++|+++|+|+
+T Consensus         5 ~~~~~~s~~~~~riqkLyel~~~perk~FldkL~~Fme~rGtpi~~~P~i~~k~LDLy~LY~~V~~~GG~~~V~k~K~W~   84 (1295)
+T 6LTJ_L            5 SKKSSSSTTTNEKITKLYELGGEPERKMWVDRYLAFTEEKAMGMTNLPAVGRKPLDLYRLYVSVKEIGGLTQVNKNKKWR   84 (1295)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             CCCCCCCCCCCccchhHHHcCCCHHHHHHHHHHHHHHHHcCCCCCCCCccCCccchHHHHHHHHHHhcChhHHccccHHH
+Confidence            66899999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHHcCCCCCCchhhHHHHHHHHHHHhhhccccCCCCCCCCCCCCCCCCC-CCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  585 ELATNLNVGTSSSAASSLKKQYIQYLFAFECKIERGEEPPPEVFSTGDTKK-QPKLQPPSPVVQ  647 (727)
+Q Consensus       585 elatnlnvgtsssaasslkkqyiqylfafeckiergeepppevfstgdtkk-qpklqppspvvq  647 (727)
+                      +|+..|++..+.+++..||++|++||++|||+++|++++|.+++++.++|| ++||++||||+.
+T Consensus        85 eVa~~Lg~~~sssaa~~LKk~Y~k~LlpYE~~~~rg~~~P~~i~~~~~~~~~~~~~~ppsp~~s  148 (1295)
+T 6LTJ_L           85 ELATNLNVGTSSSAASSLKKQYIQCLYAFECKIERGEDPPPDIFAAADSKKSQPKIQPPSPAGS  148 (1295)
+T ss_dssp             ----------------------------------------------------------------
+T ss_pred             HHHHHcCCCCCchHHHHHHHHHHHHhhhHHHHHHhCCCCCHHHHHHHhccCCCCCCCCCCCCCC
+Confidence            999999998777889999999999999999999999999999888777655 788999999754
+
+
+No 3
+>2CXY_A BAF250b subunit; DNA-binding domain, Structural Genomics, NPPSFA; 1.6A {Homo sapiens}
+Probab=99.71  E-value=1.4e-16  Score=121.84  Aligned_cols=121  Identities=98%  Similarity=1.466  Sum_probs=109.4  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCCccccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHH
+Q tr|H0Y2R3|H0Y2  510 SSTTTGEKITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATN  589 (727)
+Q Consensus       510 sstttgekitkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatn  589 (727)
+                      +++++.+++++|++|+.+.+++.|++.|..||+.++..+...|.+.++.||||+||++|+++||+..|+..+.|..|++.
+T Consensus         2 ~~~~~~~~~~~~~~l~~~~~~~~f~~~l~~f~~~~~~~~~~~p~~~~~~vdl~~l~~~v~~~gg~~~v~~~~~w~~v~~~   81 (125)
+T 2CXY_A            2 SSGSSGEKITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATN   81 (125)
+T ss_dssp             -----CCBTTHHHHSCCCTTHHHHHHHHHHHHHHTTCCCCBCCEETTEECCHHHHHHHHHHHTSHHHHHHHTCHHHHHHH
+T ss_pred             CCcchhhhchhHHhcCCchHHHHHHHHHHHHHHHhCCCCCCCCccCCEEccHHHHHHHHHHhCcHHHhccCCcHHHHHHH
+Confidence            56788999999999999999999999999999999999989999999999999999999999999999999999999999
+
+
+Q ss_pred             cCCCCCCchhhHHHHHHHHHHHhhhccccCCCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  590 LNVGTSSSAASSLKKQYIQYLFAFECKIERGEEPPPEVFST  630 (727)
+Q Consensus       590 lnvgtsssaasslkkqyiqylfafeckiergeepppevfst  630 (727)
+                      +++..+......|+++|.+||++||+++.++++.+.++...
+T Consensus        82 ~~~~~~~~~~~~l~~~Y~~~l~~~e~~~~~~~~~~~~~~~~  122 (125)
+T 2CXY_A           82 LNVGTSSSAASSLKKQYIQYLFAFECKIERGEEPPPEVFST  122 (125)
+T ss_dssp             TTSCSSHHHHHHHHHHHHHHTHHHHHHHHHCCCCCCSCC--
+T ss_pred             CCCCCCCcHHHHHHHHHHHHHHHHHHHHHcCCCCCCcccCC
+Confidence            99987788999999999999999999999999988876554
+
+
+No 4
+>1RYU_A ARID, SWI1, structural genomics, protein-DNA; NMR {Homo sapiens} SCOP: a.4.3.1
+Probab=99.65  E-value=1.3e-15  Score=115.38  Aligned_cols=118  Identities=81%  Similarity=1.298  Sum_probs=111.1  Template_Neff=10.800
+
+Q ss_pred             CCCCCCCccccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHc
+Q tr|H0Y2R3|H0Y2  511 STTTGEKITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNL  590 (727)
+Q Consensus       511 stttgekitkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnl  590 (727)
+                      ++++..++++|++|+.+.+++.|++.|..|++.++..+...|.+.++.||||+||.+|.++||+..|+..+.|.+|+..|
+T Consensus         2 ~~~~~~~~~~l~~l~~~~~~~~f~~~l~~f~~~~g~~~~~~p~~~~~~vdl~~l~~~v~~~gg~~~v~~~~~w~~v~~~l   81 (120)
+T 1RYU_A            2 STTTNEKITKLYELGGEPERKMWVDRYLAFTEEKAMGMTNLPAVGRKPLDLYRLYVSVKEIGGLTQVNKNKKWRELATNL   81 (120)
+T ss_dssp             CCCCSCCCCGGGCSSSCHHHHHHHHHHHHHHHHTTSCSSCCSCCSSSSCCHHHHHHHHHHHTCTTGGGTSSHHHHHHHHT
+T ss_pred             CcchhhHHHHHHHcCCCHHHHHHHHHHHHHHHHcCCCCCCCCeeCCEecCHHHHHHHHHHhCCHHHHhhcCCHHHHHHHC
+Confidence            56689999999999999999999999999999999999899999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCchhhHHHHHHHHHHHhhhccccCCCCCCCCCC
+Q tr|H0Y2R3|H0Y2  591 NVGTSSSAASSLKKQYIQYLFAFECKIERGEEPPPEVF  628 (727)
+Q Consensus       591 nvgtsssaasslkkqyiqylfafeckiergeepppevf  628 (727)
+                      ++.........|+++|.+||++||+++.++++.+.+++
+T Consensus        82 ~~~~~~~~~~~l~~~y~~~l~~~e~~~~~~~~~~~~~~  119 (120)
+T 1RYU_A           82 NVGTSSSAASSLKKQYIQCLYAFECKIERGEDPPPDIF  119 (120)
+T ss_dssp             TSCCSSHHHHHHHHHHHHHTTTTTTTTTTTTSCCCSTT
+T ss_pred             CCCCCCcHHHHHHHHHHHHHHHHHHHHHhCCCCCCccC
+Confidence            99877788899999999999999999999998877654
+
+
+No 5
+>2EQY_A ARID domain, Structural Genomics, NPPSFA; NMR {Mus musculus}
+Probab=99.38  E-value=9.4e-12  Score=97.08  Aligned_cols=108  Identities=24%  Similarity=0.381  Sum_probs=98.4  Template_Neff=10.200
+
+Q ss_pred             ccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCC
+Q tr|H0Y2R3|H0Y2  518 ITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSS  596 (727)
+Q Consensus       518 itkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtss  596 (727)
+                      +++|++++...+ +..|++.|..|++.++..+ ..|.+.++.||||+||.+|.++||+..|+..+.|..|+..|++..+.
+T Consensus         1 ~q~l~~~~~~~~~~~~f~~~l~~f~~~~~~~~-~~p~~~~~~vdl~~l~~~v~~~Gg~~~v~~~~~W~~v~~~l~~~~~~   79 (122)
+T 2EQY_A            1 GSSGSSGEAQTRVKLNFLDQIAKYWELQGSTL-KIPHVERKILDLFQLNKLVAEEGGFAVVCKDRKWTKIATKMGFAPGK   79 (122)
+T ss_dssp             CCCCCCCCCSHHHHHHHHHHHHHHHHHHTCCC-CCCBSSSSBCCHHHHHHHHHHHTCHHHHHHTTTHHHHHHHTTCCSSS
+T ss_pred             CCCccccchhhHHHHHHHHHHHHHHHHhCCCC-CCCeeCCEEecHHHHHHHHHHcCchHHHcccCcHHHHHHHcCCCCCC
+Confidence            578999988666 5689999999999999999 89999999999999999999999999999999999999999998777
+
+
+Q ss_pred             chhhHHHHHHHHHHHhhhccccCCCCCCCC
+Q tr|H0Y2R3|H0Y2  597 SAASSLKKQYIQYLFAFECKIERGEEPPPE  626 (727)
+Q Consensus       597 saasslkkqyiqylfafeckiergeepppe  626 (727)
+                      .....|+.+|.+||++||+++.++.+....
+T Consensus        80 ~~~~~l~~~Y~~~l~~~e~~~~~~~~~~~~  109 (122)
+T 2EQY_A           80 AVGSHIRGHYERILNPYNLFLSGDSLRCLQ  109 (122)
+T ss_dssp             HHHHHHHHHHHHTHHHHHHHHHCCTTCCCC
+T ss_pred             cHHHHHHHHHHHHHHHHHHHhcCCCccccc
+Confidence            889999999999999999999887765443
+
+
+No 6
+>2OEH_A MRF2/DNA Complex; Mrf2, DNA, complex, spin labeling; NMR {Homo sapiens} SCOP: a.4.3.1
+Probab=99.32  E-value=3.1e-11  Score=87.84  Aligned_cols=95  Identities=21%  Similarity=0.559  Sum_probs=86.9  Template_Neff=11.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCC-CCCchhhHHHHHH
+Q tr|H0Y2R3|H0Y2  528 PERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVG-TSSSAASSLKKQY  606 (727)
+Q Consensus       528 perklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvg-tsssaasslkkqy  606 (727)
+                      .++..|++.|..|++.++..+...+.+.++.||||+||.+|..+||+..|...+.|.+|+..|++. ........++++|
+T Consensus         2 ~~~~~f~~~l~~f~~~~~~~~~~~~~~~~~~v~l~~l~~~v~~~gg~~~v~~~~~w~~v~~~~~~~~~~~~~~~~~~~~y   81 (107)
+T 2OEH_A            2 ADEQAFLVALYKYMKERKTPIERIPYLGFKQINLWTMFQAAQKLGGYETITARRQWKHIYDELGGNPGSTSAATCTRRHY   81 (107)
+T ss_dssp             HHHHHHHHHHHHHHHTTTCCGGGCCCCSSSCCCHHHHHHHHHHTTHHHHHHHHTTHHHHHHHHCCCTTCSSTTTTHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHcCCCCCCCCccCCeeCCHHHHHHHHHHhCCHHHHcccccHHHHHHHcCCCCCCChHHHHHHHHH
+Confidence            467789999999999999999889999999999999999999999999999999999999999986 4567888999999
+
+
+Q ss_pred             HHHHHhhhccccCCCC
+Q tr|H0Y2R3|H0Y2  607 IQYLFAFECKIERGEE  622 (727)
+Q Consensus       607 iqylfafeckiergee  622 (727)
+                      .++|++||+++....+
+T Consensus        82 ~~~l~~~e~~~~~~~~   97 (107)
+T 2OEH_A           82 ERLILPYERFIKGEED   97 (107)
+T ss_dssp             HHHTTTTHHHHHHHTC
+T ss_pred             HHHHHHHHHHHcCCCC
+Confidence            9999999998775544
+
+
+No 7
+>2LM1_A Lysine-specific demethylase lid (E.C.1.14.11.-); Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; NMR {Drosophila melanogaster}
+Probab=99.31  E-value=2.5e-11  Score=89.11  Aligned_cols=103  Identities=30%  Similarity=0.532  Sum_probs=95.0  Template_Neff=11.200
+
+Q ss_pred             CccccccCCChHHH-HHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCC
+Q tr|H0Y2R3|H0Y2  517 KITKVYELGNEPER-KLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTS  595 (727)
+Q Consensus       517 kitkvyelgneper-klwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgts  595 (727)
+                      ++|+|++|+...+. +.|++.|..|++.++..+ ..|.+.++.|||++||.+|.++||++.|+..+.|..|++.+++..+
+T Consensus         2 ~~q~~~~~~~~~~~~~~f~~~l~~f~~~~~~~~-~~p~~~~~~~~l~~l~~~v~~~gg~~~v~~~~~w~~v~~~~~~~~~   80 (107)
+T 2LM1_A            2 RVQRLNELEAKTRVKLNFLDQIAKFWELQGSSL-KIPMVERKALDLYTLHRIVQEEGGMEQTTKDRKWAKVANRMQYPSS   80 (107)
+T ss_dssp             CCSSSCSSCCSSHHHHHHHHHHHHHHTTTCCCC-SCCCTTTSSCCHHHHHHHHHHHTCHHHHHHHTTHHHHHHHTTCCCC
+T ss_pred             CccchHHHhhhHHHHHHHHHHHHHHHHHhCCCC-CCCeeCCeecCHHHHHHHHHHcCchHHHhhcCcHHHHHHHcCCCCC
+Confidence            68999999986665 489999999999999999 6899999999999999999999999999999999999999999777
+
+
+Q ss_pred             CchhhHHHHHHHHHHHhhhccccCC
+Q tr|H0Y2R3|H0Y2  596 SSAASSLKKQYIQYLFAFECKIERG  620 (727)
+Q Consensus       596 ssaasslkkqyiqylfafeckierg  620 (727)
+                      ......|+++|.+||++||+++..+
+T Consensus        81 ~~~~~~l~~~y~~~l~~~e~~~~~~  105 (107)
+T 2LM1_A           81 KSVGATLKAHYERILHPFEVYTSGK  105 (107)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            7888999999999999999998654
+
+
+No 8
+>1C20_A DNA-BINDING DOMAIN, ARID, AT-RICH INTERACTION; NMR {Drosophila melanogaster} SCOP: a.4.3.1
+Probab=99.30  E-value=2.7e-11  Score=94.88  Aligned_cols=111  Identities=35%  Similarity=0.720  Sum_probs=101.8  Template_Neff=10.300
+
+Q ss_pred             CCCCCCccc---cccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHH
+Q tr|H0Y2R3|H0Y2  512 TTTGEKITK---VYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELAT  588 (727)
+Q Consensus       512 tttgekitk---vyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelat  588 (727)
+                      +++.+|+++   |++++.+.++..|++.|..|++.++..+...|.+.++.|||++||.+|..+||+..|+..+.|..|+.
+T Consensus         2 ~~~~~~~~~~~~l~~~~~~~~~~~f~~~l~~f~~~~~~~~~~~p~~~g~~vdl~~l~~~v~~~gg~~~v~~~~~W~~v~~   81 (128)
+T 1C20_A            2 WSFEEQFKQVRQLYEINDDPKRKEFLDDLFSFMQKRGTPINRLPIMAKSVLDLYELYNLVIARGGLVDVINKKLWQEIIK   81 (128)
+T ss_dssp             CCHHHHHHHHHHHHHTCCCHHHHHHHHHHHHHHTTTSSCSSCCCEETTEECCHHHHHHHHHHHTCHHHHHHHTTHHHHHH
+T ss_pred             CCHHHHHHHHHHHhhCCCCHHHHHHHHHHHHHHHHhCCCCCCCCccCCeecCHHHHHHHHHHhCChHHHhcCChHHHHHH
+Confidence            567778887   99999998899999999999999999998899999999999999999999999999999999999999
+
+
+Q ss_pred             HcCCC-CCCchhhHHHHHHHHHHHhhhccccCCCC
+Q tr|H0Y2R3|H0Y2  589 NLNVG-TSSSAASSLKKQYIQYLFAFECKIERGEE  622 (727)
+Q Consensus       589 nlnvg-tsssaasslkkqyiqylfafeckiergee  622 (727)
+                      .|++. .+......|+++|.++|++||+++.++++
+T Consensus        82 ~l~~~~~~~~~~~~l~~~Y~~~l~~fe~~~~~~~~  116 (128)
+T 1C20_A           82 GLHLPSSITSAAFTLRTQYMKYLYPYECEKKNLST  116 (128)
+T ss_dssp             HTCCCSSCCSHHHHHHHHHHHHTHHHHHHHHCCSC
+T ss_pred             HCCCCCcCCcHHHHHHHHHHHHHHHHHHHHcCCCC
+Confidence            99996 44788899999999999999999876654
+
+
+No 9
+>2JRZ_A Histone demethylase JARID1C (E.C.1.14.11.-); JARID1C, Bright/ARID domain, helical, Structural; NMR {Homo sapiens}
+Probab=99.28  E-value=7e-11  Score=91.66  Aligned_cols=102  Identities=25%  Similarity=0.466  Sum_probs=91.2  Template_Neff=10.200
+
+Q ss_pred             cccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCchh
+Q tr|H0Y2R3|H0Y2  521 VYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSAA  599 (727)
+Q Consensus       521 vyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssaa  599 (727)
+                      |++++...+ +..|++.|..|++.++..+ ..|.+.++.|||++||.+|.++||+..|+..+.|..|+..|++.......
+T Consensus         2 l~~~~~~~~~~~~f~~~l~~f~~~~g~~~-~~p~~~~~~vdl~~l~~~v~~~gg~~~v~~~~~W~~v~~~lg~~~~~~~~   80 (117)
+T 2JRZ_A            2 MNELEAQTRVKLNYLDQIAKFWEIQGSSL-KIPNVERRILDLYSLSKIVVEEGGYEAICKDRRWARVAQRLNYPPGKNIG   80 (117)
+T ss_dssp             THHHHTSTTTHHHHHHHHHHHHHTTTSCC-CCCEETTEECCHHHHHHHHHHHTCHHHHHHTTTHHHHHHHTTCCTTCTHH
+T ss_pred             cchhhHhHHHHHHHHHHHHHHHHHcCCCC-CCCccCCeeecHHHHHHHHHHcCcHHHHhcCCcHHHHHHHcCCCCCCCHH
+Confidence            555555444 6689999999999999999 89999999999999999999999999999999999999999998776788
+
+
+Q ss_pred             hHHHHHHHHHHHhhhccccCCCCC
+Q tr|H0Y2R3|H0Y2  600 SSLKKQYIQYLFAFECKIERGEEP  623 (727)
+Q Consensus       600 sslkkqyiqylfafeckiergeep  623 (727)
+                      ..|+.+|.+||++||+++.++++.
+T Consensus        81 ~~l~~~Y~~~l~~fe~~~~~~~~~  104 (117)
+T 2JRZ_A           81 SLLRSHYERIVYPYEMYQSGANLV  104 (117)
+T ss_dssp             HHHHHHCCCCCHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHHHHHccCCCc
+Confidence            899999999999999999876654
+
+
+No 10
+>4LJX_B AT-rich interactive domain-containing protein 3A; ARID/BRIGHT DNA binding domain, PF01388; HET: MSE; 2.21A {Homo sapiens}
+Probab=99.26  E-value=8.5e-11  Score=92.33  Aligned_cols=113  Identities=41%  Similarity=0.764  Sum_probs=103.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCccccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHH
+Q tr|H0Y2R3|H0Y2  509 SSSTTTGEKITKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELAT  588 (727)
+Q Consensus       509 ssstttgekitkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelat  588 (727)
+                      ..++++..+++.|++|+.+.+++.|++.|..|++.++..+...+.+.++.||||.||.+|..+||+..|+..+.|..|+.
+T Consensus         6 ~~~~~f~~~~q~l~~l~~~~~~~~f~~~l~~f~~~~~~~~~~~p~~~~~~vdl~~l~~~v~~~gg~~~v~~~~~W~~v~~   85 (137)
+T 4LJX_B            6 HGDWTYEEQFKQLYELDGDPKRKEFLDDLFSFMQKRGTPVNRIPIMAKQVLDLFMLYVLVTEKGGLVEVINKKLWREITK   85 (137)
+T ss_dssp             ---CCHHHHTHHHHTSCCCHHHHHHHHHHHHHHHHHTCCCCSCCEETTEECCHHHHHHHHHHTTCHHHHHHHTCHHHHHH
+T ss_pred             cccCccchhhhhHhhcCCChhhHHHHHHHHHHHHHhCCCCCCCCeeCCEECCHHHHHHHHHHhCCHHHHhcCCcHHHHHH
+Confidence            35788999999999999999999999999999999999998899999999999999999999999999999999999999
+
+
+Q ss_pred             HcCCC-CCCchhhHHHHHHHHHHHhhhccccCCC
+Q tr|H0Y2R3|H0Y2  589 NLNVG-TSSSAASSLKKQYIQYLFAFECKIERGE  621 (727)
+Q Consensus       589 nlnvg-tsssaasslkkqyiqylfafeckierge  621 (727)
+                      .|++. .+......|+++|.++|++||.++..+.
+T Consensus        86 ~l~~~~~~~~~~~~l~~~Y~~~l~~~e~~~~~~~  119 (137)
+T 4LJX_B           86 GLNLPTSITSAAFTLRTQYMEYLYPYECEKRGLS  119 (137)
+T ss_dssp             HTTSCTTSTTHHHHHHHHHHHHTHHHHHHHTCCC
+T ss_pred             HCCCCCCCChHHHHHHHHHHHHHHHHHHHHcCCC
+Confidence            99997 4478889999999999999999975443
+
+
+No 11
+>2YQE_A Jumonji/ARID domain-containing protein 1D; ARID domain, Structural Genomics, NPPSFA; NMR {Homo sapiens}
+Probab=99.25  E-value=1.1e-10  Score=84.00  Aligned_cols=97  Identities=25%  Similarity=0.435  Sum_probs=87.7  Template_Neff=11.400
+
+Q ss_pred             cccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCchh
+Q tr|H0Y2R3|H0Y2  521 VYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSAA  599 (727)
+Q Consensus       521 vyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssaa  599 (727)
+                      |++++...+ +..|++.|..|++.++..+ ..|.+.++.|||++||..|.++||+..|...+.|..|+..+++.......
+T Consensus         1 ~~~~~~~~~~~~~f~~~l~~~~~~~~~~~-~~p~~~~~~v~l~~l~~~v~~~gg~~~v~~~~~w~~v~~~~~~~~~~~~~   79 (100)
+T 2YQE_A            1 GSSGSSGTRVKLNYLDQIAKFWEIQGSSL-KIPNVERKILDLYSLSKIVIEEGGYEAICKDRRWARVAQRLHYPPGKNIG   79 (100)
+T ss_dssp             CCCCCCCSSHHHHHHHHHHHHHHHHSSCC-CCCBCSSSBCCHHHHHHHHHHHTCHHHHHHTTTHHHHHHHTTCCTTSSHH
+T ss_pred             CCccccccHHHHHHHHHHHHHHHHcCCCC-CCCccCCeecCHHHHHHHHHHhCcHHHHhccCcHHHHHHHcCCCCCCCHH
+Confidence            456666454 6689999999999999999 99999999999999999999999999999999999999999997666677
+
+
+Q ss_pred             hHHHHHHHHHHHhhhcccc
+Q tr|H0Y2R3|H0Y2  600 SSLKKQYIQYLFAFECKIE  618 (727)
+Q Consensus       600 sslkkqyiqylfafeckie  618 (727)
+                      ..|+++|.+||++||.++.
+T Consensus        80 ~~l~~~y~~~l~~~e~~~~   98 (100)
+T 2YQE_A           80 SLLRSHYERIIYPYEMFQS   98 (100)
+T ss_dssp             HHHHHHHHHTHHHHHHHTC
+T ss_pred             HHHHHHHHHHhHHHHHHhc
+Confidence            8999999999999999874
+
+
+No 12
+>2JXJ_A Histone demethylase JARID1A (E.C.1.14.11.-); ARID domain, Chromatin regulator, Developmental; NMR {Homo sapiens}
+Probab=99.21  E-value=2.1e-10  Score=82.13  Aligned_cols=91  Identities=31%  Similarity=0.494  Sum_probs=83.5  Template_Neff=11.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCchhhHHHHHH
+Q tr|H0Y2R3|H0Y2  527 EPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSAASSLKKQY  606 (727)
+Q Consensus       527 eperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssaasslkkqy  606 (727)
+                      ..+++.|++.|..|++.++..+ ..+.+.++.|||++||.+|.++||+..|...+.|..|+..+++.........|+++|
+T Consensus         5 ~~~~~~f~~~l~~~~~~~~~~~-~~~~~~~~~v~l~~l~~~v~~~gg~~~v~~~~~w~~v~~~~~~~~~~~~~~~l~~~y   83 (96)
+T 2JXJ_A            5 SRVRLDFLDQLAKFWELQGSTL-KIPVVERKILDLYALSKIVASKGGFEMVTKEKKWSKVGSRLGYLPGKGTGSLLKSHY   83 (96)
+T ss_dssp             SHHHHHHHHHHHHHHHHHTCCC-CCCEETTEECCCHHHHHHHHHHHTTHHHHHHTTHHHHHHHHTCCSCSCHHHHHHHHC
+T ss_pred             chhHHHHHHHHHHHHHHcCCCC-CCCeeCCeeccHHHHHHHHHHcCcHHHhcccccHHHHHHHhCCCCCCCHHHHHHHHH
+Confidence            3456789999999999999999 889999999999999999999999999999999999999999976666778999999
+
+
+Q ss_pred             HHHHHhhhcccc
+Q tr|H0Y2R3|H0Y2  607 IQYLFAFECKIE  618 (727)
+Q Consensus       607 iqylfafeckie  618 (727)
+                      .++|++||+++.
+T Consensus        84 ~~~l~~~e~~~~   95 (96)
+T 2JXJ_A           84 ERILYPYELFQS   95 (96)
+T ss_dssp             CCCCHHHHHHHC
+T ss_pred             HHHhHHHHHHhc
+Confidence            999999999863
+
+
+No 13
+>6L87_A DNA binding, PWWP, ARID, GENE; NMR {Homo sapiens}
+Probab=99.16  E-value=3.4e-10  Score=102.35  Aligned_cols=97  Identities=29%  Similarity=0.603  Sum_probs=88.8  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCC-CCchhhHHHHH
+Q tr|H0Y2R3|H0Y2  527 EPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGT-SSSAASSLKKQ  605 (727)
+Q Consensus       527 eperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgt-sssaasslkkq  605 (727)
+                      ..+++.|++.|..||+.++..+...|.|.++.||||+||.+|.++||+..|+..+.|.+|+..|++.. +......|+.+
+T Consensus       116 ~~~~~~F~~~L~~f~~~~g~~~~~~P~i~gk~vdL~~Ly~~V~~~GG~~~V~~~~~W~~Va~~lg~~~~~~~~~~~Lk~~  195 (229)
+T 6L87_A          116 PEERDNFLQQLYKFMEDRGTPINKPPVLGYKDLNLFKLFRLVYHQGGCDNIDSGAVWKQIYMDLGIPILNSAASYNVKTA  195 (229)
+T ss_dssp             CTHHHHHHHHHHHHHHTTTCCCSSCSEETTEECCHHHHHHHHHHTTCGGGCCCHHHHHHHHHHHTCCCCSHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcCCCCCCCCccCCeeeeHHHHHHHHHHcCChhhcCCCCcHHHHHHHhCCCCCCCcHHHHHHHH
+Confidence            45677899999999999999999999999999999999999999999999999999999999999974 35677899999
+
+
+Q ss_pred             HHHHHHhhhccccCCCCC
+Q tr|H0Y2R3|H0Y2  606 YIQYLFAFECKIERGEEP  623 (727)
+Q Consensus       606 yiqylfafeckiergeep  623 (727)
+                      |.+||++||+++.+.+..
+T Consensus       196 Y~~~L~~fE~~~~~~~~~  213 (229)
+T 6L87_A          196 YRKYLYGFEEYCRSANIQ  213 (229)
+T ss_dssp             HHHHSHHHHHHHHHTTCC
+T ss_pred             HHHHHHHHHHHHHHCCCC
+Confidence            999999999999876554
+
+
+No 14
+>2LI6_A SWI/SNF chromatin-remodeling complex subunit SWI1; Ligand binding, DNA BINDING PROTEIN; NMR {Saccharomyces cerevisiae}
+Probab=99.00  E-value=3.6e-09  Score=81.19  Aligned_cols=103  Identities=21%  Similarity=0.487  Sum_probs=92.4  Template_Neff=10.500
+
+Q ss_pred             CCCCccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCC
+Q tr|H0Y2R3|H0Y2  514 TGEKITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNV  592 (727)
+Q Consensus       514 tgekitkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnv  592 (727)
+                      +..+++++.++..... +..|++.|..|+..++..+...|.+.++.||||+||.+|.++||+..|+..+.|..|+..|++
+T Consensus         3 ~~~~~q~~~~~~~~~~~~~~f~~~l~~f~~~~~~~~~~~p~~~~~~vdl~~l~~~v~~~gg~~~v~~~~~W~~v~~~l~~   82 (116)
+T 2LI6_A            3 LNPALQEKISTELNNKQYELFMKSLIENCKKRNMPLQSIPEIGNRKINLFYLYMLVQKFGGADQVTRTQQWSMVAQRLQI   82 (116)
+T ss_dssp             CCCCSSBCCCSSSSHHHHHHHHHHHHHHHHTTTSCCSSCCCCBSCCCSTTHHHHHHHHHTSHHHHHHTTCHHHHHHHHTS
+T ss_pred             CCHHHHHHhhhhhhhHHHHHHHHHHHHHHHHhCCCCCCCCeeCCEEcCHHHHHHHHHHcCcHHHHcccChHHHHHHHcCC
+Confidence            4567778877666655 558999999999999999989999999999999999999999999999999999999999998
+
+
+Q ss_pred             CCCCchhhHHHHHHHHHHHhhhccccCC
+Q tr|H0Y2R3|H0Y2  593 GTSSSAASSLKKQYIQYLFAFECKIERG  620 (727)
+Q Consensus       593 gtsssaasslkkqyiqylfafeckierg  620 (727)
+                      ..    ...|+++|.++|++||.++...
+T Consensus        83 ~~----~~~l~~~y~~~l~~~e~~~~~~  106 (116)
+T 2LI6_A           83 SD----YQQLESIYFRILLPYERHMISQ  106 (116)
+T ss_dssp             CC----TTHHHHHHHHHHSHHHHHHHHT
+T ss_pred             Cc----HHHHHHHHHHHHHHHHHHHhch
+Confidence            65    8899999999999999988654
+
+
+No 15
+>2RQ5_A Protein Jumonji; PROTEIN, Developmental protein, Nucleus, Repressor; NMR {Mus musculus}
+Probab=98.98  E-value=5.7e-09  Score=81.31  Aligned_cols=100  Identities=26%  Similarity=0.450  Sum_probs=89.6  Template_Neff=10.300
+
+Q ss_pred             ccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCC-CCCc
+Q tr|H0Y2R3|H0Y2  520 KVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVG-TSSS  597 (727)
+Q Consensus       520 kvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvg-tsss  597 (727)
+                      .|++|..... +..|++.|..|+..++..+...|.+.++.||||.||.+|..+||+..|+..+.|..|+..|++. ...+
+T Consensus         2 ~~~~l~~~~~~~~~f~~~l~~f~~~~g~~~~~~p~~~~~~v~l~~l~~~v~~~gg~~~v~~~~~W~~v~~~lg~~~~~~~   81 (121)
+T 2RQ5_A            2 PLGSLGRRWGPNVQRLACIKKHLRSQGITMDELPLIGGCELDLACFFRLINEMGGMQQVTDLKKWNKLADMLRIPKTAQD   81 (121)
+T ss_dssp             CCCCCSSCCCHHHHHHHHHHHHHHHTTCCCSSCCEETTEECCHHHHHHHHHHTTSHHHHHHTTCHHHHHHHTCCCTTCSS
+T ss_pred             chhhccccCChHHHHHHHHHHHHHHCCCCCCCCCeeCCEECCHHHHHHHHHHcCcHHHHhccChHHHHHHHCCCCcccCc
+Confidence            3566666655 5579999999999999999889999999999999999999999999999999999999999986 4467
+
+
+Q ss_pred             hhhHHHHHHHHHHHhhhccccC
+Q tr|H0Y2R3|H0Y2  598 AASSLKKQYIQYLFAFECKIER  619 (727)
+Q Consensus       598 aasslkkqyiqylfafeckier  619 (727)
+                      ....++++|.+||+.||+++..
+T Consensus        82 ~~~~l~~~y~~~l~~~e~~~~~  103 (121)
+T 2RQ5_A           82 RLAKLQEAYCQYLLSYDSLSPE  103 (121)
+T ss_dssp             HHHHHHHHHHTTHHHHHHCCHH
+T ss_pred             HHHHHHHHHHHHHHHHHhcCHH
+Confidence            8899999999999999998754
+
+
+No 16
+>5CEH_A Lysine-specific demethylase 5A (E.C.1.14.11.-); epigenetics, demethylase, histone, KDM5A, KDM5; HET: 50P; 3.14A {Homo sapiens}
+Probab=98.88  E-value=6.8e-09  Score=108.06  Aligned_cols=111  Identities=28%  Similarity=0.427  Sum_probs=100.8  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHH
+Q tr|H0Y2R3|H0Y2  509 SSSTTTGEKITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELA  587 (727)
+Q Consensus       509 ssstttgekitkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrela  587 (727)
+                      ...+.|..|+|+|++|+...+ +..|++.|..||+.+|..+ ..|.|.++.||||+||++|..+||+..|+..++|.+|+
+T Consensus        55 ~~~~~F~~r~Q~l~~l~~~~~~~~~F~~~L~~f~~~~g~~~-~~P~i~~~~vDL~~L~~~V~~~GG~~~v~~~~~W~~v~  133 (790)
+T 5CEH_A           55 VKSFRFTPRVQRLNELEAMTRVRLDFLDQLAKFWELQGSTL-KIPVVERKILDLYALSKIVASKGGFEMVTKEKKWSKVG  133 (790)
+T ss_dssp             STTCBCCCEEEETTTTCSCCHHHHHHHHHHHHHHHHTTSCC-CCCEETTEECCHHHHHHHHHHTTCHHHHHHTTCHHHHH
+T ss_pred             CCCceeccchHHHHHHHhhhHHHHHHHHHHHHHHHHcCCCC-cCCeeCCEEEeHHHHHHHHHHcCChheeccccchhhHH
+Confidence            346788999999999998777 4579999999999999998 58999999999999999999999999999999999999
+
+
+Q ss_pred             HHcCCCCCCchhhHHHHHHHHHHHhhhccccCC
+Q tr|H0Y2R3|H0Y2  588 TNLNVGTSSSAASSLKKQYIQYLFAFECKIERG  620 (727)
+Q Consensus       588 tnlnvgtsssaasslkkqyiqylfafeckierg  620 (727)
+                      +.|++......+..|+.+|.+||++||.++...
+T Consensus       134 ~~lg~~~~~~~~~~lk~~Y~k~L~~yE~~~~~~  166 (790)
+T 5CEH_A          134 SRLGYLPGKGTGSLLKSHYERILYPYELFQSGV  166 (790)
+T ss_dssp             HHTTCCTTSSHHHHHHHHCCCCCHHHHHHHSSS
+T ss_pred             HHhCCCCCCcHHHHHHHHHHHHhHHHHHHHccc
+Confidence            999997666778889999999999999987544
+
+
+No 17
+>5V9P_A Lysine-specific demethylase 5A (E.C.1.14.11.-); epigenetics, histone demethylase, cancer, inhibitor; HET: 90S; 3.0A {Homo sapiens}
+Probab=98.88  E-value=6.8e-09  Score=108.06  Aligned_cols=111  Identities=28%  Similarity=0.427  Sum_probs=100.8  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHH
+Q tr|H0Y2R3|H0Y2  509 SSSTTTGEKITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELA  587 (727)
+Q Consensus       509 ssstttgekitkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrela  587 (727)
+                      ...+.|..|+|+|++|+...+ +..|++.|..||+.+|..+ ..|.|.++.||||+||++|..+||+..|+..++|.+|+
+T Consensus        55 ~~~~~F~~r~Q~l~~l~~~~~~~~~F~~~L~~f~~~~g~~~-~~P~i~~~~vDL~~L~~~V~~~GG~~~v~~~~~W~~v~  133 (790)
+T 5V9P_A           55 VKSFRFTPRVQRLNELEAMTRVRLDFLDQLAKFWELQGSTL-KIPVVERKILDLYALSKIVASKGGFEMVTKEKKWSKVG  133 (790)
+T ss_dssp             STTCBCCCEEEETTTTCCCCHHHHHHHHHHHHHHHHTTCCC-CCCEETTEECCHHHHHHHHHHTTCHHHHHHHTCHHHHH
+T ss_pred             CCCceeccchHHHHHHHhhhHHHHHHHHHHHHHHHHcCCCC-cCCeeCCEEEeHHHHHHHHHHcCChheeccccchhhHH
+Confidence            346788999999999998777 4579999999999999998 58999999999999999999999999999999999999
+
+
+Q ss_pred             HHcCCCCCCchhhHHHHHHHHHHHhhhccccCC
+Q tr|H0Y2R3|H0Y2  588 TNLNVGTSSSAASSLKKQYIQYLFAFECKIERG  620 (727)
+Q Consensus       588 tnlnvgtsssaasslkkqyiqylfafeckierg  620 (727)
+                      +.|++......+..|+.+|.+||++||.++...
+T Consensus       134 ~~lg~~~~~~~~~~lk~~Y~k~L~~yE~~~~~~  166 (790)
+T 5V9P_A          134 SRLGYLPGKGTGSLLKSHYERILYPYELFQSGV  166 (790)
+T ss_dssp             HHTTCCTTSSHHHHHHHHCCCCCHHHHHHHSSS
+T ss_pred             HHhCCCCCCcHHHHHHHHHHHHhHHHHHHHccc
+Confidence            999997666778889999999999999987544
+
+
+No 18
+>5V9T_B Lysine-specific demethylase 5A (E.C.1.14.11.-); histone demethylase, KDM5, KDM5a, epigenetics; HET: 90V; 3.05A {Homo sapiens}
+Probab=98.88  E-value=6.8e-09  Score=108.06  Aligned_cols=110  Identities=28%  Similarity=0.434  Sum_probs=100.4  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHH
+Q tr|H0Y2R3|H0Y2  510 SSTTTGEKITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELAT  588 (727)
+Q Consensus       510 sstttgekitkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelat  588 (727)
+                      ..+.|..|+|+|++|+...+ +..|++.|..||+.+|..+ ..|.|.++.||||+||++|..+||+..|+..++|.+|++
+T Consensus        56 ~~~~F~~r~Q~l~~l~~~~~~~~~F~~~L~~f~~~~g~~~-~~P~i~~~~vDL~~L~~~V~~~GG~~~v~~~~~W~~v~~  134 (790)
+T 5V9T_B           56 KSFRFTPRVQRLNELEAMTRVRLDFLDQLAKFWELQGSTL-KIPVVERKILDLYALSKIVASKGGFEMVTKEKKWSKVGS  134 (790)
+T ss_dssp             GGCBCCCEEEESGGGCCCCHHHHHHHHHHHHHHHHHTCCC-CCCEETTEECCHHHHHHHHHHTTCHHHHHTTTTHHHHHH
+T ss_pred             CCceeccchHHHHHHHhhhHHHHHHHHHHHHHHHHcCCCC-cCCeeCCEEEeHHHHHHHHHHcCChheeccccchhhHHH
+Confidence            46788999999999998777 4579999999999999998 589999999999999999999999999999999999999
+
+
+Q ss_pred             HcCCCCCCchhhHHHHHHHHHHHhhhccccCC
+Q tr|H0Y2R3|H0Y2  589 NLNVGTSSSAASSLKKQYIQYLFAFECKIERG  620 (727)
+Q Consensus       589 nlnvgtsssaasslkkqyiqylfafeckierg  620 (727)
+                      .|++......+..|+.+|.+||++||.++...
+T Consensus       135 ~lg~~~~~~~~~~lk~~Y~k~L~~yE~~~~~~  166 (790)
+T 5V9T_B          135 RLGYLPGKGTGSLLKSHYERILYPYELFQSGV  166 (790)
+T ss_dssp             HTTCCTTSSHHHHHHHHHHHHHHHHHHHHSSS
+T ss_pred             HhCCCCCCcHHHHHHHHHHHHhHHHHHHHccc
+Confidence            99997666778889999999999999987644
+
+
+No 19
+>6LQF_A AT-rich interactive domain-containing protein 4; ARID5, PHD finger, ARID domain; HET: M3L; 1.5A {Arabidopsis thaliana}
+Probab=98.65  E-value=1.9e-07  Score=81.17  Aligned_cols=88  Identities=25%  Similarity=0.498  Sum_probs=79.2  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHHHHHhCCCC-------cCCC--CCCCChhhHHHHHHHHHHHhchhhhccChhH-HHHHHHcC---CC-C
+Q tr|H0Y2R3|H0Y2  529 ERKLWVDRYLTFMEERGSPV-------SSLP--AVGKKPLDLFRLYVCVKEIGGLAQVNKNKKW-RELATNLN---VG-T  594 (727)
+Q Consensus       529 erklwvdryltfmeergspv-------sslp--avgkkpldlfrlyvcvkeigglaqvnknkkw-relatnln---vg-t  594 (727)
+                      .++.|++.|..||+.++..+       ...|  .+.++.||||.||..|.++||+..|.+ +.| .+|++.|+   .. .
+T Consensus        25 ~~~~F~~~L~~f~~~~g~~~~~~~~~~~~~p~~~i~g~~vdl~~L~~~V~~~gg~~~v~~-~~W~~~v~~~l~~~~~~~~  103 (204)
+T 6LQF_A           25 SEEEFLRDVMQFLLIRGHTRLVPPGGLAEFPDAVLNSKRLDLFNLYREVVSRGGFHVGNG-INWKGQVFSKMRNHTLTNR  103 (204)
+T ss_dssp             CHHHHHHHHHHHHHHTTCGGGSCTTGGGGCCCCEETTEECCHHHHHHHHHTTTCGGGGGG-SCCCCCCGGGSTTCCSSCC
+T ss_pred             CHHHHHHHHHHHHHHcCCCCCCCCCCcccCCccccCCccccHHHHHHHHHHccCccccCC-cccchHHHHHhhcccCCcc
+Confidence            36789999999999999884       4667  899999999999999999999999998 899 99999998   43 4
+
+
+Q ss_pred             CCchhhHHHHHHHHHHHhhhccc
+Q tr|H0Y2R3|H0Y2  595 SSSAASSLKKQYIQYLFAFECKI  617 (727)
+Q Consensus       595 sssaasslkkqyiqylfafecki  617 (727)
+                      .......|+.+|.++|++||+++
+T Consensus       104 ~~~~~~~lk~~Y~~~L~~yE~~~  126 (204)
+T 6LQF_A          104 MTGVGNTLKRHYETYLLEYEYAH  126 (204)
+T ss_dssp             CTTHHHHHHHHHHHHTHHHHHTS
+T ss_pred             ccHHHHHHHHHHHHHHHHhhhcc
+Confidence            57888999999999999999987
+
+
+No 20
+>7C4J_I Transcription regulatory protein SNF12, SWI/SNF; SWI/SNF remodeling, Swi-Snf complex, nucleosome; 2.89A {Saccharomyces cerevisiae S288C}
+Probab=98.53  E-value=4.5e-07  Score=104.66  Aligned_cols=97  Identities=25%  Similarity=0.543  Sum_probs=86.7  Template_Neff=6.100
+
+Q ss_pred             cccccCCChHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCch
+Q tr|H0Y2R3|H0Y2  519 TKVYELGNEPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSA  598 (727)
+Q Consensus       519 tkvyelgneperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssa  598 (727)
+                      +++.+.....+++.|++.|..||+.++..+...|.|.++.||||+||.+|.++||++.|+..+.|..|+..|++..    
+T Consensus       398 qqlqqel~~qq~e~FlksL~~Fm~~~g~p~~~~P~I~Gr~VdL~~Ly~~V~k~GG~~~Vt~~~~W~~VAq~Lg~~~----  473 (1314)
+T 7C4J_I          398 EKISTELNNKQYELFMKSLIENCKKRNMPLQSIPEIGNRKINLFYLYMLVQKFGGADQVTRTQQWSMVAQRLQISD----  473 (1314)
+T ss_pred             HHHHHHhchHHHHHHHHHHHHHHHHcCCcCCCCCccCCcchhHHHHHHHHHHhCCccHhhhhhHHHHHHHHhCCCh----
+Confidence            3344444455677899999999999999998999999999999999999999999999999999999999999855    
+
+
+Q ss_pred             hhHHHHHHHHHHHhhhccccC
+Q tr|H0Y2R3|H0Y2  599 ASSLKKQYIQYLFAFECKIER  619 (727)
+Q Consensus       599 asslkkqyiqylfafeckier  619 (727)
+                      ...|+++|+++|++||+++..
+T Consensus       474 ~~~Lk~~Yer~LlpfE~~~~~  494 (1314)
+T 7C4J_I          474 YQQLESIYFRILLPYERHMIS  494 (1314)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHh
+Confidence            889999999999999998864
+
+
+No 21
+>7KSO_F Histone-lysine N-methyltransferase EZH1 (E.C.2.1.1.356), Polycomb; Chromatin, methyltransferase, nucleosome-modifying complex, GENE; 3.9A {Homo sapiens}
+Probab=98.52  E-value=3e-07  Score=105.41  Aligned_cols=109  Identities=24%  Similarity=0.423  Sum_probs=98.2  Template_Neff=6.300
+
+Q ss_pred             CCCCCCCCccccccCCChHH-HHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHH
+Q tr|H0Y2R3|H0Y2  510 SSTTTGEKITKVYELGNEPE-RKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELAT  588 (727)
+Q Consensus       510 sstttgekitkvyelgnepe-rklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelat  588 (727)
+                      ..+.|..++|+|++|+.... +..|++.|..||+.++..+...|.|+++.||||+||.+|..+||+..|+..+.|.+|++
+T Consensus       603 ~~~~F~tr~Q~L~~L~~r~~~~~~Fl~~L~kfl~~~G~~i~k~P~I~gk~VDLy~Ly~~V~~~GG~~~V~~~k~W~~VA~  682 (1246)
+T 7KSO_F          603 DEMRFVTQIQHIHKLGRRWGPNVQRLACIKKHLKSQGITMDELPLIGGCELDLACFFRLINEMGGMQQVTDLKKWNKLAD  682 (1246)
+T ss_pred             cCCcccchHHHHHhccccccHhHHHHHHHHHHHHHCCCCCCCCceeCCEEcCHHHHHHHHHHcCChhhhccHhHHHHHHH
+Confidence            46889999999999987765 44799999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HcCCCCC-CchhhHHHHHHHHHHHhhhcccc
+Q tr|H0Y2R3|H0Y2  589 NLNVGTS-SSAASSLKKQYIQYLFAFECKIE  618 (727)
+Q Consensus       589 nlnvgts-ssaasslkkqyiqylfafeckie  618 (727)
+                      .|++... ......|+.+|.+||++||.+..
+T Consensus       683 ~Lg~~~s~~~~~~~Lk~~Y~kyLlpYE~~~~  713 (1246)
+T 7KSO_F          683 MLRIPRTAQDRLAKLQEAYCQYLLSYDSLSP  713 (1246)
+T ss_pred             HcCCCcchhHHHHHHHHHHHHHHhHHHhcCH
+Confidence            9999643 44567999999999999998764
+
+
+No 22
+>7EGM_B Chromatin remodeler complex, DNA BINDING; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=98.37  E-value=1.7e-06  Score=97.47  Aligned_cols=89  Identities=25%  Similarity=0.589  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCchhhHHHHHH
+Q tr|H0Y2R3|H0Y2  527 EPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSAASSLKKQY  606 (727)
+Q Consensus       527 eperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssaasslkkqy  606 (727)
+                      ..+++.|++.|..|++.++..+...|.|.++.||||+||..|.++||+..|+..+.|..|+..|++..    ...|+.+|
+T Consensus       156 ~k~~~~Fl~~L~~f~~~~g~p~~~~P~I~gk~vdL~~Ly~~V~~~GG~~~Vt~~~~W~~Vaq~Lg~~~----~~~Lk~~Y  231 (1093)
+T 7EGM_B          156 NKQYELFMKSLIENCKKRNMPLQSIPEIGNRKINLFYLYMLVQKFGGADQVTRTQQWSMVAQRLQISD----YQQLESIY  231 (1093)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             chHHHHHHHHHHHHHHHcCCCCccCCCcccccccHHHHHHHHHHHhchhHHHHHHHHHHHHHHhCCCc----HHHHHHHH
+Confidence            34466899999999999999999999999999999999999999999999999999999999999855    88999999
+
+
+Q ss_pred             HHHHHhhhccccC
+Q tr|H0Y2R3|H0Y2  607 IQYLFAFECKIER  619 (727)
+Q Consensus       607 iqylfafeckier  619 (727)
+                      .++|++||.++..
+T Consensus       232 ~r~L~pfE~~~~~  244 (1093)
+T 7EGM_B          232 FRILLPYERHMIS  244 (1093)
+T ss_dssp             -------------
+T ss_pred             HHHhHHHHHHHhh
+Confidence            9999999998864
+
+
+No 23
+>7EGP_B Chromatin remodeler complex, DNA BINDING; HET: ADP; 6.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=98.37  E-value=1.7e-06  Score=97.47  Aligned_cols=89  Identities=25%  Similarity=0.589  Sum_probs=82.7  Template_Neff=7.100
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhCCCCcCCCCCCCChhhHHHHHHHHHHHhchhhhccChhHHHHHHHcCCCCCCchhhHHHHHH
+Q tr|H0Y2R3|H0Y2  527 EPERKLWVDRYLTFMEERGSPVSSLPAVGKKPLDLFRLYVCVKEIGGLAQVNKNKKWRELATNLNVGTSSSAASSLKKQY  606 (727)
+Q Consensus       527 eperklwvdryltfmeergspvsslpavgkkpldlfrlyvcvkeigglaqvnknkkwrelatnlnvgtsssaasslkkqy  606 (727)
+                      ..+++.|++.|..|++.++..+...|.|.++.||||+||..|.++||+..|+..+.|..|+..|++..    ...|+.+|
+T Consensus       156 ~k~~~~Fl~~L~~f~~~~g~p~~~~P~I~gk~vdL~~Ly~~V~~~GG~~~Vt~~~~W~~Vaq~Lg~~~----~~~Lk~~Y  231 (1093)
+T 7EGP_B          156 NKQYELFMKSLIENCKKRNMPLQSIPEIGNRKINLFYLYMLVQKFGGADQVTRTQQWSMVAQRLQISD----YQQLESIY  231 (1093)
+T ss_pred             chHHHHHHHHHHHHHHHcCCCCccCCCcccccccHHHHHHHHHHHhchhHHHHHHHHHHHHHHhCCCc----HHHHHHHH
+Confidence            34466899999999999999999999999999999999999999999999999999999999999855    88999999
+
+
+Q ss_pred             HHHHHhhhccccC
+Q tr|H0Y2R3|H0Y2  607 IQYLFAFECKIER  619 (727)
+Q Consensus       607 iqylfafeckier  619 (727)
+                      .++|++||.++..
+T Consensus       232 ~r~L~pfE~~~~~  244 (1093)
+T 7EGP_B          232 FRILLPYERHMIS  244 (1093)
+T ss_pred             HHHhHHHHHHHhh
+Confidence            9999999998864
+
+
+No 24
+>1FEX_A HELIX TURN HELIX, RIKEN Structural; NMR {N/A} SCOP: a.4.1.3
+Probab=26.01  E-value=3.2e+02  Score=20.52  Aligned_cols=33  Identities=24%  Similarity=0.417  Sum_probs=21.1  Template_Neff=9.100
+
+Q ss_pred             hhccChhHHHHHHHcCCCCCCchhhHHHHHHHHHHH
+Q tr|H0Y2R3|H0Y2  576 QVNKNKKWRELATNLNVGTSSSAASSLKKQYIQYLF  611 (727)
+Q Consensus       576 qvnknkkwrelatnlnvgtsssaasslkkqyiqylf  611 (727)
+                      .+..++.|.++.....   ..-....++..|.++|.
+T Consensus        26 ~~~g~~~w~~l~~~~~---~~hs~~S~r~r~~k~l~   58 (59)
+T 1FEX_A           26 SVTGNALWKAMEKSSL---TQHSWQSLKDRYLKHLR   58 (59)
+T ss_dssp             TTTSSHHHHHHHHSCS---SSCCSHHHHHHHHHHTC
+T ss_pred             cCCchHHHHHHHHcCC---CCCCHHHHHHHHHHHhC
+Confidence            3456677888877622   23345677788877663
+
+
+No 25
+>5CQQ_A Regulatory protein zeste/DNA Complex; Complex, Protein-DNA interaction, Tanscription factor; 3.1A {Drosophila melanogaster}
+Probab=25.67  E-value=1.9e+02  Score=21.88  Aligned_cols=34  Identities=9%  Similarity=0.277  Sum_probs=23.7  Template_Neff=10.300
+
+Q ss_pred             hccChhHHHHHHHcCCC-CC--CchhhHHHHHHHHHH
+Q tr|H0Y2R3|H0Y2  577 VNKNKKWRELATNLNVG-TS--SSAASSLKKQYIQYL  610 (727)
+Q Consensus       577 vnknkkwrelatnlnvg-ts--ssaasslkkqyiqyl  610 (727)
+                      ..+...|.+|+..|+.. ..  .-....|++.|..+-
+T Consensus        39 ~~k~~~W~~I~~~~n~~~~~~~~r~~~~lk~~w~~lk   75 (82)
+T 5CQQ_A           39 YSVRETWDKIVKDFNSHPHVSAMRNIKQIQKFWLNSR   75 (82)
+T ss_dssp             CCHHHHHHHHHHHHHHCTTCSSCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHcCCCCCCCCCHHHHHHHHHHHH
+Confidence            44567799999999853 22  455678888877644
+
+
+No 26
+>5CQQ_B Regulatory protein zeste/DNA Complex; Complex, Protein-DNA interaction, Tanscription factor; 3.1A {Drosophila melanogaster}
+Probab=25.67  E-value=1.9e+02  Score=21.88  Aligned_cols=34  Identities=9%  Similarity=0.277  Sum_probs=23.3  Template_Neff=10.300
+
+Q ss_pred             hccChhHHHHHHHcCCC-CC--CchhhHHHHHHHHHH
+Q tr|H0Y2R3|H0Y2  577 VNKNKKWRELATNLNVG-TS--SSAASSLKKQYIQYL  610 (727)
+Q Consensus       577 vnknkkwrelatnlnvg-ts--ssaasslkkqyiqyl  610 (727)
+                      ..+...|.+|+..|+.. ..  .-....|++.|..+-
+T Consensus        39 ~~k~~~W~~I~~~~n~~~~~~~~r~~~~lk~~w~~lk   75 (82)
+T 5CQQ_B           39 YSVRETWDKIVKDFNSHPHVSAMRNIKQIQKFWLNSR   75 (82)
+T ss_dssp             SCHHHHHHHHHHHHHHSTTCCSCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHcCCCCCCCCCHHHHHHHHHHHH
+Confidence            34466799999999753 22  455678888877644
+
+

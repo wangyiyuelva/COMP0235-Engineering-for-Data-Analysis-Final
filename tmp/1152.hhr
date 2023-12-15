@@ -1,0 +1,168 @@
+Query         tr|F5GZT2|F5GZT2_HUMAN
+Match_columns 272
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:20:16 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1152.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4KCE_A Peroxidoxin (E.C.1.11.1  10.8 7.4E+02   0.008   18.4   3.2   33   94-126     3-36  (213)
+  2 4KCE_B Peroxidoxin (E.C.1.11.1  10.8 7.4E+02   0.008   18.4   3.2   33   94-126     3-36  (213)
+  3 4L1J_B HD domain-containing pr   8.6      87 0.00094   25.6  -2.4   34   44-77      2-35  (204)
+  4 2ADC_A RBD, RRM, Protein-RNA C   6.2 7.3E+02   0.008   18.5   1.6   20   94-113     4-23  (229)
+  5 5IBV_A Capsid polyprotein VP90   5.4 1.1E+03   0.012   23.4   2.6   71    1-76     64-135 (354)
+  6 4WXW_A Uncharacterized protein   5.2 1.7E+03   0.018   15.8   2.8   30   94-123     3-32  (188)
+  7 1HP3_A Cystine knot, TOXIN; NM   4.6 7.5E+02  0.0082   18.3   0.8   15   45-60     16-30  (32)
+  8 2PMA_A Uncharacterized protein   4.4 7.6E+02  0.0082   20.8   0.8   19  158-176    18-36  (146)
+  9 2PMA_B Uncharacterized protein   4.4 7.6E+02  0.0082   20.8   0.8   18  157-174    17-34  (146)
+ 10 6AD3_A AmphB; polyketide synth   4.1 1.1E+03   0.012   19.3   1.4   18   94-111     4-21  (519)
+
+No 1
+>4KCE_A Peroxidoxin (E.C.1.11.1.-); Thioredoxin-like, oxidoreductase; 2.79A {Leishmania braziliensis}
+Probab=10.77  E-value=7.4e+02  Score=18.43  Aligned_cols=33  Identities=33%  Similarity=0.418  Sum_probs=9.5  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCC-CCccccCCCCCCCCCCCCCCCCCCC
+Q tr|F5GZT2|F5GZ   94 SSEHFSHS-SKWLETCQHESDEQPLDPIPQISST  126 (272)
+Q Consensus        94 ssehfshs-skwletcqhesdeqpldpipqisst  126 (272)
+                      |++|.-+- .-|+..+.....-.+-+++|.+.-+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~g~~~p~~~~~   36 (213)
+T 4KCE_A            3 SSHHHHHHSSGLVPRGSHMRTATVRDPAPQFSGK   36 (213)
+T ss_dssp             ---------------------CCTTSBCCCCEEE
+T ss_pred             CCcccccccCCCCCCcccccCCCCCCCCCCCcce
+Confidence            34444444 4478888888777777888877643
+
+
+No 2
+>4KCE_B Peroxidoxin (E.C.1.11.1.-); Thioredoxin-like, oxidoreductase; 2.79A {Leishmania braziliensis}
+Probab=10.77  E-value=7.4e+02  Score=18.43  Aligned_cols=33  Identities=33%  Similarity=0.418  Sum_probs=9.4  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCC-CCccccCCCCCCCCCCCCCCCCCCC
+Q tr|F5GZT2|F5GZ   94 SSEHFSHS-SKWLETCQHESDEQPLDPIPQISST  126 (272)
+Q Consensus        94 ssehfshs-skwletcqhesdeqpldpipqisst  126 (272)
+                      |++|.-+- .-|+..+.....-.+-+++|.+.-+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~g~~~p~~~~~   36 (213)
+T 4KCE_B            3 SSHHHHHHSSGLVPRGSHMRTATVRDPAPQFSGK   36 (213)
+T ss_dssp             ---------------------CCTTSBCCCCEEE
+T ss_pred             CCcccccccCCCCCCcccccCCCCCCCCCCCcce
+Confidence            34444444 4477888888777777888877643
+
+
+No 3
+>4L1J_B HD domain-containing protein 2, HD; Structural Genomics, PSI-Biology, Protein Structure; HET: PEG, PE4, SEP, MSE; 1.824A {Homo sapiens}
+Probab=8.62  E-value=87  Score=25.60  Aligned_cols=34  Identities=26%  Similarity=0.188  Sum_probs=23.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCcccccCCCeeeeeeccccCCCCCCCCC
+Q tr|F5GZT2|F5GZ   44 PACSSLTPSLCKLGLQVRFAWTASRLGCLPREGS   77 (272)
+Q Consensus        44 pacssltpslcklglqvrfawtasrlgclpregs   77 (272)
+                      ++||+.|-+.-.+--.+.|...+.+|.-++|.|-
+T Consensus         2 ~~~~~~~~~~~~~~~~~~f~~~~~~Lk~~~R~gw   35 (204)
+T 4L1J_B            2 ASVSSATFSGHGARSLLQFLRLVGQLKRVPRTGW   35 (204)
+T ss_dssp             ----CCSCCCSSHHHHHHHHHHHHHGGGSBCHHH
+T ss_pred             CccccccCCccchHHHHHHHHHHHHHhcCccccc
+Confidence            5788888887776666777777888888888663
+
+
+No 4
+>2ADC_A RBD, RRM, Protein-RNA Complex, RNA; NMR {Homo sapiens} SCOP: d.58.7.1
+Probab=6.22  E-value=7.3e+02  Score=18.50  Aligned_cols=20  Identities=30%  Similarity=0.336  Sum_probs=0.9  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCccccCCCCCC
+Q tr|F5GZT2|F5GZ   94 SSEHFSHSSKWLETCQHESD  113 (272)
+Q Consensus        94 ssehfshsskwletcqhesd  113 (272)
+                      +-.||.|+++|.-.|-+-+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~   23 (229)
+T 2ADC_A            4 SHHHHHHSSGLVPRGSHMGR   23 (229)
+T ss_dssp             ------------------CC
+T ss_pred             CccccccCCCCcCCCccccc
+Confidence            45689999999988766543
+
+
+No 5
+>5IBV_A Capsid polyprotein VP90; Astrovirus, Capsid, VIRAL PROTEIN; HET: MSE; 2.15A {Human astrovirus-8}
+Probab=5.44  E-value=1.1e+03  Score=23.40  Aligned_cols=71  Identities=23%  Similarity=0.403  Sum_probs=33.8  Template_Neff=6.200
+
+Q ss_pred             CCcceececcCCCCCCCCCCCCCCCCccccCCCCCCCCCCCCC-CCCCCCCcccccCCCeeeeeeccccCCCCCCCC
+Q tr|F5GZT2|F5GZ    1 MWRVKKLSLSLSPSPQTGKPSMRTPLRELTLQPGALTNSGKRS-PACSSLTPSLCKLGLQVRFAWTASRLGCLPREG   76 (272)
+Q Consensus         1 mwrvkklslslspspqtgkpsmrtplreltlqpgaltnsgkrs-pacssltpslcklglqvrfawtasrlgclpreg   76 (272)
+                      |||++++.+.|-|--.  .....--+--+.|.+.+.  .++-+ -++..-.-.-+.+|...+|-.....|. -||+|
+T Consensus        64 ~wri~~~~v~l~PLvg--~saVsGT~~~~sl~~~g~--~~~~s~d~l~ar~h~~~~iG~~~~~~ip~~~L~-Gpr~g  135 (354)
+T 5IBV_A           64 MWKLKYLNVRLTSMVG--ASAVNGTVVRISLNPTST--PSSTSWSGLGARKHLDVTVGKNAVFKLKPSDLG-GPRDG  135 (354)
+T ss_dssp             EEEEEEEEEEEEESSC--TTTEESCEEEEEEESSCC--CCSCHHHHHHHSSEEEEETTCCEEEEECHHHHC-BTBTB
+T ss_pred             eeEEEEEEEEEEEcCC--ccccceEEEEEEeCCCCC--CCCCChhhhccccceEeCCCCeEEEEeChhhcC-CCCCc
+Confidence            7999999988765432  111111122233333221  11100 001111223456787777777776664 46665
+
+
+No 6
+>4WXW_A Uncharacterized protein; GGDEF domain, DGC activity, TRANSFERASE; 1.8A {Pseudomonas aeruginosa PAO1}
+Probab=5.20  E-value=1.7e+03  Score=15.78  Aligned_cols=30  Identities=27%  Similarity=0.288  Sum_probs=5.0  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCCCCCCCCCCCC
+Q tr|F5GZT2|F5GZ   94 SSEHFSHSSKWLETCQHESDEQPLDPIPQI  123 (272)
+Q Consensus        94 ssehfshsskwletcqhesdeqpldpipqi  123 (272)
+                      ++.|..|-+.|+..-..-.+..-.|++..+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~d~~tgl   32 (188)
+T 4WXW_A            3 SSHHHHHHSQDLEVLFQGPGSVATDELTGL   32 (188)
+T ss_dssp             ---------------------CCBCTTTCS
+T ss_pred             CCccccccccCccccccCCCCCcccCCCCC
+Confidence            456667778888877666666666665443
+
+
+No 7
+>1HP3_A Cystine knot, TOXIN; NMR {N/A} SCOP: g.3.6.2
+Probab=4.60  E-value=7.5e+02  Score=18.27  Aligned_cols=15  Identities=53%  Similarity=0.946  Sum_probs=11.3  Template_Neff=1.800
+
+Q ss_pred             CCCCCCcccccCCCee
+Q tr|F5GZT2|F5GZ   45 ACSSLTPSLCKLGLQV   60 (272)
+Q Consensus        45 acssltpslcklglqv   60 (272)
+                      .|-.+||+ ||+|+-|
+T Consensus        16 dCCglTPs-C~~G~Cv   30 (32)
+T 1HP3_A           16 DCCELTPV-CKRGSCV   30 (32)
+T ss_dssp             GSCSSCCE-EETTEEE
+T ss_pred             ccccCCCc-ceeecee
+Confidence            47778987 8888754
+
+
+No 8
+>2PMA_A Uncharacterized protein; APC86035.2, protein Lpg0085, DUF785, Legionella; HET: FMT, ACT; 1.89A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1} SCOP: b.50.1.3
+Probab=4.41  E-value=7.6e+02  Score=20.76  Aligned_cols=19  Identities=32%  Similarity=0.412  Sum_probs=16.6  Template_Neff=7.200
+
+Q ss_pred             ceeeecccCcCCCCCCCCC
+Q tr|F5GZT2|F5GZ  158 MIFEARLDTMAETNSISLN  176 (272)
+Q Consensus       158 mifearldtmaetnsisln  176 (272)
+                      ..+.|++||-|++++|...
+T Consensus        18 ~~~~AkiDTGa~~ssI~~~   36 (146)
+T 2PMA_A           18 LTLSAKLDTGAKSASLHAV   36 (146)
+T ss_dssp             EEEEEEECTTCSSEEEECE
+T ss_pred             cEEEEEEeCCCCceEEEhh
+Confidence            4799999999999998754
+
+
+No 9
+>2PMA_B Uncharacterized protein; APC86035.2, protein Lpg0085, DUF785, Legionella; HET: FMT, ACT; 1.89A {Legionella pneumophila subsp. pneumophila str. Philadelphia 1} SCOP: b.50.1.3
+Probab=4.41  E-value=7.6e+02  Score=20.76  Aligned_cols=18  Identities=33%  Similarity=0.538  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CceeeecccCcCCCCCCC
+Q tr|F5GZT2|F5GZ  157 DMIFEARLDTMAETNSIS  174 (272)
+Q Consensus       157 dmifearldtmaetnsis  174 (272)
+                      +..+.|++||-|++++|.
+T Consensus        17 ~~~~~AkiDTGa~~ssI~   34 (146)
+T 2PMA_B           17 NLTLSAKLDTGAKSASLH   34 (146)
+T ss_dssp             TEEEEEEECTTCSSEEEE
+T ss_pred             CcEEEEEEeCCCCceEEE
+
+
+No 10
+>6AD3_A AmphB; polyketide synthease, condensation domain, nonribosomal; 1.79A {Monascus pilosus}
+Probab=4.09  E-value=1.1e+03  Score=19.26  Aligned_cols=18  Identities=33%  Similarity=0.372  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCCCCCCCCccccCCCC
+Q tr|F5GZT2|F5GZ   94 SSEHFSHSSKWLETCQHE  111 (272)
+Q Consensus        94 ssehfshsskwletcqhe  111 (272)
+                      +..|..|+|.|.+.|-|+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (519)
+T 6AD3_A            4 SHHHHHHSSGLVPRGSHM   21 (519)
+T ss_dssp             ------------------
+T ss_pred             CccccccCCCCcCCCcch
+
+

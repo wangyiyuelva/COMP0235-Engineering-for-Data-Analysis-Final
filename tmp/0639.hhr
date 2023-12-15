@@ -1,0 +1,168 @@
+Query         tr|A0A2R8Y783|A0A2R8Y783_HUMAN
+Match_columns 310
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:03:56 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0639.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XS0_A Inhibitor of vertebrate  15.7 3.2E+02  0.0034   22.6   2.7   23  100-122    27-49  (136)
+  2 1XS0_C Inhibitor of vertebrate  15.7 3.2E+02  0.0034   22.6   2.7   31   92-122    19-49  (136)
+  3 1GPQ_B INHIBITOR OF VERTEBRATE  14.2 3.8E+02  0.0041   22.4   2.8   23  100-122    27-49  (135)
+  4 6O9L_1 DNA-directed RNA polyme  10.3 4.6E+02   0.005   26.6   2.6   40   74-113   457-496 (548)
+  5 7EGB_1 Integrator complex subu  10.3 4.6E+02   0.005   26.6   2.6   40   74-113   457-496 (548)
+  6 2FN0_B salicylate synthetase,    9.9 2.4E+02  0.0026   26.2   0.5   35  202-237   367-401 (437)
+  7 2L9D_A Uncharacterized protein   9.4 2.1E+02  0.0023   24.7  -0.0   13   97-109    23-35  (108)
+  8 4PS6_A Inhibitor of vertebrate   8.8 7.6E+02  0.0083   20.3   2.9   35   88-122    16-52  (130)
+  9 3RV6_B Isochorismate synthase/   8.4 2.9E+02  0.0032   25.8   0.5   35  203-237   378-412 (450)
+ 10 7O4J_1 Pre-initiation complex,   8.4 5.6E+02  0.0061   26.9   2.4   33   74-106   549-581 (645)
+
+No 1
+>1XS0_A Inhibitor of vertebrate lysozyme; alpha beta fold, dimer, HYDROLASE; 1.58A {Escherichia coli} SCOP: d.233.1.1
+Probab=15.72  E-value=3.2e+02  Score=22.61  Aligned_cols=23  Identities=17%  Similarity=0.404  Sum_probs=19.4  Template_Neff=7.700
+
+Q ss_pred             CCChhhhcccCCCCCcceecCCC
+Q tr|A0A2R8Y783|  100 RPSEWDKRLSTHSPFRTLNINGQ  122 (310)
+Q Consensus       100 rpsewdkrlsthspfrtlningq  122 (310)
+                      .-..|-+++.+-+|.+.+.++|+
+T Consensus        27 ~~~~w~~~~gv~sP~~~v~idG~   49 (136)
+T 1XS0_A           27 KLPAWVMKGGTYTPAQTVTLGDE   49 (136)
+T ss_dssp             CCCHHHHHTCEEEEEEEEEEETE
+T ss_pred             CCChhHhcCCccCCcEEEEECCE
+Confidence            45679988999999999999984
+
+
+No 2
+>1XS0_C Inhibitor of vertebrate lysozyme; alpha beta fold, dimer, HYDROLASE; 1.58A {Escherichia coli} SCOP: d.233.1.1
+Probab=15.72  E-value=3.2e+02  Score=22.61  Aligned_cols=31  Identities=19%  Similarity=0.369  Sum_probs=22.5  Template_Neff=7.700
+
+Q ss_pred             hhhCCCCCCCChhhhcccCCCCCcceecCCC
+Q tr|A0A2R8Y783|   92 FMESVPEPRPSEWDKRLSTHSPFRTLNINGQ  122 (310)
+Q Consensus        92 fmesvpeprpsewdkrlsthspfrtlningq  122 (310)
+                      |...+..-.-..|-+++.+-+|.+.+.++|+
+T Consensus        19 ~~~ll~~~~~~~w~~~~gv~sP~~~v~idG~   49 (136)
+T 1XS0_C           19 FNQMVQGHKLPAWVMKGGTYTPAQTVTLGDE   49 (136)
+T ss_dssp             HHHHTTTSCCCHHHHTTCEEEEEEEEEEETE
+T ss_pred             HHHHhccCCCChhHhcCCccCCcEEEEECCE
+Confidence            3333333356689999999999999999984
+
+
+No 3
+>1GPQ_B INHIBITOR OF VERTEBRATE LYSOZYME, LYSOZYME; HYDROLASE-INHIBITOR COMPLEX, LYSOZYME-INHIBITOR COMPLEX, TYPE-C; 1.6A {GALLUS GALLUS} SCOP: d.233.1.1
+Probab=14.21  E-value=3.8e+02  Score=22.40  Aligned_cols=23  Identities=17%  Similarity=0.404  Sum_probs=19.9  Template_Neff=7.400
+
+Q ss_pred             CCChhhhcccCCCCCcceecCCC
+Q tr|A0A2R8Y783|  100 RPSEWDKRLSTHSPFRTLNINGQ  122 (310)
+Q Consensus       100 rpsewdkrlsthspfrtlningq  122 (310)
+                      .-..|-+.+.+-+|.+.+.|+|+
+T Consensus        27 ~~~~Wl~~~g~~~P~~~v~idG~   49 (135)
+T 1GPQ_B           27 KLPAWVMKGGTYTPAQTVTLGDE   49 (135)
+T ss_dssp             CCCHHHHHCCEECCCEEEEETTE
+T ss_pred             CCCHHHhcCCcccCcEEEEECCE
+Confidence            46679988899999999999996
+
+
+No 4
+>6O9L_1 DNA-directed RNA polymerase II, Transcription; Transcription initiation, Molecular dynamics, Gene; HET: ZN; 7.2A {Homo sapiens}
+Probab=10.33  E-value=4.6e+02  Score=26.58  Aligned_cols=40  Identities=25%  Similarity=0.311  Sum_probs=32.6  Template_Neff=7.800
+
+Q ss_pred             cHHHHHHhhccHHHHHHhhhhCCCCCCCChhhhcccCCCC
+Q tr|A0A2R8Y783|   74 SQEEIKKHHASISELKKNFMESVPEPRPSEWDKRLSTHSP  113 (310)
+Q Consensus        74 sqeeikkhhasiselkknfmesvpeprpsewdkrlsthsp  113 (310)
+                      .++++..+|.+..||-+.|....|...|..++|....+.-
+T Consensus       457 ~~~el~~~~~t~~ELLRHFWs~fp~~t~~~~~K~~rm~~s  496 (548)
+T 6O9L_1          457 IQSELKHLYVAVGELLRHFWSCFPVNTPFLEEKVVKMKSN  496 (548)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhCCCCCHHHHHHHHHHHHH
+Confidence            3678999999999999999999998887777775554443
+
+
+No 5
+>7EGB_1 Integrator complex subunit 1, Integrator; TFIID, preinitiation complex, core promoter; HET: ZN; 3.3A {Homo sapiens}
+Probab=10.33  E-value=4.6e+02  Score=26.58  Aligned_cols=40  Identities=25%  Similarity=0.311  Sum_probs=32.6  Template_Neff=7.800
+
+Q ss_pred             cHHHHHHhhccHHHHHHhhhhCCCCCCCChhhhcccCCCC
+Q tr|A0A2R8Y783|   74 SQEEIKKHHASISELKKNFMESVPEPRPSEWDKRLSTHSP  113 (310)
+Q Consensus        74 sqeeikkhhasiselkknfmesvpeprpsewdkrlsthsp  113 (310)
+                      .++++..+|.+..||-+.|....|...|..++|....+.-
+T Consensus       457 ~~~el~~~~~t~~ELLRHFWs~fp~~t~~~~~K~~rm~~s  496 (548)
+T 7EGB_1          457 IQSELKHLYVAVGELLRHFWSCFPVNTPFLEEKVVKMKSN  496 (548)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhCCCCCHHHHHHHHHHHHH
+Confidence            3678999999999999999999998887777775554443
+
+
+No 6
+>2FN0_B salicylate synthetase, Irp9; Yersinia enterocolitica, Irp9, salicylate synthase; HET: PO4; 1.85A {Yersinia enterocolitica} SCOP: d.161.1.1
+Probab=9.93  E-value=2.4e+02  Score=26.21  Aligned_cols=35  Identities=17%  Similarity=0.209  Sum_probs=28.4  Template_Neff=9.400
+
+Q ss_pred             cccCCCCCCCCCCCcccccccccceeCCCccccCCC
+Q tr|A0A2R8Y783|  202 IKEMPRGPTGGCIGVEEQASALKFSVTPASCQLQPG  237 (310)
+Q Consensus       202 ikemprgptggcigveeqasalkfsvtpascqlqpg  237 (310)
+                      +...+||.-+|++|.-.... ..|.|.-.++.++.+
+T Consensus       367 ~E~~~Rg~y~G~~g~~~~~~-~~~~v~iRs~~~~~~  401 (437)
+T 2FN0_B          367 IEKTPRELYSGAILLLDDTR-FDAALVLRSVFQDSQ  401 (437)
+T ss_dssp             HCCSCCTTTTCEEEEECSSE-EEEEECCSEEEECSS
+T ss_pred             hCCCCCCCcceEEEEEcCCC-ceEEEEeeEEEEeCC
+Confidence            34689999999999887665 889999888877653
+
+
+No 7
+>2L9D_A Uncharacterized protein; PG9854E, Structural genomics, PSI-Biology, Protein; NMR {Methylobacillus flagellatus}
+Probab=9.38  E-value=2.1e+02  Score=24.67  Aligned_cols=13  Identities=38%  Similarity=0.813  Sum_probs=10.5  Template_Neff=5.100
+
+Q ss_pred             CCCCCChhhhccc
+Q tr|A0A2R8Y783|   97 PEPRPSEWDKRLS  109 (310)
+Q Consensus        97 peprpsewdkrls  109 (310)
+                      -.-|||.|-.||.
+T Consensus        23 ~~FRPSDWaERL~   35 (108)
+T 2L9D_A           23 KPFRPSDWVDRMC   35 (108)
+T ss_dssp             CBCSCTTHHHHHH
+T ss_pred             cccCccHHHHHHH
+Confidence            3458999999985
+
+
+No 8
+>4PS6_A Inhibitor of vertebrate lysozyme; PF08816 family, Ivy, Structural Genomics; HET: MSE; 1.25A {Pseudomonas aeruginosa}
+Probab=8.75  E-value=7.6e+02  Score=20.26  Aligned_cols=35  Identities=20%  Similarity=0.366  Sum_probs=23.6  Template_Neff=7.800
+
+Q ss_pred             HHHhhhhCCCCC-CCChhhhcc-cCCCCCcceecCCC
+Q tr|A0A2R8Y783|   88 LKKNFMESVPEP-RPSEWDKRL-STHSPFRTLNINGQ  122 (310)
+Q Consensus        88 lkknfmesvpep-rpsewdkrl-sthspfrtlningq  122 (310)
+                      +++.|...+... ....|-+++ .+.+|.+.+.|+|+
+T Consensus        16 ~~~a~~~ll~~~~~~~~Wl~~~~g~~~P~~~v~i~G~   52 (130)
+T 4PS6_A           16 YKATWHAMFKGESDVPKWVSDASGPSSPSTSLSLEGQ   52 (130)
+T ss_dssp             HHHHHHHHTTTCCSCCHHHHHCCSCCCCEEEEEETTE
+T ss_pred             HHHHHHHHhCCCCCCChHHHcCCCCCCCcEEEEECCE
+Confidence            444444444333 345799885 78899999999985
+
+
+No 9
+>3RV6_B Isochorismate synthase/isochorismate-pyruvate lyase mbtI (E.C.4.1.3.-; Structural Genomics, TB Structural Genomics; HET: VAE, RVA; 2.04A {Mycobacterium tuberculosis}
+Probab=8.38  E-value=2.9e+02  Score=25.84  Aligned_cols=35  Identities=23%  Similarity=0.298  Sum_probs=28.0  Template_Neff=9.300
+
+Q ss_pred             ccCCCCCCCCCCCcccccccccceeCCCccccCCC
+Q tr|A0A2R8Y783|  203 KEMPRGPTGGCIGVEEQASALKFSVTPASCQLQPG  237 (310)
+Q Consensus       203 kemprgptggcigveeqasalkfsvtpascqlqpg  237 (310)
+                      ...+||.-+|+||.-.......|.|.-.++.++.+
+T Consensus       378 E~~~Rg~y~G~~G~~~~~g~~~~~v~iR~~~~~~~  412 (450)
+T 3RV6_B          378 DECPRGLYSGAVVMLSADGGLDAALTLRAAYQVGG  412 (450)
+T ss_dssp             SCSCCTTTTSEEEEEETTSCEEEEECCEEEEEETT
+T ss_pred             CCCCCCCCceEEEEEcCCCCeeEEEeccEEEEECC
+Confidence            45699999999998877667788888887777643
+
+
+No 10
+>7O4J_1 Pre-initiation complex, TRANSCRIPTION; HET: ZN, ADP; 2.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=8.35  E-value=5.6e+02  Score=26.88  Aligned_cols=33  Identities=15%  Similarity=0.152  Sum_probs=28.8  Template_Neff=7.400
+
+Q ss_pred             cHHHHHHhhccHHHHHHhhhhCCCCCCCChhhh
+Q tr|A0A2R8Y783|   74 SQEEIKKHHASISELKKNFMESVPEPRPSEWDK  106 (310)
+Q Consensus        74 sqeeikkhhasiselkknfmesvpeprpsewdk  106 (310)
+                      ..+++...|++..||-+.|....|..-+..|+|
+T Consensus       549 ~~~~l~~~~~t~~ElLRHFWs~fp~~~~~~~~K  581 (645)
+T 7O4J_1          549 LLESCRMLHTTCCEFLKHFYIHFQSGEQKQAST  581 (645)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTSCCGGGHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHccCCCHHHHHH
+Confidence            356899999999999999999999887777776
+
+

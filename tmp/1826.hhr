@@ -1,0 +1,270 @@
+Query         tr|A0A8Q3WLA7|A0A8Q3WLA7_HUMAN
+Match_columns 218
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:25:30 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1826.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KZP_M Fanconi anemia group A  100.0 5.4E-39 5.9E-44  265.5  14.6  199    1-204    20-277 (394)
+  2 7KZT_M Fanconi anemia group A  100.0 5.4E-39 5.9E-44  265.5  14.6  199    1-204    20-277 (394)
+  3 3ZQS_A E3 UBIQUITIN-PROTEIN LI 100.0 1.1E-35 1.2E-40  229.3  15.7  149   51-204     2-150 (186)
+  4 3K1L_A Fancl (E.C.6.3.2.19); U 100.0 2.5E-31 2.7E-36  218.0  11.2  188    5-204     8-255 (381)
+  5 6SRS_Q Unassigned secondary st  92.8   0.045 4.9E-07   37.5  -0.7   27    8-34      2-28  (91)
+  6 6SRS_q Unassigned secondary st  92.8   0.045 4.9E-07   37.5  -0.7   27    8-34      2-28  (91)
+  7 6IZS_A Outer membrane protein   39.7      58 0.00063   22.7   2.3   27  178-204    92-118 (122)
+  8 2KJG_A Archaeal protein SSO690  29.2      52 0.00057   27.7   0.9   27  127-153    43-69  (99)
+  9 2FO3_A Plasmodium chabaudi cha  26.6 1.3E+02  0.0014   17.2   2.0   25   85-109    51-75  (125)
+ 10 1NP0_E Beta-hexosaminidase bet  24.0 2.6E+02  0.0028   20.4   3.5   10  205-214    46-55  (190)
+
+No 1
+>7KZP_M Fanconi anemia group A protein; Complex, LIGASE; 3.1A {Homo sapiens}
+Probab=100.00  E-value=5.4e-39  Score=265.50  Aligned_cols=199  Identities=96%  Similarity=1.473  Sum_probs=180.8  Template_Neff=8.500
+
+Q ss_pred             CCCCcccccccCCccCCCCCCcchhhhcccHHHH------------HHh----------------------chh------
+Q tr|A0A8Q3WLA7|    1 MAVTEASLLRQCPLLLPQNRSKTVYEGFISAQEV------------ALK----------------------NRQ------   40 (218)
+Q Consensus         1 mavteasllrqcplllpqnrsktvyegfisaqev------------alk----------------------nrq------   40 (218)
+                      |++.+++++++||+|+|.+.+++.|+|||+++|+            +++                      +++      
+T Consensus        20 ~~~~~~~~~~~~p~l~p~~~~~~~~~G~i~i~~~~~~i~i~~p~~~~~~~~~l~~~~~L~~ll~~~~~~i~~~l~~~~~l   99 (394)
+T 7KZP_M           20 MAVTEASLLRQCPLLLPQNRSKTVYEGFISAQGRDFHLRIVLPEDLQLKNARLLCSWQLRTILSGYHRIVQQRMQHSPDL   99 (394)
+T ss_pred             HHHHHHHHHHhCCcEeecCCCCcEEEEEEEECCEEEEEEEEcCCCcccCCcEEEecHHHHHHHhhHHHHHHHHHHhCCCH
+Confidence            5678899999999999999999999999999866            111                      111      
+
+
+Q ss_pred             --------hhhC-----------CCCChhHHHHHHHHHhhcCcceeeecccceEEEEEEEECCCCCEEEEEEEEEEeCCC
+Q tr|A0A8Q3WLA7|   41 --------ELYA-----------LPPPPQFYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPA  101 (218)
+Q Consensus        41 --------elya-----------lppppqfysslieeigtlgwdklvyadtcfstiklkaedasgrehlitlklkakypa  101 (218)
+                              +++.           ..++..+|+.|++||++|||++++++++|+++|+|.+.|+++|+|.|+|.++++||.
+T Consensus       100 ~~fl~eL~~~l~~~~~~~~~~~~~~~~~~~~~~ll~el~~ig~~~~~~~~~~l~~i~~~~~D~~~R~H~l~i~l~~~yp~  179 (394)
+T 7KZP_M          100 MSFMMELKMLLEVALKNRQELYALPPPPQFYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPA  179 (394)
+T ss_pred             HHHHHHHHHHHHHHHHcCchhcCCCCCHHHHHHHHHHHHhhCCccEEEeCCCCCEEEEEEeCCCCCEEEEEEEeCCCCCC
+Confidence                    1111           123457999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCcceecCCccceeecCCCCCCCchhHHHHHHHHHHHHHHHHHHHHHhhhccccceecCCCCCCCcccceeeecCCceE
+Q tr|A0A8Q3WLA7|  102 ESPDYFVDFPVPFCASWTPQVNSPQSSLISIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVS  181 (218)
+Q Consensus       102 espdyfvdfpvpfcaswtpqvnspqsslisiysqflaaieslkafwdvmdeidektwvlepekpprsatarrialgnnvs  181 (218)
+                      ++|.+.+|+|.++.+.|.++     ++|+++|++|++.|++||+||++||+||++||||||++|++++++|||+++++++
+T Consensus       180 ~~p~~~~dlp~~~~~~~~~~-----~~l~~~~~~f~~~l~~~q~fw~~ld~iD~~~wVleP~~p~~~~~~RrI~l~~~~s  254 (394)
+T 7KZP_M          180 ESPDYFVDFPVPFCASWTPQ-----SSLISIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVS  254 (394)
+T ss_pred             CCCeEEEeCCCcccCCCCCC-----CcHHHHHHHHHHHHHHhHHHHHHHHHHHHceeeeCCCCCCcccceeEEEecCCeE
+Confidence            99999999999999999888     8999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EEEEECCCCCCcCCceeeeccCc
+Q tr|A0A8Q3WLA7|  182 INIEVDPRHPTMLPECFFLGADH  204 (218)
+Q Consensus       182 inievdprhptmlpecfflgadh  204 (218)
+                      +.|+|||.+|...|+++|+|+..
+T Consensus       255 l~i~v~p~~P~~~P~v~f~G~~~  277 (394)
+T 7KZP_M          255 INIEVDPRHPTMLPECFFLGADH  277 (394)
+T ss_pred             EEEEeCCCCccCCCceEEeCCch
+Confidence            99999999999999999999875
+
+
+No 2
+>7KZT_M Fanconi anemia group A protein; Complex, LIGASE, LIGASE-DNA complex; 4.2A {Homo sapiens}
+Probab=100.00  E-value=5.4e-39  Score=265.50  Aligned_cols=199  Identities=96%  Similarity=1.473  Sum_probs=180.8  Template_Neff=8.500
+
+Q ss_pred             CCCCcccccccCCccCCCCCCcchhhhcccHHHH------------HHh----------------------chh------
+Q tr|A0A8Q3WLA7|    1 MAVTEASLLRQCPLLLPQNRSKTVYEGFISAQEV------------ALK----------------------NRQ------   40 (218)
+Q Consensus         1 mavteasllrqcplllpqnrsktvyegfisaqev------------alk----------------------nrq------   40 (218)
+                      |++.+++++++||+|+|.+.+++.|+|||+++|+            +++                      +++      
+T Consensus        20 ~~~~~~~~~~~~p~l~p~~~~~~~~~G~i~i~~~~~~i~i~~p~~~~~~~~~l~~~~~L~~ll~~~~~~i~~~l~~~~~l   99 (394)
+T 7KZT_M           20 MAVTEASLLRQCPLLLPQNRSKTVYEGFISAQGRDFHLRIVLPEDLQLKNARLLCSWQLRTILSGYHRIVQQRMQHSPDL   99 (394)
+T ss_pred             HHHHHHHHHHhCCcEeecCCCCcEEEEEEEECCEEEEEEEEcCCCcccCCcEEEecHHHHHHHhhHHHHHHHHHHhCCCH
+Confidence            5678899999999999999999999999999866            111                      111      
+
+
+Q ss_pred             --------hhhC-----------CCCChhHHHHHHHHHhhcCcceeeecccceEEEEEEEECCCCCEEEEEEEEEEeCCC
+Q tr|A0A8Q3WLA7|   41 --------ELYA-----------LPPPPQFYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPA  101 (218)
+Q Consensus        41 --------elya-----------lppppqfysslieeigtlgwdklvyadtcfstiklkaedasgrehlitlklkakypa  101 (218)
+                              +++.           ..++..+|+.|++||++|||++++++++|+++|+|.+.|+++|+|.|+|.++++||.
+T Consensus       100 ~~fl~eL~~~l~~~~~~~~~~~~~~~~~~~~~~ll~el~~ig~~~~~~~~~~l~~i~~~~~D~~~R~H~l~i~l~~~yp~  179 (394)
+T 7KZT_M          100 MSFMMELKMLLEVALKNRQELYALPPPPQFYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPA  179 (394)
+T ss_pred             HHHHHHHHHHHHHHHHcCchhcCCCCCHHHHHHHHHHHHhhCCccEEEeCCCCCEEEEEEeCCCCCEEEEEEEeCCCCCC
+Confidence                    1111           123457999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCcceecCCccceeecCCCCCCCchhHHHHHHHHHHHHHHHHHHHHHhhhccccceecCCCCCCCcccceeeecCCceE
+Q tr|A0A8Q3WLA7|  102 ESPDYFVDFPVPFCASWTPQVNSPQSSLISIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVS  181 (218)
+Q Consensus       102 espdyfvdfpvpfcaswtpqvnspqsslisiysqflaaieslkafwdvmdeidektwvlepekpprsatarrialgnnvs  181 (218)
+                      ++|.+.+|+|.++.+.|.++     ++|+++|++|++.|++||+||++||+||++||||||++|++++++|||+++++++
+T Consensus       180 ~~p~~~~dlp~~~~~~~~~~-----~~l~~~~~~f~~~l~~~q~fw~~ld~iD~~~wVleP~~p~~~~~~RrI~l~~~~s  254 (394)
+T 7KZT_M          180 ESPDYFVDFPVPFCASWTPQ-----SSLISIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVS  254 (394)
+T ss_pred             CCCeEEEeCCCcccCCCCCC-----CcHHHHHHHHHHHHHHhHHHHHHHHHHHHceeeeCCCCCCcccceeEEEecCCeE
+Confidence            99999999999999999888     8999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EEEEECCCCCCcCCceeeeccCc
+Q tr|A0A8Q3WLA7|  182 INIEVDPRHPTMLPECFFLGADH  204 (218)
+Q Consensus       182 inievdprhptmlpecfflgadh  204 (218)
+                      +.|+|||.+|...|+++|+|+..
+T Consensus       255 l~i~v~p~~P~~~P~v~f~G~~~  277 (394)
+T 7KZT_M          255 INIEVDPRHPTMLPECFFLGADH  277 (394)
+T ss_pred             EEEEeCCCCccCCCceEEeCCch
+Confidence            99999999999999999999875
+
+
+No 3
+>3ZQS_A E3 UBIQUITIN-PROTEIN LIGASE FANCL (E.C.6.3.2.19); LIGASE; HET: P6G, PRO; 2.0A {HOMO SAPIENS}
+Probab=100.00  E-value=1.1e-35  Score=229.33  Aligned_cols=149  Identities=100%  Similarity=1.562  Sum_probs=145.6  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHhhcCcceeeecccceEEEEEEEECCCCCEEEEEEEEEEeCCCCCCcceecCCccceeecCCCCCCCchhHH
+Q tr|A0A8Q3WLA7|   51 FYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPAESPDYFVDFPVPFCASWTPQVNSPQSSLI  130 (218)
+Q Consensus        51 fysslieeigtlgwdklvyadtcfstiklkaedasgrehlitlklkakypaespdyfvdfpvpfcaswtpqvnspqssli  130 (218)
+                      +|+.|++||++|||++++++++|+++|+|++.|+++|+|.|+|.++++||.++|.+.+|+|.++...|.+.     ++|+
+T Consensus         2 ~y~~ll~el~~iGw~~v~~~~~~l~~i~l~~~D~~~R~H~l~i~l~~~yp~~~p~~~~dLP~~~~~~~~~~-----~sL~   76 (186)
+T 3ZQS_A            2 FYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPAESPDYFVDFPVPFCASWTPQ-----SSLI   76 (186)
+T ss_dssp             CSCSHHHHHHHHCGGGEEEECTTSSEEEEEEECTTSCEEEEEEECCTTTTTSCCEEECCCSSCCCCCCCTT-----CCHH
+T ss_pred             HHHHHHHHHHHhChhheEEECCCCCEEEEEEEcCCCCEEEEEEEeCCCCCCCCCEEEEeCCCCccCCCCCC-----CcHH
+Confidence            68999999999999999999999999999999999999999999999999999999999999998989887     8999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhhccccceecCCCCCCCcccceeeecCCceEEEEEECCCCCCcCCceeeeccCc
+Q tr|A0A8Q3WLA7|  131 SIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVSINIEVDPRHPTMLPECFFLGADH  204 (218)
+Q Consensus       131 siysqflaaieslkafwdvmdeidektwvlepekpprsatarrialgnnvsinievdprhptmlpecfflgadh  204 (218)
+                      ++|++|+++|++||.||++|++||++||||||++|++++.+|||+++++||++|+|||..|..+|.++|+|+++
+T Consensus        77 ~~~~~f~~~~~~lq~~w~~ld~iD~~~~VldP~~p~~~~~~RrI~l~~~~sl~v~vdP~~p~~~P~~~f~G~~~  150 (186)
+T 3ZQS_A           77 SIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVSINIEVDPRHPTMLPECFFLGADH  150 (186)
+T ss_dssp             HHHHHHHHHHHHTHHHHHHHHHHHHHSCEEESSSCCTTCCEEEEEEETTEEEEEECCTTSTTSCCEEEEEECHH
+T ss_pred             HHHHHHHHHHHHhHHHHHHHHHHhhcceeeCCCCCChhhceEEEEeCCceEEEEEeCCCCcccCCeEEEecChh
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999976
+
+
+No 4
+>3K1L_A Fancl (E.C.6.3.2.19); UBC, RING, RWD, LIGASE; HET: AU, CIT, GLC; 3.2A {Drosophila melanogaster}
+Probab=99.97  E-value=2.5e-31  Score=218.05  Aligned_cols=188  Identities=19%  Similarity=0.259  Sum_probs=155.1  Template_Neff=8.700
+
+Q ss_pred             cccccccCCcc-CCCCCCc-chhhhcccHHHH------------HHh-------------------chh-----------
+Q tr|A0A8Q3WLA7|    5 EASLLRQCPLL-LPQNRSK-TVYEGFISAQEV------------ALK-------------------NRQ-----------   40 (218)
+Q Consensus         5 easllrqcpll-lpqnrsk-tvyegfisaqev------------alk-------------------nrq-----------   40 (218)
+                      +.+++++||+| +|.+.++ +.|.|||+++|+            +++                   +++           
+T Consensus         8 ~~~~~~~fPll~~p~~~~~~~~~~G~I~v~~~~~~i~l~~p~~~~l~~~~l~~~~~l~~ll~~~~~~~l~~~~~l~~fl~   87 (381)
+T 3K1L_A            8 ERLLCQKYPGLAAELQPSGACIIRGVLGSEDTWRRLKLYLPHHPALHGFQLYVQESLEYKLYTSANLKLQDDWLLEDFLD   87 (381)
+T ss_dssp             HHHHHHHCTTEEEEECTTSCEEEEEEEEETTEEEEEEEEETBTTBCTTCEEEEECSSSEEEECTTTSCCCTTCCHHHHHH
+T ss_pred             HHHHHHHCCCcEEeeCCCCCeEEEEEEEECCeEEEEEEEcCCCcccCCEEEEecHHHHHHhccccccchhcCCcHHHHHH
+Confidence            45678899999 9999887 899999999866            111                   011           
+
+
+Q ss_pred             ---hhhC----------CCCChhHHHHHHHHHhhcCcceeeecccceEEEEEEEECCCCCEEEEEEEEEEeCCCCCCcce
+Q tr|A0A8Q3WLA7|   41 ---ELYA----------LPPPPQFYSSLIEEIGTLGWDKLVYADTCFSTIKLKAEDASGREHLITLKLKAKYPAESPDYF  107 (218)
+Q Consensus        41 ---elya----------lppppqfysslieeigtlgwdklvyadtcfstiklkaedasgrehlitlklkakypaespdyf  107 (218)
+                         .+|.          ......+|+.|+++++++||.  .++++|++.|+|++.|.+ |+|.|+|.+++.|     .+.
+T Consensus        88 eL~~~l~~~~~~~~~~~~~~~~~~~~~i~~~~~~~g~~--~~i~~dl~~i~l~~~D~~-~~H~l~i~~~~~~-----~~~  159 (381)
+T 3K1L_A           88 HLPKILPAQKAPTVPKELCREGNIYYDILALYKSNEYC--LQVDEACSMIRFSEFTDF-EQHYLELKIPSLL-----LLD  159 (381)
+T ss_dssp             HHHHHCC------------CCCCHHHHHHHHHSCSSCE--EEECGGGCEEEEEEETTE-EEEEEEEETTTCC-----EEE
+T ss_pred             HHHHHHHHccCCCCCchhcccchHHHHHHHHhhcCceE--EEECCCCCEEEEEEEeCC-CeEEEEEEeCccc-----ccc
+Confidence               1121          123457899999999999996  679999999999999985 6999999987444     235
+
+
+Q ss_pred             ecCCcccee--ecCCCCCCCchhHHHHHHHHHHHHHHHHHHHHHhhhccccceecCCCCCCCcccceeeecCCceEEEEE
+Q tr|A0A8Q3WLA7|  108 VDFPVPFCA--SWTPQVNSPQSSLISIYSQFLAAIESLKAFWDVMDEIDEKTWVLEPEKPPRSATARRIALGNNVSINIE  185 (218)
+Q Consensus       108 vdfpvpfca--swtpqvnspqsslisiysqflaaieslkafwdvmdeidektwvlepekpprsatarrialgnnvsinie  185 (218)
+                      .++|.....  .|.+..    ++|+++|++|++.|++||+||++||+||++||||||++|++++++|||++++++++.++
+T Consensus       160 ~~lP~~~~~~~~~~~~~----~~L~~~~~~f~~~l~~~q~fw~~ld~iD~~~~vldP~~p~~~~~~Rri~l~~~~sl~i~  235 (381)
+T 3K1L_A          160 HSLPDCVSLGEMLTKSA----GNLEEALNLFRKLLEDLRPFYDNFMDIDELCHVLQPSPISSKHKTRLFPLKDRVYLKLT  235 (381)
+T ss_dssp             ESSCTTSCHHHHHHHHC----CSHHHHHHHHHHHHHHTHHHHHHHHHHHHHSCCCBSSSCCTTCCEEEEEEETTEEEEEE
+T ss_pred             CCCCcccchhHHHhhcC----CCHHHHHHHHHHHHHHhHHHHHHHHhHHHhccccCCCCCCcccceEEEEeCCcEEEEEE
+Confidence            777775321  233341    48999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             E-CCCCCCcCCceeeeccCc
+Q tr|A0A8Q3WLA7|  186 V-DPRHPTMLPECFFLGADH  204 (218)
+Q Consensus       186 v-dprhptmlpecfflgadh  204 (218)
+                      | ||.+|...|.++|+|++.
+T Consensus       236 v~dp~~p~~~p~i~flG~~~  255 (381)
+T 3K1L_A          236 IADPFACIASMSLKIIGPTE  255 (381)
+T ss_dssp             ESCTTSTTTTEEEEEESSHH
+T ss_pred             ECCccccccCCeEEEeCCHH
+Confidence            9 999999999999999976
+
+
+No 5
+>6SRS_Q Unassigned secondary structure elements (central; Fanconi Anaemia core complex ; 4.6A {Gallus gallus}
+Probab=92.77  E-value=0.045  Score=37.49  Aligned_cols=27  Identities=78%  Similarity=1.228  Sum_probs=23.9  Template_Neff=9.000
+
+Q ss_pred             ccccCCccCCCCCCcchhhhcccHHHH
+Q tr|A0A8Q3WLA7|    8 LLRQCPLLLPQNRSKTVYEGFISAQEV   34 (218)
+Q Consensus         8 llrqcplllpqnrsktvyegfisaqev   34 (218)
+                      ++..||+++|.+.+++.|+|||.++|+
+T Consensus         2 ~l~~~Pllip~~~~~~~~~G~i~v~~~   28 (91)
+T 6SRS_Q            2 LLRQCPLLLPQNREGTAYEGFVSAQGR   28 (91)
+T ss_pred             ccccCceeeeecCCCCEEEeEEEecCC
+Confidence            456899999999999999999999755
+
+
+No 6
+>6SRS_q Unassigned secondary structure elements (central; Fanconi Anaemia core complex ; 4.6A {Gallus gallus}
+Probab=92.77  E-value=0.045  Score=37.49  Aligned_cols=27  Identities=78%  Similarity=1.228  Sum_probs=23.9  Template_Neff=9.000
+
+Q ss_pred             ccccCCccCCCCCCcchhhhcccHHHH
+Q tr|A0A8Q3WLA7|    8 LLRQCPLLLPQNRSKTVYEGFISAQEV   34 (218)
+Q Consensus         8 llrqcplllpqnrsktvyegfisaqev   34 (218)
+                      ++..||+++|.+.+++.|+|||.++|+
+T Consensus         2 ~l~~~Pllip~~~~~~~~~G~i~v~~~   28 (91)
+T 6SRS_q            2 LLRQCPLLLPQNREGTAYEGFVSAQGR   28 (91)
+T ss_pred             ccccCceeeeecCCCCEEEeEEEecCC
+Confidence            456899999999999999999999755
+
+
+No 7
+>6IZS_A Outer membrane protein assembly factor; beta-barrel assembly machinery, poly-POTRAs, OMP; 2.03A {Haemophilus influenzae}
+Probab=39.65  E-value=58  Score=22.72  Aligned_cols=27  Identities=15%  Similarity=0.017  Sum_probs=12.2  Template_Neff=10.000
+
+Q ss_pred             CceEEEEEECCCCCCcCCceeeeccCc
+Q tr|A0A8Q3WLA7|  178 NNVSINIEVDPRHPTMLPECFFLGADH  204 (218)
+Q Consensus       178 nnvsinievdprhptmlpecfflgadh  204 (218)
+                      +.+.+.+.+++..+...-.+.+.|...
+T Consensus        92 ~~~~l~~~i~~g~~~~i~~v~~~~~~~  118 (122)
+T 6IZS_A           92 KTLAITLVVDAGRRLGSGSGSGVAAGV  118 (122)
+T ss_dssp             TEEEEEEEEECCCSCC-----------
+T ss_pred             CEEEEEEEEcCCCcEEEEeeeeeEecc
+Confidence            456888888887777766666666554
+
+
+No 8
+>2KJG_A Archaeal protein SSO6904; hypothetical protein, helical protein, METAL; NMR {Sulfolobus solfataricus}
+Probab=29.20  E-value=52  Score=27.65  Aligned_cols=27  Identities=41%  Similarity=0.709  Sum_probs=17.7  Template_Neff=2.700
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHhhhc
+Q tr|A0A8Q3WLA7|  127 SSLISIYSQFLAAIESLKAFWDVMDEI  153 (218)
+Q Consensus       127 sslisiysqflaaieslkafwdvmdei  153 (218)
+                      +++.=+|....+.+.+-.+||+.+..|
+T Consensus        43 ssiIfvYan~~~~Vk~Nke~y~lI~~i   69 (99)
+T 2KJG_A           43 TSIIYVYSSHLDEIRKNKEFYDMIAEI   69 (99)
+T ss_dssp             HHHHHHHHHTHHHHHHTHHHHHHHHHH
+T ss_pred             HhHeeeehhhHHHHHhCHHHHHHHHHH
+Confidence            445555655666777777888776654
+
+
+No 9
+>2FO3_A Plasmodium chabaudi chabaudi ubiquitin-conjugating enzyme; SGC, UBC, Structural Genomics, Structural; 1.86A {Plasmodium vivax} SCOP: d.20.1.1
+Probab=26.56  E-value=1.3e+02  Score=17.25  Aligned_cols=25  Identities=12%  Similarity=0.276  Sum_probs=17.6  Template_Neff=13.700
+
+Q ss_pred             CCCEEEEEEEEEEeCCCCCCcceec
+Q tr|A0A8Q3WLA7|   85 SGREHLITLKLKAKYPAESPDYFVD  109 (218)
+Q Consensus        85 sgrehlitlklkakypaespdyfvd  109 (218)
+                      .+..+.+.+.++..||...|.....
+T Consensus        51 ~~~~~~~~~~~~~~~p~~~p~~~~~   75 (125)
+T 2FO3_A           51 ANEVYKLKIIFPDDYPLKPPIVYFL   75 (125)
+T ss_dssp             TTCEEEEEEECCTTTTTSCCEEEEC
+T ss_pred             CCCEEEEEEECCCCCCCCCCEEEEC
+Confidence            3456778888888888877665433
+
+
+No 10
+>1NP0_E Beta-hexosaminidase beta chain (E.C.3.2.1.52); (beta/alpha)8-barrel, homodimer, family 20 glycosidase; HET: GOL, NAG, NGT; 2.5A {Homo sapiens}
+Probab=24.02  E-value=2.6e+02  Score=20.42  Aligned_cols=10  Identities=30%  Similarity=0.308  Sum_probs=5.3  Template_Neff=10.800
+
+Q ss_pred             chhhhhhhhh
+Q tr|A0A8Q3WLA7|  205 GFYYGLWNLL  214 (218)
+Q Consensus       205 gfyyglwnll  214 (218)
+                      ..+||+-.++
+T Consensus        46 G~~~g~~~l~   55 (190)
+T 1NP0_E           46 GALRGLETFS   55 (190)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            4556665443
+
+

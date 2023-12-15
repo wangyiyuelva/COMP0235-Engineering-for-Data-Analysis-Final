@@ -1,0 +1,307 @@
+Query         sp|Q502W7|CCD38_HUMAN
+Match_columns 563
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:11:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0168.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7MOQ_Z cilia, doublet, axoneme  90.2      32 0.00035   34.2  15.6   46  333-378   305-350 (538)
+  2 6U42_7T Tubulin beta, Tubulin   75.6 1.5E+02  0.0017   30.3  18.1   45  333-377   309-353 (552)
+  3 7KZO_Y1 Tubulin beta, Tubulin   75.6 1.5E+02  0.0017   30.3  18.1   45  333-377   309-353 (552)
+  4 2K48_A Nucleoprotein; Viral nu  72.1      60 0.00065   30.4   8.5   34  130-163    34-67  (107)
+  5 2IC9_A Sin Nombre Virus, Hanta  65.0 1.3E+02  0.0014   27.5   8.8   33  131-163     5-37  (96)
+  6 2IC6_B Sin Nombre Virus, Hanta  64.9 1.3E+02  0.0014   26.5   8.5   34  130-163     4-37  (78)
+  7 4FI5_A Nucleoprotein; Structur  63.7 1.1E+02  0.0012   28.8   8.5   34  130-163    21-54  (113)
+  8 5IJO_Z Nuclear pore complex pr  60.2 5.1E+02  0.0055   30.4  15.7  148  331-485   325-496 (522)
+  9 7PER_H Nuclear Pore Complex, N  60.2 5.1E+02  0.0055   30.4  15.7   23  375-397   383-405 (522)
+ 10 6I2N_D Nucleoprotein/RNA Compl  40.6   3E+02  0.0033   31.3   8.6   34  131-164     3-36  (430)
+ 11 7N9F_x NPC, nucleocytoplasmic   39.3 1.3E+03   0.014   29.0  14.3   38  333-370  1260-1298(1460)
+ 12 7N85_J nuclear pore complex, i  35.1 1.1E+03   0.012   26.7  16.6   12  381-392   693-704 (823)
+ 13 7N9F_z NPC, nucleocytoplasmic   35.1 1.1E+03   0.012   26.7  16.6   12  381-392   693-704 (823)
+ 14 7N85_J nuclear pore complex, i  24.6 1.6E+03   0.017   25.4  14.2   21  136-156   637-657 (823)
+ 15 7N9F_z NPC, nucleocytoplasmic   24.6 1.6E+03   0.017   25.4  14.2   21  136-156   637-657 (823)
+ 16 3J9E_D VP5; non-enveloped viru  22.6   2E+03   0.022   25.9  13.8  113  390-518    92-207 (526)
+ 17 6NJS_A Signal transducer and a  21.0 1.7E+03   0.019   24.5  17.0   19  442-460   123-141 (562)
+
+No 1
+>7MOQ_Z cilia, doublet, axoneme, outer dynein; HET: ADP, ATP, GTP, GDP;{Tetrahymena thermophila CU428}
+Probab=90.18  E-value=32  Score=34.18  Aligned_cols=46  Identities=24%  Similarity=0.433  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CcCCCCHHHHHHHHHHHHHHhHHHHHhhhHHHhhHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  333 ALYFKEPEELLQVLRELEEQNLTLFQYSQDVDENLEEVNKREKVIQ  378 (563)
+Q Consensus       333 alyfkepeellqvlreleeqnltlfqysqdvdenleevnkrekviq  378 (563)
+                      +.-..+++++...+...+++|..||.|-.+....++.+...-..++
+T Consensus       305 atG~~di~eiv~~f~~~ee~n~~L~~~v~e~~~eie~L~~~~~~l~  350 (538)
+T 7MOQ_Z          305 ATKVNDFEKLVNTFIENEEKNFQTFKFVNELSNEIEELEKQIGELR  350 (538)
+T ss_dssp             ----------------------------------------------
+T ss_pred             HhCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3345678999999999999999999999988887777765544443
+
+
+No 2
+>6U42_7T Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=75.59  E-value=1.5e+02  Score=30.27  Aligned_cols=45  Identities=24%  Similarity=0.522  Sum_probs=34.9  Template_Neff=9.600
+
+Q ss_pred             CcCCCCHHHHHHHHHHHHHHhHHHHHhhhHHHhhHHHHHHHHHHH
+Q sp|Q502W7|CCD3  333 ALYFKEPEELLQVLRELEEQNLTLFQYSQDVDENLEEVNKREKVI  377 (563)
+Q Consensus       333 alyfkepeellqvlreleeqnltlfqysqdvdenleevnkrekvi  377 (563)
+                      +.-..+++++...+-..|++|..||.|-......++.+...-..+
+T Consensus       309 ~tG~~di~~iv~~f~~~Ee~n~~L~~~v~e~~~eie~L~~~~~~L  353 (552)
+T 6U42_7T         309 ATGIEDIDQLVNTFLAAEDQNYTLFNYVNEVNQEIEKLEDQINIM  353 (552)
+T ss_pred             HHCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334567888999999999999999999988887777766554433
+
+
+No 3
+>7KZO_Y1 Tubulin beta, Tubulin alpha, Dynein; dynein, microtubule, cilia, MOTOR PROTEIN; HET: GTP, GDP; 3.3A {Chlamydomonas reinhardtii}
+Probab=75.59  E-value=1.5e+02  Score=30.27  Aligned_cols=45  Identities=24%  Similarity=0.522  Sum_probs=34.9  Template_Neff=9.600
+
+Q ss_pred             CcCCCCHHHHHHHHHHHHHHhHHHHHhhhHHHhhHHHHHHHHHHH
+Q sp|Q502W7|CCD3  333 ALYFKEPEELLQVLRELEEQNLTLFQYSQDVDENLEEVNKREKVI  377 (563)
+Q Consensus       333 alyfkepeellqvlreleeqnltlfqysqdvdenleevnkrekvi  377 (563)
+                      +.-..+++++...+-..|++|..||.|-......++.+...-..+
+T Consensus       309 ~tG~~di~~iv~~f~~~Ee~n~~L~~~v~e~~~eie~L~~~~~~L  353 (552)
+T 7KZO_Y1         309 ATGIEDIDQLVNTFLAAEDQNYTLFNYVNEVNQEIEKLEDQINIM  353 (552)
+T ss_pred             HHCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            334567888999999999999999999988887777766554433
+
+
+No 4
+>2K48_A Nucleoprotein; Viral nucleoprotein, viral protein; NMR {Andes virus}
+Probab=72.15  E-value=60  Score=30.42  Aligned_cols=34  Identities=32%  Similarity=0.476  Sum_probs=30.8  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  130 RNTIKKFEKDIAMRERQLKKAEKKLQDDALAFEE  163 (563)
+Q Consensus       130 rntikkfekdiamrerqlkkaekklqddalafee  163 (563)
+                      ..+++.+++.+...|+||-.|..||.+.-.+|+.
+T Consensus        34 Ma~lkeLq~El~~~E~QLt~A~qKLkdA~~~~~~   67 (107)
+T 2K48_A           34 MSTLQELQENITAHEQQLVTARQKLKDAEKAVEV   67 (107)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+Confidence            3589999999999999999999999998888776
+
+
+No 5
+>2IC9_A Sin Nombre Virus, Hantavirus, Bunyaviridae; 2.0A {Sin Nombre virus}
+Probab=64.98  E-value=1.3e+02  Score=27.48  Aligned_cols=33  Identities=30%  Similarity=0.494  Sum_probs=30.0  Template_Neff=4.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  131 NTIKKFEKDIAMRERQLKKAEKKLQDDALAFEE  163 (563)
+Q Consensus       131 ntikkfekdiamrerqlkkaekklqddalafee  163 (563)
+                      .+|+.+++.+...|+||-.|..||.+.-.+|+.
+T Consensus         5 ~~l~eLq~El~~~E~qL~~A~qKL~~A~~~~~~   37 (96)
+T 2IC9_A            5 STLKEVQDNITLHEQRLVTTRQKLKDAERAVEL   37 (96)
+T ss_dssp             CTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+Confidence            478999999999999999999999998887776
+
+
+No 6
+>2IC6_B Sin Nombre Virus, Hantavirus, Bunyaviridae; 1.15A {Sin Nombre virus}
+Probab=64.85  E-value=1.3e+02  Score=26.46  Aligned_cols=34  Identities=29%  Similarity=0.463  Sum_probs=30.9  Template_Neff=5.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  130 RNTIKKFEKDIAMRERQLKKAEKKLQDDALAFEE  163 (563)
+Q Consensus       130 rntikkfekdiamrerqlkkaekklqddalafee  163 (563)
+                      ..+++.+++.+...|+||-.|..||.+.-.+|+.
+T Consensus         4 M~~l~eLq~El~~~E~qL~~A~qKL~~A~~~~~~   37 (78)
+T 2IC6_B            4 MSTLKEVQDNITLHEQRLVTTRQKLKDAERAVEL   37 (78)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+Confidence            4689999999999999999999999998888776
+
+
+No 7
+>4FI5_A Nucleoprotein; Structural Genomics, NIAID, National Institute; 2.2A {Hantaan virus}
+Probab=63.68  E-value=1.1e+02  Score=28.76  Aligned_cols=34  Identities=26%  Similarity=0.452  Sum_probs=30.6  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  130 RNTIKKFEKDIAMRERQLKKAEKKLQDDALAFEE  163 (563)
+Q Consensus       130 rntikkfekdiamrerqlkkaekklqddalafee  163 (563)
+                      ..+|+.+++.+...|+||-.|..||.+.-.+|+.
+T Consensus        21 M~~l~eLq~El~~~E~qLt~A~qKLkdA~~~~~~   54 (113)
+T 4FI5_A           21 SMTMEELQREINAHEGQLVIARQKVRDAEKQYEK   54 (113)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            3578999999999999999999999998887776
+
+
+No 8
+>5IJO_Z Nuclear pore complex protein Nup155; Nuclear pore complex, Nucleocytoplasmic transport; 21.4A {Homo sapiens}
+Probab=60.23  E-value=5.1e+02  Score=30.37  Aligned_cols=148  Identities=20%  Similarity=0.307  Sum_probs=66.3  Template_Neff=2.600
+
+Q ss_pred             CCCcCCCCHHHHHHH-HHHHHHHhHHHH-------HhhhHHHhhH------HHHHHHHHHHHHHHhhHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  331 EPALYFKEPEELLQV-LRELEEQNLTLF-------QYSQDVDENL------EEVNKREKVIQDKTNSNIEFLLEQEKMLK  396 (563)
+Q Consensus       331 epalyfkepeellqv-lreleeqnltlf-------qysqdvdenl------eevnkrekviqdktnsnieflleqekmlk  396 (563)
+                      -+.+-+|.-|+++.. ..||+++--..-       .+..++.+|-      ++.-.+-+.-|.+-...++|+..|.+.+.
+T Consensus       325 Ps~iTgKTLEeIIN~Wn~ELee~e~kF~kQA~aia~WDr~IlnNr~kLlkLe~eVaKVk~tQt~LerqLDfIEtqQkEle  404 (522)
+T 5IJO_Z          325 SSAMTYAQLESLINKWSLELEDQERHFLQQATQVNAWDRTLIENGEKITSLHREVEKVKLDQKRLDQELDFILSQQKELE  404 (522)
+T ss_dssp             ---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            345567777776643 456665543322       2333333432      22222334456666677888888877776
+
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHhh--ccCCCChhHHHHH-------HHHHHHHHHHHH-HHHhCCCCCCCCCHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  397 ANCVREEEKAAELQLKSKLF--SFGEFNSDAQEIL-------IDSLSKKITQVY-KVCIGDAEDDGLNPIQKLVKVESRL  466 (563)
+Q Consensus       397 ancvreeekaaelqlksklf--sfgefnsdaqeil-------idslskkitqvy-kvcigdaeddglnpiqklvkvesrl  466 (563)
+                      .-...-|+.+.++   +-++  +.-..-.|+--.|       ++.+...|..+. +|----..+|...|++.++++   |
+T Consensus       405 kaLe~~E~eAE~m---~G~ll~d~A~~ERD~mYqLAEq~EvQLqQM~eQIeEIInhLNT~~g~qd~sDPL~qI~RI---L  478 (522)
+T 5IJO_Z          405 DLLSPLEELVKEQ---SGTIYLQHADEEREKTYKLAENIDAQLKRMAQDLKDIIEHLNTSGAPADTSDPLQQICKI---L  478 (522)
+T ss_dssp             HTTSSTHHHHHHH---HHHHHSSSCCCCSCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCCSCTTSSHHHHHHH---H
+T ss_pred             HHHHHHHHHHHHh---cCChhcCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCHHHHHHHH---H
+Confidence            5444444433333   3222  3333333332222       334444444322 111112345778899988876   4
+
+
+Q ss_pred             HHHHHHHHcCCHhhHHHHH
+Q sp|Q502W7|CCD3  467 VELCDLIESIPKENVEAIE  485 (563)
+Q Consensus       467 velcdliesipkenveaie  485 (563)
+                      +...+-+..|. ++++.+.
+T Consensus       479 NAqLsSLQwID-Env~eLk  496 (522)
+T 5IJO_Z          479 NAHMDSLQWID-QNSALLQ  496 (522)
+T ss_dssp             HHHHHHHHHHH-HHHHHHH
+T ss_pred             HHHHHHHHHHH-HHHHHHH
+Confidence            44444444442 4444443
+
+
+No 9
+>7PER_H Nuclear Pore Complex, NPC, TRANSPORT; 35.0A {Homo sapiens}
+Probab=60.23  E-value=5.1e+02  Score=30.37  Aligned_cols=23  Identities=30%  Similarity=0.567  Sum_probs=14.3  Template_Neff=2.600
+
+Q ss_pred             HHHHHHHhhHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  375 KVIQDKTNSNIEFLLEQEKMLKA  397 (563)
+Q Consensus       375 kviqdktnsnieflleqekmlka  397 (563)
+                      +.-|.+-...++|+..|.+.+..
+T Consensus       383 k~tQt~LerqLDfIEtqQkElek  405 (522)
+T 7PER_H          383 KLDQKRLDQELDFILSQQKELED  405 (522)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44455556667777777666544
+
+
+No 10
+>6I2N_D Nucleoprotein/RNA Complex; Nucleoprotein, Nucleocapsid, RNA-binding, VIRAL PROTEIN; 3.3A {Spodoptera frugiperda}
+Probab=40.60  E-value=3e+02  Score=31.31  Aligned_cols=34  Identities=26%  Similarity=0.429  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  131 NTIKKFEKDIAMRERQLKKAEKKLQDDALAFEEF  164 (563)
+Q Consensus       131 ntikkfekdiamrerqlkkaekklqddalafeef  164 (563)
+                      .+++.+++++...|+||-.|..||.|.-.+++.=
+T Consensus         3 ~~~~~l~~e~~~~e~ql~~a~~kl~~a~~~~~~~   36 (430)
+T 6I2N_D            3 ATMEELQREINAHEGQLVIARQKVRDAEKQYEKD   36 (430)
+T ss_dssp             ----------------------------------
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC
+Confidence            4788999999999999999999999888777763
+
+
+No 11
+>7N9F_x NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=39.31  E-value=1.3e+03  Score=28.99  Aligned_cols=38  Identities=24%  Similarity=0.187  Sum_probs=20.8  Template_Neff=7.300
+
+Q ss_pred             CcCCCCHHHHHHHHHH-HHHHhHHHHHhhhHHHhhHHHH
+Q sp|Q502W7|CCD3  333 ALYFKEPEELLQVLRE-LEEQNLTLFQYSQDVDENLEEV  370 (563)
+Q Consensus       333 alyfkepeellqvlre-leeqnltlfqysqdvdenleev  370 (563)
+                      ...+.+-..|.++|++ +.++-..+..-.+.....+.++
+T Consensus      1260 ~Wrl~e~~~l~~Il~~~~~~~~~~~~~~~~~~~~~i~el 1298 (1460)
+T 7N9F_x         1260 TWRIPEAEILLNIQNNIKCEQMQITNANIQDLKEKVTDY 1298 (1460)
+T ss_pred             cCCHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHH
+Confidence            3445566677777777 6665555544444443334333
+
+
+No 12
+>7N85_J nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=35.06  E-value=1.1e+03  Score=26.70  Aligned_cols=12  Identities=8%  Similarity=0.476  Sum_probs=5.1  Template_Neff=8.800
+
+Q ss_pred             HhhHHHHHHHHH
+Q sp|Q502W7|CCD3  381 TNSNIEFLLEQE  392 (563)
+Q Consensus       381 tnsnieflleqe  392 (563)
+                      .+..++++..|.
+T Consensus       693 l~~~L~~ie~qQ  704 (823)
+T 7N85_J          693 IDQSLQYIERQQ  704 (823)
+T ss_pred             HHHHHHHHHHHH
+Confidence            334444444443
+
+
+No 13
+>7N9F_z NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=35.06  E-value=1.1e+03  Score=26.70  Aligned_cols=12  Identities=8%  Similarity=0.476  Sum_probs=5.1  Template_Neff=8.800
+
+Q ss_pred             HhhHHHHHHHHH
+Q sp|Q502W7|CCD3  381 TNSNIEFLLEQE  392 (563)
+Q Consensus       381 tnsnieflleqe  392 (563)
+                      .+..++++..|.
+T Consensus       693 l~~~L~~ie~qQ  704 (823)
+T 7N9F_z          693 IDQSLQYIERQQ  704 (823)
+T ss_pred             HHHHHHHHHHHH
+Confidence            334444444443
+
+
+No 14
+>7N85_J nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=24.65  E-value=1.6e+03  Score=25.43  Aligned_cols=21  Identities=10%  Similarity=0.264  Sum_probs=8.5  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  136 FEKDIAMRERQLKKAEKKLQD  156 (563)
+Q Consensus       136 fekdiamrerqlkkaekklqd  156 (563)
+                      ++..|.....+|....+.+.+
+T Consensus       637 le~~v~~w~~~L~~~~~~f~~  657 (823)
+T 7N85_J          637 LDDLVTKWTNQLTESASHFEQ  657 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            333344444444444444333
+
+
+No 15
+>7N9F_z NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=24.65  E-value=1.6e+03  Score=25.43  Aligned_cols=21  Identities=10%  Similarity=0.264  Sum_probs=8.5  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  136 FEKDIAMRERQLKKAEKKLQD  156 (563)
+Q Consensus       136 fekdiamrerqlkkaekklqd  156 (563)
+                      ++..|.....+|....+.+.+
+T Consensus       637 le~~v~~w~~~L~~~~~~f~~  657 (823)
+T 7N9F_z          637 LDDLVTKWTNQLTESASHFEQ  657 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            333344444444444444333
+
+
+No 16
+>3J9E_D VP5; non-enveloped virus, cell entry, pH; 3.5A {Bluetongue virus 1}
+Probab=22.56  E-value=2e+03  Score=25.88  Aligned_cols=113  Identities=20%  Similarity=0.266  Sum_probs=71.9  Template_Neff=4.100
+
+Q ss_pred             HHHHHHHHHhhHHHHHHHHHHHHHHhhccCCCChhHHHHHHHHHHHHHHHHHHHHhCCCC--CCCCCHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  390 EQEKMLKANCVREEEKAAELQLKSKLFSFGEFNSDAQEILIDSLSKKITQVYKVCIGDAE--DDGLNPIQKLVKVESRLV  467 (563)
+Q Consensus       390 eqekmlkancvreeekaaelqlksklfsfgefnsdaqeilidslskkitqvykvcigdae--ddglnpiqklvkvesrlv  467 (563)
+                      ||+-.-+-++.+++++.-+...|-            .+.+++-+...+..|+++.-+.+.  +..-|-|.-|-+.-.-+.
+T Consensus        92 E~~l~~kl~eLe~e~k~d~~~~k~------------~~~i~~~~g~el~~v~~~~~~~~~~~~~ee~qi~~Le~A~~~~~  159 (526)
+T 3J9E_D           92 ERGIQAKLKELEDEQRNELVRLKY------------NDKIKEKFGKELEEVYNFMNGEANAEIEDEKQFDILNKAVTSYN  159 (526)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHT------------HHHHHHHTTHHHHHHHHHTTSCSSSSCCCCCHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH------------HHHHHHHHHHHHHHHHHHHhcchhhhHhhHHHHHHHHHHHHHHH
+Confidence            444445566677777766655442            234456777888899998877654  444455554433322222
+
+
+Q ss_pred             HHHHHHHcCCHhhHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHH
+Q sp|Q502W7|CCD3  468 ELCDLIESIPKENVEAIERMKQKEWRQKFRDE-KMKEKQRHQQERLKAALEK  518 (563)
+Q Consensus       468 elcdliesipkenveaiermkqkewrqkfrde-kmkekqrhqqerlkaalek  518 (563)
+                      +    |..--.+++..+.+--+||-+..-+|| +|-+--||.-+.|+.|++.
+T Consensus       160 ~----i~~~E~~~l~~L~~AL~kE~~~Rt~dE~~mV~~~r~n~~aL~~aie~  207 (526)
+T 3J9E_D          160 K----ILTEEDLQMRRLATALQKEIGERTHAETVMVKEYRDKIDALKNAIEV  207 (526)
+T ss_dssp             H----HHHHHHHHHHHHHHHHHHCTTSCCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             H----HHHHHHHHHHHHHHHHHHHHHHccHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            2    222345677778888888888777776 5788888888888888764
+
+
+No 17
+>6NJS_A Signal transducer and activator of; Stat3, Activator, TRANSCRIPTION, transcription-transcription inhibitor; HET: KQV; 2.7A {Homo sapiens}
+Probab=21.00  E-value=1.7e+03  Score=24.55  Aligned_cols=19  Identities=21%  Similarity=0.517  Sum_probs=15.3  Template_Neff=7.900
+
+Q ss_pred             HHHhCCCCCCCCCHHHHHH
+Q sp|Q502W7|CCD3  442 KVCIGDAEDDGLNPIQKLV  460 (563)
+Q Consensus       442 kvcigdaeddglnpiqklv  460 (563)
+                      ..|+|...+..|++||...
+T Consensus       123 ~a~~G~p~~~~Ld~lq~w~  141 (562)
+T 6NJS_A          123 IACIGGPPNICLDRLENWI  141 (562)
+T ss_dssp             HHHTTCCCCCCCHHHHHHH
+T ss_pred             HHhcCCCCCCcHHHHHHHH
+Confidence            5689988888899998753
+
+

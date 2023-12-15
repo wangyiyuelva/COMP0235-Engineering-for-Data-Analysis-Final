@@ -1,0 +1,192 @@
+Query         sp|Q96GX1|TECT2_HUMAN
+Match_columns 697
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:57:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1748.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3MUU_A Structural polyprotein   29.8 2.1E+02  0.0023   35.0   5.9  129   52-207   281-445 (750)
+  2 4MI0_A Histone-lysine N-methyl  16.3 1.5E+02  0.0016   26.3   1.1   25  170-194    14-38  (233)
+  3 4MI5_A Histone-lysine N-methyl  15.3 1.7E+02  0.0019   25.5   1.2   25  170-194    16-40  (229)
+  4 3K25_B Slr1438 protein; Struct  12.8 4.1E+02  0.0045   24.7   2.9   31   72-105    14-46  (289)
+  5 6YHL_B Cytotoxic necrotizing f  12.2 6.8E+02  0.0074   27.8   4.7   57  257-313   630-688 (704)
+  6 1YO4_A beta-sandwich, immunogl  10.9 3.6E+02  0.0039   25.9   2.0   47  188-236     8-54  (87)
+  7 7OB9_M RNA polymerase I, human  10.9 5.9E+02  0.0064   26.8   3.7   32  241-272    19-50  (419)
+  8 7VBB_M RNA Polymerase I, trans  10.9 5.9E+02  0.0064   26.8   3.7   33  240-272    18-50  (419)
+  9 1UTR_B UTEROGLOBIN, CLARA CELL  10.4 3.8E+02  0.0041   23.1   1.9   25  671-695     2-26  (96)
+ 10 3CI0_I Pseudopilin GspI, Pseud  10.0 9.1E+02  0.0099   18.6   3.5   15   87-101    61-75  (89)
+
+No 1
+>3MUU_A Structural polyprotein (E.C.3.4.21.-); Beta barrels, Ig-like folds, VIRAL; HET: BMA, NAG, MAN, MSE; 3.29A {Sindbis virus}
+Probab=29.76  E-value=2.1e+02  Score=35.02  Aligned_cols=129  Identities=25%  Similarity=0.400  Sum_probs=67.1  Template_Neff=3.800
+
+Q ss_pred             cEEEEEEeeCCCCCcCCCcccccCCCCCCeEEEE-----eCCCcEEEEEEEEcCCCCCCCCCCCCCCCCCCceEEEEEEe
+Q sp|Q96GX1|TECT   52 VTVSLAVLQDEAGILPIPTCGVLNNETEDWSVTV-----IPGAKVLEVTVRWKRGLDWCSSNETDSFSESPCILQTLLVS  126 (697)
+Q Consensus        52 vtvslavlqdeagilpiptcgvlnnetedwsvtv-----ipgakvlevtvrwkrgldwcssnetdsfsespcilqtllvs  126 (697)
+                      -.|+|..--+..-.|..-.-|---|-|+.|-..-     --+..=+  ..+|..       |+       |-     -+-
+T Consensus       281 ~~v~L~l~~~~PtLLTtR~LG~~p~~t~EWI~~~~~r~f~V~~eG~--Ey~WGN-------n~-------P~-----R~W  339 (750)
+T 3MUU_A          281 KHISLQLDTDHLTLLTTRRLGANPEPTTEWIVGKTVRNFTVDRDGL--EYIWGN-------HE-------PV-----RVY  339 (750)
+T ss_dssp             TEEEEEEEEEEEEEEEEEESSSCCCCCCEEEEEEECCCCBCCSSCE--EEEESS-------SC-------CC-----EEC
+T ss_pred             ceEEEEEeCCCceeeEeeecCCCCCCcceeeeceeEEEEEeCCCce--EEEecC-------CC-------Ce-----eEe
+Confidence            3455655555555566666666677888884321     1112222  345642       11       11     122
+
+
+Q ss_pred             cCCCCCCceEEEEEEEEEcCCCCCCCCccCeEEcCCCccCCC-------CCCCCCCCC---------------CCC----
+Q sp|Q96GX1|TECT  127 ASHNSSCSAHLLIQVEIYANSSLTHNASENVTVIPNQVYQPL-------GPCPCNLTA---------------GAC----  180 (697)
+Q Consensus       127 ashnsscsahlliqveiyansslthnasenvtvipnqvyqpl-------gpcpcnlta---------------gac----  180 (697)
+                      |.+.++..+|-+-|  .++    .-.|-|..+++||++.-|.       |--|-+|+-               -.|    
+T Consensus       340 aQ~sa~GdpHG~Pq--FW~----~~~AyEH~~tvPn~~g~pYkalV~R~GyaPl~L~i~V~~t~~~Pt~~leY~TC~y~t  413 (750)
+T 3MUU_A          340 AQESAGGGSWSHPQ--FEK----GGGGYEHATTVPNVPQIPYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTT  413 (750)
+T ss_dssp             CSCC---------------------CEEEEEEEEECCTTCCEEEEECCTTSBCEEEEEEEEEECCEEEEEEEEEECCEEE
+T ss_pred             EeccCCCCCCCCCc--ccc----cccceeccccCCCCCCCCcchhhccCCcCCceEEEEEEEEEEecccccceeeeecEe
+Confidence            34445556666666  444    3378899999999998774       444444422               134    
+
+
+Q ss_pred             -----cceeecCCccccccceeeecccccCCC
+Q sp|Q96GX1|TECT  181 -----DVRCCCDQECSSNLTTLFRRSCFTGVF  207 (697)
+Q Consensus       181 -----dvrcccdqecssnlttlfrrscftgvf  207 (697)
+                           -|.||...||.+.-.-=++-..||||+
+T Consensus       414 vVpsP~vkCCGt~eC~~~~~~Dy~C~vftgVY  445 (750)
+T 3MUU_A          414 VVPSPKIKCCGSLECQPAAHAGYTCKVFGGVY  445 (750)
+T ss_dssp             ECCCCEEETTSCCCCCCCCSTTCEEEEEESCC
+T ss_pred             ccCCCceeEceeeecCccccCCCccEeecCcc
+Confidence                 368999999999555556666788876
+
+
+No 2
+>4MI0_A Histone-lysine N-methyltransferase EZH2 (E.C.2.1.1.43); EZH2, Gene regulation, chromatin modification; 2.0A {Homo sapiens}
+Probab=16.30  E-value=1.5e+02  Score=26.28  Aligned_cols=25  Identities=32%  Similarity=1.055  Sum_probs=20.7  Template_Neff=10.700
+
+Q ss_pred             CCCCCCCCCCCcceeecCCcccccc
+Q sp|Q96GX1|TECT  170 PCPCNLTAGACDVRCCCDQECSSNL  194 (697)
+Q Consensus       170 pcpcnltagacdvrcccdqecssnl  194 (697)
+                      .|+|-...-.|+.+|-|...|...+
+T Consensus        14 ~c~c~~~~~~c~~~c~c~~~c~~~~   38 (233)
+T 4MI0_A           14 SCPCVIAQNFCEKFCQCSSECQNRF   38 (233)
+T ss_dssp             TSHHHHTTCCBCTTCCSCTTCTTBC
+T ss_pred             CCcccccCceecCCCCCCccccccC
+Confidence            4888888889999999998887663
+
+
+No 3
+>4MI5_A Histone-lysine N-methyltransferase EZH2 (E.C.2.1.1.43); TRANSFERASE; 2.0A {Homo sapiens}
+Probab=15.28  E-value=1.7e+02  Score=25.51  Aligned_cols=25  Identities=32%  Similarity=1.055  Sum_probs=20.2  Template_Neff=11.000
+
+Q ss_pred             CCCCCCCCCCCcceeecCCcccccc
+Q sp|Q96GX1|TECT  170 PCPCNLTAGACDVRCCCDQECSSNL  194 (697)
+Q Consensus       170 pcpcnltagacdvrcccdqecssnl  194 (697)
+                      .|+|-...-.|+.+|-|..+|...+
+T Consensus        16 ~c~c~~~~~~c~~~c~c~~~c~~~~   40 (229)
+T 4MI5_A           16 SCPCVIAQNFCEKFCQCSSECQNRF   40 (229)
+T ss_dssp             TSHHHHTTCCBCTTCCSCTTCTTBC
+T ss_pred             CCcccccCccccCCCCCCccccccC
+Confidence            3888777888999999998887653
+
+
+No 4
+>3K25_B Slr1438 protein; Structural Genomics, PSI-2, Protein Structure; HET: PO4, MSE; 2.551A {Synechocystis sp.}
+Probab=12.76  E-value=4.1e+02  Score=24.72  Aligned_cols=31  Identities=26%  Similarity=0.308  Sum_probs=22.6  Template_Neff=10.500
+
+Q ss_pred             cccCCCCCCeEEEEeC--CCcEEEEEEEEcCCCCCC
+Q sp|Q96GX1|TECT   72 GVLNNETEDWSVTVIP--GAKVLEVTVRWKRGLDWC  105 (697)
+Q Consensus        72 gvlnnetedwsvtvip--gakvlevtvrwkrgldwc  105 (697)
+                      -.|.|.+..++++|.|  |++++++++   +|.++.
+T Consensus        14 ~~l~n~~~~l~~~v~p~~G~~i~s~~~---~g~~~l   46 (289)
+T 3K25_B           14 YHLEDDQSLARLSLVPGRGGLVTEWTV---QGQPIL   46 (289)
+T ss_dssp             EEEEETTTTEEEEEETTSSSEEEEEEE---TTEECB
+T ss_pred             EEEEcCCCceEEEEeCCCccEEEEEEE---CCEEeE
+Confidence            3456666689999998  999999884   354444
+
+
+No 5
+>6YHL_B Cytotoxic necrotizing factor; toxin, CNF, cytotoxic necrotizing factor; 3.277A {Yersinia pseudotuberculosis}
+Probab=12.18  E-value=6.8e+02  Score=27.78  Aligned_cols=57  Identities=19%  Similarity=0.047  Sum_probs=44.5  Template_Neff=9.300
+
+Q ss_pred             CCCCCcEEEEEeCCccchhccCCCCCCceeeeeeEEEecCccecc-c-ccccCCCeeee
+Q sp|Q96GX1|TECT  257 PKQDSSFEVYVDTDAKDFADFGYKQGDPIMTVKKAYFTIPQVSLA-G-QCMQNAPVAFL  313 (697)
+Q Consensus       257 pkqdssfevyvdtdakdfadfgykqgdpimtvkkayftipqvsla-g-qcmqnapvafl  313 (697)
+                      ..|-..+-.-..||.+-...|..+..=.++.||+-|.|=-.+|.. | -|.++||+-.|
+T Consensus       630 ~~q~~~~l~eft~~~~~~~~~~~~~~~~~v~i~~~yl~~~~~~~~~gw~~~~~ap~~~~  688 (704)
+T 6YHL_B          630 GPQFNLSFSEYTSSINSADTASRKHFLVIIKVQVKYISNDNVLYANHWAIPDEAPVEVL  688 (704)
+T ss_dssp             SCCTTCCEEEEECCHHHHHHHHTTSEEEEEEEETTTCBCCCSSSTTEEEEETTSBCEEE
+T ss_pred             CCcccccceEEeCChHhHhhhhccceEEEEEEEeeeecCCcccccCceecCCCCCeEEE
+Confidence            345556666677888777777777777889999999999999986 6 58899999655
+
+
+No 6
+>1YO4_A beta-sandwich, immunoglobulin-like domain, VIRAL PROTEIN; NMR {SARS coronavirus}
+Probab=10.95  E-value=3.6e+02  Score=25.86  Aligned_cols=47  Identities=32%  Similarity=0.682  Sum_probs=34.7  Template_Neff=1.700
+
+Q ss_pred             CccccccceeeecccccCCCCCCCCCChhhcCCCCCCCCCCCCCcceee
+Q sp|Q96GX1|TECT  188 QECSSNLTTLFRRSCFTGVFGGDVNPPFDQLCSAGTTTRGVPDWFPFLC  236 (697)
+Q Consensus       188 qecssnlttlfrrscftgvfggdvnppfdqlcsagtttrgvpdwfpflc  236 (697)
+                      |||-..-|.|...-|-.|.+-|  |.||.-|-+.--...-+++-|.|.|
+T Consensus         8 qecvrgttvllkepc~sgtyeg--nspfhPlaDNKFA~tc~stqF~f~C   54 (87)
+T 1YO4_A            8 QECVRGTTVLLKEPCPSGTYEG--NSPFHPLADNKFALTCTSTHFAFAC   54 (87)
+T ss_dssp             EEEETTSEEEEECSSSSCEEES--SSCCCEETTTEEEEECCSEEEEEEC
+T ss_pred             eecccCcEEEEeccCCCCCccC--CCCCcccCCCceeeeEeeeeEEEEc
+Confidence            8999999999999999998876  5677655443322234677788888
+
+
+No 7
+>7OB9_M RNA polymerase I, human, rRNA;{Homo sapiens}
+Probab=10.93  E-value=5.9e+02  Score=26.78  Aligned_cols=32  Identities=19%  Similarity=0.348  Sum_probs=27.7  Template_Neff=8.700
+
+Q ss_pred             CCCCCcceeEeccccCCCCCCcEEEEEeCCcc
+Q sp|Q96GX1|TECT  241 LANTPFLGYFYHGAVSPKQDSSFEVYVDTDAK  272 (697)
+Q Consensus       241 lantpflgyfyhgavspkqdssfevyvdtdak  272 (697)
+                      -..-|.+.+|-||...|..+..|++|.+.+.+
+T Consensus        19 ~~~~P~l~~F~~G~~~~~~~~~f~~~~~~~~~   50 (419)
+T 7OB9_M           19 GSQRAVLVQFSNGKLQSPGNMRFTLYENKDST   50 (419)
+T ss_dssp             TTTSEEEEEETTCBCSSCCSCEEEEEEESCCS
+T ss_pred             CCcceEEEEeCCCccCCCCCceeEEEecCCCC
+Confidence            44679999999999999999999999988764
+
+
+No 8
+>7VBB_M RNA Polymerase I, transcription, post; 2.81A {Homo sapiens}
+Probab=10.93  E-value=5.9e+02  Score=26.78  Aligned_cols=33  Identities=18%  Similarity=0.331  Sum_probs=28.3  Template_Neff=8.700
+
+Q ss_pred             CCCCCCcceeEeccccCCCCCCcEEEEEeCCcc
+Q sp|Q96GX1|TECT  240 PLANTPFLGYFYHGAVSPKQDSSFEVYVDTDAK  272 (697)
+Q Consensus       240 plantpflgyfyhgavspkqdssfevyvdtdak  272 (697)
+                      .-..-|.+.+|-||...|..+..|++|.+.+.+
+T Consensus        18 ~~~~~P~l~~F~~G~~~~~~~~~f~~~~~~~~~   50 (419)
+T 7VBB_M           18 DGSQRAVLVQFSNGKLQSPGNMRFTLYENKDST   50 (419)
+T ss_dssp             SSCCCEEEEEETTCCCSCGGGCEEEEEEESCCS
+T ss_pred             CCCcceEEEEeCCCccCCCCCceeEEEecCCCC
+Confidence            344679999999999988899999999988764
+
+
+No 9
+>1UTR_B UTEROGLOBIN, CLARA CELL 17 KDA; HET: PCB; NMR {Rattus norvegicus} SCOP: a.101.1.1
+Probab=10.40  E-value=3.8e+02  Score=23.09  Aligned_cols=25  Identities=24%  Similarity=0.352  Sum_probs=2.4  Template_Neff=7.800
+
+Q ss_pred             hhHHHHHHHHHHHHhcCchhhhhhh
+Q sp|Q96GX1|TECT  671 KGLLLLLFLTLALFLSNPWTRICKA  695 (697)
+Q Consensus       671 kglllllfltlalflsnpwtricka  695 (697)
+                      |+.+.++++++++..+.....+|-+
+T Consensus         2 kl~~~llLv~lal~c~~~sa~~Cp~   26 (96)
+T 1UTR_B            2 KIAITITVLMLSICCSSASSDICPG   26 (96)
+T ss_dssp             ---------------------CCST
+T ss_pred             cHHHHHHHHHHHHHhhhCCCCcCHH
+Confidence            5566677788887777666666754
+
+
+No 10
+>3CI0_I Pseudopilin GspI, Pseudopilin GspJ, Pseudopilin; GENERAL SECRETORY PATHWAY, PSEUDOPILUS, TYPE; HET: MSE; 2.2A {Escherichia coli} SCOP: d.24.1.7
+Probab=9.96  E-value=9.1e+02  Score=18.58  Aligned_cols=15  Identities=7%  Similarity=0.167  Sum_probs=10.0  Template_Neff=10.200
+
+Q ss_pred             CCCcEEEEEEEEcCC
+Q sp|Q96GX1|TECT   87 PGAKVLEVTVRWKRG  101 (697)
+Q Consensus        87 pgakvlevtvrwkrg  101 (697)
+                      +|-..++|+|+|+.+
+T Consensus        61 ~~l~~v~v~V~~~~~   75 (89)
+T 3CI0_I           61 ALLQAVDIEVSLHED   75 (89)
+T ss_dssp             CC-EEEEEEEESSTT
+T ss_pred             CCeEEEEEEEEeCCC
+Confidence            445577888888755
+
+

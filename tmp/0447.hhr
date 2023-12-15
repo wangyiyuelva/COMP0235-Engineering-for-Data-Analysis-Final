@@ -1,0 +1,169 @@
+Query         tr|A0A494C1H1|A0A494C1H1_HUMAN
+Match_columns 55
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:35:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0447.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7ENN_K Chromodomain-helicase-D  93.3    0.23 2.5E-06   36.9   3.4   43    1-43      1-43  (897)
+  2 7EPU_B non-immunized human scF  93.0    0.24 2.6E-06   36.7   3.2   43    1-43      1-43  (880)
+  3 5O7H_B CRISPR-associated prote  23.0      48 0.00052   21.5  -0.3   33   13-47     36-68  (167)
+  4 5O6U_B CRISPR-associated prote  22.1      43 0.00047   22.0  -0.6   32   13-46     49-80  (182)
+  5 7RRO_E3 cilia, microtubule, dy  21.5      64 0.00069   24.6   0.1   18   29-46    177-194 (208)
+  6 2IXO_A SERINE/THREONINE-PROTEI  21.2      82 0.00089   23.5   0.6   10   38-47    201-210 (323)
+  7 2IXM_A SERINE/THREONINE-PROTEI  20.2      83  0.0009   23.2   0.4   10   38-47    190-199 (303)
+  8 2IXP_B SERINE/THREONINE-PROTEI  20.1      89 0.00096   23.5   0.5   10   38-47    201-210 (323)
+  9 2G62_A protein phosphatase 2A,  18.2      98  0.0011   23.3   0.4   10   38-47    211-220 (325)
+ 10 2IXN_A SERINE/THREONINE-PROTEI  15.3 1.3E+02  0.0014   22.4   0.5   10   38-47    190-199 (310)
+
+No 1
+>7ENN_K Chromodomain-helicase-DNA-binding protein 1-like, Histone H3.2; Complex, DNA BINDING PROTEIN; HET: ADP; 2.8A {Homo sapiens}
+Probab=93.26  E-value=0.23  Score=36.93  Aligned_cols=43  Identities=98%  Similarity=1.427  Sum_probs=13.9  Template_Neff=9.900
+
+Q ss_pred             CCCCCCCCCCCCCCChhhhhchcchHHHhhhhHHHHHHCCCCc
+Q tr|A0A494C1H1|    1 MERAGATSRGGQAPGFLLRLHTEGRAEAARVQEQDLRQWGLTD   43 (55)
+Q Consensus         1 meragatsrggqapgfllrlhtegraeaarvqeqdlrqwgltd   43 (55)
+                      |+++++++..++.+.|+.+++..+.++++...++|+..|++..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   43 (897)
+T 7ENN_K            1 MERAGATSRGGQAPGFLLRLHTEGRAEAARVQEQDLRQWGLTG   43 (897)
+T ss_dssp             ---------------------------CCCCCHHHHHHHTCCS
+T ss_pred             CcccccccccccccHHHHHHHHhhHHHHHhhhhhhHHhcCCCC
+Confidence            8899999999999999999999888888889999999998864
+
+
+No 2
+>7EPU_B non-immunized human scFv, Chromodomain-helicase-DNA-binding protein; macrodomain, autoinhibition, DNA damage, PARP1; HET: ADP; 3.5A {Homo sapiens}
+Probab=93.03  E-value=0.24  Score=36.67  Aligned_cols=43  Identities=98%  Similarity=1.427  Sum_probs=25.5  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCCCCCCCChhhhhchcchHHHhhhhHHHHHHCCCCc
+Q tr|A0A494C1H1|    1 MERAGATSRGGQAPGFLLRLHTEGRAEAARVQEQDLRQWGLTD   43 (55)
+Q Consensus         1 meragatsrggqapgfllrlhtegraeaarvqeqdlrqwgltd   43 (55)
+                      |+|.+++.++++.+.|+.+++..+..++++..++++..|++..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   43 (880)
+T 7EPU_B            1 MERAGATSRGGQAPGFLLRLHTEGRAEAARVQEQDLRQWGLTG   43 (880)
+T ss_dssp             ---------------CCCSSTTTTCCCCCCCCHHHHHHTTCCS
+T ss_pred             CccccccccccchhHHHHHHHHhhHHHHHhhhhHhHHHcCCCC
+Confidence            7899999999999999999999998888999999999998864
+
+
+No 3
+>5O7H_B CRISPR-associated protein, Csy4 family, Uncharacterized; RNA SURVEILLANCE, ADAPTIVE IMMUNITY, CRISPR; HET: MSE; 3.0A {Shewanella putrefaciens CN-32}
+Probab=22.99  E-value=48  Score=21.54  Aligned_cols=33  Identities=27%  Similarity=0.421  Sum_probs=9.6  Template_Neff=7.800
+
+Q ss_pred             CCChhhhhchcchHHHhhhhHHHHHHCCCCccchh
+Q tr|A0A494C1H1|   13 APGFLLRLHTEGRAEAARVQEQDLRQWGLTDYCSL   47 (55)
+Q Consensus        13 apgfllrlhtegraeaarvqeqdlrqwgltdycsl   47 (55)
+                      .+|-.+|++. .+.+......... -++|.||+.+
+T Consensus        36 ~lG~~iRlf~-~~~~L~~L~~~~~-~~~l~dy~~i   68 (167)
+T 5O7H_B           36 SLGQLFRIHG-DASLLHDLQGLDW-LGPLAGYCQV   68 (167)
+T ss_dssp             SCCSSCCCCC-C-----------------------
+T ss_pred             CCCCeeEEEE-CHHHHHHhhcCcc-hhhhcCcEEE
+Confidence            5888999999 7777777766655 6789998743
+
+
+No 4
+>5O6U_B CRISPR-associated protein, Csy4 family, Uncharacterized; RNA SURVEILLANCE, ADAPTIVE IMMUNITY, CRISPR; 3.25A {Shewanella putrefaciens CN-32}
+Probab=22.12  E-value=43  Score=21.95  Aligned_cols=32  Identities=28%  Similarity=0.416  Sum_probs=24.8  Template_Neff=7.900
+
+Q ss_pred             CCChhhhhchcchHHHhhhhHHHHHHCCCCccch
+Q tr|A0A494C1H1|   13 APGFLLRLHTEGRAEAARVQEQDLRQWGLTDYCS   46 (55)
+Q Consensus        13 apgfllrlhtegraeaarvqeqdlrqwgltdycs   46 (55)
+                      .+|-.+|++. .+.+......+.. ..+|.||+.
+T Consensus        49 ~lG~~iRlf~-~~~~L~~L~~~~~-~~~l~dy~~   80 (182)
+T 5O6U_B           49 SLGQLFRIHG-DASLLHDLQGLDW-LGPLAGYCQ   80 (182)
+T ss_dssp             SCCSEEEEEE-CHHHHHHHHHHTT-TCGGGTTEE
+T ss_pred             CCCCeEEEEE-CHHHHHHHhcCcc-hhhhcCcEE
+Confidence            5788999999 7777777776655 667888874
+
+
+No 5
+>7RRO_E3 cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=21.46  E-value=64  Score=24.60  Aligned_cols=18  Identities=50%  Similarity=1.108  Sum_probs=15.3  Template_Neff=3.300
+
+Q ss_pred             hhhhHHHHHHCCCCccch
+Q tr|A0A494C1H1|   29 ARVQEQDLRQWGLTDYCS   46 (55)
+Q Consensus        29 arvqeqdlrqwgltdycs   46 (55)
+                      -+...||.|+|+|..||-
+T Consensus       177 P~yttq~~r~w~l~~~~P  194 (208)
+T 7RRO_E3         177 PRYTAQNYRQWGLEPYCP  194 (208)
+T ss_pred             CCCCCCCccccCCCCCCC
+Confidence            356789999999999994
+
+
+No 6
+>2IXO_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A ACTIVATOR 1; ISOMERASE, PP2A PHOSPHATASE ACTIVATOR PROLYL; 2.6A {SACCHAROMYCES CEREVISIAE} SCOP: a.268.1.1
+Probab=21.20  E-value=82  Score=23.54  Aligned_cols=10  Identities=50%  Similarity=0.959  Sum_probs=5.8  Template_Neff=6.600
+
+Q ss_pred             HCCCCccchh
+Q tr|A0A494C1H1|   38 QWGLTDYCSL   47 (55)
+Q Consensus        38 qwgltdycsl   47 (55)
+                      -|||.||+-|
+T Consensus       201 vWgLDDy~fL  210 (323)
+T 2IXO_A          201 VWGLDDHFHL  210 (323)
+T ss_dssp             ---CSSSCSH
+T ss_pred             ccccCCcccH
+Confidence            4999999855
+
+
+No 7
+>2IXM_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A REGULATORY SUBUNIT; PROTEIN PHOSPHATASE 2A, 2 PTPA; 1.5A {HOMO SAPIENS} SCOP: a.268.1.1
+Probab=20.19  E-value=83  Score=23.24  Aligned_cols=10  Identities=50%  Similarity=1.062  Sum_probs=8.4  Template_Neff=6.700
+
+Q ss_pred             HCCCCccchh
+Q tr|A0A494C1H1|   38 QWGLTDYCSL   47 (55)
+Q Consensus        38 qwgltdycsl   47 (55)
+                      .|||.||.-|
+T Consensus       190 vWgLDDy~fL  199 (303)
+T 2IXM_A          190 VWGLDDFQFL  199 (303)
+T ss_dssp             GGCSSSSCCH
+T ss_pred             ccccCccccc
+Confidence            5999999855
+
+
+No 8
+>2IXP_B SERINE/THREONINE-PROTEIN PHOSPHATASE 2A ACTIVATOR 1; PP2A PHOSPHATASE ACTIVATOR PROLYL ISOMERASE; HET: SIN, SO4, NIT; 2.8A {SACCHAROMYCES CEREVISIAE} SCOP: a.268.1.1
+Probab=20.14  E-value=89  Score=23.52  Aligned_cols=10  Identities=50%  Similarity=0.959  Sum_probs=8.2  Template_Neff=6.400
+
+Q ss_pred             HCCCCccchh
+Q tr|A0A494C1H1|   38 QWGLTDYCSL   47 (55)
+Q Consensus        38 qwgltdycsl   47 (55)
+                      -|||.||+-|
+T Consensus       201 vWgLDDy~fL  210 (323)
+T 2IXP_B          201 VWGLDDHFHL  210 (323)
+T ss_dssp             GGSSCSSCSH
+T ss_pred             ccccCCcccH
+Confidence            4999999855
+
+
+No 9
+>2G62_A protein phosphatase 2A, regulatory subunit; PPP2R4, MGC2184, PP2A, PR53, PTPA; HET: SO4; 1.6A {Homo sapiens} SCOP: a.268.1.1
+Probab=18.17  E-value=98  Score=23.32  Aligned_cols=10  Identities=50%  Similarity=1.062  Sum_probs=5.7  Template_Neff=6.400
+
+Q ss_pred             HCCCCccchh
+Q tr|A0A494C1H1|   38 QWGLTDYCSL   47 (55)
+Q Consensus        38 qwgltdycsl   47 (55)
+                      .|||.||+-|
+T Consensus       211 vWgLDDy~fL  220 (325)
+T 2G62_A          211 VWGLDDFQFL  220 (325)
+T ss_dssp             ---CCSSCCH
+T ss_pred             ccccCccCcc
+Confidence            6999999854
+
+
+No 10
+>2IXN_A SERINE/THREONINE-PROTEIN PHOSPHATASE 2A ACTIVATOR 2; PP2A PHOSPHATASE ACTIVATOR PROLYL ISOMERASE; 2.8A {SACCHAROMYCES CEREVISIAE} SCOP: a.268.1.1
+Probab=15.27  E-value=1.3e+02  Score=22.43  Aligned_cols=10  Identities=60%  Similarity=1.189  Sum_probs=7.8  Template_Neff=6.500
+
+Q ss_pred             HCCCCccchh
+Q tr|A0A494C1H1|   38 QWGLTDYCSL   47 (55)
+Q Consensus        38 qwgltdycsl   47 (55)
+                      .|||.||.-|
+T Consensus       190 vWgLDDy~fL  199 (310)
+T 2IXN_A          190 VWGLDDYHFL  199 (310)
+T ss_dssp             SCSSSSSCSH
+T ss_pred             ccccCcccch
+Confidence            4999999754
+
+

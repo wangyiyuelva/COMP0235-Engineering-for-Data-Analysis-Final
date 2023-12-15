@@ -1,0 +1,265 @@
+Query         tr|H0YK92|H0YK92_HUMAN
+Match_columns 74
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 07:41:03 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1584.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1XWD_C Glycoprotein hormones a  34.6      19 0.00021   20.6  -0.5   18   41-58    202-219 (252)
+  2 1XWD_F Glycoprotein hormones a  34.6      19 0.00021   20.6  -0.5   17   42-58    203-219 (252)
+  3 4TZH_A Lic19A; LRR PROTEIN, PA  34.6     9.9 0.00011   20.4  -1.6   23   45-67    160-182 (190)
+  4 2Z81_A Toll-like receptor 2, V  34.3     4.9 5.3E-05   26.9  -3.3   31   41-71    473-503 (549)
+  5 4QXE_A Leucine-rich repeat-con  31.1     3.8 4.1E-05   27.3  -4.2   31   41-71    365-395 (443)
+  6 4R6F_A Leucine rich repeat DLR  29.2     9.8 0.00011   22.9  -2.4   28   43-70    295-322 (331)
+  7 7B2B_B Peptide synthetase PaxB  29.1      74  0.0008   19.2   1.3   17   48-64      1-17  (31)
+  8 5O0M_A Reticulon-4 receptor; n  29.1 1.5E+02  0.0017   17.8   2.6   14   40-53    249-262 (323)
+  9 5O0O_B Reticulon-4 receptor; n  29.1 1.5E+02  0.0017   17.8   2.6   31   40-70    249-281 (323)
+ 10 4QDH_A Variable lymphocyte rec  27.7      11 0.00012   24.6  -2.4   29   42-70    338-366 (438)
+ 11 4QDH_B Variable lymphocyte rec  27.7      11 0.00012   24.6  -2.4   30   41-70    337-366 (438)
+ 12 4WYK_A NXF1, NXT1; nuclear exp  24.5      18 0.00019   27.2  -2.3   29   42-70    172-202 (461)
+ 13 4WYK_C NXF1, NXT1; nuclear exp  24.5      18 0.00019   27.2  -2.3   29   42-70    172-202 (461)
+ 14 5WLS_B Pollen receptor-like ki  23.1      78 0.00084   17.1   0.6   13   46-58    191-203 (208)
+ 15 4MQW_Z Glycoprotein hormones,   22.3      59 0.00064   22.0   0.0   17   42-58    204-220 (361)
+ 16 4AY9_Y GLYCOPROTEIN HORMONES,   20.9      54 0.00058   21.5  -0.4   16   43-58    204-219 (350)
+
+No 1
+>1XWD_C Glycoprotein hormones alpha chain, Follitropin; Hormone-receptor complex, Leucine-rich repeats, Cysteine-knot; HET: BMA, SO4, NAG; 2.92A {Homo sapiens} SCOP: c.10.2.7
+Probab=34.65  E-value=19  Score=20.59  Aligned_cols=18  Identities=28%  Similarity=0.277  Sum_probs=9.8  Template_Neff=13.100
+
+Q ss_pred             HHHHHHHHhcCCCCCCCH
+Q tr|H0YK92|H0YK   41 QYLERLYMKRNSLTSLPE   58 (74)
+Q Consensus        41 qylerlymkrnsltslpe   58 (74)
+                      ..++.+.+..|.++.++.
+T Consensus       202 ~~l~~l~l~~~~~~~~~~  219 (252)
+T 1XWD_C          202 SGPVILDISRTRIHSLPS  219 (252)
+T ss_dssp             CCCSEEECTTSCCCCCCS
+T ss_pred             CCCCEEECCCCccccCCc
+Confidence            344455556666665554
+
+
+No 2
+>1XWD_F Glycoprotein hormones alpha chain, Follitropin; Hormone-receptor complex, Leucine-rich repeats, Cysteine-knot; HET: BMA, SO4, NAG; 2.92A {Homo sapiens}
+Probab=34.65  E-value=19  Score=20.59  Aligned_cols=17  Identities=29%  Similarity=0.290  Sum_probs=8.7  Template_Neff=13.100
+
+Q ss_pred             HHHHHHHhcCCCCCCCH
+Q tr|H0YK92|H0YK   42 YLERLYMKRNSLTSLPE   58 (74)
+Q Consensus        42 ylerlymkrnsltslpe   58 (74)
+                      .++.+.+..|.++.++.
+T Consensus       203 ~l~~l~l~~~~~~~~~~  219 (252)
+T 1XWD_F          203 GPVILDISRTRIHSLPS  219 (252)
+T ss_dssp             CCSEEECTTSSCCCCCS
+T ss_pred             CCCEEECCCCccccCCc
+Confidence            34445555555555543
+
+
+No 3
+>4TZH_A Lic19A; LRR PROTEIN, PATHOGEN, VIRULENCE FACTOR; HET: ACT; 1.39A {Leptospira interrogans}
+Probab=34.61  E-value=9.9  Score=20.36  Aligned_cols=23  Identities=26%  Similarity=0.160  Sum_probs=9.2  Template_Neff=13.400
+
+Q ss_pred             HHHHhcCCCCCCCHHHHHHChhH
+Q tr|H0YK92|H0YK   45 RLYMKRNSLTSLPENLAQKLPNL   67 (74)
+Q Consensus        45 rlymkrnsltslpenlaqklpnl   67 (74)
+                      .+.+..+.+........+++|+|
+T Consensus       160 ~l~l~~~~~~~~~~~~~~~~~~L  182 (190)
+T 4TZH_A          160 ILNLWDNPTLTTPERNIRKLFRN  182 (190)
+T ss_dssp             EEECCSCTTCCSCHHHHHHHTSS
+T ss_pred             EEECCCCCCCCCCHHHHHHHHHh
+Confidence            33334444333333334444443
+
+
+No 4
+>2Z81_A Toll-like receptor 2, Variable lymphocyte; TLR2, Pam3CSK4, lipopeptide, innate immunity; HET: BMA, NAG, MAN, PCJ; 1.8A {Mus musculus}
+Probab=34.32  E-value=4.9  Score=26.90  Aligned_cols=31  Identities=29%  Similarity=0.629  Sum_probs=20.7  Template_Neff=12.400
+
+Q ss_pred             HHHHHHHHhcCCCCCCCHHHHHHChhHHHHh
+Q tr|H0YK92|H0YK   41 QYLERLYMKRNSLTSLPENLAQKLPNLVELW   71 (74)
+Q Consensus        41 qylerlymkrnsltslpenlaqklpnlvelw   71 (74)
+                      ..|+.+.+..|.+++++....+.+++|.+++
+T Consensus       473 ~~L~~L~l~~~~l~~~~~~~~~~~~~L~~l~  503 (549)
+T 2Z81_A          473 PVLLVMKISRNQLKSVPDGIFDRLTSLQKIW  503 (549)
+T ss_dssp             TTCCEEECCSSCCCCCCTTGGGGCTTCCEEE
+T ss_pred             CCCCEEECCCCCCCCCCcchHhcCCCCCEEE
+Confidence            3455566667777777777667777776554
+
+
+No 5
+>4QXE_A Leucine-rich repeat-containing G-protein coupled receptor; LRR repeats, Receptor, R-spondins, Glycosylation; HET: NAG; 2.2A {Homo sapiens}
+Probab=31.11  E-value=3.8  Score=27.30  Aligned_cols=31  Identities=29%  Similarity=0.583  Sum_probs=21.7  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHhcCCCCCCCHHHHHHChhHHHHh
+Q tr|H0YK92|H0YK   41 QYLERLYMKRNSLTSLPENLAQKLPNLVELW   71 (74)
+Q Consensus        41 qylerlymkrnsltslpenlaqklpnlvelw   71 (74)
+                      .-|+.++...|+++.+|....+.++.|.++|
+T Consensus       365 ~~L~~l~l~~~~l~~~~~~~~~~l~~L~~l~  395 (443)
+T 4QXE_A          365 ISLRILDLASNQLKSVPDGIFDRLTSLQKIW  395 (443)
+T ss_dssp             TTCCEEECCSSCCSCCCTTTTTTCTTCCEEE
+T ss_pred             CcceEEECCCCCcccCCCcccccCCCCcEEE
+Confidence            4456667777788888877767777776654
+
+
+No 6
+>4R6F_A Leucine rich repeat DLRR_I; Leucine rich motifs, DE NOVO; 1.73A {synthetic construct}
+Probab=29.17  E-value=9.8  Score=22.91  Aligned_cols=28  Identities=43%  Similarity=0.642  Sum_probs=18.0  Template_Neff=13.000
+
+Q ss_pred             HHHHHHhcCCCCCCCHHHHHHChhHHHH
+Q tr|H0YK92|H0YK   43 LERLYMKRNSLTSLPENLAQKLPNLVEL   70 (74)
+Q Consensus        43 lerlymkrnsltslpenlaqklpnlvel   70 (74)
+                      |+.+++..+.+++++....+.+++|.++
+T Consensus       295 L~~L~l~~~~~~~~~~~~~~~~~~L~~l  322 (331)
+T 4R6F_A          295 LTTLNLSNNQLTSLPQGVFERLTNLKTL  322 (331)
+T ss_dssp             CCEEECCSSCCCCCCTTTTTTCTTCCEE
+T ss_pred             CCEEECCCCCCCcCCHHHHhhcccCcEE
+Confidence            4555666667777776666666666554
+
+
+No 7
+>7B2B_B Peptide synthetase PaxB,Peptide synthetase PaxA; PROTEIN, PROTEIN BINDING; NMR {Xenorhabdus cabanillasii}
+Probab=29.10  E-value=74  Score=19.21  Aligned_cols=17  Identities=47%  Similarity=0.616  Sum_probs=11.6  Template_Neff=1.000
+
+Q ss_pred             HhcCCCCCCCHHHHHHC
+Q tr|H0YK92|H0YK   48 MKRNSLTSLPENLAQKL   64 (74)
+Q Consensus        48 mkrnsltslpenlaqkl   64 (74)
+                      |..|.|||||-.-...+
+T Consensus         1 mnnneltslplaerkrl   17 (31)
+T 7B2B_B            1 MNNNELTSLPLAERKRL   17 (31)
+T ss_pred             CChhhcccCCHHHHHHH
+Confidence            56788999985544433
+
+
+No 8
+>5O0M_A Reticulon-4 receptor; nervous system, signaling, leucine-rich repeat; HET: NAG; 1.9A {Mus musculus}
+Probab=29.08  E-value=1.5e+02  Score=17.77  Aligned_cols=14  Identities=7%  Similarity=0.266  Sum_probs=6.4  Template_Neff=13.100
+
+Q ss_pred             HHHHHHHHHhcCCC
+Q tr|H0YK92|H0YK   40 LQYLERLYMKRNSL   53 (74)
+Q Consensus        40 lqylerlymkrnsl   53 (74)
+                      ...|+.+.+..+..
+T Consensus       249 ~~~L~~l~l~~~~~  262 (323)
+T 5O0M_A          249 WAWLQKFRGSSSEV  262 (323)
+T ss_dssp             HHHHHHCCSEECCC
+T ss_pred             HHHHHHHcCCCCCC
+Confidence            33445555544443
+
+
+No 9
+>5O0O_B Reticulon-4 receptor; nervous system, signaling, leucine-rich repeat; HET: CL, GOL, NAG; 2.2A {Mus musculus}
+Probab=29.08  E-value=1.5e+02  Score=17.77  Aligned_cols=31  Identities=23%  Similarity=0.429  Sum_probs=14.4  Template_Neff=13.100
+
+Q ss_pred             HHHHHHHHHhcCCCC-CCCHHHH-HHChhHHHH
+Q tr|H0YK92|H0YK   40 LQYLERLYMKRNSLT-SLPENLA-QKLPNLVEL   70 (74)
+Q Consensus        40 lqylerlymkrnslt-slpenla-qklpnlvel   70 (74)
+                      ...|+.+.+..+... .+|+.+. ..+|+|.+|
+T Consensus       249 ~~~L~~l~l~~~~~~~~~~~~~~~~~~~~L~~l  281 (323)
+T 5O0O_B          249 WAWLQKFRGSSSEVPCNLPQRLADRDLKRLAAS  281 (323)
+T ss_dssp             HHHHHHCCSEECCCBEEESGGGTTCBGGGCCGG
+T ss_pred             HHHHHHHcCCCCCCCCCcchhhhhhchHHHhhh
+Confidence            444555555555444 3443332 344554443
+
+
+No 10
+>4QDH_A Variable lymphocyte receptor B, Toll-like; glycosylation, IMMUNE SYSTEM; HET: SO4, NAG; 2.399A {Eptatretus burgeri}
+Probab=27.67  E-value=11  Score=24.60  Aligned_cols=29  Identities=28%  Similarity=0.547  Sum_probs=18.7  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHhcCCCCCCCHHHHHHChhHHHH
+Q tr|H0YK92|H0YK   42 YLERLYMKRNSLTSLPENLAQKLPNLVEL   70 (74)
+Q Consensus        42 ylerlymkrnsltslpenlaqklpnlvel   70 (74)
+                      -|+.++...|.+++++....+.+|+|.+|
+T Consensus       338 ~L~~L~l~~~~l~~~~~~~~~~~~~L~~L  366 (438)
+T 4QDH_A          338 NLKELALDTNQLKSVPDGIFDRLTSLQKI  366 (438)
+T ss_dssp             GCSEEECCSSCCCCCCTTTTTTCTTCCEE
+T ss_pred             CccEEeCCCCCCCCCCchhhccCCCCCEE
+Confidence            45566666777777777665566666543
+
+
+No 11
+>4QDH_B Variable lymphocyte receptor B, Toll-like; glycosylation, IMMUNE SYSTEM; HET: SO4, NAG; 2.399A {Eptatretus burgeri}
+Probab=27.67  E-value=11  Score=24.60  Aligned_cols=30  Identities=27%  Similarity=0.517  Sum_probs=16.6  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHhcCCCCCCCHHHHHHChhHHHH
+Q tr|H0YK92|H0YK   41 QYLERLYMKRNSLTSLPENLAQKLPNLVEL   70 (74)
+Q Consensus        41 qylerlymkrnsltslpenlaqklpnlvel   70 (74)
+                      .-|+.++...|.+++++....+.+|+|.+|
+T Consensus       337 ~~L~~L~l~~~~l~~~~~~~~~~~~~L~~L  366 (438)
+T 4QDH_B          337 MNLKELALDTNQLKSVPDGIFDRLTSLQKI  366 (438)
+T ss_dssp             --CCEEECCSSCCCCCCTTTTC--CCCCEE
+T ss_pred             cCccEEeCCCCCCCCCCchhhccCCCCCEE
+Confidence            345666667777777776655556655443
+
+
+No 12
+>4WYK_A NXF1, NXT1; nuclear export, transport protein; 3.4A {Homo sapiens}
+Probab=24.52  E-value=18  Score=27.17  Aligned_cols=29  Identities=38%  Similarity=0.450  Sum_probs=20.4  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHhcCCCCCCCH--HHHHHChhHHHH
+Q tr|H0YK92|H0YK   42 YLERLYMKRNSLTSLPE--NLAQKLPNLVEL   70 (74)
+Q Consensus        42 ylerlymkrnsltslpe--nlaqklpnlvel   70 (74)
+                      -|+.+.+..|.+++++.  .+.+.+|+|..|
+T Consensus       172 ~L~~L~Ls~N~i~~l~~~~~l~~~~~~L~~L  202 (461)
+T 4WYK_A          172 ELLSLNLSNNRLYRLDDMSSIVQKAPNLKIL  202 (461)
+T ss_dssp             CCCEEECTTSCCCCSGGGTTHHHHCTTCCEE
+T ss_pred             cccEEeCCCCCCCChhHHHHHHHHCCCCCee
+Confidence            34556778899999987  566677766543
+
+
+No 13
+>4WYK_C NXF1, NXT1; nuclear export, transport protein; 3.4A {Homo sapiens}
+Probab=24.52  E-value=18  Score=27.17  Aligned_cols=29  Identities=38%  Similarity=0.450  Sum_probs=20.4  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHhcCCCCCCCH--HHHHHChhHHHH
+Q tr|H0YK92|H0YK   42 YLERLYMKRNSLTSLPE--NLAQKLPNLVEL   70 (74)
+Q Consensus        42 ylerlymkrnsltslpe--nlaqklpnlvel   70 (74)
+                      -|+.+.+..|.+++++.  .+.+.+|+|..|
+T Consensus       172 ~L~~L~Ls~N~i~~l~~~~~l~~~~~~L~~L  202 (461)
+T 4WYK_C          172 ELLSLNLSNNRLYRLDDMSSIVQKAPNLKIL  202 (461)
+T ss_dssp             CCCEEECTTSCCSCSGGGTTHHHHCTTCCEE
+T ss_pred             cccEEeCCCCCCCChhHHHHHHHHCCCCCee
+Confidence            34556778899999987  566677766543
+
+
+No 14
+>5WLS_B Pollen receptor-like kinase 3 (E.C.2.7.11.1); Pollen Receptor Kinase, Leucine Rich; HET: NAG; 2.496A {Arabidopsis thaliana}
+Probab=23.10  E-value=78  Score=17.06  Aligned_cols=13  Identities=15%  Similarity=0.189  Sum_probs=6.1  Template_Neff=13.600
+
+Q ss_pred             HHHhcCCCCCCCH
+Q tr|H0YK92|H0YK   46 LYMKRNSLTSLPE   58 (74)
+Q Consensus        46 lymkrnsltslpe   58 (74)
+                      +++..|.++++|.
+T Consensus       191 l~l~~~~l~~~~~  203 (208)
+T 5WLS_B          191 KFEGNQRLCGSPL  203 (208)
+T ss_dssp             ECTTCTTCEETTT
+T ss_pred             HhhcccccccCCc
+Confidence            3444455555543
+
+
+No 15
+>4MQW_Z Glycoprotein hormones, alpha polypeptide, Follitropin; cystine-knot, leucine-rich repeats, Glycoprotein hormone; HET: TYS, NAG, EDO; 2.9A {Homo sapiens}
+Probab=22.28  E-value=59  Score=21.98  Aligned_cols=17  Identities=29%  Similarity=0.290  Sum_probs=10.6  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHhcCCCCCCCH
+Q tr|H0YK92|H0YK   42 YLERLYMKRNSLTSLPE   58 (74)
+Q Consensus        42 ylerlymkrnsltslpe   58 (74)
+                      .|+.+.+..|+++++|.
+T Consensus       204 ~L~~L~ls~~~l~~l~~  220 (361)
+T 4MQW_Z          204 GPVILDISRTRIHSLPS  220 (361)
+T ss_dssp             CCSEEECCSSCCCCCCS
+T ss_pred             CCCEEECCCCCcccCCc
+Confidence            34455666677777665
+
+
+No 16
+>4AY9_Y GLYCOPROTEIN HORMONES, ALPHA POLYPEPTIDE, FOLLITROPIN; HORMONE-RECEPTOR COMPLEX, LEUCINE-RICH REPEATS, LRR; HET: TYS, NAG; 2.5A {HOMO SAPIENS}
+Probab=20.93  E-value=54  Score=21.46  Aligned_cols=16  Identities=31%  Similarity=0.391  Sum_probs=8.7  Template_Neff=11.600
+
+Q ss_pred             HHHHHHhcCCCCCCCH
+Q tr|H0YK92|H0YK   43 LERLYMKRNSLTSLPE   58 (74)
+Q Consensus        43 lerlymkrnsltslpe   58 (74)
+                      |+.+.+..|.++++|.
+T Consensus       204 L~~L~ls~~~l~~l~~  219 (350)
+T 4AY9_Y          204 PVILDISRTRIHSLPS  219 (350)
+T ss_dssp             CSEEECTTSCCCCCCS
+T ss_pred             CCEEECCCCCcccCCc
+Confidence            3344455566666655
+
+

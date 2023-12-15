@@ -1,0 +1,170 @@
+Query         tr|E9PIT6|E9PIT6_HUMAN
+Match_columns 46
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 05:43:40 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0358.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5GM9_A Glycoside hydrolase fam  29.1      58 0.00063   22.7   0.9   13   23-35    125-137 (213)
+  2 2ENG_A ENDOGLUCANASE V; CELLUL  26.6      73 0.00079   22.2   1.1   14   22-35    123-136 (210)
+  3 5H4U_A Endo-beta-1,4-glucanase  26.5      70 0.00076   22.6   1.0   16   22-37    140-155 (231)
+  4 3ENG_A ENDOGLUCANASE V CELLOBI  24.8      82 0.00089   22.0   1.1   14   22-35    123-136 (213)
+  5 6MVJ_A Endoglucanase V; Endogl  22.4      95   0.001   21.7   1.0   15   22-36    145-159 (293)
+  6 3VIQ_A Swi5-dependent recombin  19.5      62 0.00068   19.7  -0.3   26    6-31     48-76  (122)
+  7 2KEG_A PlnK; Protein, ANTIMICR  15.5      67 0.00073   18.1  -0.7   10   37-46     21-30  (32)
+  8 2J5O_A DNA TRANSLOCASE FTSK; F  14.1 1.1E+02  0.0012   14.7  -0.1   27   18-44     43-69  (72)
+  9 2J5P_A DNA TRANSLOCASE FTSK; F  13.5 1.2E+02  0.0013   15.4  -0.0   27   18-44     48-74  (76)
+ 10 4DGK_A Phytoene dehydrogenase   11.1 5.1E+02  0.0055   16.6   2.1   22    5-26     13-34  (501)
+
+No 1
+>5GM9_A Glycoside hydrolase family 45 protein; substrate binding, cellulase, inhibitor, HYDROLASE; HET: BGC, GLC; 1.36A {Thielavia terrestris NRRL 8126}
+Probab=29.08  E-value=58  Score=22.69  Aligned_cols=13  Identities=54%  Similarity=1.168  Sum_probs=10.2  Template_Neff=5.900
+
+Q ss_pred             cCCCCCCCcccCC
+Q tr|E9PIT6|E9PI   23 EAGGGVGPFQACG   35 (46)
+Q Consensus        23 eagggvgpfqacg   35 (46)
+                      -.|||+|.|++|.
+T Consensus       125 iPGGG~G~fngC~  137 (213)
+T 5GM9_A          125 MPGGGVGIFNGCS  137 (213)
+T ss_dssp             CTTSCCTTCCHHH
+T ss_pred             cCCCCCccccCcc
+Confidence            4578999998775
+
+
+No 2
+>2ENG_A ENDOGLUCANASE V; CELLULOSE DEGRADATION, HYDROLASE (ENDOGLUCANASE), GLYCOSIDASE; 1.5A {Humicola insolens} SCOP: b.52.1.1
+Probab=26.60  E-value=73  Score=22.18  Aligned_cols=14  Identities=50%  Similarity=0.985  Sum_probs=10.7  Template_Neff=5.900
+
+Q ss_pred             ecCCCCCCCcccCC
+Q tr|E9PIT6|E9PI   22 VEAGGGVGPFQACG   35 (46)
+Q Consensus        22 veagggvgpfqacg   35 (46)
+                      .-.|||+|.|++|.
+T Consensus       123 ~iPGgG~G~fngC~  136 (210)
+T 2ENG_A          123 NIPGGGVGIFDGCT  136 (210)
+T ss_dssp             ECTTSCCTTCCCHH
+T ss_pred             eeCCCCCCcccCCc
+Confidence            34688999998775
+
+
+No 3
+>5H4U_A Endo-beta-1,4-glucanase; cold-active, Cellulase, Antarctic springtail, Cryptopygus; 2.6A {Cryptopygus antarcticus}
+Probab=26.54  E-value=70  Score=22.65  Aligned_cols=16  Identities=44%  Similarity=0.972  Sum_probs=11.6  Template_Neff=5.800
+
+Q ss_pred             ecCCCCCCCcccCCce
+Q tr|E9PIT6|E9PI   22 VEAGGGVGPFQACGCR   37 (46)
+Q Consensus        22 veagggvgpfqacgcr   37 (46)
+                      .-.|||+|.|++|.-.
+T Consensus       140 ~iPGGG~G~f~gC~~q  155 (231)
+T 5H4U_A          140 MIPGGGVGIFNGCQSQ  155 (231)
+T ss_dssp             ECTTSCCTTCCCHHHH
+T ss_pred             eeCCCCCccccCcccc
+Confidence            3468899999877543
+
+
+No 4
+>3ENG_A ENDOGLUCANASE V CELLOBIOSE COMPLEX; HYDROLASE, ENDOGLUCANASE, GLYCOSYL HYDROLASE; HET: BGC; 1.9A {Humicola insolens} SCOP: b.52.1.1
+Probab=24.84  E-value=82  Score=21.99  Aligned_cols=14  Identities=50%  Similarity=0.985  Sum_probs=10.6  Template_Neff=5.900
+
+Q ss_pred             ecCCCCCCCcccCC
+Q tr|E9PIT6|E9PI   22 VEAGGGVGPFQACG   35 (46)
+Q Consensus        22 veagggvgpfqacg   35 (46)
+                      .-.|||+|.|++|.
+T Consensus       123 ~iPGgG~G~f~gC~  136 (213)
+T 3ENG_A          123 NIPGGGVGIFDGCT  136 (213)
+T ss_dssp             ECTTSCCTTCCCHH
+T ss_pred             eeCCCCCCcccCCc
+Confidence            34588999998774
+
+
+No 5
+>6MVJ_A Endoglucanase V; Endoglucanase V Glycoside hydrolase 45; HET: BGC; 1.809A {Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)}
+Probab=22.35  E-value=95  Score=21.71  Aligned_cols=15  Identities=47%  Similarity=0.893  Sum_probs=10.7  Template_Neff=7.300
+
+Q ss_pred             ecCCCCCCCcccCCc
+Q tr|E9PIT6|E9PI   22 VEAGGGVGPFQACGC   36 (46)
+Q Consensus        22 veagggvgpfqacgc   36 (46)
+                      .--|||+|.|++|.-
+T Consensus       145 ~~pggg~g~~~~C~~  159 (293)
+T 6MVJ_A          145 NMPGGGVGLFDGCKR  159 (293)
+T ss_dssp             ECTTSCCTTCCHHHH
+T ss_pred             ccCCCCCcccccccc
+Confidence            345789999977643
+
+
+No 6
+>3VIQ_A Swi5-dependent recombination DNA repair protein; recombination activator; HET: GOL; 2.2A {Schizosaccharomyces pombe}
+Probab=19.51  E-value=62  Score=19.66  Aligned_cols=26  Identities=38%  Similarity=0.640  Sum_probs=19.9  Template_Neff=7.400
+
+Q ss_pred             hhhh---hHHhhhheeeeeecCCCCCCCc
+Q tr|E9PIT6|E9PI    6 WRAA---AALRLWGRVVERVEAGGGVGPF   31 (46)
+Q Consensus         6 wraa---aalrlwgrvverveagggvgpf   31 (46)
+                      ||.+   |+-.|+..+-+++...||+.+|
+T Consensus        48 Wr~a~Q~A~~~L~~~~~~~~~~~Gg~~~~   76 (122)
+T 3VIQ_A           48 WKNAAQQAAEVLFKPMAERIRLAGGVTQS   76 (122)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTTCEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCcccc
+Confidence            5543   4667888888999888888776
+
+
+No 7
+>2KEG_A PlnK; Protein, ANTIMICROBIAL PROTEIN; NMR {N/A}
+Probab=15.50  E-value=67  Score=18.13  Aligned_cols=10  Identities=70%  Similarity=1.202  Sum_probs=6.6  Template_Neff=1.000
+
+Q ss_pred             eeeeCCCCCC
+Q tr|E9PIT6|E9PI   37 RLVLGGRDDY   46 (46)
+Q Consensus        37 rlvlggrddy   46 (46)
+                      |-||||..||
+T Consensus        21 ravlggsrdy   30 (32)
+T 2KEG_A           21 RAVLGGSRDY   30 (32)
+T ss_dssp             HHHTSSSCSC
+T ss_pred             HHHhcCcccc
+Confidence            4567777665
+
+
+No 8
+>2J5O_A DNA TRANSLOCASE FTSK; FTSK, KOPS, XERCD, RECOMBINATION, DNA; NMR {PSEUDOMONAS AERUGINOSA} SCOP: a.4.5.67
+Probab=14.14  E-value=1.1e+02  Score=14.69  Aligned_cols=27  Identities=30%  Similarity=0.487  Sum_probs=16.7  Template_Neff=10.400
+
+Q ss_pred             eeeeecCCCCCCCcccCCceeeeCCCC
+Q tr|E9PIT6|E9PI   18 VVERVEAGGGVGPFQACGCRLVLGGRD   44 (46)
+Q Consensus        18 vverveagggvgpfqacgcrlvlggrd   44 (46)
+                      ++++.+.-|-+++....+.|-++.+.+
+T Consensus        43 ~~~~l~~~g~i~~~~~~~~~~~~~~~~   69 (72)
+T 2J5O_A           43 MIEAMEMAGVVTPMNTNGSREVIAPAP   69 (72)
+T ss_dssp             HHHHHHHHTSEECCCTTSCCEECSCCC
+T ss_pred             HHHHHHHcCCccCCCCCCCceeeCCCC
+Confidence            345556666666666667777766554
+
+
+No 9
+>2J5P_A DNA TRANSLOCASE FTSK; FTSK, KOPS, XERCD, RECOMBINATION, DNA; NMR {ESCHERICHIA COLI} SCOP: a.4.5.67
+Probab=13.52  E-value=1.2e+02  Score=15.40  Aligned_cols=27  Identities=33%  Similarity=0.353  Sum_probs=18.8  Template_Neff=9.500
+
+Q ss_pred             eeeeecCCCCCCCcccCCceeeeCCCC
+Q tr|E9PIT6|E9PI   18 VVERVEAGGGVGPFQACGCRLVLGGRD   44 (46)
+Q Consensus        18 vverveagggvgpfqacgcrlvlggrd   44 (46)
+                      .+++.+.-|-+++....+.|-++.+++
+T Consensus        48 l~~~l~~~g~i~~~~~~~~r~~~~~~~   74 (76)
+T 2J5P_A           48 IIEQMEAQGIVSEQGHNGNREVLAPPP   74 (76)
+T ss_dssp             HHHHHHHHTSBCCCCSSSEEEBCSCCS
+T ss_pred             HHHHHHHCCCccCCCCCCceeecCCCC
+Confidence            345666677778877777877776653
+
+
+No 10
+>4DGK_A Phytoene dehydrogenase (E.C.1.14.99.-); the FAD/NAD(P)-binding Rossmann fold, oxidoreductase; HET: EDO; 2.35A {Pantoea ananatis}
+Probab=11.09  E-value=5.1e+02  Score=16.60  Aligned_cols=22  Identities=27%  Similarity=0.167  Sum_probs=15.1  Template_Neff=11.700
+
+Q ss_pred             chhhhhHHhhhheeeeeecCCC
+Q tr|E9PIT6|E9PI    5 GWRAAAALRLWGRVVERVEAGG   26 (46)
+Q Consensus         5 gwraaaalrlwgrvverveagg   26 (46)
+                      |..+|..|..-|.-|.-+|+..
+T Consensus        13 GL~aA~~La~~G~~V~vlE~~~   34 (501)
+T 4DGK_A           13 GLALAIRLQAAGIPVLLLEQRD   34 (501)
+T ss_dssp             HHHHHHHHHHTTCCEEEECCC-
+T ss_pred             HHHHHHHHHHCCCCEEEECCCC
+Confidence            5567777777787777777733
+
+

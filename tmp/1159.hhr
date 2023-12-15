@@ -1,0 +1,166 @@
+Query         tr|D6RB05|D6RB05_HUMAN
+Match_columns 100
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:29:19 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1159.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4Y93_A The PH-TH-kinase constr  97.7 3.7E-05 4.1E-10   53.7   1.8   67    6-72      6-75  (446)
+  2 6S9W_A RAC-alpha serine/threon  51.1     3.5 3.9E-05   28.6  -2.1   48    6-59      7-60  (446)
+  3 7NH5_A Akt1, Akt2, Akt3, coval  51.1     3.5 3.9E-05   28.6  -2.1   48    6-59      7-60  (446)
+  4 4CKV_X VASCULAR ENDOTHELIAL GR  21.9 1.2E+02  0.0013   18.6   1.3   19   62-80     15-33  (94)
+  5 2LUL_A Tyrosine-protein kinase  19.1      12 0.00013   21.2  -3.3   55    8-63     18-73  (164)
+  6 3LJU_X Arf-GAP with dual PH do  18.3      27  0.0003   23.9  -2.2   49    7-61    148-198 (386)
+  7 1FLT_X VASCULAR ENDOTHELIAL GR  17.6 1.6E+02  0.0017   18.2   1.1   19   61-79     14-32  (95)
+  8 1BTK_B TRANSFERASE, PH DOMAIN,  17.5      10 0.00011   23.5  -4.0   58   11-68      9-69  (169)
+  9 6TSE_A Tyrosine-protein kinase  17.5      10 0.00011   23.5  -4.0   58   11-68      9-69  (169)
+ 10 6TT2_B Tyrosine-protein kinase  17.5      10 0.00011   23.5  -4.0   58   11-68      9-69  (169)
+
+No 1
+>4Y93_A The PH-TH-kinase construct of Bruton's; PH-TH, Btk, tyrosine kinase, TRANSFERASE; HET: 746; 1.695A {Bos taurus}
+Probab=97.70  E-value=3.7e-05  Score=53.69  Aligned_cols=67  Identities=58%  Similarity=0.821  Sum_probs=50.5  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCCHHHHHHHHHHHHHHHhccccc---hhcccCcccHHhCceeeeecCCCCCc
+Q tr|D6RB05|D6RB    6 ILEEILIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRAE---KKYRKGFIDVSKIKCVEIVKNDDGVI   72 (100)
+Q Consensus         6 ileeilikrsqqkkktsplnykerlfvltksmltyyegrae---kkyrkgfidvskikcveivknddgvi   72 (100)
+                      +.+|||+|+++.++++++++|+||||||+++.|+||+++++   +++++|.|+|..+++|+.++......
+T Consensus         6 ~~~g~l~k~~~~~~~~~~~~w~~r~f~l~~~~l~y~~~~~~~~~~~~~~~~i~l~~~~~~~~~~~~~~~~   75 (446)
+T 4Y93_A            6 ILESIFLKRSQQKKKTSPLNFKKRLFLLTVQKLSYYEYDFERGRRGSKKGSIDVEKITCVETVVPEKNPP   75 (446)
+T ss_dssp             SEEEEEEEEC--------CCEEEEEEEECSSEEEEEEEETTTTEEEEEEEEEEGGGEEEEEECCCCSSCC
+T ss_pred             HHHHHHhHHhhcCCCCCCCchhheEEEEecceeeeeeechhcccCCCceeeeeHHHceEEEEecCCCCCC
+Confidence            45899999988777888899999999999999999976653   45899999999999999987655533
+
+
+No 2
+>6S9W_A RAC-alpha serine/threonine-protein kinase (E.C.2.7.11.1); Akt1, Akt2, Akt3, borussertib, covalent-allosteric; HET: L1Z; 2.3A {Homo sapiens}
+Probab=51.06  E-value=3.5  Score=28.58  Aligned_cols=48  Identities=21%  Similarity=0.313  Sum_probs=36.8  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCCHHHHHHHHH-HHHHHHhccccchhc-----ccCcccHHhC
+Q tr|D6RB05|D6RB    6 ILEEILIKRSQQKKKTSPLNYKERLFVLT-KSMLTYYEGRAEKKY-----RKGFIDVSKI   59 (100)
+Q Consensus         6 ileeilikrsqqkkktsplnykerlfvlt-ksmltyyegraekky-----rkgfidvski   59 (100)
+                      +.+|||.|+|+..     +.|++|||||+ ++.|+||++.. ...     +.+.|.|..+
+T Consensus         7 ~k~G~L~k~g~~~-----~~wk~r~fvl~~~~~l~~y~~~~-~~~~~~~~~~~~i~~~~~   60 (446)
+T 6S9W_A            7 VKEGWLHKRGEYI-----KTWRPRYFLLKNDGTFIGYKERP-QDVDQREAPLNNFSVAQC   60 (446)
+T ss_dssp             EEEEEEEEECSSB-----CCEEEEEEEEETTSBEEEESSCC-SCSSCSSCCCGGGBCTTE
+T ss_pred             eeeEEEeecccCC-----CCccccEEEEcCCCcEEEEecCC-CCcCcCCcccceEEEEec
+Confidence            3579999998644     79999999999 77999997765 222     6777777654
+
+
+No 3
+>7NH5_A Akt1, Akt2, Akt3, covalent-allosteric, TRANSFERASE; HET: UC8; 1.9A {Homo sapiens}
+Probab=51.06  E-value=3.5  Score=28.58  Aligned_cols=48  Identities=21%  Similarity=0.314  Sum_probs=37.0  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHhcCCCCCCCCCHHHHHHHHH-HHHHHHhccccchhc-----ccCcccHHhC
+Q tr|D6RB05|D6RB    6 ILEEILIKRSQQKKKTSPLNYKERLFVLT-KSMLTYYEGRAEKKY-----RKGFIDVSKI   59 (100)
+Q Consensus         6 ileeilikrsqqkkktsplnykerlfvlt-ksmltyyegraekky-----rkgfidvski   59 (100)
+                      +.+|||.|+|+..     +.|++|||||+ ++.|+||++... ..     +.+.|.|..+
+T Consensus         7 ~k~G~L~k~g~~~-----~~wk~r~fvl~~~~~l~~y~~~~~-~~~~~~~~~~~i~~~~~   60 (446)
+T 7NH5_A            7 VKEGWLHKRGEYI-----KTWRPRYFLLKNDGTFIGYKERPQ-DVDQREAPLNNFSVAQC   60 (446)
+T ss_dssp             EEEEEEEEECSSS-----CCEEEEEEEEETTSBEEEESSCCC-C----CCCCGGGBCTTC
+T ss_pred             eeeEEEeecccCC-----CCccccEEEEcCCCcEEEEecCCC-CcCcCCcccceEEEEec
+Confidence            3579999998644     79999999999 779999977652 22     6777877765
+
+
+No 4
+>4CKV_X VASCULAR ENDOTHELIAL GROWTH FACTOR RECEPTOR; RECEPTOR; HET: EDO; 2.055A {HOMO SAPIENS}
+Probab=21.92  E-value=1.2e+02  Score=18.56  Aligned_cols=19  Identities=26%  Similarity=0.599  Sum_probs=12.8  Template_Neff=9.300
+
+Q ss_pred             eeeecCCCCCccCCCCCCC
+Q tr|D6RB05|D6RB   62 VEIVKNDDGVIPCQNKYPF   80 (100)
+Q Consensus        62 veivknddgvipcqnkypf   80 (100)
+                      +........++||.-..|-
+T Consensus        15 i~~~~~~~~viPC~~T~P~   33 (94)
+T 4CKV_X           15 IHMTEGRELVIPCRVTSPN   33 (94)
+T ss_dssp             EEECTTSCEEECCCBSCTT
+T ss_pred             EEEeCCCeEEEeCcCCCCC
+Confidence            3444567788899877664
+
+
+No 5
+>2LUL_A Tyrosine-protein kinase Tec (E.C.2.7.10.2); Structural Genomics, NORTHEAST STRUCTURAL GENOMICS; HET: ZN; NMR {Homo sapiens}
+Probab=19.05  E-value=12  Score=21.15  Aligned_cols=55  Identities=98%  Similarity=1.395  Sum_probs=34.3  Template_Neff=12.900
+
+Q ss_pred             HHHHHHHhcCCCCCCCCCHHHHHHHHHHHHHHHhccccchh-cccCcccHHhCceee
+Q tr|D6RB05|D6RB    8 EEILIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRAEKK-YRKGFIDVSKIKCVE   63 (100)
+Q Consensus         8 eeilikrsqqkkktsplnykerlfvltksmltyyegraekk-yrkgfidvskikcve   63 (100)
+                      +||+.++...........|++|||++....|.||.... .. .+.+.+.+..+..+.
+T Consensus        18 ~g~l~~~~~~~~~~~~~~~~~~~~~l~~~~l~~~~~~~-~~~~~~~~~~~~~~~~~~   73 (164)
+T 2LUL_A           18 EEILIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRA-EKKYRKGFIDVSKIKCVE   73 (164)
+T ss_dssp             EEEEEEECCCCSSSCCCCEEEEEEEEESSEEEEECCCS-SSCCCCCEEEGGGCCEEE
+T ss_pred             EEEEEecCCCCCCCCCCCceEEEEEEeCCeEEEECCcc-cccCcceEEECceeEEEE
+Confidence            45665554432222346899999999988888884442 22 266777777664443
+
+
+No 6
+>3LJU_X Arf-GAP with dual PH domain-containing; Structural Genomics Consortium, GAP, GTPase; HET: IP9; 1.702A {Homo sapiens}
+Probab=18.27  E-value=27  Score=23.86  Aligned_cols=49  Identities=24%  Similarity=0.432  Sum_probs=35.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHhcCCCCCCCCCHHHHHHHH--HHHHHHHhccccchhcccCcccHHhCce
+Q tr|D6RB05|D6RB    7 LEEILIKRSQQKKKTSPLNYKERLFVL--TKSMLTYYEGRAEKKYRKGFIDVSKIKC   61 (100)
+Q Consensus         7 leeilikrsqqkkktsplnykerlfvl--tksmltyyegraekkyrkgfidvskikc   61 (100)
+                      .+|||.|++...     +.|++|||+|  .++.|.||.... ...+.+.|.|..+..
+T Consensus       148 ~~G~L~k~~~~~-----~~w~~r~~vl~~~~~~l~~~~~~~-~~~~~~~i~l~~~~~  198 (386)
+T 3LJU_X          148 REGFLWKRGRDN-----GQFLSRKFVLTEREGALKYFNRND-AKEPKAVMKIEHLNA  198 (386)
+T ss_dssp             EEEEEEEECSSS-----CCEEEEEEEEETTTTEEEEEC------CCSEEEEGGGEEE
+T ss_pred             ccccceeccCCC-----CCeeEEEEEEeCCCCeeecccCCC-CCCCcEEEeHHHceE
+Confidence            468888887544     7899999999  888999996554 557888888887643
+
+
+No 7
+>1FLT_X VASCULAR ENDOTHELIAL GROWTH FACTOR, FMS-LIKE; COMPLEX (GROWTH FACTOR-TRANSFERASE), FLT-1 RECEPTOR; 1.7A {Homo sapiens} SCOP: b.1.1.4
+Probab=17.59  E-value=1.6e+02  Score=18.17  Aligned_cols=19  Identities=26%  Similarity=0.634  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeeeecCCCCCccCCCCCC
+Q tr|D6RB05|D6RB   61 CVEIVKNDDGVIPCQNKYP   79 (100)
+Q Consensus        61 cveivknddgvipcqnkyp   79 (100)
+                      .+.+..+++.+|||.-..|
+T Consensus        14 ~~~~~~~~~~viPCr~T~P   32 (95)
+T 1FLT_X           14 IIHMTEGRELVIPCRVTSP   32 (95)
+T ss_dssp             EEEECTTSCEEECCCBSCT
+T ss_pred             EEEEcCCCeEEEecccCCC
+
+
+No 8
+>1BTK_B TRANSFERASE, PH DOMAIN, BTK MOTIF; 1.6A {Homo sapiens} SCOP: b.55.1.1
+Probab=17.54  E-value=10  Score=23.54  Aligned_cols=58  Identities=59%  Similarity=0.835  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             HHHHhcCCCCCCCCCHHHHHHHHHHHHHHHhccccch---hcccCcccHHhCceeeeecCC
+Q tr|D6RB05|D6RB   11 LIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRAEK---KYRKGFIDVSKIKCVEIVKND   68 (100)
+Q Consensus        11 likrsqqkkktsplnykerlfvltksmltyyegraek---kyrkgfidvskikcveivknd   68 (100)
+                      |.++....+..+...++.|.|+|....+.||......   ....|.|+...+.+++.....
+T Consensus         9 l~k~~~~~~~~~~~~~~~~~~~l~~~~l~~~~~~~~~~~~~~~~~~i~l~~~~~~~~~~~~   69 (169)
+T 1BTK_B            9 FLKRSQQKKKTSPLNFKKCLFLLTVHKLSYYEYDFERGRRGSKKGSIDVEKITCVETVVPE   69 (169)
+T ss_dssp             EEEECCCCCSSCCCCEEEEEEEECSSEEEEEEEETTTTEEEEEEEEEEGGGCCEEEECCCC
+T ss_pred             EEEeCCCCCCCCCCCceeEEEEEeCCEEEEEeccccccCCCCceeEEEccccEEEEEecCC
+
+
+No 9
+>6TSE_A Tyrosine-protein kinase BTK (E.C.2.7.10.2); BTK, Covalent fragments, surface entrophy; HET: 72V; 1.41A {Homo sapiens}
+Probab=17.54  E-value=10  Score=23.54  Aligned_cols=58  Identities=59%  Similarity=0.835  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             HHHHhcCCCCCCCCCHHHHHHHHHHHHHHHhccccch---hcccCcccHHhCceeeeecCC
+Q tr|D6RB05|D6RB   11 LIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRAEK---KYRKGFIDVSKIKCVEIVKND   68 (100)
+Q Consensus        11 likrsqqkkktsplnykerlfvltksmltyyegraek---kyrkgfidvskikcveivknd   68 (100)
+                      |.++....+..+...++.|.|+|....+.||......   ....|.|+...+.+++.....
+T Consensus         9 l~k~~~~~~~~~~~~~~~~~~~l~~~~l~~~~~~~~~~~~~~~~~~i~l~~~~~~~~~~~~   69 (169)
+T 6TSE_A            9 FLKRSQQKKKTSPLNFKKCLFLLTVHKLSYYEYDFERGRRGSKKGSIDVEKITCVETVVPE   69 (169)
+T ss_dssp             EEEECCCSSTTSCCCEEEEEEEECSSEEEEEEEETTTTEEEEEEEEEEGGGCCEEEECCCC
+T ss_pred             EEEeCCCCCCCCCCCceeEEEEEeCCEEEEEeccccccCCCCceeEEEccccEEEEEecCC
+
+
+No 10
+>6TT2_B Tyrosine-protein kinase BTK (E.C.2.7.10.2); BTK, Covalent fragments, surface entrophy; 1.36A {Homo sapiens}
+Probab=17.54  E-value=10  Score=23.54  Aligned_cols=58  Identities=59%  Similarity=0.835  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             HHHHhcCCCCCCCCCHHHHHHHHHHHHHHHhccccch---hcccCcccHHhCceeeeecCC
+Q tr|D6RB05|D6RB   11 LIKRSQQKKKTSPLNYKERLFVLTKSMLTYYEGRAEK---KYRKGFIDVSKIKCVEIVKND   68 (100)
+Q Consensus        11 likrsqqkkktsplnykerlfvltksmltyyegraek---kyrkgfidvskikcveivknd   68 (100)
+                      |.++....+..+...++.|.|+|....+.||......   ....|.|+...+.+++.....
+T Consensus         9 l~k~~~~~~~~~~~~~~~~~~~l~~~~l~~~~~~~~~~~~~~~~~~i~l~~~~~~~~~~~~   69 (169)
+T 6TT2_B            9 FLKRSQQKKKTSPLNFKKCLFLLTVHKLSYYEYDFERGRRGSKKGSIDVEKITCVETVVPE   69 (169)
+T ss_dssp             EEEECCCCSTTSCCCEEEEEEEECSSEEEEEEEETTTTEEEEEEEEEEGGGEEEEEECCCC
+T ss_pred             EEEeCCCCCCCCCCCceeEEEEEeCCEEEEEeccccccCCCCceeEEEccccEEEEEecCC
+
+

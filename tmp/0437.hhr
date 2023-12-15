@@ -1,0 +1,160 @@
+Query         tr|J3KN85|J3KN85_HUMAN
+Match_columns 76
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:23:22 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0437.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6G7O_A Alkaline ceramidase 3 (  99.3 7.5E-12 8.2E-17   84.0   5.5   56    2-57      2-57  (350)
+  2 6YXH_A Alkaline ceramidase, AC  99.3 7.5E-12 8.2E-17   84.0   5.5   56    2-57      2-57  (350)
+  3 1NOV_D NODAMURA VIRUS COAT PRO  22.9 3.2E+02  0.0035   17.3   3.2    8   35-42     15-22  (44)
+  4 1NOV_E NODAMURA VIRUS COAT PRO  22.9 3.2E+02  0.0035   17.3   3.2    8   35-42     15-22  (44)
+  5 1F8V_D PARIACOTO VIRUS/RNA COM  19.9 3.4E+02  0.0037   16.9   2.9   30   32-61      1-37  (40)
+  6 6XYW_Ao 60S ribosomal protein   19.8      52 0.00056   20.3  -0.6    6   43-48      1-6   (114)
+  7 6VK6_A Methane monooxygenase c  18.7 1.3E+02  0.0014   24.6   1.2   20   10-30    361-380 (526)
+  8 1DP7_P WINGED HELIX, MHC CLASS  18.4   2E+02  0.0022   13.4   1.4   24   18-41     27-50  (76)
+  9 3C1Q_B General secretion pathw  18.2 3.2E+02  0.0035   14.9   3.9   41   28-68     11-51  (123)
+ 10 6VKF_A GP38; secretory, viral,  18.2 2.2E+02  0.0024   22.6   2.3   25   11-35     29-61  (268)
+
+No 1
+>6G7O_A Alkaline ceramidase 3 (E.C.3.5.1.-); Hydrolase, 7TM, Zinc binding protein; HET: OLB, SO4; 2.7A {Homo sapiens}
+Probab=99.31  E-value=7.5e-12  Score=84.03  Aligned_cols=56  Identities=100%  Similarity=1.707  Sum_probs=50.9  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCcchhhHHHHHhchHHHHHHHHHHHHHHHHhchhhhHHHHHHHH
+Q tr|J3KN85|J3KN    2 APAADREGYWGPTTSTLDWCEENYSVTWYIAEFWNTVSNLIMIIPPMFGAVQSVRD   57 (76)
+Q Consensus         2 apaadregywgpttstldwceenysvtwyiaefwntvsnlimiippmfgavqsvrd   57 (76)
+                      +|++|++++|++++++++|||++++...+++|++|++||+.+++++++++...+++
+T Consensus         2 ~~~~~~~~~w~~~~~~~~~ce~~~~~~~~~~e~~n~~s~l~~~~~~~~~~~~~~~~   57 (350)
+T 6G7O_A            2 APAADREGYWGPTTSTLDWCEENYSVTWYIAEFWNTVSNLIMIIPPMFGAVQSVRD   57 (350)
+T ss_dssp             CCCCSCCCCSSCCCSSCCCSSCTTSSCSSSSSHHHHHGGGGGTHHHHHHHHHHHHT
+T ss_pred             CCCCcCCCCCCCCCCCcccccccceecHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            79999999999999999999998766678899999999999999999998877554
+
+
+No 2
+>6YXH_A Alkaline ceramidase, ACER3, serial synchrotron; HET: SO4; 2.6A {Homo sapiens}
+Probab=99.31  E-value=7.5e-12  Score=84.03  Aligned_cols=56  Identities=100%  Similarity=1.707  Sum_probs=50.9  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCcchhhHHHHHhchHHHHHHHHHHHHHHHHhchhhhHHHHHHHH
+Q tr|J3KN85|J3KN    2 APAADREGYWGPTTSTLDWCEENYSVTWYIAEFWNTVSNLIMIIPPMFGAVQSVRD   57 (76)
+Q Consensus         2 apaadregywgpttstldwceenysvtwyiaefwntvsnlimiippmfgavqsvrd   57 (76)
+                      +|++|++++|++++++++|||++++...+++|++|++||+.+++++++++...+++
+T Consensus         2 ~~~~~~~~~w~~~~~~~~~ce~~~~~~~~~~e~~n~~s~l~~~~~~~~~~~~~~~~   57 (350)
+T 6YXH_A            2 APAADREGYWGPTTSTLDWCEENYSVTWYIAEFWNTVSNLIMIIPPMFGAVQSVRD   57 (350)
+T ss_dssp             CCCCSCCCCSSCCCSSCCCSSCTTSSCSSCSSSHHHHTTGGGTHHHHHHHHHHHHT
+T ss_pred             CCCCcCCCCCCCCCCCcccccccceecHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Confidence            79999999999999999999998766678899999999999999999998877554
+
+
+No 3
+>1NOV_D NODAMURA VIRUS COAT PROTEINS; INSECT VIRUS, NODAMURA VIRUS, COAT; 3.5A {Nodamura virus}
+Probab=22.87  E-value=3.2e+02  Score=17.33  Aligned_cols=8  Identities=25%  Similarity=0.165  Sum_probs=3.1  Template_Neff=3.400
+
+Q ss_pred             HHHHHHHH
+Q tr|J3KN85|J3KN   35 WNTVSNLI   42 (76)
+Q Consensus        35 wntvsnli   42 (76)
+                      .++.|.++
+T Consensus        15 ~~~~s~vP   22 (44)
+T 1NOV_D           15 LNFASTIP   22 (44)
+T ss_pred             HHHHhcCC
+Confidence            33444433
+
+
+No 4
+>1NOV_E NODAMURA VIRUS COAT PROTEINS; INSECT VIRUS, NODAMURA VIRUS, COAT; 3.5A {Nodamura virus}
+Probab=22.87  E-value=3.2e+02  Score=17.33  Aligned_cols=8  Identities=25%  Similarity=0.165  Sum_probs=3.1  Template_Neff=3.400
+
+Q ss_pred             HHHHHHHH
+Q tr|J3KN85|J3KN   35 WNTVSNLI   42 (76)
+Q Consensus        35 wntvsnli   42 (76)
+                      .++.|.++
+T Consensus        15 ~~~~s~vP   22 (44)
+T 1NOV_E           15 LNFASTIP   22 (44)
+T ss_pred             HHHHhcCC
+Confidence            33444433
+
+
+No 5
+>1F8V_D PARIACOTO VIRUS/RNA COMPLEX; nodavirus, coat protein, nucleoprotein, protein-RNA; 3.0A {Pariacato virus}
+Probab=19.92  E-value=3.4e+02  Score=16.89  Aligned_cols=30  Identities=27%  Similarity=0.542  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             HHHHHHH-------HHHHHhchhhhHHHHHHHHHHHH
+Q tr|J3KN85|J3KN   32 AEFWNTV-------SNLIMIIPPMFGAVQSVRDGLEK   61 (76)
+Q Consensus        32 aefwntv-------snlimiippmfgavqsvrdglek   61 (76)
+                      +.||+.|       ++..+.||--.|++-+=-+++.+
+T Consensus         1 a~fWe~V~~~l~~~~~~aS~iPGPiG~~a~Gi~ai~~   37 (40)
+T 1F8V_D            1 SKFWEGVLRVLNQISGTLSVIPGPVGTISAGVHQLTG   37 (40)
+T ss_pred             CcHHHHHHHHHHHHHHHHhcCCCHHHHHHHHHHHHHH
+
+
+No 6
+>6XYW_Ao 60S ribosomal protein L2, mitochondrial; Ribosome, Mitochondria, Plant; 3.86A {Arabidopsis thaliana}
+Probab=19.85  E-value=52  Score=20.28  Aligned_cols=6  Identities=67%  Similarity=1.436  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             Hhchhh
+Q tr|J3KN85|J3KN   43 MIIPPM   48 (76)
+Q Consensus        43 miippm   48 (76)
+                      |.||||
+T Consensus         1 ~~~~~~    6 (114)
+T 6XYW_Ao           1 MVIPPA    6 (114)
+T ss_pred             CCCCCC
+
+
+No 7
+>6VK6_A Methane monooxygenase component A alpha; Methane Monooxygenase Hydroxylase, OXIDOREDUCTASE; HET: EDO; 1.52A {Methylosinus trichosporium OB3b}
+Probab=18.75  E-value=1.3e+02  Score=24.59  Aligned_cols=20  Identities=30%  Similarity=0.629  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCCCCcchhhHHHHHhchHHH
+Q tr|J3KN85|J3KN   10 YWGPTTSTLDWCEENYSVTWY   30 (76)
+Q Consensus        10 ywgpttstldwceenysvtwy   30 (76)
+                      .|+|+....+|.|++|- .||
+T Consensus       361 ~~~~~~~~~~W~e~kYP-~w~  380 (526)
+T 6VK6_A          361 LALPDEEDQAWFEANYP-GWA  380 (526)
+T ss_dssp             CCCCCHHHHHHHHHHST-TTC
+T ss_pred             CCCCCHHHHHHHHHhCC-chH
+
+
+No 8
+>1DP7_P WINGED HELIX, MHC CLASS II; HET: BRU; 1.5A {N/A} SCOP: a.4.5.20
+Probab=18.44  E-value=2e+02  Score=13.41  Aligned_cols=24  Identities=17%  Similarity=0.075  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             hhHHHHHhchHHHHHHHHHHHHHH
+Q tr|J3KN85|J3KN   18 LDWCEENYSVTWYIAEFWNTVSNL   41 (76)
+Q Consensus        18 ldwceenysvtwyiaefwntvsnl   41 (76)
+                      .+||+++-.-.+--..|++.+...
+T Consensus        27 ~~~~~~~~~~~~~~~~f~~~l~~~   50 (76)
+T 1DP7_P           27 LLHSQEQKLEPVNAASFGKLIRSV   50 (76)
+T ss_dssp             HHHHHHTTCCCCCHHHHHHHHHHH
+T ss_pred             HHHHHHCCCCCCCHHHHHHHHHHH
+
+
+No 9
+>3C1Q_B General secretion pathway protein F; Type 2 Secretion System, T2SS; HET: PE5, MSE; 1.7A {Vibrio cholerae}
+Probab=18.22  E-value=3.2e+02  Score=14.92  Aligned_cols=41  Identities=22%  Similarity=0.177  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHhchhhhHHHHHHHHHHHHHHHHHHH
+Q tr|J3KN85|J3KN   28 TWYIAEFWNTVSNLIMIIPPMFGAVQSVRDGLEKRYIASYL   68 (76)
+Q Consensus        28 twyiaefwntvsnlimiippmfgavqsvrdglekryiasyl   68 (76)
+                      ....++|+..++.++-.-.|+..+.+...+....+.+...+
+T Consensus        11 ~~~~~~~~~~l~~~l~~G~~~~~al~~~~~~~~~~~~~~~~   51 (123)
+T 3C1Q_B           11 TPDLALITRQLATLVQSGMPLEECLRAVAEQSEKPRIRTML   51 (123)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCCHHHHHHHHHHTCSCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHcCCCHHHHHHHHHHhcCCHHHHHHH
+
+
+No 10
+>6VKF_A GP38; secretory, viral, glycoprotein, VIRAL PROTEIN; HET: NAG; 2.524A {Crimean-Congo hemorrhagic fever orthonairovirus}
+Probab=18.18  E-value=2.2e+02  Score=22.61  Aligned_cols=25  Identities=36%  Similarity=0.830  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCcchhh-HHHHHhch----HHH---HHHHH
+Q tr|J3KN85|J3KN   11 WGPTTSTLD-WCEENYSV----TWY---IAEFW   35 (76)
+Q Consensus        11 wgpttstld-wceenysv----twy---iaefw   35 (76)
+                      |+++...|+ ||..+++.    .-+   |++|+
+T Consensus        29 ~~~~~~~l~~~c~~~~~~~c~~~~~~~Ri~~fF   61 (268)
+T 6VKF_A           29 LEEDTEGLLEWCKRNLGLDCDDTFFQKRIEEFF   61 (268)
+T ss_dssp             SCCCCTTHHHHHHHHHSSCCCHHHHHHHHHCCC
+T ss_pred             CCcchHHHHHHHHHHhcCCCChHHHHHHHHHHh
+
+

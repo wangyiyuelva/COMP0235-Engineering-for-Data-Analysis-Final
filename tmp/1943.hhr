@@ -1,0 +1,410 @@
+Query         sp|Q92541|RTF1_HUMAN
+Match_columns 710
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:20:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1943.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6TED_R DNA-directed RNA polyme 100.0  1E-146  1E-151 1145.1  51.3  710    1-710     4-713 (713)
+  2 3U1U_A RNA polymerase-associat 100.0 4.9E-29 5.3E-34  205.6  12.1  133  350-482     5-137 (137)
+  3 3U1U_B RNA polymerase-associat 100.0 4.9E-29 5.3E-34  205.6  12.1  133  350-482     5-137 (137)
+  4 4L1P_B RNA polymerase-associat 100.0   3E-28 3.3E-33  200.6  12.2  134  351-484     5-138 (138)
+  5 4L1U_E RNA polymerase-associat 100.0   3E-28 3.3E-33  200.6  12.2  134  351-484     5-138 (138)
+  6 2BZE_A KIAA0252 PROTEIN; HUMAN 100.0 5.5E-28 5.9E-33  206.8  12.7  135  350-484    19-153 (153)
+  7 5EMX_B RNA polymerase-associat  98.4 6.2E-07 6.7E-12   74.9   4.6   58  178-235     9-67  (72)
+  8 5E8B_A RNA polymerase-associat  98.4 7.8E-07 8.4E-12   73.2   4.1   56  179-234     5-61  (67)
+  9 7OOP_S transcription, DNA repa  77.9      22 0.00024   39.4   8.6   14   43-56   1006-1019(1173)
+ 10 7B9V_y Pre-mRNA-splicing facto  62.0      21 0.00023   35.1   4.0   15  559-573   192-206 (215)
+ 11 6ICZ_M Protein mago nashi homo  55.5      14 0.00016   36.7   1.8   16  559-574   207-222 (243)
+ 12 6ID1_M Pre-mRNA-processing-spl  55.5      14 0.00016   36.7   1.8   16  559-574   207-222 (243)
+ 13 6QDV_y Eukaryotic initiation f  52.7      18 0.00019   32.9   1.7   44  530-573    78-122 (144)
+ 14 3JC6_2 Cell division control p  24.9 2.8E+02  0.0031   32.2   5.6    6  384-389   292-297 (868)
+ 15 6SKL_2 Cell division control p  24.9 2.8E+02  0.0031   32.2   5.6   13  378-390   286-298 (868)
+ 16 7PMK_2 Genome stability, DNA r  24.9 2.8E+02  0.0031   32.2   5.6    9  382-390   290-298 (868)
+ 17 7NKX_W chromatin remodelling,   24.1 1.1E+03   0.012   29.0  10.3   10  203-212   178-187 (1468)
+
+No 1
+>6TED_R DNA-directed RNA polymerase subunit, DNA-directed; Polymerase, elongation complex, RNA, DNA; HET: TPO, SEP;{Sus scrofa}
+Probab=100.00  E-value=9.7e-147  Score=1145.07  Aligned_cols=710  Identities=100%  Similarity=1.331  Sum_probs=548.5  Template_Neff=6.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCChhhhhhcCCCCCCCC
+Q sp|Q92541|RTF1    1 MRGRLCVGRAAAAAAAVAVPLAGGQEGSPGGGRRGSRGTTMVKKRKGRVVIDSDTEDSGSDENLDQELLSLAKRKRSDSE   80 (710)
+Q Consensus         1 mrgrlcvgraaaaaaavavplaggqegspgggrrgsrgttmvkkrkgrvvidsdtedsgsdenldqellslakrkrsdse   80 (710)
+                      |+|+||||||++|++||+||++||++||||+|++++++|+||++||++++|+|+|+++++++|||++||+|+|+++..++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~k~k~~~~~~sds~~~~s~~d~d~e~~~l~k~k~~~~~   83 (713)
+T 6TED_R            4 MRGRLCVGRAAAAAAAVAVPLAGGQEGSPGGGRRGSRGTTMVKKRKGRVVIDSDTEDSGSDENLDQELLSLAKRKRSDSE   83 (713)
+T ss_pred             cccchhHHhHHHhhHhheeecCCCCCCCCCCCCCCccccccccccCCceeeecCCCCCCCcchHHHHHHHHHhhhcCCCC
+Confidence            78999999999999999999999999999999999999999999999999999999888889999999999998877443
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q92541|RTF1   81 EKEPPVSQPAASSDSETSDSDDEWTFGSNKNKKKGKARKIEKKGTMKKQANKTASSGSSDKDSSAESSAPEEGEVSDSDS  160 (710)
+Q Consensus        81 ekeppvsqpaassdsetsdsddewtfgsnknkkkgkarkiekkgtmkkqanktassgssdkdssaessapeegevsdsds  160 (710)
+                      ..+.+++.+.+.++|++|+||++|+.++++.++++++++..++++.++.+.+.+++++++.+.....++||||||+++++
+T Consensus        84 ~~~~~~~~~~~~s~s~ss~sd~~w~~~~~~~~k~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~s~~eegevs~~~~  163 (713)
+T 6TED_R           84 EKEPPVSQPAASSDSETSDSDDEWTFGSNKNKKKGKARKIEKKGTMKKQANKTASSGSSDKDSSAESSAPEEGEVSDSDS  163 (713)
+T ss_pred             CCCCCCCCCCcCCCCCCCCCcccccccccccccccCCcccccccccccccccccCCCCcccccccccCCccccccccccC
+Confidence            33333333456678888999999998864433333322211111121222222223322333445679999999999864
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCChhhHHHHHhCCHHHHHHHHHHHHHHHHHHHHHHhhhhhccccccccccccc
+Q sp|Q92541|RTF1  161 NSSSSSSDSDSSSEDEEFHDGYGEDLMGDEEDRARLEQMTEKEREQELFNRIEKREVLKRRFEIKKKLKTAKKKEKKEKK  240 (710)
+Q Consensus       161 nssssssdsdsssedeefhdgygedlmgdeedrarleqmtekereqelfnriekrevlkrrfeikkklktakkkekkekk  240 (710)
+                      +++.+++++++++++++|+||||++||||++||++|++|||+|||+|||+|+|+|+.|++||+|+++|++++++++++++
+T Consensus       164 ~~~~~~~~~~~~~~~~ef~Dgydedl~gDeeDR~rL~~MtE~ERE~eL~~R~E~re~lk~R~ei~kkLr~~kk~~~~~k~  243 (713)
+T 6TED_R          164 NSSSSSSDSDSSSEDEEFHDGYGEDLMGDEEDRARLEQMTEKEREQELFNRIEKREVLKRRFEIKKKLKTAKKKEKKEKK  243 (713)
+T ss_pred             CCCCCCCCCCCCCccchhcCCCCccccCCHHHHHHHHcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            32111122111114689999999999999999999999999999999999999999999999999999998876543222
+
+
+Q ss_pred             cccchhhhhcccccccccCCCCCCCCCCCcccccccccchhHHHHHHHHHHhccchhhhhcCCCCCCCCCCCCCCCCCCC
+Q sp|Q92541|RTF1  241 KKQEEEQEKKKLTQIQESQVTSHNKERRSKRDEKLDKKSQAMEELKAEREKRKNRTAELLAKKQPLKTSEVYSDDEEEEE  320 (710)
+Q Consensus       241 kkqeeeqekkkltqiqesqvtshnkerrskrdekldkksqameelkaerekrknrtaellakkqplktsevysddeeeee  320 (710)
+                      ++.....++.....+++.+.+.|++.|+++++++++++.+||++|+++|++|.++.++...++.+|+++++|+|++++++
+T Consensus       244 ~~~~~~~~~~~~~~~~~~~~~~rs~~R~~~~~~k~~kk~~al~~Lk~~Re~K~~~~~~~~~~k~~lk~sd~~sdd~~~~~  323 (713)
+T 6TED_R          244 KKQEEEQEKKKLTQIQESQVTSHNKERRSKRDEKLDKKSQAMEELKAEREKRKNRTAELLAKKQPLKTSEVYSDDEEEEE  323 (713)
+T ss_pred             HHHHHHHHHHHhhhhhhhhhhhhhhhhhchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCCCcccccCCCcccccc
+Confidence            11101111100111222234568888998887766788999999999999987654222222445888999988876544
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceE
+Q sp|Q92541|RTF1  321 DDKSSEKSDRSSRTSSSDEEEEKEEIPPKSQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVY  400 (710)
+Q Consensus       321 ddksseksdrssrtsssdeeeekeeippksqpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvy  400 (710)
+                      ++.+++.++.++++++++++.+..+......+++++++|+.|+|+|+.|++|||.|||+.+|+||||||+||+++|.++|
+T Consensus       324 ~d~~~~~s~~ss~~~~s~~d~~~~~~~~~~~~~~t~edL~~irLsR~~Lek~~~~PfFe~~V~GcFVRV~iG~~~g~~~Y  403 (713)
+T 6TED_R          324 DDKSSEKSDRSSRTSSSDEEEEKEEIPPKSQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVY  403 (713)
+T ss_pred             cccccccccccccCCCchhhhhhcCCCCCCCCCCCHHHHhhccccHHHHHHHhcCcchhhccccCEEEEEecCCCCCeeE
+Confidence            22221111112222222222221122334568899999999999999999999999999999999999999988889999
+
+
+Q ss_pred             EeeeeeceeccceeeecCCCCCCCCeeeecCCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHH
+Q sp|Q92541|RTF1  401 RVAEITGVVETAKVYQLGGTRTNKGLQLRHGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIK  480 (710)
+Q Consensus       401 rvaeitgvvetakvyqlggtrtnkglqlrhgndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsik  480 (710)
+                      |||+|++|+++.++|.|+++.||++|+|+||..+++|+|.+|||++||+.||.+|+..|...+++|||+.+|+.|+.+|+
+T Consensus       404 RiaeIvgV~e~~k~Y~l~~~~Tnk~L~L~~G~~er~f~m~~VSNs~fTe~Ef~~W~~~~~~~~~~lPT~~~i~~K~~~I~  483 (713)
+T 6TED_R          404 RVAEITGVVETAKVYQLGGTRTNKGLQLRHGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIK  483 (713)
+T ss_pred             EEEEEEceeeCCceeecCCcccceEEEEEECCceEEEEeeeecCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHCCCCCchhHHHHHHHHHHHhCCCCChhhhHHHHHHHHHhhhcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhchhHh
+Q sp|Q92541|RTF1  481 EALNYKFNDQDIEEIVKEKERFRKAPPNYAMKKTQLLKEKAMAEDLGDQDKAKQIQDQLNELEERAEALDRQRTKNISAI  560 (710)
+Q Consensus       481 ealnykfndqdieeivkekerfrkappnyamkktqllkekamaedlgdqdkakqiqdqlneleeraealdrqrtknisai  560 (710)
+                      .+++|.||++||++||++|++|+..|+|+|++|++|++++++|+..||.++|++|+++|++|++++.++++.++..++.|
+T Consensus       484 ~a~~y~~tdedI~~mv~eK~~~~~~p~N~A~~K~~L~~ere~A~~~gd~e~~~~l~~eL~eLe~~~~~~~k~r~~~~~~i  563 (713)
+T 6TED_R          484 EALNYKFNDQDIEEIVKEKERFRKAPPNYAMKKTQLLKEKAMAEDLGDQDKAKQIQDQLNELEERAEALDRQRTKNISAI  563 (713)
+T ss_pred             HHHhCCCCHHHHHHHHHHHHHhhcCCCchhHHHHHHHHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHHHHHhhhhhhHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999988888899999999
+
+
+Q ss_pred             HHhhhhhchcchhhhHHhhhhhhhhcccCCCCccccCCCCCccccCCCCHHHHHHHHHHHHHHhCCCCCCCCCCCCCCCC
+Q sp|Q92541|RTF1  561 SYINQRNREWNIVESEKALVAESHNMKNQQMDPFTRRQCKPTIVSNSRDPAVQAAILAQLNAKYGSGVLPDAPKEMSKGQ  640 (710)
+Q Consensus       561 syinqrnrewnivesekalvaeshnmknqqmdpftrrqckptivsnsrdpavqaailaqlnakygsgvlpdapkemskgq  640 (710)
+                      ++||+|||+.|+..+++|+.+++++.+....|||+||+|+|+|||+++.+...+++...++.....+..+..+..++...
+T Consensus       564 s~IN~RNR~~N~~~~~~a~~~e~~~~~~~~~DPFtRr~trp~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  643 (713)
+T 6TED_R          564 SYINQRNREWNIVESEKALVAESHNMKNQQMDPFTRRQCKPTIVSNSRDPAVQAAILAQLNAKYGSGVLPDAPKEMSKGQ  643 (713)
+T ss_pred             HHHHHHHHHHhHHHHHHHHHHHHHHhhhcCCCccccccCCCeEeeCCCCHHHHHHHHHHHHHhhCCCCCCCChhhhcccC
+Confidence            99999999999999999998887656667899999999999999998755543332222222111111111111111111
+
+
+Q ss_pred             CCCCCCCCCCCCCCCccccccCCCcccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHhchh
+Q sp|Q92541|RTF1  641 GKDKDLNSKSASDLSEDLFKVHDFDVKIDLQVPSSESKALAITSKAPPAKDGAPRRSLNLEDYKKRRGLI  710 (710)
+Q Consensus       641 gkdkdlnsksasdlsedlfkvhdfdvkidlqvpsseskalaitskappakdgaprrslnledykkrrgli  710 (710)
+                      .........+......|||+||||||+|||++|.+++++++.+++++++++++|+|+|||+|||||+|||
+T Consensus       644 ~~~~~~~~~~~~~~~~dLf~aHdFdI~IDld~p~~~~~~~~~~~~~~~~~~~~prrsLnl~dYKkrrgli  713 (713)
+T 6TED_R          644 GKDKDLNSKSASDLSEDLFKVHDFDVKIDLQVPSSESKALAITSKAPPAKDGAPRRSLNLEDYKKRRGLI  713 (713)
+T ss_pred             CCccccccccccccchhHHhhccccceecccCCcccccccccCCCCCCCCCCCCCcccCHHHHHHHhcCC
+Confidence            1111111222334578999999999999999998766666666667778888899999999999999998
+
+
+No 2
+>3U1U_A RNA polymerase-associated protein RTF1 homolog; PLUS-3, transcription elongation, Structural Genomics; HET: SO4, UNX, MSE; 1.8A {Homo sapiens}
+Probab=99.96  E-value=4.9e-29  Score=205.64  Aligned_cols=133  Identities=100%  Similarity=1.484  Sum_probs=123.9  Template_Neff=8.700
+
+Q ss_pred             CCCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceEEeeeeeceeccceeeecCCCCCCCCeeee
+Q sp|Q92541|RTF1  350 SQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR  429 (710)
+Q Consensus       350 sqpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvyrvaeitgvvetakvyqlggtrtnkglqlr  429 (710)
+                      ..++.++++|+.|+|+|..|++|++.|+|+++|+||||||.+|++++.+.|+||+|++|..+.++|.+++..|+++|.|.
+T Consensus         5 ~~~~~~~~~~~~~~L~R~~l~~~~~~p~F~~~v~G~fVRv~~~~~~~~~~Y~l~~I~~v~~~~~~Y~~~~~~t~~~l~l~   84 (137)
+T 3U1U_A            5 SQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR   84 (137)
+T ss_dssp             TSBCCSHHHHHTTBCCHHHHHHHTTSTTHHHHHTTCEEEEEEEC----CEEEEEEEEEEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             CCCCCCHHHHhcCeeeHHHHHHHhcCCchHHhcccCEEEEEeCCCCCCeEEEEEEEEEEEeCCcEEEcCCeeeceEEEEE
+Confidence            35788999999999999999999999999999999999999998778899999999999988899999999999999999
+
+
+Q ss_pred             cCCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHHHH
+Q sp|Q92541|RTF1  430 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEA  482 (710)
+Q Consensus       430 hgndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsikea  482 (710)
+                      ||+..+.|+|+.|||++||++||..|+..|...+..+||..+|++|+++|+.|
+T Consensus        85 ~g~~~~~~~~~~vSN~~~t~~E~~~w~~~~~~~~~~~pt~~~v~~K~~~i~~a  137 (137)
+T 3U1U_A           85 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEA  137 (137)
+T ss_dssp             ETTEEEEEEGGGBCSSCCCHHHHHHHHHHHHHHTCCCCBHHHHHHHHHHTCCC
+T ss_pred             eCCeEEEEEeEEEcCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHhC
+Confidence            99999999999999999999999999999999999999999999999988654
+
+
+No 3
+>3U1U_B RNA polymerase-associated protein RTF1 homolog; PLUS-3, transcription elongation, Structural Genomics; HET: SO4, UNX, MSE; 1.8A {Homo sapiens}
+Probab=99.96  E-value=4.9e-29  Score=205.64  Aligned_cols=133  Identities=100%  Similarity=1.484  Sum_probs=123.9  Template_Neff=8.700
+
+Q ss_pred             CCCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceEEeeeeeceeccceeeecCCCCCCCCeeee
+Q sp|Q92541|RTF1  350 SQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR  429 (710)
+Q Consensus       350 sqpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvyrvaeitgvvetakvyqlggtrtnkglqlr  429 (710)
+                      ..++.++++|+.|+|+|..|++|++.|+|+++|+||||||.+|++++.+.|+||+|++|..+.++|.+++..|+++|.|.
+T Consensus         5 ~~~~~~~~~~~~~~L~R~~l~~~~~~p~F~~~v~G~fVRv~~~~~~~~~~Y~l~~I~~v~~~~~~Y~~~~~~t~~~l~l~   84 (137)
+T 3U1U_B            5 SQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR   84 (137)
+T ss_dssp             CCBCCSHHHHGGGBCCHHHHHHHTTSTTHHHHHTTCEEEEEEEC----CEEEEEEEEEEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             CCCCCCHHHHhcCeeeHHHHHHHhcCCchHHhcccCEEEEEeCCCCCCeEEEEEEEEEEEeCCcEEEcCCeeeceEEEEE
+Confidence            35788999999999999999999999999999999999999998778899999999999988899999999999999999
+
+
+Q ss_pred             cCCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHHHH
+Q sp|Q92541|RTF1  430 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEA  482 (710)
+Q Consensus       430 hgndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsikea  482 (710)
+                      ||+..+.|+|+.|||++||++||..|+..|...+..+||..+|++|+++|+.|
+T Consensus        85 ~g~~~~~~~~~~vSN~~~t~~E~~~w~~~~~~~~~~~pt~~~v~~K~~~i~~a  137 (137)
+T 3U1U_B           85 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEA  137 (137)
+T ss_dssp             ETTEEEEEEGGGBCSSCCCHHHHHHHHHHHHHTTCCCCBHHHHHHHHHHTCCC
+T ss_pred             eCCeEEEEEeEEEcCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHhC
+Confidence            99999999999999999999999999999999999999999999999988654
+
+
+No 4
+>4L1P_B RNA polymerase-associated protein RTF1 homolog; Tutor, Plus3, Peptide binding protein; HET: GOL; 2.12A {Homo sapiens}
+Probab=99.96  E-value=3e-28  Score=200.57  Aligned_cols=134  Identities=99%  Similarity=1.458  Sum_probs=123.5  Template_Neff=8.800
+
+Q ss_pred             CCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceEEeeeeeceeccceeeecCCCCCCCCeeeec
+Q sp|Q92541|RTF1  351 QPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLRH  430 (710)
+Q Consensus       351 qpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvyrvaeitgvvetakvyqlggtrtnkglqlrh  430 (710)
+                      .+++++++|+.|+|+|..|++||+.|+|+++|+||||||.+|++++.+.|+||+|++|.++.++|.+++..|+++|.|.|
+T Consensus         5 ~~~~~~~~l~~i~l~R~~l~~~~~~p~F~~~v~G~fVRv~~~~~~~~~~Y~i~~I~~v~~~~~~Y~~~~~~t~~~L~l~~   84 (138)
+T 4L1P_B            5 HMVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLRH   84 (138)
+T ss_dssp             CBCCCHHHHGGGBCCHHHHHHHTTSTTHHHHHTTCEEEEEC------CCEEEEEEEEEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             ccCCCHHHHhcCeeeHHHHHHHhcCCchHHhcccCEEEEEecCCCCceEEEEEEEEEEEeCCcEEEcCCeeeceEEEEEe
+Confidence            46889999999999999999999999999999999999999987788999999999999888999999999999999999
+
+
+Q ss_pred             CCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHHHHHC
+Q sp|Q92541|RTF1  431 GNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  484 (710)
+Q Consensus       431 gndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsikealn  484 (710)
+                      |+..+.|+|+.|||++||++||..|+..|...+.++||..+|++|+++|+.++|
+T Consensus        85 g~~~~~~~~~~vSN~~~t~~E~~~w~~~~~~~~~~~pt~~~v~~K~~~l~~~~~  138 (138)
+T 4L1P_B           85 GNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  138 (138)
+T ss_dssp             TTEEEEEEGGGBCSSCCCHHHHHHHHHHHHHHTCCCCBHHHHHHHHHHHHHCC-
+T ss_pred             CCeEEEEEeEEecCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHhC
+Confidence            999999999999999999999999999999999999999999999999999875
+
+
+No 5
+>4L1U_E RNA polymerase-associated protein RTF1 homolog; Tutor, Plus3, Peptide binding protein; HET: TPO, SO4, GOL; 2.424A {Homo sapiens}
+Probab=99.96  E-value=3e-28  Score=200.57  Aligned_cols=134  Identities=99%  Similarity=1.458  Sum_probs=127.7  Template_Neff=8.800
+
+Q ss_pred             CCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceEEeeeeeceeccceeeecCCCCCCCCeeeec
+Q sp|Q92541|RTF1  351 QPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLRH  430 (710)
+Q Consensus       351 qpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvyrvaeitgvvetakvyqlggtrtnkglqlrh  430 (710)
+                      .+++++++|+.|+|+|..|++||+.|+|+++|+||||||.+|++++.+.|+||+|++|.++.++|.+++..|+++|.|.|
+T Consensus         5 ~~~~~~~~l~~i~l~R~~l~~~~~~p~F~~~v~G~fVRv~~~~~~~~~~Y~i~~I~~v~~~~~~Y~~~~~~t~~~L~l~~   84 (138)
+T 4L1U_E            5 HMVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLRH   84 (138)
+T ss_dssp             CBCCCHHHHGGGBCCHHHHHHHTTSTTHHHHHTTCEEEEEEEEETTEEEEEEEEEEEEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             ccCCCHHHHhcCeeeHHHHHHHhcCCchHHhcccCEEEEEecCCCCceEEEEEEEEEEEeCCcEEEcCCeeeceEEEEEe
+Confidence            46889999999999999999999999999999999999999987788999999999999888999999999999999999
+
+
+Q ss_pred             CCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHHHHHC
+Q sp|Q92541|RTF1  431 GNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  484 (710)
+Q Consensus       431 gndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsikealn  484 (710)
+                      |+..+.|+|+.|||++||++||..|+..|...+.++||..+|++|+++|+.++|
+T Consensus        85 g~~~~~~~~~~vSN~~~t~~E~~~w~~~~~~~~~~~pt~~~v~~K~~~l~~~~~  138 (138)
+T 4L1U_E           85 GNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  138 (138)
+T ss_dssp             TTEEEEEEGGGBCSSCCCHHHHHHHHHHHHHHTCCCCBHHHHHHHHHHHHTC--
+T ss_pred             CCeEEEEEeEEecCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHhC
+Confidence            999999999999999999999999999999999999999999999999998875
+
+
+No 6
+>2BZE_A KIAA0252 PROTEIN; HUMAN RTF1 PLUS3 DOMAIN, TRANSCRIPTION; NMR {HOMO SAPIENS} SCOP: b.34.21.1
+Probab=99.95  E-value=5.5e-28  Score=206.77  Aligned_cols=135  Identities=99%  Similarity=1.453  Sum_probs=129.4  Template_Neff=8.000
+
+Q ss_pred             CCCCCCChhhcccccChhhhhhhhCCCccccccCccEEEEEcCCCCCCceEEeeeeeceeccceeeecCCCCCCCCeeee
+Q sp|Q92541|RTF1  350 SQPVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR  429 (710)
+Q Consensus       350 sqpvslpeelnrvrlsrhklerwchmpffaktvtgcfvrigignhnskpvyrvaeitgvvetakvyqlggtrtnkglqlr  429 (710)
+                      ..++.++++|+.|+|+|..|++||+.|+|+++|+||||||.+|+.++.+.|+||+|++|.++.++|.+++..|+++|.|.
+T Consensus        19 ~~~~~~~~~l~~i~L~R~~l~~~~~~p~F~~~v~G~fVRv~~g~~~~~~~Yri~~I~~v~~~~~~Y~~~~~~t~~~L~l~   98 (153)
+T 2BZE_A           19 SHMVSLPEELNRVRLSRHKLERWCHMPFFAKTVTGCFVRIGIGNHNSKPVYRVAEITGVVETAKVYQLGGTRTNKGLQLR   98 (153)
+T ss_dssp             CSBCCCHHHHHHSEECHHHHHHHSSSSSCHHHHTTCEEEEESSTTSSSCCEEEEEEEEEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             ccCCCCHHHHhcCeEeHHHHHHHhcCCchHHhcccCEEEEEecCCCCceeEEEEEEEEEEecCcEEEeCCceeeeEEEEE
+Confidence            35788999999999999999999999999999999999999998778899999999999988899999999999999999
+
+
+Q ss_pred             cCCCCcEEEEEEeCCCCCCHHHHHHHHHHHHHCCCCCCCHHHhhhccCCHHHHHC
+Q sp|Q92541|RTF1  430 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  484 (710)
+Q Consensus       430 hgndqrvfrlefvsnqeftesefmkwkeamfsagmqlptldeinkkelsikealn  484 (710)
+                      +|+..+.|+|..|||++||+.||..|...|...+..+||..+|++|+++|++++|
+T Consensus        99 ~g~~~~~~~~~~iSN~~~te~Ef~~w~~~~~~~~~~~Pt~~~v~~K~~~l~~~ln  153 (153)
+T 2BZE_A           99 HGNDQRVFRLEFVSNQEFTESEFMKWKEAMFSAGMQLPTLDEINKKELSIKEALN  153 (153)
+T ss_dssp             SSSCEEEECGGGBCCSCCCHHHHHHHHHHHHHHTCCCCBHHHHHHHHHHHHHHC-
+T ss_pred             ECCeEEEEEeeEEcCCCCCHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHhC
+Confidence            9999999999999999999999999999999999999999999999999999876
+
+
+No 7
+>5EMX_B RNA polymerase-associated protein RTF1; Transcription, Paf1, Chromatin, Rtf1; 1.399A {Saccharomyces cerevisiae}
+Probab=98.41  E-value=6.2e-07  Score=74.92  Aligned_cols=58  Identities=28%  Similarity=0.319  Sum_probs=49.6  Template_Neff=5.200
+
+Q ss_pred             CCCCCC-CCCCCChhhHHHHHhCCHHHHHHHHHHHHHHHHHHHHHHhhhhhcccccccc
+Q sp|Q92541|RTF1  178 FHDGYG-EDLMGDEEDRARLEQMTEKEREQELFNRIEKREVLKRRFEIKKKLKTAKKKE  235 (710)
+Q Consensus       178 fhdgyg-edlmgdeedrarleqmtekereqelfnriekrevlkrrfeikkklktakkke  235 (710)
+                      -.+.|+ +++|+|++||++|++|||++||+|||+|.++++.+++|++|+++|+++++..
+T Consensus         9 ~~~~yp~eg~y~de~Dr~~L~~m~EleRE~iLaeR~ee~e~~~~r~~l~~~l~~q~~~~   67 (72)
+T 5EMX_B            9 EANPFPLEGKYKDESDREHLESLPEMERETLLFERSQIMQKYQERKLFAAAGADMKEQQ   67 (72)
+T ss_dssp             CCCSCCBTTTBSSHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHHHHHHTC------
+T ss_pred             cCCCCCCCcccCCHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            357788 8999999999999999999999999999999999999999999998876543
+
+
+No 8
+>5E8B_A RNA polymerase-associated protein RTF1; Transcription, Paf1, Chromatin, Rtf1; HET: BEN; 1.62A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=98.36  E-value=7.8e-07  Score=73.23  Aligned_cols=56  Identities=29%  Similarity=0.380  Sum_probs=49.1  Template_Neff=5.400
+
+Q ss_pred             CCCCC-CCCCCChhhHHHHHhCCHHHHHHHHHHHHHHHHHHHHHHhhhhhccccccc
+Q sp|Q92541|RTF1  179 HDGYG-EDLMGDEEDRARLEQMTEKEREQELFNRIEKREVLKRRFEIKKKLKTAKKK  234 (710)
+Q Consensus       179 hdgyg-edlmgdeedrarleqmtekereqelfnriekrevlkrrfeikkklktakkk  234 (710)
+                      .+.|+ +++|+|++||++|++|||++||+|||+|.++++.+++|.+|+++|+.+++.
+T Consensus         5 ~~~yp~eg~y~de~Dr~~L~~m~EleRE~iLaeR~ee~e~~~~r~~l~~k~~~q~~~   61 (67)
+T 5E8B_A            5 ANPFPLEGKYKDESDREHLESLPEMERETLLFERSQIMQKYQERKLFRAAGRDMKEQ   61 (67)
+T ss_dssp             CCSCCBTTTBSSHHHHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHHHHHHTC-----
+T ss_pred             CCCCCCCcccCCHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            36788 999999999999999999999999999999999999999999999877543
+
+
+No 9
+>7OOP_S transcription, DNA repair, TCR;{Sus scrofa}
+Probab=77.91  E-value=22  Score=39.42  Aligned_cols=14  Identities=29%  Similarity=0.456  Sum_probs=6.2  Template_Neff=10.500
+
+Q ss_pred             CCCCCCcccCCCCC
+Q sp|Q92541|RTF1   43 KKRKGRVVIDSDTE   56 (710)
+Q Consensus        43 kkrkgrvvidsdte   56 (710)
+                      .|++....+.++++
+T Consensus      1006 ~~~~~~~~~~~~~~ 1019 (1173)
+T 7OOP_S         1006 GKIKSKAIISSSDD 1019 (1173)
+T ss_pred             CCccccceeccCCC
+Confidence            33444445544433
+
+
+No 10
+>7B9V_y Pre-mRNA-splicing factor 8, Pre-mRNA-splicing helicase; splicing, spliceosome, RNA, ribozyme; HET: GTP, KGN, SEP; 2.8A {Saccharomyces cerevisiae}
+Probab=62.04  E-value=21  Score=35.06  Aligned_cols=15  Identities=33%  Similarity=0.607  Sum_probs=13.2  Template_Neff=7.100
+
+Q ss_pred             HhHHhhhhhchcchh
+Q sp|Q92541|RTF1  559 AISYINQRNREWNIV  573 (710)
+Q Consensus       559 aisyinqrnrewniv  573 (710)
+                      .+.|||+||++.|..
+T Consensus       192 dv~YINerNk~FN~K  206 (215)
+T 7B9V_y          192 VESFINDKNKQFNEK  206 (215)
+T ss_pred             ccchHHHHHHHHHHH
+Confidence            489999999999964
+
+
+No 11
+>6ICZ_M Protein mago nashi homolog 2; Human Post-catalytic Spliceosome, SPLICING; HET: GTP, ATP, IHP, SEP; 3.0A {Homo sapiens}
+Probab=55.48  E-value=14  Score=36.74  Aligned_cols=16  Identities=44%  Similarity=0.713  Sum_probs=13.8  Template_Neff=7.100
+
+Q ss_pred             HhHHhhhhhchcchhh
+Q sp|Q92541|RTF1  559 AISYINQRNREWNIVE  574 (710)
+Q Consensus       559 aisyinqrnrewnive  574 (710)
+                      .+.|||+||++.|..-
+T Consensus       207 dv~yINekNk~FN~KL  222 (243)
+T 6ICZ_M          207 DIDYINERNAKFNKKA  222 (243)
+T ss_pred             CCccccHHHHHHHHHH
+Confidence            4899999999999743
+
+
+No 12
+>6ID1_M Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.86A {Homo sapiens}
+Probab=55.48  E-value=14  Score=36.74  Aligned_cols=16  Identities=44%  Similarity=0.713  Sum_probs=13.8  Template_Neff=7.100
+
+Q ss_pred             HhHHhhhhhchcchhh
+Q sp|Q92541|RTF1  559 AISYINQRNREWNIVE  574 (710)
+Q Consensus       559 aisyinqrnrewnive  574 (710)
+                      .+.|||+||++.|..-
+T Consensus       207 dv~yINekNk~FN~KL  222 (243)
+T 6ID1_M          207 DIDYINERNAKFNKKA  222 (243)
+T ss_pred             CCccccHHHHHHHHHH
+Confidence            4899999999999743
+
+
+No 13
+>6QDV_y Eukaryotic initiation factor 4A-III, RNA-binding; spliceosome, RNA, complex, SPLICING; HET: GTP, ATP, IHP, SEP; 3.3A {Homo sapiens}
+Probab=52.74  E-value=18  Score=32.88  Aligned_cols=44  Identities=25%  Similarity=0.426  Sum_probs=24.5  Template_Neff=7.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHh-chhHhHHhhhhhchcchh
+Q sp|Q92541|RTF1  530 DKAKQIQDQLNELEERAEALDRQRTK-NISAISYINQRNREWNIV  573 (710)
+Q Consensus       530 dkakqiqdqlneleeraealdrqrtk-nisaisyinqrnrewniv  573 (710)
+                      +.+..|...|..-.++.....++|.. .-..+.+||+||++.|..
+T Consensus        78 e~v~~lv~~l~~~~~~r~~~~rrr~~~~~~~~~yINekNk~FN~K  122 (144)
+T 6QDV_y           78 EEIDRMVIDLEKQIEKRDKYSRRRPYNDDADIDYINERNAKFNKK  122 (144)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCCCCCcCCCCcccHHHHHHHHH
+Confidence            44555555555443332222222222 223489999999999974
+
+
+No 14
+>3JC6_2 Cell division control protein 45; CMG helicase, Cryo-EM, REPLICATION; 3.7A {Saccharomyces cerevisiae}
+Probab=24.85  E-value=2.8e+02  Score=32.17  Aligned_cols=6  Identities=50%  Similarity=0.562  Sum_probs=2.6  Template_Neff=8.400
+
+Q ss_pred             ccEEEE
+Q sp|Q92541|RTF1  384 GCFVRI  389 (710)
+Q Consensus       384 gcfvri  389 (710)
+                      .++|||
+T Consensus       292 ~i~vri  297 (868)
+T 3JC6_2          292 EIHVRI  297 (868)
+T ss_dssp             CCCCCC
+T ss_pred             eEEEEE
+Confidence            344444
+
+
+No 15
+>6SKL_2 Cell division control protein 45; protein-DNA complex, replisome, AAA+ helicase; HET: ANP; 3.7A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=24.85  E-value=2.8e+02  Score=32.17  Aligned_cols=13  Identities=31%  Similarity=0.503  Sum_probs=6.7  Template_Neff=8.400
+
+Q ss_pred             cccccCccEEEEE
+Q sp|Q92541|RTF1  378 FAKTVTGCFVRIG  390 (710)
+Q Consensus       378 faktvtgcfvrig  390 (710)
+                      +......++|||.
+T Consensus       286 ~~~~~~~i~vri~  298 (868)
+T 6SKL_2          286 YARIHSEIHVRIS  298 (868)
+T ss_dssp             GGGTCSCCEEEEE
+T ss_pred             hhhcCCeEEEEEe
+Confidence            3333445666664
+
+
+No 16
+>7PMK_2 Genome stability, DNA replication, Ubiquitination; HET: ANP; 3.2A {Saccharomyces cerevisiae}
+Probab=24.85  E-value=2.8e+02  Score=32.17  Aligned_cols=9  Identities=33%  Similarity=0.372  Sum_probs=4.6  Template_Neff=8.400
+
+Q ss_pred             cCccEEEEE
+Q sp|Q92541|RTF1  382 VTGCFVRIG  390 (710)
+Q Consensus       382 vtgcfvrig  390 (710)
+                      ...++|||.
+T Consensus       290 ~~~i~vri~  298 (868)
+T 7PMK_2          290 HSEIHVRIS  298 (868)
+T ss_dssp             CSCCEEEEE
+T ss_pred             CCeEEEEEe
+Confidence            344555554
+
+
+No 17
+>7NKX_W chromatin remodelling, transcription, nucleosome, chromatin; HET: ADP; 2.9A {Saccharomyces cerevisiae}
+Probab=24.08  E-value=1.1e+03  Score=29.04  Aligned_cols=10  Identities=10%  Similarity=0.139  Sum_probs=5.2  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHHHH
+Q sp|Q92541|RTF1  203 EREQELFNRI  212 (710)
+Q Consensus       203 ereqelfnri  212 (710)
+                      +-|.+|.-|.
+T Consensus       178 ~Ie~il~~r~  187 (1468)
+T 7NKX_W          178 GIDIVINHRL  187 (1468)
+T ss_pred             CcceEEEEee
+Confidence            3455555554
+
+

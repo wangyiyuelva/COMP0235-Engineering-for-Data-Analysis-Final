@@ -1,0 +1,165 @@
+Query         tr|H0YFE3|H0YFE3_HUMAN
+Match_columns 105
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:59:54 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1191.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2CUQ_A Four and a half LIM; HE  28.6      65 0.00071   13.1   0.8   12   46-57      1-12  (80)
+  2 2AB9_A Protein, beta-sheet, ra  17.8 1.7E+02  0.0019   18.6   1.3   14   36-49     18-31  (31)
+  3 7RD1_S Adenovirus, simian aden  17.1   2E+02  0.0022   24.2   2.0   36   37-74    190-225 (227)
+  4 6CGV_U Hexon protein, Penton p  16.4 2.1E+02  0.0022   24.2   1.9   36   37-74    190-225 (227)
+  5 7S78_V Adenovirus, ts1 mutant,  16.4 2.1E+02  0.0022   24.2   1.9   36   37-74    190-225 (227)
+  6 3ZIF_R HEXON PROTEIN, PENTON P  16.1 1.9E+02  0.0021   24.3   1.6   36   37-74    179-214 (216)
+  7 7MQ9_L3 Ribosomal assembly int  13.5 5.5E+02   0.006   16.9   2.9   35   16-50     54-89  (116)
+  8 7MQA_L3 Ribosomal assembly int  13.5 5.5E+02   0.006   16.9   2.9   35   16-50     54-89  (116)
+  9 4Q2S_A Uncharacterized protein  11.6 1.8E+02   0.002   23.7   0.4   11   48-58     29-39  (143)
+ 10 6SWU_A PROTEIN COMPLEX, PROTEI  11.5 6.7E+02  0.0072   16.8   2.8   16   70-85    323-338 (343)
+
+No 1
+>2CUQ_A Four and a half LIM; HET: ZN; NMR {Homo sapiens} SCOP: g.39.1.3
+Probab=28.56  E-value=65  Score=13.09  Aligned_cols=12  Identities=17%  Similarity=-0.014  Sum_probs=7.2  Template_Neff=15.500
+
+Q ss_pred             CCCCccCCCCCC
+Q tr|H0YFE3|H0YF   46 NRSPWCQNPYVS   57 (105)
+Q Consensus        46 nrspwcqnpyvs   57 (105)
+                      |++++|...|..
+T Consensus         1 ~~~~~~~~~~~~   12 (80)
+T 2CUQ_A            1 GSSGSSGPCYEN   12 (80)
+T ss_dssp             CCCCSCCCCCCC
+T ss_pred             CCCCcChhhhhc
+Confidence            356677666554
+
+
+No 2
+>2AB9_A Protein, beta-sheet, random coil, HYDROLASE; NMR {Helianthus annuus}
+Probab=17.78  E-value=1.7e+02  Score=18.62  Aligned_cols=14  Identities=50%  Similarity=1.073  Sum_probs=10.6  Template_Neff=1.000
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   36 EKEIPPTVFPNRSP   49 (105)
+Q Consensus        36 ekeipptvfpnrsp   49 (105)
+                      .|.|||..||...|
+T Consensus        18 tksippicfpdgrp   31 (31)
+T 2AB9_A           18 TKSIPPICFPDGRP   31 (31)
+T ss_dssp             CSSSSCSSSSCCCC
+T ss_pred             ccCCCCcccCCCCC
+Confidence            46789999987544
+
+
+No 3
+>7RD1_S Adenovirus, simian adenovirus, chimpanzee adenovirus; 3.07A {Chimpanzee adenovirus Y25}
+Probab=17.14  E-value=2e+02  Score=24.21  Aligned_cols=36  Identities=25%  Similarity=0.504  Sum_probs=27.5  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   37 KEIPPTVFPNRSPWCQNPYVSAHPYCPLIEPHNTSTAG   74 (105)
+Q Consensus        37 keipptvfpnrspwcqnpyvsahpycpliephntstag   74 (105)
+                      +|.+|.|+.|  |+-.+|-.-.+-++|+..+...|.+|
+T Consensus       190 ~eFvP~VY~n--PFSg~p~~FP~eF~p~yd~~~~sv~g  225 (227)
+T 7RD1_S          190 EEFTPSVYFN--PFSGSPGHYPDEFIPNFDAISESVDG  225 (227)
+T ss_pred             HHcCCeeecc--CCCCCcCcCchhhccccCCCCCCcCC
+Confidence            5788888876  55677777778889998887766554
+
+
+No 4
+>6CGV_U Hexon protein, Penton protein, Pre-hexon-linking; Human adenovirus Crystal structure Ad5F35; 3.8A {Human adenovirus C serotype 5}
+Probab=16.44  E-value=2.1e+02  Score=24.20  Aligned_cols=36  Identities=25%  Similarity=0.480  Sum_probs=27.5  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   37 KEIPPTVFPNRSPWCQNPYVSAHPYCPLIEPHNTSTAG   74 (105)
+Q Consensus        37 keipptvfpnrspwcqnpyvsahpycpliephntstag   74 (105)
+                      +|.+|.|+.|  |+-.+|-.-.+-++|+..+...|.+|
+T Consensus       190 ~eFvP~VY~n--PFSg~p~~FP~eF~p~yd~~~~sv~g  225 (227)
+T 6CGV_U          190 EEFVPSVYFN--PFSGPPGHYPDQFIPNFDAVKDSADG  225 (227)
+T ss_pred             HHhCCeeecC--CCCCCCCcCchhcccccCCCCCccCC
+Confidence            5788888876  55677777778889998887766554
+
+
+No 5
+>7S78_V Adenovirus, ts1 mutant, minor protein; 3.72A {Human adenovirus C serotype 5}
+Probab=16.44  E-value=2.1e+02  Score=24.20  Aligned_cols=36  Identities=25%  Similarity=0.480  Sum_probs=27.5  Template_Neff=4.300
+
+Q ss_pred             CCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   37 KEIPPTVFPNRSPWCQNPYVSAHPYCPLIEPHNTSTAG   74 (105)
+Q Consensus        37 keipptvfpnrspwcqnpyvsahpycpliephntstag   74 (105)
+                      +|.+|.|+.|  |+-.+|-.-.+-++|+..+...|.+|
+T Consensus       190 ~eFvP~VY~n--PFSg~p~~FP~eF~p~yd~~~~sv~g  225 (227)
+T 7S78_V          190 EEFVPSVYFN--PFSGPPGHYPDQFIPNFDAVKDSADG  225 (227)
+T ss_pred             HHhCCeeecC--CCCCCCCcCchhcccccCCCCCccCC
+Confidence            5788888876  55677777778889998887766554
+
+
+No 6
+>3ZIF_R HEXON PROTEIN, PENTON PROTEIN, PIX; VIRUS, ASSEMBLY INTERMEDIATE; 4.5A {BOVINE ADENOVIRUS 3}
+Probab=16.14  E-value=1.9e+02  Score=24.27  Aligned_cols=36  Identities=22%  Similarity=0.401  Sum_probs=29.7  Template_Neff=4.200
+
+Q ss_pred             CCCCCCCCCCCCCccCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   37 KEIPPTVFPNRSPWCQNPYVSAHPYCPLIEPHNTSTAG   74 (105)
+Q Consensus        37 keipptvfpnrspwcqnpyvsahpycpliephntstag   74 (105)
+                      +|.+|.|+.|  |+-.+|-.-.+-++|+..+...|.+|
+T Consensus       179 ~eFvP~VY~n--PFSg~p~~FP~eF~p~yd~~~~sv~g  214 (216)
+T 3ZIF_R          179 EEFVPAVYLN--PYSGPPDSYPDQFIRHYNVYSNSVSG  214 (216)
+T ss_dssp             HSSCCCCCCS--SSCSCSSSCCCTTSTTCCSSSCSCCC
+T ss_pred             HHcCCeEecC--CCCCCcccCchhhcccccccccccCC
+Confidence            5789999987  56788888888899999998877665
+
+
+No 7
+>7MQ9_L3 Ribosomal assembly intermediate, RIBOSOME; HET: GTP, ATP, SAH, MG; 3.87A {Homo sapiens}
+Probab=13.49  E-value=5.5e+02  Score=16.91  Aligned_cols=35  Identities=17%  Similarity=0.306  Sum_probs=22.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCCChHHHHHHHHHhhhc-CCCCCCCCCCCCCc
+Q tr|H0YFE3|H0YF   16 QPKKDISNYQVEQAQVLLKRE-KEIPPTVFPNRSPW   50 (105)
+Q Consensus        16 qpkkdisnyqveqaqvllkre-keipptvfpnrspw   50 (105)
+                      ..-.+++..++.+....+.+- +...|..+.||.++
+T Consensus        54 ~~~~~Ls~~~~~~l~~~i~~~~~~~i~~~l~nr~~d   89 (116)
+T 7MQ9_L3          54 KRAGELTEDEVERVITIMQNPRQYKIPDWFLNRQXX   89 (116)
+T ss_pred             CCcCCCCHHHHHHHHHHHhChhhhCCChhHhcCCCC
+Confidence            334567777777777777652 22344577888776
+
+
+No 8
+>7MQA_L3 Ribosomal assembly intermediate, RIBOSOME; HET: OMC, MG, A2M, PSU, 4AC, GTP, SAH, OMU, ATP, OMG; 2.7A {Homo sapiens}
+Probab=13.49  E-value=5.5e+02  Score=16.91  Aligned_cols=35  Identities=17%  Similarity=0.306  Sum_probs=22.0  Template_Neff=8.700
+
+Q ss_pred             CCCCCCChHHHHHHHHHhhhc-CCCCCCCCCCCCCc
+Q tr|H0YFE3|H0YF   16 QPKKDISNYQVEQAQVLLKRE-KEIPPTVFPNRSPW   50 (105)
+Q Consensus        16 qpkkdisnyqveqaqvllkre-keipptvfpnrspw   50 (105)
+                      ..-.+++..++.+....+.+- +...|..+.||.++
+T Consensus        54 ~~~~~Ls~~~~~~l~~~i~~~~~~~i~~~l~nr~~d   89 (116)
+T 7MQA_L3          54 KRAGELTEDEVERVITIMQNPRQYKIPDWFLNRQXX   89 (116)
+T ss_pred             CCcCCCCHHHHHHHHHHHhChhhhCCChhHhcCCCC
+Confidence            334567777777777777652 22344577888776
+
+
+No 9
+>4Q2S_A Uncharacterized protein C20G4.08; Ge1 domain, P-body assembly, RNA; 1.35A {Schizosaccharomyces pombe}
+Probab=11.59  E-value=1.8e+02  Score=23.66  Aligned_cols=11  Identities=36%  Similarity=1.075  Sum_probs=8.5  Template_Neff=1.900
+
+Q ss_pred             CCccCCCCCCC
+Q tr|H0YFE3|H0YF   48 SPWCQNPYVSA   58 (105)
+Q Consensus        48 spwcqnpyvsa   58 (105)
+                      +-||++|-++.
+T Consensus        29 aeWC~~Ps~~g   39 (143)
+T 4Q2S_A           29 AEWCNMPSVAG   39 (143)
+T ss_dssp             HHHHHSCCHHH
+T ss_pred             HHHhcCCcccC
+Confidence            57999997653
+
+
+No 10
+>6SWU_A PROTEIN COMPLEX, PROTEIN ENGINEERING, MOTOR; HET: PEG, EDO; 2.849A {Mus musculus}
+Probab=11.47  E-value=6.7e+02  Score=16.76  Aligned_cols=16  Identities=6%  Similarity=0.046  Sum_probs=7.7  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|H0YFE3|H0YF   70 TSTAGGRLDRQPRTRS   85 (105)
+Q Consensus        70 tstaggrldrqprtrs   85 (105)
+                      -...|-|.++|+..+-
+T Consensus       323 ~~~~~~~~~~~~~~~~  338 (343)
+T 6SWU_A          323 STGSGTVFTTEDIYEW  338 (343)
+T ss_dssp             -----CCCCCCCCCCC
+T ss_pred             ccCCCCeecccchhcc
+Confidence            3456677788877653
+
+

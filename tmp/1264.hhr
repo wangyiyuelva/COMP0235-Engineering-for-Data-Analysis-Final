@@ -1,0 +1,244 @@
+Query         tr|C9J2H7|C9J2H7_HUMAN
+Match_columns 176
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:31:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1264.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7F40_B Lysophospholipid Acyltr  99.5 3.9E-13 4.2E-18  110.3   9.6  163    6-175    36-222 (501)
+  2 7EWT_A Lysophospholipid Acyltr  99.4 2.6E-12 2.8E-17  102.4  10.4  157   12-175     1-181 (448)
+  3 6BUH_F D-alanyl carrier protei  99.0 3.8E-09 4.1E-14   84.7   8.4  107   49-175    60-174 (425)
+  4 6BUI_B D-alanyl transfer prote  99.0 3.8E-09 4.1E-14   84.7   8.4  107   49-175    60-174 (425)
+  5 7MHZ_A MBOAT, GOAT, porcupine,  98.6 7.7E-07 8.4E-12   72.5   8.5  119   41-175   102-225 (493)
+  6 6I3H_B Matrix protein 1; Matri  21.1 1.9E+02  0.0021   26.0   2.7    8  117-124    25-32  (177)
+  7 6HRK_C Allophycocyanin beta-18  20.5 5.5E+02  0.0059   18.7   4.5   14  146-159    54-67  (147)
+  8 6XWK_BBB Phycocyanin alpha sub  20.4 3.8E+02  0.0041   20.5   3.9    9  150-158    88-96  (172)
+  9 7EXT_Q3 Phycobilisome, Synecho  19.5 3.1E+02  0.0034   20.7   3.2    7  151-157    89-95  (169)
+ 10 6FZO_C Smurfp; smurfp, biliver  19.2 5.1E+02  0.0055   18.6   4.1   44  114-157    14-65  (138)
+
+No 1
+>7F40_B Lysophospholipid Acyltransferase, LPCAT3, membrane-bound O-acyltransferase; HET: 3IX, PCW; 3.49A {Gallus gallus}
+Probab=99.48  E-value=3.9e-13  Score=110.32  Aligned_cols=163  Identities=25%  Similarity=0.327  Sum_probs=133.9  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCccccccCcHHHHH---------------HhCCCCCCCHHHH--------HHHHHHhhCchhHHHHHHHhhH
+Q tr|C9J2H7|C9J2    6 TTGSTLLQPLSNAVQLPIDQAA---------------RHMIPGCLSPSVC--------LTYLAESTGEKYALHFLVQSGI   62 (176)
+Q Consensus         6 ttgstllqplsnavqlpidqaa---------------rhmipgclspsvc--------ltylaestgekyalhflvqsgi   62 (176)
+                      .+.++.++++|+.+|++.|+++               +.+.. .++++.|        +.+++..+|.. .++.++.+++
+T Consensus        36 ~~~~~~~~~~~~~~~~~~~~~~~~~~lll~~~~~~~~~~~~~-~~~~~~r~~~~~~~g~~~~~~~~g~~-~~~~l~~~l~  113 (501)
+T 7F40_B           36 AGSGWSLARVAEALGSSEQALRLIVSILMGYPFALFQRYFLF-QKETYLIHLYNVFTGLSIAYFNFGMQ-FFHSLLCVLI  113 (501)
+T ss_dssp             ------CHHHHSTTSCCHHHHHHHHHHHTHHHHHHHHHHCCC-CCCHHHHHHHHHHHHHHHHHHHCSSS-HHHHHHHHHH
+T ss_pred             cchhHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHhc-CCCHHHHHHHHHHHHHHHHHHHchHh-HHHHHHHHHH
+Confidence            4566789999999999999988               44322 2456666        66677788999 8899999999
+
+
+Q ss_pred             hHHHHHHHchcccc-hhHHHHHHHHHHHHHhhhhhhhccccccccCCchHHHHHHHHHHHHHHHHhcccCCCCCCCHHHH
+Q tr|C9J2H7|C9J2   63 SYCIMIIIGVENMH-NYCFVFALGYLTVCQVTRVYIFDYGQYSADFSGPMMIITQKITSLACEIHDGMFRKDEELTSSQR  141 (176)
+Q Consensus        63 sycimiiigvenmh-nycfvfalgyltvcqvtrvyifdygqysadfsgpmmiitqkitslaceihdgmfrkdeeltssqr  141 (176)
+                      +|++....++++.. ++.++++++++...++    ++.+..++.+++.++|++++|+++++.|++|++ .++++.+++||
+T Consensus       114 ~y~i~~~~~~~~~~~~~~~~~~l~~L~~~~~----~~~~~~~~~~~~~~~m~~tlk~is~~~d~~dg~-~~~~~~~~~~~  188 (501)
+T 7F40_B          114 QFLILRLMGRTVTAVFTTFVFQMTYLMAGYY----FTATEHYDIKWTMPHCVLTLKLIGLAIDYYDGG-KDPELLTPEQR  188 (501)
+T ss_dssp             HHHHHHSSTTCHHHHHHHHHHHHHHHHHHHH----HHCCSSCCCSTHHHHHHHHHHHHHHHHHHHHHT-SCSSCSSTTTT
+T ss_pred             HHHHHHHhCCccHHHHHHHHHHHHHHHHHHH----HHhCCCCCCCCcHHHHHHHHHHHHHHHHhhcCC-CCHHHCCHHHH
+Confidence            99998887665544 5788889999999888    777778888899999999999999999999998 77777778888
+
+
+Q ss_pred             HHHHHHcHHHHHHHHHHhhhhhhhhccccccccC
+Q tr|C9J2H7|C9J2  142 DLAVRRMPSLLEYLSYNCNFMGILAGPLCSYKDY  175 (176)
+Q Consensus       142 dlavrrmpslleylsyncnfmgilagplcsykdy  175 (176)
+                      +.++++.||+.|+++|++|+|++++||+++|+||
+T Consensus       189 ~~~i~~~ps~~~~l~Y~~ffp~~~~GPi~~y~~f  222 (501)
+T 7F40_B          189 RFAVRGVPTLLEVSGFSYFYGAFMVGPQFSMTDY  222 (501)
+T ss_dssp             TTSCCCCCCSSHHHHHHTCSSSSSSCCCCCSHHH
+T ss_pred             HHHHccCCCHHHHHHHHhccccccccccccHHHH
+Confidence            7777788999999999999999999999999987
+
+
+No 2
+>7EWT_A Lysophospholipid Acyltransferase, membrane bound O-acyltransferase; 3.4A {Gallus gallus}
+Probab=99.43  E-value=2.6e-12  Score=102.40  Aligned_cols=157  Identities=25%  Similarity=0.350  Sum_probs=117.9  Template_Neff=9.700
+
+Q ss_pred             CCCccccccCcHHHHH---------------HhCCCCCCCHHHH--------HHHHHHhhCchhHHHHHHHhhHhHHHHH
+Q tr|C9J2H7|C9J2   12 LQPLSNAVQLPIDQAA---------------RHMIPGCLSPSVC--------LTYLAESTGEKYALHFLVQSGISYCIMI   68 (176)
+Q Consensus        12 lqplsnavqlpidqaa---------------rhmipgclspsvc--------ltylaestgekyalhflvqsgisycimi   68 (176)
+                      |+++|+.+|+|.|+++               ++++. .++++.|        +.+....+|.. .++.++.++++|++.+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~-~~~~~~r~~~~~~~g~~~~~~~~g~~-~~~~l~~~~~~y~~~~   78 (448)
+T 7EWT_A            1 LARVAEALGSSEQALRLIVSILMGYPFALFQRYFLF-QKETYLIHLYNVFTGLSIAYFNFGMQ-FFHSLLCVLIQFLILR   78 (448)
+T ss_dssp             CCSHHHHSSSCHHHHHHHHHHHTHHHHTTTTTTTTS-CSCSHHHHHHHHHHHHHHHHHHCTTH-HHHHHHHHHHHTTTTT
+T ss_pred             CHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHhcC-CCCHHHHHHHHHHHHHHHHHHHhcHH-HHHHHHHHHHHHHHHH
+Confidence            5789999999999999               33211 1445555        67777888988 8888999999999888
+
+
+Q ss_pred             HHchcccc-hhHHHHHHHHHHHHHhhhhhhhccccccccCCchHHHHHHHHHHHHHHHHhcccCCCCCCCHHHHHHHHHH
+Q tr|C9J2H7|C9J2   69 IIGVENMH-NYCFVFALGYLTVCQVTRVYIFDYGQYSADFSGPMMIITQKITSLACEIHDGMFRKDEELTSSQRDLAVRR  147 (176)
+Q Consensus        69 iigvenmh-nycfvfalgyltvcqvtrvyifdygqysadfsgpmmiitqkitslaceihdgmfrkdeeltssqrdlavrr  147 (176)
+                      ..++++.. ++.++.+++++...++    ++.++.++.+++.++|++++|+++++.|+.|++ .++++.++++++.++++
+T Consensus        79 ~~~~~~~~~~~~~~~~l~~L~~~~~----~~~~~~~~~~~~~~~~~~~lr~is~~~d~~~~~-~~~~~~~~~~~~~~~~~  153 (448)
+T 7EWT_A           79 LMGRTVTAVFTTFVFQMTYLMAGYY----FTATEHYDIKWTMPHCVLTLKLIGLAIDYYDGG-KDPELLTPEQRRFAVRG  153 (448)
+T ss_dssp             SSTTSTHHHHHHHHHHHHHHHHHHH----C------CCCTHHHHHHHHHHHHHHHHHHC---------CCTTHHHHCCCC
+T ss_pred             HhCcccHHHHHHHHHHHHHHHHHHH----HHHcCCCCCCCcHHHHHHHHHHHHHHHHhhcCC-CCHHHCCHHHHHHHHhc
+Confidence            77665544 5778888999998887    777777888899999999999999999999998 77778888888877888
+
+
+Q ss_pred             cHHHHHHHHHHhhhhhhhhccccccccC
+Q tr|C9J2H7|C9J2  148 MPSLLEYLSYNCNFMGILAGPLCSYKDY  175 (176)
+Q Consensus       148 mpslleylsyncnfmgilagplcsykdy  175 (176)
+                      .|++.|+++|++|+|++++||+++|+||
+T Consensus       154 ~p~~~~~l~Y~~~fp~~~~GPi~~y~~f  181 (448)
+T 7EWT_A          154 VPTLLEVSGFSYFYGAFMVGPQFSMTDY  181 (448)
+T ss_dssp             ---CHHHHHHHSCGGGSSSCCCCCHHHH
+T ss_pred             CCCHHHHHHHHhccccccccCcccHHHH
+Confidence            8999999999999999999999999987
+
+
+No 3
+>6BUH_F D-alanyl carrier protein, D-alanyl transfer; Membrane protein; HET: SEP; 3.15A {Streptococcus thermophilus}
+Probab=99.00  E-value=3.8e-09  Score=84.68  Aligned_cols=107  Identities=14%  Similarity=0.075  Sum_probs=80.4  Template_Neff=9.500
+
+Q ss_pred             CchhHHHHHHHhhHhHHHHHHHch------cccc-hhHHHHHHHHHHHHHhhhhhhhccc-cccccCCchHHHHHHHHHH
+Q tr|C9J2H7|C9J2   49 GEKYALHFLVQSGISYCIMIIIGV------ENMH-NYCFVFALGYLTVCQVTRVYIFDYG-QYSADFSGPMMIITQKITS  120 (176)
+Q Consensus        49 gekyalhflvqsgisycimiiigv------enmh-nycfvfalgyltvcqvtrvyifdyg-qysadfsgpmmiitqkits  120 (176)
+                      |....++.++.++++|++.+...+      ++.. +..++.+++++...+.    ..... ..+...+.+.+++++|+++
+T Consensus        60 ~~~~~~~~l~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~l~~L~~~~~----~~~~~~~~~~~~~~gis~~~lr~is  135 (425)
+T 6BUH_F           60 HASQILALLFYIVWQIIWVYSYKRYRSQRDNKWVFYLHSFLVVLPLILVKV----EPTINGTQSLLNFLGISYLTFRAVG  135 (425)
+T ss_dssp             TTTHHHHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHH----HHHHSSSCCTTCCTTHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHccccCCchHHHHHHHHHHHHHHHHHHH----cHhhccccccHHHHHHHHHHHHHHH
+Confidence            443266788888899988776533      2223 4566777888887776    44332 2234455667889999999
+
+
+Q ss_pred             HHHHHHhcccCCCCCCCHHHHHHHHHHcHHHHHHHHHHhhhhhhhhccccccccC
+Q tr|C9J2H7|C9J2  121 LACEIHDGMFRKDEELTSSQRDLAVRRMPSLLEYLSYNCNFMGILAGPLCSYKDY  175 (176)
+Q Consensus       121 laceihdgmfrkdeeltssqrdlavrrmpslleylsyncnfmgilagplcsykdy  175 (176)
+                      ++.|.+|++                .+++++.|+++|++|+|++++||+.+|+||
+T Consensus       136 ~~~d~~~g~----------------~~~~s~~~~l~Y~~~fp~l~~GPi~~y~~f  174 (425)
+T 6BUH_F          136 MIIEMRDGV----------------LKEFTLGEFLRFMLFMPTFTSGPIDRFKRF  174 (425)
+T ss_dssp             HHHHHHTTS----------------CCCCCHHHHHHHHTCSTTSSSCCCCCHHHH
+T ss_pred             HHHHHHcCC----------------CCCCCHHHHHHHHhhchHhhHHHhHhHHHH
+Confidence            999999987                335899999999999999999999999987
+
+
+No 4
+>6BUI_B D-alanyl transfer protein DltB; Membrane protein; 3.27A {Streptococcus thermophilus}
+Probab=99.00  E-value=3.8e-09  Score=84.68  Aligned_cols=107  Identities=14%  Similarity=0.075  Sum_probs=80.5  Template_Neff=9.500
+
+Q ss_pred             CchhHHHHHHHhhHhHHHHHHHch------cccc-hhHHHHHHHHHHHHHhhhhhhhccc-cccccCCchHHHHHHHHHH
+Q tr|C9J2H7|C9J2   49 GEKYALHFLVQSGISYCIMIIIGV------ENMH-NYCFVFALGYLTVCQVTRVYIFDYG-QYSADFSGPMMIITQKITS  120 (176)
+Q Consensus        49 gekyalhflvqsgisycimiiigv------enmh-nycfvfalgyltvcqvtrvyifdyg-qysadfsgpmmiitqkits  120 (176)
+                      |....++.++.++++|++.+...+      ++.. +..++.+++++...+.    ..... ..+...+.+.+++++|+++
+T Consensus        60 ~~~~~~~~l~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~l~~L~~~~~----~~~~~~~~~~~~~~gis~~~lr~is  135 (425)
+T 6BUI_B           60 HASQILALLFYIVWQIIWVYSYKRYRSQRDNKWVFYLHSFLVVLPLILVKV----EPTINGTQSLLNFLGISYLTFRAVG  135 (425)
+T ss_dssp             STTHHHHHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHH----GGGTTSSCCTTCCTTHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHccccCCchHHHHHHHHHHHHHHHHHHH----cHhhccccccHHHHHHHHHHHHHHH
+Confidence            443266788888899988876533      1223 4566777888887776    54332 2233455667889999999
+
+
+Q ss_pred             HHHHHHhcccCCCCCCCHHHHHHHHHHcHHHHHHHHHHhhhhhhhhccccccccC
+Q tr|C9J2H7|C9J2  121 LACEIHDGMFRKDEELTSSQRDLAVRRMPSLLEYLSYNCNFMGILAGPLCSYKDY  175 (176)
+Q Consensus       121 laceihdgmfrkdeeltssqrdlavrrmpslleylsyncnfmgilagplcsykdy  175 (176)
+                      ++.|.+|++                .+++++.|+++|++|+|++++||+.+|+||
+T Consensus       136 ~~~d~~~g~----------------~~~~s~~~~l~Y~~~fp~l~~GPi~~y~~f  174 (425)
+T 6BUI_B          136 MIIEMRDGV----------------LKEFTLGEFLRFMLFMPTFTSGPIDRFKRF  174 (425)
+T ss_dssp             HHHHHHTTS----------------CCCCCHHHHHHHHTCSTTSSSCCCCCHHHH
+T ss_pred             HHHHHHcCC----------------CCCCCHHHHHHHHhhchHhhHHHhHhHHHH
+Confidence            999999987                335899999999999999999999999987
+
+
+No 5
+>7MHZ_A MBOAT, GOAT, porcupine, acyl transferase; HET: PKZ, AJP, PLM, HEM;{Homo sapiens}
+Probab=98.55  E-value=7.7e-07  Score=72.54  Aligned_cols=119  Identities=13%  Similarity=0.144  Sum_probs=76.1  Template_Neff=9.700
+
+Q ss_pred             HHHHHHhhCchhHHHHHHHhhHhHHHHHHHchcccchhHHHHHHHHHHHHHhhh--hhhhccccccccC---CchHHHHH
+Q tr|C9J2H7|C9J2   41 LTYLAESTGEKYALHFLVQSGISYCIMIIIGVENMHNYCFVFALGYLTVCQVTR--VYIFDYGQYSADF---SGPMMIIT  115 (176)
+Q Consensus        41 ltylaestgekyalhflvqsgisycimiiigvenmhnycfvfalgyltvcqvtr--vyifdygqysadf---sgpmmiit  115 (176)
+                      +.++...+|+...+++++.++++|++.+. + .+  ..+|+.++..+...+..+  +....+...+.+.   ....++.+
+T Consensus       102 ~~~~~~~~g~~~~~~~l~~~~~~y~~~~~-~-~~--~~~w~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  177 (493)
+T 7MHZ_A          102 MWACWCVLGTPGVAMVLLHTTISFCVAQF-R-SQ--LLTWLCSLLLLSTLRLQGVEEVKRRWYKTENEYYLLQFTLTVRC  177 (493)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHTT-C-CH--HHHHHHHHHHHHHHHCHHHHHHHHHHCSSSHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhCHHHHHHHHHHHHHHHHHHhc-c-cH--HHHHHHHHHHHHHhccCChHHHHHhccCCCchHHHHHHHHHHHH
+Confidence            55556677865355777777888887754 2 11  345555555555544300  0011111111111   22346778
+
+
+Q ss_pred             HHHHHHHHHHHhcccCCCCCCCHHHHHHHHHHcHHHHHHHHHHhhhhhhhhccccccccC
+Q tr|C9J2H7|C9J2  116 QKITSLACEIHDGMFRKDEELTSSQRDLAVRRMPSLLEYLSYNCNFMGILAGPLCSYKDY  175 (176)
+Q Consensus       116 qkitslaceihdgmfrkdeeltssqrdlavrrmpslleylsyncnfmgilagplcsykdy  175 (176)
+                      +|.++++.|..|++ .+++           ++.+++.++++|++|+|++++||+++|+||
+T Consensus       178 lr~is~~~d~~~~~-~~~~-----------~~~~~~~~~l~Y~~y~P~~~~GP~~~y~~f  225 (493)
+T 7MHZ_A          178 LYYTSFSLELCWQQ-LPAA-----------STSYSFPWMLAYVFYYPVLHNGPILSFSEF  225 (493)
+T ss_dssp             HHHHHHHHHHHHCC-CGGG-----------TTTSSHHHHHHHHTCGGGTSSCCCCCHHHH
+T ss_pred             HHHHHHHHHHHhcc-CCCc-----------ccCCCHHHHHHHHhhhHHHhhcceecHHHH
+Confidence            99999999999986 3221           245799999999999999999999999987
+
+
+No 6
+>6I3H_B Matrix protein 1; Matrix protein 1 N-terminal domain; HET: PO4; 1.9A {Influenza A virus}
+Probab=21.06  E-value=1.9e+02  Score=25.97  Aligned_cols=8  Identities=0%  Similarity=0.189  Sum_probs=3.4  Template_Neff=2.500
+
+Q ss_pred             HHHHHHHH
+Q tr|C9J2H7|C9J2  117 KITSLACE  124 (176)
+Q Consensus       117 kitslace  124 (176)
+                      ..+.|...
+T Consensus        25 ~~~ty~ls   32 (177)
+T 6I3H_B           25 EVETYVLS   32 (177)
+T ss_dssp             HHHHHHHH
+T ss_pred             hHHHHHHh
+Confidence            34444443
+
+
+No 7
+>6HRK_C Allophycocyanin beta-18 subunit apoprotein; biliprotein, allophycocyanin, FLUORESCENT PROTEIN; HET: BLA; 2.52A {Chroococcidiopsis thermalis PCC 7203}
+Probab=20.51  E-value=5.5e+02  Score=18.74  Aligned_cols=14  Identities=36%  Similarity=0.458  Sum_probs=7.6  Template_Neff=9.200
+
+Q ss_pred             HHcHHHHHHHHHHh
+Q tr|C9J2H7|C9J2  146 RRMPSLLEYLSYNC  159 (176)
+Q Consensus       146 rrmpslleylsync  159 (176)
+                      ......++++++.+
+T Consensus        54 ~D~~~~L~~L~~Al   67 (147)
+T 6HRK_C           54 RDMNYFLRMCSYAI   67 (147)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            34445566666654
+
+
+No 8
+>6XWK_BBB Phycocyanin alpha subunit, Phycocyanin beta; Phycocyanin, Phycocyanobilin, Photosynthesis, Light harvesting; HET: PGE, IMD, CYC, EDO; 1.17A {Phormidium rubidum A09DM}
+Probab=20.41  E-value=3.8e+02  Score=20.50  Aligned_cols=9  Identities=33%  Similarity=0.888  Sum_probs=3.9  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHH
+Q tr|C9J2H7|C9J2  150 SLLEYLSYN  158 (176)
+Q Consensus       150 slleylsyn  158 (176)
+                      ..++++++.
+T Consensus        88 ~~L~~L~~A   96 (172)
+T 6XWK_BBB         88 IILRYVTYA   96 (172)
+T ss_pred             HHHHHHHHH
+Confidence            444444443
+
+
+No 9
+>7EXT_Q3 Phycobilisome, Synechococcus sp. PCC 7002; HET: CYC; 3.5A {Synechococcus sp. PCC 7002}
+Probab=19.55  E-value=3.1e+02  Score=20.69  Aligned_cols=7  Identities=43%  Similarity=0.814  Sum_probs=2.8  Template_Neff=8.900
+
+Q ss_pred             HHHHHHH
+Q tr|C9J2H7|C9J2  151 LLEYLSY  157 (176)
+Q Consensus       151 lleylsy  157 (176)
+                      .++++++
+T Consensus        89 ~L~~L~~   95 (169)
+T 7EXT_Q3          89 YLRYGTY   95 (169)
+T ss_pred             HHHHHHH
+Confidence            3344433
+
+
+No 10
+>6FZO_C Smurfp; smurfp, biliverdin, optoacustic, phycobiliprotein, FLUORESCENT; HET: SO4, EDO; 2.3A {synthetic construct}
+Probab=19.19  E-value=5.1e+02  Score=18.59  Aligned_cols=44  Identities=16%  Similarity=0.418  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHhcccCCCCCCC--------HHHHHHHHHHcHHHHHHHHH
+Q tr|C9J2H7|C9J2  114 ITQKITSLACEIHDGMFRKDEELT--------SSQRDLAVRRMPSLLEYLSY  157 (176)
+Q Consensus       114 itqkitslaceihdgmfrkdeelt--------ssqrdlavrrmpslleylsy  157 (176)
+                      +..+...++-++.+.++..+.++.        ..+++...+-+...+.||.+
+T Consensus        14 l~~~~~~la~~~~~~~~~~~p~l~~~~~~~~~~~~~~~~~~D~~~~L~~L~~   65 (138)
+T 6FZO_C           14 LTENKKKIVDKASQDLWRRHPDLIAPGGIAFSQRDRALCLRDFGWFLHLITF   65 (138)
+T ss_dssp             HHHTHHHHHHHHHHHHHHHCGGGBCSSCCCTTCSSCCBCHHHHHHHHHHHHH
+T ss_pred             HHHcHHHHHHHHHHHHHHHCCCCCCCCCcCCCHHHHHHHHHHHHHHHHHHHH
+
+

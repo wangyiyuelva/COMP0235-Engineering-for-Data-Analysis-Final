@@ -1,0 +1,165 @@
+Query         tr|H0YDH0|H0YDH0_HUMAN
+Match_columns 280
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:19:18 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0883.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6CFZ_D Ask1, Dad3, Dad2, Duo1,  74.9      13 0.00014   30.8   4.6   33  230-262    70-102 (111)
+  2 6F1Z_p Cytoplasmic dynein 1 in  59.7      26 0.00028   32.6   3.9   27  239-265     4-32  (612)
+  3 6F38_p ARP1 actin related prot  59.7      26 0.00028   32.6   3.9   27  239-265     4-32  (612)
+  4 6SG9_FY ?; mitochondrial ribos  51.1      70 0.00076   30.4   5.1   49   57-107   130-178 (188)
+  5 6SGB_FY uS5m, Uncharacterized   51.1      70 0.00076   30.4   5.1   49   57-107   130-178 (188)
+  6 6LW5_A N-formyl peptide recept  43.3      46  0.0005   26.9   2.5   17  227-243     3-19  (427)
+  7 2YON_A SENSORY BOX PROTEIN; SI  33.0      75 0.00081   22.8   2.0   24  247-270     3-26  (30)
+  8 7E33_R Guanine nucleotide-bind  24.8      88 0.00095   28.0   1.5   16  228-243    26-41  (504)
+  9 4EAH_B Actin, alpha skeletal m  23.7 2.7E+02  0.0029   24.6   4.1   14   87-100    13-26  (402)
+ 10 1RMG_A RHAMNOGALACTURONASE A;   18.1 2.8E+02  0.0031   23.1   3.0   35   62-96    379-413 (422)
+
+No 1
+>6CFZ_D Ask1, Dad3, Dad2, Duo1, Dad4; DASH, Dam1 complex, Ask1, Dad1;{Chaetomium thermophilum}
+Probab=74.89  E-value=13  Score=30.77  Aligned_cols=33  Identities=36%  Similarity=0.613  Sum_probs=4.1  Template_Neff=5.700
+
+Q ss_pred             CCCCCCCCChHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|H0YDH0|H0YD  230 DNWEGLETDSRQVKAELARKKREERRREMEAKR  262 (280)
+Q Consensus       230 dnwegletdsrqvkaelarkkreerrremeakr  262 (280)
+                      ..|.|...|...+.+|..+++.++.||++|..+
+T Consensus        70 ~~W~G~s~D~~~~e~e~~~~~~e~err~~ee~~  102 (111)
+T 6CFZ_D           70 PEWKGATQDLLELEAEERRRQEEVERRAAEAER  102 (111)
+T ss_dssp             SCCCC----------------------------
+T ss_pred             CCCCCCchhHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            469999999999888887777776666555443
+
+
+No 2
+>6F1Z_p Cytoplasmic dynein 1 intermediate chain; Cryo-EM, Complex, MOTOR PROTEIN; 3.4A {Homo sapiens}
+Probab=59.67  E-value=26  Score=32.55  Aligned_cols=27  Identities=44%  Similarity=0.597  Sum_probs=15.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHHHHHH--HHHHHHHHHHHHhh
+Q tr|H0YDH0|H0YD  239 SRQVKAELARKKR--EERRREMEAKRAER  265 (280)
+Q Consensus       239 srqvkaelarkkr--eerrremeakraer  265 (280)
+                      ....|+||.|||.  ++.|+|.+.|..|+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (612)
+T 6F1Z_p            4 KSELKAELERKKQRLAQIREEKKRKEEER   32 (612)
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3456888888764  33344444444444
+
+
+No 3
+>6F38_p ARP1 actin related protein 1; TDH, DDH, Complex, dynein/dynactin/HOOK3, MOTOR; HET: ADP, ATP;{Sus scrofa}
+Probab=59.67  E-value=26  Score=32.55  Aligned_cols=27  Identities=44%  Similarity=0.597  Sum_probs=15.0  Template_Neff=9.900
+
+Q ss_pred             hHHHHHHHHHHHH--HHHHHHHHHHHHhh
+Q tr|H0YDH0|H0YD  239 SRQVKAELARKKR--EERRREMEAKRAER  265 (280)
+Q Consensus       239 srqvkaelarkkr--eerrremeakraer  265 (280)
+                      ....|+||.|||.  ++.|+|.+.|..|+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (612)
+T 6F38_p            4 KSELKAELERKKQRLAQIREEKKRKEEER   32 (612)
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            3456888888764  33344444444444
+
+
+No 4
+>6SG9_FY ?; mitochondrial ribosome, assembly intermediate, translation; HET: GTP, SAH; 3.1A {Trypanosoma brucei brucei}
+Probab=51.06  E-value=70  Score=30.36  Aligned_cols=49  Identities=22%  Similarity=0.401  Sum_probs=34.3  Template_Neff=2.300
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YDH0|H0YD   57 LIRSHPTTAPTETNIPQRPTPEGVPAPAPTPVPATPTTSGHWETQEEDKDT  107 (280)
+Q Consensus        57 lirshpttaptetnipqrptpegvpapaptpvpatpttsghwetqeedkdt  107 (280)
+                      |-...-|+-|||-..|.++.+...+.  +..+--.+.--|||.-||.|...
+T Consensus       130 l~e~eet~LptELp~ppk~d~~~p~r--~gAlkvp~rhRGHWVL~ePeIAI  178 (188)
+T 6SG9_FY         130 LDEREETVLPSELPNPPKPDPSTPLR--ERALKVPAQHRGHWVLRDPDIAI  178 (188)
+T ss_pred             cCccceecCCcCCCCCCCCCCCCCCC--CCcccCCccccCceeccCCCcce
+Confidence            66677888999988877777665433  33344456778999999877543
+
+
+No 5
+>6SGB_FY uS5m, Uncharacterized protein, uS8m, uS17m; mitochondrial ribosome, assembly intermediate, translation; HET: GTP, SAH, PM8, UBD; 3.3A {Trypanosoma brucei brucei}
+Probab=51.06  E-value=70  Score=30.36  Aligned_cols=49  Identities=22%  Similarity=0.401  Sum_probs=34.3  Template_Neff=2.300
+
+Q ss_pred             ccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YDH0|H0YD   57 LIRSHPTTAPTETNIPQRPTPEGVPAPAPTPVPATPTTSGHWETQEEDKDT  107 (280)
+Q Consensus        57 lirshpttaptetnipqrptpegvpapaptpvpatpttsghwetqeedkdt  107 (280)
+                      |-...-|+-|||-..|.++.+...+.  +..+--.+.--|||.-||.|...
+T Consensus       130 l~e~eet~LptELp~ppk~d~~~p~r--~gAlkvp~rhRGHWVL~ePeIAI  178 (188)
+T 6SGB_FY         130 LDEREETVLPSELPNPPKPDPSTPLR--ERALKVPAQHRGHWVLRDPDIAI  178 (188)
+T ss_pred             cCccceecCCcCCCCCCCCCCCCCCC--CCcccCCccccCceeccCCCcce
+Confidence            66677888999988877777665433  33344456778999999877543
+
+
+No 6
+>6LW5_A N-formyl peptide receptor 2,Soluble cytochrome; Formyl peptide receptor, G protein-coupled; HET: CLR; 2.8A {Escherichia coli}
+Probab=43.32  E-value=46  Score=26.93  Aligned_cols=17  Identities=35%  Similarity=0.583  Sum_probs=12.7  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCCChHHHH
+Q tr|H0YDH0|H0YD  227 WGEDNWEGLETDSRQVK  243 (280)
+Q Consensus       227 wgednwegletdsrqvk  243 (280)
+                      -++|||+.+.++.+++.
+T Consensus         3 ~~~~~~~~~~~~~~~~~   19 (427)
+T 6LW5_A            3 DLEDNWETLNDNLKVIE   19 (427)
+T ss_dssp             CHHHHHHHHHHHHHHHH
+T ss_pred             chhhhhhhHHHHhHHHH
+Confidence            35789999888777654
+
+
+No 7
+>2YON_A SENSORY BOX PROTEIN; SIGNALING PROTEIN, VOLTAGE (LOV) DOMAIN; HET: ACE; NMR {N/A}
+Probab=33.03  E-value=75  Score=22.81  Aligned_cols=24  Identities=46%  Similarity=0.513  Sum_probs=17.2  Template_Neff=1.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhccCCC
+Q tr|H0YDH0|H0YD  247 ARKKREERRREMEAKRAERKVAKG  270 (280)
+Q Consensus       247 arkkreerrremeakraerkvakg  270 (280)
+                      ++..-|||-||+|+.-|+-....|
+T Consensus         3 a~~~aeervreleae~a~lr~~~g   26 (30)
+T 2YON_A            3 AQVFAEERVRELEAEVAELRRQQG   26 (30)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTS
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            456678999999998777544333
+
+
+No 8
+>7E33_R Guanine nucleotide-binding protein G(i) subunit; Serotonin, 5-HT1e, BRL-54443, GPCR, Complex; HET: HVU; 2.9A {Homo sapiens}
+Probab=24.81  E-value=88  Score=27.98  Aligned_cols=16  Identities=38%  Similarity=0.727  Sum_probs=6.6  Template_Neff=10.400
+
+Q ss_pred             CCCCCCCCCCChHHHH
+Q tr|H0YDH0|H0YD  228 GEDNWEGLETDSRQVK  243 (280)
+Q Consensus       228 gednwegletdsrqvk  243 (280)
+                      -||||++|++.-.++|
+T Consensus        26 ~~~~~~~~~~~~~~~~   41 (504)
+T 7E33_R           26 LEDNWETLNDNLKVIE   41 (504)
+T ss_dssp             CHH----TCHHHH---
+T ss_pred             hhhcHhHHHHHhHHHH
+Confidence            4899999987655544
+
+
+No 9
+>4EAH_B Actin, alpha skeletal muscle, Formin-like; ATP binding, cytoskeleton, formin, FMNL3; HET: ATP, ACT; 3.4A {Oryctolagus cuniculus}
+Probab=23.67  E-value=2.7e+02  Score=24.56  Aligned_cols=14  Identities=7%  Similarity=0.022  Sum_probs=8.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YDH0|H0YD   87 PVPATPTTSGHWET  100 (280)
+Q Consensus        87 pvpatpttsghwet  100 (280)
+                      +.|..+.-.-||..
+T Consensus        13 ~~~~~~~k~l~W~~   26 (402)
+T 4EAH_B           13 IKTKFRLPVFNWTA   26 (402)
+T ss_dssp             CCCSSCCCCCCCCE
+T ss_pred             CCCCCCCCCCCeee
+Confidence            34455555667765
+
+
+No 10
+>1RMG_A RHAMNOGALACTURONASE A; HYDROLASE, INVERTING, PARALLEL BETA-HELIX, GLYCOSIDASE; HET: GLC, BMA, NAG, MAN; 2.0A {Aspergillus aculeatus} SCOP: b.80.1.3
+Probab=18.09  E-value=2.8e+02  Score=23.14  Aligned_cols=35  Identities=26%  Similarity=0.316  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YDH0|H0YD   62 PTTAPTETNIPQRPTPEGVPAPAPTPVPATPTTSG   96 (280)
+Q Consensus        62 pttaptetnipqrptpegvpapaptpvpatpttsg   96 (280)
+                      |...|+.+.....|++-+.|.|.|+|.+.++-..+
+T Consensus       379 ~~~~p~~~~~~~~~~~~~~~~~~p~p~~~~~~~~~  413 (422)
+T 1RMG_A          379 PSGYSATTMAADLATAFGLTASIPIPTIPTSFYPG  413 (422)
+T ss_dssp             CTTCCCCCCTTCCSSCCCSSSCCCCCCCCSCCSTT
+T ss_pred             CCCcccccCchhhhcccCCCCCcccCCCCCCCCCC
+
+

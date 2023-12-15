@@ -1,0 +1,165 @@
+Query         tr|K7ERD4|K7ERD4_HUMAN
+Match_columns 77
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:05:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1924.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5CZW_A Myroilysin; propeptide,  21.2 1.9E+02   0.002   18.1   2.0   27    1-27      8-34  (238)
+  2 2LOE_A 6-cysteine protein, put  13.4 1.7E+02  0.0019   19.5   0.6   18   31-48     57-74  (127)
+  3 6ZVK_L2 Ribosomal protein L14,  12.2   2E+02  0.0022   18.7   0.7   12   32-43      2-13  (102)
+  4 6TH6_BJ 30S ribosomal protein   12.1 2.1E+02  0.0023   20.4   0.7   12   32-43      3-14  (182)
+  5 5XAU_C Laminin subunit alpha-5  10.4 1.8E+02   0.002   17.2   0.0    9   34-42     71-79  (83)
+  6 5XY3_I Ribosomal protein L8, p   9.6 2.7E+02   0.003   19.6   0.6   11   32-42      3-13  (209)
+  7 7O7Y_BI Frameshift, virus, pse   9.1   3E+02  0.0032   19.7   0.6   11   32-42      3-13  (214)
+  8 5MC9_C Laminin subunit alpha-1   8.6 2.4E+02  0.0026   16.2   0.0    9   34-42     52-60  (64)
+  9 1FFK_F LARGE RIBOSOMAL SUBUNIT   8.0 3.4E+02  0.0037   18.7   0.6   10   33-42      1-10  (157)
+ 10 1JXC_A ATT, trypsin inhibitor,   7.8 1.5E+02  0.0016   20.2  -1.2   20   28-47     24-43  (68)
+
+No 1
+>5CZW_A Myroilysin; propeptide, Inhibition, protease, HYDROLASE; HET: MLY; 1.6A {Myroides profundi}
+Probab=21.23  E-value=1.9e+02  Score=18.13  Aligned_cols=27  Identities=22%  Similarity=0.322  Sum_probs=16.2  Template_Neff=11.400
+
+Q ss_pred             CCccecCCCCCCceeeeeeeccCCCCC
+Q tr|K7ERD4|K7ER    1 MLHCRLTSGFEGRVLSLAKVKKTGKRK   27 (77)
+Q Consensus         1 mlhcrltsgfegrvlslakvkktgkrk   27 (77)
+                      |.-+.++++|+++-+.-.++.+.++++
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (238)
+T 5CZW_A            8 VPKADIVSGFEGAKVCKDVYPKGTDPR   34 (238)
+T ss_dssp             CCTTSSCCSCTTCCCBCCCCCCC----
+T ss_pred             cCcccccCCCCcceeeccCCCCCCCcc
+Confidence            455778899999977666554444444
+
+
+No 2
+>2LOE_A 6-cysteine protein, putative; Malaria, MEMBRANE PROTEIN; NMR {Plasmodium falciparum 3D7}
+Probab=13.44  E-value=1.7e+02  Score=19.49  Aligned_cols=18  Identities=22%  Similarity=0.384  Sum_probs=14.7  Template_Neff=7.500
+
+Q ss_pred             CCCcceeeeeccCCCCCC
+Q tr|K7ERD4|K7ER   31 LLRPSLCFRRIKDKRGQL   48 (77)
+Q Consensus        31 llrpslcfrrikdkrgql   48 (77)
+                      -+.|.-||..+.+..|..
+T Consensus        57 ~l~P~nCF~~V~~~~~~~   74 (127)
+T 2LOE_A           57 SVEPHDCFVSAFNLSGKN   74 (127)
+T ss_dssp             EEEEEECSSSCBCTTSCB
+T ss_pred             EECccccccceeccCCCc
+Confidence            488999999998777763
+
+
+No 3
+>6ZVK_L2 Ribosomal protein L14, Uncharacterized protein; RIBOSOME INTERNAL RIBOSOME ENTRY SITE;{Oryctolagus cuniculus}
+Probab=12.21  E-value=2e+02  Score=18.68  Aligned_cols=12  Identities=42%  Similarity=0.910  Sum_probs=9.2  Template_Neff=7.200
+
+Q ss_pred             CCcceeeeeccC
+Q tr|K7ERD4|K7ER   32 LRPSLCFRRIKD   43 (77)
+Q Consensus        32 lrpslcfrrikd   43 (77)
+                      +||.-|+|.++.
+T Consensus         2 ~r~~~~yr~~~~   13 (102)
+T 6ZVK_L2           2 RRPARCYRYCKN   13 (102)
+T ss_pred             CCCccccccCCC
+Confidence            588889988743
+
+
+No 4
+>6TH6_BJ 30S ribosomal protein S2, 30S; T. kodakarensis, ac4C, Ribosome, cryo-EM; HET: 5MC, 5MU, OMC, LV2, A2M, MA6, 4AC, 6MZ, ZN, OMU, LHH, OMG, 4SU; 2.55A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=12.06  E-value=2.1e+02  Score=20.43  Aligned_cols=12  Identities=33%  Similarity=0.506  Sum_probs=8.8  Template_Neff=7.300
+
+Q ss_pred             CCcceeeeeccC
+Q tr|K7ERD4|K7ER   32 LRPSLCFRRIKD   43 (77)
+Q Consensus        32 lrpslcfrrikd   43 (77)
+                      +||..|||.++.
+T Consensus         3 ~rp~~~yr~~~~   14 (182)
+T 6TH6_BJ           3 LRPAKIDRDVDK   14 (182)
+T ss_pred             CCCCcccccCCC
+Confidence            578888887743
+
+
+No 5
+>5XAU_C Laminin subunit alpha-5, Laminin subunit; laminin, integrin, extracellular matrix protein; HET: NAG; 1.8A {Homo sapiens}
+Probab=10.41  E-value=1.8e+02  Score=17.16  Aligned_cols=9  Identities=44%  Similarity=0.796  Sum_probs=5.6  Template_Neff=8.600
+
+Q ss_pred             cceeeeecc
+Q tr|K7ERD4|K7ER   34 PSLCFRRIK   42 (77)
+Q Consensus        34 pslcfrrik   42 (77)
+                      |.-||.+++
+T Consensus        71 P~~C~~~~~   79 (83)
+T 5XAU_C           71 PSGCFNTPS   79 (83)
+T ss_dssp             CSSCCSCC-
+T ss_pred             CCCcCCCCC
+Confidence            666887654
+
+
+No 6
+>5XY3_I Ribosomal protein L8, putative, Uncharacterized; Trichomonas vaginalis ribosome, rRNA, rprotein; 3.2A {Trichomonas vaginalis}
+Probab=9.62  E-value=2.7e+02  Score=19.62  Aligned_cols=11  Identities=45%  Similarity=0.951  Sum_probs=8.8  Template_Neff=8.200
+
+Q ss_pred             CCcceeeeecc
+Q tr|K7ERD4|K7ER   32 LRPSLCFRRIK   42 (77)
+Q Consensus        32 lrpslcfrrik   42 (77)
+                      +||..|+|.++
+T Consensus         3 ~r~~~~~~~~~   13 (209)
+T 5XY3_I            3 RRPARCYRYIG   13 (209)
+T ss_pred             CCCCccccccC
+Confidence            58888998874
+
+
+No 7
+>7O7Y_BI Frameshift, virus, pseudoknot, RIBOSOME; HET: 2MG, PSU, 4AC, 7MG, 6MZ, OMU, GTP, UY1, 5MC, A2M, UR3, H2U, MLZ, V5N, 5MU, SPM, B8N, AME, UNX, OMG, SAC, HIC, OMC, 1MA, YYG, MG, M3L, MA6, SPD, NMM, M2G; 2.2A {Oryctolagus cuniculus}
+Probab=9.10  E-value=3e+02  Score=19.70  Aligned_cols=11  Identities=45%  Similarity=0.927  Sum_probs=8.8  Template_Neff=8.000
+
+Q ss_pred             CCcceeeeecc
+Q tr|K7ERD4|K7ER   32 LRPSLCFRRIK   42 (77)
+Q Consensus        32 lrpslcfrrik   42 (77)
+                      +||..|||.++
+T Consensus         3 ~r~~~~~~~~~   13 (214)
+T 7O7Y_BI           3 RRPARCYRYCK   13 (214)
+T ss_pred             CCCCccccccC
+Confidence            58889998874
+
+
+No 8
+>5MC9_C Laminin subunit alpha-1, Laminin subunit; Extracellular matrix, cell adhesion, coiled; 2.13A {Mus musculus}
+Probab=8.62  E-value=2.4e+02  Score=16.23  Aligned_cols=9  Identities=33%  Similarity=0.770  Sum_probs=5.9  Template_Neff=8.100
+
+Q ss_pred             cceeeeecc
+Q tr|K7ERD4|K7ER   34 PSLCFRRIK   42 (77)
+Q Consensus        34 pslcfrrik   42 (77)
+                      |.-||.+++
+T Consensus        52 P~~C~~~~~   60 (64)
+T 5MC9_C           52 PTGCFNTPS   60 (64)
+T ss_dssp             CCSCCCCCC
+T ss_pred             CCCcCCCCC
+Confidence            566887654
+
+
+No 9
+>1FFK_F LARGE RIBOSOMAL SUBUNIT (50S); ribosome assembly, RNA-RNA, protein-RNA, protein-protein; 2.4A {Haloarcula marismortui} SCOP: d.41.4.1
+Probab=8.04  E-value=3.4e+02  Score=18.65  Aligned_cols=10  Identities=30%  Similarity=0.544  Sum_probs=6.3  Template_Neff=7.700
+
+Q ss_pred             Ccceeeeecc
+Q tr|K7ERD4|K7ER   33 RPSLCFRRIK   42 (77)
+Q Consensus        33 rpslcfrrik   42 (77)
+                      ||..|||.++
+T Consensus         1 rp~~~y~~~~   10 (157)
+T 1FFK_F            1 KPGAHFRNSI   10 (157)
+T ss_pred             CCCcccccCC
+Confidence            4666776663
+
+
+No 10
+>1JXC_A ATT, trypsin inhibitor, chymotrypsin inhibitor; NMR {Arabidopsis thaliana} SCOP: g.3.7.5
+Probab=7.76  E-value=1.5e+02  Score=20.22  Aligned_cols=20  Identities=25%  Similarity=0.851  Sum_probs=14.7  Template_Neff=3.600
+
+Q ss_pred             CCCCCCcceeeeeccCCCCC
+Q tr|K7ERD4|K7ER   28 SLPLLRPSLCFRRIKDKRGQ   47 (77)
+Q Consensus        28 slpllrpslcfrrikdkrgq   47 (77)
+                      -.|.+.||+|.+|-+..+|.
+T Consensus        24 C~p~i~Ps~Cy~~Cr~~kgA   43 (68)
+T 1JXC_A           24 CAPRIFPTICYTRCRENKGA   43 (68)
+T ss_dssp             CSTTCCCCHHHHHHHHHCCC
+T ss_pred             cccceecchHHHHHHhcCCC
+Confidence            46888999999876655553
+
+

@@ -1,0 +1,170 @@
+Query         tr|H0Y7Y8|H0Y7Y8_HUMAN
+Match_columns 553
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:19:13 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0598.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BPH_A AT-rich interactive dom  51.3     9.6  0.0001   26.2  -0.1   18   13-30     51-68  (69)
+  2 2LCC_A AT-rich interactive dom  41.2      17 0.00019   26.5  -0.1   22   13-34     50-71  (76)
+  3 2EKO_A Chromo domain, Histone   37.1      43 0.00046   25.6   1.4   17   13-29     55-71  (87)
+  4 2RNZ_A Histone acetyltransfera  29.0      55  0.0006   26.2   1.0   22   13-34     66-87  (94)
+  5 2F5K_B MORF-related gene 15 is  26.8      35 0.00038   27.2  -0.5   20   13-32     63-82  (102)
+  6 3OB9_D Male-specific lethal 3-  25.6      28  0.0003   26.9  -1.2   20   13-32     65-84  (97)
+  7 3OB9_E Male-specific lethal 3-  25.6      28  0.0003   26.9  -1.2   20   13-32     65-84  (97)
+  8 5IN1_A MRG701; MRG701, chromod  20.6      36 0.00039   23.1  -1.3   16   13-28     43-58  (72)
+  9 2BUD_A MALES-ABSENT ON THE FIR  20.2      71 0.00077   25.1   0.1   15   14-28     60-74  (92)
+ 10 2LRQ_A NuA4 complex subunit EA  19.8      14 0.00015   26.6  -3.5   13   14-26     54-66  (85)
+
+No 1
+>6BPH_A AT-rich interactive domain-containing protein 4A; Crystal structure of the chromodomain; HET: UNX; 1.85A {Homo sapiens}
+Probab=51.28  E-value=9.6  Score=26.18  Aligned_cols=18  Identities=72%  Similarity=1.374  Sum_probs=13.5  Template_Neff=10.700
+
+Q ss_pred             ecccccccccccCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADK   30 (553)
+Q Consensus        13 vrydewikadkivrpadk   30 (553)
+                      -++|+|+.++.+.+..++
+T Consensus        51 ~~~d~wv~~~~l~~~~~~   68 (69)
+T 6BPH_A           51 VRYDEWVKADRIIWPLDK   68 (69)
+T ss_dssp             GGGCEEEEGGGEECCSCC
+T ss_pred             cceeEEEeHHHeecCcCC
+Confidence            467888888888776654
+
+
+No 2
+>2LCC_A AT-rich interactive domain-containing protein 4A; chromobarrel domain, RBBP1, TRANSCRIPTION; NMR {Homo sapiens}
+Probab=41.17  E-value=17  Score=26.54  Aligned_cols=22  Identities=59%  Similarity=1.159  Sum_probs=17.3  Template_Neff=9.800
+
+Q ss_pred             ecccccccccccCCCCCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADKNVPK   34 (553)
+Q Consensus        13 vrydewikadkivrpadknvpk   34 (553)
+                      -|+|+|+..+.|.++..+|.+-
+T Consensus        50 ~r~deWv~~~~l~~~~~~~~~~   71 (76)
+T 2LCC_A           50 VRYDEWVKADRIIWPLDKGLEH   71 (76)
+T ss_dssp             CSSCEEEEGGGEECSSCSSCCC
+T ss_pred             ccccEEEeHHHeecCccccCCC
+Confidence            4788999999998887777653
+
+
+No 3
+>2EKO_A Chromo domain, Histone tail, Chromatin; NMR {Homo sapiens}
+Probab=37.07  E-value=43  Score=25.63  Aligned_cols=17  Identities=24%  Similarity=0.509  Sum_probs=11.6  Template_Neff=9.400
+
+Q ss_pred             ecccccccccccCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPAD   29 (553)
+Q Consensus        13 vrydewikadkivrpad   29 (553)
+                      -|||+||..+.|..+..
+T Consensus        55 ~r~DeWv~~~~l~~~~~   71 (87)
+T 2EKO_A           55 RRLDEWVTHERLDLKKI   71 (87)
+T ss_dssp             SCCCEEECTTTBCGGGC
+T ss_pred             cccceeecHHHcccccC
+Confidence            46788888877765543
+
+
+No 4
+>2RNZ_A Histone acetyltransferase ESA1 (E.C.2.3.1.48); Esa1, HAT, chromodomain, tudor domain; NMR {Saccharomyces cerevisiae}
+Probab=29.04  E-value=55  Score=26.23  Aligned_cols=22  Identities=41%  Similarity=0.664  Sum_probs=14.8  Template_Neff=8.600
+
+Q ss_pred             ecccccccccccCCCCCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADKNVPK   34 (553)
+Q Consensus        13 vrydewikadkivrpadknvpk   34 (553)
+                      -|+|+|+..+.|....-...|+
+T Consensus        66 ~r~DeWV~~~rl~~~~~~~~p~   87 (94)
+T 2RNZ_A           66 KRLDEWITTDRINLDKEVLYPK   87 (94)
+T ss_dssp             STTCEEEETTTBCSSSCCCCCC
+T ss_pred             CcccEEEeHHHcCCCccccCCC
+Confidence            4789999988876654344443
+
+
+No 5
+>2F5K_B MORF-related gene 15 isoform 1; beta barrel, GENE REGULATION; 2.2A {Homo sapiens} SCOP: b.34.13.3
+Probab=26.79  E-value=35  Score=27.18  Aligned_cols=20  Identities=25%  Similarity=0.765  Sum_probs=14.9  Template_Neff=9.100
+
+Q ss_pred             ecccccccccccCCCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADKNV   32 (553)
+Q Consensus        13 vrydewikadkivrpadknv   32 (553)
+                      -|||+||..+.|......+.
+T Consensus        63 ~r~DeWv~~~~l~~~~~~~~   82 (102)
+T 2F5K_B           63 KNWDEWVPESRVLKYVDTNL   82 (102)
+T ss_dssp             GGGCEEEEGGGEEESSHHHH
+T ss_pred             cccceeeeHHHeeccchhhH
+Confidence            37889999998887665543
+
+
+No 6
+>3OB9_D Male-specific lethal 3-like 1 (Drosophila); chromodomain, chromo-barrel, chromo, methyllysine binding; HET: NHE, SO4; 2.5A {Homo sapiens}
+Probab=25.65  E-value=28  Score=26.89  Aligned_cols=20  Identities=30%  Similarity=0.709  Sum_probs=15.1  Template_Neff=9.600
+
+Q ss_pred             ecccccccccccCCCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADKNV   32 (553)
+Q Consensus        13 vrydewikadkivrpadknv   32 (553)
+                      -|||+||..+.|.+....|.
+T Consensus        65 ~r~DeWv~~~~~~~~~~~~~   84 (97)
+T 3OB9_D           65 RSWDRWAAEDHVLRDTDENR   84 (97)
+T ss_dssp             GGGCEEEEGGGEEECCHHHH
+T ss_pred             hhccEEEeHHhccCCCHHHH
+Confidence            47899999998887665443
+
+
+No 7
+>3OB9_E Male-specific lethal 3-like 1 (Drosophila); chromodomain, chromo-barrel, chromo, methyllysine binding; HET: NHE, SO4; 2.5A {Homo sapiens}
+Probab=25.65  E-value=28  Score=26.89  Aligned_cols=20  Identities=30%  Similarity=0.709  Sum_probs=15.0  Template_Neff=9.600
+
+Q ss_pred             ecccccccccccCCCCCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPADKNV   32 (553)
+Q Consensus        13 vrydewikadkivrpadknv   32 (553)
+                      -|||+||..+.|.+....|.
+T Consensus        65 ~r~DeWv~~~~~~~~~~~~~   84 (97)
+T 3OB9_E           65 RSWDRWAAEDHVLRDTDENR   84 (97)
+T ss_dssp             GGGCEEEEGGGEEECCHHHH
+T ss_pred             hhccEEEeHHhccCCCHHHH
+Confidence            47899999998887665443
+
+
+No 8
+>5IN1_A MRG701; MRG701, chromodomain, TRANSCRIPTION; HET: SO4; 1.4A {Oryza sativa}
+Probab=20.57  E-value=36  Score=23.11  Aligned_cols=16  Identities=25%  Similarity=0.846  Sum_probs=11.5  Template_Neff=11.100
+
+Q ss_pred             ecccccccccccCCCC
+Q tr|H0Y7Y8|H0Y7   13 VRYDEWIKADKIVRPA   28 (553)
+Q Consensus        13 vrydewikadkivrpa   28 (553)
+                      .+||+|+..+.+.+..
+T Consensus        43 ~~~d~w~~~~~~~~~~   58 (72)
+T 5IN1_A           43 KSWDEWVTNDRLLKLT   58 (72)
+T ss_dssp             GGGCEEEEGGGEEESC
+T ss_pred             CccCEEEcHHHcccCC
+Confidence            3678888888876544
+
+
+No 9
+>2BUD_A MALES-ABSENT ON THE FIRST PROTEIN; TRANSFERASE, MOF, HAT, ACETYL-TRANSFER, DOSAGE; NMR {DROSOPHILA MELANOGASTER} SCOP: b.34.13.3
+Probab=20.18  E-value=71  Score=25.15  Aligned_cols=15  Identities=33%  Similarity=0.700  Sum_probs=9.9  Template_Neff=9.000
+
+Q ss_pred             cccccccccccCCCC
+Q tr|H0Y7Y8|H0Y7   14 RYDEWIKADKIVRPA   28 (553)
+Q Consensus        14 rydewikadkivrpa   28 (553)
+                      |+|+|+..+.+....
+T Consensus        60 r~DeWv~~~rl~~~~   74 (92)
+T 2BUD_A           60 RLDGWVGRHRISDNA   74 (92)
+T ss_dssp             TTCEEEETTTEESCH
+T ss_pred             cccEEEeHHHeecCc
+Confidence            677888777665433
+
+
+No 10
+>2LRQ_A NuA4 complex subunit EAF3 homolog; Epigenetics, Lid Complex, TRANSCRIPTION, Structural; NMR {Drosophila melanogaster}
+Probab=19.81  E-value=14  Score=26.59  Aligned_cols=13  Identities=23%  Similarity=1.073  Sum_probs=6.3  Template_Neff=10.600
+
+Q ss_pred             cccccccccccCC
+Q tr|H0Y7Y8|H0Y7   14 RYDEWIKADKIVR   26 (553)
+Q Consensus        14 rydewikadkivr   26 (553)
+                      +||+|+..+.+.+
+T Consensus        54 ~~dewv~~~~l~~   66 (85)
+T 2LRQ_A           54 NWDEWVPENRVLK   66 (85)
+T ss_dssp             GGCEEEEGGGEEC
+T ss_pred             cccEEEeHHHccc
+Confidence            3445555554443
+
+

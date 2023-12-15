@@ -23,7 +23,7 @@ def run_hhsearch(a3m_file):
     Run HHSearch to produce the hhr file
     """
     cmd = ['/home/ec2-user/data/hhsuite/bin/hhsearch',
-           '-i', a3m_file, '-cpu', '1', '-d', 
+           '-i', a3m_file, '-cpu', '2', '-d', 
            '/home/ec2-user/data/pdb70/pdb70']
     print(f'STEP 3: RUNNING HHSEARCH: {" ".join(cmd)}')
     p = Popen(cmd, stdin=PIPE,stdout=PIPE, stderr=PIPE)
@@ -81,10 +81,10 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG, filename='Log.log', filemode='a', format=FORMAT)
     logging.info(' %s start running...', sys.argv[1])
     sequences = read_input(sys.argv[1])
-    tmp_file = "tmp/" + str(sys.argv[1])[11:15] + ".fas"
-    horiz_file = "tmp/" + str(sys.argv[1])[11:15] + ".horiz"
-    a3m_file = "tmp/" + str(sys.argv[1])[11:15] + ".a3m"
-    hhr_file = "tmp/" + str(sys.argv[1])[11:15] + ".hhr"
+    tmp_file = "tmp/" + str(sys.argv[1])[12:16] + ".fas"
+    horiz_file = "tmp/" + str(sys.argv[1])[12:16] + ".horiz"
+    a3m_file = "tmp/" + str(sys.argv[1])[12:16] + ".a3m"
+    hhr_file = "tmp/" + str(sys.argv[1])[12:16] + ".hhr"
     for k, v in sequences.items():
         with open(tmp_file, "w") as fh_out:
             fh_out.write(f">{k}\n")

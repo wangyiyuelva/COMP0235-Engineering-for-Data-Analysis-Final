@@ -1,0 +1,359 @@
+Query         tr|A0A2Y9D085|A0A2Y9D085_HUMAN
+Match_columns 97
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:58:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1189.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5O7X_F RNA polymerase I-specif  41.9 1.2E+02  0.0013   27.4   4.8   49   21-69     39-91  (507)
+  2 5W66_Q DNA-directed RNA polyme  41.9 1.2E+02  0.0013   27.4   4.8   49   21-69     39-91  (507)
+  3 6RUI_R RNA polymerase I-specif  41.9 1.2E+02  0.0013   27.4   4.8   49   21-69     39-91  (507)
+  4 6H9E_D Glutamate mutase sigma   38.1      54 0.00058   26.6   2.2   15   52-66    262-276 (483)
+  5 6H9F_D Glutamate mutase sigma   38.1      54 0.00058   26.6   2.2   15   52-66    262-276 (483)
+  6 1CCW_D GLUTAMATE MUTASE, COENZ  37.7      55 0.00059   26.5   2.2   14   53-66    263-276 (483)
+  7 4R17_T Proteasome subunit alph  37.3 2.3E+02  0.0025   19.7   4.9   20    3-22    231-250 (288)
+  8 4R18_T PROTEASOME SUBUNIT ALPH  37.3 2.3E+02  0.0025   19.7   4.9   20    3-22    231-250 (288)
+  9 6EF3_G Proteasome subunit beta  37.3 2.3E+02  0.0025   19.7   4.9   10    8-17    236-245 (288)
+ 10 4R3U_A 2-hydroxyisobutyryl-CoA  34.9      62 0.00067   27.8   2.2   17   52-68    310-326 (584)
+ 11 1REQ_B METHYLMALONYL-COA MUTAS  30.8      80 0.00087   26.6   2.2   15   53-67    294-308 (637)
+ 12 7REQ_D METHYLMALONYL-COA MUTAS  30.8      80 0.00087   26.6   2.2   15   53-67    294-308 (637)
+ 13 2XIJ_A METHYLMALONYL-COA MUTAS  30.5      80 0.00087   27.1   2.1   15   53-67    310-324 (762)
+ 14 2XIQ_B METHYLMALONYL-COA MUTAS  30.5      80 0.00087   27.1   2.1   15   53-67    310-324 (762)
+ 15 3BIC_A Methylmalonyl-CoA mutas  30.5      80 0.00087   27.1   2.1   15   53-67    310-324 (762)
+ 16 6OXC_B Methylmalonyl-CoA mutas  30.5      82 0.00089   26.7   2.2   16   53-68    280-295 (616)
+ 17 6OXD_B Methylmalonyl-CoA mutas  30.5      82 0.00089   26.7   2.2   16   53-68    280-295 (616)
+ 18 6OXC_A Methylmalonyl-CoA mutas  29.1      88 0.00095   27.3   2.2   16   53-68    315-330 (750)
+ 19 6OXD_A Methylmalonyl-CoA mutas  29.1      88 0.00095   27.3   2.2   16   53-68    315-330 (750)
+ 20 6REQ_A METHYLMALONYL-COA MUTAS  26.8   1E+02  0.0011   26.3   2.2   16   53-68    298-313 (727)
+ 21 2GIA_G mitochondrial RNA-bindi  23.5 1.3E+02  0.0014   24.8   2.0   10   28-37      2-11  (195)
+ 22 6ID1_o Pre-mRNA-processing-spl  21.9 3.1E+02  0.0033   17.7   3.1   25    9-33    212-236 (255)
+
+No 1
+>5O7X_F RNA polymerase I-specific transcription initiation; TRANSCRIPTION, RNA POLYMERASE I INITIATION; HET: SO4; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=41.93  E-value=1.2e+02  Score=27.37  Aligned_cols=49  Identities=33%  Similarity=0.425  Sum_probs=9.3  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCC---hHHHHHHHHHHHHhCCc
+Q tr|A0A2Y9D085|   21 RDEAGNPAKESSDADGEA-EEEGESEKGAGPRS---AGWRALRRLWDRVLGPA   69 (97)
+Q Consensus        21 rdeagnpakessdadgea-eeegesekgagprs---agwralrrlwdrvlgpa   69 (97)
+                      .+..|-|..|.|.++... +..+.+|.+...++   ..-+-.+|-|..|+|++
+T Consensus        39 ~~~~~lptpenSa~e~~~~~~~~~~~~~~~~~~~~~~~~~r~~rr~~sv~g~~   91 (507)
+T 5O7X_F           39 TTTDSLPTPENSAAENNDEEEGQNSEAGTYRRSVLQQKKRRRERHWRSVVGEI   91 (507)
+T ss_dssp             -----------------------------------CHHHHHHHHHSSCC----
+T ss_pred             CCCCCCCCCCcchhhccccccccccccccccccHHHHHHHHHHHHHHHHhccc
+Confidence            456777888877765544 22455666666555   35566777888888877
+
+
+No 2
+>5W66_Q DNA-directed RNA polymerase I subunit; RNA Polymerase I Core Factor; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=41.93  E-value=1.2e+02  Score=27.37  Aligned_cols=49  Identities=33%  Similarity=0.427  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCh---HHHHHHHHHHHHhCCc
+Q tr|A0A2Y9D085|   21 RDEAGNPAKESSDADGEA-EEEGESEKGAGPRSA---GWRALRRLWDRVLGPA   69 (97)
+Q Consensus        21 rdeagnpakessdadgea-eeegesekgagprsa---gwralrrlwdrvlgpa   69 (97)
+                      .+..|-|..|.|.++... +..+.+|.+...+++   .-+-.+|-|..|+|++
+T Consensus        39 ~~~~~lptpenSa~e~~~~~~~~~~~~~~~~~~~~~~~~~r~~rr~~sv~g~~   91 (507)
+T 5W66_Q           39 TTTDSLPTPENSAAENNDEEEGQNSEAGTYRRSVLQQKKRRRERHWRSVVGEI   91 (507)
+T ss_dssp             -----------------------------------------------------
+T ss_pred             CCCCCCCCCCcchhhccccccccccccccccccHHHHHHHHHHHHHHHHhccc
+Confidence            456777788877765544 223455655555553   4455677888888887
+
+
+No 3
+>6RUI_R RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=41.93  E-value=1.2e+02  Score=27.37  Aligned_cols=49  Identities=33%  Similarity=0.425  Sum_probs=31.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCC---hHHHHHHHHHHHHhCCc
+Q tr|A0A2Y9D085|   21 RDEAGNPAKESSDADGEA-EEEGESEKGAGPRS---AGWRALRRLWDRVLGPA   69 (97)
+Q Consensus        21 rdeagnpakessdadgea-eeegesekgagprs---agwralrrlwdrvlgpa   69 (97)
+                      .+..|-|..|.|.++... +..+.+|.+...++   ..-+-.+|-|..|+|++
+T Consensus        39 ~~~~~lptpenSa~e~~~~~~~~~~~~~~~~~~~~~~~~~r~~rr~~sv~g~~   91 (507)
+T 6RUI_R           39 TTTDSLPTPENSAAENNDEEEGQNSEAGTYRRSVLQQKKRRRERHWRSVVGEI   91 (507)
+T ss_pred             CCCCCCCCCCcchhhccccccccccccccccccHHHHHHHHHHHHHHHHhccc
+Confidence            456677777777765544 22345555555555   34455677888888887
+
+
+No 4
+>6H9E_D Glutamate mutase sigma subunit (E.C.5.4.99.1); COENZYME B12, CO-C-BOND, RADICAL REACTION; HET: TAR, FWK, B12, GOL; 1.82A {Clostridium cochlearium}
+Probab=38.06  E-value=54  Score=26.59  Aligned_cols=15  Identities=27%  Similarity=0.242  Sum_probs=13.4  Template_Neff=8.600
+
+Q ss_pred             ChHHHHHHHHHHHHh
+Q tr|A0A2Y9D085|   52 SAGWRALRRLWDRVL   66 (97)
+Q Consensus        52 sagwralrrlwdrvl   66 (97)
+                      -|..||+|+||.+++
+T Consensus       262 IAKlRA~R~Lw~~~~  276 (483)
+T 6H9E_D          262 IAALRCLEEQTNEYL  276 (483)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            367899999999998
+
+
+No 5
+>6H9F_D Glutamate mutase sigma subunit (E.C.5.4.99.1); COENZYME B12, CO-C-BOND, RADICAL REACTION; HET: TAR, 8ZB, B12; 2.1A {Clostridium cochlearium}
+Probab=38.06  E-value=54  Score=26.59  Aligned_cols=15  Identities=27%  Similarity=0.242  Sum_probs=13.4  Template_Neff=8.600
+
+Q ss_pred             ChHHHHHHHHHHHHh
+Q tr|A0A2Y9D085|   52 SAGWRALRRLWDRVL   66 (97)
+Q Consensus        52 sagwralrrlwdrvl   66 (97)
+                      -|..||+|+||.+++
+T Consensus       262 IAKlRA~R~Lw~~~~  276 (483)
+T 6H9F_D          262 IAALRCLEEQTNEYL  276 (483)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            367899999999998
+
+
+No 6
+>1CCW_D GLUTAMATE MUTASE, COENZYME B12, RADICAL; HET: TAR, CNC; 1.6A {Clostridium cochlearium} SCOP: c.1.19.2
+Probab=37.75  E-value=55  Score=26.45  Aligned_cols=14  Identities=29%  Similarity=0.302  Sum_probs=13.0  Template_Neff=8.700
+
+Q ss_pred             hHHHHHHHHHHHHh
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVL   66 (97)
+Q Consensus        53 agwralrrlwdrvl   66 (97)
+                      |..||+|+||.+++
+T Consensus       263 AKlRA~R~Lw~~~~  276 (483)
+T 1CCW_D          263 AALRCLEEQTNEYL  276 (483)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            67899999999998
+
+
+No 7
+>4R17_T Proteasome subunit alpha type-2 (E.C.3.4.25.1); Proteasome, Drug Development, Binding Analysis; HET: 3K4, MG; 2.1A {Saccharomyces cerevisiae S288c}
+Probab=37.34  E-value=2.3e+02  Score=19.69  Aligned_cols=20  Identities=20%  Similarity=0.252  Sum_probs=11.4  Template_Neff=10.700
+
+Q ss_pred             CChhHHHHHHHHHHHHhcCC
+Q tr|A0A2Y9D085|    3 LDSDLWSRLEEKARAKCERD   22 (97)
+Q Consensus         3 ldsdlwsrleekarakcerd   22 (97)
+                      +..+...++.+++...-+.+
+T Consensus       231 ~~~~~i~~~~~~~~~~~~~~  250 (288)
+T 4R17_T          231 VKGDLLQEAIDFAQKEINGD  250 (288)
+T ss_dssp             CCHHHHHHHHHHHHHHTC--
+T ss_pred             CCHHHHHHHHHHHHHHhcCC
+Confidence            44566677777776654433
+
+
+No 8
+>4R18_T PROTEASOME SUBUNIT ALPHA TYPE-2 (E.C.3.4.25.1); Proteasome, Drug Development, Binding Analysis; HET: ABA, MG; 2.4A {Saccharomyces cerevisiae S288c}
+Probab=37.34  E-value=2.3e+02  Score=19.69  Aligned_cols=20  Identities=20%  Similarity=0.252  Sum_probs=11.5  Template_Neff=10.700
+
+Q ss_pred             CChhHHHHHHHHHHHHhcCC
+Q tr|A0A2Y9D085|    3 LDSDLWSRLEEKARAKCERD   22 (97)
+Q Consensus         3 ldsdlwsrleekarakcerd   22 (97)
+                      +..+...++.+++...-+.+
+T Consensus       231 ~~~~~i~~~~~~~~~~~~~~  250 (288)
+T 4R18_T          231 VKGDLLQEAIDFAQKEINGD  250 (288)
+T ss_dssp             CCHHHHHHHHHHHHHHTC--
+T ss_pred             CCHHHHHHHHHHHHHHhcCC
+Confidence            44566677777776664433
+
+
+No 9
+>6EF3_G Proteasome subunit beta type-1 (E.C.3.4.25.1); 26S Proteasome, ATPase, AAA+, Protease; HET: ADP, ATP; 4.17A {Saccharomyces cerevisiae S288c}
+Probab=37.34  E-value=2.3e+02  Score=19.69  Aligned_cols=10  Identities=10%  Similarity=-0.034  Sum_probs=4.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHH
+Q tr|A0A2Y9D085|    8 WSRLEEKARA   17 (97)
+Q Consensus         8 wsrleekara   17 (97)
+                      ..++.+++..
+T Consensus       236 i~~~~~~~~~  245 (288)
+T 6EF3_G          236 LQEAIDFAQK  245 (288)
+T ss_pred             HHHHHHHHHH
+Confidence            3344444433
+
+
+No 10
+>4R3U_A 2-hydroxyisobutyryl-CoA mutase large subunit (E.C.5.4.99.-); TIM Rossmann fold, mutase, CoA; HET: 3KK, B12, 3HC, 5AD; 2.5A {Aquincola tertiaricarbonis}
+Probab=34.90  E-value=62  Score=27.82  Aligned_cols=17  Identities=35%  Similarity=0.661  Sum_probs=14.4  Template_Neff=7.600
+
+Q ss_pred             ChHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   52 SAGWRALRRLWDRVLGP   68 (97)
+Q Consensus        52 sagwralrrlwdrvlgp   68 (97)
+                      -|-.||+|+||.+++..
+T Consensus       310 IAKlRA~R~LWa~i~~~  326 (584)
+T 4R3U_A          310 VAKFRALRRCYAKIMKE  326 (584)
+T ss_dssp             HHHHHHHHHHHHHCCCC
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            47789999999998754
+
+
+No 11
+>1REQ_B METHYLMALONYL-COA MUTASE, COBALAMIN, DESULFO-COENZYME A; ISOMERASE, MUTASE, INTRAMOLECULAR TRANSFERASE; HET: GOL, B12, DCA; 2.0A {Propionibacterium freudenreichii subsp. shermanii} SCOP: c.1.19.1, c.23.6.1
+Probab=30.81  E-value=80  Score=26.62  Aligned_cols=15  Identities=47%  Similarity=0.716  Sum_probs=13.1  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHHhC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLG   67 (97)
+Q Consensus        53 agwralrrlwdrvlg   67 (97)
+                      |-.||+|.||.+++.
+T Consensus       294 AKlRA~R~Lw~~l~~  308 (637)
+T 1REQ_B          294 ARLRALREAWARIGE  308 (637)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            678999999998874
+
+
+No 12
+>7REQ_D METHYLMALONYL-COA MUTASE, 2-CARBOXYPROPYL-COA INHIBITOR COMPLEX; ISOMERASE, MUTASE, INTRAMOLECULAR TRANSFERASE; HET: 2CP, GOL, B12; 2.2A {Propionibacterium freudenreichii subsp. shermanii} SCOP: c.1.19.1, c.23.6.1
+Probab=30.81  E-value=80  Score=26.62  Aligned_cols=15  Identities=47%  Similarity=0.716  Sum_probs=13.1  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHHhC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLG   67 (97)
+Q Consensus        53 agwralrrlwdrvlg   67 (97)
+                      |-.||+|.||.+++.
+T Consensus       294 AKlRA~R~Lw~~l~~  308 (637)
+T 7REQ_D          294 ARLRALREAWARIGE  308 (637)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            678999999998874
+
+
+No 13
+>2XIJ_A METHYLMALONYL-COA MUTASE, MITOCHONDRIAL (E.C.5.4.99.2); ISOMERASE, ORGANIC ACIDURIA, VITAMIN B12; HET: B12, BTB, 5AD, SO4, EDO; 1.95A {HOMO SAPIENS}
+Probab=30.50  E-value=80  Score=27.09  Aligned_cols=15  Identities=47%  Similarity=0.771  Sum_probs=13.3  Template_Neff=8.800
+
+Q ss_pred             hHHHHHHHHHHHHhC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLG   67 (97)
+Q Consensus        53 agwralrrlwdrvlg   67 (97)
+                      |-.||+|+||.+++.
+T Consensus       310 AKlRA~R~Lw~~~~~  324 (762)
+T 2XIJ_A          310 AKMRAGRRLWAHLIE  324 (762)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            778999999998875
+
+
+No 14
+>2XIQ_B METHYLMALONYL-COA MUTASE, MITOCHONDRIAL (E.C.5.4.99.2); ORGANIC ACIDURIA, ISOMERASE, METABOLIC DISEASE; HET: MLC, B12, 5AD; 1.95A {HOMO SAPIENS}
+Probab=30.50  E-value=80  Score=27.09  Aligned_cols=15  Identities=47%  Similarity=0.771  Sum_probs=13.3  Template_Neff=8.800
+
+Q ss_pred             hHHHHHHHHHHHHhC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLG   67 (97)
+Q Consensus        53 agwralrrlwdrvlg   67 (97)
+                      |-.||+|+||.+++.
+T Consensus       310 AKlRA~R~Lw~~~~~  324 (762)
+T 2XIQ_B          310 AKMRAGRRLWAHLIE  324 (762)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            778999999998875
+
+
+No 15
+>3BIC_A Methylmalonyl-CoA mutase, mitochondrial precursor (E.C.5.4.99.2); organic aciduria, methylmalonyl CoA mutase; 2.6A {Homo sapiens}
+Probab=30.50  E-value=80  Score=27.09  Aligned_cols=15  Identities=47%  Similarity=0.771  Sum_probs=13.3  Template_Neff=8.800
+
+Q ss_pred             hHHHHHHHHHHHHhC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLG   67 (97)
+Q Consensus        53 agwralrrlwdrvlg   67 (97)
+                      |-.||+|+||.+++.
+T Consensus       310 AKlRA~R~Lw~~~~~  324 (762)
+T 3BIC_A          310 AKMRAGRRLWAHLIE  324 (762)
+T ss_dssp             HHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            778999999998875
+
+
+No 16
+>6OXC_B Methylmalonyl-CoA mutase large subunit (E.C.5.4.99.2); methylmalonyl CoA mutase, methylmalonyl CoA; HET: B12, 5AD; 1.9A {Mycobacterium tuberculosis}
+Probab=30.45  E-value=82  Score=26.72  Aligned_cols=16  Identities=56%  Similarity=0.829  Sum_probs=13.3  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLGP   68 (97)
+Q Consensus        53 agwralrrlwdrvlgp   68 (97)
+                      |-.||+|+||.+++..
+T Consensus       280 AKlRA~R~Lw~~l~~~  295 (616)
+T 6OXC_B          280 AKMRALRQLWARVAEV  295 (616)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            5789999999988743
+
+
+No 17
+>6OXD_B Methylmalonyl-CoA mutase large subunit (E.C.5.4.99.2); methylmalonyl CoA mutase, methylmalonyl CoA; HET: NJS, B12, 5AD; 2.0A {Mycobacterium tuberculosis}
+Probab=30.45  E-value=82  Score=26.72  Aligned_cols=16  Identities=56%  Similarity=0.829  Sum_probs=13.4  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLGP   68 (97)
+Q Consensus        53 agwralrrlwdrvlgp   68 (97)
+                      |-.||+|+||.+++..
+T Consensus       280 AKlRA~R~Lw~~l~~~  295 (616)
+T 6OXD_B          280 AKMRALRQLWARVAEV  295 (616)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            5789999999988743
+
+
+No 18
+>6OXC_A Methylmalonyl-CoA mutase large subunit (E.C.5.4.99.2); methylmalonyl CoA mutase, methylmalonyl CoA; HET: B12, 5AD; 1.9A {Mycobacterium tuberculosis}
+Probab=29.12  E-value=88  Score=27.26  Aligned_cols=16  Identities=38%  Similarity=0.601  Sum_probs=14.2  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLGP   68 (97)
+Q Consensus        53 agwralrrlwdrvlgp   68 (97)
+                      |-.||+|+||.+++..
+T Consensus       315 AKlRA~R~Lw~~i~~~  330 (750)
+T 6OXC_A          315 AKLRAGRLLWSELVAQ  330 (750)
+T ss_dssp             HHHHHHHHHHHHHHGG
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            7789999999999865
+
+
+No 19
+>6OXD_A Methylmalonyl-CoA mutase large subunit (E.C.5.4.99.2); methylmalonyl CoA mutase, methylmalonyl CoA; HET: NJS, B12, 5AD; 2.0A {Mycobacterium tuberculosis}
+Probab=29.12  E-value=88  Score=27.26  Aligned_cols=16  Identities=38%  Similarity=0.601  Sum_probs=14.1  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLGP   68 (97)
+Q Consensus        53 agwralrrlwdrvlgp   68 (97)
+                      |-.||+|+||.+++..
+T Consensus       315 AKlRA~R~Lw~~i~~~  330 (750)
+T 6OXD_A          315 AKLRAGRLLWSELVAQ  330 (750)
+T ss_dssp             HHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            7789999999999855
+
+
+No 20
+>6REQ_A METHYLMALONYL-COA MUTASE, 3-CARBOXYPROPYL-COA INHIBITOR COMPLEX; ISOMERASE, MUTASE, INTRAMOLECULAR TRANSFERASE; HET: GOL, 3CP, B12; 2.2A {Propionibacterium freudenreichii subsp. shermanii} SCOP: c.1.19.1, c.23.6.1
+Probab=26.83  E-value=1e+02  Score=26.31  Aligned_cols=16  Identities=38%  Similarity=0.669  Sum_probs=14.0  Template_Neff=8.800
+
+Q ss_pred             hHHHHHHHHHHHHhCC
+Q tr|A0A2Y9D085|   53 AGWRALRRLWDRVLGP   68 (97)
+Q Consensus        53 agwralrrlwdrvlgp   68 (97)
+                      |-.||+|.||.+++..
+T Consensus       298 AKlRA~R~Lw~~~~~~  313 (727)
+T 6REQ_A          298 AKLRAARMLWAKLVHQ  313 (727)
+T ss_dssp             HHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            7789999999998854
+
+
+No 21
+>2GIA_G mitochondrial RNA-binding protein 2, mitochondrial; T. brucei  guide RNA; 1.89A {Trypanosoma brucei} SCOP: d.18.1.4
+Probab=23.54  E-value=1.3e+02  Score=24.82  Aligned_cols=10  Identities=70%  Similarity=0.873  Sum_probs=6.3  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCC
+Q tr|A0A2Y9D085|   28 AKESSDADGE   37 (97)
+Q Consensus        28 akessdadge   37 (97)
+                      +..|||+||.
+T Consensus         2 ~~~~~~~~~~   11 (195)
+T 2GIA_G            2 AASSSDADGK   11 (195)
+T ss_dssp             TCCESCGGEE
+T ss_pred             CcccccCCCC
+Confidence            3457777764
+
+
+No 22
+>6ID1_o Pre-mRNA-processing-splicing factor 8, 116 kDa; Human Intron Lariat Spliceosome, SPLICING; HET: GTP, IHP, SEP; 2.86A {Homo sapiens}
+Probab=21.90  E-value=3.1e+02  Score=17.66  Aligned_cols=25  Identities=28%  Similarity=0.267  Sum_probs=17.2  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHHhcCCCCCCCCCCCCC
+Q tr|A0A2Y9D085|    9 SRLEEKARAKCERDEAGNPAKESSD   33 (97)
+Q Consensus         9 srleekarakcerdeagnpakessd   33 (97)
+                      +.|+|-.+..|.-.+..-|.+.+..
+T Consensus       212 ~~l~ei~~~~~~l~~~~~~~~~~~~  236 (255)
+T 6ID1_o          212 STLAEVERLKGLLQSGQIPGRERRS  236 (255)
+T ss_pred             CCHHHHHHHHHHHHcCCCCCccccC
+Confidence            3677777777877777777665443
+
+

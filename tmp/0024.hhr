@@ -1,0 +1,207 @@
+Query         tr|D6REL4|D6REL4_HUMAN
+Match_columns 212
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:19:20 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0024.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6Q8I_G WD40 repeat-containing  100.0 1.6E-56 1.8E-61  398.8  13.3  209    4-212     4-212 (557)
+  2 6Q8I_L WD40 repeat-containing  100.0 1.6E-56 1.8E-61  398.8  13.3  209    4-212     4-212 (557)
+  3 6ASO_A Lsm2-8 spliceosome U6 P  65.3     6.6 7.1E-05   32.4   1.1   14   29-42    404-417 (424)
+  4 2N28_A Protein Vpu; alpha heli  25.6 1.7E+02  0.0019   23.2   3.0    8  101-108    43-50  (81)
+  5 6GAZ_Ae Translation initiation  16.3 5.6E+02  0.0061   21.6   4.3   15   96-110   352-366 (390)
+  6 6YWY_i uL2m, uL3m, uL4m, uL5m,  16.1      97  0.0011   28.3  -0.0   12  143-154   205-216 (218)
+  7 4P6Z_V BST2/tetherin, HIV-1 Vp  14.4 5.1E+02  0.0056   20.1   3.3    7   98-104    27-33  (63)
+  8 2LWW_B CREB-binding protein (E  12.8 5.7E+02  0.0062   20.4   3.2   36   17-52     34-69  (70)
+  9 2N29_A Protein Vpu; alpha heli  12.3 5.7E+02  0.0062   19.2   3.0   34   80-116     2-35  (54)
+ 10 6UGM_X COMPASS eCM/nucleosome   11.2 4.6E+02   0.005   22.0   2.5   42   73-114   282-323 (342)
+
+No 1
+>6Q8I_G WD40 repeat-containing protein SMU1, Protein; Splicing factor, minimal RED-SMU1 complex; 3.17A {Homo sapiens}
+Probab=100.00  E-value=1.6e-56  Score=398.78  Aligned_cols=209  Identities=99%  Similarity=1.359  Sum_probs=4.4  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCChHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCChhhhccccccHHHH
+Q tr|D6REL4|D6RE    4 GFCEPFSNPLAPDGHDVDDPHSFHQSKLTNEDFRKLLMTPRAAPTSAPPSKSRHHEMPREYNEDEDPAARRRKKKSYYAK   83 (212)
+Q Consensus         4 gfcepfsnplapdghdvddphsfhqskltnedfrkllmtpraaptsappsksrhhempreynededpaarrrkkksyyak   83 (212)
+                      .++++|||||+|.++...++.+..+.+|||+|||+||+|||+.+.++++++++.+.+++....+..++.+++|+|.+|++
+T Consensus         4 ~~~~~~snp~~~~~~~~~~~~~~~~~~ltn~DFRkLL~tpr~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~kkk~~~~~   83 (557)
+T 6Q8I_G            4 RDSEPFSNPLAPDGHDVDDPHSFHQSKLTNEDFRKLLMTPRAAPTSAPPSKSRHHEMPREYNEDEDPAARRRKKKSYYAK   83 (557)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ccCCCCCCCCCCCCCCCCCCccccccccCcHHHHHHHcCCCCCCCCCCCccccCCCCCcccCcCCChHHHhhhcHHHHHH
+Confidence            34799999999988775555666678999999999999999643332322222222333323334455566666666766
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHhhcCCCCCcccccccccCCCCCCCCCCCCCCccHHHHHHHHHHHhhcCCCCCcccccc
+Q tr|D6REL4|D6RE   84 LRQQEIERERELAEKYRDRAKERRDGVNKDYEETELISTTANYRAVGPTAEADKSAAEKRRQLIQESKFLGGDMEHTHLV  163 (212)
+Q Consensus        84 lrqqeiererelaekyrdrakerrdgvnkdyeetelisttanyravgptaeadksaaekrrqliqeskflggdmehthlv  163 (212)
+                      +++.+.+.+.++.++|||||+|||+|.|+||++.+.++.+.+|++|+|++..+.+.++.++++||+||||||||+|||||
+T Consensus        84 ~~~~~~~~~~e~~~kYRDRA~ERR~g~~~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ieeSKyLGGD~eHTHLV  163 (557)
+T 6Q8I_G           84 LRQQEIERERELAEKYRDRAKERRDGVNKDYEETELISTTANYRAVGPTAEADKSAAEKRRQLIQESKFLGGDMEHTHLV  163 (557)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHhhHHHHHHHhcCCCCchhhhhHHHHHHHHHHhCCCchhcHHHHHHHHHHHHHHHhcCCCccccccc
+Confidence            65655556678889999999999999999999887777777899999998888888899999999999999999999999
+
+
+Q ss_pred             ccccHHHHHHHHHHHhcccchhhhhCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|D6REL4|D6RE  164 KGLDFALLQKVRAEIASKEKEEEELMEKPQKETKKDEDPENKIEFKTRL  212 (212)
+Q Consensus       164 kgldfallqkvraeiaskekeeeelmekpqketkkdedpenkiefktrl  212 (212)
+                      ||||||||+|||+||+.++.++++..+....+..+....+..+.|+|.|
+T Consensus       164 KGLDyaLL~KvR~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~  212 (557)
+T 6Q8I_G          164 KGLDFALLQKVRAEIASKEKEEEELMEKPQKETKKDEDPENKIEFKTRL  212 (557)
+T ss_dssp             -------------------------------------------CCSSSH
+T ss_pred             ccccHHHHHHHHHHHHHHHHHHHHHhhcccccccCCCChhhhHhHhhHH
+Confidence            9999999999999998766654433332222111222334567788764
+
+
+No 2
+>6Q8I_L WD40 repeat-containing protein SMU1, Protein; Splicing factor, minimal RED-SMU1 complex; 3.17A {Homo sapiens}
+Probab=100.00  E-value=1.6e-56  Score=398.78  Aligned_cols=209  Identities=99%  Similarity=1.359  Sum_probs=1.1  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCChHHHHHhcCCCCCCCCCCCCCCCCCCCCCCCCCCCCChhhhccccccHHHH
+Q tr|D6REL4|D6RE    4 GFCEPFSNPLAPDGHDVDDPHSFHQSKLTNEDFRKLLMTPRAAPTSAPPSKSRHHEMPREYNEDEDPAARRRKKKSYYAK   83 (212)
+Q Consensus         4 gfcepfsnplapdghdvddphsfhqskltnedfrkllmtpraaptsappsksrhhempreynededpaarrrkkksyyak   83 (212)
+                      .++++|||||+|.++...++.+..+.+|||+|||+||+|||+.+.++++++++.+.+++....+..++.+++|+|.+|++
+T Consensus         4 ~~~~~~snp~~~~~~~~~~~~~~~~~~ltn~DFRkLL~tpr~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~kkk~~~~~   83 (557)
+T 6Q8I_L            4 RDSEPFSNPLAPDGHDVDDPHSFHQSKLTNEDFRKLLMTPRAAPTSAPPSKSRHHEMPREYNEDEDPAARRRKKKSYYAK   83 (557)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ccCCCCCCCCCCCCCCCCCCccccccccCcHHHHHHHcCCCCCCCCCCCccccCCCCCcccCcCCChHHHhhhcHHHHHH
+Confidence            34799999999988775555666678999999999999999643332322222222333323334455566666666766
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHhhcCCCCCcccccccccCCCCCCCCCCCCCCccHHHHHHHHHHHhhcCCCCCcccccc
+Q tr|D6REL4|D6RE   84 LRQQEIERERELAEKYRDRAKERRDGVNKDYEETELISTTANYRAVGPTAEADKSAAEKRRQLIQESKFLGGDMEHTHLV  163 (212)
+Q Consensus        84 lrqqeiererelaekyrdrakerrdgvnkdyeetelisttanyravgptaeadksaaekrrqliqeskflggdmehthlv  163 (212)
+                      +++.+.+.+.++.++|||||+|||+|.|+||++.+.++.+.+|++|+|++..+.+.++.++++||+||||||||+|||||
+T Consensus        84 ~~~~~~~~~~e~~~kYRDRA~ERR~g~~~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ieeSKyLGGD~eHTHLV  163 (557)
+T 6Q8I_L           84 LRQQEIERERELAEKYRDRAKERRDGVNKDYEETELISTTANYRAVGPTAEADKSAAEKRRQLIQESKFLGGDMEHTHLV  163 (557)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHHHHhhHHHHHHHhcCCCCchhhhhHHHHHHHHHHhCCCchhcHHHHHHHHHHHHHHHhcCCCccccccc
+Confidence            65655556678889999999999999999999887777777899999998888888899999999999999999999999
+
+
+Q ss_pred             ccccHHHHHHHHHHHhcccchhhhhCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|D6REL4|D6RE  164 KGLDFALLQKVRAEIASKEKEEEELMEKPQKETKKDEDPENKIEFKTRL  212 (212)
+Q Consensus       164 kgldfallqkvraeiaskekeeeelmekpqketkkdedpenkiefktrl  212 (212)
+                      ||||||||+|||+||+.++.++++..+....+..+....+..+.|+|.|
+T Consensus       164 KGLDyaLL~KvR~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~  212 (557)
+T 6Q8I_L          164 KGLDFALLQKVRAEIASKEKEEEELMEKPQKETKKDEDPENKIEFKTRL  212 (557)
+T ss_dssp             -----------------------------------------------CH
+T ss_pred             ccccHHHHHHHHHHHHHHHHHHHHHhhcccccccCCCChhhhHhHhhHH
+Confidence            9999999999999998766554433332222111222234567788764
+
+
+No 3
+>6ASO_A Lsm2-8 spliceosome U6 Prp24; Lsm2-8 spliceosome U6 Prp24, SPLICING; HET: UBD; 2.71A {Saccharomyces cerevisiae}
+Probab=65.31  E-value=6.6  Score=32.39  Aligned_cols=14  Identities=36%  Similarity=0.918  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCChHHHHHhcCC
+Q tr|D6REL4|D6RE   29 SKLTNEDFRKLLMT   42 (212)
+Q Consensus        29 skltnedfrkllmt   42 (212)
+                      ..|||||||||+-.
+T Consensus       404 ~~~~n~~~~~~~~~  417 (424)
+T 6ASO_A          404 EQMSNDDFRKMFLG  417 (424)
+T ss_dssp             --------------
+T ss_pred             CcccHHHHHHHHcc
+Confidence            47999999999854
+
+
+No 4
+>2N28_A Protein Vpu; alpha helix, VIRAL PROTEIN; NMR {Human immunodeficiency virus 1}
+Probab=25.59  E-value=1.7e+02  Score=23.25  Aligned_cols=8  Identities=50%  Similarity=0.688  Sum_probs=3.8  Template_Neff=4.400
+
+Q ss_pred             HHHHHhhc
+Q tr|D6REL4|D6RE  101 DRAKERRD  108 (212)
+Q Consensus       101 drakerrd  108 (212)
+                      +|-.||.+
+T Consensus        43 ~rIrErae   50 (81)
+T 2N28_A           43 DRLIERAE   50 (81)
+T ss_dssp             HHHHHHCS
+T ss_pred             HHHHHHHh
+Confidence            34455543
+
+
+No 5
+>6GAZ_Ae Translation initiation factor IF-2, mitochondrial; translation initiation, initiation factor IF2; HET: SPM, MG, GTP, GSP, FME; 3.1A {Sus scrofa}
+Probab=16.26  E-value=5.6e+02  Score=21.64  Aligned_cols=15  Identities=13%  Similarity=0.180  Sum_probs=8.7  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHhhcCC
+Q tr|D6REL4|D6RE   96 AEKYRDRAKERRDGV  110 (212)
+Q Consensus        96 aekyrdrakerrdgv  110 (212)
+                      ...|..-..+|+.-.
+T Consensus       352 ~~~~~~w~~~r~~~~  366 (390)
+T 6GAZ_Ae         352 EQRLQQWHGERVRLI  366 (390)
+T ss_pred             HHHHHHHHHHHHHHH
+Confidence            345666666666543
+
+
+No 6
+>6YWY_i uL2m, uL3m, uL4m, uL5m, uL6m; Neurospora crassa, translating Mitoribosomes, tRNA; HET: K, SPM, MG, NAD, ATP;{Neurospora crassa}
+Probab=16.08  E-value=97  Score=28.35  Aligned_cols=12  Identities=42%  Similarity=0.700  Sum_probs=5.8  Template_Neff=4.500
+
+Q ss_pred             HHHHHHHhhcCC
+Q tr|D6REL4|D6RE  143 RRQLIQESKFLG  154 (212)
+Q Consensus       143 rrqliqeskflg  154 (212)
+                      |+..|-++-||.
+T Consensus       205 rR~~IKE~NfLk  216 (218)
+T 6YWY_i          205 RKAKIKESNYLK  216 (218)
+T ss_pred             HHHHHHHHHhhh
+Confidence            344455555554
+
+
+No 7
+>4P6Z_V BST2/tetherin, HIV-1 Vpu, Clathrin adaptor; BST2, tetherin, Vpu, HIV, clathrin; 3.0A {Mus musculus}
+Probab=14.45  E-value=5.1e+02  Score=20.14  Aligned_cols=7  Identities=29%  Similarity=0.610  Sum_probs=2.8  Template_Neff=3.900
+
+Q ss_pred             HHHHHHH
+Q tr|D6REL4|D6RE   98 KYRDRAK  104 (212)
+Q Consensus        98 kyrdrak  104 (212)
+                      +-|.||.
+T Consensus        27 rIrERAe   33 (63)
+T 4P6Z_V           27 RITERAE   33 (63)
+T ss_pred             HHHHHHH
+Confidence            3344443
+
+
+No 8
+>2LWW_B CREB-binding protein (E.C.2.3.1.48), Nuclear transcription; NF-kappaB, p65, Transcription; HET: ZN; NMR {Mus musculus}
+Probab=12.76  E-value=5.7e+02  Score=20.39  Aligned_cols=36  Identities=19%  Similarity=0.256  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CCCCCCCCCCCCCCCChHHHHHhcCCCCCCCCCCCC
+Q tr|D6REL4|D6RE   17 GHDVDDPHSFHQSKLTNEDFRKLLMTPRAAPTSAPP   52 (212)
+Q Consensus        17 ghdvddphsfhqskltnedfrkllmtpraaptsapp   52 (212)
+                      +.+.|+.+.+.-+.++|.+|+.||--.-..+.+..+
+T Consensus        34 ~d~~~~~~~tsL~sIdnSeF~QLLsqg~~~~~~~~~   69 (70)
+T 2LWW_B           34 GNSTDPGVFTDLASVDNSEFQQLLNQGVSMSHSTAE   69 (70)
+T ss_dssp             CSCCCGGGCCCGGGCCCHHHHHHHTTSSSSSCSCCC
+T ss_pred             CCCCCCCccCChhhcCHHHHHHHHhcCCCCCCCCCC
+
+
+No 9
+>2N29_A Protein Vpu; alpha helix, VIRAL PROTEIN; NMR {Human immunodeficiency virus 1}
+Probab=12.29  E-value=5.7e+02  Score=19.17  Aligned_cols=34  Identities=26%  Similarity=0.492  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCCccc
+Q tr|D6REL4|D6RE   80 YYAKLRQQEIERERELAEKYRDRAKERRDGVNKDYEE  116 (212)
+Q Consensus        80 yyaklrqqeiererelaekyrdrakerrdgvnkdyee  116 (212)
+                      |-.-+||..|.+   |.++.|+||+..-.+..-|-++
+T Consensus         2 yrk~~~q~kI~~---li~ri~eraedsgnESdGD~ee   35 (54)
+T 2N29_A            2 YRKILRQRKIDR---LIDRLIERAEDSGNESEGEISA   35 (54)
+T ss_dssp             TTSSCSSGGGGG---HHHHHHHHHHTTSSCCHHHHHH
+T ss_pred             hHHHHHHHHHHH---HHHHHHHHHHhcCCCchhhHHH
+
+
+No 10
+>6UGM_X COMPASS eCM/nucleosome complex; Complex, methyltransferase, epigenetics, chromatin, nucleosome; HET: SAM;{Xenopus laevis}
+Probab=11.20  E-value=4.6e+02  Score=22.00  Aligned_cols=42  Identities=12%  Similarity=0.171  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             hccccccHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCCCc
+Q tr|D6REL4|D6RE   73 RRRKKKSYYAKLRQQEIERERELAEKYRDRAKERRDGVNKDY  114 (212)
+Q Consensus        73 rrrkkksyyaklrqqeiererelaekyrdrakerrdgvnkdy  114 (212)
+                      ||=.+-..+.++++.+|+.|+...+.-.++..+..+.+...+
+T Consensus       282 kkC~rH~~W~~~~~~~~~~e~~~~~~~~~~l~~~~~~~~~~~  323 (342)
+T 6UGM_X          282 TKCAKHQDWITLSQNDLSEQKDSLENVKRRLDLLISVRTNQL  323 (342)
+T ss_pred             cccccCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+

@@ -1,0 +1,164 @@
+Query         tr|H0YAU2|H0YAU2_HUMAN
+Match_columns 223
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:03:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1805.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6YXY_Bf bL28m, uL29m, uL30m, b   9.9 1.6E+02  0.0017   25.7  -0.5   43    3-48     70-112 (113)
+  2 2XQN_A ACTIN-LIKE PROTEIN 7A,    9.7 2.8E+02   0.003   22.3   0.7   22   26-55     20-41  (65)
+  3 7AOI_Av bL28m, uL29m, uL30m, b   8.4   3E+02  0.0032   25.9   0.5   27   31-57     52-78  (197)
+  4 7AIH_Ag mL94, mL89, Ribosomal    6.2 4.5E+02  0.0049   25.5   0.6   27   31-57     80-106 (244)
+  5 6YXY_Av bL28m, uL29m, uL30m, b   6.1 4.4E+02  0.0048   25.5   0.5   27   31-57     78-104 (242)
+  6 7AOI_Bf bL28m, uL29m, uL30m, b   5.7   3E+02  0.0033   23.1  -0.6   42    4-48     45-86  (86)
+  7 7DDQ_X Antenna pigment protein   5.7 5.4E+02  0.0059   21.1   0.7   36   58-93     37-72  (83)
+  8 6EKZ_A Aromatic peroxygenase (   4.3 1.6E+03   0.017   20.5   2.6    9   80-88     25-33  (328)
+  9 5XYV_C RHINO, Protein deadlock   3.9 8.1E+02  0.0088   19.6   0.5   10   11-20     45-54  (60)
+ 10 5YDX_A WW domain with PPxY mot   3.9 1.3E+03   0.014   11.6   1.6    8   69-76     50-57  (59)
+
+No 1
+>6YXY_Bf bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, SPD, ATP; 3.1A {Trypanosoma brucei brucei}
+Probab=9.95  E-value=1.6e+02  Score=25.65  Aligned_cols=43  Identities=35%  Similarity=0.597  Sum_probs=25.6  Template_Neff=1.800
+
+Q ss_pred             CCCCCCcCCCCCccCCccccccCCCCCcchhccccccCCCCCcCCC
+Q tr|H0YAU2|H0YA    3 CPLPGALLQDPYFIQSEEKMEASLPPNQTQALQHGLSLLPQTFSLR   48 (223)
+Q Consensus         3 cplpgallqdpyfiqseekmeaslppnqtqalqhglsllpqtfslr   48 (223)
+                      -|+|...-+.|||-   |.+||----.+....-.-.+.-|..+|||
+T Consensus        70 Dp~p~sf~~EPy~e---eeiEA~R~hhrPdvyiykynvspTh~sLR  112 (113)
+T 6YXY_Bf          70 DPLPSSFAQEPYFE---EEIEAHRKHHRPDVYIYKYNVSPTHFSLR  112 (113)
+T ss_pred             CCCCCcccCCCccH---HHHHHHHhhcCCCeEEEEeecCCcccccC
+Confidence            36788888899984   55555443333333444455556666665
+
+
+No 2
+>2XQN_A ACTIN-LIKE PROTEIN 7A, ENABLED HOMOLOG; METAL-BINDING PROTEIN, CYTOSKELETON, FOCAL ADHESION; 2.62A {HOMO SAPIENS}
+Probab=9.68  E-value=2.8e+02  Score=22.31  Aligned_cols=22  Identities=64%  Similarity=0.699  Sum_probs=10.8  Template_Neff=2.400
+
+Q ss_pred             CCCCcchhccccccCCCCCcCCCCCCCCCC
+Q tr|H0YAU2|H0YA   26 LPPNQTQALQHGLSLLPQTFSLRPGPAPPP   55 (223)
+Q Consensus        26 lppnqtqalqhglsllpqtfslrpgpappp   55 (223)
+                      ..+-|||+||        |-||+-|||-..
+T Consensus        20 q~~~qtqalQ--------tASLkdGPAKRA   41 (65)
+T 2XQN_A           20 QAPLQTQALQ--------TASLRDGPAKRA   41 (65)
+T ss_dssp             --------CE--------ECCEECCSCEEC
+T ss_pred             CCchhhhhee--------hhccccCCccee
+Confidence            4466788774        779999998643
+
+
+No 3
+>7AOI_Av bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=8.38  E-value=3e+02  Score=25.91  Aligned_cols=27  Identities=33%  Similarity=0.592  Sum_probs=22.2  Template_Neff=1.900
+
+Q ss_pred             chhccccccCCCCCcCCCCCCCCCCCC
+Q tr|H0YAU2|H0YA   31 TQALQHGLSLLPQTFSLRPGPAPPPLP   57 (223)
+Q Consensus        31 tqalqhglsllpqtfslrpgpappplp   57 (223)
+                      .+|||..+.++|+-|+...-|.||.--
+T Consensus        52 p~ALq~Al~MiP~gFe~~DVpRPPqRI   78 (197)
+T 7AOI_Av          52 REALQAALAMVPPGFEVADVPRPPQRI   78 (197)
+T ss_pred             HHHHHHHHhcCCCCcccccCCCCChhc
+Confidence            479999999999999998777766543
+
+
+No 4
+>7AIH_Ag mL94, mL89, Ribosomal protein L3-like; Ribosome, Mitochondria, Kinetoplastid; HET: NAD; 3.6A {Leishmania major}
+Probab=6.25  E-value=4.5e+02  Score=25.50  Aligned_cols=27  Identities=30%  Similarity=0.533  Sum_probs=22.3  Template_Neff=2.000
+
+Q ss_pred             chhccccccCCCCCcCCCCCCCCCCCC
+Q tr|H0YAU2|H0YA   31 TQALQHGLSLLPQTFSLRPGPAPPPLP   57 (223)
+Q Consensus        31 tqalqhglsllpqtfslrpgpappplp   57 (223)
+                      .+|||..+.++|+-|+...-|.||.--
+T Consensus        80 ~~ALq~Al~MiP~gFe~~DVpRPPqRI  106 (244)
+T 7AIH_Ag          80 AAALKEALEMVPEGFETCDVPRPPQRI  106 (244)
+T ss_pred             HHHHHHHHhcCCCCccccCCCCCCchh
+Confidence            479999999999999998777776543
+
+
+No 5
+>6YXY_Av bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, SPD, ATP; 3.1A {Trypanosoma brucei brucei}
+Probab=6.12  E-value=4.4e+02  Score=25.53  Aligned_cols=27  Identities=33%  Similarity=0.592  Sum_probs=22.3  Template_Neff=2.000
+
+Q ss_pred             chhccccccCCCCCcCCCCCCCCCCCC
+Q tr|H0YAU2|H0YA   31 TQALQHGLSLLPQTFSLRPGPAPPPLP   57 (223)
+Q Consensus        31 tqalqhglsllpqtfslrpgpappplp   57 (223)
+                      .+|||..+.++|+-|+...-|.||.--
+T Consensus        78 ~~ALq~Al~MiP~gFe~~DVpRPPqRI  104 (242)
+T 6YXY_Av          78 REALQAALAMVPPGFEVADVPRPPQRI  104 (242)
+T ss_pred             HHHHHHHHhcCCCCcccccCCCCChhh
+Confidence            479999999999999998777776543
+
+
+No 6
+>7AOI_Bf bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=5.72  E-value=3e+02  Score=23.11  Aligned_cols=42  Identities=36%  Similarity=0.637  Sum_probs=21.8  Template_Neff=1.800
+
+Q ss_pred             CCCCCcCCCCCccCCccccccCCCCCcchhccccccCCCCCcCCC
+Q tr|H0YAU2|H0YA    4 PLPGALLQDPYFIQSEEKMEASLPPNQTQALQHGLSLLPQTFSLR   48 (223)
+Q Consensus         4 plpgallqdpyfiqseekmeaslppnqtqalqhglsllpqtfslr   48 (223)
+                      |+|...-+.|||-   |.+||----.+....-.-.++-|..+|||
+T Consensus        45 p~~~sf~~EPy~e---eeiEA~R~~hrpdiyiyky~vspTh~sLR   86 (86)
+T 7AOI_Bf          45 PLPSSFAQEPYFE---EEIEAHRKHHRPDVYIYKYNVSPTHFSLR   86 (86)
+T ss_pred             CCCCCccCCcccH---HHHHHHHhhcCCCeEEEeeeecCcccccC
+Confidence            5667777888884   45555433333333333344444445443
+
+
+No 7
+>7DDQ_X Antenna pigment protein alpha chain; membrane protein, light-harvesting, reaction center; HET: 3PE, U10, SPO, BPH, BCL;{Rhodobacter veldkampii DSM 11550}
+Probab=5.68  E-value=5.4e+02  Score=21.06  Aligned_cols=36  Identities=22%  Similarity=0.168  Sum_probs=27.6  Template_Neff=4.000
+
+Q ss_pred             hhhhHHHhCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YAU2|H0YA   58 VAVVQAILEGKGSFSPEGPRNAQQPEPGDPREIPDR   93 (223)
+Q Consensus        58 vavvqailegkgsfspegprnaqqpepgdpreipdr   93 (223)
+                      +.++-+++-+-|.+-||..|.+..|-|-..-+++|.
+T Consensus        37 i~~fi~vl~~IG~lLPeeSk~aPdP~p~s~l~~~~~   72 (83)
+T 7DDQ_X           37 TVFFVVALAFIGQFLPDRSREAPYPNTIFQVNDIDG   72 (83)
+T ss_pred             HHHHHHHHHHHHHhCChhHhcCCCCCCccccccCCC
+Confidence            444556778889999999999988888666666653
+
+
+No 8
+>6EKZ_A Aromatic peroxygenase (E.C.1.11.2.1); directed evolution, PaDaI, unspecific peroxygenase; HET: NAG, HEM, SNP, GOL, PO4; 1.08A {Agrocybe aegerita}
+Probab=4.29  E-value=1.6e+03  Score=20.54  Aligned_cols=9  Identities=44%  Similarity=0.756  Sum_probs=4.1  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCC
+Q tr|H0YAU2|H0YA   80 QQPEPGDPR   88 (223)
+Q Consensus        80 qqpepgdpr   88 (223)
+                      +.|.++|-|
+T Consensus        25 ~~P~~~D~R   33 (328)
+T 6EKZ_A           25 KPLRPGDIR   33 (328)
+T ss_dssp             CCCCTTCCC
+T ss_pred             CCCCCCCcc
+Confidence            334455544
+
+
+No 9
+>5XYV_C RHINO, Protein deadlock; piRNA pathway, Chromoshadow, Complex, PROTEIN; 2.1A {Drosophila melanogaster}
+Probab=3.89  E-value=8.1e+02  Score=19.57  Aligned_cols=10  Identities=40%  Similarity=0.733  Sum_probs=7.1  Template_Neff=2.600
+
+Q ss_pred             CCCCccCCcc
+Q tr|H0YAU2|H0YA   11 QDPYFIQSEE   20 (223)
+Q Consensus        11 qdpyfiqsee   20 (223)
+                      .+||+|||.-
+T Consensus        45 ~npY~Iqss~   54 (60)
+T 5XYV_C           45 RKPYCIQTSC   54 (60)
+T ss_dssp             HSCCEEECC-
+T ss_pred             CCCccceecC
+Confidence            4789999853
+
+
+No 10
+>5YDX_A WW domain with PPxY motif; Hippo pathway, YAP, LATs, WW; NMR {Homo sapiens}
+Probab=3.86  E-value=1.3e+03  Score=11.59  Aligned_cols=8  Identities=25%  Similarity=0.281  Sum_probs=3.1  Template_Neff=12.800
+
+Q ss_pred             CCCCCCCC
+Q tr|H0YAU2|H0YA   69 GSFSPEGP   76 (223)
+Q Consensus        69 gsfspegp   76 (223)
+                      +..+++++
+T Consensus        50 ~~~~~~~~   57 (59)
+T 5YDX_A           50 QGPPPPYP   57 (59)
+T ss_dssp             SSCCCCCC
+T ss_pred             CCCCCCCC
+Confidence            33344433
+
+

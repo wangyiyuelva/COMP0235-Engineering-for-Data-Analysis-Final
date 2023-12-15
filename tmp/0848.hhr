@@ -1,0 +1,170 @@
+Query         sp|O95399|UTS2_HUMAN
+Match_columns 124
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:45:33 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0848.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3A4C_A DNA replication factor   23.8 1.4E+02  0.0016   20.4   2.1   19   43-61      2-20  (106)
+  2 5TDY_A Flagellar M-ring protei  23.2 2.7E+02  0.0029   16.0   2.9   23   43-65      1-23  (43)
+  3 5TDY_C Flagellar M-ring protei  23.2 2.7E+02  0.0029   16.0   2.9   23   43-65      1-23  (43)
+  4 3TFG_A Alr2278 protein; Heme-b  21.5   2E+02  0.0022   19.1   2.4   65   41-108    42-106 (189)
+  5 6BDD_A Methyl-accepting chemot  20.4 1.4E+02  0.0015   19.7   1.4   57   41-101    42-98  (185)
+  6 3KMI_A Putative membrane prote  20.3 1.8E+02   0.002   21.7   2.2   18   42-59    146-164 (177)
+  7 3KMI_B Putative membrane prote  20.3 1.8E+02   0.002   21.7   2.2   19   41-59    145-164 (177)
+  8 6HE8_C Proteasome subunit alph  20.1 1.5E+02  0.0016   19.6   1.5   18   71-88      4-21  (242)
+  9 4IAM_A Alr2278 protein (E.C.4.  18.4 3.4E+02  0.0037   17.5   2.8   61   40-102    41-101 (182)
+ 10 5IXW_B Alr2278 protein; Solubl  18.4 3.4E+02  0.0037   17.5   2.8   61   40-102    41-101 (182)
+
+No 1
+>3A4C_A DNA replication factor Cdt1; alpha-beta structure, Cell cycle, DNA; 1.889A {Mus musculus}
+Probab=23.80  E-value=1.4e+02  Score=20.38  Aligned_cols=19  Identities=37%  Similarity=0.482  Sum_probs=16.8  Template_Neff=8.000
+
+Q ss_pred             CHHHHHHhcHHHHHHHHHC
+Q sp|O95399|UTS2   43 TPEELERASLLQILPEMLG   61 (124)
+Q Consensus        43 tpeelerasllqilpemlg   61 (124)
+                      +||+.+|..+++-||++..
+T Consensus         2 ~p~~~~r~~~l~rLp~l~~   20 (106)
+T 3A4C_A            2 CPEQELRLQRLERLPELAR   20 (106)
+T ss_dssp             CHHHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHhcHHHHHH
+Confidence            6899999999999999864
+
+
+No 2
+>5TDY_A Flagellar M-ring protein, Flagellar motor; flagellar motor, switch complex, MOTOR; HET: MSE; 2.105A {Thermotoga maritima}
+Probab=23.15  E-value=2.7e+02  Score=15.95  Aligned_cols=23  Identities=30%  Similarity=0.406  Sum_probs=15.4  Template_Neff=8.100
+
+Q ss_pred             CHHHHHHhcHHHHHHHHHCCchh
+Q sp|O95399|UTS2   43 TPEELERASLLQILPEMLGAERG   65 (124)
+Q Consensus        43 tpeelerasllqilpemlgaerg   65 (124)
+                      |+|+.+|..+++-+.+++..+..
+T Consensus         1 ~~~~~~r~~~~~~i~~~~~~~p~   23 (43)
+T 5TDY_A            1 MPEEKELLELLEELENIFSRSPS   23 (43)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHCHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHhCHH
+Confidence            57788887777777666655443
+
+
+No 3
+>5TDY_C Flagellar M-ring protein, Flagellar motor; flagellar motor, switch complex, MOTOR; HET: MSE; 2.105A {Thermotoga maritima}
+Probab=23.15  E-value=2.7e+02  Score=15.95  Aligned_cols=23  Identities=30%  Similarity=0.406  Sum_probs=15.3  Template_Neff=8.100
+
+Q ss_pred             CHHHHHHhcHHHHHHHHHCCchh
+Q sp|O95399|UTS2   43 TPEELERASLLQILPEMLGAERG   65 (124)
+Q Consensus        43 tpeelerasllqilpemlgaerg   65 (124)
+                      |+|+.+|..+++-+.+++..+..
+T Consensus         1 ~~~~~~r~~~~~~i~~~~~~~p~   23 (43)
+T 5TDY_C            1 MPEEKELLELLEELENIFSRSPS   23 (43)
+T ss_dssp             -CHHHHHHHHHHHHHHHHTSCHH
+T ss_pred             CHHHHHHHHHHHHHHHHHHhCHH
+Confidence            45777777777777777766554
+
+
+No 4
+>3TFG_A Alr2278 protein; Heme-based sensor domain, Gas binding; HET: MLA, HEM; 1.9003A {Nostoc sp. PCC 7120}
+Probab=21.51  E-value=2e+02  Score=19.12  Aligned_cols=65  Identities=9%  Similarity=0.082  Sum_probs=39.0  Template_Neff=10.900
+
+Q ss_pred             CCCHHHHHHhcHHHHHHHHHCCchhhHHHhcCCCCCCCCCCcchhhhhhcCCCChhHHHHHHHHHhcc
+Q sp|O95399|UTS2   41 RLTPEELERASLLQILPEMLGAERGDILRKADSSTNIFNPRGNLRKFQDFSGQDPNILLSHLLARIWK  108 (124)
+Q Consensus        41 rltpeelerasllqilpemlgaergdilrkadsstnifnprgnlrkfqdfsgqdpnillshllariwk  108 (124)
+                      ..+.+++.  .+++.+-+++|....++++.....+-..--.+..+++-...+.+|..++..+- .+|.
+T Consensus        42 ~yp~~~~~--~l~~~~~~~~g~~~~~~~~~~G~~~~~~~~~~~~~~~l~~~~~~~~~~l~~~~-~~~~  106 (189)
+T 3TFG_A           42 AYSDDVTY--HLVGAASEVLGKPAEEWWIAFGEYWVTYTSEEGYGELLASAGDSLPEFMENLD-NLHA  106 (189)
+T ss_dssp             BCCHHHHH--HHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHTTCHHHHHHTCSSHHHHHHHHH-HHHH
+T ss_pred             ccCHHHHH--HHHHHHHHHHCCCHHHHHHHHHHHHHHHhcccCHHHHHHhcCCCHHHHHHcHH-HHHH
+Confidence            34445553  46688889999988889888765432222222244455556778877776543 2444
+
+
+No 5
+>6BDD_A Methyl-accepting chemotaxis protein; Nitric oxide signaling, heme nitric; HET: HEM; 1.901A {Kordia algicida OT-1}
+Probab=20.39  E-value=1.4e+02  Score=19.66  Aligned_cols=57  Identities=18%  Similarity=0.099  Sum_probs=33.6  Template_Neff=11.100
+
+Q ss_pred             CCCHHHHHHhcHHHHHHHHHCCchhhHHHhcCCCCCCCCCCcchhhhhhcCCCChhHHHHH
+Q sp|O95399|UTS2   41 RLTPEELERASLLQILPEMLGAERGDILRKADSSTNIFNPRGNLRKFQDFSGQDPNILLSH  101 (124)
+Q Consensus        41 rltpeelerasllqilpemlgaergdilrkadsstnifnprgnlrkfqdfsgqdpnillsh  101 (124)
+                      ..+.+++  ..+++.+-+.+|....++++......--....+ +++.-. ++.+|..++..
+T Consensus        42 ~yp~~~~--~~l~~~~~~~~g~~~~~~~~~~G~~~~~~~~~~-~~~~~~-~~~~~~~~l~~   98 (185)
+T 6BDD_A           42 TYRFSEM--LQLLQNLSANTDVSIDDLLLTYAEHFFSVIEDS-YPGLLA-TYKDPIEMLAS   98 (185)
+T ss_dssp             BCCHHHH--HHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHH-CHHHHT-TCSCHHHHHTT
+T ss_pred             eeCHHHH--HHHHHHHHHhhCCCHHHHHHHHHHHHHHHHHHH-CHHHHh-cCCCHHHHHHc
+Confidence            3444555  468899999999988888887654322111122 233222 56677766665
+
+
+No 6
+>3KMI_A Putative membrane protein COG4129; Structural genomics, PSI-2, Protein Structure; HET: MSE; 1.96A {Clostridium difficile}
+Probab=20.29  E-value=1.8e+02  Score=21.73  Aligned_cols=18  Identities=39%  Similarity=0.540  Sum_probs=14.4  Template_Neff=7.900
+
+Q ss_pred             CCHHHHH-HhcHHHHHHHH
+Q sp|O95399|UTS2   42 LTPEELE-RASLLQILPEM   59 (124)
+Q Consensus        42 ltpeele-rasllqilpem   59 (124)
+                      -|-+|.| ||.|.|+|-++
+T Consensus       146 ~TReEFE~RA~Ly~iL~dL  164 (177)
+T 3KMI_A          146 VDRTEFENRAILFLCLTEL  164 (177)
+T ss_dssp             SSHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHH
+Confidence            4778876 89999998765
+
+
+No 7
+>3KMI_B Putative membrane protein COG4129; Structural genomics, PSI-2, Protein Structure; HET: MSE; 1.96A {Clostridium difficile}
+Probab=20.29  E-value=1.8e+02  Score=21.73  Aligned_cols=19  Identities=37%  Similarity=0.496  Sum_probs=14.8  Template_Neff=7.900
+
+Q ss_pred             CCCHHHHH-HhcHHHHHHHH
+Q sp|O95399|UTS2   41 RLTPEELE-RASLLQILPEM   59 (124)
+Q Consensus        41 rltpeele-rasllqilpem   59 (124)
+                      .-|-+|.| ||.|.|+|-++
+T Consensus       145 P~TReEFE~RA~Ly~iL~dL  164 (177)
+T 3KMI_B          145 PVDRTEFENRAILFLCLTEL  164 (177)
+T ss_dssp             CCSHHHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHHHH
+Confidence            34778876 89999998765
+
+
+No 8
+>6HE8_C Proteasome subunit alpha (E.C.3.4.25.1), Proteasome; PAN, Proteasome, AAA-ATPase, Archaea, hydrolase; HET: ADP, ATP; 6.86A {Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126)}
+Probab=20.12  E-value=1.5e+02  Score=19.55  Aligned_cols=18  Identities=28%  Similarity=0.604  Sum_probs=14.2  Template_Neff=12.000
+
+Q ss_pred             cCCCCCCCCCCcchhhhh
+Q sp|O95399|UTS2   71 ADSSTNIFNPRGNLRKFQ   88 (124)
+Q Consensus        71 adsstnifnprgnlrkfq   88 (124)
+                      .|.+.++|+|.|++....
+T Consensus         4 ~~~~~~~~~~~~~~~~~~   21 (242)
+T 6HE8_C            4 YDRAITVFSPDGRLFQVE   21 (242)
+T ss_dssp             SSSCSSCCCTTSCCTTTT
+T ss_pred             CccccceeCCCCcHHHHH
+Confidence            467788999999987654
+
+
+No 9
+>4IAM_A Alr2278 protein (E.C.4.6.1.2); HNOX domain, soluble guanylyl cyclase; HET: MLI, HEM; 1.99A {Nostoc sp.}
+Probab=18.36  E-value=3.4e+02  Score=17.52  Aligned_cols=61  Identities=11%  Similarity=0.149  Sum_probs=35.3  Template_Neff=11.400
+
+Q ss_pred             CCCCHHHHHHhcHHHHHHHHHCCchhhHHHhcCCCCCCCCCCcchhhhhhcCCCChhHHHHHH
+Q sp|O95399|UTS2   40 ARLTPEELERASLLQILPEMLGAERGDILRKADSSTNIFNPRGNLRKFQDFSGQDPNILLSHL  102 (124)
+Q Consensus        40 arltpeelerasllqilpemlgaergdilrkadsstnifnprgnlrkfqdfsgqdpnillshl  102 (124)
+                      ...+.+.+.  .++..+-+.+|....++++......-...-......+-.+.+.+|..++..+
+T Consensus        41 ~~yp~~~~~--~~~~~~~~~~g~~~~~~~~~~G~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  101 (182)
+T 4IAM_A           41 EAYSDDVTY--HLVGAASEVLGKPAEELLIAFGEYWVTYTSEEGYGELLASAGDSLPEFMENL  101 (182)
+T ss_dssp             SBCCHHHHH--HHHHHHHHHHTSCHHHHHHHHHHHHHHHHHHTTCHHHHHHTCSSHHHHHHTH
+T ss_pred             eecCHHHHH--HHHHHHHHHHCCCHHHHHHHHhHHHHHHhhhcCHHHHHHhcCCCHHHHHHcH
+Confidence            344444443  3556677888887788888765443322222223444455677888777654
+
+
+No 10
+>5IXW_B Alr2278 protein; Soluble guanylyl cyclase, H-NOX domain; HET: NVI, HEM; 2.46A {Nostoc sp. (strain PCC 7120 / UTEX 2576)}
+Probab=18.36  E-value=3.4e+02  Score=17.52  Aligned_cols=61  Identities=11%  Similarity=0.149  Sum_probs=35.3  Template_Neff=11.400
+
+Q ss_pred             CCCCHHHHHHhcHHHHHHHHHCCchhhHHHhcCCCCCCCCCCcchhhhhhcCCCChhHHHHHH
+Q sp|O95399|UTS2   40 ARLTPEELERASLLQILPEMLGAERGDILRKADSSTNIFNPRGNLRKFQDFSGQDPNILLSHL  102 (124)
+Q Consensus        40 arltpeelerasllqilpemlgaergdilrkadsstnifnprgnlrkfqdfsgqdpnillshl  102 (124)
+                      ...+.+.+.  .++..+-+.+|....++++......-...-......+-.+.+.+|..++..+
+T Consensus        41 ~~yp~~~~~--~~~~~~~~~~g~~~~~~~~~~G~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  101 (182)
+T 5IXW_B           41 EAYSDDVTY--HLVGAASEVLGKPAEELLIAFGEYWVTYTSEEGYGELLASAGDSLPEFMENL  101 (182)
+T ss_dssp             SBCCHHHHH--HHHHHHHHHHTCCHHHHHHHHHHHHHHHHHHTTCHHHHHHTCSSHHHHHHTH
+T ss_pred             eecCHHHHH--HHHHHHHHHHCCCHHHHHHHHhHHHHHHhhhcCHHHHHHhcCCCHHHHHHcH
+Confidence            344444443  3556677888887788888765443322222223444455677887777654
+
+

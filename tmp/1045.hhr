@@ -1,0 +1,166 @@
+Query         tr|H0Y6D1|H0Y6D1_HUMAN
+Match_columns 119
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:26:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1045.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6JPD_B Receptor-interacting se  39.0      57 0.00061   24.4   2.2   28    6-33     45-76  (84)
+  2 7DAC_A Receptor-interacting se  21.6 1.8E+02   0.002   22.7   2.5   27    6-32     47-74  (108)
+  3 5FOR_A PHOSPHOINOSITIDE 3-KINA  19.2      55  0.0006   23.8  -0.6   56   35-94     16-74  (139)
+  4 3SYB_A Glycine-glutamate dipep  17.1 1.9E+02  0.0021   23.7   1.8   27   31-58      4-30  (467)
+  5 1RJ8_G ectodysplasin-A isoform  15.8 4.1E+02  0.0045   17.2   2.8   10   19-28      4-13  (164)
+  6 5YRX_A Nucleoid-associated pro  15.5 3.9E+02  0.0043   17.1   2.6   14   17-30    108-121 (139)
+  7 7BBY_A Aldo-keto reductase, hi  14.0 3.3E+02  0.0036   19.0   2.1   15   53-67     40-54  (305)
+  8 7KAL_B Protein transport chann  13.8 4.5E+02  0.0049   20.2   2.9   26   12-37      3-28  (125)
+  9 3N2T_A Putative oxidoreductase  13.2 3.3E+02  0.0035   20.1   2.0   50    8-64     23-72  (348)
+ 10 7DA4_A Receptor-interacting se  12.3 3.9E+02  0.0043   21.9   2.3   27    7-33     73-100 (141)
+
+No 1
+>6JPD_B Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); programmed necrosis, amyloid, PROTEIN FIBRIL; NMR {Mus musculus}
+Probab=38.96  E-value=57  Score=24.39  Aligned_cols=28  Identities=29%  Similarity=0.476  Sum_probs=13.0  Template_Neff=3.600
+
+Q ss_pred             CCCCCCCCCcccCCCCCCCC----CCCCCCCC
+Q tr|H0Y6D1|H0Y6    6 DATIGNSNKMSISPGVAGPG----GVAGSGEG   33 (119)
+Q Consensus         6 datignsnkmsispgvagpg----gvagsgeg   33 (119)
+                      ...|||.|.|.|.++.|-+.    |.+.++.|
+T Consensus        45 gVQIGnnN~m~iq~~ta~p~~~~~g~ap~g~g   76 (84)
+T 6JPD_B           45 EVQIGNYNSLVAPPRTTASSSAKYDQAQFGRG   76 (84)
+T ss_dssp             SEEECTTCCEECCCC-----------------
+T ss_pred             ceeeCCCCeeecCCCCccccccccCcCCCCCC
+Confidence            35799999999987766655    55555544
+
+
+No 2
+>7DAC_A Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); programmed necrosis, amyloid, PROTEIN FIBRIL; NMR {Homo sapiens}
+Probab=21.60  E-value=1.8e+02  Score=22.66  Aligned_cols=27  Identities=30%  Similarity=0.545  Sum_probs=14.2  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCcccCCCCCCCC-CCCCCCC
+Q tr|H0Y6D1|H0Y6    6 DATIGNSNKMSISPGVAGPG-GVAGSGE   32 (119)
+Q Consensus         6 datignsnkmsispgvagpg-gvagsge   32 (119)
+                      ...|||.|.|.|.++.|-|. |.+.++.
+T Consensus        47 gVQIGnnN~m~iq~~ta~p~~g~aP~g~   74 (108)
+T 7DAC_A           47 GVQVGDNNYLTMQQTTALPTWGLAPSGK   74 (108)
+T ss_dssp             CEEEEESSCEEEEEEECCC---------
+T ss_pred             cccccCCCeeEecCCCCCCCCCCCCCCC
+Confidence            46799999999976644433 3344433
+
+
+No 3
+>5FOR_A PHOSPHOINOSITIDE 3-KINASE ADAPTER PROTEIN 1; CELL CYCLE, TIR, IMMUME RESPONSE; HET: I3C, MLY, 1PE; 2.5A {HOMO SAPIENS}
+Probab=19.23  E-value=55  Score=23.75  Aligned_cols=56  Identities=16%  Similarity=0.180  Sum_probs=33.2  Template_Neff=7.400
+
+Q ss_pred             CCcchhhhhhhhcCCCccchhheeeecCCCCChccCCC---Cchhhhhhhhheeeeecccccc
+Q tr|H0Y6D1|H0Y6   35 PGEDAVAAFTEVLNPSKSFMKFGINFFQTPVNVDSLTS---SHESQMFLTACRLVIFSRRFST   94 (119)
+Q Consensus        35 pgedavaaftevlnpsksfmkfginffqtpvnvdslts---shesqmfltacrlvifsrrfst   94 (119)
+                      .+++-...+...+..+..+.+++|..+.    ++..+.   +.....--.-|.++|.|.-|-.
+T Consensus        16 da~eWa~YL~~~f~~~~~~~~~~i~~~~----l~~~~~~~~~~~~~~~~~kc~llilsp~~L~   74 (139)
+T 5FOR_A           16 DAEEWCQYLQTLFLSSRQVRSQKILTHR----LGPEASFSAEDLSLFLSTRCVVVLLSAELVQ   74 (139)
+T ss_dssp             GGHHHHHHHHHHHHHCTTTTTSCEEEEE----CCSSCCCCHHHHHHHHHCSEEEEEECHHHHH
+T ss_pred             hHHHHHHHHHHHHhcCccccccCeEEEE----cCCCCCCCHHHHHHHhcCcEEEEEeCHHHHH
+Confidence            3556667777888777777788887663    444322   2222222345778888855543
+
+
+No 4
+>3SYB_A Glycine-glutamate dipeptide porin OpdP; beta-barrel, channel, bacterial outer membrane; HET: SO4, C8E; 2.7A {Pseudomonas aeruginosa}
+Probab=17.15  E-value=1.9e+02  Score=23.67  Aligned_cols=27  Identities=26%  Similarity=0.106  Sum_probs=18.8  Template_Neff=9.300
+
+Q ss_pred             CCCCCCcchhhhhhhhcCCCccchhhee
+Q tr|H0Y6D1|H0Y6   31 GEGEPGEDAVAAFTEVLNPSKSFMKFGI   58 (119)
+Q Consensus        31 gegepgedavaaftevlnpsksfmkfgi   58 (119)
+                      .|.+|.||-..+..|+|.++ ++|++-.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~-~~~~~~~   30 (467)
+T 3SYB_A            4 QENPPAPDNPSYAAEVQSIP-SVAKPIK   30 (467)
+T ss_dssp             ----CCCCCCCHHHHHTCCG-GGGCCCC
+T ss_pred             ccCCCCCCChhHHhhhhccc-ccccCcC
+Confidence            46788888888999999888 7777654
+
+
+No 5
+>1RJ8_G ectodysplasin-A isoform EDA-A2; TNF domain, jelly roll, splice; 2.23A {Homo sapiens} SCOP: b.22.1.1
+Probab=15.81  E-value=4.1e+02  Score=17.23  Aligned_cols=10  Identities=50%  Similarity=0.983  Sum_probs=3.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H0Y6D1|H0Y6   19 PGVAGPGGVA   28 (119)
+Q Consensus        19 pgvagpggva   28 (119)
+                      ||..||.|..
+T Consensus         4 ~G~~G~~g~~   13 (164)
+T 1RJ8_G            4 MGLQGPSGAA   13 (164)
+T ss_dssp             --EECCBT--
+T ss_pred             CCCCCCCCCc
+Confidence            3444554443
+
+
+No 6
+>5YRX_A Nucleoid-associated protein Rv3716c; MtbRv3716, DNA binding, metal ion; HET: EDO; 1.9A {Mycobacterium tuberculosis H37Rv}
+Probab=15.46  E-value=3.9e+02  Score=17.14  Aligned_cols=14  Identities=29%  Similarity=0.378  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             cCCCCCCCCCCCCC
+Q tr|H0Y6D1|H0Y6   17 ISPGVAGPGGVAGS   30 (119)
+Q Consensus        17 ispgvagpggvags   30 (119)
+                      +.++..||.|..|.
+T Consensus       108 ~p~~p~g~~g~~g~  121 (139)
+T 5YRX_A          108 PPAPPAAPPGAPGM  121 (139)
+T ss_dssp             --------------
+T ss_pred             CCCCCCCCCCCCCC
+Confidence            33444444444433
+
+
+No 7
+>7BBY_A Aldo-keto reductase, histidine, sulfoquinovose, OXIDOREDUCTASE; HET: PO4; 1.83A {Agrobacterium fabrum (strain C58 / ATCC 33970)}
+Probab=13.96  E-value=3.3e+02  Score=19.05  Aligned_cols=15  Identities=13%  Similarity=0.089  Sum_probs=10.5  Template_Neff=11.500
+
+Q ss_pred             chhheeeecCCCCCh
+Q tr|H0Y6D1|H0Y6   53 FMKFGINFFQTPVNV   67 (119)
+Q Consensus        53 fmkfginffqtpvnv   67 (119)
+                      .+..|+|+|.|--.-
+T Consensus        40 a~~~G~~~~dta~~y   54 (305)
+T 7BBY_A           40 CLAQGITTMDQADIY   54 (305)
+T ss_dssp             HHHTTCCEEECCTTH
+T ss_pred             HHHcCCCEEecchhh
+Confidence            456789998875443
+
+
+No 8
+>7KAL_B Protein transport channel Sec61 complex; Sec61, translocon, endoplasmic reticulum, protein;{Thermomyces lanuginosus}
+Probab=13.79  E-value=4.5e+02  Score=20.16  Aligned_cols=26  Identities=27%  Similarity=0.332  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCCcccCCCCCCCCCCCCCCCCCCCc
+Q tr|H0Y6D1|H0Y6   12 SNKMSISPGVAGPGGVAGSGEGEPGE   37 (119)
+Q Consensus        12 snkmsispgvagpggvagsgegepge   37 (119)
+                      |.+|+-+|-.-.|.+.||||.|.+-+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~   28 (125)
+T 7KAL_B            3 SSGAESGSESKSPNPGAGSGPGSASG   28 (125)
+T ss_pred             CccccCCCCCCCCCCCCCCCCCCCCC
+
+
+No 9
+>3N2T_A Putative oxidoreductase (E.C.1.1.1.-); ALDO/KETO Reductase superfamily, AKR, AKR11B4; 2.0A {Gluconobacter oxydans}
+Probab=13.23  E-value=3.3e+02  Score=20.14  Aligned_cols=50  Identities=22%  Similarity=0.258  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCCCcccCCCCCCCCCCCCCCCCCCCcchhhhhhhhcCCCccchhheeeecCCC
+Q tr|H0Y6D1|H0Y6    8 TIGNSNKMSISPGVAGPGGVAGSGEGEPGEDAVAAFTEVLNPSKSFMKFGINFFQTP   64 (119)
+Q Consensus         8 tignsnkmsispgvagpggvagsgegepgedavaaftevlnpsksfmkfginffqtp   64 (119)
+                      ++|+++ +++|+-.-|..+..+..-+.+.++......+      .....|||+|.|.
+T Consensus        23 ~~~~~~-~~~s~l~lG~~~~~~~~~~~~~~~~~~~~l~------~a~~~Gi~~~dta   72 (348)
+T 3N2T_A           23 RIPGID-TPLSRVALGTWAIGGWMWGGPDDDNGVRTIH------AALDEGINLIDTA   72 (348)
+T ss_dssp             CCTTCS-SCEESEEEECTTSSCSSSCSTTHHHHHHHHH------HHHHTTCCEEECC
+T ss_pred             eCCCCC-CcccccEEeCccccCcccCCCChHHHHHHHH------HHHHcCCCEEECc
+
+
+No 10
+>7DA4_A Receptor-interacting serine/threonine-protein kinase 3 (E.C.2.7.11.1); Amyloid fibril, PROTEIN FIBRIL; 4.24A {Homo sapiens}
+Probab=12.29  E-value=3.9e+02  Score=21.93  Aligned_cols=27  Identities=33%  Similarity=0.625  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             CCCCCCCCcccCCCCCCCC-CCCCCCCC
+Q tr|H0Y6D1|H0Y6    7 ATIGNSNKMSISPGVAGPG-GVAGSGEG   33 (119)
+Q Consensus         7 atignsnkmsispgvagpg-gvagsgeg   33 (119)
+                      ..|||.|.|.|.++.|-+. |.+.++.|
+T Consensus        73 VQIGnnN~m~iq~~ta~p~~g~aP~g~g  100 (141)
+T 7DA4_A           73 VQVGDNNYLTMQQTTALPTWGLAPSGKG  100 (141)
+T ss_dssp             BCCSSSSCCCCC----------------
+T ss_pred             ccccCCCeeEecCcCCCCCCCCCCCCCC
+
+

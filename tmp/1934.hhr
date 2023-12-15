@@ -1,0 +1,180 @@
+Query         tr|E9PBK2|E9PBK2_HUMAN
+Match_columns 73
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:11:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1934.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1YA0_A SMG-7 transcript varian  98.9 2.8E-09   3E-14   77.0   5.3   64    1-64      1-64  (497)
+  2 1YA0_B SMG-7 transcript varian  98.9 2.8E-09   3E-14   77.0   5.3   64    1-64      1-64  (497)
+  3 3ZHE_B NONSENSE-MEDIATED MRNA   88.7     1.1 1.2E-05   32.9   3.1   35   29-63     18-52  (395)
+  4 4UM2_A TELOMERASE-BINDING PROT  77.0      18  0.0002   28.2   5.5   61    3-63      2-69  (589)
+  5 3ZHE_A NONSENSE-MEDIATED MRNA   54.3      47 0.00051   26.5   4.0   57    5-64      7-64  (420)
+  6 5Y5A_A KLLA0F20702p, KLLA0F209  48.7      48 0.00052   25.5   3.2   57    7-63      7-88  (567)
+  7 2KTO_A LCHB; LICHENICIDIN VK21  25.7      84 0.00091   18.6   1.1    9   64-72     22-30  (32)
+  8 4E17_B Vinculin, Catenin alpha  22.0 1.8E+02   0.002   15.5   1.9    7   37-43     25-31  (40)
+  9 5GOX_A DNA repair protein RAD5  21.3 3.7E+02   0.004   16.8   5.0    6   63-68     99-104 (186)
+ 10 6ZS9_q 39S ribosomal protein L  20.3 3.2E+02  0.0035   20.8   3.4    8   23-30     45-52  (198)
+
+No 1
+>1YA0_A SMG-7 transcript variant 2; alpha-helical repeat, tetratricopetide repeat (TPR); HET: SO4; 2.55A {Homo sapiens} SCOP: a.118.8.1
+Probab=98.95  E-value=2.8e-09  Score=77.02  Aligned_cols=64  Identities=94%  Similarity=1.208  Sum_probs=62.3  Template_Neff=9.200
+
+Q ss_pred             CCchhHHHHHHHHHHHHHhcCCCCChhhhhccHHHHHHHHHHhhHhhHHHHHHHHHHHhhCCCC
+Q tr|E9PBK2|E9PB    1 MSLQSAQYLRQAEVLKADMTDSKLGPAEVWTSRQALQDLYQKMLVTDLEYALDKKVEQDLGTSV   64 (73)
+Q Consensus         1 mslqsaqylrqaevlkadmtdsklgpaevwtsrqalqdlyqkmlvtdleyaldkkveqdlgtsv   64 (73)
+                      ||+|+++|++++|+|++.++++++++++++.+|.+|++.|+++|+.|++++.++++|+.||+.+
+T Consensus         1 ~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~r~~l~~~~~~li~~d~~~~~~~~~e~~lW~~~   64 (497)
+T 1YA0_A            1 MSLQSAQYLRQAEVLKADMTDSKLGPAEVWTSRQALQDLYQKMLVTDLEYALDKKVEQDLWNHA   64 (497)
+T ss_dssp             CHHHHHHHHHHHHHHHGGGTCSSSCSSSSHHHHHHHHHHHHHHHHHCHHHHHHHTHHHHHHCCC
+T ss_pred             CchHHHHHHHHHHHHHhhcccccCCCHHHHHHHHHHHHHHHHHhhcCHHHHhccCHHHHHHHHH
+Confidence            8999999999999999999999999999999999999999999999999999999999999963
+
+
+No 2
+>1YA0_B SMG-7 transcript variant 2; alpha-helical repeat, tetratricopetide repeat (TPR); HET: SO4; 2.55A {Homo sapiens} SCOP: a.118.8.1
+Probab=98.95  E-value=2.8e-09  Score=77.02  Aligned_cols=64  Identities=94%  Similarity=1.208  Sum_probs=62.4  Template_Neff=9.200
+
+Q ss_pred             CCchhHHHHHHHHHHHHHhcCCCCChhhhhccHHHHHHHHHHhhHhhHHHHHHHHHHHhhCCCC
+Q tr|E9PBK2|E9PB    1 MSLQSAQYLRQAEVLKADMTDSKLGPAEVWTSRQALQDLYQKMLVTDLEYALDKKVEQDLGTSV   64 (73)
+Q Consensus         1 mslqsaqylrqaevlkadmtdsklgpaevwtsrqalqdlyqkmlvtdleyaldkkveqdlgtsv   64 (73)
+                      ||+|+++|++++|+|++.++++++++++++.+|.+|++.|+++|+.|++++.++++|+.||+.+
+T Consensus         1 ~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~r~~l~~~~~~li~~d~~~~~~~~~e~~lW~~~   64 (497)
+T 1YA0_B            1 MSLQSAQYLRQAEVLKADMTDSKLGPAEVWTSRQALQDLYQKMLVTDLEYALDKKVEQDLWNHA   64 (497)
+T ss_dssp             CHHHHHHHHHHHHHHHHHTTCSSCCHHHHHHHHHHHHHHHHHHHHHCHHHHHHTTHHHHCCCCC
+T ss_pred             CchHHHHHHHHHHHHHhhcccccCCCHHHHHHHHHHHHHHHHHhhcCHHHHhccCHHHHHHHHH
+Confidence            8999999999999999999999999999999999999999999999999999999999999963
+
+
+No 3
+>3ZHE_B NONSENSE-MEDIATED MRNA DECAY PROTEIN, PROTEIN; MRNA-BINDING PROTEIN, NMD, PHOSPHO-PEPTIDE BINDING; 3.0A {CAENORHABDITIS ELEGANS}
+Probab=88.73  E-value=1.1  Score=32.90  Aligned_cols=35  Identities=20%  Similarity=0.205  Sum_probs=31.7  Template_Neff=8.900
+
+Q ss_pred             hhccHHHHHHHHHHhhHhhHHHHHHHHHHHhhCCC
+Q tr|E9PBK2|E9PB   29 VWTSRQALQDLYQKMLVTDLEYALDKKVEQDLGTS   63 (73)
+Q Consensus        29 vwtsrqalqdlyqkmlvtdleyaldkkveqdlgts   63 (73)
+                      ....+..++..|+++|+.|+.++..+++++.||+.
+T Consensus        18 ~~~~~~~~~~~~~~~i~~d~~~a~~~~~~~~lW~~   52 (395)
+T 3ZHE_B           18 GTEAAPQYLRHLMKMFVADFETAVSKRFDVKFWNK   52 (395)
+T ss_dssp             SSSSHHHHHHHHHHHHHHCHHHHHHTTHHHHHHHH
+T ss_pred             CchHHHHHHHHHHHHHHhCHHHHHHcCHHHHHHHH
+Confidence            34677899999999999999999999999999974
+
+
+No 4
+>4UM2_A TELOMERASE-BINDING PROTEIN EST1A (E.C.3.1.-.-); TELOMERASE-BINDING PROTEIN, NONSENSE MEDIATED MRNA; 2.1A {HOMO SAPIENS}
+Probab=77.04  E-value=18  Score=28.18  Aligned_cols=61  Identities=21%  Similarity=0.336  Sum_probs=49.5  Template_Neff=9.000
+
+Q ss_pred             chhHHHHHHHHHHHHHhc---CCCCChhh----hhccHHHHHHHHHHhhHhhHHHHHHHHHHHhhCCC
+Q tr|E9PBK2|E9PB    3 LQSAQYLRQAEVLKADMT---DSKLGPAE----VWTSRQALQDLYQKMLVTDLEYALDKKVEQDLGTS   63 (73)
+Q Consensus         3 lqsaqylrqaevlkadmt---dsklgpae----vwtsrqalqdlyqkmlvtdleyaldkkveqdlgts   63 (73)
+                      .++.++++++.++++.+.   ..+...++    +..+|.+|+..|+++|+.|+.++..+++++.||+.
+T Consensus         2 ~~~~~~~~~~~~le~~L~~~l~~~~~~~~~~~~~~~~r~~l~~~~~~li~~d~~~~~~~~~e~~lW~~   69 (589)
+T 4UM2_A            2 MELHRLLRVADNQELQLSNLLSRDRISPEGLEKMAQLRAELLQLYERCILLDIEFSDNQNVDQILWKN   69 (589)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHSSSCCHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHTTHHHHHCCC
+T ss_pred             chHHHHHHHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHhCHHHHcccCHHHHHHHH
+Confidence            467788888877777771   12344445    67899999999999999999999999999999994
+
+
+No 5
+>3ZHE_A NONSENSE-MEDIATED MRNA DECAY PROTEIN, PROTEIN; MRNA-BINDING PROTEIN, NMD, PHOSPHO-PEPTIDE BINDING; 3.0A {CAENORHABDITIS ELEGANS}
+Probab=54.32  E-value=47  Score=26.54  Aligned_cols=57  Identities=7%  Similarity=-0.066  Sum_probs=45.0  Template_Neff=7.000
+
+Q ss_pred             hHHHHHHH-HHHHHHhcCCCCChhhhhccHHHHHHHHHHhhHhhHHHHHHHHHHHhhCCCC
+Q tr|E9PBK2|E9PB    5 SAQYLRQA-EVLKADMTDSKLGPAEVWTSRQALQDLYQKMLVTDLEYALDKKVEQDLGTSV   64 (73)
+Q Consensus         5 saqylrqa-evlkadmtdsklgpaevwtsrqalqdlyqkmlvtdleyaldkkveqdlgtsv   64 (73)
+                      +.+-++.. +.+.+.....+++++++..+|.+|+..|+++|+.|+ +  .+++++.||+.+
+T Consensus         7 ~~e~~~~l~~~l~~~~~~~~l~~~~~~~lR~~L~~~~~~li~~d~-~--~~~~e~~LWk~~   64 (420)
+T 3ZHE_A            7 VTEKFKRYCNQLEKYGQTENVHSPVMAMLRRKGRKQLIEIMKRDG-D--CTSSINKLWIVG   64 (420)
+T ss_dssp             HHHHHHHHHHHHHHHTTTSCTTCHHHHHHHHHHHHHHHHHHTSSS-C--CCHHHHHHHCCC
+T ss_pred             HHHHHHHHHHHHHHHhcccCCCcHHHHHHHHHHHHHHHHHHHhCc-c--cccHHHHHHHHH
+Confidence            33334444 445555566789999999999999999999999999 3  699999999953
+
+
+No 6
+>5Y5A_A KLLA0F20702p, KLLA0F20922p; telomerase, telomere, protein-protein complex, PROTEIN; 2.206A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=48.67  E-value=48  Score=25.55  Aligned_cols=57  Identities=7%  Similarity=-0.037  Sum_probs=39.7  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHh----cCC-CCChhhhhccHHHHHHHHHHhhHhhHHHH--------------------HHHHHHHhhC
+Q tr|E9PBK2|E9PB    7 QYLRQAEVLKADM----TDS-KLGPAEVWTSRQALQDLYQKMLVTDLEYA--------------------LDKKVEQDLG   61 (73)
+Q Consensus         7 qylrqaevlkadm----tds-klgpaevwtsrqalqdlyqkmlvtdleya--------------------ldkkveqdlg   61 (73)
+                      ++.+.+.++++.+    +.. ....+.+...+..+++.|+++|+.|+.++                    ...++++.||
+T Consensus         7 ~~~~~~~~~~~~L~~~l~~~~~~d~~~l~~~~~~l~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lW   86 (567)
+T 5Y5A_A            7 DLQETFSGFQKQLQSVLETDFFRDDSLMKGAIQMIHSKIMQMLLQSLIPEGLHQDITTDTGSKKSEIRSSDAHRILDLTW   86 (567)
+T ss_dssp             HHHHHHHHHHHHHHHC--------CCHHHHHHHHHHHHHHHHHHHHHC---------------------CCHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHHHHHHHhccccccccccccCCCCCcccccchHHHHHHHHHH
+Confidence            4666666666666    322 11334456889999999999999999987                    7889999999
+
+
+Q ss_pred             CC
+Q tr|E9PBK2|E9PB   62 TS   63 (73)
+Q Consensus        62 ts   63 (73)
+                      +.
+T Consensus        87 ~~   88 (567)
+T 5Y5A_A           87 KH   88 (567)
+T ss_dssp             CC
+T ss_pred             HH
+Confidence            85
+
+
+No 7
+>2KTO_A LCHB; LICHENICIDIN VK21, LANTIBIOTICS, LCHB, ANTIBIOTIC; HET: DBU, 2KT, DHA, DAL, DBB; NMR {BACILLUS LICHENIFORMIS}
+Probab=25.69  E-value=84  Score=18.56  Aligned_cols=9  Identities=33%  Similarity=1.275  Sum_probs=5.3  Template_Neff=3.400
+
+Q ss_pred             CCCCccccC
+Q tr|E9PBK2|E9PB   64 VCPVSHCYT   72 (73)
+Q Consensus        64 vcpvshcyt   72 (73)
+                      .||.+.|-.
+T Consensus        22 lCPTt~CT~   30 (32)
+T 2KTO_A           22 LCPXXKCXS   30 (32)
+T ss_dssp             HSTTSSSSS
+T ss_pred             cCCCCCCCC
+Confidence            466666643
+
+
+No 8
+>4E17_B Vinculin, Catenin alpha-1; four helix bundle, CELL ADHESION; 2.304A {Gallus gallus}
+Probab=22.00  E-value=1.8e+02  Score=15.53  Aligned_cols=7  Identities=14%  Similarity=0.344  Sum_probs=2.5  Template_Neff=7.400
+
+Q ss_pred             HHHHHHh
+Q tr|E9PBK2|E9PB   37 QDLYQKM   43 (73)
+Q Consensus        37 qdlyqkm   43 (73)
+                      +.++..+
+T Consensus        25 rqalqdl   31 (40)
+T 4E17_B           25 RQALQDL   31 (40)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            3333333
+
+
+No 9
+>5GOX_A DNA repair protein RAD50 (E.C.3.6.-.-); DNA repair, HYDROLASE; HET: GOL, MSE; 2.405A {Homo sapiens}
+Probab=21.29  E-value=3.7e+02  Score=16.80  Aligned_cols=6  Identities=67%  Similarity=1.375  Sum_probs=3.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCc
+Q tr|E9PBK2|E9PB   63 SVCPVS   68 (73)
+Q Consensus        63 svcpvs   68 (73)
+                      ..||.|
+T Consensus        99 ~~Cp~C  104 (186)
+T 5GOX_A           99 SCCPVC  104 (186)
+T ss_dssp             CBCSSS
+T ss_pred             CCCCCC
+Confidence            345554
+
+
+No 10
+>6ZS9_q 39S ribosomal protein L32, mitochondrial; Mitochondria, Ribosome, mRNA, tRNA, Translation; HET: H8Q, DOL, MG, GTP;{Homo sapiens}
+Probab=20.26  E-value=3.2e+02  Score=20.76  Aligned_cols=8  Identities=25%  Similarity=0.904  Sum_probs=3.0  Template_Neff=5.600
+
+Q ss_pred             CCChhhhh
+Q tr|E9PBK2|E9PB   23 KLGPAEVW   30 (73)
+Q Consensus        23 klgpaevw   30 (73)
+                      ++..+..|
+T Consensus        45 GV~Pg~lW   52 (198)
+T 6ZS9_q           45 GVVPGSLW   52 (198)
+T ss_pred             CCChHHhC
+Confidence            33333333
+
+

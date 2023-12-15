@@ -1,0 +1,167 @@
+Query         tr|K7EPH6|K7EPH6_HUMAN
+Match_columns 96
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 06:37:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0395.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2KOG_A Vesicle-associated memb   9.9 7.8E+02  0.0085   15.0   3.4   25    9-33      3-27  (119)
+  2 5TX1_8 Hexon protein, Penton,    7.5 8.6E+02  0.0094   15.3   2.1   23   31-53      8-30  (31)
+  3 7S80_A Acetylcholine, periplas   6.8 5.8E+02  0.0063   17.4   1.2   12   68-79      1-12  (293)
+  4 3CTG_A Glutaredoxin-2 (E.C.1.2   5.6 1.1E+03   0.012   12.9   2.0   13   63-75      2-14  (129)
+  5 2HH7_A Hypothetical protein; 4   5.1 7.8E+02  0.0085   17.7   1.1   13   29-41     92-104 (119)
+  6 7S7W_A nicotine, periplasmic b   5.1 1.1E+03   0.012   16.1   1.8   13   68-80      1-13  (293)
+  7 3OO9_A ABC transporter binding   5.0 8.4E+02  0.0091   17.3   1.2   18   63-80      2-19  (415)
+  8 5LSK_N Protein MIS12 homolog,    4.9   9E+02  0.0098   18.4   1.4   15   24-38      7-21  (206)
+  9 1QYP_A RNA POLYMERASE II; TRAN   4.8 9.6E+02    0.01   11.3   1.0   10   69-78      3-12  (57)
+ 10 5ADX_c ACTIN RELATED PROTEIN 1   4.6 1.2E+03   0.013   12.9   1.4   12   80-91      8-20  (31)
+
+No 1
+>2KOG_A Vesicle-associated membrane protein 2; synaptobrevin, VAMP2, DPC micelle, SNARE; NMR {Rattus norvegicus}
+Probab=9.94  E-value=7.8e+02  Score=15.02  Aligned_cols=25  Identities=20%  Similarity=0.393  Sum_probs=15.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP    9 NNFSSSPSTPVGSPQGLAGTSQWPR   33 (96)
+Q Consensus         9 nnfssspstpvgspqglagtsqwpr   33 (96)
+                      ++-++-++.+..++++..+...++.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~   27 (119)
+T 2KOG_A            3 HMSATAATVPPAAPAGEGGPPAPPP   27 (119)
+T ss_dssp             -CCCCCCCCCCCCCCCCCCCCCCCC
+T ss_pred             ccccCCCCCCCCCCCCCCCCCCCCC
+Confidence            4445555566677777776666654
+
+
+No 2
+>5TX1_8 Hexon protein, Penton, Fiber, PIIIa; human adenovirus 26, hexon, penton; 3.7A {Human adenovirus 26}
+Probab=7.52  E-value=8.6e+02  Score=15.35  Aligned_cols=23  Identities=26%  Similarity=0.286  Sum_probs=13.3  Template_Neff=2.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   31 WPRAGAPGALSPSYDGGLHGLVG   53 (96)
+Q Consensus        31 wpragapgalspsydgglhglvg   53 (96)
+                      -||.|...-++..++-|-.++-|
+T Consensus         8 APR~G~rP~l~~ws~IGts~m~G   30 (31)
+T 5TX1_8            8 APRHGTRPFMGTWNEIGTSQLNG   30 (31)
+T ss_pred             CCccCCCCCccccccccccccCC
+Confidence            46666666666666655554443
+
+
+No 3
+>7S80_A Acetylcholine, periplasmic binding protein, nicotine-binding; 1.4A {Thermoanaerobacter sp. X513}
+Probab=6.85  E-value=5.8e+02  Score=17.40  Aligned_cols=12  Identities=42%  Similarity=0.675  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   68 MHNHAALPSQPG   79 (96)
+Q Consensus        68 mhnhaalpsqpg   79 (96)
+                      ||||...+.|.-
+T Consensus         1 ~~~~~~~~~~~~   12 (293)
+T 7S80_A            1 MHHHHHHGAQPA   12 (293)
+T ss_dssp             ------------
+T ss_pred             CCCCcCCCCCCC
+Confidence            677776666654
+
+
+No 4
+>3CTG_A Glutaredoxin-2 (E.C.1.20.4.1); REDUCED FORM, Electron transport, Mitochondrion; 1.5A {Saccharomyces cerevisiae}
+Probab=5.58  E-value=1.1e+03  Score=12.94  Aligned_cols=13  Identities=31%  Similarity=0.401  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   63 GSTSLMHNHAALP   75 (96)
+Q Consensus        63 gstslmhnhaalp   75 (96)
+                      |+|+++|.+...+
+T Consensus         2 ~~~~~~~~~~~~~   14 (129)
+T 3CTG_A            2 GSSHHHHHHSSGL   14 (129)
+T ss_dssp             -------------
+T ss_pred             CCCccccccCCCC
+Confidence            4555555554443
+
+
+No 5
+>2HH7_A Hypothetical protein; 4-helix bundle, UNKNOWN FUNCTION; 2.55A {Mycobacterium tuberculosis}
+Probab=5.12  E-value=7.8e+02  Score=17.69  Aligned_cols=13  Identities=31%  Similarity=0.194  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   29 SQWPRAGAPGALS   41 (96)
+Q Consensus        29 sqwpragapgals   41 (96)
+                      ..||+++++||-+
+T Consensus        92 ~~~~~~~~~~~~~  104 (119)
+T 2HH7_A           92 LTGPHARLGGAAV  104 (119)
+T ss_dssp             -------------
+T ss_pred             hhCCCcccCCccC
+Confidence            3478888877653
+
+
+No 6
+>7S7W_A nicotine, periplasmic binding protein, nicotine-binding; 1.1A {Thermoanaerobacter sp. X513}
+Probab=5.11  E-value=1.1e+03  Score=16.11  Aligned_cols=13  Identities=38%  Similarity=0.618  Sum_probs=3.9  Template_Neff=11.200
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   68 MHNHAALPSQPGT   80 (96)
+Q Consensus        68 mhnhaalpsqpgt   80 (96)
+                      ||||...+.++-+
+T Consensus         1 ~~~~~~~~~~~~~   13 (293)
+T 7S7W_A            1 MHHHHHHGAQPAR   13 (293)
+T ss_dssp             CCSCC--------
+T ss_pred             CCCCcccCCCCCc
+Confidence            7788777766654
+
+
+No 7
+>3OO9_A ABC transporter binding protein AcbH; class 2 SBP fold, ABC; HET: SO4, GOL; 1.76A {Actinoplanes}
+Probab=5.04  E-value=8.4e+02  Score=17.29  Aligned_cols=18  Identities=28%  Similarity=0.401  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   63 GSTSLMHNHAALPSQPGT   80 (96)
+Q Consensus        63 gstslmhnhaalpsqpgt   80 (96)
+                      |++++.|.|+++-.-..+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~   19 (415)
+T 3OO9_A            2 GSSHHHHHHSSGLVPRGS   19 (415)
+T ss_dssp             ------------------
+T ss_pred             CCCccccccCCCceeece
+Confidence            567777877776544433
+
+
+No 8
+>5LSK_N Protein MIS12 homolog, Polyamine-modulated factor; ALPHA-HELICAL, cell cycle; 3.502A {Homo sapiens}
+Probab=4.86  E-value=9e+02  Score=18.42  Aligned_cols=15  Identities=20%  Similarity=0.322  Sum_probs=4.2  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|K7EPH6|K7EP   24 GLAGTSQWPRAGAPG   38 (96)
+Q Consensus        24 glagtsqwpragapg   38 (96)
+                      +.+-...|-+++++|
+T Consensus         7 ~~~~~~~~~~~~~~~   21 (206)
+T 5LSK_N            7 LVVLDPPWDKELAAG   21 (206)
+T ss_dssp             HHHTS------STHS
+T ss_pred             cCCCCCCchhhhccC
+Confidence            333344566666654
+
+
+No 9
+>1QYP_A RNA POLYMERASE II; TRANSCRIPTION, RNA POLYMERASE II SUBUNIT; HET: ZN; NMR {Thermococcus celer} SCOP: g.41.3.1
+Probab=4.80  E-value=9.6e+02  Score=11.30  Aligned_cols=10  Identities=30%  Similarity=0.488  Sum_probs=5.5  Template_Neff=11.700
+
+Q ss_pred             CCCCCCCCCC
+Q tr|K7EPH6|K7EP   69 HNHAALPSQP   78 (96)
+Q Consensus        69 hnhaalpsqp   78 (96)
+                      ||++..|..+
+T Consensus         3 ~~~~~~~t~~   12 (57)
+T 1QYP_A            3 HMEQDLKTLP   12 (57)
+T ss_dssp             CCCCCCSSSC
+T ss_pred             ccccccCCCC
+Confidence            5666555544
+
+
+No 10
+>5ADX_c ACTIN RELATED PROTEIN 1, ACTIN; STRUCTURAL PROTEIN, DYNEIN CO-FACTOR, ACTIN-LIKE; 4.0A {SUS SCROFA}
+Probab=4.57  E-value=1.2e+03  Score=12.91  Aligned_cols=12  Identities=50%  Similarity=1.079  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCCC-CCCCC
+Q tr|K7EPH6|K7EP   80 TLPDLSR-PPDSY   91 (96)
+Q Consensus        80 tlpdlsr-ppdsy   91 (96)
+                      .||++.+ .||-|
+T Consensus         8 ~LP~i~~~~PdVY   20 (31)
+T 5ADX_c            8 DLPGIARNEPDVY   20 (31)
+T ss_pred             CCCCcccCCCCCC
+
+

@@ -1,0 +1,449 @@
+Query         tr|C9JWQ3|C9JWQ3_HUMAN
+Match_columns 222
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:30:38 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1049.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7BK5_AAA Copper binding, coppe  67.4      54 0.00058   22.9   5.7   27  123-150    69-95  (97)
+  2 7AF2_AAA Sialidase (E.C.3.2.1.  54.3      93   0.001   25.0   5.6   46  118-163     3-51  (379)
+  3 1IX2_A Copper resistance prote  43.0      60 0.00065   23.3   2.8   26  124-150    78-103 (104)
+  4 1LYQ_B Copper resistance prote  43.0      60 0.00065   23.3   2.8   26  124-150    78-103 (104)
+  5 2N19_A Serine/threonine-protei  39.6   1E+02  0.0011   20.9   3.4   21  113-133    20-40  (88)
+  6 5MUL_A Neuraminidase; Rhamnosi  39.0 3.1E+02  0.0034   21.7   6.4   18  148-165    93-110 (431)
+  7 4LG9_A F-box-like/WD repeat-co  37.6 1.3E+02  0.0014   22.7   3.9   16  119-134    24-39  (400)
+  8 2SIL_A SIALIDASE (E.C.3.2.1.18  36.6 2.2E+02  0.0024   23.8   5.4   18  118-135     5-22  (381)
+  9 5ICU_A CopC; CopC, metal homeo  30.9 1.4E+02  0.0015   21.1   3.0   27  124-151    70-96  (102)
+ 10 6R2H_A HmuY protein; Porphyrom  29.2   5E+02  0.0055   21.9   6.4   43  113-156   151-193 (194)
+ 11 4CI8_A ECHINODERM MICROTUBULE-  29.1 2.7E+02  0.0029   22.6   4.6   11   75-85     75-85  (655)
+ 12 3WJ9_B Eukaryotic translation   28.5 3.8E+02  0.0041   19.9   4.9   44  117-162    38-91  (412)
+ 13 1MBY_A POLO DOMAIN, STRAND EXC  28.1   2E+02  0.0021   19.7   3.3   22  113-134    20-41  (88)
+ 14 3PSP_A Protein DOA1; protein d  25.3 1.9E+02  0.0021   26.5   3.6   36  109-147    41-77  (425)
+ 15 6I7V_D7 Protein biosynthesis,   23.7 2.2E+02  0.0024   20.9   3.1   22  162-183    39-60  (68)
+ 16 7AX0_A Beta-propeller, Computa  22.6 3.8E+02  0.0041   19.6   4.0    9  151-159   141-149 (358)
+ 17 3PST_A Protein DOA1; protein d  22.0 2.4E+02  0.0026   25.9   3.7   36  109-147    41-77  (425)
+ 18 5TEE_A Gem-associated protein   21.9 5.7E+02  0.0062   21.3   5.3   47  115-161    43-103 (758)
+ 19 2YH9_B SMALL PROTEIN A; LIPOPR  21.5 2.8E+02   0.003   18.6   3.1   29  113-141    53-82  (88)
+ 20 2YH9_C SMALL PROTEIN A; LIPOPR  21.5 2.8E+02   0.003   18.6   3.1   29  113-141    53-82  (88)
+ 21 7AEY_AAA Sialidase (E.C.3.2.1.  21.4   7E+02  0.0076   20.3   5.6   19  118-136     3-21  (379)
+ 22 3OSR_A Maltose-binding peripla  21.3 4.2E+02  0.0046   23.8   4.8   58   72-129   488-554 (653)
+ 23 1M42_A cupredoxins, copper tra  21.2 2.4E+02  0.0026   20.1   2.8   24  127-150    78-101 (102)
+ 24 2C9Q_A COPPER RESISTANCE PROTE  21.2 2.4E+02  0.0026   20.1   2.8   24  127-150    78-101 (102)
+ 25 6TJG_A Cake8; Beta-propeller,   21.0   5E+02  0.0055   18.3   4.7   13  150-162   102-114 (324)
+ 26 2C9R_A COPPER RESISTANCE PROTE  20.5 2.3E+02  0.0025   20.2   2.6   26  124-150    76-101 (102)
+ 27 6UD7_B DDB1- and CUL4-associat  20.2 1.1E+03   0.012   22.8   7.3   60   41-134    34-93  (836)
+
+No 1
+>7BK5_AAA Copper binding, copper transport, METAL; 1.54A {Pseudomonas fluorescens (strain SBW25)}
+Probab=67.45  E-value=54  Score=22.94  Aligned_cols=27  Identities=22%  Similarity=0.636  Sum_probs=21.3  Template_Neff=9.100
+
+Q ss_pred             CCCcEEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  123 DNGTVFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       123 dngtvfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      ..| .|.|.|.-+-..|-...|+|+|..
+T Consensus        69 ~~G-~Y~v~w~~~~~dG~~~~G~~~F~v   95 (97)
+T 7BK5_AAA         69 AAG-NYKVVWNAVSVDTHKSNGEYSFKV   95 (97)
+T ss_pred             CCc-EEEEEEEEEcCCCCeEeEEEEEEE
+Confidence            356 789999888778888888888864
+
+
+No 2
+>7AF2_AAA Sialidase (E.C.3.2.1.18); Salmonella typhimurium, enzyme, neuraminidase, mutant; HET: GOL, PO4; 0.792A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=54.32  E-value=93  Score=24.97  Aligned_cols=46  Identities=22%  Similarity=0.231  Sum_probs=25.9  Template_Neff=11.200
+
+Q ss_pred             EEEEeCCCcEEEEEEceeeecccccCc--eEEEEE-EEccCCeEEEEEE
+Q tr|C9JWQ3|C9JW  118 TVVYFDNGTVFVVQWDHVYLQGWEDKG--SFTFQA-ALHHDGRIVFAYK  163 (222)
+Q Consensus       118 tvvyfdngtvfvvqwdhvylqgwedkg--sftfqa-alhhdgrivfayk  163 (222)
+                      .+||.+.|+.|+-++.+..+..-...+  .|.+-+ +...+|+++..+.
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~i~~~~~g~~~~~~~   51 (379)
+T 7AF2_AAA          3 SVVFKAEGEHFTDQKGNTIVGSGSGGTTKYFRIPAMCTTSKGTIVVFAD   51 (379)
+T ss_pred             eeEeecCCcceecCCCCeEEecCCCCccceeEeeEEEEeCCCeEEEEEE
+Confidence            467777787777777665544333332  222333 3446777766664
+
+
+No 3
+>1IX2_A Copper resistance protein C; BETA BARREL, POLYMETHIONINE CLUSTER, METAL; HET: MSE; 1.55A {Escherichia coli} SCOP: b.1.18.17
+Probab=42.95  E-value=60  Score=23.28  Aligned_cols=26  Identities=27%  Similarity=0.555  Sum_probs=21.3  Template_Neff=8.800
+
+Q ss_pred             CCcEEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  124 NGTVFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       124 ngtvfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      +| .|.|.|--+-..|..-+|+|+|..
+T Consensus        78 ~G-~Y~v~w~~~~~dg~~~~G~~~F~v  103 (104)
+T 1IX2_A           78 AG-TYRVDWRAVSSDTHPITGNYTFTV  103 (104)
+T ss_dssp             SE-EEEEEEEECCTTCCCEEEEEEEEE
+T ss_pred             Ce-EEEEEEEEEcCCCCeeeEEEEEEE
+Confidence            45 899999888877888889998864
+
+
+No 4
+>1LYQ_B Copper resistance protein C; BETA BARREL, IG DOMAIN, METAL; HET: GOL; 1.5A {Escherichia coli} SCOP: b.1.18.17
+Probab=42.95  E-value=60  Score=23.28  Aligned_cols=26  Identities=27%  Similarity=0.555  Sum_probs=21.3  Template_Neff=8.800
+
+Q ss_pred             CCcEEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  124 NGTVFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       124 ngtvfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      +| .|.|.|--+-..|..-+|+|+|..
+T Consensus        78 ~G-~Y~v~w~~~~~dg~~~~G~~~F~v  103 (104)
+T 1LYQ_B           78 AG-TYRVDWRAVSSDTHPITGNYTFTV  103 (104)
+T ss_dssp             SE-EEEEEEEECCTTSCCEEEEEEEEE
+T ss_pred             Ce-EEEEEEEEEcCCCCeeeEEEEEEE
+Confidence            45 899999888877888889998864
+
+
+No 5
+>2N19_A Serine/threonine-protein kinase PLK4 (E.C.2.7.11.21); TRANSFERASE; NMR {Homo sapiens}
+Probab=39.57  E-value=1e+02  Score=20.94  Aligned_cols=21  Identities=29%  Similarity=0.455  Sum_probs=16.8  Template_Neff=9.400
+
+Q ss_pred             CCcceEEEEeCCCcEEEEEEc
+Q tr|C9JWQ3|C9JW  113 YSDNSTVVYFDNGTVFVVQWD  133 (222)
+Q Consensus       113 ysdnstvvyfdngtvfvvqwd  133 (222)
+                      .+|++..|.|.+|+..++.-+
+T Consensus        20 Ls~g~~~v~F~Dgs~l~~~~~   40 (88)
+T 2N19_A           20 LTSGAVWVQFNDGSQLVVQAG   40 (88)
+T ss_dssp             CTTSEEEEEETTSCEEEEETT
+T ss_pred             cCCCeEEEEECCCCEEEEECC
+Confidence            468888999999999877543
+
+
+No 6
+>5MUL_A Neuraminidase; Rhamnosidase, Bacteroides, Beta-propeller, hydrolase; HET: BDP; 1.39A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=39.04  E-value=3.1e+02  Score=21.72  Aligned_cols=18  Identities=6%  Similarity=0.257  Sum_probs=13.5  Template_Neff=12.100
+
+Q ss_pred             EEEEEccCCeEEEEEEEe
+Q tr|C9JWQ3|C9JW  148 FQAALHHDGRIVFAYKEI  165 (222)
+Q Consensus       148 fqaalhhdgrivfaykei  165 (222)
+                      ..++...+|++..+|.+.
+T Consensus        93 p~i~~~~~g~~~v~~~~~  110 (431)
+T 5MUL_A           93 ISIMVDGEGYLHVSFDHH  110 (431)
+T ss_dssp             EEEEECTTSCEEEEEESS
+T ss_pred             eeEEECCCCcEEEEEecC
+Confidence            456677789999998764
+
+
+No 7
+>4LG9_A F-box-like/WD repeat-containing protein TBL1XR1; Structural Genomics Consortium, SGC, WD40; HET: UNX; 2.28A {Homo sapiens}
+Probab=37.59  E-value=1.3e+02  Score=22.66  Aligned_cols=16  Identities=13%  Similarity=0.042  Sum_probs=1.0  Template_Neff=12.800
+
+Q ss_pred             EEEeCCCcEEEEEEce
+Q tr|C9JWQ3|C9JW  119 VVYFDNGTVFVVQWDH  134 (222)
+Q Consensus       119 vvyfdngtvfvvqwdh  134 (222)
+                      .+|..++.+++...+-
+T Consensus        24 ~~~~~~~~i~~~~~~~   39 (400)
+T 4LG9_A           24 AHTIANNHTDMMEVDG   39 (400)
+T ss_dssp             --------------CC
+T ss_pred             ceeecCCccceecccc
+Confidence            5666666666666554
+
+
+No 8
+>2SIL_A SIALIDASE (E.C.3.2.1.18) (NEURAMINIDASE); HYDROLASE; 1.6A {Salmonella typhimurium} SCOP: b.68.1.1
+Probab=36.59  E-value=2.2e+02  Score=23.77  Aligned_cols=18  Identities=28%  Similarity=0.368  Sum_probs=9.2  Template_Neff=10.400
+
+Q ss_pred             EEEEeCCCcEEEEEEcee
+Q tr|C9JWQ3|C9JW  118 TVVYFDNGTVFVVQWDHV  135 (222)
+Q Consensus       118 tvvyfdngtvfvvqwdhv  135 (222)
+                      ++||-+.|+.|+.++++-
+T Consensus         5 ~~~~~~~~~~~~~~~~~~   22 (381)
+T 2SIL_A            5 SVVFKAEGEHFTDQKGNT   22 (381)
+T ss_dssp             EEEECTTCCCCBCTTSCB
+T ss_pred             eeeeecCCceeeCCCCCe
+Confidence            345555555555554444
+
+
+No 9
+>5ICU_A CopC; CopC, metal homeostasis, PcoC, chaperone; HET: GOL; 1.46A {Methylosinus trichosporium OB3b}
+Probab=30.93  E-value=1.4e+02  Score=21.08  Aligned_cols=27  Identities=22%  Similarity=0.454  Sum_probs=18.6  Template_Neff=9.200
+
+Q ss_pred             CCcEEEEEEceeeecccccCceEEEEEE
+Q tr|C9JWQ3|C9JW  124 NGTVFVVQWDHVYLQGWEDKGSFTFQAA  151 (222)
+Q Consensus       124 ngtvfvvqwdhvylqgwedkgsftfqaa  151 (222)
+                      +| .|.|+|.-+-..|-...|+|.|...
+T Consensus        70 ~G-~Y~v~w~~~~~dg~~~~G~~~F~v~   96 (102)
+T 5ICU_A           70 VG-SYVVKFRVLSSDGHIVEGKYEFTVD   96 (102)
+T ss_dssp             SE-EEEEEEEEEBTTSCEEEEEEEEEEC
+T ss_pred             Ce-EEEEEEEEEcCCCCeEEEEEEEEEc
+Confidence            55 6899997666556666677777653
+
+
+No 10
+>6R2H_A HmuY protein; Porphyromonas gingivalis, Prevotella intermedia, HmuY; HET: GOL; 2.46A {Prevotella intermedia}
+Probab=29.24  E-value=5e+02  Score=21.89  Aligned_cols=43  Identities=16%  Similarity=0.251  Sum_probs=29.2  Template_Neff=7.500
+
+Q ss_pred             CCcceEEEEeCCCcEEEEEEceeeecccccCceEEEEEEEccCC
+Q tr|C9JWQ3|C9JW  113 YSDNSTVVYFDNGTVFVVQWDHVYLQGWEDKGSFTFQAALHHDG  156 (222)
+Q Consensus       113 ysdnstvvyfdngtvfvvqwdhvylqgwedkgsftfqaalhhdg  156 (222)
+                      ..++--+|...+|..+-+|....|-.. ..+|.++|+.+...+|
+T Consensus       151 ~~~~vyiIr~~dG~y~Kl~~~~yy~~~-g~~g~~tf~y~~~~~~  193 (194)
+T 6R2H_A          151 VMGNVFAVKFKNGNAALIKFKDNLDKT-GKKKAVSFDYKFIKKA  193 (194)
+T ss_dssp             ECCCEEEEEETTSCEEEEEEEEEECTT-SSSEEEEEEEEEECCC
+T ss_pred             CCCeEEEEEeCCCCEEEEEEEEeeCCC-CCeeeEEEEEEEccCC
+Confidence            556667777788887777777766433 3567777777766555
+
+
+No 11
+>4CI8_A ECHINODERM MICROTUBULE-ASSOCIATED PROTEIN-LIKE 1; STRUCTURAL PROTEIN, EML1, EML4-ALK, HSP90; HET: SO4; 2.6A {HOMO SAPIENS}
+Probab=29.11  E-value=2.7e+02  Score=22.55  Aligned_cols=11  Identities=9%  Similarity=0.093  Sum_probs=5.2  Template_Neff=13.100
+
+Q ss_pred             ceeeEEecCce
+Q tr|C9JWQ3|C9JW   75 LRQITIATGGF   85 (222)
+Q Consensus        75 lrqitiatggf   85 (222)
+                      ...+.+...|.
+T Consensus        75 ~~~~~~~~~g~   85 (655)
+T 4CI8_A           75 RNNLYLLPTGE   85 (655)
+T ss_dssp             CSCEEECTTSC
+T ss_pred             cccEEECCCCC
+Confidence            34455544443
+
+
+No 12
+>3WJ9_B Eukaryotic translation initiation factor 2A; Beta-Propeller, TRANSLATION; HET: MSE; 2.506A {Schizosaccharomyces pombe}
+Probab=28.51  E-value=3.8e+02  Score=19.94  Aligned_cols=44  Identities=18%  Similarity=0.356  Sum_probs=22.6  Template_Neff=13.300
+
+Q ss_pred             eEEEEeCCCcEEEEEE-ceeeeccccc-CceE--------EEEEEEccCCeEEEEE
+Q tr|C9JWQ3|C9JW  117 STVVYFDNGTVFVVQW-DHVYLQGWED-KGSF--------TFQAALHHDGRIVFAY  162 (222)
+Q Consensus       117 stvvyfdngtvfvvqw-dhvylqgwed-kgsf--------tfqaalhhdgrivfay  162 (222)
+                      ..+.+-.+|..++..- +.+.+  |.- .|..        ....++..||+.++..
+T Consensus        38 ~~~~~s~dg~~l~~~~~~~v~~--~d~~~~~~~~~~~~~~~~~~~~s~dg~~l~~~   91 (412)
+T 3WJ9_B           38 RNACYSPNGKLFAYATATQVVI--NDTESGAKLTQLPAANTYELGFSPLGKYLSTW   91 (412)
+T ss_dssp             CEEEECTTSSEEEEECSSCEEE--EESSSCCEEEEECCCSEEEEEECTTSSEEEEE
+T ss_pred             eEEEECCCCCEEEEEeCCeEEE--EeCCCCCeeeeccCCCcceeEEcCCCCeEEEE
+Confidence            3455556777665443 33333  332 1211        1246777888877654
+
+
+No 13
+>1MBY_A POLO DOMAIN, STRAND EXCHANGE, TRANSFERASE; 2.0A {Mus musculus} SCOP: d.223.1.1
+Probab=28.07  E-value=2e+02  Score=19.65  Aligned_cols=22  Identities=23%  Similarity=0.377  Sum_probs=17.2  Template_Neff=9.300
+
+Q ss_pred             CCcceEEEEeCCCcEEEEEEce
+Q tr|C9JWQ3|C9JW  113 YSDNSTVVYFDNGTVFVVQWDH  134 (222)
+Q Consensus       113 ysdnstvvyfdngtvfvvqwdh  134 (222)
+                      -+++...|.|.+|+..++.-+.
+T Consensus        20 Ls~G~~~v~F~Dgs~l~~~~~~   41 (88)
+T 1MBY_A           20 LTSGAVWVQFNDGSQLVMQAGV   41 (88)
+T ss_dssp             SSEEEEEEEETTSCEEEEEEEE
+T ss_pred             cCCCcEEEEECCCCEEEEECCC
+Confidence            3678888999999998876544
+
+
+No 14
+>3PSP_A Protein DOA1; protein degradation, Maintain the ubiquitin; 2.422A {Saccharomyces cerevisiae}
+Probab=25.27  E-value=1.9e+02  Score=26.48  Aligned_cols=36  Identities=25%  Similarity=0.453  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             cCCCCCcceEEEEe-CCCcEEEEEEceeeecccccCceEE
+Q tr|C9JWQ3|C9JW  109 FNPGYSDNSTVVYF-DNGTVFVVQWDHVYLQGWEDKGSFT  147 (222)
+Q Consensus       109 fnpgysdnstvvyf-dngtvfvvqwdhvylqgwedkgsft  147 (222)
+                      -.||-.|..+.+.- ++|.+.+.||+.-.   |+.-|..+
+T Consensus        41 ~~~G~~~Gq~~~v~~~~~~~~ay~W~~~~---W~~iG~v~   77 (425)
+T 3PSP_A           41 QSPGRKEGQIVVVKSPQGTIEAHQFSNSS---WKKVGDVV   77 (425)
+T ss_dssp             ----------------------------------------
+T ss_pred             cCCCCCCceEEEEECCCCcEEEEeeeccc---eEEEEEec
+Confidence            35888888888877 89999999999775   77655544
+
+
+No 15
+>6I7V_D7 Protein biosynthesis, ribosomes, paralog, RNA; HET: MEQ, G7M, 4OC, PG4, GUN, MPD, 2MG, PSU, 6MZ, OMU, 5MC, D2T, 1MG, PUT, UR3, H2U, EDO, 5MU, 2MA, PEG, OMG, OMC, MG, ACY, 1PE, MA6, PGE, SPD, 3TD; 2.9A {Escherichia coli}
+Probab=23.70  E-value=2.2e+02  Score=20.90  Aligned_cols=22  Identities=32%  Similarity=0.401  Sum_probs=18.4  Template_Neff=6.300
+
+Q ss_pred             EEEecCCCCccCCCCCCcccCc
+Q tr|C9JWQ3|C9JW  162 YKEIPMSVPEISSSQHPVKTGL  183 (222)
+Q Consensus       162 ykeipmsvpeisssqhpvktgl  183 (222)
+                      .+|.|.-..|++|..||.-||-
+T Consensus        39 ~~~yp~i~vdi~s~~HPfyTG~   60 (68)
+T 6I7V_D7          39 GVTYPYVTIDVSSKSHPFYTGK   60 (68)
+T ss_pred             CeEecEEEEEecCCCCcccCCC
+Confidence            3677777889999999999984
+
+
+No 16
+>7AX0_A Beta-propeller, Computational design, DE NOVO; HET: PO4, SIW; 2.2A {synthetic construct}
+Probab=22.59  E-value=3.8e+02  Score=19.55  Aligned_cols=9  Identities=33%  Similarity=0.634  Sum_probs=3.7  Template_Neff=13.200
+
+Q ss_pred             EEccCCeEE
+Q tr|C9JWQ3|C9JW  151 ALHHDGRIV  159 (222)
+Q Consensus       151 alhhdgriv  159 (222)
+                      +...||++.
+T Consensus       141 ~~~~~g~~~  149 (358)
+T 7AX0_A          141 SIGKDGTIY  149 (358)
+T ss_dssp             EECTTCCEE
+T ss_pred             EeCCCCcEE
+Confidence            334444443
+
+
+No 17
+>3PST_A Protein DOA1; protein degradation, cdc48, ubiquitin, NUCLEAR; 1.999A {Saccharomyces cerevisiae}
+Probab=22.04  E-value=2.4e+02  Score=25.85  Aligned_cols=36  Identities=25%  Similarity=0.453  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             cCCCCCcceEEEEe-CCCcEEEEEEceeeecccccCceEE
+Q tr|C9JWQ3|C9JW  109 FNPGYSDNSTVVYF-DNGTVFVVQWDHVYLQGWEDKGSFT  147 (222)
+Q Consensus       109 fnpgysdnstvvyf-dngtvfvvqwdhvylqgwedkgsft  147 (222)
+                      -.||-.|..+.+.- ++|.+.+.||+.-.   |+.-|..+
+T Consensus        41 ~~~G~~~Gq~~~v~~~~~~~~ay~W~~~~---W~~iG~Vv   77 (425)
+T 3PST_A           41 QSPGRKEGQIVVVKSPQGTIEAHQFSNSS---WKKVGDVV   77 (425)
+T ss_dssp             ----------------------------------------
+T ss_pred             cCCCCCCceEEEEECCCCcEEEEeeeccc---eEEEEEec
+Confidence            35888888888877 88999999998775   77655543
+
+
+No 18
+>5TEE_A Gem-associated protein 5; Structural Genomics, Structural Genomics Consortium; HET: GOL, UNX; 1.65A {Homo sapiens}
+Probab=21.94  E-value=5.7e+02  Score=21.33  Aligned_cols=47  Identities=9%  Similarity=0.033  Sum_probs=24.9  Template_Neff=13.100
+
+Q ss_pred             cceEEEEeCCCcEEEEEEceee-----------ecccccCceEEEEEEEccCC---eEEEE
+Q tr|C9JWQ3|C9JW  115 DNSTVVYFDNGTVFVVQWDHVY-----------LQGWEDKGSFTFQAALHHDG---RIVFA  161 (222)
+Q Consensus       115 dnstvvyfdngtvfvvqwdhvy-----------lqgwedkgsftfqaalhhdg---rivfa  161 (222)
+                      .+..+++...+.++++..+---           ++-..........+++..||   ++++.
+T Consensus        43 ~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~l~~~~~~v~~~~~s~dg~~~~~~~~  103 (758)
+T 5TEE_A           43 PGGLFGFAARTSVFLVRVGPGAGESPGTPPFRVIGELVGHTERVSGFTFSHHPGQYNLCAT  103 (758)
+T ss_dssp             TBTEEEEEETTEEEEEEESGGGCCCTTSCSEEEEEEECCCSSCEEEEEECCSTTCTTEEEE
+T ss_pred             CceEEEEecccEEEEEeCCCCCCCCCCCCCceEEEEecCccceeeEEEEecCCCceeEEEE
+Confidence            3446777777777777665322           22222222233456677777   55554
+
+
+No 19
+>2YH9_B SMALL PROTEIN A; LIPOPROTEIN, 3D DOMAIN SWAP, MEMBRANE; HET: MSE; 1.8A {ESCHERICHIA COLI}
+Probab=21.53  E-value=2.8e+02  Score=18.58  Aligned_cols=29  Identities=10%  Similarity=0.189  Sum_probs=17.7  Template_Neff=9.700
+
+Q ss_pred             CCcceEEEEeC-CCcEEEEEEceeeecccc
+Q tr|C9JWQ3|C9JW  113 YSDNSTVVYFD-NGTVFVVQWDHVYLQGWE  141 (222)
+Q Consensus       113 ysdnstvvyfd-ngtvfvvqwdhvylqgwe  141 (222)
+                      +.+...+++|| +|.|--+++.-...+-|+
+T Consensus        53 ~~~~~~~i~F~~~g~v~~~~~~~~~~~~~~   82 (88)
+T 2YH9_B           53 VTQQTLTLTFNSSGVLTNIDNKPALSGNLE   82 (88)
+T ss_dssp             SSCCEEEEEECTTSCEEEEEEESCC-----
+T ss_pred             ceEEEEEEEECCCCeEEEEEECCccccccc
+Confidence            34567888898 788887777665555554
+
+
+No 20
+>2YH9_C SMALL PROTEIN A; LIPOPROTEIN, 3D DOMAIN SWAP, MEMBRANE; HET: MSE; 1.8A {ESCHERICHIA COLI}
+Probab=21.53  E-value=2.8e+02  Score=18.58  Aligned_cols=29  Identities=10%  Similarity=0.189  Sum_probs=17.3  Template_Neff=9.700
+
+Q ss_pred             CCcceEEEEeC-CCcEEEEEEceeeecccc
+Q tr|C9JWQ3|C9JW  113 YSDNSTVVYFD-NGTVFVVQWDHVYLQGWE  141 (222)
+Q Consensus       113 ysdnstvvyfd-ngtvfvvqwdhvylqgwe  141 (222)
+                      +.+...+++|| +|.|--+++.-...+-|+
+T Consensus        53 ~~~~~~~i~F~~~g~v~~~~~~~~~~~~~~   82 (88)
+T 2YH9_C           53 VTQQTLTLTFNSSGVLTNIDNKPALSGNLE   82 (88)
+T ss_dssp             SSCCEEEEEECTTSBEEEEECCCC------
+T ss_pred             ceEEEEEEEECCCCeEEEEEECCccccccc
+Confidence            35567888898 898887777665555554
+
+
+No 21
+>7AEY_AAA Sialidase (E.C.3.2.1.18); Salmonella typhimurium, enzyme, complex, isocarba-DANA; HET: GOL, R8T; 0.919A {Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)}
+Probab=21.40  E-value=7e+02  Score=20.26  Aligned_cols=19  Identities=26%  Similarity=0.337  Sum_probs=12.1  Template_Neff=11.200
+
+Q ss_pred             EEEEeCCCcEEEEEEceee
+Q tr|C9JWQ3|C9JW  118 TVVYFDNGTVFVVQWDHVY  136 (222)
+Q Consensus       118 tvvyfdngtvfvvqwdhvy  136 (222)
+                      .+|+.++|..|+-.+++..
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~   21 (379)
+T 7AEY_AAA          3 SVVFKAEGEHFTDQKGNTI   21 (379)
+T ss_pred             eeEeecCCcceecCCCCeE
+Confidence            4566666777776666544
+
+
+No 22
+>3OSR_A Maltose-binding periplasmic protein, Green fluorescent; Engineered Protein, Sensor Protein, Fluorescent; HET: C12, GLC; 2.0A {Escherichia coli O157:H7}
+Probab=21.32  E-value=4.2e+02  Score=23.82  Aligned_cols=58  Identities=16%  Similarity=0.310  Sum_probs=30.5  Template_Neff=10.700
+
+Q ss_pred             CCcceeeEEecCce-eechhhhhhh--hhhccccchhh------eccCCCCCcceEEEEeCCCcEEE
+Q tr|C9JWQ3|C9JW   72 GHPLRQITIATGGF-IFMGDVIHRM--LTATQYVAPLM------ANFNPGYSDNSTVVYFDNGTVFV  129 (222)
+Q Consensus        72 ghplrqitiatggf-ifmgdvihrm--ltatqyvaplm------anfnpgysdnstvvyfdngtvfv  129 (222)
+                      |..--.....+|+. .|.-+++..+  .+-++|..-..      ..|..||....++.+.|.|....
+T Consensus       488 g~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~dgg~~~~  554 (653)
+T 3OSR_A          488 GKLTLKFICTTGKLPVPWPTLVTTLXVQCFSRYPDHMKQHDFFKSAMPEGYIQERTIFFKDDGNYKT  554 (653)
+T ss_dssp             TEEEEEEEETTSSCSSCGGGGTTTC-CGGGSBCCGGGGGGCHHHHTTTTCEEEEEEEEETTSCEEEE
+T ss_pred             EEEEEEEEEcCCCCCCChhHHHHhcchhHhccCccccccchhHHHHCcCCcceeEEEEEecCcEEEE
+Confidence            44444444344665 4555554432  34455554433      23666777777766666665544
+
+
+No 23
+>1M42_A cupredoxins, copper trafficking, METAL BINDING; NMR {Pseudomonas syringae} SCOP: b.1.18.17
+Probab=21.23  E-value=2.4e+02  Score=20.10  Aligned_cols=24  Identities=29%  Similarity=0.487  Sum_probs=19.0  Template_Neff=9.000
+
+Q ss_pred             EEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  127 VFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       127 vfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      .|.|.|.-+-..|....|+|.|..
+T Consensus        78 ~Y~v~w~~~~~dg~~~~G~~~F~v  101 (102)
+T 1M42_A           78 TYKVDWRAVSSDTHPITGSVTFKV  101 (102)
+T ss_dssp             EEEEEEEECCSSSCCEEEEEEEEE
+T ss_pred             EEEEEEEEECCCCCeeeEEEEEEe
+Confidence            688999877777777788888764
+
+
+No 24
+>2C9Q_A COPPER RESISTANCE PROTEIN C; ELECTRON TRANSPORT(COPPER BINDING), COPPER TRANSPORT; 1.6A {PSEUDOMONAS SYRINGAE PV. TOMATO} SCOP: b.1.18.17
+Probab=21.23  E-value=2.4e+02  Score=20.10  Aligned_cols=24  Identities=29%  Similarity=0.487  Sum_probs=18.8  Template_Neff=9.000
+
+Q ss_pred             EEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  127 VFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       127 vfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      .|.|.|.-+-..|....|+|.|..
+T Consensus        78 ~Y~v~w~~~~~dg~~~~G~~~F~v  101 (102)
+T 2C9Q_A           78 TYKVDWRAVSSDTHPITGSVTFKV  101 (102)
+T ss_dssp             EEEEEEEECCTTCCCEEEEEEEEE
+T ss_pred             EEEEEEEEECCCCCeeeEEEEEEe
+Confidence            688999877777777788888764
+
+
+No 25
+>6TJG_A Cake8; Beta-propeller, computationally designed, symmetrical, repeat; HET: MPD; 1.8A {synthetic construct}
+Probab=20.97  E-value=5e+02  Score=18.30  Aligned_cols=13  Identities=23%  Similarity=0.383  Sum_probs=7.1  Template_Neff=13.500
+
+Q ss_pred             EEEccCCeEEEEE
+Q tr|C9JWQ3|C9JW  150 AALHHDGRIVFAY  162 (222)
+Q Consensus       150 aalhhdgrivfay  162 (222)
+                      .+...+|++.++.
+T Consensus       102 ~~~~~~g~~~~~~  114 (324)
+T 6TJG_A          102 PVIGEDGTIYVGS  114 (324)
+T ss_dssp             CEECTTSCEEEEC
+T ss_pred             cEECCCCeEEEEe
+Confidence            3455566655554
+
+
+No 26
+>2C9R_A COPPER RESISTANCE PROTEIN C; COPPER TRANSPORT, COPPER PROTEINS, COPPER; 2.0A {PSEUDOMONAS SYRINGAE PV. TOMATO}
+Probab=20.45  E-value=2.3e+02  Score=20.22  Aligned_cols=26  Identities=31%  Similarity=0.586  Sum_probs=19.4  Template_Neff=8.900
+
+Q ss_pred             CCcEEEEEEceeeecccccCceEEEEE
+Q tr|C9JWQ3|C9JW  124 NGTVFVVQWDHVYLQGWEDKGSFTFQA  150 (222)
+Q Consensus       124 ngtvfvvqwdhvylqgwedkgsftfqa  150 (222)
+                      +| .|.|.|--+-..|-..+|+|.|..
+T Consensus        76 ~G-~Y~v~w~~~s~DG~~~~G~~~F~v  101 (102)
+T 2C9R_A           76 AG-TYKVDWRAVSSDTFPITGSVTFKV  101 (102)
+T ss_dssp             SE-EEEEEEEECCTTCCCEEEEEEEEE
+T ss_pred             Ce-EEEEEEEEECCCCCeeeEEEEEEE
+Confidence            44 689999777767777788888763
+
+
+No 27
+>6UD7_B DDB1- and CUL4-associated factor 15; E3 ligase, neosubstrate, LIGASE; HET: GOL, EF6; 2.3A {Homo sapiens}
+Probab=20.20  E-value=1.1e+03  Score=22.76  Aligned_cols=60  Identities=10%  Similarity=0.159  Sum_probs=39.9  Template_Neff=10.100
+
+Q ss_pred             cCCCceEEEEEecCCCCCCcEEEEEEeCCCCCCcceeeEEecCceeechhhhhhhhhhccccchhheccCCCCCcceEEE
+Q tr|C9JWQ3|C9JW   41 ANRSQVKIHTILSNTHRQASRVVLSFDFPFYGHPLRQITIATGGFIFMGDVIHRMLTATQYVAPLMANFNPGYSDNSTVV  120 (222)
+Q Consensus        41 anrsqvkihtilsnthrqasrvvlsfdfpfyghplrqitiatggfifmgdvihrmltatqyvaplmanfnpgysdnstvv  120 (222)
+                      |....+.++.+-..      +.++-..+|++|..+.-..+-                            .++.....-++
+T Consensus        34 a~~~~lely~~~~~------~l~~~~~~~l~~~I~~~~~~~----------------------------~~~~~~d~Llv   79 (836)
+T 6UD7_B           34 AKNTRLEIYVVTAE------GLRPVKEVGMYGKIAVMELFR----------------------------PKGESKDLLFI   79 (836)
+T ss_dssp             EETTEEEEEEECSS------SEEEEEEEECSSCEEEEEEEC----------------------------CTTCSSCEEEE
+T ss_pred             EcCCEEEEEEEcCC------CceEEEEEeCCceEEEEEEEc----------------------------CCCCCCcEEEE
+Confidence            34556777766432      477778888888532211111                            23456678899
+
+
+Q ss_pred             EeCCCcEEEEEEce
+Q tr|C9JWQ3|C9JW  121 YFDNGTVFVVQWDH  134 (222)
+Q Consensus       121 yfdngtvfvvqwdh  134 (222)
+                      .+++|.++++.||.
+T Consensus        80 ~~~~~~l~il~~~~   93 (836)
+T 6UD7_B           80 LTAKYNACILEYKQ   93 (836)
+T ss_dssp             EETTCEEEEEEEEE
+T ss_pred             EEcCceEEEEEEeC
+Confidence            99999999999985
+
+

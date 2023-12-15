@@ -1,0 +1,169 @@
+Query         tr|A0A8V8TLU9|A0A8V8TLU9_HUMAN
+Match_columns 194
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:15:05 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1091.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4FDI_A N-acetylgalactosamine-6  55.3      69 0.00075   26.0   5.1   32  128-159   413-448 (502)
+  2 4FDI_B N-acetylgalactosamine-6  55.3      69 0.00075   26.0   5.1   37  128-164   413-453 (502)
+  3 4MHX_A N-sulphoglucosamine sul  28.8 1.7E+02  0.0018   24.2   3.5   15  127-141   435-449 (510)
+  4 4MIV_A N-sulphoglucosamine sul  28.8 1.7E+02  0.0018   24.2   3.5   15  127-141   435-449 (510)
+  5 1AUK_A ARYLSULFATASE A; CEREBR  21.9 5.1E+02  0.0056   20.9   4.9   13  128-140   408-420 (489)
+  6 1N2L_A ARYLSULFATASE A(E.C.3.1  21.9 5.1E+02  0.0056   20.9   4.9   13  128-140   408-420 (489)
+  7 1BUU_A PROTEIN (MANNOSE-BINDIN  20.4 1.9E+02  0.0021   18.1   2.0   30   11-40      2-31  (168)
+  8 1FSU_A N-ACETYLGALACTOSAMINE-4  20.3   4E+02  0.0043   21.7   4.1   39  126-164   429-468 (492)
+  9 7AN1_AAA Carbohydrate sulfatas  18.8 2.3E+02  0.0024   22.9   2.5   46  128-174   462-508 (510)
+ 10 6AHZ_A CMP-N-acetylneuraminate  14.4 1.2E+02  0.0013   20.6   0.1   12  120-131     6-17  (35)
+
+No 1
+>4FDI_A N-acetylgalactosamine-6-sulfatase (E.C.3.1.6.4); glycoprotein, enzyme replacement therapy, sulfatase; HET: DDZ, GOL, NAG, CIT; 2.2A {Homo sapiens}
+Probab=55.25  E-value=69  Score=25.96  Aligned_cols=32  Identities=13%  Similarity=0.135  Sum_probs=18.5  Template_Neff=11.500
+
+Q ss_pred             ceeeecccCcccCCH----HHHHhHHHHHHHHHHHH
+Q tr|A0A8V8TLU9|  128 LRLYDLELDPTALEE----EEKQSLLVKELQSLAVA  159 (194)
+Q Consensus       128 lrlydleldptalee----eekqsllvkelqslava  159 (194)
+                      ..||||.-||.....    .+.....+++|......
+T Consensus       413 ~~lfdl~~DP~E~~nl~~~~~~~~~~~~~l~~~~~~  448 (502)
+T 4FDI_A          413 PLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQ  448 (502)
+T ss_dssp             CEEEETTTCTTCCSCCCTTSHHHHHHHHHHHHHHHH
+T ss_pred             CeeeeCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHH
+Confidence            569999999976532    22233444555444333
+
+
+No 2
+>4FDI_B N-acetylgalactosamine-6-sulfatase (E.C.3.1.6.4); glycoprotein, enzyme replacement therapy, sulfatase; HET: DDZ, GOL, NAG, CIT; 2.2A {Homo sapiens}
+Probab=55.25  E-value=69  Score=25.96  Aligned_cols=37  Identities=11%  Similarity=0.188  Sum_probs=21.3  Template_Neff=11.500
+
+Q ss_pred             ceeeecccCcccCC----HHHHHhHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TLU9|  128 LRLYDLELDPTALE----EEEKQSLLVKELQSLAVAQRDHM  164 (194)
+Q Consensus       128 lrlydleldptale----eeekqsllvkelqslavaqrdhm  164 (194)
+                      ..||||.-||....    +.+.....+++|..........+
+T Consensus       413 ~~lfdl~~DP~E~~nl~~~~~~~~~~~~~l~~~~~~~~~~~  453 (502)
+T 4FDI_B          413 PLIFHLGRDPGERFPLSFASAEYQEALSRITSVVQQHQEAL  453 (502)
+T ss_dssp             CEEEETTTCTTCCCCCCTTSHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CeeeeCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHHHhC
+Confidence            56999999997643    22233445555555444444433
+
+
+No 3
+>4MHX_A N-sulphoglucosamine sulphohydrolase (E.C.3.10.1.1); sulfatase fold, heparan, heparin, lysosome; HET: NAG, FGP; 2.0A {Homo sapiens}
+Probab=28.78  E-value=1.7e+02  Score=24.16  Aligned_cols=15  Identities=33%  Similarity=0.539  Sum_probs=11.8  Template_Neff=11.300
+
+Q ss_pred             cceeeecccCcccCC
+Q tr|A0A8V8TLU9|  127 SLRLYDLELDPTALE  141 (194)
+Q Consensus       127 slrlydleldptale  141 (194)
+                      ...|||+.-||....
+T Consensus       435 ~~~lydl~~Dp~e~~  449 (510)
+T 4MHX_A          435 RWELYDRSRDPHETQ  449 (510)
+T ss_dssp             SEEEEETTTCTTCCS
+T ss_pred             ccccccCCCCCcccc
+Confidence            458999999997543
+
+
+No 4
+>4MIV_A N-sulphoglucosamine sulphohydrolase (E.C.3.10.1.1); sulfatase fold, heparan, heparin, lysosome; HET: NAG, FGP; 2.4A {Homo sapiens}
+Probab=28.78  E-value=1.7e+02  Score=24.16  Aligned_cols=15  Identities=33%  Similarity=0.539  Sum_probs=11.8  Template_Neff=11.300
+
+Q ss_pred             cceeeecccCcccCC
+Q tr|A0A8V8TLU9|  127 SLRLYDLELDPTALE  141 (194)
+Q Consensus       127 slrlydleldptale  141 (194)
+                      ...|||+.-||....
+T Consensus       435 ~~~lydl~~Dp~e~~  449 (510)
+T 4MIV_A          435 RWELYDRSRDPHETQ  449 (510)
+T ss_dssp             SEEEEETTTCTTCCC
+T ss_pred             ccccccCCCCCcccc
+Confidence            458999999997543
+
+
+No 5
+>1AUK_A ARYLSULFATASE A; CEREBROSIDE-3-SULFATE HYDROLYSIS, LYSOSOMAL ENZYME, HYDROLASE; HET: NAG; 2.1A {Homo sapiens} SCOP: c.76.1.2
+Probab=21.88  E-value=5.1e+02  Score=20.88  Aligned_cols=13  Identities=46%  Similarity=0.572  Sum_probs=10.5  Template_Neff=11.800
+
+Q ss_pred             ceeeecccCcccC
+Q tr|A0A8V8TLU9|  128 LRLYDLELDPTAL  140 (194)
+Q Consensus       128 lrlydleldptal  140 (194)
+                      ..||||+-||...
+T Consensus       408 ~~lydl~~Dp~e~  420 (489)
+T 1AUK_A          408 PLLYDLSKDPGEN  420 (489)
+T ss_dssp             EEEEETTTCTTCC
+T ss_pred             CcceeCCCCCCCC
+Confidence            4699999999654
+
+
+No 6
+>1N2L_A ARYLSULFATASE A(E.C.3.1.6.8); HYDROLASE, PHOSPHATE ESTER HYDROLYSIS, LYSOSOMAL; HET: NAG, FGP; 3.2A {Homo sapiens} SCOP: c.76.1.2
+Probab=21.88  E-value=5.1e+02  Score=20.88  Aligned_cols=13  Identities=46%  Similarity=0.572  Sum_probs=10.5  Template_Neff=11.800
+
+Q ss_pred             ceeeecccCcccC
+Q tr|A0A8V8TLU9|  128 LRLYDLELDPTAL  140 (194)
+Q Consensus       128 lrlydleldptal  140 (194)
+                      ..||||+-||...
+T Consensus       408 ~~lydl~~Dp~e~  420 (489)
+T 1N2L_A          408 PLLYDLSKDPGEN  420 (489)
+T ss_dssp             EEEEETTTCTTCC
+T ss_pred             CcceeCCCCCCCC
+Confidence            4699999999654
+
+
+No 7
+>1BUU_A PROTEIN (MANNOSE-BINDING PROTEIN A); LECTIN, HOST DEFENSE, METALLOPROTEIN, SUGAR; 1.9A {Rattus norvegicus} SCOP: d.169.1.1, h.1.1.1
+Probab=20.40  E-value=1.9e+02  Score=18.08  Aligned_cols=30  Identities=17%  Similarity=0.257  Sum_probs=6.1  Template_Neff=13.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCcccccchHHHHHhh
+Q tr|A0A8V8TLU9|   11 VPETPGDQGQGPSPYDESEVHDSFQQLIQE   40 (194)
+Q Consensus        11 vpetpgdqgqgpspydesevhdsfqqliqe   40 (194)
+                      +|..+|.+|+.--+-..+++...+.++-++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (168)
+T 1BUU_A            2 IEVSQGPKGQKGDRGDSRAIEVKLANMEAE   31 (168)
+T ss_dssp             ------------------CHHHHHHHHHHH
+T ss_pred             CCCCCCCCCCCCCCCChHHHHHHHHHHHHH
+Confidence            466777777766665555555555555443
+
+
+No 8
+>1FSU_A N-ACETYLGALACTOSAMINE-4-SULFATASE; SULFATASE, GLYCOSAMINOGLYCAN DEGRADATION, HYDROLASE, GLYCOPROTEIN; HET: ALS, NAG; 2.5A {Homo sapiens} SCOP: c.76.1.2
+Probab=20.35  E-value=4e+02  Score=21.69  Aligned_cols=39  Identities=23%  Similarity=0.326  Sum_probs=21.6  Template_Neff=11.600
+
+Q ss_pred             CcceeeecccCcccCCHH-HHHhHHHHHHHHHHHHHHHHH
+Q tr|A0A8V8TLU9|  126 PSLRLYDLELDPTALEEE-EKQSLLVKELQSLAVAQRDHM  164 (194)
+Q Consensus       126 pslrlydleldptaleee-ekqsllvkelqslavaqrdhm  164 (194)
+                      ....||||+-||.....- +....++++|.....+-+.+.
+T Consensus       429 ~~~~lydl~~DP~e~~nl~~~~~~~~~~l~~~l~~~~~~~  468 (492)
+T 1FSU_A          429 KTLWLFDIDRDPEERHDLSREYPHIVTKLLSRLQFYHKHS  468 (492)
+T ss_dssp             CCEEEEETTTCTTCCSCCTTTCHHHHHHHHHHHHHHHHTC
+T ss_pred             CceeeeeCCCCcccCCCcchhCHHHHHHHHHHHHHHHHhc
+Confidence            356799999999654422 112234555555554444443
+
+
+No 9
+>7AN1_AAA Carbohydrate sulfatase, mucin, microbiome, bacteroides; HET: NAG, GAL; 1.5A {Bacteroides thetaiotaomicron (strain ATCC 29148 / DSM 2079 / NCTC 10582 / E50 / VPI-5482)}
+Probab=18.76  E-value=2.3e+02  Score=22.94  Aligned_cols=46  Identities=20%  Similarity=0.274  Sum_probs=23.5  Template_Neff=11.800
+
+Q ss_pred             ceeeecccCcccCCHHH-HHhHHHHHHHHHHHHHHHHHHCCCCCCHhh
+Q tr|A0A8V8TLU9|  128 LRLYDLELDPTALEEEE-KQSLLVKELQSLAVAQRDHMLRGMPLSLAE  174 (194)
+Q Consensus       128 lrlydleldptaleeee-kqsllvkelqslavaqrdhmlrgmplslae  174 (194)
+                      ..||||+-||.....-- .....+++|.....+++... .-.++++.|
+T Consensus       462 ~~lydl~~Dp~e~~nl~~~~~~~~~~l~~~l~~~~~~~-~~~~~~~~~  508 (510)
+T 7AN1_AAA        462 PFLYNLATDIHEDNNVADQHPEIVEKMKAVIFAQHTPN-PHFSVTLPE  508 (510)
+T ss_pred             cceeeCCCCccccCchHHhCHHHHHHHHHHHHhhcCCC-CCCCCCCCC
+Confidence            46899999986533211 12234455555555544444 234444444
+
+
+No 10
+>6AHZ_A CMP-N-acetylneuraminate-poly-alpha-2,8-sialyltransferase (E.C.2.4.99.-); Polysialyltransferase, Polysialyltransferase Domain, Polysialic Acid; NMR {N/A}
+Probab=14.35  E-value=1.2e+02  Score=20.62  Aligned_cols=12  Identities=67%  Similarity=0.960  Sum_probs=9.0  Template_Neff=4.200
+
+Q ss_pred             hhhhcCCcceee
+Q tr|A0A8V8TLU9|  120 FVRSAWPSLRLY  131 (194)
+Q Consensus       120 fvrsawpslrly  131 (194)
+                      -||.|.||||+-
+T Consensus         6 ~vrta~pslrl~   17 (35)
+T 6AHZ_A            6 KVRTAYPSLRLI   17 (35)
+T ss_dssp             HHHHTTHHHHHH
+T ss_pred             ccccCCCChhhh
+Confidence            478888888863
+
+

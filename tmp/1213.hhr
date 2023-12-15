@@ -1,0 +1,250 @@
+Query         tr|A8MYV4|A8MYV4_HUMAN
+Match_columns 65
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:29:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1213.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YC1_B TSG101-UEV Domain; UEV   98.5 2.6E-07 2.8E-12   59.4   2.9   64    1-64     15-78  (159)
+  2 4ZNY_A TSG101-UEV Domain, PTAP  98.4 5.1E-07 5.5E-12   55.6   2.8   60    5-64      2-61  (142)
+  3 3R3Q_A Suppressor protein STP2  97.1 0.00084 9.1E-09   42.2   2.6   61    2-62     13-74  (162)
+  4 3R42_A Suppressor protein STP2  97.1 0.00084 9.1E-09   42.2   2.6   61    2-62     13-74  (162)
+  5 7NLC_A HEV, proline-rich, ESCR  96.9  0.0024 2.6E-08   37.9   3.2   63    1-63      3-65  (147)
+  6 3OAO_A uncharacterized protein  39.1      55  0.0006   20.3   1.9   11   22-32     82-92  (147)
+  7 6BN1_A Serine/threonine-protei  25.3      85 0.00092   16.6   1.0   10   23-32     27-36  (57)
+  8 4L0N_F Serine/threonine-protei  25.0      82 0.00089   16.5   0.9    9   23-31     28-36  (51)
+  9 4H0N_C DNMT2 (E.C.2.1.1.-); SA  24.3 1.4E+02  0.0015   19.7   2.0   15   18-33    283-297 (333)
+ 10 4NR2_H Serine/threonine-protei  24.1      86 0.00094   16.4   0.9   10   23-32     28-37  (51)
+ 11 4MK6_A Probable Dihydroxyaceto  22.7 2.4E+02  0.0026   15.8   2.4    8   19-26     29-36  (189)
+ 12 1IQO_A beta-alpha, anti-parall  22.2      29 0.00031   23.5  -1.4    6   53-58     43-48  (88)
+ 13 6IFF_B Zinc metalloprotease, p  22.0 2.6E+02  0.0029   18.9   2.9   25    7-31    420-444 (474)
+ 14 6IFG_B Zinc metalloprotease, p  22.0 2.6E+02  0.0029   18.9   2.9   25    7-31    420-444 (474)
+ 15 6KOZ_A Zinc metalloprotease, p  22.0 2.6E+02  0.0029   18.9   2.9   25    7-31    420-444 (474)
+
+No 1
+>4YC1_B TSG101-UEV Domain; UEV domain Ubiquitin binding, cell; HET: SO4; 2.0A {Homo sapiens}
+Probab=98.46  E-value=2.6e-07  Score=59.44  Aligned_cols=64  Identities=45%  Similarity=0.803  Sum_probs=58.8  Template_Neff=7.900
+
+Q ss_pred             CCCCHHHHHHHHhccccccCCHHHHHhhhhhcccccceeeeeeecCCCchhhhheccccccecc
+Q tr|A8MYV4|A8MY    1 MEFDCEGLRRLLGKYKFRDLTVEELRNVNVFFPHFKYSMDTYVFKDSSQKDLLNFTGTIPVMYQ   64 (65)
+Q Consensus         1 mefdceglrrllgkykfrdltveelrnvnvffphfkysmdtyvfkdssqkdllnftgtipvmyq   64 (65)
+                      |+...+||.++++.|.+++++.+|+.++++.||+|.+..+.|++.+|....++++.|++|+.|+
+T Consensus        15 ~~~~~~~l~~~l~~Y~~~~~i~~dv~~~l~~yp~l~p~~~~~~~~~G~~~~ll~l~G~ipi~~~   78 (159)
+T 4YC1_B           15 MAVSESQLKKMVSKYKYRDLTVRETVNVITLYKDLKPVLDSYVFNDGSSRELMNLTGTIPVPYR   78 (159)
+T ss_dssp             CCCCHHHHHHHTTTCSSHHHHHHHHHHHHTTCTTEEEEEEEEECTTSCEEEEEEEEEEEEEEET
+T ss_pred             hhcCHHHHHHHhhcCCCHHHHHHHHHHHHHHCCCCCccceEEeCCCCCeeEeEEEEEEEeEecC
+Confidence            6788999999998899999999999999999999999999988889988889999999998653
+
+
+No 2
+>4ZNY_A TSG101-UEV Domain, PTAP motif of; ESCRT-I COMPLEX SUBUNIT TSG101, protein; 2.4A {Homo sapiens}
+Probab=98.39  E-value=5.1e-07  Score=55.58  Aligned_cols=60  Identities=47%  Similarity=0.829  Sum_probs=54.9  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHhccccccCCHHHHHhhhhhcccccceeeeeeecCCCchhhhheccccccecc
+Q tr|A8MYV4|A8MY    5 CEGLRRLLGKYKFRDLTVEELRNVNVFFPHFKYSMDTYVFKDSSQKDLLNFTGTIPVMYQ   64 (65)
+Q Consensus         5 ceglrrllgkykfrdltveelrnvnvffphfkysmdtyvfkdssqkdllnftgtipvmyq   64 (65)
+                      +++|+++++.|.+++++.+|+.++++.||+|.+..+.|++.+|....++++.|++++.|+
+T Consensus         2 ~~~l~~~l~~Y~~~~~i~~~v~~~~~~~p~l~~~~~~~~~~~g~~~~ll~l~G~ipi~~~   61 (142)
+T 4ZNY_A            2 ESQLKKMVSKYKYRDLTVRETVNVITLYKDLKPVLDSYVFNDGSSRELMNLTGTIPVPYR   61 (142)
+T ss_dssp             HHHHHHHTTTCTTHHHHHHHHHHHHHHSTTEEEEEEEEECSSSCEEEEEEEEEEEEEEET
+T ss_pred             HHHHHHHHhhCcCHHHHHHHHHHHHHHCCCCcCceeEEEcCCCCeeEEEEEEEEeeeecC
+Confidence            578999998899999999999999999999999999998889988889999999998653
+
+
+No 3
+>3R3Q_A Suppressor protein STP22 of temperature-sensitive; endosomal sorting, ESCRT-I, PROTEIN TRANSPORT; HET: IMD, ACT; 1.45A {Saccharomyces cerevisiae}
+Probab=97.12  E-value=0.00084  Score=42.21  Aligned_cols=61  Identities=18%  Similarity=0.160  Sum_probs=53.8  Template_Neff=8.800
+
+Q ss_pred             CCCHHHHHHHHh-ccccccCCHHHHHhhhhhcccccceeeeeeecCCCchhhhhecccccce
+Q tr|A8MYV4|A8MY    2 EFDCEGLRRLLG-KYKFRDLTVEELRNVNVFFPHFKYSMDTYVFKDSSQKDLLNFTGTIPVM   62 (65)
+Q Consensus         2 efdceglrrllg-kykfrdltveelrnvnvffphfkysmdtyvfkdssqkdllnftgtipvm   62 (65)
+                      +++.+||+++++ .|.+++++.+|+.++++.||+|.+..+.|++++|....++.+.|++++.
+T Consensus        13 ~~~~~~l~~~~~~~y~~~~~i~~di~~l~~~~p~l~~~~~~~~~~~g~~~~l~~l~G~i~i~   74 (162)
+T 3R3Q_A           13 EAVVNWLFKVIQPIYNDGRTTFHDSLALLDNFHSLRPRTRVFTHSDGTPQLLLSIYGTISTG   74 (162)
+T ss_dssp             HHHHHHHHHHHTTTCTTHHHHHHHHHHHHHHCTTEEEEEEEEECTTSCEEEEEEEEEEEECS
+T ss_pred             HHHHHHHHHHhhhhcCCHHHHHHHHHHHHHhCCCCeeEEEEEECCCCCeEEEEEEEEEeecC
+Confidence            457899999986 5888999999999999999999998887777788877889999999876
+
+
+No 4
+>3R42_A Suppressor protein STP22 of temperature-sensitive; endosomal sorting, ESCRT, PROTEIN TRANSPORT; 1.866A {Saccharomyces cerevisiae}
+Probab=97.12  E-value=0.00084  Score=42.21  Aligned_cols=61  Identities=18%  Similarity=0.160  Sum_probs=53.8  Template_Neff=8.800
+
+Q ss_pred             CCCHHHHHHHHh-ccccccCCHHHHHhhhhhcccccceeeeeeecCCCchhhhhecccccce
+Q tr|A8MYV4|A8MY    2 EFDCEGLRRLLG-KYKFRDLTVEELRNVNVFFPHFKYSMDTYVFKDSSQKDLLNFTGTIPVM   62 (65)
+Q Consensus         2 efdceglrrllg-kykfrdltveelrnvnvffphfkysmdtyvfkdssqkdllnftgtipvm   62 (65)
+                      +++.+||+++++ .|.+++++.+|+.++++.||+|.+..+.|++++|....++.+.|++++.
+T Consensus        13 ~~~~~~l~~~~~~~y~~~~~i~~di~~l~~~~p~l~~~~~~~~~~~g~~~~l~~l~G~i~i~   74 (162)
+T 3R42_A           13 EAVVNWLFKVIQPIYNDGRTTFHDSLALLDNFHSLRPRTRVFTHSDGTPQLLLSIYGTISTG   74 (162)
+T ss_dssp             HHHHHHHHHHHHHHCTTHHHHHHHHHHHHHHCTTCEEEEEEEECTTSCEEEEEEEEEEEECC
+T ss_pred             HHHHHHHHHHhhhhcCCHHHHHHHHHHHHHhCCCCeeEEEEEECCCCCeEEEEEEEEEeecC
+Confidence            457899999986 5888999999999999999999998887777788877889999999876
+
+
+No 5
+>7NLC_A HEV, proline-rich, ESCRT-I complex, PROTEIN; HET: NH4; 1.398A {Homo sapiens}
+Probab=96.94  E-value=0.0024  Score=37.89  Aligned_cols=63  Identities=46%  Similarity=0.808  Sum_probs=52.7  Template_Neff=9.900
+
+Q ss_pred             CCCCHHHHHHHHhccccccCCHHHHHhhhhhcccccceeeeeeecCCCchhhhheccccccec
+Q tr|A8MYV4|A8MY    1 MEFDCEGLRRLLGKYKFRDLTVEELRNVNVFFPHFKYSMDTYVFKDSSQKDLLNFTGTIPVMY   63 (65)
+Q Consensus         1 mefdceglrrllgkykfrdltveelrnvnvffphfkysmdtyvfkdssqkdllnftgtipvmy   63 (65)
+                      |++-..++.++++.|.+.+++.+|+.++++.||+|.+..+.+...++....++.+.|.+++.|
+T Consensus         3 ~~~~~~~~~~~~~~y~~~~~~~~di~~l~~~~p~l~~~~~~~~~~~~~~~~l~~l~G~~~~~~   65 (147)
+T 7NLC_A            3 MAVSESQLKKMVSKYKYRDLTVRETVNVITLYKDLKPVLDSYVFNDGSSRELMNLTGTIPVPY   65 (147)
+T ss_dssp             -CCCHHHHHHHTTTCSSHHHHHHHHHHHHTTCTTEEEEEEEEECTTSCEEEEEEEEEEEEEEE
+T ss_pred             cccCHHHHHHHHhhCCCHHHHHHHHHHHHHHcCCCcceeeEEEcCCCceeEEEEEEEEeeecc
+Confidence            456778899999889998999999999999999999887776666777677889999987754
+
+
+No 6
+>3OAO_A uncharacterized protein from DUF2059 family; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: PO4, MSE; 2.72A {Pseudomonas aeruginosa}
+Probab=39.13  E-value=55  Score=20.25  Aligned_cols=11  Identities=36%  Similarity=0.866  Sum_probs=4.8  Template_Neff=9.200
+
+Q ss_pred             HHHHHhhhhhc
+Q tr|A8MYV4|A8MY   22 VEELRNVNVFF   32 (65)
+Q Consensus        22 veelrnvnvff   32 (65)
+                      ..++..++.-|
+T Consensus        82 ~~EL~~l~~Fy   92 (147)
+T 3OAO_A           82 ESELKDLNAFY   92 (147)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            34444444433
+
+
+No 7
+>6BN1_A Serine/threonine-protein kinase hippo (E.C.2.7.11.1), Scaffold; Hippo, SIGNALING PROTEIN; HET: MPD; 2.6A {Drosophila melanogaster}
+Probab=25.35  E-value=85  Score=16.63  Aligned_cols=10  Identities=20%  Similarity=0.348  Sum_probs=4.2  Template_Neff=8.800
+
+Q ss_pred             HHHHhhhhhc
+Q tr|A8MYV4|A8MY   23 EELRNVNVFF   32 (65)
+Q Consensus        23 eelrnvnvff   32 (65)
+                      +++.++...|
+T Consensus        27 ~ei~~l~~ry   36 (57)
+T 6BN1_A           27 LEIEQLNKKY   36 (57)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3444444433
+
+
+No 8
+>4L0N_F Serine/threonine-protein kinase 3 (E.C.2.7.11.1); Structural Genomics, Structural Genomics Consortium; 1.4A {Homo sapiens}
+Probab=25.05  E-value=82  Score=16.47  Aligned_cols=9  Identities=11%  Similarity=0.206  Sum_probs=3.7  Template_Neff=8.600
+
+Q ss_pred             HHHHhhhhh
+Q tr|A8MYV4|A8MY   23 EELRNVNVF   31 (65)
+Q Consensus        23 eelrnvnvf   31 (65)
+                      +++.++...
+T Consensus        28 ~ei~~l~~r   36 (51)
+T 4L0N_F           28 REIEELRQR   36 (51)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHHHH
+Confidence            344444443
+
+
+No 9
+>4H0N_C DNMT2 (E.C.2.1.1.-); SAH binding, TRANSFERASE; HET: SAH; 2.712A {Spodoptera frugiperda}
+Probab=24.26  E-value=1.4e+02  Score=19.72  Aligned_cols=15  Identities=33%  Similarity=0.479  Sum_probs=6.7  Template_Neff=10.800
+
+Q ss_pred             ccCCHHHHHhhhhhcc
+Q tr|A8MYV4|A8MY   18 RDLTVEELRNVNVFFP   33 (65)
+Q Consensus        18 rdltveelrnvnvffp   33 (65)
+                      +....++...+. .+|
+T Consensus       283 R~lt~~E~~rlq-gfP  297 (333)
+T 4H0N_C          283 RYFTPKEVLMIM-CFP  297 (333)
+T ss_dssp             EECCHHHHHHHT-TCC
+T ss_pred             eeeCHHHHHhcc-CCC
+Confidence            334444544443 444
+
+
+No 10
+>4NR2_H Serine/threonine-protein kinase 4 (E.C.2.7.11.1); Structural Genomics, Structural Genomics Consortium; HET: EDO; 2.0A {Homo sapiens}
+Probab=24.06  E-value=86  Score=16.38  Aligned_cols=10  Identities=10%  Similarity=0.438  Sum_probs=4.1  Template_Neff=8.600
+
+Q ss_pred             HHHHhhhhhc
+Q tr|A8MYV4|A8MY   23 EELRNVNVFF   32 (65)
+Q Consensus        23 eelrnvnvff   32 (65)
+                      +++.++...|
+T Consensus        28 ~ei~~l~~ry   37 (51)
+T 4NR2_H           28 QEIEEIRQKY   37 (51)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3444444433
+
+
+No 11
+>4MK6_A Probable Dihydroxyacetone Kinase Regulator DHSK_reg; Structural Genomics, PSI-Biology, Protein Structure; HET: MSE; 2.35A {Listeria monocytogenes}
+Probab=22.74  E-value=2.4e+02  Score=15.81  Aligned_cols=8  Identities=0%  Similarity=0.551  Sum_probs=3.1  Template_Neff=12.200
+
+Q ss_pred             cCCHHHHH
+Q tr|A8MYV4|A8MY   19 DLTVEELR   26 (65)
+Q Consensus        19 dltveelr   26 (65)
+                      ....++|.
+T Consensus        29 ~~t~~~ia   36 (189)
+T 4MK6_A           29 KISIADIT   36 (189)
+T ss_dssp             TCCHHHHH
+T ss_pred             ccCHHHHH
+Confidence            33334443
+
+
+No 12
+>1IQO_A beta-alpha, anti-parallel, calcium binding, structural; NMR {Methanothermobacter} SCOP: d.214.1.1
+Probab=22.21  E-value=29  Score=23.53  Aligned_cols=6  Identities=33%  Similarity=0.772  Sum_probs=2.7  Template_Neff=4.100
+
+Q ss_pred             hheccc
+Q tr|A8MYV4|A8MY   53 LNFTGT   58 (65)
+Q Consensus        53 lnftgt   58 (65)
+                      +.+.||
+T Consensus        43 LnI~gT   48 (88)
+T 1IQO_A           43 ISIKGT   48 (88)
+T ss_dssp             EECTTT
+T ss_pred             EEeecC
+Confidence            444444
+
+
+No 13
+>6IFF_B Zinc metalloprotease, putative; Hydrolase, Metalloprotease, peptidase; HET: TYR; 1.83A {Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422)}
+Probab=21.96  E-value=2.6e+02  Score=18.89  Aligned_cols=25  Identities=12%  Similarity=0.072  Sum_probs=11.0  Template_Neff=11.600
+
+Q ss_pred             HHHHHHhccccccCCHHHHHhhhhh
+Q tr|A8MYV4|A8MY    7 GLRRLLGKYKFRDLTVEELRNVNVF   31 (65)
+Q Consensus         7 glrrllgkykfrdltveelrnvnvf   31 (65)
+                      .|..+++.|.......+++.+.++.
+T Consensus       420 ~l~~~~~~~~~~~~~~~~f~~~l~~  444 (474)
+T 6IFF_B          420 FLHSYVKTFTGRPVSTTALLTLVKT  444 (474)
+T ss_dssp             HHHHHHHHTTTSCBCHHHHHHHHHH
+T ss_pred             HHHHHHHHcCCCCCCHHHHHHHHHH
+Confidence            3333333344344444555555544
+
+
+No 14
+>6IFG_B Zinc metalloprotease, putative; Hydrolase, Metalloprotease, peptidase; HET: FMT; 1.9A {Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422)}
+Probab=21.96  E-value=2.6e+02  Score=18.89  Aligned_cols=25  Identities=12%  Similarity=0.072  Sum_probs=11.1  Template_Neff=11.600
+
+Q ss_pred             HHHHHHhccccccCCHHHHHhhhhh
+Q tr|A8MYV4|A8MY    7 GLRRLLGKYKFRDLTVEELRNVNVF   31 (65)
+Q Consensus         7 glrrllgkykfrdltveelrnvnvf   31 (65)
+                      .|..+++.|.......+++.+.++.
+T Consensus       420 ~l~~~~~~~~~~~~~~~~f~~~l~~  444 (474)
+T 6IFG_B          420 FLHSYVKTFTGRPVSTTALLTLVKT  444 (474)
+T ss_dssp             HHHHHHHHTSSSCBCHHHHHHHHHH
+T ss_pred             HHHHHHHHcCCCCCCHHHHHHHHHH
+Confidence            3333333344344444555555544
+
+
+No 15
+>6KOZ_A Zinc metalloprotease, putative; Metalloprotease, HYDROLASE; HET: LEU; 2.25A {Deinococcus radiodurans (strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422)}
+Probab=21.96  E-value=2.6e+02  Score=18.89  Aligned_cols=25  Identities=12%  Similarity=0.072  Sum_probs=11.1  Template_Neff=11.600
+
+Q ss_pred             HHHHHHhccccccCCHHHHHhhhhh
+Q tr|A8MYV4|A8MY    7 GLRRLLGKYKFRDLTVEELRNVNVF   31 (65)
+Q Consensus         7 glrrllgkykfrdltveelrnvnvf   31 (65)
+                      .|..+++.|.......+++.+.++.
+T Consensus       420 ~l~~~~~~~~~~~~~~~~f~~~l~~  444 (474)
+T 6KOZ_A          420 FLHSYVKTFTGRPVSTTALLTLVKT  444 (474)
+T ss_dssp             HHHHHHHHTSSSCBCHHHHHHHHHH
+T ss_pred             HHHHHHHHcCCCCCCHHHHHHHHHH
+Confidence            3333333344344444555555544
+
+

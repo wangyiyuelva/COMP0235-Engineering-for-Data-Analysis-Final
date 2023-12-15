@@ -1,0 +1,331 @@
+Query         sp|Q9Y2A9|B3GN3_HUMAN
+Match_columns 372
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:21:14 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1256.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6WMM_A C1GALT1-specific chaper 100.0 3.3E-57 3.5E-62  392.4  20.7  305   55-365    57-364 (364)
+  2 6WMM_B C1GALT1-specific chaper 100.0 3.3E-57 3.5E-62  392.4  20.7  305   55-365    57-364 (364)
+  3 2J0A_A BETA-1,3-N-ACETYLGLUCOS  99.7 6.3E-17 6.8E-22  128.7  12.7  239  105-370    11-279 (280)
+  4 2J0B_A BETA-1,3-N-ACETYLGLUCOS  99.7 6.3E-17 6.8E-22  128.7  12.7  239  105-370    11-279 (280)
+  5 5Z8B_A KfiA protein; Glycosylt  23.8 2.6E+02  0.0028   22.1   3.7  112  201-315    74-190 (242)
+  6 5Z8B_B KfiA protein; Glycosylt  23.8 2.6E+02  0.0028   22.1   3.7  112  201-315    74-190 (242)
+  7 4XGL_A Mitochondrial ribonucle  20.2 1.2E+02  0.0013   26.9   1.5   10  190-199   311-320 (379)
+  8 4XGM_A Mitochondrial ribonucle  20.2 1.2E+02  0.0013   26.9   1.5   10  190-199   311-320 (379)
+  9 6XI8_C Serine/threonine-protei  16.6 2.6E+02  0.0028   21.1   2.2   29  270-298    35-63  (63)
+ 10 1H7Q_A SPORE COAT POLYSACCHARI  13.7 6.8E+02  0.0073   18.8   3.7  128  199-326    85-219 (255)
+
+No 1
+>6WMM_A C1GALT1-specific chaperone 1; Glycosyltransferase, GT-A fold, poly LacNAc; HET: EPE, NAG, UDP, BMA, MSE, EDO; 1.548A {Homo sapiens}
+Probab=100.00  E-value=3.3e-57  Score=392.39  Aligned_cols=305  Identities=40%  Similarity=0.805  Sum_probs=278.9  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCcCC-CCcccCCChhhhhhHhhhhhcCCcccCCCCcccCCCCEEEEEEecCCCChHHHHHHHHhhcCCc
+Q sp|Q9Y2A9|B3GN   55 RPAPAPCHANTSMVT-HPDFATQPQHVQNFLLYRHCRHFPLLQDVPPSKCAQPVFLLLVIKSSPSNYVRRELLRRTWGRE  133 (372)
+Q Consensus        55 rpapapchantsmvt-hpdfatqpqhvqnfllyrhcrhfpllqdvppskcaqpvflllviksspsnyvrrellrrtwgre  133 (372)
+                      .+....|.++.++.+ +.+|.++|+.+++|+.+++||+|++|++ ++..|.+.+.|+|+|+|++.++++|++||+||++.
+T Consensus        57 ~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~l~~-~~~~c~~~~~lli~I~S~~~~~~~R~aIR~TW~~~  135 (364)
+T 6WMM_A           57 ISHLNYCEPDLRVTSVVTGFNNLPDRFKDFLLYLRCRNYSLLID-QPDKCAKKPFLLLAIKSLTPHFARRQAIRESWGQE  135 (364)
+T ss_dssp             -CSSBCCSCCTTHHHHSTTGGGSCHHHHHHHHTTTBCCCCEEEC-CTTTTSSCCSEEEEEECCTTCHHHHHHHHHTTTCC
+T ss_pred             CCCCCccCCCcchhccCCchhhCCHHHHHHHhhhccCCCccccC-CccccCCCCeEEEEEcCCcccHHHHHHHHHHhccc
+Confidence            446688999988877 8999999999999999999999999999 99999999999999999999999999999999999
+
+
+Q ss_pred             cccCCCceEEEEEEcCCCCHHHHHHHHHHHHHHHhccCCceeeeCCCccccccHHHHHHHHHHHhcCCceEEEEcCCCch
+Q sp|Q9Y2A9|B3GN  134 RKVRGLQLRLLFLVGTASNPHEARKVNRLLELEAQTHGDILQWDFHDSFFNLTLKQVLFLQWQETRCANASFVLNGDDDV  213 (372)
+Q Consensus       134 rkvrglqlrllflvgtasnphearkvnrlleleaqthgdilqwdfhdsffnltlkqvlflqwqetrcanasfvlngdddv  213 (372)
+                      ....+..++++|++|.+......+.++..|.+|+..|+||+++++.|+|.|++.|++.+++|+.++|++++|++|+|||+
+T Consensus       136 ~~~~~~~v~~vF~lG~~~~~~~~~~~~~~l~~E~~~~~Dil~~d~~d~~~nlt~K~~~~l~w~~~~c~~~~fv~k~DDD~  215 (364)
+T 6WMM_A          136 SNAGNQTVVRVFLLGQTPPEDNHPDLSDMLKFESEKHQDILMWNYRDTFFNLSLKEVLFLRWVSTSCPDTEFVFKGDDDV  215 (364)
+T ss_dssp             BCGGGCCEEEEEEEEECCGGGTCCCCHHHHHHHHHHHCCEEEEEEECCGGGHHHHHHHHHHHHHHHCTTCSEEEEEETTE
+T ss_pred             ccCCCCeEEEEEEeccCCCcCCChhHHHHHHHHHHHhCCeEEecCCCCcchhcHHHHHHHHHHHHHCCCCeEEEEecCCE
+Confidence            87777889999999987443333456777999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hcCchhhHHHhhcCCCC--CeEEEEeeecCCchhhhhhhhcCCCccccCCCCCCCCCCCCcchhhHHHHHHHHHHHHhcc
+Q sp|Q9Y2A9|B3GN  214 FAHTDNMVFYLQDHDPG--RHLFVGQLIQNVGPIRAFWSKYYVPEVVTQNERYPPYCGGGGFLLSRFTAAALRRAAHVLD  291 (372)
+Q Consensus       214 fahtdnmvfylqdhdpg--rhlfvgqliqnvgpirafwskyyvpevvtqneryppycggggfllsrftaaalrraahvld  291 (372)
+                      |||+++|+++|..+...  ...|+|.......+.|.+.+|||++...|. +.||+|++|+||++|+++++.|+..+...+
+T Consensus       216 fvn~~~L~~~L~~~~~~~~~~~y~G~~~~~~~~~r~~~~k~~vp~~~~~-~~yP~y~~G~gyvlS~~l~~~l~~~~~~~~  294 (364)
+T 6WMM_A          216 FVNTHHILNYLNSLSKTKAKDLFIGDVIHNAGPHRDKKLKYYIPEVVYS-GLYPPYAGGGGFLYSGHLALRLYHITDQVH  294 (364)
+T ss_dssp             EECHHHHHHHHHTCCHHHHHTCEEEEEESSCCCBCCTTSTTBCCTTTCC-SCCCCEEEEEEEEEEHHHHHHHHHHHTTSC
+T ss_pred             EecHHHHHHHHHhcCcccCCCcEEEEEEeCccCccCCCCCccCCHHHcC-CCCCCcccccEEEEeHHHHHHHHHHhhcCC
+Confidence            99999999999987654  568999999999999999999999999998 789999999999999999999999998888
+
+
+Q ss_pred             ccccchhhhhHhhhhCCCCCCCCCCCCCCCCCCCCCCcCCCCcchhhhhhhhccCCcHHHHhhHhhhCCCCCCC
+Q sp|Q9Y2A9|B3GN  292 IFPIDDVFLGMCLELEGLKPASHSGIRTSGVRAPSQRLSSFDPCFYRDLLLVHRFLPYEMLLMWDALNQPNLTC  365 (372)
+Q Consensus       292 ifpiddvflgmcleleglkpashsgirtsgvrapsqrlssfdpcfyrdlllvhrflpyemllmwdalnqpnltc  365 (372)
+                      .++.|||++|+|+.++|+.+.++++|+.++....    ...++|.++..+++|+.+|++|..+|+.+.++++.|
+T Consensus       295 ~~~~eDv~iG~~l~~~gi~~~~~~~f~~~~~~~~----~~~~~c~~~~~i~vH~~sp~~m~~lw~~~~~~~~~c  364 (364)
+T 6WMM_A          295 LYPIDDVYTGMCLQKLGLVPEKHKGFRTFDIEEK----NKNNICSYVDLMLVHSRKPQEMIDIWSQLQSAHLKC  364 (364)
+T ss_dssp             CCSSHHHHHHHHHHHTTCCCEECTTEETTCCCGG----GTTCTHHHHTCSEEECCCHHHHHHHHHHHTTCC---
+T ss_pred             CCCHHHHHHHHHHHHcCCccccCCCceecccccc----ccCCCccccceEEEeCCCHHHHHHHHHHHhhcCCCC
+Confidence            8899999999999999999999999998877665    556789999999999999999999999999999988
+
+
+No 2
+>6WMM_B C1GALT1-specific chaperone 1; Glycosyltransferase, GT-A fold, poly LacNAc; HET: EPE, NAG, UDP, BMA, MSE, EDO; 1.548A {Homo sapiens}
+Probab=100.00  E-value=3.3e-57  Score=392.39  Aligned_cols=305  Identities=40%  Similarity=0.805  Sum_probs=281.5  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCcCC-CCcccCCChhhhhhHhhhhhcCCcccCCCCcccCCCCEEEEEEecCCCChHHHHHHHHhhcCCc
+Q sp|Q9Y2A9|B3GN   55 RPAPAPCHANTSMVT-HPDFATQPQHVQNFLLYRHCRHFPLLQDVPPSKCAQPVFLLLVIKSSPSNYVRRELLRRTWGRE  133 (372)
+Q Consensus        55 rpapapchantsmvt-hpdfatqpqhvqnfllyrhcrhfpllqdvppskcaqpvflllviksspsnyvrrellrrtwgre  133 (372)
+                      .+....|.++.++.+ +.+|.++|+.+++|+.+++||+|++|++ ++..|.+.+.|+|+|+|++.++++|++||+||++.
+T Consensus        57 ~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~l~~-~~~~c~~~~~lli~I~S~~~~~~~R~aIR~TW~~~  135 (364)
+T 6WMM_B           57 ISHLNYCEPDLRVTSVVTGFNNLPDRFKDFLLYLRCRNYSLLID-QPDKCAKKPFLLLAIKSLTPHFARRQAIRESWGQE  135 (364)
+T ss_dssp             -CCSBCCSCCTTHHHHSTTGGGSCHHHHHHHHTTTBCCCCEEEC-CTTTTSSCCSEEEEEECCTTCHHHHHHHHHTTTCC
+T ss_pred             CCCCCccCCCcchhccCCchhhCCHHHHHHHhhhccCCCccccC-CccccCCCCeEEEEEcCCcccHHHHHHHHHHhccc
+Confidence            446688999988877 8999999999999999999999999999 99999999999999999999999999999999999
+
+
+Q ss_pred             cccCCCceEEEEEEcCCCCHHHHHHHHHHHHHHHhccCCceeeeCCCccccccHHHHHHHHHHHhcCCceEEEEcCCCch
+Q sp|Q9Y2A9|B3GN  134 RKVRGLQLRLLFLVGTASNPHEARKVNRLLELEAQTHGDILQWDFHDSFFNLTLKQVLFLQWQETRCANASFVLNGDDDV  213 (372)
+Q Consensus       134 rkvrglqlrllflvgtasnphearkvnrlleleaqthgdilqwdfhdsffnltlkqvlflqwqetrcanasfvlngdddv  213 (372)
+                      ....+..++++|++|.+......+.++..|.+|+..|+||+++++.|+|.|++.|++.+++|+.++|++++|++|+|||+
+T Consensus       136 ~~~~~~~v~~vF~lG~~~~~~~~~~~~~~l~~E~~~~~Dil~~d~~d~~~nlt~K~~~~l~w~~~~c~~~~fv~k~DDD~  215 (364)
+T 6WMM_B          136 SNAGNQTVVRVFLLGQTPPEDNHPDLSDMLKFESEKHQDILMWNYRDTFFNLSLKEVLFLRWVSTSCPDTEFVFKGDDDV  215 (364)
+T ss_dssp             BCGGGCCEEEEEEEEECCGGGTCCCCHHHHHHHHHHHCCEEEEEEECCGGGHHHHHHHHHHHHHHHCTTCSEEEEEETTE
+T ss_pred             ccCCCCeEEEEEEeccCCCcCCChhHHHHHHHHHHHhCCeEEecCCCCcchhcHHHHHHHHHHHHHCCCCeEEEEecCCE
+Confidence            87777889999999987443333456777999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hcCchhhHHHhhcCCCC--CeEEEEeeecCCchhhhhhhhcCCCccccCCCCCCCCCCCCcchhhHHHHHHHHHHHHhcc
+Q sp|Q9Y2A9|B3GN  214 FAHTDNMVFYLQDHDPG--RHLFVGQLIQNVGPIRAFWSKYYVPEVVTQNERYPPYCGGGGFLLSRFTAAALRRAAHVLD  291 (372)
+Q Consensus       214 fahtdnmvfylqdhdpg--rhlfvgqliqnvgpirafwskyyvpevvtqneryppycggggfllsrftaaalrraahvld  291 (372)
+                      |||+++|+++|..+...  ...|+|.......+.|.+.+|||++...|. +.||+|++|+||++|+++++.|+..+...+
+T Consensus       216 fvn~~~L~~~L~~~~~~~~~~~y~G~~~~~~~~~r~~~~k~~vp~~~~~-~~yP~y~~G~gyvlS~~l~~~l~~~~~~~~  294 (364)
+T 6WMM_B          216 FVNTHHILNYLNSLSKTKAKDLFIGDVIHNAGPHRDKKLKYYIPEVVYS-GLYPPYAGGGGFLYSGHLALRLYHITDQVH  294 (364)
+T ss_dssp             EECHHHHHHHHHTCCHHHHHTCEEEEEECSCCCBCCTTSTTBCCTTTCC-SCCCCEEEEEEEEEEHHHHHHHHHHHTTSC
+T ss_pred             EecHHHHHHHHHhcCcccCCCcEEEEEEeCccCccCCCCCccCCHHHcC-CCCCCcccccEEEEeHHHHHHHHHHhhcCC
+Confidence            99999999999987654  568999999999999999999999999998 789999999999999999999999998888
+
+
+Q ss_pred             ccccchhhhhHhhhhCCCCCCCCCCCCCCCCCCCCCCcCCCCcchhhhhhhhccCCcHHHHhhHhhhCCCCCCC
+Q sp|Q9Y2A9|B3GN  292 IFPIDDVFLGMCLELEGLKPASHSGIRTSGVRAPSQRLSSFDPCFYRDLLLVHRFLPYEMLLMWDALNQPNLTC  365 (372)
+Q Consensus       292 ifpiddvflgmcleleglkpashsgirtsgvrapsqrlssfdpcfyrdlllvhrflpyemllmwdalnqpnltc  365 (372)
+                      .++.|||++|+|+.++|+.+.++++|+.++....    ...++|.++..+++|+.+|++|..+|+.+.++++.|
+T Consensus       295 ~~~~eDv~iG~~l~~~gi~~~~~~~f~~~~~~~~----~~~~~c~~~~~i~vH~~sp~~m~~lw~~~~~~~~~c  364 (364)
+T 6WMM_B          295 LYPIDDVYTGMCLQKLGLVPEKHKGFRTFDIEEK----NKNNICSYVDLMLVHSRKPQEMIDIWSQLQSAHLKC  364 (364)
+T ss_dssp             CCSSHHHHHHHHHHHTTCCCEECTTEETTCCCGG----GTTCTHHHHTCSEEECCCHHHHHHHHHHHTTGGGTC
+T ss_pred             CCCHHHHHHHHHHHHcCCccccCCCceecccccc----ccCCCccccceEEEeCCCHHHHHHHHHHHhhcCCCC
+Confidence            8899999999999999999999999998877665    556789999999999999999999999999999988
+
+
+No 3
+>2J0A_A BETA-1,3-N-ACETYLGLUCOSAMINYLTRANSFERASE MANIC FRINGE (E.C.2.4.1.222); GLYCOSYLTRANSFERASE, DEVELOPMENTAL PROTEIN, TRANSMEMBRANE, GOLGI; 1.8A {MUS MUSCULUS}
+Probab=99.74  E-value=6.3e-17  Score=128.74  Aligned_cols=239  Identities=15%  Similarity=0.104  Sum_probs=168.6  Template_Neff=10.600
+
+Q ss_pred             CCEEEEEEecCCCCh-HHHHHHHHhhcCCccccCCCceEEEEEEcCCCCHHHHHHHHHHHHHHHhccCCceeeeCCCcc-
+Q sp|Q9Y2A9|B3GN  105 QPVFLLLVIKSSPSN-YVRRELLRRTWGRERKVRGLQLRLLFLVGTASNPHEARKVNRLLELEAQTHGDILQWDFHDSF-  182 (372)
+Q Consensus       105 qpvflllviksspsn-yvrrellrrtwgrerkvrglqlrllflvgtasnphearkvnrlleleaqthgdilqwdfhdsf-  182 (372)
+                      ....|+|+|.|+.++ .+||.+||+||++....     .++|+.+.. ...        +  +.....|+++.++.+.+ 
+T Consensus        11 ~~~~l~i~v~t~~~~~~~r~~~ir~tW~~~~~~-----~~~~~~~~~-~~~--------~--~~~~~~~i~~~~~~~~~~   74 (280)
+T 2J0A_A           11 QLGDIFIAVKTTWAFHRSRLDLLLDTWVSRIRQ-----QTFIFTDSP-DER--------L--QERLGPHLVVTQCSAEHS   74 (280)
+T ss_dssp             CGGGEEEEEECCGGGCCCCCHHHHHTGGGGSGG-----GEEEEESSC-CHH--------H--HHHHGGGEEECCC-----
+T ss_pred             ccccEEEEEEecHHHHHHHHHHHHHHHHHhCcc-----cEEEEECCC-CHH--------H--HHHHCCceeecCCCcccc
+Confidence            356799999999998 88999999999997642     356666654 332        2  22223589999988777 
+
+
+Q ss_pred             -ccccHHHHHHHHHHHhcCCceEEEEcCCCchhcCchhhHHHhhcCCCCCeEEEEeeecCCchhhhhhhhcCCCccccCC
+Q sp|Q9Y2A9|B3GN  183 -FNLTLKQVLFLQWQETRCANASFVLNGDDDVFAHTDNMVFYLQDHDPGRHLFVGQLIQNVGPIRAFWSKYYVPEVVTQN  261 (372)
+Q Consensus       183 -fnltlkqvlflqwqetrcanasfvlngdddvfahtdnmvfylqdhdpgrhlfvgqliqnvgpirafwskyyvpevvtqn  261 (372)
+                       .+++.|+...++|+.+  ++++|++++|||+||++++|.++|+.+++..++|+|......+..+..    ++++..+..
+T Consensus        75 ~~~~~~k~~~~~~~~~~--~~~~~~~~~DDD~~v~~~~L~~~L~~~~~~~~~~~G~~~~~~~~~~~~----~~~~~~~~~  148 (280)
+T 2J0A_A           75 HPALSCKMAAEFDAFLV--SGLRWFCHVDDDNYVNPKALLQLLKTFPQDRDVYVGKPSLNRPIHASE----LQSKQRTKL  148 (280)
+T ss_dssp             --CCCHHHHHHHHHHHH--HTCSEEEEEETTEEECHHHHHHHHTTSCTTSCCEEECEEC---------------------
+T ss_pred             cchHHHHHHHHHHHHHc--cCCceEEEECCCceeCHHHHHHHHhcCCCCCCEEeeccCCCCCccchh----hcccccccc
+Confidence             6777899999999998  799999999999999999999999998877889999987654443332    444555554
+
+
+Q ss_pred             CCCCCCCCCCcchhhHHHHHHHHHHHHhcccc-------ccchhhhhHhhh-hCCCCCCCCCCCCCC--CCCCCCCCcCC
+Q sp|Q9Y2A9|B3GN  262 ERYPPYCGGGGFLLSRFTAAALRRAAHVLDIF-------PIDDVFLGMCLE-LEGLKPASHSGIRTS--GVRAPSQRLSS  331 (372)
+Q Consensus       262 eryppycggggfllsrftaaalrraahvldif-------piddvflgmcle-leglkpashsgirts--gvrapsqrlss  331 (372)
+                      ..++++++|+||++|++++++|......+...       ..||+++|.|++ .+|+.+.+.++|+..  .....    ..
+T Consensus       149 ~~~~~~~gG~g~~lS~~~~~~l~~~~~~~~~~~~~~~~~~~~D~~lg~~l~~~~gv~~~~~~~f~~~~~~~~~~----~~  224 (280)
+T 2J0A_A          149 VRFWFATGGAGFCINRQLALKMVPWASGSHFVDTSALIRLPDDCTVGYIIECKLGGRLQPSPLFHSHLETLQLL----GA  224 (280)
+T ss_dssp             --CCEECGGGCEEEEHHHHHHHHHHHTTCTTSCCTTTTTSCHHHHHHHCCCCCTCCCEEECTTCCCSSSCGGGC----CT
+T ss_pred             eeeeccccccEEEEEHHHHHhhHHHhcCCCccccccccCCCccccHHHHHhhccCCCceeccccccchHHHHcc----Cc
+Confidence            56788889999999999999999877665442       379999999996 999999998888765  22221    11
+
+
+Q ss_pred             CCcchhhhhhhhcc-----------------CCcHHHHhhHhhhCCCCCCCCCCCC
+Q sp|Q9Y2A9|B3GN  332 FDPCFYRDLLLVHR-----------------FLPYEMLLMWDALNQPNLTCGNQTQ  370 (372)
+Q Consensus       332 fdpcfyrdlllvhr-----------------flpyemllmwdalnqpnltcgnqtq  370 (372)
+                      . .+.....+++|+                 .+|..++.+|..+......|++++.
+T Consensus       225 ~-~~~~~~~~~~h~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~  279 (280)
+T 2J0A_A          225 A-QLPEQVTLSYGVFEGKLNVIKLPGPFSHEEDPSRFRSLHCLLYPDTPWCPLLAA  279 (280)
+T ss_dssp             T-TGGGCSEEECEEETTEEECCCCCCSSCTTTCTTSHHHHHHHHCTTCTTCCCC--
+T ss_pred             c-cccccceecccccCCCccEEeCCCCCCCCCCCCcccchhHHhCCCCCcccccCC
+Confidence            1 222223445553                 4688899999999999999999874
+
+
+No 4
+>2J0B_A BETA-1,3-N-ACETYLGLUCOSAMINYLTRANSFERASE MANIC FRINGE (E.C.2.4.1.222); GLYCOSYLTRANSFERASE, DEVELOPMENTAL PROTEIN, TRANSMEMBRANE, GOLGI; HET: UDP; 2.1A {MUS MUSCULUS}
+Probab=99.74  E-value=6.3e-17  Score=128.74  Aligned_cols=239  Identities=15%  Similarity=0.104  Sum_probs=168.6  Template_Neff=10.600
+
+Q ss_pred             CCEEEEEEecCCCCh-HHHHHHHHhhcCCccccCCCceEEEEEEcCCCCHHHHHHHHHHHHHHHhccCCceeeeCCCcc-
+Q sp|Q9Y2A9|B3GN  105 QPVFLLLVIKSSPSN-YVRRELLRRTWGRERKVRGLQLRLLFLVGTASNPHEARKVNRLLELEAQTHGDILQWDFHDSF-  182 (372)
+Q Consensus       105 qpvflllviksspsn-yvrrellrrtwgrerkvrglqlrllflvgtasnphearkvnrlleleaqthgdilqwdfhdsf-  182 (372)
+                      ....|+|+|.|+.++ .+||.+||+||++....     .++|+.+.. ...        +  +.....|+++.++.+.+ 
+T Consensus        11 ~~~~l~i~v~t~~~~~~~r~~~ir~tW~~~~~~-----~~~~~~~~~-~~~--------~--~~~~~~~i~~~~~~~~~~   74 (280)
+T 2J0B_A           11 QLGDIFIAVKTTWAFHRSRLDLLLDTWVSRIRQ-----QTFIFTDSP-DER--------L--QERLGPHLVVTQCSAEHS   74 (280)
+T ss_dssp             CGGGEEEEEECCGGGCCCCCHHHHHTGGGGSGG-----GEEEEESSC-CHH--------H--HHHHGGGEEECCC-----
+T ss_pred             ccccEEEEEEecHHHHHHHHHHHHHHHHHhCcc-----cEEEEECCC-CHH--------H--HHHHCCceeecCCCcccc
+Confidence            356799999999998 88999999999997642     356666654 332        2  22223589999988777 
+
+
+Q ss_pred             -ccccHHHHHHHHHHHhcCCceEEEEcCCCchhcCchhhHHHhhcCCCCCeEEEEeeecCCchhhhhhhhcCCCccccCC
+Q sp|Q9Y2A9|B3GN  183 -FNLTLKQVLFLQWQETRCANASFVLNGDDDVFAHTDNMVFYLQDHDPGRHLFVGQLIQNVGPIRAFWSKYYVPEVVTQN  261 (372)
+Q Consensus       183 -fnltlkqvlflqwqetrcanasfvlngdddvfahtdnmvfylqdhdpgrhlfvgqliqnvgpirafwskyyvpevvtqn  261 (372)
+                       .+++.|+...++|+.+  ++++|++++|||+||++++|.++|+.+++..++|+|......+..+..    ++++..+..
+T Consensus        75 ~~~~~~k~~~~~~~~~~--~~~~~~~~~DDD~~v~~~~L~~~L~~~~~~~~~~~G~~~~~~~~~~~~----~~~~~~~~~  148 (280)
+T 2J0B_A           75 HPALSCKMAAEFDAFLV--SGLRWFCHVDDDNYVNPKALLQLLKTFPQDRDVYVGKPSLNRPIHASE----LQSKQRTKL  148 (280)
+T ss_dssp             --CCCHHHHHHHHHHHH--HTCSEEEEEETTEEECHHHHHHHHTTSCTTSCCEEECEEC---------------------
+T ss_pred             cchHHHHHHHHHHHHHc--cCCceEEEECCCceeCHHHHHHHHhcCCCCCCEEeeccCCCCCccchh----hcccccccc
+Confidence             6777899999999998  799999999999999999999999998877889999987654443332    444555554
+
+
+Q ss_pred             CCCCCCCCCCcchhhHHHHHHHHHHHHhcccc-------ccchhhhhHhhh-hCCCCCCCCCCCCCC--CCCCCCCCcCC
+Q sp|Q9Y2A9|B3GN  262 ERYPPYCGGGGFLLSRFTAAALRRAAHVLDIF-------PIDDVFLGMCLE-LEGLKPASHSGIRTS--GVRAPSQRLSS  331 (372)
+Q Consensus       262 eryppycggggfllsrftaaalrraahvldif-------piddvflgmcle-leglkpashsgirts--gvrapsqrlss  331 (372)
+                      ..++++++|+||++|++++++|......+...       ..||+++|.|++ .+|+.+.+.++|+..  .....    ..
+T Consensus       149 ~~~~~~~gG~g~~lS~~~~~~l~~~~~~~~~~~~~~~~~~~~D~~lg~~l~~~~gv~~~~~~~f~~~~~~~~~~----~~  224 (280)
+T 2J0B_A          149 VRFWFATGGAGFCINRQLALKMVPWASGSHFVDTSALIRLPDDCTVGYIIECKLGGRLQPSPLFHSHLETLQLL----GA  224 (280)
+T ss_dssp             --CCEECGGGCEEEEHHHHHHHHHHHTTCTTSCCTTTTTSCHHHHHHHCCCCCSCCCEEECTTCCCSSSCGGGC----CT
+T ss_pred             eeeeccccccEEEEEHHHHHhhHHHhcCCCccccccccCCCccccHHHHHhhccCCCceeccccccchHHHHcc----Cc
+Confidence            56788889999999999999999877665442       379999999996 999999998888765  22221    11
+
+
+Q ss_pred             CCcchhhhhhhhcc-----------------CCcHHHHhhHhhhCCCCCCCCCCCC
+Q sp|Q9Y2A9|B3GN  332 FDPCFYRDLLLVHR-----------------FLPYEMLLMWDALNQPNLTCGNQTQ  370 (372)
+Q Consensus       332 fdpcfyrdlllvhr-----------------flpyemllmwdalnqpnltcgnqtq  370 (372)
+                      . .+.....+++|+                 .+|..++.+|..+......|++++.
+T Consensus       225 ~-~~~~~~~~~~h~~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~~~~~~~  279 (280)
+T 2J0B_A          225 A-QLPEQVTLSYGVFEGKLNVIKLPGPFSHEEDPSRFRSLHCLLYPDTPWCPLLAA  279 (280)
+T ss_dssp             T-TGGGCSEEECEEETTEEECCCCCCSSCTTTCTTSHHHHHHHHCTTCTTCCCC--
+T ss_pred             c-cccccceecccccCCCccEEeCCCCCCCCCCCCcccchhHHhCCCCCcccccCC
+Confidence            1 222223445553                 4688899999999999999999874
+
+
+No 5
+>5Z8B_A KfiA protein; Glycosyltransferase, TRANSFERASE; 2.91A {Escherichia coli}
+Probab=23.80  E-value=2.6e+02  Score=22.14  Aligned_cols=112  Identities=14%  Similarity=0.002  Sum_probs=58.5  Template_Neff=11.600
+
+Q ss_pred             CceEEEEcCCCchhcCchhhHHHhhcCCCCC--eEEEEeee---cCCchhhhhhhhcCCCccccCCCCCCCCCCCCcchh
+Q sp|Q9Y2A9|B3GN  201 ANASFVLNGDDDVFAHTDNMVFYLQDHDPGR--HLFVGQLI---QNVGPIRAFWSKYYVPEVVTQNERYPPYCGGGGFLL  275 (372)
+Q Consensus       201 anasfvlngdddvfahtdnmvfylqdhdpgr--hlfvgqli---qnvgpirafwskyyvpevvtqneryppycggggfll  275 (372)
+                      ...+|++..|||..+..+-|..++..+....  ...+|...   .............+.............+.+|++.++
+T Consensus        74 ~~~~~v~~~D~D~~~~~~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  153 (242)
+T 5Z8B_A           74 AKNDMIVLTDDDIIYPPDYVEKMLNFYNSFAIFNCIVGIHGCIYIDAFDGDQSKRKVFSFTQGLLRPRVVNQLGTGTVFL  153 (242)
+T ss_dssp             CTTCEEEEECTTEECCTTHHHHHHHHHHHHTTSSEEEESSEEEEECCBTTBCCEEEEECSSSCBSSCEECSEECTTEEEE
+T ss_pred             CCCcEEEEecCCccCCchHHHHHHHHHHhcCCCCeEEEEeEEEEecCCCCccccceEEEcccccCCCeEEeecccceEEE
+Confidence            3789999999999988766666555433211  22332211   111000000000000000011011223457888899
+
+
+Q ss_pred             hHHHHHHHHHHHHhccccccchhhhhHhhhhCCCCCCCCC
+Q sp|Q9Y2A9|B3GN  276 SRFTAAALRRAAHVLDIFPIDDVFLGMCLELEGLKPASHS  315 (372)
+Q Consensus       276 srftaaalrraahvldifpiddvflgmcleleglkpashs  315 (372)
+                      .++++.....   .......||..++.-+.+.|.+....+
+T Consensus       154 r~~~~~~~g~---~~~~~~~eD~~~~~rl~~~g~~~~~~~  190 (242)
+T 5Z8B_A          154 KADQLPSLKY---MDGSQRFVDVRFSRYMLENEIGMICVP  190 (242)
+T ss_dssp             EGGGCCCHHH---HTTCTTSHHHHHHHHHHHTTCEEEECC
+T ss_pred             eHHHCCcccc---cCCCCChhHHHHHHHHHHCCCEEEEEc
+Confidence            9988877431   122336899999888888886554433
+
+
+No 6
+>5Z8B_B KfiA protein; Glycosyltransferase, TRANSFERASE; 2.91A {Escherichia coli}
+Probab=23.80  E-value=2.6e+02  Score=22.14  Aligned_cols=112  Identities=14%  Similarity=0.013  Sum_probs=58.1  Template_Neff=11.600
+
+Q ss_pred             CceEEEEcCCCchhcCchhhHHHhhcCCCCC--eEEEEee---ecCCchhhhhhhhcCCCccccCCCCCCCCCCCCcchh
+Q sp|Q9Y2A9|B3GN  201 ANASFVLNGDDDVFAHTDNMVFYLQDHDPGR--HLFVGQL---IQNVGPIRAFWSKYYVPEVVTQNERYPPYCGGGGFLL  275 (372)
+Q Consensus       201 anasfvlngdddvfahtdnmvfylqdhdpgr--hlfvgql---iqnvgpirafwskyyvpevvtqneryppycggggfll  275 (372)
+                      ...+|++..|||..+..+-|..++..+....  ...+|..   ..............+.............+.+|++.++
+T Consensus        74 ~~~~~v~~~D~D~~~~~~~l~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  153 (242)
+T 5Z8B_B           74 AKNDMIVLTDDDIIYPPDYVEKMLNFYNSFAIFNCIVGIHGCIYIDAFDGDQSKRKVFSFTQGLLRPRVVNQLGTGTVFL  153 (242)
+T ss_dssp             CTTCEEEEEETTEECCTTHHHHHHHHHHHHHTTTEEEESSEEEEECCCSSCCCEEEEECTTSCBSSCEEESEECTTEEEE
+T ss_pred             CCCcEEEEecCCccCCchHHHHHHHHHHhcCCCCeEEEEeEEEEecCCCCccccceEEEcccccCCCeEEeecccceEEE
+Confidence            3789999999999988766666555433211  1222221   1111000000000000000001011123457888899
+
+
+Q ss_pred             hHHHHHHHHHHHHhccccccchhhhhHhhhhCCCCCCCCC
+Q sp|Q9Y2A9|B3GN  276 SRFTAAALRRAAHVLDIFPIDDVFLGMCLELEGLKPASHS  315 (372)
+Q Consensus       276 srftaaalrraahvldifpiddvflgmcleleglkpashs  315 (372)
+                      .++++.....   .......||..++.-+.+.|.+....+
+T Consensus       154 r~~~~~~~g~---~~~~~~~eD~~~~~rl~~~g~~~~~~~  190 (242)
+T 5Z8B_B          154 KADQLPSLKY---MDGSQRFVDVRFSRYMLENEIGMICVP  190 (242)
+T ss_dssp             EGGGSCCHHH---HTTCTTCHHHHHHHHHHHTTCEEEECC
+T ss_pred             eHHHCCcccc---cCCCCChhHHHHHHHHHHCCCEEEEEc
+Confidence            9988877431   122336899999888888886554433
+
+
+No 7
+>4XGL_A Mitochondrial ribonuclease P protein 3; PPR domain, zinc binding domain; HET: GOL; 1.8A {Homo sapiens}
+Probab=20.16  E-value=1.2e+02  Score=26.89  Aligned_cols=10  Identities=40%  Similarity=1.019  Sum_probs=5.5  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHhc
+Q sp|Q9Y2A9|B3GN  190 VLFLQWQETR  199 (372)
+Q Consensus       190 vlflqwqetr  199 (372)
+                      ..+.+|...+
+T Consensus       311 ~~f~~W~~~~  320 (379)
+T 4XGL_A          311 RLFFKWQQGH  320 (379)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHhc
+Confidence            4455666554
+
+
+No 8
+>4XGM_A Mitochondrial ribonuclease P protein 3; PPR domain, zinc binding domain; HET: GOL; 1.98A {Homo sapiens}
+Probab=20.16  E-value=1.2e+02  Score=26.89  Aligned_cols=10  Identities=40%  Similarity=1.019  Sum_probs=5.8  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHhc
+Q sp|Q9Y2A9|B3GN  190 VLFLQWQETR  199 (372)
+Q Consensus       190 vlflqwqetr  199 (372)
+                      ..+.+|...+
+T Consensus       311 ~~f~~W~~~~  320 (379)
+T 4XGM_A          311 RLFFKWQQGH  320 (379)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHhc
+Confidence            4566666654
+
+
+No 9
+>6XI8_C Serine/threonine-protein kinase KIN28 (E.C.2.7.11.23), Cyclin; Polymerase CTD, TFIIH, Phosphorylation, Kinase; HET: TPO, ADP;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=16.60  E-value=2.6e+02  Score=21.11  Aligned_cols=29  Identities=17%  Similarity=0.119  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCcchhhHHHHHHHHHHHHhccccccchh
+Q sp|Q9Y2A9|B3GN  270 GGGFLLSRFTAAALRRAAHVLDIFPIDDV  298 (372)
+Q Consensus       270 gggfllsrftaaalrraahvldifpiddv  298 (372)
+                      +|||-...+-..||+.|---|.+|+-++.
+T Consensus        35 AGGy~~~~~~~RaL~~Af~GLg~~~~~e~   63 (63)
+T 6XI8_C           35 ASGFNTNYAYERVLTEAFMGLGCVISEEL   63 (63)
+T ss_pred             cCCccHHHHHHHHHHHHhhhcCcchhhcC
+
+
+No 10
+>1H7Q_A SPORE COAT POLYSACCHARIDE BIOSYNTHESIS PROTEIN; TRANSFERASE, GLYCOSYLTRANSFERASE; HET: TYD; 2.0A {BACILLUS SUBTILIS} SCOP: c.68.1.1
+Probab=13.65  E-value=6.8e+02  Score=18.84  Aligned_cols=128  Identities=9%  Similarity=-0.047  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             cCCceEEEEcCCCchhcCchhhHHHhhcC--CCCCeEEEEeeecCCchhhhhhhhcCCCccccCCCCCCCCCCCCcchhh
+Q sp|Q9Y2A9|B3GN  199 RCANASFVLNGDDDVFAHTDNMVFYLQDH--DPGRHLFVGQLIQNVGPIRAFWSKYYVPEVVTQNERYPPYCGGGGFLLS  276 (372)
+Q Consensus       199 rcanasfvlngdddvfahtdnmvfylqdh--dpgrhlfvgqliqnvgpirafwskyyvpevvtqneryppycggggflls  276 (372)
+                      +.+...+|+--|+|+....+...-.++..  +++.-+..+.....-..-...+....................|+++++.
+T Consensus        85 ~~~~~~~i~~~d~D~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  164 (255)
+T 1H7Q_A           85 EMAEGEYITYATDDNIYMPDRLLKMVRELDTHPEKAVIYSASKTYHLNENRDIVKETVRPAAQVTWNAPCAIDHCSVMHR  164 (255)
+T ss_dssp             HHCCCSEEEEEETTEEECTTHHHHHHHHHHHCTTCCEEEEEEEEEEEC---CEEEEEEECCCSCBSCCTTTSCGGGEEEE
+T ss_pred             HHcCCcEEEEccCcceeChhHHHHHHHHHHhCCCceeEEeecceeecCCCCcceeeeccchhHhcccccchHccccchhc
+
+
+Q ss_pred             HHHHHHH-----HHHHHhccccccchhhhhHhhhhCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9Y2A9|B3GN  277 RFTAAAL-----RRAAHVLDIFPIDDVFLGMCLELEGLKPASHSGIRTSGVRAPS  326 (372)
+Q Consensus       277 rftaaal-----rraahvldifpiddvflgmcleleglkpashsgirtsgvraps  326 (372)
+                      |-....+     ..-.......-.+|.-+.+.+...|-.-....++...-....+
+T Consensus       165 ~~~~~~~~~~~~~~~~~~~~~~~~~D~~~~~rl~~~~~~~~~~~~~~~~~~~~~~  219 (255)
+T 1H7Q_A          165 YSVLEKVKEKFGSYWDESPAFYRIGDARFFWRVNHFYPFYPLDEELDLNYITDQS  219 (255)
+T ss_dssp             HHHHHHHHHHHSSSSCCCGGGSTTHHHHHHHHHTTTCCBEEEEEEEEEEEEEC--
+T ss_pred             HHHHHHHHHHhcccccCCCcccccchHHHHHHHhccCceeecCCceehhhhcCCC
+
+

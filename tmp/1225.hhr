@@ -1,0 +1,169 @@
+Query         tr|Q5T593|Q5T593_HUMAN
+Match_columns 168
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:40:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1225.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4GDO_A Plectin; COILED-COIL, S  15.2 2.2E+02  0.0024   20.2   1.5   14   47-60     14-27  (43)
+  2 4GDO_D Plectin; COILED-COIL, S  15.2 2.2E+02  0.0024   20.2   1.5   14   47-60     14-27  (43)
+  3 3EGW_B OXIDOREDUCTASE, nitrate  14.8 1.1E+02  0.0012   28.5   0.1   13    5-17    454-466 (509)
+  4 1Q16_B Respiratory nitrate red  13.7 1.3E+02  0.0014   28.4   0.0   13    5-17    454-466 (512)
+  5 4F54_A Uncharacterized protein   8.0   3E+02  0.0033   20.6   0.3   26  132-157    59-84  (197)
+  6 4QXA_B Ras-related protein Rab   7.8 3.9E+02  0.0042   23.0   0.9   25   79-103    15-40  (180)
+  7 6Z1P_Bx Ribosomal protein L2,    7.4 3.9E+02  0.0042   28.1   0.9   37  109-145   395-431 (719)
+  8 2XA6_A KH DOMAIN-CONTAINING\,R   6.3      98  0.0011   17.2  -2.3    6    3-8      34-39  (41)
+  9 2VOY_G POTENTIAL COPPER-TRANSP   5.8 7.7E+02  0.0083   12.2   1.1   11   44-54      3-13  (36)
+ 10 1CQ4_A SERINE PROTEASE INHIBIT   5.4 9.6E+02    0.01   14.0   1.5   13   34-46     33-45  (47)
+
+No 1
+>4GDO_A Plectin; COILED-COIL, STRUCTURAL PROTEIN; 1.7A {Homo sapiens}
+Probab=15.22  E-value=2.2e+02  Score=20.19  Aligned_cols=14  Identities=50%  Similarity=0.700  Sum_probs=11.8  Template_Neff=3.300
+
+Q ss_pred             chhhhHHHHHHHhh
+Q tr|Q5T593|Q5T5   47 PLQVKLEKQRELAR   60 (168)
+Q Consensus        47 plqvklekqrelar   60 (168)
+                      -.|+.|+|||.||.
+T Consensus        14 e~qAeL~kqkqLae   27 (43)
+T 4GDO_A           14 EVEAALEKQRQLAE   27 (43)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            46889999999985
+
+
+No 2
+>4GDO_D Plectin; COILED-COIL, STRUCTURAL PROTEIN; 1.7A {Homo sapiens}
+Probab=15.22  E-value=2.2e+02  Score=20.19  Aligned_cols=14  Identities=50%  Similarity=0.700  Sum_probs=11.8  Template_Neff=3.300
+
+Q ss_pred             chhhhHHHHHHHhh
+Q tr|Q5T593|Q5T5   47 PLQVKLEKQRELAR   60 (168)
+Q Consensus        47 plqvklekqrelar   60 (168)
+                      -.|+.|+|||.||.
+T Consensus        14 e~qAeL~kqkqLae   27 (43)
+T 4GDO_D           14 EVEAALEKQRQLAE   27 (43)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            36889999999985
+
+
+No 3
+>3EGW_B OXIDOREDUCTASE, nitrate reduction, electron transfer; HET: SF4, HEM, MGD, 3PH, MD1, AGA, FME, F3S; 1.9A {Escherichia coli}
+Probab=14.76  E-value=1.1e+02  Score=28.54  Aligned_cols=13  Identities=54%  Similarity=1.037  Sum_probs=11.5  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|Q5T593|Q5T5    5 DRFQVPTAHSEMQ   17 (168)
+Q Consensus         5 drfqvptahsemq   17 (168)
+                      |||.|||+|.|..
+T Consensus       454 dRfviP~~~re~~  466 (509)
+T 3EGW_B          454 DRFVVPSSHRELA  466 (509)
+T ss_dssp             HHEECCCCCTTTT
+T ss_pred             HhccCCCchhhHH
+Confidence            7999999999864
+
+
+No 4
+>1Q16_B Respiratory nitrate reductase 1 alpha; membrane protein, electron-transfer, OXIDOREDUCTASE; HET: SF4, HEM, 3PH, MD1, AGA, FME; 1.9A {Escherichia coli} SCOP: d.58.1.5
+Probab=13.70  E-value=1.3e+02  Score=28.44  Aligned_cols=13  Identities=54%  Similarity=1.037  Sum_probs=11.5  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|Q5T593|Q5T5    5 DRFQVPTAHSEMQ   17 (168)
+Q Consensus         5 drfqvptahsemq   17 (168)
+                      |||.|||+|.|..
+T Consensus       454 dRfViP~~~re~~  466 (512)
+T 1Q16_B          454 DRFVVPSSHRELA  466 (512)
+T ss_dssp             HHEECCCCCTTTT
+T ss_pred             HhccCCCchhHHH
+Confidence            7999999999865
+
+
+No 5
+>4F54_A Uncharacterized protein; PF13590 family protein, DUF4136, Structural; HET: SO4, MLY, MSE; 1.6A {Bacteroides thetaiotaomicron}
+Probab=7.97  E-value=3e+02  Score=20.63  Aligned_cols=26  Identities=23%  Similarity=0.286  Sum_probs=17.9  Template_Neff=9.500
+
+Q ss_pred             hhhchhccchhccCCCCCCCCCCCCC
+Q tr|Q5T593|Q5T5  132 EQINQDLNIQLLKDGYRLDEIPDDED  157 (168)
+Q Consensus       132 eqinqdlniqllkdgyrldeipdded  157 (168)
+                      ++|.+.+.-+|.+.||+...-+.+.|
+T Consensus        59 ~~i~~~i~~~L~~kG~~~~~~~~~~D   84 (197)
+T 4F54_A           59 EQILAAYTENMEAKGYQPAADKESAD   84 (197)
+T ss_dssp             HHHHHHHHHHHHHTTCEECSSTTTCS
+T ss_pred             HHHHHHHHHHHHHcCCEECCCCCCCC
+Confidence            45666777888999998876433333
+
+
+No 6
+>4QXA_B Ras-related protein Rab-9A, Small G; PH domain, Rab9A, RUTBC2, Rab; HET: GTP; 2.3A {Mus musculus}
+Probab=7.84  E-value=3.9e+02  Score=22.96  Aligned_cols=25  Identities=44%  Similarity=0.597  Sum_probs=17.1  Template_Neff=5.200
+
+Q ss_pred             CCCCCCCCC-CCCCCCCCCCCCCCCC
+Q tr|Q5T593|Q5T5   79 KNNVMARTR-LVVPNKGYSSLDQSPD  103 (168)
+Q Consensus        79 knnvmartr-lvvpnkgyssldqspd  103 (168)
+                      ||||....+ -..+.+||-||-|+++
+T Consensus        15 KNNVlvqp~~~~~~~~GYLSLHq~~~   40 (180)
+T 4QXA_B           15 KNNVLVQPRDDMEAVPGYLSLHQTAD   40 (180)
+T ss_dssp             EEEEEECSSSSSCCEEEEEEEEESSS
+T ss_pred             eccEEeCCcCCCcCCCCcceeeecCC
+Confidence            667655543 3346789999998876
+
+
+No 7
+>6Z1P_Bx Ribosomal protein L2, 50S ribosomal; Mitochondrial ribosome, ribosome, mitochondria, ciliate; HET: ATP, MG; 3.7A {Tetrahymena thermophila (strain SB210)}
+Probab=7.42  E-value=3.9e+02  Score=28.06  Aligned_cols=37  Identities=32%  Similarity=0.398  Sum_probs=30.8  Template_Neff=1.700
+
+Q ss_pred             CCCCCCCCCCCCCcCCCCCCCChhhhchhccchhccC
+Q tr|Q5T593|Q5T5  109 ALDTDSDDDFDMSRYSSSGYSSAEQINQDLNIQLLKD  145 (168)
+Q Consensus       109 aldtdsdddfdmsrysssgyssaeqinqdlniqllkd  145 (168)
+                      -+|.++|+..||+.|..-|....++-|..+.-+|.+-
+T Consensus       395 ~~dl~~dee~d~~~~e~~~l~~~~~qn~~~~~~l~~~  431 (719)
+T 6Z1P_Bx         395 EEDLDSDEEADMSEDEDVGLTDNKAQNDELEQQLCSV  431 (719)
+T ss_pred             ccCCCchhhhcccHhhcccccchhHhchHHHHhheee
+Confidence            3677889999999999999998888888887777653
+
+
+No 8
+>2XA6_A KH DOMAIN-CONTAINING\,RNA-BINDING\,SIGNAL TRANSDUCTION-ASSOCIATED PROTEIN 1; TRANSCRIPTION, STAR PROTEINS, CD44, CELL; NMR {HOMO SAPIENS}
+Probab=6.30  E-value=98  Score=17.25  Aligned_cols=6  Identities=50%  Similarity=0.927  Sum_probs=2.8  Template_Neff=9.400
+
+Q ss_pred             CCCCCC
+Q tr|Q5T593|Q5T5    3 EIDRFQ    8 (168)
+Q Consensus         3 eidrfq    8 (168)
+                      ||+|||
+T Consensus        34 EIek~q   39 (41)
+T 2XA6_A           34 EIEKIQ   39 (41)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHh
+Confidence            455543
+
+
+No 9
+>2VOY_G POTENTIAL COPPER-TRANSPORTING ATPASE (E.C.3.6.3.4), SARCOPLASMIC/ENDOPLASMIC; HYDROLASEP-TYPE ATPASE, CRYO-EM, HELICAL RECONSTRUCTION; HET: MSE; 18.0A {ORYCTOLAGUS CUNICULUS}
+Probab=5.84  E-value=7.7e+02  Score=12.24  Aligned_cols=11  Identities=45%  Similarity=0.767  Sum_probs=7.2  Template_Neff=10.600
+
+Q ss_pred             CCCchhhhHHH
+Q tr|Q5T593|Q5T5   44 KPSPLQVKLEK   54 (168)
+Q Consensus        44 kpsplqvklek   54 (168)
+                      .++|+|.++++
+T Consensus         3 ~~tpl~~~~~~   13 (36)
+T 2VOY_G            3 DKTPLQQKLDE   13 (36)
+T ss_dssp             CCCHHHHHHHH
+T ss_pred             CCCHHHHHHHH
+Confidence            35777777654
+
+
+No 10
+>1CQ4_A SERINE PROTEASE INHIBITOR, POLYGLUTAMINE INSERTION; 1.8A {Hordeum vulgare} SCOP: d.40.1.1
+Probab=5.39  E-value=9.6e+02  Score=13.97  Aligned_cols=13  Identities=23%  Similarity=0.268  Sum_probs=3.6  Template_Neff=9.000
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|Q5T593|Q5T5   34 REGESVAMNYKPS   46 (168)
+Q Consensus        34 regesvamnykps   46 (168)
+                      .+|..+.|.|.|.
+T Consensus        33 ~~g~~~t~d~~~~   45 (47)
+T 1CQ4_A           33 PVGTIVTMGQQQQ   45 (47)
+T ss_dssp             ETTCCC-------
+T ss_pred             CCCCcCCCCCCCC
+Confidence            3566777777765
+
+

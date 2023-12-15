@@ -1,0 +1,162 @@
+Query         tr|F8VV57|F8VV57_HUMAN
+Match_columns 132
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:37:02 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1170.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7CLI_A DNA-protein complex, tr  40.1      74 0.00081   28.1   3.5    8   83-90    346-353 (398)
+  2 7VUP_B DNA-protein complex, tr  40.1      74 0.00081   28.1   3.5    8   83-90    346-353 (398)
+  3 7VUQ_B DNA-protein complex, tr  40.1      74 0.00081   28.1   3.5    8   83-90    346-353 (398)
+  4 4ZN6_A 1-deoxy-D-xylulose 5-ph  15.6 1.7E+02  0.0019   26.1   1.3   15   72-86    187-201 (406)
+  5 7S04_A isoprenoid biosynthesis  15.6 1.7E+02  0.0019   26.1   1.3   15   72-86    187-201 (406)
+  6 6GRH_A Bacteriocin microcin B1  14.8 1.7E+02  0.0018   21.2   0.9   27   21-47     21-47  (52)
+  7 1Q0H_A 1-deoxy-D-xylulose 5-ph  14.2   2E+02  0.0021   25.8   1.3   15   72-86    187-201 (406)
+  8 1Q0Q_B 1-deoxy-D-xylulose 5-ph  14.2   2E+02  0.0021   25.8   1.3   15   72-86    187-201 (406)
+  9 4KBL_A E3 ubiquitin-protein li  13.7 8.6E+02  0.0093   21.2   4.7   42   90-131    53-94  (559)
+ 10 6TRP_A Peptide synthetase XpsB  12.7 5.7E+02  0.0062   20.4   3.2   29   95-123    31-59  (93)
+
+No 1
+>7CLI_A DNA-protein complex, transcription factor, TRANSCRIPTION; 3.0A {Homo sapiens}
+Probab=40.07  E-value=74  Score=28.06  Aligned_cols=8  Identities=50%  Similarity=1.136  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCC
+Q tr|F8VV57|F8VV   83 FRNRFGAG   90 (132)
+Q Consensus        83 frnrfgag   90 (132)
+                      |.+.|+.+
+T Consensus       346 ~~~~~~~~  353 (398)
+T 7CLI_A          346 FSQPFGGG  353 (398)
+T ss_dssp             --------
+T ss_pred             cCCCCCCC
+Confidence            44455543
+
+
+No 2
+>7VUP_B DNA-protein complex, transcription factor, TRANSCRIPTION; 3.4A {Homo sapiens}
+Probab=40.07  E-value=74  Score=28.06  Aligned_cols=8  Identities=50%  Similarity=1.136  Sum_probs=1.4  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCC
+Q tr|F8VV57|F8VV   83 FRNRFGAG   90 (132)
+Q Consensus        83 frnrfgag   90 (132)
+                      |.+.|+.+
+T Consensus       346 ~~~~~~~~  353 (398)
+T 7VUP_B          346 FSQPFGGG  353 (398)
+T ss_dssp             -----SCS
+T ss_pred             cCCCCCCC
+Confidence            44455543
+
+
+No 3
+>7VUQ_B DNA-protein complex, transcription factor, TRANSCRIPTION; 3.1A {Homo sapiens}
+Probab=40.07  E-value=74  Score=28.06  Aligned_cols=8  Identities=50%  Similarity=1.136  Sum_probs=1.4  Template_Neff=6.600
+
+Q ss_pred             CCCCCCCC
+Q tr|F8VV57|F8VV   83 FRNRFGAG   90 (132)
+Q Consensus        83 frnrfgag   90 (132)
+                      |.+.|+.+
+T Consensus       346 ~~~~~~~~  353 (398)
+T 7VUQ_B          346 FSQPFGGG  353 (398)
+T ss_dssp             -----SCS
+T ss_pred             cCCCCCCC
+Confidence            44455543
+
+
+No 4
+>4ZN6_A 1-deoxy-D-xylulose 5-phosphate reductoisomerase (E.C.1.1.1.267); SSGCID, IspC, 1-deoxy-D-xylulose 5-phosphate reductoisomerase; HET: SO4; 2.05A {Acinetobacter baumannii (strain AB307-0294)}
+Probab=15.62  E-value=1.7e+02  Score=26.15  Aligned_cols=15  Identities=40%  Similarity=0.769  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CceeeeCCCCCCCCC
+Q tr|F8VV57|F8VV   72 KRISISTSGGSFRNR   86 (132)
+Q Consensus        72 krisistsggsfrnr   86 (132)
+                      ++|.|..|||.||++
+T Consensus       187 ~ki~lTaSGGpf~~~  201 (406)
+T 4ZN6_A          187 SKILLTASGGPFLNH  201 (406)
+T ss_dssp             EEEEEEECCCTTTTC
+T ss_pred             EEEEEEecCCCccCC
+
+
+No 5
+>7S04_A isoprenoid biosynthesis, inhibitor, complex, OXIDOREDUCTASE-INHIBITOR; HET: NDP, F98; 2.52A {Acinetobacter baumannii}
+Probab=15.62  E-value=1.7e+02  Score=26.15  Aligned_cols=15  Identities=40%  Similarity=0.769  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CceeeeCCCCCCCCC
+Q tr|F8VV57|F8VV   72 KRISISTSGGSFRNR   86 (132)
+Q Consensus        72 krisistsggsfrnr   86 (132)
+                      ++|.|..|||.||++
+T Consensus       187 ~ki~lTaSGGpf~~~  201 (406)
+T 7S04_A          187 SKILLTASGGPFLNH  201 (406)
+T ss_dssp             EEEEEEECCCTTTTC
+T ss_pred             EEEEEEecCCCccCC
+
+
+No 6
+>6GRH_A Bacteriocin microcin B17, Microcin B17-processing; microcin, DNA gyrase, heterocyclization, posttranslational; HET: EDO, OTZ, FMN; 1.85A {Escherichia coli str. K-12 substr. MG1655}
+Probab=14.78  E-value=1.7e+02  Score=21.16  Aligned_cols=27  Identities=44%  Similarity=0.567  Sum_probs=0.0  Template_Neff=1.500
+
+Q ss_pred             CccCCCCCCcceeeccCCCCCCCCCCC
+Q tr|F8VV57|F8VV   21 SAITPSVSRTSFTSVSRSGGGGGGGFG   47 (132)
+Q Consensus        21 saitpsvsrtsftsvsrsgggggggfg   47 (132)
+                      +.+++..|+.|--.|--.+|+|+|+=|
+T Consensus        21 sVd~~rls~~SP~~~gigGGgGGGgGG   47 (52)
+T 6GRH_A           21 SVDALKLSRQSPLGVGIGGGGGGGGGX   47 (52)
+T ss_pred             EeehhhccCCCCCcEEecCCCCCCCCC
+
+
+No 7
+>1Q0H_A 1-deoxy-D-xylulose 5-phosphate reductoisomerase (E.C.1.1.1.267); OXIDOREDUCTASE; HET: NDP, FOM, CIT, MSE; 2.2A {Escherichia coli} SCOP: d.81.1.3, a.69.3.1, c.2.1.3
+Probab=14.23  E-value=2e+02  Score=25.82  Aligned_cols=15  Identities=40%  Similarity=0.698  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CceeeeCCCCCCCCC
+Q tr|F8VV57|F8VV   72 KRISISTSGGSFRNR   86 (132)
+Q Consensus        72 krisistsggsfrnr   86 (132)
+                      ++|-|..|||.||++
+T Consensus       187 ~ki~lTaSGGpf~~~  201 (406)
+T 1Q0H_A          187 VSILLTGSGGPFRET  201 (406)
+T ss_dssp             EEEEEEECCCTTTTS
+T ss_pred             eEEEEEecCCCcccC
+
+
+No 8
+>1Q0Q_B 1-deoxy-D-xylulose 5-phosphate reductoisomerase (E.C.1.1.1.267); OXIDOREDUCTASE; HET: NDP, DXP; 1.9A {Escherichia coli} SCOP: d.81.1.3, a.69.3.1, c.2.1.3
+Probab=14.23  E-value=2e+02  Score=25.82  Aligned_cols=15  Identities=40%  Similarity=0.698  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CceeeeCCCCCCCCC
+Q tr|F8VV57|F8VV   72 KRISISTSGGSFRNR   86 (132)
+Q Consensus        72 krisistsggsfrnr   86 (132)
+                      ++|-|..|||.||++
+T Consensus       187 ~ki~lTaSGGpf~~~  201 (406)
+T 1Q0Q_B          187 VSILLTGSGGPFRET  201 (406)
+T ss_dssp             EEEEEEECCCTTSSS
+T ss_pred             eEEEEEecCCCcccC
+
+
+No 9
+>4KBL_A E3 ubiquitin-protein ligase ARIH1 (E.C.6.3.2.-); RING-IBR-RING, E3 ubiquitin ligase, LIGASE; HET: ZN; 3.3A {Homo sapiens}
+Probab=13.66  E-value=8.6e+02  Score=21.16  Aligned_cols=42  Identities=50%  Similarity=0.722  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8VV57|F8VV   90 GAGGGYGFGGGAGSGFGFGGGAGGGFGLGGGAGFGGGFGGPG  131 (132)
+Q Consensus        90 gagggygfgggagsgfgfgggagggfglgggagfgggfggpg  131 (132)
+                      +.+.+-.-.+.+..+.+-+++.+.+-+-+++.+-+++-++|+
+T Consensus        53 ~~~~~~~~~~~~~g~~~~~~~~~~g~~~~~~~~~~~~~~~~~   94 (559)
+T 4KBL_A           53 GLGVGGERDGLLCGETGGGGGSALGPGGGGGGGGGGGGGGPG   94 (559)
+T ss_dssp             ------------------------------------------
+T ss_pred             CCcCCCccccccCCCCCCCCccCCCCCCCCCCCCCCCCCCCC
+
+
+No 10
+>6TRP_A Peptide synthetase XpsB (E.C.2.7.7.58,5.1.1.12); Protein, NRPS, Docking Domains, Communication-Mediating; NMR {Xenorhabdus bovienii SS-2004}
+Probab=12.69  E-value=5.7e+02  Score=20.41  Aligned_cols=29  Identities=48%  Similarity=1.020  Sum_probs=0.0  Template_Neff=2.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|F8VV57|F8VV   95 YGFGGGAGSGFGFGGGAGGGFGLGGGAGF  123 (132)
+Q Consensus        95 ygfgggagsgfgfgggagggfglgggagf  123 (132)
+                      ...+.|.++|-|-|-|.+-|.|-|.+.++
+T Consensus        31 ~~~gsgsgsGsGsGsgsgsgsgsgsgsg~   59 (93)
+T 6TRP_A           31 EKYGSGSGSGSGSGSGSGSGSGSGSGSGY   59 (93)
+T ss_dssp             CCCCCCCCCCCCCCSSCCCCCCCCCCCCS
+T ss_pred             CCCCCCCCCCCCCCCCCccccCCCCCCCc
+
+

@@ -1,0 +1,273 @@
+Query         tr|J3QRP2|J3QRP2_HUMAN
+Match_columns 140
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 02:17:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1311.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7E6T_A G-protein-coupled recep  72.6      12 0.00013   31.3   3.9   81   24-104   780-861 (862)
+  2 5TFY_D Flagellin; cell motilit  62.6      15 0.00017   25.8   2.4   18   32-49      2-19  (164)
+  3 5TFY_I Flagellin; cell motilit  62.6      15 0.00017   25.8   2.4   18   32-49      2-19  (164)
+  4 5KOM_B Putative fluoride ion t  59.0      68 0.00074   23.7   5.2   15   77-91    120-134 (147)
+  5 5O4U_N Flagellin; archaellar f  56.6      26 0.00028   25.8   2.8   20   30-49      5-24  (212)
+  6 7OFQ_B Archaellum, archaellin,  51.5 1.6E+02  0.0017   22.0   6.8   18   32-49      2-19  (213)
+  7 7OFQ_g Archaellum, archaellin,  49.5      32 0.00035   25.4   2.4   18   32-49      2-19  (209)
+  8 7D3U_G Monovalent Na+/H+ antip  48.6      57 0.00062   24.5   3.5   19   53-71     66-84  (125)
+  9 5Z1L_R Flagellin; Archaellum,   45.1      47 0.00051   24.6   2.6   20   29-48     11-30  (211)
+ 10 4HKR_B Calcium release-activat  26.9   6E+02  0.0065   21.3   7.0   54   32-85    120-179 (214)
+ 11 5MG3_G Protein translocase sub  26.4 1.8E+02   0.002   22.9   3.2   20   33-52     83-102 (136)
+ 12 2AKI_A Protein-export membrane  26.0 1.9E+02  0.0021   19.6   3.0   20   32-51     56-75  (77)
+ 13 2AKI_X Protein-export membrane  26.0 1.9E+02  0.0021   19.6   3.0   20   32-51     56-75  (77)
+ 14 3DIN_H Protein translocase sub  23.6 2.3E+02  0.0025   19.2   3.0   19   32-50     56-74  (76)
+ 15 4P6V_E NqrA, NqrB, NqrC, NqrD,  23.2 5.5E+02  0.0059   19.5   5.4   38   35-72    146-193 (198)
+ 16 7B0N_Y NADH:Ubiquinone Oxidore  21.4 4.8E+02  0.0052   19.2   4.4   21   31-51     52-72  (180)
+
+No 1
+>7E6T_A G-protein-coupled receptor (GPCR)  Calcium-sensing; HET: TCR, NAG, PO4; 3.0A {Homo sapiens}
+Probab=72.56  E-value=12  Score=31.34  Aligned_cols=81  Identities=20%  Similarity=0.173  Sum_probs=35.2  Template_Neff=11.200
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHhc-CCCChHHHHHHHHHHHHHHHHHHHHHHHHHhhhhccccchchhhhhccCCCC
+Q tr|J3QRP2|J3QR   24 WNLTDLVNTGLSAFLFFIASIVLAALN-HRAGAEIAAVIFGFLATAAYAVNTFLAVQKWRVSVRQQSTNDYIRARTESRD  102 (140)
+Q Consensus        24 wnltdlvntglsaflffiasivlaaln-hragaeiaavifgflataayavntflavqkwrvsvrqqstndyirartesrd  102 (140)
+                      .|..+-...+++.+.+++..++..... ...+.....++...+...++.+-.++-+.|.++-..+.+.|..-.+-++..|
+T Consensus       780 ~~~~e~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~pk~~~i~~~~~~~~~~~~~~~~~~  859 (862)
+T 7E6T_A          780 ENFNEAKFITFSMLIFFIVWISFIPAYASTYGKFVSAVEVIAILAASFGLLACIFFNKIYIILFKPSRNTIEAAADYKDD  859 (862)
+T ss_dssp             CTTTHHHHHHHHHHHHHHHHHHSHHHHHSCGGGCHHHHHHHHHHHHHHHHHHHHTTTTTTSCC-----------------
+T ss_pred             CCcChhHHHHHHHHHHHHHHHHHHHHHHccCChHHHHHHHHHHHHHHHHHHHHHHHhCEEEEEeccCcchHHHHHhhccc
+Confidence            344455556666666666665444332 1122222233334445667777778888898888777666665555555444
+
+
+Q ss_pred             CC
+Q tr|J3QRP2|J3QR  103 VD  104 (140)
+Q Consensus       103 vd  104 (140)
+                      +|
+T Consensus       860 ~~  861 (862)
+T 7E6T_A          860 DD  861 (862)
+T ss_dssp             --
+T ss_pred             CC
+Confidence            43
+
+
+No 2
+>5TFY_D Flagellin; cell motility and adhesion, CELL; 3.4A {Methanospirillum hungatei JF-1 (strain ATCC 27890 / DSM 864 / NBRC 100397 / JF-1)}
+Probab=62.63  E-value=15  Score=25.82  Aligned_cols=18  Identities=44%  Similarity=0.663  Sum_probs=15.5  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHh
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAAL   49 (140)
+Q Consensus        32 tglsaflffiasivlaal   49 (140)
+                      +|+++.++|||.++.|++
+T Consensus         2 ~Gi~~~Ii~Ia~ilva~~   19 (164)
+T 5TFY_D            2 SGLEAAIVLIAFVVVAAV   19 (164)
+T ss_dssp             CHHHHHHHHHHHHHHHHH
+T ss_pred             CcHHHHHHHHHHHHHHHH
+Confidence            589999999999998764
+
+
+No 3
+>5TFY_I Flagellin; cell motility and adhesion, CELL; 3.4A {Methanospirillum hungatei JF-1 (strain ATCC 27890 / DSM 864 / NBRC 100397 / JF-1)}
+Probab=62.63  E-value=15  Score=25.82  Aligned_cols=18  Identities=44%  Similarity=0.663  Sum_probs=15.5  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHh
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAAL   49 (140)
+Q Consensus        32 tglsaflffiasivlaal   49 (140)
+                      +|+++.++|||.++.|++
+T Consensus         2 ~Gi~~~Ii~Ia~ilva~~   19 (164)
+T 5TFY_I            2 SGLEAAIVLIAFVVVAAV   19 (164)
+T ss_dssp             CHHHHHHHHHHHHHHHHH
+T ss_pred             CcHHHHHHHHHHHHHHHH
+Confidence            589999999999998764
+
+
+No 4
+>5KOM_B Putative fluoride ion transporter CrcB; alpha helix, ion channel, membrane; HET: DMU; 2.69A {Escherichia coli}
+Probab=59.03  E-value=68  Score=23.65  Aligned_cols=15  Identities=0%  Similarity=-0.090  Sum_probs=2.6  Template_Neff=7.900
+
+Q ss_pred             HHHHhhhhccccchc
+Q tr|J3QRP2|J3QR   77 AVQKWRVSVRQQSTN   91 (140)
+Q Consensus        77 avqkwrvsvrqqstn   91 (140)
+                      ..+.|.-..+.+.++
+T Consensus       120 ~~~~~~~~~~~~~~~  134 (147)
+T 5KOM_B          120 IITILFATRGKAASL  134 (147)
+T ss_dssp             HHHHHC---------
+T ss_pred             HHHHHHhhcccccCC
+Confidence            344444444443333
+
+
+No 5
+>5O4U_N Flagellin; archaellar flagellum glycoprotein helical filament;{Pyrococcus furiosus DSM 3638}
+Probab=56.56  E-value=26  Score=25.85  Aligned_cols=20  Identities=30%  Similarity=0.617  Sum_probs=16.2  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHh
+Q tr|J3QRP2|J3QR   30 VNTGLSAFLFFIASIVLAAL   49 (140)
+Q Consensus        30 vntglsaflffiasivlaal   49 (140)
+                      -.+|+++.++|||.++.|++
+T Consensus         5 g~~gi~~~I~~Ia~ilvaa~   24 (212)
+T 5O4U_N            5 GAVGIGTLIVFIAMVLVAAV   24 (212)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHH
+T ss_pred             chhHHHHHHHHHHHHHHHHH
+Confidence            35799999999999998753
+
+
+No 6
+>7OFQ_B Archaellum, archaellin, Methanocaldococcus villosus, cryoEM; HET: UNL, CA; 3.08A {Methanocaldococcus villosus}
+Probab=51.52  E-value=1.6e+02  Score=21.98  Aligned_cols=18  Identities=33%  Similarity=0.757  Sum_probs=15.3  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHh
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAAL   49 (140)
+Q Consensus        32 tglsaflffiasivlaal   49 (140)
+                      .|++..++|||.|+.|+.
+T Consensus         2 ~Gi~~~Ii~IA~vlvAav   19 (213)
+T 7OFQ_B            2 IGIGTLIIFIAMVLVAAV   19 (213)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             CcHHHHHHHHHHHHHHHH
+Confidence            589999999999988764
+
+
+No 7
+>7OFQ_g Archaellum, archaellin, Methanocaldococcus villosus, cryoEM; HET: UNL, CA; 3.08A {Methanocaldococcus villosus}
+Probab=49.53  E-value=32  Score=25.43  Aligned_cols=18  Identities=33%  Similarity=0.757  Sum_probs=14.7  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHh
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAAL   49 (140)
+Q Consensus        32 tglsaflffiasivlaal   49 (140)
+                      +|+++.++|||.|+.|+.
+T Consensus         2 ~gi~~~Ii~Ia~ilvAav   19 (209)
+T 7OFQ_g            2 IGIGTLIIFIAMVLVAAV   19 (209)
+T ss_pred             CcHHHHHHHHHHHHHHHH
+Confidence            688899999998887754
+
+
+No 8
+>7D3U_G Monovalent Na+/H+ antiporter subunit D; Sodium/proton antiporter, MEMBRANE PROTEIN; HET: LMT;{Dietzia sp. DQ12-45-1b}
+Probab=48.60  E-value=57  Score=24.51  Aligned_cols=19  Identities=21%  Similarity=0.221  Sum_probs=9.7  Template_Neff=6.600
+
+Q ss_pred             CChHHHHHHHHHHHHHHHH
+Q tr|J3QRP2|J3QR   53 AGAEIAAVIFGFLATAAYA   71 (140)
+Q Consensus        53 agaeiaavifgflataaya   71 (140)
+                      ...++..+++.++.+...+
+T Consensus        66 ~~~k~lli~~~l~it~Pv~   84 (125)
+T 7D3U_G           66 AAPKVAVAAILQFASSAIG   84 (125)
+T ss_dssp             SSHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHH
+Confidence            4455555555555554443
+
+
+No 9
+>5Z1L_R Flagellin; Archaellum, archea, flagellum, metal binding;{Methanococcus maripaludis (strain S2 / LL)}
+Probab=45.11  E-value=47  Score=24.56  Aligned_cols=20  Identities=30%  Similarity=0.577  Sum_probs=15.6  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHH
+Q tr|J3QRP2|J3QR   29 LVNTGLSAFLFFIASIVLAA   48 (140)
+Q Consensus        29 lvntglsaflffiasivlaa   48 (140)
+                      --.+|+++.++||+.++.|+
+T Consensus        11 ~g~~gi~~~IilIa~ilvaa   30 (211)
+T 5Z1L_R           11 KGASGIGTLIVFIAMVLVAA   30 (211)
+T ss_dssp             --CCCCHHHHHHHHHHHHHH
+T ss_pred             cccchHHHHHHHHHHHHHHH
+Confidence            34578899999999998876
+
+
+No 10
+>4HKR_B Calcium release-activated calcium channel protein; calcium channel, Orai1, eukaryotic membrane; 3.3511A {Drosophila melanogaster}
+Probab=26.93  E-value=6e+02  Score=21.29  Aligned_cols=54  Identities=19%  Similarity=0.297  Sum_probs=27.9  Template_Neff=6.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhcCCC---ChHHH-HHHH--HHHHHHHHHHHHHHHHHHhhhhc
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAALNHRA---GAEIA-AVIF--GFLATAAYAVNTFLAVQKWRVSV   85 (140)
+Q Consensus        32 tglsaflffiasivlaalnhra---gaeia-avif--gflataayavntflavqkwrvsv   85 (140)
+                      ++++.++|++..+.++-+....   .+-++ .+|.  ..+....|++-.+....+|+...
+T Consensus       120 f~~Gi~lFl~~~~l~~WIkF~~~~~~aai~~tvi~~p~~l~f~~f~~~~yr~l~~~~~~~  179 (214)
+T 4HKR_B          120 TLLGLILFLLEIAILCWVKFYDLSRRAAWSATVVLIPVMIIFMAFAIHFYRSLVSHKYEV  179 (214)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTTTCHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHSCHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHcccchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccC
+Confidence            6677777777777777665553   22222 2221  11234445555555555555444
+
+
+No 11
+>5MG3_G Protein translocase subunit SecY, Protein; holotranslocon, membrane protein insertion machinery; 14.0A {Escherichia coli}
+Probab=26.35  E-value=1.8e+02  Score=22.89  Aligned_cols=20  Identities=50%  Similarity=0.718  Sum_probs=10.6  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHhcCC
+Q tr|J3QRP2|J3QR   33 GLSAFLFFIASIVLAALNHR   52 (140)
+Q Consensus        33 glsaflffiasivlaalnhr   52 (140)
+                      ...+++||+.+++++.++.+
+T Consensus        83 ~ilailF~v~sl~l~~l~~~  102 (136)
+T 5MG3_G           83 ALLATLFFIISLVLGNINSN  102 (136)
+T ss_pred             HHHHHHHHHHHHHHHHHhcC
+Confidence            34455556666655555443
+
+
+No 12
+>2AKI_A Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=26.03  E-value=1.9e+02  Score=19.63  Aligned_cols=20  Identities=55%  Similarity=0.755  Sum_probs=13.5  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhcC
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAALNH   51 (140)
+Q Consensus        32 tglsaflffiasivlaalnh   51 (140)
+                      |-..+.+|++.+++++.+..
+T Consensus        56 T~~l~~~F~v~~l~l~~~~~   75 (77)
+T 2AKI_A           56 TALLATLFFIISLVLGNINS   75 (77)
+T ss_pred             HHHHHHHHHHHHHHHHHHhc
+Confidence            34556778888887776654
+
+
+No 13
+>2AKI_X Protein-export membrane protein secG, Preprotein; Protein transport, Translocation, Transmembrane, Transport; 14.9A {Escherichia coli}
+Probab=26.03  E-value=1.9e+02  Score=19.63  Aligned_cols=20  Identities=55%  Similarity=0.755  Sum_probs=13.5  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhcC
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAALNH   51 (140)
+Q Consensus        32 tglsaflffiasivlaalnh   51 (140)
+                      |-..+.+|++.+++++.+..
+T Consensus        56 T~~l~~~F~v~~l~l~~~~~   75 (77)
+T 2AKI_X           56 TALLATLFFIISLVLGNINS   75 (77)
+T ss_pred             HHHHHHHHHHHHHHHHHHhc
+Confidence            34556778888887776654
+
+
+No 14
+>3DIN_H Protein translocase subunit secA, Preprotein; protein translocation, membrane protein, ATPase; HET: ADP; 4.5A {Thermotoga maritima MSB8}
+Probab=23.56  E-value=2.3e+02  Score=19.20  Aligned_cols=19  Identities=32%  Similarity=0.446  Sum_probs=14.2  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhc
+Q tr|J3QRP2|J3QR   32 TGLSAFLFFIASIVLAALN   50 (140)
+Q Consensus        32 tglsaflffiasivlaaln   50 (140)
+                      |-..+.+|++.++++..+.
+T Consensus        56 T~~la~~F~v~si~l~~~~   74 (76)
+T 3DIN_H           56 TLVLSVLFFVSCVVTAFVL   74 (76)
+T ss_dssp             HHHHHHHHHHHHHHHHTC-
+T ss_pred             HHHHHHHHHHHHHHHHHHh
+Confidence            5667888999998887654
+
+
+No 15
+>4P6V_E NqrA, NqrB, NqrC, NqrD, NqrE; Respiratory Complex, NADH:ubiquinone oxidoreductase, Sodium; HET: FAD, RBF, FMN; 3.5A {Vibrio cholerae serotype O1}
+Probab=23.21  E-value=5.5e+02  Score=19.53  Aligned_cols=38  Identities=21%  Similarity=0.365  Sum_probs=23.9  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHHHHHHhcCC----------CChHHHHHHHHHHHHHHHHH
+Q tr|J3QRP2|J3QR   35 SAFLFFIASIVLAALNHR----------AGAEIAAVIFGFLATAAYAV   72 (140)
+Q Consensus        35 saflffiasivlaalnhr----------agaeiaavifgflataayav   72 (140)
+                      +..-|+++.++++++.+|          .|..++-+..|+++.+-|+.
+T Consensus       146 ~glGf~l~l~~~~~ire~l~~~~~p~~~rg~pi~li~~Gllalaf~g~  193 (198)
+T 4P6V_E          146 SGVGWMLAIVALAGIREKMKYSDVPPGLRGLGITFITAGLMALGFMSF  193 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTSCCCSTTCHHHHHHHHHHHHHHHTTGG
+T ss_pred             HHHHHHHHHHHHHHHHHHhccCCCCHHhcHHHHHHHHHHHHHHHHHHh
+Confidence            344566667777776654          34566666777777766654
+
+
+No 16
+>7B0N_Y NADH:Ubiquinone Oxidoreductase, complex I, MEMBRANE; HET: LMT, PLC, EHZ, 3PE, SF4, NDP, FMN, CDL, FME; 3.7A {Yarrowia lipolytica}
+Probab=21.44  E-value=4.8e+02  Score=19.20  Aligned_cols=21  Identities=10%  Similarity=0.001  Sum_probs=11.8  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhcC
+Q tr|J3QRP2|J3QR   31 NTGLSAFLFFIASIVLAALNH   51 (140)
+Q Consensus        31 ntglsaflffiasivlaalnh   51 (140)
+                      +.++...+|.....++..+..
+T Consensus        52 ~~a~~~~~f~~~~~~~~~~R~   72 (180)
+T 7B0N_Y           52 IFTGASIAYVFTYCSAANLRE   72 (180)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHcC
+Confidence            345555566666666665544
+
+

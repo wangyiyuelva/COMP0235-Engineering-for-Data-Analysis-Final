@@ -1,0 +1,169 @@
+Query         tr|C9JZM9|C9JZM9_HUMAN
+Match_columns 99
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:42:47 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0785.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1SQN_A progesterone receptor;   52.1      61 0.00066   21.9   3.7   48    3-52      4-51  (261)
+  2 4Z5P_A Cytochrome P450 hydroxy  46.2      30 0.00033   24.2   1.7   16    1-16      2-17  (400)
+  3 7OVC_A UFM1, UBA5, UFC1, ufmyl  43.6      81 0.00088   24.6   3.8   49   35-84     19-69  (167)
+  4 3KPA_C UBL CONJUGATION PATHWAY  41.1      94   0.001   24.4   3.8   50   34-84     25-76  (168)
+  5 7NVK_AAA Ubiquitin like fold m  40.4      95   0.001   24.8   3.8   47   37-84     80-128 (226)
+  6 2Z6O_A Ufm1-conjugating enzyme  40.1      99  0.0011   24.3   3.8   49   35-84     24-74  (172)
+  7 3BB9_E Putative orphan protein  29.8 1.5E+02  0.0016   16.1   2.4   17   39-55     28-44  (148)
+  8 3KBA_B Progesterone receptor;   24.4 2.5E+02  0.0027   18.8   3.2   41   11-51      2-42  (253)
+  9 6GWS_E Proliferating cell nucl  23.2      77 0.00084   19.4   0.6   11   86-96     12-22  (32)
+ 10 6GWS_F Proliferating cell nucl  23.2      77 0.00084   19.4   0.6   11   86-96     12-22  (32)
+
+No 1
+>1SQN_A progesterone receptor; progesterone receptor  nuclear receptor; HET: NDR; 1.451A {Homo sapiens} SCOP: a.123.1.1
+Probab=52.10  E-value=61  Score=21.93  Aligned_cols=48  Identities=17%  Similarity=0.243  Sum_probs=25.1  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCcccccchhhcCCCCCCCCCCCCCCCCCCCcHHHHHHHHHh
+Q tr|C9JZM9|C9JZ    3 GPSGPPGLLYVPHLLLCLLCLLPPPLQYAAGQSQMPKDQPLWALLEQYCH   52 (99)
+Q Consensus         3 gpsgppgllyvphlllcllcllppplqyaagqsqmpkdqplwalleqych   52 (99)
+                      +|+.||  -.++.++.-++..-|+...+....++-..++..|..+.+..+
+T Consensus         4 ~p~~~~--~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   51 (261)
+T 1SQN_A            4 SPGQDI--QLIPPLINLLMSIEPDVIYAGHDNTKPDTSSSLLTSLNQLGE   51 (261)
+T ss_dssp             --------CCSCHHHHHHHHHSCCCCCCCCCC--CCCHHHHHHHHHHHHH
+T ss_pred             CCCCCh--hcCHHHHHHHHhhCCCcccCCCCCCCCCCchHHHHHHHHHHH
+Confidence            456665  567888888888888866544444444445556665554443
+
+
+No 2
+>4Z5P_A Cytochrome P450 hydroxylase; hydroxylase, leinamycin, heme, monooxygenase, OXIDOREDUCTASE; HET: PGE, HEM; 1.9A {Streptomyces atroolivaceus}
+Probab=46.19  E-value=30  Score=24.19  Aligned_cols=16  Identities=6%  Similarity=-0.047  Sum_probs=8.4  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCcccc
+Q tr|C9JZM9|C9JZ    1 MRGPSGPPGLLYVPHL   16 (99)
+Q Consensus         1 mrgpsgppgllyvphl   16 (99)
+                      |.+|+||+|+-.+-++
+T Consensus         2 ~~~Ppgp~~~PliG~~   17 (400)
+T 4Z5P_A            2 MSATRRVHIYPFEGEV   17 (400)
+T ss_dssp             ------CEESSCSSCC
+T ss_pred             CCcccCcccCCCCCCC
+Confidence            6789999998888777
+
+
+No 3
+>7OVC_A UFM1, UBA5, UFC1, ufmylation, complex; NMR {Homo sapiens}
+Probab=43.59  E-value=81  Score=24.62  Aligned_cols=49  Identities=31%  Similarity=0.536  Sum_probs=30.9  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCcHHH--HHHHHHhHHhhhhcccCCCCCCCCccccCCCCCcccccc
+Q tr|C9JZM9|C9JZ   35 SQMPKDQPLWA--LLEQYCHTIMTLTNLSVTPGAHSHSLSARGCGTRWTRHC   84 (99)
+Q Consensus        35 sqmpkdqplwa--lleqychtimtltnlsvtpgahshslsargcgtrwtrhc   84 (99)
+                      ..-|.|.+.|.  |-|+|-.-|-...+... -...-..++..-.||||+-.|
+T Consensus        19 ~AgPrd~~~W~~RLkEEy~aLi~yv~~nK~-~d~dWf~l~~n~~GtrW~G~c   69 (167)
+T 7OVC_A           19 NAGPRDRELWVQRLKEEYQSLIRYVENNKN-ADNDWFRLESNKEGTRWFGKC   69 (167)
+T ss_dssp             CCCTTSHHHHHHHHHHHHHHHHHHHHHHHH-TTCCCEEEEECTTSSEEEEEE
+T ss_pred             cCCCCCHHHHHHHHHHHHHHHHHHHHhccc-cCCCceecccCCCCCccccee
+Confidence            34578877774  66777776665544333 233344455566899999876
+
+
+No 4
+>3KPA_C UBL CONJUGATION PATHWAY, LIGASE, Structural; HET: MSE; 2.2A {Leishmania major}
+Probab=41.13  E-value=94  Score=24.44  Aligned_cols=50  Identities=28%  Similarity=0.533  Sum_probs=30.6  Template_Neff=4.900
+
+Q ss_pred             CCCCCCCCcHHH--HHHHHHhHHhhhhcccCCCCCCCCccccCCCCCcccccc
+Q tr|C9JZM9|C9JZ   34 QSQMPKDQPLWA--LLEQYCHTIMTLTNLSVTPGAHSHSLSARGCGTRWTRHC   84 (99)
+Q Consensus        34 qsqmpkdqplwa--lleqychtimtltnlsvtpgahshslsargcgtrwtrhc   84 (99)
+                      ...-|.|.++|.  |-|+|-.-|-...|... -...-..++..-.||||+-.|
+T Consensus        25 ~~AgPrd~~~W~~RlkEEy~aLi~yv~~nK~-~d~dWf~lesn~~GtRW~Gkc   76 (168)
+T 3KPA_C           25 TKAGPRDGDKWTARLKEEYASLITYVEHNKA-SDSHWFHLESNPQGTRWYGTC   76 (168)
+T ss_dssp             CCCCTTSTHHHHHHHHHHHHHHHHHHHHHHH-TTCCCEEEEECTTSSEEEEEE
+T ss_pred             cCCCCCChhHHHHHHHHHHHHHHHHHHhccc-cCCCCeeeecCCCCCccccee
+Confidence            344588888884  56777666654444333 222334455566699999877
+
+
+No 5
+>7NVK_AAA Ubiquitin like fold modifier enzyme; 2.651A {Homo sapiens}
+Probab=40.45  E-value=95  Score=24.82  Aligned_cols=47  Identities=32%  Similarity=0.554  Sum_probs=26.7  Template_Neff=5.900
+
+Q ss_pred             CCCCCcHHH--HHHHHHhHHhhhhcccCCCCCCCCccccCCCCCcccccc
+Q tr|C9JZM9|C9JZ   37 MPKDQPLWA--LLEQYCHTIMTLTNLSVTPGAHSHSLSARGCGTRWTRHC   84 (99)
+Q Consensus        37 mpkdqplwa--lleqychtimtltnlsvtpgahshslsargcgtrwtrhc   84 (99)
+                      -|.|.+.|.  |-|.|-.-|-...+..- -...-..+...-.||||+-.|
+T Consensus        80 gPrd~~~W~~RlkeE~~aLi~~v~~nk~-~d~dwf~l~~~~~gtrw~G~c  128 (226)
+T 7NVK_AAA         80 GPRDRELWVQRLKEEYQSLIRYVENNKN-ADNDWFRLESNKEGTRWFGKC  128 (226)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHHHhccc-cCCCceecccCCCCCccccee
+Confidence            366766663  55666665554433322 222333445556899998776
+
+
+No 6
+>2Z6O_A Ufm1-conjugating enzyme 1 (E.C.6.3.2.19); UFC1, UFM1, UBIQUITIN, UBL, Polymorphism; 1.6A {Homo sapiens}
+Probab=40.08  E-value=99  Score=24.28  Aligned_cols=49  Identities=31%  Similarity=0.536  Sum_probs=30.9  Template_Neff=5.100
+
+Q ss_pred             CCCCCCCcHHH--HHHHHHhHHhhhhcccCCCCCCCCccccCCCCCcccccc
+Q tr|C9JZM9|C9JZ   35 SQMPKDQPLWA--LLEQYCHTIMTLTNLSVTPGAHSHSLSARGCGTRWTRHC   84 (99)
+Q Consensus        35 sqmpkdqplwa--lleqychtimtltnlsvtpgahshslsargcgtrwtrhc   84 (99)
+                      ..-|.|.+.|.  |-|+|-.-|-...+..- -...-..++..-.||||+-.|
+T Consensus        24 ~AgPrd~~~W~~RLkEEy~aLi~yv~~nK~-~d~dWf~lesn~~GtrW~Gkc   74 (172)
+T 2Z6O_A           24 NAGPRDRELWVQRLKEEYQSLIRYVENNKN-ADNDWFRLESNKEGTRWFGKC   74 (172)
+T ss_dssp             CCCTTCTHHHHHHHHHHHHHHHHHHHHHHH-TTCCCEEEEECTTSCEEEEEE
+T ss_pred             cCCCCCHHHHHHHHHHHHHHHHHHHHhccc-cCCCCeecccCCCCCccccee
+Confidence            34588888884  66777776665544333 233334455556899998876
+
+
+No 7
+>3BB9_E Putative orphan protein; Structural genomics, Joint Center for; HET: EDO, MSE; 1.8A {Shewanella frigidimarina} SCOP: d.17.4.16
+Probab=29.81  E-value=1.5e+02  Score=16.07  Aligned_cols=17  Identities=12%  Similarity=0.215  Sum_probs=12.2  Template_Neff=13.200
+
+Q ss_pred             CCCcHHHHHHHHHhHHh
+Q tr|C9JZM9|C9JZ   39 KDQPLWALLEQYCHTIM   55 (99)
+Q Consensus        39 kdqplwalleqychtim   55 (99)
+                      ..+.+.+++++|...+.
+T Consensus        28 ~~~~i~~~~~~~~~a~~   44 (148)
+T 3BB9_E           28 VDSAAGNVVKQFHAALQ   44 (148)
+T ss_dssp             CSSHHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHH
+Confidence            45678888888877543
+
+
+No 8
+>3KBA_B Progesterone receptor; nuclear receptor, transcription, Transcription regulation; HET: WOW; 2.0A {Homo sapiens}
+Probab=24.43  E-value=2.5e+02  Score=18.79  Aligned_cols=41  Identities=17%  Similarity=0.247  Sum_probs=25.4  Template_Neff=11.100
+
+Q ss_pred             CCcccccchhhcCCCCCCCCCCCCCCCCCCCcHHHHHHHHH
+Q tr|C9JZM9|C9JZ   11 LYVPHLLLCLLCLLPPPLQYAAGQSQMPKDQPLWALLEQYC   51 (99)
+Q Consensus        11 lyvphlllcllcllppplqyaagqsqmpkdqplwalleqyc   51 (99)
+                      ..+|+++-.++..-++........++-..+...|..+.+..
+T Consensus         2 ~~~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   42 (253)
+T 3KBA_B            2 QLIPPLINLLMSIEPDVIYAGHDNTKPDTSSSLLTSLNQLG   42 (253)
+T ss_dssp             CCSCHHHHHHHHTCCCCCCCCCCTTSCCCHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHhhCCccccCCCCCCCCCCcHHHHHHHHHHH
+Confidence            45788888999988886655544544344445555544433
+
+
+No 9
+>6GWS_E Proliferating cell nuclear antigen, PCNA-associated; PCNA, p15, p15PAF, PAF15, crystal; 2.9A {Homo sapiens}
+Probab=23.19  E-value=77  Score=19.40  Aligned_cols=11  Identities=45%  Similarity=1.195  Sum_probs=9.2  Template_Neff=3.800
+
+Q ss_pred             ccccCcCccch
+Q tr|C9JZM9|C9JZ   86 TACWRPTAAWR   96 (99)
+Q Consensus        86 tacwrptaawr   96 (99)
+                      ..|+|||..|.
+T Consensus        12 p~c~rptP~WQ   22 (32)
+T 6GWS_E           12 PVCVRPTPKWQ   22 (32)
+T ss_dssp             CCCCCCCCTTC
+T ss_pred             CCCCCCCchhh
+Confidence            46999999985
+
+
+No 10
+>6GWS_F Proliferating cell nuclear antigen, PCNA-associated; PCNA, p15, p15PAF, PAF15, crystal; 2.9A {Homo sapiens}
+Probab=23.19  E-value=77  Score=19.40  Aligned_cols=11  Identities=45%  Similarity=1.195  Sum_probs=9.2  Template_Neff=3.800
+
+Q ss_pred             ccccCcCccch
+Q tr|C9JZM9|C9JZ   86 TACWRPTAAWR   96 (99)
+Q Consensus        86 tacwrptaawr   96 (99)
+                      ..|+|||..|.
+T Consensus        12 p~c~rptP~WQ   22 (32)
+T 6GWS_F           12 PVCVRPTPKWQ   22 (32)
+T ss_dssp             CCCCCCCCTTC
+T ss_pred             CCCCCCCchhh
+Confidence            46999999985
+
+

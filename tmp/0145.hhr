@@ -1,0 +1,519 @@
+Query         tr|G3V569|G3V569_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:52:51 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0145.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ZOP_A Putative uncharacterize  60.9      14 0.00015   21.7   1.6   24   14-37     26-49  (114)
+  2 2ZOP_B Putative uncharacterize  60.9      14 0.00015   21.7   1.6   23   15-37     27-49  (114)
+  3 1TW8_A 5'-D(*GP*CP*CP*GP*GP*TP  54.9      19 0.00021   26.6   1.9   21    7-27     32-52  (257)
+  4 2GIG_A Protein DNA complex, in  53.9      20 0.00021   26.5   1.8   24    4-27     29-52  (257)
+  5 6S8B_B CRISPR-associated prote  49.6      25 0.00027   21.7   1.5   23   15-37     29-51  (155)
+  6 6SHB_B CRISPR-associated prote  49.6      25 0.00027   21.7   1.5   23   15-37     29-51  (155)
+  7 6D1R_A Ribonuclease P protein   46.8      70 0.00076   18.3   3.0   24   10-33     91-114 (119)
+  8 1G1G_A HYDROLASE (PHOSPHORYLAT  44.7      25 0.00027   20.3   1.0   12   18-29      2-13  (298)
+  9 2N2T_A PROTEIN; Structural Gen  44.6      22 0.00023   23.5   0.8   16   15-30      8-23  (84)
+ 10 1D6T_A ENDONUCLEASE, RNASE, SU  43.2      87 0.00094   17.8   3.0   24   10-33     89-112 (117)
+ 11 6MAX_A Ribonuclease P protein   42.3      82 0.00089   17.8   2.8   19   12-30     93-111 (113)
+ 12 2OEB_A Hypothetical protein; A  40.7      46  0.0005   20.8   1.7   23   15-37     34-56  (155)
+ 13 3X1L_G CRISPR system Cmr subun  40.7      46  0.0005   20.8   1.7   22   15-36     34-55  (155)
+ 14 4GKF_A CRISPR system Cmr subun  40.0      42 0.00045   21.8   1.5   23   15-37     44-66  (169)
+ 15 4GKF_B CRISPR system Cmr subun  40.0      42 0.00045   21.8   1.5   22   15-36     44-65  (169)
+ 16 1NZ0_A ENDONUCLEASE, RNASE, AL  36.0 1.1E+02  0.0012   17.5   2.7   20   11-30     97-116 (118)
+ 17 3EBC_A intermediate, mutant, d  35.4      27 0.00029   27.1   0.2   20    6-25     34-53  (317)
+ 18 3EBC_B intermediate, mutant, d  35.4      27 0.00029   27.1   0.2   21    5-25     33-53  (317)
+ 19 6OV1_B Ribonuclease P protein   35.2      88 0.00095   19.0   2.3   25    9-33    108-132 (137)
+ 20 5EOF_A Optineurin, Serine/thre  30.3   2E+02  0.0022   17.1   3.2   22    7-28      7-28  (82)
+ 21 7B7O_A Sec-independent protein  29.0      76 0.00082   16.2   1.2   12   21-32     24-35  (53)
+ 22 6OL4_A Tyrosine-protein phosph  28.8      56 0.00061   18.8   0.7   13   18-30      1-13  (296)
+ 23 2LZS_C Sec-independent protein  26.8      89 0.00096   17.0   1.2   13   21-33     23-35  (55)
+ 24 5XTB_K NADH dehydrogenase [ubi  26.4      42 0.00046   17.5  -0.0   16   10-25      5-20  (33)
+ 25 5XTI_K NADH dehydrogenase [ubi  26.4      42 0.00046   17.5  -0.0   16   10-25      5-20  (33)
+ 26 3LW9_B inva, type III secretio  26.3 1.3E+02  0.0014   18.0   1.9   13   18-30    151-163 (168)
+ 27 6ZU5_SF0 uL2, uL15, uL3, eL29,  25.8      44 0.00048   22.0  -0.0   28    5-32      7-34  (195)
+ 28 4JG4_A Ribonuclease P protein   23.5 2.1E+02  0.0023   16.5   2.4   24   11-34     91-114 (119)
+ 29 2LJP_A Ribonuclease P protein   23.4 2.5E+02  0.0027   16.0   2.6   23   11-33     93-115 (119)
+ 30 1Z2C_B armadillo repeat, SIGNA  23.2   2E+02  0.0022   19.3   2.5   25    9-33      5-29  (383)
+ 31 1LXJ_A HYPOTHETICAL 11.5KDA PR  23.0 1.8E+02   0.002   16.6   2.1   23   10-32     14-38  (104)
+ 32 2N10_A MOTOR PROTEIN, PROTEIN   22.3 2.9E+02  0.0032   16.4   2.9   16    7-22     11-26  (60)
+
+No 1
+>2ZOP_A Putative uncharacterized protein TTHB164; All alpha proteins, Plasmid, NPPSFA; HET: SO4, MSE; 2.1A {Thermus thermophilus HB8}
+Probab=60.89  E-value=14  Score=21.67  Aligned_cols=24  Identities=33%  Similarity=0.549  Sum_probs=19.8  Template_Neff=8.100
+
+Q ss_pred             CCHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   14 WSYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        14 wsysemekefpelirsvglltvaa   37 (47)
+                      -.|...-+.||.+|+..||+...|
+T Consensus        26 ~~y~~~~~~lp~~I~~nGL~~tla   49 (114)
+T 2ZOP_A           26 GEYRDMALKLPVLVRQAGLSQALA   49 (114)
+T ss_dssp             HHHHHHHHHHHHHHHHHCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHcCHHHHHH
+Confidence            358888899999999999986543
+
+
+No 2
+>2ZOP_B Putative uncharacterized protein TTHB164; All alpha proteins, Plasmid, NPPSFA; HET: SO4, MSE; 2.1A {Thermus thermophilus HB8}
+Probab=60.89  E-value=14  Score=21.67  Aligned_cols=23  Identities=35%  Similarity=0.631  Sum_probs=18.4  Template_Neff=8.100
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        15 sysemekefpelirsvglltvaa   37 (47)
+                      .|...-+.||.+|+..||+...|
+T Consensus        27 ~y~~~~~~lp~~I~~nGL~~tla   49 (114)
+T 2ZOP_B           27 EYRDMALKLPVLVRQAGLSQALA   49 (114)
+T ss_dssp             HHHHHHHHHHHCCCCCCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHcCHHHHHH
+Confidence            57778889999999999876543
+
+
+No 3
+>1TW8_A 5'-D(*GP*CP*CP*GP*GP*TP*CP*GP*AP*CP*CP*GP*G)-3'/Type II restriction enzyme HindII; restriction endonuclease, hydrolase-DNA COMPLEX; 2.8A {Haemophilus influenzae} SCOP: c.52.1.19
+Probab=54.86  E-value=19  Score=26.56  Aligned_cols=21  Identities=19%  Similarity=0.540  Sum_probs=17.3  Template_Neff=4.600
+
+Q ss_pred             CCCCCCcCCHHHHHHHHHHHH
+Q tr|G3V569|G3V5    7 KTKPFDSWSYSEMEKEFPELI   27 (47)
+Q Consensus         7 ktkpfdswsysemekefpeli   27 (47)
+                      .-.||++|-|.++++.+|.++
+T Consensus        32 ~g~pF~~~~y~~i~~~~~~~~   52 (257)
+T 1TW8_A           32 AGEPFEKLVYKFLKENLSDLT   52 (257)
+T ss_dssp             TTHHHHHHHHHHHHHHSTTTE
+T ss_pred             ccCcchHHHHHHHHHHHHHHh
+Confidence            446899999999999988654
+
+
+No 4
+>2GIG_A Protein DNA complex, indirect readout; 1.83A {Haemophilus influenzae}
+Probab=53.91  E-value=20  Score=26.52  Aligned_cols=24  Identities=17%  Similarity=0.497  Sum_probs=19.0  Template_Neff=4.600
+
+Q ss_pred             CCCCCCCCCcCCHHHHHHHHHHHH
+Q tr|G3V569|G3V5    4 SQVKTKPFDSWSYSEMEKEFPELI   27 (47)
+Q Consensus         4 sqvktkpfdswsysemekefpeli   27 (47)
+                      ....-.||++|-|.++++.+|.++
+T Consensus        29 gha~g~pF~~~~y~~i~~~~~~~~   52 (257)
+T 2GIG_A           29 GHAAGEPFEKLVYKFLKENLSDLT   52 (257)
+T ss_dssp             -CCTTTTHHHHHHHHHHHHSTTTE
+T ss_pred             CccccCcchHHHHHHHHHHHHHHh
+Confidence            344567999999999999988654
+
+
+No 5
+>6S8B_B CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 2.41A {Sulfolobus islandicus (strain REY15A)}
+Probab=49.63  E-value=25  Score=21.75  Aligned_cols=23  Identities=13%  Similarity=0.290  Sum_probs=18.9  Template_Neff=8.000
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        15 sysemekefpelirsvglltvaa   37 (47)
+                      .|...-+.||.+|+.-||....|
+T Consensus        29 ~y~s~~r~lP~~I~~nGL~~tla   51 (155)
+T 6S8B_B           29 AFRSRARDLVEEIYNSGFIPTFF   51 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHcCHHHHHH
+Confidence            47777889999999999986544
+
+
+No 6
+>6SHB_B CRISPR-associated protein, Cmr5 family, CRISPR-associated; CRISPR-Cas, Effector complex, nuclease, cyclic; HET: ANP; 3.07A {Sulfolobus islandicus REY15A}
+Probab=49.63  E-value=25  Score=21.75  Aligned_cols=23  Identities=13%  Similarity=0.290  Sum_probs=18.7  Template_Neff=8.000
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        15 sysemekefpelirsvglltvaa   37 (47)
+                      .|...-+.||.+|+.-||....|
+T Consensus        29 ~y~s~~r~lP~~I~~nGL~~tla   51 (155)
+T 6SHB_B           29 AFRSRARDLVEEIYNSGFIPTFF   51 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHcCHHHHHH
+Confidence            47777889999999999986543
+
+
+No 7
+>6D1R_A Ribonuclease P protein component (E.C.3.1.26.5); RNase, P protein, tRNA processing; 1.995A {Staphylococcus aureus}
+Probab=46.85  E-value=70  Score=18.27  Aligned_cols=24  Identities=4%  Similarity=0.278  Sum_probs=20.6  Template_Neff=8.900
+
+Q ss_pred             CCCcCCHHHHHHHHHHHHHHhcch
+Q tr|G3V569|G3V5   10 PFDSWSYSEMEKEFPELIRSVGLL   33 (47)
+Q Consensus        10 pfdswsysemekefpelirsvgll   33 (47)
+                      +....+|.++.+++-+++..++++
+T Consensus        91 ~~~~~~~~~l~~~l~~ll~~~~~~  114 (119)
+T 6D1R_A           91 PAKDMTTLQIQNSLEHVLKIAKVF  114 (119)
+T ss_dssp             GGGGSCHHHHHHHHHHHHHHTTSC
+T ss_pred             cccCCCHHHHHHHHHHHHHHhhhh
+Confidence            456688999999999999998875
+
+
+No 8
+>1G1G_A HYDROLASE (PHOSPHORYLATION), TYROSINE PHOSPHATASE, PEPTIDE; HET: PTR; 2.2A {Homo sapiens} SCOP: c.45.1.2
+Probab=44.72  E-value=25  Score=20.32  Aligned_cols=12  Identities=58%  Similarity=0.844  Sum_probs=10.0  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHHHH
+Q tr|G3V569|G3V5   18 EMEKEFPELIRS   29 (47)
+Q Consensus        18 emekefpelirs   29 (47)
+                      |||++|+++-+.
+T Consensus         2 ~~~~~~~~~~~~   13 (298)
+T 1G1G_A            2 EMEKEFEQIDKS   13 (298)
+T ss_dssp             CHHHHHHHHHHH
+T ss_pred             chHHHHHHHhhc
+Confidence            789999988775
+
+
+No 9
+>2N2T_A PROTEIN; Structural Genomics, Protein NMR, NORTHEAST; NMR {synthetic construct}
+Probab=44.55  E-value=22  Score=23.48  Aligned_cols=16  Identities=56%  Similarity=0.816  Sum_probs=13.4  Template_Neff=1.000
+
+Q ss_pred             CHHHHHHHHHHHHHHh
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSV   30 (47)
+Q Consensus        15 sysemekefpelirsv   30 (47)
+                      -|||-|.||.|||..+
+T Consensus         8 iysenerefrelierl   23 (84)
+T 2N2T_A            8 IYSENEREFRELIERL   23 (84)
+T ss_dssp             EECCSHHHHHHHHHHH
+T ss_pred             EeccCHHHHHHHHHHH
+Confidence            3789999999999754
+
+
+No 10
+>1D6T_A ENDONUCLEASE, RNASE, SUBUNIT, HYDROLASE; NMR {Staphylococcus aureus} SCOP: d.14.1.2
+Probab=43.25  E-value=87  Score=17.85  Aligned_cols=24  Identities=4%  Similarity=0.278  Sum_probs=19.6  Template_Neff=8.900
+
+Q ss_pred             CCCcCCHHHHHHHHHHHHHHhcch
+Q tr|G3V569|G3V5   10 PFDSWSYSEMEKEFPELIRSVGLL   33 (47)
+Q Consensus        10 pfdswsysemekefpelirsvgll   33 (47)
+                      +....+|.++++++-+++..++++
+T Consensus        89 ~~~~~~~~~l~~~l~~ll~~~~~~  112 (117)
+T 1D6T_A           89 PAKDMTTLQIQNSLEHVLKIAKVF  112 (117)
+T ss_dssp             GGGGCCTTHHHHHHTTHHHHHTCS
+T ss_pred             cccCCCHHHHHHHHHHHHHHhhhh
+Confidence            345578899999999999988875
+
+
+No 11
+>6MAX_A Ribonuclease P protein component (E.C.3.1.26.5); P protein, RNA BINDING PROTEIN; HET: 9TF, SO4; 1.42A {Thermotoga maritima}
+Probab=42.25  E-value=82  Score=17.75  Aligned_cols=19  Identities=5%  Similarity=0.343  Sum_probs=15.2  Template_Neff=9.000
+
+Q ss_pred             CcCCHHHHHHHHHHHHHHh
+Q tr|G3V569|G3V5   12 DSWSYSEMEKEFPELIRSV   30 (47)
+Q Consensus        12 dswsysemekefpelirsv   30 (47)
+                      ...+|.++++++.+++..+
+T Consensus        93 ~~~~~~~l~~~l~~~l~~~  111 (113)
+T 6MAX_A           93 ERVDFWTVREKLLNLLKRI  111 (113)
+T ss_dssp             GGSCHHHHHHHHHHHHTTC
+T ss_pred             cCCCHHHHHHHHHHHHHhh
+Confidence            4478999999999888653
+
+
+No 12
+>2OEB_A Hypothetical protein; Archaeoglobus fulgidus, unknown function, PSI-2; 1.66A {Archaeoglobus fulgidus} SCOP: a.70.2.1
+Probab=40.69  E-value=46  Score=20.84  Aligned_cols=23  Identities=30%  Similarity=0.421  Sum_probs=18.8  Template_Neff=7.700
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        15 sysemekefpelirsvglltvaa   37 (47)
+                      +|...-+.||.+|+..||+...|
+T Consensus        34 ~y~s~~r~lP~~I~~nGL~~tLa   56 (155)
+T 2OEB_A           34 KYSSYAEKAPTIILNNGLGATLA   56 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHcCHHHHHH
+Confidence            57777889999999999986543
+
+
+No 13
+>3X1L_G CRISPR system Cmr subunit Cmr2; RNA-recognition motif, RNA silencing, RNA; 2.096A {Pyrococcus furiosus DSM 3638}
+Probab=40.69  E-value=46  Score=20.84  Aligned_cols=22  Identities=27%  Similarity=0.404  Sum_probs=18.3  Template_Neff=7.700
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVA   36 (47)
+Q Consensus        15 sysemekefpelirsvglltva   36 (47)
+                      +|...-+.||.+|+..||+...
+T Consensus        34 ~y~s~~r~lP~~I~~nGL~~tL   55 (155)
+T 3X1L_G           34 KYSSYAEKAPTIILNNGLGATL   55 (155)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHH
+T ss_pred             hHHHHHHHHHHHHHHcCHHHHH
+Confidence            5777788999999999997654
+
+
+No 14
+>4GKF_A CRISPR system Cmr subunit Cmr5; Crispr, Unknown Function; 2.1A {Pyrococcus furiosus}
+Probab=39.97  E-value=42  Score=21.81  Aligned_cols=23  Identities=39%  Similarity=0.556  Sum_probs=18.1  Template_Neff=7.100
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhcc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVAA   37 (47)
+Q Consensus        15 sysemekefpelirsvglltvaa   37 (47)
+                      +|...-+.||.+|++.||+...|
+T Consensus        44 ~yrsr~r~lP~~I~~nGL~~tLA   66 (169)
+T 4GKF_A           44 KYASLVKKAPVMILSNGLLQTLA   66 (169)
+T ss_dssp             HHHHHHHHHHHHHHHHCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHCCHHHHHH
+Confidence            46667789999999999986543
+
+
+No 15
+>4GKF_B CRISPR system Cmr subunit Cmr5; Crispr, Unknown Function; 2.1A {Pyrococcus furiosus}
+Probab=39.97  E-value=42  Score=21.81  Aligned_cols=22  Identities=36%  Similarity=0.545  Sum_probs=17.1  Template_Neff=7.100
+
+Q ss_pred             CHHHHHHHHHHHHHHhcchhhc
+Q tr|G3V569|G3V5   15 SYSEMEKEFPELIRSVGLLTVA   36 (47)
+Q Consensus        15 sysemekefpelirsvglltva   36 (47)
+                      +|...-+.||.+|++.||+...
+T Consensus        44 ~yrsr~r~lP~~I~~nGL~~tL   65 (169)
+T 4GKF_B           44 KYASLVKKAPVMILSNGLLQTL   65 (169)
+T ss_dssp             HHHHHHTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHCCHHHHH
+Confidence            4556667899999999997654
+
+
+No 16
+>1NZ0_A ENDONUCLEASE, RNASE, ALFA-BETA SANDWICH, DIMER; HET: SO4, MSE; 1.2A {Thermotoga maritima} SCOP: d.14.1.2
+Probab=36.01  E-value=1.1e+02  Score=17.48  Aligned_cols=20  Identities=10%  Similarity=0.443  Sum_probs=15.4  Template_Neff=8.800
+
+Q ss_pred             CCcCCHHHHHHHHHHHHHHh
+Q tr|G3V569|G3V5   11 FDSWSYSEMEKEFPELIRSV   30 (47)
+Q Consensus        11 fdswsysemekefpelirsv   30 (47)
+                      ++.-+|+++++++-.++..+
+T Consensus        97 ~~~~~~~~l~~~l~~ll~k~  116 (118)
+T 1NZ0_A           97 FERVDFWTVREKLLNLLKRI  116 (118)
+T ss_dssp             GGGSCHHHHHHHHHHHHTTC
+T ss_pred             ccCCCHHHHHHHHHHHHHhh
+Confidence            45578999999988887654
+
+
+No 17
+>3EBC_A intermediate, mutant, dimerization, R-loop, Endonuclease; 2.55A {Haemophilus influenzae}
+Probab=35.38  E-value=27  Score=27.13  Aligned_cols=20  Identities=15%  Similarity=0.513  Sum_probs=16.3  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCcCCHHHHHHHHHH
+Q tr|G3V569|G3V5    6 VKTKPFDSWSYSEMEKEFPE   25 (47)
+Q Consensus         6 vktkpfdswsysemekefpe   25 (47)
+                      ....|||.|-|.++.+.||.
+T Consensus        34 AaGePFek~vy~~lk~~~p~   53 (317)
+T 3EBC_A           34 AAGEPFEKLVYKFLKENLSD   53 (317)
+T ss_dssp             --CGGGHHHHHHHHHHHSGG
+T ss_pred             cccCchHHHHHHHHHHHCCC
+Confidence            34579999999999999984
+
+
+No 18
+>3EBC_B intermediate, mutant, dimerization, R-loop, Endonuclease; 2.55A {Haemophilus influenzae}
+Probab=35.38  E-value=27  Score=27.13  Aligned_cols=21  Identities=14%  Similarity=0.507  Sum_probs=16.8  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCCcCCHHHHHHHHHH
+Q tr|G3V569|G3V5    5 QVKTKPFDSWSYSEMEKEFPE   25 (47)
+Q Consensus         5 qvktkpfdswsysemekefpe   25 (47)
+                      .....|||.|-|.++.+.||.
+T Consensus        33 hAaGePFek~vy~~lk~~~p~   53 (317)
+T 3EBC_B           33 HAAGEPFEKLVYKFLKENLSD   53 (317)
+T ss_dssp             --CCTHHHHHHHHHHHHHSTT
+T ss_pred             ccccCchHHHHHHHHHHHCCC
+Confidence            345679999999999999984
+
+
+No 19
+>6OV1_B Ribonuclease P protein component (E.C.3.1.26.5); RNase P protein, tRNA processing; 1.66A {Staphylococcus aureus}
+Probab=35.21  E-value=88  Score=19.03  Aligned_cols=25  Identities=0%  Similarity=0.190  Sum_probs=20.8  Template_Neff=8.000
+
+Q ss_pred             CCCCcCCHHHHHHHHHHHHHHhcch
+Q tr|G3V569|G3V5    9 KPFDSWSYSEMEKEFPELIRSVGLL   33 (47)
+Q Consensus         9 kpfdswsysemekefpelirsvgll   33 (47)
+                      +++...+|.++++++-+++..++++
+T Consensus       108 ~~~~~~~~~~l~~~l~~ll~k~~~~  132 (137)
+T 6OV1_B          108 QAAKDMTTLQIQNSLEHVLKIAKVF  132 (137)
+T ss_dssp             GGGGGSCHHHHHHHHHHHHHHTTCB
+T ss_pred             hhhcCCCHHHHHHHHHHHHHHHHHH
+Confidence            3556789999999999999987764
+
+
+No 20
+>5EOF_A Optineurin, Serine/threonine-protein kinase TBK1 (E.C.2.7.11.1); OPTN, TBK1, ALS, autophagy, PROTEIN; 2.05A {Homo sapiens}
+Probab=30.30  E-value=2e+02  Score=17.11  Aligned_cols=22  Identities=18%  Similarity=0.398  Sum_probs=17.5  Template_Neff=6.300
+
+Q ss_pred             CCCCCCcCCHHHHHHHHHHHHH
+Q tr|G3V569|G3V5    7 KTKPFDSWSYSEMEKEFPELIR   28 (47)
+Q Consensus         7 ktkpfdswsysemekefpelir   28 (47)
+                      ...++++++..|+...+.+||.
+T Consensus         7 ~~~~~~~~s~eE~~~~l~~Ll~   28 (82)
+T 5EOF_A            7 AHPNLDTFTPEELLQQMKELLT   28 (82)
+T ss_dssp             -CTTTTSCCHHHHHHHHHHHHH
+T ss_pred             CCCChhhCCHHHHHHHHHHHHH
+Confidence            3456788999999999988875
+
+
+No 21
+>7B7O_A Sec-independent protein translocase protein TATA; twin-arginine translocase, micelles, bitopic membrane; NMR {Arabidopsis thaliana}
+Probab=29.01  E-value=76  Score=16.19  Aligned_cols=12  Identities=42%  Similarity=0.789  Sum_probs=7.9  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHhcc
+Q tr|G3V569|G3V5   21 KEFPELIRSVGL   32 (47)
+Q Consensus        21 kefpelirsvgl   32 (47)
+                      +.+|++.|++|-
+T Consensus        24 ~~lp~~~r~lg~   35 (53)
+T 7B7O_A           24 KKLPEIGKSIGK   35 (53)
+T ss_dssp             SSCTHHHHHTHH
+T ss_pred             hhHHHHHHHHHH
+Confidence            356777777764
+
+
+No 22
+>6OL4_A Tyrosine-protein phosphatase non-receptor type 1; PTP1B, PTP, multiconformer, signaling protein; HET: GOL; 2.15A {Homo sapiens}
+Probab=28.75  E-value=56  Score=18.83  Aligned_cols=13  Identities=54%  Similarity=0.695  Sum_probs=9.7  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHh
+Q tr|G3V569|G3V5   18 EMEKEFPELIRSV   30 (47)
+Q Consensus        18 emekefpelirsv   30 (47)
+                      |||+||+++-...
+T Consensus         1 ~~~~~~~~~~~~~   13 (296)
+T 6OL4_A            1 EMEKEFEQIDKSG   13 (296)
+T ss_dssp             CHHHHHHHHHHTT
+T ss_pred             ChhHHHHHHhhcC
+Confidence            6888888776653
+
+
+No 23
+>2LZS_C Sec-independent protein translocase protein TatA; MEMBRANE PROTEIN, TATA, DPC, PROTEIN; HET: FME; NMR {Escherichia coli}
+Probab=26.80  E-value=89  Score=16.99  Aligned_cols=13  Identities=15%  Similarity=0.225  Sum_probs=10.5  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHHHhcch
+Q tr|G3V569|G3V5   21 KEFPELIRSVGLL   33 (47)
+Q Consensus        21 kefpelirsvgll   33 (47)
+                      +++|++.|++|-.
+T Consensus        23 ~rlp~~~r~~g~~   35 (55)
+T 2LZS_C           23 KKLGSIGSDLGAS   35 (55)
+T ss_dssp             HHHHHHHHHHTHH
+T ss_pred             hHHHHHHHHHHHH
+Confidence            6789999988854
+
+
+No 24
+>5XTB_K NADH dehydrogenase [ubiquinone] flavoprotein 1; Respiratory, OXIDOREDUCTASE-ELECTRON TRANSPORT complex; HET: NDP, FMN, 8Q1, SF4; 3.4A {Homo sapiens}
+Probab=26.42  E-value=42  Score=17.49  Aligned_cols=16  Identities=6%  Similarity=0.553  Sum_probs=12.4  Template_Neff=5.300
+
+Q ss_pred             CCCcCCHHHHHHHHHH
+Q tr|G3V569|G3V5   10 PFDSWSYSEMEKEFPE   25 (47)
+Q Consensus        10 pfdswsysemekefpe   25 (47)
+                      .++.|||-++|-++..
+T Consensus         5 ~y~~~sf~d~evem~k   20 (33)
+T 5XTB_K            5 DYSTYTFLDLNLELSK   20 (33)
+T ss_pred             CCCcCchhHceeeccc
+Confidence            5788999998877643
+
+
+No 25
+>5XTI_K NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: SF4, PEE, HEM, NDP, HEA, HEC, FMN, CDL, 8Q1, FES, PLX; 17.4A {Homo sapiens}
+Probab=26.42  E-value=42  Score=17.49  Aligned_cols=16  Identities=6%  Similarity=0.553  Sum_probs=12.4  Template_Neff=5.300
+
+Q ss_pred             CCCcCCHHHHHHHHHH
+Q tr|G3V569|G3V5   10 PFDSWSYSEMEKEFPE   25 (47)
+Q Consensus        10 pfdswsysemekefpe   25 (47)
+                      .++.|||-++|-++..
+T Consensus         5 ~y~~~sf~d~evem~k   20 (33)
+T 5XTI_K            5 DYSTYTFLDLNLELSK   20 (33)
+T ss_pred             CCCcCchhHceeeccc
+Confidence            5788999998877643
+
+
+No 26
+>3LW9_B inva, type III secretion, salmonella; HET: MSE; 1.85A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=26.27  E-value=1.3e+02  Score=17.97  Aligned_cols=13  Identities=38%  Similarity=1.007  Sum_probs=7.4  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHh
+Q tr|G3V569|G3V5   18 EMEKEFPELIRSV   30 (47)
+Q Consensus        18 emekefpelirsv   30 (47)
+                      ++++.+|+|++.+
+T Consensus       151 ~l~~~~P~Lv~e~  163 (168)
+T 3LW9_B          151 QLEAKFPDLLKEV  163 (168)
+T ss_dssp             HCCSCHHHHHHHH
+T ss_pred             HHHHHCHHHHHHH
+Confidence            3445666666654
+
+
+No 27
+>6ZU5_SF0 uL2, uL15, uL3, eL29, uL4; Microsporidia, Pathogen, Ribosome, Hibernation, Genome; HET: AMP, MG; 2.9A {Paranosema locustae}
+Probab=25.85  E-value=44  Score=21.99  Aligned_cols=28  Identities=21%  Similarity=0.106  Sum_probs=21.6  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCcCCHHHHHHHHHHHHHHhcc
+Q tr|G3V569|G3V5    5 QVKTKPFDSWSYSEMEKEFPELIRSVGL   32 (47)
+Q Consensus         5 qvktkpfdswsysemekefpelirsvgl   32 (47)
+                      ....+.|+-|++.+++-.-|.|-+-+.+
+T Consensus         7 ~~~~~~f~~w~~~~v~v~d~~l~~yi~~   34 (195)
+T 6ZU5_SF0          7 SGELLLFDKYSRDEVVVNDRSLKNYIFL   34 (195)
+T ss_pred             CCCccccccCCccceEEecCccCceEEE
+Confidence            3456789999999999877777665554
+
+
+No 28
+>4JG4_A Ribonuclease P protein component (E.C.3.1.26.5); RNA-Binding, Endonuclease, HYDROLASE; HET: PPV; 2.296A {Bacillus subtilis}
+Probab=23.45  E-value=2.1e+02  Score=16.49  Aligned_cols=24  Identities=25%  Similarity=0.383  Sum_probs=19.8  Template_Neff=8.700
+
+Q ss_pred             CCcCCHHHHHHHHHHHHHHhcchh
+Q tr|G3V569|G3V5   11 FDSWSYSEMEKEFPELIRSVGLLT   34 (47)
+Q Consensus        11 fdswsysemekefpelirsvgllt   34 (47)
+                      ....+|.++++++-.++..++.+.
+T Consensus        91 ~~~~~~~~l~~~l~~ll~~~~~~~  114 (119)
+T 4JG4_A           91 ASQLTYEETKKSLQHLWRKSSLYK  114 (119)
+T ss_dssp             GGGCCHHHHHHHHHHHHHHTTCBC
+T ss_pred             HhcCCHHHHHHHHHHHHHHhhhhc
+Confidence            356789999999999999887753
+
+
+No 29
+>2LJP_A Ribonuclease P protein component (E.C.3.1.26.5); RNaseP, C5, ribonuclease P, Ribozyme; NMR {Escherichia coli}
+Probab=23.38  E-value=2.5e+02  Score=16.01  Aligned_cols=23  Identities=13%  Similarity=0.146  Sum_probs=18.6  Template_Neff=9.000
+
+Q ss_pred             CCcCCHHHHHHHHHHHHHHhcch
+Q tr|G3V569|G3V5   11 FDSWSYSEMEKEFPELIRSVGLL   33 (47)
+Q Consensus        11 fdswsysemekefpelirsvgll   33 (47)
+                      ....+|.++++++..++..++..
+T Consensus        93 ~~~~~~~~l~~~i~~~l~~~~~~  115 (119)
+T 2LJP_A           93 VADLDNRALSEALEKLWRRHCRL  115 (119)
+T ss_dssp             GGGSCHHHHHHHHHHHHHHHHHH
+T ss_pred             cccCCHHHHHHHHHHHHHHHHHH
+Confidence            34578999999999999887654
+
+
+No 30
+>1Z2C_B armadillo repeat, SIGNALING PROTEIN; HET: GNP; 3.0A {Homo sapiens} SCOP: a.118.1.23
+Probab=23.16  E-value=2e+02  Score=19.26  Aligned_cols=25  Identities=12%  Similarity=0.194  Sum_probs=12.6  Template_Neff=9.700
+
+Q ss_pred             CCCCcCCHHHHHHHHHHHHHHhcch
+Q tr|G3V569|G3V5    9 KPFDSWSYSEMEKEFPELIRSVGLL   33 (47)
+Q Consensus         9 kpfdswsysemekefpelirsvgll   33 (47)
+                      .+....++.+.++.|.+++...++-
+T Consensus         5 ~~~~~p~~~~i~~~F~~ll~~~~l~   29 (383)
+T 1Z2C_B            5 QSLQDISDEQVLVLFEQMLVDMNLN   29 (383)
+T ss_dssp             ----------CHHHHHHHHHTTTCC
+T ss_pred             hhhhcCCHHHHHHHHHHHHHHCCCC
+Confidence            3456678889999999999887654
+
+
+No 31
+>1LXJ_A HYPOTHETICAL 11.5KDA PROTEIN IN HTB2-NTH2; Hypothetical protein, HTB2-NTH2 intergenic region; HET: MSE; 1.8A {Saccharomyces cerevisiae} SCOP: d.58.48.1
+Probab=23.02  E-value=1.8e+02  Score=16.56  Aligned_cols=23  Identities=26%  Similarity=0.260  Sum_probs=16.9  Template_Neff=8.400
+
+Q ss_pred             CCCcC--CHHHHHHHHHHHHHHhcc
+Q tr|G3V569|G3V5   10 PFDSW--SYSEMEKEFPELIRSVGL   32 (47)
+Q Consensus        10 pfdsw--sysemekefpelirsvgl   32 (47)
+                      |++.+  +|++.-.++-+.|+.-||
+T Consensus        14 P~~~~~~~~~~~I~~~i~~l~~~gl   38 (104)
+T 1LXJ_A           14 PIGTDSASISDFVALIEKKIRESPL   38 (104)
+T ss_dssp             EESCSCSCCHHHHHHHHHHHHTSSS
+T ss_pred             ecCCCCCchHHHHHHHHHHHHhCCC
+Confidence            45543  788888888888888773
+
+
+No 32
+>2N10_A MOTOR PROTEIN, PROTEIN TRANSPORT; NMR {Homo sapiens}
+Probab=22.32  E-value=2.9e+02  Score=16.38  Aligned_cols=16  Identities=25%  Similarity=0.698  Sum_probs=11.4  Template_Neff=4.900
+
+Q ss_pred             CCCCCCcCCHHHHHHH
+Q tr|G3V569|G3V5    7 KTKPFDSWSYSEMEKE   22 (47)
+Q Consensus         7 ktkpfdswsysemeke   22 (47)
+                      +.-.+..|.|+|+...
+T Consensus        11 ~~~dlskWky~eLRd~   26 (60)
+T 2N10_A           11 KKYDLSKWKYAELRDT   26 (60)
+T ss_dssp             CSCCCSCCCHHHHHHH
+T ss_pred             CCCCccCCCHHHHHHH
+Confidence            3445789999987654
+
+

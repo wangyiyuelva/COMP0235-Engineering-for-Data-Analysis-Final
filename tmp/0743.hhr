@@ -1,0 +1,169 @@
+Query         tr|A0A5F9ZHC8|A0A5F9ZHC8_HUMAN
+Match_columns 145
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 12:56:31 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0743.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1DUX_F ETS-DOMAIN PROTEIN ELK-  34.4      62 0.00067   19.3   1.6   24   10-34     70-93  (94)
+  2 1BC7_C ERUM RESPONSE FACTOR AC  26.2      67 0.00073   18.5   0.7   23   11-34     70-92  (93)
+  3 1BC8_C SAP-1 ETS DOMAIN/DNA CO  26.2      67 0.00073   18.5   0.7   23   11-34     70-92  (93)
+  4 2LF8_A Transcription factor ET  25.1   1E+02  0.0011   21.0   1.6   21   10-30     70-90  (128)
+  5 2DAO_A ETS domain, Transcripti  24.9 1.1E+02  0.0012   20.2   1.7   27   11-38     75-101 (118)
+  6 4MHG_A PROTEIN/DNA Complex; ET  23.1 1.3E+02  0.0015   18.6   1.7   19   10-28     76-94  (102)
+  7 1HBX_G SERUM RESPONSE FACTOR,   21.4 5.5E+02   0.006   18.9   4.8   22   10-32     70-91  (157)
+  8 1HBX_H SERUM RESPONSE FACTOR,   21.4 5.5E+02   0.006   18.9   4.8   22   10-32     70-91  (157)
+  9 7OKX_O Pol II, Super elongatio  18.5 1.1E+03   0.012   21.2   6.9    7   44-50    190-196 (268)
+ 10 7OKY_O Pol II, Super elongatio  18.5 1.1E+03   0.012   21.2   6.9   70   43-113   189-258 (268)
+
+No 1
+>1DUX_F ETS-DOMAIN PROTEIN ELK-1/DNA COMPLEX; ETS-DOMAIN, DNA-BINDING DOMAIN, WINGED HELIX-TURN-HELIX; 2.1A {Homo sapiens} SCOP: a.4.5.21
+Probab=34.42  E-value=62  Score=19.28  Aligned_cols=24  Identities=29%  Similarity=0.422  Sum_probs=17.4  Template_Neff=11.000
+
+Q ss_pred             CCCcccCCCCceEEEecCCCCCCCc
+Q tr|A0A5F9ZHC8|   10 EGIFYKVPGRMGVYTLKKDVPDGVK   34 (145)
+Q Consensus        10 egifykvpgrmgvytlkkdvpdgvk   34 (145)
+                      .+|+-+++|+..+|.+. ..|+.++
+T Consensus        70 ~~~~~~~~~~~~~y~f~-~~p~~~~   93 (94)
+T 1DUX_F           70 KNIIRKVSGQKFVYKFV-SYPEVAG   93 (94)
+T ss_dssp             TTSEEECTTSTTEEEES-SCCC---
+T ss_pred             cCcEEeeCCCCcEEEEc-CChhhcC
+Confidence            57888999999999995 5666553
+
+
+No 2
+>1BC7_C ERUM RESPONSE FACTOR ACCESSORY PROTEIN; ETS DOMAIN, DNA-BINDING DOMAIN, WINGED; 2.01A {Homo sapiens} SCOP: a.4.5.21
+Probab=26.18  E-value=67  Score=18.47  Aligned_cols=23  Identities=30%  Similarity=0.429  Sum_probs=17.9  Template_Neff=11.600
+
+Q ss_pred             CCcccCCCCceEEEecCCCCCCCc
+Q tr|A0A5F9ZHC8|   11 GIFYKVPGRMGVYTLKKDVPDGVK   34 (145)
+Q Consensus        11 gifykvpgrmgvytlkkdvpdgvk   34 (145)
+                      +|+.+++|+..+|.+.. .||.++
+T Consensus        70 ~~~~~~~~~~~~~~f~~-~p~~~~   92 (93)
+T 1BC7_C           70 NIIKKVNGQKFVYKFVS-YPEILN   92 (93)
+T ss_dssp             TSEEECTTSTTEEEESS-TTTTTT
+T ss_pred             CeEEeeCCcccEEEEcC-CHHHhc
+Confidence            67788999999999954 676654
+
+
+No 3
+>1BC8_C SAP-1 ETS DOMAIN/DNA COMPLEX; ETS DOMAIN, DNA-BINDING DOMAIN, WINGED; 1.93A {Homo sapiens} SCOP: a.4.5.21
+Probab=26.18  E-value=67  Score=18.47  Aligned_cols=23  Identities=30%  Similarity=0.429  Sum_probs=17.5  Template_Neff=11.600
+
+Q ss_pred             CCcccCCCCceEEEecCCCCCCCc
+Q tr|A0A5F9ZHC8|   11 GIFYKVPGRMGVYTLKKDVPDGVK   34 (145)
+Q Consensus        11 gifykvpgrmgvytlkkdvpdgvk   34 (145)
+                      +|+.+++|+..+|.+.. .||.++
+T Consensus        70 ~~~~~~~~~~~~~~f~~-~p~~~~   92 (93)
+T 1BC8_C           70 NIIKKVNGQKFVYKFVS-YPEILN   92 (93)
+T ss_dssp             TSEEECTTSTTEEEETT-TTGGGC
+T ss_pred             CeEEeeCCcccEEEEcC-CHHHhc
+Confidence            57788999999999854 566554
+
+
+No 4
+>2LF8_A Transcription factor ETV6; auto-inhibition, TRANSCRIPTION; NMR {Mus musculus}
+Probab=25.12  E-value=1e+02  Score=21.01  Aligned_cols=21  Identities=24%  Similarity=0.314  Sum_probs=17.5  Template_Neff=9.400
+
+Q ss_pred             CCCcccCCCCceEEEecCCCC
+Q tr|A0A5F9ZHC8|   10 EGIFYKVPGRMGVYTLKKDVP   30 (145)
+Q Consensus        10 egifykvpgrmgvytlkkdvp   30 (145)
+                      .+|+-+|+|+..+|.+..+..
+T Consensus        70 ~~i~~~v~g~r~~y~F~~~~~   90 (128)
+T 2LF8_A           70 LNIIRKEPGQRLLFRFMKTPD   90 (128)
+T ss_dssp             TTSEEECTTCSSEEEESSCHH
+T ss_pred             cCceeccCCCCcEEEecCCHH
+Confidence            478889999999999987654
+
+
+No 5
+>2DAO_A ETS domain, Transcription factor ETV6; NMR {Homo sapiens}
+Probab=24.92  E-value=1.1e+02  Score=20.22  Aligned_cols=27  Identities=26%  Similarity=0.417  Sum_probs=19.9  Template_Neff=9.700
+
+Q ss_pred             CCcccCCCCceEEEecCCCCCCCccCCC
+Q tr|A0A5F9ZHC8|   11 GIFYKVPGRMGVYTLKKDVPDGVKELSE   38 (145)
+Q Consensus        11 gifykvpgrmgvytlkkdvpdgvkelse   38 (145)
+                      +|+.+|+|+..+|.+..+ |+.++...+
+T Consensus        75 ~i~~kv~g~r~~y~f~~~-p~~~~~~~~  101 (118)
+T 2DAO_A           75 NIIRKEPGQRLLFRFMKT-PDEIMSGRT  101 (118)
+T ss_dssp             TSEECCSSSSSEEEECSC-SGGGCCCSS
+T ss_pred             CcEeccCCCccEEEecCC-HHHHhcCCc
+Confidence            688899999999999876 444444433
+
+
+No 6
+>4MHG_A PROTEIN/DNA Complex; ETS domain, Transcription Factor, TRANSCRIPTION-DNA; 2.199A {Mus musculus}
+Probab=23.10  E-value=1.3e+02  Score=18.62  Aligned_cols=19  Identities=26%  Similarity=0.391  Sum_probs=16.0  Template_Neff=10.500
+
+Q ss_pred             CCCcccCCCCceEEEecCC
+Q tr|A0A5F9ZHC8|   10 EGIFYKVPGRMGVYTLKKD   28 (145)
+Q Consensus        10 egifykvpgrmgvytlkkd   28 (145)
+                      .+|+.+|+|+.-+|.+..+
+T Consensus        76 ~~i~~~~~g~~~~y~f~~~   94 (102)
+T 4MHG_A           76 LNIIRKEPGQRLLFRFMKT   94 (102)
+T ss_dssp             TTSEEECTTSTTEEEESSC
+T ss_pred             cCcEEccCCCccEEEecCC
+Confidence            4788999999999998655
+
+
+No 7
+>1HBX_G SERUM RESPONSE FACTOR, ETS-DOMAIN PROTEIN; GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM; 3.15A {HOMO SAPIENS} SCOP: a.4.5.21
+Probab=21.41  E-value=5.5e+02  Score=18.93  Aligned_cols=22  Identities=32%  Similarity=0.427  Sum_probs=16.7  Template_Neff=8.500
+
+Q ss_pred             CCCcccCCCCceEEEecCCCCCC
+Q tr|A0A5F9ZHC8|   10 EGIFYKVPGRMGVYTLKKDVPDG   32 (145)
+Q Consensus        10 egifykvpgrmgvytlkkdvpdg   32 (145)
+                      .+|+-||+|+.-||.+.. .|+.
+T Consensus        70 ~~il~kv~g~r~vy~f~~-~p~~   91 (157)
+T 1HBX_G           70 KNIIKKVNGQKFVYKFVS-YPEI   91 (157)
+T ss_dssp             TTSEEECSSCTTEEEESS-TTGG
+T ss_pred             heeeeEeCCcccEEEEcC-CHHH
+Confidence            468889999999999853 3443
+
+
+No 8
+>1HBX_H SERUM RESPONSE FACTOR, ETS-DOMAIN PROTEIN; GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM; 3.15A {HOMO SAPIENS} SCOP: a.4.5.21
+Probab=21.41  E-value=5.5e+02  Score=18.93  Aligned_cols=22  Identities=32%  Similarity=0.427  Sum_probs=16.4  Template_Neff=8.500
+
+Q ss_pred             CCCcccCCCCceEEEecCCCCCC
+Q tr|A0A5F9ZHC8|   10 EGIFYKVPGRMGVYTLKKDVPDG   32 (145)
+Q Consensus        10 egifykvpgrmgvytlkkdvpdg   32 (145)
+                      .+|+-||+|+.-||.+.. .|+.
+T Consensus        70 ~~il~kv~g~r~vy~f~~-~p~~   91 (157)
+T 1HBX_H           70 KNIIKKVNGQKFVYKFVS-YPEI   91 (157)
+T ss_dssp             HTSCEECSSSTTEEECSS-TTTT
+T ss_pred             heeeeEeCCcccEEEEcC-CHHH
+Confidence            367889999999999853 3443
+
+
+No 9
+>7OKX_O Pol II, Super elongation complex; 3.3A {Sus scrofa}
+Probab=18.50  E-value=1.1e+03  Score=21.16  Aligned_cols=7  Identities=57%  Similarity=0.686  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CCCCCCC
+Q tr|A0A5F9ZHC8|   44 SDGQSDS   50 (145)
+Q Consensus        44 sdgqsds   50 (145)
+                      +|+.||+
+T Consensus       190 ~~sss~s  196 (268)
+T 7OKX_O          190 SSGSSSS  196 (268)
+T ss_dssp             -------
+T ss_pred             CCCCcCC
+Confidence            3333443
+
+
+No 10
+>7OKY_O Pol II, Super elongation complex; 4.14A {Sus scrofa}
+Probab=18.50  E-value=1.1e+03  Score=21.16  Aligned_cols=70  Identities=26%  Similarity=0.303  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCCCCcccChhHhHHHHH
+Q tr|A0A5F9ZHC8|   43 SSDGQSDSQSSENSSSSSDGGSNKEGKKSRWKRKVSSSSPQSGCPSPTIPAGKVISPSQKHSKKALKQALK  113 (145)
+Q Consensus        43 ssdgqsdsqssensssssdggsnkegkksrwkrkvsssspqsgcpsptipagkvispsqkhskkalkqalk  113 (145)
+                      ++|+.||+.++. +|++.|..+.-++..-+-+.-......+..+..+.+.+|.-....--+--..|+.-|.
+T Consensus       189 s~~sss~s~sss-ss~s~d~ssss~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lmntlr~dlq  258 (268)
+T 7OKY_O          189 SSSGSSSSDSES-SSGSDDDSSSSGGEDNGPASPPQPSHQQPYNSRPAVANGTSRPQGSNQLMNTLRNDLQ  258 (268)
+T ss_dssp             -----------------------------------------------------------------------
+T ss_pred             cCCCCcCCCCcc-ccCCCCccccCCCCCCCCCCCCCCCCCCCCCCCCCcccCCCCCCCccccchhhhhhhh
+
+

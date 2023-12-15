@@ -1,0 +1,170 @@
+Query         sp|Q9UIG5|PS1C1_HUMAN
+Match_columns 152
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:37:01 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1375.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5ZE8_A cytochrome c552; cytoch  21.7      90 0.00098   25.2   0.9   30   45-74    257-290 (435)
+  2 4EPP_A Poly(ADP-ribose) glycoh  21.2      32 0.00035   30.2  -1.7   29   79-108   269-301 (477)
+  3 4L2H_A Poly(ADP-ribose) glycoh  19.6      51 0.00055   29.1  -0.9   31   78-109   268-302 (477)
+  4 2D7T_L anti polyhydroxybutyrat  17.3 1.1E+02  0.0012   16.9   0.4    8   50-57    108-115 (116)
+  5 5A7R_A POLY(ADP-RIBOSE) GLYCOH  10.7      80 0.00087   28.7  -2.0   34   78-112   303-339 (531)
+  6 6QE0_A Ribosomal RNA large sub   8.3 4.5E+02  0.0049   20.5   1.3   19   47-65      2-20  (283)
+  7 3CPJ_B Rab GTPase, prenylation   8.0   5E+02  0.0054   17.5   1.3   24  120-143   190-213 (223)
+  8 4FC2_D Poly(ADP-ribose) glycoh   7.6 1.1E+02  0.0012   27.6  -2.3   33   79-112   304-339 (521)
+  9 3KVO_B Hydroxysteroid dehydrog   7.2 1.3E+03   0.014   17.8   3.3   11  114-124   333-343 (346)
+ 10 7KG8_A Poly(ADP-ribose) glycoh   6.6 1.8E+02  0.0019   26.5  -1.6   30   79-109   304-336 (531)
+
+No 1
+>5ZE8_A cytochrome c552; cytochrome c, multiheme, purple sulfur; HET: HEC; 1.6A {Thermochromatium tepidum}
+Probab=21.66  E-value=90  Score=25.23  Aligned_cols=30  Identities=30%  Similarity=0.522  Sum_probs=22.9  Template_Neff=10.200
+
+Q ss_pred             cCCCCCCC----CCccchhhHHHHhchhhccccC
+Q sp|Q9UIG5|PS1C   45 RLCHMEPA----NHFWHAGDLQAMISKEFHLAAT   74 (152)
+Q Consensus        45 rlchmepa----nhfwhagdlqamiskefhlaat   74 (152)
+                      .-|||.+.    +|.|..+.-+.|+.+.+.+...
+T Consensus       257 ~~CHmp~~~~~~~H~f~g~~~~~~l~~a~~~~~~  290 (435)
+T 5ZE8_A          257 QTCHMPVAGGFADHSMGGGHHEAMLKRSIVFDLT  290 (435)
+T ss_dssp             HHHHSCEETTEECCCCCCTTCHHHHHHTEEEEEE
+T ss_pred             cccCCCCCCCCCCCccCCCccHHHHhhcEEEEEE
+Confidence            35899876    7999998888888777655544
+
+
+No 2
+>4EPP_A Poly(ADP-ribose) glycohydrolase; Marco domain, PAR, HYDROLASE; HET: APR; 1.95A {Tetrahymena thermophila}
+Probab=21.23  E-value=32  Score=30.19  Aligned_cols=29  Identities=34%  Similarity=0.536  Sum_probs=21.9  Template_Neff=8.100
+
+Q ss_pred             cCCCChhcccCCCCChhhccccC----CCCHHHH
+Q sp|Q9UIG5|PS1C   79 RKGRTQEDILVPSSHPELFASVL----PMAPEEA  108 (152)
+Q Consensus        79 rkgrtqedilvpsshpelfasvl----pmapeea  108 (152)
+                      +.|.+||+|+. ..+||++++.+    +|...|+
+T Consensus       269 ~~g~~QEEilf-~~~PEl~vs~l~~~~~l~~~E~  301 (477)
+T 4EPP_A          269 GNGLVQEEIRF-CVCPEMLVSLLVFDQSMEANEV  301 (477)
+T ss_dssp             TTCCSHHHHHH-HHCGGGGGGGGTCCSCCCTTEE
+T ss_pred             CCCccHHHHHH-HHCHHHHHHHHHHhhhhccchH
+Confidence            46789999997 67899999887    4444444
+
+
+No 3
+>4L2H_A Poly(ADP-ribose) glycohydrolase (E.C.3.2.1.143); macrodomain, poly-ADP-ribose glycohydrolase, poly-ADP-ribose, HYDROLASE; HET: AR6; 1.46A {Tetrahymena thermophila}
+Probab=19.60  E-value=51  Score=29.11  Aligned_cols=31  Identities=32%  Similarity=0.458  Sum_probs=23.1  Template_Neff=8.000
+
+Q ss_pred             hcCCCChhcccCCCCChhhccccC----CCCHHHHh
+Q sp|Q9UIG5|PS1C   78 CRKGRTQEDILVPSSHPELFASVL----PMAPEEAA  109 (152)
+Q Consensus        78 crkgrtqedilvpsshpelfasvl----pmapeeaa  109 (152)
+                      .+.|.+||+|+. ..+||++++.+    +|...|+-
+T Consensus       268 l~~g~~QEEi~f-~~~PEl~vs~l~~~~~l~~~Eai  302 (477)
+T 4L2H_A          268 LGNGLVQEQIRF-CVCPEMLVSLLVFDQSMEANEVI  302 (477)
+T ss_dssp             GTTCCSHHHHHH-HHCGGGGGHHHHCCSCCCTTEEE
+T ss_pred             CCCCchHHHHHH-HHCHHHHHHHHHHHhhcCcccHH
+Confidence            456889999997 67899998887    45555543
+
+
+No 4
+>2D7T_L anti polyhydroxybutyrate antibody Fv, heavy; antibody, plastic, polyhydroxybutyrate, IMMUNE SYSTEM; 1.7A {Homo sapiens}
+Probab=17.28  E-value=1.1e+02  Score=16.88  Aligned_cols=8  Identities=38%  Similarity=0.642  Sum_probs=1.3  Template_Neff=13.200
+
+Q ss_pred             CCCCCccc
+Q sp|Q9UIG5|PS1C   50 EPANHFWH   57 (152)
+Q Consensus        50 epanhfwh   57 (152)
+                      .-+|+|||
+T Consensus       108 ~~~~~~~~  115 (116)
+T 2D7T_L          108 RAAHHHHH  115 (116)
+T ss_dssp             CCC-----
+T ss_pred             ehhcCCCC
+Confidence            34455555
+
+
+No 5
+>5A7R_A POLY(ADP-RIBOSE) GLYCOHYDROLASE (E.C.3.2.1.143); HYDROLASE, PARG, ADP-RIBOSE; HET: PPI, AR6, SO4, GOL; 1.95A {HOMO SAPIENS}
+Probab=10.71  E-value=80  Score=28.72  Aligned_cols=34  Identities=29%  Similarity=0.339  Sum_probs=23.8  Template_Neff=7.600
+
+Q ss_pred             hcCCCChhcccCCCCChhhccccC---CCCHHHHhcCC
+Q sp|Q9UIG5|PS1C   78 CRKGRTQEDILVPSSHPELFASVL---PMAPEEAARLQ  112 (152)
+Q Consensus        78 crkgrtqedilvpsshpelfasvl---pmapeeaarlq  112 (152)
+                      ...|.+||+|+. ..+|||+.+.|   +|...|+--..
+T Consensus       303 l~~g~~QEEi~f-~~~PEl~vs~lf~e~L~~~Eal~i~  339 (531)
+T 5A7R_A          303 TSAGLVQENIRF-LINPELIISRLFTEVLDHNECLIIT  339 (531)
+T ss_dssp             GTTCCSHHHHHH-HHSGGGGGHHHHBCCCCTTEEEEEE
+T ss_pred             CCCCccHHHHHH-HHCHHHHHHHHccccCCCCcEEEEe
+Confidence            346778999997 56899998876   55555554333
+
+
+No 6
+>6QE0_A Ribosomal RNA large subunit methyltransferase; RNA MTases, methyltransferase, m6A, transition; HET: HZ2; 1.394A {Escherichia coli}
+Probab=8.28  E-value=4.5e+02  Score=20.49  Aligned_cols=19  Identities=32%  Similarity=0.564  Sum_probs=15.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCCCCccchhhHHHHh
+Q sp|Q9UIG5|PS1C   47 CHMEPANHFWHAGDLQAMI   65 (152)
+Q Consensus        47 chmepanhfwhagdlqami   65 (152)
+                      ++|..-.|.+|+|.....+
+T Consensus         2 ~~~~~y~h~~~aGn~~dv~   20 (283)
+T 6QE0_A            2 SHMLSYRHSFHAGNHADVL   20 (283)
+T ss_dssp             TTSCCCEECSSTTSHHHHH
+T ss_pred             CCCccccchhcCcCHHHHH
+Confidence            5788888999999876554
+
+
+No 7
+>3CPJ_B Rab GTPase, prenylation, vesicular transport; HET: GDP; 2.35A {Saccharomyces cerevisiae}
+Probab=7.96  E-value=5e+02  Score=17.55  Aligned_cols=24  Identities=25%  Similarity=0.347  Sum_probs=3.9  Template_Neff=11.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|Q9UIG5|PS1C  120 PSGIHLSASRTLAPTLLYSSPPSH  143 (152)
+Q Consensus       120 psgihlsasrtlaptllyssppsh  143 (152)
+                      |++=--++|..-.+++.|++-|..
+T Consensus       190 ~~~~~~~~~~~~~~~~~~~~~~~~  213 (223)
+T 3CPJ_B          190 ANGNANGASAPNGPTISLTPTPNE  213 (223)
+T ss_dssp             -------------CCBCC------
+T ss_pred             cccCccCCCCCCCCeeecCCCccc
+Confidence            333344455555577777765543
+
+
+No 8
+>4FC2_D Poly(ADP-ribose) glycohydrolase (E.C.3.2.1.143); mouse, PARG, poly(ADP-ribose) glycohydrolase, HYDROLASE; HET: SO4, MSE; 1.91A {Mus musculus}
+Probab=7.64  E-value=1.1e+02  Score=27.57  Aligned_cols=33  Identities=30%  Similarity=0.360  Sum_probs=23.1  Template_Neff=7.800
+
+Q ss_pred             cCCCChhcccCCCCChhhccccC---CCCHHHHhcCC
+Q sp|Q9UIG5|PS1C   79 RKGRTQEDILVPSSHPELFASVL---PMAPEEAARLQ  112 (152)
+Q Consensus        79 rkgrtqedilvpsshpelfasvl---pmapeeaarlq  112 (152)
+                      ..|-+||+|+. ..+|||+.+.+   +|...|+-...
+T Consensus       304 ~~g~~QEEi~f-~~~PEl~vs~lf~e~l~~~Eal~i~  339 (521)
+T 4FC2_D          304 GAGLVQEEIRF-LINPELIVSRLFTEVLDHNECLIIT  339 (521)
+T ss_dssp             TTCCSHHHHHH-HHSGGGGGHHHHBCCCCTTEEEEEE
+T ss_pred             CCCchHHHHHH-HHCHHHHHHHHhccccCCCceEEEc
+Confidence            35778999997 56899998865   55555554443
+
+
+No 9
+>3KVO_B Hydroxysteroid dehydrogenase-like protein 2 (E.C.1.-.-.-); HSDL2, human Hydroxysteroid dehydrogenase like; HET: NAP; 2.25A {Homo sapiens}
+Probab=7.22  E-value=1.3e+03  Score=17.77  Aligned_cols=11  Identities=27%  Similarity=0.667  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCC
+Q sp|Q9UIG5|PS1C  114 PQPLPPPSGIH  124 (152)
+Q Consensus       114 pqplpppsgih  124 (152)
+                      .+|.|||..|+
+T Consensus       333 ~~~~~~~~~~~  343 (346)
+T 3KVO_B          333 RTRAPPPPPLR  343 (346)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCCCC
+Confidence            66777777776
+
+
+No 10
+>7KG8_A Poly(ADP-ribose) glycohydrolase (E.C.3.2.1.143); HYDROLASE, hydrolase inhibitor complex, methyl; HET: DMS, SO4, WDM, CME; 1.43A {Homo sapiens}
+Probab=6.63  E-value=1.8e+02  Score=26.50  Aligned_cols=30  Identities=33%  Similarity=0.390  Sum_probs=21.4  Template_Neff=7.800
+
+Q ss_pred             cCCCChhcccCCCCChhhccccC---CCCHHHHh
+Q sp|Q9UIG5|PS1C   79 RKGRTQEDILVPSSHPELFASVL---PMAPEEAA  109 (152)
+Q Consensus        79 rkgrtqedilvpsshpelfasvl---pmapeeaa  109 (152)
+                      ..|-+||+|+. ..+|||+.+.|   +|...|+-
+T Consensus       304 ~~g~~QEEi~f-~~~PEL~vs~lf~e~L~~~Eal  336 (531)
+T 7KG8_A          304 SAGLVQEEIRF-LINPELIISRLFTEVLDHNECL  336 (531)
+T ss_dssp             TTCCSHHHHHH-HHSGGGGGHHHHBCCCCTTEEE
+T ss_pred             CCCCcHHHHHH-HHCHHHHHHHHhhccCCCCeEE
+Confidence            35678999997 45899998876   45555543
+
+

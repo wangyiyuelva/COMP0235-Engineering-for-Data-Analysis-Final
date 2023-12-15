@@ -1,0 +1,169 @@
+Query         tr|C9IZE6|C9IZE6_HUMAN
+Match_columns 17
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:59:19 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1190.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4NWR_2 integron gene cassette   17.1 1.3E+02  0.0014   17.2   0.6   12    1-12      1-12  (158)
+  2 4NWR_E integron gene cassette   17.1 1.3E+02  0.0014   17.2   0.6   11    1-11      1-11  (158)
+  3 6HM3_B S-M checkpoint control   16.7 1.1E+02  0.0011   14.3   0.2   10    3-12     16-25  (30)
+  4 4BMW_A EXTRACELLULAR HAEM-BIND  16.5 2.5E+02  0.0027   14.2   1.5   14    2-15      4-17  (156)
+  5 1P9H_A Invasin; collagen-bindi  13.8 1.6E+02  0.0017   14.6   0.4   11    6-16     14-24  (226)
+  6 3R2J_B Alpha/beta-hydrolase-li   8.8 5.1E+02  0.0055   13.2   1.2   11    4-14     10-20  (227)
+  7 3R2J_C Alpha/beta-hydrolase-li   8.8 5.1E+02  0.0055   13.2   1.2   11    4-14     10-20  (227)
+  8 4XB6_B PhnG, PhnH, PhnI, PhnJ;   8.4 3.6E+02  0.0039   14.7   0.6   12    5-16    113-124 (194)
+  9 4XB6_F PhnG, PhnH, PhnI, PhnJ;   8.4 3.6E+02  0.0039   14.7   0.6   12    5-16    113-124 (194)
+ 10 5W94_B MAU2 chromatid cohesion   7.3 6.7E+02  0.0072   14.5   1.4   12    4-15      2-13  (184)
+
+No 1
+>4NWR_2 integron gene cassette protein, Macrophage; two-component, self-assembling, tetrahedron, designed protein; 3.5A {uncultured bacterium}
+Probab=17.14  E-value=1.3e+02  Score=17.25  Aligned_cols=12  Identities=50%  Similarity=0.609  Sum_probs=9.5  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|C9IZE6|C9IZ    1 MESTTTSFPNET   12 (17)
+Q Consensus         1 mestttsfpnet   12 (17)
+                      |||..++|+...
+T Consensus         1 ~~~~~~~~~~ps   12 (158)
+T 4NWR_2            1 MESVNTSFLSPS   12 (158)
+T ss_pred             CccccccCCCCc
+Confidence            788899998654
+
+
+No 2
+>4NWR_E integron gene cassette protein, Macrophage; two-component, self-assembling, tetrahedron, designed protein; 3.5A {uncultured bacterium}
+Probab=17.14  E-value=1.3e+02  Score=17.25  Aligned_cols=11  Identities=55%  Similarity=0.619  Sum_probs=7.4  Template_Neff=4.800
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|C9IZE6|C9IZ    1 MESTTTSFPNE   11 (17)
+Q Consensus         1 mestttsfpne   11 (17)
+                      |||..++|+..
+T Consensus         1 ~~~~~~~~~~p   11 (158)
+T 4NWR_E            1 MESVNTSFLSP   11 (158)
+T ss_dssp             SGCEEEEEEET
+T ss_pred             CccccccCCCC
+Confidence            67777777654
+
+
+No 3
+>6HM3_B S-M checkpoint control protein rad4; BRCT domain phosphopeptide recognition, cell; HET: TPO, GOL; 1.77263620528A {Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=16.74  E-value=1.1e+02  Score=14.30  Aligned_cols=10  Identities=30%  Similarity=0.537  Sum_probs=7.5  Template_Neff=2.100
+
+Q ss_pred             CCCCCCCCCC
+Q tr|C9IZE6|C9IZ    3 STTTSFPNET   12 (17)
+Q Consensus         3 stttsfpnet   12 (17)
+                      |.+++||+-.
+T Consensus        16 s~i~efP~~~   25 (30)
+T 6HM3_B           16 SVITELPDTP   25 (30)
+T ss_dssp             CCCCCCCCCC
+T ss_pred             ceeEecCCCC
+Confidence            5678998764
+
+
+No 4
+>4BMW_A EXTRACELLULAR HAEM-BINDING PROTEIN; METAL BINDING PROTEIN, OXIDATIVE STRESS; 1.99A {STREPTOMYCES RETICULI}
+Probab=16.51  E-value=2.5e+02  Score=14.15  Aligned_cols=14  Identities=21%  Similarity=0.280  Sum_probs=4.8  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCCCCCcc
+Q tr|C9IZE6|C9IZ    2 ESTTTSFPNETATI   15 (17)
+Q Consensus         2 estttsfpnetati   15 (17)
+                      -.+++.||+.+...
+T Consensus         4 ~~~~~~~~~~~~~~   17 (156)
+T 4BMW_A            4 ADTTEATPAAAPVA   17 (156)
+T ss_dssp             -------CCCCCCC
+T ss_pred             CCccccCCCCCCch
+Confidence            34667788887653
+
+
+No 5
+>1P9H_A Invasin; collagen-binding, left-handed beta-roll, CELL ADHESION; 1.55A {Yersinia enterocolitica} SCOP: b.81.3.1
+Probab=13.82  E-value=1.6e+02  Score=14.64  Aligned_cols=11  Identities=45%  Similarity=0.516  Sum_probs=5.8  Template_Neff=10.000
+
+Q ss_pred             CCCCCCCCccC
+Q tr|C9IZE6|C9IZ    6 TSFPNETATII   16 (17)
+Q Consensus         6 tsfpnetatii   16 (17)
+                      -+||+-+++++
+T Consensus        14 ~~~~~~~~~~~   24 (226)
+T 1P9H_A           14 DGIPNLTAVQI   24 (226)
+T ss_dssp             ---CCCCCEEE
+T ss_pred             ccccccceeEE
+Confidence            47888877654
+
+
+No 6
+>3R2J_B Alpha/beta-hydrolase-like protein (E.C.3.5.1.19); alpha/beta-hydrolase-like, nicotinamidase, cytoplasmic, Hydrolase; HET: NIO; 2.68A {Leishmania infantum}
+Probab=8.85  E-value=5.1e+02  Score=13.19  Aligned_cols=11  Identities=18%  Similarity=0.145  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCCCCc
+Q tr|C9IZE6|C9IZ    4 TTTSFPNETAT   14 (17)
+Q Consensus         4 tttsfpnetat   14 (17)
+                      .++|+|.+.+.
+T Consensus        10 ~~~~~~~~~~~   20 (227)
+T 3R2J_B           10 GTGSNDDDDKS   20 (227)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCcCC
+Confidence            35667766544
+
+
+No 7
+>3R2J_C Alpha/beta-hydrolase-like protein (E.C.3.5.1.19); alpha/beta-hydrolase-like, nicotinamidase, cytoplasmic, Hydrolase; HET: NIO; 2.68A {Leishmania infantum}
+Probab=8.85  E-value=5.1e+02  Score=13.19  Aligned_cols=11  Identities=18%  Similarity=0.145  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCCCCc
+Q tr|C9IZE6|C9IZ    4 TTTSFPNETAT   14 (17)
+Q Consensus         4 tttsfpnetat   14 (17)
+                      .++|+|.+.+.
+T Consensus        10 ~~~~~~~~~~~   20 (227)
+T 3R2J_C           10 GTGSNDDDDKS   20 (227)
+T ss_dssp             -----------
+T ss_pred             CCCCCCCCcCC
+Confidence            35677766554
+
+
+No 8
+>4XB6_B PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=8.42  E-value=3.6e+02  Score=14.65  Aligned_cols=12  Identities=42%  Similarity=0.526  Sum_probs=8.2  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCccC
+Q tr|C9IZE6|C9IZ    5 TTSFPNETATII   16 (17)
+Q Consensus         5 ttsfpnetatii   16 (17)
+                      +-.+|.+.||+|
+T Consensus       113 t~~~Pe~sATli  124 (194)
+T 4XB6_B          113 TAVAPEAGATLI  124 (194)
+T ss_dssp             CSSCTTSSCEEE
+T ss_pred             CCCCCCCCceEE
+Confidence            455677777765
+
+
+No 9
+>4XB6_F PhnG, PhnH, PhnI, PhnJ; protein complex, transferase; HET: SO4, CME; 1.7A {Escherichia coli str. K-12 substr. MG1655}
+Probab=8.42  E-value=3.6e+02  Score=14.65  Aligned_cols=12  Identities=42%  Similarity=0.526  Sum_probs=8.3  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCccC
+Q tr|C9IZE6|C9IZ    5 TTSFPNETATII   16 (17)
+Q Consensus         5 ttsfpnetatii   16 (17)
+                      +-.+|.+.||+|
+T Consensus       113 t~~~Pe~sATli  124 (194)
+T 4XB6_F          113 TAVAPEAGATLI  124 (194)
+T ss_dssp             CSSCTTSSCEEE
+T ss_pred             CCCCCCCCceEE
+Confidence            456777878765
+
+
+No 10
+>5W94_B MAU2 chromatid cohesion factor homolog; Cohesin, kinetochore, centromere, CELL CYCLE; HET: TPO, SEP; 3.193A {Saccharomyces cerevisiae}
+Probab=7.27  E-value=6.7e+02  Score=14.53  Aligned_cols=12  Identities=25%  Similarity=0.587  Sum_probs=6.7  Template_Neff=5.400
+
+Q ss_pred             CCCCCCCCCCcc
+Q tr|C9IZE6|C9IZ    4 TTTSFPNETATI   15 (17)
+Q Consensus         4 tttsfpnetati   15 (17)
+                      ...+||.|...|
+T Consensus         2 ~MssfPGE~tnI   13 (184)
+T 5W94_B            2 NAMSYPGKDKNI   13 (184)
+T ss_dssp             ---CCTTSSSSC
+T ss_pred             CcccCCCCCCCc
+Confidence            356899887654
+
+

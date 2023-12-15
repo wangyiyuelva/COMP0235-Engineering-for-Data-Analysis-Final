@@ -1,0 +1,170 @@
+Query         tr|A0A1W2PNY0|A0A1W2PNY0_HUMAN
+Match_columns 72
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 02:16:58 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0174.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4YTP_D FLAVOPROTEIN SUBUNIT OF  99.6   4E-16 4.3E-21  105.6   2.0   57    1-57      1-57  (159)
+  2 4YXD_D FLAVOPROTEIN SUBUNIT OF  99.6   4E-16 4.3E-21  105.6   2.0   57    1-57      1-57  (159)
+  3 5FLG_A 6-CARBOXYHEXANOATE--COA  35.3      63 0.00068   25.5   2.1   12   13-24    224-235 (260)
+  4 5FLG_B 6-CARBOXYHEXANOATE--COA  35.3      63 0.00068   25.5   2.1   12   13-24    224-235 (260)
+  5 5TV8_B 6-carboxyhexanoate--CoA  30.8      82 0.00089   24.7   2.0    9   13-21    211-219 (240)
+  6 5TVA_A 6-carboxyhexanoate--CoA  30.8      82 0.00089   24.7   2.0    8   14-21    212-219 (240)
+  7 5M2Y_A Uncharacterized protein  21.3 1.4E+02  0.0015   18.5   1.5   17   49-65     91-107 (130)
+  8 5M2Y_B Uncharacterized protein  21.3 1.4E+02  0.0015   18.5   1.5   17   49-65     91-107 (130)
+  9 2OB9_A Tail assembly chaperone  20.4 1.2E+02  0.0014   18.7   1.1    8   48-55     32-39  (130)
+ 10 5T53_A N-acetyltransferase ESC  20.1      65 0.00071   21.5  -0.1   13   43-55    168-180 (227)
+
+No 1
+>4YTP_D FLAVOPROTEIN SUBUNIT OF COMPLEX II; OXIDOREDUCTASE, SUCCINATE DEHYDROGENASE, Complex II; HET: FAD, E23, HEM; 3.1A {Sus scrofa}
+Probab=99.61  E-value=4e-16  Score=105.62  Aligned_cols=57  Identities=77%  Similarity=1.340  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCccchhhccccCCCceeecCCCCCChhhhhHHhCCCCCCchcCCceEEeCCCCcc
+Q tr|A0A1W2PNY0|    1 MAVLWRLSAVCGALGGRALLLRTPVVRPAHISAFLQDRPIPEWCGVQHIHLSPSHHC   57 (72)
+Q Consensus         1 mavlwrlsavcgalggralllrtpvvrpahisaflqdrpipewcgvqhihlspshhc   57 (72)
+                      ||+++|++.+|++||+++++|++++.||+.++++.+|+++|+++++++||+||++++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~   57 (159)
+T 4YTP_D            1 MATLWRLSVLCGARGGGALVLRTSVVRPAHVSAFLQDRHTPGWCGVQHIHLSPSHQA   57 (159)
+T ss_dssp             ---------------------------------------------------------
+T ss_pred             CchHHHHHHhhhccCchHHHhcCcCCCHHHHHHHhcCCCCCCcccccccccCCcccc
+Confidence            899999999999999999999999999999887889999997778999999999974
+
+
+No 2
+>4YXD_D FLAVOPROTEIN SUBUNIT OF COMPLEX II; OXIDOREDUCTASE, SUCCINATE DEHYDROGENASE, Complex II; HET: FAD, FTN, HEM; 3.0A {Sus scrofa}
+Probab=99.61  E-value=4e-16  Score=105.62  Aligned_cols=57  Identities=77%  Similarity=1.340  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCccchhhccccCCCceeecCCCCCChhhhhHHhCCCCCCchcCCceEEeCCCCcc
+Q tr|A0A1W2PNY0|    1 MAVLWRLSAVCGALGGRALLLRTPVVRPAHISAFLQDRPIPEWCGVQHIHLSPSHHC   57 (72)
+Q Consensus         1 mavlwrlsavcgalggralllrtpvvrpahisaflqdrpipewcgvqhihlspshhc   57 (72)
+                      ||+++|++.+|++||+++++|++++.||+.++++.+|+++|+++++++||+||++++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~   57 (159)
+T 4YXD_D            1 MATLWRLSVLCGARGGGALVLRTSVVRPAHVSAFLQDRHTPGWCGVQHIHLSPSHQA   57 (159)
+T ss_dssp             ---------------------------------------------------------
+T ss_pred             CchHHHHHHhhhccCchHHHhcCcCCCHHHHHHHhcCCCCCCcccccccccCCcccc
+Confidence            899999999999999999999999999999887889999997778999999999974
+
+
+No 3
+>5FLG_A 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=35.35  E-value=63  Score=25.54  Aligned_cols=12  Identities=17%  Similarity=0.346  Sum_probs=7.1  Template_Neff=5.100
+
+Q ss_pred             cCCCceeecCCC
+Q tr|A0A1W2PNY0|   13 ALGGRALLLRTP   24 (72)
+Q Consensus        13 alggralllrtp   24 (72)
+                      +.|+|.+|....
+T Consensus       224 ~~GGRvffv~~~  235 (260)
+T 5FLG_A          224 EEGCRVFFIDGS  235 (260)
+T ss_dssp             CCCEEEEEECCS
+T ss_pred             CCCcEEEEEcCC
+Confidence            367776666443
+
+
+No 4
+>5FLG_B 6-CARBOXYHEXANOATE--COA LIGASE (E.C.6.2.1.14); LIGASE; HET: PML, ANP; 2.04A {BACILLUS SUBTILIS}
+Probab=35.35  E-value=63  Score=25.54  Aligned_cols=12  Identities=17%  Similarity=0.346  Sum_probs=7.1  Template_Neff=5.100
+
+Q ss_pred             cCCCceeecCCC
+Q tr|A0A1W2PNY0|   13 ALGGRALLLRTP   24 (72)
+Q Consensus        13 alggralllrtp   24 (72)
+                      +.|+|.+|....
+T Consensus       224 ~~GGRvffv~~~  235 (260)
+T 5FLG_B          224 EEGCRVFFIDGS  235 (260)
+T ss_dssp             CCCEEEEEECCS
+T ss_pred             CCCcEEEEEcCC
+Confidence            367776666443
+
+
+No 5
+>5TV8_B 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: PML, APC; 2.55A {Aquifex aeolicus}
+Probab=30.75  E-value=82  Score=24.73  Aligned_cols=9  Identities=44%  Similarity=0.966  Sum_probs=5.1  Template_Neff=5.000
+
+Q ss_pred             cCCCceeec
+Q tr|A0A1W2PNY0|   13 ALGGRALLL   21 (72)
+Q Consensus        13 alggralll   21 (72)
+                      +.|+|.+|.
+T Consensus       211 ~~GGRvffv  219 (240)
+T 5TV8_B          211 PLGGRVYFV  219 (240)
+T ss_dssp             CCCEEEEEE
+T ss_pred             CCCcEEEEE
+Confidence            356666555
+
+
+No 6
+>5TVA_A 6-carboxyhexanoate--CoA ligase (E.C.6.2.1.14); Pimeloyl-CoA Ligase, adenylation, LIGASE; HET: COA, AMP; 2.25A {Aquifex aeolicus}
+Probab=30.75  E-value=82  Score=24.73  Aligned_cols=8  Identities=50%  Similarity=1.074  Sum_probs=4.7  Template_Neff=5.000
+
+Q ss_pred             CCCceeec
+Q tr|A0A1W2PNY0|   14 LGGRALLL   21 (72)
+Q Consensus        14 lggralll   21 (72)
+                      .|+|.+|.
+T Consensus       212 ~GGRvffv  219 (240)
+T 5TVA_A          212 LGGRVYFV  219 (240)
+T ss_dssp             CCEEEEEE
+T ss_pred             CCcEEEEE
+Confidence            56665555
+
+
+No 7
+>5M2Y_A Uncharacterized protein; T6SS TssK, nanobody, SECRETION PROTEIN; 1.61A {Escherichia coli (strain 55989 / EAEC)}
+Probab=21.28  E-value=1.4e+02  Score=18.55  Aligned_cols=17  Identities=18%  Similarity=0.139  Sum_probs=9.1  Template_Neff=9.100
+
+Q ss_pred             EEeCCCCcchhhhhccc
+Q tr|A0A1W2PNY0|   49 IHLSPSHHCWSAVVRSR   65 (72)
+Q Consensus        49 ihlspshhcwsavvrsr   65 (72)
+                      ......+..|..+.+++
+T Consensus        91 F~l~~~~~~W~~i~~~~  107 (130)
+T 5M2Y_A           91 FALDLSTDAARAMLDAG  107 (130)
+T ss_dssp             EEEEECHHHHHHHHHHT
+T ss_pred             EEEeCCCHHHHHHHHhC
+Confidence            33344445677666554
+
+
+No 8
+>5M2Y_B Uncharacterized protein; T6SS TssK, nanobody, SECRETION PROTEIN; 1.61A {Escherichia coli (strain 55989 / EAEC)}
+Probab=21.28  E-value=1.4e+02  Score=18.55  Aligned_cols=17  Identities=18%  Similarity=0.139  Sum_probs=9.1  Template_Neff=9.100
+
+Q ss_pred             EEeCCCCcchhhhhccc
+Q tr|A0A1W2PNY0|   49 IHLSPSHHCWSAVVRSR   65 (72)
+Q Consensus        49 ihlspshhcwsavvrsr   65 (72)
+                      ......+..|..+.+++
+T Consensus        91 F~l~~~~~~W~~i~~~~  107 (130)
+T 5M2Y_B           91 FALDLSTDAARAMLDAG  107 (130)
+T ss_dssp             EEEEECHHHHHHHHHHT
+T ss_pred             EEEeCCCHHHHHHHHhC
+Confidence            33344445677666554
+
+
+No 9
+>2OB9_A Tail assembly chaperone; Bacteriophage HK97, morphogenesis, tail assembly; HET: MSE; 2.3A {Enterobacteria phage HK97}
+Probab=20.38  E-value=1.2e+02  Score=18.73  Aligned_cols=8  Identities=13%  Similarity=0.218  Sum_probs=3.5  Template_Neff=9.100
+
+Q ss_pred             eEEeCCCC
+Q tr|A0A1W2PNY0|   48 HIHLSPSH   55 (72)
+Q Consensus        48 hihlspsh   55 (72)
+                      .++.-+..
+T Consensus        32 ~v~vr~ls   39 (130)
+T 2OB9_A           32 KVVLREPS   39 (130)
+T ss_dssp             EEEEECCC
+T ss_pred             EEEEeCCC
+Confidence            44444433
+
+
+No 10
+>5T53_A N-acetyltransferase ESCO1 (E.C.2.3.1.-); Acetyltransferase, Cohesin, ESCO1, SMC3, TRANSFERASE; HET: ACO; 2.699A {Homo sapiens}
+Probab=20.09  E-value=65  Score=21.50  Aligned_cols=13  Identities=23%  Similarity=0.516  Sum_probs=9.0  Template_Neff=9.500
+
+Q ss_pred             hcCCceEEeCCCC
+Q tr|A0A1W2PNY0|   43 WCGVQHIHLSPSH   55 (72)
+Q Consensus        43 wcgvqhihlspsh   55 (72)
+                      .++..+|.++|.+
+T Consensus       168 ~~gI~riwV~p~~  180 (227)
+T 5T53_A          168 ICGISRIWVFSMM  180 (227)
+T ss_dssp             EEEEEEEEECGGG
+T ss_pred             EEEEEeeecCHHH
+Confidence            3557778877766
+
+

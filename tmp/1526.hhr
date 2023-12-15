@@ -1,0 +1,165 @@
+Query         tr|E9PPL2|E9PPL2_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:42:24 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1526.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U42_6F Tubulin beta, Tubulin   18.3      97  0.0011   20.5   0.4   15   23-37      9-23  (403)
+  2 7RRO_F cilia, microtubule, dyn  17.4 1.2E+02  0.0014   20.9   0.7   14   22-35      7-20  (321)
+  3 2CGQ_A ACYL CARRIER PROTEIN AC  15.5 1.6E+02  0.0018   14.2   0.7    6   42-47      1-6   (113)
+  4 6YXY_Bf bL28m, uL29m, uL30m, b  11.3 2.2E+02  0.0024   19.9   0.6   13    7-19    100-112 (113)
+  5 2D9G_A zf-RanBP domain, YY1-as   9.7 3.5E+02  0.0038   11.8   0.8    9   19-27     43-51  (53)
+  6 2OXC_B Probable ATP-dependent    9.1 6.6E+02  0.0072   13.6   1.8   15    1-15      2-16  (230)
+  7 3B7G_A Probable ATP-dependent    9.1 6.6E+02  0.0072   13.6   1.8   15    1-15      2-16  (230)
+  8 4XS9_B DpsC propionyl phosphop   8.9 8.9E+02  0.0097   14.9   3.0   22    1-22      1-22  (373)
+  9 5HT6_B Histone-lysine N-methyl   8.7 4.8E+02  0.0052   11.7   1.1    6   17-22      7-12  (138)
+ 10 6GAW_Ad Mitochondrial ribosoma   8.3 1.1E+03   0.012   16.1   3.1   30   13-44      9-38  (205)
+
+No 1
+>6U42_6F Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=18.26  E-value=97  Score=20.47  Aligned_cols=15  Identities=33%  Similarity=0.623  Sum_probs=10.4  Template_Neff=10.100
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP   23 QSLRSGNWSERKSHR   37 (47)
+Q Consensus        23 qslrsgnwserkshr   37 (47)
+                      ...+-|||.|....+
+T Consensus         9 ~~~~ignW~E~~~~~   23 (403)
+T 6U42_6F           9 ASCLIGNWAEDRELQ   23 (403)
+T ss_pred             CCCcCCCcHHHHHHH
+Confidence            346789999876543
+
+
+No 2
+>7RRO_F cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=17.37  E-value=1.2e+02  Score=20.91  Aligned_cols=14  Identities=36%  Similarity=0.712  Sum_probs=10.1  Template_Neff=8.100
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP   22 SQSLRSGNWSERKS   35 (47)
+Q Consensus        22 sqslrsgnwserks   35 (47)
+                      +...|-|||.|...
+T Consensus         7 ~~~v~iGNW~Ed~~   20 (321)
+T 7RRO_F            7 GPRVRIGNWNEDVY   20 (321)
+T ss_pred             CCCccCCCccHHHH
+Confidence            44568899998654
+
+
+No 3
+>2CGQ_A ACYL CARRIER PROTEIN ACPA; RV0033, ACYL CARRIER PROTEIN, PROTEIN; 1.83A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=15.45  E-value=1.6e+02  Score=14.19  Aligned_cols=6  Identities=50%  Similarity=0.733  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCCCC
+Q tr|E9PPL2|E9PP   42 PKRHSH   47 (47)
+Q Consensus        42 pkrhsh   47 (47)
+                      ||||++
+T Consensus         1 ~~~~~~    6 (113)
+T 2CGQ_A            1 MKHHHH    6 (113)
+T ss_dssp             ------
+T ss_pred             CCCCCC
+Confidence            355553
+
+
+No 4
+>6YXY_Bf bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, SPD, ATP; 3.1A {Trypanosoma brucei brucei}
+Probab=11.35  E-value=2.2e+02  Score=19.93  Aligned_cols=13  Identities=54%  Similarity=0.887  Sum_probs=10.2  Template_Neff=1.800
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP    7 RKYNSPPTQLSLK   19 (47)
+Q Consensus         7 rkynspptqlslk   19 (47)
+                      -|||-.||.+||.
+T Consensus       100 ykynvspTh~sLR  112 (113)
+T 6YXY_Bf         100 YKYNVSPTHFSLR  112 (113)
+T ss_pred             EEeecCCcccccC
+Confidence            3788888888875
+
+
+No 5
+>2D9G_A zf-RanBP domain, YY1-associated factor 2; HET: ZN; NMR {Homo sapiens}
+Probab=9.67  E-value=3.5e+02  Score=11.76  Aligned_cols=9  Identities=56%  Similarity=0.449  Sum_probs=5.9  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCC
+Q tr|E9PPL2|E9PP   19 KPNSQSLRS   27 (47)
+Q Consensus        19 kpnsqslrs   27 (47)
+                      .||||-..+
+T Consensus        43 R~~SqL~~~   51 (53)
+T 2D9G_A           43 RPVSQSGPS   51 (53)
+T ss_dssp             CCCCCCCCS
+T ss_pred             CCcccCCCC
+Confidence            477876654
+
+
+No 6
+>2OXC_B Probable ATP-dependent RNA helicase DDX20; RNA, HELICASE, DEAD, STRUCTURAL GENOMICS; HET: ADP; 1.3A {Homo sapiens}
+Probab=9.08  E-value=6.6e+02  Score=13.60  Aligned_cols=15  Identities=27%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP    1 MWSPQDRKYNSPPTQ   15 (47)
+Q Consensus         1 mwspqdrkynspptq   15 (47)
+                      ||++++..-.++.+.
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (230)
+T 2OXC_B            2 MRTAQDLSSPRTRTG   16 (230)
+T ss_dssp             ---------------
+T ss_pred             CcchhhccCCCcCCC
+Confidence            455555544444433
+
+
+No 7
+>3B7G_A Probable ATP-dependent RNA helicase DDX20; RNA, HELICASE, DEAD, CONSERVED DOMAIN; HET: ANP; 1.9A {Homo sapiens}
+Probab=9.08  E-value=6.6e+02  Score=13.60  Aligned_cols=15  Identities=27%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP    1 MWSPQDRKYNSPPTQ   15 (47)
+Q Consensus         1 mwspqdrkynspptq   15 (47)
+                      ||++++..-.++.+.
+T Consensus         2 ~~~~~~~~~~~~~~~   16 (230)
+T 3B7G_A            2 MRTAQDLSSPRTRTG   16 (230)
+T ss_dssp             ---------------
+T ss_pred             CcchhhccCCCcCCC
+Confidence            455555544444433
+
+
+No 8
+>4XS9_B DpsC propionyl phosphopantetheine analogue co-crystal; polyketide, daunorubicin, natural product, starter; HET: 42X; 2.002A {Streptomyces peucetius}
+Probab=8.87  E-value=8.9e+02  Score=14.92  Aligned_cols=22  Identities=18%  Similarity=-0.073  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP    1 MWSPQDRKYNSPPTQLSLKPNS   22 (47)
+Q Consensus         1 mwspqdrkynspptqlslkpns   22 (47)
+                      |.|+.+--++.+++.......+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~   22 (373)
+T 4XS9_B            1 MGSSHHHHHHSSGLVPRGSHMS   22 (373)
+T ss_dssp             ----------------------
+T ss_pred             CCCCccccccCCCccccCCcCc
+Confidence            4566666667777666655443
+
+
+No 9
+>5HT6_B Histone-lysine N-methyltransferase 2E (E.C.2.1.1.43); SET domain, Transferase; 2.093A {Homo sapiens}
+Probab=8.67  E-value=4.8e+02  Score=11.68  Aligned_cols=6  Identities=33%  Similarity=0.490  Sum_probs=0.0  Template_Neff=13.800
+
+Q ss_pred             CCCCCC
+Q tr|E9PPL2|E9PP   17 SLKPNS   22 (47)
+Q Consensus        17 slkpns   22 (47)
+                      .+++..
+T Consensus         7 ~~~~~~   12 (138)
+T 5HT6_B            7 LFKPPV   12 (138)
+T ss_dssp             ------
+T ss_pred             cccCCe
+Confidence            333333
+
+
+No 10
+>6GAW_Ad Mitochondrial ribosomal protein L12, Mitochondrial; translation initiation, initiation factor IF2; HET: SPM, MG, 5GP, GTP, GSP, FME; 3.2A {Sus scrofa}
+Probab=8.30  E-value=1.1e+03  Score=16.13  Aligned_cols=30  Identities=13%  Similarity=0.057  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|E9PPL2|E9PP   13 PTQLSLKPNSQSLRSGNWSERKSHRLPRLPKR   44 (47)
+Q Consensus        13 ptqlslkpnsqslrsgnwserkshrlprlpkr   44 (47)
+                      +.|+...|++..+.+--|  ||..-+|.-+..
+T Consensus         9 ~~~~~~~~~~~~~~~vR~--RKPrw~P~AkSK   38 (205)
+T 6GAW_Ad           9 GARPAGRLPAPLLLPTRG--RKTRHDPPAKSK   38 (205)
+T ss_pred             CCCCCCCCCCCceecCCC--CCCCCCCCCCcc
+
+

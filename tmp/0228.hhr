@@ -1,0 +1,170 @@
+Query         tr|B3KVY5|B3KVY5_HUMAN
+Match_columns 132
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:15:52 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0228.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2ODI_A R.BcnI/DNA Complex; END  42.5      68 0.00074   26.0   3.3   47   20-72    134-185 (238)
+  2 2Q10_B R.BcnI/DNA Complex; END  42.5      68 0.00074   26.0   3.3   47   20-72    134-185 (238)
+  3 5ZQ8_A Uncharacterized RNA met  29.5 4.6E+02   0.005   21.3   6.0   41   13-53     23-63  (454)
+  4 3NRF_A ApaG protein; Structura  27.6      89 0.00097   23.4   1.7   34   49-82      7-40  (106)
+  5 3NRF_B ApaG protein; Structura  27.6      89 0.00097   23.4   1.7   34   49-82      7-40  (106)
+  6 5XJ1_A Uncharacterized RNA met  23.6 6.6E+02  0.0072   20.7   5.9   30   14-43     24-53  (454)
+  7 2FO1_D Lin-12 and glp-1 phenot  21.1      89 0.00097   24.3   0.8   16  101-116    53-68  (85)
+  8 2EMB_A zf-C2H2, Structural Gen  18.5 1.4E+02  0.0016   11.4   0.9    9   96-104     1-9   (44)
+  9 2GMQ_A EF0006; Enterococcus fa  15.6 4.3E+02  0.0047   21.7   3.4   37    3-39     56-92  (118)
+ 10 3HI2_B HTH-type transcriptiona  15.5 3.6E+02   0.004   17.9   2.5   21   15-36     79-99  (101)
+
+No 1
+>2ODI_A R.BcnI/DNA Complex; ENDONUCLEASE-DNA COMPLEX, RESTRICTION ENZYME, BCNI; HET: MSE; 1.45A {Brevibacillus centrosporus}
+Probab=42.46  E-value=68  Score=26.04  Aligned_cols=47  Identities=17%  Similarity=0.291  Sum_probs=27.3  Template_Neff=7.000
+
+Q ss_pred             EEEEeccCCEEEEEEEeCCCceEEEEEeeeeeeecCCCcc-----cccCCcceechhh
+Q tr|B3KVY5|B3KV   20 LFIKDVIGDEICCWSFYGQGRKIAEVCCTSIVYATEKKQT-----KVEFPEARIYEET   72 (132)
+Q Consensus        20 lfikdvigdeiccwsfygqgrkiaevcctsivyatekkqt-----kvefpeariyeet   72 (132)
+                      +++.|.-+ .++.|+|-  .+|.++.|   .|.|..+++.     ..-|.++..++.+
+T Consensus       134 i~l~~~~~-~~a~W~~~--~~K~~~~~---~V~a~~~~~~~~~~e~f~y~~~~~~~~~  185 (238)
+T 2ODI_A          134 INLYYQDE-YLSTWDLN--LSKIEKLV---LVFAETIGRANSPEEQFHFTKAYMLTEI  185 (238)
+T ss_dssp             EEEEETTE-EEEEECCC--CGGGSSEE---EEEEEEESSTTSTTCEEEEEEEEEEEEE
+T ss_pred             EEEEeCCC-ceEEEEcc--hhhcCeEE---EEEEEEeCCCCCCCeEEEecchhhhcCH
+Confidence            33455333 67999999  88888644   3444444332     3345566666554
+
+
+No 2
+>2Q10_B R.BcnI/DNA Complex; ENDONUCLEASE-DNA COMPLEX, RESTRICTION ENZYME, BCNI; 1.75A {Brevibacillus centrosporus}
+Probab=42.46  E-value=68  Score=26.04  Aligned_cols=47  Identities=17%  Similarity=0.291  Sum_probs=27.4  Template_Neff=7.000
+
+Q ss_pred             EEEEeccCCEEEEEEEeCCCceEEEEEeeeeeeecCCCcc-----cccCCcceechhh
+Q tr|B3KVY5|B3KV   20 LFIKDVIGDEICCWSFYGQGRKIAEVCCTSIVYATEKKQT-----KVEFPEARIYEET   72 (132)
+Q Consensus        20 lfikdvigdeiccwsfygqgrkiaevcctsivyatekkqt-----kvefpeariyeet   72 (132)
+                      +++.|.-+ .++.|+|-  .+|.++.|   .|.|..+++.     ..-|.++..++.+
+T Consensus       134 i~l~~~~~-~~a~W~~~--~~K~~~~~---~V~a~~~~~~~~~~e~f~y~~~~~~~~~  185 (238)
+T 2Q10_B          134 INLYYQDE-YLSTWDLN--LSKIEKLV---LVFAETIGRANSPEEQFHFTKAYMLTEI  185 (238)
+T ss_dssp             EEEEETTE-EEEEECCC--CGGGSSEE---EEEEEEESSTTSTTCEEEEEEEEEEEEE
+T ss_pred             EEEEeCCC-ceEEEEcc--hhhcCeEE---EEEEEEeCCCCCCCeEEEecchhhhcCH
+Confidence            33455333 67999999  88888644   3444444332     3445566666554
+
+
+No 3
+>5ZQ8_A Uncharacterized RNA methyltransferase SP_1029/RNA Complex; methyltransferase, ribosome, 23S RNA, Streptococcus; HET: SAH, MUM; 2.18A {Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)}
+Probab=29.49  E-value=4.6e+02  Score=21.35  Aligned_cols=41  Identities=15%  Similarity=0.203  Sum_probs=26.6  Template_Neff=9.900
+
+Q ss_pred             EEECCEEEEEEeccCCEEEEEEEeCCCceEEEEEeeeeeee
+Q tr|B3KVY5|B3KV   13 LRFNGRVLFIKDVIGDEICCWSFYGQGRKIAEVCCTSIVYA   53 (132)
+Q Consensus        13 lrfngrvlfikdvigdeiccwsfygqgrkiaevcctsivya   53 (132)
+                      .+.+|+++|+...+-.|..--......++.++.-...|+-+
+T Consensus        23 ~~~~g~~vfV~~alPGe~v~v~i~~~~~~~~~~~~~~i~~~   63 (454)
+T 5ZQ8_A           23 AKVDGLVFFVENALPSEKILMRVLKVNKKIGFGKVEKYLVQ   63 (454)
+T ss_dssp             EEETTEEEEETTCCTTCEEEEEEEEECSSEEEEEEEEEEEC
+T ss_pred             EEECCEEEEecCCCCCCEEEEEEEEecCCeEEEEEEEEeec
+Confidence            36799999999887666665555555555555444455543
+
+
+No 4
+>3NRF_A ApaG protein; Structural Genomics, Joint Center for; HET: MRD, MSE; 1.5A {Pseudomonas aeruginosa}
+Probab=27.58  E-value=89  Score=23.44  Aligned_cols=34  Identities=15%  Similarity=0.300  Sum_probs=27.9  Template_Neff=5.600
+
+Q ss_pred             eeeeecCCCcccccCCcceechhhheeeeeeccC
+Q tr|B3KVY5|B3KV   49 SIVYATEKKQTKVEFPEARIYEETLNILLYEAQD   82 (132)
+Q Consensus        49 sivyatekkqtkvefpeariyeetlnillyeaqd   82 (132)
+                      -+||||++.|..+....-..|..+.++-|....+
+T Consensus         7 i~V~At~~~~gs~s~~~~~~Y~ktF~V~l~N~~~   40 (106)
+T 3NRF_A            7 VMVFARQGDKGSVSVGDKHFRTQAFKVRLVNAAK   40 (106)
+T ss_dssp             CEEEEEEEEEEEEEETTEEEEEEEEEEEEECCSS
+T ss_pred             eEEEEecCCeeeEEECCEEeEEEEEEEEEEcCCC
+Confidence            3689999999999888888999888888765544
+
+
+No 5
+>3NRF_B ApaG protein; Structural Genomics, Joint Center for; HET: MRD, MSE; 1.5A {Pseudomonas aeruginosa}
+Probab=27.58  E-value=89  Score=23.44  Aligned_cols=34  Identities=15%  Similarity=0.300  Sum_probs=28.2  Template_Neff=5.600
+
+Q ss_pred             eeeeecCCCcccccCCcceechhhheeeeeeccC
+Q tr|B3KVY5|B3KV   49 SIVYATEKKQTKVEFPEARIYEETLNILLYEAQD   82 (132)
+Q Consensus        49 sivyatekkqtkvefpeariyeetlnillyeaqd   82 (132)
+                      -+||||++.|..+....-..|..+.++-|....+
+T Consensus         7 i~V~At~~~~gs~s~~~~~~Y~ktF~V~l~N~~~   40 (106)
+T 3NRF_B            7 VMVFARQGDKGSVSVGDKHFRTQAFKVRLVNAAK   40 (106)
+T ss_dssp             EEEEEEEEEEEEEEETTEEEEEEEEEEEEEECSS
+T ss_pred             eEEEEecCCeeeEEECCEEeEEEEEEEEEEcCCC
+Confidence            3689999999999888888999888888776544
+
+
+No 6
+>5XJ1_A Uncharacterized RNA methyltransferase SP_1029 (E.C.2.1.1.-); 23S rRNA, U747, methyltransferase, TRANSFERASE; HET: GOL, EPE, P6G; 1.753A {Streptococcus pneumoniae serotype 4 (strain ATCC BAA-334 / TIGR4)}
+Probab=23.63  E-value=6.6e+02  Score=20.67  Aligned_cols=30  Identities=20%  Similarity=0.402  Sum_probs=20.9  Template_Neff=9.700
+
+Q ss_pred             EECCEEEEEEeccCCEEEEEEEeCCCceEE
+Q tr|B3KVY5|B3KV   14 RFNGRVLFIKDVIGDEICCWSFYGQGRKIA   43 (132)
+Q Consensus        14 rfngrvlfikdvigdeiccwsfygqgrkia   43 (132)
+                      +++|+++|+...+-.|..-.......++.+
+T Consensus        24 ~~~g~~vfV~~alPGe~v~v~i~~~~~~~~   53 (454)
+T 5XJ1_A           24 KVDGLVFFVENALPSEKILMRVLKVNKKIG   53 (454)
+T ss_dssp             EETTEEEEETTCCTTCEEEEEEEEECSSEE
+T ss_pred             EECCEEEEeCCCCCCCEEEEEEEeecCCeE
+Confidence            569999999998877766555554444443
+
+
+No 7
+>2FO1_D Lin-12 and glp-1 phenotype protein; beta-barrel, PROTEIN-DNA COMPLEX, DOUBLE HELIX; HET: MSE; 3.12A {Caenorhabditis elegans} SCOP: a.137.14.1
+Probab=21.13  E-value=89  Score=24.27  Aligned_cols=16  Identities=44%  Similarity=0.663  Sum_probs=12.2  Template_Neff=1.800
+
+Q ss_pred             CCCCCchhhhhhhhhh
+Q tr|B3KVY5|B3KV  101 SHHLDEDEERERIERV  116 (132)
+Q Consensus       101 shhldedeererierv  116 (132)
+                      -|...|||||.|+|.-
+T Consensus        53 F~R~TEDEeRKr~E~Q   68 (85)
+T 2FO1_D           53 FNRYTEDEERKRVEQQ   68 (85)
+T ss_dssp             HHHHHHHHHHHHHCC-
+T ss_pred             HHhcchHHHHHHHHHH
+Confidence            3567899999999853
+
+
+No 8
+>2EMB_A zf-C2H2, Structural Genomics, NPPSFA, National; HET: ZN; NMR {Homo sapiens}
+Probab=18.52  E-value=1.4e+02  Score=11.41  Aligned_cols=9  Identities=44%  Similarity=0.767  Sum_probs=4.7  Template_Neff=14.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|B3KVY5|B3KV   96 GAAGRSHHL  104 (132)
+Q Consensus        96 gaagrshhl  104 (132)
+                      ||++++++-
+T Consensus         1 ~~~~~~~~~    9 (44)
+T 2EMB_A            1 GSSGSSGHT    9 (44)
+T ss_dssp             CCCCSCCCC
+T ss_pred             CCCCCccCC
+Confidence            455555553
+
+
+No 9
+>2GMQ_A EF0006; Enterococcus faecalis, Hypothetical protein, Structural; HET: MSE; 1.76A {Enterococcus faecalis} SCOP: b.122.1.11
+Probab=15.62  E-value=4.3e+02  Score=21.75  Aligned_cols=37  Identities=22%  Similarity=0.209  Sum_probs=29.3  Template_Neff=2.400
+
+Q ss_pred             CCccccceeeEEECCEEEEEEeccCCEEEEEEEeCCC
+Q tr|B3KVY5|B3KV    3 KNIELFDKLSLRFNGRVLFIKDVIGDEICCWSFYGQG   39 (132)
+Q Consensus         3 knielfdklslrfngrvlfikdvigdeiccwsfygqg   39 (132)
+                      .||.-.+.|.+--|||.|-.+-.-......|+++|+-
+T Consensus        56 eNIheI~tl~iiKngk~l~L~V~~eks~y~~~~~g~y   92 (118)
+T 2GMQ_A           56 ENIQEITTLNIIKNGKSLALEVYPEKSIYVKPNLGRI   92 (118)
+T ss_dssp             TTGGGCCEEEEEETTEEEEEEBCGGGCEEECC---CC
+T ss_pred             hhhhcceEEEEEeCCceEEEEEecCceeEEcCCccce
+Confidence            5888889999999999999987777778889987764
+
+
+No 10
+>3HI2_B HTH-type transcriptional regulator ygiT, Motility; Toxin-Antitoxin system, Zn-binding protein, mqsR; HET: GOL; 2.0A {Escherichia coli K-12}
+Probab=15.52  E-value=3.6e+02  Score=17.94  Aligned_cols=21  Identities=19%  Similarity=0.343  Sum_probs=14.0  Template_Neff=8.700
+
+Q ss_pred             ECCEEEEEEeccCCEEEEEEEe
+Q tr|B3KVY5|B3KV   15 FNGRVLFIKDVIGDEICCWSFY   36 (132)
+Q Consensus        15 fngrvlfikdvigdeiccwsfy   36 (132)
+                      .+| .++||=.|.+...|+||-
+T Consensus        79 ~~~-~~YIK~~i~~~~~~iSfH   99 (101)
+T 3HI2_B           79 VTG-QVYLKITVIHDVLIVSFK   99 (101)
+T ss_dssp             TTE-ECCEEEEEETTEEEEEEC
+T ss_pred             eCC-eEEEEEEEECCEEEEEee
+Confidence            366 777776665556677774
+
+

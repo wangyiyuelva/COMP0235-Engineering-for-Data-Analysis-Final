@@ -1,0 +1,170 @@
+Query         tr|E5RFC4|E5RFC4_HUMAN
+Match_columns 40
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:32:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0500.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2P22_C Endosome, Trafficking c  53.8      32 0.00035   21.1   2.4   15   13-27     13-27  (192)
+  2 2L9Z_A PR domain zinc finger p  24.0 1.5E+02  0.0017   14.3   1.7    6    3-8      24-29  (39)
+  3 4GQZ_B Putative periplasmic or  21.9      48 0.00053   22.2  -0.4    7   33-39    120-126 (161)
+  4 4GQZ_D Putative periplasmic or  21.9      48 0.00053   22.2  -0.4    7   33-39    120-126 (161)
+  5 1EI6_A PHOSPHONOACETATE HYDROL  20.4      96   0.001   18.3   0.6    9    4-12    238-246 (406)
+  6 6Q2A_H Protein kinase, putativ  19.4 1.6E+02  0.0017   16.1   1.3   12    9-20    342-353 (354)
+  7 5GAI_O Portal protein, Peptido  17.6   3E+02  0.0032   16.5   2.3   16   23-38    131-146 (146)
+  8 2OUT_A Mu-like prophage FluMu   17.4      93   0.001   18.7   0.1   23   17-39      7-29  (131)
+  9 5WEZ_B Tir chaperone, Transloc  16.8 1.6E+02  0.0018   18.2   1.1   14   12-25     49-62  (63)
+ 10 3SZY_A phosphonoacetate hydrol  16.7 1.3E+02  0.0014   18.1   0.6   11    4-14    251-261 (427)
+
+No 1
+>2P22_C Endosome, Trafficking complex, Vps23, Vps28; HET: SO4; 2.7A {Saccharomyces cerevisiae}
+Probab=53.83  E-value=32  Score=21.11  Aligned_cols=15  Identities=20%  Similarity=0.414  Sum_probs=6.8  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCCccCCCCC
+Q tr|E5RFC4|E5RF   13 APLPPSPVRLAAGRD   27 (40)
+Q Consensus        13 aplppspvrlaagrd   27 (40)
+                      .|+||+|+..+....
+T Consensus        13 ~~~~~~~~~~~~~~~   27 (192)
+T 2P22_C           13 VPSPGLPEKVNEKSK   27 (192)
+T ss_dssp             SCCCCCC------CC
+T ss_pred             CCCCCCCCCcCCCCC
+Confidence            578999998887554
+
+
+No 2
+>2L9Z_A PR domain zinc finger protein; zinc-binding domain, TRANSCRIPTION; HET: ZN; NMR {Homo sapiens}
+Probab=24.02  E-value=1.5e+02  Score=14.32  Aligned_cols=6  Identities=50%  Similarity=1.630  Sum_probs=3.7  Template_Neff=7.200
+
+Q ss_pred             CCCCCC
+Q tr|E5RFC4|E5RF    3 NCSDHG    8 (40)
+Q Consensus         3 ncsdhg    8 (40)
+                      +|+-||
+T Consensus        24 ~C~~hG   29 (39)
+T 2L9Z_A           24 DCPEHG   29 (39)
+T ss_dssp             SBTTTB
+T ss_pred             CCCCCC
+Confidence            566665
+
+
+No 3
+>4GQZ_B Putative periplasmic or exported protein; CueP, V-shape dimer, Copper_resistance, Metal; HET: MSE, CSO; 1.799A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=21.85  E-value=48  Score=22.19  Aligned_cols=7  Identities=57%  Similarity=1.635  Sum_probs=5.4  Template_Neff=5.000
+
+Q ss_pred             CCccccC
+Q tr|E5RFC4|E5RF   33 AGFWFPR   39 (40)
+Q Consensus        33 agfwfpr   39 (40)
+                      .|||.||
+T Consensus       120 iglWLPr  126 (161)
+T 4GQZ_B          120 IGVWLPR  126 (161)
+T ss_dssp             EEEEEET
+T ss_pred             EEEEeeC
+Confidence            4788887
+
+
+No 4
+>4GQZ_D Putative periplasmic or exported protein; CueP, V-shape dimer, Copper_resistance, Metal; HET: MSE, CSO; 1.799A {Salmonella enterica subsp. enterica serovar Typhimurium}
+Probab=21.85  E-value=48  Score=22.19  Aligned_cols=7  Identities=57%  Similarity=1.635  Sum_probs=5.5  Template_Neff=5.000
+
+Q ss_pred             CCccccC
+Q tr|E5RFC4|E5RF   33 AGFWFPR   39 (40)
+Q Consensus        33 agfwfpr   39 (40)
+                      .|||.||
+T Consensus       120 iglWLPr  126 (161)
+T 4GQZ_D          120 IGVWLPR  126 (161)
+T ss_dssp             EEEEEES
+T ss_pred             EEEEeeC
+Confidence            4788887
+
+
+No 5
+>1EI6_A PHOSPHONOACETATE HYDROLASE (E.C.3.11.1.2); Phosphonoacetate, Hydrolase, zinc; HET: PPF, TLA; 2.1A {Pseudomonas fluorescens} SCOP: c.76.1.4
+Probab=20.43  E-value=96  Score=18.30  Aligned_cols=9  Identities=33%  Similarity=0.490  Sum_probs=6.8  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCCC
+Q tr|E5RFC4|E5RF    4 CSDHGAVPL   12 (40)
+Q Consensus         4 csdhgavpl   12 (40)
+                      +||||..+.
+T Consensus       238 ~sDHG~~~~  246 (406)
+T 1EI6_A          238 TADHGMNAK  246 (406)
+T ss_dssp             ECSCCCEEC
+T ss_pred             EeCCCCCCc
+Confidence            578888776
+
+
+No 6
+>6Q2A_H Protein kinase, putative (E.C.2.7.1.-); kinase, TRANSFERASE-TRANSFERASE Inhibitor complex; HET: SO4, 5XH; 2.6A {Trypanosoma brucei brucei (strain 927/4 GUTat10.1)}
+Probab=19.41  E-value=1.6e+02  Score=16.10  Aligned_cols=12  Identities=42%  Similarity=0.730  Sum_probs=7.9  Template_Neff=13.100
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|E5RFC4|E5RF    9 AVPLAPLPPSPV   20 (40)
+Q Consensus         9 avplaplppspv   20 (40)
+                      ..+-.++||+||
+T Consensus       342 ~~~~~~~~~~~~  353 (354)
+T 6Q2A_H          342 VDNRSKLPPTPV  353 (354)
+T ss_dssp             GGGSCCCCCCCC
+T ss_pred             cccCCCCCCCCC
+Confidence            344567788876
+
+
+No 7
+>5GAI_O Portal protein, Peptidoglycan hydrolase gp4; virion, portal, tailspike, adhesin, VIRAL; 10.5A {Enterobacteria phage P22}
+Probab=17.57  E-value=3e+02  Score=16.54  Aligned_cols=16  Identities=25%  Similarity=0.530  Sum_probs=12.7  Template_Neff=7.900
+
+Q ss_pred             CCCCCCCccCCCcccc
+Q tr|E5RFC4|E5RF   23 AAGRDHGYLSAGFWFP   38 (40)
+Q Consensus        23 aagrdhgylsagfwfp   38 (40)
+                      -+|...++.+..|+||
+T Consensus       131 G~Gn~~~~~~~~~~~~  146 (146)
+T 5GAI_O          131 GSGNSFPNLNEWHYFP  146 (146)
+T ss_dssp             CSSSSCCCCCSCCCCC
+T ss_pred             CCCCCCCCCCCCCCCC
+Confidence            5777778888888887
+
+
+No 8
+>2OUT_A Mu-like prophage FluMu protein gp35; structural genomics, Haemophilus influenzae, hypothetical; NMR {Haemophilus influenzae} SCOP: d.344.1.1, a.140.3.2
+Probab=17.35  E-value=93  Score=18.69  Aligned_cols=23  Identities=30%  Similarity=0.332  Sum_probs=18.1  Template_Neff=7.400
+
+Q ss_pred             CCCCccCCCCCCCccCCCccccC
+Q tr|E5RFC4|E5RF   17 PSPVRLAAGRDHGYLSAGFWFPR   39 (40)
+Q Consensus        17 pspvrlaagrdhgylsagfwfpr   39 (40)
+                      ...+++.+.+..||.-+|+.|+.
+T Consensus         7 ~~~i~I~~~~~~g~rRaG~~f~~   29 (131)
+T 2OUT_A            7 TFCVVVQNRIKEGYRRAGFSFHL   29 (131)
+T ss_dssp             CBCEEEECCSCSCCCCSSSCCCS
+T ss_pred             ceeEEEEeCCCCCeEeCcEEeCC
+Confidence            34577778777899999999875
+
+
+No 9
+>5WEZ_B Tir chaperone, Translocated intimin receptor; effector, complex, secretion, translocation, CHAPERONE; 2.74A {Escherichia coli O127:H6 (strain E2348/69 / EPEC)}
+Probab=16.79  E-value=1.6e+02  Score=18.24  Aligned_cols=14  Identities=50%  Similarity=0.826  Sum_probs=7.9  Template_Neff=2.000
+
+Q ss_pred             CCCCCCCCCccCCC
+Q tr|E5RFC4|E5RF   12 LAPLPPSPVRLAAG   25 (40)
+Q Consensus        12 laplppspvrlaag   25 (40)
+                      +.-||-+|+||++.
+T Consensus        49 vPGLP~~P~rla~S   62 (63)
+T 5WEZ_B           49 IPGLPTNPSRLAAA   62 (63)
+T ss_dssp             CCCCSCCCCC----
+T ss_pred             CCCCCCChhhcccC
+Confidence            44688999999763
+
+
+No 10
+>3SZY_A phosphonoacetate hydrolase (E.C.3.6.1.9); alkaline phosphatase superfamily, HYDROLASE; 1.35A {Sinorhizobium meliloti}
+Probab=16.71  E-value=1.3e+02  Score=18.10  Aligned_cols=11  Identities=36%  Similarity=0.595  Sum_probs=8.1  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|E5RFC4|E5RF    4 CSDHGAVPLAP   14 (40)
+Q Consensus         4 csdhgavplap   14 (40)
+                      +||||..+...
+T Consensus       251 ~sDHG~~~~~~  261 (427)
+T 3SZY_A          251 TADHGMKPKHK  261 (427)
+T ss_dssp             ECSCCCEECBC
+T ss_pred             EeCCCCCCccc
+Confidence            58888877753
+
+

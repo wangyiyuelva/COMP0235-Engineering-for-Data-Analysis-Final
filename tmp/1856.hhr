@@ -1,0 +1,373 @@
+Query         tr|F5H3M6|F5H3M6_HUMAN
+Match_columns 60
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:52:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1856.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4D10_O COP9 SIGNALOSOME COMPLE  98.5 3.8E-07 4.2E-12   58.9   4.7   56    1-56      5-60  (222)
+  2 4D18_G COP9 SIGNALOSOME COMPLE  98.5 3.8E-07 4.2E-12   58.9   4.7   56    1-56      5-60  (222)
+  3 3CHM_A COP9 signalosome comple  98.0 2.9E-05 3.1E-10   48.9   4.2   52    5-56      4-55  (169)
+  4 6R7I_G COP9 signalosome comple  97.4  0.0009 9.8E-09   43.1   4.7   56    1-56      1-56  (215)
+  5 6R7H_G COP9 signalosome comple  97.3 0.00085 9.2E-09   42.6   4.3   48    9-56      2-49  (208)
+  6 2MRI_A 26S proteasome regulato  71.0      13 0.00014   21.9   2.8   32   25-56     32-63  (176)
+  7 6FVX_O Proteasome subunit alph  41.5      71 0.00077   22.0   2.8   32   25-56    207-238 (388)
+  8 1YD0_A UvrABC system protein C  40.4      31 0.00033   17.9   0.8    6   38-43     16-21  (96)
+  9 5L4K_O 26S proteasome non-ATPa  40.0      75 0.00082   21.9   2.8   31   25-55    195-225 (376)
+ 10 6MSB_a 26S proteasome; Proteos  40.0      75 0.00082   21.9   2.8   31   25-55    195-225 (376)
+ 11 2ZBW_B Thioredoxin reductase (  38.8      35 0.00038   20.3   0.9   10   38-47    280-289 (335)
+ 12 5UTH_A Thioredoxin reductase (  34.9      47 0.00051   19.2   1.0   13   36-48    279-291 (319)
+ 13 1YD5_A DNA BINDING PROTEIN; 1.  32.9      51 0.00056   16.9   0.9    6   38-43     16-21  (96)
+ 14 3JCK_F 26S proteasome regulato  32.3 1.2E+02  0.0013   20.8   2.7   32   25-56    212-243 (393)
+ 15 6EPC_O Proteasome subunit alph  29.9 1.4E+02  0.0015   20.7   2.7   31   26-56    196-226 (376)
+ 16 1JEO_A HYPOTHETICAL PROTEIN MJ  29.6   1E+02  0.0011   17.9   1.9   21   25-45     28-48  (180)
+ 17 3SHO_A Transcriptional regulat  29.4 1.9E+02   0.002   16.3   3.5   22   24-45     26-47  (187)
+ 18 3SHO_D Transcriptional regulat  29.4 1.9E+02   0.002   16.3   3.5   22   24-45     26-47  (187)
+ 19 6QGR_B Coenzyme F420 hydrogena  26.3 1.4E+02  0.0015   20.9   2.3   15   24-38     30-44  (291)
+ 20 6QGT_B Coenzyme F420 hydrogena  26.3 1.4E+02  0.0015   20.9   2.3   15   24-38     30-44  (291)
+ 21 2I52_D Structure of hypothetic  24.3 1.3E+02  0.0014   21.2   1.9    6   29-34     48-53  (121)
+ 22 2I52_F Structure of hypothetic  24.3 1.3E+02  0.0014   21.2   1.9    6   29-34     48-53  (121)
+ 23 3IJP_B Dihydrodipicolinate red  20.2   3E+02  0.0033   17.5   2.8   26   25-50    261-287 (288)
+
+No 1
+>4D10_O COP9 SIGNALOSOME COMPLEX SUBUNIT 1; SIGNALING PROTEIN; 3.8A {HOMO SAPIENS}
+Probab=98.52  E-value=3.8e-07  Score=58.91  Aligned_cols=56  Identities=96%  Similarity=1.266  Sum_probs=46.5  Template_Neff=8.700
+
+Q ss_pred             CCCceeeccCChhhhhhhhhccchHHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3    1 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus         1 msaevkvtgqnqeqflllaksakgaalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ||+++|++++++++|+.+.++++++.+..++..+|.+|++|+|++++..+.++.+.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~aL~~~~~~~f~~Ll~~~~v~~l~   60 (222)
+T 4D10_O            5 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRELA   60 (222)
+T ss_dssp             -------CCHHHHHHHHHHTTCCHHHHHHHHHHHTTSTTCCCCHHHHTCHHHHTTT
+T ss_pred             cccccchhhchHHHHHHHHhcCCHHHHHHHHHHHHhCCCeEecHHHhcChhHHHHc
+Confidence            89999999999999999999999999999999999999999999999999887764
+
+
+No 2
+>4D18_G COP9 SIGNALOSOME COMPLEX SUBUNIT 1; SIGNALING PROTEIN, PCI COMPLEX, CSN; 4.08A {HOMO SAPIENS}
+Probab=98.52  E-value=3.8e-07  Score=58.91  Aligned_cols=56  Identities=96%  Similarity=1.266  Sum_probs=46.5  Template_Neff=8.700
+
+Q ss_pred             CCCceeeccCChhhhhhhhhccchHHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3    1 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus         1 msaevkvtgqnqeqflllaksakgaalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ||+++|++++++++|+.+.++++++.+..++..+|.+|++|+|++++..+.++.+.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~aL~~~~~~~f~~Ll~~~~v~~l~   60 (222)
+T 4D18_G            5 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRELA   60 (222)
+T ss_dssp             -------CCHHHHHHHHHHTTCCHHHHHHHHHHHTTSTTCCCCHHHHTCHHHHTTT
+T ss_pred             cccccchhhchHHHHHHHHhcCCHHHHHHHHHHHHhCCCeEecHHHhcChhHHHHc
+Confidence            89999999999999999999999999999999999999999999999999887764
+
+
+No 3
+>3CHM_A COP9 signalosome complex subunit 7; HEAT/ARM repeats, winged helix motif; HET: ACT; 1.5A {Arabidopsis thaliana}
+Probab=97.96  E-value=2.9e-05  Score=48.88  Aligned_cols=52  Identities=27%  Similarity=0.453  Sum_probs=48.2  Template_Neff=8.500
+
+Q ss_pred             eeeccCChhhhhhhhhccchHHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3    5 VKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus         5 vkvtgqnqeqflllaksakgaalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      -+++.+.+++|+.+.++++++.+.+++..++.+|++|+|++++..+.++.+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~v~~al~~p~v~~f~~ll~~~~v~~l~   55 (169)
+T 3CHM_A            4 EQKQAEIIDQLVKRASTCKSEALGPLIIEATSHPSLFAFSEILALPNVAQLE   55 (169)
+T ss_dssp             CCCHHHHHHHHHHHHTTSCGGGHHHHHHHHHHCTTCCCCHHHHTCHHHHTTT
+T ss_pred             hHHHHHHHHHHHHHhhcCChhhHHHHHHHHhhCCCcccHHHHhcCcchHhhC
+Confidence            4678899999999999999999999999999999999999999999988764
+
+
+No 4
+>6R7I_G COP9 signalosome complex subunit 1; Cullin-Ring E3 Ligases (CRLs) COP9; HET: MSE; 5.9A {Homo sapiens}
+Probab=97.37  E-value=0.0009  Score=43.05  Aligned_cols=56  Identities=59%  Similarity=0.872  Sum_probs=50.8  Template_Neff=8.900
+
+Q ss_pred             CCCceeeccCChhhhhhhhhccchHHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3    1 MSAEVKVTGQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus         1 msaevkvtgqnqeqflllaksakgaalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      |...++.+..++++|+.+.++++++.+.+++..+|.+|++|+|++++..+.++.+.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~a~~~i~~aL~~~~~~~f~~ll~~~~v~~l~   56 (215)
+T 6R7I_G            1 MAGEQKPSSNLLEQFILLAKGTSGSALTALISQVLEAPGVYVFGELLELANVQELA   56 (215)
+T ss_dssp             CCCSSCSSTTHHHHHHHHHHHCCTHHHHHHHHHHTTCSSCSCCTTTTTSHHHHHHT
+T ss_pred             CCCCCCcchhhHHHHHHHHcCCCHHHHHHHHHHHHhCCCeeehHHHHhchhHHHHh
+Confidence            45667888999999999999999999999999999999999999999999888764
+
+
+No 5
+>6R7H_G COP9 signalosome complex subunit 1; Cullin-Ring E3 Ligases (CRLs) COP9; 8.8A {Homo sapiens}
+Probab=97.34  E-value=0.00085  Score=42.64  Aligned_cols=48  Identities=63%  Similarity=0.941  Sum_probs=43.8  Template_Neff=9.100
+
+Q ss_pred             cCChhhhhhhhhccchHHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3    9 GQNQEQFLLLAKSAKGAALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus         9 gqnqeqflllaksakgaalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ..++++|+...++.+++.+.+++..+|.+|++|+|++++..+.++.+.
+T Consensus         2 ~~~l~~~~~~~~~~~~~~a~~~i~~aL~~~~~~~f~~ll~~~~v~~l~   49 (208)
+T 6R7H_G            2 SNLLEQFILLAKGTSGSALTALISQVLEAPGVYVFGELLELANVQELA   49 (208)
+T ss_pred             cchHHHHHHHhcCCCHHHHHHHHHHHHhCCCeEehHHHHcCHHHHHHh
+Confidence            467899999999999999999999999999999999999998887763
+
+
+No 6
+>2MRI_A 26S proteasome regulatory subunit RPN9; hydrolase, PROTEIN BINDING; NMR {Saccharomyces cerevisiae S288c}
+Probab=70.97  E-value=13  Score=21.93  Aligned_cols=32  Identities=28%  Similarity=0.321  Sum_probs=28.1  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus        25 aalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ..+..++..++.++++++|++++..+.++.+.
+T Consensus        32 ~~~~~~v~~~l~~~~~~~~~~l~~~~~~~~l~   63 (176)
+T 2MRI_A           32 QLAYDLSISALLGDKIYNFGELLHHPIMETIV   63 (176)
+T ss_dssp             HHHHHHHHHHHTCSSCCCCHHHHHCGGGHHHH
+T ss_pred             HHHHHHHHHHHhCCCcccHHHHhcCHHHHHHh
+Confidence            47789999999999999999999999887754
+
+
+No 7
+>6FVX_O Proteasome subunit alpha type-1 (E.C.3.4.25.1); 26S proteasome, AAA+ ATPase, hydrolase; HET: ADP, ATP; 4.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=41.50  E-value=71  Score=22.00  Aligned_cols=32  Identities=28%  Similarity=0.321  Sum_probs=27.1  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus        25 aalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ..+..++..++..+++++|++++..+.+..+.
+T Consensus       207 ~~~~~~~~~al~~~~~~~~~~ll~~~~~~~l~  238 (388)
+T 6FVX_O          207 QLAYDLSISALLGDKIYNFGELLHHPIMETIV  238 (388)
+T ss_dssp             HHHHHHHHHHHSCSSCCCHHHHHTSHHHHSCC
+T ss_pred             HHHHHHHHHHHhCCCcccHHHHhcCHHHHHHh
+Confidence            46678999999999999999999988776543
+
+
+No 8
+>1YD0_A UvrABC system protein C; DNA BINDING PROTEIN; 1.5A {Thermotoga maritima}
+Probab=40.42  E-value=31  Score=17.89  Aligned_cols=6  Identities=83%  Similarity=1.968  Sum_probs=2.6  Template_Neff=11.000
+
+Q ss_pred             CCeeeh
+Q tr|F5H3M6|F5H3   38 PGVYVF   43 (60)
+Q Consensus        38 pgvyvf   43 (60)
+                      +++|.+
+T Consensus        16 ~GvY~i   21 (96)
+T 1YD0_A           16 PGVYIF   21 (96)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            344443
+
+
+No 9
+>5L4K_O 26S proteasome non-ATPase regulatory subunit; proteostasis, AAA-ATPase, structural protein; 4.5A {Homo sapiens}
+Probab=40.01  E-value=75  Score=21.86  Aligned_cols=31  Identities=35%  Similarity=0.357  Sum_probs=26.8  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhhhhCCcchhhh
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGELLDMPNVRER   55 (60)
+Q Consensus        25 aalatlihqvleapgvyvfgelldmpnvrer   55 (60)
+                      ..+..++..++.++.+++|++++..+.++.+
+T Consensus       195 ~~~~~lv~~al~~~~~~~~~~ll~~~~~~~l  225 (376)
+T 5L4K_O          195 ERAFTLGLAGLLGEGVFNFGELLMHPVLESL  225 (376)
+T ss_dssp             HHHHHHHHHHHHSSSCCCHHHHTTSTTTSSC
+T ss_pred             HHHHHHHHHHHhCcCcccHHHHHcCHHHHHc
+Confidence            3667899999999999999999999887654
+
+
+No 10
+>6MSB_a 26S proteasome; Proteosome, HYDROLASE; HET: ADP, ATP; 3.0A {Homo sapiens}
+Probab=40.01  E-value=75  Score=21.86  Aligned_cols=31  Identities=35%  Similarity=0.357  Sum_probs=26.6  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhhhhCCcchhhh
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGELLDMPNVRER   55 (60)
+Q Consensus        25 aalatlihqvleapgvyvfgelldmpnvrer   55 (60)
+                      ..+..++..++.++.+++|++++..+.++.+
+T Consensus       195 ~~~~~lv~~al~~~~~~~~~~ll~~~~~~~l  225 (376)
+T 6MSB_a          195 ERAFTLGLAGLLGEGVFNFGELLMHPVLESL  225 (376)
+T ss_pred             HHHHHHHHHHHhCcCcccHHHHHcCHHHHHc
+Confidence            3667899999999999999999999887654
+
+
+No 11
+>2ZBW_B Thioredoxin reductase (E.C.1.8.1.-); Redox protein, OXIDOREDUCTASE, Structural Genomics; HET: FAD, MSE; 2.1A {Thermus thermophilus}
+Probab=38.83  E-value=35  Score=20.34  Aligned_cols=10  Identities=50%  Similarity=1.285  Sum_probs=4.7  Template_Neff=12.600
+
+Q ss_pred             CCeeehhhhh
+Q tr|F5H3M6|F5H3   38 PGVYVFGELL   47 (60)
+Q Consensus        38 pgvyvfgell   47 (60)
+                      +++|-.++..
+T Consensus       280 ~~vya~Gd~~  289 (335)
+T 2ZBW_B          280 PGVYACGDIV  289 (335)
+T ss_dssp             TTEEECGGGE
+T ss_pred             CCEEEeehhc
+Confidence            4455444443
+
+
+No 12
+>5UTH_A Thioredoxin reductase (E.C.1.8.1.9); SSGCID, Mycobacerium smegmatis, thiredoxin reductase; HET: FAD, SO4; 1.95A {Mycobacterium smegmatis (strain ATCC 700084 / mc(2)155)}
+Probab=34.93  E-value=47  Score=19.16  Aligned_cols=13  Identities=38%  Similarity=0.795  Sum_probs=6.1  Template_Neff=13.100
+
+Q ss_pred             cCCCeeehhhhhC
+Q tr|F5H3M6|F5H3   36 EAPGVYVFGELLD   48 (60)
+Q Consensus        36 eapgvyvfgelld   48 (60)
+                      ..+++|..++...
+T Consensus       279 ~~~~v~~~Gd~~~  291 (319)
+T 5UTH_A          279 SLDGVFAAGDLVD  291 (319)
+T ss_dssp             SSTTEEECGGGTC
+T ss_pred             CCCcEEEcccccC
+Confidence            3445555555443
+
+
+No 13
+>1YD5_A DNA BINDING PROTEIN; 1.8A {Thermotoga maritima}
+Probab=32.90  E-value=51  Score=16.86  Aligned_cols=6  Identities=83%  Similarity=1.968  Sum_probs=2.7  Template_Neff=11.200
+
+Q ss_pred             CCeeeh
+Q tr|F5H3M6|F5H3   38 PGVYVF   43 (60)
+Q Consensus        38 pgvyvf   43 (60)
+                      +++|.+
+T Consensus        16 ~GvY~i   21 (96)
+T 1YD5_A           16 PGVYIF   21 (96)
+T ss_dssp             CEEEEE
+T ss_pred             CeEEEE
+Confidence            445543
+
+
+No 14
+>3JCK_F 26S proteasome regulatory subunit RPN3; Proteasome, deubiquitinase, Rpn11, protein homeostasis; 3.5A {Saccharomyces cerevisiae S288c}
+Probab=32.29  E-value=1.2e+02  Score=20.76  Aligned_cols=32  Identities=28%  Similarity=0.321  Sum_probs=27.8  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus        25 aalatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      ..+..++..++..+++++|++++..+.++.+.
+T Consensus       212 ~~~~~~~l~al~~~~~~~~~~ll~~~~~~~l~  243 (393)
+T 3JCK_F          212 QLAYDLSISALLGDKIYNFGELLHHPIMETIV  243 (393)
+T ss_dssp             HHHHHHHHHHHHCSSCCCCHHHHTSTTHHHHS
+T ss_pred             HHHHHHHHHHHhCCCcccHHHHhcCHHHHHhc
+Confidence            36678999999999999999999999887664
+
+
+No 15
+>6EPC_O Proteasome subunit alpha type-6 (E.C.3.4.25.1); UPS, Ground state, Neuron degeneration; 12.3A {Rattus norvegicus}
+Probab=29.86  E-value=1.4e+02  Score=20.66  Aligned_cols=31  Identities=35%  Similarity=0.364  Sum_probs=26.5  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHcCCCeeehhhhhCCcchhhhc
+Q tr|F5H3M6|F5H3   26 ALATLIHQVLEAPGVYVFGELLDMPNVRERH   56 (60)
+Q Consensus        26 alatlihqvleapgvyvfgelldmpnvrerh   56 (60)
+                      .+..++..++.++++|+|++++..+.++.+.
+T Consensus       196 ~a~~~~~~al~~~~~~~~~~ll~~~~~~~l~  226 (376)
+T 6EPC_O          196 RAFTLGLAGLLGEGVFNFGELLMHPVLESLR  226 (376)
+T ss_pred             HHHHHHHHHHhCCCcccHHHHHhCHHHHHhc
+Confidence            6678999999999999999999888776553
+
+
+No 16
+>1JEO_A HYPOTHETICAL PROTEIN MJ1247; RuMP pathway, phosphosugar, 3-hexulose-6-phosphate isomerase; HET: CIT, CME; 2.0A {Methanocaldococcus jannaschii} SCOP: c.80.1.3
+Probab=29.64  E-value=1e+02  Score=17.89  Aligned_cols=21  Identities=29%  Similarity=0.717  Sum_probs=11.1  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHHHHHcCCCeeehhh
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEAPGVYVFGE   45 (60)
+Q Consensus        25 aalatlihqvleapgvyvfge   45 (60)
+                      +.+..++......+.+|-++.
+T Consensus        28 ~~i~~~~~~l~~a~~i~i~g~   48 (180)
+T 1JEO_A           28 NKLDSLIDRIIKAKKIFIFGV   48 (180)
+T ss_dssp             HHHHHHHHHHHHCSSEEEECC
+T ss_pred             HHHHHHHHHHHHCCcEEEEec
+Confidence            344445555555566665544
+
+
+No 17
+>3SHO_A Transcriptional regulator, RpiR family; Structural Genomics, PSI-Biology, Midwest Center; HET: OCS, MSE; 1.8A {Sphaerobacter thermophilus}
+Probab=29.40  E-value=1.9e+02  Score=16.28  Aligned_cols=22  Identities=23%  Similarity=0.295  Sum_probs=11.4  Template_Neff=11.800
+
+Q ss_pred             hHHHHHHHHHHHcCCCeeehhh
+Q tr|F5H3M6|F5H3   24 GAALATLIHQVLEAPGVYVFGE   45 (60)
+Q Consensus        24 gaalatlihqvleapgvyvfge   45 (60)
+                      .+.+.+++......+.+|-|+.
+T Consensus        26 ~~~~~~~~~~l~~~~~i~i~g~   47 (187)
+T 3SHO_A           26 PEAIEAAVEAICRADHVIVVGM   47 (187)
+T ss_dssp             HHHHHHHHHHHHHCSEEEEECC
+T ss_pred             HHHHHHHHHHHHhCCEEEEEcC
+Confidence            3444455555455556665554
+
+
+No 18
+>3SHO_D Transcriptional regulator, RpiR family; Structural Genomics, PSI-Biology, Midwest Center; HET: OCS, MSE; 1.8A {Sphaerobacter thermophilus}
+Probab=29.40  E-value=1.9e+02  Score=16.28  Aligned_cols=22  Identities=23%  Similarity=0.295  Sum_probs=11.4  Template_Neff=11.800
+
+Q ss_pred             hHHHHHHHHHHHcCCCeeehhh
+Q tr|F5H3M6|F5H3   24 GAALATLIHQVLEAPGVYVFGE   45 (60)
+Q Consensus        24 gaalatlihqvleapgvyvfge   45 (60)
+                      .+.+.+++......+.+|-|+.
+T Consensus        26 ~~~~~~~~~~l~~~~~i~i~g~   47 (187)
+T 3SHO_D           26 PEAIEAAVEAICRADHVIVVGM   47 (187)
+T ss_dssp             HHHHHHHHHHHHHCSEEEEEEC
+T ss_pred             HHHHHHHHHHHHhCCEEEEEcC
+Confidence            3444455555555556665554
+
+
+No 19
+>6QGR_B Coenzyme F420 hydrogenase subunit gamma; [NiFe] containing hydrogenase, reversible oxidation; HET: 144, SF4, MPD, BU3, FAD; 1.839A {Methanosarcina barkeri MS}
+Probab=26.26  E-value=1.4e+02  Score=20.95  Aligned_cols=15  Identities=27%  Similarity=0.339  Sum_probs=7.7  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHcCC
+Q tr|F5H3M6|F5H3   24 GAALATLIHQVLEAP   38 (60)
+Q Consensus        24 gaalatlihqvleap   38 (60)
+                      +..+..++..+|+..
+T Consensus        30 GG~~t~ll~~lLe~g   44 (291)
+T 6QGR_B           30 GGIATALMVYALEEG   44 (291)
+T ss_pred             chHHHHHHHHHHHCC
+Confidence            344555555555544
+
+
+No 20
+>6QGT_B Coenzyme F420 hydrogenase subunit gamma; [NiFe] containing hydrogenase, reversible oxidation; HET: 144, SF4, J52, BU3, FAD; 1.988A {Methanosarcina barkeri MS}
+Probab=26.26  E-value=1.4e+02  Score=20.95  Aligned_cols=15  Identities=27%  Similarity=0.339  Sum_probs=7.7  Template_Neff=8.600
+
+Q ss_pred             hHHHHHHHHHHHcCC
+Q tr|F5H3M6|F5H3   24 GAALATLIHQVLEAP   38 (60)
+Q Consensus        24 gaalatlihqvleap   38 (60)
+                      +..+..++..+|+..
+T Consensus        30 GG~~t~ll~~lLe~g   44 (291)
+T 6QGT_B           30 GGIATALMVYALEEG   44 (291)
+T ss_pred             chHHHHHHHHHHHCC
+Confidence            344555555555544
+
+
+No 21
+>2I52_D Structure of hypothetical protein PTO0218; structural genomics, UNKNOWN FUNCTION, PSI; HET: GOL, CA; 2.08A {Picrophilus torridus} SCOP: d.316.1.1
+Probab=24.29  E-value=1.3e+02  Score=21.19  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=2.3  Template_Neff=4.400
+
+Q ss_pred             HHHHHH
+Q tr|F5H3M6|F5H3   29 TLIHQV   34 (60)
+Q Consensus        29 tlihqv   34 (60)
+                      +.|..+
+T Consensus        48 ~AIE~s   53 (121)
+T 2I52_D           48 EFIERS   53 (121)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 22
+>2I52_F Structure of hypothetical protein PTO0218; structural genomics, UNKNOWN FUNCTION, PSI; HET: GOL, CA; 2.08A {Picrophilus torridus} SCOP: d.316.1.1
+Probab=24.29  E-value=1.3e+02  Score=21.19  Aligned_cols=6  Identities=17%  Similarity=0.379  Sum_probs=2.3  Template_Neff=4.400
+
+Q ss_pred             HHHHHH
+Q tr|F5H3M6|F5H3   29 TLIHQV   34 (60)
+Q Consensus        29 tlihqv   34 (60)
+                      +.|..+
+T Consensus        48 ~AIE~s   53 (121)
+T 2I52_F           48 EFIERS   53 (121)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 23
+>3IJP_B Dihydrodipicolinate reductase (E.C.1.3.1.26); SSGCID, SBRI, DECODE BIOSTRUCTURES, NIAID; HET: NAP; 2.3A {Bartonella henselae}
+Probab=20.21  E-value=3e+02  Score=17.55  Aligned_cols=26  Identities=12%  Similarity=0.148  Sum_probs=17.4  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHHHcC-CCeeehhhhhCCc
+Q tr|F5H3M6|F5H3   25 AALATLIHQVLEA-PGVYVFGELLDMP   50 (60)
+Q Consensus        25 aalatlihqvlea-pgvyvfgelldmp   50 (60)
+                      .++...+...+.. +++|+..+++..+
+T Consensus       261 ~d~~~~~~~~~~~~~~~y~~~~~~~~~  287 (288)
+T 3IJP_B          261 NGALKAALWAKNHENGLYSMLDVLGLN  287 (288)
+T ss_dssp             HHHHHHHHHHTTSCSEEECHHHHHTCC
+T ss_pred             HHHHHHHHHHhcCCCcEeCHHHhhccC
+Confidence            3555666666665 4888888887653
+
+

@@ -1,0 +1,169 @@
+Query         tr|D6RAQ0|D6RAQ0_HUMAN
+Match_columns 74
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:11:59 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0222.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1ZSX_A Voltage-gated potassium  45.3      20 0.00022   23.6   0.7   37   19-55      7-43  (347)
+  2 3N70_A Transport activator; Si  20.8      62 0.00067   19.1  -0.1   19   33-51    126-144 (145)
+  3 3N70_H Transport activator; Si  20.8      62 0.00067   19.1  -0.1   20   33-52    126-145 (145)
+  4 3CO5_A Putative two-component   18.8 1.5E+02  0.0016   15.9   1.1   19   33-51    124-142 (143)
+  5 2QQP_G Large Capsid protein/ S  14.6 1.7E+02  0.0019   25.9   1.0   25   42-66    406-430 (556)
+  6 4BS1_B TRANSCRIPTIONAL REGULAT  11.2 1.8E+02  0.0019   15.7   0.1   16   35-50    158-173 (173)
+  7 4BT1_B TRANSCRIPTIONAL REGULAT  11.2 1.8E+02  0.0019   15.7   0.1   16   35-50    158-173 (173)
+  8 6U0U_A Tubulin alpha chain, Tu  10.2 5.9E+02  0.0064   19.6   2.5   16   26-41    191-206 (280)
+  9 2M3B_C Cardiac phospholamban;    9.7 2.4E+02  0.0026   18.8   0.3   19   37-57     11-29  (52)
+ 10 4Y3U_B Sarcoplasmic/endoplasmi   9.1 2.6E+02  0.0028   18.5   0.3   23   33-57      7-29  (50)
+
+No 1
+>1ZSX_A Voltage-gated potassium channel beta-2 subunit; Potassium Channel, Kv Beta-subunit, human; HET: NAP; 1.9A {Homo sapiens}
+Probab=45.34  E-value=20  Score=23.63  Aligned_cols=37  Identities=24%  Similarity=0.279  Sum_probs=15.2  Template_Neff=11.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCcchhhcccCCCCCCCCchhhh
+Q tr|D6RAQ0|D6RA   19 TLHSSNEEEDPFRGMEPYLVRRLSCRNIQLPPLAFRQ   55 (74)
+Q Consensus        19 tlhssneeedpfrgmepylvrrlscrniqlpplafrq   55 (74)
+                      .-|||..+.-+|.+|.-.-.|++.-.++.++++.+-.
+T Consensus         7 ~~~~~~~~~~~~~~~~~m~~~~~g~~~~~~s~l~lG~   43 (347)
+T 1ZSX_A            7 HHHSSGRENLYFQGHMLQFYRNLGKSGLRVSCLGLGT   43 (347)
+T ss_dssp             -----------------CCEEESTTSSCEEESEEEEC
+T ss_pred             cccccccccchhhccchhcccccCCCCCeeecEEEcc
+Confidence            3578888999999999888888888888887775544
+
+
+No 2
+>3N70_A Transport activator; Sigma-54, transport, NTPase, PSI, MCSG; HET: SO4, MSE; 2.8A {Escherichia coli}
+Probab=20.76  E-value=62  Score=19.14  Aligned_cols=19  Identities=21%  Similarity=0.188  Sum_probs=13.7  Template_Neff=10.600
+
+Q ss_pred             CCcchhhcccCCCCCCCCc
+Q tr|D6RAQ0|D6RA   33 MEPYLVRRLSCRNIQLPPL   51 (74)
+Q Consensus        33 mepylvrrlscrniqlppl   51 (74)
+                      ..+.+..|+.+..|.+|||
+T Consensus       126 ~~~~l~~~~~~~~i~~PpL  144 (145)
+T 3N70_A          126 IIAELYYCFAMTQIACLPL  144 (145)
+T ss_dssp             CCHHHHHHHHHHEEECCCC
+T ss_pred             CCHHHHHHhcCCEEecCCC
+Confidence            4556777777777888887
+
+
+No 3
+>3N70_H Transport activator; Sigma-54, transport, NTPase, PSI, MCSG; HET: SO4, MSE; 2.8A {Escherichia coli}
+Probab=20.76  E-value=62  Score=19.14  Aligned_cols=20  Identities=20%  Similarity=0.188  Sum_probs=5.9  Template_Neff=10.600
+
+Q ss_pred             CCcchhhcccCCCCCCCCch
+Q tr|D6RAQ0|D6RA   33 MEPYLVRRLSCRNIQLPPLA   52 (74)
+Q Consensus        33 mepylvrrlscrniqlppla   52 (74)
+                      ..+.+..|+.+..|.+|||.
+T Consensus       126 ~~~~l~~~~~~~~i~~PpL~  145 (145)
+T 3N70_H          126 IIAELYYCFAMTQIACLPLT  145 (145)
+T ss_dssp             CCHHHHTC------------
+T ss_pred             CCHHHHHHhcCCEEecCCCC
+Confidence            55678888888889999973
+
+
+No 4
+>3CO5_A Putative two-component system transcriptional response; structural genomics, APC89341.1, Sigma-54 interaction; HET: MSE; 2.4A {Neisseria gonorrhoeae}
+Probab=18.79  E-value=1.5e+02  Score=15.85  Aligned_cols=19  Identities=32%  Similarity=0.464  Sum_probs=12.0  Template_Neff=12.500
+
+Q ss_pred             CCcchhhcccCCCCCCCCc
+Q tr|D6RAQ0|D6RA   33 MEPYLVRRLSCRNIQLPPL   51 (74)
+Q Consensus        33 mepylvrrlscrniqlppl   51 (74)
+                      +.+-+..|+.+..+.+||+
+T Consensus       124 ~~~~l~~r~~~~~i~lp~l  142 (143)
+T 3CO5_A          124 CEEKLAGLFSESVVRIPPL  142 (143)
+T ss_dssp             HHHHHHHHSSSEEEEECCC
+T ss_pred             hhHHHHHHhccceeeCCCC
+Confidence            3455666666655777775
+
+
+No 5
+>2QQP_G Large Capsid protein/ Small capsid; virus, capsid, coat protein, protein-RNA; 3.8A {Providence virus}
+Probab=14.56  E-value=1.7e+02  Score=25.87  Aligned_cols=25  Identities=20%  Similarity=0.211  Sum_probs=21.0  Template_Neff=4.900
+
+Q ss_pred             cCCCCCCCCchhhhhhhCCCCCCCC
+Q tr|D6RAQ0|D6RA   42 SCRNIQLPPLAFRQLEQADLKSESE   66 (74)
+Q Consensus        42 scrniqlpplafrqleqadlksese   66 (74)
+                      .+-.|+|||+.+.++-|.|.|++.-
+T Consensus       406 ~~~~i~lPp~t~~~ivqsdpK~~q~  430 (556)
+T 2QQP_G          406 NRLSIEMPALTTEEVTTNVPKYEQF  430 (556)
+T ss_dssp             EEEEEECCCCSHHHHHHHCSSEEEE
+T ss_pred             cceEeeCCCCCHHHHHhcCCchhhh
+Confidence            3556889999999999999998653
+
+
+No 6
+>4BS1_B TRANSCRIPTIONAL REGULATOR (NTRC FAMILY); HYDROLASE, AAA+ DNA TRANSPOSITION, NUCLEOPROTEIN; HET: ADP; 18.0A {ENTEROBACTERIA PHAGE MU}
+Probab=11.16  E-value=1.8e+02  Score=15.65  Aligned_cols=16  Identities=38%  Similarity=0.607  Sum_probs=7.3  Template_Neff=13.000
+
+Q ss_pred             cchhhcccCCCCCCCC
+Q tr|D6RAQ0|D6RA   35 PYLVRRLSCRNIQLPP   50 (74)
+Q Consensus        35 pylvrrlscrniqlpp   50 (74)
+                      +.+.+|+....|.+||
+T Consensus       158 ~~~~~r~~~~~i~~p~  173 (173)
+T 4BS1_B          158 EDLYYRLGVIEIEIPP  173 (173)
+T ss_dssp             HHHHHHHTTEEEECCC
+T ss_pred             HHHHHHHccceEecCC
+Confidence            3444444444444443
+
+
+No 7
+>4BT1_B TRANSCRIPTIONAL REGULATOR; TRANSCRIPTION, AAAPLUS ATPASE, DNA TRANSPOSITION; HET: ADP; 16.0A {ENTEROBACTERIA PHAGE MU}
+Probab=11.16  E-value=1.8e+02  Score=15.65  Aligned_cols=16  Identities=38%  Similarity=0.607  Sum_probs=7.3  Template_Neff=13.000
+
+Q ss_pred             cchhhcccCCCCCCCC
+Q tr|D6RAQ0|D6RA   35 PYLVRRLSCRNIQLPP   50 (74)
+Q Consensus        35 pylvrrlscrniqlpp   50 (74)
+                      +.+.+|+....|.+||
+T Consensus       158 ~~~~~r~~~~~i~~p~  173 (173)
+T 4BT1_B          158 EDLYYRLGVIEIEIPP  173 (173)
+T ss_dssp             HHHHHHHTTEEEECCC
+T ss_pred             HHHHHHHccceEecCC
+Confidence            3444444444444443
+
+
+No 8
+>6U0U_A Tubulin alpha chain, Tubulin beta; cilia, doublet, axoneme, microtubule inner; HET: GTP, GDP;{Tetrahymena thermophila}
+Probab=10.19  E-value=5.9e+02  Score=19.59  Aligned_cols=16  Identities=19%  Similarity=0.393  Sum_probs=10.3  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCcchhhcc
+Q tr|D6RAQ0|D6RA   26 EEDPFRGMEPYLVRRL   41 (74)
+Q Consensus        26 eedpfrgmepylvrrl   41 (74)
+                      -.|-|+||.|--+..+
+T Consensus       191 r~d~fKGms~eq~~~I  206 (280)
+T 6U0U_A          191 IPYHWKGMNPQQKKDI  206 (280)
+T ss_pred             CCccccCCCHHHHHHH
+Confidence            3566888877655443
+
+
+No 9
+>2M3B_C Cardiac phospholamban; phospholamban, pln, plb, MEMBRANE PROTEIN; HET: SEP; NMR {Oryctolagus cuniculus}
+Probab=9.70  E-value=2.4e+02  Score=18.81  Aligned_cols=19  Identities=37%  Similarity=0.601  Sum_probs=15.3  Template_Neff=1.700
+
+Q ss_pred             hhhcccCCCCCCCCchhhhhh
+Q tr|D6RAQ0|D6RA   37 LVRRLSCRNIQLPPLAFRQLE   57 (74)
+Q Consensus        37 lvrrlscrniqlpplafrqle   57 (74)
+                      -+||-|  +|.+||-+-|.|.
+T Consensus        11 AiRRaS--~iev~pqak~nlq   29 (52)
+T 2M3B_C           11 AIRRAS--TIEMPQQARQNLQ   29 (52)
+T ss_dssp             HHHHCC--CCCCSTTHHHHHH
+T ss_pred             HHHHHH--hCCCCHHHHHHHH
+Confidence            467777  8999999988765
+
+
+No 10
+>4Y3U_B Sarcoplasmic/endoplasmic reticulum calcium ATPase 1; Ca-ATPase, SERCA1a, membrane protein; 3.51A {Oryctolagus cuniculus}
+Probab=9.13  E-value=2.6e+02  Score=18.53  Aligned_cols=23  Identities=30%  Similarity=0.495  Sum_probs=7.3  Template_Neff=1.600
+
+Q ss_pred             CCcchhhcccCCCCCCCCchhhhhh
+Q tr|D6RAQ0|D6RA   33 MEPYLVRRLSCRNIQLPPLAFRQLE   57 (74)
+Q Consensus        33 mepylvrrlscrniqlpplafrqle   57 (74)
+                      |...-+||-|  +|.+||-+-+.|.
+T Consensus         7 ~trsAiRRaS--~iev~pqak~nlq   29 (50)
+T 4Y3U_B            7 LTRSAIRRAS--TIEMPQQARQNLQ   29 (50)
+T ss_dssp             ----------------CCTTHHHHH
+T ss_pred             HHHHHHHHHH--hCCCCHHHHHHHH
+Confidence            3344578877  8999999888765
+
+

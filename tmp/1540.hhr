@@ -1,0 +1,165 @@
+Query         sp|A0A286YFB4|SCGR2_HUMAN
+Match_columns 120
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:57:24 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1540.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7KIP_A Spike glycoprotein; NL6  15.0      86 0.00093   32.5  -0.7   22   63-85   1318-1339(1356)
+  2 1EWS_A alpha defensin, triple-   4.0   1E+03   0.011   13.7   0.8    7   89-95      2-8   (32)
+  3 1ZMQ_C Defensin 6; HUMAN INTES   3.0 1.4E+03   0.015   13.0   0.8    6   89-94      3-8   (32)
+  4 3QTE_B Defensin-6; antimicrobi   3.0 1.4E+03   0.015   13.0   0.8    6   89-94      3-8   (32)
+  5 6DRI_A Acan1; DISULFIDE-RICH P   3.0   1E+03   0.011   12.9   0.3    7   92-98     33-39  (41)
+  6 6VI8_A In crystallo reaction,    2.9 1.3E+03   0.015   16.6   0.8    8   93-100   180-187 (195)
+  7 6VIA_A In crystallo reaction,    2.9 1.3E+03   0.015   16.6   0.8    8   93-100   180-187 (195)
+  8 6Y5A_C 5-hydroxytryptamine rec   2.8 4.2E+03   0.045   16.6   3.5   31   20-50     10-40  (538)
+  9 6Y5A_D 5-hydroxytryptamine rec   2.8 4.2E+03   0.045   16.6   3.5   31   20-50     10-40  (538)
+ 10 2X1W_A VASCULAR ENDOTHELIAL GR   2.7 1.4E+03   0.015   15.5   0.6    8   80-87     51-58  (110)
+
+No 1
+>7KIP_A Spike glycoprotein; NL63, in situ, Spike trimer; HET: BMA, NAG, MAN; 3.39A {Human coronavirus NL63}
+Probab=15.01  E-value=86  Score=32.51  Aligned_cols=22  Identities=45%  Similarity=1.541  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             ccccCCCCCCCCCCCCCCCCCCC
+Q sp|A0A286YFB4|   63 CYRVGCCSSCCPCCRGCCGGCCS   85 (120)
+Q Consensus        63 cyrvgccssccpccrgccggccs   85 (120)
+                      |.+.+||. ||-||..||.|+|+
+T Consensus      1318 ~~~~~CCg-Cc~Cc~~cc~g~c~ 1339 (1356)
+T 7KIP_A         1318 CLSTGCCG-CCNCLTSSMRGCCD 1339 (1356)
+T ss_dssp             -----------------------
+T ss_pred             HHHhCCCc-hhHHhhhcccCcCC
+Confidence            34567888 77888888888776
+
+
+No 2
+>1EWS_A alpha defensin, triple-stranded beta-sheet, ANTIMICROBIAL; NMR {Oryctolagus cuniculus} SCOP: g.9.1.1
+Probab=3.95  E-value=1e+03  Score=13.75  Aligned_cols=7  Identities=29%  Similarity=1.141  Sum_probs=3.2  Template_Neff=6.400
+
+Q ss_pred             eccCCCC
+Q sp|A0A286YFB4|   89 ICCCRRT   95 (120)
+Q Consensus        89 icccrrt   95 (120)
+                      +|-||+.
+T Consensus         2 ~C~CR~~    8 (32)
+T 1EWS_A            2 PCSCKKY    8 (32)
+T ss_dssp             CSEEESS
+T ss_pred             cccccCC
+Confidence            3445543
+
+
+No 3
+>1ZMQ_C Defensin 6; HUMAN INTESTINAL ALPHA-DEFENSIN, PANETH CELLS; 2.1A {Homo sapiens}
+Probab=3.05  E-value=1.4e+03  Score=12.99  Aligned_cols=6  Identities=67%  Similarity=1.691  Sum_probs=2.9  Template_Neff=6.700
+
+Q ss_pred             eccCCC
+Q sp|A0A286YFB4|   89 ICCCRR   94 (120)
+Q Consensus        89 icccrr   94 (120)
+                      +|-||+
+T Consensus         3 ~C~CR~    8 (32)
+T 1ZMQ_C            3 TCHCRR    8 (32)
+T ss_dssp             EEEEES
+T ss_pred             eeeccC
+Confidence            445553
+
+
+No 4
+>3QTE_B Defensin-6; antimicrobial protein, Paneth cells defensin; 1.949A {N/A}
+Probab=3.02  E-value=1.4e+03  Score=12.98  Aligned_cols=6  Identities=67%  Similarity=1.691  Sum_probs=2.8  Template_Neff=6.700
+
+Q ss_pred             eccCCC
+Q sp|A0A286YFB4|   89 ICCCRR   94 (120)
+Q Consensus        89 icccrr   94 (120)
+                      +|-||+
+T Consensus         3 ~C~CR~    8 (32)
+T 3QTE_B            3 TCHCRR    8 (32)
+T ss_dssp             EEEEES
+T ss_pred             eeeccC
+Confidence            445553
+
+
+No 5
+>6DRI_A Acan1; DISULFIDE-RICH PEPTIDE, IMMUNE SYSTEM; HET: NH2; NMR {N/A}
+Probab=2.99  E-value=1e+03  Score=12.91  Aligned_cols=7  Identities=43%  Similarity=0.876  Sum_probs=3.3  Template_Neff=8.700
+
+Q ss_pred             CCCCcCC
+Q sp|A0A286YFB4|   92 CRRTCHS   98 (120)
+Q Consensus        92 crrtchs   98 (120)
+                      |++||..
+T Consensus        33 C~ktC~~   39 (41)
+T 6DRI_A           33 CPVTCGF   39 (41)
+T ss_dssp             STTTTTC
+T ss_pred             CHhhcCC
+Confidence            4455443
+
+
+No 6
+>6VI8_A In crystallo reaction, Extradiol dioxygenase; HET: 3HA; 1.95A {Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)}
+Probab=2.92  E-value=1.3e+03  Score=16.63  Aligned_cols=8  Identities=50%  Similarity=1.477  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCcCCCC
+Q sp|A0A286YFB4|   93 RRTCHSCG  100 (120)
+Q Consensus        93 rrtchscg  100 (120)
+                      +|||.+||
+T Consensus       180 ~rtc~~Cg  187 (195)
+T 6VI8_A          180 KRRCPHCG  187 (195)
+T ss_dssp             TTBCTTTC
+T ss_pred             cCCCCCCC
+
+
+No 7
+>6VIA_A In crystallo reaction, Extradiol dioxygenase; HET: TRS, EAY; 1.591A {Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)}
+Probab=2.92  E-value=1.3e+03  Score=16.63  Aligned_cols=8  Identities=50%  Similarity=1.477  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCcCCCC
+Q sp|A0A286YFB4|   93 RRTCHSCG  100 (120)
+Q Consensus        93 rrtchscg  100 (120)
+                      +|||.+||
+T Consensus       180 ~rtc~~Cg  187 (195)
+T 6VIA_A          180 KRRCPHCG  187 (195)
+T ss_dssp             HHBCTTTC
+T ss_pred             cCCCCCCC
+
+
+No 8
+>6Y5A_C 5-hydroxytryptamine receptor 3A; Pentameric ligand-gated ion channel, pLGIC; HET: SRO; 2.8A {Mus musculus}
+Probab=2.78  E-value=4.2e+03  Score=16.58  Aligned_cols=31  Identities=58%  Similarity=1.089  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|A0A286YFB4|   20 GGGCGGGCGGGCGGGCGGGCGGGCGGGCGGG   50 (120)
+Q Consensus        20 gggcgggcgggcgggcgggcgggcgggcggg   50 (120)
+                      ++|=++|-+|+-.++-...-+++-+++.+++
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   40 (538)
+T 6Y5A_C           10 GGGSGGGSGGGSWSHPQFEKGGGSGGGSGGG   40 (538)
+T ss_dssp             -------------------------------
+T ss_pred             CCCCCCCCCCCCcCCCCCCCCCCCCCCCCCC
+
+
+No 9
+>6Y5A_D 5-hydroxytryptamine receptor 3A; Pentameric ligand-gated ion channel, pLGIC; HET: SRO; 2.8A {Mus musculus}
+Probab=2.78  E-value=4.2e+03  Score=16.58  Aligned_cols=31  Identities=58%  Similarity=1.089  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q sp|A0A286YFB4|   20 GGGCGGGCGGGCGGGCGGGCGGGCGGGCGGG   50 (120)
+Q Consensus        20 gggcgggcgggcgggcgggcgggcgggcggg   50 (120)
+                      ++|=++|-+|+-.++-...-+++-+++.+++
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   40 (538)
+T 6Y5A_D           10 GGGSGGGSGGGSWSHPQFEKGGGSGGGSGGG   40 (538)
+T ss_dssp             -------------------------------
+T ss_pred             CCCCCCCCCCCCcCCCCCCCCCCCCCCCCCC
+
+
+No 10
+>2X1W_A VASCULAR ENDOTHELIAL GROWTH FACTOR C; HORMONE-SIGNALING PROTEIN COMPLEX, ANGIOGENESIS, GLYCOPROTEIN; HET: BMA, NAG; 2.7A {HOMO SAPIENS}
+Probab=2.66  E-value=1.4e+03  Score=15.54  Aligned_cols=8  Identities=63%  Similarity=2.062  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCCCC
+Q sp|A0A286YFB4|   80 CGGCCSTP   87 (120)
+Q Consensus        80 cggccstp   87 (120)
+                      |+|||..+
+T Consensus        51 C~GcC~~~   58 (110)
+T 2X1W_A           51 CGGCCNSE   58 (110)
+T ss_dssp             EECCCSSS
+T ss_pred             eeCcCCCC
+
+

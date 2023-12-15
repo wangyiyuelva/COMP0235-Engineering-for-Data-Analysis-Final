@@ -1,0 +1,226 @@
+Query         tr|F5H1B2|F5H1B2_HUMAN
+Match_columns 184
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 10:52:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1742.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7R9G_A pseudouridine, pus, pus  99.4   3E-12 3.2E-17  114.2   7.4   78   76-156    67-144 (544)
+  2 4J37_A tRNA pseudouridine synt  99.2 9.7E-11 1.1E-15   93.9   7.0   82   75-156     3-84  (336)
+  3 4NZ6_B tRNA pseudouridine synt  99.1 3.1E-10 3.4E-15   89.4   6.0   74   83-156     2-75  (313)
+  4 1VS3_B tRNA pseudouridine synt  97.8 6.1E-05 6.6E-10   58.2   4.2   60   84-156     2-62  (249)
+  5 1DJ0_B PSEUDOURIDINE SYNTHASE   97.7 8.4E-05 9.1E-10   58.6   4.3   63   82-156     2-64  (264)
+  6 6SGA_FB ?; mitochondrial ribos  97.5 0.00062 6.7E-09   63.6   7.0   72   77-156   169-276 (579)
+  7 6SGA_FC ?; mitochondrial ribos  97.5 0.00062 6.7E-09   63.6   7.0   72   77-156   169-276 (579)
+  8 7CCS_A 4F2 cell-surface antige  92.2    0.19   2E-06   43.5   2.1   29  155-183    36-64  (631)
+  9 7DSK_A Sodium-dependent neutra  90.4    0.43 4.6E-06   41.7   2.5   26  156-181    50-75  (647)
+ 10 1G71_B DNA PRIMASE; zinc-knuck  29.1      56 0.00061   28.7   1.1   17   87-103   140-156 (347)
+ 11 1V33_A DNA primase small subun  23.4      82 0.00089   28.3   1.1   15   88-102   161-175 (366)
+
+No 1
+>7R9G_A pseudouridine, pus, pus1, rna, synthase; 2.4A {Saccharomyces cerevisiae}
+Probab=99.36  E-value=3e-12  Score=114.24  Aligned_cols=78  Identities=37%  Similarity=0.567  Sum_probs=64.5  Template_Neff=6.700
+
+Q ss_pred             ccCCCCCCCeEEEEEecCCCCccccccCCCCcccccHHHHHHHHHHHCCCCCccCchhHhhcchhhccCCCCCCCEEEec
+Q tr|F5H1B2|F5H1   76 ERREKPPKRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLP  155 (184)
+Q Consensus        76 errekppkrkivllmaysgkgyhgmqrnvgssqfktieddlvsalvrsgcipenhgedmrkmsfqrcartdksqdlillp  155 (184)
+                      +..++.+++++++.|+|+|++|+|||.|+.   .+||++.|+.+|.+++.+++.+..+.+++.|.+|+|||+||||++|+
+T Consensus        67 ~~~~r~pkrkval~igY~GtgY~G~Q~np~---~~TIEg~L~~AL~kag~Is~~N~~d~kk~~~~rAsRTDKGVHA~gnV  143 (544)
+T 7R9G_A           67 PKEPRLPKRKVAVMVGYCGTGYHGMQYNPP---NPTIESALFKAFVEAGAISKDNSNDLKKNGFMRAARTAKGVHAGGNL  143 (544)
+T ss_dssp             ----CCCCEEEEEEEEECCTTSCCSSCCTT---SCCHHHHHHHHHHHHTSSCC------CCSSCEESCCCCTTCEEEEEE
+T ss_pred             CCCCCCCCcEEEEEEEeCCCCCCccccCCC---CCCHHHHHHHHHHHcCCCChhhccchHhcCceeeecccccceeeccE
+Confidence            345678899999999999999999999987   59999999999999999988777777889999999999999999997
+
+
+Q ss_pred             c
+Q tr|F5H1B2|F5H1  156 R  156 (184)
+Q Consensus       156 r  156 (184)
+                      .
+T Consensus       144 v  144 (544)
+T 7R9G_A          144 I  144 (544)
+T ss_dssp             E
+T ss_pred             E
+Confidence            5
+
+
+No 2
+>4J37_A tRNA pseudouridine synthase A, mitochondrial; beta sheet, pseudouridine synthase, RNA; HET: SO4, EDO; 1.75A {Homo sapiens}
+Probab=99.19  E-value=9.7e-11  Score=93.92  Aligned_cols=82  Identities=84%  Similarity=1.197  Sum_probs=64.7  Template_Neff=8.700
+
+Q ss_pred             cccCCCCCCCeEEEEEecCCCCccccccCCCCcccccHHHHHHHHHHHCCCCCccCchhHhhcchhhccCCCCCCCEEEe
+Q tr|F5H1B2|F5H1   75 EERREKPPKRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKSQDLILL  154 (184)
+Q Consensus        75 eerrekppkrkivllmaysgkgyhgmqrnvgssqfktieddlvsalvrsgcipenhgedmrkmsfqrcartdksqdlill  154 (184)
+                      .+++++.+++++++.|+|+|++|+|||.|+.....+||++.|+.+|.+++.+.+++..+.+.+.|.+++|||+||||++|
+T Consensus         3 ~~~~~~~~~~~~~l~i~Y~G~~y~G~q~q~~~~~~~TVe~~l~~al~~~~~i~~~~~~~~~~~~~~~asRTD~GVhA~~~   82 (336)
+T 4J37_A            3 GSEFEKPPKRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKGVSAAGQ   82 (336)
+T ss_dssp             ------CCEEEEEEEEEECCTTSSCSSCC----CCCCHHHHHHHHHHHHTSSCHHHHHSGGGGTCEESCCCCTTCEEEEE
+T ss_pred             CcccCCCCCeEEEEEEEeCCCCCCccccCCCCCCCCCHHHHHHHHHHHCCCCCHhhccchhhcceEEecCCCCccccccc
+Confidence            45677888999999999999999999999864446999999999999998887655545567889999999999999999
+
+
+Q ss_pred             cc
+Q tr|F5H1B2|F5H1  155 PR  156 (184)
+Q Consensus       155 pr  156 (184)
+                      +.
+T Consensus        83 v~   84 (336)
+T 4J37_A           83 VV   84 (336)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            74
+
+
+No 3
+>4NZ6_B tRNA pseudouridine synthase A, mitochondrial; nuclear receptor coactivator, Steroid receptor; HET: PGE, DLY, DGL; 2.0A {Homo sapiens}
+Probab=99.10  E-value=3.1e-10  Score=89.37  Aligned_cols=74  Identities=88%  Similarity=1.243  Sum_probs=62.0  Template_Neff=9.000
+
+Q ss_pred             CCeEEEEEecCCCCccccccCCCCcccccHHHHHHHHHHHCCCCCccCchhHhhcchhhccCCCCCCCEEEecc
+Q tr|F5H1B2|F5H1   83 KRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLPR  156 (184)
+Q Consensus        83 krkivllmaysgkgyhgmqrnvgssqfktieddlvsalvrsgcipenhgedmrkmsfqrcartdksqdlillpr  156 (184)
+                      ++++++.|+|+|+.|+|||.|++....+||+++|+.+|.+++.+++.+..+.+.+.|.+++|||+||||++|+.
+T Consensus         2 ~~~~~l~i~Y~G~~y~G~q~q~~~~~~~tVe~~l~~al~~~~~~~~~~~~~~~~~~~~~asRTD~GVhA~~~v~   75 (313)
+T 4NZ6_B            2 KRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKGVSAAGQVV   75 (313)
+T ss_dssp             CEEEEEEEEECCTTSSCSSCC----CCCCHHHHHHHHHHHHTSSCHHHHHSGGGGTCEESCCCCTTCEEEEEEE
+T ss_pred             CeEEEEEEEeCCCCCCccccCCCCCCCCCHHHHHHHHHHHCCCCCHhhccchhhcceeEecCCCCcccccccEE
+Confidence            56899999999999999999986545699999999999999888665544456788999999999999999974
+
+
+No 4
+>1VS3_B tRNA pseudouridine synthase A (E.C.5.4.99.12); TruA, pseudouridine synthase, tRNA modification; 2.25A {Thermus thermophilus}
+Probab=97.78  E-value=6.1e-05  Score=58.24  Aligned_cols=60  Identities=30%  Similarity=0.500  Sum_probs=53.4  Template_Neff=9.000
+
+Q ss_pred             CeEEEEEecCCCCccccccCC-CCcccccHHHHHHHHHHHCCCCCccCchhHhhcchhhccCCCCCCCEEEecc
+Q tr|F5H1B2|F5H1   84 RKIVLLMAYSGKGYHGMQRNV-GSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLPR  156 (184)
+Q Consensus        84 rkivllmaysgkgyhgmqrnv-gssqfktieddlvsalvrsgcipenhgedmrkmsfqrcartdksqdlillpr  156 (184)
+                      +++++.|+|+|+.|+|||.|+ +   .+||++.|+++|.++.          ..+.+..++|||+||||++|+.
+T Consensus         2 ~~~~l~i~Y~G~~y~G~q~q~~~---~~TVq~~l~~al~~~~----------~~~~~~~asRTD~GVhA~~qv~   62 (249)
+T 1VS3_B            2 RRLLLLCEYDGTLFAGLQRQGRG---LRTVQGELERALPGIG----------ALPKAVAAGRTDAGVHALAMPF   62 (249)
+T ss_dssp             EEEEEEEEECCTTSSCSSCCSTT---CCCHHHHHHHHGGGGT----------BCSCCEESSCCCTTCEEEEEEE
+T ss_pred             eEEEEEEEECCCCccccEeCCCC---CCCHHHHHHHHHHHhc----------CCCeEEEeeCCCCCCCcccCEE
+Confidence            589999999999999999998 5   5899999999999876          1356889999999999999975
+
+
+No 5
+>1DJ0_B PSEUDOURIDINE SYNTHASE I (E.C.4.2.1.70); ALPHA/BETA FOLD, RNA-BINDING MOTIF, RNA-MODIFYING; 1.5A {Escherichia coli} SCOP: d.265.1.1
+Probab=97.73  E-value=8.4e-05  Score=58.56  Aligned_cols=63  Identities=25%  Similarity=0.313  Sum_probs=55.7  Template_Neff=8.700
+
+Q ss_pred             CCCeEEEEEecCCCCccccccCCCCcccccHHHHHHHHHHHCCCCCccCchhHhhcchhhccCCCCCCCEEEecc
+Q tr|F5H1B2|F5H1   82 PKRKIVLLMAYSGKGYHGMQRNVGSSQFKTIEDDLVSALVRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLPR  156 (184)
+Q Consensus        82 pkrkivllmaysgkgyhgmqrnvgssqfktieddlvsalvrsgcipenhgedmrkmsfqrcartdksqdlillpr  156 (184)
+                      .++++++.|+|+|+.|+|||.|++   .+||++.|+++|.++..         .++.+..++|||+||||++|+.
+T Consensus         2 ~~~~~~l~v~Y~G~~f~G~q~q~~---~~TVq~~l~~al~~~~~---------~~~~~~~asRTD~GVhA~~qv~   64 (264)
+T 1DJ0_B            2 PVYKIALGIEYDGSKYYGWQRQNE---VRSVQEKLEKALSQVAN---------EPITVFCAGRTDAGVHGTGQVV   64 (264)
+T ss_dssp             CCEEEEEEEEECCTTSSCSSCCSS---SCCHHHHHHHHHHHHHT---------SCCCCEESSCCCTTCEEEEEEE
+T ss_pred             CceEEEEEEEECCCCCCceecCCC---CCCHHHHHHHHHHHHhC---------CCcEEEEEecCCCCCcccCcEE
+Confidence            457999999999999999999987   59999999999999742         2467899999999999999975
+
+
+No 6
+>6SGA_FB ?; mitochondrial ribosome, assembly intermediate, translation; HET: PM8, UBD; 3.1A {Trypanosoma brucei brucei}
+Probab=97.48  E-value=0.00062  Score=63.59  Aligned_cols=72  Identities=11%  Similarity=0.056  Sum_probs=59.4  Template_Neff=6.000
+
+Q ss_pred             cCCCCCCCeEEEEEecCCCCccccccCCCCc------------------------------------ccccHHHHHHHHH
+Q tr|F5H1B2|F5H1   77 RREKPPKRKIVLLMAYSGKGYHGMQRNVGSS------------------------------------QFKTIEDDLVSAL  120 (184)
+Q Consensus        77 rrekppkrkivllmaysgkgyhgmqrnvgss------------------------------------qfktieddlvsal  120 (184)
+                      ......+++|+|.|+|+|++|.|||.|....                                    ..++|++.|+++|
+T Consensus       169 ~~~~~~~~ry~l~V~Y~Gt~f~G~Q~q~~~~~~~~~~~~~g~~~r~~~~~~~~~~~~~~~~~~~~~~~~~TVq~~LeeAL  248 (579)
+T 6SGA_FB         169 QIIPPGLTRYRVDVQYQGNDFDGWWKSTTRQLFRREVGLDGSITRVPVAEPGTIGNAAGASRGETMGSRYHARTVLEEAL  248 (579)
+T ss_pred             ccCCCCCeEEEEEEEeCCCCCCceEecCCccccceeeccCCceeeeccCCCCCCCCccccccCccccccccHHHHHHHHH
+Confidence            3345678899999999999999999987530                                    1279999999999
+
+
+Q ss_pred             HHCCCCCccCchhHhhcchhhccCCCCCCCEEEecc
+Q tr|F5H1B2|F5H1  121 VRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLPR  156 (184)
+Q Consensus       121 vrsgcipenhgedmrkmsfqrcartdksqdlillpr  156 (184)
+                      .++..+        ..+.|..++|||+||||++|+.
+T Consensus       249 ~k~~~~--------~~v~v~~asRTDkGVHA~~qv~  276 (579)
+T 6SGA_FB         249 AVALDV--------NTVRVVAGVIPEVGVSVRRLCC  276 (579)
+T ss_pred             HHhcCC--------CceEEEEecCCCCCceeeeEEE
+Confidence            997632        4577999999999999999975
+
+
+No 7
+>6SGA_FC ?; mitochondrial ribosome, assembly intermediate, translation; HET: PM8, UBD; 3.1A {Trypanosoma brucei brucei}
+Probab=97.48  E-value=0.00062  Score=63.59  Aligned_cols=72  Identities=11%  Similarity=0.056  Sum_probs=59.4  Template_Neff=6.000
+
+Q ss_pred             cCCCCCCCeEEEEEecCCCCccccccCCCCc------------------------------------ccccHHHHHHHHH
+Q tr|F5H1B2|F5H1   77 RREKPPKRKIVLLMAYSGKGYHGMQRNVGSS------------------------------------QFKTIEDDLVSAL  120 (184)
+Q Consensus        77 rrekppkrkivllmaysgkgyhgmqrnvgss------------------------------------qfktieddlvsal  120 (184)
+                      ......+++|+|.|+|+|++|.|||.|....                                    ..++|++.|+++|
+T Consensus       169 ~~~~~~~~ry~l~V~Y~Gt~f~G~Q~q~~~~~~~~~~~~~g~~~r~~~~~~~~~~~~~~~~~~~~~~~~~TVq~~LeeAL  248 (579)
+T 6SGA_FC         169 QIIPPGLTRYRVDVQYQGNDFDGWWKSTTRQLFRREVGLDGSITRVPVAEPGTIGNAAGASRGETMGSRYHARTVLEEAL  248 (579)
+T ss_pred             ccCCCCCeEEEEEEEeCCCCCCceEecCCccccceeeccCCceeeeccCCCCCCCCccccccCccccccccHHHHHHHHH
+Confidence            3345678899999999999999999987530                                    1279999999999
+
+
+Q ss_pred             HHCCCCCccCchhHhhcchhhccCCCCCCCEEEecc
+Q tr|F5H1B2|F5H1  121 VRSGCIPENHGEDMRKMSFQRCARTDKSQDLILLPR  156 (184)
+Q Consensus       121 vrsgcipenhgedmrkmsfqrcartdksqdlillpr  156 (184)
+                      .++..+        ..+.|..++|||+||||++|+.
+T Consensus       249 ~k~~~~--------~~v~v~~asRTDkGVHA~~qv~  276 (579)
+T 6SGA_FC         249 AVALDV--------NTVRVVAGVIPEVGVSVRRLCC  276 (579)
+T ss_pred             HHhcCC--------CceEEEEecCCCCCceeeeEEE
+Confidence            997632        4577999999999999999975
+
+
+No 8
+>7CCS_A 4F2 cell-surface antigen heavy chain; Transporter, membrane protein, complex, TRANSPORT; 6.2A {Homo sapiens}
+Probab=92.16  E-value=0.19  Score=43.47  Aligned_cols=29  Identities=34%  Similarity=0.402  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             cccccCCceeeeheeehcCCCCCCCCCCC
+Q tr|F5H1B2|F5H1  155 PRLECSGMIMAHCSLKLLGSSNPPASASR  183 (184)
+Q Consensus       155 prlecsgmimahcslkllgssnppasasr  183 (184)
+                      .+++|++.+.++|++.+.++.+++.++++
+T Consensus        36 ~~l~~~~~~~~~~~l~l~~s~~~~~s~~~   64 (631)
+T 7CCS_A           36 DDSELGSHCVAQTGLELLASGDPLPSASQ   64 (631)
+T ss_dssp             -----------------------------
+T ss_pred             cceecCceEEEEeeecCCCCCCCCCcHHH
+Confidence            56788888999999998888888887765
+
+
+No 9
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=90.35  E-value=0.43  Score=41.66  Aligned_cols=26  Identities=38%  Similarity=0.516  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ccccCCceeeeheeehcCCCCCCCCC
+Q tr|F5H1B2|F5H1  156 RLECSGMIMAHCSLKLLGSSNPPASA  181 (184)
+Q Consensus       156 rlecsgmimahcslkllgssnppasa  181 (184)
+                      +++|++.+.++|+|.+.++.+++.++
+T Consensus        50 ~l~~~~~~~~~~~l~l~~s~~~~~~~   75 (647)
+T 7DSK_A           50 DSETGSDCVTQAGLQLLASSDPPALA   75 (647)
+T ss_dssp             --------------------------
+T ss_pred             CCCCCcceEeeceecCCCCCCCCCcc
+Confidence            33444444444444444444444433
+
+
+No 10
+>1G71_B DNA PRIMASE; zinc-knuckle, REPLICATION; HET: SO4; 2.3A {Pyrococcus furiosus} SCOP: d.264.1.1
+Probab=29.08  E-value=56  Score=28.66  Aligned_cols=17  Identities=35%  Similarity=0.628  Sum_probs=10.7  Template_Neff=7.700
+
+Q ss_pred             EEEEecCCCCccccccC
+Q tr|F5H1B2|F5H1   87 VLLMAYSGKGYHGMQRN  103 (184)
+Q Consensus        87 vllmaysgkgyhgmqrn  103 (184)
+                      -+.+-|.|.+||-|-..
+T Consensus       140 ~i~i~FSGRG~Hi~V~d  156 (347)
+T 1G71_B          140 NIHVVYSGRGYHIRILD  156 (347)
+T ss_dssp             CEEEEECSSEEEEEECC
+T ss_pred             eEEEEEecCCeEEEEec
+Confidence            35666788777665443
+
+
+No 11
+>1V33_A DNA primase small subunit (E.C.2.7.7.-); Nucleotidyl transferase, RIKEN Structural Genomics/Proteomics; 1.8A {Pyrococcus horikoshii} SCOP: d.264.1.1
+Probab=23.36  E-value=82  Score=28.26  Aligned_cols=15  Identities=40%  Similarity=0.720  Sum_probs=9.7  Template_Neff=7.300
+
+Q ss_pred             EEEecCCCCcccccc
+Q tr|F5H1B2|F5H1   88 LLMAYSGKGYHGMQR  102 (184)
+Q Consensus        88 llmaysgkgyhgmqr  102 (184)
+                      +.+-|.|.+|+-|-.
+T Consensus       161 i~i~FSGRG~Hi~V~  175 (366)
+T 1V33_A          161 IHIIYSGRGYHIRVL  175 (366)
+T ss_dssp             EEEEECSSEEEEEEC
+T ss_pred             EEEEEecCCeEEEEe
+Confidence            556677866766543
+
+

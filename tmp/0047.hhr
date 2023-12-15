@@ -1,0 +1,170 @@
+Query         tr|A2A3Z5|A2A3Z5_HUMAN
+Match_columns 164
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Wed Dec 13 23:39:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0047.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6HSV_L Toxin B subunit; Choler  41.7      87 0.00094   26.3   3.9   56   13-76     57-112 (124)
+  2 5FSU_B MACRODOMAIN; MACRODOMAI  35.7      37  0.0004   25.9   0.9   13  139-151   107-119 (266)
+  3 5FSV_A MACRODOMAIN; MACRODOMAI  35.7      37  0.0004   25.9   0.9   14  139-152   107-120 (266)
+  4 4L3V_A Cystathionine beta-synt  31.0 2.5E+02  0.0027   23.6   4.9   62   67-128   332-394 (550)
+  5 2LJX_A Protein E6; METAL BINDI  20.7      97  0.0011   22.6   0.8   20  124-143    42-61  (84)
+  6 6L8G_A Antitoxin, YoeB; toxin-  19.0 1.2E+02  0.0013   16.4   0.8   33   72-104     3-35  (38)
+  7 4GIZ_D Maltose-binding peripla  18.0 1.2E+02  0.0013   24.1   0.8   21  123-143    38-58  (142)
+  8 4XR8_H Maltose-binding peripla  16.9 1.3E+02  0.0014   24.2   0.8   21  123-143    39-59  (151)
+  9 5MMS_D Cystathionine beta-synt  16.3   8E+02  0.0087   20.1   5.0   50   72-121   338-388 (408)
+ 10 5MMS_E Cystathionine beta-synt  16.3   8E+02  0.0087   20.1   5.0   50   72-121   338-388 (408)
+
+No 1
+>6HSV_L Toxin B subunit; Cholera toxin B, CTB, parallel; HET: PO4, MPD; 2.45A {Vibrio cholerae}
+Probab=41.65  E-value=87  Score=26.34  Aligned_cols=56  Identities=32%  Similarity=0.450  Sum_probs=41.8  Template_Neff=1.400
+
+Q ss_pred             ccCCCcchHHHHHHHHHHhhhhhcccCcEEEEeecccceeccCCCccceeehhhhhHHHHHhhc
+Q tr|A2A3Z5|A2A3   13 KLNSQKNCHQTLLKTLNAVQYHHAAKAKFLCIMCCSNISYERDGEQDNCEIETSNGLSALLEEF   76 (164)
+Q Consensus        13 klnsqknchqtllktlnavqyhhaakakflcimccsnisyerdgeqdnceietsnglsalleef   76 (164)
+                      .+.|||.--..+-.||.+. |....|..-||..-  |     .....-.-|+.|||.|||-.|.
+T Consensus        57 HieSQKkplERMKDTLRaa-YfTg~Ki~KlC~W~--N-----KtPnsIAAIelsngvsalekev  112 (124)
+T 6HSV_L           57 HIDSQKKAIERMKDTLRIA-YLTEAKVEKLCVWN--N-----KTPHAIAAISMANGVSALEKEV  112 (124)
+T ss_dssp             SCTTHHHHHHHHHHHHHHH-HHHTCCEEEEEEET--T-----SSSEEEEEEEEECCSCTTHHHH
+T ss_pred             hhHhcHHHHHHHHHHHHHH-HHccceeeeEEeec--C-----CCcCceEEeeeccchhHHHHHH
+Confidence            5789999888888999875 66777888888742  2     2233446799999999987664
+
+
+No 2
+>5FSU_B MACRODOMAIN; MACRODOMAIN, HYDROLASE, ADP-RIBOSE BINDING; 1.95A {TRYPANOSOMA BRUCEI}
+Probab=35.71  E-value=37  Score=25.88  Aligned_cols=13  Identities=23%  Similarity=0.353  Sum_probs=6.2  Template_Neff=10.000
+
+Q ss_pred             eCCcccceEEEEE
+Q tr|A2A3Z5|A2A3  139 RGGLFKQSIEINV  151 (164)
+Q Consensus       139 rgglfkqsieinv  151 (164)
+                      .|.+.++..+.-|
+T Consensus       107 ~gdi~~~~~DaiV  119 (266)
+T 5FSU_B          107 RGPVTDLQLDAIV  119 (266)
+T ss_dssp             SSCGGGEESSEEE
+T ss_pred             ECCcccCcCCEEE
+Confidence            4455555544333
+
+
+No 3
+>5FSV_A MACRODOMAIN; MACRODOMAIN, HYDROLASE, ADP-RIBOSE BINDING; HET: GOL; 1.2A {TRYPANOSOMA BRUCEI}
+Probab=35.71  E-value=37  Score=25.88  Aligned_cols=14  Identities=21%  Similarity=0.261  Sum_probs=7.0  Template_Neff=10.000
+
+Q ss_pred             eCCcccceEEEEEe
+Q tr|A2A3Z5|A2A3  139 RGGLFKQSIEINVI  152 (164)
+Q Consensus       139 rgglfkqsieinvi  152 (164)
+                      .|.+.++..+.-|.
+T Consensus       107 ~gdi~~~~~DaiV~  120 (266)
+T 5FSV_A          107 RGPVTDLQLDAIVN  120 (266)
+T ss_dssp             ESCGGGEESSEEEE
+T ss_pred             ECCcccCcCCEEEE
+Confidence            45566655444333
+
+
+No 4
+>4L3V_A Cystathionine beta-synthase (E.C.4.2.1.22); CBS domain, homocyteine, cysteine biosynthesis; HET: PLP, HEM; 3.628A {Homo sapiens}
+Probab=31.00  E-value=2.5e+02  Score=23.57  Aligned_cols=62  Identities=15%  Similarity=0.127  Sum_probs=38.5  Template_Neff=10.600
+
+Q ss_pred             hhHHHHHhhcceeecchHHHHHHHHHHHhhcCC-CCeeEEEeccCcHHHHHHHHHHHhhhhcC
+Q tr|A2A3Z5|A2A3   67 NGLSALLEEFEIVSCPSMAATLYTIKQKIDEKN-LSSIKVIVPRHRKTLMKAFIDQLFTDVYN  128 (164)
+Q Consensus        67 nglsalleefeivscpsmaatlytikqkidekn-lssikvivprhrktlmkafidqlftdvyn  128 (164)
+                      .....+.++..+...||.++.+....+...... -+.+-++.+......|..+++.-+.....
+T Consensus       332 ~a~~~l~~~egi~~~pss~~a~a~~~~~~~~~~~~~~vv~v~~~~~~~y~~~~~~~~w~~~~g  394 (550)
+T 4L3V_A          332 TFARMLIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSDRWMLQKG  394 (550)
+T ss_dssp             HHHHHCCCCCCCCCCHHHHHHHHHHHHHGGGCCTTCEEEEEECBCGGGGTTTTSSHHHHHHTT
+T ss_pred             HHHHHHHHHhCCCcChHHHHHHHHHHHHHHHccCCCEEEEEeCCchhhcccccccHHHHHHhC
+Confidence            344455566678899998888877766544322 23677777777666666665544443333
+
+
+No 5
+>2LJX_A Protein E6; METAL BINDING PROTEIN; HET: ZN; NMR {Human papillomavirus}
+Probab=20.66  E-value=97  Score=22.57  Aligned_cols=20  Identities=35%  Similarity=0.654  Sum_probs=17.4  Template_Neff=6.300
+
+Q ss_pred             hhhcCccecccEEEEeCCcc
+Q tr|A2A3Z5|A2A3  124 TDVYNFEFEDLQVTFRGGLF  143 (164)
+Q Consensus       124 tdvynfefedlqvtfrgglf  143 (164)
+                      .|.++|++.+|++.+|+|..
+T Consensus        42 ~D~~~F~~k~L~lvwr~g~~   61 (84)
+T 2LJX_A           42 REVYDFARRDLCIVYRDGNP   61 (84)
+T ss_dssp             HHHHHHHHTTCCCEEETTEE
+T ss_pred             HHHHHHHhCCCEEEEeCCEE
+Confidence            58889999999999999864
+
+
+No 6
+>6L8G_A Antitoxin, YoeB; toxin-antitoxin, microbial RNase, YoeB, TOXIN; 1.0A {Staphylococcus aureus (strain NCTC 8325)}
+Probab=19.04  E-value=1.2e+02  Score=16.35  Aligned_cols=33  Identities=12%  Similarity=0.175  Sum_probs=20.7  Template_Neff=9.600
+
+Q ss_pred             HHhhcceeecchHHHHHHHHHHHhhcCCCCeeE
+Q tr|A2A3Z5|A2A3   72 LLEEFEIVSCPSMAATLYTIKQKIDEKNLSSIK  104 (164)
+Q Consensus        72 lleefeivscpsmaatlytikqkideknlssik  104 (164)
+                      +.|-+.+.+-|....-+..-.+.++.....+..
+T Consensus         3 l~ET~~lls~~~~~~~l~~~~~~~~~g~~~~~~   35 (38)
+T 6L8G_A            3 MMETLYLQQNPNNAEHLAQSIADLERGKTITKD   35 (38)
+T ss_dssp             CHHHHHHHSSHHHHHHHHHHHHHHHHTCCEEEE
+T ss_pred             hHHHHHHHhCHHHHHHHHHHHHHHHCCCccccc
+Confidence            445566667777777777776666655544433
+
+
+No 7
+>4GIZ_D Maltose-binding periplasmic protein, Protein E6; VIRAL PROTEIN; HET: GLC; 2.55A {Escherichia coli}
+Probab=17.96  E-value=1.2e+02  Score=24.06  Aligned_cols=21  Identities=33%  Similarity=0.572  Sum_probs=18.2  Template_Neff=6.400
+
+Q ss_pred             hhhhcCccecccEEEEeCCcc
+Q tr|A2A3Z5|A2A3  123 FTDVYNFEFEDLQVTFRGGLF  143 (164)
+Q Consensus       123 ftdvynfefedlqvtfrgglf  143 (164)
+                      ..|.+.|++.+|++.+|+|..
+T Consensus        38 ~~D~~~F~~k~L~lvwr~g~~   58 (142)
+T 4GIZ_D           38 RREVYDFARRDLCIVYRDGNP   58 (142)
+T ss_dssp             HHHHHHHHHTTCBCEEETTEE
+T ss_pred             HHHHHHHHhCCCEEEEeCCEE
+Confidence            358899999999999999864
+
+
+No 8
+>4XR8_H Maltose-binding periplasmic protein, UBIQUITIN LIGASE; Human papillomavirus 16, E6 oncoprotein; HET: PEG, GLC; 2.25A {Escherichia coli}
+Probab=16.86  E-value=1.3e+02  Score=24.16  Aligned_cols=21  Identities=38%  Similarity=0.733  Sum_probs=18.2  Template_Neff=6.300
+
+Q ss_pred             hhhhcCccecccEEEEeCCcc
+Q tr|A2A3Z5|A2A3  123 FTDVYNFEFEDLQVTFRGGLF  143 (164)
+Q Consensus       123 ftdvynfefedlqvtfrgglf  143 (164)
+                      +.|.++|++.+|++.+|+|..
+T Consensus        39 ~~D~~~F~~k~L~LvWr~g~~   59 (151)
+T 4XR8_H           39 RREVYDFAFRDLCIVYRDGNP   59 (151)
+T ss_dssp             HHHHHHHHHTTCCCEEETTEE
+T ss_pred             HHHHHHHHhCCCEEEEeCCEE
+Confidence            468899999999999999864
+
+
+No 9
+>5MMS_D Cystathionine beta-synthase (E.C.4.2.1.22); cystathionine beta-synthase, hydrogen sulfide, transsulfuration; HET: PLP, HEM; 2.8A {Homo sapiens}
+Probab=16.28  E-value=8e+02  Score=20.14  Aligned_cols=50  Identities=18%  Similarity=0.245  Sum_probs=32.5  Template_Neff=10.200
+
+Q ss_pred             HHhhcceeecchHHHHHHHHHHHhhcCC-CCeeEEEeccCcHHHHHHHHHH
+Q tr|A2A3Z5|A2A3   72 LLEEFEIVSCPSMAATLYTIKQKIDEKN-LSSIKVIVPRHRKTLMKAFIDQ  121 (164)
+Q Consensus        72 lleefeivscpsmaatlytikqkidekn-lssikvivprhrktlmkafidq  121 (164)
+                      +.+.-.+...|+.++.+..+.+...... -..+-++++-+....|+.+.+.
+T Consensus       338 l~~~~gi~~~pssa~alAa~~~~~~~~~~~~~vvvv~tg~~~~~~~~~~~~  388 (408)
+T 5MMS_D          338 LIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSD  388 (408)
+T ss_dssp             CCCCCCCCBCHHHHHHHHHHHHHGGGCCTTCEEEEEECBBGGGGTTTTTCH
+T ss_pred             HHHHHCCCcCHHHHHHHHHHHHHHHHcCCCCEEEEEeCCchHHhhccccCH
+Confidence            3344568889999999988887765422 2456677777655555544443
+
+
+No 10
+>5MMS_E Cystathionine beta-synthase (E.C.4.2.1.22); cystathionine beta-synthase, hydrogen sulfide, transsulfuration; HET: PLP, HEM; 2.8A {Homo sapiens}
+Probab=16.28  E-value=8e+02  Score=20.14  Aligned_cols=50  Identities=18%  Similarity=0.245  Sum_probs=32.4  Template_Neff=10.200
+
+Q ss_pred             HHhhcceeecchHHHHHHHHHHHhhcCC-CCeeEEEeccCcHHHHHHHHHH
+Q tr|A2A3Z5|A2A3   72 LLEEFEIVSCPSMAATLYTIKQKIDEKN-LSSIKVIVPRHRKTLMKAFIDQ  121 (164)
+Q Consensus        72 lleefeivscpsmaatlytikqkidekn-lssikvivprhrktlmkafidq  121 (164)
+                      +.+.-.+...|+.++.+..+.+...... -..+-++++-+....|+.+.+.
+T Consensus       338 l~~~~gi~~~pssa~alAa~~~~~~~~~~~~~vvvv~tg~~~~~~~~~~~~  388 (408)
+T 5MMS_E          338 LIAQEGLLCGGSAGSTVAVAVKAAQELQEGQRCVVILPDSVRNYMTKFLSD  388 (408)
+T ss_dssp             CCCCCCCCBCHHHHHHHHHHHHHGGGCCTTCEEEEEECBBGGGGTTTTTCH
+T ss_pred             HHHHHCCCcCHHHHHHHHHHHHHHHHcCCCCEEEEEeCCchHHhhccccCH
+Confidence            3344568889999999988887765422 2456677777655555544443
+
+

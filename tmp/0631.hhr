@@ -1,0 +1,179 @@
+Query         tr|J3QKX1|J3QKX1_HUMAN
+Match_columns 47
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:54:50 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0631.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5OQT_C Amino acid transporter,  42.1       8 8.7E-05   21.4  -1.2   17    4-20     15-31  (31)
+  2 5B66_t Photosystem II protein   31.0      25 0.00028   19.3  -0.4   17    4-20      9-25  (32)
+  3 5V2C_T Photosystem II protein   31.0      25 0.00028   19.3  -0.4   17    4-20      9-25  (32)
+  4 4YUU_t2 Photosystem Q(B) prote  30.4      26 0.00028   19.3  -0.4   17    4-20      9-25  (32)
+  5 4RVY_T Photosystem II protein   30.0      27 0.00029   19.0  -0.4   17    4-20      9-25  (30)
+  6 3CI0_J Pseudopilin GspI, Pseud  29.9      20 0.00022   20.3  -0.9   27    4-32    110-140 (163)
+  7 6YP7_T Chlorophyll a-b binding  29.4      28  0.0003   19.2  -0.4   17    4-20      9-25  (32)
+  8 7VD5_T Photosystem, PSII, ELEC  28.5      29 0.00032   18.9  -0.4   17    4-20      9-25  (30)
+  9 7N8O_T Photosystem II, Cyanoba  28.4      29 0.00032   19.0  -0.4   17    4-20      9-25  (31)
+ 10 4EIB_B Glucoamylase; BETA BARR  21.0      66 0.00071   18.3   0.0    8   17-24      5-12  (109)
+ 11 2EEF_A CBM_21 domain, carbohyd  20.7      54 0.00059   20.5  -0.4   21   16-36    123-143 (156)
+
+No 1
+>5OQT_C Amino acid transporter, L-Alanine, Uncharacterized; SLC7, APC, LeuT fold, TRANSPORT; HET: CLR, OLC; 2.86A {Geobacillus kaustophilus (strain HTA426)}
+Probab=42.14  E-value=8  Score=21.36  Aligned_cols=17  Identities=41%  Similarity=0.944  Sum_probs=11.8  Template_Neff=2.700
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      ++..|+-|.++..-|||
+T Consensus        15 I~~~GflAAy~S~KWdD   31 (31)
+T 5OQT_C           15 ILFSGFLAAYFSHKWDD   31 (31)
+T ss_pred             HHHHHHHHHHhccccCC
+Confidence            45566667777777886
+
+
+No 2
+>5B66_t Photosystem II protein D1 (E.C.1.10.3.9); psii, photosystem, oxygen evolving, water; HET: DMS, LMT, HEM, HTG, CLA, BCR, HEC, DGD, PHO, SQD, LMG, UNL, OEX, FME, LHG, RRX, PL9; 1.85A {Thermosynechococcus vulcanus}
+Probab=30.96  E-value=25  Score=19.31  Aligned_cols=17  Identities=18%  Similarity=0.579  Sum_probs=13.0  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      ||...||.+|||....|
+T Consensus         9 lLv~tlgiiFfAIfFRe   25 (32)
+T 5B66_t            9 IFACIIALFFFAIFFRE   25 (32)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            56667899999987644
+
+
+No 3
+>5V2C_T Photosystem II protein D1 (E.C.1.10.3.9); ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: PG4, HEC, BCR, GOL, BCT, LMT, CLA, PHO, LMG, OEX, EDO, P6G, HEM, HTG, DGD, 2PE, MHS, LHG, FME, PE8, PL9, 1PE, PGE, SQD; 1.9A {Thermosynechococcus vulcanus}
+Probab=30.96  E-value=25  Score=19.31  Aligned_cols=17  Identities=18%  Similarity=0.579  Sum_probs=13.0  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      ||...||.+|||....|
+T Consensus         9 lLv~tlgiiFfAIfFRe   25 (32)
+T 5V2C_T            9 IFACIIALFFFAIFFRE   25 (32)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            56667899999987644
+
+
+No 4
+>4YUU_t2 Photosystem Q(B) protein (E.C.1.10.3.9), Photosystem; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: LMT, HEM, CLA, BCR, DGD, PHO, LMG, GOL, UNL, LHG, BCT, PL9, SQD, OEX; 2.77000368116A {Cyanidium caldarium}
+Probab=30.39  E-value=26  Score=19.28  Aligned_cols=17  Identities=41%  Similarity=0.804  Sum_probs=13.1  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      ||...||.+|||....|
+T Consensus         9 lLv~tlgiiffaifFRe   25 (32)
+T 4YUU_t2           9 LLIGTLVVIFFAIFFRD   25 (32)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            56677899999987644
+
+
+No 5
+>4RVY_T Photosystem II protein D1 1; Photosystem II, Time resolved, Free; HET: HEM, CLA, BCR, DGD, PHO, SQD, PL9, LMG, LHG, OEX; 5.5A {Thermosynechococcus elongatus}
+Probab=29.96  E-value=27  Score=18.98  Aligned_cols=17  Identities=18%  Similarity=0.579  Sum_probs=13.0  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      +|...+|.+|||....|
+T Consensus         9 llv~tlgiiffAIfFRe   25 (30)
+T 4RVY_T            9 IFACIIALFFFAIFFRE   25 (30)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            46667899999987644
+
+
+No 6
+>3CI0_J Pseudopilin GspI, Pseudopilin GspJ, Pseudopilin; GENERAL SECRETORY PATHWAY, PSEUDOPILUS, TYPE; HET: MSE; 2.2A {Escherichia coli} SCOP: d.24.1.5
+Probab=29.93  E-value=20  Score=20.34  Aligned_cols=27  Identities=22%  Similarity=0.629  Sum_probs=17.7  Template_Neff=10.200
+
+Q ss_pred             ecccCcchhhhhhh----cCCCCCCCCCCCCCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYY----WDDNFDPGGRELPEA   32 (47)
+Q Consensus         4 llltglgalffayy----wddnfdpggrelpea   32 (47)
+                      .|+ ++..+-|.||    |.++++.. ..+|.+
+T Consensus       110 ~ll-~v~~~~~~y~~~~~W~~~W~~~-~~lP~~  140 (163)
+T 3CI0_J          110 KLI-PADSLRLQFYDGTRWQESWSSV-QAIPVA  140 (163)
+T ss_dssp             EEE-ECSCEEEEEECSSCEESCCCCS-SCCCSE
+T ss_pred             Eee-ceeEEEEEEEeCCcceeccCcc-cCCCcE
+Confidence            455 7777778886    66777764 445543
+
+
+No 7
+>6YP7_T Chlorophyll a-b binding protein 8; Cryo-EM, photosystem II, High Light; HET: NEX, LUT, HEM, CLA, BCR, DGD, PHO, PL9, SQD, LMG, LHG, CHL, OEX, XAT;{Pisum sativum}
+Probab=29.40  E-value=28  Score=19.16  Aligned_cols=17  Identities=41%  Similarity=0.972  Sum_probs=12.9  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      +|...+|.+|||....|
+T Consensus         9 llv~tlgiiffAIfFRe   25 (32)
+T 6YP7_T            9 LLVSTLGIIFFAIFFRE   25 (32)
+T ss_dssp             HHHHHHHHHHHHHHTCC
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            45566899999998754
+
+
+No 8
+>7VD5_T Photosystem, PSII, ELECTRON TRANSPORT; HET: DD6, LMU, HEM, CLA, BCR, DGD, PHO, SQD, LMG, PL9, LHG, UNL, A86, OEX, KC1; 2.5A {Chaetoceros gracilis}
+Probab=28.53  E-value=29  Score=18.88  Aligned_cols=17  Identities=35%  Similarity=0.753  Sum_probs=13.0  Template_Neff=3.200
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      +|...+|.+|||....|
+T Consensus         9 llv~tlgiiffaifFre   25 (30)
+T 7VD5_T            9 LLIGTLMVIFFAVFFRE   25 (30)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            46667899999988754
+
+
+No 9
+>7N8O_T Photosystem II, Cyanobacteria, Synechocystis 6803; HET: LMT, HEM, CLA, BCR, DGD, PHO, LMG, PL9, SQD, LHG, FME, RRX, OEX; 1.93A {Synechocystis sp. (strain PCC 6803 / Kazusa)}
+Probab=28.37  E-value=29  Score=18.96  Aligned_cols=17  Identities=35%  Similarity=0.637  Sum_probs=13.0  Template_Neff=3.300
+
+Q ss_pred             ecccCcchhhhhhhcCC
+Q tr|J3QKX1|J3QK    4 LLLTGLGALFFAYYWDD   20 (47)
+Q Consensus         4 llltglgalffayywdd   20 (47)
+                      +|...+|.+|||....|
+T Consensus         9 llv~tlgiiffAIfFRe   25 (31)
+T 7N8O_T            9 VLTMALAVLFFAIAFRE   25 (31)
+T ss_pred             HHHHHHHHHHHHHHcCC
+Confidence            46667899999988744
+
+
+No 10
+>4EIB_B Glucoamylase; BETA BARREL, Starch Binding, Amylose; HET: NA, CL, SO4; 1.86A {Rhizopus oryzae}
+Probab=21.04  E-value=66  Score=18.35  Aligned_cols=8  Identities=38%  Similarity=0.846  Sum_probs=6.0  Template_Neff=8.600
+
+Q ss_pred             hcCCCCCC
+Q tr|J3QKX1|J3QK   17 YWDDNFDP   24 (47)
+Q Consensus        17 ywddnfdp   24 (47)
+                      |||+|..-
+T Consensus         5 ywDnn~g~   12 (109)
+T 4EIB_B            5 YYDNNNSA   12 (109)
+T ss_dssp             CCCCTTTT
+T ss_pred             EeeCCCCc
+Confidence            89998743
+
+
+No 11
+>2EEF_A CBM_21 domain, carbohydrate binding domain; NMR {Homo sapiens}
+Probab=20.73  E-value=54  Score=20.50  Aligned_cols=21  Identities=24%  Similarity=0.389  Sum_probs=12.6  Template_Neff=7.800
+
+Q ss_pred             hhcCCCCCCCCCCCCCCCCCC
+Q tr|J3QKX1|J3QK   16 YYWDDNFDPGGRELPEAGRPQ   36 (47)
+Q Consensus        16 yywddnfdpggrelpeagrpq   36 (47)
+                      -|||+|+.-.-+......+++
+T Consensus       123 ~~WDNN~G~NY~v~~~~~~~~  143 (156)
+T 2EEF_A          123 TYWDSNRGKNYRIIRAELKST  143 (156)
+T ss_dssp             EEEESGGGSCCCEEETTTSCC
+T ss_pred             EEEeCCCCCeEEEEEeccccc
+Confidence            489998765554444444443
+
+

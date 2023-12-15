@@ -1,0 +1,167 @@
+Query         tr|H0YM80|H0YM80_HUMAN
+Match_columns 100
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 15:35:21 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0892.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7AOI_BE bL28m, uL29m, uL30m, b  28.8      66 0.00071   25.9   1.3   14   83-96      2-15  (438)
+  2 6YXY_BE bL28m, uL29m, uL30m, b  23.6      86 0.00093   25.7   1.1   14   83-96     12-25  (449)
+  3 7AM2_BQ Ribosomal protein L3-l  19.8 1.1E+02  0.0012   25.4   1.1   14   83-96     12-25  (445)
+  4 4AN2_A DUAL SPECIFICITY MITOGE  17.0 1.3E+02  0.0014   19.5   0.8   12   27-38    278-289 (301)
+  5 4AN3_A DUAL SPECIFICITY MITOGE  17.0 1.3E+02  0.0014   19.5   0.8   12   27-38    278-289 (301)
+  6 6BW9_A Importin subunit alpha-  10.4 8.8E+02  0.0095   16.8   3.1   27   22-48    430-456 (459)
+  7 3WIG_A Dual specificity mitoge   9.6 3.8E+02  0.0041   17.4   1.2   10   28-37    286-295 (307)
+  8 3HR4_A Nitric oxide synthase,    8.4 3.8E+02  0.0041   18.6   0.9   13   76-88      6-18  (219)
+  9 7CRG_C lamin A/C, Ig-like doma   7.5 4.1E+02  0.0044   16.5   0.7   12   85-96     13-24  (155)
+ 10 7L4W_B Inhibitor, Serine hydro   7.3 5.5E+02   0.006   16.4   1.2   12    1-12      9-20  (320)
+
+No 1
+>7AOI_BE bL28m, uL29m, uL30m, bL32m, bL33m; mitochondria, translation, trypanosoma, assembly, evolution; HET: 4HH, ADP, GTP, NAD; 3.5A {Trypanosoma brucei}
+Probab=28.81  E-value=66  Score=25.89  Aligned_cols=14  Identities=57%  Similarity=1.165  Sum_probs=11.5  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YM80|H0YM   83 KRGGWSKGRKRKKP   96 (100)
+Q Consensus        83 krggwskgrkrkkp   96 (100)
+                      .||||+.|-|..|-
+T Consensus         2 ~~~~~~~~~~~~~~   15 (438)
+T 7AOI_BE           2 QRGGWSPGSKHQKH   15 (438)
+T ss_pred             CCCCCCCCcccccc
+Confidence            48999999987664
+
+
+No 2
+>6YXY_BE bL28m, uL29m, uL30m, bL32m, bL35m; mitoribosome, assembly, LSU, RIBOSOME; HET: PM8, MG, NAD, GTP, SPD, ATP; 3.1A {Trypanosoma brucei brucei}
+Probab=23.64  E-value=86  Score=25.71  Aligned_cols=14  Identities=57%  Similarity=1.165  Sum_probs=11.5  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YM80|H0YM   83 KRGGWSKGRKRKKP   96 (100)
+Q Consensus        83 krggwskgrkrkkp   96 (100)
+                      .||||+.|-|..|-
+T Consensus        12 ~~~~~~~~~~~~~~   25 (449)
+T 6YXY_BE          12 QRGGWSPGSKHQKH   25 (449)
+T ss_pred             ccCCCCCCcccccc
+Confidence            58999999887663
+
+
+No 3
+>7AM2_BQ Ribosomal protein L3-like protein, uL4m; RIBOSOME, Mitochondria, Kinetoplastid; HET: GTP, ATP; 3.4A {Leishmania tarentolae}
+Probab=19.83  E-value=1.1e+02  Score=25.43  Aligned_cols=14  Identities=43%  Similarity=0.992  Sum_probs=11.5  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|H0YM80|H0YM   83 KRGGWSKGRKRKKP   96 (100)
+Q Consensus        83 krggwskgrkrkkp   96 (100)
+                      .||||+.|-|..|-
+T Consensus        12 ~~~~~~~~~~~~~~   25 (445)
+T 7AM2_BQ          12 QRGSWAPGSKHQKH   25 (445)
+T ss_pred             ccCCCCCCcccccc
+Confidence            58999999887663
+
+
+No 4
+>4AN2_A DUAL SPECIFICITY MITOGEN-ACTIVATED PROTEIN KINASE; TRANSFERASE, MAP2K1, ATP-BINDING, ALLOSTERIC INHIBITION; HET: ACP, EUI; 2.5A {HOMO SAPIENS}
+Probab=17.04  E-value=1.3e+02  Score=19.52  Aligned_cols=12  Identities=50%  Similarity=0.891  Sum_probs=3.2  Template_Neff=12.300
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H0YM80|H0YM   27 ATTGLNHPEVPY   38 (100)
+Q Consensus        27 attglnhpevpy   38 (100)
+                      ++.|||||..|.
+T Consensus       278 ~~~~~~~~~~~~  289 (301)
+T 4AN2_A          278 STIGLNQPSTPT  289 (301)
+T ss_dssp             HHHCC-------
+T ss_pred             hhcCCCCCCCCC
+Confidence            356888887664
+
+
+No 5
+>4AN3_A DUAL SPECIFICITY MITOGEN-ACTIVATED PROTEIN KINASE; TRANSFERASE, MAP2K1, ATP-BINDING, ALLOSTERIC INHIBITION; HET: 5Y0, ATP; 2.1A {HOMO SAPIENS}
+Probab=17.04  E-value=1.3e+02  Score=19.52  Aligned_cols=12  Identities=50%  Similarity=0.891  Sum_probs=3.5  Template_Neff=12.300
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H0YM80|H0YM   27 ATTGLNHPEVPY   38 (100)
+Q Consensus        27 attglnhpevpy   38 (100)
+                      ++.|||||..|.
+T Consensus       278 ~~~~~~~~~~~~  289 (301)
+T 4AN3_A          278 STIGLNQPSTPT  289 (301)
+T ss_dssp             HHTTC-------
+T ss_pred             hhcCCCCCCCCC
+Confidence            467888887764
+
+
+No 6
+>6BW9_A Importin subunit alpha-3, Protein W; Complex, Hendra virus, Importin, Karyopherin; 1.6A {Homo sapiens}
+Probab=10.38  E-value=8.8e+02  Score=16.79  Aligned_cols=27  Identities=19%  Similarity=0.272  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H0YM80|H0YM   22 ESNDLATTGLNHPEVPYSSGATSSTNN   48 (100)
+Q Consensus        22 esndlattglnhpevpyssgatsstnn   48 (100)
+                      +..++...+.+....-|.+.+..+|+.
+T Consensus       430 ~~~~~~~~~~~~~~~~~~~~~~~~~~~  456 (459)
+T 6BW9_A          430 EDPSLVPEAIQGGTFGFNSSANVPTEG  456 (459)
+T ss_dssp             ---------------------------
+T ss_pred             CCcccCccccccceeccCCccCCCCCC
+Confidence            334444444444444455555444443
+
+
+No 7
+>3WIG_A Dual specificity mitogen-activated protein kinase; kinase, kinase inhibitor, allosteric, TRANSFERASE-TRANSFERASE; HET: PG4, CHU, ANP; 2.7A {Homo sapiens}
+Probab=9.55  E-value=3.8e+02  Score=17.38  Aligned_cols=10  Identities=60%  Similarity=1.095  Sum_probs=1.6  Template_Neff=12.500
+
+Q ss_pred             CCCCCCCCCC
+Q tr|H0YM80|H0YM   28 TTGLNHPEVP   37 (100)
+Q Consensus        28 ttglnhpevp   37 (100)
+                      ++|||||..|
+T Consensus       286 ~~~~~~~~~~  295 (307)
+T 3WIG_A          286 TIGLNQPSTP  295 (307)
+T ss_dssp             HHC-------
+T ss_pred             ccCCCCCCCc
+Confidence            4566665444
+
+
+No 8
+>3HR4_A Nitric oxide synthase, inducible (E.C.1.14.13.39); inducible nitric oxide synthase, NOS; HET: CA, FMN; 2.5A {Homo sapiens}
+Probab=8.38  E-value=3.8e+02  Score=18.59  Aligned_cols=13  Identities=31%  Similarity=0.614  Sum_probs=3.2  Template_Neff=9.900
+
+Q ss_pred             CCccCccCCCCCC
+Q tr|H0YM80|H0YM   76 HEDEQRSKRGGWS   88 (100)
+Q Consensus        76 hedeqrskrggws   88 (100)
+                      |....|.|||+|+
+T Consensus         6 ~~~~~~~~~~~~~   18 (219)
+T 3HR4_A            6 HDEKRRPKRREIP   18 (219)
+T ss_dssp             ---------CCCC
+T ss_pred             cCcccCCccccch
+Confidence            4445677888886
+
+
+No 9
+>7CRG_C lamin A/C, Ig-like domain, dimer; 1.8A {Homo sapiens}
+Probab=7.55  E-value=4.1e+02  Score=16.51  Aligned_cols=12  Identities=50%  Similarity=0.551  Sum_probs=0.5  Template_Neff=10.900
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H0YM80|H0YM   85 GGWSKGRKRKKP   96 (100)
+Q Consensus        85 ggwskgrkrkkp   96 (100)
+                      |+-++++|||.+
+T Consensus        13 ~~~~~~~~~~~~   24 (155)
+T 7CRG_C           13 GGGSVTKKRKLE   24 (155)
+T ss_dssp             -----------C
+T ss_pred             CCCCccceeecc
+Confidence            444778887764
+
+
+No 10
+>7L4W_B Inhibitor, Serine hydrolase, HYDROLASE, HYDROLASE-INHIBITOR; HET: XOV; 2.2A {Homo sapiens}
+Probab=7.28  E-value=5.5e+02  Score=16.37  Aligned_cols=12  Identities=33%  Similarity=0.545  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|H0YM80|H0YM    1 MENLMTSSTLPP   12 (100)
+Q Consensus         1 menlmtsstlpp   12 (100)
+                      |+|+|+.+..|+
+T Consensus         9 ~~~~~~~~~~~~   20 (320)
+T 7L4W_B            9 SENLYFQGSMPE   20 (320)
+T ss_dssp             ------------
+T ss_pred             CccccccCCCCC
+Confidence            456666555443
+
+

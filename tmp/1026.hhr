@@ -1,0 +1,296 @@
+Query         sp|Q8WU43|CB015_HUMAN
+Match_columns 91
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:11:09 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1026.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6J1B_A Green fluorescent prote  54.8      39 0.00043   27.3   3.7   46   30-76     37-85  (271)
+  2 3AI5_A yeast enhanced green fl  47.5 1.1E+02  0.0011   22.7   4.6   40   32-72      2-45  (307)
+  3 4U2V_B GFP-Bak; Apoptosis, Bak  45.8      99  0.0011   24.5   4.5   43   32-75      2-48  (313)
+  4 4JRB_A Green fluorescent prote  43.1 1.1E+02  0.0012   25.0   4.5   40   32-72      2-45  (416)
+  5 3VHT_B Green fluorescent prote  38.2 1.4E+02  0.0015   24.1   4.4   40   32-72      2-45  (271)
+  6 4Z4K_A GFP-TAX1BP1 UBZ domain   37.5 1.5E+02  0.0016   24.0   4.4   40   32-72      2-45  (290)
+  7 2Q03_A Uncharacterized protein  30.9      98  0.0011   21.8   2.3   30   54-84     98-127 (138)
+  8 6V00_C Potassium voltage-gated  29.4   2E+02  0.0022   24.5   4.2   36   31-67      5-43  (355)
+  9 2OOJ_B Hypothetical protein; S  27.8 1.6E+02  0.0017   20.8   2.9   26   54-80     95-120 (141)
+ 10 3AI4_A yeast enhanced green fl  27.5 2.6E+02  0.0029   23.0   4.4   40   32-72      2-45  (283)
+ 11 5FHV_A mCherry-BME; Fluorescen  27.0 2.5E+02  0.0028   23.0   4.2   55   22-77     27-85  (267)
+ 12 5DA7_B DNA polymerase sliding   25.9      46  0.0005   23.3   0.0   39   17-59      1-39  (64)
+ 13 5DA7_E DNA polymerase sliding   25.9      46  0.0005   23.3   0.0   39   17-59      1-39  (64)
+ 14 4Z4M_A GFP-TAX1BP1 UBZ2 domain  21.1 3.8E+02  0.0041   21.8   4.1   40   32-72      2-45  (260)
+ 15 7A7Y_A rsGreen0.7-F145Q; Rever  20.7 3.6E+02  0.0039   22.2   4.0   42   31-73     32-77  (270)
+ 16 5KTG_B Green fluorescent prote  20.7 4.8E+02  0.0052   20.8   4.5   40   35-75      2-45  (309)
+ 17 7OIN_A fluorescent protein, mS  20.5 5.5E+02  0.0059   21.3   4.9   51   25-76     35-89  (274)
+ 18 2CHH_A PROTEIN RSC3288; LECTIN  20.4 4.5E+02  0.0049   17.5   5.1   33   44-80     26-58  (114)
+
+No 1
+>6J1B_A Green fluorescent protein; acid-tolerant, photoswitchable, N150C/T204V double mutant; HET: QYG; 1.99A {Olindias}
+Probab=54.77  E-value=39  Score=27.25  Aligned_cols=46  Identities=24%  Similarity=0.369  Sum_probs=30.0  Template_Neff=5.800
+
+Q ss_pred             cccccccchhhccCCceEEee---cCCCcccEEEEeeeeeeeeceeeceE
+Q sp|Q8WU43|CB01   30 EKSRLEPATQLFQNTKKIRLE---DTNQENFTRIEGTGTGSLSGKALGSV   76 (91)
+Q Consensus        30 eksrlepatqlfqntkkirle---dtnqenftriegtgtgslsgkalgsv   76 (91)
+                      .++|.+.+.++|+..-++.++   +-|-..| .|+|.|.|...|..-...
+T Consensus        37 ~~~~m~~~~~~f~~~~~~k~~~~G~VNGh~F-~i~GeG~G~~~G~~~~~l   85 (271)
+T 6J1B_A           37 SKGEEASGRALFQYPMTSKIELNGEINGKKF-KVAGEGFTPSSGRFNMHA   85 (271)
+T ss_dssp             -----CCGGGGCCSSEEEEEEEEEEETTEEE-EEEEEEEECBTTEEEEEE
+T ss_pred             cccchhhchhhcCCCcEEEEEEEEEECCEEE-EEEEEEecCCCceEEEEE
+Confidence            477999999999998877664   3455555 478889888667665444
+
+
+No 2
+>3AI5_A yeast enhanced green fluorescent protein; green fluorescent protein, ubiquitin, fusion; HET: CR2, EDO; 1.4A {Aequorea victoria}
+Probab=47.45  E-value=1.1e+02  Score=22.75  Aligned_cols=40  Identities=33%  Similarity=0.567  Sum_probs=25.7  Template_Neff=9.100
+
+Q ss_pred             cccccchhhccCCceEEee---cCCCcccEEEEeeeeeee-ecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLE---DTNQENFTRIEGTGTGSL-SGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirle---dtnqenftriegtgtgsl-sgka   72 (91)
+                      ++++.+..+|+..-++.++   +-|-..| .|+|.|+|.. .|..
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~g~vn~~~f-~~~g~g~g~~~~g~~   45 (307)
+T 3AI5_A            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (307)
+T ss_dssp             ---CCGGGGGSSEEEEEEEEEEEETTEEE-EEEEEEEEEGGGTEE
+T ss_pred             CccccchhhccCCCcEEEEEEEEECCEEE-EEEEEEEeCCcceEE
+Confidence            5677788899988777665   3355555 4889999874 4544
+
+
+No 3
+>4U2V_B GFP-Bak; Apoptosis, Bak, Bcl-2; HET: CAC, CR2, MPD; 2.3A {Aequorea victoria}
+Probab=45.79  E-value=99  Score=24.48  Aligned_cols=43  Identities=28%  Similarity=0.417  Sum_probs=28.3  Template_Neff=7.300
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eeceeece
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKALGS   75 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgkalgs   75 (91)
+                      +|++.+..+|+..-++.++-   -|-..| .|+|.|.|. ..|.....
+T Consensus         2 ~~m~~~~~~~~~~~~~~~~~~G~vNg~~f-~i~G~G~g~~~~G~~~~~   48 (313)
+T 4U2V_B            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKLTLK   48 (313)
+T ss_dssp             --CCSGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEEGGGTEEEEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEEecCCceEEEEE
+Confidence            68899999999888776653   344444 578888887 55555433
+
+
+No 4
+>4JRB_A Green fluorescent protein, Major allergen; Allergen, asthma, new fold, proposed; HET: PGT, CR2, D12; 2.414A {Aequorea victoria}
+Probab=43.10  E-value=1.1e+02  Score=24.97  Aligned_cols=40  Identities=30%  Similarity=0.494  Sum_probs=27.4  Template_Neff=7.600
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgka   72 (91)
+                      ||++++..+|+..-++.++=   -|-..| .|+|.|+|. ..|+.
+T Consensus         2 ~~m~~~~~~~~~~~~~~~~~~g~vng~~f-~i~G~G~g~~~~G~~   45 (416)
+T 4JRB_A            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (416)
+T ss_dssp             -CCCSGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEeecCcceEE
+Confidence            78999999999888776652   344444 478888887 44444
+
+
+No 5
+>3VHT_B Green fluorescent protein, Green fluorescent; GREEN FLUORESCENT PROTEIN, FUSION PROTEIN; HET: CR2; 2.4A {Mus musculus}
+Probab=38.19  E-value=1.4e+02  Score=24.15  Aligned_cols=40  Identities=30%  Similarity=0.494  Sum_probs=25.6  Template_Neff=6.000
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgka   72 (91)
+                      +|++.+..+|+..-++.++-   -|-..| .|+|-|.|. ..|+.
+T Consensus         2 ~~m~~~~~~~~~~m~~~~~~~G~vNG~~F-~i~GeG~G~p~~G~~   45 (271)
+T 3VHT_B            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (271)
+T ss_dssp             ---CTGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEeeccccceE
+Confidence            68899999999888776653   344444 478888887 44544
+
+
+No 6
+>4Z4K_A GFP-TAX1BP1 UBZ domain fusion protein; GFP, TAX1BP1, UBZ, Zinc-finger, Flurorescent; HET: CR2; 2.8A {Aequorea victoria}
+Probab=37.45  E-value=1.5e+02  Score=24.00  Aligned_cols=40  Identities=30%  Similarity=0.494  Sum_probs=24.9  Template_Neff=6.400
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgka   72 (91)
+                      +|++.+..+|+..-++.++-   -|-..| .|+|-|.|. ..|..
+T Consensus         2 ~~m~~~~~~~~~~~~~~~~~~G~vNG~~F-~i~G~G~G~p~~G~~   45 (290)
+T 4Z4K_A            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (290)
+T ss_dssp             ---CCGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEeeccccceE
+Confidence            67899999999877766542   344445 478888887 44444
+
+
+No 7
+>2Q03_A Uncharacterized protein; YP_563039.1, uncharacterized protein, Structural Genomics; HET: GOL, MSE; 1.8A {Shewanella denitrificans OS217} SCOP: b.159.2.1
+Probab=30.85  E-value=98  Score=21.80  Aligned_cols=30  Identities=23%  Similarity=0.462  Sum_probs=21.4  Template_Neff=7.100
+
+Q ss_pred             CcccEEEEeeeeeeeeceeeceEEEEEcCCC
+Q sp|Q8WU43|CB01   54 QENFTRIEGTGTGSLSGKALGSVVYVKESDG   84 (91)
+Q Consensus        54 qenftriegtgtgslsgkalgsvvyvkesdg   84 (91)
+                      ...|+-++|+|||.|.|. -|+.-|+...++
+T Consensus        98 ~~~~~IvpgSGTG~L~Gi-~G~g~~~~~~~~  127 (138)
+T 2Q03_A           98 SSEFELVERSATGDFVHL-VGKGHFVSTENG  127 (138)
+T ss_dssp             EEEEEECTTCCEETTTTE-EEEEEEEECSTT
+T ss_pred             EEEEEEEecCCCCccccE-EEEEEEEECCCc
+Confidence            456788889999999884 356666665554
+
+
+No 8
+>6V00_C Potassium voltage-gated channel subfamily KQT; potassium channel, KCNQ1, CaM, MEMBRANE; 3.1A {Homo sapiens}
+Probab=29.43  E-value=2e+02  Score=24.45  Aligned_cols=36  Identities=22%  Similarity=0.446  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             ccccccchhhccCCceEEee--c-CCCcccEEEEeeeeee
+Q sp|Q8WU43|CB01   31 KSRLEPATQLFQNTKKIRLE--D-TNQENFTRIEGTGTGS   67 (91)
+Q Consensus        31 ksrlepatqlfqntkkirle--d-tnqenftriegtgtgs   67 (91)
+                      .++++.+..+|+..-++.++  - -|-..| .|+|.|+|.
+T Consensus         5 ~~~m~~~~~~~~~~m~~k~~m~G~VNGh~F-~i~GeG~G~   43 (355)
+T 6V00_C            5 SKGEEDNMAIIKEFMRFKVHMEGSVNGHEF-EIEGEGEGR   43 (355)
+T ss_dssp             ----------------------------------------
+T ss_pred             cchhHhhhHhhcCCcEEEEEEEEEECCEEE-EEEEEeecC
+Confidence            46889999999998777653  3 355555 478888876
+
+
+No 9
+>2OOJ_B Hypothetical protein; STRUCTURAL GENOMICS, JOINT CENTER FOR; HET: MSE; 1.84A {Shewanella oneidensis} SCOP: b.159.2.1
+Probab=27.76  E-value=1.6e+02  Score=20.81  Aligned_cols=26  Identities=19%  Similarity=0.390  Sum_probs=17.9  Template_Neff=7.200
+
+Q ss_pred             CcccEEEEeeeeeeeeceeeceEEEEE
+Q sp|Q8WU43|CB01   54 QENFTRIEGTGTGSLSGKALGSVVYVK   80 (91)
+Q Consensus        54 qenftriegtgtgslsgkalgsvvyvk   80 (91)
+                      +.+|+-++|+|||.|.|.. |..-|.-
+T Consensus        95 ~~~~~IvpgSGTG~L~gl~-G~g~~~~  120 (141)
+T 2OOJ_B           95 RLHLEVVPHSGAGELTGLY-GTMAISI  120 (141)
+T ss_dssp             EEEEEECTTCCEETTTTEE-EEEEEEE
+T ss_pred             EEEEEEEecCCCCcccceE-EEEEEEE
+Confidence            3568888888998888853 4555543
+
+
+No 10
+>3AI4_A yeast enhanced green fluorescent protein; UBM, Ubiquitin-binding motif, GFP, Fusion; HET: CR2; 1.6A {Aequorea victoria}
+Probab=27.48  E-value=2.6e+02  Score=22.95  Aligned_cols=40  Identities=30%  Similarity=0.494  Sum_probs=25.8  Template_Neff=5.800
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgka   72 (91)
+                      +|++.+..+|+..-++.++-   -|-..| .|+|-|.|. ..|..
+T Consensus         2 ~~m~~g~~~f~~~m~~~~~m~G~vNG~~F-~i~GeG~G~p~~G~~   45 (283)
+T 3AI4_A            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (283)
+T ss_dssp             --CCSGGGGGSSEEEEEEEEEEEETTEEE-EEEEEEEEETTTTEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEeeccccceE
+Confidence            57888999999877666543   344455 478888887 44443
+
+
+No 11
+>5FHV_A mCherry-BME; Fluorescent protein, 2-mercaptoethanol, Michael addition; HET: PGE, BME, MCQ, P6G, CH6; 1.55A {Discosoma sp.}
+Probab=26.98  E-value=2.5e+02  Score=22.98  Aligned_cols=55  Identities=20%  Similarity=0.325  Sum_probs=27.5  Template_Neff=5.600
+
+Q ss_pred             ccceeccccccccccchhhccCCceEEee--c-CCCcccEEEEeeeeee-eeceeeceEE
+Q sp|Q8WU43|CB01   22 DDHLIRGTEKSRLEPATQLFQNTKKIRLE--D-TNQENFTRIEGTGTGS-LSGKALGSVV   77 (91)
+Q Consensus        22 ddhlirgteksrlepatqlfqntkkirle--d-tnqenftriegtgtgs-lsgkalgsvv   77 (91)
+                      |||.-.-+.-.+++.+.++|+..-++.++  - -|-..| .|+|.|.|. ..|+......
+T Consensus        27 ~~~~~~~~~~~~m~~~~~~~~~~m~~k~~m~G~VNGh~F-~i~GeG~G~p~~G~~~~~l~   85 (267)
+T 5FHV_A           27 DDDDKDPMVSKGEEDNMAIIKEFMRFKVHMEGSVNGHEF-EIEGEGEGRPYEGTQTAKLK   85 (267)
+T ss_dssp             --------------CHHHHSCSSEEEEEEEEEEETTEEE-EEEEEEEEETTTTEEEEEEE
+T ss_pred             cCCCCCccchhhhhhchhhhcCCcEEEEEEEEEECCEEE-EEEEEeecCCCcceEEEEEE
+Confidence            55555555557999999999988777663  3 344444 578999887 4555544433
+
+
+No 12
+>5DA7_B DNA polymerase sliding clamp 1; complex, inhibitor, DNA binding protein-inhibitor; HET: SO4; 2.802A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=25.86  E-value=46  Score=23.29  Aligned_cols=39  Identities=28%  Similarity=0.333  Sum_probs=27.3  Template_Neff=2.500
+
+Q ss_pred             cCcccccceeccccccccccchhhccCCceEEeecCCCcccEE
+Q sp|Q8WU43|CB01   17 MDSKVDDHLIRGTEKSRLEPATQLFQNTKKIRLEDTNQENFTR   59 (91)
+Q Consensus        17 mdskvddhlirgteksrlepatqlfqntkkirledtnqenftr   59 (91)
+                      ||-+.|+.+-.+..+..-+.    -+..||-||..|+-+.|--
+T Consensus         1 MdrkLDEFl~~~~~~~~~~~----~~~~kKKRLk~T~Ld~FLP   39 (64)
+T 5DA7_B            1 MDRKLDEFIGDATPKKVSKE----KPVRRKKRLKPTSLDSFLP   39 (64)
+T ss_pred             CCccHHHHhhcCCCCCCCCC----CCCCcccccccccHHHhCC
+Confidence            78888888766665544311    2346788999999888853
+
+
+No 13
+>5DA7_E DNA polymerase sliding clamp 1; complex, inhibitor, DNA binding protein-inhibitor; HET: SO4; 2.802A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=25.86  E-value=46  Score=23.29  Aligned_cols=39  Identities=28%  Similarity=0.333  Sum_probs=27.3  Template_Neff=2.500
+
+Q ss_pred             cCcccccceeccccccccccchhhccCCceEEeecCCCcccEE
+Q sp|Q8WU43|CB01   17 MDSKVDDHLIRGTEKSRLEPATQLFQNTKKIRLEDTNQENFTR   59 (91)
+Q Consensus        17 mdskvddhlirgteksrlepatqlfqntkkirledtnqenftr   59 (91)
+                      ||-+.|+.+-.+..+..-+.    -+..||-||..|+-+.|--
+T Consensus         1 MdrkLDEFl~~~~~~~~~~~----~~~~kKKRLk~T~Ld~FLP   39 (64)
+T 5DA7_E            1 MDRKLDEFIGDATPKKVSKE----KPVRRKKRLKPTSLDSFLP   39 (64)
+T ss_pred             CCccHHHHhhcCCCCCCCCC----CCCCcccccccccHHHhCC
+Confidence            78888888766665544311    2346788999999888853
+
+
+No 14
+>4Z4M_A GFP-TAX1BP1 UBZ2 domain fusion protein; GFP, TAX1BP1, UBZ, Zinc-finger, Flurorescent; HET: CR2; 2.15A {Aequorea victoria}
+Probab=21.07  E-value=3.8e+02  Score=21.83  Aligned_cols=40  Identities=30%  Similarity=0.494  Sum_probs=26.0  Template_Neff=5.800
+
+Q ss_pred             cccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eecee
+Q sp|Q8WU43|CB01   32 SRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKA   72 (91)
+Q Consensus        32 srlepatqlfqntkkirled---tnqenftriegtgtgs-lsgka   72 (91)
+                      +|++.+..+|+..-++.++-   -|-..| .|+|-|+|. ..|..
+T Consensus         2 ~~m~~~~~~~~~~m~~~~~~~G~vNG~~F-~i~GeG~G~p~~G~~   45 (260)
+T 4Z4M_A            2 SHMSKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKL   45 (260)
+T ss_dssp             --CCTGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEE
+T ss_pred             CcccccchhcCCCceEEEEEEEEECCEEE-EEEEEEeecccccEE
+Confidence            68899999999887766543   233444 578888887 44544
+
+
+No 15
+>7A7Y_A rsGreen0.7-F145Q; Reversible photoswitchable fluorescent protein, FLUORESCENT; HET: CRO; 0.97A {Aequorea victoria}
+Probab=20.70  E-value=3.6e+02  Score=22.24  Aligned_cols=42  Identities=26%  Similarity=0.448  Sum_probs=28.2  Template_Neff=5.500
+
+Q ss_pred             ccccccchhhccCCceEEeec---CCCcccEEEEeeeeee-eeceee
+Q sp|Q8WU43|CB01   31 KSRLEPATQLFQNTKKIRLED---TNQENFTRIEGTGTGS-LSGKAL   73 (91)
+Q Consensus        31 ksrlepatqlfqntkkirled---tnqenftriegtgtgs-lsgkal   73 (91)
+                      .+|+|.+..+|+..-++.++-   -|-..| .|+|.|+|. ..|...
+T Consensus        32 ~~~m~~g~~~f~~~m~~k~~m~G~VNGh~F-~i~GeG~G~p~eG~~~   77 (270)
+T 7A7Y_A           32 DPMVSKGEELFTGVVPILVELDGDVNGHKF-SVRGEGEGDATNGKLT   77 (270)
+T ss_dssp             CTTTCCGGGGGSSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEEE
+T ss_pred             CcchhhchhhhcCCCcEEEEEEEEECCEEE-EEEEEEeecCccceEE
+Confidence            368899999999876666542   244444 478888887 444443
+
+
+No 16
+>5KTG_B Green fluorescent protein,Bcl-2 homologous antagonist/killer; BCL-2 family proteins, mitochondrial outer; HET: CR2; 2.802A {Aequorea victoria}
+Probab=20.69  E-value=4.8e+02  Score=20.77  Aligned_cols=40  Identities=28%  Similarity=0.435  Sum_probs=24.3  Template_Neff=7.400
+
+Q ss_pred             ccchhhccCCceEEee--c-CCCcccEEEEeeeeee-eeceeece
+Q sp|Q8WU43|CB01   35 EPATQLFQNTKKIRLE--D-TNQENFTRIEGTGTGS-LSGKALGS   75 (91)
+Q Consensus        35 epatqlfqntkkirle--d-tnqenftriegtgtgs-lsgkalgs   75 (91)
+                      |.+..+|+..-++.++  . -|-..| .|+|.|.|. ..|+.-..
+T Consensus         2 ~~~~~~~~~~~~~~~~~~G~vNg~~F-~i~G~G~g~~~~G~~~~~   45 (309)
+T 5KTG_B            2 SKGEELFTGVVPILVELDGDVNGHKF-SVSGEGEGDATYGKLTLK   45 (309)
+T ss_dssp             CTTTTTTTSCEEEEEEEEEEETTEEE-EEEEEEEEETTTTEEEEE
+T ss_pred             CcchhhccCCceEEEEEEEEECCEEE-EEEEEEEEcCCeEEEEEE
+Confidence            4566777776666544  2 344445 478888887 55655433
+
+
+No 17
+>7OIN_A fluorescent protein, mScarlet; HET: NRQ; 1.4A {synthetic construct}
+Probab=20.52  E-value=5.5e+02  Score=21.26  Aligned_cols=51  Identities=20%  Similarity=0.445  Sum_probs=28.9  Template_Neff=5.600
+
+Q ss_pred             eeccccccccccchhhccCCceEEee---cCCCcccEEEEeeeeee-eeceeeceE
+Q sp|Q8WU43|CB01   25 LIRGTEKSRLEPATQLFQNTKKIRLE---DTNQENFTRIEGTGTGS-LSGKALGSV   76 (91)
+Q Consensus        25 lirgteksrlepatqlfqntkkirle---dtnqenftriegtgtgs-lsgkalgsv   76 (91)
+                      ...|...++.+.+.++|+..-++.++   +-|-..| .|+|.|.|. ..|..--.+
+T Consensus        35 ~~~~~~~~~m~~~~~~~~~~m~~k~~m~G~VNGh~F-~i~GeG~G~p~~G~~~~~l   89 (274)
+T 7OIN_A           35 YFQGHMRSMVSKGEAVIKEFMRFKVHMEGSMNGHEF-EIEGEGEGRPYEGTQTAKL   89 (274)
+T ss_dssp             ---------CCTTGGGSCSSEEEEEEEEEEETTEEE-EEEEEEEEETTTTEEEEEE
+T ss_pred             ccccchhcccccchhhhccCcEEEEEEEEEECCEEE-EEEEEeecCCCcceEEEEE
+Confidence            34566778999999999998877754   2344444 588899887 455543333
+
+
+No 18
+>2CHH_A PROTEIN RSC3288; LECTIN, SUGAR-BINDING PROTEIN, D-MANNOSE, PLANT; HET: BMA, MAN; 1.0A {RALSTONIA SOLANACEARUM} SCOP: b.115.1.1
+Probab=20.36  E-value=4.5e+02  Score=17.52  Aligned_cols=33  Identities=33%  Similarity=0.373  Sum_probs=18.8  Template_Neff=7.800
+
+Q ss_pred             CceEEeecCCCcccEEEEeeeeeeeeceeeceEEEEE
+Q sp|Q8WU43|CB01   44 TKKIRLEDTNQENFTRIEGTGTGSLSGKALGSVVYVK   80 (91)
+Q Consensus        44 tkkirledtnqenftriegtgtgslsgkalgsvvyvk   80 (91)
+                      ...|.|.+.++. .-...|+|++.   +.+|..+|..
+T Consensus        26 ~q~V~i~~~~~~-~~~~~G~g~~~---~~ig~~~~~s   58 (114)
+T 2CHH_A           26 TQTIQVLVDNVV-KATFTGSGTSD---KLLGSQVLNS   58 (114)
+T ss_dssp             EEEEEEEETTEE-EEEEEEEEEEE---EEEEEEEEEC
+T ss_pred             cEEEEEEECCCc-EEEEEEeecCC---ceeeeEEEec
+Confidence            455667776665 55566666652   3455555543
+
+

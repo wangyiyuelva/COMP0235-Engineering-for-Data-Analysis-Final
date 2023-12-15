@@ -1,0 +1,170 @@
+Query         tr|H0Y965|H0Y965_HUMAN
+Match_columns 147
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:32:16 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1051.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3PUF_F Ribonuclease H2 subunit  13.0 2.8E+02   0.003   21.1   1.6   24   61-85     60-83  (167)
+  2 3PUF_I Ribonuclease H2 subunit  13.0 2.8E+02   0.003   21.1   1.6   24   61-85     60-83  (167)
+  3 1SIS_A SCORPION INSECTOTOXIN I  11.5 2.2E+02  0.0024   19.5   0.6    9  137-145    21-29  (36)
+  4 6AVA_A Potassium channel toxin   9.9 2.7E+02  0.0029   19.3   0.6    9  137-145    23-31  (38)
+  5 3KIO_C Ribonuclease H2 subunit   8.2 3.9E+02  0.0042   20.5   1.0   21   63-84     59-79  (166)
+  6 3P5J_C Ribonuclease H2 subunit   8.2 3.9E+02  0.0042   20.5   1.0   22   63-85     59-80  (166)
+  7 5M6Q_B Uncharacterized protein   7.3 2.1E+02  0.0023   25.4  -0.8   59   73-135    80-138 (225)
+  8 2ZTT_D RNA-directed RNA polyme   6.1 3.4E+02  0.0037   19.1  -0.1    7   28-34     26-32  (40)
+  9 3A1G_D RNA-directed RNA polyme   6.1 3.4E+02  0.0037   19.1  -0.1    7   28-34     26-32  (40)
+ 10 2LYH_A Fanconi anemia-associat   5.9 8.7E+02  0.0094   15.9   1.6   22   30-51     11-32  (98)
+
+No 1
+>3PUF_F Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H fold, triple barrel; 3.1A {Homo sapiens}
+Probab=12.97  E-value=2.8e+02  Score=21.09  Aligned_cols=24  Identities=38%  Similarity=0.530  Sum_probs=18.5  Template_Neff=8.000
+
+Q ss_pred             CceeeeecCcccccccccCCCCCCc
+Q tr|H0Y965|H0Y9   61 GCRLVSYRGRHLQNRVLSAMPDGTE   85 (147)
+Q Consensus        61 gcrlvsyrgrhlqnrvlsampdgte   85 (147)
+                      +....++|||.|+-+.+ .+|+|..
+T Consensus        60 ~~~~a~FRGR~L~G~~v-~lP~gy~   83 (167)
+T 3PUF_F           60 EGLEVSFRGRCLRGEEV-AVPPGLV   83 (167)
+T ss_dssp             SSEEEEETTEEEEEEEE-ECCTTEE
+T ss_pred             CceEEEECCEEEeeeEE-eCCCCeE
+Confidence            44689999999999877 5677643
+
+
+No 2
+>3PUF_I Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H fold, triple barrel; 3.1A {Homo sapiens}
+Probab=12.97  E-value=2.8e+02  Score=21.09  Aligned_cols=24  Identities=38%  Similarity=0.530  Sum_probs=18.6  Template_Neff=8.000
+
+Q ss_pred             CceeeeecCcccccccccCCCCCCc
+Q tr|H0Y965|H0Y9   61 GCRLVSYRGRHLQNRVLSAMPDGTE   85 (147)
+Q Consensus        61 gcrlvsyrgrhlqnrvlsampdgte   85 (147)
+                      +....++|||.|+-+.+ .+|+|..
+T Consensus        60 ~~~~a~FRGR~L~G~~v-~lP~gy~   83 (167)
+T 3PUF_I           60 EGLEVSFRGRCLRGEEV-AVPPGLV   83 (167)
+T ss_dssp             SCEEEEETTEEEEEEEE-ECCTTEE
+T ss_pred             CceEEEECCEEEeeeEE-eCCCCeE
+Confidence            44689999999999877 5677643
+
+
+No 3
+>1SIS_A SCORPION INSECTOTOXIN I5A (NMR, 10; TOXIN; HET: NH2; NMR {Mesobuthus eupeus} SCOP: g.3.7.2
+Probab=11.50  E-value=2.2e+02  Score=19.51  Aligned_cols=9  Identities=78%  Similarity=1.785  Sum_probs=6.7  Template_Neff=2.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|H0Y965|H0Y9  137 GGNSKCLGP  145 (147)
+Q Consensus       137 ggnskclgp  145 (147)
+                      ||+.||.||
+T Consensus        21 gg~GkC~Gp   29 (36)
+T 1SIS_A           21 GGNGKCFGP   29 (36)
+T ss_dssp             TTCEEEETT
+T ss_pred             CCCCceeCc
+Confidence            667778776
+
+
+No 4
+>6AVA_A Potassium channel toxin alpha-KTx 3.10; Knottins, Cystine knot, Toxins, TOXIN; 2.2A {Mesobuthus eupeus}
+Probab=9.89  E-value=2.7e+02  Score=19.31  Aligned_cols=9  Identities=56%  Similarity=1.372  Sum_probs=6.4  Template_Neff=2.500
+
+Q ss_pred             CCCCCCCCC
+Q tr|H0Y965|H0Y9  137 GGNSKCLGP  145 (147)
+Q Consensus       137 ggnskclgp  145 (147)
+                      ||+.||.||
+T Consensus        23 gg~GkC~Gp   31 (38)
+T 6AVA_A           23 KGRGKCFGP   31 (38)
+T ss_dssp             TTCEEEETT
+T ss_pred             CCCCceeCc
+Confidence            667777776
+
+
+No 5
+>3KIO_C Ribonuclease H2 subunit A (E.C.3.1.26.4); ribonuclease, Aicardi-Goutieres syndrome, RNase H2; HET: MSE; 2.9A {Mus musculus}
+Probab=8.19  E-value=3.9e+02  Score=20.47  Aligned_cols=21  Identities=38%  Similarity=0.631  Sum_probs=15.9  Template_Neff=7.800
+
+Q ss_pred             eeeeecCcccccccccCCCCCC
+Q tr|H0Y965|H0Y9   63 RLVSYRGRHLQNRVLSAMPDGT   84 (147)
+Q Consensus        63 rlvsyrgrhlqnrvlsampdgt   84 (147)
+                      ...++|||.|+.+.+ .+|+|-
+T Consensus        59 ~~~~FRGR~L~G~~v-~lp~gy   79 (166)
+T 3KIO_C           59 LQASFRGRGLRGEEV-AVPPGF   79 (166)
+T ss_dssp             CEEEETTEEEEEEEE-ECCTTE
+T ss_pred             eEEEECCeEEEEEEe-cCCCCe
+Confidence            468999999998876 455553
+
+
+No 6
+>3P5J_C Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H2 fold, triple beta-barrel; 2.9A {Mus musculus}
+Probab=8.19  E-value=3.9e+02  Score=20.49  Aligned_cols=22  Identities=36%  Similarity=0.602  Sum_probs=16.6  Template_Neff=7.800
+
+Q ss_pred             eeeeecCcccccccccCCCCCCc
+Q tr|H0Y965|H0Y9   63 RLVSYRGRHLQNRVLSAMPDGTE   85 (147)
+Q Consensus        63 rlvsyrgrhlqnrvlsampdgte   85 (147)
+                      ...++|||.|+.+.+ .+|+|-.
+T Consensus        59 ~~a~FRGR~L~G~~v-~lp~gy~   80 (166)
+T 3P5J_C           59 LQASFRGRGLRGEEV-AVPPGFA   80 (166)
+T ss_dssp             EEEEETTEEEEEEEE-ECCTTEE
+T ss_pred             cEEEECCeEEEEEEe-cCCCCeE
+Confidence            578999999998866 4566543
+
+
+No 7
+>5M6Q_B Uncharacterized protein; MTGASE, ZYMOGEN, PRO-ENZYME, CROSS-LINKING, TRANSFERASE; HET: PG4, MES, CME; 1.98A {Kutzneria albida DSM 43870}
+Probab=7.26  E-value=2.1e+02  Score=25.42  Aligned_cols=59  Identities=15%  Similarity=0.064  Sum_probs=34.1  Template_Neff=4.000
+
+Q ss_pred             ccccccCCCCCCchhhhhhhhhhhhhcCCCCCCCccCCCCCCCCCcccchhhccccccCCccc
+Q tr|H0Y965|H0Y9   73 QNRVLSAMPDGTERSRLRERTATLERLSRPSTTHTFRQSDTPRKSSLTQMEFAAHTWTGQSIL  135 (147)
+Q Consensus        73 qnrvlsampdgtersrlrertatlerlsrpstthtfrqsdtprkssltqmefaahtwtgqsil  135 (147)
+                      -|.+|...||-.+--+.   .+.-+-||+-..+..|..+. ...+.+.-.-|+-|-|+||..-
+T Consensus        80 ~n~iL~~~pd~~~~~~~---v~~dp~ls~L~~v~~~lp~~-~~ps~~~aVifsKhFwSgQd~~  138 (225)
+T 5M6Q_B           80 LNKIVDTHPSPAQYEAA---VAKDPILKRLKNVVKALPSW-IDSAKLKASIFSKRFYSWQNPD  138 (225)
+T ss_dssp             HHHHHTTCCCHHHHHHH---HHHCTTGGGCSSHHHHSCTT-SCGGGEEEEEEEEEECSCCSTT
+T ss_pred             HHHHHHhCCCHHHHHHH---HHcCHHHHhhccHhhhCCCC-CCHHHCEEEEEEeecccCCCCC
+Confidence            46778888854433222   22223455555555555542 2334455666999999999864
+
+
+No 8
+>2ZTT_D RNA-directed RNA polymerase catalytic subunit; Influenza virus, RNA polymerase, PB1-PB2; HET: MSE; 2.1A {Influenza A virus (A/Puerto Rico/8/34(H1N1))}
+Probab=6.15  E-value=3.4e+02  Score=19.06  Aligned_cols=7  Identities=86%  Similarity=1.056  Sum_probs=5.1  Template_Neff=1.300
+
+Q ss_pred             CCCCCCC
+Q tr|H0Y965|H0Y9   28 TGVDHMA   34 (147)
+Q Consensus        28 tgvdhma   34 (147)
+                      |.|||||
+T Consensus        26 ttvdhma   32 (40)
+T 2ZTT_D           26 TTVDHMA   32 (40)
+T ss_dssp             CBHHHHH
+T ss_pred             cccchhH
+Confidence            5678886
+
+
+No 9
+>3A1G_D RNA-directed RNA polymerase catalytic subunit; Influenza virus, RNA polymerase, Nucleotide-binding; HET: MSE; 1.7A {Influenza A virus (A/Puerto Rico/8/34(H1N1))}
+Probab=6.15  E-value=3.4e+02  Score=19.06  Aligned_cols=7  Identities=86%  Similarity=1.056  Sum_probs=5.5  Template_Neff=1.300
+
+Q ss_pred             CCCCCCC
+Q tr|H0Y965|H0Y9   28 TGVDHMA   34 (147)
+Q Consensus        28 tgvdhma   34 (147)
+                      |.|||||
+T Consensus        26 ttvdhma   32 (40)
+T 3A1G_D           26 TTVDHMA   32 (40)
+T ss_dssp             CBSTHHH
+T ss_pred             cccchhH
+Confidence            5688887
+
+
+No 10
+>2LYH_A Fanconi anemia-associated protein of 24; interstrand crosslink repair, Fanconi anemia; NMR {Homo sapiens}
+Probab=5.85  E-value=8.7e+02  Score=15.92  Aligned_cols=22  Identities=27%  Similarity=0.259  Sum_probs=6.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCccCCCCCCCCcccc
+Q tr|H0Y965|H0Y9   30 VDHMASPLVQTSRSRFPPLVTE   51 (147)
+Q Consensus        30 vdhmasplvqtsrsrfpplvte   51 (147)
+                      ..||-++.+++-.++.+.+-++
+T Consensus        11 ~~~~~~~~~~~~~~~~~~~~~~   32 (98)
+T 2LYH_A           11 SSHMLVPRGSLEPSKNPLLGKK   32 (98)
+T ss_dssp             -------------CCCCCSSCC
+T ss_pred             hhcccccccCCCCCCCCCCCcc
+Confidence            3589999999988877776654
+
+

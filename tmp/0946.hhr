@@ -1,0 +1,168 @@
+Query         tr|E9PLL7|E9PLL7_HUMAN
+Match_columns 190
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:28:57 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0946.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2W0T_A LETHAL(3)MALIGNANT BRAI  61.6      14 0.00015   19.9   1.6   32  116-147     5-37  (43)
+  2 2L8E_A Polyhomeotic-like prote  53.2      15 0.00016   23.0   1.0   30  117-146    18-47  (49)
+  3 6GRV_A Metallothionein; metall  29.0      43 0.00047   25.3   0.4   14  134-147    23-36  (81)
+  4 3V64_C agrin, Agrin; beta prop  27.2      49 0.00053   23.7   0.4   16  129-145     1-16  (349)
+  5 5HDA_A Zinc finger MYND domain  25.8 1.1E+02  0.0012   19.8   1.7   30  116-146    81-110 (124)
+  6 1JJD_A metallothionein; zinc f  25.0      57 0.00062   23.1   0.4   13  135-147    27-39  (55)
+  7 7AOC_I DNA-directed RNA polyme  24.8      73 0.00079   20.0   0.8   11  114-124     4-14  (119)
+  8 6ZNL_Y ARP1 actin related prot  23.7      69 0.00075   29.0   0.7   26  118-144    49-74  (467)
+  9 6ZNN_Y ARP1 actin related prot  23.7      69 0.00075   29.0   0.7   26  118-144    49-74  (467)
+ 10 7NKY_Z Chromatin, nucleosome,   18.0 2.2E+02  0.0024   30.7   2.8   14  160-173   159-172 (1064)
+
+No 1
+>2W0T_A LETHAL(3)MALIGNANT BRAIN TUMOR-LIKE 2 PROTEIN; ZINC, YACG, LMBL2, NUCLEUS, ZINC-FINGER; HET: ZN; NMR {HOMO SAPIENS}
+Probab=61.64  E-value=14  Score=19.88  Aligned_cols=32  Identities=25%  Similarity=0.605  Sum_probs=24.0  Template_Neff=10.700
+
+Q ss_pred             CceecccccccCCchhcc-CCCCccCHHHHHhc
+Q tr|E9PLL7|E9PL  116 GLQFCENCCQYGNVDECL-SGGNYCSQNCARHI  147 (190)
+Q Consensus       116 glqfcenccqygnvdecl-sggnycsqncarhi  147 (190)
+                      ++.-|+.|...|.....+ ....+||..|++..
+T Consensus         5 ~~~~ce~cg~~~~~~~~~~~~~~~cs~~c~~~~   37 (43)
+T 2W0T_A            5 EPAVCEMCGIVGTREAFFSKTKRFCSVSCSRSY   37 (43)
+T ss_dssp             CEEECTTTCCEEETTTSCTTTSSSSSHHHHHHH
+T ss_pred             CccccCCCCCcccHHHhccCCCccCCchhcccc
+Confidence            456788888777666663 66779999998854
+
+
+No 2
+>2L8E_A Polyhomeotic-like protein 1; DNA BINDING PROTEIN; HET: ZN; NMR {Homo sapiens}
+Probab=53.17  E-value=15  Score=22.99  Aligned_cols=30  Identities=30%  Similarity=0.758  Sum_probs=23.5  Template_Neff=8.200
+
+Q ss_pred             ceecccccccCCchhccCCCCccCHHHHHh
+Q tr|E9PLL7|E9PL  117 LQFCENCCQYGNVDECLSGGNYCSQNCARH  146 (190)
+Q Consensus       117 lqfcenccqygnvdeclsggnycsqncarh  146 (190)
+                      ..-|+.|...+-.........+||+.|++.
+T Consensus        18 ~~~Ce~Cg~~~~~~~~~k~krfcS~~C~~~   47 (49)
+T 2L8E_A           18 LLKCEYCGKYAPAEQFRGSKRFCSMTCAKR   47 (49)
+T ss_dssp             EEECTTTCCEEEGGGCTTTSSSCSHHHHHH
+T ss_pred             eeeccCCCCcchHHHhcCCCccCCcccccc
+Confidence            467899888876666666678999999875
+
+
+No 3
+>6GRV_A Metallothionein; metallothionein, cadmium ion, METAL BINDING; HET: CD; NMR {Pseudomonas fluorescens Q2-87}
+Probab=29.04  E-value=43  Score=25.30  Aligned_cols=14  Identities=50%  Similarity=1.028  Sum_probs=10.5  Template_Neff=5.500
+
+Q ss_pred             CCCCccCHHHHHhc
+Q tr|E9PLL7|E9PL  134 SGGNYCSQNCARHI  147 (190)
+Q Consensus       134 sggnycsqncarhi  147 (190)
+                      .|..|||+.||.+-
+T Consensus        23 dg~~yC~eaCA~~h   36 (81)
+T 6GRV_A           23 DGEAYCSQACAEQH   36 (81)
+T ss_dssp             TTEEESSHHHHTTC
+T ss_pred             CCEEEcCHHHHhcC
+Confidence            46678888888764
+
+
+No 4
+>3V64_C agrin, Agrin; beta propeller, laminin-G, signaling, PROTEIN; HET: NAG, PO4; 2.85A {Rattus norvegicus}
+Probab=27.22  E-value=49  Score=23.70  Aligned_cols=16  Identities=50%  Similarity=1.151  Sum_probs=9.7  Template_Neff=12.800
+
+Q ss_pred             chhccCCCCccCHHHHH
+Q tr|E9PLL7|E9PL  129 VDECLSGGNYCSQNCAR  145 (190)
+Q Consensus       129 vdeclsggnycsqncar  145 (190)
+                      |+||. ....||+.|..
+T Consensus         1 ~~ec~-~~~~Cs~~C~~   16 (349)
+T 3V64_C            1 VNECA-EEGYCSQGCTN   16 (349)
+T ss_pred             CCccc-cCCCCCCcccc
+Confidence            46774 35567777743
+
+
+No 5
+>5HDA_A Zinc finger MYND domain-containing protein; BS69, EBNA2, MYND, zMYND11, coiled-coil; 2.3899A {Homo sapiens}
+Probab=25.77  E-value=1.1e+02  Score=19.79  Aligned_cols=30  Identities=30%  Similarity=0.704  Sum_probs=17.8  Template_Neff=11.300
+
+Q ss_pred             CceecccccccCCchhccCCCCccCHHHHHh
+Q tr|E9PLL7|E9PL  116 GLQFCENCCQYGNVDECLSGGNYCSQNCARH  146 (190)
+Q Consensus       116 glqfcenccqygnvdeclsggnycsqncarh  146 (190)
+                      ..++|.+|=..+ ...|.....||+..|...
+T Consensus        81 ~~~~c~~c~~~~-~~~c~~~~~~~~~~~~~~  110 (124)
+T 5HDA_A           81 KKQWCYNCEEEA-MYHCCWNTSYCSIKCQQE  110 (124)
+T ss_dssp             TSCBBSSSCSBC-CEEEETTEEESSHHHHHH
+T ss_pred             ccccCCCCCCch-hcccccceeeCCHHHHHh
+Confidence            346777754433 344445567899888643
+
+
+No 6
+>1JJD_A metallothionein; zinc finger, zinc cluster, metallothionein; NMR {Synechococcus elongatus} SCOP: g.46.1.1
+Probab=24.99  E-value=57  Score=23.14  Aligned_cols=13  Identities=46%  Similarity=0.864  Sum_probs=10.7  Template_Neff=5.400
+
+Q ss_pred             CCCccCHHHHHhc
+Q tr|E9PLL7|E9PL  135 GGNYCSQNCARHI  147 (190)
+Q Consensus       135 ggnycsqncarhi  147 (190)
+                      |..|||+.||.+-
+T Consensus        27 g~~YCseaCA~~h   39 (55)
+T 1JJD_A           27 GLYYCSEACADGH   39 (55)
+T ss_dssp             SCEESSHHHHHTS
+T ss_pred             CeEeCCHHHHcCC
+Confidence            6679999999863
+
+
+No 7
+>7AOC_I DNA-directed RNA polymerase I subunit; TRANSCRIPTION;{Schizosaccharomyces pombe (strain 972 / ATCC 24843)}
+Probab=24.75  E-value=73  Score=19.95  Aligned_cols=11  Identities=36%  Similarity=1.026  Sum_probs=7.1  Template_Neff=11.700
+
+Q ss_pred             cCCceeccccc
+Q tr|E9PLL7|E9PL  114 VEGLQFCENCC  124 (190)
+Q Consensus       114 veglqfcencc  124 (190)
+                      ...++||++|=
+T Consensus         4 ~~~~~fCp~Cg   14 (119)
+T 7AOC_I            4 IGSLIFCSECG   14 (119)
+T ss_dssp             --CCCCCSSSC
+T ss_pred             cCccccCcccC
+Confidence            35678999883
+
+
+No 8
+>6ZNL_Y ARP1 actin related protein 1; Dynactin, Complex, Scaffold, Cytoskeleton, STRUCTURAL; HET: ADP, ATP; 3.8A {Sus scrofa}
+Probab=23.71  E-value=69  Score=28.99  Aligned_cols=26  Identities=27%  Similarity=0.617  Sum_probs=13.5  Template_Neff=8.200
+
+Q ss_pred             eecccccccCCchhccCCCCccCHHHH
+Q tr|E9PLL7|E9PL  118 QFCENCCQYGNVDECLSGGNYCSQNCA  144 (190)
+Q Consensus       118 qfcenccqygnvdeclsggnycsqnca  144 (190)
+                      .||+||=.+=-..|-...+|.|+ ||-
+T Consensus        49 ~yCP~CL~~~~s~ea~~~~nrC~-nCf   74 (467)
+T 6ZNL_Y           49 HYCPSCLENMPSAEAKLKKNRCA-NCF   74 (467)
+T ss_dssp             EECSSSCCEECHHHHHHHTSEEE-EEE
+T ss_pred             hcCcCcccccChHHHHhhcCCCC-CCc
+Confidence            46666644322233333467777 764
+
+
+No 9
+>6ZNN_Y ARP1 actin related protein 1; Dynactin, Complex, Scaffold, Cytoskeleton, STRUCTURAL; HET: ADP, ATP; 4.5A {Sus scrofa}
+Probab=23.71  E-value=69  Score=28.99  Aligned_cols=26  Identities=27%  Similarity=0.617  Sum_probs=13.5  Template_Neff=8.200
+
+Q ss_pred             eecccccccCCchhccCCCCccCHHHH
+Q tr|E9PLL7|E9PL  118 QFCENCCQYGNVDECLSGGNYCSQNCA  144 (190)
+Q Consensus       118 qfcenccqygnvdeclsggnycsqnca  144 (190)
+                      .||+||=.+=-..|-...+|.|+ ||-
+T Consensus        49 ~yCP~CL~~~~s~ea~~~~nrC~-nCf   74 (467)
+T 6ZNN_Y           49 HYCPSCLENMPSAEAKLKKNRCA-NCF   74 (467)
+T ss_dssp             EECSSSCCEECHHHHHHHTSEEE-EEE
+T ss_pred             hcCcCcccccChHHHHhhcCCCC-CCc
+Confidence            46666644322233333467777 764
+
+
+No 10
+>7NKY_Z Chromatin, nucleosome, elongation, histone chaperone; 3.2A {Saccharomyces cerevisiae}
+Probab=17.96  E-value=2.2e+02  Score=30.73  Aligned_cols=14  Identities=29%  Similarity=0.724  Sum_probs=6.2  Template_Neff=5.600
+
+Q ss_pred             CCCCCCCCCCCCCC
+Q tr|E9PLL7|E9PL  160 EDNEEEDPKCSRKK  173 (190)
+Q Consensus       160 edneeedpkcsrkk  173 (190)
+                      ||+|+++.+=.|||
+T Consensus       159 ~~~~~~~~~r~rkr  172 (1064)
+T 7NKY_Z          159 DDDEDDDDEAPTKR  172 (1064)
+T ss_pred             CCCccCCCCCcchh
+Confidence            33344444444554
+
+

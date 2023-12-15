@@ -1,0 +1,451 @@
+Query         sp|P48378|RFX2_HUMAN
+Match_columns 723
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:52:05 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0262.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1DP7_P WINGED HELIX, MHC CLASS  98.9 1.1E-08 1.2E-13   67.0   6.3   75  200-274     2-76  (76)
+  2 6K15_M RSC7, Chromatin structu  96.6  0.0075 8.1E-08   64.6   5.8   78  198-275   394-477 (581)
+  3 6V92_N Chromatin structure-rem  96.6  0.0075 8.1E-08   64.6   5.8   78  198-275   394-477 (581)
+  4 1KA8_A putative P4-specific DN  95.6   0.091 9.9E-07   43.3   6.5   77  197-275     3-92  (100)
+  5 7N85_J nuclear pore complex, i  71.1 2.9E+02  0.0032   31.6  18.0   37  563-599   689-725 (823)
+  6 7N9F_z NPC, nucleocytoplasmic   71.1 2.9E+02  0.0032   31.6  18.0   37  563-599   689-725 (823)
+  7 7NRC_A 40S ribosomal protein S  58.3 4.1E+02  0.0044   33.4  13.5   34  652-687   406-439 (1209)
+  8 6LTH_L Chromatin remodeler, Co  44.6 1.4E+03   0.015   32.1  16.0   28  362-389  1966-1993(2285)
+  9 4KK0_B Tuberous sclerosis 1 pr  41.3 2.6E+02  0.0029   30.9   8.4   38  582-619   118-155 (461)
+ 10 7A0N_A TSC1, GAP, GTPase, SIGN  41.0 4.9E+02  0.0053   28.8  10.1   38  582-619    89-126 (466)
+ 11 4KK1_A Tuberous sclerosis 1 pr  36.7 4.2E+02  0.0045   29.0   8.8   38  582-619    91-128 (434)
+ 12 7A0M_A TSC, GAP, GTPase signal  34.6 6.5E+02   0.007   27.5   9.7   38  582-619    90-127 (417)
+ 13 7A0M_C TSC, GAP, GTPase signal  34.6 6.5E+02   0.007   27.5   9.7   38  582-619    90-127 (417)
+ 14 5O7X_K RNA polymerase I-specif  34.5 4.1E+02  0.0045   29.0   8.4   74  364-447   103-189 (514)
+ 15 5W65_P DNA-directed RNA polyme  34.5 4.1E+02  0.0045   29.0   8.4   19  365-383   104-122 (514)
+ 16 6RUI_Q RNA polymerase I-specif  34.5 4.1E+02  0.0045   29.0   8.4   79  365-453   104-195 (514)
+ 17 6VZY_A Cupin domain-containing  34.3 8.7E+02  0.0094   26.2  10.4   87  563-649   136-237 (491)
+ 18 6K9C_A Primase; primase, helic  32.2      43 0.00046   33.1   1.0   32  212-243   362-399 (416)
+ 19 6K9C_B Primase; primase, helic  32.2      43 0.00046   33.1   1.0   32  212-243   362-399 (416)
+ 20 4D1E_A ALPHA-ACTININ-2; CONTRA  30.1 1.1E+03   0.012   25.2  11.6   19  577-595   503-521 (876)
+ 21 1HCI_A ALPHA-ACTININ 2; TRIPLE  29.7 7.5E+02  0.0081   23.3  16.6   31  566-596   125-155 (476)
+ 22 7A8T_A Alpha-actinin-2, Myozen  29.7 7.5E+02  0.0081   23.3  16.6   31  566-596   125-155 (476)
+ 23 6M9S_A SznF; non-heme iron-dep  24.3 1.4E+03   0.015   24.5  11.3   70  580-649   156-234 (488)
+ 24 2EZI_A DNA-BINDING PROTEIN, TR  21.6 5.5E+02   0.006   19.0   6.8   53  194-248     7-59  (75)
+
+No 1
+>1DP7_P WINGED HELIX, MHC CLASS II; HET: BRU; 1.5A {N/A} SCOP: a.4.5.20
+Probab=98.90  E-value=1.1e-08  Score=66.96  Aligned_cols=75  Identities=88%  Similarity=1.423  Sum_probs=64.5  Template_Neff=12.500
+
+Q ss_pred             HHHHHHhcccCCCCCCChhHHHHHHHHHHHHCCCCcccHHHHHHHHHHHHHhhccccCCCCCCCCccecceecCC
+Q sp|P48378|RFX2  200 LQWLLDNYETAEGVSLPRSSLYNHYLRHCQEHKLDPVNAASFGKLIRSVFMGLRTRRLGTRGNSKYHYYGIRLKP  274 (723)
+Q Consensus       200 lqwlldnyetaegvslprsslynhylrhcqehkldpvnaasfgklirsvfmglrtrrlgtrgnskyhyygirlkp  274 (723)
+                      ++|++++++.+.+..++..++|+.|+.||.+++..+++.+.|.+.++..+++.+.......++..++|.||++++
+T Consensus         2 ~~f~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~l~~~~~~~~~~~~~~~~~~~~~~~gi~~~~   76 (76)
+T 1DP7_P            2 VQWLLDNYETAEGVSLPRSTLYNHYLLHSQEQKLEPVNAASFGKLIRSVFMGLRTRRLGTRGNSKYHYYGLRIKA   76 (76)
+T ss_dssp             HHHHHHHEEEEEEEEEEHHHHHHHHHHHHHHTTCCCCCHHHHHHHHHHHSTTCEEEEESSTTCCEEEEEEEEECC
+T ss_pred             chHHHHhceecCCccccHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHcCCceEEEccCCCcceeEEeeeEEcC
+Confidence            579999999888889999999999999999999999999999999998866665555555667778899998764
+
+
+No 2
+>6K15_M RSC7, Chromatin structure-remodeling complex protein; chromatin remodeler, SWI/SNF family, DNA; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=96.55  E-value=0.0075  Score=64.59  Aligned_cols=78  Identities=17%  Similarity=0.264  Sum_probs=59.2  Template_Neff=7.400
+
+Q ss_pred             HHHHHHHHhcccCCCCCCChhHHHHHHHHHHHHC----CCCcccHHHHHHHHHHHHHhhccccCCC--CCCCCcceccee
+Q sp|P48378|RFX2  198 SHLQWLLDNYETAEGVSLPRSSLYNHYLRHCQEH----KLDPVNAASFGKLIRSVFMGLRTRRLGT--RGNSKYHYYGIR  271 (723)
+Q Consensus       198 shlqwlldnyetaegvslprsslynhylrhcqeh----kldpvnaasfgklirsvfmglrtrrlgt--rgnskyhyygir  271 (723)
+                      .-..|++.+++.+++..+++.++|.+|...|...    +.+......|.+.++..|++........  .+..++.+.||+
+T Consensus       394 Ra~~WLr~~fe~~~~~~vtq~~L~~~Y~~~f~~~~~~~~~~lL~a~eFik~v~~aFP~a~a~v~~~~~~g~~~fvI~GIr  473 (581)
+T 6K15_M          394 RSTAWLRCCFEPVQEAEFTQISLWRSYESKFGQPVRESGRKLLPAVEFIKNVSNAFNNAAAIVITDPVTGKKRFVIKGIQ  473 (581)
+T ss_pred             HHHHHHHhheeeCCCCcccHHHHHHHHHHHhcchhhhhcCCCCCHHHHHHHHHHHccCCceEEecCCCCCCeeEEEEceE
+Confidence            3567999999999999999999999999999864    3457788999999999987644332221  234456788998
+
+
+Q ss_pred             cCCC
+Q sp|P48378|RFX2  272 LKPD  275 (723)
+Q Consensus       272 lkpd  275 (723)
+                      .+..
+T Consensus       474 ~R~~  477 (581)
+T 6K15_M          474 PRFK  477 (581)
+T ss_pred             EcCc
+Confidence            6653
+
+
+No 3
+>6V92_N Chromatin structure-remodeling complex proteins; Chromatin remodeler, RSC, GENE REGULATION; 20.0A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=96.55  E-value=0.0075  Score=64.59  Aligned_cols=78  Identities=17%  Similarity=0.264  Sum_probs=59.2  Template_Neff=7.400
+
+Q ss_pred             HHHHHHHHhcccCCCCCCChhHHHHHHHHHHHHC----CCCcccHHHHHHHHHHHHHhhccccCCC--CCCCCcceccee
+Q sp|P48378|RFX2  198 SHLQWLLDNYETAEGVSLPRSSLYNHYLRHCQEH----KLDPVNAASFGKLIRSVFMGLRTRRLGT--RGNSKYHYYGIR  271 (723)
+Q Consensus       198 shlqwlldnyetaegvslprsslynhylrhcqeh----kldpvnaasfgklirsvfmglrtrrlgt--rgnskyhyygir  271 (723)
+                      .-..|++.+++.+++..+++.++|.+|...|...    +.+......|.+.++..|++........  .+..++.+.||+
+T Consensus       394 Ra~~WLr~~fe~~~~~~vtq~~L~~~Y~~~f~~~~~~~~~~lL~a~eFik~v~~aFP~a~a~v~~~~~~g~~~fvI~GIr  473 (581)
+T 6V92_N          394 RSTAWLRCCFEPVQEAEFTQISLWRSYESKFGQPVRESGRKLLPAVEFIKNVSNAFNNAAAIVITDPVTGKKRFVIKGIQ  473 (581)
+T ss_pred             HHHHHHHhheeeCCCCcccHHHHHHHHHHHhcchhhhhcCCCCCHHHHHHHHHHHccCCceEEecCCCCCCeeEEEEceE
+Confidence            3567999999999999999999999999999864    3457788999999999987644332221  234456788998
+
+
+Q ss_pred             cCCC
+Q sp|P48378|RFX2  272 LKPD  275 (723)
+Q Consensus       272 lkpd  275 (723)
+                      .+..
+T Consensus       474 ~R~~  477 (581)
+T 6V92_N          474 PRFK  477 (581)
+T ss_pred             EcCc
+Confidence            6653
+
+
+No 4
+>1KA8_A putative P4-specific DNA primase (E.C.2.7.7.-); winged helix, TRANSFERASE; 2.95A {Enterobacteria phage P4} SCOP: a.4.5.20
+Probab=95.60  E-value=0.091  Score=43.30  Aligned_cols=77  Identities=16%  Similarity=0.147  Sum_probs=53.2  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHhcccCCC--C------C----CChhHHHHHHHHHHHHCCCC-cccHHHHHHHHHHHHHhhccccCCCCCCC
+Q sp|P48378|RFX2  197 NSHLQWLLDNYETAEG--V------S----LPRSSLYNHYLRHCQEHKLD-PVNAASFGKLIRSVFMGLRTRRLGTRGNS  263 (723)
+Q Consensus       197 nshlqwlldnyetaeg--v------s----lprsslynhylrhcqehkld-pvnaasfgklirsvfmglrtrrlgtrgns  263 (723)
+                      +.+.+|+. |++..+.  .      .    .....||.+|..||+.+|.. +++.+.|.+.|...+........+.+.+.
+T Consensus         3 dpl~~f~~-~~~~~~~~~~~~~G~~~~~~~~~~~~LY~aY~~~c~~~g~~~~~s~~~F~~~l~~~~~~~g~~~~k~r~~~   81 (100)
+T 1KA8_A            3 DPTFDFIG-YLETLPQTSGMYMGNASIIPRNYRKYLYHAYLAYMEANGYRNVLSLKMFGLGLPVMLKEYGLNYEKRHTKQ   81 (100)
+T ss_dssp             CHHHHHGG-GEEECSSSCSCBCCCTTCCSCCTTTBHHHHHHHHHHHTTCSCCCCHHHHHHHHHHHHHHTTCCCCEEEETT
+T ss_pred             CHHHHHHH-hhhccccCCceeccCCCCCCccHhHhcHHHHHHHHHHCCCCCCccHHHHHhhHHHHHHHcCCceeEEecCC
+Confidence            45778998 7765442  1      2    56778999999999999994 99999999999988654332211111222
+
+
+Q ss_pred             CccecceecCCC
+Q sp|P48378|RFX2  264 KYHYYGIRLKPD  275 (723)
+Q Consensus       264 kyhyygirlkpd  275 (723)
+                      .. +.||+++..
+T Consensus        82 g~-~~ni~l~~~   92 (100)
+T 1KA8_A           82 GI-QTNLTLKEE   92 (100)
+T ss_dssp             EE-EESEEECTH
+T ss_pred             ce-EEeeEeccc
+Confidence            22 778888764
+
+
+No 5
+>7N85_J nuclear pore complex, inner ring; 7.6A {Saccharomyces cerevisiae}
+Probab=71.12  E-value=2.9e+02  Score=31.55  Aligned_cols=37  Identities=14%  Similarity=0.299  Sum_probs=25.2  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHhcccHHhhhhHHHHHHHHHHHHHHHHHHh
+Q sp|P48378|RFX2  563 VVQRLEQDFKLTLQQQSSLDQWASWLDSVVTQVLKQH  599 (723)
+Q Consensus       563 vvqrleqdfkltlqqqssldqwaswldsvvtqvlkqh  599 (723)
+                      ...+|++.+....+||..|++....|+.-+..++...
+T Consensus       689 ~q~~l~~~L~~ie~qQ~eL~~~L~~lE~~~~~~~~~~  725 (823)
+T 7N85_J          689 SQNKIDQSLQYIERQQDELENFLDNFETKTEALLSDV  725 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            3466777777777788888877776666666655443
+
+
+No 6
+>7N9F_z NPC, nucleocytoplasmic transport, TRANSLOCASE; 37.0A {Saccharomyces cerevisiae}
+Probab=71.12  E-value=2.9e+02  Score=31.55  Aligned_cols=37  Identities=14%  Similarity=0.299  Sum_probs=25.2  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHhcccHHhhhhHHHHHHHHHHHHHHHHHHh
+Q sp|P48378|RFX2  563 VVQRLEQDFKLTLQQQSSLDQWASWLDSVVTQVLKQH  599 (723)
+Q Consensus       563 vvqrleqdfkltlqqqssldqwaswldsvvtqvlkqh  599 (723)
+                      ...+|++.+....+||..|++....|+.-+..++...
+T Consensus       689 ~q~~l~~~L~~ie~qQ~eL~~~L~~lE~~~~~~~~~~  725 (823)
+T 7N9F_z          689 SQNKIDQSLQYIERQQDELENFLDNFETKTEALLSDV  725 (823)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc
+Confidence            3466777777777788888877776666666655443
+
+
+No 7
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=58.32  E-value=4.1e+02  Score=33.39  Aligned_cols=34  Identities=21%  Similarity=0.365  Sum_probs=20.6  Template_Neff=1.500
+
+Q ss_pred             HHHHHHhhhcCCCchhhhhhHHHHHHhhhhccCCCC
+Q sp|P48378|RFX2  652 LVEHRVAEATGETPIAVMGEFNDLASLSLTLLDKDD  687 (723)
+Q Consensus       652 lvehrvaeatgetpiavmgefndlaslsltlldkdd  687 (723)
+                      +|...+.|..|+.  .+.|+..||..+.-.+||.-+
+T Consensus       406 ~VyRnAlEaIGd~--~~lgDlKdLIP~Lqe~ld~~~  439 (1209)
+T 7NRC_A          406 NIKRKACKIVGNM--AILVDTKDLIPYLQQLLDEVE  439 (1209)
+T ss_pred             HHHHHHHHHHhcc--hhhcCHHhHHHHHHHHHhhce
+Confidence            3445566777764  345667777666666666544
+
+
+No 8
+>6LTH_L Chromatin remodeler, Complex, GENE REGULATION;{Homo sapiens}
+Probab=44.64  E-value=1.4e+03  Score=32.15  Aligned_cols=28  Identities=18%  Similarity=0.319  Sum_probs=21.3  Template_Neff=4.300
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  362 TLHDVKALQLVYRRHCEATVDVVMNLQF  389 (723)
+Q Consensus       362 tlhdvkalqlvyrrhceatvdvvmnlqf  389 (723)
+                      .|.-+...|.-+.+.|-+.-.++-||.|
+T Consensus      1966 pL~~~se~QDsLarRClcISNILRnLSF 1993 (2285)
+T 6LTH_L         1966 PLCTLLDWQDSLAKRCVCVSNTIRSLSF 1993 (2285)
+T ss_dssp             SSCCCCHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             CCcccHHHHHHHHHHHHHHHHhhhcccc
+Confidence            3333455677788889999999999987
+
+
+No 9
+>4KK0_B Tuberous sclerosis 1 protein homolog; HEAT repeat, tumor suppressor, IMMUNE; HET: MSE; 2.9A {Schizosaccharomyces pombe}
+Probab=41.33  E-value=2.6e+02  Score=30.91  Aligned_cols=38  Identities=11%  Similarity=0.214  Sum_probs=31.3  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHH
+Q sp|P48378|RFX2  582 DQWASWLDSVVTQVLKQHAGSPSFPKAARQFLLKWSFY  619 (723)
+Q Consensus       582 dqwaswldsvvtqvlkqhagspsfpkaarqfllkwsfy  619 (723)
+                      +....|.|.++.-+|..-.-...+-+.+|+|++...-+
+T Consensus       118 ~~i~~W~d~~l~PaL~s~~~~~~~v~~ar~li~~~L~~  155 (461)
+T 4KK0_B          118 QAVGEWWDQIFFPFLNSPTQLKPVFSDLKSILFYILIF  155 (461)
+T ss_dssp             HHHHHHCCCCCHHHHHSCCSCHHHHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHHcCcccChHHHHHHHHHHHHHHhc
+Confidence            45677999999999987777888889999999887665
+
+
+No 10
+>7A0N_A TSC1, GAP, GTPase, SIGNALING PROTEIN; HET: MSE; 4.3A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=41.00  E-value=4.9e+02  Score=28.77  Aligned_cols=38  Identities=16%  Similarity=0.265  Sum_probs=32.7  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHH
+Q sp|P48378|RFX2  582 DQWASWLDSVVTQVLKQHAGSPSFPKAARQFLLKWSFY  619 (723)
+Q Consensus       582 dqwaswldsvvtqvlkqhagspsfpkaarqfllkwsfy  619 (723)
+                      +....|.|.++.-+|....-...+-+.+|+|++....+
+T Consensus        89 ~~i~~W~d~~l~Pal~~~~~~~~~v~~ar~~i~~~L~~  126 (466)
+T 7A0N_A           89 ARTFQWWDKLLDPVLDNATREKGLARSFMDFTLEILSS  126 (466)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTTSTTHHHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHHHHhcccccHHHHHHHHHHHHHHHcC
+Confidence            56788999999999998777889999999999877654
+
+
+No 11
+>4KK1_A Tuberous sclerosis 1 protein homolog; HEAT repeat, Tumor suppressor, IMMUNE; HET: MSE; 3.3A {Schizosaccharomyces pombe}
+Probab=36.67  E-value=4.2e+02  Score=28.98  Aligned_cols=38  Identities=11%  Similarity=0.214  Sum_probs=31.4  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHH
+Q sp|P48378|RFX2  582 DQWASWLDSVVTQVLKQHAGSPSFPKAARQFLLKWSFY  619 (723)
+Q Consensus       582 dqwaswldsvvtqvlkqhagspsfpkaarqfllkwsfy  619 (723)
+                      +....|.|.++.-+|..-.-...+-+.+|+|++...-+
+T Consensus        91 ~~i~~W~d~~l~Pal~s~~~~~~~v~~ak~li~~~l~~  128 (434)
+T 4KK1_A           91 QAVGEWWDQIFFPFLNSPTQLKPVFSDLKSILFYILIF  128 (434)
+T ss_dssp             HHHHHHCCCCCHHHHHSCCSCHHHHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHHHHcCCccChHHHHHHHHHHHHHHhc
+Confidence            55677999999999987666888889999999887665
+
+
+No 12
+>7A0M_A TSC, GAP, GTPase signaling, SIGNALING; HET: MSE; 2.32A {Chaetomium thermophilum}
+Probab=34.59  E-value=6.5e+02  Score=27.49  Aligned_cols=38  Identities=16%  Similarity=0.265  Sum_probs=32.4  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHH
+Q sp|P48378|RFX2  582 DQWASWLDSVVTQVLKQHAGSPSFPKAARQFLLKWSFY  619 (723)
+Q Consensus       582 dqwaswldsvvtqvlkqhagspsfpkaarqfllkwsfy  619 (723)
+                      +....|.|.++.-+|..-.-...+-+.+|+|+++...+
+T Consensus        90 ~~~~~W~d~~l~Pal~s~~~~~~~v~~ar~~i~~~L~~  127 (417)
+T 7A0M_A           90 ARTFQWWDKLLDPVLDNATREKGLARSFMDFTLEILSS  127 (417)
+T ss_dssp             HHHHHHHHHHHHHHHHTTTTSTTHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHHHHHHHHHhccccchHHHHHHHHHHHHHHcC
+Confidence            56778999999999988666888999999999887764
+
+
+No 13
+>7A0M_C TSC, GAP, GTPase signaling, SIGNALING; HET: MSE; 2.32A {Chaetomium thermophilum}
+Probab=34.59  E-value=6.5e+02  Score=27.49  Aligned_cols=38  Identities=16%  Similarity=0.265  Sum_probs=32.5  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHH
+Q sp|P48378|RFX2  582 DQWASWLDSVVTQVLKQHAGSPSFPKAARQFLLKWSFY  619 (723)
+Q Consensus       582 dqwaswldsvvtqvlkqhagspsfpkaarqfllkwsfy  619 (723)
+                      +....|.|.++.-+|..-.-...+-+.+|+|+++...+
+T Consensus        90 ~~~~~W~d~~l~Pal~s~~~~~~~v~~ar~~i~~~L~~  127 (417)
+T 7A0M_C           90 ARTFQWWDKLLDPVLDNATREKGLARSFMDFTLEILSS  127 (417)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTTSTTHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHhccccchHHHHHHHHHHHHHHcC
+Confidence            56778999999999998666889999999999887764
+
+
+No 14
+>5O7X_K RNA polymerase I-specific transcription initiation; TRANSCRIPTION, RNA POLYMERASE I INITIATION; HET: SO4; 3.2A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=34.53  E-value=4.1e+02  Score=29.02  Aligned_cols=74  Identities=15%  Similarity=0.286  Sum_probs=42.5  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHH-HHHH-HHHHHHHHHHHHcCCCCCCCCCCCCCCCCCCCCCCCCChHHHHHHHcC-----
+Q sp|P48378|RFX2  364 HDVKALQLVYRRHCEATVDVV-MNLQ-FHYIEKLWLSFWNSKASSSDGPTSLPASDEDPEGAVLPKDKLISLCQC-----  436 (723)
+Q Consensus       364 hdvkalqlvyrrhceatvdvv-mnlq-fhyieklwlsfwnskasssdgptslpasdedpegavlpkdklislcqc-----  436 (723)
+                      .-++++|++.++.|++-++.. +.-. -..+..||..+-........         +|.. ..+|...++++|--     
+T Consensus       103 l~l~~~Q~IL~~Q~~~Li~~~g~p~ele~vVr~LW~~~L~~~~~~~~---------ed~r-~~l~l~~~lailyLa~~~l  172 (514)
+T 5O7X_K          103 LFLKSFQFILKRQIRWLITEMRFPKEFEHVAKIIWLKILKTINDQPQ---------EELK-LQLHMTSTISILYLASTHL  172 (514)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHCCCTHHHHHHHHHHHHHHHHHTTCCC---------SSCC-CCCCHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHhcCCCCh---------hHHh-hcCCHHHHHHHHHHHHHHc
+Confidence            348999999999999887642 1111 12344566655543322110         1111 45777777777642     
+
+
+Q ss_pred             ------hHHHHHHHhch
+Q sp|P48378|RFX2  437 ------DPILRWMRSCD  447 (723)
+Q Consensus       437 ------dpilrwmrscd  447 (723)
+                            .-++||+++-.
+T Consensus       173 r~PV~~~Dl~rwi~~g~  189 (514)
+T 5O7X_K          173 SLPVYTCDYIKWICTAK  189 (514)
+T ss_dssp             TCSCCHHHHHHHHHTTS
+T ss_pred             CCCccHHHHHHHHHhCC
+Confidence                  34678887654
+
+
+No 15
+>5W65_P DNA-directed RNA polymerase I subunit; RNA Polymerase I Core Factor; 4.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=34.53  E-value=4.1e+02  Score=29.02  Aligned_cols=19  Identities=16%  Similarity=0.275  Sum_probs=16.2  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  365 DVKALQLVYRRHCEATVDV  383 (723)
+Q Consensus       365 dvkalqlvyrrhceatvdv  383 (723)
+                      -++++|++.++.|++-++.
+T Consensus       104 ~l~~~Q~IL~~Q~~~Li~~  122 (514)
+T 5W65_P          104 FLKSFQFILKRQIRWLITE  122 (514)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            4899999999999987764
+
+
+No 16
+>6RUI_Q RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=34.53  E-value=4.1e+02  Score=29.02  Aligned_cols=79  Identities=18%  Similarity=0.349  Sum_probs=41.4  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHH-HHHHH-HHHHHHHHHHHcCCCCCCCCCCCCCCCCCCCCCCCCChHHHHHHHcC------
+Q sp|P48378|RFX2  365 DVKALQLVYRRHCEATVDVV-MNLQF-HYIEKLWLSFWNSKASSSDGPTSLPASDEDPEGAVLPKDKLISLCQC------  436 (723)
+Q Consensus       365 dvkalqlvyrrhceatvdvv-mnlqf-hyieklwlsfwnskasssdgptslpasdedpegavlpkdklislcqc------  436 (723)
+                      -++++|++.++.|++-++.. +.-.+ ..+..||..+-........         +|.. ..+|...++++|--      
+T Consensus       104 ~l~~~Q~IL~~Q~~~Li~~~g~p~ele~vVr~LW~~~L~~~~~~~~---------ed~r-~~l~l~~~lailyLa~~~lr  173 (514)
+T 6RUI_Q          104 FLKSFQFILKRQIRWLITEMRFPKEFEHVAKIIWLKILKTINDQPQ---------EELK-LQLHMTSTISILYLASTHLS  173 (514)
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHhcCCCCh---------hHHh-hcCCHHHHHHHHHHHHHHcC
+Confidence            37889999999998877642 11111 2334556655543322110         1111 34555666665532      
+
+
+Q ss_pred             -----hHHHHHHHhchHHHHHH
+Q sp|P48378|RFX2  437 -----DPILRWMRSCDHILYQA  453 (723)
+Q Consensus       437 -----dpilrwmrscdhilyqa  453 (723)
+                           .-++||+++-.-..+.+
+T Consensus       174 ~PV~~~Dl~rwi~~g~lPy~~a  195 (514)
+T 6RUI_Q          174 LPVYTCDYIKWICTAKMPYFQA  195 (514)
+T ss_pred             CCccHHHHHHHHHhCCCcchhH
+Confidence                 23568887655444443
+
+
+No 17
+>6VZY_A Cupin domain-containing diiron protein; diiron, N-oxygenase, N-methyl-L-arginine, heme oxygenase; 1.66A {Streptomyces achromogenes subsp. streptozoticus}
+Probab=34.30  E-value=8.7e+02  Score=26.17  Aligned_cols=87  Identities=21%  Similarity=0.205  Sum_probs=40.4  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHhcccHHhhh------hHHHHHHHHHHHHHHH-------HHHhCCCCChhHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  563 VVQRLEQDFKLTLQQQS------SLDQWASWLDSVVTQV-------LKQHAGSPSFPKAARQFLLKWSFYSSMVIRDLTL  629 (723)
+Q Consensus       563 vvqrleqdfkltlqqqs------sldqwaswldsvvtqv-------lkqhagspsfpkaarqfllkwsfyssmvirdltl  629 (723)
+                      +...||+.+-..+....      +.+++..||+..+.+.       +.-..+..+...+++.|+.....+.....+-+..
+T Consensus       136 ir~~LE~~~~~~l~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~hp~~~~l~~~~s~~~~l~~~l~q~~~~~~~~~~ala~  215 (491)
+T 6VZY_A          136 IRPALERYAFGFLDDEVETSGTWTAQSLDAYLDSLDTAGGAEQSPVEKAILGSADRERAARMWLVQFAPDFLSEASPMMR  215 (491)
+T ss_dssp             HHHHHHHHHHTTHHHHC---CCCCHHHHHHHHHTC------CCCHHHHHHHTSSSHHHHHHHHHHHTHHHHTTTTHHHHG
+T ss_pred             HHHHHHHHhhHhhhccccCCCCCCHHHHHHHHHHHHhccccCCCHHHHHHhcCCCHHHHHHHHHHHHHhhhchhccHHHH
+Confidence            44555544433333321      4677888888776542       1111233333333677877766554422222211
+
+
+Q ss_pred             hhhhhcC--hHHHHHHHHHHHH
+Q sp|P48378|RFX2  630 RSAASFG--SFHLIRLLYDEYM  649 (723)
+Q Consensus       630 rsaasfg--sfhlirllydeym  649 (723)
+                      -.+...+  -..+++.++||+-
+T Consensus       216 ~~~~~~~~~k~~l~~nl~dE~G  237 (491)
+T 6VZY_A          216 NVLGYYGPAQSEWFKVVIDEYG  237 (491)
+T ss_dssp             GGSEECCHHHHHHHHHHHHHTG
+T ss_pred             HHhcCCChhchhHHHHHHHhhc
+Confidence            1111112  2357788888873
+
+
+No 18
+>6K9C_A Primase; primase, helicase, ssDNA-binding protein, TRANSFERASE; HET: SO4; 2.406A {Nitratiruptor phage NrS-1}
+Probab=32.20  E-value=43  Score=33.07  Aligned_cols=32  Identities=13%  Similarity=0.096  Sum_probs=24.5  Template_Neff=10.100
+
+Q ss_pred             CCCCChhHHHHHHHHHHHHCCC------CcccHHHHHH
+Q sp|P48378|RFX2  212 GVSLPRSSLYNHYLRHCQEHKL------DPVNAASFGK  243 (723)
+Q Consensus       212 gvslprsslynhylrhcqehkl------dpvnaasfgk  243 (723)
+                      +..++..++|.+|+.||..+|.      .+++...|++
+T Consensus       362 ~~~i~~~~l~~~y~~~~~~~~~~~~~~~~~~~~~~f~~  399 (416)
+T 6K9C_A          362 TGVIPNKYLMIIVEQILGDSKTITWIKRNIITPYQVGE  399 (416)
+T ss_dssp             HTEEEHHHHHHHHHHHHSSCCCHHHHCCCCCTTTTCEE
+T ss_pred             cCcccHHHHHHHHHHHHCCCCCCChhhccccCcccccC
+Confidence            5678889999999999999987      4554444433
+
+
+No 19
+>6K9C_B Primase; primase, helicase, ssDNA-binding protein, TRANSFERASE; HET: SO4; 2.406A {Nitratiruptor phage NrS-1}
+Probab=32.20  E-value=43  Score=33.07  Aligned_cols=32  Identities=13%  Similarity=0.096  Sum_probs=24.5  Template_Neff=10.100
+
+Q ss_pred             CCCCChhHHHHHHHHHHHHCCC------CcccHHHHHH
+Q sp|P48378|RFX2  212 GVSLPRSSLYNHYLRHCQEHKL------DPVNAASFGK  243 (723)
+Q Consensus       212 gvslprsslynhylrhcqehkl------dpvnaasfgk  243 (723)
+                      +..++..++|.+|+.||..+|.      .+++...|++
+T Consensus       362 ~~~i~~~~l~~~y~~~~~~~~~~~~~~~~~~~~~~f~~  399 (416)
+T 6K9C_B          362 TGVIPNKYLMIIVEQILGDSKTITWIKRNIITPYQVGE  399 (416)
+T ss_dssp             HTEEEHHHHHHHHHHHHSSCCCHHHHCCCCCTTTTCEE
+T ss_pred             cCcccHHHHHHHHHHHHCCCCCCChhhccccCcccccC
+Confidence            5678889999999999999987      4554444433
+
+
+No 20
+>4D1E_A ALPHA-ACTININ-2; CONTRACTILE PROTEIN, Z-DISC, CALMODULIN-LIKE DOMAIN; HET: MLZ; 3.5A {HOMO SAPIENS}
+Probab=30.11  E-value=1.1e+03  Score=25.19  Aligned_cols=19  Identities=5%  Similarity=0.422  Sum_probs=12.6  Template_Neff=11.700
+
+Q ss_pred             hhhhHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  577 QQSSLDQWASWLDSVVTQV  595 (723)
+Q Consensus       577 qqssldqwaswldsvvtqv  595 (723)
+                      -...++.+..||+.+-..+
+T Consensus       503 ~~~~~~~~~~Wl~~~e~~l  521 (876)
+T 4D1E_A          503 FAKRAAPFNNWMEGAMEDL  521 (876)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHhhHhhhhhchhhHHHH
+Confidence            3556677788888765544
+
+
+No 21
+>1HCI_A ALPHA-ACTININ 2; TRIPLE-HELIX COILED COIL, CONTRACTILE PROTEIN; 2.8A {HOMO SAPIENS} SCOP: a.7.1.1
+Probab=29.70  E-value=7.5e+02  Score=23.31  Aligned_cols=31  Identities=19%  Similarity=0.216  Sum_probs=17.6  Template_Neff=12.300
+
+Q ss_pred             HHHHHhcccHHhhhhHHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  566 RLEQDFKLTLQQQSSLDQWASWLDSVVTQVL  596 (723)
+Q Consensus       566 rleqdfkltlqqqssldqwaswldsvvtqvl  596 (723)
+                      +|++-....-.-...++....||+.+-..+-
+T Consensus       125 ~l~~~~~~~~~f~~~~~~~~~wl~~~e~~l~  155 (476)
+T 1HCI_A          125 RLERLEHLAEKFRQKASTHETWAYGKEQILL  155 (476)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTTHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            4444333333445567777888877755544
+
+
+No 22
+>7A8T_A Alpha-actinin-2, Myozenin-1; Z-disk complex, F-actin crosslinking protein; 2.69A {Homo sapiens}
+Probab=29.70  E-value=7.5e+02  Score=23.31  Aligned_cols=31  Identities=19%  Similarity=0.216  Sum_probs=17.3  Template_Neff=12.300
+
+Q ss_pred             HHHHHhcccHHhhhhHHHHHHHHHHHHHHHH
+Q sp|P48378|RFX2  566 RLEQDFKLTLQQQSSLDQWASWLDSVVTQVL  596 (723)
+Q Consensus       566 rleqdfkltlqqqssldqwaswldsvvtqvl  596 (723)
+                      +|++-....-.-...++....||+.+-..+-
+T Consensus       125 ~l~~~~~~~~~f~~~~~~~~~wl~~~e~~l~  155 (476)
+T 7A8T_A          125 RLERLEHLAEKFRQKASTHETWAYGKEQILL  155 (476)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTTHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            4443333333345566777788877655544
+
+
+No 23
+>6M9S_A SznF; non-heme iron-dependent, cupin domain, helix; HET: GOL, SO4, MSE; 2.08A {Streptomyces achromogenes subsp. streptozoticus}
+Probab=24.35  E-value=1.4e+03  Score=24.55  Aligned_cols=70  Identities=21%  Similarity=0.250  Sum_probs=35.1  Template_Neff=9.200
+
+Q ss_pred             hHHHHHHHHHHHHHHH-------HHHhCCCCChhHHHHHHHHHHHHHHHHHHHHHHHhhhhhcC--hHHHHHHHHHHHH
+Q sp|P48378|RFX2  580 SLDQWASWLDSVVTQV-------LKQHAGSPSFPKAARQFLLKWSFYSSMVIRDLTLRSAASFG--SFHLIRLLYDEYM  649 (723)
+Q Consensus       580 sldqwaswldsvvtqv-------lkqhagspsfpkaarqfllkwsfyssmvirdltlrsaasfg--sfhlirllydeym  649 (723)
+                      +.+.+..||+..+.+.       ++-..+..+....++.|+.....+......-+..-.....|  -..+++.++||+-
+T Consensus       156 ~~~~~~~~l~~~~~~~~~~~hp~~~~l~~~~~~~~~~~~~l~q~~~~~~~~~~ala~~~~~~~~~~~~~l~~~l~DE~G  234 (488)
+T 6M9S_A          156 TAQSLDAYLDSLDTAGGAEQSPVEKAILGSADRERAARMWLVQFAPDFLSEASPMMRNVLGYYGPAQSEWFKVVIDEYG  234 (488)
+T ss_dssp             CHHHHHHHHHTTC-----CCCHHHHHHHTSSSHHHHHHHHHHHTHHHHHTTTHHHHTTTSEECSHHHHHHHHHHHHHTG
+T ss_pred             CHHHHHHHHHHHhhhcccCCCHHHHHHhcCCCHHHHHHHHHHHHhhhhhhhhhHHHHHHhccCchhchhHHHHHHHhhc
+Confidence            4677888888766542       22222344444447888887765554322222111111112  2346788888873
+
+
+No 24
+>2EZI_A DNA-BINDING PROTEIN, TRANSPOSITION, DNA BINDING; NMR {Enterobacteria phage Mu} SCOP: a.4.1.2
+Probab=21.62  E-value=5.5e+02  Score=18.97  Aligned_cols=53  Identities=15%  Similarity=0.133  Sum_probs=40.2  Template_Neff=10.400
+
+Q ss_pred             chhHHHHHHHHHhcccCCCCCCChhHHHHHHHHHHHHCCCCcccHHHHHHHHHHH
+Q sp|P48378|RFX2  194 GLLNSHLQWLLDNYETAEGVSLPRSSLYNHYLRHCQEHKLDPVNAASFGKLIRSV  248 (723)
+Q Consensus       194 gllnshlqwlldnyetaegvslprsslynhylrhcqehkldpvnaasfgklirsv  248 (723)
+                      .....+..++++....  ....+...+|..+...|...+....+...|.+.+...
+T Consensus         7 ~~~~~~~~~i~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~ps~~t~~r~i~~~   59 (75)
+T 2EZI_A            7 EFDEDAWQFLIADYLR--PEKPAFRKCYERLELAAREHGWSIPSRATAFRRIQQL   59 (75)
+T ss_dssp             CSCHHHHHHHHHHHTS--TTCCCHHHHHHHHHHHHHHHTCCCCCHHHHHHHHHHH
+T ss_pred             cCCHHHHHHHHHHhcC--CcCCCHHHHHHHHHHHHHHcCCCCCCHHHHHHHHhhC
+Confidence            3445566666665432  2357799999999999999888888999999988754
+
+

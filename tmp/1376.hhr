@@ -1,0 +1,186 @@
+Query         tr|D6RC82|D6RC82_HUMAN
+Match_columns 22
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:37:28 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1376.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1BUY_A CYTOKINE, GLYCOPROTEIN,  31.1      37  0.0004   19.2   0.2   10   13-22    145-154 (166)
+  2 1EER_A ERYTHROPOIETIN, ERYTHRO  28.7      43 0.00046   18.8   0.2   10   13-22    145-154 (166)
+  3 6IKO_A Growth arrest-specific   24.1      33 0.00036   18.8  -0.7   16    3-18    467-482 (496)
+  4 1V74_B Colicin D, Colicin D im  23.9 1.1E+02  0.0012   14.8   1.1   10   12-21      9-18  (87)
+  5 1V7N_Z Thrombopoietin, Fab fra  22.9      57 0.00061   18.5   0.0   10   13-22    131-140 (163)
+  6 1V7M_V Monoclonal TN1 Fab Ligh  22.7      57 0.00062   18.5   0.0   10   13-22    131-140 (163)
+  7 3Q0K_D Protein kinase C and ca  21.4      66 0.00072   16.5   0.1   15    4-18    259-273 (289)
+  8 2JNG_A p53 binding domain, Str  21.3      79 0.00086   17.3   0.4   20    2-21      3-22  (105)
+  9 4IYP_A Immunoglobulin-binding   21.2 1.1E+02  0.0012   17.8   0.9   13    3-15     60-72  (222)
+ 10 4D5R_A A49; VIRAL PROTEIN, POX  21.0 1.2E+02  0.0013   19.4   1.1   11   10-20     33-43  (160)
+ 11 4D5T_F PROTEIN A49R; VIRAL PRO  21.0 1.2E+02  0.0013   19.4   1.1   11   10-20     33-43  (160)
+
+No 1
+>1BUY_A CYTOKINE, GLYCOPROTEIN, GROWTH FACTOR; NMR {Homo sapiens} SCOP: a.26.1.2
+Probab=31.13  E-value=37  Score=19.17  Aligned_cols=10  Identities=40%  Similarity=1.006  Sum_probs=7.5  Template_Neff=6.900
+
+Q ss_pred             HHHHHCCCCC
+Q tr|D6RC82|D6RC   13 ITNFVQGKIR   22 (22)
+Q Consensus        13 itnfvqgkir   22 (22)
+                      .++|++||+|
+T Consensus       145 y~~lLrGKl~  154 (166)
+T 1BUY_A          145 YSNFLRGKLK  154 (166)
+T ss_dssp             HHHHCCCCCH
+T ss_pred             HHHhhcccHH
+Confidence            4678899874
+
+
+No 2
+>1EER_A ERYTHROPOIETIN, ERYTHROPOIETIN RECEPTOR, SIGNAL TRANSDUCTION; 1.9A {Homo sapiens} SCOP: a.26.1.2
+Probab=28.74  E-value=43  Score=18.85  Aligned_cols=10  Identities=40%  Similarity=1.006  Sum_probs=7.5  Template_Neff=7.000
+
+Q ss_pred             HHHHHCCCCC
+Q tr|D6RC82|D6RC   13 ITNFVQGKIR   22 (22)
+Q Consensus        13 itnfvqgkir   22 (22)
+                      -++|++||.|
+T Consensus       145 y~~lLrGKl~  154 (166)
+T 1EER_A          145 YSNFLRGKLK  154 (166)
+T ss_dssp             HHHHCCCCCH
+T ss_pred             HHHhhcccHH
+Confidence            4688899874
+
+
+No 3
+>6IKO_A Growth arrest-specific protein 7; phagocytosis, F-BAR domain, LIPID BINDING; 3.756A {Mus musculus}
+Probab=24.12  E-value=33  Score=18.85  Aligned_cols=16  Identities=25%  Similarity=0.306  Sum_probs=12.9  Template_Neff=11.500
+
+Q ss_pred             CCCCCCCchhHHHHHC
+Q tr|D6RC82|D6RC    3 TLSVFDSNEDITNFVQ   18 (22)
+Q Consensus         3 tlsvfdsneditnfvq   18 (22)
+                      .+..+|...||..|++
+T Consensus       467 ~~~~id~~~D~~~fi~  482 (496)
+T 6IKO_A          467 LLRKVDPAKDRELWVR  482 (496)
+T ss_dssp             HHTTCCHHHHHHHHHH
+T ss_pred             HHHhCChHHhHHHHHH
+Confidence            4567888999999986
+
+
+No 4
+>1V74_B Colicin D, Colicin D immunity; colicin D - ImmD complex; HET: 1PE; 2.0A {Escherichia coli} SCOP: a.24.20.1
+Probab=23.93  E-value=1.1e+02  Score=14.82  Aligned_cols=10  Identities=30%  Similarity=0.285  Sum_probs=7.8  Template_Neff=8.100
+
+Q ss_pred             hHHHHHCCCC
+Q tr|D6RC82|D6RC   12 DITNFVQGKI   21 (22)
+Q Consensus        12 ditnfvqgki   21 (22)
+                      -|..|+.|+|
+T Consensus         9 Li~~fl~g~i   18 (87)
+T 1V74_B            9 LAKLFLASKI   18 (87)
+T ss_dssp             HHHHHHTTSS
+T ss_pred             HHHHHHcCCC
+Confidence            3678899887
+
+
+No 5
+>1V7N_Z Thrombopoietin, Fab fragment, Complex (Cytokine-Antibody); 3.3A {Mus musculus} SCOP: a.26.1.2
+Probab=22.88  E-value=57  Score=18.52  Aligned_cols=10  Identities=30%  Similarity=0.836  Sum_probs=7.2  Template_Neff=6.700
+
+Q ss_pred             HHHHHCCCCC
+Q tr|D6RC82|D6RC   13 ITNFVQGKIR   22 (22)
+Q Consensus        13 itnfvqgkir   22 (22)
+                      ..+|++||++
+T Consensus       131 y~~lLrGKl~  140 (163)
+T 1V7N_Z          131 FQHLLRGKVR  140 (163)
+T ss_dssp             HHHHCCCCCH
+T ss_pred             HHHHHcchHH
+Confidence            4678888864
+
+
+No 6
+>1V7M_V Monoclonal TN1 Fab Light Chain; Thrombopoietin, Fab fragment, Complex (Cytokine-Antibody); 2.51A {Mus musculus} SCOP: a.26.1.2
+Probab=22.70  E-value=57  Score=18.50  Aligned_cols=10  Identities=30%  Similarity=0.836  Sum_probs=7.5  Template_Neff=6.700
+
+Q ss_pred             HHHHHCCCCC
+Q tr|D6RC82|D6RC   13 ITNFVQGKIR   22 (22)
+Q Consensus        13 itnfvqgkir   22 (22)
+                      ..+|++||++
+T Consensus       131 y~~lLrGKl~  140 (163)
+T 1V7M_V          131 FQHLLRGKVR  140 (163)
+T ss_dssp             HHHHHHTTTG
+T ss_pred             HHHHHcchHH
+Confidence            4688888874
+
+
+No 7
+>3Q0K_D Protein kinase C and casein; alpha helix, membrane remodeling, Cytoplasmic; 2.6A {Homo sapiens}
+Probab=21.36  E-value=66  Score=16.46  Aligned_cols=15  Identities=27%  Similarity=0.359  Sum_probs=11.3  Template_Neff=11.300
+
+Q ss_pred             CCCCCCchhHHHHHC
+Q tr|D6RC82|D6RC    4 LSVFDSNEDITNFVQ   18 (22)
+Q Consensus         4 lsvfdsneditnfvq   18 (22)
+                      ++.+|...|+..|++
+T Consensus       259 ~~~id~~~D~~~fi~  273 (289)
+T 3Q0K_D          259 IRAADAVEDLRWFRA  273 (289)
+T ss_dssp             HTTCCHHHHHHHHHH
+T ss_pred             HHhCChHHHHHHHHH
+Confidence            456788888888875
+
+
+No 8
+>2JNG_A p53 binding domain, Structural Genomics; NMR {Homo sapiens} SCOP: b.34.9.4
+Probab=21.26  E-value=79  Score=17.25  Aligned_cols=20  Identities=20%  Similarity=0.305  Sum_probs=15.6  Template_Neff=5.900
+
+Q ss_pred             CCCCCCCCchhHHHHHCCCC
+Q tr|D6RC82|D6RC    2 KTLSVFDSNEDITNFVQGKI   21 (22)
+Q Consensus         2 ktlsvfdsneditnfvqgki   21 (22)
+                      ++.|-|.++++-..+|+..|
+T Consensus         3 ~~rsdF~s~~~Ya~Yvr~~l   22 (105)
+T 2JNG_A            3 HMRSEFASGNTYALYVRDTL   22 (105)
+T ss_dssp             -CGGGSSSSHHHHHHHHHHC
+T ss_pred             CCHhHhcChhHHHHHHHHHC
+Confidence            56788999999999887544
+
+
+No 9
+>4IYP_A Immunoglobulin-binding protein 1, Serine/threonine-protein phosphatase; alpha4, PP2A, latency, helix motif; HET: MSE; 2.797A {Homo sapiens}
+Probab=21.16  E-value=1.1e+02  Score=17.77  Aligned_cols=13  Identities=38%  Similarity=0.751  Sum_probs=9.3  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCchhHHH
+Q tr|D6RC82|D6RC    3 TLSVFDSNEDITN   15 (22)
+Q Consensus         3 tlsvfdsneditn   15 (22)
+                      .+++|..||++..
+T Consensus        60 ~l~lfS~NE~ldD   72 (222)
+T 4IYP_A           60 QLDLFSRNEDLEE   72 (222)
+T ss_dssp             HHTCCCSSCCGGG
+T ss_pred             hcCCCCCCCCHHH
+Confidence            3578888887653
+
+
+No 10
+>4D5R_A A49; VIRAL PROTEIN, POXVIRUS, B CELL; 1.9A {VACCINIA VIRUS}
+Probab=20.97  E-value=1.2e+02  Score=19.38  Aligned_cols=11  Identities=45%  Similarity=0.827  Sum_probs=9.3  Template_Neff=2.100
+
+Q ss_pred             chhHHHHHCCC
+Q tr|D6RC82|D6RC   10 NEDITNFVQGK   20 (22)
+Q Consensus        10 neditnfvqgk   20 (22)
+                      |.||.||+-|+
+T Consensus        33 NkdIvNFIM~~   43 (160)
+T 4D5R_A           33 NKDIVNFIMCR   43 (160)
+T ss_dssp             HHHHHHHHTTC
+T ss_pred             cHHHHHHHhcc
+Confidence            67899999876
+
+
+No 11
+>4D5T_F PROTEIN A49R; VIRAL PROTEIN, POX VIRUS, B; HET: SO4; 1.84A {VACCINIA VIRUS}
+Probab=20.97  E-value=1.2e+02  Score=19.38  Aligned_cols=11  Identities=45%  Similarity=0.827  Sum_probs=9.3  Template_Neff=2.100
+
+Q ss_pred             chhHHHHHCCC
+Q tr|D6RC82|D6RC   10 NEDITNFVQGK   20 (22)
+Q Consensus        10 neditnfvqgk   20 (22)
+                      |.||.||+-|+
+T Consensus        33 NkdIvNFIM~~   43 (160)
+T 4D5T_F           33 NKDIVNFIMCR   43 (160)
+T ss_dssp             HHHHHHHHTTC
+T ss_pred             cHHHHHHHhcc
+Confidence            67899999876
+
+

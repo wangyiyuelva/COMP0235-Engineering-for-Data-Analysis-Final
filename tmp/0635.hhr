@@ -1,0 +1,258 @@
+Query         tr|A0A2R8Y761|A0A2R8Y761_HUMAN
+Match_columns 289
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 10:58:11 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0635.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3P5J_B Ribonuclease H2 subunit 100.0 4.1E-43 4.5E-48  299.9  16.3  256   10-268    33-289 (332)
+  2 3KIO_B Ribonuclease H2 subunit 100.0 8.5E-43 9.2E-48  298.8  16.2  256   10-268    33-289 (332)
+  3 3PUF_H Ribonuclease H2 subunit 100.0 2.7E-38   3E-43  254.1  14.1  220   11-233     2-224 (224)
+  4 2L48_A N-acetylmuramoyl-L-alan  21.2      88 0.00096   21.1   0.7    7   72-78      5-11  (85)
+  5 2I9S_A ferredoxin-like-fold, C  15.4 6.5E+02  0.0071   20.3   4.3   10   33-42     17-26  (97)
+  6 3OFH_B LDLR chaperone MESD; me  15.4 4.3E+02  0.0047   20.9   3.3   14   34-47     11-24  (89)
+  7 5I38_B Tyrosinase; di-copper o  15.3   2E+02  0.0021   24.3   1.5   17   87-103   216-232 (287)
+  8 4ONX_F Sensor histidine kinase  12.8 1.3E+02  0.0014   20.7  -0.2    6   71-76      5-10  (162)
+  9 3OFF_A LDLR chaperone boca; me  12.7 5.7E+02  0.0062   20.4   3.3   16   33-48     11-26  (90)
+ 10 4J3Q_B catechol oxidase (E.C.1  12.6   3E+02  0.0032   24.0   1.9   18   86-103   255-272 (339)
+
+No 1
+>3P5J_B Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H2 fold, triple beta-barrel; 2.9A {Mus musculus}
+Probab=100.00  E-value=4.1e-43  Score=299.94  Aligned_cols=256  Identities=81%  Similarity=1.240  Sum_probs=159.2  Template_Neff=7.800
+
+Q ss_pred             CCCccceeeeehHHhhhhhhh-ccCCeeEEEEeCCCCchhHHHHHHHHHHhhhceeeeccccceeeeccccccCCccecC
+Q tr|A0A2R8Y761|   10 GVGARQHVFLVSEYLKDASKK-MKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFA   88 (289)
+Q Consensus        10 gvgarqhvflvseylkdaskk-mknglmfvklvnpcsgegaiylfnmclqqlfevkvfkekhhswfinqsvqsggllhfa   88 (289)
+                      +.+..++|+|+|+.+.+.+.+ .+.++++++||||+||.+++|+++...+.||||+++++++||||++++|++||+||++
+T Consensus        33 ~~~~~~~v~ilP~~~~~~~~~~~~~~~~ii~LpHPrtg~~~~fl~~~~~~~l~El~~~~~~~rSwfi~~~V~sdGsl~v~  112 (332)
+T 3P5J_B           33 DLAARQLVFLLPEHLKDASKKKKKSSLLFVKLANPHSGEGATYLIDMCLQQLFEIKVFKEKHHSWFINQSVQSGGLLHFA  112 (332)
+T ss_dssp             --CCCCEEEEEEGGGGCCC------CEEEEEECCSSSSSCEEEEEETTTTEEEEEEEECCSSCEEEESSEEEESCCEEEE
+T ss_pred             CcccCcEEEEeeHHHhhhhhhcccCCcEEEEecCCCCCCceEEEEECCCCEEEEEEEecCCCceEEEeeEEecCceEEEE
+Confidence            667889999999886543211 1347999999999999999999976557899999999999999999999999999999
+
+
+Q ss_pred             CCCCHHHHHHHHHHHHhcCCCCCCCcHHHhhchhhhhhHHhcChhHHHHHHHHhccCCCCCCCcchhhcccHHHHHHHHH
+Q tr|A0A2R8Y761|   89 TPVDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEKGNPEIDNKKYYKYSKEKTLKWLE  168 (289)
+Q Consensus        89 tpvdplflllhylikadkegkfqpldqvvvdnvfpncilllklpglekllhhvteekgnpeidnkkyykyskektlkwle  168 (289)
+                      |||||+||+||+|..+.+.++|+++|||+.+..++++..|++++.+.++|.+|||+++   ++++.+||||++|+++||.
+T Consensus       113 TpiDPlFllLp~L~~~~~~~~F~~lddil~~~~~~~~~~l~~~~~l~~~L~~ICd~~~---~~~~~~yRlne~K~l~wL~  189 (332)
+T 3P5J_B          113 TPMDPLFLLLHYLLKAGKEGKYQPLDQVVVDDTFPDCTLLLRFPELEKSLRHVTEEKE---VNSKKYYKYSSEKTLKWLE  189 (332)
+T ss_dssp             EECCHHHHHGGGTTTTCC----------------CCHHHHHCSTTHHHHHTTTCC----------CCCCCCHHHHHHHHH
+T ss_pred             cCCcHHHHHHHHHHHhcCCCCeeeHHHHccCCCCcChHHHhcCHHHHHHHhhhccEEE---eCCeEEEecCHHHHHHHHH
+Confidence            9999999999999998655799999999998888899999999888899999999999   8999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhcCCCCCCCcccCCCCCCCCCCCCCchhHHHHHHhhhhhccCChhhchhHHHHCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8Y761|  169 KKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLKLPEPSASLPNPPSKK  248 (289)
+Q Consensus       169 kkvnqtvaalktnnvnvssrvqstaffsgdqastdkeedyiryahglisdyipkelsddlskylklpepsaslpnppskk  248 (289)
+                      .||+++++.|++..+.+++++.++.++++.......++.++++|++||++|||++|.+.|.++||+++......+++.++
+T Consensus       190 ~KV~~l~~~l~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~~A~~lls~YL~~~~~~~L~~~l~l~~~~~~~~~~~~~~  269 (332)
+T 3P5J_B          190 KKVNQTVVALKANNVNVGARVQSSAYFSGGQVSRDKEEDYVRYAHGLISDYIPKELSDDLSKFLKLPEPPASLTNPPSKK  269 (332)
+T ss_dssp             HHHHHHHHHHHHTTCC---------------------CTHHHHHHHHHHTTCGGGSSSSSSTTTCC--------------
+T ss_pred             HHHHHHHHHHHhCCCccccceeecccccCCCCCCccHHHHHHHHHHHHHhhCCHHHHHHHHHHcCCCCCCCCCCCCCccc
+Confidence            99999999999876555544444444443333334456799999999999999999999999999976554434444454
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8Y761|  249 IKLSDEPVEAKEDYTKFNTK  268 (289)
+Q Consensus       249 iklsdepveakedytkfntk  268 (289)
+                      ++..+++.++.+||.+.+++
+T Consensus       270 ~~~~~~~~~~~ed~~~~~~~  289 (332)
+T 3P5J_B          270 LKLSDEPVEAKEDYTKFNTK  289 (332)
+T ss_dssp             --------------------
+T ss_pred             ccccCCchhhHHHHhhhccc
+Confidence            44444455677787765443
+
+
+No 2
+>3KIO_B Ribonuclease H2 subunit A (E.C.3.1.26.4); ribonuclease, Aicardi-Goutieres syndrome, RNase H2; HET: MSE; 2.9A {Mus musculus}
+Probab=100.00  E-value=8.5e-43  Score=298.79  Aligned_cols=256  Identities=81%  Similarity=1.250  Sum_probs=114.1  Template_Neff=7.700
+
+Q ss_pred             CCCccceeeeehHHhhhhhhh-ccCCeeEEEEeCCCCchhHHHHHHHHHHhhhceeeeccccceeeeccccccCCccecC
+Q tr|A0A2R8Y761|   10 GVGARQHVFLVSEYLKDASKK-MKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFA   88 (289)
+Q Consensus        10 gvgarqhvflvseylkdaskk-mknglmfvklvnpcsgegaiylfnmclqqlfevkvfkekhhswfinqsvqsggllhfa   88 (289)
+                      +.+.+++|+|+|+.+.+.+.+ .+.++++++||||+||.+++|+++..++.||||+++++.+||||++++|++||+||++
+T Consensus        33 ~~~~~~~v~ilP~~~~~~~~~~~~~~~~ii~LpHPrtg~~~~fl~~~~~~~l~El~~~~~~~rSwfi~~~V~sdgsl~v~  112 (332)
+T 3KIO_B           33 DLAARQLVFLLPEHLKDASKKKKKSSLLFVKLANPHSGEGATYLIDMCLQQLFEIKVFKEKHHSWFINQSVQSGGLLHFA  112 (332)
+T ss_dssp             -CCCCEEEEEEEGGGGC-----CCCCEEEEEECCTTTTCCEEEEEESSSCCCEEEEEECCSSCEEEESSEEESCCCEEEE
+T ss_pred             CcccCcEEEEeeHHHhhhhhhcccCCcEEEEecCCCCCCceEEEEECCCCEEEEEEEecCCCceEEEeeEEecCceEEEE
+Confidence            667889999999886543221 2357999999999999999999976557899999999999999999999999999999
+
+
+Q ss_pred             CCCCHHHHHHHHHHHHhcCCCCCCCcHHHhhchhhhhhHHhcChhHHHHHHHHhccCCCCCCCcchhhcccHHHHHHHHH
+Q tr|A0A2R8Y761|   89 TPVDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEKGNPEIDNKKYYKYSKEKTLKWLE  168 (289)
+Q Consensus        89 tpvdplflllhylikadkegkfqpldqvvvdnvfpncilllklpglekllhhvteekgnpeidnkkyykyskektlkwle  168 (289)
+                      |||||+||+||+|..+...++|+++|||+.+..++++..|++++.+.++|..|||+++   +|++.+||||++|+++||.
+T Consensus       113 TpiDPlFllLp~L~~~~~~~~F~~lddil~~~~~~~~~~l~~~~~l~~~L~~ICD~~~---~~~~~~yR~ne~K~l~wL~  189 (332)
+T 3KIO_B          113 TPMDPLFLLLHYLLKAGKEGKYQPLDQVVVDDTFPDCTLLLRFPELEKSLRHVTEEKE---VNSKKYYKYSSEKTLKWLE  189 (332)
+T ss_dssp             EESSSSGGGTTTCC-------------------------------------------C---CCCSSHHHHCCCCCHHHHH
+T ss_pred             cCCcHHHHHHHHHHHhcCCCCeeeHHHHcccCCCCchhHHhcChHHHHHHhhhccEEE---eCCeEEEEcCHHHHHHHHH
+Confidence            9999999999999998655799999999988888899999998888888999999999   9999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhcCCCCCCCcccCCCCCCCCCCCCCchhHHHHHHhhhhhccCChhhchhHHHHCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8Y761|  169 KKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLKLPEPSASLPNPPSKK  248 (289)
+Q Consensus       169 kkvnqtvaalktnnvnvssrvqstaffsgdqastdkeedyiryahglisdyipkelsddlskylklpepsaslpnppskk  248 (289)
+                      .||+++++.|++..+.+++++.++.++++....+..++.++++|++||++|||++|.+.|.++||+++......+++.++
+T Consensus       190 ~KV~~l~~~l~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~~A~~ll~~YL~~~~~~~L~~~l~~~~~~~~~~~~~~~~  269 (332)
+T 3KIO_B          190 KKVNQTVVALKANNVNVGARVQSSAYFSGGQVSRDKEEDYVRYAHGLISDYIPKELSDDLSKFLKLPEPPASLPNPPSKK  269 (332)
+T ss_dssp             HHHHHHHHHTTTTTCC----------------------------------------------------------------
+T ss_pred             HHHHHHHHHHHhCCCccccceeecccccCCCCCCccHHHHHHHHHHHHHhhCCHHHHHHHHHHcCCCCCCCCCCCCCCcc
+Confidence            99999999998766555444444444433333334466789999999999999999999999999976554433444444
+
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCC
+Q tr|A0A2R8Y761|  249 IKLSDEPVEAKEDYTKFNTK  268 (289)
+Q Consensus       249 iklsdepveakedytkfntk  268 (289)
+                      ++..+++.++.+||.+.+++
+T Consensus       270 ~~~~~~~~~~~ed~~~~~~~  289 (332)
+T 3KIO_B          270 LKLSDEPVEAKEDYTKFNTK  289 (332)
+T ss_dssp             --------------------
+T ss_pred             ccccCCchhhHHHHhhhccc
+Confidence            44444445677787765443
+
+
+No 3
+>3PUF_H Ribonuclease H2 subunit A (E.C.3.1.26.4); RNase H fold, triple barrel; 3.1A {Homo sapiens}
+Probab=100.00  E-value=2.7e-38  Score=254.06  Aligned_cols=220  Identities=98%  Similarity=1.434  Sum_probs=179.9  Template_Neff=8.300
+
+Q ss_pred             CCccceeeeehHHhhhhhhhccCCeeEEEEeCCCCchhHHHHHHHHHHhhhceeeeccccceeeeccccccCCccecCCC
+Q tr|A0A2R8Y761|   11 VGARQHVFLVSEYLKDASKKMKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFATP   90 (289)
+Q Consensus        11 vgarqhvflvseylkdaskkmknglmfvklvnpcsgegaiylfnmclqqlfevkvfkekhhswfinqsvqsggllhfatp   90 (289)
+                      .+++++|+|+|+.+.+.+.+.+.++++++||||+||+++.|+++..++.|||++++++++||||+++.|++||++|++||
+T Consensus         2 ~~~~~~v~ilP~~~~~~~~~~~~~~~~i~LphP~t~~~~~~l~~~~~~~l~El~~~~~~~rSwfi~~~v~~dg~l~i~Tp   81 (224)
+T 3PUF_H            2 SHMRQHVFLVSEYLKDASKKMKNGLMFVKLVNPCSGEGAIYLFNMCLQQLFEVKVFKEKHHSWFINQSVQSGGLLHFATP   81 (224)
+T ss_dssp             -CCCEEEEEEETTTTTTCCSSSSCEEEEEEECTTTCSEEEEEEETTTTEEEEEEEECCSSCEEEETTEEESSCCEEEEEE
+T ss_pred             CCCCcEEEEecHHHHhhhHhhcCCcEEEeecCCCCCCceEEEEECCCCeEEEEEEecCCCceEEEeeEEecCceEEEEec
+Confidence            45789999999886433111235899999999999999999997656899999999999999999999999999999999
+
+
+Q ss_pred             CCHHHHHHHHHHHHhcCCCCCCCcHHHhhchhhhhhHHhcChhHHHHHHHHhccC---CCCCCCcchhhcccHHHHHHHH
+Q tr|A0A2R8Y761|   91 VDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEK---GNPEIDNKKYYKYSKEKTLKWL  167 (289)
+Q Consensus        91 vdplflllhylikadkegkfqpldqvvvdnvfpncilllklpglekllhhvteek---gnpeidnkkyykyskektlkwl  167 (289)
+                      |||+||+||+|.+....++|+++|||+.+..++++..|++++.+.++|++|||++   +   +|++.+||+|++|+++||
+T Consensus        82 ~DplFllL~~l~~~~~~~~f~~lddil~~~~~~~~~~l~~~~~~~~~L~~icd~~~~~~---~~~~~~yr~n~~K~l~wL  158 (224)
+T 3PUF_H           82 VDPLFLLLHYLIKADKEGKFQPLDQVVVDNVFPNCILLLKLPGLEKLLHHVTEEKGNPE---IDNKKYYKYSKEKTLKWL  158 (224)
+T ss_dssp             CCTHHHHHHHHHHGGGSCSCBCHHHHSCCSSCGGGGGGGGCTTHHHHHTTTEEEECC--------CCEEEECHHHHHHHH
+T ss_pred             CCHHHHHHHHHhHhcCCCCEEeHHHhcccCCCcccHHHhcCccHHHHHHHHhccCCCcc---cCCCeeeecCHHHHHHHH
+Confidence            9999999999999876679999999999888899999989888889999999999   8   899999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHhcCCCCCCCcccCCCCCCCCCCCCCchhHHHHHHhhhhhccCChhhchhHHHHCC
+Q tr|A0A2R8Y761|  168 EKKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLK  233 (289)
+Q Consensus       168 ekkvnqtvaalktnnvnvssrvqstaffsgdqastdkeedyiryahglisdyipkelsddlskylk  233 (289)
+                      .+||+++++.|+++....++++.++.+.++....+..++.++++|+++|++|||++|.+.|+++||
+T Consensus       159 ~~Kv~~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~A~~ll~~YL~~~~~~~L~~~l~  224 (224)
+T 3PUF_H          159 EKKVNQTVAALKTNNVNVSSRVQSTAFFSGDQASTDKEEDYIRYAHGLISDYIPKELSDDLSKYLK  224 (224)
+T ss_dssp             HHHHHHHHHHHHHTTCCCCSCC--------------CCHHHHHHHHHHHTTTSCHHHHHHHHHCC-
+T ss_pred             HHHHHHHHHHHHhCCCcccccceeeeeccCCCCCCCCHHHHHHHHHHHHHHhCCHHHHHHHHHHcC
+Confidence            999999999999876655555545554444433444567899999999999999999999999986
+
+
+No 4
+>2L48_A N-acetylmuramoyl-L-alanine amidase; Bacillus anthracis gamma- phage endolysin; NMR {Bacillus phage Gamma}
+Probab=21.16  E-value=88  Score=21.07  Aligned_cols=7  Identities=0%  Similarity=-0.401  Sum_probs=5.6  Template_Neff=10.200
+
+Q ss_pred             eeeeccc
+Q tr|A0A2R8Y761|   72 SWFINQS   78 (289)
+Q Consensus        72 swfinqs   78 (289)
+                      |||+|..
+T Consensus         5 sWF~g~~   11 (85)
+T 2L48_A            5 KVKNGNV   11 (85)
+T ss_dssp             SCCCCCS
+T ss_pred             cccccCc
+Confidence            8999766
+
+
+No 5
+>2I9S_A ferredoxin-like-fold, CHAPERONE; NMR {Mus musculus}
+Probab=15.43  E-value=6.5e+02  Score=20.31  Aligned_cols=10  Identities=30%  Similarity=0.497  Sum_probs=6.6  Template_Neff=6.600
+
+Q ss_pred             CCeeEEEEeC
+Q tr|A0A2R8Y761|   33 NGLMFVKLVN   42 (289)
+Q Consensus        33 nglmfvklvn   42 (289)
+                      ...-|++|.-
+T Consensus        17 ~~MmFV~l~~   26 (97)
+T 2I9S_A           17 TLMMFVTVSG   26 (97)
+T ss_dssp             CEEEEEECCS
+T ss_pred             ceEEEEEEcC
+Confidence            4567888853
+
+
+No 6
+>3OFH_B LDLR chaperone MESD; mesd, molecular chaperone, protein folding; 2.013A {Mus musculus}
+Probab=15.40  E-value=4.3e+02  Score=20.91  Aligned_cols=14  Identities=21%  Similarity=0.294  Sum_probs=7.9  Template_Neff=6.700
+
+Q ss_pred             CeeEEEEeCCCCch
+Q tr|A0A2R8Y761|   34 GLMFVKLVNPCSGE   47 (289)
+Q Consensus        34 glmfvklvnpcsge   47 (289)
+                      ...|++|.-..+.+
+T Consensus        11 ~MmFV~l~~~~~~~   24 (89)
+T 3OFH_B           11 LMMFVTVSGNPTEK   24 (89)
+T ss_dssp             EEEEEEESSCCCHH
+T ss_pred             eEEEEEEcCCCCHH
+Confidence            45688885333433
+
+
+No 7
+>5I38_B Tyrosinase; di-copper oxidase, OXIDOREDUCTASE; HET: KOJ; 2.6A {Bacillus megaterium}
+Probab=15.27  E-value=2e+02  Score=24.27  Aligned_cols=17  Identities=35%  Similarity=0.636  Sum_probs=13.6  Template_Neff=10.000
+
+Q ss_pred             cCCCCCHHHHHHHHHHH
+Q tr|A0A2R8Y761|   87 FATPVDPLFLLLHYLIK  103 (289)
+Q Consensus        87 fatpvdplflllhylik  103 (289)
+                      ..+|.||+|++......
+T Consensus       216 ~~s~~DPiF~lHHa~iD  232 (287)
+T 5I38_B          216 PTAPNDPVFFLHHANVD  232 (287)
+T ss_dssp             TTGGGSTHHHHHHHHHH
+T ss_pred             CCCCCCCcHHHHHHHHH
+Confidence            47899999999876544
+
+
+No 8
+>4ONX_F Sensor histidine kinase; Structural Genomics, NIAID, National Institute; HET: SO4, MSE; 2.8A {Clostridium perfringens}
+Probab=12.82  E-value=1.3e+02  Score=20.66  Aligned_cols=6  Identities=17%  Similarity=0.047  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ceeeec
+Q tr|A0A2R8Y761|   71 HSWFIN   76 (289)
+Q Consensus        71 hswfin   76 (289)
+                      .+||..
+T Consensus         5 ~~~~~~   10 (162)
+T 4ONX_F            5 HHHSSG   10 (162)
+T ss_dssp             ------
+T ss_pred             cccCCC
+Confidence            345443
+
+
+No 9
+>3OFF_A LDLR chaperone boca; mesd, molecular chaperone, protein folding; HET: SO4, MSE; 2.002A {Drosophila melanogaster}
+Probab=12.67  E-value=5.7e+02  Score=20.37  Aligned_cols=16  Identities=19%  Similarity=0.216  Sum_probs=9.3  Template_Neff=6.600
+
+Q ss_pred             CCeeEEEEeCCCCchh
+Q tr|A0A2R8Y761|   33 NGLMFVKLVNPCSGEG   48 (289)
+Q Consensus        33 nglmfvklvnpcsgeg   48 (289)
+                      ...-|++|.-..+.+.
+T Consensus        11 ~~MmFV~l~~~~t~~~   26 (90)
+T 3OFF_A           11 TLMTFVSVTGNPTREE   26 (90)
+T ss_dssp             CEEEEEEESSSCCHHH
+T ss_pred             ceEEEEEecCCCCHHH
+Confidence            3467888865444443
+
+
+No 10
+>4J3Q_B catechol oxidase (E.C.1.10.3.1); catechol oxidase, type-3 copper center; HET: NAG; 2.9A {Aspergillus oryzae}
+Probab=12.62  E-value=3e+02  Score=23.99  Aligned_cols=18  Identities=33%  Similarity=0.562  Sum_probs=13.6  Template_Neff=9.900
+
+Q ss_pred             ecCCCCCHHHHHHHHHHH
+Q tr|A0A2R8Y761|   86 HFATPVDPLFLLLHYLIK  103 (289)
+Q Consensus        86 hfatpvdplflllhylik  103 (289)
+                      ...+|+||+|++......
+T Consensus       255 ~~~s~~DPiF~lHHa~vD  272 (339)
+T 4J3Q_B          255 VYVSPGDTAFWLHHGMID  272 (339)
+T ss_dssp             TTTGGGSTTHHHHHHHHH
+T ss_pred             CCCCCCCchHHHHHHHHH
+Confidence            356899999999776443
+
+

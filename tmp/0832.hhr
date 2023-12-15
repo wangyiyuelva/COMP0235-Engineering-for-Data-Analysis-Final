@@ -1,0 +1,702 @@
+Query         sp|Q8NBV4|PLPP7_HUMAN
+Match_columns 271
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 14:32:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0832.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6EBU_A LpxE; LpxE, lipid A 1-p  99.1 1.6E-08 1.7E-13   71.2  13.7  148  108-262    29-176 (180)
+  2 5JKI_A Putative lipid phosphat  99.0 2.8E-07   3E-12   68.2  16.9  146  107-261    59-216 (222)
+  3 6FMX_A Phosphatidylglycerophos  99.0 2.8E-07   3E-12   68.2  16.9  145  108-261    60-216 (222)
+  4 4PX7_A Phosphatidylglycerophos  98.7 1.6E-05 1.7E-10   61.8  18.9   74  185-258   155-230 (262)
+  5 1D2T_A ACID PHOSPHATASE; ALL A  98.6 1.7E-06 1.8E-11   67.0  11.9   97  157-256   109-210 (231)
+  6 1EOI_B ACID PHOSPHATASE (E.C.3  98.6 1.7E-06 1.8E-11   67.0  11.9   96  157-255   109-209 (231)
+  7 2AKC_C class A nonspecific aci  98.6 3.3E-06 3.6E-11   64.8  13.3   96  157-255    97-197 (230)
+  8 7F17_B phosphorylation, hydrol  98.6 1.5E-06 1.6E-11   65.3  11.1  112  143-257    81-193 (217)
+  9 7F17_C phosphorylation, hydrol  98.6 1.5E-06 1.6E-11   65.3  11.1  112  143-257    81-193 (217)
+ 10 5JWY_A Phosphatidylglycerophos  98.6 1.1E-05 1.2E-10   62.9  14.9   76  184-259   154-231 (259)
+ 11 2IPB_C Class-A bacterial non-s  98.3 8.3E-05   9E-10   57.0  13.9   96  157-255    97-197 (230)
+ 12 4CIT_A VANADIUM-DEPENDENT HALO  97.7 0.00051 5.6E-09   61.3   8.8  115  145-261   314-450 (458)
+ 13 4USZ_A VANADIUM-DEPENDENT HALO  97.7 0.00051 5.6E-09   61.3   8.8  115  145-261   314-450 (458)
+ 14 3BB0_A Vanadium chloroperoxida  96.3   0.018 1.9E-07   56.3   6.5  100  145-246   335-507 (609)
+ 15 1QI9_A VANADIUM BROMOPEROXIDAS  95.9    0.22 2.4E-06   48.8  11.3   73  185-257   410-508 (556)
+ 16 1QI9_B VANADIUM BROMOPEROXIDAS  95.9    0.22 2.4E-06   48.8  11.3   73  185-257   410-508 (556)
+ 17 1VNC_A VANADIUM-CONTAINING CHL  95.3   0.058 6.2E-07   53.3   5.1  100  145-246   335-507 (609)
+ 18 3W36_A NapH1; Chloroperoxidase  94.2     0.4 4.4E-06   45.8   7.6  115  145-260   358-523 (531)
+ 19 3W36_B NapH1; Chloroperoxidase  94.2     0.4 4.4E-06   45.8   7.6  115  145-260   358-523 (531)
+ 20 5AA6_B VANADIUM-DEPENDENT BROM  93.6    0.37 4.1E-06   47.8   6.4   73  185-257   423-538 (597)
+ 21 5AA6_D VANADIUM-DEPENDENT BROM  93.6    0.37 4.1E-06   47.8   6.4   73  185-257   423-538 (597)
+ 22 1UP8_B VANADIUM-DEPENDENT BROM  93.1     5.5 5.9E-05   40.2  13.4   74  184-257   478-575 (598)
+ 23 1QHB_F HALOPEROXIDASE (E.C.1.1  90.9     1.2 1.3E-05   44.6   6.1   76  184-259   476-575 (596)
+ 24 5LPC_A Vanadium-dependent brom  75.9      13 0.00014   38.5   5.9   75  184-258   538-644 (666)
+
+No 1
+>6EBU_A LpxE; LpxE, lipid A 1-phosphatase, UppP; HET: BOG; 2.372A {Aquifex aeolicus (strain VF5)}
+Probab=99.09  E-value=1.6e-08  Score=71.21  Aligned_cols=148  Identities=17%  Similarity=0.255  Sum_probs=110.1  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHHHHHHHhhhhHHHHHHHHHHhCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCHHHHHHhhhh
+Q sp|Q8NBV4|PLPP  108 SARSMVKLIGITGHGIPWIGGTILCLVKSSTLAGQEVLMNLLLALLLDIMTVAGVQKLIKRRGPYETSPSLLDYLTMDIY  187 (271)
+Q Consensus       108 sarsmvkligitghgipwiggtilclvksstlagqevlmnlllallldimtvagvqklikrrgpyetspslldyltmdiy  187 (271)
+                      .++.+...+..++.....+++...++..+++    + ...++.+.+++.++...+|..+++++|..............+.
+T Consensus        29 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~-~~~~~~~~~~~~~~~~~~~~~~~~~~P~~~~~~~~~~~~~~~~  103 (180)
+T 6EBU_A           29 LLDVFFTHFAYLGSGYVLFPLLIFLFIFRKE----K-VKPLILAIMLETVLVISLKTFFNQPRPAILLEDVNLLFPLHWR  103 (180)
+T ss_dssp             HHHHHHHHHGGGGSGGGHHHHHHHHHHHCGG----G-HHHHHHHHHHHHHHHHHHHHHHCCBCHHHHSSSCCCSSCCCBC
+T ss_pred             hHHHHHHHHHHhhcHHhHHHHHHHHHHhccC----c-hHHHHHHHHHHHHHHHHHHHHhCCCCcchhhccCCcccCcccC
+Confidence            4567777778877777777666665656666    5 7778888999999999999999999985321111111223467
+
+
+Q ss_pred             cCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHHhCChh
+Q sp|Q8NBV4|PLPP  188 AFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELVWMPSS  262 (271)
+Q Consensus       188 afpaghasraamvskfflshlvlavplrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlvelvwmpss  262 (271)
+                      +|||+|++...+++.+......  +....+...+...+++++++.+.||++|+++|.++|.+++.+....++...
+T Consensus       104 ~fPS~h~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~i~~~~h~~~dvi~g~~~g~~~~~~~~~~~~~~~  176 (180)
+T 6EBU_A          104 SFPSGDTAMAFTIATVLSHGEK--LHIKAILFLYAFLIGYERIYAGVHFPLDVFVGALIGIICGIISLKYSKGGV  176 (180)
+T ss_dssp             CSSCHHHHHHHHHHHHHHTTCC--HHHHHHHHHHHHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHHC-----
+T ss_pred             CCCCHHHHHHHHHHHHHHccCc--chHHHHHHHHHHHHHHHHHHhhcccHHHHHHHHHHHHHHHHHHHHHHhccc
+Confidence            8999999999999887776654  333337778888899999999999999999999999999999877766543
+
+
+No 2
+>5JKI_A Putative lipid phosphate phosphatase YodM; transmembrane PAP2, phophatidylglycerol phosphate phosphatase; HET: UNL, OLC; 2.25A {Bacillus subtilis (strain 168)}
+Probab=98.98  E-value=2.8e-07  Score=68.23  Aligned_cols=146  Identities=26%  Similarity=0.274  Sum_probs=111.1  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHHHHhhhhHHHHHHH----HHHhCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCHHHHH
+Q sp|Q8NBV4|PLPP  107 ASARSMVKLIGITGHGIPWIGGTIL----CLVKSSTLAGQEVLMNLLLALLLDIMTVAGVQKLIKRRGPYETSPSLLDYL  182 (271)
+Q Consensus       107 asarsmvkligitghgipwiggtil----clvksstlagqevlmnlllallldimtvagvqklikrrgpyetspslldyl  182 (271)
+                      ...+.++..+..++.....+++...    ++.++++    +.....+.+.+++.++..++|..+++++|.....     .
+T Consensus        59 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~lk~~~~~~rP~~~~~-----~  129 (222)
+T 5JKI_A           59 PWLNEVMTGITHLGASSFLLPLIVIIGAGMFFYRKT----WDGLLMLLVFGTDRLLNKVLKEWIERVRPDFAPL-----V  129 (222)
+T ss_dssp             HHHHHHHHHHHGGGCHHHHHHHHHHHHHHHHHHHCC----CHHHHHHHHHHHHHHHHHHHHHHHCCCCCCSSCS-----S
+T ss_pred             HHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHcccc----hHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccc-----c
+Confidence            3456677777777766655544433    2334455    4577888888899999999999999999976332     2
+
+
+Q ss_pred             HhhhhcCCcchhhHHHHHHHHHHHHHHH--------HHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  183 TMDIYAFPAGHASRAAMVSKFFLSHLVL--------AVPLRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLV  254 (271)
+Q Consensus       183 tmdiyafpaghasraamvskfflshlvl--------avplrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlv  254 (271)
+                      +..+.+|||+|++...+++.++.....+        ++....+...+...+++++++.+.|+++|+++|+++|..+..++
+T Consensus       130 ~~~~~~fPS~h~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~srv~~~~h~~sdv~~g~~lg~~~~~~~  209 (222)
+T 5JKI_A          130 HESSFSFPSGHSMNAACVYPVIAYFLVKHLPFLSKHKKMVYIIAGVIAVLVGISRVYLGVHFVTDVLGGFSLGLLLFFLV  209 (222)
+T ss_dssp             CCCSCCSSCHHHHHHHHHHHHHHHHHHHHCGGGTTSHHHHHHHHHHHHHHHHHHHHHTTSSCHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCHHHHHHHHHHHHHHHHHHHhcCcCcchHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHH
+Confidence            3456799999999999998887776532        23445577888889999999999999999999999999999998
+
+
+Q ss_pred             HHHhCCh
+Q sp|Q8NBV4|PLPP  255 ELVWMPS  261 (271)
+Q Consensus       255 elvwmps  261 (271)
+                      ...+++.
+T Consensus       210 ~~~~~~~  216 (222)
+T 5JKI_A          210 KGFDEKI  216 (222)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHHH
+Confidence            7776544
+
+
+No 3
+>6FMX_A Phosphatidylglycerophosphatase B (E.C.3.1.3.27); Serial crystallography, experimental phasing, in; HET: WO4, OLC; 1.79A {Bacillus subtilis (strain 168)}
+Probab=98.98  E-value=2.8e-07  Score=68.23  Aligned_cols=145  Identities=26%  Similarity=0.276  Sum_probs=110.2  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHHHHHHHhhhhHHHHHHH----HHHhCCCcchHHHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCHHHHHH
+Q sp|Q8NBV4|PLPP  108 SARSMVKLIGITGHGIPWIGGTIL----CLVKSSTLAGQEVLMNLLLALLLDIMTVAGVQKLIKRRGPYETSPSLLDYLT  183 (271)
+Q Consensus       108 sarsmvkligitghgipwiggtil----clvksstlagqevlmnlllallldimtvagvqklikrrgpyetspslldylt  183 (271)
+                      ..+.++..+..++.....+++...    ++.++++    +.....+.+.+++.++..++|..+++++|.....     .+
+T Consensus        60 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~lk~~~~~~rP~~~~~-----~~  130 (222)
+T 6FMX_A           60 WLNEVMTGITHLGASSFLLPLIVIIGAGMFFYRKT----WDGLLMLLVFGTDRLLNKVLKEWIERVRPDFAPL-----VH  130 (222)
+T ss_dssp             HHHHHHHHHHHTTCHHHHHHHHHHHHHHHHHHHCC----CHHHHHHHHHHHHHHHHHHHHHHHCCCCCCSSCS-----SC
+T ss_pred             HHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHcccc----hHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccc-----cC
+Confidence            456677777777766555444333    2334455    4577888888899999999999999999976332     23
+
+
+Q ss_pred             hhhhcCCcchhhHHHHHHHHHHHHHHH--------HHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  184 MDIYAFPAGHASRAAMVSKFFLSHLVL--------AVPLRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVE  255 (271)
+Q Consensus       184 mdiyafpaghasraamvskfflshlvl--------avplrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlve  255 (271)
+                      ..+.+|||+|++...+++.++.....+        ++....+...+...+++++++.+.|+++|+++|+++|..+..++.
+T Consensus       131 ~~~~~fPS~h~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~srv~~~~h~~sdv~~g~~lg~~~~~~~~  210 (222)
+T 6FMX_A          131 ESSFSFPSGHSMNAACVYPVIAYFLVKHLPFLSKHKKMVYIIAGVIAVLVGISRVYLGVHFVTDVLGGFSLGLLLFFLVK  210 (222)
+T ss_dssp             CCSCCSSCHHHHHHHHHHHHHHHHHHHHCGGGTTCHHHHHHHHHHHHHHHHHHHHHTTSSCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCHHHHHHHHHHHHHHHHHHHhcCcCcchHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHHH
+Confidence            456799999999999998887776532        234455778888899999999999999999999999999999987
+
+
+Q ss_pred             HHhCCh
+Q sp|Q8NBV4|PLPP  256 LVWMPS  261 (271)
+Q Consensus       256 lvwmps  261 (271)
+                      ..+++.
+T Consensus       211 ~~~~~~  216 (222)
+T 6FMX_A          211 GFDEKI  216 (222)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHH
+Confidence            776544
+
+
+No 4
+>4PX7_A Phosphatidylglycerophosphatase (E.C.3.1.3.27, 3.6.1.27); HELIX, alfa-helix, hydrolase, membrane; HET: LDA, MSE; 3.2A {Escherichia coli}
+Probab=98.70  E-value=1.6e-05  Score=61.76  Aligned_cols=74  Identities=24%  Similarity=0.331  Sum_probs=58.2  Template_Neff=10.400
+
+Q ss_pred             hhhcCCcchhhHHHHHHHHHHHHHHH--HHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHHh
+Q sp|Q8NBV4|PLPP  185 DIYAFPAGHASRAAMVSKFFLSHLVL--AVPLRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELVW  258 (271)
+Q Consensus       185 diyafpaghasraamvskfflshlvl--avplrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlvelvw  258 (271)
+                      ...+|||+|++....++.++..+..+  ++........+...+++++++.+.||++|+++|.++|..+........
+T Consensus       155 ~~~sfPSgH~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~v~~g~H~~~Dvi~G~~~g~~~~~~~~~~~  230 (262)
+T 4PX7_A          155 TGFAFPSGHTMFAASWALLAVGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATLISWALVAVATWLA  230 (262)
+T ss_dssp             CSBCCCCHHHHHHHHHHHHHHHHCCSCSCTHHHHHHHHHHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCChHHHHHHHHHHHHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            44689999999888887765555321  233445677778889999999999999999999999999888876553
+
+
+No 5
+>1D2T_A ACID PHOSPHATASE; ALL ALPHA, HYDROLASE; 1.9A {Escherichia blattae} SCOP: a.111.1.1
+Probab=98.64  E-value=1.7e-06  Score=66.95  Aligned_cols=97  Identities=16%  Similarity=0.139  Sum_probs=70.6  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHccCCCCCCCC-----HHHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  157 MTVAGVQKLIKRRGPYETSPS-----LLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       157 mtvagvqklikrrgpyetsps-----lldyltmdiyafpaghasraamvskfflshlvlavplrvllvlwalcvglsrvm  231 (271)
+                      ++...+|..+.++||+.....     ..........+|||+|++.+.+++.++..+..  .. ......+...++++|++
+T Consensus       109 ~~~~~~k~~~~r~rP~~~~~~~~~~~~~~~~~~~~~sfPSgh~~~~~a~~~~l~~~~~--~~-~~~~~~~a~~~~~sr~~  185 (231)
+T 1D2T_A          109 LATRSAKDHYMRIRPFAFYGVSTCNTTEQDKLSKNGSYPSGHTSIGWATALVLAEINP--QR-QNEILKRGYELGQSRVI  185 (231)
+T ss_dssp             CTTHHHHHHHCCCCHHHHHTCCCSCC--CCCCCSSCCSSCHHHHHHHHHHHHHHHHCG--GG-HHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHhcCCCCchhhCCCccCccccchhccCCCCCCHHHHHHHHHHHHHHHHCH--HH-HHHHHHHHHHHHhccee
+Confidence            778889999999998421000     00001233578999999999999888777654  22 22455566789999999
+
+
+Q ss_pred             cCCccHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVIGYLQFRLVEL  256 (271)
+Q Consensus       232 igrhhvtdvlsgfvigylqfrlvel  256 (271)
+                      .+.|+++|+++|..+|..+...+..
+T Consensus       186 ~g~h~~sDv~~G~~lg~~~~~~~~~  210 (231)
+T 1D2T_A          186 CGYHWQSDVDAARVVGSAVVATLHT  210 (231)
+T ss_dssp             HTSSCHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CCCCcHHHHHHHHHHHHHHHHHHhc
+Confidence            9999999999999999988877644
+
+
+No 6
+>1EOI_B ACID PHOSPHATASE (E.C.3.1.3.2); all-alpha, HYDROLASE; HET: MOO; 2.4A {Escherichia blattae} SCOP: a.111.1.1
+Probab=98.64  E-value=1.7e-06  Score=66.95  Aligned_cols=96  Identities=17%  Similarity=0.147  Sum_probs=71.9  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHccCCCCCCCCHH-----HHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  157 MTVAGVQKLIKRRGPYETSPSLL-----DYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       157 mtvagvqklikrrgpyetspsll-----dyltmdiyafpaghasraamvskfflshlvlavplrvllvlwalcvglsrvm  231 (271)
+                      ++...+|..+.++||+.......     ........+|||+|++.+.+++.++..+..  .. ......+...++++|++
+T Consensus       109 ~~~~~~k~~~~r~rP~~~~~~~~~~~~~~~~~~~~~sfPSgh~~~~~a~~~~l~~~~~--~~-~~~~~~~a~~~~~sr~~  185 (231)
+T 1EOI_B          109 LATRSAKDHYMRIRPFAFYGVSTCNTTEQDKLSKNGSYPSGHTSIGWATALVLAEINP--QR-QNEILKRGYELGQSRVI  185 (231)
+T ss_dssp             CTTHHHHHHHCCCCHCCCCCCCCSCTTSHHHHTTSCCSSCHHHHHHHHHHHHHHHHSG--GG-HHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHhcCCCCchhhCCCccCccccchhccCCCCCCHHHHHHHHHHHHHHHHCH--HH-HHHHHHHHHHHHhccee
+Confidence            77888999999999964321100     111344578999999999999888777654  22 22455566789999999
+
+
+Q ss_pred             cCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVIGYLQFRLVE  255 (271)
+Q Consensus       232 igrhhvtdvlsgfvigylqfrlve  255 (271)
+                      .+.|+++|+++|..+|..+...+.
+T Consensus       186 ~g~h~~sDv~~G~~lg~~~~~~~~  209 (231)
+T 1EOI_B          186 CGYHWQSDVDAARVVGSAVVATLH  209 (231)
+T ss_dssp             HTSSCHHHHHHHHHHHHHHHHHTT
+T ss_pred             CCCCcHHHHHHHHHHHHHHHHHHh
+Confidence            999999999999999998877754
+
+
+No 7
+>2AKC_C class A nonspecific acid phosphatase; Class-A bacterial non-specific acid phosphatase; HET: WO4; 2.3A {Salmonella typhimurium}
+Probab=98.63  E-value=3.3e-06  Score=64.75  Aligned_cols=96  Identities=20%  Similarity=0.245  Sum_probs=70.9  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHccCCCCCCCC---H--HHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  157 MTVAGVQKLIKRRGPYETSPS---L--LDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       157 mtvagvqklikrrgpyetsps---l--ldyltmdiyafpaghasraamvskfflshlvlavplrvllvlwalcvglsrvm  231 (271)
+                      ++...+|..+.++||......   .  .........+|||+|++...+++.++.....  .. ..........++.+|++
+T Consensus        97 ~~~~~~K~~~~~~RP~~~~~~~~~~~~~~~~~~~~~sfPSgh~~~~~~~~~~l~~~~~--~~-~~~~~~~~~~~~~sr~~  173 (230)
+T 2AKC_C           97 YATASAKKYYMRTRPFVLFNHSTCRPEDENTLRKDGSYPSGHTAYSTLLALVLSQARP--ER-AQELARRGWEFGQSRVI  173 (230)
+T ss_dssp             CTTHHHHHHHCCCCHHHHTTCCCSSGGGHHHHTTSCCSSCHHHHHHHHHHHHHHHHCG--GG-HHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHhcCCCcchhcCCCccCCCcccccccCCCCCChHHHHHHHHHHHHHHHCH--HH-HHHHHHHHHHHHHhhhh
+Confidence            578889999999998532100   0  0112334578999999999999888776654  22 22445556889999999
+
+
+Q ss_pred             cCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVIGYLQFRLVE  255 (271)
+Q Consensus       232 igrhhvtdvlsgfvigylqfrlve  255 (271)
+                      .+.|+++|+++|.++|..+.....
+T Consensus       174 ~g~h~~sdv~aG~~~g~~~~~~~~  197 (230)
+T 2AKC_C          174 CGAHWQSDVDAGRYVGAVEFARLQ  197 (230)
+T ss_dssp             HTSSCHHHHHHHHHHHHHHHHHHT
+T ss_pred             ccCCcHHHHHHHHHHHHHHHHHHh
+Confidence            999999999999999998877764
+
+
+No 8
+>7F17_B phosphorylation, hydrolysis, HYDROLASE; HET: MSE; 2.8A {Pseudomonas aeruginosa}
+Probab=98.63  E-value=1.5e-06  Score=65.30  Aligned_cols=112  Identities=16%  Similarity=0.091  Sum_probs=83.2  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCH-HHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  143 EVLMNLLLALLLDIMTVAGVQKLIKRRGPYETSPSL-LDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLW  221 (271)
+Q Consensus       143 evlmnlllallldimtvagvqklikrrgpyetspsl-ldyltmdiyafpaghasraamvskfflshlvlavplrvllvlw  221 (271)
+                      +....++.+...+.++...+|..++++||....... .........+|||+|++...++...+.....  .. ......+
+T Consensus        81 ~~~~~~~~a~~~~~~~~~~~k~~~~~~rP~~~~~~~~~~~~~~~~~s~PS~h~~~~~~~~~~~~~~~~--~~-~~~~~~~  157 (217)
+T 7F17_B           81 LTRSFFNRAQENLVEVLMPAKKHFARPRPYEVTPKVKPVLPPPEGESYPSGHTMDSYFKASLLSMLVP--EH-HDAFFAR  157 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHCTTCCCSSCCCCSCCSSCHHHHHHHHHHHHHHHHCG--GG-HHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCCCCccccCCCcccCCCCCCCCCCCchHHHHHHHHHHHHHHHCc--hh-HHHHHHH
+Confidence            556666777778889999999999998884311100 0001134678999999999988877776654  22 2355667
+
+
+Q ss_pred             HHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  222 ALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       222 alcvglsrvmigrhhvtdvlsgfvigylqfrlvelv  257 (271)
+                      ...+++++++.+.|+++|+++|.++|..++......
+T Consensus       158 ~~~~~~sr~~~g~h~~~dv~~G~~lg~~~~~~~~~~  193 (217)
+T 7F17_B          158 AEEHAQSRVLAGVHFPSDLEGGQTAAAALVASLLAD  193 (217)
+T ss_dssp             HHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHHHhccccCchHHHHHHHHHHHHHHHHHcC
+Confidence            788999999999999999999999999998887543
+
+
+No 9
+>7F17_C phosphorylation, hydrolysis, HYDROLASE; HET: MSE; 2.8A {Pseudomonas aeruginosa}
+Probab=98.63  E-value=1.5e-06  Score=65.30  Aligned_cols=112  Identities=16%  Similarity=0.091  Sum_probs=83.4  Template_Neff=10.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCH-HHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  143 EVLMNLLLALLLDIMTVAGVQKLIKRRGPYETSPSL-LDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLW  221 (271)
+Q Consensus       143 evlmnlllallldimtvagvqklikrrgpyetspsl-ldyltmdiyafpaghasraamvskfflshlvlavplrvllvlw  221 (271)
+                      +....++.+...+.++...+|..++++||....... .........+|||+|++...++...+.....  .. ......+
+T Consensus        81 ~~~~~~~~a~~~~~~~~~~~k~~~~~~rP~~~~~~~~~~~~~~~~~s~PS~h~~~~~~~~~~~~~~~~--~~-~~~~~~~  157 (217)
+T 7F17_C           81 LTRSFFNRAQENLVEVLMPAKKHFARPRPYEVTPKVKPVLPPPEGESYPSGHTMDSYFKASLLSMLVP--EH-HDAFFAR  157 (217)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHCCCCHHHHCTTCCCSSCCCSSCCSSCHHHHHHHHHHHHHHHHCG--GG-HHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHCCCCccccCCCcccCCCCCCCCCCCchHHHHHHHHHHHHHHHCc--hh-HHHHHHH
+Confidence            556666777778889999999999998884311100 0001134678999999999988877776654  22 2355667
+
+
+Q ss_pred             HHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  222 ALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       222 alcvglsrvmigrhhvtdvlsgfvigylqfrlvelv  257 (271)
+                      ...+++++++.+.|+++|+++|.++|..++......
+T Consensus       158 ~~~~~~sr~~~g~h~~~dv~~G~~lg~~~~~~~~~~  193 (217)
+T 7F17_C          158 AEEHAQSRVLAGVHFPSDLEGGQTAAAALVASLLAD  193 (217)
+T ss_dssp             HHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHHS
+T ss_pred             HHHHHHHHHhccccCchHHHHHHHHHHHHHHHHHcC
+Confidence            788999999999999999999999999998887543
+
+
+No 10
+>5JWY_A Phosphatidylglycerophosphatase B (E.C.3.1.3.27, 3.1.3.81, 3.1.3.4; transmembrane helices, protein-lipid complex, enzyme; HET: 46E, MSE; 3.2A {Escherichia coli}
+Probab=98.57  E-value=1.1e-05  Score=62.95  Aligned_cols=76  Identities=24%  Similarity=0.309  Sum_probs=57.0  Template_Neff=10.200
+
+Q ss_pred             hhhhcCCcchhhHHHHHHHHHHHHHHH--HHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHHhC
+Q sp|Q8NBV4|PLPP  184 MDIYAFPAGHASRAAMVSKFFLSHLVL--AVPLRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELVWM  259 (271)
+Q Consensus       184 mdiyafpaghasraamvskfflshlvl--avplrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlvelvwm  259 (271)
+                      ....+|||+|++...++..++..+...  ++........+.+.+++++++.+.||++|+++|.++|..+..+....++
+T Consensus       154 ~~~~sfPSgh~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~sri~~g~H~~~Dv~~G~~~g~~~~~~~~~~~~  231 (259)
+T 5JWY_A          154 ETGFAFPSGHTMFAASWALLAVGLLWPRRRTLTIAILLVWATGVMGSRLLLGMHWPRDLVVATLISWALVAVATWLAQ  231 (259)
+T ss_dssp             HTTSCCCCHHHHHHHHHHHHCCCCCGGGTCHHHHHHHHHHHHHHHHHHHHHTCCCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCCCCCChHHHHHHHHHHHHHHHHHCcchHHHHHHHHHHHHHHHHHHHHHhccccHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            445699999999888777663332211  2334445666788899999999999999999999999999888765543
+
+
+No 11
+>2IPB_C Class-A bacterial non-specific acid phosphatase; 2.23A {Salmonella typhimurium}
+Probab=98.32  E-value=8.3e-05  Score=57.05  Aligned_cols=96  Identities=20%  Similarity=0.240  Sum_probs=71.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHccCCCCCCCC-----HHHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  157 MTVAGVQKLIKRRGPYETSPS-----LLDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVPLRVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       157 mtvagvqklikrrgpyetsps-----lldyltmdiyafpaghasraamvskfflshlvlavplrvllvlwalcvglsrvm  231 (271)
+                      ++...+|..+.++||......     ..........+|||+|++...++..++..+..  .. ......+...++.++++
+T Consensus        97 ~~~~~~k~~~~~~RP~~~~~~~~~~~~~~~~~~~~~s~PSgh~~~~~~~~~~l~~~~~--~~-~~~~~~~~~~~~~srl~  173 (230)
+T 2IPB_C           97 YATASAKKYYMRTRPFVLFNHSTCRPEDENTLRKDGSYPSGHDAYSTLLALVLSQARP--ER-AQELARRGWEFGQSRVI  173 (230)
+T ss_dssp             CTTHHHHHHHCCCCHHHHTTCCCSCGGGHHHHTTSCCSSCHHHHHHHHHHHHHHHHCG--GG-HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCcchhcCCCCCCCCchhhcccCCCCCCHHHHHHHHHHHHHHHHCH--HH-HHHHHHHHHHHHHHHHh
+Confidence            688889999999998432110     00112234678999999999999888777654  21 22445566888999999
+
+
+Q ss_pred             cCCccHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVIGYLQFRLVE  255 (271)
+Q Consensus       232 igrhhvtdvlsgfvigylqfrlve  255 (271)
+                      .+.|+++|+++|.++|..+...+.
+T Consensus       174 ~g~h~~sdv~aG~~lg~~~~~~~~  197 (230)
+T 2IPB_C          174 CGAHWQSDVDAGRYVGAVEFARLQ  197 (230)
+T ss_dssp             HTSSCHHHHHHHHHHHHHHHHHHT
+T ss_pred             ccCCcHHHHHHHHHHHHHHHHHHh
+Confidence            999999999999999998877653
+
+
+No 12
+>4CIT_A VANADIUM-DEPENDENT HALOPEROXIDASE (E.C.1.11.1.-, 1.11.1.8); TRANSFERASE, IODOPEROXIDASE, MARINE BACTERIUM; HET: OCS; 1.8A {ZOBELLIA GALACTANIVORANS}
+Probab=97.67  E-value=0.00051  Score=61.34  Aligned_cols=115  Identities=13%  Similarity=-0.052  Sum_probs=83.9  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCC-----CCCH-HHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHH-----
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYET-----SPSL-LDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVP-----  213 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyet-----spsl-ldyltmdiyafpaghasraamvskfflshlvlavp-----  213 (271)
+                      ...+..++..+.++...+|..+.++||...     .... .+.......+|||+|++...+++.++..++.  ..     
+T Consensus       314 ~~~~~~a~~da~i~~~~~K~~~~~~RP~~~i~~~~~~~~~p~~~~~~~~sfPSGHa~~~~a~a~~l~~~~~--~~~~~~~  391 (458)
+T 4CIT_A          314 YTKASVAMADAFISCWDEKYRSNLIRPETVINQHIDDSWKPVLQTPPFPEYTSGHSVVSGAASVVLTEVFG--DNFSFDD  391 (458)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHHHTCTTCCCSSCCCSSCCSSCHHHHHHHHHHHHHHHHHC--SSCCEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhcCCCChHHHHHhhccCCCccceeCCCCCCCCCHHHHHHHHHHHHHHHHHC--CCccccc
+Confidence            444556666777888899999999999521     0000 0011234578999999999999888877654  21     
+
+
+Q ss_pred             -----------HHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHHhCCh
+Q sp|Q8NBV4|PLPP  214 -----------LRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELVWMPS  261 (271)
+Q Consensus       214 -----------lrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlvelvwmps  261 (271)
+                                 ....+..+...++.+|++.|.||++|+++|..+|..++..+...++..
+T Consensus       392 ~~~~~~g~~~~~~~~~~~~a~~~~~SRi~~G~H~~sDv~~G~~lG~~va~~~~~~~~~~  450 (458)
+T 4CIT_A          392 DTEVPYGLPIRSFKSFKQAADEAAISRMYGGIHYRAAIEVGVKQGRDLGTFVVNKLHML  450 (458)
+T ss_dssp             CTTGGGTCCCEEESCHHHHHHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHHHCCCB
+T ss_pred             CCCCCCCCCceeeCCHHHHHHHHHHhHHhCCcCcHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence                       022466677889999999999999999999999999999887665543
+
+
+No 13
+>4USZ_A VANADIUM-DEPENDENT HALOPEROXIDASE (E.C.1.11.1.8, 1.11.1.-); OXIDOREDUCTASE, MARINE BACTERIUM; 2.0A {ZOBELLIA GALACTANIVORANS}
+Probab=97.67  E-value=0.00051  Score=61.34  Aligned_cols=115  Identities=13%  Similarity=-0.052  Sum_probs=84.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCC-----CCCH-HHHHHhhhhcCCcchhhHHHHHHHHHHHHHHHHHH-----
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYET-----SPSL-LDYLTMDIYAFPAGHASRAAMVSKFFLSHLVLAVP-----  213 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyet-----spsl-ldyltmdiyafpaghasraamvskfflshlvlavp-----  213 (271)
+                      ...+..++..+.++...+|..+.++||...     .... .+.......+|||+|++...+++.++..++.  ..     
+T Consensus       314 ~~~~~~a~~da~i~~~~~K~~~~~~RP~~~i~~~~~~~~~p~~~~~~~~sfPSGHa~~~~a~a~~l~~~~~--~~~~~~~  391 (458)
+T 4USZ_A          314 YTKASVAMADAFISCWDEKYRSNLIRPETVINQHIDDSWKPVLQTPPFPEYTSGHSVVSGAASVVLTEVFG--DNFSFDD  391 (458)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHHHTCTTCCCSSCCCSSCCSSCHHHHHHHHHHHHHHHHHC--TTCCEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhcCCCChHHHHHhhccCCCccceeCCCCCCCCCHHHHHHHHHHHHHHHHHC--CCccccc
+Confidence            444556666777888899999999999521     0000 0011234578999999999999888877664  21     
+
+
+Q ss_pred             -----------HHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHHhCCh
+Q sp|Q8NBV4|PLPP  214 -----------LRVLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELVWMPS  261 (271)
+Q Consensus       214 -----------lrvllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrlvelvwmps  261 (271)
+                                 ....+..+...++.+|++.|.||++|+++|..+|..++..+...++..
+T Consensus       392 ~~~~~~g~~~~~~~~~~~~a~~~~~SRi~~G~H~~sDv~~G~~lG~~va~~~~~~~~~~  450 (458)
+T 4USZ_A          392 DTEVPYGLPIRSFKSFKQAADEAAISRMYGGIHYRAAIEVGVKQGRDLGTFVVNKLHML  450 (458)
+T ss_dssp             CTTGGGTCCCEEESSHHHHHHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHHHCCCB
+T ss_pred             CCCCCCCCCceeeCCHHHHHHHHHHhHHhCCcCcHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence                       022566677889999999999999999999999999999887665543
+
+
+No 14
+>3BB0_A Vanadium chloroperoxidase (E.C.1.11.1.10); Protein phosphate-intermediate complex, phospatase activity; HET: SO4; 1.5A {Curvularia inaequalis}
+Probab=96.34  E-value=0.018  Score=56.28  Aligned_cols=100  Identities=16%  Similarity=0.038  Sum_probs=68.8  Template_Neff=6.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCC----------CCCHHHH-----------HHhhhhcCCcchhhHHHHHHHH
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYET----------SPSLLDY-----------LTMDIYAFPAGHASRAAMVSKF  203 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyet----------spslldy-----------ltmdiyafpaghasraamvskf  203 (271)
+                      ...+..++.-+.++...+|..+.+.||...          ...+...           ......+|||+|++...+++..
+T Consensus       335 ~all~~A~~dA~i~~w~~K~~~~~~RP~~~Ir~~~~~~~~~~~w~p~~~p~~~~~~~~~tp~~psyPSGHat~a~A~a~v  414 (609)
+T 3BB0_A          335 FALVDVACTDAGIFSWKEKWEFEFWRPLSGVRDDGRPDHGDPFWLTLGAPATNTNDIPFKPPFPAYPSGHATFGGAVFQM  414 (609)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHTCCCTTTCCTTCCBCCBCCTTSSSCCBCCSSCCSSCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCcCchhHhhcCCCCCCCCCccccCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHHHH
+Confidence            344445556667778899999999998431          0000000           1234568999999999999888
+
+
+Q ss_pred             HHHHHHHHHH--------------H--------------------------------------HHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  204 FLSHLVLAVP--------------L--------------------------------------RVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       204 flshlvlavp--------------l--------------------------------------rvllvlwalcvglsrvm  231 (271)
+                      +..++.  ..              .                                      ...+..+...++.||+|
+T Consensus       415 L~~~~~--~~~~~~~~~~~~~~~~~~~~s~~~~G~~~~~~~~~~~~~~~~~~~G~~~~~~~r~~~sl~~~a~~~g~SRIy  492 (609)
+T 3BB0_A          415 VRRYYN--GRVGTWKDDEPDNIAIDMMISEELNGVNRDLRQPYDPTAPIEDQPGIVRTRIVRHFDSAWELMFENAISRIF  492 (609)
+T ss_dssp             HHHHHB--TTTBCCCTTSCCCCCEEEEECTTSSSSCEEESSCCCTTSCGGGSCEEECCCCEEEESCHHHHHHHHHHHHHH
+T ss_pred             HHHHhC--CCccCCCCCCCccceeeeeeccccCCcccccCCCCCCCCCCcCCCCCcccceeEeeCCHHHHHHHHHhhccc
+Confidence            877664  21              0                                      01234567789999999
+
+
+Q ss_pred             cCCccHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVI  246 (271)
+Q Consensus       232 igrhhvtdvlsgfvi  246 (271)
+                      .|.||.+|+++|..+
+T Consensus       493 ~GvH~~sDv~aG~~l  507 (609)
+T 3BB0_A          493 LGVHWRFDAAAARDI  507 (609)
+T ss_dssp             TTSSCHHHHSCHHHH
+T ss_pred             CccCcHHhHHHHHHh
+Confidence            999999999987777
+
+
+No 15
+>1QI9_A VANADIUM BROMOPEROXIDASE; BROMOPEROXIDASE, VANADIUM, HALOPEROXIDASE, OXIDOREDUCTASE; HET: VO4; 2.05A {Ascophyllum nodosum} SCOP: a.111.1.2
+Probab=95.89  E-value=0.22  Score=48.79  Aligned_cols=73  Identities=18%  Similarity=0.220  Sum_probs=56.9  Template_Neff=6.700
+
+Q ss_pred             hhhcCCcchhhHHHHHHHHHHHHHH---HH-----------------------HHHHHHHHHHHHHHHHHHHHcCCccHH
+Q sp|Q8NBV4|PLPP  185 DIYAFPAGHASRAAMVSKFFLSHLV---LA-----------------------VPLRVLLVLWALCVGLSRVMIGRHHVT  238 (271)
+Q Consensus       185 diyafpaghasraamvskfflshlv---la-----------------------vplrvllvlwalcvglsrvmigrhhvt  238 (271)
+                      ...+|||+|++.+.+++..+..++.   ..                       ..+...+..++..++++|++.|.||++
+T Consensus       410 ~hpSyPSGHAtvAgA~atvLka~f~~~~~~~~~~~p~~~~~~g~~l~~~~~~~ltv~~eL~kLA~nIa~~R~~aGvHy~S  489 (556)
+T 1QI9_A          410 THPSYPSGHATQNGAFATVLKALIGLDRGGDCYPDPVYPDDDGLKLIDFRGSCLTFEGEINKLAVNVAFGRQMLGIHYRF  489 (556)
+T ss_dssp             SSCCSSCHHHHHHHHHHHHHHHHHCHHHHTSBCSSCEEECTTSSSEEECCSSCCBHHHHHHHHHHHHHHHHHHTTSCCHH
+T ss_pred             CCCCCchHHHHHHHHHHHHHHHHhCcccCCCCCCCCCCCCCCCCcccccCCCcccHHHHHHHHHHHHHHHHHHcCCcchH
+Confidence            3578999999999999877776653   00                       012235667788899999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  239 DVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       239 dvlsgfvigylqfrlvelv  257 (271)
+                      |++.|+.+|..++..+..-
+T Consensus       490 D~~~Gl~LGe~vA~~~l~~  508 (556)
+T 1QI9_A          490 DGIQGLLLGETITVRTLHQ  508 (556)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            9999999999888776543
+
+
+No 16
+>1QI9_B VANADIUM BROMOPEROXIDASE; BROMOPEROXIDASE, VANADIUM, HALOPEROXIDASE, OXIDOREDUCTASE; HET: VO4; 2.05A {Ascophyllum nodosum} SCOP: a.111.1.2
+Probab=95.89  E-value=0.22  Score=48.79  Aligned_cols=73  Identities=18%  Similarity=0.220  Sum_probs=56.9  Template_Neff=6.700
+
+Q ss_pred             hhhcCCcchhhHHHHHHHHHHHHHH---HH-----------------------HHHHHHHHHHHHHHHHHHHHcCCccHH
+Q sp|Q8NBV4|PLPP  185 DIYAFPAGHASRAAMVSKFFLSHLV---LA-----------------------VPLRVLLVLWALCVGLSRVMIGRHHVT  238 (271)
+Q Consensus       185 diyafpaghasraamvskfflshlv---la-----------------------vplrvllvlwalcvglsrvmigrhhvt  238 (271)
+                      ...+|||+|++.+.+++..+..++.   ..                       ..+...+..++..++++|++.|.||++
+T Consensus       410 ~hpSyPSGHAtvAgA~atvLka~f~~~~~~~~~~~p~~~~~~g~~l~~~~~~~ltv~~eL~kLA~nIa~~R~~aGvHy~S  489 (556)
+T 1QI9_B          410 THPSYPSGHATQNGAFATVLKALIGLDRGGDCYPDPVYPDDDGLKLIDFRGSCLTFEGEINKLAVNVAFGRQMLGIHYRF  489 (556)
+T ss_dssp             SSCSSSCHHHHHHHHHHHHHHHHHCHHHHTSBCSSCEEECTTSSSEEECCSSCCBHHHHHHHHHHHHHHHHHHHTSCCHH
+T ss_pred             CCCCCchHHHHHHHHHHHHHHHHhCcccCCCCCCCCCCCCCCCCcccccCCCcccHHHHHHHHHHHHHHHHHHcCCcchH
+Confidence            3578999999999999877776653   00                       012235667788899999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  239 DVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       239 dvlsgfvigylqfrlvelv  257 (271)
+                      |++.|+.+|..++..+..-
+T Consensus       490 D~~~Gl~LGe~vA~~~l~~  508 (556)
+T 1QI9_B          490 DGIQGLLLGETITVRTLHQ  508 (556)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            9999999999888776543
+
+
+No 17
+>1VNC_A VANADIUM-CONTAINING CHLOROPEROXIDASE; VANADIUM-CONTAINING HALOPEROXIDASE, OXIDOREDUCTASE; 2.1A {Curvularia inaequalis} SCOP: a.111.1.3
+Probab=95.27  E-value=0.058  Score=53.25  Aligned_cols=100  Identities=16%  Similarity=0.038  Sum_probs=69.3  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCC----------CCCHHHH-----------HHhhhhcCCcchhhHHHHHHHH
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYET----------SPSLLDY-----------LTMDIYAFPAGHASRAAMVSKF  203 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyet----------spslldy-----------ltmdiyafpaghasraamvskf  203 (271)
+                      ...+..++.-+.++....|..+.+.||...          ...+...           ......+|||+|++...+++..
+T Consensus       335 ~all~~a~~dA~i~~w~~K~~~~~~RP~~~ir~~~~~~~~~~~w~p~~~~~~~~~~~~~tp~~psyPSGHat~~~A~a~v  414 (609)
+T 1VNC_A          335 FALVDVACTDAGIFSWKEKWEFEFWRPLSGVRDDGRPDHGDPFWLTLGAPATNTNDIPFKPPFPAYPSGHATFGGAVFQM  414 (609)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHTCCCTTTCCTTCCBCCBCCTTSSCCCBCCSSCCSSCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCcCchHHHhcCCCCCCCCCCcccCCCCCCCCCCCCCCCCCCCCCcHHHHHHHHHHHH
+Confidence            344445556666778889999999888420          0000000           1234568999999999999888
+
+
+Q ss_pred             HHHHHHHHHH--------------H--------------------------------------HHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  204 FLSHLVLAVP--------------L--------------------------------------RVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       204 flshlvlavp--------------l--------------------------------------rvllvlwalcvglsrvm  231 (271)
+                      +..++.  ..              .                                      ...+..+...++.||++
+T Consensus       415 L~~~~~--~~~~~~~~~~~~~~~~~~~~s~~~~G~~~~~~~~~~~~~~~~~~pG~~~~~~~r~~~sl~~~a~~~g~SRIy  492 (609)
+T 1VNC_A          415 VRRYYN--GRVGTWKDDEPDNIAIDMMISEELNGVNRDLRQPYDPTAPIEDQPGIVRTRIVRHFDSAWELMFENAISRIF  492 (609)
+T ss_dssp             HHHHHB--TTTBCCCTTSCCCCCEEEEECGGGSSSCEEESSCCCTTSCGGGSCEEECCCCEEEESCHHHHHHHHHHHHHH
+T ss_pred             HHHHhC--CCccCCCCCCCccceeeeeecccccCcccccCCCCCCCCCCcCCCCCccccceEeeCCHHHHHHHHHhhccc
+Confidence            877764  21              0                                      01344666789999999
+
+
+Q ss_pred             cCCccHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVI  246 (271)
+Q Consensus       232 igrhhvtdvlsgfvi  246 (271)
+                      .|.||.+|+.+|..+
+T Consensus       493 ~GvH~~sDv~~g~~l  507 (609)
+T 1VNC_A          493 LGVHWRFDAAAARDI  507 (609)
+T ss_dssp             TTSSCHHHHSCHHHH
+T ss_pred             CeeCcHHHHHHHHHh
+Confidence            999999999999988
+
+
+No 18
+>3W36_A NapH1; Chloroperoxidase, OXIDOREDUCTASE; HET: VO4; 1.97A {Streptomyces}
+Probab=94.17  E-value=0.4  Score=45.80  Aligned_cols=115  Identities=16%  Similarity=0.026  Sum_probs=79.7  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCCCC------------------------CH-HHHHHhhhhcCCcchhhHHHH
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYETSP------------------------SL-LDYLTMDIYAFPAGHASRAAM  199 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyetsp------------------------sl-ldyltmdiyafpaghasraam  199 (271)
+                      ...+..++.-+.++....|..+.+.||.....                        .+ .+........|||+|++...+
+T Consensus       358 ~~~~~~a~~da~i~~w~~K~~~~~~RP~taIr~~~~~~~v~aw~gp~~G~~~~~~~~w~p~l~tp~~peYPSGha~~~~A  437 (531)
+T 3W36_A          358 MLAHVLATFEPLIAAWHHKTRFDAVRPVTAIRHVYGNRKIRAWGGVGMGTVDIRASEWSSYLPVGDHPEYPSGSTSLCSA  437 (531)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHHHHTTSEEEEECSTTTCEEEEEGGGCCCSSCCCSSCSSSCHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhhcCCChHHHHHHHhCCCEeeeccCCCCCCccccccccccCCCCCCCCCCCCHHHHHHHH
+Confidence            44445566667778888999999999842100                        00 000123456899999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHH---------------H-----------HHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  200 VSKFFLSHLVLAVPL---------------R-----------VLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRL  253 (271)
+Q Consensus       200 vskfflshlvlavpl---------------r-----------vllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrl  253 (271)
+                      .+..+..++.. ...               .           ..+..+...++.||++.|.||.+|+..|..+|..++..
+T Consensus       438 ~a~~l~~~~g~-~~~~~~~~~~~g~s~~~pG~~p~~~~~~~~~s~~~~a~~~~~SRv~~GvHf~~dv~~G~~lG~~va~~  516 (531)
+T 3W36_A          438 TSQAARRYFDS-DELDWTINYPAGSTVVEPGITPGKDLSIHIPTWTDFTRTCATSRVWGGVHFQTTVDRTIDFGEQFGDL  516 (531)
+T ss_dssp             HHHHHHHHHSC-SEEEEEEEECTTCCSSSTTTSSSSCEEEEEEEHHHHHHHHHHHHHHTTSSCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhCC-CccceEEEeCCCceecCCCCCCCCCceeecCCHHHHHHHHHHhhhhCccCCchhHHHHHHHHHHHHHH
+Confidence            98877766531 000               0           01556777889999999999999999999999999888
+
+
+Q ss_pred             HHHHhCC
+Q sp|Q8NBV4|PLPP  254 VELVWMP  260 (271)
+Q Consensus       254 velvwmp  260 (271)
+                      +...++.
+T Consensus       517 ~~~~~~~  523 (531)
+T 3W36_A          517 AHEFVQR  523 (531)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            8765443
+
+
+No 19
+>3W36_B NapH1; Chloroperoxidase, OXIDOREDUCTASE; HET: VO4; 1.97A {Streptomyces}
+Probab=94.17  E-value=0.4  Score=45.80  Aligned_cols=115  Identities=16%  Similarity=0.026  Sum_probs=79.7  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCCCC------------------------CH-HHHHHhhhhcCCcchhhHHHH
+Q sp|Q8NBV4|PLPP  145 LMNLLLALLLDIMTVAGVQKLIKRRGPYETSP------------------------SL-LDYLTMDIYAFPAGHASRAAM  199 (271)
+Q Consensus       145 lmnlllallldimtvagvqklikrrgpyetsp------------------------sl-ldyltmdiyafpaghasraam  199 (271)
+                      ...+..++.-+.++....|..+.+.||.....                        .+ .+........|||+|++...+
+T Consensus       358 ~~~~~~a~~da~i~~w~~K~~~~~~RP~taIr~~~~~~~v~aw~gp~~G~~~~~~~~w~p~l~tp~~peYPSGha~~~~A  437 (531)
+T 3W36_B          358 MLAHVLATFEPLIAAWHHKTRFDAVRPVTAIRHVYGNRKIRAWGGVGMGTVDIRASEWSSYLPVGDHPEYPSGSTSLCSA  437 (531)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHCBCCHHHHHHHHHTTCEEEEECSTTTCEEEEEGGGCCCSSCCCSSCCSSCHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhhcCCChHHHHHHHhCCCEeeeccCCCCCCccccccccccCCCCCCCCCCCCHHHHHHHH
+Confidence            44445566667778888999999999842100                        00 000123456899999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHH---------------H-----------HHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  200 VSKFFLSHLVLAVPL---------------R-----------VLLVLWALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRL  253 (271)
+Q Consensus       200 vskfflshlvlavpl---------------r-----------vllvlwalcvglsrvmigrhhvtdvlsgfvigylqfrl  253 (271)
+                      .+..+..++.. ...               .           ..+..+...++.||++.|.||.+|+..|..+|..++..
+T Consensus       438 ~a~~l~~~~g~-~~~~~~~~~~~g~s~~~pG~~p~~~~~~~~~s~~~~a~~~~~SRv~~GvHf~~dv~~G~~lG~~va~~  516 (531)
+T 3W36_B          438 TSQAARRYFDS-DELDWTINYPAGSTVVEPGITPGKDLSIHIPTWTDFTRTCATSRVWGGVHFQTTVDRTIDFGEQFGDL  516 (531)
+T ss_dssp             HHHHHHHHHSC-SEEEEEEEECTTCCSSSTTTSSSSCEEEEEEEHHHHHHHHHHHHHHTTSSCHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhCC-CccceEEEeCCCceecCCCCCCCCCceeecCCHHHHHHHHHHhhhhCccCCchhHHHHHHHHHHHHHH
+Confidence            98877766531 000               0           01556777889999999999999999999999999888
+
+
+Q ss_pred             HHHHhCC
+Q sp|Q8NBV4|PLPP  254 VELVWMP  260 (271)
+Q Consensus       254 velvwmp  260 (271)
+                      +...++.
+T Consensus       517 ~~~~~~~  523 (531)
+T 3W36_B          517 AHEFVQR  523 (531)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            8765443
+
+
+No 20
+>5AA6_B VANADIUM-DEPENDENT BROMOPEROXIDASE 2 (E.C.1.11.1.18); OXIDOREDUCTASE, BROWN ALGAE, BROMOPEROXIDASE, VANADIUM-DEPENDANT; HET: VO4; 2.26A {ASCOPHYLLUM NODOSUM}
+Probab=93.56  E-value=0.37  Score=47.76  Aligned_cols=73  Identities=19%  Similarity=0.074  Sum_probs=57.2  Template_Neff=6.600
+
+Q ss_pred             hhhcCCcchhhHHHHHHHHHHHHHH---HH----------------------------------------HHHHHHHHHH
+Q sp|Q8NBV4|PLPP  185 DIYAFPAGHASRAAMVSKFFLSHLV---LA----------------------------------------VPLRVLLVLW  221 (271)
+Q Consensus       185 diyafpaghasraamvskfflshlv---la----------------------------------------vplrvllvlw  221 (271)
+                      ...+|||+|++.+.+++..+..++.   ..                                        ..+...+..+
+T Consensus       423 ~hpSyPSGHAt~AgA~atvLka~f~~~~~~~~~~~~~~~~~~g~~l~~~~g~~~~~~~~~~~~~~~~~~~ltv~~eL~kl  502 (597)
+T 5AA6_B          423 VHPAYPSGHAINLGAYLTVLKAFLGFELGQRCFPSPMISNDAGTDRIPFVPSDGDRVGTCINEDGEEEVGLTYEGELNKV  502 (597)
+T ss_dssp             SSCSSSCHHHHHHHHHHHHHHHHHCHHHHTBBCSSCEEECTTSSCEEECCCCSTTCCCEEECTTSCEEESCBHHHHHHHH
+T ss_pred             CCCCcccHHHHHHHHHHHHHHHHhcccccccCCCCCCccCCCCCceeeccCCCCCccCcccCCCCCcccceehHHHHHHH
+Confidence            4578999999999998877776653   10                                        0112356677
+
+
+Q ss_pred             HHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  222 ALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       222 alcvglsrvmigrhhvtdvlsgfvigylqfrlvelv  257 (271)
+                      +..++++|++.|.||++|++.|+.+|..++..+..-
+T Consensus       503 A~~ia~sR~~aGvH~~SD~~~Gl~LG~~vA~~~l~~  538 (597)
+T 5AA6_B          503 TSNVAIGRSHLGVHWRMDGVFGAEMGEAGAIRRLQQ  538 (597)
+T ss_dssp             HHHHHHHHHHHTSCCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhcccCCCCCcHHHHHHHHHHHHHHHHHHHH
+Confidence            788999999999999999999999999988876544
+
+
+No 21
+>5AA6_D VANADIUM-DEPENDENT BROMOPEROXIDASE 2 (E.C.1.11.1.18); OXIDOREDUCTASE, BROWN ALGAE, BROMOPEROXIDASE, VANADIUM-DEPENDANT; HET: VO4; 2.26A {ASCOPHYLLUM NODOSUM}
+Probab=93.56  E-value=0.37  Score=47.76  Aligned_cols=73  Identities=19%  Similarity=0.074  Sum_probs=57.3  Template_Neff=6.600
+
+Q ss_pred             hhhcCCcchhhHHHHHHHHHHHHHH---HH----------------------------------------HHHHHHHHHH
+Q sp|Q8NBV4|PLPP  185 DIYAFPAGHASRAAMVSKFFLSHLV---LA----------------------------------------VPLRVLLVLW  221 (271)
+Q Consensus       185 diyafpaghasraamvskfflshlv---la----------------------------------------vplrvllvlw  221 (271)
+                      ...+|||+|++.+.+++..+..++.   ..                                        ..+...+..+
+T Consensus       423 ~hpSyPSGHAt~AgA~atvLka~f~~~~~~~~~~~~~~~~~~g~~l~~~~g~~~~~~~~~~~~~~~~~~~ltv~~eL~kl  502 (597)
+T 5AA6_D          423 VHPAYPSGHAINLGAYLTVLKAFLGFELGQRCFPSPMISNDAGTDRIPFVPSDGDRVGTCINEDGEEEVGLTYEGELNKV  502 (597)
+T ss_dssp             SSCSSSCHHHHHHHHHHHHHHHHHCTTGGGBBCSSCEEECTTSSCEEECCCCGGGCCCEEECTTSCEEECCBHHHHHHHH
+T ss_pred             CCCCcccHHHHHHHHHHHHHHHHhcccccccCCCCCCccCCCCCceeeccCCCCCccCcccCCCCCcccceehHHHHHHH
+Confidence            4578999999999998877776653   11                                        0112356677
+
+
+Q ss_pred             HHHHHHHHHHcCCccHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  222 ALCVGLSRVMIGRHHVTDVLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       222 alcvglsrvmigrhhvtdvlsgfvigylqfrlvelv  257 (271)
+                      +..++++|++.|.||++|++.|+.+|..++..+..-
+T Consensus       503 A~~ia~sR~~aGvH~~SD~~~Gl~LG~~vA~~~l~~  538 (597)
+T 5AA6_D          503 TSNVAIGRSHLGVHWRMDGVFGAEMGEAGAIRRLQQ  538 (597)
+T ss_dssp             HHHHHHHHHHTTSCCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHhcccCCCCCcHHHHHHHHHHHHHHHHHHHH
+Confidence            788999999999999999999999999988876544
+
+
+No 22
+>1UP8_B VANADIUM-DEPENDENT BROMOPEROXIDASE 1; HALOPEROXIDASE, VANADATE; HET: PO4; 2.2A {CORALLINA PILULIFERA} SCOP: a.111.1.2
+Probab=93.12  E-value=5.5  Score=40.23  Aligned_cols=74  Identities=16%  Similarity=0.082  Sum_probs=56.2  Template_Neff=6.400
+
+Q ss_pred             hhhhcCCcchhhHHHHHHHHHHHHHHHH-H-----------------------HHHHHHHHHHHHHHHHHHHcCCccHHH
+Q sp|Q8NBV4|PLPP  184 MDIYAFPAGHASRAAMVSKFFLSHLVLA-V-----------------------PLRVLLVLWALCVGLSRVMIGRHHVTD  239 (271)
+Q Consensus       184 mdiyafpaghasraamvskfflshlvla-v-----------------------plrvllvlwalcvglsrvmigrhhvtd  239 (271)
+                      ....+|||+|++.+.+....+..++... .                       .+..-+.-++..++++|++.|.||.+|
+T Consensus       478 P~hPSyPSGHAtvAgA~atvLka~f~~~~~~p~~~~~~~dg~~L~~~g~~~~ltv~~eL~kLA~nia~gR~~aGvHy~SD  557 (598)
+T 1UP8_B          478 PFHPSYGSGHAVVAGACVTILKAFFDSGIEIDQVFEVDKDEDKLVKSSFKGTLTVAGELNKLADNIAIGRNMAGVHYFSD  557 (598)
+T ss_dssp             CSSCSSSCHHHHHHHHHHHHHHHHBTTTCBCSSCEEECSSSSSEEECCCCSCCBHHHHHHHHHHHHHHHHHHHTSCCHHH
+T ss_pred             CCCCcchHHHHHHHHHHHHHHHHHccCCCCccceEEeCCCcccccccCCCCceehHHHHHHHHHHHHHHhHhcCcCChHH
+Confidence            3457899999999999887776655310 0                       002355667788999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  240 VLSGFVIGYLQFRLVELV  257 (271)
+Q Consensus       240 vlsgfvigylqfrlvelv  257 (271)
+                      +..|+.+|-.++..+..-
+T Consensus       558 ~~~Gl~LGe~VA~~vL~~  575 (598)
+T 1UP8_B          558 QFESLLLGEQVAIGILEE  575 (598)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHH
+Confidence            999999998887665433
+
+
+No 23
+>1QHB_F HALOPEROXIDASE (E.C.1.11.1.10); RED ALGA, HALOGENATION, VANADIUM-DEPENDENT, OXIDOREDUCTASE; HET: PO4; 2.3A {Corallina officinalis} SCOP: a.111.1.2
+Probab=90.89  E-value=1.2  Score=44.60  Aligned_cols=76  Identities=17%  Similarity=0.069  Sum_probs=57.3  Template_Neff=6.500
+
+Q ss_pred             hhhhcCCcchhhHHHHHHHHHHHHHHHHHH------------------------HHHHHHHHHHHHHHHHHHcCCccHHH
+Q sp|Q8NBV4|PLPP  184 MDIYAFPAGHASRAAMVSKFFLSHLVLAVP------------------------LRVLLVLWALCVGLSRVMIGRHHVTD  239 (271)
+Q Consensus       184 mdiyafpaghasraamvskfflshlvlavp------------------------lrvllvlwalcvglsrvmigrhhvtd  239 (271)
+                      ....+|||+|+..+.+....+..++.....                        +..-+..++..++.+|++.|.||.+|
+T Consensus       476 P~hPSyPSGHAt~AgA~atvLka~f~~~~~~~~~~~~~~~g~~l~~~~~~~~ltl~~el~~lA~~ia~sRv~aGvHy~sD  555 (596)
+T 1QHB_F          476 PFHPSYGSGHAVVAGACVTILKAFFDANFQIDQVFEVDTDEDKLVKSSFPGPLTVAGELNKLADNVAIGRNMAGVHYFSD  555 (596)
+T ss_dssp             CSSCSSSCHHHHHHHHHHHHHHHHBTTTCEECCCEEECSSSSSEEECSSCCCEEHHHHHHHHHHHHHHHHHHHTSCCHHH
+T ss_pred             CCCCCchHHHHHHHHHHHHHHHHHhhhcCCcceeEeeCCCcCceEecCCCCCccHHHHHHHHHHHHHHHHHhcCCCCHHH
+Confidence            346789999999999888777666531000                        00015567778899999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhC
+Q sp|Q8NBV4|PLPP  240 VLSGFVIGYLQFRLVELVWM  259 (271)
+Q Consensus       240 vlsgfvigylqfrlvelvwm  259 (271)
+                      +..|..+|..++..+.....
+T Consensus       556 ~~~G~~lG~~VA~~vl~~~~  575 (596)
+T 1QHB_F          556 QFESLLLGEQIAIGILEEQS  575 (596)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHG
+T ss_pred             HHHHHHHHHHHHHHHHHHHh
+Confidence            99999999999888765443
+
+
+No 24
+>5LPC_A Vanadium-dependent bromoperoxidase; Vanadium, Enzyme Catalysis, Peroxidase, Halogenation; 3.1A {Acaryochloris marina}
+Probab=75.94  E-value=13  Score=38.45  Aligned_cols=75  Identities=19%  Similarity=0.075  Sum_probs=55.8  Template_Neff=6.100
+
+Q ss_pred             hhhhcCCcchhhHHHHHHHHHHHHHHHHHHH--------------------------------HHHHHHHHHHHHHHHHH
+Q sp|Q8NBV4|PLPP  184 MDIYAFPAGHASRAAMVSKFFLSHLVLAVPL--------------------------------RVLLVLWALCVGLSRVM  231 (271)
+Q Consensus       184 mdiyafpaghasraamvskfflshlvlavpl--------------------------------rvllvlwalcvglsrvm  231 (271)
+                      ....++||+|+..+.+....+..++......                                ..-+--++.-++.+|++
+T Consensus       538 P~hPSYPSGHAtvAgA~atvLka~f~~~~~~~~~~p~~~~~~~~~~~~G~~l~~y~~~~~lTv~geL~klA~nia~sRv~  617 (666)
+T 5LPC_A          538 PMHPSYGAGHATVAGACVTMLKAFFDHGWQLNLGMANGKYISYEPNQDGSSLQQVLLDCPLTVEGELNKIAANISIGRDW  617 (666)
+T ss_dssp             CSSCSSSCHHHHHHHHHHHHHHHHBTTTCEECCCEETTEEEEEEECGGGSSEEEEEESSCEEHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCchHHHHHHHHHHHHHHHHHhccccceeeeecCCCeeeeecCCCCCceeeecCCCCcchHHHHHHHHHHHHHhchh
+Confidence            4467899999999988887776654310000                                00245667788999999
+
+
+Q ss_pred             cCCccHHHHHHHHHHHHHHHHHHHHHh
+Q sp|Q8NBV4|PLPP  232 IGRHHVTDVLSGFVIGYLQFRLVELVW  258 (271)
+Q Consensus       232 igrhhvtdvlsgfvigylqfrlvelvw  258 (271)
+                      .|.||.+|+..|..+|-.++..+..-.
+T Consensus       618 aGVHyrsD~~~Gl~lGe~VA~~vl~~~  644 (666)
+T 5LPC_A          618 AGVHYFTDYIESLRLGEKIAIGILEEQ  644 (666)
+T ss_dssp             HTSCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            999999999999999999888775443
+
+

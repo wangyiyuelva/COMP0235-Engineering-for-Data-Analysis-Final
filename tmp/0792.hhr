@@ -1,0 +1,170 @@
+Query         tr|H7C246|H7C246_HUMAN
+Match_columns 74
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:50:10 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0792.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5B64_B DLG GK, Protein Kif13b;  37.0 1.1E+02  0.0012   18.1   2.9   34   13-46     83-124 (126)
+  2 6THL_B Rtt106p, Box C/D snoRNA  23.4      59 0.00065   22.1   0.2   38   20-61      5-50  (185)
+  3 4EIB_B Glucoamylase; BETA BARR  18.9 1.1E+02  0.0011   19.0   0.6   11   37-47      2-12  (109)
+  4 2LEP_A Rhomboid protease glpG   18.8 3.2E+02  0.0035   15.1   2.9   23   16-38     11-33  (69)
+  5 6NZ2_A snoRNP assembly, RNA bi  18.2      86 0.00094   21.4   0.1   22   35-60     31-52  (188)
+  6 2HFV_A NESG, GFT-NMR, alpha+be  17.8 4.1E+02  0.0044   15.9   3.0   24   16-39     33-56  (97)
+  7 5B52_A Transcriptional regulat  16.8 2.1E+02  0.0023   17.9   1.5   18   12-29     34-51  (69)
+  8 5B52_B Transcriptional regulat  16.8 2.1E+02  0.0023   17.9   1.5   18   12-29     34-51  (69)
+  9 2MRW_A Cell division factor; F  16.6 2.5E+02  0.0028   16.4   1.8   19   48-66     11-29  (40)
+ 10 4YDY_J DARPIN 44C12V5, INTERLE  15.9 2.6E+02  0.0028   20.4   2.1   17   13-29    112-129 (130)
+
+No 1
+>5B64_B DLG GK, Protein Kif13b; MAGUK, GK, KIF13B, MBS, Kinesin; HET: SO4, GOL; 2.7A {Rattus}
+Probab=37.02  E-value=1.1e+02  Score=18.11  Aligned_cols=34  Identities=24%  Similarity=0.497  Sum_probs=19.2  Template_Neff=10.000
+
+Q ss_pred             hhhHHHHHHHHHHhhc---Ccee-----eecCCCCCCCCCCc
+Q tr|H7C246|H7C2   13 YFTNELKQMQDKYSKS---GIAC-----FLKEDDSYWDPNDE   46 (74)
+Q Consensus        13 yftnelkqmqdkysks---giac-----flkeddsywdpnde   46 (74)
+                      -|.+.|..|++.|..-   +-+.     ...++|.+|||-+.
+T Consensus        83 kf~~Rl~~mr~~y~~~~e~~~~~~~~~~~~~~~dpf~d~~e~  124 (126)
+T 5B64_B           83 KLENRLLDMRDLYQEWKECEEDSPVSRSYFKRADPFYDEQEN  124 (126)
+T ss_dssp             HHHHHHHHHHHHHHHHHHCCCCSHHHHHHHHHCCTTCCCCC-
+T ss_pred             HHHHHHHHHHHHHHHHHhcCCCCCccchhccCCCCCCCCCCC
+Confidence            4556677777777652   2221     12347888887664
+
+
+No 2
+>6THL_B Rtt106p, Box C/D snoRNA protein; Chaperone, SnoRNP; 2.8A {Saccharomyces cerevisiae}
+Probab=23.37  E-value=59  Score=22.05  Aligned_cols=38  Identities=26%  Similarity=0.712  Sum_probs=19.4  Template_Neff=8.400
+
+Q ss_pred             HHHHHHhhcCceeee--------cCCCCCCCCCCccccCChhHHHHHHHH
+Q tr|H7C246|H7C2   20 QMQDKYSKSGIACFL--------KEDDSYWDPNDEESMNSPCWQVKWQLR   61 (74)
+Q Consensus        20 qmqdkysksgiacfl--------keddsywdpndeesmnspcwqvkwqlr   61 (74)
+                      |+.....+.||...+        +++.|+||..    .+.-.|.|.|.+.
+T Consensus         5 ~l~~~~~~rgI~l~~lP~gm~R~k~N~S~~~~k----~~~i~WtVEw~f~   50 (185)
+T 6THL_B            5 TECQRIIRRGVNCLMLPKGMQRSSQNRSKWDKT----MDLFVWSVEWILC   50 (185)
+T ss_dssp             -----CEETTEEEECCCTTSHHHHHCCCEEETT----TTEEEEEEEEEEC
+T ss_pred             HHHHHHHHcCCEEEECCCCCchhhCCCCeeeCC----CCEEEEEEEEEec
+Confidence            444455556665543        3456777653    3455677777653
+
+
+No 3
+>4EIB_B Glucoamylase; BETA BARREL, Starch Binding, Amylose; HET: NA, CL, SO4; 1.86A {Rhizopus oryzae}
+Probab=18.93  E-value=1.1e+02  Score=18.96  Aligned_cols=11  Identities=27%  Similarity=0.727  Sum_probs=8.2  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCcc
+Q tr|H7C246|H7C2   37 DDSYWDPNDEE   47 (74)
+Q Consensus        37 ddsywdpndee   47 (74)
+                      ...|||.|...
+T Consensus         2 g~~ywDnn~g~   12 (109)
+T 4EIB_B            2 GKTYYDNNNSA   12 (109)
+T ss_dssp             CCSCCCCTTTT
+T ss_pred             CceEeeCCCCc
+Confidence            46799998753
+
+
+No 4
+>2LEP_A Rhomboid protease glpG 1 (E.C.3.4.21.105); Cell Membrane, Cytosol, Membrane Protein; NMR {Escherichia coli}
+Probab=18.76  E-value=3.2e+02  Score=15.11  Aligned_cols=23  Identities=9%  Similarity=0.236  Sum_probs=17.3  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHhhcCceeeecCCC
+Q tr|H7C246|H7C2   16 NELKQMQDKYSKSGIACFLKEDD   38 (74)
+Q Consensus        16 nelkqmqdkysksgiacflkedd   38 (74)
+                      .++....+-....||.|.+.+++
+T Consensus        11 ~~a~~~~~~L~~~gI~~~i~~~~   33 (69)
+T 2LEP_A           11 RVAQAFVDYMATQGVILTIQQHN   33 (69)
+T ss_dssp             HHHHHHHHHHHHTTCCEEEECSS
+T ss_pred             HHHHHHHHHHHHCCCcEEEEeCC
+Confidence            34556667778899999998764
+
+
+No 5
+>6NZ2_A snoRNP assembly, RNA binding, RNA; NMR {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=18.19  E-value=86  Score=21.35  Aligned_cols=22  Identities=36%  Similarity=0.886  Sum_probs=13.3  Template_Neff=8.400
+
+Q ss_pred             cCCCCCCCCCCccccCChhHHHHHHH
+Q tr|H7C246|H7C2   35 KEDDSYWDPNDEESMNSPCWQVKWQL   60 (74)
+Q Consensus        35 keddsywdpndeesmnspcwqvkwql   60 (74)
+                      +++.|+||..    .+.-.|.|.|.+
+T Consensus        31 k~N~S~~~~k----~~~i~WtVEw~f   52 (188)
+T 6NZ2_A           31 SQNRSKWDKT----MDLFVWSVEWIL   52 (188)
+T ss_dssp             HSCCCEEETT----TTEEEEEEEEEE
+T ss_pred             hcCCCeeecC----CCEEEEEEEEEe
+Confidence            4566777643    345567776655
+
+
+No 6
+>2HFV_A NESG, GFT-NMR, alpha+beta, Structural Genomics; NMR {Pseudomonas aeruginosa} SCOP: d.58.5.5
+Probab=17.80  E-value=4.1e+02  Score=15.93  Aligned_cols=24  Identities=8%  Similarity=0.100  Sum_probs=19.4  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHhhcCceeeecCCCC
+Q tr|H7C246|H7C2   16 NELKQMQDKYSKSGIACFLKEDDS   39 (74)
+Q Consensus        16 nelkqmqdkysksgiacflkedds   39 (74)
+                      .+...++......||.|+++.+..
+T Consensus        33 ~ea~~i~~~Le~~gI~~~i~~~~~   56 (97)
+T 2HFV_A           33 VLLSAVGALLDGADIGHLVLDQNM   56 (97)
+T ss_dssp             HHHHHHHHHHHHTTCCEECCSCCC
+T ss_pred             HHHHHHHHHHHHCCCcEEEeCCCC
+Confidence            456677888889999999998753
+
+
+No 7
+>5B52_A Transcriptional regulator MvaT, P16 subunit; transcriptional regulator, nucleoid associated protein; 2.3A {Pseudomonas putida (strain KT2440)}
+Probab=16.79  E-value=2.1e+02  Score=17.89  Aligned_cols=18  Identities=28%  Similarity=0.412  Sum_probs=15.1  Template_Neff=6.300
+
+Q ss_pred             hhhhHHHHHHHHHHhhcC
+Q tr|H7C246|H7C2   12 VYFTNELKQMQDKYSKSG   29 (74)
+Q Consensus        12 vyftnelkqmqdkysksg   29 (74)
+                      +-|.++|+.+-++|++|-
+T Consensus        34 leF~~kL~~Lm~eYg~s~   51 (69)
+T 5B52_A           34 IEFEQKLVGLMKSYDKSL   51 (69)
+T ss_dssp             HHHHHHHHHHHHHTTCCH
+T ss_pred             HHHHHHHHHHHHHhCCCH
+Confidence            458899999999998874
+
+
+No 8
+>5B52_B Transcriptional regulator MvaT, P16 subunit; transcriptional regulator, nucleoid associated protein; 2.3A {Pseudomonas putida (strain KT2440)}
+Probab=16.79  E-value=2.1e+02  Score=17.89  Aligned_cols=18  Identities=28%  Similarity=0.412  Sum_probs=15.2  Template_Neff=6.300
+
+Q ss_pred             hhhhHHHHHHHHHHhhcC
+Q tr|H7C246|H7C2   12 VYFTNELKQMQDKYSKSG   29 (74)
+Q Consensus        12 vyftnelkqmqdkysksg   29 (74)
+                      +-|.++|+.+-++|++|-
+T Consensus        34 leF~~kL~~Lm~eYg~s~   51 (69)
+T 5B52_B           34 IEFEQKLVGLMKSYDKSL   51 (69)
+T ss_dssp             HHHHHHHHHHHHHHTCCH
+T ss_pred             HHHHHHHHHHHHHhCCCH
+Confidence            458899999999998874
+
+
+No 9
+>2MRW_A Cell division factor; FtsZ, CELL CYCLE; NMR {N/A}
+Probab=16.60  E-value=2.5e+02  Score=16.39  Aligned_cols=19  Identities=16%  Similarity=0.517  Sum_probs=14.4  Template_Neff=5.300
+
+Q ss_pred             ccCChhHHHHHHHHHHHhc
+Q tr|H7C246|H7C2   48 SMNSPCWQVKWQLRQLVRK   66 (74)
+Q Consensus        48 smnspcwqvkwqlrqlvrk   66 (74)
+                      -+..-.|+++-.||++.+.
+T Consensus        11 ~lvGKawEIr~~Lk~~~~~   29 (40)
+T 2MRW_A           11 VLVGKAWEIRAKLKEYGRT   29 (40)
+T ss_dssp             CCCSSHHHHHHHHHHHSCC
+T ss_pred             EEeecHHHHHHHHHHHHhh
+Confidence            3556789999999988653
+
+
+No 10
+>4YDY_J DARPIN 44C12V5, INTERLEUKINE-4; ALTERNATIVE SCAFFOLD, CYTOKINE-DE NOVO PROTEIN; HET: GOL; 2.0A {synthetic construct}
+Probab=15.95  E-value=2.6e+02  Score=20.40  Aligned_cols=17  Identities=47%  Similarity=0.749  Sum_probs=10.3  Template_Neff=4.800
+
+Q ss_pred             hhhHHHHH-HHHHHhhcC
+Q tr|H7C246|H7C2   13 YFTNELKQ-MQDKYSKSG   29 (74)
+Q Consensus        13 yftnelkq-mqdkysksg   29 (74)
+                      -|-..||. ||.+|++.|
+T Consensus       112 dFLe~Lk~imQ~kysk~~  129 (130)
+T 4YDY_J          112 NFLERLKTIMREKYSKCS  129 (130)
+T ss_dssp             HHHHHHHHHHHHHHHC--
+T ss_pred             HHHHHHHHHHHHHHHhhc
+Confidence            35555554 789999876
+
+

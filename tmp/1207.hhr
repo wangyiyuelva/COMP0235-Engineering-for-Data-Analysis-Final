@@ -1,0 +1,179 @@
+Query         tr|A0A7I2V3G6|A0A7I2V3G6_HUMAN
+Match_columns 436
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 00:25:42 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1207.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6U0T_A Tubulin alpha chain, Tu  83.3     9.2  0.0001   33.1   6.5   49  225-273    16-67  (142)
+  2 6U0U_A Tubulin alpha chain, Tu  74.7      15 0.00017   35.4   5.7   47  227-273    54-103 (280)
+  3 7RRO_P cilia, microtubule, dyn  71.6      18 0.00019   35.9   5.6   49  225-273   130-181 (377)
+  4 7RRO_R cilia, microtubule, dyn  71.6      18 0.00019   35.9   5.6   49  225-273   130-181 (377)
+  5 6U42_4R Tubulin beta, Tubulin   68.1      32 0.00035   34.1   6.4   47  227-273   122-171 (367)
+  6 6U42_4T Tubulin beta, Tubulin   68.1      32 0.00035   34.1   6.4   47  227-273   122-171 (367)
+  7 6WUD_B EF-hand, Mechanotransdu  32.7 2.9E+02  0.0031   19.5   4.9   37  231-267    15-51  (55)
+  8 7DH5_A GPCR, MEMBRANE PROTEIN;  24.3 3.3E+02  0.0036   20.7   4.2   45  244-288     7-51  (249)
+  9 6QLE_P Inner kinetochore subun  23.6 5.4E+02  0.0059   26.5   6.7   24  320-343   130-153 (369)
+ 10 6QLF_P Inner kinetochore subun  23.6 5.4E+02  0.0059   26.5   6.7   30  235-264    46-80  (369)
+ 11 7ABF_A4 Protein BUD31 homolog,  20.3 1.8E+03   0.019   26.5  10.4    8  427-434   409-416 (1077)
+
+No 1
+>6U0T_A Tubulin alpha chain, Tubulin beta; cilia, doublet, axoneme, microtubule inner; HET: GTP, GDP;{Tetrahymena thermophila}
+Probab=83.27  E-value=9.2  Score=33.09  Aligned_cols=49  Identities=24%  Similarity=0.239  Sum_probs=36.4  Template_Neff=7.300
+
+Q ss_pred             CCCCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  225 QDTCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       225 qdtcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      .+.|+|-++-.|.|||...-.|.+   +..|.-|++||.|.+..+..++..+
+T Consensus        16 ~~~~g~SslQ~F~GEDl~~~eR~k~Q~~Q~r~Wl~qQ~~Ek~~~~~~e~~~~   67 (142)
+T 6U0T_A           16 SDINGCSGAKEFEGEDLAYDARIKYQKETQKQWIEQQIREKKMREEAERNEE   67 (142)
+T ss_pred             CCCCCcccCCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            357888888999999986655443   5567788899999888776666443
+
+
+No 2
+>6U0U_A Tubulin alpha chain, Tubulin beta; cilia, doublet, axoneme, microtubule inner; HET: GTP, GDP;{Tetrahymena thermophila}
+Probab=74.66  E-value=15  Score=35.38  Aligned_cols=47  Identities=26%  Similarity=0.316  Sum_probs=36.7  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  227 TCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       227 tcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      .|+|-++..|.|||...-.|++   +..|.-|.+||+|.+..+..++..+
+T Consensus        54 ~~g~Ss~Q~F~GEDl~~~eR~k~Q~eQ~r~Wl~qQ~~Ek~~~~~~e~~~e  103 (280)
+T 6U0U_A           54 RCGISSLKCLDGEDLNQGNRRRLQQLQQRDWIEQQIREKEERKRQEDEEK  103 (280)
+T ss_pred             ccccccccccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            7999999999999998655554   4456778899999888777776544
+
+
+No 3
+>7RRO_P cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=71.64  E-value=18  Score=35.93  Aligned_cols=49  Identities=29%  Similarity=0.216  Sum_probs=37.0  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  225 QDTCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       225 qdtcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      ...|+|-++-.|.|||...-.|++   +..|.-|..||+|.+..+..++..+
+T Consensus       130 d~~~g~Ss~q~F~GED~~~~~R~~~Q~eQ~r~Wl~qQ~~Ek~~~~~~e~~~~  181 (377)
+T 7RRO_P          130 DARNTISGMQKFMGEDLNFHLRKKFQEEQNREWSLQQQKEQMIGRENQKCAE  181 (377)
+T ss_pred             ccccccccccccccCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            346888888899999988766655   4567778899999888777666443
+
+
+No 4
+>7RRO_R cilia, microtubule, dynein, motility, STRUCTURAL; HET: GTP, MG, GDP; 3.4A {Bos taurus}
+Probab=71.64  E-value=18  Score=35.93  Aligned_cols=49  Identities=29%  Similarity=0.216  Sum_probs=37.0  Template_Neff=7.400
+
+Q ss_pred             CCCCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  225 QDTCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       225 qdtcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      ...|+|-++-.|.|||...-.|++   +..|.-|..||+|.+..+..++..+
+T Consensus       130 d~~~g~Ss~q~F~GED~~~~~R~~~Q~eQ~r~Wl~qQ~~Ek~~~~~~e~~~~  181 (377)
+T 7RRO_R          130 DARNTISGMQKFMGEDLNFHLRKKFQEEQNREWSLQQQKEQMIGRENQKCAE  181 (377)
+T ss_pred             ccccccccccccccCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            346888888899999988766655   4567778899999888777666443
+
+
+No 5
+>6U42_4R Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=68.08  E-value=32  Score=34.07  Aligned_cols=47  Identities=30%  Similarity=0.230  Sum_probs=36.1  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  227 TCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       227 tcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      .|+|-++..|.|||...-.|++   +..|.-|.+||.|.+..+..++..+
+T Consensus       122 ~~g~Ss~Q~F~GEDl~~~~R~k~Q~eQ~r~Wl~qQ~~Ek~~~~~~e~~~~  171 (367)
+T 6U42_4R         122 RLGPSSLQKFDGEDLTAGDRKKAQIEQSVNWWAEQTAIRDALRAAEKEAE  171 (367)
+T ss_pred             CCCcccccccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4899999999999998766554   4456678889998888777766444
+
+
+No 6
+>6U42_4T Tubulin beta, Tubulin alpha, PACRG; motile cilia, microtubule doublet, repetitive; HET: GTP, MG, GDP; 3.4A {Chlamydomonas reinhardtii}
+Probab=68.08  E-value=32  Score=34.07  Aligned_cols=47  Identities=30%  Similarity=0.230  Sum_probs=36.1  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCHHHHHHHH---HHHHHHHHHHHHHHHHHHHhhhhhh
+Q tr|A0A7I2V3G6|  227 TCSPFAGMLFGGEDRELIQRRK---EKYRLELLEQMAEQQRNKRREKDLE  273 (436)
+Q Consensus       227 tcspfagmlfggedreliqrrk---ekyrlelleqmaeqqrnkrrekdle  273 (436)
+                      .|+|-++..|.|||...-.|++   +..|.-|.+||.|.+..+..++..+
+T Consensus       122 ~~g~Ss~Q~F~GEDl~~~~R~k~Q~eQ~r~Wl~qQ~~Ek~~~~~~e~~~~  171 (367)
+T 6U42_4T         122 RLGPSSLQKFDGEDLTAGDRKKAQIEQSVNWWAEQTAIRDALRAAEKEAE  171 (367)
+T ss_pred             CCCcccccccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4899999999999998766554   4456678889998888777766444
+
+
+No 7
+>6WUD_B EF-hand, Mechanotransduction, hearing, METAL BINDING; 1.84A {Homo sapiens}
+Probab=32.70  E-value=2.9e+02  Score=19.55  Aligned_cols=37  Identities=11%  Similarity=0.145  Sum_probs=23.6  Template_Neff=8.600
+
+Q ss_pred             CCCCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A7I2V3G6|  231 FAGMLFGGEDRELIQRRKEKYRLELLEQMAEQQRNKR  267 (436)
+Q Consensus       231 fagmlfggedreliqrrkekyrlelleqmaeqqrnkr  267 (436)
+                      |++.-|.-.+++....++.....++-+.+.++...++
+T Consensus        15 f~~WD~~i~~~~~a~~k~~~i~~~~k~~L~e~~~~~~   51 (55)
+T 6WUD_B           15 FCSWDYLIGNPETADNKFNSITMNFKEAIIEERAAQV   51 (55)
+T ss_dssp             HSCSCTTCCCHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             hhcccccCCChHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4455555556666666677777777788877665544
+
+
+No 8
+>7DH5_A GPCR, MEMBRANE PROTEIN; HET: H6U; 3.16A {Homo sapiens}
+Probab=24.32  E-value=3.3e+02  Score=20.66  Aligned_cols=45  Identities=24%  Similarity=0.258  Sum_probs=29.3  Template_Neff=13.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhhccCCCCCCCCCCC
+Q tr|A0A7I2V3G6|  244 IQRRKEKYRLELLEQMAEQQRNKRREKDLELRVAASGAQDPEKSP  288 (436)
+Q Consensus       244 iqrrkekyrlelleqmaeqqrnkrrekdlelrvaasgaqdpeksp  288 (436)
+                      .+++.++-+.++++...++.+..++...-.+++...|...-.|+.
+T Consensus         7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~G~~~~gks~   51 (249)
+T 7DH5_A            7 DQRNEEKAQREANKKIEKQLQKDKQVYRATHRLLLLGADNSGKST   51 (249)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHSEEEEEEECCTTTCGGG
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhHHhhhcceEEEEECCCCCChhH
+Confidence            445556666666666666666666667777788888877666653
+
+
+No 9
+>6QLE_P Inner kinetochore subunit IML3, Inner; inner kinetochore, CCAN, complex, DNA; 3.55A {Saccharomyces cerevisiae}
+Probab=23.58  E-value=5.4e+02  Score=26.49  Aligned_cols=24  Identities=21%  Similarity=0.253  Sum_probs=12.7  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A7I2V3G6|  320 PLSAPSVPPIPSVHPVPSQNEDLR  343 (436)
+Q Consensus       320 plsapsvppipsvhpvpsqnedlr  343 (436)
+                      |.++...++.-..+++||-|-++|
+T Consensus       130 p~s~l~~~l~~~~~~LPs~n~~~R  153 (369)
+T 6QLE_P          130 GLTNLQKELVTKYDTLPLLNMNLR  153 (369)
+T ss_dssp             SSCCHHHHHHTCCSCSBCCCHHHH
+T ss_pred             CCchhHHHHHhcCCCCCCCChhhh
+Confidence            334434444455566777665554
+
+
+No 10
+>6QLF_P Inner kinetochore subunit IML3, Inner; inner kinetochore, CCAN, DNA BINDING; 3.45A {Saccharomyces cerevisiae}
+Probab=23.58  E-value=5.4e+02  Score=26.49  Aligned_cols=30  Identities=23%  Similarity=0.379  Sum_probs=14.8  Template_Neff=6.900
+
+Q ss_pred             CCCCCCHHHHHHHHHHHHH-----HHHHHHHHHHH
+Q tr|A0A7I2V3G6|  235 LFGGEDRELIQRRKEKYRL-----ELLEQMAEQQR  264 (436)
+Q Consensus       235 lfggedreliqrrkekyrl-----elleqmaeqqr  264 (436)
+                      +...++.+++.+.+||-+|     +|++|..+-++
+T Consensus        46 ~~~~~q~~~~~l~~eK~~Ll~er~~L~~eV~~~~~   80 (369)
+T 6QLF_P           46 LLDDDQVRALKLQEEKDALLTRRNTLLQEIQTYQN   80 (369)
+T ss_dssp             SCCE-EH----HHCHHHHTTTCHHHCHHHHHHH--
+T ss_pred             hcCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            4567778888877777654     56666655443
+
+
+No 11
+>7ABF_A4 Protein BUD31 homolog, Pre-mRNA-splicing factor; Complex, spliceosome, catalytic activation, splicing; HET: GTP, IHP; 3.9A {Homo sapiens}
+Probab=20.28  E-value=1.8e+03  Score=26.49  Aligned_cols=8  Identities=13%  Similarity=0.576  Sum_probs=5.5  Template_Neff=6.900
+
+Q ss_pred             CCCCCccc
+Q tr|A0A7I2V3G6|  427 PCHPGWST  434 (436)
+Q Consensus       427 pchpgwst  434 (436)
+                      .+.++|+.
+T Consensus       409 ~~~~~W~e  416 (1077)
+T 7ABF_A4         409 TAVSEWTE  416 (1077)
+T ss_pred             cccCccEE
+Confidence            36788974
+
+

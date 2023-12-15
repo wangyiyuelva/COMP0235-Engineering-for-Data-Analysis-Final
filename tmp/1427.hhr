@@ -1,0 +1,229 @@
+Query         tr|A0A2U3TZM5|A0A2U3TZM5_HUMAN
+Match_columns 177
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:40:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1427.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6OB7_A Equilibrative nucleosid  99.9 3.7E-23   4E-28  164.2  17.3  173    1-173     2-174 (442)
+  2 7BC6_A transporter folate prot  65.7      95   0.001   23.8  12.1   53   77-129    90-142 (480)
+  3 4P6V_D NqrA, NqrB, NqrC, NqrD,  62.1 1.2E+02  0.0013   23.9   9.3   33   89-121    49-81  (210)
+  4 6IU3_A VIT1; membrane protein,  47.9 2.1E+02  0.0023   22.4  11.1   21   19-39     45-65  (234)
+  5 6IU4_A VIT1; membrane protein,  47.9 2.1E+02  0.0023   22.4  11.1   20   20-39     46-65  (234)
+  6 4UVM_A GLUTATHIONE UPTAKE TRAN  34.2 3.6E+02  0.0039   21.0  14.1   79   82-167    57-136 (524)
+  7 6S3Q_A Excitatory amino acid t  22.6 5.6E+02  0.0061   23.2   5.8   21   76-97     55-75  (487)
+  8 4P6V_E NqrA, NqrB, NqrC, NqrD,  22.3 6.3E+02  0.0068   19.9   7.2    6   97-102    58-63  (198)
+  9 6VK0_D U1 SNP1-associating pro  22.2   2E+02  0.0022   26.6   3.2   24   13-36     52-75  (339)
+ 10 6JKD_A Proton:oligopeptide sym  22.0 6.2E+02  0.0067   19.7  13.6   76   83-165    52-128 (527)
+ 11 5DWY_B Proton/glutamate sympor  20.5 7.4E+02   0.008   21.9   6.0   13   88-100    59-71  (438)
+
+No 1
+>6OB7_A Equilibrative nucleoside transporter 1; nucleoside transport, adenosine transport, nucleoside-drug; HET: 8DZ, OLC; 2.3A {Homo sapiens}
+Probab=99.92  E-value=3.7e-23  Score=164.22  Aligned_cols=173  Identities=99%  Similarity=1.419  Sum_probs=134.1  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCCChhhhHHHHHHHHHHhhhchHHHHHHHHHHHHhcCCccccchhhhhccCCCCCCCCCCCCCCCCCCcHHHHH
+Q tr|A0A2U3TZM5|    1 MTTSHQPQDRYKAVWLIFFMLGLGTLLPWNFFMTATQYFTNRLDMSQNVSLVTAELSKDAQASAAPAAPLPERNSLSAIF   80 (177)
+Q Consensus         1 mttshqpqdrykavwliffmlglgtllpwnffmtatqyftnrldmsqnvslvtaelskdaqasaapaaplpernslsaif   80 (177)
+                      |++++++|||++++|++|+++|+++++|||+++++.+||.+++++++..|+++|+++||+|++++|++|+|+++.+++++
+T Consensus         2 ~~~~~~~~~~~~~~~~~f~l~G~~~~~~~~~~~~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~   81 (442)
+T 6OB7_A            2 ATTSHQPQDRYKAVWLIFFMLGLGTLLPWNFFMTATQYFTNRLDMSQNVSLVTAELSKDAQASAAPAAPLPERNSLSAIF   81 (442)
+T ss_dssp             ------CCCGGGHHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHTTCC-------------------------CCSHHHH
+T ss_pred             CCCCCCCCchhHHHHHHHHHHHHHHHchHHHHcChHHHHHHhhcCCCccchhhHHhhhchhhccCCCCCCCCCChhHHHH
+Confidence            46778999999999999999999999999999999999999999999988888899999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHHHHHHcccCcchHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   81 NNVMTLCAMLPLLLFTYLNSFLHQRIPQSVRILGSLVAILLVFLITAILVKVQLDALPFFVITMIKIVLINSFGAILQGS  160 (177)
+Q Consensus        81 nnvmtlcamlplllftylnsflhqripqsvrilgslvaillvflitailvkvqldalpffvitmikivlinsfgailqgs  160 (177)
+                      ++..++++.+|.++.++++++..+|++++.|+..++++.++++++++++...+.+...++++.++++++.|.++++.|++
+T Consensus        82 ~~~~~~~~~~p~l~~~~~~~~~~~~~~~~~ri~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~g~~~~~~~~~  161 (442)
+T 6OB7_A           82 NNVMTLCAMLPLLLFTYLNSFLHQRIPQSVRILGSLVAILLVFLITAILVKVQLDALPFFVITMIKIVLINSFGAILQGS  161 (442)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHGGGSCHHHHHHHHHHHHHHHHHHHHHHHHSCCCHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhHHHHHHHHHHHHHhhhcCChHHHHHHHHHHHHHHHHHHHHHHHCCCCChHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            99999999999999999999999999999999999999999888888888887776778888899999999999999999
+
+
+Q ss_pred             HHHHhcCCCcCCC
+Q tr|A0A2U3TZM5|  161 LFGLAGLLPASYT  173 (177)
+Q Consensus       161 lfglagllpasyt  173 (177)
+                      .+++++++|++++
+T Consensus       162 ~~~~~s~~~~~~~  174 (442)
+T 6OB7_A          162 LFGLAGLFPASYT  174 (442)
+T ss_dssp             HHHHHTTSCHHHH
+T ss_pred             HHHHHHhCCHHHH
+Confidence            9999999997764
+
+
+No 2
+>7BC6_A transporter folate proton symporter, MEMBRANE;{Lama glama}
+Probab=65.74  E-value=95  Score=23.83  Aligned_cols=53  Identities=11%  Similarity=0.066  Sum_probs=31.9  Template_Neff=12.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   77 SAIFNNVMTLCAMLPLLLFTYLNSFLHQRIPQSVRILGSLVAILLVFLITAIL  129 (177)
+Q Consensus        77 saifnnvmtlcamlplllftylnsflhqripqsvrilgslvaillvflitail  129 (177)
+                      +....+.+.....++.++..++..++.+|.+.+..+..+.+...+..+.....
+T Consensus        90 ~~~~~~~~~~~~~~~~~~~~~~~g~l~dr~g~r~~~~~~~~~~~~~~~~~~~~  142 (480)
+T 7BC6_A           90 VAHWNLCINLGGFFVGLFSVTLFGPWSDSVGRRPVLVLPAVGMAVQAAVYLLV  142 (480)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCSHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCchHHHHHHHHHHHHHHHHHHHH
+Confidence            33444555556666666666666677777777666666666665555444443
+
+
+No 3
+>4P6V_D NqrA, NqrB, NqrC, NqrD, NqrE; Respiratory Complex, NADH:ubiquinone oxidoreductase, Sodium; HET: FAD, RBF, FMN; 3.5A {Vibrio cholerae serotype O1}
+Probab=62.06  E-value=1.2e+02  Score=23.87  Aligned_cols=33  Identities=30%  Similarity=0.472  Sum_probs=14.3  Template_Neff=8.600
+
+Q ss_pred             HHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   89 MLPLLLFTYLNSFLHQRIPQSVRILGSLVAILL  121 (177)
+Q Consensus        89 mlplllftylnsflhqripqsvrilgslvaill  121 (177)
+                      .+-.++..++.....++++...|.....++...
+T Consensus        49 ~~v~~~s~l~~~ll~~~~p~~lr~~~~~l~~a~   81 (210)
+T 4P6V_D           49 MFVTALSNFFVSLIRNHIPNSVRIIVQMAIIAS   81 (210)
+T ss_dssp             HHHHHHHHHHHHHHCC-----CCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHccCChhHHHHHHHHHHHH
+Confidence            333444445555566666666666555554443
+
+
+No 4
+>6IU3_A VIT1; membrane protein, METAL TRANSPORT; HET: OLC; 2.7A {Eucalyptus grandis}
+Probab=47.88  E-value=2.1e+02  Score=22.36  Aligned_cols=21  Identities=14%  Similarity=0.232  Sum_probs=9.9  Template_Neff=9.300
+
+Q ss_pred             HHHHHhhhchHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   19 FMLGLGTLLPWNFFMTATQYF   39 (177)
+Q Consensus        19 fmlglgtllpwnffmtatqyf   39 (177)
+                      +..|++..+.+.+......|.
+T Consensus        45 ~~~~l~~~ia~ais~~~~~~~   65 (234)
+T 6IU3_A           45 LTAGIAEVAAGAISMGLGGYL   65 (234)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Confidence            334455555554444444444
+
+
+No 5
+>6IU4_A VIT1; membrane protein, METAL TRANSPORT; 3.5A {Eucalyptus grandis}
+Probab=47.88  E-value=2.1e+02  Score=22.36  Aligned_cols=20  Identities=15%  Similarity=0.210  Sum_probs=9.2  Template_Neff=9.300
+
+Q ss_pred             HHHHhhhchHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   20 MLGLGTLLPWNFFMTATQYF   39 (177)
+Q Consensus        20 mlglgtllpwnffmtatqyf   39 (177)
+                      ..|++..+.+.+......|.
+T Consensus        46 ~~~l~~~ia~ais~~~~~~~   65 (234)
+T 6IU4_A           46 TAGIAEVAAGAISMGLGGYL   65 (234)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+Confidence            34445555554444444444
+
+
+No 6
+>4UVM_A GLUTATHIONE UPTAKE TRANSPORTER; TRANSPORT PROTEIN, MAJOR FACILLITATOR SUPERFAMILY; HET: 78M, 78N; 3.0A {SHEWANELLA ONEIDENSIS}
+Probab=34.16  E-value=3.6e+02  Score=20.98  Aligned_cols=79  Identities=13%  Similarity=0.074  Sum_probs=47.3  Template_Neff=12.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHcCCC-CHHHHHHHHHHHHHHHHHHHHHHHHcccCcchHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   82 NVMTLCAMLPLLLFTYLNSFLHQRI-PQSVRILGSLVAILLVFLITAILVKVQLDALPFFVITMIKIVLINSFGAILQGS  160 (177)
+Q Consensus        82 nvmtlcamlplllftylnsflhqri-pqsvrilgslvaillvflitailvkvqldalpffvitmikivlinsfgailqgs  160 (177)
+                      +.......+...+..++..++.+|. +.+..+..+.++..+..+++...   . . .  ....++...+.|...+.....
+T Consensus        57 ~~~~~~~~~~~~~~~~~~g~l~dr~~g~~~~~~~~~~~~~~~~~~~~~~---~-~-~--~~~~~~~~~~~g~~~~~~~~~  129 (524)
+T 4UVM_A           57 KDVFHSFVIGVYFFPLLGGWIADRFFGKYNTILWLSLIYCVGHAFLAIF---E-H-S--VQGFYTGLFLIALGSGGIKPL  129 (524)
+T ss_dssp             HHHHHHHHHHHTTTHHHHHHHCCCCCCHHHHHHHHHHHHHHHHHHHHHT---T-T-C--HHHHHHHHHHHHHHHHHTHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhccHHHHHHHHHHHHHHHHHHHHHh---h-c-c--HHHHHHHHHHHHHHhcchhHH
+Confidence            3444455555666667777888999 88888877777776665555442   1 1 1  222344445666666666666
+
+
+Q ss_pred             HHHHhcC
+Q tr|A0A2U3TZM5|  161 LFGLAGL  167 (177)
+Q Consensus       161 lfglagl  167 (177)
+                      ...+...
+T Consensus       130 ~~~~~~~  136 (524)
+T 4UVM_A          130 VSSFMGD  136 (524)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHHh
+Confidence            5555443
+
+
+No 7
+>6S3Q_A Excitatory amino acid transporter 3; GLUTAMATE, ASPARTATE TRANSPORTER, CYSTEINE, INHIBITOR; HET: PC1, Y01, 7O9;{Homo sapiens}
+Probab=22.59  E-value=5.6e+02  Score=23.22  Aligned_cols=21  Identities=19%  Similarity=0.423  Sum_probs=9.5  Template_Neff=8.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   76 LSAIFNNVMTLCAMLPLLLFTY   97 (177)
+Q Consensus        76 lsaifnnvmtlcamlplllfty   97 (177)
+                      ...-|...+. +..+|.++..+
+T Consensus        55 ~g~lfirll~-~~v~Pli~~si   75 (487)
+T 6S3Q_A           55 PGEILMRMLK-LIILPLIISSM   75 (487)
+T ss_dssp             HHHHHHHHHH-HSHHHHHHHHH
+T ss_pred             hHHHHHHHHH-HhHHHHHHHHH
+Confidence            3444444332 34455555543
+
+
+No 8
+>4P6V_E NqrA, NqrB, NqrC, NqrD, NqrE; Respiratory Complex, NADH:ubiquinone oxidoreductase, Sodium; HET: FAD, RBF, FMN; 3.5A {Vibrio cholerae serotype O1}
+Probab=22.29  E-value=6.3e+02  Score=19.90  Aligned_cols=6  Identities=0%  Similarity=0.285  Sum_probs=2.3  Template_Neff=8.600
+
+Q ss_pred             HHHHHH
+Q tr|A0A2U3TZM5|   97 YLNSFL  102 (177)
+Q Consensus        97 ylnsfl  102 (177)
+                      ++..+.
+T Consensus        58 ~l~~~v   63 (198)
+T 4P6V_E           58 LVYNLV   63 (198)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+Confidence            333433
+
+
+No 9
+>6VK0_D U1 SNP1-associating protein 1, Degradation; retro-translocation, ERAD, protein degradation, ubiquitination;{Saccharomyces cerevisiae}
+Probab=22.21  E-value=2e+02  Score=26.64  Aligned_cols=24  Identities=25%  Similarity=0.819  Sum_probs=15.9  Template_Neff=5.800
+
+Q ss_pred             hHHHHHHHHHHhhhchHHHHHHHH
+Q tr|A0A2U3TZM5|   13 AVWLIFFMLGLGTLLPWNFFMTAT   36 (177)
+Q Consensus        13 avwliffmlglgtllpwnffmtat   36 (177)
+                      .....|+++.++.++||...+..+
+T Consensus        52 S~~~~fi~lef~~fLP~~y~ili~   75 (339)
+T 6VK0_D           52 SLVPFFIILEFGSFLPWKYIILLS   75 (339)
+T ss_pred             chHHHHHHHHHhccccHHHHHHHH
+Confidence            345677888888888865544433
+
+
+No 10
+>6JKD_A Proton:oligopeptide symporter POT family; Peptide transporter, LCP crystallization, MEMBRANE; 3.9A {Shewanella oneidensis MR-1}
+Probab=22.00  E-value=6.2e+02  Score=19.70  Aligned_cols=76  Identities=5%  Similarity=0.032  Sum_probs=42.5  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHcCCC-CHHHHHHHHHHHHHHHHHHHHHHHHcccCcchHHHHHHHHHHHHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   83 VMTLCAMLPLLLFTYLNSFLHQRI-PQSVRILGSLVAILLVFLITAILVKVQLDALPFFVITMIKIVLINSFGAILQGSL  161 (177)
+Q Consensus        83 vmtlcamlplllftylnsflhqri-pqsvrilgslvaillvflitailvkvqldalpffvitmikivlinsfgailqgsl  161 (177)
+                      .+.....++..+..++..++.+|. +.+..+..+.++..+..+++..    ... .  +...++..++.|...+......
+T Consensus        52 ~~~~~~~~~~~~~~~~~g~l~d~~~g~~~~~~~~~~~~~~~~~~~~~----~~~-~--~~~~~~~~~l~g~~~~~~~~~~  124 (527)
+T 6JKD_A           52 LVWSACAALIYVSPAIGGWVGDKILGTKRTMLLGAGILSVGYALMTV----PTE-N--TWFMFSALGVIVVGNGLFKPNA  124 (527)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHCCCCCSCHHHHHHHHHHHHHHHHHHHTS----CCC-C--HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHcccHHHHHHHHHHHHHHHHHHHhC----CCc-h--HHHHHHHHHHHHHHhhhhhHHH
+Confidence            334444555566666667788888 8777777666665554433322    111 1  2233445556666666665555
+
+
+Q ss_pred             HHHh
+Q tr|A0A2U3TZM5|  162 FGLA  165 (177)
+Q Consensus       162 fgla  165 (177)
+                      ..+.
+T Consensus       125 ~~~~  128 (527)
+T 6JKD_A          125 GNLV  128 (527)
+T ss_dssp             HHHH
+T ss_pred             HHHH
+Confidence            5444
+
+
+No 11
+>5DWY_B Proton/glutamate symporter, SDF family; AMINO ACID TRANSPORTER, ASPARTATE TRANSPORT; HET: PGE, PEG, BOG; 2.7A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)}
+Probab=20.45  E-value=7.4e+02  Score=21.93  Aligned_cols=13  Identities=15%  Similarity=0.478  Sum_probs=6.9  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|A0A2U3TZM5|   88 AMLPLLLFTYLNS  100 (177)
+Q Consensus        88 amlplllftylns  100 (177)
+                      ...|.++..+...
+T Consensus        59 ~~~Pli~~sii~~   71 (438)
+T 5DWY_B           59 LVMPIVLASLVVG   71 (438)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHH
+Confidence            3456665555544
+
+

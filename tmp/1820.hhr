@@ -1,0 +1,165 @@
+Query         tr|D6RG33|D6RG33_HUMAN
+Match_columns 66
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 12:18:59 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1820.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5UZB_H Toll/interleukin-1 rece  50.0      26 0.00028   18.6   1.5   21   42-62      5-25  (177)
+  2 6B9X_A Ragulator complex prote  27.0      56  0.0006   21.2   0.5    7   18-24      2-8   (161)
+  3 6ZKE_u NADH dehydrogenase [ubi  24.2      21 0.00023   23.2  -1.7   18    1-18     68-85  (108)
+  4 2NYI_A Unknown Protein from Ga  20.4 1.4E+02  0.0015   18.3   1.4   12   55-66    184-195 (195)
+  5 7AR7_j Complex-I Arabidopsis,   20.3      27 0.00029   20.1  -1.7   18    1-18     27-44  (51)
+  6 7JRJ_I Radial spoke protein 10  20.1 1.8E+02   0.002   24.5   2.3   16   47-62    715-730 (738)
+  7 7JTK_D Radial spoke 1; cilia,   20.1 1.8E+02   0.002   24.5   2.3   15   47-61    715-729 (738)
+  8 2BCG_Y RabGTPase, geranylgeran  19.4 1.1E+02  0.0012   16.2   0.7   11   11-21    196-206 (206)
+  9 5XTD_Y NADH dehydrogenase [ubi  18.5      31 0.00033   20.1  -1.7   18    1-18     27-44  (59)
+ 10 5XTH_Y NADH dehydrogenase [ubi  18.5      31 0.00033   20.1  -1.7   18    1-18     27-44  (59)
+
+No 1
+>5UZB_H Toll/interleukin-1 receptor domain-containing adapter protein; TIR domain, adaptor proteins, TLR; 7.0A {Homo sapiens}
+Probab=50.05  E-value=26  Score=18.57  Aligned_cols=21  Identities=14%  Similarity=0.085  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q tr|D6RG33|D6RG   42 QDMVSPEATNSSSSSFSSPSS   62 (66)
+Q Consensus        42 qdmvspeatnsssssfsspss   62 (66)
+                      ..|...+.++++++.+.+++.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~   25 (177)
+T 5UZB_H            5 HHHSSGVDLGTENLYFQSNAE   25 (177)
+T ss_dssp             ---------------------
+T ss_pred             ccccCCCCcCcccccccChhh
+Confidence            345566667777777776664
+
+
+No 2
+>6B9X_A Ragulator complex protein LAMTOR1, Ragulator; Ragulator, Lamtor, SIGNALING PROTEIN; 1.42A {Homo sapiens}
+Probab=26.96  E-value=56  Score=21.20  Aligned_cols=7  Identities=43%  Similarity=1.208  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             ccccccc
+Q tr|D6RG33|D6RG   18 GCCCCCF   24 (66)
+Q Consensus        18 gcccccf   24 (66)
+                      ||||+|.
+T Consensus         2 G~C~S~~    8 (161)
+T 6B9X_A            2 GCCYSSE    8 (161)
+T ss_dssp             -------
+T ss_pred             CCcccCC
+Confidence            6766543
+
+
+No 3
+>6ZKE_u NADH dehydrogenase [ubiquinone] flavoprotein 1; complex, respiration, NADH, proton pump; HET: PC1, SF4, 3PE, DCQ, MYR, NDP, AMP, FMN, ZMP, 2MR, AYA, CDL, SEP, FME, NAI; 2.6A {Ovis aries}
+Probab=24.22  E-value=21  Score=23.23  Aligned_cols=18  Identities=33%  Similarity=0.582  Sum_probs=14.9  Template_Neff=6.600
+
+Q ss_pred             CCcchhccchccCCCCCc
+Q tr|D6RG33|D6RG    1 MWKWILTHCASAFPHLPG   18 (66)
+Q Consensus         1 mwkwilthcasafphlpg   18 (66)
+                      ||-||+-|+-...+|+-|
+T Consensus        68 mWfWI~y~~~~d~~hl~G   85 (108)
+T 6ZKE_u           68 MWFWILWRFWHDSDAVLG   85 (108)
+T ss_pred             HHHHHHHHHHhCcchHhC
+Confidence            799999999888887654
+
+
+No 4
+>2NYI_A Unknown Protein from Galdieria sulphuraria; Protein Structure Initiative, PSI, Center; HET: MSE; 1.8A {Galdieria sulphuraria}
+Probab=20.37  E-value=1.4e+02  Score=18.32  Aligned_cols=12  Identities=42%  Similarity=0.506  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCCCCCCCC
+Q tr|D6RG33|D6RG   55 SSFSSPSSAGRH   66 (66)
+Q Consensus        55 ssfsspssagrh   66 (66)
+                      -|+++.|.+|||
+T Consensus       184 ~~~~~~~~~~~~  195 (195)
+T 2NYI_A          184 DDDSPNSPVGRH  195 (195)
+T ss_dssp             ------------
+T ss_pred             CCCCCCCCCCCC
+Confidence            455666667776
+
+
+No 5
+>7AR7_j Complex-I Arabidopsis, ELECTRON TRANSPORT; HET: T7X, SF4, PSF, PTY, NDP, FMN, LMN, UQ9, 8Q1, PGT, PC7;{Arabidopsis thaliana}
+Probab=20.25  E-value=27  Score=20.07  Aligned_cols=18  Identities=39%  Similarity=0.787  Sum_probs=13.9  Template_Neff=6.500
+
+Q ss_pred             CCcchhccchccCCCCCc
+Q tr|D6RG33|D6RG    1 MWKWILTHCASAFPHLPG   18 (66)
+Q Consensus         1 mwkwilthcasafphlpg   18 (66)
+                      ||-||+-|+-...+|+-|
+T Consensus        27 mWfWi~y~~~~d~~hl~G   44 (51)
+T 7AR7_j           27 MWFWILYRAKQDGPVVMG   44 (51)
+T ss_pred             HHHHHHHHHHHhhchhcc
+Confidence            788999888777777643
+
+
+No 6
+>7JRJ_I Radial spoke protein 10, Flagellar; Cilia, Radial spoke, Mechano-regulation, STRUCTURAL; 3.03A {Chlamydomonas reinhardtii}
+Probab=20.09  E-value=1.8e+02  Score=24.47  Aligned_cols=16  Identities=63%  Similarity=0.520  Sum_probs=8.3  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCCC
+Q tr|D6RG33|D6RG   47 PEATNSSSSSFSSPSS   62 (66)
+Q Consensus        47 peatnsssssfsspss   62 (66)
+                      .+..||||||..|.||
+T Consensus       715 ~~~~~~~~~~~~~~~~  730 (738)
+T 7JRJ_I          715 QEGSNSSSSSSDSSSS  730 (738)
+T ss_pred             cCCCCCCCCCCCCCch
+Confidence            4556666555444443
+
+
+No 7
+>7JTK_D Radial spoke 1; cilia, native, complex, mechanoregulation, STRUCTURAL; HET: PO4; 3.2A {Chlamydomonas reinhardtii}
+Probab=20.09  E-value=1.8e+02  Score=24.47  Aligned_cols=15  Identities=60%  Similarity=0.505  Sum_probs=1.3  Template_Neff=7.500
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|D6RG33|D6RG   47 PEATNSSSSSFSSPS   61 (66)
+Q Consensus        47 peatnsssssfssps   61 (66)
+                      .+..||||||..|.|
+T Consensus       715 ~~~~~~~~~~~~~~~  729 (738)
+T 7JTK_D          715 QEGSNSSSSSSDSSS  729 (738)
+T ss_dssp             -----------ESC-
+T ss_pred             cCCCCCCCCCCCCCc
+Confidence            455666665544444
+
+
+No 8
+>2BCG_Y RabGTPase, geranylgeranylation, vesicular transport, Protein; HET: GER, GDP; 1.48A {Saccharomyces cerevisiae} SCOP: c.37.1.8
+Probab=19.44  E-value=1.1e+02  Score=16.22  Aligned_cols=11  Identities=36%  Similarity=1.295  Sum_probs=0.4  Template_Neff=13.500
+
+Q ss_pred             ccCCCCCcccc
+Q tr|D6RG33|D6RG   11 SAFPHLPGCCC   21 (66)
+Q Consensus        11 safphlpgccc   21 (66)
+                      +.+.+..+|||
+T Consensus       196 ~~~~~~~~~~~  206 (206)
+T 2BCG_Y          196 QSLTNTGGCCC  206 (206)
+T ss_dssp             C----------
+T ss_pred             ccccccCcccC
+Confidence            34445556655
+
+
+No 9
+>5XTD_Y NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, OXIDOREDUCTASE-ELECTRON; HET: SF4, PEE, NDP, FMN, CDL, 8Q1, PLX; 3.7A {Homo sapiens}
+Probab=18.54  E-value=31  Score=20.14  Aligned_cols=18  Identities=33%  Similarity=0.608  Sum_probs=13.7  Template_Neff=6.800
+
+Q ss_pred             CCcchhccchccCCCCCc
+Q tr|D6RG33|D6RG    1 MWKWILTHCASAFPHLPG   18 (66)
+Q Consensus         1 mwkwilthcasafphlpg   18 (66)
+                      ||-||+-|+-...+|+-|
+T Consensus        27 mW~Wi~y~~~~d~~hl~G   44 (59)
+T 5XTD_Y           27 MWFWILWRFWHDSEEVLG   44 (59)
+T ss_pred             HHHHHHHHHHhCcchHhC
+Confidence            788999888777777644
+
+
+No 10
+>5XTH_Y NADH dehydrogenase [ubiquinone] flavoprotein 1; Homo sapiens, Oxidoreductase, Respiratory, Supercomplex; HET: SF4, PEE, HEM, NDP, HEA, HEC, FMN, CDL, 8Q1, FES, PLX; 3.9A {Homo sapiens}
+Probab=18.54  E-value=31  Score=20.14  Aligned_cols=18  Identities=33%  Similarity=0.608  Sum_probs=13.7  Template_Neff=6.800
+
+Q ss_pred             CCcchhccchccCCCCCc
+Q tr|D6RG33|D6RG    1 MWKWILTHCASAFPHLPG   18 (66)
+Q Consensus         1 mwkwilthcasafphlpg   18 (66)
+                      ||-||+-|+-...+|+-|
+T Consensus        27 mW~Wi~y~~~~d~~hl~G   44 (59)
+T 5XTH_Y           27 MWFWILWRFWHDSEEVLG   44 (59)
+T ss_pred             HHHHHHHHHHhCcchHhC
+Confidence            788999888777777644
+
+

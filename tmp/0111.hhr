@@ -1,0 +1,166 @@
+Query         tr|A0A8I5KVN1|A0A8I5KVN1_HUMAN
+Match_columns 23
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 01:16:04 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0111.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2FEB_A tri-loop structure, dis  73.9     4.8 5.2E-05   16.7   1.1   11   11-21      2-12  (102)
+  2 6UI7_B Core protein; HBV, Viru  10.8   1E+02  0.0011   18.9  -0.9   17    3-19      6-22  (143)
+  3 3TQS_D Ribosomal RNA small sub   9.7 2.4E+02  0.0026   15.6   0.3    7   11-17      7-13  (255)
+  4 3FTD_A Dimethyladenosine trans   9.7 2.4E+02  0.0027   15.5   0.3    8   10-17      8-15  (249)
+  5 3FTF_A Dimethyladenosine trans   9.7 2.4E+02  0.0027   15.5   0.3    8   10-17      8-15  (249)
+  6 6IXY_D pilin; major pilin, fib   9.1 4.2E+02  0.0045   16.5   1.2   13    9-21     11-23  (476)
+  7 7KBE_C nucleosome, M phase, ce   9.1 3.1E+02  0.0033   12.5   0.5    7    5-11    132-138 (139)
+  8 7KBF_C nucleosome, M phase, ce   9.1 3.1E+02  0.0033   12.5   0.5    7    5-11    132-138 (139)
+  9 4F6R_C Tubulin alpha chain, Tu   9.0 3.2E+02  0.0035   14.1   0.6   15    1-15      3-17  (87)
+ 10 6GVM_C Tubulin alpha chain, Tu   9.0 3.2E+02  0.0035   14.1   0.6   15    1-15      3-17  (87)
+
+No 1
+>2FEB_A tri-loop structure, disulphide bonded protein; NMR {Homo sapiens}
+Probab=73.93  E-value=4.8  Score=16.70  Aligned_cols=11  Identities=45%  Similarity=0.909  Sum_probs=8.8  Template_Neff=12.100
+
+Q ss_pred             CCCCCCCCCCC
+Q tr|A0A8I5KVN1|   11 EGQHFLPTAQA   21 (23)
+Q Consensus        11 egqhflptaqa   21 (23)
+                      ||+|.+|+..+
+T Consensus         2 ~~~~~~~~~~~   12 (102)
+T 2FEB_A            2 EGRHMAPTENS   12 (102)
+T ss_dssp             CCCSCCSCCSS
+T ss_pred             CCcccCCCCCC
+Confidence            68899888765
+
+
+No 2
+>6UI7_B Core protein; HBV, Virus; 3.65A {Hepatitis B virus}
+Probab=10.76  E-value=1e+02  Score=18.94  Aligned_cols=17  Identities=47%  Similarity=0.550  Sum_probs=14.7  Template_Neff=3.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCC
+Q tr|A0A8I5KVN1|    3 IKEEGASEEGQHFLPTA   19 (23)
+Q Consensus         3 ikeegaseegqhflpta   19 (23)
+                      .||-|||.|--.|||..
+T Consensus         6 YKEFGasveLLsFLPsD   22 (143)
+T 6UI7_B            6 YKEFGATVELLSFLPSD   22 (143)
+T ss_dssp             GGTTTCCSTTTTTSCST
+T ss_pred             chhccccHHHHhcCCcc
+Confidence            38999999999999964
+
+
+No 3
+>3TQS_D Ribosomal RNA small subunit methyltransferase; Protein synthesis, TRANSFERASE; HET: MSE; 1.98A {Coxiella burnetii}
+Probab=9.67  E-value=2.4e+02  Score=15.56  Aligned_cols=7  Identities=71%  Similarity=1.013  Sum_probs=3.5  Template_Neff=9.500
+
+Q ss_pred             CCCCCCC
+Q tr|A0A8I5KVN1|   11 EGQHFLP   17 (23)
+Q Consensus        11 egqhflp   17 (23)
+                      -||||+-
+T Consensus         7 ~gQ~fl~   13 (255)
+T 3TQS_D            7 FGQHFLH   13 (255)
+T ss_dssp             --CCEEC
+T ss_pred             ccccccC
+Confidence            4788764
+
+
+No 4
+>3FTD_A Dimethyladenosine transferase (E.C.2.1.1.-); KsgA, Rossmann-like fold, RNA Methyltransferase; 1.44A {Aquifex aeolicus}
+Probab=9.66  E-value=2.4e+02  Score=15.47  Aligned_cols=8  Identities=50%  Similarity=0.659  Sum_probs=5.5  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A8I5KVN1|   10 EEGQHFLP   17 (23)
+Q Consensus        10 eegqhflp   17 (23)
+                      .-|||||-
+T Consensus         8 ~~gQ~fl~   15 (249)
+T 3FTD_A            8 SFGQHLLV   15 (249)
+T ss_dssp             CCCSSCEE
+T ss_pred             cccccccC
+Confidence            45888873
+
+
+No 5
+>3FTF_A Dimethyladenosine transferase (E.C.2.1.1.-); KsgA, Rossmann-like fold, RNA Methyltransferase; HET: SAH; 2.8A {Aquifex aeolicus}
+Probab=9.66  E-value=2.4e+02  Score=15.47  Aligned_cols=8  Identities=50%  Similarity=0.659  Sum_probs=5.9  Template_Neff=9.500
+
+Q ss_pred             CCCCCCCC
+Q tr|A0A8I5KVN1|   10 EEGQHFLP   17 (23)
+Q Consensus        10 eegqhflp   17 (23)
+                      .-|||||-
+T Consensus         8 ~~gQ~fl~   15 (249)
+T 3FTF_A            8 SFGQHLLV   15 (249)
+T ss_dssp             TTTCCCBC
+T ss_pred             cccccccC
+Confidence            45899974
+
+
+No 6
+>6IXY_D pilin; major pilin, fiber protein, STRUCTURAL; 2.72A {Clostridium perfringens (strain SM101 / Type A)}
+Probab=9.11  E-value=4.2e+02  Score=16.54  Aligned_cols=13  Identities=31%  Similarity=0.595  Sum_probs=5.3  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCCCCCC
+Q tr|A0A8I5KVN1|    9 SEEGQHFLPTAQA   21 (23)
+Q Consensus         9 seegqhflptaqa   21 (23)
+                      .-||+|+-|++.+
+T Consensus        11 ~~~~~~~~~~~~~   23 (476)
+T 6IXY_D           11 HIEGRHMTPSISK   23 (476)
+T ss_dssp             ------CCCCCCS
+T ss_pred             hccccccCcccCC
+Confidence            3589999888754
+
+
+No 7
+>7KBE_C nucleosome, M phase, cell cycle;{Xenopus laevis}
+Probab=9.07  E-value=3.1e+02  Score=12.54  Aligned_cols=7  Identities=29%  Similarity=0.197  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCC
+Q tr|A0A8I5KVN1|    5 EEGASEE   11 (23)
+Q Consensus         5 eegasee   11 (23)
+                      ++++++|
+T Consensus       132 ~~~~~~~  138 (139)
+T 7KBE_C          132 TAVESQE  138 (139)
+T ss_dssp             -------
+T ss_pred             Ccccccc
+
+
+No 8
+>7KBF_C nucleosome, M phase, cell cycle; 4.42A {Xenopus laevis}
+Probab=9.07  E-value=3.1e+02  Score=12.54  Aligned_cols=7  Identities=29%  Similarity=0.197  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCCC
+Q tr|A0A8I5KVN1|    5 EEGASEE   11 (23)
+Q Consensus         5 eegasee   11 (23)
+                      ++++++|
+T Consensus       132 ~~~~~~~  138 (139)
+T 7KBF_C          132 TAVESQE  138 (139)
+T ss_dssp             -------
+T ss_pred             Ccccccc
+
+
+No 9
+>4F6R_C Tubulin alpha chain, Tubulin beta; ALPHA-TUBULIN, BETA-TUBULIN, GTPASE, MICROTUBULE, RB3; HET: GTP, MES, GDP; 2.64A {OVIS ARIES}
+Probab=9.02  E-value=3.2e+02  Score=14.10  Aligned_cols=15  Identities=33%  Similarity=0.525  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|A0A8I5KVN1|    1 MEIKEEGASEEGQHF   15 (23)
+Q Consensus         1 meikeegaseegqhf   15 (23)
+                      |++++...+..|+-|
+T Consensus         3 ~~v~~~~k~~~G~af   17 (87)
+T 4F6R_C            3 MEVIELNKATSGQSW   17 (87)
+T ss_dssp             ------CEETTEEEE
+T ss_pred             cceeeeccCCCCcCe
+
+
+No 10
+>6GVM_C Tubulin alpha chain, Tubulin beta; microtubule, DARPIN, STATHmin-like protein, CELL; HET: GTP, GDP; 3.5A {Ovis aries}
+Probab=9.02  E-value=3.2e+02  Score=14.10  Aligned_cols=15  Identities=33%  Similarity=0.525  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             CCCCCCCCCCCCCCC
+Q tr|A0A8I5KVN1|    1 MEIKEEGASEEGQHF   15 (23)
+Q Consensus         1 meikeegaseegqhf   15 (23)
+                      |++++...+..|+-|
+T Consensus         3 ~~v~~~~k~~~G~af   17 (87)
+T 6GVM_C            3 MEVIELNKATSGQSW   17 (87)
+T ss_dssp             CCEEEEEEETTEEEE
+T ss_pred             cceeeeccCCCCcCe
+
+

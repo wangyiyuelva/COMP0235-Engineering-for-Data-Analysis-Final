@@ -1,0 +1,234 @@
+Query         tr|A0A7P0TB54|A0A7P0TB54_HUMAN
+Match_columns 229
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:38:46 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0674.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3LQC_A DNA repair protein XRCC 100.0 8.8E-42 9.6E-47  277.9   9.9  153    1-155     1-154 (189)
+  2 3K77_C DNA repair protein XRCC 100.0 1.1E-41 1.2E-46  270.7  10.0  154    1-156     1-155 (161)
+  3 1XNA_A XRCC1, 3D NMR, DNA REPA 100.0 2.2E-40 2.4E-45  267.6  10.1  154    1-156     1-155 (183)
+  4 7D3F_D Dual oxidase 1 (E.C.1.1  98.3 6.3E-07 6.8E-12   84.9   2.0   32  183-214   435-469 (483)
+  5 4OYU_A MklnI; Discoidin domain  29.3 2.9E+02  0.0031   24.0   5.2  130    8-155    10-148 (196)
+  6 4OYU_B MklnI; Discoidin domain  29.3 2.9E+02  0.0031   24.0   5.2  130    8-155    10-148 (196)
+  7 4BWC_B PHOSPHOLIPASE B-LIKE 1   29.3      82 0.00089   28.4   2.1   25  181-205   290-314 (321)
+  8 4PQQ_A Muskelin; jelly-roll, c  27.2 3.4E+02  0.0037   22.6   5.1  128    8-153     8-144 (156)
+  9 7EU3_1 chloroplast NAD(P)H-qui  19.2 1.5E+02  0.0017   19.5   1.5   20  171-190     5-24  (154)
+ 10 7F9O_a Photosystem I, NDH, Pho  19.2 1.5E+02  0.0017   19.5   1.5   20  171-190     5-24  (154)
+
+No 1
+>3LQC_A DNA repair protein XRCC1, DNA; ALLOSTERIC DISULFIDE, SCAFFOLDING PROTEIN, DNA; 2.349A {Homo sapiens}
+Probab=100.00  E-value=8.8e-42  Score=277.85  Aligned_cols=153  Identities=36%  Similarity=0.625  Sum_probs=146.5  Template_Neff=5.700
+
+Q ss_pred             CCCceeeeeEecCCCCCCCChhhcCCCCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEecccceEEEEEEcCCCCCC
+Q tr|A0A7P0TB54|    1 MAPVKISHVVSFSSQDPKYPVENLLNPDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVGNCGCAFLQIDVGHSSWP   80 (229)
+Q Consensus         1 mapvkishvvsfssqdpkypvenllnpdsprrpwlgcpqdksgqlkvelqleravptgyidvgncgcaflqidvghsswp   80 (229)
+                      ||+|+|++|++|||||++|||+|||.++. +++|+|++.| +++++|+|||+++++|++|||||+|||||||+||||+|+
+T Consensus         1 M~~i~~~~Vvs~SSed~~~pa~NLL~~~~-~~~W~~~~~~-~~~~~V~lqL~~~s~I~~IdIGN~gSAfvEV~VgrS~~~   78 (189)
+T 3LQC_A            1 MPEIRLRHVVSCSSQDSTHCAENLLKADT-YRKWRAAKAG-EKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGG   78 (189)
+T ss_dssp             -CCGGGEEEEEETTSCHHHHHHHHHTCHH-HHHHHHHTTT-CSEEEEEEEEEEEECCCEEEEEEEBCSEEEEEEECCTTC
+T ss_pred             CCCccccEEEEeecCCCCCChhhccCCCC-CCCeeecCCC-CCeEEEEEEcCCceeceeEEcCCCCceEEEEEeecCCCC
+Confidence            99999999999999999999999999987 8999999888 889999999999999999999999999999999999996
+
+
+Q ss_pred             -CCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehcccc
+Q tr|A0A7P0TB54|   81 -LDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSSLD  155 (229)
+Q Consensus        81 -ldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcssld  155 (229)
+                       ++++|++|||+++||||+|+|+|+|.++||||++++|.++++++|||||||+|+||||++.||||+||+|+++.+
+T Consensus        79 ~~~~~f~~Llp~~~lMsp~esr~~~n~~~vr~F~~~~l~~~~~~~kWDrvkIvCtQPfnk~~~fGLsFi~i~s~~~  154 (189)
+T 3LQC_A           79 AGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPD  154 (189)
+T ss_dssp             CCGGGCEEEEEEEESCCHHHHHHTCSTTCEEEECGGGSCHHHHTSCEEEEEEEEECTTCTTSCCEEEEEEEECC--
+T ss_pred             CCCCCCeEEeeeceeeChhHhccCCCCCceeecCHHHHhHHHHhCCccEEEEEecCCCCCCCCccceEEEEeCCCC
+Confidence             678999999999999999999999999999999999999999999999999999999999999999999999765
+
+
+No 2
+>3K77_C DNA repair protein XRCC1; xrcc1, base excision repair, scaffolding; 2.597A {Homo sapiens}
+Probab=100.00  E-value=1.1e-41  Score=270.68  Aligned_cols=154  Identities=36%  Similarity=0.621  Sum_probs=147.6  Template_Neff=5.900
+
+Q ss_pred             CCCceeeeeEecCCCCCCCChhhcCCCCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEecccceEEEEEEcCCCCCC
+Q tr|A0A7P0TB54|    1 MAPVKISHVVSFSSQDPKYPVENLLNPDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVGNCGCAFLQIDVGHSSWP   80 (229)
+Q Consensus         1 mapvkishvvsfssqdpkypvenllnpdsprrpwlgcpqdksgqlkvelqleravptgyidvgncgcaflqidvghsswp   80 (229)
+                      ||+|+|++|++|||||++|||+|||.++. +++|+|++.| +++++|+|||+++++|++|||||+|||||||+||||+|+
+T Consensus         1 M~~i~~~~Vvs~SSed~~~pa~NLL~~~~-~~~W~~~~~~-~~~~~v~lqL~~~~~I~~IdIGN~gSAfveV~VgrS~~~   78 (161)
+T 3K77_C            1 MPEIRLRHVVSCSSQDSTHCAENLLKADT-YRKWRAAKAG-EKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGG   78 (161)
+T ss_dssp             -CBCCEEEEEEESCCCSSSCGGGGSCGGG-CCCEECSSTT-CSEEEEEEEEEEEEECCEEEEEEEBCSEEEEEEECSTTC
+T ss_pred             CCCccceEEEEeecCCCCCChhhccCCCC-CCceeecCCC-CCeEEEEEEcCCceeeeEEEcCCCCceEEEEEeecCCCC
+Confidence            99999999999999999999999999988 8999999888 889999999999999999999999999999999999997
+
+
+Q ss_pred             -CCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehccccC
+Q tr|A0A7P0TB54|   81 -LDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSSLDS  156 (229)
+Q Consensus        81 -ldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcsslds  156 (229)
+                       ++++|++|||+++||||+|+|+|+|.++||||++++|.++++++|||||||+|+||||++.||||+||+|+++.+.
+T Consensus        79 ~~~~~f~vLLp~~~~Msp~esr~g~n~~~vr~F~~~~l~~~~~~~kWDrvkivCsQPf~k~~~fGLsFi~i~~~~~~  155 (161)
+T 3K77_C           79 AGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPDK  155 (161)
+T ss_dssp             CCGGGCEEEEEEEESSCHHHHHHTCSCCCEEEECTTTSCHHHHHSEEEEEEEEEECCSCCSSCCEEEEEEEECCC--
+T ss_pred             CCCCCceEEeeeceeeChhHhcCCCCCCceeecCHHHHhHHHHhCCccEEEEEecCCCCCCCCCcceEEEEeCCCCc
+Confidence             6899999999999999999999999999999999999999999999999999999999999999999999998764
+
+
+No 3
+>1XNA_A XRCC1, 3D NMR, DNA REPAIR; NMR {Homo sapiens} SCOP: b.18.1.8
+Probab=100.00  E-value=2.2e-40  Score=267.58  Aligned_cols=154  Identities=36%  Similarity=0.621  Sum_probs=147.0  Template_Neff=5.900
+
+Q ss_pred             CCCceeeeeEecCCCCCCCChhhcCCCCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEecccceEEEEEEcCCCCCC
+Q tr|A0A7P0TB54|    1 MAPVKISHVVSFSSQDPKYPVENLLNPDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVGNCGCAFLQIDVGHSSWP   80 (229)
+Q Consensus         1 mapvkishvvsfssqdpkypvenllnpdsprrpwlgcpqdksgqlkvelqleravptgyidvgncgcaflqidvghsswp   80 (229)
+                      ||+|+|++|++|||||++|||+|||.++. +++|+|++.| +++++|+|||+++++|++|||||+|||||||+||||+|+
+T Consensus         1 M~~i~~~~Vvs~SSed~~~pa~NLL~~~~-~~~W~~~~~~-~~~~~V~lqL~~~~~I~~IdIGN~gSAfvEV~VgrS~~~   78 (183)
+T 1XNA_A            1 MPEIRLRHVVSCSSQDSTHCAENLLKADT-YRKWRAAKAG-EKTISVVLQLEKEEQIHSVDIGNDGSAFVEVLVGSSAGG   78 (183)
+T ss_dssp             CCCBCBCCCSEEESCCSTTCGGGGGGSSS-SCCCCCSSSS-CSEEEEEEEEEEEECCSEEEEEEESCCEEEEEEECSSSC
+T ss_pred             CCCccceEEEEeecCCCCCChhhccCCCC-CCCeeccCCC-CCeEEEEEEcCCceeeeEEEcCCCCceEEEEEEecCCCC
+Confidence            99999999999999999999999999988 8999999888 889999999999999999999999999999999999996
+
+
+Q ss_pred             -CCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehccccC
+Q tr|A0A7P0TB54|   81 -LDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSSLDS  156 (229)
+Q Consensus        81 -ldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcsslds  156 (229)
+                       ++.+|++|||+++||||.|+|+|+|.++||||++++|.++++++|||||||+|+||||++.||||+||+|+++++.
+T Consensus        79 ~~~~~f~~Llp~~~lMsp~esr~~~n~~~vr~F~~~~l~~~~~~~kWDrvkivCtQPf~k~~~fGLsFi~i~s~~~~  155 (183)
+T 1XNA_A           79 AGEQDYEVLLVTSSFMSPSESRSGSNPNRVRMFGPDKLVRAAAEKRWDRVKIVCSQPYSKDSPFGLSFVRFHSPPDK  155 (183)
+T ss_dssp             CCTTSCEEEEEEEECSCTTCCCCCSCSCEEEEECSTTSCHHHHTSCEEEEEEEEECCCCSSSCCEEEEEEEEC----
+T ss_pred             CCCCCCeEEeeeceeeChhHhccCCCCCceeecCHHHHhHHHHhCCccEEEEEEcCCCCCCCCccceEEEEeCCCCc
+Confidence             6899999999999999999999999999999999999999999999999999999999999999999999997663
+
+
+No 4
+>7D3F_D Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.3A {Homo sapiens}
+Probab=98.28  E-value=6.3e-07  Score=84.91  Aligned_cols=32  Identities=34%  Similarity=0.647  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCccc---cccCCCCccCCCCCcecccCC
+Q tr|A0A7P0TB54|  183 PPGWSRTPKLT---HLKLPKCWDYRHEPLCLASSG  214 (229)
+Q Consensus       183 ppgwsrtpklt---hlklpkcwdyrheplclassg  214 (229)
+                      -|||+++|.|+   +|.|||||||||||.|.|...
+T Consensus       435 ~pgws~tp~l~~s~~l~Lpkcwdyr~~p~~~~~~~  469 (483)
+T 7D3F_D          435 LPRLVSNSGLKRPSCLDLPKCWDYRRDARAFFHLL  469 (483)
+T ss_dssp             -----------------------------------
+T ss_pred             CCCcCCCCCCCCCCCCCCCcccccCCCCCccHHHc
+Confidence            38999999984   789999999999999998764
+
+
+No 5
+>4OYU_A MklnI; Discoidin domain, LisH motif, Dimer; HET: GOL, EDO; 1.8A {Rattus norvegicus}
+Probab=29.34  E-value=2.9e+02  Score=24.02  Aligned_cols=130  Identities=18%  Similarity=0.202  Sum_probs=86.0  Template_Neff=6.700
+
+Q ss_pred             eeEecCCCCCCCChhhcCC---CCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEec------ccceEEEEEEcCCCC
+Q tr|A0A7P0TB54|    8 HVVSFSSQDPKYPVENLLN---PDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVG------NCGCAFLQIDVGHSS   78 (229)
+Q Consensus         8 hvvsfssqdpkypvenlln---pdsprrpwlgcpqdksgqlkvelqleravptgyidvg------ncgcaflqidvghss   78 (229)
+                      .|+.+||++..|+++|++.   ++. ...|-+...+ ..+ ++.|.|++++.|..|.+|      ..+--..+|++|.+.
+T Consensus        10 ~i~~~Ss~s~~~~p~ni~d~~p~d~-~SRWsS~~~~-~pQ-~i~l~L~~~~~v~~I~fgk~~k~h~~n~k~f~I~~~~~~   86 (196)
+T 4OYU_A           10 ALHKWSSFSSTYLPENILVDKPNDQ-SSRWSSESNY-PPQ-YLILKLERPAIVQNITFGKYEKTHVCNLKKFKVFGGMNE   86 (196)
+T ss_dssp             EEEEESCCCTTCCGGGGGCCCTTCT-TCSEECSCSS-SCC-CEEEEEEEEEEEEEEEEECCSSCCTTSEEEEEEEEESSS
+T ss_pred             EEEEecCCCCCCChHHcccCCCCCC-cCCccCCCCC-CCc-EEEEEcCCceEEEEEEeCCCCceEEeCceEEEEEEcCCh
+Confidence            4899999999999999999   444 5689775332 234 899999999999999885      444555678887642
+
+
+Q ss_pred             CCCCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehcccc
+Q tr|A0A7P0TB54|   79 WPLDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSSLD  155 (229)
+Q Consensus        79 wpldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcssld  155 (229)
+                          ..|+.++-. .+-         |....--|.-..-... ....=..|||+|.|.+...-.|.|-+|.+++..+
+T Consensus        87 ----~~~~~v~~~-~l~---------~d~~~Etf~l~~~~~~-~~~~~ryvKi~~l~~~~~~~~~SIw~v~l~G~~~  148 (196)
+T 4OYU_A           87 ----ENMTELLSS-GLK---------NDYNKETFTLKHKIDE-QMFPCRFIKIVPLLSWGPSFNFSIWYVELSGIDD  148 (196)
+T ss_dssp             ----SSCEEEEEE-CCC---------SSSCCEEEECCCEETT-EECCEEEEEEEEEEESSTTSCCEECEEEEEEECC
+T ss_pred             ----hhcEEHhHc-CCC---------CCCCceEEEeeeecCC-ceeeccEEEEEeccccCCCCceeEEEEEEEecCC
+Confidence                356555532 111         1112222221110000 0123468999999999876688999999998643
+
+
+No 6
+>4OYU_B MklnI; Discoidin domain, LisH motif, Dimer; HET: GOL, EDO; 1.8A {Rattus norvegicus}
+Probab=29.34  E-value=2.9e+02  Score=24.02  Aligned_cols=130  Identities=18%  Similarity=0.202  Sum_probs=86.0  Template_Neff=6.700
+
+Q ss_pred             eeEecCCCCCCCChhhcCC---CCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEec------ccceEEEEEEcCCCC
+Q tr|A0A7P0TB54|    8 HVVSFSSQDPKYPVENLLN---PDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVG------NCGCAFLQIDVGHSS   78 (229)
+Q Consensus         8 hvvsfssqdpkypvenlln---pdsprrpwlgcpqdksgqlkvelqleravptgyidvg------ncgcaflqidvghss   78 (229)
+                      .|+.+||++..|+++|++.   ++. ...|-+...+ ..+ ++.|.|++++.|..|.+|      ..+--..+|++|.+.
+T Consensus        10 ~i~~~Ss~s~~~~p~ni~d~~p~d~-~SRWsS~~~~-~pQ-~i~l~L~~~~~v~~I~fgk~~k~h~~n~k~f~I~~~~~~   86 (196)
+T 4OYU_B           10 ALHKWSSFSSTYLPENILVDKPNDQ-SSRWSSESNY-PPQ-YLILKLERPAIVQNITFGKYEKTHVCNLKKFKVFGGMNE   86 (196)
+T ss_dssp             EEEEESCCCTTCCGGGGGCCCTTCT-TCSEECSCSS-SCC-CEEEEEEEEEEEEEEEEECCSSCCTTSEEEEEEEEESSS
+T ss_pred             EEEEecCCCCCCChHHcccCCCCCC-cCCccCCCCC-CCc-EEEEEcCCceEEEEEEeCCCCceEEeCceEEEEEEcCCh
+Confidence            4899999999999999999   444 5689775332 234 899999999999999885      444555678887642
+
+
+Q ss_pred             CCCCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehcccc
+Q tr|A0A7P0TB54|   79 WPLDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSSLD  155 (229)
+Q Consensus        79 wpldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcssld  155 (229)
+                          ..|+.++-. .+-         |....--|.-..-... ....=..|||+|.|.+...-.|.|-+|.+++..+
+T Consensus        87 ----~~~~~v~~~-~l~---------~d~~~Etf~l~~~~~~-~~~~~ryvKi~~l~~~~~~~~~SIw~v~l~G~~~  148 (196)
+T 4OYU_B           87 ----ENMTELLSS-GLK---------NDYNKETFTLKHKIDE-QMFPCRFIKIVPLLSWGPSFNFSIWYVELSGIDD  148 (196)
+T ss_dssp             ----SSCEEEEEE-CCC---------SSSCCEEEECCCEETT-EECCEEEEEEEEEEESSSSSCCEECEEEEEEECC
+T ss_pred             ----hhcEEHhHc-CCC---------CCCCceEEEeeeecCC-ceeeccEEEEEeccccCCCCceeEEEEEEEecCC
+Confidence                356555532 111         1112222221110000 0123468999999999876788999999998643
+
+
+No 7
+>4BWC_B PHOSPHOLIPASE B-LIKE 1 (E.C.3.1.1.-); HYDROLASE, GLYCOSYLATION, LYSOSOMAL STORAGE DISORDERS; HET: NAG, P4G, P6G; 1.89A {BOS TAURUS}
+Probab=29.32  E-value=82  Score=28.41  Aligned_cols=25  Identities=32%  Similarity=0.646  Sum_probs=21.7  Template_Neff=7.500
+
+Q ss_pred             cCCCCCCCCCccccccCCCCccCCC
+Q tr|A0A7P0TB54|  181 LPPPGWSRTPKLTHLKLPKCWDYRH  205 (229)
+Q Consensus       181 lpppgwsrtpklthlklpkcwdyrh  205 (229)
+                      +||-.|+..++..|..+|.+|++.-
+T Consensus       290 ~ppF~Ws~~~~~~H~G~Pd~~~F~~  314 (321)
+T 4BWC_B          290 LPVFHWSRFNKTLHEGMPEAYNFDF  314 (321)
+T ss_dssp             CCCEEGGGGTTSCCTTSCSEECCCC
+T ss_pred             CCCCccccCCCCCCCCCCCccCCCc
+Confidence            4777899988999999999999864
+
+
+No 8
+>4PQQ_A Muskelin; jelly-roll, cell spreading mediator, prostaglandin; HET: PG4; 1.55A {Mus musculus}
+Probab=27.21  E-value=3.4e+02  Score=22.60  Aligned_cols=128  Identities=18%  Similarity=0.204  Sum_probs=83.5  Template_Neff=6.900
+
+Q ss_pred             eeEecCCCCCCCChhhcCC---CCCCCCCcccCCcCCCCCEEEEEEeecCCCCcEEEec------ccceEEEEEEcCCCC
+Q tr|A0A7P0TB54|    8 HVVSFSSQDPKYPVENLLN---PDSPRRPWLGCPQDKSGQLKVELQLERAVPTGYIDVG------NCGCAFLQIDVGHSS   78 (229)
+Q Consensus         8 hvvsfssqdpkypvenlln---pdsprrpwlgcpqdksgqlkvelqleravptgyidvg------ncgcaflqidvghss   78 (229)
+                      .|..+||++..|+++|++.   ++. ...|-+...  ....++.|.|++++.|..|.+|      ..+..-.+|++|...
+T Consensus         8 ~v~~~Ss~s~~~~p~ni~d~~p~d~-~SRWsS~~~--~~~qwi~ldL~~~~~v~~I~~gk~~~w~~~n~k~f~I~~s~d~   84 (156)
+T 4PQQ_A            8 ALHKWSSFSSTYLPENILVDKPNDQ-SSRWSSESN--YPPQYLILKLERPAIVQNITFGKYEKTHVCNLKKFKVFGGMNE   84 (156)
+T ss_dssp             EEEEESCCCTTCCGGGGGCCCTTCT-TSSEECSCS--SSCCCEEEEEEEEEEEEEEEECCCSSCCTTSEEEEEEEEEEET
+T ss_pred             eEEEecCCCCCCCHHHceeCCCCCC-ccccCCCCC--CCCceEEEEcCCcEEEEEEEeCCCcceeeccceEEEEEEcCCc
+Confidence            5899999999999999998   455 568976532  2244899999999999999994      455666778876532
+
+
+Q ss_pred             CCCCCCEEEEeechhhhhccCCCCCCCCCceeeeeceeeecCCCCccheeeeeeeCCCCCccccheeeeeeehcc
+Q tr|A0A7P0TB54|   79 WPLDRPFITLLPATTLMSLTDSKQGKNRSGVRMFKDVDFLAPASGELWDRLRLTCSRPFTRHQSFGLAFLRVCSS  153 (229)
+Q Consensus        79 wpldrpfitllpattlmsltdskqgknrsgvrmfkdvdflapasgelwdrlrltcsrpftrhqsfglaflrvcss  153 (229)
+                          ..+..++-. .+         +|......|.-+.-... ....=..|||+|.|.....--|.|-+|.+++.
+T Consensus        85 ----~~~~~v~~~-~l---------~~d~~~Et~~l~~~~~~-~~~~~Ryvki~~l~~~~~~~~~SIw~vev~G~  144 (156)
+T 4PQQ_A           85 ----ENMTELLSS-GL---------KNDYNKETFTLKHKIDE-QMFPCRFIKIVPLLSWGPSFNFSIWYVELSGI  144 (156)
+T ss_dssp             ----TEEEEEEEE-CC---------CSSSCCEEEECCCEETT-EECCEEEEEEEEEEESSSCSCCEECCEEEEEE
+T ss_pred             ----cceEEEeec-cc---------CCCCCceEEEeeeeeCC-ceEEEEEEEEEEeeecCCCCceEEEEEEEEec
+Confidence                345554421 11         12222223321110000 01223689999999987655678888888875
+
+
+No 9
+>7EU3_1 chloroplast NAD(P)H-quinone oxidoreductase, cyclic electron; HET: SQD, LHG, BCR;{Hordeum vulgare}
+Probab=19.22  E-value=1.5e+02  Score=19.46  Aligned_cols=20  Identities=20%  Similarity=0.509  Sum_probs=15.9  Template_Neff=12.200
+
+Q ss_pred             hhccccceeecCCCCCCCCC
+Q tr|A0A7P0TB54|  171 VLNKRWGFTLLPPPGWSRTP  190 (229)
+Q Consensus       171 vlnkrwgftllpppgwsrtp  190 (229)
+                      ..+...||++.-|.+|....
+T Consensus         5 y~~~~~gfs~~~P~~W~~~~   24 (154)
+T 7EU3_1            5 YVDANDGYSYLYPADWRDFD   24 (154)
+T ss_pred             eeCCCCCeEEEcCCCceecc
+Confidence            45667899999999998764
+
+
+No 10
+>7F9O_a Photosystem I, NDH, Photosynthesis; HET: LUT, SF4, CLA, BCR, DGD, LMG, SQD, LHG, CL0, PQN, CHL, XAT; 4.5A {Hordeum vulgare subsp. spontaneum}
+Probab=19.22  E-value=1.5e+02  Score=19.46  Aligned_cols=20  Identities=20%  Similarity=0.509  Sum_probs=15.9  Template_Neff=12.200
+
+Q ss_pred             hhccccceeecCCCCCCCCC
+Q tr|A0A7P0TB54|  171 VLNKRWGFTLLPPPGWSRTP  190 (229)
+Q Consensus       171 vlnkrwgftllpppgwsrtp  190 (229)
+                      ..+...||++.-|.+|....
+T Consensus         5 y~~~~~gfs~~~P~~W~~~~   24 (154)
+T 7F9O_a            5 YVDANDGYSYLYPADWRDFD   24 (154)
+T ss_pred             eeCCCCCeEEEcCCCceecc
+Confidence            45667899999999998764
+
+

@@ -1,0 +1,167 @@
+Query         tr|A0A087WVC5|A0A087WVC5_HUMAN
+Match_columns 617
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 03:32:46 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1371.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6CP3_J ATP synthase subunit 9,  14.0   1E+02  0.0011   24.4  -0.4   18  464-481     2-19  (37)
+  2 2LIC_A Vitellogenin; LIPID TRA  10.9 3.6E+02  0.0039   22.0   1.7   19  539-563    16-34  (35)
+  3 6B2Z_S ATP synthase subunit 9,   6.6 2.8E+02   0.003   24.1  -0.4   16  464-479     2-17  (59)
+  4 6B8H_i ATP synthase subunit 9,   6.6 2.8E+02   0.003   24.1  -0.4   16  464-479     2-17  (59)
+  5 5EHB_A pHiosYI; coiled-coil, p   6.2 7.3E+02  0.0079   20.1   1.6   17   19-35      8-24  (32)
+  6 1UJ8_A Hypothetical protein yf   5.6 6.7E+02  0.0072   22.6   1.2   20   14-33     35-54  (77)
+  7 1XL3_C Outer membrane protein    5.5 9.3E+02    0.01   20.4   1.9   20   17-36     43-62  (92)
+  8 1XL3_D Outer membrane protein    5.5 9.3E+02    0.01   20.4   1.9   20   17-36     43-62  (92)
+  9 2DCE_A SWIRM domain, KIAA1915,   3.8 1.4E+03   0.015   19.2   1.8   25  588-612     1-25  (111)
+ 10 2BZT_A PROTEIN ISCX; IRON BIND   3.8 1.1E+03   0.012   20.0   1.1   19   14-32     24-42  (66)
+
+No 1
+>6CP3_J ATP synthase subunit 9, mitochondrial; ATP synthase, BIOSYNTHETIC PROTEIN; HET: ADP, ATP, FME;{Saccharomyces cerevisiae}
+Probab=14.02  E-value=1e+02  Score=24.36  Aligned_cols=18  Identities=44%  Similarity=0.910  Sum_probs=14.6  Template_Neff=4.500
+
+Q ss_pred             cCCCCCCCCCCCCCCCCC
+Q tr|A0A087WVC5|  464 LKEIPVPVLRPAWPCSSA  481 (617)
+Q Consensus       464 lkeipvpvlrpawpcssa  481 (617)
+                      +|..|.|+++|.||---+
+T Consensus         2 ~rk~ptPi~kP~wPF~~a   19 (37)
+T 6CP3_J            2 LKRFPTPILKVYWPFFVA   19 (37)
+T ss_pred             CCCCCCchHHccHHHHHH
+Confidence            577899999999996543
+
+
+No 2
+>2LIC_A Vitellogenin; LIPID TRANSPORT; HET: SEP; NMR {N/A}
+Probab=10.95  E-value=3.6e+02  Score=21.99  Aligned_cols=19  Identities=63%  Similarity=0.969  Sum_probs=12.1  Template_Neff=1.000
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A087WVC5|  539 GSSSSFSGSEGEDPRPEPDLWKPLP  563 (617)
+Q Consensus       539 gssssfsgsegedprpepdlwkplp  563 (617)
+                      .|||+.+.+|      |-|+|.|-|
+T Consensus        16 tssssissse------endfwqpkp   34 (35)
+T 2LIC_A           16 TSSSSISSSE------ENDFWQPKP   34 (35)
+T ss_dssp             SCSSCCSTTC------SCSSCCCCC
+T ss_pred             cccccCcccc------cccccCCCC
+Confidence            3455666665      467898865
+
+
+No 3
+>6B2Z_S ATP synthase subunit 9, mitochondrial; Complex, Dimer, Mitochondrial inner membrane;{Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.61  E-value=2.8e+02  Score=24.08  Aligned_cols=16  Identities=44%  Similarity=0.995  Sum_probs=13.6  Template_Neff=4.300
+
+Q ss_pred             cCCCCCCCCCCCCCCC
+Q tr|A0A087WVC5|  464 LKEIPVPVLRPAWPCS  479 (617)
+Q Consensus       464 lkeipvpvlrpawpcs  479 (617)
+                      ++..|.||++|.||--
+T Consensus         2 ~rk~PtPi~kP~~PF~   17 (59)
+T 6B2Z_S            2 LKRFPTPILKVYWPFF   17 (59)
+T ss_pred             CCCCCCchhHhhHHHH
+Confidence            5778999999999964
+
+
+No 4
+>6B8H_i ATP synthase subunit 9, mitochondrial; Complex, Proton transporter, MEMBRANE PROTEIN; HET: MG, ANP; 3.6A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=6.61  E-value=2.8e+02  Score=24.08  Aligned_cols=16  Identities=44%  Similarity=0.995  Sum_probs=13.6  Template_Neff=4.300
+
+Q ss_pred             cCCCCCCCCCCCCCCC
+Q tr|A0A087WVC5|  464 LKEIPVPVLRPAWPCS  479 (617)
+Q Consensus       464 lkeipvpvlrpawpcs  479 (617)
+                      ++..|.||++|.||--
+T Consensus         2 ~rk~PtPi~kP~~PF~   17 (59)
+T 6B8H_i            2 LKRFPTPILKVYWPFF   17 (59)
+T ss_pred             CCCCCCchhHhhHHHH
+Confidence            5778999999999964
+
+
+No 5
+>5EHB_A pHiosYI; coiled-coil, peptide design, de novo; HET: IYR; 3.19A {N/A}
+Probab=6.17  E-value=7.3e+02  Score=20.06  Aligned_cols=17  Identities=47%  Similarity=0.634  Sum_probs=12.9  Template_Neff=1.000
+
+Q ss_pred             hHHHHHHHHhChHHHcC
+Q tr|A0A087WVC5|   19 LTALVQLVKEIPEFLFG   35 (617)
+Q Consensus        19 ltalvqlvkeipeflfg   35 (617)
+                      |.-|..+-|||-|||-.
+T Consensus         8 leklaeiqkeiaeflre   24 (32)
+T 5EHB_A            8 LEKLAEIQKEIAEFLRE   24 (32)
+T ss_dssp             HHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            44567788999999853
+
+
+No 6
+>1UJ8_A Hypothetical protein yfhJ; IRON-SULFUR CLUSTER, ISC, STRUCTURAL GENOMICS; 1.75A {Escherichia coli} SCOP: a.159.5.1
+Probab=5.56  E-value=6.7e+02  Score=22.59  Aligned_cols=20  Identities=15%  Similarity=0.361  Sum_probs=17.0  Template_Neff=4.900
+
+Q ss_pred             CCccchHHHHHHHHhChHHH
+Q tr|A0A087WVC5|   14 RHSLHLTALVQLVKEIPEFL   33 (617)
+Q Consensus        14 rhslhltalvqlvkeipefl   33 (617)
+                      ..++.++-|.++|.++|+|-
+T Consensus        35 p~~v~f~~L~~~V~~Lp~F~   54 (77)
+T 1UJ8_A           35 PKTVRFTDMHQWICDLEDFD   54 (77)
+T ss_dssp             GGGCCHHHHHHHHHTSTTBC
+T ss_pred             cccCCHHHHHHHHHcCcccC
+Confidence            34788999999999999883
+
+
+No 7
+>1XL3_C Outer membrane protein yopN, TyeA; yopN, TyeA, Yersinia pestis, type; HET: MLY; 2.2A {Yersinia pestis} SCOP: a.243.1.1
+Probab=5.46  E-value=9.3e+02  Score=20.41  Aligned_cols=20  Identities=15%  Similarity=0.276  Sum_probs=16.7  Template_Neff=7.800
+
+Q ss_pred             cchHHHHHHHHhChHHHcCC
+Q tr|A0A087WVC5|   17 LHLTALVQLVKEIPEFLFGE   36 (617)
+Q Consensus        17 lhltalvqlvkeipeflfge   36 (617)
+                      ..++.|.++++.||+-+|..
+T Consensus        43 ~fl~~l~~l~r~lP~~~F~d   62 (92)
+T 1XL3_C           43 RFYQDLKRMFRLFPLGVFSD   62 (92)
+T ss_dssp             HHHHHHHHHHHTSCGGGSSC
+T ss_pred             HHHHHHHHHHHhCCHhhCCC
+Confidence            45678899999999999964
+
+
+No 8
+>1XL3_D Outer membrane protein yopN, TyeA; yopN, TyeA, Yersinia pestis, type; HET: MLY; 2.2A {Yersinia pestis} SCOP: a.243.1.1
+Probab=5.46  E-value=9.3e+02  Score=20.41  Aligned_cols=20  Identities=15%  Similarity=0.276  Sum_probs=16.7  Template_Neff=7.800
+
+Q ss_pred             cchHHHHHHHHhChHHHcCC
+Q tr|A0A087WVC5|   17 LHLTALVQLVKEIPEFLFGE   36 (617)
+Q Consensus        17 lhltalvqlvkeipeflfge   36 (617)
+                      ..++.|.++++.||+-+|..
+T Consensus        43 ~fl~~l~~l~r~lP~~~F~d   62 (92)
+T 1XL3_D           43 RFYQDLKRMFRLFPLGVFSD   62 (92)
+T ss_dssp             HHHHHHHHHHHTSCGGGSSC
+T ss_pred             HHHHHHHHHHHhCCHhhCCC
+Confidence            45678899999999999964
+
+
+No 9
+>2DCE_A SWIRM domain, KIAA1915, structural genomics; NMR {Homo sapiens}
+Probab=3.78  E-value=1.4e+03  Score=19.17  Aligned_cols=25  Identities=28%  Similarity=0.324  Sum_probs=20.1  Template_Neff=8.900
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A087WVC5|  588 GSSGGSPGEDPRRTEPRYCSGLGAG  612 (617)
+Q Consensus       588 gssggspgedprrteprycsglgag  612 (617)
+                      ||++++.+|......+.+++++...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~   25 (111)
+T 2DCE_A            1 GSSGSSGHEEEELKPPEQEIEIDRN   25 (111)
+T ss_dssp             CCCCCCCCSCCSCCCCSSCCCCCSS
+T ss_pred             CCCCcCCCcccCCCCChhhcccChh
+Confidence            5788888888888888888888654
+
+
+No 10
+>2BZT_A PROTEIN ISCX; IRON BINDING PROTEIN, IRON SULPHUR; NMR {ESCHERICHIA COLI}
+Probab=3.77  E-value=1.1e+03  Score=20.04  Aligned_cols=19  Identities=16%  Similarity=0.450  Sum_probs=16.6  Template_Neff=6.200
+
+Q ss_pred             CCccchHHHHHHHHhChHH
+Q tr|A0A087WVC5|   14 RHSLHLTALVQLVKEIPEF   32 (617)
+Q Consensus        14 rhslhltalvqlvkeipef   32 (617)
+                      ..++.++-|.++|.++|+|
+T Consensus        24 p~~v~~~~L~~~V~~L~~F   42 (66)
+T 2BZT_A           24 PKTVRFTDMHQWICDLEDF   42 (66)
+T ss_dssp             TTTCCHHHHHHHHHHCSSB
+T ss_pred             hhhCCHHHHHHHHHcCcCc
+Confidence            3478899999999999998
+
+

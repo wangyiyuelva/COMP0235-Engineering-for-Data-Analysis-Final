@@ -1,0 +1,167 @@
+Query         sp|Q6P4D5|PBIR3_HUMAN
+Match_columns 195
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 07:43:05 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0455.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5HIZ_A Non-structural protein   20.4      22 0.00024   29.7  -2.7   44  108-151    43-86  (114)
+  2 5YM8_B nsp9; Porcine delta cor  19.0      24 0.00026   29.2  -2.7   43  109-151    38-80  (108)
+  3 2J97_A REPLICASE POLYPROTEIN 1  18.9      25 0.00028   29.1  -2.6   44  108-151    44-87  (109)
+  4 2J98_A REPLICASE POLYPROTEIN 1  18.8      25 0.00027   29.1  -2.6   44  108-151    44-87  (109)
+  5 7EIZ_G VIRAL PROTEIN-RNA COMPL  18.7      30 0.00033   28.8  -2.2   44  108-151    46-91  (113)
+  6 5YM6_A nsp9; Porcine delta cor  17.3      28 0.00031   29.1  -2.7   44  108-151    44-87  (115)
+  7 4C2M_2 DNA-DIRECTED RNA POLYME  15.8 2.2E+02  0.0024   25.3   2.0   20  171-190   322-341 (415)
+  8 5W66_M DNA-directed RNA polyme  15.8 2.2E+02  0.0024   25.3   2.0   20  171-190   322-341 (415)
+  9 6RUI_M RNA polymerase I-specif  15.8 2.2E+02  0.0024   25.3   2.0   20  171-190   322-341 (415)
+ 10 6WXD_B Non-structural protein   15.5      41 0.00044   28.3  -2.2   44  108-151    49-94  (116)
+
+No 1
+>5HIZ_A Non-structural protein 9; RNA binding protein; 2.9A {Porcine epidemic diarrhea virus CV777}
+Probab=20.41  E-value=22  Score=29.69  Aligned_cols=44  Identities=32%  Similarity=0.532  Sum_probs=31.4  Template_Neff=3.300
+
+Q ss_pred             cHHHHHHhhhhhhccCchhccCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRFSKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrfskaqptcfllilpncqkimciyfq  151 (195)
+                      |-...||.|||-++-+..-..-..|--|+.--|+-++|.-.||-
+T Consensus        43 Sd~~~LK~vk~~~~gg~~viELepPckF~v~~~~g~~VkYLYFV   86 (114)
+T 5HIZ_A           43 SDKPDLRVVKWEFDGGCNTIELEPPRKFLVDSPNGAQIKYLYFV   86 (114)
+T ss_dssp             ESSSCCCEEEC---CCCCEEEBCCCEEEEEECSSSEEEEEEEEB
+T ss_pred             ecCCCceEEEEEccCCEEEEeecCCceEEEeCCCCCEEEEEEEE
+Confidence            34568999999776555445555666699999999999999984
+
+
+No 2
+>5YM8_B nsp9; Porcine delta coronavirus, RNA binding; 1.992A {Porcine coronavirus HKU15}
+Probab=19.01  E-value=24  Score=29.17  Aligned_cols=43  Identities=19%  Similarity=0.267  Sum_probs=31.2  Template_Neff=3.500
+
+Q ss_pred             HHHHHHhhhhhhccCchhccCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  109 WEEGLKLVKWHFNINQKRFSKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       109 weeglklvkwhfninqkrfskaqptcfllilpncqkimciyfq  151 (195)
+                      -...||.|||-++-+.--..-..|--|..--|+-++|+-.||-
+T Consensus        38 d~~~LK~vk~~~~gg~vviELepPckF~v~~~~g~~VkYLYFV   80 (108)
+T 5YM8_B           38 TKDNLKTVTCLTETGKTVLNLDPPMRFAHTVGGKQSVVYLYFI   80 (108)
+T ss_dssp             SCSCEEEEEEEC-CCEEEEEBCCCEEEEEEETTEEEEEEEEEB
+T ss_pred             CCCCceEEEEECCCCEEEEEecCCceEEEEeCCceEEEEEEEE
+Confidence            3567999999666444444445566689999999999999984
+
+
+No 3
+>2J97_A REPLICASE POLYPROTEIN 1AB; SSB, ZINC, HCOV, MEMBRANE, HELICASE; HET: SO4; 1.75A {HUMAN CORONAVIRUS 229E}
+Probab=18.89  E-value=25  Score=29.15  Aligned_cols=44  Identities=25%  Similarity=0.492  Sum_probs=32.7  Template_Neff=3.400
+
+Q ss_pred             cHHHHHHhhhhhhccCchhccCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRFSKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrfskaqptcfllilpncqkimciyfq  151 (195)
+                      |-..+||.|||.++-...-..-..|--|..--|+-++++-.||-
+T Consensus        44 Sd~~~Lk~vk~~~~gg~vvieLepPckF~v~~~~g~~v~YLYFV   87 (109)
+T 2J97_A           44 TTKPGMKYVKWEHDSGVVTVELEPPCRFVIDTPTGPQIKYLYFV   87 (109)
+T ss_dssp             ESCSCEEEEEECCSSSCEEEEBCCCEEEEECCTTSCEEEEEEEB
+T ss_pred             eCCCCceEEEEEcCCCEEEEeecCCeeEEEeCCCCCEEEEEEEE
+Confidence            34568999999666544444445566688999999999999984
+
+
+No 4
+>2J98_A REPLICASE POLYPROTEIN 1AB; SSB, HCOV, MEMBRANE, HELICASE, SARS; 1.8A {HUMAN CORONAVIRUS 229E}
+Probab=18.79  E-value=25  Score=29.15  Aligned_cols=44  Identities=25%  Similarity=0.500  Sum_probs=32.7  Template_Neff=3.400
+
+Q ss_pred             cHHHHHHhhhhhhccCchhccCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRFSKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrfskaqptcfllilpncqkimciyfq  151 (195)
+                      |-..+||.|||.++-...-..-..|--|..--|+-++++-.||-
+T Consensus        44 Sd~~~Lk~vk~~~~~g~vvieLepPckF~v~~~~g~~v~YLYFV   87 (109)
+T 2J98_A           44 TTKPGMKYVKWEHDSGVVTVELEPPARFVIDTPTGPQIKYLYFV   87 (109)
+T ss_dssp             ESCSCCCEEEEECCCCEEEEEBCCCEEEEEEETTEEEEEEEEEB
+T ss_pred             eCCCCceEEEEEcCCCEEEEEecCCeeEEEeCCCCCEEEEEEEE
+Confidence            34568999999666544444445566689999999999999984
+
+
+No 5
+>7EIZ_G VIRAL PROTEIN-RNA COMPLEX; HET: ZN;{Severe acute respiratory syndrome coronavirus 2}
+Probab=18.69  E-value=30  Score=28.83  Aligned_cols=44  Identities=20%  Similarity=0.253  Sum_probs=33.5  Template_Neff=3.500
+
+Q ss_pred             cHHHHHHhhhhhhccCchhc--cCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRF--SKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrf--skaqptcfllilpncqkimciyfq  151 (195)
+                      |-...||.|||.++-...-.  .-..|--|..--|+-++|+-.||-
+T Consensus        46 Sd~~~Lk~vk~~~~~g~~vi~~eLepPckF~v~~~~g~~v~YLYFV   91 (113)
+T 7EIZ_G           46 SDLQDLKWARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFI   91 (113)
+T ss_pred             eCCCCceEEEeeCCCCeEEEEeccCCCeEEEEecCCCCEEEEEEEE
+Confidence            55688999999776544444  445566689999999999999984
+
+
+No 6
+>5YM6_A nsp9; Porcine delta coronavirus, RNA binding; 1.803A {Porcine coronavirus HKU15}
+Probab=17.33  E-value=28  Score=29.10  Aligned_cols=44  Identities=20%  Similarity=0.278  Sum_probs=24.2  Template_Neff=3.400
+
+Q ss_pred             cHHHHHHhhhhhhccCchhccCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRFSKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrfskaqptcfllilpncqkimciyfq  151 (195)
+                      |-...||.|||-++-..--..-..|--|..--|+-+++.-.||-
+T Consensus        44 Sd~~~LK~vk~~~~gg~vviELepPckF~v~~~~g~~VkYLYFV   87 (115)
+T 5YM6_A           44 STKDNLKTVTCLTETGKTVLNLDPPMRFAHTVGGKQSVVYLYFI   87 (115)
+T ss_dssp             ESCSCEEEEEEECSSCEEEEEBCCCEEC--------CCCEEEEB
+T ss_pred             eCCCCceEEEEECCCCEEEEEecCCceEEEEeCCceEEEEEEEE
+Confidence            33567999999666444444444555588889999999999984
+
+
+No 7
+>4C2M_2 DNA-DIRECTED RNA POLYMERASES I, II; TRANSCRIPTION, RIBOSOME BIOGENESIS; HET: ZN, SO4; 2.8A {SACCHAROMYCES CEREVISIAE}
+Probab=15.81  E-value=2.2e+02  Score=25.34  Aligned_cols=20  Identities=15%  Similarity=0.449  Sum_probs=15.5  Template_Neff=8.600
+
+Q ss_pred             hhhhHHHHHHHHHHHHHhcc
+Q sp|Q6P4D5|PBIR  171 SALSQTLLCHLLILVLICSS  190 (195)
+Q Consensus       171 salsqtllchllilvlicss  190 (195)
+                      .....-|+||+++|.|++..
+T Consensus       322 ~~~kdKll~~ilvL~L~l~~  341 (415)
+T 4C2M_2          322 PQNEDKILCYILAIIMHLDN  341 (415)
+T ss_pred             HHHHHHHHHHHHHHHHHHcc
+Confidence            44455689999999998764
+
+
+No 8
+>5W66_M DNA-directed RNA polymerase I subunit; RNA Polymerase I Core Factor; 3.9A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=15.81  E-value=2.2e+02  Score=25.34  Aligned_cols=20  Identities=15%  Similarity=0.449  Sum_probs=16.0  Template_Neff=8.600
+
+Q ss_pred             hhhhHHHHHHHHHHHHHhcc
+Q sp|Q6P4D5|PBIR  171 SALSQTLLCHLLILVLICSS  190 (195)
+Q Consensus       171 salsqtllchllilvlicss  190 (195)
+                      .....-|+||+++|.|++..
+T Consensus       322 ~~~kdKll~~ilvL~L~l~~  341 (415)
+T 5W66_M          322 PQNEDKILCYILAIIMHLDN  341 (415)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHHHcc
+Confidence            45556789999999999864
+
+
+No 9
+>6RUI_M RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=15.81  E-value=2.2e+02  Score=25.34  Aligned_cols=20  Identities=15%  Similarity=0.449  Sum_probs=15.5  Template_Neff=8.600
+
+Q ss_pred             hhhhHHHHHHHHHHHHHhcc
+Q sp|Q6P4D5|PBIR  171 SALSQTLLCHLLILVLICSS  190 (195)
+Q Consensus       171 salsqtllchllilvlicss  190 (195)
+                      .....-|+||+++|.|++..
+T Consensus       322 ~~~kdKll~~ilvL~L~l~~  341 (415)
+T 6RUI_M          322 PQNEDKILCYILAIIMHLDN  341 (415)
+T ss_pred             HHHHHHHHHHHHHHHHHHcc
+Confidence            44455689999999998764
+
+
+No 10
+>6WXD_B Non-structural protein 9; COVID-19, SARS-CoV-2, Nsp9, RNA replicase; HET: SO4; 2.0A {Severe acute respiratory syndrome coronavirus 2}
+Probab=15.51  E-value=41  Score=28.28  Aligned_cols=44  Identities=20%  Similarity=0.253  Sum_probs=31.5  Template_Neff=3.400
+
+Q ss_pred             cHHHHHHhhhhhhccCchhc--cCCCCceeeeeCCCcchhhhhhHH
+Q sp|Q6P4D5|PBIR  108 SWEEGLKLVKWHFNINQKRF--SKAQPTCFLLILPNCQKIMCIYFQ  151 (195)
+Q Consensus       108 sweeglklvkwhfninqkrf--skaqptcfllilpncqkimciyfq  151 (195)
+                      |-...||.|||.++-...-.  .-..|--|..--|+-++++-.||-
+T Consensus        49 Sd~~~Lk~vk~~~~~g~~vi~~eLepPckF~v~~~~g~~v~YLYFV   94 (116)
+T 6WXD_B           49 SDLQDLKWARFPKSDGTGTIYTELEPPCRFVTDTPKGPKVKYLYFI   94 (116)
+T ss_dssp             ESCSCCCEEEEECTTSSCEEEEEBCCCEEEEEEETTEEEEEEEEEB
+T ss_pred             ecCCCceEEEeeCCCCeEEEEeccCCCeEEEEecCCCCEEEEEEEE
+Confidence            34567999999665433333  344556689999999999999984
+
+

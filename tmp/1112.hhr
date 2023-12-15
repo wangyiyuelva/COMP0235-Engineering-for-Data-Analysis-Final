@@ -1,0 +1,169 @@
+Query         tr|F6T5D1|F6T5D1_HUMAN
+Match_columns 105
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:38:15 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1112.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3TNU_A Keratin, type I cytoske  40.0      41 0.00045   18.2   1.3   17    3-19      6-22  (131)
+  2 1JM0_E PROTEIN (FOUR-HELIX BUN  29.4 1.6E+02  0.0017   16.3   2.5   22    4-25     10-31  (50)
+  3 1OVV_E FOUR-HELIX BUNDLE MODEL  29.4 1.6E+02  0.0017   16.3   2.5   22    4-25     10-31  (50)
+  4 3E5D_A Putative Glyoxalase I;   23.5 1.5E+02  0.0017   15.8   1.8   18    2-19     11-28  (127)
+  5 4MTS_A Lactoylglutathione lyas  22.3 1.5E+02  0.0016   16.0   1.6   17    2-18     10-26  (131)
+  6 6UUI_X Keratin, type II cytosk  22.3 1.3E+02  0.0014   15.6   1.3   11    8-18      2-12  (122)
+  7 3TNU_B Keratin, type I cytoske  20.8 1.6E+02  0.0017   15.5   1.5   16    3-18      4-19  (129)
+  8 3BL4_A Uncharacterized protein  20.6 1.3E+02  0.0014   17.0   1.1   12    3-14    112-123 (124)
+  9 1KLL_A Mitomycin C, antibiotic  19.7 1.8E+02  0.0019   15.8   1.5   16    3-19     13-28  (130)
+ 10 1U7I_A hypothetical protein; s  19.4 1.9E+02  0.0021   16.7   1.7   17    1-17     13-30  (136)
+
+No 1
+>3TNU_A Keratin, type I cytoskeletal 14; Coiled-coil, Structural Support, CYTOSOLIC PROTEIN; 3.005A {Homo sapiens}
+Probab=39.97  E-value=41  Score=18.17  Aligned_cols=17  Identities=29%  Similarity=0.593  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             CChhhHhHHHHHHhccc
+Q tr|F6T5D1|F6T5    3 SNERDAISWYQKKIGAY   19 (105)
+Q Consensus         3 snerdaiswyqkkigay   19 (105)
+                      .|.+|+-.||+.|+...
+T Consensus         6 ~~~~e~e~~y~~k~~~~   22 (131)
+T 3TNU_A            6 KNRKDAEEWFFTKTEEL   22 (131)
+T ss_dssp             -----------------
+T ss_pred             HHHHHHHHHHHHHHHHH
+Confidence            46788899999886643
+
+
+No 2
+>1JM0_E PROTEIN (FOUR-HELIX BUNDLE MODEL); ALPHA-HELICAL BUNDLE, PROTEIN DESIGN, DE; HET: ACE, MN, DMS; 1.7A {N/A} SCOP: k.8.1.1
+Probab=29.37  E-value=1.6e+02  Score=16.28  Aligned_cols=22  Identities=18%  Similarity=0.199  Sum_probs=15.3  Template_Neff=9.000
+
+Q ss_pred             ChhhHhHHHHHHhccchHHHHH
+Q tr|F6T5D1|F6T5    4 NERDAISWYQKKIGAYDQQIWE   25 (105)
+Q Consensus         4 nerdaiswyqkkigaydqqiwe   25 (105)
+                      .|++|+..|++.+..-...+.+
+T Consensus        10 ~E~~ai~~Y~~~~~~~~~~l~~   31 (50)
+T 1JM0_E           10 LELQAIKQYREALEYVKLPVLA   31 (50)
+T ss_dssp             HHHHHHHHHHHHHHHCCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHccHHHHH
+Confidence            4789999999887655443333
+
+
+No 3
+>1OVV_E FOUR-HELIX BUNDLE MODEL di-Co(II)-DF1-L13A (form; ALPHA-HELICAL BUNDLE, PROTEIN DESIGN, DE; HET: ACE; 2.9A {N/A} SCOP: k.8.1.1
+Probab=29.37  E-value=1.6e+02  Score=16.28  Aligned_cols=22  Identities=18%  Similarity=0.199  Sum_probs=15.3  Template_Neff=9.000
+
+Q ss_pred             ChhhHhHHHHHHhccchHHHHH
+Q tr|F6T5D1|F6T5    4 NERDAISWYQKKIGAYDQQIWE   25 (105)
+Q Consensus         4 nerdaiswyqkkigaydqqiwe   25 (105)
+                      .|++|+..|++.+..-...+.+
+T Consensus        10 ~E~~ai~~Y~~~~~~~~~~l~~   31 (50)
+T 1OVV_E           10 LELQAIKQYREALEYVKLPVLA   31 (50)
+T ss_dssp             HHHHHHHHHHHHHHHCCCHHHH
+T ss_pred             HHHHHHHHHHHHHHHccHHHHH
+Confidence            4789999999887655443333
+
+
+No 4
+>3E5D_A Putative Glyoxalase I; Structural genomics, Joint Center for; HET: MSE; 2.7A {Listeria monocytogenes str. 4b F2365}
+Probab=23.54  E-value=1.5e+02  Score=15.84  Aligned_cols=18  Identities=22%  Similarity=0.331  Sum_probs=14.4  Template_Neff=13.000
+
+Q ss_pred             CCChhhHhHHHHHHhccc
+Q tr|F6T5D1|F6T5    2 ASNERDAISWYQKKIGAY   19 (105)
+Q Consensus         2 asnerdaiswyqkkigay   19 (105)
+                      ..+-..+..||++..|..
+T Consensus        11 ~~d~~~~~~fy~~~lg~~   28 (127)
+T 3E5D_A           11 TTNLEQMKQFYVTYFGAT   28 (127)
+T ss_dssp             CSSHHHHHHHHHHHHCCE
+T ss_pred             eCCHHHHHHHHHHHhCCE
+Confidence            356778999999988875
+
+
+No 5
+>4MTS_A Lactoylglutathione lyase (E.C.4.4.1.5); isomerase, hydrolase, metal binding, LYASE; HET: GOL; 1.8A {Pseudomonas aeruginosa}
+Probab=22.29  E-value=1.5e+02  Score=15.99  Aligned_cols=17  Identities=12%  Similarity=0.432  Sum_probs=12.5  Template_Neff=13.000
+
+Q ss_pred             CCChhhHhHHHHHHhcc
+Q tr|F6T5D1|F6T5    2 ASNERDAISWYQKKIGA   18 (105)
+Q Consensus         2 asnerdaiswyqkkiga   18 (105)
+                      .++-..++.||++..|.
+T Consensus        10 ~~d~~~~~~fy~~~lg~   26 (131)
+T 4MTS_A           10 VADLEAALEFYTRALDM   26 (131)
+T ss_dssp             CSCHHHHHHCCCCCTCC
+T ss_pred             eCCHHHHHHHHHHhcCC
+Confidence            35667788899887765
+
+
+No 6
+>6UUI_X Keratin, type II cytoskeletal 1; intermediate filament, cytoskeleton, skin, coiled-coil; HET: GOL, BOG; 2.069A {Homo sapiens}
+Probab=22.27  E-value=1.3e+02  Score=15.57  Aligned_cols=11  Identities=18%  Similarity=0.637  Sum_probs=4.0  Template_Neff=13.400
+
+Q ss_pred             HhHHHHHHhcc
+Q tr|F6T5D1|F6T5    8 AISWYQKKIGA   18 (105)
+Q Consensus         8 aiswyqkkiga   18 (105)
+                      +-+||+.|+..
+T Consensus         2 ~e~~y~~k~~~   12 (122)
+T 6UUI_X            2 SEAWFNEKSKE   12 (122)
+T ss_dssp             HHH----HHHH
+T ss_pred             HHHHHHHHHHH
+Confidence            45788777544
+
+
+No 7
+>3TNU_B Keratin, type I cytoskeletal 14; Coiled-coil, Structural Support, CYTOSOLIC PROTEIN; 3.005A {Homo sapiens}
+Probab=20.75  E-value=1.6e+02  Score=15.46  Aligned_cols=16  Identities=38%  Similarity=0.667  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             CChhhHhHHHHHHhcc
+Q tr|F6T5D1|F6T5    3 SNERDAISWYQKKIGA   18 (105)
+Q Consensus         3 snerdaiswyqkkiga   18 (105)
+                      .|.+++-+||+.|...
+T Consensus         4 ~~~~~~e~~~~~k~~~   19 (129)
+T 3TNU_B            4 RSRTEAESWYQTKYEE   19 (129)
+T ss_dssp             ----------------
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            3556788899887543
+
+
+No 8
+>3BL4_A Uncharacterized protein; Structural genomics, Joint Center for; HET: SO4, MSE; 2.2A {Arthrobacter sp.}
+Probab=20.61  E-value=1.3e+02  Score=16.96  Aligned_cols=12  Identities=42%  Similarity=0.944  Sum_probs=9.1  Template_Neff=12.100
+
+Q ss_pred             CChhhHhHHHHH
+Q tr|F6T5D1|F6T5    3 SNERDAISWYQK   14 (105)
+Q Consensus         3 snerdaiswyqk   14 (105)
+                      +++.+|+.|...
+T Consensus       112 ~~~~eA~~Wl~~  123 (124)
+T 3BL4_A          112 TSERDALTWLAL  123 (124)
+T ss_dssp             SCHHHHHHHHTC
+T ss_pred             CCHHHHHHHHhc
+Confidence            477889999753
+
+
+No 9
+>1KLL_A Mitomycin C, antibiotic resistance, SAD; HET: MC, MSE; 1.5A {Streptomyces lavendulae} SCOP: d.32.1.2
+Probab=19.68  E-value=1.8e+02  Score=15.79  Aligned_cols=16  Identities=19%  Similarity=0.557  Sum_probs=12.2  Template_Neff=12.900
+
+Q ss_pred             CChhhHhHHHHHHhccc
+Q tr|F6T5D1|F6T5    3 SNERDAISWYQKKIGAY   19 (105)
+Q Consensus         3 snerdaiswyqkkigay   19 (105)
+                      ++-..+++||++ .|.-
+T Consensus        13 ~d~~~~~~fy~~-lg~~   28 (130)
+T 1KLL_A           13 EDMAKSMEFYRK-MGVE   28 (130)
+T ss_dssp             SCHHHHHHHHHH-TTCC
+T ss_pred             cCHHHHHHHHHH-cCCc
+Confidence            456788999998 8753
+
+
+No 10
+>1U7I_A hypothetical protein; structural genomics, hypothetical protein, PA1358; HET: MSE; 1.4A {Pseudomonas aeruginosa} SCOP: d.32.1.7
+Probab=19.39  E-value=1.9e+02  Score=16.74  Aligned_cols=17  Identities=12%  Similarity=0.341  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCC-ChhhHhHHHHHHhc
+Q tr|F6T5D1|F6T5    1 MAS-NERDAISWYQKKIG   17 (105)
+Q Consensus         1 mas-nerdaiswyqkkig   17 (105)
+                      ... |-..|+.||++.+|
+T Consensus        13 ~~~~d~~~~~~fy~~~lG   30 (136)
+T 1U7I_A           13 FQGVQAEAAMNFYLSLFD   30 (136)
+T ss_dssp             EESSCHHHHHHHHHHHCS
+T ss_pred             eCCCCHHHHHHHHHHhcC
+
+

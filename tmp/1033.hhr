@@ -1,0 +1,168 @@
+Query         tr|J3KRC3|J3KRC3_HUMAN
+Match_columns 135
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:16:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1033.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5MVW_C Centrosomin; Centrosome  16.9 2.4E+02  0.0026   20.5   2.0   16    3-18     42-57  (58)
+  2 5MW9_H Centrosomin; Centrosome  16.7 2.4E+02  0.0026   20.5   2.0   16    3-18     42-57  (58)
+  3 6RGN_A T3SS cytotoxic effector  11.6 7.6E+02  0.0083   20.9   3.8   38   47-84      8-46  (151)
+  4 5X8T_E 50S ribosomal protein L  10.9 5.4E+02  0.0059   20.8   2.7    8   35-42    227-234 (243)
+  5 5MWE_D Centrosomin; Centrosome  10.0 4.7E+02  0.0051   20.0   1.9   16    3-18     42-57  (81)
+  6 2Y5N_A P-450-LIKE PROTEIN; OXI   9.4 6.7E+02  0.0072   18.5   2.5   18   47-64      8-25  (417)
+  7 2ESE_A protein-RNA complex, sh   8.7 6.7E+02  0.0072   14.6   1.9   17   48-64      9-25  (101)
+  8 4LH9_A Heterocyst differentiat   8.6 5.4E+02  0.0059   17.6   1.7   16    2-17      6-21  (40)
+  9 5T51_B KLLA0F02343p, KLLA0E058   7.9 7.8E+02  0.0085   16.7   2.2   16    2-17     85-100 (102)
+ 10 5T59_B KLLA0F02343p, KLLA0E058   7.9 7.8E+02  0.0085   16.7   2.2   16    2-17     85-100 (102)
+
+No 1
+>5MVW_C Centrosomin; Centrosome, Centriole, Coiled-coil, Mitosis, cell; HET: EDO; 1.82A {Drosophila melanogaster}
+Probab=16.87  E-value=2.4e+02  Score=20.51  Aligned_cols=16  Identities=50%  Similarity=0.621  Sum_probs=14.1  Template_Neff=3.300
+
+Q ss_pred             hhhHHHHHHHHHHhhc
+Q tr|J3KRC3|J3KR    3 LSQRLSELDWMLKSAL   18 (135)
+Q Consensus         3 lsqrlseldwmlksal   18 (135)
+                      |+.||.||-.+|.|.|
+T Consensus        42 Lt~RLEELA~FLdSLL   57 (58)
+T 5MVW_C           42 LTNRLEELAGFLNSLL   57 (58)
+T ss_dssp             HHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHh
+Confidence            6789999999999876
+
+
+No 2
+>5MW9_H Centrosomin; Centrosome, Centriole, Coiled-coil, Mitosis, Cell; 2.2A {Drosophila melanogaster}
+Probab=16.74  E-value=2.4e+02  Score=20.48  Aligned_cols=16  Identities=44%  Similarity=0.480  Sum_probs=14.0  Template_Neff=3.300
+
+Q ss_pred             hhhHHHHHHHHHHhhc
+Q tr|J3KRC3|J3KR    3 LSQRLSELDWMLKSAL   18 (135)
+Q Consensus         3 lsqrlseldwmlksal   18 (135)
+                      |+.||.||-.+|.|.|
+T Consensus        42 Lt~RLEELA~FLdSLL   57 (58)
+T 5MW9_H           42 LTNRLEEEAGFLNSLL   57 (58)
+T ss_dssp             HHHHHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHHHHHHHh
+Confidence            6789999999999876
+
+
+No 3
+>6RGN_A T3SS cytotoxic effector BteA; PIP2 effector Type three secretion; HET: SO4; 2.01A {Bordetella pertussis}
+Probab=11.60  E-value=7.6e+02  Score=20.93  Aligned_cols=38  Identities=24%  Similarity=0.294  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             CCCCCCCccCCCCCCCCCCCCCCCCCCCCCCCC-CCCCC
+Q tr|J3KRC3|J3KR   47 SQHSDGIVEYGPKKSRPGLSMRRKPPYRSHSLS-PSPVN   84 (135)
+Q Consensus        47 sqhsdgiveygpkksrpglsmrrkppyrshsls-pspvn   84 (135)
+                      -.||.|+|..|-+-..-.+..-...||++.+-+ |+.++
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~n~~~~~~~~~~~~~~p~~~~   46 (151)
+T 6RGN_A            8 HHHSSGLVPRGSHMLSNNVNPVVGLSYRPLPETPPSGQA   46 (151)
+T ss_dssp             ---------------------------------------
+T ss_pred             ccccCCCCCCcccccCCCCCCCCCCCCCCCCCCCCCccc
+Confidence            357899999888877777777777888888777 55443
+
+
+No 4
+>5X8T_E 50S ribosomal protein L31,50S ribosomal; Cryo-EM, ribosome, chloroplast ribosome; 3.3A {Spinacia oleracea}
+Probab=10.95  E-value=5.4e+02  Score=20.76  Aligned_cols=8  Identities=63%  Similarity=1.041  Sum_probs=3.5  Template_Neff=7.700
+
+Q ss_pred             CCCCCCCC
+Q tr|J3KRC3|J3KR   35 NEEVEDGT   42 (135)
+Q Consensus        35 neevedgt   42 (135)
+                      .|||.||.
+T Consensus       227 ~~~~~~~~  234 (243)
+T 5X8T_E          227 GEEVDDGV  234 (243)
+T ss_pred             CcccccCc
+Confidence            34444443
+
+
+No 5
+>5MWE_D Centrosomin; Centrosome, Centriole, Coiled-coil, Mitosis, Cell; HET: TCE; 2.02A {Drosophila melanogaster}
+Probab=9.97  E-value=4.7e+02  Score=19.97  Aligned_cols=16  Identities=50%  Similarity=0.621  Sum_probs=13.5  Template_Neff=3.800
+
+Q ss_pred             hhhHHHHHHHHHHhhc
+Q tr|J3KRC3|J3KR    3 LSQRLSELDWMLKSAL   18 (135)
+Q Consensus         3 lsqrlseldwmlksal   18 (135)
+                      |+.||.||-.+|.|.|
+T Consensus        42 Lt~RLEELA~FLdSLL   57 (81)
+T 5MWE_D           42 LTNRLEELAGFLNSLL   57 (81)
+T ss_pred             HHHHHHHHHHHHHHHh
+Confidence            6778999988888877
+
+
+No 6
+>2Y5N_A P-450-LIKE PROTEIN; OXIDOREDUCTASE, MYCINAMICIN BIOSYNTHESIS; HET: MYV, GOL, HEM; 1.62A {MICROMONOSPORA GRISEORUBIDA}
+Probab=9.43  E-value=6.7e+02  Score=18.51  Aligned_cols=18  Identities=28%  Similarity=0.504  Sum_probs=1.5  Template_Neff=12.000
+
+Q ss_pred             CCCCCCCccCCCCCCCCC
+Q tr|J3KRC3|J3KR   47 SQHSDGIVEYGPKKSRPG   64 (135)
+Q Consensus        47 sqhsdgiveygpkksrpg   64 (135)
+                      -.||.|.|.||-+-+-||
+T Consensus         8 ~~~~~~~~~~~~~~~~~~   25 (417)
+T 2Y5N_A            8 HHHSSGLVPRGSHMTSAE   25 (417)
+T ss_dssp             ----------------CC
+T ss_pred             cccCCCCCCCCcccCCCC
+Confidence            468999999998887777
+
+
+No 7
+>2ESE_A protein-RNA complex, shape specific recognition; NMR {Saccharomyces cerevisiae}
+Probab=8.72  E-value=6.7e+02  Score=14.61  Aligned_cols=17  Identities=29%  Similarity=0.505  Sum_probs=2.6  Template_Neff=11.400
+
+Q ss_pred             CCCCCCccCCCCCCCCC
+Q tr|J3KRC3|J3KR   48 QHSDGIVEYGPKKSRPG   64 (135)
+Q Consensus        48 qhsdgiveygpkksrpg   64 (135)
+                      .|+.|+|-.|..+..+.
+T Consensus         9 ~~~~~~~~~~~~~~~~~   25 (101)
+T 2ESE_A            9 HHSSGLVPRGSHMPKSL   25 (101)
+T ss_dssp             ------------CCSCC
+T ss_pred             cccCCCCCCCcCCCCcC
+Confidence            47888887776665553
+
+
+No 8
+>4LH9_A Heterocyst differentiation control protein (E.C.3.4.21.-); single helix, loop packing around; 2.049A {Nostoc}
+Probab=8.62  E-value=5.4e+02  Score=17.65  Aligned_cols=16  Identities=19%  Similarity=0.428  Sum_probs=12.5  Template_Neff=3.100
+
+Q ss_pred             ChhhHHHHHHHHHHhh
+Q tr|J3KRC3|J3KR    2 KLSQRLSELDWMLKSA   17 (135)
+Q Consensus         2 klsqrlseldwmlksa   17 (135)
+                      .+.+.+.|||.+++.-
+T Consensus         6 ~~e~A~~ELDeiir~W   21 (40)
+T 4LH9_A            6 RWDEAMQELDEIIRTW   21 (40)
+T ss_dssp             SCHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            4678899999988753
+
+
+No 9
+>5T51_B KLLA0F02343p, KLLA0E05809p; cell cycle, kinetochore, complex, chromosome; 2.2007A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=7.90  E-value=7.8e+02  Score=16.71  Aligned_cols=16  Identities=25%  Similarity=0.553  Sum_probs=11.7  Template_Neff=8.400
+
+Q ss_pred             ChhhHHHHHHHHHHhh
+Q tr|J3KRC3|J3KR    2 KLSQRLSELDWMLKSA   17 (135)
+Q Consensus         2 klsqrlseldwmlksa   17 (135)
+                      .|...|.+||.++..|
+T Consensus        85 ~l~~kL~~LD~li~eA  100 (102)
+T 5T51_B           85 SIEEKLNQLDDLINKA  100 (102)
+T ss_dssp             THHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHH
+Confidence            4567788888887654
+
+
+No 10
+>5T59_B KLLA0F02343p, KLLA0E05809p, KLLA0B13629p; cell cycle, kinetochore, complex, chromosome; HET: NHE; 2.405A {Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)}
+Probab=7.90  E-value=7.8e+02  Score=16.71  Aligned_cols=16  Identities=25%  Similarity=0.553  Sum_probs=11.7  Template_Neff=8.400
+
+Q ss_pred             ChhhHHHHHHHHHHhh
+Q tr|J3KRC3|J3KR    2 KLSQRLSELDWMLKSA   17 (135)
+Q Consensus         2 klsqrlseldwmlksa   17 (135)
+                      .|...|.+||.++..|
+T Consensus        85 ~l~~kL~~LD~li~eA  100 (102)
+T 5T59_B           85 SIEEKLNQLDDLINKA  100 (102)
+T ss_dssp             THHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHHH
+Confidence            4567788888887654
+
+

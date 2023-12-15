@@ -1,0 +1,250 @@
+Query         sp|Q06413|MEF2C_HUMAN
+Match_columns 473
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 06:35:53 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1521.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6BZ1_B Myocyte-specific enhanc  99.6 1.5E-14 1.7E-19   87.1   6.9   94    2-95      2-95  (95)
+  2 6WC2_C MEF2 Chimera, Homeobox   99.5 6.2E-14 6.7E-19   84.9   6.6   94    2-95      2-95  (95)
+  3 1N6J_A Myocyte-specific enhanc  99.4   3E-12 3.2E-17   76.5   6.7   92    3-94      2-93  (93)
+  4 1EGW_C MADS BOX TRANSCRIPTION   99.0 2.5E-09 2.7E-14   59.9   5.2   72    5-76      4-75  (77)
+  5 1EGW_D MADS BOX TRANSCRIPTION   99.0 2.5E-09 2.7E-14   59.9   5.2   72    5-76      4-75  (77)
+  6 3MU6_D Myocyte-specific enhanc  98.8 3.1E-08 3.3E-13   54.0   5.1   66    6-71      5-70  (71)
+  7 1K6O_B ETS-domain protein ELK-  98.3 1.8E-06   2E-11   58.2   5.0   68    4-71     12-79  (103)
+  8 1K6O_C ETS-domain protein ELK-  98.3 1.8E-06   2E-11   58.2   5.0   72    3-74     11-82  (103)
+  9 1MNM_A MCM1 TRANSCRIPTIONAL RE  98.3 3.9E-06 4.2E-11   56.7   5.0   66    7-72     22-87  (100)
+ 10 1HBX_D SERUM RESPONSE FACTOR,   98.1 6.3E-06 6.9E-11   53.3   3.9   65    7-71     16-80  (92)
+ 11 1HBX_E SERUM RESPONSE FACTOR,   98.1 6.3E-06 6.9E-11   53.3   3.9   65    7-71     16-80  (92)
+ 12 7NB0_A Transcription factor, M  98.0 5.5E-05 5.9E-10   38.7   4.9   49   24-72      7-56  (57)
+ 13 7NB0_D Transcription factor, M  98.0 5.5E-05 5.9E-10   38.7   4.9   49   24-72      7-56  (57)
+
+No 1
+>6BZ1_B Myocyte-specific enhancer factor 2B/DNA Complex; MEF2, Transcription Factor, D83V mutant; 2.97A {Homo sapiens}
+Probab=99.58  E-value=1.5e-14  Score=87.10  Aligned_cols=94  Identities=88%  Similarity=1.292  Sum_probs=72.9  Template_Neff=13.800
+
+Q ss_pred             CCCCceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCCCCCCCCc
+Q sp|Q06413|MEF2    2 GRKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNEPHESRTN   81 (473)
+Q Consensus         2 grkkiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteynephesrtn   81 (473)
+                      +++.+.+..+.........+.++..+++.........+........+...+..+.+....+.++++||..+.++.....+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~~~~~~~~   81 (95)
+T 6BZ1_B            2 GRKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSSNKLFQYASTDMDKVLLKYTEYSEPHESRTN   81 (95)
+T ss_dssp             CCSCCCSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEESSCHHHHHHHHHHCCSCCEEEEC
+T ss_pred             CCCcccceeCCChHHHHhhHHHhhHhHHHHHHHHHHHcCCeEEEEEEcCCCCeEEecCccHHHHHHHHhcCCCCccccch
+Confidence            45555556666665555566677777888888889999999999999988888888888899999999999999999999
+
+
+Q ss_pred             hhHHHHHHHCCCCC
+Q sp|Q06413|MEF2   82 SDIVETLRKKGLNG   95 (473)
+Q Consensus        82 sdivetlrkkglng   95 (473)
+                      .+++++|+||||||
+T Consensus        82 ~~~~~~l~kk~~~g   95 (95)
+T 6BZ1_B           82 TVILETLKRREHRG   95 (95)
+T ss_dssp             CCCCCCC-------
+T ss_pred             HHHHHHHHHHhhcC
+Confidence            99999999999998
+
+
+No 2
+>6WC2_C MEF2 Chimera, Homeobox protein Nkx-2.5/DNA; Transcription Factor, DNA binding Protein; 2.1A {Homo sapiens}
+Probab=99.53  E-value=6.2e-14  Score=84.93  Aligned_cols=94  Identities=89%  Similarity=1.319  Sum_probs=76.8  Template_Neff=13.700
+
+Q ss_pred             CCCCceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCCCCCCCCc
+Q sp|Q06413|MEF2    2 GRKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNEPHESRTN   81 (473)
+Q Consensus         2 grkkiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteynephesrtn   81 (473)
+                      +++.+.+..+.+...+...+.++..+++........++........+...+..+.+....+.++++||..+.++...+.+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~~~~~~~~   81 (95)
+T 6WC2_C            2 GRKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSSNKLFQYASTDMDKVLLKYTEYSEPHESRTN   81 (95)
+T ss_dssp             CCSCCCSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEESSCHHHHHHHHHHCCSCCEEECH
+T ss_pred             CCccccceeCCCHHHHHHhHHHHHHhHHHHHHHHHHHcCCeEEEEEEcCCCCeeeeCCccHHHHHHHHHcCCCCcccCCc
+Confidence            45566666666666666667777778888888899999999999999998888888888899999999999999999999
+
+
+Q ss_pred             hhHHHHHHHCCCCC
+Q sp|Q06413|MEF2   82 SDIVETLRKKGLNG   95 (473)
+Q Consensus        82 sdivetlrkkglng   95 (473)
+                      .++.++|+||||||
+T Consensus        82 ~~~~~~l~kk~~~g   95 (95)
+T 6WC2_C           82 TDILETLKRREHRG   95 (95)
+T ss_dssp             HHHHHHHCC-----
+T ss_pred             hHHHHHHHHHHhcC
+Confidence            99999999999998
+
+
+No 3
+>1N6J_A Myocyte-specific enhancer factor 2B/Calcineurin-binding protein; MADS-box, Protein-DNA complex, histone deacetylases; 2.2A {Homo sapiens} SCOP: d.88.1.1
+Probab=99.39  E-value=3e-12  Score=76.53  Aligned_cols=92  Identities=85%  Similarity=1.322  Sum_probs=77.1  Template_Neff=13.900
+
+Q ss_pred             CCCceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCCCCCCCCch
+Q sp|Q06413|MEF2    3 RKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNEPHESRTNS   82 (473)
+Q Consensus         3 rkkiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteynephesrtns   82 (473)
+                      ++.+.+..+.....+...+.++..+++........++........+...+..+.+....+.++++||..+.++...+.+.
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~~~~~~~~~   81 (93)
+T 1N6J_A            2 RKKIQISRILDQRNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSANRLFQYASTDMDRVLLKYTEYSEPHESRTNT   81 (93)
+T ss_dssp             CSCCCSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEESSCHHHHHHHHHTCSSCSEEEEHH
+T ss_pred             CCcccceeCCChHHHHHHHHHHHHhHHHHHHHHHHHCCCeEEEEEEcCCCCEEeeCCchHHHHHHHHhcCCCcccccccc
+Confidence            34445555666555555666677777888888999999999999999888888998889999999999999999999999
+
+
+Q ss_pred             hHHHHHHHCCCC
+Q sp|Q06413|MEF2   83 DIVETLRKKGLN   94 (473)
+Q Consensus        83 divetlrkkgln   94 (473)
+                      +++++|+|||++
+T Consensus        82 ~~~~~l~kk~~~   93 (93)
+T 1N6J_A           82 DILETLKRRGIG   93 (93)
+T ss_dssp             HHHHHHHHHHHC
+T ss_pred             hHHHHHHhcCCC
+Confidence            999999999974
+
+
+No 4
+>1EGW_C MADS BOX TRANSCRIPTION ENHANCER FACTOR; MADS-box transcription factor, DNA-protein complex; 1.5A {Homo sapiens} SCOP: d.88.1.1
+Probab=98.99  E-value=2.5e-09  Score=59.91  Aligned_cols=72  Identities=99%  Similarity=1.432  Sum_probs=51.7  Template_Neff=14.500
+
+Q ss_pred             CceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCCCC
+Q sp|Q06413|MEF2    5 KIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNEPH   76 (473)
+Q Consensus         5 kiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteyneph   76 (473)
+                      ++.+..+.........+.++..++..........+........+...+..+.+....+.++++||..+.++.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~~~   75 (77)
+T 1EGW_C            4 KIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSSNKLFQYASTDMDKVLLKYTEYNEPH   75 (77)
+T ss_dssp             CCCSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHTTCEEEEEEECTTCCEEEEESSCHHHHHHHHHTC----
+T ss_pred             cccceecCCHHHHHHHHHHHHhHHHHHHHHHHHHcCCeEEEEEEcCCCCeeeeeCCCHHHHHHHHHhcCCCC
+Confidence            334444444444444555666677777888888999999999998888888888888999999999887553
+
+
+No 5
+>1EGW_D MADS BOX TRANSCRIPTION ENHANCER FACTOR; MADS-box transcription factor, DNA-protein complex; 1.5A {Homo sapiens} SCOP: d.88.1.1
+Probab=98.99  E-value=2.5e-09  Score=59.91  Aligned_cols=72  Identities=99%  Similarity=1.432  Sum_probs=51.7  Template_Neff=14.500
+
+Q ss_pred             CceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCCCC
+Q sp|Q06413|MEF2    5 KIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNEPH   76 (473)
+Q Consensus         5 kiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteyneph   76 (473)
+                      ++.+..+.........+.++..++..........+........+...+..+.+....+.++++||..+.++.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~~~~~~   75 (77)
+T 1EGW_D            4 KIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSSNKLFQYASTDMDKVLLKYTEYNEPH   75 (77)
+T ss_dssp             CCCSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHTTCEEEEEEECTTCCEEEEESSCHHHHHHHHHTC----
+T ss_pred             cccceecCCHHHHHHHHHHHHhHHHHHHHHHHHHcCCeEEEEEEcCCCCeeeeeCCCHHHHHHHHHhcCCCC
+Confidence            334444444444444555666677777888888999999999998888888888888999999999887553
+
+
+No 6
+>3MU6_D Myocyte-specific enhancer factor 2A; MADS-box/MEF2 domain, transcription co-factors, protein-DNA; HET: BXL; 2.434A {Homo sapiens}
+Probab=98.80  E-value=3.1e-08  Score=54.04  Aligned_cols=66  Identities=97%  Similarity=1.383  Sum_probs=49.4  Template_Neff=14.700
+
+Q ss_pred             ceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhcc
+Q sp|Q06413|MEF2    6 IQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTE   71 (473)
+Q Consensus         6 iqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyte   71 (473)
+                      +.+..+.........+.++..++..........+........+...+..+.+....+.++++||..
+T Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ry~~   70 (71)
+T 3MU6_D            5 IQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSSNKLFQYASTDMDKVLLKYTA   70 (71)
+T ss_dssp             CCSSCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEESSCHHHHHHHHHH
+T ss_pred             ccceeCCCHHHHhhhHHHHHhhHHHHHHHHHHHcCCeEEEEEEcCCCCeEEecCCcHHHHHHHHHc
+Confidence            333444444444445556667777778888888999999999988888888888889999999964
+
+
+No 7
+>1K6O_B ETS-domain protein ELK-4/Serum response factor/DNA; PROTEIN-DNA COMPLEX, TRANSCRIPTION FACTOR, COMBINATORIAL; 3.19A {Homo sapiens} SCOP: d.88.1.1
+Probab=98.35  E-value=1.8e-06  Score=58.23  Aligned_cols=68  Identities=34%  Similarity=0.550  Sum_probs=49.8  Template_Neff=11.900
+
+Q ss_pred             CCceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhcc
+Q sp|Q06413|MEF2    4 KKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTE   71 (473)
+Q Consensus         4 kkiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyte   71 (473)
+                      +.+.+..+.........+.+....++.........+........+...+..+.+....+..+|+||..
+T Consensus        12 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~ry~~   79 (103)
+T 1K6O_B           12 VKIKMEFIDNKLRRYTTFSKRKTGIMKKAYELSTLTGTQVLLLVASETGHVYTFATRKLQPMITSETG   79 (103)
+T ss_dssp             CCCCSSCCCCHHHHHHHHHHHHHHHHHHHHHHHHHTTCEEEEEEECSSSCEEEEECGGGGGGTSSHHH
+T ss_pred             CCccceecCChHHHHHHHHHHHhhHHHHHHHHHHHhCCcEEEEEECCCCCEEEEeccchHHHHhhhhh
+Confidence            33444444444444445555666677778888888999999999988888888888889999999853
+
+
+No 8
+>1K6O_C ETS-domain protein ELK-4/Serum response factor/DNA; PROTEIN-DNA COMPLEX, TRANSCRIPTION FACTOR, COMBINATORIAL; 3.19A {Homo sapiens} SCOP: d.88.1.1
+Probab=98.35  E-value=1.8e-06  Score=58.23  Aligned_cols=72  Identities=33%  Similarity=0.517  Sum_probs=50.9  Template_Neff=11.900
+
+Q ss_pred             CCCceeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccCCC
+Q sp|Q06413|MEF2    3 RKKIQITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEYNE   74 (473)
+Q Consensus         3 rkkiqitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyteyne   74 (473)
+                      ++.+.+..+.........+.+....++.........+........+...+..+.+....+..+|+||.....
+T Consensus        11 ~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~ry~~~~~   82 (103)
+T 1K6O_C           11 RVKIKMEFIDNKLRRYTTFSKRKTGIMKKAYELSTLTGTQVLLLVASETGHVYTFATRKLQPMITSETGKAL   82 (103)
+T ss_pred             CCCccceecCChHHHHHHHHHHHhhHHHHHHHHHHHhCCcEEEEEECCCCCEEEEeccchHHHHhhhhhHHH
+Confidence            344556666666666666677777777777777777777777777766666777777779999999976543
+
+
+No 9
+>1MNM_A MCM1 TRANSCRIPTIONAL REGULATOR, MAT ALPHA-2; TRANSCRIPTION REGULATION, TRANSCRIPTIONAL REPRESSION, DNA-BINDING; 2.25A {Saccharomyces cerevisiae} SCOP: d.88.1.1
+Probab=98.26  E-value=3.9e-06  Score=56.67  Aligned_cols=66  Identities=32%  Similarity=0.598  Sum_probs=47.7  Template_Neff=11.800
+
+Q ss_pred             eeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhccC
+Q sp|Q06413|MEF2    7 QITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTEY   72 (473)
+Q Consensus         7 qitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkytey   72 (473)
+                      .+..+.+.......+.+....++.....+...+........+...+..+.+....+..+++||..+
+T Consensus        22 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~ry~~~   87 (100)
+T 1MNM_A           22 EIKFIENKTRRHVTFSKRKHGIMKKAFELSVLTGTQVLLLVVSETGLVYTFSTPKFEPIVTQQEGR   87 (100)
+T ss_dssp             CSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEECTTTTHHHHSHHHH
+T ss_pred             ccEecCChhHccchHHHHhhhHHHHHHHHHHHHCCcEEEEEEcCCCcEeeeCCcchHHHHhHHHhh
+Confidence            333344443444444455556666777888889999999999888888888888899999999643
+
+
+No 10
+>1HBX_D SERUM RESPONSE FACTOR, ETS-DOMAIN PROTEIN; GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM; 3.15A {HOMO SAPIENS} SCOP: d.88.1.1
+Probab=98.14  E-value=6.3e-06  Score=53.28  Aligned_cols=65  Identities=32%  Similarity=0.547  Sum_probs=47.5  Template_Neff=12.400
+
+Q ss_pred             eeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhcc
+Q sp|Q06413|MEF2    7 QITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTE   71 (473)
+Q Consensus         7 qitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyte   71 (473)
+                      .+..+.........+.+....+.........++........+...+..+.+....+..+|+||..
+T Consensus        16 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~~~~~   80 (92)
+T 1HBX_D           16 KMEFIDNKLRRYTTFSKRKTGIMKKAYELSTLTGTQVLLLVASETGHVYTFATRKLQPMITSETG   80 (92)
+T ss_dssp             CSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECTTSCEEEEECTTTTHHHHSHHH
+T ss_pred             cceeCCChHHHHHHHHHHHHHHHHHHHHHHHHhCCcEEEEEECCCCCeeEecChhhHHHHHHHhh
+Confidence            33444444334444455556666777788888999999999988888888888889999999963
+
+
+No 11
+>1HBX_E SERUM RESPONSE FACTOR, ETS-DOMAIN PROTEIN; GENE REGULATION, TRANSCRIPTION COMPLEX, SERUM; 3.15A {HOMO SAPIENS} SCOP: d.88.1.1
+Probab=98.14  E-value=6.3e-06  Score=53.28  Aligned_cols=65  Identities=32%  Similarity=0.547  Sum_probs=47.2  Template_Neff=12.400
+
+Q ss_pred             eeEEecCcccCeeeeehhhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCCcHHHHHHHhcc
+Q sp|Q06413|MEF2    7 QITRIMDERNRQVTFTKRKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYASTDMDKVLLKYTE   71 (473)
+Q Consensus         7 qitrimdernrqvtftkrkfglmkkayelsvlcdceialiifnstnklfqyastdmdkvllkyte   71 (473)
+                      .+..+.........+.+....+.........++........+...+..+.+....+..+|+||..
+T Consensus        16 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~I~~~~~   80 (92)
+T 1HBX_E           16 KMEFIDNKLRRYTTFSKRKTGIMKKAYELSTLTGTQVLLLVASETGHVYTFATRKLQPMITSETG   80 (92)
+T ss_dssp             CSSCCCSHHHHHHHHHHHHHHHHHHHHHHHHHHTCEEEEEEECSSSEEEEEECGGGSHHHHSHHH
+T ss_pred             cceeCCChHHHHHHHHHHHHHHHHHHHHHHHHhCCcEEEEEECCCCCeeEecChhhHHHHHHHhh
+Confidence            33344444334444455556666777788888999999999988888888888889999999963
+
+
+No 12
+>7NB0_A Transcription factor, MADS family, DNA-binding; 2.1A {Arabidopsis thaliana}
+Probab=97.99  E-value=5.5e-05  Score=38.70  Aligned_cols=49  Identities=53%  Similarity=0.935  Sum_probs=38.2  Template_Neff=15.000
+
+Q ss_pred             hhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCC-cHHHHHHHhccC
+Q sp|Q06413|MEF2   24 RKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYAST-DMDKVLLKYTEY   72 (473)
+Q Consensus        24 rkfglmkkayelsvlcdceialiifnstnklfqyast-dmdkvllkytey   72 (473)
+                      ...+...........+........+...+..+.+... .+.++++||.++
+T Consensus         7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~ry~~~   56 (57)
+T 7NB0_A            7 RRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEFCSSSSMLRTLERYQKC   56 (57)
+T ss_dssp             HHHHHHHHHHHHHHHHTCEEEEEEECTTCCEEEEESSSCHHHHHHHHHHH
+T ss_pred             HHhcHHHHHHHHHHHcCCeEEEEEEcCCCCeeEecCCHHHHHHHHHHHhc
+Confidence            3445556667777888889898888888888888776 799999999753
+
+
+No 13
+>7NB0_D Transcription factor, MADS family, DNA-binding; 2.1A {Arabidopsis thaliana}
+Probab=97.99  E-value=5.5e-05  Score=38.70  Aligned_cols=49  Identities=53%  Similarity=0.935  Sum_probs=39.0  Template_Neff=15.000
+
+Q ss_pred             hhhCcchHHHHHHHHCCCEEEEEEEcCCCceeeecCC-cHHHHHHHhccC
+Q sp|Q06413|MEF2   24 RKFGLMKKAYELSVLCDCEIALIIFNSTNKLFQYAST-DMDKVLLKYTEY   72 (473)
+Q Consensus        24 rkfglmkkayelsvlcdceialiifnstnklfqyast-dmdkvllkytey   72 (473)
+                      ...+...........+........+...+..+.+... .+.++++||.++
+T Consensus         7 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~ry~~~   56 (57)
+T 7NB0_D            7 RRNGLLKKAYELSVLCDAEVALIIFSNRGKLYEFCSSSSMLRTLERYQKC   56 (57)
+T ss_dssp             HHHHHHHHHHHHHHHTTCEEEEEEECTTCCEEEEESSSCHHHHHHHHHHC
+T ss_pred             HHhcHHHHHHHHHHHcCCeEEEEEEcCCCCeeEecCCHHHHHHHHHHHhc
+Confidence            3445566677788889999999998888888888776 799999999764
+
+

@@ -1,0 +1,214 @@
+Query         tr|A0A994J7M9|A0A994J7M9_HUMAN
+Match_columns 394
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 13:35:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0776.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7W72_S glycosylphosphatidylino 100.0 7.1E-61 7.8E-66  442.3  12.8  387    8-394     2-388 (533)
+  2 1OMH_A TrwC protein/DNA Comple  29.4 2.8E+02   0.003   25.8   5.4   10  224-233    81-90  (293)
+  3 1OSB_A Bacterial conjugation,   29.4 2.8E+02   0.003   25.8   5.4   10  224-233    81-90  (293)
+  4 1ZM5_A TrwC/DNA Complex; PROTE  29.4 2.8E+02   0.003   25.8   5.4   10  224-233    81-90  (293)
+  5 3L6T_A Mobilization protein Tr  20.8 4.1E+02  0.0044   25.1   4.9   37  224-264    83-125 (302)
+  6 6RBG_H Chain length determinan  17.8   1E+02  0.0011   26.0   0.5   31   15-45     29-59  (341)
+  7 4WL1_A WzzE Polysaccharide Co-  17.2      94   0.001   26.3   0.2   32   14-45     35-66  (356)
+  8 2DYJ_A Ribosome-binding factor  16.2 3.4E+02  0.0037   20.9   2.9    7  247-253    58-64  (95)
+  9 2DYJ_B Ribosome-binding factor  16.2 3.4E+02  0.0037   20.9   2.9    7  247-253    58-64  (95)
+ 10 2Q7T_A relaxase, hydrolase, co  15.5   8E+02  0.0086   22.7   5.4   10  224-233    77-86  (301)
+
+No 1
+>7W72_S glycosylphosphatidylinositol, transamidase, MEMBRANE PROTEIN; HET: BMA, NAG, 8JY;{Homo sapiens}
+Probab=100.00  E-value=7.1e-61  Score=442.31  Aligned_cols=387  Identities=99%  Similarity=1.447  Sum_probs=321.6  Template_Neff=8.200
+
+Q ss_pred             CCCCCCCCCccchhhhhhhhHHhCCcchhhcccceeecCCccccCCCcceeeeeeccEEEEEEcCCCCCCCCCCCCeeEE
+Q tr|A0A994J7M9|    8 ATHLEVARGKRAALFFAAVAIVLGLPLWWKTTETYRASLPYSQISGLNALQLRLMVPVTVVFTRESVPLDDQEKLPFTVV   87 (394)
+Q Consensus         8 athlevargkraalffaavaivlglplwwkttetyraslpysqisglnalqlrlmvpvtvvftresvplddqeklpftvv   87 (394)
+                      ||..+...|+++++||++++++||+|+|||||+||||+|||++|++|++.++.++++|+|+++++++++++.+..++.+.
+T Consensus         2 ~~~~~~~~r~~~~lsf~~v~l~iGiPlWWkTT~VyRa~LP~~~I~~L~~~~~~~~i~i~v~~~~~~~~~~~~~~~~~~~~   81 (533)
+T 7W72_S            2 ATHLEVARGKRAALFFAAVAIVLGLPLWWKTTETYRASLPYSQISGLNALQLRLMVPVTVVFTRESVPLDDQAKLPFTVV   81 (533)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHSCCBCCCCTTHHHHTTTCEEEEEEEEEEEECTTSCCCSSCCCCCCCEE
+T ss_pred             cchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCChhhHHhhhhcCceeEEEEEEEEcCCCCCcccccccchhhh
+Confidence            45567789999999999999999999999999999999999999999987888999999987666555433444555544
+
+
+Q ss_pred             eccccCcceeeeeeeeehhhhhhccccccccccCCCcccchcccCCCcccCCCcEEEEEEeCCCCCCchhhhhhcCCcce
+Q tr|A0A994J7M9|   88 HEREIPLKYKMKIKCRFQKAYRRALDHEEEALSSGSVQEAEAMLDEPQEQAEGSLTVYVISEHSSLLPQDMMSYIGPKRT  167 (394)
+Q Consensus        88 hereiplkykmkikcrfqkayrraldheeealssgsvqeaeamldepqeqaegsltvyvisehssllpqdmmsyigpkrt  167 (394)
+                      .+++..++++.++...|+++++.....++..+.+..+.++|+.+.++.++..|.|.|+++++...+..+...+++|++|+
+T Consensus        82 ~~l~~~l~~~~~~~~~~~v~v~~~~~~e~~~l~~~~~~~~d~~l~~~~~~~~~~y~v~ll~~~~~~~~~~~~~~~g~~r~  161 (533)
+T 7W72_S           82 HEREIPLKYKMKIKCRFQKAYRRALDHEEEALSSGSVQEAEAMLDEPQEQAEGSLTVYVISEHSSLLPQDMASYIGPKRT  161 (533)
+T ss_dssp             EECCBCCSSSCEEEEEEEECCEECCHHHHHHSSSCHHHHHHHTTTCCCSSCTTCEEEEEECTTCSSSCSSCCCCBCSSSE
+T ss_pred             hheeeccccCCCceeEEEEEEEEcCCchhHHHhcCChHHHHHHhcCccccCCceEEEEEECCccccCCcceeEEeCCCce
+Confidence            55665555233466789999998887765545444343666667665555688999999998554433334689999999
+
+
+Q ss_pred             eeeeecccHHHhhhhhhhhhhhhhhcCCCHHHHHHHHHhcCCcccccccccCCCccccceEEEEEEcCCCCCCCcceecH
+Q tr|A0A994J7M9|  168 AVVRGIMHREAFNIIGRRIVQVAQAMSLTEDVLAAALADHLPEDKWSAEKRRPLKSSLGYEITFSLLNPDPKSHDVYWDI  247 (394)
+Q Consensus       168 avvrgimhreafniigrrivqvaqamsltedvlaaaladhlpedkwsaekrrplksslgyeitfsllnpdpkshdvywdi  247 (394)
+                      +|+..+..+++.+.++++|++++++++++++.+.+.+.+..++++.+.+++|+++++++|+|+|+|+++||+...++||+
+T Consensus       162 ~~v~~~~~~~~~~~~~~~i~~~l~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~s~~y~l~fsLl~~~p~~~~~~Wd~  241 (533)
+T 7W72_S          162 AVVRGIMHREAFNIIGRRIVQVAQAMSLTEDVLAAALADHLPEDKWSAEKRRPLKSSLGYEITFSLLNPDPKSHDVYWDI  241 (533)
+T ss_dssp             EEEECCCSSCSSHHHHHHHHHHHHHHSCCTTHHHHHHSSSSCCCSSSSTTTCSCCCCSEEEEEEEEEESCTTTEEEECCC
+T ss_pred             EEEeccCchhhHHHHHHHHHHHHHHhcCCHHHHHHHHHhcCCcccCCcccceeccccCceEEEEEEecCCcccCCCCCCH
+Confidence            99998754444457899999999999999988777666654444344456899999999999999999999877899999
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcccCCccccchhhhhhecccCCCCCCCCCceeeccccCCcccCCccccCCCChhhhhHHHHHHhc
+Q tr|A0A994J7M9|  248 EGAVRRYVQPFLNALGAAGNFSVDSQILYYAMLGVNPRFDSASSSYYLDMHSLPHVINPVESRLGSSAASLYPVLNFLLY  327 (394)
+Q Consensus       248 egavrryvqpflnalgaagnfsvdsqilyyamlgvnprfdsasssyyldmhslphvinpvesrlgssaaslypvlnflly  327 (394)
+                      ++++++||+||+++|+++++|+|+||++||++|+..|+++.++++|+++.++|++|||++||++++++.+.+|+|||++|
+T Consensus       242 ~~~~~~yl~p~l~~Ls~~~~~~v~SQvl~~~~l~~~~~~~~~~~~~~l~~~~L~~~in~~e~~l~s~~~s~~p~l~fvvy  321 (533)
+T 7W72_S          242 EGAVRRYVQPFLNALGAAGNFSVDSQILYYAMLGVNPRFDSASSSYYLDMHSLPHVINPVESRLGSSAASLYPVLNFLLY  321 (533)
+T ss_dssp             HHHCCCCCHHHHHHGGGGCEECCEEEEEESCCCSSCCEEETTTTEEEECGGGGGGSSHHHHHHSTTCCSSSSCEEEEEEE
+T ss_pred             HHHHHHhhHHHHHHHhhceeEEeEEeeEEeeeccCCceecCCCCeEEecHHHccceechhhhhcCCCcccCCCcEEEEEE
+Confidence            99999999999999999999999999999999999899987667999999999999999999999775689999999999
+
+
+Q ss_pred             ChhhcCCCeEEECCCCCeecccccCCCCcceEEEEEcCCCcecccccCeeeeecHHHHHHHHHHHcC
+Q tr|A0A994J7M9|  328 VPELAHSPLYIQDKDGAPVATNAFHSPRWGGIMVYNVDSKTYNASVLPVRVEVDMVRVMEVFLAQLR  394 (394)
+Q Consensus       328 vpelahsplyiqdkdgapvatnafhsprwggimvynvdsktynasvlpvrvevdmvrvmevflaqlr  394 (394)
+                      +|+++++||+|++++|+.+++|+|++|+||||+|+|+++.+++++..+...+.+++++|++|++|||
+T Consensus       322 vP~~~~~PL~i~~~~g~~~~~nsf~iP~WGgv~i~n~~~~~~~~~~~~~~~~~~l~~~~~~f~~qLr  388 (533)
+T 7W72_S          322 VPELAHSPLYIQDKDGAPVATNAFHSPRWGGIMVYNVDSKTYNASVLPVRVEVDMVRVMEVFLAQLR  388 (533)
+T ss_dssp             CCCGGGCSEEEBCSSSCBCSSSEEECSSSCEEEECCCCCCCCSSSCCCEEEECCHHHHHHHHHHHHH
+T ss_pred             EeCCCCCCeEEEcCCCCccccccEEeCccceEEEecCCcccCCCCCCCccccHHHHHHHHHHHHHHH
+Confidence            9999999999999999988899999999999999998765543445566677899999999999997
+
+
+No 2
+>1OMH_A TrwC protein/DNA Complex; PROTEIN-DNA COMPLEX, BACTERIAL CONJUGATION, RELAXASE; HET: SO4, MSE; 1.95A {Escherichia coli} SCOP: d.89.1.5
+Probab=29.38  E-value=2.8e+02  Score=25.80  Aligned_cols=10  Identities=40%  Similarity=0.840  Sum_probs=7.4  Template_Neff=8.600
+
+Q ss_pred             ccceEEEEEE
+Q tr|A0A994J7M9|  224 SLGYEITFSL  233 (394)
+Q Consensus       224 slgyeitfsl  233 (394)
+                      -..|+++|+.
+T Consensus        81 ~~g~Dltfs~   90 (293)
+T 1OMH_A           81 RIGLDLTFSA   90 (293)
+T ss_dssp             EEEEEEEEEC
+T ss_pred             eEEEEEEEeC
+Confidence            4578998883
+
+
+No 3
+>1OSB_A Bacterial conjugation, Relaxase, DNA replication; HET: SO4; 2.65A {Escherichia coli} SCOP: d.89.1.5
+Probab=29.38  E-value=2.8e+02  Score=25.80  Aligned_cols=10  Identities=40%  Similarity=0.840  Sum_probs=7.3  Template_Neff=8.600
+
+Q ss_pred             ccceEEEEEE
+Q tr|A0A994J7M9|  224 SLGYEITFSL  233 (394)
+Q Consensus       224 slgyeitfsl  233 (394)
+                      -..|+++|+.
+T Consensus        81 ~~g~Dltfs~   90 (293)
+T 1OSB_A           81 RIGLDLTFSA   90 (293)
+T ss_dssp             EEEEEEEEEC
+T ss_pred             eEEEEEEEeC
+Confidence            4578998883
+
+
+No 4
+>1ZM5_A TrwC/DNA Complex; PROTEIN-DNA COMPLEX, BACTERIAL CONJUGATION, RELAXASE; HET: MSE; 2.5A {Escherichia coli} SCOP: d.89.1.5
+Probab=29.38  E-value=2.8e+02  Score=25.80  Aligned_cols=10  Identities=40%  Similarity=0.840  Sum_probs=7.3  Template_Neff=8.600
+
+Q ss_pred             ccceEEEEEE
+Q tr|A0A994J7M9|  224 SLGYEITFSL  233 (394)
+Q Consensus       224 slgyeitfsl  233 (394)
+                      -..|+++|+.
+T Consensus        81 ~~g~Dltfs~   90 (293)
+T 1ZM5_A           81 RIGLDLTFSA   90 (293)
+T ss_dssp             EEEEEEEEEC
+T ss_pred             eEEEEEEEeC
+Confidence            4578998883
+
+
+No 5
+>3L6T_A Mobilization protein TraI (E.C.3.6.1.-); TrwC Superfamily of relaxase enzymes; HET: CIT, PO4, EDO; 1.93A {Escherichia coli}
+Probab=20.76  E-value=4.1e+02  Score=25.07  Aligned_cols=37  Identities=30%  Similarity=0.352  Sum_probs=18.7  Template_Neff=8.400
+
+Q ss_pred             ccceEEEEEEcCCCCCCCcceec------HHHHHHHHHHHHHHHhcc
+Q tr|A0A994J7M9|  224 SLGYEITFSLLNPDPKSHDVYWD------IEGAVRRYVQPFLNALGA  264 (394)
+Q Consensus       224 slgyeitfsllnpdpkshdvywd------iegavrryvqpflnalga  264 (394)
+                      -..|+++|+.    |....+-|-      +.++.+.-.+-.++.+..
+T Consensus        83 ~~g~Dltfs~----pKsvSv~~~~~~~~~i~~a~~~Av~~al~~~e~  125 (302)
+T 3L6T_A           83 RLGYDLTFSA----PKGVSMQALIHGDKTIIEAHEKAVAAAVREAEK  125 (302)
+T ss_dssp             EEEEEEEEEC----CTTTC-CCSSSCCHHHHHHHHHHHHHHHHHHHT
+T ss_pred             EEEEEEEEeC----CccHHHHHHHcCCHHHHHHHHHHHHHHHHHHHH
+Confidence            4579999884    433334443      333444444445555544
+
+
+No 6
+>6RBG_H Chain length determinant protein; membrane protein, enzyme, polysaccharide, co-polymerase; 3.0A {Escherichia coli (strain K12)}
+Probab=17.81  E-value=1e+02  Score=26.04  Aligned_cols=31  Identities=26%  Similarity=0.360  Sum_probs=18.9  Template_Neff=11.500
+
+Q ss_pred             CCccchhhhhhhhHHhCCcchhhcccceeec
+Q tr|A0A994J7M9|   15 RGKRAALFFAAVAIVLGLPLWWKTTETYRAS   45 (394)
+Q Consensus        15 rgkraalffaavaivlglplwwkttetyras   45 (394)
+                      .|++.++.++++++++|+=+.+..+.+|++.
+T Consensus        29 r~~~~il~~~~~~~~~~~~~~~~~~~~Y~a~   59 (341)
+T 6RBG_H           29 RGKMTIIISVIVAIALAIGYLAVAKEKWTST   59 (341)
+T ss_dssp             HTCHHHHHHHHHHHHHHHHHTTTCCCBCEEE
+T ss_pred             HhhHHHHHHHHHHHHHHHHHHHHcCCcEEEE
+Confidence            4455555565566677765666666666654
+
+
+No 7
+>4WL1_A WzzE Polysaccharide Co-Polymerase; ECA, Enterobacterial common antigen, chain; 5.989A {Escherichia coli}
+Probab=17.25  E-value=94  Score=26.28  Aligned_cols=32  Identities=9%  Similarity=0.098  Sum_probs=14.3  Template_Neff=11.600
+
+Q ss_pred             CCCccchhhhhhhhHHhCCcchhhcccceeec
+Q tr|A0A994J7M9|   14 ARGKRAALFFAAVAIVLGLPLWWKTTETYRAS   45 (394)
+Q Consensus        14 argkraalffaavaivlglplwwkttetyras   45 (394)
+                      +.|++.++.++++++++|+=+.+..+.+|++.
+T Consensus        35 ~r~~~~i~~~~~~~~~~~~~~~~~~~~~Y~a~   66 (356)
+T 4WL1_A           35 WAGKLWIIGMGLAFALIALAYTFFARQEWSST   66 (356)
+T ss_dssp             --------------TEEEHHHHHHHHHHEEEE
+T ss_pred             HHhHHHHHHHHHHHHHHHHHHHHHcCCceEEE
+Confidence            44555566666667778877778888888876
+
+
+No 8
+>2DYJ_A Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=16.24  E-value=3.4e+02  Score=20.91  Aligned_cols=7  Identities=29%  Similarity=0.197  Sum_probs=3.1  Template_Neff=8.700
+
+Q ss_pred             HHHHHHH
+Q tr|A0A994J7M9|  247 IEGAVRR  253 (394)
+Q Consensus       247 iegavrr  253 (394)
+                      +..+++.
+T Consensus        58 ~~~~L~~   64 (95)
+T 2DYJ_A           58 ALRALSR   64 (95)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHh
+Confidence            4444444
+
+
+No 9
+>2DYJ_B Ribosome-binding factor A; 16S rRNA processing, 17S RNA; 1.84A {Thermus thermophilus} SCOP: d.52.7.1
+Probab=16.24  E-value=3.4e+02  Score=20.91  Aligned_cols=7  Identities=29%  Similarity=0.197  Sum_probs=2.8  Template_Neff=8.700
+
+Q ss_pred             HHHHHHH
+Q tr|A0A994J7M9|  247 IEGAVRR  253 (394)
+Q Consensus       247 iegavrr  253 (394)
+                      +..+++.
+T Consensus        58 ~~~~L~~   64 (95)
+T 2DYJ_B           58 ALRALSR   64 (95)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHh
+Confidence            4344433
+
+
+No 10
+>2Q7T_A relaxase, hydrolase, conjugation; HET: TMP; 2.42A {Escherichia coli}
+Probab=15.50  E-value=8e+02  Score=22.70  Aligned_cols=10  Identities=50%  Similarity=0.929  Sum_probs=7.5  Template_Neff=9.100
+
+Q ss_pred             ccceEEEEEE
+Q tr|A0A994J7M9|  224 SLGYEITFSL  233 (394)
+Q Consensus       224 slgyeitfsl  233 (394)
+                      ...|+++|+.
+T Consensus        77 ~~g~Dltfs~   86 (301)
+T 2Q7T_A           77 RPGYDLTFSA   86 (301)
+T ss_dssp             CCEEEEEEEC
+T ss_pred             eeEEEEEEeC
+Confidence            3579999983
+
+

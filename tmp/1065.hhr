@@ -1,0 +1,165 @@
+Query         tr|A0A7P0TAD3|A0A7P0TAD3_HUMAN
+Match_columns 465
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 21:45:49 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1065.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7P14_A small membrane protein,  13.8 3.1E+02  0.0034   26.9   2.6   21  278-298   347-367 (374)
+  2 5VGB_B CRISPR-associated endon  12.3 1.4E+02  0.0016   26.3  -0.0   17  391-407    69-85  (86)
+  3 3ALR_C Nanos protein; zinc-fin   8.9 8.6E+02  0.0093   22.2   3.4   12  434-445    37-48  (106)
+  4 2B5L_C damage-specific DNA bin   8.5 2.3E+03   0.025   20.6   6.2   37  405-441   184-220 (222)
+  5 2HYE_B DNA damage-binding prot   8.5 2.3E+03   0.025   20.6   6.2   37  405-441   184-220 (222)
+  6 2QZQ_A Axin interactor, dorsal   8.4 2.1E+02  0.0022   26.5  -0.4   15  397-411    99-113 (152)
+  7 6RUI_S RNA polymerase I-specif   6.3 3.8E+02  0.0041   30.2   0.3   11  272-282   882-892 (894)
+  8 2MBH_B Krueppel-like factor 1,   6.2 7.2E+02  0.0079   19.9   1.6   25   84-108     1-25  (41)
+  9 5W65_O DNA-directed RNA polyme   5.7 4.3E+02  0.0047   30.1   0.3   11  272-282   882-892 (894)
+ 10 7C76_B Toll-like receptor 3, P   5.7 4.4E+03   0.048   20.1   7.1   77  272-348   519-595 (597)
+
+No 1
+>7P14_A small membrane protein, in complex; HET: PLC, P5S;{Rattus norvegicus}
+Probab=13.76  E-value=3.1e+02  Score=26.91  Aligned_cols=21  Identities=43%  Similarity=0.683  Sum_probs=1.9  Template_Neff=8.700
+
+Q ss_pred             CCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A7P0TAD3|  278 RKQGGSPDEPDSKATRTDCSD  298 (465)
+Q Consensus       278 rkqggspdepdskatrtdcsd  298 (465)
+                      +++.+.+||+|.++...||.-
+T Consensus       347 ~~~~~~~~~~~~~~~~~~~~~  367 (374)
+T 7P14_A          347 INAGTQHDEPDGKAPQRDCRI  367 (374)
+T ss_dssp             ------------------CCT
+T ss_pred             CCCCCCCCCCCCCCCCCCcHH
+Confidence            445788899999999999853
+
+
+No 2
+>5VGB_B CRISPR-associated endonuclease Cas9 (E.C.3.1.-.-), Anti-CRISPR; Protein, RNA, HYDROLASE-HYDROLASE inhibitor complex; HET: GOL; 1.497A {Neisseria meningitidis}
+Probab=12.28  E-value=1.4e+02  Score=26.30  Aligned_cols=17  Identities=29%  Similarity=0.743  Sum_probs=11.3  Template_Neff=4.500
+
+Q ss_pred             ccCCCCCCCCCcccccc
+Q tr|A0A7P0TAD3|  391 ALASSASDSCSCWTFLS  407 (465)
+Q Consensus       391 alassasdscscwtfls  407 (465)
+                      +|..-...-||||.|.-
+T Consensus        69 alG~V~~GmcS~weF~e   85 (86)
+T 5VGB_B           69 QYAYTSVGMASCWEFVE   85 (86)
+T ss_dssp             TTSEEEEEEEETTEEEE
+T ss_pred             hcCcEEEeEeechheec
+Confidence            34444556799999864
+
+
+No 3
+>3ALR_C Nanos protein; zinc-finger, translational repression, RNA, 3'-UTR; HET: ZN; 2.1A {Danio rerio}
+Probab=8.86  E-value=8.6e+02  Score=22.17  Aligned_cols=12  Identities=25%  Similarity=0.971  Sum_probs=9.3  Template_Neff=5.200
+
+Q ss_pred             CcccccCCCCCC
+Q tr|A0A7P0TAD3|  434 SLCVLCANTGPS  445 (465)
+Q Consensus       434 slcvlcantgps  445 (465)
+                      -.|++|-+.|-+
+T Consensus        37 ~~C~FCk~nge~   48 (106)
+T 3ALR_C           37 KFCSFCKHNGET   48 (106)
+T ss_dssp             CCCHHHHHTTCC
+T ss_pred             CcccccCCCCCC
+Confidence            488999888854
+
+
+No 4
+>2B5L_C damage-specific DNA binding protein 1; DDB1, SV5-V, beta propeller, propeller; 2.85A {Homo sapiens}
+Probab=8.51  E-value=2.3e+03  Score=20.62  Aligned_cols=37  Identities=19%  Similarity=0.117  Sum_probs=25.0  Template_Neff=7.300
+
+Q ss_pred             ccccCCCCCCCCCCCCCCCccccCCCCCCCcccccCC
+Q tr|A0A7P0TAD3|  405 FLSLAGARPLGSPDKADPVAQIRTSGRGSSLCVLCAN  441 (465)
+Q Consensus       405 flslagarplgspdkadpvaqirtsgrgsslcvlcan  441 (465)
+                      +.+..|+.|.-.+....|.-..-..|.-..+|.+|+.
+T Consensus       184 ~~~~~g~tp~~~~s~~~~~~~~~~~g~~p~~c~~c~~  220 (222)
+T 2B5L_C          184 VKVTEWCNPSCSPITAAARRFECTCHQCPVTCSECER  220 (222)
+T ss_dssp             EEEEEEEEESSSCCCSSCEEECCSSSSCCSCCSSSTT
+T ss_pred             eEEeccccCCCCCCCcccCcceeeccccccccHhhcC
+Confidence            3456677777777777766665566666667888864
+
+
+No 5
+>2HYE_B DNA damage-binding protein 1, Nonstructural; beta propeller, RING finger, zinc; 3.1A {Homo sapiens}
+Probab=8.51  E-value=2.3e+03  Score=20.62  Aligned_cols=37  Identities=19%  Similarity=0.117  Sum_probs=26.4  Template_Neff=7.300
+
+Q ss_pred             ccccCCCCCCCCCCCCCCCccccCCCCCCCcccccCC
+Q tr|A0A7P0TAD3|  405 FLSLAGARPLGSPDKADPVAQIRTSGRGSSLCVLCAN  441 (465)
+Q Consensus       405 flslagarplgspdkadpvaqirtsgrgsslcvlcan  441 (465)
+                      +.+..|+.|.-.+....|.-..-..|.-..+|.+|+.
+T Consensus       184 ~~~~~g~tp~~~~s~~~~~~~~~~~g~~p~~c~~c~~  220 (222)
+T 2HYE_B          184 VKVTEWCNPSCSPITAAARRFECTCHQCPVTCSECER  220 (222)
+T ss_dssp             CEEEEEECCTTSCCCSSCEECCCSSTTCCSCCTTTTT
+T ss_pred             eEEeccccCCCCCCCcccCcceeeccccccccHhhcC
+Confidence            4456777788777777777666666666668888875
+
+
+No 6
+>2QZQ_A Axin interactor, dorsalization associated protein; beta sheet sandwich, Coiled coil; HET: MSE; 1.9A {Danio rerio}
+Probab=8.39  E-value=2.1e+02  Score=26.49  Aligned_cols=15  Identities=20%  Similarity=0.569  Sum_probs=11.7  Template_Neff=6.300
+
+Q ss_pred             CCCCCcccccccCCC
+Q tr|A0A7P0TAD3|  397 SDSCSCWTFLSLAGA  411 (465)
+Q Consensus       397 sdscscwtflslaga  411 (465)
+                      .-|+-||+|+.+.-.
+T Consensus        99 k~Stkcwaf~e~d~i  113 (152)
+T 2QZQ_A           99 FTSTKCFAFMEMDEI  113 (152)
+T ss_dssp             EEEEEEEEEEEGGGC
+T ss_pred             cccceEEEEEeHhhc
+Confidence            357889999988744
+
+
+No 7
+>6RUI_S RNA polymerase I-specific transcription initiation; RNA Polymerase I, Pre-initiation complex; 2.7A {synthetic construct}
+Probab=6.32  E-value=3.8e+02  Score=30.23  Aligned_cols=11  Identities=45%  Similarity=0.764  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             cCCCCCCCCCC
+Q tr|A0A7P0TAD3|  272 RTKKKKRKQGG  282 (465)
+Q Consensus       272 rtkkkkrkqgg  282 (465)
+                      |.||||+|-||
+T Consensus       882 r~k~kkkr~~g  892 (894)
+T 6RUI_S          882 KAKKKKKRIRG  892 (894)
+T ss_dssp             -----------
+T ss_pred             ccchhhhccCC
+
+
+No 8
+>2MBH_B Krueppel-like factor 1, Ubiquitin; Protein-protein complex, EKLF, Ubiquitin, UIM/MIU; NMR {Homo sapiens}
+Probab=6.22  E-value=7.2e+02  Score=19.95  Aligned_cols=25  Identities=32%  Similarity=0.474  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             CCCCCCCcccccccCCCCCCCCCCC
+Q tr|A0A7P0TAD3|   84 GSASADSVLSRINQRLDMVPHLETD  108 (465)
+Q Consensus        84 gsasadsvlsrinqrldmvphletd  108 (465)
+                      |||.|+.+|..|+..--.+|...+.
+T Consensus         1 ~~a~aet~lpsi~tl~~l~~f~~~q   25 (41)
+T 2MBH_B            1 GSATAETALPSISTLTALGPFPDTQ   25 (41)
+T ss_pred             CCccccccCCCHHhccccccCCCCc
+
+
+No 9
+>5W65_O DNA-directed RNA polymerase I subunit; RNA Polymerase I Core Factor; 4.3A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=5.73  E-value=4.3e+02  Score=30.06  Aligned_cols=11  Identities=45%  Similarity=0.764  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             cCCCCCCCCCC
+Q tr|A0A7P0TAD3|  272 RTKKKKRKQGG  282 (465)
+Q Consensus       272 rtkkkkrkqgg  282 (465)
+                      |.||||+|-||
+T Consensus       882 r~k~kkkr~~g  892 (894)
+T 5W65_O          882 KAKKKKKRIRG  892 (894)
+T ss_dssp             -----------
+T ss_pred             ccchhhhccCC
+
+
+No 10
+>7C76_B Toll-like receptor 3, Protein unc-93; Toll-like receptors, UNC93B1, MFS, IMMUNE; HET: BMA, NAG; 3.4A {Homo sapiens}
+Probab=5.71  E-value=4.4e+03  Score=20.11  Aligned_cols=77  Identities=21%  Similarity=0.251  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             cCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|A0A7P0TAD3|  272 RTKKKKRKQGGSPDEPDSKATRTDCSDNSDSDNDEGTEGEATEGLEGTEAVEKGSRVDGEDEEGKEDGREEGKEDPE  348 (465)
+Q Consensus       272 rtkkkkrkqggspdepdskatrtdcsdnsdsdndegtegeateglegteavekgsrvdgedeegkedgreegkedpe  348 (465)
+                      +.+.+.+.......+...+..+..-.+|.+.+..++...+..+....+..-+....-...-...-.+.+-.+.++|+
+T Consensus       519 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  595 (597)
+T 7C76_B          519 RRGVAPRQPRIPRPQHKVRGYRYLEEDNSDESDAEGEHGDGAEEEAPPAGPRPGPEPAGLGRRPCPYEQAQGGDGPE  595 (597)
+T ss_dssp             CCCCCCCCC--------------------------------------------------------------------
+T ss_pred             hcCCCCCCCCCCCccccccceeeecccCCCccccccccCCCccccCCCCCCCCCCCCCCcCCCCCCcccccCCCCCC
+
+

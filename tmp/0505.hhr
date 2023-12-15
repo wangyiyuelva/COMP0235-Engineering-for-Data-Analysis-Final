@@ -1,0 +1,234 @@
+Query         sp|Q9HD47|MOG1_HUMAN
+Match_columns 186
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 08:39:10 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0505.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5YFG_A Ran guanine nucleotide  100.0 1.1E-41 1.2E-46  262.2  11.9  186    1-186     1-186 (194)
+  2 1JHS_A NUCLEAR-PROTEIN IMPORT, 100.0   1E-34 1.1E-39  224.1   7.2  174    2-184     1-188 (188)
+  3 1EQ6_A SACCHAROMYCES CEREVISIA 100.0 3.5E-34 3.7E-39  221.3   8.3  175    1-184     1-189 (189)
+  4 3VYR_B Hydrogenase expression/   9.3 2.9E+02  0.0031   26.7   0.8    7    7-13    338-344 (372)
+  5 4JGL_A hypothetical protein; a   9.1   2E+02  0.0022   25.5  -0.2   15   63-77    143-157 (169)
+  6 2Z1D_A Hydrogenase expression/   8.9 2.9E+02  0.0032   26.6   0.7    6    8-13    339-344 (372)
+  7 3D7A_A UPF0201 protein PH1010;   8.9 6.8E+02  0.0073   19.5   2.5   21   36-56     11-31  (138)
+  8 3D7A_B UPF0201 protein PH1010;   8.9 6.8E+02  0.0073   19.5   2.5   21   36-56     11-31  (138)
+  9 1ELJ_A THE CRYSTAL STRUCTURE O   8.6 1.5E+03   0.016   17.2   4.4   46  128-184   108-153 (381)
+ 10 4QRZ_A ABC-TYPE SUGAR TRANSPOR   8.3   4E+02  0.0043   20.7   1.1   36  149-184   146-183 (407)
+
+No 1
+>5YFG_A Ran guanine nucleotide release factor; CENTRAL BETA SHEET, ALTERNATIVE SPLICING; NMR {Homo sapiens}
+Probab=100.00  E-value=1.1e-41  Score=262.20  Aligned_cols=186  Identities=100%  Similarity=1.500  Sum_probs=158.6  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCcceeeecCCceehhhCccCCCCCeeEEecCCChhHHHHHHHhhhhhccchhhhceeeccCCCCCcEEE
+Q sp|Q9HD47|MOG1    1 MEPTRDCPLFGGAFSAILPMGAIDVSDLRPVPDNQEVFCHPVTDQSLIVELLELQAHVRGEAAARYHFEDVGGVQGARAV   80 (186)
+Q Consensus         1 meptrdcplfggafsailpmgaidvsdlrpvpdnqevfchpvtdqslivellelqahvrgeaaaryhfedvggvqgarav   80 (186)
+                      ||.+++|+||||||++.||.+|+|+|+|||||||||||++++++.||||||||+++..+|++|++|||+|||++|++..+
+T Consensus         1 ~~~~~~~~LfGGAi~~~lP~~f~D~S~~RqVPDnQEVF~~~~~d~SlIiElLE~~~~~~d~~a~~~hf~dla~~n~a~~~   80 (194)
+T 5YFG_A            1 MEPTRDCPLFGGAFSAILPMGAIDVSDLRPVPDNQEVFCHPVTDQSLIVELLELQAHVRGEAAARYHFEDVGGVQGARAV   80 (194)
+T ss_dssp             CCCCCEEEETTTTEEEECCTTCEEGGGTSCCCTTEEEEEETTTTEEEEEECCBCCTTCCTHHHHHHHHHHHTTTSSCCCC
+T ss_pred             CCCCCCCCccCCeEEEEcCCCccchhhCeecCCCceEEecCCCCceEEEehhhhcccCCcHHHHHHHHHHHhhccCccce
+Confidence            78999999999999999999999999999999999999999999999999999998888889999999999999998777
+
+
+Q ss_pred             EEEEecccchhhhhecceeeEEEEEeccccccccccccccceeeeEEEeeCCccceeeEEEeCCCCCCCCCCCCCCCCCC
+Q sp|Q9HD47|MOG1   81 HVESVQPLSLENLALRGRCQEAWVLSGKQQIAKENQQVAKDVTLHQALLRLPQYQTDLLLTFNQPPPDNRSSLGPENLSP  160 (186)
+Q Consensus        81 hvesvqplslenlalrgrcqeawvlsgkqqiakenqqvakdvtlhqallrlpqyqtdllltfnqpppdnrsslgpenlsp  160 (186)
+                      .|.+..+++..+++..+.+..+++..|+|.++|+++...+.|.|+|++|||++++||||||+|.|....+++.+.+++..
+T Consensus        81 ~v~~~~~~~~~~~~~~~~~~~~~~~~G~q~v~k~~~~~~~~v~v~l~liRL~~~~TDilIt~N~P~~~~~~~~~~~~~~~  160 (194)
+T 5YFG_A           81 HVESVQPLSLENLALRGRCQEAWVLSGKQQIAKENQQVAKDVTLHQALLRLPQYQTDLLLTFNQPPPDNRSSLGPENLSP  160 (194)
+T ss_dssp             EEEEEEECCGGGCSSCCCCSEEEEEEEECBCCCTTSCCCCBCEEEEEEEEETTTTEEEEEEEEECCSCCCSCCCCSSSSC
+T ss_pred             EEEEeeeecHhhhccCCCceeEEEEEEeeeccccchhccceEEEEEEEEeccccCCcEEEEEecCCCCchhcCCcccCCC
+Confidence            88877776555443222233367788999999988766799999999999999999999999999976432222222223
+
+
+Q ss_pred             CCCChHhHHHHHHHhccCCCCCCCCC
+Q sp|Q9HD47|MOG1  161 APWSLGDFEQLVTSLTLHDPNIFGPQ  186 (186)
+Q Consensus       161 apwslgdfeqlvtsltlhdpnifgpq  186 (186)
+                      ..++.++|+++++||+|+||||||+|
+T Consensus       161 ~~~~~~~f~~iv~Sf~I~Dw~LFg~~  186 (194)
+T 5YFG_A          161 APWSLGDFEQLVTSLTLHDPNIFGPQ  186 (194)
+T ss_dssp             CCCCHHHHHHHHGGGBCSSCTTSSCC
+T ss_pred             ChhhHHHHHHHHHhCeeeCccccCCC
+Confidence            45678999999999999999999986
+
+
+No 2
+>1JHS_A NUCLEAR-PROTEIN IMPORT, GSP1, GENE REGULATION; 1.9A {Saccharomyces cerevisiae} SCOP: d.107.1.1
+Probab=100.00  E-value=1e-34  Score=224.09  Aligned_cols=174  Identities=25%  Similarity=0.398  Sum_probs=142.4  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCcceeeecCCceehhhCccCCCCCeeEEecC-----------CChhHHHHHHHhhhhhccchhhhceeec
+Q sp|Q9HD47|MOG1    2 EPTRDCPLFGGAFSAILPMGAIDVSDLRPVPDNQEVFCHPV-----------TDQSLIVELLELQAHVRGEAAARYHFED   70 (186)
+Q Consensus         2 eptrdcplfggafsailpmgaidvsdlrpvpdnqevfchpv-----------tdqslivellelqahvrgeaaaryhfed   70 (186)
+                      |.+++++||||||++.||.+|+|+|+|||||||||||+++.           ++.||||||||+++..++.+|++|||+|
+T Consensus         1 ~~~~~~~LyGGAi~~~lP~~~~D~S~~RqVPDnQEVF~~~~~~~~~~~~~~~~d~SiIiElLE~~~~~~~~~a~~~hf~d   80 (188)
+T 1JHS_A            1 MNNKEVELYGGAITTVVPPGFIDASTLREVPDTQAVYVNSRRDEEEFEDGLATNESIIVDLLETVDKSDLKEAWQFHVED   80 (188)
+T ss_dssp             CCCEEEEEGGGTEEEEECTTEEEGGGTSCCCTTEEEEEECCCSSCCCTTSCCSCCEEEEEEEECCSCCSHHHHHHHHHHH
+T ss_pred             CCCcccccccccEEEecCCccccHhhCeecCCCcEEEEcCCCCcccccccccCCceEEEEchhcCCcCChHHHHHHHHHH
+Confidence            67889999999999999999999999999999999999998           8999999999999877777899999999
+
+
+Q ss_pred             cCCCCCcEEEEEEEecccchhhhhecceeeEEEEEecccccccccccc-ccceeeeEEEeeCCccceeeEEEeCCCCCCC
+Q sp|Q9HD47|MOG1   71 VGGVQGARAVHVESVQPLSLENLALRGRCQEAWVLSGKQQIAKENQQV-AKDVTLHQALLRLPQYQTDLLLTFNQPPPDN  149 (186)
+Q Consensus        71 vggvqgaravhvesvqplslenlalrgrcqeawvlsgkqqiakenqqv-akdvtlhqallrlpqyqtdllltfnqpppdn  149 (186)
+                      ||++|++..+.|.+.++++...      .+ ++++.  |.++|+++.. .+.|.|+|+||||++++||||||+|.|....
+T Consensus        81 la~~n~a~~~~i~~~~~~~~~~------~~-~~~~~--q~v~k~~~~~~~~~v~v~l~liRL~~~~TDilIt~N~P~~~~  151 (188)
+T 1JHS_A           81 LTELNGTTKWEALQEDTVQQGT------KF-TGLVM--EVANKWGKPDLAQTVVIGVALIRLTQFDTDVVISINVPLTKE  151 (188)
+T ss_dssp             HHHTTTEEEEEEEEEEEEETTT------EE-EEEEE--EEEETTSCTTSSCCEEEEEEEEEEGGGTEEEEEEEEEECCHH
+T ss_pred             HHHccCCCceEEEEEEecCCCC------ce-EEEEE--EeccCCCCccccceEEEEEEEeeecccCccEEEEEEcCCchh
+Confidence            9999998777777666554221      23 34444  8899987654 5999999999999999999999999998643
+
+
+Q ss_pred             CCCCCCCCCC--CCCCChHhHHHHHHHhccCCCCCCC
+Q sp|Q9HD47|MOG1  150 RSSLGPENLS--PAPWSLGDFEQLVTSLTLHDPNIFG  184 (186)
+Q Consensus       150 rsslgpenls--papwslgdfeqlvtsltlhdpnifg  184 (186)
+                      +.+.+.+...  ......++|+++++||+|+||||||
+T Consensus       152 ~~~~~~~~~~~~~~~~~~~~~~~il~Sf~I~Dw~LFg  188 (188)
+T 1JHS_A          152 EASQASNKELPARCHAVYQLLQEMVRKFHVVDTSLFA  188 (188)
+T ss_dssp             HHHHHHTTCCCHHHHHHHHHHHHHHHHCEESCGGGGC
+T ss_pred             hhccccccccchhhHHHHHHHHHHHHhCcccCcccCC
+Confidence            1001101110  1234568999999999999999997
+
+
+No 3
+>1EQ6_A SACCHAROMYCES CEREVISIAE RAN-BINDING PROTEIN MOG1P; alpha-beta, PROTEIN TRANSPORT; 1.9A {Saccharomyces cerevisiae} SCOP: d.107.1.1
+Probab=100.00  E-value=3.5e-34  Score=221.30  Aligned_cols=175  Identities=26%  Similarity=0.400  Sum_probs=143.4  Template_Neff=7.000
+
+Q ss_pred             CCCCCCCCCCCCcceeeecCCceehhhCccCCCCCeeEEecC-----------CChhHHHHHHHhhhhhccchhhhceee
+Q sp|Q9HD47|MOG1    1 MEPTRDCPLFGGAFSAILPMGAIDVSDLRPVPDNQEVFCHPV-----------TDQSLIVELLELQAHVRGEAAARYHFE   69 (186)
+Q Consensus         1 meptrdcplfggafsailpmgaidvsdlrpvpdnqevfchpv-----------tdqslivellelqahvrgeaaaryhfe   69 (186)
+                      ||.+++|+||||||++.||.+|+|+|+|||||||||||+++.           ++.||||||||+++..++.+|++|||+
+T Consensus         1 ~~~~~~~~LfGGAi~~~lP~~f~D~S~~RqVPDnQEVF~~~~~~~~~~~~~~~~d~SlIiElLE~~~~~~~~~a~~~hf~   80 (189)
+T 1EQ6_A            1 SMNNKEVELYGGAITTVVPPGFIDASTLREVPDTQEVYVNSRRDEEEFEDGLATNESIIVDLLETVDKSDLKEAWQFHVE   80 (189)
+T ss_dssp             CCCCEEEEEGGGTEEEEECTTEEEGGGTSCCCTTEEEEEECCCSSCCCSSSCCSCCEEEEEEEECCSCCSHHHHHHHHHH
+T ss_pred             CCCccccccccccEEEecCCccccHhhCeecCCCCEEEEcCCCCcccccccccCCceEeEehhhcCCcCChHHHHHHHHH
+Confidence            688999999999999999999999999999999999999998           899999999999987778789999999
+
+
+Q ss_pred             ccCCCCCcEEEEEEEecccchhhhhecceeeEEEEEecccccccccccc-ccceeeeEEEeeCCccceeeEEEeCCCCCC
+Q sp|Q9HD47|MOG1   70 DVGGVQGARAVHVESVQPLSLENLALRGRCQEAWVLSGKQQIAKENQQV-AKDVTLHQALLRLPQYQTDLLLTFNQPPPD  148 (186)
+Q Consensus        70 dvggvqgaravhvesvqplslenlalrgrcqeawvlsgkqqiakenqqv-akdvtlhqallrlpqyqtdllltfnqpppd  148 (186)
+                      |||++|++....|.....++...      .+ ++++.  |.++|+++.. .+.|.|+|++|||++++||||||+|.|...
+T Consensus        81 dla~~n~a~~~~v~~~~~~~~~~------~~-~~~~~--q~v~K~~~~~~~~~V~v~l~liRL~~~~TDilit~n~P~~~  151 (189)
+T 1EQ6_A           81 DLTELNGTTKWEALQEDTVQQGT------KF-TGLVM--EVANKWGKPDLAQTVVIGVALIRLTQFDTDVVISINVPLTK  151 (189)
+T ss_dssp             HHHGGGTEEEEEEEEEEEEETTT------EE-EEEEE--EEEETTSCTTSSCCEEEEEEEEEEGGGTEEEEEEEEEECCH
+T ss_pred             HHHHccCCCceEEEEEEecCCCC------ce-EEEEE--EEcccCCCccccceEEEEEEEEeccccCccEEEEEEcCCch
+Confidence            99999999777777665553221      23 34444  8889987654 599999999999999999999999999864
+
+
+Q ss_pred             CCCCCCCCCCC--CCCCChHhHHHHHHHhccCCCCCCC
+Q sp|Q9HD47|MOG1  149 NRSSLGPENLS--PAPWSLGDFEQLVTSLTLHDPNIFG  184 (186)
+Q Consensus       149 nrsslgpenls--papwslgdfeqlvtsltlhdpnifg  184 (186)
+                      .+++.+.+...  ......++|+.+++||+|+||||||
+T Consensus       152 ~~~~~~~~~~~~~~~~~~~~~~~~~~~S~~I~Dw~LF~  189 (189)
+T 1EQ6_A          152 EEASQASNKELPARCHAVYQLLQEMVRKFHVVDTSLFA  189 (189)
+T ss_dssp             HHHHHHTTTCCCHHHHHHHHHHHHHHHTCEESCGGGCC
+T ss_pred             hhhccccccccchhhHHHHHHHHHHHHhCcccCcccCC
+Confidence            21011111110  1234568999999999999999997
+
+
+No 4
+>3VYR_B Hydrogenase expression/formation protein HypC, Hydrogenase; [NiFe] hydrogenase maturation, METAL BINDING; HET: CIT; 2.55A {Thermococcus kodakarensis}
+Probab=9.30  E-value=2.9e+02  Score=26.71  Aligned_cols=7  Identities=71%  Similarity=1.720  Sum_probs=3.1  Template_Neff=4.900
+
+Q ss_pred             CCCCCCc
+Q sp|Q9HD47|MOG1    7 CPLFGGA   13 (186)
+Q Consensus         7 cplfgga   13 (186)
+                      -+|||-+
+T Consensus       338 CplF~~~  344 (372)
+T 3VYR_B          338 CPLFGKT  344 (372)
+T ss_dssp             CTTBTTT
+T ss_pred             CCccCCC
+Confidence            3444444
+
+
+No 5
+>4JGL_A hypothetical protein; an orphan, streptavidin-like fold with; HET: MSE; 1.25A {Bacteroides eggerthii}
+Probab=9.13  E-value=2e+02  Score=25.54  Aligned_cols=15  Identities=40%  Similarity=0.554  Sum_probs=11.0  Template_Neff=1.000
+
+Q ss_pred             hhhceeeccCCCCCc
+Q sp|Q9HD47|MOG1   63 AARYHFEDVGGVQGA   77 (186)
+Q Consensus        63 aaryhfedvggvqga   77 (186)
+                      .++|.|+||-++..+
+T Consensus       143 earykfedlfederc  157 (169)
+T 4JGL_A          143 EARYKFEDLFEDERC  157 (169)
+T ss_dssp             HHHHHHHHHHHCGGG
+T ss_pred             hHhhhhHHhhcchhH
+Confidence            468999999876543
+
+
+No 6
+>2Z1D_A Hydrogenase expression/formation protein hypD; [NiFe] hydrogenase maturation, [4Fe-4S] cluster; HET: CSD, SF4; 2.07A {Thermococcus kodakarensis}
+Probab=8.91  E-value=2.9e+02  Score=26.62  Aligned_cols=6  Identities=67%  Similarity=1.370  Sum_probs=2.5  Template_Neff=5.000
+
+Q ss_pred             CCCCCc
+Q sp|Q9HD47|MOG1    8 PLFGGA   13 (186)
+Q Consensus         8 plfgga   13 (186)
+                      +|||-+
+T Consensus       339 plFg~~  344 (372)
+T 2Z1D_A          339 PLFGKT  344 (372)
+T ss_dssp             TTBTTT
+T ss_pred             CccCCC
+Confidence            444433
+
+
+No 7
+>3D7A_A UPF0201 protein PH1010; DUF54 family, UNKNOWN FUNCTION; 1.9A {Pyrococcus horikoshii}
+Probab=8.87  E-value=6.8e+02  Score=19.54  Aligned_cols=21  Identities=14%  Similarity=0.170  Sum_probs=18.6  Template_Neff=7.500
+
+Q ss_pred             eeEEecCCChhHHHHHHHhhh
+Q sp|Q9HD47|MOG1   36 EVFCHPVTDQSLIVELLELQA   56 (186)
+Q Consensus        36 evfchpvtdqslivellelqa   56 (186)
+                      ++|++++.|...|.+.|...-
+T Consensus        11 ~~~~~aTEd~~kV~~al~~l~   31 (138)
+T 3D7A_A           11 EAYVYPTEDIRKVKKAMLNLI   31 (138)
+T ss_dssp             EEEECTTBCHHHHHHHHHHHS
+T ss_pred             EEEEcCCCCHHHHHHHHHhhC
+Confidence            689999999999999999764
+
+
+No 8
+>3D7A_B UPF0201 protein PH1010; DUF54 family, UNKNOWN FUNCTION; 1.9A {Pyrococcus horikoshii}
+Probab=8.87  E-value=6.8e+02  Score=19.54  Aligned_cols=21  Identities=14%  Similarity=0.170  Sum_probs=18.6  Template_Neff=7.500
+
+Q ss_pred             eeEEecCCChhHHHHHHHhhh
+Q sp|Q9HD47|MOG1   36 EVFCHPVTDQSLIVELLELQA   56 (186)
+Q Consensus        36 evfchpvtdqslivellelqa   56 (186)
+                      ++|++++.|...|.+.|...-
+T Consensus        11 ~~~~~aTEd~~kV~~al~~l~   31 (138)
+T 3D7A_B           11 EAYVYPTEDIRKVKKAMLNLI   31 (138)
+T ss_dssp             EEEECTTBCHHHHHHHHHHHS
+T ss_pred             EEEEcCCCCHHHHHHHHHhhC
+Confidence            689999999999999999764
+
+
+No 9
+>1ELJ_A THE CRYSTAL STRUCTURE OF LIGANDED; protein-carbohydrate complex, maltose binding protein; HET: SO4, GLC, CME; 1.85A {Pyrococcus furiosus} SCOP: c.94.1.1
+Probab=8.56  E-value=1.5e+03  Score=17.22  Aligned_cols=46  Identities=11%  Similarity=0.261  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             EeeCCccceeeEEEeCCCCCCCCCCCCCCCCCCCCCChHhHHHHHHHhccCCCCCCC
+Q sp|Q9HD47|MOG1  128 LLRLPQYQTDLLLTFNQPPPDNRSSLGPENLSPAPWSLGDFEQLVTSLTLHDPNIFG  184 (186)
+Q Consensus       128 llrlpqyqtdllltfnqpppdnrsslgpenlspapwslgdfeqlvtsltlhdpnifg  184 (186)
+                      +..+|....-..+.+|..--+.           .||+..||.++...++-.++..+|
+T Consensus       108 ~y~~P~~~~~~~~~yn~d~~~~-----------~p~t~~el~~~~~~~~~~~~~~~~  153 (381)
+T 1ELJ_A          108 YYALPFAAETVAIIYNKEMVSE-----------PPKTFDEMKAIMEKYYDPANEKYG  153 (381)
+T ss_dssp             ECEEEEEEEECEEEEETTTCSS-----------CCSSHHHHHHHHHHHCBGGGTBCS
+T ss_pred             EeeeeccccceEEEEechhcCC-----------CCCCHHHHHHHHHHHcCccccccc
+
+
+No 10
+>4QRZ_A ABC-TYPE SUGAR TRANSPORTER; SUGAR TRANSPORTER, ABC-TYPE, MALTOSE, MALTOTRIOSE; HET: BGC, GLC; 1.34A {AGROBACTERIUM FABRUM}
+Probab=8.34  E-value=4e+02  Score=20.71  Aligned_cols=36  Identities=19%  Similarity=0.372  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCCCCCCCCCC--CCCChHhHHHHHHHhccCCCCCCC
+Q sp|Q9HD47|MOG1  149 NRSSLGPENLSP--APWSLGDFEQLVTSLTLHDPNIFG  184 (186)
+Q Consensus       149 nrsslgpenlsp--apwslgdfeqlvtsltlhdpnifg  184 (186)
+                      |+.-+...++.+  .||+..||.++...++-.+++++|
+T Consensus       146 n~d~~~~~g~~~~~~p~tw~el~~~~~~~~~~~~~~~~  183 (407)
+T 4QRZ_A          146 NKDLFKAAGLDAAKPPQTWDELVDAARKLTNPAKNVYG  183 (407)
+T ss_dssp             EHHHHHHTTCCTTSCCCBHHHHHHHHHHHCBGGGTBBS
+T ss_pred             eHHHHHHcCCCCCCCCCCHHHHHHHHHHHcCcccCccc
+
+

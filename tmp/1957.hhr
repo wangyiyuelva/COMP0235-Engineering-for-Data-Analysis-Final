@@ -1,0 +1,169 @@
+Query         tr|I3L2R3|I3L2R3_HUMAN
+Match_columns 137
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 14:35:24 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1957.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6KZJ_B Ankyrin-2, Nuclear dist  99.0 3.2E-10 3.5E-15   71.8   2.6   29   57-85      3-31  (51)
+  2 6KZJ_C Ankyrin-2, Nuclear dist  99.0 3.2E-10 3.5E-15   71.8   2.6   29   57-85      3-31  (51)
+  3 1BLX_B CYCLIN-DEPENDENT KINASE  43.0      28 0.00031   19.7   1.0    6   76-81     56-61  (166)
+  4 5HIU_A GTPase activator-like p  19.8   2E+02  0.0022   24.5   2.6   33   67-99     36-68  (463)
+  5 5HIU_C GTPase activator-like p  19.8   2E+02  0.0022   24.5   2.6   33   67-99     36-68  (463)
+  6 6G3B_A Type II site-specific d  19.6 1.7E+02  0.0018   25.4   2.1   13   70-82    111-123 (238)
+  7 6S48_A Type II site-specific d  19.6 1.7E+02  0.0018   25.4   2.1   13   70-82    111-123 (238)
+  8 2V7S_A PROBABLE CONSERVED LIPO  16.8 4.9E+02  0.0053   20.6   3.9   29   62-90    123-151 (215)
+  9 6R21_P PROTEIN; viral complex,  15.1 7.7E+02  0.0084   19.8   4.6   19   71-89     46-64  (231)
+ 10 7NG2_A YTH, Cleavage and Polya  14.7      86 0.00093   22.3  -0.5   13   58-70    154-166 (166)
+
+No 1
+>6KZJ_B Ankyrin-2, Nuclear distribution protein nudE-like; PROTEIN TRANSPORT, STRUCTURAL PROTEIN, PROTEIN; 1.5A {Homo sapiens}
+Probab=99.02  E-value=3.2e-10  Score=71.85  Aligned_cols=29  Identities=76%  Similarity=1.110  Sum_probs=24.5  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCHHHHHHHHHHHHHHHHHcC
+Q tr|I3L2R3|I3L2   57 DDSTGGTPLTPAARISALNIVGDLLRKVG   85 (137)
+Q Consensus        57 ddstggtpltpaarisalnivgdllrkvg   85 (137)
+                      +++++++|++|++||+|||||+|||||||
+T Consensus         3 ~~g~~~~p~tp~~RisAlniv~dLLrkvg   31 (51)
+T 6KZJ_B            3 GSGFGTSPLTPSARISALNIVGDLLRKVG   31 (51)
+T ss_dssp             --CTTCCCBCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCChhHhhhhHHHHHHHHHHHh
+Confidence            34444689999999999999999999997
+
+
+No 2
+>6KZJ_C Ankyrin-2, Nuclear distribution protein nudE-like; PROTEIN TRANSPORT, STRUCTURAL PROTEIN, PROTEIN; 1.5A {Homo sapiens}
+Probab=99.02  E-value=3.2e-10  Score=71.85  Aligned_cols=29  Identities=76%  Similarity=1.110  Sum_probs=24.5  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCHHHHHHHHHHHHHHHHHcC
+Q tr|I3L2R3|I3L2   57 DDSTGGTPLTPAARISALNIVGDLLRKVG   85 (137)
+Q Consensus        57 ddstggtpltpaarisalnivgdllrkvg   85 (137)
+                      +++++++|++|++||+|||||+|||||||
+T Consensus         3 ~~g~~~~p~tp~~RisAlniv~dLLrkvg   31 (51)
+T 6KZJ_C            3 GSGFGTSPLTPSARISALNIVGDLLRKVG   31 (51)
+T ss_dssp             --CCCCCCBCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCCCChhHhhhhHHHHHHHHHHHh
+Confidence            34445689999999999999999999998
+
+
+No 3
+>1BLX_B CYCLIN-DEPENDENT KINASE 6, P19INK4D; INHIBITOR PROTEIN, CYCLIN-DEPENDENT KINASE, CELL; 1.9A {Homo sapiens} SCOP: d.211.1.1
+Probab=43.02  E-value=28  Score=19.72  Aligned_cols=6  Identities=33%  Similarity=0.528  Sum_probs=2.3  Template_Neff=13.700
+
+Q ss_pred             HHHHHH
+Q tr|I3L2R3|I3L2   76 IVGDLL   81 (137)
+Q Consensus        76 ivgdll   81 (137)
+                      ++..++
+T Consensus        56 ~~~~l~   61 (166)
+T 1BLX_B           56 VALELL   61 (166)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHHH
+Confidence            333333
+
+
+No 4
+>5HIU_A GTPase activator-like protein; complex, signaling protein; 2.5A {Chaetomium thermophilum}
+Probab=19.81  E-value=2e+02  Score=24.51  Aligned_cols=33  Identities=21%  Similarity=0.217  Sum_probs=30.1  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHcCCCCCCChhhhhhhe
+Q tr|I3L2R3|I3L2   67 PAARISALNIVGDLLRKVGVGEAPGIWEAAFTH   99 (137)
+Q Consensus        67 paarisalnivgdllrkvgvgeapgiweaafth   99 (137)
+                      .+.|+.+.+-+.+.+++..+...+.||.++..-
+T Consensus        36 l~~Ri~a~~~l~~~l~~~~~~~v~~iW~~a~dL   68 (463)
+T 5HIU_A           36 LSERVLAANKLRFAVVDFPLNPVHAIWHAAKDM   68 (463)
+T ss_dssp             HHHHHHHHHHHHHHHHHCTTSCCHHHHHHHGGG
+T ss_pred             HHHHHHHHHHHHHHHhhCCCCcHHHHHHHHHHH
+Confidence            789999999999999999999999999987654
+
+
+No 5
+>5HIU_C GTPase activator-like protein; complex, signaling protein; 2.5A {Chaetomium thermophilum}
+Probab=19.81  E-value=2e+02  Score=24.51  Aligned_cols=33  Identities=21%  Similarity=0.217  Sum_probs=30.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHcCCCCCCChhhhhhhe
+Q tr|I3L2R3|I3L2   67 PAARISALNIVGDLLRKVGVGEAPGIWEAAFTH   99 (137)
+Q Consensus        67 paarisalnivgdllrkvgvgeapgiweaafth   99 (137)
+                      .+.|+.+.+-+.+.+++..+...+.||.++..-
+T Consensus        36 l~~Ri~a~~~l~~~l~~~~~~~v~~iW~~a~dL   68 (463)
+T 5HIU_C           36 LSERVLAANKLRFAVVDFPLNPVHAIWHAAKDM   68 (463)
+T ss_dssp             HHHHHHHHHHHHHHHHHCTTSCCHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhhCCCCcHHHHHHHHHHH
+Confidence            789999999999999999999999999987653
+
+
+No 6
+>6G3B_A Type II site-specific deoxyribonuclease/RNA Complex; RESTRICTION ENDONUCLEASE, SCANNING COMPLEX, RNA/DNA; 1.8A {Nostoc sp. PCC 7120}
+Probab=19.56  E-value=1.7e+02  Score=25.45  Aligned_cols=13  Identities=62%  Similarity=0.851  Sum_probs=10.8  Template_Neff=4.900
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|I3L2R3|I3L2   70 RISALNIVGDLLR   82 (137)
+Q Consensus        70 risalnivgdllr   82 (137)
+                      ..+|=||+|+||-
+T Consensus       111 ~MsAENi~G~LLE  123 (238)
+T 6G3B_A          111 SMGAENIVGDLLE  123 (238)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            4688899999993
+
+
+No 7
+>6S48_A Type II site-specific deoxyribonuclease/DNA Complex; RESTRICTION ENDONUCLEASE, DNA COMPLEX, A-DNA; HET: PGE, 1PE; 1.9A {Nostoc sp. PCC 7120 = FACHB-418}
+Probab=19.56  E-value=1.7e+02  Score=25.45  Aligned_cols=13  Identities=62%  Similarity=0.851  Sum_probs=10.8  Template_Neff=4.900
+
+Q ss_pred             HHHHHHHHHHHHH
+Q tr|I3L2R3|I3L2   70 RISALNIVGDLLR   82 (137)
+Q Consensus        70 risalnivgdllr   82 (137)
+                      ..+|=||+|+||-
+T Consensus       111 ~MsAENi~G~LLE  123 (238)
+T 6S48_A          111 SMGAENIVGDLLE  123 (238)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            4688899999993
+
+
+No 8
+>2V7S_A PROBABLE CONSERVED LIPOPROTEIN LPPA; LIPOPROTEIN, UNKNOWN FUNCTION, PUTATIVE LIPOPROTEIN; HET: GOL, MSE; 1.96A {MYCOBACTERIUM TUBERCULOSIS}
+Probab=16.84  E-value=4.9e+02  Score=20.60  Aligned_cols=29  Identities=24%  Similarity=0.245  Sum_probs=24.7  Template_Neff=7.800
+
+Q ss_pred             CCCCCHHHHHHHHHHHHHHHHHcCCCCCC
+Q tr|I3L2R3|I3L2   62 GTPLTPAARISALNIVGDLLRKVGVGEAP   90 (137)
+Q Consensus        62 gtpltpaarisalnivgdllrkvgvgeap   90 (137)
+                      ..|+.....-.++++|.+.+.+.|+....
+T Consensus       123 ~~pip~~~W~~a~~~V~eva~~~Gft~~~  151 (215)
+T 2V7S_A          123 GATFSAEDFKIAANIVREEAAKYGATTES  151 (215)
+T ss_dssp             SSCCCHHHHHHHHHHHHHHHHTTTCCEEE
+T ss_pred             CCCCCHHHHHHHHHHHHHHHHHcCCCccE
+Confidence            35677889999999999999999997643
+
+
+No 9
+>6R21_P PROTEIN; viral complex, DNA ejection, VIRAL; 3.33A {Enterobacteria phage T7}
+Probab=15.09  E-value=7.7e+02  Score=19.83  Aligned_cols=19  Identities=26%  Similarity=0.440  Sum_probs=13.4  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHHHHcCCCCC
+Q tr|I3L2R3|I3L2   71 ISALNIVGDLLRKVGVGEA   89 (137)
+Q Consensus        71 isalnivgdllrkvgvgea   89 (137)
+                      .+-+.|++..|..+|..+.
+T Consensus        46 ~t~l~IvN~AL~~lG~~~I   64 (231)
+T 6R21_P           46 AAELSAVNDILASIGEPPV   64 (231)
+T ss_dssp             TTHHHHHHHHTTTSSCCCC
+T ss_pred             hhHHHHHHHHHHHhCCCCC
+Confidence            4566788888888877543
+
+
+No 10
+>7NG2_A YTH, Cleavage and Polyadenylation, RNA; 1.23A {Toxoplasma gondii (strain ATCC 50611 / Me49)}
+Probab=14.68  E-value=86  Score=22.25  Aligned_cols=13  Identities=46%  Similarity=0.703  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCCCCCHHHH
+Q tr|I3L2R3|I3L2   58 DSTGGTPLTPAAR   70 (137)
+Q Consensus        58 dstggtpltpaar   70 (137)
+                      +.-.||+||||.|
+T Consensus       154 ~~~~~~~~~~~~~  166 (166)
+T 7NG2_A          154 DLLAGTGIDPATR  166 (166)
+T ss_dssp             CTTC---------
+T ss_pred             cccccCCCCCCCC
+
+

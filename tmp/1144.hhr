@@ -1,0 +1,165 @@
+Query         tr|H3BPM9|H3BPM9_HUMAN
+Match_columns 141
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 23:06:41 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1144.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7PEL_F integrase, transferase,  94.0   0.031 3.4E-07   47.9   0.1   34    1-34     69-102 (697)
+  2 6S01_K Histone H3, Histone H4,  86.6    0.23 2.5E-06   44.2  -1.5   32    1-32     68-99  (530)
+  3 6IIQ_B Hepatoma-derived growth  44.7     8.5 9.3E-05   20.6  -0.9   24    5-28     77-100 (100)
+  4 6IIT_B Hepatoma-derived growth  44.7     8.5 9.3E-05   20.6  -0.9   24    5-28     77-100 (100)
+  5 2PA8_L DNA-directed RNA polyme  13.2      82 0.00089   20.2  -0.9   18   15-32     30-47  (92)
+  6 3HKZ_V DNA-directed RNA polyme  13.2      82 0.00089   20.2  -0.9   18   14-31     29-46  (92)
+  7 5XSK_B Hepatoma-derived growth  12.2      87 0.00095   19.4  -1.0   23    6-28     98-120 (120)
+  8 4FU6_A Structural Genomics Con  12.0 1.1E+02  0.0012   20.6  -0.7   56    1-56     86-141 (153)
+  9 6H8Q_A Cohesin subunit SCC3, S  10.8 8.1E+02  0.0088   25.5   4.4   65   29-93     37-103 (1150)
+ 10 6H8Q_B Cohesin subunit SCC3, S  10.8 8.1E+02  0.0088   25.5   4.4   65   29-93     37-103 (1150)
+
+No 1
+>7PEL_F integrase, transferase, deltaretrovirus, PP2A, B56;{Simian T-lymphotropic virus 1}
+Probab=93.99  E-value=0.031  Score=47.93  Aligned_cols=34  Identities=71%  Similarity=1.201  Sum_probs=27.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCCCCCCCCCCccccCCCCCCccCccccCCC
+Q tr|H3BPM9|H3BP    1 FGKSNKRKGFNEGLWEIENNPGVKFTGYQAIQQQ   34 (141)
+Q Consensus         1 fgksnkrkgfneglweiennpgvkftgyqaiqqq   34 (141)
+                      |++.+++++|++++|+++++|.+.+.+.+....+
+T Consensus        69 ~~~~~k~~~f~~al~e~~~~~~~~~~~~~~~~~~  102 (697)
+T 7PEL_F           69 YGKPNKRKGFNEGLWEIDNNPKVKFSSQQAATKQ  102 (697)
+T ss_pred             cCCCCCChhHHHHHHHHHcCCccCcchhhccccc
+Confidence            3556788999999999999999988776544433
+
+
+No 2
+>6S01_K Histone H3, Histone H4, Histone; LEDGF, PWWP, H3K36me3, nucleosome, TRANSCRIPTION; HET: ML3; 3.2A {Xenopus laevis}
+Probab=86.62  E-value=0.23  Score=44.24  Aligned_cols=32  Identities=72%  Similarity=1.233  Sum_probs=21.8  Template_Neff=6.900
+
+Q ss_pred             CCCCCCCCCCCCCCccccCCCCCCccCccccC
+Q tr|H3BPM9|H3BP    1 FGKSNKRKGFNEGLWEIENNPGVKFTGYQAIQ   32 (141)
+Q Consensus         1 fgksnkrkgfneglweiennpgvkftgyqaiq   32 (141)
+                      |++.+++++|+++||+|+++|.+.|++.+...
+T Consensus        68 ~~k~~k~k~f~eaL~eae~~~~~~~~~~~~~~   99 (530)
+T 6S01_K           68 YGKPNKRKGFNEGLWEIDNNPKVKFSSQQAAT   99 (530)
+T ss_dssp             SCCCCSSTTSTTHHHHHHHCTTCC--------
+T ss_pred             hCCCCCChhHHHHHHHHHhCCCcCccchHhhc
+Confidence            45678899999999999999999999987543
+
+
+No 3
+>6IIQ_B Hepatoma-derived growth factor-related protein 3/DNA; growth factor, PWWP domain, Hepatoma-derived; HET: TRS, MLA; 1.85A {Homo sapiens}
+Probab=44.74  E-value=8.5  Score=20.57  Aligned_cols=24  Identities=100%  Similarity=1.722  Sum_probs=16.6  Template_Neff=13.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCCccCc
+Q tr|H3BPM9|H3BP    5 NKRKGFNEGLWEIENNPGVKFTGY   28 (141)
+Q Consensus         5 nkrkgfneglweiennpgvkftgy   28 (141)
+                      .+.+.|..++.++++.+.+.+++|
+T Consensus        77 ~~~~~~~~a~~~~~~~~~~~~~~~  100 (100)
+T 6IIQ_B           77 NKRKGFNEGLWEIENNPGVKFTGY  100 (100)
+T ss_dssp             CCSTTHHHHHHHHHHCTTTTCCCC
+T ss_pred             cCCccHHHHHHHHHhCCCCCccCC
+Confidence            344556667777777777777776
+
+
+No 4
+>6IIT_B Hepatoma-derived growth factor-related protein 3; growth factor, PWWP domain, Hepatoma-derived; HET: MLY; 2.1A {Homo sapiens}
+Probab=44.74  E-value=8.5  Score=20.57  Aligned_cols=24  Identities=100%  Similarity=1.722  Sum_probs=16.6  Template_Neff=13.100
+
+Q ss_pred             CCCCCCCCCCccccCCCCCCccCc
+Q tr|H3BPM9|H3BP    5 NKRKGFNEGLWEIENNPGVKFTGY   28 (141)
+Q Consensus         5 nkrkgfneglweiennpgvkftgy   28 (141)
+                      .+.+.|..++.++++.+.+.+++|
+T Consensus        77 ~~~~~~~~a~~~~~~~~~~~~~~~  100 (100)
+T 6IIT_B           77 NKRKGFNEGLWEIENNPGVKFTGY  100 (100)
+T ss_dssp             CCSTTHHHHHHHHHHCTTTTCCCC
+T ss_pred             cCCccHHHHHHHHHhCCCCCccCC
+Confidence            344556667777777777777776
+
+
+No 5
+>2PA8_L DNA-directed RNA polymerase subunit D; Ferredoxin-like Fe-S binding motif, Platform; 1.76A {Sulfolobus solfataricus}
+Probab=13.17  E-value=82  Score=20.23  Aligned_cols=18  Identities=22%  Similarity=0.364  Sum_probs=13.4  Template_Neff=9.300
+
+Q ss_pred             ccccCCCCCCccCccccC
+Q tr|H3BPM9|H3BP   15 WEIENNPGVKFTGYQAIQ   32 (141)
+Q Consensus        15 weiennpgvkftgyqaiq   32 (141)
+                      +.+.++|.|.|.||..-.
+T Consensus        30 ~~l~~~~~v~~agy~~~H   47 (92)
+T 2PA8_L           30 GTLRRISGVSFASYYQPH   47 (92)
+T ss_dssp             HHHHTSTTEEEEEEECSS
+T ss_pred             HHHhhCCCeEEEEEEcCC
+Confidence            455678999999997543
+
+
+No 6
+>3HKZ_V DNA-directed RNA polymerase subunit A'; RNA polymerase, archaea, Sulfolobus solfataricus; HET: ZN, F3S; 3.4A {Sulfolobus solfataricus}
+Probab=13.17  E-value=82  Score=20.23  Aligned_cols=18  Identities=22%  Similarity=0.320  Sum_probs=14.2  Template_Neff=9.300
+
+Q ss_pred             CccccCCCCCCccCcccc
+Q tr|H3BPM9|H3BP   14 LWEIENNPGVKFTGYQAI   31 (141)
+Q Consensus        14 lweiennpgvkftgyqai   31 (141)
+                      .+.+.++|.|.|.||..-
+T Consensus        29 ~~~l~~~~~v~~agy~~~   46 (92)
+T 3HKZ_V           29 AGTLRRISGVSFASYYQP   46 (92)
+T ss_pred             HHHHhhCCCeEEEEEEcC
+Confidence            456777899999999754
+
+
+No 7
+>5XSK_B Hepatoma-derived growth factor/DNA Complex; Growth factor, HORMONE; HET: MPD; 2.84A {Escherichia coli BL21}
+Probab=12.22  E-value=87  Score=19.36  Aligned_cols=23  Identities=83%  Similarity=1.440  Sum_probs=12.8  Template_Neff=11.100
+
+Q ss_pred             CCCCCCCCCccccCCCCCCccCc
+Q tr|H3BPM9|H3BP    6 KRKGFNEGLWEIENNPGVKFTGY   28 (141)
+Q Consensus         6 krkgfneglweiennpgvkftgy   28 (141)
+                      +...|...+.++++.+-+..++|
+T Consensus        98 ~~~~~~~a~~~a~~~~~~~~~~~  120 (120)
+T 5XSK_B           98 KRKGFSEGLWEIENNPTVKASGY  120 (120)
+T ss_dssp             CSTTHHHHHHHHHHCTTCCCCTS
+T ss_pred             CCccHHHHHHHHHhCCccccCCC
+Confidence            33445555666666666655554
+
+
+No 8
+>4FU6_A Structural Genomics Consortium, SGC, TRANSCRIPTION; HET: SO4; 2.1A {Homo sapiens}
+Probab=12.03  E-value=1.1e+02  Score=20.64  Aligned_cols=56  Identities=52%  Similarity=0.844  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCCCCCCCCCCccccCCCCCCccCccccCCCCCCCCCCCCCCCCCCCCCCCCC
+Q tr|H3BPM9|H3BP    1 FGKSNKRKGFNEGLWEIENNPGVKFTGYQAIQQQSSSETEGEGGNTADASSEEEGD   56 (141)
+Q Consensus         1 fgksnkrkgfneglweiennpgvkftgyqaiqqqsssetegeggntadasseeegd   56 (141)
+                      +.+..+++.|...+.++++.+......-..++....++.+-+..-.....++++.+
+T Consensus        86 ~~~~~~~~~~~~Al~ea~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  141 (153)
+T 4FU6_A           86 YGKPNKRKGFNEGLWEIDNNPKVKFSSQQAATKQSNASSDVEVEEKETSVSKEDTD  141 (153)
+T ss_dssp             HCSCCSSTTHHHHHHHHHHCTTCC--------------------------------
+T ss_pred             hCCCCCcHhHHHHHHHHHhCCcccccchhhccccCCCccchhhhhhhccccccccc
+
+
+No 9
+>6H8Q_A Cohesin subunit SCC3, Sister chromatid; Cohesin cell proliferation Scc3 DNA; 3.631A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=10.76  E-value=8.1e+02  Score=25.48  Aligned_cols=65  Identities=25%  Similarity=0.364  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCCCC
+Q tr|H3BPM9|H3BP   29 QAIQQQSSSETEGEGGNTADASSEEEGDR-VEEDGKGKRKNEKAGSKRK-KSYTSKKSSKQSRKSPG   93 (141)
+Q Consensus        29 qaiqqqsssetegeggntadasseeegdr-veedgkgkrknekagskrk-ksytskksskqsrkspg   93 (141)
+                      +..+...+.+.+..++-..+.+++++.+- -.+|-.-.+...+.+.||| ++-.+.++.+...|.++
+T Consensus        37 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~~~kr~~~~~~~~~~~~~~~~~~~  103 (1150)
+T 6H8Q_A           37 ITAKTQHEEEEEQDTGESEESSSEDDYEDQDDDDYVDTATAKRKSRKRKPKSASNTSSKRQKKKPTS  103 (1150)
+T ss_dssp             -------------------------------------------------------------------
+T ss_pred             ccccccccchhccccCCCCccCCccccccCCcccccchHHhhcccCCCCCCCCCCCCCcCccCCCCc
+
+
+No 10
+>6H8Q_B Cohesin subunit SCC3, Sister chromatid; Cohesin cell proliferation Scc3 DNA; 3.631A {Saccharomyces cerevisiae (strain ATCC 204508 / S288c)}
+Probab=10.76  E-value=8.1e+02  Score=25.48  Aligned_cols=65  Identities=25%  Similarity=0.364  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccCCCCCCCCCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCCCCCC-CCCCCCCCCCCCCCCCC
+Q tr|H3BPM9|H3BP   29 QAIQQQSSSETEGEGGNTADASSEEEGDR-VEEDGKGKRKNEKAGSKRK-KSYTSKKSSKQSRKSPG   93 (141)
+Q Consensus        29 qaiqqqsssetegeggntadasseeegdr-veedgkgkrknekagskrk-ksytskksskqsrkspg   93 (141)
+                      +..+...+.+.+..++-..+.+++++.+- -.+|-.-.+...+.+.||| ++-.+.++.+...|.++
+T Consensus        37 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~~~~~~~kr~~~~~~~~~~~~~~~~~~~  103 (1150)
+T 6H8Q_B           37 ITAKTQHEEEEEQDTGESEESSSEDDYEDQDDDDYVDTATAKRKSRKRKPKSASNTSSKRQKKKPTS  103 (1150)
+T ss_dssp             -------------------------------------------------------------------
+T ss_pred             ccccccccchhccccCCCCccCCccccccCCcccccchHHhhcccCCCCCCCCCCCCCcCccCCCCc
+
+

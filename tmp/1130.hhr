@@ -1,0 +1,166 @@
+Query         tr|A0A1B0GTM8|A0A1B0GTM8_HUMAN
+Match_columns 40
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:52:18 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1130.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7JU2_A PNT domain, ETS transcr  63.1      10 0.00011   18.0   1.1   15   10-24      3-17  (83)
+  2 2QAR_B E80-TELSAM domain, Lyso  29.5      76 0.00083   15.8   1.2   11   12-22      1-11  (93)
+  3 7RAK_G Complex, chaperonin., C  28.2      42 0.00045   21.2   0.1   10   22-31    382-391 (507)
+  4 3J1E_N Chaperonin beta subunit  22.0      66 0.00071   21.1   0.2    8   24-31    413-420 (553)
+  5 4V81_B T-complex protein 1 sub  21.6      69 0.00075   20.6   0.2    9   23-31    398-406 (527)
+  6 4V8R_Bb T-COMPLEX PROTEIN 1 SU  21.6      69 0.00075   20.6   0.2   12   21-32    396-407 (527)
+  7 6KS6_B T-complex protein 1 sub  21.6      69 0.00075   20.6   0.2   12   21-32    396-407 (527)
+  8 6NRC_B Prefoldin subunit 1, Pr  21.6      60 0.00066   20.4  -0.0   13   20-32    386-398 (509)
+  9 3AQ1_B Thermosome subunit; GRO  20.0      78 0.00084   20.2   0.2    8   24-31    357-364 (500)
+ 10 4V8R_Bq T-COMPLEX PROTEIN 1 SU  19.8      94   0.001   20.7   0.6   10   23-32    417-426 (568)
+
+No 1
+>7JU2_A PNT domain, ETS transcription factor; HET: FMT; 1.85002183464A {Homo sapiens}
+Probab=63.06  E-value=10  Score=18.01  Aligned_cols=15  Identities=13%  Similarity=0.275  Sum_probs=10.2  Template_Neff=10.800
+
+Q ss_pred             cccCCCCCCCCCCce
+Q tr|A0A1B0GTM8|   10 QEKCKLENHISPDVR   24 (40)
+Q Consensus        10 qekcklenhispdvr   24 (40)
+                      +|.|||.+.|..|-+
+T Consensus         3 ~~~~kl~~~i~~~p~   17 (83)
+T 7JU2_A            3 EDSIRLPAHLRLQPI   17 (83)
+T ss_dssp             --CCCCCGGGGSCGG
+T ss_pred             ccccCCCcccCCCHH
+Confidence            578999988887643
+
+
+No 2
+>2QAR_B E80-TELSAM domain, Lysozyme (E.C.3.2.1.17); polymer, crystallization modules, Sterile Alpha; HET: NO3; 2.4A {Escherichia coli}
+Probab=29.45  E-value=76  Score=15.82  Aligned_cols=11  Identities=18%  Similarity=0.368  Sum_probs=8.4  Template_Neff=10.200
+
+Q ss_pred             cCCCCCCCCCC
+Q tr|A0A1B0GTM8|   12 KCKLENHISPD   22 (40)
+Q Consensus        12 kcklenhispd   22 (40)
+                      ||+|...|..|
+T Consensus         1 ~~~~~~nI~a~   11 (93)
+T 2QAR_B            1 SIRLPAHLRLQ   11 (93)
+T ss_dssp             CCCCCGGGCSC
+T ss_pred             CCCCCCcCCCC
+Confidence            57888888766
+
+
+No 3
+>7RAK_G Complex, chaperonin., CHAPERONE; HET: ATP; 3.9A {Methanococcus maripaludis}
+Probab=28.25  E-value=42  Score=21.18  Aligned_cols=10  Identities=50%  Similarity=1.076  Sum_probs=6.8  Template_Neff=11.200
+
+Q ss_pred             CceecCCCCC
+Q tr|A0A1B0GTM8|   22 DVRVLPGGGA   31 (40)
+Q Consensus        22 dvrvlpggga   31 (40)
+                      +-+|+||||+
+T Consensus       382 ~~~vlpGgG~  391 (507)
+T 7RAK_G          382 DGRIVSGGGS  391 (507)
+T ss_dssp             TCCCCCTTTC
+T ss_pred             cCCEecCCcH
+Confidence            3457888875
+
+
+No 4
+>3J1E_N Chaperonin beta subunit; Group II chaperonin, CHAPERONE; 8.3A {Acidianus tengchongensis}
+Probab=22.01  E-value=66  Score=21.06  Aligned_cols=8  Identities=63%  Similarity=1.253  Sum_probs=4.8  Template_Neff=10.700
+
+Q ss_pred             eecCCCCC
+Q tr|A0A1B0GTM8|   24 RVLPGGGA   31 (40)
+Q Consensus        24 rvlpggga   31 (40)
+                      +|+||||+
+T Consensus       413 ~vlpGgG~  420 (553)
+T 3J1E_N          413 RAIAGGGA  420 (553)
+T ss_dssp             EEEETTTH
+T ss_pred             CeeeCCCH
+Confidence            46666663
+
+
+No 5
+>4V81_B T-complex protein 1 subunit alpha; HSP60, eukaryotic chaperonin, actin/tubulin binding; HET: ADP, SO4, BEF; 3.8A {Saccharomyces cerevisiae}
+Probab=21.59  E-value=69  Score=20.64  Aligned_cols=9  Identities=44%  Similarity=0.907  Sum_probs=5.6  Template_Neff=10.900
+
+Q ss_pred             ceecCCCCC
+Q tr|A0A1B0GTM8|   23 VRVLPGGGA   31 (40)
+Q Consensus        23 vrvlpggga   31 (40)
+                      -+++||||+
+T Consensus       398 ~~vlpGgG~  406 (527)
+T 4V81_B          398 TRTVLGGGC  406 (527)
+T ss_dssp             CCEEETTTH
+T ss_pred             CCeecCChH
+Confidence            357777764
+
+
+No 6
+>4V8R_Bb T-COMPLEX PROTEIN 1 SUBUNIT ALPHA; CHAPERONE; HET: ADP, BEF, MG; 3.8A {SACCHAROMYCES CEREVISIAE}
+Probab=21.59  E-value=69  Score=20.64  Aligned_cols=12  Identities=33%  Similarity=0.717  Sum_probs=8.7  Template_Neff=10.900
+
+Q ss_pred             CCceecCCCCCC
+Q tr|A0A1B0GTM8|   21 PDVRVLPGGGAH   32 (40)
+Q Consensus        21 pdvrvlpgggah   32 (40)
+                      .+-+++||||+-
+T Consensus       396 ~~~~vlpGgG~~  407 (527)
+T 4V8R_Bb         396 KETRTVLGGGCA  407 (527)
+T ss_pred             hcCCeecCChHH
+Confidence            355799999863
+
+
+No 7
+>6KS6_B T-complex protein 1 subunit alpha; Chaperonin TRiC/CCT, Allosteric network, ATPase; HET: ADP, AF3, MG;{Saccharomyces cerevisiae S288C}
+Probab=21.59  E-value=69  Score=20.64  Aligned_cols=12  Identities=33%  Similarity=0.717  Sum_probs=8.7  Template_Neff=10.900
+
+Q ss_pred             CCceecCCCCCC
+Q tr|A0A1B0GTM8|   21 PDVRVLPGGGAH   32 (40)
+Q Consensus        21 pdvrvlpgggah   32 (40)
+                      .+-+++||||+-
+T Consensus       396 ~~~~vlpGgG~~  407 (527)
+T 6KS6_B          396 KETRTVLGGGCA  407 (527)
+T ss_pred             hcCCeecCChHH
+Confidence            355799999863
+
+
+No 8
+>6NRC_B Prefoldin subunit 1, Prefoldin subunit; TRiC/CCT, PFD, CryoEM, Molecular Chaperone; 8.3A {Homo sapiens}
+Probab=21.55  E-value=60  Score=20.42  Aligned_cols=13  Identities=38%  Similarity=0.657  Sum_probs=9.2  Template_Neff=11.300
+
+Q ss_pred             CCCceecCCCCCC
+Q tr|A0A1B0GTM8|   20 SPDVRVLPGGGAH   32 (40)
+Q Consensus        20 spdvrvlpgggah   32 (40)
+                      ..+.+++||||+-
+T Consensus       386 ~~~~~vvpGgG~~  398 (509)
+T 6NRC_B          386 VKDSRTVYGGGCS  398 (509)
+T ss_pred             hhCCCeeeCchHH
+Confidence            3455689999864
+
+
+No 9
+>3AQ1_B Thermosome subunit; GROUP II CHAPERONIN, PROTEIN FOLDING; 2.746A {Methanococcoides burtonii}
+Probab=19.99  E-value=78  Score=20.17  Aligned_cols=8  Identities=50%  Similarity=1.124  Sum_probs=5.0  Template_Neff=11.000
+
+Q ss_pred             eecCCCCC
+Q tr|A0A1B0GTM8|   24 RVLPGGGA   31 (40)
+Q Consensus        24 rvlpggga   31 (40)
+                      +++||||+
+T Consensus       357 ~vlpGgG~  364 (500)
+T 3AQ1_B          357 KVVVGGGS  364 (500)
+T ss_dssp             EEEETTTH
+T ss_pred             CEEeCCcH
+Confidence            56677663
+
+
+No 10
+>4V8R_Bq T-COMPLEX PROTEIN 1 SUBUNIT ALPHA; CHAPERONE; HET: ADP, BEF, MG; 3.8A {SACCHAROMYCES CEREVISIAE}
+Probab=19.80  E-value=94  Score=20.70  Aligned_cols=10  Identities=50%  Similarity=0.953  Sum_probs=7.8  Template_Neff=10.400
+
+Q ss_pred             ceecCCCCCC
+Q tr|A0A1B0GTM8|   23 VRVLPGGGAH   32 (40)
+Q Consensus        23 vrvlpgggah   32 (40)
+                      .+|+||||+-
+T Consensus       417 ~~vlpGgG~~  426 (568)
+T 4V8R_Bq         417 GKLLPGAGAT  426 (568)
+T ss_pred             CeEEcCCcHH
+Confidence            3899999874
+
+

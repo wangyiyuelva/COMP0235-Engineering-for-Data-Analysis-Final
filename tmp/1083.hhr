@@ -1,0 +1,266 @@
+Query         tr|C9J8U9|C9J8U9_HUMAN
+Match_columns 41
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 22:07:05 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1083.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5FBM_B DNA-binding protein HU;  38.3 1.1E+02  0.0012   16.2   2.8   29    1-32      2-30  (99)
+  2 2VGP_D SERINE/THREONINE-PROTEI  35.3      19 0.00021   17.6  -0.4   33    5-41      9-41  (43)
+  3 3N06_A Structural analysis of   34.2 1.9E+02  0.0021   17.8   3.6   24   11-35    104-127 (186)
+  4 5DYR_A Virulence-associated pr  32.7 1.4E+02  0.0015   19.6   3.0   26    7-32    110-135 (151)
+  5 3MHS_B Ubiquitin carboxyl-term  31.6 1.8E+02  0.0019   16.7   3.9   23    1-23      3-25  (96)
+  6 4WA6_B Ubiquitin carboxyl-term  31.6 1.8E+02  0.0019   16.7   3.9   24    1-24      3-26  (96)
+  7 1F6F_A PLACENTAL LACTOGEN/PROL  30.7 2.3E+02  0.0025   18.0   3.7   21   13-34    121-141 (199)
+  8 2JR5_A UPF0350 protein VC_2471  30.4 1.4E+02  0.0016   16.7   2.5   20    2-22      2-21  (94)
+  9 4C2V_D AURORA KINASE B-A (E.C.  29.2      28  0.0003   17.1  -0.4   19   23-41     24-42  (44)
+ 10 3ON1_A BH2414 protein; Structu  26.4 1.1E+02  0.0012   16.2   1.5   32    2-34      2-33  (101)
+ 11 1P71_A DNA-BINDING PROTEIN HU/  25.9 1.8E+02  0.0019   14.8   2.8   28    1-31      1-28  (94)
+ 12 1P78_A DNA BINDING PROTEIN/DNA  25.9 1.8E+02  0.0019   14.8   2.8   27    1-30      1-27  (94)
+ 13 2GYQ_A ycfI, putative structur  25.6 1.7E+02  0.0019   16.1   2.2   33    8-40     19-51  (173)
+ 14 3NCF_A Prolactin, Prolactin re  25.0 2.9E+02  0.0032   17.0   3.6   20   12-31    105-124 (186)
+ 15 4P3V_A DNA-binding protein HU-  21.3 2.2E+02  0.0024   14.2   2.5   28    1-31      1-28  (90)
+ 16 6GR8_B Poly [ADP-ribose] polym  21.2      54 0.00059   16.6  -0.3   18   23-40     31-48  (70)
+
+No 1
+>5FBM_B DNA-binding protein HU; Histone-like protein, DNA binding, Dimerization; 1.9A {Streptococcus mutans serotype c (strain ATCC 700610 / UA159)}
+Probab=38.26  E-value=1.1e+02  Score=16.22  Aligned_cols=29  Identities=14%  Similarity=0.225  Sum_probs=16.5  Template_Neff=9.300
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHHHHHHHHHHc
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAGVDRIISQVV   32 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleagvdriisqvv   32 (41)
+                      |++.++-..+.+.   +|+-+.-+..++....
+T Consensus         2 m~~~~l~~~la~~---~~ls~~~v~~vl~~~~   30 (99)
+T 5FBM_B            2 ANKQDLIAKVAEA---TELTKKDSAAAVDAVF   30 (99)
+T ss_dssp             CBHHHHHHHHHHH---SSCCHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHH---hCCCHHHHHHHHHHHH
+Confidence            5667776666443   5555555555555443
+
+
+No 2
+>2VGP_D SERINE/THREONINE-PROTEIN KINASE 12-A (E.C.2.7.11.1), INNER; NUCLEOTIDE-BINDING, SERINE/THREONINE-PROTEIN KINASE, ATP-BINDING, TRANSFERASE; HET: TPO, AD6; 1.7A {XENOPUS LAEVIS}
+Probab=35.26  E-value=19  Score=17.63  Aligned_cols=33  Identities=30%  Similarity=0.533  Sum_probs=21.2  Template_Neff=7.600
+
+Q ss_pred             HHhHHHHHHHHHhchHHHHHHHHHHHHcCchhcccCC
+Q tr|C9J8U9|C9J8    5 QLRNGLRQSVVQSGMLEAGVDRIISQVVDPKLNHIFR   41 (41)
+Q Consensus         5 qlrnglrqsvvqsgmleagvdriisqvvdpklnhifr   41 (41)
+                      +|+..|++.... .   -..|.|...+.-|+|+.||.
+T Consensus         9 ~l~~~l~~Q~~~-~---~d~~~iFG~i~~~~l~~iF~   41 (43)
+T 2VGP_D            9 LLTQAIRQQYYK-P---IDVDRMYGTIDSPKLEELFN   41 (43)
+T ss_dssp             HHHHHHHHHHHS-C---CCHHHHTSSSCCCCTTTTTS
+T ss_pred             HHHHHHHHHHcC-C---CChhHhhCCCCCCCHHHHcC
+Confidence            455555443321 1   36788888888888998883
+
+
+No 3
+>3N06_A Structural analysis of human Prolactin; pH dependence, hematopoietic cytokine, HORMONE-HORMONE; 2.0A {Homo sapiens}
+Probab=34.24  E-value=1.9e+02  Score=17.84  Aligned_cols=24  Identities=29%  Similarity=0.313  Sum_probs=16.8  Template_Neff=8.300
+
+Q ss_pred             HHHHHHhchHHHHHHHHHHHHcCch
+Q tr|C9J8U9|C9J8   11 RQSVVQSGMLEAGVDRIISQVVDPK   35 (41)
+Q Consensus        11 rqsvvqsgmleagvdriisqvvdpk   35 (41)
+                      +.-....-.|+.|+..|++++ +|.
+T Consensus       104 ~~i~~~~~~L~egi~~i~~k~-~~~  127 (186)
+T 3N06_A          104 VEIEEQTKRLLERMELIVSQV-HPE  127 (186)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH-CTT
+T ss_pred             HHHHHHHHHHHHHHHHHHHhh-Ccc
+Confidence            333445556888999999997 553
+
+
+No 4
+>5DYR_A Virulence-associated protein D; VapD, Virulence-associated protein D, Xylella; 3.0A {Xylella fastidiosa (strain 9a5c)}
+Probab=32.74  E-value=1.4e+02  Score=19.55  Aligned_cols=26  Identities=23%  Similarity=0.405  Sum_probs=21.8  Template_Neff=5.800
+
+Q ss_pred             hHHHHHHHHHhchHHHHHHHHHHHHc
+Q tr|C9J8U9|C9J8    7 RNGLRQSVVQSGMLEAGVDRIISQVV   32 (41)
+Q Consensus         7 rnglrqsvvqsgmleagvdriisqvv   32 (41)
+                      -..|+++..++|.-+.-|+.|+++-.
+T Consensus       110 ~~~~~~~~~~~~~~~~~~~~~~~~~~  135 (151)
+T 5DYR_A          110 IGMLRHQLLDAGLTSEKIEEIIGQQK  135 (151)
+T ss_dssp             HHHHHHTTTTTSCCHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHCCCCHHHHHHHHhhhc
+Confidence            34788999999999999999998643
+
+
+No 5
+>3MHS_B Ubiquitin carboxyl-terminal hydrolase 8 (E.C.3.1.2.15); Multi-protein complex, Hydrolase-transcription regulator-protein binding; 1.89A {Saccharomyces cerevisiae}
+Probab=31.59  E-value=1.8e+02  Score=16.69  Aligned_cols=23  Identities=35%  Similarity=0.466  Sum_probs=14.3  Template_Neff=7.400
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHH
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAG   23 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleag   23 (41)
+                      |+.+++++-+.+..++||-.+.-
+T Consensus         3 ~~~~~~~~~i~~~L~~sGe~~rl   25 (96)
+T 3MHS_B            3 MDTAQLKSQIQQYLVESGNYELI   25 (96)
+T ss_dssp             --CTHHHHHHHHHHHHTTHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHCCcHHHH
+Confidence            55667777777777777765443
+
+
+No 6
+>4WA6_B Ubiquitin carboxyl-terminal hydrolase 8, Protein; Multi-Protein Complex, Hydrolase-transcription complex; HET: ZN; 2.36A {Saccharomyces cerevisiae}
+Probab=31.59  E-value=1.8e+02  Score=16.69  Aligned_cols=24  Identities=33%  Similarity=0.433  Sum_probs=17.4  Template_Neff=7.400
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHHH
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAGV   24 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleagv   24 (41)
+                      |+.+++++-+.+..++||-.+.--
+T Consensus         3 ~~~~~~~~~i~~~L~~sGe~~rl~   26 (96)
+T 4WA6_B            3 MDTAQLKSQIQQYLVESGNYELIS   26 (96)
+T ss_dssp             CCHHHHHHHHHHHHHHHTHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHCCcHHHHH
+Confidence            667788888888888887655433
+
+
+No 7
+>1F6F_A PLACENTAL LACTOGEN/PROLACTIN RECEPTOR; 4-helical bundle, alpha helical bundle; 2.3A {Ovis aries} SCOP: a.26.1.1
+Probab=30.65  E-value=2.3e+02  Score=18.01  Aligned_cols=21  Identities=24%  Similarity=0.398  Sum_probs=15.5  Template_Neff=7.800
+
+Q ss_pred             HHHHhchHHHHHHHHHHHHcCc
+Q tr|C9J8U9|C9J8   13 SVVQSGMLEAGVDRIISQVVDP   34 (41)
+Q Consensus        13 svvqsgmleagvdriisqvvdp   34 (41)
+                      --.+.-.|+.|+..|++++ +|
+T Consensus       121 i~~~~~~L~egi~~i~~kv-~p  141 (199)
+T 1F6F_A          121 IKEKAKVLVDGVEVIQKRI-HP  141 (199)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH-ST
+T ss_pred             HHHHHHHHHHHHHHHHHhh-CC
+Confidence            3345567888999999987 44
+
+
+No 8
+>2JR5_A UPF0350 protein VC_2471; UPF0350 protein VC_2471, Structural Genomics; NMR {Vibrio cholerae}
+Probab=30.43  E-value=1.4e+02  Score=16.71  Aligned_cols=20  Identities=20%  Similarity=0.375  Sum_probs=12.7  Template_Neff=7.800
+
+Q ss_pred             CHHHHhHHHHHHHHHhchHHH
+Q tr|C9J8U9|C9J8    2 NKNQLRNGLRQSVVQSGMLEA   22 (41)
+Q Consensus         2 nknqlrnglrqsvvqsgmlea   22 (41)
+                      .+...++-|+... ..||+|.
+T Consensus         2 ~~~~~~krl~~r~-rRG~~El   21 (94)
+T 2JR5_A            2 YTAEQKARIKWAC-RRGMLEL   21 (94)
+T ss_dssp             CCHHHHHHHHHHH-CCSSHHH
+T ss_pred             CcHHHHHHHHHHc-hhhHHHH
+Confidence            3444555566555 8899886
+
+
+No 9
+>4C2V_D AURORA KINASE B-A (E.C.2.7.11.1), INNER; TRANSFERASE-CELL CYCLE COMPLEX, AZD1152; HET: TPO, YJA; 1.49A {XENOPUS LAEVIS}
+Probab=29.16  E-value=28  Score=17.11  Aligned_cols=19  Identities=37%  Similarity=0.737  Sum_probs=15.6  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHcCchhcccCC
+Q tr|C9J8U9|C9J8   23 GVDRIISQVVDPKLNHIFR   41 (41)
+Q Consensus        23 gvdriisqvvdpklnhifr   41 (41)
+                      ..|.|...+..+++..||.
+T Consensus        24 d~~~iFG~i~~~~l~~iF~   42 (44)
+T 4C2V_D           24 DVDRMYGTIDSPKLEELFN   42 (44)
+T ss_dssp             CHHHHTTTSCCCCGGGTTS
+T ss_pred             ChhHhhCCCCCCCHHHHcC
+Confidence            6788888888888988883
+
+
+No 10
+>3ON1_A BH2414 protein; Structural Genomics, PSI-2, Protein Structure; HET: MSE; 1.65A {Bacillus halodurans}
+Probab=26.42  E-value=1.1e+02  Score=16.18  Aligned_cols=32  Identities=13%  Similarity=0.204  Sum_probs=20.3  Template_Neff=9.400
+
+Q ss_pred             CHHHHhHHHHHHHHHhchHHHHHHHHHHHHcCc
+Q tr|C9J8U9|C9J8    2 NKNQLRNGLRQSVVQSGMLEAGVDRIISQVVDP   34 (41)
+Q Consensus         2 nknqlrnglrqsvvqsgmleagvdriisqvvdp   34 (41)
+                      .++.+.+-|... ..+|.+-.|.+.+...+-..
+T Consensus         2 ~~~~~~~~l~~a-~~~g~~~~G~~~v~~~l~~~   33 (101)
+T 3ON1_A            2 SEAKWLSLLGLA-ARARQLLTGEEQVVKAVQNG   33 (101)
+T ss_dssp             -CCHHHHHHHHH-HHTTCEEESHHHHHHHHHTT
+T ss_pred             chhHHHHHHHHH-HHcCCEeecHHHHHHHHHCC
+Confidence            444555555444 47888888888887766443
+
+
+No 11
+>1P71_A DNA-BINDING PROTEIN HU/DNA Complex; protein-DNA complex, DNA bending, HU; 1.9A {Anabaena sp.} SCOP: a.55.1.1
+Probab=25.85  E-value=1.8e+02  Score=14.76  Aligned_cols=28  Identities=18%  Similarity=0.408  Sum_probs=14.6  Template_Neff=10.000
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHHHHHHHHHH
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAGVDRIISQV   31 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleagvdriisqv   31 (41)
+                      |++.+|-.-+.+.   +++-++-+..++..+
+T Consensus         1 ~~~~~l~~~ia~~---~~~~~~~~~~vl~~~   28 (94)
+T 1P71_A            1 MNKGELVDAVAEK---ASVTKKQADAVLTAA   28 (94)
+T ss_dssp             CBHHHHHHHHHHH---HTCCHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHH---hCCCHHHHHHHHHHH
+Confidence            4555555555442   555555555555443
+
+
+No 12
+>1P78_A DNA BINDING PROTEIN/DNA Complex; protein-DNA complex, DNA bending, HU; 2.25A {Anabaena sp.} SCOP: a.55.1.1
+Probab=25.85  E-value=1.8e+02  Score=14.76  Aligned_cols=27  Identities=19%  Similarity=0.422  Sum_probs=11.5  Template_Neff=10.000
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHHHHHHHHH
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAGVDRIISQ   30 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleagvdriisq   30 (41)
+                      |++.+|-.-+.+.   +++-++-+..++..
+T Consensus         1 ~~~~~l~~~ia~~---~~~~~~~~~~vl~~   27 (94)
+T 1P78_A            1 MNKGELVDAVAEK---ASVTKKQADAVLTA   27 (94)
+T ss_dssp             CBHHHHHHHHCCC---CCCCHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHH---hCCCHHHHHHHHHH
+Confidence            3444444444332   44444444444443
+
+
+No 13
+>2GYQ_A ycfI, putative structural proteins; structural genomics, APC6105, iron-binding, PSI; HET: ACT; 1.4A {Rhodopseudomonas palustris} SCOP: a.25.1.4
+Probab=25.64  E-value=1.7e+02  Score=16.06  Aligned_cols=33  Identities=18%  Similarity=0.334  Sum_probs=18.7  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHhchHHHHHHHHHHHHcCchhcccC
+Q tr|C9J8U9|C9J8    8 NGLRQSVVQSGMLEAGVDRIISQVVDPKLNHIF   40 (41)
+Q Consensus         8 nglrqsvvqsgmleagvdriisqvvdpklnhif   40 (41)
+                      ..|....--.-+......+...++-+|.+...|
+T Consensus        19 ~~L~~~~~~e~~~~~~~~~~~~~~~~~~l~~~l   51 (173)
+T 2GYQ_A           19 HGLRDIYYAEQQITKALPKMIEQATNRDLSQGL   51 (173)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHCCSHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHH
+Confidence            344444444444555666777777777765543
+
+
+No 14
+>3NCF_A Prolactin, Prolactin receptor; pH dependence, hematopoietic cytokine, HORMONE-HORMONE; 2.8A {Homo sapiens}
+Probab=24.96  E-value=2.9e+02  Score=17.00  Aligned_cols=20  Identities=30%  Similarity=0.255  Sum_probs=14.8  Template_Neff=8.400
+
+Q ss_pred             HHHHHhchHHHHHHHHHHHH
+Q tr|C9J8U9|C9J8   12 QSVVQSGMLEAGVDRIISQV   31 (41)
+Q Consensus        12 qsvvqsgmleagvdriisqv   31 (41)
+                      +-....--|+.|+..|++++
+T Consensus       105 ~i~~k~~~L~~gi~~i~~k~  124 (186)
+T 3NCF_A          105 EIEEQTKRLLERMELIVSQV  124 (186)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhh
+Confidence            33345566888999999987
+
+
+No 15
+>4P3V_A DNA-binding protein HU-beta; Histone-like, homodimer, DNA BINDING PROTEIN; 1.25A {Escherichia coli}
+Probab=21.29  E-value=2.2e+02  Score=14.22  Aligned_cols=28  Identities=25%  Similarity=0.430  Sum_probs=14.3  Template_Neff=10.100
+
+Q ss_pred             CCHHHHhHHHHHHHHHhchHHHHHHHHHHHH
+Q tr|C9J8U9|C9J8    1 MNKNQLRNGLRQSVVQSGMLEAGVDRIISQV   31 (41)
+Q Consensus         1 mnknqlrnglrqsvvqsgmleagvdriisqv   31 (41)
+                      |++.++-.-+.+.   +|+-+.-+..++..+
+T Consensus         1 mt~~~l~~~la~~---~~l~~~~~~~~l~~~   28 (90)
+T 4P3V_A            1 MNKSQLIDKIAAG---ADISKAAAGRALDAI   28 (90)
+T ss_dssp             CCHHHHHHHHHHH---HTCCHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHh---cCCCHHHHHHHHHHH
+Confidence            5666665555443   445444454444433
+
+
+No 16
+>6GR8_B Poly [ADP-ribose] polymerase 14 (E.C.2.4.2.30); Kinase, Structural Genomics Consortium, SGC; HET: TPO, SEP, F8Z; 1.75A {Homo sapiens}
+Probab=21.17  E-value=54  Score=16.60  Aligned_cols=18  Identities=17%  Similarity=0.399  Sum_probs=10.6  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHcCchhcccC
+Q tr|C9J8U9|C9J8   23 GVDRIISQVVDPKLNHIF   40 (41)
+Q Consensus        23 gvdriisqvvdpklnhif   40 (41)
+                      ..|.|...+..|.|..||
+T Consensus        31 ~~~~iFg~~~~~~l~~iF   48 (70)
+T 6GR8_B           31 NLLELFGTILPLDLEDIF   48 (70)
+T ss_dssp             CHHHHHCCCCCCCHHHHH
+T ss_pred             CHHHHhCCCCCCCHHHHh
+Confidence            456666555556665555
+
+

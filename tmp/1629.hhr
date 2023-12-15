@@ -1,0 +1,169 @@
+Query         tr|H0YDN7|H0YDN7_HUMAN
+Match_columns 62
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 08:20:07 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1629.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6DU8_C Polycystic kidney disea  93.0    0.17 1.8E-06   38.9   2.5   35    3-37     46-80  (805)
+  2 6DU8_C Polycystic kidney disea  55.5      13 0.00014   29.0   1.2   21   42-62    785-805 (805)
+  3 6OMF_J DNA-directed RNA polyme  14.0   1E+02  0.0011   22.2  -0.4   18   25-42     38-55  (136)
+  4 4Q11_B Sigma factor-binding pr  13.8 1.1E+02  0.0012   21.9  -0.3   17   26-42     36-52  (133)
+  5 2MZ8_A Sigma factor-binding pr  13.4 1.1E+02  0.0012   22.6  -0.4   17   26-42     57-73  (154)
+  6 3RPJ_B Curlin genes transcript  12.1 1.3E+02  0.0014   21.6  -0.2   17   26-42     39-55  (134)
+  7 2X8C_B THIOREDOXIN GLUTATHIONE  10.2 1.8E+02   0.002   21.0  -0.0    7   21-27    591-597 (598)
+  8 7B02_A fragment binding, redox  10.2 1.8E+02   0.002   21.0  -0.0    7   21-27    591-597 (598)
+  9 6TUV_A HYDROLASE, CYSTEINE PRO   8.1   6E+02  0.0065   18.9   1.8   20    2-21      2-21  (289)
+ 10 6TXB_A HYDROLASE, CYSTEINE PRO   7.3 6.9E+02  0.0075   18.6   1.9   20    2-21      2-21  (289)
+
+No 1
+>6DU8_C Polycystic kidney disease 2-like 1; polycystic 2-l1, pc2l1, pkd2l1, TRPP2; HET: NAG; 3.11A {Homo sapiens}
+Probab=93.05  E-value=0.17  Score=38.88  Aligned_cols=35  Identities=94%  Similarity=1.543  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCCCCCCCCCCcccccccchhhHHHhhchhcC
+Q tr|H0YDN7|H0YD    3 LQPQPKKPEDEPQETAYRTQVSSCCLHICQGIREV   37 (62)
+Q Consensus         3 lqpqpkkpedepqetayrtqvsscclhicqgirev   37 (62)
+                      +++.|..|+++++..+..+.+..||.+++.|+|..
+T Consensus        46 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~~   80 (805)
+T 6DU8_C           46 LQPQPKKPEDEPQETAYRTQVSSCCLHICQGIRGL   80 (805)
+T ss_dssp             -----------------------------------
+T ss_pred             CCCCCCCCCCCcchhhhhcccccHHHHhhhhcccc
+Confidence            45667778887777888889999999999999963
+
+
+No 2
+>6DU8_C Polycystic kidney disease 2-like 1; polycystic 2-l1, pc2l1, pkd2l1, TRPP2; HET: NAG; 3.11A {Homo sapiens}
+Probab=55.48  E-value=13  Score=29.03  Aligned_cols=21  Identities=100%  Similarity=1.309  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHhcccCCCCCCCCCC
+Q tr|H0YDN7|H0YD   42 EEEALEERRLSRGEIPTLQRS   62 (62)
+Q Consensus        42 eeealeerrlsrgeiptlqrs   62 (62)
+                      +.+....++.++++.||||||
+T Consensus       785 ~~~~~~~~~~~~~~~~~~~~~  805 (805)
+T 6DU8_C          785 EEEALEERRLSRGEIPTLQRS  805 (805)
+T ss_dssp             ---------------------
+T ss_pred             hccccccccCCCCCCCcccCC
+Confidence            345566678899999999997
+
+
+No 3
+>6OMF_J DNA-directed RNA polymerase subunit alpha; Transcription-activator, DNA/RNA, SigmaS, beta', TRANSCRIPTION; 3.26A {Escherichia coli}
+Probab=13.99  E-value=1e+02  Score=22.18  Aligned_cols=18  Identities=39%  Similarity=0.814  Sum_probs=15.2  Template_Neff=4.400
+
+Q ss_pred             hhhHHHhhchhcCCCCcH
+Q tr|H0YDN7|H0YD   25 SCCLHICQGIREVPYKRE   42 (62)
+Q Consensus        25 scclhicqgirevpykre   42 (62)
+                      --||.+|-.....|-+||
+T Consensus        38 FDCLaVCVn~K~~PEkRE   55 (136)
+T 6OMF_J           38 FDCLAVCVNVKPAPEKRE   55 (136)
+T ss_pred             eEEehhHhcCCCChhhce
+Confidence            359999999999998886
+
+
+No 4
+>4Q11_B Sigma factor-binding protein Crl; transcription regulator, sigma factor; HET: NHE; 1.95A {Proteus mirabilis}
+Probab=13.81  E-value=1.1e+02  Score=21.94  Aligned_cols=17  Identities=41%  Similarity=0.786  Sum_probs=13.4  Template_Neff=4.400
+
+Q ss_pred             hhHHHhhchhcCCCCcH
+Q tr|H0YDN7|H0YD   26 CCLHICQGIREVPYKRE   42 (62)
+Q Consensus        26 cclhicqgirevpykre   42 (62)
+                      -||.+|-...-.|-+||
+T Consensus        36 DCLavCVn~K~~PEkRE   52 (133)
+T 4Q11_B           36 DCLAVCVNKKVTPEKRE   52 (133)
+T ss_dssp             EEEEEESCTTSCGGGCC
+T ss_pred             EehhHHhcCCCCHHHce
+Confidence            48888888888887775
+
+
+No 5
+>2MZ8_A Sigma factor-binding protein Crl; Crl, Salmonella enterica, serovar Typhimurium; NMR {Salmonella enterica subsp. enterica serovar Typhimurium str. LT2}
+Probab=13.35  E-value=1.1e+02  Score=22.65  Aligned_cols=17  Identities=41%  Similarity=0.917  Sum_probs=14.4  Template_Neff=4.000
+
+Q ss_pred             hhHHHhhchhcCCCCcH
+Q tr|H0YDN7|H0YD   26 CCLHICQGIREVPYKRE   42 (62)
+Q Consensus        26 cclhicqgirevpykre   42 (62)
+                      -||-+|-.....|-+||
+T Consensus        57 DCLaVCVn~K~~PEkRE   73 (154)
+T 2MZ8_A           57 DCLAVCVNVKPAPEKRE   73 (154)
+T ss_dssp             CCCCCBSCSSSCSTTSC
+T ss_pred             EEehhHhcCCCChhHce
+Confidence            48999999988888886
+
+
+No 6
+>3RPJ_B Curlin genes transcriptional regulator; Structural Genomics, PSI-Biology, Midwest Center; HET: SO4, EDO, MSE; 1.9A {Proteus mirabilis}
+Probab=12.12  E-value=1.3e+02  Score=21.55  Aligned_cols=17  Identities=41%  Similarity=0.786  Sum_probs=13.2  Template_Neff=4.400
+
+Q ss_pred             hhHHHhhchhcCCCCcH
+Q tr|H0YDN7|H0YD   26 CCLHICQGIREVPYKRE   42 (62)
+Q Consensus        26 cclhicqgirevpykre   42 (62)
+                      -||.+|-.....|-+||
+T Consensus        39 DCLaVCVn~K~~PE~RE   55 (134)
+T 3RPJ_B           39 DCLAVCVNKKVTPEKRE   55 (134)
+T ss_dssp             EEEEEESCTTSCGGGCC
+T ss_pred             EehhHHhcCCCChhHce
+Confidence            48888888888887775
+
+
+No 7
+>2X8C_B THIOREDOXIN GLUTATHIONE REDUCTASE (E.C.1.6.4.5); OXIDOREDUCTASE-FLAVOPROTEIN COMPLEX, DETOXIFICATION PATHWAY; HET: PGE, FAD; 3.1A {SCHISTOSOMA MANSONI}
+Probab=10.21  E-value=1.8e+02  Score=20.95  Aligned_cols=7  Identities=57%  Similarity=1.293  Sum_probs=4.6  Template_Neff=10.700
+
+Q ss_pred             cccchhh
+Q tr|H0YDN7|H0YD   21 TQVSSCC   27 (62)
+Q Consensus        21 tqvsscc   27 (62)
+                      .+++|||
+T Consensus       591 ~~~~~~~  597 (598)
+T 2X8C_B          591 PIVSGCC  597 (598)
+T ss_dssp             CSCCSSC
+T ss_pred             CCCCCcC
+Confidence            4567777
+
+
+No 8
+>7B02_A fragment binding, redox enzyme, inhibitor; HET: SJN, FAD, PEG; 1.45A {Schistosoma mansoni}
+Probab=10.21  E-value=1.8e+02  Score=20.95  Aligned_cols=7  Identities=57%  Similarity=1.293  Sum_probs=4.6  Template_Neff=10.700
+
+Q ss_pred             cccchhh
+Q tr|H0YDN7|H0YD   21 TQVSSCC   27 (62)
+Q Consensus        21 tqvsscc   27 (62)
+                      .+++|||
+T Consensus       591 ~~~~~~~  597 (598)
+T 7B02_A          591 PIVSGCC  597 (598)
+T ss_dssp             CCCCSCC
+T ss_pred             CCCCCcC
+Confidence            4567777
+
+
+No 9
+>6TUV_A HYDROLASE, CYSTEINE PROTEASE, ISOPEPTIDASE AND; 2.16A {Homo sapiens}
+Probab=8.09  E-value=6e+02  Score=18.95  Aligned_cols=20  Identities=20%  Similarity=0.117  Sum_probs=6.7  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCCccccc
+Q tr|H0YDN7|H0YD    2 PLQPQPKKPEDEPQETAYRT   21 (62)
+Q Consensus         2 plqpqpkkpedepqetayrt   21 (62)
+                      |||..+..|+.++....|++
+T Consensus         2 ~~~~~~~~~~~~~~~~~y~~   21 (289)
+T 6TUV_A            2 PLGSPEFPGRLEMEPDFYCV   21 (289)
+T ss_dssp             -----------CCSTTEEEE
+T ss_pred             CCCCCCCCCCcCCCCCeEEE
+Confidence            67766666777777777775
+
+
+No 10
+>6TXB_A HYDROLASE, CYSTEINE PROTEASE, ISOPEPTIDASE AND; 2.18A {Homo sapiens}
+Probab=7.30  E-value=6.9e+02  Score=18.64  Aligned_cols=20  Identities=20%  Similarity=0.117  Sum_probs=6.4  Template_Neff=7.200
+
+Q ss_pred             CCCCCCCCCCCCCCCccccc
+Q tr|H0YDN7|H0YD    2 PLQPQPKKPEDEPQETAYRT   21 (62)
+Q Consensus         2 plqpqpkkpedepqetayrt   21 (62)
+                      |||..+..|+.++....|++
+T Consensus         2 ~~~~~~~~~~~~~~~~~y~~   21 (289)
+T 6TXB_A            2 PLGSPEFPGRLEMEPDFYCV   21 (289)
+T ss_dssp             -----------CCSTTEEEE
+T ss_pred             CCCCCCCCCCcCCCCCeEEE
+Confidence            66666666666777777775
+
+

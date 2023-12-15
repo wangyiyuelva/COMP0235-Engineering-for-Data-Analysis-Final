@@ -1,0 +1,168 @@
+Query         tr|F8WEJ4|F8WEJ4_HUMAN
+Match_columns 61
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 03:40:19 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0251.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5KP9_B EPN-01*; protein design  29.5 1.4E+02  0.0015   19.2   2.6   24   23-50    258-281 (282)
+  2 6T0B_v Cytochrome b-c1 complex  18.3      74  0.0008   18.1  -0.1   13   23-35      2-14  (55)
+  3 3H92_A Uncharacterized ATP-bin  18.1 1.2E+02  0.0013   19.7   0.7   17   22-38     69-85  (92)
+  4 6TF4_A transcription factor, f  15.2 1.3E+02  0.0014   14.8   0.3   11   32-42     40-50  (67)
+  5 3QSI_B NikR nickel-responsive   15.0 1.6E+02  0.0018   17.1   0.7   14    3-16     44-57  (88)
+  6 3CAN_A Pyruvate-formate lyase-  14.8   2E+02  0.0021   16.7   1.0   11    7-17      4-14  (182)
+  7 4QBS_A DNA (cytosine-5)-methyl  14.4 2.2E+02  0.0024   17.3   1.2   22   24-45    116-137 (138)
+  8 3BJO_A Uncharacterized ATP-bin  14.3 1.6E+02  0.0017   19.6   0.6   17   22-38     80-96  (103)
+  9 6FVI_A Centrosomal protein of   13.5      85 0.00092   21.4  -0.8   21   21-41     82-102 (151)
+ 10 6ZJ3_SB Ribosomal protein eS1,  12.0 2.5E+02  0.0028   20.1   1.1   32   23-55    182-213 (261)
+
+No 1
+>5KP9_B EPN-01*; protein design, icosahedral assemblies, cell; 5.7A {Thermotoga maritima}
+Probab=29.48  E-value=1.4e+02  Score=19.22  Aligned_cols=24  Identities=33%  Similarity=0.580  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             cccCCCCCCcccchhhhhhhhccCCCCh
+Q tr|F8WEJ4|F8WE   23 VAPLRGTLAPHHRLLVSVSSFFHARPCE   50 (61)
+Q Consensus        23 vaplrgtlaphhrllvsvssffharpce   50 (61)
+                      ..|..+.+-|    +-|.+|+|..-||+
+T Consensus       258 ~~~~~~~~~~----~~~~~~~~~~~~~~  281 (282)
+T 5KP9_B          258 QEPIDKELYP----LTSLRSLFGNDPSS  281 (282)
+T ss_dssp             ----------------------------
+T ss_pred             CCCCccccCC----chhHHHhhCCCCCC
+Confidence            3444455545    68999999988874
+
+
+No 2
+>6T0B_v Cytochrome b-c1 complex subunit 1; CYTOCHROME C OXIDASE CYTOCHROME BC1; HET: PCF, HEM, HEA, HEC, PEF, CDL; 2.8A {Saccharomyces cerevisiae S288c}
+Probab=18.32  E-value=74  Score=18.09  Aligned_cols=13  Identities=31%  Similarity=0.577  Sum_probs=10.2  Template_Neff=6.800
+
+Q ss_pred             cccCCCCCCcccc
+Q tr|F8WEJ4|F8WE   23 VAPLRGTLAPHHR   35 (61)
+Q Consensus        23 vaplrgtlaphhr   35 (61)
+                      ++|++|.|...-.
+T Consensus         2 i~pi~G~l~~~i~   14 (55)
+T 6T0B_v            2 IAPITGTIKRRVI   14 (55)
+T ss_pred             CcccCchHHHHHH
+Confidence            6899999887654
+
+
+No 3
+>3H92_A Uncharacterized ATP-binding protein MJECL15; Protein with unknown function, structural; HET: PG6; 2.2A {Methanocaldococcus jannaschii}
+Probab=18.14  E-value=1.2e+02  Score=19.70  Aligned_cols=17  Identities=35%  Similarity=0.591  Sum_probs=13.9  Template_Neff=5.700
+
+Q ss_pred             ccccCCCCCCcccchhh
+Q tr|F8WEJ4|F8WE   22 SVAPLRGTLAPHHRLLV   38 (61)
+Q Consensus        22 svaplrgtlaphhrllv   38 (61)
+                      -+-|.+|++.|+.||-.
+T Consensus        69 F~Dp~~~~IkPQSrL~l   85 (92)
+T 3H92_A           69 FLNPQKGTLKPQSYLVW   85 (92)
+T ss_dssp             EEETTTTEEEESSHHHH
+T ss_pred             eeeCCCCccCCCcHHHH
+Confidence            35799999999998754
+
+
+No 4
+>6TF4_A transcription factor, fold switching, transformer; NMR {Vibrio cholerae}
+Probab=15.22  E-value=1.3e+02  Score=14.83  Aligned_cols=11  Identities=18%  Similarity=0.169  Sum_probs=4.9  Template_Neff=10.600
+
+Q ss_pred             cccchhhhhhh
+Q tr|F8WEJ4|F8WE   32 PHHRLLVSVSS   42 (61)
+Q Consensus        32 phhrllvsvss   42 (61)
+                      ...|+.+.++.
+T Consensus        40 ~~~~v~i~i~~   50 (67)
+T 6TF4_A           40 GDTRSIMLVKM   50 (67)
+T ss_dssp             SSSCEEEEECC
+T ss_pred             CCceEEEEEEe
+Confidence            34455444443
+
+
+No 5
+>3QSI_B NikR nickel-responsive regulator; NIKR, nickel, Helicobacter pylori, DNA-binding; HET: SO4; 3.08A {Helicobacter pylori}
+Probab=14.98  E-value=1.6e+02  Score=17.11  Aligned_cols=14  Identities=29%  Similarity=0.707  Sum_probs=10.8  Template_Neff=8.300
+
+Q ss_pred             CCCCCceEEecCCC
+Q tr|F8WEJ4|F8WE    3 GSRCQEAIVVSGGE   16 (61)
+Q Consensus         3 gsrcqeaivvsgge   16 (61)
+                      ...|.|.++|.|.-
+T Consensus        44 ~~~clev~~v~G~~   57 (88)
+T 3QSI_B           44 EHNCLETIILQGNS   57 (88)
+T ss_dssp             TTEEEEEEEEEECH
+T ss_pred             CCcEEEEEEEeeCH
+Confidence            36799999998754
+
+
+No 6
+>3CAN_A Pyruvate-formate lyase-activating enzyme; structural genomics, pyruvate-formate lyase-activating enzyme; HET: MSE; 1.8A {Bacteroides vulgatus ATCC 8482}
+Probab=14.77  E-value=2e+02  Score=16.67  Aligned_cols=11  Identities=27%  Similarity=0.543  Sum_probs=7.7  Template_Neff=11.200
+
+Q ss_pred             CceEEecCCCc
+Q tr|F8WEJ4|F8WE    7 QEAIVVSGGER   17 (61)
+Q Consensus         7 qeaivvsgger   17 (61)
+                      -+.|+++|||.
+T Consensus         4 ~~~i~~~GGEP   14 (182)
+T 3CAN_A            4 GGGVTFCGGEP   14 (182)
+T ss_dssp             CCCEEECSSTG
+T ss_pred             CCceEeCCCch
+Confidence            35678888874
+
+
+No 7
+>4QBS_A DNA (cytosine-5)-methyltransferase 3A (E.C.2.1.1.37), Histone; Zinc Finger, Histone Binding, TRANSFERASE; HET: TPO; 1.8A {Homo sapiens}
+Probab=14.41  E-value=2.2e+02  Score=17.32  Aligned_cols=22  Identities=18%  Similarity=0.199  Sum_probs=18.8  Template_Neff=9.100
+
+Q ss_pred             ccCCCCCCcccchhhhhhhhcc
+Q tr|F8WEJ4|F8WE   24 APLRGTLAPHHRLLVSVSSFFH   45 (61)
+Q Consensus        24 aplrgtlaphhrllvsvssffh   45 (61)
+                      .++.|.|.+.++...-+..||+
+T Consensus       116 ~~~~~ll~~~~~w~~~~~~~~~  137 (138)
+T 4QBS_A          116 KGTYGLLRRREDWPSRLQMFFA  137 (138)
+T ss_dssp             SCEETTEEBCTTHHHHHHHHTC
+T ss_pred             CccccceeecCCHHHHHHHHhc
+Confidence            4678889999999999999986
+
+
+No 8
+>3BJO_A Uncharacterized ATP-binding protein MJ1010; APC87992.1, Methanocaldococcus jannaschii DSM 2661; 2.05A {Methanocaldococcus jannaschii DSM 2661}
+Probab=14.33  E-value=1.6e+02  Score=19.58  Aligned_cols=17  Identities=41%  Similarity=0.565  Sum_probs=13.9  Template_Neff=5.600
+
+Q ss_pred             ccccCCCCCCcccchhh
+Q tr|F8WEJ4|F8WE   22 SVAPLRGTLAPHHRLLV   38 (61)
+Q Consensus        22 svaplrgtlaphhrllv   38 (61)
+                      -+-|.+|++.|+.||..
+T Consensus        80 F~DP~~~~IKPQSrL~l   96 (103)
+T 3BJO_A           80 FLYPQRGTLKPQSFLVW   96 (103)
+T ss_dssp             EEETTTTEEEESSHHHH
+T ss_pred             EEecCCCeeCCCcHHHH
+Confidence            35799999999998754
+
+
+No 9
+>6FVI_A Centrosomal protein of 192 kDa; Centrosome, centriole, PapD-like domain, ASH; HET: MSE; 1.0A {Homo sapiens}
+Probab=13.46  E-value=85  Score=21.38  Aligned_cols=21  Identities=29%  Similarity=0.387  Sum_probs=17.3  Template_Neff=6.600
+
+Q ss_pred             cccccCCCCCCcccchhhhhh
+Q tr|F8WEJ4|F8WE   21 GSVAPLRGTLAPHHRLLVSVS   41 (61)
+Q Consensus        21 gsvaplrgtlaphhrllvsvs   41 (61)
+                      =++.|..|+|.|+.+..|.|.
+T Consensus        82 F~~~p~sG~L~pgq~~~V~V~  102 (151)
+T 6FVI_A           82 FRCSPISGLLESHGIQKVSIT  102 (151)
+T ss_dssp             EEEECCEEEECTTCEEEEEEE
+T ss_pred             EEEEcCceeecCCcEEEEEEE
+Confidence            356788999999999888774
+
+
+No 10
+>6ZJ3_SB Ribosomal protein eS1, Ribosomal protein; Single particle cryo-EM RNA modifications; HET: 5MC, OMC, 1MA, B8N, B8H, JMC, A2M, MA6, PSU, UR3, 7MG, MIA, OMU, 6MZ, JMH, OMG; 3.15A {Euglena gracilis}
+Probab=11.95  E-value=2.5e+02  Score=20.06  Aligned_cols=32  Identities=31%  Similarity=0.443  Sum_probs=22.5  Template_Neff=7.700
+
+Q ss_pred             cccCCCCCCcccchhhhhhhhccCCCChhhhhh
+Q tr|F8WEJ4|F8WE   23 VAPLRGTLAPHHRLLVSVSSFFHARPCEETTKQ   55 (61)
+Q Consensus        23 vaplrgtlaphhrllvsvssffharpceettkq   55 (61)
+                      +-.+||++...|..-|.+.-||.-.| ||+.|+
+T Consensus       182 vl~~rg~i~~~~~~~v~~~~~~~rd~-ee~ek~  213 (261)
+T 6ZJ3_SB         182 ILRMRGTCPRAVPWEIKVDLFFYRDP-EEVLKK  213 (261)
+T ss_pred             HHHHcCCCCCCCCCCcchheeecCCH-HHHHHH
+Confidence            45678998888887788878886555 554443
+
+

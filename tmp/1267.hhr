@@ -1,0 +1,167 @@
+Query         tr|J3KS81|J3KS81_HUMAN
+Match_columns 125
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 01:33:51 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1267.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4GR2_A AtRbcX1; Chaperone, Rub  46.8      57 0.00062   23.9   3.2   35   70-114    56-90  (128)
+  2 4GR2_B AtRbcX1; Chaperone, Rub  46.8      57 0.00062   23.9   3.2   35   70-114    56-90  (128)
+  3 3FH3_A putative ECF-type sigma  40.3      68 0.00074   25.3   3.0   23   16-38    125-147 (158)
+  4 3FH3_B putative ECF-type sigma  40.3      68 0.00074   25.3   3.0   23   16-38    125-147 (158)
+  5 5LSK_D Protein MIS12 homolog,   39.5 1.7E+02  0.0019   24.6   5.2   23   21-43     63-85  (296)
+  6 3FGG_A uncharacterized protein  39.2      73  0.0008   25.2   3.0   23   16-38    130-152 (163)
+  7 7NQH_Bb Ribosome, Mitochondria  34.0 2.3E+02  0.0025   24.8   5.4   43   81-124    86-128 (380)
+  8 7OF0_6 39S ribosomal protein L  32.6 2.6E+02  0.0028   24.5   5.4   43   81-124    86-128 (380)
+  9 5O9Z_L Pre-mRNA-processing-spl  24.9 1.2E+02  0.0013   22.9   2.0   34   57-90      8-41  (513)
+ 10 2PEI_D Crystal structure of se  23.5 4.2E+02  0.0046   19.1   4.4   35   70-117    51-85  (109)
+
+No 1
+>4GR2_A AtRbcX1; Chaperone, Rubisco, RbcX; 2.0A {Arabidopsis thaliana}
+Probab=46.79  E-value=57  Score=23.95  Aligned_cols=35  Identities=20%  Similarity=0.404  Sum_probs=23.9  Template_Neff=6.900
+
+Q ss_pred             cCccchHHHHhcCCcccCCccCCCCCCHHHHHHHHHHHHHHhhHH
+Q tr|J3KS81|J3KS   70 RDSKLYLHELLEGSEIYLPEVVKPPRNPELVARLEKIKIQLANEE  114 (125)
+Q Consensus        70 rdsklylhellegseiylpevvkpprnpelvarlekikiqlanee  114 (125)
+                      .|+.-||..|+..          ||.++++..|+-.++.+++.+.
+T Consensus        56 ~dg~~fl~~L~~~----------~~~~~~lA~RIm~vR~~~a~e~   90 (128)
+T 4GR2_A           56 SDGDKFLATLMRR----------SSRHMNLALRILEVRSAYAKND   90 (128)
+T ss_dssp             GGTHHHHHHHHHH----------CHHHHHHHHHHHHHHHHCCCCC
+T ss_pred             CcHHHHHHHHHhc----------cccchhHHHHHHHHHHHHHhhc
+Confidence            3556666666652          2356888888888888887754
+
+
+No 2
+>4GR2_B AtRbcX1; Chaperone, Rubisco, RbcX; 2.0A {Arabidopsis thaliana}
+Probab=46.79  E-value=57  Score=23.95  Aligned_cols=35  Identities=20%  Similarity=0.404  Sum_probs=24.3  Template_Neff=6.900
+
+Q ss_pred             cCccchHHHHhcCCcccCCccCCCCCCHHHHHHHHHHHHHHhhHH
+Q tr|J3KS81|J3KS   70 RDSKLYLHELLEGSEIYLPEVVKPPRNPELVARLEKIKIQLANEE  114 (125)
+Q Consensus        70 rdsklylhellegseiylpevvkpprnpelvarlekikiqlanee  114 (125)
+                      .|+.-||..|+..          ||.++++..|+-.++.+++.+.
+T Consensus        56 ~dg~~fl~~L~~~----------~~~~~~lA~RIm~vR~~~a~e~   90 (128)
+T 4GR2_B           56 SDGDKFLATLMRR----------SSRHMNLALRILEVRSAYAKND   90 (128)
+T ss_dssp             SSHHHHHHHHHHH----------CHHHHHHHHHHHHHHHHCCCCC
+T ss_pred             CcHHHHHHHHHhc----------cccchhHHHHHHHHHHHHHhhc
+Confidence            4566677777763          2356888888888888887754
+
+
+No 3
+>3FH3_A putative ECF-type sigma factor negative; putative anti-sigma W factor, ECF-type; HET: MSE; 2.102A {Bacillus anthracis str.}
+Probab=40.31  E-value=68  Score=25.30  Aligned_cols=23  Identities=17%  Similarity=0.335  Sum_probs=21.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCCChccCCHHHHHHHHHHH
+Q tr|J3KS81|J3KS   16 GPGGELEPERLPRKLRAELEAAL   38 (125)
+Q Consensus        16 gpggeleperlprklraeleaal   38 (125)
+                      +|.|.+..+|||..++++++.+.
+T Consensus       125 ~~~g~~~~~~l~~~~~~~~~~~~  147 (158)
+T 3FH3_A          125 KSTGAIKVEEIPEAYKERFIKAE  147 (158)
+T ss_dssp             TCSSCCCGGGSCGGGHHHHHHHH
+T ss_pred             CCCCCccHHhCCHHHHHHHHHHH
+Confidence            89999999999999999998764
+
+
+No 4
+>3FH3_B putative ECF-type sigma factor negative; putative anti-sigma W factor, ECF-type; HET: MSE; 2.102A {Bacillus anthracis str.}
+Probab=40.31  E-value=68  Score=25.30  Aligned_cols=23  Identities=17%  Similarity=0.335  Sum_probs=21.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCCChccCCHHHHHHHHHHH
+Q tr|J3KS81|J3KS   16 GPGGELEPERLPRKLRAELEAAL   38 (125)
+Q Consensus        16 gpggeleperlprklraeleaal   38 (125)
+                      +|.|.+..+|||..++++++.+.
+T Consensus       125 ~~~g~~~~~~l~~~~~~~~~~~~  147 (158)
+T 3FH3_B          125 KSTGAIKVEEIPEAYKERFIKAE  147 (158)
+T ss_dssp             TCSSCCCGGGSCGGGHHHHHHHH
+T ss_pred             CCCCCccHHhCCHHHHHHHHHHH
+Confidence            89999999999999999998764
+
+
+No 5
+>5LSK_D Protein MIS12 homolog, Polyamine-modulated factor; ALPHA-HELICAL, cell cycle; 3.502A {Homo sapiens}
+Probab=39.47  E-value=1.7e+02  Score=24.64  Aligned_cols=23  Identities=22%  Similarity=0.221  Sum_probs=17.9  Template_Neff=6.700
+
+Q ss_pred             CChccCCHHHHHHHHHHHCCCCC
+Q tr|J3KS81|J3KS   21 LEPERLPRKLRAELEAALGKKHK   43 (125)
+Q Consensus        21 leperlprklraeleaalgkkhk   43 (125)
+                      -+++||-.-|.+-++-++.|+..
+T Consensus        63 pe~eRL~~LL~~c~q~al~kl~~   85 (296)
+T 5LSK_D           63 AESKRLGCLLLSSFQFSIQKLEP   85 (296)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHhHH
+Confidence            46788888888888888887764
+
+
+No 6
+>3FGG_A uncharacterized protein BCE2196; all alpha-structure, Structural Genomics, PSI-2; HET: GOL, MSE; 2.3A {Bacillus cereus}
+Probab=39.17  E-value=73  Score=25.23  Aligned_cols=23  Identities=17%  Similarity=0.330  Sum_probs=21.2  Template_Neff=5.700
+
+Q ss_pred             CCCCCCChccCCHHHHHHHHHHH
+Q tr|J3KS81|J3KS   16 GPGGELEPERLPRKLRAELEAAL   38 (125)
+Q Consensus        16 gpggeleperlprklraeleaal   38 (125)
+                      ++.|.+..+|||..++++++.+.
+T Consensus       130 ~~~g~~~~~~l~~~~~~~~~~~~  152 (163)
+T 3FGG_A          130 KSTGAIKVEEVPEAYKERFMKAE  152 (163)
+T ss_dssp             TCSSCCCGGGSCHHHHHHHHHHH
+T ss_pred             CCCCCCcHHhCCHHHHHHHHHHH
+Confidence            89999999999999999998764
+
+
+No 7
+>7NQH_Bb Ribosome, Mitochondria, Termination, mtRF1a, Release; HET: GTP, SPM, MG, 5GP; 3.5A {Sus scrofa}
+Probab=33.96  E-value=2.3e+02  Score=24.82  Aligned_cols=43  Identities=30%  Similarity=0.343  Sum_probs=26.6  Template_Neff=6.600
+
+Q ss_pred             cCCcccCCccCCCCCCHHHHHHHHHHHHHHhhHHHHHhhcCCCC
+Q tr|J3KS81|J3KS   81 EGSEIYLPEVVKPPRNPELVARLEKIKIQLANEEYKRITRNVTC  124 (125)
+Q Consensus        81 egseiylpevvkpprnpelvarlekikiqlaneeykritrnvtc  124 (125)
+                      ....|-+|.. ++.|..++.+|.+.+|....|.|..+..|..++
+T Consensus        86 ~~v~ig~~~~-~~~~~~~~~~r~~~~~~~~~~~ele~~ar~~~l  128 (380)
+T 7NQH_Bb          86 DRVDIGLPPP-KVSRTQQLLERKQALRELRANVEEERAARLQTA  128 (380)
+T ss_pred             CcccCCCCCC-CCCHHHHHHHHHHHHHHHHcCHHHHHHHHhcCC
+Confidence            4556777763 355555666666666666666676666665543
+
+
+No 8
+>7OF0_6 39S ribosomal protein L32, mitochondrial; Mitochondria, Ribosome, Biogenesis, GTPase, NSUN4; HET: MG; 2.2A {Homo sapiens}
+Probab=32.57  E-value=2.6e+02  Score=24.51  Aligned_cols=43  Identities=35%  Similarity=0.339  Sum_probs=26.7  Template_Neff=6.700
+
+Q ss_pred             cCCcccCCccCCCCCCHHHHHHHHHHHHHHhhHHHHHhhcCCCC
+Q tr|J3KS81|J3KS   81 EGSEIYLPEVVKPPRNPELVARLEKIKIQLANEEYKRITRNVTC  124 (125)
+Q Consensus        81 egseiylpevvkpprnpelvarlekikiqlaneeykritrnvtc  124 (125)
+                      ..-.|-+|.. ++.|..++.+|.+.+|....|.|..+..|..++
+T Consensus        86 ~~v~Ig~~~~-~~~~~~~~~~r~~~~~~~~~~~ele~~ar~~~l  128 (380)
+T 7OF0_6           86 EKIDIGLPPP-KVSRTQQLLERKQAIQELRANVEEERAARLRTA  128 (380)
+T ss_pred             ccccCCCCCC-CCCHHHHHHHHHHHHHHHHcCHHHHHHHHhccC
+Confidence            4556777763 355666666666666666666666666665443
+
+
+No 9
+>5O9Z_L Pre-mRNA-processing-splicing factor 8, 116 kDa; Spliceosome, pre-mRNA splicing, macromolecular complex; 4.5A {Homo sapiens}
+Probab=24.86  E-value=1.2e+02  Score=22.88  Aligned_cols=34  Identities=29%  Similarity=0.275  Sum_probs=29.9  Template_Neff=11.700
+
+Q ss_pred             HHHHHHHHHHHHHcCccchHHHHhcCCcccCCcc
+Q tr|J3KS81|J3KS   57 FRLIRDLHQHLRERDSKLYLHELLEGSEIYLPEV   90 (125)
+Q Consensus        57 frlirdlhqhlrerdsklylhellegseiylpev   90 (125)
+                      --+||-+.|.|.|..-+-.+++|-+.+.+++.-|
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~l~~e~~~~~~~~   41 (513)
+T 5O9Z_L            8 SDVIRLIMQYLKENSLHRALATLQEETTVSLNTV   41 (513)
+T ss_dssp             HHHHHHHHHHHHHTTCHHHHHHHHHHHTCCCCCC
+T ss_pred             HHHHHHHHHHHHHCCHHHHHHHHHHHhCCcccch
+Confidence            3578888999999999999999999999998644
+
+
+No 10
+>2PEI_D Crystal structure of selenomethionine-labeled RbcX; helix bundle, protein complex assembly; HET: MSE; 2.7A {Synechococcus sp.} SCOP: a.280.1.1
+Probab=23.49  E-value=4.2e+02  Score=19.10  Aligned_cols=35  Identities=31%  Similarity=0.470  Sum_probs=27.3  Template_Neff=6.900
+
+Q ss_pred             cCccchHHHHhcCCcccCCccCCCCCCHHHHHHHHHHHHHHhhHHHHH
+Q tr|J3KS81|J3KS   70 RDSKLYLHELLEGSEIYLPEVVKPPRNPELVARLEKIKIQLANEEYKR  117 (125)
+Q Consensus        70 rdsklylhellegseiylpevvkpprnpelvarlekikiqlaneeykr  117 (125)
+                      .|+.-||..|+..             ||++.-|+-.++.+++.+.++.
+T Consensus        51 ~dgd~fl~~L~~~-------------~~~lA~RIm~vR~~~a~~~~~~   85 (109)
+T 2PEI_D           51 QESDLYLEAMMLE-------------NKELVLRILTVRENLAEGVLEF   85 (109)
+T ss_dssp             TSHHHHHHHHHTT-------------CHHHHHHHHHHHHHHHHHHGGG
+T ss_pred             CCHHHHHHHHHHh-------------CHHHHHHHHHHHHHHHHhHHHH
+Confidence            4667778877764             7899999999999998876443
+
+

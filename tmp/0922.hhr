@@ -1,0 +1,518 @@
+Query         tr|H0Y8F6|H0Y8F6_HUMAN
+Match_columns 115
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 16:04:08 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0922.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1DQA_C HUMAN HMG-COA REDUCTASE 100.0 2.1E-29 2.3E-34  205.0  11.2  114    2-115   254-467 (467)
+  2 3CCZ_D OXIDOREDUCTASE, CHOLEST  99.9 2.4E-24 2.6E-29  174.2  11.0  100    2-101   241-440 (441)
+  3 3CD5_B OXIDOREDUCTASE, CHOLEST  99.9 2.4E-24 2.6E-29  174.2  11.0  100    2-101   241-440 (441)
+  4 6HR7_A HMG-CoA reductase (E.C.  99.7 2.2E-17 2.4E-22  132.5   9.5   89    4-98    243-427 (427)
+  5 6HR8_A HMG-CoA reductase (E.C.  99.7 2.2E-17 2.4E-22  132.5   9.5   89    4-98    243-427 (427)
+  6 7N7S_B Hydroxymethylglutaryl-C  98.8 1.1E-08 1.2E-13   84.0   5.3   46   60-105   371-416 (450)
+  7 7N7S_C Hydroxymethylglutaryl-C  98.8 1.1E-08 1.2E-13   84.0   5.3   46   60-105   371-416 (450)
+  8 3QAU_A 3-hydroxy-3-methylgluta  98.7 5.9E-08 6.5E-13   80.2   6.5   46   60-105   379-424 (458)
+  9 4I6Y_B 3-hydroxy-3-methylgluta  98.6 1.1E-07 1.2E-12   77.6   6.0   46   60-105   348-393 (428)
+ 10 5WPJ_A 3-hydroxy-3-methylgluta  98.1   5E-06 5.4E-11   68.2   2.7   50   47-105   343-392 (426)
+ 11 5WPJ_D 3-hydroxy-3-methylgluta  98.1   5E-06 5.4E-11   68.2   2.7   50   47-105   343-392 (426)
+ 12 6DIO_C 3-hydroxy-3-methylgluta  98.0 6.2E-06 6.8E-11   67.7   2.9   50   47-105   344-393 (429)
+ 13 6EEV_A 3-hydroxy-3-methylgluta  98.0 6.2E-06 6.8E-11   67.7   2.9   50   47-105   344-393 (429)
+ 14 5WPJ_A 3-hydroxy-3-methylgluta  94.6    0.25 2.8E-06   41.5   6.4   31    3-46    204-234 (426)
+ 15 5WPJ_D 3-hydroxy-3-methylgluta  94.6    0.25 2.8E-06   41.5   6.4   31    3-46    204-234 (426)
+ 16 6DIO_C 3-hydroxy-3-methylgluta  94.0    0.49 5.3E-06   39.9   6.9   31    3-46    206-236 (429)
+ 17 6EEV_A 3-hydroxy-3-methylgluta  94.0    0.49 5.3E-06   39.9   6.9   31    3-46    206-236 (429)
+ 18 2KPP_A Lin0431 protein; soluti  35.3      44 0.00048   24.2   1.2   10   36-45     56-65  (114)
+ 19 3I10_A Putative Glycerophospho  31.1 2.3E+02  0.0025   19.8   4.1   17   22-38    210-226 (278)
+ 20 2JZX_A Poly(rC)-binding protei  27.8 1.2E+02  0.0013   18.3   2.0   18   31-48      3-20  (160)
+ 21 1WNA_A the hypothetical protei  24.7   1E+02  0.0011   24.7   1.7   39   24-71     79-117 (131)
+ 22 6I0D_X NADH-quinone oxidoreduc  24.7   1E+02  0.0011   24.7   1.7   39   24-71     79-117 (131)
+ 23 6Q8X_X NADH-quinone oxidoreduc  24.7   1E+02  0.0011   24.7   1.7   39   24-71     79-117 (131)
+ 24 3TTS_B Beta-galactosidase; Tim  22.7 4.5E+02  0.0049   20.2   4.5   10   26-35    576-585 (675)
+ 25 3TTY_B Beta-galactosidase; Tim  22.7 4.5E+02  0.0049   20.2   4.5   10   26-35    576-585 (675)
+
+No 1
+>1DQA_C HUMAN HMG-COA REDUCTASE WITH HMG; OXIDOREDUCTASE, CHOLESTEROL BIOSYNTHESIS, HMG-COA, NADPH; HET: COA, MAH, NAP; 2.0A {Homo sapiens} SCOP: d.179.1.1, d.58.20.1
+Probab=99.96  E-value=2.1e-29  Score=204.97  Aligned_cols=114  Identities=100%  Similarity=1.465  Sum_probs=93.7  Template_Neff=6.600
+
+Q ss_pred             CCCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH-----------------------------------
+Q tr|H0Y8F6|H0Y8    2 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE-----------------------------------   46 (115)
+Q Consensus         2 fpemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre-----------------------------------   46 (115)
+                      +|.+.++.|++|+|+||+++++|++.|||++|+|+++||.+++++                                   
+T Consensus       254 ~~~~~~~~I~gN~~~dkk~s~~n~i~GRGk~V~Ae~~ip~~vl~~il~~s~~~~~~~~~~k~~~gsa~aG~~gg~N~~~a  333 (467)
+T 1DQA_C          254 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVREVLKTTTEAMIEVNINKNLVGSAMAGSIGGYNAHAA  333 (467)
+T ss_dssp             CTTCEEEESCCSSSCCSSCCHHHHHHCCEEEEEEEEEECHHHHHHTTSSCHHHHHHHCCCCCCCCHHHTTCSSEESSSHH
+T ss_pred             CCCcEEEEEECCCCCccCCccceeecCCCeEEEEEEEecHHHHHHHhccCHHHHHHHHHHhhHHHHHHhcccccchhhHH
+Confidence            566788999999999999999999999999999999999999975                                   
+
+
+Q ss_pred             -----------------------------------------------------------------HHCCCCccCCCCChh
+Q tr|H0Y8F6|H0Y8   47 -----------------------------------------------------------------MLGVQGACKDNPGEN   61 (115)
+Q Consensus        47 -----------------------------------------------------------------mlgvqgackdnpgen   61 (115)
+                                                                                       ||||+|+++++||++
+T Consensus       334 N~iaAiflAtGQD~a~v~ess~~~~~~e~~~~~~~~L~~svtlP~l~VGtVGGgt~l~~q~~~L~llg~~g~~~~~pg~~  413 (467)
+T 1DQA_C          334 NIVTAIYIACGQDAAQNVGSSNCITLMEASGPTNEDLYISCTMPSIEIGTVGGGTNLLPQQACLQMLGVQGACKDNPGEN  413 (467)
+T ss_dssp             HHHHHHHHHTTCCGGGHHHHTCEEEEEEEETTTTCEEEEEEEEEEECCCSBSGGGGSHHHHHHHHHTTCCSCCTTSTTHH
+T ss_pred             HHHHHHHHHhCCChhhhccCCccEEEeEEeCCCCCeEEEEEEcCcccccccCCccccHHHHHHHHHhCCCccCCCCCCCc
+Confidence                                                                             999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhhhcchcCCCCC
+Q tr|H0Y8F6|H0Y8   62 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQDLQGACTKKTA  115 (115)
+Q Consensus        62 arqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqdlqgactkkta  115 (115)
+                      +++||||+||++||||||+++||++++|+++||+|+|++..+++|||+|||||+
+T Consensus       414 a~~LAeiiaa~~LA~els~l~Ala~~~~~~aH~~l~r~~~~~~~~~~~~~~~~~  467 (467)
+T 1DQA_C          414 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQDLQGACTKKTA  467 (467)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTCHHHHHHHHCC-----------------
+T ss_pred             HHHHHHHHHHHHHhcHHHHHHHHHcccHHHHHHHhcccccccccccccccccCC
+Confidence            999999999999999999999999999999999999999999999999999986
+
+
+No 2
+>3CCZ_D OXIDOREDUCTASE, CHOLESTEROL BIOSYNTHESIS, HMG-COA, NADPH; HET: 5HI, SO4; 1.7A {Homo sapiens}
+Probab=99.92  E-value=2.4e-24  Score=174.20  Aligned_cols=100  Identities=100%  Similarity=1.482  Sum_probs=82.7  Template_Neff=6.700
+
+Q ss_pred             CCCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH-----------------------------------
+Q tr|H0Y8F6|H0Y8    2 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE-----------------------------------   46 (115)
+Q Consensus         2 fpemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre-----------------------------------   46 (115)
+                      +|.+++++|++|+|+||+++++|++.|||++|+|++.||.+++++                                   
+T Consensus       241 ~~~~~~~~i~~N~~~dkk~s~~n~i~gRGk~V~Ae~~ip~~~l~~il~~s~~~~~~~~~~~~~~gsa~aG~~gg~N~~~a  320 (441)
+T 3CCZ_D          241 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVREVLKTTTEAMIEVNINKNLVGSAMAGSIGGYNAHAA  320 (441)
+T ss_dssp             CTTCEEEESCCSCSCCSSCCHHHHHHCCEEEEEEEEEECHHHHHHTSSSCHHHHHHHCCCCCCHHHHHTTCSSEESSSHH
+T ss_pred             CCCceEEEEECCCCCCcCCcceeeecCCccEEEEEEEecHHHHHHhhccCHHHHHHHHHhhhHHHHHHhcccccchhhHH
+Confidence            566788999999999999999999999999999999999999875                                   
+
+
+Q ss_pred             -----------------------------------------------------------------HHCCCCccCCCCChh
+Q tr|H0Y8F6|H0Y8   47 -----------------------------------------------------------------MLGVQGACKDNPGEN   61 (115)
+Q Consensus        47 -----------------------------------------------------------------mlgvqgackdnpgen   61 (115)
+                                                                                       ||||+|+++++||++
+T Consensus       321 N~i~AiflAtGQD~a~v~~ss~~~~~~e~~~~~~~~L~~svtlP~l~VGtVGGgt~l~~q~~~L~llg~~g~~~~~~g~~  400 (441)
+T 3CCZ_D          321 NIVTAIYIACGQDAAQNVGSSNCITLMEASGPTNEDLYISCTMPSIEIGTVGGGTNLLPQQACLQMLGVQGACKDNPGEN  400 (441)
+T ss_dssp             HHHHHHHHHTTCCGGGHHHHTCEEEEEEEESSSSCEEEEEEEEEEECCCSBSGGGGSHHHHHHHHHTTCCSCCSSSTTHH
+T ss_pred             HHHHHHHHHhCCChhhhccCcceEEEEEEeCCCCCeEEEEEEcCCccccccCCccccHHHHHHHHHhCCCCcCCCCCCCC
+Confidence                                                                             999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCC
+Q tr|H0Y8F6|H0Y8   62 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKI  101 (115)
+Q Consensus        62 arqlarivcgtvmagelslmaalaaghlvkshmihnrski  101 (115)
+                      +++||||+||++||||||+++||++++|+++||+|+|++.
+T Consensus       401 a~~LAeiiaa~~LA~els~l~Ala~~~~~~aH~~l~r~~~  440 (441)
+T 3CCZ_D          401 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKI  440 (441)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC--------------
+T ss_pred             HHHHHHHHHHHHHhcHHHHHHHHHcccHHHHHHHcccccC
+Confidence            9999999999999999999999999999999999999875
+
+
+No 3
+>3CD5_B OXIDOREDUCTASE, CHOLESTEROL BIOSYNTHESIS, HMG-COA, NADPH; HET: SO4, 7HI; 2.39A {Homo sapiens}
+Probab=99.92  E-value=2.4e-24  Score=174.20  Aligned_cols=100  Identities=100%  Similarity=1.482  Sum_probs=87.7  Template_Neff=6.700
+
+Q ss_pred             CCCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH-----------------------------------
+Q tr|H0Y8F6|H0Y8    2 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE-----------------------------------   46 (115)
+Q Consensus         2 fpemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre-----------------------------------   46 (115)
+                      +|.+++++|++|+|+||+++++|++.|||++|+|++.||.+++++                                   
+T Consensus       241 ~~~~~~~~i~~N~~~dkk~s~~n~i~gRGk~V~Ae~~ip~~~l~~il~~s~~~~~~~~~~~~~~gsa~aG~~gg~N~~~a  320 (441)
+T 3CD5_B          241 FPEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVREVLKTTTEAMIEVNINKNLVGSAMAGSIGGYNAHAA  320 (441)
+T ss_dssp             CTTCEEEESCCSCSCCSSCCHHHHHHCCEEEEEEEEEECHHHHHHTSSSCHHHHHHHHCCCCCHHHHHHTCSSEESSSHH
+T ss_pred             CCCceEEEEECCCCCCcCCcceeeecCCccEEEEEEEecHHHHHHhhccCHHHHHHHHHhhhHHHHHHhcccccchhhHH
+Confidence            566788999999999999999999999999999999999999875                                   
+
+
+Q ss_pred             -----------------------------------------------------------------HHCCCCccCCCCChh
+Q tr|H0Y8F6|H0Y8   47 -----------------------------------------------------------------MLGVQGACKDNPGEN   61 (115)
+Q Consensus        47 -----------------------------------------------------------------mlgvqgackdnpgen   61 (115)
+                                                                                       ||||+|+++++||++
+T Consensus       321 N~i~AiflAtGQD~a~v~~ss~~~~~~e~~~~~~~~L~~svtlP~l~VGtVGGgt~l~~q~~~L~llg~~g~~~~~~g~~  400 (441)
+T 3CD5_B          321 NIVTAIYIACGQDAAQNVGSSNCITLMEASGPTNEDLYISCTMPSIEIGTVGGGTNLLPQQACLQMLGVQGACKDNPGEN  400 (441)
+T ss_dssp             HHHHHHHHHTTCCGGGHHHHTCEEEEEEEETTTTCEEEEEEEEEEECCCSBSGGGGSHHHHHHHHHTTCCSCCSSSTTHH
+T ss_pred             HHHHHHHHHhCCChhhhccCcceEEEEEEeCCCCCeEEEEEEcCCccccccCCccccHHHHHHHHHhCCCCcCCCCCCCC
+Confidence                                                                             999999999999999
+
+
+Q ss_pred             HHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCC
+Q tr|H0Y8F6|H0Y8   62 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKI  101 (115)
+Q Consensus        62 arqlarivcgtvmagelslmaalaaghlvkshmihnrski  101 (115)
+                      +++||||+||++||||||+++||++++|+++||+|+|++.
+T Consensus       401 a~~LAeiiaa~~LA~els~l~Ala~~~~~~aH~~l~r~~~  440 (441)
+T 3CD5_B          401 ARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKI  440 (441)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTCCSCC---------
+T ss_pred             HHHHHHHHHHHHHhcHHHHHHHHHcccHHHHHHHcccccC
+Confidence            9999999999999999999999999999999999999875
+
+
+No 4
+>6HR7_A HMG-CoA reductase (E.C.1.1.1.34); HMG-CoA, Mevalonate biosynthesis, statins, cholesterol; HET: DTT, SO4, GOL; 2.4A {Methanothermococcus thermolithotrophicus DSM 2095}
+Probab=99.74  E-value=2.2e-17  Score=132.49  Aligned_cols=89  Identities=47%  Similarity=0.814  Sum_probs=79.6  Template_Neff=7.100
+
+Q ss_pred             CCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH-------------------------------------
+Q tr|H0Y8F6|H0Y8    4 EMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE-------------------------------------   46 (115)
+Q Consensus         4 emqilavsgnyctdkkpaainwiegrgksvvceavipakvvre-------------------------------------   46 (115)
+                      .+.++.|++|+++|||+++.|++.|||++|+|+++||.+++++                                     
+T Consensus       243 ~~~~~~I~sN~~~dkk~s~~n~~~gRG~~V~Ae~~Ip~~~l~~~l~~s~~~i~~~~~~~~~~~~~~ag~~~~N~~~~N~i  322 (427)
+T 6HR7_A          243 NIHTVALSGNACVDKKPAGINLIEGRGKSIIAEVFLKEEEIKKYLKTTSKAIEQVNMYKNLIGSAISNSMGFNAHYANII  322 (427)
+T ss_dssp             CEEEEESCCSCSCCSSCBHHHHHHCEEEEEEEEEEEEHHHCCCCCSSCHHHHHHHCCCCCCCCHHHTTBSEESSSHHHHH
+T ss_pred             cceEEEEEccCCCCCCccceeeecCCCcEEEEEEECCHHHHHHHcCCCHHHHHHHHHHHHHHHHHhhcccccchhHHHHH
+Confidence            3567999999999999999999999999999999999998842                                     
+
+
+Q ss_pred             -----------------------------------------------------------HHCCCCccCCCCChhHHHHHH
+Q tr|H0Y8F6|H0Y8   47 -----------------------------------------------------------MLGVQGACKDNPGENARQLAR   67 (115)
+Q Consensus        47 -----------------------------------------------------------mlgvqgackdnpgenarqlar   67 (115)
+                                                                                 ||||+|+      +++++|||
+T Consensus       323 ~Av~lAtGqD~a~v~~s~~~~t~~~~~~~gL~~sv~lP~l~vGtVGGgt~lp~~~~~L~llg~~g~------~~a~~LAe  396 (427)
+T 6HR7_A          323 GALFLATGQDEAHIVEGSLGITVAECTEDGVYFSVTLPDVPVGTVGGGTRVETQKECLELLGCHGG------DKALKFAE  396 (427)
+T ss_dssp             HHHHHHHTCCGGGHHHHTCEEEEEEEETTEEEEEEEEEEECCCSBSGGGGSHHHHHHHHHHTCCST------TCHHHHHH
+T ss_pred             HHHHHHhCCCchhhhhccccEEEEEecCCceEEEEEecCCCCCcCCCccCcHHHHHHHHHhCCCCC------cHHHHHHH
+Confidence                                                                       9999998      78999999
+
+
+Q ss_pred             HHHHHHHhcchhHHHHHHHHHHHHhhhccCC
+Q tr|H0Y8F6|H0Y8   68 IVCGTVMAGELSLMAALAAGHLVKSHMIHNR   98 (115)
+Q Consensus        68 ivcgtvmagelslmaalaaghlvkshmihnr   98 (115)
+                      |+||++||||||+++||++++|+++||+|+|
+T Consensus       397 iiAa~~LA~els~l~Al~~~~i~~~H~~l~r  427 (427)
+T 6HR7_A          397 IVGATVLAGELSLIGALSVGHLARAHAQLGR  427 (427)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC-----
+T ss_pred             HHHHHHHhchHHHHHHHHhchHHHHHHHhCC
+Confidence            9999999999999999999999999999986
+
+
+No 5
+>6HR8_A HMG-CoA reductase (E.C.1.1.1.34); HMG-CoA, Mevalonate biosynthesis, statins, cholesterol; HET: NAP, SO4, PEG; 2.9A {Methanothermococcus thermolithotrophicus DSM 2095}
+Probab=99.74  E-value=2.2e-17  Score=132.49  Aligned_cols=89  Identities=47%  Similarity=0.814  Sum_probs=79.8  Template_Neff=7.100
+
+Q ss_pred             CCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH-------------------------------------
+Q tr|H0Y8F6|H0Y8    4 EMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE-------------------------------------   46 (115)
+Q Consensus         4 emqilavsgnyctdkkpaainwiegrgksvvceavipakvvre-------------------------------------   46 (115)
+                      .+.++.|++|+++|||+++.|++.|||++|+|+++||.+++++                                     
+T Consensus       243 ~~~~~~I~sN~~~dkk~s~~n~~~gRG~~V~Ae~~Ip~~~l~~~l~~s~~~i~~~~~~~~~~~~~~ag~~~~N~~~~N~i  322 (427)
+T 6HR8_A          243 NIHTVALSGNACVDKKPAGINLIEGRGKSIIAEVFLKEEEIKKYLKTTSKAIEQVNMYKNLIGSAISNSMGFNAHYANII  322 (427)
+T ss_dssp             CCEEEESCCSCSCCSSCBHHHHHTCEEEEEEEEEEEEHHHCCCCCCSCHHHHHHHCCCCCCCCHHHTTBSEECSSHHHHH
+T ss_pred             cceEEEEEccCCCCCCccceeeecCCCcEEEEEEECCHHHHHHHcCCCHHHHHHHHHHHHHHHHHhhcccccchhHHHHH
+Confidence            4678999999999999999999999999999999999998842                                     
+
+
+Q ss_pred             -----------------------------------------------------------HHCCCCccCCCCChhHHHHHH
+Q tr|H0Y8F6|H0Y8   47 -----------------------------------------------------------MLGVQGACKDNPGENARQLAR   67 (115)
+Q Consensus        47 -----------------------------------------------------------mlgvqgackdnpgenarqlar   67 (115)
+                                                                                 ||||+|+      +++++|||
+T Consensus       323 ~Av~lAtGqD~a~v~~s~~~~t~~~~~~~gL~~sv~lP~l~vGtVGGgt~lp~~~~~L~llg~~g~------~~a~~LAe  396 (427)
+T 6HR8_A          323 GALFLATGQDEAHIVEGSLGITVAECTEDGVYFSVTLPDVPVGTVGGGTRVETQKECLELLGCHGG------DKALKFAE  396 (427)
+T ss_dssp             HHHHHHHTCCGGGHHHHTCEEEEEEECSSEEEEEEEEEEECCCSBSGGGGSHHHHHHHHTTTCCST------TCHHHHHH
+T ss_pred             HHHHHHhCCCchhhhhccccEEEEEecCCceEEEEEecCCCCCcCCCccCcHHHHHHHHHhCCCCC------cHHHHHHH
+Confidence                                                                       9999998      78999999
+
+
+Q ss_pred             HHHHHHHhcchhHHHHHHHHHHHHhhhccCC
+Q tr|H0Y8F6|H0Y8   68 IVCGTVMAGELSLMAALAAGHLVKSHMIHNR   98 (115)
+Q Consensus        68 ivcgtvmagelslmaalaaghlvkshmihnr   98 (115)
+                      |+||++||||||+++||++++|+++||+|+|
+T Consensus       397 iiAa~~LA~els~l~Al~~~~i~~~H~~l~r  427 (427)
+T 6HR8_A          397 IVGATVLAGELSLIGALSVGHLARAHAQLGR  427 (427)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHC-----
+T ss_pred             HHHHHHHhchHHHHHHHHhchHHHHHHHhCC
+Confidence            9999999999999999999999999999986
+
+
+No 6
+>7N7S_B Hydroxymethylglutaryl-CoA reductase; SSGCID, hydroxymethylglutaryl-CoA reductase, HGM-CoA reductase; HET: SO4, CIT; 2.4A {Elizabethkingia anophelis NUHP1}
+Probab=98.82  E-value=1.1e-08  Score=84.00  Aligned_cols=46  Identities=22%  Similarity=0.200  Sum_probs=42.8  Template_Neff=6.900
+
+Q ss_pred             hhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   60 ENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        60 enarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      +++++||||+||++||+|||+++||++++|+++||+|++++..++-
+T Consensus       371 ~~a~~LA~iiAa~~LA~els~l~Ala~~~i~~~Hm~l~~~~~~~~~  416 (450)
+T 7N7S_B          371 PSATELMSIIAVSGLAQNFAALRSLVTTGIQKGHMKMHLFNILNQF  416 (450)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CCHHHHHHHHHHHHHhhcHHHHHHHhcCCchHHHHHhhhHHHHHhC
+Confidence            5799999999999999999999999999999999999998877653
+
+
+No 7
+>7N7S_C Hydroxymethylglutaryl-CoA reductase; SSGCID, hydroxymethylglutaryl-CoA reductase, HGM-CoA reductase; HET: SO4, CIT; 2.4A {Elizabethkingia anophelis NUHP1}
+Probab=98.82  E-value=1.1e-08  Score=84.00  Aligned_cols=46  Identities=22%  Similarity=0.200  Sum_probs=27.1  Template_Neff=6.900
+
+Q ss_pred             hhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   60 ENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        60 enarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      +++++||||+||++||+|||+++||++++|+++||+|++++..++-
+T Consensus       371 ~~a~~LA~iiAa~~LA~els~l~Ala~~~i~~~Hm~l~~~~~~~~~  416 (450)
+T 7N7S_C          371 PSATELMSIIAVSGLAQNFAALRSLVTTGIQKGHMKMHLFNILNQF  416 (450)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHC------------------
+T ss_pred             CCHHHHHHHHHHHHHhhcHHHHHHHhcCCchHHHHHhhhHHHHHhC
+Confidence            5799999999999999999999999999999999999999988764
+
+
+No 8
+>3QAU_A 3-hydroxy-3-methylglutaryl-coenzyme a reductase (E.C.1.1.1.88); 4-ELECTRON OXIDO-REDUCTASE, OXIDOREDUCTASE; HET: NA, GOL; 2.3A {Streptococcus pneumoniae}
+Probab=98.72  E-value=5.9e-08  Score=80.19  Aligned_cols=46  Identities=24%  Similarity=0.361  Sum_probs=42.8  Template_Neff=6.800
+
+Q ss_pred             hhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   60 ENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        60 enarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      +++++||||+||++||||||+++||++++|+++||+|+|++.++..
+T Consensus       379 ~~a~~LA~iiAa~~LA~els~l~Ala~~~i~~~Hm~l~~~~~a~~~  424 (458)
+T 3QAU_A          379 PSARELAQIIVSIGLAQNFAALKALVSTGIQQGHMKLQAKSLALLA  424 (458)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHTCCCCCHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHhhHHHHHHHHccCccHHHHHhhhHHHHHHc
+Confidence            5789999999999999999999999999999999999999877653
+
+
+No 9
+>4I6Y_B 3-hydroxy-3-methylglutaryl-coenzyme A reductase (E.C.1.1.1.88); Oxidoreductase; HET: SO4, GOL, MEV; 1.45A {Pseudomonas mevalonii}
+Probab=98.64  E-value=1.1e-07  Score=77.62  Aligned_cols=46  Identities=28%  Similarity=0.361  Sum_probs=31.2  Template_Neff=7.000
+
+Q ss_pred             hhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   60 ENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        60 enarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      +++++||||+||++||||||+++||++++|+++||+|++++..++.
+T Consensus       348 ~~a~~LAeiiAa~~LA~els~l~Ala~~~i~~~H~~l~~~~~~~~~  393 (428)
+T 4I6Y_B          348 KTAQALAEIAVAVGLAQNLGAMRALATEGIQRGHMALHARNIAVVA  393 (428)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHHHHHCCCCC--------------
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHhcccchHHHHHHHhhchHHHC
+Confidence            5799999999999999999999999999999999999999988764
+
+
+No 10
+>5WPJ_A 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.34); 3-hydroxy-3-methylglutaryl-CoA reductase, HMG-CoA, conformational change; HET: GOL, NDP; 2.0A {Streptococcus pneumoniae}
+Probab=98.06  E-value=5e-06  Score=68.21  Aligned_cols=50  Identities=26%  Similarity=0.387  Sum_probs=30.2  Template_Neff=7.000
+
+Q ss_pred             HHCCCCccCCCCChhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   47 MLGVQGACKDNPGENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        47 mlgvqgackdnpgenarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      ||||         +++++||||+||++||||||+++||++++|+++||+|++++..+..
+T Consensus       343 llg~---------~~a~~La~iiAa~~LA~nlsal~Al~~~~i~~~Hm~l~~~~~a~~~  392 (426)
+T 5WPJ_A          343 LLGN---------PSARELAQIIESIGLAQNFAALKALVSTGIQQGHMKLQAKSLALLA  392 (426)
+T ss_dssp             HTTC---------CCHHHHHHHHHHHHHHHHHHHHHHHHC-------------------
+T ss_pred             HhCC---------CCHHHHHHHHHHHHHHHHHHHHHHHHccCccHHHHHhHHHHHHHHc
+Confidence            9999         7899999999999999999999999999999999999999988764
+
+
+No 11
+>5WPJ_D 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.34); 3-hydroxy-3-methylglutaryl-CoA reductase, HMG-CoA, conformational change; HET: GOL, NDP; 2.0A {Streptococcus pneumoniae}
+Probab=98.06  E-value=5e-06  Score=68.21  Aligned_cols=50  Identities=26%  Similarity=0.387  Sum_probs=46.9  Template_Neff=7.000
+
+Q ss_pred             HHCCCCccCCCCChhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   47 MLGVQGACKDNPGENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        47 mlgvqgackdnpgenarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      ||||         +++++||||+||++||||||+++||++++|+++||+|++++..+..
+T Consensus       343 llg~---------~~a~~La~iiAa~~LA~nlsal~Al~~~~i~~~Hm~l~~~~~a~~~  392 (426)
+T 5WPJ_D          343 LLGN---------PSARELAQIIESIGLAQNFAALKALVSTGIQQGHMKLQAKSLALLA  392 (426)
+T ss_dssp             HTTC---------CCHHHHHHHHHHHHHHHHHHHHHHHHCSCCCCCCHHHHHHHHHHHH
+T ss_pred             HhCC---------CCHHHHHHHHHHHHHHHHHHHHHHHHccCccHHHHHhHHHHHHHHc
+Confidence            9999         7899999999999999999999999999999999999999877653
+
+
+No 12
+>6DIO_C 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.88); Mevalonate pathway, OXIDOREDUCTASE; HET: SO4, CIT, NAD, EDO; 2.14A {Delftia acidovorans}
+Probab=98.04  E-value=6.2e-06  Score=67.72  Aligned_cols=50  Identities=26%  Similarity=0.401  Sum_probs=46.8  Template_Neff=7.000
+
+Q ss_pred             HHCCCCccCCCCChhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   47 MLGVQGACKDNPGENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        47 mlgvqgackdnpgenarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      ||||         +++++||||+||++||||||+++||++++|+++||+|++++..++.
+T Consensus       344 llg~---------~~a~~la~iiAa~~LA~~ls~l~Al~~~~i~~~Hm~l~~~~~a~~~  393 (429)
+T 6DIO_C          344 IMDL---------QSAQQLGEIAAAVGLAQNLGALRALATEGIQRGHMALHARNIALVA  393 (429)
+T ss_dssp             HHTC---------SCHHHHHHHHHHHHHHHHHHHHHHHHHCCSSCCHHHHHHHHHHHHT
+T ss_pred             HcCC---------CCHHHHHHHHHHHHHHHHHHHHHHHhcccccHHHHHhHhhhHHHHC
+Confidence            9999         7899999999999999999999999999999999999999876653
+
+
+No 13
+>6EEV_A 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.88); Mevalonate pathway, OXIDOREDUCTASE; HET: SO4, MEV, GLC, FRU; 1.49A {Delftia acidovorans}
+Probab=98.04  E-value=6.2e-06  Score=67.72  Aligned_cols=50  Identities=26%  Similarity=0.401  Sum_probs=32.3  Template_Neff=7.000
+
+Q ss_pred             HHCCCCccCCCCChhHHHHHHHHHHHHHhcchhHHHHHHHHHHHHhhhccCCCCCChhh
+Q tr|H0Y8F6|H0Y8   47 MLGVQGACKDNPGENARQLARIVCGTVMAGELSLMAALAAGHLVKSHMIHNRSKINLQD  105 (115)
+Q Consensus        47 mlgvqgackdnpgenarqlarivcgtvmagelslmaalaaghlvkshmihnrskinlqd  105 (115)
+                      ||||         +++++||||+||++||||||+++||++++|+++||+|++++..++.
+T Consensus       344 llg~---------~~a~~la~iiAa~~LA~~ls~l~Al~~~~i~~~Hm~l~~~~~a~~~  393 (429)
+T 6EEV_A          344 IMDL---------QSAQQLGEIAAAVGLAQNLGALRALATEGIQRGHMALHARNIALVA  393 (429)
+T ss_dssp             HHTC---------CCHHHHHHHHHHHHHHHHHHHHHHHHSCC-----------------
+T ss_pred             HcCC---------CCHHHHHHHHHHHHHHHHHHHHHHHhcccccHHHHHhHhhhHHHHC
+Confidence            9999         7899999999999999999999999999999999999999987764
+
+
+No 14
+>5WPJ_A 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.34); 3-hydroxy-3-methylglutaryl-CoA reductase, HMG-CoA, conformational change; HET: GOL, NDP; 2.0A {Streptococcus pneumoniae}
+Probab=94.58  E-value=0.25  Score=41.46  Aligned_cols=31  Identities=19%  Similarity=0.337  Sum_probs=25.4  Template_Neff=7.000
+
+Q ss_pred             CCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH
+Q tr|H0Y8F6|H0Y8    3 PEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE   46 (115)
+Q Consensus         3 pemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre   46 (115)
+                      |....+.|++|++++|.             |.|++.||.+++++
+T Consensus       204 ~~~~~~~I~sN~~~~k~-------------V~ae~~i~~~~l~~  234 (426)
+T 5WPJ_A          204 QGQSLMGILSNYATDSL-------------VTASCRIAFRYLSR  234 (426)
+T ss_dssp             TSEEEEEEEESCCTTSE-------------EEEEEEEEGGGTCT
+T ss_pred             CCcEEEEEEecCCCCce-------------EEEEEEEcHHHHhc
+Confidence            44467899999999864             89999999988853
+
+
+No 15
+>5WPJ_D 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.34); 3-hydroxy-3-methylglutaryl-CoA reductase, HMG-CoA, conformational change; HET: GOL, NDP; 2.0A {Streptococcus pneumoniae}
+Probab=94.58  E-value=0.25  Score=41.46  Aligned_cols=31  Identities=19%  Similarity=0.337  Sum_probs=25.4  Template_Neff=7.000
+
+Q ss_pred             CCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH
+Q tr|H0Y8F6|H0Y8    3 PEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE   46 (115)
+Q Consensus         3 pemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre   46 (115)
+                      |....+.|++|++++|.             |.|++.||.+++++
+T Consensus       204 ~~~~~~~I~sN~~~~k~-------------V~ae~~i~~~~l~~  234 (426)
+T 5WPJ_D          204 QGQSLMGILSNYATDSL-------------VTASCRIAFRYLSR  234 (426)
+T ss_dssp             TSEEEEEEECSCCTTSE-------------EEEEEEEEGGGSCS
+T ss_pred             CCcEEEEEEecCCCCce-------------EEEEEEEcHHHHhc
+Confidence            44467899999999864             89999999988853
+
+
+No 16
+>6DIO_C 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.88); Mevalonate pathway, OXIDOREDUCTASE; HET: SO4, CIT, NAD, EDO; 2.14A {Delftia acidovorans}
+Probab=94.03  E-value=0.49  Score=39.89  Aligned_cols=31  Identities=6%  Similarity=0.012  Sum_probs=25.6  Template_Neff=7.000
+
+Q ss_pred             CCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH
+Q tr|H0Y8F6|H0Y8    3 PEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE   46 (115)
+Q Consensus         3 pemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre   46 (115)
+                      |....+.|+||+++++             .|+|++.||.+++++
+T Consensus       206 ~~~~~~~I~sN~~~~~-------------~v~A~~~ip~~~l~~  236 (429)
+T 6DIO_C          206 GGSVRLRILSNLADLR-------------LARARVRLTPQTLAT  236 (429)
+T ss_dssp             CSEEEEEEECSCCTTS-------------EEEEEEEECHHHHCC
+T ss_pred             CCCeEEEEEeCCCCcc-------------eEEEEEEeCHHHHhc
+Confidence            4446789999999875             489999999999853
+
+
+No 17
+>6EEV_A 3-hydroxy-3-methylglutaryl coenzyme A reductase (E.C.1.1.1.88); Mevalonate pathway, OXIDOREDUCTASE; HET: SO4, MEV, GLC, FRU; 1.49A {Delftia acidovorans}
+Probab=94.03  E-value=0.49  Score=39.89  Aligned_cols=31  Identities=6%  Similarity=0.012  Sum_probs=25.6  Template_Neff=7.000
+
+Q ss_pred             CCCeEEEEEccccCCCCchhheeeccCCcEEEEEEEeeHHHHHH
+Q tr|H0Y8F6|H0Y8    3 PEMQILAVSGNYCTDKKPAAINWIEGRGKSVVCEAVIPAKVVRE   46 (115)
+Q Consensus         3 pemqilavsgnyctdkkpaainwiegrgksvvceavipakvvre   46 (115)
+                      |....+.|+||+++++             .|+|++.||.+++++
+T Consensus       206 ~~~~~~~I~sN~~~~~-------------~v~A~~~ip~~~l~~  236 (429)
+T 6EEV_A          206 GGSVRLRILSNLADLR-------------LARARVRLTPQTLAT  236 (429)
+T ss_dssp             CCEEEEEEECSCCTTS-------------EEEEEEEECHHHHCC
+T ss_pred             CCCeEEEEEeCCCCcc-------------eEEEEEEeCHHHHhc
+Confidence            4446789999999875             489999999999853
+
+
+No 18
+>2KPP_A Lin0431 protein; solution NMR structure, Structural Genomics; NMR {Listeria innocua}
+Probab=35.31  E-value=44  Score=24.16  Aligned_cols=10  Identities=30%  Similarity=0.209  Sum_probs=5.6  Template_Neff=6.400
+
+Q ss_pred             EEEeeHHHHH
+Q tr|H0Y8F6|H0Y8   36 EAVIPAKVVR   45 (115)
+Q Consensus        36 eavipakvvr   45 (115)
+                      +...|..++.
+T Consensus        56 ~s~CPdkiCv   65 (114)
+T 2KPP_A           56 EDNSPDQVGV   65 (114)
+T ss_dssp             EECCSSCHHH
+T ss_pred             EeCCCCCccc
+Confidence            4446666654
+
+
+No 19
+>3I10_A Putative Glycerophosphoryl diester phosphodiesterase; NP_812074.1, Putative glycerophosphoryl diester phosphodiesterase; HET: EDO, MSE; 1.35A {Bacteroides thetaiotaomicron VPI-5482}
+Probab=31.11  E-value=2.3e+02  Score=19.84  Aligned_cols=17  Identities=6%  Similarity=-0.009  Sum_probs=9.9  Template_Neff=11.000
+
+Q ss_pred             hheeeccCCcEEEEEEE
+Q tr|H0Y8F6|H0Y8   22 AINWIEGRGKSVVCEAV   38 (115)
+Q Consensus        22 ainwiegrgksvvceav   38 (115)
+                      .+..+..+|..|.++..
+T Consensus       210 ~i~~~~~~g~~v~~~~v  226 (278)
+T 3I10_A          210 KIKQLLFKKSLIWYNTL  226 (278)
+T ss_dssp             HHHHHHTTTSEEEEECS
+T ss_pred             HHHHHHhCCCEEEEEcc
+Confidence            44455566766666544
+
+
+No 20
+>2JZX_A Poly(rC)-binding protein 2; PCBP2, KH domains, RNA binding; NMR {Homo sapiens}
+Probab=27.75  E-value=1.2e+02  Score=18.30  Aligned_cols=18  Identities=11%  Similarity=0.235  Sum_probs=11.7  Template_Neff=12.000
+
+Q ss_pred             cEEEEEEEeeHHHHHHHH
+Q tr|H0Y8F6|H0Y8   31 KSVVCEAVIPAKVVREML   48 (115)
+Q Consensus        31 ksvvceavipakvvreml   48 (115)
+                      ..+..++.+|......++
+T Consensus         3 ~~~~~~~~ip~~~~~~~i   20 (160)
+T 2JZX_A            3 VTLTIRLLMHGKEVGSII   20 (160)
+T ss_dssp             CEEEEEEEEEHHHHHHHH
+T ss_pred             ccEEEEEEeehhHhheee
+Confidence            346778888887665433
+
+
+No 21
+>1WNA_A the hypothetical protein (TT1805); Thermus thermophillus, STRUCTURAL GENOMICS, RIKEN; HET: MSE; 1.58A {Thermus thermophilus} SCOP: d.319.1.1
+Probab=24.70  E-value=1e+02  Score=24.66  Aligned_cols=39  Identities=18%  Similarity=0.275  Sum_probs=30.8  Template_Neff=3.500
+
+Q ss_pred             eeeccCCcEEEEEEEeeHHHHHHHHCCCCccCCCCChhHHHHHHHHHH
+Q tr|H0Y8F6|H0Y8   24 NWIEGRGKSVVCEAVIPAKVVREMLGVQGACKDNPGENARQLARIVCG   71 (115)
+Q Consensus        24 nwiegrgksvvceavipakvvremlgvqgackdnpgenarqlarivcg   71 (115)
+                      .|...+|-+..-|.+++.+...++++.         +....++.++|+
+T Consensus        79 ~wa~~~G~~~~rEtVl~psdf~rll~e---------pd~~~~~rl~Aa  117 (131)
+T 1WNA_A           79 GLLLAQGARRFYEAVVSPGEMTALLDL---------PPEELLKRVMAI  117 (131)
+T ss_dssp             HHHHHTTCCEEEEEEECGGGHHHHHTS---------CHHHHHHHHHHH
+T ss_pred             HHHHHCCCceeEEEeeCHHHHHHHhcC---------ChHHHHHHHHHh
+Confidence            455677877777889998888888887         778888888875
+
+
+No 22
+>6I0D_X NADH-quinone oxidoreductase subunit 1 (E.C.1.6.5.11); Respiratory chain, complex I, NADH:ubiquinone; HET: DCQ, FMN, FES, SF4; 3.6A {Thermus thermophilus HB8}
+Probab=24.70  E-value=1e+02  Score=24.66  Aligned_cols=39  Identities=18%  Similarity=0.275  Sum_probs=27.4  Template_Neff=3.500
+
+Q ss_pred             eeeccCCcEEEEEEEeeHHHHHHHHCCCCccCCCCChhHHHHHHHHHH
+Q tr|H0Y8F6|H0Y8   24 NWIEGRGKSVVCEAVIPAKVVREMLGVQGACKDNPGENARQLARIVCG   71 (115)
+Q Consensus        24 nwiegrgksvvceavipakvvremlgvqgackdnpgenarqlarivcg   71 (115)
+                      .|...+|-+..-|.+++.+...++++.         +....++.++|+
+T Consensus        79 ~wa~~~G~~~~rEtVl~psdf~rll~e---------pd~~~~~rl~Aa  117 (131)
+T 6I0D_X           79 GLLLAQGARRFYEAVVSPGEMTALLDL---------PPEELLKRVMAI  117 (131)
+T ss_pred             HHHHHCCCceeEEEeeCHHHHHHHhcC---------ChHHHHHHHHHh
+Confidence            456677776677888888877777666         556666666664
+
+
+No 23
+>6Q8X_X NADH-quinone oxidoreductase subunit 1 (E.C.1.6.5.11); Respiratory chain, complex I, NADH:ubiquinone; HET: FMN, HQK, FES, SF4; 3.508A {Thermus thermophilus (strain HB8 / ATCC 27634 / DSM 579)}
+Probab=24.70  E-value=1e+02  Score=24.66  Aligned_cols=39  Identities=18%  Similarity=0.275  Sum_probs=27.4  Template_Neff=3.500
+
+Q ss_pred             eeeccCCcEEEEEEEeeHHHHHHHHCCCCccCCCCChhHHHHHHHHHH
+Q tr|H0Y8F6|H0Y8   24 NWIEGRGKSVVCEAVIPAKVVREMLGVQGACKDNPGENARQLARIVCG   71 (115)
+Q Consensus        24 nwiegrgksvvceavipakvvremlgvqgackdnpgenarqlarivcg   71 (115)
+                      .|...+|-+..-|.+++.+...++++.         +....++.++|+
+T Consensus        79 ~wa~~~G~~~~rEtVl~psdf~rll~e---------pd~~~~~rl~Aa  117 (131)
+T 6Q8X_X           79 GLLLAQGARRFYEAVVSPGEMTALLDL---------PPEELLKRVMAI  117 (131)
+T ss_pred             HHHHHCCCceeEEEeeCHHHHHHHhcC---------ChHHHHHHHHHh
+Confidence            456677776677888888877777666         556666666664
+
+
+No 24
+>3TTS_B Beta-galactosidase; Tim Barrel, Glycoside hydrolase, hydrolase; 2.401A {Bacillus circulans subsp. alkalophilus}
+Probab=22.65  E-value=4.5e+02  Score=20.20  Aligned_cols=10  Identities=30%  Similarity=0.301  Sum_probs=4.6  Template_Neff=12.200
+
+Q ss_pred             eccCCcEEEE
+Q tr|H0Y8F6|H0Y8   26 IEGRGKSVVC   35 (115)
+Q Consensus        26 iegrgksvvc   35 (115)
+                      ..|+|+.+..
+T Consensus       576 ~~G~G~~~~~  585 (675)
+T 3TTS_B          576 KFGNGQSYYV  585 (675)
+T ss_dssp             EETTEEEEEE
+T ss_pred             ecCCCeEEEE
+Confidence            3355554443
+
+
+No 25
+>3TTY_B Beta-galactosidase; Tim Barrel, Glycoside hydrolase, hydrolase; HET: GLA; 2.25A {Bacillus circulans subsp. alkalophilus}
+Probab=22.65  E-value=4.5e+02  Score=20.20  Aligned_cols=10  Identities=30%  Similarity=0.301  Sum_probs=4.6  Template_Neff=12.200
+
+Q ss_pred             eccCCcEEEE
+Q tr|H0Y8F6|H0Y8   26 IEGRGKSVVC   35 (115)
+Q Consensus        26 iegrgksvvc   35 (115)
+                      ..|+|+.+..
+T Consensus       576 ~~G~G~~~~~  585 (675)
+T 3TTY_B          576 KFGNGQSYYV  585 (675)
+T ss_dssp             EETTEEEEEE
+T ss_pred             ecCCCeEEEE
+Confidence            3355554443
+
+

@@ -1,0 +1,374 @@
+Query         sp|Q96MC5|MERB1_HUMAN
+Match_columns 204
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 11:19:25 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0656.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5SZH_A MICAL C-terminal-like p  98.7 6.3E-07 6.8E-12   62.8   9.5  103   47-149    50-152 (153)
+  2 5SZJ_B Ras-related protein Rab  98.7 6.3E-07 6.8E-12   62.8   9.5  103   47-149    50-152 (153)
+  3 5SZG_A Protein-methionine sulf  98.6 1.3E-06 1.4E-11   59.4   9.5  103   47-149    48-150 (151)
+  4 5SZG_B Protein-methionine sulf  98.6 1.3E-06 1.4E-11   59.4   9.5  102   48-149    49-150 (151)
+  5 6ZSI_C Ras-related protein Rab  98.6 2.6E-06 2.8E-11   60.2  10.6  102   48-149    54-155 (156)
+  6 6ZSI_D Ras-related protein Rab  98.6 2.6E-06 2.8E-11   60.2  10.6  103   47-149    53-155 (156)
+  7 5LPN_B Ras-related protein Rab  98.5 2.1E-06 2.3E-11   60.9   8.9  100   49-148    52-151 (153)
+  8 2BZB_A CONSERVED DOMAIN PROTEI  40.5 1.9E+02  0.0021   19.8   5.1    8  147-154    41-48  (62)
+  9 7NRC_A 40S ribosomal protein S  39.5      73 0.00079   34.8   3.9   18   53-70    315-332 (1209)
+ 10 6SO5_D ATPase ASNA1 (E.C.3.6.-  26.8 4.3E+02  0.0047   21.1   5.4   15   82-96     48-62  (184)
+ 11 5B52_A Transcriptional regulat  25.2 3.5E+02  0.0038   19.8   4.3   24  105-128    25-48  (69)
+ 12 5B52_B Transcriptional regulat  25.2 3.5E+02  0.0038   19.8   4.3   23  105-127    25-47  (69)
+ 13 3SJB_D ATPase GET3 (E.C.3.6.-.  23.4 5.1E+02  0.0055   20.1   5.1   23   81-103    26-48  (93)
+ 14 3VEM_A Helicase protein MOM1 (  22.7   3E+02  0.0033   21.8   3.9   23   50-72     34-56  (115)
+ 15 3VEM_C Helicase protein MOM1 (  22.7   3E+02  0.0033   21.8   3.9   24   50-73     34-57  (115)
+ 16 6ZSH_A EH domain-binding prote  21.2 4.8E+02  0.0052   18.2   7.8   51   49-99     55-105 (106)
+ 17 6ZSH_C EH domain-binding prote  21.2 4.8E+02  0.0052   18.2   7.8   51   49-99     55-105 (106)
+ 18 4JPS_B Phosphatidylinositol 4,  21.1 7.3E+02  0.0079   20.2   6.3   10  120-129   270-279 (293)
+
+No 1
+>5SZH_A MICAL C-terminal-like protein, Ras-related protein; Mical-cL, DUF3585, Mical, Rab effector; HET: GNP; 2.3A {Homo sapiens}
+Probab=98.67  E-value=6.3e-07  Score=62.81  Aligned_cols=103  Identities=28%  Similarity=0.398  Sum_probs=95.6  Template_Neff=10.000
+
+Q ss_pred             CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHc
+Q sp|Q96MC5|MERB   47 TMMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQK  126 (204)
+Q Consensus        47 tmmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqk  126 (204)
+                      .+.+..++.+||.++++++.+++++.+|.++....++++.+..++.+|+.++..++..++..+..++..++.++++++++
+T Consensus        50 ~~~~~~ll~~w~~lv~~k~~l~r~e~~l~~~~~~~~le~~~~~l~~~lr~~~~~~~~~kt~~~~~~e~~ll~~~~~~v~~  129 (153)
+T 5SZH_A           50 TQDEAQLLQEWFKLVLEKNKLMRYESELLIMAQELELEDHQSRLEQKLREKMLKEESQKDEKDLNEEQEVFTELMQVIEQ  129 (153)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCGGGCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHchhHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHhchhhhCCHHHHHHHHHHHHHHHHHHHh
+Confidence            45788999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  127 RDFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       127 rdflvddaeverlreqeedkema  149 (204)
+                      |+.++..++..+.++.++|+.++
+T Consensus       130 r~~l~~~l~~~~~~~~~e~~~~~  152 (153)
+T 5SZH_A          130 RDKLVDSLEEQRIREKAEDQHFE  152 (153)
+T ss_dssp             HHHHHHHHHHHHHHHHHHC----
+T ss_pred             HHHHHHhHHHHHHHHHHHHhhcc
+Confidence            99999999999999998887654
+
+
+No 2
+>5SZJ_B Ras-related protein Rab-10, MICAL C-terminal-like; Mical-cL, DUF3585, Mical, Rab effector; HET: GNP; 2.66A {Homo sapiens}
+Probab=98.67  E-value=6.3e-07  Score=62.81  Aligned_cols=103  Identities=28%  Similarity=0.398  Sum_probs=97.3  Template_Neff=10.000
+
+Q ss_pred             CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHc
+Q sp|Q96MC5|MERB   47 TMMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQK  126 (204)
+Q Consensus        47 tmmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqk  126 (204)
+                      .+.+..++.+||.++++++.+++++.+|.++....++++.+..++.+|+.++..++..++..+..++..++.++++++++
+T Consensus        50 ~~~~~~ll~~w~~lv~~k~~l~r~e~~l~~~~~~~~le~~~~~l~~~lr~~~~~~~~~kt~~~~~~e~~ll~~~~~~v~~  129 (153)
+T 5SZJ_B           50 TQDEAQLLQEWFKLVLEKNKLMRYESELLIMAQELELEDHQSRLEQKLREKMLKEESQKDEKDLNEEQEVFTELMQVIEQ  129 (153)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCGGGCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHchhHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHhchhhhCCHHHHHHHHHHHHHHHHHHHh
+Confidence            35778999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  127 RDFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       127 rdflvddaeverlreqeedkema  149 (204)
+                      |+.++..++..+.++.++|+.++
+T Consensus       130 r~~l~~~l~~~~~~~~~e~~~~~  152 (153)
+T 5SZJ_B          130 RDKLVDSLEEQRIREKAEDQHFE  152 (153)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHhHHHHHHHHHHHHhhcc
+Confidence            99999999999999988887654
+
+
+No 3
+>5SZG_A Protein-methionine sulfoxide oxidase MICAL3 (E.C.1.14.13.-); Mical-3, DUF3585, Mical, Rab effector; HET: PEG, MSE; 2.7A {Homo sapiens}
+Probab=98.61  E-value=1.3e-06  Score=59.37  Aligned_cols=103  Identities=30%  Similarity=0.426  Sum_probs=91.4  Template_Neff=10.700
+
+Q ss_pred             CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHc
+Q sp|Q96MC5|MERB   47 TMMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQK  126 (204)
+Q Consensus        47 tmmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqk  126 (204)
+                      ++.+..++..||.+++.++.+.+++.+|.++....+++..+..+..+++.++..++..++..++.++..++.+++.++++
+T Consensus        48 ~~~~~~l~~~~~~l~~~~~~l~~~~~~l~~~~~~~~l~~~~~~~~~~lr~~~~~~~~~k~~~~~~~e~~ll~~~~~~v~~  127 (151)
+T 5SZG_A           48 KKDDPKLMQEWFKLVQEKNAMVRYESELMIFARELELEDRQSRLQQELRERMAVEDHLKTEEELSEEKQILNEMLEVVEQ  127 (151)
+T ss_dssp             ----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCGGGSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHccccccCCHHHHHHHHHHHHHHHHHHhh
+Confidence            34677899999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  127 RDFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       127 rdflvddaeverlreqeedkema  149 (204)
+                      |+.++..++..+.+++++|..++
+T Consensus       128 r~~l~~~l~~~~~~~~~e~~~~~  150 (151)
+T 5SZG_A          128 RDSLVALLEEQRLREREEDKDLE  150 (151)
+T ss_dssp             HHHHHHHHHHHHHHSCC------
+T ss_pred             HHHHHHHHHHHHHHHHHhhhccc
+Confidence            99999999999999888876543
+
+
+No 4
+>5SZG_B Protein-methionine sulfoxide oxidase MICAL3 (E.C.1.14.13.-); Mical-3, DUF3585, Mical, Rab effector; HET: PEG, MSE; 2.7A {Homo sapiens}
+Probab=98.61  E-value=1.3e-06  Score=59.37  Aligned_cols=102  Identities=30%  Similarity=0.430  Sum_probs=81.5  Template_Neff=10.700
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHcC
+Q sp|Q96MC5|MERB   48 MMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQKR  127 (204)
+Q Consensus        48 mmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqkr  127 (204)
+                      +.+..++..||.+++.++.+.+++.+|.++....+++..+..+..+++.++..++..++..++.++..++.+++.++++|
+T Consensus        49 ~~~~~l~~~~~~l~~~~~~l~~~~~~l~~~~~~~~l~~~~~~~~~~lr~~~~~~~~~k~~~~~~~e~~ll~~~~~~v~~r  128 (151)
+T 5SZG_B           49 KDDPKLMQEWFKLVQEKNAMVRYESELMIFARELELEDRQSRLQQELRERMAVEDHLKTEEELSEEKQILNEMLEVVEQR  128 (151)
+T ss_dssp             GGCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC------------CTHHHHHHHHHHHHHHH
+T ss_pred             CCCHHHHHHHHHHHHHHhchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHccccccCCHHHHHHHHHHHHHHHHHHhhH
+Confidence            46688999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  128 DFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       128 dflvddaeverlreqeedkema  149 (204)
+                      +.++..++..+.+++++|..++
+T Consensus       129 ~~l~~~l~~~~~~~~~e~~~~~  150 (151)
+T 5SZG_B          129 DSLVALLEEQRLREREEDKDLE  150 (151)
+T ss_dssp             HHHHHHHHHHHHHHCC------
+T ss_pred             HHHHHHHHHHHHHHHHhhhccc
+Confidence            9999999999999988876543
+
+
+No 5
+>6ZSI_C Ras-related protein Rab-8A, EH domain-binding; Rab GTPase, EHBP1, bMERB domain; HET: PEG, GNP; 1.914A {Homo sapiens}
+Probab=98.58  E-value=2.6e-06  Score=60.16  Aligned_cols=102  Identities=29%  Similarity=0.429  Sum_probs=91.0  Template_Neff=9.900
+
+Q ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHcC
+Q sp|Q96MC5|MERB   48 MMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQKR  127 (204)
+Q Consensus        48 mmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqkr  127 (204)
+                      +.+..++..||.++++++.+++++.+|.+.....+++..+..++.+|+.++..++..++..+..++..++.+++.++++|
+T Consensus        54 ~~~~~l~~~w~~lv~~k~~l~r~e~~l~~~~~~~~le~~~~~l~~~lr~~~~~~~~~kt~~~~~~e~~ll~~l~~~v~~r  133 (156)
+T 6ZSI_C           54 EEEEAMAQEWFMLVNKKNALIRRMNQLSLLEKEHDLERRYELLNRELRAMLAIEDWQKTEAQKRREQLLLDELVALVNKR  133 (156)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCGGGSCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHccccccCCHHHHHHHHHHHHHHHHHHhcH
+Confidence            35678999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  128 DFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       128 dflvddaeverlreqeedkema  149 (204)
+                      +.++..++..+.++.++|..++
+T Consensus       134 ~~l~~~l~~~~~~~~~~d~~~~  155 (156)
+T 6ZSI_C          134 DALVRDLDAQEKQAEEEDEHLE  155 (156)
+T ss_dssp             HHHHHHHHHTTTCC--------
+T ss_pred             HHHHHhhhHHHHHHHHHHHhhc
+Confidence            9999999999999888876653
+
+
+No 6
+>6ZSI_D Ras-related protein Rab-8A, EH domain-binding; Rab GTPase, EHBP1, bMERB domain; HET: PEG, GNP; 1.914A {Homo sapiens}
+Probab=98.58  E-value=2.6e-06  Score=60.16  Aligned_cols=103  Identities=30%  Similarity=0.433  Sum_probs=94.4  Template_Neff=9.900
+
+Q ss_pred             CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHc
+Q sp|Q96MC5|MERB   47 TMMPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQK  126 (204)
+Q Consensus        47 tmmpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqk  126 (204)
+                      .+.+..++..||.++++++.+++++.+|.+.....+++..+..++.+|+.++..++..++..+..++..++.+++.++++
+T Consensus        53 ~~~~~~l~~~w~~lv~~k~~l~r~e~~l~~~~~~~~le~~~~~l~~~lr~~~~~~~~~kt~~~~~~e~~ll~~l~~~v~~  132 (156)
+T 6ZSI_D           53 TEEEEAMAQEWFMLVNKKNALIRRMNQLSLLEKEHDLERRYELLNRELRAMLAIEDWQKTEAQKRREQLLLDELVALVNK  132 (156)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSCGGGSCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHccccccCCHHHHHHHHHHHHHHHHHHhc
+Confidence            34678899999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCCCHHHHHHHHHhhhcHHHH
+Q sp|Q96MC5|MERB  127 RDFLVDDAEVERLREQEEDKEMA  149 (204)
+Q Consensus       127 rdflvddaeverlreqeedkema  149 (204)
+                      |+.++..++..+.++.++|..++
+T Consensus       133 r~~l~~~l~~~~~~~~~~d~~~~  155 (156)
+T 6ZSI_D          133 RDALVRDLDAQEKQAEEEDEHLE  155 (156)
+T ss_dssp             HHHHHHHHHHHHHHHTTC-----
+T ss_pred             HHHHHHhhhHHHHHHHHHHHhhc
+Confidence            99999999999999988877654
+
+
+No 7
+>5LPN_B Ras-related protein Rab-10, Protein-methionine sulfoxide; Mical-1, DUF3585, Mical, Rab effector; HET: GNP; 2.8A {Homo sapiens}
+Probab=98.52  E-value=2.1e-06  Score=60.93  Aligned_cols=100  Identities=26%  Similarity=0.325  Sum_probs=81.4  Template_Neff=9.700
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCHHHhhHHHHHHHHHHHHHHHHHHHcCC
+Q sp|Q96MC5|MERB   49 MPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVAIPEKEKTKLQKQREDELIQKIHKLVQKRD  128 (204)
+Q Consensus        49 mpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlvaipekektklqkqredeliqkihklvqkrd  128 (204)
+                      .+..++..||.++++++.+++++.+|.++.....+++.+..++.+|+.++..++..++..+..++..++.++++++++|+
+T Consensus        52 ~~~~ll~~w~~lv~~k~~l~r~e~~l~~~~~~~~l~~~~~~l~~~lr~~~~~~~~~k~~~~~~~e~~ll~~~~~~v~~r~  131 (153)
+T 5LPN_B           52 QKKLWVGQLLQLVDKKNSLVAEEAELMITVQELNLEEKQWQLDQELRGYMNREENLKTAADRQAEDQVLRKLVDLVNQRD  131 (153)
+T ss_dssp             HHHHCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-----------CHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhhccHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHccccccCCHHHHHHHHHHHHHHHHHHhhHH
+Confidence            45678889999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCCCHHHHHHHHHhhhcHHH
+Q sp|Q96MC5|MERB  129 FLVDDAEVERLREQEEDKEM  148 (204)
+Q Consensus       129 flvddaeverlreqeedkem  148 (204)
+                      .++..++..+.++.++|..+
+T Consensus       132 ~l~~~l~~~~~~~~~~d~~~  151 (153)
+T 5LPN_B          132 ALIRFQEERRLSELALGTGA  151 (153)
+T ss_dssp             HHHHHHHHHHHHHHC-----
+T ss_pred             HHHHHHHHHHHHHHHhcccC
+Confidence            99999999999999888654
+
+
+No 8
+>2BZB_A CONSERVED DOMAIN PROTEIN; TRANSFERASE, PHOSPHATASE, PHOSPHORYLATION, SPORULATION, BACILLUS; NMR {BACILLUS ANTHRACIS} SCOP: a.30.7.1
+Probab=40.50  E-value=1.9e+02  Score=19.77  Aligned_cols=8  Identities=13%  Similarity=0.546  Sum_probs=3.1  Template_Neff=7.400
+
+Q ss_pred             HHHHHHhc
+Q sp|Q96MC5|MERB  147 EMADFLRI  154 (204)
+Q Consensus       147 emadflri  154 (204)
+                      -+..+.+.
+T Consensus        41 li~~y~~~   48 (62)
+T 2BZB_A           41 LINKFMNV   48 (62)
+T ss_dssp             HHHHHHTC
+T ss_pred             HHHHHHHH
+Confidence            33334333
+
+
+No 9
+>7NRC_A 40S ribosomal protein S0-A, 40S; Ribosome, Disome, GCN1, Translation, GAAC; HET: 5CT; 3.9A {Saccharomyces cerevisiae S288C}
+Probab=39.51  E-value=73  Score=34.83  Aligned_cols=18  Identities=22%  Similarity=0.172  Sum_probs=9.2  Template_Neff=1.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH
+Q sp|Q96MC5|MERB   53 IELEMAKIQRLREVLVRR   70 (204)
+Q Consensus        53 ielemakiqrlrevlvrr   70 (204)
+                      ++.....++++.+..+|.
+T Consensus       315 AVpALIeMLNDEDkRVRs  332 (1209)
+T 7NRC_A          315 IVPEIVGVLNDSHKEVRK  332 (1209)
+T ss_pred             hHHHHHHHhcCCCHHHHH
+Confidence            344444445566655553
+
+
+No 10
+>6SO5_D ATPase ASNA1 (E.C.3.6.-.-), Tail-anchored protein; ER, insertase, complex, tail-anchor, MEMBRANE;{Homo sapiens}
+Probab=26.80  E-value=4.3e+02  Score=21.11  Aligned_cols=15  Identities=47%  Similarity=0.674  Sum_probs=6.8  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHH
+Q sp|Q96MC5|MERB   82 QLCKDIMDLKQELQN   96 (204)
+Q Consensus        82 qlckdimdlkqelqn   96 (204)
+                      ++..+...+..++..
+T Consensus        48 ~l~~Ei~~lk~el~~   62 (184)
+T 6SO5_D           48 QMRAEIQDMKQELST   62 (184)
+T ss_dssp             HHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHh
+Confidence            344444444455544
+
+
+No 11
+>5B52_A Transcriptional regulator MvaT, P16 subunit; transcriptional regulator, nucleoid associated protein; 2.3A {Pseudomonas putida (strain KT2440)}
+Probab=25.18  E-value=3.5e+02  Score=19.76  Aligned_cols=24  Identities=33%  Similarity=0.336  Sum_probs=14.4  Template_Neff=6.300
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHcCC
+Q sp|Q96MC5|MERB  105 KTKLQKQREDELIQKIHKLVQKRD  128 (204)
+Q Consensus       105 ktklqkqredeliqkihklvqkrd  128 (204)
+                      +.+....++-++..++..++.+.+
+T Consensus        25 ~~d~~~~~eleF~~kL~~Lm~eYg   48 (69)
+T 5B52_A           25 KKDAGLKREIEFEQKLVGLMKSYD   48 (69)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             HhCHHHHHHHHHHHHHHHHHHHhC
+Confidence            445555666666666666665554
+
+
+No 12
+>5B52_B Transcriptional regulator MvaT, P16 subunit; transcriptional regulator, nucleoid associated protein; 2.3A {Pseudomonas putida (strain KT2440)}
+Probab=25.18  E-value=3.5e+02  Score=19.76  Aligned_cols=23  Identities=30%  Similarity=0.283  Sum_probs=12.6  Template_Neff=6.300
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHcC
+Q sp|Q96MC5|MERB  105 KTKLQKQREDELIQKIHKLVQKR  127 (204)
+Q Consensus       105 ktklqkqredeliqkihklvqkr  127 (204)
+                      +.+....++-++..++..++.+.
+T Consensus        25 ~~d~~~~~eleF~~kL~~Lm~eY   47 (69)
+T 5B52_B           25 KKDAGLKREIEFEQKLVGLMKSY   47 (69)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HhCHHHHHHHHHHHHHHHHHHHh
+Confidence            34445555666666665555444
+
+
+No 13
+>3SJB_D ATPase GET3 (E.C.3.6.-.-), Golgi to; Coiled-coil, receptor complex, TA-protein biogenesis; HET: PO4; 3.3A {Saccharomyces cerevisiae}
+Probab=23.36  E-value=5.1e+02  Score=20.11  Aligned_cols=23  Identities=17%  Similarity=0.138  Sum_probs=10.6  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhcCCHH
+Q sp|Q96MC5|MERB   81 IQLCKDIMDLKQELQNLVAIPEK  103 (204)
+Q Consensus        81 iqlckdimdlkqelqnlvaipek  103 (204)
+                      ..+......+..++..+...++.
+T Consensus        26 ~~L~~ei~~Lk~el~~IS~qDeF   48 (93)
+T 3SJB_D           26 LAKVKERHELKEFNNSISAQDNY   48 (93)
+T ss_dssp             HHHHHHHHHHHHHHTTSCTTTCH
+T ss_pred             HHHHHHHHHHHHHHHhcCHHHHH
+Confidence            33444444455555544444443
+
+
+No 14
+>3VEM_A Helicase protein MOM1 (E.C.3.6.4.-); Coiled-coil, hendecad, transcriptional gene silencing; 3.2A {Arabidopsis thaliana}
+Probab=22.74  E-value=3e+02  Score=21.82  Aligned_cols=23  Identities=17%  Similarity=0.141  Sum_probs=12.1  Template_Neff=6.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96MC5|MERB   50 PEEIELEMAKIQRLREVLVRRES   72 (204)
+Q Consensus        50 peeielemakiqrlrevlvrres   72 (204)
+                      .+.+..++-.+......+.+...
+T Consensus        34 ~dPLq~ELeri~k~~e~~~K~he   56 (115)
+T 3VEM_A           34 NDPFLHELEKLRRESENSKKTFE   56 (115)
+T ss_dssp             CSHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHH
+Confidence            34455565555555555554433
+
+
+No 15
+>3VEM_C Helicase protein MOM1 (E.C.3.6.4.-); Coiled-coil, hendecad, transcriptional gene silencing; 3.2A {Arabidopsis thaliana}
+Probab=22.74  E-value=3e+02  Score=21.82  Aligned_cols=24  Identities=21%  Similarity=0.185  Sum_probs=14.1  Template_Neff=6.400
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHH
+Q sp|Q96MC5|MERB   50 PEEIELEMAKIQRLREVLVRRESE   73 (204)
+Q Consensus        50 peeielemakiqrlrevlvrrese   73 (204)
+                      .+.+..++-.+......+.+....
+T Consensus        34 ~dPLq~ELeri~k~~e~~~K~he~   57 (115)
+T 3VEM_C           34 NDPFLHELEKLRRESENSKKTFEE   57 (115)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHH
+Confidence            455666666666666665554443
+
+
+No 16
+>6ZSH_A EH domain-binding protein 1; Rab GTPase, EHBP1, bMERB domain; 2.2A {Homo sapiens}
+Probab=21.20  E-value=4.8e+02  Score=18.15  Aligned_cols=51  Identities=22%  Similarity=0.305  Sum_probs=48.3  Template_Neff=9.400
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Q sp|Q96MC5|MERB   49 MPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVA   99 (204)
+Q Consensus        49 mpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlva   99 (204)
+                      .+..++.+||.++++++.+.+++.+|.++..+.++++++..++.+++.++.
+T Consensus        55 ~~~~ll~~w~~lv~~kn~l~r~e~el~~~~~e~~le~~~~~l~~~lr~l~~  105 (106)
+T 6ZSH_A           55 EEEAMMQEWFMLVNKKNALIRRMNQLSLLEKEHDLERRYELLNRELRAMLA  105 (106)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHhHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            567899999999999999999999999999999999999999999999875
+
+
+No 17
+>6ZSH_C EH domain-binding protein 1; Rab GTPase, EHBP1, bMERB domain; 2.2A {Homo sapiens}
+Probab=21.20  E-value=4.8e+02  Score=18.15  Aligned_cols=51  Identities=22%  Similarity=0.305  Sum_probs=41.4  Template_Neff=9.400
+
+Q ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Q sp|Q96MC5|MERB   49 MPEEIELEMAKIQRLREVLVRRESELRFMMDDIQLCKDIMDLKQELQNLVA   99 (204)
+Q Consensus        49 mpeeielemakiqrlrevlvrreselrfmmddiqlckdimdlkqelqnlva   99 (204)
+                      .+..++.+||.++++++.+.+++.+|.++..+.++++++..++.+++.++.
+T Consensus        55 ~~~~ll~~w~~lv~~kn~l~r~e~el~~~~~e~~le~~~~~l~~~lr~l~~  105 (106)
+T 6ZSH_C           55 EEEAMMQEWFMLVNKKNALIRRMNQLSLLEKEHDLERRYELLNRELRAMLA  105 (106)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTC--------
+T ss_pred             HHHHHHHHHHHHHHhHhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            567899999999999999999999999999999999999999999988764
+
+
+No 18
+>4JPS_B Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit; Class I Phosphatidylinositol 3-Kinases, p85; HET: 1LT; 2.2A {Homo sapiens}
+Probab=21.09  E-value=7.3e+02  Score=20.20  Aligned_cols=10  Identities=30%  Similarity=0.418  Sum_probs=3.9  Template_Neff=9.900
+
+Q ss_pred             HHHHHHcCCC
+Q sp|Q96MC5|MERB  120 IHKLVQKRDF  129 (204)
+Q Consensus       120 ihklvqkrdf  129 (204)
+                      +..+...|+.
+T Consensus       270 ~~~l~~~~~~  279 (293)
+T 4JPS_B          270 LIQLRKTRDQ  279 (293)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            3444333433
+
+

@@ -1,0 +1,169 @@
+Query         tr|A0A0G2JR18|A0A0G2JR18_HUMAN
+Match_columns 103
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Thu Dec 14 05:41:32 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/0356.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7D3F_D Dual oxidase 1 (E.C.1.1  96.0   0.018 1.9E-07   50.3   4.1   58   42-101   404-469 (483)
+  2 7DSK_A Sodium-dependent neutra  94.2    0.07 7.6E-07   42.5   2.4   51   51-101    32-82  (647)
+  3 2LQV_A Protein yebF; secretion  30.5      41 0.00045   24.0   0.4   20   33-52     21-40  (105)
+  4 2CCQ_A PEPTIDE N-GLYCANASE HOM  25.9      61 0.00067   20.3   0.6   40   12-51      3-42  (99)
+  5 2HPJ_A PNGase (E.C.3.5.1.52);   24.4      66 0.00072   20.2   0.5   39   13-51      3-41  (99)
+  6 1VR4_A hypothetical protein AP  18.5      73 0.00079   20.0  -0.1   22   10-31     56-77  (103)
+  7 2HPL_A PNGase (E.C.3.5.1.52),   18.4 1.1E+02  0.0011   19.4   0.5   38   14-51      4-41  (100)
+  8 2JZ7_B Selenium binding protei  16.0   1E+02  0.0011   19.3   0.1   21   11-31     32-52  (81)
+  9 6VQX_B CRISPR system single-st  14.8 2.1E+02  0.0023   24.1   1.5   20   83-102   267-288 (434)
+ 10 7JZX_A CRISPR, HYDROLASE-RNA c  14.8 2.1E+02  0.0023   24.1   1.5   20   83-102   267-288 (434)
+
+No 1
+>7D3F_D Dual oxidase 1 (E.C.1.11.1.-,1.6.3.1), Isoform; DUOX, DUOXA, NOX, NADPH, FAD; HET: NAG, HEM, BMA, NDP, FAD, MAN; 2.3A {Homo sapiens}
+Probab=96.00  E-value=0.018  Score=50.35  Aligned_cols=58  Identities=31%  Similarity=0.323  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CCCCCCCCCCCCcchhhcc--------cceeeeeccCCCCCCCcccccccCCCCCCCCCCCCCccccc
+Q tr|A0A0G2JR18|   42 LLQPRTPPYQGTHSVAQAG--------VQWHCYRLLQPLPPGLKCSSHLSLPNTWDHRHAPLHTASFF  101 (103)
+Q Consensus        42 llqprtppyqgthsvaqag--------vqwhcyrllqplppglkcsshlslpntwdhrhaplhtasff  101 (103)
+                      -.+|+.+-..||-....-|        |...|-..  .--|+||+|++|+||..||.|+.|.+.|+-+
+T Consensus       404 ~~~~~~~~~~~t~~~~r~~~~~~~~d~v~~c~pgw--s~tp~l~~s~~l~Lpkcwdyr~~p~~~~~~~  469 (483)
+T 7D3F_D          404 GDSPRPLRGRGTGRLWRWGSKERRACGVRAMLPRL--VSNSGLKRPSCLDLPKCWDYRRDARAFFHLL  469 (483)
+T ss_dssp             --------------------------------------------------------------------
+T ss_pred             CCCCCCcccccceeeeEeCCCcccCCCceecCCCc--CCCCCCCCCCCCCCCcccccCCCCCccHHHc
+Confidence            3456555566666555433        33333222  2258899999999999999999999988643
+
+
+No 2
+>7DSK_A Sodium-dependent neutral amino acid transporter; LAT1-4F2hc, MEMBRANE PROTEIN; HET: HNX, Y01, 3PH, NAG; 2.9A {Homo sapiens}
+Probab=94.24  E-value=0.07  Score=42.47  Aligned_cols=51  Identities=20%  Similarity=-0.024  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCcchhhcccceeeeeccCCCCCCCcccccccCCCCCCCCCCCCCccccc
+Q tr|A0A0G2JR18|   51 QGTHSVAQAGVQWHCYRLLQPLPPGLKCSSHLSLPNTWDHRHAPLHTASFF  101 (103)
+Q Consensus        51 qgthsvaqagvqwhcyrllqplppglkcsshlslpntwdhrhaplhtasff  101 (103)
+                      +..++++++++||.......+.++.++.++.+++|..||.++.+...+.|+
+T Consensus        32 ~~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~l~l~~s~~~~~~~~~~a~~~   82 (647)
+T 7DSK_A           32 QLPGSHSEAGVQGLSAGDDSETGSDCVTQAGLQLLASSDPPALASKNAEVT   82 (647)
+T ss_dssp             ---------------------------------------------------
+T ss_pred             CCCCccccccccCcCCCCCCCCCcceEeeceecCCCCCCCCCcccccEEEE
+Confidence            455689999999987666666777777788889999999999999988763
+
+
+No 3
+>2LQV_A Protein yebF; secretion, PROTEIN TRANSPORT; NMR {Escherichia coli}
+Probab=30.48  E-value=41  Score=24.05  Aligned_cols=20  Identities=30%  Similarity=0.375  Sum_probs=17.2  Template_Neff=5.800
+
+Q ss_pred             HHHHHHHccCCCCCCCCCCC
+Q tr|A0A0G2JR18|   33 LLRHAVKRDLLQPRTPPYQG   52 (103)
+Q Consensus        33 llrhavkrdllqprtppyqg   52 (103)
+                      -...+||+|+||+|.|.+..
+T Consensus        21 qi~~~Vk~D~lqnr~~rW~~   40 (105)
+T 2LQV_A           21 GIAASVKRDYQQNRVARWAD   40 (105)
+T ss_dssp             HHHHHHHHHHHTTTTTSCSS
+T ss_pred             HHHHHHHHHHhccCcccchh
+Confidence            35678999999999998877
+
+
+No 4
+>2CCQ_A PEPTIDE N-GLYCANASE HOMOLOG; GLYCOPROTEIN, GLYCANASE HOMOLOG; HET: GOL; 1.6A {HOMO SAPIENS} SCOP: d.314.1.1
+Probab=25.94  E-value=61  Score=20.27  Aligned_cols=40  Identities=25%  Similarity=0.297  Sum_probs=26.7  Template_Neff=9.100
+
+Q ss_pred             hHHHHHHHhhcCCCCCCcHHHHHHHHHHccCCCCCCCCCC
+Q tr|A0A0G2JR18|   12 ATEALGELRERAPGQGTNGFQLLRHAVKRDLLQPRTPPYQ   51 (103)
+Q Consensus        12 atealgelrerapgqgtngfqllrhavkrdllqprtppyq   51 (103)
+                      ..+++.+|+...+..-..++++|...++.-+-.|..+.|.
+T Consensus         3 ~~~~~~~l~~~~~~~~~~~~~~l~~il~ni~~~P~~~k~R   42 (99)
+T 2CCQ_A            3 ASPAVAELCQNTPETFLEASKLLLTYADNILRNPNDEKYR   42 (99)
+T ss_dssp             TSHHHHHHTSSCHHHHHHHHHHHHHHHHHHHHCTTCGGGG
+T ss_pred             hHHHHHHHHhCCHHHHHHHHHHHHHHHHHHHhCCCCccce
+Confidence            4467777776666665667778877777666566666554
+
+
+No 5
+>2HPJ_A PNGase (E.C.3.5.1.52); PUB domain, Winged helix, HYDROLASE; HET: GOL; 1.7A {Mus musculus}
+Probab=24.45  E-value=66  Score=20.21  Aligned_cols=39  Identities=23%  Similarity=0.280  Sum_probs=26.2  Template_Neff=9.000
+
+Q ss_pred             HHHHHHHhhcCCCCCCcHHHHHHHHHHccCCCCCCCCCC
+Q tr|A0A0G2JR18|   13 TEALGELRERAPGQGTNGFQLLRHAVKRDLLQPRTPPYQ   51 (103)
+Q Consensus        13 tealgelrerapgqgtngfqllrhavkrdllqprtppyq   51 (103)
+                      .+++..|+...|..-..+.++|...++.-+..|..+.|.
+T Consensus         3 ~~~l~~l~~~~~~~~~~~~~~l~~i~~ni~~~P~~~k~r   41 (99)
+T 2HPJ_A            3 SPAVAELCQNTPETFLEASKLLLTYADNILRNPSDEKYR   41 (99)
+T ss_dssp             CHHHHHHTTSCHHHHHHHHHHHHHHHHHHHTCTTCGGGG
+T ss_pred             hHHHHHHHhcCHHHHHHHHHHHHHHHHHHHhCCCCccce
+Confidence            356777776666666667777777776655566666554
+
+
+No 6
+>1VR4_A hypothetical protein APC22750; Structural Genomics, Pentamer, Hypothetical Protein; 2.09A {Bacillus cereus} SCOP: d.230.5.1
+Probab=18.52  E-value=73  Score=19.99  Aligned_cols=22  Identities=27%  Similarity=0.437  Sum_probs=16.5  Template_Neff=9.200
+
+Q ss_pred             cchHHHHHHHhhcCCCCCCcHH
+Q tr|A0A0G2JR18|   10 HSATEALGELRERAPGQGTNGF   31 (103)
+Q Consensus        10 hsatealgelrerapgqgtngf   31 (103)
+                      ..-.+|+.+|++.|...|.|+.
+T Consensus        56 ~~~~~a~~~L~~~A~~~GanaV   77 (103)
+T 1VR4_A           56 EARDIAMDEMKELAKQKGANAI   77 (103)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCSEE
+T ss_pred             HHHHHHHHHHHHHHHHcCCCEE
+Confidence            3456788899988888887753
+
+
+No 7
+>2HPL_A PNGase (E.C.3.5.1.52), C-terminal of mouse; PUB domain, Winged helix, p97; 1.8A {Mus musculus}
+Probab=18.35  E-value=1.1e+02  Score=19.44  Aligned_cols=38  Identities=24%  Similarity=0.274  Sum_probs=23.7  Template_Neff=8.900
+
+Q ss_pred             HHHHHHhhcCCCCCCcHHHHHHHHHHccCCCCCCCCCC
+Q tr|A0A0G2JR18|   14 EALGELRERAPGQGTNGFQLLRHAVKRDLLQPRTPPYQ   51 (103)
+Q Consensus        14 ealgelrerapgqgtngfqllrhavkrdllqprtppyq   51 (103)
+                      +++.+|+...+..-....++|...++.-+-.|..+.|.
+T Consensus         4 ~~~~~l~~~~~~~~~~~~~~l~~il~ni~~~P~~~k~r   41 (100)
+T 2HPL_A            4 PAVAELCQNTPETFLEASKLLLTYADNILRNPSDEKYR   41 (100)
+T ss_dssp             HHHHHHTTSCHHHHHHHHHHHHHHHHHHHHCTTCGGGG
+T ss_pred             HHHHHHHhCCHHHHHHHHHHHHHHHHHHHhCCCCccce
+Confidence            46667776655555567777776666555556655554
+
+
+No 8
+>2JZ7_B Selenium binding protein; selenium, Selenium-Binding Protein; NMR {Methanococcus vannielii}
+Probab=15.97  E-value=1e+02  Score=19.31  Aligned_cols=21  Identities=24%  Similarity=0.485  Sum_probs=17.2  Template_Neff=8.200
+
+Q ss_pred             chHHHHHHHhhcCCCCCCcHH
+Q tr|A0A0G2JR18|   11 SATEALGELRERAPGQGTNGF   31 (103)
+Q Consensus        11 satealgelrerapgqgtngf   31 (103)
+                      +-.+|+.+|+++|...|.|+.
+T Consensus        32 ~~~~a~~~L~~~A~~~GanaV   52 (81)
+T 2JZ7_B           32 NVDEIVENLRKQVKAKGGMGL   52 (81)
+T ss_dssp             CHHHHHHHHHHHHHHTTCCEE
+T ss_pred             CHHHHHHHHHHHHHHcCCCEE
+Confidence            457889999999988888873
+
+
+No 9
+>6VQX_B CRISPR system single-strand-specific deoxyribonuclease Cas10/Csm1; CRISPR, Type I-F, Csy, AcrF6; 3.15A {Pseudomonas aeruginosa}
+Probab=14.83  E-value=2.1e+02  Score=24.09  Aligned_cols=20  Identities=40%  Similarity=0.928  Sum_probs=13.9  Template_Neff=7.600
+
+Q ss_pred             cCCCCCCCCC--CCCCcccccc
+Q tr|A0A0G2JR18|   83 SLPNTWDHRH--APLHTASFFR  102 (103)
+Q Consensus        83 slpntwdhrh--aplhtasffr  102 (103)
+                      |+|.+|..+.  .|++..+||.
+T Consensus       267 s~PP~~~~~~~~~p~~~~s~F~  288 (434)
+T 6VQX_B          267 SLPPNWQRQNVNAPMRHSSVFE  288 (434)
+T ss_dssp             ECCSSBSCCSSCCCCCSSCSST
+T ss_pred             CCCCcccccCCCCCCCccccch
+Confidence            6677787776  6667667763
+
+
+No 10
+>7JZX_A CRISPR, HYDROLASE-RNA complex; 3.4A {Pseudomonas aeruginosa}
+Probab=14.83  E-value=2.1e+02  Score=24.09  Aligned_cols=20  Identities=40%  Similarity=0.928  Sum_probs=13.6  Template_Neff=7.600
+
+Q ss_pred             cCCCCCCCCC--CCCCcccccc
+Q tr|A0A0G2JR18|   83 SLPNTWDHRH--APLHTASFFR  102 (103)
+Q Consensus        83 slpntwdhrh--aplhtasffr  102 (103)
+                      |+|.+|..+.  .|++..+||.
+T Consensus       267 s~PP~~~~~~~~~p~~~~s~F~  288 (434)
+T 7JZX_A          267 SLPPNWQRQNVNAPMRHSSVFE  288 (434)
+T ss_pred             CCCCcccccCCCCCCCccccch
+Confidence            6677787776  6666666663
+
+

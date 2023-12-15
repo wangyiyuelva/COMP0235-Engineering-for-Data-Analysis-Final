@@ -1,0 +1,490 @@
+Query         tr|H0YI27|H0YI27_HUMAN
+Match_columns 124
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 92111
+Date          Fri Dec 15 04:56:01 2023
+Command       /home/ec2-user/data/hhsuite/bin/hhsearch -i tmp/1441.a3m -cpu 2 -d /home/ec2-user/data/pdb70/pdb70 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5GL7_A Methionine--tRNA ligase  98.5 2.1E-07 2.2E-12   72.3   4.1   80    3-82    530-609 (624)
+  2 5GOY_A Methionine--tRNA ligase  98.5 2.1E-07 2.2E-12   72.3   4.1   80    3-82    530-609 (624)
+  3 5URB_B Methionine--tRNA ligase  98.0 3.2E-06 3.4E-11   64.6   1.3   66    3-73    502-567 (567)
+  4 4PY2_A Methionine--tRNA ligase  97.8   1E-05 1.1E-10   60.5   0.2   64    2-66    472-535 (536)
+  5 5K0S_C Methionine--tRNA ligase  97.8   1E-05 1.1E-10   60.5   0.2   64    2-66    472-535 (536)
+  6 3KFL_A Methionyl-tRNA syntheta  97.7 1.6E-05 1.7E-10   61.3   0.5   71    3-73    490-563 (564)
+  7 6SWX_A Putative methionyl-tRNA  97.7 1.6E-05 1.7E-10   61.3   0.5   71    3-73    490-563 (564)
+  8 3H9C_A Methionyl-tRNA syntheta  97.6  0.0001 1.1E-09   55.9   2.8   65    2-72    482-546 (547)
+  9 6WQ6_A Substrate, Complex, tRN  97.0 0.00057 6.2E-09   54.4   1.2   66    3-73    499-564 (711)
+ 10 6WQI_B Ligand-free, apo, tRNA,  97.0 0.00057 6.2E-09   54.4   1.2   66    3-73    499-564 (711)
+ 11 6SPN_A Methionine--tRNA ligase  97.0  0.0011 1.1E-08   51.4   2.6   65    2-72    503-567 (568)
+ 12 6SPO_A Methionine--tRNA ligase  97.0  0.0011 1.1E-08   51.4   2.6   65    2-72    503-567 (568)
+ 13 6WQS_A Bederocin, Citrus canke  97.0 0.00097   1E-08   51.8   2.2   71    3-78    503-573 (584)
+ 14 6WQT_A CRS3123, Citrus canker,  97.0 0.00097   1E-08   51.8   2.2   71    3-78    503-573 (584)
+ 15 6AX8_A Tyrosyl-tRNA synthetase  96.8 0.00057 6.1E-09   51.4  -0.4   64    2-67    454-517 (519)
+ 16 5XGQ_B Methionine-tRNA ligase   96.5  0.0011 1.1E-08   50.8  -0.4   66    2-69    462-527 (535)
+ 17 1RQG_A Methionyl-tRNA syntheta  96.4  0.0071 7.7E-08   48.5   3.7   61    2-68    495-556 (722)
+ 18 4EG7_B Methionyl-tRNA syntheta  96.1   0.002 2.2E-08   49.0  -0.7   65    3-67    474-541 (542)
+ 19 4MW0_A Methionyl-tRNA syntheta  96.1   0.002 2.2E-08   49.0  -0.7   65    3-67    474-541 (542)
+ 20 4MWB_A Methionyl-tRNA syntheta  96.1   0.002 2.2E-08   49.0  -0.7   65    3-67    474-541 (542)
+ 21 4QRD_A Methionyl-tRNA syntheta  94.8   0.022 2.4E-07   43.6   0.9   56    3-58    490-547 (547)
+ 22 4QRE_A Methionyl-tRNA syntheta  94.8   0.022 2.4E-07   43.6   0.9   56    3-58    490-547 (547)
+ 23 1WOY_A Ligase, Metal-binding,   93.2   0.047 5.1E-07   41.1  -0.2   56    3-60    444-500 (500)
+ 24 2D5B_A Rossmann fold, class 1a  93.2   0.047 5.1E-07   41.1  -0.2   56    3-60    444-500 (500)
+ 25 2CT8_A Methionyl-tRNA syntheta  76.8     1.9 2.1E-05   32.5   0.4   54    3-61    443-496 (497)
+ 26 1A8H_A METHIONYL-TRNA SYNTHETA  73.4     1.9   2E-05   33.0  -0.3   56    3-60    444-500 (500)
+ 27 3ZIU_A LEUCYL-TRNA SYNTHETASE   57.5      25 0.00027   28.6   3.0   65    3-68    532-606 (637)
+ 28 3ZIU_B LEUCYL-TRNA SYNTHETASE   57.5      25 0.00027   28.6   3.0   69    3-72    532-610 (637)
+ 29 4B2Q_V ATP SYNTHASE SUBUNIT AL  28.2 1.4E+02  0.0015   19.7   2.6   19   57-75     32-50  (66)
+ 30 2CLY_F ATP SYNTHASE B CHAIN, M  26.8 1.5E+02  0.0017   20.4   2.6   19   57-75     36-54  (77)
+
+No 1
+>5GL7_A Methionine--tRNA ligase, cytoplasmic (E.C.6.1.1.10); MSC, MetRS, LIGASE; HET: GOL; 2.013A {Homo sapiens}
+Probab=98.52  E-value=2.1e-07  Score=72.29  Aligned_cols=80  Identities=93%  Similarity=1.352  Sum_probs=62.3  Template_Neff=10.400
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHCCCcccccec
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQVRKLKA   82 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfgggqvrklka   82 (124)
+                      +++.++.+++||||..+++||++||.+++.+.+.+..+++.+++|+++++++++|+|++++++++++++++++++|+++.
+T Consensus       530 ~l~~l~~ll~P~~P~~ae~i~~~Lg~~~~~~~~~~~~~~~~~~~~~~~~~~~~lf~~~~~~~~~~~~~~~~~~~~~~~~~  609 (624)
+T 5GL7_A          530 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQAKTSPK  609 (624)
+T ss_dssp             HHHHHHHHTTTTCHHHHHHHHHHHTCCHHHHSCCCSSCCCCSCTTCBCCCCCCCCCCCCHHHHHHHHHHTTSSCC-----
+T ss_pred             HHHHHHHHHcccChHHHHHHHHHcCCCCchhhhhhhhhcccCCCCCcccCCCCCccCCCHHHHHHHHHHhCCCCCCCCCC
+Confidence            56789999999999999999999998642222222333456678999999999999999999999999999999977664
+
+
+No 2
+>5GOY_A Methionine--tRNA ligase, cytoplasmic (E.C.6.1.1.10); MSC, MetRS, LIGASE; 2.278A {Homo sapiens}
+Probab=98.52  E-value=2.1e-07  Score=72.29  Aligned_cols=80  Identities=93%  Similarity=1.352  Sum_probs=63.1  Template_Neff=10.400
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHCCCcccccec
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQVRKLKA   82 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfgggqvrklka   82 (124)
+                      +++.++.+++||||..+++||++||.+++.+.+.+..+++.+++|+++++++++|+|++++++++++++++++++|+++.
+T Consensus       530 ~l~~l~~ll~P~~P~~ae~i~~~Lg~~~~~~~~~~~~~~~~~~~~~~~~~~~~lf~~~~~~~~~~~~~~~~~~~~~~~~~  609 (624)
+T 5GOY_A          530 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQAKTSPK  609 (624)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHHTCCHHHHSCCCSSCCCCSCTTCBCCCCCCCCCCCCHHHHHHHHHHSSSTTCC----
+T ss_pred             HHHHHHHHHcccChHHHHHHHHHcCCCCchhhhhhhhhcccCCCCCcccCCCCCccCCCHHHHHHHHHHhCCCCCCCCCC
+Confidence            56789999999999999999999998642222222333456678999999999999999999999999999999977664
+
+
+No 3
+>5URB_B Methionine--tRNA ligase (E.C.6.1.1.10); SSGCID, MetRS, amino acid tRNA; HET: MET, NO3, EDO; 1.9A {Acinetobacter baumannii}
+Probab=98.05  E-value=3.2e-06  Score=64.60  Aligned_cols=66  Identities=21%  Similarity=0.365  Sum_probs=54.1  Template_Neff=10.600
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHC
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFG   73 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfg   73 (124)
+                      +++.++.+++||||..+++||+.||.++..|    ... ..+..|+++.++++||+|++++++++++++++
+T Consensus       502 ~l~~~~~ll~P~~P~~~e~i~~~L~~~~~~~----~~~-~~~~~~~~~~~~~~lf~~~~~~~~~~~~~~~~  567 (567)
+T 5URB_B          502 LFRQLAVYLAPVLPTLAQQVQDFLKLESFDF----ESR-KQILVSHEIAQFQPLMQRVDPKAVAAMVDASK  567 (567)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHHTCSCCST----GGG-GSCCCSCBCCCCCCCCCCCCHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHcccCcHHHHHHHHHhCCCCCCH----HHH-HHHhcCCccCCCCCCCCCCCHHHHHHHHHhcC
+Confidence            5788999999999999999999999865333    222 23346889999999999999999999988753
+
+
+No 4
+>4PY2_A Methionine--tRNA ligase (E.C.6.1.1.10); Structural Genomics, NIAID, National Institute; HET: 43E, EDO; 2.15A {Brucella melitensis}
+Probab=97.79  E-value=1e-05  Score=60.47  Aligned_cols=64  Identities=16%  Similarity=0.391  Sum_probs=44.9  Template_Neff=11.000
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIE   66 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqie   66 (124)
+                      .+++.++.+++|+||..+++||+.||.+.....+. ......++.|+++.++++||+|+++++.+
+T Consensus       472 ~~l~~l~~ll~P~~P~~~e~i~~~l~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  535 (536)
+T 4PY2_A          472 EVLRRVGIMVQPFIPQSAEKLLDILAVPADKRQFA-DVLASPLAGGTDLPAPQPVFPRYVEADEQ  535 (536)
+T ss_dssp             HHHHHHHHHHTTTSHHHHHHHHHHTTCCTTSCSTH-HHHHCCCCTTCBCCCCCCSSCCC------
+T ss_pred             HHHHHHHHHhcCCCcHHHHHHHHHhCCChhhhcHH-HHhcccCCCCCCCCCCCCCCCCCCchhhc
+Confidence            35778899999999999999999999865321111 11134567899999999999999987654
+
+
+No 5
+>5K0S_C Methionine--tRNA ligase (E.C.6.1.1.10); SSGCID, MetRS, methionyl-tRNA synthetase, protein; HET: 0OU; 2.45A {Brucella suis biovar 1 (strain 1330)}
+Probab=97.79  E-value=1e-05  Score=60.47  Aligned_cols=64  Identities=16%  Similarity=0.391  Sum_probs=46.7  Template_Neff=11.000
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIE   66 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqie   66 (124)
+                      .+++.++.+++|+||..+++||+.||.+.....+. ......++.|+++.++++||+|+++++.+
+T Consensus       472 ~~l~~l~~ll~P~~P~~~e~i~~~l~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  535 (536)
+T 5K0S_C          472 EVLRRVGIMVQPFIPQSAEKLLDILAVPADKRQFA-DVLASPLAGGTDLPAPQPVFPRYVEADEQ  535 (536)
+T ss_dssp             HHHHHHHHHHTTTSHHHHHHHHHHTTCCTTSCSTH-HHHHCCCCTTCBCCCCCCSSCCCCC----
+T ss_pred             HHHHHHHHHhcCCCcHHHHHHHHHhCCChhhhcHH-HHhcccCCCCCCCCCCCCCCCCCCchhhc
+Confidence            35778899999999999999999999865321111 11134567899999999999999987654
+
+
+No 6
+>3KFL_A Methionyl-tRNA synthetase (E.C.6.1.1.10); Leishmania, parasite, aminoacyl-tRNA synthetase, tRNA; HET: FMT, ME8, EDO; 2.0A {Leishmania major}
+Probab=97.74  E-value=1.6e-05  Score=61.30  Aligned_cols=71  Identities=24%  Similarity=0.286  Sum_probs=45.9  Template_Neff=10.400
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec---cchhhhhccHHHHHHHHHHHC
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT---VSPLFQKLENDQIESLRQRFG   73 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt---vsplfqklendqieslrqrfg   73 (124)
+                      +++.++.+++||||+.+++||++||.+......+....+..++.|+++++   ++++|+|++.+++++++++.+
+T Consensus       490 ~l~~~~~ll~P~~P~~~~~i~~~lg~~~~~~~~~~~~~~~~~~~g~~i~~~~~~~~lf~ki~~~~~~~~~~~~~  563 (564)
+T 3KFL_A          490 GLRICTMFLQPVMPQKAKEIMDALGVPEAARVGMENYLFGIVKPGTKIAGLAEGQVVFQKVTLPTEEGERSSKG  563 (564)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHHTCCGGGSSSGGGSSSCCSCTTCBCCCCCTTCCSSCCCCCC----------
+T ss_pred             HHHHHHHHhcCcCcHHHHHHHHHhCCCHHHccchHhhccCCCCCCCcccCCCCCCCCCccCCCcchhhhhhhcC
+Confidence            57889999999999999999999998632111011111234567888887   899999999988888777654
+
+
+No 7
+>6SWX_A Putative methionyl-tRNA synthetase (E.C.6.1.1.10); LEISHMANIA, PARASITE, AMINOACYL-TRNA SYNTHETASE, TRNA; HET: LWN; 1.95A {Leishmania major}
+Probab=97.74  E-value=1.6e-05  Score=61.30  Aligned_cols=71  Identities=24%  Similarity=0.286  Sum_probs=45.9  Template_Neff=10.400
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec---cchhhhhccHHHHHHHHHHHC
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT---VSPLFQKLENDQIESLRQRFG   73 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt---vsplfqklendqieslrqrfg   73 (124)
+                      +++.++.+++||||+.+++||++||.+......+....+..++.|+++++   ++++|+|++.+++++++++.+
+T Consensus       490 ~l~~~~~ll~P~~P~~~~~i~~~lg~~~~~~~~~~~~~~~~~~~g~~i~~~~~~~~lf~ki~~~~~~~~~~~~~  563 (564)
+T 6SWX_A          490 GLRICTMFLQPVMPQKAKEIMDALGVPEAARVGMENYLFGIVKPGTKIAGLAEGQVVFQKVTLPTEEGERSSKG  563 (564)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHHTCCGGGSSSGGGSSSCCSCTTCBCCCCCTTCCSSCCCCCC----------
+T ss_pred             HHHHHHHHhcCcCcHHHHHHHHHhCCCHHHccchHhhccCCCCCCCcccCCCCCCCCCccCCCcchhhhhhhcC
+Confidence            57889999999999999999999998632111011111234567888887   899999999988888777654
+
+
+No 8
+>3H9C_A Methionyl-tRNA synthetase (E.C.6.1.1.10); Rossmann fold, Aminoacyl-tRNA synthetase, ATP-binding; HET: CIT; 1.4A {Escherichia coli}
+Probab=97.58  E-value=0.0001  Score=55.88  Aligned_cols=65  Identities=20%  Similarity=0.375  Sum_probs=52.1  Template_Neff=10.800
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRF   72 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrf   72 (124)
+                      ++++.++.+++|+||..+++||++||.+ ..|    ...... ..|++++++++||+|++.+++++++++.
+T Consensus       482 ~~l~~~~~lL~P~~P~~ae~i~~~l~~~-~~~----~~~~~~-~~~~~~~~~~~lf~~~~~~~~~~~~~~~  546 (547)
+T 3H9C_A          482 NLFRVLMTYLKPVLPKLTERAEAFLNTE-LTW----DGIQQP-LLGHKVNPFKALYNRIDMRQVEALVEAS  546 (547)
+T ss_dssp             HHHHHHHHHTTTTCHHHHHHHHHHHTSC-CCT----GGGGSC-CCSCBCCCCSCSCCCCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCcCChHHHHHHHHhCCC-CCh----hhcccc-cCCcccCCCCcCccCCCHHHHHHHHHhc
+Confidence            3578899999999999999999999976 223    222122 3689999999999999999998887764
+
+
+No 9
+>6WQ6_A Substrate, Complex, tRNA, aminoacylation, LIGASE; 1.7A {Xanthomonas citri}
+Probab=97.00  E-value=0.00057  Score=54.38  Aligned_cols=66  Identities=20%  Similarity=0.352  Sum_probs=51.3  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHC
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFG   73 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfg   73 (124)
+                      +++.++.+++||||..+++||++||.+...|    ... .....|+++++++++|+|++.++++++.++..
+T Consensus       499 ~l~~~~~ll~P~~P~~s~~i~~~Lg~~~~~~----~~~-~~~~~~~~~~~~~~lf~~i~~~~~~~~~~~~~  564 (711)
+T 6WQ6_A          499 LFRILVAALKPILPRTCAEAEAFLSAPMTSW----EDV-IGPLTAHTIQPYTALFTRIDPKLIDAMTDASK  564 (711)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHTTCCCSSG----GGG-SSCCCSCBCCCCCCSSCCCCHHHHHHHHHHTC
+T ss_pred             HHHHHHHHHCCCChhHHHHHHHHcCCCCCCH----HHh-hccccCCccCCccccccCCCHHHHHHcccccc
+Confidence            6789999999999999999999999864222    211 12235788888899999999998887766554
+
+
+No 10
+>6WQI_B Ligand-free, apo, tRNA, aminoacylation, LIGASE; 2.0A {Xanthomonas citri}
+Probab=97.00  E-value=0.00057  Score=54.38  Aligned_cols=66  Identities=20%  Similarity=0.352  Sum_probs=51.3  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHC
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFG   73 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfg   73 (124)
+                      +++.++.+++||||..+++||++||.+...|    ... .....|+++++++++|+|++.++++++.++..
+T Consensus       499 ~l~~~~~ll~P~~P~~s~~i~~~Lg~~~~~~----~~~-~~~~~~~~~~~~~~lf~~i~~~~~~~~~~~~~  564 (711)
+T 6WQI_B          499 LFRILVAALKPILPRTCAEAEAFLSAPMTSW----EDV-IGPLTAHTIQPYTALFTRIDPKLIDAMTDASK  564 (711)
+T ss_dssp             HHHHHHHHTTTTCHHHHHHHHHHTTCCCSSG----GGG-SSCCCSCBCCCCCCSSCCCCHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHCCCChhHHHHHHHHcCCCCCCH----HHh-hccccCCccCCccccccCCCHHHHHHcccccc
+Confidence            6789999999999999999999999864222    211 12235788888899999999998887766554
+
+
+No 11
+>6SPN_A Methionine--tRNA ligase (E.C.6.1.1.10); tRNA aminoacylation, TRANSLATION; HET: B3M, GOL, CIT; 1.45A {Escherichia coli}
+Probab=97.00  E-value=0.0011  Score=51.43  Aligned_cols=65  Identities=20%  Similarity=0.371  Sum_probs=51.5  Template_Neff=10.500
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRF   72 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrf   72 (124)
+                      ++++.++.+++||||..+++||++||.+. .|    ... .....|+++.+++++|+|++++.++++.++.
+T Consensus       503 ~~l~~~~~lL~P~~P~~ae~l~~~L~~~~-~~----~~~-~~~~~~~~~~~~~~lf~~~~~~~~~~~~~~~  567 (568)
+T 6SPN_A          503 NLFRVLMTYLKPVLPKLTERAEAFLNTEL-TW----DGI-QQPLLGHKVNPFKALYNRIDMRQVEALVEAS  567 (568)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHHTSCC-CT----GGG-GSCCCSCBCCCCSCSSCCCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCcHHHHHHHHHhCCCC-Ch----hhc-ccccCCCccCCCccCcCCCCHHHHHHHHHhc
+Confidence            35788999999999999999999999862 22    221 1223578888999999999999998887764
+
+
+No 12
+>6SPO_A Methionine--tRNA ligase (E.C.6.1.1.10); tRNA aminoacylation, TRANSLATION; HET: GOL, MET, CIT; 1.2A {Escherichia coli}
+Probab=97.00  E-value=0.0011  Score=51.43  Aligned_cols=65  Identities=20%  Similarity=0.371  Sum_probs=51.5  Template_Neff=10.500
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRF   72 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrf   72 (124)
+                      ++++.++.+++||||..+++||++||.+. .|    ... .....|+++.+++++|+|++++.++++.++.
+T Consensus       503 ~~l~~~~~lL~P~~P~~ae~l~~~L~~~~-~~----~~~-~~~~~~~~~~~~~~lf~~~~~~~~~~~~~~~  567 (568)
+T 6SPO_A          503 NLFRVLMTYLKPVLPKLTERAEAFLNTEL-TW----DGI-QQPLLGHKVNPFKALYNRIDMRQVEALVEAS  567 (568)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHHTSCC-CT----GGG-GSCCCSCBCCCCSCSSCCCCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHcCCCcHHHHHHHHHhCCCC-Ch----hhc-ccccCCCccCCCccCcCCCCHHHHHHHHHhc
+Confidence            35788999999999999999999999862 22    221 1223578888999999999999998887764
+
+
+No 13
+>6WQS_A Bederocin, Citrus canker, tRNA, aminoacylation; HET: U7S; 2.0A {Xanthomonas citri}
+Probab=96.96  E-value=0.00097  Score=51.81  Aligned_cols=71  Identities=18%  Similarity=0.338  Sum_probs=52.8  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHCCCccc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQVR   78 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfgggqvr   78 (124)
+                      +++.++.+++||||+.+++||++||.+...|    ...... ..|+++++++++|+|++.+.+++..++..+...+
+T Consensus       503 ~l~~~~~ll~P~~P~~ae~i~~~Lg~~~~~~----~~~~~~-~~~~~~~~~~~lf~ri~~~~~~~~~~~~~~~~~~  573 (584)
+T 6WQS_A          503 LFRILVAALKPILPRTCAEAEAFLSAPMTSW----EDVIGP-LTAHTIQPYTALFTRIDPKLIDAMTDASKDTLAA  573 (584)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHTTCCCSSG----GGGSSC-CCSCBCCCCCCSCCCCCHHHHHHHHHHHC-----
+T ss_pred             HHHHHHHHHCCCChhHHHHHHHHcCCCCCCh----hHhccc-cCCCcCCCCCCCCcCCCHHHHHHhhHHhHhhcCC
+Confidence            6888999999999999999999999864222    221122 2578888888999999999999888887765553
+
+
+No 14
+>6WQT_A CRS3123, Citrus canker, tRNA, aminoacylation; HET: U81; 1.65A {Xanthomonas citri}
+Probab=96.96  E-value=0.00097  Score=51.81  Aligned_cols=71  Identities=18%  Similarity=0.338  Sum_probs=52.7  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHHHHHCCCccc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLRQRFGGGQVR   78 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslrqrfgggqvr   78 (124)
+                      +++.++.+++||||+.+++||++||.+...|    ...... ..|+++++++++|+|++.+.+++..++..+...+
+T Consensus       503 ~l~~~~~ll~P~~P~~ae~i~~~Lg~~~~~~----~~~~~~-~~~~~~~~~~~lf~ri~~~~~~~~~~~~~~~~~~  573 (584)
+T 6WQT_A          503 LFRILVAALKPILPRTCAEAEAFLSAPMTSW----EDVIGP-LTAHTIQPYTALFTRIDPKLIDAMTDASKDTLAA  573 (584)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHTTCCCSSG----GGGSSC-CCSCBCCCCCCSCCCCCHHHHHHHHHHTC-----
+T ss_pred             HHHHHHHHHCCCChhHHHHHHHHcCCCCCCh----hHhccc-cCCCcCCCCCCCCcCCCHHHHHHhhHHhHhhcCC
+Confidence            6888999999999999999999999864222    221122 2578888888999999999998888877765553
+
+
+No 15
+>6AX8_A Tyrosyl-tRNA synthetase, putative, Immunoglobulin heavy; synthetase, ligase, Ligase-aminoacyl adenylate complex; HET: ME8; 2.6A {Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)}
+Probab=96.76  E-value=0.00057  Score=51.44  Aligned_cols=64  Identities=19%  Similarity=0.324  Sum_probs=43.0  Template_Neff=10.900
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIES   67 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqies   67 (124)
+                      .+++.++.+++|+||..+++||+.||..+....+  ......++.|+++..+.++|+||+++.+++
+T Consensus       454 ~~l~~~~~ll~P~~P~~ae~i~~~L~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  517 (519)
+T 6AX8_A          454 EVVRIAALLIQPVMPESAGKILDLLGQAPNQRSF--AAVGVRLTPGTALPPPTGVFPRYQPPQPPE  517 (519)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHTTCCTTSCST--TGGGSCCCTTCBCCCCCCSCCC--------
+T ss_pred             HHHHHHHHHhCCcCChHHHHHHHHhCCCcccccH--HHhcccCCCCccCCCCCCCCCCCCCCCCCC
+Confidence            3567889999999999999999999975432211  222245567899999999999999887654
+
+
+No 16
+>5XGQ_B Methionine-tRNA ligase (E.C.6.1.1.10); Methionyl-tRNA Synthetase, Protein translation, Mycobacterium; 1.899A {Mycobacterium tuberculosis (strain ATCC 25177 / H37Ra)}
+Probab=96.52  E-value=0.0011  Score=50.83  Aligned_cols=66  Identities=18%  Similarity=0.311  Sum_probs=46.6  Template_Neff=10.600
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhccHHHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESLR   69 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqklendqieslr   69 (124)
+                      .+++.++.+++||||+.+++||+.||.+.....  +......++.|+++.+++++|+|++++.+.+.+
+T Consensus       462 ~~l~~~~~ll~P~~P~~ae~l~~~l~~~~~~~~--~~~~~~~~~~g~~~~~~~~~f~k~~~~~~~~~~  527 (535)
+T 5XGQ_B          462 EVVRIAALLIQPVMPESAGKILDLLGQAPNQRS--FAAVGVRLTPGTALPPPTGVFPRYQPPQPPEGK  527 (535)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHTTCCGGGCS--GGGTTSCCCTTCBCCCCCCCSCCCCCC------
+T ss_pred             HHHHHHHHHhCCCCChHHHHHHHHhCCCccccc--HHHhcccCCCCccCCCCCCCCCCCCCCCCCCCC
+Confidence            356788899999999999999999997542211  122234457899999999999999988776554
+
+
+No 17
+>1RQG_A Methionyl-tRNA synthetase (E.C.6.1.1.10); translation, dimerization, LIGASE; 2.9A {Pyrococcus abyssi} SCOP: g.41.1.1, a.27.1.1, c.26.1.1
+Probab=96.44  E-value=0.0071  Score=48.49  Aligned_cols=61  Identities=33%  Similarity=0.524  Sum_probs=47.3  Template_Neff=10.500
+
+Q ss_pred             ChhhhhhhhcCCCCCccchhhhhhcCCCCC-cceeeeeeeeecCCCCCceeccchhhhhccHHHHHHH
+Q tr|H0YI27|H0YI    2 NIAALLSVMLQPYMPTVSATIQAQLQLPPP-ACSILLTNFLCTLPAGHQIGTVSPLFQKLENDQIESL   68 (124)
+Q Consensus         2 niaallsvmlqpymptvsatiqaqlqlppp-acsilltnflctlpaghqigtvsplfqklendqiesl   68 (124)
+                      .+++.++.+++||||+.+++||++||.+.. .|    ...  .+..|+++..++++|+|+++++++++
+T Consensus       495 ~~l~~~~~ll~P~~P~~ae~l~~~Lg~~~~~~w----~~~--~~~~~~~~~~~~~lf~~i~~~~~~~~  556 (722)
+T 1RQG_A          495 QIVKALGILLEPFLPDASEKIWHLLNLDEVKRW----EFR--ELPAGHKVRKPEILFKKVTDDQIIYF  556 (722)
+T ss_dssp             HHHHHHHHHHTTTCHHHHHHHHHHTTCCSCCCS----SCC--CCCTTCBCCCCCCSCCCCCHHHHHHH
+T ss_pred             HHHHHHHHHHcccCCHHHHHHHHHCCCCccccc----hhc--CCCCCCccCCCCcCccCCCHHHHHHH
+Confidence            367899999999999999999999997541 12    221  23458888888999999998766554
+
+
+No 18
+>4EG7_B Methionyl-tRNA synthetase, putative (E.C.6.1.1.10); aminoacyl-tRNA synthetase, aaRS, MetRS, parasite; HET: DMS, GOL, 0P4, CAS; 2.747A {Trypanosoma brucei brucei}
+Probab=96.14  E-value=0.002  Score=49.04  Aligned_cols=65  Identities=22%  Similarity=0.317  Sum_probs=45.6  Template_Neff=10.800
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec---cchhhhhccHHHHHH
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT---VSPLFQKLENDQIES   67 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt---vsplfqklendqies   67 (124)
+                      +++.++.+++|+||..+++||+.||.+......+....+..+.+|+++.+   +++||+||+++++++
+T Consensus       474 ~l~~~~~ll~P~~P~~se~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~  541 (542)
+T 4EG7_B          474 GVRVTTLLLSPILPRKSVVIFDMLGVPEVHRKGIENFEFGAVPPGTRLGPAVEGEVLFSKRSTENTKS  541 (542)
+T ss_dssp             HHHHHHHHHTTTSTTHHHHHHHHHTCCGGGSSSGGGGSTTCSCTTCBCCCCCTTCCSSCCCCC-----
+T ss_pred             HHHHHHHHHCCcChHHHHHHHHHhCCCHHHccchhhcccCCCCCCCcCCCccCCCCCccCCCccccCC
+Confidence            56788999999999999999999998643222111222234677898988   999999999887643
+
+
+No 19
+>4MW0_A Methionyl-tRNA synthetase (E.C.6.1.1.10); aminoacyl-tRNA synthetase, aaRS, MetRS, parasite; HET: GOL, 392, CAS; 2.201A {Trypanosoma brucei}
+Probab=96.14  E-value=0.002  Score=49.04  Aligned_cols=65  Identities=22%  Similarity=0.317  Sum_probs=46.5  Template_Neff=10.800
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec---cchhhhhccHHHHHH
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT---VSPLFQKLENDQIES   67 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt---vsplfqklendqies   67 (124)
+                      +++.++.+++|+||..+++||+.||.+......+....+..+.+|+++.+   +++||+||+++++++
+T Consensus       474 ~l~~~~~ll~P~~P~~se~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~  541 (542)
+T 4MW0_A          474 GVRVTTLLLSPILPRKSVVIFDMLGVPEVHRKGIENFEFGAVPPGTRLGPAVEGEVLFSKRSTENTKS  541 (542)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHHTCCGGGGSSGGGGSTTCSCTTCBCCCCCTTCCSSCCCCCC----
+T ss_pred             HHHHHHHHHCCcChHHHHHHHHHhCCCHHHccchhhcccCCCCCCCcCCCccCCCCCccCCCccccCC
+Confidence            56788999999999999999999998643322111222234677898988   999999999887643
+
+
+No 20
+>4MWB_A Methionyl-tRNA synthetase (E.C.6.1.1.10); aminoacyl-tRNA synthetase, aaRS, MetRS, parasite; HET: DMS, GOL, 2EK, CAS; 2.313A {Trypanosoma brucei}
+Probab=96.14  E-value=0.002  Score=49.04  Aligned_cols=65  Identities=22%  Similarity=0.317  Sum_probs=46.5  Template_Neff=10.800
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec---cchhhhhccHHHHHH
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT---VSPLFQKLENDQIES   67 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt---vsplfqklendqies   67 (124)
+                      +++.++.+++|+||..+++||+.||.+......+....+..+.+|+++.+   +++||+||+++++++
+T Consensus       474 ~l~~~~~ll~P~~P~~se~l~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~~~  541 (542)
+T 4MWB_A          474 GVRVTTLLLSPILPRKSVVIFDMLGVPEVHRKGIENFEFGAVPPGTRLGPAVEGEVLFSKRSTENTKS  541 (542)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHHTCCGGGGSSGGGGSTTCSCTTCBCCCCCTTCCSSCCCCCC----
+T ss_pred             HHHHHHHHHCCcChHHHHHHHHHhCCCHHHccchhhcccCCCCCCCcCCCccCCCCCccCCCccccCC
+Confidence            56788999999999999999999998643322111222234677898988   999999999887643
+
+
+No 21
+>4QRD_A Methionyl-tRNA synthetase (E.C.6.1.1.10); protein synthesis, aminoacyl-tRNA synthetase, aminoacylation; HET: 3BJ; 1.97A {Staphylococcus aureus}
+Probab=94.83  E-value=0.022  Score=43.62  Aligned_cols=56  Identities=20%  Similarity=0.313  Sum_probs=37.9  Template_Neff=10.800
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcce-eeeeeeeecCCCCCc-eeccchhhh
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACS-ILLTNFLCTLPAGHQ-IGTVSPLFQ   58 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacs-illtnflctlpaghq-igtvsplfq   58 (124)
+                      +++.++.+++||||+.+++||..||.+..... +........+.+|++ ++.+++||+
+T Consensus       490 ~~~~~~~ll~P~~P~~ae~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  547 (547)
+T 4QRD_A          490 NIRYAAVLLRPFLTHAPKEIFEQLNINNPQFMEFSSLEQYGVLTESIMVTGQPKPIFP  547 (547)
+T ss_dssp             HHHHHHHHHTTTCSSHHHHHHHHHTCCCGGGGSGGGGSSSCCCCSCEECCSSCCCSCC
+T ss_pred             HHHHHHHHHcCcCCchHHHHHHHcCCCCchhcchhHHhhhCCCCCCccccCCCCCCCC
+Confidence            45667899999999999999999997532111 111111234566876 788888884
+
+
+No 22
+>4QRE_A Methionyl-tRNA synthetase (E.C.6.1.1.10); protein synthesis, aminoacyl-tRNA synthetase, aminoacylation; HET: ATP, 3BG; 1.7A {Staphylococcus aureus}
+Probab=94.83  E-value=0.022  Score=43.62  Aligned_cols=56  Identities=20%  Similarity=0.313  Sum_probs=37.9  Template_Neff=10.800
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcce-eeeeeeeecCCCCCc-eeccchhhh
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACS-ILLTNFLCTLPAGHQ-IGTVSPLFQ   58 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacs-illtnflctlpaghq-igtvsplfq   58 (124)
+                      +++.++.+++||||+.+++||..||.+..... +........+.+|++ ++.+++||+
+T Consensus       490 ~~~~~~~ll~P~~P~~ae~l~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  547 (547)
+T 4QRE_A          490 NIRYAAVLLRPFLTHAPKEIFEQLNINNPQFMEFSSLEQYGVLTESIMVTGQPKPIFP  547 (547)
+T ss_dssp             HHHHHHHHHTTTCSSHHHHHHHHHTCCCGGGGSGGGGSSSCCCCSCEECCSSCCCCCC
+T ss_pred             HHHHHHHHHcCcCCchHHHHHHHcCCCCchhcchhHHhhhCCCCCCccccCCCCCCCC
+Confidence            45667899999999999999999997532111 111111234566876 788888884
+
+
+No 23
+>1WOY_A Ligase, Metal-binding, class 1a aminoacyl-tRNA; 2.0A {Thermus thermophilus} SCOP: a.27.1.1, c.26.1.1
+Probab=93.19  E-value=0.047  Score=41.10  Aligned_cols=56  Identities=23%  Similarity=0.249  Sum_probs=39.3  Template_Neff=11.000
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec-cchhhhhc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT-VSPLFQKL   60 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt-vsplfqkl   60 (124)
+                      +++.++.+++|+||+.+++||+.||.+... .+.....+. +..++++.+ +.++|+|+
+T Consensus       444 ~l~~~~~ll~P~~P~~~e~i~~~l~~~~~~-~~~~~~~~~-~~~~~~~~~~~~~~~~~~  500 (500)
+T 1WOY_A          444 GLRIASILLTPAMPDKMAELRRALGLKEEV-RLEEAERWG-LAEPRPIPEEAPVLFPKK  500 (500)
+T ss_dssp             HHHHHHHHTTTTSHHHHHHHHHHTTCCSSC-CGGGGGSSC-CSCSCBCCSCCCCSSCCC
+T ss_pred             HHHHHHHHhCCCCcHHHHHHHHHcCCCccc-CHHHHHHhC-CCCCCCCCCCCCCCCCCC
+Confidence            467788999999999999999999975421 110111123 456677777 78899885
+
+
+No 24
+>2D5B_A Rossmann fold, class 1a aars; 1.8A {Thermus thermophilus} SCOP: a.27.1.1, c.26.1.1
+Probab=93.19  E-value=0.047  Score=41.10  Aligned_cols=56  Identities=23%  Similarity=0.249  Sum_probs=39.2  Template_Neff=11.000
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec-cchhhhhc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT-VSPLFQKL   60 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt-vsplfqkl   60 (124)
+                      +++.++.+++|+||+.+++||+.||.+... .+.....+. +..++++.+ +.++|+|+
+T Consensus       444 ~l~~~~~ll~P~~P~~~e~i~~~l~~~~~~-~~~~~~~~~-~~~~~~~~~~~~~~~~~~  500 (500)
+T 2D5B_A          444 GLRIASILLTPAMPDKMAELRRALGLKEEV-RLEEAERWG-LAEPRPIPEEAPVLFPKK  500 (500)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHTTCCSSC-CGGGGGSSC-CSCCCBCCSCCCCSSCCC
+T ss_pred             HHHHHHHHhCCCCcHHHHHHHHHcCCCccc-CHHHHHHhC-CCCCCCCCCCCCCCCCCC
+Confidence            467788999999999999999999975421 110111123 456677777 78899885
+
+
+No 25
+>2CT8_A Methionyl-tRNA synthetase/RNA Complex; Ligase, RIKEN Structural Genomics/Proteomics Initiative; HET: MSP; 2.7A {Aquifex aeolicus}
+Probab=76.80  E-value=1.9  Score=32.49  Aligned_cols=54  Identities=19%  Similarity=0.034  Sum_probs=40.8  Template_Neff=11.200
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceeccchhhhhcc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGTVSPLFQKLE   61 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigtvsplfqkle   61 (124)
+                      +++.+..+++|++|+.++++|..||.++... .  .  ......|++++.+.++|+|+|
+T Consensus       443 ~l~~~l~lL~P~~P~~~e~l~~~l~~~~~~~-~--~--~~~~~~~~~~~~~~~~~~~~~  496 (497)
+T 2CT8_A          443 GLFVLTHLLYPITPNKMKEALQMLGEKEFLK-E--L--KPYSKNTYKLGERKILFPKRE  496 (497)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHTTCSCCCS-S--C--CTTSSSCBCCCCCCCSSCCCC
+T ss_pred             HHHHHHHHHCccChHHHHHHHHHhCCchHHH-h--h--cccCCCCcccCCCCCCCCCCC
+Confidence            4677889999999999999999999754211 0  1  112226888999999999997
+
+
+No 26
+>1A8H_A METHIONYL-TRNA SYNTHETASE; AMINOACYL-TRNA SYNTHETASE, ROSSMANN FOLD, RIKEN; 2.0A {Thermus thermophilus} SCOP: a.27.1.1, c.26.1.1
+Probab=73.41  E-value=1.9  Score=32.98  Aligned_cols=56  Identities=23%  Similarity=0.237  Sum_probs=39.5  Template_Neff=10.900
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeeeeecCCCCCceec-cchhhhhc
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNFLCTLPAGHQIGT-VSPLFQKL   60 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnflctlpaghqigt-vsplfqkl   60 (124)
+                      +++.+..+++|++|+.+++||+.||.++... +.....+. +..++++.+ +.++|+|+
+T Consensus       444 ~l~~~~~ll~P~~P~~ae~i~~~l~~~~~~~-~~~~~~~~-~~~~~~~~~~~~~~~~~~  500 (500)
+T 1A8H_A          444 GLRIASILLTPAMPDKMAELRRALGLKEEVR-LEEAERWG-LAEPRPIPEEAPVLFPKK  500 (500)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHTTCCSSCC-GGGGGSSC-CCCCCBCCSCCCCSSCCC
+T ss_pred             HHHHHHHHhCCCCcHHHHHHHHHcCCCchhc-HHHHHHhC-CCCCCCCCCCCCCCCCCC
+Confidence            4778899999999999999999999754211 10111123 456677777 78899875
+
+
+No 27
+>3ZIU_A LEUCYL-TRNA SYNTHETASE (E.C.6.1.1.4); LIGASE; HET: GOL, LSS; 2.07A {MYCOPLASMA MOBILE}
+Probab=57.53  E-value=25  Score=28.59  Aligned_cols=65  Identities=6%  Similarity=0.068  Sum_probs=42.1  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeee-eec---------CCCCCceeccchhhhhccHHHHHHH
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNF-LCT---------LPAGHQIGTVSPLFQKLENDQIESL   68 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnf-lct---------lpaghqigtvsplfqklendqiesl   68 (124)
+                      .++.++.+++||||+.+++||..||.+.... ..|... ...         +..+.++.....+|.+++.+++.++
+T Consensus       532 ~l~~~~~ll~P~~P~~ae~l~~~l~~~~~~~-~~wp~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  606 (637)
+T 3ZIU_A          532 PLKDFAIMFSTIAPHISEELLESLGEKEIMF-QSWPTYENNKILLTKDIVAIQVNGKLRETFEIENDWDEKRVIEE  606 (637)
+T ss_dssp             HHHHHHHHHTTTSHHHHHHHHHHTTCCCGGG-CCCCCCCGGGSSCCCEEEEEEETTEEEEEEEECSSCCSSSTTTT
+T ss_pred             HHHHHHHHHhccHHHHHHHHHHHcCCCCccc-ccCCcCChHHhhccCcEEEEEEccceEEEEEEcCCCCHHHHHHH
+Confidence            5788999999999999999999998643211 111110 000         1125566666778998887665433
+
+
+No 28
+>3ZIU_B LEUCYL-TRNA SYNTHETASE (E.C.6.1.1.4); LIGASE; HET: GOL, LSS; 2.07A {MYCOPLASMA MOBILE}
+Probab=57.53  E-value=25  Score=28.59  Aligned_cols=69  Identities=6%  Similarity=0.094  Sum_probs=26.4  Template_Neff=10.500
+
+Q ss_pred             hhhhhhhhcCCCCCccchhhhhhcCCCCCcceeeeeee-ee---------cCCCCCceeccchhhhhccHHHHHHHHHHH
+Q tr|H0YI27|H0YI    3 IAALLSVMLQPYMPTVSATIQAQLQLPPPACSILLTNF-LC---------TLPAGHQIGTVSPLFQKLENDQIESLRQRF   72 (124)
+Q Consensus         3 iaallsvmlqpymptvsatiqaqlqlpppacsilltnf-lc---------tlpaghqigtvsplfqklendqieslrqrf   72 (124)
+                      .++.++.+++||||+.+++||..||.+.... ..|... ..         .+..+.++.....+|.+++.+++.++..+.
+T Consensus       532 ~l~~~~~ll~P~~P~~ae~l~~~l~~~~~~~-~~wp~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  610 (637)
+T 3ZIU_B          532 PLKDFAIMFSTIAPHISEELLESLGEKEIMF-QSWPTYENNKILLTKDIVAIQVNGKLRETFEIENDWDEKRVIEEAKKL  610 (637)
+T ss_dssp             HHHHHHHHHTTTCHHHHHHHHHHTTCCCGGG-CCCCCCCGGGCCC-----------------------------------
+T ss_pred             HHHHHHHHHhccHHHHHHHHHHHcCCCCccc-ccCCcCChHHhhccCcEEEEEEccceEEEEEEcCCCCHHHHHHHHhcC
+Confidence            5788999999999999999999998643211 111110 00         111245566667799999877765554433
+
+
+No 29
+>4B2Q_V ATP SYNTHASE SUBUNIT ALPHA, MITOCHONDRIAL; HYDROLASE, SUBTOMOGRAM AVERAGE; HET: ADP, ATP, MG; 37.0A {SACCHAROMYCES CEREVISIAE}
+Probab=28.23  E-value=1.4e+02  Score=19.72  Aligned_cols=19  Identities=21%  Similarity=0.420  Sum_probs=10.9  Template_Neff=6.700
+
+Q ss_pred             hhhccHHHHHHHHHHHCCC
+Q tr|H0YI27|H0YI   57 FQKLENDQIESLRQRFGGG   75 (124)
+Q Consensus        57 fqklendqieslrqrfggg   75 (124)
+                      +.+-=.++++.+...+++.
+T Consensus        32 ~~k~l~~el~rL~~~yg~~   50 (66)
+T 4B2Q_V           32 YQQDLDRELFKLKQMYGKA   50 (66)
+T ss_dssp             HHHHHHHHHHHHHHHHCSS
+T ss_pred             HHHHHHHHHHHHHHHHCCc
+Confidence            3443345666777777753
+
+
+No 30
+>2CLY_F ATP SYNTHASE B CHAIN, MITOCHONDRIAL; MITOCHONDRIA, MITOCHONDRION, ION TRANSPORT, CF(0); 2.8A {BOS TAURUS} SCOP: f.45.1.1
+Probab=26.75  E-value=1.5e+02  Score=20.35  Aligned_cols=19  Identities=21%  Similarity=0.420  Sum_probs=11.0  Template_Neff=6.400
+
+Q ss_pred             hhhccHHHHHHHHHHHCCC
+Q tr|H0YI27|H0YI   57 FQKLENDQIESLRQRFGGG   75 (124)
+Q Consensus        57 fqklendqieslrqrfggg   75 (124)
+                      +.+-=.++++.+...+++.
+T Consensus        36 ~~k~l~~el~kL~~~yg~~   54 (77)
+T 2CLY_F           36 YQQDLDRELFKLKQMYGKA   54 (77)
+T ss_dssp             HHHHHHHHHHHHHHHHCSS
+T ss_pred             HHHHHHHHHHHHHHHHCCc
+Confidence            3443345666777777754
+
+
