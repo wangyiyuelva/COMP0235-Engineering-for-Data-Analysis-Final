@@ -1,0 +1,8 @@
+- name: Run pipeline script
+  hosts: mymachines
+  tasks:
+    - name: Run pipeline script
+      ansible.builtin.shell: |
+        cd /home/ec2-user/data/COMP0235
+        source ~/data/virtualenv/venv/bin/activate
+        python pipeline_script.py pipeline_example/test.fa

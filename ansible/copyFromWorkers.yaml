@@ -1,0 +1,9 @@
+- name: Copy from worker to head
+  hosts: cluster_head
+  tasks:
+    - name: Copy from worker to head
+      synchronize:
+        src: /home/ec2-user/data/batch_0
+        dest: /home/ec2-user/data/COMP0235-Engineering-for-Data-Analysis-Final/input_data
+        mode: push
+      delegate_to: "{{ groups['worker1'][0] }}"

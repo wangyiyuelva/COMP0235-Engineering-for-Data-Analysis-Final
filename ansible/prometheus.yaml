@@ -1,0 +1,12 @@
+- name: Prometheus
+  hosts: cluster_worker
+  tasks:
+    - name: Run node exporter
+      ansible.builtin.shell: |
+        mkdir /home/ec2-user/data/prometheus
+        cd /home/ec2-user/data/COMP0235
+        tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz  --directory /home/ec2-user/data/prometheus
+        cd /home/ec2-user/data/prometheus
+        mv node_exporter-1.7.0.linux-amd64 node_exporter-1.7.0
+        cd node_exporter-1.7.0
+        nohup ./node_exporter &

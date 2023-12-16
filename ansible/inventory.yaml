@@ -1,0 +1,14 @@
+cluster_head:
+  hosts:
+    machine01:
+      ansible_host: 10.0.2.246
+cluster_worker:
+  hosts:
+    worker01:
+      ansible_host: 10.0.5.28
+    worker02:
+      ansible_host: 10.0.0.170
+    worker03:
+      ansible_host: 10.0.10.129
+    worker04:
+      ansible_host: 10.0.6.89

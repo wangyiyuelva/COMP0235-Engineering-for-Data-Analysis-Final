@@ -1,0 +1,42 @@
+- name: split data
+  hosts: cluster_head
+  tasks:
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_0
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_1
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_2
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_3
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_4
+        state: directory
+        mode: '0755'
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/COMP0235/input_data/batch_5
+        state: directory
+        mode: '0755'
+    - name: Split
+      ansible.builtin.shell: |
+        cd data/COMP0235
+        python select_needed.py uniprotkb_proteome_UP000005640_2023_10_05.fasta

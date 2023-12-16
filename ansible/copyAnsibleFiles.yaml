@@ -1,0 +1,9 @@
+- name: Copy from head to worker
+  hosts: localhost
+  tasks:
+    - name: Copy ansible playbooks
+      synchronize:
+        src: /home/ec2-user/ansible
+        dest: /home/ec2-user/data/COMP0235
+        mode: pull
+      delegate_to: "{{ groups['cluster_head'][0] }}"

@@ -1,0 +1,7 @@
+- name: Run pipeline script
+  hosts: cluster_head
+  tasks:
+    - name: Run pipeline script
+      ansible.builtin.shell: |
+        cd /home/ec2-user/data/COMP0235
+        nohup ./runMultiFile.sh &

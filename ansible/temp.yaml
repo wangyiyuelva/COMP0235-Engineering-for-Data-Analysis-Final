@@ -1,0 +1,6 @@
+- name: rm
+  hosts: cluster_worker
+  tasks:
+    - name: rm dir
+      ansible.builtin.shell: |
+        rm -rf /home/ec2-user/data/COMP0235

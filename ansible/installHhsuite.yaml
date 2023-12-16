@@ -1,0 +1,10 @@
+- name: install hhsuite
+  hosts: worker1
+  tasks:
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/hhsuite
+        state: directory
+        mode: '0755'
+    - name: Get hhsuite
+      ansible.builtin.shell: cd data/hhsuite && wget https://github.com/soedinglab/hh-suite/releases/download/v3.3.0/hhsuite-3.3.0-SSE2-Linux.tar.gz && tar xvfz hhsuite-3.3.0-SSE2-Linux.tar.gz && rm hhsuite-3.3.0-SSE2-Linux.tar.gz && export PATH="$(pwd)/bin:$(pwd)/scripts:$PATH"

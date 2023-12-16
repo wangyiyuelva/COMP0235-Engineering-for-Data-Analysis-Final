@@ -1,0 +1,7 @@
+# awscli.yml
+- name: install awscli
+  hosts: cluster_worker # and localhost and mymachines
+  tasks:
+  - name: install awscli
+    ansible.builtin.pip:
+      name: awscli

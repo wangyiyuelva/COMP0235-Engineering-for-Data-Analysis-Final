@@ -1,0 +1,50 @@
+- name: Install Tools
+  hosts: cluster_worker
+  tasks:
+    - name: Install yum packages
+      become: true
+      ansible.builtin.yum:
+        name: "{{ packages }}"
+      vars:
+        packages:
+        - python
+        - python-pip
+        - unzip
+        - wget
+        - httpd
+        - git
+    - name: Create data folder for whole package
+      ansible.builtin.file:
+        path: data/COMP0235
+        state: directory
+        mode: '0755'
+    - name: Clone a github repository
+      git:
+        repo: https://github.com/wangyiyuelva/COMP0235-Engineering-for-Data-Analysis-Final.git
+        dest: data/COMP0235
+    - name: Create data folder for s4pred
+      ansible.builtin.file:
+        path: data/s4pred
+        state: directory
+        mode: '0755'
+    - name: Clone a github repository
+      git:
+        repo: https://github.com/psipred/s4pred.git
+        dest: data/s4pred
+    - name: Get weight
+      ansible.builtin.shell: |
+        cd data/s4pred
+        wget http://bioinfadmin.cs.ucl.ac.uk/downloads/s4pred/weights.tar.gz
+        tar -xvzf weights.tar.gz
+        rm weights.tar.gz
+    - name: Create data folder for hhsuite
+      ansible.builtin.file:
+        path: data/hhsuite
+        state: directory
+        mode: '0755'
+    - name: Get hhsuite
+      ansible.builtin.shell: |
+        cd data/hhsuite
+        wget https://github.com/soedinglab/hh-suite/releases/download/v3.3.0/hhsuite-3.3.0-SSE2-Linux.tar.gz 
+        tar xvfz hhsuite-3.3.0-SSE2-Linux.tar.gz 
+        rm hhsuite-3.3.0-SSE2-Linux.tar.gz

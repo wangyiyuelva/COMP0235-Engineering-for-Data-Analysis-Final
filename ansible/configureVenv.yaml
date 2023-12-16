@@ -1,0 +1,19 @@
+- name: Configure virtualenv
+  hosts: cluster_worker
+  tasks:
+    - name: Install virtualenv
+      ansible.builtin.pip:
+        name: virtualenv
+    - name: Create a directory
+      ansible.builtin.file:
+        path: /home/ec2-user/data/virtualenv
+        state: directory
+        mode: '0755' 
+    - name: Activate venv and install torch
+      ansible.builtin.shell: |
+        cd /home/ec2-user/data/virtualenv
+        virtualenv venv
+        source /home/ec2-user/data/virtualenv/venv/bin/activate
+        pip install biopython
+        pip install scipy
+        pip install torch==1.7.1+cpu torchvision==0.8.2+cpu -f https://download.pytorch.org/whl/torch_stable.html

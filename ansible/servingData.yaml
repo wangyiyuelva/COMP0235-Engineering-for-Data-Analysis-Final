@@ -1,0 +1,31 @@
+- name: Setting up the host to serve the data
+  hosts: cluster_worker
+  tasks:
+  - name: Install yum packages
+    become: true
+    ansible.builtin.yum:
+      name: "{{ packages }}"
+    vars:
+      packages:
+      - python
+      - python-pip
+      - unzip
+      - wget
+      - httpd
+  - name: Set up the web server to serve from ~/data
+    become: true
+    ansible.builtin.copy:
+      src: cluster_apache.conf
+      dest: /etc/httpd/conf.d/data.conf
+  - name: Allow apache to view files in ~/data
+    become: true
+    community.general.sefcontext:
+    # This is an additional security setting on "security enhanced linux" to allow us to serve outside the usual HTTP server area.
+      target: '/home/ec2-user/data'
+      setype: httpd_sys_content_t
+      state: present
+  - name: Start service httpd
+    become: true
+    ansible.builtin.service:
+      name: httpd
+      state: restarted

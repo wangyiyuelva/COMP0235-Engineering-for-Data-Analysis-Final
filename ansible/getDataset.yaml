@@ -1,0 +1,19 @@
+- name: Install dataset
+  hosts: worker1
+  tasks:
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/pdb70
+        state: directory
+        mode: '0755'
+    - name: Get dataset
+      ansible.builtin.shell: |
+        cd data/
+        wget https://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/pdb70_from_mmcif_latest.tar.gz
+        tar -xvzf pdb70_from_mmcif_latest.tar.gz --directory /home/ec2-user/data/pdb70
+        rm pdb70_from_mmcif_latest.tar.gz
+    - name: Create data folder
+      ansible.builtin.file:
+        path: data/pdb70/pdb70
+        state: directory
+        mode: '0755'
