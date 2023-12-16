@@ -1,5 +1,5 @@
 - name: Install dataset
-  hosts: worker1
+  hosts: cluster_head
   tasks:
     - name: Create data folder
       ansible.builtin.file:

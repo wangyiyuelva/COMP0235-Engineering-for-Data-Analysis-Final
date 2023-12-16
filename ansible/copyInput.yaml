@@ -1,6 +1,10 @@
 - name: Copy input from head to worker
   hosts: cluster_head
   tasks:
+  - name: Copy data for itself
+    ansible.builtin.shell: |
+      cp /home/ec2-user/data/COMP0235/input_data/batch_0/* input/
+      cp /home/ec2-user/data/COMP0235/input_data/batch_1/* input/
     - name: Copy data from head to worker
       synchronize:
         src: /home/ec2-user/data/COMP0235/input_data/batch_2/*

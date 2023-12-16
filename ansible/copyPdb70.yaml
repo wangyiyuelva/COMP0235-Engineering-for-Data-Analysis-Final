@@ -6,4 +6,22 @@
         src: /home/ec2-user/data/pdb70
         dest: /home/ec2-user/data
         mode: pull
+      delegate_to: "{{ groups['cluster_worker'][0] }}"
+    - name: Copy data from head to worker
+      synchronize:
+        src: /home/ec2-user/data/pdb70
+        dest: /home/ec2-user/data
+        mode: pull
       delegate_to: "{{ groups['cluster_worker'][1] }}"
+    - name: Copy data from head to worker
+      synchronize:
+        src: /home/ec2-user/data/pdb70
+        dest: /home/ec2-user/data
+        mode: pull
+      delegate_to: "{{ groups['cluster_worker'][2] }}"
+    - name: Copy data from head to worker
+      synchronize:
+        src: /home/ec2-user/data/pdb70
+        dest: /home/ec2-user/data
+        mode: pull
+      delegate_to: "{{ groups['cluster_worker'][3] }}"

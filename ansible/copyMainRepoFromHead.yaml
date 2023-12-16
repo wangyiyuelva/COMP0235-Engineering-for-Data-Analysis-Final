@@ -1,4 +1,4 @@
-- name: Copy from head to worker
+- name: Copy COMP0235 from head to worker
   hosts: cluster_head
   tasks:
     - name: Copy data from head to worker
