@@ -1,5 +1,5 @@
 - name: Run pipeline script
-  hosts: cluster_head
+  hosts: cluster
   tasks:
     - name: Run pipeline script
       ansible.builtin.shell: |

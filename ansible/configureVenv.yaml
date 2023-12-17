@@ -1,5 +1,5 @@
 - name: Configure virtualenv
-  hosts: cluster_worker
+  hosts: cluster
   tasks:
     - name: Install virtualenv
       ansible.builtin.pip:

@@ -1,0 +1,6 @@
+- name: Integrate output
+  hosts: cluster_head
+  tasks:
+    - name: Run integration code
+      ansible.builtin.shell: |
+        python collectAllOutput.py

@@ -1,5 +1,5 @@
 - name: Prometheus
-  hosts: cluster_worker
+  hosts: cluster
   tasks:
     - name: Run node exporter
       ansible.builtin.shell: |

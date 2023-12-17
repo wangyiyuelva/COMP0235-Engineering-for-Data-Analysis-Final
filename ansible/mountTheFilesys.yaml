@@ -1,5 +1,5 @@
 - name: on the device, get the data volume mounted and ready to use
-  hosts: cluster_worker
+  hosts: cluster
   tasks:
     - name: create a mount point for the data volume
       ansible.builtin.file:
