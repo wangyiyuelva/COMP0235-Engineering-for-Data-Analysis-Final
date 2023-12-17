@@ -36,7 +36,8 @@ with open('integration.txt', 'w') as outputFile:
           total_gmean += float(items[6])
           denominator += 1
         hitsOutputFile.write(f"{fasta_id},{best_hit_id}\n")
-  
+
+  # print the mean std and mean gmean
   with open('profile_output.csv', 'w') as profileOutputFile:
     profileOutputFile.write("ave_std,ave_gmean\n")
     ave_std = round(total_std/denominator, 2)

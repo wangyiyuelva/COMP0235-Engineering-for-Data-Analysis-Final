@@ -22,6 +22,8 @@ def run_hhsearch(a3m_file):
     """
     Run HHSearch to produce the hhr file
     """
+    # use the path based on your server's filesys
+    # use the running cpu based on how many your server has
     cmd = ['/home/ec2-user/data/hhsuite/bin/hhsearch',
            '-i', a3m_file, '-cpu', '2', '-d', 
            '/home/ec2-user/data/pdb70/pdb70']
@@ -53,6 +55,7 @@ def run_s4pred(input_file, out_file):
     """
     Runs the s4pred secondary structure predictor to produce the horiz file
     """
+    # use the path based on your machine filesys
     cmd = ['/home/ec2-user/data/virtualenv/venv/bin/python3', '/home/ec2-user/data/s4pred/run_model.py',
            '-t', 'horiz', '-T', '1', input_file]
     print(f'STEP 1: RUNNING S4PRED: {" ".join(cmd)}')
@@ -77,9 +80,12 @@ def read_input(file):
 
 if __name__ == "__main__":
     
+    # Add logging info
     FORMAT = '%(asctime)s:%(message)s'
     logging.basicConfig(level=logging.DEBUG, filename='Log.log', filemode='a', format=FORMAT)
     logging.info(' %s start running...', sys.argv[1])
+
+    # the names of intermediary files are based on the name of input .fa file
     sequences = read_input(sys.argv[1])
     tmp_file = "tmp/" + str(sys.argv[1])[12:16] + ".fas"
     horiz_file = "tmp/" + str(sys.argv[1])[12:16] + ".horiz"
