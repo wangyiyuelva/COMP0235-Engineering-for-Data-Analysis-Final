@@ -90,8 +90,8 @@ The ML tools require these Python dependencies
 As a manager of the cluster, the Host should have Prometheus.
 ```shell
 mkdir /home/ec2-user/data/prometheus
-# get into this repository
-cd /home/ec2-user/data/COMP0235
+# download the prometheus with version you want: https://prometheus.io/download/
+# unpack it to the directory
 tar xvfz prometheus-2.45.1.linux-amd64.tar.gz --directory /home/ec2-user/data/prometheus
 cd /home/ec2-user/data/prometheus
 # change name
