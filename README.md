@@ -1,6 +1,7 @@
 # Distributed Pipeline for Predicting 3D Structures of Proteins
 ## About
 This repository is for using a 6-machine cluster (one host and 5 clients) to make predictions of possible 3D structures of proteins in the Human Genome, which is a huge workload. 
+https://github.com/wangyiyuelva/COMP0235-Engineering-for-Data-Analysis-Final
 ## System Architecture
 ![image info](./sysArchi.png)
 ### Host:
